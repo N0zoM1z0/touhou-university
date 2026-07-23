@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="幻想鄉立東方大學：一所把異變變成問題、讓人類與妖怪共同求知的幻想大學。東方Project非官方二次創作。"
+    >
+    <meta name="theme-color" content="#151d2a">
+    <meta property="og:title" content="幻想鄉立東方大學｜Touhou University">
+    <meta
+      property="og:description"
+      content="在常識的邊界之外，重新定義知識。東方Project非官方二次創作網站。"
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/campus-hero.webp">
+    <title>幻想鄉立東方大學｜Touhou University</title>
+    <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/images/campus-hero.webp" as="image" type="image/webp">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要內容</a>
+
+    <div class="site-notice">
+      <span class="notice-dot" aria-hidden="true"></span>
+      <span>東方Project 非官方二次創作企劃</span>
+      <a href="#fanwork">關於本站</a>
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top">
+        <span class="brand-crest" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <path d="M17 12h30v6H17zM12 20h40v5H12zM19 25v25h7V25zm19 0v25h7V25z" />
+            <circle cx="32" cy="37" r="8" />
+            <path d="M8 51h48v5H8z" />
+          </svg>
+        </span>
+        <span>
+          <strong>幻想鄉立東方大學</strong>
+          <small>TOUHOU UNIVERSITY</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="主要導覽">
+        <a href="#about">學校介紹</a>
+        <a href="#academics">學術單位</a>
+        <a href="#faculty">師資</a>
+        <a href="#admissions">招生</a>
+        <a href="#research">成果</a>
+        <a href="#campus">校園風采</a>
+      </nav>
+
+      <a class="header-cta" href="#admissions">
+        <span>入學案內</span>
+        <span aria-hidden="true">↗</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="開啟選單"
+        aria-expanded="false"
+        data-menu-toggle
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" data-mobile-menu hidden>
+      <nav aria-label="行動版導覽">
+        <a href="#about"><span>01</span>學校介紹</a>
+        <a href="#academics"><span>02</span>學術單位</a>
+        <a href="#faculty"><span>03</span>師資陣容</a>
+        <a href="#admissions"><span>04</span>招生情報</a>
+        <a href="#research"><span>05</span>研究成果</a>
+        <a href="#campus"><span>06</span>校園風采</a>
+      </nav>
+    </div>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="assets/images/campus-hero.webp"
+            alt=""
+            width="1680"
+            height="937"
+          >
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+
+        <div class="hero-content container">
+          <p class="eyebrow hero-eyebrow">
+            <span>幻想鄉・境界共同校區</span>
+            <span>EST. 幻想曆 141 / AU</span>
+          </p>
+          <h1 id="hero-title">
+            <span>在常識的邊界之外，</span>
+            <em>重新定義知識。</em>
+          </h1>
+          <p class="hero-lead">
+            當歷史可以被吞噬、藥學來自月都、工程沿著瀑布運轉——
+            學問就不只是答案，而是人類與妖怪共同生活的方法。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">
+              探索東方大學
+              <span aria-hidden="true">↓</span>
+            </a>
+            <button class="button button-ghost" type="button" data-prospectus>
+              2026 入學案內
+              <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-bottom container">
+          <p class="hero-caption">
+            <span>主校區遠眺</span>
+            博麗門・霧湖圖書館・妖怪山觀測所
+          </p>
+          <div class="hero-scroll" aria-hidden="true">
+            <span>SCROLL TO DISCOVER</span>
+            <i></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="校務快訊">
+        <div class="ticker-label">TU NEWS</div>
+        <div class="ticker-track">
+          <div class="ticker-content">
+            <span><b>07.24</b> 開放日：外界生請於博麗側入口集合</span>
+            <i>✦</i>
+            <span><b>07.18</b> 河童工程院完成第三代低落差水輪</span>
+            <i>✦</i>
+            <span><b>07.09</b> 幻想鄉史料館夜間閱覽規則更新</span>
+            <i>✦</i>
+            <span><b>06.30</b> 第九回人妖共生公開講座開始登記</span>
+            <i>✦</i>
+          </div>
+          <div class="ticker-content" aria-hidden="true">
+            <span><b>07.24</b> 開放日：外界生請於博麗側入口集合</span>
+            <i>✦</i>
+            <span><b>07.18</b> 河童工程院完成第三代低落差水輪</span>
+            <i>✦</i>
+            <span><b>07.09</b> 幻想鄉史料館夜間閱覽規則更新</span>
+            <i>✦</i>
+            <span><b>06.30</b> 第九回人妖共生公開講座開始登記</span>
+            <i>✦</i>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="section-intro reveal">
+            <p class="eyebrow"><span>01</span> ABOUT TU / 學校介紹</p>
+            <div>
+              <h2>把異變變成問題，<br>再把問題帶回日常。</h2>
+              <p>
+                幻想鄉立東方大學是一所跨越種族、地域與常識的
+                <strong>虛構研究型大學</strong>。我們從幻想鄉既有的知識傳統出發：
+                稗田家的記錄、寺子屋的歷史、魔法使的實驗、永遠亭的醫藥、
+                河童的工程與天狗的新聞——讓彼此衝突的觀點，在同一張桌上接受檢驗。
+              </p>
+            </div>
+          </div>
+
+          <div class="principles">
+            <article class="principle-card reveal">
+              <span class="principle-number">壹</span>
+              <div class="principle-icon" aria-hidden="true">境</div>
+              <h3>越境求真</h3>
+              <p>不把結界當作知識的終點。每一次跨越，都要留下可追溯的觀察與責任。</p>
+              <small>BOUNDARY &amp; TRUTH</small>
+            </article>
+            <article class="principle-card reveal">
+              <span class="principle-number">貳</span>
+              <div class="principle-icon" aria-hidden="true">共</div>
+              <h3>異類共學</h3>
+              <p>人類、妖怪、神明與妖精共享課堂；差異不被消去，而被納入方法。</p>
+              <small>PLURAL SCHOLARSHIP</small>
+            </article>
+            <article class="principle-card reveal">
+              <span class="principle-number">參</span>
+              <div class="principle-icon" aria-hidden="true">禮</div>
+              <h3>以禮交鋒</h3>
+              <p>符卡規則提醒我們：最尖銳的交鋒，也可以有名稱、有邊界、有退路。</p>
+              <small>RULED ENCOUNTER</small>
+            </article>
+          </div>
+
+          <section class="about-stats reveal" aria-label="校務概覽（AU設定）">
+            <div class="stats-heading">
+              <span class="au-badge">UNIVERSITY AU</span>
+              <p>以下為本企劃世界觀設定，並非原作資料。</p>
+            </div>
+            <dl>
+              <div>
+                <dt><span data-count="7">0</span></dt>
+                <dd>學院 / Schools</dd>
+              </div>
+              <div>
+                <dt><span data-count="18">0</span></dt>
+                <dd>境內實習站</dd>
+              </div>
+              <div>
+                <dt><span data-count="108">0</span></dt>
+                <dd>登錄種族</dd>
+              </div>
+              <div>
+                <dt><span data-count="1">0</span></dt>
+                <dd>道大結界</dd>
+              </div>
+            </dl>
+          </section>
+        </div>
+      </section>
+
+      <section class="section academics" id="academics">
+        <div class="container">
+          <header class="section-header reveal">
+            <div>
+              <p class="eyebrow"><span>02</span> ACADEMICS / 學術單位</p>
+              <h2>七所學院，<br>沒有一條安全的學科邊界。</h2>
+            </div>
+            <p>
+              從結界治理到月都藥理，每一門學科都必須回答同一個問題：
+              這份知識將如何改變幻想鄉的共同生活？
+            </p>
+          </header>
+
+          <div class="school-list reveal">
+            <a class="school-row" href="#faculty" data-accent="#d04a4a">
+              <span class="school-index">01</span>
+              <div>
+                <h3>結界與異變研究院</h3>
+                <p>Boundary &amp; Incident Studies</p>
+              </div>
+              <span class="school-tags">結界治理・異變應對・符卡倫理</span>
+              <span class="school-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="school-row" href="#faculty" data-accent="#456c82">
+              <span class="school-index">02</span>
+              <div>
+                <h3>歷史記錄學院</h3>
+                <p>History, Memory &amp; Village Studies</p>
+              </div>
+              <span class="school-tags">幻想鄉編年・寺子屋教育・史料倫理</span>
+              <span class="school-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="school-row" href="#faculty" data-accent="#7c5a91">
+              <span class="school-index">03</span>
+              <div>
+                <h3>魔法理論與實作學院</h3>
+                <p>Magic Theory &amp; Practice</p>
+              </div>
+              <span class="school-tags">元素理論・人偶工學・高出力實驗</span>
+              <span class="school-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="school-row" href="#faculty" data-accent="#4e8272">
+              <span class="school-index">04</span>
+              <div>
+                <h3>月都醫藥生命學院</h3>
+                <p>Lunar Medicine &amp; Life Science</p>
+              </div>
+              <span class="school-tags">蓬萊藥理・感覺安全・跨種族臨床</span>
+              <span class="school-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="school-row" href="#faculty" data-accent="#2d7a86">
+              <span class="school-index">05</span>
+              <div>
+                <h3>河童工程學院</h3>
+                <p>Kappa Engineering</p>
+              </div>
+              <span class="school-tags">水力系統・觀測儀器・山地維護</span>
+              <span class="school-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="school-row" href="#faculty" data-accent="#9f633f">
+              <span class="school-index">06</span>
+              <div>
+                <h3>天狗新聞傳播學院</h3>
+                <p>Tengu Journalism &amp; Media</p>
+              </div>
+              <span class="school-tags">攝影・採訪・消息來源與訂正</span>
+              <span class="school-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="school-row" href="#faculty" data-accent="#77733c">
+              <span class="school-index">07</span>
+              <div>
+                <h3>信仰與共生政策學院</h3>
+                <p>Faith, Pluralism &amp; Public Life</p>
+              </div>
+              <span class="school-tags">宗教對話・公共領導・人妖共生</span>
+              <span class="school-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faculty" id="faculty">
+        <div class="container">
+          <header class="section-header faculty-header reveal">
+            <div>
+              <p class="eyebrow"><span>03</span> FACULTY / 師資陣容</p>
+              <h2>跟真正做過的人學。</h2>
+            </div>
+            <p>
+              職稱為本校 AU 設定；人物身份、能力與活動領域則依原作錨點整理。
+              我們拒絕把任何一位教師縮成流行梗。
+            </p>
+          </header>
+
+          <div class="faculty-controls reveal" role="group" aria-label="篩選教師">
+            <button class="filter-button active" type="button" data-filter="all">全體</button>
+            <button class="filter-button" type="button" data-filter="boundary">結界・歷史</button>
+            <button class="filter-button" type="button" data-filter="science">魔法・醫藥</button>
+            <button class="filter-button" type="button" data-filter="society">工程・社會</button>
+          </div>
+
+          <div class="faculty-grid">
+            <article class="faculty-card reveal" data-category="boundary">
+              <div class="faculty-portrait portrait-reimu">
+                <span class="portrait-kanji">霊</span>
+                <span class="portrait-mark">☯</span>
+              </div>
+              <div class="faculty-info">
+                <p>INCIDENT STUDIES</p>
+                <h3>博麗 靈夢 <small>Reimu Hakurei</small></h3>
+                <span>異變應對實務・博麗結界術</span>
+              </div>
+              <button class="faculty-more" type="button" aria-label="查看博麗靈夢簡介" data-faculty="reimu">＋</button>
+            </article>
+
+            <article class="faculty-card reveal" data-category="boundary">
+              <div class="faculty-portrait portrait-yukari">
+                <span class="portrait-kanji">境</span>
+                <span class="portrait-mark">◐</span>
+              </div>
+              <div class="faculty-info">
+                <p>BOUNDARY GOVERNANCE</p>
+                <h3>八雲 紫 <small>Yukari Yakumo</small></h3>
+                <span>境界拓撲・幻想鄉治理</span>
+              </div>
+              <button class="faculty-more" type="button" aria-label="查看八雲紫簡介" data-faculty="yukari">＋</button>
+            </article>
+
+            <article class="faculty-card reveal" data-category="boundary">
+              <div class="faculty-portrait portrait-keine">
+                <span class="portrait-kanji">史</span>
+                <span class="portrait-mark">□</span>
+              </div>
+              <div class="faculty-info">
+                <p>HISTORY &amp; MEMORY</p>
+                <h3>上白澤 慧音 <small>Keine Kamishirasawa</small></h3>
+                <span>幻想鄉史・公共記憶</span>
+              </div>
+              <button class="faculty-more" type="button" aria-label="查看上白澤慧音簡介" data-faculty="keine">＋</button>
+            </article>
+
+            <article class="faculty-card reveal" data-category="science">
+              <div class="faculty-portrait portrait-patchouli">
+                <span class="portrait-kanji">魔</span>
+                <span class="portrait-mark">☾</span>
+              </div>
+              <div class="faculty-info">
+                <p>ELEMENTAL MAGIC</p>
+                <h3>帕秋莉・諾蕾姬 <small>Patchouli Knowledge</small></h3>
+                <span>元素魔法・古典文獻</span>
+              </div>
+              <button class="faculty-more" type="button" aria-label="查看帕秋莉簡介" data-faculty="patchouli">＋</button>
+            </article>
+
+            <article class="faculty-card reveal" data-category="science">
+              <div class="faculty-portrait portrait-marisa">
+                <span class="portrait-kanji">星</span>
+                <span class="portrait-mark">✦</span>
+              </div>
+              <div class="faculty-info">
+                <p>APPLIED MAGIC</p>
+                <h3>霧雨 魔理沙 <small>Marisa Kirisame</small></h3>
+                <span>高出力魔法・實驗方法</span>
+              </div>
+              <button class="faculty-more" type="button" aria-label="查看霧雨魔理沙簡介" data-faculty="marisa">＋</button>
+            </article>
+
+            <article class="faculty-card reveal" data-category="science">
+              <div class="faculty-portrait portrait-eirin">
+                <span class="portrait-kanji">月</span>
+                <span class="portrait-mark">⚕</span>
+              </div>
+              <div class="faculty-info">
+                <p>LUNAR MEDICINE</p>
+                <h3>八意 永琳 <small>Eirin Yagokoro</small></h3>
+                <span>藥理學・跨種族醫療</span>
+              </div>
+              <button class="faculty-more" type="button" aria-label="查看八意永琳簡介" data-faculty="eirin">＋</button>
+            </article>
+
+            <article class="faculty-card reveal" data-category="society">
+              <div class="faculty-portrait portrait-nitori">
+                <span class="portrait-kanji">工</span>
+                <span class="portrait-mark">⚙</span>
+              </div>
+              <div class="faculty-info">
+                <p>KAPPA ENGINEERING</p>
+                <h3>河城 荷取 <small>Nitori Kawashiro</small></h3>
+                <span>水力機械・原型製作</span>
+              </div>
+              <button class="faculty-more" type="button" aria-label="查看河城荷取簡介" data-faculty="nitori">＋</button>
+            </article>
+
+            <article class="faculty-card reveal" data-category="society">
+              <div class="faculty-portrait portrait-aya">
+                <span class="portrait-kanji">文</span>
+                <span class="portrait-mark">◉</span>
+              </div>
+              <div class="faculty-info">
+                <p>JOURNALISM</p>
+                <h3>射命丸 文 <small>Aya Shameimaru</small></h3>
+                <span>新聞實務・攝影倫理</span>
+              </div>
+              <button class="faculty-more" type="button" aria-label="查看射命丸文簡介" data-faculty="aya">＋</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section admissions" id="admissions">
+        <div class="admissions-band" aria-hidden="true">
+          <span>ADMISSIONS 2026</span><i>東方大學 入學案內</i><span>ADMISSIONS 2026</span>
+        </div>
+        <div class="container admissions-layout">
+          <div class="admissions-copy reveal">
+            <p class="eyebrow eyebrow-light"><span>04</span> ADMISSIONS / 招生情報</p>
+            <h2>我們不問你來自哪一側。<br>只問你準備跨越什麼。</h2>
+            <p>
+              2026 秋季班接受人類、妖怪、妖精、神靈、魔法使及外界生申請。
+              不要求天生能力；我們更重視你如何描述一次失敗、查證一則傳聞，
+              並與立場不同的人完成工作。
+            </p>
+            <div class="route-pills" role="group" aria-label="招生路線">
+              <span>幻想鄉一般生</span>
+              <span>山地共同推薦</span>
+              <span>外界特別選拔</span>
+              <span>長命種再入學</span>
+            </div>
+            <button class="button button-light" type="button" data-prospectus>
+              開啟入學案內
+              <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+
+          <div class="admission-steps reveal">
+            <ol>
+              <li>
+                <span>01</span>
+                <div>
+                  <small>7.24 — 8.31</small>
+                  <h3>提出「一個值得留下的問題」</h3>
+                  <p>不限格式，最多一千字；妖精可用圖像或實地示範代替。</p>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <small>9.12 — 9.18</small>
+                  <h3>史料與觀察小作業</h3>
+                  <p>區分看見的事、聽來的事，以及你自己推測的事。</p>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <small>9.28</small>
+                  <h3>符卡式口試</h3>
+                  <p>有名稱、有規則、有退路的學術交鋒；不以火力決定錄取。</p>
+                </div>
+              </li>
+              <li>
+                <span>04</span>
+                <div>
+                  <small>10.10</small>
+                  <h3>共同生活面談</h3>
+                  <p>確認住宿、飲食、月相與種族安全需求，結果同日放榜。</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="section research" id="research">
+        <div class="container">
+          <header class="section-header reveal">
+            <div>
+              <p class="eyebrow"><span>05</span> RESEARCH / 研究成果</p>
+              <h2>研究不是把幻想<br>變得無趣。</h2>
+            </div>
+            <div>
+              <p>
+                它讓我們知道：哪些傳說正在保護人，哪些裝置會在雨天漏電，
+                以及一場異變究竟何時需要被制止。
+              </p>
+              <span class="au-badge">本節成果皆為 AU 原創</span>
+            </div>
+          </header>
+
+          <article class="feature-research reveal">
+            <div class="feature-number">R/01</div>
+            <div class="feature-copy">
+              <p>BOUNDARY OBSERVATORY · 2026</p>
+              <h3>「被遺忘之物」跨界漂移索引</h3>
+              <p>
+                結界觀測所與香霖堂建立非侵入式登錄流程，記錄外界物品進入幻想鄉時的
+                語義變化，不嘗試擴大裂隙，也不以持有人記憶作為實驗材料。
+              </p>
+              <a href="#research-list">查看研究摘要 <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="orbit-graphic" aria-hidden="true">
+              <i></i><i></i><i></i><b>境</b>
+            </div>
+          </article>
+
+          <div class="research-list" id="research-list">
+            <article class="research-card reveal">
+              <p><span>工學</span> OPEN HARDWARE</p>
+              <h3>低落差河道的妖力無關水輪</h3>
+              <p>讓不具妖力的村落也能維護的小型水力系統；維修手冊採圖像優先。</p>
+              <dl>
+                <div><dt>27%</dt><dd>效率提升（校內試驗）</dd></div>
+                <div><dt>03</dt><dd>山地測試站</dd></div>
+              </dl>
+            </article>
+            <article class="research-card reveal">
+              <p><span>醫藥</span> PUBLIC HEALTH</p>
+              <h3>竹林迷途者的月相感覺指引</h3>
+              <p>研究波長、焦慮與空間判斷的關係；路徑提示不收集個體能力資料。</p>
+              <dl>
+                <div><dt>42</dt><dd>匿名觀察夜</dd></div>
+                <div><dt>0</dt><dd>強制暴露案例</dd></div>
+              </dl>
+            </article>
+            <article class="research-card reveal">
+              <p><span>人文</span> SOURCE ETHICS</p>
+              <h3>同一場異變的三種報導</h3>
+              <p>把新聞、村落口述與當事人記錄並置，教學生辨認敘述位置與沉默。</p>
+              <dl>
+                <div><dt>86</dt><dd>份對照文本</dd></div>
+                <div><dt>12</dt><dd>次公開訂正</dd></div>
+              </dl>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section campus" id="campus">
+        <div class="container">
+          <header class="section-header reveal">
+            <div>
+              <p class="eyebrow"><span>06</span> CAMPUS LIFE / 校園風采</p>
+              <h2>課堂之外，<br>幻想鄉仍在發生。</h2>
+            </div>
+            <p>
+              從霧湖自習到妖怪山實作，再到一年一度的符卡燈會。
+              校園不是避開差異的結界，而是學習如何一起生活的地方。
+            </p>
+          </header>
+
+          <div class="campus-gallery">
+            <article class="campus-card campus-card-large reveal">
+              <img
+                src="assets/images/library.webp"
+                alt="暮色中的霧湖圖書館，長桌、書架與黃銅天球儀被暖光照亮"
+                loading="lazy"
+                width="1200"
+                height="900"
+              >
+              <div>
+                <p>01 / STUDY</p>
+                <h3>霧湖圖書館・夜間閱覽</h3>
+                <span>館藏會飛，但索書號不會。</span>
+              </div>
+            </article>
+            <article class="campus-card reveal">
+              <img
+                src="assets/images/kappa-lab.webp"
+                alt="妖怪山瀑布旁的河童工房，學生正在測試水力機械"
+                loading="lazy"
+                width="1200"
+                height="900"
+              >
+              <div>
+                <p>02 / FIELDWORK</p>
+                <h3>妖怪山・河童聯合工房</h3>
+                <span>上午設計，午後下水。</span>
+              </div>
+            </article>
+            <article class="campus-card reveal">
+              <img
+                src="assets/images/night-festival.webp"
+                alt="夜間校園燈會，學生在鳥居與櫻花下欣賞符卡形狀的煙火"
+                loading="lazy"
+                width="1200"
+                height="900"
+              >
+              <div>
+                <p>03 / FESTIVAL</p>
+                <h3>春季符卡燈會</h3>
+                <span>彈幕只在天空，攤販留在地上。</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="clubs reveal">
+            <p class="eyebrow"><span>CLUBS</span> 本年度登錄社團</p>
+            <div class="club-list">
+              <span>魔導書修復會</span>
+              <span>非想天則研究會</span>
+              <span>竹林定向部</span>
+              <span>妖精合唱團</span>
+              <span>茶與新聞倫理社</span>
+              <span>夜雀音樂食堂</span>
+              <span>不明飛行物觀測會</span>
+              <span>普通的魔法實驗社</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq">
+        <div class="container faq-layout">
+          <div class="reveal">
+            <p class="eyebrow"><span>07</span> FAQ / 常見問題</p>
+            <h2>入學前，<br>先把問題問完。</h2>
+            <p>如果答案會因滿月而改變，我們會特別註明。</p>
+          </div>
+          <div class="accordion reveal">
+            <details>
+              <summary>沒有特殊能力，也能申請嗎？<span>＋</span></summary>
+              <p>
+                可以。能力不是錄取條件。清楚觀察、願意修正，以及在規則內與他人合作，
+                比先天能力更重要。
+              </p>
+            </details>
+            <details>
+              <summary>外界生要怎麼穿過大結界？<span>＋</span></summary>
+              <p>
+                本校不提供自行穿越教學。錄取後由博麗側窗口安排受控報到；
+                開放日則只在本站進行——這是虛構企劃，不是現實旅行指南。
+              </p>
+            </details>
+            <details>
+              <summary>符卡口試需要戰鬥嗎？<span>＋</span></summary>
+              <p>
+                不需要。它借用「有名稱、有規則、有退路」的結構進行觀點答辯，
+                不測火力，也禁止以能力干預評審。
+              </p>
+            </details>
+            <details>
+              <summary>校內可以自由採訪或讀心嗎？<span>＋</span></summary>
+              <p>
+                不可以。採訪、攝影、讀心、波長干預與歷史操作都受研究倫理規範；
+                能做到一件事，不等於得到同意。
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="closing-mark" aria-hidden="true">幻</div>
+        <div class="container reveal">
+          <p>TOUHOU UNIVERSITY · OPEN CAMPUS 2026</p>
+          <h2 id="closing-title">下一個問題，<br>從你跨過門開始。</h2>
+          <div>
+            <a class="button button-primary" href="#admissions">查看招生資訊 <span>→</span></a>
+            <a class="text-link" href="#top">回到校門 <span>↑</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="fanwork">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <div class="brand">
+            <span class="brand-crest" aria-hidden="true">
+              <svg viewBox="0 0 64 64">
+                <path d="M17 12h30v6H17zM12 20h40v5H12zM19 25v25h7V25zm19 0v25h7V25z" />
+                <circle cx="32" cy="37" r="8" />
+                <path d="M8 51h48v5H8z" />
+              </svg>
+            </span>
+            <span>
+              <strong>幻想鄉立東方大學</strong>
+              <small>TOUHOU UNIVERSITY</small>
+            </span>
+          </div>
+          <p>越境求真・以禮交鋒</p>
+        </div>
+        <div class="footer-nav">
+          <div>
+            <h3>UNIVERSITY</h3>
+            <a href="#about">學校介紹</a>
+            <a href="#academics">學術單位</a>
+            <a href="#faculty">師資陣容</a>
+          </div>
+          <div>
+            <h3>DISCOVER</h3>
+            <a href="#admissions">招生情報</a>
+            <a href="#research">研究成果</a>
+            <a href="#campus">校園風采</a>
+          </div>
+          <div>
+            <h3>CONTACT</h3>
+            <a href="mailto:admissions@touhou-university.example">入學相談室</a>
+            <a href="mailto:archive@touhou-university.example">史料與訂正</a>
+            <a href="https://github.com/N0zoM1z0/touhou-university">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container fanwork-note">
+        <span>UNOFFICIAL FAN WORK</span>
+        <p>
+          本站為東方Project非官方二次創作，與上海愛麗絲幻樂團及 ZUN 無關。
+          Touhou Project 原作：ZUN（上海愛麗絲幻樂團）。校名、課程、職稱、
+          招生制度、研究成果與校務數據皆為本網站 AU 原創設定。
+        </p>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 TOUHOU UNIVERSITY FAN PROJECT</span>
+        <span>MADE BEYOND THE BORDER · NO TRACKING</span>
+      </div>
+    </footer>
+
+    <dialog class="faculty-dialog" data-faculty-dialog>
+      <button class="dialog-close" type="button" aria-label="關閉簡介" data-dialog-close>×</button>
+      <p data-dialog-field></p>
+      <h2 data-dialog-name>師資簡介</h2>
+      <h3 data-dialog-role>教師職務與研究領域</h3>
+      <div class="dialog-columns">
+        <div>
+          <span>原作錨點</span>
+          <p data-dialog-canon></p>
+        </div>
+        <div>
+          <span>本校轉譯 / AU</span>
+          <p data-dialog-au></p>
+        </div>
+      </div>
+      <p class="dialog-note">職稱與課程為本網站 AU 原創，並非官方設定。</p>
+    </dialog>
+
+    <dialog class="prospectus-dialog" data-prospectus-dialog>
+      <button class="dialog-close" type="button" aria-label="關閉入學案內" data-prospectus-close>×</button>
+      <span class="au-badge">ADMISSIONS 2026 · AU</span>
+      <h2>入學案內已展開。</h2>
+      <p>
+        這是一所虛構的大學，所以我們不會收集你的姓名、種族、月相或住址。
+        完整招生流程就在本頁；把問題帶來就好。
+      </p>
+      <a class="button button-primary" href="#admissions" data-prospectus-jump>
+        前往招生流程 <span>↓</span>
+      </a>
+    </dialog>
+
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+  </body>
+</html>
