@@ -1,0 +1,152 @@
+.bbs {
+  background:
+    linear-gradient(rgba(23, 32, 44, 0.028) 1px, transparent 1px),
+    var(--paper);
+  background-size: 100% 6px;
+}
+
+.bbs-shell {
+  margin-top: 52px;
+  border: 1px solid var(--line);
+  background: var(--paper-light);
+  box-shadow: 0 18px 50px rgba(35, 29, 22, 0.07);
+}
+
+.bbs-toolbar {
+  display: flex;
+  min-height: 72px;
+  padding: 13px 18px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  color: var(--white);
+  background: var(--blue);
+}
+
+.bbs-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.bbs-filters button,
+.bbs-new-button {
+  padding: 8px 13px;
+  color: rgba(255, 255, 255, 0.65);
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  font-size: 9px;
+  font-weight: 750;
+}
+
+.bbs-filters button:hover,
+.bbs-filters button.active {
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.42);
+}
+
+.bbs-new-button {
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.bbs-new-button:hover {
+  color: var(--blue);
+  background: var(--white);
+}
+
+.bbs-row {
+  display: grid;
+  min-height: 86px;
+  padding: 17px 21px;
+  grid-template-columns: 85px 1fr 80px;
+  gap: 18px;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+
+.bbs-row[hidden] {
+  display: none;
+}
+
+.bbs-row:hover {
+  background: rgba(228, 218, 200, 0.27);
+}
+
+.bbs-category {
+  width: fit-content;
+  padding: 5px 8px;
+  color: var(--red);
+  border: 1px solid rgba(155, 48, 57, 0.4);
+  font-size: 8px;
+  font-weight: 800;
+}
+
+.bbs-row > div p {
+  margin-bottom: 4px;
+  font-family: var(--serif);
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.bbs-row > div small {
+  color: #8a837b;
+  font-size: 8px;
+}
+
+.pin {
+  margin-right: 7px;
+  color: var(--white);
+  background: var(--red);
+  padding: 3px 5px;
+  font-family: var(--sans);
+  font-size: 7px;
+}
+
+.bbs-replies {
+  color: #8b8379;
+  font-size: 8px;
+  text-align: right;
+}
+
+.bbs-replies b {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 17px;
+}
+
+.bbs-status {
+  display: flex;
+  min-height: 43px;
+  padding: 0 21px;
+  align-items: center;
+  gap: 26px;
+  color: #8c847b;
+  background: var(--paper);
+  font-size: 8px;
+}
+
+.bbs-status span:first-child {
+  margin-right: auto;
+}
+
+.bbs-status i {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: #4c9878;
+}
+
+.user-post {
+  animation: postArrive 0.35s ease-out;
+}
+
+@keyframes postArrive {
+  from {
+    transform: translateY(-8px);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,262 @@
+.faculty-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  transition: transform 0.45s;
+}
+
+.faculty-card:hover .faculty-portrait img {
+  transform: scale(1.035);
+}
+
+.faculty-portrait::before,
+.faculty-portrait::after {
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.26;
+}
+
+@media (max-width: 1180px) {
+  .desktop-nav {
+    gap: 18px;
+  }
+
+  .header-tools {
+    margin-right: 19px;
+    gap: 9px;
+  }
+
+  .header-cta {
+    min-width: 112px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .site-header {
+    grid-template-columns: 1fr auto auto;
+  }
+
+  .header-tools {
+    margin-right: 0;
+  }
+
+  .header-tools .header-cta {
+    display: none;
+  }
+
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .anniversary {
+    grid-template-columns: 130px 1fr auto;
+  }
+
+  .anniversary > p {
+    display: none;
+  }
+
+  .map-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .map-canvas {
+    min-height: 560px;
+  }
+
+  .map-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 28px;
+  }
+
+  .map-detail > p:first-child,
+  .map-detail h3,
+  .map-detail .text-action {
+    grid-column: 1;
+  }
+
+  .map-detail h3 + p,
+  .map-detail dl {
+    grid-column: 2;
+  }
+
+  .map-detail h3 + p {
+    min-height: 0;
+    grid-row: 1 / span 3;
+    padding-top: 28px;
+  }
+
+  .map-detail dl {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 760px) {
+  .site-header {
+    grid-template-columns: 1fr auto;
+  }
+
+  .header-tools {
+    display: none;
+  }
+
+  .mobile-menu {
+    align-content: center;
+  }
+
+  .quick-services {
+    padding: 55px 0 65px;
+  }
+
+  .services-heading {
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .service-tile {
+    min-height: 137px;
+    padding: 18px;
+  }
+
+  .service-tile strong {
+    font-size: 16px;
+  }
+
+  .tradition-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .motto-panel,
+  .uniform-panel {
+    min-height: 410px;
+  }
+
+  .anniversary {
+    padding: 28px 24px;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .anniversary .button {
+    width: 100%;
+  }
+
+  .map-canvas {
+    min-height: 500px;
+  }
+
+  .map-node strong {
+    display: none;
+  }
+
+  .map-node {
+    min-width: 29px;
+  }
+
+  .map-detail {
+    display: flex;
+    padding: 30px 25px;
+  }
+
+  .map-detail h3 + p {
+    padding-top: 0;
+  }
+
+  .map-detail dl {
+    margin: 10px 0 22px;
+  }
+
+  .map-legend {
+    flex-wrap: wrap;
+    gap: 12px 18px;
+  }
+
+  .service-dialog-heading,
+  .research-dialog-head {
+    padding: 47px 25px 25px;
+  }
+
+  [data-service-content],
+  .research-body {
+    padding: 27px 25px 38px;
+  }
+
+  .campus-form,
+  .research-body {
+    grid-template-columns: 1fr;
+  }
+
+  .form-span {
+    grid-column: auto;
+  }
+
+  .form-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .form-actions > span {
+    margin: 0;
+  }
+
+  .room-list {
+    grid-template-columns: 1fr;
+  }
+
+  .research-meta {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .research-meta > div {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .compose-dialog {
+    padding: 47px 25px 30px;
+  }
+
+  .bbs-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .bbs-new-button {
+    align-self: flex-start;
+  }
+
+  .bbs-row {
+    grid-template-columns: 64px 1fr;
+    gap: 12px;
+  }
+
+  .bbs-replies {
+    display: none;
+  }
+
+  .bbs-status {
+    flex-wrap: wrap;
+    padding-block: 12px;
+    gap: 8px 16px;
+  }
+
+  .bbs-status span:first-child {
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-tile {
+    min-height: 122px;
+  }
+
+  .research-meta {
+    grid-template-columns: 1fr;
+  }
+}

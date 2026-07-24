@@ -1,0 +1,83 @@
+<dialog class="faculty-dialog" data-faculty-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉簡介" data-dialog-close>×</button>
+  <p data-dialog-field>FACULTY PROFILE</p>
+  <h2 data-dialog-name>師資簡介</h2>
+  <h3 data-dialog-role>教師職務與研究領域</h3>
+  <div class="dialog-columns">
+    <div>
+      <span>教學專長</span>
+      <p data-dialog-canon></p>
+    </div>
+    <div>
+      <span>本學期授課</span>
+      <p data-dialog-au></p>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="prospectus-dialog" data-prospectus-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉入學案內" data-prospectus-close>×</button>
+  <span class="au-badge">ADMISSIONS 2026</span>
+  <h2>把你的問題帶來。</h2>
+  <p>
+    秋季班網路填報開放至 8 月 31 日。申請可分次儲存；
+    外界生於資料審查通過後另行收到結界通行時刻。
+  </p>
+  <button class="button button-primary" type="button" data-service="application" data-prospectus-close>
+    開始線上填報 <span>→</span>
+  </button>
+</dialog>
+
+<dialog class="service-dialog" data-service-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉校務服務" data-service-close>×</button>
+  <div class="service-dialog-heading">
+    <p data-service-kicker>CAMPUS SERVICE</p>
+    <h2 data-service-title>校務服務</h2>
+    <p data-service-description></p>
+  </div>
+  <div data-service-content></div>
+</dialog>
+
+<dialog class="research-dialog" data-research-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉研究檔案" data-research-close>×</button>
+  <div class="research-dialog-head">
+    <p data-research-kicker>RESEARCH FILE</p>
+    <h2 data-research-title>研究檔案</h2>
+    <p data-research-summary></p>
+  </div>
+  <div class="research-meta" data-research-meta></div>
+  <div class="research-body" data-research-body></div>
+</dialog>
+
+<dialog class="compose-dialog" data-compose-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉發帖視窗" data-compose-close>×</button>
+  <p class="dialog-kicker">CAMPUS BBS</p>
+  <h2>發佈新帖</h2>
+  <form class="campus-form" data-bbs-form>
+    <label>
+      板面
+      <select name="category" required>
+        <option value="course">課程</option>
+        <option value="club">社團</option>
+        <option value="market">交換</option>
+        <option value="notice">校務提案</option>
+      </select>
+    </label>
+    <label>
+      暱稱
+      <input name="author" type="text" maxlength="24" value="匿名學生" required>
+    </label>
+    <label class="form-span">
+      標題
+      <input name="title" type="text" maxlength="70" required placeholder="用一句話說清楚你想討論的事">
+    </label>
+    <label class="form-span">
+      內容
+      <textarea name="body" rows="5" maxlength="800" required placeholder="補充時間、地點與需要的協助"></textarea>
+    </label>
+    <div class="form-actions form-span">
+      <span>發帖將儲存在這台裝置。</span>
+      <button class="button button-primary" type="submit">發佈 <span>→</span></button>
+    </div>
+  </form>
+</dialog>

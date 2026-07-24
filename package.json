@@ -1,0 +1,16 @@
+{
+  "name": "touhou-university",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "new:section": "node scripts/new-section.mjs",
+    "portraits": "node scripts/switch-portrait-set.mjs",
+    "check:i18n": "node scripts/check-i18n.mjs",
+    "check:js": "node scripts/check-js.mjs",
+    "test:browser": "npm run build && node scripts/smoke-browser.mjs",
+    "check": "npm run build && npm run check:i18n && npm run check:js"
+  }
+}

@@ -2,49 +2,102 @@
 
 ## Content architecture
 
-1. **Hero / identity** — immediately states that the university is fictional and
-   the site is an unofficial fan work.
-2. **School introduction** — mission, three principles, world map concept and
-   AU status.
-3. **Faculties** — filterable roster grounded in character anchors.
-4. **Admissions** — applicant routes, four-stage process, FAQ and non-functional
-   “download” interaction for a fictional prospectus.
-5. **Research** — fictional projects with explicit AU framing.
-6. **Campus life** — original visual scenes and student clubs.
-7. **News / footer** — current-looking institutional polish without pretending
-   to be an official publication.
+1. **Hero / identity** — institutional identity, current notices and global
+   language access, with a concise fan-work notice above the header.
+2. **Campus services** — application, room availability, visit reservations,
+   dining, schedules, examinations, map and BBS.
+3. **School introduction and traditions** — mission, seven schools, motto,
+   uniforms and anniversary.
+4. **Faculty** — filterable illustrated roster with detailed teaching profiles.
+5. **Admissions** — applicant routes, four-stage process, FAQ and an interactive
+   locally saved application.
+6. **Research** — complete in-world project files with methods, findings and
+   field notes.
+7. **Campus life and BBS** — original visual scenes, clubs and locally saved
+   community posts.
+8. **Footer** — full rights and fan-work notice.
 
 ## Copy rules
 
-- Traditional Chinese is the primary language.
-- Japanese names appear for identity and atmosphere, not to imply an official
-  Japanese release.
-- Numerical “facts” are deliberately whimsical and marked as AU/internal data.
+- Traditional Chinese is the primary language; Japanese and English cover every
+  public static string and all interactive data.
+- Public institutional copy stays immersive. Editorial source and setting
+  distinctions remain in research documentation.
+- Numerical institutional data is internally consistent and intentionally
+  imaginative.
 - No long quotations from official works.
-- No false real-world application form, payment request or collection of
-  personal data.
-- Links to admissions content remain within the page; email addresses use
-  reserved `.example` domains.
+- No payment request, analytics, tracking or remote submission backend.
+- Application, visitor and BBS records stay in browser local storage.
 
 ## Generated visual assets
 
-All four illustrations were generated specifically for this project on
+All illustrations were generated specifically for this project on
 2026-07-24 using the built-in OpenAI image generation tool. They do not use
 official game sprites, screenshots, scans or another fan artist's work.
 
 | File | Purpose | Prompt summary |
 |---|---|---|
 | `assets/images/campus-hero.webp` | home hero | panoramic fantasy university campus combining shrine, library, bamboo pavilion, observatory, lake and mountain |
+| `assets/images/campus-hero-mobile.webp` | responsive hero derivative | 960 px web-optimised derivative of the original campus hero |
 | `assets/images/library.webp` | campus life / library | twilight hybrid Gothic/Japanese reading room with anonymous students and magical index cards |
 | `assets/images/kappa-lab.webp` | engineering field campus | mountain waterfall workshop with kappa-like engineers, copper instruments and hydropower |
 | `assets/images/night-festival.webp` | student life | lantern festival with anonymous mixed-species students and geometric spell-card fireworks |
+| `assets/images/uniforms.webp` | traditions / uniform | editorial catalogue scene showing summer and winter university uniforms with ink-navy fabric and vermilion cords |
+
+### Faculty portrait set A — formal academic gouache
+
+Files:
+
+`assets/images/faculty/set-a/{reimu,yukari,keine,patchouli,marisa,eirin,nitori,aya}.webp`
+
+Prompt direction: waist-up formal university portraits, restrained editorial
+gouache and ink, parchment-toned backgrounds, character-recognisable clothing
+and motifs, consistent academic framing, no text or watermark. This is the
+active set in `site.config.mjs`.
+
+Tool-owned PNG sources:
+
+- Reimu: `call_v6aEt3x0vG8QwoZbjtNn68lV.png`
+- Yukari: `call_DMm4Ut0nPvHDfjMrNcqC4rRt.png`
+- Keine: `call_SiDeEPHldpFRgqdRid0aTgHM.png`
+- Patchouli: `call_6cetWdCl8a2ovGCWHqVxkNAk.png`
+- Marisa: `call_Vx8kIdLv74f3ZJY3hIiEu9Yf.png`
+- Eirin: `call_jbdlwaXYWIWTFZarKf0QFAXr.png`
+- Nitori: `call_AOBSlPsoSbHq4yOh3EvUSxiP.png`
+- Aya: `call_U7kXeWvJqemqWIMu0ASqmjiS.png`
+
+### Faculty portrait set B — graphic campus poster
+
+Files:
+
+`assets/images/faculty/set-b/{reimu,yukari,keine,patchouli,marisa,eirin,nitori,aya}.webp`
+
+Prompt direction: bold cel-shaded and risograph-like campus poster portraits,
+limited character-specific palettes, paper grain, sharp graphic silhouettes,
+consistent crop, no text or watermark. The full roster can be activated with
+`npm run portraits -- set-b`.
+
+Tool-owned PNG sources:
+
+- Reimu: `call_ZIAL6KzIrn4pvlRmqGDaiFIm.png`
+- Yukari: `call_yv9lRSQOrQFqS9whJGcNTYHI.png`
+- Keine: `call_nP6cnLbMbr42GsbF65OA0Zzy.png`
+- Patchouli: `call_zICM1Kx6VAedYD7IyiovvjgC.png`
+- Marisa: `call_VZRUsgFSfmZ8P776naUkv3Iv.png`
+- Eirin: `call_5px3AvcxfAPZmXWPYYSwQ26T.png`
+- Nitori: `call_qKOSjpHGe2mzYZxwUF8udDbx.png`
+- Aya: `call_1CA9qseyQExJV75YGKacvFwK.png`
+
+Uniform tool-owned PNG source:
+
+`call_McLwbDjcTewvJyXP8CzVp7ks.png`
 
 Shared constraints:
 
 - original editorial gouache/ink composition;
 - no named-artist imitation;
 - no text, logos or watermark;
-- no official character portrait;
+- no official character assets;
 - no screenshots;
 - PG community tone.
 
@@ -65,4 +118,3 @@ Recommended public wording:
 
 > 本站為東方Project非官方二次創作，與上海愛麗絲幻樂團及 ZUN 無關。  
 > Touhou Project 原作：ZUN（上海愛麗絲幻樂團）。
-

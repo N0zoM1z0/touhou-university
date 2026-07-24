@@ -1,0 +1,166 @@
+.traditions {
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 84% 18%, rgba(155, 48, 57, 0.07), transparent 24%),
+    var(--paper);
+}
+
+.tradition-layout {
+  display: grid;
+  margin-top: 55px;
+  grid-template-columns: 0.85fr 1.25fr;
+  gap: 22px;
+}
+
+.motto-panel {
+  display: flex;
+  min-height: 480px;
+  padding: 42px;
+  flex-direction: column;
+  color: var(--white);
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    var(--blue);
+  background-size: 28px 28px;
+}
+
+.motto-panel > p,
+.uniform-panel > div > p {
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.19em;
+  opacity: 0.66;
+}
+
+.motto-panel blockquote {
+  margin: auto 0;
+  font-family: var(--serif);
+  font-size: clamp(43px, 5vw, 69px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+}
+
+.motto-panel blockquote span {
+  display: block;
+}
+
+.motto-panel blockquote span:last-child {
+  color: #e3a59f;
+}
+
+.motto-reading {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding-top: 16px;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 0.17em;
+}
+
+.uniform-panel {
+  position: relative;
+  min-height: 480px;
+  overflow: hidden;
+  background: #d6d1c9;
+}
+
+.uniform-panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 33%;
+  filter: saturate(0.86) contrast(0.97);
+}
+
+.uniform-panel::after {
+  content: "";
+  position: absolute;
+  inset: 45% 0 0;
+  background: linear-gradient(transparent, rgba(11, 19, 28, 0.9));
+}
+
+.uniform-panel > div {
+  position: absolute;
+  right: 34px;
+  bottom: 29px;
+  left: 34px;
+  z-index: 1;
+  color: var(--white);
+}
+
+.uniform-panel h3 {
+  margin-bottom: 5px;
+  font-family: var(--serif);
+  font-size: 30px;
+}
+
+.uniform-panel span {
+  font-size: 11px;
+  opacity: 0.74;
+}
+
+.anniversary {
+  display: grid;
+  margin-top: 22px;
+  padding: 33px 36px;
+  grid-template-columns: 150px 1.2fr 1fr auto;
+  gap: 34px;
+  align-items: center;
+  color: var(--white);
+  background: var(--red);
+}
+
+.anniversary-date {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.anniversary-date strong {
+  font-family: var(--serif);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.anniversary-date span {
+  font-size: 7px;
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0.14em;
+  opacity: 0.65;
+}
+
+.anniversary > div > p {
+  margin-bottom: 6px;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  opacity: 0.7;
+}
+
+.anniversary h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 20px;
+}
+
+.anniversary > p {
+  margin: 0;
+  font-size: 10px;
+  opacity: 0.74;
+}
+
+.button-ghost-dark {
+  min-width: 145px;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+}
+
+.button-ghost-dark:hover {
+  color: var(--red);
+  background: var(--white);
+}
