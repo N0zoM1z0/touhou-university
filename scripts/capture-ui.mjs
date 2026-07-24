@@ -13,6 +13,7 @@ const argumentsMap = Object.fromEntries(
 );
 const section = (argumentsMap.section || "main").replace(/^#/, "");
 const clickSelector = argumentsMap.click || "";
+const clickSelectors = clickSelector.split(";;").map((value) => value.trim()).filter(Boolean);
 const width = Number(argumentsMap.width || 1440);
 const height = Number(argumentsMap.height || 1000);
 const output = path.resolve(argumentsMap.output || `/tmp/touhou-university-${section}-${width}x${height}.png`);
@@ -143,14 +144,18 @@ try {
     return true;
   })()`);
   if (!found) throw new Error(`Section "#${section}" was not found.`);
-  if (clickSelector) {
+  for (const selector of clickSelectors) {
+    await eventually(() =>
+      cdp.evaluate(`Boolean(document.querySelector(${JSON.stringify(selector)}))`),
+    );
     const clicked = await cdp.evaluate(`(() => {
-      const trigger = document.querySelector(${JSON.stringify(clickSelector)});
+      const trigger = document.querySelector(${JSON.stringify(selector)});
       if (!trigger) return false;
       trigger.click();
       return true;
     })()`);
-    if (!clicked) throw new Error(`Click target "${clickSelector}" was not found.`);
+    if (!clicked) throw new Error(`Click target "${selector}" was not found.`);
+    await delay(180);
   }
   await delay(650);
   const screenshot = await cdp.call("Page.captureScreenshot", {

@@ -1,5 +1,6 @@
 import { examBanks } from "../data/exam.js";
 import { getLocale } from "./i18n.js";
+import { showToast } from "./ui.js";
 
 const copy = {
   "zh-Hant": {
@@ -32,6 +33,15 @@ const copy = {
     pass: "基礎合格；幾個觀念值得再看一次解析。",
     revise: "建議先讀完解析，再重新挑戰這份試卷。",
     history: "本機紀錄",
+    myRecords: "我的入學試驗記錄",
+    recordLead: "完整答案與逐題解析只保存在這台裝置。",
+    noRecords: "這台裝置還沒有已完成的入學試驗。",
+    viewRecord: "重開成績與解析",
+    legacyRecord: "舊版只保存成績摘要",
+    deleteRecord: "刪除本機記錄",
+    deleteConfirm: "確定刪除這次入學試驗記錄？",
+    recordDeleted: "已刪除本機入學試驗記錄。",
+    completed: "交卷時間",
   },
   ja: {
     choose: "試験を選ぶ",
@@ -63,6 +73,15 @@ const copy = {
     pass: "基礎は合格。いくつかの解説を読み直しましょう。",
     revise: "解説を読んでから、もう一度挑戦することを勧めます。",
     history: "端末内記録",
+    myRecords: "自分の入学試験記録",
+    recordLead: "答案と問題解説はこの端末だけに保存されます。",
+    noRecords: "この端末には完了した入学試験がありません。",
+    viewRecord: "成績・解説を再表示",
+    legacyRecord: "旧版では成績概要のみ保存",
+    deleteRecord: "端末記録を削除",
+    deleteConfirm: "この受験記録を削除しますか。",
+    recordDeleted: "端末の受験記録を削除しました。",
+    completed: "提出日時",
   },
   en: {
     choose: "Choose a paper",
@@ -94,6 +113,15 @@ const copy = {
     pass: "The foundation is sound; review a few explanations.",
     revise: "Read the explanations, then give this paper another attempt.",
     history: "On-device record",
+    myRecords: "My entrance-exam records",
+    recordLead: "Full answers and item reviews stay on this device only.",
+    noRecords: "No completed entrance exam is stored on this device.",
+    viewRecord: "Reopen result and review",
+    legacyRecord: "Older version saved only a score summary",
+    deleteRecord: "Delete local record",
+    deleteConfirm: "Delete this entrance-exam record?",
+    recordDeleted: "Local entrance-exam record deleted.",
+    completed: "Submitted",
   },
 };
 
@@ -104,6 +132,7 @@ const result = document.querySelector("[data-exam-result]");
 let state = null;
 let lastResult = null;
 let timer = null;
+let currentPanel = "lobby";
 
 function shuffled(values) {
   const copyValues = values.slice();
@@ -115,7 +144,26 @@ function shuffled(values) {
 }
 
 function history() {
-  return JSON.parse(window.localStorage.getItem("tu:exam:history") || "[]");
+  try {
+    const records = JSON.parse(window.localStorage.getItem("tu:exam:history") || "[]");
+    return Array.isArray(records) ? records : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeHistory(records) {
+  window.localStorage.setItem("tu:exam:history", JSON.stringify(records.slice(-40)));
+}
+
+function bankQuestions(bank) {
+  return bank.questions.map((question, index) => ({ ...question, id: `${bank.id}-${index + 1}` }));
+}
+
+function formatDate(value, locale) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "—";
+  return new Intl.DateTimeFormat(locale, { dateStyle: "medium", timeStyle: "short" }).format(date);
 }
 
 function formatTime(seconds) {
@@ -128,6 +176,7 @@ function bankHistory(bankId) {
 }
 
 function showPanel(name) {
+  currentPanel = name;
   lobby.hidden = name !== "lobby";
   runner.hidden = name !== "runner";
   result.hidden = name !== "result";
@@ -135,6 +184,9 @@ function showPanel(name) {
 
 function renderLobby() {
   if (!lobby) return;
+  window.clearInterval(timer);
+  state = null;
+  lastResult = null;
   const locale = getLocale();
   const c = copy[locale];
   lobby.innerHTML = `
@@ -145,6 +197,9 @@ function renderLobby() {
       </div>
       <span>${c.history}</span>
     </div>
+    <button class="exam-records-bar" type="button" data-exam-records>
+      <span>▤</span><p>${c.myRecords}<strong>${history().length} ${c.attempts}</strong></p><i>→</i>
+    </button>
     <div class="exam-bank-grid">
       ${examBanks
         .map((bank) => {
@@ -170,6 +225,7 @@ function renderLobby() {
   lobby.querySelectorAll("[data-exam-start]").forEach((button) => {
     button.addEventListener("click", () => startExam(button.dataset.examStart));
   });
+  lobby.querySelector("[data-exam-records]")?.addEventListener("click", renderRecords);
   showPanel("lobby");
 }
 
@@ -266,7 +322,7 @@ function startExam(bankId) {
   window.clearInterval(timer);
   state = {
     bankId,
-    questions: shuffled(bank.questions),
+    questions: shuffled(bankQuestions(bank)),
     answers: Array(bank.questions.length).fill(null),
     current: 0,
     remaining: bank.duration,
@@ -294,19 +350,27 @@ function calculateResult(autoSubmitted) {
     percent,
     autoSubmitted,
     newBest: percent > previousBest,
+    completedAt: new Date().toISOString(),
   };
 }
 
 function saveResult(examResult) {
   const attempts = history();
-  attempts.push({
+  const record = {
+    schema: 2,
+    id: `TU-E-${Date.now().toString(36).toUpperCase()}`,
     bankId: examResult.bank.id,
     percent: examResult.percent,
     correct: examResult.correct,
     total: examResult.questions.length,
-    completedAt: new Date().toISOString(),
-  });
-  window.localStorage.setItem("tu:exam:history", JSON.stringify(attempts.slice(-40)));
+    questionIds: examResult.questions.map((question) => question.id),
+    answers: examResult.answers.slice(),
+    autoSubmitted: examResult.autoSubmitted,
+    completedAt: examResult.completedAt,
+  };
+  attempts.push(record);
+  writeHistory(attempts);
+  examResult.recordId = record.id;
 }
 
 function gradeMessage(percent, locale) {
@@ -376,10 +440,77 @@ function renderResult() {
     </section>
     <footer class="exam-result-actions">
       <button type="button" data-exam-back>← ${c.back}</button>
+      <button type="button" data-exam-records>${c.myRecords}</button>
       <button class="exam-submit" type="button" data-exam-retake>${c.retake} ↻</button>
     </footer>`;
   result.querySelector("[data-exam-back]")?.addEventListener("click", renderLobby);
+  result.querySelector("[data-exam-records]")?.addEventListener("click", renderRecords);
   result.querySelector("[data-exam-retake]")?.addEventListener("click", () => startExam(bank.id));
+  showPanel("result");
+}
+
+function renderRecords() {
+  if (!result) return;
+  window.clearInterval(timer);
+  state = null;
+  lastResult = null;
+  const locale = getLocale();
+  const c = copy[locale];
+  const records = history().slice().reverse();
+  result.innerHTML = `
+    <section class="exam-records">
+      <header>
+        <div><p>ON THIS DEVICE / ANSWER ARCHIVE</p><h3>${c.myRecords}</h3><span>${c.recordLead}</span></div>
+        <button type="button" data-exam-back>← ${c.back}</button>
+      </header>
+      <div class="exam-record-list">
+        ${records.length ? records.map((record) => {
+          const bank = examBanks.find((item) => item.id === record.bankId);
+          const hasAnswers = Array.isArray(record.answers) && Array.isArray(record.questionIds) && bank;
+          return `
+            <article class="exam-record-card">
+              <header><span>${bank?.code || "LEGACY"}</span><strong>${bank?.title[locale] || record.bankId || "—"}</strong><time>${formatDate(record.completedAt, locale)}</time></header>
+              <div><strong>${record.percent ?? "—"}<small>/ 100</small></strong><p>${record.correct ?? "—"} / ${record.total ?? "—"} ${c.correct}<span>${record.id || c.completed}</span></p></div>
+              ${hasAnswers
+                ? `<button type="button" data-open-exam-record="${record.id}">${c.viewRecord} →</button>`
+                : `<p class="exam-record-legacy">${c.legacyRecord}</p>`}
+              <button type="button" class="exam-record-delete" data-delete-exam-record="${record.id || record.completedAt}">${c.deleteRecord}</button>
+            </article>`;
+        }).join("") : `<p class="exam-records-empty">${c.noRecords}</p>`}
+      </div>
+    </section>`;
+  result.querySelector("[data-exam-back]")?.addEventListener("click", renderLobby);
+  result.querySelectorAll("[data-open-exam-record]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const record = history().find((item) => item.id === button.dataset.openExamRecord);
+      const bank = examBanks.find((item) => item.id === record?.bankId);
+      if (!record || !bank) return;
+      const indexed = new Map(bankQuestions(bank).map((question) => [question.id, question]));
+      const questions = record.questionIds.map((id) => indexed.get(id)).filter(Boolean);
+      if (questions.length !== record.answers.length) return;
+      lastResult = {
+        bank,
+        questions,
+        answers: record.answers.slice(),
+        correct: record.correct,
+        percent: record.percent,
+        autoSubmitted: record.autoSubmitted,
+        newBest: false,
+        completedAt: record.completedAt,
+        recordId: record.id,
+      };
+      renderResult();
+    });
+  });
+  result.querySelectorAll("[data-delete-exam-record]").forEach((button) => {
+    button.addEventListener("click", () => {
+      if (!window.confirm(c.deleteConfirm)) return;
+      const key = button.dataset.deleteExamRecord;
+      writeHistory(history().filter((record) => (record.id || record.completedAt) !== key));
+      renderRecords();
+      showToast(c.recordDeleted);
+    });
+  });
   showPanel("result");
 }
 
@@ -395,7 +526,8 @@ function submitExam(autoSubmitted) {
 export function initExam() {
   renderLobby();
   window.addEventListener("tu:languagechange", () => {
-    if (lastResult) renderResult();
+    if (currentPanel === "result" && !lastResult) renderRecords();
+    else if (lastResult) renderResult();
     else if (state) renderRunner();
     else renderLobby();
   });

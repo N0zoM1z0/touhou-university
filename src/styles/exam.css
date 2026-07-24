@@ -77,6 +77,60 @@
   letter-spacing: 0.14em;
 }
 
+.exam-records-bar {
+  display: grid;
+  width: 100%;
+  min-height: 62px;
+  padding: 11px 29px;
+  grid-template-columns: 35px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  color: var(--ink);
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: #ece2d2;
+  cursor: pointer;
+}
+
+.exam-records-bar > span {
+  color: var(--red);
+  font-size: 19px;
+}
+
+.exam-records-bar p,
+.exam-records-bar strong {
+  display: block;
+  margin: 0;
+}
+
+.exam-records-bar p {
+  font-family: var(--serif);
+  font-size: 12px;
+}
+
+.exam-records-bar strong {
+  margin-top: 3px;
+  color: #847c73;
+  font: 750 7px var(--sans);
+}
+
+.exam-records-bar i {
+  font-style: normal;
+}
+
+.exam-records-bar:hover,
+.exam-records-bar:focus-visible {
+  color: #fff;
+  background: var(--blue);
+  outline: 0;
+}
+
+.exam-records-bar:hover strong,
+.exam-records-bar:focus-visible strong {
+  color: rgba(255, 255, 255, 0.62);
+}
+
 .exam-bank-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -612,13 +666,166 @@
 .exam-result-actions {
   display: grid;
   margin: 30px 55px 45px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
 
 .exam-result-actions > button {
   min-height: 49px;
   margin: 0;
+}
+
+.exam-records {
+  background: var(--paper-light);
+}
+
+.exam-records > header {
+  display: flex;
+  padding: 31px 38px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: #fff;
+  background: var(--blue);
+}
+
+.exam-records > header p,
+.exam-records > header h3,
+.exam-records > header span {
+  display: block;
+  margin: 0;
+}
+
+.exam-records > header p {
+  color: #dfa59c;
+  font-size: 7px;
+  letter-spacing: 0.15em;
+}
+
+.exam-records > header h3 {
+  margin: 5px 0;
+  font-family: var(--serif);
+  font-size: 26px;
+}
+
+.exam-records > header span {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 9px;
+}
+
+.exam-records > header button {
+  padding: 10px 13px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  background: transparent;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+.exam-record-list {
+  display: grid;
+  padding: 25px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.exam-record-card {
+  padding: 20px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.exam-record-card > header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5px 10px;
+}
+
+.exam-record-card > header span {
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 850;
+}
+
+.exam-record-card > header strong {
+  font-family: var(--serif);
+  font-size: 14px;
+}
+
+.exam-record-card > header time {
+  grid-column: 1 / -1;
+  color: #847c73;
+  font-size: 8px;
+}
+
+.exam-record-card > div {
+  display: flex;
+  margin: 17px 0;
+  align-items: end;
+  justify-content: space-between;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.exam-record-card > div > strong {
+  padding: 11px 0;
+  color: var(--red);
+  font: 32px var(--serif);
+}
+
+.exam-record-card > div small {
+  font-size: 9px;
+}
+
+.exam-record-card > div p,
+.exam-record-card > div span {
+  display: block;
+  margin: 0;
+  color: #847c73;
+  font-size: 7px;
+  text-align: right;
+}
+
+.exam-record-card > div span {
+  margin-top: 4px;
+  color: var(--ink);
+}
+
+.exam-record-card > button:not(.exam-record-delete) {
+  width: 100%;
+  padding: 11px;
+  color: #fff;
+  border: 0;
+  background: var(--blue);
+  font-size: 8px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.exam-record-legacy {
+  padding: 11px;
+  color: #847c73;
+  border: 1px dashed var(--line);
+  font-size: 8px;
+  text-align: center;
+}
+
+.exam-record-delete {
+  margin-top: 10px;
+  padding: 0;
+  color: var(--red);
+  border: 0;
+  background: transparent;
+  font-size: 7px;
+  cursor: pointer;
+}
+
+.exam-records-empty {
+  grid-column: 1 / -1;
+  padding: 50px;
+  color: #847c73;
+  border: 1px dashed var(--line);
+  text-align: center;
 }
 
 @media (max-width: 760px) {
@@ -706,6 +913,17 @@
 
   .exam-result-actions {
     margin: 24px;
+    grid-template-columns: 1fr;
+  }
+
+  .exam-records > header {
+    padding: 25px 22px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .exam-record-list {
+    padding: 15px;
     grid-template-columns: 1fr;
   }
 }
