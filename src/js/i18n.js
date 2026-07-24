@@ -235,6 +235,7 @@ export function setLocale(nextLocale, { persist = true } = {}) {
     campus: "pageCampusTitle",
     mytu: "pageMyTuTitle",
     library: "pageLibraryTitle",
+    housing: "pageHousingTitle",
   }[document.body?.dataset.page];
   const university =
     locale === "ja" ? "幻想郷立東方大学" : locale === "en" ? "Touhou University" : "幻想鄉立東方大學";

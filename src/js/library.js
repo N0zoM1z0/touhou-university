@@ -1,6 +1,7 @@
 import { libraryFacets, libraryHolding, libraryHoldings } from "../data/library.js";
 import { recordCampusEvent } from "./campus-ledger.js";
 import { getLocale } from "./i18n.js";
+import { bindImeSafeInput } from "./ime-input.js";
 import { renderPreservingState } from "./render-state.js";
 import { showToast } from "./ui.js";
 
@@ -721,8 +722,10 @@ function bind() {
     tab = button.dataset.libraryTab;
     render();
   }));
-  app.querySelector("[data-library-filters]")?.addEventListener("input", (event) => {
-    const form = event.currentTarget;
+  const filterForm = app.querySelector("[data-library-filters]");
+  const updateFilters = () => {
+    const form = filterForm;
+    if (!form) return;
     filters = {
       query: form.elements.query.value,
       school: form.elements.school.value,
@@ -730,6 +733,10 @@ function bind() {
       danger: form.elements.danger.value,
     };
     render();
+  };
+  bindImeSafeInput(filterForm?.elements.query, updateFilters);
+  filterForm?.addEventListener("change", (event) => {
+    if (event.target.matches("select")) updateFilters();
   });
   app.querySelector("[data-library-reset]")?.addEventListener("click", () => {
     filters = { query: "", school: "", state: "", danger: "" };

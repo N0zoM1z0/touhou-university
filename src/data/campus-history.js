@@ -331,10 +331,9 @@ export const campusHistory = [
   {
     id: "seven-doors-and-misty-desk",
     archiveId: "TU-H-014",
-    commit: null,
-    commitSubject: "Split campus into pages and add usable library",
+    commit: "3af2a5ce2ffdac02f8567ef61e6b850386795fb3",
+    commitSubject: "Merge pull request #13 from N0zoM1z0/agent/split-pages-library",
     recordedAt: "2026-07-25",
-    planned: true,
     category: "library",
     era: l("翌日・第一校鐘前", "翌日・第一校鐘前", "Next day · Before First Bell"),
     title: l(
@@ -351,6 +350,31 @@ export const campusHistory = [
       "小惡魔把「七扇門」訂正成「七份 HTML」。紫把訂正紙折成一扇真正的門；第一位穿過去的學生直接抵達《會飛的書》目前所在的窗簾桿。",
       "小悪魔は「七つの扉」を「七つのHTML」と訂正。紫は訂正票を本物の扉へ折り、最初に通った学生は『飛ぶ本』がいるカーテンレールへ直行した。",
       "Koakuma corrected “seven doors” to “seven HTML files.” Yukari folded the correction into a real door; its first student arrived directly at the curtain rail currently hosting the flying book.",
+    ),
+  },
+  {
+    id: "five-halls-and-one-chair",
+    archiveId: "TU-H-015",
+    commit: null,
+    commitSubject: "Add housing applications and roommate matching",
+    recordedAt: "2026-07-25",
+    planned: true,
+    category: "housing",
+    era: l("翌日・第一校鐘後", "翌日・第一校鐘後", "Next day · After First Bell"),
+    title: l(
+      "五座宿舍開放分房，一把窗邊椅引發首份共住協議",
+      "五つの学生寮が配室開始、窓辺の椅子一脚から最初の共同生活協定",
+      "Five halls begin allocation; one window chair produces the first roommate agreement",
+    ),
+    summary: l(
+      "住宿委員會開始受理月相、翼展、水域、使魔、穿牆與作息需求，並為每份申請提出三個附理由的房間與室友組合。學生可接受或略過分房、保存共住備忘並提出換房請求；同日，圖書館與選課目錄修正了會打斷中文與日文輸入法組字的即時搜尋。",
+      "寮務委員会は月相・翼幅・水域・使い魔・壁抜け・生活時間の希望を受理し、各申請へ理由付きの部屋・同室者三案を提示。学生は配室の受諾・見送り、共同生活メモの保存、転室依頼が可能となった。同日、図書館と履修目録は中国語・日本語IMEの変換を途切れさせる即時検索を修正。",
+      "The housing committee now reads needs around moon phase, wingspan, water, familiars, phasing, and sleep, returning three explained room-and-roommate offers per application. Students may accept or pass, keep a shared-living note, and request a transfer. The library and course catalogues also stop interrupting Chinese and Japanese IME composition during live search.",
+    ),
+    marginalia: l(
+      "首份協議規定使魔、晾衣與起飛都不能永久占用窗邊椅。椅子本人以付喪神候選人的身分提出異議，要求先確認它是否也是室友。",
+      "最初の協定は、使い魔・洗濯物・離陸が窓辺の椅子を永久占有してはならないと規定。椅子本人は付喪神候補として異議を申立て、自分も同室者か先に確認せよと要求した。",
+      "The first agreement says familiars, laundry, and take-off gear may not permanently occupy the window chair. The chair objected as a prospective tsukumogami and asked whether it, too, counts as a roommate.",
     ),
   },
 ];

@@ -44,6 +44,7 @@ const copy = {
     posts: "BBS 發帖",
     courses: "本學期課程",
     library: "借閱／預約",
+    residential: "宿舍／換房",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     drafts: "未完成",
@@ -113,6 +114,11 @@ const copy = {
       "book.returned": "歸還霧湖館藏",
       "book.held": "預約霧湖館藏",
       "book.hold.cancelled": "取消館藏預約",
+      "housing.application.submitted": "提交住宿需求",
+      "housing.offer.declined": "略過分房建議",
+      "housing.assignment.accepted": "接受宿舍房間",
+      "housing.change.requested": "提交換房請求",
+      "housing.change.cancelled": "撤回換房請求",
     },
     document: {
       university: "幻想鄉立東方大學",
@@ -164,6 +170,7 @@ const copy = {
     posts: "BBS 投稿",
     courses: "今学期の履修",
     library: "貸出／予約",
+    residential: "学生寮／転室",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     drafts: "未完了",
@@ -228,6 +235,11 @@ const copy = {
       "book.returned": "霧の湖資料を返却",
       "book.held": "霧の湖資料を予約",
       "book.hold.cancelled": "資料予約を取消",
+      "housing.application.submitted": "入寮希望を提出",
+      "housing.offer.declined": "配室案を見送る",
+      "housing.assignment.accepted": "学生寮の部屋を受諾",
+      "housing.change.requested": "転室依頼を提出",
+      "housing.change.cancelled": "転室依頼を撤回",
     },
     document: {
       university: "幻想郷立東方大学",
@@ -279,6 +291,7 @@ const copy = {
     posts: "BBS posts",
     courses: "Current courses",
     library: "Loans / holds",
+    residential: "Housing / transfers",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     drafts: "Unfinished",
@@ -343,6 +356,11 @@ const copy = {
       "book.returned": "Returned library holding",
       "book.held": "Placed library hold",
       "book.hold.cancelled": "Cancelled library hold",
+      "housing.application.submitted": "Submitted housing needs",
+      "housing.offer.declined": "Passed on a room offer",
+      "housing.assignment.accepted": "Accepted a residence room",
+      "housing.change.requested": "Submitted a room-transfer request",
+      "housing.change.cancelled": "Withdrew a room-transfer request",
     },
     document: {
       university: "TOUHOU UNIVERSITY OF GENSOKYO",
@@ -420,14 +438,33 @@ function allRecords() {
   const posts = readJson("tu:bbs:posts", []);
   const libraryLoans = readJson("tu:library:loans", []);
   const libraryHolds = readJson("tu:library:holds", []);
+  const housingApplications = readJson("tu:housing:applications", []);
+  const housingAssignments = readJson("tu:housing:assignments", []);
+  const housingChanges = readJson("tu:housing:room-changes", []);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
     Number(Boolean(readJson("tu:gaokao:draft", null)));
+  const housingDraft = Number(Boolean(readJson("tu:housing:draft", null)));
   const courseSummary = courseRegistrationSummary();
   const activeLibrary = (Array.isArray(libraryLoans) ? libraryLoans : []).filter((record) => record.status === "active").length
     + (Array.isArray(libraryHolds) ? libraryHolds : []).filter((record) => record.status === "active").length;
-  return { applications, reviews, visits, entranceExams, unifiedExams, posts, examCount, drafts, courseSummary, activeLibrary };
+  const activeHousing = (Array.isArray(housingAssignments) ? housingAssignments : []).filter((record) => record.status === "active").length
+    + (Array.isArray(housingChanges) ? housingChanges : []).filter((record) => record.status === "under-review").length;
+  return {
+    applications,
+    reviews,
+    visits,
+    entranceExams,
+    unifiedExams,
+    posts,
+    examCount,
+    drafts: drafts + housingDraft,
+    courseSummary,
+    activeLibrary,
+    housingApplications,
+    activeHousing,
+  };
 }
 
 function bestExam(records, locale, c) {
@@ -581,6 +618,7 @@ function eventLabel(event, locale, c) {
   if (event.type === "bbs.posted") return `${base} · ${payload.title || ""}`;
   if (event.type.startsWith("course.")) return `${base} · ${payload.courseCode || ""}`;
   if (event.type.startsWith("book.")) return `${base} · ${payload.callNumber || payload.holdingId || ""}`;
+  if (event.type.startsWith("housing.")) return `${base} · ${payload.roomId || payload.applicationId || payload.requestId || ""}`;
   return base;
 }
 
@@ -639,6 +677,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="campus.html#bbs"><span>${c.posts}</span><strong>${records.posts.length}</strong></a>
           <a href="mytu.html#course-registration"><span>${c.courses}</span><strong>${records.courseSummary.enrolled}</strong></a>
           <a href="library.html#library"><span>${c.library}</span><strong>${records.activeLibrary}</strong></a>
+          <a href="housing.html#housing-account"><span>${c.residential}</span><strong>${records.activeHousing}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>
       </section>

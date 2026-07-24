@@ -1,0 +1,1288 @@
+.housing-section {
+  position: relative;
+  padding: 70px 0 120px;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(247, 242, 232, 0.97), rgba(238, 229, 213, 0.94)),
+    repeating-linear-gradient(90deg, transparent 0 71px, rgba(69, 50, 33, 0.035) 71px 72px);
+}
+
+.housing-section::before {
+  position: absolute;
+  inset: 22px 0 auto;
+  height: 7px;
+  border-block: 1px solid rgba(35, 53, 66, 0.12);
+  content: "";
+}
+
+.housing-hero {
+  display: grid;
+  grid-template-columns: minmax(330px, 0.7fr) minmax(0, 1.3fr);
+  min-height: 445px;
+  overflow: hidden;
+  border: 1px solid rgba(24, 44, 59, 0.3);
+  border-radius: 5px 5px 1px 1px;
+  background: #1c3544;
+  box-shadow: 0 24px 60px rgba(44, 31, 20, 0.17);
+}
+
+.housing-hero-art {
+  position: relative;
+  min-height: 410px;
+  overflow: hidden;
+  border-right: 1px solid rgba(255, 255, 255, 0.13);
+  background:
+    linear-gradient(180deg, #b9cad0 0 37%, #6d8990 38% 41%, #273f48 42%),
+    #273f48;
+}
+
+.housing-hero-art::before {
+  position: absolute;
+  inset: 37% -4% 0;
+  clip-path: polygon(0 100%, 0 38%, 8% 38%, 8% 14%, 14% 14%, 14% 51%, 22% 51%, 22% 28%, 30% 28%, 30% 62%, 36% 62%, 36% 0, 49% 0, 49% 61%, 57% 61%, 57% 24%, 67% 24%, 67% 48%, 76% 48%, 76% 8%, 88% 8%, 88% 46%, 100% 46%, 100% 100%);
+  background: #172a35;
+  content: "";
+}
+
+.housing-hero-art::after {
+  position: absolute;
+  inset: 52% 5% 0;
+  background:
+    repeating-linear-gradient(90deg, transparent 0 31px, rgba(242, 197, 112, 0.67) 32px 38px, transparent 39px 56px),
+    repeating-linear-gradient(0deg, transparent 0 44px, rgba(255, 255, 255, 0.07) 45px 46px);
+  content: "";
+  mix-blend-mode: screen;
+}
+
+.housing-moon {
+  position: absolute;
+  z-index: 1;
+  top: 34px;
+  right: 42px;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: #f0d49a;
+  box-shadow: 0 0 34px rgba(240, 212, 154, 0.55);
+}
+
+.housing-hero-art > i {
+  position: absolute;
+  z-index: 2;
+  bottom: 40px;
+  width: 2px;
+  height: 78px;
+  background: rgba(235, 200, 130, 0.72);
+  box-shadow: 0 0 12px rgba(235, 200, 130, 0.4);
+}
+
+.housing-hero-art > i::after {
+  position: absolute;
+  top: -7px;
+  left: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ebc882;
+  content: "";
+}
+
+.housing-hero-art > i:nth-of-type(1) { left: 13%; height: 61px; }
+.housing-hero-art > i:nth-of-type(2) { left: 31%; height: 92px; }
+.housing-hero-art > i:nth-of-type(3) { left: 54%; height: 52px; }
+.housing-hero-art > i:nth-of-type(4) { left: 72%; height: 105px; }
+.housing-hero-art > i:nth-of-type(5) { left: 89%; height: 68px; }
+
+.housing-hero-art > b {
+  position: absolute;
+  z-index: 3;
+  top: 24px;
+  left: 24px;
+  padding: 15px 10px;
+  border: 1px solid rgba(27, 46, 57, 0.42);
+  background: rgba(246, 240, 225, 0.86);
+  color: #9b3039;
+  font: 800 13px/1.35 var(--serif);
+  text-align: center;
+  transform: rotate(-2deg);
+}
+
+.housing-hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 58px 40px;
+  color: #fff;
+}
+
+.housing-hero-copy > p {
+  margin: 0 0 14px;
+  color: #dbbd79;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+}
+
+.housing-hero-copy h2 {
+  max-width: 680px;
+  margin: 0;
+  font: 700 clamp(35px, 4.4vw, 62px)/1.06 var(--serif);
+  letter-spacing: -0.04em;
+}
+
+.housing-hero-copy > span {
+  max-width: 700px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.housing-hero-copy dl {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  margin: 31px 0 0;
+  padding-top: 19px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.housing-hero-copy dl div {
+  display: flex;
+  min-width: 0;
+  flex-direction: column-reverse;
+  padding-right: 10px;
+}
+
+.housing-hero-copy dt {
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+}
+
+.housing-hero-copy dd {
+  margin: 0;
+  color: #e4c980;
+  font: 700 24px var(--serif);
+}
+
+.housing-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  border-bottom: 1px solid rgba(28, 53, 68, 0.22);
+}
+
+.housing-tabs button {
+  position: relative;
+  display: flex;
+  min-height: 66px;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 24px;
+  border: 0;
+  background: transparent;
+  color: var(--ink-soft);
+  font: 800 13px var(--sans);
+  cursor: pointer;
+}
+
+.housing-tabs button::after {
+  position: absolute;
+  inset: auto 0 -1px;
+  height: 3px;
+  background: transparent;
+  content: "";
+}
+
+.housing-tabs button[aria-selected="true"] {
+  background: rgba(255, 255, 255, 0.4);
+  color: #1c3544;
+}
+
+.housing-tabs button[aria-selected="true"]::after {
+  background: var(--red);
+}
+
+.housing-tabs button > span {
+  display: grid;
+  width: 29px;
+  height: 29px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid rgba(28, 53, 68, 0.2);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 11px var(--serif);
+}
+
+.housing-tabs button > b {
+  margin-left: auto;
+  padding: 3px 7px;
+  border-radius: 20px;
+  background: rgba(28, 53, 68, 0.09);
+  font-size: 9px;
+}
+
+.housing-view {
+  min-height: 640px;
+  padding-top: 36px;
+}
+
+.housing-view-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(290px, 0.75fr);
+  gap: 45px;
+  align-items: end;
+  margin-bottom: 25px;
+}
+
+.housing-view-heading p,
+.housing-room-card header p,
+.housing-roommate-card > p:first-child,
+.housing-agreement header p,
+.housing-change > header p {
+  margin: 0 0 6px;
+  color: var(--red);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.17em;
+}
+
+.housing-view-heading h3,
+.housing-agreement header h3,
+.housing-change > header h3 {
+  margin: 0;
+  font: 700 clamp(28px, 3vw, 41px)/1.08 var(--serif);
+  letter-spacing: -0.03em;
+}
+
+.housing-view-heading > span,
+.housing-agreement header > span,
+.housing-change > header > span {
+  color: var(--ink-soft);
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+.housing-overview {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.36fr) minmax(0, 0.64fr);
+  gap: 18px;
+}
+
+.residence-list {
+  display: flex;
+  max-height: 690px;
+  flex-direction: column;
+  gap: 6px;
+  overflow-y: auto;
+}
+
+.residence-list button {
+  display: grid;
+  grid-template-columns: 38px 1fr auto;
+  gap: 11px;
+  align-items: center;
+  padding: 15px 14px;
+  border: 1px solid rgba(28, 53, 68, 0.16);
+  border-radius: 3px;
+  background: rgba(255, 253, 248, 0.64);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.residence-list button[aria-pressed="true"] {
+  border-color: rgba(155, 48, 57, 0.42);
+  background: #fffdf8;
+  box-shadow: inset 4px 0 var(--red), 0 8px 22px rgba(54, 38, 24, 0.08);
+}
+
+.residence-list button i {
+  display: grid;
+  width: 37px;
+  height: 37px;
+  place-items: center;
+  border: 1px solid rgba(155, 48, 57, 0.24);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 14px var(--serif);
+  font-style: normal;
+}
+
+.residence-list button span {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.residence-list button strong {
+  font: 700 15px var(--serif);
+}
+
+.residence-list button small {
+  margin-top: 3px;
+  overflow: hidden;
+  color: var(--ink-soft);
+  font-size: 9px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.residence-list button > b {
+  color: var(--red);
+  font-size: 9px;
+}
+
+.residence-file {
+  position: relative;
+  padding: 35px 38px 32px;
+  border: 1px solid rgba(28, 53, 68, 0.18);
+  border-top: 4px solid #1c3544;
+  background:
+    linear-gradient(145deg, rgba(255, 254, 250, 0.96), rgba(250, 245, 235, 0.92)),
+    #fff;
+  box-shadow: 0 18px 42px rgba(48, 34, 22, 0.1);
+}
+
+.residence-file::after {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  width: 78px;
+  height: 26px;
+  border: 1px solid rgba(155, 48, 57, 0.15);
+  background: repeating-linear-gradient(90deg, rgba(155, 48, 57, 0.05) 0 7px, transparent 7px 14px);
+  content: "";
+  transform: rotate(2deg);
+}
+
+.residence-file > header {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+
+.residence-file > header > span {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 2px double rgba(155, 48, 57, 0.5);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 23px var(--serif);
+  transform: rotate(-4deg);
+}
+
+.residence-file > header p {
+  margin: 0;
+  color: var(--red);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+}
+
+.residence-file > header h3 {
+  margin: 3px 0 2px;
+  font: 700 30px var(--serif);
+}
+
+.residence-file > header small {
+  color: var(--ink-soft);
+}
+
+.residence-description {
+  margin: 24px 0;
+  color: var(--ink-soft);
+  line-height: 1.9;
+}
+
+.residence-facts {
+  display: grid;
+  grid-template-columns: 0.72fr 1.28fr;
+  margin: 0;
+  border-block: 1px solid rgba(28, 53, 68, 0.13);
+}
+
+.residence-facts div {
+  padding: 15px 17px 15px 0;
+}
+
+.residence-facts div + div {
+  padding-left: 19px;
+  border-left: 1px solid rgba(28, 53, 68, 0.13);
+}
+
+.residence-facts dt,
+.residence-room-features h4 {
+  margin: 0 0 5px;
+  color: var(--red);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+}
+
+.residence-facts dd {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.residence-room-features {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 27px;
+  margin-top: 22px;
+}
+
+.residence-room-features ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.residence-room-features section:first-child li {
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
+  padding: 10px 0;
+  border-bottom: 1px dotted rgba(28, 53, 68, 0.2);
+}
+
+.residence-room-features li strong {
+  font: 700 12px var(--serif);
+}
+
+.residence-room-features li span {
+  color: var(--ink-soft);
+  font-size: 10px;
+  text-align: right;
+}
+
+.housing-feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.housing-feature-list li {
+  padding: 6px 9px;
+  border: 1px solid rgba(28, 53, 68, 0.15);
+  border-radius: 2px;
+  background: rgba(28, 53, 68, 0.045);
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.residence-file > aside {
+  margin: 25px 0 19px;
+  padding: 16px 18px 14px 22px;
+  border-left: 3px solid var(--red);
+  background: rgba(155, 48, 57, 0.055);
+  transform: rotate(-0.25deg);
+}
+
+.residence-file > aside span {
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+}
+
+.residence-file > aside p {
+  margin: 6px 0 0;
+  font: 700 12px/1.65 var(--serif);
+}
+
+.housing-form {
+  position: relative;
+  padding: 0 38px 28px;
+  border: 1px solid rgba(28, 53, 68, 0.2);
+  border-top: 4px solid #1c3544;
+  background: rgba(255, 253, 248, 0.88);
+  box-shadow: 0 17px 40px rgba(48, 34, 22, 0.08);
+}
+
+.housing-form-stamp {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 13px;
+  align-items: center;
+  margin: 0 -38px 23px;
+  padding: 17px 38px;
+  border-bottom: 1px solid rgba(28, 53, 68, 0.14);
+  background: rgba(28, 53, 68, 0.045);
+}
+
+.housing-form-stamp span {
+  color: var(--red);
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.housing-form-stamp strong {
+  font: 700 15px var(--serif);
+}
+
+.housing-form-stamp code {
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.housing-form fieldset {
+  margin: 0;
+  padding: 24px 0 29px;
+  border: 0;
+  border-bottom: 1px solid rgba(28, 53, 68, 0.13);
+}
+
+.housing-form legend {
+  padding: 0;
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.housing-form-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.housing-needs-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  row-gap: 18px;
+}
+
+.housing-form label,
+.housing-change form label {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 7px;
+  color: var(--ink-soft);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.housing-form select,
+.housing-form textarea,
+.housing-change select,
+.housing-change textarea {
+  width: 100%;
+  border: 1px solid rgba(28, 53, 68, 0.2);
+  border-radius: 2px;
+  outline: none;
+  background: #fffefa;
+  color: var(--ink);
+  font: 600 11px var(--sans);
+}
+
+.housing-form select,
+.housing-change select {
+  height: 46px;
+  padding: 0 30px 0 12px;
+}
+
+.housing-form textarea,
+.housing-change textarea {
+  padding: 12px;
+  line-height: 1.65;
+  resize: vertical;
+}
+
+.housing-form select:focus,
+.housing-form textarea:focus,
+.housing-change select:focus,
+.housing-change textarea:focus {
+  border-color: rgba(155, 48, 57, 0.58);
+  box-shadow: 0 0 0 3px rgba(155, 48, 57, 0.08);
+}
+
+.housing-note {
+  margin-top: 25px;
+}
+
+.housing-form > footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.housing-form > footer > span {
+  margin-right: auto;
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.housing-application-meta {
+  flex-wrap: wrap;
+  gap: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -7px 0 13px;
+  padding: 10px 13px;
+  border-block: 1px solid rgba(28, 53, 68, 0.12);
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.housing-application-meta label {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink-soft);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.housing-application-meta select {
+  min-width: min(420px, 100%);
+  height: 38px;
+  padding: 0 30px 0 11px;
+  border: 1px solid rgba(28, 53, 68, 0.18);
+  background: #fffefa;
+  color: var(--ink);
+  font: 600 10px var(--sans);
+}
+
+.housing-offers {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.housing-offer {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  padding: 23px 22px 20px;
+  border: 1px solid rgba(28, 53, 68, 0.18);
+  border-top: 4px solid #1c3544;
+  background: rgba(255, 254, 250, 0.9);
+  box-shadow: 0 14px 31px rgba(47, 35, 23, 0.08);
+}
+
+.housing-offer:nth-child(2) { border-top-color: #8c6d39; }
+.housing-offer:nth-child(3) { border-top-color: #8d3942; }
+.housing-offer.is-declined { opacity: 0.53; filter: grayscale(0.35); }
+
+.housing-offer > header {
+  display: grid;
+  grid-template-columns: 29px 1fr auto;
+  gap: 10px;
+  align-items: start;
+}
+
+.housing-offer > header > span {
+  color: rgba(155, 48, 57, 0.38);
+  font: 700 20px var(--serif);
+}
+
+.housing-offer > header p {
+  margin: 0;
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 900;
+}
+
+.housing-offer > header h4 {
+  margin: 4px 0 0;
+  font: 700 17px var(--serif);
+}
+
+.housing-offer > header > b {
+  color: #1c3544;
+  font: 700 30px/0.85 var(--serif);
+  text-align: right;
+}
+
+.housing-offer > header > b small {
+  display: block;
+  margin-top: 7px;
+  color: var(--ink-soft);
+  font: 800 7px var(--sans);
+  text-transform: uppercase;
+}
+
+.housing-offer-person {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  margin: 18px 0 12px;
+  padding: 13px;
+  background: rgba(28, 53, 68, 0.055);
+}
+
+.housing-offer-person i,
+.housing-roommate-card i {
+  display: grid;
+  width: 43px;
+  height: 43px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid rgba(155, 48, 57, 0.3);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 15px var(--serif);
+  font-style: normal;
+}
+
+.housing-offer-person div {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.housing-offer-person span {
+  color: var(--ink-soft);
+  font-size: 8px;
+}
+
+.housing-offer-person strong {
+  margin: 2px 0;
+  font: 700 14px var(--serif);
+}
+
+.housing-offer-person small {
+  overflow: hidden;
+  color: var(--ink-soft);
+  font-size: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.housing-offer > p {
+  min-height: 62px;
+  margin: 0 0 13px;
+  color: var(--ink-soft);
+  font-size: 10px;
+  line-height: 1.65;
+}
+
+.housing-offer > dl {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 0 0 18px;
+}
+
+.housing-offer > dl div {
+  min-height: 83px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(28, 53, 68, 0.12);
+}
+
+.housing-offer dt {
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 900;
+}
+
+.housing-offer dd {
+  margin: 6px 0 0;
+}
+
+.housing-offer dd ul {
+  margin: 0;
+  padding-left: 15px;
+  color: var(--ink-soft);
+  font-size: 9px;
+  line-height: 1.6;
+}
+
+.housing-offer > footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+  margin-top: auto;
+}
+
+.housing-offer > footer > span {
+  width: 100%;
+  margin-bottom: 3px;
+  color: #1c3544;
+  font: 700 14px var(--serif);
+}
+
+.housing-offer > footer .button {
+  min-height: 39px;
+  flex: 1;
+  padding: 8px 10px;
+  font-size: 9px;
+}
+
+.housing-offer > footer > b {
+  color: var(--ink-soft);
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.housing-new-link {
+  display: block;
+  margin: 22px auto 0;
+  padding: 6px;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+  color: var(--red);
+  font: 800 10px var(--sans);
+  cursor: pointer;
+}
+
+.housing-empty {
+  display: flex;
+  min-height: 190px;
+  align-items: center;
+  gap: 22px;
+  padding: 32px 38px;
+  border: 1px solid rgba(28, 53, 68, 0.18);
+  border-left: 4px solid var(--red);
+  background: rgba(255, 253, 248, 0.8);
+}
+
+.housing-empty > span {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 2px double rgba(155, 48, 57, 0.4);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 20px var(--serif);
+}
+
+.housing-empty > div {
+  flex: 1;
+}
+
+.housing-empty h3 {
+  margin: 0;
+  font: 700 24px var(--serif);
+}
+
+.housing-empty p {
+  margin: 7px 0 0;
+  color: var(--ink-soft);
+}
+
+.housing-account {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 14px;
+}
+
+.housing-room-card,
+.housing-roommate-card {
+  padding: 28px 30px;
+  border: 1px solid rgba(28, 53, 68, 0.18);
+  background: rgba(255, 254, 250, 0.9);
+}
+
+.housing-room-card {
+  border-top: 4px solid #1c3544;
+}
+
+.housing-room-card > header {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+
+.housing-room-card > header > span {
+  display: grid;
+  width: 60px;
+  height: 60px;
+  place-items: center;
+  border: 2px double rgba(155, 48, 57, 0.44);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 21px var(--serif);
+}
+
+.housing-room-card h3 {
+  display: inline;
+  margin: 0 10px 0 0;
+  font: 700 32px var(--serif);
+}
+
+.housing-room-card header strong {
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.housing-room-card dl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 25px 0 20px;
+  border-block: 1px solid rgba(28, 53, 68, 0.13);
+}
+
+.housing-room-card dl div {
+  padding: 15px 12px 15px 0;
+}
+
+.housing-room-card dt {
+  color: var(--ink-soft);
+  font-size: 8px;
+}
+
+.housing-room-card dd {
+  margin: 5px 0 0;
+  font: 700 13px var(--serif);
+}
+
+.housing-roommate-card {
+  border-top: 4px solid #8c6d39;
+}
+
+.housing-roommate-card > div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 20px 0 9px;
+}
+
+.housing-roommate-card h3 {
+  margin: 0;
+  font: 700 22px var(--serif);
+}
+
+.housing-roommate-card > span {
+  color: var(--red);
+  font-size: 9px;
+}
+
+.housing-roommate-card > p:last-child {
+  margin: 17px 0 0;
+  color: var(--ink-soft);
+  font-size: 11px;
+  line-height: 1.75;
+}
+
+.housing-agreement,
+.housing-change {
+  margin-top: 17px;
+  padding: 29px 31px;
+  border: 1px solid rgba(28, 53, 68, 0.18);
+  background: rgba(255, 253, 248, 0.83);
+}
+
+.housing-agreement > header,
+.housing-change > header {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 35px;
+  align-items: end;
+  margin-bottom: 22px;
+}
+
+.housing-agreement ol {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.housing-agreement li {
+  display: flex;
+  min-height: 78px;
+  gap: 13px;
+  padding: 14px 16px;
+  border: 1px solid rgba(28, 53, 68, 0.12);
+  background: rgba(28, 53, 68, 0.035);
+}
+
+.housing-agreement li > span {
+  color: rgba(155, 48, 57, 0.45);
+  font: 700 18px var(--serif);
+}
+
+.housing-agreement li p {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.65;
+}
+
+.housing-agreement > label {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-top: 17px;
+  color: var(--ink-soft);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.housing-agreement input {
+  width: 17px;
+  height: 17px;
+  accent-color: var(--red);
+}
+
+.housing-change form {
+  display: grid;
+  grid-template-columns: 0.65fr 0.65fr 1.5fr auto;
+  gap: 10px;
+  align-items: end;
+  padding: 18px;
+  border: 1px solid rgba(28, 53, 68, 0.12);
+  background: rgba(28, 53, 68, 0.035);
+}
+
+.housing-change form textarea {
+  min-height: 46px;
+  max-height: 90px;
+}
+
+.housing-change form .button {
+  min-height: 46px;
+  white-space: nowrap;
+}
+
+.housing-change-history {
+  margin-top: 23px;
+}
+
+.housing-change-history > h4 {
+  margin: 0 0 10px;
+  color: var(--red);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+}
+
+.housing-change-history article {
+  position: relative;
+  padding: 16px 18px;
+  border-top: 1px solid rgba(28, 53, 68, 0.14);
+}
+
+.housing-change-history article header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.housing-change-history article header b {
+  color: var(--red);
+  font-size: 9px;
+}
+
+.housing-change-history article p {
+  margin: 8px 0 3px;
+  font: 700 12px var(--serif);
+}
+
+.housing-change-history article > span,
+.housing-change-history article > small {
+  display: block;
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.housing-change-history article > small {
+  margin-top: 7px;
+  color: #6d572f;
+  font-weight: 800;
+}
+
+.housing-change-history article > button {
+  position: absolute;
+  right: 18px;
+  bottom: 15px;
+  padding: 3px;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+  color: var(--red);
+  font: 800 9px var(--sans);
+  cursor: pointer;
+}
+
+@media (max-width: 1060px) {
+  .housing-hero {
+    grid-template-columns: 0.65fr 1.35fr;
+  }
+  .housing-hero-copy {
+    padding-inline: 38px;
+  }
+  .housing-needs-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .housing-offers {
+    grid-template-columns: 1fr;
+  }
+  .housing-offer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 20px;
+  }
+  .housing-offer > header,
+  .housing-offer > footer {
+    grid-column: 1 / -1;
+  }
+  .housing-offer > p {
+    min-height: 0;
+  }
+  .housing-change form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .housing-section {
+    padding: 38px 0 80px;
+  }
+  .housing-hero {
+    grid-template-columns: 1fr;
+  }
+  .housing-hero-art {
+    min-height: 235px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  }
+  .housing-hero-copy {
+    padding: 31px 23px 29px;
+  }
+  .housing-hero-copy h2 {
+    font-size: 37px;
+  }
+  .housing-hero-copy dl {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+  }
+  .housing-tabs button {
+    min-height: 61px;
+    justify-content: center;
+    padding: 8px 4px;
+    font-size: 10px;
+  }
+  .housing-tabs button > span,
+  .housing-tabs button > b {
+    display: none;
+  }
+  .housing-view {
+    padding-top: 27px;
+  }
+  .housing-view-heading,
+  .housing-agreement > header,
+  .housing-change > header {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .housing-overview {
+    grid-template-columns: 1fr;
+  }
+  .residence-list {
+    display: grid;
+    max-height: none;
+    grid-auto-columns: 82%;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x proximity;
+  }
+  .residence-list button {
+    scroll-snap-align: start;
+  }
+  .residence-file {
+    padding: 28px 21px 24px;
+  }
+  .residence-file::after {
+    display: none;
+  }
+  .residence-file > header > span {
+    width: 52px;
+    height: 52px;
+  }
+  .residence-file > header h3 {
+    font-size: 25px;
+  }
+  .residence-facts,
+  .residence-room-features {
+    grid-template-columns: 1fr;
+  }
+  .residence-facts div + div {
+    padding-left: 0;
+    border-top: 1px solid rgba(28, 53, 68, 0.13);
+    border-left: 0;
+  }
+  .housing-form {
+    padding: 0 19px 22px;
+  }
+  .housing-form-stamp {
+    grid-template-columns: 1fr;
+    margin-inline: -19px;
+    padding-inline: 19px;
+  }
+  .housing-form-grid,
+  .housing-needs-grid {
+    grid-template-columns: 1fr;
+  }
+  .housing-form > footer {
+    flex-wrap: wrap;
+  }
+  .housing-application-meta label {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .housing-application-meta select {
+    width: 100%;
+  }
+  .housing-form > footer > span {
+    width: 100%;
+  }
+  .housing-form > footer .button {
+    flex: 1;
+  }
+  .housing-offer {
+    display: flex;
+    padding: 20px 17px;
+  }
+  .housing-offer > header {
+    grid-column: auto;
+  }
+  .housing-offer > footer {
+    grid-column: auto;
+  }
+  .housing-empty {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 26px 22px;
+  }
+  .housing-account {
+    grid-template-columns: 1fr;
+  }
+  .housing-room-card,
+  .housing-roommate-card,
+  .housing-agreement,
+  .housing-change {
+    padding: 23px 19px;
+  }
+  .housing-room-card dl {
+    grid-template-columns: 1fr;
+  }
+  .housing-room-card dl div + div {
+    border-top: 1px solid rgba(28, 53, 68, 0.1);
+  }
+  .housing-agreement ol,
+  .housing-change form {
+    grid-template-columns: 1fr;
+  }
+  .housing-change-history article {
+    padding-bottom: 45px;
+  }
+}

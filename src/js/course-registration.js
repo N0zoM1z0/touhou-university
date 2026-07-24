@@ -8,6 +8,7 @@ import {
 import { schools } from "../data/schools.js";
 import { recordCampusEvent } from "./campus-ledger.js";
 import { getLocale } from "./i18n.js";
+import { bindImeSafeInput, isImeComposing } from "./ime-input.js";
 import { mutateAndRenderPreservingState, renderPreservingState } from "./render-state.js";
 import { showToast } from "./ui.js";
 
@@ -671,20 +672,27 @@ function bind(app, rerender) {
       rerenderCurrent();
     });
   });
-  app.querySelector("[data-course-filter-form]")?.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const values = new FormData(event.currentTarget);
-    filterQuery = String(values.get("query") || "").trim();
-    filterSchool = String(values.get("school") || "all");
-    filterState = String(values.get("state") || "all");
+  const filterForm = app.querySelector("[data-course-filter-form]");
+  const queryInput = filterForm?.elements.query;
+  const updateFilterValues = () => {
+    if (!filterForm) return;
+    filterQuery = String(filterForm.elements.query.value || "").trim();
+    filterSchool = filterForm.elements.school.value || "all";
+    filterState = filterForm.elements.state.value || "all";
+  };
+  bindImeSafeInput(queryInput, () => {
+    updateFilterValues();
     rerenderCurrent();
   });
-  app.querySelector("[data-course-filter-form]")?.addEventListener("change", (event) => {
+  filterForm?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (isImeComposing(queryInput)) return;
+    updateFilterValues();
+    rerenderCurrent();
+  });
+  filterForm?.addEventListener("change", (event) => {
     if (!event.target.matches("select")) return;
-    const form = event.currentTarget;
-    filterQuery = String(form.elements.query.value || "").trim();
-    filterSchool = form.elements.school.value || "all";
-    filterState = form.elements.state.value || "all";
+    updateFilterValues();
     rerenderCurrent();
   });
   app.querySelectorAll("[data-course-select]").forEach((button) => {
