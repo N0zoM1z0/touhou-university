@@ -23,6 +23,11 @@ const labels = {
     synced: "最後同步：剛剛",
     pinned: "置頂",
     status: "狀態",
+    mine: "我的發帖",
+    localSaved: "本機保存",
+    postsUnit: "篇",
+    noPosts: "這個板面暫時沒有帖子。",
+    noLocalPosts: "這台裝置還沒有發帖；發佈後會保存在這裡。",
   },
   ja: {
     course: "授業",
@@ -43,6 +48,11 @@ const labels = {
     synced: "最終同期：たった今",
     pinned: "固定",
     status: "状態",
+    mine: "自分の投稿",
+    localSaved: "端末保存",
+    postsUnit: "件",
+    noPosts: "この板にはまだ投稿がありません。",
+    noLocalPosts: "この端末からの投稿はまだありません。投稿後はここに保存されます。",
   },
   en: {
     course: "Courses",
@@ -63,6 +73,11 @@ const labels = {
     synced: "Last synced: just now",
     pinned: "Pinned",
     status: "Status",
+    mine: "My Posts",
+    localSaved: "Saved locally",
+    postsUnit: "posts",
+    noPosts: "There are no posts on this board yet.",
+    noLocalPosts: "Nothing has been posted from this device yet. New posts will be saved here.",
   },
 };
 
@@ -79,6 +94,21 @@ function shuffle(values) {
   return copy;
 }
 
+function readStored(key, fallback) {
+  try {
+    return JSON.parse(window.localStorage.getItem(key) || "null") ?? fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function relativeTime(createdAt, localeLabels) {
+  const elapsed = Math.max(0, Date.now() - new Date(createdAt).getTime());
+  const minutes = Math.floor(elapsed / 60_000);
+  if (!Number.isFinite(minutes) || minutes < 1) return localeLabels.justNow;
+  return `${minutes} ${localeLabels.minutes}`;
+}
+
 export function initBbs() {
   const dialog = document.querySelector("[data-compose-dialog]");
   const form = document.querySelector("[data-bbs-form]");
@@ -87,6 +117,7 @@ export function initBbs() {
   let selectedSeedIndexes = [];
   let currentOnline = 80 + randomIndex(81);
   let topicsToday = 55 + randomIndex(76);
+  let draftTimer;
 
   function chooseSeedPosts() {
     selectedSeedIndexes = [0, ...shuffle(seededPosts.slice(1).map((_, index) => index + 1)).slice(0, 8)];
@@ -154,13 +185,13 @@ export function initBbs() {
   function getRenderedPosts() {
     const locale = getLocale();
     const l = labels[locale];
-    const userPosts = JSON.parse(window.localStorage.getItem("tu:bbs:posts") || "[]").map((post) => ({
+    const userPosts = readStored("tu:bbs:posts", []).map((post) => ({
       ...post,
       author: post.author,
       title: post.title,
       body: post.body,
       replies: 0,
-      time: l.justNow,
+      time: relativeTime(post.createdAt, l),
       local: true,
     }));
     const seeds = selectedSeedIndexes.map((index, position) => {
@@ -185,14 +216,27 @@ export function initBbs() {
     getRenderedPosts().forEach((post) => {
       list.append(createPostElement(post, { pinned: post.pinned }));
     });
+    const empty = document.createElement("p");
+    empty.className = "bbs-empty";
+    empty.dataset.bbsEmpty = "";
+    empty.hidden = true;
+    list.append(empty);
     applyFilter();
     updateStatus();
   }
 
   function applyFilter() {
-    list?.querySelectorAll("[data-bbs-category]").forEach((post) => {
-      post.hidden = activeFilter !== "all" && post.dataset.bbsCategory !== activeFilter;
+    const posts = [...(list?.querySelectorAll("[data-bbs-category]") || [])];
+    posts.forEach((post) => {
+      post.hidden =
+        activeFilter !== "all" &&
+        (activeFilter === "mine" ? !post.hasAttribute("data-user-post") : post.dataset.bbsCategory !== activeFilter);
     });
+    const empty = list?.querySelector("[data-bbs-empty]");
+    if (empty) {
+      empty.textContent = activeFilter === "mine" ? labels[getLocale()].noLocalPosts : labels[getLocale()].noPosts;
+      empty.hidden = posts.some((post) => !post.hidden);
+    }
   }
 
   function updateStatus() {
@@ -200,9 +244,12 @@ export function initBbs() {
     const online = document.querySelector("[data-bbs-online]");
     const topics = document.querySelector("[data-bbs-topics]");
     const sync = document.querySelector("[data-bbs-sync]");
+    const local = document.querySelector("[data-bbs-local]");
+    const savedPosts = readStored("tu:bbs:posts", []).length;
     if (online) online.lastChild.textContent = ` ${l.online}：${currentOnline}`;
     if (topics) topics.textContent = `${l.topics}：${topicsToday}`;
     if (sync) sync.textContent = l.synced;
+    if (local) local.textContent = `${l.localSaved}：${savedPosts} ${l.postsUnit}`;
   }
 
   function updateComposeDefault() {
@@ -212,11 +259,36 @@ export function initBbs() {
     if (knownDefaults.includes(author.value)) author.value = labels[getLocale()].anonymous;
   }
 
+  function setActiveFilter(filter) {
+    activeFilter = filter;
+    document.querySelectorAll("[data-bbs-filter]").forEach((item) => {
+      item.classList.toggle("active", item.dataset.bbsFilter === filter);
+    });
+    applyFilter();
+  }
+
+  function saveComposeDraft() {
+    if (!form) return;
+    const values = Object.fromEntries(new FormData(form).entries());
+    if (!values.title && !values.body && !values.author) {
+      window.localStorage.removeItem("tu:bbs:draft");
+      return;
+    }
+    window.localStorage.setItem("tu:bbs:draft", JSON.stringify(values));
+  }
+
+  function restoreComposeDraft() {
+    const draft = readStored("tu:bbs:draft", null);
+    if (!draft || !form) return;
+    Object.entries(draft).forEach(([name, value]) => {
+      const field = form.elements.namedItem(name);
+      if (field && typeof value === "string") field.value = value;
+    });
+  }
+
   document.querySelectorAll("[data-bbs-filter]").forEach((button) => {
     button.addEventListener("click", () => {
-      activeFilter = button.dataset.bbsFilter;
-      document.querySelectorAll("[data-bbs-filter]").forEach((item) => item.classList.toggle("active", item === button));
-      applyFilter();
+      setActiveFilter(button.dataset.bbsFilter);
     });
   });
 
@@ -225,20 +297,31 @@ export function initBbs() {
     renderPosts();
     showToast(labels[getLocale()].shuffled);
   });
-  document.querySelector("[data-bbs-compose]")?.addEventListener("click", () => dialog?.showModal());
+  document.querySelector("[data-bbs-compose]")?.addEventListener("click", () => {
+    restoreComposeDraft();
+    dialog?.showModal();
+  });
   document.querySelector("[data-compose-close]")?.addEventListener("click", () => dialog?.close());
+  form?.addEventListener("input", () => {
+    window.clearTimeout(draftTimer);
+    draftTimer = window.setTimeout(saveComposeDraft, 220);
+  });
+  form?.addEventListener("change", saveComposeDraft);
   form?.addEventListener("submit", (event) => {
     event.preventDefault();
     if (!form.reportValidity()) return;
+    window.clearTimeout(draftTimer);
     const values = Object.fromEntries(new FormData(form).entries());
     const post = { id: `post-${Date.now()}`, createdAt: new Date().toISOString(), ...values };
-    const posts = JSON.parse(window.localStorage.getItem("tu:bbs:posts") || "[]");
+    const posts = readStored("tu:bbs:posts", []);
     posts.push(post);
-    window.localStorage.setItem("tu:bbs:posts", JSON.stringify(posts));
+    window.localStorage.setItem("tu:bbs:posts", JSON.stringify(posts.slice(-50)));
+    window.localStorage.removeItem("tu:bbs:draft");
     form.reset();
     form.elements.author.value = labels[getLocale()].anonymous;
     dialog?.close();
     renderPosts();
+    setActiveFilter("mine");
     showToast(labels[getLocale()].posted);
   });
 

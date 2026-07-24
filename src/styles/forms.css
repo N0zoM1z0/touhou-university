@@ -104,6 +104,10 @@
   margin-top: 27px;
 }
 
+.info-dialog-action[hidden] {
+  display: none;
+}
+
 @media (max-width: 760px) {
   .info-dialog-content {
     padding: 35px 24px 31px;
@@ -156,6 +160,99 @@
 
 [data-service-content] {
   padding: 36px 55px 52px;
+}
+
+.application-local-bar {
+  display: flex;
+  margin: -8px 0 30px;
+  padding: 15px 17px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border: 1px solid var(--line);
+  background: rgba(228, 218, 200, 0.24);
+}
+
+.application-local-bar p {
+  margin: 0 0 4px;
+  color: var(--red);
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+}
+
+.application-local-bar strong {
+  font-family: var(--serif);
+  font-size: 12px;
+}
+
+.application-local-bar button {
+  display: flex;
+  min-width: 145px;
+  padding: 10px 12px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  background: transparent;
+  cursor: pointer;
+  font-size: 8px;
+  font-weight: 800;
+}
+
+.application-local-bar button span {
+  display: grid;
+  width: 22px;
+  height: 22px;
+  place-items: center;
+  color: var(--white);
+  border-radius: 50%;
+  background: var(--red);
+  font-size: 7px;
+}
+
+.application-local-bar button:hover,
+.application-local-bar button:focus-visible {
+  color: var(--white);
+  background: var(--ink);
+  outline: 0;
+}
+
+.application-school-context {
+  display: grid;
+  margin-bottom: 27px;
+  padding: 16px 18px;
+  grid-template-columns: 42px 1fr;
+  gap: 13px;
+  align-items: center;
+  border-left: 3px solid var(--red);
+  background: #f3ecdf;
+}
+
+.application-school-context > span {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  color: var(--white);
+  background: var(--ink);
+  font-family: var(--serif);
+  font-size: 17px;
+}
+
+.application-school-context p {
+  margin: 0;
+  color: #736d65;
+  font-size: 8px;
+}
+
+.application-school-context strong {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 13px;
 }
 
 .campus-form {
@@ -292,6 +389,223 @@
 .service-success > p:last-of-type {
   max-width: 520px;
   color: #6b655f;
+  font-size: 12px;
+}
+
+.service-success-actions {
+  display: flex;
+  margin-top: 6px;
+  gap: 9px;
+}
+
+.application-records > header {
+  display: flex;
+  margin-bottom: 27px;
+  align-items: end;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.application-records > header p {
+  margin: 0 0 5px;
+  color: var(--red);
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+}
+
+.application-records > header h3 {
+  margin: 0 0 6px;
+  font-family: var(--serif);
+  font-size: 27px;
+}
+
+.application-records > header span {
+  display: block;
+  max-width: 560px;
+  color: #777068;
+  font-size: 9px;
+}
+
+.application-records > header .button {
+  flex: 0 0 auto;
+}
+
+.application-draft-card {
+  display: grid;
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 15px 17px;
+  grid-template-columns: 35px 1fr 25px;
+  gap: 12px;
+  align-items: center;
+  color: var(--ink);
+  border: 1px dashed rgba(155, 48, 57, 0.45);
+  background: rgba(155, 48, 57, 0.04);
+  cursor: pointer;
+  text-align: left;
+}
+
+.application-draft-card > span {
+  display: grid;
+  width: 33px;
+  height: 33px;
+  place-items: center;
+  color: var(--white);
+  border-radius: 50%;
+  background: var(--red);
+}
+
+.application-draft-card small,
+.application-draft-card strong {
+  display: block;
+}
+
+.application-draft-card small {
+  margin-bottom: 3px;
+  color: var(--red);
+  font-size: 6px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+}
+
+.application-draft-card strong {
+  font-family: var(--serif);
+  font-size: 11px;
+}
+
+.application-draft-card i {
+  font-style: normal;
+  text-align: right;
+}
+
+.application-draft-card:hover,
+.application-draft-card:focus-visible {
+  border-style: solid;
+  background: rgba(155, 48, 57, 0.09);
+  outline: 0;
+}
+
+.application-record-list {
+  display: grid;
+  gap: 12px;
+}
+
+.application-record-card {
+  padding: 19px 20px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.46);
+}
+
+.application-record-card > header {
+  display: flex;
+  padding-bottom: 14px;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.application-record-card > header span {
+  display: block;
+  margin-bottom: 4px;
+  color: #4c9878;
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+}
+
+.application-record-card > header strong {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+.application-record-card time {
+  color: #8b837a;
+  font-size: 8px;
+}
+
+.application-record-card dl {
+  display: grid;
+  margin: 14px 0;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 20px;
+}
+
+.application-record-card dt {
+  margin-bottom: 3px;
+  color: #91887f;
+  font-size: 7px;
+}
+
+.application-record-card dd {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.application-record-card details {
+  border-top: 1px solid var(--line);
+}
+
+.application-record-card summary {
+  padding: 12px 0;
+  color: var(--red);
+  cursor: pointer;
+  font-size: 8px;
+  font-weight: 800;
+}
+
+.application-record-detail {
+  display: grid;
+  padding: 2px 0 14px;
+  gap: 10px;
+}
+
+.application-record-detail p {
+  margin: 0;
+  color: #625d57;
+  font-family: var(--serif);
+  font-size: 10px;
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+.application-record-detail span {
+  display: block;
+  margin-bottom: 3px;
+  color: #948b81;
+  font-family: var(--sans);
+  font-size: 6px;
+  font-weight: 800;
+}
+
+.application-record-delete {
+  padding: 5px 0;
+  color: #958b82;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  font-size: 7px;
+}
+
+.application-record-delete:hover,
+.application-record-delete:focus-visible {
+  color: var(--red);
+  border-bottom-color: var(--red);
+  outline: 0;
+}
+
+.application-records-empty {
+  display: grid;
+  min-height: 190px;
+  margin: 0;
+  place-items: center;
+  color: #888078;
+  border: 1px dashed var(--line);
+  font-family: var(--serif);
   font-size: 12px;
 }
 

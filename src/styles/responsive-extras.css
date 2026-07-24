@@ -197,6 +197,27 @@
     margin: 0;
   }
 
+  .application-local-bar,
+  .application-records > header,
+  .service-success-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .application-local-bar button {
+    width: 100%;
+  }
+
+  .application-record-card > header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .application-record-card dl {
+    grid-template-columns: 1fr;
+    gap: 11px;
+  }
+
   .room-list {
     grid-template-columns: 1fr;
   }

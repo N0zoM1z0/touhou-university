@@ -306,6 +306,9 @@ records.push(
   ["testPatterns", "組測試彈幕", "組の試験弾幕", "test patterns"],
   ["minimumExitTelegraph", "最低退路預兆", "最低退路予兆", "minimum exit telegraph"],
   ["readSpellcardFile", "閱讀符卡研究全檔", "スペルカード研究全文を読む", "Read the spell-card research file"],
+  ["myBbsPosts", "我的發帖", "自分の投稿", "My Posts"],
+  ["localBbsCount", "本機保存：0 篇", "端末保存：0件", "Saved locally: 0 posts"],
+  ["bbsAutosaveNote", "內容會自動保存；發帖後可在「我的發帖」重新查看。", "内容は自動保存され、投稿後は「自分の投稿」から確認できます。", "Content is autosaved; after publishing, find it again under My Posts."],
 );
 
 export const messages = Object.fromEntries(

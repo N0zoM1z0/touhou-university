@@ -12,7 +12,8 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - school introduction, motto, traditions, uniforms and anniversary;
 - seven schools with full trilingual catalogues, and eight illustrated faculty profiles;
 - Traditional Chinese, Japanese and English language switching;
-- online application with saved drafts and application references;
+- online application with autosaved drafts, application references and a
+  device-local application history;
 - campus-visit reservations and visitor references;
 - library/classroom availability, dining menus, timetable and exams;
 - illustrated interactive campus map with seven place cards, shortest-path
@@ -20,12 +21,15 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - five complete Gensokyo research records, including a six-part spell-card
   readability and fairness study;
 - four timed entrance-exam banks with instant scoring and answer review;
-- rotating campus news, detailed clubs and a locally persistent, shuffled BBS;
+- rotating campus news, detailed clubs and a locally persistent, shuffled BBS
+  with autosaved drafts and a dedicated “My Posts” view;
 - responsive navigation, keyboard-friendly dialogs and reduced-motion support;
 - two interchangeable faculty portrait art directions.
 
 All interactive records stay in the visitor's browser. This static GitHub Pages
 site has no analytics, trackers, remote JavaScript or submission backend.
+Submitted applications can be reopened from “My Applications”; authored BBS
+threads remain available under “My Posts” even after topics are reshuffled.
 
 ## Project structure
 
