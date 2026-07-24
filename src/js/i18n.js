@@ -43,6 +43,7 @@ function translateAttributes() {
       "關閉發帖視窗": "關閉發帖視窗",
       "關閉簡介": "關閉簡介",
       "關閉入學案內": "關閉入學案內",
+      "關閉內容卡片": "關閉內容卡片",
       "校務概覽": "校務概覽",
       "招生路線": "招生路線",
       "BBS 板面": "BBS 板面",
@@ -73,6 +74,9 @@ function translateAttributes() {
       "夜間校園燈會，學生在鳥居與櫻花下欣賞符卡形狀的煙火": "夜間校園燈會，學生在鳥居與櫻花下欣賞符卡形狀的煙火",
       "妖怪山瀑布旁的河童工房，學生正在測試水力機械": "妖怪山瀑布旁的河童工房，學生正在測試水力機械",
       "暮色中的霧湖圖書館，長桌、書架與黃銅天球儀被暖光照亮": "暮色中的霧湖圖書館，長桌、書架與黃銅天球儀被暖光照亮",
+      "查看霧湖圖書館夜間閱覽詳情": "查看霧湖圖書館夜間閱覽詳情",
+      "查看河童聯合工房詳情": "查看河童聯合工房詳情",
+      "查看春季符卡燈會詳情": "查看春季符卡燈會詳情",
     },
     ja: {
       "開啟選單": "メニューを開く",
@@ -82,6 +86,7 @@ function translateAttributes() {
       "關閉發帖視窗": "投稿画面を閉じる",
       "關閉簡介": "プロフィールを閉じる",
       "關閉入學案內": "入学案内を閉じる",
+      "關閉內容卡片": "コンテンツカードを閉じる",
       "校務概覽": "大学概要",
       "招生路線": "入試経路",
       "BBS 板面": "BBS 掲示板",
@@ -112,6 +117,9 @@ function translateAttributes() {
       "夜間校園燈會，學生在鳥居與櫻花下欣賞符卡形狀的煙火": "夜の学園灯会で鳥居と桜の下からスペルカード形の花火を見る学生",
       "妖怪山瀑布旁的河童工房，學生正在測試水力機械": "妖怪の山の滝そばの河童工房で水力機械を試験する学生",
       "暮色中的霧湖圖書館，長桌、書架與黃銅天球儀被暖光照亮": "夕暮れの霧の湖図書館、長机と書架と真鍮の天球儀を暖かな光が照らす",
+      "查看霧湖圖書館夜間閱覽詳情": "霧の湖図書館・夜間閲覧の詳細を見る",
+      "查看河童聯合工房詳情": "河童共同工房の詳細を見る",
+      "查看春季符卡燈會詳情": "春季スペルカード灯会の詳細を見る",
     },
     en: {
       "開啟選單": "Open menu",
@@ -121,6 +129,7 @@ function translateAttributes() {
       "關閉發帖視窗": "Close post form",
       "關閉簡介": "Close profile",
       "關閉入學案內": "Close admissions guide",
+      "關閉內容卡片": "Close content card",
       "校務概覽": "University overview",
       "招生路線": "Admissions routes",
       "BBS 板面": "BBS boards",
@@ -151,6 +160,9 @@ function translateAttributes() {
       "夜間校園燈會，學生在鳥居與櫻花下欣賞符卡形狀的煙火": "Students watch spell-card fireworks beneath shrine gates and cherry trees at the night festival",
       "妖怪山瀑布旁的河童工房，學生正在測試水力機械": "Students test hydropower machinery at a kappa workshop beside a Youkai Mountain waterfall",
       "暮色中的霧湖圖書館，長桌、書架與黃銅天球儀被暖光照亮": "Warm light fills the long tables, shelves, and brass orrery of Misty Lake Library at dusk",
+      "查看霧湖圖書館夜間閱覽詳情": "View Misty Lake Library night-reading details",
+      "查看河童聯合工房詳情": "View Kappa Joint Workshop details",
+      "查看春季符卡燈會詳情": "View Spring Spell-card Lantern Festival details",
     },
   };
 

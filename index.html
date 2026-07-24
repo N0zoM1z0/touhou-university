@@ -114,7 +114,6 @@
             width="1680"
             height="937"
             fetchpriority="high"
-            decoding="async"
           >
         </div>
         <div class="hero-overlay"></div>
@@ -157,30 +156,9 @@
         </div>
       </section>
       <section class="ticker" aria-label="校務快訊">
-        <div class="ticker-label">TU NEWS</div>
-        <div class="ticker-track">
-          <div class="ticker-content">
-            <span><b>07.24</b> 開放日：外界生請於博麗側入口集合</span>
-            <i>✦</i>
-            <span><b>07.18</b> 河童工程院完成第三代低落差水輪</span>
-            <i>✦</i>
-            <span><b>07.09</b> 幻想鄉史料館夜間閱覽規則更新</span>
-            <i>✦</i>
-            <span><b>06.30</b> 第九回人妖共生公開講座開始登記</span>
-            <i>✦</i>
-          </div>
-          <div class="ticker-content" aria-hidden="true">
-            <span><b>07.24</b> 開放日：外界生請於博麗側入口集合</span>
-            <i>✦</i>
-            <span><b>07.18</b> 河童工程院完成第三代低落差水輪</span>
-            <i>✦</i>
-            <span><b>07.09</b> 幻想鄉史料館夜間閱覽規則更新</span>
-            <i>✦</i>
-            <span><b>06.30</b> 第九回人妖共生公開講座開始登記</span>
-            <i>✦</i>
-          </div>
-        </div>
-      </section>
+  <div class="ticker-label">TU NEWS</div>
+  <div class="ticker-track" data-news-track aria-live="off"></div>
+</section>
       <section class="quick-services" id="services" aria-labelledby="services-title">
         <div class="container">
           <header class="services-heading reveal">
@@ -233,6 +211,12 @@
               <small>EXAM SCHEDULE</small>
               <i aria-hidden="true">↗</i>
             </button>
+            <a class="service-tile service-tile-exam" href="#entrance-exam">
+              <span class="service-icon" aria-hidden="true">卷</span>
+              <strong>入學試驗</strong>
+              <small>TAKE AN EXAM</small>
+              <i aria-hidden="true">↓</i>
+            </a>
             <a class="service-tile" href="#bbs">
               <span class="service-icon" aria-hidden="true">談</span>
               <strong>校園 BBS</strong>
@@ -640,6 +624,26 @@
           </div>
         </div>
       </section>
+      <section class="section exam" id="entrance-exam">
+  <div class="container">
+    <header class="section-header reveal">
+      <div>
+        <p class="eyebrow"><span>EXAM</span> ADMISSIONS EXAM / 入學試驗</p>
+        <h2>現在，<br>讓問題開始計時。</h2>
+      </div>
+      <p>
+        選擇一份試卷，在八分鐘內完成八題。交卷後立即判分、逐題解析，
+        成績只保存在這台裝置，重考會重新排列題目。
+      </p>
+    </header>
+
+    <div class="exam-app reveal" data-exam-app>
+      <div class="exam-lobby" data-exam-lobby></div>
+      <div class="exam-runner" data-exam-runner hidden></div>
+      <div class="exam-result" data-exam-result hidden></div>
+    </div>
+  </div>
+</section>
       <section class="section campus-map" id="map">
   <div class="container">
     <header class="section-header reveal">
@@ -654,7 +658,7 @@
     </header>
 
     <div class="map-layout reveal">
-      <div class="map-canvas" role="img" aria-label="幻想鄉立東方大學校園地圖">
+      <section class="map-canvas" aria-label="幻想鄉立東方大學校園地圖">
         <div class="map-terrain map-lake" aria-hidden="true"></div>
         <div class="map-terrain map-forest" aria-hidden="true"></div>
         <div class="map-terrain map-mountain" aria-hidden="true"></div>
@@ -662,44 +666,57 @@
         <div class="map-road road-b" aria-hidden="true"></div>
         <div class="map-road road-c" aria-hidden="true"></div>
 
-        <button class="map-node active" style="--x: 13%; --y: 70%" type="button" data-map-place="gate">
+        <button class="map-node active" type="button" data-map-place="gate">
           <span>01</span><strong>博麗門</strong>
         </button>
-        <button class="map-node" style="--x: 26%; --y: 38%" type="button" data-map-place="library">
+        <button class="map-node" type="button" data-map-place="library">
           <span>02</span><strong>霧湖圖書館</strong>
         </button>
-        <button class="map-node" style="--x: 45%; --y: 62%" type="button" data-map-place="boundary">
+        <button class="map-node" type="button" data-map-place="boundary">
           <span>03</span><strong>境界講堂</strong>
         </button>
-        <button class="map-node" style="--x: 59%; --y: 38%" type="button" data-map-place="history">
+        <button class="map-node" type="button" data-map-place="history">
           <span>04</span><strong>稗田史學館</strong>
         </button>
-        <button class="map-node" style="--x: 70%; --y: 70%" type="button" data-map-place="magic">
+        <button class="map-node" type="button" data-map-place="magic">
           <span>05</span><strong>七曜實驗塔</strong>
         </button>
-        <button class="map-node" style="--x: 84%; --y: 51%" type="button" data-map-place="clinic">
+        <button class="map-node" type="button" data-map-place="clinic">
           <span>06</span><strong>永遠亭診療所</strong>
         </button>
-        <button class="map-node" style="--x: 78%; --y: 21%" type="button" data-map-place="kappa">
+        <button class="map-node" type="button" data-map-place="kappa">
           <span>07</span><strong>河童聯合工房</strong>
         </button>
         <div class="map-compass" aria-hidden="true"><span>北</span><i></i></div>
-      </div>
+      </section>
 
-      <aside class="map-detail" aria-live="polite">
-        <p data-map-index>01 / MAIN GATE</p>
-        <h3 data-map-name>博麗門</h3>
-        <p data-map-description>
-          位於大結界內側的正門。外界生報到、訪客核驗與遺失物返回皆在此辦理。
-        </p>
-        <dl>
-          <div><dt>開放</dt><dd data-map-hours>06:00—22:30</dd></div>
-          <div><dt>步行</dt><dd data-map-walk>起點</dd></div>
-          <div><dt>空路</dt><dd data-map-air>低空禁飛</dd></div>
-        </dl>
-        <button class="text-action" type="button" data-service="availability">
-          查詢附近館舍 <span aria-hidden="true">→</span>
-        </button>
+      <aside class="map-detail" aria-live="polite" data-map-detail>
+        <div class="map-detail-media">
+          <img
+            src="assets/images/campus-hero.webp"
+            alt="晨霧中的幻想鄉立東方大學主校區與博麗門"
+            width="1280"
+            height="853"
+            loading="lazy"
+            data-map-image
+          >
+          <span data-map-type>迎賓與校務</span>
+          <p data-map-index>01 / MAIN GATE</p>
+        </div>
+        <div class="map-detail-content">
+          <h3 data-map-name>博麗門</h3>
+          <p data-map-description>
+            位於大結界內側的正門。外界生報到、訪客核驗與遺失物返回皆在此辦理。
+          </p>
+          <dl>
+            <div><dt>開放</dt><dd data-map-hours>06:00—22:30</dd></div>
+            <div><dt>步行</dt><dd data-map-walk>起點</dd></div>
+            <div><dt>空路</dt><dd data-map-air>低空禁飛</dd></div>
+          </dl>
+          <button class="text-action" type="button" data-service="availability">
+            查詢附近館舍 <span aria-hidden="true">→</span>
+          </button>
+        </div>
       </aside>
     </div>
 
@@ -804,7 +821,9 @@
                 <p>01 / STUDY</p>
                 <h3>霧湖圖書館・夜間閱覽</h3>
                 <span>館藏會飛，但索書號不會。</span>
+                <i aria-hidden="true">查看詳情 ↗</i>
               </div>
+              <button class="campus-card-trigger" type="button" data-campus-feature="library" aria-label="查看霧湖圖書館夜間閱覽詳情"></button>
             </article>
             <article class="campus-card reveal">
               <img
@@ -818,7 +837,9 @@
                 <p>02 / FIELDWORK</p>
                 <h3>妖怪山・河童聯合工房</h3>
                 <span>上午設計，午後下水。</span>
+                <i aria-hidden="true">查看詳情 ↗</i>
               </div>
+              <button class="campus-card-trigger" type="button" data-campus-feature="workshop" aria-label="查看河童聯合工房詳情"></button>
             </article>
             <article class="campus-card reveal">
               <img
@@ -832,21 +853,23 @@
                 <p>03 / FESTIVAL</p>
                 <h3>春季符卡燈會</h3>
                 <span>彈幕只在天空，攤販留在地上。</span>
+                <i aria-hidden="true">查看詳情 ↗</i>
               </div>
+              <button class="campus-card-trigger" type="button" data-campus-feature="festival" aria-label="查看春季符卡燈會詳情"></button>
             </article>
           </div>
 
           <div class="clubs reveal">
             <p class="eyebrow"><span>CLUBS</span> 本年度登錄社團</p>
             <div class="club-list">
-              <span>魔導書修復會</span>
-              <span>非想天則研究會</span>
-              <span>竹林定向部</span>
-              <span>妖精合唱團</span>
-              <span>茶與新聞倫理社</span>
-              <span>夜雀音樂食堂</span>
-              <span>不明飛行物觀測會</span>
-              <span>普通的魔法實驗社</span>
+              <button type="button" data-club="grimoire">魔導書修復會</button>
+              <button type="button" data-club="hisoutensoku">非想天則研究會</button>
+              <button type="button" data-club="bamboo">竹林定向部</button>
+              <button type="button" data-club="fairyChoir">妖精合唱團</button>
+              <button type="button" data-club="teaNews">茶與新聞倫理社</button>
+              <button type="button" data-club="nightSparrow">夜雀音樂食堂</button>
+              <button type="button" data-club="ufo">不明飛行物觀測會</button>
+              <button type="button" data-club="ordinaryMagic">普通的魔法實驗社</button>
             </div>
           </div>
         </div>
@@ -873,58 +896,22 @@
           <button type="button" data-bbs-filter="market">交換</button>
           <button type="button" data-bbs-filter="notice">校務</button>
         </div>
-        <button class="bbs-new-button" type="button" data-bbs-compose>
-          ＋ 發佈新帖
-        </button>
+        <div class="bbs-toolbar-actions">
+          <button class="bbs-shuffle-button" type="button" data-bbs-shuffle>
+            ↻ 換一批話題
+          </button>
+          <button class="bbs-new-button" type="button" data-bbs-compose>
+            ＋ 發佈新帖
+          </button>
+        </div>
       </div>
 
-      <div class="bbs-table" data-bbs-list>
-        <article class="bbs-row pinned" data-bbs-category="notice">
-          <span class="bbs-category">校務</span>
-          <div>
-            <p><span class="pin">置頂</span> 校慶期間空路與境界門臨時管制</p>
-            <small>學生自治會・23 分鐘前</small>
-          </div>
-          <span class="bbs-replies"><b>42</b> 回覆</span>
-        </article>
-        <article class="bbs-row" data-bbs-category="course">
-          <span class="bbs-category">課程</span>
-          <div>
-            <p>有人找到「七曜元素論 II」第三次作業的安全解嗎？</p>
-            <small>普通的魔法研究生・1 小時前</small>
-          </div>
-          <span class="bbs-replies"><b>18</b> 回覆</span>
-        </article>
-        <article class="bbs-row" data-bbs-category="club">
-          <span class="bbs-category">社團</span>
-          <div>
-            <p>竹林定向部招新：本週不保證走同一條回程</p>
-            <small>白兔 27 號・2 小時前</small>
-          </div>
-          <span class="bbs-replies"><b>31</b> 回覆</span>
-        </article>
-        <article class="bbs-row" data-bbs-category="market">
-          <span class="bbs-category">交換</span>
-          <div>
-            <p>交換未使用的防水符紙，求一組月面規格六角扳手</p>
-            <small>工房北側座位・今天 08:14</small>
-          </div>
-          <span class="bbs-replies"><b>7</b> 回覆</span>
-        </article>
-        <article class="bbs-row" data-bbs-category="course">
-          <span class="bbs-category">課程</span>
-          <div>
-            <p>慧音老師的史料批判課會點名嗎？會，而且會記進歷史嗎？</p>
-            <small>匿名人類學生・昨天</small>
-          </div>
-          <span class="bbs-replies"><b>56</b> 回覆</span>
-        </article>
-      </div>
+      <div class="bbs-table" data-bbs-list aria-live="polite"></div>
 
       <div class="bbs-status">
-        <span><i></i> 目前在線：108</span>
-        <span>本日主題：74</span>
-        <span>最後同步：剛剛</span>
+        <span data-bbs-online><i></i> 目前在線：108</span>
+        <span data-bbs-topics>本日主題：74</span>
+        <span data-bbs-sync>最後同步：剛剛</span>
       </div>
     </div>
   </div>
@@ -1083,6 +1070,22 @@
   </div>
   <div class="research-meta" data-research-meta></div>
   <div class="research-body" data-research-body></div>
+</dialog>
+
+<dialog class="info-dialog" data-info-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉內容卡片" data-info-close>×</button>
+  <div class="info-dialog-media" data-info-media hidden>
+    <img src="assets/images/campus-hero.webp" alt="" width="1280" height="853" data-info-image>
+  </div>
+  <div class="info-dialog-content">
+    <p class="dialog-kicker" data-info-kicker>CAMPUS FILE</p>
+    <h2 data-info-title>校園檔案</h2>
+    <p class="info-dialog-summary" data-info-summary></p>
+    <dl class="info-dialog-meta" data-info-meta></dl>
+    <button class="button button-primary info-dialog-action" type="button" data-info-action hidden>
+      <span data-info-action-label>繼續</span><span aria-hidden="true">→</span>
+    </button>
+  </div>
 </dialog>
 
 <dialog class="compose-dialog" data-compose-dialog>

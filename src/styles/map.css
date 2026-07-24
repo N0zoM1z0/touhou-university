@@ -14,7 +14,7 @@
 .map-layout {
   display: grid;
   margin-top: 55px;
-  grid-template-columns: minmax(0, 1fr) 330px;
+  grid-template-columns: minmax(0, 1fr) 390px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -116,6 +116,14 @@
   text-align: left;
 }
 
+.map-node[data-map-place="gate"] { --x: 13%; --y: 70%; }
+.map-node[data-map-place="library"] { --x: 26%; --y: 38%; }
+.map-node[data-map-place="boundary"] { --x: 45%; --y: 62%; }
+.map-node[data-map-place="history"] { --x: 59%; --y: 38%; }
+.map-node[data-map-place="magic"] { --x: 70%; --y: 70%; }
+.map-node[data-map-place="clinic"] { --x: 84%; --y: 51%; }
+.map-node[data-map-place="kappa"] { --x: 78%; --y: 21%; }
+
 .map-node span {
   display: grid;
   width: 29px;
@@ -140,6 +148,7 @@
 }
 
 .map-node:hover span,
+.map-node:focus-visible span,
 .map-node.active span {
   color: var(--white);
   background-color: var(--red);
@@ -170,34 +179,89 @@
 
 .map-detail {
   display: flex;
-  padding: 42px 34px;
+  min-width: 0;
   flex-direction: column;
   background: var(--paper-light);
   color: var(--ink);
+  overflow: hidden;
 }
 
-.map-detail > p:first-child {
-  margin-bottom: 13px;
-  color: var(--red);
+.map-detail-media {
+  position: relative;
+  min-height: 230px;
+  background: var(--ink);
+  overflow: hidden;
+}
+
+.map-detail-media::after {
+  content: "";
+  position: absolute;
+  inset: 35% 0 0;
+  background: linear-gradient(transparent, rgba(9, 16, 24, 0.84));
+  pointer-events: none;
+}
+
+.map-detail-media img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.map-detail:hover .map-detail-media img {
+  transform: scale(1.025);
+}
+
+.map-detail-media > span {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  z-index: 1;
+  padding: 6px 9px;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  background: rgba(16, 24, 35, 0.55);
+  backdrop-filter: blur(8px);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.map-detail-media > p {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  z-index: 1;
+  margin: 0;
+  color: var(--white);
   font-size: 8px;
   font-weight: 850;
   letter-spacing: 0.16em;
 }
 
+.map-detail-content {
+  display: flex;
+  min-height: 380px;
+  padding: 27px 32px 32px;
+  flex: 1;
+  flex-direction: column;
+}
+
 .map-detail h3 {
-  margin-bottom: 19px;
+  margin-bottom: 12px;
   font-family: var(--serif);
   font-size: 31px;
 }
 
 .map-detail h3 + p {
-  min-height: 135px;
+  min-height: 103px;
+  margin-bottom: 18px;
   color: #69645d;
   font-size: 12px;
 }
 
 .map-detail dl {
-  margin: auto 0 25px;
+  margin: auto 0 21px;
   border-top: 1px solid var(--line);
 }
 

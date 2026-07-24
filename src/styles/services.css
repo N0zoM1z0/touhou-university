@@ -95,9 +95,18 @@
 
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
+}
+
+.service-tile-exam {
+  color: var(--white);
+  background: var(--blue);
+}
+
+.service-tile-exam .service-icon {
+  color: #dba49a;
 }
 
 .service-tile {

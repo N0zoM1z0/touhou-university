@@ -281,6 +281,18 @@ records.push(
   ["libraryTagline", "館藏會飛，但索書號不會。", "蔵書は飛んでも、請求記号は飛びません。", "The collection may fly; call numbers do not."],
   ["marisaTags", "高出力魔法・實驗方法", "高出力魔法・実験方法", "High-output magic · Experimental method"],
   ["grimoireClub", "魔導書修復會", "魔導書修復会", "Grimoire Restoration Society"],
+  ["viewDetails", "查看詳情 ↗", "詳細を見る ↗", "View details ↗"],
+  ["shuffleTopics", "↻ 換一批話題", "↻ 話題を入れ替える", "↻ Shuffle topics"],
+  ["contentCardClose", "關閉內容卡片", "コンテンツカードを閉じる", "Close content card"],
+  ["campusFileDefault", "校園檔案", "キャンパスファイル", "Campus File"],
+  ["continueDefault", "繼續", "続ける", "Continue"],
+  ["examEyebrow", "ADMISSIONS EXAM / 入學試驗", "ADMISSIONS EXAM / 入学試験", "ADMISSIONS EXAM"],
+  ["examTitle1", "現在，", "さあ、", "Now,"],
+  ["examTitle2", "讓問題開始計時。", "問いの時計を動かそう。", "let the questions start the clock."],
+  ["examLead", "選擇一份試卷，在八分鐘內完成八題。交卷後立即判分、逐題解析，成績只保存在這台裝置，重考會重新排列題目。", "試験を一つ選び、8分で8問に答えます。提出後すぐ採点・解説され、成績はこの端末だけに保存されます。再受験では問題順が変わります。", "Choose a paper and answer eight questions in eight minutes. Submission is scored instantly with explanations; results stay on this device, and retakes reshuffle the questions."],
+  ["takeExam", "入學試驗", "入学試験", "Take an Exam"],
+  ["iconPaper", "卷", "巻", "PAPER"],
+  ["mapArrivalServices", "迎賓與校務", "来訪・学務", "Arrival & Services"],
 );
 
 export const messages = Object.fromEntries(

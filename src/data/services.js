@@ -1,6 +1,13 @@
 export const mapPlaces = {
   gate: {
     index: "01 / MAIN GATE",
+    image: "assets/images/campus-hero.webp",
+    imageAlt: {
+      "zh-Hant": "晨霧中的幻想鄉立東方大學主校區與博麗門",
+      ja: "朝霧に包まれた幻想郷立東方大学の本校舎と博麗門",
+      en: "Touhou University main campus and Hakurei Gate in the morning mist",
+    },
+    type: { "zh-Hant": "迎賓與校務", ja: "来訪・学務", en: "Arrival & Services" },
     name: { "zh-Hant": "博麗門", ja: "博麗門", en: "Hakurei Gate" },
     description: {
       "zh-Hant": "位於大結界內側的正門。外界生報到、訪客核驗與遺失物返回皆在此辦理。",
@@ -13,6 +20,13 @@ export const mapPlaces = {
   },
   library: {
     index: "02 / LIBRARY",
+    image: "assets/images/library.webp",
+    imageAlt: {
+      "zh-Hant": "暮色中的霧湖圖書館閱覽大廳",
+      ja: "夕暮れの霧の湖図書館閲覧ホール",
+      en: "Misty Lake Library reading hall at dusk",
+    },
+    type: { "zh-Hant": "教學與典藏", ja: "教育・収蔵", en: "Teaching & Collections" },
     name: { "zh-Hant": "霧湖圖書館", ja: "霧の湖図書館", en: "Misty Lake Library" },
     description: {
       "zh-Hant": "跨館藏借閱、魔導書特藏與夜間閱覽中心。會自行移動的書籍存放於北翼。",
@@ -25,6 +39,13 @@ export const mapPlaces = {
   },
   boundary: {
     index: "03 / LECTURE HALL",
+    image: "assets/images/map/boundary-hall.webp",
+    imageAlt: {
+      "zh-Hant": "大結界光幕下的境界講堂",
+      ja: "大結界の光幕に面した境界講堂",
+      en: "Boundary Hall beneath the luminous Great Barrier",
+    },
+    type: { "zh-Hant": "共同講堂", ja: "共通講堂", en: "Common Lecture Hall" },
     name: { "zh-Hant": "境界講堂", ja: "境界講堂", en: "Boundary Hall" },
     description: {
       "zh-Hant": "全校共同必修、公開答辯與符卡式口試主場。座位數會依出席者邊界微調。",
@@ -37,6 +58,13 @@ export const mapPlaces = {
   },
   history: {
     index: "04 / ARCHIVE",
+    image: "assets/images/map/hieda-history-hall.webp",
+    imageAlt: {
+      "zh-Hant": "人里旁保存古籍與編年史的稗田史學館",
+      ja: "人里のそばで古文書と年代記を守る稗田史学館",
+      en: "Hieda History Hall preserving chronicles beside the Human Village",
+    },
+    type: { "zh-Hant": "史料與檔案", ja: "史料・公文書", en: "History & Archives" },
     name: { "zh-Hant": "稗田史學館", ja: "稗田史学館", en: "Hieda History Hall" },
     description: {
       "zh-Hant": "史料校勘、人里研究與口述歷史中心。滿月前後二樓部分檔案暫停調閱。",
@@ -49,6 +77,13 @@ export const mapPlaces = {
   },
   magic: {
     index: "05 / LABORATORY",
+    image: "assets/images/map/seven-day-laboratory.webp",
+    imageAlt: {
+      "zh-Hant": "黃昏時七曜實驗塔內發光的魔法研究室",
+      ja: "黄昏の七曜実験塔に灯る魔法研究室",
+      en: "Glowing magic laboratories inside Seven-Day Laboratory at twilight",
+    },
+    type: { "zh-Hant": "魔法實驗設施", ja: "魔法実験施設", en: "Magic Laboratories" },
     name: { "zh-Hant": "七曜實驗塔", ja: "七曜実験塔", en: "Seven-Day Laboratory" },
     description: {
       "zh-Hant": "元素理論與高出力魔法實驗設施。紅燈亮起時請沿逆時針方向離開。",
@@ -61,6 +96,13 @@ export const mapPlaces = {
   },
   clinic: {
     index: "06 / CLINIC",
+    image: "assets/images/map/eientei-clinic.webp",
+    imageAlt: {
+      "zh-Hant": "迷途竹林深處燈火通明的永遠亭診療所",
+      ja: "迷いの竹林の奥で灯りをともす永遠亭診療所",
+      en: "Eientei Clinic glowing deep within the Bamboo Forest",
+    },
+    type: { "zh-Hant": "醫療與藥學", ja: "医療・薬学", en: "Medicine & Pharmacy" },
     name: { "zh-Hant": "永遠亭診療所", ja: "永遠亭診療所", en: "Eientei Clinic" },
     description: {
       "zh-Hant": "跨種族門診、藥局與月相感覺研究站。急診兔車由竹林東口進入。",
@@ -73,6 +115,13 @@ export const mapPlaces = {
   },
   kappa: {
     index: "07 / FIELD WORKSHOP",
+    image: "assets/images/kappa-lab.webp",
+    imageAlt: {
+      "zh-Hant": "妖怪山瀑布旁運轉水力設備的河童聯合工房",
+      ja: "妖怪の山の滝で水力設備を動かす河童共同工房",
+      en: "Kappa Joint Workshop operating hydropower equipment beside a mountain waterfall",
+    },
+    type: { "zh-Hant": "山地實作站", ja: "山地実習所", en: "Mountain Field Station" },
     name: { "zh-Hant": "河童聯合工房", ja: "河童共同工房", en: "Kappa Joint Workshop" },
     description: {
       "zh-Hant": "水力、氣象與觀測儀器的山地實作站。雨具可借，原型機不可借。",

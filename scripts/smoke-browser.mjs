@@ -157,11 +157,15 @@ try {
     lang: document.documentElement.lang,
     services: document.querySelectorAll('[data-service]').length,
     research: document.querySelectorAll('[data-research]').length,
+    news: document.querySelectorAll('[data-news-id]').length,
+    examBanks: document.querySelectorAll('[data-exam-start]').length,
     widthOkay: document.documentElement.scrollWidth <= window.innerWidth
   })`);
   check(initial.lang === "zh-Hant", "Default locale is not Traditional Chinese.");
   check(initial.services >= 8, "Campus service triggers are missing.");
   check(initial.research === 4, "Research file triggers are incomplete.");
+  check(initial.news >= 12, "Rotating campus news did not render.");
+  check(initial.examBanks === 4, "Exam bank chooser is incomplete.");
   check(initial.widthOkay, "Desktop layout has horizontal overflow.");
 
   const english = await cdp.evaluate(`(() => {
@@ -180,6 +184,12 @@ try {
     document.querySelector('[data-service="application"]').click();
     const dialog = document.querySelector('[data-service-dialog]');
     const form = dialog.querySelector('[data-application-form]');
+    form.elements.school.dispatchEvent(new MouseEvent('click', {
+      bubbles: true,
+      clientX: 0,
+      clientY: 0
+    }));
+    const selectStayedOpen = dialog.open;
     const values = {
       name: 'Usami Applicant',
       contact: 'applicant@example.test',
@@ -195,10 +205,12 @@ try {
     form.requestSubmit();
     return {
       open: dialog.open,
+      selectStayedOpen,
       reference: dialog.querySelector('.service-success > strong')?.textContent || ''
     };
   })()`);
   check(application.open, "Application dialog did not open.");
+  check(application.selectStayedOpen, "Selecting an application option closed the dialog.");
   check(/^TU-A-/.test(application.reference), "Application submission did not create a reference.");
 
   const rooms = await cdp.evaluate(`(() => {
@@ -221,20 +233,68 @@ try {
   check(research.title.includes("Forgotten Objects"), "English research translation failed.");
   check(research.sections === 5, "Boundary research file is incomplete.");
 
-  const bbs = await cdp.evaluate(`(() => {
+  const club = await cdp.evaluate(`(() => {
     document.querySelector('[data-research-close]').click();
+    document.querySelector('[data-club="bamboo"]').click();
+    return {
+      open: document.querySelector('[data-info-dialog]').open,
+      title: document.querySelector('[data-info-title]').textContent
+    };
+  })()`);
+  check(club.open, "Club detail interaction did not open.");
+  check(club.title.includes("Bamboo Navigation"), "Club detail did not use the current locale.");
+
+  const news = await cdp.evaluate(`(() => {
+    document.querySelector('[data-info-close]').click();
+    document.querySelector('[data-news-id]').click();
+    return {
+      open: document.querySelector('[data-info-dialog]').open,
+      title: document.querySelector('[data-info-title]').textContent.trim().length
+    };
+  })()`);
+  check(news.open && news.title > 10, "Campus news detail interaction did not open.");
+
+  const exam = await cdp.evaluate(`(() => {
+    document.querySelector('[data-info-close]').click();
+    document.querySelector('[data-exam-start="readiness"]').click();
+    const total = document.querySelectorAll('[data-exam-jump]').length;
+    for (let index = 0; index < total; index += 1) {
+      document.querySelector('[data-exam-jump="' + index + '"]').click();
+      document.querySelector('[data-exam-answer="0"]').click();
+    }
+    document.querySelector('[data-exam-submit]').click();
+    return {
+      total,
+      result: !document.querySelector('[data-exam-result]').hidden,
+      review: document.querySelectorAll('.exam-review details').length,
+      history: JSON.parse(localStorage.getItem('tu:exam:history') || '[]').length
+    };
+  })()`);
+  check(exam.total === 8, "Exam did not render eight questions.");
+  check(exam.result && exam.review === 8 && exam.history === 1, "Exam scoring, review, or history failed.");
+
+  const bbs = await cdp.evaluate(`(() => {
     document.querySelector('[data-bbs-compose]').click();
+    const dialog = document.querySelector('[data-compose-dialog]');
     const form = document.querySelector('[data-bbs-form]');
+    form.elements.category.dispatchEvent(new MouseEvent('click', {
+      bubbles: true,
+      clientX: 0,
+      clientY: 0
+    }));
+    const selectStayedOpen = dialog.open;
     form.elements.category.value = 'course';
     form.elements.author.value = 'Boundary Student';
     form.elements.title.value = 'Field notes exchange';
     form.elements.body.value = 'Meet beside Boundary Hall after the fifth bell.';
     form.requestSubmit();
     return {
+      selectStayedOpen,
       saved: JSON.parse(localStorage.getItem('tu:bbs:posts') || '[]').length,
       rendered: document.querySelectorAll('[data-user-post]').length
     };
   })()`);
+  check(bbs.selectStayedOpen, "Selecting a BBS board closed the compose dialog.");
   check(bbs.saved === 1 && bbs.rendered === 1, "BBS post persistence or rendering failed.");
 
   const japanese = await cdp.evaluate(`(() => {
@@ -243,12 +303,16 @@ try {
     return {
       lang: document.documentElement.lang,
       title: document.querySelector('#services-title').textContent.trim(),
-      map: document.querySelector('[data-map-name]').textContent.trim()
+      map: document.querySelector('[data-map-name]').textContent.trim(),
+      mapImage: document.querySelector('[data-map-image]').getAttribute('src'),
+      mapAlt: document.querySelector('[data-map-image]').getAttribute('alt')
     };
   })()`);
   check(japanese.lang === "ja", "Japanese locale switch failed.");
   check(japanese.title === "今日は何をしますか？", "Japanese static translation failed.");
   check(japanese.map === "霧の湖図書館", "Japanese dynamic map translation failed.");
+  check(japanese.mapImage.endsWith("library.webp"), "Map place image did not change with the selected spot.");
+  check(japanese.mapAlt.includes("霧の湖図書館"), "Map image alternative text did not localize.");
 
   await cdp.call("Emulation.setDeviceMetricsOverride", {
     width: 390,
@@ -281,4 +345,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Browser smoke test passed: i18n, application, rooms, research, BBS, and mobile navigation.");
+console.log("Browser smoke test passed: selects, i18n, map cards, news, clubs, exams, BBS, and mobile navigation.");

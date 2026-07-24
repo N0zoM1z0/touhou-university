@@ -1,0 +1,403 @@
+import { examBanks } from "../data/exam.js";
+import { getLocale } from "./i18n.js";
+
+const copy = {
+  "zh-Hant": {
+    choose: "選擇試卷",
+    chooseLead: "四套題庫各自計時；每次開考都會重新排列題目。",
+    questions: "題",
+    minutes: "分鐘",
+    best: "個人最佳",
+    attempts: "作答次數",
+    noAttempt: "尚未應試",
+    start: "開始考試",
+    answered: "已作答",
+    timeLeft: "剩餘時間",
+    prev: "上一題",
+    next: "下一題",
+    submit: "交卷判分",
+    unanswered: "未作答",
+    result: "成績單",
+    correct: "答對",
+    score: "得分",
+    newBest: "新的個人最佳成績",
+    category: "分項",
+    review: "逐題解析",
+    yourAnswer: "你的答案",
+    correctAnswer: "正確答案",
+    retake: "重考本卷",
+    back: "選擇其他試卷",
+    expired: "時間到，試卷已自動提交。",
+    excellent: "判斷穩健，可以放心踏進校門。",
+    pass: "基礎合格；幾個觀念值得再看一次解析。",
+    revise: "建議先讀完解析，再重新挑戰這份試卷。",
+    history: "本機紀錄",
+  },
+  ja: {
+    choose: "試験を選ぶ",
+    chooseLead: "四つの問題集は個別に計時され、開始ごとに問題順が変わります。",
+    questions: "問",
+    minutes: "分",
+    best: "自己最高",
+    attempts: "受験回数",
+    noAttempt: "未受験",
+    start: "試験開始",
+    answered: "回答済み",
+    timeLeft: "残り時間",
+    prev: "前の問題",
+    next: "次の問題",
+    submit: "提出・採点",
+    unanswered: "未回答",
+    result: "成績表",
+    correct: "正解",
+    score: "得点",
+    newBest: "自己最高得点を更新",
+    category: "分野別",
+    review: "問題解説",
+    yourAnswer: "あなたの回答",
+    correctAnswer: "正解",
+    retake: "この試験を再受験",
+    back: "別の試験を選ぶ",
+    expired: "時間切れのため自動提出しました。",
+    excellent: "判断は安定しています。安心して校門をくぐれます。",
+    pass: "基礎は合格。いくつかの解説を読み直しましょう。",
+    revise: "解説を読んでから、もう一度挑戦することを勧めます。",
+    history: "端末内記録",
+  },
+  en: {
+    choose: "Choose a paper",
+    chooseLead: "Each of four banks is timed separately; question order changes every attempt.",
+    questions: "questions",
+    minutes: "minutes",
+    best: "Personal best",
+    attempts: "Attempts",
+    noAttempt: "Not attempted",
+    start: "Start exam",
+    answered: "Answered",
+    timeLeft: "Time left",
+    prev: "Previous",
+    next: "Next",
+    submit: "Submit & score",
+    unanswered: "Unanswered",
+    result: "Result sheet",
+    correct: "Correct",
+    score: "Score",
+    newBest: "New personal best",
+    category: "By category",
+    review: "Answer review",
+    yourAnswer: "Your answer",
+    correctAnswer: "Correct answer",
+    retake: "Retake this paper",
+    back: "Choose another paper",
+    expired: "Time expired. The paper was submitted automatically.",
+    excellent: "Sound judgment—you can cross the campus gate with confidence.",
+    pass: "The foundation is sound; review a few explanations.",
+    revise: "Read the explanations, then give this paper another attempt.",
+    history: "On-device record",
+  },
+};
+
+const app = document.querySelector("[data-exam-app]");
+const lobby = document.querySelector("[data-exam-lobby]");
+const runner = document.querySelector("[data-exam-runner]");
+const result = document.querySelector("[data-exam-result]");
+let state = null;
+let lastResult = null;
+let timer = null;
+
+function shuffled(values) {
+  const copyValues = values.slice();
+  for (let index = copyValues.length - 1; index > 0; index -= 1) {
+    const target = crypto.getRandomValues(new Uint32Array(1))[0] % (index + 1);
+    [copyValues[index], copyValues[target]] = [copyValues[target], copyValues[index]];
+  }
+  return copyValues;
+}
+
+function history() {
+  return JSON.parse(window.localStorage.getItem("tu:exam:history") || "[]");
+}
+
+function formatTime(seconds) {
+  const safe = Math.max(0, seconds);
+  return `${String(Math.floor(safe / 60)).padStart(2, "0")}:${String(safe % 60).padStart(2, "0")}`;
+}
+
+function bankHistory(bankId) {
+  return history().filter((attempt) => attempt.bankId === bankId);
+}
+
+function showPanel(name) {
+  lobby.hidden = name !== "lobby";
+  runner.hidden = name !== "runner";
+  result.hidden = name !== "result";
+}
+
+function renderLobby() {
+  if (!lobby) return;
+  const locale = getLocale();
+  const c = copy[locale];
+  lobby.innerHTML = `
+    <div class="exam-lobby-head">
+      <div>
+        <p>${c.choose}</p>
+        <h3>${c.chooseLead}</h3>
+      </div>
+      <span>${c.history}</span>
+    </div>
+    <div class="exam-bank-grid">
+      ${examBanks
+        .map((bank) => {
+          const attempts = bankHistory(bank.id);
+          const best = attempts.length ? Math.max(...attempts.map((attempt) => attempt.percent)) : null;
+          return `
+            <article class="exam-bank">
+              <div class="exam-bank-mark"><span>${bank.glyph}</span><small>${bank.code}</small></div>
+              <p>${bank.questions.length} ${c.questions} · ${Math.round(bank.duration / 60)} ${c.minutes}</p>
+              <h3>${bank.title[locale]}</h3>
+              <p>${bank.subtitle[locale]}</p>
+              <dl>
+                <div><dt>${c.best}</dt><dd>${best === null ? c.noAttempt : `${best}%`}</dd></div>
+                <div><dt>${c.attempts}</dt><dd>${attempts.length}</dd></div>
+              </dl>
+              <button type="button" data-exam-start="${bank.id}">
+                ${c.start}<span aria-hidden="true">→</span>
+              </button>
+            </article>`;
+        })
+        .join("")}
+    </div>`;
+  lobby.querySelectorAll("[data-exam-start]").forEach((button) => {
+    button.addEventListener("click", () => startExam(button.dataset.examStart));
+  });
+  showPanel("lobby");
+}
+
+function updateTimer() {
+  if (!state) return;
+  state.remaining = Math.max(0, Math.ceil((state.endsAt - Date.now()) / 1000));
+  const timerValue = runner?.querySelector("[data-exam-timer]");
+  if (timerValue) timerValue.textContent = formatTime(state.remaining);
+  runner?.classList.toggle("is-urgent", state.remaining <= 60);
+  if (state.remaining === 0) submitExam(true);
+}
+
+function renderRunner() {
+  if (!state || !runner) return;
+  const locale = getLocale();
+  const c = copy[locale];
+  const bank = examBanks.find((item) => item.id === state.bankId);
+  const question = state.questions[state.current];
+  const selected = state.answers[state.current];
+  const answeredCount = state.answers.filter((answer) => Number.isInteger(answer)).length;
+  runner.innerHTML = `
+    <header class="exam-runner-head">
+      <div>
+        <p>${bank.code} · ${bank.title[locale]}</p>
+        <strong>${String(state.current + 1).padStart(2, "0")} / ${String(state.questions.length).padStart(2, "0")}</strong>
+      </div>
+      <div class="exam-timer">
+        <span>${c.timeLeft}</span>
+        <strong data-exam-timer>${formatTime(state.remaining)}</strong>
+      </div>
+    </header>
+    <div class="exam-progress" aria-hidden="true"><i style="width:${((state.current + 1) / state.questions.length) * 100}%"></i></div>
+    <div class="exam-question">
+      <div class="exam-question-meta">
+        <span>${question.category[locale]}</span>
+        <span>${c.answered} ${answeredCount}/${state.questions.length}</span>
+      </div>
+      <h3>${question.prompt[locale]}</h3>
+      <div class="exam-options" role="radiogroup" aria-label="${question.prompt[locale]}">
+        ${question.options
+          .map(
+            (answer, index) => `
+              <button class="${selected === index ? "selected" : ""}" type="button" role="radio"
+                aria-checked="${selected === index}" data-exam-answer="${index}">
+                <span>${String.fromCharCode(65 + index)}</span><b>${answer[locale]}</b>
+              </button>`,
+          )
+          .join("")}
+      </div>
+    </div>
+    <footer class="exam-controls">
+      <button type="button" data-exam-prev ${state.current === 0 ? "disabled" : ""}>← ${c.prev}</button>
+      <div class="exam-question-dots" aria-label="${c.answered}">
+        ${state.questions
+          .map(
+            (_, index) => `<button class="${index === state.current ? "current" : ""} ${Number.isInteger(state.answers[index]) ? "answered" : ""}"
+              type="button" data-exam-jump="${index}" aria-label="${index + 1}">${index + 1}</button>`,
+          )
+          .join("")}
+      </div>
+      ${
+        state.current === state.questions.length - 1
+          ? `<button class="exam-submit" type="button" data-exam-submit>${c.submit} →</button>`
+          : `<button type="button" data-exam-next>${c.next} →</button>`
+      }
+    </footer>`;
+  runner.querySelectorAll("[data-exam-answer]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.answers[state.current] = Number(button.dataset.examAnswer);
+      renderRunner();
+    });
+  });
+  runner.querySelector("[data-exam-prev]")?.addEventListener("click", () => {
+    state.current -= 1;
+    renderRunner();
+  });
+  runner.querySelector("[data-exam-next]")?.addEventListener("click", () => {
+    state.current += 1;
+    renderRunner();
+  });
+  runner.querySelector("[data-exam-submit]")?.addEventListener("click", () => submitExam(false));
+  runner.querySelectorAll("[data-exam-jump]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.current = Number(button.dataset.examJump);
+      renderRunner();
+    });
+  });
+  showPanel("runner");
+}
+
+function startExam(bankId) {
+  const bank = examBanks.find((item) => item.id === bankId);
+  if (!bank) return;
+  window.clearInterval(timer);
+  state = {
+    bankId,
+    questions: shuffled(bank.questions),
+    answers: Array(bank.questions.length).fill(null),
+    current: 0,
+    remaining: bank.duration,
+    endsAt: Date.now() + bank.duration * 1000,
+  };
+  lastResult = null;
+  renderRunner();
+  timer = window.setInterval(updateTimer, 500);
+  app?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function calculateResult(autoSubmitted) {
+  const bank = examBanks.find((item) => item.id === state.bankId);
+  const correct = state.questions.reduce(
+    (total, question, index) => total + (state.answers[index] === question.answer ? 1 : 0),
+    0,
+  );
+  const percent = Math.round((correct / state.questions.length) * 100);
+  const previousBest = Math.max(-1, ...bankHistory(bank.id).map((attempt) => attempt.percent));
+  return {
+    bank,
+    questions: state.questions,
+    answers: state.answers.slice(),
+    correct,
+    percent,
+    autoSubmitted,
+    newBest: percent > previousBest,
+  };
+}
+
+function saveResult(examResult) {
+  const attempts = history();
+  attempts.push({
+    bankId: examResult.bank.id,
+    percent: examResult.percent,
+    correct: examResult.correct,
+    total: examResult.questions.length,
+    completedAt: new Date().toISOString(),
+  });
+  window.localStorage.setItem("tu:exam:history", JSON.stringify(attempts.slice(-40)));
+}
+
+function gradeMessage(percent, locale) {
+  const c = copy[locale];
+  return percent >= 88 ? c.excellent : percent >= 63 ? c.pass : c.revise;
+}
+
+function renderResult() {
+  if (!lastResult || !result) return;
+  const locale = getLocale();
+  const c = copy[locale];
+  const { bank, questions, answers, correct, percent } = lastResult;
+  const categories = new Map();
+  questions.forEach((question, index) => {
+    const key = question.category[locale];
+    const current = categories.get(key) || [0, 0];
+    current[1] += 1;
+    if (answers[index] === question.answer) current[0] += 1;
+    categories.set(key, current);
+  });
+  result.innerHTML = `
+    <header class="exam-result-head">
+      <div>
+        <p>${c.result} · ${bank.code}</p>
+        <h3>${bank.title[locale]}</h3>
+        <span>${gradeMessage(percent, locale)}</span>
+      </div>
+      <div class="exam-score">
+        <strong>${percent}</strong><span>/ 100</span>
+        <small>${correct} / ${questions.length} ${c.correct}</small>
+      </div>
+    </header>
+    ${lastResult.autoSubmitted ? `<p class="exam-expired">${c.expired}</p>` : ""}
+    ${lastResult.newBest ? `<p class="exam-best">✦ ${c.newBest}</p>` : ""}
+    <section class="exam-breakdown">
+      <p>${c.category}</p>
+      <div>
+        ${[...categories]
+          .map(
+            ([name, values]) => `
+              <span><b>${name}</b><i><em style="width:${(values[0] / values[1]) * 100}%"></em></i><strong>${values[0]}/${values[1]}</strong></span>`,
+          )
+          .join("")}
+      </div>
+    </section>
+    <section class="exam-review">
+      <p>${c.review}</p>
+      ${questions
+        .map((question, index) => {
+          const selected = answers[index];
+          const isCorrect = selected === question.answer;
+          return `
+            <details class="${isCorrect ? "correct" : "incorrect"}">
+              <summary>
+                <span>${String(index + 1).padStart(2, "0")}</span>
+                <b>${question.prompt[locale]}</b>
+                <i>${isCorrect ? "✓" : "×"}</i>
+              </summary>
+              <div>
+                <p><span>${c.yourAnswer}</span>${Number.isInteger(selected) ? question.options[selected][locale] : c.unanswered}</p>
+                <p><span>${c.correctAnswer}</span>${question.options[question.answer][locale]}</p>
+                <blockquote>${question.explanation[locale]}</blockquote>
+              </div>
+            </details>`;
+        })
+        .join("")}
+    </section>
+    <footer class="exam-result-actions">
+      <button type="button" data-exam-back>← ${c.back}</button>
+      <button class="exam-submit" type="button" data-exam-retake>${c.retake} ↻</button>
+    </footer>`;
+  result.querySelector("[data-exam-back]")?.addEventListener("click", renderLobby);
+  result.querySelector("[data-exam-retake]")?.addEventListener("click", () => startExam(bank.id));
+  showPanel("result");
+}
+
+function submitExam(autoSubmitted) {
+  if (!state || lastResult) return;
+  window.clearInterval(timer);
+  lastResult = calculateResult(autoSubmitted);
+  saveResult(lastResult);
+  renderResult();
+  app?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+export function initExam() {
+  renderLobby();
+  window.addEventListener("tu:languagechange", () => {
+    if (lastResult) renderResult();
+    else if (state) renderRunner();
+    else renderLobby();
+  });
+  window.addEventListener("pagehide", () => window.clearInterval(timer), { once: true });
+}

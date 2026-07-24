@@ -15,9 +15,10 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - online application with saved drafts and application references;
 - campus-visit reservations and visitor references;
 - library/classroom availability, dining menus, timetable and exams;
-- interactive campus map;
+- illustrated interactive campus map with seven place cards;
 - four complete Gensokyo research records;
-- campus life, clubs and a locally persistent BBS;
+- four timed entrance-exam banks with instant scoring and answer review;
+- rotating campus news, detailed clubs and a locally persistent, shuffled BBS;
 - responsive navigation, keyboard-friendly dialogs and reduced-motion support;
 - two interchangeable faculty portrait art directions.
 
@@ -50,6 +51,7 @@ npm run dev                 # rebuild on change and serve at localhost:4173
 npm run build               # generate index.html and styles.css
 npm run check               # build + i18n coverage + JS syntax
 npm run test:browser        # headless Chrome interaction and mobile smoke test
+npm run capture -- --section=map --width=390 --height=844
 npm run new:section -- news # scaffold and register a new section
 npm run portraits -- set-b  # switch the active faculty art direction
 scripts/optimize-images.sh input.png output.webp 1600x1200
@@ -60,6 +62,10 @@ Set a different preview port with `PORT=4180 npm run dev`.
 ### Adding content
 
 - Add or revise faculty, research and campus-service records in `src/data/`.
+- Add exam banks and questions in `src/data/exam.js`; every question stores all
+  three languages beside its answer and explanation.
+- Add news/BBS seeds in `src/data/community.js`, and club details in
+  `src/data/campus.js`.
 - Add page structure in `src/sections/`.
 - Add feature logic as a focused module in `src/js/` and import it from
   `src/js/main.js`.
