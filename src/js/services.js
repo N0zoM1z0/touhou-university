@@ -69,6 +69,21 @@ const copy = {
     reserve: "送出預約",
     reserved: "進校預約已登記",
     reservedBody: "請在預約時間前一刻鐘抵達入口，並出示下列通行編號。",
+    saveVisit: "儲存預約草稿",
+    visitSaved: "進校預約草稿已保存在這台裝置。",
+    myVisits: "我的進校預約",
+    visitRecords: "本機進校記錄",
+    visitRecordsLead: "預約與草稿只保存在這台裝置，不會同步到其他瀏覽器。",
+    noVisits: "這台裝置還沒有已提交的進校預約。",
+    backToVisit: "返回預約表",
+    newVisit: "再預約一次",
+    visitDetail: "查看通行需求",
+    deleteVisit: "刪除本機預約",
+    deleteVisitConfirm: "確定要從這台裝置刪除此進校預約嗎？",
+    visitDeleted: "已刪除這台裝置上的進校預約。",
+    visitDraftPresent: "有一份自動保存的預約草稿",
+    visitAutoSave: "填寫內容會自動保存在這台裝置。",
+    visitRecordsUnit: "份已預約",
     menu: "品項",
     contents: "內容",
     price: "價格",
@@ -143,6 +158,21 @@ const copy = {
     reserve: "予約を送信",
     reserved: "来校予約を登録しました",
     reservedBody: "予約時刻の15分前に入口へ到着し、次の通行番号を提示してください。",
+    saveVisit: "予約下書きを保存",
+    visitSaved: "来校予約の下書きをこの端末へ保存しました。",
+    myVisits: "自分の来校予約",
+    visitRecords: "この端末の来校記録",
+    visitRecordsLead: "予約と下書きはこの端末だけに保存され、他のブラウザへ同期されません。",
+    noVisits: "この端末には提出済みの来校予約がありません。",
+    backToVisit: "予約フォームへ戻る",
+    newVisit: "別の来校を予約",
+    visitDetail: "通行希望を見る",
+    deleteVisit: "端末の予約を削除",
+    deleteVisitConfirm: "この端末から来校予約を削除しますか。",
+    visitDeleted: "この端末の来校予約を削除しました。",
+    visitDraftPresent: "自動保存された予約下書きがあります",
+    visitAutoSave: "入力内容はこの端末へ自動保存されます。",
+    visitRecordsUnit: "件予約済み",
     menu: "品名",
     contents: "内容",
     price: "価格",
@@ -217,6 +247,21 @@ const copy = {
     reserve: "Reserve visit",
     reserved: "Campus visit registered",
     reservedBody: "Arrive fifteen minutes early and present the following passage reference.",
+    saveVisit: "Save visit draft",
+    visitSaved: "Visit draft saved on this device.",
+    myVisits: "My Campus Visits",
+    visitRecords: "Campus visits on this device",
+    visitRecordsLead: "Reservations and drafts stay in this browser and do not sync to other devices.",
+    noVisits: "No campus visit has been submitted from this device.",
+    backToVisit: "Back to visit form",
+    newVisit: "Reserve another visit",
+    visitDetail: "View access needs",
+    deleteVisit: "Delete local reservation",
+    deleteVisitConfirm: "Delete this campus-visit reservation from this device?",
+    visitDeleted: "Campus-visit reservation deleted from this device.",
+    visitDraftPresent: "An autosaved visit draft is available",
+    visitAutoSave: "Your entries are autosaved on this device.",
+    visitRecordsUnit: "reserved",
     menu: "Item",
     contents: "Contents",
     price: "Price",
@@ -283,6 +328,7 @@ export function initServices() {
   let currentService = null;
   let currentApplicationSchool = null;
   let applicationView = "form";
+  let visitView = "form";
 
   function setHeader(service) {
     const locale = getLocale();
@@ -518,10 +564,22 @@ export function initServices() {
   }
 
   function renderVisit() {
+    visitView = "form";
     const locale = getLocale();
     const c = copy[locale];
     const tomorrow = new Date(Date.now() + 86400000).toISOString().slice(0, 10);
+    const visits = readStored("tu:visits", []);
+    const draft = readStored("tu:visit:draft", null);
     content.innerHTML = `
+      <div class="application-local-bar">
+        <div>
+          <p>ON THIS DEVICE</p>
+          <strong>${visits.length} ${c.visitRecordsUnit}${draft ? ` · ${c.visitDraftPresent}` : ""}</strong>
+        </div>
+        <button type="button" data-visit-records>
+          ${c.myVisits} <span>${visits.length}</span>
+        </button>
+      </div>
       <form class="campus-form" data-visit-form>
         <label>${c.visitor}<input name="name" maxlength="60" required autocomplete="name"></label>
         <label>${c.contact}<input name="contact" maxlength="90" required></label>
@@ -537,19 +595,44 @@ export function initServices() {
         </label>
         <label class="form-span">${c.visitNeeds}<textarea name="needs" rows="3" maxlength="500"></textarea></label>
         <div class="form-actions form-span">
-          <span>VISITOR PASS / OPEN CAMPUS 2026</span>
+          <span>${c.visitAutoSave}</span>
+          <button class="button button-secondary" type="button" data-save-visit>${c.saveVisit}</button>
           <button class="button button-primary" type="submit">${c.reserve} <span>→</span></button>
         </div>
       </form>`;
     const form = content.querySelector("[data-visit-form]");
+    if (draft) {
+      Object.entries(draft).forEach(([key, value]) => {
+        const field = form.elements.namedItem(key);
+        if (field && typeof value === "string") field.value = value;
+      });
+    }
+    let autosaveTimer;
+    const saveVisitDraft = ({ notify = false } = {}) => {
+      const values = Object.fromEntries(new FormData(form).entries());
+      window.localStorage.setItem("tu:visit:draft", JSON.stringify(values));
+      if (notify) showToast(c.visitSaved);
+    };
+    form.addEventListener("input", () => {
+      window.clearTimeout(autosaveTimer);
+      autosaveTimer = window.setTimeout(saveVisitDraft, 220);
+    });
+    form.addEventListener("change", () => saveVisitDraft());
+    content.querySelector("[data-save-visit]").addEventListener("click", () => saveVisitDraft({ notify: true }));
+    content.querySelector("[data-visit-records]").addEventListener("click", renderVisitRecords);
     form.addEventListener("submit", (event) => {
       event.preventDefault();
-      if (!form.reportValidity()) return;
+      if (!form.reportValidity()) {
+        showToast(c.required);
+        return;
+      }
+      window.clearTimeout(autosaveTimer);
       const id = reference("V");
       const record = { id, submittedAt: new Date().toISOString(), ...Object.fromEntries(new FormData(form).entries()) };
-      const visits = JSON.parse(window.localStorage.getItem("tu:visits") || "[]");
-      visits.push(record);
-      window.localStorage.setItem("tu:visits", JSON.stringify(visits));
+      const storedVisits = readStored("tu:visits", []);
+      storedVisits.push(record);
+      window.localStorage.setItem("tu:visits", JSON.stringify(storedVisits.slice(-30)));
+      window.localStorage.removeItem("tu:visit:draft");
       content.innerHTML = `
         <div class="service-success">
           <span aria-hidden="true">門</span>
@@ -557,7 +640,100 @@ export function initServices() {
           <h3>${c.reserved}</h3>
           <strong>${id}</strong>
           <p>${c.reservedBody}</p>
+          <div class="service-success-actions">
+            <button class="button button-secondary" type="button" data-visit-records>${c.myVisits}</button>
+            <button class="button button-primary" type="button" data-new-visit>${c.newVisit}</button>
+          </div>
         </div>`;
+      content.querySelector("[data-visit-records]").addEventListener("click", renderVisitRecords);
+      content.querySelector("[data-new-visit]").addEventListener("click", renderVisit);
+    });
+  }
+
+  function renderVisitRecords() {
+    visitView = "records";
+    const locale = getLocale();
+    const c = copy[locale];
+    const visits = readStored("tu:visits", []);
+    const draft = readStored("tu:visit:draft", null);
+    const routeNames = {
+      hakurei: c.hakureiGate,
+      mountain: c.mountainGate,
+      pier: c.mistyPier,
+      sky: c.skyBerth,
+    };
+    const formatDate = (value, withTime = false) => {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "—";
+      return new Intl.DateTimeFormat(locale, withTime ? { dateStyle: "medium", timeStyle: "short" } : { dateStyle: "long" }).format(date);
+    };
+    content.innerHTML = `
+      <section class="application-records visit-records">
+        <header>
+          <div>
+            <p>ON THIS DEVICE / VISITOR PASSES</p>
+            <h3>${c.visitRecords}</h3>
+            <span>${c.visitRecordsLead}</span>
+          </div>
+          <button class="button button-secondary" type="button" data-back-visit>${c.backToVisit}</button>
+        </header>
+        ${
+          draft
+            ? `<button class="application-draft-card" type="button" data-back-visit>
+                <span>✎</span>
+                <div><small>AUTOSAVED DRAFT</small><strong>${c.visitDraftPresent}</strong></div>
+                <i aria-hidden="true">→</i>
+              </button>`
+            : ""
+        }
+        <div class="application-record-list">
+          ${
+            visits.length
+              ? visits
+                  .slice()
+                  .reverse()
+                  .map(
+                    (record) => `
+                      <article class="application-record-card" data-visit-record="${escapeHtml(record.id)}">
+                        <header>
+                          <div><span>${c.submitted}</span><strong>${escapeHtml(record.id)}</strong></div>
+                          <time datetime="${escapeHtml(record.submittedAt)}">${formatDate(record.submittedAt, true)}</time>
+                        </header>
+                        <dl>
+                          <div><dt>${c.visitor}</dt><dd>${escapeHtml(record.name)}</dd></div>
+                          <div><dt>${c.date}</dt><dd>${formatDate(`${record.date}T12:00:00`)}</dd></div>
+                          <div><dt>${c.party}</dt><dd>${escapeHtml(record.party)}</dd></div>
+                          <div><dt>${c.route}</dt><dd>${escapeHtml(routeNames[record.route] || record.route || "—")}</dd></div>
+                        </dl>
+                        ${
+                          record.needs
+                            ? `<details>
+                                <summary>${c.visitDetail}</summary>
+                                <div class="application-record-detail"><p><span>${c.visitNeeds}</span>${escapeHtml(record.needs)}</p></div>
+                              </details>`
+                            : ""
+                        }
+                        <button type="button" class="application-record-delete" data-delete-visit="${escapeHtml(record.id)}">
+                          ${c.deleteVisit}
+                        </button>
+                      </article>`,
+                  )
+                  .join("")
+              : `<p class="application-records-empty">${c.noVisits}</p>`
+          }
+        </div>
+      </section>`;
+    content.querySelectorAll("[data-back-visit]").forEach((button) => {
+      button.addEventListener("click", renderVisit);
+    });
+    content.querySelectorAll("[data-delete-visit]").forEach((button) => {
+      button.addEventListener("click", () => {
+        if (!window.confirm(c.deleteVisitConfirm)) return;
+        const next = readStored("tu:visits", []).filter((record) => record.id !== button.dataset.deleteVisit);
+        window.localStorage.setItem("tu:visits", JSON.stringify(next));
+        renderVisitRecords();
+        showToast(c.visitDeleted);
+      });
     });
   }
 
@@ -612,6 +788,7 @@ export function initServices() {
       currentApplicationSchool = resolveSchoolId(applicationSchool);
       applicationView = "form";
     }
+    if (service === "visit") visitView = "form";
     setHeader(service);
     renderers[service]();
     if (!dialog.open) dialog.showModal();
@@ -648,8 +825,16 @@ export function initServices() {
       values.consent = openApplicationForm.elements.consent.checked ? "yes" : "";
       window.localStorage.setItem("tu:application:draft", JSON.stringify(values));
     }
+    const openVisitForm = content?.querySelector("[data-visit-form]");
+    if (openVisitForm) {
+      window.localStorage.setItem(
+        "tu:visit:draft",
+        JSON.stringify(Object.fromEntries(new FormData(openVisitForm).entries())),
+      );
+    }
     setHeader(currentService);
     if (currentService === "application" && applicationView === "records") renderApplicationRecords();
+    else if (currentService === "visit" && visitView === "records") renderVisitRecords();
     else renderers[currentService]();
   });
 }

@@ -1,3 +1,5 @@
+import { advancedGaokaoQuestions } from "./gaokao-advanced.js";
+
 const l = (zh, ja, en) => ({ "zh-Hant": zh, ja, en });
 const q = (id, points, prompt, options, answer, explanation) => ({
   id,
@@ -122,8 +124,72 @@ export const gaokaoTracks = {
 
 export const gaokaoMeta = {
   year: 2026,
-  edition: "GKE-2026-A",
-  duration: 90 * 60,
+  edition: "GKE-2026",
   total: 150,
 };
 
+export const gaokaoDifficulties = {
+  normal: {
+    label: "NORMAL",
+    glyph: "N",
+    duration: 90 * 60,
+    description: l(
+      "基礎卷 · 24 題。讀懂告示、算清路程，別跟第四盞燈走。",
+      "基礎・24問。掲示を読み、経路を計算し、第四の灯について行かないこと。",
+      "Foundation · 24 questions. Read the notices, calculate the route, and do not follow the fourth lantern.",
+    ),
+  },
+  hard: {
+    label: "HARD",
+    glyph: "H",
+    duration: 105 * 60,
+    description: l(
+      "材料卷 · 12 題。每題都要合併兩項以上的記錄或條件。",
+      "資料型・12問。各問で二つ以上の記録・条件を統合する。",
+      "Source paper · 12 questions. Every item combines at least two records or conditions.",
+    ),
+  },
+  lunatic: {
+    label: "LUNATIC",
+    glyph: "L",
+    duration: 120 * 60,
+    description: l(
+      "交叉判讀 · 12 題。月相、版本、路網與互相打架的證詞會同時出現。",
+      "交差判読・12問。月相、版、経路網、対立証言が同時に現れる。",
+      "Cross-source reasoning · 12 questions. Lunar phases, versions, route graphs, and conflicting testimony arrive together.",
+    ),
+  },
+  extra: {
+    label: "EXTRA",
+    glyph: "EX",
+    duration: 135 * 60,
+    description: l(
+      "事件卷 · 12 題。追查資料生成、故障時間線與可識別的因果設計。",
+      "事件型・12問。資料生成、故障時系列、識別可能な因果設計を追う。",
+      "Incident paper · 12 questions. Trace data generation, fault timelines, and identifiable causal designs.",
+    ),
+  },
+};
+
+function rotateAnswer(question, target) {
+  const shift = (target - question.answer + question.options.length) % question.options.length;
+  const options = Array(question.options.length);
+  question.options.forEach((option, index) => {
+    options[(index + shift) % question.options.length] = option;
+  });
+  return { ...question, options, answer: target };
+}
+
+export function gaokaoQuestionsFor(trackId, difficultyId = "normal") {
+  const track = gaokaoTracks[trackId];
+  const difficulty = gaokaoDifficulties[difficultyId] ? difficultyId : "normal";
+  if (!track) return [];
+  const questions = track.subjects.flatMap((subjectId) => {
+    const source =
+      difficulty === "normal"
+        ? gaokaoSubjects[subjectId].questions
+        : advancedGaokaoQuestions[subjectId].filter((question) => question.difficulty === difficulty);
+    return source.map((question) => ({ ...question, subjectId }));
+  });
+  return questions.map((question, index) => rotateAnswer(question, index % 4));
+}

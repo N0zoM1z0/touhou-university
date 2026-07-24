@@ -357,6 +357,40 @@ try {
   })()`);
   check(rooms === 6, "Room availability did not render all records.");
 
+  const visit = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-service-close]').click();
+    document.querySelector('[data-service="visit"]').click();
+    let form = document.querySelector('[data-visit-form]');
+    form.elements.name.value = 'Merry Visitor';
+    form.elements.name.dispatchEvent(new Event('input', { bubbles: true }));
+    await new Promise((resolve) => setTimeout(resolve, 280));
+    document.querySelector('[data-service-close]').click();
+    document.querySelector('[data-service="visit"]').click();
+    form = document.querySelector('[data-visit-form]');
+    const draftRestored = form.elements.name.value;
+    form.elements.contact.value = 'visitor@example.test';
+    form.elements.party.value = '2';
+    const date = new Date(Date.now() + 3 * 86400000).toISOString().slice(0, 10);
+    form.elements.date.value = date;
+    form.elements.route.value = 'pier';
+    form.elements.needs.value = 'Keep the moonlit gangway visible.';
+    form.requestSubmit();
+    const reference = document.querySelector('.service-success > strong')?.textContent || '';
+    document.querySelector('.service-success [data-visit-records]').click();
+    return {
+      draftRestored,
+      reference,
+      records: document.querySelectorAll('[data-visit-record]').length,
+      stored: JSON.parse(localStorage.getItem('tu:visits') || '[]').length,
+      draftCleared: localStorage.getItem('tu:visit:draft') === null,
+      route: document.querySelector('[data-visit-record] dl > div:last-child dd')?.textContent || ''
+    };
+  })()`);
+  check(visit.draftRestored === "Merry Visitor", "Campus-visit autosave did not restore the draft.");
+  check(/^TU-V-/.test(visit.reference), "Campus visit did not create a visitor-pass reference.");
+  check(visit.records === 1 && visit.stored === 1 && visit.draftCleared, "Campus-visit record was not retained.");
+  check(visit.route.includes("Misty Lake"), "Campus-visit route did not localize in the record archive.");
+
   const research = await cdp.evaluate(`(() => {
     document.querySelector('[data-service-close]').click();
     document.querySelector('[data-research="boundary"]').click();
@@ -422,15 +456,26 @@ try {
       document.querySelector('[data-exam-answer="0"]').click();
     }
     document.querySelector('[data-exam-submit]').click();
+    const storedRecord = JSON.parse(localStorage.getItem('tu:exam:history') || '[]')[0];
+    document.querySelector('[data-exam-records]').click();
+    const archive = document.querySelectorAll('.exam-record-card').length;
+    document.querySelector('[data-open-exam-record]').click();
     return {
       total,
       result: !document.querySelector('[data-exam-result]').hidden,
       review: document.querySelectorAll('.exam-review details').length,
-      history: JSON.parse(localStorage.getItem('tu:exam:history') || '[]').length
+      history: JSON.parse(localStorage.getItem('tu:exam:history') || '[]').length,
+      answersStored: storedRecord.answers.length,
+      archive,
+      reopened: document.querySelectorAll('.exam-review details').length
     };
   })()`);
   check(exam.total === 8, "Exam did not render eight questions.");
-  check(exam.result && exam.review === 8 && exam.history === 1, "Exam scoring, review, or history failed.");
+  check(
+    exam.result && exam.review === 8 && exam.history === 1 &&
+      exam.answersStored === 8 && exam.archive === 1 && exam.reopened === 8,
+    "Exam scoring, full-answer persistence, archive, or review reopening failed.",
+  );
 
   const bbs = await cdp.evaluate(`(async () => {
     document.querySelector('[data-bbs-compose]').click();
@@ -569,28 +614,45 @@ try {
   })()`);
   await eventually(() => cdp.evaluate("document.querySelectorAll('[data-gaokao-start]').length === 2"));
   const gaokao = await cdp.evaluate(`(async () => {
+    const difficultyTabs = document.querySelectorAll('[data-gaokao-difficulty]').length;
+    document.querySelector('[data-gaokao-difficulty="lunatic"]').click();
+    const lunaticCard = document.querySelector('.gaokao-track').textContent;
+    document.querySelector('[data-gaokao-difficulty="extra"]').click();
     const paperLink = document.querySelector('.gaokao-downloads a').getAttribute('href');
     const paperOkay = (await fetch(paperLink)).ok;
     document.querySelector('[data-gaokao-start="humanities"]').click();
     const questions = document.querySelectorAll('.gaokao-question');
+    const dossiers = document.querySelectorAll('.gaokao-evidence').length;
     questions[0].querySelector('input').click();
     const draftSaved = JSON.parse(localStorage.getItem('tu:gaokao:draft') || 'null');
     questions.forEach((question) => question.querySelector('input').click());
     document.querySelector('[data-gaokao-submit]').click();
+    const storedRecord = JSON.parse(localStorage.getItem('tu:gaokao:attempts') || '[]')[0];
+    document.querySelector('[data-gaokao-records]').click();
+    const archive = document.querySelectorAll('.gaokao-record-card').length;
+    document.querySelector('[data-open-gaokao-record]').click();
     return {
+      difficultyTabs,
+      lunaticCard,
       paperOkay,
       total: questions.length,
-      draftSaved: Boolean(draftSaved && Object.keys(draftSaved.answers).length === 1),
+      dossiers,
+      draftSaved: Boolean(draftSaved && draftSaved.difficultyId === 'extra' && Object.keys(draftSaved.answers).length === 1),
       result: Boolean(document.querySelector('.gaokao-result')),
       review: document.querySelectorAll('.gaokao-review details').length,
-      attempts: JSON.parse(localStorage.getItem('tu:gaokao:attempts') || '[]').length
+      attempts: JSON.parse(localStorage.getItem('tu:gaokao:attempts') || '[]').length,
+      answersStored: Object.keys(storedRecord.answers || {}).length,
+      archive,
+      reopenedDifficulty: document.querySelector('.gaokao-result > header p')?.textContent || ''
     };
   })()`);
-  check(gaokao.paperOkay, "Offline Gensokyo examination paper is not downloadable.");
-  check(gaokao.total === 24 && gaokao.draftSaved, "Gensokyo examination paper or autosave is incomplete.");
+  check(gaokao.difficultyTabs === 4 && gaokao.lunaticCard.includes("12 questions"), "Four gaokao difficulties or LUNATIC paper metadata failed.");
+  check(gaokao.paperOkay, "Offline EXTRA Gensokyo examination paper is not downloadable.");
+  check(gaokao.total === 12 && gaokao.dossiers === 12 && gaokao.draftSaved, "EXTRA paper dossiers or autosave are incomplete.");
   check(
-    gaokao.result && gaokao.review === 24 && gaokao.attempts === 1,
-    "Gensokyo examination scoring, answer review, or history failed.",
+    gaokao.result && gaokao.review === 12 && gaokao.attempts === 1 &&
+      gaokao.answersStored === 12 && gaokao.archive === 1 && gaokao.reopenedDifficulty.includes("EXTRA"),
+    "Gensokyo examination scoring, full-answer persistence, archive, or review reopening failed.",
   );
 
   const japanese = await cdp.evaluate(`(() => {

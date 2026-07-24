@@ -15,7 +15,8 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - Traditional Chinese, Japanese and English language switching;
 - online application with autosaved drafts, application references and a
   device-local application history;
-- campus-visit reservations and visitor references;
+- campus-visit reservations with autosaved drafts, visitor references and a
+  device-local “My Campus Visits” archive;
 - library/classroom availability, dining menus, timetable and exams;
 - illustrated interactive campus map with seven place cards, live arrival
   estimates and four genuinely different transport networks with first/last
@@ -24,10 +25,11 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   available routes genuinely change under full and new moons;
 - five complete Gensokyo research records, including a six-part spell-card
   readability and fairness study;
-- four timed entrance-exam banks with instant scoring and answer review;
-- a 150-mark Gensokyo Unified Examination with humanities/sciences tracks,
-  48 online questions across both papers, autosaved progress, instant scoring,
-  and twelve trilingual offline paper/answer downloads;
+- four timed entrance-exam banks with instant scoring, full saved answer
+  records and reopenable reviews;
+- a 150-mark Gensokyo Unified Examination with humanities/sciences tracks at
+  NORMAL, HARD, LUNATIC and EXTRA difficulty, autosaved progress, full answer
+  archives, instant scoring and 48 trilingual offline paper/answer downloads;
 - rotating campus news, detailed clubs and a locally persistent, shuffled BBS
   with autosaved drafts and a dedicated “My Posts” view;
 - full-site search, Visitor/Applicant/Current Student route gateways, and
@@ -68,8 +70,10 @@ modules only.
 npm run dev                 # rebuild on change and serve at localhost:4173
 npm run build               # generate index.html and styles.css
 npm run check               # build + i18n coverage + JS syntax
+npm run check:gaokao        # marks, translations, key balance and offline files
 npm run test:browser        # headless Chrome interaction and mobile smoke test
 npm run capture -- --section=map --width=390 --height=844
+npm run capture -- --section=gaokao --click='[data-gaokao-difficulty="extra"];;[data-gaokao-start="humanities"]'
 npm run new:section -- news # scaffold and register a new section
 npm run portraits -- set-b  # switch the active faculty art direction
 scripts/optimize-images.sh input.png output.webp 1600x1200
@@ -84,8 +88,9 @@ Set a different preview port with `PORT=4180 npm run dev`.
   and graph edges in `src/data/services.js` and `src/data/routes.js`.
 - Add exam banks and questions in `src/data/exam.js`; every question stores all
   three languages beside its answer and explanation.
-- Add unified-examination subjects in `src/data/gaokao.js`; `npm run build`
-  regenerates the twelve self-contained files under `downloads/gaokao/`.
+- Add unified-examination subjects in `src/data/gaokao.js` and higher-difficulty
+  dossiers in `src/data/gaokao-advanced.js`; `npm run build` regenerates all
+  48 self-contained files under `downloads/gaokao/`.
 - Register shareable overlay routes through `src/js/deep-links.js`; use stable
   routes such as `#research-spellcard`, `#faculty-aya` and `#map-eientei`.
 - Add news/BBS seeds in `src/data/community.js`, and club details in
