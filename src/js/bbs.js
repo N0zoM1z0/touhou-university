@@ -3,6 +3,7 @@ import { getLocale } from "./i18n.js";
 import { openInfoDialog } from "./info-dialog.js";
 import { showToast } from "./ui.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
+import { recordCampusEvent } from "./campus-ledger.js";
 
 const labels = {
   "zh-Hant": {
@@ -338,6 +339,11 @@ export function initBbs() {
     const posts = readStored("tu:bbs:posts", []);
     posts.push(post);
     window.localStorage.setItem("tu:bbs:posts", JSON.stringify(posts.slice(-50)));
+    recordCampusEvent(
+      "bbs.posted",
+      { postId: post.id, category: post.category, title: post.title },
+      { id: `bbs.posted:${post.id}`, timestamp: post.createdAt },
+    );
     window.localStorage.removeItem("tu:bbs:draft");
     form.reset();
     form.elements.author.value = labels[getLocale()].anonymous;

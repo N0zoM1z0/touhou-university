@@ -34,6 +34,32 @@ initEienteiMap();
 initI18n();
 initDeepLinks();
 
+const myTuSection = document.querySelector("#my-tu");
+let myTuLoaded = false;
+const loadMyTu = async () => {
+  if (myTuLoaded) return;
+  myTuLoaded = true;
+  const { initMyTu } = await import("./mytu.js");
+  initMyTu();
+};
+if (window.location.hash === "#my-tu") loadMyTu();
+window.addEventListener("hashchange", () => {
+  if (window.location.hash === "#my-tu") loadMyTu();
+});
+if (myTuSection && "IntersectionObserver" in window) {
+  const myTuObserver = new IntersectionObserver(
+    (entries, observer) => {
+      if (!entries.some((entry) => entry.isIntersecting)) return;
+      observer.disconnect();
+      loadMyTu();
+    },
+    { rootMargin: "900px 0px" },
+  );
+  myTuObserver.observe(myTuSection);
+} else {
+  loadMyTu();
+}
+
 const gaokaoSection = document.querySelector("#gaokao");
 let gaokaoLoaded = false;
 const loadGaokao = async () => {

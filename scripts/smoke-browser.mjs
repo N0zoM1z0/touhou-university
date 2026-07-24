@@ -613,6 +613,16 @@ try {
     return true;
   })()`);
   await eventually(() => cdp.evaluate("document.querySelectorAll('[data-gaokao-start]').length === 2"));
+  const unifiedExamName = await cdp.evaluate(`(() => {
+    document.querySelector('[data-lang="zh-Hant"]').click();
+    const eyebrow = document.querySelector('[data-gaokao-header] .eyebrow').textContent.trim();
+    document.querySelector('[data-lang="en"]').click();
+    return eyebrow;
+  })()`);
+  check(
+    unifiedExamName.includes("幻想鄉統一學力試驗") && !unifiedExamName.includes("高考"),
+    "The public Traditional Chinese unified-exam name is inconsistent.",
+  );
   const gaokao = await cdp.evaluate(`(async () => {
     const difficultyTabs = document.querySelectorAll('[data-gaokao-difficulty]').length;
     document.querySelector('[data-gaokao-difficulty="lunatic"]').click();
@@ -622,6 +632,10 @@ try {
     const answerLink = document.querySelectorAll('.gaokao-downloads a')[1].getAttribute('href');
     const paperOkay = (await fetch(paperLink)).ok;
     const answerHtml = await (await fetch(answerLink)).text();
+    const chinesePaperHtml = await (await fetch('downloads/gaokao/gke-2026-zh-Hant-extra-humanities-paper.html')).text();
+    const chineseNameOkay = chinesePaperHtml.includes('幻想鄉統一學力試驗') &&
+      !chinesePaperHtml.includes('高考') &&
+      !chinesePaperHtml.includes('高等學力');
     const rotatedExplanationOkay = answerHtml.includes('Answer: D') &&
       answerHtml.includes('G–W–E') &&
       !answerHtml.includes('option B');
@@ -643,6 +657,7 @@ try {
       lunaticCard,
       independentRule,
       paperOkay,
+      chineseNameOkay,
       rotatedExplanationOkay,
       total: questions.length,
       dossiers,
@@ -658,6 +673,7 @@ try {
   check(gaokao.difficultyTabs === 4 && gaokao.lunaticCard.includes("12 questions"), "Four gaokao difficulties or LUNATIC paper metadata failed.");
   check(gaokao.independentRule, "Unified-exam rules do not distinguish question conditions from the live campus map.");
   check(gaokao.paperOkay, "Offline EXTRA Gensokyo examination paper is not downloadable.");
+  check(gaokao.chineseNameOkay, "Offline Traditional Chinese papers use the old public examination name.");
   check(gaokao.rotatedExplanationOkay, "Offline EXTRA answer key contradicts its rotated correct choice.");
   check(gaokao.total === 12 && gaokao.dossiers === 12 && gaokao.draftSaved, "EXTRA paper dossiers or autosave are incomplete.");
   check(
@@ -665,6 +681,54 @@ try {
       gaokao.answersStored === 12 && gaokao.archive === 1 && gaokao.reopenedDifficulty.includes("EXTRA"),
     "Gensokyo examination scoring, full-answer persistence, archive, or review reopening failed.",
   );
+
+  const mytu = await cdp.evaluate(`(async () => {
+    location.hash = 'my-tu';
+    await new Promise((resolve) => setTimeout(resolve, 260));
+    const form = document.querySelector('[data-mytu-profile-form]');
+    form.elements.name.value = 'Usami Applicant';
+    form.elements.kind.value = 'human';
+    form.elements.origin.value = 'outside';
+    form.elements.preferredSchool.value = 'boundary';
+    form.elements.lunar.checked = true;
+    form.elements.housing.value = 'A quiet room away from the fourth lantern.';
+    form.requestSubmit();
+    const identity = JSON.parse(localStorage.getItem('tu:identity') || 'null');
+    const summaryBefore = [...document.querySelectorAll('.mytu-summary a strong')].map((node) => node.textContent.trim());
+    document.querySelector('[data-mytu-review]').click();
+    const review = JSON.parse(localStorage.getItem('tu:application:reviews') || '[]')[0];
+    const reviewers = document.querySelectorAll('.mytu-reviewers article').length;
+    const outcome = document.querySelector('.mytu-decision h4')?.textContent || '';
+    document.querySelector('[data-mytu-document-open]').click();
+    const documentDialog = document.querySelector('[data-mytu-document-dialog]');
+    const documentText = documentDialog.querySelector('[data-mytu-document]').textContent;
+    const weave = documentDialog.querySelectorAll('.mytu-verification i').length;
+    documentDialog.querySelector('[data-mytu-document-close]').click();
+    return {
+      identityId: identity?.id || '',
+      preferredSchool: identity?.preferredSchool || '',
+      summaryBefore,
+      reviewId: review?.id || '',
+      reviewOutcome: review?.outcome || '',
+      reviewers,
+      outcome,
+      documentOpen: documentDialog.open,
+      documentText,
+      weave,
+      ledger: JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]').length
+    };
+  })()`);
+  check(/^TU-S-/.test(mytu.identityId) && mytu.preferredSchool === "boundary", "My TU identity was not retained.");
+  check(mytu.summaryBefore.join("/") === "1/2/1/1", "My TU did not aggregate applications, exams, visits, and BBS records.");
+  check(/^TU-R-/.test(mytu.reviewId) && mytu.reviewers === 3 && mytu.outcome.length > 4, "Joint faculty review is incomplete.");
+  check(
+    mytu.documentOpen === false &&
+      mytu.documentText.includes(application.reference) &&
+      mytu.documentText.includes(mytu.reviewId) &&
+      mytu.weave === 121,
+    "Printable admissions decision is incomplete or did not close.",
+  );
+  check(mytu.ledger >= 7, "Campus event ledger did not compile the student lifecycle.");
 
   const japanese = await cdp.evaluate(`(() => {
     document.querySelector('[data-lang="ja"]').click();
@@ -689,6 +753,52 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
+  const mobileDeepLink = await cdp.evaluate(`(async () => {
+    location.hash = 'campus';
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    const trigger = document.querySelector('[data-campus-feature="library"]');
+    const sourceY = Math.max(0, trigger.getBoundingClientRect().top + window.scrollY - 130);
+    window.scrollTo(0, sourceY);
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    const firstOriginY = window.scrollY;
+    trigger.click();
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    const firstRoute = location.hash;
+    document.querySelector('[data-info-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 220));
+    const firstReturn = { hash: location.hash, delta: Math.abs(window.scrollY - firstOriginY) };
+
+    trigger.click();
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    document.querySelector('[data-info-action]').click();
+    await new Promise((resolve) => setTimeout(resolve, 100));
+    const nestedRoute = location.hash;
+    document.querySelector('[data-service-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 220));
+    return {
+      firstRoute,
+      firstReturn,
+      nestedRoute,
+      finalHash: location.hash,
+      finalDelta: Math.abs(window.scrollY - firstOriginY),
+      infoOpen: document.querySelector('[data-info-dialog]').open,
+      serviceOpen: document.querySelector('[data-service-dialog]').open
+    };
+  })()`);
+  check(
+    mobileDeepLink.firstRoute === "#campus-library" &&
+      mobileDeepLink.firstReturn.hash === "#campus" &&
+      mobileDeepLink.firstReturn.delta <= 4,
+    "Closing a mobile content card did not restore its exact page context.",
+  );
+  check(
+    mobileDeepLink.nestedRoute === "#service-availability" &&
+      mobileDeepLink.finalHash === "#campus" &&
+      mobileDeepLink.finalDelta <= 4 &&
+      !mobileDeepLink.infoOpen &&
+      !mobileDeepLink.serviceOpen,
+    "A nested mobile card action resurfaced a previous deep link or lost its scroll position.",
+  );
   const mobile = await cdp.evaluate(`(() => {
     document.querySelector('[data-menu-toggle]').click();
     const label = document.querySelector('[data-map-place="clinic"] strong');
@@ -717,4 +827,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Browser smoke test passed: deep links, search, audience paths, Eientei routes, both exams, persistence, i18n, and mobile navigation.");
+console.log("Browser smoke test passed: mobile deep-link restoration, My TU lifecycle, search, Eientei routes, both exams, persistence, i18n, and navigation.");

@@ -34,6 +34,8 @@ const records = [
   ["classSchedule", "排課查詢", "時間割検索", "Class Schedule"],
   ["examSchedule", "考試日程", "試験日程", "Exam Schedule"],
   ["campusBbs", "校園 BBS", "キャンパス BBS", "Campus BBS"],
+  ["myTuRecords", "My TU 學籍中心", "My TU 学籍センター", "My TU Student Records"],
+  ["iconMyTu", "學", "学", "TU"],
   ["aboutEyebrow", "ABOUT TU / 學校介紹", "ABOUT TU / 大学紹介", "ABOUT TU"],
   ["aboutTitle1", "一座結界，七所學院，無數種看世界的方法。", "一つの結界、七つの学部、無数の世界の見方。", "One barrier, seven schools, countless ways to see the world."],
   ["aboutBody1", "幻想鄉立東方大學坐落於大結界內側，連結人里、妖怪山、霧之湖與迷途竹林。校園不是把差異隔開的地方，而是讓不同壽命、能力與常識的人一起建立可共享的方法。", "幻想郷立東方大学は大結界の内側に位置し、人里、妖怪の山、霧の湖、迷いの竹林を結びます。違いを隔てるのではなく、異なる寿命・能力・常識をもつ者が共有できる方法を築く場所です。", "Touhou University sits inside the Great Barrier, connecting the Human Village, Youkai Mountain, Misty Lake, and the Bamboo Forest. It is a place where people with different lifespans, abilities, and common sense build methods they can share."],
@@ -329,6 +331,9 @@ records.push(
   ["mapRepairClaim", "北側風路已永久修復", "北側風路は恒久修理済み", "North windway permanently repaired"],
   ["mapRepairCorrection", "訂正：河童膠帶仍算臨時修復", "訂正：河童テープはなお仮修理扱い", "Correction: kappa tape still counts as temporary"],
   ["siteSearchMobile", "SEARCH / 全站搜尋", "SEARCH / サイト内検索", "SEARCH / SITE SEARCH"],
+  ["closeMyTuDocument", "關閉校務文件", "学務文書を閉じる", "Close university document"],
+  ["backToMyTu", "返回 My TU", "My TU へ戻る", "Back to My TU"],
+  ["printMyTuDocument", "列印／另存 PDF", "印刷／PDF保存", "Print / Save PDF"],
 );
 
 export const messages = Object.fromEntries(
