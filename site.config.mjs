@@ -30,6 +30,7 @@ export const site = {
     "schools",
     "services",
     "traditions",
+    "chronicle",
     "exam",
     "map",
     "forms",

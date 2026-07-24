@@ -28,6 +28,9 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   available routes genuinely change under full and new moons;
 - five complete Gensokyo research records, including a six-part spell-card
   readability and fairness study;
+- a living Hieda campus chronicle that maps every first-parent Git revision to
+  a trilingual in-universe history record, correction note and real version
+  source;
 - four timed entrance-exam banks with instant scoring, full saved answer
   records and reopenable reviews;
 - a 150-mark Gensokyo Unified Examination (`幻想鄉統一學力試驗`) with
@@ -106,6 +109,10 @@ Set a different preview port with `PORT=4180 npm run dev`.
   compiles both new events and legacy application, exam, visit and BBS data.
 - Add news/BBS seeds in `src/data/community.js`, and club details in
   `src/data/campus.js`.
+- Maintain Git-backed campus history in `src/data/campus-history.js`. Before a
+  new release, backfill the previous newest record's main-branch SHA and remove
+  its `planned` flag, add one planned record whose `commitSubject` matches the
+  intended commit/PR title, and run `npm run history:status`.
 - Add page structure in `src/sections/`.
 - Add feature logic as a focused module in `src/js/` and import it from
   `src/js/main.js`.
