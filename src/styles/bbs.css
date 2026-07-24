@@ -30,7 +30,8 @@
 }
 
 .bbs-filters button,
-.bbs-new-button {
+.bbs-new-button,
+.bbs-shuffle-button {
   padding: 8px 13px;
   color: rgba(255, 255, 255, 0.65);
   border: 1px solid transparent;
@@ -51,12 +52,33 @@
   border-color: rgba(255, 255, 255, 0.45);
 }
 
-.bbs-new-button:hover {
+.bbs-new-button:hover,
+.bbs-new-button:focus-visible {
   color: var(--blue);
   background: var(--white);
+  outline: 0;
+}
+
+.bbs-toolbar-actions {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 7px;
+}
+
+.bbs-shuffle-button {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.bbs-shuffle-button:hover,
+.bbs-shuffle-button:focus-visible {
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.08);
+  outline: 0;
 }
 
 .bbs-row {
+  position: relative;
   display: grid;
   min-height: 86px;
   padding: 17px 21px;
@@ -72,6 +94,25 @@
 
 .bbs-row:hover {
   background: rgba(228, 218, 200, 0.27);
+}
+
+.bbs-row:focus-within {
+  background: rgba(228, 218, 200, 0.38);
+  outline: 2px solid var(--red);
+  outline-offset: -2px;
+}
+
+.bbs-row-trigger {
+  position: absolute;
+  inset: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.bbs-row-trigger:focus-visible {
+  outline: 0;
 }
 
 .bbs-category {

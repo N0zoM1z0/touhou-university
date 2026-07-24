@@ -13,13 +13,10 @@ export function showToast(message) {
 
 function closeOnBackdrop(dialog) {
   dialog?.addEventListener("click", (event) => {
-    const bounds = dialog.getBoundingClientRect();
-    const inside =
-      event.clientX >= bounds.left &&
-      event.clientX <= bounds.right &&
-      event.clientY >= bounds.top &&
-      event.clientY <= bounds.bottom;
-    if (!inside) dialog.close();
+    // A click on the backdrop targets the dialog itself. Coordinate-based
+    // detection also sees native <select> popovers as outside clicks on some
+    // browsers, which used to close the whole form after choosing an option.
+    if (event.target === dialog) dialog.close();
   });
 }
 

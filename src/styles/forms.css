@@ -1,6 +1,7 @@
 .service-dialog,
 .research-dialog,
-.compose-dialog {
+.compose-dialog,
+.info-dialog {
   width: min(900px, calc(100% - 30px));
   max-height: min(88vh, 920px);
   padding: 0;
@@ -13,9 +14,108 @@
 
 .service-dialog::backdrop,
 .research-dialog::backdrop,
-.compose-dialog::backdrop {
+.compose-dialog::backdrop,
+.info-dialog::backdrop {
   background: rgba(10, 16, 24, 0.84);
   backdrop-filter: blur(6px);
+}
+
+.info-dialog {
+  width: min(850px, calc(100% - 30px));
+  padding: 0;
+}
+
+.info-dialog-media {
+  position: relative;
+  aspect-ratio: 16 / 7.5;
+  background: var(--ink);
+  overflow: hidden;
+}
+
+.info-dialog-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-dialog-media::after {
+  content: "";
+  position: absolute;
+  inset: 58% 0 0;
+  background: linear-gradient(transparent, rgba(13, 21, 31, 0.58));
+  pointer-events: none;
+}
+
+.info-dialog-content {
+  padding: 39px 49px 48px;
+}
+
+.info-dialog-content h2 {
+  margin-bottom: 12px;
+  font-family: var(--serif);
+  font-size: clamp(29px, 4vw, 44px);
+  line-height: 1.35;
+}
+
+.info-dialog-summary {
+  max-width: 700px;
+  margin-bottom: 27px;
+  color: #68625c;
+  font-family: var(--serif);
+  font-size: 13px;
+  line-height: 1.9;
+  white-space: pre-line;
+}
+
+.info-dialog-meta {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.info-dialog-meta:empty {
+  display: none;
+}
+
+.info-dialog-meta > div {
+  padding: 14px 16px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.info-dialog-meta dt {
+  margin-bottom: 4px;
+  color: #8a8278;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.info-dialog-meta dd {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.info-dialog-action {
+  margin-top: 27px;
+}
+
+@media (max-width: 760px) {
+  .info-dialog-content {
+    padding: 35px 24px 31px;
+  }
+
+  .info-dialog-media {
+    aspect-ratio: 4 / 3;
+  }
+
+  .info-dialog-meta {
+    grid-template-columns: 1fr;
+  }
 }
 
 .service-dialog-heading,

@@ -11,11 +11,13 @@
 4. **Faculty** — filterable illustrated roster with detailed teaching profiles.
 5. **Admissions** — applicant routes, four-stage process, FAQ and an interactive
    locally saved application.
-6. **Research** — complete in-world project files with methods, findings and
+6. **Entrance examinations** — four timed question banks with local scoring,
+   attempt history and complete answer explanations.
+7. **Research** — complete in-world project files with methods, findings and
    field notes.
-7. **Campus life and BBS** — original visual scenes, clubs and locally saved
-   community posts.
-8. **Footer** — full rights and fan-work notice.
+8. **Campus life and BBS** — original visual scenes, detailed clubs, rotating
+   community news and locally saved community posts.
+9. **Footer** — full rights and fan-work notice.
 
 ## Copy rules
 
@@ -43,6 +45,24 @@ official game sprites, screenshots, scans or another fan artist's work.
 | `assets/images/kappa-lab.webp` | engineering field campus | mountain waterfall workshop with kappa-like engineers, copper instruments and hydropower |
 | `assets/images/night-festival.webp` | student life | lantern festival with anonymous mixed-species students and geometric spell-card fireworks |
 | `assets/images/uniforms.webp` | traditions / uniform | editorial catalogue scene showing summer and winter university uniforms with ink-navy fabric and vermilion cords |
+| `assets/images/map/boundary-hall.webp` | map / Boundary Hall | broad red-roofed lecture hall where shrine architecture meets an academic cloister beneath a luminous barrier |
+| `assets/images/map/hieda-history-hall.webp` | map / Hieda History Hall | quiet archival hall beside the Human Village with kura storehouses, paper windows and manuscript rooms |
+| `assets/images/map/seven-day-laboratory.webp` | map / Seven-Day Laboratory | tall magical laboratory at twilight with seven elemental observatories and glowing experiment windows |
+| `assets/images/map/eientei-clinic.webp` | map / Eientei Clinic | lantern-lit medical pavilion deep in a bamboo forest with a calm pharmacy and moon-viewing courtyard |
+
+### Campus map scene set — painted environmental cards
+
+Prompt direction: cohesive wide environmental concept art for an immersive
+university map, no characters as the focal point, painterly architectural
+detail, restrained navy/vermilion/gold palette, no text, logo or watermark.
+Generated in the image tool's default built-in mode.
+
+Tool-owned PNG sources:
+
+- Boundary Hall: `call_PyleKHpuomw57qXCXFiVELx8.png`
+- Hieda History Hall: `call_tS0Ui0ov3WDMLTo0TSRcOh80.png`
+- Seven-Day Laboratory: `call_3xZCIHQio5Yiszq7l2mnQ0TA.png`
+- Eientei Clinic: `call_eFf9AbzWmAf0opr1CO4JaN6G.png`
 
 ### Faculty portrait set A — formal academic gouache
 

@@ -1,6 +1,6 @@
 {
   "name": "touhou-university",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,6 +11,7 @@
     "check:i18n": "node scripts/check-i18n.mjs",
     "check:js": "node scripts/check-js.mjs",
     "test:browser": "npm run build && node scripts/smoke-browser.mjs",
+    "capture": "npm run build && node scripts/capture-ui.mjs",
     "check": "npm run build && npm run check:i18n && npm run check:js"
   }
 }
