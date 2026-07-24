@@ -18,6 +18,9 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - a My TU student-record centre with an on-device campus identity, unified
   lifecycle ledger, joint faculty application reviews and printable decision
   letters;
+- an on-device registrar covering all 35 catalogue courses, with search,
+  add/drop, waitlists, prerequisites, real timetable collisions, saved
+  schedules, academic records and printable registration documents;
 - campus-visit reservations with autosaved drafts, visitor references and a
   device-local “My Campus Visits” archive;
 - library/classroom availability, dining menus, timetable and exams;
@@ -79,10 +82,12 @@ npm run dev                 # rebuild on change and serve at localhost:4173
 npm run build               # generate index.html and styles.css
 npm run check               # build + i18n coverage + JS syntax
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
+npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run test:browser        # headless Chrome interaction and mobile smoke test
 npm run capture -- --section=map --width=390 --height=844
 npm run capture -- --section=gaokao --click='[data-gaokao-difficulty="extra"];;[data-gaokao-start="humanities"]'
 npm run capture -- --section=my-tu --storage='{"tu:identity":{"id":"TU-S-DEMO"}}'
+npm run capture -- --section=my-tu --click='a[href="#course-registration"]' --storage='{"tu:identity":{"id":"TU-S-DEMO"}}'
 npm run new:section -- news # scaffold and register a new section
 npm run portraits -- set-b  # switch the active faculty art direction
 scripts/optimize-images.sh input.png output.webp 1600x1200
@@ -95,6 +100,9 @@ Set a different preview port with `PORT=4180 npm run dev`.
 - Add or revise faculty, research and campus-service records in `src/data/`.
 - Add academic catalogues in `src/data/schools.js`; add places, transport modes
   and graph edges in `src/data/services.js` and `src/data/routes.js`.
+- Keep registration metadata in `src/data/courses.js`; current registrations
+  and transcript records use `tu:courses:registration` and
+  `tu:courses:transcript` without leaving the browser.
 - Add exam banks and questions in `src/data/exam.js`; every question stores all
   three languages beside its answer and explanation.
 - Add unified-examination subjects in `src/data/gaokao.js` and higher-difficulty

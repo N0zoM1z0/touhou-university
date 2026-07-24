@@ -343,6 +343,8 @@ records.push(
   ["closeMyTuDocument", "關閉校務文件", "学務文書を閉じる", "Close university document"],
   ["backToMyTu", "返回 My TU", "My TU へ戻る", "Back to My TU"],
   ["printMyTuDocument", "列印／另存 PDF", "印刷／PDF保存", "Print / Save PDF"],
+  ["closeCourseDocument", "關閉教務文件", "教務書類を閉じる", "Close registrar document"],
+  ["backToCourseRegistration", "返回選課系統", "履修システムへ戻る", "Back to course registration"],
 );
 
 export const messages = Object.fromEntries(

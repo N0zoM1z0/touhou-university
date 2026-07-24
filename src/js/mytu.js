@@ -1,6 +1,11 @@
 import { identityKinds, originKinds, committeeBySchool, reviewers } from "../data/mytu.js";
 import { schools } from "../data/schools.js";
 import { campusLedger, recordCampusEvent, syncCampusLedger } from "./campus-ledger.js";
+import {
+  courseRegistrationSummary,
+  initCourseDocumentDialog,
+  renderCourseRegistration,
+} from "./course-registration.js";
 import { getLocale } from "./i18n.js";
 import { showToast } from "./ui.js";
 
@@ -37,6 +42,9 @@ const copy = {
     exams: "已完成試卷",
     visits: "進校預約",
     posts: "BBS 發帖",
+    courses: "本學期課程",
+    recordsMode: "學籍首頁",
+    courseMode: "選課與成績",
     drafts: "未完成",
     applicationReview: "教授聯合審查",
     reviewLead: "審查會讀取所選申請的研究問題、方法、需求與本機最佳考試成績，產生可再次開啟的校內評議。",
@@ -95,6 +103,10 @@ const copy = {
       "gaokao.completed": "完成幻想鄉統一學力試驗",
       "gaokao.deleted": "從本機統一試驗檔案移除成績",
       "bbs.posted": "在校園 BBS 發帖",
+      "course.enrolled": "加入本學期課表",
+      "course.waitlisted": "加入課程候補",
+      "course.dropped": "退選本學期課程",
+      "course.waitlist.cancelled": "取消課程候補",
     },
     document: {
       university: "幻想鄉立東方大學",
@@ -144,6 +156,9 @@ const copy = {
     exams: "完了試験",
     visits: "来校予約",
     posts: "BBS 投稿",
+    courses: "今学期の履修",
+    recordsMode: "学籍ホーム",
+    courseMode: "履修・成績",
     drafts: "未完了",
     applicationReview: "教員合同審査",
     reviewLead: "選択した出願の問い・方法・希望と端末内最高試験成績を読み、再閲覧可能な学内評議を作成します。",
@@ -197,6 +212,10 @@ const copy = {
       "gaokao.completed": "幻想郷統一試験を完了",
       "gaokao.deleted": "端末内統一試験ファイルから成績を削除",
       "bbs.posted": "学内 BBS へ投稿",
+      "course.enrolled": "今学期の時間割へ追加",
+      "course.waitlisted": "科目補欠へ登録",
+      "course.dropped": "今学期の履修を取消",
+      "course.waitlist.cancelled": "科目補欠を取消",
     },
     document: {
       university: "幻想郷立東方大学",
@@ -246,6 +265,9 @@ const copy = {
     exams: "Completed exams",
     visits: "Campus visits",
     posts: "BBS posts",
+    courses: "Current courses",
+    recordsMode: "Student record",
+    courseMode: "Courses & grades",
     drafts: "Unfinished",
     applicationReview: "Joint faculty review",
     reviewLead: "The panel reads the selected question, method, needs, and best on-device exam result, then saves a reopenable internal review.",
@@ -299,6 +321,10 @@ const copy = {
       "gaokao.completed": "Completed the Gensokyo unified exam",
       "gaokao.deleted": "Removed a score from the on-device unified-exam file",
       "bbs.posted": "Published to Campus BBS",
+      "course.enrolled": "Added a course to the term timetable",
+      "course.waitlisted": "Joined a course waitlist",
+      "course.dropped": "Dropped a current course",
+      "course.waitlist.cancelled": "Left a course waitlist",
     },
     document: {
       university: "TOUHOU UNIVERSITY OF GENSOKYO",
@@ -378,7 +404,8 @@ function allRecords() {
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
     Number(Boolean(readJson("tu:gaokao:draft", null)));
-  return { applications, reviews, visits, entranceExams, unifiedExams, posts, examCount, drafts };
+  const courseSummary = courseRegistrationSummary();
+  return { applications, reviews, visits, entranceExams, unifiedExams, posts, examCount, drafts, courseSummary };
 }
 
 function bestExam(records, locale, c) {
@@ -530,6 +557,7 @@ function eventLabel(event, locale, c) {
   }
   if (event.type === "visit.reserved") return `${base} · ${payload.date || ""}`;
   if (event.type === "bbs.posted") return `${base} · ${payload.title || ""}`;
+  if (event.type.startsWith("course.")) return `${base} · ${payload.courseCode || ""}`;
   return base;
 }
 
@@ -559,6 +587,10 @@ function renderDashboard(identity, records, locale, c) {
       <div><p>${c.eyebrow}</p><h2>${c.title}</h2></div>
       <p>${c.lead}</p>
     </header>
+    <nav class="mytu-mode-nav" aria-label="My TU">
+      <a href="#my-tu" aria-current="page">${c.recordsMode}</a>
+      <a href="#course-registration">${c.courseMode}<span>${records.courseSummary.enrolled + records.courseSummary.waitlisted}</span></a>
+    </nav>
     <div class="mytu-dashboard">
       <section class="mytu-id-card">
         <div class="mytu-id-crest" aria-hidden="true"><span>東</span></div>
@@ -582,6 +614,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="#entrance-exam"><span>${c.exams}</span><strong>${records.examCount}</strong></a>
           <a href="#service-visit"><span>${c.visits}</span><strong>${records.visits.length}</strong></a>
           <a href="#bbs"><span>${c.posts}</span><strong>${records.posts.length}</strong></a>
+          <a href="#course-registration"><span>${c.courses}</span><strong>${records.courseSummary.enrolled}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>
       </section>
@@ -759,6 +792,12 @@ function render() {
   const c = copy[locale];
   const identity = readJson(IDENTITY_KEY, null);
   const records = allRecords();
+  const route = decodeURIComponent(window.location.hash.slice(1));
+  if (route === "course-registration" || route.startsWith("course-")) {
+    editingIdentity = false;
+    renderCourseRegistration(app, render);
+    return;
+  }
   app.innerHTML = editingIdentity || !identity
     ? identityForm(identity, records, locale, c)
     : renderDashboard(identity, records, locale, c);
@@ -769,6 +808,7 @@ function render() {
 export function initMyTu() {
   if (!app) return;
   syncCampusLedger();
+  initCourseDocumentDialog();
   documentDialog?.querySelectorAll("[data-mytu-document-close]").forEach((button) => {
     button.addEventListener("click", () => documentDialog.close());
   });
@@ -776,7 +816,7 @@ export function initMyTu() {
   window.addEventListener("tu:ledgerchange", render);
   window.addEventListener("tu:languagechange", render);
   window.addEventListener("hashchange", () => {
-    if (window.location.hash === "#my-tu") render();
+    if (window.location.hash === "#my-tu" || window.location.hash === "#course-registration" || window.location.hash.startsWith("#course-")) render();
   });
   render();
 }

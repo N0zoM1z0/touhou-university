@@ -44,9 +44,9 @@ const loadMyTu = async () => {
   const { initMyTu } = await import("./mytu.js");
   initMyTu();
 };
-if (window.location.hash === "#my-tu") loadMyTu();
+if (window.location.hash === "#my-tu" || window.location.hash === "#course-registration" || window.location.hash.startsWith("#course-")) loadMyTu();
 window.addEventListener("hashchange", () => {
-  if (window.location.hash === "#my-tu") loadMyTu();
+  if (window.location.hash === "#my-tu" || window.location.hash === "#course-registration" || window.location.hash.startsWith("#course-")) loadMyTu();
 });
 if (myTuSection && "IntersectionObserver" in window) {
   const myTuObserver = new IntersectionObserver(
