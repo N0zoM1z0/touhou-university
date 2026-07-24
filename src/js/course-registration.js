@@ -8,6 +8,7 @@ import {
 import { schools } from "../data/schools.js";
 import { recordCampusEvent } from "./campus-ledger.js";
 import { getLocale } from "./i18n.js";
+import { mutateAndRenderPreservingState, renderPreservingState } from "./render-state.js";
 import { showToast } from "./ui.js";
 
 const REGISTRATION_KEY = "tu:courses:registration";
@@ -18,7 +19,7 @@ const copy = {
   "zh-Hant": {
     eyebrow: "MY TU / COURSE REGISTRATION",
     title: "把課選進生活裡，然後確認教室還在原來的位置。",
-    lead: "搜尋七所學院的 35 門課；加退選、候補、先修、學分上限與非普通衝堂都在這台裝置上即時判定。",
+    lead: "搜尋七所學院的 35 門課；加退選、候補、先修與非普通衝堂都在這台裝置上即時判定。18 學分是提醒，不是結界。",
     records: "學籍首頁",
     registration: "選課與成績",
     term: "開放學期",
@@ -33,6 +34,7 @@ const copy = {
     search: "搜尋課號、課名、教師或奇怪警告",
     allSchools: "全部學院",
     allStates: "所有狀態",
+    eligibleOnly: "目前可選（已即時計算先修與衝堂）",
     openOnly: "仍有名額",
     waitlistOnly: "已滿／可候補",
     applyFilters: "查詢",
@@ -58,7 +60,9 @@ const copy = {
     createIdentity: "建立 My TU 身分",
     missingPrerequisite: "尚缺先修",
     conflict: "衝堂",
-    creditLimit: "超過本學期 18 學分上限",
+    creditLimit: "超過本學期 18 學分建議值",
+    overloadWarning: "課表已進入彈幕密度區；教務處提醒你保留睡眠，但不會攔下這次選課。",
+    overloadToast: "已加入課表。總學分超過建議值；選課成功，睡眠不保證。",
     registeredToast: "已加入課表。教室目前仍在登記的位置。",
     waitlistedToast: "課程已滿，已加入本機候補序列。",
     droppedToast: "已退選；教務處保留事件紀錄，但不再占用你的課表。",
@@ -100,7 +104,7 @@ const copy = {
   ja: {
     eyebrow: "MY TU / COURSE REGISTRATION",
     title: "授業を生活へ入れ、教室がまだ元の場所か確かめる。",
-    lead: "七学部35科目を検索。追加・取消、補欠、前提科目、単位上限、通常ではない重複まで端末内で即時判定します。",
+    lead: "七学部35科目を検索。追加・取消、補欠、前提科目、通常ではない重複まで端末内で即時判定。18単位は警告であって結界ではありません。",
     records: "学籍ホーム",
     registration: "履修・成績",
     term: "受付学期",
@@ -115,6 +119,7 @@ const copy = {
     search: "科目番号、名称、教員、妙な注意を検索",
     allSchools: "全学部",
     allStates: "全状態",
+    eligibleOnly: "現在履修可（前提・重複を即時計算）",
     openOnly: "空席あり",
     waitlistOnly: "満員／補欠可",
     applyFilters: "検索",
@@ -140,7 +145,9 @@ const copy = {
     createIdentity: "My TU身分を作成",
     missingPrerequisite: "不足する前提",
     conflict: "時間重複",
-    creditLimit: "学期上限18単位を超えます",
+    creditLimit: "学期推奨18単位を超えます",
+    overloadWarning: "時間割は弾幕密度域です。教務課は睡眠を勧めますが履修を止めません。",
+    overloadToast: "時間割へ追加しました。推奨単位超過。履修成功、睡眠は保証外です。",
     registeredToast: "時間割へ追加しました。教室は現在、登録地点にあります。",
     waitlistedToast: "満員のため端末内補欠列へ登録しました。",
     droppedToast: "履修を取り消しました。出来事は残りますが時間割から外れます。",
@@ -182,7 +189,7 @@ const copy = {
   en: {
     eyebrow: "MY TU / COURSE REGISTRATION",
     title: "Put classes into your life—then check the rooms stayed put.",
-    lead: "Search 35 courses across seven schools. Add/drop, waitlists, prerequisites, credit limits, and unusual collisions are resolved on this device.",
+    lead: "Search 35 courses across seven schools. Add/drop, waitlists, prerequisites, and unusual collisions are resolved on this device. Eighteen credits is advice, not a barrier.",
     records: "Student record",
     registration: "Courses & grades",
     term: "Open term",
@@ -197,6 +204,7 @@ const copy = {
     search: "Search code, title, instructor, or odd warning",
     allSchools: "All schools",
     allStates: "All states",
+    eligibleOnly: "Eligible now (live prerequisites & collisions)",
     openOnly: "Seats available",
     waitlistOnly: "Full / waitlist",
     applyFilters: "Search",
@@ -222,7 +230,9 @@ const copy = {
     createIdentity: "Create My TU identity",
     missingPrerequisite: "Missing prerequisite",
     conflict: "Collision",
-    creditLimit: "Exceeds the 18-credit term limit",
+    creditLimit: "Above the suggested 18-credit load",
+    overloadWarning: "Your timetable has entered danmaku density. The registrar recommends sleep but will not block registration.",
+    overloadToast: "Added. Your load is above the suggestion; registration succeeded, sleep is not guaranteed.",
     registeredToast: "Added to your timetable. The room remains at its registered location for now.",
     waitlistedToast: "The class is full; you joined the on-device waitlist.",
     droppedToast: "Course dropped. The event remains on record but leaves your timetable.",
@@ -324,6 +334,13 @@ function completedCodes() {
   return new Set(transcript().filter((entry) => entry.status !== "failed" && entry.grade !== "F").map((entry) => entry.courseCode));
 }
 
+function prerequisiteCodes(records = registration()) {
+  return new Set([
+    ...completedCodes(),
+    ...records.entries.filter((entry) => entry.status === "enrolled").map((entry) => entry.courseCode),
+  ]);
+}
+
 function selectedCredits(records = registration()) {
   return records.entries
     .filter((entry) => entry.status === "enrolled")
@@ -342,11 +359,18 @@ function conflictsFor(course, records = registration()) {
 }
 
 function eligibility(course, records = registration()) {
-  const complete = completedCodes();
-  const missing = course.prerequisites.filter((code) => !complete.has(code));
+  const eligiblePrerequisites = prerequisiteCodes(records);
+  const missing = course.prerequisites.filter((code) => !eligiblePrerequisites.has(code));
   const conflicts = conflictsFor(course, records);
   const overLimit = selectedCredits(records) + course.credits > courseTerm.creditLimit;
   return { missing, conflicts, overLimit };
+}
+
+function canRegister(course, records = registration()) {
+  if (currentEntry(course.code, records)) return false;
+  const result = eligibility(course, records);
+  if (result.missing.length || result.conflicts.length) return false;
+  return openSeats(course, records) > 0 || !course.noWaitlist;
 }
 
 function openSeats(course, records = registration()) {
@@ -365,15 +389,13 @@ function actionFor(course, locale, c, records) {
   const entry = currentEntry(course.code, records);
   if (entry?.status === "enrolled") return `<button class="course-action danger" type="button" data-course-drop="${course.code}">${c.drop}</button>`;
   if (entry?.status === "waitlisted") return `<button class="course-action danger" type="button" data-course-drop="${course.code}">${c.cancelWaitlist}</button>`;
-  if (!identity) return `<a class="course-action" href="#my-tu">${c.createIdentity}</a>`;
+  if (!identity) return `<a class="course-action" href="mytu.html#my-tu">${c.createIdentity}</a>`;
   const result = eligibility(course, records);
   const disabledReason = result.missing.length
     ? `${c.missingPrerequisite}: ${result.missing.join(", ")}`
     : result.conflicts.length
       ? `${c.conflict}: ${result.conflicts.map((item) => item.code).join(", ")}`
-      : result.overLimit
-        ? c.creditLimit
-        : "";
+      : "";
   if (disabledReason) return `<button class="course-action" type="button" disabled title="${escapeHtml(disabledReason)}">${escapeHtml(disabledReason)}</button>`;
   const seats = openSeats(course, records);
   if (!seats && course.noWaitlist) return `<button class="course-action" type="button" disabled>${c.noWaitlist}</button>`;
@@ -403,6 +425,7 @@ function renderCourseDetail(course, locale, c, records) {
       ${course.boundaryAdjacent ? `<p class="course-boundary-note">※ ${c.boundaryWarning}</p>` : ""}
       ${result.missing.length && !entry ? `<p class="course-blocker">${c.missingPrerequisite}: <strong>${result.missing.join(", ")}</strong></p>` : ""}
       ${result.conflicts.length && !entry ? `<p class="course-blocker">${c.conflict}: <strong>${result.conflicts.map((item) => item.code).join(", ")}</strong></p>` : ""}
+      ${result.overLimit && !entry ? `<p class="course-overload-note">※ ${c.overloadWarning}</p>` : ""}
       ${actionFor(course, locale, c, records)}
     </aside>`;
 }
@@ -412,6 +435,7 @@ function renderCatalogue(locale, c, records) {
   const courses = courseCatalogue.filter((course) => {
     if (filterSchool !== "all" && course.schoolId !== filterSchool) return false;
     const seats = openSeats(course, records);
+    if (filterState === "eligible" && !canRegister(course, records)) return false;
     if (filterState === "open" && !seats) return false;
     if (filterState === "waitlist" && seats) return false;
     if (!query) return true;
@@ -422,13 +446,14 @@ function renderCatalogue(locale, c, records) {
   return `
     <section class="course-catalogue">
       <form class="course-filters" data-course-filter-form>
-        <label><span>${c.search}</span><input type="search" name="query" value="${escapeHtml(filterQuery)}" placeholder="${c.search}"></label>
-        <label><span class="visually-hidden">${c.allSchools}</span><select name="school">
+        <label><span>${c.search}</span><input type="search" name="query" value="${escapeHtml(filterQuery)}" placeholder="${c.search}" data-preserve-focus="course-query"></label>
+        <label><span class="visually-hidden">${c.allSchools}</span><select name="school" data-preserve-focus="course-school">
           <option value="all">${c.allSchools}</option>
           ${Object.entries(schools).map(([id, school]) => `<option value="${id}" ${filterSchool === id ? "selected" : ""}>${escapeHtml(school.name[locale])}</option>`).join("")}
         </select></label>
-        <label><span class="visually-hidden">${c.allStates}</span><select name="state">
+        <label><span class="visually-hidden">${c.allStates}</span><select name="state" data-preserve-focus="course-state">
           <option value="all">${c.allStates}</option>
+          <option value="eligible" ${filterState === "eligible" ? "selected" : ""}>${c.eligibleOnly}</option>
           <option value="open" ${filterState === "open" ? "selected" : ""}>${c.openOnly}</option>
           <option value="waitlist" ${filterState === "waitlist" ? "selected" : ""}>${c.waitlistOnly}</option>
         </select></label>
@@ -436,7 +461,7 @@ function renderCatalogue(locale, c, records) {
       </form>
       <p class="course-result-count"><strong>${courses.length}</strong> ${c.resultCount}</p>
       <div class="course-catalogue-layout">
-        <div class="course-list" role="list">
+        <div class="course-list" role="list" data-preserve-scroll="course-list">
           ${courses.length ? courses.map((course) => {
             const entry = currentEntry(course.code, records);
             const seats = openSeats(course, records);
@@ -580,18 +605,26 @@ function addCourse(code, locale, c) {
   if (!identity) {
     showToast(c.identityToast);
     window.location.hash = "my-tu";
-    return;
+    return false;
   }
   const course = courseByCode(code);
   const records = registration();
-  if (!course || currentEntry(code, records)) return;
+  if (!course || currentEntry(code, records)) return false;
   const result = eligibility(course, records);
-  if (result.missing.length) return showToast(`${c.missingPrerequisite}: ${result.missing.join(", ")}`);
-  if (result.conflicts.length) return showToast(`${c.conflict}: ${result.conflicts.map((item) => item.code).join(", ")}`);
-  if (result.overLimit) return showToast(c.creditLimit);
+  if (result.missing.length) {
+    showToast(`${c.missingPrerequisite}: ${result.missing.join(", ")}`);
+    return false;
+  }
+  if (result.conflicts.length) {
+    showToast(`${c.conflict}: ${result.conflicts.map((item) => item.code).join(", ")}`);
+    return false;
+  }
   const now = new Date().toISOString();
   const seats = openSeats(course, records);
-  if (!seats && course.noWaitlist) return showToast(c.unavailableToast);
+  if (!seats && course.noWaitlist) {
+    showToast(c.unavailableToast);
+    return false;
+  }
   const status = seats ? "enrolled" : "waitlisted";
   const entry = { courseCode: code, status, createdAt: now };
   if (status === "waitlisted") entry.position = Math.max(1, course.occupied - course.capacity + 1);
@@ -602,13 +635,16 @@ function addCourse(code, locale, c) {
     { courseCode: code, term: courseTerm.id, credits: course.credits, position: entry.position },
     { id: `course.${status}:${courseTerm.id}:${code}`, timestamp: now },
   );
-  showToast(status === "enrolled" ? c.registeredToast : c.waitlistedToast);
+  showToast(status === "enrolled"
+    ? selectedCredits(records) > courseTerm.creditLimit ? c.overloadToast : c.registeredToast
+    : c.waitlistedToast);
+  return true;
 }
 
 function dropCourse(code, c) {
   const records = registration();
   const entry = currentEntry(code, records);
-  if (!entry) return;
+  if (!entry) return false;
   const now = new Date().toISOString();
   records.entries = records.entries.filter((item) => item.courseCode !== code);
   saveRegistration(records);
@@ -618,15 +654,21 @@ function dropCourse(code, c) {
     { id: `course.${entry.status === "enrolled" ? "dropped" : "waitlist.cancelled"}:${courseTerm.id}:${code}:${now}`, timestamp: now },
   );
   showToast(entry.status === "enrolled" ? c.droppedToast : c.cancelledToast);
+  return true;
 }
 
 function bind(app, rerender) {
   const locale = getLocale();
   const c = copy[locale];
+  const rerenderCurrent = () => renderPreservingState(app, rerender, { preserveWindow: true });
+  const rerenderInPlace = (courseCode, action) => {
+    if (courseCode) activeCourse = courseCode;
+    mutateAndRenderPreservingState(app, action, rerender, { preserveWindow: true });
+  };
   app.querySelectorAll("[data-course-tab]").forEach((button) => {
     button.addEventListener("click", () => {
       activeTab = button.dataset.courseTab;
-      rerender();
+      rerenderCurrent();
     });
   });
   app.querySelector("[data-course-filter-form]")?.addEventListener("submit", (event) => {
@@ -635,19 +677,26 @@ function bind(app, rerender) {
     filterQuery = String(values.get("query") || "").trim();
     filterSchool = String(values.get("school") || "all");
     filterState = String(values.get("state") || "all");
-    rerender();
+    rerenderCurrent();
+  });
+  app.querySelector("[data-course-filter-form]")?.addEventListener("change", (event) => {
+    if (!event.target.matches("select")) return;
+    const form = event.currentTarget;
+    filterQuery = String(form.elements.query.value || "").trim();
+    filterSchool = form.elements.school.value || "all";
+    filterState = form.elements.state.value || "all";
+    rerenderCurrent();
   });
   app.querySelectorAll("[data-course-select]").forEach((button) => {
     button.addEventListener("click", () => {
-      activeCourse = button.dataset.courseSelect;
-      rerender();
+      rerenderInPlace(button.dataset.courseSelect);
     });
   });
   app.querySelectorAll("[data-course-add]").forEach((button) => {
-    button.addEventListener("click", () => addCourse(button.dataset.courseAdd, locale, c));
+    button.addEventListener("click", () => rerenderInPlace(button.dataset.courseAdd, () => addCourse(button.dataset.courseAdd, locale, c)));
   });
   app.querySelectorAll("[data-course-drop]").forEach((button) => {
-    button.addEventListener("click", () => dropCourse(button.dataset.courseDrop, c));
+    button.addEventListener("click", () => rerenderInPlace(button.dataset.courseDrop, () => dropCourse(button.dataset.courseDrop, c)));
   });
   app.querySelectorAll("[data-course-document]").forEach((button) => {
     button.addEventListener("click", () => openDocument(button.dataset.courseDocument, locale, c, registration()));
@@ -670,9 +719,9 @@ export function renderCourseRegistration(app, rerender) {
   const summary = courseRegistrationSummary();
   const identity = readJson(IDENTITY_KEY, null);
   const routeCode = decodeURIComponent(window.location.hash.slice(1)).match(/^course-(.+)$/)?.[1];
-  if (routeCode && courseByCode(routeCode)) {
+  if (routeCode && courseByCode(routeCode) && positionedRoute !== routeCode) {
     activeCourse = routeCode;
-    if (positionedRoute !== routeCode) activeTab = "catalogue";
+    activeTab = "catalogue";
   }
   if (!routeCode) positionedRoute = "";
   app.innerHTML = `
@@ -681,19 +730,19 @@ export function renderCourseRegistration(app, rerender) {
       <p>${c.lead}</p>
     </header>
     <nav class="mytu-mode-nav" aria-label="My TU">
-      <a href="#my-tu">${c.records}</a>
-      <a href="#course-registration" aria-current="page">${c.registration}</a>
+      <a href="mytu.html#my-tu">${c.records}</a>
+      <a href="mytu.html#course-registration" aria-current="page">${c.registration}</a>
     </nav>
     <div class="course-term-strip">
       <div><span>${c.term}</span><strong>${courseTerm.label[locale]}</strong><small>${courseTerm.addDeadline[locale]} · ${courseTerm.dropDeadline[locale]}</small></div>
       <dl>
-        <div><dt>${c.credits}</dt><dd>${summary.credits}<small> / ${courseTerm.creditLimit}</small></dd></div>
+        <div><dt>${c.credits}</dt><dd>${summary.credits}<small> / ${courseTerm.creditLimit}*</small></dd></div>
         <div><dt>${c.enrolled}</dt><dd>${summary.enrolled}</dd></div>
         <div><dt>${c.waitlisted}</dt><dd>${summary.waitlisted}</dd></div>
       </dl>
-      <p><strong>${c.local}</strong><span>${c.privacy}</span></p>
+      <p><strong>${c.local}</strong><span>${summary.credits > courseTerm.creditLimit ? c.overloadWarning : c.privacy}</span></p>
     </div>
-    ${!identity ? `<aside class="course-identity-notice"><p>${c.missingIdentity}</p><a class="button button-primary" href="#my-tu">${c.createIdentity} <span aria-hidden="true">→</span></a></aside>` : ""}
+    ${!identity ? `<aside class="course-identity-notice"><p>${c.missingIdentity}</p><a class="button button-primary" href="mytu.html#my-tu">${c.createIdentity} <span aria-hidden="true">→</span></a></aside>` : ""}
     <div class="course-tabs" role="tablist">
       <button type="button" role="tab" aria-selected="${activeTab === "catalogue"}" data-course-tab="catalogue">${c.catalogue}<span>35</span></button>
       <button type="button" role="tab" aria-selected="${activeTab === "schedule"}" data-course-tab="schedule">${c.schedule}<span>${summary.enrolled}</span></button>

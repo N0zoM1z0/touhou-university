@@ -12,6 +12,7 @@ export const campusHistoryCategories = {
   registry: l("學籍", "学籍", "Registry"),
   boundary: l("邊界", "境界", "Boundary"),
   chronicle: l("校史", "大学史", "Chronicle"),
+  library: l("圖書館", "図書館", "Library"),
 };
 
 export const campusHistory = [
@@ -306,10 +307,9 @@ export const campusHistory = [
   {
     id: "registration-room-remains",
     archiveId: "TU-H-013",
-    commit: null,
+    commit: "2a76ea7750a25e2fc5ee5006974dac3a57c51736",
     commitSubject: "Add interactive course registration and records",
     recordedAt: "2026-07-24",
-    planned: true,
     category: "registry",
     era: l("同日・夜半", "同日・夜半", "Same day · Midnight"),
     title: l(
@@ -318,14 +318,39 @@ export const campusHistory = [
       "Registration opens; the registrar declines to guarantee room locations",
     ),
     summary: l(
-      "七所學院的三十五門課正式進入 My TU。學生可在本機加選、退選、候補並列印課表與學業紀錄；系統會攔下普通衝堂、先修不足與超額學分，至於位於書本內部、被歷史刪除的週三，以及和所有教室邊界相鄰的講堂，則逐案留下警告。",
-      "七学部三十五科目がMy TUへ正式収録。端末内で追加・取消・補欠、時間割・成績記録の印刷が可能となり、通常の重複、前提不足、上限超過は自動停止する。本の内部にある教室、歴史から消えた水曜、全教室と境界隣接する講堂は個別警告となった。",
-      "All 35 courses across seven schools enter My TU. Students may add, drop, waitlist, and print timetables and academic records on-device. Ordinary collisions, missing prerequisites, and excess credits are stopped; rooms inside books, Wednesdays erased from history, and a hall bordering every classroom receive case-by-case warnings.",
+      "七所學院的三十五門課正式進入 My TU。學生可在本機加選、退選、候補並列印課表與學業紀錄；系統會攔下普通衝堂與先修不足，超過十八學分則只蓋一枚「彈幕密度」提醒。位於書本內部、被歷史刪除的週三，以及和所有教室邊界相鄰的講堂，仍逐案留下警告。",
+      "七学部三十五科目がMy TUへ正式収録。端末内で追加・取消・補欠、時間割・成績記録の印刷が可能となり、通常の重複と前提不足は自動停止する。十八単位超過は「弾幕密度」の印を押すだけ。本の内部にある教室、歴史から消えた水曜、全教室と境界隣接する講堂は個別警告となった。",
+      "All 35 courses across seven schools enter My TU. Students may add, drop, waitlist, and print timetables and academic records on-device. Ordinary collisions and missing prerequisites are stopped; passing eighteen credits merely earns a “danmaku density” warning. Rooms inside books, Wednesdays erased from history, and a hall bordering every classroom receive case-by-case notices.",
     ),
     marginalia: l(
       "紫要求把「邊界相鄰」從警告改成上課方式。教務處回覆這不是有效時段。翌晨，回覆被登記為 BIS-271 的第一次作業。",
       "紫は「境界隣接」を警告でなく授業方式として扱うよう要求。教務課は有効な時限ではないと回答。翌朝、その回答はBIS-271の第一課題として登録された。",
       "Yukari asked that “boundary-adjacent” be treated as a teaching mode, not a warning. The registrar replied that it was not a valid period. By morning, the reply had become BIS-271 assignment one.",
+    ),
+  },
+  {
+    id: "seven-doors-and-misty-desk",
+    archiveId: "TU-H-014",
+    commit: null,
+    commitSubject: "Split campus into pages and add usable library",
+    recordedAt: "2026-07-25",
+    planned: true,
+    category: "library",
+    era: l("翌日・第一校鐘前", "翌日・第一校鐘前", "Next day · Before First Bell"),
+    title: l(
+      "校園分成七扇正式門牌，霧湖借閱桌開始蓋章",
+      "キャンパスに七つの正式表札、霧の湖貸出机が押印開始",
+      "Seven campus doors receive signs as the Misty Lake desk begins stamping loans",
+    ),
+    summary: l(
+      "學術、招生、研究、校園、My TU 與圖書館終於各自取得頁面，不必再擠在同一張無限延長的公告紙上。霧湖館同日開放十九筆館藏的搜尋、借閱、預約、續借與歸還；會飛的書、只在滿月顯字的觀察簿，以及拒絕原書架的研究材料都收到可追溯的本機回條。",
+      "学術・入試・研究・キャンパス・My TU・図書館がそれぞれ頁を持ち、無限に継ぎ足す一枚の掲示から分離した。同日、霧の湖図書館は十九点の検索・貸出・予約・更新・返却を開始。飛ぶ本、満月だけ文字が出る観察簿、元の棚を拒む研究資料にも端末内で追跡可能な票が付いた。",
+      "Academics, admissions, research, campus life, My TU, and the library finally receive pages of their own instead of sharing one endlessly extended notice. Misty Lake opens search, borrowing, holds, renewals, and returns for nineteen holdings; flying books, full-moon logs, and research material refusing its old shelf all receive traceable on-device slips.",
+    ),
+    marginalia: l(
+      "小惡魔把「七扇門」訂正成「七份 HTML」。紫把訂正紙折成一扇真正的門；第一位穿過去的學生直接抵達《會飛的書》目前所在的窗簾桿。",
+      "小悪魔は「七つの扉」を「七つのHTML」と訂正。紫は訂正票を本物の扉へ折り、最初に通った学生は『飛ぶ本』がいるカーテンレールへ直行した。",
+      "Koakuma corrected “seven doors” to “seven HTML files.” Yukari folded the correction into a real door; its first student arrived directly at the curtain rail currently hosting the flying book.",
     ),
   },
 ];

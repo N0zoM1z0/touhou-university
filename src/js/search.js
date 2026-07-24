@@ -5,8 +5,10 @@ import { campusFeatures, clubs } from "../data/campus.js";
 import { seededPosts } from "../data/community.js";
 import { campusHistory } from "../data/campus-history.js";
 import { courseCatalogue } from "../data/courses.js";
+import { libraryHoldings } from "../data/library.js";
 import { getLocale } from "./i18n.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
+import { currentPage, pageForRoute, siteHref } from "./site-router.js";
 
 const dialog = document.querySelector("[data-search-dialog]");
 const input = dialog?.querySelector("[data-search-input]");
@@ -34,6 +36,7 @@ const copy = {
       map: "地圖",
       history: "校史",
       course: "課程",
+      library: "館藏",
     },
   },
   ja: {
@@ -56,6 +59,7 @@ const copy = {
       map: "地図",
       history: "大学史",
       course: "科目",
+      library: "蔵書",
     },
   },
   en: {
@@ -78,6 +82,7 @@ const copy = {
       map: "Map",
       history: "Chronicle",
       course: "Course",
+      library: "Library holding",
     },
   },
 };
@@ -89,6 +94,7 @@ const sectionEntries = [
   ["admissions", "section", ["招生與入學案內", "入試・入学案内", "Admissions"], ["入學路線、日期與線上填報", "選抜経路・日程・オンライン出願", "Entry routes, dates, and online application"]],
   ["my-tu", "section", ["My TU 幻想鄉學籍中心", "My TU 幻想郷学籍センター", "My TU Student Records"], ["本機身分、教授聯合審查、校園履歷與錄取通知書", "端末内身分・教員合同審査・履歴・合格通知", "On-device identity, joint faculty review, campus history, and decision letters"]],
   ["course-registration", "course", ["選課、課表與成績", "履修・時間割・成績", "Course registration, timetable & grades"], ["35 門課程、加退選、候補、衝堂與本機學業紀錄", "35科目・追加取消・補欠・重複・端末内成績", "35 courses, add/drop, waitlists, collisions, and on-device academic records"]],
+  ["library", "section", ["霧湖圖書館", "霧の湖図書館", "Misty Lake Library"], ["館藏搜尋、借閱、續借、歸還與預約", "蔵書検索・貸出・更新・返却・予約", "Search, borrow, renew, return, and place holds"]],
   ["gaokao", "section", ["幻想鄉統一學力試驗", "幻想郷統一高等試験", "Gensokyo Unified Examination"], ["文科、理科、線上模擬與離線試卷", "文系・理系・オンライン模試・オフライン試験紙", "Humanities, sciences, online simulation, and offline papers"]],
   ["map", "map", ["校園地圖與路線", "キャンパスマップと経路", "Campus map and routes"], ["步行、掃帚、風路、兔車與時間估算", "徒歩・箒・風路・兎車と所要時間", "Walking, broom, windway, rabbit shuttle, and journey times"]],
   ["map-eientei", "map", ["永遠亭與迷途竹林詳圖", "永遠亭・迷いの竹林詳細図", "Eientei & Bamboo Forest detail map"], ["依日期、時間與月相改變的內部路線", "日付・時刻・月相で変わる内部経路", "Internal routes that change with date, time, and lunar phase"]],
@@ -229,14 +235,33 @@ function buildIndex() {
       priority: 72,
     }));
   });
+  libraryHoldings.forEach((holding) => {
+    index.push(makeEntry({
+      route: `library-${holding.id}`,
+      category: "library",
+      title: `${holding.callNumber} · ${holding.title[locale]}`,
+      description: `${holding.author[locale]} · ${holding.note[locale]}`,
+      source: holding,
+      priority: 68,
+    }));
+  });
   return index;
 }
 
 function openResult(route) {
+  if (pageForRoute(route) !== currentPage()) {
+    window.location.assign(siteHref(route));
+    return;
+  }
   if (/^(?:school|faculty|research|club|bbs|campus|service)-|^map-eientei$|^chronicle(?:-|$)/.test(route)) {
     navigateToDeepLink(route);
   } else {
-    window.location.hash = route;
+    const previousUrl = window.location.href;
+    const nextUrl = new URL(previousUrl);
+    nextUrl.hash = route;
+    window.history.replaceState({ ...(window.history.state || {}), route }, "", nextUrl);
+    if (dialog?.open) dialog.close();
+    window.dispatchEvent(new HashChangeEvent("hashchange", { oldURL: previousUrl, newURL: nextUrl.href }));
   }
 }
 
@@ -257,7 +282,7 @@ function renderResults() {
   results.innerHTML = matches
     .map(
       (entry) => `
-        <a href="#${entry.route}" data-search-route="${entry.route}">
+        <a href="${siteHref(entry.route)}" data-search-route="${entry.route}">
           <span>${c.categories[entry.category]}</span>
           <strong>${entry.title}</strong>
           <p>${entry.description}</p>

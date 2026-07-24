@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="幻想鄉立東方大學：一所把異變變成問題、讓人類與妖怪共同求知的幻想大學。東方Project非官方二次創作。"
+      content="幻想鄉立東方大學：一所把異變變成問題、讓人類與妖怪共同求知的幻想大學。 東方Project非官方二次創作。"
     >
     <meta name="theme-color" content="#151d2a">
     <meta property="og:title" content="幻想鄉立東方大學｜Touhou University">
     <meta
       property="og:description"
-      content="在常識的邊界之外，重新定義知識。東方Project非官方二次創作網站。"
+      content="幻想鄉立東方大學：一所把異變變成問題、讓人類與妖怪共同求知的幻想大學。 東方Project非官方二次創作網站。"
     >
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/images/campus-hero.webp">
@@ -30,17 +30,17 @@
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
-  <body>
+  <body data-page="home">
     <a class="skip-link" href="#main">跳至主要內容</a>
 
     <div class="site-notice">
       <span class="notice-dot" aria-hidden="true"></span>
       <span>東方Project 非官方二次創作企劃</span>
-      <a href="#fanwork">關於本站</a>
+      <a href="index.html#fanwork">關於本站</a>
     </div>
 
 <header class="site-header" data-header>
-      <a class="brand" href="#top">
+      <a class="brand" href="index.html#top">
         <span class="brand-crest" aria-hidden="true">
           <svg viewBox="0 0 64 64" role="img">
             <path d="M17 12h30v6H17zM12 20h40v5H12zM19 25v25h7V25zm19 0v25h7V25z" />
@@ -55,16 +55,16 @@
       </a>
 
       <nav class="desktop-nav" aria-label="主要導覽">
-        <a href="#about">學校介紹</a>
-        <a href="#academics">學術單位</a>
-        <a href="#faculty">師資</a>
-        <a href="#admissions">招生</a>
-        <a href="#research">成果</a>
-        <a href="#campus">校園風采</a>
+        <a href="index.html#about">學校介紹</a>
+        <a href="academics.html#academics">學術單位</a>
+        <a href="admissions.html#admissions">招生</a>
+        <a href="library.html#library">圖書館</a>
+        <a href="research.html#research">成果</a>
+        <a href="campus.html#campus">校園風采</a>
       </nav>
 
       <div class="header-tools">
-        <a class="header-mytu" href="#my-tu" aria-label="My TU">MY TU</a>
+        <a class="header-mytu" href="mytu.html#my-tu" aria-label="My TU">MY TU</a>
         <button class="header-search" type="button" data-search-open aria-label="SEARCH / 搜尋全站">
           <span aria-hidden="true">⌕</span><b>SEARCH</b><kbd>⌘K</kbd>
         </button>
@@ -73,7 +73,7 @@
           <button class="language-button" type="button" data-lang="ja">日</button>
           <button class="language-button" type="button" data-lang="en">EN</button>
         </div>
-        <a class="header-cta" href="#admissions">
+        <a class="header-cta" href="admissions.html#admissions">
           <span>入學案內</span>
           <span aria-hidden="true">↗</span>
         </a>
@@ -95,14 +95,15 @@
         <span aria-hidden="true">⌕</span> SEARCH / 全站搜尋
       </button>
       <nav aria-label="行動版導覽">
-        <a href="#about"><span>01</span>學校介紹</a>
-        <a href="#academics"><span>02</span>學術單位</a>
-        <a href="#faculty"><span>03</span>師資陣容</a>
-        <a href="#admissions"><span>04</span>招生情報</a>
-        <a href="#research"><span>05</span>研究成果</a>
-        <a href="#campus"><span>06</span>校園風采</a>
-        <a href="#bbs"><span>07</span>校園 BBS</a>
-        <a href="#my-tu"><span>08</span>MY TU</a>
+        <a href="index.html#about"><span>01</span>學校介紹</a>
+        <a href="academics.html#academics"><span>02</span>學術單位</a>
+        <a href="academics.html#faculty"><span>03</span>師資陣容</a>
+        <a href="admissions.html#admissions"><span>04</span>招生情報</a>
+        <a href="library.html#library"><span>05</span>霧湖圖書館</a>
+        <a href="research.html#research"><span>06</span>研究成果</a>
+        <a href="campus.html#campus"><span>07</span>校園風采</a>
+        <a href="campus.html#bbs"><span>08</span>校園 BBS</a>
+        <a href="mytu.html#my-tu"><span>09</span>MY TU</a>
       </nav>
       <div class="mobile-languages" role="group" aria-label="Language">
         <button class="language-button active" type="button" data-lang="zh-Hant">中文</button>
@@ -112,6 +113,7 @@
     </div>
 
     <main id="main">
+
       <section class="hero" id="top" aria-labelledby="hero-title">
         <div class="hero-media" aria-hidden="true">
           <img decoding="async"
@@ -141,7 +143,7 @@
             學問就不只是答案，而是人類與妖怪共同生活的方法。
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#about">
+            <a class="button button-primary" href="index.html#about">
               探索東方大學
               <span aria-hidden="true">↓</span>
             </a>
@@ -163,14 +165,14 @@
           </div>
         </div>
       </section>
-      <section class="ticker" aria-label="校務快訊">
+<section class="ticker" aria-label="校務快訊">
   <div class="ticker-label">TU NEWS</div>
   <div class="ticker-track" data-news-track aria-live="off"></div>
 </section>
-      <section class="audience-gateway" id="start-here" aria-label="Campus pathways">
+<section class="audience-gateway" id="start-here" aria-label="Campus pathways">
   <div class="container" data-audience-app></div>
 </section>
-      <section class="quick-services" id="services" aria-labelledby="services-title">
+<section class="quick-services" id="services" aria-labelledby="services-title">
         <div class="container">
           <header class="services-heading reveal">
             <div>
@@ -186,11 +188,17 @@
               <small>ONLINE APPLICATION</small>
               <i aria-hidden="true">↗</i>
             </button>
-            <a class="service-tile service-tile-mytu" href="#my-tu">
+            <a class="service-tile service-tile-mytu" href="mytu.html#my-tu">
               <span class="service-icon" aria-hidden="true">學</span>
               <strong>My TU 學籍中心</strong>
               <small>RECORDS · REVIEW · LETTERS</small>
               <i aria-hidden="true">↓</i>
+            </a>
+            <a class="service-tile service-tile-library" href="library.html#library">
+              <span class="service-icon" aria-hidden="true">書</span>
+              <strong>霧湖圖書館</strong>
+              <small>SEARCH · BORROW · HOLD</small>
+              <i aria-hidden="true">↗</i>
             </a>
             <button class="service-tile" type="button" data-service="availability">
               <span class="service-icon" aria-hidden="true">室</span>
@@ -204,7 +212,7 @@
               <small>CAMPUS VISIT</small>
               <i aria-hidden="true">↗</i>
             </button>
-            <a class="service-tile" href="#map">
+            <a class="service-tile" href="campus.html#map">
               <span class="service-icon" aria-hidden="true">圖</span>
               <strong>校園地圖</strong>
               <small>CAMPUS MAP</small>
@@ -228,13 +236,13 @@
               <small>EXAM SCHEDULE</small>
               <i aria-hidden="true">↗</i>
             </button>
-            <a class="service-tile service-tile-exam" href="#entrance-exam">
+            <a class="service-tile service-tile-exam" href="admissions.html#entrance-exam">
               <span class="service-icon" aria-hidden="true">卷</span>
               <strong>入學試驗</strong>
               <small>TAKE AN EXAM</small>
               <i aria-hidden="true">↓</i>
             </a>
-            <a class="service-tile" href="#bbs">
+            <a class="service-tile" href="campus.html#bbs">
               <span class="service-icon" aria-hidden="true">談</span>
               <strong>校園 BBS</strong>
               <small>CAMPUS FORUM</small>
@@ -243,12 +251,7 @@
           </div>
         </div>
       </section>
-      <section class="mytu-section" id="my-tu" aria-labelledby="mytu-title">
-  <span class="section-route-anchor" id="course-registration" aria-hidden="true"></span>
-  <h2 class="visually-hidden" id="mytu-title">My TU</h2>
-  <div class="container" data-mytu-app></div>
-</section>
-      <section class="section about" id="about">
+<section class="section about" id="about">
         <div class="container">
           <div class="section-intro reveal">
             <p class="eyebrow"><span>01</span> ABOUT TU / 學校介紹</p>
@@ -313,7 +316,7 @@
           </section>
         </div>
       </section>
-      <section class="section traditions" id="traditions">
+<section class="section traditions" id="traditions">
         <div class="container">
           <header class="section-header reveal">
             <div>
@@ -393,691 +396,7 @@
           </article>
         </div>
       </section>
-      <section class="section academics" id="academics">
-        <div class="container">
-          <header class="section-header reveal">
-            <div>
-              <p class="eyebrow"><span>03</span> ACADEMICS / 學術單位</p>
-              <h2>七所學院，<br>沒有一條安全的學科邊界。</h2>
-            </div>
-            <p>
-              從結界治理到月都藥理，每一門學科都必須回答同一個問題：
-              這份知識將如何改變幻想鄉的共同生活？
-            </p>
-          </header>
-
-          <div class="school-list reveal">
-            <button class="school-row" type="button" data-school="boundary" data-accent="#d04a4a">
-              <span class="school-index">01</span>
-              <span class="school-row-copy">
-                <span class="school-row-name">結界與異變研究院</span>
-                <span class="school-row-en">Boundary &amp; Incident Studies</span>
-              </span>
-              <span class="school-tags">結界治理・異變應對・符卡倫理</span>
-              <span class="school-arrow" aria-hidden="true">↗</span>
-            </button>
-            <button class="school-row" type="button" data-school="history" data-accent="#456c82">
-              <span class="school-index">02</span>
-              <span class="school-row-copy">
-                <span class="school-row-name">歷史記錄學院</span>
-                <span class="school-row-en">History, Memory &amp; Village Studies</span>
-              </span>
-              <span class="school-tags">幻想鄉編年・寺子屋教育・史料倫理</span>
-              <span class="school-arrow" aria-hidden="true">↗</span>
-            </button>
-            <button class="school-row" type="button" data-school="magic" data-accent="#7c5a91">
-              <span class="school-index">03</span>
-              <span class="school-row-copy">
-                <span class="school-row-name">魔法理論與實作學院</span>
-                <span class="school-row-en">Magic Theory &amp; Practice</span>
-              </span>
-              <span class="school-tags">元素理論・人偶工學・高出力實驗</span>
-              <span class="school-arrow" aria-hidden="true">↗</span>
-            </button>
-            <button class="school-row" type="button" data-school="medicine" data-accent="#4e8272">
-              <span class="school-index">04</span>
-              <span class="school-row-copy">
-                <span class="school-row-name">月都醫藥生命學院</span>
-                <span class="school-row-en">Lunar Medicine &amp; Life Science</span>
-              </span>
-              <span class="school-tags">蓬萊藥理・感覺安全・跨種族臨床</span>
-              <span class="school-arrow" aria-hidden="true">↗</span>
-            </button>
-            <button class="school-row" type="button" data-school="engineering" data-accent="#2d7a86">
-              <span class="school-index">05</span>
-              <span class="school-row-copy">
-                <span class="school-row-name">河童工程學院</span>
-                <span class="school-row-en">Kappa Engineering</span>
-              </span>
-              <span class="school-tags">水力系統・觀測儀器・山地維護</span>
-              <span class="school-arrow" aria-hidden="true">↗</span>
-            </button>
-            <button class="school-row" type="button" data-school="journalism" data-accent="#9f633f">
-              <span class="school-index">06</span>
-              <span class="school-row-copy">
-                <span class="school-row-name">天狗新聞傳播學院</span>
-                <span class="school-row-en">Tengu Journalism &amp; Media</span>
-              </span>
-              <span class="school-tags">攝影・採訪・消息來源與訂正</span>
-              <span class="school-arrow" aria-hidden="true">↗</span>
-            </button>
-            <button class="school-row" type="button" data-school="policy" data-accent="#77733c">
-              <span class="school-index">07</span>
-              <span class="school-row-copy">
-                <span class="school-row-name">信仰與共生政策學院</span>
-                <span class="school-row-en">Faith, Pluralism &amp; Public Life</span>
-              </span>
-              <span class="school-tags">宗教對話・公共領導・人妖共生</span>
-              <span class="school-arrow" aria-hidden="true">↗</span>
-            </button>
-          </div>
-        </div>
-      </section>
-      <section class="section faculty" id="faculty">
-        <div class="container">
-          <header class="section-header faculty-header reveal">
-            <div>
-              <p class="eyebrow"><span>04</span> FACULTY / 師資陣容</p>
-              <h2>跟真正做過的人學。</h2>
-            </div>
-            <p>
-              教師會把現場經驗帶進講堂，也把自己的麻煩一起帶來。
-              八個核心教席之外，信仰學院本學期開放四席輪值教學。
-            </p>
-          </header>
-
-          <div class="faculty-controls reveal" role="group" aria-label="篩選教師">
-            <button class="filter-button active" type="button" data-filter="all">全體</button>
-            <button class="filter-button" type="button" data-filter="boundary">結界・歷史</button>
-            <button class="filter-button" type="button" data-filter="science">魔法・醫藥</button>
-            <button class="filter-button" type="button" data-filter="society">工程・社會</button>
-          </div>
-
-          <div class="faculty-grid">
-            <article class="faculty-card reveal" data-category="boundary">
-              <div class="faculty-portrait portrait-reimu">
-                <img decoding="async" src="assets/images/faculty/set-a/reimu.webp" alt="博麗靈夢教授" loading="lazy" width="1000" height="750">
-                <span class="portrait-mark">☯</span>
-              </div>
-              <div class="faculty-info">
-                <p>INCIDENT STUDIES</p>
-                <h3>博麗 靈夢 <small>Reimu Hakurei</small></h3>
-                <span>異變應對實務・博麗結界術</span>
-              </div>
-              <button class="faculty-more" type="button" aria-label="查看博麗靈夢簡介" data-faculty="reimu">＋</button>
-            </article>
-
-            <article class="faculty-card reveal" data-category="boundary">
-              <div class="faculty-portrait portrait-yukari">
-                <img decoding="async" src="assets/images/faculty/set-a/yukari.webp" alt="八雲紫教授" loading="lazy" width="1000" height="750">
-                <span class="portrait-mark">◐</span>
-              </div>
-              <div class="faculty-info">
-                <p>BOUNDARY GOVERNANCE</p>
-                <h3>八雲 紫 <small>Yukari Yakumo</small></h3>
-                <span>境界拓撲・幻想鄉治理</span>
-              </div>
-              <button class="faculty-more" type="button" aria-label="查看八雲紫簡介" data-faculty="yukari">＋</button>
-            </article>
-
-            <article class="faculty-card reveal" data-category="boundary">
-              <div class="faculty-portrait portrait-keine">
-                <img decoding="async" src="assets/images/faculty/set-a/keine.webp" alt="上白澤慧音教授" loading="lazy" width="1000" height="750">
-                <span class="portrait-mark">□</span>
-              </div>
-              <div class="faculty-info">
-                <p>HISTORY &amp; MEMORY</p>
-                <h3>上白澤 慧音 <small>Keine Kamishirasawa</small></h3>
-                <span>幻想鄉史・公共記憶</span>
-              </div>
-              <button class="faculty-more" type="button" aria-label="查看上白澤慧音簡介" data-faculty="keine">＋</button>
-            </article>
-
-            <article class="faculty-card reveal" data-category="science">
-              <div class="faculty-portrait portrait-patchouli">
-                <img decoding="async" src="assets/images/faculty/set-a/patchouli.webp" alt="帕秋莉・諾蕾姬教授" loading="lazy" width="1000" height="750">
-                <span class="portrait-mark">☾</span>
-              </div>
-              <div class="faculty-info">
-                <p>ELEMENTAL MAGIC</p>
-                <h3>帕秋莉・諾蕾姬 <small>Patchouli Knowledge</small></h3>
-                <span>元素魔法・古典文獻</span>
-              </div>
-              <button class="faculty-more" type="button" aria-label="查看帕秋莉簡介" data-faculty="patchouli">＋</button>
-            </article>
-
-            <article class="faculty-card reveal" data-category="science">
-              <div class="faculty-portrait portrait-marisa">
-                <img decoding="async" src="assets/images/faculty/set-a/marisa.webp" alt="霧雨魔理沙教授" loading="lazy" width="1000" height="750">
-                <span class="portrait-mark">✦</span>
-              </div>
-              <div class="faculty-info">
-                <p>APPLIED MAGIC</p>
-                <h3>霧雨 魔理沙 <small>Marisa Kirisame</small></h3>
-                <span>高出力魔法・實驗方法</span>
-              </div>
-              <button class="faculty-more" type="button" aria-label="查看霧雨魔理沙簡介" data-faculty="marisa">＋</button>
-            </article>
-
-            <article class="faculty-card reveal" data-category="science">
-              <div class="faculty-portrait portrait-eirin">
-                <img decoding="async" src="assets/images/faculty/set-a/eirin.webp" alt="八意永琳教授" loading="lazy" width="1000" height="750">
-                <span class="portrait-mark">⚕</span>
-              </div>
-              <div class="faculty-info">
-                <p>LUNAR MEDICINE</p>
-                <h3>八意 永琳 <small>Eirin Yagokoro</small></h3>
-                <span>藥理學・跨種族醫療</span>
-              </div>
-              <button class="faculty-more" type="button" aria-label="查看八意永琳簡介" data-faculty="eirin">＋</button>
-            </article>
-
-            <article class="faculty-card reveal" data-category="society">
-              <div class="faculty-portrait portrait-nitori">
-                <img decoding="async" src="assets/images/faculty/set-a/nitori.webp" alt="河城荷取教授" loading="lazy" width="1000" height="750">
-                <span class="portrait-mark">⚙</span>
-              </div>
-              <div class="faculty-info">
-                <p>KAPPA ENGINEERING</p>
-                <h3>河城 荷取 <small>Nitori Kawashiro</small></h3>
-                <span>水力機械・原型製作</span>
-              </div>
-              <button class="faculty-more" type="button" aria-label="查看河城荷取簡介" data-faculty="nitori">＋</button>
-            </article>
-
-            <article class="faculty-card reveal" data-category="society">
-              <div class="faculty-portrait portrait-aya">
-                <img decoding="async" src="assets/images/faculty/set-a/aya.webp" alt="射命丸文教授" loading="lazy" width="1000" height="750">
-                <span class="portrait-mark">◉</span>
-              </div>
-              <div class="faculty-info">
-                <p>JOURNALISM</p>
-                <h3>射命丸 文 <small>Aya Shameimaru</small></h3>
-                <span>新聞實務・攝影倫理</span>
-              </div>
-              <button class="faculty-more" type="button" aria-label="查看射命丸文簡介" data-faculty="aya">＋</button>
-            </article>
-          </div>
-
-          <div class="faculty-friction reveal" role="region" aria-labelledby="friction-title">
-            <header class="friction-heading">
-              <p>OFFICE OF UNRESOLVED MATTERS / 尚未解決事務室</p>
-              <h3 id="friction-title">制度寫得很整齊。教師本人沒有。</h3>
-              <p>
-                這裡收的是還沒被會議磨平的案子：太快的頭條、來源不明的材料、
-                會移動的教室，以及已經臨時修了一百二十九天的水管。
-              </p>
-            </header>
-            <div class="friction-board" data-friction-board></div>
-            <footer class="friction-foot">
-              <span>本週校務結論</span>
-              <s>全數依規處理</s>
-              <b>訂正：全數仍在爭論</b>
-            </footer>
-          </div>
-
-          <article class="faith-council reveal" aria-labelledby="faith-council-title">
-            <div class="faith-council-media">
-              <img decoding="async"
-                src="assets/images/faculty/faith-council.webp"
-                alt="聖白蓮、八坂神奈子、豐聰耳神子與東風谷早苗在破舊會議室裡爭論祭典資源圖"
-                loading="lazy"
-                width="1536"
-                height="1024"
-                data-faith-council-image
-              >
-              <span class="faith-photo-caption">FCP MEETING No. 47 · 桌腳於會中再次鬆脫</span>
-              <aside class="hakurei-donation">
-                <span>博麗門修繕募金</span>
-                <strong>63%</strong>
-                <small>※ 募金箱週二、四才在校</small>
-              </aside>
-            </div>
-            <div class="faith-council-copy">
-              <header>
-                <p>FAITH + COEXISTENCE POLICY / 信仰與共生政策學院</p>
-                <h3 id="faith-council-title">四個信仰勢力，一張太小的會議桌。</h3>
-                <p>
-                  學院不假裝宗教對話總能順利結束。寺院的共生、神社的基礎設施、
-                  仙人的公共欲望與外界式活動流程，經常在同一筆預算上正面相撞。
-                </p>
-              </header>
-              <div class="faith-roster" data-faith-roster></div>
-              <aside class="faith-review" data-faith-review>
-                <span>校外申訴審查</span>
-                <strong>四季映姬・夜摩仙那度</strong>
-                <p>每月最後一個彼岸日到校。</p>
-              </aside>
-            </div>
-          </article>
-        </div>
-      </section>
-      <section class="section admissions" id="admissions">
-        <div class="admissions-band" aria-hidden="true">
-          <span>ADMISSIONS 2026</span><i>東方大學 入學案內</i><span>ADMISSIONS 2026</span>
-        </div>
-        <div class="container admissions-layout">
-          <div class="admissions-copy reveal">
-            <p class="eyebrow eyebrow-light"><span>05</span> ADMISSIONS / 招生情報</p>
-            <h2>我們不問你來自哪一側。<br>只問你準備跨越什麼。</h2>
-            <p>
-              2026 秋季班接受人類、妖怪、妖精、神靈、魔法使及外界生申請。
-              不要求天生能力；我們更重視你如何描述一次失敗、查證一則傳聞，
-              並與立場不同的人完成工作。
-            </p>
-            <div class="route-pills" role="group" aria-label="招生路線">
-              <span>幻想鄉一般生</span>
-              <span>山地共同推薦</span>
-              <span>外界特別選拔</span>
-              <span>長命種再入學</span>
-            </div>
-            <div class="admissions-actions">
-              <button class="admissions-guide-button" type="button" data-prospectus>
-                <span>
-                  <small>ADMISSIONS GUIDE</small>
-                  開啟入學案內
-                </span>
-                <i aria-hidden="true">↗</i>
-              </button>
-              <button class="application-cta" type="button" data-service="application">
-                <span class="application-cta-status"><i></i> APPLICATION PORTAL</span>
-                <strong>已準備好？直接線上填報</strong>
-                <small>2026 秋季網路填報 · 8 月 31 日截止</small>
-                <span class="application-cta-arrow" aria-hidden="true">→</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="admission-steps reveal">
-            <ol>
-              <li>
-                <span>01</span>
-                <div>
-                  <small>7.24 — 8.31</small>
-                  <h3>提出「一個值得留下的問題」</h3>
-                  <p>不限格式，最多一千字；妖精可用圖像或實地示範代替。</p>
-                </div>
-              </li>
-              <li>
-                <span>02</span>
-                <div>
-                  <small>9.12 — 9.18</small>
-                  <h3>史料與觀察小作業</h3>
-                  <p>區分看見的事、聽來的事，以及你自己推測的事。</p>
-                </div>
-              </li>
-              <li>
-                <span>03</span>
-                <div>
-                  <small>9.28</small>
-                  <h3>符卡式口試</h3>
-                  <p>有名稱、有規則、有退路的學術交鋒；不以火力決定錄取。</p>
-                </div>
-              </li>
-              <li>
-                <span>04</span>
-                <div>
-                  <small>10.10</small>
-                  <h3>共同生活面談</h3>
-                  <p>確認住宿、飲食、月相與種族安全需求，結果同日放榜。</p>
-                </div>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </section>
-      <section class="section exam" id="entrance-exam">
-  <div class="container">
-    <header class="section-header reveal">
-      <div>
-        <p class="eyebrow"><span>EXAM</span> ADMISSIONS EXAM / 入學試驗</p>
-        <h2>現在，<br>讓問題開始計時。</h2>
-      </div>
-      <p>
-        選擇一份試卷，在八分鐘內完成八題。交卷後立即判分、逐題解析，
-        成績只保存在這台裝置，重考會重新排列題目。
-      </p>
-    </header>
-
-    <div class="exam-app reveal" data-exam-app>
-      <div class="exam-lobby" data-exam-lobby></div>
-      <div class="exam-runner" data-exam-runner hidden></div>
-      <div class="exam-result" data-exam-result hidden></div>
-    </div>
-  </div>
-</section>
-      <section class="section gaokao" id="gaokao">
-  <div class="container">
-    <header class="section-header reveal" data-gaokao-header>
-      <h2 class="visually-hidden">Gensokyo Unified Examination</h2>
-    </header>
-    <div class="gaokao-app reveal" data-gaokao-app></div>
-  </div>
-</section>
-      <section class="section campus-map" id="map">
-  <div class="container">
-    <header class="section-header reveal">
-      <div>
-        <p class="eyebrow"><span>06</span> CAMPUS MAP / 校園地圖</p>
-        <h2>從博麗門出發，<br>別把近路當成同一條路。</h2>
-      </div>
-      <p>
-        主校區依大結界內側山勢展開。步行時間以人類平均速度計；
-        妖精、天狗與間隙移動者請遵守空路分層。
-      </p>
-    </header>
-
-    <div class="map-layout reveal">
-      <section class="map-canvas" aria-label="幻想鄉立東方大學校園地圖">
-        <div class="map-terrain map-lake" aria-hidden="true"></div>
-        <div class="map-terrain map-forest" aria-hidden="true"></div>
-        <div class="map-terrain map-mountain" aria-hidden="true"></div>
-        <div class="map-road road-a" aria-hidden="true"></div>
-        <div class="map-road road-b" aria-hidden="true"></div>
-        <div class="map-road road-c" aria-hidden="true"></div>
-        <svg class="map-route-layer" aria-hidden="true" data-map-route-layer></svg>
-
-        <button class="map-node active" type="button" data-map-place="gate">
-          <span>01</span><strong>博麗門</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="library">
-          <span>02</span><strong>霧湖圖書館</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="boundary">
-          <span>03</span><strong>境界講堂</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="history">
-          <span>04</span><strong>稗田史學館</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="magic">
-          <span>05</span><strong>七曜實驗塔</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="clinic">
-          <span>06</span><strong>永遠亭診療所</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="kappa">
-          <span>07</span><strong>河童聯合工房</strong>
-        </button>
-        <p class="map-repair-note" aria-hidden="true">
-          <s>北側風路已永久修復</s><br>
-          <b>訂正：河童膠帶仍算臨時修復</b>
-        </p>
-        <div class="map-compass" aria-hidden="true"><span>北</span><i></i></div>
-      </section>
-
-      <aside class="map-detail" aria-live="polite" data-map-detail>
-        <div class="map-detail-media">
-          <img decoding="async"
-            src="assets/images/campus-hero.webp"
-            alt="晨霧中的幻想鄉立東方大學主校區與博麗門"
-            width="1280"
-            height="853"
-            loading="lazy"
-            data-map-image
-          >
-          <span data-map-type>迎賓與校務</span>
-          <p data-map-index>01 / MAIN GATE</p>
-        </div>
-        <div class="map-detail-content">
-          <h3 data-map-name>博麗門</h3>
-          <p data-map-description>
-            位於大結界內側的正門。外界生報到、訪客核驗與遺失物返回皆在此辦理。
-          </p>
-          <dl>
-            <div><dt>開放</dt><dd data-map-hours>06:00—22:30</dd></div>
-            <div><dt>步行</dt><dd data-map-walk>起點</dd></div>
-            <div><dt>空路</dt><dd data-map-air>低空禁飛</dd></div>
-          </dl>
-          <button class="text-action" type="button" data-service="availability">
-            查詢附近館舍 <span aria-hidden="true">→</span>
-          </button>
-        </div>
-      </aside>
-    </div>
-
-    <section class="eientei-focus" data-eientei-focus hidden aria-live="polite">
-  <h2 class="visually-hidden">Eientei and Bamboo Forest detail map</h2>
-  <div class="eientei-app" data-eientei-app></div>
-</section>
-
-    <section class="route-planner reveal" id="route-planner" aria-label="校園路線規劃" data-route-planner>
-      <header class="route-planner-head">
-        <div>
-          <p>GENSOKYO CAMPUS TRANSIT</p>
-          <h3>怎麼走？讓校園路網替你算。</h3>
-        </div>
-        <p>選擇步行、掃帚、天狗風路或竹林兔車；每一種交通都有自己的停靠點與接駁路線。</p>
-      </header>
-      <form class="route-form" data-route-form>
-        <label>
-          <span>出發地</span>
-          <select name="from" data-route-from></select>
-        </label>
-        <button class="route-swap" type="button" aria-label="交換出發地與目的地" data-route-swap>⇄</button>
-        <label>
-          <span>目的地</span>
-          <select name="to" data-route-to></select>
-        </label>
-        <fieldset>
-          <legend>交通方式</legend>
-          <div class="route-modes" data-route-modes></div>
-        </fieldset>
-        <button class="route-submit" type="submit">
-          規劃路線 <span aria-hidden="true">→</span>
-        </button>
-      </form>
-      <div class="route-result" aria-live="polite" data-route-result hidden></div>
-    </section>
-
-    <div class="map-legend reveal">
-      <span><i class="legend-academic"></i>教學研究</span>
-      <span><i class="legend-service"></i>公共服務</span>
-      <span><i class="legend-field"></i>實地教學</span>
-      <span><i class="legend-restricted"></i>月相管制區</span>
-    </div>
-  </div>
-</section>
-      <section class="section research" id="research">
-        <div class="container">
-          <header class="section-header reveal">
-            <div>
-              <p class="eyebrow"><span>07</span> RESEARCH / 研究成果</p>
-              <h2>研究不是把幻想<br>變得無趣。</h2>
-            </div>
-            <div>
-              <p>
-                它讓我們知道：哪些傳說正在保護人，哪些裝置會在雨天漏電，
-                以及一場異變究竟何時需要被制止。
-              </p>
-            </div>
-          </header>
-
-          <article class="feature-research reveal">
-            <div class="feature-number">R/01</div>
-            <div class="feature-copy">
-              <p>BOUNDARY OBSERVATORY · 2026</p>
-              <h3>「被遺忘之物」跨界漂移索引</h3>
-              <p>
-                結界觀測所與香霖堂建立非侵入式登錄流程，記錄外界物品進入幻想鄉時的
-                語義變化，不嘗試擴大裂隙，也不以持有人記憶作為實驗材料。
-              </p>
-              <button class="research-open" type="button" data-research="boundary">
-                閱讀完整研究檔案 <span aria-hidden="true">→</span>
-              </button>
-            </div>
-            <div class="orbit-graphic" aria-hidden="true">
-              <i></i><i></i><i></i><b>境</b>
-            </div>
-          </article>
-
-          <div class="research-list" id="research-list">
-            <article class="research-card reveal">
-              <p><span>工學</span> OPEN HARDWARE</p>
-              <h3>低落差河道的妖力無關水輪</h3>
-              <p>讓不具妖力的村落也能維護的小型水力系統；維修手冊採圖像優先。</p>
-              <dl>
-                <div><dt>27%</dt><dd>效率提升（校內試驗）</dd></div>
-                <div><dt>03</dt><dd>山地測試站</dd></div>
-              </dl>
-              <button type="button" data-research="waterwheel">研究方法與現場紀錄 <span>→</span></button>
-            </article>
-            <article class="research-card reveal">
-              <p><span>醫藥</span> PUBLIC HEALTH</p>
-              <h3>竹林迷途者的月相感覺指引</h3>
-              <p>研究波長、焦慮與空間判斷的關係；路徑提示不收集個體能力資料。</p>
-              <dl>
-                <div><dt>42</dt><dd>匿名觀察夜</dd></div>
-                <div><dt>0</dt><dd>強制暴露案例</dd></div>
-              </dl>
-              <button type="button" data-research="moonpath">研究方法與現場紀錄 <span>→</span></button>
-            </article>
-            <article class="research-card reveal">
-              <p><span>人文</span> SOURCE ETHICS</p>
-              <h3>同一場異變的三種報導</h3>
-              <p>把新聞、村落口述與當事人記錄並置，教學生辨認敘述位置與沉默。</p>
-              <dl>
-                <div><dt>86</dt><dd>份對照文本</dd></div>
-                <div><dt>12</dt><dd>次公開訂正</dd></div>
-              </dl>
-              <button type="button" data-research="reports">研究方法與現場紀錄 <span>→</span></button>
-            </article>
-            <article class="research-card research-card-spell reveal">
-              <p><span>符卡學</span> DANMAKU DESIGN</p>
-              <h3>符卡規則下的可讀性、公平與退路設計</h3>
-              <p>把宣言、預兆、彈幕密度與退路窗口拆開測量，尋找「華麗但仍然能讀懂」的編排條件。</p>
-              <dl>
-                <div><dt>96</dt><dd>組測試彈幕</dd></div>
-                <div><dt>0.8s</dt><dd>最低退路預兆</dd></div>
-              </dl>
-              <button type="button" data-research="spellcard">閱讀符卡研究全檔 <span>→</span></button>
-            </article>
-          </div>
-        </div>
-      </section>
-      <section class="section campus" id="campus">
-        <div class="container">
-          <header class="section-header reveal">
-            <div>
-              <p class="eyebrow"><span>08</span> CAMPUS LIFE / 校園風采</p>
-              <h2>課堂之外，<br>幻想鄉仍在發生。</h2>
-            </div>
-            <p>
-              從霧湖自習到妖怪山實作，再到一年一度的符卡燈會。
-              校園不是避開差異的結界，而是學習如何一起生活的地方。
-            </p>
-          </header>
-
-          <div class="campus-gallery">
-            <article class="campus-card campus-card-large reveal">
-              <img decoding="async"
-                src="assets/images/library.webp"
-                alt="暮色中的霧湖圖書館，長桌、書架與黃銅天球儀被暖光照亮"
-                loading="lazy"
-                width="1200"
-                height="900"
-              >
-              <div>
-                <p>01 / STUDY</p>
-                <h3>霧湖圖書館・夜間閱覽</h3>
-                <span>館藏會飛，但索書號不會。</span>
-                <i aria-hidden="true">查看詳情 ↗</i>
-              </div>
-              <button class="campus-card-trigger" type="button" data-campus-feature="library" aria-label="查看霧湖圖書館夜間閱覽詳情"></button>
-            </article>
-            <article class="campus-card reveal">
-              <img decoding="async"
-                src="assets/images/kappa-lab.webp"
-                alt="妖怪山瀑布旁的河童工房，學生正在測試水力機械"
-                loading="lazy"
-                width="1200"
-                height="900"
-              >
-              <div>
-                <p>02 / FIELDWORK</p>
-                <h3>妖怪山・河童聯合工房</h3>
-                <span>上午設計，午後下水。</span>
-                <i aria-hidden="true">查看詳情 ↗</i>
-              </div>
-              <button class="campus-card-trigger" type="button" data-campus-feature="workshop" aria-label="查看河童聯合工房詳情"></button>
-            </article>
-            <article class="campus-card reveal">
-              <img decoding="async"
-                src="assets/images/night-festival.webp"
-                alt="夜間校園燈會，學生在鳥居與櫻花下欣賞符卡形狀的煙火"
-                loading="lazy"
-                width="1200"
-                height="900"
-              >
-              <div>
-                <p>03 / FESTIVAL</p>
-                <h3>春季符卡燈會</h3>
-                <span>彈幕只在天空，攤販留在地上。</span>
-                <i aria-hidden="true">查看詳情 ↗</i>
-              </div>
-              <button class="campus-card-trigger" type="button" data-campus-feature="festival" aria-label="查看春季符卡燈會詳情"></button>
-            </article>
-          </div>
-
-          <div class="clubs reveal">
-            <p class="eyebrow"><span>CLUBS</span> 本年度登錄社團</p>
-            <div class="club-list">
-              <button type="button" data-club="grimoire">魔導書修復會</button>
-              <button type="button" data-club="hisoutensoku">非想天則研究會</button>
-              <button type="button" data-club="bamboo">竹林定向部</button>
-              <button type="button" data-club="fairyChoir">妖精合唱團</button>
-              <button type="button" data-club="teaNews">茶與新聞倫理社</button>
-              <button type="button" data-club="nightSparrow">夜雀音樂食堂</button>
-              <button type="button" data-club="ufo">不明飛行物觀測會</button>
-              <button type="button" data-club="ordinaryMagic">普通的魔法實驗社</button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section bbs" id="bbs">
-  <div class="container">
-    <header class="section-header reveal">
-      <div>
-        <p class="eyebrow"><span>09</span> CAMPUS BBS / 校園掲示板</p>
-        <h2>風聲很快，<br>但帖子可以慢慢回。</h2>
-      </div>
-      <p>
-        課程互助、失物招領、社團募集與校務提案集中於此。
-        發言前請確認板面；速報仍請投往新聞學院。
-      </p>
-    </header>
-
-    <div class="bbs-shell reveal">
-      <div class="bbs-toolbar">
-        <div class="bbs-filters" role="group" aria-label="BBS 板面">
-          <button class="active" type="button" data-bbs-filter="all">全部</button>
-          <button type="button" data-bbs-filter="course">課程</button>
-          <button type="button" data-bbs-filter="club">社團</button>
-          <button type="button" data-bbs-filter="market">交換</button>
-          <button type="button" data-bbs-filter="notice">校務</button>
-          <button class="bbs-mine-filter" type="button" data-bbs-filter="mine">我的發帖</button>
-        </div>
-        <div class="bbs-toolbar-actions">
-          <button class="bbs-shuffle-button" type="button" data-bbs-shuffle>
-            ↻ 換一批話題
-          </button>
-          <button class="bbs-new-button" type="button" data-bbs-compose>
-            ＋ 發佈新帖
-          </button>
-        </div>
-      </div>
-
-      <div class="bbs-table" data-bbs-list aria-live="polite"></div>
-
-      <div class="bbs-status">
-        <span data-bbs-online><i></i> 目前在線：108</span>
-        <span data-bbs-topics>本日主題：74</span>
-        <span data-bbs-local>本機保存：0 篇</span>
-        <span data-bbs-sync>最後同步：剛剛</span>
-      </div>
-    </div>
-  </div>
-</section>
-      <section class="section faq" id="faq">
+<section class="section faq" id="faq">
         <div class="container faq-layout">
           <div class="reveal">
             <p class="eyebrow"><span>10</span> FAQ / 常見問題</p>
@@ -1116,14 +435,14 @@
           </div>
         </div>
       </section>
-      <section class="closing" aria-labelledby="closing-title">
+<section class="closing" aria-labelledby="closing-title">
         <div class="closing-mark" aria-hidden="true">幻</div>
         <div class="container reveal">
           <p>TOUHOU UNIVERSITY · OPEN CAMPUS 2026</p>
           <h2 id="closing-title">下一個問題，<br>從你跨過門開始。</h2>
           <div>
-            <a class="button button-primary" href="#admissions">查看招生資訊 <span>→</span></a>
-            <a class="text-link" href="#top">回到校門 <span>↑</span></a>
+            <a class="button button-primary" href="admissions.html#admissions">查看招生資訊 <span>→</span></a>
+            <a class="text-link" href="index.html#top">回到校門 <span>↑</span></a>
           </div>
         </div>
       </section>
@@ -1150,15 +469,16 @@
         <div class="footer-nav">
           <div>
             <h3>UNIVERSITY</h3>
-            <a href="#about">學校介紹</a>
-            <a href="#academics">學術單位</a>
-            <a href="#faculty">師資陣容</a>
+            <a href="index.html#about">學校介紹</a>
+            <a href="academics.html#academics">學術單位</a>
+            <a href="academics.html#faculty">師資陣容</a>
           </div>
           <div>
             <h3>DISCOVER</h3>
-            <a href="#admissions">招生情報</a>
-            <a href="#research">研究成果</a>
-            <a href="#campus">校園風采</a>
+            <a href="admissions.html#admissions">招生情報</a>
+            <a href="library.html#library">霧湖圖書館</a>
+            <a href="research.html#research">研究成果</a>
+            <a href="campus.html#campus">校園風采</a>
           </div>
           <div>
             <h3>CONTACT</h3>
@@ -1307,7 +627,7 @@
   <div class="search-results" data-search-results></div>
 </dialog>
 
-<dialog class="chronicle-dialog" aria-label="校史檔案" data-chronicle-dialog>
+<dialog class="chronicle-dialog" aria-label="校史檔案" data-chronicle-dialog data-preserve-scroll="chronicle-dialog">
   <button class="dialog-close" type="button" aria-label="關閉校史檔案" data-chronicle-close>×</button>
   <div data-chronicle-app>
     <h2>幻想鄉校史</h2>
@@ -1329,6 +649,15 @@
   <footer class="course-document-actions">
     <button class="button button-secondary" type="button" data-course-document-close>返回選課系統</button>
     <button class="button button-primary" type="button" data-course-document-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
+  </footer>
+</dialog>
+
+<dialog class="library-receipt-dialog" data-library-receipt-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉借閱回條" data-library-receipt-close>×</button>
+  <div class="library-receipt" data-library-receipt-body></div>
+  <footer class="library-receipt-actions">
+    <button class="button button-secondary" type="button" data-library-receipt-close>返回圖書館</button>
+    <button class="button button-primary" type="button" data-library-receipt-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
   </footer>
 </dialog>
 

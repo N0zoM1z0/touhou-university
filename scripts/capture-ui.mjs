@@ -12,6 +12,11 @@ const argumentsMap = Object.fromEntries(
     .map((argument) => argument.slice(2).split(/=(.*)/s).slice(0, 2)),
 );
 const section = (argumentsMap.section || "main").replace(/^#/, "");
+const page = argumentsMap.page || "index.html";
+if (page.includes("..") || /^[a-z]+:/i.test(page)) {
+  console.error("--page must be a repository-relative HTML path.");
+  process.exit(1);
+}
 const clickSelector = argumentsMap.click || "";
 const clickSelectors = clickSelector.split(";;").map((value) => value.trim()).filter(Boolean);
 let storageSeed = null;
@@ -25,7 +30,8 @@ if (argumentsMap.storage) {
 }
 const width = Number(argumentsMap.width || 1440);
 const height = Number(argumentsMap.height || 1000);
-const output = path.resolve(argumentsMap.output || `/tmp/touhou-university-${section}-${width}x${height}.png`);
+const pageLabel = page.split(/[?#]/)[0].replace(/\.html$/, "") || "index";
+const output = path.resolve(argumentsMap.output || `/tmp/touhou-university-${pageLabel}-${section}-${width}x${height}.png`);
 const sitePort = Number(process.env.CAPTURE_SITE_PORT || 4192);
 const debugPort = Number(process.env.CAPTURE_DEBUG_PORT || 9335);
 const siteUrl = `http://127.0.0.1:${sitePort}/`;
@@ -59,7 +65,7 @@ const browser = spawn(
     "--hide-scrollbars",
     `--remote-debugging-port=${debugPort}`,
     `--window-size=${width},${height}`,
-    siteUrl,
+    new URL(page, siteUrl).href,
   ],
   { stdio: "ignore" },
 );
@@ -185,7 +191,7 @@ try {
     captureBeyondViewport: false,
   });
   await writeFile(output, Buffer.from(screenshot.data, "base64"));
-  console.log(`Captured #${section} at ${width}x${height}: ${output}`);
+  console.log(`Captured ${page} #${section} at ${width}x${height}: ${output}`);
 } finally {
   cdp?.close();
   browser.kill("SIGTERM");

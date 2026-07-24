@@ -43,6 +43,7 @@ const copy = {
     visits: "進校預約",
     posts: "BBS 發帖",
     courses: "本學期課程",
+    library: "借閱／預約",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     drafts: "未完成",
@@ -107,6 +108,11 @@ const copy = {
       "course.waitlisted": "加入課程候補",
       "course.dropped": "退選本學期課程",
       "course.waitlist.cancelled": "取消課程候補",
+      "book.borrowed": "借出霧湖館藏",
+      "book.renewed": "續借霧湖館藏",
+      "book.returned": "歸還霧湖館藏",
+      "book.held": "預約霧湖館藏",
+      "book.hold.cancelled": "取消館藏預約",
     },
     document: {
       university: "幻想鄉立東方大學",
@@ -157,6 +163,7 @@ const copy = {
     visits: "来校予約",
     posts: "BBS 投稿",
     courses: "今学期の履修",
+    library: "貸出／予約",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     drafts: "未完了",
@@ -216,6 +223,11 @@ const copy = {
       "course.waitlisted": "科目補欠へ登録",
       "course.dropped": "今学期の履修を取消",
       "course.waitlist.cancelled": "科目補欠を取消",
+      "book.borrowed": "霧の湖資料を貸出",
+      "book.renewed": "霧の湖資料を更新",
+      "book.returned": "霧の湖資料を返却",
+      "book.held": "霧の湖資料を予約",
+      "book.hold.cancelled": "資料予約を取消",
     },
     document: {
       university: "幻想郷立東方大学",
@@ -266,6 +278,7 @@ const copy = {
     visits: "Campus visits",
     posts: "BBS posts",
     courses: "Current courses",
+    library: "Loans / holds",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     drafts: "Unfinished",
@@ -325,6 +338,11 @@ const copy = {
       "course.waitlisted": "Joined a course waitlist",
       "course.dropped": "Dropped a current course",
       "course.waitlist.cancelled": "Left a course waitlist",
+      "book.borrowed": "Borrowed library holding",
+      "book.renewed": "Renewed library holding",
+      "book.returned": "Returned library holding",
+      "book.held": "Placed library hold",
+      "book.hold.cancelled": "Cancelled library hold",
     },
     document: {
       university: "TOUHOU UNIVERSITY OF GENSOKYO",
@@ -400,12 +418,16 @@ function allRecords() {
   const entranceExams = readJson("tu:exam:history", []);
   const unifiedExams = readJson("tu:gaokao:attempts", []);
   const posts = readJson("tu:bbs:posts", []);
+  const libraryLoans = readJson("tu:library:loans", []);
+  const libraryHolds = readJson("tu:library:holds", []);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
     Number(Boolean(readJson("tu:gaokao:draft", null)));
   const courseSummary = courseRegistrationSummary();
-  return { applications, reviews, visits, entranceExams, unifiedExams, posts, examCount, drafts, courseSummary };
+  const activeLibrary = (Array.isArray(libraryLoans) ? libraryLoans : []).filter((record) => record.status === "active").length
+    + (Array.isArray(libraryHolds) ? libraryHolds : []).filter((record) => record.status === "active").length;
+  return { applications, reviews, visits, entranceExams, unifiedExams, posts, examCount, drafts, courseSummary, activeLibrary };
 }
 
 function bestExam(records, locale, c) {
@@ -498,7 +520,7 @@ function renderReview(application, review, records, locale, c) {
     return `
       <section class="mytu-review mytu-review-empty">
         <div><p>ADMISSIONS COUNCIL</p><h3>${c.applicationReview}</h3><span>${c.noApplication}</span></div>
-        <button class="button button-primary" type="button" data-service="application">${c.openApplication} <span aria-hidden="true">→</span></button>
+        <a class="button button-primary" href="index.html#service-application">${c.openApplication} <span aria-hidden="true">→</span></a>
       </section>`;
   }
   const examEvidence = bestExam(records, locale, c);
@@ -558,6 +580,7 @@ function eventLabel(event, locale, c) {
   if (event.type === "visit.reserved") return `${base} · ${payload.date || ""}`;
   if (event.type === "bbs.posted") return `${base} · ${payload.title || ""}`;
   if (event.type.startsWith("course.")) return `${base} · ${payload.courseCode || ""}`;
+  if (event.type.startsWith("book.")) return `${base} · ${payload.callNumber || payload.holdingId || ""}`;
   return base;
 }
 
@@ -588,8 +611,8 @@ function renderDashboard(identity, records, locale, c) {
       <p>${c.lead}</p>
     </header>
     <nav class="mytu-mode-nav" aria-label="My TU">
-      <a href="#my-tu" aria-current="page">${c.recordsMode}</a>
-      <a href="#course-registration">${c.courseMode}<span>${records.courseSummary.enrolled + records.courseSummary.waitlisted}</span></a>
+      <a href="mytu.html#my-tu" aria-current="page">${c.recordsMode}</a>
+      <a href="mytu.html#course-registration">${c.courseMode}<span>${records.courseSummary.enrolled + records.courseSummary.waitlisted}</span></a>
     </nav>
     <div class="mytu-dashboard">
       <section class="mytu-id-card">
@@ -610,11 +633,12 @@ function renderDashboard(identity, records, locale, c) {
       <section class="mytu-summary">
         <header><p>ON THIS DEVICE</p><h3>${c.recordSummary}</h3></header>
         <div>
-          <a href="#service-application"><span>${c.applications}</span><strong>${records.applications.length}</strong></a>
-          <a href="#entrance-exam"><span>${c.exams}</span><strong>${records.examCount}</strong></a>
-          <a href="#service-visit"><span>${c.visits}</span><strong>${records.visits.length}</strong></a>
-          <a href="#bbs"><span>${c.posts}</span><strong>${records.posts.length}</strong></a>
-          <a href="#course-registration"><span>${c.courses}</span><strong>${records.courseSummary.enrolled}</strong></a>
+          <a href="index.html#service-application"><span>${c.applications}</span><strong>${records.applications.length}</strong></a>
+          <a href="admissions.html#entrance-exam"><span>${c.exams}</span><strong>${records.examCount}</strong></a>
+          <a href="index.html#service-visit"><span>${c.visits}</span><strong>${records.visits.length}</strong></a>
+          <a href="campus.html#bbs"><span>${c.posts}</span><strong>${records.posts.length}</strong></a>
+          <a href="mytu.html#course-registration"><span>${c.courses}</span><strong>${records.courseSummary.enrolled}</strong></a>
+          <a href="library.html#library"><span>${c.library}</span><strong>${records.activeLibrary}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>
       </section>
@@ -633,8 +657,8 @@ function renderDashboard(identity, records, locale, c) {
         <p>NEXT ACTION</p>
         <h3>${c.next}</h3>
         <span>${stage === "profile" ? c.nextApplication : stage === "applicant" ? c.nextReview : c.nextExam}</span>
-        <a class="button button-secondary" href="#entrance-exam">${c.goExam}</a>
-        <a class="button button-primary" href="#gaokao">${c.goGaokao} <span aria-hidden="true">→</span></a>
+        <a class="button button-secondary" href="admissions.html#entrance-exam">${c.goExam}</a>
+        <a class="button button-primary" href="admissions.html#gaokao">${c.goGaokao} <span aria-hidden="true">→</span></a>
       </aside>
     </div>`;
 }

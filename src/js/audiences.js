@@ -1,4 +1,5 @@
 import { getLocale } from "./i18n.js";
+import { siteHref } from "./site-router.js";
 
 const paths = {
   visitor: {
@@ -77,7 +78,7 @@ export function initAudiencePaths() {
         <p>${selected.lead[locale]}</p>
         <nav aria-label="${selected.label[locale]}">
           ${selected.actions.map(([route, label], index) => `
-            <a href="#${route}"><span>${String(index + 1).padStart(2, "0")}</span>${label[locale]}<i aria-hidden="true">→</i></a>
+            <a href="${siteHref(route)}"><span>${String(index + 1).padStart(2, "0")}</span>${label[locale]}<i aria-hidden="true">→</i></a>
           `).join("")}
         </nav>
       </section>`;
