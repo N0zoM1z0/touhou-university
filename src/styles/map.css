@@ -35,6 +35,44 @@
   pointer-events: none;
 }
 
+.map-route-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.map-route-line {
+  fill: none;
+  stroke: #dcc08f;
+  stroke-width: 3;
+  stroke-linecap: round;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
+  vector-effect: non-scaling-stroke;
+}
+
+.map-route-line-walk {
+  stroke-dasharray: 3 7;
+}
+
+.map-route-line-broom {
+  stroke: #f0a99f;
+  stroke-dasharray: 13 6 2 6;
+}
+
+.map-route-line-tengu {
+  stroke: #a4d8d0;
+  stroke-dasharray: 18 5;
+}
+
+.map-route-line-rabbit {
+  stroke: #eee2cd;
+  stroke-dasharray: 2 4;
+  stroke-width: 5;
+}
+
 .map-lake {
   top: -18%;
   left: -8%;
@@ -190,6 +228,57 @@
   width: 1px;
   height: 17px;
   background: #d99087;
+}
+
+.map-repair-note {
+  position: absolute;
+  top: 11px;
+  right: 15px;
+  z-index: 3;
+  width: 190px;
+  margin: 0;
+  padding: 10px 14px 9px;
+  transform: rotate(1.7deg);
+  color: #24313a;
+  border: 1px solid rgba(37, 48, 55, 0.4);
+  background:
+    linear-gradient(95deg, transparent 0 12px, rgba(165, 103, 66, 0.12) 12px 13px, transparent 13px),
+    #d9c9a9;
+  box-shadow: 2px 4px 0 rgba(0, 0, 0, 0.18);
+  font-family: var(--serif);
+  font-size: 8px;
+  line-height: 1.55;
+  pointer-events: none;
+}
+
+.map-repair-note::before,
+.map-repair-note::after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  width: 44px;
+  height: 14px;
+  transform: rotate(-6deg);
+  background: rgba(101, 151, 151, 0.58);
+  box-shadow: inset 0 0 0 1px rgba(27, 57, 63, 0.12);
+}
+
+.map-repair-note::before {
+  left: -13px;
+}
+
+.map-repair-note::after {
+  right: -13px;
+  transform: rotate(8deg);
+}
+
+.map-repair-note s {
+  opacity: 0.48;
+}
+
+.map-repair-note b {
+  color: #8e2f37;
+  font-weight: 850;
 }
 
 .map-detail {
@@ -694,6 +783,32 @@
   line-height: 1.5;
 }
 
+.route-segment-badge {
+  display: inline-flex;
+  width: max-content;
+  margin: 0 0 4px;
+  padding: 3px 5px;
+  align-items: center;
+  gap: 4px;
+  color: #1b2834;
+  background: #e4d2b6;
+  font-size: 6px;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+}
+
+.route-segment-broom {
+  background: #dca199;
+}
+
+.route-segment-tengu {
+  background: #9fcac3;
+}
+
+.route-segment-rabbit {
+  background: #eee2cd;
+}
+
 .route-same-place {
   display: grid;
   min-height: 142px;
@@ -732,6 +847,13 @@
 }
 
 @media (max-width: 760px) {
+  .map-repair-note {
+    top: auto;
+    right: 12px;
+    bottom: 12px;
+    width: 160px;
+  }
+
   .route-planner-head {
     padding: 25px 22px;
     grid-template-columns: 1fr;

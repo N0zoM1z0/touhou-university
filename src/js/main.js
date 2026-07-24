@@ -10,11 +10,13 @@ import { initCampusInteractions } from "./campus.js";
 import { initNews } from "./news.js";
 import { initExam } from "./exam.js";
 import { initSchools } from "./schools.js";
+import { initFacultyFriction } from "./friction.js";
 
 initInfoDialog();
 initUI();
 initSchools();
 initFaculty();
+initFacultyFriction();
 initServices();
 initCampusMap();
 initResearch();

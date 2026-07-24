@@ -15,6 +15,7 @@ export function initFaculty() {
     dialog.querySelector("[data-dialog-role]").textContent = profile.role[locale];
     dialog.querySelector("[data-dialog-canon]").textContent = profile.expertise[locale];
     dialog.querySelector("[data-dialog-au]").textContent = profile.courses[locale];
+    dialog.querySelector("[data-dialog-incident]").textContent = profile.incident[locale];
   }
 
   document.querySelectorAll("[data-filter]").forEach((button) => {

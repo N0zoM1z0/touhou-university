@@ -28,18 +28,28 @@ and safe exit design in spell-card systems.
 ## Campus route graph
 
 The seven illustrated places form a weighted, undirected graph. Edge weights
-represent human walking minutes along named campus paths. The interface applies
-mode-specific speed and transfer/berthing time after finding the shortest
-walking network path:
+represent travel minutes along named links. Walking roads are the common layer;
+each selected vehicle adds its own actual links before shortest-path search.
+This replaces the earlier model that chose one walking path and merely
+multiplied its time:
 
-- village walk: factor 1.00, no transfer;
-- magic broom: factor 0.42, two minutes for berthing;
-- tengu express windway: factor 0.27, three minutes waiting for the wind flag;
-- moon-rabbit shuttle: factor 0.64, four minutes for boarding.
+- village walk can use every ordinary road;
+- magic brooms connect only four berths: Misty Lake, Boundary Hall, the
+  Seven-Day Laboratory and Youkai Mountain;
+- the tengu express has fixed stops at Boundary Hall, Hieda History Hall and
+  Youkai Mountain;
+- the moon-rabbit shuttle has one direct link between Boundary Hall and
+  Eientei Clinic;
+- every motorised or magical itinerary may still use walking roads for its
+  first and last segments.
 
-Distance uses an editorial planning rate of 72 metres per walking minute.
-Arrival time is calculated in the visitor's browser. These numbers are for
-consistent campus interaction, not geographic claims about a canonical map.
+For the standard Hakurei Gate–Kappa Workshop query, this produces four visibly
+different paths: village walk via the library and history hall; broom via the
+library berth; tengu express via Boundary Hall; and rabbit shuttle via Boundary
+Hall and Eientei. Each edge stores its own editorial distance and travel time,
+including ordinary boarding or berthing. Arrival time is calculated in the
+visitor's browser. These numbers exist for consistent campus interaction, not
+as geographic claims about a canonical map.
 
 ## Spell-card research construction
 

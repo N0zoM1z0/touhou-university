@@ -159,18 +159,33 @@ try {
     research: document.querySelectorAll('[data-research]').length,
     schools: document.querySelectorAll('[data-school]').length,
     routeModes: document.querySelectorAll('[name="route-mode"]').length,
-    news: document.querySelectorAll('[data-news-id]').length,
-    examBanks: document.querySelectorAll('[data-exam-start]').length,
-    widthOkay: document.documentElement.scrollWidth <= window.innerWidth
-  })`);
+	    news: document.querySelectorAll('[data-news-id]').length,
+	    examBanks: document.querySelectorAll('[data-exam-start]').length,
+	    frictionNotes: document.querySelectorAll('[data-friction]').length,
+	    faithFaculty: document.querySelectorAll('[data-faith-faculty]').length,
+	    examTile: (() => {
+	      const tile = document.querySelector('.service-tile-exam');
+	      const style = getComputedStyle(tile);
+	      return { text: tile.querySelector('strong').textContent.trim(), color: style.color, background: style.backgroundColor };
+	    })(),
+	    widthOkay: document.documentElement.scrollWidth <= window.innerWidth
+	  })`);
   check(initial.lang === "zh-Hant", "Default locale is not Traditional Chinese.");
   check(initial.services >= 8, "Campus service triggers are missing.");
   check(initial.research === 5, "Research file triggers are incomplete.");
   check(initial.schools === 7, "School catalogue triggers are incomplete.");
   check(initial.routeModes === 4, "Campus transport modes are incomplete.");
   check(initial.news >= 12, "Rotating campus news did not render.");
-  check(initial.examBanks === 4, "Exam bank chooser is incomplete.");
-  check(initial.widthOkay, "Desktop layout has horizontal overflow.");
+	  check(initial.examBanks === 4, "Exam bank chooser is incomplete.");
+	  check(initial.frictionNotes === 6, "Unresolved faculty case board is incomplete.");
+	  check(initial.faithFaculty === 4, "Faith and Coexistence faculty roster is incomplete.");
+	  check(
+	    initial.examTile.text === "入學試驗" &&
+	      initial.examTile.color.includes("255") &&
+	      !initial.examTile.background.includes("255, 255, 255"),
+	    "Entrance-exam service tile text is not visibly styled.",
+	  );
+	  check(initial.widthOkay, "Desktop layout has horizontal overflow.");
 
   const english = await cdp.evaluate(`(() => {
     document.querySelector('[data-lang="en"]').click();
@@ -199,25 +214,79 @@ try {
   check(school.courses === 5, "School catalogue curriculum is incomplete.");
   check(school.tuition.includes("82,000"), "School catalogue tuition did not render.");
 
-  const route = await cdp.evaluate(`(() => {
-    document.querySelector('[data-school-close]').click();
-    const form = document.querySelector('[data-route-form]');
-    form.elements.from.value = 'gate';
-    form.elements.to.value = 'kappa';
-    form.querySelector('[value="tengu"]').checked = true;
-    form.requestSubmit();
-    return {
-      shown: !document.querySelector('[data-route-result]').hidden,
-      stops: document.querySelectorAll('.route-itinerary li').length,
-      marked: document.querySelectorAll('.map-node.on-route').length,
-      estimate: document.querySelector('.route-result-summary strong').textContent.trim(),
-      notice: document.querySelector('.route-notice').textContent.trim()
-    };
-  })()`);
-  check(route.shown, "Campus route result did not open.");
-  check(route.stops >= 3 && route.marked === route.stops, "Campus route path or map markers are incomplete.");
-  check(route.estimate.includes("min"), "Campus route estimate did not localize.");
-  check(route.notice.includes("Windways"), "Selected transport guidance did not render.");
+	  const route = await cdp.evaluate(`(() => {
+	    document.querySelector('[data-school-close]').click();
+	    const form = document.querySelector('[data-route-form]');
+	    form.elements.from.value = 'gate';
+	    form.elements.to.value = 'kappa';
+	    const routes = {};
+	    for (const mode of ['walk', 'broom', 'tengu', 'rabbit']) {
+	      form.querySelector('[value="' + mode + '"]').checked = true;
+	      form.requestSubmit();
+	      routes[mode] = {
+	        path: [...document.querySelectorAll('.route-itinerary strong')].map((node) => node.textContent.trim()).join(' > '),
+	        kinds: [...document.querySelectorAll('.route-segment-badge')].map((node) => node.dataset.routeKind),
+	        lines: document.querySelectorAll('.map-route-line').length,
+	        stops: document.querySelectorAll('.route-itinerary li').length
+	      };
+	    }
+	    return {
+	      shown: !document.querySelector('[data-route-result]').hidden,
+	      routes,
+	      marked: document.querySelectorAll('.map-node.on-route').length,
+	      estimate: document.querySelector('.route-result-summary strong').textContent.trim(),
+	      notice: document.querySelector('.route-notice').textContent.trim()
+	    };
+	  })()`);
+	  check(route.shown, "Campus route result did not open.");
+	  check(
+	    new Set(Object.values(route.routes).map((item) => item.path)).size === 4,
+	    "Transport modes still resolve to the same campus path.",
+	  );
+	  check(
+	    Object.entries(route.routes).every(
+	      ([mode, item]) =>
+	        item.stops >= 3 &&
+	        item.lines === item.stops - 1 &&
+	        (mode === "walk" || item.kinds.includes(mode)),
+	    ),
+	    "Mode-specific route segments or map lines are incomplete.",
+	  );
+	  check(route.marked === route.routes.rabbit.stops, "Campus route node markers do not match the active path.");
+	  check(route.estimate.includes("min"), "Campus route estimate did not localize.");
+	  check(route.notice.includes("Rabbit carts"), "Selected transport guidance did not render.");
+
+	  const friction = await cdp.evaluate(`(() => {
+	    document.querySelector('[data-friction]').click();
+	    const dialog = document.querySelector('[data-info-dialog]');
+	    const matter = {
+	      open: dialog.open,
+	      title: dialog.querySelector('[data-info-title]').textContent.trim(),
+	      rows: dialog.querySelectorAll('[data-info-meta] > div').length
+	    };
+	    document.querySelector('[data-info-close]').click();
+	    document.querySelector('[data-faith-faculty]').click();
+	    const faith = {
+	      open: dialog.open,
+	      title: dialog.querySelector('[data-info-title]').textContent.trim(),
+	      image: dialog.querySelector('[data-info-image]').getAttribute('src'),
+	      rows: dialog.querySelectorAll('[data-info-meta] > div').length
+	    };
+	    document.querySelector('[data-info-close]').click();
+	    document.querySelector('[data-faculty="aya"]').click();
+	    const faculty = {
+	      open: document.querySelector('[data-faculty-dialog]').open,
+	      incident: document.querySelector('[data-dialog-incident]').textContent.trim()
+	    };
+	    document.querySelector('[data-dialog-close]').click();
+	    return { matter, faith, faculty };
+	  })()`);
+	  check(friction.matter.open && friction.matter.rows === 3, "Unresolved faculty case did not open a complete file.");
+	  check(
+	    friction.faith.open && friction.faith.image.endsWith("faith-council.webp") && friction.faith.rows === 3,
+	    "Faith faculty profile did not open with its illustration and details.",
+	  );
+	  check(friction.faculty.open && friction.faculty.incident.length > 40, "Faculty profile lacks its unresolved incident.");
 
   const application = await cdp.evaluate(`(async () => {
     document.querySelector('[data-school="boundary"]').click();

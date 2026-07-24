@@ -10,14 +10,16 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 ## Included
 
 - school introduction, motto, traditions, uniforms and anniversary;
-- seven schools with full trilingual catalogues, and eight illustrated faculty profiles;
+- seven schools with full trilingual catalogues, eight illustrated core
+  faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
 - online application with autosaved drafts, application references and a
   device-local application history;
 - campus-visit reservations and visitor references;
 - library/classroom availability, dining menus, timetable and exams;
-- illustrated interactive campus map with seven place cards, shortest-path
-  navigation, live arrival estimates and four Gensokyo transport modes;
+- illustrated interactive campus map with seven place cards, live arrival
+  estimates and four genuinely different transport networks with first/last
+  mile walking segments;
 - five complete Gensokyo research records, including a six-part spell-card
   readability and fairness study;
 - four timed entrance-exam banks with instant scoring and answer review;
@@ -25,6 +27,8 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   with autosaved drafts and a dedicated “My Posts” view;
 - responsive navigation, keyboard-friendly dialogs and reduced-motion support;
 - two interchangeable faculty portrait art directions.
+- an interactive “unresolved matters” board where faculty competence,
+  personality and university rules visibly collide.
 
 All interactive records stay in the visitor's browser. This static GitHub Pages
 site has no analytics, trackers, remote JavaScript or submission backend.
