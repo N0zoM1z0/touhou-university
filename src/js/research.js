@@ -1,5 +1,6 @@
 import { researchFiles } from "../data/research.js";
 import { getLocale } from "./i18n.js";
+import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 
 const metaTranslations = {
   ja: {
@@ -108,11 +109,24 @@ export function initResearch() {
 
   document.querySelectorAll("[data-research]").forEach((button) => {
     button.addEventListener("click", () => {
-      render(button.dataset.research);
-      dialog?.showModal();
+      navigateToDeepLink(`research-${button.dataset.research}`);
     });
   });
-  document.querySelector("[data-research-close]")?.addEventListener("click", () => dialog?.close());
+  registerDeepLink("research-", {
+    dialog,
+    open(id) {
+      if (!researchFiles[id]) return;
+      render(id);
+      if (!dialog.open) dialog.showModal();
+    },
+    close() {
+      if (dialog?.open) dialog.close();
+    },
+  });
+  document.querySelector("[data-research-close]")?.addEventListener("click", () => {
+    closeDeepLink("research-", "#research");
+  });
+  dialog?.addEventListener("close", () => closeDeepLink("research-", "#research"));
   window.addEventListener("tu:languagechange", () => {
     if (currentFile) render(currentFile);
   });

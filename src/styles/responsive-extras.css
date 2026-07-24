@@ -133,11 +133,19 @@
   }
 
   .map-node strong {
-    display: none;
+    display: block;
+    max-width: 70px;
+    padding: 3px 5px;
+    color: #fff7ea;
+    border-radius: 2px;
+    background: rgba(9, 17, 25, 0.78);
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.22);
+    font-size: 8px;
+    line-height: 1.25;
   }
 
   .map-node {
-    min-width: 29px;
+    min-width: 74px;
   }
 
   .map-detail {
@@ -279,5 +287,11 @@
 
   .research-meta {
     grid-template-columns: 1fr;
+  }
+}
+@supports (content-visibility: auto) {
+  main > section:not(.hero) {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 850px;
   }
 }

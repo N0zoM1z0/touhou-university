@@ -80,6 +80,9 @@ function translateAttributes() {
       "查看霧湖圖書館夜間閱覽詳情": "查看霧湖圖書館夜間閱覽詳情",
       "查看河童聯合工房詳情": "查看河童聯合工房詳情",
       "查看春季符卡燈會詳情": "查看春季符卡燈會詳情",
+      "搜尋全站": "搜尋全站",
+      "SEARCH / 搜尋全站": "SEARCH / 搜尋全站",
+      "關閉全站搜尋": "關閉全站搜尋",
     },
     ja: {
       "開啟選單": "メニューを開く",
@@ -126,6 +129,9 @@ function translateAttributes() {
       "查看霧湖圖書館夜間閱覽詳情": "霧の湖図書館・夜間閲覧の詳細を見る",
       "查看河童聯合工房詳情": "河童共同工房の詳細を見る",
       "查看春季符卡燈會詳情": "春季スペルカード灯会の詳細を見る",
+      "搜尋全站": "サイト内検索",
+      "SEARCH / 搜尋全站": "SEARCH / サイト内検索",
+      "關閉全站搜尋": "サイト内検索を閉じる",
     },
     en: {
       "開啟選單": "Open menu",
@@ -172,6 +178,9 @@ function translateAttributes() {
       "查看霧湖圖書館夜間閱覽詳情": "View Misty Lake Library night-reading details",
       "查看河童聯合工房詳情": "View Kappa Joint Workshop details",
       "查看春季符卡燈會詳情": "View Spring Spell-card Lantern Festival details",
+      "搜尋全站": "Search the site",
+      "SEARCH / 搜尋全站": "SEARCH / Search the site",
+      "關閉全站搜尋": "Close site search",
     },
   };
 

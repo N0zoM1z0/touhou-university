@@ -1,5 +1,6 @@
 import { facultyProfiles } from "../data/faculty.js";
 import { getLocale } from "./i18n.js";
+import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 
 export function initFaculty() {
   const dialog = document.querySelector("[data-faculty-dialog]");
@@ -30,11 +31,24 @@ export function initFaculty() {
 
   document.querySelectorAll("[data-faculty]").forEach((button) => {
     button.addEventListener("click", () => {
-      renderProfile(button.dataset.faculty);
-      dialog?.showModal();
+      navigateToDeepLink(`faculty-${button.dataset.faculty}`);
     });
   });
-  document.querySelector("[data-dialog-close]")?.addEventListener("click", () => dialog?.close());
+  registerDeepLink("faculty-", {
+    dialog,
+    open(id) {
+      if (!facultyProfiles[id]) return;
+      renderProfile(id);
+      if (!dialog.open) dialog.showModal();
+    },
+    close() {
+      if (dialog?.open) dialog.close();
+    },
+  });
+  document.querySelector("[data-dialog-close]")?.addEventListener("click", () => {
+    closeDeepLink("faculty-", "#faculty");
+  });
+  dialog?.addEventListener("close", () => closeDeepLink("faculty-", "#faculty"));
   window.addEventListener("tu:languagechange", () => {
     if (currentProfile) renderProfile(currentProfile);
   });

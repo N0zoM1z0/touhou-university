@@ -461,6 +461,7 @@ try {
       mineActive: document.querySelector('[data-bbs-filter="mine"]').classList.contains('active'),
       visibleMine: !document.querySelector('[data-user-post]').hidden,
       localStatus: document.querySelector('[data-bbs-local]').textContent,
+      detailOpen: document.querySelector('[data-info-dialog]').open,
       actionHidden: document.querySelector('[data-info-action]').hidden
     };
   })()`);
@@ -469,7 +470,128 @@ try {
   check(bbs.draftRestored === "Field notes exchange", "BBS autosave did not restore the draft.");
   check(bbs.mineActive && bbs.visibleMine, "Published BBS post was not revealed under My Posts.");
   check(bbs.localStatus.includes("1"), "BBS local record counter did not update.");
+  check(bbs.detailOpen, "A deep-linked BBS post did not remain open in the shared information dialog.");
   check(bbs.actionHidden, "BBS detail exposed an inert Continue button.");
+
+  const deepLinks = await cdp.evaluate(`(async () => {
+    const bbsHash = location.hash;
+    history.back();
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    const backClosed = !document.querySelector('[data-info-dialog]').open;
+    location.hash = 'research-spellcard';
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    const directResearch = {
+      open: document.querySelector('[data-research-dialog]').open,
+      hash: location.hash,
+      share: Boolean(document.querySelector('[data-research-dialog] [data-deep-link-share]'))
+    };
+    document.querySelector('[data-research-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 100));
+    document.querySelector('[data-search-open]').click();
+    const search = document.querySelector('[data-search-dialog]');
+    const input = search.querySelector('[data-search-input]');
+    input.value = 'spell card';
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+    const searchCount = search.querySelectorAll('[data-search-route]').length;
+    search.querySelector('[data-search-route="research-spellcard"]').click();
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    return {
+      bbsHash,
+      backClosed,
+      directResearch,
+      searchCount,
+      searchReachedResearch: location.hash === '#research-spellcard' &&
+        document.querySelector('[data-research-dialog]').open
+    };
+  })()`);
+  check(deepLinks.bbsHash.startsWith("#bbs-post-"), "BBS post did not synchronize its URL.");
+  check(deepLinks.backClosed, "Browser Back did not close a deep-linked content card.");
+  check(
+    deepLinks.directResearch.open &&
+      deepLinks.directResearch.hash === "#research-spellcard" &&
+      deepLinks.directResearch.share,
+    "Direct research deep link or share control failed.",
+  );
+  check(deepLinks.searchCount >= 2 && deepLinks.searchReachedResearch, "Full-site search did not reach a deep-linked result.");
+
+  const audience = await cdp.evaluate(`(() => {
+    const tabs = document.querySelectorAll('[data-audience]');
+    document.querySelector('[data-audience="applicant"]').click();
+    return {
+      tabs: tabs.length,
+      actions: document.querySelectorAll('.audience-route nav a').length,
+      saved: localStorage.getItem('tu:audience'),
+      gaokaoLink: Boolean(document.querySelector('.audience-route a[href="#gaokao"]'))
+    };
+  })()`);
+  check(
+    audience.tabs === 3 && audience.actions === 4 && audience.saved === "applicant" && audience.gaokaoLink,
+    "Visitor/applicant/student campus pathways are incomplete.",
+  );
+
+  const eientei = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-research-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 100));
+    location.hash = 'map-eientei';
+    await new Promise((resolve) => setTimeout(resolve, 100));
+    const focus = document.querySelector('[data-eientei-focus]');
+    const actualOptions = focus.querySelectorAll('[data-eientei-phase] option').length;
+    const activeBefore = focus.querySelectorAll('.eientei-edge.active').length;
+    const phase = focus.querySelector('[data-eientei-phase]');
+    phase.value = '4';
+    phase.dispatchEvent(new Event('change', { bubbles: true }));
+    const fullRoute = [...focus.querySelectorAll('.eientei-route-result li strong')].map((node) => node.textContent).join('>');
+    focus.querySelector('[data-eientei-phase]').value = '0';
+    focus.querySelector('[data-eientei-phase]').dispatchEvent(new Event('change', { bubbles: true }));
+    const newRoute = [...focus.querySelectorAll('.eientei-route-result li strong')].map((node) => node.textContent).join('>');
+    return {
+      visible: !focus.hidden,
+      actualOptions,
+      activeBefore,
+      fullRoute,
+      newRoute,
+      clock: focus.querySelector('[data-eientei-clock]').textContent.trim(),
+      mapFocused: document.querySelector('#map').classList.contains('is-eientei-focused')
+    };
+  })()`);
+  check(
+    eientei.visible && eientei.actualOptions === 9 && eientei.activeBefore >= 3 && eientei.clock.length > 8,
+    "Eientei focus map did not render its live lunar route state.",
+  );
+  check(eientei.fullRoute !== eientei.newRoute, "Changing the lunar phase did not change the Eientei route.");
+  check(eientei.mapFocused, "Eientei detail did not put the campus map into focus mode.");
+
+  await cdp.evaluate(`(() => {
+    document.querySelector('[data-eientei-close]').click();
+    location.hash = 'gaokao';
+    document.querySelector('#gaokao').scrollIntoView();
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("document.querySelectorAll('[data-gaokao-start]').length === 2"));
+  const gaokao = await cdp.evaluate(`(async () => {
+    const paperLink = document.querySelector('.gaokao-downloads a').getAttribute('href');
+    const paperOkay = (await fetch(paperLink)).ok;
+    document.querySelector('[data-gaokao-start="humanities"]').click();
+    const questions = document.querySelectorAll('.gaokao-question');
+    questions[0].querySelector('input').click();
+    const draftSaved = JSON.parse(localStorage.getItem('tu:gaokao:draft') || 'null');
+    questions.forEach((question) => question.querySelector('input').click());
+    document.querySelector('[data-gaokao-submit]').click();
+    return {
+      paperOkay,
+      total: questions.length,
+      draftSaved: Boolean(draftSaved && Object.keys(draftSaved.answers).length === 1),
+      result: Boolean(document.querySelector('.gaokao-result')),
+      review: document.querySelectorAll('.gaokao-review details').length,
+      attempts: JSON.parse(localStorage.getItem('tu:gaokao:attempts') || '[]').length
+    };
+  })()`);
+  check(gaokao.paperOkay, "Offline Gensokyo examination paper is not downloadable.");
+  check(gaokao.total === 24 && gaokao.draftSaved, "Gensokyo examination paper or autosave is incomplete.");
+  check(
+    gaokao.result && gaokao.review === 24 && gaokao.attempts === 1,
+    "Gensokyo examination scoring, answer review, or history failed.",
+  );
 
   const japanese = await cdp.evaluate(`(() => {
     document.querySelector('[data-lang="ja"]').click();
@@ -496,13 +618,16 @@ try {
   });
   const mobile = await cdp.evaluate(`(() => {
     document.querySelector('[data-menu-toggle]').click();
+    const label = document.querySelector('[data-map-place="clinic"] strong');
     return {
       menuOpen: !document.querySelector('[data-mobile-menu]').hidden,
-      widthOkay: document.documentElement.scrollWidth <= window.innerWidth
+      widthOkay: document.documentElement.scrollWidth <= window.innerWidth,
+      mapLabelVisible: getComputedStyle(label).display !== 'none' && label.textContent.trim().length > 0
     };
   })()`);
   check(mobile.menuOpen, "Mobile navigation did not open.");
   check(mobile.widthOkay, "Mobile layout has horizontal overflow.");
+  check(mobile.mapLabelVisible, "Mobile campus-map place names are not discoverable.");
 
   await delay(300);
   check(errors.length === 0, `Browser reported errors: ${errors.join(" | ")}`);
@@ -519,4 +644,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Browser smoke test passed: schools, routes, research, selects, i18n, map cards, news, clubs, exams, BBS, and mobile navigation.");
+console.log("Browser smoke test passed: deep links, search, audience paths, Eientei routes, both exams, persistence, i18n, and mobile navigation.");

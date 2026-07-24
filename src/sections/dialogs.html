@@ -106,3 +106,19 @@
     </div>
   </form>
 </dialog>
+
+<dialog class="search-dialog" data-search-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉全站搜尋" data-search-close>×</button>
+  <header>
+    <p data-search-kicker>UNIVERSITY SEARCH</p>
+    <h2 data-search-title>University search</h2>
+    <label class="search-field">
+      <span aria-hidden="true">⌕</span>
+      <input type="search" autocomplete="off" data-search-input>
+      <kbd>/</kbd>
+    </label>
+    <p data-search-hint></p>
+  </header>
+  <div class="search-result-head"><strong data-search-count></strong></div>
+  <div class="search-results" data-search-results></div>
+</dialog>

@@ -1,10 +1,10 @@
 {
   "name": "touhou-university",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs",
+    "build": "node scripts/build.mjs && node scripts/build-gaokao-downloads.mjs",
     "dev": "node scripts/dev.mjs",
     "new:section": "node scripts/new-section.mjs",
     "portraits": "node scripts/switch-portrait-set.mjs",

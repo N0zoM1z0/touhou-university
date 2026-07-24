@@ -1,5 +1,6 @@
 import { schools } from "../data/schools.js";
 import { getLocale } from "./i18n.js";
+import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 
 const labels = {
   "zh-Hant": {
@@ -139,14 +140,24 @@ export function initSchools() {
 
   document.querySelectorAll("[data-school]").forEach((button) => {
     button.addEventListener("click", () => {
-      render(button.dataset.school);
-      dialog?.showModal();
+      navigateToDeepLink(`school-${button.dataset.school}`);
     });
   });
-  dialog?.querySelector("[data-school-close]")?.addEventListener("click", () => dialog.close());
-  dialog?.addEventListener("click", (event) => {
-    if (event.target.closest("[data-school-apply]")) dialog.close();
+  registerDeepLink("school-", {
+    dialog,
+    open(id) {
+      if (!schools[id]) return;
+      render(id);
+      if (!dialog.open) dialog.showModal();
+    },
+    close() {
+      if (dialog?.open) dialog.close();
+    },
   });
+  dialog?.querySelector("[data-school-close]")?.addEventListener("click", () => {
+    closeDeepLink("school-", "#academics");
+  });
+  dialog?.addEventListener("close", () => closeDeepLink("school-", "#academics"));
   window.addEventListener("tu:languagechange", () => {
     if (currentSchool) render(currentSchool);
   });

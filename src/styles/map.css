@@ -185,6 +185,25 @@
   line-height: 1.35;
 }
 
+@media (max-width: 620px) {
+  .map-node {
+    min-width: 74px;
+    gap: 5px;
+  }
+
+  .map-node strong {
+    display: block;
+    max-width: 70px;
+    padding: 3px 5px;
+    color: #fff7ea;
+    border-radius: 2px;
+    background: rgba(9, 17, 25, 0.78);
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.22);
+    font-size: 8px;
+    line-height: 1.25;
+  }
+}
+
 .map-node:hover span,
 .map-node:focus-visible span,
 .map-node.active span {
