@@ -3,6 +3,7 @@ import { facultyProfiles } from "../data/faculty.js";
 import { researchFiles } from "../data/research.js";
 import { campusFeatures, clubs } from "../data/campus.js";
 import { seededPosts } from "../data/community.js";
+import { campusHistory } from "../data/campus-history.js";
 import { getLocale } from "./i18n.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 
@@ -30,6 +31,7 @@ const copy = {
       service: "校務服務",
       bbs: "BBS",
       map: "地圖",
+      history: "校史",
     },
   },
   ja: {
@@ -50,6 +52,7 @@ const copy = {
       service: "学務サービス",
       bbs: "BBS",
       map: "地図",
+      history: "大学史",
     },
   },
   en: {
@@ -70,12 +73,14 @@ const copy = {
       service: "Campus service",
       bbs: "BBS",
       map: "Map",
+      history: "Chronicle",
     },
   },
 };
 
 const sectionEntries = [
   ["about", "section", ["學校介紹", "大学紹介", "About the university"], ["校訓、校服、校慶與辦學方式", "校訓・制服・大学祭・教育方針", "Motto, uniform, anniversary, and the university's approach"]],
+  ["chronicle", "section", ["幻想鄉校史", "幻想郷大学史", "Gensokyo University Chronicle"], ["真實版本主旨、校務演變、訂正與頁邊補記", "実際の版主題・学務の変遷・訂正・欄外追記", "Real version subjects, campus evolution, corrections, and marginal notes"]],
   ["academics", "section", ["七所學院", "七つの学部", "Seven schools"], ["課程、學分、學費與畢業條件", "科目・単位・授業料・卒業要件", "Courses, credits, tuition, and progression"]],
   ["admissions", "section", ["招生與入學案內", "入試・入学案内", "Admissions"], ["入學路線、日期與線上填報", "選抜経路・日程・オンライン出願", "Entry routes, dates, and online application"]],
   ["my-tu", "section", ["My TU 幻想鄉學籍中心", "My TU 幻想郷学籍センター", "My TU Student Records"], ["本機身分、教授聯合審查、校園履歷與錄取通知書", "端末内身分・教員合同審査・履歴・合格通知", "On-device identity, joint faculty review, campus history, and decision letters"]],
@@ -199,11 +204,21 @@ function buildIndex() {
       priority: 35,
     }));
   });
+  campusHistory.forEach((entry) => {
+    index.push(makeEntry({
+      route: `chronicle-${entry.id}`,
+      category: "history",
+      title: entry.title[locale],
+      description: `${entry.era[locale]} · ${entry.summary[locale]}`,
+      source: entry,
+      priority: 55,
+    }));
+  });
   return index;
 }
 
 function openResult(route) {
-  if (/^(?:school|faculty|research|club|bbs|campus|service)-|^map-eientei$/.test(route)) {
+  if (/^(?:school|faculty|research|club|bbs|campus|service)-|^map-eientei$|^chronicle(?:-|$)/.test(route)) {
     navigateToDeepLink(route);
   } else {
     window.location.hash = route;

@@ -84,6 +84,8 @@ function translateAttributes() {
       "SEARCH / 搜尋全站": "SEARCH / 搜尋全站",
       "關閉全站搜尋": "關閉全站搜尋",
       "關閉校務文件": "關閉校務文件",
+      "校史檔案": "校史檔案",
+      "關閉校史檔案": "關閉校史檔案",
     },
     ja: {
       "開啟選單": "メニューを開く",
@@ -134,6 +136,8 @@ function translateAttributes() {
       "SEARCH / 搜尋全站": "SEARCH / サイト内検索",
       "關閉全站搜尋": "サイト内検索を閉じる",
       "關閉校務文件": "学務文書を閉じる",
+      "校史檔案": "大学史記録",
+      "關閉校史檔案": "大学史記録を閉じる",
     },
     en: {
       "開啟選單": "Open menu",
@@ -184,6 +188,8 @@ function translateAttributes() {
       "SEARCH / 搜尋全站": "SEARCH / Search the site",
       "關閉全站搜尋": "Close site search",
       "關閉校務文件": "Close university document",
+      "校史檔案": "University chronicle",
+      "關閉校史檔案": "Close university chronicle",
     },
   };
 

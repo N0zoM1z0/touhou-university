@@ -1,6 +1,6 @@
 {
   "name": "touhou-university",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,8 +11,10 @@
     "check:i18n": "node scripts/check-i18n.mjs",
     "check:js": "node scripts/check-js.mjs",
     "check:gaokao": "node scripts/check-gaokao.mjs",
+    "check:history": "node scripts/check-campus-history.mjs",
+    "history:status": "node scripts/check-campus-history.mjs",
     "test:browser": "npm run build && node scripts/smoke-browser.mjs",
     "capture": "npm run build && node scripts/capture-ui.mjs",
-    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:gaokao"
+    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:gaokao && npm run check:history"
   }
 }

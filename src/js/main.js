@@ -15,6 +15,7 @@ import { initDeepLinks } from "./deep-links.js";
 import { initSearch } from "./search.js";
 import { initAudiencePaths } from "./audiences.js";
 import { initEienteiMap } from "./eientei-map.js";
+import { initCampusChronicle } from "./chronicle.js";
 
 initInfoDialog();
 initUI();
@@ -31,6 +32,7 @@ initExam();
 initSearch();
 initAudiencePaths();
 initEienteiMap();
+initCampusChronicle();
 initI18n();
 initDeepLinks();
 

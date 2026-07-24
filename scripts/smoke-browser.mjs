@@ -559,6 +559,84 @@ try {
   );
   check(deepLinks.searchCount >= 2 && deepLinks.searchReachedResearch, "Full-site search did not reach a deep-linked result.");
 
+  const chronicle = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-research-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 180));
+    location.hash = 'traditions';
+    await new Promise((resolve) => setTimeout(resolve, 160));
+    document.querySelector('[data-chronicle-open]').click();
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    const dialog = document.querySelector('[data-chronicle-dialog]');
+    const initial = {
+      open: dialog.open,
+      hash: location.hash,
+      records: dialog.querySelectorAll('.chronicle-index [data-chronicle-record]').length,
+      latest: dialog.querySelector('.chronicle-record h3')?.textContent || '',
+      source: dialog.querySelector('.chronicle-source code')?.textContent || '',
+      realLink: dialog.querySelector('.chronicle-source a')?.href || '',
+      share: Boolean(dialog.querySelector('[data-deep-link-share]'))
+    };
+    dialog.querySelector('[data-chronicle-filter="correction"]').click();
+    const filtered = dialog.querySelectorAll('.chronicle-index [data-chronicle-record]').length;
+    dialog.querySelector('[data-chronicle-record="moon-condition-correction"]').click();
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    const correctionHash = location.hash;
+    document.querySelector('[data-lang="ja"]').click();
+    const japaneseTitle = dialog.querySelector('.chronicle-record h3')?.textContent || '';
+    document.querySelector('[data-lang="en"]').click();
+    const englishHeading = dialog.querySelector('.chronicle-head h2')?.textContent || '';
+    dialog.querySelector('[data-chronicle-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 220));
+    const closed = { open: dialog.open, hash: location.hash };
+    location.hash = 'chronicle-selection-is-not-exit';
+    await new Promise((resolve) => setTimeout(resolve, 180));
+    const direct = {
+      open: dialog.open,
+      hash: location.hash,
+      title: dialog.querySelector('.chronicle-record h3')?.textContent || ''
+    };
+    dialog.querySelector('[data-chronicle-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 140));
+    document.querySelector('[data-search-open]').click();
+    const searchInput = document.querySelector('[data-search-input]');
+    searchInput.value = 'select popovers';
+    searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+    const searchRoute = document.querySelector('[data-search-route="chronicle-selection-is-not-exit"]');
+    searchRoute?.click();
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    const searchOpened = dialog.open && location.hash === '#chronicle-selection-is-not-exit';
+    dialog.querySelector('[data-chronicle-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    return { initial, filtered, correctionHash, japaneseTitle, englishHeading, closed, direct, searchFound: Boolean(searchRoute), searchOpened };
+  })()`);
+  check(
+    chronicle.initial.open &&
+      chronicle.initial.hash === "#chronicle" &&
+      chronicle.initial.records === 12 &&
+      chronicle.initial.latest.includes("version repository") &&
+      chronicle.initial.source === "Add Git-backed living campus chronicle" &&
+      chronicle.initial.realLink.includes("github.com/N0zoM1z0/touhou-university/commits/main") &&
+      chronicle.initial.share,
+    "Git-backed campus chronicle did not open with all records and its real version source.",
+  );
+  check(
+    chronicle.filtered === 1 &&
+      chronicle.correctionHash === "#chronicle-moon-condition-correction" &&
+      chronicle.japaneseTitle.includes("満月条件") &&
+      chronicle.englishHeading === "Gensokyo University Chronicle",
+    "Campus chronicle filters, record deep links, or trilingual rendering failed.",
+  );
+  check(
+    !chronicle.closed.open &&
+      chronicle.closed.hash === "#traditions" &&
+      chronicle.direct.open &&
+      chronicle.direct.hash === "#chronicle-selection-is-not-exit" &&
+      chronicle.direct.title.includes("Choosing an option") &&
+      chronicle.searchFound &&
+      chronicle.searchOpened,
+    `Campus chronicle close restoration or direct record link failed: ${JSON.stringify({ closed: chronicle.closed, direct: chronicle.direct })}`,
+  );
+
   const audience = await cdp.evaluate(`(() => {
     const tabs = document.querySelectorAll('[data-audience]');
     document.querySelector('[data-audience="applicant"]').click();
@@ -811,6 +889,25 @@ try {
   check(mobile.menuOpen, "Mobile navigation did not open.");
   check(mobile.widthOkay, "Mobile layout has horizontal overflow.");
   check(mobile.mapLabelVisible, "Mobile campus-map place names are not discoverable.");
+  const mobileChronicle = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-menu-toggle]').click();
+    location.hash = 'chronicle-living-version-chronicle';
+    await new Promise((resolve) => setTimeout(resolve, 220));
+    const dialog = document.querySelector('[data-chronicle-dialog]');
+    const heading = dialog.querySelector('.chronicle-record h3');
+    const result = {
+      open: dialog.open,
+      widthOkay: dialog.scrollWidth <= dialog.clientWidth + 1,
+      headingOkay: heading.getBoundingClientRect().right <= window.innerWidth + 1
+    };
+    dialog.querySelector('[data-chronicle-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    return result;
+  })()`);
+  check(
+    mobileChronicle.open && mobileChronicle.widthOkay && mobileChronicle.headingOkay,
+    "Mobile campus chronicle overflows or clips its record heading.",
+  );
 
   await cdp.call("Emulation.setDeviceMetricsOverride", {
     width: 1440,
@@ -902,6 +999,7 @@ try {
       ['campus-library', '#campus', '[data-info-dialog]'],
       ['club-grimoire', '#campus', '[data-info-dialog]'],
       ['service-availability', '#services', '[data-service-dialog]'],
+      ['chronicle-selection-is-not-exit', '#traditions', '[data-chronicle-dialog]'],
       ['search', '#top', '[data-search-dialog]'],
       ...(firstBbsId ? [['bbs-' + firstBbsId, '#bbs', '[data-info-dialog]']] : []),
     ];
@@ -923,7 +1021,7 @@ try {
     `Static hash targets drifted: ${JSON.stringify(anchorAudit.staticResults.filter((result) => result.delta > 6))}`,
   );
   check(
-    anchorAudit.deepResults.length === 8 &&
+    anchorAudit.deepResults.length === 9 &&
       anchorAudit.deepResults.every((result) => result.open && result.delta <= 6),
     `Deep-link families opened over the wrong section: ${JSON.stringify(anchorAudit.deepResults.filter((result) => !result.open || result.delta > 6))}`,
   );
@@ -943,4 +1041,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Browser smoke test passed: all hash/deep-link targets, mobile restoration, My TU, Eientei, both exams, persistence, i18n, and navigation.");
+console.log("Browser smoke test passed: campus chronicle, all hash/deep-link targets, mobile restoration, My TU, Eientei, both exams, persistence, i18n, and navigation.");
