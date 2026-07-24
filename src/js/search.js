@@ -273,6 +273,7 @@ export function initSearch() {
     }
   });
   registerDeepLink("search", {
+    anchor: "#top",
     dialog,
     open() {
       localize();

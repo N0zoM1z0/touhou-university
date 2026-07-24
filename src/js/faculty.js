@@ -35,6 +35,7 @@ export function initFaculty() {
     });
   });
   registerDeepLink("faculty-", {
+    anchor: "#faculty",
     dialog,
     open(id) {
       if (!facultyProfiles[id]) return;

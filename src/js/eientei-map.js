@@ -343,7 +343,6 @@ function open() {
   render({ preserveSelection: false });
   window.clearInterval(clockTimer);
   clockTimer = window.setInterval(() => render(), 60_000);
-  window.setTimeout(() => root.scrollIntoView({ behavior: "smooth", block: "start" }), 40);
 }
 
 function close() {
@@ -354,9 +353,13 @@ function close() {
 }
 
 export function initEienteiMap() {
-  registerDeepLink("map-eientei", { open, close });
+  registerDeepLink("map-eientei", {
+    anchor: () => root,
+    position: "always",
+    open,
+    close,
+  });
   window.addEventListener("tu:languagechange", () => {
     if (!root?.hidden) render();
   });
 }
-

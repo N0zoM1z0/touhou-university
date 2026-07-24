@@ -57,6 +57,7 @@ export function initCampusInteractions() {
     button.addEventListener("click", () => navigateToDeepLink(`club-${button.dataset.club}`));
   });
   registerDeepLink("campus-", {
+    anchor: "#campus",
     dialog,
     open(id) {
       if (campusFeatures[id]) showFeature(id);
@@ -66,6 +67,7 @@ export function initCampusInteractions() {
     },
   });
   registerDeepLink("club-", {
+    anchor: "#campus",
     dialog,
     open(id) {
       if (clubs[id]) showClub(id);

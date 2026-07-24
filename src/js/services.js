@@ -825,6 +825,7 @@ export function initServices() {
     navigateToDeepLink(`service-${trigger.dataset.service}${schoolSuffix}`);
   });
   registerDeepLink("service-", {
+    anchor: "#services",
     dialog,
     open(value) {
       const [service, applicationSchool] = value.split("--");

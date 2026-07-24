@@ -4,6 +4,8 @@ const registrations = [];
 let applyingRoute = false;
 let initialized = false;
 let restoreFrame = 0;
+let positionToken = 0;
+let skipHashPositionRoute = null;
 
 const shareCopy = {
   "zh-Hant": ["複製此頁連結", "連結已複製，可以直接分享這一頁。"],
@@ -21,6 +23,66 @@ function routeFromLocation() {
 
 function registrationFor(route) {
   return registrations.find(({ prefix }) => route.startsWith(prefix));
+}
+
+function targetForRoute(route, registration = registrationFor(route)) {
+  const anchor = registration?.anchor;
+  if (typeof anchor === "function") return anchor(route);
+  if (typeof anchor === "string") return document.querySelector(anchor);
+  return registration ? null : document.getElementById(route);
+}
+
+function revealTarget(target) {
+  target?.classList.add("is-visible");
+  target?.querySelectorAll(".reveal").forEach((element) => element.classList.add("is-visible"));
+}
+
+function cancelRoutePositioning() {
+  positionToken += 1;
+}
+
+function anchorOffset(target) {
+  const margin = Number.parseFloat(window.getComputedStyle(target).scrollMarginTop);
+  if (Number.isFinite(margin) && margin > 0) return margin;
+  const header = document.querySelector("[data-header]");
+  return header?.classList.contains("is-fixed") ? header.getBoundingClientRect().height + 16 : 0;
+}
+
+function alignRouteTarget(target, route, behavior = "auto") {
+  if (!target?.isConnected || routeFromLocation() !== route) return;
+  revealTarget(target);
+  const top = Math.max(0, window.scrollY + target.getBoundingClientRect().top - anchorOffset(target));
+  if (Math.abs(window.scrollY - top) < 2) return;
+  if (behavior === "smooth") {
+    window.scrollTo({ top, left: 0, behavior: "smooth" });
+    return;
+  }
+  // `behavior: auto` still inherits `html { scroll-behavior: smooth }`.
+  // Corrections must be instantaneous or each pass starts another animation
+  // that can be overtaken by the next lazy-layout shift.
+  window.scrollTo({ top, left: 0, behavior: "instant" });
+}
+
+function stabilizeRoutePosition(route, registration, behavior = "auto") {
+  const target = targetForRoute(route, registration);
+  if (!target) return;
+  const token = ++positionToken;
+  const align = (nextBehavior = "auto") => {
+    if (token !== positionToken) return;
+    alignRouteTarget(target, route, nextBehavior);
+  };
+
+  align(behavior);
+  // Direct links can gain several thousand pixels above the target while
+  // lazy sections, fonts and images settle. Re-align in bounded passes so the
+  // URL keeps pointing at the intended content rather than a former offset.
+  [120, 360, 720, 1200, 1900].forEach((delay) => {
+    window.setTimeout(() => align("auto"), delay);
+  });
+  document.fonts?.ready.then(() => align("auto"));
+  if (document.readyState !== "complete") {
+    window.addEventListener("load", () => align("auto"), { once: true });
+  }
 }
 
 function cleanState(state = {}) {
@@ -94,7 +156,7 @@ function attachShareButton(dialog) {
   updateShareButtons();
 }
 
-function applyCurrentRoute() {
+function applyCurrentRoute({ position = true, behavior = "auto" } = {}) {
   if (!initialized || applyingRoute) return;
   applyingRoute = true;
   const route = routeFromLocation();
@@ -112,6 +174,13 @@ function applyCurrentRoute() {
     }
   });
   applyingRoute = false;
+  if (!position) return;
+  const initiatedDeepLink =
+    window.history.state?.tuDeepLink === true &&
+    window.history.state?.route === route;
+  if (active?.position === "always" || !initiatedDeepLink) {
+    stabilizeRoutePosition(route, active, behavior);
+  }
 }
 
 export function registerDeepLink(prefix, handlers) {
@@ -119,6 +188,7 @@ export function registerDeepLink(prefix, handlers) {
 }
 
 export function navigateToDeepLink(route, { replace = false } = {}) {
+  cancelRoutePositioning();
   const url = new URL(window.location.href);
   url.hash = route;
   const currentRoute = routeFromLocation();
@@ -138,40 +208,62 @@ export function navigateToDeepLink(route, { replace = false } = {}) {
     const origin = rememberCurrentPosition();
     window.history.pushState({ tuDeepLink: true, route, tuOrigin: origin }, "", url);
   }
-  applyCurrentRoute();
+  applyCurrentRoute({ behavior: "smooth" });
 }
 
 export function closeDeepLink(prefix, fallbackHash = "#top") {
   const route = routeFromLocation();
   if (!route.startsWith(prefix)) return;
   if (window.history.state?.tuDeepLink && window.history.state?.tuOrigin && window.history.length > 1) {
+    cancelRoutePositioning();
     window.history.back();
     return;
   }
   window.history.replaceState({ tuRoute: fallbackHash.slice(1) }, "", fallbackHash);
-  applyCurrentRoute();
-  const target = document.querySelector(fallbackHash);
-  if (target) {
-    window.requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
-  }
+  applyCurrentRoute({ behavior: "smooth" });
 }
 
 export function initDeepLinks() {
   if (initialized) return;
   initialized = true;
   window.addEventListener("popstate", (event) => {
-    applyCurrentRoute();
-    if (!registrationFor(routeFromLocation())) restorePosition(event.state);
+    const route = routeFromLocation();
+    const restoringPosition = Number.isFinite(event.state?.tuScrollY);
+    skipHashPositionRoute = restoringPosition ? route : null;
+    cancelRoutePositioning();
+    applyCurrentRoute({ position: !restoringPosition });
+    if (restoringPosition && !registrationFor(route)) restorePosition(event.state);
   });
-  window.addEventListener("hashchange", applyCurrentRoute);
+  window.addEventListener("hashchange", () => {
+    const route = routeFromLocation();
+    const position = skipHashPositionRoute !== route;
+    skipHashPositionRoute = null;
+    applyCurrentRoute({ position, behavior: "smooth" });
+  });
   document.addEventListener("click", (event) => {
     if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     const link = event.target.closest('a[href^="#"]');
     if (!link) return;
     const route = decodeURIComponent(link.getAttribute("href").slice(1));
-    if (!registrationFor(route)) return;
+    const registration = registrationFor(route);
+    const target = targetForRoute(route, registration);
+    if (!registration && !target) return;
     event.preventDefault();
-    navigateToDeepLink(route);
+    if (registration) {
+      navigateToDeepLink(route);
+    } else if (routeFromLocation() === route) {
+      stabilizeRoutePosition(route, null, "smooth");
+    } else {
+      window.location.hash = route;
+    }
+  });
+  ["wheel", "touchstart", "pointerdown"].forEach((type) => {
+    window.addEventListener(type, cancelRoutePositioning, { passive: true });
+  });
+  window.addEventListener("keydown", (event) => {
+    if (["ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End", " "].includes(event.key)) {
+      cancelRoutePositioning();
+    }
   });
   window.addEventListener("tu:languagechange", updateShareButtons);
   applyCurrentRoute();

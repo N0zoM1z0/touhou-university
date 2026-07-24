@@ -113,6 +113,7 @@ export function initResearch() {
     });
   });
   registerDeepLink("research-", {
+    anchor: "#research",
     dialog,
     open(id) {
       if (!researchFiles[id]) return;

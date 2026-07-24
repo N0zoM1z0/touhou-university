@@ -812,6 +812,122 @@ try {
   check(mobile.widthOkay, "Mobile layout has horizontal overflow.");
   check(mobile.mapLabelVisible, "Mobile campus-map place names are not discoverable.");
 
+  await cdp.call("Emulation.setDeviceMetricsOverride", {
+    width: 1440,
+    height: 1000,
+    deviceScaleFactor: 1,
+    mobile: false,
+  });
+  await cdp.call("Page.navigate", { url: `${siteUrl}#map-eientei` });
+  await eventually(() =>
+    cdp.evaluate("document.readyState === 'complete' && !document.querySelector('[data-eientei-focus]').hidden"),
+  );
+  await cdp.evaluate("import('./src/js/gaokao.js').then((module) => { module.initGaokao(); return true; })");
+  await eventually(() => cdp.evaluate("document.querySelectorAll('[data-gaokao-start]').length === 2"));
+  await delay(2300);
+  const desktopDirectMap = await cdp.evaluate(`(() => {
+    const target = document.querySelector('[data-eientei-focus]');
+    const offset = parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+    return {
+      delta: Math.abs(target.getBoundingClientRect().top - offset),
+      gaokaoLoaded: document.querySelectorAll('[data-gaokao-start]').length === 2,
+      visible: !target.hidden
+    };
+  })()`);
+  check(
+    desktopDirectMap.visible && desktopDirectMap.gaokaoLoaded && desktopDirectMap.delta <= 6,
+    `A cold desktop #map-eientei link drifted after lazy sections changed the page height: ${JSON.stringify(desktopDirectMap)}`,
+  );
+
+  await cdp.call("Emulation.setDeviceMetricsOverride", {
+    width: 390,
+    height: 844,
+    deviceScaleFactor: 1,
+    mobile: true,
+  });
+  await cdp.call("Page.navigate", { url: `${siteUrl}#map-eientei` });
+  await eventually(() =>
+    cdp.evaluate("document.readyState === 'complete' && !document.querySelector('[data-eientei-focus]').hidden"),
+  );
+  await cdp.evaluate("import('./src/js/gaokao.js').then((module) => { module.initGaokao(); return true; })");
+  await eventually(() => cdp.evaluate("document.querySelectorAll('[data-gaokao-start]').length === 2"));
+  await delay(2300);
+  const mobileDirectMap = await cdp.evaluate(`(() => {
+    const target = document.querySelector('[data-eientei-focus]');
+    const offset = parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+    return {
+      delta: Math.abs(target.getBoundingClientRect().top - offset),
+      gaokaoLoaded: document.querySelectorAll('[data-gaokao-start]').length === 2,
+      visible: !target.hidden
+    };
+  })()`);
+  check(
+    mobileDirectMap.visible && mobileDirectMap.gaokaoLoaded && mobileDirectMap.delta <= 6,
+    `A cold mobile #map-eientei link drifted into the unified-exam section: ${JSON.stringify(mobileDirectMap)}`,
+  );
+
+  const anchorAudit = await cdp.evaluate(`(async () => {
+    const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+    const measure = (selector) => {
+      const target = document.querySelector(selector);
+      const offset = parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+      const absoluteTop = window.scrollY + target.getBoundingClientRect().top;
+      const maximum = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+      const expected = Math.min(maximum, Math.max(0, absoluteTop - offset));
+      return {
+        delta: Math.abs(window.scrollY - expected),
+        scrollY: window.scrollY,
+        expected,
+        top: target.getBoundingClientRect().top,
+        offset
+      };
+    };
+    const staticRoutes = [...new Set(
+      [...document.querySelectorAll('a[href^="#"]')]
+        .map((link) => decodeURIComponent(link.hash.slice(1)))
+        .filter((route) => route && document.getElementById(route))
+    )];
+    const staticResults = [];
+    for (const route of staticRoutes) {
+      location.hash = route;
+      await wait(520);
+      staticResults.push({ route, ...measure('#' + CSS.escape(route)) });
+    }
+
+    const firstBbsId = document.querySelector('[data-bbs-id]')?.dataset.bbsId;
+    const deepRoutes = [
+      ['school-boundary', '#academics', '[data-school-dialog]'],
+      ['faculty-reimu', '#faculty', '[data-faculty-dialog]'],
+      ['research-spellcard', '#research', '[data-research-dialog]'],
+      ['campus-library', '#campus', '[data-info-dialog]'],
+      ['club-grimoire', '#campus', '[data-info-dialog]'],
+      ['service-availability', '#services', '[data-service-dialog]'],
+      ['search', '#top', '[data-search-dialog]'],
+      ...(firstBbsId ? [['bbs-' + firstBbsId, '#bbs', '[data-info-dialog]']] : []),
+    ];
+    const deepResults = [];
+    for (const [route, anchor, dialogSelector] of deepRoutes) {
+      location.hash = route;
+      await wait(520);
+      deepResults.push({
+        route,
+        ...measure(anchor),
+        open: Boolean(document.querySelector(dialogSelector)?.open)
+      });
+    }
+    return { staticResults, deepResults };
+  })()`, 30000);
+  check(
+    anchorAudit.staticResults.length >= 12 &&
+      anchorAudit.staticResults.every((result) => result.delta <= 6),
+    `Static hash targets drifted: ${JSON.stringify(anchorAudit.staticResults.filter((result) => result.delta > 6))}`,
+  );
+  check(
+    anchorAudit.deepResults.length === 8 &&
+      anchorAudit.deepResults.every((result) => result.open && result.delta <= 6),
+    `Deep-link families opened over the wrong section: ${JSON.stringify(anchorAudit.deepResults.filter((result) => !result.open || result.delta > 6))}`,
+  );
+
   await delay(300);
   check(errors.length === 0, `Browser reported errors: ${errors.join(" | ")}`);
 } finally {
@@ -827,4 +943,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Browser smoke test passed: mobile deep-link restoration, My TU lifecycle, search, Eientei routes, both exams, persistence, i18n, and navigation.");
+console.log("Browser smoke test passed: all hash/deep-link targets, mobile restoration, My TU, Eientei, both exams, persistence, i18n, and navigation.");

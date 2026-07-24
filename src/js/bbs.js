@@ -361,6 +361,7 @@ export function initBbs() {
   renderPosts();
   const infoDialog = document.querySelector("[data-info-dialog]");
   registerDeepLink("bbs-", {
+    anchor: "#bbs",
     dialog: infoDialog,
     open(id) {
       const post = findPost(id);
