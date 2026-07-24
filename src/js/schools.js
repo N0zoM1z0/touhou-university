@@ -123,15 +123,13 @@ export function initSchools() {
         </div>
         <footer class="school-dialog-footer">
           <p>${c.note}</p>
-          <button
+          <a
             class="button button-primary"
-            type="button"
-            data-service="application"
-            data-application-school="${id}"
             data-school-apply
+            href="index.html#service-application--${id}"
           >
             ${c.apply} <span aria-hidden="true">→</span>
-          </button>
+          </a>
         </footer>
       </div>
     `;

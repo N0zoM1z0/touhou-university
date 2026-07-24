@@ -1,6 +1,7 @@
 import { campusHistory, campusHistoryCategories } from "../data/campus-history.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { getLocale } from "./i18n.js";
+import { renderPreservingState } from "./render-state.js";
 
 const dialog = document.querySelector("[data-chronicle-dialog]");
 const app = dialog?.querySelector("[data-chronicle-app]");
@@ -159,7 +160,7 @@ function bindDialogActions() {
   });
 }
 
-function render() {
+function renderContent() {
   if (!app) return;
   const locale = getLocale();
   const c = copy[locale];
@@ -179,7 +180,7 @@ function render() {
       </div>
       <strong>${String(campusHistory.length).padStart(3, "0")}<small>${c.entries}</small></strong>
     </header>
-    <div class="chronicle-filters" role="group" aria-label="${c.title}">
+    <div class="chronicle-filters" role="group" aria-label="${c.title}" data-preserve-scroll="chronicle-filters">
       ${categories.map((id) => `
         <button class="${id === activeCategory ? "active" : ""}" type="button" data-chronicle-filter="${id}">
           ${id === "all" ? c.all : categoryName(id, locale)}
@@ -187,12 +188,12 @@ function render() {
         </button>`).join("")}
     </div>
     <div class="chronicle-layout">
-      <aside class="chronicle-index">
+      <aside class="chronicle-index" data-preserve-scroll="chronicle-index">
         <p>${c.latest} / ${visible.length} ${c.entries}</p>
         <ol>
           ${visible.slice().reverse().map((item) => `
             <li>
-              <button class="${item.id === selectedId ? "active" : ""}" type="button" data-chronicle-record="${escapeHtml(item.id)}" aria-label="${c.openRecord}: ${escapeHtml(item.title[locale])}">
+              <button class="${item.id === selectedId ? "active" : ""}" type="button" data-chronicle-record="${escapeHtml(item.id)}" data-preserve-focus="chronicle-${escapeHtml(item.id)}" aria-label="${c.openRecord}: ${escapeHtml(item.title[locale])}">
                 <span>${escapeHtml(item.archiveId)}</span>
                 <strong>${escapeHtml(item.title[locale])}</strong>
                 <small>${escapeHtml(item.era[locale])}</small>
@@ -203,6 +204,11 @@ function render() {
       ${renderRecord(entry, locale, c, visible)}
     </div>`;
   bindDialogActions();
+}
+
+function render() {
+  if (!dialog) return;
+  renderPreservingState(dialog, renderContent);
 }
 
 function open(value) {

@@ -5,54 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="幻想鄉立東方大學：一所把異變變成問題、讓人類與妖怪共同求知的幻想大學。東方Project非官方二次創作。"
+      content="{{pageDescription}} 東方Project非官方二次創作。"
     >
     <meta name="theme-color" content="#151d2a">
-    <meta property="og:title" content="幻想鄉立東方大學｜Touhou University">
+    <meta property="og:title" content="{{pageTitle}}">
     <meta
       property="og:description"
-      content="在常識的邊界之外，重新定義知識。東方Project非官方二次創作網站。"
+      content="{{pageDescription}} 東方Project非官方二次創作網站。"
     >
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/images/campus-hero.webp">
-    <title>幻想鄉立東方大學｜Touhou University</title>
+    <title>{{pageTitle}}</title>
     <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
-    <link
-      rel="preload"
-      href="assets/images/campus-hero-mobile.webp"
-      imagesrcset="assets/images/campus-hero-mobile.webp 960w, assets/images/campus-hero.webp 1672w"
-      imagesizes="100vw"
-      as="image"
-      type="image/webp"
-      fetchpriority="high"
-    >
+    <!-- @page-preload -->
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
-  <body>
+  <body data-page="{{pageId}}">
     <a class="skip-link" href="#main">跳至主要內容</a>
 
     <!-- @include sections/chrome.html -->
 
     <main id="main">
-      <!-- @include sections/hero.html -->
-      <!-- @include sections/ticker.html -->
-      <!-- @include sections/audiences.html -->
-      <!-- @include sections/services.html -->
-      <!-- @include sections/mytu.html -->
-      <!-- @include sections/about.html -->
-      <!-- @include sections/traditions.html -->
-      <!-- @include sections/academics.html -->
-      <!-- @include sections/faculty.html -->
-      <!-- @include sections/admissions.html -->
-      <!-- @include sections/exam.html -->
-      <!-- @include sections/gaokao.html -->
-      <!-- @include sections/map.html -->
-      <!-- @include sections/research.html -->
-      <!-- @include sections/campus.html -->
-      <!-- @include sections/bbs.html -->
-      <!-- @include sections/faq.html -->
-      <!-- @include sections/closing.html -->
+      <!-- @page-masthead -->
+      <!-- @page-sections -->
     </main>
 
     <!-- @include sections/footer.html -->

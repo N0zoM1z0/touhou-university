@@ -1,0 +1,122 @@
+.page-masthead {
+  position: relative;
+  padding: 150px 0 54px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(23, 32, 44, 0.14);
+  background:
+    linear-gradient(90deg, rgba(250, 247, 240, 0.96), rgba(238, 229, 211, 0.76)),
+    repeating-linear-gradient(90deg, transparent 0 84px, rgba(83, 66, 48, 0.05) 84px 85px);
+}
+
+.page-masthead::after {
+  position: absolute;
+  right: 6vw;
+  bottom: -75px;
+  width: 240px;
+  height: 240px;
+  border: 2px solid rgba(155, 48, 57, 0.11);
+  border-radius: 50%;
+  content: "東";
+  color: rgba(155, 48, 57, 0.08);
+  font: 800 92px/230px var(--serif);
+  text-align: center;
+  transform: rotate(-8deg);
+}
+
+.page-breadcrumb {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 27px;
+  color: var(--ink-soft);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.page-breadcrumb a {
+  color: var(--red);
+}
+
+.page-masthead-copy {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 54px;
+  align-items: end;
+}
+
+.page-masthead-copy > div > p {
+  margin: 0 0 8px;
+  color: var(--red);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+}
+
+.page-masthead h1 {
+  margin: 0;
+  font: 800 clamp(43px, 6vw, 78px)/1 var(--serif);
+  letter-spacing: -0.055em;
+}
+
+.page-masthead-copy > p {
+  max-width: 540px;
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.page-local-nav {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 35px;
+}
+
+.page-local-nav a {
+  padding: 8px 15px;
+  border: 1px solid rgba(23, 32, 44, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 253, 248, 0.56);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+body:not([data-page="home"]) .site-header {
+  background: rgba(250, 247, 240, 0.95);
+}
+
+body[data-page="academics"] .desktop-nav a[href^="academics"],
+body[data-page="admissions"] .desktop-nav a[href^="admissions"],
+body[data-page="research"] .desktop-nav a[href^="research"],
+body[data-page="campus"] .desktop-nav a[href^="campus"],
+body[data-page="library"] .desktop-nav a[href^="library"] {
+  color: var(--red);
+}
+
+@media (max-width: 760px) {
+  .page-masthead {
+    padding: 115px 0 38px;
+  }
+
+  .page-masthead-copy {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .page-masthead h1 {
+    font-size: 47px;
+  }
+
+  .page-local-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .page-local-nav a {
+    text-align: center;
+  }
+}

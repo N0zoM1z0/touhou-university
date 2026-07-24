@@ -52,6 +52,8 @@ function legacyEvents() {
   const unifiedExams = readJson("tu:gaokao:attempts", []);
   const posts = readJson("tu:bbs:posts", []);
   const registration = readJson("tu:courses:registration", null);
+  const libraryLoans = readJson("tu:library:loans", []);
+  const libraryHolds = readJson("tu:library:holds", []);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -137,6 +139,48 @@ function legacyEvents() {
         position: entry.position,
       },
     });
+  }
+  for (const loan of Array.isArray(libraryLoans) ? libraryLoans : []) {
+    if (!loan?.id || !loan?.holdingId || !loan?.borrowedAt) continue;
+    events.push({
+      id: `book.borrowed:${loan.id}`,
+      type: "book.borrowed",
+      timestamp: loan.borrowedAt,
+      payload: { loanId: loan.id, holdingId: loan.holdingId, dueAt: loan.dueAt },
+    });
+    if (loan.renewedAt && loan.renewals) {
+      events.push({
+        id: `book.renewed:${loan.id}:${loan.renewals}`,
+        type: "book.renewed",
+        timestamp: loan.renewedAt,
+        payload: { loanId: loan.id, holdingId: loan.holdingId, dueAt: loan.dueAt, renewals: loan.renewals },
+      });
+    }
+    if (loan.status === "returned" && loan.returnedAt) {
+      events.push({
+        id: `book.returned:${loan.id}`,
+        type: "book.returned",
+        timestamp: loan.returnedAt,
+        payload: { loanId: loan.id, holdingId: loan.holdingId },
+      });
+    }
+  }
+  for (const hold of Array.isArray(libraryHolds) ? libraryHolds : []) {
+    if (!hold?.id || !hold?.holdingId || !hold?.placedAt) continue;
+    events.push({
+      id: `book.held:${hold.id}`,
+      type: "book.held",
+      timestamp: hold.placedAt,
+      payload: { holdId: hold.id, holdingId: hold.holdingId, position: hold.position || 1 },
+    });
+    if (hold.status === "cancelled" && hold.cancelledAt) {
+      events.push({
+        id: `book.hold.cancelled:${hold.id}`,
+        type: "book.hold.cancelled",
+        timestamp: hold.cancelledAt,
+        payload: { holdId: hold.id, holdingId: hold.holdingId },
+      });
+    }
   }
   return events;
 }

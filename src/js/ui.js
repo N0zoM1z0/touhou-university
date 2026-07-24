@@ -25,6 +25,21 @@ export function initUI() {
   const menuToggle = document.querySelector("[data-menu-toggle]");
   const mobileMenu = document.querySelector("[data-mobile-menu]");
   const prospectusDialog = document.querySelector("[data-prospectus-dialog]");
+  const activePage = document.body.dataset.page;
+  const activeFile = {
+    home: "index.html",
+    academics: "academics.html",
+    admissions: "admissions.html",
+    research: "research.html",
+    campus: "campus.html",
+    mytu: "mytu.html",
+    library: "library.html",
+  }[activePage];
+  document.querySelectorAll(".desktop-nav a, .mobile-menu nav a, .header-mytu").forEach((link) => {
+    const matches = activeFile && link.getAttribute("href")?.startsWith(activeFile);
+    if (matches) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
 
   function setMenu(open) {
     menuToggle?.setAttribute("aria-expanded", String(open));

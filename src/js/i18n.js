@@ -87,6 +87,8 @@ function translateAttributes() {
       "關閉教務文件": "關閉教務文件",
       "校史檔案": "校史檔案",
       "關閉校史檔案": "關閉校史檔案",
+      "關閉借閱回條": "關閉借閱回條",
+      "頁面位置": "頁面位置",
     },
     ja: {
       "開啟選單": "メニューを開く",
@@ -140,6 +142,8 @@ function translateAttributes() {
       "關閉教務文件": "教務書類を閉じる",
       "校史檔案": "大学史記録",
       "關閉校史檔案": "大学史記録を閉じる",
+      "關閉借閱回條": "貸出票を閉じる",
+      "頁面位置": "現在位置",
     },
     en: {
       "開啟選單": "Open menu",
@@ -193,6 +197,8 @@ function translateAttributes() {
       "關閉教務文件": "Close registrar document",
       "校史檔案": "University chronicle",
       "關閉校史檔案": "Close university chronicle",
+      "關閉借閱回條": "Close library receipt",
+      "頁面位置": "Page location",
     },
   };
 
@@ -222,8 +228,19 @@ export function setLocale(nextLocale, { persist = true } = {}) {
   if (!supportedLocales.includes(nextLocale)) return;
   locale = nextLocale;
   document.documentElement.lang = locale;
-  document.title =
-    locale === "ja"
+  const pageTitleKey = {
+    academics: "pageAcademicsTitle",
+    admissions: "pageAdmissionsTitle",
+    research: "pageResearchTitle",
+    campus: "pageCampusTitle",
+    mytu: "pageMyTuTitle",
+    library: "pageLibraryTitle",
+  }[document.body?.dataset.page];
+  const university =
+    locale === "ja" ? "幻想郷立東方大学" : locale === "en" ? "Touhou University" : "幻想鄉立東方大學";
+  document.title = pageTitleKey
+    ? `${messages[locale][pageTitleKey]}｜${university}`
+    : locale === "ja"
       ? "幻想郷立東方大学｜境界を越えて、知を拓く"
       : locale === "en"
         ? "Touhou University of Gensokyo | Knowledge Beyond the Border"

@@ -36,10 +36,15 @@ Status: implemented in 0.10.0.
 
 ## Batch 3 — Usable library
 
-- searchable holdings, editions, danger levels and unusual availability states
-- borrowing, holds, renewal, returns and on-device loan history
-- course prerequisites and exam outcomes unlock restricted holdings
-- lost-book reports and printable loan receipts
+Status: core circulation implemented in 0.11.0.
+
+- nineteen searchable trilingual holdings with editions, provenance, danger,
+  autonomous tendencies and unusual availability states
+- borrowing, holds, renewal, returns and retained on-device circulation history
+- current or completed course records unlock course-reserve holdings
+- printable loan receipts, shareable holding hashes, full-site search, My TU
+  summary and campus-ledger integration
+- follow-up: lost-book reports and examination-result access rules
 
 ## Batch 4 — Housing and roommate allocation
 

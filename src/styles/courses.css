@@ -405,6 +405,16 @@
   box-shadow: 0 18px 38px rgba(37, 31, 26, 0.1);
 }
 
+.course-overload-note {
+  margin: 13px 0 0;
+  padding: 10px 12px;
+  border: 1px dashed rgba(155, 48, 57, 0.34);
+  background: rgba(155, 48, 57, 0.055);
+  color: var(--red);
+  font-size: 10px;
+  line-height: 1.55;
+}
+
 .course-detail header > p {
   margin: 0 0 5px;
   color: var(--ink-soft);

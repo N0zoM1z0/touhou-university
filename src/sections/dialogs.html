@@ -123,7 +123,7 @@
   <div class="search-results" data-search-results></div>
 </dialog>
 
-<dialog class="chronicle-dialog" aria-label="校史檔案" data-chronicle-dialog>
+<dialog class="chronicle-dialog" aria-label="校史檔案" data-chronicle-dialog data-preserve-scroll="chronicle-dialog">
   <button class="dialog-close" type="button" aria-label="關閉校史檔案" data-chronicle-close>×</button>
   <div data-chronicle-app>
     <h2>幻想鄉校史</h2>
@@ -145,5 +145,14 @@
   <footer class="course-document-actions">
     <button class="button button-secondary" type="button" data-course-document-close>返回選課系統</button>
     <button class="button button-primary" type="button" data-course-document-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
+  </footer>
+</dialog>
+
+<dialog class="library-receipt-dialog" data-library-receipt-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉借閱回條" data-library-receipt-close>×</button>
+  <div class="library-receipt" data-library-receipt-body></div>
+  <footer class="library-receipt-actions">
+    <button class="button button-secondary" type="button" data-library-receipt-close>返回圖書館</button>
+    <button class="button button-primary" type="button" data-library-receipt-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
   </footer>
 </dialog>
