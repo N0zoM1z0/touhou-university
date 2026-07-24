@@ -86,8 +86,9 @@ Everything in this section is project-original:
 - a campus spread across Gensokyo linked by boundary-safe paths;
 - student clubs, residence system, open day and financial aid.
 
-The website presents these with an “AU” badge in the relevant sections and an
-unofficial-fan-work notice in both the header and footer.
+The public website presents these directly as university information. The
+fan-work context appears only in the short header notice and fuller footer
+notice so ordinary campus content remains immersive.
 
 ## 4. Tone and portrayal rules
 

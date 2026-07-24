@@ -157,13 +157,17 @@ try {
     lang: document.documentElement.lang,
     services: document.querySelectorAll('[data-service]').length,
     research: document.querySelectorAll('[data-research]').length,
+    schools: document.querySelectorAll('[data-school]').length,
+    routeModes: document.querySelectorAll('[name="route-mode"]').length,
     news: document.querySelectorAll('[data-news-id]').length,
     examBanks: document.querySelectorAll('[data-exam-start]').length,
     widthOkay: document.documentElement.scrollWidth <= window.innerWidth
   })`);
   check(initial.lang === "zh-Hant", "Default locale is not Traditional Chinese.");
   check(initial.services >= 8, "Campus service triggers are missing.");
-  check(initial.research === 4, "Research file triggers are incomplete.");
+  check(initial.research === 5, "Research file triggers are incomplete.");
+  check(initial.schools === 7, "School catalogue triggers are incomplete.");
+  check(initial.routeModes === 4, "Campus transport modes are incomplete.");
   check(initial.news >= 12, "Rotating campus news did not render.");
   check(initial.examBanks === 4, "Exam bank chooser is incomplete.");
   check(initial.widthOkay, "Desktop layout has horizontal overflow.");
@@ -179,6 +183,41 @@ try {
   check(english.lang === "en", "English locale switch failed.");
   check(english.title === "What do you need today?", "English static translation failed.");
   check(english.map === "Hakurei Gate", "English dynamic map translation failed.");
+
+  const school = await cdp.evaluate(`(() => {
+    document.querySelector('[data-school="boundary"]').click();
+    const dialog = document.querySelector('[data-school-dialog]');
+    return {
+      open: dialog.open,
+      title: dialog.querySelector('h2').textContent.trim(),
+      courses: dialog.querySelectorAll('.school-curriculum tbody tr').length,
+      tuition: dialog.querySelector('.school-fact-tuition dd').textContent.trim()
+    };
+  })()`);
+  check(school.open, "School catalogue dialog did not open.");
+  check(school.title.includes("Boundaries"), "School catalogue did not use the current locale.");
+  check(school.courses === 5, "School catalogue curriculum is incomplete.");
+  check(school.tuition.includes("82,000"), "School catalogue tuition did not render.");
+
+  const route = await cdp.evaluate(`(() => {
+    document.querySelector('[data-school-close]').click();
+    const form = document.querySelector('[data-route-form]');
+    form.elements.from.value = 'gate';
+    form.elements.to.value = 'kappa';
+    form.querySelector('[value="tengu"]').checked = true;
+    form.requestSubmit();
+    return {
+      shown: !document.querySelector('[data-route-result]').hidden,
+      stops: document.querySelectorAll('.route-itinerary li').length,
+      marked: document.querySelectorAll('.map-node.on-route').length,
+      estimate: document.querySelector('.route-result-summary strong').textContent.trim(),
+      notice: document.querySelector('.route-notice').textContent.trim()
+    };
+  })()`);
+  check(route.shown, "Campus route result did not open.");
+  check(route.stops >= 3 && route.marked === route.stops, "Campus route path or map markers are incomplete.");
+  check(route.estimate.includes("min"), "Campus route estimate did not localize.");
+  check(route.notice.includes("Windways"), "Selected transport guidance did not render.");
 
   const application = await cdp.evaluate(`(() => {
     document.querySelector('[data-service="application"]').click();
@@ -232,6 +271,20 @@ try {
   check(research.open, "Research dialog did not open.");
   check(research.title.includes("Forgotten Objects"), "English research translation failed.");
   check(research.sections === 5, "Boundary research file is incomplete.");
+
+  const spellcard = await cdp.evaluate(`(() => {
+    document.querySelector('[data-research-close]').click();
+    document.querySelector('[data-research="spellcard"]').click();
+    return {
+      open: document.querySelector('[data-research-dialog]').open,
+      title: document.querySelector('[data-research-title]').textContent,
+      sections: document.querySelectorAll('.research-body section').length,
+      meta: document.querySelectorAll('.research-meta > div').length
+    };
+  })()`);
+  check(spellcard.open, "Spell-card research dialog did not open.");
+  check(spellcard.title.includes("Readability"), "Spell-card research did not use the current locale.");
+  check(spellcard.sections === 6 && spellcard.meta === 4, "Spell-card research file is incomplete.");
 
   const club = await cdp.evaluate(`(() => {
     document.querySelector('[data-research-close]').click();
@@ -345,4 +398,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Browser smoke test passed: selects, i18n, map cards, news, clubs, exams, BBS, and mobile navigation.");
+console.log("Browser smoke test passed: schools, routes, research, selects, i18n, map cards, news, clubs, exams, BBS, and mobile navigation.");

@@ -30,8 +30,10 @@ The research follows the method already established in
 - `faculty-matrix.md` — character-to-faculty mapping with canon anchors and
   adaptation guardrails.
 - `content-and-provenance.md` — site content decisions and asset ledger.
+- `academic-catalogue-and-transit.md` — programme credits and fees, route-graph
+  assumptions, and the spell-card research design.
 
-## Editorial labels used by the website
+## Internal editorial labels
 
 - **原作錨點 / Canon anchor** — a concise identity, ability, role or relationship
   supported by official works.
@@ -39,5 +41,6 @@ The research follows the method already established in
 - **傳聞 / In-world claim** — an account attributed to a fallible Gensokyo
   narrator or publication.
 
-The public-facing site does not reproduce game scripts, endings, sprites,
-screenshots, music or scans.
+These labels belong only in working research and are not shown inside ordinary
+public-facing university content. The site does not reproduce game scripts,
+endings, sprites, screenshots, music or scans.

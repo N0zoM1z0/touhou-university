@@ -143,4 +143,103 @@ export const researchFiles = {
       ],
     },
   },
+  spellcard: {
+    kicker: "SPELL-CARD SYSTEMS LAB · TU-S141-11",
+    title: {
+      "zh-Hant": "符卡規則下的可讀性、公平與退路設計",
+      ja: "スペルカード規則における可読性・公平性・退路設計",
+      en: "Readability, Fairness & Exit Design Under Spell-card Rules",
+    },
+    summary: {
+      "zh-Hant": "以九十六組實驗彈幕拆解宣言、預兆、密度、速度與退路窗口，研究一張符卡如何同時保留作者風格、觀眾辨識度與挑戰者的真實選擇。",
+      ja: "96組の実験弾幕で宣言、予兆、密度、速度、退路窓を分離し、作者性・観客の判読性・挑戦者の実質的選択を両立する条件を調べた。",
+      en: "Ninety-six experimental patterns separate declaration, telegraph, density, speed, and exit windows to study how a spell card can preserve authorship, spectator legibility, and genuine player choice.",
+    },
+    meta: [
+      ["測試彈幕", "96 組"],
+      ["參與者", "42 名・6 種移動方式"],
+      ["退路預兆", "最低 0.8 秒"],
+      ["主持", "博麗靈夢・霧雨魔理沙・符卡系統研究室"],
+    ],
+    sections: {
+      "zh-Hant": [
+        [
+          "研究問題",
+          "華麗是否必然犧牲公平？研究室把「躲得過」和「看得懂為何被擊中」分開測量：前者是成功率，後者是參與者能否在不看回放的情況下指出危險來源、規則轉換與仍然存在的退路。",
+        ],
+        [
+          "實驗設計",
+          "九十六組彈幕由同一套核心軌跡生成，再逐項改變名稱宣言、起手音、顏色、速度、密度與安全窗口。四十二名參與者包含步行、飛行、瞬間加速、低視力、單側聽覺與延遲感知等六種移動或感覺條件；每人只打十二組，避免背板取代判讀。",
+        ],
+        [
+          "可讀性發現",
+          "只有顏色變化的規則提示最容易被漏看；在轉階前加入 0.8 秒的方向性預兆，可讓首次挑戰者正確指出下一波來源的比例由 46% 提升至 81%。名稱宣言若與軌跡動詞一致——例如「展開」「收束」「返照」——也能顯著縮短理解時間。",
+        ],
+        [
+          "公平不是對稱",
+          "左右完全對稱的彈幕並不一定公平：高速飛行者會取得過大的橫向空間，步行者卻容易被兩側同時封死。效果最穩定的設計保留一條較寬但較慢的主退路，以及一條狹窄、需要精確判斷的捷徑，讓不同移動方式都能作出有代價的選擇。",
+        ],
+        [
+          "現場紀錄：雨中的第七輪",
+          "第七輪公開測試遇上驟雨，魔理沙的星形預兆在水幕中變得比主彈更亮，觀眾以為那就是攻擊本體。靈夢暫停計時，把預兆改成先有音、後有輪廓的兩段式訊號。重開後沒有降低彈量，誤判卻從十一人降為兩人。研究組因此把天候列為規則的一部分，而不是場外雜訊。",
+        ],
+        [
+          "公開規格與下一步",
+          "研究室發佈「三問檢核」：挑戰者在第一擊前能否知道規則、失誤後能否知道原因、任何轉階是否仍有一條可辨識退路。下一期將測試妖精群體挑戰、巨大體型與純音訊符卡，並為校內符卡式口試建立可申訴的賽後記錄格式。",
+        ],
+      ],
+      ja: [
+        [
+          "研究課題",
+          "華麗さは公平性を必ず損なうのか。「避けられる」と「なぜ被弾したか理解できる」を分け、後者は録画なしで危険源・規則変化・残る退路を指摘できるかで測定した。",
+        ],
+        [
+          "実験設計",
+          "同一の基本軌道から96組を作り、宣言名、開始音、色、速度、密度、安全窓を一項ずつ変更。徒歩、飛行、瞬間加速、弱視、片側聴覚、遅延知覚の六条件を含む42名が、暗記を避けるため各12組だけ挑戦した。",
+        ],
+        [
+          "可読性の発見",
+          "色だけの規則表示は最も見落とされた。移行前に0.8秒の方向予兆を入れると、初見で次波の発生方向を答えられた割合は46%から81%へ上昇。「展開」「収束」「返照」のように宣言名と軌道の動詞が一致する場合も理解が速かった。",
+        ],
+        [
+          "公平は対称ではない",
+          "完全な左右対称は必ずしも公平ではない。高速飛行者には横空間が過剰となり、徒歩者は両側から閉じ込められる。幅広く遅い主退路と、狭く精密な近道を併設する設計が、異なる移動者に代償のある選択を残した。",
+        ],
+        [
+          "現場記録：雨の第七試行",
+          "公開試験中の驟雨で、魔理沙の星形予兆が水幕に反射し主弾より明るくなった。霊夢が計時を止め、音の後に輪郭を出す二段予兆へ変更。弾数を減らさず誤認は11人から2人へ減り、天候を場外ノイズでなく規則の一部として扱うことになった。",
+        ],
+        [
+          "公開仕様と次段階",
+          "「初撃前に規則が分かるか、失敗後に理由が分かるか、移行時に判別可能な退路があるか」の三問を公開。次期は妖精集団、巨大体型、音声のみの符卡を試し、学内面接に異議申立て可能な試合後記録を導入する。",
+        ],
+      ],
+      en: [
+        [
+          "Research question",
+          "Must spectacle cost fairness? We measured “can evade” separately from “can explain the hit”: without replay, could a participant identify the threat, the rule change, and the exit that remained?",
+        ],
+        [
+          "Experimental design",
+          "Ninety-six patterns shared one core trajectory while declaration, opening sound, colour, speed, density, and safety window changed one at a time. Forty-two participants covered walking, flight, burst movement, low vision, single-sided hearing, and delayed perception. Each attempted only twelve patterns so memorisation could not replace reading.",
+        ],
+        [
+          "Readability finding",
+          "Colour-only rule changes were missed most often. A 0.8-second directional telegraph before a phase shift raised first-attempt identification of the next wave from 46% to 81%. Declarations also helped when their verbs matched the motion—such as unfold, converge, or reflect.",
+        ],
+        [
+          "Fairness is not symmetry",
+          "Perfect left–right symmetry was not always fair: fast fliers gained excessive lateral space while walkers were sealed from both sides. The most stable design offered one broad, slow main exit and one narrow precision shortcut, leaving every movement style a consequential choice.",
+        ],
+        [
+          "Field note: the seventh trial in rain",
+          "A sudden shower made Marisa's star telegraphs brighter than the main shots in the water curtain. Spectators mistook warning for attack. Reimu stopped the clock and split the cue into sound, then outline. With no reduction in projectile count, misreads fell from eleven to two. Weather became part of the rules, not off-field noise.",
+        ],
+        [
+          "Open standard & next step",
+          "The lab published a three-question check: Is the rule knowable before the first hit? Is a mistake explainable afterwards? Does every phase change retain a legible exit? Next come fairy group play, giant bodies, audio-only spell cards, and an appealable post-match record for university spell-card interviews.",
+        ],
+      ],
+    },
+  },
 };
