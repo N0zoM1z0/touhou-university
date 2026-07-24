@@ -942,6 +942,7 @@
           <button type="button" data-bbs-filter="club">社團</button>
           <button type="button" data-bbs-filter="market">交換</button>
           <button type="button" data-bbs-filter="notice">校務</button>
+          <button class="bbs-mine-filter" type="button" data-bbs-filter="mine">我的發帖</button>
         </div>
         <div class="bbs-toolbar-actions">
           <button class="bbs-shuffle-button" type="button" data-bbs-shuffle>
@@ -958,6 +959,7 @@
       <div class="bbs-status">
         <span data-bbs-online><i></i> 目前在線：108</span>
         <span data-bbs-topics>本日主題：74</span>
+        <span data-bbs-local>本機保存：0 篇</span>
         <span data-bbs-sync>最後同步：剛剛</span>
       </div>
     </div>
@@ -1167,7 +1169,7 @@
       <textarea name="body" rows="5" maxlength="800" required placeholder="補充時間、地點與需要的協助"></textarea>
     </label>
     <div class="form-actions form-span">
-      <span>發帖將儲存在這台裝置。</span>
+      <span>內容會自動保存；發帖後可在「我的發帖」重新查看。</span>
       <button class="button button-primary" type="submit">發佈 <span>→</span></button>
     </div>
   </form>

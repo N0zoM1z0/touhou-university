@@ -5,6 +5,7 @@ import {
   roomAvailability,
   timetable,
 } from "../data/services.js";
+import { schools as schoolCatalogues } from "../data/schools.js";
 import { getLocale } from "./i18n.js";
 import { showToast } from "./ui.js";
 
@@ -30,6 +31,21 @@ const copy = {
     accepted: "申請已受理",
     acceptedBody: "請保存受理編號；入學相談室將依此安排下一階段。",
     newApplication: "填寫另一份申請",
+    myApplications: "我的申請",
+    localRecords: "本機申請記錄",
+    localRecordsLead: "申請與草稿只保存在這台裝置，不會同步到其他瀏覽器。",
+    noApplications: "這台裝置還沒有已提交的申請。",
+    backToForm: "返回申請表",
+    submitted: "已提交",
+    submittedOn: "提交時間",
+    applicationDetail: "查看填報內容",
+    deleteRecord: "刪除本機記錄",
+    deleteConfirm: "確定要從這台裝置刪除此申請記錄嗎？",
+    recordDeleted: "已刪除這台裝置上的申請記錄。",
+    draftPresent: "有一份自動保存的草稿",
+    formAutoSave: "填寫內容會自動保存在這台裝置。",
+    selectedSchool: "已從學院目錄帶入志願；仍可在表單中更改。",
+    recordsUnit: "份已提交",
     selectSchool: "請選擇",
     consent: "我確認以上內容可交由入學相談室進行選拔審查。",
     allBuildings: "所有館舍",
@@ -89,6 +105,21 @@ const copy = {
     accepted: "出願を受け付けました",
     acceptedBody: "受付番号を保存してください。入学相談室が次の選抜を案内します。",
     newApplication: "別の出願を書く",
+    myApplications: "自分の出願",
+    localRecords: "この端末の出願記録",
+    localRecordsLead: "出願と下書きはこの端末だけに保存され、他のブラウザへ同期されません。",
+    noApplications: "この端末には提出済みの出願がまだありません。",
+    backToForm: "出願フォームへ戻る",
+    submitted: "提出済み",
+    submittedOn: "提出日時",
+    applicationDetail: "出願内容を見る",
+    deleteRecord: "端末の記録を削除",
+    deleteConfirm: "この端末から出願記録を削除しますか？",
+    recordDeleted: "この端末の出願記録を削除しました。",
+    draftPresent: "自動保存された下書きがあります",
+    formAutoSave: "入力内容はこの端末へ自動保存されます。",
+    selectedSchool: "学部案内から志望先を入力しました。フォーム内で変更できます。",
+    recordsUnit: "件提出済み",
     selectSchool: "選択してください",
     consent: "上記内容を入学相談室が選抜審査に利用することを確認します。",
     allBuildings: "すべての施設",
@@ -148,6 +179,21 @@ const copy = {
     accepted: "Application received",
     acceptedBody: "Keep this reference; the Admissions Office will use it for the next stage.",
     newApplication: "Start another application",
+    myApplications: "My Applications",
+    localRecords: "Applications on this device",
+    localRecordsLead: "Applications and drafts stay in this browser and do not sync to other devices.",
+    noApplications: "No applications have been submitted from this device yet.",
+    backToForm: "Back to application",
+    submitted: "Submitted",
+    submittedOn: "Submitted",
+    applicationDetail: "View application details",
+    deleteRecord: "Delete local record",
+    deleteConfirm: "Delete this application record from this device?",
+    recordDeleted: "Application record deleted from this device.",
+    draftPresent: "An autosaved draft is available",
+    formAutoSave: "Your entries are autosaved on this device.",
+    selectedSchool: "Your choice from the school catalogue is preselected; you may still change it.",
+    recordsUnit: "submitted",
     selectSchool: "Select one",
     consent: "I confirm the Admissions Office may use this information for selection.",
     allBuildings: "All buildings",
@@ -188,14 +234,40 @@ const copy = {
   },
 };
 
-const schools = {
-  "zh-Hant": ["結界與異變研究院", "歷史記錄學院", "魔法理論與實作學院", "月都醫藥生命學院", "河童工程學院", "天狗新聞傳播學院", "信仰與共生政策學院"],
-  ja: ["境界・異変研究院", "歴史記録学部", "魔法理論実践学部", "月都医薬生命学部", "河童工学部", "天狗新聞報道学部", "信仰・共生政策学部"],
-  en: ["Boundaries & Incidents", "History & Records", "Magic Theory & Practice", "Lunar Medicine & Life", "Kappa Engineering", "Tengu Journalism", "Faith & Coexistence Policy"],
-};
-
 function localized(value, locale) {
   return typeof value === "object" ? value[locale] : value;
+}
+
+function readStored(key, fallback) {
+  try {
+    return JSON.parse(window.localStorage.getItem(key) || "null") ?? fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function escapeHtml(value = "") {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function resolveSchoolId(value) {
+  if (schoolCatalogues[value]) return value;
+  const normalized = String(value || "").replace(/^School of /, "");
+  return (
+    Object.entries(schoolCatalogues).find(([, school]) =>
+      Object.values(school.name).some((name) => name === value || name.replace(/^School of /, "") === normalized),
+    )?.[0] || ""
+  );
+}
+
+function schoolName(value, locale) {
+  const id = resolveSchoolId(value);
+  return schoolCatalogues[id]?.name[locale] || value || "—";
 }
 
 function reference(prefix) {
@@ -208,6 +280,8 @@ export function initServices() {
   const dialog = document.querySelector("[data-service-dialog]");
   const content = dialog?.querySelector("[data-service-content]");
   let currentService = null;
+  let currentApplicationSchool = null;
+  let applicationView = "form";
 
   function setHeader(service) {
     const locale = getLocale();
@@ -218,10 +292,32 @@ export function initServices() {
   }
 
   function renderApplication() {
+    applicationView = "form";
     const locale = getLocale();
     const c = copy[locale];
-    const options = schools[locale].map((school) => `<option>${school}</option>`).join("");
+    const submissions = readStored("tu:application:submissions", []);
+    const draft = readStored("tu:application:draft", null);
+    const options = Object.entries(schoolCatalogues)
+      .map(([id, school]) => `<option value="${id}">${school.name[locale]}</option>`)
+      .join("");
     content.innerHTML = `
+      <div class="application-local-bar">
+        <div>
+          <p>ON THIS DEVICE</p>
+          <strong>${submissions.length} ${c.recordsUnit}${draft ? ` · ${c.draftPresent}` : ""}</strong>
+        </div>
+        <button type="button" data-application-records>
+          ${c.myApplications} <span>${submissions.length}</span>
+        </button>
+      </div>
+      ${
+        currentApplicationSchool
+          ? `<div class="application-school-context">
+              <span aria-hidden="true">${schoolCatalogues[currentApplicationSchool]?.glyph || "願"}</span>
+              <p><strong>${schoolCatalogues[currentApplicationSchool]?.name[locale] || ""}</strong>${c.selectedSchool}</p>
+            </div>`
+          : ""
+      }
       <form class="campus-form application-form" data-application-form>
         <label>${c.name}<input name="name" maxlength="60" required autocomplete="name"></label>
         <label>${c.contact}<input name="contact" maxlength="90" required autocomplete="email"></label>
@@ -235,35 +331,54 @@ export function initServices() {
         <label class="form-span">${c.needs}<textarea name="needs" rows="2" maxlength="500"></textarea></label>
         <label class="form-span form-consent"><input type="checkbox" name="consent" required><span>${c.consent}</span></label>
         <div class="form-actions form-span">
+          <span>${c.formAutoSave}</span>
           <button class="button button-secondary" type="button" data-save-application>${c.save}</button>
           <button class="button button-primary" type="submit">${c.submit} <span>→</span></button>
         </div>
       </form>`;
 
     const form = content.querySelector("[data-application-form]");
-    const draft = JSON.parse(window.localStorage.getItem("tu:application:draft") || "null");
     if (draft) {
       Object.entries(draft).forEach(([key, value]) => {
         const field = form.elements.namedItem(key);
-        if (field && typeof value === "string") field.value = value;
+        if (!field || typeof value !== "string") return;
+        if (field.type === "checkbox") field.checked = value === "yes" || value === "on";
+        else if (key === "school") field.value = resolveSchoolId(value);
+        else field.value = value;
       });
     }
-    content.querySelector("[data-save-application]").addEventListener("click", () => {
+    if (currentApplicationSchool && schoolCatalogues[currentApplicationSchool]) {
+      form.elements.school.value = currentApplicationSchool;
+    }
+
+    let autosaveTimer;
+    const saveDraft = ({ notify = false } = {}) => {
       const values = Object.fromEntries(new FormData(form).entries());
+      values.consent = form.elements.consent.checked ? "yes" : "";
       window.localStorage.setItem("tu:application:draft", JSON.stringify(values));
-      showToast(c.saved);
+      if (notify) showToast(c.saved);
+    };
+    form.addEventListener("input", () => {
+      window.clearTimeout(autosaveTimer);
+      autosaveTimer = window.setTimeout(saveDraft, 220);
     });
+    form.addEventListener("change", () => saveDraft());
+    content.querySelector("[data-save-application]").addEventListener("click", () => {
+      saveDraft({ notify: true });
+    });
+    content.querySelector("[data-application-records]").addEventListener("click", renderApplicationRecords);
     form.addEventListener("submit", (event) => {
       event.preventDefault();
       if (!form.reportValidity()) {
         showToast(c.required);
         return;
       }
+      window.clearTimeout(autosaveTimer);
       const id = reference("A");
       const record = { id, submittedAt: new Date().toISOString(), ...Object.fromEntries(new FormData(form).entries()) };
-      const submissions = JSON.parse(window.localStorage.getItem("tu:application:submissions") || "[]");
-      submissions.push(record);
-      window.localStorage.setItem("tu:application:submissions", JSON.stringify(submissions));
+      const storedSubmissions = readStored("tu:application:submissions", []);
+      storedSubmissions.push(record);
+      window.localStorage.setItem("tu:application:submissions", JSON.stringify(storedSubmissions.slice(-30)));
       window.localStorage.removeItem("tu:application:draft");
       content.innerHTML = `
         <div class="service-success">
@@ -272,9 +387,94 @@ export function initServices() {
           <h3>${c.accepted}</h3>
           <strong>${id}</strong>
           <p>${c.acceptedBody}</p>
-          <button class="button button-secondary" type="button" data-new-application>${c.newApplication}</button>
+          <div class="service-success-actions">
+            <button class="button button-secondary" type="button" data-application-records>${c.myApplications}</button>
+            <button class="button button-primary" type="button" data-new-application>${c.newApplication}</button>
+          </div>
         </div>`;
       content.querySelector("[data-new-application]").addEventListener("click", renderApplication);
+      content.querySelector("[data-application-records]").addEventListener("click", renderApplicationRecords);
+    });
+  }
+
+  function renderApplicationRecords() {
+    applicationView = "records";
+    const locale = getLocale();
+    const c = copy[locale];
+    const submissions = readStored("tu:application:submissions", []);
+    const draft = readStored("tu:application:draft", null);
+    const formatDate = (value) => {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "—";
+      return new Intl.DateTimeFormat(locale, { dateStyle: "medium", timeStyle: "short" }).format(date);
+    };
+    content.innerHTML = `
+      <section class="application-records">
+        <header>
+          <div>
+            <p>ON THIS DEVICE / LOCAL RECORDS</p>
+            <h3>${c.localRecords}</h3>
+            <span>${c.localRecordsLead}</span>
+          </div>
+          <button class="button button-secondary" type="button" data-back-application>${c.backToForm}</button>
+        </header>
+        ${
+          draft
+            ? `<button class="application-draft-card" type="button" data-back-application>
+                <span>✎</span>
+                <div><small>AUTOSAVED DRAFT</small><strong>${c.draftPresent}</strong></div>
+                <i aria-hidden="true">→</i>
+              </button>`
+            : ""
+        }
+        <div class="application-record-list">
+          ${
+            submissions.length
+              ? submissions
+                  .slice()
+                  .reverse()
+                  .map(
+                    (record) => `
+                      <article class="application-record-card" data-application-record="${escapeHtml(record.id)}">
+                        <header>
+                          <div><span>${c.submitted}</span><strong>${escapeHtml(record.id)}</strong></div>
+                          <time datetime="${escapeHtml(record.submittedAt)}">${formatDate(record.submittedAt)}</time>
+                        </header>
+                        <dl>
+                          <div><dt>${c.name}</dt><dd>${escapeHtml(record.name)}</dd></div>
+                          <div><dt>${c.school}</dt><dd>${escapeHtml(schoolName(record.school, locale))}</dd></div>
+                        </dl>
+                        <details>
+                          <summary>${c.applicationDetail}</summary>
+                          <div class="application-record-detail">
+                            <p><span>${c.question}</span>${escapeHtml(record.question)}</p>
+                            <p><span>${c.method}</span>${escapeHtml(record.method)}</p>
+                            ${record.needs ? `<p><span>${c.needs}</span>${escapeHtml(record.needs)}</p>` : ""}
+                          </div>
+                        </details>
+                        <button type="button" class="application-record-delete" data-delete-application="${escapeHtml(record.id)}">
+                          ${c.deleteRecord}
+                        </button>
+                      </article>`,
+                  )
+                  .join("")
+              : `<p class="application-records-empty">${c.noApplications}</p>`
+          }
+        </div>
+      </section>`;
+    content.querySelectorAll("[data-back-application]").forEach((button) => {
+      button.addEventListener("click", renderApplication);
+    });
+    content.querySelectorAll("[data-delete-application]").forEach((button) => {
+      button.addEventListener("click", () => {
+        if (!window.confirm(c.deleteConfirm)) return;
+        const next = readStored("tu:application:submissions", []).filter(
+          (record) => record.id !== button.dataset.deleteApplication,
+        );
+        window.localStorage.setItem("tu:application:submissions", JSON.stringify(next));
+        renderApplicationRecords();
+        showToast(c.recordDeleted);
+      });
     });
   }
 
@@ -404,9 +604,13 @@ export function initServices() {
     exams: renderExams,
   };
 
-  function openService(service) {
+  function openService(service, { applicationSchool = null } = {}) {
     if (!renderers[service] || !dialog) return;
     currentService = service;
+    if (service === "application") {
+      currentApplicationSchool = resolveSchoolId(applicationSchool);
+      applicationView = "form";
+    }
     setHeader(service);
     renderers[service]();
     if (!dialog.open) dialog.showModal();
@@ -418,12 +622,19 @@ export function initServices() {
     event.preventDefault();
     const prospectusDialog = document.querySelector("[data-prospectus-dialog]");
     if (prospectusDialog?.open) prospectusDialog.close();
-    openService(trigger.dataset.service);
+    openService(trigger.dataset.service, { applicationSchool: trigger.dataset.applicationSchool });
   });
   document.querySelector("[data-service-close]")?.addEventListener("click", () => dialog?.close());
   window.addEventListener("tu:languagechange", () => {
     if (!currentService) return;
+    const openApplicationForm = content?.querySelector("[data-application-form]");
+    if (openApplicationForm) {
+      const values = Object.fromEntries(new FormData(openApplicationForm).entries());
+      values.consent = openApplicationForm.elements.consent.checked ? "yes" : "";
+      window.localStorage.setItem("tu:application:draft", JSON.stringify(values));
+    }
     setHeader(currentService);
-    renderers[currentService]();
+    if (currentService === "application" && applicationView === "records") renderApplicationRecords();
+    else renderers[currentService]();
   });
 }

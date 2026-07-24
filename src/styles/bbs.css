@@ -47,6 +47,18 @@
   border-color: rgba(255, 255, 255, 0.42);
 }
 
+.bbs-filters .bbs-mine-filter {
+  margin-left: 5px;
+  color: #edc49e;
+  border-left-color: rgba(237, 196, 158, 0.35);
+}
+
+.bbs-filters .bbs-mine-filter.active {
+  color: var(--blue);
+  border-color: #edc49e;
+  background: #edc49e;
+}
+
 .bbs-new-button {
   color: var(--white);
   border-color: rgba(255, 255, 255, 0.45);
@@ -100,6 +112,21 @@
   background: rgba(228, 218, 200, 0.38);
   outline: 2px solid var(--red);
   outline-offset: -2px;
+}
+
+.bbs-empty {
+  display: grid;
+  min-height: 190px;
+  margin: 0;
+  place-items: center;
+  color: #888078;
+  font-family: var(--serif);
+  font-size: 12px;
+  text-align: center;
+}
+
+.bbs-empty[hidden] {
+  display: none;
 }
 
 .bbs-row-trigger {
@@ -183,6 +210,13 @@
 
 .user-post {
   animation: postArrive 0.35s ease-out;
+}
+
+.user-post .bbs-category::after {
+  content: "LOCAL";
+  margin-left: 7px;
+  color: #4c9878;
+  font-size: 6px;
 }
 
 @keyframes postArrive {

@@ -219,22 +219,32 @@ try {
   check(route.estimate.includes("min"), "Campus route estimate did not localize.");
   check(route.notice.includes("Windways"), "Selected transport guidance did not render.");
 
-  const application = await cdp.evaluate(`(() => {
-    document.querySelector('[data-service="application"]').click();
+  const application = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-school="boundary"]').click();
+    document.querySelector('[data-school-apply]').click();
     const dialog = document.querySelector('[data-service-dialog]');
-    const form = dialog.querySelector('[data-application-form]');
+    let form = dialog.querySelector('[data-application-form]');
+    const preselected = form.elements.school.value;
+    const context = Boolean(dialog.querySelector('.application-school-context'));
     form.elements.school.dispatchEvent(new MouseEvent('click', {
       bubbles: true,
       clientX: 0,
       clientY: 0
     }));
     const selectStayedOpen = dialog.open;
+    form.elements.name.value = 'Usami Applicant';
+    form.elements.name.dispatchEvent(new Event('input', { bubbles: true }));
+    await new Promise((resolve) => setTimeout(resolve, 280));
+    document.querySelector('[data-service-close]').click();
+    document.querySelector('#services [data-service="application"]').click();
+    form = dialog.querySelector('[data-application-form]');
+    const draftRestored = form.elements.name.value;
     const values = {
       name: 'Usami Applicant',
       contact: 'applicant@example.test',
       origin: 'Outside World',
       identity: 'Human',
-      school: 'Boundaries & Incidents',
+      school: 'boundary',
       question: 'How do forgotten routes keep their direction?',
       method: 'Compare maps before and after each boundary crossing.',
       needs: 'Vegetarian meals'
@@ -245,12 +255,31 @@ try {
     return {
       open: dialog.open,
       selectStayedOpen,
+      preselected,
+      context,
+      draftRestored,
       reference: dialog.querySelector('.service-success > strong')?.textContent || ''
     };
   })()`);
   check(application.open, "Application dialog did not open.");
   check(application.selectStayedOpen, "Selecting an application option closed the dialog.");
+  check(application.preselected === "boundary" && application.context, "School catalogue did not preselect the application.");
+  check(application.draftRestored === "Usami Applicant", "Application autosave did not restore the draft.");
   check(/^TU-A-/.test(application.reference), "Application submission did not create a reference.");
+
+  const applicationRecords = await cdp.evaluate(`(() => {
+    document.querySelector('.service-success [data-application-records]').click();
+    const record = document.querySelector('.application-record-card');
+    return {
+      records: document.querySelectorAll('.application-record-card').length,
+      reference: record?.querySelector('header strong')?.textContent || '',
+      school: record?.querySelector('dl > div:last-child dd')?.textContent || '',
+      stored: JSON.parse(localStorage.getItem('tu:application:submissions') || '[]').length
+    };
+  })()`);
+  check(applicationRecords.records === 1 && applicationRecords.stored === 1, "Submitted application was not retained.");
+  check(applicationRecords.reference === application.reference, "Saved application reference did not match.");
+  check(applicationRecords.school.includes("Boundaries"), "Saved application school did not localize.");
 
   const rooms = await cdp.evaluate(`(() => {
     document.querySelector('[data-service-close]').click();
@@ -291,21 +320,29 @@ try {
     document.querySelector('[data-club="bamboo"]').click();
     return {
       open: document.querySelector('[data-info-dialog]').open,
-      title: document.querySelector('[data-info-title]').textContent
+      title: document.querySelector('[data-info-title]').textContent,
+      actionVisible: !document.querySelector('[data-info-action]').hidden
     };
   })()`);
   check(club.open, "Club detail interaction did not open.");
   check(club.title.includes("Bamboo Navigation"), "Club detail did not use the current locale.");
+  check(club.actionVisible, "Club detail action is not available.");
 
   const news = await cdp.evaluate(`(() => {
-    document.querySelector('[data-info-close]').click();
+    document.querySelector('[data-info-action]').click();
+    const clubActionWorked = !document.querySelector('[data-info-dialog]').open &&
+      document.querySelector('[data-bbs-filter="club"]').classList.contains('active');
     document.querySelector('[data-news-id]').click();
     return {
       open: document.querySelector('[data-info-dialog]').open,
-      title: document.querySelector('[data-info-title]').textContent.trim().length
+      title: document.querySelector('[data-info-title]').textContent.trim().length,
+      actionHidden: document.querySelector('[data-info-action]').hidden,
+      clubActionWorked
     };
   })()`);
   check(news.open && news.title > 10, "Campus news detail interaction did not open.");
+  check(news.actionHidden, "Actionless info card exposed an inert Continue button.");
+  check(news.clubActionWorked, "Club info-card action did not reach the BBS.");
 
   const exam = await cdp.evaluate(`(() => {
     document.querySelector('[data-info-close]').click();
@@ -326,7 +363,7 @@ try {
   check(exam.total === 8, "Exam did not render eight questions.");
   check(exam.result && exam.review === 8 && exam.history === 1, "Exam scoring, review, or history failed.");
 
-  const bbs = await cdp.evaluate(`(() => {
+  const bbs = await cdp.evaluate(`(async () => {
     document.querySelector('[data-bbs-compose]').click();
     const dialog = document.querySelector('[data-compose-dialog]');
     const form = document.querySelector('[data-bbs-form]');
@@ -340,15 +377,30 @@ try {
     form.elements.author.value = 'Boundary Student';
     form.elements.title.value = 'Field notes exchange';
     form.elements.body.value = 'Meet beside Boundary Hall after the fifth bell.';
+    form.elements.title.dispatchEvent(new Event('input', { bubbles: true }));
+    await new Promise((resolve) => setTimeout(resolve, 280));
+    document.querySelector('[data-compose-close]').click();
+    document.querySelector('[data-bbs-compose]').click();
+    const draftRestored = form.elements.title.value;
     form.requestSubmit();
+    document.querySelector('[data-user-post] .bbs-row-trigger').click();
     return {
       selectStayedOpen,
+      draftRestored,
       saved: JSON.parse(localStorage.getItem('tu:bbs:posts') || '[]').length,
-      rendered: document.querySelectorAll('[data-user-post]').length
+      rendered: document.querySelectorAll('[data-user-post]').length,
+      mineActive: document.querySelector('[data-bbs-filter="mine"]').classList.contains('active'),
+      visibleMine: !document.querySelector('[data-user-post]').hidden,
+      localStatus: document.querySelector('[data-bbs-local]').textContent,
+      actionHidden: document.querySelector('[data-info-action]').hidden
     };
   })()`);
   check(bbs.selectStayedOpen, "Selecting a BBS board closed the compose dialog.");
   check(bbs.saved === 1 && bbs.rendered === 1, "BBS post persistence or rendering failed.");
+  check(bbs.draftRestored === "Field notes exchange", "BBS autosave did not restore the draft.");
+  check(bbs.mineActive && bbs.visibleMine, "Published BBS post was not revealed under My Posts.");
+  check(bbs.localStatus.includes("1"), "BBS local record counter did not update.");
+  check(bbs.actionHidden, "BBS detail exposed an inert Continue button.");
 
   const japanese = await cdp.evaluate(`(() => {
     document.querySelector('[data-lang="ja"]').click();

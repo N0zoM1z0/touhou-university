@@ -41,7 +41,12 @@ export function openInfoDialog({
   const actionButton = dialog.querySelector("[data-info-action]");
   actionHandler = action?.handler || null;
   actionButton.hidden = !action;
-  if (action) dialog.querySelector("[data-info-action-label]").textContent = action.label;
+  actionButton.disabled = !action;
+  if (action) {
+    dialog.querySelector("[data-info-action-label]").textContent = action.label;
+  } else {
+    dialog.querySelector("[data-info-action-label]").textContent = "";
+  }
   if (!dialog.open) dialog.showModal();
 }
 
@@ -51,5 +56,7 @@ export function closeInfoDialog() {
 
 export function initInfoDialog() {
   dialog?.querySelector("[data-info-close]")?.addEventListener("click", closeInfoDialog);
-  dialog?.querySelector("[data-info-action]")?.addEventListener("click", () => actionHandler?.());
+  dialog?.querySelector("[data-info-action]")?.addEventListener("click", () => {
+    if (typeof actionHandler === "function") actionHandler();
+  });
 }
