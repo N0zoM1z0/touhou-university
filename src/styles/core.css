@@ -2075,6 +2075,44 @@ p {
   font-size: 12px;
 }
 
+.dialog-friction {
+  position: relative;
+  margin-top: 28px;
+  padding: 19px 21px 17px;
+  transform: rotate(-0.35deg);
+  border: 1px solid #b8a98d;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 24px, rgba(66, 75, 76, 0.07) 24px 25px),
+    #e4d8c1;
+  box-shadow: 3px 4px 0 rgba(53, 46, 38, 0.12);
+}
+
+.dialog-friction::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  right: 30px;
+  width: 72px;
+  height: 17px;
+  transform: rotate(2deg);
+  background: rgba(103, 150, 143, 0.54);
+}
+
+.dialog-friction span {
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+}
+
+.dialog-friction p {
+  margin: 8px 0 0;
+  color: #57534e;
+  font-family: var(--serif);
+  font-size: 11px;
+  line-height: 1.75;
+}
+
 .dialog-note {
   margin: 30px 0 0;
   padding: 12px 15px;

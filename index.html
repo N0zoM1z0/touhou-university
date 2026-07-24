@@ -439,8 +439,8 @@
               <h2>跟真正做過的人學。</h2>
             </div>
             <p>
-              教師不只在講堂傳授方法，也主持遍及神社、竹林、山岳與月面的實地研究。
-              本學期共有八個核心教席開放研究生預約。
+              教師會把現場經驗帶進講堂，也把自己的麻煩一起帶來。
+              八個核心教席之外，信仰學院本學期開放四席輪值教學。
             </p>
           </header>
 
@@ -556,6 +556,58 @@
               <button class="faculty-more" type="button" aria-label="查看射命丸文簡介" data-faculty="aya">＋</button>
             </article>
           </div>
+
+          <div class="faculty-friction reveal" role="region" aria-labelledby="friction-title">
+            <header class="friction-heading">
+              <p>OFFICE OF UNRESOLVED MATTERS / 尚未解決事務室</p>
+              <h3 id="friction-title">制度寫得很整齊。教師本人沒有。</h3>
+              <p>
+                這裡收的是還沒被會議磨平的案子：太快的頭條、來源不明的材料、
+                會移動的教室，以及已經臨時修了一百二十九天的水管。
+              </p>
+            </header>
+            <div class="friction-board" data-friction-board></div>
+            <footer class="friction-foot">
+              <span>本週校務結論</span>
+              <s>全數依規處理</s>
+              <b>訂正：全數仍在爭論</b>
+            </footer>
+          </div>
+
+          <article class="faith-council reveal" aria-labelledby="faith-council-title">
+            <div class="faith-council-media">
+              <img
+                src="assets/images/faculty/faith-council.webp"
+                alt="聖白蓮、八坂神奈子、豐聰耳神子與東風谷早苗在破舊會議室裡爭論祭典資源圖"
+                loading="lazy"
+                width="1536"
+                height="1024"
+                data-faith-council-image
+              >
+              <span class="faith-photo-caption">FCP MEETING No. 47 · 桌腳於會中再次鬆脫</span>
+              <aside class="hakurei-donation">
+                <span>博麗門修繕募金</span>
+                <strong>63%</strong>
+                <small>※ 募金箱週二、四才在校</small>
+              </aside>
+            </div>
+            <div class="faith-council-copy">
+              <header>
+                <p>FAITH + COEXISTENCE POLICY / 信仰與共生政策學院</p>
+                <h3 id="faith-council-title">四個信仰勢力，一張太小的會議桌。</h3>
+                <p>
+                  學院不假裝宗教對話總能順利結束。寺院的共生、神社的基礎設施、
+                  仙人的公共欲望與外界式活動流程，經常在同一筆預算上正面相撞。
+                </p>
+              </header>
+              <div class="faith-roster" data-faith-roster></div>
+              <aside class="faith-review" data-faith-review>
+                <span>校外申訴審查</span>
+                <strong>四季映姬・夜摩仙那度</strong>
+                <p>每月最後一個彼岸日到校。</p>
+              </aside>
+            </div>
+          </article>
         </div>
       </section>
       <section class="section admissions" id="admissions">
@@ -673,6 +725,7 @@
         <div class="map-road road-a" aria-hidden="true"></div>
         <div class="map-road road-b" aria-hidden="true"></div>
         <div class="map-road road-c" aria-hidden="true"></div>
+        <svg class="map-route-layer" aria-hidden="true" data-map-route-layer></svg>
 
         <button class="map-node active" type="button" data-map-place="gate">
           <span>01</span><strong>博麗門</strong>
@@ -695,6 +748,10 @@
         <button class="map-node" type="button" data-map-place="kappa">
           <span>07</span><strong>河童聯合工房</strong>
         </button>
+        <p class="map-repair-note" aria-hidden="true">
+          <s>北側風路已永久修復</s><br>
+          <b>訂正：河童膠帶仍算臨時修復</b>
+        </p>
         <div class="map-compass" aria-hidden="true"><span>北</span><i></i></div>
       </section>
 
@@ -734,7 +791,7 @@
           <p>GENSOKYO CAMPUS TRANSIT</p>
           <h3>怎麼走？讓校園路網替你算。</h3>
         </div>
-        <p>選擇步行、掃帚、天狗風路或竹林兔車；預估會計入轉乘與停泊時間。</p>
+        <p>選擇步行、掃帚、天狗風路或竹林兔車；每一種交通都有自己的停靠點與接駁路線。</p>
       </header>
       <form class="route-form" data-route-form>
         <label>
@@ -1084,6 +1141,10 @@
       <span>本學期授課</span>
       <p data-dialog-au></p>
     </div>
+  </div>
+  <div class="dialog-friction">
+    <span>本學期尚未解決</span>
+    <p data-dialog-incident></p>
   </div>
 </dialog>
 

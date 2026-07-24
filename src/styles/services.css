@@ -100,15 +100,6 @@
   border-left: 1px solid var(--line);
 }
 
-.service-tile-exam {
-  color: var(--white);
-  background: var(--blue);
-}
-
-.service-tile-exam .service-icon {
-  color: #dba49a;
-}
-
 .service-tile {
   position: relative;
   display: grid;
@@ -126,6 +117,15 @@
     color 0.2s,
     background 0.2s,
     transform 0.2s;
+}
+
+.service-tile.service-tile-exam {
+  color: var(--white);
+  background: var(--blue);
+}
+
+.service-tile-exam .service-icon {
+  color: #dba49a;
 }
 
 .service-tile:hover,

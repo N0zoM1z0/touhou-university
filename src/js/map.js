@@ -17,10 +17,11 @@ export function initCampusMap() {
       min: "分鐘",
       metres: "公尺",
       arrival: "預計抵達",
-      route: "建議路線",
-      transfer: "含候車／停泊",
+      route: "路線距離",
+      transfer: "含步行接駁／候車",
+      walkingOnly: "本段仍以步行較快",
       same: "你已經在目的地了。抬頭看看校牌。",
-      segment: "經",
+      start: "從這裡出發",
     },
     ja: {
       from: "出発地",
@@ -30,10 +31,11 @@ export function initCampusMap() {
       min: "分",
       metres: "メートル",
       arrival: "到着予定",
-      route: "推奨ルート",
-      transfer: "待ち時間・駐機込み",
+      route: "経路距離",
+      transfer: "徒歩接続・待ち時間込み",
+      walkingOnly: "この区間は徒歩のほうが速い",
       same: "すでに目的地です。校名板を見上げてください。",
-      segment: "経由",
+      start: "ここから出発",
     },
     en: {
       from: "From",
@@ -43,10 +45,11 @@ export function initCampusMap() {
       min: "min",
       metres: "metres",
       arrival: "Estimated arrival",
-      route: "Suggested route",
-      transfer: "includes wait / berthing",
+      route: "Route distance",
+      transfer: "includes walking links / waiting",
+      walkingOnly: "Walking is still faster for this trip",
       same: "You are already there. Look up at the building sign.",
-      segment: "via",
+      start: "Start here",
     },
   };
 
@@ -152,6 +155,42 @@ export function initCampusMap() {
     });
   }
 
+  function drawRoute(result) {
+    const canvas = document.querySelector(".map-canvas");
+    const layer = canvas?.querySelector("[data-map-route-layer]");
+    if (!canvas || !layer) return;
+    layer.replaceChildren();
+    if (result.path.length < 2) return;
+
+    const canvasRect = canvas.getBoundingClientRect();
+    const width = Math.max(1, canvasRect.width);
+    const height = Math.max(1, canvasRect.height);
+    layer.setAttribute("viewBox", `0 0 ${width} ${height}`);
+
+    result.edges.forEach((edge, index) => {
+      const fromNode = canvas.querySelector(`[data-map-place="${edge.from}"]`);
+      const toNode = canvas.querySelector(`[data-map-place="${edge.to}"]`);
+      if (!fromNode || !toNode) return;
+      const fromRect = fromNode.getBoundingClientRect();
+      const toRect = toNode.getBoundingClientRect();
+      const x1 = fromRect.left + fromRect.width / 2 - canvasRect.left;
+      const y1 = fromRect.top + fromRect.height / 2 - canvasRect.top;
+      const x2 = toRect.left + toRect.width / 2 - canvasRect.left;
+      const y2 = toRect.top + toRect.height / 2 - canvasRect.top;
+      const dx = x2 - x1;
+      const dy = y2 - y1;
+      const length = Math.max(1, Math.hypot(dx, dy));
+      const bend = edge.kind === "walk" ? 0 : Math.min(42, length * 0.14) * (index % 2 ? -1 : 1);
+      const midX = (x1 + x2) / 2 - (dy / length) * bend;
+      const midY = (y1 + y2) / 2 + (dx / length) * bend;
+      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      path.setAttribute("d", `M ${x1} ${y1} Q ${midX} ${midY} ${x2} ${y2}`);
+      path.setAttribute("class", `map-route-line map-route-line-${edge.kind}`);
+      path.setAttribute("data-route-kind", edge.kind);
+      layer.append(path);
+    });
+  }
+
   function calculateRoute({ preserveTime = false } = {}) {
     if (!planner) return;
     const locale = getLocale();
@@ -166,14 +205,14 @@ export function initCampusMap() {
     const modeData = transportModes[mode];
     const resultElement = planner.querySelector("[data-route-result]");
     const routeNames = result.path.map((id) => mapPlaces[id].name[locale]);
-    const edgeNames = result.edges.map((edge) => edge.name[locale]);
     const samePlace = result.path.length === 1;
+    const usesRequestedMode = mode === "walk" || result.edges.some((edge) => edge.kind === mode);
 
     resultElement.innerHTML = `
       <div class="route-result-summary">
         <span class="route-result-mode">${modeData.icon}</span>
         <div>
-          <p>${modeData.name[locale]} · ${labels.transfer}</p>
+          <p>${modeData.name[locale]} · ${usesRequestedMode ? labels.transfer : labels.walkingOnly}</p>
           <strong>${result.minutes}<small>${labels.min}</small></strong>
         </div>
         <dl>
@@ -189,9 +228,20 @@ export function initCampusMap() {
                 (name, index) => `
                   <li>
                     <span>${String(index + 1).padStart(2, "0")}</span>
-                    <div><strong>${name}</strong>${
-                      edgeNames[index] ? `<small>${labels.segment} ${edgeNames[index]}</small>` : ""
-                    }</div>
+                    <div>
+                      <strong>${name}</strong>
+                      ${
+                        index === 0
+                          ? `<small>${labels.start}</small>`
+                          : `<small>
+                              <b class="route-segment-badge route-segment-${result.edges[index - 1].kind}" data-route-kind="${result.edges[index - 1].kind}">
+                                ${transportModes[result.edges[index - 1].kind].icon}
+                                ${transportModes[result.edges[index - 1].kind].name[locale]}
+                              </b>
+                              ${result.edges[index - 1].name[locale]} · ${result.edges[index - 1].minutes} ${labels.min}
+                            </small>`
+                      }
+                    </div>
                   </li>`,
               )
               .join("")}</ol>`
@@ -200,6 +250,7 @@ export function initCampusMap() {
     `;
     resultElement.hidden = false;
     markRoute(result.path);
+    drawRoute(result);
   }
 
   planner?.querySelector("[data-route-form]")?.addEventListener("submit", (event) => {
@@ -216,6 +267,11 @@ export function initCampusMap() {
   window.addEventListener("tu:languagechange", () => {
     render(currentPlace);
     renderPlanner();
+  });
+  window.addEventListener("resize", () => {
+    if (!currentRoute) return;
+    const result = findCampusRoute(currentRoute.from, currentRoute.to, currentRoute.mode);
+    if (result) drawRoute(result);
   });
   render(currentPlace);
   renderPlanner();

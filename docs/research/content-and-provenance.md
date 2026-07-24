@@ -49,6 +49,7 @@ official game sprites, screenshots, scans or another fan artist's work.
 | `assets/images/map/hieda-history-hall.webp` | map / Hieda History Hall | quiet archival hall beside the Human Village with kura storehouses, paper windows and manuscript rooms |
 | `assets/images/map/seven-day-laboratory.webp` | map / Seven-Day Laboratory | tall magical laboratory at twilight with seven elemental observatories and glowing experiment windows |
 | `assets/images/map/eientei-clinic.webp` | map / Eientei Clinic | lantern-lit medical pavilion deep in a bamboo forest with a calm pharmacy and moon-viewing courtyard |
+| `assets/images/faculty/faith-council.webp` | Faith & Coexistence faculty council | Byakuren, Kanako, Miko and Sanae disputing a festival-resource map in a weathered, taped-up seminar room with a donation box, obsolete cassette recorder, sake cups and rain-wrinkled notices |
 
 ### Campus map scene set — painted environmental cards
 
@@ -111,6 +112,28 @@ Tool-owned PNG sources:
 Uniform tool-owned PNG source:
 
 `call_McLwbDjcTewvJyXP8CzVp7ks.png`
+
+### Faith faculty council — lived-in institutional friction
+
+File:
+
+`assets/images/faculty/faith-council.webp`
+
+Built-in image generation source:
+
+`call_w72z7agtKPjRNneQbc3a7LYF.png`
+
+Generation brief: an original wide ink, watercolor and gouache ensemble scene
+of Byakuren Hijiri, Kanako Yasaka, Toyosatomimi no Miko and Sanae Kochiya
+arguing over an oversized festival-allocation plan around a table that is too
+small. The room was specified as a weathered shrine-side seminar space with
+patched plaster, rain-stained windows, a worn donation box, obsolete cassette
+recorder, empty sake cups, curled newspaper clippings, temporary notices and
+kappa tape repairing both pipe and table leg. The prompt explicitly excluded
+monumental architecture, pristine modern-campus surfaces, glossy concept-art
+finish, perfect symmetry, legible generated text, logos and named-artist
+imitation. Generated 2026-07-24 in the built-in image tool, then resized,
+metadata-stripped and converted to 1536×1024 WebP at quality 82.
 
 Shared constraints:
 

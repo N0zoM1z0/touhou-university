@@ -23,6 +23,7 @@ export const site = {
   ],
   styles: [
     "core",
+    "faculty-friction",
     "schools",
     "services",
     "traditions",
