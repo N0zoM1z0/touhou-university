@@ -11,6 +11,11 @@ import {
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const locales = ["zh-Hant", "ja", "en"];
 const failures = [];
+const hardcodedChoiceReferences = {
+  "zh-Hant": /(?:選項|答案|正解)\s*(?:是|為|为|[:：])?\s*[A-DＡ-Ｄ](?![A-Za-z])/iu,
+  ja: /(?:答え|解答|正解)\s*(?:は|が|[:：])?\s*[A-DＡ-Ｄ](?![A-Za-z])/iu,
+  en: /\b(?:option|choice|answer)\s*(?:is|:)?\s+[A-D]\b/iu,
+};
 
 function translated(value) {
   return value && locales.every((locale) => typeof value[locale] === "string" && value[locale].trim());
@@ -29,6 +34,13 @@ for (const [difficultyId, difficulty] of Object.entries(gaokaoDifficulties)) {
       ids.add(question.id);
       if (!translated(question.prompt) || !translated(question.explanation)) {
         failures.push(`${question.id}: prompt or explanation is not trilingual.`);
+      }
+      for (const locale of locales) {
+        if (hardcodedChoiceReferences[locale].test(question.explanation?.[locale] || "")) {
+          failures.push(
+            `${question.id}: ${locale} explanation hardcodes a choice letter; name the answer content instead.`,
+          );
+        }
       }
       if (!Array.isArray(question.options) || question.options.length !== 4 || !question.options.every(translated)) {
         failures.push(`${question.id}: exactly four trilingual options are required.`);
@@ -70,4 +82,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Unified examination valid: 8 papers, 150 marks each, trilingual dossiers, balanced A/B/C/D keys, 48 offline files.");
+console.log("Unified examination valid: 8 papers, 150 marks each, trilingual dossiers, rotation-safe explanations, balanced A/B/C/D keys, 48 offline files.");

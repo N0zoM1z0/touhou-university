@@ -619,8 +619,15 @@ try {
     const lunaticCard = document.querySelector('.gaokao-track').textContent;
     document.querySelector('[data-gaokao-difficulty="extra"]').click();
     const paperLink = document.querySelector('.gaokao-downloads a').getAttribute('href');
+    const answerLink = document.querySelectorAll('.gaokao-downloads a')[1].getAttribute('href');
     const paperOkay = (await fetch(paperLink)).ok;
+    const answerHtml = await (await fetch(answerLink)).text();
+    const rotatedExplanationOkay = answerHtml.includes('Answer: D') &&
+      answerHtml.includes('G–W–E') &&
+      !answerHtml.includes('option B');
     document.querySelector('[data-gaokao-start="humanities"]').click();
+    const independentRule = [...document.querySelectorAll('.gaokao-cover li')]
+      .some((item) => item.textContent.includes('live campus-map state'));
     const questions = document.querySelectorAll('.gaokao-question');
     const dossiers = document.querySelectorAll('.gaokao-evidence').length;
     questions[0].querySelector('input').click();
@@ -634,7 +641,9 @@ try {
     return {
       difficultyTabs,
       lunaticCard,
+      independentRule,
       paperOkay,
+      rotatedExplanationOkay,
       total: questions.length,
       dossiers,
       draftSaved: Boolean(draftSaved && draftSaved.difficultyId === 'extra' && Object.keys(draftSaved.answers).length === 1),
@@ -647,7 +656,9 @@ try {
     };
   })()`);
   check(gaokao.difficultyTabs === 4 && gaokao.lunaticCard.includes("12 questions"), "Four gaokao difficulties or LUNATIC paper metadata failed.");
+  check(gaokao.independentRule, "Unified-exam rules do not distinguish question conditions from the live campus map.");
   check(gaokao.paperOkay, "Offline EXTRA Gensokyo examination paper is not downloadable.");
+  check(gaokao.rotatedExplanationOkay, "Offline EXTRA answer key contradicts its rotated correct choice.");
   check(gaokao.total === 12 && gaokao.dossiers === 12 && gaokao.draftSaved, "EXTRA paper dossiers or autosave are incomplete.");
   check(
     gaokao.result && gaokao.review === 12 && gaokao.attempts === 1 &&

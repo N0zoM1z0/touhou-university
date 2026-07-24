@@ -70,7 +70,7 @@ modules only.
 npm run dev                 # rebuild on change and serve at localhost:4173
 npm run build               # generate index.html and styles.css
 npm run check               # build + i18n coverage + JS syntax
-npm run check:gaokao        # marks, translations, key balance and offline files
+npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run test:browser        # headless Chrome interaction and mobile smoke test
 npm run capture -- --section=map --width=390 --height=844
 npm run capture -- --section=gaokao --click='[data-gaokao-difficulty="extra"];;[data-gaokao-start="humanities"]'
