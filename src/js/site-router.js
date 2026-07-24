@@ -6,6 +6,7 @@ const pageFiles = {
   campus: "campus.html",
   mytu: "mytu.html",
   library: "library.html",
+  housing: "housing.html",
 };
 
 export function currentPage() {
@@ -19,6 +20,7 @@ export function pageForRoute(route = "") {
   if (/^(?:map(?:-|$)|campus(?:-|$)|bbs(?:-|$)|club-)/.test(route)) return "campus";
   if (/^(?:my-tu|course-registration|course-)/.test(route)) return "mytu";
   if (/^library(?:-|$)/.test(route)) return "library";
+  if (/^housing(?:-|$)/.test(route)) return "housing";
   return "home";
 }
 

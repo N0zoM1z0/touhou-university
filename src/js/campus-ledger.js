@@ -54,6 +54,9 @@ function legacyEvents() {
   const registration = readJson("tu:courses:registration", null);
   const libraryLoans = readJson("tu:library:loans", []);
   const libraryHolds = readJson("tu:library:holds", []);
+  const housingApplications = readJson("tu:housing:applications", []);
+  const housingAssignments = readJson("tu:housing:assignments", []);
+  const housingChanges = readJson("tu:housing:room-changes", []);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -179,6 +182,57 @@ function legacyEvents() {
         type: "book.hold.cancelled",
         timestamp: hold.cancelledAt,
         payload: { holdId: hold.id, holdingId: hold.holdingId },
+      });
+    }
+  }
+  for (const application of Array.isArray(housingApplications) ? housingApplications : []) {
+    if (!application?.id || !application?.submittedAt) continue;
+    events.push({
+      id: `housing.application.submitted:${application.id}`,
+      type: "housing.application.submitted",
+      timestamp: application.submittedAt,
+      payload: {
+        applicationId: application.id,
+        firstResidence: application.preferences?.firstResidence,
+        term: application.term,
+      },
+    });
+    for (const offerId of application.declinedOfferIds || []) {
+      events.push({
+        id: `housing.offer.declined:${application.id}:${offerId}`,
+        type: "housing.offer.declined",
+        timestamp: application.updatedAt,
+        payload: { applicationId: application.id, offerId },
+      });
+    }
+  }
+  for (const assignment of Array.isArray(housingAssignments) ? housingAssignments : []) {
+    if (!assignment?.id || !assignment?.acceptedAt) continue;
+    events.push({
+      id: `housing.assignment.accepted:${assignment.id}`,
+      type: "housing.assignment.accepted",
+      timestamp: assignment.acceptedAt,
+      payload: {
+        assignmentId: assignment.id,
+        roomId: assignment.roomId,
+        residenceId: assignment.residenceId,
+      },
+    });
+  }
+  for (const request of Array.isArray(housingChanges) ? housingChanges : []) {
+    if (!request?.id || !request?.submittedAt) continue;
+    events.push({
+      id: `housing.change.requested:${request.id}`,
+      type: "housing.change.requested",
+      timestamp: request.submittedAt,
+      payload: { requestId: request.id, assignmentId: request.assignmentId, reason: request.reason },
+    });
+    if (request.status === "cancelled" && request.cancelledAt) {
+      events.push({
+        id: `housing.change.cancelled:${request.id}`,
+        type: "housing.change.cancelled",
+        timestamp: request.cancelledAt,
+        payload: { requestId: request.id, assignmentId: request.assignmentId },
       });
     }
   }

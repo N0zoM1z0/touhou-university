@@ -13,8 +13,8 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
-- seven generated, shareable pages for the home portal, academics, admissions,
-  research, campus life, My TU and the Misty Lake Library, with legacy
+- eight generated, shareable pages for the home portal, academics, admissions,
+  research, campus life, My TU, the Misty Lake Library and housing, with legacy
   one-page hashes redirected to their new canonical locations;
 - online application with autosaved drafts, application references and a
   device-local application history;
@@ -30,6 +30,10 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - a real Misty Lake Library catalogue with 19 trilingual holdings, search and
   state/risk/collection filters, course-reserve access, borrowing, holds,
   renewals, returns, retained history and printable loan receipts;
+- a complete residential-life system with five trilingual residence files,
+  twelve concrete rooms, nine potential roommate profiles, autosaved needs,
+  explained compatibility and friction, three ranked offers, accept/pass
+  decisions, shared-living notes and room-transfer requests;
 - classroom availability, dining menus, timetable and exams;
 - illustrated interactive campus map with seven place cards, live arrival
   estimates and four genuinely different transport networks with first/last
@@ -72,7 +76,7 @@ src/
   sections/   page partials, one institutional section per file
   styles/     base and feature-specific stylesheets
 scripts/      build, preview, validation, scaffolding and asset helpers
-*.html        seven generated GitHub Pages artifacts
+*.html        eight generated GitHub Pages artifacts
 styles.css    generated GitHub Pages artifact
 site.config.mjs
 ```
@@ -86,16 +90,18 @@ modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate all seven root pages and styles.css
+npm run build               # generate all eight root pages and styles.css
 npm run check               # build + i18n coverage + JS syntax
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
+npm run check:housing       # residences, rooms, features, roommate profiles and translations
 npm run test:browser        # headless Chrome interaction and mobile smoke test
 npm run capture -- --page=campus.html#map --section=map --width=390 --height=844
 npm run capture -- --page=admissions.html#gaokao --section=gaokao --click='[data-gaokao-difficulty="extra"];;[data-gaokao-start="humanities"]'
 npm run capture -- --page=mytu.html#my-tu --section=my-tu --storage='{"tu:identity":{"id":"TU-S-DEMO"}}'
 npm run capture -- --page=library.html#library --section=library --width=390 --height=844
+npm run capture -- --page=housing.html#housing-application --section=housing --width=390 --height=844
 npm run new:section -- news # scaffold and register a new section
 npm run portraits -- set-b  # switch the active faculty art direction
 scripts/optimize-images.sh input.png output.webp 1600x1200
@@ -114,6 +120,10 @@ Set a different preview port with `PORT=4180 npm run dev`.
 - Keep library metadata in `src/data/library.js`; loans and holds use
   `tu:library:loans` and `tu:library:holds`, retaining completed history on the
   visitor's device.
+- Keep residences, rooms and roommate profiles in `src/data/housing.js`;
+  housing persistence and matching live in `src/js/housing-model.js`.
+  Applications, assignments and transfer requests stay in the
+  `tu:housing:*` on-device records and enter the shared campus ledger.
 - Add exam banks and questions in `src/data/exam.js`; every question stores all
   three languages beside its answer and explanation.
 - Add unified-examination subjects in `src/data/gaokao.js` and higher-difficulty

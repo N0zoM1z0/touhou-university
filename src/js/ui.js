@@ -34,6 +34,7 @@ export function initUI() {
     campus: "campus.html",
     mytu: "mytu.html",
     library: "library.html",
+    housing: "housing.html",
   }[activePage];
   document.querySelectorAll(".desktop-nav a, .mobile-menu nav a, .header-mytu").forEach((link) => {
     const matches = activeFile && link.getAttribute("href")?.startsWith(activeFile);

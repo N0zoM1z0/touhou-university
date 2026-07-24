@@ -48,9 +48,14 @@ Status: core circulation implemented in 0.11.0.
 
 ## Batch 4 — Housing and roommate allocation
 
+Status: implemented in 0.12.0.
+
 - needs questionnaire, residence matching and compatibility reasoning
 - full-moon, wing-span, water, familiar, sleep-danmaku and wall-use constraints
 - saved assignments, room-change requests and generated dorm incidents
+- five shareable residence files, twelve concrete rooms and nine trilingual
+  potential-roommate profiles
+- My TU summary, full-site search and campus-ledger integration
 
 ## Batch 5 — Incident and research loop
 

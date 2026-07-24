@@ -153,8 +153,8 @@ try {
   })`);
   check(home.page === "home", "Home page id is incorrect.");
   check(home.sections.includes("services") && !home.sections.includes("research"), "Home page was not separated from deep content.");
-  check(home.serviceCount >= 11, "Home campus services are incomplete.");
-  check(home.navPages >= 7, "Global navigation does not expose the subpages.");
+  check(home.serviceCount >= 12, "Home campus services are incomplete.");
+  check(home.navPages >= 8, "Global navigation does not expose the subpages.");
   check(!home.overflow, "Home page has desktop horizontal overflow.");
 
   const locale = await cdp.evaluate(`(() => {
@@ -266,6 +266,33 @@ try {
   await navigate("mytu.html#course-registration", "#my-tu");
   await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-course-filter-form]'))"));
 
+  const courseIme = await cdp.evaluate(`(async () => {
+    const input = document.querySelector('[data-course-filter-form] input[name="query"]');
+    input.dispatchEvent(new CompositionEvent('compositionstart', { bubbles: true, data: '' }));
+    input.value = '信仰';
+    input.dispatchEvent(new InputEvent('input', { bubbles: true, data: '信仰', inputType: 'insertCompositionText', isComposing: true }));
+    const during = {
+      value: document.querySelector('[data-course-filter-form] input[name="query"]').value,
+      count: document.querySelectorAll('[data-course-select]').length
+    };
+    input.dispatchEvent(new CompositionEvent('compositionend', { bubbles: true, data: '信仰' }));
+    await new Promise((resolve) => setTimeout(resolve, 180));
+    return {
+      during,
+      value: document.querySelector('[data-course-filter-form] input[name="query"]').value,
+      count: document.querySelectorAll('[data-course-select]').length
+    };
+  })()`);
+  check(courseIme.during.value === "信仰" && courseIme.during.count === 35, "Course search rerendered during Chinese IME composition.");
+  check(courseIme.value === "信仰" && courseIme.count > 0 && courseIme.count < 35, "Course search did not apply committed Chinese IME text.");
+  await cdp.evaluate(`(() => {
+    const input = document.querySelector('[data-course-filter-form] input[name="query"]');
+    input.value = '';
+    input.dispatchEvent(new InputEvent('input', { bubbles: true, data: '', inputType: 'deleteContentBackward' }));
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("document.querySelectorAll('[data-course-select]').length === 35"));
+
   const eligibilityBefore = await cdp.evaluate(`(() => {
     const state = document.querySelector('[data-course-filter-form] select[name="state"]');
     state.value = 'eligible';
@@ -334,7 +361,36 @@ try {
   check(libraryInitial.holdings === 19 && libraryInitial.selected === "seven-day-reverse", "Library catalogue did not render all holdings.");
   check(!libraryInitial.overflow, "Library page has desktop horizontal overflow.");
 
+  const libraryIme = await cdp.evaluate(`(async () => {
+    const input = document.querySelector('[data-library-filters] input[name="query"]');
+    input.dispatchEvent(new CompositionEvent('compositionstart', { bubbles: true, data: '' }));
+    input.value = '滿月';
+    input.dispatchEvent(new InputEvent('input', { bubbles: true, data: '滿月', inputType: 'insertCompositionText', isComposing: true }));
+    const during = {
+      value: document.querySelector('[data-library-filters] input[name="query"]').value,
+      count: document.querySelectorAll('[data-library-select]').length
+    };
+    input.dispatchEvent(new CompositionEvent('compositionend', { bubbles: true, data: '滿月' }));
+    await new Promise((resolve) => setTimeout(resolve, 180));
+    return {
+      during,
+      value: document.querySelector('[data-library-filters] input[name="query"]').value,
+      count: document.querySelectorAll('[data-library-select]').length
+    };
+  })()`);
+  check(libraryIme.during.value === "滿月" && libraryIme.during.count === 19, "Library search rerendered during Chinese IME composition.");
+  check(libraryIme.value === "滿月" && libraryIme.count > 0 && libraryIme.count < 19, "Library search did not apply committed Chinese IME text.");
+  await cdp.evaluate(`(() => {
+    const input = document.querySelector('[data-library-filters] input[name="query"]');
+    input.value = '';
+    input.dispatchEvent(new InputEvent('input', { bubbles: true, data: '', inputType: 'deleteContentBackward' }));
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("document.querySelectorAll('[data-library-select]').length === 19"));
+
   const circulation = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-library-select="seven-day-reverse"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
     document.querySelector('[data-library-borrow="seven-day-reverse"]').click();
     await new Promise((resolve) => requestAnimationFrame(resolve));
     const first = JSON.parse(localStorage.getItem('tu:library:loans'))[0];
@@ -389,19 +445,99 @@ try {
   })()`);
   check(librarySearch.selected === "three-yesterdays" && !librarySearch.searchOpen && librarySearch.hash === "#library-three-yesterdays", "Library search result did not open its same-page holding.");
 
+  await navigate("housing.html#housing-residence-misty-north", "[data-housing-app]");
+  const housingResidence = await cdp.evaluate(`({
+    page: document.body.dataset.page,
+    selected: document.querySelector('[data-residence-file]')?.dataset.residenceFile,
+    residences: document.querySelectorAll('[data-residence-select]').length,
+    rooms: document.querySelectorAll('.residence-room-features section:first-child li').length,
+    overflow: document.documentElement.scrollWidth > window.innerWidth
+  })`);
+  check(housingResidence.page === "housing" && housingResidence.selected === "misty-north", "Housing residence deep link selected the wrong hall.");
+  check(housingResidence.residences === 5 && housingResidence.rooms === 2, "Housing inventory did not render the residence files.");
+  check(!housingResidence.overflow, "Housing page has desktop horizontal overflow.");
+
+  await cdp.evaluate("document.querySelector('[data-housing-apply-residence=\"misty-north\"]').click(); true");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-housing-form]'))"));
+  const housingApplication = await cdp.evaluate(`(async () => {
+    const form = document.querySelector('[data-housing-form]');
+    form.elements.secondResidence.value = 'bamboo-lantern';
+    form.elements.moon.value = 'sensitive';
+    form.elements.water.value = 'near';
+    form.elements.flight.value = 'small';
+    form.elements.familiar.value = 'small';
+    form.elements.note.value = '外界行李箱會在星期三變大。';
+    form.elements.note.dispatchEvent(new InputEvent('input', { bubbles: true, data: '。', inputType: 'insertText' }));
+    const draft = JSON.parse(localStorage.getItem('tu:housing:draft'));
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const applications = JSON.parse(localStorage.getItem('tu:housing:applications'));
+    return {
+      draft,
+      applications,
+      offers: document.querySelectorAll('[data-housing-offer]').length,
+      hash: location.hash
+    };
+  })()`);
+  check(housingApplication.draft.preferences.note.includes("星期三"), "Housing draft did not autosave.");
+  check(housingApplication.applications.at(-1).offers.length === 3 && housingApplication.offers === 3, "Housing application did not generate three offers.");
+  check(housingApplication.hash === "#housing-application", "Housing application lost its canonical route.");
+
+  const housingAssignment = await cdp.evaluate(`(async () => {
+    const offers = [...document.querySelectorAll('[data-housing-offer]')];
+    offers[1].querySelector('[data-housing-decline]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-housing-accept]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const assignment = JSON.parse(localStorage.getItem('tu:housing:assignments')).at(-1);
+    const agreement = document.querySelector('[data-housing-agreement]');
+    agreement.checked = true;
+    agreement.dispatchEvent(new Event('change', { bubbles: true }));
+    const form = document.querySelector('[data-housing-change-form]');
+    form.elements.reason.value = 'schedule';
+    form.elements.urgency.value = 'soon';
+    form.elements.note.value = '凌晨校報校對與夜診輪班現在每天互相叫醒。';
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    return {
+      assignment: JSON.parse(localStorage.getItem('tu:housing:assignments')).at(-1),
+      changes: JSON.parse(localStorage.getItem('tu:housing:room-changes')),
+      hash: location.hash,
+      room: document.querySelector('.housing-room-card h3')?.textContent.trim(),
+      history: document.querySelectorAll('.housing-change-history article').length
+    };
+  })()`);
+  check(housingAssignment.assignment.status === "active" && housingAssignment.assignment.agreementChecked, "Housing assignment or shared-living agreement did not persist.");
+  check(housingAssignment.changes.at(-1).status === "under-review" && housingAssignment.changes.at(-1).suggestion, "Housing transfer request did not retain a viable alternative.");
+  check(housingAssignment.hash === "#housing-account" && housingAssignment.room && housingAssignment.history === 1, "My Housing did not render the accepted room and transfer history.");
+
+  const housingLocale = await cdp.evaluate(`(() => {
+    document.querySelector('[data-lang="ja"]').click();
+    const ja = document.querySelector('.housing-view-heading h3')?.textContent.trim();
+    document.querySelector('[data-lang="en"]').click();
+    const en = document.querySelector('.housing-view-heading h3')?.textContent.trim();
+    document.querySelector('[data-lang="zh-Hant"]').click();
+    return { ja, en };
+  })()`);
+  check(housingLocale.ja === "自分の寮" && housingLocale.en === "My housing", "Housing did not rerender fully in Japanese and English.");
+
   await navigate("mytu.html#my-tu", "#my-tu");
   const myTuLibrary = await cdp.evaluate(`({
     libraryLink: document.querySelector('.mytu-summary a[href^="library.html"]')?.textContent || '',
-    libraryEvents: [...document.querySelectorAll('.mytu-ledger strong')].filter((node) => node.textContent.includes('館藏')).length
+    libraryEvents: [...document.querySelectorAll('.mytu-ledger strong')].filter((node) => node.textContent.includes('館藏')).length,
+    housingLink: document.querySelector('.mytu-summary a[href^="housing.html"]')?.textContent || '',
+    housingEvents: [...document.querySelectorAll('.mytu-ledger strong')].filter((node) => /住宿|宿舍|換房/.test(node.textContent)).length
   })`);
   check(mytuLibraryLinkOkay(myTuLibrary.libraryLink), "My TU does not link to the library record.");
   check(myTuLibrary.libraryEvents >= 3, "Library actions are missing from the My TU campus ledger.");
+  check(/宿舍|換房/.test(myTuLibrary.housingLink), "My TU does not link to the housing record.");
+  check(myTuLibrary.housingEvents >= 3, "Housing actions are missing from the My TU campus ledger.");
 
   await cdp.call("Page.navigate", { url: `${siteUrl}index.html#research-spellcard` });
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "campus.html", "mytu.html", "library.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "campus.html", "mytu.html", "library.html", "housing.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -412,7 +548,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "campus.html", "mytu.html", "library.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "campus.html", "mytu.html", "library.html", "housing.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -429,14 +565,14 @@ try {
       links: document.querySelectorAll('[data-mobile-menu] nav a').length
     };
   })()`);
-  check(mobileMenu.expanded === "true" && mobileMenu.visible && mobileMenu.links === 9, "Mobile multipage navigation did not open completely.");
+  check(mobileMenu.expanded === "true" && mobileMenu.visible && mobileMenu.links === 10, "Mobile multipage navigation did not open completely.");
 
   if (errors.length) failures.push(`Browser console errors:\n${[...new Set(errors)].join("\n")}`);
   if (failures.length) {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: multipage routing, services, courses, library circulation, deep links, and responsive width.");
+    console.log("Browser smoke test passed: multipage routing, IME-safe search, courses, library circulation, housing, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();

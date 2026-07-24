@@ -97,6 +97,10 @@ body[data-page="library"] .desktop-nav a[href^="library"] {
   color: var(--red);
 }
 
+body[data-page="housing"] .desktop-nav a[href^="housing"] {
+  color: var(--red);
+}
+
 @media (max-width: 760px) {
   .page-masthead {
     padding: 115px 0 38px;

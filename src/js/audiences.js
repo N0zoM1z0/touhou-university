@@ -45,8 +45,8 @@ const paths = {
     },
     actions: [
       ["service-timetable", { "zh-Hant": "今日排課", ja: "今日の時間割", en: "Today's timetable" }],
+      ["housing-account", { "zh-Hant": "我的宿舍", ja: "自分の寮", en: "My housing" }],
       ["service-availability", { "zh-Hant": "找空教室", ja: "空き教室", en: "Find a free room" }],
-      ["service-dining", { "zh-Hant": "查看食堂", ja: "食堂を見る", en: "Check dining" }],
       ["bbs", { "zh-Hant": "進入校園 BBS", ja: "学内 BBS へ", en: "Enter Campus BBS" }],
     ],
   },

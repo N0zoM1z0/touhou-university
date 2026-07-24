@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="本機學籍、申請審查、校園履歷、選課、課表與學業成績紀錄。 東方Project非官方二次創作。"
+      content="比較五座學生宿舍，提交住宿需求，查看房間與室友配對，接受分房並申請換房。 東方Project非官方二次創作。"
     >
     <meta name="theme-color" content="#151d2a">
-    <meta property="og:title" content="My TU 學籍中心｜幻想鄉立東方大學">
+    <meta property="og:title" content="宿舍與室友｜幻想鄉立東方大學">
     <meta
       property="og:description"
-      content="本機學籍、申請審查、校園履歷、選課、課表與學業成績紀錄。 東方Project非官方二次創作網站。"
+      content="比較五座學生宿舍，提交住宿需求，查看房間與室友配對，接受分房並申請換房。 東方Project非官方二次創作網站。"
     >
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/images/campus-hero.webp">
-    <title>My TU 學籍中心｜幻想鄉立東方大學</title>
+    <title>宿舍與室友｜幻想鄉立東方大學</title>
     <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
 
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
-  <body data-page="mytu">
+  <body data-page="housing">
     <a class="skip-link" href="#main">跳至主要內容</a>
 
     <div class="site-notice">
@@ -111,19 +111,20 @@
     <section class="page-masthead" aria-labelledby="page-title">
       <div class="container">
         <nav class="page-breadcrumb" aria-label="頁面位置">
-          <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>MY TU</b>
+          <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>RESIDENTIAL LIFE</b>
         </nav>
         <div class="page-masthead-copy">
-          <div><p>MY TU</p><h1 id="page-title">學籍、選課與校園履歷</h1></div>
-          <p>這台裝置記得你的申請、試驗、課程與校園事件；資料不必離開瀏覽器。</p>
+          <div><p>RESIDENTIAL LIFE</p><h1 id="page-title">宿舍、房間與室友</h1></div>
+          <p>月相、翼展、水域、牆面與作息都會影響分房；適合的室友不是沒有麻煩，而是麻煩能先談清楚。</p>
         </div>
-        <nav class="page-local-nav" aria-label="學籍、選課與校園履歷"><a href="#my-tu">學籍中心</a><a href="#course-registration">選課與成績</a></nav>
+        <nav class="page-local-nav" aria-label="宿舍、房間與室友"><a href="#housing">宿舍總覽</a><a href="#housing-application">申請與配對</a><a href="#housing-account">我的宿舍</a></nav>
       </div>
     </section>
-      <section class="mytu-section" id="my-tu" aria-labelledby="mytu-title">
-  <span class="section-route-anchor" id="course-registration" aria-hidden="true"></span>
-  <h2 class="visually-hidden" id="mytu-title">My TU</h2>
-  <div class="container" data-mytu-app></div>
+      <section class="housing-section" id="housing" aria-labelledby="housing-title">
+  <h2 class="visually-hidden" id="housing-title">宿舍、房間與室友</h2>
+  <div class="container" data-housing-app>
+    <p>宿舍分配簿正在核對房號。</p>
+  </div>
 </section>
     </main>
 
