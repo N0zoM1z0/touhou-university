@@ -282,10 +282,9 @@ export const campusHistory = [
   {
     id: "living-version-chronicle",
     archiveId: "TU-H-012",
-    commit: null,
+    commit: "7fca741acd5e39b936e2e6111772aa8d46ea96d4",
     commitSubject: "Add Git-backed living campus chronicle",
     recordedAt: "2026-07-24",
-    planned: true,
     category: "chronicle",
     era: l("同日・夜半前", "同日・夜半前", "Same day · Before Midnight"),
     title: l(
@@ -302,6 +301,31 @@ export const campusHistory = [
       "文已寫好明日的校史標題。慧音拒絕收錄尚未進入主分支的事件；紫在「尚未」兩字周圍畫了一個框。",
       "文はすでに明日の大学史見出しを執筆。慧音は主分岐に入っていない出来事の収録を拒み、紫は「まだ」の二字を枠で囲んだ。",
       "Aya has already written tomorrow’s chronicle headline. Keine refuses to archive events not yet on main; Yukari drew a box around the word “yet.”",
+    ),
+  },
+  {
+    id: "registration-room-remains",
+    archiveId: "TU-H-013",
+    commit: null,
+    commitSubject: "Add interactive course registration and records",
+    recordedAt: "2026-07-24",
+    planned: true,
+    category: "registry",
+    era: l("同日・夜半", "同日・夜半", "Same day · Midnight"),
+    title: l(
+      "教務處開放加退選，並拒絕保證教室維持原位",
+      "教務課が履修登録を開始、教室の定位置は保証せず",
+      "Registration opens; the registrar declines to guarantee room locations",
+    ),
+    summary: l(
+      "七所學院的三十五門課正式進入 My TU。學生可在本機加選、退選、候補並列印課表與學業紀錄；系統會攔下普通衝堂、先修不足與超額學分，至於位於書本內部、被歷史刪除的週三，以及和所有教室邊界相鄰的講堂，則逐案留下警告。",
+      "七学部三十五科目がMy TUへ正式収録。端末内で追加・取消・補欠、時間割・成績記録の印刷が可能となり、通常の重複、前提不足、上限超過は自動停止する。本の内部にある教室、歴史から消えた水曜、全教室と境界隣接する講堂は個別警告となった。",
+      "All 35 courses across seven schools enter My TU. Students may add, drop, waitlist, and print timetables and academic records on-device. Ordinary collisions, missing prerequisites, and excess credits are stopped; rooms inside books, Wednesdays erased from history, and a hall bordering every classroom receive case-by-case warnings.",
+    ),
+    marginalia: l(
+      "紫要求把「邊界相鄰」從警告改成上課方式。教務處回覆這不是有效時段。翌晨，回覆被登記為 BIS-271 的第一次作業。",
+      "紫は「境界隣接」を警告でなく授業方式として扱うよう要求。教務課は有効な時限ではないと回答。翌朝、その回答はBIS-271の第一課題として登録された。",
+      "Yukari asked that “boundary-adjacent” be treated as a teaching mode, not a warning. The registrar replied that it was not a valid period. By morning, the reply had become BIS-271 assignment one.",
     ),
   },
 ];

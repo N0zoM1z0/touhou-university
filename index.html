@@ -244,6 +244,7 @@
         </div>
       </section>
       <section class="mytu-section" id="my-tu" aria-labelledby="mytu-title">
+  <span class="section-route-anchor" id="course-registration" aria-hidden="true"></span>
   <h2 class="visually-hidden" id="mytu-title">My TU</h2>
   <div class="container" data-mytu-app></div>
 </section>
@@ -1319,6 +1320,15 @@
   <footer class="mytu-document-actions">
     <button class="button button-secondary" type="button" data-mytu-document-close>返回 My TU</button>
     <button class="button button-primary" type="button" data-mytu-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
+  </footer>
+</dialog>
+
+<dialog class="course-document-dialog" data-course-document-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉教務文件" data-course-document-close>×</button>
+  <div class="course-document" data-course-document-body></div>
+  <footer class="course-document-actions">
+    <button class="button button-secondary" type="button" data-course-document-close>返回選課系統</button>
+    <button class="button button-primary" type="button" data-course-document-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
   </footer>
 </dialog>
 

@@ -39,6 +39,7 @@ export const site = {
     "search",
     "audiences",
     "mytu",
+    "courses",
     "eientei",
     "gaokao",
   ],

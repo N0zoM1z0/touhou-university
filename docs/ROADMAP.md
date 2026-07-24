@@ -23,7 +23,7 @@ Status: implemented in 0.9.0.
 
 ## Batch 2 — Course registration and transcript
 
-Recommended next.
+Status: implemented in 0.10.0.
 
 - searchable course catalogue derived from school and faculty data
 - add/drop, waitlists, capacity, prerequisites and real timetable conflicts
@@ -31,6 +31,8 @@ Recommended next.
   boundary-adjacent courses
 - saved enrolments, course events in the campus ledger, My TU timetable and
   printable registration confirmation
+- printable academic records include completed local transcript entries,
+  current IP coursework and non-credit examination evidence
 
 ## Batch 3 — Usable library
 

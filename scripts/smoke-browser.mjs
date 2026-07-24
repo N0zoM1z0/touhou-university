@@ -612,9 +612,9 @@ try {
   check(
     chronicle.initial.open &&
       chronicle.initial.hash === "#chronicle" &&
-      chronicle.initial.records === 12 &&
-      chronicle.initial.latest.includes("version repository") &&
-      chronicle.initial.source === "Add Git-backed living campus chronicle" &&
+      chronicle.initial.records === 13 &&
+      chronicle.initial.latest.includes("Registration opens") &&
+      chronicle.initial.source === "Add interactive course registration and records" &&
       chronicle.initial.realLink.includes("github.com/N0zoM1z0/touhou-university/commits/main") &&
       chronicle.initial.share,
     "Git-backed campus chronicle did not open with all records and its real version source.",
@@ -797,7 +797,7 @@ try {
     };
   })()`);
   check(/^TU-S-/.test(mytu.identityId) && mytu.preferredSchool === "boundary", "My TU identity was not retained.");
-  check(mytu.summaryBefore.join("/") === "1/2/1/1", "My TU did not aggregate applications, exams, visits, and BBS records.");
+  check(mytu.summaryBefore.join("/") === "1/2/1/1/0", "My TU did not aggregate applications, exams, visits, BBS, and current courses.");
   check(/^TU-R-/.test(mytu.reviewId) && mytu.reviewers === 3 && mytu.outcome.length > 4, "Joint faculty review is incomplete.");
   check(
     mytu.documentOpen === false &&
@@ -807,6 +807,66 @@ try {
     "Printable admissions decision is incomplete or did not close.",
   );
   check(mytu.ledger >= 7, "Campus event ledger did not compile the student lifecycle.");
+
+  const courses = await cdp.evaluate(`(async () => {
+    location.hash = 'course-registration';
+    await new Promise((resolve) => setTimeout(resolve, 320));
+    const cards = document.querySelectorAll('[data-course-select]').length;
+    const select = (code) => document.querySelector('[data-course-select="' + code + '"]').click();
+    select('BIS-101');
+    document.querySelector('[data-course-add="BIS-101"]').click();
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    select('HRS-100');
+    document.querySelector('[data-course-add="HRS-100"]').click();
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    select('KPE-110');
+    const conflictDisabled = document.querySelector('.course-detail .course-action')?.disabled &&
+      document.querySelector('.course-detail .course-action')?.textContent.includes('Collision');
+    document.querySelector('[data-course-tab="schedule"]').click();
+    const scheduleRows = document.querySelectorAll('.course-week-grid article').length;
+    const waitlistRows = document.querySelectorAll('.course-waitlist article').length;
+    document.querySelector('[data-course-tab="record"]').click();
+    document.querySelector('[data-course-document="confirmation"]').click();
+    const dialog = document.querySelector('[data-course-document-dialog]');
+    const confirmationText = dialog.querySelector('[data-course-document-body]').textContent;
+    dialog.querySelector('[data-course-document-close]').click();
+    document.querySelector('[data-course-document="transcript"]').click();
+    const transcriptText = dialog.querySelector('[data-course-document-body]').textContent;
+    dialog.querySelector('[data-course-document-close]').click();
+    document.querySelector('[data-course-tab="schedule"]').click();
+    document.querySelector('[data-course-drop="BIS-101"]').click();
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    const stored = JSON.parse(localStorage.getItem('tu:courses:registration') || 'null');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      cards,
+      conflictDisabled,
+      scheduleRows,
+      waitlistRows,
+      confirmationText,
+      transcriptText,
+      dialogClosed: !dialog.open,
+      entries: stored?.entries || [],
+      courseEvents: ledger.filter((event) => event.type.startsWith('course.')).map((event) => event.type)
+    };
+  })()`);
+  check(courses.cards === 35, "Course registration does not expose all 35 school courses.");
+  check(courses.conflictDisabled, "Ordinary timetable collisions are not blocking registration.");
+  check(courses.scheduleRows === 1 && courses.waitlistRows === 1, "Enrolment and waitlist states did not enter the timetable.");
+  check(
+    courses.confirmationText.includes("BIS-101") &&
+      courses.confirmationText.includes("HRS-100") &&
+      courses.transcriptText.includes("IP") &&
+      courses.dialogClosed,
+    "Printable registration confirmation or academic record is incomplete.",
+  );
+  check(
+    courses.entries.length === 1 &&
+      courses.entries[0].courseCode === "HRS-100" &&
+      courses.entries[0].status === "waitlisted" &&
+      ["course.enrolled", "course.waitlisted", "course.dropped"].every((type) => courses.courseEvents.includes(type)),
+    "Course add/drop, waitlist persistence, or campus-ledger events failed.",
+  );
 
   const japanese = await cdp.evaluate(`(() => {
     document.querySelector('[data-lang="ja"]').click();
@@ -824,6 +884,20 @@ try {
   check(japanese.map === "霧の湖図書館", "Japanese dynamic map translation failed.");
   check(japanese.mapImage.endsWith("library.webp"), "Map place image did not change with the selected spot.");
   check(japanese.mapAlt.includes("霧の湖図書館"), "Map image alternative text did not localize.");
+  const japaneseCourses = await cdp.evaluate(`(async () => {
+    location.hash = 'course-MTP-111';
+    await new Promise((resolve) => setTimeout(resolve, 220));
+    document.querySelector('[data-course-tab="catalogue"]')?.click();
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    return {
+      title: document.querySelector('.course-detail h3')?.textContent.trim() || '',
+      heading: document.querySelector('.course-heading h2')?.textContent.trim() || ''
+    };
+  })()`);
+  check(
+    japaneseCourses.title === "七曜元素論 I" && japaneseCourses.heading.includes("教室"),
+    "Course deep route or Japanese course-registration copy failed.",
+  );
 
   await cdp.call("Emulation.setDeviceMetricsOverride", {
     width: 390,
@@ -889,6 +963,22 @@ try {
   check(mobile.menuOpen, "Mobile navigation did not open.");
   check(mobile.widthOkay, "Mobile layout has horizontal overflow.");
   check(mobile.mapLabelVisible, "Mobile campus-map place names are not discoverable.");
+  const mobileCourses = await cdp.evaluate(`(async () => {
+    location.hash = 'course-registration';
+    await new Promise((resolve) => setTimeout(resolve, 180));
+    document.querySelector('[data-course-tab="catalogue"]')?.click();
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    const detail = document.querySelector('.course-detail');
+    return {
+      widthOkay: document.documentElement.scrollWidth <= window.innerWidth,
+      cards: document.querySelectorAll('[data-course-select]').length,
+      detailRight: detail?.getBoundingClientRect().right || Infinity
+    };
+  })()`);
+  check(
+    mobileCourses.widthOkay && mobileCourses.cards === 35 && mobileCourses.detailRight <= 391,
+    "Mobile course registration overflows or loses its catalogue.",
+  );
   const mobileChronicle = await cdp.evaluate(`(async () => {
     document.querySelector('[data-menu-toggle]').click();
     location.hash = 'chronicle-living-version-chronicle';
@@ -1041,4 +1131,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Browser smoke test passed: campus chronicle, all hash/deep-link targets, mobile restoration, My TU, Eientei, both exams, persistence, i18n, and navigation.");
+console.log("Browser smoke test passed: course registration and records, campus chronicle, all hash/deep-link targets, mobile restoration, My TU, Eientei, both exams, persistence, i18n, and navigation.");

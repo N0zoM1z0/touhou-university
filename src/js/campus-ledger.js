@@ -51,6 +51,7 @@ function legacyEvents() {
   const entranceExams = readJson("tu:exam:history", []);
   const unifiedExams = readJson("tu:gaokao:attempts", []);
   const posts = readJson("tu:bbs:posts", []);
+  const registration = readJson("tu:courses:registration", null);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -121,6 +122,20 @@ function legacyEvents() {
       type: "bbs.posted",
       timestamp: post.createdAt,
       payload: { postId: post.id, category: post.category, title: post.title },
+    });
+  }
+  for (const entry of Array.isArray(registration) ? registration : Array.isArray(registration?.entries) ? registration.entries : []) {
+    if (!entry?.courseCode || !entry?.createdAt) continue;
+    const type = entry.status === "waitlisted" ? "course.waitlisted" : "course.enrolled";
+    events.push({
+      id: `${type}:2026-autumn:${entry.courseCode}`,
+      type,
+      timestamp: entry.createdAt,
+      payload: {
+        courseCode: entry.courseCode,
+        term: registration?.term || "2026-autumn",
+        position: entry.position,
+      },
     });
   }
   return events;

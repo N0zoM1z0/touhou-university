@@ -4,6 +4,7 @@ import { researchFiles } from "../data/research.js";
 import { campusFeatures, clubs } from "../data/campus.js";
 import { seededPosts } from "../data/community.js";
 import { campusHistory } from "../data/campus-history.js";
+import { courseCatalogue } from "../data/courses.js";
 import { getLocale } from "./i18n.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 
@@ -32,6 +33,7 @@ const copy = {
       bbs: "BBS",
       map: "地圖",
       history: "校史",
+      course: "課程",
     },
   },
   ja: {
@@ -53,6 +55,7 @@ const copy = {
       bbs: "BBS",
       map: "地図",
       history: "大学史",
+      course: "科目",
     },
   },
   en: {
@@ -74,6 +77,7 @@ const copy = {
       bbs: "BBS",
       map: "Map",
       history: "Chronicle",
+      course: "Course",
     },
   },
 };
@@ -84,6 +88,7 @@ const sectionEntries = [
   ["academics", "section", ["七所學院", "七つの学部", "Seven schools"], ["課程、學分、學費與畢業條件", "科目・単位・授業料・卒業要件", "Courses, credits, tuition, and progression"]],
   ["admissions", "section", ["招生與入學案內", "入試・入学案内", "Admissions"], ["入學路線、日期與線上填報", "選抜経路・日程・オンライン出願", "Entry routes, dates, and online application"]],
   ["my-tu", "section", ["My TU 幻想鄉學籍中心", "My TU 幻想郷学籍センター", "My TU Student Records"], ["本機身分、教授聯合審查、校園履歷與錄取通知書", "端末内身分・教員合同審査・履歴・合格通知", "On-device identity, joint faculty review, campus history, and decision letters"]],
+  ["course-registration", "course", ["選課、課表與成績", "履修・時間割・成績", "Course registration, timetable & grades"], ["35 門課程、加退選、候補、衝堂與本機學業紀錄", "35科目・追加取消・補欠・重複・端末内成績", "35 courses, add/drop, waitlists, collisions, and on-device academic records"]],
   ["gaokao", "section", ["幻想鄉統一學力試驗", "幻想郷統一高等試験", "Gensokyo Unified Examination"], ["文科、理科、線上模擬與離線試卷", "文系・理系・オンライン模試・オフライン試験紙", "Humanities, sciences, online simulation, and offline papers"]],
   ["map", "map", ["校園地圖與路線", "キャンパスマップと経路", "Campus map and routes"], ["步行、掃帚、風路、兔車與時間估算", "徒歩・箒・風路・兎車と所要時間", "Walking, broom, windway, rabbit shuttle, and journey times"]],
   ["map-eientei", "map", ["永遠亭與迷途竹林詳圖", "永遠亭・迷いの竹林詳細図", "Eientei & Bamboo Forest detail map"], ["依日期、時間與月相改變的內部路線", "日付・時刻・月相で変わる内部経路", "Internal routes that change with date, time, and lunar phase"]],
@@ -212,6 +217,16 @@ function buildIndex() {
       description: `${entry.era[locale]} · ${entry.summary[locale]}`,
       source: entry,
       priority: 55,
+    }));
+  });
+  courseCatalogue.forEach((course) => {
+    index.push(makeEntry({
+      route: `course-${course.code}`,
+      category: "course",
+      title: `${course.code} · ${course.title[locale]}`,
+      description: `${course.instructor[locale]} · ${course.note[locale]}`,
+      source: course,
+      priority: 72,
     }));
   });
   return index;
