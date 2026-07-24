@@ -9,6 +9,7 @@ import { schools as schoolCatalogues } from "../data/schools.js";
 import { getLocale } from "./i18n.js";
 import { showToast } from "./ui.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
+import { recordCampusEvent } from "./campus-ledger.js";
 
 const copy = {
   "zh-Hant": {
@@ -427,6 +428,11 @@ export function initServices() {
       storedSubmissions.push(record);
       window.localStorage.setItem("tu:application:submissions", JSON.stringify(storedSubmissions.slice(-30)));
       window.localStorage.removeItem("tu:application:draft");
+      recordCampusEvent(
+        "application.submitted",
+        { applicationId: id, school: record.school },
+        { id: `application.submitted:${id}`, timestamp: record.submittedAt },
+      );
       content.innerHTML = `
         <div class="service-success">
           <span aria-hidden="true">✓</span>
@@ -519,6 +525,11 @@ export function initServices() {
           (record) => record.id !== button.dataset.deleteApplication,
         );
         window.localStorage.setItem("tu:application:submissions", JSON.stringify(next));
+        recordCampusEvent(
+          "application.deleted",
+          { applicationId: button.dataset.deleteApplication },
+          { id: `application.deleted:${button.dataset.deleteApplication}:${Date.now()}` },
+        );
         renderApplicationRecords();
         showToast(c.recordDeleted);
       });
@@ -633,6 +644,11 @@ export function initServices() {
       storedVisits.push(record);
       window.localStorage.setItem("tu:visits", JSON.stringify(storedVisits.slice(-30)));
       window.localStorage.removeItem("tu:visit:draft");
+      recordCampusEvent(
+        "visit.reserved",
+        { visitId: id, route: record.route, date: record.date },
+        { id: `visit.reserved:${id}`, timestamp: record.submittedAt },
+      );
       content.innerHTML = `
         <div class="service-success">
           <span aria-hidden="true">門</span>
@@ -731,6 +747,11 @@ export function initServices() {
         if (!window.confirm(c.deleteVisitConfirm)) return;
         const next = readStored("tu:visits", []).filter((record) => record.id !== button.dataset.deleteVisit);
         window.localStorage.setItem("tu:visits", JSON.stringify(next));
+        recordCampusEvent(
+          "visit.deleted",
+          { visitId: button.dataset.deleteVisit },
+          { id: `visit.deleted:${button.dataset.deleteVisit}:${Date.now()}` },
+        );
         renderVisitRecords();
         showToast(c.visitDeleted);
       });

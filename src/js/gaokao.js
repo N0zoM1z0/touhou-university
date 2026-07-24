@@ -7,6 +7,7 @@ import {
 } from "../data/gaokao.js";
 import { getLocale } from "./i18n.js";
 import { showToast } from "./ui.js";
+import { recordCampusEvent } from "./campus-ledger.js";
 
 const header = document.querySelector("[data-gaokao-header]");
 const app = document.querySelector("[data-gaokao-app]");
@@ -18,7 +19,7 @@ let timer;
 
 const copy = {
   "zh-Hant": {
-    eyebrow: "UNIFIED EXAMINATION / 幻想鄉高考",
+    eyebrow: "UNIFIED EXAMINATION / 幻想鄉統一學力試驗",
     title: "從 NORMAL 到 EXTRA：四份真的會改變題目的統一試卷。",
     lead: "文科與理科各有四個難度。共同科包含語文、結界算術與幻想鄉常識；高難度卷會把公告版本、月相、路網、觀測表與證詞一起交給你。",
     chooseDifficulty: "先選擇彈幕難度",
@@ -58,16 +59,16 @@ const copy = {
     excellent: "你把版本、月相與證詞的岔路都理清了。",
     pass: "整體合格；建議重看失分科目的材料鏈。",
     revise: "先沿解析回查每份材料，再決定是否相信昨日的空地。",
-    localRecords: "我的高考記錄",
+    localRecords: "我的統一試驗記錄",
     localLead: "完整答案、成績與解析入口只保存在這台裝置。",
     attempts: "次已交卷",
-    noRecords: "這台裝置還沒有已完成的幻想鄉高考。",
+    noRecords: "這台裝置還沒有已完成的幻想鄉統一學力試驗。",
     viewRecord: "重開成績與解析",
     legacyRecord: "舊版只保存成績摘要",
     completed: "交卷時間",
     deleteRecord: "刪除本機記錄",
-    deleteConfirm: "確定刪除這次高考記錄？",
-    recordDeleted: "已刪除本機高考記錄。",
+    deleteConfirm: "確定刪除這次統一試驗記錄？",
+    recordDeleted: "已刪除本機統一試驗記錄。",
     archive: "本機答案庫",
     sourceFile: "題目材料 · 獨立條件",
   },
@@ -390,7 +391,7 @@ function renderRunner() {
       <article class="gaokao-paper">
         <header class="gaokao-cover">
           <p>${difficulty.label} · ${gaokaoMeta.edition} · ${gaokaoMeta.year}</p>
-          <h2>${locale === "zh-Hant" ? "幻想鄉統一高等學力試驗" : locale === "ja" ? "幻想郷統一高等学力試験" : "Gensokyo Unified Higher Examination"}</h2>
+          <h2>${locale === "zh-Hant" ? "幻想鄉統一學力試驗" : locale === "ja" ? "幻想郷統一高等試験" : "Gensokyo Unified Examination"}</h2>
           <h3>${track.name[locale]} · ${gaokaoMeta.total} ${c.points}</h3>
           <dl><div><dt>${c.candidate}</dt><dd>${c.deviceCandidate}</dd></div><div><dt>${c.duration}</dt><dd>${Math.round(difficulty.duration / 60)} ${c.minutes}</dd></div></dl>
           <section><strong>${c.instructions}</strong><ol>${c.rules.map((rule) => `<li>${rule}</li>`).join("")}</ol></section>
@@ -515,6 +516,17 @@ function submit(autoSubmitted) {
     autoSubmitted,
   });
   writeHistory(attempts);
+  recordCampusEvent(
+    "gaokao.completed",
+    {
+      examId: resultState.id,
+      difficultyId: state.difficultyId,
+      trackId: state.trackId,
+      score: scored.score,
+      total: gaokaoMeta.total,
+    },
+    { id: `gaokao.completed:${resultState.id}`, timestamp: completedAt },
+  );
   window.localStorage.removeItem("tu:gaokao:draft");
   renderResult();
 }
@@ -628,6 +640,11 @@ function renderRecords() {
       if (!window.confirm(c.deleteConfirm)) return;
       const key = button.dataset.deleteGaokaoRecord;
       writeHistory(history().filter((record) => (record.id || record.completedAt) !== key));
+      recordCampusEvent(
+        "gaokao.deleted",
+        { examId: key },
+        { id: `gaokao.deleted:${key}:${Date.now()}` },
+      );
       renderRecords();
       showToast(c.recordDeleted);
     });

@@ -1,6 +1,7 @@
 import { examBanks } from "../data/exam.js";
 import { getLocale } from "./i18n.js";
 import { showToast } from "./ui.js";
+import { recordCampusEvent } from "./campus-ledger.js";
 
 const copy = {
   "zh-Hant": {
@@ -370,6 +371,11 @@ function saveResult(examResult) {
   };
   attempts.push(record);
   writeHistory(attempts);
+  recordCampusEvent(
+    "exam.completed",
+    { examId: record.id, bankId: record.bankId, percent: record.percent },
+    { id: `exam.completed:${record.id}`, timestamp: record.completedAt },
+  );
   examResult.recordId = record.id;
 }
 
@@ -507,6 +513,11 @@ function renderRecords() {
       if (!window.confirm(c.deleteConfirm)) return;
       const key = button.dataset.deleteExamRecord;
       writeHistory(history().filter((record) => (record.id || record.completedAt) !== key));
+      recordCampusEvent(
+        "exam.deleted",
+        { examId: key },
+        { id: `exam.deleted:${key}:${Date.now()}` },
+      );
       renderRecords();
       showToast(c.recordDeleted);
     });

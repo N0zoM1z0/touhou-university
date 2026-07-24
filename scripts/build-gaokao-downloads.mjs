@@ -15,7 +15,7 @@ const locales = ["zh-Hant", "ja", "en"];
 
 const labels = {
   "zh-Hant": {
-    title: "幻想鄉統一高等學力試驗",
+    title: "幻想鄉統一學力試驗",
     paper: "試題本",
     answers: "參考答案與評分說明",
     candidate: "考生姓名",
@@ -32,7 +32,7 @@ const labels = {
     generated: "本檔可完全離線閱讀；題號、選項順序與線上模擬一致。",
   },
   ja: {
-    title: "幻想郷統一高等学力試験",
+    title: "幻想郷統一高等試験",
     paper: "問題冊子",
     answers: "参考解答・採点説明",
     candidate: "受験者氏名",
@@ -49,7 +49,7 @@ const labels = {
     generated: "完全オフラインで閲覧可能。問題番号と選択肢順はオンライン模試と共通です。",
   },
   en: {
-    title: "Gensokyo Unified Higher Examination",
+    title: "Gensokyo Unified Examination",
     paper: "Question Paper",
     answers: "Reference Answers & Marking Notes",
     candidate: "Candidate name",

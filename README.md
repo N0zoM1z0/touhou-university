@@ -15,6 +15,9 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - Traditional Chinese, Japanese and English language switching;
 - online application with autosaved drafts, application references and a
   device-local application history;
+- a My TU student-record centre with an on-device campus identity, unified
+  lifecycle ledger, joint faculty application reviews and printable decision
+  letters;
 - campus-visit reservations with autosaved drafts, visitor references and a
   device-local “My Campus Visits” archive;
 - library/classroom availability, dining menus, timetable and exams;
@@ -27,14 +30,16 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   readability and fairness study;
 - four timed entrance-exam banks with instant scoring, full saved answer
   records and reopenable reviews;
-- a 150-mark Gensokyo Unified Examination with humanities/sciences tracks at
+- a 150-mark Gensokyo Unified Examination (`幻想鄉統一學力試驗`) with
+  humanities/sciences tracks at
   NORMAL, HARD, LUNATIC and EXTRA difficulty, autosaved progress, full answer
   archives, instant scoring and 48 trilingual offline paper/answer downloads;
 - rotating campus news, detailed clubs and a locally persistent, shuffled BBS
   with autosaved drafts and a dedicated “My Posts” view;
 - full-site search, Visitor/Applicant/Current Student route gateways, and
   browser-history-aware deep links for schools, faculty, research, clubs,
-  services and BBS records;
+  services and BBS records, including exact mobile scroll restoration after
+  closing nested cards;
 - responsive navigation, keyboard-friendly dialogs and reduced-motion support;
 - two interchangeable faculty portrait art directions.
 - an interactive “unresolved matters” board where faculty competence,
@@ -74,6 +79,7 @@ npm run check:gaokao        # marks, translations, rotation-safe explanations, k
 npm run test:browser        # headless Chrome interaction and mobile smoke test
 npm run capture -- --section=map --width=390 --height=844
 npm run capture -- --section=gaokao --click='[data-gaokao-difficulty="extra"];;[data-gaokao-start="humanities"]'
+npm run capture -- --section=my-tu --storage='{"tu:identity":{"id":"TU-S-DEMO"}}'
 npm run new:section -- news # scaffold and register a new section
 npm run portraits -- set-b  # switch the active faculty art direction
 scripts/optimize-images.sh input.png output.webp 1600x1200
@@ -93,6 +99,8 @@ Set a different preview port with `PORT=4180 npm run dev`.
   48 self-contained files under `downloads/gaokao/`.
 - Register shareable overlay routes through `src/js/deep-links.js`; use stable
   routes such as `#research-spellcard`, `#faculty-aya` and `#map-eientei`.
+- Record new lifecycle actions through `src/js/campus-ledger.js`; My TU
+  compiles both new events and legacy application, exam, visit and BBS data.
 - Add news/BBS seeds in `src/data/community.js`, and club details in
   `src/data/campus.js`.
 - Add page structure in `src/sections/`.

@@ -64,6 +64,7 @@
       </nav>
 
       <div class="header-tools">
+        <a class="header-mytu" href="#my-tu" aria-label="My TU">MY TU</a>
         <button class="header-search" type="button" data-search-open aria-label="SEARCH / 搜尋全站">
           <span aria-hidden="true">⌕</span><b>SEARCH</b><kbd>⌘K</kbd>
         </button>
@@ -101,6 +102,7 @@
         <a href="#research"><span>05</span>研究成果</a>
         <a href="#campus"><span>06</span>校園風采</a>
         <a href="#bbs"><span>07</span>校園 BBS</a>
+        <a href="#my-tu"><span>08</span>MY TU</a>
       </nav>
       <div class="mobile-languages" role="group" aria-label="Language">
         <button class="language-button active" type="button" data-lang="zh-Hant">中文</button>
@@ -184,6 +186,12 @@
               <small>ONLINE APPLICATION</small>
               <i aria-hidden="true">↗</i>
             </button>
+            <a class="service-tile service-tile-mytu" href="#my-tu">
+              <span class="service-icon" aria-hidden="true">學</span>
+              <strong>My TU 學籍中心</strong>
+              <small>RECORDS · REVIEW · LETTERS</small>
+              <i aria-hidden="true">↓</i>
+            </a>
             <button class="service-tile" type="button" data-service="availability">
               <span class="service-icon" aria-hidden="true">室</span>
               <strong>館舍空閒</strong>
@@ -235,6 +243,10 @@
           </div>
         </div>
       </section>
+      <section class="mytu-section" id="my-tu" aria-labelledby="mytu-title">
+  <h2 class="visually-hidden" id="mytu-title">My TU</h2>
+  <div class="container" data-mytu-app></div>
+</section>
       <section class="section about" id="about">
         <div class="container">
           <div class="section-intro reveal">
@@ -1272,6 +1284,15 @@
   </header>
   <div class="search-result-head"><strong data-search-count></strong></div>
   <div class="search-results" data-search-results></div>
+</dialog>
+
+<dialog class="mytu-document-dialog" data-mytu-document-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉校務文件" data-mytu-document-close>×</button>
+  <div class="mytu-document" data-mytu-document></div>
+  <footer class="mytu-document-actions">
+    <button class="button button-secondary" type="button" data-mytu-document-close>返回 My TU</button>
+    <button class="button button-primary" type="button" data-mytu-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
+  </footer>
 </dialog>
 
     <div class="toast" role="status" aria-live="polite" data-toast></div>

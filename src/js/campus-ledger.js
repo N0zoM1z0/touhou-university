@@ -1,0 +1,149 @@
+const LEDGER_KEY = "tu:campus:ledger";
+const IDENTITY_KEY = "tu:identity";
+const MAX_EVENTS = 500;
+
+function readJson(key, fallback) {
+  try {
+    const value = JSON.parse(window.localStorage.getItem(key) || "null");
+    return value ?? fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function validDate(value, fallback = new Date().toISOString()) {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? fallback : date.toISOString();
+}
+
+export function campusLedger() {
+  const records = readJson(LEDGER_KEY, []);
+  return Array.isArray(records) ? records : [];
+}
+
+export function recordCampusEvent(type, payload = {}, options = {}) {
+  if (!type) return null;
+  const records = campusLedger();
+  const entity = options.entityId || payload.id || payload.reference || "";
+  const id = options.id || `${type}:${entity || Date.now().toString(36)}`;
+  const existing = records.find((record) => record.id === id);
+  if (existing) return existing;
+  const identity = readJson(IDENTITY_KEY, null);
+  const event = {
+    schema: 1,
+    id,
+    type,
+    actor: identity?.id || "student-local",
+    timestamp: validDate(options.timestamp),
+    payload,
+  };
+  records.push(event);
+  records.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+  window.localStorage.setItem(LEDGER_KEY, JSON.stringify(records.slice(-MAX_EVENTS)));
+  window.dispatchEvent(new CustomEvent("tu:ledgerchange", { detail: event }));
+  return event;
+}
+
+function legacyEvents() {
+  const applications = readJson("tu:application:submissions", []);
+  const reviews = readJson("tu:application:reviews", []);
+  const visits = readJson("tu:visits", []);
+  const entranceExams = readJson("tu:exam:history", []);
+  const unifiedExams = readJson("tu:gaokao:attempts", []);
+  const posts = readJson("tu:bbs:posts", []);
+  const identity = readJson(IDENTITY_KEY, null);
+  const events = [];
+
+  if (identity?.id) {
+    events.push({
+      id: `identity.created:${identity.id}`,
+      type: "identity.created",
+      timestamp: identity.createdAt,
+      payload: { identityId: identity.id, preferredSchool: identity.preferredSchool },
+    });
+  }
+  for (const record of Array.isArray(applications) ? applications : []) {
+    events.push({
+      id: `application.submitted:${record.id}`,
+      type: "application.submitted",
+      timestamp: record.submittedAt,
+      payload: { applicationId: record.id, school: record.school },
+    });
+  }
+  for (const review of Array.isArray(reviews) ? reviews : []) {
+    events.push({
+      id: `application.reviewed:${review.applicationId}`,
+      type: "application.reviewed",
+      timestamp: review.reviewedAt,
+      payload: {
+        applicationId: review.applicationId,
+        reviewId: review.id,
+        outcome: review.outcome,
+        school: review.school,
+      },
+    });
+  }
+  for (const record of Array.isArray(visits) ? visits : []) {
+    events.push({
+      id: `visit.reserved:${record.id}`,
+      type: "visit.reserved",
+      timestamp: record.submittedAt,
+      payload: { visitId: record.id, route: record.route, date: record.date },
+    });
+  }
+  for (const record of Array.isArray(entranceExams) ? entranceExams : []) {
+    const entityId = record.id || record.completedAt;
+    events.push({
+      id: `exam.completed:${entityId}`,
+      type: "exam.completed",
+      timestamp: record.completedAt,
+      payload: { examId: entityId, bankId: record.bankId, percent: record.percent },
+    });
+  }
+  for (const record of Array.isArray(unifiedExams) ? unifiedExams : []) {
+    const entityId = record.id || record.completedAt;
+    events.push({
+      id: `gaokao.completed:${entityId}`,
+      type: "gaokao.completed",
+      timestamp: record.completedAt,
+      payload: {
+        examId: entityId,
+        difficultyId: record.difficultyId || "normal",
+        trackId: record.trackId,
+        score: record.score,
+        total: record.total || 150,
+      },
+    });
+  }
+  for (const post of Array.isArray(posts) ? posts : []) {
+    events.push({
+      id: `bbs.posted:${post.id}`,
+      type: "bbs.posted",
+      timestamp: post.createdAt,
+      payload: { postId: post.id, category: post.category, title: post.title },
+    });
+  }
+  return events;
+}
+
+export function syncCampusLedger() {
+  const records = campusLedger();
+  const ids = new Set(records.map((record) => record.id));
+  let changed = false;
+  for (const event of legacyEvents()) {
+    if (!event.id || ids.has(event.id)) continue;
+    records.push({
+      schema: 1,
+      actor: "student-local",
+      ...event,
+      timestamp: validDate(event.timestamp),
+    });
+    ids.add(event.id);
+    changed = true;
+  }
+  if (!changed) return records;
+  records.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+  window.localStorage.setItem(LEDGER_KEY, JSON.stringify(records.slice(-MAX_EVENTS)));
+  window.dispatchEvent(new CustomEvent("tu:ledgerchange", { detail: { type: "ledger.synced" } }));
+  return records;
+}

@@ -14,6 +14,15 @@ const argumentsMap = Object.fromEntries(
 const section = (argumentsMap.section || "main").replace(/^#/, "");
 const clickSelector = argumentsMap.click || "";
 const clickSelectors = clickSelector.split(";;").map((value) => value.trim()).filter(Boolean);
+let storageSeed = null;
+if (argumentsMap.storage) {
+  try {
+    storageSeed = JSON.parse(argumentsMap.storage);
+  } catch {
+    console.error("--storage must be a JSON object whose values will be saved to localStorage.");
+    process.exit(1);
+  }
+}
 const width = Number(argumentsMap.width || 1440);
 const height = Number(argumentsMap.height || 1000);
 const output = path.resolve(argumentsMap.output || `/tmp/touhou-university-${section}-${width}x${height}.png`);
@@ -128,6 +137,18 @@ try {
   await cdp.open();
   await Promise.all([cdp.call("Runtime.enable"), cdp.call("Page.enable")]);
   await eventually(() => cdp.evaluate("document.readyState === 'complete'"));
+  if (storageSeed && typeof storageSeed === "object" && !Array.isArray(storageSeed)) {
+    await cdp.evaluate(`(() => {
+      const seed = ${JSON.stringify(storageSeed)};
+      Object.entries(seed).forEach(([key, value]) => {
+        if (value === null) localStorage.removeItem(key);
+        else localStorage.setItem(key, typeof value === 'string' ? value : JSON.stringify(value));
+      });
+      return true;
+    })()`);
+    await cdp.call("Page.reload");
+    await eventually(() => cdp.evaluate("document.readyState === 'complete'"));
+  }
   await cdp.call("Emulation.setDeviceMetricsOverride", {
     width,
     height,
