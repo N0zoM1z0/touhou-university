@@ -1,0 +1,241 @@
+.audience-gateway {
+  padding: 72px 0 78px;
+  color: var(--ink);
+  background:
+    linear-gradient(90deg, rgba(148, 91, 63, 0.08) 1px, transparent 1px) 0 0 / 28px 28px,
+    #eadfcd;
+  border-bottom: 1px solid rgba(24, 34, 48, 0.14);
+}
+
+.audience-gateway .container {
+  display: grid;
+  grid-template-columns: minmax(210px, 0.6fr) minmax(250px, 0.72fr) minmax(380px, 1.35fr);
+  gap: 34px;
+  align-items: stretch;
+}
+
+.audience-heading p {
+  margin: 0 0 13px;
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.17em;
+}
+
+.audience-heading h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(26px, 3.2vw, 44px);
+  line-height: 1.2;
+}
+
+.audience-tabs {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid rgba(24, 34, 48, 0.16);
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.audience-tabs button {
+  display: grid;
+  min-height: 62px;
+  padding: 10px 15px;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  gap: 11px;
+  color: var(--ink);
+  border: 1px solid transparent;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.audience-tabs button span {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border: 1px solid rgba(24, 34, 48, 0.22);
+  border-radius: 50%;
+  font-family: var(--serif);
+}
+
+.audience-tabs button strong {
+  font-size: 12px;
+}
+
+.audience-tabs button:hover,
+.audience-tabs button:focus-visible {
+  border-color: rgba(142, 47, 55, 0.25);
+  outline: 0;
+}
+
+.audience-tabs button.active {
+  color: var(--white);
+  background: #172434;
+}
+
+.audience-tabs button.active span {
+  color: #f2d4ad;
+  border-color: rgba(242, 212, 173, 0.48);
+}
+
+.audience-route {
+  position: relative;
+  padding: 28px 31px 24px;
+  color: var(--white);
+  background:
+    linear-gradient(145deg, rgba(142, 47, 55, 0.46), transparent 48%),
+    #142230;
+  overflow: hidden;
+}
+
+.audience-route::after {
+  content: "路";
+  position: absolute;
+  top: -43px;
+  right: -18px;
+  color: rgba(255, 255, 255, 0.035);
+  font-family: var(--serif);
+  font-size: 180px;
+}
+
+.audience-route > div {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.audience-route > div span {
+  display: grid;
+  width: 31px;
+  height: 31px;
+  place-items: center;
+  color: #f2d4ad;
+  border: 1px solid rgba(242, 212, 173, 0.48);
+  border-radius: 50%;
+  font-family: var(--serif);
+}
+
+.audience-route > div p {
+  margin: 0;
+  color: #d7ae7b;
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 0.15em;
+}
+
+.audience-route h3 {
+  position: relative;
+  z-index: 1;
+  margin: 19px 0 8px;
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.5vw, 32px);
+  line-height: 1.25;
+}
+
+.audience-route > p {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 21px;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+.audience-route nav {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.audience-route nav a {
+  display: grid;
+  min-height: 42px;
+  padding: 9px 10px;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.045);
+  font-size: 9px;
+  text-decoration: none;
+}
+
+.audience-route nav a:hover,
+.audience-route nav a:focus-visible {
+  border-color: rgba(242, 212, 173, 0.68);
+  background: rgba(255, 255, 255, 0.1);
+  outline: 0;
+}
+
+.audience-route nav a span {
+  color: #d7ae7b;
+  font-size: 7px;
+  font-weight: 800;
+}
+
+.audience-route nav a i {
+  color: #d7ae7b;
+  font-style: normal;
+}
+
+@media (max-width: 980px) {
+  .audience-gateway .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .audience-heading {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 680px) {
+  .audience-gateway {
+    padding: 52px 0;
+  }
+
+  .audience-gateway .container {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .audience-heading {
+    grid-column: auto;
+  }
+
+  .audience-tabs {
+    padding: 5px;
+    flex-direction: row;
+  }
+
+  .audience-tabs button {
+    min-height: 62px;
+    padding: 8px 4px;
+    flex: 1;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 4px;
+    text-align: center;
+  }
+
+  .audience-tabs button strong {
+    font-size: 9px;
+  }
+
+  .audience-route {
+    padding: 24px 20px 20px;
+  }
+
+  .audience-route nav {
+    grid-template-columns: 1fr;
+  }
+}
+

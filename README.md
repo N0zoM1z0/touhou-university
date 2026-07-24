@@ -20,11 +20,19 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - illustrated interactive campus map with seven place cards, live arrival
   estimates and four genuinely different transport networks with first/last
   mile walking segments;
+- a time-, date- and lunar-phase-aware Eientei/Bamboo Forest focus map whose
+  available routes genuinely change under full and new moons;
 - five complete Gensokyo research records, including a six-part spell-card
   readability and fairness study;
 - four timed entrance-exam banks with instant scoring and answer review;
+- a 150-mark Gensokyo Unified Examination with humanities/sciences tracks,
+  48 online questions across both papers, autosaved progress, instant scoring,
+  and twelve trilingual offline paper/answer downloads;
 - rotating campus news, detailed clubs and a locally persistent, shuffled BBS
   with autosaved drafts and a dedicated “My Posts” view;
+- full-site search, Visitor/Applicant/Current Student route gateways, and
+  browser-history-aware deep links for schools, faculty, research, clubs,
+  services and BBS records;
 - responsive navigation, keyboard-friendly dialogs and reduced-motion support;
 - two interchangeable faculty portrait art directions.
 - an interactive “unresolved matters” board where faculty competence,
@@ -76,6 +84,10 @@ Set a different preview port with `PORT=4180 npm run dev`.
   and graph edges in `src/data/services.js` and `src/data/routes.js`.
 - Add exam banks and questions in `src/data/exam.js`; every question stores all
   three languages beside its answer and explanation.
+- Add unified-examination subjects in `src/data/gaokao.js`; `npm run build`
+  regenerates the twelve self-contained files under `downloads/gaokao/`.
+- Register shareable overlay routes through `src/js/deep-links.js`; use stable
+  routes such as `#research-spellcard`, `#faculty-aya` and `#map-eientei`.
 - Add news/BBS seeds in `src/data/community.js`, and club details in
   `src/data/campus.js`.
 - Add page structure in `src/sections/`.

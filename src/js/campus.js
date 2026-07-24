@@ -1,9 +1,9 @@
 import { campusFeatures, clubs } from "../data/campus.js";
 import { getLocale } from "./i18n.js";
 import { closeInfoDialog, openInfoDialog } from "./info-dialog.js";
+import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 
 function triggerService(service) {
-  closeInfoDialog();
   document.querySelector(`[data-service="${service}"]`)?.click();
 }
 
@@ -49,10 +49,33 @@ function showClub(id) {
 }
 
 export function initCampusInteractions() {
+  const dialog = document.querySelector("[data-info-dialog]");
   document.querySelectorAll("[data-campus-feature]").forEach((card) => {
-    card.addEventListener("click", () => showFeature(card.dataset.campusFeature));
+    card.addEventListener("click", () => navigateToDeepLink(`campus-${card.dataset.campusFeature}`));
   });
   document.querySelectorAll("[data-club]").forEach((button) => {
-    button.addEventListener("click", () => showClub(button.dataset.club));
+    button.addEventListener("click", () => navigateToDeepLink(`club-${button.dataset.club}`));
+  });
+  registerDeepLink("campus-", {
+    dialog,
+    open(id) {
+      if (campusFeatures[id]) showFeature(id);
+    },
+    close() {
+      closeInfoDialog();
+    },
+  });
+  registerDeepLink("club-", {
+    dialog,
+    open(id) {
+      if (clubs[id]) showClub(id);
+    },
+    close() {
+      closeInfoDialog();
+    },
+  });
+  dialog?.addEventListener("close", () => {
+    closeDeepLink("campus-", "#campus");
+    closeDeepLink("club-", "#campus");
   });
 }

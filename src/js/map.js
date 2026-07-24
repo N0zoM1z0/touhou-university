@@ -1,6 +1,7 @@
 import { mapPlaces } from "../data/services.js";
 import { findCampusRoute, transportModes } from "../data/routes.js";
 import { getLocale } from "./i18n.js";
+import { navigateToDeepLink } from "./deep-links.js";
 
 export function initCampusMap() {
   const detail = document.querySelector(".map-detail");
@@ -87,7 +88,10 @@ export function initCampusMap() {
   }
 
   document.querySelectorAll("[data-map-place]").forEach((node) => {
-    node.addEventListener("click", () => render(node.dataset.mapPlace));
+    node.addEventListener("click", () => {
+      render(node.dataset.mapPlace);
+      if (node.dataset.mapPlace === "clinic") navigateToDeepLink("map-eientei");
+    });
   });
 
   function renderPlanner() {

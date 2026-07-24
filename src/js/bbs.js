@@ -2,6 +2,7 @@ import { seededPosts } from "../data/community.js";
 import { getLocale } from "./i18n.js";
 import { openInfoDialog } from "./info-dialog.js";
 import { showToast } from "./ui.js";
+import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 
 const labels = {
   "zh-Hant": {
@@ -151,6 +152,7 @@ export function initBbs() {
     const article = document.createElement("article");
     article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}`;
     article.dataset.bbsCategory = post.category;
+    article.dataset.bbsId = post.id;
     if (post.local) article.dataset.userPost = "";
 
     const category = document.createElement("span");
@@ -177,7 +179,7 @@ export function initBbs() {
     trigger.type = "button";
     trigger.className = "bbs-row-trigger";
     trigger.setAttribute("aria-label", `${post.title} · ${l.author}: ${post.author}`);
-    trigger.addEventListener("click", () => openPost(post));
+    trigger.addEventListener("click", () => navigateToDeepLink(`bbs-${post.id}`));
     article.append(category, body, replies, trigger);
     return article;
   }
@@ -198,6 +200,7 @@ export function initBbs() {
       const [category, author, title, body, replies] = seededPosts[index];
       const minutes = 11 + ((index * 13) % 170);
       return {
+        id: `seed-${index}`,
         category,
         author: author[locale],
         title: title[locale],
@@ -208,6 +211,25 @@ export function initBbs() {
       };
     });
     return [...userPosts.reverse(), ...seeds];
+  }
+
+  function findPost(id) {
+    const rendered = getRenderedPosts().find((post) => post.id === id);
+    if (rendered) return rendered;
+    const seedIndex = Number(String(id).replace(/^seed-/, ""));
+    if (!Number.isInteger(seedIndex) || !seededPosts[seedIndex]) return null;
+    const locale = getLocale();
+    const l = labels[locale];
+    const [category, author, title, body, replies] = seededPosts[seedIndex];
+    return {
+      id,
+      category,
+      author: author[locale],
+      title: title[locale],
+      body: body[locale],
+      replies,
+      time: `${11 + ((seedIndex * 13) % 170)} ${l.minutes}`,
+    };
   }
 
   function renderPosts() {
@@ -331,4 +353,16 @@ export function initBbs() {
   });
   chooseSeedPosts();
   renderPosts();
+  const infoDialog = document.querySelector("[data-info-dialog]");
+  registerDeepLink("bbs-", {
+    dialog: infoDialog,
+    open(id) {
+      const post = findPost(id);
+      if (post) openPost(post);
+    },
+    close() {
+      if (infoDialog?.open) infoDialog.close();
+    },
+  });
+  infoDialog?.addEventListener("close", () => closeDeepLink("bbs-", "#bbs"));
 }

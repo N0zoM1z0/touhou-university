@@ -8,6 +8,7 @@ import {
 import { schools as schoolCatalogues } from "../data/schools.js";
 import { getLocale } from "./i18n.js";
 import { showToast } from "./ui.js";
+import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 
 const copy = {
   "zh-Hant": {
@@ -622,9 +623,23 @@ export function initServices() {
     event.preventDefault();
     const prospectusDialog = document.querySelector("[data-prospectus-dialog]");
     if (prospectusDialog?.open) prospectusDialog.close();
-    openService(trigger.dataset.service, { applicationSchool: trigger.dataset.applicationSchool });
+    const schoolSuffix = trigger.dataset.applicationSchool ? `--${trigger.dataset.applicationSchool}` : "";
+    navigateToDeepLink(`service-${trigger.dataset.service}${schoolSuffix}`);
   });
-  document.querySelector("[data-service-close]")?.addEventListener("click", () => dialog?.close());
+  registerDeepLink("service-", {
+    dialog,
+    open(value) {
+      const [service, applicationSchool] = value.split("--");
+      openService(service, { applicationSchool });
+    },
+    close() {
+      if (dialog?.open) dialog.close();
+    },
+  });
+  document.querySelector("[data-service-close]")?.addEventListener("click", () => {
+    closeDeepLink("service-", "#services");
+  });
+  dialog?.addEventListener("close", () => closeDeepLink("service-", "#services"));
   window.addEventListener("tu:languagechange", () => {
     if (!currentService) return;
     const openApplicationForm = content?.querySelector("[data-application-form]");

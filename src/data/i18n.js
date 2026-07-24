@@ -328,6 +328,7 @@ records.push(
   ["facultyUnresolved", "本學期尚未解決", "今学期の未解決事項", "Unresolved This Term"],
   ["mapRepairClaim", "北側風路已永久修復", "北側風路は恒久修理済み", "North windway permanently repaired"],
   ["mapRepairCorrection", "訂正：河童膠帶仍算臨時修復", "訂正：河童テープはなお仮修理扱い", "Correction: kappa tape still counts as temporary"],
+  ["siteSearchMobile", "SEARCH / 全站搜尋", "SEARCH / サイト内検索", "SEARCH / SITE SEARCH"],
 );
 
 export const messages = Object.fromEntries(
