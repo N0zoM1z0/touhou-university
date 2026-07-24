@@ -811,8 +811,15 @@ p {
   padding: 20px 15px;
   grid-template-columns: 62px minmax(260px, 1.25fr) 1fr 40px;
   align-items: center;
+  width: 100%;
+  color: var(--white);
+  border: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
   overflow: hidden;
+  text-align: left;
 }
 
 .school-row::before {
@@ -841,15 +848,17 @@ p {
   letter-spacing: 0.1em;
 }
 
-.school-row h3 {
+.school-row-name {
+  display: block;
   margin: 0;
   font-family: var(--serif);
   font-size: clamp(20px, 2vw, 28px);
   font-weight: 600;
 }
 
-.school-row div p {
-  margin: 4px 0 0;
+.school-row-en {
+  display: block;
+  margin-top: 4px;
   color: rgba(255, 255, 255, 0.4);
   font-size: 8px;
   font-weight: 700;
@@ -857,7 +866,7 @@ p {
   text-transform: uppercase;
 }
 
-.school-row:hover div p {
+.school-row:hover .school-row-en {
   color: rgba(255, 255, 255, 0.72);
 }
 
@@ -1156,6 +1165,153 @@ p {
   background: #fff;
 }
 
+.admissions-actions {
+  display: grid;
+  max-width: 520px;
+  margin-top: 34px;
+  grid-template-columns: 0.72fr 1.28fr;
+  gap: 10px;
+}
+
+.admissions-guide-button,
+.application-cta {
+  position: relative;
+  min-height: 114px;
+  padding: 19px 20px;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  background: rgba(255, 255, 255, 0.035);
+  cursor: pointer;
+  text-align: left;
+  transition:
+    transform 0.22s,
+    border-color 0.22s,
+    background 0.22s,
+    box-shadow 0.22s;
+}
+
+.admissions-guide-button {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.admissions-guide-button small {
+  display: block;
+  margin-bottom: 21px;
+  color: rgba(255, 255, 255, 0.45);
+  font-family: var(--sans);
+  font-size: 6px;
+  font-weight: 850;
+  letter-spacing: 0.13em;
+}
+
+.admissions-guide-button i {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  font-style: normal;
+}
+
+.application-cta {
+  padding: 19px 52px 18px 21px;
+  color: var(--ink);
+  border-color: var(--paper-light);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.72), transparent 48%),
+    var(--paper-light);
+  box-shadow: 0 14px 40px rgba(54, 10, 16, 0.2);
+}
+
+.application-cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44%;
+  height: 3px;
+  background: #d29a73;
+  transition: width 0.25s;
+}
+
+.application-cta-status {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  gap: 7px;
+  color: var(--red);
+  font-size: 6px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+}
+
+.application-cta-status i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #4c9878;
+  box-shadow: 0 0 0 4px rgba(76, 152, 120, 0.13);
+}
+
+.application-cta strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.application-cta > small {
+  display: block;
+  margin-top: 7px;
+  color: #807970;
+  font-size: 7px;
+}
+
+.application-cta-arrow {
+  position: absolute;
+  right: 18px;
+  bottom: 19px;
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  color: var(--white);
+  border-radius: 50%;
+  background: var(--red);
+}
+
+.admissions-guide-button:hover,
+.admissions-guide-button:focus-visible,
+.application-cta:hover,
+.application-cta:focus-visible {
+  z-index: 1;
+  outline: 0;
+  transform: translateY(-3px);
+}
+
+.admissions-guide-button:hover,
+.admissions-guide-button:focus-visible {
+  border-color: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.application-cta:hover,
+.application-cta:focus-visible {
+  box-shadow: 0 20px 55px rgba(52, 8, 14, 0.34);
+}
+
+.application-cta:hover::before,
+.application-cta:focus-visible::before {
+  width: 100%;
+}
+
 .admission-steps {
   padding: 38px 42px;
   color: var(--ink);
@@ -1374,7 +1530,7 @@ p {
 .research-list {
   display: grid;
   margin-top: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -1471,6 +1627,12 @@ p {
   background: var(--red);
   outline: 0;
   padding-inline: 20px;
+}
+
+.research-card-spell {
+  background:
+    radial-gradient(circle at 90% 8%, rgba(125, 90, 145, 0.13), transparent 30%),
+    #f7f2e8;
 }
 
 .campus {
@@ -2250,7 +2412,7 @@ p {
     display: none;
   }
 
-  .school-row h3 {
+  .school-row-name {
     font-size: 20px;
   }
 
@@ -2277,6 +2439,15 @@ p {
 
   .admission-steps {
     padding: 26px 22px;
+  }
+
+  .admissions-actions {
+    max-width: none;
+    grid-template-columns: 1fr;
+  }
+
+  .admissions-guide-button {
+    min-height: 90px;
   }
 
   .feature-research {

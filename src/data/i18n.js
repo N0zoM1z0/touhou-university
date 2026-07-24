@@ -293,6 +293,19 @@ records.push(
   ["takeExam", "入學試驗", "入学試験", "Take an Exam"],
   ["iconPaper", "卷", "巻", "PAPER"],
   ["mapArrivalServices", "迎賓與校務", "来訪・学務", "Arrival & Services"],
+  ["applicationDeadline", "2026 秋季網路填報 · 8 月 31 日截止", "2026年秋季オンライン出願・8月31日締切", "Autumn 2026 online application · closes 31 August"],
+  ["routePlannerTitle", "怎麼走？讓校園路網替你算。", "どう行く？キャンパス路網が計算します。", "Where to? Let the campus network work it out."],
+  ["routePlannerLead", "選擇步行、掃帚、天狗風路或竹林兔車；預估會計入轉乘與停泊時間。", "徒歩、箒、天狗風路、竹林兎車を選択。待ち時間と駐機時間も見積もります。", "Choose walking, broom, tengu windway, or bamboo rabbit shuttle; estimates include transfers and berthing."],
+  ["routeFrom", "出發地", "出発地", "From"],
+  ["routeTo", "目的地", "目的地", "To"],
+  ["routeMode", "交通方式", "交通手段", "Travel mode"],
+  ["routePlan", "規劃路線", "経路を検索", "Plan route"],
+  ["spellcardField", "符卡學", "スペルカード学", "Spell-card Studies"],
+  ["spellcardStudyTitle", "符卡規則下的可讀性、公平與退路設計", "スペルカード規則における可読性・公平性・退路設計", "Readability, Fairness & Exit Design Under Spell-card Rules"],
+  ["spellcardStudyBody", "把宣言、預兆、彈幕密度與退路窗口拆開測量，尋找「華麗但仍然能讀懂」的編排條件。", "宣言、予兆、弾幕密度、退路窓を分けて測定し、「華麗だが読める」構成条件を探ります。", "Measures declarations, telegraphs, danmaku density, and exit windows separately to find when spectacle remains legible."],
+  ["testPatterns", "組測試彈幕", "組の試験弾幕", "test patterns"],
+  ["minimumExitTelegraph", "最低退路預兆", "最低退路予兆", "minimum exit telegraph"],
+  ["readSpellcardFile", "閱讀符卡研究全檔", "スペルカード研究全文を読む", "Read the spell-card research file"],
 );
 
 export const messages = Object.fromEntries(

@@ -1,0 +1,352 @@
+.school-dialog {
+  width: min(1040px, calc(100% - 30px));
+  max-height: min(92vh, 1040px);
+  padding: 0;
+  color: var(--ink);
+  border: 0;
+  background: var(--paper-light);
+  box-shadow: 0 35px 110px rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.school-dialog::backdrop {
+  background: rgba(8, 14, 21, 0.88);
+  backdrop-filter: blur(7px);
+}
+
+.school-dialog > .dialog-close {
+  z-index: 5;
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.45);
+  background: rgba(12, 20, 29, 0.3);
+  backdrop-filter: blur(7px);
+}
+
+.school-dialog > .dialog-close:hover,
+.school-dialog > .dialog-close:focus-visible {
+  border-color: var(--white);
+  background: var(--red);
+  outline: 0;
+}
+
+.school-dialog-hero {
+  --school-accent: var(--red);
+  position: relative;
+  display: grid;
+  min-height: 330px;
+  padding: 60px 65px 54px;
+  grid-template-columns: 150px 1fr;
+  gap: 38px;
+  align-items: end;
+  color: var(--white);
+  background:
+    radial-gradient(circle at 13% 25%, color-mix(in srgb, var(--school-accent) 65%, transparent), transparent 27%),
+    linear-gradient(125deg, #172433 0%, #101a27 66%, color-mix(in srgb, var(--school-accent) 52%, #101a27));
+  overflow: hidden;
+}
+
+.school-dialog-hero::after {
+  content: "";
+  position: absolute;
+  top: -40%;
+  right: -5%;
+  width: 400px;
+  aspect-ratio: 1;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 42px rgba(255, 255, 255, 0.025),
+    0 0 0 91px rgba(255, 255, 255, 0.018);
+}
+
+.school-dialog-mark {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: 138px;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.07);
+  font-family: var(--serif);
+  font-size: 62px;
+}
+
+.school-dialog-hero > div:last-child {
+  position: relative;
+  z-index: 1;
+}
+
+.school-dialog-hero p {
+  margin: 0 0 13px;
+  color: color-mix(in srgb, var(--school-accent) 54%, white);
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+}
+
+.school-dialog-hero h2 {
+  max-width: 760px;
+  margin-bottom: 7px;
+  font-family: var(--serif);
+  font-size: clamp(32px, 5vw, 53px);
+  line-height: 1.25;
+}
+
+.school-dialog-hero span {
+  display: block;
+  color: rgba(255, 255, 255, 0.52);
+  font-size: 8px;
+  font-weight: 750;
+  letter-spacing: 0.15em;
+}
+
+.school-dialog-hero strong {
+  display: inline-block;
+  margin-top: 27px;
+  padding-top: 10px;
+  border-top: 1px solid color-mix(in srgb, var(--school-accent) 75%, transparent);
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 10px;
+  font-weight: 650;
+}
+
+.school-dialog-body {
+  padding: 0 65px 62px;
+}
+
+.school-facts {
+  display: grid;
+  margin: 0 -65px 47px;
+  grid-template-columns: 1.35fr 1fr 0.7fr 0.8fr 1.35fr;
+  border-bottom: 1px solid var(--line);
+}
+
+.school-facts > div {
+  min-width: 0;
+  padding: 19px 16px 21px;
+  border-right: 1px solid var(--line);
+}
+
+.school-facts > div:first-child {
+  padding-left: 65px;
+}
+
+.school-facts > div:last-child {
+  padding-right: 35px;
+  border-right: 0;
+}
+
+.school-facts dt,
+.school-detail-grid section > p,
+.school-overview > p,
+.school-section-heading > p {
+  margin-bottom: 7px;
+  color: #8b8278;
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.school-facts dd {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.school-fact-tuition dd {
+  color: var(--red);
+}
+
+.school-overview {
+  display: grid;
+  margin-bottom: 47px;
+  grid-template-columns: 125px 1fr;
+  gap: 25px;
+}
+
+.school-overview h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(17px, 2.2vw, 23px);
+  font-weight: 560;
+  line-height: 1.9;
+}
+
+.school-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.school-section-heading span {
+  color: var(--red);
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+}
+
+.school-curriculum table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 2px solid var(--ink);
+}
+
+.school-curriculum th {
+  padding: 10px 13px;
+  color: #8a8279;
+  border-bottom: 1px solid var(--line);
+  font-size: 7px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.school-curriculum th:last-child,
+.school-curriculum td:last-child {
+  width: 70px;
+  text-align: right;
+}
+
+.school-curriculum td {
+  padding: 13px;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--serif);
+  font-size: 13px;
+}
+
+.school-curriculum td:first-child {
+  display: flex;
+  align-items: baseline;
+  gap: 19px;
+}
+
+.school-curriculum td span {
+  width: 58px;
+  flex: 0 0 auto;
+  color: var(--red);
+  font-family: var(--sans);
+  font-size: 7px;
+  font-weight: 850;
+}
+
+.school-curriculum td strong {
+  font-weight: 650;
+}
+
+.school-detail-grid {
+  display: grid;
+  margin-top: 45px;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.school-detail-grid section {
+  min-height: 164px;
+  padding: 24px 27px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.school-detail-grid section > p {
+  color: var(--red);
+}
+
+.school-detail-grid h3 {
+  margin: 0;
+  color: #5f5a54;
+  font-family: var(--serif);
+  font-size: 12px;
+  font-weight: 560;
+  line-height: 1.85;
+}
+
+.school-detail-grid .school-outcomes {
+  min-height: 130px;
+  grid-column: 1 / -1;
+}
+
+.school-dialog-footer {
+  display: flex;
+  margin-top: 35px;
+  padding-top: 27px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  border-top: 2px solid var(--ink);
+}
+
+.school-dialog-footer p {
+  max-width: 540px;
+  margin: 0;
+  color: #79736c;
+  font-size: 9px;
+  line-height: 1.7;
+}
+
+.school-dialog-footer .button {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 760px) {
+  .school-dialog-hero {
+    min-height: 370px;
+    padding: 61px 25px 35px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .school-dialog-mark {
+    width: 82px;
+    font-size: 38px;
+  }
+
+  .school-dialog-body {
+    padding: 0 24px 35px;
+  }
+
+  .school-facts {
+    margin: 0 -24px 35px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .school-facts > div,
+  .school-facts > div:first-child,
+  .school-facts > div:last-child {
+    padding: 15px 18px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .school-fact-tuition {
+    grid-column: 1 / -1;
+  }
+
+  .school-overview {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .school-table-wrap {
+    margin-right: -24px;
+    overflow-x: auto;
+  }
+
+  .school-curriculum table {
+    min-width: 530px;
+  }
+
+  .school-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .school-detail-grid .school-outcomes {
+    grid-column: auto;
+  }
+
+  .school-dialog-footer {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

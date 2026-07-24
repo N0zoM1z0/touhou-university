@@ -10,13 +10,15 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 ## Included
 
 - school introduction, motto, traditions, uniforms and anniversary;
-- seven schools and eight illustrated faculty profiles;
+- seven schools with full trilingual catalogues, and eight illustrated faculty profiles;
 - Traditional Chinese, Japanese and English language switching;
 - online application with saved drafts and application references;
 - campus-visit reservations and visitor references;
 - library/classroom availability, dining menus, timetable and exams;
-- illustrated interactive campus map with seven place cards;
-- four complete Gensokyo research records;
+- illustrated interactive campus map with seven place cards, shortest-path
+  navigation, live arrival estimates and four Gensokyo transport modes;
+- five complete Gensokyo research records, including a six-part spell-card
+  readability and fairness study;
 - four timed entrance-exam banks with instant scoring and answer review;
 - rotating campus news, detailed clubs and a locally persistent, shuffled BBS;
 - responsive navigation, keyboard-friendly dialogs and reduced-motion support;
@@ -62,6 +64,8 @@ Set a different preview port with `PORT=4180 npm run dev`.
 ### Adding content
 
 - Add or revise faculty, research and campus-service records in `src/data/`.
+- Add academic catalogues in `src/data/schools.js`; add places, transport modes
+  and graph edges in `src/data/services.js` and `src/data/routes.js`.
 - Add exam banks and questions in `src/data/exam.js`; every question stores all
   three languages beside its answer and explanation.
 - Add news/BBS seeds in `src/data/community.js`, and club details in

@@ -74,6 +74,35 @@
       </aside>
     </div>
 
+    <section class="route-planner reveal" id="route-planner" aria-label="校園路線規劃" data-route-planner>
+      <header class="route-planner-head">
+        <div>
+          <p>GENSOKYO CAMPUS TRANSIT</p>
+          <h3>怎麼走？讓校園路網替你算。</h3>
+        </div>
+        <p>選擇步行、掃帚、天狗風路或竹林兔車；預估會計入轉乘與停泊時間。</p>
+      </header>
+      <form class="route-form" data-route-form>
+        <label>
+          <span>出發地</span>
+          <select name="from" data-route-from></select>
+        </label>
+        <button class="route-swap" type="button" aria-label="交換出發地與目的地" data-route-swap>⇄</button>
+        <label>
+          <span>目的地</span>
+          <select name="to" data-route-to></select>
+        </label>
+        <fieldset>
+          <legend>交通方式</legend>
+          <div class="route-modes" data-route-modes></div>
+        </fieldset>
+        <button class="route-submit" type="submit">
+          規劃路線 <span aria-hidden="true">→</span>
+        </button>
+      </form>
+      <div class="route-result" aria-live="polite" data-route-result hidden></div>
+    </section>
+
     <div class="map-legend reveal">
       <span><i class="legend-academic"></i>教學研究</span>
       <span><i class="legend-service"></i>公共服務</span>
