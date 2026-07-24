@@ -98,7 +98,10 @@ Set a different preview port with `PORT=4180 npm run dev`.
   dossiers in `src/data/gaokao-advanced.js`; `npm run build` regenerates all
   48 self-contained files under `downloads/gaokao/`.
 - Register shareable overlay routes through `src/js/deep-links.js`; use stable
-  routes such as `#research-spellcard`, `#faculty-aya` and `#map-eientei`.
+  routes such as `#research-spellcard`, `#faculty-aya` and `#map-eientei`, and
+  give every route family its canonical background `anchor`. Direct links are
+  re-aligned while lazy sections and fonts settle, without overriding manual
+  scrolling.
 - Record new lifecycle actions through `src/js/campus-ledger.js`; My TU
   compiles both new events and legacy application, exam, visit and BBS data.
 - Add news/BBS seeds in `src/data/community.js`, and club details in

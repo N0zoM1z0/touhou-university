@@ -144,6 +144,7 @@ export function initSchools() {
     });
   });
   registerDeepLink("school-", {
+    anchor: "#academics",
     dialog,
     open(id) {
       if (!schools[id]) return;

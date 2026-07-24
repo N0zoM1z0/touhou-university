@@ -27,6 +27,15 @@ html {
   scroll-behavior: smooth;
 }
 
+[id] {
+  scroll-margin-top: 84px;
+}
+
+#top,
+#main {
+  scroll-margin-top: 0;
+}
+
 body {
   margin: 0;
   color: var(--ink);
