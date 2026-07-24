@@ -39,7 +39,7 @@ const copy = {
     candidate: "考生",
     deviceCandidate: "本機模擬考生",
     instructions: "考生須知",
-    rules: ["本卷所有題目均為單選題；每題只有一個最合適答案。", "材料框屬於題目；可在右側答題卡跳題，答案會自動保存。", "時間到自動交卷；滿月、停電或教室位移不另行加時。"],
+    rules: ["本卷所有題目均為單選題；每題只有一個最合適答案。", "材料框屬於題目；可在右側答題卡跳題，答案會自動保存。", "除非題目另有說明，月相、時間、路線與版本均以材料框為準，不讀取校園地圖的即時狀態。", "時間到自動交卷；滿月、停電或教室位移不另行加時。"],
     answered: "已答",
     timeLeft: "剩餘時間",
     submit: "交卷並立即判分",
@@ -69,7 +69,7 @@ const copy = {
     deleteConfirm: "確定刪除這次高考記錄？",
     recordDeleted: "已刪除本機高考記錄。",
     archive: "本機答案庫",
-    sourceFile: "題目材料",
+    sourceFile: "題目材料 · 獨立條件",
   },
   ja: {
     eyebrow: "UNIFIED EXAMINATION / 幻想郷統一高等試験",
@@ -93,7 +93,7 @@ const copy = {
     candidate: "受験者",
     deviceCandidate: "端末内模擬受験者",
     instructions: "受験上の注意",
-    rules: ["全問単一選択。最も適切な答えを一つ選ぶこと。", "資料枠も問題の一部。右の解答欄から移動でき、答案は自動保存される。", "時間切れで自動提出。満月・停電・教室移動による延長なし。"],
+    rules: ["全問単一選択。最も適切な答えを一つ選ぶこと。", "資料枠も問題の一部。右の解答欄から移動でき、答案は自動保存される。", "別記がない限り、月相・時刻・経路・版は資料枠の条件に従い、学内地図の現在状態は参照しない。", "時間切れで自動提出。満月・停電・教室移動による延長なし。"],
     answered: "回答済",
     timeLeft: "残り時間",
     submit: "提出して採点",
@@ -123,7 +123,7 @@ const copy = {
     deleteConfirm: "この受験記録を削除しますか。",
     recordDeleted: "端末の受験記録を削除しました。",
     archive: "端末内答案庫",
-    sourceFile: "問題資料",
+    sourceFile: "問題資料 · 独立条件",
   },
   en: {
     eyebrow: "UNIFIED EXAMINATION / GENSOKYO UNIFIED EXAM",
@@ -147,7 +147,7 @@ const copy = {
     candidate: "Candidate",
     deviceCandidate: "On-device simulation candidate",
     instructions: "Instructions to candidates",
-    rules: ["Every item is single-choice. Select the one best answer.", "Source boxes are part of the item. Jump from the answer sheet; answers autosave.", "The paper submits at time. Full moons, outages, and relocated classrooms do not add time."],
+    rules: ["Every item is single-choice. Select the one best answer.", "Source boxes are part of the item. Jump from the answer sheet; answers autosave.", "Unless an item says otherwise, its lunar phase, time, route, and version come only from its source box; the live campus-map state is not consulted.", "The paper submits at time. Full moons, outages, and relocated classrooms do not add time."],
     answered: "Answered",
     timeLeft: "Time left",
     submit: "Submit and score now",
@@ -177,7 +177,7 @@ const copy = {
     deleteConfirm: "Delete this examination record?",
     recordDeleted: "Local examination record deleted.",
     archive: "On-device answer archive",
-    sourceFile: "Source dossier",
+    sourceFile: "Source dossier · independent conditions",
   },
 };
 

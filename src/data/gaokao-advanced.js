@@ -181,9 +181,9 @@ export const advancedGaokaoQuestions = {
     ),
     q(
       "LU-M01", "lunatic", 14,
-      l("節點：門 G、風站 W、講堂 B、工房 K。\n邊（分鐘）：G–W 步 6；W–K 風路 12；G–B 步 9；B–K 兔車 10；G–K 步 31。\n條件：滿月時 W–K 關閉；兔車每 15 分由 B 發車（08:00 起）；轉乘固定核驗 3 分。08:08 抵達 G。",
-        "節点G門、W風駅、B講堂、K工房。\n辺：G–W徒歩6、W–K風路12、G–B徒歩9、B–K兎車10、G–K徒歩31。\n満月はW–K閉鎖。兎車はBを08:00から15分毎。乗換確認3分。08:08 G着。",
-        "Nodes: G gate, W wind stop, B hall, K workshop.\nEdges (min): G–W walk 6; W–K wind 12; G–B walk 9; B–K rabbit 10; G–K walk 31.\nAt full moon W–K is closed. Rabbit leaves B every 15 minutes from 08:00. Transfer check takes 3 minutes. Reach G at 08:08.",
+      l("節點：門 G、風站 W、講堂 B、工房 K。\n邊（分鐘）：G–W 步 6；W–K 風路 12；G–B 步 9；B–K 兔車 10；G–K 步 31。\n條件：滿月時 W–K 關閉；兔車每 15 分由 B 發車（08:00 起）。抵達 B 後須先完成 3 分鐘核驗，核驗完成後方可登車；若完成時班次已發車，須等下一班。考生 08:08 抵達 G。",
+        "節点G門、W風駅、B講堂、K工房。\n辺：G–W徒歩6、W–K風路12、G–B徒歩9、B–K兎車10、G–K徒歩31。\n満月はW–K閉鎖。兎車はBを08:00から15分毎に発車。B到着後に3分間の確認を完了して初めて乗車でき、完了時に便が発車済みなら次便を待つ。受験者は08:08にG着。",
+        "Nodes: G gate, W wind stop, B hall, K workshop.\nEdges (min): G–W walk 6; W–K wind 12; G–B walk 9; B–K rabbit 10; G–K walk 31.\nAt full moon W–K is closed. Rabbit shuttles leave B every 15 minutes from 08:00. After reaching B, the candidate must complete a 3-minute check before boarding; if a service has departed by completion, the next one must be used. The candidate reaches G at 08:08.",
       ),
       l("滿月時最早到 K 的時間與路徑是？", "満月時の最早到着時刻と経路は。", "At full moon, what is the earliest arrival time and route?"),
       [l("08:35，G–B–K", "08:35、G–B–K", "08:35 via G–B–K"), l("08:39，G–K", "08:39、G–K", "08:39 via G–K"), l("08:30，G–W–K", "08:30、G–W–K", "08:30 via G–W–K"), l("08:43，G–B–K", "08:43、G–B–K", "08:43 via G–B–K")], 1,
@@ -198,10 +198,10 @@ export const advancedGaokaoQuestions = {
     ),
     q(
       "LU-M03", "lunatic", 14,
-      l("竹林三岔口每天按置換 σ=(A B C) 移動出口標籤；滿月另施加交換 τ=(B C)。今天是滿月後第 5 日，且先施加每日置換五次，再施加滿月交換一次。起始出口 A 的最終標籤為何？", "竹林三叉路の出口表示は毎日σ=(A B C)で置換。満月にはさらにτ=(B C)。満月後5日、σを5回、その後τを1回。初期Aは。", "A bamboo fork relabels exits daily by σ=(A B C); the full moon also applies τ=(B C). Five days after full moon, apply σ five times, then τ once. Where does initial A end?"),
+      l("竹林三岔口每天按置換 σ=(A B C) 更新出口標籤。現在已完成五次每日更新，今晚滿月結算時再施加交換 τ=(B C)。本題的合成明定為 τ∘σ⁵：先做五次 σ，再做一次 τ。", "竹林三叉路の出口表示は毎日、置換σ=(A B C)で更新される。日次更新を5回終え、今夜の満月精算で交換τ=(B C)を1回適用する。本問の合成はτ∘σ⁵、すなわちσを5回行った後にτを行う。", "A bamboo fork updates exit labels daily by σ=(A B C). Five daily updates have been completed; tonight's full-moon settlement then applies τ=(B C) once. Composition is defined as τ∘σ⁵: apply σ five times, then τ once."),
       l("起始出口 A 的最終標籤為何？", "初期出口Aの最終表示は。", "What is the final label of initial exit A?"),
       [l("A", "A", "A"), l("B", "B", "B"), l("C", "C", "C"), l("無法判斷", "判定不能", "Indeterminate")], 1,
-      l("σ⁵=σ²，A→C；再施 τ，C→B。按通常右合成記號易混淆，但題目已明說操作順序，所以答案 B（選項 B）。", "σ⁵=σ²でA→C、次にτでC→B。答えはB。", "σ⁵=σ² sends A→C; τ then sends C→B. The result is B."),
+      l("σ⁵=σ²，故 A→C；再施 τ，C→B，最終標籤為 B。", "σ⁵=σ²なのでA→C、続いてτによりC→Bとなり、最終表示はB。", "σ⁵=σ² sends A→C; τ then sends C→B, so the final label is B."),
     ),
     q(
       "EX-M01", "extra", 14,
@@ -211,7 +211,7 @@ export const advancedGaokaoQuestions = {
       ),
       l("滿月時最早抵達 E 的路徑與時刻？", "満月時の最早E到着経路と時刻は。", "At full moon, what route reaches E earliest and when?"),
       [l("G–B–E，08:28", "G–B–E、08:28", "G–B–E at 08:28"), l("G–W–E，08:23", "G–W–E、08:23", "G–W–E at 08:23"), l("G–W–E，08:22", "G–W–E、08:22", "G–W–E at 08:22"), l("G–E，08:38", "G–E、08:38", "G–E at 08:38")], 1,
-      l("到 W：08:12:30，取整 08:13，奇數分鐘關閉；等到 08:14 進入，再行 9 分，08:23 抵達。因此是選項 B。B 路徑到 B 為 08:15:30→08:16 可進，08:28 到。", "Wへ08:12:30→08:13は閉鎖、08:14進入、9分で08:23。答えB。", "Reach W 08:12:30, round to 08:13 (closed), wait to 08:14, then 9 minutes to 08:23: option B."),
+      l("到 W 為 08:12:30，取整後的 08:13 是奇數分鐘，入口關閉；等到 08:14 進入，再行 9 分，沿 G–W–E 於 08:23 抵達。G–B–E 則在 08:15:30 到 B，取整至 08:16 後可進入，08:28 抵達。", "Wへ08:12:30着、切上げた08:13は奇数分で閉鎖。08:14に進入し9分後、G–W–Eで08:23着。G–B–Eは08:15:30にB着、08:16へ切上げて進入でき、08:28着。", "Reach W at 08:12:30; rounding gives 08:13, an odd minute when entry is closed. Enter at 08:14 and travel 9 minutes, so G–W–E arrives at 08:23. G–B–E reaches B at 08:15:30, rounds to an admissible 08:16, and arrives at 08:28."),
     ),
     q(
       "EX-M02", "extra", 14,
