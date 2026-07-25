@@ -25,32 +25,6 @@ if (!redirected) {
     return servicesPromise;
   };
 
-  await Promise.all([
-    initialize("[data-info-dialog]", "./info-dialog.js", "initInfoDialog"),
-    initialize("[data-school]", "./schools.js", "initSchools"),
-    initialize("[data-faculty]", "./faculty.js", "initFaculty"),
-    initialize("[data-friction]", "./friction.js", "initFacultyFriction"),
-    initialize("#map", "./map.js", "initCampusMap"),
-    initialize("[data-live-campus-app]", "./live-campus.js", "initLiveCampus"),
-    initialize("[data-research]", "./research.js", "initResearch"),
-    initialize("#bbs", "./bbs.js", "initBbs"),
-    initialize("[data-campus-feature]", "./campus.js", "initCampusInteractions"),
-    initialize("[data-news-track]", "./news.js", "initNews"),
-    initialize("#entrance-exam", "./exam.js", "initExam"),
-    initialize("[data-audience-app]", "./audiences.js", "initAudiencePaths"),
-    initialize("[data-eientei-focus]", "./eientei-map.js", "initEienteiMap"),
-    initialize("[data-chronicle-open]", "./chronicle.js", "initCampusChronicle"),
-    initialize("[data-library-app]", "./library.js", "initLibrary"),
-    initialize("[data-clinic-app]", "./clinic.js", "initClinic"),
-    initialize("[data-housing-app]", "./housing.js", "initHousing"),
-    initialize("[data-incident-app]", "./incidents.js", "initIncidents"),
-    initialize("#my-tu", "./mytu.js", "initMyTu"),
-    initialize("#gaokao", "./gaokao.js", "initGaokao"),
-    document.querySelector("main [data-service]") ? ensureServices() : Promise.resolve(),
-  ]);
-
-  initDeepLinks();
-
   let searchPromise;
   let searchReady = false;
   const ensureSearch = () => {
@@ -61,6 +35,9 @@ if (!redirected) {
     return searchPromise;
   };
 
+  // Install the loading guards before the heavier page modules settle. The
+  // controls are already visible at this point, so their first click must not
+  // disappear merely because a map, archive, or clinic module is still moving.
   document.addEventListener("click", (event) => {
     const trigger = event.target.closest("[data-service]");
     if (!trigger || servicesReady) return;
@@ -90,6 +67,32 @@ if (!redirected) {
       ensureSearch().then(() => document.querySelector("[data-search-open]")?.click());
     }
   });
+
+  await Promise.all([
+    initialize("[data-info-dialog]", "./info-dialog.js", "initInfoDialog"),
+    initialize("[data-school]", "./schools.js", "initSchools"),
+    initialize("[data-faculty]", "./faculty.js", "initFaculty"),
+    initialize("[data-friction]", "./friction.js", "initFacultyFriction"),
+    initialize("#map", "./map.js", "initCampusMap"),
+    initialize("[data-live-campus-app]", "./live-campus.js", "initLiveCampus"),
+    initialize("[data-research]", "./research.js", "initResearch"),
+    initialize("#bbs", "./bbs.js", "initBbs"),
+    initialize("[data-campus-feature]", "./campus.js", "initCampusInteractions"),
+    initialize("[data-news-track]", "./news.js", "initNews"),
+    initialize("#entrance-exam", "./exam.js", "initExam"),
+    initialize("[data-audience-app]", "./audiences.js", "initAudiencePaths"),
+    initialize("[data-eientei-focus]", "./eientei-map.js", "initEienteiMap"),
+    initialize("[data-chronicle-open]", "./chronicle.js", "initCampusChronicle"),
+    initialize("[data-library-app]", "./library.js", "initLibrary"),
+    initialize("[data-clinic-app]", "./clinic.js", "initClinic"),
+    initialize("[data-housing-app]", "./housing.js", "initHousing"),
+    initialize("[data-incident-app]", "./incidents.js", "initIncidents"),
+    initialize("#my-tu", "./mytu.js", "initMyTu"),
+    initialize("#gaokao", "./gaokao.js", "initGaokao"),
+    document.querySelector("main [data-service]") ? ensureServices() : Promise.resolve(),
+  ]);
+
+  initDeepLinks();
 
   if (window.location.hash.startsWith("#service-")) ensureServices();
   if (window.location.hash === "#search") ensureSearch();

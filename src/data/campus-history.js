@@ -479,10 +479,9 @@ export const campusHistory = [
   {
     id: "five-printing-presses-and-one-outside-audit",
     archiveId: "TU-H-020",
-    commit: null,
+    commit: "ebe0d8f393ef5a1d184a6000bddfdaa8dab62be7",
     commitSubject: "Stabilize campus navigation printing and live facilities",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "correction",
     era: l("翌日・第四校鐘後", "翌日・第四校鐘後", "Next day · After Fourth Bell"),
     title: l(
@@ -499,6 +498,31 @@ export const campusHistory = [
       "一名外界人類申請生要求撤下「只檢查檢查器有沒有檢查」的表格，校務處批准並保留真正會抓舊事故的回歸卷。另一名外界第三方智能體提交八項具體警報，其中一項把已上線的十頁校舍誤認成舊單頁，誤報率正式記為 12.5%。文要求標題改成「外界智能體準確率高達 87.5%」；訂正欄認為兩句都是真的，於是吵到截稿。",
       "外の世界の志願者が「検査器が検査したかだけを検査する」帳票の撤去を申請し、学務課は過去事故を捕える回帰票だけ残して承認。別の外界第三者知能は具体的警報八件を提出したが、一件は公開済み十頁校舎を旧単頁と誤認し、誤報率は正式に12.5%となった。文は見出しを「外界知能、正確率87.5%」へ変えるよう要求。訂正欄は両方とも真実だとして締切まで争った。",
       "An Outside World applicant asked to remove forms that only checked whether a checker had checked; Academic Affairs approved, keeping the regressions that still catch old accidents. A separate third-party Outside intelligence filed eight concrete alerts, one of which mistook the deployed ten-page campus for the old single page, establishing a 12.5% false-positive rate. Aya demanded the headline “Outside intelligence reaches 87.5% accuracy.” Corrections observed that both versions were true, and they argued until press time.",
+    ),
+  },
+  {
+    id: "first-bell-that-refused-to-eat-a-click",
+    archiveId: "TU-H-021",
+    commit: null,
+    commitSubject: "Keep campus controls responsive during startup",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "correction",
+    era: l("翌日・第四校鐘餘響", "翌日・第四校鐘の余響", "Next day · Fourth Bell echo"),
+    title: l(
+      "校舍還在搬地圖時，第一下敲門終於也有人應",
+      "校舎が地図を運ぶ最中でも、最初のノックに応答",
+      "The first knock is answered even while the campus is still carrying its maps",
+    ),
+    summary: l(
+      "正式站巡查發現一條只在外界網路較慢時露面的縫：服務卡和搜尋鈴已經掛上門面，地圖、校史與醫院模組卻仍在搬運，於是過早的一次點擊可能落進走廊。載入守門人現改在重型模組之前值班，會接住第一下點擊、搬來需要的服務，再把原動作完整交還；其餘頁面仍維持並行載入。",
+      "公開サイトの巡回で、外界回線が遅い時だけ現れる隙間を発見。サービス札と検索鈴は先に見えても、地図・校史・医院の荷運び中には早すぎる一打が廊下へ落ちていた。読み込み番は重いモジュールより先に立ち、初回操作を預かって必要な窓口を運び、元の操作をそのまま返す。他の頁の並列搬入は維持される。",
+      "A production patrol found a seam visible only on slower Outside World links: service cards and the search bell could appear while maps, archives, and clinic modules were still moving, letting one very early click fall into the corridor. Loading guards now report before the heavy modules, catch that first action, bring in the needed desk, and replay it intact while the rest of each page continues loading in parallel.",
+    ),
+    marginalia: l(
+      "文把六秒內的漏接稱為「史上最短罷工」；河童說那只是初始化競態。靈夢在兩張說明上都蓋了同一個印，理由是申請生只在乎門有沒有開。",
+      "文は六秒未満の取りこぼしを「史上最短のスト」と命名。河童は初期化競合にすぎないと反論。霊夢は志願者が扉の開閉しか気にしないとして、両方の説明へ同じ印を押した。",
+      "Aya called the sub-six-second miss “the shortest strike in history”; the kappa called it an initialization race. Reimu stamped both explanations because applicants only care whether the door opens.",
     ),
   },
 ];
