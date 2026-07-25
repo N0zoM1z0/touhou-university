@@ -19,10 +19,14 @@ const copy = {
     volume: "館藏編號",
     recorded: "入藏日期",
     source: "版本底本",
-    sourceLead: "此條校史對應的真實 Git 主分支修訂。版本主旨不改寫；校史敘事、補記與抗議另行並存。",
+    sourceLead: "主分支版本與功能改動是兩個可重合、但不可混用的來源。一般或 squash commit 只有一筆；機械 merge commit 另列第二親本的改動主旨。",
+    mainSource: "主分支提交",
+    changeSource: "實際改動提交",
+    mergeNote: "此頁由 GitHub merge commit 進入主分支；下列第二親本保存人類可讀的功能主旨。",
     marginalia: "頁邊補記",
     main: "MAIN / 最新主分支",
     openSource: "查看真實版本",
+    openChange: "查看實際改動",
     previous: "前一頁",
     next: "後一頁",
     openRecord: "開啟校史",
@@ -37,10 +41,14 @@ const copy = {
     volume: "収蔵番号",
     recorded: "収蔵日",
     source: "版底本",
-    sourceLead: "この大学史に対応する実際の Git 主分岐改訂。版主題は改変せず、大学史叙述・追記・抗議を別に併存させる。",
+    sourceLead: "主分岐版と機能変更は重なる場合があっても混同しない。通常・squash commit は一件、機械的 merge commit は第二親の変更主題を別記する。",
+    mainSource: "主分岐コミット",
+    changeSource: "実変更コミット",
+    mergeNote: "この頁は GitHub merge commit で主分岐へ入ったため、第二親に人間可読の変更主題を保存する。",
     marginalia: "欄外追記",
     main: "MAIN / 最新主分岐",
     openSource: "実際の版を見る",
+    openChange: "実変更を見る",
     previous: "前頁",
     next: "次頁",
     openRecord: "大学史を開く",
@@ -55,10 +63,14 @@ const copy = {
     volume: "Archive reference",
     recorded: "Accession date",
     source: "Version source",
-    sourceLead: "The real Git main-branch revision underlying this record. Its subject remains unchanged while the campus account, additions, and objections coexist beside it.",
+    sourceLead: "The main-branch revision and the functional change may coincide, but must not be confused. Ordinary and squash commits need one record; a mechanical merge also lists its second-parent change.",
+    mainSource: "Main-branch commit",
+    changeSource: "Change commit",
+    mergeNote: "This record entered main through a GitHub merge commit; its second parent preserves the human-readable change subject.",
     marginalia: "Marginal note",
     main: "MAIN / latest revision",
     openSource: "View real revision",
+    openChange: "View actual change",
     previous: "Previous",
     next: "Next",
     openRecord: "Open chronicle",
@@ -87,6 +99,10 @@ function sourceUrl(entry) {
   return entry.commit
     ? `https://github.com/N0zoM1z0/touhou-university/commit/${entry.commit}`
     : "https://github.com/N0zoM1z0/touhou-university/commits/main";
+}
+
+function changeUrl(entry) {
+  return `https://github.com/N0zoM1z0/touhou-university/commit/${entry.changeCommit}`;
 }
 
 function filteredEntries() {
@@ -134,8 +150,18 @@ function renderRecord(entry, locale, c, visible) {
       <details class="chronicle-source">
         <summary>${c.source}<span>${escapeHtml(sourceLabel)}</span></summary>
         <p>${c.sourceLead}</p>
-        <code>${escapeHtml(entry.commitSubject)}</code>
-        <a href="${sourceUrl(entry)}" target="_blank" rel="noreferrer">${c.openSource} <span aria-hidden="true">↗</span></a>
+        <div class="chronicle-source-entry">
+          <span>${c.mainSource}${entry.commit ? ` · ${escapeHtml(entry.commit.slice(0, 8))}` : ""}</span>
+          <code>${escapeHtml(entry.commitSubject)}</code>
+          <a href="${sourceUrl(entry)}" target="_blank" rel="noreferrer">${c.openSource} <span aria-hidden="true">↗</span></a>
+        </div>
+        ${entry.changeCommit ? `
+          <p class="chronicle-merge-note">${c.mergeNote}</p>
+          <div class="chronicle-source-entry change">
+            <span>${c.changeSource} · ${escapeHtml(entry.changeCommit.slice(0, 8))}</span>
+            <code>${escapeHtml(entry.changeSubject)}</code>
+            <a href="${changeUrl(entry)}" target="_blank" rel="noreferrer">${c.openChange} <span aria-hidden="true">↗</span></a>
+          </div>` : ""}
       </details>
       <nav class="chronicle-record-nav" aria-label="${c.title}">
         ${previous ? `<button type="button" data-chronicle-record="${escapeHtml(previous.id)}"><span>←</span>${c.previous}<small>${escapeHtml(previous.archiveId)}</small></button>` : "<span></span>"}

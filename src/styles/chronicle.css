@@ -536,7 +536,22 @@
   line-height: 1.7;
 }
 
-.chronicle-source code {
+.chronicle-source-entry {
+  margin: 0 0 14px;
+  border: 1px solid rgba(24, 34, 48, 0.14);
+  background: rgba(255, 255, 255, 0.38);
+}
+
+.chronicle-source-entry > span {
+  display: block;
+  padding: 8px 12px;
+  color: #70685f;
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 0.09em;
+}
+
+.chronicle-source-entry code {
   display: block;
   padding: 12px 14px;
   color: #e9dfd0;
@@ -545,9 +560,19 @@
   white-space: normal;
 }
 
+.chronicle-source-entry.change code {
+  background: #26443f;
+}
+
+.chronicle-merge-note {
+  margin: 2px 0 10px !important;
+  padding-left: 11px;
+  border-left: 3px solid #b58b42;
+}
+
 .chronicle-source a {
   display: inline-flex;
-  margin: 12px 0 17px;
+  margin: 10px 12px 12px;
   align-items: center;
   gap: 8px;
   color: var(--red);

@@ -1,6 +1,8 @@
 import {
   evidenceKinds,
   incidentCases,
+  incidentRetentionReasons,
+  incidentRetentionReviewers,
   incidentSeverity,
 } from "../src/data/incidents.js";
 
@@ -83,10 +85,16 @@ for (const incident of incidentCases) {
 
 for (const [id, label] of Object.entries(incidentSeverity)) translated(label, `incidentSeverity.${id}`);
 for (const [id, label] of Object.entries(evidenceKinds)) translated(label, `evidenceKinds.${id}`);
+if (Object.keys(incidentRetentionReviewers).length < 4) errors.push("expected at least 4 contested-finding reviewers");
+for (const [id, reviewer] of Object.entries(incidentRetentionReviewers)) {
+  for (const field of ["name", "role", "note"]) translated(reviewer[field], `incidentRetentionReviewers.${id}.${field}`);
+}
+if (Object.keys(incidentRetentionReasons).length < 4) errors.push("expected at least 4 contested-finding reasons");
+for (const [id, label] of Object.entries(incidentRetentionReasons)) translated(label, `incidentRetentionReasons.${id}`);
 
 if (errors.length) {
   console.error(errors.map((error) => `- ${error}`).join("\n"));
   process.exit(1);
 }
 
-console.log(`Incident data valid: ${incidentCases.length} cases, ${incidentCases.length * 4} evidence items, ${incidentCases.length * 3} linked BBS reactions.`);
+console.log(`Incident data valid: ${incidentCases.length} cases, ${incidentCases.length * 4} evidence items, ${incidentCases.length * 3} linked BBS reactions, ${Object.keys(incidentRetentionReviewers).length} red-thread reviewers.`);

@@ -195,6 +195,23 @@
   vertical-align: 2px;
 }
 
+.contested-post {
+  background:
+    linear-gradient(90deg, rgba(143, 42, 51, 0.12), transparent 38%),
+    var(--paper-light);
+}
+
+.contested-post .bbs-category {
+  border-color: rgba(143, 42, 51, 0.52);
+  color: #8f2a33;
+}
+
+.contested-post .incident-linked {
+  border-color: rgba(143, 42, 51, 0.55);
+  color: #8f2a33;
+  background: rgba(143, 42, 51, 0.06);
+}
+
 .bbs-replies {
   color: #8b8379;
   font-size: 8px;

@@ -263,6 +263,9 @@ function legacyEvents() {
         resolutionId: resolution.id,
         caseId: resolution.caseId,
         quality: resolution.quality,
+        disposition: resolution.disposition || "established",
+        reviewerId: resolution.reviewerId || null,
+        retentionReason: resolution.retentionReason || null,
       },
     });
   }

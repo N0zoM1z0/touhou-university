@@ -41,7 +41,9 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   equipment/data-version changes instead of rewarding sample size alone;
 - saved experiment slips and closure files that enter the My TU campus ledger,
   campus-wire ticker and three incident-specific BBS reactions, each linked
-  back to the shareable source case;
+  back to the shareable source case; unsupported theories may be retained only
+  through a reviewer-signed, explicitly confirmed red-thread closure that
+  stays visibly marked contested everywhere it appears;
 - classroom availability, dining menus, timetable and exams;
 - illustrated interactive campus map with seven place cards, live arrival
   estimates and four genuinely different transport networks with first/last
@@ -52,7 +54,8 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   readability and fairness study;
 - a living Hieda campus chronicle that maps every first-parent Git revision to
   a trilingual in-universe history record, correction note and real version
-  source;
+  source, while mechanical merge commits separately expose their second-parent
+  functional change without confusing the two SHAs;
 - four timed entrance-exam banks with instant scoring, full saved answer
   records and reopenable reviews;
 - a 150-mark Gensokyo Unified Examination (`幻想鄉統一學力試驗`) with
@@ -138,7 +141,8 @@ Set a different preview port with `PORT=4180 npm run dev`.
   rules in `src/js/incident-model.js`, and presentation in
   `src/js/incidents.js`. Workbench choices, experiment slips and resolutions
   use separate `tu:incidents:*` records. Derived news/BBS reactions must remain
-  distinguishable from visitor-authored `tu:bbs:posts`.
+  distinguishable from visitor-authored `tu:bbs:posts`; contested closures must
+  keep their unsupported verdict, reviewer and retention reason.
 - Add exam banks and questions in `src/data/exam.js`; every question stores all
   three languages beside its answer and explanation.
 - Add unified-examination subjects in `src/data/gaokao.js` and higher-difficulty
@@ -157,7 +161,9 @@ Set a different preview port with `PORT=4180 npm run dev`.
 - Maintain Git-backed campus history in `src/data/campus-history.js`. Before a
   new release, backfill the previous newest record's main-branch SHA and remove
   its `planned` flag, add one planned record whose `commitSubject` matches the
-  intended commit/PR title, and run `npm run history:status`.
+  intended commit/PR title, and run `npm run history:status`. The canonical
+  `commit` always comes from `git log --first-parent main`; only mechanical
+  multi-parent merges additionally record the second parent as `changeCommit`.
 - Add page structure in `src/sections/`.
 - Add feature logic as a focused module in `src/js/` and import it from
   `src/js/main.js`.

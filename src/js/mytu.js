@@ -67,6 +67,7 @@ const copy = {
     timeline: "校園事件帳本",
     timelineLead: "記錄發生、提交、訂正與被移除；刪除原始卡片不會假裝事件從未存在。",
     noEvents: "事件帳本尚無記錄。",
+    contestedClosure: "紅線爭議案卷",
     next: "下一步",
     nextApplication: "提交一份入學申請，讓這個身分進入申請生階段。",
     nextReview: "把申請送入教授聯合審查；他們不保證彼此同意。",
@@ -196,6 +197,7 @@ const copy = {
     timeline: "キャンパス事件台帳",
     timelineLead: "発生、提出、訂正、削除を記録。元カードを消しても出来事を無かったことにはしません。",
     noEvents: "事件台帳に記録はありません。",
+    contestedClosure: "赤糸係争記録",
     next: "次の手続",
     nextApplication: "入学出願を提出し、この身分を志願者段階へ進めます。",
     nextReview: "出願を合同審査へ。教員同士の合意は保証されません。",
@@ -320,6 +322,7 @@ const copy = {
     timeline: "Campus event ledger",
     timelineLead: "Records events, submissions, corrections, and removals. Deleting a source card does not pretend the event never happened.",
     noEvents: "The event ledger is empty.",
+    contestedClosure: "Red-thread contested file",
     next: "Next step",
     nextApplication: "Submit an application to move this identity into applicant status.",
     nextReview: "Send the application to joint review. Agreement among faculty is not guaranteed.",
@@ -633,7 +636,8 @@ function eventLabel(event, locale, c) {
   if (event.type.startsWith("book.")) return `${base} · ${payload.callNumber || payload.holdingId || ""}`;
   if (event.type.startsWith("housing.")) return `${base} · ${payload.roomId || payload.applicationId || payload.requestId || ""}`;
   if (event.type.startsWith("incident.")) {
-    return `${base} · ${payload.caseId || ""}${payload.quality ? ` · ${payload.quality}/100` : ""}`;
+    const disposition = payload.disposition === "contested" ? ` · ${c.contestedClosure}` : "";
+    return `${base} · ${payload.caseId || ""}${payload.quality ? ` · ${payload.quality}/100` : ""}${disposition}`;
   }
   return base;
 }
