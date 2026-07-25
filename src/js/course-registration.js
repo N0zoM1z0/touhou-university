@@ -23,6 +23,7 @@ const copy = {
     lead: "搜尋七所學院的 35 門課；加退選、候補、先修與非普通衝堂都在這台裝置上即時判定。18 學分是提醒，不是結界。",
     records: "學籍首頁",
     registration: "選課與成績",
+    workbench: "作業、考試與答辯",
     term: "開放學期",
     credits: "已選學分",
     enrolled: "已選課",
@@ -108,6 +109,7 @@ const copy = {
     lead: "七学部35科目を検索。追加・取消、補欠、前提科目、通常ではない重複まで端末内で即時判定。18単位は警告であって結界ではありません。",
     records: "学籍ホーム",
     registration: "履修・成績",
+    workbench: "課題・試験・答弁",
     term: "受付学期",
     credits: "履修単位",
     enrolled: "履修中",
@@ -193,6 +195,7 @@ const copy = {
     lead: "Search 35 courses across seven schools. Add/drop, waitlists, prerequisites, and unusual collisions are resolved on this device. Eighteen credits is advice, not a barrier.",
     records: "Student record",
     registration: "Courses & grades",
+    workbench: "Work, exams & defences",
     term: "Open term",
     credits: "Selected credits",
     enrolled: "Enrolled",
@@ -740,6 +743,7 @@ export function renderCourseRegistration(app, rerender) {
     <nav class="mytu-mode-nav" aria-label="My TU">
       <a href="mytu.html#my-tu">${c.records}</a>
       <a href="mytu.html#course-registration" aria-current="page">${c.registration}</a>
+      <a href="mytu.html#academic-work">${c.workbench}</a>
     </nav>
     <div class="course-term-strip">
       <div><span>${c.term}</span><strong>${courseTerm.label[locale]}</strong><small>${courseTerm.addDeadline[locale]} · ${courseTerm.dropDeadline[locale]}</small></div>

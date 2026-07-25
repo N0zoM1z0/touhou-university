@@ -81,22 +81,31 @@ export const transitEdges = {
   ],
 };
 
-function addEdge(graph, [from, to, minutes, name, metres], kind) {
-  if (!graph.has(from)) graph.set(from, []);
-  if (!graph.has(to)) graph.set(to, []);
-  graph.get(from).push({ to, minutes, name, metres, kind });
-  graph.get(to).push({ to: from, minutes, name, metres, kind });
+function routeEdgeKey(from, to) {
+  return [from, to].sort().join("--");
 }
 
-export function findCampusRoute(from, to, modeId) {
+function addEdge(graph, [from, to, minutes, name, metres], kind, rules = {}) {
+  const key = routeEdgeKey(from, to);
+  if (rules.closedEdges?.includes(key)) return;
+  if (rules.closedModes?.includes(kind)) return;
+  if (kind !== "walk" && rules.closedTransitNodes?.some((node) => node === from || node === to)) return;
+  const adjustedMinutes = minutes + (rules.modeDelay?.[kind] || 0) + (rules.edgeDelay?.[key] || 0);
+  if (!graph.has(from)) graph.set(from, []);
+  if (!graph.has(to)) graph.set(to, []);
+  graph.get(from).push({ to, minutes: adjustedMinutes, baseMinutes: minutes, name, metres, kind });
+  graph.get(to).push({ to: from, minutes: adjustedMinutes, baseMinutes: minutes, name, metres, kind });
+}
+
+export function findCampusRoute(from, to, modeId, rules = {}) {
   if (from === to) {
     return { path: [from], edges: [], walkingMinutes: 0, minutes: 0, distance: 0, requestedMode: modeId };
   }
 
   const requestedMode = transportModes[modeId] ? modeId : "walk";
   const graph = new Map();
-  campusEdges.forEach((edge) => addEdge(graph, edge, "walk"));
-  (transitEdges[requestedMode] || []).forEach((edge) => addEdge(graph, edge, requestedMode));
+  campusEdges.forEach((edge) => addEdge(graph, edge, "walk", rules));
+  (transitEdges[requestedMode] || []).forEach((edge) => addEdge(graph, edge, requestedMode, rules));
 
   const distances = new Map([[from, 0]]);
   const previous = new Map();

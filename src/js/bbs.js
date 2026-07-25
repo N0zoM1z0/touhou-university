@@ -6,6 +6,9 @@ import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-link
 import { recordCampusEvent } from "./campus-ledger.js";
 import { incidentCommunityPosts } from "./incident-model.js";
 import { siteHref } from "./site-router.js";
+import { liveCampusSnapshot, seededPostCreatedAt } from "../data/live-campus.js";
+import { governanceCommunityPosts } from "./governance-model.js";
+import { academicCommunityPosts } from "./academic-model.js";
 
 const labels = {
   "zh-Hant": {
@@ -15,6 +18,8 @@ const labels = {
     notice: "校務",
     justNow: "剛剛",
     minutes: "分鐘前",
+    hours: "小時前",
+    days: "天前",
     replies: "回覆",
     posted: "新帖已發佈至校園 BBS。",
     shuffled: "已從校園風聲中換了一批話題。",
@@ -24,7 +29,7 @@ const labels = {
     local: "儲存在這台裝置",
     online: "目前在線",
     topics: "本日主題",
-    synced: "最後同步：剛剛",
+    synced: "最後同步",
     pinned: "置頂",
     status: "狀態",
     mine: "我的發帖",
@@ -34,7 +39,11 @@ const labels = {
     noLocalPosts: "這台裝置還沒有發帖；發佈後會保存在這裡。",
     incidentLinked: "事件連動",
     contestedFile: "紅線爭議案卷",
+    governanceLinked: "議事鐘連動",
+    academicLinked: "答辯連動",
     openCase: "查看結案案卷",
+    openGovernance: "查看校務提案",
+    openAcademic: "查看答辯與成績",
   },
   ja: {
     course: "授業",
@@ -43,6 +52,8 @@ const labels = {
     notice: "学務",
     justNow: "たった今",
     minutes: "分前",
+    hours: "時間前",
+    days: "日前",
     replies: "返信",
     posted: "学内 BBS に投稿しました。",
     shuffled: "キャンパスの風から別の話題を読み込みました。",
@@ -52,7 +63,7 @@ const labels = {
     local: "この端末に保存",
     online: "オンライン",
     topics: "本日のトピック",
-    synced: "最終同期：たった今",
+    synced: "最終同期",
     pinned: "固定",
     status: "状態",
     mine: "自分の投稿",
@@ -62,7 +73,11 @@ const labels = {
     noLocalPosts: "この端末からの投稿はまだありません。投稿後はここに保存されます。",
     incidentLinked: "事案連動",
     contestedFile: "赤糸係争記録",
+    governanceLinked: "議事鐘連動",
+    academicLinked: "答弁連動",
     openCase: "終結記録を見る",
+    openGovernance: "学務提案を見る",
+    openAcademic: "答弁・成績を見る",
   },
   en: {
     course: "Courses",
@@ -71,6 +86,8 @@ const labels = {
     notice: "Campus",
     justNow: "just now",
     minutes: "minutes ago",
+    hours: "hours ago",
+    days: "days ago",
     replies: "Replies",
     posted: "Published to the Campus BBS.",
     shuffled: "A fresh set of topics arrived on the campus wind.",
@@ -80,7 +97,7 @@ const labels = {
     local: "Stored on this device",
     online: "Online now",
     topics: "Topics today",
-    synced: "Last synced: just now",
+    synced: "Last synced",
     pinned: "Pinned",
     status: "Status",
     mine: "My Posts",
@@ -90,7 +107,11 @@ const labels = {
     noLocalPosts: "Nothing has been posted from this device yet. New posts will be saved here.",
     incidentLinked: "Incident-linked",
     contestedFile: "Red-thread contested file",
+    governanceLinked: "Governance-linked",
+    academicLinked: "Defence-linked",
     openCase: "Open closure record",
+    openGovernance: "Open governance proposal",
+    openAcademic: "Open defence & grades",
   },
 };
 
@@ -119,6 +140,8 @@ function relativeTime(createdAt, localeLabels) {
   const elapsed = Math.max(0, Date.now() - new Date(createdAt).getTime());
   const minutes = Math.floor(elapsed / 60_000);
   if (!Number.isFinite(minutes) || minutes < 1) return localeLabels.justNow;
+  if (minutes >= 1_440) return `${Math.floor(minutes / 1_440)} ${localeLabels.days}`;
+  if (minutes >= 60) return `${Math.floor(minutes / 60)} ${localeLabels.hours}`;
   return `${minutes} ${localeLabels.minutes}`;
 }
 
@@ -131,11 +154,13 @@ export function initBbs() {
   let currentOnline = 80 + randomIndex(81);
   let topicsToday = 55 + randomIndex(76);
   let draftTimer;
+  let clockTimer;
 
   function chooseSeedPosts() {
     selectedSeedIndexes = [0, ...shuffle(seededPosts.slice(1).map((_, index) => index + 1)).slice(0, 8)];
-    currentOnline = 80 + randomIndex(81);
-    topicsToday = 55 + randomIndex(76);
+    const state = liveCampusSnapshot();
+    currentOnline = state.online;
+    topicsToday = state.topics;
   }
 
   function openPost(post) {
@@ -160,6 +185,16 @@ export function initBbs() {
             label: l.openCase,
             handler: () => window.location.assign(siteHref(`incident-case-${post.incidentId}`)),
           }
+        : post.governanceId
+          ? {
+              label: l.openGovernance,
+              handler: () => window.location.assign(siteHref("governance")),
+            }
+        : post.academicRoute
+          ? {
+              label: l.openAcademic,
+              handler: () => window.location.assign(siteHref(post.academicRoute)),
+            }
         : undefined,
     });
   }
@@ -168,7 +203,7 @@ export function initBbs() {
     const locale = getLocale();
     const l = labels[locale];
     const article = document.createElement("article");
-    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.generated ? " incident-post" : ""}${post.contested ? " contested-post" : ""}`;
+    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}`;
     article.dataset.bbsCategory = post.category;
     article.dataset.bbsId = post.id;
     if (post.local) article.dataset.userPost = "";
@@ -187,7 +222,13 @@ export function initBbs() {
     if (post.generated) {
       const linked = document.createElement("span");
       linked.className = "incident-linked";
-      linked.textContent = post.contested ? l.contestedFile : l.incidentLinked;
+      linked.textContent = post.contested
+        ? l.contestedFile
+        : post.governance
+          ? l.governanceLinked
+          : post.academic
+            ? l.academicLinked
+            : l.incidentLinked;
       title.append(linked, " ");
     }
     title.append(post.title);
@@ -222,7 +263,7 @@ export function initBbs() {
     }));
     const seeds = selectedSeedIndexes.map((index, position) => {
       const [category, author, title, body, replies] = seededPosts[index];
-      const minutes = 11 + ((index * 13) % 170);
+      const createdAt = seededPostCreatedAt(index, position);
       return {
         id: `seed-${index}`,
         category,
@@ -230,7 +271,8 @@ export function initBbs() {
         title: title[locale],
         body: body[locale],
         replies,
-        time: `${minutes} ${l.minutes}`,
+        createdAt,
+        time: relativeTime(createdAt, l),
         pinned: position === 0,
       };
     });
@@ -238,7 +280,15 @@ export function initBbs() {
       ...post,
       time: relativeTime(post.createdAt, l),
     }));
-    return [...userPosts.reverse(), ...incidentPosts, ...seeds];
+    const governancePosts = governanceCommunityPosts(locale).map((post) => ({
+      ...post,
+      time: relativeTime(post.createdAt, l),
+    }));
+    const academicPosts = academicCommunityPosts(locale).map((post) => ({
+      ...post,
+      time: relativeTime(post.createdAt, l),
+    }));
+    return [...userPosts.reverse(), ...academicPosts, ...governancePosts, ...incidentPosts, ...seeds];
   }
 
   function findPost(id) {
@@ -249,6 +299,7 @@ export function initBbs() {
     const locale = getLocale();
     const l = labels[locale];
     const [category, author, title, body, replies] = seededPosts[seedIndex];
+    const createdAt = seededPostCreatedAt(seedIndex, 0);
     return {
       id,
       category,
@@ -256,7 +307,8 @@ export function initBbs() {
       title: title[locale],
       body: body[locale],
       replies,
-      time: `${11 + ((seedIndex * 13) % 170)} ${l.minutes}`,
+      createdAt,
+      time: relativeTime(createdAt, l),
     };
   }
 
@@ -298,7 +350,10 @@ export function initBbs() {
     const savedPosts = readStored("tu:bbs:posts", []).length;
     if (online) online.lastChild.textContent = ` ${l.online}：${currentOnline}`;
     if (topics) topics.textContent = `${l.topics}：${topicsToday}`;
-    if (sync) sync.textContent = l.synced;
+    if (sync) {
+      const time = new Intl.DateTimeFormat(getLocale(), { hour: "2-digit", minute: "2-digit" }).format(new Date());
+      sync.textContent = `${l.synced}：${time}`;
+    }
     if (local) local.textContent = `${l.localSaved}：${savedPosts} ${l.postsUnit}`;
   }
 
@@ -385,8 +440,17 @@ export function initBbs() {
     updateComposeDefault();
   });
   window.addEventListener("tu:incidentchange", renderPosts);
+  window.addEventListener("tu:governancechange", renderPosts);
+  window.addEventListener("tu:academicchange", renderPosts);
   chooseSeedPosts();
   renderPosts();
+  clockTimer = window.setInterval(() => {
+    const state = liveCampusSnapshot();
+    currentOnline = state.online;
+    topicsToday = state.topics;
+    renderPosts();
+  }, 60_000);
+  window.addEventListener("pagehide", () => window.clearInterval(clockTimer), { once: true });
   const infoDialog = document.querySelector("[data-info-dialog]");
   registerDeepLink("bbs-", {
     anchor: "#bbs",

@@ -116,10 +116,10 @@
           <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>MY TU</b>
         </nav>
         <div class="page-masthead-copy">
-          <div><p>MY TU</p><h1 id="page-title">學籍、選課與校園履歷</h1></div>
-          <p>這台裝置記得你的申請、試驗、課程與校園事件；資料不必離開瀏覽器。</p>
+          <div><p>MY TU</p><h1 id="page-title">學籍、課業、答辯與校園履歷</h1></div>
+          <p>這台裝置記得你的申請、試驗、課程、答案、成績與答辯；資料不必離開瀏覽器。</p>
         </div>
-        <nav class="page-local-nav" aria-label="學籍、選課與校園履歷"><a href="#my-tu">學籍中心</a><a href="#course-registration">選課與成績</a></nav>
+        <nav class="page-local-nav" aria-label="學籍、課業、答辯與校園履歷"><a href="#my-tu">學籍中心</a><a href="#course-registration">選課與成績</a><a href="#academic-work">課業工作台</a><a href="#academic-grades">成績單</a><a href="#academic-defense">論文／符卡答辯</a></nav>
       </div>
     </section>
       <section class="mytu-section" id="my-tu" aria-labelledby="mytu-title">
@@ -332,6 +332,15 @@
   <footer class="course-document-actions">
     <button class="button button-secondary" type="button" data-course-document-close>返回選課系統</button>
     <button class="button button-primary" type="button" data-course-document-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
+  </footer>
+</dialog>
+
+<dialog class="academic-document-dialog" data-academic-document-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉成績單" data-academic-document-close>×</button>
+  <div class="academic-document" data-academic-document-body></div>
+  <footer class="academic-document-actions">
+    <button class="button button-secondary" type="button" data-academic-document-close>返回成績單</button>
+    <button class="button button-primary" type="button" data-academic-document-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
   </footer>
 </dialog>
 

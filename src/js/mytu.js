@@ -6,6 +6,8 @@ import {
   initCourseDocumentDialog,
   renderCourseRegistration,
 } from "./course-registration.js";
+import { academicGradebook } from "./academic-model.js";
+import { initAcademicDocumentDialog, renderAcademicWorkbench } from "./academic-work.js";
 import { getLocale } from "./i18n.js";
 import { showToast } from "./ui.js";
 
@@ -46,8 +48,10 @@ const copy = {
     library: "借閱／預約",
     residential: "宿舍／換房",
     incidents: "事件研究／結案",
+    academicRecords: "課業評量／答辯",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
+    academicMode: "作業、考試與答辯",
     drafts: "未完成",
     applicationReview: "教授聯合審查",
     reviewLead: "審查會讀取所選申請的研究問題、方法、需求與本機最佳考試成績，產生可再次開啟的校內評議。",
@@ -123,6 +127,12 @@ const copy = {
       "housing.change.cancelled": "撤回換房請求",
       "incident.experiment.completed": "完成事件研究模擬",
       "incident.resolved": "結案並發布事件連動",
+      "governance.vote.cast": "投下本機校務議事票",
+      "academic.assignment.graded": "提交課程作業並完成判分",
+      "academic.exam.started": "開始限時課程考試",
+      "academic.exam.completed": "完成限時課程考試",
+      "academic.project.submitted": "提交論文／符卡研究計畫",
+      "academic.defence.completed": "完成論文／符卡答辯",
     },
     document: {
       university: "幻想鄉立東方大學",
@@ -176,8 +186,10 @@ const copy = {
     library: "貸出／予約",
     residential: "学生寮／転室",
     incidents: "事案研究／終結",
+    academicRecords: "課業評価／答弁",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
+    academicMode: "課題・試験・答弁",
     drafts: "未完了",
     applicationReview: "教員合同審査",
     reviewLead: "選択した出願の問い・方法・希望と端末内最高試験成績を読み、再閲覧可能な学内評議を作成します。",
@@ -248,6 +260,12 @@ const copy = {
       "housing.change.cancelled": "転室依頼を撤回",
       "incident.experiment.completed": "事案研究シミュレーションを完了",
       "incident.resolved": "事案を終結し連動を公開",
+      "governance.vote.cast": "端末内学務議事票を投票",
+      "academic.assignment.graded": "授業課題を提出・採点",
+      "academic.exam.started": "計時授業試験を開始",
+      "academic.exam.completed": "計時授業試験を完了",
+      "academic.project.submitted": "論文／スペルカード研究計画を提出",
+      "academic.defence.completed": "論文／スペルカード答弁を完了",
     },
     document: {
       university: "幻想郷立東方大学",
@@ -301,8 +319,10 @@ const copy = {
     library: "Loans / holds",
     residential: "Housing / transfers",
     incidents: "Incident studies / closures",
+    academicRecords: "Coursework / defences",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
+    academicMode: "Work, exams & defences",
     drafts: "Unfinished",
     applicationReview: "Joint faculty review",
     reviewLead: "The panel reads the selected question, method, needs, and best on-device exam result, then saves a reopenable internal review.",
@@ -373,6 +393,12 @@ const copy = {
       "housing.change.cancelled": "Withdrew a room-transfer request",
       "incident.experiment.completed": "Completed an incident research simulation",
       "incident.resolved": "Closed a case and published linked reactions",
+      "governance.vote.cast": "Cast an on-device governance vote",
+      "academic.assignment.graded": "Submitted and graded course work",
+      "academic.exam.started": "Started a timed course exam",
+      "academic.exam.completed": "Completed a timed course exam",
+      "academic.project.submitted": "Submitted a thesis / spell-card project",
+      "academic.defence.completed": "Completed a thesis / spell-card defence",
     },
     document: {
       university: "TOUHOU UNIVERSITY OF GENSOKYO",
@@ -401,6 +427,7 @@ const documentDialog = document.querySelector("[data-mytu-document-dialog]");
 const documentBody = documentDialog?.querySelector("[data-mytu-document]");
 let editingIdentity = false;
 let openDocumentApplicationId = null;
+let academicWorkbenchCleanup = null;
 
 function readJson(key, fallback) {
   try {
@@ -455,12 +482,16 @@ function allRecords() {
   const housingChanges = readJson("tu:housing:room-changes", []);
   const incidentExperiments = readJson("tu:incidents:experiments", []);
   const incidentResolutions = readJson("tu:incidents:resolutions", []);
+  const academicSubmissions = readJson("tu:academics:submissions", []);
+  const academicExamAttempts = readJson("tu:academics:exam-attempts", []);
+  const academicDefences = readJson("tu:academics:defences", []);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
     Number(Boolean(readJson("tu:gaokao:draft", null)));
   const housingDraft = Number(Boolean(readJson("tu:housing:draft", null)));
   const courseSummary = courseRegistrationSummary();
+  const academicBook = academicGradebook();
   const activeLibrary = (Array.isArray(libraryLoans) ? libraryLoans : []).filter((record) => record.status === "active").length
     + (Array.isArray(libraryHolds) ? libraryHolds : []).filter((record) => record.status === "active").length;
   const activeHousing = (Array.isArray(housingAssignments) ? housingAssignments : []).filter((record) => record.status === "active").length
@@ -480,6 +511,10 @@ function allRecords() {
     activeHousing,
     incidentRecords: (Array.isArray(incidentExperiments) ? incidentExperiments : []).length
       + (Array.isArray(incidentResolutions) ? incidentResolutions : []).length,
+    academicRecords: (Array.isArray(academicSubmissions) ? academicSubmissions : []).length
+      + (Array.isArray(academicExamAttempts) ? academicExamAttempts : []).length
+      + (Array.isArray(academicDefences) ? academicDefences : []).length,
+    academicAverage: academicBook.average,
   };
 }
 
@@ -639,6 +674,16 @@ function eventLabel(event, locale, c) {
     const disposition = payload.disposition === "contested" ? ` · ${c.contestedClosure}` : "";
     return `${base} · ${payload.caseId || ""}${payload.quality ? ` · ${payload.quality}/100` : ""}${disposition}`;
   }
+  if (event.type === "governance.vote.cast") return `${base} · ${payload.proposalId || ""}`;
+  if (event.type === "academic.assignment.graded") {
+    return `${base} · ${payload.courseCode || payload.assignmentId || ""} · ${Number(payload.percent) || 0}%`;
+  }
+  if (event.type === "academic.exam.started") return `${base} · ${payload.examId || ""}`;
+  if (event.type === "academic.exam.completed") return `${base} · ${Number(payload.percent) || 0}%`;
+  if (event.type === "academic.project.submitted") return `${base} · ${payload.projectId || ""}`;
+  if (event.type === "academic.defence.completed") {
+    return `${base} · ${payload.projectId || ""} · ${Number(payload.percent) || 0}%`;
+  }
   return base;
 }
 
@@ -671,6 +716,7 @@ function renderDashboard(identity, records, locale, c) {
     <nav class="mytu-mode-nav" aria-label="My TU">
       <a href="mytu.html#my-tu" aria-current="page">${c.recordsMode}</a>
       <a href="mytu.html#course-registration">${c.courseMode}<span>${records.courseSummary.enrolled + records.courseSummary.waitlisted}</span></a>
+      <a href="mytu.html#academic-work">${c.academicMode}<span>${records.academicRecords}</span></a>
     </nav>
     <div class="mytu-dashboard">
       <section class="mytu-id-card">
@@ -699,6 +745,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="library.html#library"><span>${c.library}</span><strong>${records.activeLibrary}</strong></a>
           <a href="housing.html#housing-account"><span>${c.residential}</span><strong>${records.activeHousing}</strong></a>
           <a href="incidents.html#incident-records"><span>${c.incidents}</span><strong>${records.incidentRecords}</strong></a>
+          <a href="mytu.html#academic-grades"><span>${c.academicRecords}</span><strong>${records.academicAverage ?? "—"}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>
       </section>
@@ -877,6 +924,14 @@ function render() {
   const identity = readJson(IDENTITY_KEY, null);
   const records = allRecords();
   const route = decodeURIComponent(window.location.hash.slice(1));
+  if (route.startsWith("academic-")) {
+    editingIdentity = false;
+    academicWorkbenchCleanup?.();
+    academicWorkbenchCleanup = renderAcademicWorkbench(app);
+    return;
+  }
+  academicWorkbenchCleanup?.();
+  academicWorkbenchCleanup = null;
   if (route === "course-registration" || route.startsWith("course-")) {
     editingIdentity = false;
     renderCourseRegistration(app, render);
@@ -893,6 +948,7 @@ export function initMyTu() {
   if (!app) return;
   syncCampusLedger();
   initCourseDocumentDialog();
+  initAcademicDocumentDialog();
   documentDialog?.querySelectorAll("[data-mytu-document-close]").forEach((button) => {
     button.addEventListener("click", () => documentDialog.close());
   });
@@ -900,7 +956,12 @@ export function initMyTu() {
   window.addEventListener("tu:ledgerchange", render);
   window.addEventListener("tu:languagechange", render);
   window.addEventListener("hashchange", () => {
-    if (window.location.hash === "#my-tu" || window.location.hash === "#course-registration" || window.location.hash.startsWith("#course-")) render();
+    if (
+      window.location.hash === "#my-tu"
+      || window.location.hash === "#course-registration"
+      || window.location.hash.startsWith("#course-")
+      || window.location.hash.startsWith("#academic-")
+    ) render();
   });
   render();
 }

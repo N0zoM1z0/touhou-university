@@ -119,10 +119,15 @@
           <div><p>CAMPUS LIFE</p><h1 id="page-title">校園、路線與共同生活</h1></div>
           <p>從博麗門到永遠亭，路線會隨交通方式與月相改變；校園裡的傳聞通常更快。</p>
         </div>
-        <nav class="page-local-nav" aria-label="校園、路線與共同生活"><a href="#map">校園地圖</a><a href="#campus">校園風采</a><a href="#bbs">校園 BBS</a></nav>
+        <nav class="page-local-nav" aria-label="校園、路線與共同生活"><a href="#live-campus">動態校園</a><a href="#governance">校務治理</a><a href="#map">校園地圖</a><a href="#campus">校園風采</a><a href="#bbs">校園 BBS</a></nav>
       </div>
     </section>
-      <section class="section campus-map" id="map">
+      <section class="live-campus-section" id="live-campus" aria-labelledby="live-campus-title">
+  <span class="section-route-anchor" id="governance" aria-hidden="true"></span>
+  <h2 class="visually-hidden" id="live-campus-title">動態校園與校務治理</h2>
+  <div class="container" data-live-campus-app></div>
+</section>
+<section class="section campus-map" id="map">
   <div class="container">
     <header class="section-header reveal">
       <div>
@@ -216,6 +221,7 @@
         </div>
         <p>選擇步行、掃帚、天狗風路或竹林兔車；每一種交通都有自己的停靠點與接駁路線。</p>
       </header>
+      <div class="route-live-status" data-route-live aria-live="polite"></div>
       <form class="route-form" data-route-form>
         <label>
           <span>出發地</span>
@@ -573,6 +579,15 @@
   <footer class="course-document-actions">
     <button class="button button-secondary" type="button" data-course-document-close>返回選課系統</button>
     <button class="button button-primary" type="button" data-course-document-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
+  </footer>
+</dialog>
+
+<dialog class="academic-document-dialog" data-academic-document-dialog>
+  <button class="dialog-close" type="button" aria-label="關閉成績單" data-academic-document-close>×</button>
+  <div class="academic-document" data-academic-document-body></div>
+  <footer class="academic-document-actions">
+    <button class="button button-secondary" type="button" data-academic-document-close>返回成績單</button>
+    <button class="button button-primary" type="button" data-academic-document-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
   </footer>
 </dialog>
 

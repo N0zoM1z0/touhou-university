@@ -19,8 +19,9 @@ if (!redirected) {
   await initialize("[data-school]", "./schools.js", "initSchools");
   await initialize("[data-faculty]", "./faculty.js", "initFaculty");
   await initialize("[data-friction]", "./friction.js", "initFacultyFriction");
-  await initialize("#services", "./services.js", "initServices");
+  await initialize("[data-service]", "./services.js", "initServices");
   await initialize("#map", "./map.js", "initCampusMap");
+  await initialize("[data-live-campus-app]", "./live-campus.js", "initLiveCampus");
   await initialize("[data-research]", "./research.js", "initResearch");
   await initialize("#bbs", "./bbs.js", "initBbs");
   await initialize("[data-campus-feature]", "./campus.js", "initCampusInteractions");

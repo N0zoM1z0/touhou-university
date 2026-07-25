@@ -59,6 +59,11 @@ function legacyEvents() {
   const housingChanges = readJson("tu:housing:room-changes", []);
   const incidentExperiments = readJson("tu:incidents:experiments", []);
   const incidentResolutions = readJson("tu:incidents:resolutions", []);
+  const governanceVotes = readJson("tu:governance:votes", []);
+  const academicSubmissions = readJson("tu:academics:submissions", []);
+  const academicExamAttempts = readJson("tu:academics:exam-attempts", []);
+  const academicProjects = readJson("tu:academics:projects", []);
+  const academicDefences = readJson("tu:academics:defences", []);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -266,6 +271,66 @@ function legacyEvents() {
         disposition: resolution.disposition || "established",
         reviewerId: resolution.reviewerId || null,
         retentionReason: resolution.retentionReason || null,
+      },
+    });
+  }
+  for (const vote of Array.isArray(governanceVotes) ? governanceVotes : []) {
+    if (!vote?.id || !vote?.castAt) continue;
+    events.push({
+      id: `governance.vote.cast:${vote.proposalId}`,
+      type: "governance.vote.cast",
+      timestamp: vote.castAt,
+      payload: { proposalId: vote.proposalId, choiceId: vote.choiceId, voteId: vote.id },
+    });
+  }
+  for (const submission of Array.isArray(academicSubmissions) ? academicSubmissions : []) {
+    if (!submission?.id || !submission?.submittedAt) continue;
+    events.push({
+      id: `academic.assignment.graded:${submission.id}`,
+      type: "academic.assignment.graded",
+      timestamp: submission.submittedAt,
+      payload: {
+        assignmentId: submission.assignmentId,
+        submissionId: submission.id,
+        courseCode: submission.courseCode,
+        percent: submission.percent,
+      },
+    });
+  }
+  for (const attempt of Array.isArray(academicExamAttempts) ? academicExamAttempts : []) {
+    if (!attempt?.id || !attempt?.completedAt) continue;
+    events.push({
+      id: `academic.exam.completed:${attempt.id}`,
+      type: "academic.exam.completed",
+      timestamp: attempt.completedAt,
+      payload: {
+        examId: attempt.examId,
+        attemptId: attempt.id,
+        percent: attempt.percent,
+        timedOut: Boolean(attempt.timedOut),
+      },
+    });
+  }
+  for (const project of Array.isArray(academicProjects) ? academicProjects : []) {
+    if (!project?.id || !project?.submittedAt) continue;
+    events.push({
+      id: `academic.project.submitted:${project.id}`,
+      type: "academic.project.submitted",
+      timestamp: project.submittedAt,
+      payload: { projectId: project.id, projectType: project.type },
+    });
+  }
+  for (const defence of Array.isArray(academicDefences) ? academicDefences : []) {
+    if (!defence?.id || !defence?.completedAt) continue;
+    events.push({
+      id: `academic.defence.completed:${defence.id}`,
+      type: "academic.defence.completed",
+      timestamp: defence.completedAt,
+      payload: {
+        projectId: defence.projectId,
+        defenceId: defence.id,
+        outcome: defence.outcome,
+        percent: defence.percent,
       },
     });
   }
