@@ -1,0 +1,96 @@
+:root {
+  --text-reading: 14px;
+  --text-supporting: 12px;
+  --text-label: 10px;
+}
+
+:where(.page-masthead, .section-heading, .service-dialog-heading, .campus-form, .mytu-review, .library-app, .clinic-app, .housing-app, .incident-app) p {
+  line-height: 1.72;
+}
+
+.page-breadcrumb,
+.page-local-nav a,
+.service-card small,
+.campus-form small,
+.form-actions > span,
+.room-card span,
+.room-card dt,
+.mytu-review-source span,
+.mytu-reviewers article span,
+.mytu-reviewers article i,
+.library-card small,
+.clinic-app small,
+.housing-app small,
+.incident-app small {
+  font-size: max(var(--text-label), 0.625rem);
+}
+
+.page-masthead-copy > p,
+.service-dialog-heading > p,
+.mytu-review > header span,
+.mytu-decision p,
+.mytu-reviewers article > p,
+.library-app p,
+.clinic-app p,
+.housing-app p,
+.incident-app p {
+  font-size: max(var(--text-supporting), 0.75rem);
+}
+
+.page-local-nav a,
+.button,
+button,
+input,
+select,
+textarea {
+  line-height: 1.4;
+}
+
+.school-row-en,
+.faculty-info > p,
+.faculty-info h3 small,
+.research-card > p:first-child,
+.research-card dd,
+.bbs-category,
+.bbs-row > div small,
+.chronicle-record > header p,
+.chronicle-record-meta dt,
+.chronicle-record blockquote span,
+.friction-heading > p:first-child,
+.friction-note > span,
+.friction-note > small,
+.faith-council-copy header > p:first-child,
+.faith-roster small,
+.faith-review > span {
+  font-size: var(--text-label);
+}
+
+.school-tags,
+.faculty-info > span,
+.research-card h3 + p,
+.chronicle-record-meta dd,
+.chronicle-record blockquote p,
+.friction-heading > p:last-child,
+.faith-council-copy header > p:last-child,
+.faith-review > p {
+  font-size: var(--text-supporting);
+}
+
+.bbs-row > div p,
+.friction-note > strong,
+.faith-roster b {
+  font-size: var(--text-reading);
+}
+
+@media (max-width: 600px) {
+  :root {
+    --text-reading: 15px;
+    --text-supporting: 13px;
+    --text-label: 11px;
+  }
+
+  .page-masthead-copy > p,
+  .section-heading > p {
+    font-size: var(--text-reading);
+  }
+}

@@ -20,6 +20,7 @@
     <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-academics.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
   <body data-page="academics">
@@ -47,15 +48,28 @@
       </a>
 
       <nav class="desktop-nav" aria-label="主要導覽">
-        <a href="index.html#about">學校介紹</a>
-        <a href="academics.html#academics">學術單位</a>
-        <a href="admissions.html#admissions">招生</a>
-        <a href="library.html#library">圖書館</a>
-        <a href="clinic.html#clinic">校醫院</a>
-        <a href="housing.html#housing">住宿</a>
-        <a href="research.html#research">成果</a>
-        <a href="incidents.html#incident-center">事件</a>
-        <a href="campus.html#campus">校園風采</a>
+        <details class="nav-group" data-nav-group="university">
+          <summary>大學與學術 <span aria-hidden="true">⌄</span></summary>
+          <div class="nav-group-panel">
+            <p>UNIVERSITY / ACADEMICS</p>
+            <a href="index.html#about"><strong>學校介紹</strong><small>校訓、傳統與校史</small></a>
+            <a href="academics.html#academics"><strong>學術單位</strong><small>學院、課程與師資</small></a>
+            <a href="research.html#research"><strong>研究成果</strong><small>方法、失敗與訂正</small></a>
+            <a href="campus.html#campus"><strong>校園生活</strong><small>地圖、社團與 BBS</small></a>
+          </div>
+        </details>
+        <details class="nav-group" data-nav-group="services">
+          <summary>入學與學生服務 <span aria-hidden="true">⌄</span></summary>
+          <div class="nav-group-panel nav-group-panel-wide">
+            <p>ADMISSIONS / STUDENT SERVICES</p>
+            <a href="admissions.html#admissions"><strong>招生與試驗</strong><small>申請、考試與統一試驗</small></a>
+            <a href="mytu.html#my-tu"><strong>My TU</strong><small>學籍、選課與成績</small></a>
+            <a href="library.html#library"><strong>霧湖圖書館</strong><small>借閱、續借與預約</small></a>
+            <a href="clinic.html#clinic"><strong>永遠亭校醫院</strong><small>分診、處方與康復</small></a>
+            <a href="housing.html#housing"><strong>住宿與室友</strong><small>房間、配對與換房</small></a>
+            <a href="incidents.html#incident-center"><strong>事件中心</strong><small>案卷、模擬與結案</small></a>
+          </div>
+        </details>
       </nav>
 
       <div class="header-tools">
@@ -90,18 +104,28 @@
         <span aria-hidden="true">⌕</span> SEARCH / 全站搜尋
       </button>
       <nav aria-label="行動版導覽">
-        <a href="index.html#about"><span>01</span>學校介紹</a>
-        <a href="academics.html#academics"><span>02</span>學術單位</a>
-        <a href="academics.html#faculty"><span>03</span>師資陣容</a>
-        <a href="admissions.html#admissions"><span>04</span>招生情報</a>
-        <a href="library.html#library"><span>05</span>霧湖圖書館</a>
-        <a href="clinic.html#clinic"><span>06</span>永遠亭校醫院</a>
-        <a href="housing.html#housing"><span>07</span>宿舍生活</a>
-        <a href="research.html#research"><span>08</span>研究成果</a>
-        <a href="incidents.html#incident-center"><span>09</span>事件中心</a>
-        <a href="campus.html#campus"><span>10</span>校園風采</a>
-        <a href="campus.html#bbs"><span>11</span>校園 BBS</a>
-        <a href="mytu.html#my-tu"><span>12</span>MY TU</a>
+        <section>
+          <p>大學與學術</p>
+          <div>
+            <a href="index.html#about">學校介紹</a>
+            <a href="academics.html#academics">學術單位</a>
+            <a href="academics.html#faculty">師資陣容</a>
+            <a href="research.html#research">研究成果</a>
+            <a href="campus.html#campus">校園生活</a>
+          </div>
+        </section>
+        <section>
+          <p>入學與學生服務</p>
+          <div>
+            <a href="admissions.html#admissions">招生情報</a>
+            <a href="mytu.html#my-tu">My TU 學籍中心</a>
+            <a href="library.html#library">霧湖圖書館</a>
+            <a href="clinic.html#clinic">永遠亭校醫院</a>
+            <a href="housing.html#housing">宿舍生活</a>
+            <a href="incidents.html#incident-center">事件中心</a>
+            <a href="campus.html#bbs">校園 BBS</a>
+          </div>
+        </section>
       </nav>
       <div class="mobile-languages" role="group" aria-label="Language">
         <button class="language-button active" type="button" data-lang="zh-Hant">中文</button>
@@ -227,7 +251,7 @@
           <div class="faculty-grid">
             <article class="faculty-card reveal" data-category="boundary">
               <div class="faculty-portrait portrait-reimu">
-                <img decoding="async" src="assets/images/faculty/set-a/reimu.webp" alt="博麗靈夢教授" loading="lazy" width="1000" height="750">
+                <img decoding="async" src="assets/images/faculty/set-a/reimu.webp" srcset="assets/images/faculty/set-a/reimu-mobile.webp 560w, assets/images/faculty/set-a/reimu.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="博麗靈夢教授" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">☯</span>
               </div>
               <div class="faculty-info">
@@ -240,7 +264,7 @@
 
             <article class="faculty-card reveal" data-category="boundary">
               <div class="faculty-portrait portrait-yukari">
-                <img decoding="async" src="assets/images/faculty/set-a/yukari.webp" alt="八雲紫教授" loading="lazy" width="1000" height="750">
+                <img decoding="async" src="assets/images/faculty/set-a/yukari.webp" srcset="assets/images/faculty/set-a/yukari-mobile.webp 560w, assets/images/faculty/set-a/yukari.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="八雲紫教授" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">◐</span>
               </div>
               <div class="faculty-info">
@@ -253,7 +277,7 @@
 
             <article class="faculty-card reveal" data-category="boundary">
               <div class="faculty-portrait portrait-keine">
-                <img decoding="async" src="assets/images/faculty/set-a/keine.webp" alt="上白澤慧音教授" loading="lazy" width="1000" height="750">
+                <img decoding="async" src="assets/images/faculty/set-a/keine.webp" srcset="assets/images/faculty/set-a/keine-mobile.webp 560w, assets/images/faculty/set-a/keine.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="上白澤慧音教授" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">□</span>
               </div>
               <div class="faculty-info">
@@ -266,7 +290,7 @@
 
             <article class="faculty-card reveal" data-category="science">
               <div class="faculty-portrait portrait-patchouli">
-                <img decoding="async" src="assets/images/faculty/set-a/patchouli.webp" alt="帕秋莉・諾蕾姬教授" loading="lazy" width="1000" height="750">
+                <img decoding="async" src="assets/images/faculty/set-a/patchouli.webp" srcset="assets/images/faculty/set-a/patchouli-mobile.webp 560w, assets/images/faculty/set-a/patchouli.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="帕秋莉・諾蕾姬教授" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">☾</span>
               </div>
               <div class="faculty-info">
@@ -279,7 +303,7 @@
 
             <article class="faculty-card reveal" data-category="science">
               <div class="faculty-portrait portrait-marisa">
-                <img decoding="async" src="assets/images/faculty/set-a/marisa.webp" alt="霧雨魔理沙教授" loading="lazy" width="1000" height="750">
+                <img decoding="async" src="assets/images/faculty/set-a/marisa.webp" srcset="assets/images/faculty/set-a/marisa-mobile.webp 560w, assets/images/faculty/set-a/marisa.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="霧雨魔理沙教授" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">✦</span>
               </div>
               <div class="faculty-info">
@@ -292,7 +316,7 @@
 
             <article class="faculty-card reveal" data-category="science">
               <div class="faculty-portrait portrait-eirin">
-                <img decoding="async" src="assets/images/faculty/set-a/eirin.webp" alt="八意永琳教授" loading="lazy" width="1000" height="750">
+                <img decoding="async" src="assets/images/faculty/set-a/eirin.webp" srcset="assets/images/faculty/set-a/eirin-mobile.webp 560w, assets/images/faculty/set-a/eirin.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="八意永琳教授" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">⚕</span>
               </div>
               <div class="faculty-info">
@@ -305,7 +329,7 @@
 
             <article class="faculty-card reveal" data-category="society">
               <div class="faculty-portrait portrait-nitori">
-                <img decoding="async" src="assets/images/faculty/set-a/nitori.webp" alt="河城荷取教授" loading="lazy" width="1000" height="750">
+                <img decoding="async" src="assets/images/faculty/set-a/nitori.webp" srcset="assets/images/faculty/set-a/nitori-mobile.webp 560w, assets/images/faculty/set-a/nitori.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="河城荷取教授" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">⚙</span>
               </div>
               <div class="faculty-info">
@@ -318,7 +342,7 @@
 
             <article class="faculty-card reveal" data-category="society">
               <div class="faculty-portrait portrait-aya">
-                <img decoding="async" src="assets/images/faculty/set-a/aya.webp" alt="射命丸文教授" loading="lazy" width="1000" height="750">
+                <img decoding="async" src="assets/images/faculty/set-a/aya.webp" srcset="assets/images/faculty/set-a/aya-mobile.webp 560w, assets/images/faculty/set-a/aya.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="射命丸文教授" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">◉</span>
               </div>
               <div class="faculty-info">
@@ -351,6 +375,8 @@
             <div class="faith-council-media">
               <img decoding="async"
                 src="assets/images/faculty/faith-council.webp"
+                srcset="assets/images/faculty/faith-council-mobile.webp 720w, assets/images/faculty/faith-council.webp 1536w"
+                sizes="(max-width: 700px) 94vw, 48vw"
                 alt="聖白蓮、八坂神奈子、豐聰耳神子與東風谷早苗在破舊會議室裡爭論祭典資源圖"
                 loading="lazy"
                 width="1536"

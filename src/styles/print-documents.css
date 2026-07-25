@@ -1,0 +1,83 @@
+.tu-print-root {
+  display: none;
+}
+
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
+@media print {
+  html,
+  body {
+    min-height: 0 !important;
+    overflow: visible !important;
+    background: #fff !important;
+  }
+
+  body.tu-document-printing::before {
+    display: none !important;
+  }
+
+  body.tu-document-printing > *:not(.tu-print-root) {
+    display: none !important;
+  }
+
+  body.tu-document-printing > .tu-print-root {
+    position: static !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    color: #17202c !important;
+    background: #fff !important;
+    box-shadow: none !important;
+  }
+
+  .tu-print-root,
+  .tu-print-root * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .tu-print-root > * {
+    width: 100% !important;
+    max-width: 186mm !important;
+    margin-inline: auto !important;
+    padding: 8mm !important;
+    border: 1px solid #b9b0a2 !important;
+    background: #fff !important;
+    box-shadow: none !important;
+  }
+
+  .tu-print-root header,
+  .tu-print-root footer,
+  .tu-print-root article,
+  .tu-print-root dl > div,
+  .tu-print-root tr {
+    break-inside: avoid;
+  }
+
+  .tu-print-root table {
+    width: 100% !important;
+    border-collapse: collapse;
+  }
+
+  .tu-print-root th,
+  .tu-print-root td {
+    padding: 2.4mm !important;
+    border: 1px solid #c9c0b3 !important;
+    font-size: 9.5pt !important;
+    line-height: 1.45 !important;
+  }
+
+  .tu-print-root p,
+  .tu-print-root li,
+  .tu-print-root dd {
+    orphans: 3;
+    widows: 3;
+  }
+}

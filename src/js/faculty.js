@@ -22,7 +22,11 @@ export function initFaculty() {
   document.querySelectorAll("[data-filter]").forEach((button) => {
     button.addEventListener("click", () => {
       const category = button.dataset.filter;
-      document.querySelectorAll("[data-filter]").forEach((item) => item.classList.toggle("active", item === button));
+      document.querySelectorAll("[data-filter]").forEach((item) => {
+        const selected = item === button;
+        item.classList.toggle("active", selected);
+        item.setAttribute("aria-pressed", String(selected));
+      });
       document.querySelectorAll(".faculty-card").forEach((card) => {
         card.classList.toggle("is-hidden", category !== "all" && card.dataset.category !== category);
       });

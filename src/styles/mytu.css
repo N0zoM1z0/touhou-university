@@ -7,30 +7,6 @@
   border-block: 1px solid rgba(23, 32, 44, 0.16);
 }
 
-.header-mytu {
-  display: grid;
-  min-width: 54px;
-  min-height: 34px;
-  padding: 0 9px;
-  place-items: center;
-  border: 1px solid currentColor;
-  font-size: 8px;
-  font-weight: 850;
-  letter-spacing: 0.12em;
-}
-
-.service-tile-mytu {
-  color: var(--white);
-  background:
-    linear-gradient(135deg, rgba(155, 48, 57, 0.62), transparent 52%),
-    #172536;
-}
-
-.service-tile-mytu .service-icon {
-  color: #f2d4ad;
-  border-color: rgba(242, 212, 173, 0.52);
-}
-
 .mytu-heading {
   display: grid;
   margin-bottom: 38px;
@@ -526,8 +502,35 @@
   color: var(--red);
 }
 
+.mytu-reviewers blockquote {
+  margin: 4px 0 0;
+  padding: 10px 12px;
+  border-left: 2px solid rgba(40, 72, 100, 0.45);
+  background: rgba(255, 255, 255, 0.48);
+}
+
+.mytu-reviewers blockquote small,
+.mytu-reviewers blockquote q {
+  display: block;
+}
+
+.mytu-reviewers blockquote small {
+  margin-bottom: 5px;
+  color: var(--red);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.mytu-reviewers blockquote q {
+  font-family: var(--serif);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
 .mytu-reviewers article > p {
-  margin: 14px 0 0;
+  margin: 10px 0 0;
   font-family: var(--serif);
   font-size: 11px;
   line-height: 1.85;

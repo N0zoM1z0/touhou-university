@@ -1,4 +1,5 @@
 import { showToast } from "./ui.js";
+import { safeDecodeFragment } from "./url-state.js";
 
 const registrations = [];
 let applyingRoute = false;
@@ -18,7 +19,7 @@ function locale() {
 }
 
 function routeFromLocation() {
-  return decodeURIComponent(window.location.hash.slice(1));
+  return safeDecodeFragment();
 }
 
 function registrationFor(route) {
@@ -60,7 +61,10 @@ function alignRouteTarget(target, route, behavior = "auto") {
   // `behavior: auto` still inherits `html { scroll-behavior: smooth }`.
   // Corrections must be instantaneous or each pass starts another animation
   // that can be overtaken by the next lazy-layout shift.
-  window.scrollTo({ top, left: 0, behavior: "instant" });
+  const previous = document.documentElement.style.scrollBehavior;
+  document.documentElement.style.scrollBehavior = "auto";
+  window.scrollTo({ top, left: 0 });
+  document.documentElement.style.scrollBehavior = previous;
 }
 
 function stabilizeRoutePosition(route, registration, behavior = "auto") {
@@ -185,6 +189,9 @@ function applyCurrentRoute({ position = true, behavior = "auto" } = {}) {
 
 export function registerDeepLink(prefix, handlers) {
   registrations.push({ prefix, ...handlers });
+  if (initialized && routeFromLocation().startsWith(prefix)) {
+    queueMicrotask(() => applyCurrentRoute());
+  }
 }
 
 export function navigateToDeepLink(route, { replace = false } = {}) {
@@ -244,7 +251,7 @@ export function initDeepLinks() {
     if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     const link = event.target.closest('a[href^="#"]');
     if (!link) return;
-    const route = decodeURIComponent(link.getAttribute("href").slice(1));
+    const route = safeDecodeFragment(link.getAttribute("href").slice(1));
     const registration = registrationFor(route);
     const target = targetForRoute(route, registration);
     if (!registration && !target) return;

@@ -385,7 +385,9 @@ export function initBbs() {
   function setActiveFilter(filter) {
     activeFilter = filter;
     document.querySelectorAll("[data-bbs-filter]").forEach((item) => {
-      item.classList.toggle("active", item.dataset.bbsFilter === filter);
+      const selected = item.dataset.bbsFilter === filter;
+      item.classList.toggle("active", selected);
+      item.setAttribute("aria-pressed", String(selected));
     });
     applyFilter();
   }

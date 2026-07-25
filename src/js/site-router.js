@@ -1,3 +1,5 @@
+import { safeDecodeFragment } from "./url-state.js";
+
 const pageFiles = {
   home: "index.html",
   academics: "academics.html",
@@ -46,7 +48,7 @@ export function navigateToSiteRoute(route, { replace = false } = {}) {
 }
 
 export function redirectMisplacedRoute() {
-  const route = decodeURIComponent(window.location.hash.slice(1));
+  const route = safeDecodeFragment();
   if (!route) return false;
   const targetPage = pageForRoute(route);
   if (targetPage === currentPage()) return false;

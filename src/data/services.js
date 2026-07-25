@@ -2,6 +2,7 @@ export const mapPlaces = {
   gate: {
     index: "01 / MAIN GATE",
     image: "assets/images/campus-hero.webp",
+    imageMobile: "assets/images/campus-hero-mobile.webp",
     imageAlt: {
       "zh-Hant": "晨霧中的幻想鄉立東方大學主校區與博麗門",
       ja: "朝霧に包まれた幻想郷立東方大学の本校舎と博麗門",
@@ -21,6 +22,7 @@ export const mapPlaces = {
   library: {
     index: "02 / LIBRARY",
     image: "assets/images/library.webp",
+    imageMobile: "assets/images/library-mobile.webp",
     imageAlt: {
       "zh-Hant": "暮色中的霧湖圖書館閱覽大廳",
       ja: "夕暮れの霧の湖図書館閲覧ホール",
@@ -40,6 +42,7 @@ export const mapPlaces = {
   boundary: {
     index: "03 / LECTURE HALL",
     image: "assets/images/map/boundary-hall.webp",
+    imageMobile: "assets/images/map/boundary-hall-mobile.webp",
     imageAlt: {
       "zh-Hant": "大結界光幕下的境界講堂",
       ja: "大結界の光幕に面した境界講堂",
@@ -59,6 +62,7 @@ export const mapPlaces = {
   history: {
     index: "04 / ARCHIVE",
     image: "assets/images/map/hieda-history-hall.webp",
+    imageMobile: "assets/images/map/hieda-history-hall-mobile.webp",
     imageAlt: {
       "zh-Hant": "人里旁保存古籍與編年史的稗田史學館",
       ja: "人里のそばで古文書と年代記を守る稗田史学館",
@@ -78,6 +82,7 @@ export const mapPlaces = {
   magic: {
     index: "05 / LABORATORY",
     image: "assets/images/map/seven-day-laboratory.webp",
+    imageMobile: "assets/images/map/seven-day-laboratory-mobile.webp",
     imageAlt: {
       "zh-Hant": "黃昏時七曜實驗塔內發光的魔法研究室",
       ja: "黄昏の七曜実験塔に灯る魔法研究室",
@@ -97,6 +102,7 @@ export const mapPlaces = {
   clinic: {
     index: "06 / CLINIC",
     image: "assets/images/map/eientei-clinic.webp",
+    imageMobile: "assets/images/map/eientei-clinic-mobile.webp",
     imageAlt: {
       "zh-Hant": "迷途竹林深處燈火通明的永遠亭診療所",
       ja: "迷いの竹林の奥で灯りをともす永遠亭診療所",
@@ -116,6 +122,7 @@ export const mapPlaces = {
   kappa: {
     index: "07 / FIELD WORKSHOP",
     image: "assets/images/kappa-lab.webp",
+    imageMobile: "assets/images/kappa-lab-mobile.webp",
     imageAlt: {
       "zh-Hant": "妖怪山瀑布旁運轉水力設備的河童聯合工房",
       ja: "妖怪の山の滝で水力設備を動かす河童共同工房",

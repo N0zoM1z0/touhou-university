@@ -609,6 +609,104 @@
   font-size: 12px;
 }
 
+.facility-live-board {
+  margin-bottom: 28px;
+}
+
+.facility-live-board > header {
+  display: flex;
+  margin-bottom: 12px;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.facility-live-board > header p,
+.facility-live-board > header h3 {
+  margin: 0;
+}
+
+.facility-live-board > header p {
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.11em;
+}
+
+.facility-live-board > header h3 {
+  font-family: var(--serif);
+  font-size: 20px;
+}
+
+.facility-live-board > div {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.facility-live-board article {
+  min-height: 172px;
+  padding: 15px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.42);
+}
+
+.facility-live-board article > span {
+  display: inline-flex;
+  margin-bottom: 13px;
+  align-items: center;
+  gap: 6px;
+  color: #287157;
+  font-size: 11px;
+  font-weight: 850;
+}
+
+.facility-live-board article > span::before {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  content: "";
+  box-shadow: 0 0 0 3px color-mix(in srgb, currentColor 18%, transparent);
+}
+
+.facility-live-board article[data-open="false"] > span {
+  color: #9b3039;
+}
+
+.facility-live-board h4 {
+  min-height: 43px;
+  margin: 0 0 10px;
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.facility-live-board dl {
+  margin: 0;
+}
+
+.facility-live-board dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+}
+
+.facility-live-board dd {
+  margin: 0;
+  font-weight: 750;
+}
+
+.facility-live-board article > p {
+  margin: 10px 0 0;
+  color: var(--ink-soft);
+  font-size: 11px;
+  line-height: 1.55;
+}
+
 .room-controls {
   display: flex;
   margin-bottom: 20px;
@@ -652,6 +750,18 @@
   grid-template-columns: 1fr 1fr;
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
+}
+
+.room-list-empty {
+  margin: 0;
+  padding: 28px;
+  grid-column: 1 / -1;
+  color: var(--ink-soft);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  font-family: var(--serif);
+  font-size: 13px;
+  line-height: 1.75;
 }
 
 .room-card {
@@ -814,4 +924,30 @@
 
 .compose-dialog > h2 {
   margin-bottom: 28px;
+}
+
+@media (max-width: 900px) {
+  .facility-live-board > div {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .facility-live-board > header {
+    align-items: start;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .facility-live-board > div {
+    display: flex;
+    padding-bottom: 4px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .facility-live-board article {
+    min-width: min(78vw, 250px);
+    scroll-snap-align: start;
+  }
 }

@@ -217,34 +217,141 @@ p {
   display: flex;
   height: 100%;
   align-items: center;
-  gap: 29px;
+  gap: 10px;
 }
 
-.desktop-nav a {
+.nav-group {
   position: relative;
-  display: grid;
   height: 100%;
-  place-items: center;
+}
+
+.nav-group summary {
+  display: flex;
+  height: 100%;
+  min-width: 142px;
+  padding: 0 16px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 750;
   letter-spacing: 0.08em;
 }
 
-.desktop-nav a::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: -1px;
-  left: 0;
-  height: 2px;
-  transform: scaleX(0);
-  background: currentColor;
-  transition: transform 0.25s;
+.nav-group summary::-webkit-details-marker {
+  display: none;
 }
 
-.desktop-nav a:hover::after,
-.desktop-nav a:focus-visible::after {
-  transform: scaleX(1);
+.nav-group summary span {
+  font-size: 12px;
+  transition: transform 0.2s;
+}
+
+.nav-group[open] summary span {
+  transform: rotate(180deg);
+}
+
+.nav-group[open] summary,
+.nav-group summary:hover,
+.nav-group summary:focus-visible {
+  background: rgba(255, 253, 248, 0.12);
+}
+
+.is-fixed .nav-group[open] summary,
+.is-fixed .nav-group summary:hover,
+.is-fixed .nav-group summary:focus-visible,
+body:not([data-page="home"]) .nav-group[open] summary,
+body:not([data-page="home"]) .nav-group summary:hover,
+body:not([data-page="home"]) .nav-group summary:focus-visible {
+  background: rgba(155, 48, 57, 0.07);
+}
+
+.nav-group-panel {
+  position: absolute;
+  top: calc(100% - 1px);
+  left: 50%;
+  display: grid;
+  width: 360px;
+  padding: 17px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  transform: translateX(-50%);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  background: rgba(250, 247, 240, 0.98);
+  box-shadow: 0 20px 45px rgba(22, 31, 43, 0.16);
+  backdrop-filter: blur(18px);
+}
+
+.nav-group-panel-wide {
+  width: 520px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.nav-group-panel > p {
+  margin: 0;
+  padding: 3px 7px 9px;
+  grid-column: 1 / -1;
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.15em;
+}
+
+.nav-group-panel a {
+  display: flex;
+  min-height: 72px;
+  padding: 11px 12px;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition:
+    border-color 0.18s,
+    background 0.18s;
+}
+
+.nav-group-panel a:hover,
+.nav-group-panel a:focus-visible,
+.nav-group-panel a[aria-current="page"] {
+  border-color: rgba(155, 48, 57, 0.22);
+  background: rgba(255, 253, 248, 0.86);
+}
+
+.nav-group-panel a strong {
+  font-family: var(--serif);
+  font-size: 15px;
+}
+
+.nav-group-panel a small {
+  margin-top: 3px;
+  color: var(--ink-soft);
+  font-size: 11px;
+}
+
+.header-tools {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  gap: 14px;
+  margin-right: 32px;
+}
+
+.header-tools .header-cta {
+  margin-right: 0;
+}
+
+.header-mytu {
+  display: grid;
+  min-width: 54px;
+  min-height: 34px;
+  padding: 0 9px;
+  place-items: center;
+  border: 1px solid currentColor;
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
 }
 
 .header-cta {
@@ -2231,7 +2338,7 @@ p {
     inset: 0;
     z-index: 45;
     display: grid;
-    padding: 110px 8vw 40px;
+    padding: 102px 8vw 30px;
     place-items: center;
     color: var(--white);
     background: rgba(13, 20, 29, 0.98);
@@ -2243,21 +2350,37 @@ p {
 
   .mobile-menu nav {
     width: min(600px, 100%);
+    max-height: calc(100svh - 225px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
   }
 
-  .mobile-menu a {
+  .mobile-menu nav section + section {
+    margin-top: 24px;
+  }
+
+  .mobile-menu nav section > p {
+    margin: 0 0 6px;
+    color: #d7aa75;
+    font-size: 11px;
+    font-weight: 850;
+    letter-spacing: 0.14em;
+  }
+
+  .mobile-menu nav section > div {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 24px;
+  }
+
+  .mobile-menu nav a {
     display: flex;
-    padding: 14px 0;
-    gap: 24px;
+    min-height: 52px;
+    padding: 10px 0;
+    align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.16);
     font-family: var(--serif);
-    font-size: 25px;
-  }
-
-  .mobile-menu a span {
-    color: #c58c79;
-    font-family: var(--sans);
-    font-size: 9px;
+    font-size: 18px;
   }
 
   .section-intro,

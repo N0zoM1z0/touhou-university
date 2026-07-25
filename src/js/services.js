@@ -3,6 +3,7 @@ import {
   liveCampusSnapshot,
   liveDiningMenu,
   liveExamSchedule,
+  liveFacilityBoard,
   liveRoomAvailability,
   liveTimetable,
 } from "../data/live-campus.js";
@@ -58,6 +59,12 @@ const copy = {
     seats: "座位",
     freeUntil: "可用至",
     availableNow: "目前可用",
+    liveFacilities: "此刻館舍開放板",
+    hoursLabel: "開放時間",
+    openNow: "開放中",
+    closedNow: "目前閉館",
+    seatsFree: "空位",
+    noRooms: "這個時段沒有可直接占用的房間；請查看上方閉館與降載通告，或等下一次校鐘。",
     reading: "閱覽室",
     classroom: "教室",
     seminar: "研討室",
@@ -148,6 +155,12 @@ const copy = {
     seats: "席",
     freeUntil: "利用可能時刻",
     availableNow: "現在利用可",
+    liveFacilities: "現在の施設開館板",
+    hoursLabel: "開館時間",
+    openNow: "開館中",
+    closedNow: "現在閉館",
+    seatsFree: "空席",
+    noRooms: "この時間に直接利用できる部屋はありません。上の休館・減載告知を確認するか、次の校鐘をお待ちください。",
     reading: "閲覧室",
     classroom: "教室",
     seminar: "演習室",
@@ -238,6 +251,12 @@ const copy = {
     seats: "Seats",
     freeUntil: "Free until",
     availableNow: "Available now",
+    liveFacilities: "Live facility board",
+    hoursLabel: "Opening hours",
+    openNow: "Open now",
+    closedNow: "Currently closed",
+    seatsFree: "places free",
+    noRooms: "No room is directly available in this period. Check the closure and load notices above, or wait for the next bell.",
     reading: "Reading room",
     classroom: "Classroom",
     seminar: "Seminar room",
@@ -544,9 +563,23 @@ export function initServices() {
   function renderAvailability() {
     const locale = getLocale();
     const c = copy[locale];
+    const facilities = liveFacilityBoard(locale);
     const roomAvailability = liveRoomAvailability();
     const buildings = [...new Set(roomAvailability.map((room) => room.building))];
     content.innerHTML = `
+      <section class="facility-live-board">
+        <header><p>LIVE CAMPUS / ${facilities[0]?.snapshotKey || ""}</p><h3>${c.liveFacilities}</h3></header>
+        <div>${facilities.map((facility) => `
+          <article data-open="${facility.open}">
+            <span>${facility.open ? c.openNow : c.closedNow}</span>
+            <h4>${mapPlaces[facility.id].name[locale]}</h4>
+            <dl>
+              <div><dt>${c.hoursLabel}</dt><dd>${facility.hours}</dd></div>
+              <div><dt>${c.seatsFree}</dt><dd>${facility.availableSeats} / ${facility.capacity}</dd></div>
+            </dl>
+            <p>${escapeHtml(facility.note)}</p>
+          </article>`).join("")}</div>
+      </section>
       <div class="room-controls">
         <label>${c.building}
           <select data-room-building>
@@ -561,7 +594,7 @@ export function initServices() {
     const select = content.querySelector("[data-room-building]");
     const renderRooms = () => {
       const selected = select.value;
-      list.innerHTML = roomAvailability
+      const rooms = roomAvailability
         .filter((room) => room.available && (selected === "all" || room.building === selected))
         .map(
           (room) => `
@@ -575,6 +608,7 @@ export function initServices() {
             </article>`,
         )
         .join("");
+      list.innerHTML = rooms || `<p class="room-list-empty">${c.noRooms}</p>`;
     };
     select.addEventListener("change", renderRooms);
     renderRooms();
@@ -584,7 +618,13 @@ export function initServices() {
     visitView = "form";
     const locale = getLocale();
     const c = copy[locale];
-    const tomorrow = new Date(Date.now() + 86400000).toISOString().slice(0, 10);
+    const nextLocalDay = new Date();
+    nextLocalDay.setDate(nextLocalDay.getDate() + 1);
+    const tomorrow = [
+      nextLocalDay.getFullYear(),
+      String(nextLocalDay.getMonth() + 1).padStart(2, "0"),
+      String(nextLocalDay.getDate()).padStart(2, "0"),
+    ].join("-");
     const visits = readStored("tu:visits", []);
     const draft = readStored("tu:visit:draft", null);
     content.innerHTML = `

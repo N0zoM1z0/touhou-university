@@ -24,6 +24,7 @@ import {
 import { renderPreservingState } from "./render-state.js";
 import { siteHref } from "./site-router.js";
 import { showToast } from "./ui.js";
+import { safeDecodeFragment } from "./url-state.js";
 
 const LAST_CASE_KEY = "tu:incidents:last-case";
 
@@ -377,7 +378,7 @@ function formatDate(value, locale) {
 }
 
 function currentRoute() {
-  return decodeURIComponent(window.location.hash.slice(1));
+  return safeDecodeFragment();
 }
 
 function viewForRoute(route) {

@@ -12,6 +12,7 @@ export const site = {
         srcset: "assets/images/campus-hero-mobile.webp 960w, assets/images/campus-hero.webp 1672w",
         sizes: "100vw",
       },
+      styles: ["services", "traditions", "chronicle", "forms", "responsive-extras", "search", "audiences", "print-documents", "readability"],
       sections: ["hero", "ticker", "audiences", "services", "about", "traditions", "faq", "closing"],
     },
     {
@@ -24,6 +25,7 @@ export const site = {
       lead: "七所學院不只共用校名，也共用一批不肯安分待在系所邊界內的問題。",
       links: [["academics", "七所學院"], ["faculty", "師資陣容"]],
       sections: ["academics", "faculty"],
+      styles: ["faculty-friction", "schools", "services", "forms", "responsive-extras", "search", "pages", "print-documents", "readability"],
     },
     {
       id: "admissions",
@@ -35,6 +37,7 @@ export const site = {
       lead: "把問題帶來，選一條入學路線；試卷會計時，申請草稿則會在這台裝置上等你回來。",
       links: [["admissions", "招生案內"], ["entrance-exam", "入學試驗"], ["gaokao", "統一試驗"]],
       sections: ["admissions", "exam", "gaokao"],
+      styles: ["services", "exam", "forms", "responsive-extras", "search", "pages", "gaokao", "print-documents", "readability"],
     },
     {
       id: "research",
@@ -46,6 +49,7 @@ export const site = {
       lead: "成果不只列題目：方法、失敗、限制、訂正與仍然吵不完的結論都留在檔案裡。",
       links: [["research", "研究成果"]],
       sections: ["research"],
+      styles: ["services", "forms", "responsive-extras", "search", "pages", "print-documents", "readability"],
     },
     {
       id: "incidents",
@@ -57,6 +61,7 @@ export const site = {
       lead: "事件可以先被控制，結論必須能被推翻；至於結案後的爭論，校園 BBS 自有它的生命。",
       links: [["incident-center", "事件案卷"], ["incident-simulator", "研究模擬器"], ["incident-records", "結案與連動"]],
       sections: ["incidents"],
+      styles: ["services", "forms", "responsive-extras", "search", "pages", "incidents", "print-documents", "readability"],
     },
     {
       id: "campus",
@@ -68,6 +73,7 @@ export const site = {
       lead: "從博麗門到永遠亭，路線會隨交通方式與月相改變；校園裡的傳聞通常更快。",
       links: [["live-campus", "動態校園"], ["governance", "校務治理"], ["map", "校園地圖"], ["campus", "校園風采"], ["bbs", "校園 BBS"]],
       sections: ["live-campus", "map", "campus", "bbs"],
+      styles: ["services", "map", "live-campus", "forms", "bbs", "responsive-extras", "search", "pages", "eientei", "print-documents", "readability"],
     },
     {
       id: "mytu",
@@ -79,30 +85,41 @@ export const site = {
       lead: "這台裝置記得你的申請、試驗、課程、答案、成績與答辯；資料不必離開瀏覽器。",
       links: [["my-tu", "學籍中心"], ["course-registration", "選課與成績"], ["academic-work", "課業工作台"], ["academic-grades", "成績單"], ["academic-defense", "論文／符卡答辯"]],
       sections: ["mytu"],
+      styles: ["services", "forms", "responsive-extras", "search", "mytu", "courses", "academic-work", "pages", "print-documents", "readability"],
     },
     {
       id: "library",
       output: "library.html",
       title: "霧湖圖書館｜幻想鄉立東方大學",
       description: "搜尋霧湖圖書館館藏，借閱、預約、續借、歸還並查看本機借閱紀錄。",
-      preload: { href: "assets/images/library.webp" },
+      preload: {
+        href: "assets/images/library-mobile.webp",
+        srcset: "assets/images/library-mobile.webp 640w, assets/images/library.webp 1280w",
+        sizes: "(max-width: 700px) 100vw, 48vw",
+      },
       eyebrow: "MISTY LAKE LIBRARY",
       heading: "霧湖圖書館",
       lead: "館藏可能飛離書架、拒絕原位置或只在滿月可見；索書號與你的借閱紀錄仍會留下。",
       links: [["library", "館藏與借閱"]],
       sections: ["library"],
+      styles: ["services", "forms", "responsive-extras", "search", "pages", "library", "print-documents", "readability"],
     },
     {
       id: "clinic",
       output: "clinic.html",
       title: "永遠亭校醫院｜幻想鄉立東方大學",
       description: "校醫務室與永遠亭附屬校醫院：分診、候診、幻想鄉藥局、處方、病友紀錄與康復療法。",
-      preload: { href: "assets/images/map/eientei-clinic.webp" },
+      preload: {
+        href: "assets/images/map/eientei-clinic-mobile.webp",
+        srcset: "assets/images/map/eientei-clinic-mobile.webp 640w, assets/images/map/eientei-clinic.webp 1280w",
+        sizes: "(max-width: 700px) 100vw, 48vw",
+      },
       eyebrow: "CAMPUS MEDICAL CENTER",
       heading: "校醫院、醫務室與月藥調劑",
       lead: "先把症狀說清楚，再決定去本部醫務室還是穿過竹林；處方、領藥與康復回條會留在這台裝置。",
-      links: [["clinic", "分診與候診"], ["clinic-pharmacy", "藥局與處方"], ["clinic-recovery", "康復療法"], ["clinic-account", "我的診療紀錄"]],
+      links: [["clinic-triage-desk", "開始診療"], ["clinic-pharmacy", "藥局與處方"], ["clinic-recovery", "康復療法"], ["clinic-account", "我的診療紀錄"]],
       sections: ["clinic"],
+      styles: ["services", "forms", "responsive-extras", "search", "pages", "clinic", "print-documents", "readability"],
     },
     {
       id: "housing",
@@ -114,6 +131,7 @@ export const site = {
       lead: "月相、翼展、水域、牆面與作息都會影響分房；適合的室友不是沒有麻煩，而是麻煩能先談清楚。",
       links: [["housing", "宿舍總覽"], ["housing-application", "申請與配對"], ["housing-account", "我的宿舍"]],
       sections: ["housing"],
+      styles: ["services", "forms", "responsive-extras", "search", "pages", "housing", "print-documents", "readability"],
     },
   ],
   styles: [
@@ -141,6 +159,8 @@ export const site = {
     "incidents",
     "eientei",
     "gaokao",
+    "print-documents",
+    "readability",
   ],
   locales: ["zh-Hant", "ja", "en"],
 };

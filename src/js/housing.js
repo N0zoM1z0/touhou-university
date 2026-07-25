@@ -26,6 +26,7 @@ import {
 } from "./housing-model.js";
 import { renderPreservingState } from "./render-state.js";
 import { showToast } from "./ui.js";
+import { safeDecodeFragment } from "./url-state.js";
 
 const copy = {
   "zh-Hant": {
@@ -269,14 +270,14 @@ function optionMarkup(options, selected) {
 }
 
 function currentTab() {
-  const hash = decodeURIComponent(window.location.hash.slice(1));
+  const hash = safeDecodeFragment();
   if (hash === "housing-application") return "application";
   if (hash === "housing-account") return "account";
   return "overview";
 }
 
 function selectedResidenceId() {
-  const hash = decodeURIComponent(window.location.hash.slice(1));
+  const hash = safeDecodeFragment();
   const match = hash.match(/^housing-residence-(.+)$/);
   return residenceById(match?.[1])?.id || residences[0].id;
 }
@@ -519,7 +520,8 @@ export function initHousing() {
     const c = copy[locale];
     const active = currentTab();
     renderPreservingState(root, () => {
-      root.innerHTML = `${hero(locale, c)}${tabs(active, c)}<div class="housing-view">${
+      const routeId = active === "overview" ? `housing-residence-${selectedResidenceId()}` : `housing-${active}`;
+      root.innerHTML = `${hero(locale, c)}${tabs(active, c)}<div class="housing-view" id="${routeId}">${
         active === "overview" ? overviewView(locale, c)
           : active === "application" ? applicationView(locale, c, forceForm, firstChoice, selectedApplicationId)
             : accountView(locale, c)

@@ -331,9 +331,23 @@
     #d9c9a9;
   box-shadow: 2px 4px 0 rgba(0, 0, 0, 0.18);
   font-family: var(--serif);
-  font-size: 8px;
+  font-size: 11px;
   line-height: 1.55;
   pointer-events: none;
+}
+
+.map-repair-note small,
+.map-repair-note b {
+  display: block;
+}
+
+.map-repair-note small {
+  margin-bottom: 3px;
+  color: #74413b;
+  font-family: var(--sans);
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 0.11em;
 }
 
 .map-repair-note::before,
@@ -551,6 +565,16 @@
   font-family: var(--serif);
   font-size: 10px;
   line-height: 1.8;
+}
+
+.route-outsider-credit {
+  display: block;
+  max-width: 620px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.62);
+  font-family: var(--serif);
+  font-size: 12px;
+  line-height: 1.7;
 }
 
 .route-form {
