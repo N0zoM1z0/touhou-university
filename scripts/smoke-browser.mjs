@@ -188,17 +188,31 @@ try {
     const indexBefore = index.scrollTop;
     dialog.querySelector('[data-chronicle-record="three-language-gate"]').click();
     await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    dialog.querySelector('[data-chronicle-record="seven-doors-and-misty-desk"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const sourceEntries = [...dialog.querySelectorAll('.chronicle-source-entry')];
     return {
-      active: dialog.querySelector('[data-chronicle-record="three-language-gate"]')?.classList.contains('active'),
+      active: dialog.querySelector('[data-chronicle-record="seven-doors-and-misty-desk"]')?.classList.contains('active'),
       dialogBefore,
       dialogAfter: dialog.scrollTop,
       indexBefore,
-      indexAfter: dialog.querySelector('.chronicle-index').scrollTop
+      indexAfter: dialog.querySelector('.chronicle-index').scrollTop,
+      sourceCount: sourceEntries.length,
+      sourceText: sourceEntries.map((entry) => entry.textContent),
+      sourceHrefs: sourceEntries.map((entry) => entry.querySelector('a')?.href || '')
     };
   })()`);
   check(chronicleState.active, "Chronicle selection did not update the active record.");
   check(Math.abs(chronicleState.dialogAfter - chronicleState.dialogBefore) <= 2, "Chronicle selection reset the dialog scroll position.");
   check(Math.abs(chronicleState.indexAfter - chronicleState.indexBefore) <= 2, "Chronicle selection reset the archive index scroll position.");
+  check(
+    chronicleState.sourceCount === 2
+      && chronicleState.sourceText[0].includes("Merge pull request #13")
+      && chronicleState.sourceText[1].includes("Split campus into pages")
+      && chronicleState.sourceHrefs[0].includes("3af2a5c")
+      && chronicleState.sourceHrefs[1].includes("3a5dea1"),
+    "Chronicle did not distinguish the main merge commit from its functional head commit.",
+  );
 
   await navigate("academics.html#academics", "#academics");
   const academics = await cdp.evaluate(`(() => {
@@ -586,27 +600,100 @@ try {
   check(incidentBbs.linkedPosts === 3 && incidentBbs.dialogOpen, "Incident closure did not generate three BBS reactions.");
   check(incidentBbs.action.includes("案卷") && incidentBbs.hash.startsWith("#bbs-incident-"), "Incident-linked BBS post cannot return to its case file.");
 
+  await navigate("incidents.html#incident-case-fourth-lantern-loop", "[data-incident-app]");
+  const contestedSetup = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-incident-hypothesis="tewi-label"]').click();
+    document.querySelector('[data-incident-action="lock-firmware"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-incident-open-lab]').click();
+    return location.hash;
+  })()`);
+  check(contestedSetup === "#incident-simulator", "Unsupported incident hypothesis did not open in the simulator.");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-incident-design]'))"));
+  const contestedFlow = await cdp.evaluate(`(async () => {
+    const form = document.querySelector('[data-incident-design]');
+    form.elements.sampleSize.value = '96';
+    form.elements.repeats.value = '4';
+    for (const name of ['control', 'randomize', 'calibration', 'versionLock']) form.elements[name].checked = true;
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const experiments = JSON.parse(localStorage.getItem('tu:incidents:experiments'));
+    const latest = experiments.at(-1);
+    const ordinary = document.querySelector('[data-incident-resolve]');
+    const retain = document.querySelector('[data-incident-retain]');
+    retain?.click();
+    const dialog = document.querySelector('[data-incident-retention-dialog]');
+    const dialogOpen = Boolean(dialog?.open);
+    dialog.querySelector('form').requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const blockedBeforeConfirm = dialog.open
+      && JSON.parse(localStorage.getItem('tu:incidents:resolutions')).length === 1;
+    dialog.querySelector('select[name="retentionReason"]').value = 'headline';
+    dialog.querySelector('input[name="confirmation"]').checked = true;
+    dialog.querySelector('form').requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const resolutions = JSON.parse(localStorage.getItem('tu:incidents:resolutions'));
+    const record = resolutions.at(-1);
+    return {
+      latest,
+      ordinary: Boolean(ordinary),
+      retainReady: Boolean(retain && !retain.disabled),
+      dialogOpen,
+      blockedBeforeConfirm,
+      record,
+      hash: location.hash,
+      archiveContested: Boolean(document.querySelector('.incident-resolution-grid article[data-disposition="contested"]')),
+      bbsHref: document.querySelector('.incident-resolution-grid article[data-disposition="contested"] a[href*="bbs-"]')?.getAttribute('href')
+    };
+  })()`);
+  check(contestedFlow.latest.verdict === "rejects" && !contestedFlow.ordinary && contestedFlow.retainReady, "Rejected incident result did not offer only the red-thread retention path.");
+  check(
+    contestedFlow.dialogOpen
+      && contestedFlow.blockedBeforeConfirm
+      && contestedFlow.record.disposition === "contested"
+      && contestedFlow.record.reviewerId === "marisa"
+      && contestedFlow.record.retentionReason === "headline"
+      && contestedFlow.archiveContested
+      && contestedFlow.hash === "#incident-records",
+    "Explicitly confirmed contested closure was not preserved with its reviewer, reason, and visible disposition.",
+  );
+
+  await navigate(contestedFlow.bbsHref, "#bbs");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-info-dialog]')?.open)"));
+  const contestedBbs = await cdp.evaluate(`({
+    posts: document.querySelectorAll('.contested-post').length,
+    label: document.querySelector('.contested-post .incident-linked')?.textContent || '',
+    warning: document.querySelector('[data-info-summary]')?.textContent || document.querySelector('[data-info-dialog]')?.textContent || ''
+  })`);
+  check(contestedBbs.posts === 3 && contestedBbs.label.includes("紅線"), "Contested closure did not generate three visibly red-thread BBS posts.");
+  check(/沒有證實|未獲支持/.test(contestedBbs.warning), "Contested BBS discussion lost the warning that the claim was not established.");
+
   await navigate("index.html", "[data-news-track]");
   const incidentNews = await cdp.evaluate(`({
     dynamic: document.querySelectorAll('[data-news-id^="incident-news-"]').length,
-    service: Boolean(document.querySelector('a[href^="incidents.html"]'))
+    service: Boolean(document.querySelector('a[href^="incidents.html"]')),
+    contested: [...document.querySelectorAll('[data-news-id^="incident-news-"]')].some((item) => /爭議性結案|紅線保留/.test(item.textContent))
   })`);
-  check(incidentNews.dynamic >= 1 && incidentNews.service, "Incident closure did not reach the campus wire or home services.");
+  check(incidentNews.dynamic >= 2 && incidentNews.service && incidentNews.contested, "Normal and contested incident closures did not both reach the campus wire.");
 
   await navigate("mytu.html#my-tu", "#my-tu");
-  const myTuLibrary = await cdp.evaluate(`({
-    libraryLink: document.querySelector('.mytu-summary a[href^="library.html"]')?.textContent || '',
-    libraryEvents: [...document.querySelectorAll('.mytu-ledger strong')].filter((node) => node.textContent.includes('館藏')).length,
-    housingLink: document.querySelector('.mytu-summary a[href^="housing.html"]')?.textContent || '',
-    housingEvents: [...document.querySelectorAll('.mytu-ledger strong')].filter((node) => /住宿|宿舍|換房/.test(node.textContent)).length,
-    incidentLink: document.querySelector('.mytu-summary a[href^="incidents.html"]')?.textContent || '',
-    incidentEvents: [...document.querySelectorAll('.mytu-ledger strong')].filter((node) => /事件研究|事件連動/.test(node.textContent)).length
-  })`);
+  const myTuLibrary = await cdp.evaluate(`(() => {
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      libraryLink: document.querySelector('.mytu-summary a[href^="library.html"]')?.textContent || '',
+      libraryEvents: ledger.filter((event) => event.type.startsWith('book.')).length,
+      housingLink: document.querySelector('.mytu-summary a[href^="housing.html"]')?.textContent || '',
+      housingEvents: ledger.filter((event) => event.type.startsWith('housing.')).length,
+      incidentLink: document.querySelector('.mytu-summary a[href^="incidents.html"]')?.textContent || '',
+      incidentEvents: ledger.filter((event) => event.type.startsWith('incident.')).length,
+      contestedEvent: [...document.querySelectorAll('.mytu-ledger strong')].some((node) => node.textContent.includes('紅線爭議案卷'))
+    };
+  })()`);
   check(mytuLibraryLinkOkay(myTuLibrary.libraryLink), "My TU does not link to the library record.");
   check(myTuLibrary.libraryEvents >= 3, "Library actions are missing from the My TU campus ledger.");
   check(/宿舍|換房/.test(myTuLibrary.housingLink), "My TU does not link to the housing record.");
   check(myTuLibrary.housingEvents >= 3, "Housing actions are missing from the My TU campus ledger.");
-  check(/事件研究|結案/.test(myTuLibrary.incidentLink) && myTuLibrary.incidentEvents >= 2, "Incident simulation and closure are missing from My TU.");
+  check(/事件研究|結案/.test(myTuLibrary.incidentLink) && myTuLibrary.incidentEvents >= 4 && myTuLibrary.contestedEvent, "Normal and contested incident work is missing from My TU.");
 
   await cdp.call("Page.navigate", { url: `${siteUrl}index.html#research-spellcard` });
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));

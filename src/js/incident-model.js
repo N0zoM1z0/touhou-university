@@ -1,4 +1,9 @@
-import { incidentById, incidentCases } from "../data/incidents.js";
+import {
+  incidentById,
+  incidentCases,
+  incidentRetentionReasons,
+  incidentRetentionReviewers,
+} from "../data/incidents.js";
 
 const WORKBENCH_KEY = "tu:incidents:workbench";
 const EXPERIMENT_KEY = "tu:incidents:experiments";
@@ -251,19 +256,22 @@ export function runIncidentExperiment(caseId, hypothesisId, requestedDesign = {}
   return record;
 }
 
-export function resolveIncident(caseId, experimentId) {
+export function resolveIncident(caseId, experimentId, options = {}) {
   const existing = resolutionForCase(caseId);
   if (existing) return { record: existing, alreadyResolved: true };
   const incident = incidentById(caseId);
   const state = incidentCaseState(caseId);
   const experiment = incidentExperiments().find((record) => record.id === experimentId && record.caseId === caseId);
-  if (
-    !incident
-    || !experiment
-    || experiment.quality < 60
-    || experiment.verdict !== "supports"
-    || !state.selectedActions.length
-  ) {
+  const established = experiment?.quality >= 60 && experiment?.verdict === "supports";
+  const contested = Boolean(
+    experiment
+    && !established
+    && options.retainContested === true
+    && options.confirmed === true
+    && incidentRetentionReviewers[options.reviewerId]
+    && incidentRetentionReasons[options.retentionReason],
+  );
+  if (!incident || !experiment || !state.selectedActions.length || (!established && !contested)) {
     return { error: "not-ready" };
   }
   const resolvedAt = new Date().toISOString();
@@ -278,6 +286,10 @@ export function resolveIncident(caseId, experimentId) {
     experimentId: experiment.id,
     quality: experiment.quality,
     verdict: experiment.verdict,
+    disposition: contested ? "contested" : "established",
+    reviewerId: contested ? options.reviewerId : null,
+    retentionReason: contested ? options.retentionReason : null,
+    confirmedContested: contested,
     resolvedAt,
     status: "resolved",
   };
@@ -301,13 +313,28 @@ export function incidentCommunityPosts(locale) {
       const hypothesis = incident?.hypotheses.find((item) => item.id === resolution.hypothesisId);
       const action = incident?.actions.find((item) => item.id === resolution.actionIds[0]);
       if (!incident || !hypothesis || !action) return [];
+      const contested = resolution.disposition === "contested";
+      const reviewer = incidentRetentionReviewers[resolution.reviewerId];
+      const reason = incidentRetentionReasons[resolution.retentionReason];
+      const contestedFinding = {
+        "zh-Hant": `未獲支持但保留：${hypothesis.title["zh-Hant"]}`,
+        ja: `支持されず保存：${hypothesis.title.ja}`,
+        en: `Not supported, but retained: ${hypothesis.title.en}`,
+      };
+      const contestedNotice = contested
+        ? {
+            "zh-Hant": `【紅線爭議案卷】模擬結果為「${resolution.verdict}」，沒有證實這項主張。${reviewer?.name?.["zh-Hant"] || "審閱席"}仍以「${reason?.["zh-Hant"] || "保留異說"}」簽名保存。`,
+            ja: `【赤糸係争記録】模擬結果は「${resolution.verdict}」で、この主張は立証されていない。${reviewer?.name?.ja || "査読席"}が「${reason?.ja || "異説保存"}」として署名保存した。`,
+            en: `【RED-THREAD CONTESTED FILE】The simulation returned “${resolution.verdict}” and did not establish this claim. ${reviewer?.name?.en || "A reviewer"} signed to retain it as “${reason?.en || "a preserved dissent"}.”`,
+          }[locale]
+        : "";
       const fields = {
-        finding: hypothesis.title[locale],
+        finding: contested ? contestedFinding[locale] : hypothesis.title[locale],
         action: action.title[locale],
         quality: resolution.quality,
         ref: resolution.id,
       };
-      return incident.reactions.map((reaction, index) => ({
+      const posts = incident.reactions.map((reaction, index) => ({
         id: `incident-${resolution.id.toLowerCase()}-${index + 1}`,
         incidentId: incident.id,
         resolutionId: resolution.id,
@@ -318,6 +345,11 @@ export function incidentCommunityPosts(locale) {
         replies: 3 + (hashValue(`${resolution.id}:${index}`) % 47),
         createdAt: new Date(new Date(resolution.resolvedAt).getTime() + index * 90_000).toISOString(),
         generated: true,
+        contested,
+      }));
+      return posts.map((post) => ({
+        ...post,
+        body: contestedNotice ? `${contestedNotice}\n\n${post.body}` : post.body,
       }));
     });
 }
@@ -331,6 +363,9 @@ export function incidentCommunityNews() {
       const hypothesis = incident?.hypotheses.find((item) => item.id === resolution.hypothesisId);
       const action = incident?.actions.find((item) => item.id === resolution.actionIds[0]);
       if (!incident || !hypothesis || !action) return null;
+      const contested = resolution.disposition === "contested";
+      const reviewer = incidentRetentionReviewers[resolution.reviewerId];
+      const reason = incidentRetentionReasons[resolution.retentionReason];
       const date = new Date(resolution.resolvedAt);
       const stamp = Number.isNaN(date.getTime())
         ? "NOW"
@@ -340,19 +375,25 @@ export function incidentCommunityNews() {
         date: stamp,
         incidentId: incident.id,
         category: {
-          "zh-Hant": "事件結案",
-          ja: "事案終結",
-          en: "Case closed",
+          "zh-Hant": contested ? "爭議性結案" : "事件結案",
+          ja: contested ? "係争終結" : "事案終結",
+          en: contested ? "Contested closure" : "Case closed",
         },
         title: {
-          "zh-Hant": `${incident.code} 結案：${hypothesis.title["zh-Hant"]}`,
-          ja: `${incident.code} 終結：${hypothesis.title.ja}`,
-          en: `${incident.code} closed: ${hypothesis.title.en}`,
+          "zh-Hant": `${incident.code} ${contested ? "紅線保留" : "結案"}：${hypothesis.title["zh-Hant"]}`,
+          ja: `${incident.code} ${contested ? "赤糸保存" : "終結"}：${hypothesis.title.ja}`,
+          en: `${incident.code} ${contested ? "retained under red thread" : "closed"}: ${hypothesis.title.en}`,
         },
         summary: {
-          "zh-Hant": `研究模擬分辨度 ${resolution.quality}/100；先行措施為「${action.title["zh-Hant"]}」。結案沒有阻止相關人士繼續在 BBS 爭論。`,
-          ja: `研究シミュレーションの識別度は ${resolution.quality}/100。先行措置は「${action.title.ja}」。終結後も関係者は BBS で議論中。`,
-          en: `The research simulation reached ${resolution.quality}/100 identifiability. The first response is “${action.title.en}”. Closure has not stopped the BBS argument.`,
+          "zh-Hant": contested
+            ? `研究模擬分辨度 ${resolution.quality}/100，結果為「${resolution.verdict}」，並未證實主張；${reviewer?.name?.["zh-Hant"] || "審閱席"}仍以「${reason?.["zh-Hant"] || "保留異說"}」簽名。BBS 已開始質疑這算結案還是裝訂。`
+            : `研究模擬分辨度 ${resolution.quality}/100；先行措施為「${action.title["zh-Hant"]}」。結案沒有阻止相關人士繼續在 BBS 爭論。`,
+          ja: contested
+            ? `研究シミュレーション識別度 ${resolution.quality}/100、結果は「${resolution.verdict}」で主張は未立証。${reviewer?.name?.ja || "査読席"}が「${reason?.ja || "異説保存"}」として署名。BBSでは終結か製本かを議論中。`
+            : `研究シミュレーションの識別度は ${resolution.quality}/100。先行措置は「${action.title.ja}」。終結後も関係者は BBS で議論中。`,
+          en: contested
+            ? `The simulation reached ${resolution.quality}/100 and returned “${resolution.verdict}”; the claim was not established. ${reviewer?.name?.en || "A reviewer"} signed it under “${reason?.en || "preserved dissent"}”. The BBS is debating whether this is closure or bookbinding.`
+            : `The research simulation reached ${resolution.quality}/100 identifiability. The first response is “${action.title.en}”. Closure has not stopped the BBS argument.`,
         },
       };
     })

@@ -33,6 +33,7 @@ const labels = {
     noPosts: "這個板面暫時沒有帖子。",
     noLocalPosts: "這台裝置還沒有發帖；發佈後會保存在這裡。",
     incidentLinked: "事件連動",
+    contestedFile: "紅線爭議案卷",
     openCase: "查看結案案卷",
   },
   ja: {
@@ -60,6 +61,7 @@ const labels = {
     noPosts: "この板にはまだ投稿がありません。",
     noLocalPosts: "この端末からの投稿はまだありません。投稿後はここに保存されます。",
     incidentLinked: "事案連動",
+    contestedFile: "赤糸係争記録",
     openCase: "終結記録を見る",
   },
   en: {
@@ -87,6 +89,7 @@ const labels = {
     noPosts: "There are no posts on this board yet.",
     noLocalPosts: "Nothing has been posted from this device yet. New posts will be saved here.",
     incidentLinked: "Incident-linked",
+    contestedFile: "Red-thread contested file",
     openCase: "Open closure record",
   },
 };
@@ -150,7 +153,7 @@ export function initBbs() {
         l.replies,
         String(post.replies),
         l.status,
-        post.local ? l.local : post.time,
+        post.contested ? l.contestedFile : post.local ? l.local : post.time,
       ],
       action: post.incidentId
         ? {
@@ -165,7 +168,7 @@ export function initBbs() {
     const locale = getLocale();
     const l = labels[locale];
     const article = document.createElement("article");
-    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.generated ? " incident-post" : ""}`;
+    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.generated ? " incident-post" : ""}${post.contested ? " contested-post" : ""}`;
     article.dataset.bbsCategory = post.category;
     article.dataset.bbsId = post.id;
     if (post.local) article.dataset.userPost = "";
@@ -184,7 +187,7 @@ export function initBbs() {
     if (post.generated) {
       const linked = document.createElement("span");
       linked.className = "incident-linked";
-      linked.textContent = l.incidentLinked;
+      linked.textContent = post.contested ? l.contestedFile : l.incidentLinked;
       title.append(linked, " ");
     }
     title.append(post.title);

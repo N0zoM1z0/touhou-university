@@ -248,6 +248,52 @@ export const evidenceKinds = {
   material: l("材料", "物証", "Material"),
 };
 
+export const incidentRetentionReviewers = {
+  aya: {
+    name: l("射命丸文", "射命丸文", "Aya Shameimaru"),
+    role: l("新聞學院・標題已排版席", "新聞学部・見出し組版済席", "Journalism · Headline Already Typeset"),
+    note: l(
+      "研究沒有支持它是一回事，讀者已經被標題支持是另一回事。與其等訂正欄追上，不如把兩者一起保存。",
+      "研究が支持しないことと、読者が見出しに支持されてしまったことは別問題。訂正欄が追いつくまで、両方保存すべきだ。",
+      "The study not supporting it is one matter; readers already being supported by the headline is another. Preserve both until Corrections catches up.",
+    ),
+  },
+  marisa: {
+    name: l("霧雨魔理沙", "霧雨魔理沙", "Marisa Kirisame"),
+    role: l("魔法實作・撞牆假說保存席", "魔法実習・壁衝突仮説保存席", "Magic Practice · Wall-struck Hypothesis Seat"),
+    note: l(
+      "撞牆的假說至少告訴下一個人牆在哪裡。可以留，但不准把牆重新命名成出口。",
+      "壁に当たった仮説は、次の者へ壁の位置を教える。残してよいが、壁を出口と改名するのは禁止だ。",
+      "A hypothesis that hit a wall still tells the next person where the wall is. Keep it, but do not rename the wall an exit.",
+    ),
+  },
+  yukari: {
+    name: l("八雲紫", "八雲紫", "Yukari Yakumo"),
+    role: l("結界研究・無法區分席", "境界研究・識別不能席", "Boundary Studies · Indistinguishable Seat"),
+    note: l(
+      "無法區分兩個解釋，不代表兩者都不存在；也不代表它們存在。正好值得留在這兩句話之間。",
+      "二つの説明を区別できないことは、両方が存在しない証明でも、存在する証明でもない。ちょうど二文の境に保存する価値がある。",
+      "Failing to distinguish two explanations proves neither that both are absent nor that either exists. It belongs precisely between those statements.",
+    ),
+  },
+  keine: {
+    name: l("上白澤慧音", "上白沢慧音", "Keine Kamishirasawa"),
+    role: l("歷史記錄・紅線裝訂席", "歴史記録・赤糸綴じ席", "History & Records · Red-thread Binding Seat"),
+    note: l(
+      "可以保存失敗，但檔名、結論與後來引用都必須保留『未獲支持』四字；少一字就退回重訂。",
+      "失敗は保存できる。ただしファイル名・結論・後の引用すべてに「支持されず」を残すこと。一字でも欠ければ再製本だ。",
+      "Failure may be preserved, but the filename, conclusion, and every later citation must retain “not supported.” Lose one word and it returns for rebinding.",
+    ),
+  },
+};
+
+export const incidentRetentionReasons = {
+  counterexample: l("保留為反例：讓下一輪知道哪條路走不通", "反例として保存：次回へ通れない道を示す", "Preserve as counterexample: show the next round which path failed"),
+  method: l("保留為方法事故：錯誤本身能教校準與版本管理", "方法事故として保存：誤りから校正・版管理を学ぶ", "Preserve as method failure: the error teaches calibration and version control"),
+  public: l("保留為公共爭議：傳聞已經發生，刪檔只會讓它更像真的", "公共争議として保存：噂は既に発生し、削除すればさらに真実らしくなる", "Preserve as public controversy: the rumour exists, and deletion would make it look truer"),
+  headline: l("保留因為標題已經印了：稍後再讓訂正欄追上", "見出し印刷済みのため保存：訂正欄は後から追いつく", "Preserve because the headline is printed: Corrections may catch up later"),
+};
+
 export function incidentById(id) {
   return incidentCases.find((record) => record.id === id);
 }

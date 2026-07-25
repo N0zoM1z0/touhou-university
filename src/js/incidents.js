@@ -1,4 +1,11 @@
-import { evidenceKinds, incidentById, incidentCases, incidentSeverity } from "../data/incidents.js";
+import {
+  evidenceKinds,
+  incidentById,
+  incidentCases,
+  incidentRetentionReasons,
+  incidentRetentionReviewers,
+  incidentSeverity,
+} from "../data/incidents.js";
 import { recordCampusEvent } from "./campus-ledger.js";
 import { getLocale } from "./i18n.js";
 import {
@@ -88,9 +95,26 @@ const copy = {
       inconclusive: "目前無法區分假說與干擾",
       "false-confidence": "數字很響亮，但設計正在製造假確信",
     },
-    resolve: "以這份實驗結案並發布連動",
+    resolve: "以這份實驗正常結案並發布連動",
+    retainContested: "送交紅線席：保留這個未獲支持的異說",
+    retentionTitle: "這不是證實。你仍要讓它結案嗎？",
+    retentionLead: "正常審閱已拒絕這項推論，但值班審閱者認為它的錯法、爭議或新聞價值值得留下。若你堅持，校方會以紅線裝訂成「爭議性結案」，並同步放出校務快訊與 BBS。",
+    retentionWarning: "紅線案卷會永久顯示原始實驗結果與「未獲支持」標記；大字標題不能把它洗成已證實。",
+    originalResult: "原始實驗結果",
+    reviewer: "提出保留的審閱者",
+    retentionReason: "保留理由",
+    retentionConfirm: "我明白這項主張沒有被實驗證實，仍要求以爭議性結案公開保存。",
+    cancelRetention: "先不要裝訂",
+    publishContested: "簽名、蓋章，讓 BBS 開始吵",
+    contestedSaved: "紅線爭議案卷已裝訂；校務快訊保持警告，BBS 則沒有保持冷靜。",
+    contested: "紅線爭議案卷",
+    established: "一般結案",
+    disposition: "案卷性質",
+    signedBy: "簽名審閱",
+    retainedBecause: "保留理由",
+    unsupportedFinding: "未獲支持的異說",
     resolvedAlready: "這宗事件已結案；BBS 還沒有。",
-    notReady: "結案需要分辨度至少 60、結果支持受測假說，並選擇至少一項可逆處置。若結果推翻假說，請回案卷換一個解釋。",
+    notReady: "一般結案需要分辨度至少 60、結果支持受測假說，並選擇至少一項可逆處置。未獲支持的結果不會悄悄過關；若審閱席願意背書，可另走紅線保留。",
     experimentSaved: "模擬回條已保存在這台裝置，並寫入 My TU 事件帳本。",
     resolutionSaved: "事件已結案；校務快訊與三篇 BBS 討論已出現。",
     archiveEyebrow: "CASE ARCHIVE / 結案不等於沒人反對",
@@ -180,9 +204,26 @@ const copy = {
       inconclusive: "仮説と干渉をまだ区別不能",
       "false-confidence": "数字は大きいが、設計が偽の確信を作っている",
     },
-    resolve: "この実験で終結し、連動を公開",
+    resolve: "この実験で通常終結し、連動を公開",
+    retainContested: "赤糸席へ：支持されない異説を保存",
+    retentionTitle: "立証ではありません。それでも終結扱いにしますか？",
+    retentionLead: "通常査読はこの推論を退けました。しかし当番査読者は、誤り方・論争・見出し価値を残す意味があると考えています。続行すると「係争終結」として赤糸で綴じ、大学速報と BBS にも連動します。",
+    retentionWarning: "赤糸記録には元の実験結果と「未支持」が恒久表示されます。大見出しで立証済みに変えることはできません。",
+    originalResult: "元の実験結果",
+    reviewer: "保存を提案した査読者",
+    retentionReason: "保存理由",
+    retentionConfirm: "この主張が実験で立証されていないと理解した上で、係争終結として公開保存を求めます。",
+    cancelRetention: "まだ綴じない",
+    publishContested: "署名・押印して BBS を騒がせる",
+    contestedSaved: "赤糸係争記録を綴じました。大学速報は警告を保ち、BBS は平静を保ちませんでした。",
+    contested: "赤糸係争記録",
+    established: "通常終結",
+    disposition: "記録区分",
+    signedBy: "署名査読",
+    retainedBecause: "保存理由",
+    unsupportedFinding: "支持されない異説",
     resolvedAlready: "この事案は終結済み。BBS はまだです。",
-    notReady: "終結には識別度 60 以上、仮説を支持する結果、可逆的措置一件以上が必要です。仮説が棄却された場合は記録へ戻り、別の説明を選んでください。",
+    notReady: "通常終結には識別度 60 以上、仮説を支持する結果、可逆的措置一件以上が必要です。未支持の結果は黙って通しませんが、査読席が署名するなら赤糸保存へ送れます。",
     experimentSaved: "実験票をこの端末へ保存し、My TU 事案台帳にも記録しました。",
     resolutionSaved: "事案を終結。大学速報と BBS 三件が現れました。",
     archiveEyebrow: "CASE ARCHIVE / 終結しても反対は終わらない",
@@ -272,9 +313,26 @@ const copy = {
       inconclusive: "The design cannot yet separate hypothesis from interference",
       "false-confidence": "The number is loud, but the design is manufacturing confidence",
     },
-    resolve: "Close with this experiment and publish reactions",
+    resolve: "Close normally with this experiment and publish reactions",
+    retainContested: "Send to the Red-Thread Desk: retain this unsupported theory",
+    retentionTitle: "This is not confirmation. Close it anyway?",
+    retentionLead: "Ordinary review rejected this inference, but the duty reviewer thinks its failure, controversy, or headline value deserves a record. If you insist, the university will bind it as a contested closure and release linked campus-wire and BBS reactions.",
+    retentionWarning: "The red-thread file permanently keeps the original result and a NOT ESTABLISHED mark. A large headline cannot launder it into confirmation.",
+    originalResult: "Original experiment result",
+    reviewer: "Reviewer proposing retention",
+    retentionReason: "Reason to retain",
+    retentionConfirm: "I understand that the experiment did not establish this claim and still request publication as a contested closure.",
+    cancelRetention: "Do not bind it yet",
+    publishContested: "Sign, stamp, and let the BBS argue",
+    contestedSaved: "The red-thread file is bound. The campus wire kept its warning; the BBS did not keep calm.",
+    contested: "Red-thread contested file",
+    established: "Ordinary closure",
+    disposition: "File disposition",
+    signedBy: "Signing reviewer",
+    retainedBecause: "Reason retained",
+    unsupportedFinding: "Unsupported theory",
     resolvedAlready: "This case is closed. The BBS is not.",
-    notReady: "Closure needs identifiability of at least 60, a result supporting the tested hypothesis, and one reversible response. If the hypothesis was rejected, return to the dossier and choose another explanation.",
+    notReady: "Ordinary closure needs identifiability of at least 60, support for the tested hypothesis, and one reversible response. Unsupported results do not slip through silently; a reviewer may instead sign a red-thread retention.",
     experimentSaved: "The experiment slip is saved on this device and recorded in the My TU ledger.",
     resolutionSaved: "Case closed. A campus-wire item and three BBS threads have appeared.",
     archiveEyebrow: "CASE ARCHIVE / CLOSURE DOES NOT END OBJECTIONS",
@@ -502,6 +560,62 @@ function designCheckbox(name, label, checked = false) {
   return `<label><input type="checkbox" name="${name}" ${checked ? "checked" : ""}><span><i aria-hidden="true">✓</i>${label}</span></label>`;
 }
 
+function retentionReviewerId(verdict) {
+  return {
+    rejects: "marisa",
+    inconclusive: "yukari",
+    "false-confidence": "aya",
+  }[verdict] || "keine";
+}
+
+function retentionDialog(experiment, incident, locale, c) {
+  if (!experiment || (experiment.quality >= 60 && experiment.verdict === "supports")) return "";
+  const reviewerId = retentionReviewerId(experiment.verdict);
+  const reviewer = incidentRetentionReviewers[reviewerId];
+  const hypothesis = incident.hypotheses.find((item) => item.id === experiment.hypothesisId);
+  return `
+    <dialog class="incident-retention-dialog" data-incident-retention-dialog>
+      <form data-incident-retention-form>
+        <input type="hidden" name="experimentId" value="${escapeHtml(experiment.id)}">
+        <input type="hidden" name="reviewerId" value="${escapeHtml(reviewerId)}">
+        <header>
+          <div><span>RED-THREAD REVIEW / 異説保存</span><h3>${c.retentionTitle}</h3></div>
+          <button type="button" data-retention-cancel aria-label="${escapeHtml(c.cancelRetention)}">×</button>
+        </header>
+        <p class="incident-retention-lead">${c.retentionLead}</p>
+        <div class="incident-retention-result">
+          <span>${c.originalResult}</span>
+          <strong>${escapeHtml(c.verdicts[experiment.verdict])}</strong>
+          <p>${c.unsupportedFinding} · ${escapeHtml(localized(hypothesis?.title, locale))}</p>
+          <b>${experiment.quality}<small>/100</small></b>
+        </div>
+        <aside>${c.retentionWarning}</aside>
+        <section class="incident-retention-reviewer">
+          <span>${c.reviewer}</span>
+          <div>
+            <b>${escapeHtml(localized(reviewer.name, locale))}</b>
+            <small>${escapeHtml(localized(reviewer.role, locale))}</small>
+          </div>
+          <p>「${escapeHtml(localized(reviewer.note, locale))}」</p>
+        </section>
+        <label class="incident-retention-reason">${c.retentionReason}
+          <select name="retentionReason" required>
+            <option value="">—</option>
+            ${Object.entries(incidentRetentionReasons).map(([id, label]) => `<option value="${escapeHtml(id)}">${escapeHtml(localized(label, locale))}</option>`).join("")}
+          </select>
+        </label>
+        <label class="incident-retention-confirm">
+          <input type="checkbox" name="confirmation" required>
+          <span><i aria-hidden="true">✓</i>${c.retentionConfirm}</span>
+        </label>
+        <footer>
+          <button class="button" type="button" data-retention-cancel>${c.cancelRetention}</button>
+          <button class="button button-primary" type="submit">${c.publishContested} <span aria-hidden="true">→</span></button>
+        </footer>
+      </form>
+    </dialog>`;
+}
+
 function resultCard(experiment, incident, locale, c) {
   if (!experiment) return `<section class="incident-empty-result"><span>∅</span><p>${c.noResult}</p></section>`;
   const hypothesis = incident.hypotheses.find((item) => item.id === experiment.hypothesisId);
@@ -533,6 +647,8 @@ function renderSimulator(locale, c, selectedId) {
   const experiments = incidentExperiments().filter((record) => record.caseId === incident.id);
   const latest = experiments.at(-1) || null;
   const resolved = resolutionForCase(incident.id);
+  const established = latest?.quality >= 60 && latest?.verdict === "supports";
+  const hasResponse = state.selectedActions.length > 0;
   return `
     <div class="incident-lab" id="incident-simulator">
       <header class="incident-lab-heading"><div><p>${c.labEyebrow}</p><h3>${c.labTitle}</h3></div><span>${c.labLead}</span></header>
@@ -569,13 +685,16 @@ function renderSimulator(locale, c, selectedId) {
           <header><span>${c.result}</span><b>${latest ? formatDate(latest.createdAt, locale) : "—"}</b></header>
           ${resultCard(latest, incident, locale, c)}
           ${latest && !resolved
-            ? `<button class="button button-primary incident-resolve" type="button" data-incident-resolve="${latest.id}" ${latest.quality >= 60 && latest.verdict === "supports" && state.selectedActions.length ? "" : "disabled"}>${c.resolve} <span aria-hidden="true">→</span></button><p class="incident-resolve-note">${c.notReady}</p>`
+            ? established
+              ? `<button class="button button-primary incident-resolve" type="button" data-incident-resolve="${latest.id}" ${hasResponse ? "" : "disabled"}>${c.resolve} <span aria-hidden="true">→</span></button><p class="incident-resolve-note">${c.notReady}</p>`
+              : `<button class="button incident-retain" type="button" data-incident-retain="${latest.id}" ${hasResponse ? "" : "disabled"}>${c.retainContested} <span aria-hidden="true">↝</span></button><p class="incident-resolve-note">${c.notReady}</p>`
             : resolved
               ? `<a class="button button-primary incident-resolve" href="#incident-records">${c.resolvedAlready} <span aria-hidden="true">→</span></a>`
               : ""}
         </div>
       </div>
-    </div>`;
+    </div>
+    ${retentionDialog(latest, incident, locale, c)}`;
 }
 
 function renderRecords(locale, c) {
@@ -592,12 +711,20 @@ function renderRecords(locale, c) {
             const hypothesis = incident.hypotheses.find((item) => item.id === record.hypothesisId);
             const actions = record.actionIds.map((id) => incident.actions.find((item) => item.id === id)).filter(Boolean);
             const firstPost = incidentCommunityPosts(locale).find((post) => post.resolutionId === record.id);
+            const contested = record.disposition === "contested";
+            const reviewer = incidentRetentionReviewers[record.reviewerId];
+            const reason = incidentRetentionReasons[record.retentionReason];
             return `
-              <article>
-                <header><div><span>${escapeHtml(incident.code)}</span><strong>${escapeHtml(record.id)}</strong></div><i>${c.published}</i></header>
+              <article data-disposition="${contested ? "contested" : "established"}">
+                <header><div><span>${escapeHtml(incident.code)}</span><strong>${escapeHtml(record.id)}</strong></div><i>${contested ? c.contested : c.published}</i></header>
                 <h5>${escapeHtml(localized(incident.title, locale))}</h5>
                 <dl>
-                  <div><dt>${c.finding}</dt><dd>${escapeHtml(localized(hypothesis.title, locale))}</dd></div>
+                  <div><dt>${c.disposition}</dt><dd>${contested ? c.contested : c.established}</dd></div>
+                  <div><dt>${contested ? c.unsupportedFinding : c.finding}</dt><dd>${escapeHtml(localized(hypothesis.title, locale))}</dd></div>
+                  ${contested ? `
+                    <div><dt>${c.originalResult}</dt><dd>${escapeHtml(c.verdicts[record.verdict])}</dd></div>
+                    <div><dt>${c.signedBy}</dt><dd>${escapeHtml(localized(reviewer?.name, locale))} · ${escapeHtml(localized(reviewer?.role, locale))}</dd></div>
+                    <div><dt>${c.retainedBecause}</dt><dd>${escapeHtml(localized(reason, locale))}</dd></div>` : ""}
                   <div><dt>${c.responseUsed}</dt><dd>${actions.map((item) => escapeHtml(localized(item.title, locale))).join(" · ")}</dd></div>
                   <div><dt>${c.quality}</dt><dd>${record.quality}/100</dd></div>
                   <div><dt>${c.resolvedOn}</dt><dd>${formatDate(record.resolvedAt, locale)}</dd></div>
@@ -652,6 +779,10 @@ export function initIncidents() {
   }
 
   root.addEventListener("click", (event) => {
+    if (event.target.matches?.("[data-incident-retention-dialog]")) {
+      event.target.close();
+      return;
+    }
     const caseButton = event.target.closest("[data-incident-case]");
     if (caseButton) {
       selectedCaseId = caseButton.dataset.incidentCase;
@@ -688,6 +819,17 @@ export function initIncidents() {
       window.location.hash = "incident-simulator";
       return;
     }
+    const retainButton = event.target.closest("[data-incident-retain]");
+    if (retainButton && !retainButton.disabled) {
+      const dialog = root.querySelector("[data-incident-retention-dialog]");
+      if (dialog && !dialog.open) dialog.showModal();
+      return;
+    }
+    const retentionCancel = event.target.closest("[data-retention-cancel]");
+    if (retentionCancel) {
+      root.querySelector("[data-incident-retention-dialog]")?.close();
+      return;
+    }
     const resolveButton = event.target.closest("[data-incident-resolve]");
     if (resolveButton) {
       const outcome = resolveIncident(selectedCaseId, resolveButton.dataset.incidentResolve);
@@ -698,7 +840,12 @@ export function initIncidents() {
       if (!outcome.alreadyResolved) {
         recordCampusEvent(
           "incident.resolved",
-          { caseId: selectedCaseId, resolutionId: outcome.record.id, quality: outcome.record.quality },
+          {
+            caseId: selectedCaseId,
+            resolutionId: outcome.record.id,
+            quality: outcome.record.quality,
+            disposition: outcome.record.disposition,
+          },
           { id: `incident.resolved:${outcome.record.id}`, timestamp: outcome.record.resolvedAt },
         );
       }
@@ -716,6 +863,39 @@ export function initIncidents() {
   });
 
   root.addEventListener("submit", (event) => {
+    const retentionForm = event.target.closest("[data-incident-retention-form]");
+    if (retentionForm) {
+      event.preventDefault();
+      const values = Object.fromEntries(new FormData(retentionForm).entries());
+      const outcome = resolveIncident(selectedCaseId, values.experimentId, {
+        retainContested: true,
+        confirmed: values.confirmation === "on",
+        reviewerId: values.reviewerId,
+        retentionReason: values.retentionReason,
+      });
+      if (outcome.error) {
+        showToast(copy[getLocale()].retentionWarning);
+        return;
+      }
+      if (!outcome.alreadyResolved) {
+        recordCampusEvent(
+          "incident.resolved",
+          {
+            caseId: selectedCaseId,
+            resolutionId: outcome.record.id,
+            quality: outcome.record.quality,
+            disposition: outcome.record.disposition,
+            reviewerId: outcome.record.reviewerId,
+            retentionReason: outcome.record.retentionReason,
+          },
+          { id: `incident.resolved:${outcome.record.id}`, timestamp: outcome.record.resolvedAt },
+        );
+      }
+      root.querySelector("[data-incident-retention-dialog]")?.close();
+      showToast(copy[getLocale()].contestedSaved);
+      window.location.hash = "incident-records";
+      return;
+    }
     const form = event.target.closest("[data-incident-design]");
     if (!form) return;
     event.preventDefault();

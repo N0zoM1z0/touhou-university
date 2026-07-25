@@ -68,6 +68,9 @@ Status: implemented in 0.13.0.
 - on-device closure files, My TU summary and campus-ledger integration
 - three BBS reactions and one campus-wire item generated from every resolved
   case, all linked back to the source dossier
+- reviewer-signed red-thread preservation for rejected, inconclusive and
+  false-confidence findings, with explicit confirmation and an unsupported
+  warning retained across the archive, BBS, campus wire and My TU
 
 ## Batch 6 — Thesis, governance and live campus
 
