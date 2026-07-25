@@ -57,6 +57,8 @@ function legacyEvents() {
   const housingApplications = readJson("tu:housing:applications", []);
   const housingAssignments = readJson("tu:housing:assignments", []);
   const housingChanges = readJson("tu:housing:room-changes", []);
+  const incidentExperiments = readJson("tu:incidents:experiments", []);
+  const incidentResolutions = readJson("tu:incidents:resolutions", []);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -235,6 +237,34 @@ function legacyEvents() {
         payload: { requestId: request.id, assignmentId: request.assignmentId },
       });
     }
+  }
+  for (const experiment of Array.isArray(incidentExperiments) ? incidentExperiments : []) {
+    if (!experiment?.id || !experiment?.createdAt) continue;
+    events.push({
+      id: `incident.experiment.completed:${experiment.id}`,
+      type: "incident.experiment.completed",
+      timestamp: experiment.createdAt,
+      payload: {
+        experimentId: experiment.id,
+        caseId: experiment.caseId,
+        hypothesisId: experiment.hypothesisId,
+        quality: experiment.quality,
+        verdict: experiment.verdict,
+      },
+    });
+  }
+  for (const resolution of Array.isArray(incidentResolutions) ? incidentResolutions : []) {
+    if (!resolution?.id || !resolution?.resolvedAt) continue;
+    events.push({
+      id: `incident.resolved:${resolution.id}`,
+      type: "incident.resolved",
+      timestamp: resolution.resolvedAt,
+      payload: {
+        resolutionId: resolution.id,
+        caseId: resolution.caseId,
+        quality: resolution.quality,
+      },
+    });
   }
   return events;
 }

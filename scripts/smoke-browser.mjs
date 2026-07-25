@@ -521,23 +521,98 @@ try {
   })()`);
   check(housingLocale.ja === "自分の寮" && housingLocale.en === "My housing", "Housing did not rerender fully in Japanese and English.");
 
+  await navigate("incidents.html#incident-case-late-bell-seven", "[data-incident-app]");
+  const incidentInitial = await cdp.evaluate(`({
+    page: document.body.dataset.page,
+    cases: document.querySelectorAll('[data-incident-case]').length,
+    evidence: document.querySelectorAll('[data-incident-evidence]').length,
+    selected: document.querySelector('[data-incident-case].active')?.dataset.incidentCase,
+    overflow: document.documentElement.scrollWidth > window.innerWidth
+  })`);
+  check(incidentInitial.page === "incidents" && incidentInitial.cases === 5, "Incident Centre did not render all case files.");
+  check(incidentInitial.evidence === 4 && incidentInitial.selected === "late-bell-seven", "Incident case deep link selected the wrong dossier.");
+  check(!incidentInitial.overflow, "Incident Centre has desktop horizontal overflow.");
+
+  const incidentWorkbench = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-incident-evidence="tower-log"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-incident-evidence="roll-page"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-incident-testimony="nitori"]').click();
+    document.querySelector('[data-incident-hypothesis="roster-lag"]').click();
+    document.querySelector('[data-incident-action="freeze-roster"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const state = JSON.parse(localStorage.getItem('tu:incidents:workbench')).cases['late-bell-seven'];
+    document.querySelector('[data-incident-open-lab]').click();
+    return { state, hash: location.hash };
+  })()`);
+  check(incidentWorkbench.state.reviewedEvidence.length === 2 && incidentWorkbench.state.reviewedTestimony.includes("nitori"), "Incident dossier review state was not saved.");
+  check(incidentWorkbench.state.selectedHypothesis === "roster-lag" && incidentWorkbench.state.selectedActions.includes("freeze-roster"), "Incident hypothesis or reversible response was not saved.");
+  await eventually(() => cdp.evaluate("location.hash === '#incident-simulator' && Boolean(document.querySelector('[data-incident-design]'))"));
+
+  const experimentFlow = await cdp.evaluate(`(async () => {
+    const form = document.querySelector('[data-incident-design]');
+    form.elements.sampleSize.value = '96';
+    form.elements.repeats.value = '4';
+    for (const name of ['control', 'randomize', 'calibration', 'versionLock']) form.elements[name].checked = true;
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const experiments = JSON.parse(localStorage.getItem('tu:incidents:experiments'));
+    const latest = experiments.at(-1);
+    const button = document.querySelector('[data-incident-resolve]');
+    const resolvable = Boolean(button && !button.disabled);
+    button?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    return {
+      latest,
+      resolvable,
+      resolutions: JSON.parse(localStorage.getItem('tu:incidents:resolutions')),
+      hash: location.hash,
+      bbsHref: document.querySelector('.incident-resolution-grid a[href*="bbs-"]')?.getAttribute('href')
+    };
+  })()`);
+  check(experimentFlow.latest.quality >= 90 && experimentFlow.latest.verdict === "supports", "Well-controlled incident simulation did not identify the true hypothesis.");
+  check(experimentFlow.resolvable && experimentFlow.resolutions.length === 1 && experimentFlow.hash === "#incident-records", "Incident resolution was not saved or did not open the archive.");
+  check(experimentFlow.bbsHref?.includes("bbs-incident-"), "Incident closure did not expose a linked BBS deep link.");
+
+  await navigate(experimentFlow.bbsHref, "#bbs");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-info-dialog]')?.open)"));
+  const incidentBbs = await cdp.evaluate(`({
+    linkedPosts: document.querySelectorAll('.incident-post').length,
+    dialogOpen: document.querySelector('[data-info-dialog]').open,
+    action: document.querySelector('[data-info-action-label]')?.textContent.trim(),
+    hash: location.hash
+  })`);
+  check(incidentBbs.linkedPosts === 3 && incidentBbs.dialogOpen, "Incident closure did not generate three BBS reactions.");
+  check(incidentBbs.action.includes("案卷") && incidentBbs.hash.startsWith("#bbs-incident-"), "Incident-linked BBS post cannot return to its case file.");
+
+  await navigate("index.html", "[data-news-track]");
+  const incidentNews = await cdp.evaluate(`({
+    dynamic: document.querySelectorAll('[data-news-id^="incident-news-"]').length,
+    service: Boolean(document.querySelector('a[href^="incidents.html"]'))
+  })`);
+  check(incidentNews.dynamic >= 1 && incidentNews.service, "Incident closure did not reach the campus wire or home services.");
+
   await navigate("mytu.html#my-tu", "#my-tu");
   const myTuLibrary = await cdp.evaluate(`({
     libraryLink: document.querySelector('.mytu-summary a[href^="library.html"]')?.textContent || '',
     libraryEvents: [...document.querySelectorAll('.mytu-ledger strong')].filter((node) => node.textContent.includes('館藏')).length,
     housingLink: document.querySelector('.mytu-summary a[href^="housing.html"]')?.textContent || '',
-    housingEvents: [...document.querySelectorAll('.mytu-ledger strong')].filter((node) => /住宿|宿舍|換房/.test(node.textContent)).length
+    housingEvents: [...document.querySelectorAll('.mytu-ledger strong')].filter((node) => /住宿|宿舍|換房/.test(node.textContent)).length,
+    incidentLink: document.querySelector('.mytu-summary a[href^="incidents.html"]')?.textContent || '',
+    incidentEvents: [...document.querySelectorAll('.mytu-ledger strong')].filter((node) => /事件研究|事件連動/.test(node.textContent)).length
   })`);
   check(mytuLibraryLinkOkay(myTuLibrary.libraryLink), "My TU does not link to the library record.");
   check(myTuLibrary.libraryEvents >= 3, "Library actions are missing from the My TU campus ledger.");
   check(/宿舍|換房/.test(myTuLibrary.housingLink), "My TU does not link to the housing record.");
   check(myTuLibrary.housingEvents >= 3, "Housing actions are missing from the My TU campus ledger.");
+  check(/事件研究|結案/.test(myTuLibrary.incidentLink) && myTuLibrary.incidentEvents >= 2, "Incident simulation and closure are missing from My TU.");
 
   await cdp.call("Page.navigate", { url: `${siteUrl}index.html#research-spellcard` });
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "campus.html", "mytu.html", "library.html", "housing.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "housing.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -548,7 +623,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "campus.html", "mytu.html", "library.html", "housing.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "housing.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -565,14 +640,14 @@ try {
       links: document.querySelectorAll('[data-mobile-menu] nav a').length
     };
   })()`);
-  check(mobileMenu.expanded === "true" && mobileMenu.visible && mobileMenu.links === 10, "Mobile multipage navigation did not open completely.");
+  check(mobileMenu.expanded === "true" && mobileMenu.visible && mobileMenu.links === 11, "Mobile multipage navigation did not open completely.");
 
   if (errors.length) failures.push(`Browser console errors:\n${[...new Set(errors)].join("\n")}`);
   if (failures.length) {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: multipage routing, IME-safe search, courses, library circulation, housing, deep links, and responsive width.");
+    console.log("Browser smoke test passed: multipage routing, IME-safe search, courses, library circulation, housing, incident research/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();

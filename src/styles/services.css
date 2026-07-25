@@ -124,6 +124,18 @@
   background: var(--blue);
 }
 
+.service-tile.service-tile-incidents {
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.06), transparent 58%),
+    #21434a;
+}
+
+.service-tile-incidents .service-icon {
+  color: #e2ca89;
+  border-color: rgba(226, 202, 137, 0.45);
+}
+
 .service-tile-exam .service-icon {
   color: #dba49a;
 }

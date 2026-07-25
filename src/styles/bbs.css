@@ -172,6 +172,29 @@
   font-size: 7px;
 }
 
+.incident-post {
+  background:
+    linear-gradient(90deg, rgba(43, 92, 79, 0.075), transparent 32%),
+    var(--paper-light);
+}
+
+.incident-post .bbs-category {
+  border-color: rgba(43, 92, 79, 0.45);
+  color: #2d6f5c;
+}
+
+.incident-linked {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 3px 5px;
+  border: 1px solid rgba(43, 92, 79, 0.45);
+  color: #2d6f5c;
+  font-family: var(--sans);
+  font-size: 7px;
+  font-weight: 900;
+  vertical-align: 2px;
+}
+
 .bbs-replies {
   color: #8b8379;
   font-size: 8px;

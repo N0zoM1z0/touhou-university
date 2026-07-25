@@ -45,6 +45,7 @@ const copy = {
     courses: "本學期課程",
     library: "借閱／預約",
     residential: "宿舍／換房",
+    incidents: "事件研究／結案",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     drafts: "未完成",
@@ -119,6 +120,8 @@ const copy = {
       "housing.assignment.accepted": "接受宿舍房間",
       "housing.change.requested": "提交換房請求",
       "housing.change.cancelled": "撤回換房請求",
+      "incident.experiment.completed": "完成事件研究模擬",
+      "incident.resolved": "結案並發布事件連動",
     },
     document: {
       university: "幻想鄉立東方大學",
@@ -171,6 +174,7 @@ const copy = {
     courses: "今学期の履修",
     library: "貸出／予約",
     residential: "学生寮／転室",
+    incidents: "事案研究／終結",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     drafts: "未完了",
@@ -240,6 +244,8 @@ const copy = {
       "housing.assignment.accepted": "学生寮の部屋を受諾",
       "housing.change.requested": "転室依頼を提出",
       "housing.change.cancelled": "転室依頼を撤回",
+      "incident.experiment.completed": "事案研究シミュレーションを完了",
+      "incident.resolved": "事案を終結し連動を公開",
     },
     document: {
       university: "幻想郷立東方大学",
@@ -292,6 +298,7 @@ const copy = {
     courses: "Current courses",
     library: "Loans / holds",
     residential: "Housing / transfers",
+    incidents: "Incident studies / closures",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     drafts: "Unfinished",
@@ -361,6 +368,8 @@ const copy = {
       "housing.assignment.accepted": "Accepted a residence room",
       "housing.change.requested": "Submitted a room-transfer request",
       "housing.change.cancelled": "Withdrew a room-transfer request",
+      "incident.experiment.completed": "Completed an incident research simulation",
+      "incident.resolved": "Closed a case and published linked reactions",
     },
     document: {
       university: "TOUHOU UNIVERSITY OF GENSOKYO",
@@ -441,6 +450,8 @@ function allRecords() {
   const housingApplications = readJson("tu:housing:applications", []);
   const housingAssignments = readJson("tu:housing:assignments", []);
   const housingChanges = readJson("tu:housing:room-changes", []);
+  const incidentExperiments = readJson("tu:incidents:experiments", []);
+  const incidentResolutions = readJson("tu:incidents:resolutions", []);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
@@ -464,6 +475,8 @@ function allRecords() {
     activeLibrary,
     housingApplications,
     activeHousing,
+    incidentRecords: (Array.isArray(incidentExperiments) ? incidentExperiments : []).length
+      + (Array.isArray(incidentResolutions) ? incidentResolutions : []).length,
   };
 }
 
@@ -619,6 +632,9 @@ function eventLabel(event, locale, c) {
   if (event.type.startsWith("course.")) return `${base} · ${payload.courseCode || ""}`;
   if (event.type.startsWith("book.")) return `${base} · ${payload.callNumber || payload.holdingId || ""}`;
   if (event.type.startsWith("housing.")) return `${base} · ${payload.roomId || payload.applicationId || payload.requestId || ""}`;
+  if (event.type.startsWith("incident.")) {
+    return `${base} · ${payload.caseId || ""}${payload.quality ? ` · ${payload.quality}/100` : ""}`;
+  }
   return base;
 }
 
@@ -678,6 +694,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="mytu.html#course-registration"><span>${c.courses}</span><strong>${records.courseSummary.enrolled}</strong></a>
           <a href="library.html#library"><span>${c.library}</span><strong>${records.activeLibrary}</strong></a>
           <a href="housing.html#housing-account"><span>${c.residential}</span><strong>${records.activeHousing}</strong></a>
+          <a href="incidents.html#incident-records"><span>${c.incidents}</span><strong>${records.incidentRecords}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>
       </section>
