@@ -55,6 +55,7 @@ const conditionalFamilies = [
   ["data-club", 'await initialize("[data-campus-feature]"'],
   ["data-bbs-filter", 'await initialize("#bbs"'],
   ["data-chronicle-open", 'await initialize("[data-chronicle-open]"'],
+  ["data-clinic-app", 'await initialize("[data-clinic-app]"'],
 ];
 
 for (const [attribute, initializer] of conditionalFamilies) {

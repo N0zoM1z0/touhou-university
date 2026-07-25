@@ -49,6 +49,7 @@ const copy = {
     residential: "宿舍／換房",
     incidents: "事件研究／結案",
     academicRecords: "課業評量／答辯",
+    medical: "診療／處方／康復",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     academicMode: "作業、考試與答辯",
@@ -133,6 +134,13 @@ const copy = {
       "academic.exam.completed": "完成限時課程考試",
       "academic.project.submitted": "提交論文／符卡研究計畫",
       "academic.defence.completed": "完成論文／符卡答辯",
+      "clinic.visit.checked-in": "完成校醫院分診掛號",
+      "clinic.consultation.completed": "完成診察並開立處方",
+      "clinic.prescription.dispensed": "領取校醫院處方",
+      "clinic.dose.recorded": "記錄一次本機用藥",
+      "clinic.therapy.started": "開始康復療法",
+      "clinic.therapy.step.completed": "完成一項康復步驟",
+      "clinic.therapy.completed": "完成康復療程",
     },
     document: {
       university: "幻想鄉立東方大學",
@@ -187,6 +195,7 @@ const copy = {
     residential: "学生寮／転室",
     incidents: "事案研究／終結",
     academicRecords: "課業評価／答弁",
+    medical: "診療／処方／回復",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     academicMode: "課題・試験・答弁",
@@ -266,6 +275,13 @@ const copy = {
       "academic.exam.completed": "計時授業試験を完了",
       "academic.project.submitted": "論文／スペルカード研究計画を提出",
       "academic.defence.completed": "論文／スペルカード答弁を完了",
+      "clinic.visit.checked-in": "校医院トリアージ受付を完了",
+      "clinic.consultation.completed": "診察完了・処方発行",
+      "clinic.prescription.dispensed": "校医院処方を受取",
+      "clinic.dose.recorded": "端末内服用を一回記録",
+      "clinic.therapy.started": "回復療法を開始",
+      "clinic.therapy.step.completed": "回復段階を一つ完了",
+      "clinic.therapy.completed": "回復療法を完了",
     },
     document: {
       university: "幻想郷立東方大学",
@@ -320,6 +336,7 @@ const copy = {
     residential: "Housing / transfers",
     incidents: "Incident studies / closures",
     academicRecords: "Coursework / defences",
+    medical: "Care / prescriptions / recovery",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     academicMode: "Work, exams & defences",
@@ -399,6 +416,13 @@ const copy = {
       "academic.exam.completed": "Completed a timed course exam",
       "academic.project.submitted": "Submitted a thesis / spell-card project",
       "academic.defence.completed": "Completed a thesis / spell-card defence",
+      "clinic.visit.checked-in": "Completed campus-hospital triage check-in",
+      "clinic.consultation.completed": "Completed consultation and received a prescription",
+      "clinic.prescription.dispensed": "Collected a campus-hospital prescription",
+      "clinic.dose.recorded": "Recorded one on-device dose",
+      "clinic.therapy.started": "Started a recovery therapy",
+      "clinic.therapy.step.completed": "Completed one recovery step",
+      "clinic.therapy.completed": "Completed a recovery course",
     },
     document: {
       university: "TOUHOU UNIVERSITY OF GENSOKYO",
@@ -485,11 +509,15 @@ function allRecords() {
   const academicSubmissions = readJson("tu:academics:submissions", []);
   const academicExamAttempts = readJson("tu:academics:exam-attempts", []);
   const academicDefences = readJson("tu:academics:defences", []);
+  const clinicVisits = readJson("tu:clinic:visits", []);
+  const clinicPrescriptions = readJson("tu:clinic:prescriptions", []);
+  const clinicPlans = readJson("tu:clinic:care-plans", []);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
     Number(Boolean(readJson("tu:gaokao:draft", null)));
   const housingDraft = Number(Boolean(readJson("tu:housing:draft", null)));
+  const clinicDraft = Number(Boolean(readJson("tu:clinic:triage-draft", null)));
   const courseSummary = courseRegistrationSummary();
   const academicBook = academicGradebook();
   const activeLibrary = (Array.isArray(libraryLoans) ? libraryLoans : []).filter((record) => record.status === "active").length
@@ -504,7 +532,7 @@ function allRecords() {
     unifiedExams,
     posts,
     examCount,
-    drafts: drafts + housingDraft,
+    drafts: drafts + housingDraft + clinicDraft,
     courseSummary,
     activeLibrary,
     housingApplications,
@@ -515,6 +543,9 @@ function allRecords() {
       + (Array.isArray(academicExamAttempts) ? academicExamAttempts : []).length
       + (Array.isArray(academicDefences) ? academicDefences : []).length,
     academicAverage: academicBook.average,
+    activeClinic: (Array.isArray(clinicVisits) ? clinicVisits : []).filter((record) => record.status === "waiting").length
+      + (Array.isArray(clinicPrescriptions) ? clinicPrescriptions : []).filter((record) => ["issued", "dispensed"].includes(record.status)).length
+      + (Array.isArray(clinicPlans) ? clinicPlans : []).filter((record) => record.status === "active").length,
   };
 }
 
@@ -684,6 +715,9 @@ function eventLabel(event, locale, c) {
   if (event.type === "academic.defence.completed") {
     return `${base} · ${payload.projectId || ""} · ${Number(payload.percent) || 0}%`;
   }
+  if (event.type.startsWith("clinic.")) {
+    return `${base} · ${payload.visitId || payload.prescriptionId || payload.planId || ""}`;
+  }
   return base;
 }
 
@@ -746,6 +780,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="housing.html#housing-account"><span>${c.residential}</span><strong>${records.activeHousing}</strong></a>
           <a href="incidents.html#incident-records"><span>${c.incidents}</span><strong>${records.incidentRecords}</strong></a>
           <a href="mytu.html#academic-grades"><span>${c.academicRecords}</span><strong>${records.academicAverage ?? "—"}</strong></a>
+          <a href="clinic.html#clinic-account"><span>${c.medical}</span><strong>${records.activeClinic}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>
       </section>

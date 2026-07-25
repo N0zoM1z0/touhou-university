@@ -31,6 +31,7 @@ if (!redirected) {
   await initialize("[data-eientei-focus]", "./eientei-map.js", "initEienteiMap");
   await initialize("[data-chronicle-open]", "./chronicle.js", "initCampusChronicle");
   await initialize("[data-library-app]", "./library.js", "initLibrary");
+  await initialize("[data-clinic-app]", "./clinic.js", "initClinic");
   await initialize("[data-housing-app]", "./housing.js", "initHousing");
   await initialize("[data-incident-app]", "./incidents.js", "initIncidents");
 

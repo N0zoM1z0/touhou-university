@@ -14,6 +14,7 @@ export const campusHistoryCategories = {
   chronicle: l("校史", "大学史", "Chronicle"),
   library: l("圖書館", "図書館", "Library"),
   incidents: l("事件", "事案", "Incidents"),
+  medicine: l("醫療", "医療", "Medicine"),
 };
 
 export const campusHistory = [
@@ -430,10 +431,9 @@ export const campusHistory = [
   {
     id: "three-hour-bell-and-public-defence",
     archiveId: "TU-H-018",
-    commit: null,
+    commit: "10dfedf0e47481692714ff8ef81c5910549d02f6",
     commitSubject: "Add live campus governance and academic workbench",
     recordedAt: "2026-07-25",
-    planned: true,
     category: "campus",
     era: l("翌日・第三校鐘", "翌日・第三校鐘", "Next day · Third Bell"),
     title: l(
@@ -450,6 +450,31 @@ export const campusHistory = [
       "答辯後，紫問「通過」是否會讓主張範圍自己長大；魔理沙要求先公開材料批次；靈夢只問何時能清場。議事鐘把三句都記成修正案，文則把清場時間刊成了畢業典禮日期。",
       "答弁後、紫は「合格」で主張範囲が勝手に広がるか質問。魔理沙は材料ロットの先行公開を要求し、霊夢は撤収時刻だけを尋ねた。議事鐘は三発言すべてを修正案として記録し、文は撤収時刻を卒業式の日程として掲載した。",
       "After the defence, Yukari asked whether passing makes a claim’s scope grow; Marisa demanded the material batch first; Reimu asked only when the room would clear. The governance bell recorded all three as amendments, while Aya published the clearing time as graduation day.",
+    ),
+  },
+  {
+    id: "two-clinics-and-one-missing-token",
+    archiveId: "TU-H-019",
+    commit: null,
+    commitSubject: "Add Eientei campus hospital and recovery care",
+    recordedAt: "2026-07-25",
+    planned: true,
+    category: "medicine",
+    era: l("翌日・第四校鐘前", "翌日・第四校鐘前", "Next day · Before Fourth Bell"),
+    title: l(
+      "兩處校醫療院區開始叫號，第一張幸運號碼牌隨即失蹤",
+      "二つの学内診療所が呼出開始、最初の幸運番号札は直ちに行方不明",
+      "Two campus clinics begin calling patients; the first lucky token promptly disappears",
+    ),
+    summary: l(
+      "博麗門舊社務所改為本部校醫務室，永遠亭診療棟則正式成為附屬校醫院。病友可在本機完成跨種族分診，依時間、月相、兔車路況與當值事件取得候診時間，再接受診察、領取十二種幻想鄉藥品與醫材的處方、記錄療程，或開始彈幕肩翼、境界定位、月相降載、半靈同步與妖精核心等康復回條。掛號、處方與每一步恢復都編入 My TU；領藥與結療後，月藥調劑室和病友牆則會在 BBS 公開各自版本。",
+      "博麗門の旧社務所は本部保健室、永遠亭診療棟は附属校医院となった。患者は端末内で種族横断トリアージを行い、時刻・月相・兎車状況・当番事案に応じた待ち時間を得て、診察、幻想郷薬品・医材十二種の処方と記録、弾幕肩翼・境界定位・月相低刺激・半霊同期・妖精核等の回復票を開始できる。受付、処方、各回復段階は My TU へ入り、調剤・療法完了後には月薬調剤室と患者壁が BBS へ別々の版を公開する。",
+      "The old office beside Hakurei Gate becomes the main infirmary while Eientei’s clinical wing becomes the affiliated university hospital. Patients may complete cross-species triage on-device, receive waits shaped by time, lunar phase, rabbit-shuttle conditions, and live incidents, then consult, collect and track prescriptions across twelve Gensokyo medicines and aids, or begin recovery slips for danmaku shoulders and wings, boundary anchoring, lunar load, half-phantom sync, and fairy cores. Check-ins, prescriptions, and every recovery step enter My TU; after dispensing and completion, the Lunar Pharmacy and patient wall publish their own BBS versions.",
+    ),
+    marginalia: l(
+      "帝把第一張普通號碼牌換成「大吉」，文立即報導校醫院採用運氣分診。永琳收回號碼牌、訂正報紙，並在藥袋上加註：幸運不改變優先級。琪露諾在下一行補寫：最強可以。",
+      "てゐが最初の通常番号を「大吉」へ交換し、文は校医院が運勢トリアージを採用と速報。永琳は番号札を回収、新聞を訂正し、薬袋へ「幸運は優先度を変えない」と追記。チルノは次行へ「最強なら変わる」と書いた。",
+      "Tewi replaced the first ordinary token with “Great Fortune,” and Aya reported that the hospital had adopted luck-based triage. Eirin retrieved the token, corrected the paper, and added to every medicine bag: luck does not change priority. Cirno wrote beneath it: strongest does.",
     ),
   },
 ];

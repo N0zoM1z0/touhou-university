@@ -89,6 +89,24 @@ Status: core workbench and operations layer implemented in 0.14.0.
 - follow-up: long-running supervision milestones, amendments, enacted-policy
   expiry, graduation review and season-level operations
 
+## Batch 7 — Eientei campus healthcare
+
+Status: implemented in 0.15.0.
+
+- two-site care network joining the Hakurei Gate infirmary and Eientei
+  University Hospital, with live shift, lunar and campus-incident pressure
+  reflected in queue estimates
+- autosaved symptom triage, explicit urgency reasoning, check-in,
+  consultation, retained prescriptions and printable care records
+- twelve trilingual medicines and aids with indications, cautions, provenance,
+  dosage and stock states; dispensing and every completed dose remain on-device
+- six four-stage recovery programmes covering ordinary rest, bamboo-route
+  orientation, spell-card rehabilitation and stranger conditions
+- named waiting-room patients, pharmacy/recovery BBS reactions, shareable
+  clinic routes, full-site search, map links, My TU and campus-ledger integration
+- follow-up: appointment slots, long-term condition review, stock procurement,
+  ward beds and incident-driven mass-casualty drills
+
 ## Cross-cutting tracks
 
 - official document generator grows alongside every lifecycle feature

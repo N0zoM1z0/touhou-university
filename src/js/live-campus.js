@@ -24,6 +24,7 @@ const copy = {
     timetable: "今日排課",
     rooms: "空閒館舍",
     map: "帶限制規劃路線",
+    clinic: "校醫院候診",
     senate: "CAMPUS SENATE / 議事鐘",
     governanceTitle: "規章在執行，角色仍然可以不服。",
     governanceLead: "每天的底票由各學院、館舍、社團與會飛的利益關係人構成。你可在這台裝置投一票或改票；票數不會假裝全校突然達成共識。",
@@ -52,6 +53,7 @@ const copy = {
     timetable: "本日の時間割",
     rooms: "空室検索",
     map: "規制込み経路",
+    clinic: "校医院待合",
     senate: "CAMPUS SENATE / 議事鐘",
     governanceTitle: "規則は動く。登場人物はまだ不服を言える。",
     governanceLead: "底票は学部、施設、団体、飛行する利害関係者から構成。この端末で一票を投じ、変更できます。票数は全学合意を装いません。",
@@ -80,6 +82,7 @@ const copy = {
     timetable: "Today’s classes",
     rooms: "Find a free room",
     map: "Route with restrictions",
+    clinic: "Hospital queue",
     senate: "CAMPUS SENATE / GOVERNANCE BELL",
     governanceTitle: "Rules can operate while characters still object.",
     governanceLead: "Baseline votes come from schools, facilities, clubs, and airborne stakeholders. Cast or change one on this device; the count does not pretend the campus suddenly agrees.",
@@ -157,6 +160,7 @@ export function initLiveCampus() {
             <button type="button" data-service="dining">${c.dining}<b>↗</b></button>
             <button type="button" data-service="timetable">${c.timetable}<b>↗</b></button>
             <button type="button" data-service="availability">${c.rooms}<b>↗</b></button>
+            <a href="clinic.html#clinic">${c.clinic}<b>↗</b></a>
             <a href="#map">${c.map}<b>↓</b></a>
           </nav>
         </div>

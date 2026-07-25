@@ -9,6 +9,7 @@ import { siteHref } from "./site-router.js";
 import { liveCampusSnapshot, seededPostCreatedAt } from "../data/live-campus.js";
 import { governanceCommunityPosts } from "./governance-model.js";
 import { academicCommunityPosts } from "./academic-model.js";
+import { clinicCommunityPosts } from "./clinic-model.js";
 
 const labels = {
   "zh-Hant": {
@@ -41,9 +42,11 @@ const labels = {
     contestedFile: "紅線爭議案卷",
     governanceLinked: "議事鐘連動",
     academicLinked: "答辯連動",
+    clinicLinked: "校醫院連動",
     openCase: "查看結案案卷",
     openGovernance: "查看校務提案",
     openAcademic: "查看答辯與成績",
+    openClinic: "查看診療與處方",
   },
   ja: {
     course: "授業",
@@ -75,9 +78,11 @@ const labels = {
     contestedFile: "赤糸係争記録",
     governanceLinked: "議事鐘連動",
     academicLinked: "答弁連動",
+    clinicLinked: "校医院連動",
     openCase: "終結記録を見る",
     openGovernance: "学務提案を見る",
     openAcademic: "答弁・成績を見る",
+    openClinic: "診療・処方を見る",
   },
   en: {
     course: "Courses",
@@ -109,9 +114,11 @@ const labels = {
     contestedFile: "Red-thread contested file",
     governanceLinked: "Governance-linked",
     academicLinked: "Defence-linked",
+    clinicLinked: "Hospital-linked",
     openCase: "Open closure record",
     openGovernance: "Open governance proposal",
     openAcademic: "Open defence & grades",
+    openClinic: "Open care & prescriptions",
   },
 };
 
@@ -195,6 +202,11 @@ export function initBbs() {
               label: l.openAcademic,
               handler: () => window.location.assign(siteHref(post.academicRoute)),
             }
+        : post.clinicRoute
+          ? {
+              label: l.openClinic,
+              handler: () => window.location.assign(siteHref(post.clinicRoute)),
+            }
         : undefined,
     });
   }
@@ -203,7 +215,7 @@ export function initBbs() {
     const locale = getLocale();
     const l = labels[locale];
     const article = document.createElement("article");
-    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}`;
+    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}${post.clinic ? " clinic-post" : ""}`;
     article.dataset.bbsCategory = post.category;
     article.dataset.bbsId = post.id;
     if (post.local) article.dataset.userPost = "";
@@ -228,6 +240,8 @@ export function initBbs() {
           ? l.governanceLinked
           : post.academic
             ? l.academicLinked
+            : post.clinic
+              ? l.clinicLinked
             : l.incidentLinked;
       title.append(linked, " ");
     }
@@ -288,7 +302,11 @@ export function initBbs() {
       ...post,
       time: relativeTime(post.createdAt, l),
     }));
-    return [...userPosts.reverse(), ...academicPosts, ...governancePosts, ...incidentPosts, ...seeds];
+    const clinicPosts = clinicCommunityPosts(locale).map((post) => ({
+      ...post,
+      time: relativeTime(post.createdAt, l),
+    }));
+    return [...userPosts.reverse(), ...clinicPosts, ...academicPosts, ...governancePosts, ...incidentPosts, ...seeds];
   }
 
   function findPost(id) {
@@ -442,6 +460,7 @@ export function initBbs() {
   window.addEventListener("tu:incidentchange", renderPosts);
   window.addEventListener("tu:governancechange", renderPosts);
   window.addEventListener("tu:academicchange", renderPosts);
+  window.addEventListener("tu:clinicchange", renderPosts);
   chooseSeedPosts();
   renderPosts();
   clockTimer = window.setInterval(() => {

@@ -8,6 +8,7 @@ import { courseCatalogue } from "../data/courses.js";
 import { libraryHoldings } from "../data/library.js";
 import { residences, roommateProfiles } from "../data/housing.js";
 import { incidentCases } from "../data/incidents.js";
+import { clinicMedicines, clinicTherapies } from "../data/clinic.js";
 import { getLocale } from "./i18n.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { currentPage, pageForRoute, siteHref } from "./site-router.js";
@@ -42,6 +43,7 @@ const copy = {
       library: "館藏",
       housing: "住宿",
       incident: "事件",
+      clinic: "校醫院",
     },
   },
   ja: {
@@ -67,6 +69,7 @@ const copy = {
       library: "蔵書",
       housing: "学生寮",
       incident: "事案",
+      clinic: "校医院",
     },
   },
   en: {
@@ -92,6 +95,7 @@ const copy = {
       library: "Library holding",
       housing: "Housing",
       incident: "Incident",
+      clinic: "Medical center",
     },
   },
 };
@@ -108,6 +112,10 @@ const sectionEntries = [
   ["academic-grades", "course", ["本機學業成績單", "端末内成績表", "On-device academic transcript"], ["作業、考試、答辯與可列印回條", "課題・試験・答弁・印刷用記録", "Assignments, exams, defences, and printable records"]],
   ["academic-defense", "course", ["論文／符卡答辯", "論文／スペルカード答弁", "Thesis / spell-card defence"], ["研究計畫、三人委員會、公開三問與裁定", "研究計画・三名委員会・公開三問・裁定", "Project dossier, three examiners, public questions, and ruling"]],
   ["library", "section", ["霧湖圖書館", "霧の湖図書館", "Misty Lake Library"], ["館藏搜尋、借閱、續借、歸還與預約", "蔵書検索・貸出・更新・返却・予約", "Search, borrow, renew, return, and place holds"]],
+  ["clinic", "clinic", ["永遠亭校醫院與校醫務室", "永遠亭校医院・保健室", "Eientei Hospital & campus infirmary"], ["本機分診、動態候診、跨種族診療與轉介", "端末内トリアージ・動的待合・種族横断診療・紹介", "On-device triage, live queue, cross-species care, and referrals"]],
+  ["clinic-pharmacy", "clinic", ["月藥調劑室與處方", "月薬調剤室・処方", "Lunar Pharmacy & prescriptions"], ["幻想鄉藥品、領藥、用藥記錄與可列印回條", "幻想郷薬・調剤・服用記録・印刷票", "Gensokyo medicines, dispensing, dose records, and printable slips"]],
+  ["clinic-recovery", "clinic", ["康復療法與復診", "回復療法・再診", "Recovery therapies & follow-up"], ["彈幕肩翼、境界定位、月相降載、幽體同步與妖精核心", "弾幕肩翼・境界定位・月相低刺激・幽体同期・妖精核", "Danmaku shoulder-wing, boundary anchoring, lunar recovery, phantom sync, and fairy cores"]],
+  ["clinic-account", "clinic", ["我的診療紀錄", "自分の診療記録", "My medical file"], ["掛號、診察、處方、領藥與康復回條", "受付・診察・処方・調剤・回復票", "Check-ins, consultations, prescriptions, dispensing, and recovery slips"]],
   ["housing", "housing", ["宿舍、房間與室友", "学生寮・部屋・同室者", "Housing, rooms & roommates"], ["住宿需求、房間配對、室友協議與換房", "入寮希望・配室・同室協定・転室", "Housing needs, allocation, roommate agreements, and transfers"]],
   ["housing-application", "housing", ["宿舍申請與配對", "入寮申請・配室", "Housing application & matching"], ["月相、翼展、水域、使魔、作息與相容度", "月相・翼幅・水域・使い魔・生活時間・適合度", "Moon phase, wingspan, water, familiars, schedules, and compatibility"]],
   ["housing-account", "housing", ["我的宿舍", "自分の寮", "My housing"], ["房號、室友、共住備忘與換房申請", "室番号・同室者・共同生活メモ・転室申請", "Room, roommate, shared-living note, and transfer request"]],
@@ -304,6 +312,26 @@ function buildIndex() {
       description: `${profile.kind[locale]} · ${profile.school[locale]} · ${profile.bio[locale]}`,
       source: profile,
       priority: 42,
+    }));
+  });
+  Object.values(clinicMedicines).forEach((medicine) => {
+    index.push(makeEntry({
+      route: `clinic-medicine-${medicine.id}`,
+      category: "clinic",
+      title: `${medicine.code} · ${medicine.name[locale]}`,
+      description: `${medicine.indication[locale]} · ${medicine.caution[locale]}`,
+      source: medicine,
+      priority: 69,
+    }));
+  });
+  Object.values(clinicTherapies).forEach((therapy) => {
+    index.push(makeEntry({
+      route: "clinic-recovery",
+      category: "clinic",
+      title: therapy.name[locale],
+      description: `${therapy.clinician[locale]} · ${therapy.lead[locale]}`,
+      source: therapy,
+      priority: 61,
     }));
   });
   return index;
