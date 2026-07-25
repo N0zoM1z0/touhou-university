@@ -50,6 +50,7 @@ const copy = {
     title: "路每天都在，位置不一定。",
     lead: "聚焦圖使用這台裝置的日期、時間與月相。竹林岔路會按日輪替；入夜點亮兔燈，滿月時診療動線改由調劑室分流。",
     back: "返回主校區",
+    hospital: "前往校醫院分診台",
     now: "本機時間",
     phase: "月相",
     dayShift: "今日竹向",
@@ -76,6 +77,7 @@ const copy = {
     title: "道は毎日ある。位置は毎日同じとは限らない。",
     lead: "端末の日付・時刻・月相で変化する詳細図。竹林分岐は日替わり、夜は兎灯、満月は調剤室経由の診療動線になります。",
     back: "メインキャンパスへ",
+    hospital: "校医院トリアージへ",
     now: "端末時刻",
     phase: "月相",
     dayShift: "本日の竹向き",
@@ -102,6 +104,7 @@ const copy = {
     title: "The road exists every day. Its location may not.",
     lead: "This detail map follows your device date, time, and lunar phase. Bamboo forks rotate daily; rabbit lamps appear at night; full-moon clinic traffic diverts through the pharmacy.",
     back: "Back to main campus",
+    hospital: "Open hospital triage",
     now: "Device time",
     phase: "Lunar phase",
     dayShift: "Today's bamboo",
@@ -295,7 +298,10 @@ function render({ preserveSelection = true } = {}) {
         <h2>${c.title}</h2>
         <span>${c.lead}</span>
       </div>
-      <button type="button" data-eientei-close>← ${c.back}</button>
+      <nav>
+        <button type="button" data-eientei-close>← ${c.back}</button>
+        <a href="clinic.html#clinic">${c.hospital} <span>↗</span></a>
+      </nav>
     </header>
     <div class="eientei-state">
       <div><span>${c.now}</span><strong data-eientei-clock>${time}</strong></div>

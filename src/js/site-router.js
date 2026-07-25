@@ -6,6 +6,7 @@ const pageFiles = {
   campus: "campus.html",
   mytu: "mytu.html",
   library: "library.html",
+  clinic: "clinic.html",
   housing: "housing.html",
   incidents: "incidents.html",
 };
@@ -22,6 +23,7 @@ export function pageForRoute(route = "") {
   if (/^(?:live-campus|governance|map(?:-|$)|campus(?:-|$)|bbs(?:-|$)|club-)/.test(route)) return "campus";
   if (/^(?:my-tu|course-registration|course-|academic-)/.test(route)) return "mytu";
   if (/^library(?:-|$)/.test(route)) return "library";
+  if (/^clinic(?:-|$)/.test(route)) return "clinic";
   if (/^housing(?:-|$)/.test(route)) return "housing";
   return "home";
 }

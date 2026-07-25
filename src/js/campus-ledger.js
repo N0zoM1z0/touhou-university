@@ -64,6 +64,9 @@ function legacyEvents() {
   const academicExamAttempts = readJson("tu:academics:exam-attempts", []);
   const academicProjects = readJson("tu:academics:projects", []);
   const academicDefences = readJson("tu:academics:defences", []);
+  const clinicVisits = readJson("tu:clinic:visits", []);
+  const clinicPrescriptions = readJson("tu:clinic:prescriptions", []);
+  const clinicPlans = readJson("tu:clinic:care-plans", []);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -333,6 +336,88 @@ function legacyEvents() {
         percent: defence.percent,
       },
     });
+  }
+  for (const visit of Array.isArray(clinicVisits) ? clinicVisits : []) {
+    if (!visit?.id || !visit?.checkedInAt) continue;
+    events.push({
+      id: `clinic.visit.checked-in:${visit.id}`,
+      type: "clinic.visit.checked-in",
+      timestamp: visit.checkedInAt,
+      payload: {
+        visitId: visit.id,
+        siteId: visit.siteId,
+        band: visit.band,
+        waitMinutes: visit.waitMinutes,
+      },
+    });
+    if (visit.consultedAt) {
+      const prescription = (Array.isArray(clinicPrescriptions) ? clinicPrescriptions : [])
+        .find((record) => record.visitId === visit.id);
+      events.push({
+        id: `clinic.consultation.completed:${visit.id}`,
+        type: "clinic.consultation.completed",
+        timestamp: visit.consultedAt,
+        payload: {
+          visitId: visit.id,
+          prescriptionId: prescription?.id || null,
+          siteId: visit.siteId,
+        },
+      });
+    }
+  }
+  for (const prescription of Array.isArray(clinicPrescriptions) ? clinicPrescriptions : []) {
+    if (!prescription?.id) continue;
+    if (prescription.dispensedAt) {
+      events.push({
+        id: `clinic.prescription.dispensed:${prescription.id}`,
+        type: "clinic.prescription.dispensed",
+        timestamp: prescription.dispensedAt,
+        payload: {
+          prescriptionId: prescription.id,
+          visitId: prescription.visitId,
+          medicineIds: prescription.medicineIds || [],
+        },
+      });
+    }
+    for (const dose of Array.isArray(prescription.doseLog) ? prescription.doseLog : []) {
+      if (!dose?.id || !dose?.recordedAt) continue;
+      events.push({
+        id: `clinic.dose.recorded:${dose.id}`,
+        type: "clinic.dose.recorded",
+        timestamp: dose.recordedAt,
+        payload: {
+          prescriptionId: prescription.id,
+          medicineId: dose.medicineId,
+          sequence: dose.sequence,
+        },
+      });
+    }
+  }
+  for (const plan of Array.isArray(clinicPlans) ? clinicPlans : []) {
+    if (!plan?.id || !plan?.startedAt) continue;
+    events.push({
+      id: `clinic.therapy.started:${plan.id}`,
+      type: "clinic.therapy.started",
+      timestamp: plan.startedAt,
+      payload: { planId: plan.id, therapyId: plan.therapyId, visitId: plan.visitId },
+    });
+    for (const step of Array.isArray(plan.completedSteps) ? plan.completedSteps : []) {
+      if (plan.status === "completed" && step === Math.max(...plan.completedSteps)) continue;
+      events.push({
+        id: `clinic.therapy.step.completed:${plan.id}:${step}`,
+        type: "clinic.therapy.step.completed",
+        timestamp: plan.updatedAt || plan.completedAt || plan.startedAt,
+        payload: { planId: plan.id, therapyId: plan.therapyId, step },
+      });
+    }
+    if (plan.completedAt) {
+      events.push({
+        id: `clinic.therapy.completed:${plan.id}`,
+        type: "clinic.therapy.completed",
+        timestamp: plan.completedAt,
+        payload: { planId: plan.id, therapyId: plan.therapyId },
+      });
+    }
   }
   return events;
 }

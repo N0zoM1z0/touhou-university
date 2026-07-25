@@ -6,23 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="互動校園地圖、永遠亭詳圖、校園風采、社團與 BBS。 東方Project非官方二次創作。"
+      content="校醫務室與永遠亭附屬校醫院：分診、候診、幻想鄉藥局、處方、病友紀錄與康復療法。 東方Project非官方二次創作。"
     >
     <meta name="theme-color" content="#151d2a">
-    <meta property="og:title" content="校園生活｜幻想鄉立東方大學">
+    <meta property="og:title" content="永遠亭校醫院｜幻想鄉立東方大學">
     <meta
       property="og:description"
-      content="互動校園地圖、永遠亭詳圖、校園風采、社團與 BBS。 東方Project非官方二次創作網站。"
+      content="校醫務室與永遠亭附屬校醫院：分診、候診、幻想鄉藥局、處方、病友紀錄與康復療法。 東方Project非官方二次創作網站。"
     >
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/images/campus-hero.webp">
-    <title>校園生活｜幻想鄉立東方大學</title>
+    <title>永遠亭校醫院｜幻想鄉立東方大學</title>
     <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
-
+    <link
+      rel="preload"
+      href="assets/images/map/eientei-clinic.webp"
+      as="image"
+      type="image/webp"
+      fetchpriority="high"
+    >
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
-  <body data-page="campus">
+  <body data-page="clinic">
     <a class="skip-link" href="#main">跳至主要內容</a>
 
     <div class="site-notice">
@@ -115,265 +121,19 @@
     <section class="page-masthead" aria-labelledby="page-title">
       <div class="container">
         <nav class="page-breadcrumb" aria-label="頁面位置">
-          <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>CAMPUS LIFE</b>
+          <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>CAMPUS MEDICAL CENTER</b>
         </nav>
         <div class="page-masthead-copy">
-          <div><p>CAMPUS LIFE</p><h1 id="page-title">校園、路線與共同生活</h1></div>
-          <p>從博麗門到永遠亭，路線會隨交通方式與月相改變；校園裡的傳聞通常更快。</p>
+          <div><p>CAMPUS MEDICAL CENTER</p><h1 id="page-title">校醫院、醫務室與月藥調劑</h1></div>
+          <p>先把症狀說清楚，再決定去本部醫務室還是穿過竹林；處方、領藥與康復回條會留在這台裝置。</p>
         </div>
-        <nav class="page-local-nav" aria-label="校園、路線與共同生活"><a href="#live-campus">動態校園</a><a href="#governance">校務治理</a><a href="#map">校園地圖</a><a href="#campus">校園風采</a><a href="#bbs">校園 BBS</a></nav>
+        <nav class="page-local-nav" aria-label="校醫院、醫務室與月藥調劑"><a href="#clinic">分診與候診</a><a href="#clinic-pharmacy">藥局與處方</a><a href="#clinic-recovery">康復療法</a><a href="#clinic-account">我的診療紀錄</a></nav>
       </div>
     </section>
-      <section class="live-campus-section" id="live-campus" aria-labelledby="live-campus-title">
-  <span class="section-route-anchor" id="governance" aria-hidden="true"></span>
-  <h2 class="visually-hidden" id="live-campus-title">動態校園與校務治理</h2>
-  <div class="container" data-live-campus-app></div>
-</section>
-<section class="section campus-map" id="map">
-  <div class="container">
-    <header class="section-header reveal">
-      <div>
-        <p class="eyebrow"><span>06</span> CAMPUS MAP / 校園地圖</p>
-        <h2>從博麗門出發，<br>別把近路當成同一條路。</h2>
-      </div>
-      <p>
-        主校區依大結界內側山勢展開。步行時間以人類平均速度計；
-        妖精、天狗與間隙移動者請遵守空路分層。
-      </p>
-    </header>
-
-    <div class="map-layout reveal">
-      <section class="map-canvas" aria-label="幻想鄉立東方大學校園地圖">
-        <div class="map-terrain map-lake" aria-hidden="true"></div>
-        <div class="map-terrain map-forest" aria-hidden="true"></div>
-        <div class="map-terrain map-mountain" aria-hidden="true"></div>
-        <div class="map-road road-a" aria-hidden="true"></div>
-        <div class="map-road road-b" aria-hidden="true"></div>
-        <div class="map-road road-c" aria-hidden="true"></div>
-        <svg class="map-route-layer" aria-hidden="true" data-map-route-layer></svg>
-
-        <button class="map-node active" type="button" data-map-place="gate">
-          <span>01</span><strong>博麗門</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="library">
-          <span>02</span><strong>霧湖圖書館</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="boundary">
-          <span>03</span><strong>境界講堂</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="history">
-          <span>04</span><strong>稗田史學館</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="magic">
-          <span>05</span><strong>七曜實驗塔</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="clinic">
-          <span>06</span><strong>永遠亭診療所</strong>
-        </button>
-        <button class="map-node" type="button" data-map-place="kappa">
-          <span>07</span><strong>河童聯合工房</strong>
-        </button>
-        <p class="map-repair-note" aria-hidden="true">
-          <s>北側風路已永久修復</s><br>
-          <b>訂正：河童膠帶仍算臨時修復</b>
-        </p>
-        <div class="map-compass" aria-hidden="true"><span>北</span><i></i></div>
-      </section>
-
-      <aside class="map-detail" aria-live="polite" data-map-detail>
-        <div class="map-detail-media">
-          <img decoding="async"
-            src="assets/images/campus-hero.webp"
-            alt="晨霧中的幻想鄉立東方大學主校區與博麗門"
-            width="1280"
-            height="853"
-            loading="lazy"
-            data-map-image
-          >
-          <span data-map-type>迎賓與校務</span>
-          <p data-map-index>01 / MAIN GATE</p>
-        </div>
-        <div class="map-detail-content">
-          <h3 data-map-name>博麗門</h3>
-          <p data-map-description>
-            位於大結界內側的正門。外界生報到、訪客核驗與遺失物返回皆在此辦理。
-          </p>
-          <dl>
-            <div><dt>開放</dt><dd data-map-hours>06:00—22:30</dd></div>
-            <div><dt>步行</dt><dd data-map-walk>起點</dd></div>
-            <div><dt>空路</dt><dd data-map-air>低空禁飛</dd></div>
-          </dl>
-          <button class="text-action" type="button" data-service="availability">
-            查詢附近館舍 <span aria-hidden="true">→</span>
-          </button>
-        </div>
-      </aside>
-    </div>
-
-    <section class="eientei-focus" data-eientei-focus hidden aria-live="polite">
-  <h2 class="visually-hidden">Eientei and Bamboo Forest detail map</h2>
-  <div class="eientei-app" data-eientei-app></div>
-</section>
-
-    <section class="route-planner reveal" id="route-planner" aria-label="校園路線規劃" data-route-planner>
-      <header class="route-planner-head">
-        <div>
-          <p>GENSOKYO CAMPUS TRANSIT</p>
-          <h3>怎麼走？讓校園路網替你算。</h3>
-        </div>
-        <p>選擇步行、掃帚、天狗風路或竹林兔車；每一種交通都有自己的停靠點與接駁路線。</p>
-      </header>
-      <div class="route-live-status" data-route-live aria-live="polite"></div>
-      <form class="route-form" data-route-form>
-        <label>
-          <span>出發地</span>
-          <select name="from" data-route-from></select>
-        </label>
-        <button class="route-swap" type="button" aria-label="交換出發地與目的地" data-route-swap>⇄</button>
-        <label>
-          <span>目的地</span>
-          <select name="to" data-route-to></select>
-        </label>
-        <fieldset>
-          <legend>交通方式</legend>
-          <div class="route-modes" data-route-modes></div>
-        </fieldset>
-        <button class="route-submit" type="submit">
-          規劃路線 <span aria-hidden="true">→</span>
-        </button>
-      </form>
-      <div class="route-result" aria-live="polite" data-route-result hidden></div>
-    </section>
-
-    <div class="map-legend reveal">
-      <span><i class="legend-academic"></i>教學研究</span>
-      <span><i class="legend-service"></i>公共服務</span>
-      <span><i class="legend-field"></i>實地教學</span>
-      <span><i class="legend-restricted"></i>月相管制區</span>
-    </div>
-  </div>
-</section>
-<section class="section campus" id="campus">
-        <div class="container">
-          <header class="section-header reveal">
-            <div>
-              <p class="eyebrow"><span>08</span> CAMPUS LIFE / 校園風采</p>
-              <h2>課堂之外，<br>幻想鄉仍在發生。</h2>
-            </div>
-            <p>
-              從霧湖自習到妖怪山實作，再到一年一度的符卡燈會。
-              校園不是避開差異的結界，而是學習如何一起生活的地方。
-            </p>
-          </header>
-
-          <div class="campus-gallery">
-            <article class="campus-card campus-card-large reveal">
-              <img decoding="async"
-                src="assets/images/library.webp"
-                alt="暮色中的霧湖圖書館，長桌、書架與黃銅天球儀被暖光照亮"
-                loading="lazy"
-                width="1200"
-                height="900"
-              >
-              <div>
-                <p>01 / STUDY</p>
-                <h3>霧湖圖書館・夜間閱覽</h3>
-                <span>館藏會飛，但索書號不會。</span>
-                <i aria-hidden="true">查看詳情 ↗</i>
-              </div>
-              <button class="campus-card-trigger" type="button" data-campus-feature="library" aria-label="查看霧湖圖書館夜間閱覽詳情"></button>
-            </article>
-            <article class="campus-card reveal">
-              <img decoding="async"
-                src="assets/images/kappa-lab.webp"
-                alt="妖怪山瀑布旁的河童工房，學生正在測試水力機械"
-                loading="lazy"
-                width="1200"
-                height="900"
-              >
-              <div>
-                <p>02 / FIELDWORK</p>
-                <h3>妖怪山・河童聯合工房</h3>
-                <span>上午設計，午後下水。</span>
-                <i aria-hidden="true">查看詳情 ↗</i>
-              </div>
-              <button class="campus-card-trigger" type="button" data-campus-feature="workshop" aria-label="查看河童聯合工房詳情"></button>
-            </article>
-            <article class="campus-card reveal">
-              <img decoding="async"
-                src="assets/images/night-festival.webp"
-                alt="夜間校園燈會，學生在鳥居與櫻花下欣賞符卡形狀的煙火"
-                loading="lazy"
-                width="1200"
-                height="900"
-              >
-              <div>
-                <p>03 / FESTIVAL</p>
-                <h3>春季符卡燈會</h3>
-                <span>彈幕只在天空，攤販留在地上。</span>
-                <i aria-hidden="true">查看詳情 ↗</i>
-              </div>
-              <button class="campus-card-trigger" type="button" data-campus-feature="festival" aria-label="查看春季符卡燈會詳情"></button>
-            </article>
-          </div>
-
-          <div class="clubs reveal">
-            <p class="eyebrow"><span>CLUBS</span> 本年度登錄社團</p>
-            <div class="club-list">
-              <button type="button" data-club="grimoire">魔導書修復會</button>
-              <button type="button" data-club="hisoutensoku">非想天則研究會</button>
-              <button type="button" data-club="bamboo">竹林定向部</button>
-              <button type="button" data-club="fairyChoir">妖精合唱團</button>
-              <button type="button" data-club="teaNews">茶與新聞倫理社</button>
-              <button type="button" data-club="nightSparrow">夜雀音樂食堂</button>
-              <button type="button" data-club="ufo">不明飛行物觀測會</button>
-              <button type="button" data-club="ordinaryMagic">普通的魔法實驗社</button>
-            </div>
-          </div>
-        </div>
-      </section>
-<section class="section bbs" id="bbs">
-  <div class="container">
-    <header class="section-header reveal">
-      <div>
-        <p class="eyebrow"><span>09</span> CAMPUS BBS / 校園掲示板</p>
-        <h2>風聲很快，<br>但帖子可以慢慢回。</h2>
-      </div>
-      <p>
-        課程互助、失物招領、社團募集與校務提案集中於此。
-        發言前請確認板面；速報仍請投往新聞學院。
-      </p>
-    </header>
-
-    <div class="bbs-shell reveal">
-      <div class="bbs-toolbar">
-        <div class="bbs-filters" role="group" aria-label="BBS 板面">
-          <button class="active" type="button" data-bbs-filter="all">全部</button>
-          <button type="button" data-bbs-filter="course">課程</button>
-          <button type="button" data-bbs-filter="club">社團</button>
-          <button type="button" data-bbs-filter="market">交換</button>
-          <button type="button" data-bbs-filter="notice">校務</button>
-          <button class="bbs-mine-filter" type="button" data-bbs-filter="mine">我的發帖</button>
-        </div>
-        <div class="bbs-toolbar-actions">
-          <button class="bbs-shuffle-button" type="button" data-bbs-shuffle>
-            ↻ 換一批話題
-          </button>
-          <button class="bbs-new-button" type="button" data-bbs-compose>
-            ＋ 發佈新帖
-          </button>
-        </div>
-      </div>
-
-      <div class="bbs-table" data-bbs-list aria-live="polite"></div>
-
-      <div class="bbs-status">
-        <span data-bbs-online><i></i> 目前在線：108</span>
-        <span data-bbs-topics>本日主題：74</span>
-        <span data-bbs-local>本機保存：0 篇</span>
-        <span data-bbs-sync>最後同步：剛剛</span>
-      </div>
-    </div>
+      <section class="clinic-section" id="clinic" aria-labelledby="clinic-title">
+  <h2 class="visually-hidden" id="clinic-title">永遠亭校醫院與校醫務室</h2>
+  <div class="container" data-clinic-app>
+    <p>月兔正在核對候診號碼、藥袋與一張被改成新聞標題的處方。</p>
   </div>
 </section>
     </main>

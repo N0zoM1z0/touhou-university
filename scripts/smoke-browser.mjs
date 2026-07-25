@@ -947,6 +947,122 @@ try {
   })`);
   check(incidentNews.dynamic >= 2 && incidentNews.service && incidentNews.contested, "Normal and contested incident closures did not both reach the campus wire.");
 
+  await navigate("clinic.html#clinic", "[data-clinic-app]");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('.clinic-queue-grid article'))"));
+  const clinicDraft = await cdp.evaluate(`(async () => {
+    const form = document.querySelector('[data-clinic-triage-form]');
+    form.querySelector('input[value="magic-feedback"]').click();
+    form.querySelector('input[value="mushroom-exposure"]').click();
+    form.elements.intensity.value = '4';
+    form.elements.mobility.value = 'shuttle';
+    form.elements.residueContained.checked = false;
+    form.elements.notes.value = '外界人類測試：蘑菇籃沒有日期，八卦爐仍在冒紫色的煙。';
+    form.elements.notes.dispatchEvent(new Event('input', { bubbles: true }));
+    await new Promise((resolve) => setTimeout(resolve, 420));
+    return JSON.parse(localStorage.getItem('tu:clinic:triage-draft') || 'null');
+  })()`);
+  check(
+    clinicDraft?.answers?.complaints?.includes("magic-feedback")
+      && clinicDraft.answers.notes.includes("外界人類測試"),
+    "Clinic triage did not autosave Chinese input and selected complaints.",
+  );
+  await cdp.evaluate(`document.querySelector('[data-clinic-triage-form]').requestSubmit(); true`);
+  await eventually(() => cdp.evaluate("JSON.parse(localStorage.getItem('tu:clinic:visits') || '[]').some((record) => record.status === 'waiting')"));
+  const triageResult = await cdp.evaluate(`(() => {
+    const visits = JSON.parse(localStorage.getItem('tu:clinic:visits') || '[]');
+    const latest = visits.at(-1);
+    return {
+      active: Boolean(document.querySelector('.clinic-active-visit [data-clinic-consult]')),
+      band: latest?.band,
+      site: latest?.siteId,
+      wait: latest?.waitMinutes,
+      draftCleared: !localStorage.getItem('tu:clinic:triage-draft')
+    };
+  })()`);
+  check(
+    triageResult.active && triageResult.band === "urgent" && triageResult.site === "eientei"
+      && triageResult.wait >= 2 && triageResult.draftCleared,
+    "Clinic triage did not create a persistent urgent Eientei visit with a live wait.",
+  );
+  await cdp.evaluate(`document.querySelector('.clinic-active-visit [data-clinic-consult]').click(); true`);
+  await eventually(() => cdp.evaluate("location.hash === '#clinic-pharmacy' && Boolean(document.querySelector('[data-clinic-dispense]'))"));
+  await cdp.evaluate(`document.querySelector('[data-clinic-dispense]').click(); true`);
+  await eventually(() => cdp.evaluate("JSON.parse(localStorage.getItem('tu:clinic:prescriptions') || '[]').at(-1)?.status === 'dispensed'"));
+  for (let index = 0; index < 20; index += 1) {
+    const recorded = await cdp.evaluate(`(() => {
+      const button = document.querySelector('[data-clinic-dose]');
+      if (!button) return false;
+      button.click();
+      return true;
+    })()`);
+    if (!recorded) break;
+    await delay(40);
+  }
+  const prescriptionResult = await cdp.evaluate(`(() => {
+    const prescriptions = JSON.parse(localStorage.getItem('tu:clinic:prescriptions') || '[]');
+    const latest = prescriptions.at(-1);
+    return {
+      status: latest?.status,
+      medicines: latest?.medicineIds?.length,
+      doses: latest?.doseLog?.length,
+      cards: document.querySelectorAll('.clinic-medicine-list a').length
+    };
+  })()`);
+  check(
+    prescriptionResult.status === "course-complete"
+      && prescriptionResult.medicines >= 2
+      && prescriptionResult.doses >= prescriptionResult.medicines
+      && prescriptionResult.cards === 12,
+    "Clinic pharmacy did not dispense, preserve, and complete the prescribed medicine course.",
+  );
+  await cdp.evaluate(`location.hash = 'clinic-recovery'; true`);
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-clinic-start-therapy]:not([disabled])'))"));
+  await cdp.evaluate(`document.querySelector('[data-clinic-start-therapy]:not([disabled])').click(); true`);
+  for (let index = 0; index < 6; index += 1) {
+    const completed = await cdp.evaluate(`(() => {
+      const button = document.querySelector('[data-clinic-care-step]');
+      if (!button) return false;
+      button.click();
+      return true;
+    })()`);
+    if (!completed) break;
+    await delay(40);
+  }
+  const recoveryResult = await cdp.evaluate(`(() => {
+    const plans = JSON.parse(localStorage.getItem('tu:clinic:care-plans') || '[]');
+    const latest = plans.at(-1);
+    return { status: latest?.status, steps: latest?.completedSteps?.length, visible: document.querySelectorAll('.clinic-care-plans li.done').length };
+  })()`);
+  check(
+    recoveryResult.status === "completed" && recoveryResult.steps === 4 && recoveryResult.visible === 4,
+    "Clinic recovery did not retain and visibly complete all four therapy steps.",
+  );
+  await cdp.evaluate(`location.hash = 'clinic-account'; true`);
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-clinic-receipt]'))"));
+  const clinicAccount = await cdp.evaluate(`(() => {
+    document.querySelector('[data-clinic-receipt]').click();
+    const dialog = document.querySelector('[data-clinic-receipt-dialog]');
+    return {
+      open: dialog.open,
+      receipt: dialog.textContent.includes('TU-RX'),
+      visits: document.querySelectorAll('.clinic-account-grid > section:first-child article').length,
+      prescriptions: document.querySelectorAll('.clinic-account-grid > section:nth-child(2) article').length,
+      plans: document.querySelectorAll('.clinic-account-grid > section:nth-child(3) article').length
+    };
+  })()`);
+  check(
+    clinicAccount.open && clinicAccount.receipt && clinicAccount.visits >= 1
+      && clinicAccount.prescriptions >= 1 && clinicAccount.plans >= 1,
+    "Clinic account did not retain visits, prescriptions, recovery slips, and a printable receipt.",
+  );
+  await cdp.evaluate(`document.querySelector('[data-clinic-receipt-close]').click(); true`);
+  await navigate("campus.html#bbs", "#bbs");
+  const clinicBbs = await cdp.evaluate(`({
+    posts: document.querySelectorAll('.clinic-post').length,
+    linked: [...document.querySelectorAll('.clinic-post .incident-linked')].every((node) => node.textContent.includes('校醫院'))
+  })`);
+  check(clinicBbs.posts >= 2 && clinicBbs.linked, "Dispensing and recovery did not create hospital-linked BBS reactions.");
+
   await navigate("mytu.html#my-tu", "#my-tu");
   const myTuLibrary = await cdp.evaluate(`(() => {
     const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
@@ -957,7 +1073,9 @@ try {
       housingEvents: ledger.filter((event) => event.type.startsWith('housing.')).length,
       incidentLink: document.querySelector('.mytu-summary a[href^="incidents.html"]')?.textContent || '',
       incidentEvents: ledger.filter((event) => event.type.startsWith('incident.')).length,
-      contestedEvent: [...document.querySelectorAll('.mytu-ledger strong')].some((node) => node.textContent.includes('紅線爭議案卷'))
+      clinicLink: document.querySelector('.mytu-summary a[href^="clinic.html"]')?.textContent || '',
+      clinicEvents: ledger.filter((event) => event.type.startsWith('clinic.')).length,
+      contestedEvent: ledger.some((event) => event.type === 'incident.resolved' && event.payload?.disposition === 'contested')
     };
   })()`);
   check(mytuLibraryLinkOkay(myTuLibrary.libraryLink), "My TU does not link to the library record.");
@@ -965,12 +1083,13 @@ try {
   check(/宿舍|換房/.test(myTuLibrary.housingLink), "My TU does not link to the housing record.");
   check(myTuLibrary.housingEvents >= 3, "Housing actions are missing from the My TU campus ledger.");
   check(/事件研究|結案/.test(myTuLibrary.incidentLink) && myTuLibrary.incidentEvents >= 4 && myTuLibrary.contestedEvent, "Normal and contested incident work is missing from My TU.");
+  check(/診療|處方|康復/.test(myTuLibrary.clinicLink) && myTuLibrary.clinicEvents >= 8, "Clinic care and its lifecycle events are missing from My TU.");
 
   await cdp.call("Page.navigate", { url: `${siteUrl}index.html#research-spellcard` });
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "housing.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -981,7 +1100,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "housing.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -998,14 +1117,14 @@ try {
       links: document.querySelectorAll('[data-mobile-menu] nav a').length
     };
   })()`);
-  check(mobileMenu.expanded === "true" && mobileMenu.visible && mobileMenu.links === 11, "Mobile multipage navigation did not open completely.");
+  check(mobileMenu.expanded === "true" && mobileMenu.visible && mobileMenu.links === 12, "Mobile multipage navigation did not open completely.");
 
   if (errors.length) failures.push(`Browser console errors:\n${[...new Set(errors)].join("\n")}`);
   if (failures.length) {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, live routes/governance, coursework/exams/defence/transcript, courses, library, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, live routes/governance, coursework/exams/defence/transcript, courses, library, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();

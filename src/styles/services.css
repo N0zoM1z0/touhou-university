@@ -131,6 +131,18 @@
     #21434a;
 }
 
+.service-tile.service-tile-clinic {
+  color: #f8f1e6;
+  background:
+    linear-gradient(135deg, rgba(215, 190, 127, .12), transparent 56%),
+    #22463a;
+}
+
+.service-tile-clinic .service-icon {
+  color: #e0bd83;
+  border-color: rgba(224, 189, 131, .48);
+}
+
 .service-tile-incidents .service-icon {
   color: #e2ca89;
   border-color: rgba(226, 202, 137, 0.45);

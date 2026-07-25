@@ -13,10 +13,10 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
-- nine generated, shareable pages for the home portal, academics, admissions,
-  research, campus incidents, campus life, My TU, the Misty Lake Library and
-  housing, with legacy one-page hashes redirected to their new canonical
-  locations;
+- ten generated, shareable pages for the home portal, academics, admissions,
+  research, campus incidents, campus life, My TU, the Misty Lake Library,
+  housing and campus healthcare, with legacy one-page hashes redirected to
+  their new canonical locations;
 - online application with autosaved drafts, application references and a
   device-local application history;
 - a My TU student-record centre with an on-device campus identity, unified
@@ -42,6 +42,11 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   twelve concrete rooms, nine potential roommate profiles, autosaved needs,
   explained compatibility and friction, three ranked offers, accept/pass
   decisions, shared-living notes and room-transfer requests;
+- an Eientei campus hospital and Hakurei Gate infirmary with live waiting
+  boards, autosaved symptom triage, check-in and consultation records, twelve
+  unusual medicines and aids, dose-by-dose prescriptions, six four-stage
+  recovery programmes, retained printable care files and linked patient BBS
+  reactions;
 - a five-case Campus Incident Centre with trilingual evidence, conflicting
   testimony, falsifiable hypotheses and reversible first responses; a
   persistent research simulator models confounding, drift, missingness and
@@ -100,7 +105,7 @@ src/
   sections/   page partials, one institutional section per file
   styles/     base and feature-specific stylesheets
 scripts/      build, preview, validation, scaffolding and asset helpers
-*.html        nine generated GitHub Pages artifacts
+*.html        ten generated GitHub Pages artifacts
 styles.css    generated GitHub Pages artifact
 site.config.mjs
 ```
@@ -114,13 +119,14 @@ modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate all nine root pages and styles.css
+npm run build               # generate all ten root pages and styles.css
 npm run check               # build + i18n coverage + JS syntax
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
 npm run check:housing       # residences, rooms, features, roommate profiles and translations
 npm run check:incidents     # case structure, translations, evidence, actions and BBS reactions
+npm run check:clinic        # sites, complaints, medicines, therapies, links and translations
 npm run check:interactions  # button/action contracts and subpage initializer coverage
 npm run check:live          # rotating campus state, route effects, governance and academic scoring
 npm run test:browser        # headless Chrome interaction and mobile smoke test
@@ -130,6 +136,7 @@ npm run capture -- --page=mytu.html#my-tu --section=my-tu --storage='{"tu:identi
 npm run capture -- --page=library.html#library --section=library --width=390 --height=844
 npm run capture -- --page=housing.html#housing-application --section=housing --width=390 --height=844
 npm run capture -- --page=incidents.html#incident-simulator --section=incident-center --width=390 --height=844
+npm run capture -- --page=clinic.html#clinic-pharmacy --section=clinic --width=390 --height=844
 npm run capture -- --page=campus.html#live-campus --section=live-campus --width=1440 --height=1000
 npm run capture -- --page=mytu.html#academic-defense --section=my-tu --storage='{"tu:identity":{"id":"TU-S-DEMO","name":"外界人類"}}'
 npm run new:section -- news # scaffold and register a new section
@@ -163,6 +170,13 @@ Set a different preview port with `PORT=4180 npm run dev`.
   housing persistence and matching live in `src/js/housing-model.js`.
   Applications, assignments and transfer requests stay in the
   `tu:housing:*` on-device records and enter the shared campus ledger.
+- Keep clinic sites, complaint groups, medicines, patients and recovery
+  programmes in `src/data/clinic.js`; triage, prescriptions and progression
+  belong in `src/js/clinic-model.js`, while `src/js/clinic.js` owns the focused
+  interface. Drafts, visits, prescriptions and care plans use
+  `tu:clinic:triage-draft`, `tu:clinic:visits`,
+  `tu:clinic:prescriptions` and `tu:clinic:care-plans`. The waiting board must
+  derive from the same Live Campus snapshot as maps and facilities.
 - Keep incident cases in `src/data/incidents.js`, persistence and simulation
   rules in `src/js/incident-model.js`, and presentation in
   `src/js/incidents.js`. Workbench choices, experiment slips and resolutions

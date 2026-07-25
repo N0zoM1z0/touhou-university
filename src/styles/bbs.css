@@ -236,6 +236,18 @@
   color: #315d57;
 }
 
+.clinic-post {
+  background:
+    linear-gradient(90deg, rgba(43, 112, 84, 0.14), transparent 40%),
+    var(--paper-light);
+}
+
+.clinic-post .bbs-category,
+.clinic-post .incident-linked {
+  border-color: rgba(43, 112, 84, 0.52);
+  color: #2e6b54;
+}
+
 .bbs-replies {
   color: #8b8379;
   font-size: 8px;

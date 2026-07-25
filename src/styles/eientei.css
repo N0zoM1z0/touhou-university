@@ -59,13 +59,32 @@
   line-height: 1.75;
 }
 
-.eientei-head button {
+.eientei-head nav {
+  display: grid;
+  gap: 8px;
+}
+
+.eientei-head button,
+.eientei-head nav a {
   padding: 10px 13px;
   color: #f4e8d7;
   border: 1px solid rgba(244, 232, 215, 0.28);
   background: rgba(255, 255, 255, 0.04);
   font-size: 9px;
   cursor: pointer;
+}
+
+.eientei-head nav a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-color: rgba(216, 177, 125, .55);
+  color: #e7c48f;
+}
+
+.eientei-head nav a span {
+  color: inherit;
 }
 
 .eientei-state {
@@ -362,9 +381,14 @@
     grid-template-columns: 1fr;
   }
 
-  .eientei-head button {
+  .eientei-head nav {
     grid-row: 1;
-    width: max-content;
+  }
+
+  .eientei-head nav,
+  .eientei-head button,
+  .eientei-head nav a {
+    width: 100%;
   }
 
   .eientei-state {
@@ -393,4 +417,3 @@
     padding: 23px 20px 29px;
   }
 }
-
