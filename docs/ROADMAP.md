@@ -74,11 +74,20 @@ Status: implemented in 0.13.0.
 
 ## Batch 6 — Thesis, governance and live campus
 
-- thesis supervision, committee review, spell-card defence and graduation
-- public proposals, amendments, stakeholder voting and policy consequences
-- explicit Live Campus versus Scenario/Exam state
-- time, moon and season affecting facilities, dining, routes, timetable,
-  library and BBS together
+Status: core workbench and operations layer implemented in 0.14.0.
+
+- four marked course assignments, a timed methods examination, retained
+  answers, per-question explanations and a printable combined transcript
+- thesis/spell-card project dossiers, three-examiner simulated defence, stored
+  rulings and two linked BBS reactions per completed defence
+- four public proposals with stakeholder counts, three policy outcomes,
+  replaceable on-device voting, My TU events and BBS linkage
+- one deterministic Live Campus clock separated from examination fixtures;
+  date, three-hour shift and lunar phase jointly affect facilities, dining,
+  routes, timetable and BBS state
+- real route closures/delays and room changes rather than copy-only status
+- follow-up: long-running supervision milestones, amendments, enacted-policy
+  expiry, graduation review and season-level operations
 
 ## Cross-cutting tracks
 

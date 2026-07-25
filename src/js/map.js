@@ -2,6 +2,7 @@ import { mapPlaces } from "../data/services.js";
 import { findCampusRoute, transportModes } from "../data/routes.js";
 import { getLocale } from "./i18n.js";
 import { navigateToDeepLink } from "./deep-links.js";
+import { liveCampusSnapshot } from "../data/live-campus.js";
 
 export function initCampusMap() {
   const detail = document.querySelector(".map-detail");
@@ -23,6 +24,9 @@ export function initCampusMap() {
       walkingOnly: "本段仍以步行較快",
       same: "你已經在目的地了。抬頭看看校牌。",
       start: "從這裡出發",
+      live: "此刻校園路況",
+      unavailable: "本時段停用",
+      restrictions: "動態限制已納入路線計算",
     },
     ja: {
       from: "出発地",
@@ -37,6 +41,9 @@ export function initCampusMap() {
       walkingOnly: "この区間は徒歩のほうが速い",
       same: "すでに目的地です。校名板を見上げてください。",
       start: "ここから出発",
+      live: "現在のキャンパス経路",
+      unavailable: "この時間は停止",
+      restrictions: "動的規制を経路計算へ反映済み",
     },
     en: {
       from: "From",
@@ -51,6 +58,9 @@ export function initCampusMap() {
       walkingOnly: "Walking is still faster for this trip",
       same: "You are already there. Look up at the building sign.",
       start: "Start here",
+      live: "Live campus conditions",
+      unavailable: "Unavailable this period",
+      restrictions: "Live restrictions are included in this route",
     },
   };
 
@@ -104,6 +114,7 @@ export function initCampusMap() {
     const selectedTo = toSelect.value || "kappa";
     const selectedMode =
       planner.querySelector('input[name="route-mode"]:checked')?.value || currentRoute?.mode || "walk";
+    const liveState = liveCampusSnapshot();
 
     for (const [select, value] of [
       [fromSelect, selectedFrom],
@@ -128,14 +139,20 @@ export function initCampusMap() {
       ...Object.entries(transportModes).map(([id, mode]) => {
         const label = document.createElement("label");
         label.className = "route-mode";
+        const unavailable = liveState.routeRules.closedModes.includes(id);
         label.innerHTML = `
-          <input type="radio" name="route-mode" value="${id}" ${id === selectedMode ? "checked" : ""}>
+          <input type="radio" name="route-mode" value="${id}" ${id === selectedMode ? "checked" : ""} ${unavailable ? "disabled" : ""}>
           <span class="route-mode-icon" aria-hidden="true">${mode.icon}</span>
-          <span><strong>${mode.name[locale]}</strong><small>${mode.summary[locale]}</small></span>
+          <span><strong>${mode.name[locale]}</strong><small>${unavailable ? labels.unavailable : mode.summary[locale]}</small></span>
         `;
         return label;
       }),
     );
+    const live = planner.querySelector("[data-route-live]");
+    live.innerHTML = `
+      <strong><i></i>${labels.live}</strong>
+      <span>${liveState.weather[locale]}</span>
+      <ul>${liveState.activeEvents.map((item) => `<li><b>${item.glyph}</b>${item.rule[locale]}</li>`).join("")}</ul>`;
 
     if (currentRoute) calculateRoute({ preserveTime: true });
   }
@@ -202,7 +219,8 @@ export function initCampusMap() {
     const from = planner.querySelector("[data-route-from]").value;
     const to = planner.querySelector("[data-route-to]").value;
     const mode = planner.querySelector('input[name="route-mode"]:checked')?.value || "walk";
-    const result = findCampusRoute(from, to, mode);
+    const liveState = liveCampusSnapshot();
+    const result = findCampusRoute(from, to, mode, liveState.routeRules);
     if (!result) return;
     const timestamp = preserveTime && currentRoute?.timestamp ? currentRoute.timestamp : Date.now();
     currentRoute = { from, to, mode, timestamp };
@@ -250,7 +268,7 @@ export function initCampusMap() {
               )
               .join("")}</ol>`
       }
-      <p class="route-notice">${modeData.notice[locale]}</p>
+      <p class="route-notice">${modeData.notice[locale]}<br><b>${labels.restrictions}：</b>${liveState.activeEvents.map((item) => item.rule[locale]).join(" · ")}</p>
     `;
     resultElement.hidden = false;
     markRoute(result.path);
@@ -274,7 +292,7 @@ export function initCampusMap() {
   });
   window.addEventListener("resize", () => {
     if (!currentRoute) return;
-    const result = findCampusRoute(currentRoute.from, currentRoute.to, currentRoute.mode);
+    const result = findCampusRoute(currentRoute.from, currentRoute.to, currentRoute.mode, liveCampusSnapshot().routeRules);
     if (result) drawRoute(result);
   });
   render(currentPlace);

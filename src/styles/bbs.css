@@ -212,6 +212,30 @@
   background: rgba(143, 42, 51, 0.06);
 }
 
+.governance-post {
+  background:
+    linear-gradient(90deg, rgba(170, 119, 62, 0.13), transparent 40%),
+    var(--paper-light);
+}
+
+.governance-post .bbs-category,
+.governance-post .incident-linked {
+  border-color: rgba(158, 105, 47, 0.55);
+  color: #8a5d2e;
+}
+
+.academic-post {
+  background:
+    linear-gradient(90deg, rgba(65, 111, 104, 0.13), transparent 40%),
+    var(--paper-light);
+}
+
+.academic-post .bbs-category,
+.academic-post .incident-linked {
+  border-color: rgba(65, 111, 104, 0.52);
+  color: #315d57;
+}
+
 .bbs-replies {
   color: #8b8379;
   font-size: 8px;

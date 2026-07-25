@@ -406,10 +406,9 @@ export const campusHistory = [
   {
     id: "red-thread-preservation-desk",
     archiveId: "TU-H-017",
-    commit: null,
+    commit: "ff430f63b9dd2329d4a9e63b0d3139e5996621d6",
     commitSubject: "Allow contested incident findings and distinguish merge history",
     recordedAt: "2026-07-25",
-    planned: true,
     category: "incidents",
     era: l("翌日・第二校鐘後", "翌日・第二校鐘後", "Next day · After Second Bell"),
     title: l(
@@ -426,6 +425,31 @@ export const campusHistory = [
       "文在確認框出現前已發出「校方承認錯誤也能畢業」；魔理沙要求保留這個錯誤標題，理由是它完美示範了新制度。慧音用紅線裝訂，但把「完美」劃掉。",
       "確認画面より先に文は「大学、誤りでも卒業可と認める」を発行。魔理沙は新制度の完全な実例として誤見出しの保存を要求。慧音は赤糸で綴じたが、「完全」を抹消した。",
       "Before the confirmation screen appeared, Aya published “University admits errors may graduate.” Marisa requested preservation as a perfect demonstration of the new rule. Keine bound it in red thread and crossed out “perfect.”",
+    ),
+  },
+  {
+    id: "three-hour-bell-and-public-defence",
+    archiveId: "TU-H-018",
+    commit: null,
+    commitSubject: "Add live campus governance and academic workbench",
+    recordedAt: "2026-07-25",
+    planned: true,
+    category: "campus",
+    era: l("翌日・第三校鐘", "翌日・第三校鐘", "Next day · Third Bell"),
+    title: l(
+      "三小時校務鐘開始換班，第一場符卡答辯延誤了四分鐘",
+      "三時間学務鐘が交代開始、最初のスペルカード答弁は四分遅延",
+      "The three-hour operations bell begins rotating; the first spell-card defence runs four minutes late",
+    ),
+    summary: l(
+      "校園運行盤開始依本機時間、月相與當值事件共同改動食堂菜單、今日課表、空房、飛行限制與實際路線；議事鐘同時開放四份規章提案，讓學院、社團與會飛的利益關係人繼續公開不同意。My TU 另設課業工作台，保存作業草稿與逐題評閱、限時考試答案、可列印成績單，以及論文／符卡研究計畫的三問答辯裁定。第一場答辯準時開始，但境界講堂因補考彈幕臨時移到稗田館，故兩份記錄至今仍各自聲稱自己準時。",
+      "学内運行盤は端末時刻・月相・当番事案から献立、当日時間割、空室、飛行規制、実経路を共同変更。議事鐘も四件の規則提案を開き、学部・団体・飛行する利害関係者が公開のまま不一致を続ける。My TUには課業作業台が加わり、課題下書きと設問別評価、計時試験答案、印刷用成績表、論文／スペルカード計画の三問答弁裁定を保存する。初回答弁は定刻開始したが、追試弾幕で境界講堂から稗田館へ移ったため、二つの記録はいまも双方が定刻を主張している。",
+      "The operations board now lets device time, moon phase, and duty incidents jointly alter dining, the day’s classes, free rooms, flight restrictions, and actual routes. The governance bell opens four policy proposals so schools, clubs, and airborne stakeholders can remain publicly unconvinced. My TU gains an academic workbench that retains assignment drafts and per-question reviews, timed exam answers, printable transcripts, and three-question rulings for thesis or spell-card projects. The first defence began on time, but make-up danmaku moved it from Boundary Hall to Hieda Hall; both records still claim punctuality.",
+    ),
+    marginalia: l(
+      "答辯後，紫問「通過」是否會讓主張範圍自己長大；魔理沙要求先公開材料批次；靈夢只問何時能清場。議事鐘把三句都記成修正案，文則把清場時間刊成了畢業典禮日期。",
+      "答弁後、紫は「合格」で主張範囲が勝手に広がるか質問。魔理沙は材料ロットの先行公開を要求し、霊夢は撤収時刻だけを尋ねた。議事鐘は三発言すべてを修正案として記録し、文は撤収時刻を卒業式の日程として掲載した。",
+      "After the defence, Yukari asked whether passing makes a claim’s scope grow; Marisa demanded the material batch first; Reimu asked only when the room would clear. The governance bell recorded all three as amendments, while Aya published the clearing time as graduation day.",
     ),
   },
 ];

@@ -1,6 +1,6 @@
 {
   "name": "touhou-university",
-  "version": "0.13.1",
+  "version": "0.14.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,10 +15,12 @@
     "check:library": "node scripts/check-library.mjs",
     "check:housing": "node scripts/check-housing.mjs",
     "check:incidents": "node scripts/check-incidents.mjs",
+    "check:interactions": "node scripts/check-interactions.mjs",
+    "check:live": "node scripts/check-live-campus.mjs",
     "check:history": "node scripts/check-campus-history.mjs",
     "history:status": "node scripts/check-campus-history.mjs",
     "test:browser": "npm run build && node scripts/smoke-browser.mjs",
     "capture": "npm run build && node scripts/capture-ui.mjs",
-    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:history"
+    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:interactions && npm run check:live && npm run check:history"
   }
 }

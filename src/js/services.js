@@ -1,10 +1,11 @@
+import { mapPlaces } from "../data/services.js";
 import {
-  diningMenus,
-  exams,
-  mapPlaces,
-  roomAvailability,
-  timetable,
-} from "../data/services.js";
+  liveCampusSnapshot,
+  liveDiningMenu,
+  liveExamSchedule,
+  liveRoomAvailability,
+  liveTimetable,
+} from "../data/live-campus.js";
 import { schools as schoolCatalogues } from "../data/schools.js";
 import { getLocale } from "./i18n.js";
 import { showToast } from "./ui.js";
@@ -92,6 +93,7 @@ const copy = {
     time: "時間",
     course: "課程",
     instructor: "授課教師",
+    change: "現場變更",
     examination: "考試",
     venue: "場地",
     format: "形式",
@@ -181,6 +183,7 @@ const copy = {
     time: "時刻",
     course: "授業",
     instructor: "担当",
+    change: "現場変更",
     examination: "試験",
     venue: "会場",
     format: "形式",
@@ -270,6 +273,7 @@ const copy = {
     time: "Time",
     course: "Course",
     instructor: "Instructor",
+    change: "Live change",
     examination: "Examination",
     venue: "Venue",
     format: "Format",
@@ -326,6 +330,7 @@ function reference(prefix) {
 export function initServices() {
   const dialog = document.querySelector("[data-service-dialog]");
   const content = dialog?.querySelector("[data-service-content]");
+  const serviceAnchor = document.querySelector("#services") ? "#services" : document.querySelector("#map") ? "#map" : "#main";
   let currentService = null;
   let currentApplicationSchool = null;
   let applicationView = "form";
@@ -539,6 +544,7 @@ export function initServices() {
   function renderAvailability() {
     const locale = getLocale();
     const c = copy[locale];
+    const roomAvailability = liveRoomAvailability();
     const buildings = [...new Set(roomAvailability.map((room) => room.building))];
     content.innerHTML = `
       <div class="room-controls">
@@ -556,7 +562,7 @@ export function initServices() {
     const renderRooms = () => {
       const selected = select.value;
       list.innerHTML = roomAvailability
-        .filter((room) => selected === "all" || room.building === selected)
+        .filter((room) => room.available && (selected === "all" || room.building === selected))
         .map(
           (room) => `
             <article class="room-card">
@@ -771,26 +777,22 @@ export function initServices() {
   function renderDining() {
     const locale = getLocale();
     const c = copy[locale];
-    content.innerHTML = renderTable([c.menu, c.contents, c.price, c.note], diningMenus[locale]);
+    const state = liveCampusSnapshot();
+    content.innerHTML = `
+      <p class="service-live-note"><i></i>${state.weather[locale]} · ${state.activeEvents.map((event) => event.rule[locale]).join(" · ")}</p>
+      ${renderTable([c.menu, c.contents, c.price, c.note], liveDiningMenu(locale))}`;
   }
 
   function renderTimetable() {
     const locale = getLocale();
     const c = copy[locale];
-    const rows = timetable.map(([time, course, room, instructor]) => [
-      time,
-      localized(course, locale),
-      room,
-      localized(instructor, locale),
-    ]);
-    content.innerHTML = renderTable([c.time, c.course, c.room, c.instructor], rows);
+    content.innerHTML = renderTable([c.time, c.course, c.room, c.instructor, c.change], liveTimetable(locale));
   }
 
   function renderExams() {
     const locale = getLocale();
     const c = copy[locale];
-    const rows = exams.map((row) => row.map((cell) => localized(cell, locale)));
-    content.innerHTML = renderTable([c.date, c.examination, c.venue, c.format], rows);
+    content.innerHTML = renderTable([c.date, c.examination, c.venue, c.format], liveExamSchedule(locale));
   }
 
   const renderers = {
@@ -825,7 +827,7 @@ export function initServices() {
     navigateToDeepLink(`service-${trigger.dataset.service}${schoolSuffix}`);
   });
   registerDeepLink("service-", {
-    anchor: "#services",
+    anchor: serviceAnchor,
     dialog,
     open(value) {
       const [service, applicationSchool] = value.split("--");
@@ -836,9 +838,9 @@ export function initServices() {
     },
   });
   document.querySelector("[data-service-close]")?.addEventListener("click", () => {
-    closeDeepLink("service-", "#services");
+    closeDeepLink("service-", serviceAnchor);
   });
-  dialog?.addEventListener("close", () => closeDeepLink("service-", "#services"));
+  dialog?.addEventListener("close", () => closeDeepLink("service-", serviceAnchor));
   window.addEventListener("tu:languagechange", () => {
     if (!currentService) return;
     const openApplicationForm = content?.querySelector("[data-application-form]");

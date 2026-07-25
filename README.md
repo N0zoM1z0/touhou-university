@@ -26,6 +26,13 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   add/drop, waitlists, live prerequisite recalculation, an eligible-now filter,
   real timetable collisions, soft overload warnings, saved schedules, academic
   records and printable registration documents;
+- a separate My TU academic workbench with four fully marked course
+  assignments, Unicode-safe autosaved drafts, retained answer slips, an
+  18-minute methods examination, instant per-question explanations and a
+  printable combined transcript;
+- thesis and spell-card project dossiers with falsifiable claims, method and
+  stopping rules, a three-examiner public defence, retained rulings and linked
+  campus-BBS reactions;
 - campus-visit reservations with autosaved drafts, visitor references and a
   device-local “My Campus Visits” archive;
 - a real Misty Lake Library catalogue with 19 trilingual holdings, search and
@@ -44,7 +51,13 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   back to the shareable source case; unsupported theories may be retained only
   through a reviewer-signed, explicitly confirmed red-thread closure that
   stays visibly marked contested everywhere it appears;
-- classroom availability, dining menus, timetable and exams;
+- a shared Live Campus clock whose local date, three-hour duty shift and lunar
+  phase drive classroom availability, rotating dining menus, the day’s classes,
+  room moves, BBS timestamps/activity, weather, transport closures and route
+  delays together;
+- a four-proposal campus governance bell with visible policy consequences,
+  deterministic stakeholder counts, replaceable on-device votes, My TU events
+  and linked BBS discussion;
 - illustrated interactive campus map with seven place cards, live arrival
   estimates and four genuinely different transport networks with first/last
   mile walking segments;
@@ -108,6 +121,8 @@ npm run check:courses       # catalogue parity, translations, times, capacity, p
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
 npm run check:housing       # residences, rooms, features, roommate profiles and translations
 npm run check:incidents     # case structure, translations, evidence, actions and BBS reactions
+npm run check:interactions  # button/action contracts and subpage initializer coverage
+npm run check:live          # rotating campus state, route effects, governance and academic scoring
 npm run test:browser        # headless Chrome interaction and mobile smoke test
 npm run capture -- --page=campus.html#map --section=map --width=390 --height=844
 npm run capture -- --page=admissions.html#gaokao --section=gaokao --click='[data-gaokao-difficulty="extra"];;[data-gaokao-start="humanities"]'
@@ -115,6 +130,8 @@ npm run capture -- --page=mytu.html#my-tu --section=my-tu --storage='{"tu:identi
 npm run capture -- --page=library.html#library --section=library --width=390 --height=844
 npm run capture -- --page=housing.html#housing-application --section=housing --width=390 --height=844
 npm run capture -- --page=incidents.html#incident-simulator --section=incident-center --width=390 --height=844
+npm run capture -- --page=campus.html#live-campus --section=live-campus --width=1440 --height=1000
+npm run capture -- --page=mytu.html#academic-defense --section=my-tu --storage='{"tu:identity":{"id":"TU-S-DEMO","name":"外界人類"}}'
 npm run new:section -- news # scaffold and register a new section
 npm run portraits -- set-b  # switch the active faculty art direction
 scripts/optimize-images.sh input.png output.webp 1600x1200
@@ -130,6 +147,15 @@ Set a different preview port with `PORT=4180 npm run dev`.
 - Keep registration metadata in `src/data/courses.js`; current registrations
   and transcript records use `tu:courses:registration` and
   `tu:courses:transcript` without leaving the browser.
+- Keep course assignments, timed course examinations and defence questions in
+  `src/data/academic-work.js`; persistence/scoring belongs in
+  `src/js/academic-model.js`, and the focused My TU UI belongs in
+  `src/js/academic-work.js`. Never discard earlier attempts or answer-level
+  explanations.
+- Keep operational incidents, menu/timetable pools and room state in
+  `src/data/live-campus.js`. Every consumer should read one deterministic
+  snapshot for the same local time slot; route restrictions must affect graph
+  construction in `src/data/routes.js`.
 - Keep library metadata in `src/data/library.js`; loans and holds use
   `tu:library:loans` and `tu:library:holds`, retaining completed history on the
   visitor's device.

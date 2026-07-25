@@ -19,8 +19,8 @@ export function pageForRoute(route = "") {
   if (/^(?:admissions|entrance-exam|gaokao)$/.test(route)) return "admissions";
   if (/^research(?:-|$)/.test(route)) return "research";
   if (/^incident(?:-|$)/.test(route)) return "incidents";
-  if (/^(?:map(?:-|$)|campus(?:-|$)|bbs(?:-|$)|club-)/.test(route)) return "campus";
-  if (/^(?:my-tu|course-registration|course-)/.test(route)) return "mytu";
+  if (/^(?:live-campus|governance|map(?:-|$)|campus(?:-|$)|bbs(?:-|$)|club-)/.test(route)) return "campus";
+  if (/^(?:my-tu|course-registration|course-|academic-)/.test(route)) return "mytu";
   if (/^library(?:-|$)/.test(route)) return "library";
   if (/^housing(?:-|$)/.test(route)) return "housing";
   return "home";

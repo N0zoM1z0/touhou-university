@@ -241,6 +241,52 @@ try {
   })`);
   check(admissions.page === "admissions" && admissions.banks === 4 && admissions.unified, "Admissions page examinations are incomplete.");
   check(!admissions.overflow, "Admissions page has desktop horizontal overflow.");
+  const admissionsApplication = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-prospectus]').click();
+    const guide = document.querySelector('[data-prospectus-dialog]');
+    const guideOpen = guide.open;
+    guide.querySelector('[data-service="application"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const service = document.querySelector('[data-service-dialog]');
+    const form = service.querySelector('[data-application-form]');
+    form.elements.name.value = '外界人類測試生';
+    form.elements.contact.value = 'outside@example.test';
+    form.elements.origin.value = '新加坡外界觀測點';
+    form.elements.identity.value = '人類';
+    form.elements.school.value = 'magic';
+    form.elements.question.value = '昨天的版本為什麼比今天多一頁？';
+    form.elements.method.value = '比對時間、版次與被雨淋皺的校報。';
+    form.elements.needs.value = '不會飛，請保留步行路線。';
+    form.elements.name.dispatchEvent(new InputEvent('input', { bubbles: true, data: '生', inputType: 'insertText' }));
+    await new Promise((resolve) => setTimeout(resolve, 300));
+    const draft = JSON.parse(localStorage.getItem('tu:application:draft'));
+    service.querySelector('[data-service-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    document.querySelector('#admissions [data-service="application"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const reopened = document.querySelector('[data-application-form]');
+    const result = {
+      guideOpen,
+      guideClosed: !guide.open,
+      serviceOpen: service.open,
+      draft,
+      restoredName: reopened.elements.name.value,
+      restoredSchool: reopened.elements.school.value,
+      hash: location.hash
+    };
+    service.querySelector('[data-service-close]').click();
+    return result;
+  })()`);
+  check(
+    admissionsApplication.guideOpen
+      && admissionsApplication.guideClosed
+      && admissionsApplication.serviceOpen
+      && admissionsApplication.draft.name === "外界人類測試生"
+      && admissionsApplication.restoredName === "外界人類測試生"
+      && admissionsApplication.restoredSchool === "magic"
+      && admissionsApplication.hash === "#service-application",
+    "Admissions guide/direct application buttons did not open a persistent Chinese-capable form.",
+  );
 
   await navigate("research.html#research-spellcard", "#research");
   await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-research-dialog]')?.open)"));
@@ -253,20 +299,108 @@ try {
 
   await navigate("campus.html#map", "#map");
   await eventually(() => cdp.evaluate("document.querySelectorAll('[name=\"route-mode\"]').length === 4"));
+  const nearbyFacilities = await cdp.evaluate(`(async () => {
+    document.querySelector('#map [data-service="availability"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const dialog = document.querySelector('[data-service-dialog]');
+    const opened = {
+      open: dialog.open,
+      rooms: dialog.querySelectorAll('.room-card').length,
+      hash: location.hash
+    };
+    dialog.querySelector('[data-service-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    return { ...opened, closed: !dialog.open, returnHash: location.hash };
+  })()`);
+  check(
+    nearbyFacilities.open
+      && nearbyFacilities.rooms > 0
+      && nearbyFacilities.hash === "#service-availability"
+      && nearbyFacilities.closed
+      && nearbyFacilities.returnHash === "#map",
+    "Map nearby-facility action did not open, render, or return to the map.",
+  );
   const routes = await cdp.evaluate(`(() => {
     const form = document.querySelector('[data-route-form]');
     form.elements.from.value = 'gate';
     form.elements.to.value = 'kappa';
     const paths = {};
+    const segmentKinds = {};
+    const closed = [];
     for (const mode of ['walk', 'broom', 'tengu', 'rabbit']) {
-      form.querySelector('[value="' + mode + '"]').checked = true;
+      const input = form.querySelector('[value="' + mode + '"]');
+      if (input.disabled) {
+        closed.push(mode);
+        continue;
+      }
+      form.elements.from.value = mode === 'rabbit' ? 'boundary' : 'gate';
+      form.elements.to.value = mode === 'rabbit' ? 'clinic' : 'kappa';
+      input.checked = true;
       form.requestSubmit();
       paths[mode] = [...document.querySelectorAll('.route-itinerary strong')].map((node) => node.textContent.trim()).join('>');
+      segmentKinds[mode] = [...document.querySelectorAll('.route-segment-badge[data-route-kind]')].map((node) => node.dataset.routeKind);
     }
-    return { modes: document.querySelectorAll('[name="route-mode"]').length, paths, bbs: Boolean(document.querySelector('#bbs')) };
+    return {
+      modes: document.querySelectorAll('[name="route-mode"]').length,
+      paths,
+      segmentKinds,
+      closed,
+      live: document.querySelector('[data-route-live]')?.textContent.trim(),
+      bbs: Boolean(document.querySelector('#bbs'))
+    };
   })()`);
-  check(routes.modes === 4 && new Set(Object.values(routes.paths)).size === 4, "Campus transport modes do not produce distinct routes.");
+  const activeNonWalkModes = Object.keys(routes.paths).filter((mode) => mode !== "walk");
+  check(
+    routes.modes === 4
+      && routes.live.length > 10
+      && activeNonWalkModes.every((mode) => routes.segmentKinds[mode]?.includes(mode))
+      && routes.paths.walk !== routes.paths.broom
+      && routes.paths.walk !== routes.paths.tengu,
+    `Active campus transport modes do not produce their own live-rule-aware routes: ${JSON.stringify(routes)}`,
+  );
   check(routes.bbs, "Campus page BBS is missing.");
+  const campusActions = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-campus-feature="library"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const info = document.querySelector('[data-info-dialog]');
+    const featureOpened = info.open && !info.querySelector('[data-info-action]').hidden;
+    info.querySelector('[data-info-action]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const service = document.querySelector('[data-service-dialog]');
+    const featureContinued = service.open && service.querySelectorAll('.room-card').length > 0;
+    service.querySelector('[data-service-close]').click();
+    await new Promise((resolve) => setTimeout(resolve, 120));
+
+    document.querySelector('[data-club="grimoire"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const clubOpened = info.open && info.querySelector('[data-info-title]').textContent.includes('魔導書');
+    info.querySelector('[data-info-action]').click();
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    const clubContinued = document.querySelector('[data-bbs-filter="club"]').classList.contains('active');
+
+    document.querySelector('[data-governance-select]').click();
+    const vote = document.querySelector('[data-governance-vote]');
+    vote.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const storedVotes = JSON.parse(localStorage.getItem('tu:governance:votes') || '[]');
+    const governancePost = Boolean(document.querySelector('.governance-post'));
+
+    document.querySelector('.live-campus-services [data-service="dining"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const liveDining = service.open && service.querySelectorAll('.campus-table tbody tr').length === 6;
+    service.querySelector('[data-service-close]').click();
+    return { featureOpened, featureContinued, clubOpened, clubContinued, votes: storedVotes.length, governancePost, liveDining };
+  })()`);
+  check(
+    campusActions.featureOpened
+      && campusActions.featureContinued
+      && campusActions.clubOpened
+      && campusActions.clubContinued
+      && campusActions.votes === 1
+      && campusActions.governancePost
+      && campusActions.liveDining,
+    "Campus cards, Continue actions, clubs, governance, or live service buttons contain an inactive action.",
+  );
 
   await cdp.evaluate(`(() => {
     localStorage.setItem('tu:identity', JSON.stringify({
@@ -364,6 +498,143 @@ try {
   })()`);
   check(overloadAllowed.enabled && overloadAllowed.stored, "The suggested credit load still blocks registration.");
   check(overloadAllowed.copy.includes("彈幕"), "Overload is not explained as a soft warning.");
+
+  await navigate("mytu.html#academic-work", "[data-mytu-app]");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-assignment-form]'))"));
+  const academicAssignment = await cdp.evaluate(`(async () => {
+    const form = document.querySelector('[data-assignment-form="his-yesterday-editions"]');
+    form.querySelector('[name="sequence"][value="sequence"]').checked = true;
+    form.querySelector('[name="citation"][value="provenance"]').checked = true;
+    form.elements.memo.value = '目前只確認版本時間順序，因果關係仍待更多來源核對。';
+    form.elements.memo.dispatchEvent(new InputEvent('input', { bubbles: true, data: '。', inputType: 'insertText' }));
+    await new Promise((resolve) => setTimeout(resolve, 320));
+    const draftBefore = JSON.parse(localStorage.getItem('tu:academics:drafts'));
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const submissions = JSON.parse(localStorage.getItem('tu:academics:submissions'));
+    return {
+      draftBefore,
+      submissions,
+      score: document.querySelector('.academic-grading-slip h3')?.textContent.trim(),
+      results: document.querySelectorAll('.academic-grading-slip li').length,
+      hash: location.hash
+    };
+  })()`);
+  check(academicAssignment.draftBefore["his-yesterday-editions"], "Course assignment answers did not autosave.");
+  check(
+    academicAssignment.submissions.at(-1).percent === 100
+      && academicAssignment.score.includes("100/100")
+      && academicAssignment.results === 3
+      && academicAssignment.hash === "#academic-work",
+    "Course assignment did not preserve answers, grade immediately, and show per-question feedback.",
+  );
+
+  await cdp.evaluate("location.hash = 'academic-exam'; true");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-academic-exam-start]'))"));
+  const academicExam = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-academic-exam-start]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const form = document.querySelector('[data-academic-exam-form]');
+    const answers = { m1: 'chance', m2: 'network', m3: '72', m4: 'contested', m5: 'positions', m6: 'nice' };
+    for (const [name, value] of Object.entries(answers)) {
+      const field = form.querySelector('[name="' + name + '"][value="' + value + '"]') || form.elements[name];
+      if (field.type === 'radio') field.checked = true;
+      else field.value = value;
+    }
+    form.elements.m3.dispatchEvent(new InputEvent('input', { bubbles: true, data: '72', inputType: 'insertText' }));
+    await new Promise((resolve) => setTimeout(resolve, 260));
+    const active = JSON.parse(localStorage.getItem('tu:academics:exam-session'));
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const attempts = JSON.parse(localStorage.getItem('tu:academics:exam-attempts'));
+    return {
+      active,
+      attempt: attempts.at(-1),
+      timerGone: !document.querySelector('[data-academic-timer]'),
+      slip: document.querySelector('.academic-grading-slip h3')?.textContent.trim()
+    };
+  })()`);
+  check(academicExam.active.answers.m3 === "72", "Timed course exam answers did not autosave.");
+  check(
+    academicExam.attempt.percent === 100 && academicExam.timerGone && academicExam.slip.includes("100/100"),
+    "Timed course exam did not grade or retain its answer slip.",
+  );
+
+  await cdp.evaluate("location.hash = 'academic-defense'; true");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-academic-project-form]'))"));
+  const academicDefence = await cdp.evaluate(`(async () => {
+    const project = document.querySelector('[data-academic-project-form]');
+    project.elements.type.value = 'spellcard';
+    project.elements.title.value = '月相改變時的低密度符卡退路窗口';
+    project.elements.abstract.value = '本計畫比較八個月相格下，宣言長度、預兆時間與退路寬度如何共同改變新生完成符卡的比例。';
+    project.elements.claim.value = '退路窗口在指定月相與場地範圍內存在可重現的最低寬度。';
+    project.elements.method.value = '保存彈幕版本、月相、場地、參與者批次與每次停止原因，並以固定程序重複三輪。';
+    project.elements.stopRule.value = '出現預先定義的受傷、失控或不可逆結界偏移時立即停止。';
+    project.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const form = document.querySelector('[data-academic-defence-form]');
+    form.querySelector('[name="claim"][value="scope"]').checked = true;
+    form.querySelector('[name="method"][value="record"]').checked = true;
+    form.querySelector('[name="stop"][value="precommit"]').checked = true;
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const projects = JSON.parse(localStorage.getItem('tu:academics:projects'));
+    const defences = JSON.parse(localStorage.getItem('tu:academics:defences'));
+    return {
+      project: projects.at(-1),
+      defence: defences.at(-1),
+      result: document.querySelector('.academic-defence-result h3')?.textContent.trim()
+    };
+  })()`);
+  check(
+    academicDefence.project.type === "spellcard"
+      && academicDefence.defence.percent === 100
+      && academicDefence.defence.outcome === "passed"
+      && academicDefence.result === "通過",
+    "Spell-card project and three-question defence did not persist a ruling.",
+  );
+
+  await cdp.evaluate("location.hash = 'academic-grades'; true");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-academic-print]'))"));
+  const academicTranscript = await cdp.evaluate(`(() => {
+    const rows = document.querySelectorAll('.academic-grade-table tbody tr').length;
+    const graded = [...document.querySelectorAll('.academic-grade-table tbody tr')].filter((row) => /100%/.test(row.textContent)).length;
+    document.querySelector('[data-academic-print]').click();
+    const dialog = document.querySelector('[data-academic-document-dialog]');
+    const result = {
+      rows,
+      graded,
+      average: document.querySelector('.academic-overall strong')?.textContent.trim(),
+      dialogOpen: dialog.open,
+      documentRows: dialog.querySelectorAll('tbody tr').length
+    };
+    dialog.querySelector('[data-academic-document-close]').click();
+    return result;
+  })()`);
+  check(
+    academicTranscript.rows === 6
+      && academicTranscript.graded === 3
+      && academicTranscript.average.includes("100")
+      && academicTranscript.dialogOpen
+      && academicTranscript.documentRows === 6,
+    "Academic transcript did not combine assignments, exam, defence, and printable records.",
+  );
+  await navigate("campus.html#bbs", "#bbs");
+  const academicBbs = await cdp.evaluate(`(async () => {
+    const posts = document.querySelectorAll('.academic-post');
+    posts[0]?.querySelector('.bbs-row-trigger').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const info = document.querySelector('[data-info-dialog]');
+    return {
+      posts: posts.length,
+      dialogOpen: info.open,
+      action: info.querySelector('[data-info-action-label]')?.textContent.trim()
+    };
+  })()`);
+  check(
+    academicBbs.posts === 2 && academicBbs.dialogOpen && academicBbs.action.includes("答辯"),
+    "Academic defence did not generate two linked, reopenable BBS reactions.",
+  );
 
   await navigate("library.html#library", "[data-library-app]");
   const libraryInitial = await cdp.evaluate(`({
@@ -597,7 +868,7 @@ try {
     action: document.querySelector('[data-info-action-label]')?.textContent.trim(),
     hash: location.hash
   })`);
-  check(incidentBbs.linkedPosts === 3 && incidentBbs.dialogOpen, "Incident closure did not generate three BBS reactions.");
+  check(incidentBbs.linkedPosts === 3 && incidentBbs.dialogOpen, `Incident closure did not generate three BBS reactions: ${JSON.stringify(incidentBbs)}`);
   check(incidentBbs.action.includes("案卷") && incidentBbs.hash.startsWith("#bbs-incident-"), "Incident-linked BBS post cannot return to its case file.");
 
   await navigate("incidents.html#incident-case-fourth-lantern-loop", "[data-incident-app]");
@@ -734,7 +1005,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: multipage routing, IME-safe search, courses, library circulation, housing, incident research/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, live routes/governance, coursework/exams/defence/transcript, courses, library, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();
