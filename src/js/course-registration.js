@@ -8,9 +8,11 @@ import {
 import { schools } from "../data/schools.js";
 import { recordCampusEvent } from "./campus-ledger.js";
 import { getLocale } from "./i18n.js";
+import { printDocument } from "./print-document.js";
 import { bindImeSafeInput, isImeComposing } from "./ime-input.js";
 import { mutateAndRenderPreservingState, renderPreservingState } from "./render-state.js";
 import { showToast } from "./ui.js";
+import { safeDecodeFragment } from "./url-state.js";
 
 const REGISTRATION_KEY = "tu:courses:registration";
 const TRANSCRIPT_KEY = "tu:courses:transcript";
@@ -729,7 +731,7 @@ export function renderCourseRegistration(app, rerender) {
   const records = registration();
   const summary = courseRegistrationSummary();
   const identity = readJson(IDENTITY_KEY, null);
-  const routeCode = decodeURIComponent(window.location.hash.slice(1)).match(/^course-(.+)$/)?.[1];
+  const routeCode = safeDecodeFragment().match(/^course-(.+)$/)?.[1];
   if (routeCode && courseByCode(routeCode) && positionedRoute !== routeCode) {
     activeCourse = routeCode;
     activeTab = "catalogue";
@@ -775,7 +777,11 @@ export function initCourseDocumentDialog() {
   if (!dialog || dialog.dataset.bound === "true") return;
   dialog.dataset.bound = "true";
   dialog.querySelectorAll("[data-course-document-close]").forEach((button) => button.addEventListener("click", () => dialog.close()));
-  dialog.querySelector("[data-course-document-print]")?.addEventListener("click", () => window.print());
+  dialog.querySelector("[data-course-document-print]")?.addEventListener("click", () => {
+    printDocument(dialog.querySelector("[data-course-document-body]"), {
+      title: dialog.querySelector("h1, h2")?.textContent || document.title,
+    });
+  });
   dialog.addEventListener("click", (event) => {
     if (event.target === dialog) dialog.close();
   });

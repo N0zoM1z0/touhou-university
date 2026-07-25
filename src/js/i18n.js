@@ -238,6 +238,7 @@ export function setLocale(nextLocale, { persist = true } = {}) {
     campus: "pageCampusTitle",
     mytu: "pageMyTuTitle",
     library: "pageLibraryTitle",
+    clinic: "pageClinicTitle",
     housing: "pageHousingTitle",
     incidents: "pageIncidentsTitle",
   }[document.body?.dataset.page];

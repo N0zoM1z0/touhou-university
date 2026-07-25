@@ -107,6 +107,32 @@ Status: implemented in 0.15.0.
 - follow-up: appointment slots, long-term condition review, stock procurement,
   ward beds and incident-driven mass-casualty drills
 
+## Batch 8 — Navigation, documents and live facilities
+
+Status: implemented in 0.16.0.
+
+- two grouped global navigation cabinets separate university/academic
+  information from admissions and student services; active-page state remains
+  visible at the top of every generated page
+- one shared print-document root copies already rendered My TU decisions,
+  registration records, academic transcripts, library receipts and clinical
+  slips into an A4 layout before invoking print or PDF save
+- joint faculty review preserves distinct readings of each application's
+  question, method and declared field needs instead of repeating one generic
+  character note
+- facility hours, closures and vacancy counts derive from the shared Live
+  Campus clock across the room finder, map and library; the map's wooden notice
+  rotates with the same state
+- page-specific CSS bundles, parallel feature initialization, first-use search
+  loading, responsive image derivatives and a readability pass reduce initial
+  work without flattening the visual identity
+- deep route targets exist in dynamically rendered library, clinic, housing and
+  academic views; malformed fragments fail safely and bounded alignment remains
+  cancellable by real visitor input
+- static interaction checking now validates only the document shell while the
+  browser regression suite owns actual behaviour, printable content and
+  historically observed failures
+
 ## Cross-cutting tracks
 
 - official document generator grows alongside every lifecycle feature

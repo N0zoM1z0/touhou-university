@@ -40,7 +40,9 @@ for (const locale of locales) {
   check(liveExamSchedule(locale, sampleDates[0]).every((row) => row.length === 4), `${locale}: live exam schedule is malformed.`);
 }
 
-const roomState = liveRoomAvailability(sampleDates[0]);
+// Check a teaching-hour fixture: at 01:00 the correct live result can be that
+// every classroom is closed, which is not a broken room finder.
+const roomState = liveRoomAvailability(new Date(2026, 6, 20, 13, 17));
 check(roomState.length >= 6 && roomState.some((room) => room.available) && roomState.every((room) => room.freeUntil && room.seats >= 4), "Live room finder does not yield usable rooms.");
 const postTime = new Date(seededPostCreatedAt(4, 2, sampleDates[0]));
 check(postTime < sampleDates[0] && sampleDates[0] - postTime < 86_400_000, "Seeded BBS post time is not a recent real timestamp.");

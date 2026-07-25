@@ -409,8 +409,49 @@ try {
     }));
     localStorage.setItem('tu:courses:registration', JSON.stringify({ schema: 1, term: '2026-autumn', entries: [] }));
     localStorage.setItem('tu:courses:transcript', JSON.stringify([]));
+    localStorage.setItem('tu:application:submissions', JSON.stringify([{
+      id: 'TU-A-GENERAL-01',
+      submittedAt: new Date().toISOString(),
+      name: '外界人類',
+      school: 'magic',
+      question: '昨天多出的一頁，究竟是時間倒流還是校報編輯忘了翻面？',
+      method: '封存三批校報、逐頁比對墨跡與版次，並請兩位不知道假說的讀者獨立排序。',
+      needs: '不會飛；需要步行可達的觀察席與一盞不會自行更換日期的燈。'
+    }]));
     return true;
   })()`);
+  await navigate("mytu.html#my-tu", "[data-mytu-app]");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-mytu-review]'))"));
+  const facultyReview = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-mytu-review]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const excerpts = [...document.querySelectorAll('.mytu-reviewers blockquote q')].map((node) => node.textContent.trim());
+    const commentary = [...document.querySelectorAll('.mytu-reviewers article > p')].map((node) => node.textContent.trim());
+    document.querySelector('[data-mytu-document-open]').click();
+    window.__tuPrintCount = 0;
+    window.print = () => { window.__tuPrintCount += 1; };
+    document.querySelector('[data-mytu-print]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const printRoot = document.querySelector('[data-tu-print-root]');
+    const result = {
+      excerpts,
+      commentary,
+      remarks: JSON.parse(localStorage.getItem('tu:application:reviews'))[0].remarks,
+      printCount: window.__tuPrintCount,
+      printText: printRoot?.textContent.trim().length || 0
+    };
+    window.dispatchEvent(new Event('afterprint'));
+    document.querySelector('[data-mytu-document-close]').click();
+    return result;
+  })()`);
+  check(
+    facultyReview.excerpts.length === 3
+      && new Set(facultyReview.excerpts).size === 3
+      && new Set(facultyReview.commentary).size === 3
+      && facultyReview.remarks.length === 3,
+    "Joint faculty review did not read the application's distinct question, method, and field needs.",
+  );
+  check(facultyReview.printCount === 1 && facultyReview.printText > 180, "My TU decision did not render into the shared print document.");
   await navigate("mytu.html#course-registration", "#my-tu");
   await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-course-filter-form]'))"));
 
@@ -498,6 +539,23 @@ try {
   })()`);
   check(overloadAllowed.enabled && overloadAllowed.stored, "The suggested credit load still blocks registration.");
   check(overloadAllowed.copy.includes("彈幕"), "Overload is not explained as a soft warning.");
+  const coursePrint = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-course-tab="record"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-course-document="transcript"]').click();
+    window.__tuPrintCount = 0;
+    window.print = () => { window.__tuPrintCount += 1; };
+    document.querySelector('[data-course-document-print]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const result = {
+      printCount: window.__tuPrintCount,
+      printText: document.querySelector('[data-tu-print-root]')?.textContent.trim().length || 0
+    };
+    window.dispatchEvent(new Event('afterprint'));
+    document.querySelector('[data-course-document-close]').click();
+    return result;
+  })()`);
+  check(coursePrint.printCount === 1 && coursePrint.printText > 180, "Course record did not render into the shared print document.");
 
   await navigate("mytu.html#academic-work", "[data-mytu-app]");
   await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-assignment-form]'))"));
@@ -596,18 +654,26 @@ try {
 
   await cdp.evaluate("location.hash = 'academic-grades'; true");
   await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-academic-print]'))"));
-  const academicTranscript = await cdp.evaluate(`(() => {
+  const academicTranscript = await cdp.evaluate(`(async () => {
     const rows = document.querySelectorAll('.academic-grade-table tbody tr').length;
     const graded = [...document.querySelectorAll('.academic-grade-table tbody tr')].filter((row) => /100%/.test(row.textContent)).length;
     document.querySelector('[data-academic-print]').click();
     const dialog = document.querySelector('[data-academic-document-dialog]');
+    window.__tuPrintCount = 0;
+    window.print = () => { window.__tuPrintCount += 1; };
+    dialog.querySelector('[data-academic-document-print]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const printRoot = document.querySelector('[data-tu-print-root]');
     const result = {
       rows,
       graded,
       average: document.querySelector('.academic-overall strong')?.textContent.trim(),
       dialogOpen: dialog.open,
-      documentRows: dialog.querySelectorAll('tbody tr').length
+      documentRows: dialog.querySelectorAll('tbody tr').length,
+      printCount: window.__tuPrintCount,
+      printText: printRoot?.textContent.trim().length || 0
     };
+    window.dispatchEvent(new Event('afterprint'));
     dialog.querySelector('[data-academic-document-close]').click();
     return result;
   })()`);
@@ -616,7 +682,9 @@ try {
       && academicTranscript.graded === 3
       && academicTranscript.average.includes("100")
       && academicTranscript.dialogOpen
-      && academicTranscript.documentRows === 6,
+      && academicTranscript.documentRows === 6
+      && academicTranscript.printCount === 1
+      && academicTranscript.printText > 180,
     "Academic transcript did not combine assignments, exam, defence, and printable records.",
   );
   await navigate("campus.html#bbs", "#bbs");
@@ -686,15 +754,26 @@ try {
     document.querySelector('[data-library-tab="account"]').click();
     const accountLoan = Boolean(document.querySelector('.library-account-grid [data-library-return="seven-day-reverse"]'));
     document.querySelector('[data-library-receipt]').click();
-    const receiptOpen = document.querySelector('[data-library-receipt-dialog]').open;
+    const receiptDialog = document.querySelector('[data-library-receipt-dialog]');
+    const receiptOpen = receiptDialog.open;
+    window.__tuPrintCount = 0;
+    window.print = () => { window.__tuPrintCount += 1; };
+    receiptDialog.querySelector('[data-library-receipt-print]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const printText = document.querySelector('[data-tu-print-root]')?.textContent.trim().length || 0;
+    const printCount = window.__tuPrintCount;
+    window.dispatchEvent(new Event('afterprint'));
     document.querySelector('[data-library-receipt-close]').click();
     document.querySelector('[data-library-return="seven-day-reverse"]').click();
     await new Promise((resolve) => requestAnimationFrame(resolve));
     const returned = JSON.parse(localStorage.getItem('tu:library:loans'))[0];
-    return { dueBefore, dueAfter, accountLoan, receiptOpen, returned };
+    return { dueBefore, dueAfter, accountLoan, receiptOpen, printCount, printText, returned };
   })()`);
   check(circulation.dueAfter > circulation.dueBefore, "Library renewal did not extend the due date.");
-  check(circulation.accountLoan && circulation.receiptOpen, "My Library or printable receipt did not render.");
+  check(
+    circulation.accountLoan && circulation.receiptOpen && circulation.printCount === 1 && circulation.printText > 120,
+    "My Library receipt did not render into the shared print document.",
+  );
   check(circulation.returned.status === "returned" && circulation.returned.returnedAt, "Library return did not preserve history.");
 
   const holdFlow = await cdp.evaluate(`(async () => {
@@ -717,6 +796,9 @@ try {
   check(libraryDeepLink === "flying-index", "Library holding deep link selected the wrong record.");
   const librarySearch = await cdp.evaluate(`(async () => {
     document.querySelector('[data-search-open]').click();
+    for (let attempt = 0; attempt < 40 && !document.querySelector('[data-search-dialog]').open; attempt += 1) {
+      await new Promise((resolve) => setTimeout(resolve, 25));
+    }
     const input = document.querySelector('[data-search-input]');
     input.value = 'Three Yesterdays';
     input.dispatchEvent(new Event('input', { bubbles: true }));
@@ -1039,15 +1121,24 @@ try {
   );
   await cdp.evaluate(`location.hash = 'clinic-account'; true`);
   await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-clinic-receipt]'))"));
-  const clinicAccount = await cdp.evaluate(`(() => {
+  const clinicAccount = await cdp.evaluate(`(async () => {
     document.querySelector('[data-clinic-receipt]').click();
     const dialog = document.querySelector('[data-clinic-receipt-dialog]');
+    window.__tuPrintCount = 0;
+    window.print = () => { window.__tuPrintCount += 1; };
+    dialog.querySelector('[data-clinic-receipt-print]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const printText = document.querySelector('[data-tu-print-root]')?.textContent.trim().length || 0;
+    const printCount = window.__tuPrintCount;
+    window.dispatchEvent(new Event('afterprint'));
     return {
       open: dialog.open,
       receipt: dialog.textContent.includes('TU-RX'),
       visits: document.querySelectorAll('.clinic-account-grid > section:first-child article').length,
       prescriptions: document.querySelectorAll('.clinic-account-grid > section:nth-child(2) article').length,
-      plans: document.querySelectorAll('.clinic-account-grid > section:nth-child(3) article').length
+      plans: document.querySelectorAll('.clinic-account-grid > section:nth-child(3) article').length,
+      printCount,
+      printText
     };
   })()`);
   check(
@@ -1055,6 +1146,7 @@ try {
       && clinicAccount.prescriptions >= 1 && clinicAccount.plans >= 1,
     "Clinic account did not retain visits, prescriptions, recovery slips, and a printable receipt.",
   );
+  check(clinicAccount.printCount === 1 && clinicAccount.printText > 160, "Clinic receipt did not render into the shared print document.");
   await cdp.evaluate(`document.querySelector('[data-clinic-receipt-close]').click(); true`);
   await navigate("campus.html#bbs", "#bbs");
   const clinicBbs = await cdp.evaluate(`({
@@ -1094,6 +1186,55 @@ try {
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
 
+  await navigate("clinic.html#%", "[data-clinic-app]");
+  const malformedClinic = await cdp.evaluate(`(() => {
+    document.querySelector('[data-lang="ja"]').click();
+    const jaTitle = document.title;
+    document.querySelector('[data-lang="en"]').click();
+    const enTitle = document.title;
+    document.querySelector('[data-lang="zh-Hant"]').click();
+    return {
+      page: document.body.dataset.page,
+      care: Boolean(document.querySelector('.clinic-start-care')),
+      jaTitle,
+      enTitle,
+      active: document.querySelector('[data-header] a[aria-current="page"]')?.getAttribute('href')
+    };
+  })()`);
+  check(
+    malformedClinic.page === "clinic"
+      && malformedClinic.care
+      && malformedClinic.jaTitle.includes("永遠亭")
+      && malformedClinic.enTitle.includes("Eientei")
+      && malformedClinic.active?.startsWith("clinic.html"),
+    "Malformed clinic hash, localized title, or active navigation state regressed.",
+  );
+
+  const positionRoutes = [
+    ["academics.html#faculty", "#faculty"],
+    ["campus.html#map-eientei", "[data-eientei-focus]"],
+    ["mytu.html#academic-grades", "#academic-grades"],
+    ["clinic.html#clinic-recovery", "#clinic-recovery"],
+    ["library.html#library-flying-index", "#library-flying-index"],
+    ["housing.html#housing-residence-misty-north", "#housing-residence-misty-north"],
+    ["incidents.html#incident-case-fourth-lantern-loop", "#incident-case-fourth-lantern-loop"],
+  ];
+  for (const [url, selector] of positionRoutes) {
+    await navigate(url, selector);
+    await delay(2050);
+    const position = await cdp.evaluate(`(() => {
+      const target = document.querySelector(${JSON.stringify(selector)});
+      return {
+        top: target?.getBoundingClientRect().top,
+        header: document.querySelector('[data-header]')?.getBoundingClientRect().height || 0
+      };
+    })()`);
+    check(
+      Number.isFinite(position.top) && position.top >= position.header - 4 && position.top <= position.header + 48,
+      `${url} settled at the wrong vertical position (${JSON.stringify(position)}).`,
+    );
+  }
+
   await cdp.call("Emulation.setDeviceMetricsOverride", {
     width: 390,
     height: 844,
@@ -1114,10 +1255,20 @@ try {
     return {
       expanded: document.querySelector('[data-menu-toggle]').getAttribute('aria-expanded'),
       visible: !document.querySelector('[data-mobile-menu]').hidden,
-      links: document.querySelectorAll('[data-mobile-menu] nav a').length
+      links: document.querySelectorAll('[data-mobile-menu] nav a').length,
+      backgroundInert: document.querySelector('main').hasAttribute('inert')
     };
   })()`);
-  check(mobileMenu.expanded === "true" && mobileMenu.visible && mobileMenu.links === 12, "Mobile multipage navigation did not open completely.");
+  await delay(40);
+  const mobileFocus = await cdp.evaluate("document.activeElement?.matches('[data-mobile-menu] button, [data-mobile-menu] a')");
+  check(
+    mobileMenu.expanded === "true"
+      && mobileMenu.visible
+      && mobileMenu.links === 12
+      && mobileMenu.backgroundInert
+      && mobileFocus,
+    "Mobile navigation did not open completely or move keyboard focus into its modal layer.",
+  );
 
   if (errors.length) failures.push(`Browser console errors:\n${[...new Set(errors)].join("\n")}`);
   if (failures.length) {

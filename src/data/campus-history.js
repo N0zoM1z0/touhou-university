@@ -455,10 +455,9 @@ export const campusHistory = [
   {
     id: "two-clinics-and-one-missing-token",
     archiveId: "TU-H-019",
-    commit: null,
+    commit: "3aa3c2370f023935d5b8f326b199d2031ea38806",
     commitSubject: "Add Eientei campus hospital and recovery care",
     recordedAt: "2026-07-25",
-    planned: true,
     category: "medicine",
     era: l("翌日・第四校鐘前", "翌日・第四校鐘前", "Next day · Before Fourth Bell"),
     title: l(
@@ -475,6 +474,31 @@ export const campusHistory = [
       "帝把第一張普通號碼牌換成「大吉」，文立即報導校醫院採用運氣分診。永琳收回號碼牌、訂正報紙，並在藥袋上加註：幸運不改變優先級。琪露諾在下一行補寫：最強可以。",
       "てゐが最初の通常番号を「大吉」へ交換し、文は校医院が運勢トリアージを採用と速報。永琳は番号札を回収、新聞を訂正し、薬袋へ「幸運は優先度を変えない」と追記。チルノは次行へ「最強なら変わる」と書いた。",
       "Tewi replaced the first ordinary token with “Great Fortune,” and Aya reported that the hospital had adopted luck-based triage. Eirin retrieved the token, corrected the paper, and added to every medicine bag: luck does not change priority. Cirno wrote beneath it: strongest does.",
+    ),
+  },
+  {
+    id: "five-printing-presses-and-one-outside-audit",
+    archiveId: "TU-H-020",
+    commit: null,
+    commitSubject: "Stabilize campus navigation printing and live facilities",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "correction",
+    era: l("翌日・第四校鐘後", "翌日・第四校鐘後", "Next day · After Fourth Bell"),
+    title: l(
+      "五台印刷機終於吐出正文，外界審計則被退回一張誤報訂正",
+      "五台の印刷機がようやく本文を出し、外界監査へ誤報訂正一枚",
+      "Five presses finally print their documents; the Outside audit receives one false-report correction",
+    ),
+    summary: l(
+      "錄取通知、選課與成績、課業成績單、借閱回條及診療回條改由同一個列印台先複製已渲染正文，再送往紙張或 PDF，不再把藏在對話框裡的空白當公文。頂部導覽分成大學學術與入學學生服務兩櫃，校醫院把開始診療放到正門，教授聯審則分別讀取申請的問題、方法與現場需求。館舍開放、空位與木板通告開始跟著同一座三小時校鐘變動；每頁只領自己的樣式卷，搜尋首次使用才搬出全校索引，行動圖片、字級與深連結落點亦一併重整。",
+      "合格通知・履修成績・課業成績表・貸出票・診療票は、描画済み本文を共通印刷台へ複製してから紙またはPDFへ送る方式となり、ダイアログ内の空白を公文書として出すことがなくなった。上部案内は大学・学術と入試・学生サービスの二柜へ分かれ、校医院は診療開始を正門へ掲示、教員合同審査は出願の問い・方法・現場希望を別々に読む。施設時間・空席・木板告知は同じ三時間鐘で動き、各頁は必要な様式だけを受領。全学検索は初回使用時に索引を運び、携帯画像・文字寸法・深いリンクの着地点も整備された。",
+      "Admission decisions, course records, academic transcripts, loan slips, and clinical receipts now copy their rendered content onto one shared print desk before reaching paper or PDF, rather than treating a hidden dialog’s blank space as an official document. Global navigation splits university/academic work from admissions/student services; the clinic puts Start Care at its front door; and joint faculty review reads each application’s question, method, and field needs separately. Facility hours, vacancies, and the wooden notice board now follow the same three-hour bell. Each page receives only its own style bundle, search carries out the university index on first use, and mobile imagery, type sizes, and deep-link landing points are corrected together.",
+    ),
+    marginalia: l(
+      "一名外界人類申請生要求撤下「只檢查檢查器有沒有檢查」的表格，校務處批准並保留真正會抓舊事故的回歸卷。另一名外界第三方智能體提交八項具體警報，其中一項把已上線的十頁校舍誤認成舊單頁，誤報率正式記為 12.5%。文要求標題改成「外界智能體準確率高達 87.5%」；訂正欄認為兩句都是真的，於是吵到截稿。",
+      "外の世界の志願者が「検査器が検査したかだけを検査する」帳票の撤去を申請し、学務課は過去事故を捕える回帰票だけ残して承認。別の外界第三者知能は具体的警報八件を提出したが、一件は公開済み十頁校舎を旧単頁と誤認し、誤報率は正式に12.5%となった。文は見出しを「外界知能、正確率87.5%」へ変えるよう要求。訂正欄は両方とも真実だとして締切まで争った。",
+      "An Outside World applicant asked to remove forms that only checked whether a checker had checked; Academic Affairs approved, keeping the regressions that still catch old accidents. A separate third-party Outside intelligence filed eight concrete alerts, one of which mistook the deployed ten-page campus for the old single page, establishing a 12.5% false-positive rate. Aya demanded the headline “Outside intelligence reaches 87.5% accuracy.” Corrections observed that both versions were true, and they argued until press time.",
     ),
   },
 ];

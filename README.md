@@ -106,11 +106,12 @@ src/
   styles/     base and feature-specific stylesheets
 scripts/      build, preview, validation, scaffolding and asset helpers
 *.html        ten generated GitHub Pages artifacts
-styles.css    generated GitHub Pages artifact
+styles.css    generated shared CSS artifact
+styles-*.css  generated per-page CSS artifacts
 site.config.mjs
 ```
 
-Edit `src/`, not the generated root HTML pages or `styles.css`.
+Edit `src/`, not the generated root HTML pages or root `styles*.css` bundles.
 
 ## Common commands
 
@@ -119,7 +120,7 @@ modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate all ten root pages and styles.css
+npm run build               # generate ten pages and shared/per-page CSS bundles
 npm run check               # build + i18n coverage + JS syntax
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts

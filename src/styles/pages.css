@@ -86,18 +86,20 @@
 }
 
 body:not([data-page="home"]) .site-header {
+  color: var(--ink);
   background: rgba(250, 247, 240, 0.95);
+  border-bottom-color: var(--line);
 }
 
-body[data-page="academics"] .desktop-nav a[href^="academics"],
-body[data-page="admissions"] .desktop-nav a[href^="admissions"],
-body[data-page="research"] .desktop-nav a[href^="research"],
-body[data-page="campus"] .desktop-nav a[href^="campus"],
-body[data-page="library"] .desktop-nav a[href^="library"] {
-  color: var(--red);
-}
-
-body[data-page="housing"] .desktop-nav a[href^="housing"] {
+body[data-page="academics"] .desktop-nav [data-nav-group="university"] > summary,
+body[data-page="research"] .desktop-nav [data-nav-group="university"] > summary,
+body[data-page="campus"] .desktop-nav [data-nav-group="university"] > summary,
+body[data-page="admissions"] .desktop-nav [data-nav-group="services"] > summary,
+body[data-page="mytu"] .desktop-nav [data-nav-group="services"] > summary,
+body[data-page="library"] .desktop-nav [data-nav-group="services"] > summary,
+body[data-page="clinic"] .desktop-nav [data-nav-group="services"] > summary,
+body[data-page="housing"] .desktop-nav [data-nav-group="services"] > summary,
+body[data-page="incidents"] .desktop-nav [data-nav-group="services"] > summary {
   color: var(--red);
 }
 

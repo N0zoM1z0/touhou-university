@@ -31,7 +31,9 @@ import {
 import { bindImeSafeInput } from "./ime-input.js";
 import { getLocale } from "./i18n.js";
 import { renderPreservingState } from "./render-state.js";
+import { printDocument } from "./print-document.js";
 import { showToast } from "./ui.js";
+import { safeDecodeFragment } from "./url-state.js";
 
 const copy = {
   "zh-Hant": {
@@ -39,6 +41,8 @@ const copy = {
     title: "先把哪裡不對說清楚。路和藥，可以之後再吵。",
     lead: "本部醫務室處理日常傷勢；永遠亭承接跨種族、月相、境界與魔法材料暴露。分診、診察、處方、領藥與康復進度只保存在這台裝置。",
     open: "此刻開診",
+    startCare: "開始診療",
+    startCareLead: "先做 1 分鐘本機分診",
     load: "候診負荷",
     moon: "月相",
     localRecords: "本機診療紀錄",
@@ -169,7 +173,7 @@ const copy = {
     eyebrow: "EIENTEI UNIVERSITY HOSPITAL / 学内医療網",
     title: "まず、どこが違うかを言葉にする。道と薬の議論はその後。",
     lead: "本部保健室は日常傷、永遠亭は種族横断・月相・境界・魔法素材曝露を担当。トリアージ、診察、処方、調剤、回復記録はこの端末だけに保存します。",
-    open: "現在診療中", load: "待合負荷", moon: "月相", localRecords: "端末内診療記録",
+    open: "現在診療中", startCare: "診療を始める", startCareLead: "まず1分の端末トリアージ", load: "待合負荷", moon: "月相", localRecords: "端末内診療記録",
     light: "兎車に空席あり", steady: "番号は通常進行", high: "満月分流中",
     navTriage: "トリアージ・待合", navPharmacy: "薬局・処方", navRecovery: "回復療法", navAccount: "自分の診療記録",
     careNetwork: "二つの診療所、一枚のてゐが場所を替える紹介票。",
@@ -235,7 +239,7 @@ const copy = {
     eyebrow: "EIENTEI UNIVERSITY HOSPITAL / CAMPUS CARE NETWORK",
     title: "First say what is wrong. The route and medicine may argue later.",
     lead: "The main infirmary handles everyday injuries; Eientei takes cross-species, lunar, boundary, and magical-material cases. Triage, consultations, prescriptions, dispensing, and recovery stay on this device.",
-    open: "Open now", load: "Queue load", moon: "Moon phase", localRecords: "On-device records",
+    open: "Open now", startCare: "Start care", startCareLead: "Begin with a one-minute on-device triage", load: "Queue load", moon: "Moon phase", localRecords: "On-device records",
     light: "A rabbit-shuttle row is empty", steady: "Tokens advancing normally", high: "Full-moon diversion active",
     navTriage: "Triage & queue", navPharmacy: "Pharmacy & prescriptions", navRecovery: "Recovery", navAccount: "My medical file",
     careNetwork: "Two care sites and one referral slip Tewi keeps relocating.",
@@ -317,7 +321,7 @@ function formatDate(value, locale, withTime = true) {
 }
 
 function currentRoute() {
-  return decodeURIComponent(window.location.hash.slice(1) || "clinic");
+  return safeDecodeFragment(window.location.hash.slice(1) || "clinic");
 }
 
 function modeForRoute(route) {
@@ -341,13 +345,14 @@ function clinicHeader(locale, c, board, mode) {
   return `
     <header class="clinic-hero">
       <div class="clinic-hero-media">
-        <img src="assets/images/map/eientei-clinic.webp" alt="" width="1280" height="853">
+        <img src="assets/images/map/eientei-clinic.webp" srcset="assets/images/map/eientei-clinic-mobile.webp 640w, assets/images/map/eientei-clinic.webp 1280w" sizes="(max-width: 700px) 100vw, 48vw" alt="" width="1280" height="853">
         <span>24H · TU-MED-88</span>
       </div>
       <div class="clinic-hero-copy">
         <p>${c.eyebrow}</p>
         <h2>${c.title}</h2>
         <span>${c.lead}</span>
+        <a class="clinic-start-care" href="#clinic-triage-desk"><strong>${c.startCare}</strong><small>${c.startCareLead}</small><i aria-hidden="true">↓</i></a>
         <dl>
           <div><dt>${c.open}</dt><dd><i></i>${clinicSites.eientei.hours[locale].split("；")[0].split("・")[0].split(";")[0]}</dd></div>
           <div><dt>${c.load}</dt><dd>${c[board.load]}</dd></div>
@@ -410,7 +415,7 @@ function triageForm(locale, c) {
     notes: "",
   };
   return `
-    <section class="clinic-triage">
+    <section class="clinic-triage" id="clinic-triage-desk">
       <header><div><p>TRIAGE DESK / 端末 01</p><h3>${c.triage}</h3></div><span>${c.triageLead}</span></header>
       <form data-clinic-triage-form>
         <fieldset class="clinic-complaints">
@@ -517,7 +522,7 @@ function renderPharmacy(locale, c, route) {
     return categoryMatch && searchMatch;
   });
   return `
-    <section class="clinic-pharmacy">
+    <section class="clinic-pharmacy" id="clinic-pharmacy">
       <header class="clinic-section-heading"><div><p>${c.pharmacyEyebrow}</p><h3>${c.pharmacyTitle}</h3></div><span>${c.pharmacyLead}</span></header>
       <div class="clinic-medicine-toolbar">
         <label><span aria-hidden="true">⌕</span><input type="search" value="${escapeHtml(medicineSearch)}" placeholder="${c.searchMedicine}" data-clinic-medicine-search data-preserve-focus="clinic-medicine-search"></label>
@@ -554,7 +559,7 @@ function renderRecovery(locale, c) {
   const plans = clinicCarePlans().slice().reverse();
   const suggested = new Set(suggestedTherapies());
   return `
-    <section class="clinic-recovery">
+    <section class="clinic-recovery" id="clinic-recovery">
       <header class="clinic-section-heading"><div><p>${c.recoveryEyebrow}</p><h3>${c.recoveryTitle}</h3></div><span>${c.recoveryLead}</span></header>
       <div class="clinic-therapy-catalogue">
         ${Object.values(clinicTherapies).map((therapy) => {
@@ -592,7 +597,7 @@ function renderAccount(locale, c) {
   const plans = clinicCarePlans().slice().reverse();
   const posts = clinicCommunityPosts(locale);
   return `
-    <section class="clinic-account">
+    <section class="clinic-account" id="clinic-account">
       <header class="clinic-section-heading"><div><p>${c.accountEyebrow}</p><h3>${c.accountTitle}</h3></div><span>${c.accountLead}</span></header>
       <div class="clinic-account-grid">
         <section><header><h4>${c.visits}</h4><b>${visits.length}</b></header>
@@ -815,7 +820,11 @@ function bind(locale, c, mode) {
   receiptDialog?.addEventListener("click", (event) => {
     if (event.target === receiptDialog) receiptDialog.close();
   });
-  receiptDialog?.querySelector("[data-clinic-receipt-print]")?.addEventListener("click", () => window.print());
+  receiptDialog?.querySelector("[data-clinic-receipt-print]")?.addEventListener("click", () => {
+    printDocument(receiptDialog.querySelector("[data-clinic-receipt-body]"), {
+      title: receiptDialog.querySelector("h1, h2")?.textContent || document.title,
+    });
+  });
 }
 
 function render() {

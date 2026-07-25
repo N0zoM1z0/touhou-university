@@ -51,6 +51,12 @@ official game sprites, screenshots, scans or another fan artist's work.
 | `assets/images/map/eientei-clinic.webp` | map / Eientei Clinic | lantern-lit medical pavilion deep in a bamboo forest with a calm pharmacy and moon-viewing courtyard |
 | `assets/images/faculty/faith-council.webp` | Faith & Coexistence faculty council | Byakuren, Kanako, Miko and Sanae disputing a festival-resource map in a weathered, taped-up seminar room with a donation box, obsolete cassette recorder, sake cups and rain-wrinkled notices |
 
+All `*-mobile.webp` files beside the library, workshop, festival, uniform,
+map-scene and faculty illustrations are 560–720 px responsive derivatives of
+the corresponding generated originals. They were produced locally with
+`scripts/optimize-images.sh`, stripped of metadata and encoded at WebP quality
+75–76; they are not separately generated artwork.
+
 ### Campus map scene set — painted environmental cards
 
 Prompt direction: cohesive wide environmental concept art for an immersive

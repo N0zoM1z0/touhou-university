@@ -1,9 +1,12 @@
 import { libraryFacets, libraryHolding, libraryHoldings } from "../data/library.js";
+import { liveFacilityStatus } from "../data/live-campus.js";
 import { recordCampusEvent } from "./campus-ledger.js";
 import { getLocale } from "./i18n.js";
+import { printDocument } from "./print-document.js";
 import { bindImeSafeInput } from "./ime-input.js";
 import { renderPreservingState } from "./render-state.js";
 import { showToast } from "./ui.js";
+import { safeDecodeFragment } from "./url-state.js";
 
 const LOANS_KEY = "tu:library:loans";
 const HOLDS_KEY = "tu:library:holds";
@@ -18,6 +21,8 @@ const copy = {
     title: "書不一定安靜，但借閱紀錄必須說得清楚。",
     lead: "搜尋館藏、借出在架書、為外借或離架中的書排隊，並在期限內續借。所有操作只保存在這台裝置。",
     open: "今日開館",
+    closed: "今日閉館",
+    seatsFree: "席空位",
     hours: "08:10—月上樹梢",
     holdings: "可檢索館藏",
     available: "目前在架",
@@ -101,6 +106,8 @@ const copy = {
     title: "本は静かとは限らない。貸出記録は明確でなければならない。",
     lead: "蔵書を検索し、在架本を借り、貸出中・離架中の本を予約し、期限内に更新できます。操作はこの端末だけに保存されます。",
     open: "本日開館",
+    closed: "本日休館",
+    seatsFree: "席空き",
     hours: "08:10—月が梢へ昇るまで",
     holdings: "検索可能資料",
     available: "現在在架",
@@ -184,6 +191,8 @@ const copy = {
     title: "Books need not be quiet. Their circulation records do.",
     lead: "Search the collection, borrow available books, queue for items away from the shelf, and renew before they are due. Every action stays on this device.",
     open: "Open today",
+    closed: "Closed today",
+    seatsFree: "places free",
     hours: "08:10—moon above the trees",
     holdings: "Searchable holdings",
     available: "On shelf now",
@@ -435,7 +444,7 @@ function detailRecord(holding, locale, c) {
       </aside>`
     : "";
   return `
-    <article class="library-record" data-library-record="${holding.id}">
+    <article class="library-record" id="library-${holding.id}" data-library-record="${holding.id}">
       <header>
         <p>${c.details} / ${escapeHtml(holding.callNumber)}</p>
         <span class="library-state" data-state="${state}">${escapeHtml(stateLabel)}</span>
@@ -566,9 +575,10 @@ function renderContent() {
   const available = libraryHoldings.filter((holding) => effectiveState(holding) === "available").length;
   const strange = libraryHoldings.length - available;
   const active = activeLoanCount() + activeHoldCount();
+  const facility = liveFacilityStatus("library", locale);
   app.innerHTML = `
     <header class="library-hero">
-      <div class="library-hero-image"><img src="assets/images/library.webp" width="1280" height="853" alt="" loading="eager"><span>${c.open}<strong>${c.hours}</strong></span></div>
+      <div class="library-hero-image"><img src="assets/images/library.webp" srcset="assets/images/library-mobile.webp 640w, assets/images/library.webp 1280w" sizes="(max-width: 700px) 100vw, 48vw" width="1280" height="853" alt="" loading="eager"><span>${facility.open ? c.open : c.closed}<strong>${facility.hours} · ${facility.availableSeats} ${c.seatsFree}</strong></span></div>
       <div class="library-hero-copy">
         <p>${c.eyebrow}</p>
         <h2>${c.title}</h2>
@@ -752,8 +762,8 @@ function bind() {
 }
 
 function initialHoldingFromHash() {
-  const match = window.location.hash.match(/^#library-(.+)$/);
-  if (match && libraryHolding(decodeURIComponent(match[1]))) selectedId = decodeURIComponent(match[1]);
+  const match = safeDecodeFragment().match(/^library-(.+)$/);
+  if (match && libraryHolding(match[1])) selectedId = match[1];
 }
 
 export function initLibrary() {
@@ -771,5 +781,10 @@ export function initLibrary() {
     if (before !== selectedId) render();
   });
   document.querySelectorAll("[data-library-receipt-close]").forEach((button) => button.addEventListener("click", () => document.querySelector("[data-library-receipt-dialog]")?.close()));
-  document.querySelector("[data-library-receipt-print]")?.addEventListener("click", () => window.print());
+  document.querySelector("[data-library-receipt-print]")?.addEventListener("click", () => {
+    const dialog = document.querySelector("[data-library-receipt-dialog]");
+    printDocument(dialog?.querySelector("[data-library-receipt-body]"), {
+      title: dialog?.querySelector("h1, h2")?.textContent || document.title,
+    });
+  });
 }

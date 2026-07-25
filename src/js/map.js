@@ -2,7 +2,7 @@ import { mapPlaces } from "../data/services.js";
 import { findCampusRoute, transportModes } from "../data/routes.js";
 import { getLocale } from "./i18n.js";
 import { navigateToDeepLink } from "./deep-links.js";
-import { liveCampusSnapshot } from "../data/live-campus.js";
+import { liveCampusSnapshot, liveFacilityStatus, liveMapNotice } from "../data/live-campus.js";
 
 export function initCampusMap() {
   const detail = document.querySelector(".map-detail");
@@ -27,6 +27,9 @@ export function initCampusMap() {
       live: "此刻校園路況",
       unavailable: "本時段停用",
       restrictions: "動態限制已納入路線計算",
+      openNow: "開放中",
+      closedNow: "目前閉館",
+      seatsFree: "空位",
     },
     ja: {
       from: "出発地",
@@ -44,6 +47,9 @@ export function initCampusMap() {
       live: "現在のキャンパス経路",
       unavailable: "この時間は停止",
       restrictions: "動的規制を経路計算へ反映済み",
+      openNow: "開館中",
+      closedNow: "現在閉館",
+      seatsFree: "空席",
     },
     en: {
       from: "From",
@@ -61,6 +67,9 @@ export function initCampusMap() {
       live: "Live campus conditions",
       unavailable: "Unavailable this period",
       restrictions: "Live restrictions are included in this route",
+      openNow: "Open now",
+      closedNow: "Currently closed",
+      seatsFree: "places free",
     },
   };
 
@@ -69,14 +78,21 @@ export function initCampusMap() {
     if (!place || !detail) return;
     currentPlace = placeId;
     const locale = getLocale();
+    const c = copy[locale];
+    const facility = liveFacilityStatus(placeId, locale);
     detail.querySelector("[data-map-index]").textContent = place.index;
     detail.querySelector("[data-map-name]").textContent = place.name[locale];
     detail.querySelector("[data-map-description]").textContent = place.description[locale];
     detail.querySelector("[data-map-type]").textContent = place.type[locale];
     const image = detail.querySelector("[data-map-image]");
     image.src = place.image;
+    image.srcset = `${place.imageMobile || place.image} 640w, ${place.image} 1280w`;
+    image.sizes = "(max-width: 700px) 92vw, 36vw";
     image.alt = place.imageAlt[locale];
-    detail.querySelector("[data-map-hours]").textContent = place.hours;
+    detail.querySelector("[data-map-hours]").textContent = facility?.hours || place.hours;
+    detail.querySelector("[data-map-live]").textContent = facility
+      ? `${facility.open ? c.openNow : c.closedNow} · ${facility.availableSeats} ${c.seatsFree}`
+      : place.hours;
     detail.querySelector("[data-map-walk]").textContent = place.walk[locale];
     detail.querySelector("[data-map-air]").textContent = place.air[locale];
     document.querySelectorAll("[data-map-place]").forEach((node) => {
@@ -289,7 +305,15 @@ export function initCampusMap() {
   window.addEventListener("tu:languagechange", () => {
     render(currentPlace);
     renderPlanner();
+    renderNotice();
   });
+  const renderNotice = () => {
+    const notice = liveMapNotice(getLocale());
+    const label = document.querySelector("[data-map-notice-label]");
+    const text = document.querySelector("[data-map-notice]");
+    if (label) label.textContent = notice.label;
+    if (text) text.textContent = notice.text;
+  };
   window.addEventListener("resize", () => {
     if (!currentRoute) return;
     const result = findCampusRoute(currentRoute.from, currentRoute.to, currentRoute.mode, liveCampusSnapshot().routeRules);
@@ -297,4 +321,5 @@ export function initCampusMap() {
   });
   render(currentPlace);
   renderPlanner();
+  renderNotice();
 }

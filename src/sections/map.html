@@ -42,9 +42,9 @@
         <button class="map-node" type="button" data-map-place="kappa">
           <span>07</span><strong>河童聯合工房</strong>
         </button>
-        <p class="map-repair-note" aria-hidden="true">
-          <s>北側風路已永久修復</s><br>
-          <b>訂正：河童膠帶仍算臨時修復</b>
+        <p class="map-repair-note" aria-live="polite">
+          <small data-map-notice-label>今日木板</small>
+          <b data-map-notice>北側木牌正在等下一次校鐘。</b>
         </p>
         <div class="map-compass" aria-hidden="true"><span>北</span><i></i></div>
       </section>
@@ -53,6 +53,8 @@
         <div class="map-detail-media">
           <img
             src="assets/images/campus-hero.webp"
+            srcset="assets/images/campus-hero-mobile.webp 960w, assets/images/campus-hero.webp 1672w"
+            sizes="(max-width: 700px) 92vw, 36vw"
             alt="晨霧中的幻想鄉立東方大學主校區與博麗門"
             width="1280"
             height="853"
@@ -69,6 +71,7 @@
           </p>
           <dl>
             <div><dt>開放</dt><dd data-map-hours>06:00—22:30</dd></div>
+            <div><dt>即時</dt><dd data-map-live>依校鐘開放</dd></div>
             <div><dt>步行</dt><dd data-map-walk>起點</dd></div>
             <div><dt>空路</dt><dd data-map-air>低空禁飛</dd></div>
           </dl>
@@ -86,6 +89,7 @@
         <div>
           <p>GENSOKYO CAMPUS TRANSIT</p>
           <h3>怎麼走？讓校園路網替你算。</h3>
+          <small class="route-outsider-credit">演算法由一名堅稱「這只是 Dijkstra」的外界人類申請生暫借；紫尚未承認最短路一定在同一側。</small>
         </div>
         <p>選擇步行、掃帚、天狗風路或竹林兔車；每一種交通都有自己的停靠點與接駁路線。</p>
       </header>

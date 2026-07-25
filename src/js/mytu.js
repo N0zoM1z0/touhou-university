@@ -1,4 +1,4 @@
-import { identityKinds, originKinds, committeeBySchool, reviewers } from "../data/mytu.js";
+import { identityKinds, originKinds, committeeBySchool, reviewerCommentary, reviewers } from "../data/mytu.js";
 import { schools } from "../data/schools.js";
 import { campusLedger, recordCampusEvent, syncCampusLedger } from "./campus-ledger.js";
 import {
@@ -9,7 +9,9 @@ import {
 import { academicGradebook } from "./academic-model.js";
 import { initAcademicDocumentDialog, renderAcademicWorkbench } from "./academic-work.js";
 import { getLocale } from "./i18n.js";
+import { printDocument } from "./print-document.js";
 import { showToast } from "./ui.js";
+import { safeDecodeFragment } from "./url-state.js";
 
 const IDENTITY_KEY = "tu:identity";
 const REVIEW_KEY = "tu:application:reviews";
@@ -56,6 +58,10 @@ const copy = {
     drafts: "未完成",
     applicationReview: "教授聯合審查",
     reviewLead: "審查會讀取所選申請的研究問題、方法、需求與本機最佳考試成績，產生可再次開啟的校內評議。",
+    reviewQuestion: "研究問題判讀",
+    reviewMethod: "方法與證據判讀",
+    reviewNeeds: "現場條件判讀",
+    noDeclaredNeeds: "未另列現場需求；委員仍可能自行加註。",
     noApplication: "尚無已提交申請。先完成一份填報，教授才有東西可以爭論。",
     openApplication: "開始線上填報",
     chooseApplication: "選擇審查檔案",
@@ -202,6 +208,10 @@ const copy = {
     drafts: "未完了",
     applicationReview: "教員合同審査",
     reviewLead: "選択した出願の問い・方法・希望と端末内最高試験成績を読み、再閲覧可能な学内評議を作成します。",
+    reviewQuestion: "研究課題の読解",
+    reviewMethod: "方法・証拠の読解",
+    reviewNeeds: "現場条件の読解",
+    noDeclaredNeeds: "現場希望の記載なし。委員による追記はあり得ます。",
     noApplication: "提出済み出願がありません。まず一件提出し、教員が議論できる材料を用意してください。",
     openApplication: "オンライン出願へ",
     chooseApplication: "審査ファイルを選択",
@@ -343,6 +353,10 @@ const copy = {
     drafts: "Unfinished",
     applicationReview: "Joint faculty review",
     reviewLead: "The panel reads the selected question, method, needs, and best on-device exam result, then saves a reopenable internal review.",
+    reviewQuestion: "Reading of the question",
+    reviewMethod: "Reading of method and evidence",
+    reviewNeeds: "Reading of field conditions",
+    noDeclaredNeeds: "No field needs were declared; the panel may still attach its own.",
     noApplication: "No application has been submitted. Complete one first, so the faculty have something to disagree about.",
     openApplication: "Start online application",
     chooseApplication: "Choose dossier",
@@ -575,6 +589,20 @@ function dossierScore(application, records) {
   return Math.min(100, Math.round(52 + question + method + evidence + needs));
 }
 
+function applicationReviewRemarks(application, committee) {
+  const lenses = ["question", "method", "needs"];
+  return committee.map((memberId, index) => {
+    const lens = lenses[index % lenses.length];
+    const source = String(application[lens] || "").trim();
+    return {
+      memberId,
+      lens,
+      excerpt: source.slice(0, 220),
+      commentary: reviewerCommentary[memberId]?.[lens] || reviewers[memberId]?.note,
+    };
+  });
+}
+
 function outcomeFor(score) {
   if (score >= 84) return "admitted";
   if (score >= 65) return "conditional";
@@ -669,13 +697,18 @@ function renderReview(application, review, records, locale, c) {
         <p>${c.outcomeBody[review.outcome]}</p>
       </div>
       <div class="mytu-reviewers">
-        ${review.committee.map((memberId) => {
+        ${review.committee.map((memberId, index) => {
           const member = reviewers[memberId];
           const stance = member.stance === "approve" ? c.stanceApprove : member.stance === "condition" ? c.stanceCondition : c.stanceRevise;
+          const remark = review.remarks?.[index] || applicationReviewRemarks(application, review.committee)[index];
+          const lensLabel = remark.lens === "question" ? c.reviewQuestion : remark.lens === "method" ? c.reviewMethod : c.reviewNeeds;
+          const excerpt = remark.excerpt || c.noDeclaredNeeds;
+          const commentary = remark.commentary?.[locale] || member.note[locale];
           return `
             <article>
               <header><div><strong>${member.name[locale]}</strong><span>${member.role[locale]}</span></div><i data-stance="${member.stance}">${stance}</i></header>
-              <p>「${member.note[locale]}」</p>
+              <blockquote><small>${lensLabel}</small><q>${escapeHtml(excerpt)}</q></blockquote>
+              <p>「${escapeHtml(commentary)}」</p>
             </article>`;
         }).join("")}
       </div>
@@ -819,6 +852,7 @@ function createReview(application, records) {
     score,
     outcome,
     committee,
+    remarks: applicationReviewRemarks(application, committee),
     examEvidence: bestExam(records, getLocale(), copy[getLocale()]),
     reviewedAt,
   };
@@ -958,7 +992,7 @@ function render() {
   const c = copy[locale];
   const identity = readJson(IDENTITY_KEY, null);
   const records = allRecords();
-  const route = decodeURIComponent(window.location.hash.slice(1));
+  const route = safeDecodeFragment();
   if (route.startsWith("academic-")) {
     editingIdentity = false;
     academicWorkbenchCleanup?.();
@@ -987,7 +1021,9 @@ export function initMyTu() {
   documentDialog?.querySelectorAll("[data-mytu-document-close]").forEach((button) => {
     button.addEventListener("click", () => documentDialog.close());
   });
-  documentDialog?.querySelector("[data-mytu-print]")?.addEventListener("click", () => window.print());
+  documentDialog?.querySelector("[data-mytu-print]")?.addEventListener("click", () => {
+    printDocument(documentBody, { title: documentBody?.querySelector("h1, h2")?.textContent || document.title });
+  });
   window.addEventListener("tu:ledgerchange", render);
   window.addEventListener("tu:languagechange", render);
   window.addEventListener("hashchange", () => {

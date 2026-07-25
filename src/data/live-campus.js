@@ -189,6 +189,107 @@ export function liveCampusSnapshot(date = new Date()) {
   };
 }
 
+const facilityProfiles = {
+  library: { start: 7 * 60, end: 2 * 60, capacity: 60 },
+  boundary: { start: 8 * 60, end: 21 * 60, capacity: 48 },
+  history: { start: 8 * 60 + 30, end: 19 * 60, capacity: 30 },
+  magic: { start: 8 * 60, end: 23 * 60, capacity: 24 },
+  kappa: { start: 7 * 60 + 30, end: 18 * 60 + 30, capacity: 20 },
+};
+
+function minuteStamp(value) {
+  return `${String(Math.floor(value / 60) % 24).padStart(2, "0")}:${String(value % 60).padStart(2, "0")}`;
+}
+
+function isWithinHours(minute, start, end) {
+  if (end < start) return minute >= start || minute < end;
+  return minute >= start && minute < end;
+}
+
+export function liveFacilityStatus(placeId, locale = "zh-Hant", date = new Date()) {
+  const profile = facilityProfiles[placeId];
+  if (!profile) return null;
+  const state = liveCampusSnapshot(date);
+  const hasEvent = (id) => state.activeEvents.some((event) => event.id === id);
+  let { start, end, capacity } = profile;
+  let note = l("依校鐘正常開放", "校鐘どおり通常開館", "Operating by the ordinary bell schedule");
+
+  if (placeId === "library" && hasEvent("bookFlock")) {
+    end = 30;
+    capacity -= 18;
+    note = l("北翼改作返航館藏緩衝區", "北翼を帰航資料の緩衝区へ転用", "North Wing is a landing buffer for returning holdings");
+  } else if (placeId === "boundary" && hasEvent("danmakuPractical")) {
+    start = 10 * 60;
+    capacity -= 16;
+    note = l("屋頂補考，前兩排改作退路", "屋上追試のため前二列を退避路へ", "Roof make-up practical; front rows are exit lanes");
+  } else if (placeId === "history" && state.phase === 4) {
+    end = 17 * 60 + 30;
+    capacity -= 8;
+    note = l("滿月檔案櫃提前點名", "満月書庫は早めに点呼", "Full-moon archive cabinets take early attendance");
+  } else if (placeId === "magic" && hasEvent("crosswind")) {
+    end = 21 * 60 + 30;
+    capacity -= 6;
+    note = l("高層窗封閉，兩間實驗室降載", "高層窓を閉鎖、実験室二室を減載", "Upper windows closed; two laboratories are load-limited");
+  } else if (placeId === "kappa" && hasEvent("kappaTape")) {
+    start = 8 * 60 + 30;
+    end = 17 * 60;
+    capacity -= 10;
+    note = l("直達線維修，半數工作台拿去壓膠帶", "直通線修理、作業台半数はテープの重し", "Direct link repair; half the benches are holding tape down");
+  }
+
+  const minute = date.getHours() * 60 + date.getMinutes();
+  const open = isWithinHours(minute, start, end);
+  const occupancy = open ? hashValue(`${state.dayKey}:${state.slot}:${placeId}`) % Math.max(3, capacity - 2) : capacity;
+  const availableSeats = open ? Math.max(0, capacity - occupancy) : 0;
+  return {
+    id: placeId,
+    open,
+    hours: `${minuteStamp(start)}—${minuteStamp(end)}`,
+    capacity,
+    availableSeats,
+    note: note[locale],
+    snapshotKey: `${state.dayKey}:${state.slot}`,
+  };
+}
+
+export function liveFacilityBoard(locale = "zh-Hant", date = new Date()) {
+  return Object.keys(facilityProfiles).map((id) => liveFacilityStatus(id, locale, date));
+}
+
+const mapNoticePool = [
+  l(
+    "捐款箱暫代失物箱。靈夢表示這不代表失物可以暫代捐款。",
+    "賽銭箱は一時的に遺失物箱。霊夢曰く、遺失物が賽銭の代わりになるわけではない。",
+    "The donation box is temporarily Lost Property. Reimu says lost property is not temporarily a donation.",
+  ),
+  l(
+    "今日第四條「近路」比正路多十一分鐘；竹林定向部拒絕撤銷近路資格。",
+    "本日四本目の「近道」は通常路より十一分長い。竹林オリエン部は近道資格の取消を拒否。",
+    "Today’s fourth “shortcut” is eleven minutes longer. Bamboo Orienteering refuses to revoke its shortcut status.",
+  ),
+  l(
+    "被雨淋皺的校報仍標明明日日期。文稱這只能證明雨下得比較早。",
+    "雨で皺んだ学報の日付はまだ明日。文は雨が早く降った証拠にすぎないと主張。",
+    "The rain-wrinkled campus paper is still dated tomorrow. Aya says this proves only that the rain arrived early.",
+  ),
+  l(
+    "北側木牌的錯字已訂正三次；目前錯的是訂正日期。",
+    "北側木札の誤字は三度訂正済み。現在誤っているのは訂正日。",
+    "The north sign’s typo has been corrected three times. The correction date is now wrong.",
+  ),
+];
+
+export function liveMapNotice(locale = "zh-Hant", date = new Date()) {
+  const state = liveCampusSnapshot(date);
+  const event = state.activeEvents[(state.seed >>> 4) % state.activeEvents.length];
+  const useEvent = (state.seed & 1) === 0;
+  return {
+    label: l("今日木板", "本日の木札", "TODAY'S WOODEN NOTICE")[locale],
+    text: useEvent ? `${event.title[locale]}：${event.rule[locale]}` : mapNoticePool[(state.seed >>> 7) % mapNoticePool.length][locale],
+    snapshotKey: `${state.dayKey}:${state.slot}`,
+  };
+}
+
 const menuPool = [
   ["hakurei", l("博麗定食", "博麗定食", "Hakurei Set"), l("山菜飯、烤豆腐、味噌湯、醃蘿蔔", "山菜ご飯、焼き豆腐、味噌汁、たくあん", "Mountain rice, grilled tofu, miso soup, pickled radish"), "540", l("人氣", "人気", "Popular")],
   ["bamboo", l("竹林月見麵", "竹林月見そば", "Bamboo Moon Soba"), l("蕎麥麵、溫泉蛋、竹筍、紫蘇", "蕎麦、温泉卵、筍、大葉", "Soba, soft egg, bamboo shoot, shiso"), "480", l("素食可", "菜食可", "Veg option")],
@@ -269,16 +370,20 @@ export function liveRoomAvailability(date = new Date()) {
   const state = liveCampusSnapshot(date);
   const minute = date.getHours() * 60 + date.getMinutes();
   return roomBase.map(([code, building, seats, kind], index) => {
+    const facility = liveFacilityStatus(building, "en", date);
     const freeMinutes = 35 + (hashValue(`${state.dayKey}:${state.slot}:${code}`) % 190);
     const until = Math.min(23 * 60 + 50, minute + freeMinutes);
     const delta = state.activeEvents.reduce((sum, event) => sum + (event.roomSeatDelta?.[building] || 0), 0);
     return {
       code,
       building,
-      seats: Math.max(4, seats + (building === "library" ? delta : 0)),
+      seats: Math.min(
+        Math.max(0, seats + (building === "library" ? delta : 0)),
+        facility?.availableSeats ?? seats,
+      ),
       freeUntil: `${String(Math.floor(until / 60)).padStart(2, "0")}:${String(until % 60).padStart(2, "0")}`,
       kind,
-      available: (hashValue(`${state.seed}:${index}`) % 5) !== 0,
+      available: Boolean(facility?.open) && (facility?.availableSeats || 0) > 0 && (hashValue(`${state.seed}:${index}`) % 5) !== 0,
     };
   });
 }

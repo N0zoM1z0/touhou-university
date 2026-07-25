@@ -1,15 +1,3 @@
-.header-tools {
-  display: flex;
-  align-items: center;
-  justify-self: end;
-  gap: 14px;
-  margin-right: 32px;
-}
-
-.header-tools .header-cta {
-  margin-right: 0;
-}
-
 .language-switcher,
 .mobile-languages {
   display: flex;
@@ -119,37 +107,15 @@
     transform 0.2s;
 }
 
-.service-tile.service-tile-exam {
-  color: var(--white);
-  background: var(--blue);
-}
-
-.service-tile.service-tile-incidents {
-  color: var(--white);
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.06), transparent 58%),
-    #21434a;
-}
-
-.service-tile.service-tile-clinic {
-  color: #f8f1e6;
-  background:
-    linear-gradient(135deg, rgba(215, 190, 127, .12), transparent 56%),
-    #22463a;
-}
-
-.service-tile-clinic .service-icon {
-  color: #e0bd83;
-  border-color: rgba(224, 189, 131, .48);
-}
-
-.service-tile-incidents .service-icon {
-  color: #e2ca89;
-  border-color: rgba(226, 202, 137, 0.45);
-}
-
-.service-tile-exam .service-icon {
-  color: #dba49a;
+.service-tile-primary,
+.service-tile-mytu,
+.service-tile-library,
+.service-tile-clinic,
+.service-tile-housing,
+.service-tile-exam,
+.service-tile-incidents {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.34);
 }
 
 .service-tile:hover,
@@ -159,11 +125,6 @@
   background: var(--blue);
   outline: 0;
   transform: translateY(-3px);
-}
-
-.service-tile-primary {
-  color: var(--white);
-  background: var(--red);
 }
 
 .service-icon {
@@ -178,7 +139,6 @@
   font-size: 14px;
 }
 
-.service-tile-primary .service-icon,
 .service-tile:hover .service-icon {
   color: currentColor;
 }
@@ -201,7 +161,7 @@
 .service-tile small {
   grid-column: 1 / -1;
   margin-top: -18px;
-  font-size: 7px;
+  font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.15em;
   opacity: 0.58;

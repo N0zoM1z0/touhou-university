@@ -23,8 +23,10 @@ import {
 } from "./academic-model.js";
 import { recordCampusEvent } from "./campus-ledger.js";
 import { getLocale } from "./i18n.js";
+import { printDocument } from "./print-document.js";
 import { renderPreservingState } from "./render-state.js";
 import { showToast } from "./ui.js";
+import { safeDecodeFragment } from "./url-state.js";
 
 const SELECTED_ASSIGNMENT_KEY = "tu:academics:selected-assignment";
 const SELECTED_PROJECT_KEY = "tu:academics:selected-project";
@@ -274,7 +276,7 @@ function escapeHtml(value) {
 }
 
 function routeView() {
-  const route = decodeURIComponent(window.location.hash.slice(1));
+  const route = safeDecodeFragment();
   if (route === "academic-exam") return "exam";
   if (route === "academic-grades") return "grades";
   if (route === "academic-defense") return "defence";
@@ -353,7 +355,7 @@ function renderAssignments(locale, c, identity) {
   const latest = latestAssignmentSubmission(assignment.id);
   return `
     ${!identity ? `<aside class="academic-identity-gate"><p>${c.identityNeeded}</p><a class="button button-primary" href="#my-tu">${c.createIdentity}</a></aside>` : ""}
-    <div class="academic-assignment-layout">
+    <div class="academic-assignment-layout" id="academic-work">
       <aside class="academic-assignment-index" data-preserve-scroll="academic-assignments">
         <header><span>${c.assignments}</span><b>${academicAssignments.length}</b></header>
         ${academicAssignments.map((item) => {
@@ -397,7 +399,7 @@ function renderExam(locale, c, identity) {
   const latest = attempts.at(-1);
   return `
     ${!identity ? `<aside class="academic-identity-gate"><p>${c.identityNeeded}</p><a class="button button-primary" href="#my-tu">${c.createIdentity}</a></aside>` : ""}
-    <section class="academic-exam-shell">
+    <section class="academic-exam-shell" id="academic-exam">
       <header><div><p>${c.examEyebrow}</p><h3>${exam.title[locale]}</h3></div><span>${c.examLead}</span></header>
       ${session
         ? examForm(exam, session, locale, c)
@@ -409,7 +411,7 @@ function renderExam(locale, c, identity) {
 function renderGrades(locale, c) {
   const book = academicGradebook();
   return `
-    <section class="academic-gradebook">
+    <section class="academic-gradebook" id="academic-grades">
       <header>
         <div><p>ACADEMIC RECORD / ON THIS DEVICE</p><h3>${c.grades}</h3><span>${c.gradeLead}</span></div>
         <div class="academic-overall"><span>${c.overall}</span><strong>${book.average ?? "—"}<small>${book.average === null ? "" : "/100"}</small></strong><b>${book.band ? `${book.band.id} · ${book.band.label[locale]}` : c.notGraded}</b></div>
@@ -475,7 +477,7 @@ function renderDefence(locale, c, identity, creatingProject = false) {
   const selected = creatingProject ? null : projects.find((item) => item.id === selectedStored) || projects.at(-1);
   return `
     ${!identity ? `<aside class="academic-identity-gate"><p>${c.identityNeeded}</p><a class="button button-primary" href="#my-tu">${c.createIdentity}</a></aside>` : ""}
-    <div class="academic-defence-layout">
+    <div class="academic-defence-layout" id="academic-defense">
       <aside class="academic-project-list">
         <header><span>${c.defence}</span><b>${projects.length}</b></header>
         ${projects.map((project) => {
@@ -690,5 +692,9 @@ export function renderAcademicWorkbench(app) {
 export function initAcademicDocumentDialog() {
   const dialog = document.querySelector("[data-academic-document-dialog]");
   dialog?.querySelectorAll("[data-academic-document-close]").forEach((button) => button.addEventListener("click", () => dialog.close()));
-  dialog?.querySelector("[data-academic-document-print]")?.addEventListener("click", () => window.print());
+  dialog?.querySelector("[data-academic-document-print]")?.addEventListener("click", () => {
+    printDocument(dialog.querySelector("[data-academic-document-body]"), {
+      title: dialog.querySelector("h1, h2")?.textContent || document.title,
+    });
+  });
 }
