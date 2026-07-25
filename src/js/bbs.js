@@ -4,6 +4,8 @@ import { openInfoDialog } from "./info-dialog.js";
 import { showToast } from "./ui.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { recordCampusEvent } from "./campus-ledger.js";
+import { incidentCommunityPosts } from "./incident-model.js";
+import { siteHref } from "./site-router.js";
 
 const labels = {
   "zh-Hant": {
@@ -30,6 +32,8 @@ const labels = {
     postsUnit: "篇",
     noPosts: "這個板面暫時沒有帖子。",
     noLocalPosts: "這台裝置還沒有發帖；發佈後會保存在這裡。",
+    incidentLinked: "事件連動",
+    openCase: "查看結案案卷",
   },
   ja: {
     course: "授業",
@@ -55,6 +59,8 @@ const labels = {
     postsUnit: "件",
     noPosts: "この板にはまだ投稿がありません。",
     noLocalPosts: "この端末からの投稿はまだありません。投稿後はここに保存されます。",
+    incidentLinked: "事案連動",
+    openCase: "終結記録を見る",
   },
   en: {
     course: "Courses",
@@ -80,6 +86,8 @@ const labels = {
     postsUnit: "posts",
     noPosts: "There are no posts on this board yet.",
     noLocalPosts: "Nothing has been posted from this device yet. New posts will be saved here.",
+    incidentLinked: "Incident-linked",
+    openCase: "Open closure record",
   },
 };
 
@@ -144,6 +152,12 @@ export function initBbs() {
         l.status,
         post.local ? l.local : post.time,
       ],
+      action: post.incidentId
+        ? {
+            label: l.openCase,
+            handler: () => window.location.assign(siteHref(`incident-case-${post.incidentId}`)),
+          }
+        : undefined,
     });
   }
 
@@ -151,7 +165,7 @@ export function initBbs() {
     const locale = getLocale();
     const l = labels[locale];
     const article = document.createElement("article");
-    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}`;
+    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.generated ? " incident-post" : ""}`;
     article.dataset.bbsCategory = post.category;
     article.dataset.bbsId = post.id;
     if (post.local) article.dataset.userPost = "";
@@ -166,6 +180,12 @@ export function initBbs() {
       pin.className = "pin";
       pin.textContent = l.pinned;
       title.append(pin, " ");
+    }
+    if (post.generated) {
+      const linked = document.createElement("span");
+      linked.className = "incident-linked";
+      linked.textContent = l.incidentLinked;
+      title.append(linked, " ");
     }
     title.append(post.title);
     const meta = document.createElement("small");
@@ -211,7 +231,11 @@ export function initBbs() {
         pinned: position === 0,
       };
     });
-    return [...userPosts.reverse(), ...seeds];
+    const incidentPosts = incidentCommunityPosts(locale).map((post) => ({
+      ...post,
+      time: relativeTime(post.createdAt, l),
+    }));
+    return [...userPosts.reverse(), ...incidentPosts, ...seeds];
   }
 
   function findPost(id) {
@@ -357,6 +381,7 @@ export function initBbs() {
     renderPosts();
     updateComposeDefault();
   });
+  window.addEventListener("tu:incidentchange", renderPosts);
   chooseSeedPosts();
   renderPosts();
   const infoDialog = document.querySelector("[data-info-dialog]");

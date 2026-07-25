@@ -17,9 +17,37 @@
   opacity: 0.26;
 }
 
+@media (max-width: 1500px) {
+  .brand {
+    padding-left: 18px;
+  }
+
+  .desktop-nav {
+    gap: 16px;
+  }
+
+  .desktop-nav a {
+    font-size: 11px;
+  }
+
+  .header-tools {
+    margin-right: 18px;
+    gap: 8px;
+  }
+
+  .header-search kbd {
+    display: none;
+  }
+
+  .header-cta {
+    min-width: 112px;
+    margin-right: 18px;
+  }
+}
+
 @media (max-width: 1180px) {
   .desktop-nav {
-    gap: 18px;
+    gap: 12px;
   }
 
   .header-tools {

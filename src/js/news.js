@@ -1,6 +1,8 @@
 import { newsItems } from "../data/community.js";
 import { getLocale } from "./i18n.js";
 import { openInfoDialog } from "./info-dialog.js";
+import { incidentCommunityNews } from "./incident-model.js";
+import { siteHref } from "./site-router.js";
 
 const track = document.querySelector("[data-news-track]");
 let selectedIds = [];
@@ -16,11 +18,14 @@ function shuffle(values) {
 }
 
 function chooseNews() {
-  selectedIds = shuffle(newsItems.map((item) => item.id)).slice(0, 6);
+  const incidentItems = incidentCommunityNews();
+  const dynamicIds = incidentItems.slice(0, 2).map((item) => item.id);
+  const remaining = shuffle(newsItems.map((item) => item.id)).slice(0, 6 - dynamicIds.length);
+  selectedIds = [...dynamicIds, ...remaining];
 }
 
 function showNews(id) {
-  const item = newsItems.find((news) => news.id === id);
+  const item = [...incidentCommunityNews(), ...newsItems].find((news) => news.id === id);
   if (!item) return;
   const locale = getLocale();
   const labels = {
@@ -33,14 +38,25 @@ function showNews(id) {
     title: item.title[locale],
     summary: item.summary[locale],
     meta: [labels[0], item.date, labels[1], item.category[locale]],
+    action: item.incidentId
+      ? {
+          label: {
+            "zh-Hant": "查看結案案卷",
+            ja: "終結記録を見る",
+            en: "Open closure record",
+          }[locale],
+          handler: () => window.location.assign(siteHref(`incident-case-${item.incidentId}`)),
+        }
+      : undefined,
   });
 }
 
 function renderNews() {
   if (!track) return;
   const locale = getLocale();
+  const allItems = [...incidentCommunityNews(), ...newsItems];
   const selected = selectedIds
-    .map((id) => newsItems.find((item) => item.id === id))
+    .map((id) => allItems.find((item) => item.id === id))
     .filter(Boolean);
   const buildContent = (hidden = false) => {
     const content = document.createElement("div");
@@ -73,5 +89,9 @@ export function initNews() {
     renderNews();
   }, 45000);
   window.addEventListener("tu:languagechange", renderNews);
+  window.addEventListener("tu:incidentchange", () => {
+    chooseNews();
+    renderNews();
+  });
   window.addEventListener("pagehide", () => window.clearInterval(rotationTimer), { once: true });
 }

@@ -13,6 +13,7 @@ export const campusHistoryCategories = {
   boundary: l("邊界", "境界", "Boundary"),
   chronicle: l("校史", "大学史", "Chronicle"),
   library: l("圖書館", "図書館", "Library"),
+  incidents: l("事件", "事案", "Incidents"),
 };
 
 export const campusHistory = [
@@ -355,10 +356,9 @@ export const campusHistory = [
   {
     id: "five-halls-and-one-chair",
     archiveId: "TU-H-015",
-    commit: null,
+    commit: "9e53a6e196b3a3bb505004a800ee1a4584916661",
     commitSubject: "Add housing applications and roommate matching",
     recordedAt: "2026-07-25",
-    planned: true,
     category: "housing",
     era: l("翌日・第一校鐘後", "翌日・第一校鐘後", "Next day · After First Bell"),
     title: l(
@@ -375,6 +375,31 @@ export const campusHistory = [
       "首份協議規定使魔、晾衣與起飛都不能永久占用窗邊椅。椅子本人以付喪神候選人的身分提出異議，要求先確認它是否也是室友。",
       "最初の協定は、使い魔・洗濯物・離陸が窓辺の椅子を永久占有してはならないと規定。椅子本人は付喪神候補として異議を申立て、自分も同室者か先に確認せよと要求した。",
       "The first agreement says familiars, laundry, and take-off gear may not permanently occupy the window chair. The chair objected as a prospective tsukumogami and asked whether it, too, counts as a roommate.",
+    ),
+  },
+  {
+    id: "five-cases-three-headlines",
+    archiveId: "TU-H-016",
+    commit: null,
+    commitSubject: "Add incident research loop and linked BBS reactions",
+    recordedAt: "2026-07-25",
+    planned: true,
+    category: "incidents",
+    era: l("翌日・第二校鐘前", "翌日・第二校鐘前", "Next day · Before Second Bell"),
+    title: l(
+      "事件聯絡室收下五宗案卷，結案後卻收到十五個標題",
+      "事案連絡室が五件を受理、終結後に十五本の見出し",
+      "The Incident Desk accepts five cases and receives fifteen headlines after closure",
+    ),
+    summary: l(
+      "校鐘誤響、兔車繞回同一盞燈、會飛的書、提前抵達的昨日與一把要求室友名額的椅子正式進入事件中心。學生必須審閱證物與互相牴觸的證詞，選擇可撤回處置，再用對照、隨機化、校準與版本鎖定辨別假說；模擬回條與結案都保存在本機並寫進 My TU。每宗結案隨即進入校務快訊，當事人、旁觀者與訂正欄各自在 BBS 發出自己的版本。",
+      "誤鳴する鐘、同じ灯へ戻る兎車、飛ぶ本、先に到着した昨日、同室枠を要求する椅子の五件が事案センターへ。学生は物証と矛盾する証言を読み、撤回可能な措置を選び、対照・無作為化・校正・版固定で仮説を識別する。実験票と終結は端末内保存され My TU に記録。各終結は大学速報へ入り、当事者・傍観者・訂正欄がそれぞれ BBS へ別版を投稿した。",
+      "A misfiring bell, rabbit shuttles returning to one lantern, a flying book, yesterday arriving early, and a chair demanding roommate status enter the Incident Centre. Students review evidence and conflicting testimony, choose reversible responses, then distinguish hypotheses with controls, randomisation, calibration, and version locking. Experiment slips and closures persist on-device and enter My TU. Every closure reaches the campus wire, after which participants, bystanders, and the corrections desk each publish their own BBS version.",
+    ),
+    marginalia: l(
+      "文要求把「三篇連動帖」算作一篇有三種時間態的獨家；慧音拒絕合併。荷取則提交第四篇，題為「韌體版本不同不代表我改過三次」，附件列出四個版本。",
+      "文は「連動三投稿」を三つの時制を持つ一本の独占記事として数えるよう要求。慧音は統合を拒否。にとりは第四稿「版が違っても三回変更したとは限らない」を提出し、添付には四版が並んだ。",
+      "Aya asked that three linked posts count as one exclusive in three tenses; Keine refused to merge them. Nitori filed a fourth post titled “Different firmware does not mean I changed it three times,” attaching four versions.",
     ),
   },
 ];

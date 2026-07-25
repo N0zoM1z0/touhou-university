@@ -7,9 +7,11 @@ import { campusHistory } from "../data/campus-history.js";
 import { courseCatalogue } from "../data/courses.js";
 import { libraryHoldings } from "../data/library.js";
 import { residences, roommateProfiles } from "../data/housing.js";
+import { incidentCases } from "../data/incidents.js";
 import { getLocale } from "./i18n.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { currentPage, pageForRoute, siteHref } from "./site-router.js";
+import { incidentCommunityPosts } from "./incident-model.js";
 
 const dialog = document.querySelector("[data-search-dialog]");
 const input = dialog?.querySelector("[data-search-input]");
@@ -39,6 +41,7 @@ const copy = {
       course: "課程",
       library: "館藏",
       housing: "住宿",
+      incident: "事件",
     },
   },
   ja: {
@@ -63,6 +66,7 @@ const copy = {
       course: "科目",
       library: "蔵書",
       housing: "学生寮",
+      incident: "事案",
     },
   },
   en: {
@@ -87,6 +91,7 @@ const copy = {
       course: "Course",
       library: "Library holding",
       housing: "Housing",
+      incident: "Incident",
     },
   },
 };
@@ -102,6 +107,9 @@ const sectionEntries = [
   ["housing", "housing", ["宿舍、房間與室友", "学生寮・部屋・同室者", "Housing, rooms & roommates"], ["住宿需求、房間配對、室友協議與換房", "入寮希望・配室・同室協定・転室", "Housing needs, allocation, roommate agreements, and transfers"]],
   ["housing-application", "housing", ["宿舍申請與配對", "入寮申請・配室", "Housing application & matching"], ["月相、翼展、水域、使魔、作息與相容度", "月相・翼幅・水域・使い魔・生活時間・適合度", "Moon phase, wingspan, water, familiars, schedules, and compatibility"]],
   ["housing-account", "housing", ["我的宿舍", "自分の寮", "My housing"], ["房號、室友、共住備忘與換房申請", "室番号・同室者・共同生活メモ・転室申請", "Room, roommate, shared-living note, and transfer request"]],
+  ["incident-center", "incident", ["校園事件中心", "学内事案センター", "Campus Incident Centre"], ["證物、證詞、工作假說與可逆處置", "物証・証言・作業仮説・可逆的措置", "Evidence, testimony, working hypotheses, and reversible responses"]],
+  ["incident-simulator", "incident", ["研究模擬器", "研究シミュレーター", "Research simulator"], ["對照、隨機化、校準與版本鎖定", "対照・無作為化・校正・版固定", "Controls, randomisation, calibration, and version locking"]],
+  ["incident-records", "incident", ["事件結案與連動", "事案終結・連動", "Case closures & reactions"], ["本機結案檔案、模擬回條與事件連動 BBS", "端末内終結記録・実験票・事案連動 BBS", "On-device closures, experiment slips, and incident-linked BBS"]],
   ["gaokao", "section", ["幻想鄉統一學力試驗", "幻想郷統一高等試験", "Gensokyo Unified Examination"], ["文科、理科、線上模擬與離線試卷", "文系・理系・オンライン模試・オフライン試験紙", "Humanities, sciences, online simulation, and offline papers"]],
   ["map", "map", ["校園地圖與路線", "キャンパスマップと経路", "Campus map and routes"], ["步行、掃帚、風路、兔車與時間估算", "徒歩・箒・風路・兎車と所要時間", "Walking, broom, windway, rabbit shuttle, and journey times"]],
   ["map-eientei", "map", ["永遠亭與迷途竹林詳圖", "永遠亭・迷いの竹林詳細図", "Eientei & Bamboo Forest detail map"], ["依日期、時間與月相改變的內部路線", "日付・時刻・月相で変わる内部経路", "Internal routes that change with date, time, and lunar phase"]],
@@ -210,6 +218,26 @@ function buildIndex() {
       description: `${author[locale]} · ${body[locale]}`,
       source: [author, title, body, category],
       priority: 20,
+    }));
+  });
+  incidentCommunityPosts(locale).forEach((post) => {
+    index.push(makeEntry({
+      route: `bbs-${post.id}`,
+      category: "bbs",
+      title: post.title,
+      description: `${post.author} · ${post.body}`,
+      source: post,
+      priority: 76,
+    }));
+  });
+  incidentCases.forEach((incident) => {
+    index.push(makeEntry({
+      route: `incident-case-${incident.id}`,
+      category: "incident",
+      title: `${incident.code} · ${incident.title[locale]}`,
+      description: `${incident.location[locale]} · ${incident.lede[locale]}`,
+      source: incident,
+      priority: 78,
     }));
   });
   Object.entries(campusFeatures).forEach(([id, feature]) => {

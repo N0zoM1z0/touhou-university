@@ -59,12 +59,15 @@ Status: implemented in 0.12.0.
 
 ## Batch 5 — Incident and research loop
 
-- incident response centre with evidence, testimony, hypotheses and reversible
-  actions
-- research-lab simulator with confounding, drift, missingness and version
-  changes
-- publishable incident dossiers and research records
-- BBS/news reactions generated from resolved campus events
+Status: implemented in 0.13.0.
+
+- five shareable incident files with evidence, testimony, hypotheses and
+  reversible actions
+- persistent research-lab simulator with confounding, drift, missingness,
+  version changes, false-confidence outcomes and retained experiment slips
+- on-device closure files, My TU summary and campus-ledger integration
+- three BBS reactions and one campus-wire item generated from every resolved
+  case, all linked back to the source dossier
 
 ## Batch 6 — Thesis, governance and live campus
 

@@ -24,13 +24,14 @@ if (!redirected) {
   await initialize("[data-research]", "./research.js", "initResearch");
   await initialize("#bbs", "./bbs.js", "initBbs");
   await initialize("[data-campus-feature]", "./campus.js", "initCampusInteractions");
-  await initialize("[data-news-id]", "./news.js", "initNews");
+  await initialize("[data-news-track]", "./news.js", "initNews");
   await initialize("#entrance-exam", "./exam.js", "initExam");
   await initialize("[data-audience-app]", "./audiences.js", "initAudiencePaths");
   await initialize("[data-eientei-focus]", "./eientei-map.js", "initEienteiMap");
   await initialize("[data-chronicle-open]", "./chronicle.js", "initCampusChronicle");
   await initialize("[data-library-app]", "./library.js", "initLibrary");
   await initialize("[data-housing-app]", "./housing.js", "initHousing");
+  await initialize("[data-incident-app]", "./incidents.js", "initIncidents");
 
   if (document.querySelector("#my-tu")) {
     const { initMyTu } = await import("./mytu.js");
