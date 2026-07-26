@@ -103,6 +103,7 @@ body[data-page="library"] .desktop-nav [data-nav-group="services"] > summary,
 body[data-page="clinic"] .desktop-nav [data-nav-group="services"] > summary,
 body[data-page="housing"] .desktop-nav [data-nav-group="services"] > summary,
 body[data-page="incidents"] .desktop-nav [data-nav-group="services"] > summary,
+body[data-page="fieldwork"] .desktop-nav [data-nav-group="services"] > summary,
 body[data-page="records"] .desktop-nav [data-nav-group="services"] > summary {
   color: var(--red);
 }

@@ -719,10 +719,9 @@ export const campusHistory = [
   {
     id: "six-desks-open-one-contested-gate",
     archiveId: "TU-H-030",
-    commit: null,
+    commit: "ace8f152b5bf2810bf7a58e300d44ac7ed8a26a5",
     commitSubject: "Add Gensokyo festival operations system",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "campus",
     era: l("同日・開門鐘前九分鐘", "同日・開門鐘九分前", "Same day · Nine minutes before the opening bell"),
     title: l(
@@ -739,6 +738,31 @@ export const campusHistory = [
       "文在六桌敲鐘前九分鐘刊出「一致通過」；阿求數出一席條件、兩席異議與三張被雨黏住的附件。神奈子說穩壓器證明守矢才是主辦，白蓮把正門讓給不會飛的人，神子則已經同時聽完十份開幕辭。紫最後在輪值表兩分鐘之間畫了一道境界，於是本校第一次在同一瞬間擁有兩扇唯一正門。",
       "文は六机の鐘より九分前に「全会一致」を発行。阿求は条件一席、異議二席、雨で貼りついた附件三枚を数えた。神奈子は安定器が守矢の主催権を証明すると言い、白蓮は飛べない者へ正門を譲り、神子は既に十の開幕辞を同時に聞き終えた。紫が当番表の二分間へ境界を引き、大学は初めて同じ瞬間に二つの唯一正門を持った。",
       "Aya publishes “unanimously approved” nine minutes before the six desks ring. Akyuu counts one condition, two objections, and three rain-stuck annexes. Kanako says the voltage regulator proves Moriya owns the event; Byakuren leaves the gate to non-fliers; Miko has already heard ten opening speeches at once. Yukari draws a boundary between two minutes on the rota, giving the university two sole main gates in the same instant.",
+    ),
+  },
+  {
+    id: "twenty-four-seals-return-with-red-thread",
+    archiveId: "TU-H-031",
+    commit: null,
+    commitSubject: "Add Gensokyo fieldwork passport system",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "academics",
+    era: l("同日・第二十四枚場地印尚未乾", "同日・二十四番目の現地印が乾く前", "Same day · Before the twenty-fourth field seal dries"),
+    title: l(
+      "二十四處場地准許學生前來工作，沒有一處保證自己會照派遣令發生",
+      "二十四の現場が学生の実習を受け入れ、派遣令通りに起こる保証は一つもない",
+      "Twenty-four sites admit student work; none promise to happen according to dispatch",
+    ),
+    summary: l(
+      "境內實習不再只是招生頁上寫著十八、實際卻找不到門的統計。博麗神社、人里、稗田邸、香霖堂、霧湖、紅魔館、魔法森林、愛麗絲工房、太陽花田、無名之丘、妖怪獸道、妖怪山、玄武澗、守矢神社、大蛤蟆池、命蓮寺、神靈廟、永遠亭、迷途竹林、白玉樓、三途川、舊都、地靈殿與灼熱地獄遺址各自取得場地檔案、入口規矩、帶隊人、裝備、工作、風險、來源與一枚不肯代替結論的印。申請人先填田野問題、能力使用與退場計畫；派遣桌只作核准或附條件，不把危險平均成總分。報到後，十二類現場偏差輪值出現，處置會留下可追溯、附條件或爭議結果；返校時還要分開親見、陳述、推測、事故附件與研究使用。完成後，護照收下首訪學分或再訪小印，My TU、資料櫃、BBS、校園地圖與稗田第十宗案卷則各保存同一趟外勤的不同紙面。",
+      "境内実習は、入試頁に十八と書かれながら入口が見つからない統計ではなくなった。博麗神社、人里、稗田邸、香霖堂、霧の湖、紅魔館、魔法の森、アリス工房、太陽の畑、無名の丘、妖怪獣道、妖怪の山、玄武の沢、守矢神社、大蝦蟇の池、命蓮寺、神霊廟、永遠亭、迷いの竹林、白玉楼、三途の川、旧都、地霊殿、灼熱地獄跡に、現場ファイル・入口規則・指導者・装備・仕事・リスク・資料源・結論を代署しない印が付いた。申請者は問い、能力使用、退出計画を先に記し、派遣机は許可か条件付許可を出すが、危険を総合点へ平均しない。現地点呼後は十二種の偏差が当番で現れ、初動は追跡可能・条件付・係争のいずれかを残す。帰校時には直接観察、陳述、推測、事故附件、研究利用を分ける。旅券は初訪単位または再訪小印を受け、My TU、資料棚、BBS、地図、稗田第十案件が同じ外勤の異なる紙面を保存する。",
+      "Domestic placement is no longer a statistic saying eighteen on Admissions while no door can be found. Hakurei Shrine, the Village, Hieda residence, Kourindou, Misty Lake, Scarlet Devil Mansion, Forest of Magic, Alice's workshop, Garden of the Sun, Nameless Hill, Youkai Trail, Youkai Mountain, Genbu Ravine, Moriya Shrine, Giant Toad Pond, Myouren Temple, the Great Mausoleum, Eientei, Bamboo Forest, Hakugyokurou, Sanzu River, Old Capital, Chireiden, and the Blazing Hell ruins each receive a site file, entry rule, supervisor, equipment, work, risk, sources, and a seal that will not sign for conclusions. Applicants first state a question, ability use, and exit plan; Dispatch issues approval or conditions without averaging danger into one score. After check-in, twelve rotating complications demand a response that remains traceable, conditional, or contested. Return separates observation, testimony, inference, incident annex, and research use. The passport grants first-visit credit or a smaller return seal, while My TU, the cabinet, BBS, map, and Hieda's tenth cross-file preserve different papers from the same duty.",
+    ),
+    marginalia: l(
+      "咲夜在紅魔館派遣令上把八小時值勤改成零分鐘，慧音又在旁邊補回八小時學分；妖夢問半靈要不要另發一本護照，幽幽子建議先各蓋半枚印。霖之助替護照鑑定出『外界摺頁集章冊』的用途並標價，靈夢立即在封面加蓋『不得抵香油錢』。阿求最後用紅線註明：返校印只證明你把問題帶回來，不證明問題變乖了。",
+      "咲夜は紅魔館派遣令の八時間当番を0分へ直し、慧音が横に八時間分の単位を戻した。妖夢は半霊へ別旅券が必要か尋ね、幽々子はまず半印ずつ押すよう提案。霖之助は旅券を「外界の折頁スタンプ帳」と鑑定して値札を付け、霊夢は表紙へ「賽銭に充当不可」と押印。阿求の赤糸注記は一つ。帰校印は問題を持ち帰った証明であり、問題がおとなしくなった証明ではない。",
+      "Sakuya changes an eight-hour Scarlet dispatch to zero minutes; Keine restores eight hours of credit beside it. Youmu asks whether her phantom half needs another passport, and Yuyuko proposes half a seal in each. Rinnosuke appraises the passport as an Outside World folding stamp album and prices it; Reimu stamps “not valid toward donations” on the cover. Akyuu's red-thread note says only this: a return seal proves the problem came home, not that it became obedient.",
     ),
   },
 ];

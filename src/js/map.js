@@ -5,6 +5,7 @@ import { navigateToDeepLink } from "./deep-links.js";
 import { liveCampusSnapshot, liveFacilityStatus, liveMapNotice } from "../data/live-campus.js";
 import { phantasmGateHint, phantasmGateProgress } from "./phantasm-gate.js";
 import { festivalRouteOverlay } from "./festival-model.js";
+import { fieldworkMapNotice } from "./fieldwork-model.js";
 
 function campusRoutingState() {
   const state = liveCampusSnapshot();
@@ -359,7 +360,8 @@ export function initCampusMap() {
     const festivalNote = festival.active
       ? `　${festival.notices.map((item) => item[locale]).join(" ")}`
       : "";
-    if (text) text.textContent = `${notice.text}${festivalNote}${ninth}`;
+    const fieldworkNote = fieldworkMapNotice(locale);
+    if (text) text.textContent = `${notice.text}${festivalNote}${fieldworkNote ? `　${fieldworkNote}` : ""}${ninth}`;
     if (entrance) {
       entrance.hidden = !hint.href;
       entrance.href = hint.href || "";
@@ -381,6 +383,7 @@ export function initCampusMap() {
     renderPlanner();
     renderNotice();
   });
+  window.addEventListener("tu:fieldworkchange", renderNotice);
   render(currentPlace);
   renderPlanner();
   renderNotice();

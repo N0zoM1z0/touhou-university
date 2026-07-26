@@ -40,6 +40,8 @@ The research follows the method already established in
   export/import, deletion boundaries and scope language.
 - `research-ethics-board-notes.md` — five independent review seats, five
   ability/object disputes, non-averaged rulings and protocol lifecycle.
+- `fieldwork-passport-notes.md` — 24 station dossiers, character frictions,
+  dispatch/complication/return lifecycle, provenance and passport seals.
 
 ## Internal editorial labels
 

@@ -267,6 +267,28 @@ Status: implemented in 0.25.0.
 - follow-up: multi-day volunteer rosters, stall stock ledgers and a second
   night whose route inherits unresolved objections from the first
 
+## Batch 16 — Domestic placement and field-inquiry passport
+
+Status: implemented in 0.26.0.
+
+- 24 trilingual field stations across eight regions, including the Scarlet
+  Devil Mansion, Hakugyokurou, Kourindou, Eientei, Chireiden and the Blazing
+  Hell ruins; every file carries entry rules, supervisor/friction, risk,
+  ethics, equipment, work, sources, route conditions and a distinct seal
+- autosaved dispatch questions with ability and exit plans; approval and
+  conditional approval remain qualitative and never collapse risk into a score
+- check-in, one of 12 rotating complications, three non-equivalent first
+  responses, provenance-aware return logs, incident annexes and explicit
+  research-data disposition
+- printable dispatch, return and passport files; first visits and repeat seals
+  coexist, while My TU, map notices, full-site search, BBS, records and five
+  causal events project the same lifecycle
+- Hieda dossier 10 links Scarlet timekeeping, Hakugyokurou phantom headcounts,
+  Kourindou object testimony, Chireiden unsubmitted thought, local events and
+  the exact first-parent chronicle version
+- follow-up: supervisor countersignatures across two devices, multi-day
+  placements and route handoff between neighbouring stations
+
 ## Cross-cutting tracks
 
 - official document generator grows alongside every lifecycle feature

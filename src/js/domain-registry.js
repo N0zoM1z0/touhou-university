@@ -13,6 +13,7 @@ import { appraisalObjects } from "../data/appraisal.js";
 import { spellPatterns } from "../data/spellcard-workshop.js";
 import { ethicsCases, ethicsOutcomeLabels } from "../data/ethics.js";
 import { festivalKinds, festivalLocalized, festivalRoutes } from "../data/festival.js";
+import { fieldworkLocalized, fieldworkStations } from "../data/fieldwork.js";
 import { phantasmCourses } from "../data/phantasm.js";
 import {
   dossiersForCharacter,
@@ -33,6 +34,7 @@ import {
   festivalOutcomeLabels,
   festivalPlans,
 } from "./festival-model.js";
+import { fieldworkCommunityPosts, fieldworkPlacements } from "./fieldwork-model.js";
 import { phantasmCommunityPosts } from "./phantasm-model.js";
 import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
 
@@ -150,6 +152,36 @@ const domainManifests = [
     community: festivalCommunityPosts,
     communityPriority: 66,
     changeEvents: ["tu:festivalchange"],
+  },
+  {
+    id: "fieldwork",
+    search(locale) {
+      return [
+        ...fieldworkStations.map((station) =>
+          entry(
+            `fieldwork-station-${station.id}`,
+            "fieldwork",
+            `${station.code} · ${fieldworkLocalized(station.name, locale)}`,
+            `${fieldworkLocalized(station.premise, locale)} · ${fieldworkLocalized(station.supervisor, locale)}`,
+            station,
+            79,
+          )),
+        ...fieldworkPlacements().map((placement) => {
+          const station = fieldworkStations.find(({ id }) => id === placement.stationId);
+          return entry(
+            `fieldwork-placement-${placement.id}`,
+            "fieldwork",
+            `${station?.code || "FW"} · ${fieldworkLocalized(station?.name, locale)}`,
+            `${placement.id} · ${placement.status}`,
+            placement,
+            85,
+          );
+        }),
+      ];
+    },
+    community: fieldworkCommunityPosts,
+    communityPriority: 68,
+    changeEvents: ["tu:fieldworkchange"],
   },
   {
     id: "campus",

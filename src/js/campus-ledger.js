@@ -100,6 +100,7 @@ function legacyEvents() {
   const ethicsReviews = readJson("tu:ethics:reviews", []);
   const festivalPlans = readJson("tu:festival:plans", []);
   const festivalOperations = readJson("tu:festival:operations", []);
+  const fieldworkPlacements = readJson("tu:fieldwork:placements", []);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -620,6 +621,70 @@ function legacyEvents() {
           attendance: operation.report.attendance,
           clinicArrivals: operation.report.clinicArrivals,
           disposition: operation.report.disputes ? "contested" : "closed",
+        },
+      });
+    }
+  }
+  for (const placement of Array.isArray(fieldworkPlacements) ? fieldworkPlacements : []) {
+    if (!placement?.id || !placement?.stationId || !placement?.createdAt) continue;
+    const base = {
+      placementId: placement.id,
+      stationId: placement.stationId,
+    };
+    events.push({
+      id: `fieldwork.application.submitted:${placement.id}`,
+      type: "fieldwork.application.submitted",
+      timestamp: placement.createdAt,
+      payload: {
+        ...base,
+        outcome: placement.permit?.outcome || placement.status || "conditional",
+        departureDate: placement.draft?.departureDate,
+      },
+    });
+    if (placement.startedAt) {
+      events.push({
+        id: `fieldwork.departure.checked:${placement.id}`,
+        type: "fieldwork.departure.checked",
+        timestamp: placement.startedAt,
+        payload: { ...base, travelMode: placement.draft?.travelMode || "foot" },
+      });
+    }
+    if (placement.respondedAt && placement.complicationId && placement.responseId) {
+      events.push({
+        id: `fieldwork.complication.handled:${placement.id}`,
+        type: "fieldwork.complication.handled",
+        timestamp: placement.respondedAt,
+        payload: {
+          ...base,
+          complicationId: placement.complicationId,
+          responseId: placement.responseId,
+          standing: placement.responseOutcome,
+        },
+      });
+    }
+    if (placement.log?.submittedAt) {
+      events.push({
+        id: `fieldwork.observation.logged:${placement.id}`,
+        type: "fieldwork.observation.logged",
+        timestamp: placement.log.submittedAt,
+        payload: {
+          ...base,
+          sourceKind: placement.log.sourceKind,
+          incidentKind: placement.log.incidentKind,
+          researchChoice: placement.log.researchChoice,
+        },
+      });
+    }
+    if (placement.completedAt && placement.stampId) {
+      events.push({
+        id: `fieldwork.return.certified:${placement.id}`,
+        type: "fieldwork.return.certified",
+        timestamp: new Date(new Date(placement.completedAt).getTime() + 1).toISOString(),
+        payload: {
+          ...base,
+          stampId: placement.stampId,
+          standing: placement.review?.standing || "conditional",
+          credits: placement.credits || 0,
         },
       });
     }

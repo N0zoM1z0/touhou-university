@@ -19,6 +19,7 @@ import {
   festivalReviewDesks,
   festivalRoutes,
 } from "./festival.js";
+import { fieldworkComplications, fieldworkStations } from "./fieldwork.js";
 
 const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
@@ -180,6 +181,18 @@ export const knowledgeCharacters = Object.freeze([
     glyph: "聽",
     name: l("豐聰耳神子", "豊聡耳神子", "Toyosatomimi no Miko"),
     role: l("同時聽十份開幕辭、公共秩序，以及堅稱正門先到先用", "十の開幕辞の同時聴取・公共秩序・正門は先着順という主張", "Hearing ten opening speeches at once, public order, and insisting the gate is first-come first-served"),
+  },
+  {
+    id: "youmu",
+    glyph: "半",
+    name: l("魂魄妖夢", "魂魄妖夢", "Youmu Konpaku"),
+    role: l("庭園值勤、幽靈點名，以及半人半靈究竟算一人還是一組", "庭園当番・幽霊点呼・半人半霊を一名か一組か数える問題", "Garden duty, phantom roll call, and whether half-human half-phantom counts as one or a pair"),
+  },
+  {
+    id: "yuyuko",
+    glyph: "幽",
+    name: l("西行寺幽幽子", "西行寺幽々子", "Yuyuko Saigyouji"),
+    role: l("白玉樓宴席、幽靈人口，以及在點名結束後才承認自己一直在場", "白玉楼の宴・幽霊人口・点呼後に最初から居たと認めること", "Hakugyokurou feasts, phantom populations, and admitting after roll call that she was present all along"),
   },
 ]);
 
@@ -492,6 +505,46 @@ export const knowledgeDossiers = Object.freeze([
       record("festival-history", "archive", "history", "six-desks-open-one-contested-gate", ["akyuu", "reimu", "nitori", "eirin", "aya", "kanako", "byakuren", "miko"], l("校史記下運營室開桌，也把結祭後仍未解決的正門異議夾在下一屆申請表前。", "大学史は運営室の開机と、閉祭後も未解決の正門異議を次年度申請書の前へ綴じた。", "The chronicle records the operations room opening and files the unresolved gate objection ahead of next year's application.")),
     ],
   },
+  {
+    id: "fieldwork-twenty-four-seals",
+    glyph: "旅",
+    code: "HIEDA / 10",
+    title: l(
+      "二十四枚場地印：哪一枚證明你真的回來？",
+      "二十四の現地印：どの印が本当に帰った証明か",
+      "Twenty-four field seals: which one proves you truly returned?",
+    ),
+    lead: l(
+      "紅魔館的值班簿、白玉樓的幽靈點名與香霖堂的物件陳述都可成為田野來源；沒有一份能替另一份承認你看見了什麼。",
+      "紅魔館の当直簿、白玉楼の幽霊点呼、香霖堂の物件陳述はいずれも現地資料となるが、互いに観察内容を承認することはできない。",
+      "The Scarlet duty log, Hakugyokurou phantom roll, and Kourindou object testimony may all be field sources; none can certify what another says you observed.",
+    ),
+    tension: l(
+      "慧音要出發前寫清問題；咲夜的零分鐘值班卻讓日期失效；妖夢數完幽靈後，幽幽子又問自己是否算在宴席裡；阿求只好把爭議用紅線和印章一起裝訂。",
+      "慧音は出発前の問いを要求するが、咲夜の0分当番は日付を無効にする。妖夢が幽霊を数え終えると、幽々子は自分が宴席人数に入るか尋ねる。阿求は争議を赤糸と印で綴じる。",
+      "Keine requires a question before departure; Sakuya's zero-minute shift voids the date; after Youmu counts the phantoms, Yuyuko asks whether she was included at dinner. Akyuu binds the dispute beside the seal.",
+    ),
+    characters: ["akyuu", "keine", "sakuya", "patchouli", "rinnosuke", "satori", "youmu", "yuyuko"],
+    versions: ["twenty-four-seals-return-with-red-thread", "translation-keys-tie-the-red-ledger-thread", "five-records-share-one-red-thread"],
+    eventQueries: [{
+      types: [
+        "fieldwork.application.submitted",
+        "fieldwork.departure.checked",
+        "fieldwork.complication.handled",
+        "fieldwork.observation.logged",
+        "fieldwork.return.certified",
+      ],
+      refs: [],
+    }],
+    records: [
+      record("scarlet-duty", "evidence", "fieldwork-station", "scarlet-devil-mansion", ["sakuya", "patchouli"], l("咲夜的值班簿有完整順序卻沒有經過時間；帕秋莉要求實習生不要把兩者平均成『大概準時』。", "咲夜の当直簿は順序が完全だが経過時間はない。パチュリーは二つを平均して「だいたい定刻」にしないよう要求。", "Sakuya's duty book has a complete sequence and no elapsed time; Patchouli forbids averaging both into “roughly punctual.”")),
+      record("phantom-roll", "evidence", "fieldwork-station", "hakugyokurou", ["youmu", "yuyuko"], l("妖夢把幽靈分成在場、穿過、正在被吃與堅稱只是花瓣四欄；幽幽子在第五欄簽名。", "妖夢は幽霊を在席・通過・食事中・花弁だと主張の四欄へ分類。幽々子は第五欄に署名。", "Youmu sorts phantoms into present, passing, being eaten, and insisting they are petals; Yuyuko signs a fifth column.")),
+      record("object-statement", "object", "fieldwork-station", "kourindou", ["rinnosuke"], l("霖之助可鑑定名稱；用途仍由磨損、物件意見與一張過度自信的標價互相爭論。", "霖之助は名称を鑑定できるが、用途は摩耗・物件の意見・自信過剰な値札が争う。", "Rinnosuke may identify a name; wear, the object's view, and an overconfident price tag still dispute its use.")),
+      record("unsubmitted-thought", "ethics", "fieldwork-station", "chireiden", ["satori"], l("覺讀到的內容不會因沒有落筆而不存在；也不會因她讀到了就自動取得研究用途。", "さとりが読んだ内容は非記録でも不存在にはならず、読まれたことで研究利用可能にもならない。", "What Satori reads does not cease to exist because unwritten, nor become research-eligible merely because she read it.")),
+      record("ghost-headcount", "correction", "fieldwork-complication", "ghost-headcount", ["youmu", "yuyuko", "akyuu"], l("幽靈名冊在點名後多出三位、少掉兩份半靈；訂正沒有改總數，只把數法夾在旁邊。", "幽霊名簿は点呼後に三名増え半霊二体減少。訂正は総数を変えず数え方を横へ綴じた。", "The phantom roll gains three and loses two half-phantoms after call; Corrections preserves the total and files the counting method beside it.")),
+      record("fieldwork-history", "archive", "history", "twenty-four-seals-return-with-red-thread", ["akyuu", "keine", "sakuya", "youmu"], l("校史只把派遣、偏差、來源與返校印串成前因；它沒有把蓋章改寫成現場同意你的結論。", "大学史は派遣・偏差・資料源・帰校印を前因で結ぶだけで、押印を現地による結論同意へ書き換えない。", "The chronicle links dispatch, complication, provenance, and return seal by cause; it does not rewrite stamping as the field agreeing with your conclusion.")),
+    ],
+  },
 ]);
 
 const sourceCollections = {
@@ -512,6 +565,8 @@ const sourceCollections = {
   "festival-gate": festivalGatePlans,
   "festival-desk": festivalReviewDesks,
   "festival-incident": festivalIncidentPool,
+  "fieldwork-station": fieldworkStations,
+  "fieldwork-complication": fieldworkComplications,
 };
 
 const localized = (value, locale) => value?.[locale] || value?.["zh-Hant"] || value || "";
@@ -538,6 +593,8 @@ function routeForSource(source) {
     "festival-gate": "festival-operations",
     "festival-desk": "festival-operations",
     "festival-incident": "festival-operations",
+    "fieldwork-station": `fieldwork-station-${source.id}`,
+    "fieldwork-complication": "fieldwork-stations",
   };
   return routes[source.type] || "top";
 }
@@ -639,6 +696,14 @@ export function resolveKnowledgeRecord(recordEntry, locale = "zh-Hant") {
     case "festival-incident":
       title = localized(source.title, locale);
       detail = localized(source.body, locale);
+      break;
+    case "fieldwork-station":
+      title = localized(source.name, locale);
+      detail = `${source.code} · ${localized(source.supervisor, locale)}`;
+      break;
+    case "fieldwork-complication":
+      title = localized(source.title, locale);
+      detail = localized(source.detail, locale);
       break;
     default:
       return null;

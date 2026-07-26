@@ -293,6 +293,35 @@ const contracts = [
     causedBy: ["ethics.review.completed"],
     references: related(["ethics-case", "caseId"]),
   }),
+  define("fieldwork.application.submitted", l("提交境內實習派遣令", "境内実習派遣令を提出", "Submitted a fieldwork dispatch order"), {
+    subject: by("fieldwork-placement", "placementId"), required: ["placementId", "stationId", "outcome"],
+    correlation: (payload) => `fieldwork-placement:${payload?.placementId || ""}`,
+    references: related(["fieldwork-station", "stationId"]),
+  }),
+  define("fieldwork.departure.checked", l("核驗入口並開始田野值勤", "入口を確認し現地当番を開始", "Verified entry and began field duty"), {
+    subject: by("fieldwork-placement", "placementId"), required: ["placementId", "stationId", "travelMode"],
+    correlation: (payload) => `fieldwork-placement:${payload?.placementId || ""}`,
+    causedBy: ["fieldwork.application.submitted"],
+    references: related(["fieldwork-station", "stationId"], ["fieldwork-travel-mode", "travelMode"]),
+  }),
+  define("fieldwork.complication.handled", l("處理田野現場偏差", "フィールド現場偏差へ初動", "Handled a field complication"), {
+    subject: by("fieldwork-placement", "placementId"), required: ["placementId", "stationId", "complicationId", "responseId"],
+    correlation: (payload) => `fieldwork-placement:${payload?.placementId || ""}`,
+    causedBy: ["fieldwork.departure.checked"],
+    references: related(["fieldwork-station", "stationId"], ["fieldwork-complication", "complicationId"], ["fieldwork-response", "responseId"]),
+  }),
+  define("fieldwork.observation.logged", l("提交田野觀察與來源鏈", "フィールド観察・来歴鎖を提出", "Submitted field observation and provenance"), {
+    subject: by("fieldwork-placement", "placementId"), required: ["placementId", "stationId", "sourceKind", "incidentKind"],
+    correlation: (payload) => `fieldwork-placement:${payload?.placementId || ""}`,
+    causedBy: ["fieldwork.complication.handled"],
+    references: related(["fieldwork-station", "stationId"], ["fieldwork-source-kind", "sourceKind"], ["fieldwork-incident-kind", "incidentKind"]),
+  }),
+  define("fieldwork.return.certified", l("完成返校驗收並取得場地印", "帰校認証を終え現地印を取得", "Certified return and received a field seal"), {
+    subject: by("fieldwork-placement", "placementId"), required: ["placementId", "stationId", "stampId", "standing"],
+    correlation: (payload) => `fieldwork-placement:${payload?.placementId || ""}`,
+    causedBy: ["fieldwork.observation.logged"],
+    references: related(["fieldwork-station", "stationId"], ["fieldwork-passport-stamp", "stampId"]),
+  }),
 ];
 
 export const campusEventContracts = Object.freeze(

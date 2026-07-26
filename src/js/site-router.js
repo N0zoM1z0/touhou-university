@@ -7,6 +7,7 @@ const pageFiles = {
   research: "research.html",
   ethics: "ethics.html",
   festival: "festival.html",
+  fieldwork: "fieldwork.html",
   campus: "campus.html",
   mytu: "mytu.html",
   library: "library.html",
@@ -28,6 +29,7 @@ export function pageForRoute(route = "") {
   if (/^(?:research|spellcard)(?:-|$)/.test(route)) return "research";
   if (/^ethics(?:-|$)/.test(route)) return "ethics";
   if (/^festival(?:-|$)/.test(route)) return "festival";
+  if (/^fieldwork(?:-|$)/.test(route)) return "fieldwork";
   if (/^incident(?:-|$)/.test(route)) return "incidents";
   if (/^(?:live-campus|governance|map(?:-|$)|campus(?:-|$)|bbs(?:-|$)|club-)/.test(route)) return "campus";
   if (/^(?:my-tu|course-registration|course-|academic-)/.test(route)) return "mytu";

@@ -58,6 +58,7 @@ const copy = {
     spellcards: "符卡設計／答辯",
     ethics: "研究倫理／五席審查",
     festivals: "祭典許可／值班履歷",
+    fieldwork: "田野護照／場地印",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     academicMode: "作業、考試與答辯",
@@ -171,6 +172,7 @@ const copy = {
     spellcards: "スペルカード設計／答弁",
     ethics: "研究倫理／五席審査",
     festivals: "祭典許可／当番履歴",
+    fieldwork: "フィールド旅券／現地印",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     academicMode: "課題・試験・答弁",
@@ -279,6 +281,7 @@ const copy = {
     spellcards: "Spell-card designs / defences",
     ethics: "Research ethics / five-seat review",
     festivals: "Festival permits / duty record",
+    fieldwork: "Fieldwork passport / seals",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     academicMode: "Work, exams & defences",
@@ -426,6 +429,8 @@ function allRecords() {
   const ethicsReviews = readJson("tu:ethics:reviews", []);
   const festivalPlans = readJson("tu:festival:plans", []);
   const festivalOperations = readJson("tu:festival:operations", []);
+  const fieldworkPlacements = readJson("tu:fieldwork:placements", []);
+  const fieldworkPassport = readJson("tu:fieldwork:passport", null);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
@@ -459,6 +464,7 @@ function allRecords() {
     examCount,
     drafts: drafts + housingDraft + clinicDraft + spellcardDraft + ethicsDraftCount
       + Number(Boolean(readJson("tu:festival:draft", null)))
+      + Number(Boolean(readJson("tu:fieldwork:draft", null)))
       + Object.keys(appraisalDrafts && typeof appraisalDrafts === "object" && !Array.isArray(appraisalDrafts) ? appraisalDrafts : {}).length,
     courseSummary,
     activeLibrary,
@@ -480,6 +486,8 @@ function allRecords() {
       + (Array.isArray(ethicsReviews) ? ethicsReviews.length : 0),
     festivalRecords: (Array.isArray(festivalPlans) ? festivalPlans.length : 0)
       + (Array.isArray(festivalOperations) ? festivalOperations.length : 0),
+    fieldworkRecords: (Array.isArray(fieldworkPlacements) ? fieldworkPlacements.length : 0)
+      + (Array.isArray(fieldworkPassport?.stamps) ? fieldworkPassport.stamps.length : 0),
     localFiles,
   };
 }
@@ -685,6 +693,9 @@ function eventLabel(event, locale, c) {
   if (event.type.startsWith("festival.")) {
     return `${base} · ${payload.operationId || payload.planId || payload.incidentId || ""}`;
   }
+  if (event.type.startsWith("fieldwork.")) {
+    return `${base} · ${payload.stationId || payload.placementId || payload.stampId || ""}`;
+  }
   return base;
 }
 
@@ -801,6 +812,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="research.html#spellcard-records"><span>${c.spellcards}</span><strong>${records.spellcardRecords}</strong></a>
           <a href="ethics.html#ethics-records"><span>${c.ethics}</span><strong>${records.ethicsRecords}</strong></a>
           <a href="festival.html#festival-records"><span>${c.festivals}</span><strong>${records.festivalRecords}</strong></a>
+          <a href="fieldwork.html#fieldwork-passport"><span>${c.fieldwork}</span><strong>${records.fieldworkRecords}</strong></a>
           <a href="records.html#data-cabinet"><span>${c.cabinetSummary}</span><strong>${records.localFiles}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>

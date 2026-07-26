@@ -74,6 +74,16 @@ export const localRecordGroups = [
     ),
   },
   {
+    id: "fieldwork",
+    mark: "旅",
+    title: l("境內實習護照", "境内実習旅券", "Fieldwork passport"),
+    note: l(
+      "派遣草稿、外勤處置、返校回報與二十四站印章。",
+      "派遣下書き、現地初動、帰校報告、二十四実習所の印。",
+      "Dispatch drafts, field responses, return reports, and seals from twenty-four stations.",
+    ),
+  },
+  {
     id: "preferences",
     mark: "栞",
     title: l("介面書籤", "画面の栞", "Interface bookmarks"),
@@ -165,6 +175,10 @@ export const localRecordRegistry = [
   record("tu:ethics:drafts", "research", l("研究倫理送審草稿", "研究倫理申請下書き", "Research ethics drafts"), { kind: "draft" }),
   record("tu:ethics:protocols", "research", l("研究倫理計畫與版本", "研究倫理計画・版", "Research ethics protocols & versions")),
   record("tu:ethics:reviews", "research", l("五席倫理審查意見", "五席倫理審査意見", "Five-seat ethics reviews")),
+
+  record("tu:fieldwork:draft", "fieldwork", l("境內實習派遣草稿", "境内実習派遣下書き", "Fieldwork dispatch draft"), { kind: "draft" }),
+  record("tu:fieldwork:placements", "fieldwork", l("派遣、外勤與返校卷", "派遣・現地当番・帰校記録", "Dispatch, field duty & return files")),
+  record("tu:fieldwork:passport", "fieldwork", l("田野調查護照與場地印", "フィールド調査旅券・現地印", "Field inquiry passport & station seals")),
 
   record("tu:locale", "preferences", l("網站語言", "サイト言語", "Site language"), { kind: "preference", scope: "interface", encoding: "text" }),
   record("tu:audience", "preferences", l("訪客導覽入口", "訪問者向け案内入口", "Audience path"), { kind: "preference", scope: "interface", encoding: "text" }),

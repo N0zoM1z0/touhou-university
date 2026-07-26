@@ -1450,6 +1450,134 @@ try {
     `Festival permits and closing extras did not reach linked BBS views (${JSON.stringify(festivalBbs)}).`,
   );
 
+  await navigate("fieldwork.html#fieldwork-station-scarlet-devil-mansion", ".fieldwork-station-file");
+  const fieldworkStation = await cdp.evaluate(`({
+    hash: location.hash,
+    station: document.querySelector('.fieldwork-station-file')?.id,
+    tasks: document.querySelectorAll('.fieldwork-station-file .fieldwork-file-lists li').length,
+    apply: Boolean(document.querySelector('[data-fieldwork-apply="scarlet-devil-mansion"]')),
+    overflow: document.documentElement.scrollWidth > window.innerWidth
+  })`);
+  check(
+    fieldworkStation.hash === "#fieldwork-station-scarlet-devil-mansion"
+      && fieldworkStation.station === "fieldwork-station-scarlet-devil-mansion"
+      && fieldworkStation.tasks >= 6
+      && fieldworkStation.apply
+      && !fieldworkStation.overflow,
+    `Scarlet field-station deep link did not open the exact work file (${JSON.stringify(fieldworkStation)}).`,
+  );
+  const fieldworkPermit = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-fieldwork-apply="scarlet-devil-mansion"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const form = document.querySelector('[data-fieldwork-form]');
+    form.elements.fieldName.value = '外界路線實習生';
+    form.elements.purpose.value = '比較紅魔館值班簿事件順序與外界鐘面時間，並完整保留兩者不一致之處。';
+    form.querySelectorAll('input[name="equipment"]').forEach((input) => { input.checked = true; });
+    form.elements.ethicsAcknowledged.checked = true;
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const placement = JSON.parse(localStorage.getItem('tu:fieldwork:placements') || '[]').at(-1);
+    return {
+      hash: location.hash,
+      placement,
+      printable: Boolean(document.querySelector('[data-fieldwork-print]')),
+      checkin: Boolean(document.querySelector('[data-fieldwork-checkin]'))
+    };
+  })()`);
+  check(
+    fieldworkPermit.hash.startsWith("#fieldwork-placement-")
+      && fieldworkPermit.placement?.stationId === "scarlet-devil-mansion"
+      && fieldworkPermit.placement?.draft?.equipment?.length === 3
+      && fieldworkPermit.printable
+      && fieldworkPermit.checkin,
+    `Fieldwork draft did not become a printable Scarlet dispatch order (${JSON.stringify(fieldworkPermit)}).`,
+  );
+  const fieldworkLive = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-fieldwork-checkin]')?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    return {
+      hash: location.hash,
+      complication: Boolean(document.querySelector('.fieldwork-live-file')),
+      responses: document.querySelectorAll('[data-fieldwork-response]').length
+    };
+  })()`);
+  check(
+    fieldworkLive.hash.startsWith("#fieldwork-placement-")
+      && fieldworkLive.complication
+      && fieldworkLive.responses === 3,
+    `Field check-in did not reveal one three-response complication (${JSON.stringify(fieldworkLive)}).`,
+  );
+  await navigate("campus.html#map", "[data-map-notice]");
+  check(
+    await cdp.evaluate("document.querySelector('[data-map-notice]')?.textContent.includes('紅魔館')"),
+    "Active field duty did not enter the campus map notice.",
+  );
+  await navigate(`fieldwork.html${fieldworkLive.hash}`, "[data-fieldwork-app]");
+  const fieldworkReturn = await cdp.evaluate(`(async () => {
+    const response = document.querySelector('[data-fieldwork-response]');
+    if (!response) return { error: 'missing-response', hash: location.hash, text: document.querySelector('[data-fieldwork-app]')?.textContent?.slice(0, 120) };
+    response.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const form = document.querySelector('[data-fieldwork-return]');
+    if (!form) return { error: 'missing-return-form', hash: location.hash, text: document.querySelector('[data-fieldwork-app]')?.textContent?.slice(0, 120) };
+    form.elements.observation.value = '我先按值班簿記下事件順序，再以外界鐘面另列經過時間；咲夜在兩次讀值之間完成七項工作，因此沒有把零分鐘改寫成沒有工作。';
+    form.elements.sourceKind.value = 'mixed';
+    form.elements.sourceNote.value = '紅魔館東側值班簿第七版、門廳外界機械鐘與咲夜本人陳述分開保存，三者未合併。';
+    form.elements.evidenceCode.value = 'FW-06-OBS-01';
+    form.elements.incidentKind.value = 'publication';
+    form.elements.incidentNote.value = '文文。新聞返校前已把現場寫成零分鐘實習，附刊號與時間。';
+    form.elements.researchChoice.value = 'allowed';
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const placement = JSON.parse(localStorage.getItem('tu:fieldwork:placements') || '[]').at(-1);
+    const passport = JSON.parse(localStorage.getItem('tu:fieldwork:passport') || 'null');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      status: placement?.status,
+      standing: placement?.review?.standing,
+      stamps: passport?.stamps?.length,
+      report: Boolean(document.querySelector('.fieldwork-report')),
+      print: Boolean(document.querySelector('[data-fieldwork-print]')),
+      events: ledger.filter((event) => event.type.startsWith('fieldwork.')).length
+    };
+  })()`);
+  check(
+    fieldworkReturn.status === "completed"
+      && fieldworkReturn.stamps === 1
+      && fieldworkReturn.report
+      && fieldworkReturn.print
+      && fieldworkReturn.events === 5,
+    `Fieldwork did not close into a stamped, printable, causal return file (${JSON.stringify(fieldworkReturn)}).`,
+  );
+  await navigate("fieldwork.html#fieldwork-passport", ".fieldwork-passport-book");
+  const fieldworkPassport = await cdp.evaluate(`({
+    stations: document.querySelectorAll('.fieldwork-stamp-grid button').length,
+    stored: JSON.parse(localStorage.getItem('tu:fieldwork:passport') || 'null')?.stamps?.length,
+    printable: Boolean(document.querySelector('[data-fieldwork-print]')),
+    title: document.querySelector('.fieldwork-passport-book h3')?.textContent || ''
+  })`);
+  check(
+    fieldworkPassport.stations === 1
+      && fieldworkPassport.stored === 1
+      && fieldworkPassport.printable
+      && fieldworkPassport.title.includes("護照"),
+    `Passport did not retain the Scarlet field seal (${JSON.stringify(fieldworkPassport)}).`,
+  );
+  await navigate("campus.html#bbs", "[data-bbs-list]");
+  const fieldworkBbs = await cdp.evaluate(`(() => {
+    const posts = [...document.querySelectorAll('.fieldwork-post')];
+    posts[0]?.querySelector('.bbs-row-trigger')?.click();
+    return {
+      posts: posts.length,
+      linked: posts.every((post) => Boolean(post.querySelector('.incident-linked')?.textContent.trim())),
+      action: document.querySelector('[data-info-action]')?.textContent || ''
+    };
+  })()`);
+  check(
+    fieldworkBbs.posts >= 2 && fieldworkBbs.linked && /派遣|返校/.test(fieldworkBbs.action),
+    `Fieldwork dispatch and return did not reach linked BBS views (${JSON.stringify(fieldworkBbs)}).`,
+  );
+
   await navigate("housing.html#housing-residence-misty-north", "[data-housing-app]");
   const housingResidence = await cdp.evaluate(`({
     page: document.body.dataset.page,
@@ -1807,6 +1935,8 @@ try {
       ethicsEvents: ledger.filter((event) => event.type.startsWith('ethics.')).length,
       festivalLink: document.querySelector('.mytu-summary a[href*="#festival-records"]')?.textContent || '',
       festivalEvents: ledger.filter((event) => event.type.startsWith('festival.')).length,
+      fieldworkLink: document.querySelector('.mytu-summary a[href*="#fieldwork-passport"]')?.textContent || '',
+      fieldworkEvents: ledger.filter((event) => event.type.startsWith('fieldwork.')).length,
       housingLink: document.querySelector('.mytu-summary a[href^="housing.html"]')?.textContent || '',
       housingEvents: ledger.filter((event) => event.type.startsWith('housing.')).length,
       incidentLink: document.querySelector('.mytu-summary a[href^="incidents.html"]')?.textContent || '',
@@ -1822,6 +1952,7 @@ try {
   check(/符卡|答辯/.test(myTuLibrary.spellcardLink) && myTuLibrary.spellcardEvents === 2, "Spell-card design and defence are missing from My TU.");
   check(/倫理|五席/.test(myTuLibrary.ethicsLink) && myTuLibrary.ethicsEvents === 5, "Ethics protocols, reviews, amendments, and withdrawal are missing from My TU.");
   check(/祭典|值班/.test(myTuLibrary.festivalLink) && myTuLibrary.festivalEvents === 8, "Festival permit, duty, field cases, and closure are missing from My TU.");
+  check(/田野|場地印/.test(myTuLibrary.fieldworkLink) && myTuLibrary.fieldworkEvents === 5, "Fieldwork passport, return seal, and causal events are missing from My TU.");
   check(/宿舍|換房/.test(myTuLibrary.housingLink), "My TU does not link to the housing record.");
   check(myTuLibrary.housingEvents >= 3, "Housing actions are missing from the My TU campus ledger.");
   check(/事件研究|結案/.test(myTuLibrary.incidentLink) && myTuLibrary.incidentEvents >= 4 && myTuLibrary.contestedEvent, "Normal and contested incident work is missing from My TU.");
@@ -1831,7 +1962,7 @@ try {
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -2375,7 +2506,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -2418,7 +2549,7 @@ try {
   check(
     mobileMenu.expanded === "true"
       && mobileMenu.visible
-      && mobileMenu.links === 16
+      && mobileMenu.links === 17
       && mobileMenu.backgroundInert
       && mobileFocus,
     "Mobile navigation did not open completely or move keyboard focus into its modal layer.",
@@ -2429,7 +2560,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, six-desk festival permits/live routes/clinic load/field closure, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, six-desk festival permits/live routes/clinic load/field closure, 24-station fieldwork dispatch/complication/return/passport/BBS linkage, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();
