@@ -409,6 +409,8 @@ records.push(
   ["pageMyTuTitle", "學籍、選課與校園履歷", "学籍・履修・キャンパス履歴", "Records, Registration & Campus History"],
   ["pageMyTuLead", "這台裝置記得你的申請、試驗、課程與校園事件；資料不必離開瀏覽器。", "この端末は出願、試験、履修、学内の出来事を記憶します。データはブラウザを離れません。", "This device remembers applications, exams, courses, and campus events; the data need not leave the browser."],
   ["pageLibraryTitle", "霧湖圖書館", "霧の湖図書館", "Misty Lake Library"],
+  ["appraisalNav", "漂流物鑑定", "漂流物鑑定", "Drift-Object Appraisal"],
+  ["appraisalSectionTitle", "外界漂流物鑑定所", "外界漂流物鑑定所", "Outside World Drift-Object Appraisal Office"],
   ["pageClinicTitle", "永遠亭校醫院", "永遠亭校医院", "Eientei Campus Medical Center"],
   ["pageLibraryLead", "館藏可能飛離書架、拒絕原位置或只在滿月可見；索書號與你的借閱紀錄仍會留下。", "蔵書は棚から飛び、元の位置を拒み、満月だけ見えることがあります。それでも請求記号と貸出記録は残ります。", "Books may fly from shelves, refuse their old position, or appear only at full moon; call numbers and your loan record remain."],
   ["pageHousingTitle", "宿舍、房間與室友", "学生寮・部屋・同室者", "Housing, Rooms & Roommates"],

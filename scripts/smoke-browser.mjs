@@ -812,6 +812,116 @@ try {
   })()`);
   check(librarySearch.selected === "three-yesterdays" && !librarySearch.searchOpen && librarySearch.hash === "#library-three-yesterdays", "Library search result did not open its same-page holding.");
 
+  await navigate("library.html#appraisal-object-thermal-printer", "[data-appraisal-app]");
+  await eventually(() => cdp.evaluate("document.querySelectorAll('[data-appraisal-object]').length === 8"));
+  const appraisalObjectCount = await cdp.evaluate("document.querySelectorAll('[data-appraisal-object]').length");
+  const supportedAppraisal = await cdp.evaluate(`(async () => {
+    const settle = () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    for (const selector of [
+      '[data-appraisal-evidence="slot"]',
+      '[data-appraisal-evidence="residue"]',
+      '[data-appraisal-evidence="marks"]',
+      '[data-appraisal-hypothesis="label-printer"]',
+      '[data-appraisal-test="raking-light"]',
+      '[data-appraisal-test="paper-scrap"]'
+    ]) {
+      document.querySelector(selector).click();
+      await settle();
+    }
+    const use = document.querySelector('[data-appraisal-field="useId"]');
+    use.value = 'shelf-labels';
+    use.dispatchEvent(new Event('change', { bubbles: true }));
+    await settle();
+    document.querySelector('[data-appraisal-destination="library"]').click();
+    await settle();
+    const note = document.querySelector('[data-appraisal-note]');
+    note.value = '保留未知電壓與物流標籤重複序號，不能因紙屑變黑就直接接上河童發電機。';
+    note.dispatchEvent(new InputEvent('input', { bubbles: true, data: note.value, inputType: 'insertText' }));
+    await new Promise((resolve) => setTimeout(resolve, 240));
+    document.querySelector('[data-appraisal-form]').requestSubmit();
+    await settle();
+    const records = JSON.parse(localStorage.getItem('tu:appraisal:records') || '[]');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      record: records.at(-1),
+      recordVisible: Boolean(document.querySelector('.appraisal-record')),
+      ledger: ledger.filter((event) => event.type.startsWith('appraisal.')).length,
+      hash: location.hash
+    };
+  })()`);
+  check(
+    appraisalObjectCount === 8
+      && supportedAppraisal.record?.verdict === "supported"
+      && supportedAppraisal.record?.destinationId === "library"
+      && supportedAppraisal.recordVisible
+      && supportedAppraisal.ledger === 2
+      && supportedAppraisal.hash.startsWith("#appraisal-record-"),
+    "Supported drift-object appraisal did not save, catalogue, enter My TU ledger, or open its shareable record.",
+  );
+
+  await navigate("library.html#appraisal-object-single-earbud", "[data-appraisal-app]");
+  const contestedAppraisal = await cdp.evaluate(`(async () => {
+    const settle = () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    for (const selector of [
+      '[data-appraisal-evidence="mesh"]',
+      '[data-appraisal-evidence="contacts"]',
+      '[data-appraisal-hypothesis="dream-seed"]',
+      '[data-appraisal-test="case-impression"]'
+    ]) {
+      document.querySelector(selector).click();
+      await settle();
+    }
+    const use = document.querySelector('[data-appraisal-field="useId"]');
+    use.value = 'quiet-exhibit';
+    use.dispatchEvent(new Event('change', { bubbles: true }));
+    await settle();
+    document.querySelector('[data-appraisal-destination="kourindou"]').click();
+    await settle();
+    const agency = document.querySelector('[data-appraisal-field="agencyId"]');
+    agency.value = 'stirring';
+    agency.dispatchEvent(new Event('change', { bubbles: true }));
+    await settle();
+    document.querySelector('[data-appraisal-form]').requestSubmit();
+    await new Promise((resolve) => setTimeout(resolve, 40));
+    const dialog = document.querySelector('[data-appraisal-retention-dialog]');
+    dialog.querySelector('select[name="reviewerId"]').value = 'kogasa';
+    dialog.querySelector('textarea[name="retentionReason"]').value = '它把「只剩一半」理解成只播放一半夢境，雖然不成立，卻值得保留為遺忘工具如何描述缺失的證詞。';
+    dialog.querySelector('input[name="confirmed"]').checked = true;
+    dialog.querySelector('[data-appraisal-retention-form]').requestSubmit();
+    await settle();
+    const records = JSON.parse(localStorage.getItem('tu:appraisal:records') || '[]');
+    return {
+      dialogOpened: dialog.open === false,
+      record: records.at(-1),
+      warning: document.querySelector('.appraisal-contested-warning')?.textContent || '',
+      hash: location.hash
+    };
+  })()`);
+  check(
+    contestedAppraisal.dialogOpened
+      && contestedAppraisal.record?.disposition === "contested"
+      && contestedAppraisal.record?.verdict === "unsupported"
+      && contestedAppraisal.record?.reviewerId === "kogasa"
+      && contestedAppraisal.warning.includes("未獲支持")
+      && contestedAppraisal.hash.startsWith("#appraisal-record-"),
+    "Unsupported drift-object theory was not explicitly retained as a visible contested record.",
+  );
+
+  await navigate("campus.html#bbs", "[data-bbs-list]");
+  const appraisalBbs = await cdp.evaluate(`(() => {
+    const posts = [...document.querySelectorAll('[data-bbs-id^="appraisal-"]')];
+    posts[0]?.querySelector('.bbs-row-trigger')?.click();
+    return {
+      posts: posts.length,
+      dialogOpen: document.querySelector('[data-info-dialog]').open,
+      action: document.querySelector('[data-info-action]')?.textContent || ''
+    };
+  })()`);
+  check(
+    appraisalBbs.posts === 2 && appraisalBbs.dialogOpen && appraisalBbs.action.includes("漂流物"),
+    "Completed drift-object appraisals did not generate linked BBS reactions.",
+  );
+
   await navigate("housing.html#housing-residence-misty-north", "[data-housing-app]");
   const housingResidence = await cdp.evaluate(`({
     page: document.body.dataset.page,
@@ -1014,8 +1124,8 @@ try {
   await navigate(contestedFlow.bbsHref, "#bbs");
   await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-info-dialog]')?.open)"));
   const contestedBbs = await cdp.evaluate(`({
-    posts: document.querySelectorAll('.contested-post').length,
-    label: document.querySelector('.contested-post .incident-linked')?.textContent || '',
+    posts: document.querySelectorAll('.contested-post.incident-post').length,
+    label: document.querySelector('.contested-post.incident-post .incident-linked')?.textContent || '',
     warning: document.querySelector('[data-info-summary]')?.textContent || document.querySelector('[data-info-dialog]')?.textContent || ''
   })`);
   check(contestedBbs.posts === 3 && contestedBbs.label.includes("紅線"), "Contested closure did not generate three visibly red-thread BBS posts.");
@@ -1161,6 +1271,8 @@ try {
     return {
       libraryLink: document.querySelector('.mytu-summary a[href^="library.html"]')?.textContent || '',
       libraryEvents: ledger.filter((event) => event.type.startsWith('book.')).length,
+      appraisalLink: document.querySelector('.mytu-summary a[href*="#appraisal-records"]')?.textContent || '',
+      appraisalEvents: ledger.filter((event) => event.type.startsWith('appraisal.')).length,
       housingLink: document.querySelector('.mytu-summary a[href^="housing.html"]')?.textContent || '',
       housingEvents: ledger.filter((event) => event.type.startsWith('housing.')).length,
       incidentLink: document.querySelector('.mytu-summary a[href^="incidents.html"]')?.textContent || '',
@@ -1172,6 +1284,7 @@ try {
   })()`);
   check(mytuLibraryLinkOkay(myTuLibrary.libraryLink), "My TU does not link to the library record.");
   check(myTuLibrary.libraryEvents >= 3, "Library actions are missing from the My TU campus ledger.");
+  check(/鑑定|漂流物/.test(myTuLibrary.appraisalLink) && myTuLibrary.appraisalEvents >= 3, "Drift-object appraisal records are missing from My TU.");
   check(/宿舍|換房/.test(myTuLibrary.housingLink), "My TU does not link to the housing record.");
   check(myTuLibrary.housingEvents >= 3, "Housing actions are missing from the My TU campus ledger.");
   check(/事件研究|結案/.test(myTuLibrary.incidentLink) && myTuLibrary.incidentEvents >= 4 && myTuLibrary.contestedEvent, "Normal and contested incident work is missing from My TU.");
@@ -1216,6 +1329,7 @@ try {
     ["mytu.html#academic-grades", "#academic-grades"],
     ["clinic.html#clinic-recovery", "#clinic-recovery"],
     ["library.html#library-flying-index", "#library-flying-index"],
+    ["library.html#appraisal-object-frozen-reader", "#library-appraisal"],
     ["housing.html#housing-residence-misty-north", "#housing-residence-misty-north"],
     ["incidents.html#incident-case-fourth-lantern-loop", "#incident-case-fourth-lantern-loop"],
   ];

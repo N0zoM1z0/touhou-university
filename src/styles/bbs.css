@@ -248,6 +248,18 @@
   color: #2e6b54;
 }
 
+.appraisal-post {
+  background:
+    linear-gradient(90deg, rgba(126, 91, 51, 0.15), transparent 40%),
+    var(--paper-light);
+}
+
+.appraisal-post .bbs-category,
+.appraisal-post .incident-linked {
+  border-color: rgba(126, 91, 51, 0.55);
+  color: #76502f;
+}
+
 .bbs-replies {
   color: #8b8379;
   font-size: 8px;

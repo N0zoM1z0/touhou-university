@@ -133,6 +133,26 @@ Status: implemented in 0.16.0.
   browser regression suite owns actual behaviour, printable content and
   historically observed failures
 
+## Batch 9 — Kourindou drift-object appraisal
+
+Status: implemented in 0.17.0.
+
+- eight trilingual Outside World object dossiers with physical condition,
+  observations, competing original-use hypotheses, non-invasive tests and
+  plausible new lives in Gensokyo
+- a shared Kourindou/library bench where Rinnosuke, Ran, Nitori and Kogasa
+  remain usefully incompatible over names, provenance, mechanisms,
+  disassembly and object agency
+- per-object autosave, retained records and direct links to every object and
+  completed appraisal
+- explicit red-pencil preservation for an interesting unsupported hypothesis;
+  reviewer, reason, confirmation and the unsupported verdict must travel
+  together into the archive and BBS
+- live desk conditions, My TU/ledger integration, full-site search and derived
+  library/BBS discussion
+- follow-up: visitor-submitted object sketches, cross-record provenance chains,
+  repair-lab appointments and seasonal Outside World drift batches
+
 ## Cross-cutting tracks
 
 - official document generator grows alongside every lifecycle feature

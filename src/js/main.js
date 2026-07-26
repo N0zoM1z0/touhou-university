@@ -84,6 +84,7 @@ if (!redirected) {
     initialize("[data-eientei-focus]", "./eientei-map.js", "initEienteiMap"),
     initialize("[data-chronicle-open]", "./chronicle.js", "initCampusChronicle"),
     initialize("[data-library-app]", "./library.js", "initLibrary"),
+    initialize("[data-appraisal-app]", "./appraisal.js", "initAppraisal"),
     initialize("[data-clinic-app]", "./clinic.js", "initClinic"),
     initialize("[data-housing-app]", "./housing.js", "initHousing"),
     initialize("[data-incident-app]", "./incidents.js", "initIncidents"),

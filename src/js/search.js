@@ -9,6 +9,7 @@ import { libraryHoldings } from "../data/library.js";
 import { residences, roommateProfiles } from "../data/housing.js";
 import { incidentCases } from "../data/incidents.js";
 import { clinicMedicines, clinicTherapies } from "../data/clinic.js";
+import { appraisalObjects } from "../data/appraisal.js";
 import { getLocale } from "./i18n.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { currentPage, pageForRoute, siteHref } from "./site-router.js";
@@ -44,6 +45,7 @@ const copy = {
       housing: "住宿",
       incident: "事件",
       clinic: "校醫院",
+      appraisal: "漂流物鑑定",
     },
   },
   ja: {
@@ -70,6 +72,7 @@ const copy = {
       housing: "学生寮",
       incident: "事案",
       clinic: "校医院",
+      appraisal: "漂流物鑑定",
     },
   },
   en: {
@@ -96,6 +99,7 @@ const copy = {
       housing: "Housing",
       incident: "Incident",
       clinic: "Medical center",
+      appraisal: "Drift-object appraisal",
     },
   },
 };
@@ -112,6 +116,7 @@ const sectionEntries = [
   ["academic-grades", "course", ["本機學業成績單", "端末内成績表", "On-device academic transcript"], ["作業、考試、答辯與可列印回條", "課題・試験・答弁・印刷用記録", "Assignments, exams, defences, and printable records"]],
   ["academic-defense", "course", ["論文／符卡答辯", "論文／スペルカード答弁", "Thesis / spell-card defence"], ["研究計畫、三人委員會、公開三問與裁定", "研究計画・三名委員会・公開三問・裁定", "Project dossier, three examiners, public questions, and ruling"]],
   ["library", "section", ["霧湖圖書館", "霧の湖図書館", "Misty Lake Library"], ["館藏搜尋、借閱、續借、歸還與預約", "蔵書検索・貸出・更新・返却・予約", "Search, borrow, renew, return, and place holds"]],
+  ["library-appraisal", "appraisal", ["香霖堂 × 霧湖外界漂流物鑑定所", "香霖堂 × 霧の湖 外界漂流物鑑定所", "Kourindou × Misty Lake Drift-Object Appraisal Office"], ["觀察材質與磨損、提出原用途、進行非侵入測試並保存訂正", "材質・摩耗観察、元用途仮説、非侵襲試験、訂正保存", "Observe material and wear, propose original use, run non-invasive tests, and retain corrections"]],
   ["clinic", "clinic", ["永遠亭校醫院與校醫務室", "永遠亭校医院・保健室", "Eientei Hospital & campus infirmary"], ["本機分診、動態候診、跨種族診療與轉介", "端末内トリアージ・動的待合・種族横断診療・紹介", "On-device triage, live queue, cross-species care, and referrals"]],
   ["clinic-pharmacy", "clinic", ["月藥調劑室與處方", "月薬調剤室・処方", "Lunar Pharmacy & prescriptions"], ["幻想鄉藥品、領藥、用藥記錄與可列印回條", "幻想郷薬・調剤・服用記録・印刷票", "Gensokyo medicines, dispensing, dose records, and printable slips"]],
   ["clinic-recovery", "clinic", ["康復療法與復診", "回復療法・再診", "Recovery therapies & follow-up"], ["彈幕肩翼、境界定位、月相降載、幽體同步與妖精核心", "弾幕肩翼・境界定位・月相低刺激・幽体同期・妖精核", "Danmaku shoulder-wing, boundary anchoring, lunar recovery, phantom sync, and fairy cores"]],
@@ -292,6 +297,16 @@ function buildIndex() {
       description: `${holding.author[locale]} · ${holding.note[locale]}`,
       source: holding,
       priority: 68,
+    }));
+  });
+  appraisalObjects.forEach((object) => {
+    index.push(makeEntry({
+      route: `appraisal-object-${object.id}`,
+      category: "appraisal",
+      title: `${object.code} · ${object.name[locale]}`,
+      description: `${object.workingTitle[locale]} · ${object.condition[locale]}`,
+      source: object,
+      priority: 70,
     }));
   });
   residences.forEach((residence) => {

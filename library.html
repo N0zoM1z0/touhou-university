@@ -153,7 +153,7 @@
           <div><p>MISTY LAKE LIBRARY</p><h1 id="page-title">霧湖圖書館</h1></div>
           <p>館藏可能飛離書架、拒絕原位置或只在滿月可見；索書號與你的借閱紀錄仍會留下。</p>
         </div>
-        <nav class="page-local-nav" aria-label="霧湖圖書館"><a href="#library">館藏與借閱</a></nav>
+        <nav class="page-local-nav" aria-label="霧湖圖書館"><a href="#library">館藏與借閱</a><a href="#library-appraisal">漂流物鑑定</a></nav>
       </div>
     </section>
       <section class="library-section" id="library" aria-labelledby="library-title">
@@ -162,6 +162,18 @@
     <p>館藏目錄正在展開。</p>
   </div>
 </section>
+<section class="appraisal-section" id="library-appraisal" aria-labelledby="appraisal-title">
+  <span class="section-route-anchor" id="appraisal-records" aria-hidden="true"></span>
+  <h2 class="visually-hidden" id="appraisal-title">外界漂流物鑑定所</h2>
+  <div class="container" data-appraisal-app></div>
+</section>
+
+<dialog class="appraisal-retention-dialog" data-appraisal-retention-dialog>
+  <form method="dialog" data-appraisal-retention-form>
+    <button class="dialog-close" type="button" data-appraisal-retention-close aria-label="關閉">×</button>
+    <div data-appraisal-retention-content></div>
+  </form>
+</dialog>
     </main>
 
     <footer class="site-footer" id="fanwork">

@@ -10,6 +10,7 @@ import { liveCampusSnapshot, seededPostCreatedAt } from "../data/live-campus.js"
 import { governanceCommunityPosts } from "./governance-model.js";
 import { academicCommunityPosts } from "./academic-model.js";
 import { clinicCommunityPosts } from "./clinic-model.js";
+import { appraisalCommunityPosts } from "./appraisal-model.js";
 
 const labels = {
   "zh-Hant": {
@@ -43,10 +44,12 @@ const labels = {
     governanceLinked: "議事鐘連動",
     academicLinked: "答辯連動",
     clinicLinked: "校醫院連動",
+    appraisalLinked: "漂流物鑑定連動",
     openCase: "查看結案案卷",
     openGovernance: "查看校務提案",
     openAcademic: "查看答辯與成績",
     openClinic: "查看診療與處方",
+    openAppraisal: "查看漂流物案卷",
   },
   ja: {
     course: "授業",
@@ -79,10 +82,12 @@ const labels = {
     governanceLinked: "議事鐘連動",
     academicLinked: "答弁連動",
     clinicLinked: "校医院連動",
+    appraisalLinked: "漂流物鑑定連動",
     openCase: "終結記録を見る",
     openGovernance: "学務提案を見る",
     openAcademic: "答弁・成績を見る",
     openClinic: "診療・処方を見る",
+    openAppraisal: "漂流物記録を見る",
   },
   en: {
     course: "Courses",
@@ -115,10 +120,12 @@ const labels = {
     governanceLinked: "Governance-linked",
     academicLinked: "Defence-linked",
     clinicLinked: "Hospital-linked",
+    appraisalLinked: "Drift-appraisal-linked",
     openCase: "Open closure record",
     openGovernance: "Open governance proposal",
     openAcademic: "Open defence & grades",
     openClinic: "Open care & prescriptions",
+    openAppraisal: "Open drift-object file",
   },
 };
 
@@ -150,6 +157,49 @@ function relativeTime(createdAt, localeLabels) {
   if (minutes >= 1_440) return `${Math.floor(minutes / 1_440)} ${localeLabels.days}`;
   if (minutes >= 60) return `${Math.floor(minutes / 60)} ${localeLabels.hours}`;
   return `${minutes} ${localeLabels.minutes}`;
+}
+
+function linkedPostAction(post, l) {
+  if (post.incidentId) {
+    return {
+      label: l.openCase,
+      handler: () => window.location.assign(siteHref(`incident-case-${post.incidentId}`)),
+    };
+  }
+  if (post.governanceId) {
+    return {
+      label: l.openGovernance,
+      handler: () => window.location.assign(siteHref("governance")),
+    };
+  }
+  if (post.academicRoute) {
+    return {
+      label: l.openAcademic,
+      handler: () => window.location.assign(siteHref(post.academicRoute)),
+    };
+  }
+  if (post.clinicRoute) {
+    return {
+      label: l.openClinic,
+      handler: () => window.location.assign(siteHref(post.clinicRoute)),
+    };
+  }
+  if (post.appraisalRoute) {
+    return {
+      label: l.openAppraisal,
+      handler: () => window.location.assign(siteHref(post.appraisalRoute)),
+    };
+  }
+  return undefined;
+}
+
+function linkedPostLabel(post, l) {
+  if (post.contested) return l.contestedFile;
+  if (post.governance) return l.governanceLinked;
+  if (post.academic) return l.academicLinked;
+  if (post.clinic) return l.clinicLinked;
+  if (post.appraisal) return l.appraisalLinked;
+  return l.incidentLinked;
 }
 
 export function initBbs() {
@@ -187,27 +237,7 @@ export function initBbs() {
         l.status,
         post.contested ? l.contestedFile : post.local ? l.local : post.time,
       ],
-      action: post.incidentId
-        ? {
-            label: l.openCase,
-            handler: () => window.location.assign(siteHref(`incident-case-${post.incidentId}`)),
-          }
-        : post.governanceId
-          ? {
-              label: l.openGovernance,
-              handler: () => window.location.assign(siteHref("governance")),
-            }
-        : post.academicRoute
-          ? {
-              label: l.openAcademic,
-              handler: () => window.location.assign(siteHref(post.academicRoute)),
-            }
-        : post.clinicRoute
-          ? {
-              label: l.openClinic,
-              handler: () => window.location.assign(siteHref(post.clinicRoute)),
-            }
-        : undefined,
+      action: linkedPostAction(post, l),
     });
   }
 
@@ -215,7 +245,7 @@ export function initBbs() {
     const locale = getLocale();
     const l = labels[locale];
     const article = document.createElement("article");
-    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}${post.clinic ? " clinic-post" : ""}`;
+    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}${post.clinic ? " clinic-post" : ""}${post.appraisal ? " appraisal-post" : ""}`;
     article.dataset.bbsCategory = post.category;
     article.dataset.bbsId = post.id;
     if (post.local) article.dataset.userPost = "";
@@ -234,15 +264,7 @@ export function initBbs() {
     if (post.generated) {
       const linked = document.createElement("span");
       linked.className = "incident-linked";
-      linked.textContent = post.contested
-        ? l.contestedFile
-        : post.governance
-          ? l.governanceLinked
-          : post.academic
-            ? l.academicLinked
-            : post.clinic
-              ? l.clinicLinked
-            : l.incidentLinked;
+      linked.textContent = linkedPostLabel(post, l);
       title.append(linked, " ");
     }
     title.append(post.title);
@@ -306,7 +328,11 @@ export function initBbs() {
       ...post,
       time: relativeTime(post.createdAt, l),
     }));
-    return [...userPosts.reverse(), ...clinicPosts, ...academicPosts, ...governancePosts, ...incidentPosts, ...seeds];
+    const appraisalPosts = appraisalCommunityPosts(locale).map((post) => ({
+      ...post,
+      time: relativeTime(post.createdAt, l),
+    }));
+    return [...userPosts.reverse(), ...appraisalPosts, ...clinicPosts, ...academicPosts, ...governancePosts, ...incidentPosts, ...seeds];
   }
 
   function findPost(id) {
@@ -463,6 +489,7 @@ export function initBbs() {
   window.addEventListener("tu:governancechange", renderPosts);
   window.addEventListener("tu:academicchange", renderPosts);
   window.addEventListener("tu:clinicchange", renderPosts);
+  window.addEventListener("tu:appraisalchange", renderPosts);
   chooseSeedPosts();
   renderPosts();
   clockTimer = window.setInterval(() => {

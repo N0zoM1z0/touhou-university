@@ -38,6 +38,11 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - a real Misty Lake Library catalogue with 19 trilingual holdings, search and
   state/risk/collection filters, course-reserve access, borrowing, holds,
   renewals, returns, retained history and printable loan receipts;
+- a Kourindou × Misty Lake Library drift-object appraisal office with eight
+  complete trilingual object dossiers, competing original-use hypotheses,
+  non-invasive tests, new Gensokyo uses, destination and object-agency
+  decisions, autosaved drafts, retained shareable records and visibly
+  contested-but-never-established conclusions;
 - a complete residential-life system with five trilingual residence files,
   twelve concrete rooms, nine potential roommate profiles, autosaved needs,
   explained compatibility and friction, three ranked offers, accept/pass
@@ -125,6 +130,7 @@ npm run check               # build + i18n coverage + JS syntax
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
+npm run check:appraisal     # drift objects, evidence, hypotheses, tests, reuse and reviewer records
 npm run check:housing       # residences, rooms, features, roommate profiles and translations
 npm run check:incidents     # case structure, translations, evidence, actions and BBS reactions
 npm run check:clinic        # sites, complaints, medicines, therapies, links and translations
@@ -167,6 +173,11 @@ Set a different preview port with `PORT=4180 npm run dev`.
 - Keep library metadata in `src/data/library.js`; loans and holds use
   `tu:library:loans` and `tu:library:holds`, retaining completed history on the
   visitor's device.
+- Keep drift-object dossiers in `src/data/appraisal.js`, assessment and
+  persistence in `src/js/appraisal-model.js`, and the workbench in
+  `src/js/appraisal.js`. Drafts and records use `tu:appraisal:drafts` and
+  `tu:appraisal:records`; unsupported conclusions require explicit contested
+  retention and must remain labelled unsupported in My TU and BBS.
 - Keep residences, rooms and roommate profiles in `src/data/housing.js`;
   housing persistence and matching live in `src/js/housing-model.js`.
   Applications, assignments and transfer requests stay in the
