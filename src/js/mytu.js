@@ -9,6 +9,7 @@ import {
 import { academicGradebook } from "./academic-model.js";
 import { initAcademicDocumentDialog, renderAcademicWorkbench } from "./academic-work.js";
 import { getLocale } from "./i18n.js";
+import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
 import { printDocument } from "./print-document.js";
 import { showToast } from "./ui.js";
 import { safeDecodeFragment } from "./url-state.js";
@@ -804,6 +805,50 @@ function renderTimeline(locale, c) {
     </section>`;
 }
 
+function renderPhantasmTrace(locale) {
+  const progress = phantasmGateProgress();
+  if (progress.count < 2) return "";
+  const state = phantasmGateState();
+  const words = {
+    "zh-Hant": {
+      eyebrow: "TIMETABLE REVERSE / 未登錄側記",
+      title: progress.eligible ? "第九節點名簿已寫下你的名字。" : "課表背面有一行不屬於本學期。",
+      body: progress.eligible
+        ? "六枚普通校務印章在同一張紙的反面重疊。教務系統找不到教室，北樓梯卻已開始點名。"
+        : `目前有 ${progress.count} 枚印章透過紙面；第九行仍被教務處劃掉。`,
+      action: state.unlockedAt ? "返回第九節" : "查看點名簿反面",
+      closed: "教室欄：尚未承認",
+    },
+    ja: {
+      eyebrow: "TIMETABLE REVERSE / 未登録欄外",
+      title: progress.eligible ? "第九時限の点呼簿があなたの名を書いた。" : "時間割の裏に今学期ではない一行がある。",
+      body: progress.eligible
+        ? "六つの通常学務印が同じ紙の裏で重なった。システムは教室を見つけられないが、北階段は点呼を始めている。"
+        : `現在${progress.count}個の印が透け、第九行はまだ学務に消されている。`,
+      action: state.unlockedAt ? "第九時限へ戻る" : "点呼簿の裏を見る",
+      closed: "教室欄：未承認",
+    },
+    en: {
+      eyebrow: "TIMETABLE REVERSE / UNREGISTERED MARGINALIA",
+      title: progress.eligible ? "The ninth-period roll has written your name." : "A row on the timetable's reverse does not belong to this term.",
+      body: progress.eligible
+        ? "Six ordinary administrative seals overlap on the reverse of one sheet. The system cannot find a room; the north stair has begun roll call."
+        : `${progress.count} seals currently show through; Academic Affairs still crosses out row nine.`,
+      action: state.unlockedAt ? "Return to ninth period" : "Inspect the roll's reverse",
+      closed: "Room field: not yet admitted",
+    },
+  };
+  const w = words[locale] || words["zh-Hant"];
+  return `
+    <aside class="mytu-phantasm-trace ${progress.eligible ? "is-ready" : ""}">
+      <span aria-hidden="true">九</span>
+      <div><p>${w.eyebrow}</p><h3>${w.title}</h3><small>${w.body}</small></div>
+      ${progress.eligible
+        ? `<a href="phantasm.html#phantasm-campus">${w.action}<b aria-hidden="true">↘</b></a>`
+        : `<i>${w.closed}</i>`}
+    </aside>`;
+}
+
 function renderDashboard(identity, records, locale, c) {
   const selectedStored = window.localStorage.getItem(SELECTED_APPLICATION_KEY);
   const selectedApplication = records.applications.find((record) => record.id === selectedStored) || records.applications.at(-1);
@@ -854,6 +899,7 @@ function renderDashboard(identity, records, locale, c) {
         </div>
       </section>
     </div>
+    ${renderPhantasmTrace(locale)}
     ${
       records.applications.length > 1
         ? `<label class="mytu-application-select">${c.chooseApplication}

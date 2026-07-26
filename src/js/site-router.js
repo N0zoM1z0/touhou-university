@@ -11,6 +11,7 @@ const pageFiles = {
   clinic: "clinic.html",
   housing: "housing.html",
   incidents: "incidents.html",
+  phantasm: "phantasm.html",
 };
 
 export function currentPage() {
@@ -27,6 +28,7 @@ export function pageForRoute(route = "") {
   if (/^(?:library|appraisal)(?:-|$)/.test(route)) return "library";
   if (/^clinic(?:-|$)/.test(route)) return "clinic";
   if (/^housing(?:-|$)/.test(route)) return "housing";
+  if (/^phantasm(?:-|$)/.test(route)) return "phantasm";
   return "home";
 }
 

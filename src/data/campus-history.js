@@ -551,10 +551,9 @@ export const campusHistory = [
   {
     id: "six-seals-refuse-one-average",
     archiveId: "TU-H-023",
-    commit: null,
+    commit: "d61eb1fd632525c8beaffec9c39083fa21a3746a",
     commitSubject: "Add interactive spell-card ethics workshop",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "academics",
     era: l("翌日・月影試演刻", "翌日・月影試演刻", "Next day · Moon-shadow Demonstration Watch"),
     title: l(
@@ -571,6 +570,31 @@ export const campusHistory = [
       "文先把「附帶條件通過」排成「通過」，再把條件塞進第二版小字。靈夢用朱繩把兩版綁在一起，魔理沙稱這提高了重現性；妖精合唱團則在繩結旁加註：排練時間也屬於方法。",
       "文は「条件付き可決」を先に「可決」と組み、条件を第二版の小字へ移した。霊夢は二版を朱縄で結び、魔理沙は再現性が上がったと評価。妖精合唱団は結び目へ「稽古時間も方法に含む」と追記した。",
       "Aya typeset “conditionally approved” as “approved,” moving the conditions into edition two’s fine print. Reimu tied both editions together with vermilion cord; Marisa called that improved reproducibility. The fairy chorus added beside the knot: rehearsal time is part of the method.",
+    ),
+  },
+  {
+    id: "ninth-period-takes-attendance",
+    archiveId: "TU-H-024",
+    commit: null,
+    commitSubject: "Add hidden Phantasm dream campus",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "boundary",
+    era: l("同夜・不存在的第九校鐘", "同夜・存在しない第九校鐘", "Same night · The nonexistent ninth bell"),
+    title: l(
+      "六枚印章從紙背透出，第九節開始替未選的路點名",
+      "六つの印が紙裏から透け、第九時限が選ばなかった道を点呼",
+      "Six seals bleed through the page; ninth period calls the routes not taken",
+    ),
+    summary: l(
+      "一份批改過的答案、一張已投選票、一宗已結事件、一扇拒絕過的房門、一門退選課與答辯中親筆承認的未行路線，在校務紙背湊齊六枚印章。此後夢境校務處才承認有另一座校區：少數票在影子議場通過，被排除的假說成為正史，拒絕過的室友追問夜歸時間，退選課則在不存在的第九節照常點名。多蕾米、紫、慧音與靈夢主持反向答辯，但所有選課與裁定只准寫進夢境學籍副本；正式帳本拒絕承認自己做過這場夢。",
+      "採点済み答案、投じた票、終結事案、断った部屋、取消科目、そして答弁で自筆した未踏経路が、学務用紙の裏に六つの印を揃えた。その時だけ夢学務室は別キャンパスを認める。少数票は影の評議会で可決され、退けた仮説が正史となり、断った同室者は門限を問い、取消科目は存在しない第九時限に点呼を続ける。ドレミー、紫、慧音、霊夢が逆向き答弁を行うが、履修も裁定も夢の学籍副本にしか記せない。正式台帳は、この夢を見たこと自体を否認した。",
+      "A marked answer, cast ballot, closed incident, declined room, dropped course, and unused route written into a defence form six seals on the back of an ordinary record. Only then does Dream Affairs admit another campus exists: the minority option passes in the Shadow Senate, an excluded hypothesis becomes history, a declined roommate asks about curfew, and a dropped course continues in nonexistent ninth period. Doremy, Yukari, Keine, and Reimu conduct the reverse viva, but every enrolment and ruling may enter only the dream transcript. The official ledger denies having had the dream.",
+    ),
+    marginalia: l(
+      "阿求為這頁預留編號，翌晨卻只找到一張寫著「TU-DREAM-TRANSCRIPT」的反面影印。靈夢在「不得於夢境邊界外使用」旁蓋了校印，又補一句：也不得拿來抵正式學費。紫認為後一句才是唯一真正的邊界。",
+      "阿求は頁番号を予約したが、翌朝に残ったのは「TU-DREAM-TRANSCRIPT」とある裏面複写だけ。霊夢は「夢境界外では無効」の脇へ校印を押し、「正規学費にも充当不可」と追記。紫は後者こそ唯一の本当の境界だと言った。",
+      "Akyuu reserved a page number, but by morning found only a reverse-side copy marked TU-DREAM-TRANSCRIPT. Reimu stamped “Not valid outside the dream boundary,” then added: not valid toward ordinary tuition either. Yukari called the second clause the only genuine boundary.",
     ),
   },
 ];

@@ -672,6 +672,34 @@
   grid-column: 1 / -1;
 }
 
+.academic-project-form label small {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.65;
+}
+
+.academic-unused-route {
+  margin: 18px 0 0;
+  padding: 16px 18px;
+  color: #5c5260;
+  border: 1px dashed rgba(92, 66, 103, 0.32);
+  background: rgba(101, 74, 113, 0.055);
+}
+
+.academic-unused-route b {
+  color: #78597f;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+}
+
+.academic-unused-route p {
+  margin: 7px 0 0;
+  font-family: var(--font-serif);
+  font-size: 14px;
+  line-height: 1.75;
+}
+
 .academic-defence-form > header,
 .academic-defence-result > header {
   display: flex;

@@ -3,6 +3,7 @@ import { findCampusRoute, transportModes } from "../data/routes.js";
 import { getLocale } from "./i18n.js";
 import { navigateToDeepLink } from "./deep-links.js";
 import { liveCampusSnapshot, liveFacilityStatus, liveMapNotice } from "../data/live-campus.js";
+import { phantasmGateProgress } from "./phantasm-gate.js";
 
 export function initCampusMap() {
   const detail = document.querySelector(".map-detail");
@@ -309,10 +310,19 @@ export function initCampusMap() {
   });
   const renderNotice = () => {
     const notice = liveMapNotice(getLocale());
+    const trace = phantasmGateProgress();
+    const locale = getLocale();
+    const ninth = trace.count >= 3
+      ? (locale === "ja"
+        ? `　欄外：北階段の第九打は本日の通行時間へ算入しない（裏面の印 ${trace.count}）。`
+        : locale === "en"
+          ? ` Marginal note: the north stair's ninth strike does not count toward today's journey time (${trace.count} seals on reverse).`
+          : `　頁邊補記：北樓梯第九響不計入本日通行時間（背面 ${trace.count} 枚印）。`)
+      : "";
     const label = document.querySelector("[data-map-notice-label]");
     const text = document.querySelector("[data-map-notice]");
     if (label) label.textContent = notice.label;
-    if (text) text.textContent = notice.text;
+    if (text) text.textContent = `${notice.text}${ninth}`;
   };
   window.addEventListener("resize", () => {
     if (!currentRoute) return;

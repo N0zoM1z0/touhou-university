@@ -13,10 +13,14 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
-- ten generated, shareable pages for the home portal, academics, admissions,
-  research, campus incidents, campus life, My TU, the Misty Lake Library,
-  housing and campus healthcare, with legacy one-page hashes redirected to
-  their new canonical locations;
+- ten ordinary generated, shareable pages for the home portal, academics,
+  admissions, research, campus incidents, campus life, My TU, the Misty Lake
+  Library, housing and campus healthcare, with legacy one-page hashes
+  redirected to their new canonical locations;
+- one deliberately unlisted PHANTASM page that opens only after six different
+  student-lifecycle choices leave reverse-side seals; its ninth-period
+  courses, shifting dream map, reverse public defence and `TU-DREAM-TRANSCRIPT`
+  remain in a separate dream ledger that cannot alter official My TU records;
 - online application with autosaved drafts, application references and a
   device-local application history;
 - a My TU student-record centre with an on-device campus identity, unified
@@ -115,7 +119,7 @@ src/
   sections/   page partials, one institutional section per file
   styles/     base and feature-specific stylesheets
 scripts/      build, preview, validation, scaffolding and asset helpers
-*.html        ten generated GitHub Pages artifacts
+*.html        eleven generated GitHub Pages artifacts; one is deliberately hidden
 styles.css    generated shared CSS artifact
 styles-*.css  generated per-page CSS artifacts
 site.config.mjs
@@ -130,13 +134,14 @@ modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate ten pages and shared/per-page CSS bundles
+npm run build               # generate eleven pages and shared/per-page CSS bundles
 npm run check               # build + i18n coverage + JS syntax
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
 npm run check:appraisal     # drift objects, evidence, hypotheses, tests, reuse and reviewer records
 npm run check:spellcards    # patterns, venues, six independent reviewers and public-defence choices
+npm run check:phantasm      # six hard seals, hidden route, dream courses/map and ledger isolation
 npm run check:housing       # residences, rooms, features, roommate profiles and translations
 npm run check:incidents     # case structure, translations, evidence, actions and BBS reactions
 npm run check:clinic        # sites, complaints, medicines, therapies, links and translations
@@ -190,6 +195,15 @@ Set a different preview port with `PORT=4180 npm run dev`.
   Canvas/UI belongs in `src/js/spellcard-workshop.js`. Do not collapse six
   conflicting reviews into one fairness score. Drafts, sealed versions and
   defences use the three `tu:spellcards:*` records.
+- Keep PHANTASM seals, courses, map nodes and examiners in
+  `src/data/phantasm.js`; official-record eligibility and isolated dream
+  persistence belong in `src/js/phantasm-model.js`; ordinary-site whispers use
+  the lightweight `src/js/phantasm-gate.js` and
+  `src/js/phantasm-hints.js`; the hidden page UI belongs in
+  `src/js/phantasm.js`. Never add `phantasm.html` to the ordinary navigation,
+  never let a direct URL bypass all six seals, and never write dream enrolment
+  or defence records to `tu:campus:ledger`. Dream state and transcripts use
+  only `tu:phantasm:state` and `tu:phantasm:transcripts`.
 - Keep residences, rooms and roommate profiles in `src/data/housing.js`;
   housing persistence and matching live in `src/js/housing-model.js`.
   Applications, assignments and transfer requests stay in the

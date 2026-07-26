@@ -2,6 +2,7 @@ const records = [
   ["fanworkNotice", "東方Project 非官方二次創作企劃", "東方Project 非公式二次創作企画", "Unofficial Touhou Project fan work"],
   ["aboutSite", "關於本站", "このサイトについて", "About this site"],
   ["universityName", "幻想鄉立東方大學", "幻想郷立東方大学", "Touhou University of Gensokyo"],
+  ["phantasmLoading", "點名簿正在確認自己是否見過你。", "点呼簿は、あなたを見たことがあるか確認中。", "The roll is checking whether it remembers you."],
   ["navAbout", "學校介紹", "大学紹介", "About"],
   ["navAcademics", "學術單位", "学部・研究科", "Academics"],
   ["navFaculty", "師資", "教員", "Faculty"],

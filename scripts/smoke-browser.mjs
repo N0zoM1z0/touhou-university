@@ -142,7 +142,22 @@ try {
   await Promise.all([cdp.call("Runtime.enable"), cdp.call("Log.enable"), cdp.call("Page.enable")]);
   await navigate("index.html", "body");
   await cdp.evaluate("localStorage.clear(); true");
+  await navigate("phantasm.html#phantasm-campus", "[data-phantasm-app]");
+  const lockedPhantasm = await cdp.evaluate(`({
+    gate: Boolean(document.querySelector('.phantasm-gate')),
+    seals: document.querySelectorAll('.phantasm-seal').length,
+    campus: Boolean(document.querySelector('.phantasm-campus')),
+    count: document.querySelector('.phantasm-gate-count strong')?.textContent.trim()
+  })`);
+  check(
+    lockedPhantasm.gate && lockedPhantasm.seals === 6 && !lockedPhantasm.campus && lockedPhantasm.count === "0",
+    `Direct PHANTASM address bypassed the six-record boundary (${JSON.stringify(lockedPhantasm)}).`,
+  );
   await navigate("index.html", "#services");
+  check(
+    await cdp.evaluate("!document.querySelector('.desktop-nav a[href*=\"phantasm\"], [data-mobile-menu] a[href*=\"phantasm\"]')"),
+    "Dream Campus leaked into ordinary primary navigation.",
+  );
 
   const home = await cdp.evaluate(`({
     page: document.body.dataset.page,
@@ -628,6 +643,7 @@ try {
     project.elements.claim.value = '退路窗口在指定月相與場地範圍內存在可重現的最低寬度。';
     project.elements.method.value = '保存彈幕版本、月相、場地、參與者批次與每次停止原因，並以固定程序重複三輪。';
     project.elements.stopRule.value = '出現預先定義的受傷、失控或不可逆結界偏移時立即停止。';
+    project.elements.unusedRoute.value = '沒有採用全場同步加速的路線，因為它會把新生的退路和觀眾的讀取時間一起壓縮。';
     project.requestSubmit();
     await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
     const form = document.querySelector('[data-academic-defence-form]');
@@ -1478,7 +1494,7 @@ try {
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "phantasm.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -1507,6 +1523,152 @@ try {
     "Malformed clinic hash, localized title, or active navigation state regressed.",
   );
 
+  await navigate("mytu.html#course-registration", "#my-tu");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-course-filter-form]'))"));
+  const phantasmDrop = await cdp.evaluate(`(async () => {
+    let drop = document.querySelector('[data-course-drop]');
+    if (!drop) {
+      document.querySelector('[data-course-add]')?.click();
+      await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+      drop = document.querySelector('[data-course-drop]');
+    }
+    drop?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      dropped: ledger.some((event) => event.type === 'course.dropped'),
+      seals: [...new Set(ledger.map((event) => event.type))].filter((type) => [
+        'academic.assignment.graded',
+        'governance.vote.cast',
+        'incident.resolved',
+        'housing.offer.declined',
+        'course.dropped'
+      ].includes(type))
+    };
+  })()`);
+  check(phantasmDrop.dropped && phantasmDrop.seals.length === 5, `Ordinary lifecycle did not leave five PHANTASM ledger seals (${JSON.stringify(phantasmDrop)}).`);
+
+  await navigate("mytu.html#my-tu", "#my-tu");
+  const phantasmTrace = await cdp.evaluate(`({
+    ready: document.querySelector('.mytu-phantasm-trace')?.classList.contains('is-ready'),
+    href: document.querySelector('.mytu-phantasm-trace a')?.getAttribute('href'),
+    primaryLeak: Boolean(document.querySelector('.desktop-nav a[href*="phantasm"], [data-mobile-menu] a[href*="phantasm"]'))
+  })`);
+  check(
+    phantasmTrace.ready
+      && phantasmTrace.href === "phantasm.html#phantasm-campus"
+      && !phantasmTrace.primaryLeak,
+    `My TU did not expose the completed reverse-side trace discreetly (${JSON.stringify(phantasmTrace)}).`,
+  );
+
+  await navigate("phantasm.html#phantasm-campus", "[data-phantasm-app]");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('.phantasm-campus'))"));
+  const phantasmInitial = await cdp.evaluate(`({
+    page: document.body.dataset.page,
+    nodes: document.querySelectorAll('[data-phantasm-node]').length,
+    fragments: document.querySelectorAll('.phantasm-counter-list article').length,
+    courses: document.querySelectorAll('.phantasm-course-grid > article').length,
+    available: document.querySelectorAll('.phantasm-course-grid > article:not(.is-locked)').length,
+    warning: document.querySelector('.phantasm-counterfactuals footer')?.textContent || '',
+    ledgerCount: JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]').length,
+    state: JSON.parse(localStorage.getItem('tu:phantasm:state') || 'null')
+  })`);
+  check(
+    phantasmInitial.page === "phantasm"
+      && phantasmInitial.nodes === 6
+      && phantasmInitial.fragments >= 6
+      && phantasmInitial.courses === 6
+      && phantasmInitial.available >= 5
+      && phantasmInitial.warning.includes("正式")
+      && phantasmInitial.state.unlockedAt,
+    `Unlocked Dream Campus did not render its isolated map, files, and course register (${JSON.stringify(phantasmInitial)}).`,
+  );
+
+  const phantasmBell = await cdp.evaluate(`(async () => {
+    const before = {
+      phase: document.querySelector('.phantasm-campus')?.dataset.phantasmPhase,
+      position: document.querySelector('[data-phantasm-node="north-stair"]')?.getAttribute('style')
+    };
+    document.querySelector('[data-phantasm-bell]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    return {
+      before,
+      after: {
+        phase: document.querySelector('.phantasm-campus')?.dataset.phantasmPhase,
+        position: document.querySelector('[data-phantasm-node="north-stair"]')?.getAttribute('style')
+      }
+    };
+  })()`);
+  check(
+    phantasmBell.before.phase !== phantasmBell.after.phase
+      && phantasmBell.before.position !== phantasmBell.after.position,
+    `The ninth strike did not change campus time and map geometry (${JSON.stringify(phantasmBell)}).`,
+  );
+
+  const phantasmDefence = await cdp.evaluate(`(async () => {
+    for (let index = 0; index < 3; index += 1) {
+      document.querySelector('.phantasm-course-grid article:not(.is-selected):not(.is-locked) [data-phantasm-course]')?.click();
+      await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    }
+    const ledgerBefore = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    const form = document.querySelector('[data-phantasm-defence-form]');
+    form.elements.examinerId.value = 'doremy';
+    form.elements.statement.value = '我沒有走這條路，因為醒著時的證物不支持它；但保留這份反面，可以提醒下一次研究別把沒有問過的問題誤當成不存在。';
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const records = JSON.parse(localStorage.getItem('tu:phantasm:transcripts') || '[]');
+    const latest = records.at(-1);
+    window.__phantasmPrinted = false;
+    window.print = () => { window.__phantasmPrinted = true; };
+    document.querySelector('[data-phantasm-print]')?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const ledgerAfter = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      selected: JSON.parse(localStorage.getItem('tu:phantasm:state')).enrolledCourseIds.length,
+      latest,
+      hash: location.hash,
+      transcript: document.querySelector('[data-dream-transcript]')?.textContent || '',
+      printed: window.__phantasmPrinted,
+      printText: document.querySelector('[data-tu-print-root]')?.textContent || '',
+      ledgerBefore: ledgerBefore.length,
+      ledgerAfter: ledgerAfter.length
+    };
+  })()`);
+  check(
+    phantasmDefence.selected === 3
+      && phantasmDefence.latest?.id?.startsWith("TU-DREAM-")
+      && phantasmDefence.hash === `#phantasm-transcript-${phantasmDefence.latest.id}`
+      && phantasmDefence.transcript.includes("Not valid outside the dream boundary")
+      && phantasmDefence.printed
+      && phantasmDefence.printText.includes("TU-DREAM-TRANSCRIPT")
+      && phantasmDefence.ledgerBefore === phantasmDefence.ledgerAfter,
+    `Dream defence, printable transcript, deep link, or official-ledger isolation failed (${JSON.stringify(phantasmDefence)}).`,
+  );
+
+  const phantasmLocale = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-lang="ja"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const ja = document.querySelector('.phantasm-courses h2')?.textContent || '';
+    document.querySelector('[data-lang="en"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const en = document.querySelector('.phantasm-courses h2')?.textContent || '';
+    document.querySelector('[data-lang="zh-Hant"]').click();
+    return { ja, en };
+  })()`);
+  check(phantasmLocale.ja.includes("第九時限") && phantasmLocale.en.includes("Ninth-period"), "Dream Campus did not rerender fully in Japanese and English.");
+
+  await navigate(`campus.html#bbs-phantasm-transcript-${phantasmDefence.latest.id}`, "#bbs");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-info-dialog]')?.open)"));
+  const phantasmBbs = await cdp.evaluate(`({
+    posts: document.querySelectorAll('.phantasm-post').length,
+    linked: document.querySelector('.phantasm-post .incident-linked')?.textContent || '',
+    action: document.querySelector('[data-info-action-label]')?.textContent || ''
+  })`);
+  check(
+    phantasmBbs.posts >= 2 && phantasmBbs.linked.includes("第九節") && phantasmBbs.action.includes("第九節"),
+    `Dream transcript did not leave its deliberately unreliable linked BBS versions (${JSON.stringify(phantasmBbs)}).`,
+  );
+
   const positionRoutes = [
     ["academics.html#faculty", "#faculty"],
     ["campus.html#map-eientei", "[data-eientei-focus]"],
@@ -1516,6 +1678,7 @@ try {
     ["library.html#appraisal-object-frozen-reader", "#appraisal-object-frozen-reader"],
     ["housing.html#housing-residence-misty-north", "#housing-residence-misty-north"],
     ["incidents.html#incident-case-fourth-lantern-loop", "#incident-case-fourth-lantern-loop"],
+    [`phantasm.html#phantasm-transcript-${phantasmDefence.latest.id}`, `[data-dream-transcript="${phantasmDefence.latest.id}"]`],
   ];
   for (const [url, selector] of positionRoutes) {
     await navigate(url, selector);
@@ -1539,7 +1702,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "phantasm.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -1593,7 +1756,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, hidden PHANTASM unlock/dream transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();
