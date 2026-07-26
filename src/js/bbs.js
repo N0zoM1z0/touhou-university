@@ -11,6 +11,7 @@ import { governanceCommunityPosts } from "./governance-model.js";
 import { academicCommunityPosts } from "./academic-model.js";
 import { clinicCommunityPosts } from "./clinic-model.js";
 import { appraisalCommunityPosts } from "./appraisal-model.js";
+import { spellcardCommunityPosts } from "./spellcard-workshop-model.js";
 
 const labels = {
   "zh-Hant": {
@@ -45,11 +46,13 @@ const labels = {
     academicLinked: "答辯連動",
     clinicLinked: "校醫院連動",
     appraisalLinked: "漂流物鑑定連動",
+    spellcardLinked: "符卡答辯連動",
     openCase: "查看結案案卷",
     openGovernance: "查看校務提案",
     openAcademic: "查看答辯與成績",
     openClinic: "查看診療與處方",
     openAppraisal: "查看漂流物案卷",
+    openSpellcard: "查看符卡設計與答辯",
   },
   ja: {
     course: "授業",
@@ -83,11 +86,13 @@ const labels = {
     academicLinked: "答弁連動",
     clinicLinked: "校医院連動",
     appraisalLinked: "漂流物鑑定連動",
+    spellcardLinked: "スペルカード答弁連動",
     openCase: "終結記録を見る",
     openGovernance: "学務提案を見る",
     openAcademic: "答弁・成績を見る",
     openClinic: "診療・処方を見る",
     openAppraisal: "漂流物記録を見る",
+    openSpellcard: "設計・答弁を見る",
   },
   en: {
     course: "Courses",
@@ -121,11 +126,13 @@ const labels = {
     academicLinked: "Defence-linked",
     clinicLinked: "Hospital-linked",
     appraisalLinked: "Drift-appraisal-linked",
+    spellcardLinked: "Spell-card-defence-linked",
     openCase: "Open closure record",
     openGovernance: "Open governance proposal",
     openAcademic: "Open defence & grades",
     openClinic: "Open care & prescriptions",
     openAppraisal: "Open drift-object file",
+    openSpellcard: "Open design & defence",
   },
 };
 
@@ -190,6 +197,12 @@ function linkedPostAction(post, l) {
       handler: () => window.location.assign(siteHref(post.appraisalRoute)),
     };
   }
+  if (post.spellcardRoute) {
+    return {
+      label: l.openSpellcard,
+      handler: () => window.location.assign(siteHref(post.spellcardRoute)),
+    };
+  }
   return undefined;
 }
 
@@ -199,6 +212,7 @@ function linkedPostLabel(post, l) {
   if (post.academic) return l.academicLinked;
   if (post.clinic) return l.clinicLinked;
   if (post.appraisal) return l.appraisalLinked;
+  if (post.spellcard) return l.spellcardLinked;
   return l.incidentLinked;
 }
 
@@ -245,7 +259,7 @@ export function initBbs() {
     const locale = getLocale();
     const l = labels[locale];
     const article = document.createElement("article");
-    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}${post.clinic ? " clinic-post" : ""}${post.appraisal ? " appraisal-post" : ""}`;
+    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}${post.clinic ? " clinic-post" : ""}${post.appraisal ? " appraisal-post" : ""}${post.spellcard ? " spellcard-post" : ""}`;
     article.dataset.bbsCategory = post.category;
     article.dataset.bbsId = post.id;
     if (post.local) article.dataset.userPost = "";
@@ -332,7 +346,11 @@ export function initBbs() {
       ...post,
       time: relativeTime(post.createdAt, l),
     }));
-    return [...userPosts.reverse(), ...appraisalPosts, ...clinicPosts, ...academicPosts, ...governancePosts, ...incidentPosts, ...seeds];
+    const spellcardPosts = spellcardCommunityPosts(locale).map((post) => ({
+      ...post,
+      time: relativeTime(post.createdAt, l),
+    }));
+    return [...userPosts.reverse(), ...spellcardPosts, ...appraisalPosts, ...clinicPosts, ...academicPosts, ...governancePosts, ...incidentPosts, ...seeds];
   }
 
   function findPost(id) {
@@ -490,6 +508,7 @@ export function initBbs() {
   window.addEventListener("tu:academicchange", renderPosts);
   window.addEventListener("tu:clinicchange", renderPosts);
   window.addEventListener("tu:appraisalchange", renderPosts);
+  window.addEventListener("tu:spellcardchange", renderPosts);
   chooseSeedPosts();
   renderPosts();
   clockTimer = window.setInterval(() => {

@@ -33,6 +33,11 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - thesis and spell-card project dossiers with falsifiable claims, method and
   stopping rules, a three-examiner public defence, retained rulings and linked
   campus-BBS reactions;
+- an interactive spell-card design and ethics workshop with five lightweight
+  flight patterns, live parameter tuning, keyboard/pointer play, six
+  deliberately non-averaged reviewers, sealed revisions, printable files and
+  a second public-defence path whose ruling, conditions and dissent enter My TU
+  and generate three linked BBS versions;
 - campus-visit reservations with autosaved drafts, visitor references and a
   device-local “My Campus Visits” archive;
 - a real Misty Lake Library catalogue with 19 trilingual holdings, search and
@@ -131,6 +136,7 @@ npm run check:gaokao        # marks, translations, rotation-safe explanations, k
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
 npm run check:appraisal     # drift objects, evidence, hypotheses, tests, reuse and reviewer records
+npm run check:spellcards    # patterns, venues, six independent reviewers and public-defence choices
 npm run check:housing       # residences, rooms, features, roommate profiles and translations
 npm run check:incidents     # case structure, translations, evidence, actions and BBS reactions
 npm run check:clinic        # sites, complaints, medicines, therapies, links and translations
@@ -178,6 +184,12 @@ Set a different preview port with `PORT=4180 npm run dev`.
   `src/js/appraisal.js`. Drafts and records use `tu:appraisal:drafts` and
   `tu:appraisal:records`; unsupported conclusions require explicit contested
   retention and must remain labelled unsupported in My TU and BBS.
+- Keep spell-card workshop patterns, venues, cues, reviewers and defence
+  choices in `src/data/spellcard-workshop.js`; assessment and version-tolerant
+  persistence belong in `src/js/spellcard-workshop-model.js`, and the focused
+  Canvas/UI belongs in `src/js/spellcard-workshop.js`. Do not collapse six
+  conflicting reviews into one fairness score. Drafts, sealed versions and
+  defences use the three `tu:spellcards:*` records.
 - Keep residences, rooms and roommate profiles in `src/data/housing.js`;
   housing persistence and matching live in `src/js/housing-model.js`.
   Applications, assignments and transfer requests stay in the

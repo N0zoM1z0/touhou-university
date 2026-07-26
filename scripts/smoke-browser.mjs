@@ -812,6 +812,26 @@ try {
   })()`);
   check(librarySearch.selected === "three-yesterdays" && !librarySearch.searchOpen && librarySearch.hash === "#library-three-yesterdays", "Library search result did not open its same-page holding.");
 
+  await navigate("library.html#library-appraisal", "[data-appraisal-app]");
+  const appraisalShelfPosition = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-appraisal-object="frozen-reader"]').click();
+    await new Promise((resolve) => setTimeout(resolve, 2050));
+    const target = document.querySelector('#appraisal-object-frozen-reader');
+    return {
+      hash: location.hash,
+      target: Boolean(target),
+      top: target?.getBoundingClientRect().top,
+      header: document.querySelector('[data-header]')?.getBoundingClientRect().height || 0
+    };
+  })()`);
+  check(
+    appraisalShelfPosition.hash === "#appraisal-object-frozen-reader"
+      && appraisalShelfPosition.target
+      && appraisalShelfPosition.top >= appraisalShelfPosition.header - 4
+      && appraisalShelfPosition.top <= appraisalShelfPosition.header + 48,
+    `Appraisal shelf click did not settle on the selected workbench (${JSON.stringify(appraisalShelfPosition)}).`,
+  );
+
   await navigate("library.html#appraisal-object-thermal-printer", "[data-appraisal-app]");
   await eventually(() => cdp.evaluate("document.querySelectorAll('[data-appraisal-object]').length === 8"));
   const appraisalObjectCount = await cdp.evaluate("document.querySelectorAll('[data-appraisal-object]').length");
@@ -920,6 +940,167 @@ try {
   check(
     appraisalBbs.posts === 2 && appraisalBbs.dialogOpen && appraisalBbs.action.includes("漂流物"),
     "Completed drift-object appraisals did not generate linked BBS reactions.",
+  );
+
+  await navigate("research.html#spellcard-workshop", "[data-spellcard-workshop]");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-spell-design-form]'))"));
+  const spellcardDesignFlow = await cdp.evaluate(`(async () => {
+    const settle = () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const form = document.querySelector('[data-spell-design-form]');
+    const name = form.elements.spellName;
+    name.dispatchEvent(new CompositionEvent('compositionstart', { bubbles: true }));
+    name.value = '霧符「讀報以前請先看退路」';
+    name.dispatchEvent(new InputEvent('input', { bubbles: true, data: '路', inputType: 'insertCompositionText', isComposing: true }));
+    name.dispatchEvent(new CompositionEvent('compositionend', { bubbles: true, data: name.value }));
+    form.elements.patternId.value = 'wind-corridor';
+    form.elements.patternId.dispatchEvent(new Event('change', { bubbles: true }));
+    form.elements.venueId.value = 'misty-lake-bank';
+    form.elements.venueId.dispatchEvent(new Event('change', { bubbles: true }));
+    form.elements.cueId.value = 'ring-preview';
+    form.elements.cueId.dispatchEvent(new Event('change', { bubbles: true }));
+    form.elements.soundId.value = 'wood-chime';
+    form.elements.soundId.dispatchEvent(new Event('change', { bubbles: true }));
+    form.elements.corridorWidth.value = '38';
+    form.elements.corridorWidth.dispatchEvent(new Event('input', { bubbles: true }));
+    form.elements.seedLock.checked = true;
+    form.elements.seedLock.dispatchEvent(new Event('change', { bubbles: true }));
+    form.elements.stopSignal.checked = true;
+    form.elements.stopSignal.dispatchEvent(new Event('change', { bubbles: true }));
+    form.elements.audienceBriefing.checked = true;
+    form.elements.audienceBriefing.dispatchEvent(new Event('change', { bubbles: true }));
+    form.elements.fieldNote.value = '第二圈故意偏向新聞席，但最低走廊不得被頭版裁掉。';
+    form.elements.fieldNote.dispatchEvent(new InputEvent('input', { bubbles: true, data: '。', inputType: 'insertText' }));
+    await new Promise((resolve) => setTimeout(resolve, 240));
+    form.requestSubmit();
+    await settle();
+    const designs = JSON.parse(localStorage.getItem('tu:spellcards:designs') || '[]');
+    const design = designs.at(-1);
+    await new Promise((resolve) => setTimeout(resolve, 2050));
+    const target = document.querySelector('#spellcard-design-' + CSS.escape(design.id));
+    window.__tuPrintCount = 0;
+    window.print = () => { window.__tuPrintCount += 1; };
+    document.querySelector('[data-spell-print]').click();
+    await settle();
+    const printText = document.querySelector('[data-tu-print-root]')?.textContent.trim().length || 0;
+    const printCount = window.__tuPrintCount;
+    window.dispatchEvent(new Event('afterprint'));
+    return {
+      design,
+      reviewers: document.querySelectorAll('.spell-review').length,
+      hash: location.hash,
+      top: target?.getBoundingClientRect().top,
+      header: document.querySelector('[data-header]')?.getBoundingClientRect().height || 0,
+      printText,
+      printCount
+    };
+  })()`);
+  check(
+    spellcardDesignFlow.design?.draft?.spellName === "霧符「讀報以前請先看退路」"
+      && spellcardDesignFlow.reviewers === 6
+      && spellcardDesignFlow.hash.startsWith("#spellcard-design-")
+      && spellcardDesignFlow.top >= spellcardDesignFlow.header - 4
+      && spellcardDesignFlow.top <= spellcardDesignFlow.header + 48,
+    `Spell-card design was not saved, reviewed, or positioned at its exact file (${JSON.stringify(spellcardDesignFlow)}).`,
+  );
+  check(
+    spellcardDesignFlow.printCount === 1 && spellcardDesignFlow.printText > 500,
+    "Spell-card design did not render into the shared printable document.",
+  );
+
+  const spellcardDefenceFlow = await cdp.evaluate(`(async () => {
+    const settle = () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-spell-defend]').click();
+    await settle();
+    const form = document.querySelector('[data-spell-defence-form]');
+    for (const name of ['rule', 'reproducibility', 'external']) {
+      const choice = form.querySelector('input[name="' + name + '"]');
+      choice.checked = true;
+      choice.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+    form.requestSubmit();
+    await settle();
+    const defences = JSON.parse(localStorage.getItem('tu:spellcards:defences') || '[]');
+    const record = defences.at(-1);
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    await new Promise((resolve) => setTimeout(resolve, 2050));
+    const target = document.querySelector('#spellcard-defence-' + CSS.escape(record.id));
+    window.__tuDefencePrintCount = 0;
+    window.print = () => { window.__tuDefencePrintCount += 1; };
+    document.querySelector('[data-spell-print-defence]').click();
+    await settle();
+    const printText = document.querySelector('[data-tu-print-root]')?.textContent.trim().length || 0;
+    const printCount = window.__tuDefencePrintCount;
+    window.dispatchEvent(new Event('afterprint'));
+    return {
+      record,
+      panel: document.querySelectorAll('.spell-defence-panel article').length,
+      votes: document.querySelectorAll('.spell-vote').length,
+      dissent: Boolean(document.querySelector('.spell-dissent')),
+      ledger: ledger.filter((event) => event.type.startsWith('spellcard.')).length,
+      hash: location.hash,
+      top: target?.getBoundingClientRect().top,
+      header: document.querySelector('[data-header]')?.getBoundingClientRect().height || 0,
+      printText,
+      printCount
+    };
+  })()`);
+  check(
+    spellcardDefenceFlow.record?.votes?.length === 3
+      && spellcardDefenceFlow.panel === 3
+      && spellcardDefenceFlow.ledger === 2
+      && spellcardDefenceFlow.hash.startsWith("#spellcard-defence-")
+      && spellcardDefenceFlow.top >= spellcardDefenceFlow.header - 4
+      && spellcardDefenceFlow.top <= spellcardDefenceFlow.header + 48
+      && spellcardDefenceFlow.printCount === 1
+      && spellcardDefenceFlow.printText > 800,
+    `Public spell-card defence did not preserve its panel, ruling, ledger, or exact route (${JSON.stringify(spellcardDefenceFlow)}).`,
+  );
+  const spellcardBack = await cdp.evaluate(`(async () => {
+    history.back();
+    for (let attempt = 0; attempt < 80 && location.hash !== '#spellcard-workshop'; attempt += 1) {
+      await new Promise((resolve) => setTimeout(resolve, 25));
+    }
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    return {
+      hash: location.hash,
+      designBench: Boolean(document.querySelector('[data-spell-design-form]')),
+      focusedFile: Boolean(document.querySelector('[data-spell-defence-record]'))
+    };
+  })()`);
+  check(
+    spellcardBack.hash === "#spellcard-workshop" && spellcardBack.designBench && !spellcardBack.focusedFile,
+    "Browser Back from a spell-card defence did not restore the design-bench origin.",
+  );
+  const spellcardLanguages = await cdp.evaluate(`(() => {
+    document.querySelector('[data-lang="ja"]').click();
+    const ja = document.querySelector('.spell-workshop-hero h2')?.textContent || '';
+    document.querySelector('[data-lang="en"]').click();
+    const en = document.querySelector('.spell-workshop-hero h2')?.textContent || '';
+    document.querySelector('[data-lang="zh-Hant"]').click();
+    const zh = document.querySelector('.spell-workshop-hero h2')?.textContent || '';
+    return { ja, en, zh };
+  })()`);
+  check(
+    spellcardLanguages.ja.includes("公平")
+      && spellcardLanguages.en.includes("fairness")
+      && spellcardLanguages.zh.includes("公平"),
+    "Spell-card workshop did not rerender its public interface across Japanese, English, and Traditional Chinese.",
+  );
+
+  await navigate("campus.html#bbs", "[data-bbs-list]");
+  const spellcardBbs = await cdp.evaluate(`(() => {
+    const posts = [...document.querySelectorAll('.spellcard-post')];
+    posts[0]?.querySelector('.bbs-row-trigger')?.click();
+    return {
+      posts: posts.length,
+      linked: posts.every((post) => post.querySelector('.incident-linked')?.textContent.includes('符卡')),
+      dialogOpen: document.querySelector('[data-info-dialog]').open,
+      action: document.querySelector('[data-info-action]')?.textContent || ''
+    };
+  })()`);
+  check(
+    spellcardBbs.posts === 3 && spellcardBbs.linked && spellcardBbs.dialogOpen && spellcardBbs.action.includes("符卡"),
+    "Public spell-card defence did not create three linked, reopenable BBS reactions.",
   );
 
   await navigate("housing.html#housing-residence-misty-north", "[data-housing-app]");
@@ -1273,6 +1454,8 @@ try {
       libraryEvents: ledger.filter((event) => event.type.startsWith('book.')).length,
       appraisalLink: document.querySelector('.mytu-summary a[href*="#appraisal-records"]')?.textContent || '',
       appraisalEvents: ledger.filter((event) => event.type.startsWith('appraisal.')).length,
+      spellcardLink: document.querySelector('.mytu-summary a[href*="#spellcard-records"]')?.textContent || '',
+      spellcardEvents: ledger.filter((event) => event.type.startsWith('spellcard.')).length,
       housingLink: document.querySelector('.mytu-summary a[href^="housing.html"]')?.textContent || '',
       housingEvents: ledger.filter((event) => event.type.startsWith('housing.')).length,
       incidentLink: document.querySelector('.mytu-summary a[href^="incidents.html"]')?.textContent || '',
@@ -1285,6 +1468,7 @@ try {
   check(mytuLibraryLinkOkay(myTuLibrary.libraryLink), "My TU does not link to the library record.");
   check(myTuLibrary.libraryEvents >= 3, "Library actions are missing from the My TU campus ledger.");
   check(/鑑定|漂流物/.test(myTuLibrary.appraisalLink) && myTuLibrary.appraisalEvents >= 3, "Drift-object appraisal records are missing from My TU.");
+  check(/符卡|答辯/.test(myTuLibrary.spellcardLink) && myTuLibrary.spellcardEvents === 2, "Spell-card design and defence are missing from My TU.");
   check(/宿舍|換房/.test(myTuLibrary.housingLink), "My TU does not link to the housing record.");
   check(myTuLibrary.housingEvents >= 3, "Housing actions are missing from the My TU campus ledger.");
   check(/事件研究|結案/.test(myTuLibrary.incidentLink) && myTuLibrary.incidentEvents >= 4 && myTuLibrary.contestedEvent, "Normal and contested incident work is missing from My TU.");
@@ -1329,7 +1513,7 @@ try {
     ["mytu.html#academic-grades", "#academic-grades"],
     ["clinic.html#clinic-recovery", "#clinic-recovery"],
     ["library.html#library-flying-index", "#library-flying-index"],
-    ["library.html#appraisal-object-frozen-reader", "#library-appraisal"],
+    ["library.html#appraisal-object-frozen-reader", "#appraisal-object-frozen-reader"],
     ["housing.html#housing-residence-misty-north", "#housing-residence-misty-north"],
     ["incidents.html#incident-case-fourth-lantern-loop", "#incident-case-fourth-lantern-loop"],
   ];
@@ -1364,6 +1548,26 @@ try {
     })`);
     check(!mobile.overflow && mobile.mainWidth <= mobile.viewport + 1, `${page} has narrow-mobile horizontal overflow.`);
   }
+  await navigate("research.html#spellcard-workshop", "[data-spellcard-workshop]");
+  const mobileSpellcard = await cdp.evaluate(`(() => {
+    const canvas = document.querySelector('[data-spell-canvas]');
+    const box = canvas?.getBoundingClientRect();
+    return {
+      canvas: Boolean(canvas),
+      cssWidth: box?.width || 0,
+      bitmapWidth: canvas?.width || 0,
+      reviewers: document.querySelectorAll('.spell-review').length,
+      overflow: document.documentElement.scrollWidth > window.innerWidth + 1
+    };
+  })()`);
+  check(
+    mobileSpellcard.canvas
+      && mobileSpellcard.cssWidth <= 390
+      && mobileSpellcard.bitmapWidth <= 390 * 1.5 + 1
+      && mobileSpellcard.reviewers === 6
+      && !mobileSpellcard.overflow,
+    `Mobile spell-card sandbox exceeded its bounded rendering/layout budget (${JSON.stringify(mobileSpellcard)}).`,
+  );
   const mobileMenu = await cdp.evaluate(`(() => {
     document.querySelector('[data-menu-toggle]').click();
     return {
@@ -1389,7 +1593,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, live routes/governance, coursework/exams/defence/transcript, courses, library, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();
