@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="幻想鄉的結界、歷史、魔法、工程與符卡研究完整檔案。 東方Project非官方二次創作。"
+      content="按事件、角色與 Git 校史版本閱讀同一件校園事件留下的案卷、證物、規章、BBS、研究與本機記錄。 東方Project非官方二次創作。"
     >
     <meta name="theme-color" content="#151d2a">
-    <meta property="og:title" content="研究成果｜幻想鄉立東方大學">
+    <meta property="og:title" content="稗田校務知識圖譜｜幻想鄉立東方大學">
     <meta
       property="og:description"
-      content="幻想鄉的結界、歷史、魔法、工程與符卡研究完整檔案。 東方Project非官方二次創作網站。"
+      content="按事件、角色與 Git 校史版本閱讀同一件校園事件留下的案卷、證物、規章、BBS、研究與本機記錄。 東方Project非官方二次創作網站。"
     >
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/images/campus-hero.webp">
-    <title>研究成果｜幻想鄉立東方大學</title>
+    <title>稗田校務知識圖譜｜幻想鄉立東方大學</title>
     <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
 
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles-research.css">
+    <link rel="stylesheet" href="styles-hieda.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
-  <body data-page="research" data-page-title-key="pageResearchTitle">
+  <body data-page="hieda" data-page-title-key="pageHiedaTitle">
     <a class="skip-link" href="#main" data-i18n="skipToMain">跳至主要內容</a>
 
     <div class="site-notice">
@@ -143,101 +143,18 @@
     <section class="page-masthead" aria-labelledby="page-title">
       <div class="container">
         <nav class="page-breadcrumb" aria-label="頁面位置">
-          <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>RESEARCH ARCHIVE</b>
+          <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>HIEDA CAMPUS INDEX</b>
         </nav>
         <div class="page-masthead-copy">
-          <div><p>RESEARCH ARCHIVE</p><h1 id="page-title">研究成果與公開檔案</h1></div>
-          <p>成果不只列題目：方法、失敗、限制、訂正與仍然吵不完的結論都留在檔案裡。</p>
+          <div><p>HIEDA CAMPUS INDEX</p><h1 id="page-title">稗田校務知識圖譜</h1></div>
+          <p>同一件事在案卷、設備、新聞、規章、BBS 與你的本機履歷裡各有一種寫法；阿求負責把紅線留下。</p>
         </div>
-        <nav class="page-local-nav" aria-label="研究成果與公開檔案"><a href="#research">研究成果</a><a href="#spellcard-workshop">符卡設計工房</a><a href="#spellcard-records">我的符卡檔案</a></nav>
+        <nav class="page-local-nav" aria-label="稗田校務知識圖譜"><a href="#hieda-index">稗田索引</a><a href="#hieda-event-late-bell-seven">按事件</a><a href="#hieda-character-akyuu">按角色</a><a href="#hieda-version-five-records-share-one-red-thread">按版本／時間</a></nav>
       </div>
     </section>
-      <section class="section research" id="research">
-        <div class="container">
-          <header class="section-header reveal">
-            <div>
-              <p class="eyebrow"><span>07</span> RESEARCH / 研究成果</p>
-              <h2>研究不是把幻想<br>變得無趣。</h2>
-            </div>
-            <div>
-              <p>
-                它讓我們知道：哪些傳說正在保護人，哪些裝置會在雨天漏電，
-                以及一場異變究竟何時需要被制止。
-              </p>
-            </div>
-          </header>
-
-          <article class="feature-research reveal">
-            <div class="feature-number">R/01</div>
-            <div class="feature-copy">
-              <p>BOUNDARY OBSERVATORY · 2026</p>
-              <h3>「被遺忘之物」跨界漂移索引</h3>
-              <p>
-                結界觀測所與香霖堂建立非侵入式登錄流程，記錄外界物品進入幻想鄉時的
-                語義變化，不嘗試擴大裂隙，也不以持有人記憶作為實驗材料。
-              </p>
-              <button class="research-open" type="button" data-research="boundary">
-                閱讀完整研究檔案 <span aria-hidden="true">→</span>
-              </button>
-            </div>
-            <div class="orbit-graphic" aria-hidden="true">
-              <i></i><i></i><i></i><b>境</b>
-            </div>
-          </article>
-
-          <a class="research-workshop-portal reveal" href="#spellcard-workshop">
-            <span>OPEN DESIGN BENCH</span>
-            <strong>進入可操作的符卡設計與倫理工房</strong>
-            <i aria-hidden="true">→</i>
-          </a>
-
-          <div class="research-list" id="research-list">
-            <article class="research-card reveal">
-              <p><span>工學</span> OPEN HARDWARE</p>
-              <h3>低落差河道的妖力無關水輪</h3>
-              <p>讓不具妖力的村落也能維護的小型水力系統；維修手冊採圖像優先。</p>
-              <dl>
-                <div><dt>27%</dt><dd>效率提升（校內試驗）</dd></div>
-                <div><dt>03</dt><dd>山地測試站</dd></div>
-              </dl>
-              <button type="button" data-research="waterwheel">研究方法與現場紀錄 <span>→</span></button>
-            </article>
-            <article class="research-card reveal">
-              <p><span>醫藥</span> PUBLIC HEALTH</p>
-              <h3>竹林迷途者的月相感覺指引</h3>
-              <p>研究波長、焦慮與空間判斷的關係；路徑提示不收集個體能力資料。</p>
-              <dl>
-                <div><dt>42</dt><dd>匿名觀察夜</dd></div>
-                <div><dt>0</dt><dd>強制暴露案例</dd></div>
-              </dl>
-              <button type="button" data-research="moonpath">研究方法與現場紀錄 <span>→</span></button>
-            </article>
-            <article class="research-card reveal">
-              <p><span>人文</span> SOURCE ETHICS</p>
-              <h3>同一場異變的三種報導</h3>
-              <p>把新聞、村落口述與當事人記錄並置，教學生辨認敘述位置與沉默。</p>
-              <dl>
-                <div><dt>86</dt><dd>份對照文本</dd></div>
-                <div><dt>12</dt><dd>次公開訂正</dd></div>
-              </dl>
-              <button type="button" data-research="reports">研究方法與現場紀錄 <span>→</span></button>
-            </article>
-            <article class="research-card research-card-spell reveal">
-              <p><span>符卡學</span> DANMAKU DESIGN</p>
-              <h3>符卡規則下的可讀性、公平與退路設計</h3>
-              <p>把宣言、預兆、彈幕密度與退路窗口拆開測量，尋找「華麗但仍然能讀懂」的編排條件。</p>
-              <dl>
-                <div><dt>96</dt><dd>組測試彈幕</dd></div>
-                <div><dt>0.8s</dt><dd>最低退路預兆</dd></div>
-              </dl>
-              <button type="button" data-research="spellcard">閱讀符卡研究全檔 <span>→</span></button>
-            </article>
-          </div>
-        </div>
-      </section>
-<section class="spellcard-workshop-section" id="spellcard-workshop" aria-labelledby="spellcard-workshop-title">
-  <h2 class="visually-hidden" id="spellcard-workshop-title">可操作的符卡設計與倫理工房</h2>
-  <div class="container" data-spellcard-workshop></div>
+      <section class="hieda-section" id="hieda-index" aria-labelledby="hieda-index-title">
+  <h2 class="visually-hidden" id="hieda-index-title">稗田校務知識圖譜</h2>
+  <div data-hieda-index-app></div>
 </section>
     </main>
 

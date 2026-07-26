@@ -92,6 +92,7 @@ if (!redirected) {
     initialize("[data-housing-app]", "./housing.js", "initHousing"),
     initialize("[data-incident-app]", "./incidents.js", "initIncidents"),
     initialize("[data-local-records-app]", "./local-records.js", "initLocalRecords"),
+    initialize("[data-hieda-index-app]", "./hieda-index.js", "initHiedaIndex"),
     initialize("#my-tu", "./mytu.js", "initMyTu"),
     initialize("#gaokao", "./gaokao.js", "initGaokao"),
     document.querySelector("main [data-service]") ? ensureServices() : Promise.resolve(),

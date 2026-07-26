@@ -1539,7 +1539,7 @@ try {
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -1819,6 +1819,116 @@ try {
     `Campus event causation chains are incomplete (${JSON.stringify(ledgerContracts)}).`,
   );
 
+  await navigate("hieda.html#hieda-event-late-bell-seven", "[data-hieda-index-app]");
+  await eventually(() => cdp.evaluate("document.querySelectorAll('.hieda-record').length === 7"));
+  const hiedaEvent = await cdp.evaluate(`(() => ({
+    page: document.body.dataset.page,
+    route: location.hash,
+    activeMode: document.querySelector('.hieda-mode-switch a.active strong')?.textContent.trim(),
+    dossiers: document.querySelectorAll('.hieda-dossier').length,
+    records: document.querySelectorAll('.hieda-record').length,
+    sourceRoutes: [...document.querySelectorAll('.hieda-record footer > a')].map((link) => link.getAttribute('href')),
+    localEvents: document.querySelectorAll('.hieda-local-ledger li').length,
+    overflow: document.documentElement.scrollWidth > window.innerWidth
+  }))()`);
+  check(
+    hiedaEvent.page === "hieda"
+      && hiedaEvent.route === "#hieda-event-late-bell-seven"
+      && hiedaEvent.activeMode === "按事件看"
+      && hiedaEvent.dossiers === 1
+      && hiedaEvent.records === 7
+      && hiedaEvent.sourceRoutes.includes("campus.html#governance-airspace-practicals")
+      && hiedaEvent.localEvents >= 2
+      && !hiedaEvent.overflow,
+    `Hieda event projection, source routes, or local marginalia failed (${JSON.stringify(hiedaEvent)}).`,
+  );
+
+  await cdp.evaluate("document.querySelector('[data-search-open]').click()");
+  await eventually(() => cdp.evaluate("document.querySelector('[data-search-dialog]')?.open"));
+  const hiedaSearch = await cdp.evaluate(`(() => {
+    const input = document.querySelector('[data-search-input]');
+    input.value = '遲到鐘事件';
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+    return {
+      route: document.querySelector('[data-search-route="hieda-event-late-bell-seven"]')?.getAttribute('href'),
+      category: document.querySelector('[data-search-route="hieda-event-late-bell-seven"] span')?.textContent.trim()
+    };
+  })()`);
+  check(
+    hiedaSearch.route === "hieda.html#hieda-event-late-bell-seven" && hiedaSearch.category === "稗田索引",
+    `Hieda entries are missing from shared search (${JSON.stringify(hiedaSearch)}).`,
+  );
+  await cdp.evaluate("document.querySelector('[data-search-close]').click()");
+  await eventually(() => cdp.evaluate("location.hash === '#hieda-event-late-bell-seven' && !document.querySelector('[data-search-dialog]').open"));
+
+  await cdp.evaluate("document.querySelector('a[href=\"#hieda-character-aya\"]').click()");
+  await eventually(() => cdp.evaluate("location.hash === '#hieda-character-aya' && document.querySelectorAll('.hieda-dossier').length >= 3"));
+  const hiedaCharacter = await cdp.evaluate(`(() => {
+    const direct = document.querySelectorAll('.hieda-record.is-direct').length;
+    document.querySelector('[data-lang="ja"]').click();
+    const japanese = document.querySelector('.hieda-mode-switch a.active strong')?.textContent.trim();
+    document.querySelector('[data-lang="en"]').click();
+    const english = document.title;
+    document.querySelector('[data-lang="zh-Hant"]').click();
+    return {
+      route: location.hash,
+      title: document.querySelector('.hieda-character-context h2')?.textContent.trim(),
+      dossiers: document.querySelectorAll('.hieda-dossier').length,
+      direct,
+      japanese,
+      english
+    };
+  })()`);
+  check(
+    hiedaCharacter.route === "#hieda-character-aya"
+      && /射命丸/.test(hiedaCharacter.title)
+      && hiedaCharacter.dossiers >= 3
+      && hiedaCharacter.direct >= 3
+      && hiedaCharacter.japanese === "人物から読む"
+      && hiedaCharacter.english.includes("Hieda"),
+    `Hieda character inversion or trilingual rerender failed (${JSON.stringify(hiedaCharacter)}).`,
+  );
+  await cdp.evaluate("history.back()");
+  await eventually(() => cdp.evaluate("location.hash === '#hieda-event-late-bell-seven' && document.querySelectorAll('.hieda-dossier').length === 1"));
+
+  await navigate("hieda.html#hieda-version-translation-keys-tie-the-red-ledger-thread", "[data-hieda-index-app]");
+  const hiedaVersion = await cdp.evaluate(`({
+    route: location.hash,
+    context: document.querySelector('.hieda-version-context h2')?.textContent.trim(),
+    subject: document.querySelector('.hieda-version-context strong')?.textContent.trim(),
+    dossiers: document.querySelectorAll('.hieda-dossier').length,
+    archiveLink: document.querySelector('.hieda-version-actions a[href*="chronicle-"]')?.getAttribute('href')
+  })`);
+  check(
+    hiedaVersion.route === "#hieda-version-translation-keys-tie-the-red-ledger-thread"
+      && hiedaVersion.context?.includes("翻譯室")
+      && hiedaVersion.subject === "Add multilingual domain and event registries"
+      && hiedaVersion.dossiers >= 4
+      && hiedaVersion.archiveLink === "index.html#chronicle-translation-keys-tie-the-red-ledger-thread",
+    `Hieda version/time projection failed (${JSON.stringify(hiedaVersion)}).`,
+  );
+
+  await navigate("research.html#spellcard-pattern-amulet-fan", "[data-spellcard-workshop]");
+  await eventually(() => cdp.evaluate("document.querySelector('[name=\"patternId\"]')?.value === 'amulet-fan'"));
+  check(
+    await cdp.evaluate("location.hash === '#spellcard-pattern-amulet-fan' && document.querySelector('[data-spell-pattern-note]')?.textContent.includes('扇形彈幕')"),
+    "A Hieda spell-pattern source did not open the exact workshop design.",
+  );
+
+  await navigate("index.html#news-spell-lantern", "[data-info-dialog]");
+  await eventually(() => cdp.evaluate("document.querySelector('[data-info-dialog]')?.open"));
+  check(
+    await cdp.evaluate("location.hash === '#news-spell-lantern' && document.querySelector('[data-info-title]')?.textContent.includes('符卡燈會')"),
+    "A Hieda news source did not open its exact campus-wire item.",
+  );
+
+  await navigate("campus.html#governance-fullmoon-library", "[data-live-campus-app]");
+  await eventually(() => cdp.evaluate("document.querySelector('[data-governance-select].active')?.dataset.governanceSelect === 'fullmoon-library'"));
+  check(
+    await cdp.evaluate("location.hash === '#governance-fullmoon-library' && document.querySelector('.governance-file')?.textContent.includes('滿月夜間閱覽')"),
+    "A Hieda governance source link did not open the exact proposal.",
+  );
+
   await cdp.evaluate(`(() => {
     localStorage.setItem('tu:smoke:cabinet', JSON.stringify({ note: '外界搬運測試', value: 17 }));
     localStorage.setItem('tu:smoke:conflict', JSON.stringify({ version: 'boxed' }));
@@ -1973,7 +2083,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -2016,7 +2126,7 @@ try {
   check(
     mobileMenu.expanded === "true"
       && mobileMenu.visible
-      && mobileMenu.links === 13
+      && mobileMenu.links === 14
       && mobileMenu.backgroundInert
       && mobileFocus,
     "Mobile navigation did not open completely or move keyboard focus into its modal layer.",
@@ -2027,7 +2137,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();

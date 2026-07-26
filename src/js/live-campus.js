@@ -1,6 +1,7 @@
 import { governanceProposals } from "../data/governance.js";
 import { liveCampusSnapshot } from "../data/live-campus.js";
 import { recordCampusEvent } from "./campus-ledger.js";
+import { navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { castGovernanceVote, governanceTally } from "./governance-model.js";
 import { getLocale } from "./i18n.js";
 import { renderPreservingState } from "./render-state.js";
@@ -210,9 +211,7 @@ export function initLiveCampus() {
   root.addEventListener("click", (event) => {
     const select = event.target.closest("[data-governance-select]");
     if (select) {
-      selectedId = select.dataset.governanceSelect;
-      window.localStorage.setItem(SELECTED_KEY, selectedId);
-      render();
+      navigateToDeepLink(`governance-${select.dataset.governanceSelect}`);
       return;
     }
     const vote = event.target.closest("[data-governance-vote]");
@@ -231,5 +230,15 @@ export function initLiveCampus() {
   window.addEventListener("tu:languagechange", render);
   clockTimer = window.setInterval(render, 60_000);
   window.addEventListener("pagehide", () => window.clearInterval(clockTimer), { once: true });
+  registerDeepLink("governance-", {
+    open(value) {
+      if (!governanceProposals.some((proposal) => proposal.id === value)) return;
+      selectedId = value;
+      window.localStorage.setItem(SELECTED_KEY, selectedId);
+      render();
+    },
+    anchor: () => root.querySelector(".governance-board") || document.querySelector("#governance"),
+    position: "always",
+  });
   render();
 }

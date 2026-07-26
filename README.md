@@ -13,10 +13,11 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
-- eleven ordinary generated, shareable pages for the home portal, academics,
+- twelve ordinary generated, shareable pages for the home portal, academics,
   admissions, research, campus incidents, campus life, My TU, the Misty Lake
-  Library, housing, campus healthcare and the on-device records cabinet, with
-  legacy one-page hashes redirected to their new canonical locations;
+  Library, housing, campus healthcare, the on-device records cabinet and the
+  Hieda cross-campus index, with legacy one-page hashes redirected to their new
+  canonical locations;
 - one deliberately unlisted PHANTASM page that opens only after six different
   student-lifecycle choices leave reverse-side seals; date, eight-phase moon
   and three-hour duty bells then rotate its real entrance across five ordinary
@@ -99,6 +100,12 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   a trilingual in-universe history record, correction note and real version
   source, while mechanical merge commits separately expose their second-parent
   functional change without confusing the two SHAs;
+- a separate Hieda campus knowledge graph with seven cross-files and 49 source
+  leaves that can be inverted by event, fifteen characters, or first-parent
+  version/time; every leaf resolves back to existing incident, evidence,
+  governance, BBS, course, research, library, appraisal, housing or chronicle
+  IDs, while matching schema-2 events from this device appear as personal
+  marginalia without creating another localStorage copy;
 - four timed entrance-exam banks with instant scoring, full saved answer
   records and reopenable reviews;
 - a 150-mark Gensokyo Unified Examination (`幻想鄉統一學力試驗`) with
@@ -130,7 +137,7 @@ src/
   sections/   page partials, one institutional section per file
   styles/     base and feature-specific stylesheets
 scripts/      build, preview, validation, scaffolding and asset helpers
-*.html        twelve generated GitHub Pages artifacts; one is deliberately hidden
+*.html        thirteen generated GitHub Pages artifacts; one is deliberately hidden
 styles.css    generated shared CSS artifact
 styles-*.css  generated per-page CSS artifacts
 site.config.mjs
@@ -145,10 +152,11 @@ modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate twelve pages and shared/per-page CSS bundles
+npm run build               # generate thirteen pages and shared/per-page CSS bundles
 npm run check               # build + all source, data, relationship and history contracts
 npm run check:i18n          # stable/legacy keys, collisions, titles and interpolation parity
 npm run check:contracts     # 45 event types, producer coverage and causal lifecycle fixtures
+npm run check:knowledge     # Hieda sources, five-form dossiers, characters, routes and versions
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
@@ -274,6 +282,10 @@ Set a different preview port with `PORT=4180 npm run dev`.
 - Register every new official ledger type in `src/data/event-contracts.js`
   with the payload IDs needed for subject, workflow and causation links, then
   run `npm run check:contracts`. Dream records never enter this registry.
+- Extend `src/data/knowledge-graph.js` with stable source references when a new
+  feature belongs in the Hieda index. Do not copy the source document into the
+  graph: add the minimum red-thread annotation, resolve the title/detail/route
+  from its owning data module, and run `npm run check:knowledge`.
 - Register new pages, their sections and styles in `site.config.mjs`.
 
 ## Research and provenance

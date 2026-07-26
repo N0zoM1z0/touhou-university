@@ -203,13 +203,20 @@ export function navigateToDeepLink(route, { replace = false } = {}) {
   const url = new URL(window.location.href);
   url.hash = route;
   const currentRoute = routeFromLocation();
-  const currentIsDeepLink = Boolean(registrationFor(currentRoute));
+  const currentRegistration = registrationFor(currentRoute);
+  const nextRegistration = registrationFor(route);
+  const replacingDialogLayer = Boolean(currentRegistration?.dialog && nextRegistration?.dialog);
+  const replacingFocusedFlow = Boolean(
+    currentRegistration?.historyGroup
+      && currentRegistration.historyGroup === nextRegistration?.historyGroup,
+  );
   const currentState = window.history.state || {};
 
-  // A dialog opened from another dialog is one visual layer, not a fresh
-  // return point. Replacing that route prevents Close from resurfacing an old
-  // search/card deep link instead of the page where the first card was opened.
-  if (currentIsDeepLink || replace) {
+  // Dialog-to-dialog navigation and the named stages of one focused workflow
+  // occupy a single visual layer. Crossing into another layer (for example,
+  // opening Search above a Hieda dossier) keeps the current view as the exact
+  // Back/Close destination.
+  if (replacingDialogLayer || replacingFocusedFlow || replace) {
     window.history.replaceState(
       { ...currentState, tuDeepLink: true, route, tuOrigin: currentState.tuOrigin },
       "",

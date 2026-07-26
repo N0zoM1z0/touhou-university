@@ -1,6 +1,7 @@
 import {
   spellCues,
   spellDefenceRounds,
+  spellPattern,
   spellPatterns,
   spellReviewers,
   spellSounds,
@@ -1071,7 +1072,7 @@ function initialState() {
 }
 
 function leaveFocusedSpellcardRoute({ route = "" } = {}) {
-  if (/^spellcard-(?:design|defence)-/.test(route)) return;
+  if (/^spellcard-(?:pattern|design|defence)-/.test(route)) return;
   const nextMode = route === "spellcard-records" ? "archive" : "design";
   if (mode === nextMode && !selectedDesignId && !selectedDefenceId) return;
   mode = nextMode;
@@ -1088,8 +1089,23 @@ export function initSpellcardWorkshop() {
   currentDraft = spellcardDraft();
   initialState();
   render({ preserveWindow: false });
+  registerDeepLink("spellcard-pattern-", {
+    anchor: root,
+    historyGroup: "spellcard-workshop-focus",
+    position: "always",
+    open(id) {
+      if (!spellPattern(id)) return;
+      mode = "design";
+      selectedDesignId = null;
+      selectedDefenceId = null;
+      currentDraft = { ...currentDraft, patternId: id };
+      render({ preserveWindow: false });
+    },
+    close: leaveFocusedSpellcardRoute,
+  });
   registerDeepLink("spellcard-design-", {
     anchor: (route) => document.getElementById(route) || root,
+    historyGroup: "spellcard-workshop-focus",
     position: "always",
     open(id) {
       if (!spellcardDesign(id)) return;
@@ -1102,6 +1118,7 @@ export function initSpellcardWorkshop() {
   });
   registerDeepLink("spellcard-defence-", {
     anchor: (route) => document.getElementById(route) || root,
+    historyGroup: "spellcard-workshop-focus",
     position: "always",
     open(id) {
       const defence = spellcardDefence(id);

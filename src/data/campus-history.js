@@ -647,10 +647,9 @@ export const campusHistory = [
   {
     id: "translation-keys-tie-the-red-ledger-thread",
     archiveId: "TU-H-027",
-    commit: null,
+    commit: "c04334be7cf873cc8d00817130c37dbc521c58f1",
     commitSubject: "Add multilingual domain and event registries",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "archive",
     era: l("同朝・翻譯室第七次退件", "同朝・翻訳室第七回差戻し", "Same morning · Translation Office's seventh return"),
     title: l(
@@ -667,6 +666,31 @@ export const campusHistory = [
       "文問往後每個標題是否都要交代前因；阿求回答只有校務事件需要。紫把「校務事件」四字剪成一條莫比烏斯紙帶，魔理沙則在背面寫上「材料來源：稍後補」。",
       "文は今後すべての見出しに前因が必要か質問。阿求は学務イベントだけだと回答した。紫は「学務イベント」の四文字をメビウスの紙帯へ切り、魔理沙は裏面に「材料出所：後で追記」と書いた。",
       "Aya asked whether every future headline must disclose its cause. Akyuu replied that only campus events must. Yukari cut “campus event” into a Möbius strip; Marisa wrote “material provenance: add later” on its reverse.",
+    ),
+  },
+  {
+    id: "five-records-share-one-red-thread",
+    archiveId: "TU-H-028",
+    commit: null,
+    commitSubject: "Add Hieda campus knowledge graph",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "archive",
+    era: l("同朝・稗田索引開桌第五星", "同朝・稗田索引開机第五刻", "Same morning · Fifth mark of the Hieda indexing desk"),
+    title: l(
+      "七件麻煩被四十九張紙同時承認，卻沒有一張肯承認自己寫的是同一件事",
+      "七つの厄介事を四十九枚の紙が同時に認めるが、同じ出来事を書いたとは誰も認めない",
+      "Forty-nine leaves admit seven nuisances; none admit they describe the same events",
+    ),
+    summary: l(
+      "阿求把事件案卷、設備與證物、新聞側記、校務規章、課程研究、BBS、館藏、住宿、漂流物、符卡答辯與主分支校史攤成七宗交叉案卷。訪客可按事件、十五位留下手印的角色，或 first-parent 版本／時間反查；每一張關聯紙仍翻回原來的辦公室，不在索引裡複製一份較聽話的真相。這台裝置若真的借過書、投過票、做過模擬、選過課或完成答辯，正式事件帳本還會在頁邊補出本人的紅線與直接前因；沒做過的事維持空白。校務議案也第一次取得自己的精確門牌，滿月圖書館規章不再每次都把訪客送到第一份空域提案。",
+      "阿求は事案ファイル、設備・物証、報道側記、学務規程、授業研究、BBS、蔵書、学生寮、漂流物、スペル答弁、主分岐大学史を七つの交差案件へ広げた。訪問者は事案、手印を残す十五名、または first-parent の版／時間から逆引きできる。各関連紙は元の窓口へ戻り、索引に従順な真実の複製を作らない。この端末で実際に借用、投票、模擬、履修、答弁を行っていれば、正式イベント台帳が本人の赤糸と直接前因を欄外へ補う。未実施の出来事は空白のまま。学務議案にも正確な住所が付き、満月図書館規程を開いて毎回最初の空域議案へ送られることはなくなった。",
+      "Akyuu spreads incident files, equipment and evidence, news marginalia, governance rules, courses and research, BBS, holdings, housing, drift objects, spell-card defences, and the first-parent chronicle into seven cross-files. Visitors can invert the index by event, fifteen characters who left fingerprints, or version and time. Every linked leaf still returns to its original office; the index does not duplicate a more obedient truth. If this device really borrowed, voted, simulated, enrolled, or defended work, the official event ledger adds the keeper's own red thread and direct cause in the margin. Things never done stay blank. Governance motions also gain exact addresses, so opening the full-moon library rule no longer returns every visitor to the first airspace proposal.",
+    ),
+    marginalia: l(
+      "文把索引稱為《七起事件的四十九次獨家報導》。慧音在「獨家」旁蓋了十五枚不同角色的手印；荷取替紅線畫了路由圖，結果線在滿月時繞去圖書館。阿求最後只補一句：若五份記錄完全一致，請先檢查是不是有人把另外四份收走了。",
+      "文は索引を『七事件・四十九回の独占報道』と命名。慧音は「独占」の横へ十五名分の手印を押し、にとりは赤糸の経路図を描いたが、満月には図書館へ迂回した。阿求の追記は一文だけ。「五つの記録が完全一致したら、まず残り四つを誰かが持ち去っていないか確認すること。」",
+      "Aya titles it “Forty-nine exclusive reports on seven incidents.” Keine stamps fifteen different fingerprints beside “exclusive”; Nitori draws a route map for the red thread, which detours through the library at full moon. Akyuu adds one line: if five records agree perfectly, first check whether someone removed the other four.",
     ),
   },
 ];

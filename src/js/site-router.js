@@ -12,6 +12,7 @@ const pageFiles = {
   housing: "housing.html",
   incidents: "incidents.html",
   records: "records.html",
+  hieda: "hieda.html",
   phantasm: "phantasm.html",
 };
 
@@ -30,6 +31,7 @@ export function pageForRoute(route = "") {
   if (/^clinic(?:-|$)/.test(route)) return "clinic";
   if (/^housing(?:-|$)/.test(route)) return "housing";
   if (/^(?:data-cabinet|local-record)(?:-|$)/.test(route)) return "records";
+  if (/^hieda(?:-|$)/.test(route)) return "hieda";
   if (/^phantasm(?:-|$)/.test(route)) return "phantasm";
   return "home";
 }

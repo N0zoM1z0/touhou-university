@@ -12,6 +12,13 @@ import { clinicMedicines, clinicTherapies } from "../data/clinic.js";
 import { appraisalObjects } from "../data/appraisal.js";
 import { spellPatterns } from "../data/spellcard-workshop.js";
 import { phantasmCourses } from "../data/phantasm.js";
+import {
+  dossiersForCharacter,
+  dossiersForVersion,
+  knowledgeCharacters,
+  knowledgeDossiers,
+  knowledgeVersions,
+} from "../data/knowledge-graph.js";
 import { incidentCommunityPosts } from "./incident-model.js";
 import { governanceCommunityPosts } from "./governance-model.js";
 import { academicCommunityPosts } from "./academic-model.js";
@@ -166,6 +173,43 @@ const domainManifests = [
     community: incidentCommunityPosts,
     communityPriority: 10,
     changeEvents: ["tu:incidentchange"],
+  },
+  {
+    id: "hieda",
+    search(locale) {
+      return [
+        ...knowledgeDossiers.map((dossier) =>
+          entry(
+            `hieda-event-${dossier.id}`,
+            "knowledge",
+            dossier.title[locale],
+            `${dossier.code} · ${dossier.lead[locale]}`,
+            dossier,
+            84,
+          )),
+        ...knowledgeCharacters
+          .filter((character) => dossiersForCharacter(character.id).length)
+          .map((character) =>
+            entry(
+              `hieda-character-${character.id}`,
+              "knowledge",
+              character.name[locale],
+              `${dossiersForCharacter(character.id).length} · ${character.role[locale]}`,
+              character,
+              79,
+            )),
+        ...knowledgeVersions().map((record) =>
+          entry(
+            `hieda-version-${record.id}`,
+            "knowledge",
+            record.title[locale],
+            `${record.archiveId} · ${dossiersForVersion(record.id).length}`,
+            record,
+            65,
+          )),
+      ];
+    },
+    changeEvents: ["tu:ledgerchange"],
   },
   {
     id: "governance",

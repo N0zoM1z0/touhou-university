@@ -1,6 +1,7 @@
 import { newsItems } from "../data/community.js";
+import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { getLocale } from "./i18n.js";
-import { openInfoDialog } from "./info-dialog.js";
+import { closeInfoDialog, openInfoDialog } from "./info-dialog.js";
 import { incidentCommunityNews } from "./incident-model.js";
 import { siteHref } from "./site-router.js";
 
@@ -77,13 +78,24 @@ function renderNews() {
   };
   track.replaceChildren(buildContent(), buildContent(true));
   track.querySelectorAll("[data-news-id]").forEach((button) => {
-    button.addEventListener("click", () => showNews(button.dataset.newsId));
+      button.addEventListener("click", () => navigateToDeepLink(`news-${button.dataset.newsId}`));
   });
 }
 
 export function initNews() {
+  const infoDialog = document.querySelector("[data-info-dialog]");
   chooseNews();
   renderNews();
+  registerDeepLink("news-", {
+    anchor: "#news",
+    dialog: infoDialog,
+    open(id) {
+      if (![...incidentCommunityNews(), ...newsItems].some((item) => item.id === id)) return;
+      showNews(id);
+    },
+    close: closeInfoDialog,
+  });
+  infoDialog?.addEventListener("close", () => closeDeepLink("news-", "#news"));
   rotationTimer = window.setInterval(() => {
     chooseNews();
     renderNews();
