@@ -57,6 +57,7 @@ const copy = {
     appraisals: "漂流物鑑定",
     spellcards: "符卡設計／答辯",
     ethics: "研究倫理／五席審查",
+    festivals: "祭典許可／值班履歷",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     academicMode: "作業、考試與答辯",
@@ -169,6 +170,7 @@ const copy = {
     appraisals: "漂流物鑑定",
     spellcards: "スペルカード設計／答弁",
     ethics: "研究倫理／五席審査",
+    festivals: "祭典許可／当番履歴",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     academicMode: "課題・試験・答弁",
@@ -276,6 +278,7 @@ const copy = {
     appraisals: "Drift-object appraisals",
     spellcards: "Spell-card designs / defences",
     ethics: "Research ethics / five-seat review",
+    festivals: "Festival permits / duty record",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     academicMode: "Work, exams & defences",
@@ -421,6 +424,8 @@ function allRecords() {
   const ethicsDrafts = readJson("tu:ethics:drafts", null);
   const ethicsProtocols = readJson("tu:ethics:protocols", []);
   const ethicsReviews = readJson("tu:ethics:reviews", []);
+  const festivalPlans = readJson("tu:festival:plans", []);
+  const festivalOperations = readJson("tu:festival:operations", []);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
@@ -453,6 +458,7 @@ function allRecords() {
     posts,
     examCount,
     drafts: drafts + housingDraft + clinicDraft + spellcardDraft + ethicsDraftCount
+      + Number(Boolean(readJson("tu:festival:draft", null)))
       + Object.keys(appraisalDrafts && typeof appraisalDrafts === "object" && !Array.isArray(appraisalDrafts) ? appraisalDrafts : {}).length,
     courseSummary,
     activeLibrary,
@@ -472,6 +478,8 @@ function allRecords() {
       + (Array.isArray(spellcardDefences) ? spellcardDefences.length : 0),
     ethicsRecords: (Array.isArray(ethicsProtocols) ? ethicsProtocols.length : 0)
       + (Array.isArray(ethicsReviews) ? ethicsReviews.length : 0),
+    festivalRecords: (Array.isArray(festivalPlans) ? festivalPlans.length : 0)
+      + (Array.isArray(festivalOperations) ? festivalOperations.length : 0),
     localFiles,
   };
 }
@@ -674,6 +682,9 @@ function eventLabel(event, locale, c) {
   if (event.type.startsWith("ethics.")) {
     return `${base} · ${payload.protocolId || payload.reviewId || payload.caseId || ""}`;
   }
+  if (event.type.startsWith("festival.")) {
+    return `${base} · ${payload.operationId || payload.planId || payload.incidentId || ""}`;
+  }
   return base;
 }
 
@@ -789,6 +800,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="library.html#appraisal-records"><span>${c.appraisals}</span><strong>${records.appraisalRecords}</strong></a>
           <a href="research.html#spellcard-records"><span>${c.spellcards}</span><strong>${records.spellcardRecords}</strong></a>
           <a href="ethics.html#ethics-records"><span>${c.ethics}</span><strong>${records.ethicsRecords}</strong></a>
+          <a href="festival.html#festival-records"><span>${c.festivals}</span><strong>${records.festivalRecords}</strong></a>
           <a href="records.html#data-cabinet"><span>${c.cabinetSummary}</span><strong>${records.localFiles}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>

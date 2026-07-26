@@ -98,6 +98,8 @@ function legacyEvents() {
   const spellcardDefences = readJson("tu:spellcards:defences", []);
   const ethicsProtocols = readJson("tu:ethics:protocols", []);
   const ethicsReviews = readJson("tu:ethics:reviews", []);
+  const festivalPlans = readJson("tu:festival:plans", []);
+  const festivalOperations = readJson("tu:festival:operations", []);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -553,6 +555,74 @@ function legacyEvents() {
         reviewerIds: (review.opinions || []).map(({ reviewerId }) => reviewerId),
       },
     });
+  }
+  for (const plan of Array.isArray(festivalPlans) ? festivalPlans : []) {
+    if (!plan?.id || !plan?.createdAt || !plan?.draft?.kindId) continue;
+    const payload = {
+      planId: plan.id,
+      kindId: plan.draft.kindId,
+      outcome: plan.outcome,
+      startsAt: plan.draft.startsAt,
+    };
+    events.push({
+      id: `festival.plan.submitted:${plan.id}`,
+      type: "festival.plan.submitted",
+      timestamp: plan.createdAt,
+      payload,
+    });
+    events.push({
+      id: `festival.permit.issued:${plan.id}`,
+      type: "festival.permit.issued",
+      timestamp: new Date(new Date(plan.createdAt).getTime() + 1).toISOString(),
+      payload: {
+        ...payload,
+        deskIds: (plan.opinions || []).map(({ deskId }) => deskId),
+      },
+    });
+  }
+  for (const operation of Array.isArray(festivalOperations) ? festivalOperations : []) {
+    if (!operation?.id || !operation?.planId || !operation?.openedAt) continue;
+    const plan = (Array.isArray(festivalPlans) ? festivalPlans : [])
+      .find((candidate) => candidate?.id === operation.planId);
+    events.push({
+      id: `festival.shift.started:${operation.id}`,
+      type: "festival.shift.started",
+      timestamp: operation.openedAt,
+      payload: {
+        operationId: operation.id,
+        planId: operation.planId,
+        role: operation.role,
+        routeId: plan?.draft?.routeId,
+      },
+    });
+    for (const response of Array.isArray(operation.responses) ? operation.responses : []) {
+      if (!response?.incidentId || !response?.responseId || !response?.resolvedAt) continue;
+      events.push({
+        id: `festival.incident.resolved:${operation.id}:${response.incidentId}`,
+        type: "festival.incident.resolved",
+        timestamp: response.resolvedAt,
+        payload: {
+          operationId: operation.id,
+          planId: operation.planId,
+          incidentId: response.incidentId,
+          responseId: response.responseId,
+        },
+      });
+    }
+    if (operation.status === "closed" && operation.closedAt && operation.report) {
+      events.push({
+        id: `festival.report.closed:${operation.id}`,
+        type: "festival.report.closed",
+        timestamp: operation.closedAt,
+        payload: {
+          operationId: operation.id,
+          planId: operation.planId,
+          attendance: operation.report.attendance,
+          clinicArrivals: operation.report.clinicArrivals,
+          disposition: operation.report.disputes ? "contested" : "closed",
+        },
+      });
+    }
   }
   return events;
 }

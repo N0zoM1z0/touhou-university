@@ -58,9 +58,9 @@ export const localRecordGroups = [
     mark: "談",
     title: l("校園生活", "キャンパス生活", "Campus life"),
     note: l(
-      "BBS、住宿、醫療與事件中心的本機紀錄。",
-      "BBS、学生寮、医療、事案センターの端末内記録。",
-      "On-device BBS, housing, healthcare, and incident-centre records.",
+      "BBS、住宿、醫療、事件中心與祭典運營的本機紀錄。",
+      "BBS、学生寮、医療、事案センター、祭典運営の端末内記録。",
+      "On-device BBS, housing, healthcare, incident-centre, and festival-operations records.",
     ),
   },
   {
@@ -155,6 +155,9 @@ export const localRecordRegistry = [
   record("tu:incidents:workbench", "campus", l("事件工作台", "事案ワークベンチ", "Incident workbench"), { kind: "draft" }),
   record("tu:incidents:experiments", "campus", l("研究模擬回條", "研究シミュレーション票", "Research simulation slips")),
   record("tu:incidents:resolutions", "campus", l("事件結案卷", "事案終結記録", "Incident resolutions")),
+  record("tu:festival:draft", "campus", l("祭典運營草案", "祭典運営下書き", "Festival operations draft"), { kind: "draft" }),
+  record("tu:festival:plans", "campus", l("六桌祭典許可", "六机祭典許可", "Six-desk festival permits")),
+  record("tu:festival:operations", "campus", l("值班與結祭卷", "当番・閉祭記録", "Festival duty and closure files")),
 
   record("tu:spellcards:draft", "research", l("符卡設計草稿", "スペルカード設計下書き", "Spell-card design draft"), { kind: "draft" }),
   record("tu:spellcards:designs", "research", l("封存符卡設計", "封印済みスペルカード設計", "Sealed spell-card designs")),

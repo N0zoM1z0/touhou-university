@@ -242,6 +242,34 @@ const contracts = [
     subject: by("spellcard-design", "designId"), required: ["designId", "defenceId"],
     causedBy: ["spellcard.design.saved"], references: related(["spellcard-defence", "defenceId"]),
   }),
+  define("festival.plan.submitted", l("提交祭典運營方案", "祭典運営案を提出", "Submitted a festival operations plan"), {
+    subject: by("festival-plan", "planId"), required: ["planId", "kindId", "outcome"],
+    references: related(["festival-kind", "kindId"]),
+  }),
+  define("festival.permit.issued", l("取得六桌祭典許可", "六机祭典許可を取得", "Received a six-desk festival permit"), {
+    subject: by("festival-plan", "planId"), required: ["planId", "kindId", "outcome"],
+    causedBy: ["festival.plan.submitted"],
+    references: related(["festival-kind", "kindId"], ["festival-review-desk", "deskIds"]),
+  }),
+  define("festival.shift.started", l("敲鐘開祭並領取值班牌", "開祭鐘を鳴らし当番札を受取", "Rang the opening bell and took a duty badge"), {
+    subject: by("festival-operation", "operationId"), required: ["operationId", "planId", "role"],
+    correlation: (payload) => `festival-plan:${payload?.planId || ""}`,
+    causedBy: ["festival.permit.issued"],
+    references: related(["festival-plan", "planId"], ["festival-route", "routeId"]),
+  }),
+  define("festival.incident.resolved", l("處置一宗祭典現場事件", "祭典現場案件を処置", "Resolved a festival field case"), {
+    subject: (payload) => reference("festival-incident-response", `${payload?.operationId || ""}:${payload?.incidentId || ""}`),
+    required: ["operationId", "planId", "incidentId", "responseId"],
+    correlation: (payload) => `festival-plan:${payload?.planId || ""}`,
+    causedBy: ["festival.shift.started", "festival.incident.resolved"],
+    references: related(["festival-operation", "operationId"], ["festival-response", "responseId"]),
+  }),
+  define("festival.report.closed", l("完成回收並封存結祭報告", "回収を終え閉祭報告を封印", "Completed recovery and filed the festival closing report"), {
+    subject: by("festival-operation", "operationId"), required: ["operationId", "planId", "attendance"],
+    correlation: (payload) => `festival-plan:${payload?.planId || ""}`,
+    causedBy: ["festival.incident.resolved", "festival.shift.started"],
+    references: related(["festival-plan", "planId"]),
+  }),
   define("ethics.protocol.submitted", l("提交研究倫理計畫", "研究倫理計画を提出", "Submitted a research ethics protocol"), {
     subject: by("ethics-protocol", "protocolId"), required: ["protocolId", "rootProtocolId", "caseId"],
     correlation: (payload) => `ethics-protocol:${payload?.rootProtocolId || payload?.protocolId || ""}`,

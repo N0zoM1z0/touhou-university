@@ -13,10 +13,11 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
-- thirteen ordinary generated, shareable pages for the home portal, academics,
-  admissions, research, research ethics, campus incidents, campus life, My TU,
-  the Misty Lake Library, housing, campus healthcare, the on-device records
-  cabinet and the Hieda cross-campus index, with legacy one-page hashes
+- fourteen ordinary generated, shareable pages for the home portal, academics,
+  admissions, research, research ethics, festival operations, campus
+  incidents, campus life, My TU, the Misty Lake Library, housing, campus
+  healthcare, the on-device records cabinet and the Hieda cross-campus index,
+  with legacy one-page hashes
   redirected to their new canonical locations;
 - one deliberately unlisted PHANTASM page that opens only after six different
   student-lifecycle choices leave reverse-side seals; date, eight-phase moon
@@ -32,7 +33,7 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   lifecycle ledger, joint faculty application reviews and printable decision
   letters;
 - a unified on-device records cabinet that discovers every `tu:` local or
-  session file, catalogues 53 known keys across university shelves, shows exact
+  session file, catalogues 56 known keys across university shelves, shows exact
   UTF-8 usage and browser-origin visibility, opens raw contents, exports a
   SHA-256-sealed JSON box, validates imports before writing, preserves or
   explicitly overwrites name collisions, and destroys one file, one shelf or
@@ -62,6 +63,15 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   amendments and withdrawals stay on-device, retain minority opinions without
   an aggregate ethics score, print as formal files and project into My TU, BBS,
   incident dossiers and the Hieda index;
+- a standalone Spring Spell-card Lantern / Boundary Matriculation operations
+  room with date and lunar planning, four procession networks, danmaku
+  altitude/density/cues, stage, stalls, fairy zones, power and backup, Eientei
+  aid, three competing sole gates, Aya's press timing and Prismriver closing;
+  six unaveraged desks issue clear, conditional, contested or returned
+  permits, then four of seven field incidents must be handled before a
+  printable closure. A live slip changes real map routing and clinic load,
+  while permits, duty, reactions and reports enter My TU, BBS, search, the
+  records cabinet and Hieda's ninth dossier;
 - campus-visit reservations with autosaved drafts, visitor references and a
   device-local “My Campus Visits” archive;
 - a real Misty Lake Library catalogue with 19 trilingual holdings, search and
@@ -108,8 +118,8 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   a trilingual in-universe history record, correction note and real version
   source, while mechanical merge commits separately expose their second-parent
   functional change without confusing the two SHAs;
-- a separate Hieda campus knowledge graph with eight cross-files and 55 source
-  leaves that can be inverted by event, eighteen characters, or first-parent
+- a separate Hieda campus knowledge graph with nine cross-files and 62 source
+  leaves that can be inverted by event, 21 characters, or first-parent
   version/time; every leaf resolves back to existing incident, evidence,
   governance, BBS, course, research, library, appraisal, housing or chronicle
   IDs, while matching schema-2 events from this device appear as personal
@@ -160,12 +170,13 @@ modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate fourteen pages and shared/per-page CSS bundles
+npm run build               # generate fifteen pages and shared/per-page CSS bundles
 npm run check               # build + all source, data, relationship and history contracts
 npm run check:i18n          # stable/legacy keys, collisions, titles and interpolation parity
-npm run check:contracts     # 49 event types, producer coverage and causal lifecycle fixtures
+npm run check:contracts     # 54 event types, producer coverage and causal lifecycle fixtures
 npm run check:knowledge     # Hieda sources, five-form dossiers, characters, routes and versions
 npm run check:ethics        # five cases/seats, non-averaged rulings, routes, records and events
+npm run check:festival      # six desks, field cases, routing/clinic overlays and closure
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
@@ -237,6 +248,15 @@ Set a different preview port with `PORT=4180 npm run dev`.
   and withdrawal enter the campus ledger, while BBS posts are derived views.
   Preserve `#ethics-board`, `#ethics-records`, `#ethics-case-<id>` and
   `#ethics-protocol-<id>` as exact shareable routes.
+- Keep festival dossiers, routes, infrastructure plans, review desks and field
+  incidents in `src/data/festival.js`; pure assessment, persistence, route and
+  clinic projections belong in `src/js/festival-model.js`; the focused
+  operations UI belongs in `src/js/festival.js`. Six desks never average into
+  a score, and closure never erases objections. Draft, permit and operation
+  files use `tu:festival:draft`, `tu:festival:plans` and
+  `tu:festival:operations`. Preserve `#festival-operations`,
+  `#festival-records`, `#festival-plan-<id>` and
+  `#festival-operation-<id>` as exact shareable routes.
 - Keep PHANTASM seals, courses, map nodes and examiners in
   `src/data/phantasm.js`; official-record eligibility and isolated dream
   persistence belong in `src/js/phantasm-model.js`; ordinary-site whispers use

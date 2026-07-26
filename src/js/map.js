@@ -4,6 +4,37 @@ import { getLocale } from "./i18n.js";
 import { navigateToDeepLink } from "./deep-links.js";
 import { liveCampusSnapshot, liveFacilityStatus, liveMapNotice } from "../data/live-campus.js";
 import { phantasmGateHint, phantasmGateProgress } from "./phantasm-gate.js";
+import { festivalRouteOverlay } from "./festival-model.js";
+
+function campusRoutingState() {
+  const state = liveCampusSnapshot();
+  const festival = festivalRouteOverlay();
+  if (!festival.active) return state;
+  return {
+    ...state,
+    routeRules: {
+      closedModes: [...new Set([...state.routeRules.closedModes, ...festival.closedModes])],
+      closedEdges: [...new Set([...state.routeRules.closedEdges, ...festival.closedEdges])],
+      closedTransitNodes: [...new Set([...state.routeRules.closedTransitNodes, ...festival.closedTransitNodes])],
+      modeDelay: Object.fromEntries(
+        [...new Set([...Object.keys(state.routeRules.modeDelay), ...Object.keys(festival.modeDelay)])]
+          .map((key) => [key, (state.routeRules.modeDelay[key] || 0) + (festival.modeDelay[key] || 0)]),
+      ),
+      edgeDelay: Object.fromEntries(
+        [...new Set([...Object.keys(state.routeRules.edgeDelay), ...Object.keys(festival.edgeDelay)])]
+          .map((key) => [key, (state.routeRules.edgeDelay[key] || 0) + (festival.edgeDelay[key] || 0)]),
+      ),
+    },
+    activeEvents: [
+      ...state.activeEvents,
+      {
+        id: festival.operationId,
+        glyph: "祭",
+        rule: festival.notices[0],
+      },
+    ],
+  };
+}
 
 export function initCampusMap() {
   const detail = document.querySelector(".map-detail");
@@ -131,7 +162,7 @@ export function initCampusMap() {
     const selectedTo = toSelect.value || "kappa";
     const selectedMode =
       planner.querySelector('input[name="route-mode"]:checked')?.value || currentRoute?.mode || "walk";
-    const liveState = liveCampusSnapshot();
+    const liveState = campusRoutingState();
 
     for (const [select, value] of [
       [fromSelect, selectedFrom],
@@ -236,7 +267,7 @@ export function initCampusMap() {
     const from = planner.querySelector("[data-route-from]").value;
     const to = planner.querySelector("[data-route-to]").value;
     const mode = planner.querySelector('input[name="route-mode"]:checked')?.value || "walk";
-    const liveState = liveCampusSnapshot();
+    const liveState = campusRoutingState();
     const result = findCampusRoute(from, to, mode, liveState.routeRules);
     if (!result) return;
     const timestamp = preserveTime && currentRoute?.timestamp ? currentRoute.timestamp : Date.now();
@@ -310,6 +341,7 @@ export function initCampusMap() {
   });
   const renderNotice = () => {
     const notice = liveMapNotice(getLocale());
+    const festival = festivalRouteOverlay();
     const trace = phantasmGateProgress();
     const locale = getLocale();
     const hint = phantasmGateHint(locale, "map");
@@ -324,7 +356,10 @@ export function initCampusMap() {
     const text = document.querySelector("[data-map-notice]");
     const entrance = document.querySelector("[data-phantasm-map-entrance]");
     if (label) label.textContent = notice.label;
-    if (text) text.textContent = `${notice.text}${ninth}`;
+    const festivalNote = festival.active
+      ? `　${festival.notices.map((item) => item[locale]).join(" ")}`
+      : "";
+    if (text) text.textContent = `${notice.text}${festivalNote}${ninth}`;
     if (entrance) {
       entrance.hidden = !hint.href;
       entrance.href = hint.href || "";
@@ -339,8 +374,12 @@ export function initCampusMap() {
   };
   window.addEventListener("resize", () => {
     if (!currentRoute) return;
-    const result = findCampusRoute(currentRoute.from, currentRoute.to, currentRoute.mode, liveCampusSnapshot().routeRules);
+    const result = findCampusRoute(currentRoute.from, currentRoute.to, currentRoute.mode, campusRoutingState().routeRules);
     if (result) drawRoute(result);
+  });
+  window.addEventListener("tu:festivalchange", () => {
+    renderPlanner();
+    renderNotice();
   });
   render(currentPlace);
   renderPlanner();

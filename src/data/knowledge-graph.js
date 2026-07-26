@@ -11,6 +11,14 @@ import { libraryHoldings } from "./library.js";
 import { researchFiles } from "./research.js";
 import { spellPatterns } from "./spellcard-workshop.js";
 import { ethicsCases } from "./ethics.js";
+import {
+  festivalGatePlans,
+  festivalIncidentPool,
+  festivalKinds,
+  festivalPowerPlans,
+  festivalReviewDesks,
+  festivalRoutes,
+} from "./festival.js";
 
 const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
@@ -154,6 +162,24 @@ export const knowledgeCharacters = Object.freeze([
     glyph: "時",
     name: l("十六夜咲夜", "十六夜咲夜", "Sakuya Izayoi"),
     role: l("停止時間、零分鐘對照，以及只有她那一側仍在走的鐘", "時間停止・0分対照・彼女側だけで進む時計", "Stopped time, zero-minute controls, and the clock still moving only on her side"),
+  },
+  {
+    id: "kanako",
+    glyph: "注",
+    name: l("八坂神奈子", "八坂神奈子", "Kanako Yasaka"),
+    role: l("穩定供電、注連繩施工，以及每一條電線究竟算誰的信仰設施", "安定給電・注連縄工事・各電線が誰の信仰設備かという争い", "Stable power, shimenawa works, and disputes over whose faith infrastructure each cable is"),
+  },
+  {
+    id: "byakuren",
+    glyph: "蓮",
+    name: l("聖白蓮", "聖白蓮", "Byakuren Hijiri"),
+    role: l("共同生活、夜間接納，以及把唯一正門留給不會飛的人", "共同生活・夜間受入れ・唯一正門を飛べない者へ残すこと", "Shared life, night welcome, and leaving the sole main gate to those who cannot fly"),
+  },
+  {
+    id: "miko",
+    glyph: "聽",
+    name: l("豐聰耳神子", "豊聡耳神子", "Toyosatomimi no Miko"),
+    role: l("同時聽十份開幕辭、公共秩序，以及堅稱正門先到先用", "十の開幕辞の同時聴取・公共秩序・正門は先着順という主張", "Hearing ten opening speeches at once, public order, and insisting the gate is first-come first-served"),
   },
 ]);
 
@@ -423,6 +449,49 @@ export const knowledgeDossiers = Object.freeze([
       record("ethics-history", "archive", "history", "five-seats-refuse-one-average", ["akyuu", "eirin", "satori", "keine", "eiki", "reimu"], l("校史記下五席開會，也記下第一項決議是禁止使用平均釘書機。", "大学史は五席の開会と、最初の決定が平均ホチキス禁止だったことを記す。", "The chronicle records the five-seat opening and its first ruling: no averaging stapler.")),
     ],
   },
+  {
+    id: "festival-six-desks",
+    glyph: "祭",
+    code: "HIEDA / 09",
+    title: l(
+      "六桌一夜：到底有幾扇唯一正門？",
+      "六机一夜：唯一の正門はいくつあるのか",
+      "Six desks, one night: how many sole main gates exist?",
+    ),
+    lead: l(
+      "同一場燈會在安全桌是退路，在河童桌是負載，在永遠亭是候診，在文的紙上已經提前開幕；三個信仰勢力則都帶來了唯一正門的鑰匙。",
+      "同じ灯会が安全机では退路、河童机では負荷、永遠亭では待合、文の紙面では既に開幕済み。三つの信仰勢力は全て唯一正門の鍵を持参した。",
+      "The same lantern festival is an exit plan at Safety, a load curve to the kappa, a clinic queue at Eientei, and already open in Aya's paper. Three faiths each arrive with the key to the sole main gate.",
+    ),
+    tension: l(
+      "靈夢要一口氣說完停止規則；荷取要先知道神奈子會不會把備援也變成奉納；永琳把滿月當醫療條件；文堅稱提前九分鐘發布只是讓消息準時抵達。",
+      "霊夢は停止規則を一息で、にとりは神奈子が予備電源まで奉納にしないか確認、永琳は満月を医療条件に、文は九分前の発行を情報の定刻到着だと主張。",
+      "Reimu wants the stop rule in one breath; Nitori wants to know whether Kanako will turn the backup supply into an offering; Eirin treats the full moon as a medical condition; Aya calls publishing nine minutes early punctual delivery.",
+    ),
+    characters: ["akyuu", "reimu", "nitori", "eirin", "aya", "yukari", "kanako", "byakuren", "miko"],
+    versions: ["six-desks-open-one-contested-gate", "translation-keys-tie-the-red-ledger-thread", "five-records-share-one-red-thread"],
+    eventQueries: [
+      {
+        types: [
+          "festival.plan.submitted",
+          "festival.permit.issued",
+          "festival.shift.started",
+          "festival.incident.resolved",
+          "festival.report.closed",
+        ],
+        refs: [],
+      },
+    ],
+    records: [
+      record("festival-brief", "case", "festival-kind", "spring-lantern", ["reimu", "aya", "akyuu"], l("徵件寫非攻擊性光彈；安全桌另附一張紙，詢問光彈知不知道自己不是攻擊。", "募集要項は非攻撃光弾。安全机は別紙で、光弾自身が非攻撃だと知っているか質問。", "The call says non-aggressive light danmaku; Safety attaches a sheet asking whether the danmaku knows that.")),
+      record("six-desk-sheet", "governance", "festival-desk", "faith", ["kanako", "byakuren", "miko", "reimu"], l("信仰桌沒有表決誰比較唯一；它把三份開幕辭按同一分鐘排好，讓爭議準時發生。", "信仰机は誰がより唯一か採決せず、三つの開幕辞を同時刻へ並べて争いを定刻開催。", "The faith desk does not vote on who is more sole; it schedules three opening addresses for the same minute so the dispute begins on time.")),
+      record("procession-line", "evidence", "festival-route", "three-faith-loop", ["yukari", "reimu", "byakuren"], l("路線圖有一個入口、三個標成正門的箭頭，以及一條只供不會飛者使用但常被掃帚抄近路的地線。", "経路図は入口一つ、正門と記した矢印三つ、飛べない者専用だが箒が近道に使う地上線一本。", "The route has one entrance, three arrows marked main gate, and one ground line for non-fliers that brooms keep using as a shortcut.")),
+      record("mixed-power", "evidence", "festival-power", "mixed-grid", ["nitori", "kanako"], l("河童負責把電送到燈；守矢負責說明燈為何亮。停電時雙方各自證明不是自己的那一半。", "河童は灯へ電気を送り、守矢は灯が光る理由を説明。停電時は双方が自分の半分ではないと証明。", "Kappa deliver power to the lanterns; Moriya explains why they shine. During an outage, each proves it was not their half.")),
+      record("aya-opening", "report", "festival-incident", "aya-early-opening", ["aya", "akyuu", "reimu"], l("號外在許可前九分鐘寫『如期開幕』；訂正欄在許可後九分鐘補上『如哪一期』。", "号外は許可九分前に「予定通り開幕」。訂正欄は九分後に「どの予定か」を追記。", "The extra says “opened as scheduled” nine minutes before approval; Corrections adds “which schedule” nine minutes after.")),
+      record("gate-claim", "correction", "festival-gate", "rotating", ["kanako", "byakuren", "miko", "yukari"], l("輪值表每二十分鐘更換唯一正門。紫在分鐘之間加了一條境界，於是同一瞬間仍保留兩個唯一。", "当番表は二十分ごとに唯一正門を交代。紫が分の間へ境界を足し、同じ瞬間に唯一が二つ残る。", "The rota changes the sole gate every twenty minutes. Yukari inserts a boundary between minutes, leaving two sole gates in the same instant.")),
+      record("festival-history", "archive", "history", "six-desks-open-one-contested-gate", ["akyuu", "reimu", "nitori", "eirin", "aya", "kanako", "byakuren", "miko"], l("校史記下運營室開桌，也把結祭後仍未解決的正門異議夾在下一屆申請表前。", "大学史は運営室の開机と、閉祭後も未解決の正門異議を次年度申請書の前へ綴じた。", "The chronicle records the operations room opening and files the unresolved gate objection ahead of next year's application.")),
+    ],
+  },
 ]);
 
 const sourceCollections = {
@@ -437,6 +506,12 @@ const sourceCollections = {
   history: campusHistory,
   "spell-pattern": spellPatterns,
   "ethics-case": ethicsCases,
+  "festival-kind": festivalKinds,
+  "festival-route": festivalRoutes,
+  "festival-power": festivalPowerPlans,
+  "festival-gate": festivalGatePlans,
+  "festival-desk": festivalReviewDesks,
+  "festival-incident": festivalIncidentPool,
 };
 
 const localized = (value, locale) => value?.[locale] || value?.["zh-Hant"] || value || "";
@@ -457,6 +532,12 @@ function routeForSource(source) {
     history: `chronicle-${source.id}`,
     "spell-pattern": `spellcard-pattern-${source.id}`,
     "ethics-case": `ethics-case-${source.id}`,
+    "festival-kind": "festival-operations",
+    "festival-route": "festival-operations",
+    "festival-power": "festival-operations",
+    "festival-gate": "festival-operations",
+    "festival-desk": "festival-operations",
+    "festival-incident": "festival-operations",
   };
   return routes[source.type] || "top";
 }
@@ -534,6 +615,30 @@ export function resolveKnowledgeRecord(recordEntry, locale = "zh-Hant") {
     case "ethics-case":
       title = localized(source.title, locale);
       detail = `${source.code} · ${localized(source.conflict, locale)}`;
+      break;
+    case "festival-kind":
+      title = localized(source.name, locale);
+      detail = `${source.code} · ${localized(source.short, locale)}`;
+      break;
+    case "festival-route":
+      title = localized(source.name, locale);
+      detail = localized(source.detail, locale);
+      break;
+    case "festival-power":
+      title = localized(source.name, locale);
+      detail = `${localized(source.owner, locale)} · ${localized(source.dispute, locale)}`;
+      break;
+    case "festival-gate":
+      title = localized(source.name, locale);
+      detail = localized(source.claimant, locale);
+      break;
+    case "festival-desk":
+      title = localized(source.name, locale);
+      detail = localized(source.question, locale);
+      break;
+    case "festival-incident":
+      title = localized(source.title, locale);
+      detail = localized(source.body, locale);
       break;
     default:
       return null;

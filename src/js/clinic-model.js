@@ -9,6 +9,7 @@ import {
   clinicTherapies,
 } from "../data/clinic.js";
 import { liveCampusSnapshot } from "../data/live-campus.js";
+import { festivalClinicPressure } from "./festival-model.js";
 
 export const CLINIC_KEYS = {
   draft: "tu:clinic:triage-draft",
@@ -128,6 +129,7 @@ export function clinicCarePlans() {
 
 function operationalLoad(now = new Date()) {
   const state = liveCampusSnapshot(now);
+  const festival = festivalClinicPressure();
   const lunarLoad = [3, 4, 5].includes(state.phase) ? 7 : 0;
   const eventLoad = state.activeEvents.reduce((total, event) => {
     if (event.route?.closedEdges?.some((edge) => edge.includes("clinic"))) return total + 6;
@@ -136,7 +138,8 @@ function operationalLoad(now = new Date()) {
   }, 0);
   return {
     state,
-    points: lunarLoad + eventLoad + state.slot * 2,
+    festival,
+    points: lunarLoad + eventLoad + state.slot * 2 + festival.points,
   };
 }
 
@@ -161,7 +164,7 @@ export function assessTriage(input, now = new Date()) {
   );
   const band = critical || score >= 17 ? "urgent" : score >= 10 ? "priority" : "routine";
   const siteId = band !== "routine" || siteRequired ? "eientei" : "infirmary";
-  const { state, points } = operationalLoad(now);
+  const { state, festival, points } = operationalLoad(now);
   const baseWait = band === "urgent" ? 3 : band === "priority" ? 11 : 19;
   const waitMinutes = Math.max(2, baseWait + Math.round(points / (band === "urgent" ? 4 : 2)));
   const medicines = [...new Set(complaints.flatMap((complaint) => complaint.medicineIds))]
@@ -186,7 +189,14 @@ export function assessTriage(input, now = new Date()) {
     snapshotKey: `${state.dayKey}:${state.slot}`,
     phase: state.phase,
     weather: state.weather,
-    rules: state.activeEvents.map((event) => event.rule),
+    rules: [
+      ...state.activeEvents.map((event) => event.rule),
+      ...(festival.active ? [{
+        "zh-Hant": `祭典運行票預估另有 ${festival.expected} 人需要急救或候診。`,
+        ja: `祭典運行票は救護・受診 ${festival.expected} 人を追加予測。`,
+        en: `The live festival slip adds ${festival.expected} expected aid or clinic presentations.`,
+      }] : []),
+    ],
   };
 }
 

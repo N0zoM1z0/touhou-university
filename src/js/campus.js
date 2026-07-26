@@ -2,6 +2,7 @@ import { campusFeatures, clubs } from "../data/campus.js";
 import { getLocale } from "./i18n.js";
 import { closeInfoDialog, openInfoDialog } from "./info-dialog.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
+import { navigateToSiteRoute } from "./site-router.js";
 
 function triggerService(service) {
   document.querySelector(`[data-service="${service}"]`)?.click();
@@ -18,7 +19,11 @@ function showFeature(id) {
     meta: feature.details.map((value) => (typeof value === "object" ? value[locale] : value)),
     action: {
       label: feature.action[locale],
-      handler: () => triggerService(feature.service),
+      handler: () => {
+        closeInfoDialog();
+        if (feature.route) navigateToSiteRoute(feature.route);
+        else triggerService(feature.service);
+      },
     },
   });
 }

@@ -78,6 +78,7 @@ if (!redirected) {
     initialize("[data-research]", "./research.js", "initResearch"),
     initialize("[data-spellcard-workshop]", "./spellcard-workshop.js", "initSpellcardWorkshop"),
     initialize("[data-ethics-app]", "./ethics.js", "initEthics"),
+    initialize("[data-festival-app]", "./festival.js", "initFestival"),
     initialize("#bbs", "./bbs.js", "initBbs"),
     initialize("[data-campus-feature]", "./campus.js", "initCampusInteractions"),
     initialize("[data-news-track]", "./news.js", "initNews"),

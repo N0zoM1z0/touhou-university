@@ -93,6 +93,9 @@ body:not([data-page="home"]) .site-header {
 
 body[data-page="academics"] .desktop-nav [data-nav-group="university"] > summary,
 body[data-page="research"] .desktop-nav [data-nav-group="university"] > summary,
+body[data-page="ethics"] .desktop-nav [data-nav-group="university"] > summary,
+body[data-page="hieda"] .desktop-nav [data-nav-group="university"] > summary,
+body[data-page="festival"] .desktop-nav [data-nav-group="university"] > summary,
 body[data-page="campus"] .desktop-nav [data-nav-group="university"] > summary,
 body[data-page="admissions"] .desktop-nav [data-nav-group="services"] > summary,
 body[data-page="mytu"] .desktop-nav [data-nav-group="services"] > summary,

@@ -695,10 +695,9 @@ export const campusHistory = [
   {
     id: "five-seats-refuse-one-average",
     archiveId: "TU-H-029",
-    commit: null,
+    commit: "f056da10da99c43f7c04bccd3810ee12bd7f9120",
     commitSubject: "Add Gensokyo research ethics review board",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "research",
     era: l("同朝・第一觀測之前", "同朝・最初の観測より前", "Same morning · Before the first observation"),
     title: l(
@@ -715,6 +714,31 @@ export const campusHistory = [
       "文在開會前九分鐘刊出《五席一致通過首案》；五席當時唯一一致的事，是要求標題退回修改。魔理沙問能否先做實驗再補同意，靈夢把申請表翻到背面，背面只有一個很大的「不行」。第七十七號閱讀器則在所有人簽完後顯示：『我沒有簽。』",
       "文は開会9分前に『五席全会一致で初案件可決』を発行。五席が唯一一致したのは見出しの差戻しだった。魔理沙が実験後の同意追記を尋ねると、霊夢は申請書を裏返した。裏には大きく「だめ」とだけある。第77号読書端末は全員の署名後に「私は署名していない」と表示した。",
       "Aya prints “Five seats unanimously approve first protocol” nine minutes before the meeting. Their only unanimous act is returning the headline for revision. Marisa asks whether consent can be added after the experiment; Reimu turns the form over, where a very large “NO” occupies the reverse. After everyone signs, Drift Reader 77 displays: “I did not.”",
+    ),
+  },
+  {
+    id: "six-desks-open-one-contested-gate",
+    archiveId: "TU-H-030",
+    commit: null,
+    commitSubject: "Add Gensokyo festival operations system",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "campus",
+    era: l("同日・開門鐘前九分鐘", "同日・開門鐘九分前", "Same day · Nine minutes before the opening bell"),
+    title: l(
+      "六桌准許一場燈會開幕，三扇唯一正門則同時宣稱自己沒有遲到",
+      "六机が灯会の開幕を許可、三つの唯一正門は同時に遅刻していないと主張",
+      "Six desks clear one lantern festival; three sole main gates all deny being late",
+    ),
+    summary: l(
+      "春季符卡燈會與境界開學祭不再只是校曆上的一行。主辦人可編成日期、月相、遊行線、符卡高度與密度、預兆、舞台、攤位、妖精區、供電、急救、正門、通報與騷靈閉場；靈夢、荷取、永琳、文、三信仰會議與宿舍夜桌分開審查，任一退回都能阻止開祭，條件與異議則原樣進入正式許可。開門後，號外搶跑、奉納配電箱、漂走的妖精燈、無需空氣傳播的騷靈噪音、滿月書群與雨中境界會逐宗要求處置；選擇會改變到場、延誤、供電、候診與仍未解決的爭議。運行票同時接管校園路線與永遠亭負荷，結祭才釋放封路；許可、值班、事故與報告進入本機資料櫃、My TU、BBS 與稗田第九宗交叉案卷。",
+      "春季スペルカード灯会と境界開学祭は、学年暦の一行ではなくなった。主催者は日付、月相、行列、スペル高度・密度、予兆、舞台、屋台、妖精区、給電、救護、正門、広報、騒霊閉場を編成する。霊夢、にとり、永琳、文、三信仰会議、寮の夜机が別々に審査し、一つの差戻しで開祭を止め、条件と異議はそのまま正式許可へ入る。開門後は、先走る号外、奉納札付き配電箱、漂流妖精灯、空気不要の騒霊騒音、満月の書群、雨中境界を個別に処置する。選択は来場、遅延、電力、待合、未解決異議を変える。運行票は学内経路と永遠亭負荷を同時に変更し、閉祭時だけ規制を解放。許可、当番、事故、報告は端末内資料棚、My TU、BBS、稗田第九交差案件へ入る。",
+      "The Spring Spell-card Lantern Festival and Boundary Matriculation Festival are no longer one calendar line. Organisers compose date, moon, procession, spell altitude and density, cues, stage, stalls, fairy zone, power, aid, sole gate, press, and poltergeist closing. Reimu, Nitori, Eirin, Aya, the Three-Faith Council, and the residence night desk review separately: one return can stop opening, while every condition and objection enters the permit intact. After the bell, early extras, votive-plaque power boxes, drifting fairy lanterns, airless poltergeist noise, full-moon book flocks, and rain boundaries each demand a field response. Choices alter attendance, delay, power, clinic presentations, and unresolved disputes. The live slip changes campus routing and Eientei load until closure; permits, duty, incidents, and reports enter the records cabinet, My TU, BBS, and Hieda's ninth cross-file.",
+    ),
+    marginalia: l(
+      "文在六桌敲鐘前九分鐘刊出「一致通過」；阿求數出一席條件、兩席異議與三張被雨黏住的附件。神奈子說穩壓器證明守矢才是主辦，白蓮把正門讓給不會飛的人，神子則已經同時聽完十份開幕辭。紫最後在輪值表兩分鐘之間畫了一道境界，於是本校第一次在同一瞬間擁有兩扇唯一正門。",
+      "文は六机の鐘より九分前に「全会一致」を発行。阿求は条件一席、異議二席、雨で貼りついた附件三枚を数えた。神奈子は安定器が守矢の主催権を証明すると言い、白蓮は飛べない者へ正門を譲り、神子は既に十の開幕辞を同時に聞き終えた。紫が当番表の二分間へ境界を引き、大学は初めて同じ瞬間に二つの唯一正門を持った。",
+      "Aya publishes “unanimously approved” nine minutes before the six desks ring. Akyuu counts one condition, two objections, and three rain-stuck annexes. Kanako says the voltage regulator proves Moriya owns the event; Byakuren leaves the gate to non-fliers; Miko has already heard ten opening speeches at once. Yukari draws a boundary between two minutes on the rota, giving the university two sole main gates in the same instant.",
     ),
   },
 ];

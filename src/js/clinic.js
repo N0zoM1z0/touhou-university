@@ -857,6 +857,7 @@ function render() {
 export function initClinic() {
   if (!app) return;
   window.addEventListener("tu:languagechange", render);
+  window.addEventListener("tu:festivalchange", render);
   window.addEventListener("hashchange", () => {
     if (window.location.hash.startsWith("#clinic")) render();
   });

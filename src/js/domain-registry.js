@@ -12,6 +12,7 @@ import { clinicMedicines, clinicTherapies } from "../data/clinic.js";
 import { appraisalObjects } from "../data/appraisal.js";
 import { spellPatterns } from "../data/spellcard-workshop.js";
 import { ethicsCases, ethicsOutcomeLabels } from "../data/ethics.js";
+import { festivalKinds, festivalLocalized, festivalRoutes } from "../data/festival.js";
 import { phantasmCourses } from "../data/phantasm.js";
 import {
   dossiersForCharacter,
@@ -27,6 +28,11 @@ import { clinicCommunityPosts } from "./clinic-model.js";
 import { appraisalCommunityPosts } from "./appraisal-model.js";
 import { spellcardCommunityPosts } from "./spellcard-workshop-model.js";
 import { ethicsCommunityPosts, ethicsProtocols } from "./ethics-model.js";
+import {
+  festivalCommunityPosts,
+  festivalOutcomeLabels,
+  festivalPlans,
+} from "./festival-model.js";
 import { phantasmCommunityPosts } from "./phantasm-model.js";
 import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
 
@@ -104,6 +110,46 @@ const domainManifests = [
     community: ethicsCommunityPosts,
     communityPriority: 65,
     changeEvents: ["tu:ethicschange"],
+  },
+  {
+    id: "festival",
+    search(locale) {
+      return [
+        ...festivalKinds.map((kind) =>
+          entry(
+            "festival-operations",
+            "festival",
+            `${kind.code} · ${festivalLocalized(kind.name, locale)}`,
+            festivalLocalized(kind.premise, locale),
+            kind,
+            77,
+          )),
+        ...festivalRoutes.map((route) =>
+          entry(
+            "festival-operations",
+            "festival",
+            festivalLocalized(route.name, locale),
+            festivalLocalized(route.detail, locale),
+            route,
+            54,
+          )),
+        ...festivalPlans().map((plan) =>
+          entry(
+            `festival-plan-${plan.id}`,
+            "festival",
+            plan.draft.title || festivalLocalized(
+              festivalKinds.find(({ id }) => id === plan.draft.kindId)?.name,
+              locale,
+            ),
+            `${festivalLocalized(festivalOutcomeLabels[plan.outcome], locale)} · ${plan.id}`,
+            plan,
+            83,
+          )),
+      ];
+    },
+    community: festivalCommunityPosts,
+    communityPriority: 66,
+    changeEvents: ["tu:festivalchange"],
   },
   {
     id: "campus",

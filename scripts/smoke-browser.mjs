@@ -1345,6 +1345,111 @@ try {
     `Ethics rulings did not create four linked BBS reactions (${JSON.stringify(ethicsBbs)}).`,
   );
 
+  await navigate("festival.html#festival-operations", "[data-festival-app]");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-festival-form]'))"));
+  const festivalPermit = await cdp.evaluate(`(async () => {
+    const form = document.querySelector('[data-festival-form]');
+    form.elements.title.value = '三扇唯一正門都沒有遲到的春夜';
+    form.elements.title.dispatchEvent(new InputEvent('input', { bubbles: true, data: '夜', inputType: 'insertText' }));
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const plan = JSON.parse(localStorage.getItem('tu:festival:plans') || '[]').at(-1);
+    return {
+      hash: location.hash,
+      plan,
+      desks: document.querySelectorAll('.festival-review-grid > article').length,
+      printable: Boolean(document.querySelector('[data-festival-print-plan]')),
+      overflow: document.documentElement.scrollWidth > window.innerWidth
+    };
+  })()`);
+  check(
+    festivalPermit.hash.startsWith("#festival-plan-")
+      && festivalPermit.plan?.draft?.title.includes("唯一正門")
+      && festivalPermit.desks === 6
+      && festivalPermit.printable
+      && !festivalPermit.overflow,
+    `Festival draft did not become a six-desk shareable permit (${JSON.stringify(festivalPermit)}).`,
+  );
+  const festivalLive = await cdp.evaluate(`(async () => {
+    const form = document.querySelector('[data-festival-start]');
+    if (form.elements.acknowledged) form.elements.acknowledged.checked = true;
+    form.elements.role.value = 'organiser';
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const model = await import(${JSON.stringify(`${siteUrl}src/js/festival-model.js`)});
+    return {
+      hash: location.hash,
+      incidents: document.querySelectorAll('.festival-incidents article').length,
+      routeActive: model.festivalRouteOverlay().active,
+      clinicActive: model.festivalClinicPressure().active,
+      mapLink: document.querySelector('.festival-live-links a[href*="map"]')?.getAttribute('href')
+    };
+  })()`);
+  check(
+    festivalLive.hash.startsWith("#festival-operation-")
+      && festivalLive.incidents === 4
+      && festivalLive.routeActive
+      && festivalLive.clinicActive
+      && festivalLive.mapLink === "campus.html#map",
+    `Opening bell did not activate field cases, routing, and Eientei load (${JSON.stringify(festivalLive)}).`,
+  );
+  await navigate("campus.html#map", "[data-route-planner]");
+  const festivalMapProjection = await cdp.evaluate(`({
+    notice: document.querySelector('[data-map-notice]')?.textContent || '',
+    liveRules: [...document.querySelectorAll('[data-route-live] li')].map((node) => node.textContent),
+    routeModes: document.querySelectorAll('[data-route-modes] input').length
+  })`);
+  check(
+    festivalMapProjection.notice.includes("祭典")
+      && festivalMapProjection.liveRules.some((rule) => rule.includes("祭"))
+      && festivalMapProjection.routeModes === 4,
+    `Live festival slip did not enter the real campus route desk (${JSON.stringify(festivalMapProjection)}).`,
+  );
+  await navigate(`festival.html${festivalLive.hash}`, "[data-festival-operation-file]");
+  const festivalClosed = await cdp.evaluate(`(async () => {
+    for (let index = 0; index < 4; index += 1) {
+      document.querySelector('[data-festival-response]:not(:disabled)')?.click();
+      await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    }
+    const close = document.querySelector('[data-festival-close]');
+    const enabled = Boolean(close && !close.disabled);
+    close?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const operation = JSON.parse(localStorage.getItem('tu:festival:operations') || '[]').at(-1);
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      enabled,
+      status: operation?.status,
+      responses: operation?.responses?.length,
+      report: Boolean(document.querySelector('.festival-report')),
+      print: Boolean(document.querySelector('[data-festival-print-report]')),
+      events: ledger.filter((event) => event.type.startsWith('festival.')).length
+    };
+  })()`);
+  check(
+    festivalClosed.enabled
+      && festivalClosed.status === "closed"
+      && festivalClosed.responses === 4
+      && festivalClosed.report
+      && festivalClosed.print
+      && festivalClosed.events === 8,
+    `Festival field responses did not close into a printable causal record (${JSON.stringify(festivalClosed)}).`,
+  );
+  await navigate("campus.html#bbs", "[data-bbs-list]");
+  const festivalBbs = await cdp.evaluate(`(() => {
+    const posts = [...document.querySelectorAll('.festival-post')];
+    posts[0]?.querySelector('.bbs-row-trigger')?.click();
+    return {
+      posts: posts.length,
+      linked: posts.every((post) => post.querySelector('.incident-linked')?.textContent.includes('祭典')),
+      action: document.querySelector('[data-info-action]')?.textContent || ''
+    };
+  })()`);
+  check(
+    festivalBbs.posts >= 2 && festivalBbs.linked && /祭典|運行/.test(festivalBbs.action),
+    `Festival permits and closing extras did not reach linked BBS views (${JSON.stringify(festivalBbs)}).`,
+  );
+
   await navigate("housing.html#housing-residence-misty-north", "[data-housing-app]");
   const housingResidence = await cdp.evaluate(`({
     page: document.body.dataset.page,
@@ -1700,6 +1805,8 @@ try {
       spellcardEvents: ledger.filter((event) => event.type.startsWith('spellcard.')).length,
       ethicsLink: document.querySelector('.mytu-summary a[href*="#ethics-records"]')?.textContent || '',
       ethicsEvents: ledger.filter((event) => event.type.startsWith('ethics.')).length,
+      festivalLink: document.querySelector('.mytu-summary a[href*="#festival-records"]')?.textContent || '',
+      festivalEvents: ledger.filter((event) => event.type.startsWith('festival.')).length,
       housingLink: document.querySelector('.mytu-summary a[href^="housing.html"]')?.textContent || '',
       housingEvents: ledger.filter((event) => event.type.startsWith('housing.')).length,
       incidentLink: document.querySelector('.mytu-summary a[href^="incidents.html"]')?.textContent || '',
@@ -1714,6 +1821,7 @@ try {
   check(/鑑定|漂流物/.test(myTuLibrary.appraisalLink) && myTuLibrary.appraisalEvents >= 3, "Drift-object appraisal records are missing from My TU.");
   check(/符卡|答辯/.test(myTuLibrary.spellcardLink) && myTuLibrary.spellcardEvents === 2, "Spell-card design and defence are missing from My TU.");
   check(/倫理|五席/.test(myTuLibrary.ethicsLink) && myTuLibrary.ethicsEvents === 5, "Ethics protocols, reviews, amendments, and withdrawal are missing from My TU.");
+  check(/祭典|值班/.test(myTuLibrary.festivalLink) && myTuLibrary.festivalEvents === 8, "Festival permit, duty, field cases, and closure are missing from My TU.");
   check(/宿舍|換房/.test(myTuLibrary.housingLink), "My TU does not link to the housing record.");
   check(myTuLibrary.housingEvents >= 3, "Housing actions are missing from the My TU campus ledger.");
   check(/事件研究|結案/.test(myTuLibrary.incidentLink) && myTuLibrary.incidentEvents >= 4 && myTuLibrary.contestedEvent, "Normal and contested incident work is missing from My TU.");
@@ -1723,7 +1831,7 @@ try {
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -2267,7 +2375,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -2310,7 +2418,7 @@ try {
   check(
     mobileMenu.expanded === "true"
       && mobileMenu.visible
-      && mobileMenu.links === 15
+      && mobileMenu.links === 16
       && mobileMenu.backgroundInert
       && mobileFocus,
     "Mobile navigation did not open completely or move keyboard focus into its modal layer.",
@@ -2321,7 +2429,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, six-desk festival permits/live routes/clinic load/field closure, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();

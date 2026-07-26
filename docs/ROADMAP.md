@@ -238,6 +238,35 @@ Status: implemented in 0.21.0.
 - follow-up: user-selected partial export bundles and human-readable paper
   manifests alongside the lossless JSON archive
 
+## Batch 14 — Gensokyo research ethics review board
+
+Status: implemented in 0.24.0.
+
+- five independent seats review risk/stopping, mental access, record
+  deletion/forgetting, rights/appeal and field enforceability without a total
+  score
+- five complete specimen disputes, autosaved drafts, immutable versioned
+  protocols, amendments, withdrawal, printable rulings, My TU, BBS, incident
+  and Hieda projections
+- follow-up: scheduled continuing review, adverse-event intake and
+  reviewer-recusal records
+
+## Batch 15 — Spring lantern / boundary festival operations
+
+Status: implemented in 0.25.0.
+
+- two festival dossiers with route, airspace, danmaku, capacity, power, food,
+  fairy, aid, gate, press and Prismriver decisions
+- six independent permit desks; returns block opening while conditions and
+  objections survive into the formal file
+- four-case live operations drawn from seven Gensokyo incidents, with
+  response-dependent attendance, delay, power, clinic and dispute outcomes
+- live operation slips merge into campus routing and Eientei pressure, then
+  release at closure; permits and reports reach My TU, BBS, search, records and
+  Hieda dossier 09
+- follow-up: multi-day volunteer rosters, stall stock ledgers and a second
+  night whose route inherits unresolved objections from the first
+
 ## Cross-cutting tracks
 
 - official document generator grows alongside every lifecycle feature
