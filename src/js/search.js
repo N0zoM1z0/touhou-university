@@ -16,7 +16,7 @@ import { getLocale } from "./i18n.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { currentPage, pageForRoute, siteHref } from "./site-router.js";
 import { incidentCommunityPosts } from "./incident-model.js";
-import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
+import { phantasmEntranceHref, phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
 
 const dialog = document.querySelector("[data-search-dialog]");
 const input = dialog?.querySelector("[data-search-input]");
@@ -395,6 +395,19 @@ function buildIndex() {
         priority: 58,
       }));
     });
+  } else if (phantasmProgress.eligible) {
+    index.push(makeEntry({
+      route: "phantasm-campus",
+      category: "phantasm",
+      title: locale === "ja" ? "第九件（索引は否認）" : locale === "en" ? "Result Nine (index denies it)" : "第九筆（索引否認）",
+      description: locale === "ja"
+        ? "六つの裏印は揃ったが、検索先は日付・月相・当番鐘で移動する。"
+        : locale === "en"
+          ? "Six reverse seals are present, but the result moves with date, lunar phase, and duty bell."
+          : "六枚反面印已齊，但查詢位置會隨日期、月相與當值校鐘移動。",
+      source: ["第九節", "第九時限", "ninth period", "夢境", "dream", "phantasm", "反面", "reverse"],
+      priority: 32,
+    }));
   } else if (phantasmProgress.count >= 2) {
     index.push(makeEntry({
       route: "my-tu",
@@ -413,6 +426,10 @@ function buildIndex() {
 }
 
 function openResult(route) {
+  if (route.startsWith("phantasm-")) {
+    window.location.assign(phantasmEntranceHref("search", route));
+    return;
+  }
   if (pageForRoute(route) !== currentPage()) {
     window.location.assign(siteHref(route));
     return;
@@ -446,7 +463,7 @@ function renderResults() {
   results.innerHTML = matches
     .map(
       (entry) => `
-        <a href="${siteHref(entry.route)}" data-search-route="${entry.route}">
+        <a href="${entry.route.startsWith("phantasm-") ? phantasmEntranceHref("search", entry.route) : siteHref(entry.route)}" data-search-route="${entry.route}">
           <span>${c.categories[entry.category]}</span>
           <strong>${entry.title}</strong>
           <p>${entry.description}</p>

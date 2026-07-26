@@ -1,4 +1,5 @@
 import {
+  phantasmBrandProfiles,
   phantasmCopy,
   phantasmCourses,
   phantasmExaminers,
@@ -22,11 +23,16 @@ import {
   wakeFromPhantasm,
 } from "./phantasm-model.js";
 import { printDocument } from "./print-document.js";
+import {
+  phantasmBoundaryStatus,
+  phantasmEntranceClue,
+} from "./phantasm-gate.js";
 import { showToast } from "./ui.js";
 
 const root = document.querySelector("[data-phantasm-app]");
 let selectedTranscriptId = null;
 let composing = false;
+let entranceAccess = null;
 
 function text(value, locale = getLocale()) {
   return value?.[locale] || value?.["zh-Hant"] || value?.en || "";
@@ -58,7 +64,55 @@ function identity() {
   }
 }
 
-function lockedView(locale, c, progress) {
+const ordinaryBrand = {
+  "zh-Hant": { name: "幻想鄉立東方大學", title: "第九節點名簿｜幻想鄉立東方大學", motto: "越境求真・以禮交鋒" },
+  ja: { name: "幻想郷立東方大学", title: "第九時限点呼簿｜幻想郷立東方大学", motto: "越境求真・礼をもって交鋒" },
+  en: { name: "Touhou University", title: "Ninth-Period Roll｜Touhou University", motto: "SEEK TRUTH BEYOND THE BORDER" },
+};
+
+function dreamCrest(profileKey) {
+  const marks = {
+    new: "<circle cx=\"30\" cy=\"30\" r=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"39\" cy=\"24\" r=\"16\"/><path d=\"M13 49h38v4H13z\"/>",
+    waxing: "<path d=\"M18 49h31v4H14v-8h9v-8h9v-8h9V16h5v25H30v8z\"/><circle cx=\"20\" cy=\"18\" r=\"7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/>",
+    full: "<circle cx=\"32\" cy=\"29\" r=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"32\" cy=\"29\" r=\"5\"/><path d=\"M11 52h42v4H11z\"/><path d=\"M16 10h32v3H16z\"/>",
+    waning: "<path d=\"M46 49H15v4h35v-8h-9v-8h-9v-8h-9V16h-5v25h16v8z\"/><path d=\"M45 13a15 15 0 1 0 0 28 12 12 0 1 1 0-28z\"/>",
+  };
+  return `<svg viewBox="0 0 64 64" role="img" data-phantasm-crest="${profileKey}">${marks[profileKey] || marks.waxing}</svg>`;
+}
+
+function dreamFavicon(profileKey) {
+  const glyph = { new: "無", waxing: "九", full: "夢", waning: "未" }[profileKey] || "夢";
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#100d1b"/><circle cx="32" cy="32" r="24" fill="none" stroke="#c6a6d5" stroke-width="3"/><text x="32" y="41" text-anchor="middle" font-size="28" fill="#edf0df" font-family="serif">${glyph}</text></svg>`;
+  return `data:image/svg+xml,${encodeURIComponent(svg)}`;
+}
+
+function applyPhantasmBrand(active, locale, boundary) {
+  const ordinary = ordinaryBrand[locale] || ordinaryBrand["zh-Hant"];
+  const profileKey = boundary?.schedule?.moonProfile || "waxing";
+  const profile = phantasmBrandProfiles[profileKey] || phantasmBrandProfiles.waxing;
+  document.body.classList.toggle("phantasm-brand-active", active);
+  document.body.dataset.phantasmBrand = active ? profileKey : "ordinary";
+  document.querySelector('meta[name="theme-color"]')?.setAttribute("content", active ? "#100d1b" : "#151d2a");
+  const icon = document.querySelector('link[rel="icon"]');
+  if (icon) icon.href = active ? dreamFavicon(profileKey) : "assets/crest.svg";
+  document.title = active ? `${text(profile.name, locale)}｜PHANTASM` : ordinary.title;
+  document.querySelectorAll(".site-header .brand, .footer-brand .brand").forEach((brand) => {
+    const strong = brand.querySelector("strong");
+    const small = brand.querySelector("small");
+    const crest = brand.querySelector(".brand-crest");
+    if (strong) strong.textContent = active ? text(profile.name, locale) : ordinary.name;
+    if (small) small.textContent = active ? text(profile.short, locale) : "TOUHOU UNIVERSITY";
+    if (crest) {
+      crest.innerHTML = active
+        ? dreamCrest(profileKey)
+        : `<svg viewBox="0 0 64 64" role="img"><path d="M17 12h30v6H17zM12 20h40v5H12zM19 25v25h7V25zm19 0v25h7V25z"></path><circle cx="32" cy="37" r="8"></circle><path d="M8 51h48v5H8z"></path></svg>`;
+    }
+  });
+  const footerMotto = document.querySelector(".footer-brand > p");
+  if (footerMotto) footerMotto.textContent = active ? text(profile.motto, locale) : ordinary.motto;
+}
+
+function lockedView(locale, c, progress, boundary) {
   const seals = progress.seals.map((seal, index) => `
     <article class="phantasm-seal ${seal.met ? "is-met" : ""}" style="--seal-index:${index}">
       <span aria-hidden="true">${seal.mark}</span>
@@ -68,6 +122,22 @@ function lockedView(locale, c, progress) {
         ${seal.timestamp ? `<time datetime="${escapeHtml(seal.timestamp)}">${formatDate(seal.timestamp, locale)}</time>` : "<i>···</i>"}
       </div>
     </article>`).join("");
+  const lunarDesk = progress.eligible && boundary ? `
+    <section class="phantasm-lunar-desk" data-boundary-mode="${boundary.mode}">
+      <header>
+        <p>${c.boundaryEyebrow}</p>
+        <h2>${c.boundaryTitle}</h2>
+        <span>${c.boundaryLead}</span>
+      </header>
+      <dl>
+        <div><dt>${c.boundaryDate}</dt><dd>${escapeHtml(boundary.schedule.dayKey)}</dd></div>
+        <div><dt>${c.boundaryMoon}</dt><dd>${escapeHtml(c.moonNames[boundary.schedule.lunarPhase])} · ${boundary.schedule.lunarPhase}/7</dd></div>
+        <div><dt>${c.boundaryBell}</dt><dd>${String(boundary.schedule.slot + 1).padStart(2, "0")} / 08 · OPEN ${boundary.schedule.openSlots.map((slot) => String(slot + 1).padStart(2, "0")).join("·")}</dd></div>
+        <div><dt>${c.boundaryDoor}</dt><dd>${escapeHtml(phantasmEntranceClue(locale, boundary.schedule.primaryEntrance))}</dd></div>
+        <div><dt>${c.boundaryAttempts}</dt><dd>${boundary.distinctSources} / ${boundary.mercyThreshold} ${c.boundaryAttemptUnit}</dd></div>
+      </dl>
+      <p>${boundary.resonant ? c.boundaryResonant : boundary.mercyReady ? c.boundaryFrayed : c.boundaryWaiting}</p>
+    </section>` : "";
   return `
     <div class="phantasm-gate">
       <div class="phantasm-gate-sky" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
@@ -81,6 +151,7 @@ function lockedView(locale, c, progress) {
           </div>
         </header>
         <div class="phantasm-seal-board">${seals}</div>
+        ${lunarDesk}
         <footer class="phantasm-gate-actions">
           <p>${c.lockedNote}</p>
           <div>
@@ -311,12 +382,17 @@ function defenceView(locale, c, state, fragments) {
     </section>`;
 }
 
-function unlockedView(locale, c, state, fragments) {
+function unlockedView(locale, c, state, fragments, boundary) {
+  const profile = phantasmBrandProfiles[boundary?.schedule?.moonProfile] || phantasmBrandProfiles.waxing;
   return `
-    <div class="phantasm-campus" data-phantasm-phase="${state.bellPhase}">
+    <div class="phantasm-campus" data-phantasm-phase="${state.bellPhase}" data-lunar-brand="${boundary?.schedule?.moonProfile || "waxing"}">
       <header class="phantasm-hero">
         <div class="phantasm-orbit" aria-hidden="true"><i></i><i></i><i></i><b>夢</b></div>
         <div class="container">
+          <div class="phantasm-campus-identity">
+            <span aria-hidden="true">${profile.mark}</span>
+            <div><strong>${escapeHtml(text(profile.name, locale))}</strong><small>${escapeHtml(text(profile.short, locale))}</small></div>
+          </div>
           <p>${c.campusEyebrow}</p>
           <h1 id="phantasm-title">${c.campusTitle}</h1>
           <span>${c.campusLead}</span>
@@ -347,17 +423,19 @@ function render({ preserveScroll = false } = {}) {
   const c = phantasmCopy[locale] || phantasmCopy["zh-Hant"];
   const progress = phantasmProgress();
   const state = phantasmState();
-  const unlocked = Boolean(state.unlockedAt);
+  const boundary = entranceAccess?.boundary || phantasmBoundaryStatus();
+  const unlocked = Boolean(entranceAccess?.state && boundary.allowed);
   const fragments = unlocked ? dreamCounterfactuals(locale) : [];
   root.innerHTML = unlocked
-    ? unlockedView(locale, c, state, fragments)
-    : lockedView(locale, c, progress);
+    ? unlockedView(locale, c, state, fragments, boundary)
+    : lockedView(locale, c, progress, boundary);
   document.body.classList.toggle("phantasm-is-open", unlocked);
+  applyPhantasmBrand(unlocked, locale, boundary);
   if (scrollY !== null) window.requestAnimationFrame(() => window.scrollTo({ top: scrollY, behavior: "auto" }));
 }
 
 function openRoute(suffix) {
-  if (!phantasmState().unlockedAt) {
+  if (!entranceAccess?.state) {
     render();
     return;
   }
@@ -452,7 +530,18 @@ function bind() {
 
 export function initPhantasm() {
   if (!root) return;
-  const entrance = enterPhantasm();
+  const query = new URLSearchParams(window.location.search);
+  const entrance = enterPhantasm({
+    source: query.get("entrance") || "direct",
+    trace: query.get("trace") || "",
+  });
+  entranceAccess = entrance;
+  if (entrance.state && window.location.search) {
+    const clean = new URL(window.location.href);
+    clean.searchParams.delete("entrance");
+    clean.searchParams.delete("trace");
+    window.history.replaceState(window.history.state, "", clean);
+  }
   render();
   bind();
   registerDeepLink("phantasm-", {

@@ -575,10 +575,9 @@ export const campusHistory = [
   {
     id: "ninth-period-takes-attendance",
     archiveId: "TU-H-024",
-    commit: null,
+    commit: "961681100eb6b889b78e05deb19af794e5a39584",
     commitSubject: "Add hidden Phantasm dream campus",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "boundary",
     era: l("同夜・不存在的第九校鐘", "同夜・存在しない第九校鐘", "Same night · The nonexistent ninth bell"),
     title: l(
@@ -595,6 +594,31 @@ export const campusHistory = [
       "阿求為這頁預留編號，翌晨卻只找到一張寫著「TU-DREAM-TRANSCRIPT」的反面影印。靈夢在「不得於夢境邊界外使用」旁蓋了校印，又補一句：也不得拿來抵正式學費。紫認為後一句才是唯一真正的邊界。",
       "阿求は頁番号を予約したが、翌朝に残ったのは「TU-DREAM-TRANSCRIPT」とある裏面複写だけ。霊夢は「夢境界外では無効」の脇へ校印を押し、「正規学費にも充当不可」と追記。紫は後者こそ唯一の本当の境界だと言った。",
       "Akyuu reserved a page number, but by morning found only a reverse-side copy marked TU-DREAM-TRANSCRIPT. Reimu stamped “Not valid outside the dream boundary,” then added: not valid toward ordinary tuition either. Yukari called the second clause the only genuine boundary.",
+    ),
+  },
+  {
+    id: "moon-reassigns-the-university-door",
+    archiveId: "TU-H-025",
+    commit: null,
+    commitSubject: "Make Phantasm boundary follow moon and time",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "boundary",
+    era: l("同夜・月影輪值第五鐘", "同夜・月影当番第五鐘", "Same night · Fifth moonshadow duty bell"),
+    title: l(
+      "月相接管第九節門房，五扇入口開始否認彼此值班",
+      "月相が第九時限の門番を接収、五つの入口が互いの当番を否認",
+      "The moon takes over ninth-period reception; five entrances deny one another's shift",
+    ),
+    summary: l(
+      "六枚反面印如今只證明申請人有資格做夢，不再保證哪一頁肯讓他睡著。日期、八相月齡與三小時校鐘會把入口輪派到頁尾落款、My TU 第九行、地圖木板折痕、查無結果的下一筆或沒有作者的 BBS 帖；朔月與滿月偶爾讓兩扇門同時自稱正門。為免外界人類真的在門外守到下個月，連續摸到幾處錯門會把紙磨薄成六小時臨時縫。穿過後，校名、校徽、頁籤圖標與校訓也隨月相換班；醒來時普通大學則堅稱從未批准改名。",
+      "六つの裏印は今や夢を見る資格だけを示し、どの頁から眠れるかは保証しない。日付・八相月齢・三時間鐘が、頁末署名、My TU第九行、地図木板の折り目、該当なしの次結果、投稿者不在のBBSへ入口を輪番させる。朔月と満月には二つの扉が同時に正門を名乗ることもある。外界人が次の月まで門前で待たぬよう、複数の誤扉は紙を六時間だけ通れるほど薄くする。通過後は校名・校章・タブ印・校訓も月相交代となるが、覚醒時の通常大学は改名を一度も認めていない。",
+      "Six reverse seals now prove only that an applicant may dream; they no longer guarantee which page permits sleep. Date, eight-phase lunar age, and three-hour bells rotate the entrance among the footer signature, My TU row nine, the wooden map crease, the result after no results, and an authorless BBS thread. New and full moons may let two doors claim to be the main gate at once. So an Outside World visitor need not wait until next month, several wrong doors wear the paper thin enough for a six-hour seam. After passage, the university name, crest, tab icon, and motto change with the moon; on waking, the ordinary university denies ever approving a rename.",
+    ),
+    marginalia: l(
+      "文把這套制度稱為「史上首個保證迷路成功率的招生入口」。荷取反駁保證的是最終能進，不是一定迷路；紫在兩句之間畫了一扇門。靈夢只問臨時校徽是否需要再付一次製作費。",
+      "文は「迷子成功率を保証する史上初の入試口」と報道。にとりは保証対象が最終入場で、迷子そのものではないと反論。紫は二文の間に扉を描いた。霊夢は臨時校章の製作費をもう一度払うのかだけ尋ねた。",
+      "Aya called it “the first admissions gate guaranteeing successful loss.” Nitori objected that only eventual entry is guaranteed, not getting lost. Yukari drew a door between the two sentences. Reimu asked only whether the temporary crest required another production fee.",
     ),
   },
 ];

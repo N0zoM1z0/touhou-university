@@ -6,7 +6,7 @@ export function initPhantasmHints() {
   if (!root) return;
 
   const render = () => {
-    const hint = phantasmGateHint(getLocale());
+    const hint = phantasmGateHint(getLocale(), "footer");
     const marks = Array.from({ length: hint.progress.total }, (_, index) =>
       `<i class="${index < hint.progress.count ? "is-visible" : ""}" aria-hidden="true"></i>`).join("");
     root.innerHTML = `
@@ -16,13 +16,16 @@ export function initPhantasmHints() {
         : `<span>${hint.text}</span>`}
     `;
     root.dataset.phantasmTrace = hint.progress.count ? "present" : "quiet";
+    root.dataset.phantasmResonant = hint.resonant ? "true" : "false";
   };
 
   window.addEventListener("tu:languagechange", render);
   window.addEventListener("tu:ledgerchange", () => window.requestAnimationFrame(render));
   window.addEventListener("tu:phantasmchange", render);
+  window.addEventListener("tu:phantasmboundarychange", render);
   window.addEventListener("storage", (event) => {
     if (event.key?.startsWith("tu:")) render();
   });
+  window.setInterval(render, 60_000);
   render();
 }

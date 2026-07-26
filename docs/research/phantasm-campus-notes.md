@@ -79,16 +79,40 @@ Not valid outside the dream boundary
 ## Record isolation
 
 Official lifecycle events are inputs to the unlock and counterfactual
-fragments, but dream actions are never official outputs. PHANTASM uses only:
+fragments, but dream actions are never official outputs. PHANTASM uses:
 
 - `tu:phantasm:state`
 - `tu:phantasm:transcripts`
+- `tu:phantasm:boundary` for bounded wrong-door traces
+- session-only `tu:phantasm:pass` for one temporary passage
 
 It must not call the shared campus-ledger writer. Enrolment, bell changes,
 reverse defence and waking cannot enter `tu:campus:ledger`, My TU, ordinary
 course registration or the official transcript. This separation is both a
 technical invariant and the joke: the university can deny the dream because
 the dream keeps better records of being denied.
+
+## 0.20 lunar-boundary revision
+
+The six seals qualify a visitor but no longer identify a permanent door. A
+small shared calendar model derives a local day key, one of eight lunar phases
+and one of eight three-hour duty slots. Those values deterministically rotate
+the live source among the footer, My TU reverse timetable, wooden map notice,
+search index and BBS. New and full moons may admit two source surfaces at once.
+
+Every date has two normal opening slots; new and full moons have three. This
+keeps the boundary genuinely time-dependent while avoiding an unlucky date
+with no solution. Waiting is not the only solution: three distinct wrong
+surfaces on first entry, two after a previous dream, or finitely repeated
+attempts at one surface wear a temporary six-hour session seam. Thus confusion
+is part of the fiction, but permanent lockout is not.
+
+The current lunar profile also supplies one of four dream identities:
+moonless, waxing ninth-period, full-moon reverse, or waning untaken-route.
+Only after successful passage does the ordinary university name, crest,
+favicon, theme colour and footer motto change. The locked boundary deliberately
+retains ordinary branding so the transformation reads as an arrival rather
+than advance advertising.
 
 ## Working sources and boundaries
 

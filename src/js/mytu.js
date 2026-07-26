@@ -9,7 +9,7 @@ import {
 import { academicGradebook } from "./academic-model.js";
 import { initAcademicDocumentDialog, renderAcademicWorkbench } from "./academic-work.js";
 import { getLocale } from "./i18n.js";
-import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
+import { phantasmGateHint, phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
 import { printDocument } from "./print-document.js";
 import { showToast } from "./ui.js";
 import { safeDecodeFragment } from "./url-state.js";
@@ -809,6 +809,7 @@ function renderPhantasmTrace(locale) {
   const progress = phantasmGateProgress();
   if (progress.count < 2) return "";
   const state = phantasmGateState();
+  const hint = phantasmGateHint(locale, "mytu");
   const words = {
     "zh-Hant": {
       eyebrow: "TIMETABLE REVERSE / 未登錄側記",
@@ -817,6 +818,7 @@ function renderPhantasmTrace(locale) {
         ? "六枚普通校務印章在同一張紙的反面重疊。教務系統找不到教室，北樓梯卻已開始點名。"
         : `目前有 ${progress.count} 枚印章透過紙面；第九行仍被教務處劃掉。`,
       action: state.unlockedAt ? "返回第九節" : "查看點名簿反面",
+      seek: "沿今值鐘的墨跡試門",
       closed: "教室欄：尚未承認",
     },
     ja: {
@@ -826,6 +828,7 @@ function renderPhantasmTrace(locale) {
         ? "六つの通常学務印が同じ紙の裏で重なった。システムは教室を見つけられないが、北階段は点呼を始めている。"
         : `現在${progress.count}個の印が透け、第九行はまだ学務に消されている。`,
       action: state.unlockedAt ? "第九時限へ戻る" : "点呼簿の裏を見る",
+      seek: "今の当番鐘の墨跡から扉を試す",
       closed: "教室欄：未承認",
     },
     en: {
@@ -835,16 +838,17 @@ function renderPhantasmTrace(locale) {
         ? "Six ordinary administrative seals overlap on the reverse of one sheet. The system cannot find a room; the north stair has begun roll call."
         : `${progress.count} seals currently show through; Academic Affairs still crosses out row nine.`,
       action: state.unlockedAt ? "Return to ninth period" : "Inspect the roll's reverse",
+      seek: "Try the present duty bell's ink trail",
       closed: "Room field: not yet admitted",
     },
   };
   const w = words[locale] || words["zh-Hant"];
   return `
-    <aside class="mytu-phantasm-trace ${progress.eligible ? "is-ready" : ""}">
+    <aside class="mytu-phantasm-trace ${progress.eligible ? "is-ready" : ""} ${hint.resonant ? "is-resonant" : ""}">
       <span aria-hidden="true">九</span>
-      <div><p>${w.eyebrow}</p><h3>${w.title}</h3><small>${w.body}</small></div>
+      <div><p>${w.eyebrow}</p><h3>${w.title}</h3><small>${progress.eligible ? escapeHtml(hint.text) : w.body}</small></div>
       ${progress.eligible
-        ? `<a href="phantasm.html#phantasm-campus">${w.action}<b aria-hidden="true">↘</b></a>`
+        ? `<a href="${hint.href}">${hint.resonant ? w.action : w.seek}<b aria-hidden="true">↘</b></a>`
         : `<i>${w.closed}</i>`}
     </aside>`;
 }

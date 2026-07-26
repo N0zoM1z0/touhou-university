@@ -11,6 +11,11 @@ import {
   phantasmSealOrder,
 } from "../data/phantasm.js";
 import { campusLedger, syncCampusLedger } from "./campus-ledger.js";
+import {
+  attemptPhantasmBoundary,
+  clearPhantasmSession,
+  phantasmBoundaryStorageKeys,
+} from "./phantasm-gate.js";
 
 const STATE_KEY = "tu:phantasm:state";
 const TRANSCRIPT_KEY = "tu:phantasm:transcripts";
@@ -154,11 +159,13 @@ export function phantasmHasReturnedBook() {
   return officialEvents().some((event) => event.type === "book.returned");
 }
 
-export function enterPhantasm() {
+export function enterPhantasm({ source = "direct", trace = "", date = new Date() } = {}) {
   const progress = phantasmProgress();
   const current = phantasmState();
-  if (!progress.eligible && !current.unlockedAt) return { error: "boundary-closed", progress };
-  const now = new Date().toISOString();
+  if (!progress.eligible) return { error: "boundary-closed", progress };
+  const boundary = attemptPhantasmBoundary({ source, trace, date });
+  if (!boundary.allowed) return { error: "boundary-shifted", progress, boundary };
+  const now = boundary.session?.grantedAt || new Date().toISOString();
   const firstEntry = !current.unlockedAt;
   const state = saveState({
     ...current,
@@ -172,7 +179,7 @@ export function enterPhantasm() {
       eventId: seal.event?.id || null,
     })),
   }, firstEntry ? "unlocked" : "visited");
-  return { state, progress, firstEntry };
+  return { state, progress, boundary, firstEntry };
 }
 
 export function phantasmIsUnlocked() {
@@ -507,6 +514,7 @@ export function completeDreamDefence({ fragmentId, examinerId, statement } = {})
 }
 
 export function wakeFromPhantasm() {
+  clearPhantasmSession();
   const state = phantasmState();
   return saveState({
     ...state,
@@ -540,7 +548,7 @@ export function phantasmCommunityPosts(locale = "zh-Hant") {
           : `點名簿背面透出 ${progress.count} 枚印章；拿去教務處後，只還回了正面。`),
     replies: 9 + progress.count,
     createdAt,
-    phantasmRoute: state.unlockedAt ? "phantasm-campus" : null,
+    phantasmRoute: progress.eligible ? "phantasm-campus" : null,
   }];
   if (transcripts.length) {
     const latest = transcripts.at(-1);
@@ -567,4 +575,5 @@ export function phantasmCommunityPosts(locale = "zh-Hant") {
 export const phantasmStorageKeys = {
   state: STATE_KEY,
   transcripts: TRANSCRIPT_KEY,
+  ...phantasmBoundaryStorageKeys,
 };

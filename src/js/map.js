@@ -3,7 +3,7 @@ import { findCampusRoute, transportModes } from "../data/routes.js";
 import { getLocale } from "./i18n.js";
 import { navigateToDeepLink } from "./deep-links.js";
 import { liveCampusSnapshot, liveFacilityStatus, liveMapNotice } from "../data/live-campus.js";
-import { phantasmGateProgress } from "./phantasm-gate.js";
+import { phantasmGateHint, phantasmGateProgress } from "./phantasm-gate.js";
 
 export function initCampusMap() {
   const detail = document.querySelector(".map-detail");
@@ -312,6 +312,7 @@ export function initCampusMap() {
     const notice = liveMapNotice(getLocale());
     const trace = phantasmGateProgress();
     const locale = getLocale();
+    const hint = phantasmGateHint(locale, "map");
     const ninth = trace.count >= 3
       ? (locale === "ja"
         ? `　欄外：北階段の第九打は本日の通行時間へ算入しない（裏面の印 ${trace.count}）。`
@@ -321,8 +322,20 @@ export function initCampusMap() {
       : "";
     const label = document.querySelector("[data-map-notice-label]");
     const text = document.querySelector("[data-map-notice]");
+    const entrance = document.querySelector("[data-phantasm-map-entrance]");
     if (label) label.textContent = notice.label;
     if (text) text.textContent = `${notice.text}${ninth}`;
+    if (entrance) {
+      entrance.hidden = !hint.href;
+      entrance.href = hint.href || "";
+      entrance.textContent = locale === "ja"
+        ? "折り目の裏を確認する ↘"
+        : locale === "en"
+          ? "Inspect behind the crease ↘"
+          : "沿折痕查看背面 ↘";
+      entrance.dataset.resonant = hint.resonant ? "true" : "false";
+      entrance.title = hint.text;
+    }
   };
   window.addEventListener("resize", () => {
     if (!currentRoute) return;

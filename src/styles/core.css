@@ -2137,6 +2137,14 @@ body:not([data-page="home"]) .nav-group summary:focus-visible {
   color: #c8a4d8;
 }
 
+.phantasm-whisper[data-phantasm-resonant="true"] {
+  color: rgba(218, 187, 229, 0.78);
+}
+
+.phantasm-whisper[data-phantasm-resonant="true"] > a {
+  text-shadow: 0 0 18px rgba(198, 166, 213, 0.28);
+}
+
 .phantasm-whisper-marks {
   display: inline-flex;
   gap: 0.24rem;

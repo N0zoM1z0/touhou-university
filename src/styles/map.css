@@ -380,6 +380,28 @@
   font-weight: 850;
 }
 
+.map-repair-note a {
+  display: inline-block;
+  margin-top: 0.45rem;
+  padding-top: 0.35rem;
+  color: #4b3157;
+  border-top: 1px dashed rgba(75, 49, 87, 0.35);
+  font-size: 0.62rem;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.map-repair-note a[hidden] {
+  display: none;
+}
+
+.map-repair-note a[data-resonant="true"] {
+  color: #812e50;
+  text-shadow: 0 0 12px rgba(129, 46, 80, 0.28);
+}
+
 .map-detail {
   display: flex;
   min-width: 0;

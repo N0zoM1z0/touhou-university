@@ -1,3 +1,11 @@
+import {
+  campusDayKey as liveCampusDayKey,
+  campusLunarPhase as liveCampusLunarPhase,
+  campusTimeBand as liveCampusTimeBand,
+} from "./campus-time.js";
+
+export { liveCampusDayKey, liveCampusLunarPhase, liveCampusTimeBand };
+
 const l = (zh, ja, en) => ({ "zh-Hant": zh, ja, en });
 
 function hashValue(value) {
@@ -15,31 +23,6 @@ function dayOrdinal(date) {
 
 function edgeKey(a, b) {
   return [a, b].sort().join("--");
-}
-
-export function liveCampusDayKey(date = new Date()) {
-  return [
-    date.getFullYear(),
-    String(date.getMonth() + 1).padStart(2, "0"),
-    String(date.getDate()).padStart(2, "0"),
-  ].join("-");
-}
-
-export function liveCampusTimeBand(date = new Date()) {
-  const hour = date.getHours() + date.getMinutes() / 60;
-  if (hour < 6) return "night";
-  if (hour < 11) return "morning";
-  if (hour < 14.5) return "midday";
-  if (hour < 18) return "afternoon";
-  if (hour < 21.5) return "evening";
-  return "night";
-}
-
-export function liveCampusLunarPhase(date = new Date()) {
-  const synodic = 29.530588853;
-  const epoch = Date.UTC(2000, 0, 6, 18, 14);
-  const age = (((date.getTime() - epoch) / 86_400_000) % synodic + synodic) % synodic;
-  return Math.round((age / synodic) * 8) % 8;
 }
 
 export const liveCampusEvents = {
