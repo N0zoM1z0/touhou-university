@@ -599,10 +599,9 @@ export const campusHistory = [
   {
     id: "moon-reassigns-the-university-door",
     archiveId: "TU-H-025",
-    commit: null,
+    commit: "9e47a3954aea6fcfe3a580b474eedd40b998a3cf",
     commitSubject: "Make Phantasm boundary follow moon and time",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "boundary",
     era: l("同夜・月影輪值第五鐘", "同夜・月影当番第五鐘", "Same night · Fifth moonshadow duty bell"),
     title: l(
@@ -619,6 +618,31 @@ export const campusHistory = [
       "文把這套制度稱為「史上首個保證迷路成功率的招生入口」。荷取反駁保證的是最終能進，不是一定迷路；紫在兩句之間畫了一扇門。靈夢只問臨時校徽是否需要再付一次製作費。",
       "文は「迷子成功率を保証する史上初の入試口」と報道。にとりは保証対象が最終入場で、迷子そのものではないと反論。紫は二文の間に扉を描いた。霊夢は臨時校章の製作費をもう一度払うのかだけ尋ねた。",
       "Aya called it “the first admissions gate guaranteeing successful loss.” Nitori objected that only eventual entry is guaranteed, not getting lost. Yukari drew a door between the two sentences. Reimu asked only whether the temporary crest required another production fee.",
+    ),
+  },
+  {
+    id: "kappa-cabinets-reveal-their-drawers",
+    archiveId: "TU-H-026",
+    commit: null,
+    commitSubject: "Add unified on-device records cabinet",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "records",
+    era: l("翌朝・紅印盤點第一刻", "翌朝・赤印棚卸し第一刻", "Next morning · First red-stamp inventory"),
+    title: l(
+      "河童檔案櫃被迫把每個抽屜、重量與銷毀紅印交給本人",
+      "河童の資料棚、全引出し・重量・廃棄赤印を本人へ開示",
+      "Kappa cabinets must reveal every drawer, its weight, and the owner's red destruction stamp",
+    ),
+    summary: l(
+      "阿求與荷取把散落在申請處、課務組、圖書館、永遠亭、宿舍與研究工房的五十種本機卷宗編成九座正式資料架，另留一格給尚未登錄的新紙。每位使用者都能查看實際內容、占用空間、保存位置與誰能看見；搬往另一台外界機器時，河童封箱機以 SHA-256 印封成一份 JSON，入櫃前先查版本、鍵名、重複與封印。銷毀可逐份、逐架或全部落紅印，且失敗匯入必須把剛動過的紙完整放回。夢境校務處准許反面卷宗在確實存在後露面，卻拒絕讓六小時紙縫通行條裝箱，理由是門票比箱子先醒。",
+      "阿求とにとりは、出願室・教務・図書館・永遠亭・学生寮・研究工房に散らばる五十種の端末内ファイルを九つの正式棚へ整理し、未登録の新しい紙にも一段を残した。利用者は原文、使用量、保存場所、可視範囲を確認できる。別の外界端末へ移る際は、河童箱詰め機が SHA-256 印付き JSON に封じ、収納前に版・キー名・重複・封印を検査する。廃棄は一件・一棚・全体の赤印から選べ、読込失敗時は動かした紙を完全に元へ戻す。夢学務室は、実際に存在する裏面ファイルの表示を認めたが、六時間の紙隙間通行票だけは「箱より先に目覚める」と持出しを拒んだ。",
+      "Akyuu and Nitori catalogue fifty kinds of on-device files scattered across Admissions, Academic Affairs, the library, Eientei, housing, and research into nine official shelves, leaving one drawer for unregistered new paper. Each keeper can inspect raw contents, space used, storage location, and visibility. When moving to another Outside World machine, a kappa packing desk seals one JSON box with SHA-256, then checks version, keys, collisions, and seal before filing. Red stamps can destroy one file, one shelf, or everything, while any failed import must restore every paper it touched. Dream Affairs permits reverse-side files to appear only after they exist, but refuses to pack the six-hour paper-seam pass because “the ticket wakes before the box.”",
+    ),
+    marginalia: l(
+      "魔理沙問「一鍵封箱」能否順便替來源不明的研究材料補出處；荷取說封印只能證明箱子從封好後沒被改，不會替封箱前的故事負責。文立即把標題改成《河童承認封印不保證真相》，然後發現自己的草稿也在資料櫃裡。",
+      "魔理沙は「一括箱詰め」で出所不明の研究材料にも出典が付くか尋ねた。にとりは、封印が証明するのは箱詰め後に改変されていないことだけで、箱詰め前の物語には責任を持たないと回答。文は即座に見出しを『河童、封印が真実を保証しないと認める』へ変更し、自分の下書きも棚に載っていると気づいた。",
+      "Marisa asked whether one-click packing could also invent provenance for research materials of unknown origin. Nitori said the seal proves only that the box was unchanged after packing, not that its earlier story was true. Aya immediately changed her headline to “Kappa admits seal does not guarantee truth,” then noticed her own draft was listed in the cabinet.",
     ),
   },
 ];

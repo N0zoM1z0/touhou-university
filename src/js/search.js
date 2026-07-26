@@ -119,6 +119,7 @@ const sectionEntries = [
   ["academics", "section", ["七所學院", "七つの学部", "Seven schools"], ["課程、學分、學費與畢業條件", "科目・単位・授業料・卒業要件", "Courses, credits, tuition, and progression"]],
   ["admissions", "section", ["招生與入學案內", "入試・入学案内", "Admissions"], ["入學路線、日期與線上填報", "選抜経路・日程・オンライン出願", "Entry routes, dates, and online application"]],
   ["my-tu", "section", ["My TU 幻想鄉學籍中心", "My TU 幻想郷学籍センター", "My TU Student Records"], ["本機身分、教授聯合審查、校園履歷與錄取通知書", "端末内身分・教員合同審査・履歴・合格通知", "On-device identity, joint faculty review, campus history, and decision letters"]],
+  ["data-cabinet", "section", ["本機資料櫃", "端末内資料棚", "On-device Records Cabinet"], ["查看空間與可見範圍，封箱匯出、驗證匯入或銷毀個別卷宗", "使用量・可視範囲・箱詰め書出し・検証読込・個別廃棄", "Inspect usage and visibility, export a sealed box, validate imports, or destroy individual files"]],
   ["course-registration", "course", ["選課、課表與成績", "履修・時間割・成績", "Course registration, timetable & grades"], ["35 門課程、加退選、候補、衝堂與本機學業紀錄", "35科目・追加取消・補欠・重複・端末内成績", "35 courses, add/drop, waitlists, collisions, and on-device academic records"]],
   ["academic-work", "course", ["課程作業與答案評閱", "授業課題・答案評価", "Coursework & answer review"], ["草稿、提交、逐題判分與解析", "下書き・提出・設問別採点・解説", "Drafts, submissions, per-question scoring, and explanations"]],
   ["academic-exam", "course", ["限時課程考試", "計時授業試験", "Timed course examination"], ["本機計時、自動保存、交卷與即時判分", "端末計時・自動保存・提出・即時採点", "On-device timing, autosave, submission, and instant grading"]],

@@ -215,6 +215,29 @@ Status: implemented in 0.20.0.
 - follow-up: seasonal entrance riddles, dream-brand print seals and a route
   whose active source depends on what the visitor last refused inside PHANTASM
 
+## Batch 13 — Unified on-device records cabinet
+
+Status: implemented in 0.21.0.
+
+- a focused `records.html` subpage inventories localStorage and sessionStorage
+  under the `tu:` namespace, with 50 trilingual known records across nine
+  ordinary/reverse-side shelves and a runtime shelf for future unknown keys
+- every stored file exposes its record count, exact UTF-8 footprint, storage
+  location, visibility scope and escaped raw contents without uploading them
+- the usage desk combines the university-file byte total with the browser's
+  optional origin-wide storage estimate and clearly distinguishes device,
+  interface, dream and tab-session visibility
+- one-click export creates a versioned JSON archive with a SHA-256 integrity
+  seal; import validates the whole box before writing and offers explicit
+  preserve-current or overwrite-same-name collision policies
+- deletion works per file, per shelf or across every `tu:` record after a
+  confirmation, while failed quota writes roll back the complete import
+- the PHANTASM session passage appears only after it exists and is always
+  excluded from portable archives; reverse-side files remain separate from
+  the official campus ledger
+- follow-up: user-selected partial export bundles and human-readable paper
+  manifests alongside the lossless JSON archive
+
 ## Cross-cutting tracks
 
 - official document generator grows alongside every lifecycle feature

@@ -1765,13 +1765,156 @@ try {
     );
   }
 
+  await cdp.evaluate(`(() => {
+    localStorage.setItem('tu:smoke:cabinet', JSON.stringify({ note: '外界搬運測試', value: 17 }));
+    localStorage.setItem('tu:smoke:conflict', JSON.stringify({ version: 'boxed' }));
+    sessionStorage.setItem('tu:phantasm:pass', JSON.stringify({ mode: 'smoke-only', expiresAt: Date.now() + 60_000 }));
+    return true;
+  })()`);
+  await navigate("records.html#data-cabinet", "[data-local-records-app]");
+  const cabinetInitial = await cdp.evaluate(`(async () => {
+    const model = await import(${JSON.stringify(`${siteUrl}src/js/local-records-model.js`)});
+    const archive = await model.createLocalArchive();
+    const parsed = await model.parseLocalArchive(JSON.stringify(archive));
+    const tampered = JSON.parse(JSON.stringify(archive));
+    tampered.records[0].value += ' ';
+    let tamperCode = null;
+    try {
+      await model.parseLocalArchive(JSON.stringify(tampered));
+    } catch (error) {
+      tamperCode = error.code;
+    }
+    localStorage.removeItem('tu:smoke:cabinet');
+    localStorage.setItem('tu:smoke:conflict', JSON.stringify({ version: 'current' }));
+    const imported = model.importLocalArchive(parsed, { collision: 'preserve' });
+    const preservedConflict = JSON.parse(localStorage.getItem('tu:smoke:conflict'));
+    const overwritten = model.importLocalArchive(parsed, { collision: 'overwrite' });
+    const overwrittenConflict = JSON.parse(localStorage.getItem('tu:smoke:conflict'));
+    return {
+      page: document.body.dataset.page,
+      files: document.querySelectorAll('.local-record-row.is-present').length,
+      shelves: document.querySelectorAll('.local-record-shelf').length,
+      custom: document.querySelector('[data-record-view=\"tu:smoke:cabinet\"]') !== null,
+      portableRestored: JSON.parse(localStorage.getItem('tu:smoke:cabinet') || 'null'),
+      archiveFormat: archive.format,
+      checksum: archive.checksum,
+      tamperCode,
+      containsSessionPass: archive.records.some((record) => record.key === 'tu:phantasm:pass'),
+      parsedRecords: parsed.records.length,
+      imported,
+      overwritten,
+      preservedConflict,
+      overwrittenConflict
+    };
+  })()`);
+  check(
+    cabinetInitial.page === "records"
+      && cabinetInitial.files >= 20
+      && cabinetInitial.shelves >= 7
+      && cabinetInitial.custom
+      && cabinetInitial.portableRestored?.value === 17
+      && cabinetInitial.archiveFormat === "touhou-university-on-device-archive"
+      && /^sha256:[a-f0-9]{64}$/.test(cabinetInitial.checksum)
+      && cabinetInitial.tamperCode === "archive-checksum"
+      && !cabinetInitial.containsSessionPass
+      && cabinetInitial.parsedRecords >= 20
+      && cabinetInitial.imported.imported === 1
+      && cabinetInitial.imported.skipped >= 20
+      && cabinetInitial.preservedConflict?.version === "current"
+      && cabinetInitial.overwritten.imported >= 20
+      && cabinetInitial.overwrittenConflict?.version === "boxed",
+    `On-device cabinet discovery, sealed round-trip, or session-pass exclusion failed (${JSON.stringify(cabinetInitial)}).`,
+  );
+
+  const cabinetDialog = await cdp.evaluate(`(() => {
+    document.querySelector('[data-record-view=\"tu:smoke:cabinet\"]')?.click();
+    return {
+      open: document.querySelector('[data-local-record-dialog]')?.open,
+      raw: document.querySelector('[data-local-record-detail] pre')?.textContent || '',
+      scope: document.querySelector('.local-record-detail-meta')?.textContent || ''
+    };
+  })()`);
+  check(
+    cabinetDialog.open && cabinetDialog.raw.includes("外界搬運測試") && cabinetDialog.scope.includes("localStorage"),
+    `The cabinet did not open the selected raw file with its visibility metadata (${JSON.stringify(cabinetDialog)}).`,
+  );
+  await cdp.evaluate(`(() => {
+    document.querySelector('[data-record-dialog-close]')?.click();
+    return true;
+  })()`);
+
+  const cabinetUiImport = await cdp.evaluate(`(async () => {
+    const model = await import(${JSON.stringify(`${siteUrl}src/js/local-records-model.js`)});
+    localStorage.setItem('tu:smoke:file-import', JSON.stringify({ source: 'sealed-box', pages: 3 }));
+    const archive = await model.createLocalArchive();
+    localStorage.removeItem('tu:smoke:file-import');
+    const file = new File([JSON.stringify(archive)], 'outside-box.json', { type: 'application/json' });
+    const transfer = new DataTransfer();
+    transfer.items.add(file);
+    const input = document.querySelector('[data-archive-import-file]');
+    Object.defineProperty(input, 'files', { value: transfer.files });
+    input.dispatchEvent(new Event('change', { bubbles: true }));
+    return true;
+  })()`);
+  check(cabinetUiImport, "Could not hand an archive file to the visible import desk.");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-archive-import-apply]'))"));
+  await cdp.evaluate("document.querySelector('[data-archive-import-apply]').click(); true");
+  await eventually(() => cdp.evaluate("JSON.parse(localStorage.getItem('tu:smoke:file-import') || 'null')?.pages === 3"));
+
+  const cabinetActions = await cdp.evaluate(`(async () => {
+    window.confirm = () => true;
+    window.__cabinetDownload = null;
+    HTMLAnchorElement.prototype.click = function () {
+      window.__cabinetDownload = { download: this.download, href: this.href };
+    };
+    document.querySelector('[data-archive-export]')?.click();
+    await new Promise((resolve) => setTimeout(resolve, 80));
+    document.querySelector('[data-record-delete=\"tu:smoke:cabinet\"]')?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const deletedOne = localStorage.getItem('tu:smoke:cabinet') === null;
+    document.querySelector('[data-lang=\"ja\"]')?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const ja = document.querySelector('.local-records-hero h2')?.textContent || '';
+    document.querySelector('[data-lang=\"en\"]')?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const en = document.querySelector('.local-records-hero h2')?.textContent || '';
+    document.querySelector('[data-lang=\"zh-Hant\"]')?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-archive-clear]')?.click();
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    const remaining = [...Array(localStorage.length).keys()]
+      .map((index) => localStorage.key(index))
+      .filter((key) => key?.startsWith('tu:')).length
+      + [...Array(sessionStorage.length).keys()]
+        .map((index) => sessionStorage.key(index))
+        .filter((key) => key?.startsWith('tu:')).length;
+    return {
+      download: window.__cabinetDownload,
+      deletedOne,
+      ja,
+      en,
+      remaining,
+      presentRows: document.querySelectorAll('.local-record-row.is-present').length
+    };
+  })()`);
+  check(
+    cabinetActions.download?.download?.startsWith("touhou-university-local-archive-")
+      && cabinetActions.download.href.startsWith("blob:")
+      && cabinetActions.deletedOne
+      && cabinetActions.ja.includes("この端末")
+      && cabinetActions.en.includes("Which campus papers")
+      && cabinetActions.remaining === 0
+      && cabinetActions.presentRows === 0,
+    `Visible export, individual deletion, trilingual rerender, or clear-all failed (${JSON.stringify(cabinetActions)}).`,
+  );
+
   await cdp.call("Emulation.setDeviceMetricsOverride", {
     width: 390,
     height: 844,
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "phantasm.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -1814,7 +1957,7 @@ try {
   check(
     mobileMenu.expanded === "true"
       && mobileMenu.visible
-      && mobileMenu.links === 12
+      && mobileMenu.links === 13
       && mobileMenu.backgroundInert
       && mobileFocus,
     "Mobile navigation did not open completely or move keyboard focus into its modal layer.",
@@ -1825,7 +1968,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();
