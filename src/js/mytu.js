@@ -53,6 +53,7 @@ const copy = {
     academicRecords: "課業評量／答辯",
     medical: "診療／處方／康復",
     appraisals: "漂流物鑑定",
+    spellcards: "符卡設計／答辯",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     academicMode: "作業、考試與答辯",
@@ -150,6 +151,8 @@ const copy = {
       "clinic.therapy.completed": "完成康復療程",
       "appraisal.completed": "完成外界漂流物鑑定",
       "appraisal.catalogued": "將漂流物編入霧湖館藏",
+      "spellcard.design.saved": "封存一版符卡設計",
+      "spellcard.defence.completed": "完成符卡公開答辯",
     },
     document: {
       university: "幻想鄉立東方大學",
@@ -206,6 +209,7 @@ const copy = {
     academicRecords: "課業評価／答弁",
     medical: "診療／処方／回復",
     appraisals: "漂流物鑑定",
+    spellcards: "スペルカード設計／答弁",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     academicMode: "課題・試験・答弁",
@@ -298,6 +302,8 @@ const copy = {
       "clinic.therapy.completed": "回復療法を完了",
       "appraisal.completed": "外界漂流物鑑定を完了",
       "appraisal.catalogued": "漂流物を霧の湖蔵書へ編入",
+      "spellcard.design.saved": "スペルカード設計版を保存",
+      "spellcard.defence.completed": "スペルカード公開答弁を完了",
     },
     document: {
       university: "幻想郷立東方大学",
@@ -354,6 +360,7 @@ const copy = {
     academicRecords: "Coursework / defences",
     medical: "Care / prescriptions / recovery",
     appraisals: "Drift-object appraisals",
+    spellcards: "Spell-card designs / defences",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     academicMode: "Work, exams & defences",
@@ -446,6 +453,8 @@ const copy = {
       "clinic.therapy.completed": "Completed a recovery course",
       "appraisal.completed": "Completed an Outside drift-object appraisal",
       "appraisal.catalogued": "Catalogued a drift object at Misty Lake",
+      "spellcard.design.saved": "Archived a spell-card design version",
+      "spellcard.defence.completed": "Completed a public spell-card defence",
     },
     document: {
       university: "TOUHOU UNIVERSITY OF GENSOKYO",
@@ -537,12 +546,15 @@ function allRecords() {
   const clinicPlans = readJson("tu:clinic:care-plans", []);
   const appraisalRecords = readJson("tu:appraisal:records", []);
   const appraisalDrafts = readJson("tu:appraisal:drafts", {});
+  const spellcardDesigns = readJson("tu:spellcards:designs", []);
+  const spellcardDefences = readJson("tu:spellcards:defences", []);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
     Number(Boolean(readJson("tu:gaokao:draft", null)));
   const housingDraft = Number(Boolean(readJson("tu:housing:draft", null)));
   const clinicDraft = Number(Boolean(readJson("tu:clinic:triage-draft", null)));
+  const spellcardDraft = Number(Boolean(readJson("tu:spellcards:draft", null)));
   const courseSummary = courseRegistrationSummary();
   const academicBook = academicGradebook();
   const activeLibrary = (Array.isArray(libraryLoans) ? libraryLoans : []).filter((record) => record.status === "active").length
@@ -557,7 +569,7 @@ function allRecords() {
     unifiedExams,
     posts,
     examCount,
-    drafts: drafts + housingDraft + clinicDraft
+    drafts: drafts + housingDraft + clinicDraft + spellcardDraft
       + Object.keys(appraisalDrafts && typeof appraisalDrafts === "object" && !Array.isArray(appraisalDrafts) ? appraisalDrafts : {}).length,
     courseSummary,
     activeLibrary,
@@ -573,6 +585,8 @@ function allRecords() {
       + (Array.isArray(clinicPrescriptions) ? clinicPrescriptions : []).filter((record) => ["issued", "dispensed"].includes(record.status)).length
       + (Array.isArray(clinicPlans) ? clinicPlans : []).filter((record) => record.status === "active").length,
     appraisalRecords: Array.isArray(appraisalRecords) ? appraisalRecords.length : 0,
+    spellcardRecords: (Array.isArray(spellcardDesigns) ? spellcardDesigns.length : 0)
+      + (Array.isArray(spellcardDefences) ? spellcardDefences.length : 0),
   };
 }
 
@@ -768,6 +782,9 @@ function eventLabel(event, locale, c) {
     const disposition = payload.disposition === "contested" ? ` · ${c.contestedClosure}` : "";
     return `${base} · ${payload.objectId || payload.appraisalId || ""}${disposition}`;
   }
+  if (event.type.startsWith("spellcard.")) {
+    return `${base} · ${payload.spellName || payload.designId || payload.defenceId || ""}`;
+  }
   return base;
 }
 
@@ -832,6 +849,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="mytu.html#academic-grades"><span>${c.academicRecords}</span><strong>${records.academicAverage ?? "—"}</strong></a>
           <a href="clinic.html#clinic-account"><span>${c.medical}</span><strong>${records.activeClinic}</strong></a>
           <a href="library.html#appraisal-records"><span>${c.appraisals}</span><strong>${records.appraisalRecords}</strong></a>
+          <a href="research.html#spellcard-records"><span>${c.spellcards}</span><strong>${records.spellcardRecords}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>
       </section>

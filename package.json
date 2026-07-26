@@ -1,6 +1,6 @@
 {
   "name": "touhou-university",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -19,10 +19,11 @@
     "check:live": "node scripts/check-live-campus.mjs",
     "check:clinic": "node scripts/check-clinic.mjs",
     "check:appraisal": "node scripts/check-appraisal.mjs",
+    "check:spellcards": "node scripts/check-spellcard-workshop.mjs",
     "check:history": "node scripts/check-campus-history.mjs",
     "history:status": "node scripts/check-campus-history.mjs",
     "test:browser": "npm run build && node scripts/smoke-browser.mjs",
     "capture": "npm run build && node scripts/capture-ui.mjs",
-    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:interactions && npm run check:live && npm run check:history"
+    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:interactions && npm run check:live && npm run check:history"
   }
 }

@@ -527,10 +527,9 @@ export const campusHistory = [
   {
     id: "eight-objects-on-a-seven-object-shelf",
     archiveId: "TU-H-022",
-    commit: null,
+    commit: "bbe29b7366f09510a3cc6757b1b645ac63c3ae36",
     commitSubject: "Add Kourindou drift-object appraisal office",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "library",
     era: l("翌日・夜更けの臨時開架", "翌日・夜更けの臨時開架", "Next day · Late-night special opening"),
     title: l(
@@ -547,6 +546,31 @@ export const campusHistory = [
       "第七件編號為 72，第八件編號為 77。文據此報導「五件漂流物在編目途中失蹤」；藍指出編號從未承諾連續。霖之助認為這證明 77 是完整型號，荷取認為只是標籤機卡紙，小傘則把兩張相同的 77 號貼紙都收進案袋，免得其中一張先成為付喪神。",
       "七件目は72番、八件目は77番。文は「目録中に漂流物五件消失」と報道したが、藍は番号の連続性を一度も保証していないと指摘。霖之助は77が完全な型式番号だとし、にとりはラベル機の紙詰まりだとし、小傘は片方だけ先に付喪神にならぬよう同じ77番札二枚を袋へ収めた。",
       "The seventh item is numbered 72 and the eighth 77. Aya reports “five drift objects lost during cataloguing”; Ran notes that sequence was never promised. Rinnosuke calls 77 a complete model number, Nitori blames a label-printer jam, and Kogasa files both identical 77 labels so neither becomes a tsukumogami first.",
+    ),
+  },
+  {
+    id: "six-seals-refuse-one-average",
+    archiveId: "TU-H-023",
+    commit: null,
+    commitSubject: "Add interactive spell-card ethics workshop",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "academics",
+    era: l("翌日・月影試演刻", "翌日・月影試演刻", "Next day · Moon-shadow Demonstration Watch"),
+    title: l(
+      "符卡工房架起第一座試飛場，六枚印章拒絕蓋在同一個分數上",
+      "スペルカード工房に初の試飛場、六つの印は一つの点数を拒否",
+      "The spell-card workshop opens its first flight court; six seals refuse one score",
+    ),
+    summary: l(
+      "學生可以先在七十二發以內的輕量試飛場調整彈速、密度、對稱、隨機、宣言、退路、聲光與場地，再親自飛進那份承諾。靈夢審規則與退路，魔理沙審表現與重現，文審觀眾看見什麼，荷取審碰撞與效能，永琳審刺激與停止，霧湖妖精合唱團則審共用場地是否還剩聲音和玩心；六方批註不得平均成一個假裝大家都簽過名的總分。每一版設計會在本機封存，經三席公開三問後留下裁定、條件與少數異議，並由 BBS 各自傳成不同的故事。",
+      "学生は七十二弾以内の軽量試飛場で、速度・密度・対称・乱数・宣言・退路・光音・会場を調整し、自らその約束へ飛び込める。霊夢は規則と退路、魔理沙は表現と再現、文は観客の視界、にとりは当たりと性能、永琳は刺激と停止、霧の湖妖精合唱団は共用会場に音と遊びが残るかを審査。六者の所見を、全員が署名したふりをする一つの平均点へ潰してはならない。各版は端末内保存され、三席三問の公開答弁後に裁定・条件・少数意見を残し、BBSでは別々の物語となる。",
+      "Students may tune speed, density, symmetry, randomness, declarations, exits, light, sound, and venue inside a lightweight seventy-two-shot flight court, then personally fly through that promise. Reimu reviews rules and exits; Marisa expression and reproducibility; Aya what the audience saw; Nitori collision and performance; Eirin stimulation and stopping; and the Misty Lake Fairy Chorus whether shared space retains sound and play. Their six findings may not be flattened into one average pretending everybody signed it. Each version persists on-device; a three-seat, three-question public defence preserves rulings, conditions, and minority objections before BBS retells the result in several incompatible stories.",
+    ),
+    marginalia: l(
+      "文先把「附帶條件通過」排成「通過」，再把條件塞進第二版小字。靈夢用朱繩把兩版綁在一起，魔理沙稱這提高了重現性；妖精合唱團則在繩結旁加註：排練時間也屬於方法。",
+      "文は「条件付き可決」を先に「可決」と組み、条件を第二版の小字へ移した。霊夢は二版を朱縄で結び、魔理沙は再現性が上がったと評価。妖精合唱団は結び目へ「稽古時間も方法に含む」と追記した。",
+      "Aya typeset “conditionally approved” as “approved,” moving the conditions into edition two’s fine print. Reimu tied both editions together with vermilion cord; Marisa called that improved reproducibility. The fairy chorus added beside the knot: rehearsal time is part of the method.",
     ),
   },
 ];

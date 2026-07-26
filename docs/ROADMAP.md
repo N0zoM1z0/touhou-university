@@ -153,6 +153,26 @@ Status: implemented in 0.17.0.
 - follow-up: visitor-submitted object sketches, cross-record provenance chains,
   repair-lab appointments and seasonal Outside World drift batches
 
+## Batch 10 — Operable spell-card design and ethics workshop
+
+Status: implemented in 0.18.0.
+
+- five formula-driven Canvas patterns with a 72-shot ceiling, direct
+  keyboard/pointer flight, live parameter controls and shared campus
+  conditions, without adding a large physics/runtime dependency
+- six independent reviewers covering rules/exits, expression/reproduction,
+  audience readability, collision/runtime stability, stimulation/stopping and
+  shared sound/play; no aggregate ethics score
+- autosaved draft, sealed revisions, exact design routes and printable dossiers
+- three-seat public defence with three real questions, retained ruling,
+  conditions and named dissent
+- My TU/ledger integration and three derived BBS versions linked to the exact
+  defence
+- dynamic route alignment re-resolves replaced focused records, with the
+  drift-object shelf click kept as the regression that first exposed it
+- follow-up: visitor-authored pattern sharing without a server, inter-design
+  tournament brackets, venue booking and course credit for defended revisions
+
 ## Cross-cutting tracks
 
 - official document generator grows alongside every lifecycle feature

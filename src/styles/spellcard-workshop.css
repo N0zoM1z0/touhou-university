@@ -1,0 +1,1403 @@
+.spellcard-workshop-section {
+  position: relative;
+  padding: 84px 0 110px;
+  color: var(--ink);
+  border-top: 1px solid var(--line);
+  background:
+    linear-gradient(90deg, transparent 0 47px, rgba(142, 47, 55, 0.07) 47px 48px, transparent 48px),
+    repeating-linear-gradient(0deg, transparent 0 31px, rgba(62, 73, 78, 0.045) 31px 32px),
+    #e9dfcc;
+  overflow: hidden;
+}
+
+.spellcard-workshop-section::before,
+.spellcard-workshop-section::after {
+  position: absolute;
+  z-index: 0;
+  width: 180px;
+  height: 42px;
+  content: "";
+  pointer-events: none;
+  background: rgba(110, 153, 146, 0.45);
+  box-shadow: inset 0 0 0 1px rgba(20, 55, 52, 0.09);
+}
+
+.spellcard-workshop-section::before {
+  top: 49px;
+  left: 8%;
+  transform: rotate(-2deg);
+}
+
+.spellcard-workshop-section::after {
+  right: 7%;
+  bottom: 52px;
+  transform: rotate(3deg);
+}
+
+.spellcard-workshop-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.spell-workshop-hero {
+  position: relative;
+  display: grid;
+  min-height: 370px;
+  padding: 62px 68px;
+  grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
+  gap: 56px;
+  align-items: center;
+  color: #f8f0df;
+  border: 12px solid #372b24;
+  outline: 1px solid rgba(231, 214, 178, 0.28);
+  outline-offset: -24px;
+  background:
+    radial-gradient(circle at 15% 27%, rgba(161, 52, 62, 0.32), transparent 29%),
+    linear-gradient(120deg, rgba(15, 28, 42, 0.97), rgba(44, 29, 31, 0.97)),
+    #172535;
+  box-shadow: 10px 14px 0 rgba(55, 43, 34, 0.13);
+}
+
+.spell-workshop-hero::before {
+  position: absolute;
+  top: -22px;
+  left: 43%;
+  width: 132px;
+  height: 35px;
+  content: "";
+  background: rgba(197, 165, 104, 0.56);
+  transform: rotate(-1.5deg);
+}
+
+.spell-workshop-hero p,
+.spell-design-form > header p,
+.spell-sandbox-panel > header p,
+.spell-review-board > header p,
+.spell-archive > header p,
+.spell-defence-dais > header p,
+.spell-design-file > header p,
+.spell-defence-record > header p {
+  margin: 0 0 12px;
+  color: #ddb567;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+}
+
+.spell-workshop-hero h2 {
+  max-width: 790px;
+  margin: 0;
+  font: 700 clamp(40px, 5.8vw, 72px)/1.16 var(--serif);
+  letter-spacing: -0.04em;
+}
+
+.spell-workshop-hero > div > span {
+  display: block;
+  max-width: 760px;
+  margin-top: 28px;
+  color: rgba(255, 249, 233, 0.72);
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.95;
+}
+
+.spell-workshop-hero blockquote {
+  position: relative;
+  margin: 0;
+  padding: 38px 32px 31px;
+  color: #2f2722;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 27px, rgba(91, 68, 39, 0.08) 27px 28px),
+    #ddc88f;
+  box-shadow: 6px 8px 0 rgba(0, 0, 0, 0.24);
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 2;
+  transform: rotate(1.5deg);
+}
+
+.spell-workshop-hero blockquote::before {
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 36px);
+  width: 72px;
+  height: 19px;
+  content: "";
+  background: rgba(103, 147, 138, 0.66);
+}
+
+.spell-workshop-hero blockquote b {
+  display: block;
+  margin-bottom: 13px;
+  color: var(--red);
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+}
+
+.spell-live-strip {
+  display: grid;
+  padding: 21px 28px;
+  grid-template-columns: auto auto 1fr;
+  gap: 16px 24px;
+  align-items: center;
+  color: #f6ecda;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+  background:
+    repeating-linear-gradient(90deg, transparent 0 78px, rgba(255, 255, 255, 0.03) 78px 79px),
+    #503626;
+}
+
+.spell-live-strip span {
+  color: #d9ae63;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.spell-live-strip strong {
+  font-family: var(--serif);
+  font-size: 15px;
+}
+
+.spell-live-strip p {
+  margin: 0;
+  color: rgba(255, 246, 228, 0.75);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.spell-workshop-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--line);
+  border-top: 0;
+}
+
+.spell-workshop-tabs button {
+  display: grid;
+  min-height: 88px;
+  padding: 20px 27px;
+  grid-template-columns: auto 1fr auto;
+  gap: 16px;
+  align-items: center;
+  color: var(--ink);
+  border: 0;
+  border-right: 1px solid var(--line);
+  background: rgba(255, 253, 248, 0.82);
+  cursor: pointer;
+  text-align: left;
+}
+
+.spell-workshop-tabs button:last-child {
+  border-right: 0;
+}
+
+.spell-workshop-tabs button[aria-pressed="true"] {
+  color: var(--white);
+  background: var(--blue);
+}
+
+.spell-workshop-tabs button > span {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  place-items: center;
+  font-size: 11px;
+}
+
+.spell-workshop-tabs strong {
+  font-family: var(--serif);
+  font-size: 20px;
+}
+
+.spell-workshop-tabs b {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  opacity: 0.62;
+}
+
+.spell-workshop-view {
+  margin-top: 38px;
+}
+
+.spell-design-bench {
+  display: grid;
+  grid-template-columns: minmax(430px, 0.88fr) minmax(520px, 1.12fr);
+  gap: 26px;
+}
+
+.spell-sandbox-panel,
+.spell-design-form,
+.spell-review-board,
+.spell-archive,
+.spell-defence-dais,
+.spell-design-file,
+.spell-defence-record {
+  border: 1px solid var(--line);
+  background: rgba(255, 253, 248, 0.93);
+  box-shadow: 7px 10px 0 rgba(51, 43, 35, 0.08);
+}
+
+.spell-sandbox-panel {
+  align-self: start;
+  position: sticky;
+  top: 92px;
+}
+
+.spell-sandbox-panel > header,
+.spell-design-form > header,
+.spell-review-board > header,
+.spell-archive > header,
+.spell-defence-dais > header {
+  display: grid;
+  padding: 27px 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 26px;
+  align-items: end;
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-sandbox-panel > header h3,
+.spell-design-form > header h3,
+.spell-review-board > header h3,
+.spell-archive > header h3,
+.spell-defence-dais > header h3 {
+  margin: 0;
+  font: 650 clamp(24px, 3vw, 35px)/1.25 var(--serif);
+}
+
+.spell-sandbox-panel > header > span,
+.spell-design-form > header > span,
+.spell-review-board > header > span,
+.spell-archive > header > span {
+  color: var(--ink-soft);
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+.spell-sandbox-stage {
+  position: relative;
+  min-height: 510px;
+  background: #111d2b;
+  overflow: hidden;
+}
+
+.spell-sandbox-stage canvas {
+  display: block;
+  width: 100%;
+  height: 510px;
+  outline: 0;
+  touch-action: none;
+}
+
+.spell-sandbox-stage canvas:focus-visible {
+  box-shadow: inset 0 0 0 3px #d9b05f;
+}
+
+.spell-sandbox-status {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+  padding: 9px 11px;
+  align-items: center;
+  gap: 13px;
+  color: #f6eddd;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(10, 18, 28, 0.74);
+  backdrop-filter: blur(5px);
+}
+
+.spell-sandbox-status span {
+  color: #e0b767;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.spell-sandbox-status b {
+  font-size: 11px;
+}
+
+.spell-sandbox-status i {
+  font-style: normal;
+}
+
+.spell-sandbox-actions {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  display: flex;
+  gap: 7px;
+}
+
+.spell-sandbox-actions button {
+  padding: 9px 12px;
+  color: #fff7e8;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(15, 26, 39, 0.8);
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.spell-sandbox-actions button:hover,
+.spell-sandbox-actions button:focus-visible {
+  color: var(--white);
+  border-color: var(--red);
+  background: var(--red);
+  outline: 0;
+}
+
+.spell-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.spell-sandbox-panel > .spell-metric-grid {
+  border-left: 0;
+}
+
+.spell-metric-grid article {
+  min-width: 0;
+  padding: 17px 15px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-metric-grid article:last-child {
+  grid-column: span 2;
+}
+
+.spell-metric-grid span {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--ink-soft);
+  font-size: 10px;
+  font-weight: 850;
+}
+
+.spell-metric-grid strong {
+  color: var(--red);
+  font: 700 23px var(--serif);
+}
+
+.spell-metric-grid small {
+  margin-left: 4px;
+  font: 700 10px var(--sans);
+}
+
+.spell-design-form {
+  min-width: 0;
+}
+
+.spell-design-form > header {
+  grid-template-columns: 0.7fr 1.3fr;
+}
+
+.spell-message {
+  margin: 0;
+  padding: 14px 26px;
+  color: var(--white);
+  background: var(--red);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.spell-name-field,
+.spell-note-field {
+  display: grid;
+  padding: 26px 30px;
+  gap: 9px;
+  color: var(--red);
+  border-bottom: 1px solid var(--line);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+}
+
+.spell-name-field input,
+.spell-note-field textarea,
+.spell-select-grid select {
+  width: 100%;
+  color: var(--ink);
+  border: 1px solid rgba(23, 32, 44, 0.24);
+  background: #fffdf8;
+  font: 600 14px/1.5 var(--serif);
+}
+
+.spell-name-field input {
+  padding: 13px 15px;
+}
+
+.spell-note-field textarea {
+  min-height: 115px;
+  padding: 14px 15px;
+  resize: vertical;
+}
+
+.spell-select-grid {
+  display: grid;
+  padding: 25px 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-select-grid label {
+  display: grid;
+  gap: 7px;
+  color: var(--ink-soft);
+  font-size: 10px;
+  font-weight: 850;
+}
+
+.spell-select-grid select {
+  min-height: 44px;
+  padding: 8px 10px;
+  font-family: var(--sans);
+  font-size: 12px;
+}
+
+.spell-context-notes {
+  display: grid;
+  padding: 0 30px 24px;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-context-notes p {
+  margin: 0;
+  padding-left: 12px;
+  color: var(--ink-soft);
+  border-left: 2px solid rgba(142, 47, 55, 0.34);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.spell-range-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-range {
+  display: grid;
+  min-height: 84px;
+  padding: 17px 21px;
+  align-content: center;
+  gap: 13px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-range:nth-child(even) {
+  border-right: 0;
+}
+
+.spell-range > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--ink-soft);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.spell-range output {
+  min-width: 31px;
+  color: var(--red);
+  font-family: var(--serif);
+  font-size: 16px;
+  text-align: right;
+}
+
+.spell-range input {
+  width: 100%;
+  accent-color: var(--red);
+}
+
+.spell-check-grid {
+  display: grid;
+  padding: 23px 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 11px 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-check-grid label {
+  display: flex;
+  min-height: 49px;
+  padding: 11px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid var(--line);
+  background: rgba(232, 222, 204, 0.22);
+  cursor: pointer;
+}
+
+.spell-check-grid input {
+  margin-top: 3px;
+  accent-color: var(--red);
+}
+
+.spell-check-grid span {
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.spell-design-form > footer,
+.spell-design-file > footer,
+.spell-defence-record > footer {
+  display: flex;
+  padding: 24px 30px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.spell-design-form > footer > span {
+  margin-right: auto;
+  color: var(--ink-soft);
+  font-size: 11px;
+}
+
+.spell-design-form > footer > span i {
+  margin-right: 6px;
+  color: var(--red);
+  font-style: normal;
+}
+
+.spell-review-board {
+  grid-column: 1 / -1;
+  margin-top: 8px;
+}
+
+.spell-review-grid {
+  display: grid;
+  padding: 31px 28px 38px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px 20px;
+  background:
+    radial-gradient(circle at 13% 16%, rgba(78, 57, 36, 0.11) 0 1px, transparent 2px),
+    radial-gradient(circle at 79% 67%, rgba(78, 57, 36, 0.08) 0 1px, transparent 2px);
+  background-size: 73px 81px, 89px 63px;
+}
+
+.spell-review {
+  position: relative;
+  min-height: 205px;
+  padding: 24px 22px 20px;
+  border: 1px solid rgba(77, 67, 55, 0.25);
+  background: #f2e8d5;
+  box-shadow: 4px 6px 0 rgba(50, 42, 33, 0.11);
+}
+
+.spell-review::before {
+  position: absolute;
+  top: -9px;
+  left: calc(50% - 34px);
+  width: 68px;
+  height: 18px;
+  content: "";
+  background: rgba(191, 158, 102, 0.55);
+}
+
+.spell-review-2,
+.spell-review-5 {
+  transform: translateY(7px) rotate(0.4deg);
+}
+
+.spell-review-3 {
+  transform: rotate(-0.5deg);
+}
+
+.spell-review-object {
+  border: 2px solid rgba(155, 48, 57, 0.7);
+}
+
+.spell-review-caution {
+  border-color: rgba(149, 105, 46, 0.58);
+}
+
+.spell-review > header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3px 12px;
+  align-items: center;
+}
+
+.spell-review > header i {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  grid-row: 1 / 3;
+  color: var(--red);
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  place-items: center;
+  font: normal 16px var(--serif);
+}
+
+.spell-review > header strong,
+.spell-review > header span {
+  display: block;
+}
+
+.spell-review > header strong {
+  font: 700 15px var(--serif);
+}
+
+.spell-review > header span {
+  margin-top: 2px;
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.spell-review > header b {
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  padding: 4px 7px;
+  color: var(--red);
+  border: 1px solid currentColor;
+  font-size: 9px;
+  transform: rotate(2deg);
+}
+
+.spell-review p {
+  margin: 20px 0 0;
+  color: #554e47;
+  font-family: var(--serif);
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.spell-archive > header {
+  grid-template-columns: 1fr auto;
+}
+
+.spell-version-shelf {
+  display: flex;
+  max-width: 100%;
+  border-bottom: 1px solid var(--line);
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+}
+
+.spell-version-shelf button {
+  display: grid;
+  min-width: 265px;
+  min-height: 112px;
+  padding: 20px 22px;
+  align-content: center;
+  gap: 5px;
+  color: var(--ink);
+  border: 0;
+  border-right: 1px solid var(--line);
+  background: transparent;
+  cursor: pointer;
+  scroll-snap-align: start;
+  text-align: left;
+}
+
+.spell-version-shelf button[aria-pressed="true"],
+.spell-version-shelf button:hover,
+.spell-version-shelf button:focus-visible {
+  color: var(--white);
+  background: var(--red-dark);
+  outline: 0;
+}
+
+.spell-version-shelf button span,
+.spell-version-shelf button small {
+  font-size: 10px;
+  opacity: 0.65;
+}
+
+.spell-version-shelf button strong {
+  font-family: var(--serif);
+  font-size: 15px;
+}
+
+.spell-design-file {
+  position: relative;
+  margin: 34px;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 28px, rgba(72, 79, 78, 0.045) 28px 29px),
+    #fbf7ed;
+}
+
+.spell-design-file > header,
+.spell-defence-record > header {
+  display: flex;
+  padding: 29px 32px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.spell-design-file > header h3,
+.spell-defence-record > header h3 {
+  margin: 0 0 5px;
+  font: 700 clamp(26px, 4vw, 43px)/1.25 var(--serif);
+}
+
+.spell-design-file > header span,
+.spell-defence-record > header span {
+  color: var(--ink-soft);
+  font-size: 11px;
+}
+
+.spell-design-file > header > b {
+  max-width: 270px;
+  padding: 9px 12px;
+  color: var(--red);
+  border: 2px solid currentColor;
+  font-size: 11px;
+  text-align: center;
+  transform: rotate(-2deg);
+}
+
+.spell-file-meta {
+  display: grid;
+  margin: 0;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-file-meta div {
+  padding: 18px 21px;
+  border-right: 1px solid var(--line);
+}
+
+.spell-file-meta div:last-child {
+  border-right: 0;
+}
+
+.spell-file-meta dt {
+  margin-bottom: 5px;
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 850;
+}
+
+.spell-file-meta dd {
+  margin: 0;
+  font: 650 12px var(--serif);
+  overflow-wrap: anywhere;
+}
+
+.spell-file-reviews > h4,
+.spell-vote-record h4,
+.spell-condition-record h4 {
+  margin: 0;
+  padding: 22px 29px 0;
+  font: 700 19px var(--serif);
+}
+
+.spell-design-file blockquote {
+  margin: 0 28px 24px;
+  padding: 19px 22px;
+  color: #5d554c;
+  border-left: 3px solid var(--red);
+  background: rgba(228, 218, 198, 0.35);
+  font: 13px/1.9 var(--serif);
+}
+
+.spell-paper-button {
+  display: inline-flex;
+  min-height: 43px;
+  padding: 10px 15px;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+  border: 1px solid currentColor;
+  background: transparent;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.spell-empty {
+  margin: 0;
+  padding: 62px 32px;
+  color: var(--ink-soft);
+  font-family: var(--serif);
+  text-align: center;
+}
+
+.spell-defence-dais,
+.spell-defence-record {
+  background:
+    linear-gradient(90deg, rgba(155, 48, 57, 0.035), transparent 55%),
+    #fbf7ed;
+}
+
+.spell-defence-dais > header {
+  grid-template-columns: 1fr auto;
+  color: var(--white);
+  background: #17283b;
+}
+
+.spell-defence-dais > header > strong {
+  max-width: 360px;
+  font: 650 19px/1.5 var(--serif);
+}
+
+.spell-defence-panel {
+  display: grid;
+  padding: 31px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17px;
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-defence-panel article {
+  position: relative;
+  display: grid;
+  min-height: 140px;
+  padding: 19px 20px;
+  grid-template-columns: auto 1fr;
+  gap: 4px 13px;
+  align-content: center;
+  border: 1px solid var(--line);
+  background: rgba(255, 253, 248, 0.78);
+}
+
+.spell-defence-panel i {
+  display: grid;
+  width: 43px;
+  height: 43px;
+  grid-row: 1 / 3;
+  color: var(--red);
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  place-items: center;
+  font: normal 16px var(--serif);
+}
+
+.spell-defence-panel span {
+  position: absolute;
+  top: 9px;
+  right: 11px;
+  color: var(--red);
+  font-size: 10px;
+}
+
+.spell-defence-panel strong {
+  font: 700 15px var(--serif);
+}
+
+.spell-defence-panel small {
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.spell-defence-lead {
+  margin: 0;
+  padding: 17px 31px;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--line);
+  font-size: 12px;
+}
+
+.spell-defence-round {
+  min-width: 0;
+  margin: 0;
+  padding: 31px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-defence-round legend {
+  display: grid;
+  width: 100%;
+  margin: 0 0 22px;
+  gap: 7px;
+}
+
+.spell-defence-round legend span {
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.spell-defence-round legend strong {
+  max-width: 900px;
+  font: 650 17px/1.75 var(--serif);
+}
+
+.spell-defence-round > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 11px;
+}
+
+.spell-defence-round label {
+  display: grid;
+  min-height: 104px;
+  padding: 17px 18px;
+  grid-template-columns: auto 1fr;
+  gap: 13px;
+  align-items: start;
+  border: 1px solid var(--line);
+  background: rgba(255, 253, 248, 0.76);
+  cursor: pointer;
+}
+
+.spell-defence-round label:has(input:checked) {
+  color: var(--white);
+  border-color: var(--blue);
+  background: var(--blue);
+}
+
+.spell-defence-round input {
+  margin-top: 4px;
+  accent-color: var(--red);
+}
+
+.spell-defence-round label strong,
+.spell-defence-round label small {
+  display: block;
+}
+
+.spell-defence-round label strong {
+  font: 650 13px/1.55 var(--serif);
+}
+
+.spell-defence-round label small {
+  margin-top: 7px;
+  color: var(--ink-soft);
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.spell-defence-round label:has(input:checked) small {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.spell-defence-dais form > footer {
+  display: flex;
+  padding: 26px 31px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.spell-defence-dais form > footer > span {
+  max-width: 650px;
+  color: var(--ink-soft);
+  font-size: 11px;
+}
+
+.spell-defence-record {
+  position: relative;
+}
+
+.spell-ruling {
+  max-width: 310px;
+  padding: 12px 17px;
+  color: var(--red);
+  border: 3px double currentColor;
+  font: 850 13px/1.4 var(--serif);
+  text-align: center;
+  transform: rotate(-3deg);
+}
+
+.spell-ruling-research-only,
+.spell-ruling-revise {
+  color: #8b3840;
+}
+
+.spell-vote-record {
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-vote-record p {
+  display: flex;
+  margin: 0 29px;
+  padding: 13px 4px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px dotted var(--line);
+}
+
+.spell-vote-record strong {
+  font: 650 13px var(--serif);
+}
+
+.spell-vote-record span {
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 850;
+}
+
+.spell-answer-record {
+  display: grid;
+  padding: 28px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-answer-record article {
+  min-height: 160px;
+  padding: 20px;
+  border: 1px solid var(--line);
+}
+
+.spell-answer-record span {
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 850;
+}
+
+.spell-answer-record strong {
+  display: block;
+  margin-top: 11px;
+  font: 650 14px/1.55 var(--serif);
+}
+
+.spell-answer-record p {
+  margin: 9px 0 0;
+  color: var(--ink-soft);
+  font-size: 11px;
+  line-height: 1.65;
+}
+
+.spell-condition-record {
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--line);
+}
+
+.spell-condition-record ol {
+  margin: 17px 29px 0;
+  padding-left: 23px;
+}
+
+.spell-condition-record li {
+  padding: 6px 0 6px 6px;
+  font: 12px/1.75 var(--serif);
+}
+
+.spell-dissent {
+  position: relative;
+  margin: 29px;
+  padding: 25px 27px;
+  border: 1px solid rgba(143, 47, 55, 0.36);
+  background: #eadcc4;
+  box-shadow: 4px 6px 0 rgba(59, 47, 34, 0.1);
+  transform: rotate(0.3deg);
+}
+
+.spell-dissent span,
+.spell-dissent strong {
+  display: block;
+}
+
+.spell-dissent span {
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.spell-dissent strong {
+  margin-top: 8px;
+  font: 700 15px var(--serif);
+}
+
+.spell-dissent p {
+  margin: 10px 0 0;
+  color: #554d44;
+  font: 13px/1.85 var(--serif);
+}
+
+.spell-document-note {
+  margin: 0;
+  padding: 0 29px 10px;
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.spell-print-document > header,
+.spell-print-document > footer {
+  padding: 24px;
+  border: 2px solid var(--ink);
+}
+
+.spell-print-document > header p,
+.spell-print-document > footer {
+  font-size: 10px;
+}
+
+.spell-print-document > header h1 {
+  margin: 8px 0;
+  font-family: var(--serif);
+}
+
+@media (max-width: 1050px) {
+  .spell-design-bench {
+    grid-template-columns: 1fr;
+  }
+
+  .spell-sandbox-panel {
+    position: relative;
+    top: auto;
+  }
+
+  .spell-review-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .spell-answer-record {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .spellcard-workshop-section {
+    padding: 52px 0 80px;
+  }
+
+  .spellcard-workshop-section .container {
+    width: min(100% - 24px, 1200px);
+  }
+
+  .spell-workshop-hero {
+    min-height: 0;
+    padding: 42px 24px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    border-width: 8px;
+    outline-offset: -16px;
+  }
+
+  .spell-workshop-hero h2 {
+    font-size: 39px;
+  }
+
+  .spell-workshop-hero > div > span,
+  .spell-workshop-hero blockquote {
+    font-size: 14px;
+  }
+
+  .spell-live-strip {
+    grid-template-columns: 1fr;
+    gap: 7px;
+  }
+
+  .spell-workshop-tabs button {
+    min-width: 0;
+    min-height: 76px;
+    padding: 15px;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+  }
+
+  .spell-workshop-tabs strong {
+    font-size: 16px;
+  }
+
+  .spell-workshop-tabs b {
+    display: none;
+  }
+
+  .spell-sandbox-panel > header,
+  .spell-design-form > header,
+  .spell-review-board > header,
+  .spell-archive > header,
+  .spell-defence-dais > header {
+    padding: 23px 20px;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .spell-sandbox-stage,
+  .spell-sandbox-stage canvas {
+    min-height: 390px;
+    height: 390px;
+  }
+
+  .spell-sandbox-status {
+    right: 11px;
+    left: 11px;
+    flex-wrap: wrap;
+  }
+
+  .spell-metric-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .spell-metric-grid article:last-child {
+    grid-column: auto;
+  }
+
+  .spell-name-field,
+  .spell-note-field,
+  .spell-select-grid,
+  .spell-context-notes,
+  .spell-check-grid {
+    padding-right: 19px;
+    padding-left: 19px;
+  }
+
+  .spell-select-grid,
+  .spell-range-grid,
+  .spell-check-grid,
+  .spell-review-grid,
+  .spell-file-meta,
+  .spell-defence-panel,
+  .spell-defence-round > div {
+    grid-template-columns: 1fr;
+  }
+
+  .spell-range {
+    border-right: 0;
+  }
+
+  .spell-review-grid {
+    padding: 28px 18px 34px;
+  }
+
+  .spell-review {
+    min-height: 175px;
+    transform: none;
+  }
+
+  .spell-design-form > footer,
+  .spell-design-file > footer,
+  .spell-defence-record > footer,
+  .spell-defence-dais form > footer {
+    align-items: stretch;
+    flex-direction: column;
+    padding: 22px 19px;
+  }
+
+  .spell-design-form > footer > span {
+    margin: 0;
+  }
+
+  .spell-design-file {
+    margin: 20px 12px;
+  }
+
+  .spell-design-file > header,
+  .spell-defence-record > header {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 24px 20px;
+  }
+
+  .spell-file-meta div {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .spell-defence-panel,
+  .spell-defence-round,
+  .spell-answer-record {
+    padding: 22px 18px;
+  }
+
+  .spell-paper-button,
+  .spell-design-form .button,
+  .spell-design-file .button,
+  .spell-defence-record .button,
+  .spell-defence-dais .button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spell-review,
+  .spell-workshop-hero blockquote,
+  .spell-ruling,
+  .spell-dissent {
+    transform: none;
+  }
+}
+
+@media print {
+  .tu-print-root .spell-design-file,
+  .tu-print-root .spell-defence-record {
+    margin: 0 0 8mm !important;
+    box-shadow: none !important;
+  }
+
+  .tu-print-root .spell-review-grid,
+  .tu-print-root .spell-answer-record,
+  .tu-print-root .spell-defence-panel {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .tu-print-root .spell-review {
+    min-height: 0 !important;
+    transform: none !important;
+  }
+}
+.research-workshop-portal {
+  display: grid;
+  min-height: 94px;
+  margin: 0 0 32px;
+  padding: 20px 24px;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  color: #f7ecdc;
+  border: 1px solid rgba(124, 48, 75, 0.36);
+  background:
+    linear-gradient(104deg, rgba(149, 48, 63, 0.72), transparent 47%),
+    repeating-linear-gradient(90deg, transparent 0 42px, rgba(255, 255, 255, 0.025) 42px 43px),
+    #172536;
+  box-shadow: 7px 8px 0 rgba(31, 39, 49, 0.1);
+  text-decoration: none;
+}
+
+.research-workshop-portal span {
+  grid-column: 1;
+  color: #e5bd79;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+}
+
+.research-workshop-portal strong {
+  grid-column: 1;
+  font: 650 clamp(18px, 2.2vw, 27px)/1.45 var(--serif);
+}
+
+.research-workshop-portal i {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  font: normal 32px var(--serif);
+  transition: transform 0.2s ease;
+}
+
+.research-workshop-portal:hover i,
+.research-workshop-portal:focus-visible i {
+  transform: translateX(6px);
+}
+
+.research-workshop-portal:focus-visible {
+  outline: 3px solid var(--red);
+  outline-offset: 4px;
+}
+
+.spellcard-workshop-section,
+#spellcard-records,
+[id^="spellcard-design-"],
+[id^="spellcard-defence-"] {
+  scroll-margin-top: 94px;
+}

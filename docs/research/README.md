@@ -32,6 +32,8 @@ The research follows the method already established in
 - `content-and-provenance.md` — site content decisions and asset ledger.
 - `academic-catalogue-and-transit.md` — programme credits and fees, route-graph
   assumptions, and the spell-card research design.
+- `spellcard-workshop-notes.md` — six independent reviewer positions,
+  lightweight sandbox constraints, public-defence structure and persistence.
 
 ## Internal editorial labels
 

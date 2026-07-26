@@ -20,7 +20,7 @@ export function currentPage() {
 export function pageForRoute(route = "") {
   if (/^(?:academics|faculty(?:-|$)|school-)/.test(route)) return "academics";
   if (/^(?:admissions|entrance-exam|gaokao)$/.test(route)) return "admissions";
-  if (/^research(?:-|$)/.test(route)) return "research";
+  if (/^(?:research|spellcard)(?:-|$)/.test(route)) return "research";
   if (/^incident(?:-|$)/.test(route)) return "incidents";
   if (/^(?:live-campus|governance|map(?:-|$)|campus(?:-|$)|bbs(?:-|$)|club-)/.test(route)) return "campus";
   if (/^(?:my-tu|course-registration|course-|academic-)/.test(route)) return "mytu";

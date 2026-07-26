@@ -476,7 +476,7 @@ function workbench(locale, c) {
   const latest = latestAppraisalFor(object.id);
   const assessment = assessAppraisal(object.id, draft);
   return `
-    <section class="appraisal-workbench" data-appraisal-workbench>
+    <section class="appraisal-workbench" id="appraisal-object-${object.id}" data-appraisal-workbench>
       <header class="appraisal-case-heading">
         <div class="appraisal-object-seal" aria-hidden="true">${object.glyph}</div>
         <div><p>${object.code} · ${c.selected}</p><h3>${escapeHtml(localized(object.name, locale))}</h3><span>${escapeHtml(localized(object.workingTitle, locale))}</span></div>
@@ -808,7 +808,7 @@ export function initAppraisal() {
   render({ preserveWindow: false });
   bindRetentionDialog();
   registerDeepLink("appraisal-object-", {
-    anchor: "#library-appraisal",
+    anchor: (route) => document.getElementById(route) || app,
     position: "always",
     open(id) {
       const object = appraisalObject(id);
@@ -822,7 +822,7 @@ export function initAppraisal() {
     close() {},
   });
   registerDeepLink("appraisal-record-", {
-    anchor: "#library-appraisal",
+    anchor: (route) => document.getElementById(route) || app,
     position: "always",
     open(id) {
       const record = appraisalRecord(id);

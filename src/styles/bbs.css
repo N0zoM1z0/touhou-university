@@ -260,6 +260,18 @@
   color: #76502f;
 }
 
+.spellcard-post {
+  background:
+    linear-gradient(90deg, rgba(129, 49, 76, 0.14), transparent 40%),
+    var(--paper-light);
+}
+
+.spellcard-post .bbs-category,
+.spellcard-post .incident-linked {
+  border-color: rgba(129, 49, 76, 0.54);
+  color: #7c304b;
+}
+
 .bbs-replies {
   color: #8b8379;
   font-size: 8px;

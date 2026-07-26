@@ -68,11 +68,15 @@ function alignRouteTarget(target, route, behavior = "auto") {
 }
 
 function stabilizeRoutePosition(route, registration, behavior = "auto") {
-  const target = targetForRoute(route, registration);
-  if (!target) return;
+  if (!targetForRoute(route, registration)) return;
   const token = ++positionToken;
   const align = (nextBehavior = "auto") => {
     if (token !== positionToken) return;
+    // Inline deep-link views often replace their own markup while opening or
+    // translating. Resolve the target again on every bounded alignment pass
+    // instead of holding a detached element from the first render.
+    const target = targetForRoute(route, registration);
+    if (!target) return;
     alignRouteTarget(target, route, nextBehavior);
   };
 

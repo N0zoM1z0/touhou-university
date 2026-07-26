@@ -76,6 +76,7 @@ if (!redirected) {
     initialize("#map", "./map.js", "initCampusMap"),
     initialize("[data-live-campus-app]", "./live-campus.js", "initLiveCampus"),
     initialize("[data-research]", "./research.js", "initResearch"),
+    initialize("[data-spellcard-workshop]", "./spellcard-workshop.js", "initSpellcardWorkshop"),
     initialize("#bbs", "./bbs.js", "initBbs"),
     initialize("[data-campus-feature]", "./campus.js", "initCampusInteractions"),
     initialize("[data-news-track]", "./news.js", "initNews"),

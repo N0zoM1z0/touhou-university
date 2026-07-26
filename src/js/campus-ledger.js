@@ -68,6 +68,8 @@ function legacyEvents() {
   const clinicPrescriptions = readJson("tu:clinic:prescriptions", []);
   const clinicPlans = readJson("tu:clinic:care-plans", []);
   const appraisalRecords = readJson("tu:appraisal:records", []);
+  const spellcardDesigns = readJson("tu:spellcards:designs", []);
+  const spellcardDefences = readJson("tu:spellcards:defences", []);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -442,6 +444,36 @@ function legacyEvents() {
         payload: { appraisalId: record.id, objectId: record.objectId, destinationId: record.destinationId },
       });
     }
+  }
+  for (const design of Array.isArray(spellcardDesigns) ? spellcardDesigns : []) {
+    if (!design?.id || !design?.createdAt) continue;
+    events.push({
+      id: `spellcard.design.saved:${design.id}`,
+      type: "spellcard.design.saved",
+      timestamp: design.createdAt,
+      payload: {
+        designId: design.id,
+        spellName: design.draft?.spellName,
+        patternId: design.draft?.patternId,
+        revisionOf: design.revisionOf,
+      },
+    });
+  }
+  for (const defence of Array.isArray(spellcardDefences) ? spellcardDefences : []) {
+    if (!defence?.id || !defence?.designId || !defence?.createdAt) continue;
+    const design = (Array.isArray(spellcardDesigns) ? spellcardDesigns : [])
+      .find((candidate) => candidate?.id === defence.designId);
+    events.push({
+      id: `spellcard.defence.completed:${defence.id}`,
+      type: "spellcard.defence.completed",
+      timestamp: defence.createdAt,
+      payload: {
+        defenceId: defence.id,
+        designId: defence.designId,
+        spellName: design?.draft?.spellName,
+        ruling: defence.ruling,
+      },
+    });
   }
   return events;
 }
