@@ -623,10 +623,9 @@ export const campusHistory = [
   {
     id: "kappa-cabinets-reveal-their-drawers",
     archiveId: "TU-H-026",
-    commit: null,
+    commit: "e17c39d9eabac6f71693b82fef2c9c446ae69350",
     commitSubject: "Add unified on-device records cabinet",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "records",
     era: l("翌朝・紅印盤點第一刻", "翌朝・赤印棚卸し第一刻", "Next morning · First red-stamp inventory"),
     title: l(
@@ -643,6 +642,31 @@ export const campusHistory = [
       "魔理沙問「一鍵封箱」能否順便替來源不明的研究材料補出處；荷取說封印只能證明箱子從封好後沒被改，不會替封箱前的故事負責。文立即把標題改成《河童承認封印不保證真相》，然後發現自己的草稿也在資料櫃裡。",
       "魔理沙は「一括箱詰め」で出所不明の研究材料にも出典が付くか尋ねた。にとりは、封印が証明するのは箱詰め後に改変されていないことだけで、箱詰め前の物語には責任を持たないと回答。文は即座に見出しを『河童、封印が真実を保証しないと認める』へ変更し、自分の下書きも棚に載っていると気づいた。",
       "Marisa asked whether one-click packing could also invent provenance for research materials of unknown origin. Nitori said the seal proves only that the box was unchanged after packing, not that its earlier story was true. Aya immediately changed her headline to “Kappa admits seal does not guarantee truth,” then noticed her own draft was listed in the cabinet.",
+    ),
+  },
+  {
+    id: "translation-keys-tie-the-red-ledger-thread",
+    archiveId: "TU-H-027",
+    commit: null,
+    commitSubject: "Add multilingual domain and event registries",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "archive",
+    era: l("同朝・翻譯室第七次退件", "同朝・翻訳室第七回差戻し", "Same morning · Translation Office's seventh return"),
+    title: l(
+      "翻譯室給每句話編號，校務帳本則開始承認事情有前因",
+      "翻訳室が全ての文へ番号を付け、学務台帳は出来事に前因があると認める",
+      "The Translation Office numbers every sentence; the campus ledger admits events have causes",
+    ),
+    summary: l(
+      "翻譯室查出四組中文完全相同、英譯卻因所在卷宗而不同的告示，於是替導覽、頁名與可及性標籤蓋上不受標點影響的訊息印。另一邊，阿求把四十五種正式校務事件逐項登記：每筆要寫明主體、同一流程的紅線、直接前因與旁涉卷宗；舊帳仍按原日期補線，不准為了整齊重寫發生過的事。搜尋室、校園 BBS 與 My TU 也改查同一份領域名冊，新增辦公室不必再分別賄賂三位值班員。夢境校區在名冊角落蓋了「不進正式帳」的反印，然後否認那枚印屬於它。 ",
+      "翻訳室は、中国語が全く同じなのに所在ファイルによって英訳が異なる掲示を四組発見し、案内・頁名・アクセシビリティ表示へ句読点に左右されないメッセージ印を付した。一方、阿求は四十五種の正式学務イベントを一件ずつ登録し、主体・同じ手続を結ぶ赤糸・直接の前因・参照ファイルを必須とした。旧台帳にも元の日付順で糸を補い、整頓のために過去を書き換えることは禁止。検索室、学内 BBS、My TU は同じ領域名簿を参照するようになり、新しい窓口が三人の当番を別々に買収する必要はなくなった。夢キャンパスは名簿の隅へ「正式台帳に入れない」と裏印を押し、その印の所属を否認した。",
+      "The Translation Office finds four notices whose Chinese is identical while their English changes with the file, so navigation, page names, and accessibility labels receive punctuation-proof message seals. Meanwhile Akyuu registers all forty-five official campus event types: each must name its subject, the red thread joining its workflow, its immediate cause, and the files it references. Old ledgers gain threads in their original date order; nobody may rewrite what happened merely to make the shelves tidy. Search, Campus BBS, and My TU now consult the same domain roll, so a new office need not bribe three duty clerks separately. Dream Campus stamps “not for the official ledger” in the margin, then denies owning the stamp.",
+    ),
+    marginalia: l(
+      "文問往後每個標題是否都要交代前因；阿求回答只有校務事件需要。紫把「校務事件」四字剪成一條莫比烏斯紙帶，魔理沙則在背面寫上「材料來源：稍後補」。",
+      "文は今後すべての見出しに前因が必要か質問。阿求は学務イベントだけだと回答した。紫は「学務イベント」の四文字をメビウスの紙帯へ切り、魔理沙は裏面に「材料出所：後で追記」と書いた。",
+      "Aya asked whether every future headline must disclose its cause. Akyuu replied that only campus events must. Yukari cut “campus event” into a Möbius strip; Marisa wrote “material provenance: add later” on its reverse.",
     ),
   },
 ];

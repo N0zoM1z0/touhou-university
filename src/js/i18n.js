@@ -9,11 +9,30 @@ function normalize(value) {
   return canonicalText(value);
 }
 
+function interpolate(value, variables = {}) {
+  return String(value).replace(/\{([a-zA-Z0-9_]+)\}/g, (match, key) =>
+    Object.hasOwn(variables, key) ? String(variables[key]) : match,
+  );
+}
+
+function translateKeyedElements(root = document.body) {
+  const elements = [
+    ...(root?.matches?.("[data-i18n]") ? [root] : []),
+    ...(root?.querySelectorAll?.("[data-i18n]") || []),
+  ];
+  elements.forEach((element) => {
+    const key = element.dataset.i18n;
+    const translated = messages[locale]?.[key] || messages["zh-Hant"]?.[key];
+    if (translated !== undefined) element.textContent = translated;
+  });
+}
+
 function translateTextNodes(root = document.body) {
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
     acceptNode(node) {
       if (!normalize(node.nodeValue || "")) return NodeFilter.FILTER_REJECT;
       if (node.parentElement?.closest("script, style, template")) return NodeFilter.FILTER_REJECT;
+      if (node.parentElement?.closest("[data-i18n]")) return NodeFilter.FILTER_REJECT;
       return NodeFilter.FILTER_ACCEPT;
     },
   });
@@ -206,12 +225,19 @@ function translateAttributes() {
   };
 
   const attributes = [
-    ["aria-label", "originalAria"],
-    ["placeholder", "originalPlaceholder"],
-    ["alt", "originalAlt"],
+    ["aria-label", "originalAria", "data-i18n-aria-label"],
+    ["placeholder", "originalPlaceholder", "data-i18n-placeholder"],
+    ["alt", "originalAlt", "data-i18n-alt"],
+    ["title", "originalTitle", "data-i18n-title"],
   ];
-  attributes.forEach(([attribute, dataKey]) => {
+  attributes.forEach(([attribute, dataKey, keyAttribute]) => {
     document.querySelectorAll(`[${attribute}]`).forEach((element) => {
+      const explicitKey = element.getAttribute(keyAttribute);
+      if (explicitKey) {
+        const translated = messages[locale]?.[explicitKey] || messages["zh-Hant"]?.[explicitKey];
+        if (translated !== undefined) element.setAttribute(attribute, translated);
+        return;
+      }
       if (!element.dataset[dataKey]) element.dataset[dataKey] = element.getAttribute(attribute);
       const source = element.dataset[dataKey];
       element.setAttribute(attribute, attributeCopy[locale][source] || source);
@@ -223,15 +249,21 @@ export function getLocale() {
   return locale;
 }
 
-export function t(key) {
-  return messages[locale]?.[key] || messages["zh-Hant"]?.[key] || key;
+export function t(key, variables = {}) {
+  return interpolate(messages[locale]?.[key] || messages["zh-Hant"]?.[key] || key, variables);
+}
+
+export function applyI18n(root = document.body) {
+  translateKeyedElements(root);
+  translateTextNodes(root);
+  translateAttributes();
 }
 
 export function setLocale(nextLocale, { persist = true } = {}) {
   if (!supportedLocales.includes(nextLocale)) return;
   locale = nextLocale;
   document.documentElement.lang = locale;
-  const pageTitleKey = {
+  const pageTitleKey = document.body?.dataset.pageTitleKey || {
     academics: "pageAcademicsTitle",
     admissions: "pageAdmissionsTitle",
     research: "pageResearchTitle",
@@ -252,8 +284,7 @@ export function setLocale(nextLocale, { persist = true } = {}) {
         ? "Touhou University of Gensokyo | Knowledge Beyond the Border"
         : "幻想鄉立東方大學｜越境而學，知行幻想";
   if (persist) window.localStorage.setItem("tu:locale", locale);
-  translateTextNodes();
-  translateAttributes();
+  applyI18n();
   document.querySelectorAll("[data-lang]").forEach((button) => {
     const active = button.dataset.lang === locale;
     button.classList.toggle("active", active);

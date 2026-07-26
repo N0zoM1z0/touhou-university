@@ -4,15 +4,9 @@ import { openInfoDialog } from "./info-dialog.js";
 import { showToast } from "./ui.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { recordCampusEvent } from "./campus-ledger.js";
-import { incidentCommunityPosts } from "./incident-model.js";
 import { siteHref } from "./site-router.js";
 import { liveCampusSnapshot, seededPostCreatedAt } from "../data/live-campus.js";
-import { governanceCommunityPosts } from "./governance-model.js";
-import { academicCommunityPosts } from "./academic-model.js";
-import { clinicCommunityPosts } from "./clinic-model.js";
-import { appraisalCommunityPosts } from "./appraisal-model.js";
-import { spellcardCommunityPosts } from "./spellcard-workshop-model.js";
-import { phantasmCommunityPosts } from "./phantasm-model.js";
+import { domainCommunityChangeEvents, domainCommunityPosts } from "./domain-registry.js";
 import { phantasmEntranceHref } from "./phantasm-gate.js";
 
 const labels = {
@@ -341,35 +335,11 @@ export function initBbs() {
         pinned: position === 0,
       };
     });
-    const incidentPosts = incidentCommunityPosts(locale).map((post) => ({
+    const generatedPosts = domainCommunityPosts(locale).map((post) => ({
       ...post,
       time: relativeTime(post.createdAt, l),
     }));
-    const governancePosts = governanceCommunityPosts(locale).map((post) => ({
-      ...post,
-      time: relativeTime(post.createdAt, l),
-    }));
-    const academicPosts = academicCommunityPosts(locale).map((post) => ({
-      ...post,
-      time: relativeTime(post.createdAt, l),
-    }));
-    const clinicPosts = clinicCommunityPosts(locale).map((post) => ({
-      ...post,
-      time: relativeTime(post.createdAt, l),
-    }));
-    const appraisalPosts = appraisalCommunityPosts(locale).map((post) => ({
-      ...post,
-      time: relativeTime(post.createdAt, l),
-    }));
-    const spellcardPosts = spellcardCommunityPosts(locale).map((post) => ({
-      ...post,
-      time: relativeTime(post.createdAt, l),
-    }));
-    const phantasmPosts = phantasmCommunityPosts(locale).map((post) => ({
-      ...post,
-      time: relativeTime(post.createdAt, l),
-    }));
-    return [...userPosts.reverse(), ...phantasmPosts, ...spellcardPosts, ...appraisalPosts, ...clinicPosts, ...academicPosts, ...governancePosts, ...incidentPosts, ...seeds];
+    return [...userPosts.reverse(), ...generatedPosts, ...seeds];
   }
 
   function findPost(id) {
@@ -522,12 +492,9 @@ export function initBbs() {
     renderPosts();
     updateComposeDefault();
   });
-  window.addEventListener("tu:incidentchange", renderPosts);
-  window.addEventListener("tu:governancechange", renderPosts);
-  window.addEventListener("tu:academicchange", renderPosts);
-  window.addEventListener("tu:clinicchange", renderPosts);
-  window.addEventListener("tu:appraisalchange", renderPosts);
-  window.addEventListener("tu:spellcardchange", renderPosts);
+  domainCommunityChangeEvents.forEach((eventName) =>
+    window.addEventListener(eventName, renderPosts),
+  );
   chooseSeedPosts();
   renderPosts();
   clockTimer = window.setInterval(() => {

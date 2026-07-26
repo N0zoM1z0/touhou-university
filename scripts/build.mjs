@@ -81,6 +81,7 @@ async function buildHtml() {
       .replace("<!-- @page-masthead -->", masthead(page))
       .replace("<!-- @page-sections -->", sectionIncludes)
       .replaceAll("{{pageId}}", page.id)
+      .replaceAll("{{pageTitleKey}}", page.titleKey || "")
       .replaceAll("{{pageTitle}}", page.title)
       .replaceAll("{{pageDescription}}", page.description);
     const included = await renderIncludes(prepared, templateFile);

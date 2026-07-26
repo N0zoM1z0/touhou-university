@@ -1,3 +1,10 @@
+import {
+  campusEventContract,
+  createCampusEventEnvelope,
+  upgradeCampusEvent,
+  validateCampusEvent,
+} from "../data/event-contracts.js";
+
 const LEDGER_KEY = "tu:campus:ledger";
 const IDENTITY_KEY = "tu:identity";
 const MAX_EVENTS = 500;
@@ -18,25 +25,44 @@ function validDate(value, fallback = new Date().toISOString()) {
 
 export function campusLedger() {
   const records = readJson(LEDGER_KEY, []);
-  return Array.isArray(records) ? records : [];
+  if (!Array.isArray(records)) return [];
+  return records
+    .slice()
+    .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp))
+    .reduce((history, record) => {
+      history.push(upgradeCampusEvent(record, history));
+      return history;
+    }, []);
 }
 
 export function recordCampusEvent(type, payload = {}, options = {}) {
   if (!type) return null;
+  if (!campusEventContract(type)) {
+    console.error(`Unregistered campus event type: ${type}`);
+    return null;
+  }
   const records = campusLedger();
   const entity = options.entityId || payload.id || payload.reference || "";
   const id = options.id || `${type}:${entity || Date.now().toString(36)}`;
   const existing = records.find((record) => record.id === id);
   if (existing) return existing;
   const identity = readJson(IDENTITY_KEY, null);
-  const event = {
-    schema: 1,
+  const event = createCampusEventEnvelope({
     id,
     type,
     actor: identity?.id || "student-local",
     timestamp: validDate(options.timestamp),
     payload,
-  };
+    causationId: options.causationId || null,
+    correlationId: options.correlationId || null,
+    subject: options.subject || null,
+    references: options.references || [],
+  }, records);
+  const errors = validateCampusEvent(event, records);
+  if (errors.length) {
+    console.error(`Invalid campus event:\n${errors.join("\n")}`);
+    return null;
+  }
   records.push(event);
   records.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
   window.localStorage.setItem(LEDGER_KEY, JSON.stringify(records.slice(-MAX_EVENTS)));
@@ -227,6 +253,8 @@ function legacyEvents() {
       timestamp: assignment.acceptedAt,
       payload: {
         assignmentId: assignment.id,
+        applicationId: assignment.applicationId,
+        offerId: assignment.offerId,
         roomId: assignment.roomId,
         residenceId: assignment.residenceId,
       },
@@ -389,7 +417,9 @@ function legacyEvents() {
         type: "clinic.dose.recorded",
         timestamp: dose.recordedAt,
         payload: {
+          doseId: dose.id,
           prescriptionId: prescription.id,
+          visitId: prescription.visitId,
           medicineId: dose.medicineId,
           sequence: dose.sequence,
         },
@@ -410,7 +440,7 @@ function legacyEvents() {
         id: `clinic.therapy.step.completed:${plan.id}:${step}`,
         type: "clinic.therapy.step.completed",
         timestamp: plan.updatedAt || plan.completedAt || plan.startedAt,
-        payload: { planId: plan.id, therapyId: plan.therapyId, step },
+        payload: { planId: plan.id, therapyId: plan.therapyId, visitId: plan.visitId, step },
       });
     }
     if (plan.completedAt) {
@@ -418,7 +448,7 @@ function legacyEvents() {
         id: `clinic.therapy.completed:${plan.id}`,
         type: "clinic.therapy.completed",
         timestamp: plan.completedAt,
-        payload: { planId: plan.id, therapyId: plan.therapyId },
+        payload: { planId: plan.id, therapyId: plan.therapyId, visitId: plan.visitId },
       });
     }
   }
@@ -479,23 +509,28 @@ function legacyEvents() {
 }
 
 export function syncCampusLedger() {
-  const records = campusLedger();
-  const ids = new Set(records.map((record) => record.id));
-  let changed = false;
+  const stored = readJson(LEDGER_KEY, []);
+  const records = Array.isArray(stored) ? stored.slice() : [];
+  const ids = new Set(records.map((record) => record?.id).filter(Boolean));
   for (const event of legacyEvents()) {
     if (!event.id || ids.has(event.id)) continue;
     records.push({
-      schema: 1,
       actor: "student-local",
       ...event,
       timestamp: validDate(event.timestamp),
     });
     ids.add(event.id);
-    changed = true;
   }
-  if (!changed) return records;
   records.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
-  window.localStorage.setItem(LEDGER_KEY, JSON.stringify(records.slice(-MAX_EVENTS)));
-  window.dispatchEvent(new CustomEvent("tu:ledgerchange", { detail: { type: "ledger.synced" } }));
-  return records;
+  const normalized = records.reduce((history, record) => {
+    history.push(upgradeCampusEvent(record, history));
+    return history;
+  }, []).slice(-MAX_EVENTS);
+  const before = JSON.stringify(Array.isArray(stored) ? stored : []);
+  const after = JSON.stringify(normalized);
+  if (before !== after) {
+    window.localStorage.setItem(LEDGER_KEY, after);
+    window.dispatchEvent(new CustomEvent("tu:ledgerchange", { detail: { type: "ledger.synced" } }));
+  }
+  return normalized;
 }

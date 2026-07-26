@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="styles-{{pageId}}.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
-  <body data-page="{{pageId}}">
-    <a class="skip-link" href="#main">跳至主要內容</a>
+  <body data-page="{{pageId}}" data-page-title-key="{{pageTitleKey}}">
+    <a class="skip-link" href="#main" data-i18n="skipToMain">跳至主要內容</a>
 
     <!-- @include sections/chrome.html -->
 

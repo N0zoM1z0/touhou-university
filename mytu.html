@@ -23,13 +23,13 @@
     <link rel="stylesheet" href="styles-mytu.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
-  <body data-page="mytu">
-    <a class="skip-link" href="#main">跳至主要內容</a>
+  <body data-page="mytu" data-page-title-key="pageMyTuTitle">
+    <a class="skip-link" href="#main" data-i18n="skipToMain">跳至主要內容</a>
 
     <div class="site-notice">
       <span class="notice-dot" aria-hidden="true"></span>
-      <span>東方Project 非官方二次創作企劃</span>
-      <a href="index.html#fanwork">關於本站</a>
+      <span data-i18n="fanworkNotice">東方Project 非官方二次創作企劃</span>
+      <a href="index.html#fanwork" data-i18n="aboutSite">關於本站</a>
     </div>
 
 <header class="site-header" data-header>
@@ -42,40 +42,40 @@
           </svg>
         </span>
         <span>
-          <strong>幻想鄉立東方大學</strong>
+          <strong data-i18n="universityName">幻想鄉立東方大學</strong>
           <small>TOUHOU UNIVERSITY</small>
         </span>
       </a>
 
-      <nav class="desktop-nav" aria-label="主要導覽">
+      <nav class="desktop-nav" aria-label="主要導覽" data-i18n-aria-label="ariaMainNavigation">
         <details class="nav-group" data-nav-group="university">
-          <summary>大學與學術 <span aria-hidden="true">⌄</span></summary>
+          <summary><span data-i18n="navUniversityGroup">大學與學術</span> <span aria-hidden="true">⌄</span></summary>
           <div class="nav-group-panel">
             <p>UNIVERSITY / ACADEMICS</p>
-            <a href="index.html#about"><strong>學校介紹</strong><small>校訓、傳統與校史</small></a>
-            <a href="academics.html#academics"><strong>學術單位</strong><small>學院、課程與師資</small></a>
-            <a href="research.html#research"><strong>研究成果</strong><small>方法、失敗與訂正</small></a>
-            <a href="campus.html#campus"><strong>校園生活</strong><small>地圖、社團與 BBS</small></a>
+            <a href="index.html#about"><strong data-i18n="navAbout">學校介紹</strong><small data-i18n="navAboutDetail">校訓、傳統與校史</small></a>
+            <a href="academics.html#academics"><strong data-i18n="navAcademics">學術單位</strong><small data-i18n="navAcademicsDetail">學院、課程與師資</small></a>
+            <a href="research.html#research"><strong data-i18n="navResearchLong">研究成果</strong><small data-i18n="navResearchDetail">方法、失敗與訂正</small></a>
+            <a href="campus.html#campus"><strong data-i18n="navCampusLife">校園生活</strong><small data-i18n="navCampusDetail">地圖、社團與 BBS</small></a>
           </div>
         </details>
         <details class="nav-group" data-nav-group="services">
-          <summary>入學與學生服務 <span aria-hidden="true">⌄</span></summary>
+          <summary><span data-i18n="navServicesGroup">入學與學生服務</span> <span aria-hidden="true">⌄</span></summary>
           <div class="nav-group-panel nav-group-panel-wide">
             <p>ADMISSIONS / STUDENT SERVICES</p>
-            <a href="admissions.html#admissions"><strong>招生與試驗</strong><small>申請、考試與統一試驗</small></a>
-            <a href="mytu.html#my-tu"><strong>My TU</strong><small>學籍、選課與成績</small></a>
-            <a href="records.html#data-cabinet"><strong>本機資料櫃</strong><small>匯出、匯入與卷宗管理</small></a>
-            <a href="library.html#library"><strong>霧湖圖書館</strong><small>借閱、續借與預約</small></a>
-            <a href="clinic.html#clinic"><strong>永遠亭校醫院</strong><small>分診、處方與康復</small></a>
-            <a href="housing.html#housing"><strong>住宿與室友</strong><small>房間、配對與換房</small></a>
-            <a href="incidents.html#incident-center"><strong>事件中心</strong><small>案卷、模擬與結案</small></a>
+            <a href="admissions.html#admissions"><strong data-i18n="navAdmissionsExams">招生與試驗</strong><small data-i18n="navAdmissionsDetail">申請、考試與統一試驗</small></a>
+            <a href="mytu.html#my-tu"><strong>My TU</strong><small data-i18n="navMyTuDetail">學籍、選課與成績</small></a>
+            <a href="records.html#data-cabinet"><strong data-i18n="navLocalRecords">本機資料櫃</strong><small data-i18n="navLocalRecordsDetail">匯出、匯入與卷宗管理</small></a>
+            <a href="library.html#library"><strong data-i18n="mistyLibrary">霧湖圖書館</strong><small data-i18n="navLibraryDetail">借閱、續借與預約</small></a>
+            <a href="clinic.html#clinic"><strong data-i18n="clinicName">永遠亭校醫院</strong><small data-i18n="navClinicDetail">分診、處方與康復</small></a>
+            <a href="housing.html#housing"><strong data-i18n="navHousing">住宿與室友</strong><small data-i18n="navHousingDetail">房間、配對與換房</small></a>
+            <a href="incidents.html#incident-center"><strong data-i18n="navIncidentCenter">事件中心</strong><small data-i18n="navIncidentsDetail">案卷、模擬與結案</small></a>
           </div>
         </details>
       </nav>
 
       <div class="header-tools">
         <a class="header-mytu" href="mytu.html#my-tu" aria-label="My TU">MY TU</a>
-        <button class="header-search" type="button" data-search-open aria-label="SEARCH / 搜尋全站">
+        <button class="header-search" type="button" data-search-open aria-label="SEARCH / 搜尋全站" data-i18n-aria-label="ariaSiteSearch">
           <span aria-hidden="true">⌕</span><b>SEARCH</b><kbd>⌘K</kbd>
         </button>
         <div class="language-switcher" role="group" aria-label="Language">
@@ -84,7 +84,7 @@
           <button class="language-button" type="button" data-lang="en">EN</button>
         </div>
         <a class="header-cta" href="admissions.html#admissions">
-          <span>入學案內</span>
+          <span data-i18n="admissionGuide">入學案內</span>
           <span aria-hidden="true">↗</span>
         </a>
       </div>
@@ -104,28 +104,28 @@
       <button class="mobile-search" type="button" data-search-open>
         <span aria-hidden="true">⌕</span> SEARCH / 全站搜尋
       </button>
-      <nav aria-label="行動版導覽">
+      <nav aria-label="行動版導覽" data-i18n-aria-label="ariaMobileNavigation">
         <section>
-          <p>大學與學術</p>
+          <p data-i18n="navUniversityGroup">大學與學術</p>
           <div>
-            <a href="index.html#about">學校介紹</a>
-            <a href="academics.html#academics">學術單位</a>
-            <a href="academics.html#faculty">師資陣容</a>
-            <a href="research.html#research">研究成果</a>
-            <a href="campus.html#campus">校園生活</a>
+            <a href="index.html#about" data-i18n="navAbout">學校介紹</a>
+            <a href="academics.html#academics" data-i18n="navAcademics">學術單位</a>
+            <a href="academics.html#faculty" data-i18n="navFacultyLong">師資陣容</a>
+            <a href="research.html#research" data-i18n="navResearchLong">研究成果</a>
+            <a href="campus.html#campus" data-i18n="navCampusLife">校園生活</a>
           </div>
         </section>
         <section>
-          <p>入學與學生服務</p>
+          <p data-i18n="navServicesGroup">入學與學生服務</p>
           <div>
-            <a href="admissions.html#admissions">招生情報</a>
-            <a href="mytu.html#my-tu">My TU 學籍中心</a>
-            <a href="records.html#data-cabinet">本機資料櫃</a>
-            <a href="library.html#library">霧湖圖書館</a>
-            <a href="clinic.html#clinic">永遠亭校醫院</a>
-            <a href="housing.html#housing">宿舍生活</a>
-            <a href="incidents.html#incident-center">事件中心</a>
-            <a href="campus.html#bbs">校園 BBS</a>
+            <a href="admissions.html#admissions" data-i18n="navAdmissionsLong">招生情報</a>
+            <a href="mytu.html#my-tu" data-i18n="myTuRecords">My TU 學籍中心</a>
+            <a href="records.html#data-cabinet" data-i18n="navLocalRecords">本機資料櫃</a>
+            <a href="library.html#library" data-i18n="mistyLibrary">霧湖圖書館</a>
+            <a href="clinic.html#clinic" data-i18n="clinicName">永遠亭校醫院</a>
+            <a href="housing.html#housing" data-i18n="housingLife">宿舍生活</a>
+            <a href="incidents.html#incident-center" data-i18n="navIncidentCenter">事件中心</a>
+            <a href="campus.html#bbs" data-i18n="campusBbs">校園 BBS</a>
           </div>
         </section>
       </nav>
@@ -185,9 +185,9 @@
           <div>
             <h3>DISCOVER</h3>
             <a href="admissions.html#admissions">招生情報</a>
-            <a href="records.html#data-cabinet">本機資料櫃</a>
+            <a href="records.html#data-cabinet" data-i18n="navLocalRecords">本機資料櫃</a>
             <a href="library.html#library">霧湖圖書館</a>
-            <a href="clinic.html#clinic">永遠亭校醫院</a>
+            <a href="clinic.html#clinic" data-i18n="clinicName">永遠亭校醫院</a>
             <a href="housing.html#housing">宿舍生活</a>
             <a href="research.html#research">研究成果</a>
             <a href="incidents.html#incident-center">校園事件中心</a>

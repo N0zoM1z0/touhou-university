@@ -209,10 +209,20 @@ try {
 
   const locale = await cdp.evaluate(`(() => {
     document.querySelector('[data-lang="en"]').click();
-    return { lang: document.documentElement.lang, title: document.title, service: document.querySelector('#services-title')?.textContent.trim() };
+    return {
+      lang: document.documentElement.lang,
+      title: document.title,
+      service: document.querySelector('#services-title')?.textContent.trim(),
+      faqContext: document.querySelector('[data-i18n="faqTitle1"]')?.textContent.trim(),
+      clinicContext: document.querySelector('[data-i18n="clinicName"]')?.textContent.trim(),
+      recordsContext: document.querySelector('[data-i18n="navLocalRecords"]')?.textContent.trim()
+    };
   })()`);
   check(locale.lang === "en" && locale.title.includes("Touhou University"), "English locale did not apply to page chrome.");
   check(locale.service === "What do you need today?", "English home content did not translate.");
+  check(locale.faqContext === "Before you arrive,", "Explicit FAQ translation key lost its contextual English copy.");
+  check(locale.clinicContext === "Eientei Hospital", "Explicit clinic translation key resolved to the page-title collision.");
+  check(locale.recordsContext === "On-device Records", "Explicit records translation key resolved to the page-title collision.");
 
   const application = await cdp.evaluate(`(() => {
     document.querySelector('[data-lang="zh-Hant"]').click();
@@ -1765,6 +1775,50 @@ try {
     );
   }
 
+  const ledgerContracts = await cdp.evaluate(`(async () => {
+    const contracts = await import(${JSON.stringify(`${siteUrl}src/data/event-contracts.js`)});
+    const records = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]')
+      .slice()
+      .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+    const history = [];
+    const errors = [];
+    for (const record of records) {
+      errors.push(...contracts.validateCampusEvent(record, history));
+      history.push(record);
+    }
+    const byType = Object.fromEntries(records.map((record) => [record.type, record]));
+    return {
+      count: records.length,
+      errors,
+      schema2: records.every((record) => record.schema === 2 && record.eventVersion === 1),
+      subjects: records.every((record) => record.subject?.kind && record.subject?.id && record.correlationId),
+      causationCount: records.filter((record) => record.causationId).length,
+      noDreamEvents: records.every((record) => !record.type.startsWith('phantasm.')),
+      applicationChain: byType['application.reviewed']?.causationId?.startsWith('application.submitted:') || false,
+      housingChain: byType['housing.change.requested']?.causationId?.startsWith('housing.assignment.accepted:') || false,
+      clinicChain: byType['clinic.consultation.completed']?.causationId?.startsWith('clinic.visit.checked-in:') || false,
+      spellcardChain: byType['spellcard.defence.completed']?.causationId?.startsWith('spellcard.design.saved:') || false,
+      incidentChain: byType['incident.resolved']?.causationId?.startsWith('incident.experiment.completed:') || false
+    };
+  })()`);
+  check(
+    ledgerContracts.count >= 20
+      && !ledgerContracts.errors.length
+      && ledgerContracts.schema2
+      && ledgerContracts.subjects
+      && ledgerContracts.causationCount >= 5,
+    `Campus event ledger contracts or references failed (${JSON.stringify(ledgerContracts)}).`,
+  );
+  check(
+    ledgerContracts.noDreamEvents
+      && ledgerContracts.applicationChain
+      && ledgerContracts.housingChain
+      && ledgerContracts.clinicChain
+      && ledgerContracts.spellcardChain
+      && ledgerContracts.incidentChain,
+    `Campus event causation chains are incomplete (${JSON.stringify(ledgerContracts)}).`,
+  );
+
   await cdp.evaluate(`(() => {
     localStorage.setItem('tu:smoke:cabinet', JSON.stringify({ note: '外界搬運測試', value: 17 }));
     localStorage.setItem('tu:smoke:conflict', JSON.stringify({ version: 'boxed' }));
@@ -1773,6 +1827,9 @@ try {
   })()`);
   await navigate("records.html#data-cabinet", "[data-local-records-app]");
   const cabinetInitial = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-lang="en"]').click();
+    const englishTitle = document.title;
+    document.querySelector('[data-lang="zh-Hant"]').click();
     const model = await import(${JSON.stringify(`${siteUrl}src/js/local-records-model.js`)});
     const archive = await model.createLocalArchive();
     const parsed = await model.parseLocalArchive(JSON.stringify(archive));
@@ -1792,6 +1849,7 @@ try {
     const overwrittenConflict = JSON.parse(localStorage.getItem('tu:smoke:conflict'));
     return {
       page: document.body.dataset.page,
+      englishTitle,
       files: document.querySelectorAll('.local-record-row.is-present').length,
       shelves: document.querySelectorAll('.local-record-shelf').length,
       custom: document.querySelector('[data-record-view=\"tu:smoke:cabinet\"]') !== null,
@@ -1809,6 +1867,7 @@ try {
   })()`);
   check(
     cabinetInitial.page === "records"
+      && cabinetInitial.englishTitle.startsWith("On-device Records Cabinet")
       && cabinetInitial.files >= 20
       && cabinetInitial.shelves >= 7
       && cabinetInitial.custom

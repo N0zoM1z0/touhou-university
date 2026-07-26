@@ -767,7 +767,13 @@ function bind(locale, c, mode) {
       if (!result) return;
       recordCampusEvent(
         "clinic.dose.recorded",
-        { prescriptionId: result.prescription.id, medicineId: result.dose.medicineId, sequence: result.dose.sequence },
+        {
+          doseId: result.dose.id,
+          prescriptionId: result.prescription.id,
+          visitId: result.prescription.visitId,
+          medicineId: result.dose.medicineId,
+          sequence: result.dose.sequence,
+        },
         { id: `clinic.dose.recorded:${result.dose.id}`, timestamp: result.dose.recordedAt },
       );
       showToast(c.dosageRecorded);
@@ -797,6 +803,7 @@ function bind(locale, c, mode) {
         {
           planId: result.plan.id,
           therapyId: result.plan.therapyId,
+          visitId: result.plan.visitId,
           step: Number(button.dataset.clinicCareStep),
         },
         {

@@ -1,4 +1,4 @@
-const records = [
+export const messageRecords = [
   ["fanworkNotice", "東方Project 非官方二次創作企劃", "東方Project 非公式二次創作企画", "Unofficial Touhou Project fan work"],
   ["aboutSite", "關於本站", "このサイトについて", "About this site"],
   ["universityName", "幻想鄉立東方大學", "幻想郷立東方大学", "Touhou University of Gensokyo"],
@@ -41,7 +41,11 @@ const records = [
   ["clinicLoading", "月兔正在核對候診號碼、藥袋與一張被改成新聞標題的處方。", "月兎が待合番号、薬袋、新聞見出しに変えられた処方を照合中。", "Moon rabbits are checking queue tokens, medicine bags, and a prescription rewritten as a headline."],
   ["navResearch", "成果", "研究", "Research"],
   ["navResearchLong", "研究成果", "研究成果", "Research"],
-  ["navIncidents", "事件", "事案", "Incidents"],
+  ["navIncidentsShort", "事件", "事案", "Incidents"],
+  ["skipToMain", "跳至主要內容", "メインコンテンツへ移動", "Skip to main content"],
+  ["ariaMainNavigation", "主要導覽", "メインナビゲーション", "Main navigation"],
+  ["ariaMobileNavigation", "行動版導覽", "モバイルナビゲーション", "Mobile navigation"],
+  ["ariaSiteSearch", "SEARCH / 搜尋全站", "SEARCH / サイト内検索", "SEARCH / Search the site"],
   ["navIncidentCenter", "事件中心", "事案センター", "Incident Center"],
   ["navCampus", "校園風采", "キャンパスライフ", "Campus Life"],
   ["admissionGuide", "入學案內", "入学案内", "Admissions"],
@@ -199,7 +203,7 @@ const records = [
   ["bringQuestion", "把你的問題帶來。", "あなたの問いを持ってきてください。", "Bring your question."],
 ];
 
-records.push(
+messageRecords.push(
   ["prospectus2026", "2026 入學案內", "2026 入学案内", "2026 Admissions Guide"],
   ["admissionIntro", "2026 秋季班接受人類、妖怪、妖精、神靈、魔法使及外界生申請。不要求天生能力；我們更重視你如何描述一次失敗、查證一則傳聞，並與立場不同的人完成工作。", "2026年秋季入試は人間、妖怪、妖精、神霊、魔法使、外界生を受け入れます。生来の能力は不要です。失敗をどう語り、噂をどう検証し、異なる立場の者とどう協働するかを重視します。", "The 2026 autumn intake welcomes humans, youkai, fairies, divine spirits, magicians, and Outside World applicants. Innate abilities are not required; we care more about how you describe a failure, verify a rumour, and work across differences."],
   ["traditionsLead", "「越境」不是越過他人的界線，而是離開只對自己方便的答案；「交鋒」不是決出最強，而是讓不同的知識仍能在明天繼續對話。", "「越境」は他者の境界を侵すことではなく、自分だけに都合のよい答えを離れること。「交鋒」は最強を決めることではなく、異なる知が明日も対話できるようにすることです。", "Crossing a border does not mean crossing another person's limits; it means leaving answers that only suit you. Contest does not crown the strongest—it lets different kinds of knowledge continue speaking tomorrow."],
@@ -428,6 +432,9 @@ records.push(
   ["pageHousingLead", "月相、翼展、水域、牆面與作息都會影響分房；適合的室友不是沒有麻煩，而是麻煩能先談清楚。", "月相・翼幅・水域・壁・生活時間が配室を左右します。よい同室者とは問題がない相手ではなく、問題を先に話せる相手です。", "Moon phase, wingspan, water, walls, and sleep all shape allocation. A suitable roommate is not trouble-free; the trouble can be discussed first."],
   ["pageIncidentsTitle", "校園事件中心與研究模擬", "学内事案センター・研究シミュレーション", "Campus Incident Centre & Research Simulation"],
   ["pageIncidentsLead", "事件可以先被控制，結論必須能被推翻；至於結案後的爭論，校園 BBS 自有它的生命。", "事案は先に制御できても、結論は反証可能でなければなりません。終結後の議論には、学内 BBS 独自の生命があります。", "An incident may be controlled first, but a finding must remain falsifiable. After closure, the Campus BBS has a life of its own."],
+  ["pageHomeTitle", "幻想鄉立東方大學", "幻想郷立東方大学", "Touhou University of Gensokyo"],
+  ["pageRecordsTitle", "本機資料櫃", "端末内資料棚", "On-device Records Cabinet"],
+  ["pagePhantasmTitle", "第九節點名簿", "第九時限点呼簿", "Ninth Period Roll"],
   ["incidentCasesNav", "事件案卷", "事案記録", "Case Files"],
   ["incidentSimulatorNav", "研究模擬器", "研究シミュレーター", "Research Simulator"],
   ["incidentRecordsNav", "結案與連動", "終結・連動", "Closures & Reactions"],
@@ -439,7 +446,7 @@ records.push(
 export const messages = Object.fromEntries(
   ["zh-Hant", "ja", "en"].map((locale, localeIndex) => [
     locale,
-    Object.fromEntries(records.map(([key, ...values]) => [key, values[localeIndex]])),
+    Object.fromEntries(messageRecords.map(([key, ...values]) => [key, values[localeIndex]])),
   ]),
 );
 
@@ -450,9 +457,30 @@ export function canonicalText(value) {
     .replace(/\s*([，。；：！？、])\s*/g, "$1");
 }
 
+const sourceGroups = new Map();
+messageRecords.forEach((record) => {
+  const source = canonicalText(record[1]);
+  sourceGroups.set(source, [...(sourceGroups.get(source) || []), record]);
+});
+
+export const textTranslationCollisions = Object.fromEntries(
+  [...sourceGroups]
+    .filter(([, group]) => group.length > 1)
+    .map(([source, group]) => [
+      source,
+      group.map(([key, zhHant, ja, en]) => ({ key, "zh-Hant": zhHant, ja, en })),
+    ]),
+);
+
+const legacyTextGroups = [...sourceGroups].filter(([, group]) =>
+  [1, 2, 3].every((localeIndex) => new Set(group.map((record) => record[localeIndex])).size === 1),
+);
+
 export const textTranslations = Object.fromEntries(
   ["zh-Hant", "ja", "en"].map((locale, localeIndex) => [
     locale,
-    Object.fromEntries(records.map(([, zh, ja, en]) => [canonicalText(zh), [zh, ja, en][localeIndex]])),
+    Object.fromEntries(
+      legacyTextGroups.map(([source, group]) => [source, group[0][localeIndex + 1]]),
+    ),
   ]),
 );

@@ -568,7 +568,11 @@ export function initHousing() {
       const assignment = acceptHousingOffer(accept.dataset.applicationId, accept.dataset.housingAccept);
       if (!assignment) return;
       recordCampusEvent("housing.assignment.accepted", {
-        assignmentId: assignment.id, roomId: assignment.roomId, residenceId: assignment.residenceId,
+        assignmentId: assignment.id,
+        applicationId: assignment.applicationId,
+        offerId: assignment.offerId,
+        roomId: assignment.roomId,
+        residenceId: assignment.residenceId,
       }, { id: `housing.assignment.accepted:${assignment.id}`, timestamp: assignment.acceptedAt });
       showToast(copy[getLocale()].accepted);
       setRoute("housing-account");

@@ -125,8 +125,8 @@ threads remain available under “My Posts” even after topics are reshuffled.
 
 ```text
 src/
-  data/       translated faculty, research, service and interface content
-  js/         independent interaction modules
+  data/       translated content plus stable i18n and event contracts
+  js/         interaction modules and the cross-feature domain registry
   sections/   page partials, one institutional section per file
   styles/     base and feature-specific stylesheets
 scripts/      build, preview, validation, scaffolding and asset helpers
@@ -146,7 +146,9 @@ modules only.
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
 npm run build               # generate twelve pages and shared/per-page CSS bundles
-npm run check               # build + i18n coverage + JS syntax
+npm run check               # build + all source, data, relationship and history contracts
+npm run check:i18n          # stable/legacy keys, collisions, titles and interpolation parity
+npm run check:contracts     # 45 event types, producer coverage and causal lifecycle fixtures
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
@@ -261,10 +263,17 @@ Set a different preview port with `PORT=4180 npm run dev`.
   multi-parent merges additionally record the second parent as `changeCommit`.
 - Add page structure in `src/sections/`.
 - Add feature logic as a focused module in `src/js/` and import it from
-  `src/js/main.js`.
+  `src/js/main.js`. Cross-feature search or BBS capabilities belong in one
+  manifest in `src/js/domain-registry.js`.
 - Add styles to the relevant file under `src/styles/`.
-- Add every new public string to `src/data/i18n.js`; `npm run check:i18n`
-  reports untranslated static copy.
+- Add every new public interface string to `src/data/i18n.js`. New or touched
+  static controls keep readable Chinese fallback text and declare
+  `data-i18n` (or a translated-attribute key); structured domain content keeps
+  `{ "zh-Hant", ja, en }` values. `npm run check:i18n` rejects unknown keys,
+  collisions and variable drift.
+- Register every new official ledger type in `src/data/event-contracts.js`
+  with the payload IDs needed for subject, workflow and causation links, then
+  run `npm run check:contracts`. Dream records never enter this registry.
 - Register new pages, their sections and styles in `site.config.mjs`.
 
 ## Research and provenance

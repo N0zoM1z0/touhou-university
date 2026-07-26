@@ -18,6 +18,7 @@ export const site = {
     {
       id: "academics",
       output: "academics.html",
+      titleKey: "pageAcademicsTitle",
       title: "學術與教學｜幻想鄉立東方大學",
       description: "七所學院、完整課程目錄、學分、學費、師資與本學期尚未解決的學術問題。",
       eyebrow: "ACADEMIC AFFAIRS",
@@ -30,6 +31,7 @@ export const site = {
     {
       id: "admissions",
       output: "admissions.html",
+      titleKey: "pageAdmissionsTitle",
       title: "招生與試驗｜幻想鄉立東方大學",
       description: "招生日期、線上填報、入學試驗與幻想鄉統一學力試驗。",
       eyebrow: "ADMISSIONS 2026",
@@ -42,6 +44,7 @@ export const site = {
     {
       id: "research",
       output: "research.html",
+      titleKey: "pageResearchTitle",
       title: "研究成果｜幻想鄉立東方大學",
       description: "幻想鄉的結界、歷史、魔法、工程與符卡研究完整檔案。",
       eyebrow: "RESEARCH ARCHIVE",
@@ -54,6 +57,7 @@ export const site = {
     {
       id: "incidents",
       output: "incidents.html",
+      titleKey: "pageIncidentsTitle",
       title: "校園事件中心｜幻想鄉立東方大學",
       description: "審閱校園事件的證物與證詞，以可控研究模擬驗證假說，結案後連動校務快訊與校園 BBS。",
       eyebrow: "INCIDENT RESPONSE + METHODS LAB",
@@ -66,6 +70,7 @@ export const site = {
     {
       id: "campus",
       output: "campus.html",
+      titleKey: "pageCampusTitle",
       title: "校園生活｜幻想鄉立東方大學",
       description: "互動校園地圖、永遠亭詳圖、校園風采、社團與 BBS。",
       eyebrow: "CAMPUS LIFE",
@@ -78,6 +83,7 @@ export const site = {
     {
       id: "mytu",
       output: "mytu.html",
+      titleKey: "pageMyTuTitle",
       title: "My TU 學籍中心｜幻想鄉立東方大學",
       description: "本機學籍、申請審查、校園履歷、選課、課表與學業成績紀錄。",
       eyebrow: "MY TU",
@@ -90,6 +96,7 @@ export const site = {
     {
       id: "library",
       output: "library.html",
+      titleKey: "pageLibraryTitle",
       title: "霧湖圖書館｜幻想鄉立東方大學",
       description: "搜尋霧湖圖書館館藏，借閱、預約、續借、歸還並查看本機借閱紀錄。",
       preload: {
@@ -107,6 +114,7 @@ export const site = {
     {
       id: "clinic",
       output: "clinic.html",
+      titleKey: "pageClinicTitle",
       title: "永遠亭校醫院｜幻想鄉立東方大學",
       description: "校醫務室與永遠亭附屬校醫院：分診、候診、幻想鄉藥局、處方、病友紀錄與康復療法。",
       preload: {
@@ -124,6 +132,7 @@ export const site = {
     {
       id: "housing",
       output: "housing.html",
+      titleKey: "pageHousingTitle",
       title: "宿舍與室友｜幻想鄉立東方大學",
       description: "比較五座學生宿舍，提交住宿需求，查看房間與室友配對，接受分房並申請換房。",
       eyebrow: "RESIDENTIAL LIFE",
@@ -136,6 +145,7 @@ export const site = {
     {
       id: "records",
       output: "records.html",
+      titleKey: "pageRecordsTitle",
       title: "本機資料櫃｜幻想鄉立東方大學",
       description: "查看這個瀏覽器保存的校務資料、空間占用與可見範圍，並安全匯出、匯入或刪除個別卷宗。",
       eyebrow: "LOCAL ARCHIVES",
@@ -148,6 +158,7 @@ export const site = {
     {
       id: "phantasm",
       output: "phantasm.html",
+      titleKey: "pagePhantasmTitle",
       title: "第九節點名簿｜幻想鄉立東方大學",
       description: "一頁不在普通校園導覽內、也不承認自己存在的點名簿。",
       hidden: true,
