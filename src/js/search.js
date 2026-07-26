@@ -11,10 +11,12 @@ import { incidentCases } from "../data/incidents.js";
 import { clinicMedicines, clinicTherapies } from "../data/clinic.js";
 import { appraisalObjects } from "../data/appraisal.js";
 import { spellPatterns } from "../data/spellcard-workshop.js";
+import { phantasmCourses } from "../data/phantasm.js";
 import { getLocale } from "./i18n.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { currentPage, pageForRoute, siteHref } from "./site-router.js";
 import { incidentCommunityPosts } from "./incident-model.js";
+import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
 
 const dialog = document.querySelector("[data-search-dialog]");
 const input = dialog?.querySelector("[data-search-input]");
@@ -48,6 +50,7 @@ const copy = {
       clinic: "校醫院",
       appraisal: "漂流物鑑定",
       workshop: "符卡工房",
+      phantasm: "未登錄課表",
     },
   },
   ja: {
@@ -76,6 +79,7 @@ const copy = {
       clinic: "校医院",
       appraisal: "漂流物鑑定",
       workshop: "スペルカード工房",
+      phantasm: "未登録時間割",
     },
   },
   en: {
@@ -104,6 +108,7 @@ const copy = {
       clinic: "Medical center",
       appraisal: "Drift-object appraisal",
       workshop: "Spell-card workshop",
+      phantasm: "Unregistered timetable",
     },
   },
 };
@@ -365,6 +370,45 @@ function buildIndex() {
       priority: 61,
     }));
   });
+  const phantasmProgress = phantasmGateProgress();
+  const phantasmState = phantasmGateState();
+  if (phantasmState.unlockedAt) {
+    index.push(makeEntry({
+      route: "phantasm-campus",
+      category: "phantasm",
+      title: locale === "ja" ? "夢境キャンパス／第九時限" : locale === "en" ? "Dream Campus / Ninth Period" : "夢境校區／第九節",
+      description: locale === "ja"
+        ? "未選経路学籍、裏側地図、夢科目と逆答弁"
+        : locale === "en"
+          ? "Untaken-route transcript, reverse map, dream courses, and reverse viva"
+          : "未選路線學籍、裏側地圖、夢課與反向答辯",
+      source: phantasmCourses,
+      priority: 88,
+    }));
+    phantasmCourses.forEach((course) => {
+      index.push(makeEntry({
+        route: `phantasm-course-${course.id}`,
+        category: "phantasm",
+        title: `${course.id} · ${course.title[locale]}`,
+        description: `${course.teacher[locale]} · ${course.syllabus[locale]}`,
+        source: course,
+        priority: 58,
+      }));
+    });
+  } else if (phantasmProgress.count >= 2) {
+    index.push(makeEntry({
+      route: "my-tu",
+      category: "phantasm",
+      title: locale === "ja" ? "第九時限（登録なし）" : locale === "en" ? "Ninth Period (no registration)" : "第九節（無此課號）",
+      description: locale === "ja"
+        ? `検索索引の一行が削除を拒否。裏から印が${phantasmProgress.count}個透けている。`
+        : locale === "en"
+          ? `One search-index row refuses deletion; ${phantasmProgress.count} seals show through its reverse.`
+          : `搜尋索引有一行拒絕刪除；背面透出 ${phantasmProgress.count} 枚印章。`,
+      source: ["第九節", "第九時限", "ninth period", "夢境校區", "dream campus", "phantasm"],
+      priority: 14,
+    }));
+  }
   return index;
 }
 

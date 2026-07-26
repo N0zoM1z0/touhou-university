@@ -214,6 +214,7 @@ export function submitAcademicProject(values = {}) {
   const claim = String(values.claim || "").trim();
   const method = String(values.method || "").trim();
   const stopRule = String(values.stopRule || "").trim();
+  const unusedRoute = String(values.unusedRoute || "").trim();
   const type = values.type === "spellcard" ? "spellcard" : "thesis";
   if (!title || abstract.length < 40 || claim.length < 18 || method.length < 24 || stopRule.length < 12) {
     return { error: "incomplete" };
@@ -228,6 +229,7 @@ export function submitAcademicProject(values = {}) {
     claim: claim.slice(0, 700),
     method: method.slice(0, 1_000),
     stopRule: stopRule.slice(0, 700),
+    unusedRoute: unusedRoute.length >= 18 ? unusedRoute.slice(0, 700) : "",
     submittedAt,
     status: "defence-ready",
     committee: type === "spellcard" ? ["reimu", "marisa", "yukari"] : ["keine", "yukari", "marisa"],

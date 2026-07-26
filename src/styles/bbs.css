@@ -272,6 +272,18 @@
   color: #7c304b;
 }
 
+.phantasm-post {
+  background:
+    linear-gradient(90deg, rgba(91, 65, 105, 0.15), transparent 40%),
+    var(--paper-light);
+}
+
+.phantasm-post .bbs-category,
+.phantasm-post .incident-linked {
+  border-color: rgba(91, 65, 105, 0.5);
+  color: #65496f;
+}
+
 .bbs-replies {
   color: #8b8379;
   font-size: 8px;

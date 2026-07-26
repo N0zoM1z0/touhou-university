@@ -80,6 +80,8 @@ if (!redirected) {
     initialize("#bbs", "./bbs.js", "initBbs"),
     initialize("[data-campus-feature]", "./campus.js", "initCampusInteractions"),
     initialize("[data-news-track]", "./news.js", "initNews"),
+    initialize("[data-phantasm-whisper]", "./phantasm-hints.js", "initPhantasmHints"),
+    initialize("[data-phantasm-app]", "./phantasm.js", "initPhantasm"),
     initialize("#entrance-exam", "./exam.js", "initExam"),
     initialize("[data-audience-app]", "./audiences.js", "initAudiencePaths"),
     initialize("[data-eientei-focus]", "./eientei-map.js", "initEienteiMap"),

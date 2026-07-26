@@ -91,6 +91,8 @@ const copy = {
     claim: "可被推翻的核心主張",
     method: "方法、版本與材料來源",
     stopRule: "停止／撤回條件",
+    unusedRoute: "刻意沒有採用的路線（選填；至少 18 字元）",
+    unusedRouteHint: "寫明一條你認真考慮過、最後沒有採用的路，以及沒有採用的理由。委員會會把它留在答辯卷邊。",
     submitProject: "提交計畫並組成委員會",
     projectSaved: "研究計畫已存檔；委員會開始彼此打斷。",
     committee: "答辯委員會",
@@ -166,6 +168,8 @@ const copy = {
     claim: "反証可能な中心主張",
     method: "方法・版・材料出所",
     stopRule: "停止／撤回条件",
+    unusedRoute: "意図的に採用しなかった経路（任意・18字以上）",
+    unusedRouteHint: "実際に検討し、最後に採用しなかった経路と理由を記す。委員会は答弁票の欄外へ保存する。",
     submitProject: "計画提出・委員会編成",
     projectSaved: "研究計画を保存。委員会は互いに遮り始めました。",
     committee: "答弁委員会",
@@ -241,6 +245,8 @@ const copy = {
     claim: "Falsifiable central claim",
     method: "Method, versions, and material provenance",
     stopRule: "Stop / withdrawal rule",
+    unusedRoute: "Route deliberately not taken (optional; 18+ characters)",
+    unusedRouteHint: "Name one route seriously considered but ultimately unused, and why. The committee keeps it in the defence margin.",
     submitProject: "Submit project and form committee",
     projectSaved: "Project saved. The committee has begun interrupting itself.",
     committee: "Defence committee",
@@ -442,6 +448,7 @@ function proposalForm(c) {
         <label class="span">${c.claim}<textarea name="claim" rows="3" minlength="18" maxlength="700" required></textarea></label>
         <label class="span">${c.method}<textarea name="method" rows="4" minlength="24" maxlength="1000" required></textarea></label>
         <label class="span">${c.stopRule}<textarea name="stopRule" rows="3" minlength="12" maxlength="700" required></textarea></label>
+        <label class="span">${c.unusedRoute}<textarea name="unusedRoute" rows="3" minlength="18" maxlength="700" aria-describedby="academic-unused-route-hint"></textarea><small id="academic-unused-route-hint">${c.unusedRouteHint}</small></label>
       </div>
       <button class="button button-primary" type="submit">${c.submitProject} <span>→</span></button>
     </form>`;
@@ -452,6 +459,7 @@ function defencePanel(project, record, locale, c) {
     return `
       <section class="academic-defence-result" data-outcome="${record.outcome}">
         <header><div><p>${record.id}</p><h3>${c.outcomes[record.outcome]}</h3><span>${c.outcomeBodies[record.outcome]}</span></div><strong>${record.percent}<small>/100</small></strong></header>
+        ${project.unusedRoute ? `<aside class="academic-unused-route"><b>${c.unusedRoute}</b><p>${escapeHtml(project.unusedRoute)}</p></aside>` : ""}
         <ol>${record.results.map((result) => {
           const round = defenceRounds.find((item) => item.id === result.roundId);
           const selected = round.choices.find((choice) => choice.id === result.answer);
@@ -462,6 +470,7 @@ function defencePanel(project, record, locale, c) {
   return `
     <form class="academic-defence-form" data-academic-defence-form="${project.id}">
       <header><p>${c.beginDefence}</p><h3>${escapeHtml(project.title)}</h3><span>${c.committee} · ${project.committee.map((id) => examinerNames[id]?.[locale] || id).join(" · ")}</span></header>
+      ${project.unusedRoute ? `<aside class="academic-unused-route"><b>${c.unusedRoute}</b><p>${escapeHtml(project.unusedRoute)}</p></aside>` : ""}
       ${defenceRounds.map((round, index) => `
         <fieldset>
           <legend><i>Q${index + 1}</i><span><small>${round.examiner[locale]} · ${round.role[locale]}</small><strong>${round.prompt[locale]}</strong></span></legend>

@@ -2115,6 +2115,47 @@ body:not([data-page="home"]) .nav-group summary:focus-visible {
   letter-spacing: 0.18em;
 }
 
+.phantasm-whisper {
+  min-height: 2.2rem;
+  padding-block: 0.65rem 1.15rem;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.34);
+  font-size: clamp(0.76rem, 0.72rem + 0.12vw, 0.86rem);
+  letter-spacing: 0.035em;
+}
+
+.phantasm-whisper > span,
+.phantasm-whisper > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.phantasm-whisper > a:hover {
+  color: #c8a4d8;
+}
+
+.phantasm-whisper-marks {
+  display: inline-flex;
+  gap: 0.24rem;
+  margin-right: 0.65rem;
+}
+
+.phantasm-whisper-marks i {
+  width: 0.3rem;
+  height: 0.3rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+.phantasm-whisper-marks i.is-visible {
+  background: currentColor;
+  opacity: 0.72;
+}
+
 .faculty-dialog,
 .prospectus-dialog {
   width: min(700px, calc(100% - 30px));

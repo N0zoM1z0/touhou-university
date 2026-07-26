@@ -133,6 +133,15 @@ export const site = {
       sections: ["housing"],
       styles: ["services", "forms", "responsive-extras", "search", "pages", "housing", "print-documents", "readability"],
     },
+    {
+      id: "phantasm",
+      output: "phantasm.html",
+      title: "第九節點名簿｜幻想鄉立東方大學",
+      description: "一頁不在普通校園導覽內、也不承認自己存在的點名簿。",
+      hidden: true,
+      sections: ["phantasm"],
+      styles: ["forms", "responsive-extras", "search", "pages", "phantasm", "print-documents", "readability"],
+    },
   ],
   styles: [
     "core",
@@ -161,6 +170,7 @@ export const site = {
     "eientei",
     "gaokao",
     "spellcard-workshop",
+    "phantasm",
     "print-documents",
     "readability",
   ],

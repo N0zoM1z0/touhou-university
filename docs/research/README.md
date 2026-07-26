@@ -34,6 +34,8 @@ The research follows the method already established in
   assumptions, and the spell-card research design.
 - `spellcard-workshop-notes.md` — six independent reviewer positions,
   lightweight sandbox constraints, public-defence structure and persistence.
+- `phantasm-campus-notes.md` — counterfactual-campus concept, six hard unlock
+  seals, ordinary-site clue budget, dream curriculum and ledger isolation.
 
 ## Internal editorial labels
 

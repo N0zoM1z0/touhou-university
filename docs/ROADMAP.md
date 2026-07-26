@@ -173,6 +173,27 @@ Status: implemented in 0.18.0.
 - follow-up: visitor-authored pattern sharing without a server, inter-design
   tournament brackets, venue booking and course credit for defended revisions
 
+## Batch 11 — Hidden dream campus / PHANTASM curriculum
+
+Status: implemented in 0.19.0.
+
+- no ordinary navigation entry and no password: six reverse-side seals appear
+  only after a marked assignment, governance vote, incident closure, declined
+  housing offer, dropped course and a completed defence that explicitly
+  records an unused route
+- low-volume clues surface through the footer, My TU reverse timetable, map
+  notice, full-site search and BBS without identifying a destination too early
+- a gated `phantasm.html` contains six ninth-period courses, a six-node map
+  whose geometry changes with the ninth bell, counterfactual records generated
+  from the visitor's actual untaken choices, and a three-course enrolment limit
+- Doremy, Yukari, Keine and Reimu conduct a reverse public defence that retains
+  ruling, conditions and dissent in printable `TU-DREAM-TRANSCRIPT` records
+- dream state and transcripts remain strictly separate from the official
+  campus ledger and My TU; opening, enrolling, defending and waking may never
+  manufacture official lifecycle events
+- follow-up: dream-only library circulation disputes, mutually exclusive
+  semester calendars and a second dream reached by declining the first dream
+
 ## Cross-cutting tracks
 
 - official document generator grows alongside every lifecycle feature
