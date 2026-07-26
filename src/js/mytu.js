@@ -58,6 +58,8 @@ const copy = {
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     academicMode: "作業、考試與答辯",
+    cabinetMode: "本機資料櫃",
+    cabinetSummary: "全部本機卷宗",
     drafts: "未完成",
     applicationReview: "教授聯合審查",
     reviewLead: "審查會讀取所選申請的研究問題、方法、需求與本機最佳考試成績，產生可再次開啟的校內評議。",
@@ -214,6 +216,8 @@ const copy = {
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     academicMode: "課題・試験・答弁",
+    cabinetMode: "端末内資料棚",
+    cabinetSummary: "端末内の全ファイル",
     drafts: "未完了",
     applicationReview: "教員合同審査",
     reviewLead: "選択した出願の問い・方法・希望と端末内最高試験成績を読み、再閲覧可能な学内評議を作成します。",
@@ -365,6 +369,8 @@ const copy = {
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     academicMode: "Work, exams & defences",
+    cabinetMode: "On-device records",
+    cabinetSummary: "All on-device files",
     drafts: "Unfinished",
     applicationReview: "Joint faculty review",
     reviewLead: "The panel reads the selected question, method, needs, and best on-device exam result, then saves a reopenable internal review.",
@@ -556,6 +562,13 @@ function allRecords() {
   const housingDraft = Number(Boolean(readJson("tu:housing:draft", null)));
   const clinicDraft = Number(Boolean(readJson("tu:clinic:triage-draft", null)));
   const spellcardDraft = Number(Boolean(readJson("tu:spellcards:draft", null)));
+  const localFiles = [window.localStorage, window.sessionStorage].reduce((total, storage) => {
+    let count = 0;
+    for (let index = 0; index < storage.length; index += 1) {
+      if (storage.key(index)?.startsWith("tu:")) count += 1;
+    }
+    return total + count;
+  }, 0);
   const courseSummary = courseRegistrationSummary();
   const academicBook = academicGradebook();
   const activeLibrary = (Array.isArray(libraryLoans) ? libraryLoans : []).filter((record) => record.status === "active").length
@@ -588,6 +601,7 @@ function allRecords() {
     appraisalRecords: Array.isArray(appraisalRecords) ? appraisalRecords.length : 0,
     spellcardRecords: (Array.isArray(spellcardDesigns) ? spellcardDesigns.length : 0)
       + (Array.isArray(spellcardDefences) ? spellcardDefences.length : 0),
+    localFiles,
   };
 }
 
@@ -867,6 +881,7 @@ function renderDashboard(identity, records, locale, c) {
       <a href="mytu.html#my-tu" aria-current="page">${c.recordsMode}</a>
       <a href="mytu.html#course-registration">${c.courseMode}<span>${records.courseSummary.enrolled + records.courseSummary.waitlisted}</span></a>
       <a href="mytu.html#academic-work">${c.academicMode}<span>${records.academicRecords}</span></a>
+      <a href="records.html#data-cabinet">${c.cabinetMode}<span>${records.localFiles}</span></a>
     </nav>
     <div class="mytu-dashboard">
       <section class="mytu-id-card">
@@ -899,6 +914,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="clinic.html#clinic-account"><span>${c.medical}</span><strong>${records.activeClinic}</strong></a>
           <a href="library.html#appraisal-records"><span>${c.appraisals}</span><strong>${records.appraisalRecords}</strong></a>
           <a href="research.html#spellcard-records"><span>${c.spellcards}</span><strong>${records.spellcardRecords}</strong></a>
+          <a href="records.html#data-cabinet"><span>${c.cabinetSummary}</span><strong>${records.localFiles}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>
       </section>

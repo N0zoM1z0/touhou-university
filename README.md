@@ -13,10 +13,10 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
-- ten ordinary generated, shareable pages for the home portal, academics,
+- eleven ordinary generated, shareable pages for the home portal, academics,
   admissions, research, campus incidents, campus life, My TU, the Misty Lake
-  Library, housing and campus healthcare, with legacy one-page hashes
-  redirected to their new canonical locations;
+  Library, housing, campus healthcare and the on-device records cabinet, with
+  legacy one-page hashes redirected to their new canonical locations;
 - one deliberately unlisted PHANTASM page that opens only after six different
   student-lifecycle choices leave reverse-side seals; date, eight-phase moon
   and three-hour duty bells then rotate its real entrance across five ordinary
@@ -30,6 +30,13 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - a My TU student-record centre with an on-device campus identity, unified
   lifecycle ledger, joint faculty application reviews and printable decision
   letters;
+- a unified on-device records cabinet that discovers every `tu:` local or
+  session file, catalogues 50 known keys across university shelves, shows exact
+  UTF-8 usage and browser-origin visibility, opens raw contents, exports a
+  SHA-256-sealed JSON box, validates imports before writing, preserves or
+  explicitly overwrites name collisions, and destroys one file, one shelf or
+  everything; the short-lived PHANTASM passage is visible when present but
+  never portable;
 - an on-device registrar covering all 35 catalogue courses, with search,
   add/drop, waitlists, live prerequisite recalculation, an eligible-now filter,
   real timetable collisions, soft overload warnings, saved schedules, academic
@@ -123,7 +130,7 @@ src/
   sections/   page partials, one institutional section per file
   styles/     base and feature-specific stylesheets
 scripts/      build, preview, validation, scaffolding and asset helpers
-*.html        eleven generated GitHub Pages artifacts; one is deliberately hidden
+*.html        twelve generated GitHub Pages artifacts; one is deliberately hidden
 styles.css    generated shared CSS artifact
 styles-*.css  generated per-page CSS artifacts
 site.config.mjs
@@ -138,7 +145,7 @@ modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate eleven pages and shared/per-page CSS bundles
+npm run build               # generate twelve pages and shared/per-page CSS bundles
 npm run check               # build + i18n coverage + JS syntax
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
@@ -146,6 +153,7 @@ npm run check:library       # holdings, translations, facets, loan terms and cou
 npm run check:appraisal     # drift objects, evidence, hypotheses, tests, reuse and reviewer records
 npm run check:spellcards    # patterns, venues, six independent reviewers and public-defence choices
 npm run check:phantasm      # seals, lunar entrances, reachable release, dream brands and isolation
+npm run check:records       # on-device key catalogue, translations, scopes and non-portable session pass
 npm run check:housing       # residences, rooms, features, roommate profiles and translations
 npm run check:incidents     # case structure, translations, evidence, actions and BBS reactions
 npm run check:clinic        # sites, complaints, medicines, therapies, links and translations

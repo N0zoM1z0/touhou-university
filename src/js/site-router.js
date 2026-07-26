@@ -11,6 +11,7 @@ const pageFiles = {
   clinic: "clinic.html",
   housing: "housing.html",
   incidents: "incidents.html",
+  records: "records.html",
   phantasm: "phantasm.html",
 };
 
@@ -28,6 +29,7 @@ export function pageForRoute(route = "") {
   if (/^(?:library|appraisal)(?:-|$)/.test(route)) return "library";
   if (/^clinic(?:-|$)/.test(route)) return "clinic";
   if (/^housing(?:-|$)/.test(route)) return "housing";
+  if (/^(?:data-cabinet|local-record)(?:-|$)/.test(route)) return "records";
   if (/^phantasm(?:-|$)/.test(route)) return "phantasm";
   return "home";
 }
