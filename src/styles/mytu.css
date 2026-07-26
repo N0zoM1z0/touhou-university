@@ -1071,6 +1071,21 @@
   box-shadow: 0.35rem 0.35rem 0 rgba(83, 55, 94, 0.08);
 }
 
+.mytu-phantasm-trace.is-resonant {
+  background:
+    radial-gradient(circle at 7% 50%, rgba(154, 100, 174, 0.16), transparent 9rem),
+    linear-gradient(95deg, rgba(107, 78, 119, 0.08), transparent 42%),
+    rgba(238, 234, 224, 0.72);
+  box-shadow:
+    inset 0 0 0 1px rgba(122, 83, 139, 0.12),
+    0.5rem 0.5rem 0 rgba(83, 55, 94, 0.1);
+}
+
+.mytu-phantasm-trace.is-resonant > span {
+  color: #8f537f;
+  box-shadow: 0 0 0 5px rgba(143, 83, 127, 0.08);
+}
+
 @media (max-width: 700px) {
   .mytu-phantasm-trace {
     grid-template-columns: 3.5rem 1fr;

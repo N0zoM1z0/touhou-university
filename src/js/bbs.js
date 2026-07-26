@@ -13,6 +13,7 @@ import { clinicCommunityPosts } from "./clinic-model.js";
 import { appraisalCommunityPosts } from "./appraisal-model.js";
 import { spellcardCommunityPosts } from "./spellcard-workshop-model.js";
 import { phantasmCommunityPosts } from "./phantasm-model.js";
+import { phantasmEntranceHref } from "./phantasm-gate.js";
 
 const labels = {
   "zh-Hant": {
@@ -213,7 +214,7 @@ function linkedPostAction(post, l) {
   if (post.phantasmRoute) {
     return {
       label: l.openPhantasm,
-      handler: () => window.location.assign(siteHref(post.phantasmRoute)),
+      handler: () => window.location.assign(phantasmEntranceHref("bbs", post.phantasmRoute)),
     };
   }
   return undefined;

@@ -194,6 +194,27 @@ Status: implemented in 0.19.0.
 - follow-up: dream-only library circulation disputes, mutually exclusive
   semester calendars and a second dream reached by declining the first dream
 
+## Batch 12 — Lunar boundary and changing dream identity
+
+Status: implemented in 0.20.0.
+
+- the six lifecycle seals remain the non-negotiable qualification layer; date,
+  eight-phase lunar age and three-hour duty bell now rotate the live entrance
+  among footer, My TU, map notice, full-site search and BBS
+- each local day has two ordinary opening slots, with a third and a second
+  simultaneous entrance at new or full moon; schedules are deterministic
+  enough to leave clues without turning into a visible countdown puzzle
+- three distinct wrong doors on first entry, or two after a previous dream,
+  wear a six-hour session seam through the boundary so unlucky visit timing
+  cannot produce permanent lockout
+- successful entry removes the query trace and replaces the ordinary
+  university name, crest, favicon, theme colour and footer motto with one of
+  four moon-profile identities; the ordinary shell returns after waking
+- boundary attempts and session passage remain isolated from the campus ledger
+  and dream transcript; waking explicitly clears the temporary passage
+- follow-up: seasonal entrance riddles, dream-brand print seals and a route
+  whose active source depends on what the visitor last refused inside PHANTASM
+
 ## Cross-cutting tracks
 
 - official document generator grows alongside every lifecycle feature

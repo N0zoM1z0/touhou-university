@@ -141,17 +141,52 @@ try {
   });
   await Promise.all([cdp.call("Runtime.enable"), cdp.call("Log.enable"), cdp.call("Page.enable")]);
   await navigate("index.html", "body");
-  await cdp.evaluate("localStorage.clear(); true");
+  await cdp.evaluate("localStorage.clear(); sessionStorage.clear(); true");
   await navigate("phantasm.html#phantasm-campus", "[data-phantasm-app]");
   const lockedPhantasm = await cdp.evaluate(`({
     gate: Boolean(document.querySelector('.phantasm-gate')),
     seals: document.querySelectorAll('.phantasm-seal').length,
     campus: Boolean(document.querySelector('.phantasm-campus')),
-    count: document.querySelector('.phantasm-gate-count strong')?.textContent.trim()
+    count: document.querySelector('.phantasm-gate-count strong')?.textContent.trim(),
+    branded: document.body.classList.contains('phantasm-brand-active'),
+    favicon: document.querySelector('link[rel="icon"]')?.getAttribute('href')
   })`);
   check(
-    lockedPhantasm.gate && lockedPhantasm.seals === 6 && !lockedPhantasm.campus && lockedPhantasm.count === "0",
+    lockedPhantasm.gate
+      && lockedPhantasm.seals === 6
+      && !lockedPhantasm.campus
+      && lockedPhantasm.count === "0"
+      && !lockedPhantasm.branded
+      && lockedPhantasm.favicon === "assets/crest.svg",
     `Direct PHANTASM address bypassed the six-record boundary (${JSON.stringify(lockedPhantasm)}).`,
+  );
+  const boundaryCalendar = await cdp.evaluate(`(async () => {
+    const gate = await import(${JSON.stringify(`${siteUrl}src/js/phantasm-gate.js`)});
+    const entrances = new Set();
+    const moons = new Set();
+    const dailyWindows = [];
+    for (let day = 0; day < 48; day += 1) {
+      const midnight = gate.phantasmBoundarySchedule(new Date(2026, 0, 1 + day, 0, 17));
+      moons.add(midnight.lunarPhase);
+      dailyWindows.push(midnight.openSlots.length);
+      for (let slot = 0; slot < 8; slot += 1) {
+        gate.phantasmBoundarySchedule(new Date(2026, 0, 1 + day, slot * 3, 17))
+          .activeEntrances.forEach((entrance) => entrances.add(entrance));
+      }
+    }
+    return {
+      entrances: [...entrances],
+      moons: [...moons],
+      minimumWindows: Math.min(...dailyWindows),
+      maximumWindows: Math.max(...dailyWindows)
+    };
+  })()`);
+  check(
+    boundaryCalendar.entrances.length === 5
+      && boundaryCalendar.moons.length === 8
+      && boundaryCalendar.minimumWindows >= 2
+      && boundaryCalendar.maximumWindows <= 3,
+    `Lunar boundary fixtures can strand a visitor or fail to rotate all entrances (${JSON.stringify(boundaryCalendar)}).`,
   );
   await navigate("index.html", "#services");
   check(
@@ -1556,12 +1591,30 @@ try {
   })`);
   check(
     phantasmTrace.ready
-      && phantasmTrace.href === "phantasm.html#phantasm-campus"
+      && phantasmTrace.href?.startsWith("phantasm.html?entrance=mytu&trace=")
+      && phantasmTrace.href.endsWith("#phantasm-campus")
       && !phantasmTrace.primaryLeak,
     `My TU did not expose the completed reverse-side trace discreetly (${JSON.stringify(phantasmTrace)}).`,
   );
 
-  await navigate("phantasm.html#phantasm-campus", "[data-phantasm-app]");
+  const wrongDoorRoutes = await cdp.evaluate(`(async () => {
+    const gate = await import(${JSON.stringify(`${siteUrl}src/js/phantasm-gate.js`)});
+    const schedule = gate.phantasmBoundarySchedule();
+    return gate.PHANTASM_ENTRANCES
+      .filter((source) => !schedule.activeEntrances.includes(source))
+      .slice(0, 3)
+      .map((source) => ({ source, href: gate.phantasmEntranceHref(source) }));
+  })()`);
+  check(wrongDoorRoutes.length === 3, `Current lunar phase did not leave three safe wrong-door fixtures (${JSON.stringify(wrongDoorRoutes)}).`);
+  for (let index = 0; index < wrongDoorRoutes.length; index += 1) {
+    await navigate(wrongDoorRoutes[index].href, "[data-phantasm-app]");
+    if (index < 2) {
+      check(
+        await cdp.evaluate("Boolean(document.querySelector('.phantasm-gate')) && !document.querySelector('.phantasm-campus')"),
+        `Wrong entrance ${wrongDoorRoutes[index].source} opened PHANTASM before the paper boundary frayed.`,
+      );
+    }
+  }
   await eventually(() => cdp.evaluate("Boolean(document.querySelector('.phantasm-campus'))"));
   const phantasmInitial = await cdp.evaluate(`({
     page: document.body.dataset.page,
@@ -1571,7 +1624,15 @@ try {
     available: document.querySelectorAll('.phantasm-course-grid > article:not(.is-locked)').length,
     warning: document.querySelector('.phantasm-counterfactuals footer')?.textContent || '',
     ledgerCount: JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]').length,
-    state: JSON.parse(localStorage.getItem('tu:phantasm:state') || 'null')
+    state: JSON.parse(localStorage.getItem('tu:phantasm:state') || 'null'),
+    boundary: JSON.parse(localStorage.getItem('tu:phantasm:boundary') || 'null'),
+    pass: JSON.parse(sessionStorage.getItem('tu:phantasm:pass') || 'null'),
+    brand: document.body.dataset.phantasmBrand,
+    brandName: document.querySelector('.site-header .brand strong')?.textContent || '',
+    crest: document.querySelector('.site-header [data-phantasm-crest]')?.dataset.phantasmCrest,
+    favicon: document.querySelector('link[rel="icon"]')?.getAttribute('href') || '',
+    title: document.title,
+    query: location.search
   })`);
   check(
     phantasmInitial.page === "phantasm"
@@ -1580,7 +1641,15 @@ try {
       && phantasmInitial.courses === 6
       && phantasmInitial.available >= 5
       && phantasmInitial.warning.includes("正式")
-      && phantasmInitial.state.unlockedAt,
+      && phantasmInitial.state.unlockedAt
+      && phantasmInitial.boundary.attempts.length >= 3
+      && phantasmInitial.pass.mode === "frayed"
+      && ["new", "waxing", "full", "waning"].includes(phantasmInitial.brand)
+      && phantasmInitial.brandName.trim() !== "幻想鄉立東方大學"
+      && phantasmInitial.crest === phantasmInitial.brand
+      && phantasmInitial.favicon.startsWith("data:image/svg+xml")
+      && phantasmInitial.title.includes("PHANTASM")
+      && phantasmInitial.query === "",
     `Unlocked Dream Campus did not render its isolated map, files, and course register (${JSON.stringify(phantasmInitial)}).`,
   );
 
@@ -1756,7 +1825,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, hidden PHANTASM unlock/dream transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();
