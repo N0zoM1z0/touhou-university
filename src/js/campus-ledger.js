@@ -67,6 +67,7 @@ function legacyEvents() {
   const clinicVisits = readJson("tu:clinic:visits", []);
   const clinicPrescriptions = readJson("tu:clinic:prescriptions", []);
   const clinicPlans = readJson("tu:clinic:care-plans", []);
+  const appraisalRecords = readJson("tu:appraisal:records", []);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -416,6 +417,29 @@ function legacyEvents() {
         type: "clinic.therapy.completed",
         timestamp: plan.completedAt,
         payload: { planId: plan.id, therapyId: plan.therapyId },
+      });
+    }
+  }
+  for (const record of Array.isArray(appraisalRecords) ? appraisalRecords : []) {
+    if (!record?.id || !record?.createdAt || !record?.objectId) continue;
+    events.push({
+      id: `appraisal.completed:${record.id}`,
+      type: "appraisal.completed",
+      timestamp: record.createdAt,
+      payload: {
+        appraisalId: record.id,
+        objectId: record.objectId,
+        verdict: record.verdict,
+        disposition: record.disposition || "ordinary",
+        destinationId: record.destinationId,
+      },
+    });
+    if (record.destinationId === "library") {
+      events.push({
+        id: `appraisal.catalogued:${record.id}`,
+        type: "appraisal.catalogued",
+        timestamp: record.createdAt,
+        payload: { appraisalId: record.id, objectId: record.objectId, destinationId: record.destinationId },
       });
     }
   }

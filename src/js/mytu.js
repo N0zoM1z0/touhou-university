@@ -52,6 +52,7 @@ const copy = {
     incidents: "事件研究／結案",
     academicRecords: "課業評量／答辯",
     medical: "診療／處方／康復",
+    appraisals: "漂流物鑑定",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     academicMode: "作業、考試與答辯",
@@ -147,6 +148,8 @@ const copy = {
       "clinic.therapy.started": "開始康復療法",
       "clinic.therapy.step.completed": "完成一項康復步驟",
       "clinic.therapy.completed": "完成康復療程",
+      "appraisal.completed": "完成外界漂流物鑑定",
+      "appraisal.catalogued": "將漂流物編入霧湖館藏",
     },
     document: {
       university: "幻想鄉立東方大學",
@@ -202,6 +205,7 @@ const copy = {
     incidents: "事案研究／終結",
     academicRecords: "課業評価／答弁",
     medical: "診療／処方／回復",
+    appraisals: "漂流物鑑定",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     academicMode: "課題・試験・答弁",
@@ -292,6 +296,8 @@ const copy = {
       "clinic.therapy.started": "回復療法を開始",
       "clinic.therapy.step.completed": "回復段階を一つ完了",
       "clinic.therapy.completed": "回復療法を完了",
+      "appraisal.completed": "外界漂流物鑑定を完了",
+      "appraisal.catalogued": "漂流物を霧の湖蔵書へ編入",
     },
     document: {
       university: "幻想郷立東方大学",
@@ -347,6 +353,7 @@ const copy = {
     incidents: "Incident studies / closures",
     academicRecords: "Coursework / defences",
     medical: "Care / prescriptions / recovery",
+    appraisals: "Drift-object appraisals",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     academicMode: "Work, exams & defences",
@@ -437,6 +444,8 @@ const copy = {
       "clinic.therapy.started": "Started a recovery therapy",
       "clinic.therapy.step.completed": "Completed one recovery step",
       "clinic.therapy.completed": "Completed a recovery course",
+      "appraisal.completed": "Completed an Outside drift-object appraisal",
+      "appraisal.catalogued": "Catalogued a drift object at Misty Lake",
     },
     document: {
       university: "TOUHOU UNIVERSITY OF GENSOKYO",
@@ -526,6 +535,8 @@ function allRecords() {
   const clinicVisits = readJson("tu:clinic:visits", []);
   const clinicPrescriptions = readJson("tu:clinic:prescriptions", []);
   const clinicPlans = readJson("tu:clinic:care-plans", []);
+  const appraisalRecords = readJson("tu:appraisal:records", []);
+  const appraisalDrafts = readJson("tu:appraisal:drafts", {});
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
@@ -546,7 +557,8 @@ function allRecords() {
     unifiedExams,
     posts,
     examCount,
-    drafts: drafts + housingDraft + clinicDraft,
+    drafts: drafts + housingDraft + clinicDraft
+      + Object.keys(appraisalDrafts && typeof appraisalDrafts === "object" && !Array.isArray(appraisalDrafts) ? appraisalDrafts : {}).length,
     courseSummary,
     activeLibrary,
     housingApplications,
@@ -560,6 +572,7 @@ function allRecords() {
     activeClinic: (Array.isArray(clinicVisits) ? clinicVisits : []).filter((record) => record.status === "waiting").length
       + (Array.isArray(clinicPrescriptions) ? clinicPrescriptions : []).filter((record) => ["issued", "dispensed"].includes(record.status)).length
       + (Array.isArray(clinicPlans) ? clinicPlans : []).filter((record) => record.status === "active").length,
+    appraisalRecords: Array.isArray(appraisalRecords) ? appraisalRecords.length : 0,
   };
 }
 
@@ -751,6 +764,10 @@ function eventLabel(event, locale, c) {
   if (event.type.startsWith("clinic.")) {
     return `${base} · ${payload.visitId || payload.prescriptionId || payload.planId || ""}`;
   }
+  if (event.type.startsWith("appraisal.")) {
+    const disposition = payload.disposition === "contested" ? ` · ${c.contestedClosure}` : "";
+    return `${base} · ${payload.objectId || payload.appraisalId || ""}${disposition}`;
+  }
   return base;
 }
 
@@ -814,6 +831,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="incidents.html#incident-records"><span>${c.incidents}</span><strong>${records.incidentRecords}</strong></a>
           <a href="mytu.html#academic-grades"><span>${c.academicRecords}</span><strong>${records.academicAverage ?? "—"}</strong></a>
           <a href="clinic.html#clinic-account"><span>${c.medical}</span><strong>${records.activeClinic}</strong></a>
+          <a href="library.html#appraisal-records"><span>${c.appraisals}</span><strong>${records.appraisalRecords}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>
       </section>

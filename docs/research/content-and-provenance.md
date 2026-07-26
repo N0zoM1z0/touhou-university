@@ -31,6 +31,31 @@
 - No payment request, analytics, tracking or remote submission backend.
 - Application, visitor and BBS records stay in browser local storage.
 
+## Drift-object appraisal editorial anchors
+
+The Kourindou × Misty Lake appraisal office was written from the project's
+curated character dossiers for Rinnosuke Morichika, Ran Yakumo, Nitori
+Kawashiro and Kogasa Tatara, maintained in the prior
+`gensokyo-monochrome-heart/design/04_characters/` research set. The adaptation
+uses these durable tensions:
+
+- Rinnosuke can identify a tool's name and intended purpose without therefore
+  knowing its operating procedure; his elaborate explanations may be
+  insightful, incomplete and overly certain at once.
+- Ran treats numbering, editions and provenance as operational evidence, and
+  corrects assumptions that a catalogue sequence or label must be complete.
+- Nitori values mechanisms, reversible adapters and practical reuse, but her
+  enthusiasm to open a casing or improvise a connection creates friction with
+  non-invasive appraisal.
+- Kogasa speaks for discarded craft and the possibility that an ignored object
+  may develop agency; she is not reduced to comic surprise and remains a
+  competent repair-minded reviewer.
+
+The eight object dossiers, codes, observations, tests and proposed Gensokyo
+uses are original writing for this site. No official prose, game asset,
+screenshot or scan is reproduced. The interface is code-native paper, wood,
+tape and catalogue styling, so this feature adds no generated-image asset.
+
 ## Generated visual assets
 
 All illustrations were generated specifically for this project on

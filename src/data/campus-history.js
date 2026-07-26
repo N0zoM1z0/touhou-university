@@ -503,10 +503,9 @@ export const campusHistory = [
   {
     id: "first-bell-that-refused-to-eat-a-click",
     archiveId: "TU-H-021",
-    commit: null,
+    commit: "59ebbb6ea541b76170b51b123e632185aeb34635",
     commitSubject: "Keep campus controls responsive during startup",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "correction",
     era: l("翌日・第四校鐘餘響", "翌日・第四校鐘の余響", "Next day · Fourth Bell echo"),
     title: l(
@@ -523,6 +522,31 @@ export const campusHistory = [
       "文把六秒內的漏接稱為「史上最短罷工」；河童說那只是初始化競態。靈夢在兩張說明上都蓋了同一個印，理由是申請生只在乎門有沒有開。",
       "文は六秒未満の取りこぼしを「史上最短のスト」と命名。河童は初期化競合にすぎないと反論。霊夢は志願者が扉の開閉しか気にしないとして、両方の説明へ同じ印を押した。",
       "Aya called the sub-six-second miss “the shortest strike in history”; the kappa called it an initialization race. Reimu stamped both explanations because applicants only care whether the door opens.",
+    ),
+  },
+  {
+    id: "eight-objects-on-a-seven-object-shelf",
+    archiveId: "TU-H-022",
+    commit: null,
+    commitSubject: "Add Kourindou drift-object appraisal office",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "library",
+    era: l("翌日・夜更けの臨時開架", "翌日・夜更けの臨時開架", "Next day · Late-night special opening"),
+    title: l(
+      "香霖堂與霧湖館合開鑑定桌，第七件之後又出現一件第七十七號",
+      "香霖堂と霧の湖館が鑑定机を共設、七件目の後に七十七号がもう一件",
+      "Kourindou and Misty Lake share an appraisal desk; object 77 appears after the seventh item",
+    ),
+    summary: l(
+      "外界漂流物自此不再只憑「看起來能用」就接上河童電源。學生先記錄磨損、接口與殘留物，再提出原用途假說、選擇非侵入檢查，決定它在幻想鄉的新用途、去處與是否正在長出意見。霖之助負責說出名字和用途，藍代表館方追查來歷，荷取要求拆開看看，小傘則代表可能被再次遺忘的物品反對前三者。八件首批案卷可在本機續寫並進入 My TU；結案後，圖書館與 BBS 也會留下各自版本。",
+      "外界漂流物は以後、「使えそう」だけで河童電源へ接続されない。学生は摩耗・端子・残留物を記録し、旧用途の仮説と非侵襲検査を選び、幻想郷での新用途・行先・意見を持ち始めたかを決める。霖之助は名称と用途を語り、図書館側は来歴を追い、にとりは分解を求め、小傘は再び忘れられかねない物の側から前三者へ異議を唱える。最初の八件は端末内で継続でき、My TUへ入り、終結後は図書館とBBSもそれぞれの版を残す。",
+      "Outside drift objects are no longer connected to kappa power merely because they look useful. Students record wear, interfaces, and residue; propose an original-use hypothesis; choose non-invasive tests; then decide a new Gensokyo use, destination, and whether the object is developing an opinion. Rinnosuke supplies names and purposes, the library traces provenance, Nitori asks to open the casing, and Kogasa objects on behalf of things likely to be forgotten again. The first eight files persist on-device and enter My TU; after closure, the library and BBS retain their own versions.",
+    ),
+    marginalia: l(
+      "第七件編號為 72，第八件編號為 77。文據此報導「五件漂流物在編目途中失蹤」；藍指出編號從未承諾連續。霖之助認為這證明 77 是完整型號，荷取認為只是標籤機卡紙，小傘則把兩張相同的 77 號貼紙都收進案袋，免得其中一張先成為付喪神。",
+      "七件目は72番、八件目は77番。文は「目録中に漂流物五件消失」と報道したが、藍は番号の連続性を一度も保証していないと指摘。霖之助は77が完全な型式番号だとし、にとりはラベル機の紙詰まりだとし、小傘は片方だけ先に付喪神にならぬよう同じ77番札二枚を袋へ収めた。",
+      "The seventh item is numbered 72 and the eighth 77. Aya reports “five drift objects lost during cataloguing”; Ran notes that sequence was never promised. Rinnosuke calls 77 a complete model number, Nitori blames a label-printer jam, and Kogasa files both identical 77 labels so neither becomes a tsukumogami first.",
     ),
   },
 ];
