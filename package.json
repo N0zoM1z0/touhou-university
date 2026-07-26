@@ -1,6 +1,6 @@
 {
   "name": "touhou-university",
-  "version": "0.23.0",
+  "version": "0.24.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -24,10 +24,11 @@
     "check:records": "node scripts/check-local-records.mjs",
     "check:contracts": "node scripts/check-event-contracts.mjs",
     "check:knowledge": "node scripts/check-knowledge-graph.mjs",
+    "check:ethics": "node scripts/check-ethics.mjs",
     "check:history": "node scripts/check-campus-history.mjs",
     "history:status": "node scripts/check-campus-history.mjs",
     "test:browser": "npm run build && node scripts/smoke-browser.mjs",
     "capture": "npm run build && node scripts/capture-ui.mjs",
-    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:contracts && npm run check:knowledge && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:phantasm && npm run check:records && npm run check:interactions && npm run check:live && npm run check:history"
+    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:contracts && npm run check:knowledge && npm run check:ethics && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:phantasm && npm run check:records && npm run check:interactions && npm run check:live && npm run check:history"
   }
 }

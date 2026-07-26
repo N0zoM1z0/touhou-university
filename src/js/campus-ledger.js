@@ -96,6 +96,8 @@ function legacyEvents() {
   const appraisalRecords = readJson("tu:appraisal:records", []);
   const spellcardDesigns = readJson("tu:spellcards:designs", []);
   const spellcardDefences = readJson("tu:spellcards:defences", []);
+  const ethicsProtocols = readJson("tu:ethics:protocols", []);
+  const ethicsReviews = readJson("tu:ethics:reviews", []);
   const identity = readJson(IDENTITY_KEY, null);
   const events = [];
 
@@ -502,6 +504,53 @@ function legacyEvents() {
         designId: defence.designId,
         spellName: design?.draft?.spellName,
         ruling: defence.ruling,
+      },
+    });
+  }
+  for (const protocol of Array.isArray(ethicsProtocols) ? ethicsProtocols : []) {
+    if (!protocol?.id || !protocol?.createdAt || !protocol?.draft?.caseId) continue;
+    const type = protocol.revisionOf ? "ethics.protocol.amended" : "ethics.protocol.submitted";
+    events.push({
+      id: `${type}:${protocol.id}`,
+      type,
+      timestamp: protocol.createdAt,
+      payload: {
+        protocolId: protocol.id,
+        rootProtocolId: protocol.rootProtocolId || protocol.id,
+        caseId: protocol.draft.caseId,
+        revisionOf: protocol.revisionOf || null,
+        outcome: protocol.outcome,
+      },
+    });
+    if (protocol.status === "withdrawn" && protocol.withdrawnAt) {
+      events.push({
+        id: `ethics.protocol.withdrawn:${protocol.id}`,
+        type: "ethics.protocol.withdrawn",
+        timestamp: protocol.withdrawnAt,
+        payload: {
+          protocolId: protocol.id,
+          rootProtocolId: protocol.rootProtocolId || protocol.id,
+          caseId: protocol.draft.caseId,
+          reason: protocol.withdrawalReason,
+        },
+      });
+    }
+  }
+  for (const review of Array.isArray(ethicsReviews) ? ethicsReviews : []) {
+    if (!review?.id || !review?.protocolId || !review?.createdAt) continue;
+    const protocol = (Array.isArray(ethicsProtocols) ? ethicsProtocols : [])
+      .find((candidate) => candidate?.id === review.protocolId);
+    events.push({
+      id: `ethics.review.completed:${review.id}`,
+      type: "ethics.review.completed",
+      timestamp: review.createdAt,
+      payload: {
+        protocolId: review.protocolId,
+        rootProtocolId: review.rootProtocolId || protocol?.rootProtocolId || review.protocolId,
+        reviewId: review.id,
+        caseId: protocol?.draft?.caseId,
+        outcome: review.outcome,
+        reviewerIds: (review.opinions || []).map(({ reviewerId }) => reviewerId),
       },
     });
   }

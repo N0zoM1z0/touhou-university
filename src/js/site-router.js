@@ -5,6 +5,7 @@ const pageFiles = {
   academics: "academics.html",
   admissions: "admissions.html",
   research: "research.html",
+  ethics: "ethics.html",
   campus: "campus.html",
   mytu: "mytu.html",
   library: "library.html",
@@ -24,6 +25,7 @@ export function pageForRoute(route = "") {
   if (/^(?:academics|faculty(?:-|$)|school-)/.test(route)) return "academics";
   if (/^(?:admissions|entrance-exam|gaokao)$/.test(route)) return "admissions";
   if (/^(?:research|spellcard)(?:-|$)/.test(route)) return "research";
+  if (/^ethics(?:-|$)/.test(route)) return "ethics";
   if (/^incident(?:-|$)/.test(route)) return "incidents";
   if (/^(?:live-campus|governance|map(?:-|$)|campus(?:-|$)|bbs(?:-|$)|club-)/.test(route)) return "campus";
   if (/^(?:my-tu|course-registration|course-|academic-)/.test(route)) return "mytu";

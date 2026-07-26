@@ -43,6 +43,7 @@ const labels = {
     clinicLinked: "校醫院連動",
     appraisalLinked: "漂流物鑑定連動",
     spellcardLinked: "符卡答辯連動",
+    ethicsLinked: "研究倫理審查連動",
     phantasmLinked: "第九節不明連動",
     openCase: "查看結案案卷",
     openGovernance: "查看校務提案",
@@ -50,6 +51,7 @@ const labels = {
     openClinic: "查看診療與處方",
     openAppraisal: "查看漂流物案卷",
     openSpellcard: "查看符卡設計與答辯",
+    openEthics: "查看倫理審查案卷",
     openPhantasm: "查看第九節點名簿",
   },
   ja: {
@@ -85,6 +87,7 @@ const labels = {
     clinicLinked: "校医院連動",
     appraisalLinked: "漂流物鑑定連動",
     spellcardLinked: "スペルカード答弁連動",
+    ethicsLinked: "研究倫理審査連動",
     phantasmLinked: "第九時限不明連動",
     openCase: "終結記録を見る",
     openGovernance: "学務提案を見る",
@@ -92,6 +95,7 @@ const labels = {
     openClinic: "診療・処方を見る",
     openAppraisal: "漂流物記録を見る",
     openSpellcard: "設計・答弁を見る",
+    openEthics: "倫理審査記録を見る",
     openPhantasm: "第九時限の点呼簿を見る",
   },
   en: {
@@ -127,6 +131,7 @@ const labels = {
     clinicLinked: "Hospital-linked",
     appraisalLinked: "Drift-appraisal-linked",
     spellcardLinked: "Spell-card-defence-linked",
+    ethicsLinked: "Research-ethics-linked",
     phantasmLinked: "Ninth-period linkage disputed",
     openCase: "Open closure record",
     openGovernance: "Open governance proposal",
@@ -134,6 +139,7 @@ const labels = {
     openClinic: "Open care & prescriptions",
     openAppraisal: "Open drift-object file",
     openSpellcard: "Open design & defence",
+    openEthics: "Open ethics review file",
     openPhantasm: "Open the ninth-period roll",
   },
 };
@@ -205,6 +211,12 @@ function linkedPostAction(post, l) {
       handler: () => window.location.assign(siteHref(post.spellcardRoute)),
     };
   }
+  if (post.ethicsRoute) {
+    return {
+      label: l.openEthics,
+      handler: () => window.location.assign(siteHref(post.ethicsRoute)),
+    };
+  }
   if (post.phantasmRoute) {
     return {
       label: l.openPhantasm,
@@ -221,6 +233,7 @@ function linkedPostLabel(post, l) {
   if (post.clinic) return l.clinicLinked;
   if (post.appraisal) return l.appraisalLinked;
   if (post.spellcard) return l.spellcardLinked;
+  if (post.ethics) return l.ethicsLinked;
   if (post.phantasm) return l.phantasmLinked;
   return l.incidentLinked;
 }
@@ -268,7 +281,7 @@ export function initBbs() {
     const locale = getLocale();
     const l = labels[locale];
     const article = document.createElement("article");
-    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}${post.clinic ? " clinic-post" : ""}${post.appraisal ? " appraisal-post" : ""}${post.spellcard ? " spellcard-post" : ""}${post.phantasm ? " phantasm-post" : ""}`;
+    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}${post.clinic ? " clinic-post" : ""}${post.appraisal ? " appraisal-post" : ""}${post.spellcard ? " spellcard-post" : ""}${post.ethics ? " ethics-post" : ""}${post.phantasm ? " phantasm-post" : ""}`;
     article.dataset.bbsCategory = post.category;
     article.dataset.bbsId = post.id;
     if (post.local) article.dataset.userPost = "";

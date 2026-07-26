@@ -159,6 +159,9 @@ export const localRecordRegistry = [
   record("tu:spellcards:draft", "research", l("符卡設計草稿", "スペルカード設計下書き", "Spell-card design draft"), { kind: "draft" }),
   record("tu:spellcards:designs", "research", l("封存符卡設計", "封印済みスペルカード設計", "Sealed spell-card designs")),
   record("tu:spellcards:defences", "research", l("符卡公開答辯", "スペルカード公開答弁", "Spell-card public defences")),
+  record("tu:ethics:drafts", "research", l("研究倫理送審草稿", "研究倫理申請下書き", "Research ethics drafts"), { kind: "draft" }),
+  record("tu:ethics:protocols", "research", l("研究倫理計畫與版本", "研究倫理計画・版", "Research ethics protocols & versions")),
+  record("tu:ethics:reviews", "research", l("五席倫理審查意見", "五席倫理審査意見", "Five-seat ethics reviews")),
 
   record("tu:locale", "preferences", l("網站語言", "サイト言語", "Site language"), { kind: "preference", scope: "interface", encoding: "text" }),
   record("tu:audience", "preferences", l("訪客導覽入口", "訪問者向け案内入口", "Audience path"), { kind: "preference", scope: "interface", encoding: "text" }),

@@ -170,6 +170,45 @@ expectCause(
   design,
   "Spell-card defence causation",
 );
+const ethicsProtocol = add("ethics.protocol.submitted", {
+  protocolId: "TU-ERB-P-1",
+  rootProtocolId: "TU-ERB-P-1",
+  caseId: "reisen-undisclosed-wave",
+});
+const ethicsReview = add("ethics.review.completed", {
+  protocolId: "TU-ERB-P-1",
+  rootProtocolId: "TU-ERB-P-1",
+  reviewId: "TU-ERB-R-1",
+  caseId: "reisen-undisclosed-wave",
+  outcome: "revise",
+  reviewerIds: ["eirin", "satori", "keine", "eiki", "reimu"],
+});
+expectCause(ethicsReview, ethicsProtocol, "Initial ethics review causation");
+const ethicsAmendment = add("ethics.protocol.amended", {
+  protocolId: "TU-ERB-P-2",
+  rootProtocolId: "TU-ERB-P-1",
+  revisionOf: "TU-ERB-P-1",
+  caseId: "reisen-undisclosed-wave",
+});
+expectCause(ethicsAmendment, ethicsReview, "Ethics amendment causation");
+const amendedReview = add("ethics.review.completed", {
+  protocolId: "TU-ERB-P-2",
+  rootProtocolId: "TU-ERB-P-1",
+  reviewId: "TU-ERB-R-2",
+  caseId: "reisen-undisclosed-wave",
+  outcome: "conditional",
+  reviewerIds: ["eirin", "satori", "keine", "eiki", "reimu"],
+});
+expectCause(amendedReview, ethicsAmendment, "Amended ethics review causation");
+expectCause(
+  add("ethics.protocol.withdrawn", {
+    protocolId: "TU-ERB-P-2",
+    rootProtocolId: "TU-ERB-P-1",
+    caseId: "reisen-undisclosed-wave",
+  }),
+  amendedReview,
+  "Ethics withdrawal causation",
+);
 
 add("identity.created", { identityId: "TU-I-1", preferredSchool: "boundary" });
 add("identity.updated", { identityId: "TU-I-1", preferredSchool: "magic" });

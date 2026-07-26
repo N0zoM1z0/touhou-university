@@ -6,6 +6,7 @@ import {
   incidentRetentionReviewers,
   incidentSeverity,
 } from "../data/incidents.js";
+import { ethicsCasesForIncident, ethicsLocalized } from "../data/ethics.js";
 import { recordCampusEvent } from "./campus-ledger.js";
 import { getLocale } from "./i18n.js";
 import {
@@ -61,6 +62,9 @@ const copy = {
     selected: "已選",
     actionLimit: "先行處置最多兩項；先撤下一項再加新的。",
     openLab: "帶著這個假說進入模擬器",
+    ethicsReference: "能力干預前置倫理案卷",
+    ethicsReferenceLead: "若本事件被用作能力介入研究，聯絡室要求先引用下列審查案；事件結案不會倒推成研究許可。",
+    openEthics: "查看前置倫理爭點",
     chooseHypothesis: "先選一個工作假說",
     readiness: "案卷準備度",
     reviewedEvidence: "份證物",
@@ -170,6 +174,9 @@ const copy = {
     selected: "選択済み",
     actionLimit: "先行措置は二件まで。どれかを外してから追加してください。",
     openLab: "この仮説をシミュレーターへ",
+    ethicsReference: "能力介入前の倫理案件",
+    ethicsReferenceLead: "本件を能力介入研究へ使う場合、次の審査案件を先に引用すること。事案終結が遡って研究許可になることはない。",
+    openEthics: "前置倫理争点を見る",
     chooseHypothesis: "作業仮説を選択",
     readiness: "記録準備度",
     reviewedEvidence: "件の物証",
@@ -279,6 +286,9 @@ const copy = {
     selected: "Selected",
     actionLimit: "Two first responses at most. Remove one before adding another.",
     openLab: "Take this hypothesis into the simulator",
+    ethicsReference: "Prior ethics files for ability intervention",
+    ethicsReferenceLead: "If this incident becomes an ability-intervention study, cite the files below first. Closing an incident does not retroactively grant research permission.",
+    openEthics: "Open prior ethics question",
     chooseHypothesis: "Choose a working hypothesis",
     readiness: "Dossier readiness",
     reviewedEvidence: "evidence items",
@@ -504,6 +514,28 @@ function actionCards(incident, state, locale, c) {
   }).join("");
 }
 
+function ethicsReferences(incident, locale, c) {
+  const cases = ethicsCasesForIncident(incident.id);
+  if (!cases.length) return "";
+  return `
+    <aside class="incident-ethics-reference">
+      <div>
+        <strong>${escapeHtml(c.ethicsReference)}</strong>
+        <p>${escapeHtml(c.ethicsReferenceLead)}</p>
+      </div>
+      <ul>
+        ${cases.map((caseFile) => `
+          <li>
+            <a href="${escapeHtml(siteHref(`ethics-case-${caseFile.id}`))}">
+              <span>${escapeHtml(caseFile.code)}</span>
+              <b>${escapeHtml(ethicsLocalized(caseFile.shortTitle, locale))}</b>
+              <i>${escapeHtml(c.openEthics)} ↗</i>
+            </a>
+          </li>`).join("")}
+      </ul>
+    </aside>`;
+}
+
 function renderCases(locale, c, selectedId) {
   const incident = incidentById(selectedId) || incidentCases[0];
   const state = incidentCaseState(incident.id);
@@ -528,6 +560,7 @@ function renderCases(locale, c, selectedId) {
             <div><dt>${c.measure}</dt><dd>${escapeHtml(localized(incident.signal, locale))} · ${escapeHtml(localized(incident.unit, locale))}</dd></div>
           </dl>
         </div>
+        ${ethicsReferences(incident, locale, c)}
         <section class="incident-dossier">
           <header><div><p>01 / MATERIALS</p><h4>${c.evidence}</h4></div><span>${c.evidenceLead}</span></header>
           <div class="incident-evidence-grid">${evidenceCards(incident, state, locale, c)}</div>

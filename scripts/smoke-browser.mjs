@@ -1164,6 +1164,187 @@ try {
     "Public spell-card defence did not create three linked, reopenable BBS reactions.",
   );
 
+  await navigate("ethics.html#ethics-board", "[data-ethics-app]");
+  const ethicsBoard = await cdp.evaluate(`({
+    page: document.body.dataset.page,
+    cases: document.querySelectorAll('[data-ethics-case]').length,
+    reviewers: document.querySelectorAll('.ethics-reviewer-ribbon article').length,
+    hash: location.hash,
+    overflow: document.documentElement.scrollWidth > window.innerWidth
+  })`);
+  check(
+    ethicsBoard.page === "ethics"
+      && ethicsBoard.cases === 5
+      && ethicsBoard.reviewers === 5
+      && ethicsBoard.hash === "#ethics-board"
+      && !ethicsBoard.overflow,
+    `Research ethics board did not expose five cases and five independent seats (${JSON.stringify(ethicsBoard)}).`,
+  );
+  await cdp.evaluate("document.querySelector('[data-ethics-case=\"drift-object-refusal\"]').click(); true");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-ethics-form]')) && location.hash === '#ethics-case-drift-object-refusal'"));
+  const ethicsFirstReview = await cdp.evaluate(`(async () => {
+    const settle = () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-ethics-form]').requestSubmit();
+    await settle();
+    const protocols = JSON.parse(localStorage.getItem('tu:ethics:protocols') || '[]');
+    const reviews = JSON.parse(localStorage.getItem('tu:ethics:reviews') || '[]');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    const protocol = protocols.at(-1);
+    const review = reviews.at(-1);
+    const target = document.querySelector('#ethics-protocol-' + CSS.escape(protocol.id));
+    window.__tuEthicsPrintCount = 0;
+    window.print = () => { window.__tuEthicsPrintCount += 1; };
+    document.querySelector('[data-ethics-print]').click();
+    await settle();
+    const printText = document.querySelector('[data-tu-print-root]')?.textContent.trim().length || 0;
+    const printCount = window.__tuEthicsPrintCount;
+    window.dispatchEvent(new Event('afterprint'));
+    return {
+      protocol,
+      review,
+      protocols: protocols.length,
+      reviews: reviews.length,
+      opinions: document.querySelectorAll('.ethics-opinions article').length,
+      uniqueReviewers: new Set(review?.opinions?.map((opinion) => opinion.reviewerId)).size,
+      hasAggregate: Boolean(review && ('score' in review || 'average' in review)),
+      events: ledger.filter((event) => event.type.startsWith('ethics.')).length,
+      hash: location.hash,
+      top: target?.getBoundingClientRect().top,
+      header: document.querySelector('[data-header]')?.getBoundingClientRect().height || 0,
+      printText,
+      printCount
+    };
+  })()`);
+  check(
+    ethicsFirstReview.protocols === 1
+      && ethicsFirstReview.reviews === 1
+      && ethicsFirstReview.protocol?.outcome === "contested"
+      && ethicsFirstReview.review?.opinions?.length === 5
+      && ethicsFirstReview.uniqueReviewers === 5
+      && !ethicsFirstReview.hasAggregate
+      && ethicsFirstReview.opinions === 5
+      && ethicsFirstReview.events === 2
+      && ethicsFirstReview.hash.startsWith("#ethics-protocol-")
+      && ethicsFirstReview.top >= ethicsFirstReview.header - 4
+      && ethicsFirstReview.top <= ethicsFirstReview.header + 48,
+    `Ethics review was not independently filed as a contested five-seat ruling (${JSON.stringify(ethicsFirstReview)}).`,
+  );
+  check(
+    ethicsFirstReview.printCount === 1 && ethicsFirstReview.printText > 900,
+    "Ethics ruling did not render into the shared printable document.",
+  );
+
+  await cdp.evaluate("document.querySelector('[data-ethics-revise]').click(); true");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-ethics-form]')) && location.hash === '#ethics-case-drift-object-refusal'"));
+  const ethicsAmendment = await cdp.evaluate(`(async () => {
+    const settle = () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const form = document.querySelector('[data-ethics-form]');
+    form.elements.consentId.value = 'both';
+    form.elements.riskId.value = 'moderate';
+    for (const name of ['objectAssent', 'subjectCanStop', 'independentMonitor', 'auditStub']) {
+      form.elements[name].checked = true;
+    }
+    form.elements.appealPlan.value = '由稗田檔案桌的獨立申訴人受理，不回到香霖堂或鑑定主持人。';
+    form.elements.stopRule.value = '閱讀器顯示停止、亮度異常或掃描超過十分鐘時，由小傘立即中止。';
+    form.requestSubmit();
+    await settle();
+    const protocols = JSON.parse(localStorage.getItem('tu:ethics:protocols') || '[]');
+    const reviews = JSON.parse(localStorage.getItem('tu:ethics:reviews') || '[]');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      protocols,
+      reviews: reviews.length,
+      events: ledger.filter((event) => event.type.startsWith('ethics.')).length,
+      hash: location.hash,
+      versionLinks: document.querySelectorAll('.ethics-version-chain li').length
+    };
+  })()`);
+  check(
+    ethicsAmendment.protocols.length === 2
+      && ethicsAmendment.reviews === 2
+      && ethicsAmendment.protocols[0].status === "superseded"
+      && ethicsAmendment.protocols[1].revision === 2
+      && ethicsAmendment.protocols[1].outcome === "approved"
+      && ethicsAmendment.events === 4
+      && ethicsAmendment.versionLinks === 2
+      && ethicsAmendment.hash.startsWith("#ethics-protocol-"),
+    `Ethics amendment did not preserve v1 or produce an approvable v2 (${JSON.stringify(ethicsAmendment)}).`,
+  );
+
+  const ethicsWithdrawal = await cdp.evaluate(`(async () => {
+    const settle = () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const details = document.querySelector('.ethics-withdraw-panel');
+    details.open = true;
+    const form = details.querySelector('form');
+    form.elements.reason.value = '閱讀器要求先完成不拆機的河童掃描；本版主動撤回，五席意見照舊留卷。';
+    form.elements.confirm.checked = true;
+    form.requestSubmit();
+    await settle();
+    const protocols = JSON.parse(localStorage.getItem('tu:ethics:protocols') || '[]');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      status: protocols.at(-1)?.status,
+      reason: protocols.at(-1)?.withdrawalReason,
+      events: ledger.filter((event) => event.type.startsWith('ethics.')).length,
+      stamp: document.querySelector('.ethics-file-stamps [data-outcome]')?.dataset.outcome,
+      opinions: document.querySelectorAll('.ethics-opinions article').length
+    };
+  })()`);
+  check(
+    ethicsWithdrawal.status === "withdrawn"
+      && ethicsWithdrawal.reason.includes("河童掃描")
+      && ethicsWithdrawal.events === 5
+      && ethicsWithdrawal.stamp === "withdrawn"
+      && ethicsWithdrawal.opinions === 5,
+    `Ethics withdrawal did not retain the five opinions and append its event (${JSON.stringify(ethicsWithdrawal)}).`,
+  );
+  const ethicsLanguages = await cdp.evaluate(`(() => {
+    document.querySelector('[data-lang="ja"]').click();
+    const ja = document.querySelector('.ethics-hero h2')?.textContent || '';
+    document.querySelector('[data-lang="en"]').click();
+    const en = document.querySelector('.ethics-hero h2')?.textContent || '';
+    document.querySelector('[data-lang="zh-Hant"]').click();
+    const zh = document.querySelector('.ethics-hero h2')?.textContent || '';
+    return { ja, en, zh };
+  })()`);
+  check(
+    ethicsLanguages.ja.includes("同意")
+      && ethicsLanguages.en.includes("consent")
+      && ethicsLanguages.zh.includes("同意"),
+    "Research ethics board did not rerender across Japanese, English, and Traditional Chinese.",
+  );
+  const ethicsBack = await cdp.evaluate(`(async () => {
+    history.back();
+    for (let attempt = 0; attempt < 80 && location.hash !== '#ethics-board'; attempt += 1) {
+      await new Promise((resolve) => setTimeout(resolve, 25));
+    }
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    return {
+      hash: location.hash,
+      cases: document.querySelectorAll('[data-ethics-case]').length,
+      focusedFile: Boolean(document.querySelector('[data-ethics-protocol-file]'))
+    };
+  })()`);
+  check(
+    ethicsBack.hash === "#ethics-board" && ethicsBack.cases === 5 && !ethicsBack.focusedFile,
+    `Browser Back from the ethics workflow did not restore the five-case board (${JSON.stringify(ethicsBack)}).`,
+  );
+  await navigate("campus.html#bbs", "[data-bbs-list]");
+  const ethicsBbs = await cdp.evaluate(`(() => {
+    const posts = [...document.querySelectorAll('.ethics-post')];
+    posts[0]?.querySelector('.bbs-row-trigger')?.click();
+    return {
+      posts: posts.length,
+      linked: posts.every((post) => post.querySelector('.incident-linked')?.textContent.includes('倫理')),
+      dialogOpen: document.querySelector('[data-info-dialog]').open,
+      action: document.querySelector('[data-info-action]')?.textContent || ''
+    };
+  })()`);
+  check(
+    ethicsBbs.posts === 4 && ethicsBbs.linked && ethicsBbs.dialogOpen && ethicsBbs.action.includes("倫理"),
+    `Ethics rulings did not create four linked BBS reactions (${JSON.stringify(ethicsBbs)}).`,
+  );
+
   await navigate("housing.html#housing-residence-misty-north", "[data-housing-app]");
   const housingResidence = await cdp.evaluate(`({
     page: document.body.dataset.page,
@@ -1517,6 +1698,8 @@ try {
       appraisalEvents: ledger.filter((event) => event.type.startsWith('appraisal.')).length,
       spellcardLink: document.querySelector('.mytu-summary a[href*="#spellcard-records"]')?.textContent || '',
       spellcardEvents: ledger.filter((event) => event.type.startsWith('spellcard.')).length,
+      ethicsLink: document.querySelector('.mytu-summary a[href*="#ethics-records"]')?.textContent || '',
+      ethicsEvents: ledger.filter((event) => event.type.startsWith('ethics.')).length,
       housingLink: document.querySelector('.mytu-summary a[href^="housing.html"]')?.textContent || '',
       housingEvents: ledger.filter((event) => event.type.startsWith('housing.')).length,
       incidentLink: document.querySelector('.mytu-summary a[href^="incidents.html"]')?.textContent || '',
@@ -1530,6 +1713,7 @@ try {
   check(myTuLibrary.libraryEvents >= 3, "Library actions are missing from the My TU campus ledger.");
   check(/鑑定|漂流物/.test(myTuLibrary.appraisalLink) && myTuLibrary.appraisalEvents >= 3, "Drift-object appraisal records are missing from My TU.");
   check(/符卡|答辯/.test(myTuLibrary.spellcardLink) && myTuLibrary.spellcardEvents === 2, "Spell-card design and defence are missing from My TU.");
+  check(/倫理|五席/.test(myTuLibrary.ethicsLink) && myTuLibrary.ethicsEvents === 5, "Ethics protocols, reviews, amendments, and withdrawal are missing from My TU.");
   check(/宿舍|換房/.test(myTuLibrary.housingLink), "My TU does not link to the housing record.");
   check(myTuLibrary.housingEvents >= 3, "Housing actions are missing from the My TU campus ledger.");
   check(/事件研究|結案/.test(myTuLibrary.incidentLink) && myTuLibrary.incidentEvents >= 4 && myTuLibrary.contestedEvent, "Normal and contested incident work is missing from My TU.");
@@ -1539,7 +1723,7 @@ try {
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -2083,7 +2267,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -2126,7 +2310,7 @@ try {
   check(
     mobileMenu.expanded === "true"
       && mobileMenu.visible
-      && mobileMenu.links === 14
+      && mobileMenu.links === 15
       && mobileMenu.backgroundInert
       && mobileFocus,
     "Mobile navigation did not open completely or move keyboard focus into its modal layer.",
@@ -2137,7 +2321,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, live routes/governance, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();

@@ -10,6 +10,7 @@ import { incidentCases } from "./incidents.js";
 import { libraryHoldings } from "./library.js";
 import { researchFiles } from "./research.js";
 import { spellPatterns } from "./spellcard-workshop.js";
+import { ethicsCases } from "./ethics.js";
 
 const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
@@ -34,6 +35,7 @@ export const knowledgeRecordKinds = Object.freeze({
   archive: l("校史版本", "大学史版", "Chronicle version"),
   object: l("物證與館藏", "物証・蔵書", "Object & holding"),
   residence: l("共住記錄", "共同生活記録", "Residence record"),
+  ethics: l("倫理審查", "倫理審査", "Ethics review"),
 });
 
 export const knowledgeCharacters = Object.freeze([
@@ -134,6 +136,24 @@ export const knowledgeCharacters = Object.freeze([
     glyph: "傘",
     name: l("多多良小傘", "多々良小傘", "Kogasa Tatara"),
     role: l("遺忘道具的當事物意見與突然發言權", "忘れられた道具の当事物意見・突然の発言権", "The forgotten object's own view, and sudden speaking rights"),
+  },
+  {
+    id: "satori",
+    glyph: "心",
+    name: l("古明地覺", "古明地さとり", "Satori Komeiji"),
+    role: l("精神隱私、沒有落筆的資料，以及要求讀心另填一份申請", "精神プライバシー・書かれないデータ・読心には別申請", "Mental privacy, unwritten data, and requiring a separate protocol for mind-reading"),
+  },
+  {
+    id: "eiki",
+    glyph: "裁",
+    name: l("四季映姬・夜摩仙那度", "四季映姫・ヤマザナドゥ", "Eiki Shiki, Yamaxanadu"),
+    role: l("同意、責任、申訴，以及不准所有權替別人放棄撤回", "同意・責任・不服申立て・所有権による撤回放棄の禁止", "Consent, responsibility, appeal, and refusing to let ownership waive another's withdrawal"),
+  },
+  {
+    id: "sakuya",
+    glyph: "時",
+    name: l("十六夜咲夜", "十六夜咲夜", "Sakuya Izayoi"),
+    role: l("停止時間、零分鐘對照，以及只有她那一側仍在走的鐘", "時間停止・0分対照・彼女側だけで進む時計", "Stopped time, zero-minute controls, and the clock still moving only on her side"),
   },
 ]);
 
@@ -361,6 +381,48 @@ export const knowledgeDossiers = Object.freeze([
       record("workshop-history", "archive", "history", "six-seals-refuse-one-average", ["akyuu", "reimu", "marisa", "aya", "nitori"], l("校史記下第一座試飛場，也記下六枚印章為何拒絕平均。", "大学史は最初の試飛場と、六印が平均を拒んだ理由を記す。", "The chronicle records the first sandbox and why six seals refused one average.")),
     ],
   },
+  {
+    id: "consent-five-seats",
+    glyph: "諾",
+    code: "HIEDA / 08",
+    title: l(
+      "同意的五個門口：誰有權讓研究開始？",
+      "同意の五つの入口：誰が研究開始を許せるか",
+      "Five gates of consent: who may let research begin?",
+    ),
+    lead: l(
+      "波長、讀心、停止時間、歷史刪除與漂流物拆機都能被完成；五席只追問一件更麻煩的事：完成它的人是否已經取得這樣做的權利。",
+      "波長・読心・時間停止・歴史削除・漂流物分解は実行できる。五席が問うのは、実行者にその権利があるか。",
+      "Wavelengths, mind-reading, stopped time, historical erasure, and drift-object disassembly can all be done. Five seats ask whether the person doing them has the right.",
+    ),
+    tension: l(
+      "永琳要停止規則，覺說沒有落筆仍是讀取，慧音拒絕讓刪除收據也被刪，映姬不接受所有權代替同意，靈夢要求現場規則一口氣說得完。",
+      "永琳は停止規則、さとりは非記録でも読取り、慧音は削除受領票の削除を拒否、映姫は所有権を同意の代用にせず、霊夢は現場規則を一息で言えるよう求める。",
+      "Eirin asks for stopping rules; Satori says unwritten access is still access; Keine refuses to erase the deletion receipt; Eiki rejects ownership as consent; Reimu wants a field rule spoken in one breath.",
+    ),
+    characters: ["akyuu", "eirin", "satori", "keine", "eiki", "reimu", "sakuya", "reisen", "rinnosuke", "kogasa"],
+    versions: ["six-seals-refuse-one-average", "five-records-share-one-red-thread", "five-seats-refuse-one-average"],
+    eventQueries: [
+      {
+        types: ["ethics.protocol.submitted", "ethics.review.completed", "ethics.protocol.amended", "ethics.protocol.withdrawn"],
+        refs: [
+          "ethics-case:reisen-undisclosed-wave",
+          "ethics-case:satori-no-notes",
+          "ethics-case:sakuya-frozen-control",
+          "ethics-case:keine-history-deletion",
+          "ethics-case:drift-object-refusal",
+        ],
+      },
+    ],
+    records: [
+      record("reisen-consent", "case", "ethics-case", "reisen-undisclosed-wave", ["eirin", "reisen", "reimu"], l("盲測能遮住研究問題，不能順便遮住參與者的拒絕權。", "盲検は研究問題を隠せても、参加者の拒否権まで隠せない。", "Blinding may hide the research question; it may not hide the right to refuse.")),
+      record("satori-processing", "evidence", "ethics-case", "satori-no-notes", ["satori", "eiki", "akyuu"], l("覺沒有留下原念；阿求仍替『讀取曾發生』留了一張不含內容的索引紙。", "さとりは元の思念を残さず、阿求は「読取りがあった」ことだけを内容なしで索引。", "Satori retains no raw thought; Akyuu keeps a content-free slip that access occurred.")),
+      record("sakuya-control", "research", "ethics-case", "sakuya-frozen-control", ["sakuya", "eirin", "reimu"], l("外界鐘面寫零分鐘；咲夜的操作順序寫了十七行。兩者沒有被平均成八點五行。", "外部時計は0分、咲夜の操作順序は17行。二つを平均して8.5行にはしない。", "The outside clock says zero minutes; Sakuya's operation sequence has seventeen lines. Nobody averages them into eight and a half.")),
+      record("keine-receipt", "correction", "ethics-case", "keine-history-deletion", ["keine", "eiki", "akyuu"], l("內容可按請求刪除；刪除被受理的收據只證明權利曾被執行，不保存原文。", "内容は削除できるが、受理票は権利行使だけを証明し原文を保存しない。", "Content may be deleted; the receipt proves only that the right was exercised and retains no original text.")),
+      record("object-assent", "object", "ethics-case", "drift-object-refusal", ["rinnosuke", "kogasa", "eiki"], l("拾得票讓香霖堂保管閱讀器；畫面上的『不要拆』仍然是一份沒有被票根吃掉的意見。", "拾得票は香霖堂の保管を認めるが、画面の「分解しないで」は半券に飲まれない意見。", "The salvage slip grants custody; “do not disassemble” remains an opinion the ticket stub cannot swallow.")),
+      record("ethics-history", "archive", "history", "five-seats-refuse-one-average", ["akyuu", "eirin", "satori", "keine", "eiki", "reimu"], l("校史記下五席開會，也記下第一項決議是禁止使用平均釘書機。", "大学史は五席の開会と、最初の決定が平均ホチキス禁止だったことを記す。", "The chronicle records the five-seat opening and its first ruling: no averaging stapler.")),
+    ],
+  },
 ]);
 
 const sourceCollections = {
@@ -374,6 +436,7 @@ const sourceCollections = {
   residence: residences,
   history: campusHistory,
   "spell-pattern": spellPatterns,
+  "ethics-case": ethicsCases,
 };
 
 const localized = (value, locale) => value?.[locale] || value?.["zh-Hant"] || value || "";
@@ -393,6 +456,7 @@ function routeForSource(source) {
     residence: `housing-residence-${source.id}`,
     history: `chronicle-${source.id}`,
     "spell-pattern": `spellcard-pattern-${source.id}`,
+    "ethics-case": `ethics-case-${source.id}`,
   };
   return routes[source.type] || "top";
 }
@@ -466,6 +530,10 @@ export function resolveKnowledgeRecord(recordEntry, locale = "zh-Hant") {
     case "spell-pattern":
       title = localized(source.name, locale);
       detail = localized(source.premise, locale);
+      break;
+    case "ethics-case":
+      title = localized(source.title, locale);
+      detail = `${source.code} · ${localized(source.conflict, locale)}`;
       break;
     default:
       return null;

@@ -13,11 +13,11 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
-- twelve ordinary generated, shareable pages for the home portal, academics,
-  admissions, research, campus incidents, campus life, My TU, the Misty Lake
-  Library, housing, campus healthcare, the on-device records cabinet and the
-  Hieda cross-campus index, with legacy one-page hashes redirected to their new
-  canonical locations;
+- thirteen ordinary generated, shareable pages for the home portal, academics,
+  admissions, research, research ethics, campus incidents, campus life, My TU,
+  the Misty Lake Library, housing, campus healthcare, the on-device records
+  cabinet and the Hieda cross-campus index, with legacy one-page hashes
+  redirected to their new canonical locations;
 - one deliberately unlisted PHANTASM page that opens only after six different
   student-lifecycle choices leave reverse-side seals; date, eight-phase moon
   and three-hour duty bells then rotate its real entrance across five ordinary
@@ -32,7 +32,7 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   lifecycle ledger, joint faculty application reviews and printable decision
   letters;
 - a unified on-device records cabinet that discovers every `tu:` local or
-  session file, catalogues 50 known keys across university shelves, shows exact
+  session file, catalogues 53 known keys across university shelves, shows exact
   UTF-8 usage and browser-origin visibility, opens raw contents, exports a
   SHA-256-sealed JSON box, validates imports before writing, preserves or
   explicitly overwrites name collisions, and destroys one file, one shelf or
@@ -54,6 +54,14 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   deliberately non-averaged reviewers, sealed revisions, printable files and
   a second public-defence path whose ruling, conditions and dissent enter My TU
   and generate three linked BBS versions;
+- a standalone Gensokyo Research Ethics Review Board with five deliberately
+  independent seats—Eirin, Satori, Akyuu/Keine, Eiki and Reimu—and five
+  complete specimen disputes about covert wavelength work, unrecorded
+  mind-reading, stopped-time controls, history deletion and a drift object's
+  refusal to be dismantled. Drafts, formal protocols, five-seat reviews,
+  amendments and withdrawals stay on-device, retain minority opinions without
+  an aggregate ethics score, print as formal files and project into My TU, BBS,
+  incident dossiers and the Hieda index;
 - campus-visit reservations with autosaved drafts, visitor references and a
   device-local “My Campus Visits” archive;
 - a real Misty Lake Library catalogue with 19 trilingual holdings, search and
@@ -100,8 +108,8 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   a trilingual in-universe history record, correction note and real version
   source, while mechanical merge commits separately expose their second-parent
   functional change without confusing the two SHAs;
-- a separate Hieda campus knowledge graph with seven cross-files and 49 source
-  leaves that can be inverted by event, fifteen characters, or first-parent
+- a separate Hieda campus knowledge graph with eight cross-files and 55 source
+  leaves that can be inverted by event, eighteen characters, or first-parent
   version/time; every leaf resolves back to existing incident, evidence,
   governance, BBS, course, research, library, appraisal, housing or chronicle
   IDs, while matching schema-2 events from this device appear as personal
@@ -137,7 +145,7 @@ src/
   sections/   page partials, one institutional section per file
   styles/     base and feature-specific stylesheets
 scripts/      build, preview, validation, scaffolding and asset helpers
-*.html        thirteen generated GitHub Pages artifacts; one is deliberately hidden
+*.html        fourteen generated GitHub Pages artifacts; one is deliberately hidden
 styles.css    generated shared CSS artifact
 styles-*.css  generated per-page CSS artifacts
 site.config.mjs
@@ -152,11 +160,12 @@ modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate thirteen pages and shared/per-page CSS bundles
+npm run build               # generate fourteen pages and shared/per-page CSS bundles
 npm run check               # build + all source, data, relationship and history contracts
 npm run check:i18n          # stable/legacy keys, collisions, titles and interpolation parity
-npm run check:contracts     # 45 event types, producer coverage and causal lifecycle fixtures
+npm run check:contracts     # 49 event types, producer coverage and causal lifecycle fixtures
 npm run check:knowledge     # Hieda sources, five-form dossiers, characters, routes and versions
+npm run check:ethics        # five cases/seats, non-averaged rulings, routes, records and events
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
@@ -177,6 +186,7 @@ npm run capture -- --page=library.html#library --section=library --width=390 --h
 npm run capture -- --page=housing.html#housing-application --section=housing --width=390 --height=844
 npm run capture -- --page=incidents.html#incident-simulator --section=incident-center --width=390 --height=844
 npm run capture -- --page=clinic.html#clinic-pharmacy --section=clinic --width=390 --height=844
+npm run capture -- --page=ethics.html#ethics-board --section=ethics-board --width=1440 --height=1000
 npm run capture -- --page=campus.html#live-campus --section=live-campus --width=1440 --height=1000
 npm run capture -- --page=mytu.html#academic-defense --section=my-tu --storage='{"tu:identity":{"id":"TU-S-DEMO","name":"外界人類"}}'
 npm run new:section -- news # scaffold and register a new section
@@ -217,6 +227,16 @@ Set a different preview port with `PORT=4180 npm run dev`.
   Canvas/UI belongs in `src/js/spellcard-workshop.js`. Do not collapse six
   conflicting reviews into one fairness score. Drafts, sealed versions and
   defences use the three `tu:spellcards:*` records.
+- Keep research-ethics cases, reviewers and structured choices in
+  `src/data/ethics.js`; pure review and version-tolerant persistence in
+  `src/js/ethics-model.js`; and the focused board, submission desk and formal
+  file UI in `src/js/ethics.js`. Five opinions remain independent: a block,
+  condition or minority objection must never disappear into a majority or
+  average score. Drafts, protocols and reviews use `tu:ethics:drafts`,
+  `tu:ethics:protocols` and `tu:ethics:reviews`; submission, review, amendment
+  and withdrawal enter the campus ledger, while BBS posts are derived views.
+  Preserve `#ethics-board`, `#ethics-records`, `#ethics-case-<id>` and
+  `#ethics-protocol-<id>` as exact shareable routes.
 - Keep PHANTASM seals, courses, map nodes and examiners in
   `src/data/phantasm.js`; official-record eligibility and isolated dream
   persistence belong in `src/js/phantasm-model.js`; ordinary-site whispers use

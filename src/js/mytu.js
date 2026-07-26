@@ -56,6 +56,7 @@ const copy = {
     medical: "診療／處方／康復",
     appraisals: "漂流物鑑定",
     spellcards: "符卡設計／答辯",
+    ethics: "研究倫理／五席審查",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     academicMode: "作業、考試與答辯",
@@ -167,6 +168,7 @@ const copy = {
     medical: "診療／処方／回復",
     appraisals: "漂流物鑑定",
     spellcards: "スペルカード設計／答弁",
+    ethics: "研究倫理／五席審査",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     academicMode: "課題・試験・答弁",
@@ -273,6 +275,7 @@ const copy = {
     medical: "Care / prescriptions / recovery",
     appraisals: "Drift-object appraisals",
     spellcards: "Spell-card designs / defences",
+    ethics: "Research ethics / five-seat review",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     academicMode: "Work, exams & defences",
@@ -415,6 +418,9 @@ function allRecords() {
   const appraisalDrafts = readJson("tu:appraisal:drafts", {});
   const spellcardDesigns = readJson("tu:spellcards:designs", []);
   const spellcardDefences = readJson("tu:spellcards:defences", []);
+  const ethicsDrafts = readJson("tu:ethics:drafts", null);
+  const ethicsProtocols = readJson("tu:ethics:protocols", []);
+  const ethicsReviews = readJson("tu:ethics:reviews", []);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
@@ -422,6 +428,9 @@ function allRecords() {
   const housingDraft = Number(Boolean(readJson("tu:housing:draft", null)));
   const clinicDraft = Number(Boolean(readJson("tu:clinic:triage-draft", null)));
   const spellcardDraft = Number(Boolean(readJson("tu:spellcards:draft", null)));
+  const ethicsDraftCount = Object.keys(
+    ethicsDrafts?.byCase && typeof ethicsDrafts.byCase === "object" ? ethicsDrafts.byCase : {},
+  ).length;
   const localFiles = [window.localStorage, window.sessionStorage].reduce((total, storage) => {
     let count = 0;
     for (let index = 0; index < storage.length; index += 1) {
@@ -443,7 +452,7 @@ function allRecords() {
     unifiedExams,
     posts,
     examCount,
-    drafts: drafts + housingDraft + clinicDraft + spellcardDraft
+    drafts: drafts + housingDraft + clinicDraft + spellcardDraft + ethicsDraftCount
       + Object.keys(appraisalDrafts && typeof appraisalDrafts === "object" && !Array.isArray(appraisalDrafts) ? appraisalDrafts : {}).length,
     courseSummary,
     activeLibrary,
@@ -461,6 +470,8 @@ function allRecords() {
     appraisalRecords: Array.isArray(appraisalRecords) ? appraisalRecords.length : 0,
     spellcardRecords: (Array.isArray(spellcardDesigns) ? spellcardDesigns.length : 0)
       + (Array.isArray(spellcardDefences) ? spellcardDefences.length : 0),
+    ethicsRecords: (Array.isArray(ethicsProtocols) ? ethicsProtocols.length : 0)
+      + (Array.isArray(ethicsReviews) ? ethicsReviews.length : 0),
     localFiles,
   };
 }
@@ -660,6 +671,9 @@ function eventLabel(event, locale, c) {
   if (event.type.startsWith("spellcard.")) {
     return `${base} · ${payload.spellName || payload.designId || payload.defenceId || ""}`;
   }
+  if (event.type.startsWith("ethics.")) {
+    return `${base} · ${payload.protocolId || payload.reviewId || payload.caseId || ""}`;
+  }
   return base;
 }
 
@@ -774,6 +788,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="clinic.html#clinic-account"><span>${c.medical}</span><strong>${records.activeClinic}</strong></a>
           <a href="library.html#appraisal-records"><span>${c.appraisals}</span><strong>${records.appraisalRecords}</strong></a>
           <a href="research.html#spellcard-records"><span>${c.spellcards}</span><strong>${records.spellcardRecords}</strong></a>
+          <a href="ethics.html#ethics-records"><span>${c.ethics}</span><strong>${records.ethicsRecords}</strong></a>
           <a href="records.html#data-cabinet"><span>${c.cabinetSummary}</span><strong>${records.localFiles}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>

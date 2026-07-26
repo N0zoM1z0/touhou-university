@@ -671,10 +671,9 @@ export const campusHistory = [
   {
     id: "five-records-share-one-red-thread",
     archiveId: "TU-H-028",
-    commit: null,
+    commit: "2471778310a3dc8bf346e2aef2172e50a7ab10c7",
     commitSubject: "Add Hieda campus knowledge graph",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "archive",
     era: l("同朝・稗田索引開桌第五星", "同朝・稗田索引開机第五刻", "Same morning · Fifth mark of the Hieda indexing desk"),
     title: l(
@@ -691,6 +690,31 @@ export const campusHistory = [
       "文把索引稱為《七起事件的四十九次獨家報導》。慧音在「獨家」旁蓋了十五枚不同角色的手印；荷取替紅線畫了路由圖，結果線在滿月時繞去圖書館。阿求最後只補一句：若五份記錄完全一致，請先檢查是不是有人把另外四份收走了。",
       "文は索引を『七事件・四十九回の独占報道』と命名。慧音は「独占」の横へ十五名分の手印を押し、にとりは赤糸の経路図を描いたが、満月には図書館へ迂回した。阿求の追記は一文だけ。「五つの記録が完全一致したら、まず残り四つを誰かが持ち去っていないか確認すること。」",
       "Aya titles it “Forty-nine exclusive reports on seven incidents.” Keine stamps fifteen different fingerprints beside “exclusive”; Nitori draws a route map for the red thread, which detours through the library at full moon. Akyuu adds one line: if five records agree perfectly, first check whether someone removed the other four.",
+    ),
+  },
+  {
+    id: "five-seats-refuse-one-average",
+    archiveId: "TU-H-029",
+    commit: null,
+    commitSubject: "Add Gensokyo research ethics review board",
+    recordedAt: "2026-07-26",
+    planned: true,
+    category: "research",
+    era: l("同朝・第一觀測之前", "同朝・最初の観測より前", "Same morning · Before the first observation"),
+    title: l(
+      "五席委員會准許研究開始爭論，並禁止阿求使用平均釘書機",
+      "五席委員会が研究開始の議論を承認し、阿求の平均ホチキスを禁止",
+      "The five-seat board permits arguments about starting research and bans Akyuu's averaging stapler",
+    ),
+    summary: l(
+      "永琳、覺、慧音、映姬與靈夢在第一筆觀測前各開一張審查紙：風險與劑量、精神隱私、史料刪除、權利申訴、以及現場規則是否真的喊得停。鈴仙的未告知波長試驗、覺的無筆記讀心、咲夜的零分鐘對照、慧音的歷史刪除與第七十七號漂流物的拆機拒絕成為首批五案；任何一席都能要求退修，爭議與少數意見不准折成一個總分。申請人可在本機保存草稿、逐版送審、撤回與列印，正式動作則以四類帶前因的事件進入 My TU。校園 BBS 會把決議寫成速報，事件中心會在能力干預前引用原倫理門牌，稗田索引則替五宗案卷留下一條不替任何人同意的紅線。",
+      "永琳・さとり・慧音・映姫・霊夢は最初の観測前に、リスクと用量、精神プライバシー、史料削除、権利と不服申立て、現場規則の実行可能性を別紙で審査する。鈴仙の非告知波長、さとりの非記録読心、咲夜の0分対照、慧音の歴史削除、第77号漂流物の分解拒否が最初の五案件となった。どの一席も差戻しを要求でき、係争と少数意見を総合点へ折り畳むことは禁止。申請者は端末内で下書き、版別提出、取下げ、印刷ができ、正式行為は前因付き四種イベントとして My TU へ入る。学内 BBS は決定を速報化し、事案センターは能力介入前に倫理案件を引用し、稗田索引は誰の同意にも代わらない赤糸を五案件へ残す。",
+      "Eirin, Satori, Keine, Eiki, and Reimu open separate sheets before the first observation: risk and dose, mental privacy, historical erasure, rights and appeal, and whether a field rule can truly stop anything. Reisen's undisclosed wavelength, Satori's unrecorded mind-reading, Sakuya's zero-minute control, Keine's historical deletion, and Drift Reader 77's refusal of disassembly become the first five cases. Any seat may require revision; disputes and minority opinions may not be folded into a total score. Applicants keep drafts, versioned submissions, withdrawals, and printable rulings on-device, while four causal event types enter My TU. Campus BBS turns decisions into extras, the Incident Centre cites ethics addresses before ability intervention, and the Hieda Index leaves one red thread that consents for nobody.",
+    ),
+    marginalia: l(
+      "文在開會前九分鐘刊出《五席一致通過首案》；五席當時唯一一致的事，是要求標題退回修改。魔理沙問能否先做實驗再補同意，靈夢把申請表翻到背面，背面只有一個很大的「不行」。第七十七號閱讀器則在所有人簽完後顯示：『我沒有簽。』",
+      "文は開会9分前に『五席全会一致で初案件可決』を発行。五席が唯一一致したのは見出しの差戻しだった。魔理沙が実験後の同意追記を尋ねると、霊夢は申請書を裏返した。裏には大きく「だめ」とだけある。第77号読書端末は全員の署名後に「私は署名していない」と表示した。",
+      "Aya prints “Five seats unanimously approve first protocol” nine minutes before the meeting. Their only unanimous act is returning the headline for revision. Marisa asks whether consent can be added after the experiment; Reimu turns the form over, where a very large “NO” occupies the reverse. After everyone signs, Drift Reader 77 displays: “I did not.”",
     ),
   },
 ];

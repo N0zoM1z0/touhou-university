@@ -1657,3 +1657,67 @@
   .incident-resolution-section,
   .incident-experiment-log { padding-inline: 20px; }
 }
+.incident-ethics-reference {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.2fr);
+  gap: 22px;
+  padding: 22px;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  background:
+    linear-gradient(110deg, rgba(139, 34, 48, 0.96), rgba(72, 24, 38, 0.98)),
+    repeating-linear-gradient(0deg, transparent 0 24px, rgba(255, 255, 255, 0.05) 25px);
+}
+
+.incident-ethics-reference strong {
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+}
+
+.incident-ethics-reference p {
+  margin: 8px 0 0;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.incident-ethics-reference ul {
+  display: grid;
+  gap: 1px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.incident-ethics-reference a {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 14px;
+  color: #fff;
+  background: rgba(30, 20, 30, 0.42);
+}
+
+.incident-ethics-reference a span,
+.incident-ethics-reference a i {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.65rem;
+  font-style: normal;
+}
+
+.incident-ethics-reference a b {
+  font-size: 0.78rem;
+}
+
+@media (max-width: 720px) {
+  .incident-ethics-reference {
+    grid-template-columns: 1fr;
+  }
+
+  .incident-ethics-reference a {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}

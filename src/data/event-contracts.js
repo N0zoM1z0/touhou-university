@@ -242,6 +242,29 @@ const contracts = [
     subject: by("spellcard-design", "designId"), required: ["designId", "defenceId"],
     causedBy: ["spellcard.design.saved"], references: related(["spellcard-defence", "defenceId"]),
   }),
+  define("ethics.protocol.submitted", l("提交研究倫理計畫", "研究倫理計画を提出", "Submitted a research ethics protocol"), {
+    subject: by("ethics-protocol", "protocolId"), required: ["protocolId", "rootProtocolId", "caseId"],
+    correlation: (payload) => `ethics-protocol:${payload?.rootProtocolId || payload?.protocolId || ""}`,
+    references: related(["ethics-case", "caseId"]),
+  }),
+  define("ethics.review.completed", l("完成五席研究倫理審查", "五席研究倫理審査を完了", "Completed five-seat research ethics review"), {
+    subject: by("ethics-review", "reviewId"), required: ["protocolId", "rootProtocolId", "reviewId", "outcome"],
+    correlation: (payload) => `ethics-protocol:${payload?.rootProtocolId || payload?.protocolId || ""}`,
+    causedBy: ["ethics.protocol.submitted", "ethics.protocol.amended"],
+    references: related(["ethics-protocol", "protocolId"], ["ethics-case", "caseId"], ["ethics-reviewer", "reviewerIds"]),
+  }),
+  define("ethics.protocol.amended", l("提交研究倫理修訂版", "研究倫理修正版を提出", "Submitted a research ethics amendment"), {
+    subject: by("ethics-protocol", "protocolId"), required: ["protocolId", "rootProtocolId", "caseId", "revisionOf"],
+    correlation: (payload) => `ethics-protocol:${payload?.rootProtocolId || payload?.protocolId || ""}`,
+    causedBy: ["ethics.review.completed"],
+    references: related(["ethics-protocol", "revisionOf"], ["ethics-case", "caseId"]),
+  }),
+  define("ethics.protocol.withdrawn", l("撤回研究倫理計畫", "研究倫理計画を取り下げ", "Withdrew a research ethics protocol"), {
+    subject: by("ethics-protocol", "protocolId"), required: ["protocolId", "rootProtocolId", "caseId"],
+    correlation: (payload) => `ethics-protocol:${payload?.rootProtocolId || payload?.protocolId || ""}`,
+    causedBy: ["ethics.review.completed"],
+    references: related(["ethics-case", "caseId"]),
+  }),
 ];
 
 export const campusEventContracts = Object.freeze(

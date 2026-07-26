@@ -11,6 +11,7 @@ import { incidentCases } from "../data/incidents.js";
 import { clinicMedicines, clinicTherapies } from "../data/clinic.js";
 import { appraisalObjects } from "../data/appraisal.js";
 import { spellPatterns } from "../data/spellcard-workshop.js";
+import { ethicsCases, ethicsOutcomeLabels } from "../data/ethics.js";
 import { phantasmCourses } from "../data/phantasm.js";
 import {
   dossiersForCharacter,
@@ -25,6 +26,7 @@ import { academicCommunityPosts } from "./academic-model.js";
 import { clinicCommunityPosts } from "./clinic-model.js";
 import { appraisalCommunityPosts } from "./appraisal-model.js";
 import { spellcardCommunityPosts } from "./spellcard-workshop-model.js";
+import { ethicsCommunityPosts, ethicsProtocols } from "./ethics-model.js";
 import { phantasmCommunityPosts } from "./phantasm-model.js";
 import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
 
@@ -74,6 +76,34 @@ const domainManifests = [
     community: spellcardCommunityPosts,
     communityPriority: 60,
     changeEvents: ["tu:spellcardchange"],
+  },
+  {
+    id: "ethics",
+    search(locale) {
+      return [
+        ...ethicsCases.map((caseFile) =>
+          entry(
+            `ethics-case-${caseFile.id}`,
+            "ethics",
+            `${caseFile.code} · ${caseFile.title[locale]}`,
+            caseFile.conflict[locale],
+            caseFile,
+            82,
+          )),
+        ...ethicsProtocols().map((protocol) =>
+          entry(
+            `ethics-protocol-${protocol.id}`,
+            "ethics",
+            protocol.draft.title,
+            `${ethicsOutcomeLabels[protocol.status === "withdrawn" ? "withdrawn" : protocol.outcome][locale]} · v${protocol.revision}`,
+            protocol,
+            86,
+          )),
+      ];
+    },
+    community: ethicsCommunityPosts,
+    communityPriority: 65,
+    changeEvents: ["tu:ethicschange"],
   },
   {
     id: "campus",

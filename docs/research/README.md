@@ -36,6 +36,10 @@ The research follows the method already established in
   lightweight sandbox constraints, public-defence structure and persistence.
 - `phantasm-campus-notes.md` — counterfactual-campus concept, six hard unlock
   seals, ordinary-site clue budget, dream curriculum and ledger isolation.
+- `local-records-cabinet-notes.md` — discoverable on-device storage, sealed
+  export/import, deletion boundaries and scope language.
+- `research-ethics-board-notes.md` — five independent review seats, five
+  ability/object disputes, non-averaged rulings and protocol lifecycle.
 
 ## Internal editorial labels
 
