@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="本機學籍、申請審查、校園履歷、選課、課表與學業成績紀錄。 東方Project非官方二次創作。"
+      content="付喪神失物招領與物權仲裁、鴉天狗校園郵便、版本化通知與本機聽證卷宗。 東方Project非官方二次創作。"
     >
     <meta name="theme-color" content="#151d2a">
-    <meta property="og:title" content="My TU 學籍中心｜幻想鄉立東方大學">
+    <meta property="og:title" content="校園公共服務館｜幻想鄉立東方大學">
     <meta
       property="og:description"
-      content="本機學籍、申請審查、校園履歷、選課、課表與學業成績紀錄。 東方Project非官方二次創作網站。"
+      content="付喪神失物招領與物權仲裁、鴉天狗校園郵便、版本化通知與本機聽證卷宗。 東方Project非官方二次創作網站。"
     >
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/images/campus-hero.webp">
-    <title>My TU 學籍中心｜幻想鄉立東方大學</title>
+    <title>校園公共服務館｜幻想鄉立東方大學</title>
     <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
 
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles-mytu.css">
+    <link rel="stylesheet" href="styles-commons.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
-  <body data-page="mytu" data-page-title-key="pageMyTuTitle">
+  <body data-page="commons" data-page-title-key="pageCommonsTitle">
     <a class="skip-link" href="#main" data-i18n="skipToMain">跳至主要內容</a>
 
     <div class="site-notice">
@@ -153,19 +153,23 @@
     <section class="page-masthead" aria-labelledby="page-title">
       <div class="container">
         <nav class="page-breadcrumb" aria-label="頁面位置">
-          <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>MY TU</b>
+          <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>CAMPUS COMMONS</b>
         </nav>
         <div class="page-masthead-copy">
-          <div><p>MY TU</p><h1 id="page-title">學籍、課業、答辯與校園履歷</h1></div>
-          <p>這台裝置記得你的申請、試驗、課程、答案、成績與答辯；資料不必離開瀏覽器。</p>
+          <div><p>CAMPUS COMMONS</p><h1 id="page-title">物權、失物與校園郵便</h1></div>
+          <p>物件可以否認自己遺失，信件可以早於內容抵達；至少讓來源、異議與訂正都有地方坐下。</p>
         </div>
-        <nav class="page-local-nav" aria-label="學籍、課業、答辯與校園履歷"><a href="#my-tu">學籍中心</a><a href="#course-registration">選課與成績</a><a href="#academic-work">課業工作台</a><a href="#academic-grades">成績單</a><a href="#academic-defense">論文／符卡答辯</a></nav>
+        <nav class="page-local-nav" aria-label="物權、失物與校園郵便"><a href="#property-desk">失物與物權</a><a href="#property-records">我的聽證</a><a href="#post-inbox">鴉天狗郵便</a><a href="#post-compose">寄發通知</a></nav>
       </div>
     </section>
-      <section class="mytu-section" id="my-tu" aria-labelledby="mytu-title">
-  <span class="section-route-anchor" id="course-registration" aria-hidden="true"></span>
-  <h2 class="visually-hidden" id="mytu-title">My TU</h2>
-  <div class="container" data-mytu-app></div>
+      <section class="commons-section" id="campus-commons" aria-labelledby="commons-title">
+  <div class="container">
+    <div class="commons-loading" data-commons-app>
+      <p data-i18n="commonsLoadingEyebrow">CAMPUS COMMONS / 物權 × 郵便</p>
+      <h2 id="commons-title" data-i18n="commonsTitle">校園公共服務館</h2>
+      <span data-i18n="commonsLoading">小傘正在替一把不願回家的傘留座；文已經把尚未寄出的聽證通知送到了。</span>
+    </div>
+  </div>
 </section>
     </main>
 

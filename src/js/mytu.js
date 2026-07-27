@@ -59,6 +59,8 @@ const copy = {
     ethics: "研究倫理／五席審查",
     festivals: "祭典許可／值班履歷",
     fieldwork: "田野護照／場地印",
+    commons: "物權聽證／校園郵便",
+    calendar: "學年曆紅書籤",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     academicMode: "作業、考試與答辯",
@@ -173,6 +175,8 @@ const copy = {
     ethics: "研究倫理／五席審査",
     festivals: "祭典許可／当番履歴",
     fieldwork: "フィールド旅券／現地印",
+    commons: "物権聴聞／学内郵便",
+    calendar: "学年暦の赤い栞",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     academicMode: "課題・試験・答弁",
@@ -282,6 +286,8 @@ const copy = {
     ethics: "Research ethics / five-seat review",
     festivals: "Festival permits / duty record",
     fieldwork: "Fieldwork passport / seals",
+    commons: "Property hearings / campus post",
+    calendar: "Academic-calendar bookmarks",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     academicMode: "Work, exams & defences",
@@ -431,6 +437,9 @@ function allRecords() {
   const festivalOperations = readJson("tu:festival:operations", []);
   const fieldworkPlacements = readJson("tu:fieldwork:placements", []);
   const fieldworkPassport = readJson("tu:fieldwork:passport", null);
+  const propertyClaims = readJson("tu:property:claims", []);
+  const postDispatches = readJson("tu:post:dispatches", []);
+  const calendarBookmarks = readJson("tu:calendar:bookmarks", []);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
@@ -488,6 +497,9 @@ function allRecords() {
       + (Array.isArray(festivalOperations) ? festivalOperations.length : 0),
     fieldworkRecords: (Array.isArray(fieldworkPlacements) ? fieldworkPlacements.length : 0)
       + (Array.isArray(fieldworkPassport?.stamps) ? fieldworkPassport.stamps.length : 0),
+    commonsRecords: (Array.isArray(propertyClaims) ? propertyClaims.length : 0)
+      + (Array.isArray(postDispatches) ? postDispatches.length : 0),
+    calendarRecords: Array.isArray(calendarBookmarks) ? calendarBookmarks.length : 0,
     localFiles,
   };
 }
@@ -813,6 +825,8 @@ function renderDashboard(identity, records, locale, c) {
           <a href="ethics.html#ethics-records"><span>${c.ethics}</span><strong>${records.ethicsRecords}</strong></a>
           <a href="festival.html#festival-records"><span>${c.festivals}</span><strong>${records.festivalRecords}</strong></a>
           <a href="fieldwork.html#fieldwork-passport"><span>${c.fieldwork}</span><strong>${records.fieldworkRecords}</strong></a>
+          <a href="commons.html#property-records"><span>${c.commons}</span><strong>${records.commonsRecords}</strong></a>
+          <a href="calendar.html#calendar-agenda"><span>${c.calendar}</span><strong>${records.calendarRecords}</strong></a>
           <a href="records.html#data-cabinet"><span>${c.cabinetSummary}</span><strong>${records.localFiles}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>

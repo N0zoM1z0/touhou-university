@@ -10,7 +10,18 @@ import { fieldworkMapNotice } from "./fieldwork-model.js";
 function campusRoutingState() {
   const state = liveCampusSnapshot();
   const festival = festivalRouteOverlay();
-  if (!festival.active) return state;
+  const calendarEvents = state.calendar.activeEvents.map((event) => ({
+    id: event.id,
+    glyph: event.glyph,
+    title: event.title,
+    rule: event.impacts.transport,
+  }));
+  if (!festival.active) {
+    return {
+      ...state,
+      activeEvents: [...state.activeEvents, ...calendarEvents],
+    };
+  }
   return {
     ...state,
     routeRules: {
@@ -28,6 +39,7 @@ function campusRoutingState() {
     },
     activeEvents: [
       ...state.activeEvents,
+      ...calendarEvents,
       {
         id: festival.operationId,
         glyph: "祭",

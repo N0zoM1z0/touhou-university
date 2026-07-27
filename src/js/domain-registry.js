@@ -14,6 +14,8 @@ import { spellPatterns } from "../data/spellcard-workshop.js";
 import { ethicsCases, ethicsOutcomeLabels } from "../data/ethics.js";
 import { festivalKinds, festivalLocalized, festivalRoutes } from "../data/festival.js";
 import { fieldworkLocalized, fieldworkStations } from "../data/fieldwork.js";
+import { propertyItems, propertyLocalized } from "../data/property.js";
+import { academicCalendarEvents, academicCalendarLocalized } from "../data/academic-calendar.js";
 import { phantasmCourses } from "../data/phantasm.js";
 import {
   dossiersForCharacter,
@@ -35,6 +37,9 @@ import {
   festivalPlans,
 } from "./festival-model.js";
 import { fieldworkCommunityPosts, fieldworkPlacements } from "./fieldwork-model.js";
+import { propertyClaims, propertyCommunityPosts } from "./property-model.js";
+import { postCommunityPosts, postDispatches } from "./post-model.js";
+import { academicCalendarBookmarks, academicCalendarCommunityPosts } from "./academic-calendar-model.js";
 import { phantasmCommunityPosts } from "./phantasm-model.js";
 import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
 
@@ -182,6 +187,63 @@ const domainManifests = [
     community: fieldworkCommunityPosts,
     communityPriority: 68,
     changeEvents: ["tu:fieldworkchange"],
+  },
+  {
+    id: "commons",
+    search(locale) {
+      return [
+        ...propertyItems.map((item) =>
+          entry(
+            `property-item-${item.id}`,
+            "property",
+            `${item.code} · ${propertyLocalized(item.name, locale)}`,
+            `${propertyLocalized(item.statement, locale)} · ${propertyLocalized(item.dispute, locale)}`,
+            item,
+            78,
+          )),
+        ...propertyClaims().map((claim) =>
+          entry(
+            `property-claim-${claim.id}`,
+            "property",
+            `${claim.id} · ${propertyLocalized(propertyItems.find(({ id }) => id === claim.itemId)?.name, locale)}`,
+            `${claim.claimant} · ${claim.status}`,
+            claim,
+            84,
+          )),
+        ...postDispatches().map((dispatch) =>
+          entry(
+            `post-dispatch-${dispatch.id}`,
+            "post",
+            dispatch.subject,
+            `${dispatch.recipient} · ${dispatch.body}`,
+            dispatch,
+            64,
+          )),
+      ];
+    },
+    community(locale) {
+      return [...propertyCommunityPosts(locale), ...postCommunityPosts(locale)];
+    },
+    communityPriority: 69,
+    changeEvents: ["tu:propertychange", "tu:postchange"],
+  },
+  {
+    id: "calendar",
+    search(locale) {
+      const saved = new Set(academicCalendarBookmarks().map(({ eventId }) => eventId));
+      return academicCalendarEvents.map((event) =>
+        entry(
+          `calendar-event-${event.id}`,
+          "calendar",
+          `${event.code} · ${academicCalendarLocalized(event.title, locale)}`,
+          `${academicCalendarLocalized(event.window, locale)} · ${academicCalendarLocalized(event.premise, locale)}`,
+          event,
+          saved.has(event.id) ? 81 : 73,
+        ));
+    },
+    community: academicCalendarCommunityPosts,
+    communityPriority: 57,
+    changeEvents: ["tu:calendarchange"],
   },
   {
     id: "campus",

@@ -84,6 +84,16 @@ export const localRecordGroups = [
     ),
   },
   {
+    id: "commons",
+    mark: "便",
+    title: l("物權、郵便與學年曆", "物権・郵便・学年暦", "Property, post & calendar"),
+    note: l(
+      "付喪神聽證、鴉天狗通知狀態、寄件卷與紅書籤曆葉。",
+      "付喪神聴聞、鴉天狗通知状態、発送記録、赤い栞の暦葉。",
+      "Tsukumogami hearings, tengu-post state, dispatch files, and red-bookmarked calendar leaves.",
+    ),
+  },
+  {
     id: "preferences",
     mark: "栞",
     title: l("介面書籤", "画面の栞", "Interface bookmarks"),
@@ -179,6 +189,11 @@ export const localRecordRegistry = [
   record("tu:fieldwork:draft", "fieldwork", l("境內實習派遣草稿", "境内実習派遣下書き", "Fieldwork dispatch draft"), { kind: "draft" }),
   record("tu:fieldwork:placements", "fieldwork", l("派遣、外勤與返校卷", "派遣・現地当番・帰校記録", "Dispatch, field duty & return files")),
   record("tu:fieldwork:passport", "fieldwork", l("田野調查護照與場地印", "フィールド調査旅券・現地印", "Field inquiry passport & station seals")),
+
+  record("tu:property:claims", "commons", l("付喪神物權聽證與裁定", "付喪神物権聴聞・裁定", "Tsukumogami property hearings & rulings")),
+  record("tu:post:state", "commons", l("鴉天狗通知已讀、釘選與訂正狀態", "鴉天狗通知の既読・固定・訂正状態", "Tengu-post read, pin & correction state")),
+  record("tu:post:dispatches", "commons", l("校園郵便寄件卷", "学内郵便発送記録", "Campus-post dispatch files")),
+  record("tu:calendar:bookmarks", "commons", l("學年曆紅書籤", "学年暦の赤い栞", "Academic-calendar red bookmarks")),
 
   record("tu:locale", "preferences", l("網站語言", "サイト言語", "Site language"), { kind: "preference", scope: "interface", encoding: "text" }),
   record("tu:audience", "preferences", l("訪客導覽入口", "訪問者向け案内入口", "Audience path"), { kind: "preference", scope: "interface", encoding: "text" }),

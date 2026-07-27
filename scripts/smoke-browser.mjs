@@ -1958,11 +1958,174 @@ try {
   check(/事件研究|結案/.test(myTuLibrary.incidentLink) && myTuLibrary.incidentEvents >= 4 && myTuLibrary.contestedEvent, "Normal and contested incident work is missing from My TU.");
   check(/診療|處方|康復/.test(myTuLibrary.clinicLink) && myTuLibrary.clinicEvents >= 8, "Clinic care and its lifecycle events are missing from My TU.");
 
+  await navigate("commons.html#property-item-umbrella-rain-claim", ".property-file");
+  const propertyFlow = await cdp.evaluate(`(async () => {
+    const form = document.querySelector('[data-property-claim-form="umbrella-rain-claim"]');
+    form.elements.claimant.value = '外界申請生';
+    form.elements.relationship.value = 'holder';
+    form.elements.evidence.value = '我保留十九個晴日的保養記錄、傘柄磨損拓印，以及小傘在雨停後留下的具名目擊。';
+    form.elements.requestedDisposition.value = 'return';
+    form.elements.acceptsObjectVoice.checked = true;
+    form.elements.acceptsConditions.checked = true;
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const opinions = document.querySelectorAll('.property-opinion').length;
+    const hearingHash = location.hash;
+    document.querySelector('[data-property-ruling]')?.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const claims = JSON.parse(localStorage.getItem('tu:property:claims') || '[]');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      opinions,
+      hearingHash,
+      status: claims.at(-1)?.status,
+      ruling: claims.at(-1)?.rulingNumber,
+      printable: Boolean(document.querySelector('[data-property-print]')),
+      propertyEvents: ledger.filter((entry) => entry.type.startsWith('property.')).length
+    };
+  })()`);
+  check(
+    propertyFlow.opinions === 4
+      && propertyFlow.hearingHash.startsWith("#property-claim-")
+      && propertyFlow.status === "resolved"
+      && propertyFlow.ruling
+      && propertyFlow.printable
+      && propertyFlow.propertyEvents === 2,
+    `Property claim did not retain four separate seats and a printable causal ruling (${JSON.stringify(propertyFlow)}).`,
+  );
+
+  await navigate("commons.html#post-inbox", ".post-inbox");
+  const postFlow = await cdp.evaluate(`(async () => {
+    const propertyMessage = [...document.querySelectorAll('[data-post-message]')]
+      .find((node) => node.dataset.postMessage.startsWith('property-'));
+    const seeded = document.querySelector('[data-post-message="admission-before-application"]');
+    seeded?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-post-ack]')?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-post-correction]')?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const state = JSON.parse(localStorage.getItem('tu:post:state') || '{}');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      propertyMessage: Boolean(propertyMessage),
+      hash: location.hash,
+      acknowledged: Boolean(state.messages?.['admission-before-application']?.acknowledgedAt),
+      corrected: Boolean(state.messages?.['admission-before-application']?.correctionRequestedAt),
+      postEvents: ledger.filter((entry) => entry.type.startsWith('post.')).length
+    };
+  })()`);
+  check(
+    postFlow.propertyMessage
+      && postFlow.hash === "#post-message-admission-before-application"
+      && postFlow.acknowledged
+      && postFlow.corrected
+      && postFlow.postEvents >= 2,
+    `Tengu Post did not preserve the property projection, version acknowledgement, and correction request (${JSON.stringify(postFlow)}).`,
+  );
+
+  await navigate("commons.html#post-compose", "[data-post-compose]");
+  const dispatchFlow = await cdp.evaluate(`(async () => {
+    const form = document.querySelector('[data-post-compose]');
+    form.elements.recipient.value = '霧湖圖書館';
+    form.elements.subject.value = '請替會飛的催還信留一格';
+    form.elements.body.value = '本通知公開到校園 BBS，但請勿由妖精在閱覽室朗讀全文。';
+    form.elements.channelId.value = 'tengu-express';
+    form.elements.visibility.value = 'public';
+    form.requestSubmit();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const dispatches = JSON.parse(localStorage.getItem('tu:post:dispatches') || '[]');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      hash: location.hash,
+      public: dispatches.at(-1)?.visibility === 'public',
+      rendered: document.querySelectorAll('[data-post-message^="dispatch-"]').length,
+      dispatched: ledger.some((entry) => entry.type === 'post.notice.dispatched')
+    };
+  })()`);
+  check(
+    dispatchFlow.hash === "#post-records"
+      && dispatchFlow.public
+      && dispatchFlow.rendered >= 1
+      && dispatchFlow.dispatched,
+    `Outgoing Tengu Post did not persist, render, and enter the campus ledger (${JSON.stringify(dispatchFlow)}).`,
+  );
+
+  await navigate("calendar.html#calendar-event-spring-snow-dispute", ".calendar-leaf");
+  const calendarFlow = await cdp.evaluate(`(async () => {
+    document.querySelector('[data-calendar-bookmark="spring-snow-dispute"]')?.click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const bookmarks = JSON.parse(localStorage.getItem('tu:calendar:bookmarks') || '[]');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      hash: location.hash,
+      impacts: document.querySelectorAll('.calendar-impacts dl > div').length,
+      bookmarked: bookmarks.some((entry) => entry.eventId === 'spring-snow-dispute'),
+      savedEvent: ledger.some((entry) => entry.type === 'calendar.event.saved'),
+      download: Boolean(document.querySelector('[data-calendar-download]')),
+      print: Boolean(document.querySelector('[data-calendar-print]')),
+      overflow: document.documentElement.scrollWidth > window.innerWidth
+    };
+  })()`);
+  check(
+    calendarFlow.hash === "#calendar-event-spring-snow-dispute"
+      && calendarFlow.impacts === 4
+      && calendarFlow.bookmarked
+      && calendarFlow.savedEvent
+      && calendarFlow.download
+      && calendarFlow.print
+      && !calendarFlow.overflow,
+    `Academic calendar did not retain a four-domain leaf, bookmark, export controls, and exact deep link (${JSON.stringify(calendarFlow)}).`,
+  );
+  await navigate("commons.html#post-inbox", ".post-inbox");
+  check(
+    await cdp.evaluate("Boolean(document.querySelector('[data-post-message=\"calendar-spring-snow-dispute\"]'))"),
+    "A saved academic-calendar leaf did not arrive in Tengu Post.",
+  );
+
+  await navigate("mytu.html#my-tu-records", "#my-tu");
+  const commonsRecords = await cdp.evaluate(`(() => {
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    return {
+      commons: Number(document.querySelector('a[href="commons.html#property-records"] strong')?.textContent || 0),
+      calendar: Number(document.querySelector('a[href="calendar.html#calendar-agenda"] strong')?.textContent || 0),
+      propertyLedger: ledger.filter((entry) => entry.type.startsWith('property.')).length,
+      postLedger: ledger.filter((entry) => entry.type.startsWith('post.')).length,
+      calendarLedger: ledger.filter((entry) => entry.type.startsWith('calendar.')).length
+    };
+  })()`);
+  check(
+    commonsRecords.commons >= 2
+      && commonsRecords.calendar >= 1
+      && commonsRecords.propertyLedger >= 2
+      && commonsRecords.postLedger >= 3
+      && commonsRecords.calendarLedger >= 1,
+    `My TU did not recover property, post, and calendar records from the shared on-device ledger (${JSON.stringify(commonsRecords)}).`,
+  );
+
+  await navigate("hieda.html#hieda-event-commons-early-letter", "[data-hieda-index-app]");
+  await eventually(() => cdp.evaluate("document.querySelectorAll('.hieda-record').length === 6"));
+  const commonsHieda = await cdp.evaluate(`(() => ({
+    route: location.hash,
+    records: document.querySelectorAll('.hieda-record').length,
+    localEvents: document.querySelectorAll('.hieda-local-ledger li').length,
+    sourceRoutes: [...document.querySelectorAll('.hieda-record footer > a')].map((link) => link.getAttribute('href'))
+  }))()`);
+  check(
+    commonsHieda.route === "#hieda-event-commons-early-letter"
+      && commonsHieda.records === 6
+      && commonsHieda.localEvents >= 6
+      && commonsHieda.sourceRoutes.includes("commons.html#property-item-umbrella-rain-claim")
+      && commonsHieda.sourceRoutes.includes("commons.html#post-message-admission-before-application")
+      && commonsHieda.sourceRoutes.includes("calendar.html#calendar-event-spring-snow-dispute"),
+    `Hieda did not bind the six property/post/calendar records and their local consequences (${JSON.stringify(commonsHieda)}).`,
+  );
+
   await cdp.call("Page.navigate", { url: `${siteUrl}index.html#research-spellcard` });
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -2506,7 +2669,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -2541,6 +2704,8 @@ try {
       expanded: document.querySelector('[data-menu-toggle]').getAttribute('aria-expanded'),
       visible: !document.querySelector('[data-mobile-menu]').hidden,
       links: document.querySelectorAll('[data-mobile-menu] nav a').length,
+      hasCommons: Boolean(document.querySelector('[data-mobile-menu] a[href="commons.html#property-desk"]')),
+      hasCalendar: Boolean(document.querySelector('[data-mobile-menu] a[href="calendar.html#academic-calendar"]')),
       backgroundInert: document.querySelector('main').hasAttribute('inert')
     };
   })()`);
@@ -2549,7 +2714,9 @@ try {
   check(
     mobileMenu.expanded === "true"
       && mobileMenu.visible
-      && mobileMenu.links === 17
+      && mobileMenu.links >= 19
+      && mobileMenu.hasCommons
+      && mobileMenu.hasCalendar
       && mobileMenu.backgroundInert
       && mobileFocus,
     "Mobile navigation did not open completely or move keyboard focus into its modal layer.",

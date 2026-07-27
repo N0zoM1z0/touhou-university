@@ -3,6 +3,7 @@ import {
   campusLunarPhase as liveCampusLunarPhase,
   campusTimeBand as liveCampusTimeBand,
 } from "./campus-time.js";
+import { academicCalendarSnapshot } from "./academic-calendar.js";
 
 export { liveCampusDayKey, liveCampusLunarPhase, liveCampusTimeBand };
 
@@ -132,6 +133,7 @@ export function liveCampusSnapshot(date = new Date()) {
   const ids = [first, second];
   if ((phase === 4 || phase === 0) && !ids.includes("bambooMist")) ids[1] = "bambooMist";
   if ((band === "evening" || band === "night") && !ids.includes("nightSparrow")) ids[1] = "nightSparrow";
+  const calendar = academicCalendarSnapshot(date);
   const activeEvents = [...new Set(ids)].map((id) => ({ id, ...liveCampusEvents[id] }));
   const routeRules = {
     closedModes: [],
@@ -151,6 +153,18 @@ export function liveCampusSnapshot(date = new Date()) {
       routeRules.edgeDelay[id] = (routeRules.edgeDelay[id] || 0) + value;
     });
   });
+  routeRules.closedModes.push(...calendar.routeRules.closedModes);
+  routeRules.closedEdges.push(...calendar.routeRules.closedEdges);
+  routeRules.closedTransitNodes.push(...calendar.routeRules.closedTransitNodes);
+  Object.entries(calendar.routeRules.modeDelay).forEach(([id, value]) => {
+    routeRules.modeDelay[id] = (routeRules.modeDelay[id] || 0) + value;
+  });
+  Object.entries(calendar.routeRules.edgeDelay).forEach(([id, value]) => {
+    routeRules.edgeDelay[id] = (routeRules.edgeDelay[id] || 0) + value;
+  });
+  routeRules.closedModes = [...new Set(routeRules.closedModes)];
+  routeRules.closedEdges = [...new Set(routeRules.closedEdges)];
+  routeRules.closedTransitNodes = [...new Set(routeRules.closedTransitNodes)];
   return {
     dayKey: liveCampusDayKey(date),
     day,
@@ -158,6 +172,7 @@ export function liveCampusSnapshot(date = new Date()) {
     seed,
     band,
     phase,
+    calendar,
     academicDay: ((day % 5) + 5) % 5,
     activeEvents,
     routeRules,
@@ -193,7 +208,10 @@ export function liveFacilityStatus(placeId, locale = "zh-Hant", date = new Date(
   const profile = facilityProfiles[placeId];
   if (!profile) return null;
   const state = liveCampusSnapshot(date);
-  const hasEvent = (id) => state.activeEvents.some((event) => event.id === id);
+  const hasEvent = (id) => (
+    state.activeEvents.some((event) => event.id === id)
+    || state.calendar.activeEvents.some((event) => event.id === id)
+  );
   let { start, end, capacity } = profile;
   let note = l("依校鐘正常開放", "校鐘どおり通常開館", "Operating by the ordinary bell schedule");
 
@@ -218,6 +236,23 @@ export function liveFacilityStatus(placeId, locale = "zh-Hant", date = new Date(
     end = 17 * 60;
     capacity -= 10;
     note = l("直達線維修，半數工作台拿去壓膠帶", "直通線修理、作業台半数はテープの重し", "Direct link repair; half the benches are holding tape down");
+  }
+  if (placeId === "library" && hasEvent("rainy-paper-revision")) {
+    capacity -= 8;
+    note = l("八席改為濕書隔離與壓紙石借閱桌", "八席を濡れ本隔離・文鎮石貸出机へ", "Eight seats serve wet-book quarantine and paperweight loans");
+  }
+  if (placeId === "library" && hasEvent("maple-archive-month")) {
+    capacity -= 6;
+    note = l("六席改作落葉版本比較桌", "六席を落葉版比較机へ", "Six seats are fallen-leaf version comparison desks");
+  }
+  if (placeId === "library" && hasEvent("full-moon-special")) {
+    capacity -= 10;
+    note = l("滿月可見館藏已開架，普通閱覽減十席", "満月可視資料を開架、一般閲覧十席減", "Full-moon holdings are open; ten general seats are reassigned");
+  }
+  if (placeId === "magic" && hasEvent("winter-seal-week")) {
+    capacity -= 5;
+    end = Math.min(end, 20 * 60);
+    note = l("冬季封印盤點，實驗塔提前降載", "冬季封印棚卸のため実験塔を早期減載", "The laboratory reduces load early for winter seal inventory");
   }
 
   const minute = date.getHours() * 60 + date.getMinutes();
@@ -264,7 +299,14 @@ const mapNoticePool = [
 
 export function liveMapNotice(locale = "zh-Hant", date = new Date()) {
   const state = liveCampusSnapshot(date);
-  const event = state.activeEvents[(state.seed >>> 4) % state.activeEvents.length];
+  const events = [
+    ...state.activeEvents,
+    ...state.calendar.activeEvents.map((event) => ({
+      ...event,
+      rule: event.impacts.transport,
+    })),
+  ];
+  const event = events[(state.seed >>> 4) % events.length];
   const useEvent = (state.seed & 1) === 0;
   return {
     label: l("今日木板", "本日の木札", "TODAY'S WOODEN NOTICE")[locale],
@@ -290,7 +332,11 @@ const menuPool = [
 
 export function liveDiningMenu(locale, date = new Date()) {
   const state = liveCampusSnapshot(date);
-  const mandatory = state.band === "evening" || state.band === "night" ? "sparrow" : "hakurei";
+  const mandatory = state.band === "evening"
+    || state.band === "night"
+    || state.calendar.activeEvents.some((event) => event.id === "night-sparrow-term")
+    ? "sparrow"
+    : "hakurei";
   const rotated = menuPool
     .filter(([id]) => id !== mandatory)
     .sort((a, b) => hashValue(`${state.dayKey}:${a[0]}`) - hashValue(`${state.dayKey}:${b[0]}`))
@@ -319,6 +365,10 @@ const timetablePool = [
 
 export function liveTimetable(locale, date = new Date()) {
   const state = liveCampusSnapshot(date);
+  const hasEvent = (id) => (
+    state.activeEvents.some((event) => event.id === id)
+    || state.calendar.activeEvents.some((event) => event.id === id)
+  );
   const ordered = timetablePool
     .slice(state.academicDay * 2)
     .concat(timetablePool.slice(0, state.academicDay * 2))
@@ -326,17 +376,26 @@ export function liveTimetable(locale, date = new Date()) {
   return ordered
     .sort((a, b) => a[0].localeCompare(b[0]))
     .map(([time, course, room, teacher]) => {
+      let dynamicTime = time;
       let dynamicRoom = room;
       let note = l("照常", "通常", "As scheduled")[locale];
-      if (state.activeEvents.some((event) => event.id === "danmakuPractical") && room.startsWith("BH-")) {
+      if (hasEvent("danmakuPractical") && room.startsWith("BH-")) {
         dynamicRoom = "HH-201";
         note = l("因補考彈幕移至稗田館", "追試弾幕のため稗田館へ", "Moved to Hieda during make-up danmaku")[locale];
       }
-      if (state.activeEvents.some((event) => event.id === "kappaTape") && room.startsWith("KW-")) {
+      if (hasEvent("kappaTape") && room.startsWith("KW-")) {
         dynamicRoom = "KW-YARD";
         note = l("工房直達線封閉，改在前院", "工房直通閉鎖・前庭へ", "Workshop link closed; meet in yard")[locale];
       }
-      return [time, course[locale], dynamicRoom, teacher[locale], note];
+      if (hasEvent("night-sparrow-term")) {
+        const [hours, minutes] = time.split(":").map(Number);
+        dynamicTime = `${String((hours + 4) % 24).padStart(2, "0")}:${String(minutes).padStart(2, "0")}`;
+        note = l("夏夜學期後移兩校鐘，依提燈點名", "夏夜学期で二校鐘後送、提灯点呼", "Shifted two bells for summer night term; lantern attendance")[locale];
+      }
+      if (hasEvent("winter-placement-return") && time < "10:30") {
+        note = l("第一校鐘改作田野返校回報", "第一校鐘はフィールド帰校報告", "First bell is fieldwork return reporting")[locale];
+      }
+      return [dynamicTime, course[locale], dynamicRoom, teacher[locale], note];
     });
 }
 

@@ -1,6 +1,6 @@
 # Source Register and Rights Review
 
-Last checked: 2026-07-24
+Last checked: 2026-07-27
 
 ## 1. Rights and fan-work presentation
 
@@ -80,6 +80,10 @@ Reviewed for this release:
 - Yukari Yakumo
 - Keine Kamishirasawa
 - Hieda no Akyuu
+- Kogasa Tatara
+- Rinnosuke Morichika
+- Eiki Shiki, Yamaxanadu
+- Mystia Lorelei
 - Patchouli Knowledge
 - Alice Margatroid
 - Eirin Yagokoro

@@ -42,6 +42,9 @@ The research follows the method already established in
   ability/object disputes, non-averaged rulings and protocol lifecycle.
 - `fieldwork-passport-notes.md` — 24 station dossiers, character frictions,
   dispatch/complication/return lifecycle, provenance and passport seals.
+- `commons-post-calendar-notes.md` — four-seat tsukumogami property hearings,
+  versioned crow-tengu post, non-linear delivery and the date/moon/season
+  calendar projection shared by facilities, routes, My TU, BBS and Hieda.
 
 ## Internal editorial labels
 

@@ -80,6 +80,8 @@ if (!redirected) {
     initialize("[data-ethics-app]", "./ethics.js", "initEthics"),
     initialize("[data-festival-app]", "./festival.js", "initFestival"),
     initialize("[data-fieldwork-app]", "./fieldwork.js", "initFieldwork"),
+    initialize("[data-commons-app]", "./commons.js", "initCommons"),
+    initialize("[data-academic-calendar-app]", "./academic-calendar.js", "initAcademicCalendar"),
     initialize("#bbs", "./bbs.js", "initBbs"),
     initialize("[data-campus-feature]", "./campus.js", "initCampusInteractions"),
     initialize("[data-news-track]", "./news.js", "initNews"),

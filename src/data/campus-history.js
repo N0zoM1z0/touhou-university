@@ -743,10 +743,9 @@ export const campusHistory = [
   {
     id: "twenty-four-seals-return-with-red-thread",
     archiveId: "TU-H-031",
-    commit: null,
+    commit: "4aa3492f076a0d63356401eda707f17bf4ed700a",
     commitSubject: "Add Gensokyo fieldwork passport system",
     recordedAt: "2026-07-26",
-    planned: true,
     category: "academics",
     era: l("同日・第二十四枚場地印尚未乾", "同日・二十四番目の現地印が乾く前", "Same day · Before the twenty-fourth field seal dries"),
     title: l(
@@ -763,6 +762,31 @@ export const campusHistory = [
       "咲夜在紅魔館派遣令上把八小時值勤改成零分鐘，慧音又在旁邊補回八小時學分；妖夢問半靈要不要另發一本護照，幽幽子建議先各蓋半枚印。霖之助替護照鑑定出『外界摺頁集章冊』的用途並標價，靈夢立即在封面加蓋『不得抵香油錢』。阿求最後用紅線註明：返校印只證明你把問題帶回來，不證明問題變乖了。",
       "咲夜は紅魔館派遣令の八時間当番を0分へ直し、慧音が横に八時間分の単位を戻した。妖夢は半霊へ別旅券が必要か尋ね、幽々子はまず半印ずつ押すよう提案。霖之助は旅券を「外界の折頁スタンプ帳」と鑑定して値札を付け、霊夢は表紙へ「賽銭に充当不可」と押印。阿求の赤糸注記は一つ。帰校印は問題を持ち帰った証明であり、問題がおとなしくなった証明ではない。",
       "Sakuya changes an eight-hour Scarlet dispatch to zero minutes; Keine restores eight hours of credit beside it. Youmu asks whether her phantom half needs another passport, and Yuyuko proposes half a seal in each. Rinnosuke appraises the passport as an Outside World folding stamp album and prices it; Reimu stamps “not valid toward donations” on the cover. Akyuu's red-thread note says only this: a return seal proves the problem came home, not that it became obedient.",
+    ),
+  },
+  {
+    id: "lost-things-appeal-mail-arrives-before-spring",
+    archiveId: "TU-H-032",
+    commit: null,
+    commitSubject: "Add Gensokyo property post and calendar systems",
+    recordedAt: "2026-07-27",
+    planned: true,
+    category: "campus",
+    era: l("翌日・春天的簽收欄仍是空白", "翌日・春の受領欄はまだ空白", "Next day · Spring's receipt box remains empty"),
+    title: l(
+      "失物取得一張椅子、郵件保留每一版，學年曆開始真的改動校園",
+      "遺失物に席が与えられ、郵便は全版を残し、学年暦が本当に学内を変え始める",
+      "Lost things gain a chair, post keeps every version, and the calendar begins changing campus",
+    ),
+    summary: l(
+      "校園公共服務館把十件不肯安靜待在失物箱裡的物件送上案卷架：辭職的懷錶、晴天報失的傘、被書弄丟的書籤、主張加班的扳手、兩份半靈名冊共同認領的髮帶、目的地為昨日的月兔車票、要求勞動關係的鼓棒、保持用途沉默的鑰匙、三方共用卻無人洗的茶杯，以及兩件共享序號的左耳耳機。領回人需留下來源、磨損與照護理由；小傘、霖之助、阿求與映姬分別審查冷落、名稱用途、版本來源與返還責任，意見不得平均。裁定會成為本機卷宗並生成郵件。鴉天狗通知中心把種子通知、物權聽證、曆葉提醒與本機寄件放進同一收件箱，每封信保留來源、可信度、版次、送達順序、訂正、已讀、釘選、簽收與朗讀後果。幻想鄉學年曆則排列十二組年度事件、滿月特講與朔月境界盤點，依實際日期、時段與月相投影到路網、館舍空位、課表、食堂與校醫負載；紅書籤可保存、列印或匯出 iCalendar，卻不能阻止白玉樓拒收春天。",
+      "学内公共サービス館は、遺失物箱で静かに待たない十物件を記録棚へ載せた。退職した懐中時計、晴天に紛失届を出す傘、本に紛失された栞、残業を主張するレンチ、二つの半霊名簿に請求された髪紐、行先が昨日の月兎券、労働関係を求める撥、用途を黙秘する鍵、三者共有だが誰も洗わない茶碗、同一番号の左耳二点である。受取申請には来歴・摩耗・手入れ理由が必要。小傘、霖之助、阿求、映姫が放置、名称用途、版来歴、返還責任を別々に審査し、平均しない。裁定は端末内記録となり郵便を生成する。鴉天狗通知センターは種通知、物権聴聞、暦葉提醒、端末発送を一つの受信箱へ入れ、資料源、信頼度、版、配達順、訂正、既読、固定、受領、朗読結果を保存。幻想郷学年暦は十二組の年中行事、満月特講、新月境界棚卸を実日付・時帯・月相から経路、施設空席、時間割、食堂、校医負荷へ投影する。赤い栞は保存・印刷・iCalendar 出力できるが、白玉楼による春の受領拒否は止められない。",
+      "Campus Commons places ten objects that refuse to wait quietly in Lost Property on the file rack: a resigned watch, fair-weather lost umbrella, bookmark lost by its book, overtime wrench, ribbon claimed by two phantom rolls, yesterday-bound rabbit ticket, labour-seeking beater, purpose-silent key, shared unwashed teacup, and two left earbuds sharing a serial. Claims require provenance, wear, and care. Kogasa, Rinnosuke, Akyuu, and Eiki separately review neglect, name and use, version provenance, and return responsibility; opinions are not averaged. Rulings persist locally and generate post. Tengu Post combines seeded notices, hearings, calendar reminders, and local dispatches in one inbox, retaining source, trust, version, delivery order, correction, read, pin, acknowledgement, and read-aloud consequences. The Gensokyo Academic Calendar arranges twelve annual sequences plus full-moon classes and new-moon boundary audits, projecting real date, time band, and moon into routes, facility seats, timetables, dining, and clinic load. Red bookmarks can save, print, and export iCalendar leaves, but cannot stop Hakugyokurou refusing spring.",
+    ),
+    marginalia: l(
+      "小傘先替紙傘留了一張椅子，靈夢問那張椅子是否也能收保管費。文在聽證開始前九分鐘寄出『裁定一致通過』，阿求在信封背面補上四席其實有四種不同意見；映姬沒有撤回裁定，只把號外列入下一輪證物。慧音把同一封信夾進學年曆，才發現日期落在春季開學與白玉樓積雪異議重疊的那一週。紫最後把『已送達』和『已發生』之間畫成境界，鴉天狗從境界上方把訂正版又送了一次。",
+      "小傘は紙傘の席を先に確保し、霊夢は椅子にも保管料を請求できるか尋ねた。文は聴聞九分前に「全会一致裁定」を配達。阿求は封筒裏へ四席が四通り異なると追記。映姫は裁定を撤回せず、号外を次の証物へ追加した。慧音が同じ手紙を学年暦へ挟むと、日付は春学期開始と白玉楼積雪異議が重なる週だった。紫は「配達済み」と「発生済み」の間を境界にし、鴉天狗はその上から訂正版をもう一度届けた。",
+      "Kogasa first saves the umbrella a chair; Reimu asks whether the chair owes storage fees. Aya delivers “unanimous ruling” nine minutes before hearing, and Akyuu writes on the envelope that four seats hold four different opinions. Eiki does not withdraw the ruling; she adds the extra to next round's evidence. When Keine files the same letter in the calendar, its date lies in the week spring opening overlaps Hakugyokurou's snow objection. Yukari draws a boundary between “delivered” and “happened”; a crow tengu delivers the correction again above it.",
     ),
   },
 ];

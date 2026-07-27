@@ -293,6 +293,37 @@ const contracts = [
     causedBy: ["ethics.review.completed"],
     references: related(["ethics-case", "caseId"]),
   }),
+  define("property.claim.submitted", l("提交付喪神物權申請", "付喪神物権申請を提出", "Submitted a tsukumogami property claim"), {
+    subject: by("property-claim", "claimId"), required: ["claimId", "itemId", "requestedDisposition"],
+    correlation: (payload) => `property-claim:${payload?.claimId || ""}`,
+    references: related(["property-item", "itemId"], ["property-disposition", "requestedDisposition"]),
+  }),
+  define("property.ruling.issued", l("封存付喪神物權裁定", "付喪神物権裁定を保存", "Filed a tsukumogami property ruling"), {
+    subject: by("property-claim", "claimId"), required: ["claimId", "itemId", "disposition", "rulingNumber"],
+    correlation: (payload) => `property-claim:${payload?.claimId || ""}`,
+    causedBy: ["property.claim.submitted"],
+    references: related(["property-item", "itemId"], ["property-disposition", "disposition"]),
+  }),
+  define("post.message.acknowledged", l("簽收鴉天狗通知版次", "鴉天狗通知の版を受領", "Acknowledged a tengu-post version"), {
+    subject: by("post-message", "messageId"), required: ["messageId", "version"],
+    references: related(["post-version", "version"]),
+  }),
+  define("post.correction.requested", l("要求鴉天狗寄送訂正版", "鴉天狗へ訂正版を要求", "Requested a corrected tengu-post copy"), {
+    subject: by("post-message", "messageId"), required: ["messageId"],
+  }),
+  define("post.notice.dispatched", l("寄發校園通知", "学内通知を発送", "Dispatched a campus notice"), {
+    subject: by("post-dispatch", "dispatchId"), required: ["dispatchId", "channelId", "visibility"],
+    references: related(["post-channel", "channelId"]),
+  }),
+  define("calendar.event.saved", l("夾入一張學年曆葉", "学年暦葉へ栞を追加", "Saved an academic-calendar leaf"), {
+    subject: by("calendar-event", "eventId"), required: ["eventId"],
+    correlation: (payload) => `calendar-event:${payload?.eventId || ""}`,
+  }),
+  define("calendar.event.removed", l("取下一張學年曆葉", "学年暦葉の栞を解除", "Removed an academic-calendar leaf"), {
+    subject: by("calendar-event", "eventId"), required: ["eventId"],
+    correlation: (payload) => `calendar-event:${payload?.eventId || ""}`,
+    causedBy: ["calendar.event.saved"],
+  }),
   define("fieldwork.application.submitted", l("提交境內實習派遣令", "境内実習派遣令を提出", "Submitted a fieldwork dispatch order"), {
     subject: by("fieldwork-placement", "placementId"), required: ["placementId", "stationId", "outcome"],
     correlation: (payload) => `fieldwork-placement:${payload?.placementId || ""}`,

@@ -20,6 +20,9 @@ import {
   festivalRoutes,
 } from "./festival.js";
 import { fieldworkComplications, fieldworkStations } from "./fieldwork.js";
+import { propertyItems } from "./property.js";
+import { postSeedMessages } from "./post.js";
+import { academicCalendarEvents } from "./academic-calendar.js";
 
 const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
@@ -545,6 +548,48 @@ export const knowledgeDossiers = Object.freeze([
       record("fieldwork-history", "archive", "history", "twenty-four-seals-return-with-red-thread", ["akyuu", "keine", "sakuya", "youmu"], l("校史只把派遣、偏差、來源與返校印串成前因；它沒有把蓋章改寫成現場同意你的結論。", "大学史は派遣・偏差・資料源・帰校印を前因で結ぶだけで、押印を現地による結論同意へ書き換えない。", "The chronicle links dispatch, complication, provenance, and return seal by cause; it does not rewrite stamping as the field agreeing with your conclusion.")),
     ],
   },
+  {
+    id: "commons-early-letter",
+    glyph: "便",
+    code: "HIEDA / 11",
+    title: l(
+      "一把傘拒絕回家、一封裁定提早抵達，而春天仍未簽收",
+      "傘は帰宅を拒み、裁定は早着し、春はまだ未受領",
+      "An umbrella refuses home, a ruling arrives early, and spring remains unsigned",
+    ),
+    lead: l(
+      "同一件事在物件陳述、領回單、四席裁定、鴉天狗版次、木板訂正與學年曆上留下六種時間；阿求拒絕替它們選一個最方便的。",
+      "同じ事柄が物件陳述、受取票、四席裁定、鴉天狗版、木札訂正、学年暦へ六つの時刻を残す。阿求は都合のよい一つを選ばない。",
+      "One matter leaves six times across object testimony, collection form, four-seat ruling, tengu version, wooden correction, and calendar. Akyuu refuses to choose the convenient one.",
+    ),
+    tension: l(
+      "小傘問物件是否被冷落，霖之助問磨損是否支持名稱，映姬問誰能保管與申訴；文只問標題能否在聽證前九分鐘刊出。慧音最後發現，郵件日期正落在白玉樓拒絕承認的春季。",
+      "小傘は放置、霖之助は名称と摩耗、映姫は保管と不服申立を問う。文だけは聴聞九分前に見出しを出せるか尋ねる。慧音は郵便日が白玉楼の拒む春にあると気づく。",
+      "Kogasa asks about neglect, Rinnosuke about name and wear, Eiki about custody and appeal; Aya asks only whether the headline can run nine minutes before hearing. Keine finds the post dated in the spring Hakugyokurou rejects.",
+    ),
+    characters: ["kogasa", "rinnosuke", "akyuu", "eiki", "aya", "keine", "yukari"],
+    versions: ["lost-things-appeal-mail-arrives-before-spring", "twenty-four-seals-return-with-red-thread", "five-records-share-one-red-thread"],
+    eventQueries: [{
+      types: [
+        "property.claim.submitted",
+        "property.ruling.issued",
+        "post.message.acknowledged",
+        "post.correction.requested",
+        "post.notice.dispatched",
+        "calendar.event.saved",
+        "calendar.event.removed",
+      ],
+      refs: [],
+    }],
+    records: [
+      record("sunny-umbrella", "object", "property-item", "umbrella-rain-claim", ["kogasa", "rinnosuke", "akyuu", "eiki"], l("傘的收據證明購買，十九個晴日證明冷落；兩份證據都是真的，卻要求不同去向。", "領収書は購入を、晴天十九日は放置を証明。両方とも真だが異なる行先を求める。", "The receipt proves purchase and nineteen sunny days prove neglect. Both are true and ask for different destinations.")),
+      record("early-admission", "report", "post-message", "admission-before-application", ["aya", "akyuu"], l("錄取信早於申請抵達；第二版把『有條件』從信封背面移回標題，第一版仍留在訂正欄。", "合格通知は願書より早着。第二版は「条件付」を封筒裏から件名へ戻し、第一版は訂正欄へ残る。", "The offer precedes the application. Version two restores “conditional” from the back; version one remains in Corrections.")),
+      record("spring-not-received", "correction", "calendar-event", "spring-snow-dispute", ["keine", "yukari"], l("校務曆宣布春季開始，白玉樓仍以積雪拒收；課表因此同時保留冬季與春季版。", "学務暦は春開始を宣言、白玉楼は積雪で受領拒否。時間割は冬版・春版を併存。", "The calendar declares spring; Hakugyokurou refuses delivery for snow, leaving winter and spring timetables together.")),
+      record("full-moon-mail", "evidence", "calendar-event", "full-moon-special", ["keine", "aya"], l("滿月特講依月亮越過竹梢生效；文文。號外的發刊時間不能代替月亮抵達。", "満月特講は月が竹梢を越えて発効。文々。号外の発行時刻は月の到着を代替しない。", "The full-moon class activates when the moon clears bamboo; Bunbunmaru publication time cannot substitute for lunar arrival.")),
+      record("same-serial-ear", "object", "property-item", "outside-earbud", ["rinnosuke", "akyuu", "aya"], l("兩件左耳耳機共享序號並各自收信；仲裁處把序號本身列為失物，郵便處仍想把兩件都當收件箱。", "同一番号の左耳二点が各自受信。仲裁所は番号自体を遺失物へ、郵便は両方を受信箱にしたい。", "Two left earbuds share a serial and receive separately. Property lists the serial as lost while Post wants both as inboxes.")),
+      record("commons-history", "archive", "history", "lost-things-appeal-mail-arrives-before-spring", ["akyuu", "kogasa", "aya", "keine"], l("校史把物件、郵便與學年曆接上同一條紅線，卻沒有把送達順序改寫成因果順序。", "大学史は物件・郵便・学年暦を一本の赤糸へ結ぶが、配達順を因果順へ書き換えない。", "The chronicle ties object, post, and calendar with one red thread without rewriting delivery order as causal order.")),
+    ],
+  },
 ]);
 
 const sourceCollections = {
@@ -567,6 +612,9 @@ const sourceCollections = {
   "festival-incident": festivalIncidentPool,
   "fieldwork-station": fieldworkStations,
   "fieldwork-complication": fieldworkComplications,
+  "property-item": propertyItems,
+  "post-message": postSeedMessages,
+  "calendar-event": academicCalendarEvents,
 };
 
 const localized = (value, locale) => value?.[locale] || value?.["zh-Hant"] || value || "";
@@ -595,6 +643,9 @@ function routeForSource(source) {
     "festival-incident": "festival-operations",
     "fieldwork-station": `fieldwork-station-${source.id}`,
     "fieldwork-complication": "fieldwork-stations",
+    "property-item": `property-item-${source.id}`,
+    "post-message": `post-message-${source.id}`,
+    "calendar-event": `calendar-event-${source.id}`,
   };
   return routes[source.type] || "top";
 }
@@ -704,6 +755,18 @@ export function resolveKnowledgeRecord(recordEntry, locale = "zh-Hant") {
     case "fieldwork-complication":
       title = localized(source.title, locale);
       detail = localized(source.detail, locale);
+      break;
+    case "property-item":
+      title = localized(source.name, locale);
+      detail = `${source.code} · ${localized(source.statement, locale)}`;
+      break;
+    case "post-message":
+      title = localized(source.subject, locale);
+      detail = `${localized(source.source, locale)} · v${source.version}`;
+      break;
+    case "calendar-event":
+      title = localized(source.title, locale);
+      detail = `${source.code} · ${localized(source.window, locale)}`;
       break;
     default:
       return null;

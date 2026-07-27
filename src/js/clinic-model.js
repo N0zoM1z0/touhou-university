@@ -131,7 +131,7 @@ function operationalLoad(now = new Date()) {
   const state = liveCampusSnapshot(now);
   const festival = festivalClinicPressure();
   const lunarLoad = [3, 4, 5].includes(state.phase) ? 7 : 0;
-  const eventLoad = state.activeEvents.reduce((total, event) => {
+  const eventLoad = [...state.activeEvents, ...state.calendar.activeEvents].reduce((total, event) => {
     if (event.route?.closedEdges?.some((edge) => edge.includes("clinic"))) return total + 6;
     if (event.route?.delays?.clinic) return total + Number(event.route.delays.clinic);
     return total + (event.severity === "high" ? 3 : 1);

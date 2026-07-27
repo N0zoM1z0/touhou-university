@@ -13,10 +13,11 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
-- fifteen ordinary generated, shareable pages for the home portal, academics,
-  admissions, research, research ethics, festival operations, fieldwork, campus
-  incidents, campus life, My TU, the Misty Lake Library, housing, campus
-  healthcare, the on-device records cabinet and the Hieda cross-campus index,
+- seventeen ordinary generated, shareable pages for the home portal, academics,
+  admissions, research, research ethics, festival operations, fieldwork, the
+  campus commons, academic calendar, campus incidents, campus life, My TU, the
+  Misty Lake Library, housing, campus healthcare, the on-device records cabinet
+  and the Hieda cross-campus index,
   with legacy one-page hashes
   redirected to their new canonical locations;
 - one deliberately unlisted PHANTASM page that opens only after six different
@@ -33,7 +34,7 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   lifecycle ledger, joint faculty application reviews and printable decision
   letters;
 - a unified on-device records cabinet that discovers every `tu:` local or
-  session file, catalogues 59 known keys across university shelves, shows exact
+  session file, catalogues 63 known keys across university shelves, shows exact
   UTF-8 usage and browser-origin visibility, opens raw contents, exports a
   SHA-256-sealed JSON box, validates imports before writing, preserves or
   explicitly overwrites name collisions, and destroys one file, one shelf or
@@ -82,6 +83,17 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   and choose research-data scope. First visits and repeats remain separate in
   a printable on-device passport, while the five-step causal trail projects
   into My TU, maps, search, BBS, the records cabinet and Hieda dossier 10;
+- a Tsukumogami Lost Property & Property Rights Tribunal with ten object-led
+  disputes, persistent claims, printable rulings and four genuinely separate
+  seats for Kogasa's neglect/object voice, Rinnosuke's material appraisal,
+  Akyuu's provenance and Eiki's custody/appeal. No ownership score or majority
+  erases a seat;
+- a versioned Crow-Tengu Campus Post where eight seeded notices, property
+  summons, calendar reminders and visitor dispatches may arrive out of order
+  while retaining source, trust, read/aloud state, acknowledgement and
+  correction history; plus a fourteen-event Gensokyo academic calendar whose
+  date, five seasons, moon and duty bell alter courses, routes, facilities,
+  dining and clinic load, with red bookmarks, print and portable iCalendar;
 - campus-visit reservations with autosaved drafts, visitor references and a
   device-local “My Campus Visits” archive;
 - a real Misty Lake Library catalogue with 19 trilingual holdings, search and
@@ -128,7 +140,7 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   a trilingual in-universe history record, correction note and real version
   source, while mechanical merge commits separately expose their second-parent
   functional change without confusing the two SHAs;
-- a separate Hieda campus knowledge graph with ten cross-files and 68 source
+- a separate Hieda campus knowledge graph with eleven cross-files and 74 source
   leaves that can be inverted by event, 23 characters, or first-parent
   version/time; every leaf resolves back to existing incident, evidence,
   governance, BBS, course, research, library, appraisal, housing or chronicle
@@ -165,7 +177,7 @@ src/
   sections/   page partials, one institutional section per file
   styles/     base and feature-specific stylesheets
 scripts/      build, preview, validation, scaffolding and asset helpers
-*.html        sixteen generated GitHub Pages artifacts; one is deliberately hidden
+*.html        eighteen generated GitHub Pages artifacts; one is deliberately hidden
 styles.css    generated shared CSS artifact
 styles-*.css  generated per-page CSS artifacts
 site.config.mjs
@@ -180,14 +192,15 @@ modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate sixteen pages and shared/per-page CSS bundles
+npm run build               # generate eighteen pages and shared/per-page CSS bundles
 npm run check               # build + all source, data, relationship and history contracts
 npm run check:i18n          # stable/legacy keys, collisions, titles and interpolation parity
-npm run check:contracts     # 59 event types, producer coverage and causal lifecycle fixtures
+npm run check:contracts     # 66 event types, producer coverage and causal lifecycle fixtures
 npm run check:knowledge     # Hieda sources, five-form dossiers, characters, routes and versions
 npm run check:ethics        # five cases/seats, non-averaged rulings, routes, records and events
 npm run check:festival      # six desks, field cases, routing/clinic overlays and closure
 npm run check:fieldwork     # 24 stations, dispatch, complications, returns and repeat seals
+npm run check:commons       # object hearings, tengu post, seasons, moon and live projections
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references
@@ -280,6 +293,17 @@ Set a different preview port with `PORT=4180 npm run dev`.
   `tu:fieldwork:passport`. Preserve `#fieldwork-stations`,
   `#fieldwork-dispatch`, `#fieldwork-passport`, `#fieldwork-records`,
   `#fieldwork-station-<id>` and `#fieldwork-placement-<id>` as exact routes.
+- Keep property objects and four hearing jurisdictions in
+  `src/data/property.js`, seeded/versioned notices in `src/data/post.js`, and
+  seasons plus annual/lunar events in `src/data/academic-calendar.js`.
+  Persistence and projections belong in the three matching `*-model.js`
+  modules; `src/js/commons.js` and `src/js/academic-calendar.js` own the
+  focused interfaces. Never average the four property seats or treat delivery
+  order as causation. Preserve `tu:property:claims`, `tu:post:state`,
+  `tu:post:dispatches` and `tu:calendar:bookmarks`, their seven official event
+  types, and exact `#property-*`, `#post-*` and `#calendar-*` route families.
+  Keep calendar events as a separate live snapshot layer while merging their
+  facility and route effects into consumers.
 - Keep PHANTASM seals, courses, map nodes and examiners in
   `src/data/phantasm.js`; official-record eligibility and isolated dream
   persistence belong in `src/js/phantasm-model.js`; ordinary-site whispers use
