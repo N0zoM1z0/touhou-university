@@ -16,6 +16,7 @@ import { festivalKinds, festivalLocalized, festivalRoutes } from "../data/festiv
 import { fieldworkLocalized, fieldworkStations } from "../data/fieldwork.js";
 import { propertyItems, propertyLocalized } from "../data/property.js";
 import { academicCalendarEvents, academicCalendarLocalized } from "../data/academic-calendar.js";
+import { alumniChapters, careerOpenings, careersLocalized } from "../data/careers.js";
 import { phantasmCourses } from "../data/phantasm.js";
 import {
   dossiersForCharacter,
@@ -40,6 +41,13 @@ import { fieldworkCommunityPosts, fieldworkPlacements } from "./fieldwork-model.
 import { propertyClaims, propertyCommunityPosts } from "./property-model.js";
 import { postCommunityPosts, postDispatches } from "./post-model.js";
 import { academicCalendarBookmarks, academicCalendarCommunityPosts } from "./academic-calendar-model.js";
+import {
+  alumniProfile,
+  careerPlans,
+  careersCommunityPosts,
+  graduationAudits,
+  graduationDegrees,
+} from "./careers-model.js";
 import { phantasmCommunityPosts } from "./phantasm-model.js";
 import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
 
@@ -244,6 +252,42 @@ const domainManifests = [
     community: academicCalendarCommunityPosts,
     communityPriority: 57,
     changeEvents: ["tu:calendarchange"],
+  },
+  {
+    id: "careers",
+    search(locale) {
+      const profile = alumniProfile();
+      return [
+        ...careerOpenings.map((opening) =>
+          entry(
+            `career-opening-${opening.id}`,
+            "career",
+            `${opening.code} · ${careersLocalized(opening.title, locale)}`,
+            `${careersLocalized(opening.institution, locale)} · ${careersLocalized(opening.friction, locale)}`,
+            opening,
+            78,
+          )),
+        ...alumniChapters.map((chapter) =>
+          entry(
+            `alumni-chapter-${chapter.id}`,
+            "alumni",
+            careersLocalized(chapter.name, locale),
+            `${careersLocalized(chapter.steward, locale)} · ${careersLocalized(chapter.unresolved, locale)}`,
+            chapter,
+            69,
+          )),
+        ...graduationAudits().map((audit) =>
+          entry(`graduation-audit-${audit.id}`, "graduation", audit.id, `${audit.schoolId} · ${audit.outcome}`, audit, 85)),
+        ...graduationDegrees().map((degree) =>
+          entry(`graduation-degree-${degree.id}`, "graduation", degree.degreeNumber, degree.unresolvedQuestion, degree, 87)),
+        ...careerPlans().map((plan) =>
+          entry(`career-plan-${plan.id}`, "career", plan.id, plan.profile.question, plan, 83)),
+        ...(profile ? [entry(`alumni-chapter-${profile.chapterId}`, "alumni", profile.displayName, profile.unresolvedQuestion, profile, 84)] : []),
+      ];
+    },
+    community: careersCommunityPosts,
+    communityPriority: 71,
+    changeEvents: ["tu:careerschange"],
   },
   {
     id: "campus",

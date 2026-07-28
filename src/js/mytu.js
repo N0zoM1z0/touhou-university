@@ -61,6 +61,7 @@ const copy = {
     fieldwork: "田野護照／場地印",
     commons: "物權聽證／校園郵便",
     calendar: "學年曆紅書籤",
+    careers: "卒業／進路／校友",
     recordsMode: "學籍首頁",
     courseMode: "選課與成績",
     academicMode: "作業、考試與答辯",
@@ -177,6 +178,7 @@ const copy = {
     fieldwork: "フィールド旅券／現地印",
     commons: "物権聴聞／学内郵便",
     calendar: "学年暦の赤い栞",
+    careers: "卒業／進路／同窓",
     recordsMode: "学籍ホーム",
     courseMode: "履修・成績",
     academicMode: "課題・試験・答弁",
@@ -288,6 +290,7 @@ const copy = {
     fieldwork: "Fieldwork passport / seals",
     commons: "Property hearings / campus post",
     calendar: "Academic-calendar bookmarks",
+    careers: "Graduation / careers / alumni",
     recordsMode: "Student record",
     courseMode: "Courses & grades",
     academicMode: "Work, exams & defences",
@@ -440,6 +443,10 @@ function allRecords() {
   const propertyClaims = readJson("tu:property:claims", []);
   const postDispatches = readJson("tu:post:dispatches", []);
   const calendarBookmarks = readJson("tu:calendar:bookmarks", []);
+  const graduationAudits = readJson("tu:graduation:audits", []);
+  const graduationDegrees = readJson("tu:graduation:degrees", []);
+  const careerPlans = readJson("tu:careers:plans", []);
+  const alumniProfile = readJson("tu:alumni:profile", null);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
     Number(Boolean(readJson("tu:visit:draft", null))) +
@@ -500,6 +507,10 @@ function allRecords() {
     commonsRecords: (Array.isArray(propertyClaims) ? propertyClaims.length : 0)
       + (Array.isArray(postDispatches) ? postDispatches.length : 0),
     calendarRecords: Array.isArray(calendarBookmarks) ? calendarBookmarks.length : 0,
+    careerRecords: (Array.isArray(graduationAudits) ? graduationAudits.length : 0)
+      + (Array.isArray(graduationDegrees) ? graduationDegrees.length : 0)
+      + (Array.isArray(careerPlans) ? careerPlans.length : 0)
+      + Number(Boolean(alumniProfile)),
     localFiles,
   };
 }
@@ -827,6 +838,7 @@ function renderDashboard(identity, records, locale, c) {
           <a href="fieldwork.html#fieldwork-passport"><span>${c.fieldwork}</span><strong>${records.fieldworkRecords}</strong></a>
           <a href="commons.html#property-records"><span>${c.commons}</span><strong>${records.commonsRecords}</strong></a>
           <a href="calendar.html#calendar-agenda"><span>${c.calendar}</span><strong>${records.calendarRecords}</strong></a>
+          <a href="careers.html#graduation-records"><span>${c.careers}</span><strong>${records.careerRecords}</strong></a>
           <a href="records.html#data-cabinet"><span>${c.cabinetSummary}</span><strong>${records.localFiles}</strong></a>
           <span><small>${c.drafts}</small><b>${records.drafts}</b></span>
         </div>

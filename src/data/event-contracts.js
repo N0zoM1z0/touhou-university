@@ -353,6 +353,46 @@ const contracts = [
     causedBy: ["fieldwork.observation.logged"],
     references: related(["fieldwork-station", "stationId"], ["fieldwork-passport-stamp", "stampId"]),
   }),
+  define("graduation.audit.requested", l("送交八席卒業判定", "八席卒業判定へ提出", "Submitted an eight-desk graduation audit"), {
+    subject: by("graduation-audit", "auditId"), required: ["auditId", "schoolId", "outcome"],
+    correlation: (payload) => `graduation-audit:${payload?.auditId || ""}`,
+    references: related(["school", "schoolId"], ["graduation-outcome", "outcome"]),
+  }),
+  define("graduation.degree.issued", l("開封附帶未結問題的學位", "未解決の問いを伴う学位を開封", "Unsealed a degree carrying an unresolved question"), {
+    subject: by("graduation-degree", "degreeId"), required: ["degreeId", "auditId", "schoolId", "standing"],
+    correlation: (payload) => `graduation-audit:${payload?.auditId || ""}`,
+    causedBy: ["graduation.audit.requested"],
+    references: related(["graduation-audit", "auditId"], ["school", "schoolId"]),
+  }),
+  define("career.plan.submitted", l("封存進路媒合卷", "進路照合記録を保存", "Filed a career matching plan"), {
+    subject: by("career-plan", "planId"), required: ["planId", "schoolId", "openingIds"],
+    correlation: (payload) => `career-plan:${payload?.planId || ""}`,
+    references: related(["school", "schoolId"], ["career-opening", "openingIds"]),
+  }),
+  define("career.referral.sent", l("以鴉天狗郵便寄發進路推薦", "鴉天狗便で進路推薦を発送", "Sent a career referral by crow-tengu post"), {
+    subject: by("career-referral", "referralId"), required: ["referralId", "planId", "openingId"],
+    correlation: (payload) => `career-plan:${payload?.planId || ""}`,
+    causedBy: ["career.plan.submitted"],
+    references: related(["career-plan", "planId"], ["career-opening", "openingId"]),
+  }),
+  define("alumni.profile.activated", l("開封百鬼夜行校友籍", "百鬼夜行校友籍を開封", "Unsealed a Hyakki Yagyo alumni file"), {
+    subject: by("alumni-profile", "alumniId"), required: ["alumniId", "degreeId", "chapterId"],
+    correlation: (payload) => `graduation-degree:${payload?.degreeId || ""}`,
+    causedBy: ["graduation.degree.issued"],
+    references: related(["graduation-degree", "degreeId"], ["alumni-chapter", "chapterId"]),
+  }),
+  define("alumni.reunion.rsvp", l("回覆百鬼夜行提燈席", "百鬼夜行の提灯席へ返信", "Replied to the Hyakki Yagyo lantern desk"), {
+    subject: by("alumni-profile", "alumniId"), required: ["alumniId", "chapterId", "attending"],
+    correlation: (payload) => `alumni-profile:${payload?.alumniId || ""}`,
+    causedBy: ["alumni.profile.activated"],
+    references: related(["alumni-chapter", "chapterId"]),
+  }),
+  define("alumni.mentorship.offered", l("登記返校田野導師資格", "帰校フィールド指導資格を登録", "Registered as a returning fieldwork mentor"), {
+    subject: by("alumni-profile", "alumniId"), required: ["alumniId", "chapterId", "topicIds"],
+    correlation: (payload) => `alumni-profile:${payload?.alumniId || ""}`,
+    causedBy: ["alumni.profile.activated"],
+    references: related(["alumni-chapter", "chapterId"], ["career-domain", "topicIds"]),
+  }),
 ];
 
 export const campusEventContracts = Object.freeze(

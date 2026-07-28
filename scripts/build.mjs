@@ -39,8 +39,10 @@ async function renderIncludes(source, sourceFile) {
 function masthead(page) {
   if (!page.heading) return "";
   const links = page.links
-    .map(([id, label]) => `<a href="#${id}">${label}</a>`)
+    .map(([id, label, key]) => `<a href="#${id}"${key ? ` data-i18n="${key}"` : ""}>${label}</a>`)
     .join("");
+  const titleKey = page.mastheadTitleKey ? ` data-i18n="${page.mastheadTitleKey}"` : "";
+  const leadKey = page.mastheadLeadKey ? ` data-i18n="${page.mastheadLeadKey}"` : "";
   return `
     <section class="page-masthead" aria-labelledby="page-title">
       <div class="container">
@@ -48,8 +50,8 @@ function masthead(page) {
           <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>${page.eyebrow}</b>
         </nav>
         <div class="page-masthead-copy">
-          <div><p>${page.eyebrow}</p><h1 id="page-title">${page.heading}</h1></div>
-          <p>${page.lead}</p>
+          <div><p>${page.eyebrow}</p><h1 id="page-title"${titleKey}>${page.heading}</h1></div>
+          <p${leadKey}>${page.lead}</p>
         </div>
         <nav class="page-local-nav" aria-label="${page.heading}">${links}</nav>
       </div>

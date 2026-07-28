@@ -10,6 +10,7 @@ const pageFiles = {
   fieldwork: "fieldwork.html",
   commons: "commons.html",
   calendar: "calendar.html",
+  careers: "careers.html",
   campus: "campus.html",
   mytu: "mytu.html",
   library: "library.html",
@@ -34,6 +35,7 @@ export function pageForRoute(route = "") {
   if (/^fieldwork(?:-|$)/.test(route)) return "fieldwork";
   if (/^(?:property|post)(?:-|$)/.test(route)) return "commons";
   if (/^(?:academic-calendar|calendar)(?:-|$)/.test(route)) return "calendar";
+  if (/^(?:graduation|career|alumni)(?:-|$)/.test(route)) return "careers";
   if (/^incident(?:-|$)/.test(route)) return "incidents";
   if (/^(?:live-campus|governance|map(?:-|$)|campus(?:-|$)|bbs(?:-|$)|club-)/.test(route)) return "campus";
   if (/^(?:my-tu|course-registration|course-|academic-)/.test(route)) return "mytu";

@@ -13,9 +13,10 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
-- seventeen ordinary generated, shareable pages for the home portal, academics,
+- eighteen ordinary generated, shareable pages for the home portal, academics,
   admissions, research, research ethics, festival operations, fieldwork, the
-  campus commons, academic calendar, campus incidents, campus life, My TU, the
+  campus commons, academic calendar, graduation/careers/alumni, campus
+  incidents, campus life, My TU, the
   Misty Lake Library, housing, campus healthcare, the on-device records cabinet
   and the Hieda cross-campus index,
   with legacy one-page hashes
@@ -34,7 +35,7 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   lifecycle ledger, joint faculty application reviews and printable decision
   letters;
 - a unified on-device records cabinet that discovers every `tu:` local or
-  session file, catalogues 63 known keys across university shelves, shows exact
+  session file, catalogues 68 known keys across university shelves, shows exact
   UTF-8 usage and browser-origin visibility, opens raw contents, exports a
   SHA-256-sealed JSON box, validates imports before writing, preserves or
   explicitly overwrites name collisions, and destroys one file, one shelf or
@@ -94,6 +95,19 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   correction history; plus a fourteen-event Gensokyo academic calendar whose
   date, five seasons, moon and duty bell alter courses, routes, facilities,
   dining and clinic load, with red bookmarks, print and portable iCalendar;
+- a standalone eight-desk graduation board that separately reads degree
+  credits and core courses, methods work, public defence, ethics, fieldwork,
+  active library holdings, residence checkout and unresolved
+  incident/property/chronology files. Missing evidence blocks unsealing;
+  accepted conditions and disputes print unchanged on the degree, while
+  PHANTASM credits remain isolated and show only as a reverse-side trace;
+- a Careers Office with twelve substantive Gensokyo destination files,
+  explained reasons and cautions, real duties, compensation, duty bells,
+  travel, named friction, refusal boundaries and interview questions. Saved
+  plans can send one causally linked crow-tengu referral per opening;
+- a Hyakki Yagyo Alumni Association with eight question-based chapters,
+  date/moon/bell-varying lantern routes, degree-gated personal alumni files,
+  reunion replies and returning fieldwork mentorship boundaries;
 - campus-visit reservations with autosaved drafts, visitor references and a
   device-local “My Campus Visits” archive;
 - a real Misty Lake Library catalogue with 19 trilingual holdings, search and
@@ -140,7 +154,7 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   a trilingual in-universe history record, correction note and real version
   source, while mechanical merge commits separately expose their second-parent
   functional change without confusing the two SHAs;
-- a separate Hieda campus knowledge graph with eleven cross-files and 74 source
+- a separate Hieda campus knowledge graph with twelve cross-files and 80 source
   leaves that can be inverted by event, 23 characters, or first-parent
   version/time; every leaf resolves back to existing incident, evidence,
   governance, BBS, course, research, library, appraisal, housing or chronicle
@@ -177,7 +191,7 @@ src/
   sections/   page partials, one institutional section per file
   styles/     base and feature-specific stylesheets
 scripts/      build, preview, validation, scaffolding and asset helpers
-*.html        eighteen generated GitHub Pages artifacts; one is deliberately hidden
+*.html        nineteen generated GitHub Pages artifacts; one is deliberately hidden
 styles.css    generated shared CSS artifact
 styles-*.css  generated per-page CSS artifacts
 site.config.mjs
@@ -192,15 +206,16 @@ modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate eighteen pages and shared/per-page CSS bundles
+npm run build               # generate nineteen pages and shared/per-page CSS bundles
 npm run check               # build + all source, data, relationship and history contracts
 npm run check:i18n          # stable/legacy keys, collisions, titles and interpolation parity
-npm run check:contracts     # 66 event types, producer coverage and causal lifecycle fixtures
+npm run check:contracts     # 73 event types, producer coverage and causal lifecycle fixtures
 npm run check:knowledge     # Hieda sources, five-form dossiers, characters, routes and versions
 npm run check:ethics        # five cases/seats, non-averaged rulings, routes, records and events
 npm run check:festival      # six desks, field cases, routing/clinic overlays and closure
 npm run check:fieldwork     # 24 stations, dispatch, complications, returns and repeat seals
 npm run check:commons       # object hearings, tengu post, seasons, moon and live projections
+npm run check:careers       # 8 audit desks, 12 destinations, 8 chapters and causal/local records
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references

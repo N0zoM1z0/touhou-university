@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="比較五座學生宿舍，提交住宿需求，查看房間與室友配對，接受分房並申請換房。 東方Project非官方二次創作。"
+      content="以八席卷宗判定卒業、媒合十二處幻想鄉進路，並加入按共同問題分支的百鬼夜行校友會。 東方Project非官方二次創作。"
     >
     <meta name="theme-color" content="#151d2a">
-    <meta property="og:title" content="宿舍與室友｜幻想鄉立東方大學">
+    <meta property="og:title" content="卒業判定、進路室與百鬼夜行校友會｜幻想鄉立東方大學">
     <meta
       property="og:description"
-      content="比較五座學生宿舍，提交住宿需求，查看房間與室友配對，接受分房並申請換房。 東方Project非官方二次創作網站。"
+      content="以八席卷宗判定卒業、媒合十二處幻想鄉進路，並加入按共同問題分支的百鬼夜行校友會。 東方Project非官方二次創作網站。"
     >
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/images/campus-hero.webp">
-    <title>宿舍與室友｜幻想鄉立東方大學</title>
+    <title>卒業判定、進路室與百鬼夜行校友會｜幻想鄉立東方大學</title>
     <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
 
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles-housing.css">
+    <link rel="stylesheet" href="styles-careers.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
-  <body data-page="housing" data-page-title-key="pageHousingTitle">
+  <body data-page="careers" data-page-title-key="pageCareersTitle">
     <a class="skip-link" href="#main" data-i18n="skipToMain">跳至主要內容</a>
 
     <div class="site-notice">
@@ -155,19 +155,22 @@
     <section class="page-masthead" aria-labelledby="page-title">
       <div class="container">
         <nav class="page-breadcrumb" aria-label="頁面位置">
-          <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>RESIDENTIAL LIFE</b>
+          <a href="index.html">大學首頁</a><span aria-hidden="true">/</span><b>GRADUATION × CAREERS × ALUMNI</b>
         </nav>
         <div class="page-masthead-copy">
-          <div><p>RESIDENTIAL LIFE</p><h1 id="page-title">宿舍、房間與室友</h1></div>
-          <p>月相、翼展、水域、牆面與作息都會影響分房；適合的室友不是沒有麻煩，而是麻煩能先談清楚。</p>
+          <div><p>GRADUATION × CAREERS × ALUMNI</p><h1 id="page-title" data-i18n="pageCareersTitle">卒業判定、進路室與百鬼夜行校友會</h1></div>
+          <p data-i18n="pageCareersLead">學位不會消滅爭議；它只把學分、答辯、借書、退宿與那件仍值得追問的事，一起完整封進卷宗。</p>
         </div>
-        <nav class="page-local-nav" aria-label="宿舍、房間與室友"><a href="#housing">宿舍總覽</a><a href="#housing-application">申請與配對</a><a href="#housing-account">我的宿舍</a></nav>
+        <nav class="page-local-nav" aria-label="卒業判定、進路室與百鬼夜行校友會"><a href="#graduation-audit" data-i18n="graduationAuditNav">八席卒業判定</a><a href="#career-office" data-i18n="careerOfficeNav">十二份進路卷</a><a href="#alumni-association" data-i18n="alumniAssociationNav">百鬼夜行校友會</a><a href="#graduation-records" data-i18n="graduationRecordsNav">我的判定卷</a></nav>
       </div>
     </section>
-      <section class="housing-section" id="housing" aria-labelledby="housing-title">
-  <h2 class="visually-hidden" id="housing-title">宿舍、房間與室友</h2>
-  <div class="container" data-housing-app>
-    <p>宿舍分配簿正在核對房號。</p>
+      <section class="careers-section" id="graduation-careers" aria-labelledby="careers-title">
+  <div class="container">
+    <div class="careers-loading" data-careers-app>
+      <p data-i18n="careersLoadingEyebrow">GRADUATION / 進路 / 百鬼夜行</p>
+      <h2 id="careers-title" data-i18n="careersTitle">卒業判定、進路室與百鬼夜行校友會</h2>
+      <span data-i18n="careersLoading">八張案頭正在核對同一份學籍；鴉天狗已把尚未開封的校友邀請函送到了。</span>
+    </div>
   </div>
 </section>
     </main>

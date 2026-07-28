@@ -767,10 +767,9 @@ export const campusHistory = [
   {
     id: "lost-things-appeal-mail-arrives-before-spring",
     archiveId: "TU-H-032",
-    commit: null,
+    commit: "9bfa07a8363fa4f29635fe6e2d21831c8d18b2d4",
     commitSubject: "Add Gensokyo property post and calendar systems",
     recordedAt: "2026-07-27",
-    planned: true,
     category: "campus",
     era: l("翌日・春天的簽收欄仍是空白", "翌日・春の受領欄はまだ空白", "Next day · Spring's receipt box remains empty"),
     title: l(
@@ -787,6 +786,31 @@ export const campusHistory = [
       "小傘先替紙傘留了一張椅子，靈夢問那張椅子是否也能收保管費。文在聽證開始前九分鐘寄出『裁定一致通過』，阿求在信封背面補上四席其實有四種不同意見；映姬沒有撤回裁定，只把號外列入下一輪證物。慧音把同一封信夾進學年曆，才發現日期落在春季開學與白玉樓積雪異議重疊的那一週。紫最後把『已送達』和『已發生』之間畫成境界，鴉天狗從境界上方把訂正版又送了一次。",
       "小傘は紙傘の席を先に確保し、霊夢は椅子にも保管料を請求できるか尋ねた。文は聴聞九分前に「全会一致裁定」を配達。阿求は封筒裏へ四席が四通り異なると追記。映姫は裁定を撤回せず、号外を次の証物へ追加した。慧音が同じ手紙を学年暦へ挟むと、日付は春学期開始と白玉楼積雪異議が重なる週だった。紫は「配達済み」と「発生済み」の間を境界にし、鴉天狗はその上から訂正版をもう一度届けた。",
       "Kogasa first saves the umbrella a chair; Reimu asks whether the chair owes storage fees. Aya delivers “unanimous ruling” nine minutes before hearing, and Akyuu writes on the envelope that four seats hold four different opinions. Eiki does not withdraw the ruling; she adds the extra to next round's evidence. When Keine files the same letter in the calendar, its date lies in the week spring opening overlaps Hakugyokurou's snow objection. Yukari draws a boundary between “delivered” and “happened”; a crow tengu delivers the correction again above it.",
+    ),
+  },
+  {
+    id: "degree-arrives-nine-minutes-after-alumni-invitation",
+    archiveId: "TU-H-033",
+    commit: null,
+    commitSubject: "Add Gensokyo graduation careers and alumni systems",
+    recordedAt: "2026-07-28",
+    planned: true,
+    category: "registry",
+    era: l("翌日・校友邀請已送達九分鐘", "翌日・同窓招待状の配達九分後", "Next day · Nine minutes after the alumni invitation arrived"),
+    title: l(
+      "八席同意一份學位可以帶著問題離校，進路室則拒絕保證工作不會先變成異變",
+      "八席は問いを抱えた学位の離校を認め、進路室は仕事が先に異変にならない保証を拒む",
+      "Eight desks let a degree leave with its questions; Careers refuses to promise work will not become an incident first",
+    ),
+    summary: l(
+      "卒業不再由一個綠色勾勾決定。學分與核心課、方法作業與考試、論文或符卡答辯、研究倫理、二十四站田野護照、拒絕歸還的館藏、尚未退清的宿舍，以及事件、物權和年代爭議各佔一席；缺件會阻止開封，附條件與爭議則須本人明確接受並原樣印在學位卷。夢境校區的正負三學分永不進入正式總數，紙背卻可能留下透痕。進路室公開十二份真實工作：從博麗境界維護、紅魔館零分鐘檔案、永遠亭夜班交接，到三途川排隊申訴；媒合說明相合與摩擦，也要求申請人先寫下拒絕跨過的界線。學位開封後可建立百鬼夜行校友籍，八支部按仍未解決的問題而非物種、壽命或死亡狀態分組；校友可回覆提燈夜行、登記田野導師，若邀請早於卒業或入學，阿求保留兩個版本。",
+      "卒業は一つの緑色チェックで決まらない。単位と必修、方法課題と試験、論文またはスペル答弁、研究倫理、二十四現場の旅券、返却を拒む蔵書、退寮未了、事案・物権・年代争議が別々の席を持つ。不足は開封を止め、条件と争議は本人が明示受諾して学位記録へそのまま印刷される。夢境校区の±3単位は正式総数へ入らないが、紙背に透けることがある。進路室は博麗境界保守、紅魔館0分記録、永遠亭夜間引継、三途川待列不服申立てまで十二の実務を公開し、一致理由と摩擦を説明して越えない境界を先に書かせる。学位開封後は百鬼夜行校友籍を作成でき、八支部は種族・寿命・死亡状態ではなく未解決の問いで分かれる。校友は提灯行列へ返信し、フィールド指導者へ登録できる。招待が卒業や入学より早ければ、阿求は二版とも保存する。",
+      "Graduation is no longer one green tick. Credits and cores, methods work and exams, thesis or spell-card defence, research ethics, the twenty-four-site passport, holdings that refuse return, unfinished residence checkout, and incident, property, and chronology disputes each occupy a separate desk. Missing evidence blocks unsealing; conditions and disputes require explicit acceptance and print unchanged in the degree file. Dream Campus's plus-or-minus three credits never enter the official total, though they may show through the paper. Careers publishes twelve actual jobs—from Hakurei boundary care, Scarlet zero-minute archives, and Eientei night handover to Sanzu queue appeals—explaining both fit and friction while requiring the applicant's uncrossable line. An unsealed degree unlocks a Hyakki Yagyo alumni file: eight chapters organise by unresolved questions rather than species, lifespan, or death. Alumni may RSVP to the lantern procession and return as field mentors. When an invitation predates graduation or admission, Akyuu preserves both versions.",
+    ),
+    marginalia: l(
+      "琪露諾第三次忘記自己已經畢業，於是連續取得三份同號證書；慧音把其中兩份改成出席紀錄。蕾米莉亞要求進路室提供「命運已保證錄取」欄，職員在旁加了「不構成雇用承諾」。文在學位開封前九分鐘刊出校友名冊；紫把名冊的入學年與畢業年交換，阿求沒有修正，只在兩個年份之間牽了一條紅線。",
+      "チルノは卒業済みを三度忘れ、同番号の証書を三枚取得。慧音は二枚を出席記録へ訂正した。レミリアは進路室へ「運命が採用を保証」欄を要求し、職員は横に「雇用保証ではない」と追記。文は学位開封九分前に同窓名簿を発行。紫が入学年と卒業年を交換したため、阿求は訂正せず二年の間へ赤糸を結んだ。",
+      "Cirno forgets graduating three times and receives three certificates with one number; Keine converts two into attendance records. Remilia demands a “fate guarantees hire” field, and Careers adds “not an employment promise.” Aya prints the alumni roll nine minutes before the degree is unsealed. Yukari swaps its enrolment and graduation years; Akyuu does not correct them, only ties a red thread between both.",
     ),
   },
 ];

@@ -1,0 +1,482 @@
+.careers-section {
+  --career-ink: #17283a;
+  --career-red: #a42f3d;
+  --career-gold: #aa7b39;
+  --career-night: #172b3d;
+  --career-paper: #f6f0e5;
+  padding: clamp(3.5rem, 7vw, 7rem) 0;
+  background:
+    linear-gradient(90deg, transparent 49.85%, rgba(117, 74, 38, .07) 50%, transparent 50.15%),
+    radial-gradient(circle at 12% 8%, rgba(164, 47, 61, .08), transparent 25rem),
+    #f6f1e8;
+  color: var(--career-ink);
+}
+
+.careers-loading {
+  min-height: 35rem;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.careers-loading p,
+.careers-hero p,
+.careers-heading p,
+.careers-records header p,
+.career-heading p,
+.alumni-heading p {
+  margin: 0 0 .75rem;
+  color: var(--career-red);
+  font: 700 .72rem/1.4 var(--font-sans);
+  letter-spacing: .18em;
+}
+
+.careers-loading h2 { margin: 0; font-size: clamp(2rem, 6vw, 4.8rem); }
+
+.careers-workspace { display: grid; gap: clamp(1.5rem, 3vw, 3rem); }
+
+.careers-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(18rem, .75fr);
+  gap: 2rem;
+  padding-bottom: 2.2rem;
+  border-bottom: 1px solid rgba(23, 40, 58, .28);
+}
+
+.careers-hero h2 {
+  max-width: 18ch;
+  margin: 0;
+  font-size: clamp(2.1rem, 4.8vw, 5.1rem);
+  line-height: 1.06;
+  letter-spacing: -.045em;
+}
+
+.careers-hero > div > span,
+.careers-heading span,
+.career-heading span,
+.alumni-heading span {
+  display: block;
+  max-width: 62rem;
+  margin-top: 1.2rem;
+  color: #52606a;
+  font-size: clamp(1rem, 1.5vw, 1.18rem);
+  line-height: 1.85;
+}
+
+.careers-hero dl {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-self: end;
+  margin: 0;
+  border-top: 1px solid rgba(23, 40, 58, .25);
+  border-left: 1px solid rgba(23, 40, 58, .25);
+}
+
+.careers-hero dl div {
+  min-height: 6rem;
+  padding: 1rem;
+  border-right: 1px solid rgba(23, 40, 58, .25);
+  border-bottom: 1px solid rgba(23, 40, 58, .25);
+}
+
+.careers-hero dt { color: #67727a; font-size: .78rem; }
+.careers-hero dd { margin: .45rem 0 0; font: 600 1.65rem/1 var(--font-serif); }
+
+.careers-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid rgba(23, 40, 58, .3);
+}
+
+.careers-tabs button {
+  min-height: 5.8rem;
+  padding: 1rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 0;
+  border-right: 1px solid rgba(23, 40, 58, .3);
+  background: rgba(255, 255, 255, .35);
+  color: inherit;
+  font: 600 1rem/1.2 var(--font-serif);
+  text-align: left;
+  cursor: pointer;
+}
+
+.careers-tabs button:last-child { border-right: 0; }
+.careers-tabs button span {
+  width: 2.5rem;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+}
+.careers-tabs button:hover,
+.careers-tabs button.active { background: var(--career-night); color: #fffaf0; }
+
+.careers-heading,
+.career-heading,
+.alumni-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.careers-heading h3,
+.career-heading h3,
+.alumni-heading h3,
+.careers-records h3 {
+  margin: 0;
+  font-size: clamp(1.75rem, 3.5vw, 3.4rem);
+}
+
+.graduation-stamp {
+  flex: 0 0 auto;
+  width: 6.5rem;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  border: 2px double var(--career-red);
+  border-radius: 50%;
+  color: var(--career-red);
+  font: 500 2.2rem/1 var(--font-serif);
+  transform: rotate(-7deg);
+}
+.graduation-stamp small { margin-top: .25rem; font: 700 .6rem/1 var(--font-sans); letter-spacing: .12em; }
+
+.graduation-form,
+.career-form,
+.degree-issue,
+.alumni-activate,
+.alumni-profile,
+.career-opening-file,
+.alumni-chapter-file {
+  padding: clamp(1.25rem, 3vw, 2.25rem);
+  border: 1px solid rgba(23, 40, 58, .25);
+  background: rgba(255, 253, 247, .72);
+  box-shadow: 0 1.2rem 4rem rgba(40, 27, 18, .06);
+}
+
+.graduation-form-grid,
+.graduation-annexes,
+.career-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.graduation-form label,
+.career-form label,
+.degree-issue label,
+.alumni-activate label,
+.alumni-profile label {
+  display: grid;
+  gap: .55rem;
+  font: 600 .86rem/1.4 var(--font-sans);
+}
+
+.graduation-form input,
+.graduation-form select,
+.graduation-form textarea,
+.career-form input,
+.career-form select,
+.career-form textarea,
+.degree-issue input,
+.alumni-activate input,
+.alumni-activate select,
+.alumni-profile input,
+.alumni-profile textarea {
+  width: 100%;
+  border: 1px solid rgba(23, 40, 58, .32);
+  border-radius: 0;
+  background: #fffdf7;
+  color: var(--career-ink);
+  font: 400 1rem/1.55 var(--font-sans);
+}
+
+.graduation-form input,
+.graduation-form select,
+.career-form input,
+.career-form select,
+.alumni-activate input,
+.alumni-activate select { min-height: 3rem; padding: .65rem .8rem; }
+.graduation-form textarea,
+.career-form textarea,
+.alumni-profile textarea { padding: .8rem; resize: vertical; }
+.graduation-form small { color: #6b7378; font-weight: 400; }
+
+.graduation-form fieldset,
+.career-form fieldset {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px dashed rgba(23, 40, 58, .35);
+}
+.graduation-form legend,
+.career-form legend { padding: 0 .55rem; font-weight: 700; }
+.graduation-cores,
+.career-form fieldset { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .65rem; }
+.graduation-cores legend,
+.career-form fieldset legend { grid-column: 1 / -1; }
+.graduation-cores label,
+.career-form fieldset label,
+.graduation-accept,
+.degree-issue label {
+  display: flex;
+  align-items: flex-start;
+  gap: .6rem;
+  padding: .75rem;
+  border: 1px solid rgba(23, 40, 58, .16);
+  background: rgba(255,255,255,.42);
+}
+.graduation-cores input,
+.career-form fieldset input,
+.graduation-accept input,
+.degree-issue input { width: auto; min-height: 0; margin-top: .15rem; accent-color: var(--career-red); }
+.graduation-cores label span { display: grid; gap: .2rem; font-weight: 400; }
+.graduation-cores label b { font: 700 .72rem/1 var(--font-sans); color: var(--career-red); }
+.full { grid-column: 1 / -1; margin: 1rem 0; }
+.graduation-accept { margin: 1rem 0; }
+
+.careers-primary,
+.career-opening-card button,
+.career-opening-file button,
+.alumni-chapter-card button,
+.careers-back,
+.graduation-document footer button,
+.degree-document footer button,
+.career-plan-document footer button,
+.alumni-profile button,
+.alumni-activate button {
+  min-height: 3rem;
+  border: 1px solid var(--career-ink);
+  border-radius: 0;
+  padding: .7rem 1rem;
+  background: transparent;
+  color: var(--career-ink);
+  font: 700 .84rem/1.2 var(--font-sans);
+  cursor: pointer;
+}
+.careers-primary {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 2rem;
+  min-width: min(100%, 22rem);
+  background: var(--career-red);
+  border-color: var(--career-red);
+  color: #fff;
+}
+.careers-primary:hover,
+.career-opening-card button:hover,
+.alumni-chapter-card button:hover { background: var(--career-night); color: #fff; }
+
+.careers-records { padding-top: 1rem; }
+.careers-records header { margin-bottom: 1rem; }
+.careers-records > button {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3rem 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(23, 40, 58, .25);
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.careers-records > button:last-child { border-bottom: 1px solid rgba(23, 40, 58, .25); }
+.careers-records > button:hover { background: rgba(255,255,255,.55); }
+.careers-records h4 { margin: .25rem 0; font-size: 1.1rem; }
+.careers-records p { margin: 0; font-size: .74rem; letter-spacing: .08em; }
+.careers-records small { color: #68737b; }
+.careers-empty { padding: 1rem; border: 1px dashed rgba(23, 40, 58, .3); color: #5b6670; }
+
+.graduation-document,
+.degree-document,
+.career-plan-document {
+  padding: clamp(1.4rem, 4vw, 3.5rem);
+  border: 1px solid rgba(23, 40, 58, .4);
+  background:
+    repeating-linear-gradient(0deg, transparent 0 27px, rgba(81, 89, 92, .055) 27px 28px),
+    #fffdf6;
+  box-shadow: 0 1.5rem 5rem rgba(30, 28, 24, .1);
+}
+.graduation-document > header {
+  display: grid;
+  grid-template-columns: 4rem 1fr auto;
+  gap: 1rem;
+  align-items: start;
+  padding-bottom: 1.3rem;
+  border-bottom: 2px solid var(--career-ink);
+}
+.graduation-document > header > span { font-size: 2.7rem; }
+.graduation-document h3,
+.degree-document h3,
+.career-plan-document h3 { margin: .25rem 0; font-size: clamp(1.65rem, 3vw, 3rem); }
+.graduation-document header p { margin: 0; font: 700 .72rem/1.3 var(--font-sans); letter-spacing: .1em; }
+.graduation-document header > b,
+.career-match > b { padding: .5rem .65rem; border: 1px solid currentColor; font: 700 .7rem/1.2 var(--font-sans); }
+.outcome-ready, .status-clear, .match-recommended { color: #286344; }
+.outcome-conditional, .status-conditional, .match-promising { color: #86611c; }
+.outcome-contested, .status-contested, .match-conversation { color: #a44832; }
+.outcome-not-ready, .status-missing, .match-incident { color: #842f3b; }
+
+.graduation-requirements { display: grid; grid-template-columns: repeat(2, 1fr); margin: 1.5rem 0; }
+.graduation-requirement {
+  display: grid;
+  grid-template-columns: 2.2rem 1fr auto;
+  gap: .75rem;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(23,40,58,.2);
+}
+.graduation-requirement > span { font: 700 .68rem/1 var(--font-sans); }
+.graduation-requirement p { margin: 0; font: 700 .66rem/1.2 var(--font-sans); letter-spacing: .12em; }
+.graduation-requirement h4 { margin: .25rem 0; }
+.graduation-requirement small { color: #5d6971; }
+.graduation-requirement a { color: inherit; font-size: .76rem; }
+.graduation-document blockquote,
+.degree-document blockquote {
+  margin: 1.4rem 0;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--career-red);
+  font-size: 1.15rem;
+}
+.graduation-document blockquote small,
+.degree-document blockquote small { display: block; margin-bottom: .45rem; color: #697279; font-size: .72rem; }
+.graduation-document aside,
+.degree-document aside { display: flex; justify-content: space-between; gap: 1rem; padding: .75rem; color: #6f5579; border: 1px dashed #8d7296; }
+.graduation-document footer,
+.degree-document footer,
+.career-plan-document footer { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.5rem; }
+
+.degree-issue { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.degree-document { text-align: center; }
+.degree-seal {
+  width: 9rem;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  margin: 0 auto 2rem;
+  border: 4px double var(--career-red);
+  border-radius: 50%;
+  color: var(--career-red);
+}
+.degree-seal span { font-size: 3.3rem; }
+.degree-seal small { font: 700 .55rem/1 var(--font-sans); letter-spacing: .1em; }
+.degree-document > strong { display: block; margin: 1.5rem 0 .5rem; font-size: clamp(1.5rem, 3vw, 2.5rem); }
+.degree-document dl,
+.career-opening-card dl { display: flex; justify-content: center; gap: 2rem; margin: 1.5rem 0; }
+.degree-document dt,
+.career-opening-card dt { color: #6d7478; font-size: .72rem; }
+.degree-document dd,
+.career-opening-card dd { margin: .25rem 0 0; }
+
+.career-openings > header,
+.alumni-chapters > header,
+.alumni-stories > header { margin-bottom: 1rem; }
+.career-openings > div,
+.alumni-chapters > div { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.career-opening-card,
+.alumni-chapter-card {
+  display: flex;
+  min-height: 23rem;
+  flex-direction: column;
+  padding: 1.2rem;
+  border: 1px solid rgba(23,40,58,.24);
+  background: rgba(255,255,255,.45);
+}
+.career-opening-card header { display: grid; grid-template-columns: 2.4rem 1fr; gap: .7rem; align-items: start; }
+.career-opening-card header > b { grid-column: 1 / -1; justify-self: start; padding: .3rem .5rem; border: 1px solid currentColor; font-size: .66rem; }
+.career-opening-card header > span,
+.alumni-chapter-card > span { font-size: 1.8rem; }
+.career-opening-card header p,
+.alumni-chapter-card p { margin: 0; color: var(--career-red); font: 700 .65rem/1.3 var(--font-sans); letter-spacing: .1em; }
+.career-opening-card h4,
+.alumni-chapter-card h4 { margin: .25rem 0; font-size: 1.28rem; }
+.career-opening-card > p { color: #59656d; line-height: 1.65; }
+.career-opening-card dl { justify-content: flex-start; margin-top: auto; }
+.career-opening-card button,
+.alumni-chapter-card button { display: flex; justify-content: space-between; margin-top: 1rem; }
+
+.career-opening-file > header,
+.alumni-chapter-file > header { display: flex; gap: 1rem; align-items: center; padding-bottom: 1rem; border-bottom: 1px solid rgba(23,40,58,.25); }
+.career-opening-file > header > span,
+.alumni-chapter-file > header > span { font-size: 3rem; }
+.career-opening-file h3,
+.alumni-chapter-file h3 { margin: .2rem 0; font-size: clamp(1.7rem, 3.5vw, 3rem); }
+.career-opening-file h4,
+.alumni-chapter-file h4 { margin: 1.5rem 0 .6rem; color: var(--career-red); }
+.career-opening-file li,
+.alumni-chapter-file li { margin: .5rem 0; line-height: 1.65; }
+.career-friction { padding: 1rem; border-left: 3px solid var(--career-gold); background: rgba(170,123,57,.08); }
+
+.career-match { padding: 1rem 0; border-bottom: 1px solid rgba(23,40,58,.2); }
+.career-match header { display: flex; justify-content: space-between; gap: 1rem; }
+.career-match ul { color: #56636b; }
+.career-match form { display: grid; grid-template-columns: 1fr auto; gap: .75rem; }
+.career-match textarea { width: 100%; padding: .7rem; border: 1px solid rgba(23,40,58,.3); background: #fff; }
+.referral-sent { color: #286344; font-weight: 700; }
+
+.alumni-night {
+  padding: clamp(1.3rem, 3vw, 2.5rem);
+  background: var(--career-night);
+  color: #fbf2db;
+}
+.alumni-night dl { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 0; }
+.alumni-night dt { color: #c8bfae; font-size: .72rem; }
+.alumni-night dd { margin: .35rem 0 0; font-family: var(--font-serif); }
+.alumni-chapter-card { min-height: 18rem; }
+.alumni-chapter-card button { margin-top: auto; }
+.alumni-stories > div { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.alumni-stories article { margin: 0; padding: 1.25rem; border: 1px dashed rgba(23,40,58,.3); line-height: 1.7; }
+.alumni-locked { padding: 2rem; text-align: center; border: 1px dashed var(--career-red); }
+.alumni-actions { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1rem; }
+.alumni-actions form { padding: 1.2rem; border: 1px solid rgba(23,40,58,.22); }
+
+@media (max-width: 900px) {
+  .careers-hero { grid-template-columns: 1fr; }
+  .career-openings > div,
+  .alumni-chapters > div { grid-template-columns: repeat(2, 1fr); }
+  .graduation-cores { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .careers-tabs { grid-template-columns: 1fr; }
+  .careers-tabs button { min-height: 4rem; border-right: 0; border-bottom: 1px solid rgba(23,40,58,.3); }
+  .careers-tabs button:last-child { border-bottom: 0; }
+  .careers-heading,
+  .career-heading,
+  .alumni-heading { align-items: start; }
+  .graduation-stamp { width: 4.5rem; }
+  .graduation-form-grid,
+  .graduation-annexes,
+  .career-form-grid,
+  .graduation-requirements,
+  .career-openings > div,
+  .alumni-chapters > div,
+  .alumni-stories > div,
+  .alumni-actions { grid-template-columns: 1fr; }
+  .graduation-cores,
+  .career-form fieldset { grid-template-columns: 1fr; }
+  .graduation-document > header { grid-template-columns: 2.5rem 1fr; }
+  .graduation-document > header > b { grid-column: 1 / -1; justify-self: start; }
+  .graduation-requirement { grid-template-columns: 1.8rem 1fr; }
+  .graduation-requirement a { grid-column: 2; }
+  .degree-issue { align-items: stretch; flex-direction: column; }
+  .alumni-night dl { grid-template-columns: repeat(2, 1fr); }
+  .career-match form { grid-template-columns: 1fr; }
+}
+
+@media print {
+  .careers-tabs,
+  .careers-hero,
+  .careers-back { display: none !important; }
+  .careers-section { padding: 0; background: #fff; }
+  .graduation-document,
+  .degree-document,
+  .career-plan-document { border: 0; box-shadow: none; }
+}

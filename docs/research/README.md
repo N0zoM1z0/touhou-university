@@ -45,6 +45,9 @@ The research follows the method already established in
 - `commons-post-calendar-notes.md` — four-seat tsukumogami property hearings,
   versioned crow-tengu post, non-linear delivery and the date/moon/season
   calendar projection shared by facilities, routes, My TU, BBS and Hieda.
+- `graduation-careers-alumni-notes.md` — eight-desk graduation evidence,
+  twelve explained-friction destinations, eight problem-based alumni chapters
+  and their causal/local-record boundaries.
 
 ## Internal editorial labels
 

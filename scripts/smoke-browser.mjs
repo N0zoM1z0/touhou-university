@@ -2125,7 +2125,7 @@ try {
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "careers.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -2515,6 +2515,184 @@ try {
     "A Hieda governance source link did not open the exact proposal.",
   );
 
+  await cdp.evaluate(`(async () => {
+    const { schools } = await import(${JSON.stringify(`${siteUrl}src/data/schools.js`)});
+    const { academicAssignments, academicExams } = await import(${JSON.stringify(`${siteUrl}src/data/academic-work.js`)});
+    const identity = JSON.parse(localStorage.getItem('tu:identity') || '{}');
+    localStorage.setItem('tu:identity', JSON.stringify({
+      ...identity,
+      id: identity.id || 'TU-S-BROWSER',
+      name: identity.name || '外界瀏覽器測試生',
+      preferredSchool: 'boundary'
+    }));
+    localStorage.setItem('tu:courses:transcript', JSON.stringify(
+      schools.boundary.courses.map(([courseCode]) => ({ courseCode, grade: 'A', status: 'completed' }))
+    ));
+    localStorage.setItem('tu:academics:submissions', JSON.stringify([
+      { id: 'AS-BROWSER', assignmentId: academicAssignments[0].id, percent: 100 }
+    ]));
+    localStorage.setItem('tu:academics:exam-attempts', JSON.stringify([
+      { id: 'EX-BROWSER', examId: academicExams[0].id, percent: 100 }
+    ]));
+    localStorage.setItem('tu:academics:projects', JSON.stringify([{ id: 'PR-BROWSER', type: 'thesis', status: 'passed' }]));
+    localStorage.setItem('tu:academics:defences', JSON.stringify([
+      { id: 'DEF-BROWSER', projectId: 'PR-BROWSER', outcome: 'passed', percent: 96 }
+    ]));
+    localStorage.setItem('tu:ethics:protocols', JSON.stringify([
+      { id: 'ERB-BROWSER', outcome: 'approved', status: 'active', draft: {}, createdAt: new Date().toISOString() }
+    ]));
+    localStorage.setItem('tu:fieldwork:passport', JSON.stringify({
+      number: 'FW-BROWSER',
+      stamps: [{ id: 'STAMP-BROWSER', stationId: 'hakurei-shrine', placementId: 'PLACE-BROWSER',
+        issuedAt: new Date().toISOString(), hours: 8, credits: 2, standing: 'clear', research: 'allowed' }]
+    }));
+    localStorage.setItem('tu:library:loans', '[]');
+    localStorage.setItem('tu:housing:assignments', '[]');
+    localStorage.setItem('tu:housing:room-changes', '[]');
+    localStorage.setItem('tu:property:claims', '[]');
+    localStorage.setItem('tu:incidents:resolutions', '[]');
+    localStorage.removeItem('tu:graduation:audits');
+    localStorage.removeItem('tu:graduation:degrees');
+    localStorage.removeItem('tu:careers:plans');
+    localStorage.removeItem('tu:careers:draft');
+    localStorage.removeItem('tu:alumni:profile');
+    return true;
+  })()`);
+  await navigate("careers.html#graduation-audit", "[data-graduation-form]");
+  const graduationSubmitted = await cdp.evaluate(`(async () => {
+    const form = document.querySelector('[data-graduation-form]');
+    form.elements.priorCredits.value = '132';
+    form.elements.provenance.value = '稗田館第七櫃幻想曆一四二年至一四六年完整成績拓印與經手人';
+    form.elements.libraryDisputeNote.value = '若館藏拒絕歸還，保留其陳述並另附物權聽證卷宗';
+    form.elements.checkoutPlan.value = '學位開封後三日內完成退宿，牆中使魔另走正門';
+    form.elements.unresolvedNote.value = '所有未結事件、物權與年代爭議均原樣附後，不宣稱消失';
+    form.elements.unresolvedQuestion.value = '畢業以後，誰替沒有抵達同一個年份的人保留異議？';
+    form.querySelectorAll('[name="archivedCoreCodes"]').forEach((input) => { input.checked = true; });
+    form.elements.acceptsAttachments.checked = true;
+    form.requestSubmit();
+    await new Promise((resolve) => setTimeout(resolve, 250));
+    return {
+      audit: JSON.parse(localStorage.getItem('tu:graduation:audits') || '[]')[0] || null,
+      hash: location.hash,
+      toast: document.querySelector('[data-toast]')?.textContent || '',
+      document: Boolean(document.querySelector('.graduation-document'))
+    };
+  })()`);
+  if (!graduationSubmitted.document) throw new Error(`Graduation submit diagnostic: ${JSON.stringify(graduationSubmitted)}`);
+  const graduationAuditUi = await cdp.evaluate(`(() => ({
+    route: location.hash,
+    desks: document.querySelectorAll('.graduation-requirement').length,
+    missing: document.querySelectorAll('.graduation-requirement.status-missing').length,
+    auditCount: JSON.parse(localStorage.getItem('tu:graduation:audits') || '[]').length
+  }))()`);
+  if (!await cdp.evaluate("Boolean(document.querySelector('[data-degree-issue]'))")) {
+    throw new Error(`Graduation diagnostic: ${JSON.stringify(await cdp.evaluate("JSON.parse(localStorage.getItem('tu:graduation:audits') || '[]')[0]"))}`);
+  }
+  check(
+    graduationAuditUi.route.startsWith("#graduation-audit-TU-GR-A")
+      && graduationAuditUi.desks === 8
+      && graduationAuditUi.missing === 0
+      && graduationAuditUi.auditCount === 1,
+    `Graduation audit did not preserve eight independent desks (${JSON.stringify(graduationAuditUi)}).`,
+  );
+  await cdp.evaluate(`(() => {
+    const form = document.querySelector('[data-degree-issue]');
+    form.elements.acceptsConditions.checked = true;
+    form.requestSubmit();
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('.degree-document'))"));
+  const degreeUi = await cdp.evaluate(`(() => ({
+    route: location.hash,
+    degree: JSON.parse(localStorage.getItem('tu:graduation:degrees') || '[]')[0],
+    reverse: document.querySelector('.degree-document aside')?.textContent || ''
+  }))()`);
+  check(
+    degreeUi.route.startsWith("#graduation-degree-TU-GR-D")
+      && degreeUi.degree?.degreeNumber?.includes("卒")
+      && /夢境|紙背/.test(degreeUi.reverse),
+    `Degree document or reverse-side PHANTASM trace failed (${JSON.stringify(degreeUi)}).`,
+  );
+
+  await cdp.evaluate("document.querySelector('[data-careers-view=\"alumni\"]').click(); true");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-alumni-activate]'))"));
+  await cdp.evaluate(`(() => {
+    const form = document.querySelector('[data-alumni-activate]');
+    form.elements.displayName.value = '外界瀏覽器測試生・第二版';
+    form.elements.chapterId.value = 'higan-late-arrivals';
+    form.requestSubmit();
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-alumni-rsvp]'))"));
+  await cdp.evaluate(`(() => {
+    const form = document.querySelector('[data-alumni-rsvp]');
+    form.querySelector('[value="yes"]').checked = true;
+    form.elements.note.value = '帶一盞早到九分鐘的燈';
+    form.requestSubmit();
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("JSON.parse(localStorage.getItem('tu:alumni:profile') || 'null')?.reunion?.attending === true"));
+  await cdp.evaluate(`(() => {
+    const form = document.querySelector('[data-alumni-mentor]');
+    form.querySelector('[name="topicIds"]').checked = true;
+    form.elements.note.value = '只協助保存異本，不替學生選擇唯一真相';
+    form.requestSubmit();
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("Boolean(JSON.parse(localStorage.getItem('tu:alumni:profile') || 'null')?.mentorship)"));
+
+  await cdp.evaluate("document.querySelector('[data-careers-view=\"career\"]').click(); true");
+  await eventually(() => cdp.evaluate("document.querySelectorAll('.career-opening-card').length === 12"));
+  await cdp.evaluate(`(() => {
+    const form = document.querySelector('[data-career-form]');
+    form.elements.refusal.value = '拒絕把不方便的版本刪成只剩一份';
+    form.elements.question.value = '若星期三被刪除，工資究竟由哪一版校曆支付？';
+    form.requestSubmit();
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('.career-plan-document'))"));
+  await cdp.evaluate(`(() => {
+    const form = document.querySelector('[data-career-referral]');
+    form.elements.note.value = '請把未採用版本與拒絕事項一併交給現場主持';
+    form.requestSubmit();
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('.referral-sent'))"));
+  const careersFlow = await cdp.evaluate(`(() => {
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    const types = new Set(ledger.map(({ type }) => type));
+    const profile = JSON.parse(localStorage.getItem('tu:alumni:profile') || 'null');
+    const plan = JSON.parse(localStorage.getItem('tu:careers:plans') || '[]')[0];
+    return {
+      planMatches: plan?.matches?.length || 0,
+      referrals: plan?.referrals?.length || 0,
+      alumni: Boolean(profile?.reunion && profile?.mentorship),
+      eventTypes: [
+        'graduation.audit.requested', 'graduation.degree.issued', 'career.plan.submitted',
+        'career.referral.sent', 'alumni.profile.activated', 'alumni.reunion.rsvp',
+        'alumni.mentorship.offered'
+      ].filter((type) => types.has(type)).length
+    };
+  })()`);
+  check(
+    careersFlow.planMatches === 5
+      && careersFlow.referrals === 1
+      && careersFlow.alumni
+      && careersFlow.eventTypes === 7,
+    `Graduation/careers/alumni persistence or causal ledger linkage failed (${JSON.stringify(careersFlow)}).`,
+  );
+  await navigate("careers.html#career-opening-terakoya-missing-year", ".career-opening-file");
+  check(
+    await cdp.evaluate("location.hash === '#career-opening-terakoya-missing-year' && document.querySelector('.career-opening-file')?.textContent.includes('被刪週三')"),
+    "Career destination deep link did not open the exact Terakoya file.",
+  );
+  await navigate("hieda.html#hieda-event-graduation-before-enrolment", "[data-hieda-index-app]");
+  await eventually(() => cdp.evaluate("document.querySelectorAll('.hieda-record').length === 6"));
+  check(
+    await cdp.evaluate("document.querySelectorAll('.hieda-local-ledger li').length >= 7"),
+    "Hieda graduation dossier did not project the seven local causal events.",
+  );
+
   await cdp.evaluate(`(() => {
     localStorage.setItem('tu:smoke:cabinet', JSON.stringify({ note: '外界搬運測試', value: 17 }));
     localStorage.setItem('tu:smoke:conflict', JSON.stringify({ version: 'boxed' }));
@@ -2669,7 +2847,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "careers.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -2706,6 +2884,7 @@ try {
       links: document.querySelectorAll('[data-mobile-menu] nav a').length,
       hasCommons: Boolean(document.querySelector('[data-mobile-menu] a[href="commons.html#property-desk"]')),
       hasCalendar: Boolean(document.querySelector('[data-mobile-menu] a[href="calendar.html#academic-calendar"]')),
+      hasCareers: Boolean(document.querySelector('[data-mobile-menu] a[href="careers.html#graduation-audit"]')),
       backgroundInert: document.querySelector('main').hasAttribute('inert')
     };
   })()`);
@@ -2717,6 +2896,7 @@ try {
       && mobileMenu.links >= 19
       && mobileMenu.hasCommons
       && mobileMenu.hasCalendar
+      && mobileMenu.hasCareers
       && mobileMenu.backgroundInert
       && mobileFocus,
     "Mobile navigation did not open completely or move keyboard focus into its modal layer.",
@@ -2727,7 +2907,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, six-desk festival permits/live routes/clinic load/field closure, 24-station fieldwork dispatch/complication/return/passport/BBS linkage, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, eight-desk graduation/degree, twelve-path careers/referral, Hyakki Yagyo alumni/mentorship, six-desk festival permits/live routes/clinic load/field closure, 24-station fieldwork dispatch/complication/return/passport/BBS linkage, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();

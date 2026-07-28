@@ -94,6 +94,16 @@ export const localRecordGroups = [
     ),
   },
   {
+    id: "careers",
+    mark: "卒",
+    title: l("卒業、進路與校友", "卒業・進路・同窓", "Graduation, careers & alumni"),
+    note: l(
+      "八席判定、學位、進路媒合與百鬼夜行校友籍。",
+      "八席判定、学位、進路照合、百鬼夜行校友籍。",
+      "Eight-desk audits, degrees, career matching, and Hyakki Yagyo alumni files.",
+    ),
+  },
+  {
     id: "preferences",
     mark: "栞",
     title: l("介面書籤", "画面の栞", "Interface bookmarks"),
@@ -194,6 +204,12 @@ export const localRecordRegistry = [
   record("tu:post:state", "commons", l("鴉天狗通知已讀、釘選與訂正狀態", "鴉天狗通知の既読・固定・訂正状態", "Tengu-post read, pin & correction state")),
   record("tu:post:dispatches", "commons", l("校園郵便寄件卷", "学内郵便発送記録", "Campus-post dispatch files")),
   record("tu:calendar:bookmarks", "commons", l("學年曆紅書籤", "学年暦の赤い栞", "Academic-calendar red bookmarks")),
+
+  record("tu:graduation:audits", "careers", l("八席卒業判定卷", "八席卒業判定記録", "Eight-desk graduation audits")),
+  record("tu:graduation:degrees", "careers", l("開封學位證書", "開封済み学位証書", "Unsealed degree records")),
+  record("tu:careers:draft", "careers", l("進路志望草稿", "進路希望下書き", "Career preference draft"), { kind: "draft" }),
+  record("tu:careers:plans", "careers", l("進路媒合與推薦卷", "進路照合・推薦記録", "Career matching & referral files")),
+  record("tu:alumni:profile", "careers", l("百鬼夜行校友籍", "百鬼夜行校友籍", "Hyakki Yagyo alumni file")),
 
   record("tu:locale", "preferences", l("網站語言", "サイト言語", "Site language"), { kind: "preference", scope: "interface", encoding: "text" }),
   record("tu:audience", "preferences", l("訪客導覽入口", "訪問者向け案内入口", "Audience path"), { kind: "preference", scope: "interface", encoding: "text" }),
