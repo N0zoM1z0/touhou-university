@@ -48,6 +48,9 @@ The research follows the method already established in
 - `graduation-careers-alumni-notes.md` — eight-desk graduation evidence,
   twelve explained-friction destinations, eight problem-based alumni chapters
   and their causal/local-record boundaries.
+- `employment-market-notes.md` — non-exclusive graduate whereabouts,
+  denominator hearings, twenty-one strange vacancies, odd-résumé replies,
+  employment event projections and recruitment-poster provenance.
 
 ## Internal editorial labels
 

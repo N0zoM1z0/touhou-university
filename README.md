@@ -35,7 +35,7 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   lifecycle ledger, joint faculty application reviews and printable decision
   letters;
 - a unified on-device records cabinet that discovers every `tu:` local or
-  session file, catalogues 68 known keys across university shelves, shows exact
+  session file, catalogues 71 known keys across university shelves, shows exact
   UTF-8 usage and browser-origin visibility, opens raw contents, exports a
   SHA-256-sealed JSON box, validates imports before writing, preserves or
   explicitly overwrites name collisions, and destroys one file, one shelf or
@@ -105,6 +105,12 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   explained reasons and cautions, real duties, compensation, duty bells,
   travel, named friction, refusal boundaries and interview questions. Saved
   plans can send one causally linked crow-tengu referral per opening;
+- a Gensokyo Employment Market with twenty-one detailed recruitment notices,
+  four original photocopied poster illustrations, trouble/time/risk filtering,
+  autosaved odd résumés, disputable employer reviews and applicant edition-two
+  replies; its Graduate Whereabouts Echo Roll offers five counting bases, five
+  observation windows and eight overlapping outcomes instead of one
+  promotional employment percentage;
 - a Hyakki Yagyo Alumni Association with eight question-based chapters,
   date/moon/bell-varying lantern routes, degree-gated personal alumni files,
   reunion replies and returning fieldwork mentorship boundaries;
@@ -154,7 +160,7 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   a trilingual in-universe history record, correction note and real version
   source, while mechanical merge commits separately expose their second-parent
   functional change without confusing the two SHAs;
-- a separate Hieda campus knowledge graph with twelve cross-files and 80 source
+- a separate Hieda campus knowledge graph with twelve cross-files and 82 source
   leaves that can be inverted by event, 23 characters, or first-parent
   version/time; every leaf resolves back to existing incident, evidence,
   governance, BBS, course, research, library, appraisal, housing or chronicle
@@ -209,13 +215,14 @@ npm run dev                 # rebuild on change and serve at localhost:4173
 npm run build               # generate nineteen pages and shared/per-page CSS bundles
 npm run check               # build + all source, data, relationship and history contracts
 npm run check:i18n          # stable/legacy keys, collisions, titles and interpolation parity
-npm run check:contracts     # 73 event types, producer coverage and causal lifecycle fixtures
+npm run check:contracts     # 76 event types, producer coverage and causal lifecycle fixtures
 npm run check:knowledge     # Hieda sources, five-form dossiers, characters, routes and versions
 npm run check:ethics        # five cases/seats, non-averaged rulings, routes, records and events
 npm run check:festival      # six desks, field cases, routing/clinic overlays and closure
 npm run check:fieldwork     # 24 stations, dispatch, complications, returns and repeat seals
 npm run check:commons       # object hearings, tengu post, seasons, moon and live projections
 npm run check:careers       # 8 audit desks, 12 destinations, 8 chapters and causal/local records
+npm run check:employment    # 21 jobs, denominator shifts, odd résumés, assets, routes and events
 npm run check:gaokao        # marks, translations, rotation-safe explanations, key balance and offline files
 npm run check:courses       # catalogue parity, translations, times, capacity, prerequisites and unusual conflicts
 npm run check:library       # holdings, translations, facets, loan terms and course-reserve references

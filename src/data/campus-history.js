@@ -791,10 +791,9 @@ export const campusHistory = [
   {
     id: "degree-arrives-nine-minutes-after-alumni-invitation",
     archiveId: "TU-H-033",
-    commit: null,
+    commit: "9949cd1363d9c64e733b627bd2c96ab2399e08f0",
     commitSubject: "Add Gensokyo graduation careers and alumni systems",
     recordedAt: "2026-07-28",
-    planned: true,
     category: "registry",
     era: l("翌日・校友邀請已送達九分鐘", "翌日・同窓招待状の配達九分後", "Next day · Nine minutes after the alumni invitation arrived"),
     title: l(
@@ -811,6 +810,31 @@ export const campusHistory = [
       "琪露諾第三次忘記自己已經畢業，於是連續取得三份同號證書；慧音把其中兩份改成出席紀錄。蕾米莉亞要求進路室提供「命運已保證錄取」欄，職員在旁加了「不構成雇用承諾」。文在學位開封前九分鐘刊出校友名冊；紫把名冊的入學年與畢業年交換，阿求沒有修正，只在兩個年份之間牽了一條紅線。",
       "チルノは卒業済みを三度忘れ、同番号の証書を三枚取得。慧音は二枚を出席記録へ訂正した。レミリアは進路室へ「運命が採用を保証」欄を要求し、職員は横に「雇用保証ではない」と追記。文は学位開封九分前に同窓名簿を発行。紫が入学年と卒業年を交換したため、阿求は訂正せず二年の間へ赤糸を結んだ。",
       "Cirno forgets graduating three times and receives three certificates with one number; Keine converts two into attendance records. Remilia demands a “fate guarantees hire” field, and Careers adds “not an employment promise.” Aya prints the alumni roll nine minutes before the degree is unsealed. Yukari swaps its enrolment and graduation years; Akyuu does not correct them, only ties a red thread between both.",
+    ),
+  },
+  {
+    id: "employment-denominator-refuses-one-rate",
+    archiveId: "TU-H-034",
+    commit: null,
+    commitSubject: "Add Gensokyo employment market and recruitment systems",
+    recordedAt: "2026-07-29",
+    planned: true,
+    category: "registry",
+    era: l("翌日・分母聽證尚未散席", "翌日・分母聴聞はまだ散会せず", "Next day · The denominator hearing remains in session"),
+    title: l(
+      "一四六名卒業生留下更多份去向，二十一張招聘告示則各自藏著一種上班時間",
+      "卒業生146名がそれ以上の進路を残し、二十一の求人は別々の勤務時間を隠す",
+      "One hundred forty-six graduates leave more whereabouts; twenty-one notices conceal twenty-one views of work time",
+    ),
+    summary: l(
+      "進路室不再把離校去向壓成一個適合校門布條的百分比。本人、可到班身體、魂魄、登記姓名與雇主口供各有一種分母；正午、滿月、彼岸週、被刪除的週三與境界換側又各自改動點名。同一位卒業生可以領日圓、住在館內、死後仍在職、被兩個雇主同時認領，或沒有失蹤而只是拒絕被觀測，因此有效口供的總數被允許大於分母。招聘告示架同時掛出二十一份工作：紅魔館的零分鐘夜班、河童工房第一百二十九日臨時維修、三途川死後排隊申訴、明日頭條預先撤回、心讀缺字速記、昨日線乘務，以及工具本人要求共同應徵的物權勞動桌。每份職缺保留薪資、怪條款、試工題與雇主回音；怪歷書會保存草稿、初審與本人第二版答覆，並聯動鴉天狗郵便、BBS、My TU、本機資料櫃與稗田索引。",
+      "進路室は離校先を校門の横断幕向け百分率へ圧縮しなくなった。本人、出勤可能な身体、魂魄、登録名、雇主申告ごとに分母があり、正午・満月・彼岸週・削除水曜・境界反転が点呼を変える。同じ卒業生が円給、館内居住、死後勤務、二雇主の同時在籍、失踪でなく観測拒否を同時に持てるため、有効証言の合計は分母を超えてよい。求人棚には紅魔館0分夜勤、河童工房129日目の仮修理、三途川の死後待列不服、明日見出し事前撤回、心読欠字速記、昨日線乗務、工具本人が共同応募する物権労働机など二十一件を掲示。各求人は賃金、怪条項、試用課題、雇主回答を保持し、怪歴書の下書き・初審・本人第二版は鴉天狗郵便、BBS、My TU、端末内資料棚、稗田索引へ連動する。",
+      "Careers no longer compresses graduate whereabouts into a percentage fit for a gate banner. Person, work-capable body, soul, registered name, and employer claim each define a denominator; noon, full moon, Higan week, an erased Wednesday, and a border-side swap alter the roll again. One graduate may receive yen, live in-house, work after death, be claimed by two employers, or be unmissing yet refuse observation, so valid statements may exceed the denominator. The rack publishes twenty-one roles: a Scarlet zero-minute night shift, day-129 kappa repair, posthumous Sanzu queue appeals, advance retraction of tomorrow's headline, mind-reading redaction, Yesterday Line crew, and a labour/property desk where the tool co-applies. Every file retains pay, strange clause, trial, and employer reply; odd-résumé drafts, first reviews, and applicant edition-two responses connect to Tengu Post, BBS, My TU, the on-device cabinet, and Hieda Index.",
+    ),
+    marginalia: l(
+      "蕾米莉亞先把二十三名尚未投遞的人算作命運保證錄用，咲夜把他們排進同一個零分鐘；映姬要求把兩件事分開。妖夢詢問半靈能否領兩份薪水，幽幽子則問兩份薪水是否附兩份晚餐。荷取在招聘海報背面貼上第十三層膠帶並宣布它仍是臨時版本。文以『本校就業口供達一一九％』刊出號外；阿求沒有撤稿，只在標題下加了一行：分母正在申訴。",
+      "レミリアは未応募23名を運命による採用済みと先に数え、咲夜は全員を同じ0分へ配属。映姫は二件を分けるよう要求した。妖夢は半霊が二給を受け取れるか尋ね、幽々子は二給に夕食二つが付くか尋ねる。にとりは求人裏へ十三層目のテープを貼り、なお仮版と宣言。文は「本学就業証言119％」の号外を出した。阿求は撤回せず、見出し下へ一行だけ足す――分母が不服申立て中。",
+      "Remilia pre-counts twenty-three non-applicants as fate-guaranteed hires, and Sakuya schedules them all in the same zero minute; Eiki orders the claims separated. Youmu asks whether a half-phantom earns two wages, while Yuyuko asks whether two wages include two dinners. Nitori tapes a thirteenth layer behind the poster and declares it still temporary. Aya prints “University employment testimony reaches 119%.” Akyuu does not retract it; she adds one line below: the denominator is appealing.",
     ),
   },
 ];

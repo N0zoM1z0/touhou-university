@@ -17,6 +17,7 @@ import { fieldworkLocalized, fieldworkStations } from "../data/fieldwork.js";
 import { propertyItems, propertyLocalized } from "../data/property.js";
 import { academicCalendarEvents, academicCalendarLocalized } from "../data/academic-calendar.js";
 import { alumniChapters, careerOpenings, careersLocalized } from "../data/careers.js";
+import { employmentJobs, employmentLocalized } from "../data/employment.js";
 import { phantasmCourses } from "../data/phantasm.js";
 import {
   dossiersForCharacter,
@@ -48,6 +49,11 @@ import {
   graduationAudits,
   graduationDegrees,
 } from "./careers-model.js";
+import {
+  employmentApplications,
+  employmentAttestations,
+  employmentCommunityPosts,
+} from "./employment-model.js";
 import { phantasmCommunityPosts } from "./phantasm-model.js";
 import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
 
@@ -267,6 +273,15 @@ const domainManifests = [
             opening,
             78,
           )),
+        ...employmentJobs.map((job) =>
+          entry(
+            `employment-job-${job.id}`,
+            "career",
+            `${job.code} · ${employmentLocalized(job.title, locale)}`,
+            `${employmentLocalized(job.employer, locale)} · ${employmentLocalized(job.clause, locale)}`,
+            job,
+            81,
+          )),
         ...alumniChapters.map((chapter) =>
           entry(
             `alumni-chapter-${chapter.id}`,
@@ -282,12 +297,34 @@ const domainManifests = [
           entry(`graduation-degree-${degree.id}`, "graduation", degree.degreeNumber, degree.unresolvedQuestion, degree, 87)),
         ...careerPlans().map((plan) =>
           entry(`career-plan-${plan.id}`, "career", plan.id, plan.profile.question, plan, 83)),
+        ...employmentApplications().map((application) => {
+          const job = employmentJobs.find(({ id }) => id === application.jobId);
+          return entry(
+            `employment-application-${application.id}`,
+            "career",
+            `${application.id} · ${employmentLocalized(job?.title, locale)}`,
+            `${application.profile.displayName} · ${application.decisionId}`,
+            application,
+            86,
+          );
+        }),
+        ...employmentAttestations().map((attestation) =>
+          entry(
+            "employment-outcomes",
+            "career",
+            attestation.displayName,
+            `${attestation.outcomeId} · ${attestation.note}`,
+            attestation,
+            82,
+          )),
         ...(profile ? [entry(`alumni-chapter-${profile.chapterId}`, "alumni", profile.displayName, profile.unresolvedQuestion, profile, 84)] : []),
       ];
     },
-    community: careersCommunityPosts,
+    community(locale) {
+      return [...employmentCommunityPosts(locale), ...careersCommunityPosts(locale)];
+    },
     communityPriority: 71,
-    changeEvents: ["tu:careerschange"],
+    changeEvents: ["tu:careerschange", "tu:employmentchange"],
   },
   {
     id: "campus",

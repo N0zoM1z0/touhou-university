@@ -166,6 +166,34 @@ finish, perfect symmetry, legible generated text, logos and named-artist
 imitation. Generated 2026-07-24 in the built-in image tool, then resized,
 metadata-stripped and converted to 1536×1024 WebP at quality 82.
 
+### Employment notice set — photocopied Gensokyo classifieds
+
+Files:
+
+`assets/images/employment/{scarlet-night-shift,kappa-workshop,sanzu-appeals,tengu-corrections}.webp`
+
+Built-in image generation sources:
+
+- Scarlet zero-minute night shift: `call_ZqH6KguIcsjAu8oaniWotwg3.png`
+- Kappa taped workshop: `call_0ohBnwEnSDuYtMBsg4wBFpaz.png`
+- Sanzu queue appeals: `call_fUpDuW8M4m2DfNtDPtwbARvR.png`
+- Tengu advance corrections: `call_3VEmi90N357ItCbG4gnRBRLH.png`
+
+Generated 2026-07-29 for the employment notice rack. The shared brief asked
+for original black-ink, cheap photocopy / risograph classifieds on aged cream
+paper, deliberately crooked registration, rough screentone, pasted corrections
+and blank paper labels reserved for live HTML copy. The scenes depict a calm
+chief maid with exhausted fairy coworkers and disagreeing clocks, a kappa
+turbine held together with tape, an afterlife queue beside a ferry and judge,
+and a crow-tengu corrections office whose letters arrive before dispatch.
+
+The user-supplied monochrome maid-recruitment page was used only as a high-level
+reference for the handmade in-world-advertisement idea. The prompts explicitly
+excluded copying its exact layout or text, readable generated copy, logos,
+watermarks and named-artist imitation. The reference page is not shipped by the
+site. Tool PNGs were resized to 760×1188, stripped of metadata, and encoded as
+WebP quality 76; final files are approximately 164–248 KiB each.
+
 Shared constraints:
 
 - original editorial gouache/ink composition;

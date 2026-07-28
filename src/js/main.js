@@ -83,6 +83,7 @@ if (!redirected) {
     initialize("[data-commons-app]", "./commons.js", "initCommons"),
     initialize("[data-academic-calendar-app]", "./academic-calendar.js", "initAcademicCalendar"),
     initialize("[data-careers-app]", "./careers.js", "initCareers"),
+    initialize("[data-employment-app]", "./employment.js", "initEmployment"),
     initialize("#bbs", "./bbs.js", "initBbs"),
     initialize("[data-campus-feature]", "./campus.js", "initCampusInteractions"),
     initialize("[data-news-track]", "./news.js", "initNews"),

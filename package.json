@@ -1,6 +1,6 @@
 {
   "name": "touhou-university",
-  "version": "0.28.0",
+  "version": "0.29.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -29,10 +29,11 @@
     "check:fieldwork": "node scripts/check-fieldwork.mjs",
     "check:commons": "node scripts/check-commons-calendar.mjs",
     "check:careers": "node scripts/check-careers.mjs",
+    "check:employment": "node scripts/check-employment.mjs",
     "check:history": "node scripts/check-campus-history.mjs",
     "history:status": "node scripts/check-campus-history.mjs",
     "test:browser": "npm run build && node scripts/smoke-browser.mjs",
     "capture": "npm run build && node scripts/capture-ui.mjs",
-    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:contracts && npm run check:knowledge && npm run check:ethics && npm run check:festival && npm run check:fieldwork && npm run check:commons && npm run check:careers && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:phantasm && npm run check:records && npm run check:interactions && npm run check:live && npm run check:history"
+    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:contracts && npm run check:knowledge && npm run check:ethics && npm run check:festival && npm run check:fieldwork && npm run check:commons && npm run check:careers && npm run check:employment && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:phantasm && npm run check:records && npm run check:interactions && npm run check:live && npm run check:history"
   }
 }

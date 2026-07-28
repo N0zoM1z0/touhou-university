@@ -98,9 +98,9 @@ export const localRecordGroups = [
     mark: "卒",
     title: l("卒業、進路與校友", "卒業・進路・同窓", "Graduation, careers & alumni"),
     note: l(
-      "八席判定、學位、進路媒合與百鬼夜行校友籍。",
-      "八席判定、学位、進路照合、百鬼夜行校友籍。",
-      "Eight-desk audits, degrees, career matching, and Hyakki Yagyo alumni files.",
+      "八席判定、學位、進路媒合、怪歷書、離校去向口供與百鬼夜行校友籍。",
+      "八席判定、学位、進路照合、怪歴書、離校先証言、百鬼夜行校友籍。",
+      "Eight-desk audits, degrees, career matching, odd résumés, whereabouts statements, and Hyakki Yagyo alumni files.",
     ),
   },
   {
@@ -209,6 +209,9 @@ export const localRecordRegistry = [
   record("tu:graduation:degrees", "careers", l("開封學位證書", "開封済み学位証書", "Unsealed degree records")),
   record("tu:careers:draft", "careers", l("進路志望草稿", "進路希望下書き", "Career preference draft"), { kind: "draft" }),
   record("tu:careers:plans", "careers", l("進路媒合與推薦卷", "進路照合・推薦記録", "Career matching & referral files")),
+  record("tu:employment:draft", "careers", l("幻想鄉怪歷書草稿", "幻想郷怪歴書下書き", "Gensokyo odd-résumé draft"), { kind: "draft" }),
+  record("tu:employment:applications", "careers", l("招聘投遞、初審與本人回覆", "求人応募・初審・本人返信", "Recruitment applications, reviews & replies")),
+  record("tu:employment:attestations", "careers", l("離校去向本機口供", "離校先の端末内証言", "On-device graduate whereabouts statements")),
   record("tu:alumni:profile", "careers", l("百鬼夜行校友籍", "百鬼夜行校友籍", "Hyakki Yagyo alumni file")),
 
   record("tu:locale", "preferences", l("網站語言", "サイト言語", "Site language"), { kind: "preference", scope: "interface", encoding: "text" }),

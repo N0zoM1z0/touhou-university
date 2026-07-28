@@ -24,6 +24,7 @@ import { propertyItems } from "./property.js";
 import { postSeedMessages } from "./post.js";
 import { academicCalendarEvents } from "./academic-calendar.js";
 import { alumniChapters, careerOpenings } from "./careers.js";
+import { employmentJobs, employmentOutcomeKinds } from "./employment.js";
 
 const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
@@ -610,14 +611,17 @@ export const knowledgeDossiers = Object.freeze([
       "慧音は必修と年代の追跡を要求するが、阿求は卒業後に登録された入学記録を発見。文は同窓名簿を発行済み、紫は学位年を紙背へ移す。進路室が問えるのは、この版のあなたが明日何を拒むかだけ。",
       "Keine demands traceable cores and chronology; Akyuu finds an admission entered after graduation. Aya has published the alumni roll, while Yukari moves the degree year to the reverse. Careers can only ask what this edition of you will refuse tomorrow.",
     ),
-    characters: ["akyuu", "keine", "aya", "yukari", "eiki", "reimu", "youmu", "yuyuko"],
-    versions: ["degree-arrives-nine-minutes-after-alumni-invitation", "lost-things-appeal-mail-arrives-before-spring", "five-records-share-one-red-thread"],
+    characters: ["akyuu", "keine", "aya", "yukari", "eiki", "reimu", "sakuya", "youmu", "yuyuko"],
+    versions: ["employment-denominator-refuses-one-rate", "degree-arrives-nine-minutes-after-alumni-invitation", "lost-things-appeal-mail-arrives-before-spring", "five-records-share-one-red-thread"],
     eventQueries: [{
       types: [
         "graduation.audit.requested",
         "graduation.degree.issued",
         "career.plan.submitted",
         "career.referral.sent",
+        "employment.application.submitted",
+        "employment.application.responded",
+        "employment.outcome.attested",
         "alumni.profile.activated",
         "alumni.reunion.rsvp",
         "alumni.mentorship.offered",
@@ -627,6 +631,8 @@ export const knowledgeDossiers = Object.freeze([
     records: [
       record("graduation-capstone", "learning", "course", "HRS-410", ["akyuu", "keine"], l("卒業檔案必須保留一份本人不相信、卻不能刪除的版本；判定席也不得把它改成較好看的平均值。", "卒業資料には本人が信じないが削除できない版を残す。判定席も見栄えのよい平均へ変えてはならない。", "The capstone keeps one version the graduate distrusts but may not delete; the board may not average it into a prettier result.")),
       record("missing-year-job", "case", "career-opening", "terakoya-missing-year", ["keine", "akyuu"], l("進路卷要求補上被刪除的週三，卻禁止把想像的課堂寫成親見；職缺因此同時缺人與缺一天。", "進路記録は削除された水曜の補講を求めるが、想像の授業を直接観察として書くことは禁止。求人は人と一日の両方を欠く。", "The role restores deleted Wednesdays but forbids recording imagined lessons as observed; the vacancy lacks both a person and a day.")),
+      record("zero-minute-recruitment", "report", "employment-job", "scarlet-zero-minute-maid", ["sakuya", "akyuu", "eiki"], l("紅魔館把衣食住、零分鐘夜班與停止時間不計加班寫在同一張廣告；阿求保存初版，映姬要求後半句不得只用紅圈代替裁定。", "紅魔館は衣食住・0分夜勤・停止時間の残業不算入を同じ求人へ記す。阿求は初版を保存し、映姫は後半を赤丸だけで裁定したことにしない。", "The Scarlet notice puts room and board, a zero-minute night shift, and stopped-time overtime on one sheet. Akyuu keeps version one; Eiki refuses to treat a red circle as a ruling.")),
+      record("denominator-hearing", "correction", "employment-outcome", "multiple", ["akyuu", "keine", "aya", "yukari", "youmu", "yuyuko"], l("同一屆一四六人留下多於一四六份有效去向：半靈分開簽到、兩個雇主同時認領、死後仍在職，以及一條拒絕被觀測的路線。這不是計算錯誤，而是計算規則正在被當事人反對。", "同じ146名から146を超える有効進路が残る。半霊の別签到、二雇主の同時在籍、死後勤務、観測拒否経路。計算誤りではなく、計数規則へ当事者が異議を出している。", "One cohort of 146 leaves more than 146 valid whereabouts: separate half-phantom check-ins, dual employer claims, posthumous duty, and a route refusing observation. The arithmetic is not broken; its subjects dispute the counting rule.")),
       record("late-arrival-alumni", "community", "alumni-chapter", "higan-late-arrivals", ["eiki", "akyuu"], l("彼岸支部準時在彼岸週結束後集合，仍在爭論已死但尚未入學者能否補登校友籍。", "彼岸支部は彼岸週終了後に定刻集合し、死亡済み未入学者の校友補記をなお議論する。", "The Higan chapter starts punctually after Higan week and still debates alumni status for the deceased but not yet enrolled.")),
       record("early-invitation", "report", "post-message", "admission-before-application", ["aya", "akyuu"], l("早於申請抵達的錄取信成為早於卒業抵達的校友邀請之先例；訂正版沒有撤回第一版，只把前因寄到後面。", "出願より先に届く合格通知が、卒業前に届く同窓招待の先例となる。訂正版は初版を撤回せず、原因を後から郵送した。", "The offer arriving before application becomes precedent for an alumni invitation arriving before graduation; correction mails the cause later without withdrawing version one.")),
       record("phantom-count", "evidence", "fieldwork-station", "hakugyokurou", ["youmu", "yuyuko"], l("白玉樓場地印只證明妖夢把名冊帶回；不證明半靈算一人、兩人，或幽幽子點名後才追加的一席。", "白玉楼印は妖夢が名簿を持ち帰った証明であり、半霊が一名か二名か、幽々子が点呼後に足した一席かは証明しない。", "The Hakugyokurou seal proves Youmu returned with a roll, not whether a half-phantom counts as one, two, or Yuyuko's post-roll extra seat.")),
@@ -659,6 +665,8 @@ const sourceCollections = {
   "post-message": postSeedMessages,
   "calendar-event": academicCalendarEvents,
   "career-opening": careerOpenings,
+  "employment-job": employmentJobs,
+  "employment-outcome": employmentOutcomeKinds,
   "alumni-chapter": alumniChapters,
 };
 
@@ -692,6 +700,8 @@ function routeForSource(source) {
     "post-message": `post-message-${source.id}`,
     "calendar-event": `calendar-event-${source.id}`,
     "career-opening": `career-opening-${source.id}`,
+    "employment-job": `employment-job-${source.id}`,
+    "employment-outcome": "employment-outcomes",
     "alumni-chapter": `alumni-chapter-${source.id}`,
   };
   return routes[source.type] || "top";
@@ -818,6 +828,14 @@ export function resolveKnowledgeRecord(recordEntry, locale = "zh-Hant") {
     case "career-opening":
       title = localized(source.title, locale);
       detail = `${source.code} · ${localized(source.institution, locale)}`;
+      break;
+    case "employment-job":
+      title = localized(source.title, locale);
+      detail = `${source.code} · ${localized(source.employer, locale)}`;
+      break;
+    case "employment-outcome":
+      title = localized(source.title, locale);
+      detail = localized(source.note, locale);
       break;
     case "alumni-chapter":
       title = localized(source.title, locale);

@@ -2555,6 +2555,9 @@ try {
     localStorage.removeItem('tu:graduation:degrees');
     localStorage.removeItem('tu:careers:plans');
     localStorage.removeItem('tu:careers:draft');
+    localStorage.removeItem('tu:employment:draft');
+    localStorage.removeItem('tu:employment:applications');
+    localStorage.removeItem('tu:employment:attestations');
     localStorage.removeItem('tu:alumni:profile');
     return true;
   })()`);
@@ -2686,11 +2689,95 @@ try {
     await cdp.evaluate("location.hash === '#career-opening-terakoya-missing-year' && document.querySelector('.career-opening-file')?.textContent.includes('被刪週三')"),
     "Career destination deep link did not open the exact Terakoya file.",
   );
-  await navigate("hieda.html#hieda-event-graduation-before-enrolment", "[data-hieda-index-app]");
-  await eventually(() => cdp.evaluate("document.querySelectorAll('.hieda-record').length === 6"));
+
+  await navigate("careers.html#employment-job-scarlet-zero-minute-maid", ".employment-job-file");
+  const employmentInitial = await cdp.evaluate(`(() => {
+    const denominator = document.querySelector('.employment-denominator strong')?.textContent;
+    const basis = document.querySelector('[data-employment-basis]');
+    basis.value = 'employer';
+    basis.dispatchEvent(new Event('change', { bubbles: true }));
+    return {
+      route: location.hash,
+      cards: document.querySelectorAll('.employment-job-card').length,
+      file: document.querySelector('.employment-job-file h3')?.textContent || '',
+      denominator
+    };
+  })()`);
+  await eventually(() => cdp.evaluate("document.querySelector('[data-employment-basis]')?.value === 'employer'"));
+  await cdp.evaluate(`(() => {
+    const observation = document.querySelector('[data-employment-observation]');
+    observation.value = 'higan';
+    observation.dispatchEvent(new Event('change', { bubbles: true }));
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("document.querySelector('.employment-denominator strong')?.textContent === '208'"));
   check(
-    await cdp.evaluate("document.querySelectorAll('.hieda-local-ledger li').length >= 7"),
-    "Hieda graduation dossier did not project the seven local causal events.",
+    employmentInitial.route === "#employment-job-scarlet-zero-minute-maid"
+      && employmentInitial.cards === 21
+      && employmentInitial.file.includes("零分鐘夜班")
+      && employmentInitial.denominator === "142",
+    `Employment exact link, notice rack, or initial denominator failed (${JSON.stringify(employmentInitial)}).`,
+  );
+  await cdp.evaluate(`(() => {
+    const form = document.querySelector('[data-employment-apply]');
+    form.elements.displayName.value = '外界怪歷書測試生';
+    form.elements.strength.value = '曾在停止時間裡把三份互相矛盾的排班表按版本裝訂';
+    form.elements.boundary.value = '拒絕沒有明確結束方式、也不保留申訴欄的零分鐘班次';
+    form.elements.desiredPay.value = '日圓與停止時間加班分欄';
+    form.elements.availability.value = 'nonlinear';
+    form.elements.nonlinearReady.checked = true;
+    form.elements.clauseAccepted.checked = true;
+    form.requestSubmit();
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("location.hash.startsWith('#employment-application-TU-JOB-') && Boolean(document.querySelector('.employment-application-file'))"));
+  await cdp.evaluate(`(() => {
+    const form = document.querySelector('[data-employment-response]');
+    form.querySelector('[value=\"correction\"]').checked = true;
+    form.elements.note.value = '請把零分鐘不計加班與不扣休息拆成兩個可申訴欄。';
+    form.requestSubmit();
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('.employment-response-saved'))"));
+  await navigate("careers.html#employment-outcomes", "[data-employment-attest]");
+  await cdp.evaluate(`(() => {
+    const form = document.querySelector('[data-employment-attest]');
+    form.elements.displayName.value = '外界怪歷書測試生';
+    form.elements.outcomeId.value = 'multiple';
+    form.elements.simultaneous.checked = true;
+    form.elements.note.value = '同時被紅魔館與昨日線認領，但兩邊尚未收到同一版的我。';
+    form.requestSubmit();
+    return true;
+  })()`);
+  await eventually(() => cdp.evaluate("JSON.parse(localStorage.getItem('tu:employment:attestations') || '[]').length === 1"));
+  const employmentFlow = await cdp.evaluate(`(() => {
+    const applications = JSON.parse(localStorage.getItem('tu:employment:applications') || '[]');
+    const attestations = JSON.parse(localStorage.getItem('tu:employment:attestations') || '[]');
+    const types = new Set(JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]').map(({ type }) => type));
+    return {
+      applications: applications.length,
+      response: applications[0]?.response?.kind,
+      attestations: attestations.length,
+      eventTypes: [
+        'employment.application.submitted',
+        'employment.application.responded',
+        'employment.outcome.attested'
+      ].filter((type) => types.has(type)).length
+    };
+  })()`);
+  check(
+    employmentFlow.applications === 1
+      && employmentFlow.response === "correction"
+      && employmentFlow.attestations === 1
+      && employmentFlow.eventTypes === 3,
+    `Employment application, edition-two reply, whereabouts, or causal linkage failed (${JSON.stringify(employmentFlow)}).`,
+  );
+
+  await navigate("hieda.html#hieda-event-graduation-before-enrolment", "[data-hieda-index-app]");
+  await eventually(() => cdp.evaluate("document.querySelectorAll('.hieda-record').length === 8"));
+  check(
+    await cdp.evaluate("document.querySelectorAll('.hieda-local-ledger li').length >= 10"),
+    "Hieda graduation dossier did not project the ten local causal events.",
   );
 
   await cdp.evaluate(`(() => {
@@ -2907,7 +2994,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, eight-desk graduation/degree, twelve-path careers/referral, Hyakki Yagyo alumni/mentorship, six-desk festival permits/live routes/clinic load/field closure, 24-station fieldwork dispatch/complication/return/passport/BBS linkage, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, eight-desk graduation/degree, twelve-path careers/referral, twenty-one-job employment market/denominator hearing/odd-résumé replies, Hyakki Yagyo alumni/mentorship, six-desk festival permits/live routes/clinic load/field closure, 24-station fieldwork dispatch/complication/return/passport/BBS linkage, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();

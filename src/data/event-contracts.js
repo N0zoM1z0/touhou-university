@@ -375,6 +375,22 @@ const contracts = [
     causedBy: ["career.plan.submitted"],
     references: related(["career-plan", "planId"], ["career-opening", "openingId"]),
   }),
+  define("employment.application.submitted", l("寄發幻想鄉怪歷書", "幻想郷怪歴書を発送", "Dispatched a Gensokyo odd résumé"), {
+    subject: by("employment-application", "applicationId"), required: ["applicationId", "jobId", "decisionId"],
+    correlation: (payload) => `employment-application:${payload?.applicationId || ""}`,
+    references: related(["employment-job", "jobId"], ["employment-decision", "decisionId"]),
+  }),
+  define("employment.application.responded", l("回覆雇主第一版審查", "雇主の初版審査へ返信", "Responded to an employer's first-edition review"), {
+    subject: by("employment-application", "applicationId"), required: ["applicationId", "jobId", "response"],
+    correlation: (payload) => `employment-application:${payload?.applicationId || ""}`,
+    causedBy: ["employment.application.submitted"],
+    references: related(["employment-job", "jobId"], ["employment-response", "response"]),
+  }),
+  define("employment.outcome.attested", l("將離校去向夾入回聲簿", "離校先を反響簿へ綴じる", "Filed graduate whereabouts in the echo roll"), {
+    subject: by("employment-attestation", "attestationId"), required: ["attestationId", "outcomeId", "simultaneous"],
+    correlation: (payload) => `employment-attestation:${payload?.attestationId || ""}`,
+    references: related(["employment-outcome", "outcomeId"]),
+  }),
   define("alumni.profile.activated", l("開封百鬼夜行校友籍", "百鬼夜行校友籍を開封", "Unsealed a Hyakki Yagyo alumni file"), {
     subject: by("alumni-profile", "alumniId"), required: ["alumniId", "degreeId", "chapterId"],
     correlation: (payload) => `graduation-degree:${payload?.degreeId || ""}`,

@@ -1,0 +1,885 @@
+.employment-section {
+  --employment-ink: #14283a;
+  --employment-red: #9e2f3c;
+  --employment-rust: #9a5c32;
+  --employment-moss: #465f4a;
+  --employment-paper: #f4eddf;
+  --employment-paper-light: #fbf8f0;
+  --employment-rule: rgba(20, 40, 58, .2);
+  position: relative;
+  overflow: hidden;
+  padding: clamp(4.5rem, 8vw, 8rem) 0;
+  color: var(--employment-ink);
+  background:
+    linear-gradient(90deg, rgba(158, 47, 60, .035) 1px, transparent 1px) 0 0 / 34px 34px,
+    linear-gradient(rgba(158, 47, 60, .025) 1px, transparent 1px) 0 0 / 34px 34px,
+    #f7f2e9;
+}
+
+.employment-section::before {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 18% 12%, rgba(154, 92, 50, .1), transparent 26%);
+  content: "";
+  pointer-events: none;
+}
+
+.employment-loading {
+  min-height: 20rem;
+  padding: 3rem;
+  border: 1px solid var(--employment-rule);
+  background: var(--employment-paper);
+}
+
+.employment-loading p,
+.employment-hero p,
+.employment-heading > p,
+.employment-file-heading p {
+  margin: 0 0 .85rem;
+  color: var(--employment-red);
+  font-size: .76rem;
+  font-weight: 760;
+  letter-spacing: .18em;
+}
+
+.employment-loading h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 5vw, 4.5rem);
+}
+
+.employment-workspace {
+  position: relative;
+  display: grid;
+  gap: clamp(2.5rem, 7vw, 7rem);
+}
+
+.employment-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(18rem, .7fr);
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: end;
+  padding: clamp(2rem, 5vw, 5rem);
+  color: #fff9ee;
+  background:
+    linear-gradient(125deg, rgba(255, 255, 255, .03), transparent 40%),
+    var(--employment-ink);
+  box-shadow: .7rem .7rem 0 rgba(158, 47, 60, .18);
+}
+
+.employment-hero p { color: #e9aab0; }
+
+.employment-hero h2 {
+  max-width: 18ch;
+  margin: 0 0 1.25rem;
+  font-size: clamp(2.4rem, 5vw, 5.4rem);
+  line-height: .98;
+}
+
+.employment-hero > div > span {
+  display: block;
+  max-width: 66rem;
+  color: rgba(255, 249, 238, .78);
+  font-size: clamp(1rem, 1.5vw, 1.18rem);
+  line-height: 1.9;
+}
+
+.employment-hero dl {
+  display: grid;
+  gap: 1px;
+  margin: 0;
+  background: rgba(255, 255, 255, .18);
+}
+
+.employment-hero dl div {
+  padding: 1.25rem;
+  background: rgba(12, 29, 43, .9);
+}
+
+.employment-hero dt {
+  color: rgba(255, 249, 238, .6);
+  font-size: .8rem;
+}
+
+.employment-hero dd {
+  margin: .45rem 0 0;
+  font: 700 clamp(1.7rem, 3vw, 2.8rem)/1 var(--font-serif);
+}
+
+.employment-jump-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid var(--employment-rule);
+  background: var(--employment-paper-light);
+}
+
+.employment-jump-nav a {
+  display: flex;
+  min-height: 5.4rem;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.1rem 1.4rem;
+  border-right: 1px solid var(--employment-rule);
+  color: var(--employment-ink);
+  font: 650 1rem/1.35 var(--font-serif);
+  text-decoration: none;
+}
+
+.employment-jump-nav a:last-child { border-right: 0; }
+.employment-jump-nav a:hover { color: #fff; background: var(--employment-red); }
+
+.employment-jump-nav span {
+  display: grid;
+  width: 2.3rem;
+  height: 2.3rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  place-items: center;
+  font: 700 .7rem/1 var(--font-sans);
+}
+
+.employment-heading {
+  display: grid;
+  max-width: 72rem;
+  gap: .75rem;
+}
+
+.employment-heading h3 {
+  max-width: 24ch;
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 4.1rem);
+  line-height: 1.08;
+}
+
+.employment-heading > span {
+  max-width: 72rem;
+  color: #4f5d66;
+  font-size: 1.02rem;
+  line-height: 1.9;
+}
+
+.employment-census,
+.employment-market,
+.employment-records {
+  display: grid;
+  gap: 2rem;
+  scroll-margin-top: 8rem;
+}
+
+.employment-census-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--employment-rule);
+  background: rgba(255, 255, 255, .72);
+}
+
+.employment-census-controls label,
+.employment-filters label,
+.employment-attestation form > label:not(.employment-checkbox),
+.employment-application-form > label:not(.employment-checkbox),
+.employment-form-grid label,
+.employment-response-form > label {
+  display: grid;
+  gap: .5rem;
+  color: #4d5b66;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.employment-section input:not([type="checkbox"], [type="radio"], [type="range"]),
+.employment-section select,
+.employment-section textarea {
+  width: 100%;
+  border: 1px solid rgba(20, 40, 58, .3);
+  border-radius: 0;
+  padding: .8rem .9rem;
+  color: var(--employment-ink);
+  background: #fffdf7;
+  font: inherit;
+}
+
+.employment-section textarea {
+  resize: vertical;
+  line-height: 1.65;
+}
+
+.employment-section input:focus-visible,
+.employment-section select:focus-visible,
+.employment-section textarea:focus-visible {
+  outline: 3px solid rgba(158, 47, 60, .2);
+  outline-offset: 2px;
+  border-color: var(--employment-red);
+}
+
+.employment-denominator {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid var(--employment-rule);
+  background: var(--employment-rule);
+}
+
+.employment-denominator > div {
+  display: grid;
+  gap: .45rem;
+  padding: clamp(1.2rem, 3vw, 2rem);
+  background: var(--employment-paper-light);
+}
+
+.employment-denominator span {
+  color: #66717a;
+  font-size: .78rem;
+  letter-spacing: .06em;
+}
+
+.employment-denominator strong {
+  color: var(--employment-red);
+  font: 750 clamp(2rem, 5vw, 4rem)/1 var(--font-serif);
+}
+
+.employment-denominator > p {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 1rem 1.35rem;
+  color: #fff8ec;
+  background: var(--employment-ink);
+  line-height: 1.65;
+}
+
+.employment-denominator b { color: #efb6b9; }
+
+.employment-outcome-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border: 1px solid var(--employment-rule);
+  background: var(--employment-rule);
+  gap: 1px;
+}
+
+.employment-outcome-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1.25rem;
+  background: var(--employment-paper-light);
+}
+
+.employment-outcome-mark {
+  display: grid;
+  width: 2.8rem;
+  height: 2.8rem;
+  border: 1px solid var(--employment-red);
+  border-radius: 50%;
+  color: var(--employment-red);
+  place-items: center;
+  font: 700 1rem/1 var(--font-serif);
+}
+
+.employment-outcome-card header {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.employment-outcome-card h4 { margin: 0; font-size: 1rem; }
+.employment-outcome-card header strong { color: var(--employment-red); font: 700 1.5rem/1 var(--font-serif); }
+
+.employment-outcome-card p {
+  margin: .55rem 0 0;
+  color: #67727a;
+  font-size: .82rem;
+  line-height: 1.6;
+}
+
+.employment-outcome-bar {
+  height: 4px;
+  margin-top: .65rem;
+  overflow: hidden;
+  background: rgba(20, 40, 58, .1);
+}
+
+.employment-outcome-bar span {
+  display: block;
+  height: 100%;
+  background: var(--employment-red);
+}
+
+.employment-attestation {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+  gap: clamp(1.5rem, 4vw, 4rem);
+  padding: clamp(1.5rem, 4vw, 3.5rem);
+  border: 1px solid rgba(154, 92, 50, .35);
+  background:
+    linear-gradient(165deg, rgba(154, 92, 50, .08), transparent 45%),
+    var(--employment-paper);
+}
+
+.employment-attestation::before {
+  position: absolute;
+  top: -.5rem;
+  right: 6%;
+  width: 7rem;
+  height: 1.25rem;
+  transform: rotate(2deg);
+  background: rgba(205, 180, 132, .55);
+  content: "";
+}
+
+.employment-attestation > div > span,
+.employment-application-form header > span,
+.employment-response-saved > span {
+  color: var(--employment-rust);
+  font-size: .72rem;
+  font-weight: 760;
+  letter-spacing: .14em;
+}
+
+.employment-attestation h4,
+.employment-application-form h4,
+.employment-response-form h4 {
+  margin: .5rem 0;
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+}
+
+.employment-attestation p,
+.employment-application-form header p,
+.employment-response-form header p {
+  color: #59666d;
+  line-height: 1.75;
+}
+
+.employment-attestation form,
+.employment-application-form,
+.employment-response-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.employment-checkbox {
+  display: flex;
+  gap: .65rem;
+  align-items: flex-start;
+  color: #344854;
+  font-size: .86rem;
+  line-height: 1.55;
+}
+
+.employment-checkbox input { margin-top: .2rem; accent-color: var(--employment-red); }
+
+.employment-filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 1rem;
+  align-items: end;
+  padding: 1.25rem;
+  border: 1px solid var(--employment-rule);
+  background: rgba(255, 255, 255, .78);
+}
+
+.employment-filters label:has(input[type="range"]) {
+  grid-template-columns: 1fr auto;
+}
+
+.employment-filters label:has(input[type="range"]) input {
+  grid-column: 1 / -1;
+  accent-color: var(--employment-red);
+}
+
+.employment-filters > strong {
+  min-width: 8rem;
+  padding: .85rem 1rem;
+  color: #fff9ef;
+  background: var(--employment-ink);
+  font-size: .78rem;
+  text-align: center;
+}
+
+.employment-job-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.15rem;
+}
+
+.employment-job-card {
+  position: relative;
+  display: grid;
+  min-height: 32rem;
+  overflow: hidden;
+  border: 1px solid rgba(20, 40, 58, .26);
+  background: #ece1cf;
+  box-shadow: .35rem .4rem 0 rgba(20, 40, 58, .08);
+}
+
+.employment-job-card:nth-child(3n + 2) { transform: rotate(.2deg); }
+.employment-job-card:nth-child(4n + 3) { transform: rotate(-.18deg); }
+
+.employment-job-card.has-poster { grid-template-rows: minmax(18rem, 28rem) auto; }
+
+.employment-job-card > img {
+  width: 100%;
+  height: 100%;
+  min-height: 24rem;
+  object-fit: cover;
+  filter: saturate(.65) contrast(1.02);
+}
+
+.employment-job-copy {
+  position: relative;
+  display: grid;
+  gap: .65rem;
+  padding: 1.25rem;
+  background:
+    linear-gradient(rgba(255, 255, 255, .48), rgba(255, 255, 255, .16)),
+    var(--employment-paper);
+}
+
+.employment-job-copy::before {
+  position: absolute;
+  inset: 0;
+  border: .4rem double rgba(20, 40, 58, .08);
+  content: "";
+  pointer-events: none;
+}
+
+.employment-job-copy > span {
+  color: var(--employment-red);
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.employment-job-copy > p {
+  margin: 0;
+  color: #60686a;
+  font-size: .78rem;
+}
+
+.employment-job-copy h4 {
+  margin: 0;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  line-height: 1.25;
+}
+
+.employment-job-copy > small {
+  color: #59646a;
+  line-height: 1.65;
+}
+
+.employment-job-copy dl {
+  display: grid;
+  gap: .35rem;
+  margin: .3rem 0;
+}
+
+.employment-job-copy dl div {
+  display: flex;
+  gap: .5rem;
+  justify-content: space-between;
+  border-top: 1px dashed rgba(20, 40, 58, .22);
+  padding-top: .35rem;
+  font-size: .72rem;
+}
+
+.employment-job-copy dt { color: #69727a; }
+.employment-job-copy dd { margin: 0; text-align: right; }
+
+.employment-job-copy > a {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: .75rem;
+  border-top: 2px solid var(--employment-ink);
+  color: var(--employment-ink);
+  font-size: .84rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.employment-job-copy > a:hover { color: var(--employment-red); }
+
+.employment-classified-glyph {
+  display: grid;
+  min-height: 18rem;
+  place-items: center;
+  color: rgba(20, 40, 58, .76);
+  background:
+    repeating-linear-gradient(45deg, rgba(20, 40, 58, .04) 0 1px, transparent 1px 7px),
+    #e4d5bd;
+  font: 800 clamp(5rem, 14vw, 10rem)/1 var(--font-serif);
+}
+
+.employment-empty {
+  margin: 0;
+  padding: 2rem;
+  border: 1px dashed rgba(158, 47, 60, .45);
+  color: #5d656a;
+  background: var(--employment-paper-light);
+  text-align: center;
+}
+
+.employment-job-file,
+.employment-application-file {
+  scroll-margin-top: 8rem;
+  border: 1px solid rgba(20, 40, 58, .28);
+  background: var(--employment-paper-light);
+  box-shadow: .65rem .65rem 0 rgba(158, 47, 60, .12);
+}
+
+.employment-file-heading {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  color: #fff8ed;
+  background: var(--employment-ink);
+}
+
+.employment-file-heading p { color: #eeb2b7; }
+.employment-file-heading > div > span { color: rgba(255, 248, 237, .65); font-size: .78rem; }
+
+.employment-file-heading h3 {
+  max-width: 24ch;
+  margin: .5rem 0;
+  font-size: clamp(2rem, 4vw, 4rem);
+  line-height: 1.05;
+}
+
+.employment-file-actions {
+  display: flex;
+  gap: .65rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.employment-file-actions .button-secondary {
+  border-color: rgba(255, 255, 255, .45);
+  color: #fff;
+  background: rgba(255, 255, 255, .06);
+}
+
+.employment-file-layout {
+  display: grid;
+  grid-template-columns: minmax(18rem, .75fr) minmax(0, 1.25fr);
+}
+
+.employment-poster-sheet {
+  position: relative;
+  min-height: 34rem;
+  margin: 0;
+  padding: 1rem;
+  background: #dfcfb4;
+}
+
+.employment-poster-sheet img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 52rem;
+  object-fit: cover;
+  box-shadow: .3rem .35rem 0 rgba(20, 40, 58, .14);
+}
+
+.employment-poster-sheet figcaption {
+  position: absolute;
+  right: 1.8rem;
+  bottom: 2rem;
+  left: 1.8rem;
+  display: grid;
+  gap: .3rem;
+  padding: 1rem;
+  transform: rotate(-.6deg);
+  border: 2px solid rgba(20, 40, 58, .82);
+  color: var(--employment-ink);
+  background: rgba(247, 239, 223, .94);
+  box-shadow: .22rem .25rem 0 rgba(20, 40, 58, .35);
+}
+
+.employment-poster-sheet figcaption span { color: var(--employment-red); font-size: .7rem; }
+.employment-poster-sheet figcaption strong { font: 750 1.12rem/1.35 var(--font-serif); }
+
+.employment-poster-sheet.text-poster {
+  display: grid;
+  gap: 1rem;
+  place-content: center;
+  padding: 3rem;
+  border: 1.4rem double rgba(20, 40, 58, .65);
+  text-align: center;
+}
+
+.employment-poster-sheet.text-poster > span { font: 800 8rem/1 var(--font-serif); }
+.employment-poster-sheet.text-poster > strong { font: 750 2rem/1.25 var(--font-serif); }
+
+.employment-job-terms { padding: clamp(1.5rem, 4vw, 3.5rem); }
+
+.employment-file-lede {
+  margin: 0 0 2rem;
+  color: var(--employment-rust);
+  font: 700 clamp(1.2rem, 2vw, 1.65rem)/1.6 var(--font-serif);
+}
+
+.employment-job-terms dl {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  border-top: 1px solid var(--employment-rule);
+}
+
+.employment-job-terms dl div {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  gap: 1.2rem;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--employment-rule);
+}
+
+.employment-job-terms dt {
+  color: #606a71;
+  font-size: .75rem;
+  font-weight: 800;
+}
+
+.employment-job-terms dd { margin: 0; line-height: 1.75; }
+
+.employment-job-terms .danger {
+  margin: .8rem -1rem;
+  padding: 1.2rem 1rem;
+  border: 1px dashed rgba(158, 47, 60, .55);
+  color: #752733;
+  background: rgba(158, 47, 60, .06);
+}
+
+.employment-job-meta {
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.employment-job-meta span {
+  padding: .45rem .65rem;
+  border: 1px solid var(--employment-rule);
+  font-size: .72rem;
+}
+
+.employment-application-form {
+  margin: clamp(1.5rem, 4vw, 3rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid rgba(154, 92, 50, .45);
+  background:
+    repeating-linear-gradient(0deg, transparent 0 31px, rgba(20, 40, 58, .04) 31px 32px),
+    var(--employment-paper);
+}
+
+.employment-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.employment-clause-check {
+  padding: 1rem;
+  border: 1px dashed rgba(158, 47, 60, .55);
+  color: #752733;
+  background: rgba(255, 255, 255, .62);
+}
+
+.employment-application-form footer {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.employment-application-form footer small { color: #71787a; }
+
+.employment-record-list {
+  display: grid;
+  border: 1px solid var(--employment-rule);
+}
+
+.employment-record-list a {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--employment-rule);
+  color: var(--employment-ink);
+  background: var(--employment-paper-light);
+  text-decoration: none;
+}
+
+.employment-record-list a:last-child { border-bottom: 0; }
+.employment-record-list a:hover { background: #efe2d2; }
+
+.employment-record-list a > span {
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--employment-red);
+  border-radius: 50%;
+  color: var(--employment-red);
+  place-items: center;
+}
+
+.employment-record-list div { display: grid; gap: .3rem; }
+.employment-record-list small { color: #727b80; }
+.employment-record-list b { font-size: .76rem; }
+
+.employment-application-file { padding: clamp(1.5rem, 4vw, 3rem); }
+
+.employment-application-file > header {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 1.25rem;
+  border-bottom: 2px solid var(--employment-ink);
+}
+
+.employment-application-file header span { color: var(--employment-red); font-size: .72rem; }
+.employment-application-file header h4 { margin: .4rem 0; font-size: clamp(1.6rem, 3vw, 2.5rem); }
+.employment-application-file header p { margin: 0; color: #667177; }
+
+.employment-application-file > header > strong {
+  padding: .7rem 1rem;
+  color: #fff;
+  background: var(--employment-red);
+}
+
+.employment-application-verdict {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.employment-application-verdict p { margin: 0; line-height: 1.75; }
+
+.employment-application-verdict blockquote {
+  margin: 0;
+  padding: 1rem;
+  border-left: .3rem solid var(--employment-rust);
+  color: #5c4737;
+  background: var(--employment-paper);
+  line-height: 1.7;
+}
+
+.employment-application-file > dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 0 1.5rem;
+  border: 1px solid var(--employment-rule);
+}
+
+.employment-application-file > dl div {
+  padding: 1rem;
+  border: 1px solid var(--employment-rule);
+}
+
+.employment-application-file dt { color: #6b7479; font-size: .72rem; }
+.employment-application-file dd { margin: .4rem 0 0; line-height: 1.65; }
+
+.employment-response-form {
+  padding: 1.5rem;
+  color: #fff8ec;
+  background: var(--employment-ink);
+}
+
+.employment-response-form header p,
+.employment-response-form > label { color: rgba(255, 248, 236, .72); }
+
+.employment-response-actions {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: .5rem;
+}
+
+.employment-response-actions label { cursor: pointer; }
+.employment-response-actions input { position: absolute; opacity: 0; }
+
+.employment-response-actions span {
+  display: grid;
+  min-height: 4.5rem;
+  padding: .8rem;
+  border: 1px solid rgba(255, 255, 255, .26);
+  place-items: center;
+  font-size: .75rem;
+  text-align: center;
+}
+
+.employment-response-actions input:checked + span {
+  color: var(--employment-ink);
+  background: #f3d9b9;
+  box-shadow: inset 0 0 0 2px var(--employment-red);
+}
+
+.employment-response-saved {
+  padding: 1.5rem;
+  border: 1px solid rgba(70, 95, 74, .45);
+  background: rgba(70, 95, 74, .1);
+}
+
+.employment-response-saved strong { display: block; margin: .45rem 0; font-size: 1.2rem; }
+.employment-response-saved p { margin: 0; color: #59655f; }
+
+@media (max-width: 980px) {
+  .employment-hero,
+  .employment-attestation,
+  .employment-file-layout { grid-template-columns: 1fr; }
+  .employment-job-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .employment-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .employment-response-actions { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 700px) {
+  .employment-section { padding: 3.5rem 0; }
+  .employment-hero { padding: 1.5rem; box-shadow: .35rem .4rem 0 rgba(158, 47, 60, .16); }
+  .employment-jump-nav,
+  .employment-census-controls,
+  .employment-denominator,
+  .employment-outcome-list,
+  .employment-job-grid,
+  .employment-filters,
+  .employment-form-grid,
+  .employment-application-file > dl,
+  .employment-application-verdict { grid-template-columns: 1fr; }
+  .employment-jump-nav a { border-right: 0; border-bottom: 1px solid var(--employment-rule); }
+  .employment-jump-nav a:last-child { border-bottom: 0; }
+  .employment-denominator > p { grid-column: auto; }
+  .employment-job-card:nth-child(n) { transform: none; }
+  .employment-file-heading,
+  .employment-application-file > header,
+  .employment-application-form footer { flex-direction: column; }
+  .employment-file-actions { justify-content: flex-start; }
+  .employment-job-terms dl div { grid-template-columns: 1fr; gap: .4rem; }
+  .employment-response-actions { grid-template-columns: 1fr 1fr; }
+  .employment-record-list a { grid-template-columns: auto minmax(0, 1fr); }
+  .employment-record-list a > b { grid-column: 2; }
+}
+
+@media print {
+  .tu-print-root .employment-job-file {
+    border: 0;
+    box-shadow: none;
+  }
+
+  .tu-print-root .employment-file-heading {
+    color: #000;
+    background: #fff;
+  }
+
+  .tu-print-root .employment-file-heading p { color: #000; }
+  .tu-print-root .employment-file-layout { grid-template-columns: 40% 60%; }
+  .tu-print-root .employment-poster-sheet { min-height: auto; background: #fff; }
+  .tu-print-root .employment-poster-sheet img { max-height: 70vh; }
+  .tu-print-root .employment-application-form { display: none; }
+}
+

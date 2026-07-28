@@ -446,6 +446,8 @@ function allRecords() {
   const graduationAudits = readJson("tu:graduation:audits", []);
   const graduationDegrees = readJson("tu:graduation:degrees", []);
   const careerPlans = readJson("tu:careers:plans", []);
+  const employmentApplications = readJson("tu:employment:applications", []);
+  const employmentAttestations = readJson("tu:employment:attestations", []);
   const alumniProfile = readJson("tu:alumni:profile", null);
   const examCount = entranceExams.length + unifiedExams.length;
   const drafts = Number(Boolean(readJson("tu:application:draft", null))) +
@@ -481,6 +483,7 @@ function allRecords() {
     drafts: drafts + housingDraft + clinicDraft + spellcardDraft + ethicsDraftCount
       + Number(Boolean(readJson("tu:festival:draft", null)))
       + Number(Boolean(readJson("tu:fieldwork:draft", null)))
+      + Number(Boolean(readJson("tu:employment:draft", null)))
       + Object.keys(appraisalDrafts && typeof appraisalDrafts === "object" && !Array.isArray(appraisalDrafts) ? appraisalDrafts : {}).length,
     courseSummary,
     activeLibrary,
@@ -510,6 +513,8 @@ function allRecords() {
     careerRecords: (Array.isArray(graduationAudits) ? graduationAudits.length : 0)
       + (Array.isArray(graduationDegrees) ? graduationDegrees.length : 0)
       + (Array.isArray(careerPlans) ? careerPlans.length : 0)
+      + (Array.isArray(employmentApplications) ? employmentApplications.length : 0)
+      + (Array.isArray(employmentAttestations) ? employmentAttestations.length : 0)
       + Number(Boolean(alumniProfile)),
     localFiles,
   };

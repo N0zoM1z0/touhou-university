@@ -5,6 +5,7 @@ import {
 } from "../data/post.js";
 import { academicCalendarEvent, academicCalendarSnapshot } from "../data/academic-calendar.js";
 import { propertyClaimSummary, propertyClaims } from "./property-model.js";
+import { employmentPostMessages } from "./employment-model.js";
 
 const STATE_KEY = "tu:post:state";
 const DISPATCH_KEY = "tu:post:dispatches";
@@ -219,7 +220,7 @@ export function postMessages(locale = "zh-Hant", now = new Date()) {
     route: `post-dispatch-${record.id}`,
     createdAt: record.sentAt,
   }));
-  return [...propertyMessages(locale), ...calendarMessages(locale, now), ...dispatches, ...seeds]
+  return [...employmentPostMessages(locale), ...propertyMessages(locale), ...calendarMessages(locale, now), ...dispatches, ...seeds]
     .map((message) => ({
       ...message,
       state: state.messages[message.id] || {
