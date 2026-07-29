@@ -815,10 +815,9 @@ export const campusHistory = [
   {
     id: "employment-denominator-refuses-one-rate",
     archiveId: "TU-H-034",
-    commit: null,
+    commit: "c2a6e5dc7d714146af303d07999a651abe919761",
     commitSubject: "Add Gensokyo employment market and recruitment systems",
     recordedAt: "2026-07-29",
-    planned: true,
     category: "registry",
     era: l("翌日・分母聽證尚未散席", "翌日・分母聴聞はまだ散会せず", "Next day · The denominator hearing remains in session"),
     title: l(
@@ -835,6 +834,31 @@ export const campusHistory = [
       "蕾米莉亞先把二十三名尚未投遞的人算作命運保證錄用，咲夜把他們排進同一個零分鐘；映姬要求把兩件事分開。妖夢詢問半靈能否領兩份薪水，幽幽子則問兩份薪水是否附兩份晚餐。荷取在招聘海報背面貼上第十三層膠帶並宣布它仍是臨時版本。文以『本校就業口供達一一九％』刊出號外；阿求沒有撤稿，只在標題下加了一行：分母正在申訴。",
       "レミリアは未応募23名を運命による採用済みと先に数え、咲夜は全員を同じ0分へ配属。映姫は二件を分けるよう要求した。妖夢は半霊が二給を受け取れるか尋ね、幽々子は二給に夕食二つが付くか尋ねる。にとりは求人裏へ十三層目のテープを貼り、なお仮版と宣言。文は「本学就業証言119％」の号外を出した。阿求は撤回せず、見出し下へ一行だけ足す――分母が不服申立て中。",
       "Remilia pre-counts twenty-three non-applicants as fate-guaranteed hires, and Sakuya schedules them all in the same zero minute; Eiki orders the claims separated. Youmu asks whether a half-phantom earns two wages, while Yuyuko asks whether two wages include two dinners. Nitori tapes a thirteenth layer behind the poster and declares it still temporary. Aya prints “University employment testimony reaches 119%.” Akyuu does not retract it; she adds one line below: the denominator is appealing.",
+    ),
+  },
+  {
+    id: "every-vacancy-demands-own-sheet",
+    archiveId: "TU-H-035",
+    commit: null,
+    commitSubject: "Illustrate every Gensokyo recruitment notice",
+    recordedAt: "2026-07-29",
+    planned: true,
+    category: "registry",
+    era: l("同日・影印機申請第十七次休息", "同日・輪転機が十七回目の休憩を申請", "Same day · The duplicator files for its seventeenth break"),
+    title: l(
+      "其餘十七份職缺拒絕繼續當純文字分類廣告，並各自佔領一張舊紙",
+      "残る十七求人が文字だけの三行広告を拒み、それぞれ古紙一枚を占拠する",
+      "The remaining seventeen vacancies reject text-only classifieds and each occupy an old sheet",
+    ),
+    summary: l(
+      "招聘架不再只有紅魔館、河童、三途川與鴉天狗擁有畫面。博麗神社把落葉與硬幣混進同一份稽核，香霖堂替錯誤用途辦商品目錄，永遠亭把七版交班病歷塞給同一隻月兔；白玉樓的座位拒絕配合半靈點名，地下圖書館則把會咬人的參考書列入牧養。守矢三位主管蓋了三個不同章，命蓮寺的桌子加入晚餐調停，地靈殿把不可寫內容印成缺字，人偶與操線分席陳述，無聲樂團把第三拍送進舞臺技師心裡。融化冰庫、五版校史、活燃料貓車、尚未發生的夜巡傳聞、會換側的海關門、通往昨天的月兔車與要求共同應徵的工具，也都取得自己的舊紙。二十一張海報仍把精確三語文字留給網頁，只用墨跡、摺痕、空白欄與各雇主的麻煩來招聘。",
+      "求人棚で絵を持つのは紅魔館・河童・三途川・鴉天狗だけではなくなった。博麗神社は落葉と硬貨を同じ監査へ混ぜ、香霖堂は誤用途を商品目録へし、永遠亭は七版の引継病歴を一羽の月兎へ渡す。白玉楼の席は半霊点呼に従わず、地下図書館は噛む参考書を牧養対象へ追加。守矢の三責任者は別々に押印し、命蓮寺の卓は夕食調停へ参加、地霊殿は書けない内容を欠字で印刷、人形と糸は別席で証言し、無音楽団は第三拍を舞台技師の心へ直接送る。融ける氷庫、五版の校史、生きた燃料猫車、未発生の夜巡噂、側を替える税関門、昨日行き月兎車、共同応募を求める工具もそれぞれ古紙を得た。二十一枚は正確な三言語本文をHTMLへ残し、墨・折目・空欄と雇主固有の厄介さだけで募集する。",
+      "Scarlet, kappa, Sanzu, and tengu are no longer the only employers with pictures. Hakurei mixes leaves with coins in one audit; Kourindou catalogues confident wrong uses; Eientei gives seven chart versions to one rabbit. Hakugyokurou seats refuse the half-phantom roll, and the underground library herds biting reference books. Three Moriya supervisors stamp separately, Myouren's table joins dinner mediation, Chireiden prints unwritable content as blanks, dolls and strings testify in separate seats, and a silent ensemble sends the third beat directly into a stagehand's mind. Melting ice, five-version history, living-fuel carts, not-yet-happened rumours, side-swapping customs doors, yesterday-bound rabbit transit, and co-applying tools each gain their own old sheet. All twenty-one posters leave exact trilingual copy to HTML, recruiting through ink, folds, blank boxes, and employer-specific trouble.",
+    ),
+    marginalia: l(
+      "靈夢問海報能不能代替香油錢，霖之助判定海報是一種尚未發現用途的外界求職機。阿求把二十一張逐張編目，文隨即刊出『本校海報覆蓋率一○五％』；多出的那一張是影印機自己的休假申請。映姬准予受理，條件是先確認影印機算工具、員工，還是承包商。",
+      "霊夢はポスターを賽銭代わりにできるか尋ね、霖之助は未発見用途の外界求職機と鑑定。阿求が二十一枚を逐一目録化すると、文は「本学ポスター被覆率105％」を号外へ。余分な一枚は輪転機自身の休暇願だった。映姫は受理したが、まず輪転機が工具・職員・請負のどれかを確定せよと命じた。",
+      "Reimu asks whether a poster can substitute for offerings; Rinnosuke appraises it as an Outside job-finding machine of undiscovered use. Akyuu catalogues twenty-one sheets, and Aya prints “poster coverage reaches 105%.” The extra sheet is the duplicator's own leave request. Eiki accepts it, provided someone first decides whether the machine is a tool, employee, or contractor.",
     ),
   },
 ];

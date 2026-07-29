@@ -106,7 +106,7 @@ Live site: <https://n0zom1z0.github.io/touhou-university/>
   travel, named friction, refusal boundaries and interview questions. Saved
   plans can send one causally linked crow-tengu referral per opening;
 - a Gensokyo Employment Market with twenty-one detailed recruitment notices,
-  four original photocopied poster illustrations, trouble/time/risk filtering,
+  twenty-one individually illustrated photocopied posters, trouble/time/risk filtering,
   autosaved odd résumés, disputable employer reviews and applicant edition-two
   replies; its Graduate Whereabouts Echo Roll offers five counting bases, five
   observation windows and eight overlapping outcomes instead of one

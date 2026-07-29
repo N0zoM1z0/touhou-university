@@ -39,6 +39,7 @@ const { pageForRoute } = await import("../src/js/site-router.js");
 check(employmentJobs.length === 21, "The recruitment rack must contain twenty-one substantial vacancies.");
 check(new Set(employmentJobs.map(({ id }) => id)).size === employmentJobs.length, "Employment job ids are not unique.");
 check(employmentOutcomeKinds.length === 8, "The whereabouts roll must preserve eight overlapping outcome kinds.");
+check(Object.keys(employmentPosterImages).length === employmentJobs.length, "Every vacancy must own one illustrated notice.");
 
 for (const job of employmentJobs) {
   for (const locale of ["zh-Hant", "ja", "en"]) {
@@ -47,6 +48,7 @@ for (const job of employmentJobs) {
     }
   }
   check(job.risk >= 1 && job.risk <= 5, `${job.id} has an invalid risk seal count.`);
+  check(Boolean(employmentPosterImages[job.poster]), `${job.id} has no mapped recruitment poster.`);
   check(pageForRoute(`employment-job-${job.id}`) === "careers", `${job.id} does not route to careers.html.`);
 }
 
@@ -119,4 +121,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Employment market valid: 21 strange vacancies, 5 counting bases, 5 observation windows, 4 compressed poster sheets, 3 local files, and 3 causal events.");
+console.log("Employment market valid: 21 strange vacancies, 5 counting bases, 5 observation windows, 21 compressed poster sheets, 3 local files, and 3 causal events.");

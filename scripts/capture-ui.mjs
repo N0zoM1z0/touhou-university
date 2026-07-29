@@ -161,15 +161,15 @@ try {
     deviceScaleFactor: 1,
     mobile: width <= 760,
   });
-  const found = await cdp.evaluate(`(() => {
-    const target = document.querySelector(${JSON.stringify(section === "main" ? "main" : `#${section}`)});
-    if (!target) return false;
-    document.documentElement.style.scrollBehavior = "auto";
-    target.classList.add("is-visible");
-    target.querySelectorAll(".reveal").forEach((element) => element.classList.add("is-visible"));
-    window.scrollTo(0, target.getBoundingClientRect().top + window.scrollY);
-    return true;
-  })()`);
+  const found = await eventually(() => cdp.evaluate(`(() => {
+      const target = document.querySelector(${JSON.stringify(section === "main" ? "main" : `#${section}`)});
+      if (!target) return false;
+      document.documentElement.style.scrollBehavior = "auto";
+      target.classList.add("is-visible");
+      target.querySelectorAll(".reveal").forEach((element) => element.classList.add("is-visible"));
+      window.scrollTo(0, target.getBoundingClientRect().top + window.scrollY);
+      return true;
+    })()`));
   if (!found) throw new Error(`Section "#${section}" was not found.`);
   for (const selector of clickSelectors) {
     await eventually(() =>

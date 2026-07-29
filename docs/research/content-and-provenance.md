@@ -170,7 +170,7 @@ metadata-stripped and converted to 1536×1024 WebP at quality 82.
 
 Files:
 
-`assets/images/employment/{scarlet-night-shift,kappa-workshop,sanzu-appeals,tengu-corrections}.webp`
+`assets/images/employment/*.webp` — twenty-one distinct vacancy posters.
 
 Built-in image generation sources:
 
@@ -178,6 +178,26 @@ Built-in image generation sources:
 - Kappa taped workshop: `call_0ohBnwEnSDuYtMBsg4wBFpaz.png`
 - Sanzu queue appeals: `call_fUpDuW8M4m2DfNtDPtwbARvR.png`
 - Tengu advance corrections: `call_3VEmi90N357ItCbG4gnRBRLH.png`
+
+Second-batch built-in image generation sources:
+
+- Hakurei offertory audit: `call_mVpN9Ky7FOUm1FoRWrdjoCsw.png`
+- Kourindou naming apprentice: `call_Dlkv0l8cMFlnc4SeJ7YKOzew.png`
+- Eientei night handover: `call_Djn7DuJUEtAfAAC6qM2TgfRU.png`
+- Hakugyokurou phantom census: `call_vdodJjB0Rt7hmT8eQEKenWnq.png`
+- Scarlet flying-book herd: `call_FyRL482ZLFD8vB1y75QJLhmS.png`
+- Moriya faith grid: `call_5QUYmfy1WfFDQGypnElKJXsC.png`
+- Myouren dinner mediation: `call_ewndVPXnUnMi9OsYsWonD0eJ.png`
+- Chireiden redaction: `call_pmE5meCKrYzZLihpiHDhYcsB.png`
+- Alice doll labour: `call_jtKGS2TbGlEWdwTFaXIxJ75I.png`
+- Prismriver silence stage: `call_PYKnekN65pYswRLhcu2mmnhE.png`
+- Misty Lake ice audit: `call_qyQ64G7u0bloGKAFPuckkWoc.png`
+- Hieda five-version archive: `call_4Cuy35KnCD0drouFEn7KOgED.png`
+- Blazing Hell heat ledger: `call_fl3yyEffqnDrzLkUwPz6I4D9.png`
+- Human Village rumour nightwatch: `call_3aDNFprJuu0ILVShkoZN5g16.png`
+- Moving-gate customs: `call_4mR9x5fodMfTdCw00K8BMYt2.png`
+- Moon Rabbit Yesterday Line: `call_QbQoAxJ79KTkdb0Tna1aGumq.png`
+- Tsukumogami labour hearing: `call_0Mwm2qmaU7hmZAucADStvUd8.png`
 
 Generated 2026-07-29 for the employment notice rack. The shared brief asked
 for original black-ink, cheap photocopy / risograph classifieds on aged cream
@@ -187,12 +207,28 @@ chief maid with exhausted fairy coworkers and disagreeing clocks, a kappa
 turbine held together with tape, an afterlife queue beside a ferry and judge,
 and a crow-tengu corrections office whose letters arrive before dispatch.
 
+The second batch kept the shared prompt scaffold—portrait website recruitment
+poster, dense black-ink manga plus obsolete local form, cheap photocopy on warm
+aged paper, blank title and stamp fields, thumbnail-readable scene, no
+generated lettering—while changing both material and central gag for every
+employer. Prompt subjects respectively used a shrine offering ledger where
+leaves impersonate coins; an incorrect outside-object catalogue; contradictory
+moon-rabbit handover charts; banquet seats that refuse the phantom headcount;
+book husbandry with a biting reference volume; three-supervisor faith-grid
+accounting; a speaking communal table; mind-reading redaction screens; dolls,
+strings and operator as separate labour testimony; non-airborne music inside
+the stagehand's mind; melting stock and repeat graduation; five conflicting
+records tied to one missing source; living flame versus ordinary fuel carts;
+rumour, incident and investigation on branching night paths; customs doors that
+move between sides; a lunar tram ticketed for yesterday; and a wrench, drum,
+teacup and toolbox occupying separate arbitration seats.
+
 The user-supplied monochrome maid-recruitment page was used only as a high-level
 reference for the handmade in-world-advertisement idea. The prompts explicitly
 excluded copying its exact layout or text, readable generated copy, logos,
 watermarks and named-artist imitation. The reference page is not shipped by the
 site. Tool PNGs were resized to 760×1188, stripped of metadata, and encoded as
-WebP quality 76; final files are approximately 164–248 KiB each.
+WebP; final files are approximately 162–251 KiB each.
 
 Shared constraints:
 
