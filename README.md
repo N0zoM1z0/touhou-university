@@ -7,6 +7,25 @@ An immersive, responsive university portal for Gensokyo.
 
 Live site: <https://n0zom1z0.github.io/touhou-university/>
 
+## Maintainer handoff
+
+Starting a fresh Codex session or a new contributor checkout? Read:
+
+1. [`AGENTS.md`](AGENTS.md) for non-negotiable product/engineering rules;
+2. [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) for the audited release,
+   page map, counts and authoritative sources;
+3. [`docs/AGENT_HANDBOOK.md`](docs/AGENT_HANDBOOK.md) for implementation,
+   validation, campus-history and deployment procedure;
+4. [`docs/AGENT_DOMAIN_RULES.md`](docs/AGENT_DOMAIN_RULES.md) only for the
+   feature domains being changed;
+5. [`docs/research/README.md`](docs/research/README.md) for targeted editorial
+   and provenance notes.
+
+Run `npm run docs:status` for live source-derived counts and
+`npm run check:docs` to detect documentation drift. `docs/ROADMAP.md` is
+implementation history plus labelled future directions, not an automatic task
+queue.
+
 ## Included
 
 - school introduction, motto, traditions, uniforms and anniversary;
@@ -214,6 +233,8 @@ modules only.
 npm run dev                 # rebuild on change and serve at localhost:4173
 npm run build               # generate nineteen pages and shared/per-page CSS bundles
 npm run check               # build + all source, data, relationship and history contracts
+npm run docs:status         # derive release counts from the current source of truth
+npm run check:docs          # reject stale handoff counts, missing volumes and mirror drift
 npm run check:i18n          # stable/legacy keys, collisions, titles and interpolation parity
 npm run check:contracts     # 76 event types, producer coverage and causal lifecycle fixtures
 npm run check:knowledge     # Hieda sources, five-form dossiers, characters, routes and versions
@@ -399,9 +420,11 @@ Set a different preview port with `PORT=4180 npm run dev`.
 
 ## Research and provenance
 
-Working research is kept in `../research/`, with a release copy under
-`docs/research/`. It records the source hierarchy, character mapping, editorial
-boundaries, fan-work guideline review and generated-image provenance.
+Canonical release research lives under `docs/research/`. A workspace may also
+provide an optional `../research/` mirror, but a standalone clone does not
+depend on it. The pack records the source hierarchy, character mapping,
+editorial boundaries, fan-work guideline review and generated-image
+provenance.
 
 ## Rights
 

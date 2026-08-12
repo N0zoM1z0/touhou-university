@@ -1,7 +1,8 @@
 # Spring spell-card lantern / boundary matriculation operations notes
 
 Research and implementation date: 2026-07-26
-Public implementation: `festival.html`
+Public implementation: repository page `festival.html` (workspace path:
+`touhou_university_website/festival.html`)
 
 ## Editorial premise
 

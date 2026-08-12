@@ -1,7 +1,19 @@
-# Touhou University feature batches
+# Touhou University implementation history and future directions
 
-This roadmap turns the idea inventory in `/tmp/vc_sth.txt` into dependency-aware
-batches. It is an internal implementation document, not public website copy.
+This document records the dependency-aware feature batches that built the
+current site. Its document role is implementation history, not current
+authority or an automatic task queue. It is **not** a promise that every
+historical “follow-up” remains the next task.
+
+- Current release, counts and ownership: `docs/CURRENT_STATE.md`
+- Durable implementation procedure: `docs/AGENT_HANDBOOK.md`
+- User-visible release detail: `CHANGELOG.md`
+
+The original idea inventory lived in `/tmp/vc_sth.txt`; `/tmp` is ephemeral and
+must not be required to understand or maintain the repository. Historical
+follow-up bullets below are idea provenance only. New work begins from the
+user's current request and current source, not by automatically implementing
+the oldest follow-up.
 
 ## Foundation already in place
 
@@ -220,8 +232,9 @@ Status: implemented in 0.20.0.
 Status: implemented in 0.21.0.
 
 - a focused `records.html` subpage inventories localStorage and sessionStorage
-  under the `tu:` namespace, with 50 trilingual known records across nine
-  ordinary/reverse-side shelves and a runtime shelf for future unknown keys
+  under the `tu:` namespace; it launched with 50 known records and now
+  catalogues 71 keys across twelve known shelves, plus a runtime shelf for
+  future unknown keys
 - every stored file exposes its record count, exact UTF-8 footprint, storage
   location, visibility scope and escaped raw contents without uploading them
 - the usage desk combines the university-file byte total with the browser's
@@ -289,7 +302,51 @@ Status: implemented in 0.26.0.
 - follow-up: supervisor countersignatures across two devices, multi-day
   placements and route handoff between neighbouring stations
 
-## Cross-cutting tracks
+## Batch 17 — Property, post and academic calendar
+
+Status: implemented in 0.27.0.
+
+- ten object-led lost-property/property-rights files with four independent
+  jurisdictions and retained claims/rulings
+- a versioned Crow-Tengu Campus Post with local dispatches, acknowledgement,
+  correction, trust and delivery-order state
+- fourteen annual/lunar academic-calendar events that project into facilities,
+  routes, courses, dining, clinic, BBS, My TU and Hieda
+
+## Batch 18 — Graduation, careers and alumni
+
+Status: implemented in 0.28.0.
+
+- an eight-desk graduation audit that reads evidence from owning domains
+  instead of copying a second checklist
+- twelve substantive destination files with fit, friction, compensation,
+  refusal boundaries and causally linked referrals
+- eight unresolved-question alumni chapters, local alumni files, reunion
+  replies and returning fieldwork mentorship
+
+## Batch 19 — Employment market and whereabouts hearing
+
+Status: implemented in 0.29.0–0.29.1.
+
+- twenty-one detailed Gensokyo vacancies with actual duties, compensation,
+  dangerous clauses, trials and employer-specific replies
+- five counting bases, five observation windows and eight overlapping graduate
+  outcomes that explicitly refuse one promotional employment percentage
+- device-local odd résumés, employer first reviews, applicant edition-two
+  replies and whereabouts attestations
+- one distinct, compressed monochrome recruitment poster for every vacancy
+
+## Batch 20 — Portable agent handoff
+
+Status: implemented in 0.30.0.
+
+- a standard repository `AGENTS.md` entry point that a fresh Codex can discover
+- a source-derived current-state snapshot, cross-cutting handbook and separated
+  domain-invariant reference
+- repository-owned changelog/research indexes and a documentation validator so
+  page, key, event, Hieda and employment counts fail loudly when they drift
+
+## Future directions, not commitments
 
 - official document generator grows alongside every lifecycle feature
 - unlocks should reveal new campus content rather than generic badges

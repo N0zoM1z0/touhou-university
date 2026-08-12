@@ -1,8 +1,10 @@
 # Touhou University Research Pack
 
-Research date: 2026-07-24  
+Research baseline opened: 2026-07-24
+Last index audit: 2026-08-12
 Project: `touhou_university_website`  
-Status: working editorial baseline for an unofficial, non-commercial fan website
+Status: maintained editorial/source/provenance pack for an unofficial,
+non-commercial fan website
 
 ## Purpose
 
@@ -12,8 +14,9 @@ translation of Gensokyo: canon identities and social structures are retained,
 while the university, its admissions process, faculties, statistics, projects
 and campus history are explicitly project-original.
 
-The research follows the method already established in
-`/home/pentester/Project/gensokyo-monochrome-heart/design/11_research/research_method.md`:
+The method was informed by an earlier separate character-research project, but
+this repository owns the complete actionable hierarchy below and does not
+depend on that other checkout:
 
 1. official profiles and works anchor factual claims;
 2. official-adjacent translations help locate passages;
@@ -51,6 +54,23 @@ The research follows the method already established in
 - `employment-market-notes.md` — non-exclusive graduate whereabouts,
   denominator hearings, twenty-one strange vacancies, odd-résumé replies,
   employment event projections and recruitment-poster provenance.
+
+## Which file should an agent read?
+
+- Character portrayal or faculty expansion: `faculty-matrix.md`, then the
+  relevant source-register entries.
+- New school/course/research/map work: `world-and-institution-notes.md` and
+  `academic-catalogue-and-transit.md`.
+- Generated or supplied imagery: `content-and-provenance.md` and
+  `source-register.md`.
+- A named lifecycle feature: read only its matching `*-notes.md` file plus
+  `source-register.md` if a factual Touhou claim changes.
+- Pure code/build/test fixes: these notes are usually supporting context, not
+  required wholesale reading.
+
+The repository `docs/research/` copy is the release authority. A sibling
+`../research/` directory may exist as the working mirror; keep corresponding
+files byte-identical when editing research.
 
 ## Internal editorial labels
 

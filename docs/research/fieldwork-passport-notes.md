@@ -1,7 +1,8 @@
 # Domestic placement and field-inquiry passport notes
 
 Research and implementation date: 2026-07-26
-Public implementation: `fieldwork.html`
+Public implementation: repository page `fieldwork.html` (workspace path:
+`touhou_university_website/fieldwork.html`)
 
 ## Editorial premise
 
@@ -131,4 +132,3 @@ repeat seals, storage registration, event contracts, search and BBS
 projection. Browser smoke coverage performs the actual station → dispatch →
 check-in → map notice → response → return → passport → BBS flow and checks the
 mobile page width.
-

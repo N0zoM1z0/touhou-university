@@ -839,10 +839,9 @@ export const campusHistory = [
   {
     id: "every-vacancy-demands-own-sheet",
     archiveId: "TU-H-035",
-    commit: null,
+    commit: "ff2a15b947ab7705e96252d7da20e04ab0818150",
     commitSubject: "Illustrate every Gensokyo recruitment notice",
     recordedAt: "2026-07-29",
-    planned: true,
     category: "registry",
     era: l("同日・影印機申請第十七次休息", "同日・輪転機が十七回目の休憩を申請", "Same day · The duplicator files for its seventeenth break"),
     title: l(
@@ -859,6 +858,35 @@ export const campusHistory = [
       "靈夢問海報能不能代替香油錢，霖之助判定海報是一種尚未發現用途的外界求職機。阿求把二十一張逐張編目，文隨即刊出『本校海報覆蓋率一○五％』；多出的那一張是影印機自己的休假申請。映姬准予受理，條件是先確認影印機算工具、員工，還是承包商。",
       "霊夢はポスターを賽銭代わりにできるか尋ね、霖之助は未発見用途の外界求職機と鑑定。阿求が二十一枚を逐一目録化すると、文は「本学ポスター被覆率105％」を号外へ。余分な一枚は輪転機自身の休暇願だった。映姫は受理したが、まず輪転機が工具・職員・請負のどれかを確定せよと命じた。",
       "Reimu asks whether a poster can substitute for offerings; Rinnosuke appraises it as an Outside job-finding machine of undiscovered use. Akyuu catalogues twenty-one sheets, and Aya prints “poster coverage reaches 105%.” The extra sheet is the duplicator's own leave request. Eiki accepts it, provided someone first decides whether the machine is a tool, employee, or contractor.",
+    ),
+  },
+  {
+    id: "appointment-scroll-becomes-four-readable-volumes",
+    archiveId: "TU-H-036",
+    commit: null,
+    commitSubject: "Rebuild documentation for reliable agent handoff",
+    recordedAt: "2026-08-12",
+    planned: true,
+    category: "registry",
+    era: l(
+      "十四日後・第六百七十九行仍在詢問是否已讀",
+      "十四日後・第六百七十九行がなお既読を尋ねる",
+      "Fourteen days later · Line 679 still asks whether it was read",
+    ),
+    title: l(
+      "新任代理人的任命卷被拆成四冊，舊規則沒有被拿去墊桌腳",
+      "新任代理人の任命巻を四冊へ分け、旧規則は机の脚にされずに済む",
+      "A new agent's appointment scroll becomes four volumes; no old rule is used to steady a desk",
+    ),
+    summary: l(
+      "稗田檔案室審查了那份長達六百七十九行、檔名大小寫還會在外界門口換邊的任命卷。從此，標準小寫的 AGENTS.md 只負責把新任代理人帶到正確書架；CURRENT_STATE 用來源程式當場清點十九個頁面、七十一個本機鍵、七十六份事件契約與二十一張招聘海報；AGENT_HANDBOOK 保存建置、資料所有權、局部重繪、三語、深連結、列印、first-parent 校史與發佈順序；原本的長卷則完整收進領域規則冊，沒有因為難讀就被丟掉。ROADMAP 正名為實施史而不再假裝是下一張派工單，研究索引告訴人應讀哪份筆記，CHANGELOG 也搬進可隨 clone 帶走的正規檔案架。最後，河童製作的 docs:status 從來源報數，check:docs 專門抓過期數字、失蹤卷冊與兩邊研究鏡像的分歧；交接因此不再依賴某位外界人類記得解釋第六百七十九行。",
+      "稗田資料室は、679行に及び、外界の入口でファイル名の大文字小文字まで反転する任命巻を監査した。以後、標準の小文字 AGENTS.md は新任代理人を正しい棚へ案内するだけ。CURRENT_STATE は資料コードから19頁、端末内キー71件、事象契約76件、求人ポスター21枚をその場で数える。AGENT_HANDBOOK は構築、資料所有権、局所再描画、三言語、深層リンク、印刷、first-parent 校史、公開手順を保存し、元の長巻は領域規則冊へ丸ごと移され、読みにくいという理由では捨てられない。ROADMAP は次の指図書ではなく実装史と名乗り、研究索引は読むべき札を示し、CHANGELOG も clone と一緒に運べる正式棚へ移った。最後に河童製 docs:status が資料源から数え、check:docs が古い数、行方不明の巻、二つの研究鏡像の食い違いを摘発する。これで引継ぎは、外界人が679行目を毎回説明できるかどうかに依存しない。",
+      "The Hieda archive audits a 679-line appointment scroll whose filename case can swap sides at the Outside gate. A standard lowercase AGENTS.md now does only one job: lead a new agent to the right shelf. CURRENT_STATE counts nineteen pages, seventy-one on-device keys, seventy-six event contracts, and twenty-one recruitment posters directly from source. AGENT_HANDBOOK preserves build order, data ownership, local repainting, three languages, deep links, printing, first-parent history, and release procedure; the old long scroll moves intact into the domain-rules volume rather than being discarded for being hard to read. ROADMAP identifies itself as implementation history instead of tomorrow's work order, the research index says which note to open, and CHANGELOG moves onto the formal shelf that travels with a clone. Finally, kappa-made docs:status counts from evidence while check:docs catches stale figures, missing volumes, and disagreement between research mirrors. Handoff no longer depends on an Outside human remembering to explain line 679.",
+    ),
+    marginalia: l(
+      "文立刻刊出號外：『校務手冊縮短九成六，實際冊數增至四倍！』阿求在標題下補註第一冊只是目錄；慧音把「五十個本機鍵」訂正成七十一，隔天又要求任何人不得手抄這個數字。紫把大寫 AGENTS.MD 的門接到小寫 AGENTS.md，並否認兩扇門曾是同一扇。魔理沙試著直接改生成後的頁面，建置一次便把字變回來；她因此在手冊空白處寫下：『可重現，偷不走。』",
+      "文は即座に号外を出した――「校務手引を96％短縮、実冊数は四倍！」。阿求は見出し下へ第一冊は目録だけと追記。慧音は「端末内キー50件」を71件へ訂正し、翌日にはその数字を手で写すなと命じた。紫は大文字 AGENTS.MD の扉を小文字 AGENTS.md へ接続し、二枚が同じ扉だった事実を否認。魔理沙が生成済み頁を直接直すと、一度の構築で文字は元へ戻った。彼女は余白に「再現可能、持ち去れない」と書いた。",
+      "Aya immediately prints: “Administrative manual shortened 96%; actual volume count quadruples!” Akyuu notes beneath it that volume one is only the index. Keine corrects “fifty on-device keys” to seventy-one, then orders everyone not to copy that number by hand again. Yukari connects the uppercase AGENTS.MD door to lowercase AGENTS.md and denies they were ever one door. Marisa edits a generated page directly; one build restores it. She writes in the handbook margin: “reproducible, therefore impossible to steal.”",
     ),
   },
 ];

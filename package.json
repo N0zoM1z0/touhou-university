@@ -1,6 +1,6 @@
 {
   "name": "touhou-university",
-  "version": "0.29.1",
+  "version": "0.30.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,6 +8,8 @@
     "dev": "node scripts/dev.mjs",
     "new:section": "node scripts/new-section.mjs",
     "portraits": "node scripts/switch-portrait-set.mjs",
+    "docs:status": "node scripts/project-status.mjs",
+    "check:docs": "node scripts/check-docs.mjs",
     "check:i18n": "node scripts/check-i18n.mjs",
     "check:js": "node scripts/check-js.mjs",
     "check:gaokao": "node scripts/check-gaokao.mjs",
@@ -34,6 +36,6 @@
     "history:status": "node scripts/check-campus-history.mjs",
     "test:browser": "npm run build && node scripts/smoke-browser.mjs",
     "capture": "npm run build && node scripts/capture-ui.mjs",
-    "check": "npm run build && npm run check:i18n && npm run check:js && npm run check:contracts && npm run check:knowledge && npm run check:ethics && npm run check:festival && npm run check:fieldwork && npm run check:commons && npm run check:careers && npm run check:employment && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:phantasm && npm run check:records && npm run check:interactions && npm run check:live && npm run check:history"
+    "check": "npm run build && npm run check:docs && npm run check:i18n && npm run check:js && npm run check:contracts && npm run check:knowledge && npm run check:ethics && npm run check:festival && npm run check:fieldwork && npm run check:commons && npm run check:careers && npm run check:employment && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:phantasm && npm run check:records && npm run check:interactions && npm run check:live && npm run check:history"
   }
 }
