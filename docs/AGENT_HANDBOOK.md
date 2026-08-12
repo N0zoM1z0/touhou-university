@@ -46,6 +46,10 @@ scripts/build-gaokao-*.mjs  generates 48 offline papers/answers
 downloads/gaokao/           committed generated examination artifacts
 ```
 
+The forty-eight downloads are the eight ordinary humanities/science papers.
+The single PHANTASM common reverse paper is deliberately rendered and printed
+only inside the opened dream campus; it is not a ninth admissions download.
+
 Never make a substantive fix only in generated HTML/CSS. Edit source, run
 `npm run build`, and commit both the source and regenerated artifacts.
 
@@ -83,7 +87,9 @@ Every `recordCampusEvent` type must have exactly one contract in
 `src/data/event-contracts.js`. Schema-2 events require a stable subject,
 correlation ID, payload IDs and, where applicable, an allowed earlier cause.
 Run `npm run check:contracts` after producer, payload or lifecycle changes.
-PHANTASM never receives an official event contract.
+PHANTASM never receives an official event contract. This includes its reverse
+examination: eligibility may read a completed ordinary EXTRA attempt, but its
+draft and result remain dream records and never become official assessment.
 
 ### On-device records
 

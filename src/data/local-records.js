@@ -226,6 +226,8 @@ export const localRecordRegistry = [
 
   record("tu:phantasm:state", "dream", l("第九節課程狀態", "第九時限の履修状態", "Ninth-period course state"), { scope: "dream" }),
   record("tu:phantasm:transcripts", "dream", l("反面成績紙", "裏面成績票", "Reverse-side transcripts"), { scope: "dream" }),
+  record("tu:phantasm:exam:draft", "dream", l("PHANTASM 反面試卷草稿", "PHANTASM 裏面答案下書き", "PHANTASM reverse-paper draft"), { kind: "draft", scope: "dream" }),
+  record("tu:phantasm:exam:attempts", "dream", l("PHANTASM 反面試驗成績", "PHANTASM 裏面試験成績", "PHANTASM reverse-exam results"), { scope: "dream" }),
   record("tu:phantasm:boundary", "dream", l("邊界探門痕跡", "境界を探った痕跡", "Boundary-door traces"), { scope: "dream" }),
   record(
     "tu:phantasm:pass",

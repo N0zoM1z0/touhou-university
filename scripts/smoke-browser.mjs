@@ -2276,6 +2276,7 @@ try {
     }
   }
   await eventually(() => cdp.evaluate("Boolean(document.querySelector('.phantasm-campus'))"));
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-phantasm-exam] .phantasm-exam-desk'))"));
   const phantasmInitial = await cdp.evaluate(`({
     page: document.body.dataset.page,
     nodes: document.querySelectorAll('[data-phantasm-node]').length,
@@ -2292,7 +2293,9 @@ try {
     crest: document.querySelector('.site-header [data-phantasm-crest]')?.dataset.phantasmCrest,
     favicon: document.querySelector('link[rel="icon"]')?.getAttribute('href') || '',
     title: document.title,
-    query: location.search
+    query: location.search,
+    examLocked: document.querySelector('[data-phantasm-exam-start]')?.disabled,
+    examHint: document.querySelector('.phantasm-exam-seal')?.textContent || ''
   })`);
   check(
     phantasmInitial.page === "phantasm"
@@ -2309,8 +2312,82 @@ try {
       && phantasmInitial.crest === phantasmInitial.brand
       && phantasmInitial.favicon.startsWith("data:image/svg+xml")
       && phantasmInitial.title.includes("PHANTASM")
-      && phantasmInitial.query === "",
+      && phantasmInitial.query === ""
+      && phantasmInitial.examLocked
+      && phantasmInitial.examHint.includes("先把 EXTRA 寫完"),
     `Unlocked Dream Campus did not render its isolated map, files, and course register (${JSON.stringify(phantasmInitial)}).`,
+  );
+
+  await cdp.evaluate(`(() => {
+    localStorage.setItem('tu:gaokao:attempts', JSON.stringify([{
+      schema: 2,
+      revision: 2,
+      id: 'TU-G-EXTRA-PHANTASM-SMOKE',
+      trackId: 'science',
+      difficultyId: 'extra',
+      score: 0,
+      completedAt: new Date().toISOString()
+    }]));
+    window.dispatchEvent(new StorageEvent('storage', { key: 'tu:gaokao:attempts' }));
+  })()`);
+  await eventually(() => cdp.evaluate("document.querySelector('[data-phantasm-exam-start]')?.disabled === false"));
+  const phantasmExam = await cdp.evaluate(`(async () => {
+    const paper = await import(${JSON.stringify(`${siteUrl}src/data/phantasm-exam.js`)});
+    const ledgerBefore = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]').length;
+    window.__phantasmExamPrinted = 0;
+    window.print = () => { window.__phantasmExamPrinted += 1; };
+    document.querySelector('[data-phantasm-exam-print-blank]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const blankPrint = document.querySelector('[data-tu-print-root]')?.textContent || '';
+    window.dispatchEvent(new Event('afterprint'));
+    document.querySelector('[data-phantasm-exam-start]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    let preserved = true;
+    for (const question of paper.phantasmExamQuestions) {
+      const field = document.querySelector('#phantasm-exam-' + question.id);
+      field.scrollIntoView({ block: 'center' });
+      const before = window.scrollY;
+      field.querySelector('input[value="' + question.answer + '"]').click();
+      await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+      if (Math.abs(window.scrollY - before) > 2) preserved = false;
+    }
+    const answered = document.querySelectorAll('.phantasm-exam-sheet .is-answered').length;
+    document.querySelector('[data-phantasm-exam-submit]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-phantasm-exam-print-result]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const attempts = JSON.parse(localStorage.getItem('tu:phantasm:exam:attempts') || '[]');
+    const latest = attempts.at(-1);
+    const resultText = document.querySelector('[data-phantasm-exam-result-paper]')?.textContent || '';
+    const resultPrint = document.querySelector('[data-tu-print-root]')?.textContent || '';
+    const ledgerAfter = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]').length;
+    window.dispatchEvent(new Event('afterprint'));
+    return {
+      blankPrint,
+      resultPrint,
+      resultText,
+      score: latest?.score,
+      correct: latest?.correct,
+      answered,
+      preserved,
+      printed: window.__phantasmExamPrinted,
+      draftGone: !localStorage.getItem('tu:phantasm:exam:draft'),
+      ledgerBefore,
+      ledgerAfter
+    };
+  })()`);
+  check(
+    phantasmExam.blankPrint.includes('全卷九題')
+      && phantasmExam.resultPrint.includes('PHANTASM 反面成績紙')
+      && phantasmExam.resultText.includes('Not valid outside the dream boundary')
+      && phantasmExam.score === 150
+      && phantasmExam.correct === 9
+      && phantasmExam.answered === 9
+      && phantasmExam.preserved
+      && phantasmExam.printed === 2
+      && phantasmExam.draftGone
+      && phantasmExam.ledgerBefore === phantasmExam.ledgerAfter,
+    `PHANTASM reverse examination, printing, scroll preservation, or official-ledger isolation failed (${JSON.stringify(phantasmExam)}).`,
   );
 
   const phantasmBell = await cdp.evaluate(`(async () => {

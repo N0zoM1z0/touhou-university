@@ -2,7 +2,8 @@
 
 Design revision: 2026-08-13
 Runtime question-bank revision: `2`
-Scope: the eight humanities/science × NORMAL/HARD/LUNATIC/EXTRA papers
+Scope: the eight ordinary humanities/science × NORMAL/HARD/LUNATIC/EXTRA
+papers, plus the separate dream-campus PHANTASM common reverse paper
 
 ## What the examination is testing
 
@@ -24,6 +25,14 @@ The four difficulties therefore have different contracts:
 - **EXTRA** asks what evidence would identify a claim: version lineage,
   telemetry, missingness, causal comparison, fault timing or a minimally
   sufficient experimental design.
+
+PHANTASM is intentionally outside that four-card ladder. It becomes visible
+only after the six dream-campus seals and one completed ordinary EXTRA attempt.
+Instead of making EXTRA merely longer, its nine-question common reverse paper
+requires the candidate to preserve incompatible worlds at once while keeping
+their validity, provenance, missingness and causal claims separate. Its dream
+drafts and scores never enter ordinary exam history, My TU or the official
+ledger, and it has no admissions-page download.
 
 Humanities papers emphasize wording, archives, testimony, governance and
 interpretation. Science papers emphasize measurement, mechanisms, controls,
@@ -92,6 +101,10 @@ English length uses word count; Traditional Chinese and Japanese use visible
 letter/number code points. These thresholds catch regression patterns, not
 pedagogical quality by themselves. A paper can pass the metric and still need
 human review for ambiguity, duplicated meanings or character voice.
+
+`scripts/check-phantasm-exam.mjs` applies the same leakage principle to the
+reverse paper while also fixing its nine-item, three-section, 150-mark shape,
+EXTRA prerequisite and explicit non-cyclic A/B/C/D schedule.
 
 ## Local-record compatibility
 

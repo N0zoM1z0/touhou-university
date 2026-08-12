@@ -919,10 +919,9 @@ export const campusHistory = [
   {
     id: "longest-answer-loses-its-uniform",
     archiveId: "TU-H-038",
-    commit: null,
+    commit: "b46eb2754e2fcea70578702c27359c416b3f6b57",
     commitSubject: "Redesign unified examination choices",
     recordedAt: "2026-08-13",
-    planned: true,
     category: "examinations",
     era: l(
       "同日下午・答題卡不再列隊行進",
@@ -943,6 +942,35 @@ export const campusHistory = [
       "文的號外宣稱：『本校正解平均縮短三成，學力同步提升三成。』阿求把後半句劃掉，補註錯誤答案只是終於學會把話說完。魔理沙偷走一份舊草稿，發現校方沒有替她把 B 猜成新版的 D，只留下一張「請重新確認」；她因此指控試務處妨礙答案自行進化。帕秋莉回覆：答案可以進化，證據鏈不得變種。",
       "文の号外は「本学の正解、平均三割短縮。学力も三割上昇」と主張。阿求は後半を消し、誤答がようやく最後まで話せるようになっただけと注記した。魔理沙は旧下書きを持ち出したが、かつてのBを新版Dへ勝手に移されず、「再確認してください」という札だけを見つける。彼女は試験係が回答の自己進化を妨げたと告発。パチュリーは、回答は進化してよいが証拠の鎖は変異させるな、と返した。",
       "Aya's extra claims, “Correct answers shrink thirty percent; scholarship rises thirty percent.” Akyuu crosses out the second clause and notes that wrong answers have merely learned to finish their arguments. Marisa steals an old draft and finds that the office has not turned her former B into the new D—only a request to confirm it again. She accuses examinations of obstructing spontaneous answer evolution. Patchouli replies: answers may evolve; evidence chains may not mutate.",
+    ),
+  },
+  {
+    id: "ninth-paper-appears-on-the-reverse",
+    archiveId: "TU-H-039",
+    commit: null,
+    commitSubject: "Add PHANTASM reverse examination",
+    recordedAt: "2026-08-13",
+    planned: true,
+    category: "examinations",
+    era: l(
+      "同日第九響後・那張無署名紙條終於翻面",
+      "同日第九打後・無署名の紙片がようやく裏返る",
+      "After the ninth strike that day · The unsigned slip finally turns over",
+    ),
+    title: l(
+      "考完 EXTRA 的人收到第九份試卷，試務處否認它曾在正面印刷",
+      "EXTRAを終えた者へ第九の問題が届き、試験係は表面での印刷を否認する",
+      "A ninth paper reaches those who finish EXTRA; Exams denies printing it on the front",
+    ),
+    summary: l(
+      "多年前第一位追問 PHANTASM 的考生，只收到一句『先把 EXTRA 寫完』。如今，完成六枚夢境封印並交過任一普通 EXTRA 卷的人，會在夢境校區看見紙條背面顯出九題、三部分、一百五十分的共同卷；不設時限，因第九響從未保證時間向前。第一部分要求把正式結案與反面史料分開保存，第二部分准許矛盾留在原案卻禁止它證明無關命題，第三部分追問未選路線的模擬何時才有資格談因果。多蕾米吃掉一段夢後，空白必須連同缺失機制入檔；慧音替互相排斥的歷史編目，不替其中一份翻案；紫讓同一來源跨過邊界，卻不准效力跟著偷渡；靈夢則在每張成績紙蓋上『夢境邊界外無效』。空白卷與批註可以在夢中列印，草稿與成績也各有檔案，但 My TU、正式成績單與校務事件帳本一致聲稱這場考試沒有發生。",
+      "かつてPHANTASMの所在を尋ねた最初の受験者には、「まずEXTRAを終えよ」とだけ書かれた紙片が届いた。今では六つの夢境封印を満たし、通常のEXTRAを一度提出した者に限り、その裏へ全9問・3部・150点の共通問題が現れる。時間制限はない――第九打は時間の前進を一度も保証していない。第一部は正式終結と裏面史料を分けて保存させ、第二部は矛盾を案件内に残しながら無関係な命題の証明を禁じ、第三部は未選択経路の模擬がいつ因果を語れるかを問う。ドレミーが夢の一節を食べれば、空白は欠測機構とともに記録される。慧音は排他的な歴史を目録化しても再審はせず、紫は同じ資料を境界越しに結んでも効力の密輸を許さない。霊夢は全成績票へ「夢境境界外では無効」と押印する。空白問題も講評も夢の中で印刷でき、下書きと結果には別々のファイルがある。それでもMy TU、正式成績、学務事象台帳は一致して、この試験は起きなかったと答える。",
+      "Years ago, the first candidate to ask where PHANTASM was received only an unsigned slip: “Finish EXTRA first.” Now, after earning all six dream seals and submitting either ordinary EXTRA paper, its reverse reveals a common examination of nine questions, three parts, and 150 marks. It is untimed because the ninth strike has never promised that time moves forward. Part one separates official closures from reverse-side sources; part two keeps contradictions local without letting them prove unrelated claims; part three asks when a simulation of an untaken route may speak causally. When Doremy consumes a paragraph, the blank is filed with its missingness mechanism. Keine catalogues mutually exclusive histories without retrying either case. Yukari links one source across a boundary but forbids its authority from being smuggled through. Reimu stamps every result “Not valid outside the dream boundary.” Blank papers and annotated results can be printed inside the dream, and drafts and scores keep their own files; My TU, the official transcript, and the campus event ledger nevertheless agree that the examination never happened.",
+    ),
+    marginalia: l(
+      "文在考生交卷前九分鐘刊出『PHANTASM 合格率百分之百』，阿求問她分母從哪來；文指向一張尚未顯字的答題紙。魔理沙試圖把夢境的一百五十分夾進正式成績單，紙張自行翻面，只剩一句『來源可以共用，效力不可』。靈夢把它退回，多蕾米順手吃掉退件章；慧音只好新增一欄：退件已發生，印章目前缺失。",
+      "文は提出九分前に「PHANTASM合格率100％」を発行し、阿求に分母を問われると、まだ顕字していない答案を指した。魔理沙が夢の150点を正式成績へ挟むと、紙は自ら反転し、「資料は共有可、効力は不可」だけが残る。霊夢が返却し、ドレミーは返却印を食べた。慧音は欄を一つ増やす――返却は発生済み、印章は現在欠測。",
+      "Aya publishes “PHANTASM pass rate: 100%” nine minutes before submission. Asked for her denominator, she points to an answer sheet whose text has not appeared. Marisa slips the dream's 150 marks into her official transcript; the page turns itself over, leaving only “sources may be shared; authority may not.” Reimu returns it, and Doremy eats the rejection stamp. Keine adds a field: return occurred; seal currently missing.",
     ),
   },
 ];

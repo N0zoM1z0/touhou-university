@@ -76,6 +76,36 @@ TU-DREAM-TRANSCRIPT
 Not valid outside the dream boundary
 ```
 
+## PHANTASM reverse examination
+
+The earlier unsigned BBS/history slip—“finish EXTRA first”—now has a literal
+payoff. Once the dream campus is open, one completed ordinary humanities or
+science EXTRA attempt makes a common reverse paper appear. Score is irrelevant:
+EXTRA proves that the candidate has followed one difficult world-line to its
+end, rather than that they guessed the dream's password.
+
+The paper is not a fifth admissions difficulty. It has nine questions in three
+sections for 150 marks and no timer, because the ninth strike does not promise
+forward time:
+
+1. reverse-side historiography preserves incompatible files without retrying
+   an official closure;
+2. boundary and contradiction reasoning retains local inconsistency without
+   allowing arbitrary conclusions;
+3. untaken causality and record boundaries distinguish a simulated branch from
+   an identified waking counterfactual.
+
+The final questions deliberately combine provenance, mechanism-linked
+missingness after Doremy consumes a dream, circular citation, boundary-aware
+identity and non-transferable credits. Yukari can preserve both sides, Keine
+can catalogue their lineage, and Reimu can still refuse to let dream marks pay
+an ordinary obligation. Answer letters are non-cyclic and options are checked
+for multilingual length leakage by `scripts/check-phantasm-exam.mjs`.
+
+Only an opened dream campus renders the desk. It can print a blank reverse
+paper and a scored review, both carrying `Not valid outside the dream boundary`;
+there is intentionally no ordinary admissions card or offline download.
+
 ## Record isolation
 
 Official lifecycle events are inputs to the unlock and counterfactual
@@ -83,6 +113,8 @@ fragments, but dream actions are never official outputs. PHANTASM uses:
 
 - `tu:phantasm:state`
 - `tu:phantasm:transcripts`
+- `tu:phantasm:exam:draft`
+- `tu:phantasm:exam:attempts`
 - `tu:phantasm:boundary` for bounded wrong-door traces
 - session-only `tu:phantasm:pass` for one temporary passage
 

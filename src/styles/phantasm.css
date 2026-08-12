@@ -1517,6 +1517,349 @@ body.phantasm-brand-active .site-footer {
   background: #6d5477;
 }
 
+[data-phantasm-exam] {
+  scroll-margin-top: 6rem;
+}
+
+.phantasm-exam-desk,
+.phantasm-exam-runner,
+.phantasm-exam-result {
+  border: 1px solid rgba(198, 166, 213, 0.22);
+  background: rgba(15, 14, 25, 0.88);
+  box-shadow: 1.2rem 1.2rem 0 rgba(111, 80, 128, 0.1);
+}
+
+.phantasm-exam-desk > .phantasm-section-heading {
+  padding: clamp(2rem, 5vw, 4rem);
+}
+
+.phantasm-exam-seal {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 1.4rem;
+  align-items: center;
+  margin: 0 clamp(2rem, 5vw, 4rem);
+  padding: 1.4rem;
+  border: 1px solid rgba(198, 166, 213, 0.2);
+  background: rgba(198, 166, 213, 0.035);
+}
+
+.phantasm-exam-seal > span {
+  display: grid;
+  place-items: center;
+  width: 5rem;
+  height: 5rem;
+  color: #17131d;
+  background: #77717b;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+}
+
+.phantasm-exam-seal.is-visible > span {
+  background: var(--dream-lilac);
+  box-shadow: 0 0 2rem rgba(198, 166, 213, 0.32);
+}
+
+.phantasm-exam-seal b,
+.phantasm-exam-seal p,
+.phantasm-exam-seal small {
+  display: block;
+}
+
+.phantasm-exam-seal p {
+  margin: 0.4rem 0;
+  color: var(--dream-muted);
+  line-height: 1.7;
+}
+
+.phantasm-exam-seal small {
+  color: var(--dream-lilac);
+}
+
+.phantasm-exam-actions {
+  display: flex;
+  gap: 0.8rem;
+  padding: 1.5rem clamp(2rem, 5vw, 4rem);
+}
+
+.phantasm-exam-actions button,
+.phantasm-exam-sheet button,
+.phantasm-exam-result footer button {
+  padding: 0.8rem 1rem;
+  color: var(--dream-ink);
+  border: 1px solid rgba(198, 166, 213, 0.35);
+  background: rgba(198, 166, 213, 0.08);
+}
+
+.phantasm-exam-actions button:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.phantasm-exam-records {
+  padding: 0 clamp(2rem, 5vw, 4rem) clamp(2rem, 5vw, 4rem);
+}
+
+.phantasm-exam-records h3 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.phantasm-exam-records > p {
+  color: var(--dream-muted);
+}
+
+.phantasm-exam-records > button {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.8rem 0;
+  color: var(--dream-ink);
+  border: 0;
+  border-top: 1px dotted rgba(198, 166, 213, 0.25);
+  background: transparent;
+  text-align: left;
+}
+
+.phantasm-exam-runner {
+  position: relative;
+  padding: clamp(1rem, 3vw, 2rem);
+}
+
+.phantasm-exam-paper {
+  color: #25202a;
+  background: #e9e5dc;
+}
+
+.phantasm-exam-paper > header {
+  padding: clamp(2rem, 5vw, 4rem);
+  border-bottom: 3px double #847b88;
+}
+
+.phantasm-exam-paper > header > p,
+.phantasm-exam-part > header span,
+.phantasm-exam-result > header p {
+  color: #76547b;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+}
+
+.phantasm-exam-paper > header h2 {
+  margin: 0.8rem 0;
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 500;
+}
+
+.phantasm-exam-paper > header > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  color: #7f4053;
+}
+
+.phantasm-exam-paper > header section {
+  margin-top: 2rem;
+  padding: 1rem 1.3rem;
+  border: 1px solid #b4adb6;
+}
+
+.phantasm-exam-paper > header li {
+  margin: 0.45rem 0;
+  line-height: 1.6;
+}
+
+.phantasm-exam-part > header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem clamp(1.5rem, 4vw, 3rem);
+  border-bottom: 1px solid #aaa2ac;
+}
+
+.phantasm-exam-part > header h3 {
+  margin: 0.3rem 0 0;
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.phantasm-exam-part > header p {
+  margin: 0;
+  color: #625b65;
+  line-height: 1.7;
+}
+
+.phantasm-exam-question {
+  margin: 0;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 0;
+  border-bottom: 1px solid #aaa2ac;
+}
+
+.phantasm-exam-question legend {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  width: 100%;
+  font-family: var(--font-serif);
+  line-height: 1.7;
+}
+
+.phantasm-exam-question legend span,
+.phantasm-exam-question legend small {
+  color: #76547b;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+}
+
+.phantasm-exam-question pre,
+.phantasm-exam-result details pre {
+  margin: 1.2rem 0;
+  padding: 1rem 1.2rem;
+  overflow: auto;
+  color: #504852;
+  border-left: 3px solid #8e658e;
+  background: rgba(111, 80, 128, 0.06);
+  font: inherit;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.phantasm-exam-question > div {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.phantasm-exam-question label {
+  display: grid;
+  grid-template-columns: auto 2rem 1fr;
+  gap: 0.8rem;
+  align-items: start;
+  padding: 0.85rem 1rem;
+  border: 1px solid #bdb6bf;
+  line-height: 1.65;
+}
+
+.phantasm-exam-question label.is-selected {
+  border-color: #754f7a;
+  background: rgba(111, 80, 128, 0.1);
+}
+
+.phantasm-exam-sheet {
+  position: sticky;
+  bottom: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(198, 166, 213, 0.32);
+  background: rgba(12, 13, 23, 0.96);
+}
+
+.phantasm-exam-sheet > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.phantasm-exam-sheet a {
+  padding: 0.35rem;
+  color: var(--dream-muted);
+  border: 1px solid rgba(198, 166, 213, 0.16);
+  font-size: 0.65rem;
+}
+
+.phantasm-exam-sheet a.is-answered {
+  color: #17131d;
+  background: var(--dream-lilac);
+}
+
+.phantasm-exam-result {
+  color: #25202a;
+  background: #e9e5dc;
+}
+
+.phantasm-exam-result > header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: clamp(2rem, 5vw, 4rem);
+  border-bottom: 3px double #847b88;
+}
+
+.phantasm-exam-result > header h2 {
+  margin: 0.4rem 0;
+  font-family: var(--font-serif);
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.phantasm-exam-result > header small {
+  font-size: 1rem;
+}
+
+.phantasm-exam-result > header > strong {
+  color: #8f4658;
+}
+
+.phantasm-exam-result > section {
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.phantasm-exam-result > section > h3 {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.phantasm-exam-result details {
+  border-top: 1px solid #aaa2ac;
+}
+
+.phantasm-exam-result summary {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.phantasm-exam-result details > div {
+  padding: 0 0 1.5rem 2rem;
+}
+
+.phantasm-exam-result details p span {
+  display: block;
+  color: #76547b;
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+.phantasm-exam-result blockquote {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid #8e658e;
+  line-height: 1.75;
+}
+
+.phantasm-exam-result > footer {
+  display: flex;
+  gap: 0.7rem;
+  padding: 1.5rem clamp(1.5rem, 4vw, 3rem);
+  border-top: 1px solid #aaa2ac;
+}
+
+.phantasm-exam-result footer button {
+  color: #302a33;
+  border-color: #918994;
+}
+
 .phantasm-wake {
   display: flex;
   gap: 3rem;
@@ -1627,7 +1970,13 @@ body.phantasm-brand-active .site-footer {
   }
 
   .phantasm-map-layout,
-  .phantasm-defence-layout {
+  .phantasm-defence-layout,
+  .phantasm-exam-part > header {
+    grid-template-columns: 1fr;
+  }
+
+  .phantasm-exam-sheet {
+    position: static;
     grid-template-columns: 1fr;
   }
 
@@ -1723,9 +2072,32 @@ body.phantasm-brand-active .site-footer {
   }
 
   .phantasm-gate-actions,
-  .phantasm-wake {
+  .phantasm-wake,
+  .phantasm-exam-actions,
+  .phantasm-exam-result > header,
+  .phantasm-exam-result > footer {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .phantasm-exam-seal {
+    grid-template-columns: 3.5rem 1fr;
+    margin-inline: 1rem;
+  }
+
+  .phantasm-exam-seal > span {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .phantasm-exam-question legend,
+  .phantasm-exam-result summary,
+  .phantasm-exam-records > button {
+    grid-template-columns: 1fr;
+  }
+
+  .phantasm-exam-question label {
+    grid-template-columns: auto 1.8rem 1fr;
   }
 
   .phantasm-gate-actions > div {
@@ -1873,5 +2245,21 @@ body.phantasm-brand-active .site-footer {
 
   .tu-print-root .phantasm-final-transcript * {
     border-color: #777 !important;
+  }
+
+  .tu-print-root .phantasm-exam-paper,
+  .tu-print-root .phantasm-exam-result {
+    color: #151515 !important;
+    background: #fff !important;
+    box-shadow: none !important;
+  }
+
+  .tu-print-root .phantasm-exam-paper *,
+  .tu-print-root .phantasm-exam-result * {
+    border-color: #777 !important;
+  }
+
+  .tu-print-root .phantasm-exam-result > footer {
+    display: none !important;
   }
 }

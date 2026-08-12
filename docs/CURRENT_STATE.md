@@ -1,6 +1,6 @@
 # Touhou University current state
 
-Last audited: 2026-08-12
+Last audited: 2026-08-13
 Release: `0.30.0`
 Branch/deployment: `main` → GitHub Pages
 Live site: <https://n0zom1z0.github.io/touhou-university/>
@@ -32,7 +32,7 @@ language.
 | Unique content sections | 35 |
 | CSS bundles | 20 |
 | Supported locales | 3 (`zh-Hant`, `ja`, `en`) |
-| Registered on-device keys | 71 |
+| Registered on-device keys | 73 |
 | Known records shelves | 12 |
 | Official event contracts | 76 |
 | Hieda dossiers / characters / source leaves | 12 / 23 / 82 |
@@ -67,7 +67,7 @@ Run `npm run docs:status` for the same values directly from source.
 | `housing.html` | residences, matching, assignments and transfer |
 | `records.html` | complete on-device records cabinet |
 | `hieda.html` | cross-domain knowledge graph |
-| `phantasm.html` | hidden, gated, isolated dream campus |
+| `phantasm.html` | hidden, gated, isolated dream campus and PHANTASM reverse examination |
 
 ## Authoritative sources
 
@@ -95,8 +95,8 @@ Run `npm run docs:status` for the same values directly from source.
   They must point back to owning records rather than becoming duplicate truth.
 - Official campus events are versioned causal facts. Visitor-authored BBS
   posts and derived community reactions are different stores.
-- PHANTASM storage and transcripts are deliberately excluded from official
-  credits and `tu:campus:ledger`.
+- PHANTASM storage, reverse-exam attempts and transcripts are deliberately
+  excluded from official credits, My TU and `tu:campus:ledger`.
 - `docs/research/` is the repository release copy. The optional sibling
   `../research/` is a working mirror and should match when present.
 - `docs/ROADMAP.md` is implementation history plus explicitly labelled future

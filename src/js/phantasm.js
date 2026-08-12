@@ -407,6 +407,7 @@ function unlockedView(locale, c, state, fragments, boundary) {
         ${mapView(locale, c, state)}
         ${counterfactualView(locale, c, fragments)}
         ${courseView(locale, c, state)}
+        <div data-phantasm-exam></div>
         ${defenceView(locale, c, state, fragments)}
         <section class="phantasm-wake">
           <div><p>EXIT / 未行校門</p><h2>${c.wake}</h2><span>${c.wakeNote}</span></div>
@@ -414,6 +415,12 @@ function unlockedView(locale, c, state, fragments, boundary) {
         </section>
       </div>
     </div>`;
+}
+
+async function initDreamExam() {
+  if (!root?.querySelector("[data-phantasm-exam]")) return;
+  const module = await import("./phantasm-exam.js");
+  module.initPhantasmExam();
 }
 
 function render({ preserveScroll = false } = {}) {
@@ -429,6 +436,7 @@ function render({ preserveScroll = false } = {}) {
   root.innerHTML = unlocked
     ? unlockedView(locale, c, state, fragments, boundary)
     : lockedView(locale, c, progress, boundary);
+  if (unlocked) initDreamExam();
   document.body.classList.toggle("phantasm-is-open", unlocked);
   applyPhantasmBrand(unlocked, locale, boundary);
   if (scrollY !== null) window.requestAnimationFrame(() => window.scrollTo({ top: scrollY, behavior: "auto" }));
@@ -545,7 +553,9 @@ export function initPhantasm() {
   render();
   bind();
   registerDeepLink("phantasm-", {
-    anchor: (route) => root.querySelector(`[data-phantasm-route="${CSS.escape(route)}"]`) || root,
+    anchor: (route) => route.startsWith("phantasm-exam")
+      ? root.querySelector("[data-phantasm-exam]") || root
+      : root.querySelector(`[data-phantasm-route="${CSS.escape(route)}"]`) || root,
     open: openRoute,
     close() {},
     position: "always",

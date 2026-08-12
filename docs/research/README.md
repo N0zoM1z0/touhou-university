@@ -38,7 +38,8 @@ depend on that other checkout:
 - `spellcard-workshop-notes.md` — six independent reviewer positions,
   lightweight sandbox constraints, public-defence structure and persistence.
 - `phantasm-campus-notes.md` — counterfactual-campus concept, six hard unlock
-  seals, ordinary-site clue budget, dream curriculum and ledger isolation.
+  seals, ordinary-site clue budget, dream curriculum, PHANTASM reverse paper
+  and ledger isolation.
 - `local-records-cabinet-notes.md` — discoverable on-device storage, sealed
   export/import, deletion boundaries and scope language.
 - `research-ethics-board-notes.md` — five independent review seats, five
@@ -54,9 +55,9 @@ depend on that other checkout:
 - `employment-market-notes.md` — non-exclusive graduate whereabouts,
   denominator hearings, twenty-one strange vacancies, odd-résumé replies,
   employment event projections and recruitment-poster provenance.
-- `unified-examination-notes.md` — difficulty contracts, diagnostic
-  distractors, answer-key leakage thresholds and question-bank revision
-  compatibility.
+- `unified-examination-notes.md` — ordinary and dream-paper difficulty
+  contracts, diagnostic distractors, answer-key leakage thresholds and
+  question-bank revision compatibility.
 
 ## Which file should an agent read?
 

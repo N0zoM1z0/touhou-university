@@ -9,6 +9,7 @@ import {
   phantasmNodes,
   phantasmSealOrder,
 } from "../src/data/phantasm.js";
+import { phantasmExamMeta, phantasmExamQuestions } from "../src/data/phantasm-exam.js";
 import {
   PHANTASM_ENTRANCES,
   phantasmBoundarySchedule,
@@ -28,6 +29,7 @@ check(phantasmCourses.length === 6 && new Set(phantasmCourses.map((course) => co
 check(phantasmNodes.length === 6 && new Set(phantasmNodes.map((node) => node.id)).size === 6, "Reverse campus must keep six unique map nodes.");
 check(phantasmExaminers.length === 4, "Reverse viva must retain four distinct examiner positions.");
 check(Object.keys(phantasmBrandProfiles).sort().join(",") === "full,new,waning,waxing", "Dream Campus must retain four lunar brand profiles.");
+check(phantasmExamMeta.requiredDifficulty === "extra" && phantasmExamQuestions.length === 9, "Dream Campus lost its EXTRA-gated PHANTASM reverse paper.");
 
 for (const course of phantasmCourses) {
   check(translated(course.title) && translated(course.teacher) && translated(course.syllabus) && translated(course.assessment), `${course.id} is missing trilingual course material.`);
@@ -64,8 +66,9 @@ check(moonCoverage.size === 8, "Boundary schedule fixtures do not cover all eigh
 const page = site.pages.find((candidate) => candidate.id === "phantasm");
 check(page?.hidden === true && page?.output === "phantasm.html", "Dream Campus must build as a hidden route, not an ordinary navigation page.");
 
-const [model, gate, interfaceSource, chrome, router, mytu, map, search, bbs] = await Promise.all([
+const [model, examModel, gate, interfaceSource, chrome, router, mytu, map, search, bbs] = await Promise.all([
   readFile(path.join(root, "src/js/phantasm-model.js"), "utf8"),
+  readFile(path.join(root, "src/js/phantasm-exam-model.js"), "utf8"),
   readFile(path.join(root, "src/js/phantasm-gate.js"), "utf8"),
   readFile(path.join(root, "src/js/phantasm.js"), "utf8"),
   readFile(path.join(root, "src/sections/chrome.html"), "utf8"),
@@ -76,6 +79,7 @@ const [model, gate, interfaceSource, chrome, router, mytu, map, search, bbs] = a
   readFile(path.join(root, "src/js/bbs.js"), "utf8"),
 ]);
 check(!model.includes("recordCampusEvent"), "Dream records must never write to the official campus event ledger.");
+check(!examModel.includes("recordCampusEvent") && examModel.includes('difficultyId === phantasmExamMeta.requiredDifficulty'), "PHANTASM examination must stay ledger-isolated and require a completed ordinary EXTRA attempt.");
 check(gate.includes("tu:phantasm:boundary") && gate.includes("tu:phantasm:pass"), "Dynamic boundary attempts and short session passage are not isolated.");
 check(gate.includes("mercyReady") && gate.includes("PASS_DURATION"), "The lunar boundary can close but has no bounded accessibility release.");
 check(interfaceSource.includes("dreamFavicon") && interfaceSource.includes("phantasm-brand-active"), "Entering PHANTASM does not replace the university name and crest/favicon shell.");

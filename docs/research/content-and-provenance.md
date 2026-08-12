@@ -13,8 +13,9 @@
    locally saved application.
 6. **Entrance examinations** — eight humanities/science and difficulty paper
    variants with local scoring, revision-aware drafts, attempt history and
-   complete answer explanations; assessment rules live in
-   `unified-examination-notes.md`.
+   complete answer explanations; a separate common PHANTASM reverse paper is
+   available only inside the earned dream campus and cannot enter ordinary
+   records. Assessment rules live in `unified-examination-notes.md`.
 7. **Research** — complete in-world project files with methods, findings and
    field notes.
 8. **Campus life and BBS** — original visual scenes, detailed clubs, rotating

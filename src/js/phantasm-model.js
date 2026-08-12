@@ -550,6 +550,29 @@ export function phantasmCommunityPosts(locale = "zh-Hant") {
     createdAt,
     phantasmRoute: progress.eligible ? "phantasm-campus" : null,
   }];
+  const extraAttempts = readJson("tu:gaokao:attempts", []).filter((attempt) => attempt?.difficultyId === "extra" && attempt?.completedAt);
+  posts.push({
+    id: "phantasm-exam-reverse-paper-rumour",
+    generated: true,
+    phantasm: true,
+    category: "course",
+    author: locale === "ja" ? "試験机の裏面係（表には不在）" : locale === "en" ? "Reverse-Side Exams Clerk (absent from front)" : "試務桌反面職員（正面查無此人）",
+    title: locale === "ja" ? "EXTRAの裏にPHANTASM問題があるって本当？" : locale === "en" ? "Is there really a PHANTASM paper behind EXTRA?" : "EXTRA 背面真的有 PHANTASM 試卷嗎？",
+    body: extraAttempts.length
+      ? (locale === "ja"
+        ? "EXTRA提出印を灯りへ透かすと、九問・百五十点と読める。試験係はインク染みだと言うが、染みが『正式成績へ転記不可』と三言語で注意している。"
+        : locale === "en"
+          ? "Hold an EXTRA submission seal to the light and it reads nine questions, 150 marks. Exams calls it an ink stain, although the stain warns in three languages not to enter the score officially."
+          : "把 EXTRA 交卷章對著光，背面會讀出九題、一百五十分。試務處說那只是墨漬，但墨漬用三種語言警告不得登錄正式成績。")
+      : (locale === "ja"
+        ? "最初に尋ねた受験者は「まずEXTRAを終えよ」という無署名紙片を受け取った。二度目に尋ねると、紙片は自分が最初の返答ではないと主張した。"
+        : locale === "en"
+          ? "The first candidate to ask received an unsigned slip: 'Finish EXTRA first.' Asked again, the slip denied being the first answer."
+          : "第一位去問的考生收到無署名紙條：『先把 EXTRA 寫完。』再問一次，紙條否認自己是第一份回答。"),
+    replies: 12 + extraAttempts.length,
+    createdAt,
+    phantasmRoute: progress.eligible ? "phantasm-exam" : null,
+  });
   if (transcripts.length) {
     const latest = transcripts.at(-1);
     posts.unshift({

@@ -23,6 +23,7 @@
     "check:appraisal": "node scripts/check-appraisal.mjs",
     "check:spellcards": "node scripts/check-spellcard-workshop.mjs",
     "check:phantasm": "node scripts/check-phantasm.mjs",
+    "check:phantasm-exam": "node scripts/check-phantasm-exam.mjs",
     "check:records": "node scripts/check-local-records.mjs",
     "check:contracts": "node scripts/check-event-contracts.mjs",
     "check:knowledge": "node scripts/check-knowledge-graph.mjs",
@@ -36,6 +37,6 @@
     "history:status": "node scripts/check-campus-history.mjs",
     "test:browser": "npm run build && node scripts/smoke-browser.mjs",
     "capture": "npm run build && node scripts/capture-ui.mjs",
-    "check": "npm run build && npm run check:docs && npm run check:i18n && npm run check:js && npm run check:contracts && npm run check:knowledge && npm run check:ethics && npm run check:festival && npm run check:fieldwork && npm run check:commons && npm run check:careers && npm run check:employment && npm run check:gaokao && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:phantasm && npm run check:records && npm run check:interactions && npm run check:live && npm run check:history"
+    "check": "npm run build && npm run check:docs && npm run check:i18n && npm run check:js && npm run check:contracts && npm run check:knowledge && npm run check:ethics && npm run check:festival && npm run check:fieldwork && npm run check:commons && npm run check:careers && npm run check:employment && npm run check:gaokao && npm run check:phantasm-exam && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:phantasm && npm run check:records && npm run check:interactions && npm run check:live && npm run check:history"
   }
 }

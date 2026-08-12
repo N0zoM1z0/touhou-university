@@ -4,6 +4,21 @@ All notable changes to the Touhou University project are recorded here.
 
 ## [Unreleased]
 
+### Added
+
+- Added the earned Dream Campus's trilingual PHANTASM common reverse paper:
+  nine questions across reverse historiography, non-explosive boundary logic
+  and untaken-route causality, totalling 150 marks without a forward-time
+  limit.
+- Made one completed ordinary EXTRA paper the final opening condition, paying
+  off the old unsigned “finish EXTRA first” clue without adding a visible fifth
+  admissions card. Blank papers and scored reviews print only from inside the
+  dream boundary.
+- Added dream-only draft and attempt shelves, a responsive examination desk,
+  an adaptive BBS rumour, focused answer-leak validation and end-to-end browser
+  coverage for perfect scoring, printing, scroll preservation and official
+  ledger isolation.
+
 ### Changed
 
 - Re-edited seventy-five high-impact Traditional Chinese, Japanese and English
