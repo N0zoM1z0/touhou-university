@@ -863,10 +863,9 @@ export const campusHistory = [
   {
     id: "appointment-scroll-becomes-four-readable-volumes",
     archiveId: "TU-H-036",
-    commit: null,
+    commit: "d150864b293e6cb581b0c88eea10b9116497caf1",
     commitSubject: "Rebuild documentation for reliable agent handoff",
     recordedAt: "2026-08-12",
-    planned: true,
     category: "registry",
     era: l(
       "十四日後・第六百七十九行仍在詢問是否已讀",
@@ -887,6 +886,35 @@ export const campusHistory = [
       "文立刻刊出號外：『校務手冊縮短九成六，實際冊數增至四倍！』阿求在標題下補註第一冊只是目錄；慧音把「五十個本機鍵」訂正成七十一，隔天又要求任何人不得手抄這個數字。紫把大寫 AGENTS.MD 的門接到小寫 AGENTS.md，並否認兩扇門曾是同一扇。魔理沙試著直接改生成後的頁面，建置一次便把字變回來；她因此在手冊空白處寫下：『可重現，偷不走。』",
       "文は即座に号外を出した――「校務手引を96％短縮、実冊数は四倍！」。阿求は見出し下へ第一冊は目録だけと追記。慧音は「端末内キー50件」を71件へ訂正し、翌日にはその数字を手で写すなと命じた。紫は大文字 AGENTS.MD の扉を小文字 AGENTS.md へ接続し、二枚が同じ扉だった事実を否認。魔理沙が生成済み頁を直接直すと、一度の構築で文字は元へ戻った。彼女は余白に「再現可能、持ち去れない」と書いた。",
       "Aya immediately prints: “Administrative manual shortened 96%; actual volume count quadruples!” Akyuu notes beneath it that volume one is only the index. Keine corrects “fifty on-device keys” to seventy-one, then orders everyone not to copy that number by hand again. Yukari connects the uppercase AGENTS.MD door to lowercase AGENTS.md and denies they were ever one door. Marisa edits a generated page directly; one build restores it. She writes in the handbook margin: “reproducible, therefore impossible to steal.”",
+    ),
+  },
+  {
+    id: "three-language-desks-return-the-strangeness",
+    archiveId: "TU-H-037",
+    commit: null,
+    commitSubject: "Polish trilingual campus copy",
+    recordedAt: "2026-08-13",
+    planned: true,
+    category: "registry",
+    era: l(
+      "次日・三座校務窗口同時換筆",
+      "翌日・三つの学務窓口が同時に筆を替える",
+      "Next day · Three campus desks change pens at once",
+    ),
+    title: l(
+      "三種語言各自說得自然，校園反而顯得更怪了",
+      "三つの言語が自然に話し始め、キャンパスはかえって奇妙になる",
+      "Three languages begin speaking naturally, and the campus becomes stranger",
+    ),
+    summary: l(
+      "稗田資料室把所有公開告示分送到繁體中文、日文與英文三座校閱桌，每桌交回二十五張紅筆單。繁中桌讓招生資訊、貼文、看板、儲存與現場運作回到本地校務語感；日文桌把幻想鄉域內實習和神社境內分開，也讓キャンセル待ち、GPA、附屬醫院與學內報各歸其位；英文桌則重寫校訓、入學、研究、診療、角色小傳與那些像是從另一種語法直搬過來的課程說明。招生、BBS、學術、診療、野外調查、祭典、倫理、圖書館與進路室因此在三種語言裡都像自己。被修走的只有語病：會自行歸架的書、拒絕固定分母的卒業生、換側的校門、開卷資料批判和角色各自惹出的麻煩一件也沒有減少。校方由此確認，怪異必須來自幻想鄉的制度、人物與後果，不能讓翻譯的影子冒充世界觀。",
+      "稗田資料室は公開文書を繁体字中国語・日本語・英語の三つの校閲机へ分け、各机から赤字票二十五枚を受け取った。繁体字中国語机は招生資訊、貼文、看板、儲存、現場運作を土地の学務語へ戻した。日本語机は幻想郷域内実習と神社の境内を分け、キャンセル待ち、GPA、大学附属病院、学内報をそれぞれ正しい席へ案内した。英語机は校訓、入学、研究、診療、人物紹介と、別の文法から運び込まれたような科目説明を書き直した。入学、BBS、学術、診療、現地調査、祭典、倫理、図書館、進路の各窓口は、どの言語でも自分の声で話せるようになった。取り除いたのは不自然な言い回しだけで、自ら棚へ戻る本、分母の固定を拒む卒業生、側を替える門、持込可の資料批判、人物たちが起こす面倒は一件も減っていない。怪異は幻想郷の制度・人物・結果から生まれるべきで、翻訳の影に世界観の代役をさせてはならない――これが校方の新しい校正原則となった。",
+      "The Hieda archive divides every public notice among Traditional Chinese, Japanese, and English review desks; each returns twenty-five red-pencil slips. The Traditional Chinese desk restores the local administrative voice of admissions, posts, boards, saving, and live operations. The Japanese desk separates Gensokyo-wide placements from shrine precincts and seats waitlists, GPA, the university hospital, and the campus paper where they belong. The English desk rewrites the motto, admissions, research, care, character portraits, and course descriptions that sounded carried over from another grammar. Admissions, BBS, academics, care, fieldwork, festivals, ethics, the library, and careers now sound like themselves in all three languages. Only awkward phrasing leaves the register: self-reshelving books, graduates who refuse a fixed denominator, side-swapping gates, open-book source criticism, and character-made trouble all remain. The university adopts a copy rule: strangeness must come from Gensokyo's institutions, people, and consequences, never from the shadow of a translation pretending to be worldbuilding.",
+    ),
+    marginalia: l(
+      "文的號外寫著：『本校一夜刪除七十五項怪異。』阿求要求更正——刪掉的是語病，怪異全數仍在籍。魔理沙順走英文桌的紅筆，在「open-book source criticism」旁補上「open-library, if the books consent」；帕秋莉准予保留後半句，只把逗號移回原位。",
+      "文の号外は「本学、一夜で怪異七十五件を削除」。阿求は訂正を求めた――消したのは不自然な言い回しで、怪異は全件在籍中。魔理沙は英語机の赤筆を持ち出し、「open-book source criticism」の横へ「open-library, if the books consent」と書き足した。パチュリーは後半だけ存続を認め、コンマを元の位置へ戻した。",
+      "Aya's extra reads, “University removes seventy-five anomalies overnight.” Akyuu demands a correction: awkward phrasing was removed; every anomaly remains enrolled. Marisa steals the English desk's red pencil and adds “open-library, if the books consent” beside “open-book source criticism.” Patchouli permits the second clause to remain and merely returns the comma to its proper place.",
     ),
   },
 ];

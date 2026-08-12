@@ -192,7 +192,7 @@ export function assessTriage(input, now = new Date()) {
     rules: [
       ...state.activeEvents.map((event) => event.rule),
       ...(festival.active ? [{
-        "zh-Hant": `祭典運行票預估另有 ${festival.expected} 人需要急救或候診。`,
+        "zh-Hant": `祭典現場執行單預估另有 ${festival.expected} 人需要急救或候診。`,
         ja: `祭典運行票は救護・受診 ${festival.expected} 人を追加予測。`,
         en: `The live festival slip adds ${festival.expected} expected aid or clinic presentations.`,
       }] : []),

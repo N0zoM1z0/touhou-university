@@ -31,7 +31,7 @@ const paths = {
       ["academics", { "zh-Hant": "比較七所學院", ja: "七学部を比較", en: "Compare seven schools" }],
       ["entrance-exam", { "zh-Hant": "挑戰入學試驗", ja: "入学試験に挑戦", en: "Try the entrance exam" }],
       ["gaokao", { "zh-Hant": "參加幻想鄉統一學力試驗", ja: "幻想郷統一試験", en: "Take the Gensokyo exam" }],
-      ["service-application", { "zh-Hant": "開始線上填報", ja: "オンライン出願", en: "Start application" }],
+      ["service-application", { "zh-Hant": "開始線上申請", ja: "オンライン出願", en: "Start application" }],
     ],
   },
   student: {

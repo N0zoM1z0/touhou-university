@@ -60,7 +60,7 @@ const teachers = {
 };
 
 const meta = {
-  "BIS-101": m(teachers.reimu, "mon", "p1", "BH-108", 48, 31, [], l("第一堂先畫退路；畫成賽錢箱形狀不加分。", "初回は退路を描く。賽銭箱型でも加点なし。", "The first class draws exits. Donation-box shapes earn no bonus.")),
+  "BIS-101": m(teachers.reimu, "mon", "p1", "BH-108", 48, 31, [], l("第一堂先畫退路；畫成賽錢箱形狀不加分。", "初回は退路を描く。賽銭箱型でも加点なし。", "In the first class, students draw exit routes. Donation-box shapes earn no bonus.")),
   "BIS-132": m(teachers.keine, "tue", "p3", "BH-203", 36, 36, ["BIS-101"], l("現場筆記須保留第一版，即使第二版比較不丟臉。", "現場記録は初版を保存。第二版の方が恥ずかしくなくても同様。", "Keep the first field note even when the second is less embarrassing.")),
   "BIS-204": m(teachers.reimu, "thu", "p4", "BH-RING", 28, 19, ["BIS-101"], l("退路設計占 40%；漂亮但不能停下來的符卡不及格。", "退路設計40%。美しくても停止不能なスペルは不可。", "Exit design is 40%; a beautiful spell that cannot stop fails.")),
   "BIS-271": m(teachers.yukari, "boundary", "p2", "BH-∞", 24, 17, ["BIS-101"], l("教室與所有教室邊界相鄰，系統只提出警告，不敢替你判斷。", "教室は全教室と境界隣接。システムは警告のみで判断を避ける。", "The room borders every room. The system warns but declines to decide."), { boundaryAdjacent: true }),
@@ -73,7 +73,7 @@ const meta = {
   "HRS-410": m(teachers.akyuu, "fri", "p5", "HH-VAULT", 10, 8, ["HRS-126", "HRS-208"], l("畢業檔案必須容納一份你不相信、但不能刪掉的版本。", "卒業資料には信じないが削除できない版を一つ含める。", "The capstone must preserve one version you distrust but cannot delete.")),
 
   "MTP-111": m(teachers.patchouli, "mon", "p3", "SD-07", 40, 28, [], l("元素順序寫錯不會立刻扣分；桌子先長出剪刀時才會。", "元素順を誤っても即減点ではない。机から鋏が生えた時点で減点。", "A wrong element order is not penalized until the desk grows scissors.")),
-  "MTP-143": m(teachers.patchouli, "thu", "p1", "ML-BOOK", 12, 12, ["MTP-111"], l("本課教室是一本會移架的書，與 HRS-126 不得同修。", "教室は移架する本。HRS-126との同時履修不可。", "The classroom is a shelving book and cannot be taken with HRS-126."), { conflictsWith: ["HRS-126"] }),
+  "MTP-143": m(teachers.patchouli, "thu", "p1", "ML-BOOK", 12, 12, ["MTP-111"], l("本課教室是一本會移架的書，與 HRS-126 不得同修。", "教室は移架する本。HRS-126との同時履修不可。", "The classroom is a book that reshelves itself; this course cannot be taken alongside HRS-126."), { conflictsWith: ["HRS-126"] }),
   "MTP-220": m(teachers.alice, "tue", "p4", "SD-DOLL", 24, 16, ["MTP-111"], l("遠端人偶代為點名無效；人偶若能回答追問則另案討論。", "人形による代返は無効。追問へ答えられる場合は別途審議。", "A doll cannot answer roll call unless it can also answer the follow-up.")),
   "MTP-308": m(teachers.marisa, "fri", "p2", "SD-BLAST", 20, 20, ["MTP-111", "BIS-101"], l("材料來源欄不可只寫『森林裡撿的』，最多占半格。", "素材出典「森で拾った」は半欄まで。", "“Found in the forest” may occupy at most half the provenance field.")),
   "MTP-430": m(teachers.marisa, "sat", "p3", "SD-STAR", 10, 7, ["MTP-220", "MTP-308"], l("期末作品須由不知情同學依說明書重現；爆炸方向也算結果。", "期末作は未説明の学生が手順書から再現。爆発方向も結果に含む。", "An uninformed peer reproduces the final; blast direction counts as a result.")),
@@ -91,7 +91,7 @@ const meta = {
   "KPE-440": m(teachers.nitori, "sat", "p2", "KW-FALL", 12, 10, ["KPE-322"], l("作品需連續運轉三十日；把故障日從日曆撕掉不延長連續性。", "30日連続稼働。故障日を暦から破っても連続にはならない。", "The build must run 30 days; tearing failures from the calendar does not restore continuity.")),
 
   "TJM-105": m(teachers.aya, "mon", "p6", "BN-201", 52, 39, [], l("消息來源飛到鏡頭前仍可要求匿名；速度不構成同意。", "情報源がレンズ前へ飛んでも匿名を求められる。速度は同意ではない。", "A source may fly into frame and still request anonymity; speed is not consent.")),
-  "TJM-144": m(teachers.aya, "tue", "p3", "BN-ROOF", 24, 22, ["TJM-105"], l("拍得到與應不應刊出分開評分；院長對此常提出異議。", "撮れるか、載せるべきかを別採点。学部長はしばしば異議。", "Can photograph and should publish are graded separately; the dean often objects.")),
+  "TJM-144": m(teachers.aya, "tue", "p3", "BN-ROOF", 24, 22, ["TJM-105"], l("拍得到與應不應刊出分開評分；院長對此常提出異議。", "撮れるか、載せるべきかを別採点。学部長はしばしば異議。", "Whether you can photograph it and whether you should publish it are graded separately; the dean often objects.")),
   "TJM-212": m(teachers.hatate, "boundary", "p4", "BN-DESK", 20, 20, ["TJM-105"], l("異變發生時上課時間會移向異變；候補者須自備能追上的交通。", "異変発生時、授業時刻は異変へ移動。補欠者は追いつく交通を用意。", "During an incident, class time moves toward it; waitlisted students provide pursuit transport."), { boundaryAdjacent: true }),
   "TJM-301": m(teachers.aya, "fri", "p1", "BN-CORR", 30, 14, ["TJM-105"], l("本週案例可能是教師今早刊出的標題；訂正速度不保證比原文快。", "今週の事例は教員が今朝出した見出しかもしれない。訂正は原文より遅い。", "This week's case may be the teacher's morning headline; correction is rarely faster.")),
   "TJM-420": m(teachers.aya, "sat", "p4", "BN-PRESS", 12, 12, ["TJM-144", "TJM-301"], l("三報須互相矛盾得有證據，不能只靠三個不同標題。", "三報の矛盾には証拠が必要。見出し三種だけでは不可。", "Three reports need evidenced disagreement, not merely three headlines.")),

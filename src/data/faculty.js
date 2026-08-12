@@ -14,7 +14,7 @@ export const facultyProfiles = {
     expertise: {
       "zh-Hant": "結界術、淨化、異變直覺與符卡規則。她常在調查表填完前就找到犯人，之後才想起學生還需要方法筆記。",
       ja: "結界術、浄化、異変の勘、スペルカード規則。調査票が埋まる前に犯人を見つけ、学生に方法ノートが必要だったと思い出す。",
-      en: "Barrier arts, purification, incident instinct, and spell-card rules. She often finds the culprit before the survey form is complete, then remembers students still need method notes.",
+      en: "Barrier arts, purification, incident intuition, and spell-card rules. She often finds the culprit before the incident report is complete, then remembers that her students still need notes on the method.",
     },
     courses: {
       "zh-Hant": "異變現場不升級原則／博麗結界實習／符卡式答辯",
@@ -42,7 +42,7 @@ export const facultyProfiles = {
     expertise: {
       "zh-Hant": "邊界拓撲、制度風險、外界漂移物與長期治理。她的考題往往先改變題目的邊界。",
       ja: "境界トポロジー、制度リスク、外界漂流物、長期統治。試験では問題そのものの境界が先に変わる。",
-      en: "Boundary topology, institutional risk, Outside World drift, and long-horizon governance. Her examinations often change the boundary of the question first.",
+      en: "Boundary topology, institutional risk, Outside World drift, and long-horizon governance. Her examinations often begin by redrawing the question’s boundary.",
     },
     courses: {
       "zh-Hant": "境界拓撲學／幻想鄉治理專題／缺席與存在",
@@ -74,7 +74,7 @@ export const facultyProfiles = {
     expertise: {
       "zh-Hant": "幻想鄉史、公共記憶、村落安全與史料倫理。她堅持區分發生、記錄與被允許記得。",
       ja: "幻想郷史、公共記憶、里の安全、史料倫理。起きたこと、記録されたこと、記憶を許されたことを区別する。",
-      en: "Gensokyo history, public memory, village safety, and archival ethics. She separates what happened, what was recorded, and what was permitted to remain remembered.",
+      en: "Gensokyo history, public memory, village safety, and archival ethics. She distinguishes what happened, what was recorded, and what people were permitted to remember.",
     },
     courses: {
       "zh-Hant": "幻想鄉通史／史料批判／滿月田野筆記",
@@ -132,12 +132,12 @@ export const facultyProfiles = {
       en: "Professor of Applied Magic · Ordinary Magician",
     },
     expertise: {
-      "zh-Hant": "高出力光魔法、材料採集、原型製作與可重現失敗。她能把爆炸重現得很準，但材料來源欄常只有「森林裡撿的」。",
+      "zh-Hant": "高輸出光魔法、材料採集、原型製作與可重現失敗。她能把爆炸重現得很準，但材料來源欄常只有「森林裡撿的」。",
       ja: "高出力光魔法、素材採集、試作、再現可能な失敗。爆発は正確に再現できるが、素材出典欄はしばしば「森で拾った」のみ。",
       en: "High-output light magic, material gathering, prototyping, and reproducible failure. She reproduces explosions precisely; the materials field often says only “found it in the forest.”",
     },
     courses: {
-      "zh-Hant": "高出力魔法安全／失敗要能重現／星光實驗工房",
+      "zh-Hant": "高輸出魔法安全／失敗要能重現／星光實驗工房",
       ja: "高出力魔法安全／失敗の再現性／星光実験工房",
       en: "High-Output Safety · Reproducible Failure · Starlight Workshop",
     },
@@ -190,7 +190,7 @@ export const facultyProfiles = {
     expertise: {
       "zh-Hant": "小水力、觀測儀器、原型製作與山地維護。她的機器通常真的能動；說明書要到第二次漏水後才會比機器完整。",
       ja: "小水力、観測機器、試作、山地保守。機械は大抵本当に動くが、説明書が機械より完成するのは二度目の漏水後。",
-      en: "Micro-hydropower, instruments, prototyping, and mountain maintenance. Her machines usually work; manuals become more complete than the machine after the second leak.",
+      en: "Micro-hydropower, instruments, prototyping, and mountain maintenance. Her machines usually work; the manuals finally catch up after the second leak.",
     },
     courses: {
       "zh-Hant": "低落差水輪／防水原型工房／非妖力使用者測試",

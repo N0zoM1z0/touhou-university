@@ -49,7 +49,7 @@ export const campusFeatures = {
       l("參展名額", "出展枠", "Exhibition places"),
       l("24 組", "24組", "24 teams"),
     ],
-    action: l("進入祭典運營室", "祭典運営室へ", "Enter festival operations"),
+    action: l("進入祭典營運室", "祭典運営室へ", "Enter festival operations"),
     route: "festival-operations",
   },
 };

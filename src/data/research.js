@@ -83,7 +83,7 @@ export const researchFiles = {
       en: "Lunar-Phase Sensory Guidance for Lost Bamboo Travellers",
     },
     summary: {
-      "zh-Hant": "把月光反射、腳步回聲與呼吸節奏轉成不依賴文字的引導系統，降低迷途者因恐慌而反覆返回同一路口的機率。",
+      "zh-Hant": "把月光反射、腳步回聲與呼吸節奏轉成不依賴文字的引導系統，降低迷途者因恐慌而一再繞回同一路口的機率。",
       ja: "月光反射、足音、呼吸リズムを文字に依存しない案内へ変換し、恐慌による同一路口への反復を減らす。",
       en: "A non-text guidance system translating moonlight, footsteps, and breathing rhythm to reduce panic-driven loops in the Bamboo Forest.",
     },

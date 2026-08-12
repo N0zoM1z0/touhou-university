@@ -4,7 +4,24 @@ All notable changes to the Touhou University project are recorded here.
 
 ## [Unreleased]
 
-No unreleased changes.
+### Changed
+
+- Re-edited seventy-five high-impact Traditional Chinese, Japanese and English
+  copy groups across admissions, BBS, academics, clinical care, fieldwork,
+  festivals, ethics, the library and careers, then regenerated all nineteen
+  public pages from their owning sources.
+- Replaced literal or cross-locale phrasing with native campus language while
+  keeping the university's deliberate institutional absurdity, character
+  voices and causal jokes intact.
+
+### Quality
+
+- Kept source strings, structured datasets, runtime fallbacks and generated
+  HTML synchronized under the full build, documentation, localization,
+  contract, knowledge, feature and interaction checks.
+- Backfilled TU-H-036 with first-parent commit
+  `d150864b293e6cb581b0c88eea10b9116497caf1`; planned TU-H-037 uses exact
+  subject `Polish trilingual campus copy`.
 
 ## [0.30.0] - 2026-08-12
 

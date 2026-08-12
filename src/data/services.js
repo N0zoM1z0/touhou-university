@@ -11,9 +11,9 @@ export const mapPlaces = {
     type: { "zh-Hant": "迎賓與校務", ja: "来訪・学務", en: "Arrival & Services" },
     name: { "zh-Hant": "博麗門", ja: "博麗門", en: "Hakurei Gate" },
     description: {
-      "zh-Hant": "位於大結界內側的正門。外界生報到、訪客核驗與遺失物返回皆在此辦理。",
+      "zh-Hant": "位於大結界內側的正門。外界生報到、訪客查驗與遺失物歸還皆在此辦理。",
       ja: "大結界内側の正門。外界生の到着、来訪者確認、遺失物の返還を扱う。",
-      en: "The main gate inside the Great Barrier. Outside-student arrivals, visitor checks, and lost-item returns are handled here.",
+      en: "The main gate just inside the Great Barrier. Outside World student check-in, visitor verification, and lost-property returns are handled here.",
     },
     hours: "06:00—22:30",
     walk: { "zh-Hant": "起點", ja: "起点", en: "Origin" },
@@ -91,7 +91,7 @@ export const mapPlaces = {
     type: { "zh-Hant": "魔法實驗設施", ja: "魔法実験施設", en: "Magic Laboratories" },
     name: { "zh-Hant": "七曜實驗塔", ja: "七曜実験塔", en: "Seven-Day Laboratory" },
     description: {
-      "zh-Hant": "元素理論與高出力魔法實驗設施。紅燈亮起時請沿逆時針方向離開。",
+      "zh-Hant": "元素理論與高輸出魔法實驗設施。紅燈亮起時請沿逆時針方向離開。",
       ja: "元素理論と高出力魔法の実験施設。赤灯点灯時は反時計回りに退避すること。",
       en: "Elemental theory and high-output magic facility. When the red lamp lights, leave counter-clockwise.",
     },
@@ -167,7 +167,7 @@ export const diningMenus = {
   ],
   en: [
     ["Hakurei Set", "Mountain rice, grilled tofu, miso soup, pickled radish", "¥540", "Popular"],
-    ["Bamboo Moon Soba", "Soba, soft egg, bamboo shoot, shiso", "¥480", "Veg option"],
+    ["Bamboo Moon Soba", "Soba, soft-boiled egg, bamboo shoots, and shiso", "¥480", "Veg option"],
     ["Kappa Workshop Curry", "Green vegetable curry, gear-cut lotus, rice", "¥620", "Medium"],
     ["Night-Sparrow Supper", "Grilled lamprey, plum rice ball, night tea", "¥700", "After 17:30"],
     ["Fairy Fruit Bowl", "Seasonal berries, mint, honey dew", "¥260", "Small"],
@@ -187,7 +187,7 @@ export const timetable = [
 export const exams = [
   ["09.28", l("符卡式口試", "スペルカード式面接", "Spell-card Interview"), l("境界講堂", "境界講堂", "Boundary Hall"), l("全體申請生", "全志願者", "All applicants")],
   ["10.03", l("七曜元素論 II", "七曜元素論 II", "Seven-Day Elemental Theory II"), l("七曜實驗塔", "七曜実験塔", "Seven-Day Laboratory"), l("筆試＋安全實作", "筆記＋安全実習", "Written + safety practicum")],
-  ["10.05", l("幻想鄉通史", "幻想郷通史", "History of Gensokyo"), l("稗田史學館", "稗田史学館", "Hieda History Hall"), l("開卷史料批判", "資料持込・史料批判", "Open-source criticism")],
+  ["10.05", l("幻想鄉通史", "幻想郷通史", "History of Gensokyo"), l("稗田史學館", "稗田史学館", "Hieda History Hall"), l("開卷史料批判", "資料持込・史料批判", "Open-book source criticism")],
   ["10.07", l("低落差水輪", "低落差水車", "Low-Head Turbines"), l("河童聯合工房", "河童共同工房", "Kappa Joint Workshop"), l("現場拆裝", "現地分解組立", "Field disassembly")],
   ["10.09", l("消息來源倫理", "情報源倫理", "Source Ethics"), l("天狗新聞館", "天狗新聞館", "Tengu News Hall"), l("訂正稿提交", "訂正版提出", "Correction submission")],
 ];

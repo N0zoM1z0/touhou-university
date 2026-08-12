@@ -711,7 +711,7 @@ export function festivalCommunityPosts(locale = "zh-Hant") {
     const base = [{
       id: `festival-permit-${plan.id}`,
       category: "notice",
-      author: locale === "ja" ? "祭典共同運営室" : locale === "en" ? "Joint Festival Operations Room" : "祭典共同運營室",
+      author: locale === "ja" ? "祭典共同運営室" : locale === "en" ? "Joint Festival Operations Room" : "祭典共同營運室",
       title: locale === "ja"
         ? `${kindName}：${outcome}`
         : locale === "en"
@@ -756,7 +756,7 @@ export function festivalCommunityPosts(locale = "zh-Hant") {
           ? `現場案件 ${operation.responses.length}/${operation.scenarioIds.length}。地図の迂回と永遠亭負荷は現在の運行票を参照。`
           : locale === "en"
             ? `Field cases ${operation.responses.length}/${operation.scenarioIds.length}. Map detours and Eientei load now read this operations slip.`
-            : `現場事件 ${operation.responses.length}/${operation.scenarioIds.length}；地圖改道與永遠亭負荷正讀取這張運行票。`,
+            : `現場事件 ${operation.responses.length}/${operation.scenarioIds.length}；地圖改道與永遠亭負荷正讀取這張現場執行單。`,
         replies: 17 + operation.responses.length,
         createdAt: operation.openedAt,
         generated: true,

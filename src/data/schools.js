@@ -48,7 +48,7 @@ export const schools = {
     ),
     outcomes: l(
       "結界管理員、異變調查員、公共安全策劃、校際通行協調員。",
-      "境界管理、異変調査、公共安全企画、学際通行調整。",
+      "境界管理者、異変調査員、公共安全企画担当、キャンパス間通行調整員。",
       "Boundary steward, incident investigator, public-safety planner, inter-campus passage coordinator.",
     ),
   },
@@ -68,7 +68,7 @@ export const schools = {
     overview: l(
       "把編年、口述、寺子屋教材與妖怪傳聞放在同一張工作桌上。學院不要求所有版本一致，而要求學生標明誰記得、何時記得，以及誰沒有留下文字。",
       "年代記、口述、寺子屋教材、妖怪の噂を同じ机で読む。全記録の一致ではなく、誰がいつ記憶し、誰が文字を残せなかったかを明示する。",
-      "Chronicles, oral accounts, terakoya texts, and youkai rumours share one worktable. Agreement is optional; identifying who remembered when—and who left no text—is not.",
+      "Chronicles, oral accounts, terakoya texts, and youkai rumours share one worktable. The accounts need not agree; students must identify who remembered what and when—and who left no written record.",
     ),
     courses: [
       ["HRS-100", l("幻想鄉通史", "幻想郷通史", "History of Gensokyo"), 4],
@@ -84,7 +84,7 @@ export const schools = {
     ),
     fieldwork: l(
       "每名學生須在人里完成一季口述史值班，並把受訪者要求刪除的段落列入不公開目錄。",
-      "人里で一季の口述史当番を行い、話者が削除を求めた箇所を非公開目録へ記録する。",
+      "人里で一季節にわたる口述史当番を務め、話者が削除を求めた箇所は非公開目録に記録する。",
       "Every student serves one season of village oral-history duty and logs passages narrators ask to remove in a closed catalogue.",
     ),
     progression: l(
@@ -117,15 +117,15 @@ export const schools = {
     tuition: l("96,000 円／學期", "96,000円／学期", "¥96,000 / term"),
     director: l("院長：帕秋莉・諾蕾姬", "学部長：パチュリー・ノーレッジ", "Dean: Patchouli Knowledge"),
     overview: l(
-      "從七曜元素、魔導書閱讀到人偶與高出力實驗，課程把「能不能發動」和「能不能安全重現」分開評分。沒有魔力的學生可選媒介設計與測量路線。",
+      "從七曜元素、魔導書閱讀到人偶與高輸出實驗，課程把「能不能發動」和「能不能安全重現」分開評分。沒有魔力的學生可選媒介設計與測量路線。",
       "七曜元素、魔導書読解、人形、高出力実験を学び、「発動できる」と「安全に再現できる」を別々に評価する。魔力を持たない学生は媒体設計・計測経路を選べる。",
-      "From Seven-Day elements to grimoires, dolls, and high-output trials, the school grades activation separately from safe reproducibility. Students without magic can specialize in media and measurement.",
+      "From Seven-Day elements to grimoires, dolls, and high-output trials, the school assesses successful activation separately from safe reproducibility. Students without magic can specialise in magical media and measurement.",
     ),
     courses: [
       ["MTP-111", l("七曜元素論 I", "七曜元素論 I", "Seven-Day Elemental Theory I"), 4],
       ["MTP-143", l("魔導書閱讀與反讀", "魔導書読解と逆読", "Grimoire Reading & Counter-Reading"), 4],
       ["MTP-220", l("人偶工學與遠端操作", "人形工学と遠隔操作", "Doll Engineering & Remote Control"), 4],
-      ["MTP-308", l("高出力實驗安全", "高出力実験安全", "High-Output Experimental Safety"), 5],
+      ["MTP-308", l("高輸出實驗安全", "高出力実験安全", "High-Output Experimental Safety"), 5],
       ["MTP-430", l("可重現魔法製作", "再現可能魔法制作", "Reproducible Magic Studio"), 6],
     ],
     studios: l(
@@ -197,7 +197,7 @@ export const schools = {
     costs: l(
       "臨床器材費 8,000 円／學期；永遠亭獎學金可用夜診助理時數全額折抵。",
       "臨床器材費は学期8,000円。永遠亭奨学金は夜診補助時間で全額相殺可。",
-      "Clinical equipment is ¥8,000 per term; the Eientei scholarship can offset it fully through night-clinic assistance.",
+      "The clinical equipment fee is ¥8,000 per term; Eientei scholarships can cover it in full through night-clinic assistance.",
     ),
     outcomes: l(
       "跨種族臨床人員、藥理研究員、月相安全顧問、竹林急診協調員。",
@@ -322,7 +322,7 @@ export const schools = {
     director: l("院長：東風谷早苗", "学部長：東風谷早苗", "Dean: Sanae Kochiya"),
     overview: l(
       "研究神社、寺院、信眾、無信仰者與公共制度如何共享同一條道路。課堂不評判哪一種信仰更強，而評估政策是否讓最小聲的人也能安全離席。",
-      "神社、寺、信徒、無信仰者、公共制度が同じ道を共有する方法を研究する。信仰の強さでなく、最も小さな声の者も安全に退席できる政策かを評価する。",
+      "神社、寺院、信徒、信仰を持たない者、公共制度が、同じ道を共有する方法を研究する。信仰の強さではなく、最も声の小さい者も安全に退席できる政策になっているかを評価する。",
       "Study how shrines, temples, believers, non-believers, and public systems share one road. Classes do not rank faith by strength; they ask whether the quietest participant can safely leave.",
     ),
     courses: [
@@ -340,7 +340,7 @@ export const schools = {
     fieldwork: l(
       "學生須在兩個立場不同的場所各服務一季，並設計不要求訪客表態信仰的公共指引。",
       "立場の異なる2施設で各一季実習し、来訪者に信仰表明を求めない公共案内を設計する。",
-      "Students serve one season at each of two differently aligned institutions and design public guidance that asks no visitor to declare a faith.",
+      "Students serve for one season at each of two institutions with different affiliations, then design public guidance that asks no visitor to declare a faith.",
     ),
     progression: l(
       "128 學分、三次主持紀錄與一場至少三方簽字的公開協議；反對意見必須附在正文後。",

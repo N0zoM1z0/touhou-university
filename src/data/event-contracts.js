@@ -242,7 +242,7 @@ const contracts = [
     subject: by("spellcard-design", "designId"), required: ["designId", "defenceId"],
     causedBy: ["spellcard.design.saved"], references: related(["spellcard-defence", "defenceId"]),
   }),
-  define("festival.plan.submitted", l("提交祭典運營方案", "祭典運営案を提出", "Submitted a festival operations plan"), {
+  define("festival.plan.submitted", l("提交祭典營運方案", "祭典運営案を提出", "Submitted a festival operations plan"), {
     subject: by("festival-plan", "planId"), required: ["planId", "kindId", "outcome"],
     references: related(["festival-kind", "kindId"]),
   }),

@@ -75,7 +75,7 @@ const copy = {
     reviewNeeds: "現場條件判讀",
     noDeclaredNeeds: "未另列現場需求；委員仍可能自行加註。",
     noApplication: "尚無已提交申請。先完成一份填報，教授才有東西可以爭論。",
-    openApplication: "開始線上填報",
+    openApplication: "開始線上申請",
     chooseApplication: "選擇審查檔案",
     submitted: "提交",
     runReview: "召集教授聯合審查",

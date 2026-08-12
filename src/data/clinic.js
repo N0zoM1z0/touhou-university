@@ -162,7 +162,7 @@ export const clinicMedicines = {
     name: l("境界暈動定位紙", "境界酔い定位紙", "Boundary Motion-Anchor Slip"),
     maker: l("永遠亭診療棟；紙張由稗田館提供昨日與今日兩版", "永遠亭診療棟・稗田館が昨日版／今日版を提供", "Eientei clinical wing; Hieda Hall supplies yesterday and today editions"),
     indication: l("門、樓梯、日期或本人先後順序不穩定時的短程定位。", "扉・階段・日付・本人の前後順が不安定な際の短距離定位。", "Short-range anchoring when doors, stairs, dates, or the patient arrive out of order."),
-    directions: l("在目前確定存在的地面寫下今天日期與鞋尖方向；連續五個轉角攜帶。", "確実に存在する床で今日の日付とつま先方向を記し五つの角まで携帯。", "Write today’s date and toe direction on a floor known to exist; carry through five corners."),
+    directions: l("在目前確定存在的地面寫下今天日期與鞋尖方向；連續五個轉角攜帶。", "確実に存在する床の上で、今日の日付とつま先の向きを記し、五つ目の曲がり角まで携帯する。", "Write today’s date and toe direction on a floor known to exist; carry through five corners."),
     caution: l("紫簽過名的紙不能證明位置更可靠，只能證明她看過。", "紫の署名は位置の信頼性でなく、彼女が見たことだけを証明。", "Yukari’s signature proves only that she saw the slip, not that the location is more reliable."),
   },
   "bamboo-return-tea": {

@@ -195,7 +195,7 @@ const copy = {
     amended: "修正版を提出。前版は消していません。",
     withdrawnToast: "取下げ印を押しました。既存意見は版鎖に残ります。",
     documentTitle: "研究倫理審査決定書",
-    documentNotice: "多数票の要約で各席条件を置換してはならない。取下げ・修正・少数意見も案件の一部。",
+    documentNotice: "多数意見の要約で、各委員が付した条件を置き換えてはならない。取下げ、修正、少数意見も審査記録の一部である。",
     originalCase: "参照模範案",
     plan: "研究計画",
     pageBoard: "案件棚",
@@ -205,7 +205,7 @@ const copy = {
   en: {
     eyebrow: "RESEARCH ETHICS / GENSOKYO RESEARCH ETHICS REVIEW BOARD",
     title: "Being able to do it is not consent to do it.",
-    lead: "Before research starts, lay ability use, data, stop rules, and withdrawal before five seats. Akyuu binds the file; she does not average five disagreements into one convenient permit.",
+    lead: "Before research begins, present the proposed ability use, data access, stop rules, and withdrawal process to five independent reviewers. Akyuu binds the file; she does not average five disagreements into one convenient permit.",
     board: "Five specimen cases",
     boardLead: "Choose a file and submit your own version of its dispute. The specimens are not model answers; they are places where the argument has already started.",
     form: "Submission desk",

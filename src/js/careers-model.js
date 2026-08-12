@@ -478,7 +478,7 @@ export function careerMatches(value = {}, locale = "zh-Hant") {
     let affinity = 0;
     if (opening.schoolIds.includes(profile.schoolId)) {
       affinity += 3;
-      reasons.push(l("學院方法直接相合", "学部方法が直接一致", "School methods align directly"));
+      reasons.push(l("與學院方法直接相符", "学部方法が直接一致", "School methods align directly"));
     }
     const domainMatches = opening.domains.filter((id) => profile.domainIds.includes(id));
     affinity += domainMatches.length * 2;

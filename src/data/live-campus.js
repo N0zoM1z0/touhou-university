@@ -317,7 +317,7 @@ export function liveMapNotice(locale = "zh-Hant", date = new Date()) {
 
 const menuPool = [
   ["hakurei", l("博麗定食", "博麗定食", "Hakurei Set"), l("山菜飯、烤豆腐、味噌湯、醃蘿蔔", "山菜ご飯、焼き豆腐、味噌汁、たくあん", "Mountain rice, grilled tofu, miso soup, pickled radish"), "540", l("人氣", "人気", "Popular")],
-  ["bamboo", l("竹林月見麵", "竹林月見そば", "Bamboo Moon Soba"), l("蕎麥麵、溫泉蛋、竹筍、紫蘇", "蕎麦、温泉卵、筍、大葉", "Soba, soft egg, bamboo shoot, shiso"), "480", l("素食可", "菜食可", "Veg option")],
+  ["bamboo", l("竹林月見麵", "竹林月見そば", "Bamboo Moon Soba"), l("蕎麥麵、溫泉蛋、竹筍、紫蘇", "蕎麦、温泉卵、筍、大葉", "Soba, soft-boiled egg, bamboo shoots, and shiso"), "480", l("素食可", "菜食可", "Veg option")],
   ["kappa", l("河童工房咖哩", "河童工房カレー", "Kappa Workshop Curry"), l("深綠蔬菜咖哩、齒輪蓮藕、米飯", "深緑野菜カレー、歯車れんこん、ご飯", "Green vegetable curry, gear-cut lotus, rice"), "620", l("微辣", "中辛", "Medium")],
   ["sparrow", l("夜雀晚食", "夜雀夜食", "Night-Sparrow Supper"), l("烤八目鰻、梅飯糰、夜茶", "焼き八目鰻、梅おにぎり、夜茶", "Grilled lamprey, plum rice ball, night tea"), "700", l("黃昏後", "夕刻以降", "After dusk")],
   ["fairy", l("妖精份水果盅", "妖精サイズ果物鉢", "Fairy Fruit Bowl"), l("當季莓果、薄荷、蜂蜜露", "季節のベリー、ミント、蜂蜜露", "Seasonal berries, mint, honey dew"), "260", l("小份", "小", "Small")],
@@ -434,7 +434,7 @@ export function liveExamSchedule(locale, date = new Date()) {
   const exams = [
     [2, l("符卡式口試", "スペルカード式口試", "Spell-card Oral"), l("境界講堂", "境界講堂", "Boundary Hall"), l("三段宣言＋停止條件", "三段宣言＋停止条件", "Three declarations + stop condition")],
     [5, l("七曜元素論 II", "七曜元素論 II", "Seven-Day Elemental Theory II"), l("七曜實驗塔", "七曜実験塔", "Seven-Day Laboratory"), l("筆試＋安全實作", "筆記＋安全実習", "Written + safety practicum")],
-    [8, l("幻想鄉通史", "幻想郷通史", "History of Gensokyo"), l("稗田史學館", "稗田史学館", "Hieda History Hall"), l("開卷史料批判", "資料持込・史料批判", "Open-source criticism")],
+    [8, l("幻想鄉通史", "幻想郷通史", "History of Gensokyo"), l("稗田史學館", "稗田史学館", "Hieda History Hall"), l("開卷史料批判", "資料持込・史料批判", "Open-book source criticism")],
     [11, l("低落差水輪", "低落差水車", "Low-Head Turbines"), l("河童聯合工房", "河童共同工房", "Kappa Joint Workshop"), l("現場拆裝；膠帶不得作答案", "現地分解・テープは解答不可", "Field disassembly; tape is not an answer")],
     [14, l("消息來源倫理", "情報源倫理", "Source Ethics"), l("天狗新聞館", "天狗新聞館", "Tengu News Hall"), l("訂正稿與衝突揭露", "訂正版・利益相反開示", "Correction copy + conflict disclosure")],
   ];

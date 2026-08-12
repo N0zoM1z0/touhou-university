@@ -33,7 +33,7 @@ function showClub(id) {
   if (!club) return;
   const locale = getLocale();
   const copy = {
-    "zh-Hant": ["研究／活動方向", "例會", "登錄社員", "本學期企劃", "到 BBS 找社員"],
+    "zh-Hant": ["研究／活動方向", "例會", "登記成員", "本學期企劃", "到 BBS 找成員"],
     ja: ["研究・活動分野", "例会", "登録会員", "今学期の企画", "BBSで部員を探す"],
     en: ["Focus", "Meeting", "Members", "This term", "Find members on BBS"],
   }[locale];

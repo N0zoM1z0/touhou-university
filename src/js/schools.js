@@ -19,7 +19,7 @@ const labels = {
     progression: "畢業條件",
     costs: "費用說明",
     outcomes: "畢業去向",
-    apply: "以此學院開始填報",
+    apply: "以此學院開始申請",
     note: "學費按學期收取；共同必修與跨院選修已包含在畢業學分內。",
   },
   ja: {
