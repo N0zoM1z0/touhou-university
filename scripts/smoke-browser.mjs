@@ -301,6 +301,70 @@ try {
   })`);
   check(admissions.page === "admissions" && admissions.banks === 4 && admissions.unified, "Admissions page examinations are incomplete.");
   check(!admissions.overflow, "Admissions page has desktop horizontal overflow.");
+  await cdp.evaluate(`(() => {
+    localStorage.setItem('tu:gaokao:draft', JSON.stringify({
+      schema: 2,
+      revision: 1,
+      trackId: 'humanities',
+      difficultyId: 'normal',
+      answers: { L01: 0, L02: 1 },
+      startedAt: new Date().toISOString(),
+      endsAt: Date.now() + 3600000,
+      remaining: 3600
+    }));
+    localStorage.setItem('tu:gaokao:attempts', JSON.stringify([{
+      schema: 2,
+      revision: 1,
+      id: 'TU-G-LEGACY-SMOKE',
+      trackId: 'humanities',
+      difficultyId: 'normal',
+      answers: { L01: 0 },
+      completedAt: new Date().toISOString()
+    }]));
+  })()`);
+  await navigate("index.html", "#services");
+  await navigate("admissions.html#gaokao", "[data-gaokao-resume]");
+  const gaokaoMigration = await cdp.evaluate(`(async () => {
+    const migrated = JSON.parse(localStorage.getItem('tu:gaokao:draft'));
+    document.querySelector('[data-gaokao-records]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-open-gaokao-record="TU-G-LEGACY-SMOKE"]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const recordText = document.querySelector('[data-gaokao-app]').textContent;
+    const recordScore = document.querySelector('.gaokao-result header div:nth-child(2) strong')?.textContent.trim();
+    document.querySelector('[data-gaokao-back]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-gaokao-resume]').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const result = {
+      revision: migrated.revision,
+      legacyRevision: migrated.legacyRevision,
+      legacyAnswers: migrated.legacyAnswers,
+      currentAnswers: migrated.answers,
+      recordScore,
+      recordText,
+      checked: document.querySelectorAll('.gaokao-question input:checked').length,
+      toast: document.querySelector('[data-toast]').textContent.trim()
+    };
+    localStorage.removeItem('tu:gaokao:draft');
+    localStorage.removeItem('tu:gaokao:attempts');
+    return result;
+  })()`);
+  check(
+    gaokaoMigration.revision === 2
+      && gaokaoMigration.legacyRevision === 1
+      && gaokaoMigration.legacyAnswers.L01 === 0
+      && Object.keys(gaokaoMigration.currentAnswers).length === 0
+      && gaokaoMigration.checked === 0
+      && gaokaoMigration.toast.includes("題庫已改版"),
+    "Unified-exam revision migration did not preserve old draft choices while requiring fresh confirmation.",
+  );
+  check(
+    gaokaoMigration.recordScore === "6"
+      && gaokaoMigration.recordText.includes("舊版作答代號: A")
+      && gaokaoMigration.recordText.includes("舊版題庫"),
+    "Unified-exam legacy result review was rescored or projected onto revised option wording.",
+  );
   const admissionsApplication = await cdp.evaluate(`(async () => {
     document.querySelector('[data-prospectus]').click();
     const guide = document.querySelector('[data-prospectus-dialog]');

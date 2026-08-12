@@ -1,7 +1,7 @@
 # Touhou University Research Pack
 
 Research baseline opened: 2026-07-24
-Last index audit: 2026-08-12
+Last index audit: 2026-08-13
 Project: `touhou_university_website`  
 Status: maintained editorial/source/provenance pack for an unofficial,
 non-commercial fan website
@@ -54,6 +54,9 @@ depend on that other checkout:
 - `employment-market-notes.md` — non-exclusive graduate whereabouts,
   denominator hearings, twenty-one strange vacancies, odd-résumé replies,
   employment event projections and recruitment-poster provenance.
+- `unified-examination-notes.md` — difficulty contracts, diagnostic
+  distractors, answer-key leakage thresholds and question-bank revision
+  compatibility.
 
 ## Which file should an agent read?
 
@@ -65,6 +68,8 @@ depend on that other checkout:
   `source-register.md`.
 - A named lifecycle feature: read only its matching `*-notes.md` file plus
   `source-register.md` if a factual Touhou claim changes.
+- Unified-examination writing, answer schedules or persistence migration:
+  `unified-examination-notes.md`.
 - Pure code/build/test fixes: these notes are usually supporting context, not
   required wholesale reading.
 

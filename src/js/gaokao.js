@@ -46,6 +46,7 @@ const copy = {
     submit: "交卷並立即判分",
     submitConfirm: "仍有未作答題目，確定交卷嗎？",
     saved: "試卷進度已保存在這台裝置。",
+    draftRevised: "題庫已改版：舊選擇仍保留在本機草稿中，請按新版題面重新確認答案。",
     expired: "時間到，試卷已自動提交。",
     result: "統一試驗成績單",
     score: "總分",
@@ -65,6 +66,8 @@ const copy = {
     noRecords: "這台裝置還沒有已完成的幻想鄉統一學力試驗。",
     viewRecord: "重開成績與解析",
     legacyRecord: "舊版只保存成績摘要",
+    legacyReview: "此記錄來自舊版題庫；分數按當時的答案位置核對，舊選項文字不會套用到新版題面。",
+    legacyChoice: "舊版作答代號",
     completed: "交卷時間",
     deleteRecord: "刪除本機記錄",
     deleteConfirm: "確定刪除這次統一試驗記錄？",
@@ -100,6 +103,7 @@ const copy = {
     submit: "提出して採点",
     submitConfirm: "未回答があります。提出しますか。",
     saved: "答案をこの端末へ保存しました。",
+    draftRevised: "問題集が改訂されました。旧回答は端末内の下書きに保持していますが、新しい問題文で回答を選び直してください。",
     expired: "時間切れのため自動提出しました。",
     result: "統一試験成績表",
     score: "総得点",
@@ -119,6 +123,8 @@ const copy = {
     noRecords: "この端末には完了した統一高等試験がありません。",
     viewRecord: "成績・解説を再表示",
     legacyRecord: "旧版では成績概要のみ保存",
+    legacyReview: "この記録は旧版の問題集によるものです。得点は当時の解答位置で照合し、旧選択肢の文面を新版へ流用しません。",
+    legacyChoice: "旧版の解答記号",
     completed: "提出日時",
     deleteRecord: "端末記録を削除",
     deleteConfirm: "この受験記録を削除しますか。",
@@ -154,6 +160,7 @@ const copy = {
     submit: "Submit and score now",
     submitConfirm: "Some questions are unanswered. Submit anyway?",
     saved: "Paper progress saved on this device.",
+    draftRevised: "The question bank was revised. Your old choices remain in the local draft, but please confirm every answer against the new wording.",
     expired: "Time expired. The paper was submitted automatically.",
     result: "Unified Examination Result",
     score: "Total score",
@@ -173,6 +180,8 @@ const copy = {
     noRecords: "No completed Gensokyo unified exam is stored on this device.",
     viewRecord: "Reopen result and review",
     legacyRecord: "Older version saved only a score summary",
+    legacyReview: "This record belongs to an older question-bank revision. Its score uses the original answer positions; old option wording is not projected onto the new paper.",
+    legacyChoice: "Choice on old paper",
     completed: "Submitted",
     deleteRecord: "Delete local record",
     deleteConfirm: "Delete this examination record?",
@@ -201,16 +210,30 @@ function questionsFor(trackId, difficultyId = selectedDifficulty) {
 
 function migrateLegacyDraft(draft) {
   if (draft.difficultyId) return draft;
-  const migrated = { ...draft, difficultyId: "normal", schema: 2, answers: {} };
-  const normalized = questionsFor(draft.trackId, "normal");
-  Object.entries(draft.answers || {}).forEach(([questionId, selected]) => {
-    const subject = Object.values(gaokaoSubjects).find((item) => item.questions.some((question) => question.id === questionId));
-    const original = subject?.questions.find((question) => question.id === questionId);
-    const current = normalized.find((question) => question.id === questionId);
-    if (!original || !current || !Number.isInteger(selected)) return;
-    const shift = (current.answer - original.answer + original.options.length) % original.options.length;
-    migrated.answers[questionId] = (selected + shift) % original.options.length;
-  });
+  const migrated = {
+    ...draft,
+    difficultyId: "normal",
+    schema: 3,
+    revision: gaokaoMeta.revision,
+    legacyRevision: draft.revision || 0,
+    legacyAnswers: { ...(draft.answers || {}) },
+    answers: {},
+  };
+  window.localStorage.setItem("tu:gaokao:draft", JSON.stringify(migrated));
+  return migrated;
+}
+
+function migrateDraftRevision(draft) {
+  if (!draft.difficultyId) return migrateLegacyDraft(draft);
+  if (draft.revision === gaokaoMeta.revision) return draft;
+  const migrated = {
+    ...draft,
+    schema: 3,
+    revision: gaokaoMeta.revision,
+    legacyRevision: draft.revision || 1,
+    legacyAnswers: { ...(draft.answers || {}) },
+    answers: {},
+  };
   window.localStorage.setItem("tu:gaokao:draft", JSON.stringify(migrated));
   return migrated;
 }
@@ -219,7 +242,7 @@ function readDraft() {
   try {
     const draft = JSON.parse(window.localStorage.getItem("tu:gaokao:draft") || "null");
     if (!draft || !gaokaoTracks[draft.trackId] || draft.submitted) return null;
-    return migrateLegacyDraft(draft);
+    return migrateDraftRevision(draft);
   } catch {
     return null;
   }
@@ -430,7 +453,8 @@ function start(trackId, difficultyId) {
   const duration = gaokaoDifficulties[normalizedDifficulty].duration;
   selectedDifficulty = normalizedDifficulty;
   state = {
-    schema: 2,
+    schema: 3,
+    revision: gaokaoMeta.revision,
     trackId,
     difficultyId: normalizedDifficulty,
     answers: {},
@@ -445,6 +469,7 @@ function start(trackId, difficultyId) {
 
 function resume(draft) {
   if (!draft) return;
+  const c = copy[getLocale()];
   selectedDifficulty = difficultyFor(draft.difficultyId);
   state = { ...draft, difficultyId: selectedDifficulty, answers: draft.answers || {} };
   const duration = gaokaoDifficulties[selectedDifficulty].duration;
@@ -453,6 +478,7 @@ function resume(draft) {
   }
   renderRunner();
   startTimer();
+  if (draft.legacyRevision !== undefined) showToast(c.draftRevised);
 }
 
 function startTimer() {
@@ -469,13 +495,15 @@ function startTimer() {
 
 function scoreAttempt(attempt) {
   const questions = questionsFor(attempt.trackId, attempt.difficultyId);
+  const revision = attempt.revision || 1;
   let score = 0;
   let correct = 0;
   const bySubject = {};
-  questions.forEach((question) => {
+  questions.forEach((question, index) => {
+    const answer = revision === gaokaoMeta.revision ? question.answer : index % question.options.length;
     if (!bySubject[question.subjectId]) bySubject[question.subjectId] = { score: 0, total: 0 };
     bySubject[question.subjectId].total += question.points;
-    if (attempt.answers?.[question.id] === question.answer) {
+    if (attempt.answers?.[question.id] === answer) {
       score += question.points;
       correct += 1;
       bySubject[question.subjectId].score += question.points;
@@ -501,7 +529,8 @@ function submit(autoSubmitted) {
   };
   const attempts = history();
   attempts.push({
-    schema: 2,
+    schema: 3,
+    revision: gaokaoMeta.revision,
     id: resultState.id,
     trackId: state.trackId,
     difficultyId: state.difficultyId,
@@ -531,17 +560,20 @@ function submit(autoSubmitted) {
   renderResult();
 }
 
-function resultReview(questions, answers, locale, c) {
-  return questions.map((question) => {
-    const selected = answers?.[question.id];
-    const correct = selected === question.answer;
+function resultReview(questions, attempt, locale, c) {
+  const revision = attempt.revision || 1;
+  const legacy = revision !== gaokaoMeta.revision;
+  return questions.map((question, index) => {
+    const selected = attempt.answers?.[question.id];
+    const answer = legacy ? index % question.options.length : question.answer;
+    const correct = selected === answer;
     return `
       <details class="${correct ? "correct" : "incorrect"}">
         <summary><span>${question.id}</span><b>${question.prompt[locale]}</b><i>${correct ? `+${question.points}` : "0"}</i></summary>
         <div>
           ${question.evidence ? `<pre>${escapeHtml(question.evidence[locale])}</pre>` : ""}
-          <p><span>${c.yourAnswer}</span>${Number.isInteger(selected) ? question.options[selected][locale] : c.unanswered}</p>
-          <p><span>${c.rightAnswer}</span>${String.fromCharCode(65 + question.answer)}. ${question.options[question.answer][locale]}</p>
+          <p><span>${c.yourAnswer}</span>${Number.isInteger(selected) ? (legacy ? `${c.legacyChoice}: ${String.fromCharCode(65 + selected)}` : question.options[selected][locale]) : c.unanswered}</p>
+          <p><span>${c.rightAnswer}</span>${legacy ? "" : `${String.fromCharCode(65 + question.answer)}. `}${question.options[question.answer][locale]}</p>
           <blockquote>${question.explanation[locale]}</blockquote>
         </div>
       </details>`;
@@ -563,6 +595,7 @@ function renderResult() {
   const bySubject = resultState.bySubject || scored.bySubject;
   const percent = Math.round((score / gaokaoMeta.total) * 100);
   const message = percent >= 85 ? c.excellent : percent >= 60 ? c.pass : c.revise;
+  const legacy = (resultState.revision || 1) !== gaokaoMeta.revision;
   app.innerHTML = `
     <section class="gaokao-result">
       <header>
@@ -570,6 +603,7 @@ function renderResult() {
         <div><span>${c.score}</span><strong>${score}</strong><small>/ ${gaokaoMeta.total}</small><p>${correct} / ${questions.length} ${c.correct}</p></div>
       </header>
       ${resultState.autoSubmitted ? `<p class="gaokao-expired">${c.expired}</p>` : ""}
+      ${legacy ? `<p class="gaokao-expired">${c.legacyReview}</p>` : ""}
       <div class="gaokao-breakdown">
         ${track.subjects.map((subjectId) => {
           const subject = gaokaoSubjects[subjectId];
@@ -579,7 +613,7 @@ function renderResult() {
       </div>
       <section class="gaokao-review">
         <h3>${c.review}</h3>
-        ${resultReview(questions, resultState.answers, locale, c)}
+        ${resultReview(questions, resultState, locale, c)}
       </section>
       <footer>
         <button type="button" data-gaokao-back>← ${c.back}</button>

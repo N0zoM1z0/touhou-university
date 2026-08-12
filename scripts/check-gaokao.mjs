@@ -21,6 +21,12 @@ function translated(value) {
   return value && locales.every((locale) => typeof value[locale] === "string" && value[locale].trim());
 }
 
+function optionLength(value, locale) {
+  return locale === "en"
+    ? value.trim().split(/\s+/u).length
+    : (value.match(/[\p{L}\p{N}]/gu) || []).length;
+}
+
 for (const [difficultyId, difficulty] of Object.entries(gaokaoDifficulties)) {
   if (!translated(difficulty.description)) failures.push(`${difficultyId}: difficulty description is incomplete.`);
   for (const trackId of Object.keys(gaokaoTracks)) {
@@ -64,6 +70,34 @@ for (const [difficultyId, difficulty] of Object.entries(gaokaoDifficulties)) {
     if (Math.max(...answers) - Math.min(...answers) > 0) {
       failures.push(`${difficultyId}/${trackId}: answer positions are unbalanced (${answers.join("/")}).`);
     }
+    const answerKey = questions.map((question) => question.answer).join("");
+    if (answerKey === questions.map((_, index) => index % 4).join("")) {
+      failures.push(`${difficultyId}/${trackId}: answer positions follow a visible A/B/C/D cycle.`);
+    }
+    for (const locale of locales) {
+      let uniqueLongest = 0;
+      let ratioTotal = 0;
+      for (const question of questions) {
+        const lengths = question.options.map((option) => optionLength(option[locale], locale));
+        const correctLength = lengths[question.answer];
+        const longest = Math.max(...lengths);
+        if (correctLength === longest && lengths.filter((length) => length === longest).length === 1) {
+          uniqueLongest += 1;
+        }
+        const distractorMean = lengths.reduce(
+          (sum, length, index) => sum + (index === question.answer ? 0 : length),
+          0,
+        ) / 3;
+        ratioTotal += correctLength / distractorMean;
+      }
+      if (uniqueLongest > Math.floor(questions.length / 2)) {
+        failures.push(`${difficultyId}/${trackId}/${locale}: correct choice is uniquely longest in ${uniqueLongest}/${questions.length} questions.`);
+      }
+      const meanRatio = ratioTotal / questions.length;
+      if (meanRatio > 1.3) {
+        failures.push(`${difficultyId}/${trackId}/${locale}: correct choices average ${meanRatio.toFixed(2)}× distractor length.`);
+      }
+    }
     for (const locale of locales) {
       for (const suffix of ["paper", "answers"]) {
         const filename = `${gaokaoMeta.edition.toLowerCase()}-${locale}-${difficultyId}-${trackId}-${suffix}.html`;
@@ -82,4 +116,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Unified examination valid: 8 papers, 150 marks each, trilingual dossiers, rotation-safe explanations, balanced A/B/C/D keys, 48 offline files.");
+console.log("Unified examination valid: 8 papers, 150 marks each, trilingual dossiers, revision-safe drafts, non-cyclic balanced keys, bounded length cues, 48 offline files.");

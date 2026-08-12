@@ -13,6 +13,13 @@ All notable changes to the Touhou University project are recorded here.
 - Replaced literal or cross-locale phrasing with native campus language while
   keeping the university's deliberate institutional absurdity, character
   voices and causal jokes intact.
+- Rewrote the non-numerical choices across all eight unified-examination
+  papers so wrong answers encode plausible reasoning mistakes instead of
+  revealing the key through brevity, and replaced the visible A–D cycle with
+  balanced paper-specific answer schedules.
+- Added question-bank revision handling: older drafts retain their choices as
+  a local backup but require fresh confirmation, while older completed attempts
+  keep their original scoring and review letters.
 
 ### Quality
 
@@ -22,6 +29,9 @@ All notable changes to the Touhou University project are recorded here.
 - Backfilled TU-H-036 with first-parent commit
   `d150864b293e6cb581b0c88eea10b9116497caf1`; planned TU-H-037 uses exact
   subject `Polish trilingual campus copy`.
+- Added unified-examination validation for cyclic answer keys and multilingual
+  option-length leakage, plus a browser regression for revision-one drafts and
+  completed attempts; regenerated all forty-eight offline papers and keys.
 
 ## [0.30.0] - 2026-08-12
 

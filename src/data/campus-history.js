@@ -891,10 +891,9 @@ export const campusHistory = [
   {
     id: "three-language-desks-return-the-strangeness",
     archiveId: "TU-H-037",
-    commit: null,
+    commit: "08ecf53e7a18e841561bd2e28aa3f0484d644533",
     commitSubject: "Polish trilingual campus copy",
     recordedAt: "2026-08-13",
-    planned: true,
     category: "registry",
     era: l(
       "次日・三座校務窗口同時換筆",
@@ -915,6 +914,35 @@ export const campusHistory = [
       "文的號外寫著：『本校一夜刪除七十五項怪異。』阿求要求更正——刪掉的是語病，怪異全數仍在籍。魔理沙順走英文桌的紅筆，在「open-book source criticism」旁補上「open-library, if the books consent」；帕秋莉准予保留後半句，只把逗號移回原位。",
       "文の号外は「本学、一夜で怪異七十五件を削除」。阿求は訂正を求めた――消したのは不自然な言い回しで、怪異は全件在籍中。魔理沙は英語机の赤筆を持ち出し、「open-book source criticism」の横へ「open-library, if the books consent」と書き足した。パチュリーは後半だけ存続を認め、コンマを元の位置へ戻した。",
       "Aya's extra reads, “University removes seventy-five anomalies overnight.” Akyuu demands a correction: awkward phrasing was removed; every anomaly remains enrolled. Marisa steals the English desk's red pencil and adds “open-library, if the books consent” beside “open-book source criticism.” Patchouli permits the second clause to remain and merely returns the comma to its proper place.",
+    ),
+  },
+  {
+    id: "longest-answer-loses-its-uniform",
+    archiveId: "TU-H-038",
+    commit: null,
+    commitSubject: "Redesign unified examination choices",
+    recordedAt: "2026-08-13",
+    planned: true,
+    category: "examinations",
+    era: l(
+      "同日下午・答題卡不再列隊行進",
+      "同日午後・解答欄が整列行進をやめる",
+      "That afternoon · The answer sheet stops marching in formation",
+    ),
+    title: l(
+      "正確答案脫下最長的制服，錯誤答案也學會據理力爭",
+      "正解が最長の制服を脱ぎ、誤答も筋道を立てて反論する",
+      "Correct answers shed their longest uniforms; wrong answers learn to argue",
+    ),
+    summary: l(
+      "慧音發現八份統一試卷雖然各自考版本、月相、證詞、路網與觀測，答案卻在另一處洩題：最完整、最謹慎、穿得最長的那一句往往就是正解，而且 A、B、C、D 還會沿整張答題卡規律巡邏。於是帕秋莉要求每個錯誤選項都必須犯一種可診斷的錯——用對線索卻套錯規則、少一個必要條件、把先後當因果、把結論推得比材料更遠，或在只需隔離觀察時直接拆掉整座結界。繁中、日文與英文三份題面一同改寫；NORMAL 保留單一步驟，HARD 結合條件，LUNATIC 調解互相衝突的材料，EXTRA 則追問版本鏈、遙測、缺失值與足以辨認因果的設計。八張答案表各自採用平衡但不循環的排列，四十八份離線卷重新印製；舊草稿的選擇被封存在本機並請考生重新確認，舊成績則仍按當時的答案位置核對，不讓新版文字冒充過去的選項。",
+      "慧音は、版・月相・証言・経路・観測を別々に問う八つの統一試験が、別の場所で答えを漏らしていると気づいた。最も完全で慎重で長い一文がたいてい正解で、A・B・C・Dまで答案用紙を規則正しく巡回していた。そこでパチュリーは、各誤答に診断可能な誤りを一つ持たせるよう命じた。手掛かりは正しいが規則が違う、必要条件が一つない、順序を因果へ変える、資料より広い結論を出す、隔離観察で足りるのに結界全体を解体する、といった誤りである。繁体字中国語・日本語・英語の問題文を同時に改稿し、NORMALは単一手順、HARDは条件結合、LUNATICは衝突資料の調停、EXTRAは版履歴・遠隔測定・欠測・因果を識別できる設計を担当。八枚の解答表は均衡を保ちつつ循環をやめ、四十八のオフライン版を再印刷した。旧下書きの選択は端末へ封じて再確認を求め、旧成績は当時の答え位置で照合するため、新しい文面が過去の選択肢になりすますこともない。",
+      "Keine discovers that the eight papers—despite testing different versions, moons, testimonies, routes, and observations—leak their answers elsewhere. The fullest, most cautious, longest sentence is usually correct, while A, B, C, and D patrol the answer sheet in perfect order. Patchouli therefore requires every distractor to commit one diagnosable error: use the right clue under the wrong rule, omit one necessary condition, turn sequence into cause, claim more than the dossier permits, or dismantle a whole barrier when reversible isolation would suffice. Traditional Chinese, Japanese, and English are revised together. NORMAL keeps one-step judgments; HARD joins conditions; LUNATIC reconciles conflicting sources; EXTRA asks about version lineage, telemetry, missingness, and identifiable causal designs. Eight balanced answer schedules stop cycling, all forty-eight offline files are reprinted, old draft choices are sealed locally for confirmation, and old results remain scored by their original positions so new wording cannot impersonate a past option.",
+    ),
+    marginalia: l(
+      "文的號外宣稱：『本校正解平均縮短三成，學力同步提升三成。』阿求把後半句劃掉，補註錯誤答案只是終於學會把話說完。魔理沙偷走一份舊草稿，發現校方沒有替她把 B 猜成新版的 D，只留下一張「請重新確認」；她因此指控試務處妨礙答案自行進化。帕秋莉回覆：答案可以進化，證據鏈不得變種。",
+      "文の号外は「本学の正解、平均三割短縮。学力も三割上昇」と主張。阿求は後半を消し、誤答がようやく最後まで話せるようになっただけと注記した。魔理沙は旧下書きを持ち出したが、かつてのBを新版Dへ勝手に移されず、「再確認してください」という札だけを見つける。彼女は試験係が回答の自己進化を妨げたと告発。パチュリーは、回答は進化してよいが証拠の鎖は変異させるな、と返した。",
+      "Aya's extra claims, “Correct answers shrink thirty percent; scholarship rises thirty percent.” Akyuu crosses out the second clause and notes that wrong answers have merely learned to finish their arguments. Marisa steals an old draft and finds that the office has not turned her former B into the new D—only a request to confirm it again. She accuses examinations of obstructing spontaneous answer evolution. Patchouli replies: answers may evolve; evidence chains may not mutate.",
     ),
   },
 ];
