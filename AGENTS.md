@@ -48,7 +48,7 @@ in the same change; never choose the nicer-looking number.
 ## Non-negotiable engineering rules
 
 - Author in `src/`, `site.config.mjs`, `scripts/` and documentation. Root
-  `*.html`, `styles.css`, `styles-*.css` and `downloads/gaokao/` are generated
+  `*.html`, `assets/css/styles*.css` and `downloads/gaokao/` are generated
   artifacts; regenerate them with `npm run build` rather than hand-editing.
 - New lifecycle systems use four layers: trilingual source data, a
   version-tolerant local model/store, official causal events when appropriate,

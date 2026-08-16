@@ -947,10 +947,9 @@ export const campusHistory = [
   {
     id: "ninth-paper-appears-on-the-reverse",
     archiveId: "TU-H-039",
-    commit: null,
+    commit: "ce2b2e050a6fae11014197031c6fc6ea717f06c5",
     commitSubject: "Add PHANTASM reverse examination",
     recordedAt: "2026-08-13",
-    planned: true,
     category: "examinations",
     era: l(
       "同日第九響後・那張無署名紙條終於翻面",
@@ -973,4 +972,34 @@ export const campusHistory = [
       "Aya publishes “PHANTASM pass rate: 100%” nine minutes before submission. Asked for her denominator, she points to an answer sheet whose text has not appeared. Marisa slips the dream's 150 marks into her official transcript; the page turns itself over, leaving only “sources may be shared; authority may not.” Reimu returns it, and Doremy eats the rejection stamp. Keine adds a field: return occurred; seal currently missing.",
     ),
   },
+  {
+    id: "style-ledgers-leave-the-front-desk",
+    archiveId: "TU-H-040",
+    commit: null,
+    commitSubject: "Refactor generated site structure",
+    recordedAt: "2026-08-16",
+    planned: true,
+    category: "archive",
+    era: l(
+      "幻想曆一四二年・葉月・總務搬櫃日",
+      "幻想暦一四二年・葉月・総務棚替えの日",
+      "Gensokyo 142 · Eighth Moon · General Affairs reshelves the front desk",
+    ),
+    title: l(
+      "十九扇校門留在原位，二十冊樣式簿終於搬離門口",
+      "十九の校門はそのまま、二十冊の様式帳だけが玄関を離れる",
+      "Nineteen campus doors stay put; twenty style ledgers finally leave the entrance",
+    ),
+    summary: l(
+      "總務處終於承認散在校門前的二十冊樣式簿並不是十九扇門的一部分。十九張對外門牌仍留在原位，讓舊書籤、校內路線與境界入口繼續找到同一扇門；共享與逐頁樣式則搬進 assets/css 的資料櫃，頁面母版歸入 src/templates。每次抄印仍從 src/styles 與 sections 取原稿，並會撤走舊的根目錄樣式簿。訪客看見的路線沒有改變，維護員卻終於能從書架位置分清原稿與發行本。",
+      "総務はようやく、玄関机に散らばる二十冊の様式帳が十九の校門そのものではないと認めた。十九枚の公開門札は旧い栞、学内経路、境界入口が同じ扉へ着けるよう元の場所に残し、共通・各頁の様式帳だけを assets/css の棚へ移す。頁面の原版は src/templates に収め、複写のたびに src/styles と sections の原稿から刷り直し、旧いルート直下の様式帳は撤去する。来訪者の道順は一つも変わらないが、保守係は棚を見るだけで原稿と配布物を区別できるようになった。",
+      "General Affairs finally admits that the twenty style ledgers scattered across the entrance desk are not part of the nineteen campus doors. The nineteen public route placards stay where they are so old bookmarks, campus routes, and boundary entrances still reach the same doors; shared and page-specific styles move into the assets/css cabinet, while the page master is filed under src/templates. Each build still prints from src/styles and sections and now removes legacy root ledgers. Visitors follow exactly the same routes; maintainers can finally distinguish source from issued copies by the shelf they occupy.",
+    ),
+    marginalia: l(
+      "文的號外寫著「校門口文件減少二十份，通行效率提升百分之一百零五」。阿求把後半句劃掉，註明只是把樣式簿搬進櫃子。魔理沙提議既然如此乾脆把十九扇門也塞進同一個資料夾；靈夢回答：那樣大家就真的進不來了。",
+      "文の号外は『玄関文書二十冊削減、通行効率105％向上』。阿求は後半を消し、様式帳を棚へ移しただけと注記した。魔理沙は、なら十九の門も同じフォルダへ入れようと提案。霊夢は『それをやると本当に誰も入れない』と却下した。",
+      "Aya's extra reads, “Twenty documents removed from the gate; access efficiency up 105%.” Akyuu strikes the second clause and notes that the style ledgers merely moved into a cabinet. Marisa proposes putting all nineteen doors in the same folder. Reimu replies that then nobody would actually be able to enter.",
+    ),
+  },
+
 ];

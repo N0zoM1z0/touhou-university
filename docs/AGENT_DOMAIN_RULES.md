@@ -108,17 +108,18 @@ and submissions need a “My Applications” view, and authored BBS threads need
   `commons.html`, `calendar.html`, `campus.html`, `mytu.html`, `library.html`,
   `housing.html`, `incidents.html`, `clinic.html`, `records.html`,
   `careers.html`, `hieda.html` and the deliberately unlisted `phantasm.html`), shared
-  `styles.css`, and page bundles `styles-*.css` are generated release
-  artifacts. Do not make substantial edits to them directly.
+  `assets/css/styles.css`, and page bundles `assets/css/styles-*.css` are
+  generated release artifacts. Do not make substantial edits to them directly.
 - Author page sections in `src/sections/`, data in `src/data/`, JavaScript in
   `src/js/`, and styles in `src/styles/`.
 - Register section/style order in `site.config.mjs`.
 - Register each page's required style subset in `site.config.mjs`. Keep
-  `styles.css` as the shared core and load a generated `styles-<page>.css`
-  alongside it; do not return to one all-feature stylesheet on every page.
+  `assets/css/styles.css` as the shared core and load a generated
+  `assets/css/styles-<page>.css` alongside it; do not return to one
+  all-feature stylesheet on every page.
 - Register complete pages and their section composition in
   `site.config.mjs`; render them through the shared
-  `src/index.template.html` shell. Add deep institutional features to the
+  `src/templates/page.html` shell. Add deep institutional features to the
   appropriate page instead of extending the home page into another monolith.
 - Cross-page route ownership lives in `src/js/site-router.js`. Old
   `index.html#route` bookmarks must redirect to their canonical page, while

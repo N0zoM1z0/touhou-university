@@ -1,6 +1,6 @@
 # Touhou University current state
 
-Last audited: 2026-08-13
+Last audited: 2026-08-16
 Release: `0.30.0`
 Branch/deployment: `main` → GitHub Pages
 Live site: <https://n0zom1z0.github.io/touhou-university/>
@@ -85,7 +85,7 @@ Run `npm run docs:status` for the same values directly from source.
 - Deterministic operational world state: `src/data/live-campus.js`
 - First-parent living history: `src/data/campus-history.js`
 - Editorial/source/provenance notes: `docs/research/`
-- Generated release artifacts: root HTML/CSS and `downloads/gaokao/`
+- Generated release artifacts: root HTML, `assets/css/` bundles and `downloads/gaokao/`
 
 ## Important boundaries
 

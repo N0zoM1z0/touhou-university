@@ -214,15 +214,16 @@ src/
   data/       translated content plus stable i18n and event contracts
   js/         interaction modules and the cross-feature domain registry
   sections/   page partials, one institutional section per file
-  styles/     base and feature-specific stylesheets
+  styles/     authored base and feature-specific stylesheets
+  templates/  shared page shell used by the generator
+assets/
+  css/        generated shared and per-page CSS bundles
 scripts/      build, preview, validation, scaffolding and asset helpers
-*.html        nineteen generated GitHub Pages artifacts; one is deliberately hidden
-styles.css    generated shared CSS artifact
-styles-*.css  generated per-page CSS artifacts
+*.html        nineteen generated GitHub Pages route artifacts; one is deliberately hidden
 site.config.mjs
 ```
 
-Edit `src/`, not the generated root HTML pages or root `styles*.css` bundles.
+Edit `src/`, not the generated root HTML pages or `assets/css/styles*.css` bundles.
 
 ## Common commands
 
@@ -268,7 +269,7 @@ npm run capture -- --page=ethics.html#ethics-board --section=ethics-board --widt
 npm run capture -- --page=fieldwork.html#fieldwork-stations --section=fieldwork-passport --width=390 --height=844
 npm run capture -- --page=campus.html#live-campus --section=live-campus --width=1440 --height=1000
 npm run capture -- --page=mytu.html#academic-defense --section=my-tu --storage='{"tu:identity":{"id":"TU-S-DEMO","name":"外界人類"}}'
-npm run new:section -- news # scaffold and register a new section
+npm run new:section -- news [page-id] # scaffold/register a section; defaults to home
 npm run portraits -- set-b  # switch the active faculty art direction
 scripts/optimize-images.sh input.png output.webp 1600x1200
 ```
