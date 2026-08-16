@@ -34,15 +34,16 @@ The project is dependency-free semantic HTML, CSS and vanilla JavaScript with a
 Node standard-library build.
 
 ```text
-src/index.template.html     shared page shell
+src/templates/page.html     shared page shell
 src/sections/*.html         authored institutional sections
 src/styles/*.css            authored core/feature styles
 src/data/*.js               trilingual records and deterministic rules
 src/js/*.js                 models, stores, renderers and shared controllers
 site.config.mjs             page/section/style/preload registry
-scripts/build.mjs           generates root HTML and CSS bundles
+scripts/build.mjs           generates root HTML + assets/css bundles
 scripts/build-gaokao-*.mjs  generates 48 offline papers/answers
-*.html, styles*.css         committed generated GitHub Pages artifacts
+*.html                      committed generated GitHub Pages route artifacts
+assets/css/styles*.css      committed generated CSS bundles
 downloads/gaokao/           committed generated examination artifacts
 ```
 

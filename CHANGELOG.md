@@ -21,6 +21,12 @@ All notable changes to the Touhou University project are recorded here.
 
 ### Changed
 
+- Reorganized generated site artifacts without changing public routes: the
+  nineteen GitHub Pages HTML entries remain at repository root, generated CSS
+  bundles now live under `assets/css/`, and the shared page shell now lives at
+  `src/templates/page.html`. Build, scaffolding, i18n and maintainer references
+  follow the new paths, the section scaffolder now registers its target page
+  instead of editing template includes, and builds remove legacy root CSS bundles.
 - Re-edited seventy-five high-impact Traditional Chinese, Japanese and English
   copy groups across admissions, BBS, academics, clinical care, fieldwork,
   festivals, ethics, the library and careers, then regenerated all nineteen
@@ -41,9 +47,9 @@ All notable changes to the Touhou University project are recorded here.
 - Kept source strings, structured datasets, runtime fallbacks and generated
   HTML synchronized under the full build, documentation, localization,
   contract, knowledge, feature and interaction checks.
-- Backfilled TU-H-036 with first-parent commit
-  `d150864b293e6cb581b0c88eea10b9116497caf1`; planned TU-H-037 uses exact
-  subject `Polish trilingual campus copy`.
+- Backfilled TU-H-039 with first-parent commit
+  `ce2b2e050a6fae11014197031c6fc6ea717f06c5`; planned TU-H-040 uses exact
+  subject `Refactor generated site structure`.
 - Added unified-examination validation for cyclic answer keys and multilingual
   option-length leakage, plus a browser regression for revision-one drafts and
   completed attempts; regenerated all forty-eight offline papers and keys.

@@ -18,22 +18,22 @@
     <title>{{pageTitle}}</title>
     <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
     <!-- @page-preload -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles-{{pageId}}.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles-{{pageId}}.css">
     <script type="module" src="src/js/main.js"></script>
   </head>
   <body data-page="{{pageId}}" data-page-title-key="{{pageTitleKey}}">
     <a class="skip-link" href="#main" data-i18n="skipToMain">跳至主要內容</a>
 
-    <!-- @include sections/chrome.html -->
+    <!-- @include ../sections/chrome.html -->
 
     <main id="main">
       <!-- @page-masthead -->
       <!-- @page-sections -->
     </main>
 
-    <!-- @include sections/footer.html -->
-    <!-- @include sections/dialogs.html -->
+    <!-- @include ../sections/footer.html -->
+    <!-- @include ../sections/dialogs.html -->
 
     <div class="toast" role="status" aria-live="polite" data-toast></div>
   </body>

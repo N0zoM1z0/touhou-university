@@ -52,7 +52,7 @@ const sectionDirectory = path.join(root, "src", "sections");
 const sectionFiles = (await readdir(sectionDirectory)).filter((file) => file.endsWith(".html"));
 const sourceFiles = [
   ...sectionFiles.map((file) => path.join(sectionDirectory, file)),
-  path.join(root, "src", "index.template.html"),
+  path.join(root, "src", "templates", "page.html"),
 ];
 const sourceDocuments = await Promise.all(sourceFiles.map(async (file) => ({
   file,
