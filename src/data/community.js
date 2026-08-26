@@ -2,6 +2,13 @@ const l = (zh, ja, en) => ({ "zh-Hant": zh, ja, en });
 
 export const newsItems = [
   {
+    id: "first-bell-arrival",
+    date: "08.26",
+    category: l("新生", "新入生", "New Students"),
+    title: l("第一鐘報到卷開放：請把退路和錄取通知一起帶來", "第一鐘の到着票を開封：合格通知と退路を一緒に", "First Bell arrival files open: bring a way back with the admission letter"),
+    summary: l("到着室會核對博麗門路線、本人能辨認的停止信號與第一站；文文。校報只能取得不含姓名的總數。", "到着室は博麗門からの経路、本人が識別できる停止合図、最初の行先を確認します。文々。学報が得るのは氏名なしの総数だけです。", "The arrival office checks the route from Hakurei Gate, a stop signal the student can recognise, and a first destination. Bunbunmaru receives only a nameless count."),
+  },
+  {
     id: "open-day-gate",
     date: "07.24",
     category: l("招生", "入試", "Admissions"),

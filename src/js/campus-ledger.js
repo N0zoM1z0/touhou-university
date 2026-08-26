@@ -73,6 +73,7 @@ export function recordCampusEvent(type, payload = {}, options = {}) {
 function legacyEvents() {
   const applications = readJson("tu:application:submissions", []);
   const reviews = readJson("tu:application:reviews", []);
+  const orientationDossiers = readJson("tu:orientation:dossiers", []);
   const visits = readJson("tu:visits", []);
   const entranceExams = readJson("tu:exam:history", []);
   const unifiedExams = readJson("tu:gaokao:attempts", []);
@@ -132,6 +133,52 @@ function legacyEvents() {
         school: review.school,
       },
     });
+  }
+  for (const dossier of Array.isArray(orientationDossiers) ? orientationDossiers : []) {
+    if (!dossier?.id || !dossier?.createdAt) continue;
+    events.push({
+      id: `orientation.dossier.opened:${dossier.id}`,
+      type: "orientation.dossier.opened",
+      timestamp: dossier.createdAt,
+      payload: {
+        dossierId: dossier.id,
+        identityId: dossier.identityId,
+        applicationId: dossier.applicationId,
+        schoolId: dossier.schoolId,
+      },
+    });
+    if (dossier.arrival?.confirmedAt) {
+      events.push({
+        id: `orientation.arrival.confirmed:${dossier.id}`,
+        type: "orientation.arrival.confirmed",
+        timestamp: dossier.arrival.confirmedAt,
+        payload: {
+          dossierId: dossier.id,
+          modeId: dossier.arrival.modeId,
+          destinationId: dossier.arrival.destinationId,
+        },
+      });
+    }
+    if (dossier.boundary?.confirmedAt) {
+      events.push({
+        id: `orientation.boundary.confirmed:${dossier.id}`,
+        type: "orientation.boundary.confirmed",
+        timestamp: dossier.boundary.confirmedAt,
+        payload: {
+          dossierId: dossier.id,
+          signalId: dossier.boundary.signalId,
+          noticeId: dossier.boundary.noticeId,
+        },
+      });
+    }
+    if (dossier.completedAt && dossier.firstStopId) {
+      events.push({
+        id: `orientation.matriculated:${dossier.id}`,
+        type: "orientation.matriculated",
+        timestamp: dossier.completedAt,
+        payload: { dossierId: dossier.id, schoolId: dossier.schoolId, firstStopId: dossier.firstStopId },
+      });
+    }
   }
   for (const record of Array.isArray(visits) ? visits : []) {
     events.push({

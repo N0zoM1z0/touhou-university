@@ -148,6 +148,7 @@ export const localRecordGroups = [
 export const localRecordRegistry = [
   record("tu:identity", "identity", l("My TU 本機身分", "My TU 端末内身分", "My TU on-device identity")),
   record("tu:application:reviews", "identity", l("教授聯合審查", "教員合同審査", "Joint faculty reviews")),
+  record("tu:orientation:dossiers", "identity", l("第一鐘新生到着卷", "第一鐘新入生到着票", "First Bell arrival files")),
 
   record("tu:application:draft", "admissions", l("入學申請草稿", "入学願書の下書き", "Application draft"), { kind: "draft" }),
   record("tu:application:submissions", "admissions", l("入學申請送件", "入学願書の提出", "Submitted applications")),

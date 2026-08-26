@@ -46,6 +46,7 @@ const labels = {
     ethicsLinked: "研究倫理審查連動",
     festivalLinked: "祭典現場連動",
     fieldworkLinked: "境內實習連動",
+    orientationLinked: "第一鐘連動",
     phantasmLinked: "第九節不明連動",
     openCase: "查看結案案卷",
     openGovernance: "查看校務提案",
@@ -56,6 +57,7 @@ const labels = {
     openEthics: "查看倫理審查案卷",
     openFestival: "查看祭典許可／運作盤",
     openFieldwork: "查看派遣令／返校卷",
+    openOrientation: "查看新生到着卷",
     openPhantasm: "查看第九節點名簿",
   },
   ja: {
@@ -94,6 +96,7 @@ const labels = {
     ethicsLinked: "研究倫理審査連動",
     festivalLinked: "祭典現場連動",
     fieldworkLinked: "幻想郷域内実習連動",
+    orientationLinked: "第一鐘連動",
     phantasmLinked: "第九時限不明連動",
     openCase: "終結記録を見る",
     openGovernance: "学務提案を見る",
@@ -104,6 +107,7 @@ const labels = {
     openEthics: "倫理審査記録を見る",
     openFestival: "祭典許可／運行盤を見る",
     openFieldwork: "派遣令／帰校記録を見る",
+    openOrientation: "新入生到着票を見る",
     openPhantasm: "第九時限の点呼簿を見る",
   },
   en: {
@@ -142,6 +146,7 @@ const labels = {
     ethicsLinked: "Research-ethics-linked",
     festivalLinked: "Festival-field-linked",
     fieldworkLinked: "Fieldwork-linked",
+    orientationLinked: "First-Bell-linked",
     phantasmLinked: "Ninth-period linkage disputed",
     openCase: "Open closure record",
     openGovernance: "Open governance proposal",
@@ -152,6 +157,7 @@ const labels = {
     openEthics: "Open ethics review file",
     openFestival: "Open festival permit / field board",
     openFieldwork: "Open dispatch / return file",
+    openOrientation: "Open new-student arrival file",
     openPhantasm: "Open the ninth-period roll",
   },
 };
@@ -241,6 +247,12 @@ function linkedPostAction(post, l) {
       handler: () => window.location.assign(siteHref(post.fieldworkRoute)),
     };
   }
+  if (post.orientationRoute) {
+    return {
+      label: l.openOrientation,
+      handler: () => window.location.assign(siteHref(post.orientationRoute)),
+    };
+  }
   if (post.phantasmRoute) {
     return {
       label: l.openPhantasm,
@@ -260,6 +272,7 @@ function linkedPostLabel(post, l) {
   if (post.ethics) return l.ethicsLinked;
   if (post.festival) return l.festivalLinked;
   if (post.fieldwork) return l.fieldworkLinked;
+  if (post.orientation) return l.orientationLinked;
   if (post.phantasm) return l.phantasmLinked;
   return l.incidentLinked;
 }
@@ -307,7 +320,7 @@ export function initBbs() {
     const locale = getLocale();
     const l = labels[locale];
     const article = document.createElement("article");
-    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}${post.clinic ? " clinic-post" : ""}${post.appraisal ? " appraisal-post" : ""}${post.spellcard ? " spellcard-post" : ""}${post.ethics ? " ethics-post" : ""}${post.festival ? " festival-post" : ""}${post.fieldwork ? " fieldwork-post" : ""}${post.phantasm ? " phantasm-post" : ""}`;
+    article.className = `bbs-row${pinned ? " pinned" : ""}${post.local ? " user-post" : ""}${post.incidentId ? " incident-post" : ""}${post.contested ? " contested-post" : ""}${post.governance ? " governance-post" : ""}${post.academic ? " academic-post" : ""}${post.clinic ? " clinic-post" : ""}${post.appraisal ? " appraisal-post" : ""}${post.spellcard ? " spellcard-post" : ""}${post.ethics ? " ethics-post" : ""}${post.festival ? " festival-post" : ""}${post.fieldwork ? " fieldwork-post" : ""}${post.orientation ? " orientation-post" : ""}${post.phantasm ? " phantasm-post" : ""}`;
     article.dataset.bbsCategory = post.category;
     article.dataset.bbsId = post.id;
     if (post.local) article.dataset.userPost = "";

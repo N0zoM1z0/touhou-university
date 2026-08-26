@@ -78,6 +78,7 @@ if (!redirected) {
     initialize("[data-research]", "./research.js", "initResearch"),
     initialize("[data-spellcard-workshop]", "./spellcard-workshop.js", "initSpellcardWorkshop"),
     initialize("[data-ethics-app]", "./ethics.js", "initEthics"),
+    initialize("[data-orientation-app]", "./orientation.js", "initOrientation"),
     initialize("[data-festival-app]", "./festival.js", "initFestival"),
     initialize("[data-fieldwork-app]", "./fieldwork.js", "initFieldwork"),
     initialize("[data-commons-app]", "./commons.js", "initCommons"),
@@ -106,6 +107,8 @@ if (!redirected) {
   ]);
 
   initDeepLinks();
+  document.documentElement.dataset.tuReady = "true";
+  window.dispatchEvent(new CustomEvent("tu:ready"));
 
   if (window.location.hash.startsWith("#service-")) ensureServices();
   if (window.location.hash === "#search") ensureSearch();

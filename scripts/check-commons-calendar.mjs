@@ -1,3 +1,7 @@
+// Calendar fixtures use explicit Gensokyo (+08:00) civil times. Keep their
+// month and time-band assertions stable when maintainers run checks in UTC.
+process.env.TZ = "Asia/Singapore";
+
 class MemoryStorage {
   #values = new Map();
 

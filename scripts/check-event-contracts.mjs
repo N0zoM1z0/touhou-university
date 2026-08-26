@@ -66,6 +66,21 @@ expectCause(review, application, "Application review causation");
 const applicationDeleted = add("application.deleted", { applicationId: "TU-A-1" });
 expectCause(applicationDeleted, review, "Application deletion causation");
 
+const orientationDossier = add("orientation.dossier.opened", {
+  dossierId: "TU-FIRST-1", identityId: "TU-S-1", applicationId: "TU-A-1", schoolId: "boundary",
+});
+const orientationArrival = add("orientation.arrival.confirmed", {
+  dossierId: "TU-FIRST-1", modeId: "walk", destinationId: "boundary",
+});
+expectCause(orientationArrival, orientationDossier, "Orientation arrival causation");
+const orientationBoundary = add("orientation.boundary.confirmed", {
+  dossierId: "TU-FIRST-1", signalId: "wood-bell", noticeId: "archive-board",
+});
+expectCause(orientationBoundary, orientationArrival, "Orientation boundary causation");
+expectCause(add("orientation.matriculated", {
+  dossierId: "TU-FIRST-1", schoolId: "boundary", firstStopId: "first-course",
+}), orientationBoundary, "Orientation matriculation causation");
+
 const visit = add("visit.reserved", { visitId: "TU-V-1", route: "hakurei", date: "2026-07-27" });
 expectCause(add("visit.deleted", { visitId: "TU-V-1" }), visit, "Visit deletion causation");
 const exam = add("exam.completed", { examId: "TU-E-1", bankId: "normal", percent: 88 });

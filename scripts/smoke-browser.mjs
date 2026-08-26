@@ -122,7 +122,7 @@ function check(condition, message) {
 async function navigate(pathname, selector = "body") {
   const expected = new URL(pathname, siteUrl);
   await cdp.call("Page.navigate", { url: expected.href });
-  await eventually(() => cdp.evaluate(`document.readyState === "complete" && location.pathname === ${JSON.stringify(expected.pathname)} && Boolean(document.querySelector(${JSON.stringify(selector)}))`));
+  await eventually(() => cdp.evaluate(`document.readyState === "complete" && document.documentElement.dataset.tuReady === "true" && location.pathname === ${JSON.stringify(expected.pathname)} && Boolean(document.querySelector(${JSON.stringify(selector)}))`));
   await delay(120);
 }
 
@@ -576,6 +576,96 @@ try {
     "Joint faculty review did not read the application's distinct question, method, and field needs.",
   );
   check(facultyReview.printCount === 1 && facultyReview.printText > 180, "My TU decision did not render into the shared print document.");
+
+  await cdp.evaluate(`(() => {
+    const reviews = JSON.parse(localStorage.getItem('tu:application:reviews') || '[]');
+    reviews[reviews.length - 1].outcome = 'admitted';
+    localStorage.setItem('tu:application:reviews', JSON.stringify(reviews));
+    return true;
+  })()`);
+  await navigate("welcome.html#welcome", "[data-orientation-app]");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-orientation-open]'))"));
+  const firstBell = await cdp.evaluate(`(async () => {
+    const settle = () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    document.querySelector('[data-orientation-open]').click();
+    await settle();
+    document.querySelector('[data-orientation-arrival-form] input[value="walk"]').click();
+    document.querySelector('[data-orientation-arrival-form]').requestSubmit();
+    await settle();
+    document.querySelector('[data-orientation-boundary-form] input[value="wood-bell"]').click();
+    document.querySelector('[data-orientation-boundary-form] input[value="tengu-correction"]').click();
+    document.querySelector('[data-orientation-boundary-form]').requestSubmit();
+    await settle();
+    document.querySelector('[data-orientation-complete-form] input[value="first-course"]').click();
+    document.querySelector('[data-orientation-complete-form]').requestSubmit();
+    await settle();
+    const zh = document.querySelector('.orientation-arrival-document h4')?.textContent.trim();
+    document.querySelector('[data-lang="ja"]').click();
+    await settle();
+    const ja = document.querySelector('.orientation-arrival-document h4')?.textContent.trim();
+    document.querySelector('[data-lang="en"]').click();
+    await settle();
+    const en = document.querySelector('.orientation-arrival-document h4')?.textContent.trim();
+    document.querySelector('[data-lang="zh-Hant"]').click();
+    await settle();
+    window.__orientationPrintCount = 0;
+    window.print = () => { window.__orientationPrintCount += 1; };
+    document.querySelector('[data-orientation-print]').click();
+    await settle();
+    const dossiers = JSON.parse(localStorage.getItem('tu:orientation:dossiers') || '[]');
+    const ledger = JSON.parse(localStorage.getItem('tu:campus:ledger') || '[]');
+    const printText = document.querySelector('[data-tu-print-root]')?.textContent.trim() || '';
+    const result = {
+      dossier: dossiers.at(-1),
+      events: ledger.filter((event) => event.type.startsWith('orientation.')).map((event) => event.type),
+      hash: location.hash,
+      zh,
+      ja,
+      en,
+      printCount: window.__orientationPrintCount,
+      printText: printText.length,
+      overflow: document.documentElement.scrollWidth > window.innerWidth,
+      firstRoute: document.querySelector('.orientation-complete-actions .button-primary')?.getAttribute('href')
+    };
+    window.dispatchEvent(new Event('afterprint'));
+    return result;
+  })()`);
+  check(
+    firstBell.dossier?.status === "matriculated"
+      && firstBell.dossier?.arrival?.path?.[0] === "gate"
+      && firstBell.dossier?.boundary?.signalId === "wood-bell"
+      && firstBell.dossier?.boundary?.noticeId === "tengu-correction"
+      && firstBell.events.length === 4
+      && new Set(firstBell.events).size === 4
+      && firstBell.hash.startsWith("#orientation-dossier-")
+      && firstBell.zh.includes("新生到着")
+      && firstBell.ja.includes("新入生到着")
+      && firstBell.en.includes("New Student Arrival")
+      && firstBell.printCount === 1
+      && firstBell.printText > 160
+      && firstBell.firstRoute === "mytu.html#course-registration"
+      && !firstBell.overflow,
+    `First Bell did not retain its route, separate boundary choices, causal events, translations or print file (${JSON.stringify(firstBell)}).`,
+  );
+  await navigate("campus.html#bbs", "#bbs");
+  await eventually(() => cdp.evaluate("Boolean(document.querySelector('.orientation-post'))"));
+  const orientationBbs = await cdp.evaluate(`(async () => {
+    const post = document.querySelector('.orientation-post');
+    post.querySelector('.bbs-row-trigger').click();
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    const dialog = document.querySelector('[data-info-dialog]');
+    return {
+      title: dialog.querySelector('[data-info-title]')?.textContent || '',
+      action: dialog.querySelector('[data-info-action]')?.textContent || '',
+      leaksName: dialog.textContent.includes('外界人類')
+    };
+  })()`);
+  check(
+    /第一鐘|到着/.test(orientationBbs.title)
+      && /到着卷|報到/.test(orientationBbs.action)
+      && !orientationBbs.leaksName,
+    `First Bell BBS projection lost its source link or exposed the student's known name (${JSON.stringify(orientationBbs)}).`,
+  );
   await navigate("mytu.html#course-registration", "#my-tu");
   await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-course-filter-form]'))"));
 
@@ -2189,7 +2279,7 @@ try {
   await eventually(() => cdp.evaluate("location.pathname.endsWith('/research.html') && Boolean(document.querySelector('[data-research-dialog]')?.open)"));
   check(await cdp.evaluate("location.hash === '#research-spellcard'"), "Legacy one-page research deep link was not redirected.");
 
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "careers.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "welcome.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "careers.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     const response = await fetch(new URL(page, siteUrl));
     check(response.ok && (await response.text()).includes(`data-page=`), `${page} was not built as a complete page.`);
   }
@@ -3075,7 +3165,7 @@ try {
     deviceScaleFactor: 1,
     mobile: true,
   });
-  for (const page of ["index.html", "academics.html", "admissions.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "careers.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+  for (const page of ["index.html", "academics.html", "admissions.html", "welcome.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "careers.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
     await navigate(page, "main");
     const mobile = await cdp.evaluate(`({
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
@@ -3135,7 +3225,7 @@ try {
     console.error(`Browser smoke test failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log("Browser smoke test passed: subpage buttons, persistent admissions, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, eight-desk graduation/degree, twelve-path careers/referral, twenty-one-job employment market/denominator hearing/odd-résumé replies, Hyakki Yagyo alumni/mentorship, six-desk festival permits/live routes/clinic load/field closure, 24-station fieldwork dispatch/complication/return/passport/BBS linkage, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
+    console.log("Browser smoke test passed: subpage buttons, persistent admissions, First Bell route/boundary/arrival/print/BBS flow, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, eight-desk graduation/degree, twelve-path careers/referral, twenty-one-job employment market/denominator hearing/odd-résumé replies, Hyakki Yagyo alumni/mentorship, six-desk festival permits/live routes/clinic load/field closure, 24-station fieldwork dispatch/complication/return/passport/BBS linkage, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
 } finally {
   cdp?.close();

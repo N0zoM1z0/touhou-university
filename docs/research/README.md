@@ -58,6 +58,9 @@ depend on that other checkout:
 - `unified-examination-notes.md` — ordinary and dream-paper difficulty
   contracts, diagnostic distractors, answer-key leakage thresholds and
   question-bank revision compatibility.
+- `first-bell-orientation-notes.md` — formal-admission gate, shared live route,
+  recognisable stop/exit signals, first destinations and nameless projections
+  for new-student arrival.
 
 ## Which file should an agent read?
 

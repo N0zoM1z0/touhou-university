@@ -975,10 +975,9 @@ export const campusHistory = [
   {
     id: "style-ledgers-leave-the-front-desk",
     archiveId: "TU-H-040",
-    commit: null,
-    commitSubject: "Refactor generated site structure",
+    commit: "54537f6b536a94e9ffd66ae82e16bc1db3ec96e2",
+    commitSubject: "Refactor generated site structure (#26)",
     recordedAt: "2026-08-16",
-    planned: true,
     category: "archive",
     era: l(
       "幻想曆一四二年・葉月・總務搬櫃日",
@@ -999,6 +998,35 @@ export const campusHistory = [
       "文的號外寫著「校門口文件減少二十份，通行效率提升百分之一百零五」。阿求把後半句劃掉，註明只是把樣式簿搬進櫃子。魔理沙提議既然如此乾脆把十九扇門也塞進同一個資料夾；靈夢回答：那樣大家就真的進不來了。",
       "文の号外は『玄関文書二十冊削減、通行効率105％向上』。阿求は後半を消し、様式帳を棚へ移しただけと注記した。魔理沙は、なら十九の門も同じフォルダへ入れようと提案。霊夢は『それをやると本当に誰も入れない』と却下した。",
       "Aya's extra reads, “Twenty documents removed from the gate; access efficiency up 105%.” Akyuu strikes the second clause and notes that the style ledgers merely moved into a cabinet. Marisa proposes putting all nineteen doors in the same folder. Reimu replies that then nobody would actually be able to enter.",
+    ),
+  },
+  {
+    id: "first-bell-keeps-three-fields",
+    archiveId: "TU-H-041",
+    commit: null,
+    commitSubject: "Add First Bell new-student arrival week",
+    recordedAt: "2026-08-26",
+    planned: true,
+    category: "student-life",
+    era: l(
+      "幻想曆一四二年・長月前・第一鐘試響日",
+      "幻想暦一四二年・長月前・第一鐘の試し打ち",
+      "Gensokyo 142 · Before the Ninth Moon · First Bell trial",
+    ),
+    title: l(
+      "新生帶著同一份錄取通知走進三扇門，到着室只准敲一聲鐘",
+      "新入生が同じ合格通知で三つの門を通り、到着室は鐘を一度だけ鳴らす",
+      "A newcomer carries one admission through three gates; Arrival permits one bell",
+    ),
+    summary: l(
+      "新生到着室在博麗門旁擺出第一鐘報到卷，拒絕把「錄取信已寄出」直接抄成「本人已抵達」。只有這台裝置上的正式錄取評議能開封卷宗；有條件錄取、待補件與尚未審查的版本仍留在原欄，不能被一段熱鬧的歡迎詞沖淡。新生先從當值地圖找出今日真的走得通的學院路線，再分開選一種本人能辨認的停止信號與一種會親自覆核的改道通知，最後把第一門課、共同生活、社團或祭典營運選作入學後第一件真事。阿求只在卷上引用身分、申請與評議編號；文文。校報拿得到不含姓名的到着總數，拿不到申請問題；校園事件帳本則依開卷、認路、確認退路、敲鐘四步留下因果。於是「歡迎」第一次不是把所有門說成同一扇，而是讓每位新生知道門變了時如何停下、回頭，再繼續走。",
+      "博麗門脇に第一鐘の到着票が置かれ、到着室は「合格通知発送済み」をそのまま「本人到着済み」へ写すことを拒んだ。票を開けるのは、この端末に正式合格の評議がある者だけである。条件付合格、補足待ち、未審査の版は元の欄に残り、賑やかな歓迎文で薄められない。新入生は当日の地図から本当に通れる学部経路を選び、本人が識別できる停止合図と、自分で確認する迂回通知を別々に決める。最後に、最初の科目、共同生活、団体、祭典運営のいずれかを入学後最初の本当の用事とする。阿求が票へ引くのは身分・出願・評議の番号だけ。文々。学報が得るのは氏名なしの到着総数で、出願の問いは渡らない。学務事象台帳は開票、経路確認、退路確認、鐘の四段を因果で残す。こうして「歓迎」は全ての門を同じだと言い張る言葉ではなく、門が変わった時に止まり、戻り、また進む方法になった。",
+      "The New Student Arrival Office sets a First Bell file beside Hakurei Gate and refuses to copy “admission letter sent” into “student arrived.” Only a formal admitted review on this device opens the file; conditional, supplementary, and unreviewed editions remain in their original fields, undiluted by festive welcome copy. A newcomer first uses the live map to find a route that truly reaches the admitting school today, then separately chooses a stop signal they can recognise and a detour notice they will personally verify. At last they choose a first real act after admission: a course, shared living, a society, or festival operations. Akyuu cites identity, application, and review numbers without copying their prose. Bunbunmaru receives a nameless arrival count, never the application question. The official ledger keeps four causes in order: opening the file, confirming the route, confirming the way back, and ringing the bell. Welcome no longer claims every gate is one gate; it teaches each newcomer how to stop, return, and continue when a gate changes.",
+    ),
+    marginalia: l(
+      "文在第一位新生尚未抵達前刊出「第一鐘到着率百分之一百」；阿求問分母，文指著空白卷說預計稍後補上。紫把三扇自稱唯一的正門排成同一條路，靈夢在第二扇前拉起朱繩：路線可以改，停止信號不行。魔理沙選了第一門課，順手把鐘槌借去做共振實驗；報到室在她的卷尾補了一欄——本人已到，鐘槌待歸。",
+      "文は最初の新入生が着く前に「第一鐘到着率100％」を発行。阿求が分母を尋ねると、文は空票を指して後で補う予定だと答えた。紫は三つの『唯一正門』を一つの道に並べ、霊夢は二番目の前へ朱縄を張る――経路は変えてよい、停止合図は変えるな。魔理沙は最初の科目を選び、鐘の撞木を共鳴実験へ借りていった。到着室は票末へ一欄追加する。本人到着済み、撞木未返却。",
+      "Aya publishes “First Bell arrival rate: 100%” before the first newcomer arrives. Asked for the denominator, she points to a blank file and promises to add it later. Yukari arranges three self-declared sole main gates along one route; Reimu draws a vermilion cord before the second—routes may change, stop signals may not. Marisa chooses a first course and borrows the bell striker for a resonance experiment. Arrival adds one field: student present; striker outstanding.",
     ),
   },
 

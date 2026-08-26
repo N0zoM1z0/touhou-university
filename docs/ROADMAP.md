@@ -346,6 +346,21 @@ Status: implemented in 0.30.0.
 - repository-owned changelog/research indexes and a documentation validator so
   page, key, event, Hieda and employment counts fail loudly when they drift
 
+## Batch 21 — First Bell new-student arrival
+
+Status: implemented in Unreleased.
+
+- a public arrival office with a strict formal-admission gate: conditional,
+  supplementary, interview and pending-review editions remain visible but do
+  not become new-student records early
+- one referenced on-device file that reuses the live campus route graph, keeps
+  a personally recognisable stop signal separate from detour notification and
+  opens a real first course, housing, society or festival destination
+- four causal official events, printable arrival slip, My TU next action,
+  newcomer home path, Search, nameless BBS and Hieda projections
+- three complete public languages and an original paper, ink and vermilion
+  visual system with focused lifecycle and browser verification
+
 ## Future directions, not commitments
 
 - official document generator grows alongside every lifecycle feature

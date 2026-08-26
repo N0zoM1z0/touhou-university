@@ -6,6 +6,17 @@ All notable changes to the Touhou University project are recorded here.
 
 ### Added
 
+- Added the trilingual First Bell new-student arrival week: formally admitted
+  My TU records can open a referenced arrival file, confirm a live route from
+  Hakurei Gate, choose a personally recognisable stop signal separately from
+  detour notices, and open one real first campus destination.
+- Added a printable arrival slip, four-step official event chain, records
+  cabinet entry, My TU next action, newcomer home route, full-site Search,
+  nameless BBS projection and Hieda dossier 13 without copying identity or
+  application prose into a second source of truth.
+- Added focused First Bell validation and a cream-paper, ink-navy and
+  vermilion-cord visual system with responsive arrival files rather than a
+  generic welcome-week badge or confetti page.
 - Added the earned Dream Campus's trilingual PHANTASM common reverse paper:
   nine questions across reverse historiography, non-explosive boundary logic
   and untaken-route causality, totalling 150 marks without a forward-time

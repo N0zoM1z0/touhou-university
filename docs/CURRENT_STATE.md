@@ -1,6 +1,6 @@
 # Touhou University current state
 
-Last audited: 2026-08-16
+Last audited: 2026-08-26
 Release: `0.30.0`
 Branch/deployment: `main` → GitHub Pages
 Live site: <https://n0zom1z0.github.io/touhou-university/>
@@ -26,16 +26,16 @@ language.
 
 | Item | Current value |
 | --- | ---: |
-| Generated pages | 19 |
-| Ordinary public pages | 18 |
+| Generated pages | 20 |
+| Ordinary public pages | 19 |
 | Deliberately hidden pages | 1 (`phantasm.html`) |
-| Unique content sections | 35 |
-| CSS bundles | 20 |
+| Unique content sections | 36 |
+| CSS bundles | 21 |
 | Supported locales | 3 (`zh-Hant`, `ja`, `en`) |
-| Registered on-device keys | 73 |
+| Registered on-device keys | 74 |
 | Known records shelves | 12 |
-| Official event contracts | 76 |
-| Hieda dossiers / characters / source leaves | 12 / 23 / 82 |
+| Official event contracts | 80 |
+| Hieda dossiers / characters / source leaves | 13 / 23 / 88 |
 | Employment vacancies / illustrated posters | 21 / 21 |
 | Catalogue courses | 35 |
 | Fieldwork stations | 24 |
@@ -52,6 +52,7 @@ Run `npm run docs:status` for the same values directly from source.
 | `index.html` | home, audience entrances, services, institutional story |
 | `academics.html` | seven schools and faculty |
 | `admissions.html` | admissions, entrance examination, unified examination |
+| `welcome.html` | First Bell new-student arrival, live route, stop signal and first destination |
 | `research.html` | research archive and spell-card workshop |
 | `ethics.html` | research ethics board |
 | `incidents.html` | incident centre and research simulator |
