@@ -34,6 +34,22 @@ const paths = {
       ["service-application", { "zh-Hant": "開始線上申請", ja: "オンライン出願", en: "Start application" }],
     ],
   },
+  newcomer: {
+    glyph: "鐘",
+    label: { "zh-Hant": "新同學", ja: "新入生", en: "New Student" },
+    title: { "zh-Hant": "帶著錄取評議來，別只帶著歡迎詞", ja: "歓迎の言葉だけでなく、合格審査を持ってくる", en: "Bring the admission review, not only the welcome" },
+    lead: {
+      "zh-Hant": "從博麗門認一條今天走得通的路，約好停止信號，再決定第一鐘後先去做哪件真事。",
+      ja: "博麗門から今日通れる経路を確かめ、停止合図を決め、第一鐘の後に始める本当の用事を選びます。",
+      en: "Confirm a route that works today from Hakurei Gate, agree on a stop signal, then choose the first real thing to do after First Bell.",
+    },
+    actions: [
+      ["welcome", { "zh-Hant": "開封新生報到卷", ja: "新入生到着票を開く", en: "Open the arrival file" }],
+      ["my-tu", { "zh-Hant": "核對錄取評議", ja: "合格審査を確認", en: "Check the admission review" }],
+      ["map", { "zh-Hant": "查看當值路線", ja: "当日の経路を見る", en: "Inspect today's routes" }],
+      ["housing-application", { "zh-Hant": "談共同生活條件", ja: "共同生活の条件を話す", en: "Discuss living arrangements" }],
+    ],
+  },
   student: {
     glyph: "學",
     label: { "zh-Hant": "在校生", ja: "在学生", en: "Current Student" },

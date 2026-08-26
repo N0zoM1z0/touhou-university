@@ -25,6 +25,12 @@ import { postSeedMessages } from "./post.js";
 import { academicCalendarEvents } from "./academic-calendar.js";
 import { alumniChapters, careerOpenings } from "./careers.js";
 import { employmentJobs, employmentOutcomeKinds } from "./employment.js";
+import {
+  orientationFirstStops,
+  orientationNoticePlans,
+  orientationSeason,
+  orientationStopSignals,
+} from "./orientation.js";
 
 const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
@@ -639,6 +645,45 @@ export const knowledgeDossiers = Object.freeze([
       record("graduation-history", "archive", "history", "degree-arrives-nine-minutes-after-alumni-invitation", ["akyuu", "keine", "aya", "yukari"], l("校史把判定、學位、進路與校友事件按 first-parent 實際版本串起來；邀請函的送達順序仍留在另一欄反對。", "大学史は判定・学位・進路・同窓イベントを first-parent の実版で結ぶ。招待状の配達順は別欄で反対を続ける。", "The chronicle links audit, degree, careers, and alumni by actual first-parent versions; invitation delivery order continues objecting in another column.")),
     ],
   },
+  {
+    id: "first-bell-three-gates",
+    glyph: "到",
+    code: "HIEDA / 13",
+    title: l(
+      "第一鐘：三扇唯一正門與一條本人認得的退路",
+      "第一鐘：三つの唯一正門と本人が識別できる退路",
+      "First Bell: three sole main gates and one recognisable way back",
+    ),
+    lead: l(
+      "同一份正式錄取可以通過變動的校門；停止信號、改道通知與第一站仍要由本人分開確認。",
+      "同じ正式合格で変わる門を通れても、停止合図・迂回通知・最初の行先は本人が別々に確認する。",
+      "One formal admission may pass through changing gates; the student still confirms stop signal, detour notice, and first destination separately.",
+    ),
+    tension: l(
+      "紫說三扇門都是真正的唯一正門，靈夢只承認朱繩這一側；文在到着前刊出總數，阿求則拒絕把新生通稱抄到公開看板。",
+      "紫は三つとも本物の唯一正門だと言い、霊夢は朱縄のこちら側だけを認める。文は到着前に総数を出し、阿求は新入生の通称を公開掲示へ写さない。",
+      "Yukari calls all three genuine sole main gates; Reimu recognises only this side of the cord. Aya prints a total before arrival, while Akyuu refuses to copy the newcomer’s name to the public board.",
+    ),
+    characters: ["akyuu", "reimu", "aya", "yukari", "marisa"],
+    versions: ["first-bell-keeps-three-fields", "lost-things-appeal-mail-arrives-before-spring", "five-records-share-one-red-thread"],
+    eventQueries: [{
+      types: [
+        "orientation.dossier.opened",
+        "orientation.arrival.confirmed",
+        "orientation.boundary.confirmed",
+        "orientation.matriculated",
+      ],
+      refs: [],
+    }],
+    records: [
+      record("arrival-season", "case", "orientation-season", "first-bell-2026", ["akyuu", "reimu", "yukari"], l("到着週只承認正式錄取版本有資格開卷；門可以變，錄取條件不跟著改寫。", "到着週で票を開けるのは正式合格版だけ。門が変わっても合格条件は書き換わらない。", "Arrival Week opens files only for the formal admitted edition; a changing gate does not rewrite admission conditions.")),
+      record("wood-bell-stop", "governance", "orientation-signal", "wood-bell", ["reimu", "yukari"], l("三聲木鐘把停止、辨認朱繩與再次移動拆成三個動作；聽不見的人不必假裝這是通用信號。", "三打の木鐘は停止・朱縄確認・再移動を三動作へ分ける。聞こえない者に万能の合図だと装わせない。", "Three wooden bells separate stopping, finding the cord, and moving again; nobody unable to hear it must pretend it is universal.")),
+      record("tengu-correction", "correction", "orientation-notice", "tengu-correction", ["aya", "akyuu"], l("鴉天狗郵便最快，也可能讓錯版最早抵達；每次改道因此保留初版與訂正關係。", "鴉天狗郵便は最速で、誤版も最初に届き得る。迂回ごとに初版と訂正関係を残す。", "Tengu post is fastest and can deliver the wrong edition first, so every detour retains its original and correction trail.")),
+      record("first-course", "learning", "orientation-first-stop", "first-course", ["marisa", "akyuu"], l("第一站是實際課程入口，不是性格測驗；魔理沙仍主張鐘槌也算選課器材。", "最初の行先は実在科目への入口で、性格診断ではない。魔理沙は撞木も履修器材だと主張する。", "The first destination opens a real course, not a personality test. Marisa still claims the bell striker is registration equipment.")),
+      record("arrival-notice", "report", "news", "first-bell-arrival", ["aya", "akyuu"], l("校務新聞可以公開報到規則與匿名總數，不能取得本機姓名、申請問題或需求。", "学務報道は手続規則と匿名総数を公開できるが、端末内氏名・出願の問い・必要条件は得られない。", "Campus news may publish arrival rules and anonymous totals, never the on-device name, application question, or needs.")),
+      record("first-bell-history", "archive", "history", "first-bell-keeps-three-fields", ["akyuu", "reimu", "aya", "yukari", "marisa"], l("校史把開卷、認路、退路與敲鐘按因果串起來；文的預刊總數仍留在頁邊，不被誤認成到着事實。", "大学史は開票・経路・退路・鐘を因果で結ぶ。文の予刊総数は欄外に残り、到着事実にはならない。", "The chronicle links file, route, way back, and bell causally; Aya’s advance total remains in the margin, never mistaken for arrival.")),
+    ],
+  },
 ]);
 
 const sourceCollections = {
@@ -668,6 +713,10 @@ const sourceCollections = {
   "employment-job": employmentJobs,
   "employment-outcome": employmentOutcomeKinds,
   "alumni-chapter": alumniChapters,
+  "orientation-season": [orientationSeason],
+  "orientation-signal": orientationStopSignals,
+  "orientation-notice": orientationNoticePlans,
+  "orientation-first-stop": orientationFirstStops,
 };
 
 const localized = (value, locale) => value?.[locale] || value?.["zh-Hant"] || value || "";
@@ -703,6 +752,10 @@ function routeForSource(source) {
     "employment-job": `employment-job-${source.id}`,
     "employment-outcome": "employment-outcomes",
     "alumni-chapter": `alumni-chapter-${source.id}`,
+    "orientation-season": "welcome",
+    "orientation-signal": "orientation-boundary",
+    "orientation-notice": "orientation-boundary",
+    "orientation-first-stop": "orientation-first-bell",
   };
   return routes[source.type] || "top";
 }
@@ -840,6 +893,16 @@ export function resolveKnowledgeRecord(recordEntry, locale = "zh-Hant") {
     case "alumni-chapter":
       title = localized(source.title, locale);
       detail = `${localized(source.steward, locale)} · ${localized(source.meeting, locale)}`;
+      break;
+    case "orientation-season":
+      title = localized(source.title, locale);
+      detail = `${source.code} · ${localized(source.window, locale)}`;
+      break;
+    case "orientation-signal":
+    case "orientation-notice":
+    case "orientation-first-stop":
+      title = localized(source.name, locale);
+      detail = localized(source.detail, locale);
       break;
     default:
       return null;

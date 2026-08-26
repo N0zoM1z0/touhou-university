@@ -72,6 +72,26 @@ const contracts = [
     subject: by("application", "applicationId"), required: ["applicationId"],
     causedBy: ["application.reviewed", "application.submitted"],
   }),
+  define("orientation.dossier.opened", l("開封新生到着卷", "新入生到着票を開封", "Opened a new-student arrival file"), {
+    subject: by("orientation-dossier", "dossierId"), correlation: (payload) => `orientation:${payload.dossierId || ""}`,
+    required: ["dossierId", "identityId", "applicationId", "schoolId"],
+    references: related(["identity", "identityId"], ["application", "applicationId"], ["school", "schoolId"]),
+  }),
+  define("orientation.arrival.confirmed", l("確認新生到校路線", "新入生の到着経路を確認", "Confirmed the new-student arrival route"), {
+    subject: by("orientation-dossier", "dossierId"), correlation: (payload) => `orientation:${payload.dossierId || ""}`,
+    required: ["dossierId", "modeId", "destinationId"], causedBy: ["orientation.dossier.opened"],
+    references: related(["transport-mode", "modeId"], ["campus-place", "destinationId"]),
+  }),
+  define("orientation.boundary.confirmed", l("確認停止信號與改道通知", "停止合図・迂回通知を確認", "Confirmed stop signal and detour notice"), {
+    subject: by("orientation-dossier", "dossierId"), correlation: (payload) => `orientation:${payload.dossierId || ""}`,
+    required: ["dossierId", "signalId", "noticeId"], causedBy: ["orientation.arrival.confirmed"],
+    references: related(["orientation-signal", "signalId"], ["orientation-notice", "noticeId"]),
+  }),
+  define("orientation.matriculated", l("敲響第一鐘並成立到着記錄", "第一鐘を鳴らし到着記録を成立", "Rang First Bell and filed arrival"), {
+    subject: by("orientation-dossier", "dossierId"), correlation: (payload) => `orientation:${payload.dossierId || ""}`,
+    required: ["dossierId", "schoolId", "firstStopId"], causedBy: ["orientation.boundary.confirmed"],
+    references: related(["school", "schoolId"], ["orientation-first-stop", "firstStopId"]),
+  }),
   define("visit.reserved", l("登記進校預約", "来校予約を登録", "Reserved a campus visit"), {
     subject: by("visit", "visitId"), required: ["visitId"], references: related(["campus-route", "route"]),
   }),

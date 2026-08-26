@@ -45,6 +45,7 @@ const copy = {
     preferredSchool: "志願",
     recordSummary: "校園履歷摘要",
     applications: "入學申請",
+    arrivals: "第一鐘報到卷",
     exams: "已完成試卷",
     visits: "進校預約",
     posts: "BBS 發帖",
@@ -95,8 +96,10 @@ const copy = {
     nextApplication: "提交一份入學申請，讓這個身分進入申請生階段。",
     nextReview: "把申請送入教授聯合審查；他們不保證彼此同意。",
     nextExam: "繼續考試或補交審查條件，讓錄取狀態向前推進。",
+    nextOrientation: "正式錄取版本已經成立。去到着室認路、確認退路，再為入學後第一件真事敲鐘。",
     goExam: "前往入學試驗",
     goGaokao: "前往幻想鄉統一學力試驗",
+    goOrientation: "前往第一鐘・新生到着週",
     outcome: {
       admitted: "正式錄取",
       conditional: "有條件錄取",
@@ -162,6 +165,7 @@ const copy = {
     preferredSchool: "志望",
     recordSummary: "キャンパス履歴概要",
     applications: "入学出願",
+    arrivals: "第一鐘到着票",
     exams: "完了試験",
     visits: "来校予約",
     posts: "BBS 投稿",
@@ -212,8 +216,10 @@ const copy = {
     nextApplication: "入学出願を提出し、この身分を志願者段階へ進めます。",
     nextReview: "出願を合同審査へ。教員同士の合意は保証されません。",
     nextExam: "試験または審査条件の補足を続け、合格状態を進めます。",
+    nextOrientation: "正式合格版が成立しました。到着室で経路と退路を確認し、入学後最初の用事のために鐘を鳴らします。",
     goExam: "入学試験へ",
     goGaokao: "幻想郷統一試験へ",
+    goOrientation: "第一鐘・新入生到着週へ",
     outcome: { admitted: "正式合格", conditional: "条件付合格", supplement: "研究計画補充", interview: "面接へ" },
     outcomeBody: {
       admitted: "評議は新入生手続への直接進行を承認。各研究室の現場条件は引き続き適用されます。",
@@ -274,6 +280,7 @@ const copy = {
     preferredSchool: "Preference",
     recordSummary: "Campus record summary",
     applications: "Applications",
+    arrivals: "First Bell arrival files",
     exams: "Completed exams",
     visits: "Campus visits",
     posts: "BBS posts",
@@ -324,8 +331,10 @@ const copy = {
     nextApplication: "Submit an application to move this identity into applicant status.",
     nextReview: "Send the application to joint review. Agreement among faculty is not guaranteed.",
     nextExam: "Continue exams or satisfy review conditions to advance the decision.",
+    nextOrientation: "The formal admission edition now stands. Confirm the route and way back at the arrival office, then ring for the first real thing you will do on campus.",
     goExam: "Go to entrance exam",
     goGaokao: "Go to Gensokyo exam",
+    goOrientation: "Go to First Bell arrival week",
     outcome: { admitted: "Admitted", conditional: "Conditional Admission", supplement: "Research Plan Required", interview: "Proceed to Interview" },
     outcomeBody: {
       admitted: "The panel approves direct progression to new-student registration; each laboratory's field conditions still apply.",
@@ -412,6 +421,7 @@ function formatDate(value, locale, withTime = false) {
 function allRecords() {
   const applications = readJson("tu:application:submissions", []);
   const reviews = readJson(REVIEW_KEY, []);
+  const orientationDossiers = readJson("tu:orientation:dossiers", []);
   const visits = readJson("tu:visits", []);
   const entranceExams = readJson("tu:exam:history", []);
   const unifiedExams = readJson("tu:gaokao:attempts", []);
@@ -475,6 +485,7 @@ function allRecords() {
   return {
     applications,
     reviews,
+    orientationRecords: Array.isArray(orientationDossiers) ? orientationDossiers.length : 0,
     visits,
     entranceExams,
     unifiedExams,
@@ -827,6 +838,7 @@ function renderDashboard(identity, records, locale, c) {
         <header><p>ON THIS DEVICE</p><h3>${c.recordSummary}</h3></header>
         <div>
           <a href="index.html#service-application"><span>${c.applications}</span><strong>${records.applications.length}</strong></a>
+          <a href="welcome.html#welcome"><span>${c.arrivals}</span><strong>${records.orientationRecords}</strong></a>
           <a href="admissions.html#entrance-exam"><span>${c.exams}</span><strong>${records.examCount}</strong></a>
           <a href="index.html#service-visit"><span>${c.visits}</span><strong>${records.visits.length}</strong></a>
           <a href="campus.html#bbs"><span>${c.posts}</span><strong>${records.posts.length}</strong></a>
@@ -863,9 +875,11 @@ function renderDashboard(identity, records, locale, c) {
       <aside class="mytu-next">
         <p>NEXT ACTION</p>
         <h3>${c.next}</h3>
-        <span>${stage === "profile" ? c.nextApplication : stage === "applicant" ? c.nextReview : c.nextExam}</span>
-        <a class="button button-secondary" href="admissions.html#entrance-exam">${c.goExam}</a>
-        <a class="button button-primary" href="admissions.html#gaokao">${c.goGaokao} <span aria-hidden="true">→</span></a>
+        <span>${stage === "profile" ? c.nextApplication : stage === "applicant" ? c.nextReview : stage === "admitted" ? c.nextOrientation : c.nextExam}</span>
+        ${stage === "admitted"
+          ? `<a class="button button-primary" href="welcome.html#welcome">${c.goOrientation} <span aria-hidden="true">→</span></a>`
+          : `<a class="button button-secondary" href="admissions.html#entrance-exam">${c.goExam}</a>
+             <a class="button button-primary" href="admissions.html#gaokao">${c.goGaokao} <span aria-hidden="true">→</span></a>`}
       </aside>
     </div>`;
 }

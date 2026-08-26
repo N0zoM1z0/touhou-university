@@ -20,6 +20,13 @@ import { alumniChapters, careerOpenings, careersLocalized } from "../data/career
 import { employmentJobs, employmentLocalized } from "../data/employment.js";
 import { phantasmCourses } from "../data/phantasm.js";
 import {
+  orientationFirstStops,
+  orientationLocalized,
+  orientationNoticePlans,
+  orientationSeason,
+  orientationStopSignals,
+} from "../data/orientation.js";
+import {
   dossiersForCharacter,
   dossiersForVersion,
   knowledgeCharacters,
@@ -56,6 +63,7 @@ import {
 } from "./employment-model.js";
 import { phantasmCommunityPosts } from "./phantasm-model.js";
 import { phantasmGateProgress, phantasmGateState } from "./phantasm-gate.js";
+import { orientationCommunityPosts, orientationDossiers } from "./orientation-model.js";
 
 const entry = (route, category, title, description, source, priority = 0) => ({
   route,
@@ -89,6 +97,23 @@ const domainManifests = [
     community: academicCommunityPosts,
     communityPriority: 30,
     changeEvents: ["tu:academicchange"],
+  },
+  {
+    id: "orientation",
+    search(locale) {
+      const filed = locale === "ja" ? "到着記録" : locale === "en" ? "Arrival file" : "到着記錄";
+      const open = locale === "ja" ? "手続中" : locale === "en" ? "Arrival in progress" : "報到辦理中";
+      return [
+        entry("welcome", "orientation", orientationLocalized(orientationSeason.title, locale), orientationLocalized(orientationSeason.premise, locale), orientationSeason, 84),
+        ...orientationStopSignals.map((signal) => entry("orientation-boundary", "orientation", orientationLocalized(signal.name, locale), orientationLocalized(signal.detail, locale), signal, 64)),
+        ...orientationNoticePlans.map((notice) => entry("orientation-boundary", "orientation", orientationLocalized(notice.name, locale), orientationLocalized(notice.detail, locale), notice, 62)),
+        ...orientationFirstStops.map((stop) => entry("orientation-first-bell", "orientation", orientationLocalized(stop.name, locale), orientationLocalized(stop.detail, locale), stop, 66)),
+        ...orientationDossiers().map((dossier) => entry(`orientation-dossier-${dossier.id}`, "orientation", `${dossier.status === "matriculated" ? filed : open} · ${dossier.id}`, orientationLocalized(orientationSeason.premise, locale), dossier, 88)),
+      ];
+    },
+    community: orientationCommunityPosts,
+    communityPriority: 67,
+    changeEvents: ["tu:orientationchange"],
   },
   {
     id: "research",

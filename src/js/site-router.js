@@ -4,6 +4,7 @@ const pageFiles = {
   home: "index.html",
   academics: "academics.html",
   admissions: "admissions.html",
+  orientation: "welcome.html",
   research: "research.html",
   ethics: "ethics.html",
   festival: "festival.html",
@@ -29,6 +30,7 @@ export function currentPage() {
 export function pageForRoute(route = "") {
   if (/^(?:academics|faculty(?:-|$)|school-)/.test(route)) return "academics";
   if (/^(?:admissions|entrance-exam|gaokao)$/.test(route)) return "admissions";
+  if (/^(?:welcome|orientation)(?:-|$)/.test(route)) return "orientation";
   if (/^(?:research|spellcard)(?:-|$)/.test(route)) return "research";
   if (/^ethics(?:-|$)/.test(route)) return "ethics";
   if (/^festival(?:-|$)/.test(route)) return "festival";
