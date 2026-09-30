@@ -15,7 +15,7 @@ export const schools = {
     tuition: l("82,000 円／學期", "82,000円／学期", "¥82,000 / term"),
     director: l("院長：八雲紫", "院長：八雲紫", "Dean: Yukari Yakumo"),
     overview: l(
-      "研究分隔、通行與異變何以成立。學生先學會判讀邊界的影響者，再練習把一場異變寫成能公開驗證的時間線；高年級須主持一次有終止條件的共同演習。",
+      "研究結界怎麼分隔空間、誰能通行，以及一場異變是怎麼開始的。學生先找出受邊界影響的人，再把事件整理成可查證的時間線；高年級還要主持一次有明確停止條件的共同演習。",
       "隔たり、通行、異変が成立する条件を研究する。まず境界の影響を受ける者を見極め、異変を検証可能な時系列へ記述する。上級生は終了条件付き共同演習を主宰する。",
       "Study how separation, passage, and incidents come into being. Students identify everyone affected by a boundary, build a verifiable incident timeline, and later run a joint exercise with explicit stop conditions.",
     ),
@@ -66,7 +66,7 @@ export const schools = {
     tuition: l("68,000 円／學期", "68,000円／学期", "¥68,000 / term"),
     director: l("院長：稗田阿求", "学部長：稗田阿求", "Dean: Hieda no Akyuu"),
     overview: l(
-      "把編年、口述、寺子屋教材與妖怪傳聞放在同一張工作桌上。學院不要求所有版本一致，而要求學生標明誰記得、何時記得，以及誰沒有留下文字。",
+      "編年、口述、寺子屋教材和妖怪傳聞會放在同一張工作桌上讀。不同版本可以互相矛盾；學生要標明誰在什麼時候留下了什麼，也要記得哪些人沒有留下文字。",
       "年代記、口述、寺子屋教材、妖怪の噂を同じ机で読む。全記録の一致ではなく、誰がいつ記憶し、誰が文字を残せなかったかを明示する。",
       "Chronicles, oral accounts, terakoya texts, and youkai rumours share one worktable. The accounts need not agree; students must identify who remembered what and when—and who left no written record.",
     ),
@@ -117,7 +117,7 @@ export const schools = {
     tuition: l("96,000 円／學期", "96,000円／学期", "¥96,000 / term"),
     director: l("院長：帕秋莉・諾蕾姬", "学部長：パチュリー・ノーレッジ", "Dean: Patchouli Knowledge"),
     overview: l(
-      "從七曜元素、魔導書閱讀到人偶與高輸出實驗，課程把「能不能發動」和「能不能安全重現」分開評分。沒有魔力的學生可選媒介設計與測量路線。",
+      "課程從七曜元素、魔導書閱讀一路做到人偶與高輸出實驗。術式能不能發動、別人能不能安全重現，會分開評分；沒有魔力的學生也能走媒介設計與測量路線。",
       "七曜元素、魔導書読解、人形、高出力実験を学び、「発動できる」と「安全に再現できる」を別々に評価する。魔力を持たない学生は媒体設計・計測経路を選べる。",
       "From Seven-Day elements to grimoires, dolls, and high-output trials, the school assesses successful activation separately from safe reproducibility. Students without magic can specialise in magical media and measurement.",
     ),
@@ -321,7 +321,7 @@ export const schools = {
     tuition: l("70,000 円／學期", "70,000円／学期", "¥70,000 / term"),
     director: l("院長：東風谷早苗", "学部長：東風谷早苗", "Dean: Sanae Kochiya"),
     overview: l(
-      "研究神社、寺院、信眾、無信仰者與公共制度如何共享同一條道路。課堂不評判哪一種信仰更強，而評估政策是否讓最小聲的人也能安全離席。",
+      "研究神社、寺院、信眾、無信仰者和公共制度要怎麼共用同一條路。課堂會看政策能不能讓立場最弱、聲音最小的人也安全離席，信仰火力不列入成績。",
       "神社、寺院、信徒、信仰を持たない者、公共制度が、同じ道を共有する方法を研究する。信仰の強さではなく、最も声の小さい者も安全に退席できる政策になっているかを評価する。",
       "Study how shrines, temples, believers, non-believers, and public systems share one road. Classes do not rank faith by strength; they ask whether the quietest participant can safely leave.",
     ),
