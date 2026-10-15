@@ -16,17 +16,17 @@ msgstr "UNIFIED EXAMINATION / 幻想郷統一高等試験"
 #. copy/title
 #: src/js/gaokao.js:21
 msgctxt "tree:copy#/title"
-msgid "NORMAL to EXTRA: four unified papers whose questions truly change."
-msgstr "NORMALからEXTRAまで、問題そのものが変わる四つの統一試験。"
+msgid "Gensokyo Unified Examination"
+msgstr "幻想郷統一高等試験"
 
 #. copy/lead
 #: src/js/gaokao.js:21
 msgctxt "tree:copy#/lead"
 msgid ""
-"Humanities and sciences each run at four difficulties. Higher papers combine "
-"notices, versions, lunar phases, route graphs, observations, and conflicting "
-"testimony."
-msgstr "文系・理系それぞれ四難度。語文、境界数学、幻想郷共通常識に加え、高難度では告知版、月相、経路網、観測表、対立証言を同時に扱います。"
+"Choose humanities or sciences, then a difficulty from NORMAL to EXTRA. Later "
+"papers ask you to compare more sources and follow longer chains of "
+"reasoning."
+msgstr "文系・理系と、NORMALからEXTRAまでの難易度を選べます。難しい問題では、複数の資料と長い推論を扱います。"
 
 #. copy/chooseDifficulty
 #: src/js/gaokao.js:21

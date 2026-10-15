@@ -576,8 +576,8 @@ msgstr ""
 #. fieldworkStations.0.0.premise
 #: src/data/fieldwork.js:248
 msgctxt "text:fieldworkStations.0.0.premise"
-msgid "Record how the boundary is used instead of calling every movement a failure."
-msgstr "Record how the boundary is used instead of calling every movement a failure."
+msgid "Track where the boundary moves and how people use the crossing."
+msgstr "Track where the boundary moves and how people use the crossing."
 
 #. fieldworkStations.0.0.access
 #: src/data/fieldwork.js:249
@@ -682,8 +682,8 @@ msgstr ""
 #. fieldworkStations.1.0.premise
 #: src/data/fieldwork.js:267
 msgctxt "text:fieldworkStations.1.0.premise"
-msgid "One event may have village, teacher, youkai, and later-chronicle versions."
-msgstr "One event may have village, teacher, youkai, and later-chronicle versions."
+msgid "Compare how villagers, teachers, and youkai remember the same event."
+msgstr "Compare how villagers, teachers, and youkai remember the same event."
 
 #. fieldworkStations.1.0.access
 #: src/data/fieldwork.js:268
@@ -792,8 +792,8 @@ msgstr ""
 #. fieldworkStations.2.0.premise
 #: src/data/fieldwork.js:286
 msgctxt "text:fieldworkStations.2.0.premise"
-msgid "Preserving what each version says matters more than choosing a convenient yesterday."
-msgstr "Preserving what each version says matters more than choosing a convenient yesterday."
+msgid "Date each account and keep its disagreements with earlier versions."
+msgstr "Date each account and keep its disagreements with earlier versions."
 
 #. fieldworkStations.2.0.access
 #: src/data/fieldwork.js:287
@@ -902,8 +902,8 @@ msgstr "Identify name and purpose, test actual operation, and retain discrepanci
 #. fieldworkStations.3.0.premise
 #: src/data/fieldwork.js:305
 msgctxt "text:fieldworkStations.3.0.premise"
-msgid "Knowing purpose does not reveal operation—or willingness."
-msgstr "Knowing purpose does not reveal operation—or willingness."
+msgid "Compare an object's stated purpose, actual operation, and willingness to cooperate."
+msgstr "Compare an object's stated purpose, actual operation, and willingness to cooperate."
 
 #. fieldworkStations.3.0.access
 #: src/data/fieldwork.js:306
@@ -1008,8 +1008,8 @@ msgstr "Measure fog, ice, lanterns, and fairy activity, including plot renamings
 #. fieldworkStations.4.0.premise
 #: src/data/fieldwork.js:324
 msgctxt "text:fieldworkStations.4.0.premise"
-msgid "Fairies are not background noise; they often co-author the conditions."
-msgstr "Fairies are not background noise; they often co-author the conditions."
+msgid "Record the fairies' changes to your test site as part of the experiment."
+msgstr "Record the fairies' changes to your test site as part of the experiment."
 
 #. fieldworkStations.4.0.access
 #: src/data/fieldwork.js:325
@@ -1118,8 +1118,8 @@ msgstr ""
 #. fieldworkStations.5.0.premise
 #: src/data/fieldwork.js:343
 msgctxt "text:fieldworkStations.5.0.premise"
-msgid "Everything is punctual; therefore timestamps alone may not prove sequence."
-msgstr "Everything is punctual; therefore timestamps alone may not prove sequence."
+msgid "Reconstruct the sequence using duty logs and witnesses alongside the mansion clocks."
+msgstr "Reconstruct the sequence using duty logs and witnesses alongside the mansion clocks."
 
 #. fieldworkStations.5.0.access
 #: src/data/fieldwork.js:344
@@ -1236,8 +1236,8 @@ msgstr ""
 #. fieldworkStations.6.0.premise
 #: src/data/fieldwork.js:362
 msgctxt "text:fieldworkStations.6.0.premise"
-msgid "Reproducible magic starts with provenance; Marisa's definition requires an annex."
-msgstr "Reproducible magic starts with provenance; Marisa's definition requires an annex."
+msgid "Log where each material came from. Ask Marisa to be more specific than “the forest”."
+msgstr "Log where each material came from. Ask Marisa to be more specific than “the forest”."
 
 #. fieldworkStations.6.0.access
 #: src/data/fieldwork.js:363
@@ -1354,8 +1354,8 @@ msgstr ""
 #. fieldworkStations.7.0.premise
 #: src/data/fieldwork.js:381
 msgctxt "text:fieldworkStations.7.0.premise"
-msgid "A completed job does not prove who performed each step."
-msgstr "A completed job does not prove who performed each step."
+msgid "Follow each step from the operator's instruction to the doll's response."
+msgstr "Follow each step from the operator's instruction to the doll's response."
 
 #. fieldworkStations.7.0.access
 #: src/data/fieldwork.js:382
@@ -1456,8 +1456,8 @@ msgstr "Measure bloom, trampling, pollen, and observer disturbance beyond merely
 #. fieldworkStations.8.0.premise
 #: src/data/fieldwork.js:400
 msgctxt "text:fieldworkStations.8.0.premise"
-msgid "Silence is not non-disturbance; shadows, scent, and frightened walking remain."
-msgstr "Silence is not non-disturbance; shadows, scent, and frightened walking remain."
+msgid "Check how your shadow, scent, and movement affect the flowers."
+msgstr "Check how your shadow, scent, and movement affect the flowers."
 
 #. fieldworkStations.8.0.access
 #: src/data/fieldwork.js:401
@@ -1562,8 +1562,8 @@ msgstr "Record exposure, symptoms, and conditions while separating presence, dos
 #. fieldworkStations.9.0.premise
 #: src/data/fieldwork.js:419
 msgctxt "text:fieldworkStations.9.0.premise"
-msgid "Plants are not medicine bottles, and Medicine is not their instruction leaflet."
-msgstr "Plants are not medicine bottles, and Medicine is not their instruction leaflet."
+msgid "Observe the plants on their own terms. Ask Medicine before handling anything."
+msgstr "Observe the plants on their own terms. Ask Medicine before handling anything."
 
 #. fieldworkStations.9.0.access
 #: src/data/fieldwork.js:420
@@ -1668,12 +1668,8 @@ msgstr ""
 #. fieldworkStations.10.0.premise
 #: src/data/fieldwork.js:438
 msgctxt "text:fieldworkStations.10.0.premise"
-msgid ""
-"Kitchen, performance, and road share one stall lamp and cannot be treated as "
-"independent."
-msgstr ""
-"Kitchen, performance, and road share one stall lamp and cannot be treated as "
-"independent."
+msgid "Track how supper, singing, and passing travellers affect one another."
+msgstr "Track how supper, singing, and passing travellers affect one another."
 
 #. fieldworkStations.10.0.access
 #: src/data/fieldwork.js:439
@@ -1782,8 +1778,8 @@ msgstr ""
 #. fieldworkStations.11.0.premise
 #: src/data/fieldwork.js:457
 msgctxt "text:fieldworkStations.11.0.premise"
-msgid "Speed is a research subject, not an exemption from verification."
-msgstr "Speed is a research subject, not an exemption from verification."
+msgid "Measure the time between an event, the first report, and its correction."
+msgstr "Measure the time between an event, the first report, and its correction."
 
 #. fieldworkStations.11.0.access
 #: src/data/fieldwork.js:458
@@ -1892,12 +1888,8 @@ msgstr ""
 #. fieldworkStations.12.0.premise
 #: src/data/fieldwork.js:476
 msgctxt "text:fieldworkStations.12.0.premise"
-msgid ""
-"Running does not mean diagram-compliant, and a correct diagram may not be "
-"the one the machine reads today."
-msgstr ""
-"Running does not mean diagram-compliant, and a correct diagram may not be "
-"the one the machine reads today."
+msgid "Compare the running machine with today's drawing and repair log."
+msgstr "Compare the running machine with today's drawing and repair log."
 
 #. fieldworkStations.12.0.access
 #: src/data/fieldwork.js:477
@@ -2006,8 +1998,8 @@ msgstr ""
 #. fieldworkStations.13.0.premise
 #: src/data/fieldwork.js:495
 msgctxt "text:fieldworkStations.13.0.premise"
-msgid "Numbers are not faith; they are Kanako's annex for noticing neglect."
-msgstr "Numbers are not faith; they are Kanako's annex for noticing neglect."
+msgid "Follow water, power, and maintenance costs through Kanako's infrastructure plans."
+msgstr "Follow water, power, and maintenance costs through Kanako's infrastructure plans."
 
 #. fieldworkStations.13.0.access
 #: src/data/fieldwork.js:496
@@ -2112,8 +2104,8 @@ msgstr ""
 #. fieldworkStations.14.0.premise
 #: src/data/fieldwork.js:514
 msgctxt "text:fieldworkStations.14.0.premise"
-msgid "Measurement does not cancel respect, and respect does not replace a water reading."
-msgstr "Measurement does not cancel respect, and respect does not replace a water reading."
+msgid "Agree on an observation spot, then record the pond's water level and worship routes."
+msgstr "Agree on an observation spot, then record the pond's water level and worship routes."
 
 #. fieldworkStations.14.0.access
 #: src/data/fieldwork.js:515
@@ -2218,12 +2210,8 @@ msgstr ""
 #. fieldworkStations.15.0.premise
 #: src/data/fieldwork.js:533
 msgctxt "text:fieldworkStations.15.0.premise"
-msgid ""
-"Welcome does not surrender a temple to convenience; compassion must still "
-"identify responsibility."
-msgstr ""
-"Welcome does not surrender a temple to convenience; compassion must still "
-"identify responsibility."
+msgid "Record what visitors request, what the temple can offer, and who takes responsibility."
+msgstr "Record what visitors request, what the temple can offer, and who takes responsibility."
 
 #. fieldworkStations.15.0.access
 #: src/data/fieldwork.js:534
@@ -2328,8 +2316,8 @@ msgstr ""
 #. fieldworkStations.16.0.premise
 #: src/data/fieldwork.js:552
 msgctxt "text:fieldworkStations.16.0.premise"
-msgid "Hearing a desire accurately does not guarantee understanding its holder."
-msgstr "Hearing a desire accurately does not guarantee understanding its holder."
+msgid "Ask speakers to check how their wishes were summarised."
+msgstr "Ask speakers to check how their wishes were summarised."
 
 #. fieldworkStations.16.0.access
 #: src/data/fieldwork.js:553
@@ -2434,8 +2422,8 @@ msgstr ""
 #. fieldworkStations.17.0.premise
 #: src/data/fieldwork.js:571
 msgctxt "text:fieldworkStations.17.0.premise"
-msgid "Treatability is not research permission, and sample size does not repair a wrong dose."
-msgstr "Treatability is not research permission, and sample size does not repair a wrong dose."
+msgid "Check dose and consent for each patient before using clinical records in research."
+msgstr "Check dose and consent for each patient before using clinical records in research."
 
 #. fieldworkStations.17.0.access
 #: src/data/fieldwork.js:572
@@ -2548,8 +2536,12 @@ msgstr ""
 #. fieldworkStations.18.0.premise
 #: src/data/fieldwork.js:590
 msgctxt "text:fieldworkStations.18.0.premise"
-msgid "An immortal's return does not prove route safety, and lantern four may not be fourth."
-msgstr "An immortal's return does not prove route safety, and lantern four may not be fourth."
+msgid ""
+"Test the route with travellers who can get lost. Check the fourth lantern's "
+"position each time."
+msgstr ""
+"Test the route with travellers who can get lost. Check the fourth lantern's "
+"position each time."
 
 #. fieldworkStations.18.0.access
 #: src/data/fieldwork.js:591
@@ -2662,8 +2654,8 @@ msgstr ""
 #. fieldworkStations.19.0.premise
 #: src/data/fieldwork.js:609
 msgctxt "text:fieldworkStations.19.0.premise"
-msgid "Person, half-human, half-phantom, and lunch serving are not naturally equal units."
-msgstr "Person, half-human, half-phantom, and lunch serving are not naturally equal units."
+msgid "Choose a counting unit before recording people, half-phantoms, or lunch portions."
+msgstr "Choose a counting unit before recording people, half-phantoms, or lunch portions."
 
 #. fieldworkStations.19.0.access
 #: src/data/fieldwork.js:610
@@ -2776,8 +2768,8 @@ msgstr ""
 #. fieldworkStations.20.0.premise
 #: src/data/fieldwork.js:628
 msgctxt "text:fieldworkStations.20.0.premise"
-msgid "A shorter river does not automatically shorten responsibility or unfinished words."
-msgstr "A shorter river does not automatically shorten responsibility or unfinished words."
+msgid "Keep a record of interrupted interviews when the river shortens."
+msgstr "Keep a record of interrupted interviews when the river shortens."
 
 #. fieldworkStations.20.0.access
 #: src/data/fieldwork.js:629
@@ -2882,8 +2874,8 @@ msgstr ""
 #. fieldworkStations.21.0.premise
 #: src/data/fieldwork.js:647
 msgctxt "text:fieldworkStations.21.0.premise"
-msgid "Losing honestly does not waive repair, and strength cannot consent for others."
-msgstr "Losing honestly does not waive repair, and strength cannot consent for others."
+msgid "Agree on participation and repairs before the contest starts."
+msgstr "Agree on participation and repairs before the contest starts."
 
 #. fieldworkStations.21.0.access
 #: src/data/fieldwork.js:648
@@ -2992,8 +2984,8 @@ msgstr ""
 #. fieldworkStations.22.0.premise
 #: src/data/fieldwork.js:666
 msgctxt "text:fieldworkStations.22.0.premise"
-msgid "Privacy is not pretending thoughts do not exist; it is deciding what they become."
-msgstr "Privacy is not pretending thoughts do not exist; it is deciding what they become."
+msgid "Ask separately about reading, analysing, recording, and publishing someone's thoughts."
+msgstr "Ask separately about reading, analysing, recording, and publishing someone's thoughts."
 
 #. fieldworkStations.22.0.access
 #: src/data/fieldwork.js:667
@@ -3110,8 +3102,8 @@ msgstr ""
 #. fieldworkStations.23.0.premise
 #: src/data/fieldwork.js:685
 msgctxt "text:fieldworkStations.23.0.premise"
-msgid "Brightness is not calibration, and stable running is not agreement over interpretation."
-msgstr "Brightness is not calibration, and stable running is not agreement over interpretation."
+msgid "Check the instrument calibration, cooling logs, and who can order a shutdown."
+msgstr "Check the instrument calibration, cooling logs, and who can order a shutdown."
 
 #. fieldworkStations.23.0.access
 #: src/data/fieldwork.js:686

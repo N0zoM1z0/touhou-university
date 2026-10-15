@@ -885,9 +885,9 @@ msgstr "信じないが削除できず、出典も検索可能にする記録を
 #: src/data/employment.js:340
 msgctxt "text:employmentJobs.0.15.0.duty"
 msgid ""
-"Tie red thread, distinguish first-parent chronicle from feature merges, and "
-"file Aya's extra beside evidence rather than inside it."
-msgstr "赤糸結び、first-parent 正史と機能マージを区別、文の号外を証拠の横に置き中へ混ぜない。"
+"Link the chronicle to its source revisions, track what each merge brought "
+"in, and file Aya's extra beside the evidence."
+msgstr "大学史と元の改訂を結び、取り込まれた変更を確かめ、文の号外を証拠の隣に綴じる。"
 
 #. employmentJobs.0.15.0.pay
 #: src/data/employment.js:341
@@ -1502,8 +1502,8 @@ msgstr "改名・同名妖精・自ら応募した願書を別計上。"
 #. employmentCountBases.0.employer.title
 #: src/data/employment.js:518
 msgctxt "text:employmentCountBases.0.employer.title"
-msgid "By employer claim"
-msgstr "雇主申告単位"
+msgid "Employer reports"
+msgstr "雇用主の申告"
 
 #. employmentCountBases.0.employer.note
 #: src/data/employment.js:518

@@ -16,17 +16,16 @@ msgstr "FIRST BELL / 第一鐘・新生到着週"
 #. copy/title
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/title"
-msgid "First, arrive. ‘Ordinary student’ is not a field on this form."
-msgstr "先來報到。至於「普通學生」——本校沒有這個欄位。"
+msgid "Welcome to First Bell."
+msgstr "第一鐘報到"
 
 #. copy/lead
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/lead"
 msgid ""
-"Bring the admission review, confirm which gate you can use and which stop "
-"signal you can recognise, then choose one real first destination. The "
-"university keeps your choice—and every condition that did not disappear."
-msgstr "帶著錄取評議來，確認你走得進哪一扇門、認得哪一種停止信號，再選一個真正想去的第一站。校方會保存你的選擇，也保存沒有消失的條件。"
+"Check your admission review, plan a route to your school, and choose a stop "
+"signal and first destination."
+msgstr "確認錄取結果，再選擇到校路線、停止信號與第一站。"
 
 #. copy/office
 #: src/js/orientation.js:35
@@ -68,9 +67,9 @@ msgstr "公開空白卷"
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/publicLead"
 msgid ""
-"Anyone may read the arrival rules. Only a person with a formal admission "
-"review on this device can place a file in the campus record."
-msgstr "任何人都可以先閱讀報到規則；只有這台裝置上已有正式錄取評議的人，才能把它寫進校園履歷。"
+"Read the arrival guide here. To open a personal file, you need a formal "
+"admission result saved in this browser."
+msgstr "任何人都可閱讀報到指南。開立個人報到卷，則需要這個瀏覽器中已存的正式錄取結果。"
 
 #. copy/status
 #: src/js/orientation.js:35
@@ -82,48 +81,41 @@ msgstr "目前檔案狀態"
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/identityMissing"
 msgid ""
-"No My TU identity exists yet. Creating one will not alter earlier "
-"applications or examination records."
-msgstr "尚未建立 My TU 身分。先留下本機身分，既有申請和試卷不會被改動。"
+"Create a My TU identity to begin. Your existing applications and exam "
+"records will be kept."
+msgstr "請先建立My TU身分，既有申請與考試紀錄會保留。"
 
 #. copy/applicationMissing
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/applicationMissing"
-msgid ""
-"An on-device identity exists, but no application has been submitted. The "
-"Arrival Office will not treat a blank form as an admission letter."
-msgstr "已有本機身分，尚無已提交申請。報到室不會把空白願書當成錄取通知。"
+msgid "Submit an application, then open its faculty review in My TU."
+msgstr "先提交申請，再到My TU開啟教師評議。"
 
 #. copy/reviewMissing
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/reviewMissing"
-msgid ""
-"The application arrived, but the joint faculty review has not issued a "
-"result. Aya has a headline ready; this time she must wait."
-msgstr "申請已送達，教授聯合審查尚未留下結果。文已經想好標題，但這次必須等。"
+msgid "Your application is saved. Open My TU to request the faculty review."
+msgstr "申請已保存，請到My TU申請教師評議。"
 
 #. copy/conditional
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/conditional"
 msgid ""
-"This is a conditional admission. You may read the rules, but First Bell "
-"waits for the formally admitted edition. The conditions remain visible."
-msgstr "目前是有條件錄取。你可以讀完報到規則，但第一鐘要等正式錄取版本；原條件不會被藏起來。"
+"Your admission is conditional. Read the conditions in My TU; First Bell "
+"opens after formal admission."
+msgstr "目前為條件錄取，請到My TU查看條件。正式錄取後即可開始第一鐘手續。"
 
 #. copy/notAdmitted
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/notAdmitted"
-msgid ""
-"The current review still requires a supplement or interview. The office "
-"keeps a blank file; it will not rewrite an applicant as a newcomer in "
-"advance."
-msgstr "目前評議仍要求補件或面試。報到室會保留空白卷，不會提前把申請生改寫成新生。"
+msgid "Your review requests more information or an interview. Check My TU for the next step."
+msgstr "評議要求補件或面試，請到My TU查看下一步。"
 
 #. copy/admitted
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/admitted"
-msgid "The formal admission edition is verified. Your on-device arrival file may now be opened."
-msgstr "正式錄取版本已核對，可以開封本機報到卷。"
+msgid "Your formal admission is confirmed. You can open your arrival file."
+msgstr "已確認正式錄取，可以開立報到卷。"
 
 #. copy/goMyTu
 #: src/js/orientation.js:35
@@ -153,35 +145,33 @@ msgstr "開封我的報到卷"
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/privacy"
 msgid ""
-"Names, application content, and needs remain in this browser. The BBS "
-"receives only a nameless institutional projection."
-msgstr "通稱、申請內容與需求只留在這個瀏覽器；BBS 只看得到不含姓名的校務投影。"
+"Your name, application, and needs stay in this browser. BBS updates show "
+"arrival counts without names."
+msgstr "姓名、申請與需求保存在這個瀏覽器。BBS到校消息只列人數，不含姓名。"
 
 #. copy/threeThings
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/threeThings"
-msgid "Three things the office will not waive"
-msgstr "報到室只堅持三件事"
+msgid "Before you arrive"
+msgstr "到校前要確認的事"
 
 #. copy/threeLead
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/threeLead"
-msgid "This is not a stamp hunt. Every field must still help when a route actually changes."
-msgstr "不是集章競賽。每一欄都要在真的需要改道時派得上用場。"
+msgid "Keep your admission review, route, and first destination ready."
+msgstr "準備好錄取評議、路線與第一站。"
 
 #. copy/ruleOne
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/ruleOne"
-msgid "Carry the right edition"
-msgstr "帶對版本"
+msgid "Check your admission review"
+msgstr "核對錄取評議"
 
 #. copy/ruleOneBody
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/ruleOneBody"
-msgid ""
-"Admission, conditions, and minority opinions remain separate. A welcome "
-"stamp cannot cover them."
-msgstr "錄取、條件與少數意見分開保存；沒有一枚「歡迎」印章能把它們蓋掉。"
+msgid "Read the decision, conditions, and any dissenting opinions."
+msgstr "閱讀判定、條件與異議。"
 
 #. copy/ruleTwo
 #: src/js/orientation.js:35
@@ -204,8 +194,8 @@ msgstr "選第一站"
 #. copy/ruleThreeBody
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/ruleThreeBody"
-msgid "Completion awards no generic badge; it opens a real route that continues into campus."
-msgstr "完成報到不是得到徽章，而是得到一條真的能繼續走下去的校園路線。"
+msgid "Choose a course, a room, a club, or the festival as your first stop."
+msgstr "從課程、宿舍、社團或祭典中，選一個第一站。"
 
 #. copy/dossier
 #: src/js/orientation.js:35
@@ -216,8 +206,8 @@ msgstr "ARRIVAL FILE / 本機報到卷"
 #. copy/dossierTitle
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/dossierTitle"
-msgid "This file preserves your choices; it does not rewrite any office into agreement."
-msgstr "這份卷宗只替你保存選擇，不替任何辦公室改口。"
+msgid "Your arrival choices"
+msgstr "你的報到安排"
 
 #. copy/student
 #: src/js/orientation.js:35
@@ -258,8 +248,8 @@ msgstr "你帶進校門的問題"
 #. copy/noQuestion
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/noQuestion"
-msgid "No question text is available here; the source application remains intact."
-msgstr "申請卷沒有可顯示的問題文字；原卷仍保留。"
+msgid "No question is shown here. Check the original application in My TU."
+msgstr "此處未列問題內容，請到My TU查看原申請。"
 
 #. copy/admittedLabel
 #: src/js/orientation.js:35
@@ -276,16 +266,14 @@ msgstr "01 / 錄取版本"
 #. copy/stepOneTitle
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/stepOneTitle"
-msgid "First confirm which edition of you the university admitted."
-msgstr "先確認校方准備迎接的是哪一個你。"
+msgid "Check the admission result and its conditions."
+msgstr "核對錄取結果與條件。"
 
 #. copy/stepOneBody
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/stepOneBody"
-msgid ""
-"Akyuu cites the source application and review. She does not copy them into a "
-"more obedient second record."
-msgstr "阿求只引用原申請與評議編號，不把它們抄成一份更聽話的新資料。"
+msgid "Use the application and review references to reopen the original documents in My TU."
+msgstr "透過申請與評議編號，可在My TU重開原始文件。"
 
 #. copy/stepTwo
 #: src/js/orientation.js:35
@@ -303,9 +291,9 @@ msgstr "從博麗門走到你的學院。"
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/stepTwoBody"
 msgid ""
-"Choose a mode. Duty incidents, the academic calendar, and a live festival "
-"may make the usual shortest route unavailable today."
-msgstr "選擇抵達方式；當值事件、校曆與正在運行的祭典可能讓最快的路今天不成立。"
+"Choose how to travel. The route accounts for today's closures, calendar, and "
+"festival traffic."
+msgstr "選擇交通方式，路線會考慮今天的封路、行事曆與祭典交通。"
 
 #. copy/chooseMode
 #: src/js/orientation.js:35
@@ -373,9 +361,9 @@ msgstr "選你本人認得的停止信號。"
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/stepThreeBody"
 msgid ""
-"The faster a notice travels, the more easily the wrong edition arrives. Stop "
-"signal and detour notice are confirmed separately."
-msgstr "再快的通知也可能送錯版本；因此停止信號與改道通知分開確認。"
+"Choose how you will stop or leave, then how you will check detour notices. "
+"Confirm both separately."
+msgstr "選擇停止或離開的方式，以及確認改道通知的方法，再分別確認。"
 
 #. copy/signal
 #: src/js/orientation.js:35
@@ -416,10 +404,8 @@ msgstr "第一鐘響後，你先往哪裡走？"
 #. copy/stepFourBody
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/stepFourBody"
-msgid ""
-"This is not a personality test. It only chooses which real door the arrival "
-"file opens next."
-msgstr "這不是性格測驗。選擇只決定報到卷替你打開哪一扇真正存在的門。"
+msgid "Your choice opens the relevant course, housing, club, or festival page."
+msgstr "所選目的地會開啟相應的課程、宿舍、社團或祭典頁面。"
 
 #. copy/firstStop
 #: src/js/orientation.js:35
@@ -466,16 +452,16 @@ msgstr "MATRICULATION FILED / 到着記錄成立"
 #. copy/completeTitle
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/completeTitle"
-msgid "The gates are no more singular. You know which one to use."
-msgstr "門沒有變得比較唯一；你已經知道該走哪一扇。"
+msgid "You're ready for your first stop."
+msgstr "可以前往第一站了。"
 
 #. copy/completeLead
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/completeLead"
 msgid ""
-"The arrival file entered the My TU campus ledger. Your name did not go to "
-"the BBS, and welcome copy did not dilute the admission conditions."
-msgstr "報到卷已進入 My TU 校園事件帳本。姓名沒有送上 BBS，原錄取條件也沒有被歡迎詞沖淡。"
+"Your arrival is recorded in My TU. You can print the slip or continue to "
+"your chosen destination."
+msgstr "報到已記入My TU，可列印回條或前往所選目的地。"
 
 #. copy/firstDestination
 #: src/js/orientation.js:35

@@ -16,27 +16,25 @@ msgstr "新生到着室"
 #. copies/opened
 #: src/js/orientation-model.js:231
 msgctxt "tree:copies#/opened"
-msgid "A new arrival file opens; Hakurei Gate still rejects ‘sent’ as proof of ‘arrived’"
-msgstr "新生報到卷已開封；博麗門仍不承認「已寄出」等於「已到達」"
+msgid "Arrival file opened; Hakurei Gate awaits the student"
+msgstr "報到卷已開立，博麗門等候本人到校"
 
 #. copies/openedBody
 #: src/js/orientation-model.js:231
 msgctxt "tree:copies#/openedBody"
 msgid ""
-"The file separately checks the entry route, a stop signal the student can "
-"recognise, and the first destination. Names do not enter the public board."
-msgstr "報到卷會另外核對入門路線、本人能辨認的停止信號與第一站；姓名不進入公開看板。"
+"The file lists the route, stop signal, and first destination. Public updates "
+"show counts without names."
+msgstr "卷內列出路線、停止信號與第一站，公開消息只顯示人數。"
 
 #. copies/complete
 #: src/js/orientation-model.js:231
 msgctxt "tree:copies#/complete"
-msgid "First Bell gains one arrival record; Akyuu refuses to publish the newcomer’s name"
-msgstr "第一鐘新增一份到着記錄；阿求拒絕公開新生通稱"
+msgid "First Bell records one more arrival"
+msgstr "第一鐘新增一筆到校紀錄"
 
 #. copies/completeBody
 #: src/js/orientation-model.js:231
 msgctxt "tree:copies#/completeBody"
-msgid ""
-"Route and way back remain separate fields. Bunbunmaru receives a count, not "
-"the on-device student record."
-msgstr "路線與退路已分欄封存。文文。新聞取得總數，沒有取得本機學籍內容。"
+msgid "The arrival route and way back are on file. Bunbunmaru receives an anonymous count."
+msgstr "到校路線與退路已存卷，文文。新聞收到匿名人數統計。"

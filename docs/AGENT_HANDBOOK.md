@@ -114,7 +114,8 @@ time. Run `npm run check:knowledge` when extending it.
 
 ## 4. Three-language content
 
-- Supported locales are `zh-Hant`, `ja`, and `en`.
+- English (`en`) is the default; controls list English, Japanese (`ja`), then
+  Traditional Chinese (`zh-Hant`). Preserve any valid saved preference.
 - Stable shell/control text uses explicit keys in `locales/*/shell/*.po` plus
   readable Traditional Chinese source fallbacks and `data-i18n` attributes.
 - Domain records resolve `{ "zh-Hant", ja, en }` values from their owning PO
@@ -122,7 +123,8 @@ time. Run `npm run check:knowledge` when extending it.
 - Mixed-content text uses an `<!-- i18n:key -->` marker when replacing a whole
   element would destroy its children. No source-text lookup translates visitor
   application/BBS prose.
-- English is the PO source reference; the public default remains `zh-Hant`.
+- English is both the PO source reference and the public default. Initial HTML,
+  titles and descriptions must match the default before JavaScript runs.
   After changing English `msgstr`, run `npm run i18n:sync` and review the fuzzy
   translations it preserves. Builds reject pending, empty or mismatched entries.
 - Translate labels, validation, empty/error states, ARIA text, placeholders,
@@ -130,6 +132,17 @@ time. Run `npm run check:knowledge` when extending it.
 
 Run `npm run check:i18n`. A translation is incomplete if the happy path is
 translated but error, saved-record or mobile text is not.
+
+### Editorial register
+
+Write from the visitor's next action. Prefer a short instruction, condition or
+consequence to an abstract promise. Cut repeated explanations and defensive
+comparisons such as “not a personality test” or “not a generic badge”. Preserve
+necessary limits, consent, data scope and exam reasoning. Each language should
+read naturally in its own syntax. Put character-specific humour in speech,
+notices and cases; keep controls, loading text and errors easy to understand.
+Faculty retain their motives and disagreements. See
+[copy guide](EDITORIAL_STYLE.md) for examples and review questions.
 
 ## 5. Interaction, routes and rendering
 

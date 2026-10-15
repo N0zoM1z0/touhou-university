@@ -16,19 +16,16 @@ msgstr "INCIDENT RESPONSE / 学内事案連絡室"
 #. copy/title
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/title"
-msgid "Do not declare an incident just yet."
-msgstr "異変と発表するのは、まだ早い。"
+msgid "What happened on campus?"
+msgstr "学内で何が起きた？"
 
 #. copy/lead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/lead"
 msgid ""
-"Collect testimony, open the version history, choose a reversible response, "
-"then let the research design decide what is actually known. The campus wire "
-"will be restrained after closure; the BBS usually will not."
-msgstr ""
-"証言を集め、版ごとの差異を洗い出し、撤回可能な措置を選ぶ。そのうえで、研究設計に照らして「何が分かったと言えるか」を判断する。終結後の大学速報は控えめだ"
-"が、BBS はたいていそうではない。"
+"Read testimony and evidence, choose an initial response, and test an "
+"explanation. The closing report will reach the campus news desk and BBS."
+msgstr "証言と物証を読み、初動を選び、仮説を検証します。結案報告は学内報道とBBSにも届きます。"
 
 #. copy/live
 #: src/js/incidents.js:33
@@ -100,9 +97,9 @@ msgstr "物証・記録"
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/evidenceLead"
 msgid ""
-"Select an item to mark it reviewed. Reliability describes the material "
-"itself, not whether its conclusion is true."
-msgstr "押すと確認済みになります。信頼度は結論の正しさではなく、資料そのものの安定性を示します。"
+"Select an item to mark it reviewed. The reliability label describes its "
+"source and condition."
+msgstr "物証を選ぶと確認済みになります。信頼性の表示は、出所と資料の状態を示します。"
 
 #. copy/testimony
 #: src/js/incidents.js:33
@@ -113,11 +110,8 @@ msgstr "証言と厄介事"
 #. copy/testimonyLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/testimonyLead"
-msgid ""
-"A witness may also maintain the equipment, control the first headline, or be "
-"part of the incident. That is a position to record, not a reason to erase "
-"them."
-msgstr "証人は保守担当、情報源、または事案の一部かもしれません。排除理由ではなく、位置を記録する理由です。"
+msgid "Check each witness's role and interests, including any part they played in the incident."
+msgstr "証人の役割、利害、異変への関わりも確認してください。"
 
 #. copy/reviewed
 #: src/js/incidents.js:33
@@ -258,17 +252,17 @@ msgstr "METHODS LAB / 識別可能性は飾りではない"
 #. copy/labTitle
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/labTitle"
-msgid "Make the elegant conclusion capable of failing."
-msgstr "きれいな結論を、失敗できる形へ。"
+msgid "Test your explanation."
+msgstr "仮説を確かめる。"
 
 #. copy/labLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/labLead"
 msgid ""
-"A larger sample narrows chance error. It does not repair confounding, drift, "
-"missing records, or kappa firmware replaced yesterday. Responses also change "
-"the field, so they enter the model too."
-msgstr "標本数は偶然誤差を縮めますが、交絡、ドリフト、欠測、昨日交換された河童ファームウェアは直しません。措置が現場を変える効果もモデルへ入れます。"
+"Set the sample, controls, and measurements. Check for confounding, "
+"instrument drift, and missing records; a larger sample alone will leave "
+"those problems in place."
+msgstr "標本、対照、測定方法を設定してください。交絡、機器のずれ、記録の欠落も確認します。これらは人数を増やすだけでは解消しません。"
 
 #. copy/activeCase
 #: src/js/incidents.js:33
@@ -401,10 +395,8 @@ msgstr "現場に残る問題"
 #. copy/noHazards
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/noHazards"
-msgid ""
-"Major structural interference is low. This does not mean Gensokyo has "
-"suddenly become orderly."
-msgstr "主要な構造的干渉は低下。ただし幻想郷が急に規則的になったわけではありません。"
+msgid "Low structural interference in this setup."
+msgstr "この設定では構造上の干渉は少なめです。"
 
 #. copy/verdicts/supports
 #: src/js/incidents.js:33
@@ -445,28 +437,23 @@ msgstr "赤糸席へ：支持されない異説を保存"
 #. copy/retentionTitle
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/retentionTitle"
-msgid "This is not confirmation. Close it anyway?"
-msgstr "立証ではありません。それでも終結扱いにしますか？"
+msgid "File a contested closure?"
+msgstr "異論付きで結案しますか？"
 
 #. copy/retentionLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/retentionLead"
 msgid ""
-"Ordinary review rejected this inference, but the duty reviewer thinks its "
-"failure, controversy, or headline value deserves a record. If you insist, "
-"the university will bind it as a contested closure and release linked "
-"campus-wire and BBS reactions."
-msgstr ""
-"通常査読はこの推論を退けました。しかし当番査読者は、誤り方・論争・見出し価値を残す意味があると考えています。続行すると「係争終結」として赤糸で綴じ、大学"
-"速報と BBS にも連動します。"
+"The study did not establish this claim. You can retain it with the "
+"reviewer's reason; the contested closure will appear in campus news and BBS "
+"reactions."
+msgstr "研究ではこの主張を確認できませんでした。審査員の理由を添えて異論付きの結案として残すと、学内報道やBBSにも反映されます。"
 
 #. copy/retentionWarning
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/retentionWarning"
-msgid ""
-"The red-thread file permanently keeps the original result and a NOT "
-"ESTABLISHED mark. A large headline cannot launder it into confirmation."
-msgstr "赤糸記録には元の実験結果と「未支持」が恒久表示されます。大見出しで立証済みに変えることはできません。"
+msgid "The saved file keeps the study result and a NOT ESTABLISHED label."
+msgstr "保存後も、研究結果と「未立証」の表示が残ります。"
 
 #. copy/originalResult
 #: src/js/incidents.js:33
@@ -586,17 +573,14 @@ msgstr "CASE ARCHIVE / 終結しても反対は終わらない"
 #. copy/archiveTitle
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/archiveTitle"
-msgid "After a finding enters the campus system."
-msgstr "結論が学務系へ入った後。"
+msgid "Case archive"
+msgstr "結案記録"
 
 #. copy/archiveLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/archiveLead"
-msgid ""
-"Closures, experiment slips, and incident-triggered BBS threads stay on this "
-"device. There is one official record and usually three dissatisfied "
-"headlines."
-msgstr "終結記録、実験票、事案連動 BBS はこの端末に保存。公式記録は一件、不満な見出しは通常三件です。"
+msgid "Reopen reports, experiment records, and the BBS threads they prompted."
+msgstr "結案報告、実験記録、それを受けたBBSの投稿を読み返せます。"
 
 #. copy/resolutionsTitle
 #: src/js/incidents.js:33

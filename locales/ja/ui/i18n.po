@@ -8,13 +8,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. university
-#: src/js/i18n.js:37
+#: src/js/i18n.js:36
 msgctxt "text:university"
 msgid "Touhou University"
 msgstr "幻想郷立東方大学"
 
 #. setLocale
-#: src/js/i18n.js:40
+#: src/js/i18n.js:39
 msgctxt "text:setLocale"
-msgid "Touhou University of Gensokyo | Knowledge Beyond the Border"
-msgstr "幻想郷立東方大学｜境界を越えて、知を拓く"
+msgid "Touhou University of Gensokyo"
+msgstr "幻想郷立東方大学"

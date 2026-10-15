@@ -66,7 +66,7 @@ const expectedCurrentLines = [
   `| Deliberately hidden pages | ${status.hiddenPages} (\`phantasm.html\`) |`,
   `| Unique content sections | ${status.sections} |`,
   `| CSS bundles | ${status.cssBundles} |`,
-  `| Supported locales | ${status.locales} (\`zh-Hant\`, \`ja\`, \`en\`) |`,
+  `| Supported locales | ${status.locales} (\`en\`, \`ja\`, \`zh-Hant\`) |`,
   `| Registered on-device keys | ${status.localRecordKeys} |`,
   `| Known records shelves | ${status.localRecordShelves} |`,
   `| Official event contracts | ${status.eventContracts} |`,

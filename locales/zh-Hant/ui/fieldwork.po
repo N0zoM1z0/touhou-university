@@ -16,18 +16,16 @@ msgstr "FIELDWORK PASSPORT / 境內實習 × 田野調查"
 #. copy/title
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/title"
-msgid "A map says how to go. A passport remembers why, what you saw, and who disagreed."
-msgstr "地圖告訴你怎麼去；護照還要記得你為什麼去、看見了什麼，以及誰不同意。"
+msgid "Twenty-four places to learn in the field."
+msgstr "到二十四個現場，實地學習。"
 
 #. copy/lead
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/lead"
 msgid ""
-"Twenty-four stations have their own entry rules, supervisors, and "
-"complications. Obtain dispatch, check in, respond when something refuses to "
-"follow the plan, then return with observations, provenance, and a decision "
-"on research use."
-msgstr "二十四個實習站各有自己的入口規矩、帶隊人與麻煩。取得派遣令、現場報到、處理一宗不肯照表發生的事，再把觀察、來源鏈與研究使用決定一起帶回來。"
+"Choose a station, arrange your placement, and check in. Bring back "
+"observations and sources to complete your passport entry."
+msgstr "選擇實習站、辦妥派遣並到站報到，帶回觀察與來源，完成護照紀錄。"
 
 #. copy/stationsTab
 #: src/js/fieldwork.js:47
@@ -92,8 +90,8 @@ msgstr "今日路線桌"
 #. copy/routeNote
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/routeNote"
-msgid "Moon, duty band, and mode change estimates; 'soon' is not a unit of time."
-msgstr "月相、時段與交通方式會改變預估；『很快』不是時間單位。"
+msgid "Travel estimates change with the moon, duty period, and transport mode."
+msgstr "預估時間會隨月相、值班時段與交通方式變動。"
 
 #. copy/search
 #: src/js/fieldwork.js:47
@@ -128,8 +126,8 @@ msgstr "以此站準備派遣"
 #. copy/mapHint
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/mapHint"
-msgid "Choose a wooden seal; the place may not retain the map's opinion."
-msgstr "點選木印；場地不保證和地圖維持相同意見。"
+msgid "Choose a station to read its entry rules and available work."
+msgstr "選一個實習站，查看進入條件與工作內容。"
 
 #. copy/supervisor
 #: src/js/fieldwork.js:47
@@ -336,8 +334,8 @@ msgstr "境內實習派遣令"
 #. copy/permitLead
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/permitLead"
-msgid "This paper permits work; it does not permit bringing home everything you see."
-msgstr "這張紙允許你去工作，不允許你把所有看見的東西帶回來。"
+msgid "Check the permitted work, access limits, and return requirements before leaving."
+msgstr "出發前請確認允許的工作、進入範圍與返校要求。"
 
 #. copy/printPermit
 #: src/js/fieldwork.js:47
@@ -408,10 +406,8 @@ msgstr "來源、版本與取得方式"
 #. copy/sourcePlaceholder
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/sourcePlaceholder"
-msgid ""
-"Who said it, which version, which instrument, or how the object expressed "
-"itself; not merely 'field data'."
-msgstr "誰說的、哪一版、哪個儀器，或物件如何表達；不要只寫『現場資料』。"
+msgid "Name the witness, document version, instrument, or object that supplied the information."
+msgstr "填寫證人、文件版本、儀器，或提供資訊的物品名稱。"
 
 #. copy/evidenceCode
 #: src/js/fieldwork.js:47
@@ -524,8 +520,10 @@ msgstr "境內實習與田野調查護照"
 #. copy/passportLead
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/passportLead"
-msgid "A seal proves traceable learning returned; it does not prove every dispute was resolved."
-msgstr "印章證明你帶回了可追溯的學習，不證明每一場爭議都已解決。"
+msgid ""
+"Each seal links to the observations and sources you brought back, including "
+"unresolved questions."
+msgstr "每枚印章都連結到帶回的觀察、來源與未解問題。"
 
 #. copy/noStamps
 #: src/js/fieldwork.js:47

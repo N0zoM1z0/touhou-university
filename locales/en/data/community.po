@@ -153,11 +153,11 @@ msgstr "North-wing shelf seven temporarily relocates to shelf nine"
 #: src/data/community.js:51
 msgctxt "text:newsItems.library-book.summary"
 msgid ""
-"This is not construction. The shelf refuses its former position, and the "
-"library is negotiating return terms."
+"The shelf has refused its former position. The library is negotiating where "
+"it will return."
 msgstr ""
-"This is not construction. The shelf refuses its former position, and the "
-"library is negotiating return terms."
+"The shelf has refused its former position. The library is negotiating where "
+"it will return."
 
 #. newsItems.spell-lantern.category
 #: src/data/community.js:56

@@ -16,24 +16,18 @@ msgstr "GENSOKYO ACADEMIC CALENDAR / SEASONS × MOON × INCIDENTS"
 #. copy/title
 #: src/js/academic-calendar.js:40
 msgctxt "tree:copy#/title"
-msgid ""
-"Terms have start dates; spring, full moons, and incidents retain the right "
-"to arrive off schedule."
-msgstr ""
-"Terms have start dates; spring, full moons, and incidents retain the right "
-"to arrive off schedule."
+msgid "The academic calendar, subject to spring."
+msgstr "The academic calendar, subject to spring."
 
 #. copy/lead
 #: src/js/academic-calendar.js:40
 msgctxt "tree:copy#/lead"
 msgid ""
-"This calendar is not a static poster. Season, moon, and date alter classes, "
-"facilities, transport, dining, and clinic load. Saving a leaf stores a "
-"reminder; it does not pin the world down."
+"Check term dates, moon phases, and events that affect today's classes and "
+"routes. Save a reminder or export it to your calendar."
 msgstr ""
-"This calendar is not a static poster. Season, moon, and date alter classes, "
-"facilities, transport, dining, and clinic load. Saving a leaf stores a "
-"reminder; it does not pin the world down."
+"Check term dates, moon phases, and events that affect today's classes and "
+"routes. Save a reminder or export it to your calendar."
 
 #. copy/today
 #: src/js/academic-calendar.js:40

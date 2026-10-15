@@ -16,18 +16,17 @@ msgstr "SPELL-CARD DESIGN + ETHICS WORKSHOP"
 #. copy/title
 #: src/js/spellcard-workshop.js:42
 msgctxt "tree:copy#/title"
-msgid "A spell card is not one fairness score."
-msgstr "スペルカードは、一枚の公平点ではない。"
+msgid "Design a spell card. Fly it yourself."
+msgstr "スペルカードを作って、飛んでみよう。"
 
 #. copy/lead
 #: src/js/spellcard-workshop.js:42
 msgctxt "tree:copy#/lead"
 msgid ""
-"Fly your own rule, then hear six incompatible reviews. Reimu watches exits, "
-"Marisa expression and reproducibility, Aya the audience, Nitori collision "
-"stability, Eirin stimulation, while the Misty Lake fairies refuse to let the "
-"whole venue contain nothing but alarms."
-msgstr "自分の規則をまず飛び、六者の不一致を聞く。霊夢は退路、魔理沙は表現と再現、文は観客、にとりは当たり、永琳は刺激、霧の湖妖精は会場から警報以外の音が消えることに反対する。"
+"Choose a pattern, tune the rules, and try a test flight. Six reviewers check "
+"exits, expression, visibility, stability, stimulation, and the noise "
+"reaching the Fairy Choir."
+msgstr "弾幕を選び、ルールを調整して試しに飛んでみましょう。六組の審査員が退路、表現、見やすさ、安定性、刺激、妖精合唱団に届く音まで確認します。"
 
 #. copy/notice
 #: src/js/spellcard-workshop.js:42
@@ -439,9 +438,9 @@ msgstr "スペルカード倫理公開答弁"
 #: src/js/spellcard-workshop.js:42
 msgctxt "tree:copy#/defenceLead"
 msgid ""
-"Three examiners do not average one another. The strongest current external "
-"objection takes seat three."
-msgstr "三名は互いの意見を平均しない。第三席は現在もっとも強く反対する外部者が取る。"
+"Three examiners give separate findings. The reviewer with the strongest "
+"current objection takes the third seat."
+msgstr "三名が個別に判定します。現在もっとも強い異議を出している審査員が第三席を担当します。"
 
 #. copy/majority
 #: src/js/spellcard-workshop.js:42

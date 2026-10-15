@@ -16,18 +16,18 @@ msgstr "MY TU / STUDENT RECORDS"
 #. copy/title
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/title"
-msgid "Keep one continuous campus life on this device."
-msgstr "Keep one continuous campus life on this device."
+msgid "Your student record"
+msgstr "Your student record"
 
 #. copy/lead
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/lead"
 msgid ""
-"Applications, exams, visits, and posts become one on-device student record. "
-"Nothing leaves this browser."
+"Find your applications, exam results, visits, and campus activity in one "
+"place. Records are saved in this browser."
 msgstr ""
-"Applications, exams, visits, and posts become one on-device student record. "
-"Nothing leaves this browser."
+"Find your applications, exam results, visits, and campus activity in one "
+"place. Records are saved in this browser."
 
 #. copy/createTitle
 #: src/js/mytu.js:23
@@ -38,12 +38,8 @@ msgstr "Create your on-device campus identity"
 #. copy/createLead
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/createLead"
-msgid ""
-"Existing applications and scores stay unchanged; they will be compiled into "
-"the same campus history."
-msgstr ""
-"Existing applications and scores stay unchanged; they will be compiled into "
-"the same campus history."
+msgid "Create an identity to link your existing applications and scores to your student record."
+msgstr "Create an identity to link your existing applications and scores to your student record."
 
 #. copy/found
 #: src/js/mytu.js:23
@@ -313,11 +309,11 @@ msgstr "Joint faculty review"
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/reviewLead"
 msgid ""
-"The panel reads the selected question, method, needs, and best on-device "
-"exam result, then saves a reopenable internal review."
+"The panel reviews your question, method, needs, and best exam result. You "
+"can reopen its decision here."
 msgstr ""
-"The panel reads the selected question, method, needs, and best on-device "
-"exam result, then saves a reopenable internal review."
+"The panel reviews your question, method, needs, and best exam result. You "
+"can reopen its decision here."
 
 #. copy/reviewQuestion
 #: src/js/mytu.js:23
@@ -435,11 +431,11 @@ msgstr "Campus event ledger"
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/timelineLead"
 msgid ""
-"Records events, submissions, corrections, and removals. Deleting a source "
-"card does not pretend the event never happened."
+"Follow submissions, corrections, and removals in date order. Events remain "
+"listed when a source record is deleted."
 msgstr ""
-"Records events, submissions, corrections, and removals. Deleting a source "
-"card does not pretend the event never happened."
+"Follow submissions, corrections, and removals in date order. Events remain "
+"listed when a source record is deleted."
 
 #. copy/noEvents
 #: src/js/mytu.js:23

@@ -154,9 +154,9 @@ msgstr "住宿需求申請"
 #: src/js/housing.js:32
 msgctxt "tree:copy#/applicationLead"
 msgid ""
-"This is not a personality test. It finds combinations that can sleep, get "
-"home, and are less likely to hold a full-moon meeting over one chair."
-msgstr "這不是性格測驗。它只用來找到能睡、能回房，也比較不容易在滿月凌晨因一把椅子開會的組合。"
+"Tell us about access, sleep, water, wingspan, and anyone sharing your room. "
+"The committee uses these needs to suggest rooms."
+msgstr "說明通行、睡眠、水域、翼展與同住者需求，住宿委員會會據此推薦房間。"
 
 #. copy/identityNeeded
 #: src/js/housing.js:32
@@ -344,10 +344,9 @@ msgstr "住宿委員會的三份建議"
 #: src/js/housing.js:32
 msgctxt "tree:copy#/matchingLead"
 msgid ""
-"A score is not a promise of friendship. It measures overlap between "
-"facilities, habits, and your needs; friction remains visible for your "
-"judgment."
-msgstr "分數不是友情保證。它表示房間設備、生活習慣與你的需求重疊到什麼程度；摩擦點會保留給你判斷。"
+"Compare each room's facilities and habits with your needs. Read the listed "
+"conflicts before accepting an offer."
+msgstr "比較房間設施與作息是否合適，接受分房前也請閱讀列出的衝突。"
 
 #. copy/score
 #: src/js/housing.js:32
@@ -490,11 +489,8 @@ msgstr "共住協議"
 #. copy/agreementLead
 #: src/js/housing.js:32
 msgctxt "tree:copy#/agreementLead"
-msgid ""
-"The committee generated four rules from both sets of needs. Checking means "
-"you read them on this device; it does not mean your roommate promised not to "
-"steal breakfast."
-msgstr "委員會依兩邊的需求生成了四條先談好的規則。勾選只代表你在本機看過；不代表室友已經同意不偷早餐。"
+msgid "Read the four rules drawn from both occupants' needs, then confirm each one."
+msgstr "閱讀依雙方需求擬定的四條約定，再逐項確認。"
 
 #. copy/agreementCheck
 #: src/js/housing.js:32
@@ -518,9 +514,9 @@ msgstr "換房申請"
 #: src/js/housing.js:32
 msgctxt "tree:copy#/roomChangeLead"
 msgid ""
-"Describe what is actually happening. The committee keeps your current room "
-"and attaches a viable alternative; your bed does not suddenly disappear."
-msgstr "說明現在真正發生的問題。委員會會先保留原房，再附上一份可行替代，不會讓你的床位突然消失。"
+"Explain the problem to request an alternative. Your current room remains "
+"assigned while the committee reviews it."
+msgstr "說明目前的問題，申請替代房間。委員會審查期間，原房間仍會保留。"
 
 #. copy/reason
 #: src/js/housing.js:32

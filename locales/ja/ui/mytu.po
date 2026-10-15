@@ -16,16 +16,16 @@ msgstr "MY TU / 幻想郷学籍センター"
 #. copy/title
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/title"
-msgid "Keep one continuous campus life on this device."
-msgstr "この端末に、一つのキャンパス人生を残す。"
+msgid "Your student record"
+msgstr "あなたの学内記録"
 
 #. copy/lead
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/lead"
 msgid ""
-"Applications, exams, visits, and posts become one on-device student record. "
-"Nothing leaves this browser."
-msgstr "出願、試験、来校予約、投稿を一つの端末内学籍へ。データはこのブラウザから出ません。"
+"Find your applications, exam results, visits, and campus activity in one "
+"place. Records are saved in this browser."
+msgstr "出願、試験結果、来校、学内での活動をまとめて確認できます。記録はこのブラウザに保存されます。"
 
 #. copy/createTitle
 #: src/js/mytu.js:23
@@ -36,10 +36,8 @@ msgstr "端末内キャンパス身分を作成"
 #. copy/createLead
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/createLead"
-msgid ""
-"Existing applications and scores stay unchanged; they will be compiled into "
-"the same campus history."
-msgstr "既存の出願や成績は変更せず、同じキャンパス履歴へ編入します。"
+msgid "Create an identity to link your existing applications and scores to your student record."
+msgstr "学籍を作ると、保存済みの出願や得点を学内記録にまとめられます。"
 
 #. copy/found
 #: src/js/mytu.js:23
@@ -309,9 +307,9 @@ msgstr "教員合同審査"
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/reviewLead"
 msgid ""
-"The panel reads the selected question, method, needs, and best on-device "
-"exam result, then saves a reopenable internal review."
-msgstr "選択した出願の問い・方法・希望と端末内最高試験成績を読み、再閲覧可能な学内評議を作成します。"
+"The panel reviews your question, method, needs, and best exam result. You "
+"can reopen its decision here."
+msgstr "問い、方法、必要な配慮、試験の最高点をもとに教員が審査します。結果はここで読み返せます。"
 
 #. copy/reviewQuestion
 #: src/js/mytu.js:23
@@ -427,9 +425,9 @@ msgstr "キャンパス事件台帳"
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/timelineLead"
 msgid ""
-"Records events, submissions, corrections, and removals. Deleting a source "
-"card does not pretend the event never happened."
-msgstr "発生、提出、訂正、削除を記録。元カードを消しても出来事を無かったことにはしません。"
+"Follow submissions, corrections, and removals in date order. Events remain "
+"listed when a source record is deleted."
+msgstr "提出、訂正、削除を日付順に確認できます。元の記録を削除した後も、出来事の履歴は残ります。"
 
 #. copy/noEvents
 #: src/js/mytu.js:23

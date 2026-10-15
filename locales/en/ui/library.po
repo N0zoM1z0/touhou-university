@@ -16,8 +16,8 @@ msgstr "MISTY LAKE LIBRARY"
 #. copy/title
 #: src/js/library.js:19
 msgctxt "tree:copy#/title"
-msgid "Books need not be quiet. Their circulation records do."
-msgstr "Books need not be quiet. Their circulation records do."
+msgid "Find your next book."
+msgstr "Find your next book."
 
 #. copy/lead
 #: src/js/library.js:19
@@ -514,12 +514,8 @@ msgstr "Back to library"
 #. copy/lunarNotice
 #: src/js/library.js:19
 msgctxt "tree:copy#/lunarNotice"
-msgid ""
-"Full-moon states are updated by staff that night. A torch does not count as "
-"a lunar phase."
-msgstr ""
-"Full-moon states are updated by staff that night. A torch does not count as "
-"a lunar phase."
+msgid "Staff update full-moon availability on the night. Check the catalogue before visiting."
+msgstr "Staff update full-moon availability on the night. Check the catalogue before visiting."
 
 #. copy/holdPosition
 #: src/js/library.js:19

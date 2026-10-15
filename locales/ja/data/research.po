@@ -191,10 +191,10 @@ msgstr "問題"
 #: src/data/research.js:27
 msgctxt "tree:researchFiles.moonpath.sections#/0/1"
 msgid ""
-"The forest is not merely a maze. Anxiety amplifies similar bamboo shadows, "
-"hides changing wind, and persuades travellers they are still walking "
+"Anxiety makes bamboo shadows harder to distinguish and changing wind easier "
+"to miss. Travellers may circle a junction while believing they are walking "
 "straight."
-msgstr "竹林は単なる迷路ではない。不安は似た竹影を強調し、異なる風向きを消し、本人に直進していると信じさせる。"
+msgstr "不安が強まると竹の影を見分けにくくなり、風の変化も見落としやすくなる。同じ分岐を回っていても、本人は直進していると思うことがある。"
 
 #. researchFiles.moonpath.sections/1/0
 #: src/data/research.js:27
@@ -307,10 +307,9 @@ msgstr "結論"
 #: src/data/research.js:34
 msgctxt "tree:researchFiles.reports.sections#/3/1"
 msgid ""
-"Fast text is not necessarily least reliable, nor slow text most sincere. "
-"Quality begins by marking what is unknown and leaving an entrance for "
-"correction."
-msgstr "速い文章が必ず不確かでも、遅い文章が必ず誠実でもない。質は、分からないことを示し、訂正の入口を残すことから生まれる。"
+"Compare each report's evidence and omissions. The useful correction "
+"identifies what changed and what remains unknown."
+msgstr "各報道の根拠と抜けを比較する。訂正には、何が変わり、何が未確認のままかを示す。"
 
 #. researchFiles.spellcard.title
 #: src/data/research.js:38

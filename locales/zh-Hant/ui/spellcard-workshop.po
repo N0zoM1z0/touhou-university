@@ -16,18 +16,17 @@ msgstr "SPELL-CARD DESIGN + ETHICS WORKSHOP"
 #. copy/title
 #: src/js/spellcard-workshop.js:42
 msgctxt "tree:copy#/title"
-msgid "A spell card is not one fairness score."
-msgstr "符卡不是一張公平分數表。"
+msgid "Design a spell card. Fly it yourself."
+msgstr "設計一張符卡，親自飛一趟。"
 
 #. copy/lead
 #: src/js/spellcard-workshop.js:42
 msgctxt "tree:copy#/lead"
 msgid ""
-"Fly your own rule, then hear six incompatible reviews. Reimu watches exits, "
-"Marisa expression and reproducibility, Aya the audience, Nitori collision "
-"stability, Eirin stimulation, while the Misty Lake fairies refuse to let the "
-"whole venue contain nothing but alarms."
-msgstr "先親自飛過你設計的規則，再聽六方各自不同意。靈夢看退路、魔理沙看表現與重現、文看觀眾、荷取看碰撞、永琳看刺激，霧湖妖精則拒絕讓整座場地只剩警報聲。"
+"Choose a pattern, tune the rules, and try a test flight. Six reviewers check "
+"exits, expression, visibility, stability, stimulation, and the noise "
+"reaching the Fairy Choir."
+msgstr "選擇彈幕、調整規則，再試飛看看。六組評審會檢查退路、表現、辨識、穩定性、刺激，以及傳到妖精合唱團的聲音。"
 
 #. copy/notice
 #: src/js/spellcard-workshop.js:42
@@ -439,9 +438,9 @@ msgstr "符卡倫理公開答辯"
 #: src/js/spellcard-workshop.js:42
 msgctxt "tree:copy#/defenceLead"
 msgid ""
-"Three examiners do not average one another. The strongest current external "
-"objection takes seat three."
-msgstr "三名答辯者不替彼此平均意見。第三席由目前最強烈的外部反對者取得。"
+"Three examiners give separate findings. The reviewer with the strongest "
+"current objection takes the third seat."
+msgstr "三位考官各自評議；目前異議最強的評審會擔任第三席。"
 
 #. copy/majority
 #: src/js/spellcard-workshop.js:42

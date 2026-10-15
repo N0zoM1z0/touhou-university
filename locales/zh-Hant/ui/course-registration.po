@@ -16,17 +16,17 @@ msgstr "MY TU / COURSE REGISTRATION"
 #. copy/title
 #: src/js/course-registration.js:22
 msgctxt "tree:copy#/title"
-msgid "Put classes into your life—then check the rooms stayed put."
-msgstr "把課選進生活裡，然後確認教室還在原來的位置。"
+msgid "Build your timetable."
+msgstr "安排你的課表。"
 
 #. copy/lead
 #: src/js/course-registration.js:22
 msgctxt "tree:copy#/lead"
 msgid ""
-"Search 35 courses across seven schools. Add/drop, waitlists, prerequisites, "
-"and unusual collisions are resolved on this device. Eighteen credits is "
-"advice, not a barrier."
-msgstr "搜尋七所學院的 35 門課；加退選、候補、先修與非普通衝堂都在這台裝置上即時判定。18 學分是提醒，不是結界。"
+"Search 35 courses across seven schools. Check prerequisites, available "
+"places, and timetable clashes before enrolling. The recommended load is "
+"eighteen credits."
+msgstr "搜尋七所學院的35門課程，確認先修條件、空位與時間衝突後再選課。建議修讀18學分。"
 
 #. copy/records
 #: src/js/course-registration.js:22
@@ -347,8 +347,8 @@ msgstr "沒有符合條件的課。試著少寫一點，或讓篩選器退一步
 #. copy/emptySchedule
 #: src/js/course-registration.js:22
 msgctxt "tree:copy#/emptySchedule"
-msgid "Your timetable is empty. This feels free on day one and usually alarming on day two."
-msgstr "課表還是空的。這在開學第一天看起來很自由，第二天通常比較慌。"
+msgid "Your timetable is empty. Choose a course to begin."
+msgstr "課表還是空的，先選一門課吧。"
 
 #. copy/enrolledCourses
 #: src/js/course-registration.js:22

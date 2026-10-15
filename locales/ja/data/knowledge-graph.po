@@ -1187,10 +1187,9 @@ msgstr "白玉楼印は妖夢が名簿を持ち帰った証明であり、半霊
 #: src/data/knowledge-graph.js:529
 msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.7.graduation-history.5"
 msgid ""
-"The chronicle links audit, degree, careers, and alumni by actual "
-"first-parent versions; invitation delivery order continues objecting in "
-"another column."
-msgstr "大学史は判定・学位・進路・同窓イベントを first-parent の実版で結ぶ。招待状の配達順は別欄で反対を続ける。"
+"The chronicle dates the audit, degree, careers, and alumni records. The "
+"invitation's delivery date still disagrees."
+msgstr "大学史が判定、学位、進路、同窓会の記録に日付を付ける。招待状の配達日だけ、まだ話が合わない。"
 
 #. knowledgeDossiers.0.first-bell-three-gates.title
 #: src/data/knowledge-graph.js:536
@@ -1243,9 +1242,9 @@ msgstr "鴉天狗郵便は最速で、誤版も最初に届き得る。迂回ご
 #: src/data/knowledge-graph.js:554
 msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.3.first-course.5"
 msgid ""
-"The first destination opens a real course, not a personality test. Marisa "
-"still claims the bell striker is registration equipment."
-msgstr "最初の行先は実在科目への入口で、性格診断ではない。魔理沙は撞木も履修器材だと主張する。"
+"The first destination leads to course registration. Marisa still claims the "
+"bell striker belongs with the enrolment equipment."
+msgstr "最初の行先から履修登録へ進める。魔理沙は鐘の撞木も登録用具だと言い張っている。"
 
 #. knowledgeDossiers.0.first-bell-three-gates.records.4.arrival-notice.5
 #: src/data/knowledge-graph.js:555

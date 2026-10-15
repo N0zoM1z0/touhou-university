@@ -89,9 +89,9 @@ msgstr "異變應對實務教授"
 #: src/data/mytu.js:35
 msgctxt "text:reviewers.reimu.note"
 msgid ""
-"Proceed, but incident response is not an excuse to skip exit conditions or a "
-"no-Bomb constraint. If the shrine barrier breaks, the lab repairs it."
-msgstr "可以做，但禁止以「異變處理」名義跳過退路與 no-Bomb 條件。若測試打穿神社結界，研究室自己修。"
+"Proceed. Keep the exit and no-Bomb conditions. If the shrine barrier breaks, "
+"your lab pays for it."
+msgstr "可以進行，退路和禁用Bomb的條件要守好。神社結界弄壞了，研究室出錢。"
 
 #. reviewers.yukari.name
 #: src/data/mytu.js:38
@@ -150,10 +150,9 @@ msgstr "元素理論教授"
 #: src/data/mytu.js:53
 msgctxt "text:reviewers.patchouli.note"
 msgid ""
-"“Difficult” is not an operational variable. Separate danmaku readability, "
-"control latency, route solving, and resource limits, then identify what can "
-"be falsified."
-msgstr "「很難」不是可操作變量。請區分彈幕可讀性、控制延遲、路徑求解與資源限制，再說明哪一項能被反證。"
+"Define readability, latency, route solving, and resource limits separately. "
+"Then state what result would disprove the claim."
+msgstr "辨識度、延遲、路徑求解與資源限制分開定義，再寫明什麼結果會推翻主張。"
 
 #. reviewers.marisa.name
 #: src/data/mytu.js:56
@@ -171,10 +170,9 @@ msgstr "應用魔法教授"
 #: src/data/mytu.js:59
 msgctxt "text:reviewers.marisa.note"
 msgid ""
-"If the method runs, run it. Submit three reproducible failures and material "
-"provenance before the formal trial; “found in the forest” counts as half a "
-"field."
-msgstr "方法能跑就先跑。正式試驗前交三次可重現失敗，還有材料來源；「森林裡撿的」這次只能算半欄。"
+"Let's run it. Bring three repeatable failures and a materials list before "
+"the formal trial. I'll help with the failures."
+msgstr "跑跑看吧。正式試驗前，帶三次能重現的失敗和材料清單來。失敗那部分我可以幫忙。"
 
 #. reviewers.eirin.name
 #: src/data/mytu.js:62
@@ -213,9 +211,9 @@ msgstr "河童工程學院院長"
 #: src/data/mytu.js:71
 msgctxt "text:reviewers.nitori.note"
 msgid ""
-"Prototype approved. Log inputs, outputs, failure timestamps, and tape batch "
-"together. If the box cannot be opened, it is not maintainable."
-msgstr "原型可以做。請把輸入、輸出、故障時間戳和膠帶批次一起記；如果盒子打不開，就不算可維修。"
+"Prototype approved. Log inputs, outputs, failure times, and the tape batch. "
+"Leave room for a wrench."
+msgstr "原型通過。記下輸入、輸出、故障時間和膠帶批次，也留點伸扳手的空間。"
 
 #. reviewers.aya.name
 #: src/data/mytu.js:74
@@ -233,10 +231,9 @@ msgstr "天狗新聞傳播學院院長"
 #: src/data/mytu.js:77
 msgctxt "text:reviewers.aya.note"
 msgid ""
-"The abstract belongs on page one, which is exactly why its claim must "
-"shrink. Add a source chain and public-correction plan before I invent the "
-"headline."
-msgstr "摘要很適合頭版，因此尤其需要先縮小主張。請在我替你想好標題之前補上來源鏈與公開訂正方案。"
+"I'd put this on page one. Add your sources and correction plan before I "
+"choose the headline."
+msgstr "這個我想放頭版。先補上來源和更正方法，我再挑標題。"
 
 #. reviewers.byakuren.name
 #: src/data/mytu.js:80
@@ -274,10 +271,9 @@ msgstr "信仰基礎設施輪值教授"
 #: src/data/mytu.js:89
 msgctxt "text:reviewers.kanako.note"
 msgid ""
-"The principle is sound; the resource table is not. Name who powers, repairs, "
-"and receives festival priority. Faith does not generate an omitted budget "
-"line."
-msgstr "理念可以，資源表不行。請補上誰供電、誰維修、誰在祭典日取得優先權；信仰不會替缺少的預算欄供能。"
+"The principle can work. Now tell me who supplies power, who repairs it, and "
+"whose festival gets priority."
+msgstr "原理行得通。接下來說說誰供電、誰維修，以及哪邊的祭典優先。"
 
 #. reviewers.miko.name
 #: src/data/mytu.js:92
@@ -303,268 +299,244 @@ msgstr "我聽見了十一種願望，但申請只回答了其中三種。請公
 #: src/data/mytu.js:101
 msgctxt "text:reviewerCommentary.reimu.question"
 msgid ""
-"State where this becomes an incident and where it stops being my problem. "
-"The question may be strange; the responsibility boundary may not simply sit "
-"outside the shrine."
-msgstr "先說清楚這件事從哪一步起算異變、又在哪一步不歸我管。問題可以怪，責任邊界不能只畫在神社門外。"
+"At what point do I have to deal with this? Mark that on the plan, and tell "
+"me who cleans up."
+msgstr "從哪一步開始要我出面？在計畫上標出來，還有誰負責收拾。"
 
 #. reviewerCommentary.reimu.method
 #: src/data/mytu.js:102
 msgctxt "text:reviewerCommentary.reimu.method"
-msgid ""
-"The method needs a real way to stop, clean up, and get back to dinner. Start "
-"conditions without exit conditions are not approved."
-msgstr "方法裡要有一條真的能停手、收拾現場並回去吃飯的路。只有開始條件，沒有退出條件，不准。"
+msgid "Write down how to stop it and clean up. I'd like to get back before dinner."
+msgstr "把停止和清理的方法寫下來，我還想趕回去吃晚飯。"
 
 #. reviewerCommentary.reimu.needs
 #: src/data/mytu.js:103
 msgctxt "text:reviewerCommentary.reimu.needs"
-msgid ""
-"Ask for what you need, but do not count a free venue, free repairs, and a "
-"free shrine maiden as one resource."
-msgstr "需求欄寫多少都可以，但不要把免費場地、免費修繕與免費巫女當成同一項資源。"
+msgid "List what you need. The venue, repairs, and my time are three separate expenses."
+msgstr "需要什麼就列出來。場地、修理，還有我的時間，是三筆開銷。"
 
 #. reviewerCommentary.yukari.question
 #: src/data/mytu.js:106
 msgctxt "text:reviewerCommentary.yukari.question"
-msgid ""
-"The interesting part is which side the question quietly holds fixed. Bring a "
-"version that still works when that assumption fails."
-msgstr "這個問題真正有趣的是它偷偷假定了哪一側固定。面試時請帶一個當假定失效後仍能成立的版本。"
+msgid "You've fixed one side of the question rather firmly. What happens if we move it?"
+msgstr "你把問題的一側固定得很牢呢。挪動它之後，會怎樣？"
 
 #. reviewerCommentary.yukari.method
 #: src/data/mytu.js:107
 msgctxt "text:reviewerCommentary.yukari.method"
 msgid ""
-"Your observation point appears to have only one address. Explain who remains "
-"the observer when the two sides of that address exchange places."
-msgstr "你寫的觀察位置似乎只有一個地址。請再說明地址兩側交換時，誰仍是觀察者。"
+"You give the observation point one address. Tell me who is watching when its "
+"two sides trade places."
+msgstr "觀測點只有一個地址呢。兩側交換位置後，又是誰在觀測？"
 
 #. reviewerCommentary.yukari.needs
 #: src/data/mytu.js:108
 msgctxt "text:reviewerCommentary.yukari.needs"
 msgid ""
-"Support can be approved, but near and reachable are not the same housing "
-"condition. Boundary Studies reserves the right to reinterpret one of them."
-msgstr "支援需求可以批准；但「靠近」與「可抵達」不是同一份住宿條件。境界研究院將保留重新解釋其中一項的權利。"
+"Would you prefer a nearby room, or a room you can reach? We should settle "
+"that before assigning one."
+msgstr "你要近的房間，還是到得了的房間？分房前先說好吧。"
 
 #. reviewerCommentary.keine.question
 #: src/data/mytu.js:111
 msgctxt "text:reviewerCommentary.keine.question"
-msgid ""
-"Separate the event, its recorder, and the later interpretation. At least one "
-"sentence may be treating recollection as a same-day record."
-msgstr "請把問題中的事件、記錄者與後來的解釋分開。現在至少有一句話可能把回憶當成當日紀錄。"
+msgid "Who recorded this, and when? Separate what happened from what someone remembered later."
+msgstr "誰記錄的？什麼時候？把發生的事與事後回憶分開寫。"
 
 #. reviewerCommentary.keine.method
 #: src/data/mytu.js:112
 msgctxt "text:reviewerCommentary.keine.method"
 msgid ""
-"The method can run, but every correction must retain the previous version "
-"and date. A correct answer without a version remains unsourced."
-msgstr "方法可行，但每次訂正都要保留前一版與日期。沒有版本的正確答案，對史學館而言仍是不明來源。"
+"Keep the date and previous text with every correction. Then another student "
+"can check your work."
+msgstr "每次修正都留下日期與原文，其他學生才查得到。"
 
 #. reviewerCommentary.keine.needs
 #: src/data/mytu.js:113
 msgctxt "text:reviewerCommentary.keine.needs"
-msgid ""
-"Needs will enter the record. Blank fields are recorded as not declared at "
-"application, not later rewritten as always having been so."
-msgstr "需求會寫入檔案；未填的部分也會被記成『申請時未申報』，不准日後改寫成『向來如此』。"
+msgid "I'll record what you request now. You can add needs later, with the date of the change."
+msgstr "我會記下你目前的需求。之後有新增的，附上變更日期再提出。"
 
 #. reviewerCommentary.patchouli.question
 #: src/data/mytu.js:116
 msgctxt "text:reviewerCommentary.patchouli.question"
-msgid ""
-"The question mixes at least two quantities that can vary separately. Name "
-"them before deciding which deserves magical expenditure."
-msgstr "問題裡至少混有兩個可分開變動的量。請先替它們命名，再決定哪一個值得消耗魔力。"
+msgid "Two quantities change independently here. Name them before choosing the spell."
+msgstr "這裡有兩個能獨立變動的量，選術式前先分別定義。"
 
 #. reviewerCommentary.patchouli.method
 #: src/data/mytu.js:117
 msgctxt "text:reviewerCommentary.patchouli.method"
 msgid ""
-"Observation is not a synonym for method. Add a comparison, a failure rule, "
-"and the claim you will abandon if the result reverses."
-msgstr "觀察不是方法的同義詞。請補比較條件、失敗判準，以及讀到相反結果時準備放棄哪一句主張。"
+"Add a comparison and a failure condition. Which claim will you withdraw if "
+"the result reverses?"
+msgstr "補上比較對象與失敗條件。結果相反時，你會撤回哪個主張？"
 
 #. reviewerCommentary.patchouli.needs
 #: src/data/mytu.js:118
 msgctxt "text:reviewerCommentary.patchouli.needs"
 msgid ""
-"Equipment needs are negotiable. Put material batch, storage condition, and "
-"return date in the table first. The library does not accept should still be "
-"there."
-msgstr "設備需求可以討論；材料批次、保存條件與借出期限必須先進表格。圖書館不接受『應該還在』。"
+"List the material batch, storage conditions, and return date. I'll discuss "
+"equipment after that."
+msgstr "先列材料批次、保存條件與歸還日期，之後再談設備。"
 
 #. reviewerCommentary.marisa.question
 #: src/data/mytu.js:121
 msgctxt "text:reviewerCommentary.marisa.question"
 msgid ""
-"This looks runnable and may blow up the original answer—good. Submit the "
-"cheapest version that can fail quickly."
-msgstr "這問題看起來能做，而且可能會炸掉原本的答案——很好。先交一個最便宜、最快失敗的版本。"
+"Looks like it might run. Try the cheapest version first; a quick failure "
+"saves materials."
+msgstr "看起來能跑。先做最便宜的版本吧，早點失敗還能省材料。"
 
 #. reviewerCommentary.marisa.method
 #: src/data/mytu.js:122
 msgctxt "text:reviewerCommentary.marisa.method"
 msgid ""
-"You have steps; now make a record that lets someone else fail in the same "
-"place. Give full provenance. Forest is not a supplier name."
-msgstr "步驟有了，還缺別人照著做也會失敗在同一處的記錄。材料來源請寫完整，森林不是供應商名稱。"
+"Keep enough notes for someone else to get the same result. And list the "
+"materials—Patchouli's started checking mine."
+msgstr "記到別人照著做也能得到同樣結果。材料也列上，帕秋莉最近連我的欄都要查。"
 
 #. reviewerCommentary.marisa.needs
 #: src/data/mytu.js:123
 msgctxt "text:reviewerCommentary.marisa.needs"
 msgid ""
-"List what you want to borrow; I will say what is available and what I "
-"already borrowed. If housed near the workshop, do not complain about "
-"reproducible midnight noise."
-msgstr "想借的東西先列出來，我會告訴你哪些能借、哪些已經被我借了。住宿若靠近工房，別抱怨半夜的可重現噪音。"
+"List what you want to borrow. I'll check what's here and what I've already "
+"borrowed. The workshop gets loud at midnight, by the way."
+msgstr "想借什麼就寫上，我看看這裡有多少、我又借走了多少。先說，工房半夜也挺吵的。"
 
 #. reviewerCommentary.eirin.question
 #: src/data/mytu.js:126
 msgctxt "text:reviewerCommentary.eirin.question"
 msgid ""
-"The question may proceed, but individual variation, lunar phase, and fatigue "
-"currently share one sentence. Give each its own field."
-msgstr "問題可以進下一階段，但目前把個體差、月相與疲勞寫在同一句。三者必須各有自己的記錄欄。"
+"Record individual variation, lunar phase, and fatigue separately. They "
+"currently share one line."
+msgstr "個體差異、月相與疲勞請分開記錄，目前它們擠在同一行。"
 
 #. reviewerCommentary.eirin.method
 #: src/data/mytu.js:127
 msgctxt "text:reviewerCommentary.eirin.method"
 msgid ""
-"Write stopping conditions before dose or exposure. A participant saying "
-"probably fine must not be automatically encoded as fine."
-msgstr "先寫停止條件，再寫劑量或暴露。受試者說『大概沒事』時，方法不能把它自動編碼成沒事。"
+"Define the stopping conditions before dose or exposure. Record “probably "
+"fine” as an uncertain response."
+msgstr "先訂停止條件，再決定劑量或暴露。「大概沒事」請記為不確定回答。"
 
 #. reviewerCommentary.eirin.needs
 #: src/data/mytu.js:128
 msgctxt "text:reviewerCommentary.eirin.needs"
 msgid ""
-"Support can be arranged, but medical care, lunar load reduction, and "
-"ordinary sleep-loss recovery are separate slips. If Tewi staples them "
-"together, hand them to Reisen."
-msgstr "需求可安排，但醫療、月相降載與普通熬夜補救是三張不同的單。帝若把它們訂在一起，請直接交給鈴仙。"
+"Submit separate requests for treatment, lunar-load reduction, and sleep "
+"recovery. Give the slips to Reisen if Tewi combines them."
+msgstr "治療、減輕月相負荷與睡眠恢復請分別申請。若帝把回條釘在一起，交給鈴仙。"
 
 #. reviewerCommentary.nitori.question
 #: src/data/mytu.js:131
 msgctxt "text:reviewerCommentary.nitori.question"
 msgid ""
-"This can become a prototype. Define input, output, and what still counts as "
-"success when smoke leaves the box."
-msgstr "這個問題可以做成原型。請先說明輸入、輸出，以及盒子冒煙時哪一項仍算成功。"
+"We can build this. What's the input, what's the output, and how much smoke "
+"still counts as working?"
+msgstr "這個做得出來。輸入、輸出是什麼？冒多少煙還算正常運轉？"
 
 #. reviewerCommentary.nitori.method
 #: src/data/mytu.js:132
 msgctxt "text:reviewerCommentary.nitori.method"
 msgid ""
-"Add failure timestamp, version, and tape batch. Machines documented only by "
-"finished photos usually break between photographs."
-msgstr "把故障時間戳、版本號與膠帶批次加進步驟。只拍完成照的機器，通常是在照片之間壞掉的。"
+"Log the failure time, version, and tape batch. I need to know what happened "
+"between those finished-product photos."
+msgstr "記下故障時間、版本與膠帶批次。我想知道兩張成品照之間發生了什麼。"
 
 #. reviewerCommentary.nitori.needs
 #: src/data/mytu.js:133
 msgctxt "text:reviewerCommentary.nitori.needs"
 msgid ""
-"Workshop space and water access can be scheduled, but maintenance clearance "
-"belongs in the request. A pretty box that cannot open is not maintainable, "
-"only expensive."
-msgstr "工房席位與水路可以排，但維修空間必須算進需求。打不開的漂亮盒子不叫可維修，只叫比較貴。"
+"Include room to open the casing and get a wrench in. If I have to break the "
+"box, the repair costs extra."
+msgstr "留出開外殼、伸扳手的空間。要是得拆爛盒子才能修，另外收費。"
 
 #. reviewerCommentary.aya.question
 #: src/data/mytu.js:136
 msgctxt "text:reviewerCommentary.aya.question"
 msgid ""
-"The question already sounds like a headline, but not a correctable one. "
-"State what new evidence would force you to replace its verb."
-msgstr "這個問題已經像標題，但還不像可被訂正的標題。請指出哪項新證據會迫使你換掉動詞。"
+"That would make a fine headline. What evidence would make you change it? "
+"Hatate will ask."
+msgstr "這個標題不錯。出現什麼證據時，你會改掉它？果也會問的。"
 
 #. reviewerCommentary.aya.method
 #: src/data/mytu.js:137
 msgctxt "text:reviewerCommentary.aya.method"
 msgid ""
-"Separate source, observer, and relayer. Anonymous is allowed; no source "
-"chain is not. This rule also applies to my newspaper."
-msgstr "消息來源、觀察者與轉述者要分三欄。匿名可以保留，沒有來源鏈不可以；這條規則也適用於我的報紙。"
+"Give the source, witness, and whoever relayed it separate lines. Keep the "
+"trail even for an anonymous source. Hatate checks my copies too."
+msgstr "消息來源、目擊者與轉述者分欄寫，匿名也要留下傳遞經過。果連我的稿子也會查。"
 
 #. reviewerCommentary.aya.needs
 #: src/data/mytu.js:138
 msgctxt "text:reviewerCommentary.aya.needs"
-msgid ""
-"Mark what cannot be public before listing public needs. If left blank, I may "
-"assume the space suits a headline; that is usually bad for both sides."
-msgstr "公開需求前請先標出不能公開的部分。若你留白，我會假定那裡適合放標題；這通常對雙方都不好。"
+msgid "Mark what must stay private. I'd rather discover that before the headline goes to print."
+msgstr "先標明哪些內容不能公開，最好在標題送印前讓我知道。"
 
 #. reviewerCommentary.byakuren.question
 #: src/data/mytu.js:141
 msgctxt "text:reviewerCommentary.byakuren.question"
 msgid ""
-"The question sees difference but not who bears the cost of comparison. "
-"Include lifespan, body, and those unable to leave text."
-msgstr "問題看見了差異，但尚未說明誰承擔比較的代價。請把壽命、身體與無法留下文字的人納入。"
+"Who bears the cost of this comparison? Include different bodies and "
+"lifespans, and people who leave no written account."
+msgstr "這項比較的代價由誰承擔？請把身體、壽命的差異，以及無法留下文字的人也納入計畫。"
 
 #. reviewerCommentary.byakuren.method
 #: src/data/mytu.js:142
 msgctxt "text:reviewerCommentary.byakuren.method"
 msgid ""
-"If everyone must participate identically, convenience is being called "
-"fairness. Keep at least one path a different body can complete."
-msgstr "方法若要求所有人用同一方式參與，就只是在把方便當成公平。請保留至少一條不同身體也能完成的路。"
+"Provide another way to participate for those who cannot follow the same "
+"procedure. Tell us how both routes will be supported."
+msgstr "請替無法遵循相同步驟的人另備方法，也說明兩條途徑如何獲得支援。"
 
 #. reviewerCommentary.byakuren.needs
 #: src/data/mytu.js:143
 msgctxt "text:reviewerCommentary.byakuren.needs"
 msgid ""
-"Support is not an attachment added after review. Put food, access, and rest "
-"in the main plan or those excluded first will never appear in the results."
-msgstr "支援不是審查後才補的附件。把飲食、通行與休息寫進主要方案，否則最先被排除的人不會出現在結果裡。"
+"Put food, access, and rest in the main plan. The people who need them should "
+"be able to take part from the start."
+msgstr "把飲食、通行與休息放進主計畫，讓有需要的人從一開始就能參與。"
 
 #. reviewerCommentary.kanako.question
 #: src/data/mytu.js:146
 msgctxt "text:reviewerCommentary.kanako.question"
-msgid ""
-"The principle is large enough. Connect it to a line that supplies power, "
-"water, or people. Public value does not generate electricity from a title."
-msgstr "理念夠大，現在請把它接到一條真的會供電、供水或供人的管線。公共性不能只靠標題發電。"
+msgid "Now connect that principle to water, power, or people. Show me what it supplies."
+msgstr "把這個原理接上水、電力或人流，讓我看看它能供應什麼。"
 
 #. reviewerCommentary.kanako.method
 #: src/data/mytu.js:147
 msgctxt "text:reviewerCommentary.kanako.method"
 msgid ""
-"Name maintenance, shutdown time, and festival priority. Consensus without an "
-"operating schedule is usually someone else’s overtime."
-msgstr "方法要寫誰維護、何時停機、祭典日誰有優先權。沒有運轉表的共識，通常只是別人的加班。"
+"Name the maintenance crew, shutdown hours, and festival priority. Someone "
+"will have to run this after your presentation."
+msgstr "訂好維修人手、停機時段與祭典優先權。你報告完之後，還得有人運轉設備。"
 
 #. reviewerCommentary.kanako.needs
 #: src/data/mytu.js:148
 msgctxt "text:reviewerCommentary.kanako.needs"
 msgid ""
-"Resources are negotiable, but separate required capacity, desired capacity, "
-"and capacity Kanako believes you will eventually need. They occupy different "
-"budget lines."
-msgstr "資源可以談，但請分清必要容量、想要容量與神奈子認為遲早會需要的容量。三者的預算欄不同。"
+"Separate the capacity you need now from the capacity you'll need when this "
+"catches on. We'll discuss the second budget too."
+msgstr "把現在需要的容量，和推廣後需要的容量分開。後一筆預算也一起談吧。"
 
 #. reviewerCommentary.miko.question
 #: src/data/mytu.js:151
 msgctxt "text:reviewerCommentary.miko.question"
 msgid ""
-"I hear more desires than the question declares. State which will not be "
-"satisfied and who will publicly say no."
-msgstr "我聽見的願望比問題欄寫出的更多。請說明哪些願望不會被這項研究滿足，以及由誰公開說不。"
+"I hear several wishes missing from the proposal. Which will you decline, and "
+"who will explain that to the people asking?"
+msgstr "我聽見幾個計畫裡沒寫的願望。你會拒絕哪些，又由誰向本人說明？"
 
 #. reviewerCommentary.miko.method
 #: src/data/mytu.js:152
 msgctxt "text:reviewerCommentary.miko.method"
 msgid ""
-"The method lists actions but not decision-makers. Every turn needs an "
-"accountable person; everyone agreed is not a name that can be summoned."
-msgstr "方法列出了行動，卻沒有列決定者。每個轉折都要有人承擔；『大家同意』不是一個可傳喚的名字。"
+"Name the person who decides at each turn. I should like to hear from them, "
+"rather than “everyone”."
+msgstr "把每一步做決定的人寫出來。我想聽本人說，不是聽「大家」說。"
 
 #. reviewerCommentary.miko.needs
 #: src/data/mytu.js:153
 msgctxt "text:reviewerCommentary.miko.needs"
-msgid ""
-"Priorities cannot first appear after conflict. Rank them now; I would rather "
-"not hear eleven people simultaneously claim to be first."
-msgstr "需求裡的優先順序不能只在衝突發生後才出現。請現在排序，免得我同時聽見十一個人都說自己先。"
+msgid "Rank your needs now. It is easier than hearing eleven people insist they came first."
+msgstr "現在就替需求排個順序，總比同時聽十一個人說「我先」容易吧。"

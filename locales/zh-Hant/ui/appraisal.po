@@ -23,10 +23,10 @@ msgstr "外界漂流物鑑定所"
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/lead"
 msgid ""
-"A name, an original purpose, and a useful life in Gensokyo are three "
-"different questions. Kourindou sees names, the library keeps evidence, and "
-"the kappa stare at ports. If the object objects, that enters the file too."
-msgstr "名稱、原用途、現在能拿來做什麼，是三個不同問題。香霖堂看名字，圖書館保存證據，河童盯著接口；物品本身若有意見，也會被寫進案卷。"
+"Identify an Outside World object, compare the evidence, and propose a use "
+"for it. Rinnosuke can tell you its name; Nitori would like to open the "
+"casing."
+msgstr "選一件外界物品，比對證據並提出用途。霖之助能告訴你名稱；荷取則想拆開外殼看看。"
 
 #. copy/open
 #: src/js/appraisal.js:30
@@ -145,10 +145,8 @@ msgstr "一、先看物，不要先看答案"
 #. copy/evidenceLead
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/evidenceLead"
-msgid ""
-"Select observations you actually use. At least two; markings and wear "
-"usually speak more reliably than intuition."
-msgstr "勾選你真正採用的觀察。至少兩項；標記與磨損通常比直覺更會說實話。"
+msgid "Choose at least two observations to support your appraisal."
+msgstr "選擇至少兩項觀察，作為鑑定依據。"
 
 #. copy/reviewed
 #: src/js/appraisal.js:30
@@ -166,9 +164,9 @@ msgstr "二、提出原用途假說"
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/hypothesisLead"
 msgid ""
-"Rinnosuke may see name and purpose without receiving an operating manual. "
-"Your evidence still has to connect."
-msgstr "霖之助能看出名稱與用途，卻不保證知道操作方式；你仍需讓證據接得上。"
+"Choose an original purpose that fits the evidence. Rinnosuke's account is "
+"one source to consider."
+msgstr "選擇符合證據的原用途，並將霖之助的說法一併考慮。"
 
 #. copy/stepTests
 #: src/js/appraisal.js:30
@@ -179,10 +177,8 @@ msgstr "三、選擇非侵入式測試"
 #. copy/testsLead
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/testsLead"
-msgid ""
-"At least one and at most three. A kappa bringing a screwdriver does not make "
-"disassembly necessary."
-msgstr "至少一項、最多三項。鑑定所不會因為河童帶了螺絲刀就把拆殼算成必要步驟。"
+msgid "Choose one to three tests. Check what each test could damage before starting."
+msgstr "選擇一至三項測試，開始前先確認可能造成的損傷。"
 
 #. copy/method
 #: src/js/appraisal.js:30
@@ -419,11 +415,8 @@ msgstr "這台裝置保存的鑑定案卷"
 #. copy/archiveLead
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/archiveLead"
-msgid ""
-"Errors, provisional readings, and corrections remain where they occurred. "
-"Reappraisal creates a new file rather than pretending an older purpose never "
-"existed."
-msgstr "錯誤、暫定與訂正都留在原位置。重新鑑定會新增一份案卷，不會把舊用途改寫成從未存在。"
+msgid "Each appraisal keeps its evidence and corrections. Reappraisal opens a separate file."
+msgstr "每次鑑定都保存證據與修訂，重新鑑定則另立一卷。"
 
 #. copy/noArchive
 #: src/js/appraisal.js:30
@@ -464,25 +457,23 @@ msgstr "繼續鑑定"
 #. copy/retentionTitle
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/retentionTitle"
-msgid "This use did not hold. Keep it anyway?"
-msgstr "這個用途不成立。真的要留下嗎？"
+msgid "Keep this disputed appraisal?"
+msgstr "保留這份存疑鑑定？"
 
 #. copy/retentionLead
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/retentionLead"
 msgid ""
-"The evidence did not support the selected original purpose. An error can "
-"still preserve how Gensokyo understood an Outside object. If retained, it "
-"stays visibly contested and generates BBS reactions."
-msgstr "證據沒有支持你選的原用途，但錯誤也可能保存一段幻想鄉如何理解外界。若堅持保留，案卷會永久標成爭議件並連動 BBS。"
+"The selected purpose lacks supporting evidence. You can keep the file with a "
+"reason for retaining it; it will be marked UNSUPPORTED and may prompt BBS "
+"replies."
+msgstr "證據不足以支持所選用途。你可附上理由保留案卷；它會標示「依據不足」，並可能引來BBS回應。"
 
 #. copy/retentionWarning
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/retentionWarning"
-msgid ""
-"Retention does not make it correct. Later files, My TU, and BBS will all "
-"keep the UNSUPPORTED mark."
-msgstr "它不會因此變成正確答案。後續案卷、My TU 與 BBS 都會保留「未獲支持」標記。"
+msgid "The UNSUPPORTED mark stays on this appraisal in saved files, My TU, and BBS references."
+msgstr "已存案卷、My TU與BBS引用，都會保留「依據不足」標示。"
 
 #. copy/reviewer
 #: src/js/appraisal.js:30

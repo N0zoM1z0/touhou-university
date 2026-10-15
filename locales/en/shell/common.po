@@ -56,22 +56,16 @@ msgid "Hospital & Infirmary"
 msgstr "Hospital & Infirmary"
 
 #. Global message key: clinicMasthead
-#: site.config.mjs:257
+#: site.config.mjs:244
 msgctxt "text:clinicMasthead"
 msgid "Hospital, Infirmary & Lunar Pharmacy"
 msgstr "Hospital, Infirmary & Lunar Pharmacy"
 
 #. Global message key: clinicMastheadLead
-#: site.config.mjs:259
+#: site.config.mjs:246
 msgctxt "text:clinicMastheadLead"
-msgid ""
-"Describe your symptoms first, then choose between the main infirmary and "
-"care across the Bamboo Forest. Prescriptions, dispensing records, and "
-"recovery slips stay on this device."
-msgstr ""
-"Describe your symptoms first, then choose between the main infirmary and "
-"care across the Bamboo Forest. Prescriptions, dispensing records, and "
-"recovery slips stay on this device."
+msgid "Start with your symptoms. The infirmary will refer you to Eientei when needed."
+msgstr "Start with your symptoms. The infirmary will refer you to Eientei when needed."
 
 #. Global message key: clinicTriageNav
 #: src/data/i18n.js:1
@@ -80,19 +74,19 @@ msgid "Triage & Queue"
 msgstr "Triage & Queue"
 
 #. Global message key: clinicPharmacyNav
-#: site.config.mjs:260
+#: site.config.mjs:247
 msgctxt "text:clinicPharmacyNav"
 msgid "Pharmacy & Prescriptions"
 msgstr "Pharmacy & Prescriptions"
 
 #. Global message key: clinicRecoveryNav
-#: site.config.mjs:260
+#: site.config.mjs:247
 msgctxt "text:clinicRecoveryNav"
 msgid "Recovery Therapies"
 msgstr "Recovery Therapies"
 
 #. Global message key: clinicAccountNav
-#: site.config.mjs:260
+#: site.config.mjs:247
 msgctxt "text:clinicAccountNav"
 msgid "My Medical File"
 msgstr "My Medical File"
@@ -100,12 +94,8 @@ msgstr "My Medical File"
 #. Global message key: clinicLoading
 #: src/sections/clinic.html:4
 msgctxt "text:clinicLoading"
-msgid ""
-"Moon rabbits are checking queue tokens, medicine bags, and a prescription "
-"rewritten as a headline."
-msgstr ""
-"Moon rabbits are checking queue tokens, medicine bags, and a prescription "
-"rewritten as a headline."
+msgid "Opening the clinic register…"
+msgstr "Opening the clinic register…"
 
 #. Global message key: skipToMain
 #: src/templates/page.html:26
@@ -146,26 +136,26 @@ msgstr "TOUHOU UNIVERSITY · OPEN CAMPUS 2026"
 #. Global message key: heroLine1
 #: src/sections/hero.html:22
 msgctxt "text:heroLine1"
-msgid "Beyond the border"
-msgstr "Beyond the border"
+msgid "Study in"
+msgstr "Study in"
 
 #. Global message key: heroLine2
 #: src/sections/hero.html:23
 msgctxt "text:heroLine2"
-msgid "we redefine knowledge."
-msgstr "we redefine knowledge."
+msgid "Gensokyo."
+msgstr "Gensokyo."
 
 #. Global message key: heroLead
 #: src/sections/admissions.html:8
 msgctxt "text:heroLead"
-msgid "We do not ask which side you came from."
-msgstr "We do not ask which side you came from."
+msgid "Seven schools, from boundary studies to lunar medicine."
+msgstr "Seven schools, from boundary studies to lunar medicine."
 
 #. Global message key: heroCopy
 #: src/sections/admissions.html:8
 msgctxt "text:heroCopy"
-msgid "We ask what you are prepared to cross."
-msgstr "We ask what you are prepared to cross."
+msgid "Meet the faculty, explore the campus, or try an entrance paper."
+msgstr "Meet the faculty, explore the campus, or try an entrance paper."
 
 #. Global message key: viewAdmissions
 #: src/sections/closing.html:7
@@ -240,7 +230,7 @@ msgid "Campus Visit"
 msgstr "Campus Visit"
 
 #. Global message key: campusMap
-#: site.config.mjs:205 src/sections/services.html:61
+#: site.config.mjs:195 src/sections/services.html:61
 msgctxt "text:campusMap"
 msgid "Campus Map"
 msgstr "Campus Map"
@@ -264,7 +254,7 @@ msgid "Exam Schedule"
 msgstr "Exam Schedule"
 
 #. Global message key: campusBbs
-#: site.config.mjs:205 src/sections/chrome.html:116 src/sections/services.html:91
+#: site.config.mjs:195 src/sections/chrome.html:116 src/sections/services.html:91
 msgctxt "text:campusBbs"
 msgid "Campus BBS"
 msgstr "Campus BBS"
@@ -272,8 +262,8 @@ msgstr "Campus BBS"
 #. Global message key: incidentService
 #: src/sections/footer.html:36 src/sections/services.html:97
 msgctxt "text:incidentService"
-msgid "Campus Incident Center"
-msgstr "Campus Incident Center"
+msgid "Campus Incident Centre"
+msgstr "Campus Incident Centre"
 
 #. Global message key: incidentGlyph
 #: src/sections/services.html:96
@@ -300,23 +290,19 @@ msgid "ARC"
 msgstr "ARC"
 
 #. Global message key: localRecordsMastheadLead
-#: site.config.mjs:289
+#: site.config.mjs:274
 msgctxt "text:localRecordsMastheadLead"
-msgid ""
-"Inspect what this device remembers shelf by shelf, seal it yourself, or "
-"destroy it under a red stamp."
-msgstr ""
-"Inspect what this device remembers shelf by shelf, seal it yourself, or "
-"destroy it under a red stamp."
+msgid "View, export, import, or delete the university records saved in this browser."
+msgstr "View, export, import, or delete the university records saved in this browser."
 
 #. Global message key: localRecordsOverview
-#: site.config.mjs:290
+#: site.config.mjs:275
 msgctxt "text:localRecordsOverview"
 msgid "Cabinet overview"
 msgstr "Cabinet overview"
 
 #. Global message key: localRecordsCatalogue
-#: site.config.mjs:290
+#: site.config.mjs:275
 msgctxt "text:localRecordsCatalogue"
 msgid "File catalogue"
 msgstr "File catalogue"
@@ -330,34 +316,30 @@ msgstr "ABOUT TU"
 #. Global message key: aboutTitle1
 #: src/sections/about.html:43
 msgctxt "text:aboutTitle1"
-msgid "One barrier, seven schools, countless ways to see the world."
-msgstr "One barrier, seven schools, countless ways to see the world."
+msgid "Seven schools inside the Great Barrier."
+msgstr "Seven schools inside the Great Barrier."
 
 #. Global message key: aboutBody1
 #: src/data/i18n.js:1
 msgctxt "text:aboutBody1"
 msgid ""
-"Touhou University sits inside the Great Barrier, connecting the Human "
-"Village, Youkai Mountain, Misty Lake, and the Bamboo Forest. It is a place "
-"where people with different lifespans, abilities, and common sense build "
-"methods they can share."
+"Our campus links the Human Village, Youkai Mountain, Misty Lake, and the "
+"Bamboo Forest. Students with different lifespans and abilities study "
+"together here."
 msgstr ""
-"Touhou University sits inside the Great Barrier, connecting the Human "
-"Village, Youkai Mountain, Misty Lake, and the Bamboo Forest. It is a place "
-"where people with different lifespans, abilities, and common sense build "
-"methods they can share."
+"Our campus links the Human Village, Youkai Mountain, Misty Lake, and the "
+"Bamboo Forest. Students with different lifespans and abilities study "
+"together here."
 
 #. Global message key: aboutBody2
 #: src/data/i18n.js:1
 msgctxt "text:aboutBody2"
 msgid ""
-"Incidents, legends, and everyday life are serious subjects of research here. "
-"Every form of knowledge must answer who may use it, who bears the risk, and "
-"how its findings will serve Gensokyo."
+"We study incidents, local history, medicine, magic, and the things that keep "
+"Gensokyo running."
 msgstr ""
-"Incidents, legends, and everyday life are serious subjects of research here. "
-"Every form of knowledge must answer who may use it, who bears the risk, and "
-"how its findings will serve Gensokyo."
+"We study incidents, local history, medicine, magic, and the things that keep "
+"Gensokyo running."
 
 #. Global message key: schoolsCount
 #: src/sections/about.html:48
@@ -386,12 +368,8 @@ msgstr "contest ideas with respect."
 #. Global message key: mottoBody
 #: src/sections/about.html:21
 msgctxt "text:mottoBody"
-msgid ""
-"A barrier is not the end of knowledge. Every crossing must leave behind "
-"traceable observations and a clear account of responsibility."
-msgstr ""
-"A barrier is not the end of knowledge. Every crossing must leave behind "
-"traceable observations and a clear account of responsibility."
+msgid "Bring back observations others can check. Leave the crossing safe for whoever follows."
+msgstr "Bring back observations others can check. Leave the crossing safe for whoever follows."
 
 #. Global message key: uniformName
 #: src/sections/traditions.html:38
@@ -430,18 +408,14 @@ msgstr "HIEDA ARCHIVES / UNIVERSITY CHRONICLE"
 #. Global message key: chroniclePortalTitle
 #: src/sections/traditions.html:69
 msgctxt "text:chroniclePortalTitle"
-msgid "When the version changes, history must gain a page."
-msgstr "When the version changes, history must gain a page."
+msgid "The university chronicle"
+msgstr "The university chronicle"
 
 #. Global message key: chroniclePortalLead
 #: src/sections/traditions.html:70
 msgctxt "text:chroniclePortalLead"
-msgid ""
-"The Hieda archive turns real version subjects into university history, "
-"preserving corrections, disputes, and objections from those involved."
-msgstr ""
-"The Hieda archive turns real version subjects into university history, "
-"preserving corrections, disputes, and objections from those involved."
+msgid "Read how the campus changed, with notes from Akyuu and objections from everyone else."
+msgstr "Read how the campus changed, with notes from Akyuu and objections from everyone else."
 
 #. Global message key: chronicleLatest
 #: src/sections/traditions.html:73
@@ -494,8 +468,8 @@ msgstr "Seven schools."
 #. Global message key: academicsTitle2
 #: src/sections/academics.html:6
 msgctxt "text:academicsTitle2"
-msgid "No disciplinary boundary is safe."
-msgstr "No disciplinary boundary is safe."
+msgid "Find your field."
+msgstr "Find your field."
 
 #. Global message key: academicBoundary
 #: src/sections/academics.html:18
@@ -548,20 +522,18 @@ msgstr "FACULTY"
 #. Global message key: facultyTitle1
 #: src/sections/faculty.html:6
 msgctxt "text:facultyTitle1"
-msgid "Learn from those who have done the work."
-msgstr "Learn from those who have done the work."
+msgid "Meet your teachers."
+msgstr "Meet your teachers."
 
 #. Global message key: facultyLead
 #: src/data/i18n.js:1
 msgctxt "text:facultyLead"
 msgid ""
-"Incident resolvers, scholars, engineers, reporters, and pharmacists teach "
-"across schools, bringing field experience into research methods, "
-"documentation, and public defence."
+"Meet the incident resolvers, scholars, engineers, reporters, and pharmacists "
+"teaching this term."
 msgstr ""
-"Incident resolvers, scholars, engineers, reporters, and pharmacists teach "
-"across schools, bringing field experience into research methods, "
-"documentation, and public defence."
+"Meet the incident resolvers, scholars, engineers, reporters, and pharmacists "
+"teaching this term."
 
 #. Global message key: all
 #: src/sections/bbs.html:17 src/sections/faculty.html:15 src/js/academic-calendar.js:27 src/js/bbs.js:134
@@ -596,28 +568,24 @@ msgstr "ADMISSIONS"
 #. Global message key: admissionsTitle1
 #: src/data/i18n.js:1
 msgctxt "text:admissionsTitle1"
-msgid "Before admission,"
-msgstr "Before admission,"
+msgid "Bring a question."
+msgstr "Bring a question."
 
 #. Global message key: admissionsTitle2
 #: src/sections/faq.html:5
 msgctxt "text:admissionsTitle2"
-msgid "finish asking the question."
-msgstr "finish asking the question."
+msgid "Choose a school."
+msgstr "Choose a school."
 
 #. Global message key: admissionsLead
 #: src/data/i18n.js:1
 msgctxt "text:admissionsLead"
 msgid ""
-"The Autumn 2026 intake offers multiple admission pathways. Applicants of "
-"every species, lifespan, ability, and place of residence are assessed on the "
-"questions they bring, their methods of observation, and their readiness for "
-"shared campus life."
+"Compare the entry routes for autumn 2026. Your application asks what you "
+"want to study, how you will investigate it, and what you need on campus."
 msgstr ""
-"The Autumn 2026 intake offers multiple admission pathways. Applicants of "
-"every species, lifespan, ability, and place of residence are assessed on the "
-"questions they bring, their methods of observation, and their readiness for "
-"shared campus life."
+"Compare the entry routes for autumn 2026. Your application asks what you "
+"want to study, how you will investigate it, and what you need on campus."
 
 #. Global message key: gensokyoApplicants
 #: src/sections/admissions.html:15
@@ -677,21 +645,21 @@ msgstr "Any format, up to 1,000 characters; fairies may submit images or a field
 #: src/sections/admissions.html:60
 msgctxt "text:spellNote"
 msgid ""
-"An academic contest with a name, rules, and a way out; firepower does not "
-"decide admission."
+"Present a named contest with clear rules and a way to stop. Non-danmaku "
+"formats are welcome."
 msgstr ""
-"An academic contest with a name, rules, and a way out; firepower does not "
-"decide admission."
+"Present a named contest with clear rules and a way to stop. Non-danmaku "
+"formats are welcome."
 
 #. Global message key: sharedLifeNote
 #: src/sections/admissions.html:68
 msgctxt "text:sharedLifeNote"
 msgid ""
-"We confirm housing, food, lunar-phase, and species safety needs; results are "
-"released that day."
+"Tell us about housing, food, lunar-phase, and access needs. Results are "
+"issued the same day."
 msgstr ""
-"We confirm housing, food, lunar-phase, and species safety needs; results are "
-"released that day."
+"Tell us about housing, food, lunar-phase, and access needs. Results are "
+"issued the same day."
 
 #. Global message key: startApplication
 #: src/sections/dialogs.html:30
@@ -714,20 +682,18 @@ msgstr "Start from Hakurei Gate."
 #. Global message key: mapTitle2
 #: src/sections/map.html:6
 msgctxt "text:mapTitle2"
-msgid "Do not mistake a shortcut for the same path."
-msgstr "Do not mistake a shortcut for the same path."
+msgid "Check today's route."
+msgstr "Check today's route."
 
 #. Global message key: mapLead
 #: src/sections/map.html:8
 msgctxt "text:mapLead"
 msgid ""
-"The main campus follows the terrain inside the Great Barrier. Walking times "
-"are based on average human speed; fairies, tengu, and gap travellers must "
-"observe designated flight levels."
+"Walking times assume human pace. Brooms, tengu windways, and rabbit shuttles "
+"use different routes; check closures before leaving."
 msgstr ""
-"The main campus follows the terrain inside the Great Barrier. Walking times "
-"are based on average human speed; fairies, tengu, and gap travellers must "
-"observe designated flight levels."
+"Walking times assume human pace. Brooms, tengu windways, and rabbit shuttles "
+"use different routes; check closures before leaving."
 
 #. Global message key: openHours
 #: src/sections/map.html:74
@@ -786,24 +752,20 @@ msgstr "RESEARCH"
 #. Global message key: researchTitle1
 #: src/sections/research.html:6
 msgctxt "text:researchTitle1"
-msgid "Research does not make fantasy"
-msgstr "Research does not make fantasy"
+msgid "Research from"
+msgstr "Research from"
 
 #. Global message key: researchTitle2
 #: src/sections/research.html:6
 msgctxt "text:researchTitle2"
-msgid "less wondrous."
-msgstr "less wondrous."
+msgid "across Gensokyo."
+msgstr "across Gensokyo."
 
 #. Global message key: researchLead
 #: src/data/i18n.js:1
 msgctxt "text:researchLead"
-msgid ""
-"It lets us be surprised with greater precision—and puts the findings in the "
-"hands of those who need them."
-msgstr ""
-"It lets us be surprised with greater precision—and puts the findings in the "
-"hands of those who need them."
+msgid "Read the methods, findings, and field notes behind each project."
+msgstr "Read the methods, findings, and field notes behind each project."
 
 #. Global message key: boundaryIndex
 #: src/sections/research.html:20
@@ -976,14 +938,14 @@ msgstr "FAQ"
 #. Global message key: faqTitle1
 #: src/sections/faq.html:5
 msgctxt "text:faqTitle1"
-msgid "Before you arrive,"
-msgstr "Before you arrive,"
+msgid "Planning a visit?"
+msgstr "Planning a visit?"
 
 #. Global message key: faqTitle2
 #: src/sections/closing.html:5
 msgctxt "text:faqTitle2"
-msgid "ask the next question."
-msgstr "ask the next question."
+msgid "Start here."
+msgstr "Start here."
 
 #. Global message key: noAbility
 #: src/sections/faq.html:10
@@ -1013,49 +975,41 @@ msgstr "Are interviews or mind-reading unrestricted on campus?"
 #: src/data/i18n.js:1
 msgctxt "text:faqAnswerNoAbility"
 msgid ""
-"Yes. General entry values your question, observation method, readiness to "
-"collaborate, and risk judgment. An ability is assessed only if you choose it "
-"as a research method."
+"Yes. Choose a question, describe how you would study it, and tell us how you "
+"work with others. You may use a special ability as part of your method."
 msgstr ""
-"Yes. General entry values your question, observation method, readiness to "
-"collaborate, and risk judgment. An ability is assessed only if you choose it "
-"as a research method."
+"Yes. Choose a question, describe how you would study it, and tell us how you "
+"work with others. You may use a special ability as part of your method."
 
 #. Global message key: faqAnswerBarrier
 #: src/data/i18n.js:1
 msgctxt "text:faqAnswerBarrier"
 msgid ""
-"After admission, the admissions office assigns a Hakurei Gate crossing time. "
-"Arrive at the designated entrance, do not search for a gap yourself, and "
-"register Outside World electronics in advance."
+"After admission, the office assigns a Hakurei Gate crossing time. Use the "
+"designated entrance and register any Outside World electronics in advance."
 msgstr ""
-"After admission, the admissions office assigns a Hakurei Gate crossing time. "
-"Arrive at the designated entrance, do not search for a gap yourself, and "
-"register Outside World electronics in advance."
+"After admission, the office assigns a Hakurei Gate crossing time. Use the "
+"designated entrance and register any Outside World electronics in advance."
 
 #. Global message key: faqAnswerSpell
 #: src/data/i18n.js:1
 msgctxt "text:faqAnswerSpell"
 msgid ""
-"Firepower does not decide admission. The topic, limits, stop conditions, and "
-"safety distance are published in advance, and non-danmaku formats are "
-"available."
+"The interview tests your question and method. Topics, limits, stop signals, "
+"and distances are given in advance; you may choose a non-danmaku format."
 msgstr ""
-"Firepower does not decide admission. The topic, limits, stop conditions, and "
-"safety distance are published in advance, and non-danmaku formats are "
-"available."
+"The interview tests your question and method. Topics, limits, stop signals, "
+"and distances are given in advance; you may choose a non-danmaku format."
 
 #. Global message key: faqAnswerMind
 #: src/data/i18n.js:1
 msgctxt "text:faqAnswerMind"
 msgid ""
-"No. Interviews, photography, mind-reading, sensory guidance, and historical "
-"abilities require consent under course or research rules. A public space is "
-"not a waiver of privacy."
+"These activities require the person's consent and must follow the relevant "
+"course or research rules, including in public spaces."
 msgstr ""
-"No. Interviews, photography, mind-reading, sensory guidance, and historical "
-"abilities require consent under course or research rules. A public space is "
-"not a waiver of privacy."
+"These activities require the person's consent and must follow the relevant "
+"course or research rules, including in public spaces."
 
 #. Global message key: closing1
 #: src/sections/about.html:6
@@ -1145,27 +1099,23 @@ msgstr "2026 Admissions Guide"
 #: src/sections/admissions.html:9
 msgctxt "text:admissionIntro"
 msgid ""
-"The 2026 autumn intake welcomes humans, youkai, fairies, divine spirits, "
-"magicians, and Outside World applicants. Innate abilities are not required; "
-"we care more about how you describe a failure, verify a rumour, and work "
-"across differences."
+"Autumn 2026 entry welcomes humans, youkai, fairies, divine spirits, "
+"magicians, and Outside World applicants. Tell us what you want to find out "
+"and how you would begin."
 msgstr ""
-"The 2026 autumn intake welcomes humans, youkai, fairies, divine spirits, "
-"magicians, and Outside World applicants. Innate abilities are not required; "
-"we care more about how you describe a failure, verify a rumour, and work "
-"across differences."
+"Autumn 2026 entry welcomes humans, youkai, fairies, divine spirits, "
+"magicians, and Outside World applicants. Tell us what you want to find out "
+"and how you would begin."
 
 #. Global message key: traditionsLead
 #: src/sections/traditions.html:8
 msgctxt "text:traditionsLead"
 msgid ""
-"Crossing a border does not mean crossing another person's limits; it means "
-"leaving answers that only suit you. Contest does not crown the strongest—it "
-"lets different kinds of knowledge continue speaking tomorrow."
+"Keep a record of what you learn across the border. In a spell-card contest, "
+"agree on the rules and how to stop before the first shot."
 msgstr ""
-"Crossing a border does not mean crossing another person's limits; it means "
-"leaving answers that only suit you. Contest does not crown the strongest—it "
-"lets different kinds of knowledge continue speaking tomorrow."
+"Keep a record of what you learn across the border. In a spell-card contest, "
+"agree on the rules and how to stop before the first shot."
 
 #. Global message key: sevenDayTower
 #: src/sections/map.html:37
@@ -1189,13 +1139,11 @@ msgstr "Keine Kamishirasawa"
 #: src/sections/faq.html:32
 msgctxt "text:ethicsAnswer"
 msgid ""
-"No. Interviews, photography, mind-reading, wavelength interference, and "
-"historical manipulation are governed by research ethics. Being able to do "
-"something is not consent."
+"Get consent before interviewing, photographing, reading minds, altering "
+"perception, or using historical abilities. Course and research rules apply."
 msgstr ""
-"No. Interviews, photography, mind-reading, wavelength interference, and "
-"historical manipulation are governed by research ethics. Being able to do "
-"something is not consent."
+"Get consent before interviewing, photographing, reading minds, altering "
+"perception, or using historical abilities. Course and research rules apply."
 
 #. Global message key: ufoClub
 #: src/sections/campus.html:80
@@ -1207,13 +1155,11 @@ msgstr "Unidentified Flying Object Society"
 #: src/sections/faq.html:25
 msgctxt "text:spellAnswer"
 msgid ""
-"No. It borrows a structure with a name, rules, and a way out for debating "
-"ideas. Firepower is not tested, and abilities may not interfere with "
-"judging."
+"The interview uses a named contest with agreed rules and a way to stop. You "
+"can present your work without danmaku."
 msgstr ""
-"No. It borrows a structure with a name, rules, and a way out for debating "
-"ideas. Firepower is not tested, and abilities may not interfere with "
-"judging."
+"The interview uses a named contest with agreed rules and a way to stop. You "
+"can present your work without danmaku."
 
 #. Global message key: bbsExchangePost
 #: src/data/i18n.js:1
@@ -1225,11 +1171,11 @@ msgstr "Trading unused waterproof talismans for a lunar-spec hex-key set"
 #: src/sections/about.html:28
 msgctxt "text:sharedClassroom"
 msgid ""
-"Humans, youkai, gods, and fairies share classrooms; differences are "
-"incorporated into method, not erased."
+"Humans, youkai, gods, and fairies share classes. Methods and access "
+"arrangements account for their different needs."
 msgstr ""
-"Humans, youkai, gods, and fairies share classrooms; differences are "
-"incorporated into method, not erased."
+"Humans, youkai, gods, and fairies share classes. Methods and access "
+"arrangements account for their different needs."
 
 #. Global message key: mottoRespect
 #: src/sections/about.html:34 src/sections/traditions.html:19
@@ -1357,11 +1303,11 @@ msgstr "III"
 #: src/sections/faq.html:11
 msgctxt "text:abilityAnswer"
 msgid ""
-"Yes. Ability is not an admission requirement. Clear observation, willingness "
-"to revise, and cooperation within rules matter more than innate power."
+"Yes. We look for careful observation, a willingness to revise, and the "
+"ability to work with others."
 msgstr ""
-"Yes. Ability is not an admission requirement. Clear observation, willingness "
-"to revise, and cooperation within rules matter more than innate power."
+"Yes. We look for careful observation, a willingness to revise, and the "
+"ability to work with others."
 
 #. Global message key: sourcesCorrections
 #: src/sections/footer.html:42
@@ -1432,12 +1378,8 @@ msgstr "Student Council · 23 minutes ago"
 #. Global message key: researchLeadActual
 #: src/sections/research.html:9
 msgctxt "text:researchLeadActual"
-msgid ""
-"It tells us which legends protect people, which devices leak in the rain, "
-"and when an incident must be stopped."
-msgstr ""
-"It tells us which legends protect people, which devices leak in the rain, "
-"and when an incident must be stopped."
+msgid "Read field notes on local legends, leaking turbines, and when to stop an incident."
+msgstr "Read field notes on local legends, leaking turbines, and when to stop an incident."
 
 #. Global message key: faithTags
 #: src/sections/academics.html:75
@@ -1503,15 +1445,13 @@ msgstr "Gensokyo history · Public memory"
 #: src/sections/about.html:7
 msgctxt "text:aboutActual"
 msgid ""
-"Touhou University of Gensokyo is a research university crossing species, "
-"regions, and common sense. Hieda records, terakoya history, magicians' "
-"experiments, Eientei medicine, kappa engineering, and tengu journalism meet "
-"at one table to test conflicting views."
+"At Touhou University, village teachers, magicians, Eientei pharmacists, "
+"kappa engineers, and tengu reporters teach across seven schools. Their "
+"accounts often disagree. Students learn how to check them."
 msgstr ""
-"Touhou University of Gensokyo is a research university crossing species, "
-"regions, and common sense. Hieda records, terakoya history, magicians' "
-"experiments, Eientei medicine, kappa engineering, and tengu journalism meet "
-"at one table to test conflicting views."
+"At Touhou University, village teachers, magicians, Eientei pharmacists, "
+"kappa engineers, and tengu reporters teach across seven schools. Their "
+"accounts often disagree. Students learn how to check them."
 
 #. Global message key: keineTags
 #: src/sections/academics.html:30
@@ -1540,24 +1480,18 @@ msgstr "It starts when you cross the gate."
 #. Global message key: academicLead
 #: src/sections/academics.html:8
 msgctxt "text:academicLead"
-msgid ""
-"From boundary governance to lunar pharmacology, every discipline must answer "
-"one question: how will this knowledge change shared life in Gensokyo?"
-msgstr ""
-"From boundary governance to lunar pharmacology, every discipline must answer "
-"one question: how will this knowledge change shared life in Gensokyo?"
+msgid "Compare courses, entry requirements, and the work you can pursue in each school."
+msgstr "Compare courses, entry requirements, and the work you can pursue in each school."
 
 #. Global message key: campusLead
 #: src/sections/campus.html:8
 msgctxt "text:campusLead"
 msgid ""
-"From Misty Lake study to Youkai Mountain fieldwork and the annual spell-card "
-"lantern festival, campus is not a barrier from difference but a place to "
-"learn how to live together."
+"Study by Misty Lake, head into the mountains for fieldwork, and help light "
+"the sky at the annual lantern festival."
 msgstr ""
-"From Misty Lake study to Youkai Mountain fieldwork and the annual spell-card "
-"lantern festival, campus is not a barrier from difference but a place to "
-"learn how to live together."
+"Study by Misty Lake, head into the mountains for fieldwork, and help light "
+"the sky at the annual lantern festival."
 
 #. Global message key: bbsCoursePost2
 #: src/data/i18n.js:1
@@ -1597,13 +1531,11 @@ msgstr "efficiency gain (campus trial)"
 #: src/data/i18n.js:1
 msgctxt "text:facultyActualLead"
 msgid ""
-"Faculty teach beyond lecture halls, leading field research across shrines, "
-"bamboo forests, mountains, and the lunar surface. Eight core chairs accept "
-"graduate appointments this term."
+"Eight core faculty teach this term, with field classes at shrines, in the "
+"Bamboo Forest, and on Youkai Mountain."
 msgstr ""
-"Faculty teach beyond lecture halls, leading field research across shrines, "
-"bamboo forests, mountains, and the lunar surface. Eight core chairs accept "
-"graduate appointments this term."
+"Eight core faculty teach this term, with field classes at shrines, in the "
+"Bamboo Forest, and on Youkai Mountain."
 
 #. Global message key: journalismTags
 #: src/sections/faculty.html:121
@@ -1639,15 +1571,13 @@ msgstr "Has anyone found a safe solution to Seven-Day Elemental Theory II assign
 #: src/sections/footer.html:51
 msgctxt "text:footerDisclaimer"
 msgid ""
-"This is an unofficial Touhou Project fan work and is not affiliated with "
-"Team Shanghai Alice or ZUN. Touhou Project was created by ZUN (Team Shanghai "
-"Alice). The university name, courses, titles, admissions system, research "
-"results, and campus data are original to this site's AU."
+"Unofficial Touhou Project fan work. Touhou Project is by ZUN / Team Shanghai "
+"Alice. The university, courses, admissions, and campus records were created "
+"for this site."
 msgstr ""
-"This is an unofficial Touhou Project fan work and is not affiliated with "
-"Team Shanghai Alice or ZUN. Touhou Project was created by ZUN (Team Shanghai "
-"Alice). The university name, courses, titles, admissions system, research "
-"results, and campus data are original to this site's AU."
+"Unofficial Touhou Project fan work. Touhou Project is by ZUN / Team Shanghai "
+"Alice. The university, courses, admissions, and campus records were created "
+"for this site."
 
 #. Global message key: prospectusTitle
 #: src/sections/admissions.html:3
@@ -1730,14 +1660,8 @@ msgstr "Inter-species learning"
 #. Global message key: aboutQuote
 #: src/sections/hero.html:25
 msgctxt "text:aboutQuote"
-msgid ""
-"When history can be devoured, medicine comes from the Lunar Capital, and "
-"engineering runs with waterfalls, scholarship becomes more than answers: it "
-"becomes a way for humans and youkai to live together."
-msgstr ""
-"When history can be devoured, medicine comes from the Lunar Capital, and "
-"engineering runs with waterfalls, scholarship becomes more than answers: it "
-"becomes a way for humans and youkai to live together."
+msgid "A history lesson may lose a day. Pharmacy follows the moon. Take good notes."
+msgstr "A history lesson may lose a day. Pharmacy follows the moon. Take good notes."
 
 #. Global message key: speciesLabel
 #: src/sections/about.html:56
@@ -1777,13 +1701,11 @@ msgstr "R"
 #: src/sections/dialogs.html:26
 msgctxt "text:prospectusBody"
 msgid ""
-"Online applications for the autumn intake are open through 31 August. You "
-"may save in stages; Outside World applicants receive a barrier-crossing time "
-"after document review."
+"The autumn 2026 application deadline is 31 August. Save your draft as you "
+"go; Outside World applicants receive crossing instructions after review."
 msgstr ""
-"Online applications for the autumn intake are open through 31 August. You "
-"may save in stages; Outside World applicants receive a barrier-crossing time "
-"after document review."
+"The autumn 2026 application deadline is 31 August. Save your draft as you "
+"go; Outside World applicants receive crossing instructions after review."
 
 #. Global message key: hiedaHall
 #: src/sections/map.html:34
@@ -1806,12 +1728,8 @@ msgstr "Bamboo Navigation recruitment: no guarantee of the same return route thi
 #. Global message key: spellPrinciple
 #: src/sections/about.html:35
 msgctxt "text:spellPrinciple"
-msgid ""
-"Spell-card rules remind us that even the sharpest contest can have a name, a "
-"boundary, and a way out."
-msgstr ""
-"Spell-card rules remind us that even the sharpest contest can have a name, a "
-"boundary, and a way out."
+msgid "Give the contest a name, agree on its rules, and leave everyone a way to stop."
+msgstr "Give the contest a name, agree on its rules, and leave everyone a way to stop."
 
 #. Global message key: boundaryHistory
 #: src/sections/faculty.html:16
@@ -1829,13 +1747,11 @@ msgstr "Boundary governance · Incident response · Spell-card ethics"
 #: src/sections/research.html:21
 msgctxt "text:boundaryResearchBody"
 msgid ""
-"The Boundary Observatory and Kourindou use a non-invasive registry to record "
-"how Outside World objects change meaning as they enter Gensokyo, without "
-"widening gaps or using owners' memories as experimental material."
+"The Boundary Observatory and Kourindou track the names and uses of objects "
+"arriving from the Outside World through non-invasive observation."
 msgstr ""
-"The Boundary Observatory and Kourindou use a non-invasive registry to record "
-"how Outside World objects change meaning as they enter Gensokyo, without "
-"widening gaps or using owners' memories as experimental material."
+"The Boundary Observatory and Kourindou track the names and uses of objects "
+"arriving from the Outside World through non-invasive observation."
 
 #. Global message key: iconDining
 #: src/sections/services.html:66
@@ -1962,7 +1878,7 @@ msgid "Read full research file"
 msgstr "Read full research file"
 
 #. Global message key: mistyLibrary
-#: site.config.mjs:237 src/sections/chrome.html:48 src/sections/footer.html:30 src/sections/library.html:2
+#: site.config.mjs:225 src/sections/chrome.html:48 src/sections/footer.html:30 src/sections/library.html:2
 msgctxt "text:mistyLibrary"
 msgid "Misty Lake Library"
 msgstr "Misty Lake Library"
@@ -2054,26 +1970,24 @@ msgstr "ADMISSIONS EXAM"
 #. Global message key: examTitle1
 #: src/sections/exam.html:6
 msgctxt "text:examTitle1"
-msgid "Now,"
-msgstr "Now,"
+msgid "Choose a paper."
+msgstr "Choose a paper."
 
 #. Global message key: examTitle2
 #: src/sections/exam.html:6
 msgctxt "text:examTitle2"
-msgid "let the questions start the clock."
-msgstr "let the questions start the clock."
+msgid "You have eight minutes."
+msgstr "You have eight minutes."
 
 #. Global message key: examLead
 #: src/sections/exam.html:8
 msgctxt "text:examLead"
 msgid ""
-"Choose a paper and answer eight questions in eight minutes. Submission is "
-"scored instantly with explanations; results stay on this device, and retakes "
-"reshuffle the questions."
+"Answer eight questions in eight minutes. Submit for your score and "
+"explanations, or return later to review a saved attempt."
 msgstr ""
-"Choose a paper and answer eight questions in eight minutes. Submission is "
-"scored instantly with explanations; results stay on this device, and retakes "
-"reshuffle the questions."
+"Answer eight questions in eight minutes. Submit for your score and "
+"explanations, or return later to review a saved attempt."
 
 #. Global message key: takeExam
 #: site.config.mjs:44 src/sections/services.html:85
@@ -2096,14 +2010,14 @@ msgstr "Arrival & Services"
 #. Global message key: applicationDeadline
 #: src/sections/admissions.html:31
 msgctxt "text:applicationDeadline"
-msgid "Autumn 2026 online application · closes 31 August"
-msgstr "Autumn 2026 online application · closes 31 August"
+msgid "Autumn 2026 application deadline: 31 August"
+msgstr "Autumn 2026 application deadline: 31 August"
 
 #. Global message key: routePlannerTitle
 #: src/sections/map.html:92
 msgctxt "text:routePlannerTitle"
-msgid "Where to? Let the campus network work it out."
-msgstr "Where to? Let the campus network work it out."
+msgid "Plan your campus route."
+msgstr "Plan your campus route."
 
 #. Global message key: routePlannerLead
 #: src/sections/map.html:95
@@ -2119,13 +2033,11 @@ msgstr ""
 #: src/sections/map.html:93
 msgctxt "text:routeOutsiderCredit"
 msgid ""
-"Algorithm temporarily borrowed from an Outside World applicant who insists "
-"“it is only Dijkstra”; Yukari has not conceded that the shortest path stays "
-"on the same side."
+"An Outside World applicant calls the algorithm “just Dijkstra”. Yukari is "
+"still checking which side counts as shortest."
 msgstr ""
-"Algorithm temporarily borrowed from an Outside World applicant who insists "
-"“it is only Dijkstra”; Yukari has not conceded that the shortest path stays "
-"on the same side."
+"An Outside World applicant calls the algorithm “just Dijkstra”. Yukari is "
+"still checking which side counts as shortest."
 
 #. Global message key: mapLiveLabel
 #: src/sections/map.html:75
@@ -2216,13 +2128,13 @@ msgid "Read the spell-card research file"
 msgstr "Read the spell-card research file"
 
 #. Global message key: spellcardWorkshopNav
-#: site.config.mjs:79
+#: site.config.mjs:77
 msgctxt "text:spellcardWorkshopNav"
 msgid "Spell-card Design Workshop"
 msgstr "Spell-card Design Workshop"
 
 #. Global message key: spellcardRecordsNav
-#: site.config.mjs:79
+#: site.config.mjs:77
 msgctxt "text:spellcardRecordsNav"
 msgid "My Spell-card Files"
 msgstr "My Spell-card Files"
@@ -2261,13 +2173,11 @@ msgstr "Content is autosaved; after publishing, find it again under My Posts."
 #: src/sections/faculty.html:8
 msgctxt "text:facultyFrictionLead"
 msgid ""
-"Faculty bring field experience into the lecture hall—and their own trouble "
-"with it. Alongside eight core chairs, Faith & Coexistence opens four "
-"rotating teaching seats this term."
+"Eight core faculty and four rotating Faith & Coexistence lecturers teach "
+"this term. Some of their own disputes are still before the university."
 msgstr ""
-"Faculty bring field experience into the lecture hall—and their own trouble "
-"with it. Alongside eight core chairs, Faith & Coexistence opens four "
-"rotating teaching seats this term."
+"Eight core faculty and four rotating Faith & Coexistence lecturers teach "
+"this term. Some of their own disputes are still before the university."
 
 #. Global message key: unresolvedOffice
 #: src/sections/faculty.html:129
@@ -2285,13 +2195,11 @@ msgstr "The rules are orderly. The faculty are not."
 #: src/sections/faculty.html:131
 msgctxt "text:unresolvedLead"
 msgid ""
-"These are cases the meeting has not sanded smooth: headlines too fast, "
-"materials without sources, moving classrooms, and a pipe temporarily "
-"repaired for 129 days."
+"This week's files: a premature headline, two unlisted grimoires, a missing "
+"classroom, and a temporary repair on day 129."
 msgstr ""
-"These are cases the meeting has not sanded smooth: headlines too fast, "
-"materials without sources, moving classrooms, and a pipe temporarily "
-"repaired for 129 days."
+"This week's files: a premature headline, two unlisted grimoires, a missing "
+"classroom, and a temporary repair on day 129."
 
 #. Global message key: weeklyConclusion
 #: src/sections/faculty.html:138
@@ -2345,13 +2253,11 @@ msgstr "Four faith blocs. One table too small."
 #: src/sections/faculty.html:167
 msgctxt "text:faithCouncilLead"
 msgid ""
-"The school does not pretend religious dialogue always ends smoothly. Temple "
-"coexistence, shrine infrastructure, a hermit's public desire, and "
-"Outside-style event planning collide over the same budget."
+"Temple meals, shrine infrastructure, Taoist leadership, and Outside World "
+"festival plans compete for the same budget."
 msgstr ""
-"The school does not pretend religious dialogue always ends smoothly. Temple "
-"coexistence, shrine infrastructure, a hermit's public desire, and "
-"Outside-style event planning collide over the same budget."
+"Temple meals, shrine infrastructure, Taoist leadership, and Outside World "
+"festival plans compete for the same budget."
 
 #. Global message key: externalAppeals
 #: src/sections/faculty.html:174
@@ -2468,7 +2374,7 @@ msgid "HALL"
 msgstr "HALL"
 
 #. Global message key: housingSectionTitle
-#: site.config.mjs:272 src/sections/housing.html:2
+#: site.config.mjs:258 src/sections/housing.html:2
 msgctxt "text:housingSectionTitle"
 msgid "Housing, Rooms & Roommates"
 msgstr "Housing, Rooms & Roommates"
@@ -2480,43 +2386,43 @@ msgid "The housing ledger is checking room numbers."
 msgstr "The housing ledger is checking room numbers."
 
 #. Global message key: housingOverviewNav
-#: site.config.mjs:275
+#: site.config.mjs:261
 msgctxt "text:housingOverviewNav"
 msgid "Residences"
 msgstr "Residences"
 
 #. Global message key: housingApplicationNav
-#: site.config.mjs:275
+#: site.config.mjs:261
 msgctxt "text:housingApplicationNav"
 msgid "Apply & Match"
 msgstr "Apply & Match"
 
 #. Global message key: housingAccountNav
-#: site.config.mjs:275
+#: site.config.mjs:261
 msgctxt "text:housingAccountNav"
 msgid "My Housing"
 msgstr "My Housing"
 
 #. Global message key: orientationWelcomeNav
-#: site.config.mjs:60
+#: site.config.mjs:59
 msgctxt "text:orientationWelcomeNav"
 msgid "Arrival office"
 msgstr "Arrival office"
 
 #. Global message key: orientationArrivalNav
-#: site.config.mjs:61
+#: site.config.mjs:60
 msgctxt "text:orientationArrivalNav"
 msgid "Arrival route"
 msgstr "Arrival route"
 
 #. Global message key: orientationBoundaryNav
-#: site.config.mjs:62
+#: site.config.mjs:61
 msgctxt "text:orientationBoundaryNav"
 msgid "Stop & notice"
 msgstr "Stop & notice"
 
 #. Global message key: orientationFirstBellNav
-#: site.config.mjs:63
+#: site.config.mjs:62
 msgctxt "text:orientationFirstBellNav"
 msgid "First destination"
 msgstr "First destination"
@@ -2530,15 +2436,11 @@ msgstr "FIRST BELL / NEW STUDENT ARRIVAL"
 #. Global message key: orientationLoading
 #: src/sections/orientation.html:6
 msgctxt "text:orientationLoading"
-msgid ""
-"The arrival office is checking the admission edition. Aya rendered ‘expected "
-"arrival’ as ‘mysterious disappearance’; a correction is following."
-msgstr ""
-"The arrival office is checking the admission edition. Aya rendered ‘expected "
-"arrival’ as ‘mysterious disappearance’; a correction is following."
+msgid "Opening your arrival file…"
+msgstr "Opening your arrival file…"
 
 #. Global message key: appraisalNav
-#: site.config.mjs:240
+#: site.config.mjs:228
 msgctxt "text:appraisalNav"
 msgid "Drift-Object Appraisal"
 msgstr "Drift-Object Appraisal"
@@ -2556,19 +2458,19 @@ msgid "Operations desk"
 msgstr "Operations desk"
 
 #. Global message key: festivalRecordsNav
-#: site.config.mjs:124
+#: site.config.mjs:119
 msgctxt "text:festivalRecordsNav"
 msgid "Permits & closing files"
 msgstr "Permits & closing files"
 
 #. Global message key: festivalMapNav
-#: site.config.mjs:124
+#: site.config.mjs:119
 msgctxt "text:festivalMapNav"
 msgid "Duty campus map"
 msgstr "Duty campus map"
 
 #. Global message key: festivalBbsNav
-#: site.config.mjs:124
+#: site.config.mjs:119
 msgctxt "text:festivalBbsNav"
 msgid "Festival rumours"
 msgstr "Festival rumours"
@@ -2588,33 +2490,29 @@ msgstr "FESTIVAL OPERATIONS / BOUNDARY FESTIVAL"
 #. Global message key: festivalLoading
 #: src/sections/festival.html:6
 msgctxt "text:festivalLoading"
-msgid ""
-"Kappa are pulling the power plan from under the tape; three sole main gates "
-"still deny one another on the same form."
-msgstr ""
-"Kappa are pulling the power plan from under the tape; three sole main gates "
-"still deny one another on the same form."
+msgid "Opening the festival desk…"
+msgstr "Opening the festival desk…"
 
 #. Global message key: fieldworkStationsNav
-#: site.config.mjs:139
+#: site.config.mjs:133
 msgctxt "text:fieldworkStationsNav"
 msgid "Twenty-four stations"
 msgstr "Twenty-four stations"
 
 #. Global message key: fieldworkDispatchNav
-#: site.config.mjs:139
+#: site.config.mjs:133
 msgctxt "text:fieldworkDispatchNav"
 msgid "Dispatch desk"
 msgstr "Dispatch desk"
 
 #. Global message key: fieldworkPassportNav
-#: site.config.mjs:139
+#: site.config.mjs:133
 msgctxt "text:fieldworkPassportNav"
 msgid "My passport"
 msgstr "My passport"
 
 #. Global message key: fieldworkRecordsNav
-#: site.config.mjs:139
+#: site.config.mjs:133
 msgctxt "text:fieldworkRecordsNav"
 msgid "Dispatch & return files"
 msgstr "Dispatch & return files"
@@ -2634,12 +2532,8 @@ msgstr "FIELDWORK PASSPORT / DOMESTIC PLACEMENT DESK"
 #. Global message key: fieldworkLoading
 #: src/sections/fieldwork.html:6
 msgctxt "text:fieldworkLoading"
-msgid ""
-"Keine is arranging twenty-four field seals by risk; the Scarlet Devil "
-"Mansion and Hakugyokurou refuse the same column."
-msgstr ""
-"Keine is arranging twenty-four field seals by risk; the Scarlet Devil "
-"Mansion and Hakugyokurou refuse the same column."
+msgid "Opening the fieldwork stations…"
+msgstr "Opening the fieldwork stations…"
 
 #. Global message key: commonsTitle
 #: src/sections/commons.html:5
@@ -2656,27 +2550,23 @@ msgstr "CAMPUS COMMONS / PROPERTY × POST"
 #. Global message key: commonsLoading
 #: src/sections/commons.html:6
 msgctxt "text:commonsLoading"
-msgid ""
-"Kogasa is saving a seat for an umbrella that refuses to go home; Aya has "
-"delivered its unsent hearing notice."
-msgstr ""
-"Kogasa is saving a seat for an umbrella that refuses to go home; Aya has "
-"delivered its unsent hearing notice."
+msgid "Opening Lost Property and Tengu Post…"
+msgstr "Opening Lost Property and Tengu Post…"
 
 #. Global message key: graduationAuditNav
-#: site.config.mjs:185
+#: site.config.mjs:176
 msgctxt "text:graduationAuditNav"
 msgid "Eight-desk audit"
 msgstr "Eight-desk audit"
 
 #. Global message key: careerOfficeNav
-#: site.config.mjs:186
+#: site.config.mjs:177
 msgctxt "text:careerOfficeNav"
 msgid "Twelve career files"
 msgstr "Twelve career files"
 
 #. Global message key: employmentMarketNav
-#: site.config.mjs:187
+#: site.config.mjs:178
 msgctxt "text:employmentMarketNav"
 msgid "Gensokyo Employment Market"
 msgstr "Gensokyo Employment Market"
@@ -2690,27 +2580,23 @@ msgstr "GENSOKYO EMPLOYMENT MARKET"
 #. Global message key: employmentLoadingTitle
 #: src/sections/employment.html:5
 msgctxt "text:employmentLoadingTitle"
-msgid "Graduate whereabouts are being recounted"
-msgstr "Graduate whereabouts are being recounted"
+msgid "Opening the employment board…"
+msgstr "Opening the employment board…"
 
 #. Global message key: employmentLoading
 #: src/sections/employment.html:6
 msgctxt "text:employmentLoading"
-msgid ""
-"Akyuu counts each person once, Youmu counts souls twice, and Remilia has "
-"already claimed every non-applicant as hired."
-msgstr ""
-"Akyuu counts each person once, Youmu counts souls twice, and Remilia has "
-"already claimed every non-applicant as hired."
+msgid "Loading vacancies and graduate records…"
+msgstr "Loading vacancies and graduate records…"
 
 #. Global message key: alumniAssociationNav
-#: site.config.mjs:188
+#: site.config.mjs:179
 msgctxt "text:alumniAssociationNav"
 msgid "Hyakki Yagyo Alumni"
 msgstr "Hyakki Yagyo Alumni"
 
 #. Global message key: graduationRecordsNav
-#: site.config.mjs:189
+#: site.config.mjs:180
 msgctxt "text:graduationRecordsNav"
 msgid "My audit files"
 msgstr "My audit files"
@@ -2730,12 +2616,8 @@ msgstr "Graduation, Careers & Hyakki Yagyo Alumni"
 #. Global message key: careersLoading
 #: src/sections/careers.html:6
 msgctxt "text:careersLoading"
-msgid ""
-"Eight desks are checking one record; crow-tengu post has already delivered "
-"its still-sealed alumni invitation."
-msgstr ""
-"Eight desks are checking one record; crow-tengu post has already delivered "
-"its still-sealed alumni invitation."
+msgid "Opening graduation and careers…"
+msgstr "Opening graduation and careers…"
 
 #. Global message key: calendarTitle
 #: src/sections/academic-calendar.html:5
@@ -2752,12 +2634,8 @@ msgstr "GENSOKYO ACADEMIC CALENDAR"
 #. Global message key: calendarLoading
 #: src/sections/academic-calendar.html:6
 msgctxt "text:calendarLoading"
-msgid ""
-"Keine is checking which season owns today; Hakugyokurou has objected to "
-"spring's delivery date."
-msgstr ""
-"Keine is checking which season owns today; Hakugyokurou has objected to "
-"spring's delivery date."
+msgid "Opening the academic calendar…"
+msgstr "Opening the academic calendar…"
 
 #. Global message key: ethicsBoardTitle
 #: src/sections/ethics.html:5
@@ -2768,8 +2646,8 @@ msgstr "Gensokyo Research Ethics Review Board"
 #. Global message key: ethicsLoading
 #: src/sections/ethics.html:6
 msgctxt "text:ethicsLoading"
-msgid "Akyuu is binding five opinions separately; Eiki has forbidden the averaging stapler."
-msgstr "Akyuu is binding five opinions separately; Eiki has forbidden the averaging stapler."
+msgid "Opening the review files…"
+msgstr "Opening the review files…"
 
 #. Global message key: ethicsPortal
 #: src/sections/research.html:42
@@ -2778,19 +2656,19 @@ msgid "Submit a protocol to the Gensokyo Research Ethics Review Board"
 msgstr "Submit a protocol to the Gensokyo Research Ethics Review Board"
 
 #. Global message key: incidentCasesNav
-#: site.config.mjs:109
+#: site.config.mjs:105
 msgctxt "text:incidentCasesNav"
 msgid "Case Files"
 msgstr "Case Files"
 
 #. Global message key: incidentSimulatorNav
-#: site.config.mjs:109
+#: site.config.mjs:105
 msgctxt "text:incidentSimulatorNav"
 msgid "Research Simulator"
 msgstr "Research Simulator"
 
 #. Global message key: incidentRecordsNav
-#: site.config.mjs:109
+#: site.config.mjs:105
 msgctxt "text:incidentRecordsNav"
 msgid "Closures & Reactions"
 msgstr "Closures & Reactions"
@@ -2798,9 +2676,5 @@ msgstr "Closures & Reactions"
 #. Global message key: incidentLoading
 #: src/sections/incidents.html:4
 msgctxt "text:incidentLoading"
-msgid ""
-"The Incident Desk is opening evidence bags, a version sheet, and one "
-"rain-wrinkled campus paper."
-msgstr ""
-"The Incident Desk is opening evidence bags, a version sheet, and one "
-"rain-wrinkled campus paper."
+msgid "Opening the incident files…"
+msgstr "Opening the incident files…"

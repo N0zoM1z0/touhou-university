@@ -1357,13 +1357,11 @@ msgstr ""
 #: src/data/knowledge-graph.js:529
 msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.7.graduation-history.5"
 msgid ""
-"The chronicle links audit, degree, careers, and alumni by actual "
-"first-parent versions; invitation delivery order continues objecting in "
-"another column."
+"The chronicle dates the audit, degree, careers, and alumni records. The "
+"invitation's delivery date still disagrees."
 msgstr ""
-"The chronicle links audit, degree, careers, and alumni by actual "
-"first-parent versions; invitation delivery order continues objecting in "
-"another column."
+"The chronicle dates the audit, degree, careers, and alumni records. The "
+"invitation's delivery date still disagrees."
 
 #. knowledgeDossiers.0.first-bell-three-gates.title
 #: src/data/knowledge-graph.js:536
@@ -1427,11 +1425,11 @@ msgstr ""
 #: src/data/knowledge-graph.js:554
 msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.3.first-course.5"
 msgid ""
-"The first destination opens a real course, not a personality test. Marisa "
-"still claims the bell striker is registration equipment."
+"The first destination leads to course registration. Marisa still claims the "
+"bell striker belongs with the enrolment equipment."
 msgstr ""
-"The first destination opens a real course, not a personality test. Marisa "
-"still claims the bell striker is registration equipment."
+"The first destination leads to course registration. Marisa still claims the "
+"bell striker belongs with the enrolment equipment."
 
 #. knowledgeDossiers.0.first-bell-three-gates.records.4.arrival-notice.5
 #: src/data/knowledge-graph.js:555

@@ -1,9 +1,14 @@
 # Three-language editorial catalogs
 
-The default public edition remains Traditional Chinese (`zh-Hant`), alongside
-Japanese (`ja`) and English (`en`). Each edition has matching PO paths, divided
+English (`en`) is the default public edition. Language controls list English,
+Japanese (`ja`), then Traditional Chinese (`zh-Hant`), respecting saved choices.
+Each edition has matching PO paths, divided
 into `shell/`, `data/`, `ui/` and `build/` owners. Use a text editor, Poedit or
 another gettext editor. Browser code never reads PO files or calls a translator.
+
+The positional `values()` API remains `(zh-Hant, ja, en)` for existing data
+constructors. Its tuple order is independent of the visible language controls.
+Prefer keyed records for new consumers.
 
 ## Edit existing wording
 
@@ -31,7 +36,7 @@ npm run check:i18n    # strict catalogs, markup keys and compiled-default checks
 npm run preview       # inspect dist/ at http://127.0.0.1:4173
 ```
 
-English is the reference edition, not the default interface language. When its
+English is both the reference edition and the default interface language. When its
 `msgstr` changes, sync updates `msgid` and marks the other editions `fuzzy` while
 keeping their previous text. Review those translations, update `msgstr`, and
 remove the fuzzy flag. Missing or pending translations stop the build; they are

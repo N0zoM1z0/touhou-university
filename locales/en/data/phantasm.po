@@ -847,13 +847,11 @@ msgstr "Dream Campus begins along the routes you did not take."
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/campusLead"
 msgid ""
-"This is not another life. It temporarily enrols the branches ordinary "
-"administration excluded, declined, dropped, or left unvoted. After waking, "
-"the official ledger still recognises only the original choices."
+"Here, declined offers, dropped courses, and uncast votes have a campus of "
+"their own. On waking, your original choices still stand."
 msgstr ""
-"This is not another life. It temporarily enrols the branches ordinary "
-"administration excluded, declined, dropped, or left unvoted. After waking, "
-"the official ledger still recognises only the original choices."
+"Here, declined offers, dropped courses, and uncast votes have a campus of "
+"their own. On waking, your original choices still stand."
 
 #. phantasmCopy/dreamTime
 #: src/data/phantasm.js:227
@@ -970,12 +968,8 @@ msgstr "Ninth-period registration"
 #. phantasmCopy/coursesLead
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/coursesLead"
-msgid ""
-"Choose three. The credit limit is outside the dream boundary, but one you "
-"cannot occupy four nonexistent rooms at once."
-msgstr ""
-"Choose three. The credit limit is outside the dream boundary, but one you "
-"cannot occupy four nonexistent rooms at once."
+msgid "Choose three courses. Even in a dream, four rooms at once is asking too much."
+msgstr "Choose three courses. Even in a dream, four rooms at once is asking too much."
 
 #. phantasmCopy/selected
 #: src/data/phantasm.js:227
@@ -1116,8 +1110,8 @@ msgstr "Choose three ninth-period courses first."
 #. phantasmCopy/needStatement
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/needStatement"
-msgid "The statement needs at least twenty-four characters; an ellipsis is not another route."
-msgstr "The statement needs at least twenty-four characters; an ellipsis is not another route."
+msgid "Write at least twenty-four characters to explain the unused choice."
+msgstr "Write at least twenty-four characters to explain the unused choice."
 
 #. phantasmCopy/completed
 #: src/data/phantasm.js:227
@@ -1180,12 +1174,8 @@ msgstr "Wake up with one unreliable memory"
 #. phantasmCopy/wakeNote
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/wakeNote"
-msgid ""
-"Waking does not delete dream records or insert them into the official "
-"ledger. BBS may ignore the second half."
-msgstr ""
-"Waking does not delete dream records or insert them into the official "
-"ledger. BBS may ignore the second half."
+msgid "Dream records remain here after waking. They stay separate from your official record."
+msgstr "Dream records remain here after waking. They stay separate from your official record."
 
 #. phantasmCopy/student
 #: src/data/phantasm.js:227

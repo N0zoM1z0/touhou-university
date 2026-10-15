@@ -16,14 +16,14 @@ msgstr "来訪者"
 #. paths.visitor.title
 #: src/js/audiences.js:9
 msgctxt "text:paths.visitor.title"
-msgid "Your first visit to Touhou University"
-msgstr "幻想郷立東方大学を初めて訪れる"
+msgid "Visiting for the first time?"
+msgstr "初めての方へ"
 
 #. paths.visitor.lead
 #: src/js/audiences.js:10
 msgctxt "text:paths.visitor.lead"
-msgid "See how campus works, then plan a visit route that does not deposit you in last week."
-msgstr "大学の仕組みを知り、先週へ迷い込まない見学経路を組みましょう。"
+msgid "Get to know the university, find your way around, or book a campus visit."
+msgstr "大学を知りたい方、構内を見たい方、来校を予約したい方はこちら。"
 
 #. paths.visitor.actions.0.1
 #: src/js/audiences.js:12
@@ -58,14 +58,14 @@ msgstr "志願者"
 #. paths.applicant.title
 #: src/js/audiences.js:21
 msgctxt "text:paths.applicant.title"
-msgid "Put your school, question, and exam on one path"
-msgstr "志望・問い・試験を一つの経路へ"
+msgid "Find your entry route."
+msgstr "入学を考えている方へ"
 
 #. paths.applicant.lead
 #: src/js/audiences.js:22
 msgctxt "text:paths.applicant.lead"
-msgid "Compare seven schools, take a simulation, then carry your choice into the application."
-msgstr "七学部を比較し、模試を受け、選んだ学部をそのまま出願票へ。"
+msgid "Compare schools, try an entrance paper, and start your application."
+msgstr "学部を比べ、入試問題を試して、出願を始められます。"
 
 #. paths.applicant.actions.0.1
 #: src/js/audiences.js:24
@@ -100,16 +100,16 @@ msgstr "新入生"
 #. paths.newcomer.title
 #: src/js/audiences.js:33
 msgctxt "text:paths.newcomer.title"
-msgid "Bring the admission review, not only the welcome"
-msgstr "歓迎の言葉だけでなく、合格審査を持ってくる"
+msgid "Ready to arrive?"
+msgstr "合格した方へ"
 
 #. paths.newcomer.lead
 #: src/js/audiences.js:34
 msgctxt "text:paths.newcomer.lead"
 msgid ""
-"Confirm a route that works today from Hakurei Gate, agree on a stop signal, "
-"then choose the first real thing to do after First Bell."
-msgstr "博麗門から今日通れる経路を確かめ、停止合図を決め、第一鐘の後に始める本当の用事を選びます。"
+"Check your admission review, plan a route from Hakurei Gate, and choose "
+"where to go first."
+msgstr "合格審査を確認し、博麗門からの経路と最初の行先を決めます。"
 
 #. paths.newcomer.actions.0.1
 #: src/js/audiences.js:36
@@ -144,16 +144,14 @@ msgstr "在学生"
 #. paths.student.title
 #: src/js/audiences.js:45
 msgctxt "text:paths.student.title"
-msgid "Today's classes, free rooms, and campus rumours"
-msgstr "今日の授業、空き教室、キャンパスの風聞"
+msgid "What's on today?"
+msgstr "在学生の方へ"
 
 #. paths.student.lead
 #: src/js/audiences.js:46
 msgctxt "text:paths.student.lead"
-msgid ""
-"It will not submit your work, but it can tell you whether the room still "
-"exists and what lunch remains."
-msgstr "課題の提出は代行しませんが、教室がまだ存在するか、昼食が残っているかは分かります。"
+msgid "Check classes and free rooms, find lunch, or catch up on the BBS."
+msgstr "授業と空き教室を確認したら、昼食とBBSの話題もどうぞ。"
 
 #. paths.student.actions.0.1
 #: src/js/audiences.js:48
@@ -182,5 +180,5 @@ msgstr "学内 BBS へ"
 #. render
 #: src/js/audiences.js:68
 msgctxt "text:render"
-msgid "How are you entering campus today?"
-msgstr "今日はどの立場で大学へ？"
+msgid "Where would you like to start?"
+msgstr "どこから始めますか？"

@@ -16,20 +16,18 @@ msgstr "INCIDENT RESPONSE / CAMPUS INCIDENT DESK"
 #. copy/title
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/title"
-msgid "Do not declare an incident just yet."
-msgstr "Do not declare an incident just yet."
+msgid "What happened on campus?"
+msgstr "What happened on campus?"
 
 #. copy/lead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/lead"
 msgid ""
-"Collect testimony, open the version history, choose a reversible response, "
-"then let the research design decide what is actually known. The campus wire "
-"will be restrained after closure; the BBS usually will not."
+"Read testimony and evidence, choose an initial response, and test an "
+"explanation. The closing report will reach the campus news desk and BBS."
 msgstr ""
-"Collect testimony, open the version history, choose a reversible response, "
-"then let the research design decide what is actually known. The campus wire "
-"will be restrained after closure; the BBS usually will not."
+"Read testimony and evidence, choose an initial response, and test an "
+"explanation. The closing report will reach the campus news desk and BBS."
 
 #. copy/live
 #: src/js/incidents.js:33
@@ -101,11 +99,11 @@ msgstr "Evidence & records"
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/evidenceLead"
 msgid ""
-"Select an item to mark it reviewed. Reliability describes the material "
-"itself, not whether its conclusion is true."
+"Select an item to mark it reviewed. The reliability label describes its "
+"source and condition."
 msgstr ""
-"Select an item to mark it reviewed. Reliability describes the material "
-"itself, not whether its conclusion is true."
+"Select an item to mark it reviewed. The reliability label describes its "
+"source and condition."
 
 #. copy/testimony
 #: src/js/incidents.js:33
@@ -116,14 +114,8 @@ msgstr "Testimony & trouble"
 #. copy/testimonyLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/testimonyLead"
-msgid ""
-"A witness may also maintain the equipment, control the first headline, or be "
-"part of the incident. That is a position to record, not a reason to erase "
-"them."
-msgstr ""
-"A witness may also maintain the equipment, control the first headline, or be "
-"part of the incident. That is a position to record, not a reason to erase "
-"them."
+msgid "Check each witness's role and interests, including any part they played in the incident."
+msgstr "Check each witness's role and interests, including any part they played in the incident."
 
 #. copy/reviewed
 #: src/js/incidents.js:33
@@ -268,20 +260,20 @@ msgstr "METHODS LAB / IDENTIFIABILITY IS NOT DECORATION"
 #. copy/labTitle
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/labTitle"
-msgid "Make the elegant conclusion capable of failing."
-msgstr "Make the elegant conclusion capable of failing."
+msgid "Test your explanation."
+msgstr "Test your explanation."
 
 #. copy/labLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/labLead"
 msgid ""
-"A larger sample narrows chance error. It does not repair confounding, drift, "
-"missing records, or kappa firmware replaced yesterday. Responses also change "
-"the field, so they enter the model too."
+"Set the sample, controls, and measurements. Check for confounding, "
+"instrument drift, and missing records; a larger sample alone will leave "
+"those problems in place."
 msgstr ""
-"A larger sample narrows chance error. It does not repair confounding, drift, "
-"missing records, or kappa firmware replaced yesterday. Responses also change "
-"the field, so they enter the model too."
+"Set the sample, controls, and measurements. Check for confounding, "
+"instrument drift, and missing records; a larger sample alone will leave "
+"those problems in place."
 
 #. copy/activeCase
 #: src/js/incidents.js:33
@@ -416,12 +408,8 @@ msgstr "Trouble still in the field"
 #. copy/noHazards
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/noHazards"
-msgid ""
-"Major structural interference is low. This does not mean Gensokyo has "
-"suddenly become orderly."
-msgstr ""
-"Major structural interference is low. This does not mean Gensokyo has "
-"suddenly become orderly."
+msgid "Low structural interference in this setup."
+msgstr "Low structural interference in this setup."
 
 #. copy/verdicts/supports
 #: src/js/incidents.js:33
@@ -462,32 +450,26 @@ msgstr "Send to the Red-Thread Desk: retain this unsupported theory"
 #. copy/retentionTitle
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/retentionTitle"
-msgid "This is not confirmation. Close it anyway?"
-msgstr "This is not confirmation. Close it anyway?"
+msgid "File a contested closure?"
+msgstr "File a contested closure?"
 
 #. copy/retentionLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/retentionLead"
 msgid ""
-"Ordinary review rejected this inference, but the duty reviewer thinks its "
-"failure, controversy, or headline value deserves a record. If you insist, "
-"the university will bind it as a contested closure and release linked "
-"campus-wire and BBS reactions."
+"The study did not establish this claim. You can retain it with the "
+"reviewer's reason; the contested closure will appear in campus news and BBS "
+"reactions."
 msgstr ""
-"Ordinary review rejected this inference, but the duty reviewer thinks its "
-"failure, controversy, or headline value deserves a record. If you insist, "
-"the university will bind it as a contested closure and release linked "
-"campus-wire and BBS reactions."
+"The study did not establish this claim. You can retain it with the "
+"reviewer's reason; the contested closure will appear in campus news and BBS "
+"reactions."
 
 #. copy/retentionWarning
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/retentionWarning"
-msgid ""
-"The red-thread file permanently keeps the original result and a NOT "
-"ESTABLISHED mark. A large headline cannot launder it into confirmation."
-msgstr ""
-"The red-thread file permanently keeps the original result and a NOT "
-"ESTABLISHED mark. A large headline cannot launder it into confirmation."
+msgid "The saved file keeps the study result and a NOT ESTABLISHED label."
+msgstr "The saved file keeps the study result and a NOT ESTABLISHED label."
 
 #. copy/originalResult
 #: src/js/incidents.js:33
@@ -614,20 +596,14 @@ msgstr "CASE ARCHIVE / CLOSURE DOES NOT END OBJECTIONS"
 #. copy/archiveTitle
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/archiveTitle"
-msgid "After a finding enters the campus system."
-msgstr "After a finding enters the campus system."
+msgid "Case archive"
+msgstr "Case archive"
 
 #. copy/archiveLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/archiveLead"
-msgid ""
-"Closures, experiment slips, and incident-triggered BBS threads stay on this "
-"device. There is one official record and usually three dissatisfied "
-"headlines."
-msgstr ""
-"Closures, experiment slips, and incident-triggered BBS threads stay on this "
-"device. There is one official record and usually three dissatisfied "
-"headlines."
+msgid "Reopen reports, experiment records, and the BBS threads they prompted."
+msgstr "Reopen reports, experiment records, and the BBS threads they prompted."
 
 #. copy/resolutionsTitle
 #: src/js/incidents.js:33

@@ -22,10 +22,8 @@ msgstr "第一鐘・新生到着週"
 #. orientationSeason.0.premise
 #: src/data/orientation.js:8
 msgctxt "text:orientationSeason.0.premise"
-msgid ""
-"Admission means the university will let you in. Arrival means knowing the "
-"gate, the way back, and the people with whom you will share campus."
-msgstr "錄取只表示校方同意你進門；報到要確認你找得到門、退路，以及願意共同生活的人。"
+msgid "Plan your arrival from Hakurei Gate and meet the people sharing your campus."
+msgstr "從博麗門規劃到校路線，認識接下來一起生活的人。"
 
 #. orientationStopSignals.0.wood-bell.name
 #: src/data/orientation.js:25
@@ -114,8 +112,8 @@ msgstr "同路人可以轉述改道，但最後仍由你確認。即使對方能
 #. orientationFirstStops.0.first-course.name
 #: src/data/orientation.js:68
 msgctxt "text:orientationFirstStops.0.first-course.name"
-msgid "Put the first course into your life"
-msgstr "把第一門課放進生活"
+msgid "Choose your first course"
+msgstr "選第一門課"
 
 #. orientationFirstStops.0.first-course.detail
 #: src/data/orientation.js:69
@@ -135,9 +133,9 @@ msgstr "把共同生活條件談清楚"
 #: src/data/orientation.js:76
 msgctxt "text:orientationFirstStops.0.first-room.detail"
 msgid ""
-"A suitable room is not trouble-free; it makes lunar, wingspan, water, "
-"phasing, and schedule needs visible early."
-msgstr "適合的房間不是沒有麻煩，而是月相、翼展、水域、穿牆與作息能先被看見。"
+"Compare rooms by lunar needs, wingspan, water, walls, and sleep before "
+"accepting an offer."
+msgstr "接受分房前，比較月相、翼展、水域、牆面與睡眠需求。"
 
 #. orientationFirstStops.0.first-club.name
 #: src/data/orientation.js:82
@@ -162,8 +160,5 @@ msgstr "先看三扇唯一正門怎麼開"
 #. orientationFirstStops.0.first-gate.detail
 #: src/data/orientation.js:90
 msgctxt "text:orientationFirstStops.0.first-gate.detail"
-msgid ""
-"The operations room will not let a newcomer sign for six desks. You may "
-"still learn who disputes the gate and who is responsible for getting people "
-"home."
-msgstr "營運室不會讓新生替六桌代簽；你可以先讀清楚誰在爭門、誰負責讓人平安回來。"
+msgid "Visit festival operations to see who is on gate duty and how the return routes work."
+msgstr "到祭典營運室，看看誰在顧門，以及回程路線如何安排。"

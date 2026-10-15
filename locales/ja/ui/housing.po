@@ -154,9 +154,9 @@ msgstr "入寮希望申請"
 #: src/js/housing.js:32
 msgctxt "tree:copy#/applicationLead"
 msgid ""
-"This is not a personality test. It finds combinations that can sleep, get "
-"home, and are less likely to hold a full-moon meeting over one chair."
-msgstr "性格診断ではありません。眠れて、帰室でき、満月の深夜に椅子一脚で会議になりにくい組合せを探すための票です。"
+"Tell us about access, sleep, water, wingspan, and anyone sharing your room. "
+"The committee uses these needs to suggest rooms."
+msgstr "移動、睡眠、水場、翼幅、同居者の条件を教えてください。委員会が部屋の候補を選びます。"
 
 #. copy/identityNeeded
 #: src/js/housing.js:32
@@ -344,10 +344,9 @@ msgstr "寮務委員会の三案"
 #: src/js/housing.js:32
 msgctxt "tree:copy#/matchingLead"
 msgid ""
-"A score is not a promise of friendship. It measures overlap between "
-"facilities, habits, and your needs; friction remains visible for your "
-"judgment."
-msgstr "点数は友情の保証ではありません。設備・生活習慣・要件の重なりを示し、摩擦点も判断材料として残します。"
+"Compare each room's facilities and habits with your needs. Read the listed "
+"conflicts before accepting an offer."
+msgstr "設備や生活時間が希望に合うか比べ、気になる点を確認してから部屋を選んでください。"
 
 #. copy/score
 #: src/js/housing.js:32
@@ -490,11 +489,8 @@ msgstr "共同生活協定"
 #. copy/agreementLead
 #: src/js/housing.js:32
 msgctxt "tree:copy#/agreementLead"
-msgid ""
-"The committee generated four rules from both sets of needs. Checking means "
-"you read them on this device; it does not mean your roommate promised not to "
-"steal breakfast."
-msgstr "両者の要件から、先に話す四規則を生成しました。チェックは端末内で読んだ印です。同室者が朝食を盗まない保証ではありません。"
+msgid "Read the four rules drawn from both occupants' needs, then confirm each one."
+msgstr "双方の希望から作成した四つの取り決めを読み、一つずつ確認してください。"
 
 #. copy/agreementCheck
 #: src/js/housing.js:32
@@ -518,9 +514,9 @@ msgstr "転室申請"
 #: src/js/housing.js:32
 msgctxt "tree:copy#/roomChangeLead"
 msgid ""
-"Describe what is actually happening. The committee keeps your current room "
-"and attaches a viable alternative; your bed does not suddenly disappear."
-msgstr "現に起きている問題を記入。委員会は元の部屋を保持したまま代替案を付け、寝床を突然消しません。"
+"Explain the problem to request an alternative. Your current room remains "
+"assigned while the committee reviews it."
+msgstr "困っていることを書いて、別の部屋を申請できます。審査中も現在の部屋は確保されます。"
 
 #. copy/reason
 #: src/js/housing.js:32

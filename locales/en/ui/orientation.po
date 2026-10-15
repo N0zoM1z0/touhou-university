@@ -16,20 +16,18 @@ msgstr "FIRST BELL / NEW STUDENT ARRIVAL WEEK"
 #. copy/title
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/title"
-msgid "First, arrive. ‘Ordinary student’ is not a field on this form."
-msgstr "First, arrive. ‘Ordinary student’ is not a field on this form."
+msgid "Welcome to First Bell."
+msgstr "Welcome to First Bell."
 
 #. copy/lead
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/lead"
 msgid ""
-"Bring the admission review, confirm which gate you can use and which stop "
-"signal you can recognise, then choose one real first destination. The "
-"university keeps your choice—and every condition that did not disappear."
+"Check your admission review, plan a route to your school, and choose a stop "
+"signal and first destination."
 msgstr ""
-"Bring the admission review, confirm which gate you can use and which stop "
-"signal you can recognise, then choose one real first destination. The "
-"university keeps your choice—and every condition that did not disappear."
+"Check your admission review, plan a route to your school, and choose a stop "
+"signal and first destination."
 
 #. copy/office
 #: src/js/orientation.js:35
@@ -71,11 +69,11 @@ msgstr "Public blank file"
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/publicLead"
 msgid ""
-"Anyone may read the arrival rules. Only a person with a formal admission "
-"review on this device can place a file in the campus record."
+"Read the arrival guide here. To open a personal file, you need a formal "
+"admission result saved in this browser."
 msgstr ""
-"Anyone may read the arrival rules. Only a person with a formal admission "
-"review on this device can place a file in the campus record."
+"Read the arrival guide here. To open a personal file, you need a formal "
+"admission result saved in this browser."
 
 #. copy/status
 #: src/js/orientation.js:35
@@ -87,59 +85,45 @@ msgstr "Current file status"
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/identityMissing"
 msgid ""
-"No My TU identity exists yet. Creating one will not alter earlier "
-"applications or examination records."
+"Create a My TU identity to begin. Your existing applications and exam "
+"records will be kept."
 msgstr ""
-"No My TU identity exists yet. Creating one will not alter earlier "
-"applications or examination records."
+"Create a My TU identity to begin. Your existing applications and exam "
+"records will be kept."
 
 #. copy/applicationMissing
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/applicationMissing"
-msgid ""
-"An on-device identity exists, but no application has been submitted. The "
-"Arrival Office will not treat a blank form as an admission letter."
-msgstr ""
-"An on-device identity exists, but no application has been submitted. The "
-"Arrival Office will not treat a blank form as an admission letter."
+msgid "Submit an application, then open its faculty review in My TU."
+msgstr "Submit an application, then open its faculty review in My TU."
 
 #. copy/reviewMissing
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/reviewMissing"
-msgid ""
-"The application arrived, but the joint faculty review has not issued a "
-"result. Aya has a headline ready; this time she must wait."
-msgstr ""
-"The application arrived, but the joint faculty review has not issued a "
-"result. Aya has a headline ready; this time she must wait."
+msgid "Your application is saved. Open My TU to request the faculty review."
+msgstr "Your application is saved. Open My TU to request the faculty review."
 
 #. copy/conditional
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/conditional"
 msgid ""
-"This is a conditional admission. You may read the rules, but First Bell "
-"waits for the formally admitted edition. The conditions remain visible."
+"Your admission is conditional. Read the conditions in My TU; First Bell "
+"opens after formal admission."
 msgstr ""
-"This is a conditional admission. You may read the rules, but First Bell "
-"waits for the formally admitted edition. The conditions remain visible."
+"Your admission is conditional. Read the conditions in My TU; First Bell "
+"opens after formal admission."
 
 #. copy/notAdmitted
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/notAdmitted"
-msgid ""
-"The current review still requires a supplement or interview. The office "
-"keeps a blank file; it will not rewrite an applicant as a newcomer in "
-"advance."
-msgstr ""
-"The current review still requires a supplement or interview. The office "
-"keeps a blank file; it will not rewrite an applicant as a newcomer in "
-"advance."
+msgid "Your review requests more information or an interview. Check My TU for the next step."
+msgstr "Your review requests more information or an interview. Check My TU for the next step."
 
 #. copy/admitted
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/admitted"
-msgid "The formal admission edition is verified. Your on-device arrival file may now be opened."
-msgstr "The formal admission edition is verified. Your on-device arrival file may now be opened."
+msgid "Your formal admission is confirmed. You can open your arrival file."
+msgstr "Your formal admission is confirmed. You can open your arrival file."
 
 #. copy/goMyTu
 #: src/js/orientation.js:35
@@ -169,39 +153,35 @@ msgstr "Open my arrival file"
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/privacy"
 msgid ""
-"Names, application content, and needs remain in this browser. The BBS "
-"receives only a nameless institutional projection."
+"Your name, application, and needs stay in this browser. BBS updates show "
+"arrival counts without names."
 msgstr ""
-"Names, application content, and needs remain in this browser. The BBS "
-"receives only a nameless institutional projection."
+"Your name, application, and needs stay in this browser. BBS updates show "
+"arrival counts without names."
 
 #. copy/threeThings
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/threeThings"
-msgid "Three things the office will not waive"
-msgstr "Three things the office will not waive"
+msgid "Before you arrive"
+msgstr "Before you arrive"
 
 #. copy/threeLead
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/threeLead"
-msgid "This is not a stamp hunt. Every field must still help when a route actually changes."
-msgstr "This is not a stamp hunt. Every field must still help when a route actually changes."
+msgid "Keep your admission review, route, and first destination ready."
+msgstr "Keep your admission review, route, and first destination ready."
 
 #. copy/ruleOne
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/ruleOne"
-msgid "Carry the right edition"
-msgstr "Carry the right edition"
+msgid "Check your admission review"
+msgstr "Check your admission review"
 
 #. copy/ruleOneBody
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/ruleOneBody"
-msgid ""
-"Admission, conditions, and minority opinions remain separate. A welcome "
-"stamp cannot cover them."
-msgstr ""
-"Admission, conditions, and minority opinions remain separate. A welcome "
-"stamp cannot cover them."
+msgid "Read the decision, conditions, and any dissenting opinions."
+msgstr "Read the decision, conditions, and any dissenting opinions."
 
 #. copy/ruleTwo
 #: src/js/orientation.js:35
@@ -224,8 +204,8 @@ msgstr "Choose a first destination"
 #. copy/ruleThreeBody
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/ruleThreeBody"
-msgid "Completion awards no generic badge; it opens a real route that continues into campus."
-msgstr "Completion awards no generic badge; it opens a real route that continues into campus."
+msgid "Choose a course, a room, a club, or the festival as your first stop."
+msgstr "Choose a course, a room, a club, or the festival as your first stop."
 
 #. copy/dossier
 #: src/js/orientation.js:35
@@ -236,8 +216,8 @@ msgstr "ARRIVAL FILE / THIS DEVICE"
 #. copy/dossierTitle
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/dossierTitle"
-msgid "This file preserves your choices; it does not rewrite any office into agreement."
-msgstr "This file preserves your choices; it does not rewrite any office into agreement."
+msgid "Your arrival choices"
+msgstr "Your arrival choices"
 
 #. copy/student
 #: src/js/orientation.js:35
@@ -278,8 +258,8 @@ msgstr "The question you bring through the gate"
 #. copy/noQuestion
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/noQuestion"
-msgid "No question text is available here; the source application remains intact."
-msgstr "No question text is available here; the source application remains intact."
+msgid "No question is shown here. Check the original application in My TU."
+msgstr "No question is shown here. Check the original application in My TU."
 
 #. copy/admittedLabel
 #: src/js/orientation.js:35
@@ -296,18 +276,14 @@ msgstr "01 / ADMISSION EDITION"
 #. copy/stepOneTitle
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/stepOneTitle"
-msgid "First confirm which edition of you the university admitted."
-msgstr "First confirm which edition of you the university admitted."
+msgid "Check the admission result and its conditions."
+msgstr "Check the admission result and its conditions."
 
 #. copy/stepOneBody
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/stepOneBody"
-msgid ""
-"Akyuu cites the source application and review. She does not copy them into a "
-"more obedient second record."
-msgstr ""
-"Akyuu cites the source application and review. She does not copy them into a "
-"more obedient second record."
+msgid "Use the application and review references to reopen the original documents in My TU."
+msgstr "Use the application and review references to reopen the original documents in My TU."
 
 #. copy/stepTwo
 #: src/js/orientation.js:35
@@ -325,11 +301,11 @@ msgstr "Travel from Hakurei Gate to your school."
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/stepTwoBody"
 msgid ""
-"Choose a mode. Duty incidents, the academic calendar, and a live festival "
-"may make the usual shortest route unavailable today."
+"Choose how to travel. The route accounts for today's closures, calendar, and "
+"festival traffic."
 msgstr ""
-"Choose a mode. Duty incidents, the academic calendar, and a live festival "
-"may make the usual shortest route unavailable today."
+"Choose how to travel. The route accounts for today's closures, calendar, and "
+"festival traffic."
 
 #. copy/chooseMode
 #: src/js/orientation.js:35
@@ -399,11 +375,11 @@ msgstr "Choose a stop signal you can recognise yourself."
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/stepThreeBody"
 msgid ""
-"The faster a notice travels, the more easily the wrong edition arrives. Stop "
-"signal and detour notice are confirmed separately."
+"Choose how you will stop or leave, then how you will check detour notices. "
+"Confirm both separately."
 msgstr ""
-"The faster a notice travels, the more easily the wrong edition arrives. Stop "
-"signal and detour notice are confirmed separately."
+"Choose how you will stop or leave, then how you will check detour notices. "
+"Confirm both separately."
 
 #. copy/signal
 #: src/js/orientation.js:35
@@ -444,12 +420,8 @@ msgstr "Where will you go after First Bell?"
 #. copy/stepFourBody
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/stepFourBody"
-msgid ""
-"This is not a personality test. It only chooses which real door the arrival "
-"file opens next."
-msgstr ""
-"This is not a personality test. It only chooses which real door the arrival "
-"file opens next."
+msgid "Your choice opens the relevant course, housing, club, or festival page."
+msgstr "Your choice opens the relevant course, housing, club, or festival page."
 
 #. copy/firstStop
 #: src/js/orientation.js:35
@@ -496,18 +468,18 @@ msgstr "MATRICULATION FILED / ARRIVAL RECORDED"
 #. copy/completeTitle
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/completeTitle"
-msgid "The gates are no more singular. You know which one to use."
-msgstr "The gates are no more singular. You know which one to use."
+msgid "You're ready for your first stop."
+msgstr "You're ready for your first stop."
 
 #. copy/completeLead
 #: src/js/orientation.js:35
 msgctxt "tree:copy#/completeLead"
 msgid ""
-"The arrival file entered the My TU campus ledger. Your name did not go to "
-"the BBS, and welcome copy did not dilute the admission conditions."
+"Your arrival is recorded in My TU. You can print the slip or continue to "
+"your chosen destination."
 msgstr ""
-"The arrival file entered the My TU campus ledger. Your name did not go to "
-"the BBS, and welcome copy did not dilute the admission conditions."
+"Your arrival is recorded in My TU. You can print the slip or continue to "
+"your chosen destination."
 
 #. copy/firstDestination
 #: src/js/orientation.js:35

@@ -374,6 +374,17 @@ Status: implemented in 0.31.0.
 - TU-H-042 records the reorganization in three languages while Git subjects and
   first-parent history remain the authoritative commit linkage
 
+## Batch 23 — English-first visitor copy
+
+Status: implemented in 0.32.0.
+
+- English initial pages and metadata with saved-choice-compatible language
+  controls ordered English, Japanese and Traditional Chinese
+- concise entry points and instructions across campus services, fieldwork
+  observation tasks and character-specific faculty feedback
+- matching PO edits in all three languages, metadata ownership and browser
+  regressions for initial defaults, saved choices and language switching
+
 ## Future directions, not commitments
 
 - official document generator grows alongside every lifecycle feature

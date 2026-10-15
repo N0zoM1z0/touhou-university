@@ -10,32 +10,26 @@ msgstr ""
 #. copy/eyebrow
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/eyebrow"
-msgid "HIEDA INDEX / FIVE RECORDS OF ONE THING"
-msgstr "HIEDA INDEX / 同一件事的五種記錄"
+msgid "HIEDA CAMPUS INDEX"
+msgstr "稗田校務索引"
 
 #. copy/title
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/title"
-msgid ""
-"Every event happens\nat least five times."
-msgstr ""
-"每件事，\n都至少發生五次。"
+msgid "Follow a campus incident."
+msgstr "沿著紀錄，追查一場事件。"
 
 #. copy/lead
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/lead"
-msgid ""
-"Once on site, once in rules, once in news, once in student talk—and once "
-"more in the margin Akyuu refuses to erase."
-msgstr "一次在現場，一次在規章，一次在新聞，一次在學生嘴裡；最後一次，發生在阿求不肯擦掉的頁邊。"
+msgid "Trace an event through reports, rules, research, and student accounts."
+msgstr "從報告、規章、研究與學生證詞，追查同一件事。"
 
 #. copy/notice
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/notice"
-msgid ""
-"This machine does not choose one campus truth. It lays mutually "
-"contradictory, mutually citing, mutually evasive records on one desk."
-msgstr "這不是替校園找出唯一真相的機器。它只把互相牴觸、互相引用、又互相假裝不認識的卷宗攤在同一張桌上。"
+msgid "Compare the accounts and open their sources. Akyuu keeps the disagreements on file."
+msgstr "比對說法，再打開來源查證。意見不合的地方，阿求也有記下。"
 
 #. copy/events
 #: src/js/hieda-index.js:24
@@ -58,32 +52,32 @@ msgstr "按版本／時間看"
 #. copy/eventHint
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/eventHint"
-msgid "Follow one nuisance through seven offices"
-msgstr "從一件麻煩追到七個辦公室"
+msgid "Follow an event across campus records"
+msgstr "追查事件相關的校園紀錄"
 
 #. copy/characterHint
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/characterHint"
-msgid "See one person's fingerprints across different files"
-msgstr "看同一個人如何在不同卷宗留下手印"
+msgid "Find the files involving one person"
+msgstr "查找與某位人物相關的案卷"
 
 #. copy/versionHint
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/versionHint"
-msgid "Trace change along the first-parent chronicle"
-msgstr "沿 first-parent 校史翻查校園何時改變"
+msgid "See when the campus changed"
+msgstr "查看校園在何時改變"
 
 #. copy/dossiers
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/dossiers"
-msgid "cross-files"
-msgstr "交叉案卷"
+msgid "case files"
+msgstr "案卷"
 
 #. copy/hands
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/hands"
-msgid "fingerprints"
-msgstr "留下手印"
+msgid "people"
+msgstr "人物"
 
 #. copy/versionsCount
 #: src/js/hieda-index.js:24
@@ -94,8 +88,8 @@ msgstr "校史版本"
 #. copy/records
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/records"
-msgid "linked leaves"
-msgstr "張關聯紙"
+msgid "sources"
+msgstr "來源"
 
 #. copy/indexSearch
 #: src/js/hieda-index.js:24
@@ -118,48 +112,44 @@ msgstr "翻回原卷"
 #. copy/thread
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/thread"
-msgid "Why this red thread is here"
-msgstr "這條紅線怎麼接"
+msgid "How this source connects"
+msgstr "這份來源如何相關"
 
 #. copy/contradiction
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/contradiction"
-msgid "Contradiction retained by Akyuu"
-msgstr "阿求保留的矛盾"
+msgid "Where the accounts disagree"
+msgstr "說法有出入的地方"
 
 #. copy/people
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/people"
-msgid "Fingerprints on this leaf"
-msgstr "本頁手印"
+msgid "People in this record"
+msgstr "本紀錄涉及的人物"
 
 #. copy/versionSources
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/versionSources"
-msgid "Chronicle versions this event passed through"
-msgstr "這件事經過的校史版本"
+msgid "Related chronicle entries"
+msgstr "相關校史條目"
 
 #. copy/localTitle
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/localTitle"
-msgid "Records you left in the margin"
-msgstr "你在頁邊留下的記錄"
+msgid "Your activity in this case"
+msgstr "你在本案中的活動"
 
 #. copy/localLead
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/localLead"
-msgid ""
-"Reads only the official campus ledger on this device. Nothing uploads, and "
-"nothing you did not do gets invented."
-msgstr "只讀取這台裝置的正式校園 ledger；不會上傳，也不會替你補寫沒做過的事。"
+msgid "Shows related events recorded in My TU on this browser."
+msgstr "顯示這個瀏覽器的My TU所記錄的相關事件。"
 
 #. copy/localEmpty
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/localEmpty"
-msgid ""
-"This leaf does not know your handwriting yet. Borrow, vote, close a case, "
-"enrol, or defend work in a source file."
-msgstr "這一頁還沒有見過你的筆跡。去原卷借書、投票、結案、選課或完成答辯，它才會認出你。"
+msgid "No related activity yet. Open a source to borrow a book, vote, enrol, or work on a case."
+msgstr "目前沒有相關活動。可從來源窗口借書、投票、選課或調查案件。"
 
 #. copy/localOpen
 #: src/js/hieda-index.js:24
@@ -194,24 +184,22 @@ msgstr "本角色牽涉的案卷"
 #. copy/versionDossiers
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/versionDossiers"
-msgid "Files moved by this version"
-msgstr "這一版牽動的案卷"
+msgid "Cases affected by this change"
+msgstr "受本次變動影響的案卷"
 
 #. copy/characterNote
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/characterNote"
-msgid ""
-"Characters are not flattened into consistent positions. One name can be "
-"teacher, witness, maintainer, and cause of trouble."
-msgstr "角色沒有被整理成一致立場；同一個名字可以同時是教師、證人、設備維護者與麻煩來源。"
+msgid "Follow this person's teaching, testimony, and other involvement across the files."
+msgstr "從不同案卷查閱這位人物的授課、證詞與其他涉入情況。"
 
 #. copy/versionNote
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/versionNote"
 msgid ""
-"The first-parent commit is the chronicle source. A feature subject and "
-"campus consequence may meet, but may not impersonate each other."
-msgstr "主分支提交是校史正本；功能主旨與校園後果可以相遇，但不准互相冒名。"
+"Open the chronicle entry for the campus account, or the Git revision for its "
+"source change."
+msgstr "校園裡發生的事可讀校史；原始變動可查看Git版本。"
 
 #. copy/gitSource
 #: src/js/hieda-index.js:24
@@ -222,32 +210,32 @@ msgstr "查看 Git 正本"
 #. copy/archiveSource
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/archiveSource"
-msgid "Open chronicle leaf"
-msgstr "打開校史頁"
+msgid "Open chronicle entry"
+msgstr "開啟校史條目"
 
 #. copy/copied
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/copied"
-msgid "This leaf's red-thread address is copied."
-msgstr "這一頁的紅線地址已抄好。"
+msgid "Link copied."
+msgstr "已複製連結。"
 
 #. copy/share
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/share"
-msgid "Copy this leaf's address"
-msgstr "抄下此頁門牌"
+msgid "Copy link"
+msgstr "複製連結"
 
 #. copy/noMatch
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/noMatch"
-msgid "That phrase is absent from every visible index slip."
-msgstr "這個詞沒有落在任何可見索引籤上。"
+msgid "No matching entries. Try another search term."
+msgstr "找不到符合的條目，請換個關鍵詞。"
 
 #. copy/allRecords
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/allRecords"
-msgid "All linked leaves"
-msgstr "全部關聯紙"
+msgid "All sources"
+msgstr "全部來源"
 
 #. copy/direct
 #: src/js/hieda-index.js:24

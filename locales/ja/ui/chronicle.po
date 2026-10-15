@@ -23,10 +23,9 @@ msgstr "幻想郷大学史"
 #: src/js/chronicle.js:12
 msgctxt "tree:copy#/lead"
 msgid ""
-"Every main-branch revision leaves two records: the repository preserves what "
-"changed; the chronicle preserves what it did to campus and who objected at "
-"the time."
-msgstr "主分岐の各改訂には二つの記録が残る。版管理庫は実際の変更を、大学史簿はキャンパスへの影響とその場で異議を唱えた者を保存する。"
+"Read each change to the university, its campus consequences, and the "
+"objections filed at the time."
+msgstr "大学の変更、その後に起きたこと、当時の異議をたどれます。"
 
 #. copy/entries
 #: src/js/chronicle.js:12
@@ -68,10 +67,9 @@ msgstr "版底本"
 #: src/js/chronicle.js:12
 msgctxt "tree:copy#/sourceLead"
 msgid ""
-"The main-branch revision and the functional change may coincide, but must "
-"not be confused. Ordinary and squash commits need one record; a mechanical "
-"merge also lists its second-parent change."
-msgstr "主分岐版と機能変更は重なる場合があっても混同しない。通常・squash commit は一件、機械的 merge commit は第二親の変更主題を別記する。"
+"The main revision identifies the published change. A merge also links the "
+"feature commit that it brought in."
+msgstr "公開された変更は本流の改訂で確認できます。マージの場合は、取り込んだ変更のコミットも併記します。"
 
 #. copy/mainSource
 #: src/js/chronicle.js:12

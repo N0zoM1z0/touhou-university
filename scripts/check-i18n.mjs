@@ -11,7 +11,7 @@ import {
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
-const base = messages["zh-Hant"];
+const base = messages[site.defaultLocale];
 const baseKeys = Object.keys(base);
 let failed = false;
 
@@ -58,10 +58,10 @@ const sourceDocuments = await Promise.all(sourceFiles.map(async (file) => ({
   source: await readFile(file, "utf8"),
 })));
 const sectionSource = sourceDocuments.map(({ source }) => source).join("\n");
-const explicitKeyPattern = /\bdata-i18n(?:-(?:aria-label|placeholder|alt|title))?="([^"]+)"/g;
+const explicitKeyPattern = /\bdata-i18n(?:-(?:aria-label|placeholder|alt|title|content))?="([^"]+)"/g;
 const explicitKeys = [
   ...new Set(sourceDocuments.flatMap(({ source }) =>
-    [...source.matchAll(explicitKeyPattern), ...source.matchAll(/<!--\s*i18n:([\w.-]+)\s*-->/g)].map((match) => match[1]),
+    [...source.matchAll(explicitKeyPattern), ...source.matchAll(/<!--\s*i18n:([\w.-]+)\s*-->/g)].map((match) => match[1]).filter((key) => !/^\{\{\w+\}\}$/.test(key)),
   )),
 ];
 const unknownExplicitKeys = explicitKeys.filter((key) => !(key in base));
@@ -71,6 +71,10 @@ if (unknownExplicitKeys.length) {
 }
 
 for (const page of site.pages) {
+  if (!page.descriptionKey || !(page.descriptionKey in base)) {
+    console.error(`${page.id}: missing or unknown descriptionKey`);
+    failed = true;
+  }
   if (page.id === "home") continue;
   if (!page.titleKey || !(page.titleKey in base)) {
     console.error(`${page.id}: missing or unknown titleKey`);
@@ -121,10 +125,21 @@ for (const { file, key, source, value } of keyedDefaults) {
 }
 
 // Readable source fallbacks may lag behind an editorial PO change. Issued
-// defaults must always be compiled from the current Traditional Chinese PO.
+// defaults must always be compiled from the configured default-language PO.
 const escapeHtml = (value) => value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 for (const page of site.pages) {
   const html = await readFile(path.join(outputRoot, page.output), "utf8");
+  if (!html.includes(`<html lang="${site.defaultLocale}">`)) {
+    console.error(`${page.output}: initial document language must be ${site.defaultLocale}`);
+    failed = true;
+  }
+  for (const match of html.matchAll(/<meta\b[^>]*data-i18n-content="([^"]+)"[^>]*>/gi)) {
+    const value = /\scontent="([^"]*)"/.exec(match[0])?.[1];
+    if (value !== escapeHtml(base[match[1]] || "")) {
+      console.error(`${page.output}: metadata ${match[1]} differs from its default catalog`);
+      failed = true;
+    }
+  }
   for (const match of html.matchAll(/<([a-z][\w-]*)\b[^>]*\bdata-i18n="([^"]+)"[^>]*>([^<]*)<\/\1>/gi)) {
     const [, , key, fallback] = match;
     if (!(key in base) || canonicalText(fallback) !== canonicalText(escapeHtml(base[key]))) {

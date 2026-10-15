@@ -792,10 +792,9 @@ msgstr "夢境校區在你沒有走的路上開學。"
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/campusLead"
 msgid ""
-"This is not another life. It temporarily enrols the branches ordinary "
-"administration excluded, declined, dropped, or left unvoted. After waking, "
-"the official ledger still recognises only the original choices."
-msgstr "這裡不收藏另一套人生，而是把正式校務排除、拒絕、退選與沒投的分支暫時編成學籍。醒來後，普通帳本仍然只承認原來的選擇。"
+"Here, declined offers, dropped courses, and uncast votes have a campus of "
+"their own. On waking, your original choices still stand."
+msgstr "婉拒的邀請、退掉的課、沒投下的一票，在這裡各有去處。醒來後，原本的選擇依舊。"
 
 #. phantasmCopy/dreamTime
 #: src/data/phantasm.js:227
@@ -910,10 +909,8 @@ msgstr "第九節選課"
 #. phantasmCopy/coursesLead
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/coursesLead"
-msgid ""
-"Choose three. The credit limit is outside the dream boundary, but one you "
-"cannot occupy four nonexistent rooms at once."
-msgstr "選三門。學分上限位於夢境邊界之外，但同一個你不能同時坐在四間不存在的教室裡。"
+msgid "Choose three courses. Even in a dream, four rooms at once is asking too much."
+msgstr "選三門課。就算在夢裡，同時待在四間教室也太勉強。"
 
 #. phantasmCopy/selected
 #: src/data/phantasm.js:227
@@ -1049,8 +1046,8 @@ msgstr "先選滿三門第九節課。"
 #. phantasmCopy/needStatement
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/needStatement"
-msgid "The statement needs at least twenty-four characters; an ellipsis is not another route."
-msgstr "陳述至少二十四字；省略號不算另一條路。"
+msgid "Write at least twenty-four characters to explain the unused choice."
+msgstr "請用至少二十四字說明未採用的選擇。"
 
 #. phantasmCopy/completed
 #: src/data/phantasm.js:227
@@ -1111,10 +1108,8 @@ msgstr "醒來，帶走一點不可靠的記憶"
 #. phantasmCopy/wakeNote
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/wakeNote"
-msgid ""
-"Waking does not delete dream records or insert them into the official "
-"ledger. BBS may ignore the second half."
-msgstr "醒來不會刪除夢學籍，也不會把它塞進正式帳本；BBS 可能不遵守後半句。"
+msgid "Dream records remain here after waking. They stay separate from your official record."
+msgstr "醒來後，夢的紀錄仍留在這裡，與正式學籍分開保存。"
 
 #. phantasmCopy/student
 #: src/data/phantasm.js:227

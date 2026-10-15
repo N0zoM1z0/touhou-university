@@ -344,7 +344,7 @@ msgid "Page location"
 msgstr "Page location"
 
 #. Static markup / page composition: navSevenSchools
-#: site.config.mjs:29
+#: site.config.mjs:30
 msgctxt "text:navSevenSchools"
 msgid "Seven schools"
 msgstr "Seven schools"
@@ -362,219 +362,201 @@ msgid "Unified examination"
 msgstr "Unified examination"
 
 #. Static markup / page composition: ethicsMastheadLead
-#: site.config.mjs:93
+#: site.config.mjs:90
 msgctxt "text:ethicsMastheadLead"
 msgid ""
-"Ability is not consent. Five desks record their blocks, conditions, and "
-"minority opinions separately."
+"Submit a research plan and read the five reviewers' decisions, conditions, "
+"and objections."
 msgstr ""
-"Ability is not consent. Five desks record their blocks, conditions, and "
-"minority opinions separately."
+"Submit a research plan and read the five reviewers' decisions, conditions, "
+"and objections."
 
 #. Static markup / page composition: navEthicsCases
-#: site.config.mjs:94
+#: site.config.mjs:91
 msgctxt "text:navEthicsCases"
 msgid "Case shelf"
 msgstr "Case shelf"
 
 #. Static markup / page composition: navEthicsSubmission
-#: site.config.mjs:94
+#: site.config.mjs:91
 msgctxt "text:navEthicsSubmission"
 msgid "Submission desk"
 msgstr "Submission desk"
 
 #. Static markup / page composition: navMyEthicsFiles
-#: site.config.mjs:94
+#: site.config.mjs:91
 msgctxt "text:navMyEthicsFiles"
 msgid "My ethics files"
 msgstr "My ethics files"
 
 #. Static markup / page composition: festivalMastheadTitle
-#: site.config.mjs:121
+#: site.config.mjs:116
 msgctxt "text:festivalMastheadTitle"
 msgid "Spring Spell-card Lantern / Boundary Festival Operations"
 msgstr "Spring Spell-card Lantern / Boundary Festival Operations"
 
 #. Static markup / page composition: navFestivalSchedule
-#: site.config.mjs:124
+#: site.config.mjs:119
 msgctxt "text:navFestivalSchedule"
 msgid "Operations schedule"
 msgstr "Operations schedule"
 
 #. Static markup / page composition: fieldworkMastheadLead
-#: site.config.mjs:138
+#: site.config.mjs:132
 msgctxt "text:fieldworkMastheadLead"
 msgid ""
-"Scarlet Mansion duty books, Hakugyokurou ghost registers, and Kourindou "
-"drift objects do not become credits on their own. Obtain a dispatch, then "
-"bring the dispute back intact."
+"Choose from twenty-four placements across Gensokyo and keep your field "
+"records in one passport."
 msgstr ""
-"Scarlet Mansion duty books, Hakugyokurou ghost registers, and Kourindou "
-"drift objects do not become credits on their own. Obtain a dispatch, then "
-"bring the dispute back intact."
+"Choose from twenty-four placements across Gensokyo and keep your field "
+"records in one passport."
 
 #. Static markup / page composition: commonsMastheadTitle
-#: site.config.mjs:151
+#: site.config.mjs:144
 msgctxt "text:commonsMastheadTitle"
 msgid "Property, Lost Objects & Campus Post"
 msgstr "Property, Lost Objects & Campus Post"
 
 #. Static markup / page composition: commonsMastheadLead
-#: site.config.mjs:153
+#: site.config.mjs:146
 msgctxt "text:commonsMastheadLead"
-msgid ""
-"Objects may deny being lost, and letters may arrive before their contents. "
-"At least give provenance, objections, and corrections a place to sit."
-msgstr ""
-"Objects may deny being lost, and letters may arrive before their contents. "
-"At least give provenance, objections, and corrections a place to sit."
+msgid "Claim a lost item, attend a property hearing, or read your tengu post."
+msgstr "Claim a lost item, attend a property hearing, or read your tengu post."
 
 #. Static markup / page composition: navLostProperty
-#: site.config.mjs:154
+#: site.config.mjs:147
 msgctxt "text:navLostProperty"
 msgid "Lost objects & property"
 msgstr "Lost objects & property"
 
 #. Static markup / page composition: navMyHearings
-#: site.config.mjs:154
+#: site.config.mjs:147
 msgctxt "text:navMyHearings"
 msgid "My hearings"
 msgstr "My hearings"
 
 #. Static markup / page composition: navTenguPost
-#: site.config.mjs:154
+#: site.config.mjs:147
 msgctxt "text:navTenguPost"
 msgid "Crow-tengu post"
 msgstr "Crow-tengu post"
 
 #. Static markup / page composition: navSendNotice
-#: site.config.mjs:154
+#: site.config.mjs:147
 msgctxt "text:navSendNotice"
 msgid "Send a notice"
 msgstr "Send a notice"
 
 #. Static markup / page composition: calendarMastheadLead
-#: site.config.mjs:168
+#: site.config.mjs:160
 msgctxt "text:calendarMastheadLead"
-msgid ""
-"Dates arrange; moon phases alter. If spring is delayed, file separate "
-"complaints with Hakugyokurou and the academic calendar desk."
-msgstr ""
-"Dates arrange; moon phases alter. If spring is delayed, file separate "
-"complaints with Hakugyokurou and the academic calendar desk."
+msgid "Check term dates, events, and moon phases before planning your day."
+msgstr "Check term dates, events, and moon phases before planning your day."
 
 #. Static markup / page composition: navFullCalendar
-#: site.config.mjs:169
+#: site.config.mjs:161
 msgctxt "text:navFullCalendar"
 msgid "Year calendar"
 msgstr "Year calendar"
 
 #. Static markup / page composition: navTodayCalendar
-#: site.config.mjs:169
+#: site.config.mjs:161
 msgctxt "text:navTodayCalendar"
 msgid "Today’s calendar"
 msgstr "Today’s calendar"
 
 #. Static markup / page composition: navMyCalendarLeaves
-#: site.config.mjs:169
+#: site.config.mjs:161
 msgctxt "text:navMyCalendarLeaves"
 msgid "My calendar leaves"
 msgstr "My calendar leaves"
 
 #. Static markup / page composition: navLiveCampus
-#: site.config.mjs:205
+#: site.config.mjs:195
 msgctxt "text:navLiveCampus"
 msgid "Live campus"
 msgstr "Live campus"
 
 #. Static markup / page composition: navGovernance
-#: site.config.mjs:205
+#: site.config.mjs:195
 msgctxt "text:navGovernance"
 msgid "University governance"
 msgstr "University governance"
 
 #. Static markup / page composition: mytuMastheadTitle
-#: site.config.mjs:217
+#: site.config.mjs:206
 msgctxt "text:mytuMastheadTitle"
 msgid "Student Records, Coursework, Defence & Campus History"
 msgstr "Student Records, Coursework, Defence & Campus History"
 
 #. Static markup / page composition: mytuMastheadLead
-#: site.config.mjs:219
+#: site.config.mjs:208
 msgctxt "text:mytuMastheadLead"
-msgid ""
-"This device remembers your applications, examinations, courses, answers, "
-"grades, and defences. The records can stay in your browser."
-msgstr ""
-"This device remembers your applications, examinations, courses, answers, "
-"grades, and defences. The records can stay in your browser."
+msgid "Manage your identity, applications, courses, grades, and defences."
+msgstr "Manage your identity, applications, courses, grades, and defences."
 
 #. Static markup / page composition: navStudentRecords
-#: site.config.mjs:220
+#: site.config.mjs:209
 msgctxt "text:navStudentRecords"
 msgid "Student records"
 msgstr "Student records"
 
 #. Static markup / page composition: navCoursesGrades
-#: site.config.mjs:220
+#: site.config.mjs:209
 msgctxt "text:navCoursesGrades"
 msgid "Courses & grades"
 msgstr "Courses & grades"
 
 #. Static markup / page composition: navCourseworkDesk
-#: site.config.mjs:220
+#: site.config.mjs:209
 msgctxt "text:navCourseworkDesk"
 msgid "Coursework desk"
 msgstr "Coursework desk"
 
 #. Static markup / page composition: navTranscript
-#: site.config.mjs:220
+#: site.config.mjs:209
 msgctxt "text:navTranscript"
 msgid "Transcript"
 msgstr "Transcript"
 
 #. Static markup / page composition: navThesisSpellcardDefence
-#: site.config.mjs:220
+#: site.config.mjs:209
 msgctxt "text:navThesisSpellcardDefence"
 msgid "Thesis / spell-card defence"
 msgstr "Thesis / spell-card defence"
 
 #. Static markup / page composition: navLibraryHoldings
-#: site.config.mjs:240
+#: site.config.mjs:228
 msgctxt "text:navLibraryHoldings"
 msgid "Holdings & borrowing"
 msgstr "Holdings & borrowing"
 
 #. Static markup / page composition: navBeginConsultation
-#: site.config.mjs:260
+#: site.config.mjs:247
 msgctxt "text:navBeginConsultation"
 msgid "Begin a consultation"
 msgstr "Begin a consultation"
 
 #. Static markup / page composition: hiedaMastheadLead
-#: site.config.mjs:304
+#: site.config.mjs:288
 msgctxt "text:hiedaMastheadLead"
-msgid ""
-"One event takes different forms in dossiers, equipment, news, rules, BBS, "
-"and your on-device history. Akyuu keeps the red thread between them."
-msgstr ""
-"One event takes different forms in dossiers, equipment, news, rules, BBS, "
-"and your on-device history. Akyuu keeps the red thread between them."
+msgid "Follow an event through the university's reports, rules, research, and student records."
+msgstr "Follow an event through the university's reports, rules, research, and student records."
 
 #. Static markup / page composition: navByEvent
-#: site.config.mjs:305
+#: site.config.mjs:289
 msgctxt "text:navByEvent"
 msgid "By event"
 msgstr "By event"
 
 #. Static markup / page composition: navByCharacter
-#: site.config.mjs:305
+#: site.config.mjs:289
 msgctxt "text:navByCharacter"
 msgid "By character"
 msgstr "By character"
 
 #. Static markup / page composition: navByVersion
-#: site.config.mjs:305
+#: site.config.mjs:289
 msgctxt "text:navByVersion"
 msgid "By version / time"
 msgstr "By version / time"

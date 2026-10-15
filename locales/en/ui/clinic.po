@@ -16,20 +16,18 @@ msgstr "EIENTEI UNIVERSITY HOSPITAL / CAMPUS CARE NETWORK"
 #. copy/title
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/title"
-msgid "First say what is wrong. The route and medicine may argue later."
-msgstr "First say what is wrong. The route and medicine may argue later."
+msgid "Tell us what's wrong."
+msgstr "Tell us what's wrong."
 
 #. copy/lead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/lead"
 msgid ""
-"The main infirmary handles everyday injuries; Eientei takes cross-species, "
-"lunar, boundary, and magical-material cases. Triage, consultations, "
-"prescriptions, dispensing, and recovery stay on this device."
+"The main infirmary treats everyday injuries. Eientei handles cross-species "
+"care and cases involving lunar phases, boundaries, or magical materials."
 msgstr ""
-"The main infirmary handles everyday injuries; Eientei takes cross-species, "
-"lunar, boundary, and magical-material cases. Triage, consultations, "
-"prescriptions, dispensing, and recovery stay on this device."
+"The main infirmary treats everyday injuries. Eientei handles cross-species "
+"care and cases involving lunar phases, boundaries, or magical materials."
 
 #. copy/open
 #: src/js/clinic.js:39
@@ -118,12 +116,8 @@ msgstr "Two care sites and one referral slip Tewi keeps relocating."
 #. copy/careNetworkLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/careNetworkLead"
-msgid ""
-"Not every scrape requires crossing the Bamboo Forest. Writing “fine” does "
-"not guarantee the infirmary will keep the case."
-msgstr ""
-"Not every scrape requires crossing the Bamboo Forest. Writing “fine” does "
-"not guarantee the infirmary will keep the case."
+msgid "Check which clinic handles your symptoms and how to get there."
+msgstr "Check which clinic handles your symptoms and how to get there."
 
 #. copy/hours
 #: src/js/clinic.js:39
@@ -158,12 +152,8 @@ msgstr "Live waiting board"
 #. copy/waitingLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/waitingLead"
-msgid ""
-"Duty tokens only. Times shift with lunar phase, live incidents, and "
-"rabbit-shuttle conditions."
-msgstr ""
-"Duty tokens only. Times shift with lunar phase, live incidents, and "
-"rabbit-shuttle conditions."
+msgid "Queue times change with the moon, campus incidents, and rabbit-shuttle service."
+msgstr "Queue times change with the moon, campus incidents, and rabbit-shuttle service."
 
 #. copy/token
 #: src/js/clinic.js:39
@@ -205,11 +195,11 @@ msgstr "On-device triage"
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/triageLead"
 msgid ""
-"Save and return later. Check-in never requires a My TU identity; an existing "
-"identity adds the record to campus history."
+"You can save and return later. A My TU identity is optional; if you have "
+"one, this visit joins your campus record."
 msgstr ""
-"Save and return later. Check-in never requires a My TU identity; an existing "
-"identity adds the record to campus history."
+"You can save and return later. A My TU identity is optional; if you have "
+"one, this visit joins your campus record."
 
 #. copy/complaint
 #: src/js/clinic.js:39
@@ -220,8 +210,8 @@ msgstr "Which conditions apply now?"
 #. copy/complaintHint
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/complaintHint"
-msgid "Choose at least one; multiple selections are welcome."
-msgstr "Choose at least one; multiple selections are welcome."
+msgid "Choose one or more symptoms."
+msgstr "Choose one or more symptoms."
 
 #. copy/intensity
 #: src/js/clinic.js:39
@@ -454,18 +444,18 @@ msgstr "LUNAR PHARMACY / CAMPUS MEDICINE CABINET"
 #. copy/pharmacyTitle
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/pharmacyTitle"
-msgid "The bag may use bells, corners, or daylight. Do not add the units yourself."
-msgstr "The bag may use bells, corners, or daylight. Do not add the units yourself."
+msgid "Pharmacy & prescriptions"
+msgstr "Pharmacy & prescriptions"
 
 #. copy/pharmacyLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/pharmacyLead"
 msgid ""
-"Search twelve Gensokyo medicines and aids, including provenance, directions, "
-"and cautions usually written on the reverse."
+"Browse twelve medicines and aids, with sources, directions, and cautions. "
+"Follow the units written on your prescription."
 msgstr ""
-"Search twelve Gensokyo medicines and aids, including provenance, directions, "
-"and cautions usually written on the reverse."
+"Browse twelve medicines and aids, with sources, directions, and cautions. "
+"Follow the units written on your prescription."
 
 #. copy/searchMedicine
 #: src/js/clinic.js:39
@@ -618,18 +608,18 @@ msgstr "RECOVERY CORRIDOR"
 #. copy/recoveryTitle
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/recoveryTitle"
-msgid "Recovery is not dragging a progress bar to the right."
-msgstr "Recovery is not dragging a progress bar to the right."
+msgid "Your recovery plan"
+msgstr "Your recovery plan"
 
 #. copy/recoveryLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/recoveryLead"
 msgid ""
-"Every therapy has four independently confirmable steps. Leave halfway and "
-"the original box will still be waiting."
+"Each therapy has four steps. Confirm them as you finish; you can return to "
+"an unfinished plan later."
 msgstr ""
-"Every therapy has four independently confirmable steps. Leave halfway and "
-"the original box will still be waiting."
+"Each therapy has four steps. Confirm them as you finish; you can return to "
+"an unfinished plan later."
 
 #. copy/prescribedTherapies
 #: src/js/clinic.js:39
@@ -700,18 +690,18 @@ msgstr "MY MEDICAL FILE / ON-DEVICE CLINICAL BAG"
 #. copy/accountTitle
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/accountTitle"
-msgid "Queue tokens may be hidden. Clinical slips are not."
-msgstr "Queue tokens may be hidden. Clinical slips are not."
+msgid "My clinic records"
+msgstr "My clinic records"
 
 #. copy/accountLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/accountLead"
 msgid ""
-"Check-ins, consultations, prescriptions, each dose, and recovery steps "
-"remain chronological. Retriage does not erase earlier versions."
+"Visits, prescriptions, doses, and recovery steps are saved here in date "
+"order, including earlier triage results."
 msgstr ""
-"Check-ins, consultations, prescriptions, each dose, and recovery steps "
-"remain chronological. Retriage does not erase earlier versions."
+"Visits, prescriptions, doses, and recovery steps are saved here in date "
+"order, including earlier triage results."
 
 #. copy/visits
 #: src/js/clinic.js:39

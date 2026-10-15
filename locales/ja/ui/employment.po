@@ -16,18 +16,16 @@ msgstr "GENSOKYO EMPLOYMENT MARKET / 離校後も問題を抱える者へ"
 #. copy/title
 #: src/js/employment.js:42
 msgctxt "tree:copy#/title"
-msgid "We do not publish one flattering employment rate. First declare how you counted."
-msgstr "見栄えのよい就職率は公表しない。まず、どう数えるかを書いてください。"
+msgid "Find work in Gensokyo."
+msgstr "幻想郷で働く。"
 
 #. copy/lead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/lead"
 msgid ""
-"Is a half-phantom one graduate, two, or one and a half? Is posthumous Sanzu "
-"duty retention or pre-reincarnation unemployment? If work becomes an "
-"incident first, is it work or incident? Careers preserves denominators, "
-"testimony, and objections while the notice rack continues hiring."
-msgstr "半霊は一名、二名、一名半か。死後も三途川で勤務中なら在職か転生前失業か。仕事が先に異変化した場合は職か異変か。進路室は分母・証言・反対意見を残し、求人棚は通常どおり人を募る。"
+"Browse twenty-one vacancies, read the conditions, and send an odd résumé. "
+"You can also add your whereabouts to the graduate survey."
+msgstr "二十一件の求人から条件を比べ、履歴書を送れます。卒業生の進路調査にも参加できます。"
 
 #. copy/jobs
 #: src/js/employment.js:42
@@ -44,14 +42,14 @@ msgstr "通の怪歴書を発送"
 #. copy/attestations
 #: src/js/employment.js:42
 msgctxt "tree:copy#/attestations"
-msgid "on-device whereabouts statements"
-msgstr "件の端末内進路証言"
+msgid "graduate statements"
+msgstr "進路の回答"
 
 #. copy/outcomesNav
 #: src/js/employment.js:42
 msgctxt "tree:copy#/outcomesNav"
-msgid "Whereabouts Echo Roll"
-msgstr "離校先反響簿"
+msgid "Graduate whereabouts"
+msgstr "卒業生の進路"
 
 #. copy/marketNav
 #: src/js/employment.js:42
@@ -74,17 +72,16 @@ msgstr "COHORT 146 / 分母聴聞"
 #. copy/censusTitle
 #: src/js/employment.js:42
 msgctxt "tree:copy#/censusTitle"
-msgid "One graduating cohort produces a different Gensokyo under every counting rule."
-msgstr "同じ卒業期でも、数え方ごとに別の幻想郷になる。"
+msgid "Where did the graduates go?"
+msgstr "卒業生は、どこへ？"
 
 #. copy/censusLead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/censusLead"
 msgid ""
-"The categories may overlap, so their sum intentionally differs from the "
-"denominator. Akyuu keeps overlap, Keine demands a date on each roll, and Aya "
-"already drafted a headline for the largest number."
-msgstr "以下は同時成立できるため、合計は意図的に分母と一致しない。阿求は重複を消さず、慧音は点呼日を書かせ、文は最大値の見出しを既に準備した。"
+"Choose a counting rule and date range. Some graduates appear in several "
+"categories; Aya has already picked the largest number for her headline."
+msgstr "集計方法と期間を選んでください。複数の区分に入る卒業生もいます。文はもう、一番大きな数字を見出しに選びました。"
 
 #. copy/basis
 #: src/js/employment.js:42
@@ -107,8 +104,8 @@ msgstr "今回の分母"
 #. copy/statements
 #: src/js/employment.js:42
 msgctxt "tree:copy#/statements"
-msgid "Valid whereabouts claims"
-msgstr "有効な進路証言"
+msgid "valid statements"
+msgstr "有効な回答"
 
 #. copy/overlap
 #: src/js/employment.js:42
@@ -131,28 +128,28 @@ msgstr "分母聴聞"
 #. copy/localAdded
 #: src/js/employment.js:42
 msgctxt "tree:copy#/localAdded"
-msgid "Includes this device's statements"
-msgstr "この端末の証言を含む"
+msgid "includes your saved statement"
+msgstr "保存した回答を含む"
 
 #. copy/attestTitle
 #: src/js/employment.js:42
 msgctxt "tree:copy#/attestTitle"
-msgid "Place your whereabouts in the echo roll"
-msgstr "自分の進路を反響簿へ"
+msgid "Add your graduate whereabouts"
+msgstr "卒業後の状況を記入する"
 
 #. copy/attestLead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/attestLead"
 msgid ""
-"This statement stays on this device. It joins the current roll and may be "
-"disputed on BBS by another graduate."
-msgstr "証言は端末内保存。現在の点呼に加わり、BBSで別の卒業生から異議が出る場合もある。"
+"Your statement is saved in this browser and added to the current roll. Other "
+"graduates may reply on the BBS."
+msgstr "回答はこのブラウザに保存され、現在の名簿に加わります。BBSでほかの卒業生から反応が届くこともあります。"
 
 #. copy/name
 #: src/js/employment.js:42
 msgctxt "tree:copy#/name"
-msgid "Name used by this edition of you"
-msgstr "この版で使う名前"
+msgid "Name or known name"
+msgstr "氏名・通称"
 
 #. copy/outcome
 #: src/js/employment.js:42
@@ -175,14 +172,14 @@ msgstr "実情／統計に消させない点"
 #. copy/attestSubmit
 #: src/js/employment.js:42
 msgctxt "tree:copy#/attestSubmit"
-msgid "Leave an on-device statement"
-msgstr "端末内証言を残す"
+msgid "Save my whereabouts"
+msgstr "進路を保存する"
 
 #. copy/attested
 #: src/js/employment.js:42
 msgctxt "tree:copy#/attested"
-msgid "Your whereabouts statement entered the echo roll; the denominator retains appeal rights."
-msgstr "進路証言を反響簿へ綴じました。分母には不服申立権が残ります。"
+msgid "Your whereabouts statement is saved."
+msgstr "進路の回答を保存しました。"
 
 #. copy/marketEyebrow
 #: src/js/employment.js:42
@@ -193,17 +190,16 @@ msgstr "CLASSIFIEDS / 発煙・移動・採用済みの可能性"
 #. copy/marketTitle
 #: src/js/employment.js:42
 msgctxt "tree:copy#/marketTitle"
-msgid "Twenty-one notices; none promises the job begins before the incident."
-msgstr "二十一の求人。仕事が異変より先に始まる保証は一つもない。"
+msgid "Twenty-one vacancies. Read the small print."
+msgstr "二十一件の求人。細則も忘れずに。"
 
 #. copy/marketLead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/marketLead"
 msgid ""
-"Filter by trouble, view of time, and risk seals. Open a post for a shareable "
-"exact link, full strange clauses, a trial task, and an odd résumé that "
-"actually submits."
-msgstr "厄介事、時間観、危険印で絞込み。求人を開くと共有可能な固定リンク、全文小条項、試用課題、実際に送れる怪歴書が出る。"
+"Filter the notices, then open a vacancy for duties, conditions, a trial "
+"task, and an application form."
+msgstr "条件で絞り込み、求人を開くと、仕事内容、契約条項、試験課題、応募欄を確認できます。"
 
 #. copy/category
 #: src/js/employment.js:42
@@ -276,8 +272,8 @@ msgstr "この条件を認める雇主はいません。危険を一段上げる
 #. copy/fileEyebrow
 #: src/js/employment.js:42
 msgctxt "tree:copy#/fileEyebrow"
-msgid "FULL RECRUITMENT FILE / NOT A FATE GUARANTEE"
-msgstr "FULL RECRUITMENT FILE / 運命による採用保証ではない"
+msgid "RECRUITMENT FILE"
+msgstr "求人票"
 
 #. copy/employer
 #: src/js/employment.js:42
@@ -330,17 +326,16 @@ msgstr "求人を共有"
 #. copy/applyTitle
 #: src/js/employment.js:42
 msgctxt "tree:copy#/applyTitle"
-msgid "Dispatch an odd résumé"
-msgstr "怪歴書を発送"
+msgid "Send an odd résumé"
+msgstr "履歴書を送る"
 
 #. copy/applyLead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/applyLead"
 msgid ""
-"Careers will not beautify abilities or interpret “willing to suffer” as "
-"surrendering boundaries. The employer returns an immediately disputable "
-"first review."
-msgstr "進路室は能力を美化せず、「苦労可」を境界放棄と解さない。雇主から争議可能な初審が直ちに返る。"
+"Describe your skills and the conditions you can accept. The employer will "
+"issue a first review for you to answer."
+msgstr "できることと、引き受けられる条件を書いてください。雇用主の一次審査が届いたら、返答を選べます。"
 
 #. copy/degree
 #: src/js/employment.js:42
@@ -429,8 +424,8 @@ msgstr "怪歴書の下書きはこの端末だけに保存"
 #. copy/submitted
 #: src/js/employment.js:42
 msgctxt "tree:copy#/submitted"
-msgid "Odd résumé dispatched; the employer's first-edition reply has arrived."
-msgstr "怪歴書を発送。雇主の第一版回答も到着しました。"
+msgid "Résumé sent. The employer's first review is ready."
+msgstr "履歴書を送りました。雇用主の一次審査を確認できます。"
 
 #. copy/formError
 #: src/js/employment.js:42
@@ -450,16 +445,15 @@ msgstr "この回答へどう返す？"
 #: src/js/employment.js:42
 msgctxt "tree:copy#/responseLead"
 msgid ""
-"Accepting a trial is not accepting every clause; requesting correction is "
-"not rejection. Adjacent-timeline hires especially require this page's "
-"applicant to answer again."
-msgstr "試用承諾は全条項承諾ではなく、訂正要求も拒否ではない。隣接時間線採用は特に、この頁の本人が再回答する。"
+"Accept the trial, request a correction, negotiate, or decline. Your reply is "
+"saved with the employer's review."
+msgstr "試験採用、訂正依頼、交渉、辞退から返答を選べます。返答は雇用主の審査と一緒に保存します。"
 
 #. copy/responseNote
 #: src/js/employment.js:42
 msgctxt "tree:copy#/responseNote"
-msgid "Note for edition two"
-msgstr "第二版へ残す注記"
+msgid "Your reply note"
+msgstr "返答の補足"
 
 #. copy/responses/trial
 #: src/js/employment.js:42
@@ -488,14 +482,14 @@ msgstr "月相・日付まで保留"
 #. copy/responses/decline
 #: src/js/employment.js:42
 msgctxt "tree:copy#/responses/decline"
-msgid "I reject this edition"
-msgstr "この版は本人が拒否"
+msgid "Decline the offer"
+msgstr "辞退する"
 
 #. copy/responded
 #: src/js/employment.js:42
 msgctxt "tree:copy#/responded"
-msgid "Edition-two reply saved. Tengu Post and BBS will each misunderstand it once."
-msgstr "第二版回答を保存。鴉天狗郵便とBBSが各一度ずつ誤解します。"
+msgid "Reply saved. Check Tengu Post and the BBS for follow-up."
+msgstr "返答を保存しました。天狗郵便とBBSで続報を確認できます。"
 
 #. copy/recordsEyebrow
 #: src/js/employment.js:42
@@ -506,16 +500,16 @@ msgstr "MY APPLICATIONS / この端末のみ"
 #. copy/recordsTitle
 #: src/js/employment.js:42
 msgctxt "tree:copy#/recordsTitle"
-msgid "Applications, first reviews, and your replies survive closing the card."
-msgstr "応募、初審、本人回答はカードを閉じても消えない。"
+msgid "My applications & replies"
+msgstr "応募と返答の記録"
 
 #. copy/recordsLead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/recordsLead"
 msgid ""
-"Each record retains the vacancy, employer review, and your edition-two "
-"response; export them together from the on-device cabinet."
-msgstr "求人、初審版、本人の第二版を保存し、端末内資料棚からまとめて書き出せる。"
+"Vacancies, employer reviews, and your replies are saved together. Export "
+"them from the records cabinet."
+msgstr "求人、雇用主の審査、あなたの返答をまとめて保存します。記録保管庫から書き出せます。"
 
 #. copy/noRecords
 #: src/js/employment.js:42
@@ -538,8 +532,8 @@ msgstr "発送"
 #. copy/status
 #: src/js/employment.js:42
 msgctxt "tree:copy#/status"
-msgid "Current edition"
-msgstr "現在版"
+msgid "Application status"
+msgstr "応募状況"
 
 #. copy/reviewed
 #: src/js/employment.js:42

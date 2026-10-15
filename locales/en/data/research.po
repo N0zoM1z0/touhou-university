@@ -221,12 +221,12 @@ msgstr "Problem"
 #: src/data/research.js:27
 msgctxt "tree:researchFiles.moonpath.sections#/0/1"
 msgid ""
-"The forest is not merely a maze. Anxiety amplifies similar bamboo shadows, "
-"hides changing wind, and persuades travellers they are still walking "
+"Anxiety makes bamboo shadows harder to distinguish and changing wind easier "
+"to miss. Travellers may circle a junction while believing they are walking "
 "straight."
 msgstr ""
-"The forest is not merely a maze. Anxiety amplifies similar bamboo shadows, "
-"hides changing wind, and persuades travellers they are still walking "
+"Anxiety makes bamboo shadows harder to distinguish and changing wind easier "
+"to miss. Travellers may circle a junction while believing they are walking "
 "straight."
 
 #. researchFiles.moonpath.sections/1/0
@@ -357,13 +357,11 @@ msgstr "Conclusion"
 #: src/data/research.js:34
 msgctxt "tree:researchFiles.reports.sections#/3/1"
 msgid ""
-"Fast text is not necessarily least reliable, nor slow text most sincere. "
-"Quality begins by marking what is unknown and leaving an entrance for "
-"correction."
+"Compare each report's evidence and omissions. The useful correction "
+"identifies what changed and what remains unknown."
 msgstr ""
-"Fast text is not necessarily least reliable, nor slow text most sincere. "
-"Quality begins by marking what is unknown and leaving an entrance for "
-"correction."
+"Compare each report's evidence and omissions. The useful correction "
+"identifies what changed and what remains unknown."
 
 #. researchFiles.spellcard.title
 #: src/data/research.js:38

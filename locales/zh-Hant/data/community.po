@@ -142,9 +142,9 @@ msgstr "北翼第七排書架暫時移至第九排"
 #: src/data/community.js:51
 msgctxt "text:newsItems.library-book.summary"
 msgid ""
-"This is not construction. The shelf refuses its former position, and the "
-"library is negotiating return terms."
-msgstr "這不是施工。書架拒絕原位置，本館正與它協商返還條件。"
+"The shelf has refused its former position. The library is negotiating where "
+"it will return."
+msgstr "書架拒絕回到原處，圖書館正在協商它願意回去哪裡。"
 
 #. newsItems.spell-lantern.category
 #: src/data/community.js:56

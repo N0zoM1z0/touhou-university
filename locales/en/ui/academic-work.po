@@ -16,20 +16,18 @@ msgstr "ACADEMIC WORKBENCH / WORK & DEFENCE"
 #. copy/title
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/title"
-msgid "Answers do not disappear behind Submit."
-msgstr "Answers do not disappear behind Submit."
+msgid "Coursework, exams & defence"
+msgstr "Coursework, exams & defence"
 
 #. copy/lead
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/lead"
 msgid ""
-"Assignment drafts, exam answers, per-question scoring, explanations, "
-"transcripts, and thesis/spell-card defences stay on this device. Retakes "
-"never erase earlier slips."
+"Submit work, review your marks, and prepare a thesis or spell-card defence. "
+"Drafts and past attempts stay in this browser."
 msgstr ""
-"Assignment drafts, exam answers, per-question scoring, explanations, "
-"transcripts, and thesis/spell-card defences stay on this device. Retakes "
-"never erase earlier slips."
+"Submit work, review your marks, and prepare a thesis or spell-card defence. "
+"Drafts and past attempts stay in this browser."
 
 #. copy/mytu
 #: src/js/academic-work.js:36
@@ -239,11 +237,11 @@ msgstr "Not graded"
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/gradeLead"
 msgid ""
-"Assignments, course exams, and defences use percentages. The overall mark "
-"averages each item’s best result without deleting lower attempts."
+"Your overall mark is the average of your best result for each item. Earlier "
+"attempts remain available."
 msgstr ""
-"Assignments, course exams, and defences use percentages. The overall mark "
-"averages each item’s best result without deleting lower attempts."
+"Your overall mark is the average of your best result for each item. Earlier "
+"attempts remain available."
 
 #. copy/overall
 #: src/js/academic-work.js:36
@@ -302,18 +300,18 @@ msgstr "PROJECT DOSSIER"
 #. copy/proposalTitle
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/proposalTitle"
-msgid "First, make the claim capable of failing."
-msgstr "First, make the claim capable of failing."
+msgid "What will your project test?"
+msgstr "What will your project test?"
 
 #. copy/proposalLead
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/proposalLead"
 msgid ""
-"A simulation defence opens after submission. The committee asks about scope, "
-"reproduction, and stopping."
+"Submit a proposal to begin the simulated defence. Examiners ask about scope, "
+"repeatability, and stopping conditions."
 msgstr ""
-"A simulation defence opens after submission. The committee asks about scope, "
-"reproduction, and stopping."
+"Submit a proposal to begin the simulated defence. Examiners ask about scope, "
+"repeatability, and stopping conditions."
 
 #. copy/projectType
 #: src/js/academic-work.js:36

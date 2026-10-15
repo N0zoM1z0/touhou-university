@@ -157,11 +157,11 @@ msgstr "Paper, binding, and books that bite"
 #: src/data/campus.js:50
 msgctxt "text:clubs.grimoire.description"
 msgid ""
-"Repairs grimoires damaged by damp, burns, and self-rewriting page numbers. A "
-"new member's first lesson is not magic, but knowing when to close the book."
+"Repairs grimoires damaged by damp, burns, and self-rewriting page numbers. "
+"New members first learn when to close the book."
 msgstr ""
-"Repairs grimoires damaged by damp, burns, and self-rewriting page numbers. A "
-"new member's first lesson is not magic, but knowing when to close the book."
+"Repairs grimoires damaged by damp, burns, and self-rewriting page numbers. "
+"New members first learn when to close the book."
 
 #. clubs.grimoire.meeting
 #: src/data/campus.js:51
@@ -227,11 +227,11 @@ msgstr "Direction without relying on straight lines"
 #: src/data/campus.js:68
 msgctxt "text:clubs.bamboo.description"
 msgid ""
-"Practises safe return when roads, memory, and moonlight are unreliable. It "
-"is not a race; the route is complete only when the whole team returns."
+"Practises returning safely when roads, memory, and moonlight become "
+"unreliable. Every outing ends with a full headcount."
 msgstr ""
-"Practises safe return when roads, memory, and moonlight are unreliable. It "
-"is not a race; the route is complete only when the whole team returns."
+"Practises returning safely when roads, memory, and moonlight become "
+"unreliable. Every outing ends with a full headcount."
 
 #. clubs.bamboo.meeting
 #: src/data/campus.js:69

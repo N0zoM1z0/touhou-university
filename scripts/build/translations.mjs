@@ -1,4 +1,4 @@
-function escapeHtml(value) {
+export function escapeHtml(value) {
   return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 }
 
@@ -15,7 +15,7 @@ export function renderDefaultCopy(source, dictionary) {
     .replace(/(<!--\s*i18n:([\w.-]+)\s*-->)([^<]*)/g,
       (_, marker, key, fallback) => marker + fallback.match(/^\s*/)[0] + translated(key) + fallback.match(/\s*$/)[0])
     .replace(/<[a-z][^>]*>/gi, (tag) => {
-      for (const match of tag.matchAll(/\bdata-i18n-(aria-label|placeholder|alt|title)="([\w.-]+)"/g)) {
+      for (const match of tag.matchAll(/\bdata-i18n-(aria-label|placeholder|alt|title|content)="([\w.-]+)"/g)) {
         const [, attribute, key] = match;
         const attributePattern = new RegExp(`(^|\\s)${attribute}="[^"]*"`);
         if (!attributePattern.test(tag)) throw new Error(`Missing ${attribute} for ${key}`);

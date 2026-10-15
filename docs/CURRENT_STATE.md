@@ -1,7 +1,7 @@
 # Touhou University current state
 
 Last audited: 2026-10-15
-Release: `0.31.0`
+Release: `0.32.0`
 Branch/deployment: `main` → GitHub Pages; this architecture publishes `dist/` via Actions.
 Pages Source is GitHub Actions; the branch root contains authoring source only.
 Live site: <https://n0zom1z0.github.io/touhou-university/>
@@ -32,7 +32,7 @@ language.
 | Deliberately hidden pages | 1 (`phantasm.html`) |
 | Unique content sections | 36 |
 | CSS bundles | 21 |
-| Supported locales | 3 (`zh-Hant`, `ja`, `en`) |
+| Supported locales | 3 (`en`, `ja`, `zh-Hant`) |
 | Registered on-device keys | 74 |
 | Known records shelves | 12 |
 | Official event contracts | 80 |
@@ -77,6 +77,7 @@ Run `npm run docs:status` for the same values directly from source.
 - Public sections: `src/sections/`
 - Stable trilingual content: `src/data/`
 - Local models, interactions and cross-domain projections: `src/js/`
+- Default visitor language: English; switch order: English, 日本語, 繁體中文.
 - Three-language editorial source: `locales/{zh-Hant,ja,en}/` PO catalogs
 - Compiled copy facade: `src/data/i18n.js` and ignored `src/generated/i18n/`
 - UI initialization declarations: `src/js/feature-registry.js`

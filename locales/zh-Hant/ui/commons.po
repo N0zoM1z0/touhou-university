@@ -16,19 +16,16 @@ msgstr "CAMPUS COMMONS / 付喪神物權 × 鴉天狗郵便"
 #. copy/title
 #: src/js/commons.js:50
 msgctxt "tree:copy#/title"
-msgid ""
-"A thing may have an opinion after being lost; a notice may be another "
-"version after delivery."
-msgstr "東西被弄丟之後可能有自己的意見；通知被送到之後，也未必還是同一個版本。"
+msgid "Lost Property & Tengu Post"
+msgstr "失物窗口與天狗郵便"
 
 #. copy/lead
 #: src/js/commons.js:50
 msgctxt "tree:copy#/lead"
 msgid ""
-"At Property, receipts, wear, provenance, and the object testify separately. "
-"At Post, every letter retains source, trust, version, order, and correction. "
-"The two offices mail one another."
-msgstr "在物權庭，收據、磨損、來源與物件本人分席陳述；在郵便中心，每封信都留下來源、可信度、版次、送達順序與訂正。兩邊的卷宗會互相寄信。"
+"File a claim, hear what the object has to say, or check your post. Keep an "
+"eye on the date: some letters arrive ahead of their applications."
+msgstr "提出申領、聽聽物品的說法，或查看郵件。請留意日期，有些信會比申請早到。"
 
 #. copy/propertyTab
 #: src/js/commons.js:50
@@ -52,9 +49,9 @@ msgstr "付喪神失物招領與物權仲裁處"
 #: src/js/commons.js:50
 msgctxt "tree:copy#/propertyLead"
 msgid ""
-"Lost things may deny being lost and former holders may appeal; nobody may "
-"reduce an object's testimony to “a bit old”."
-msgstr "失物可以否認自己遺失，原持有人也可以申訴；但誰都不能把物件的陳述縮成「有點舊」。"
+"Choose an item and describe your claim. Receipts, wear, previous holders, "
+"and the object's own account all enter the hearing."
+msgstr "選擇物品並說明申領理由。收據、磨損、前持有人與物品自己的證詞，都會列入聽證。"
 
 #. copy/items
 #: src/js/commons.js:50
@@ -239,8 +236,8 @@ msgstr "四席各自留下意見"
 #. copy/hearingLead
 #: src/js/commons.js:50
 msgctxt "tree:copy#/hearingLead"
-msgid "There is no average score. Every question and objection enters the ruling."
-msgstr "這裡沒有平均分；四席的問題與異議會一起進入裁定。"
+msgid "Read each of the four opinions before accepting the ruling."
+msgstr "接受裁定前，請閱讀四位審查者各自的意見。"
 
 #. copy/chooseRuling
 #: src/js/commons.js:50
@@ -302,9 +299,9 @@ msgstr "鴉天狗校園郵便與通知中心"
 #: src/js/commons.js:50
 msgctxt "tree:copy#/postLead"
 msgid ""
-"An offer may precede an application and cancellation may follow the make-up. "
-"At least keep source, version, and correction from vanishing together."
-msgstr "入學通知可以早於申請，取消信可以晚於補考；至少讓來源、版次與訂正別一起失蹤。"
+"Read the source, date, and corrections on each letter. Delivery order can be "
+"unreliable here."
+msgstr "請查看每封信的來源、日期與修訂；這裡的送達順序偶爾不太可靠。"
 
 #. copy/inbox
 #: src/js/commons.js:50

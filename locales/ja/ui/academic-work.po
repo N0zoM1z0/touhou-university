@@ -16,17 +16,16 @@ msgstr "ACADEMIC WORKBENCH / 課業・答弁"
 #. copy/title
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/title"
-msgid "Answers do not disappear behind Submit."
-msgstr "答案は提出ボタンの後ろへ消えない。"
+msgid "Coursework, exams & defence"
+msgstr "課題・試験・口頭審査"
 
 #. copy/lead
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/lead"
 msgid ""
-"Assignment drafts, exam answers, per-question scoring, explanations, "
-"transcripts, and thesis/spell-card defences stay on this device. Retakes "
-"never erase earlier slips."
-msgstr "課題下書き、試験答案、設問別採点、解説、成績表、論文／スペルカード答弁を端末内保存。再受験・再提出も以前の票を消しません。"
+"Submit work, review your marks, and prepare a thesis or spell-card defence. "
+"Drafts and past attempts stay in this browser."
+msgstr "課題の提出、採点の確認、論文・スペルカードの口頭審査を行えます。下書きと過去の受験記録はこのブラウザに保存されます。"
 
 #. copy/mytu
 #: src/js/academic-work.js:36
@@ -236,9 +235,9 @@ msgstr "未採点"
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/gradeLead"
 msgid ""
-"Assignments, course exams, and defences use percentages. The overall mark "
-"averages each item’s best result without deleting lower attempts."
-msgstr "課題・授業試験・答弁を百分率表示。総合は各項目の最高点平均で、低い試行も削除しません。"
+"Your overall mark is the average of your best result for each item. Earlier "
+"attempts remain available."
+msgstr "各課題・試験の最高点を平均して総合成績を計算します。過去の提出も読み返せます。"
 
 #. copy/overall
 #: src/js/academic-work.js:36
@@ -297,16 +296,16 @@ msgstr "PROJECT DOSSIER / 研究計画"
 #. copy/proposalTitle
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/proposalTitle"
-msgid "First, make the claim capable of failing."
-msgstr "まず、失敗できる主張へ。"
+msgid "What will your project test?"
+msgstr "何を確かめる研究ですか？"
 
 #. copy/proposalLead
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/proposalLead"
 msgid ""
-"A simulation defence opens after submission. The committee asks about scope, "
-"reproduction, and stopping."
-msgstr "提出後すぐ模擬答弁へ。委員会は範囲、再現、停止条件を追及します。"
+"Submit a proposal to begin the simulated defence. Examiners ask about scope, "
+"repeatability, and stopping conditions."
+msgstr "計画を提出すると模擬口頭審査が始まります。審査員は範囲、再現方法、中止条件を質問します。"
 
 #. copy/projectType
 #: src/js/academic-work.js:36

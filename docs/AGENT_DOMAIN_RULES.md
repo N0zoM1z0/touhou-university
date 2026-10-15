@@ -42,6 +42,8 @@ validator wins and this document must be corrected in the same change.
   - Traditional Chinese (`zh-Hant`);
   - Japanese (`ja`);
   - English (`en`).
+- English is the default for initial HTML, metadata and the browser interface.
+  List English, Japanese, then Traditional Chinese in both language controls.
 - A university-style language switcher must be visible in the global header.
 - New copy, form labels, validation messages, dialogs, tables, maps and BBS
   components must be translated in the same change.

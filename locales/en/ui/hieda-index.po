@@ -10,36 +10,26 @@ msgstr ""
 #. copy/eyebrow
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/eyebrow"
-msgid "HIEDA INDEX / FIVE RECORDS OF ONE THING"
-msgstr "HIEDA INDEX / FIVE RECORDS OF ONE THING"
+msgid "HIEDA CAMPUS INDEX"
+msgstr "HIEDA CAMPUS INDEX"
 
 #. copy/title
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/title"
-msgid ""
-"Every event happens\nat least five times."
-msgstr ""
-"Every event happens\nat least five times."
+msgid "Follow a campus incident."
+msgstr "Follow a campus incident."
 
 #. copy/lead
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/lead"
-msgid ""
-"Once on site, once in rules, once in news, once in student talk—and once "
-"more in the margin Akyuu refuses to erase."
-msgstr ""
-"Once on site, once in rules, once in news, once in student talk—and once "
-"more in the margin Akyuu refuses to erase."
+msgid "Trace an event through reports, rules, research, and student accounts."
+msgstr "Trace an event through reports, rules, research, and student accounts."
 
 #. copy/notice
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/notice"
-msgid ""
-"This machine does not choose one campus truth. It lays mutually "
-"contradictory, mutually citing, mutually evasive records on one desk."
-msgstr ""
-"This machine does not choose one campus truth. It lays mutually "
-"contradictory, mutually citing, mutually evasive records on one desk."
+msgid "Compare the accounts and open their sources. Akyuu keeps the disagreements on file."
+msgstr "Compare the accounts and open their sources. Akyuu keeps the disagreements on file."
 
 #. copy/events
 #: src/js/hieda-index.js:24
@@ -62,32 +52,32 @@ msgstr "Read by version / time"
 #. copy/eventHint
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/eventHint"
-msgid "Follow one nuisance through seven offices"
-msgstr "Follow one nuisance through seven offices"
+msgid "Follow an event across campus records"
+msgstr "Follow an event across campus records"
 
 #. copy/characterHint
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/characterHint"
-msgid "See one person's fingerprints across different files"
-msgstr "See one person's fingerprints across different files"
+msgid "Find the files involving one person"
+msgstr "Find the files involving one person"
 
 #. copy/versionHint
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/versionHint"
-msgid "Trace change along the first-parent chronicle"
-msgstr "Trace change along the first-parent chronicle"
+msgid "See when the campus changed"
+msgstr "See when the campus changed"
 
 #. copy/dossiers
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/dossiers"
-msgid "cross-files"
-msgstr "cross-files"
+msgid "case files"
+msgstr "case files"
 
 #. copy/hands
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/hands"
-msgid "fingerprints"
-msgstr "fingerprints"
+msgid "people"
+msgstr "people"
 
 #. copy/versionsCount
 #: src/js/hieda-index.js:24
@@ -98,8 +88,8 @@ msgstr "chronicle versions"
 #. copy/records
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/records"
-msgid "linked leaves"
-msgstr "linked leaves"
+msgid "sources"
+msgstr "sources"
 
 #. copy/indexSearch
 #: src/js/hieda-index.js:24
@@ -122,52 +112,44 @@ msgstr "Return to source"
 #. copy/thread
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/thread"
-msgid "Why this red thread is here"
-msgstr "Why this red thread is here"
+msgid "How this source connects"
+msgstr "How this source connects"
 
 #. copy/contradiction
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/contradiction"
-msgid "Contradiction retained by Akyuu"
-msgstr "Contradiction retained by Akyuu"
+msgid "Where the accounts disagree"
+msgstr "Where the accounts disagree"
 
 #. copy/people
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/people"
-msgid "Fingerprints on this leaf"
-msgstr "Fingerprints on this leaf"
+msgid "People in this record"
+msgstr "People in this record"
 
 #. copy/versionSources
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/versionSources"
-msgid "Chronicle versions this event passed through"
-msgstr "Chronicle versions this event passed through"
+msgid "Related chronicle entries"
+msgstr "Related chronicle entries"
 
 #. copy/localTitle
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/localTitle"
-msgid "Records you left in the margin"
-msgstr "Records you left in the margin"
+msgid "Your activity in this case"
+msgstr "Your activity in this case"
 
 #. copy/localLead
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/localLead"
-msgid ""
-"Reads only the official campus ledger on this device. Nothing uploads, and "
-"nothing you did not do gets invented."
-msgstr ""
-"Reads only the official campus ledger on this device. Nothing uploads, and "
-"nothing you did not do gets invented."
+msgid "Shows related events recorded in My TU on this browser."
+msgstr "Shows related events recorded in My TU on this browser."
 
 #. copy/localEmpty
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/localEmpty"
-msgid ""
-"This leaf does not know your handwriting yet. Borrow, vote, close a case, "
-"enrol, or defend work in a source file."
-msgstr ""
-"This leaf does not know your handwriting yet. Borrow, vote, close a case, "
-"enrol, or defend work in a source file."
+msgid "No related activity yet. Open a source to borrow a book, vote, enrol, or work on a case."
+msgstr "No related activity yet. Open a source to borrow a book, vote, enrol, or work on a case."
 
 #. copy/localOpen
 #: src/js/hieda-index.js:24
@@ -202,28 +184,24 @@ msgstr "Files involving this character"
 #. copy/versionDossiers
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/versionDossiers"
-msgid "Files moved by this version"
-msgstr "Files moved by this version"
+msgid "Cases affected by this change"
+msgstr "Cases affected by this change"
 
 #. copy/characterNote
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/characterNote"
-msgid ""
-"Characters are not flattened into consistent positions. One name can be "
-"teacher, witness, maintainer, and cause of trouble."
-msgstr ""
-"Characters are not flattened into consistent positions. One name can be "
-"teacher, witness, maintainer, and cause of trouble."
+msgid "Follow this person's teaching, testimony, and other involvement across the files."
+msgstr "Follow this person's teaching, testimony, and other involvement across the files."
 
 #. copy/versionNote
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/versionNote"
 msgid ""
-"The first-parent commit is the chronicle source. A feature subject and "
-"campus consequence may meet, but may not impersonate each other."
+"Open the chronicle entry for the campus account, or the Git revision for its "
+"source change."
 msgstr ""
-"The first-parent commit is the chronicle source. A feature subject and "
-"campus consequence may meet, but may not impersonate each other."
+"Open the chronicle entry for the campus account, or the Git revision for its "
+"source change."
 
 #. copy/gitSource
 #: src/js/hieda-index.js:24
@@ -234,32 +212,32 @@ msgstr "Open Git source"
 #. copy/archiveSource
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/archiveSource"
-msgid "Open chronicle leaf"
-msgstr "Open chronicle leaf"
+msgid "Open chronicle entry"
+msgstr "Open chronicle entry"
 
 #. copy/copied
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/copied"
-msgid "This leaf's red-thread address is copied."
-msgstr "This leaf's red-thread address is copied."
+msgid "Link copied."
+msgstr "Link copied."
 
 #. copy/share
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/share"
-msgid "Copy this leaf's address"
-msgstr "Copy this leaf's address"
+msgid "Copy link"
+msgstr "Copy link"
 
 #. copy/noMatch
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/noMatch"
-msgid "That phrase is absent from every visible index slip."
-msgstr "That phrase is absent from every visible index slip."
+msgid "No matching entries. Try another search term."
+msgstr "No matching entries. Try another search term."
 
 #. copy/allRecords
 #: src/js/hieda-index.js:24
 msgctxt "tree:copy#/allRecords"
-msgid "All linked leaves"
-msgstr "All linked leaves"
+msgid "All sources"
+msgstr "All sources"
 
 #. copy/direct
 #: src/js/hieda-index.js:24

@@ -14,21 +14,19 @@ msgid "University home"
 msgstr "大學首頁"
 
 #. Global message key: pageAcademicsTitle
-#: site.config.mjs:21 src/js/i18n.js:26
+#: site.config.mjs:24 src/js/i18n.js:25
 msgctxt "text:pageAcademicsTitle"
 msgid "Academics & Teaching"
 msgstr "學術與教學"
 
 #. Global message key: pageAcademicsLead
-#: site.config.mjs:28
+#: site.config.mjs:29
 msgctxt "text:pageAcademicsLead"
-msgid ""
-"The seven schools share more than a name: they share questions that refuse "
-"to stay within departmental borders."
-msgstr "七所學院不只共用校名，也共用一批不肯安分待在系所邊界內的問題。"
+msgid "Explore seven schools, their courses, and the people teaching them."
+msgstr "認識七所學院、各院課程與授課老師。"
 
 #. Global message key: pageAdmissionsTitle
-#: site.config.mjs:36 src/js/i18n.js:27
+#: site.config.mjs:38 src/js/i18n.js:26
 msgctxt "text:pageAdmissionsTitle"
 msgid "Admissions, Applications & Examinations"
 msgstr "招生、申請與試驗"
@@ -37,46 +35,42 @@ msgstr "招生、申請與試驗"
 #: site.config.mjs:43
 msgctxt "text:pageAdmissionsLead"
 msgid ""
-"Bring a question and choose an entry route. Papers keep time; your "
-"application draft waits on this device."
-msgstr "把問題帶來，選一條入學路線；試卷會計時，申請草稿則會在這台裝置上等你回來。"
+"Choose an entry route, start an application, or try an entrance paper. Your "
+"draft saves as you go."
+msgstr "選擇入學途徑、填寫申請，或試做入學試卷。草稿會隨填寫儲存。"
 
 #. Global message key: pageOrientationTitle
-#: site.config.mjs:51 src/sections/orientation.html:5
+#: site.config.mjs:52 src/sections/orientation.html:5
 msgctxt "text:pageOrientationTitle"
 msgid "First Bell · New Student Arrival Week"
 msgstr "第一鐘・新生到着週"
 
 #. Global message key: pageOrientationLead
-#: site.config.mjs:58
+#: site.config.mjs:57
 msgctxt "text:pageOrientationLead"
-msgid ""
-"Admission gets you through a gate. Arrival means recognising it, knowing the "
-"way back, and choosing a real first destination."
-msgstr "錄取讓你進門；報到要讓你認得門、退路，以及第一個真正想去的地方。"
+msgid "Confirm your arrival route and stop signal, then choose your first campus destination."
+msgstr "確認到校路線與停止信號，再選擇第一個校園目的地。"
 
 #. Global message key: pageResearchTitle
-#: site.config.mjs:71 src/js/i18n.js:28
+#: site.config.mjs:71 src/js/i18n.js:27
 msgctxt "text:pageResearchTitle"
-msgid "Research Results & Open Records"
-msgstr "研究成果與公開檔案"
+msgid "Research & Field Notes"
+msgstr "研究與田野筆記"
 
 #. Global message key: pageResearchLead
-#: site.config.mjs:78
+#: site.config.mjs:76
 msgctxt "text:pageResearchLead"
-msgid ""
-"Results are more than titles: methods, failures, limits, corrections, and "
-"unfinished arguments remain in the record."
-msgstr "成果不只列題目：方法、失敗、限制、訂正與仍然吵不完的結論都留在檔案裡。"
+msgid "Open a project to read its methods, findings, and unresolved questions."
+msgstr "選一項研究，閱讀方法、結果與尚待解答的問題。"
 
 #. Global message key: pageCampusTitle
-#: site.config.mjs:197 src/js/i18n.js:29
+#: site.config.mjs:189 src/js/i18n.js:28
 msgctxt "text:pageCampusTitle"
 msgid "Campus, Routes & Shared Life"
 msgstr "校園、路線與共同生活"
 
 #. Global message key: pageCampusLead
-#: site.config.mjs:204
+#: site.config.mjs:194
 msgctxt "text:pageCampusLead"
 msgid ""
 "From Hakurei Gate to Eientei, routes change with transport and moon phase; "
@@ -84,7 +78,7 @@ msgid ""
 msgstr "從博麗門到永遠亭，路線會隨交通方式與月相改變；校園裡的傳聞通常更快。"
 
 #. Global message key: pageMyTuTitle
-#: site.config.mjs:212 src/js/i18n.js:30
+#: site.config.mjs:203 src/js/i18n.js:29
 msgctxt "text:pageMyTuTitle"
 msgid "Records, Registration & Campus History"
 msgstr "學籍、選課與校園履歷"
@@ -92,25 +86,23 @@ msgstr "學籍、選課與校園履歷"
 #. Global message key: pageMyTuLead
 #: src/data/i18n.js:1
 msgctxt "text:pageMyTuLead"
-msgid ""
-"This device remembers applications, exams, courses, and campus events; the "
-"data need not leave the browser."
-msgstr "這台裝置記得你的申請、試驗、課程與校園事件；資料不必離開瀏覽器。"
+msgid "Manage your student record, applications, courses, and grades in this browser."
+msgstr "在這個瀏覽器管理學籍、申請、課程與成績。"
 
 #. Global message key: pageLibraryTitle
-#: site.config.mjs:227 src/js/i18n.js:31
+#: site.config.mjs:217 src/js/i18n.js:30
 msgctxt "text:pageLibraryTitle"
 msgid "Misty Lake Library"
 msgstr "霧湖圖書館"
 
 #. Global message key: pageClinicTitle
-#: site.config.mjs:247 src/js/i18n.js:32
+#: site.config.mjs:236 src/js/i18n.js:31
 msgctxt "text:pageClinicTitle"
-msgid "Eientei Campus Medical Center"
+msgid "Eientei Campus Medical Centre"
 msgstr "永遠亭校醫院"
 
 #. Global message key: pageLibraryLead
-#: site.config.mjs:239
+#: site.config.mjs:227
 msgctxt "text:pageLibraryLead"
 msgid ""
 "Books may fly from shelves, refuse their old position, or appear only at "
@@ -118,107 +110,99 @@ msgid ""
 msgstr "館藏可能飛離書架、拒絕原位置或只在滿月可見；索書號與你的借閱紀錄仍會留下。"
 
 #. Global message key: pageHousingTitle
-#: site.config.mjs:267 src/js/i18n.js:33
+#: site.config.mjs:255 src/js/i18n.js:32
 msgctxt "text:pageHousingTitle"
 msgid "Housing, Rooms & Roommates"
 msgstr "宿舍、房間與室友"
 
 #. Global message key: pageHousingLead
-#: site.config.mjs:274
+#: site.config.mjs:260
 msgctxt "text:pageHousingLead"
-msgid ""
-"Moon phase, wingspan, water, walls, and sleep all shape allocation. A "
-"suitable roommate is not trouble-free; the trouble can be discussed first."
-msgstr "月相、翼展、水域、牆面與作息都會影響分房；適合的室友不是沒有麻煩，而是麻煩能先談清楚。"
+msgid "Compare five residences by room type, access, facilities, and sleeping habits."
+msgstr "依房型、通行、設施與作息，比較五座宿舍。"
 
 #. Global message key: pageIncidentsTitle
-#: site.config.mjs:101 src/sections/incidents.html:2 src/js/i18n.js:34
+#: site.config.mjs:99 src/sections/incidents.html:2 src/js/i18n.js:33
 msgctxt "text:pageIncidentsTitle"
 msgid "Campus Incident Centre & Research Simulation"
 msgstr "校園事件中心與研究模擬"
 
 #. Global message key: pageIncidentsLead
-#: site.config.mjs:108
+#: site.config.mjs:104
 msgctxt "text:pageIncidentsLead"
-msgid ""
-"An incident may be controlled first, but a finding must remain falsifiable. "
-"After closure, the Campus BBS has a life of its own."
-msgstr "事件可以先被控制，結論必須能被推翻；至於結案後的爭論，校園 BBS 自有它的生命。"
+msgid "Read the evidence, test an explanation, and decide how to close the case."
+msgstr "閱讀證據、驗證解釋，再決定如何結案。"
 
 #. Global message key: pageHomeTitle
-#: src/data/i18n.js:1
+#: site.config.mjs:9 src/js/i18n.js:37
 msgctxt "text:pageHomeTitle"
 msgid "Touhou University of Gensokyo"
 msgstr "幻想鄉立東方大學"
 
 #. Global message key: pageRecordsTitle
-#: site.config.mjs:282
+#: site.config.mjs:269
 msgctxt "text:pageRecordsTitle"
 msgid "On-device Records Cabinet"
 msgstr "本機資料櫃"
 
 #. Global message key: pageHiedaTitle
-#: site.config.mjs:297 src/sections/hieda-index.html:2
+#: site.config.mjs:283 src/sections/hieda-index.html:2
 msgctxt "text:pageHiedaTitle"
-msgid "Hieda Campus Knowledge Graph"
-msgstr "稗田校務知識圖譜"
+msgid "Hieda Campus Index"
+msgstr "稗田校務索引"
 
 #. Global message key: pageEthicsTitle
-#: site.config.mjs:86
+#: site.config.mjs:85
 msgctxt "text:pageEthicsTitle"
 msgid "Gensokyo Research Ethics Review Board"
 msgstr "幻想鄉研究倫理審查委員會"
 
 #. Global message key: pageFestivalTitle
-#: site.config.mjs:116
+#: site.config.mjs:113
 msgctxt "text:pageFestivalTitle"
-msgid "Spring Spell-card Lantern / Boundary Festival Operations"
-msgstr "春季符卡燈會／境界開學祭營運室"
+msgid "Lantern & Boundary Festival"
+msgstr "燈籠祭與結界祭"
 
 #. Global message key: pageFestivalLead
-#: site.config.mjs:123
+#: site.config.mjs:118
 msgctxt "text:pageFestivalLead"
 msgid ""
-"Six desks do not sign for one another. After the opening bell, closures, "
-"clinic queues, news, faith disputes, and residence night sounds run on their "
-"own temperaments."
-msgstr "六張桌不會互相代簽；開門鐘響後，封路、候診、新聞、信仰異議與宿舍夜聲都照各自的脾氣運轉。"
+"Plan the festival, obtain six desk approvals, and handle events from opening "
+"bell to closing report."
+msgstr "規劃祭典、取得六個窗口的許可，從開幕一路處理到結祭報告。"
 
 #. Global message key: pageFieldworkTitle
-#: site.config.mjs:131
+#: site.config.mjs:127
 msgctxt "text:pageFieldworkTitle"
-msgid "Domestic Placement & Field Inquiry Passport"
-msgstr "境內實習與田野調查護照"
+msgid "Fieldwork & Placement Passport"
+msgstr "實習與田野護照"
 
 #. Global message key: pageCommonsTitle
-#: site.config.mjs:146
+#: site.config.mjs:141
 msgctxt "text:pageCommonsTitle"
 msgid "Campus Commons"
 msgstr "校園公共服務館"
 
 #. Global message key: pageCalendarTitle
-#: site.config.mjs:161
+#: site.config.mjs:155
 msgctxt "text:pageCalendarTitle"
 msgid "Gensokyo Academic Calendar"
 msgstr "幻想鄉學年曆"
 
 #. Global message key: pageCareersTitle
-#: site.config.mjs:176
+#: site.config.mjs:169
 msgctxt "text:pageCareersTitle"
-msgid "Graduation, Gensokyo Employment Market & Hyakki Yagyo Alumni"
-msgstr "卒業、幻想鄉就業市場與百鬼夜行校友會"
+msgid "Graduation, Jobs & Alumni"
+msgstr "畢業、職缺與校友會"
 
 #. Global message key: pageCareersLead
-#: site.config.mjs:183
+#: site.config.mjs:174
 msgctxt "text:pageCareersLead"
-msgid ""
-"A degree does not erase disputes, and graduate whereabouts cannot be "
-"compressed into a flattering percentage. State the denominator, strange "
-"clauses, and your uncrossable line."
-msgstr "學位不會消滅爭議；離校去向也不能壓成一個好看的百分比。先把分母、怪條款與你不願跨過的界線寫清楚。"
+msgid "Check your graduation file, explore work in Gensokyo, and meet the alumni chapters."
+msgstr "查看畢業卷宗，探索幻想鄉的工作與校友會活動。"
 
 #. Global message key: pagePhantasmTitle
-#: site.config.mjs:312
+#: site.config.mjs:297
 msgctxt "text:pagePhantasmTitle"
 msgid "Ninth Period Roll"
 msgstr "第九節點名簿"
@@ -228,3 +212,139 @@ msgstr "第九節點名簿"
 msgctxt "text:pageLocation"
 msgid "Page location"
 msgstr "頁面位置"
+
+#. text:pageDescription.home
+#: site.config.mjs:10
+msgctxt "text:pageDescription.home"
+msgid ""
+"Explore Touhou University's seven schools, faculty, admissions, and campus "
+"life in Gensokyo."
+msgstr "認識幻想鄉立東方大學的七所學院、師資、招生與校園生活。"
+
+#. text:pageDescription.academics
+#: site.config.mjs:22
+msgctxt "text:pageDescription.academics"
+msgid "Compare seven schools, their courses, fees, and faculty."
+msgstr "比較七所學院的課程、學費與師資。"
+
+#. text:pageDescription.admissions
+#: site.config.mjs:36
+msgctxt "text:pageDescription.admissions"
+msgid "Choose an entry route, start an application, or try the Gensokyo entrance examinations."
+msgstr "選擇入學途徑、開始申請，或挑戰幻想鄉的入學試驗。"
+
+#. text:pageDescription.orientation
+#: site.config.mjs:50
+msgctxt "text:pageDescription.orientation"
+msgid ""
+"Prepare for arrival with your admission result, a route from Hakurei Gate, "
+"and a first destination."
+msgstr "確認錄取結果、博麗門出發路線與第一站，準備到校。"
+
+#. text:pageDescription.research
+#: site.config.mjs:69
+msgctxt "text:pageDescription.research"
+msgid "Read Gensokyo research on boundaries, history, magic, engineering, and spell cards."
+msgstr "閱讀境界、歷史、魔法、工程與符卡的幻想鄉研究。"
+
+#. text:pageDescription.ethics
+#: site.config.mjs:83
+msgctxt "text:pageDescription.ethics"
+msgid "Submit a research protocol for review by Eirin, Satori, Keine, Eiki, and Reimu."
+msgstr "提交研究計畫，由永琳、覺、慧音、映姬與靈夢審查。"
+
+#. text:pageDescription.incidents
+#: site.config.mjs:97
+msgctxt "text:pageDescription.incidents"
+msgid ""
+"Investigate campus cases, compare evidence, and test explanations in the "
+"research simulator."
+msgstr "調查校園案件、比對證據，以研究模擬驗證解釋。"
+
+#. text:pageDescription.festival
+#: site.config.mjs:111
+msgctxt "text:pageDescription.festival"
+msgid ""
+"Plan routes, stalls, power, and aid for the lantern festival, from permits "
+"to closing report."
+msgstr "規劃燈籠祭的路線、攤位、供電與急救，從申請許可到完成結祭報告。"
+
+#. text:pageDescription.fieldwork
+#: site.config.mjs:125
+msgctxt "text:pageDescription.fieldwork"
+msgid ""
+"Visit twenty-four fieldwork stations across Gensokyo and record your "
+"observations in a placement passport."
+msgstr "走訪幻想鄉二十四個實習站，將觀察記入實習護照。"
+
+#. text:pageDescription.commons
+#: site.config.mjs:139
+msgctxt "text:pageDescription.commons"
+msgid "Claim lost property, hear an object's account, and check letters from Tengu Post."
+msgstr "申領失物、聽取物品的說法，並查看天狗郵便來信。"
+
+#. text:pageDescription.calendar
+#: site.config.mjs:153
+msgctxt "text:pageDescription.calendar"
+msgid ""
+"Check Gensokyo's terms, seasons, moon phases, and events before planning "
+"classes or travel."
+msgstr "安排課程或行程前，先查看幻想鄉的學期、季節、月相與活動。"
+
+#. text:pageDescription.careers
+#: site.config.mjs:167
+msgctxt "text:pageDescription.careers"
+msgid ""
+"Review graduation requirements, browse twenty-one vacancies, and meet the "
+"Hyakki Yagyo alumni."
+msgstr "查看畢業要求、二十一項職缺與百鬼夜行校友會活動。"
+
+#. text:pageDescription.campus
+#: site.config.mjs:187
+msgctxt "text:pageDescription.campus"
+msgid "Find routes, clubs, dining, campus news, and BBS discussions."
+msgstr "查找校園路線、社團、餐飲、消息與BBS討論。"
+
+#. text:pageDescription.mytu
+#: site.config.mjs:201
+msgctxt "text:pageDescription.mytu"
+msgid ""
+"Manage your student identity, applications, course registration, grades, and "
+"campus history."
+msgstr "管理身分、申請、選課、成績與校園履歷。"
+
+#. text:pageDescription.library
+#: site.config.mjs:215
+msgctxt "text:pageDescription.library"
+msgid "Search Misty Lake Library, borrow or reserve a book, and manage your loans."
+msgstr "搜尋霧湖圖書館館藏、借閱或預約書籍，並管理借閱紀錄。"
+
+#. text:pageDescription.clinic
+#: site.config.mjs:234
+msgctxt "text:pageDescription.clinic"
+msgid "Start triage, check clinic queues, browse medicines, and follow your recovery plan."
+msgstr "開始分診、查看候診狀態、查閱藥品與跟進康復計畫。"
+
+#. text:pageDescription.housing
+#: site.config.mjs:253
+msgctxt "text:pageDescription.housing"
+msgid "Compare five residences, describe your needs, and review room and roommate offers."
+msgstr "比較五座宿舍、填寫需求，並查看房間與室友配對。"
+
+#. text:pageDescription.records
+#: site.config.mjs:267
+msgctxt "text:pageDescription.records"
+msgid "View, back up, import, or delete the university records saved in this browser."
+msgstr "查看、備份、匯入或刪除這個瀏覽器保存的校務紀錄。"
+
+#. text:pageDescription.hieda
+#: site.config.mjs:281
+msgctxt "text:pageDescription.hieda"
+msgid "Follow campus events through reports, research, rules, and the Hieda chronicle."
+msgstr "沿著報告、研究、規章與稗田校史，追查校園事件。"
+
+#. text:pageDescription.phantasm
+#: site.config.mjs:295
+msgctxt "text:pageDescription.phantasm"
+msgid "The ninth-period roll has a place for the choices left behind."
+msgstr "未選的路，在第九節點名簿裡也有座位。"

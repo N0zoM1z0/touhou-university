@@ -40,6 +40,7 @@ const {
   assessFestivalPlan,
   closeFestivalOperation,
   defaultFestivalDraft,
+  festivalDraft,
   festivalClinicPressure,
   festivalOperation,
   festivalOutcomeLabels,
@@ -100,6 +101,18 @@ festivalIncidentPool.forEach((incident) => {
 });
 
 const draft = defaultFestivalDraft(new Date("2026-03-14T09:00:00+08:00"));
+for (const field of ["stopRule", "rainRule", "accessibilityNote"]) {
+  const versions = locales.map((locale) => defaultFestivalDraft(new Date(draft.startsAt), locale)[field]);
+  check(versions.every((value) => typeof value === "string" && value.length > 20) && new Set(versions).size === 3, `${field}: starter text must have three distinct language editions.`);
+  check(draft[field] === defaultFestivalDraft(new Date(draft.startsAt), "en")[field], `${field}: new drafts must default to English.`);
+}
+const olderDraft = { ...defaultFestivalDraft(new Date(draft.startsAt), "zh-Hant"), organiserNote: "已核對，請保留原文。" };
+window.localStorage.setItem(festivalStorageKeys.draft, JSON.stringify(olderDraft));
+const olderBytes = window.localStorage.getItem(festivalStorageKeys.draft);
+const reopenedDraft = festivalDraft("en");
+check(reopenedDraft.stopRule === olderDraft.stopRule && reopenedDraft.organiserNote === olderDraft.organiserNote, "Changing interface language rewrote an older festival draft.");
+check(window.localStorage.getItem(festivalStorageKeys.draft) === olderBytes, "Reading an older draft rewrote its stored bytes.");
+window.localStorage.removeItem(festivalStorageKeys.draft);
 const assessment = assessFestivalPlan(draft);
 check(assessment.opinions.length === 6, "The permit did not receive six independent desk opinions.");
 check(new Set(assessment.opinions.map(({ deskId }) => deskId)).size === 6, "A festival desk was duplicated or averaged away.");

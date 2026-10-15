@@ -1073,22 +1073,15 @@ msgstr "七件麻煩被四十九張紙同時承認，卻沒有一張肯承認自
 #: src/data/campus-history.js:356
 msgctxt "text:campusHistory.five-records-share-one-red-thread.summary"
 msgid ""
-"Akyuu spreads incident files, equipment and evidence, news marginalia, "
-"governance rules, courses and research, BBS, holdings, housing, drift "
-"objects, spell-card defences, and the first-parent chronicle into seven "
-"cross-files. Visitors can invert the index by event, fifteen characters who "
-"left fingerprints, or version and time. Every linked leaf still returns to "
-"its original office; the index does not duplicate a more obedient truth. If "
-"this device really borrowed, voted, simulated, enrolled, or defended work, "
-"the official event ledger adds the keeper's own red thread and direct cause "
-"in the margin. Things never done stay blank. Governance motions also gain "
-"exact addresses, so opening the full-moon library rule no longer returns "
-"every visitor to the first airspace proposal."
+"Akyuu opens seven case files linking incident reports, objects, news, rules, "
+"courses, books, and housing. Readers can follow an event, one of fifteen "
+"people, or a date in the chronicle; each source opens at its own office. "
+"Related borrowing, votes, enrolments, and defences appear beside the case "
+"when recorded in My TU. Governance proposals also receive individual "
+"addresses, so the full-moon library rule finally opens on its own page."
 msgstr ""
-"阿求把事件案卷、設備與證物、新聞側記、校務規章、課程研究、BBS、館藏、住宿、漂流物、符卡答辯與主分支校史攤成七宗交叉案卷。訪客可按事件、十五位留下手印"
-"的角色，或 first-parent 版本／時間反查；每一張關聯紙仍翻回原來的辦公室，不在索引裡複製一份較聽話的真相。這台裝置若真的借過書、投過票、做過"
-"模擬、選過課或完成答辯，正式事件帳本還會在頁邊補出本人的紅線與直接前因；沒做過的事維持空白。校務議案也第一次取得自己的精確門牌，滿月圖書館規章不再每次都"
-"把訪客送到第一份空域提案。"
+"阿求整理出七宗案卷，串起事件、物品、新聞、規章、課程、館藏與住宿。訪客可按事件、十五位人物或校史日期查找，再回到各自的來源窗口；My "
+"TU記下的借閱、投票、選課與答辯，也會列在相關案件旁。議案另有獨立門牌，滿月圖書館規章終於能直接打開。"
 
 #. campusHistory.five-records-share-one-red-thread.marginalia
 #: src/data/campus-history.js:357
@@ -1347,10 +1340,10 @@ msgid ""
 "return as field mentors. When an invitation predates graduation or "
 "admission, Akyuu preserves both versions."
 msgstr ""
-"卒業不再由一個綠色勾勾決定。學分與核心課、方法作業與考試、論文或符卡答辯、研究倫理、二十四站田野護照、拒絕歸還的館藏、尚未退清的宿舍，以及事件、物權和年"
+"畢業不再由一個綠色勾勾決定。學分與核心課、方法作業與考試、論文或符卡答辯、研究倫理、二十四站田野護照、拒絕歸還的館藏、尚未退清的宿舍，以及事件、物權和年"
 "代爭議各佔一席；缺件會阻止開封，附條件與爭議則須本人明確接受並原樣印在學位卷。夢境校區的正負三學分永不進入正式總數，紙背卻可能留下透痕。進路室公開十二份"
 "真實工作：從博麗境界維護、紅魔館零分鐘檔案、永遠亭夜班交接，到三途川排隊申訴；媒合說明相合與摩擦，也要求申請人先寫下拒絕跨過的界線。學位開封後可建立百鬼"
-"夜行校友籍，八支部按仍未解決的問題而非物種、壽命或死亡狀態分組；校友可回覆提燈夜行、登記田野導師，若邀請早於卒業或入學，阿求保留兩個版本。"
+"夜行校友籍，八支部按仍未解決的問題而非物種、壽命或死亡狀態分組；校友可回覆提燈夜行、登記田野導師，若邀請早於畢業或入學，阿求保留兩個版本。"
 
 #. campusHistory.degree-arrives-nine-minutes-after-alumni-invitation.marginalia
 #: src/data/campus-history.js:417
@@ -1378,7 +1371,7 @@ msgctxt "text:campusHistory.employment-denominator-refuses-one-rate.title"
 msgid ""
 "One hundred forty-six graduates leave more whereabouts; twenty-one notices "
 "conceal twenty-one views of work time"
-msgstr "一四六名卒業生留下更多份去向，二十一張招聘告示則各自藏著一種上班時間"
+msgstr "一四六名畢業生留下更多份去向，二十一張招聘告示則各自藏著一種上班時間"
 
 #. campusHistory.employment-denominator-refuses-one-rate.summary
 #: src/data/campus-history.js:428
@@ -1399,7 +1392,7 @@ msgid ""
 "connect to Tengu Post, BBS, My TU, the on-device cabinet, and Hieda Index."
 msgstr ""
 "進路室不再把離校去向壓成一個適合校門布條的百分比。本人、可到班身體、魂魄、登記姓名與雇主口供各有一種分母；正午、滿月、彼岸週、被刪除的週三與境界換側又各"
-"自改動點名。同一位卒業生可以領日圓、住在館內、死後仍在職、被兩個雇主同時認領，或沒有失蹤而只是拒絕被觀測，因此有效口供的總數被允許大於分母。招聘告示架同"
+"自改動點名。同一位畢業生可以領日圓、住在館內、死後仍在職、被兩個雇主同時認領，或沒有失蹤而只是拒絕被觀測，因此有效口供的總數被允許大於分母。招聘告示架同"
 "時掛出二十一份工作：紅魔館的零分鐘夜班、河童工房第一百二十九日臨時維修、三途川死後排隊申訴、明日頭條預先撤回、心讀缺字速記、昨日線乘務，以及工具本人要求"
 "共同應徵的物權勞動桌。每份職缺保留薪資、怪條款、試工題與雇主回音；怪歷書會保存草稿、初審與本人第二版答覆，並聯動鴉天狗郵便、BBS、My "
 "TU、本機資料櫃與稗田索引。"
@@ -1565,7 +1558,7 @@ msgstr ""
 "稗田資料室把所有公開告示分送到繁體中文、日文與英文三座校閱桌，每桌交回二十五張紅筆單。繁中桌讓招生資訊、貼文、看板、儲存與現場運作回到本地校務語感；日文"
 "桌把幻想鄉域內實習和神社境內分開，也讓キャンセル待ち、GPA、附屬醫院與學內報各歸其位；英文桌則重寫校訓、入學、研究、診療、角色小傳與那些像是從另一種語"
 "法直搬過來的課程說明。招生、BBS、學術、診療、野外調查、祭典、倫理、圖書館與進路室因此在三種語言裡都像自己。被修走的只有語病：會自行歸架的書、拒絕固定"
-"分母的卒業生、換側的校門、開卷資料批判和角色各自惹出的麻煩一件也沒有減少。校方由此確認，怪異必須來自幻想鄉的制度、人物與後果，不能讓翻譯的影子冒充世界觀"
+"分母的畢業生、換側的校門、開卷資料批判和角色各自惹出的麻煩一件也沒有減少。校方由此確認，怪異必須來自幻想鄉的制度、人物與後果，不能讓翻譯的影子冒充世界觀"
 "。"
 
 #. campusHistory.three-language-desks-return-the-strangeness.marginalia
@@ -1799,19 +1792,13 @@ msgstr "三座校閱桌各有字盤，校門前不再堆放發行本"
 #: src/data/campus-history.js:525
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.summary"
 msgid ""
-"The Hieda archive separates three-language notices from admissions, course, "
-"clinic, and chronicle procedures. Each entry retains its source location and "
-"fixed number. Missing translations, lost insertion fields, and unreviewed "
-"red-pencil notes cannot enter the issued copy. Kappa typesetting machinery "
-"prints from each domain’s type case; General Affairs packs pages, styles, "
-"and offline papers into one publication box. Manuscripts, images, and "
-"research notes return to their own shelves. Campus addresses and older "
-"student records remain recognisable, and the next reviewer can finally find "
-"the line that needs attention."
-msgstr ""
-"稗田資料室把夾在招生、課程、診療與校史章程裡的三語告示分冊收藏。每一條仍帶著原卷位置與固定編號；少一份譯文、漏一個代填欄，或尚待覆核的紅筆，都不能混進發"
-"行本。河童排字機按各領域的字盤重印，總務處再把頁面、樣式與離線試卷一同裝入發行匣；原稿、圖像與研究筆記各歸原架。校門的門牌與學生的舊記錄照常辨認，下一位"
-"校閱員則終於能先找到該改的那一行。"
+"The Hieda archive gives each office its own three-language type case. Every "
+"notice keeps a fixed number and source location; missing translations and "
+"unreviewed corrections hold up the press. General Affairs packs the issued "
+"pages, styles, and examination papers together, while manuscripts and "
+"research notes return to their shelves. All twenty campus addresses remain "
+"in use."
+msgstr "稗田檔案室替各窗口配好三語字盤。通知保留固定編號與來源位置；缺譯或未確認的修訂會讓印刷暫停。總務將刊行頁、樣式與試卷裝進同一箱，原稿和研究筆記各自歸架。二十個校園地址照常使用。"
 
 #. text:campusHistory.three-desks-get-separate-type-cases.marginalia
 #: src/data/campus-history.js:526
@@ -1861,19 +1848,19 @@ msgid ""
 msgstr "文已經寫好「各窗全面開放」。阿求扣住發送章。魔理沙提議直接看穿牆壁；荷取問牆壁會不會交驗收報告。"
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.era
-#: src/data/campus-history.js:548
+#: src/data/campus-history.js:547
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.era"
 msgid "Replacement-sheet inspection"
 msgstr "換頁驗收期"
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.title
-#: src/data/campus-history.js:549
+#: src/data/campus-history.js:548
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.title"
 msgid "The inspector must wait for the old sheet to leave"
 msgstr "驗收員得等舊紙真正離桌"
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.summary
-#: src/data/campus-history.js:550
+#: src/data/campus-history.js:549
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.summary"
 msgid ""
 "The dispatch window opens, but the inspector reaches for a course control on "
@@ -1887,10 +1874,44 @@ msgstr ""
 "號消失、新桌面備妥才繼續驗收。教務處保留原有紀錄，驗收員終於學會等輪到自己。"
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.marginalia
-#: src/data/campus-history.js:551
+#: src/data/campus-history.js:550
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.marginalia"
 msgid ""
 "Aya calls it a disappearing course. Keine points to the departing sheet. "
 "Marisa offers to hold both editions in place; Akyuu asks which one the "
 "inspector intends to certify."
 msgstr "文稱這是「課程憑空消失」。慧音指向正在撤走的舊紙。魔理沙說可以把兩版都釘住；阿求問驗收員到底要替哪一版蓋章。"
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.era
+#: src/data/campus-history.js:560
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.era"
+msgid "Gensokyo 142 · Gate notice revision"
+msgstr "幻想鄉142年・門前告示修訂"
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.title
+#: src/data/campus-history.js:561
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.title"
+msgid "The gate notices lose their prefaces"
+msgstr "門前告示少了幾段開場白"
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.summary
+#: src/data/campus-history.js:562
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.summary"
+msgid ""
+"Admissions places the English notice first, with Japanese and Traditional "
+"Chinese copies beside it. Returning readers keep their chosen edition. The "
+"offices shorten directions, put requirements beside the forms, and give each "
+"field station a specific observation task. Faculty review their comments in "
+"their own voices. Akyuu keeps the old text with the revision date."
+msgstr ""
+"招生處把英文告示放在前面，日文與繁體中文版本並列一旁；回訪者仍可使用先前選定的版本。各窗口縮短指示，把必要條件移到表單旁；實習站各有具體觀察任務，教師也"
+"用自己的口氣重寫評語。舊文與修訂日期由阿求收存。"
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.marginalia
+#: src/data/campus-history.js:563
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.marginalia"
+msgid ""
+"Reimu crosses out the opening paragraph and writes, “Which gate?” Nitori "
+"wants to charge by the copy, then discovers that the new notice uses less "
+"paper."
+msgstr "靈夢劃掉開頭一段，寫上「哪扇門？」荷取打算按張收印刷費，隨後發現新告示用的紙更少。"

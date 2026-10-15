@@ -16,17 +16,17 @@ msgstr "MY TU / COURSE REGISTRATION"
 #. copy/title
 #: src/js/course-registration.js:22
 msgctxt "tree:copy#/title"
-msgid "Put classes into your life—then check the rooms stayed put."
-msgstr "授業を生活に組み込み、教室がまだ元の場所にあるか確かめる。"
+msgid "Build your timetable."
+msgstr "時間割を組もう。"
 
 #. copy/lead
 #: src/js/course-registration.js:22
 msgctxt "tree:copy#/lead"
 msgid ""
-"Search 35 courses across seven schools. Add/drop, waitlists, prerequisites, "
-"and unusual collisions are resolved on this device. Eighteen credits is "
-"advice, not a barrier."
-msgstr "七学部35科目を検索。履修登録・取消し、キャンセル待ち、履修前提科目、通常の時間割では扱えない衝突まで、この端末で即時に判定する。18単位は注意の目安であって、結界ではない。"
+"Search 35 courses across seven schools. Check prerequisites, available "
+"places, and timetable clashes before enrolling. The recommended load is "
+"eighteen credits."
+msgstr "七学部35科目から選べます。前提科目、空席、時間の重複を確認して履修登録してください。推奨履修量は18単位です。"
 
 #. copy/records
 #: src/js/course-registration.js:22
@@ -347,8 +347,8 @@ msgstr "一致する科目がありません。語を短くするか絞り込み
 #. copy/emptySchedule
 #: src/js/course-registration.js:22
 msgctxt "tree:copy#/emptySchedule"
-msgid "Your timetable is empty. This feels free on day one and usually alarming on day two."
-msgstr "時間割は空です。初日は自由に見え、二日目には大抵慌てます。"
+msgid "Your timetable is empty. Choose a course to begin."
+msgstr "時間割はまだ空です。授業を選んで登録してください。"
 
 #. copy/enrolledCourses
 #: src/js/course-registration.js:22

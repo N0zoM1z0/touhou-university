@@ -1021,11 +1021,11 @@ msgstr "Preserve one record you disbelieve, may not delete, and must keep source
 #: src/data/employment.js:340
 msgctxt "text:employmentJobs.0.15.0.duty"
 msgid ""
-"Tie red thread, distinguish first-parent chronicle from feature merges, and "
-"file Aya's extra beside evidence rather than inside it."
+"Link the chronicle to its source revisions, track what each merge brought "
+"in, and file Aya's extra beside the evidence."
 msgstr ""
-"Tie red thread, distinguish first-parent chronicle from feature merges, and "
-"file Aya's extra beside evidence rather than inside it."
+"Link the chronicle to its source revisions, track what each merge brought "
+"in, and file Aya's extra beside the evidence."
 
 #. employmentJobs.0.15.0.pay
 #: src/data/employment.js:341
@@ -1686,8 +1686,8 @@ msgstr "Renamings, same-name fairies, and a self-applying form count separately.
 #. employmentCountBases.0.employer.title
 #: src/data/employment.js:518
 msgctxt "text:employmentCountBases.0.employer.title"
-msgid "By employer claim"
-msgstr "By employer claim"
+msgid "Employer reports"
+msgstr "Employer reports"
 
 #. employmentCountBases.0.employer.note
 #: src/data/employment.js:518

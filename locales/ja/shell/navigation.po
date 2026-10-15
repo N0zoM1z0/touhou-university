@@ -26,7 +26,7 @@ msgid "Faculty"
 msgstr "教員"
 
 #. Global message key: navFacultyLong
-#: site.config.mjs:29 src/sections/chrome.html:93 src/sections/footer.html:24
+#: site.config.mjs:30 src/sections/chrome.html:93 src/sections/footer.html:24
 msgctxt "text:navFacultyLong"
 msgid "Faculty"
 msgstr "教員紹介"
@@ -70,11 +70,11 @@ msgstr "学部・科目・教員"
 #. Global message key: navResearchDetail
 #: src/sections/chrome.html:29
 msgctxt "text:navResearchDetail"
-msgid "Methods, failures & corrections"
-msgstr "方法・失敗・訂正"
+msgid "Projects, methods & field notes"
+msgstr "研究・方法・現場の記録"
 
 #. Global message key: navEthics
-#: site.config.mjs:79 src/sections/chrome.html:30 src/sections/footer.html:34
+#: site.config.mjs:77 src/sections/chrome.html:30 src/sections/footer.html:34
 msgctxt "text:navEthics"
 msgid "Research Ethics Review"
 msgstr "研究倫理審査"
@@ -82,11 +82,11 @@ msgstr "研究倫理審査"
 #. Global message key: navEthicsDetail
 #: src/sections/chrome.html:30
 msgctxt "text:navEthicsDetail"
-msgid "Consent, risk & five-seat dissent"
-msgstr "同意・リスク・五席の異議"
+msgid "Protocols, reviews & decisions"
+msgstr "計画書・審査・判定"
 
 #. Global message key: navHieda
-#: site.config.mjs:305 src/sections/chrome.html:31 src/sections/footer.html:35
+#: site.config.mjs:289 src/sections/chrome.html:31 src/sections/footer.html:35
 msgctxt "text:navHieda"
 msgid "Hieda Index"
 msgstr "稗田索引"
@@ -94,11 +94,11 @@ msgstr "稗田索引"
 #. Global message key: navHiedaDetail
 #: src/sections/chrome.html:31
 msgctxt "text:navHiedaDetail"
-msgid "Red threads across events, people & versions"
-msgstr "事案・人物・版を結ぶ赤糸"
+msgid "Follow events, people & sources"
+msgstr "出来事・人物・出典をたどる"
 
 #. Global message key: navCalendar
-#: site.config.mjs:166 src/sections/chrome.html:32
+#: site.config.mjs:158 src/sections/chrome.html:32
 msgctxt "text:navCalendar"
 msgid "Gensokyo Academic Calendar"
 msgstr "幻想郷学年暦"
@@ -130,8 +130,8 @@ msgstr "祭典運営室"
 #. Global message key: navFestivalDetail
 #: src/sections/chrome.html:34
 msgctxt "text:navFestivalDetail"
-msgid "Six-desk permits, opening & closure"
-msgstr "六机許可・開祭・閉祭"
+msgid "Plans, permits & operations"
+msgstr "計画・許可・当日の運営"
 
 #. Global message key: navAdmissionsExams
 #: src/sections/chrome.html:41
@@ -188,7 +188,7 @@ msgid "Property, lost items & tengu post"
 msgstr "物権・遺失物・鴉天狗郵便"
 
 #. Global message key: navLocalRecords
-#: site.config.mjs:287 src/sections/chrome.html:47 src/sections/footer.html:29 src/sections/services.html:25
+#: site.config.mjs:272 src/sections/chrome.html:47 src/sections/footer.html:29 src/sections/services.html:25
 msgctxt "text:navLocalRecords"
 msgid "On-device Records"
 msgstr "端末内資料棚"
@@ -238,7 +238,7 @@ msgstr "案件・模擬・終結"
 #. Global message key: navClinic
 #: src/data/i18n.js:1
 msgctxt "text:navClinic"
-msgid "Medical Center"
+msgid "Medical Centre"
 msgstr "校医院"
 
 #. Global message key: navResearch
@@ -248,7 +248,7 @@ msgid "Research"
 msgstr "研究"
 
 #. Global message key: navResearchLong
-#: site.config.mjs:79 src/sections/chrome.html:29 src/sections/footer.html:33
+#: site.config.mjs:77 src/sections/chrome.html:29 src/sections/footer.html:33
 msgctxt "text:navResearchLong"
 msgid "Research"
 msgstr "研究成果"
@@ -262,11 +262,11 @@ msgstr "事案"
 #. Global message key: navIncidentCenter
 #: src/sections/chrome.html:51
 msgctxt "text:navIncidentCenter"
-msgid "Incident Center"
+msgid "Incident Centre"
 msgstr "事案センター"
 
 #. Global message key: navCampus
-#: site.config.mjs:205 src/sections/footer.html:37
+#: site.config.mjs:195 src/sections/footer.html:37
 msgctxt "text:navCampus"
 msgid "Campus Life"
 msgstr "キャンパスライフ"
@@ -278,27 +278,27 @@ msgid "Back to the gate"
 msgstr "校門へ戻る"
 
 #. Global message key: languageZhShort
-#: src/sections/chrome.html:62
+#: src/sections/chrome.html:64
 msgctxt "text:languageZhShort"
-msgid "ZH"
-msgstr "中"
+msgid "繁中"
+msgstr "繁中"
 
 #. Global message key: languageZh
-#: src/sections/chrome.html:121
+#: src/sections/chrome.html:123
 msgctxt "text:languageZh"
-msgid "Chinese"
-msgstr "中国語"
+msgid "繁體中文"
+msgstr "繁體中文"
 
 #. Global message key: languageJaShort
 #: src/sections/chrome.html:63
 msgctxt "text:languageJaShort"
-msgid "JA"
-msgstr "日"
+msgid "日本語"
+msgstr "日本語"
 
 #. Global message key: languageJa
 #: src/sections/chrome.html:122
 msgctxt "text:languageJa"
-msgid "Japanese"
+msgid "日本語"
 msgstr "日本語"
 
 #. Global message key: backToMyTu
@@ -328,8 +328,8 @@ msgstr "卒業・進路"
 #. Global message key: navCareersDetail
 #: src/sections/chrome.html:44
 msgctxt "text:navCareersDetail"
-msgid "Audits, matching & Hyakki Yagyo Alumni"
-msgstr "判定・照合・百鬼夜行同窓会"
+msgid "Graduation, jobs & alumni"
+msgstr "卒業判定・仕事・同窓会"
 
 #. Global message key: backToLibrary
 #: src/sections/dialogs.html:164

@@ -16,19 +16,16 @@ msgstr "GENSOKYO ACADEMIC CALENDAR / 四季 × 月相 × 異変"
 #. copy/title
 #: src/js/academic-calendar.js:40
 msgctxt "tree:copy#/title"
-msgid ""
-"Terms have start dates; spring, full moons, and incidents retain the right "
-"to arrive off schedule."
-msgstr "学期には開始日がある。春・満月・異変には時間表どおり来ない権利がある。"
+msgid "The academic calendar, subject to spring."
+msgstr "春の都合も入る学年暦。"
 
 #. copy/lead
 #: src/js/academic-calendar.js:40
 msgctxt "tree:copy#/lead"
 msgid ""
-"This calendar is not a static poster. Season, moon, and date alter classes, "
-"facilities, transport, dining, and clinic load. Saving a leaf stores a "
-"reminder; it does not pin the world down."
-msgstr "この学年暦は静止したポスターではありません。季節・月相・日付が授業、施設、交通、食堂、校医負荷を変更し、栞は通知を保存しても世界を固定しません。"
+"Check term dates, moon phases, and events that affect today's classes and "
+"routes. Save a reminder or export it to your calendar."
+msgstr "学期、月相、行事と、今日の授業や経路への影響を確認できます。予定を保存したり、お使いのカレンダーに書き出したりできます。"
 
 #. copy/today
 #: src/js/academic-calendar.js:40

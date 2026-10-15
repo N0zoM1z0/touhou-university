@@ -16,31 +16,27 @@ msgstr "New Student Arrival Office"
 #. copies/opened
 #: src/js/orientation-model.js:231
 msgctxt "tree:copies#/opened"
-msgid "A new arrival file opens; Hakurei Gate still rejects ‘sent’ as proof of ‘arrived’"
-msgstr "A new arrival file opens; Hakurei Gate still rejects ‘sent’ as proof of ‘arrived’"
+msgid "Arrival file opened; Hakurei Gate awaits the student"
+msgstr "Arrival file opened; Hakurei Gate awaits the student"
 
 #. copies/openedBody
 #: src/js/orientation-model.js:231
 msgctxt "tree:copies#/openedBody"
 msgid ""
-"The file separately checks the entry route, a stop signal the student can "
-"recognise, and the first destination. Names do not enter the public board."
+"The file lists the route, stop signal, and first destination. Public updates "
+"show counts without names."
 msgstr ""
-"The file separately checks the entry route, a stop signal the student can "
-"recognise, and the first destination. Names do not enter the public board."
+"The file lists the route, stop signal, and first destination. Public updates "
+"show counts without names."
 
 #. copies/complete
 #: src/js/orientation-model.js:231
 msgctxt "tree:copies#/complete"
-msgid "First Bell gains one arrival record; Akyuu refuses to publish the newcomer’s name"
-msgstr "First Bell gains one arrival record; Akyuu refuses to publish the newcomer’s name"
+msgid "First Bell records one more arrival"
+msgstr "First Bell records one more arrival"
 
 #. copies/completeBody
 #: src/js/orientation-model.js:231
 msgctxt "tree:copies#/completeBody"
-msgid ""
-"Route and way back remain separate fields. Bunbunmaru receives a count, not "
-"the on-device student record."
-msgstr ""
-"Route and way back remain separate fields. Bunbunmaru receives a count, not "
-"the on-device student record."
+msgid "The arrival route and way back are on file. Bunbunmaru receives an anonymous count."
+msgstr "The arrival route and way back are on file. Bunbunmaru receives an anonymous count."

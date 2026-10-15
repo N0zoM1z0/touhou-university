@@ -23,10 +23,9 @@ msgstr "幻想鄉校史"
 #: src/js/chronicle.js:12
 msgctxt "tree:copy#/lead"
 msgid ""
-"Every main-branch revision leaves two records: the repository preserves what "
-"changed; the chronicle preserves what it did to campus and who objected at "
-"the time."
-msgstr "每一筆主分支修訂都留下兩份記錄：版本庫保存實際改了什麼，校史簿保存這件事如何改變校園，以及誰當場表示反對。"
+"Read each change to the university, its campus consequences, and the "
+"objections filed at the time."
+msgstr "查閱大學的每次變動、校園裡的後續，以及當時留下的異議。"
 
 #. copy/entries
 #: src/js/chronicle.js:12
@@ -68,10 +67,9 @@ msgstr "版本底本"
 #: src/js/chronicle.js:12
 msgctxt "tree:copy#/sourceLead"
 msgid ""
-"The main-branch revision and the functional change may coincide, but must "
-"not be confused. Ordinary and squash commits need one record; a mechanical "
-"merge also lists its second-parent change."
-msgstr "主分支版本與功能改動是兩個可重合、但不可混用的來源。一般或 squash commit 只有一筆；機械 merge commit 另列第二親本的改動主旨。"
+"The main revision identifies the published change. A merge also links the "
+"feature commit that it brought in."
+msgstr "主分支版本記錄已發布的變動；合併時另列所納入的功能提交。"
 
 #. copy/mainSource
 #: src/js/chronicle.js:12

@@ -16,22 +16,18 @@ msgstr "FIELDWORK PASSPORT / DOMESTIC PLACEMENT × FIELD INQUIRY"
 #. copy/title
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/title"
-msgid "A map says how to go. A passport remembers why, what you saw, and who disagreed."
-msgstr "A map says how to go. A passport remembers why, what you saw, and who disagreed."
+msgid "Twenty-four places to learn in the field."
+msgstr "Twenty-four places to learn in the field."
 
 #. copy/lead
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/lead"
 msgid ""
-"Twenty-four stations have their own entry rules, supervisors, and "
-"complications. Obtain dispatch, check in, respond when something refuses to "
-"follow the plan, then return with observations, provenance, and a decision "
-"on research use."
+"Choose a station, arrange your placement, and check in. Bring back "
+"observations and sources to complete your passport entry."
 msgstr ""
-"Twenty-four stations have their own entry rules, supervisors, and "
-"complications. Obtain dispatch, check in, respond when something refuses to "
-"follow the plan, then return with observations, provenance, and a decision "
-"on research use."
+"Choose a station, arrange your placement, and check in. Bring back "
+"observations and sources to complete your passport entry."
 
 #. copy/stationsTab
 #: src/js/fieldwork.js:47
@@ -96,8 +92,8 @@ msgstr "Today's route desk"
 #. copy/routeNote
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/routeNote"
-msgid "Moon, duty band, and mode change estimates; 'soon' is not a unit of time."
-msgstr "Moon, duty band, and mode change estimates; 'soon' is not a unit of time."
+msgid "Travel estimates change with the moon, duty period, and transport mode."
+msgstr "Travel estimates change with the moon, duty period, and transport mode."
 
 #. copy/search
 #: src/js/fieldwork.js:47
@@ -132,8 +128,8 @@ msgstr "Prepare dispatch here"
 #. copy/mapHint
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/mapHint"
-msgid "Choose a wooden seal; the place may not retain the map's opinion."
-msgstr "Choose a wooden seal; the place may not retain the map's opinion."
+msgid "Choose a station to read its entry rules and available work."
+msgstr "Choose a station to read its entry rules and available work."
 
 #. copy/supervisor
 #: src/js/fieldwork.js:47
@@ -344,8 +340,8 @@ msgstr "Domestic Placement Dispatch Order"
 #. copy/permitLead
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/permitLead"
-msgid "This paper permits work; it does not permit bringing home everything you see."
-msgstr "This paper permits work; it does not permit bringing home everything you see."
+msgid "Check the permitted work, access limits, and return requirements before leaving."
+msgstr "Check the permitted work, access limits, and return requirements before leaving."
 
 #. copy/printPermit
 #: src/js/fieldwork.js:47
@@ -416,12 +412,8 @@ msgstr "Source, version, and acquisition"
 #. copy/sourcePlaceholder
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/sourcePlaceholder"
-msgid ""
-"Who said it, which version, which instrument, or how the object expressed "
-"itself; not merely 'field data'."
-msgstr ""
-"Who said it, which version, which instrument, or how the object expressed "
-"itself; not merely 'field data'."
+msgid "Name the witness, document version, instrument, or object that supplied the information."
+msgstr "Name the witness, document version, instrument, or object that supplied the information."
 
 #. copy/evidenceCode
 #: src/js/fieldwork.js:47
@@ -534,8 +526,12 @@ msgstr "Domestic Placement & Field Inquiry Passport"
 #. copy/passportLead
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/passportLead"
-msgid "A seal proves traceable learning returned; it does not prove every dispute was resolved."
-msgstr "A seal proves traceable learning returned; it does not prove every dispute was resolved."
+msgid ""
+"Each seal links to the observations and sources you brought back, including "
+"unresolved questions."
+msgstr ""
+"Each seal links to the observations and sources you brought back, including "
+"unresolved questions."
 
 #. copy/noStamps
 #: src/js/fieldwork.js:47
