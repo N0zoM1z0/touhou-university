@@ -23,13 +23,11 @@ msgstr "Gensokyo University Chronicle"
 #: src/js/chronicle.js:12
 msgctxt "tree:copy#/lead"
 msgid ""
-"Every main-branch revision leaves two records: the repository preserves what "
-"changed; the chronicle preserves what it did to campus and who objected at "
-"the time."
+"Read each change to the university, its campus consequences, and the "
+"objections filed at the time."
 msgstr ""
-"Every main-branch revision leaves two records: the repository preserves what "
-"changed; the chronicle preserves what it did to campus and who objected at "
-"the time."
+"Read each change to the university, its campus consequences, and the "
+"objections filed at the time."
 
 #. copy/entries
 #: src/js/chronicle.js:12
@@ -71,13 +69,11 @@ msgstr "Version source"
 #: src/js/chronicle.js:12
 msgctxt "tree:copy#/sourceLead"
 msgid ""
-"The main-branch revision and the functional change may coincide, but must "
-"not be confused. Ordinary and squash commits need one record; a mechanical "
-"merge also lists its second-parent change."
+"The main revision identifies the published change. A merge also links the "
+"feature commit that it brought in."
 msgstr ""
-"The main-branch revision and the functional change may coincide, but must "
-"not be confused. Ordinary and squash commits need one record; a mechanical "
-"merge also lists its second-parent change."
+"The main revision identifies the published change. A merge also links the "
+"feature commit that it brought in."
 
 #. copy/mainSource
 #: src/js/chronicle.js:12

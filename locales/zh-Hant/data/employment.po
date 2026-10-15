@@ -885,9 +885,9 @@ msgstr "保存一份你不相信、不能刪除、還必須替它找得到來源
 #: src/data/employment.js:340
 msgctxt "text:employmentJobs.0.15.0.duty"
 msgid ""
-"Tie red thread, distinguish first-parent chronicle from feature merges, and "
-"file Aya's extra beside evidence rather than inside it."
-msgstr "牽紅線、辨認 first-parent 校史與功能合併、把文的號外放在證據旁邊而非證據裡面。"
+"Link the chronicle to its source revisions, track what each merge brought "
+"in, and file Aya's extra beside the evidence."
+msgstr "把校史連回來源版本，查清合併帶來的變動，再將文的號外歸在證據旁邊。"
 
 #. employmentJobs.0.15.0.pay
 #: src/data/employment.js:341
@@ -1502,8 +1502,8 @@ msgstr "改名、同名妖精與一張自己應徵的申請紙另列。"
 #. employmentCountBases.0.employer.title
 #: src/data/employment.js:518
 msgctxt "text:employmentCountBases.0.employer.title"
-msgid "By employer claim"
-msgstr "按雇主口供"
+msgid "Employer reports"
+msgstr "雇主申報"
 
 #. employmentCountBases.0.employer.note
 #: src/data/employment.js:518

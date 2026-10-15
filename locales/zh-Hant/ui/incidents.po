@@ -16,17 +16,16 @@ msgstr "INCIDENT RESPONSE / 校園事件聯絡室"
 #. copy/title
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/title"
-msgid "Do not declare an incident just yet."
-msgstr "先別急著宣布異變。"
+msgid "What happened on campus?"
+msgstr "校園裡發生了什麼？"
 
 #. copy/lead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/lead"
 msgid ""
-"Collect testimony, open the version history, choose a reversible response, "
-"then let the research design decide what is actually known. The campus wire "
-"will be restrained after closure; the BBS usually will not."
-msgstr "收證詞、拆開版本差異、選一項可撤回的處置，再讓研究設計決定我們究竟知道了什麼。結案後，校務快訊會寫得很克制；BBS 通常不會。"
+"Read testimony and evidence, choose an initial response, and test an "
+"explanation. The closing report will reach the campus news desk and BBS."
+msgstr "閱讀證詞與證物、選擇初步處置，再驗證解釋。結案報告也會傳到校務快訊與BBS。"
 
 #. copy/live
 #: src/js/incidents.js:33
@@ -98,9 +97,9 @@ msgstr "證物與記錄"
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/evidenceLead"
 msgid ""
-"Select an item to mark it reviewed. Reliability describes the material "
-"itself, not whether its conclusion is true."
-msgstr "點一下標記已審閱；可靠度不等於結論正確，它只說明這份材料本身有多穩。"
+"Select an item to mark it reviewed. The reliability label describes its "
+"source and condition."
+msgstr "點選證物即可標記已讀；可靠性標示說明其來源與狀況。"
 
 #. copy/testimony
 #: src/js/incidents.js:33
@@ -111,11 +110,8 @@ msgstr "證詞與麻煩"
 #. copy/testimonyLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/testimonyLead"
-msgid ""
-"A witness may also maintain the equipment, control the first headline, or be "
-"part of the incident. That is a position to record, not a reason to erase "
-"them."
-msgstr "證人可能同時是設備維護者、新聞來源或事件的一部分。這不是淘汰證詞的理由，而是需要留下的位置。"
+msgid "Check each witness's role and interests, including any part they played in the incident."
+msgstr "請一併考慮證人的角色、利害與涉入情況。"
 
 #. copy/reviewed
 #: src/js/incidents.js:33
@@ -256,17 +252,17 @@ msgstr "METHODS LAB / 可識別性不是裝飾"
 #. copy/labTitle
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/labTitle"
-msgid "Make the elegant conclusion capable of failing."
-msgstr "把漂亮的結論逼到會失敗。"
+msgid "Test your explanation."
+msgstr "驗證你的解釋。"
 
 #. copy/labLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/labLead"
 msgid ""
-"A larger sample narrows chance error. It does not repair confounding, drift, "
-"missing records, or kappa firmware replaced yesterday. Responses also change "
-"the field, so they enter the model too."
-msgstr "樣本數能縮窄隨機誤差，卻不能自動修好混雜、漂移、缺失或昨天被換掉的河童韌體。處置本身也會改變現場，故一併納入模型。"
+"Set the sample, controls, and measurements. Check for confounding, "
+"instrument drift, and missing records; a larger sample alone will leave "
+"those problems in place."
+msgstr "設定樣本、對照與量測方式，並檢查混雜、儀器漂移與紀錄缺漏；這些問題仍須各自處理。"
 
 #. copy/activeCase
 #: src/js/incidents.js:33
@@ -399,10 +395,8 @@ msgstr "尚在場的麻煩"
 #. copy/noHazards
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/noHazards"
-msgid ""
-"Major structural interference is low. This does not mean Gensokyo has "
-"suddenly become orderly."
-msgstr "主要結構性干擾已被壓低；仍不代表幻想鄉突然變得守規矩。"
+msgid "Low structural interference in this setup."
+msgstr "此設定的結構性干擾較低。"
 
 #. copy/verdicts/supports
 #: src/js/incidents.js:33
@@ -443,26 +437,23 @@ msgstr "送交紅線席：保留這個未獲支持的異說"
 #. copy/retentionTitle
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/retentionTitle"
-msgid "This is not confirmation. Close it anyway?"
-msgstr "這不是證實。你仍要讓它結案嗎？"
+msgid "File a contested closure?"
+msgstr "以存疑結論結案？"
 
 #. copy/retentionLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/retentionLead"
 msgid ""
-"Ordinary review rejected this inference, but the duty reviewer thinks its "
-"failure, controversy, or headline value deserves a record. If you insist, "
-"the university will bind it as a contested closure and release linked "
-"campus-wire and BBS reactions."
-msgstr "正常審閱已拒絕這項推論，但值班審閱者認為它的錯法、爭議或新聞價值值得留下。若你堅持，校方會以紅線裝訂成「爭議性結案」，並同步放出校務快訊與 BBS。"
+"The study did not establish this claim. You can retain it with the "
+"reviewer's reason; the contested closure will appear in campus news and BBS "
+"reactions."
+msgstr "研究未能支持這項主張。你可附上審查者的理由，以存疑結案保存；校務快訊與BBS也會出現相關回應。"
 
 #. copy/retentionWarning
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/retentionWarning"
-msgid ""
-"The red-thread file permanently keeps the original result and a NOT "
-"ESTABLISHED mark. A large headline cannot launder it into confirmation."
-msgstr "紅線案卷會永久顯示原始實驗結果與「未獲支持」標記；大字標題不能把它洗成已證實。"
+msgid "The saved file keeps the study result and a NOT ESTABLISHED label."
+msgstr "保存後仍會保留研究結果與「未獲支持」標示。"
 
 #. copy/originalResult
 #: src/js/incidents.js:33
@@ -582,17 +573,14 @@ msgstr "CASE ARCHIVE / 結案不等於沒人反對"
 #. copy/archiveTitle
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/archiveTitle"
-msgid "After a finding enters the campus system."
-msgstr "結論進入校務系統之後。"
+msgid "Case archive"
+msgstr "結案檔案"
 
 #. copy/archiveLead
 #: src/js/incidents.js:33
 msgctxt "tree:copy#/archiveLead"
-msgid ""
-"Closures, experiment slips, and incident-triggered BBS threads stay on this "
-"device. There is one official record and usually three dissatisfied "
-"headlines."
-msgstr "結案檔案、模擬回條與由事件觸發的 BBS 討論都保存在這台裝置。官方紀錄只有一份；不服氣的標題通常有三份。"
+msgid "Reopen reports, experiment records, and the BBS threads they prompted."
+msgstr "重開結案報告、實驗紀錄，以及它們引來的BBS討論。"
 
 #. copy/resolutionsTitle
 #: src/js/incidents.js:33

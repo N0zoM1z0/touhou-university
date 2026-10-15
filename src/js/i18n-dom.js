@@ -19,7 +19,7 @@ export function renderKeyedCopy(root, dictionary) {
     const trailing = node.nodeValue.match(/\s*$/)[0];
     node.nodeValue = leading + dictionary[key] + trailing;
   }
-  const attributes = ["aria-label", "placeholder", "alt", "title"];
+  const attributes = ["aria-label", "placeholder", "alt", "title", "content"];
   for (const attribute of attributes) {
     const selector = `[data-i18n-${attribute}]`;
     const nodes = [...(root.matches?.(selector) ? [root] : []), ...root.querySelectorAll(selector)];

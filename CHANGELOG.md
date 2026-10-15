@@ -4,6 +4,30 @@ All notable changes to the Touhou University project are recorded here.
 
 ## [Unreleased]
 
+## [0.32.0] - 2026-10-15
+
+### Changed
+
+- Made English the default in initial HTML, page titles, descriptions and browser
+  initialization. Both language controls now list English, Japanese and
+  Traditional Chinese; existing saved choices remain respected.
+- Re-edited over four hundred message groups in all three languages: entry
+  points, task instructions, loading and empty states, fieldwork premises,
+  faculty feedback and selected archive prose. Removed repeated defensive
+  framing while keeping concrete campus detail and character disagreements.
+- Gave page descriptions matching PO ownership and language-switch support.
+- Localized new festival draft instructions while preserving saved prose. Kept
+  the positional translation API independent from the language controls' order.
+
+### Quality
+
+- Added fresh-visit, selector-order and saved-preference browser checks, including
+  translated metadata and an English sweep across all twenty pages. Added
+  appraisal tuple-order and older festival-draft regressions; retained complete
+  lifecycle and examination validation.
+- Backfilled TU-H-044 and added TU-H-045 for the three revised gate notices.
+
+
 ## [0.31.0] - 2026-10-15
 
 ### Added

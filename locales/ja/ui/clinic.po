@@ -16,17 +16,16 @@ msgstr "EIENTEI UNIVERSITY HOSPITAL / 学内医療網"
 #. copy/title
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/title"
-msgid "First say what is wrong. The route and medicine may argue later."
-msgstr "まず、どこに不調があるかを言葉にする。道と薬で揉めるのは、その後だ。"
+msgid "Tell us what's wrong."
+msgstr "症状を教えてください。"
 
 #. copy/lead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/lead"
 msgid ""
-"The main infirmary handles everyday injuries; Eientei takes cross-species, "
-"lunar, boundary, and magical-material cases. Triage, consultations, "
-"prescriptions, dispensing, and recovery stay on this device."
-msgstr "本部保健室は日常的なけがを、永遠亭は種族をまたぐ症例や、月相・境界・魔法素材への曝露を担当する。トリアージ、診察、処方、調剤、回復の記録は、この端末にのみ保存される。"
+"The main infirmary treats everyday injuries. Eientei handles cross-species "
+"care and cases involving lunar phases, boundaries, or magical materials."
+msgstr "日常のけがは本部保健室へ。種族に応じた診療や、月相・境界・魔法素材に関わる症例は永遠亭が担当します。"
 
 #. copy/open
 #: src/js/clinic.js:39
@@ -115,10 +114,8 @@ msgstr "二つの診療所と、てゐが置き場所を変えてしまう一枚
 #. copy/careNetworkLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/careNetworkLead"
-msgid ""
-"Not every scrape requires crossing the Bamboo Forest. Writing “fine” does "
-"not guarantee the infirmary will keep the case."
-msgstr "すべての擦り傷に竹林横断は不要。「平気」と書くだけで本部に残れるわけでもありません。"
+msgid "Check which clinic handles your symptoms and how to get there."
+msgstr "症状に合う窓口と、そこまでの経路を確認できます。"
 
 #. copy/hours
 #: src/js/clinic.js:39
@@ -153,10 +150,8 @@ msgstr "現在の待合板"
 #. copy/waitingLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/waitingLead"
-msgid ""
-"Duty tokens only. Times shift with lunar phase, live incidents, and "
-"rabbit-shuttle conditions."
-msgstr "当番番号札が表示。時間は月相、当番事案、兎車経路で変化します。"
+msgid "Queue times change with the moon, campus incidents, and rabbit-shuttle service."
+msgstr "待ち時間は月相、学内の異変、兎の送迎状況で変わります。"
 
 #. copy/token
 #: src/js/clinic.js:39
@@ -198,9 +193,9 @@ msgstr "端末内トリアージ"
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/triageLead"
 msgid ""
-"Save and return later. Check-in never requires a My TU identity; an existing "
-"identity adds the record to campus history."
-msgstr "途中保存可。受付に My TU 身分は不要ですが、既存身分があれば学内履歴へ編入します。"
+"You can save and return later. A My TU identity is optional; if you have "
+"one, this visit joins your campus record."
+msgstr "途中保存できます。My TUの学籍があれば、今回の受診を学内記録に追加します。学籍なしでも受診できます。"
 
 #. copy/complaint
 #: src/js/clinic.js:39
@@ -211,8 +206,8 @@ msgstr "現在当てはまる状態"
 #. copy/complaintHint
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/complaintHint"
-msgid "Choose at least one; multiple selections are welcome."
-msgstr "一つ以上。複数選択可。"
+msgid "Choose one or more symptoms."
+msgstr "症状を一つ以上選んでください。"
 
 #. copy/intensity
 #: src/js/clinic.js:39
@@ -445,16 +440,16 @@ msgstr "LUNAR PHARMACY / 月薬・学内薬棚"
 #. copy/pharmacyTitle
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/pharmacyTitle"
-msgid "The bag may use bells, corners, or daylight. Do not add the units yourself."
-msgstr "薬袋の単位は校鐘、角、日照かもしれない。勝手に足さない。"
+msgid "Pharmacy & prescriptions"
+msgstr "薬局・処方箋"
 
 #. copy/pharmacyLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/pharmacyLead"
 msgid ""
-"Search twelve Gensokyo medicines and aids, including provenance, directions, "
-"and cautions usually written on the reverse."
-msgstr "幻想郷の薬品・医材十二種を検索し、由来、使用法、裏面に回されがちな注意を確認。"
+"Browse twelve medicines and aids, with sources, directions, and cautions. "
+"Follow the units written on your prescription."
+msgstr "十二種の薬・補助具の入手元、使い方、注意事項を確認できます。処方箋に記された単位に従ってください。"
 
 #. copy/searchMedicine
 #: src/js/clinic.js:39
@@ -605,16 +600,16 @@ msgstr "RECOVERY CORRIDOR / 回復廊"
 #. copy/recoveryTitle
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/recoveryTitle"
-msgid "Recovery is not dragging a progress bar to the right."
-msgstr "回復は進捗バーを右へ動かすことではない。"
+msgid "Your recovery plan"
+msgstr "回復の手順"
 
 #. copy/recoveryLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/recoveryLead"
 msgid ""
-"Every therapy has four independently confirmable steps. Leave halfway and "
-"the original box will still be waiting."
-msgstr "各療法は個別確認できる四段階。途中で離れても、戻れば元の欄から続けられます。"
+"Each therapy has four steps. Confirm them as you finish; you can return to "
+"an unfinished plan later."
+msgstr "各療法は四段階です。終えた段階を確認すると保存され、途中から再開できます。"
 
 #. copy/prescribedTherapies
 #: src/js/clinic.js:39
@@ -685,16 +680,16 @@ msgstr "MY MEDICAL FILE / 端末内診療袋"
 #. copy/accountTitle
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/accountTitle"
-msgid "Queue tokens may be hidden. Clinical slips are not."
-msgstr "番号札は隠されても、診療票は残る。"
+msgid "My clinic records"
+msgstr "診療記録"
 
 #. copy/accountLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/accountLead"
 msgid ""
-"Check-ins, consultations, prescriptions, each dose, and recovery steps "
-"remain chronological. Retriage does not erase earlier versions."
-msgstr "受付、診察、処方、各記録、回復段階を時系列保存。再トリアージで以前の版は消えません。"
+"Visits, prescriptions, doses, and recovery steps are saved here in date "
+"order, including earlier triage results."
+msgstr "受診、処方、服用、回復の記録を日付順に保存します。以前の問診結果も確認できます。"
 
 #. copy/visits
 #: src/js/clinic.js:39

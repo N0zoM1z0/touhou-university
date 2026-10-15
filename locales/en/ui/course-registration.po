@@ -16,20 +16,20 @@ msgstr "MY TU / COURSE REGISTRATION"
 #. copy/title
 #: src/js/course-registration.js:22
 msgctxt "tree:copy#/title"
-msgid "Put classes into your life—then check the rooms stayed put."
-msgstr "Put classes into your life—then check the rooms stayed put."
+msgid "Build your timetable."
+msgstr "Build your timetable."
 
 #. copy/lead
 #: src/js/course-registration.js:22
 msgctxt "tree:copy#/lead"
 msgid ""
-"Search 35 courses across seven schools. Add/drop, waitlists, prerequisites, "
-"and unusual collisions are resolved on this device. Eighteen credits is "
-"advice, not a barrier."
+"Search 35 courses across seven schools. Check prerequisites, available "
+"places, and timetable clashes before enrolling. The recommended load is "
+"eighteen credits."
 msgstr ""
-"Search 35 courses across seven schools. Add/drop, waitlists, prerequisites, "
-"and unusual collisions are resolved on this device. Eighteen credits is "
-"advice, not a barrier."
+"Search 35 courses across seven schools. Check prerequisites, available "
+"places, and timetable clashes before enrolling. The recommended load is "
+"eighteen credits."
 
 #. copy/records
 #: src/js/course-registration.js:22
@@ -354,8 +354,8 @@ msgstr "No courses match. Try fewer words or loosen a filter."
 #. copy/emptySchedule
 #: src/js/course-registration.js:22
 msgctxt "tree:copy#/emptySchedule"
-msgid "Your timetable is empty. This feels free on day one and usually alarming on day two."
-msgstr "Your timetable is empty. This feels free on day one and usually alarming on day two."
+msgid "Your timetable is empty. Choose a course to begin."
+msgstr "Your timetable is empty. Choose a course to begin."
 
 #. copy/enrolledCourses
 #: src/js/course-registration.js:22

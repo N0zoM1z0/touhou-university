@@ -431,7 +431,7 @@ msgstr "完成返校驗收並取得場地印"
 #: src/data/event-contracts.js:376
 msgctxt "text:contracts.70.graduation.audit.requested.1"
 msgid "Submitted an eight-desk graduation audit"
-msgstr "送交八席卒業判定"
+msgstr "送交八席畢業判定"
 
 #. contracts.71.graduation.degree.issued.1
 #: src/data/event-contracts.js:381

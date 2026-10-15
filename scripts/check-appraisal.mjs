@@ -4,6 +4,7 @@ import {
   appraisalObjects,
   appraisalReviewers,
 } from "../src/data/appraisal.js";
+import { text as catalogText } from "../src/generated/i18n/data/appraisal.js";
 
 const locales = ["zh-Hant", "ja", "en"];
 const failures = [];
@@ -39,6 +40,13 @@ for (const object of appraisalObjects) {
   requireLocalized(object.workingTitle, `${path}.workingTitle`);
   requireLocalized(object.arrival, `${path}.arrival`);
   requireLocalized(object.condition, `${path}.condition`);
+  // These constructors still consume the positional (zh, ja, en) API. A
+  // different display order must not relabel an otherwise complete record.
+  const firstEvidence = object.evidence[0];
+  const expectedLabel = catalogText(`appraisalObjects.${object.id}.evidence.0.${firstEvidence.id}.1`);
+  for (const locale of locales) {
+    if (firstEvidence.label[locale] !== expectedLabel[locale]) failures.push(`${path}: evidence language order changed for ${locale}`);
+  }
   if (object.evidence.length !== 3) failures.push(`${path} must contain exactly 3 evidence records`);
   if (object.hypotheses.length !== 3) failures.push(`${path} must contain exactly 3 hypotheses`);
   if (object.tests.length !== 3) failures.push(`${path} must contain exactly 3 non-invasive tests`);

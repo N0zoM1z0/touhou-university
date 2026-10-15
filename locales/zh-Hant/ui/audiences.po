@@ -16,14 +16,14 @@ msgstr "訪客"
 #. paths.visitor.title
 #: src/js/audiences.js:9
 msgctxt "text:paths.visitor.title"
-msgid "Your first visit to Touhou University"
-msgstr "第一次來幻想鄉立東方大學"
+msgid "Visiting for the first time?"
+msgstr "第一次來？"
 
 #. paths.visitor.lead
 #: src/js/audiences.js:10
 msgctxt "text:paths.visitor.lead"
-msgid "See how campus works, then plan a visit route that does not deposit you in last week."
-msgstr "先看校園怎麼運作，再安排一條不會把你送進上週的參觀路線。"
+msgid "Get to know the university, find your way around, or book a campus visit."
+msgstr "先認識大學、看看地圖，或預約一次參訪。"
 
 #. paths.visitor.actions.0.1
 #: src/js/audiences.js:12
@@ -58,14 +58,14 @@ msgstr "申請生"
 #. paths.applicant.title
 #: src/js/audiences.js:21
 msgctxt "text:paths.applicant.title"
-msgid "Put your school, question, and exam on one path"
-msgstr "把志願、題目與試卷放在同一條路上"
+msgid "Find your entry route."
+msgstr "找到適合的入學途徑。"
 
 #. paths.applicant.lead
 #: src/js/audiences.js:22
 msgctxt "text:paths.applicant.lead"
-msgid "Compare seven schools, take a simulation, then carry your choice into the application."
-msgstr "比較七所學院、完成模擬試驗，再把選好的學院直接帶進申請表。"
+msgid "Compare schools, try an entrance paper, and start your application."
+msgstr "比較學院、試做入學試卷，再開始填寫申請。"
 
 #. paths.applicant.actions.0.1
 #: src/js/audiences.js:24
@@ -100,16 +100,16 @@ msgstr "新同學"
 #. paths.newcomer.title
 #: src/js/audiences.js:33
 msgctxt "text:paths.newcomer.title"
-msgid "Bring the admission review, not only the welcome"
-msgstr "帶著錄取評議來，別只帶著歡迎詞"
+msgid "Ready to arrive?"
+msgstr "準備報到了嗎？"
 
 #. paths.newcomer.lead
 #: src/js/audiences.js:34
 msgctxt "text:paths.newcomer.lead"
 msgid ""
-"Confirm a route that works today from Hakurei Gate, agree on a stop signal, "
-"then choose the first real thing to do after First Bell."
-msgstr "從博麗門認一條今天走得通的路，約好停止信號，再決定第一鐘後先去做哪件真事。"
+"Check your admission review, plan a route from Hakurei Gate, and choose "
+"where to go first."
+msgstr "確認錄取評議，規劃從博麗門出發的路線，再選第一站。"
 
 #. paths.newcomer.actions.0.1
 #: src/js/audiences.js:36
@@ -144,16 +144,14 @@ msgstr "在校生"
 #. paths.student.title
 #: src/js/audiences.js:45
 msgctxt "text:paths.student.title"
-msgid "Today's classes, free rooms, and campus rumours"
-msgstr "今天的課、空教室與校園風聲"
+msgid "What's on today?"
+msgstr "今天有什麼安排？"
 
 #. paths.student.lead
 #: src/js/audiences.js:46
 msgctxt "text:paths.student.lead"
-msgid ""
-"It will not submit your work, but it can tell you whether the room still "
-"exists and what lunch remains."
-msgstr "這裡不替你交作業，但會告訴你教室是否還存在，以及午餐還剩什麼。"
+msgid "Check classes and free rooms, find lunch, or catch up on the BBS."
+msgstr "查看課程與空教室，找午餐，或去BBS看看近況。"
 
 #. paths.student.actions.0.1
 #: src/js/audiences.js:48
@@ -182,5 +180,5 @@ msgstr "進入校園 BBS"
 #. render
 #: src/js/audiences.js:68
 msgctxt "text:render"
-msgid "How are you entering campus today?"
-msgstr "你今天以什麼身分進校？"
+msgid "Where would you like to start?"
+msgstr "想從哪裡開始？"

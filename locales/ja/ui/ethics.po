@@ -16,17 +16,16 @@ msgstr "RESEARCH ETHICS / 幻想郷研究倫理審査委員会"
 #. copy/title
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/title"
-msgid "Being able to do it is not consent to do it."
-msgstr "できることは、同意を得たことではない。"
+msgid "Research ethics review"
+msgstr "研究倫理審査"
 
 #. copy/lead
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/lead"
 msgid ""
-"Before research begins, present the proposed ability use, data access, stop "
-"rules, and withdrawal process to five independent reviewers. Akyuu binds the "
-"file; she does not average five disagreements into one convenient permit."
-msgstr "研究開始前に、能力・データ・停止規則・撤回方法を五席へ広げる。阿求は綴じるだけで、異なる五意見を便利な一枚へ平均しない。"
+"Submit a plan covering ability use, data access, stopping, and withdrawal. "
+"Five reviewers examine it before the research can begin."
+msgstr "能力の使用、情報へのアクセス、中止、同意撤回の方法を計画書にまとめてください。研究開始前に五名が審査します。"
 
 #. copy/board
 #: src/js/ethics.js:47
@@ -37,10 +36,8 @@ msgstr "五つの模範案件"
 #. copy/boardLead
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/boardLead"
-msgid ""
-"Choose a file and submit your own version of its dispute. The specimens are "
-"not model answers; they are places where the argument has already started."
-msgstr "案件を一つ選び、争点を引き継いで自分の版を提出する。模範案は正解ではなく、既に議論が始まっている場所。"
+msgid "Choose a case and work through the questions it raises in your own protocol."
+msgstr "事例を選び、そこで生じた問題に答える研究計画を作成してください。"
 
 #. copy/form
 #: src/js/ethics.js:47
@@ -63,10 +60,8 @@ msgstr "五席独立審査"
 #. copy/reviewersLead
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/reviewersLead"
-msgid ""
-"Each seat answers only its own question. Blocks, conditions, and minority "
-"opinions survive majorities and averages."
-msgstr "各席は自分の問いだけに責任を持つ。差戻し・条件・少数意見は多数票や平均点で消えない。"
+msgid "Each reviewer covers a different area. Read their findings, conditions, and objections."
+msgstr "審査員ごとに担当分野が異なります。それぞれの所見、条件、異議を確認してください。"
 
 #. copy/openCase
 #: src/js/ethics.js:47
@@ -264,9 +259,9 @@ msgstr "五席予備審査"
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/previewLead"
 msgid ""
-"This is not a total score. One blocking seat can stop the start; minority "
-"opinions enter the formal file."
-msgstr "総合点ではない。最も厳しい一席が開始を止め、少数意見も正式記録へ残る。"
+"A blocking finding requires revision before work starts. Other opinions "
+"remain in the decision file."
+msgstr "差し戻しの指摘があれば、着手前に修正が必要です。ほかの意見も判定書に残ります。"
 
 #. copy/conditions
 #: src/js/ethics.js:47
@@ -452,9 +447,9 @@ msgstr "研究倫理審査決定書"
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/documentNotice"
 msgid ""
-"A majority summary may not replace seat-level conditions. Withdrawal, "
-"amendment, and minority opinions remain part of the file."
-msgstr "多数意見の要約で、各委員が付した条件を置き換えてはならない。取下げ、修正、少数意見も審査記録の一部である。"
+"The decision includes every reviewer's conditions, amendments, withdrawal "
+"terms, and minority opinions."
+msgstr "各審査員の条件、修正、同意撤回の取り決め、少数意見を含む判定です。"
 
 #. copy/originalCase
 #: src/js/ethics.js:47

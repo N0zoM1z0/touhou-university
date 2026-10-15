@@ -15,8 +15,8 @@ src/
   styles/              small stylesheet manifests and feature-specific parts
   generated/i18n/      compiled browser/Node catalogs; ignored, never hand-edit
 locales/
-  en/                  English source PO catalogs
-  zh-Hant/             Traditional Chinese PO catalogs; default public edition
+  en/                  English source PO catalogs; default public edition
+  zh-Hant/             Traditional Chinese PO catalogs
   ja/                  Japanese PO catalogs
   templates/           generated POT files for gettext editors; ignored
 public/                authored files copied unchanged to the published root
@@ -125,7 +125,7 @@ Static markup uses `data-i18n` and translated-attribute keys. Mixed-content text
 can use `<!-- i18n:messageKey -->` immediately before a text node; this preserves
 links, emphasis and existing DOM structure. Both the build and language switch
 use the explicit key. Public source fallbacks stay readable, while generated
-defaults come from the current Traditional Chinese PO. Visitor-authored prose
+defaults come from the current English PO, including page metadata. Visitor-authored prose
 never participates in a source-text translation lookup.
 
 ## Git history and publication

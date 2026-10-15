@@ -16,36 +16,30 @@ msgstr "LOCAL ARCHIVES / ON-DEVICE RECORDS CABINET"
 #. copy/title
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/title"
-msgid "Which campus papers is this device keeping for you?"
-msgstr "Which campus papers is this device keeping for you?"
+msgid "Records saved in this browser"
+msgstr "Records saved in this browser"
 
 #. copy/lead
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/lead"
 msgid ""
-"Applications, courses, loans, care, and unfinished drafts are listed shelf "
-"by shelf. Nothing is uploaded during ordinary use; when moving, you seal the "
-"box yourself."
+"Browse your applications, courses, loans, clinic records, and drafts. Export "
+"an archive to keep a backup or move it to another browser."
 msgstr ""
-"Applications, courses, loans, care, and unfinished drafts are listed shelf "
-"by shelf. Nothing is uploaded during ordinary use; when moving, you seal the "
-"box yourself."
+"Browse your applications, courses, loans, clinic records, and drafts. Export "
+"an archive to keep a backup or move it to another browser."
 
 #. copy/offline
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/offline"
-msgid "On-device reading room"
-msgstr "On-device reading room"
+msgid "Browser storage"
+msgstr "Browser storage"
 
 #. copy/offlineLead
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/offlineLead"
-msgid ""
-"During ordinary use, files are visible only to this browser profile and this "
-"site's origin."
-msgstr ""
-"During ordinary use, files are visible only to this browser profile and this "
-"site's origin."
+msgid "These records belong to this browser profile at the site address shown below."
+msgstr "These records belong to this browser profile at the site address shown below."
 
 #. copy/origin
 #: src/js/local-records.js:22
@@ -117,51 +111,55 @@ msgstr "Who can see these papers?"
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/visibilityLead"
 msgid ""
-"“On-device” is not a cloud account. Other browsers, private windows, "
-"devices, and site origins cannot see it."
+"Other browsers, private windows, devices, and site addresses keep separate "
+"records. Use export and import to transfer a copy."
 msgstr ""
-"“On-device” is not a cloud account. Other browsers, private windows, "
-"devices, and site origins cannot see it."
+"Other browsers, private windows, devices, and site addresses keep separate "
+"records. Use export and import to transfer a copy."
 
 #. copy/export
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/export"
-msgid "Seal and export everything"
-msgstr "Seal and export everything"
+msgid "Export all records"
+msgstr "Export all records"
 
 #. copy/exportLead
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/exportLead"
-msgid "Downloads a JSON box with a SHA-256 seal. Short-lived tab passes are never packed."
-msgstr "Downloads a JSON box with a SHA-256 seal. Short-lived tab passes are never packed."
+msgid ""
+"Downloads a JSON archive with a SHA-256 integrity check. Temporary tab "
+"passes are excluded."
+msgstr ""
+"Downloads a JSON archive with a SHA-256 integrity check. Temporary tab "
+"passes are excluded."
 
 #. copy/exporting
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/exporting"
-msgid "Counting pages…"
-msgstr "Counting pages…"
+msgid "Preparing archive…"
+msgstr "Preparing archive…"
 
 #. copy/exported
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/exported"
-msgid "The on-device archive has been sealed and downloaded."
-msgstr "The on-device archive has been sealed and downloaded."
+msgid "Archive downloaded."
+msgstr "Archive downloaded."
 
 #. copy/import
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/import"
-msgid "Import an earlier archive box"
-msgstr "Import an earlier archive box"
+msgid "Import an archive"
+msgstr "Import an archive"
 
 #. copy/importLead
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/importLead"
 msgid ""
-"The seal, format, and every key are checked before you choose what happens "
-"to name collisions. A failed validation writes nothing."
+"Checks the file's integrity, format, and records before importing. Choose "
+"whether to keep or replace records already saved here."
 msgstr ""
-"The seal, format, and every key are checked before you choose what happens "
-"to name collisions. A failed validation writes nothing."
+"Checks the file's integrity, format, and records before importing. Choose "
+"whether to keep or replace records already saved here."
 
 #. copy/chooseFile
 #: src/js/local-records.js:22
@@ -172,8 +170,8 @@ msgstr "Choose JSON file"
 #. copy/collision
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/collision"
-msgid "Name-collision policy"
-msgstr "Name-collision policy"
+msgid "Existing records"
+msgstr "Existing records"
 
 #. copy/preserve
 #: src/js/local-records.js:22
@@ -184,26 +182,26 @@ msgstr "Keep current version (recommended)"
 #. copy/overwrite
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/overwrite"
-msgid "Overwrite same-name files from import"
-msgstr "Overwrite same-name files from import"
+msgid "Replace matching records"
+msgstr "Replace matching records"
 
 #. copy/applyImport
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/applyImport"
-msgid "Place in cabinet"
-msgstr "Place in cabinet"
+msgid "Import records"
+msgstr "Import records"
 
 #. copy/imported
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/imported"
-msgid "Filed {imported}; skipped {skipped} same-name files."
-msgstr "Filed {imported}; skipped {skipped} same-name files."
+msgid "Imported {imported}; kept {skipped} existing records."
+msgstr "Imported {imported}; kept {skipped} existing records."
 
 #. copy/importReady
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/importReady"
-msgid "Seal passed: {count} files, {size}"
-msgstr "Seal passed: {count} files, {size}"
+msgid "Integrity check passed: {count} files, {size}"
+msgstr "Integrity check passed: {count} files, {size}"
 
 #. copy/importConflicts
 #: src/js/local-records.js:22
@@ -233,11 +231,11 @@ msgstr "Packed {date} · origin {origin}"
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/importReplaceWarning"
 msgid ""
-"Overwrite replaces only same-name files present in the imported box; it does "
-"not delete anything else."
+"Only matching records in the archive will be replaced. Your other records "
+"stay as they are."
 msgstr ""
-"Overwrite replaces only same-name files present in the imported box; it does "
-"not delete anything else."
+"Only matching records in the archive will be replaced. Your other records "
+"stay as they are."
 
 #. copy/filter
 #: src/js/local-records.js:22
@@ -266,8 +264,8 @@ msgstr "Hide blank files"
 #. copy/noMatch
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/noMatch"
-msgid "No file matches. Keine may also have reassigned that page to yesterday."
-msgstr "No file matches. Keine may also have reassigned that page to yesterday."
+msgid "No matching records. Try another search term."
+msgstr "No matching records. Try another search term."
 
 #. copy/stored
 #: src/js/local-records.js:22
@@ -302,54 +300,54 @@ msgstr "Open file"
 #. copy/destroy
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroy"
-msgid "Destroy"
-msgstr "Destroy"
+msgid "Delete"
+msgstr "Delete"
 
 #. copy/destroyGroup
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyGroup"
-msgid "Destroy this shelf"
-msgstr "Destroy this shelf"
+msgid "Delete this group"
+msgstr "Delete this group"
 
 #. copy/destroyAll
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyAll"
-msgid "Destroy all university data"
-msgstr "Destroy all university data"
+msgid "Delete all university records"
+msgstr "Delete all university records"
 
 #. copy/destroyOneConfirm
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyOneConfirm"
-msgid "Destroy “{title}”? This cannot be undone; you can export the archive first."
-msgstr "Destroy “{title}”? This cannot be undone; you can export the archive first."
+msgid "Delete “{title}”? This cannot be undone. Export a backup first if you need one."
+msgstr "Delete “{title}”? This cannot be undone. Export a backup first if you need one."
 
 #. copy/destroyGroupConfirm
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyGroupConfirm"
-msgid "Destroy {count} stored files in “{title}”?"
-msgstr "Destroy {count} stored files in “{title}”?"
+msgid "Delete {count} saved files in “{title}”?"
+msgstr "Delete {count} saved files in “{title}”?"
 
 #. copy/destroyAllConfirm
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyAllConfirm"
 msgid ""
-"Destroy all Touhou University data under this browser origin? Identity, "
-"applications, grades, drafts, and short-lived tab data will disappear."
+"Delete all university records for this site in this browser? This removes "
+"your identity, applications, grades, drafts, and temporary tab data."
 msgstr ""
-"Destroy all Touhou University data under this browser origin? Identity, "
-"applications, grades, drafts, and short-lived tab data will disappear."
+"Delete all university records for this site in this browser? This removes "
+"your identity, applications, grades, drafts, and temporary tab data."
 
 #. copy/destroyed
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyed"
-msgid "Destroyed {count} on-device files."
-msgstr "Destroyed {count} on-device files."
+msgid "Deleted {count} saved files."
+msgstr "Deleted {count} saved files."
 
 #. copy/cabinetEmpty
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/cabinetEmpty"
-msgid "There are no files to destroy."
-msgstr "There are no files to destroy."
+msgid "No saved records to delete."
+msgstr "No saved records to delete."
 
 #. copy/rawTitle
 #: src/js/local-records.js:22
@@ -403,33 +401,33 @@ msgstr "Close file"
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/rawWarning"
 msgid ""
-"This is the actual stored content. Check names, answers, and medical records "
-"before sharing a screenshot or exported box."
+"This view includes saved names, answers, and medical records. Check the "
+"contents before sharing a screenshot or archive."
 msgstr ""
-"This is the actual stored content. Check names, answers, and medical records "
-"before sharing a screenshot or exported box."
+"This view includes saved names, answers, and medical records. Check the "
+"contents before sharing a screenshot or archive."
 
 #. copy/integrity
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/integrity"
 msgid ""
-"The kappa packing machine validates structure and seals; it does not vouch "
-"for mysterious files from the Outside World."
+"The integrity check detects changed or damaged archives. Check where a file "
+"came from before importing it."
 msgstr ""
-"The kappa packing machine validates structure and seals; it does not vouch "
-"for mysterious files from the Outside World."
+"The integrity check detects changed or damaged archives. Check where a file "
+"came from before importing it."
 
 #. copy/error/archive-size
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/error/archive-size"
-msgid "The file is empty or exceeds 8 MiB, so the gatekeeper refused it."
-msgstr "The file is empty or exceeds 8 MiB, so the gatekeeper refused it."
+msgid "Choose a non-empty file no larger than 8 MiB."
+msgstr "Choose a non-empty file no larger than 8 MiB."
 
 #. copy/error/archive-json
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/error/archive-json"
-msgid "This is not a readable JSON archive box."
-msgstr "This is not a readable JSON archive box."
+msgid "The file could not be read as a JSON archive."
+msgstr "The file could not be read as a JSON archive."
 
 #. copy/error/archive-format
 #: src/js/local-records.js:22

@@ -16,20 +16,18 @@ msgstr "RESEARCH ETHICS / GENSOKYO RESEARCH ETHICS REVIEW BOARD"
 #. copy/title
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/title"
-msgid "Being able to do it is not consent to do it."
-msgstr "Being able to do it is not consent to do it."
+msgid "Research ethics review"
+msgstr "Research ethics review"
 
 #. copy/lead
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/lead"
 msgid ""
-"Before research begins, present the proposed ability use, data access, stop "
-"rules, and withdrawal process to five independent reviewers. Akyuu binds the "
-"file; she does not average five disagreements into one convenient permit."
+"Submit a plan covering ability use, data access, stopping, and withdrawal. "
+"Five reviewers examine it before the research can begin."
 msgstr ""
-"Before research begins, present the proposed ability use, data access, stop "
-"rules, and withdrawal process to five independent reviewers. Akyuu binds the "
-"file; she does not average five disagreements into one convenient permit."
+"Submit a plan covering ability use, data access, stopping, and withdrawal. "
+"Five reviewers examine it before the research can begin."
 
 #. copy/board
 #: src/js/ethics.js:47
@@ -40,12 +38,8 @@ msgstr "Five specimen cases"
 #. copy/boardLead
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/boardLead"
-msgid ""
-"Choose a file and submit your own version of its dispute. The specimens are "
-"not model answers; they are places where the argument has already started."
-msgstr ""
-"Choose a file and submit your own version of its dispute. The specimens are "
-"not model answers; they are places where the argument has already started."
+msgid "Choose a case and work through the questions it raises in your own protocol."
+msgstr "Choose a case and work through the questions it raises in your own protocol."
 
 #. copy/form
 #: src/js/ethics.js:47
@@ -68,12 +62,8 @@ msgstr "Five independent review seats"
 #. copy/reviewersLead
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/reviewersLead"
-msgid ""
-"Each seat answers only its own question. Blocks, conditions, and minority "
-"opinions survive majorities and averages."
-msgstr ""
-"Each seat answers only its own question. Blocks, conditions, and minority "
-"opinions survive majorities and averages."
+msgid "Each reviewer covers a different area. Read their findings, conditions, and objections."
+msgstr "Each reviewer covers a different area. Read their findings, conditions, and objections."
 
 #. copy/openCase
 #: src/js/ethics.js:47
@@ -271,11 +261,11 @@ msgstr "Five-seat pre-review"
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/previewLead"
 msgid ""
-"This is not a total score. One blocking seat can stop the start; minority "
-"opinions enter the formal file."
+"A blocking finding requires revision before work starts. Other opinions "
+"remain in the decision file."
 msgstr ""
-"This is not a total score. One blocking seat can stop the start; minority "
-"opinions enter the formal file."
+"A blocking finding requires revision before work starts. Other opinions "
+"remain in the decision file."
 
 #. copy/conditions
 #: src/js/ethics.js:47
@@ -467,11 +457,11 @@ msgstr "Research Ethics Review Decision"
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/documentNotice"
 msgid ""
-"A majority summary may not replace seat-level conditions. Withdrawal, "
-"amendment, and minority opinions remain part of the file."
+"The decision includes every reviewer's conditions, amendments, withdrawal "
+"terms, and minority opinions."
 msgstr ""
-"A majority summary may not replace seat-level conditions. Withdrawal, "
-"amendment, and minority opinions remain part of the file."
+"The decision includes every reviewer's conditions, amendments, withdrawal "
+"terms, and minority opinions."
 
 #. copy/originalCase
 #: src/js/ethics.js:47

@@ -792,10 +792,9 @@ msgstr "夢境キャンパスは、通らなかった道で開講する。"
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/campusLead"
 msgid ""
-"This is not another life. It temporarily enrols the branches ordinary "
-"administration excluded, declined, dropped, or left unvoted. After waking, "
-"the official ledger still recognises only the original choices."
-msgstr "別の人生を保存するのではない。通常学務が退け、辞退し、取り消し、投じなかった分岐を一時的に学籍へ編む。覚醒後の帳簿は元の選択だけを認める。"
+"Here, declined offers, dropped courses, and uncast votes have a campus of "
+"their own. On waking, your original choices still stand."
+msgstr "断った誘い、取り消した履修、入れなかった一票。ここでは、それらにも居場所がある。目覚めれば、元の選択が残る。"
 
 #. phantasmCopy/dreamTime
 #: src/data/phantasm.js:227
@@ -910,10 +909,8 @@ msgstr "第九時限履修"
 #. phantasmCopy/coursesLead
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/coursesLead"
-msgid ""
-"Choose three. The credit limit is outside the dream boundary, but one you "
-"cannot occupy four nonexistent rooms at once."
-msgstr "三科目を選ぶ。上限単位は夢境外だが、同じあなたが四つの存在しない教室へ同時には座れない。"
+msgid "Choose three courses. Even in a dream, four rooms at once is asking too much."
+msgstr "三科目を選んで。夢でも、四つの教室に同時にいるのは難しい。"
 
 #. phantasmCopy/selected
 #: src/data/phantasm.js:227
@@ -1049,8 +1046,8 @@ msgstr "先に第九時限を三科目選択してください。"
 #. phantasmCopy/needStatement
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/needStatement"
-msgid "The statement needs at least twenty-four characters; an ellipsis is not another route."
-msgstr "二十四字以上必要。省略記号は別経路に数えない。"
+msgid "Write at least twenty-four characters to explain the unused choice."
+msgstr "選ばなかった理由を二十四文字以上で書いてください。"
 
 #. phantasmCopy/completed
 #: src/data/phantasm.js:227
@@ -1111,10 +1108,8 @@ msgstr "覚醒し、不確かな記憶を少し持ち帰る"
 #. phantasmCopy/wakeNote
 #: src/data/phantasm.js:227
 msgctxt "tree:phantasmCopy#/wakeNote"
-msgid ""
-"Waking does not delete dream records or insert them into the official "
-"ledger. BBS may ignore the second half."
-msgstr "覚醒しても夢学籍は消えず、正式帳簿にも入らない。BBSが後半を守る保証はない。"
+msgid "Dream records remain here after waking. They stay separate from your official record."
+msgstr "目覚めた後も、夢の記録はここに残る。正式な学籍とは別のまま。"
 
 #. phantasmCopy/student
 #: src/data/phantasm.js:227

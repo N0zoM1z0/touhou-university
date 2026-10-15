@@ -16,16 +16,16 @@ msgstr "MY TU / 幻想鄉學籍中心"
 #. copy/title
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/title"
-msgid "Keep one continuous campus life on this device."
-msgstr "同一台裝置上，留下一條真正的校園生命線。"
+msgid "Your student record"
+msgstr "你的學籍紀錄"
 
 #. copy/lead
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/lead"
 msgid ""
-"Applications, exams, visits, and posts become one on-device student record. "
-"Nothing leaves this browser."
-msgstr "把申請、考試、進校預約與發帖收進同一份本機學籍；資料不離開這個瀏覽器。"
+"Find your applications, exam results, visits, and campus activity in one "
+"place. Records are saved in this browser."
+msgstr "在這裡集中查看申請、考試結果、參訪與校園活動；紀錄保存在這個瀏覽器。"
 
 #. copy/createTitle
 #: src/js/mytu.js:23
@@ -36,10 +36,8 @@ msgstr "先建立你的本機校園身分"
 #. copy/createLead
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/createLead"
-msgid ""
-"Existing applications and scores stay unchanged; they will be compiled into "
-"the same campus history."
-msgstr "已有的申請與成績不會被改動；建立身分後，它們會被編入同一份校園履歷。"
+msgid "Create an identity to link your existing applications and scores to your student record."
+msgstr "建立身分後，即可將既有申請與成績連結至學籍紀錄。"
 
 #. copy/found
 #: src/js/mytu.js:23
@@ -261,7 +259,7 @@ msgstr "學年曆紅書籤"
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/careers"
 msgid "Graduation / careers / alumni"
-msgstr "卒業／進路／校友"
+msgstr "畢業／進路／校友"
 
 #. copy/recordsMode
 #: src/js/mytu.js:23
@@ -309,9 +307,9 @@ msgstr "教授聯合審查"
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/reviewLead"
 msgid ""
-"The panel reads the selected question, method, needs, and best on-device "
-"exam result, then saves a reopenable internal review."
-msgstr "審查會讀取所選申請的研究問題、方法、需求與本機最佳考試成績，產生可再次開啟的校內評議。"
+"The panel reviews your question, method, needs, and best exam result. You "
+"can reopen its decision here."
+msgstr "教師會依你的問題、方法、需求與最佳試驗成績評議；結果可在這裡重開。"
 
 #. copy/reviewQuestion
 #: src/js/mytu.js:23
@@ -427,9 +425,9 @@ msgstr "校園事件帳本"
 #: src/js/mytu.js:23
 msgctxt "tree:copy#/timelineLead"
 msgid ""
-"Records events, submissions, corrections, and removals. Deleting a source "
-"card does not pretend the event never happened."
-msgstr "記錄發生、提交、訂正與被移除；刪除原始卡片不會假裝事件從未存在。"
+"Follow submissions, corrections, and removals in date order. Events remain "
+"listed when a source record is deleted."
+msgstr "按日期查閱提交、修訂與刪除紀錄；來源資料刪除後，事件仍會留在履歷中。"
 
 #. copy/noEvents
 #: src/js/mytu.js:23

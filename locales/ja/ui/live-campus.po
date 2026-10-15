@@ -16,17 +16,16 @@ msgstr "LIVE CAMPUS / 学務運行盤"
 #. copy/title
 #: src/js/live-campus.js:13
 msgctxt "tree:copy#/title"
-msgid "Today’s campus does not inherit yesterday’s assumptions."
-msgstr "今日のキャンパスは、昨日の仮定を引き継がない。"
+msgid "What's happening today?"
+msgstr "今日の構内案内"
 
 #. copy/lead
 #: src/js/live-campus.js:13
 msgctxt "tree:copy#/lead"
 msgid ""
-"Time, moon phase, and duty incidents jointly change menus, classes, free "
-"rooms, flight restrictions, and routes. Conditions rotate every three hours; "
-"votes stay on this device and enter the My TU ledger."
-msgstr "時刻・月相・当番事案が献立、時間割、空室、飛行規制、経路を共同変更。状態は三時間交代、投票はこの端末だけに保存され My TU 台帳へ入ります。"
+"Check classes, meals, rooms, and routes for this duty period. Conditions "
+"update every three hours with the moon and campus incidents."
+msgstr "現在の当番時間帯の授業、食事、教室、経路を確認できます。月相や異変の影響を含め、三時間ごとに更新します。"
 
 #. copy/deviceTime
 #: src/js/live-campus.js:13
@@ -109,17 +108,16 @@ msgstr "CAMPUS SENATE / 議事鐘"
 #. copy/governanceTitle
 #: src/js/live-campus.js:13
 msgctxt "tree:copy#/governanceTitle"
-msgid "Rules can operate while characters still object."
-msgstr "規則は動く。登場人物はまだ不服を言える。"
+msgid "Campus proposals"
+msgstr "学内の議案"
 
 #. copy/governanceLead
 #: src/js/live-campus.js:13
 msgctxt "tree:copy#/governanceLead"
 msgid ""
-"Baseline votes come from schools, facilities, clubs, and airborne "
-"stakeholders. Cast or change one on this device; the count does not pretend "
-"the campus suddenly agrees."
-msgstr "底票は学部、施設、団体、飛行する利害関係者から構成。この端末で一票を投じ、変更できます。票数は全学合意を装いません。"
+"Read the options and their consequences, then cast or change your vote. Your "
+"vote is saved in this browser."
+msgstr "選択肢と影響を読んで投票してください。投票先は変更でき、このブラウザに保存されます。"
 
 #. copy/sponsor
 #: src/js/live-campus.js:13

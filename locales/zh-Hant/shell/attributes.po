@@ -338,7 +338,7 @@ msgid "Page location"
 msgstr "頁面位置"
 
 #. Static markup / page composition: navSevenSchools
-#: site.config.mjs:29
+#: site.config.mjs:30
 msgctxt "text:navSevenSchools"
 msgid "Seven schools"
 msgstr "七所學院"
@@ -356,206 +356,197 @@ msgid "Unified examination"
 msgstr "統一試驗"
 
 #. Static markup / page composition: ethicsMastheadLead
-#: site.config.mjs:93
+#: site.config.mjs:90
 msgctxt "text:ethicsMastheadLead"
 msgid ""
-"Ability is not consent. Five desks record their blocks, conditions, and "
-"minority opinions separately."
-msgstr "能做到，不等於已經取得同意；五席會分開留下阻擋、條件與少數意見。"
+"Submit a research plan and read the five reviewers' decisions, conditions, "
+"and objections."
+msgstr "提交研究計畫，閱讀五位委員的判定、條件與異議。"
 
 #. Static markup / page composition: navEthicsCases
-#: site.config.mjs:94
+#: site.config.mjs:91
 msgctxt "text:navEthicsCases"
 msgid "Case shelf"
 msgstr "案件架"
 
 #. Static markup / page composition: navEthicsSubmission
-#: site.config.mjs:94
+#: site.config.mjs:91
 msgctxt "text:navEthicsSubmission"
 msgid "Submission desk"
 msgstr "送審桌"
 
 #. Static markup / page composition: navMyEthicsFiles
-#: site.config.mjs:94
+#: site.config.mjs:91
 msgctxt "text:navMyEthicsFiles"
 msgid "My ethics files"
 msgstr "我的倫理案卷"
 
 #. Static markup / page composition: festivalMastheadTitle
-#: site.config.mjs:121
+#: site.config.mjs:116
 msgctxt "text:festivalMastheadTitle"
 msgid "Spring Spell-card Lantern / Boundary Festival Operations"
 msgstr "春季符卡燈會／境界開學祭運營室"
 
 #. Static markup / page composition: navFestivalSchedule
-#: site.config.mjs:124
+#: site.config.mjs:119
 msgctxt "text:navFestivalSchedule"
 msgid "Operations schedule"
 msgstr "運營排程桌"
 
 #. Static markup / page composition: fieldworkMastheadLead
-#: site.config.mjs:138
+#: site.config.mjs:132
 msgctxt "text:fieldworkMastheadLead"
 msgid ""
-"Scarlet Mansion duty books, Hakugyokurou ghost registers, and Kourindou "
-"drift objects do not become credits on their own. Obtain a dispatch, then "
-"bring the dispute back intact."
-msgstr "紅魔館的值班簿、白玉樓的幽靈名冊與香霖堂的漂流物都不會自動變成學分；先取得派遣令，再把爭議完整帶回來。"
+"Choose from twenty-four placements across Gensokyo and keep your field "
+"records in one passport."
+msgstr "從幻想鄉二十四個實習站中選擇去處，以一本護照保存田野紀錄。"
 
 #. Static markup / page composition: commonsMastheadTitle
-#: site.config.mjs:151
+#: site.config.mjs:144
 msgctxt "text:commonsMastheadTitle"
 msgid "Property, Lost Objects & Campus Post"
 msgstr "物權、失物與校園郵便"
 
 #. Static markup / page composition: commonsMastheadLead
-#: site.config.mjs:153
+#: site.config.mjs:146
 msgctxt "text:commonsMastheadLead"
-msgid ""
-"Objects may deny being lost, and letters may arrive before their contents. "
-"At least give provenance, objections, and corrections a place to sit."
-msgstr "物件可以否認自己遺失，信件可以早於內容抵達；至少讓來源、異議與訂正都有地方坐下。"
+msgid "Claim a lost item, attend a property hearing, or read your tengu post."
+msgstr "申領失物、參與物權聽證，或查看天狗郵件。"
 
 #. Static markup / page composition: navLostProperty
-#: site.config.mjs:154
+#: site.config.mjs:147
 msgctxt "text:navLostProperty"
 msgid "Lost objects & property"
 msgstr "失物與物權"
 
 #. Static markup / page composition: navMyHearings
-#: site.config.mjs:154
+#: site.config.mjs:147
 msgctxt "text:navMyHearings"
 msgid "My hearings"
 msgstr "我的聽證"
 
 #. Static markup / page composition: navTenguPost
-#: site.config.mjs:154
+#: site.config.mjs:147
 msgctxt "text:navTenguPost"
 msgid "Crow-tengu post"
 msgstr "鴉天狗郵便"
 
 #. Static markup / page composition: navSendNotice
-#: site.config.mjs:154
+#: site.config.mjs:147
 msgctxt "text:navSendNotice"
 msgid "Send a notice"
 msgstr "寄發通知"
 
 #. Static markup / page composition: calendarMastheadLead
-#: site.config.mjs:168
+#: site.config.mjs:160
 msgctxt "text:calendarMastheadLead"
-msgid ""
-"Dates arrange; moon phases alter. If spring is delayed, file separate "
-"complaints with Hakugyokurou and the academic calendar desk."
-msgstr "日期負責排列，月相負責改動；春天若延誤，請向白玉樓與校務曆掛分別申訴。"
+msgid "Check term dates, events, and moon phases before planning your day."
+msgstr "安排一天之前，先確認學期、活動與月相。"
 
 #. Static markup / page composition: navFullCalendar
-#: site.config.mjs:169
+#: site.config.mjs:161
 msgctxt "text:navFullCalendar"
 msgid "Year calendar"
 msgstr "全年曆"
 
 #. Static markup / page composition: navTodayCalendar
-#: site.config.mjs:169
+#: site.config.mjs:161
 msgctxt "text:navTodayCalendar"
 msgid "Today’s calendar"
 msgstr "今日曆面"
 
 #. Static markup / page composition: navMyCalendarLeaves
-#: site.config.mjs:169
+#: site.config.mjs:161
 msgctxt "text:navMyCalendarLeaves"
 msgid "My calendar leaves"
 msgstr "我的曆葉"
 
 #. Static markup / page composition: navLiveCampus
-#: site.config.mjs:205
+#: site.config.mjs:195
 msgctxt "text:navLiveCampus"
 msgid "Live campus"
 msgstr "動態校園"
 
 #. Static markup / page composition: navGovernance
-#: site.config.mjs:205
+#: site.config.mjs:195
 msgctxt "text:navGovernance"
 msgid "University governance"
 msgstr "校務治理"
 
 #. Static markup / page composition: mytuMastheadTitle
-#: site.config.mjs:217
+#: site.config.mjs:206
 msgctxt "text:mytuMastheadTitle"
 msgid "Student Records, Coursework, Defence & Campus History"
 msgstr "學籍、課業、答辯與校園履歷"
 
 #. Static markup / page composition: mytuMastheadLead
-#: site.config.mjs:219
+#: site.config.mjs:208
 msgctxt "text:mytuMastheadLead"
-msgid ""
-"This device remembers your applications, examinations, courses, answers, "
-"grades, and defences. The records can stay in your browser."
-msgstr "這台裝置記得你的申請、試驗、課程、答案、成績與答辯；資料不必離開瀏覽器。"
+msgid "Manage your identity, applications, courses, grades, and defences."
+msgstr "管理身分、申請、課程、成績與答辯。"
 
 #. Static markup / page composition: navStudentRecords
-#: site.config.mjs:220
+#: site.config.mjs:209
 msgctxt "text:navStudentRecords"
 msgid "Student records"
 msgstr "學籍中心"
 
 #. Static markup / page composition: navCoursesGrades
-#: site.config.mjs:220
+#: site.config.mjs:209
 msgctxt "text:navCoursesGrades"
 msgid "Courses & grades"
 msgstr "選課與成績"
 
 #. Static markup / page composition: navCourseworkDesk
-#: site.config.mjs:220
+#: site.config.mjs:209
 msgctxt "text:navCourseworkDesk"
 msgid "Coursework desk"
 msgstr "課業工作台"
 
 #. Static markup / page composition: navTranscript
-#: site.config.mjs:220
+#: site.config.mjs:209
 msgctxt "text:navTranscript"
 msgid "Transcript"
 msgstr "成績單"
 
 #. Static markup / page composition: navThesisSpellcardDefence
-#: site.config.mjs:220
+#: site.config.mjs:209
 msgctxt "text:navThesisSpellcardDefence"
 msgid "Thesis / spell-card defence"
 msgstr "論文／符卡答辯"
 
 #. Static markup / page composition: navLibraryHoldings
-#: site.config.mjs:240
+#: site.config.mjs:228
 msgctxt "text:navLibraryHoldings"
 msgid "Holdings & borrowing"
 msgstr "館藏與借閱"
 
 #. Static markup / page composition: navBeginConsultation
-#: site.config.mjs:260
+#: site.config.mjs:247
 msgctxt "text:navBeginConsultation"
 msgid "Begin a consultation"
 msgstr "開始診療"
 
 #. Static markup / page composition: hiedaMastheadLead
-#: site.config.mjs:304
+#: site.config.mjs:288
 msgctxt "text:hiedaMastheadLead"
-msgid ""
-"One event takes different forms in dossiers, equipment, news, rules, BBS, "
-"and your on-device history. Akyuu keeps the red thread between them."
-msgstr "同一件事在案卷、設備、新聞、規章、BBS 與你的本機履歷裡各有一種寫法；阿求負責把紅線留下。"
+msgid "Follow an event through the university's reports, rules, research, and student records."
+msgstr "沿著校內報告、規章、研究與學生紀錄，追查一件事件。"
 
 #. Static markup / page composition: navByEvent
-#: site.config.mjs:305
+#: site.config.mjs:289
 msgctxt "text:navByEvent"
 msgid "By event"
 msgstr "按事件"
 
 #. Static markup / page composition: navByCharacter
-#: site.config.mjs:305
+#: site.config.mjs:289
 msgctxt "text:navByCharacter"
 msgid "By character"
 msgstr "按角色"
 
 #. Static markup / page composition: navByVersion
-#: site.config.mjs:305
+#: site.config.mjs:289
 msgctxt "text:navByVersion"
 msgid "By version / time"
 msgstr "按版本／時間"

@@ -16,18 +16,16 @@ msgstr "FESTIVAL OPERATIONS / 春季符卡燈會 × 境界開學祭"
 #. copy/title
 #: src/js/festival.js:56
 msgctxt "tree:copy#/title"
-msgid "A festival is not one success score. It is a campus running all at once."
-msgstr "祭典不是一張成功分數表，是一晚同時運轉的校園。"
+msgid "Plan the festival. Keep a way home."
+msgstr "辦場祭典，也留好回家的路。"
 
 #. copy/lead
 #: src/js/festival.js:56
 msgctxt "tree:copy#/lead"
 msgid ""
-"Plan procession, airspace, stalls, power, main gate, and aid stations; six "
-"desks stamp independently. Once open, Aya's extra, fairy clouds, Moriya "
-"voltage, and poltergeist after-hours sound do not promise to obey the "
-"programme."
-msgstr "先排遊行、空域、攤位、供電、正門與急救站；六張桌各自蓋章。開祭後，文的號外、妖精的雲、守矢的電與騷靈的深夜聲音都不保證照表演出。"
+"Set the route, airspace, stalls, power, gate, and aid stations. Six desks "
+"review the plan; after opening, you'll handle whatever the programme missed."
+msgstr "安排路線、空域、攤位、供電、正門與急救站，交由六個窗口審查。開幕之後，還有節目表沒寫的事等你處理。"
 
 #. copy/deskTab
 #: src/js/festival.js:56
@@ -309,10 +307,9 @@ msgstr "六桌互不代簽"
 #: src/js/festival.js:56
 msgctxt "tree:copy#/desksLead"
 msgid ""
-"Safety, power, medicine, publicity, faith, and shared night life are not "
-"averaged. One return can block opening; objections enter the formal permit "
-"unchanged."
-msgstr "安全、供電、醫療、通報、信仰與共同夜生活不取平均。任一退回都能阻止開祭；異議會原樣進入正式許可。"
+"Read all six reviews. A revision request can block opening; each desk's "
+"conditions stay on the permit."
+msgstr "請閱讀六份評議。退修意見可阻止開幕，各窗口的條件則會保留在許可證上。"
 
 #. copy/conditions
 #: src/js/festival.js:56
@@ -365,10 +362,8 @@ msgstr "正式活動許可"
 #. copy/permitNotice
 #: src/js/festival.js:56
 msgctxt "tree:copy#/permitNotice"
-msgid ""
-"All six desk opinions form the permit. Do not keep only the outcome and omit "
-"exits, medical conditions, or gate objections."
-msgstr "六桌意見均屬許可正文；不得只列結論而省略退路、急救或正門異議。"
+msgid "Check the full permit for exit routes, medical conditions, and gate restrictions."
+msgstr "請完整閱讀許可證上的退路、醫療條件與正門限制。"
 
 #. copy/status
 #: src/js/festival.js:56
@@ -567,8 +562,8 @@ msgstr "仍帶異議的決定"
 #. copy/reportNotice
 #: src/js/festival.js:56
 msgctxt "tree:copy#/reportNotice"
-msgid "Closing releases temporary routes; history does not disappear with the barriers."
-msgstr "結祭會釋放臨時封路；歷史不因路障撤下而自動沒有發生。"
+msgid "Closing the festival releases temporary routes. Reports and decisions remain on file."
+msgstr "結祭後會解除臨時路線，報告與處置紀錄仍會保存。"
 
 #. copy/printReport
 #: src/js/festival.js:56

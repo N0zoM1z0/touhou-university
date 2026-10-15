@@ -16,31 +16,28 @@ msgstr "LOCAL ARCHIVES / 本機資料櫃"
 #. copy/title
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/title"
-msgid "Which campus papers is this device keeping for you?"
-msgstr "這台裝置替你保管了哪些校務紙張？"
+msgid "Records saved in this browser"
+msgstr "這個瀏覽器保存的紀錄"
 
 #. copy/lead
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/lead"
 msgid ""
-"Applications, courses, loans, care, and unfinished drafts are listed shelf "
-"by shelf. Nothing is uploaded during ordinary use; when moving, you seal the "
-"box yourself."
-msgstr "申請、選課、借書、診療與尚未交出的草稿都在這裡逐櫃列明。平時不會上傳；需要搬家時，再由你親手封箱。"
+"Browse your applications, courses, loans, clinic records, and drafts. Export "
+"an archive to keep a backup or move it to another browser."
+msgstr "查看申請、課程、借閱、診療與草稿。需要備份或移到其他瀏覽器時，可匯出封存檔。"
 
 #. copy/offline
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/offline"
-msgid "On-device reading room"
-msgstr "本機閱覽"
+msgid "Browser storage"
+msgstr "瀏覽器儲存空間"
 
 #. copy/offlineLead
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/offlineLead"
-msgid ""
-"During ordinary use, files are visible only to this browser profile and this "
-"site's origin."
-msgstr "普通使用時，卷宗只對目前瀏覽器設定檔與這個網站來源可見。"
+msgid "These records belong to this browser profile at the site address shown below."
+msgstr "這些紀錄保存在目前的瀏覽器設定檔，所屬網站位址如下。"
 
 #. copy/origin
 #: src/js/local-records.js:22
@@ -106,47 +103,49 @@ msgstr "誰看得見這些紙？"
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/visibilityLead"
 msgid ""
-"“On-device” is not a cloud account. Other browsers, private windows, "
-"devices, and site origins cannot see it."
-msgstr "「本機」不是一個雲端帳號。不同瀏覽器、無痕視窗、裝置與網站來源彼此看不到。"
+"Other browsers, private windows, devices, and site addresses keep separate "
+"records. Use export and import to transfer a copy."
+msgstr "其他瀏覽器、私密視窗、裝置與網站位址各有獨立紀錄。可透過匯出與匯入轉移副本。"
 
 #. copy/export
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/export"
-msgid "Seal and export everything"
-msgstr "一鍵封箱匯出"
+msgid "Export all records"
+msgstr "匯出全部紀錄"
 
 #. copy/exportLead
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/exportLead"
-msgid "Downloads a JSON box with a SHA-256 seal. Short-lived tab passes are never packed."
-msgstr "匯出一份帶 SHA-256 封印的 JSON。短時分頁通行條不會裝箱。"
+msgid ""
+"Downloads a JSON archive with a SHA-256 integrity check. Temporary tab "
+"passes are excluded."
+msgstr "下載附SHA-256完整性檢查的JSON封存檔，不含分頁臨時通行證。"
 
 #. copy/exporting
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/exporting"
-msgid "Counting pages…"
-msgstr "正在點算頁碼…"
+msgid "Preparing archive…"
+msgstr "正在準備封存檔…"
 
 #. copy/exported
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/exported"
-msgid "The on-device archive has been sealed and downloaded."
-msgstr "本機卷宗已封箱下載。"
+msgid "Archive downloaded."
+msgstr "已下載封存檔。"
 
 #. copy/import
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/import"
-msgid "Import an earlier archive box"
-msgstr "匯入舊檔案箱"
+msgid "Import an archive"
+msgstr "匯入封存檔"
 
 #. copy/importLead
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/importLead"
 msgid ""
-"The seal, format, and every key are checked before you choose what happens "
-"to name collisions. A failed validation writes nothing."
-msgstr "先驗封印、格式與每個鍵，再讓你決定如何處理同名卷宗；驗證失敗時不會寫入任何資料。"
+"Checks the file's integrity, format, and records before importing. Choose "
+"whether to keep or replace records already saved here."
+msgstr "匯入前會檢查完整性、格式與紀錄。遇到既有紀錄時，可選擇保留目前版本或覆寫。"
 
 #. copy/chooseFile
 #: src/js/local-records.js:22
@@ -157,8 +156,8 @@ msgstr "選擇 JSON 檔案"
 #. copy/collision
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/collision"
-msgid "Name-collision policy"
-msgstr "同名卷宗處理"
+msgid "Existing records"
+msgstr "既有紀錄"
 
 #. copy/preserve
 #: src/js/local-records.js:22
@@ -169,26 +168,26 @@ msgstr "保留目前版本（推薦）"
 #. copy/overwrite
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/overwrite"
-msgid "Overwrite same-name files from import"
-msgstr "以匯入檔覆蓋同名卷宗"
+msgid "Replace matching records"
+msgstr "覆寫相同紀錄"
 
 #. copy/applyImport
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/applyImport"
-msgid "Place in cabinet"
-msgstr "確認入櫃"
+msgid "Import records"
+msgstr "匯入紀錄"
 
 #. copy/imported
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/imported"
-msgid "Filed {imported}; skipped {skipped} same-name files."
-msgstr "已入櫃 {imported} 份；略過 {skipped} 份同名卷宗。"
+msgid "Imported {imported}; kept {skipped} existing records."
+msgstr "已匯入{imported}筆，保留{skipped}筆既有紀錄。"
 
 #. copy/importReady
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/importReady"
-msgid "Seal passed: {count} files, {size}"
-msgstr "封印通過：{count} 份卷宗，{size}"
+msgid "Integrity check passed: {count} files, {size}"
+msgstr "完整性檢查通過：{count}份檔案，{size}"
 
 #. copy/importConflicts
 #: src/js/local-records.js:22
@@ -218,9 +217,9 @@ msgstr "封箱時間 {date} · 來源 {origin}"
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/importReplaceWarning"
 msgid ""
-"Overwrite replaces only same-name files present in the imported box; it does "
-"not delete anything else."
-msgstr "覆蓋只處理匯入檔裡的同名卷宗，不會刪除其他資料。"
+"Only matching records in the archive will be replaced. Your other records "
+"stay as they are."
+msgstr "只覆寫封存檔中相同的紀錄，其餘既有紀錄會保留。"
 
 #. copy/filter
 #: src/js/local-records.js:22
@@ -249,8 +248,8 @@ msgstr "收起空白卷宗"
 #. copy/noMatch
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/noMatch"
-msgid "No file matches. Keine may also have reassigned that page to yesterday."
-msgstr "沒有符合條件的卷宗。也可能是慧音剛把那一頁改成昨天。"
+msgid "No matching records. Try another search term."
+msgstr "找不到符合的紀錄，請換個關鍵詞。"
 
 #. copy/stored
 #: src/js/local-records.js:22
@@ -285,52 +284,52 @@ msgstr "開卷查看"
 #. copy/destroy
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroy"
-msgid "Destroy"
-msgstr "銷毀"
+msgid "Delete"
+msgstr "刪除"
 
 #. copy/destroyGroup
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyGroup"
-msgid "Destroy this shelf"
-msgstr "銷毀本櫃"
+msgid "Delete this group"
+msgstr "刪除此分類"
 
 #. copy/destroyAll
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyAll"
-msgid "Destroy all university data"
-msgstr "銷毀全部本校資料"
+msgid "Delete all university records"
+msgstr "刪除全部校務紀錄"
 
 #. copy/destroyOneConfirm
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyOneConfirm"
-msgid "Destroy “{title}”? This cannot be undone; you can export the archive first."
-msgstr "確定銷毀「{title}」？這個動作無法復原；可先匯出封箱。"
+msgid "Delete “{title}”? This cannot be undone. Export a backup first if you need one."
+msgstr "刪除「{title}」？刪除後無法復原；需要時請先匯出備份。"
 
 #. copy/destroyGroupConfirm
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyGroupConfirm"
-msgid "Destroy {count} stored files in “{title}”?"
-msgstr "確定銷毀「{title}」內 {count} 份已有卷宗？"
+msgid "Delete {count} saved files in “{title}”?"
+msgstr "刪除「{title}」中的{count}份已存檔案？"
 
 #. copy/destroyAllConfirm
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyAllConfirm"
 msgid ""
-"Destroy all Touhou University data under this browser origin? Identity, "
-"applications, grades, drafts, and short-lived tab data will disappear."
-msgstr "確定銷毀這個瀏覽器來源下全部 Touhou University 本機資料？身分、申請、成績、草稿與短時分頁資料都會消失。"
+"Delete all university records for this site in this browser? This removes "
+"your identity, applications, grades, drafts, and temporary tab data."
+msgstr "刪除這個瀏覽器中本站的全部校務紀錄？這會移除身分、申請、成績、草稿與分頁臨時資料。"
 
 #. copy/destroyed
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/destroyed"
-msgid "Destroyed {count} on-device files."
-msgstr "已銷毀 {count} 份本機卷宗。"
+msgid "Deleted {count} saved files."
+msgstr "已刪除{count}份已存檔案。"
 
 #. copy/cabinetEmpty
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/cabinetEmpty"
-msgid "There are no files to destroy."
-msgstr "目前沒有可銷毀的卷宗。"
+msgid "No saved records to delete."
+msgstr "沒有可刪除的已存紀錄。"
 
 #. copy/rawTitle
 #: src/js/local-records.js:22
@@ -384,29 +383,29 @@ msgstr "合卷"
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/rawWarning"
 msgid ""
-"This is the actual stored content. Check names, answers, and medical records "
-"before sharing a screenshot or exported box."
-msgstr "這裡顯示的是實際保存內容；分享截圖或匯出檔案前請先檢查姓名、答案與診療紀錄。"
+"This view includes saved names, answers, and medical records. Check the "
+"contents before sharing a screenshot or archive."
+msgstr "這個畫面包含已存的姓名、答案與診療紀錄。分享截圖或封存檔前，請先確認內容。"
 
 #. copy/integrity
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/integrity"
 msgid ""
-"The kappa packing machine validates structure and seals; it does not vouch "
-"for mysterious files from the Outside World."
-msgstr "河童封箱機會驗證結構與封印，但不替外界來歷不明的檔案背書。"
+"The integrity check detects changed or damaged archives. Check where a file "
+"came from before importing it."
+msgstr "完整性檢查可找出變動或損壞；匯入前也請確認檔案來源。"
 
 #. copy/error/archive-size
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/error/archive-size"
-msgid "The file is empty or exceeds 8 MiB, so the gatekeeper refused it."
-msgstr "檔案為空或超過 8 MiB，門衛拒絕搬運。"
+msgid "Choose a non-empty file no larger than 8 MiB."
+msgstr "請選擇非空白且不超過8MiB的檔案。"
 
 #. copy/error/archive-json
 #: src/js/local-records.js:22
 msgctxt "tree:copy#/error/archive-json"
-msgid "This is not a readable JSON archive box."
-msgstr "這不是可讀的 JSON 檔案箱。"
+msgid "The file could not be read as a JSON archive."
+msgstr "無法將此檔案讀取為JSON封存檔。"
 
 #. copy/error/archive-format
 #: src/js/local-records.js:22

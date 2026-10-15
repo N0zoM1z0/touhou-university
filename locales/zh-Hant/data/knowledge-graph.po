@@ -1109,7 +1109,7 @@ msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.lead"
 msgid ""
 "Graduation proves eight desks saw their own fields; it does not prove "
 "record, time, and graduate arrive in the same edition."
-msgstr "卒業判定證明八張案頭都看過自己的欄，沒有證明學籍、時間與本人會在同一版本裡抵達。"
+msgstr "畢業判定證明八張案頭都看過自己的欄，沒有證明學籍、時間與本人會在同一版本裡抵達。"
 
 #. knowledgeDossiers.0.graduation-before-enrolment.tension
 #: src/data/knowledge-graph.js:503
@@ -1119,7 +1119,7 @@ msgid ""
 "entered after graduation. Aya has published the alumni roll, while Yukari "
 "moves the degree year to the reverse. Careers can only ask what this edition "
 "of you will refuse tomorrow."
-msgstr "慧音要求核心課與年代可追溯，阿求卻找到一份晚於卒業才登錄的入學卷；文已刊出校友名冊，紫則把學位年份翻到紙背。進路室只能問：這一版的你，明天願意拒絕做什麼？"
+msgstr "慧音要求核心課與年代可追溯，阿求卻找到一份晚於畢業才登錄的入學卷；文已刊出校友名冊，紫則把學位年份翻到紙背。進路室只能問：這一版的你，明天願意拒絕做什麼？"
 
 #. knowledgeDossiers.0.graduation-before-enrolment.records.0.graduation-capstone.5
 #: src/data/knowledge-graph.js:522
@@ -1127,7 +1127,7 @@ msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.0.graduati
 msgid ""
 "The capstone keeps one version the graduate distrusts but may not delete; "
 "the board may not average it into a prettier result."
-msgstr "卒業檔案必須保留一份本人不相信、卻不能刪除的版本；判定席也不得把它改成較好看的平均值。"
+msgstr "畢業檔案必須保留一份本人不相信、卻不能刪除的版本；判定席也不得把它改成較好看的平均值。"
 
 #. knowledgeDossiers.0.graduation-before-enrolment.records.1.missing-year-job.5
 #: src/data/knowledge-graph.js:523
@@ -1171,7 +1171,7 @@ msgid ""
 "The offer arriving before application becomes precedent for an alumni "
 "invitation arriving before graduation; correction mails the cause later "
 "without withdrawing version one."
-msgstr "早於申請抵達的錄取信成為早於卒業抵達的校友邀請之先例；訂正版沒有撤回第一版，只把前因寄到後面。"
+msgstr "早於申請抵達的錄取信成為早於畢業抵達的校友邀請之先例；訂正版沒有撤回第一版，只把前因寄到後面。"
 
 #. knowledgeDossiers.0.graduation-before-enrolment.records.6.phantom-count.5
 #: src/data/knowledge-graph.js:528
@@ -1185,10 +1185,9 @@ msgstr "白玉樓場地印只證明妖夢把名冊帶回；不證明半靈算一
 #: src/data/knowledge-graph.js:529
 msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.7.graduation-history.5"
 msgid ""
-"The chronicle links audit, degree, careers, and alumni by actual "
-"first-parent versions; invitation delivery order continues objecting in "
-"another column."
-msgstr "校史把判定、學位、進路與校友事件按 first-parent 實際版本串起來；邀請函的送達順序仍留在另一欄反對。"
+"The chronicle dates the audit, degree, careers, and alumni records. The "
+"invitation's delivery date still disagrees."
+msgstr "校史替審查、學位、進路與校友紀錄標好日期，邀請函的送達日卻還是對不上。"
 
 #. knowledgeDossiers.0.first-bell-three-gates.title
 #: src/data/knowledge-graph.js:536
@@ -1241,9 +1240,9 @@ msgstr "鴉天狗郵便最快，也可能讓錯版最早抵達；每次改道因
 #: src/data/knowledge-graph.js:554
 msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.3.first-course.5"
 msgid ""
-"The first destination opens a real course, not a personality test. Marisa "
-"still claims the bell striker is registration equipment."
-msgstr "第一站是實際課程入口，不是性格測驗；魔理沙仍主張鐘槌也算選課器材。"
+"The first destination leads to course registration. Marisa still claims the "
+"bell striker belongs with the enrolment equipment."
+msgstr "第一站會通往選課。魔理沙仍堅稱，鐘槌也算註冊設備。"
 
 #. knowledgeDossiers.0.first-bell-three-gates.records.4.arrival-notice.5
 #: src/data/knowledge-graph.js:555

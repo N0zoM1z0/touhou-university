@@ -14,21 +14,19 @@ msgid "University home"
 msgstr "大学ホーム"
 
 #. Global message key: pageAcademicsTitle
-#: site.config.mjs:21 src/js/i18n.js:26
+#: site.config.mjs:24 src/js/i18n.js:25
 msgctxt "text:pageAcademicsTitle"
 msgid "Academics & Teaching"
 msgstr "学術・教育"
 
 #. Global message key: pageAcademicsLead
-#: site.config.mjs:28
+#: site.config.mjs:29
 msgctxt "text:pageAcademicsLead"
-msgid ""
-"The seven schools share more than a name: they share questions that refuse "
-"to stay within departmental borders."
-msgstr "七学部が共有するのは大学名だけでなく、学部境界に収まらない問題群です。"
+msgid "Explore seven schools, their courses, and the people teaching them."
+msgstr "七つの学部、授業、担当教員を紹介します。"
 
 #. Global message key: pageAdmissionsTitle
-#: site.config.mjs:36 src/js/i18n.js:27
+#: site.config.mjs:38 src/js/i18n.js:26
 msgctxt "text:pageAdmissionsTitle"
 msgid "Admissions, Applications & Examinations"
 msgstr "入試・出願・試験"
@@ -37,46 +35,42 @@ msgstr "入試・出願・試験"
 #: site.config.mjs:43
 msgctxt "text:pageAdmissionsLead"
 msgid ""
-"Bring a question and choose an entry route. Papers keep time; your "
-"application draft waits on this device."
-msgstr "問いを持参し、入学経路を選んでください。試験は時を刻み、出願下書きはこの端末で帰りを待ちます。"
+"Choose an entry route, start an application, or try an entrance paper. Your "
+"draft saves as you go."
+msgstr "出願区分を選ぶ、願書を書く、入試問題を試す。下書きは入力に合わせて保存されます。"
 
 #. Global message key: pageOrientationTitle
-#: site.config.mjs:51 src/sections/orientation.html:5
+#: site.config.mjs:52 src/sections/orientation.html:5
 msgctxt "text:pageOrientationTitle"
 msgid "First Bell · New Student Arrival Week"
 msgstr "第一鐘・新入生到着週"
 
 #. Global message key: pageOrientationLead
-#: site.config.mjs:58
+#: site.config.mjs:57
 msgctxt "text:pageOrientationLead"
-msgid ""
-"Admission gets you through a gate. Arrival means recognising it, knowing the "
-"way back, and choosing a real first destination."
-msgstr "合格で門は通れます。手続では、その門と退路、そして本当に向かう最初の場所を確かめます。"
+msgid "Confirm your arrival route and stop signal, then choose your first campus destination."
+msgstr "到着経路と停止合図を確認し、最初に向かう学内の行先を選びます。"
 
 #. Global message key: pageResearchTitle
-#: site.config.mjs:71 src/js/i18n.js:28
+#: site.config.mjs:71 src/js/i18n.js:27
 msgctxt "text:pageResearchTitle"
-msgid "Research Results & Open Records"
-msgstr "研究成果・公開記録"
+msgid "Research & Field Notes"
+msgstr "研究とフィールドノート"
 
 #. Global message key: pageResearchLead
-#: site.config.mjs:78
+#: site.config.mjs:76
 msgctxt "text:pageResearchLead"
-msgid ""
-"Results are more than titles: methods, failures, limits, corrections, and "
-"unfinished arguments remain in the record."
-msgstr "成果は題目だけではありません。方法、失敗、限界、訂正、終わらない議論も記録に残します。"
+msgid "Open a project to read its methods, findings, and unresolved questions."
+msgstr "研究を選ぶと、方法、結果、残された問いを読めます。"
 
 #. Global message key: pageCampusTitle
-#: site.config.mjs:197 src/js/i18n.js:29
+#: site.config.mjs:189 src/js/i18n.js:28
 msgctxt "text:pageCampusTitle"
 msgid "Campus, Routes & Shared Life"
 msgstr "キャンパス・経路・共同生活"
 
 #. Global message key: pageCampusLead
-#: site.config.mjs:204
+#: site.config.mjs:194
 msgctxt "text:pageCampusLead"
 msgid ""
 "From Hakurei Gate to Eientei, routes change with transport and moon phase; "
@@ -84,7 +78,7 @@ msgid ""
 msgstr "博麗門から永遠亭まで、経路は交通手段と月相で変わります。学内の噂はたいていもっと速く動きます。"
 
 #. Global message key: pageMyTuTitle
-#: site.config.mjs:212 src/js/i18n.js:30
+#: site.config.mjs:203 src/js/i18n.js:29
 msgctxt "text:pageMyTuTitle"
 msgid "Records, Registration & Campus History"
 msgstr "学籍・履修・キャンパス履歴"
@@ -92,25 +86,23 @@ msgstr "学籍・履修・キャンパス履歴"
 #. Global message key: pageMyTuLead
 #: src/data/i18n.js:1
 msgctxt "text:pageMyTuLead"
-msgid ""
-"This device remembers applications, exams, courses, and campus events; the "
-"data need not leave the browser."
-msgstr "この端末は出願、試験、履修、学内の出来事を記憶します。データはブラウザを離れません。"
+msgid "Manage your student record, applications, courses, and grades in this browser."
+msgstr "このブラウザで学籍、出願、履修、成績を管理します。"
 
 #. Global message key: pageLibraryTitle
-#: site.config.mjs:227 src/js/i18n.js:31
+#: site.config.mjs:217 src/js/i18n.js:30
 msgctxt "text:pageLibraryTitle"
 msgid "Misty Lake Library"
 msgstr "霧の湖図書館"
 
 #. Global message key: pageClinicTitle
-#: site.config.mjs:247 src/js/i18n.js:32
+#: site.config.mjs:236 src/js/i18n.js:31
 msgctxt "text:pageClinicTitle"
-msgid "Eientei Campus Medical Center"
+msgid "Eientei Campus Medical Centre"
 msgstr "永遠亭大学附属病院"
 
 #. Global message key: pageLibraryLead
-#: site.config.mjs:239
+#: site.config.mjs:227
 msgctxt "text:pageLibraryLead"
 msgid ""
 "Books may fly from shelves, refuse their old position, or appear only at "
@@ -118,107 +110,99 @@ msgid ""
 msgstr "蔵書は棚から飛び、元の位置を拒み、満月だけ見えることがあります。それでも請求記号と貸出記録は残ります。"
 
 #. Global message key: pageHousingTitle
-#: site.config.mjs:267 src/js/i18n.js:33
+#: site.config.mjs:255 src/js/i18n.js:32
 msgctxt "text:pageHousingTitle"
 msgid "Housing, Rooms & Roommates"
 msgstr "学生寮・部屋・同室者"
 
 #. Global message key: pageHousingLead
-#: site.config.mjs:274
+#: site.config.mjs:260
 msgctxt "text:pageHousingLead"
-msgid ""
-"Moon phase, wingspan, water, walls, and sleep all shape allocation. A "
-"suitable roommate is not trouble-free; the trouble can be discussed first."
-msgstr "月相・翼幅・水域・壁・生活時間が配室を左右します。よい同室者とは問題がない相手ではなく、問題を先に話せる相手です。"
+msgid "Compare five residences by room type, access, facilities, and sleeping habits."
+msgstr "部屋の種類、通いやすさ、設備、生活時間から五つの寮を比べます。"
 
 #. Global message key: pageIncidentsTitle
-#: site.config.mjs:101 src/sections/incidents.html:2 src/js/i18n.js:34
+#: site.config.mjs:99 src/sections/incidents.html:2 src/js/i18n.js:33
 msgctxt "text:pageIncidentsTitle"
 msgid "Campus Incident Centre & Research Simulation"
 msgstr "学内事案センター・研究シミュレーション"
 
 #. Global message key: pageIncidentsLead
-#: site.config.mjs:108
+#: site.config.mjs:104
 msgctxt "text:pageIncidentsLead"
-msgid ""
-"An incident may be controlled first, but a finding must remain falsifiable. "
-"After closure, the Campus BBS has a life of its own."
-msgstr "事案は先に制御できても、結論は反証可能でなければなりません。終結後の議論には、学内 BBS 独自の生命があります。"
+msgid "Read the evidence, test an explanation, and decide how to close the case."
+msgstr "証拠を読み、仮説を試し、案件の結論を出します。"
 
 #. Global message key: pageHomeTitle
-#: src/data/i18n.js:1
+#: site.config.mjs:9 src/js/i18n.js:37
 msgctxt "text:pageHomeTitle"
 msgid "Touhou University of Gensokyo"
 msgstr "幻想郷立東方大学"
 
 #. Global message key: pageRecordsTitle
-#: site.config.mjs:282
+#: site.config.mjs:269
 msgctxt "text:pageRecordsTitle"
 msgid "On-device Records Cabinet"
 msgstr "端末内資料棚"
 
 #. Global message key: pageHiedaTitle
-#: site.config.mjs:297 src/sections/hieda-index.html:2
+#: site.config.mjs:283 src/sections/hieda-index.html:2
 msgctxt "text:pageHiedaTitle"
-msgid "Hieda Campus Knowledge Graph"
-msgstr "稗田学務知識グラフ"
+msgid "Hieda Campus Index"
+msgstr "稗田学内索引"
 
 #. Global message key: pageEthicsTitle
-#: site.config.mjs:86
+#: site.config.mjs:85
 msgctxt "text:pageEthicsTitle"
 msgid "Gensokyo Research Ethics Review Board"
 msgstr "幻想郷研究倫理審査委員会"
 
 #. Global message key: pageFestivalTitle
-#: site.config.mjs:116
+#: site.config.mjs:113
 msgctxt "text:pageFestivalTitle"
-msgid "Spring Spell-card Lantern / Boundary Festival Operations"
-msgstr "春季スペルカード灯会／境界開学祭運営室"
+msgid "Lantern & Boundary Festival"
+msgstr "灯籠祭・結界祭"
 
 #. Global message key: pageFestivalLead
-#: site.config.mjs:123
+#: site.config.mjs:118
 msgctxt "text:pageFestivalLead"
 msgid ""
-"Six desks do not sign for one another. After the opening bell, closures, "
-"clinic queues, news, faith disputes, and residence night sounds run on their "
-"own temperaments."
-msgstr "六つの机は互いに代署しない。開門鐘の後、通行規制、待合、報道、信仰異議、寮の夜音はそれぞれの気質で動く。"
+"Plan the festival, obtain six desk approvals, and handle events from opening "
+"bell to closing report."
+msgstr "祭りを計画し、六つの担当窓口の許可を得て、開幕から終了報告まで運営します。"
 
 #. Global message key: pageFieldworkTitle
-#: site.config.mjs:131
+#: site.config.mjs:127
 msgctxt "text:pageFieldworkTitle"
-msgid "Domestic Placement & Field Inquiry Passport"
-msgstr "幻想郷域内実習・フィールド調査パスポート"
+msgid "Fieldwork & Placement Passport"
+msgstr "実習・フィールドワーク手帳"
 
 #. Global message key: pageCommonsTitle
-#: site.config.mjs:146
+#: site.config.mjs:141
 msgctxt "text:pageCommonsTitle"
 msgid "Campus Commons"
 msgstr "学内公共サービス館"
 
 #. Global message key: pageCalendarTitle
-#: site.config.mjs:161
+#: site.config.mjs:155
 msgctxt "text:pageCalendarTitle"
 msgid "Gensokyo Academic Calendar"
 msgstr "幻想郷学年暦"
 
 #. Global message key: pageCareersTitle
-#: site.config.mjs:176
+#: site.config.mjs:169
 msgctxt "text:pageCareersTitle"
-msgid "Graduation, Gensokyo Employment Market & Hyakki Yagyo Alumni"
-msgstr "卒業・幻想郷就業市場・百鬼夜行同窓会"
+msgid "Graduation, Jobs & Alumni"
+msgstr "卒業・求人・同窓会"
 
 #. Global message key: pageCareersLead
-#: site.config.mjs:183
+#: site.config.mjs:174
 msgctxt "text:pageCareersLead"
-msgid ""
-"A degree does not erase disputes, and graduate whereabouts cannot be "
-"compressed into a flattering percentage. State the denominator, strange "
-"clauses, and your uncrossable line."
-msgstr "学位を得ても争いは消えず、卒業後の進路も見栄えのよい割合にはまとめられない。まず、分母と奇妙な条件、そして自分が越えない一線を明記する。"
+msgid "Check your graduation file, explore work in Gensokyo, and meet the alumni chapters."
+msgstr "卒業判定を確認し、幻想郷の仕事や同窓会の活動を探せます。"
 
 #. Global message key: pagePhantasmTitle
-#: site.config.mjs:312
+#: site.config.mjs:297
 msgctxt "text:pagePhantasmTitle"
 msgid "Ninth Period Roll"
 msgstr "第九時限点呼簿"
@@ -228,3 +212,139 @@ msgstr "第九時限点呼簿"
 msgctxt "text:pageLocation"
 msgid "Page location"
 msgstr "現在位置"
+
+#. text:pageDescription.home
+#: site.config.mjs:10
+msgctxt "text:pageDescription.home"
+msgid ""
+"Explore Touhou University's seven schools, faculty, admissions, and campus "
+"life in Gensokyo."
+msgstr "幻想郷にある東方大学の七学部、教員、入試、学生生活を紹介します。"
+
+#. text:pageDescription.academics
+#: site.config.mjs:22
+msgctxt "text:pageDescription.academics"
+msgid "Compare seven schools, their courses, fees, and faculty."
+msgstr "七学部の授業、学費、教員を比べられます。"
+
+#. text:pageDescription.admissions
+#: site.config.mjs:36
+msgctxt "text:pageDescription.admissions"
+msgid "Choose an entry route, start an application, or try the Gensokyo entrance examinations."
+msgstr "出願区分を確認し、願書の作成や幻想郷の入試問題に挑戦できます。"
+
+#. text:pageDescription.orientation
+#: site.config.mjs:50
+msgctxt "text:pageDescription.orientation"
+msgid ""
+"Prepare for arrival with your admission result, a route from Hakurei Gate, "
+"and a first destination."
+msgstr "合格結果、博麗門からの経路、最初の行先を確認して到着に備えます。"
+
+#. text:pageDescription.research
+#: site.config.mjs:69
+msgctxt "text:pageDescription.research"
+msgid "Read Gensokyo research on boundaries, history, magic, engineering, and spell cards."
+msgstr "境界、歴史、魔法、工学、スペルカードに関する研究を公開しています。"
+
+#. text:pageDescription.ethics
+#: site.config.mjs:83
+msgctxt "text:pageDescription.ethics"
+msgid "Submit a research protocol for review by Eirin, Satori, Keine, Eiki, and Reimu."
+msgstr "永琳、さとり、慧音、映姫、霊夢による研究計画の審査を受けられます。"
+
+#. text:pageDescription.incidents
+#: site.config.mjs:97
+msgctxt "text:pageDescription.incidents"
+msgid ""
+"Investigate campus cases, compare evidence, and test explanations in the "
+"research simulator."
+msgstr "学内の案件を調べ、証拠を比較し、研究シミュレーターで仮説を検証できます。"
+
+#. text:pageDescription.festival
+#: site.config.mjs:111
+msgctxt "text:pageDescription.festival"
+msgid ""
+"Plan routes, stalls, power, and aid for the lantern festival, from permits "
+"to closing report."
+msgstr "灯籠祭の経路、屋台、電力、救護を計画し、許可申請から終了報告まで運営できます。"
+
+#. text:pageDescription.fieldwork
+#: site.config.mjs:125
+msgctxt "text:pageDescription.fieldwork"
+msgid ""
+"Visit twenty-four fieldwork stations across Gensokyo and record your "
+"observations in a placement passport."
+msgstr "幻想郷の二十四の実習先を訪れ、観察を実習手帳に記録できます。"
+
+#. text:pageDescription.commons
+#: site.config.mjs:139
+msgctxt "text:pageDescription.commons"
+msgid "Claim lost property, hear an object's account, and check letters from Tengu Post."
+msgstr "遺失物の申立て、物の言い分の確認、天狗郵便の閲覧ができます。"
+
+#. text:pageDescription.calendar
+#: site.config.mjs:153
+msgctxt "text:pageDescription.calendar"
+msgid ""
+"Check Gensokyo's terms, seasons, moon phases, and events before planning "
+"classes or travel."
+msgstr "授業や移動を計画する前に、幻想郷の学期、季節、月相、行事を確認できます。"
+
+#. text:pageDescription.careers
+#: site.config.mjs:167
+msgctxt "text:pageDescription.careers"
+msgid ""
+"Review graduation requirements, browse twenty-one vacancies, and meet the "
+"Hyakki Yagyo alumni."
+msgstr "卒業要件、二十一件の求人、百鬼夜行同窓会の活動を確認できます。"
+
+#. text:pageDescription.campus
+#: site.config.mjs:187
+msgctxt "text:pageDescription.campus"
+msgid "Find routes, clubs, dining, campus news, and BBS discussions."
+msgstr "構内の経路、サークル、食事、学内ニュース、BBSを案内します。"
+
+#. text:pageDescription.mytu
+#: site.config.mjs:201
+msgctxt "text:pageDescription.mytu"
+msgid ""
+"Manage your student identity, applications, course registration, grades, and "
+"campus history."
+msgstr "学籍、出願、履修登録、成績、学内での活動履歴を管理できます。"
+
+#. text:pageDescription.library
+#: site.config.mjs:215
+msgctxt "text:pageDescription.library"
+msgid "Search Misty Lake Library, borrow or reserve a book, and manage your loans."
+msgstr "霧の湖図書館の蔵書検索、貸出、予約、利用記録の管理ができます。"
+
+#. text:pageDescription.clinic
+#: site.config.mjs:234
+msgctxt "text:pageDescription.clinic"
+msgid "Start triage, check clinic queues, browse medicines, and follow your recovery plan."
+msgstr "問診、待ち状況、薬の確認、回復の手順を利用できます。"
+
+#. text:pageDescription.housing
+#: site.config.mjs:253
+msgctxt "text:pageDescription.housing"
+msgid "Compare five residences, describe your needs, and review room and roommate offers."
+msgstr "五つの寮を比較し、希望条件を記入して部屋と同室者の候補を確認できます。"
+
+#. text:pageDescription.records
+#: site.config.mjs:267
+msgctxt "text:pageDescription.records"
+msgid "View, back up, import, or delete the university records saved in this browser."
+msgstr "このブラウザの学内記録を確認、バックアップ、読み込み、削除できます。"
+
+#. text:pageDescription.hieda
+#: site.config.mjs:281
+msgctxt "text:pageDescription.hieda"
+msgid "Follow campus events through reports, research, rules, and the Hieda chronicle."
+msgstr "学内の出来事を、報告、研究、規程、稗田の大学史からたどれます。"
+
+#. text:pageDescription.phantasm
+#: site.config.mjs:295
+msgctxt "text:pageDescription.phantasm"
+msgid "The ninth-period roll has a place for the choices left behind."
+msgstr "選ばれなかった道にも、九限目の出席簿には席がある。"

@@ -24,7 +24,7 @@
 
 ## Copy rules
 
-- Traditional Chinese is the primary language; Japanese and English cover every
+- English is the default language; Japanese and Traditional Chinese cover every
   public static string and all interactive data.
 - Public institutional copy stays immersive. Editorial source and setting
   distinctions remain in research documentation.
@@ -262,3 +262,13 @@ Recommended public wording:
 
 > 本站為東方Project非官方二次創作，與上海愛麗絲幻樂團及 ZUN 無關。  
 > Touhou Project 原作：ZUN（上海愛麗絲幻樂團）。
+
+## 2026-10-15 editorial revision
+
+English now opens first, followed by Japanese and Traditional Chinese in the
+language controls. Valid saved preferences remain in effect. The revision
+shortens public entry copy, directions and empty states; removes repetitive
+defensive contrasts; and gives faculty feedback distinct voices. Field-station
+premises describe specific observation tasks. Existing evidence, exam keys,
+job conditions, sources, records and character conflicts retain their meaning.
+Page descriptions now belong to the same trilingual catalogs as other copy.

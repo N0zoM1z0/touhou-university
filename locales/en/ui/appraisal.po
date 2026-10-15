@@ -23,13 +23,13 @@ msgstr "Outside World Drift-Object Appraisal Office"
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/lead"
 msgid ""
-"A name, an original purpose, and a useful life in Gensokyo are three "
-"different questions. Kourindou sees names, the library keeps evidence, and "
-"the kappa stare at ports. If the object objects, that enters the file too."
+"Identify an Outside World object, compare the evidence, and propose a use "
+"for it. Rinnosuke can tell you its name; Nitori would like to open the "
+"casing."
 msgstr ""
-"A name, an original purpose, and a useful life in Gensokyo are three "
-"different questions. Kourindou sees names, the library keeps evidence, and "
-"the kappa stare at ports. If the object objects, that enters the file too."
+"Identify an Outside World object, compare the evidence, and propose a use "
+"for it. Rinnosuke can tell you its name; Nitori would like to open the "
+"casing."
 
 #. copy/open
 #: src/js/appraisal.js:30
@@ -148,12 +148,8 @@ msgstr "One — Look at the object before the answer"
 #. copy/evidenceLead
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/evidenceLead"
-msgid ""
-"Select observations you actually use. At least two; markings and wear "
-"usually speak more reliably than intuition."
-msgstr ""
-"Select observations you actually use. At least two; markings and wear "
-"usually speak more reliably than intuition."
+msgid "Choose at least two observations to support your appraisal."
+msgstr "Choose at least two observations to support your appraisal."
 
 #. copy/reviewed
 #: src/js/appraisal.js:30
@@ -171,11 +167,11 @@ msgstr "Two — Propose the original purpose"
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/hypothesisLead"
 msgid ""
-"Rinnosuke may see name and purpose without receiving an operating manual. "
-"Your evidence still has to connect."
+"Choose an original purpose that fits the evidence. Rinnosuke's account is "
+"one source to consider."
 msgstr ""
-"Rinnosuke may see name and purpose without receiving an operating manual. "
-"Your evidence still has to connect."
+"Choose an original purpose that fits the evidence. Rinnosuke's account is "
+"one source to consider."
 
 #. copy/stepTests
 #: src/js/appraisal.js:30
@@ -186,12 +182,8 @@ msgstr "Three — Choose non-invasive tests"
 #. copy/testsLead
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/testsLead"
-msgid ""
-"At least one and at most three. A kappa bringing a screwdriver does not make "
-"disassembly necessary."
-msgstr ""
-"At least one and at most three. A kappa bringing a screwdriver does not make "
-"disassembly necessary."
+msgid "Choose one to three tests. Check what each test could damage before starting."
+msgstr "Choose one to three tests. Check what each test could damage before starting."
 
 #. copy/method
 #: src/js/appraisal.js:30
@@ -432,14 +424,8 @@ msgstr "Appraisal files retained on this device"
 #. copy/archiveLead
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/archiveLead"
-msgid ""
-"Errors, provisional readings, and corrections remain where they occurred. "
-"Reappraisal creates a new file rather than pretending an older purpose never "
-"existed."
-msgstr ""
-"Errors, provisional readings, and corrections remain where they occurred. "
-"Reappraisal creates a new file rather than pretending an older purpose never "
-"existed."
+msgid "Each appraisal keeps its evidence and corrections. Reappraisal opens a separate file."
+msgstr "Each appraisal keeps its evidence and corrections. Reappraisal opens a separate file."
 
 #. copy/noArchive
 #: src/js/appraisal.js:30
@@ -480,30 +466,26 @@ msgstr "Continue appraisal"
 #. copy/retentionTitle
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/retentionTitle"
-msgid "This use did not hold. Keep it anyway?"
-msgstr "This use did not hold. Keep it anyway?"
+msgid "Keep this disputed appraisal?"
+msgstr "Keep this disputed appraisal?"
 
 #. copy/retentionLead
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/retentionLead"
 msgid ""
-"The evidence did not support the selected original purpose. An error can "
-"still preserve how Gensokyo understood an Outside object. If retained, it "
-"stays visibly contested and generates BBS reactions."
+"The selected purpose lacks supporting evidence. You can keep the file with a "
+"reason for retaining it; it will be marked UNSUPPORTED and may prompt BBS "
+"replies."
 msgstr ""
-"The evidence did not support the selected original purpose. An error can "
-"still preserve how Gensokyo understood an Outside object. If retained, it "
-"stays visibly contested and generates BBS reactions."
+"The selected purpose lacks supporting evidence. You can keep the file with a "
+"reason for retaining it; it will be marked UNSUPPORTED and may prompt BBS "
+"replies."
 
 #. copy/retentionWarning
 #: src/js/appraisal.js:30
 msgctxt "tree:copy#/retentionWarning"
-msgid ""
-"Retention does not make it correct. Later files, My TU, and BBS will all "
-"keep the UNSUPPORTED mark."
-msgstr ""
-"Retention does not make it correct. Later files, My TU, and BBS will all "
-"keep the UNSUPPORTED mark."
+msgid "The UNSUPPORTED mark stays on this appraisal in saved files, My TU, and BBS references."
+msgstr "The UNSUPPORTED mark stays on this appraisal in saved files, My TU, and BBS references."
 
 #. copy/reviewer
 #: src/js/appraisal.js:30

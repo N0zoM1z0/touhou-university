@@ -16,22 +16,20 @@ msgstr "SPELL-CARD DESIGN + ETHICS WORKSHOP"
 #. copy/title
 #: src/js/spellcard-workshop.js:42
 msgctxt "tree:copy#/title"
-msgid "A spell card is not one fairness score."
-msgstr "A spell card is not one fairness score."
+msgid "Design a spell card. Fly it yourself."
+msgstr "Design a spell card. Fly it yourself."
 
 #. copy/lead
 #: src/js/spellcard-workshop.js:42
 msgctxt "tree:copy#/lead"
 msgid ""
-"Fly your own rule, then hear six incompatible reviews. Reimu watches exits, "
-"Marisa expression and reproducibility, Aya the audience, Nitori collision "
-"stability, Eirin stimulation, while the Misty Lake fairies refuse to let the "
-"whole venue contain nothing but alarms."
+"Choose a pattern, tune the rules, and try a test flight. Six reviewers check "
+"exits, expression, visibility, stability, stimulation, and the noise "
+"reaching the Fairy Choir."
 msgstr ""
-"Fly your own rule, then hear six incompatible reviews. Reimu watches exits, "
-"Marisa expression and reproducibility, Aya the audience, Nitori collision "
-"stability, Eirin stimulation, while the Misty Lake fairies refuse to let the "
-"whole venue contain nothing but alarms."
+"Choose a pattern, tune the rules, and try a test flight. Six reviewers check "
+"exits, expression, visibility, stability, stimulation, and the noise "
+"reaching the Fairy Choir."
 
 #. copy/notice
 #: src/js/spellcard-workshop.js:42
@@ -447,11 +445,11 @@ msgstr "Public Spell-Card Ethics Defence"
 #: src/js/spellcard-workshop.js:42
 msgctxt "tree:copy#/defenceLead"
 msgid ""
-"Three examiners do not average one another. The strongest current external "
-"objection takes seat three."
+"Three examiners give separate findings. The reviewer with the strongest "
+"current objection takes the third seat."
 msgstr ""
-"Three examiners do not average one another. The strongest current external "
-"objection takes seat three."
+"Three examiners give separate findings. The reviewer with the strongest "
+"current objection takes the third seat."
 
 #. copy/majority
 #: src/js/spellcard-workshop.js:42

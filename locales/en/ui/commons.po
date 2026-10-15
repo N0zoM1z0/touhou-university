@@ -16,24 +16,18 @@ msgstr "CAMPUS COMMONS / TSUKUMOGAMI TITLE × TENGU POST"
 #. copy/title
 #: src/js/commons.js:50
 msgctxt "tree:copy#/title"
-msgid ""
-"A thing may have an opinion after being lost; a notice may be another "
-"version after delivery."
-msgstr ""
-"A thing may have an opinion after being lost; a notice may be another "
-"version after delivery."
+msgid "Lost Property & Tengu Post"
+msgstr "Lost Property & Tengu Post"
 
 #. copy/lead
 #: src/js/commons.js:50
 msgctxt "tree:copy#/lead"
 msgid ""
-"At Property, receipts, wear, provenance, and the object testify separately. "
-"At Post, every letter retains source, trust, version, order, and correction. "
-"The two offices mail one another."
+"File a claim, hear what the object has to say, or check your post. Keep an "
+"eye on the date: some letters arrive ahead of their applications."
 msgstr ""
-"At Property, receipts, wear, provenance, and the object testify separately. "
-"At Post, every letter retains source, trust, version, order, and correction. "
-"The two offices mail one another."
+"File a claim, hear what the object has to say, or check your post. Keep an "
+"eye on the date: some letters arrive ahead of their applications."
 
 #. copy/propertyTab
 #: src/js/commons.js:50
@@ -57,11 +51,11 @@ msgstr "Tsukumogami Lost Property & Title Tribunal"
 #: src/js/commons.js:50
 msgctxt "tree:copy#/propertyLead"
 msgid ""
-"Lost things may deny being lost and former holders may appeal; nobody may "
-"reduce an object's testimony to “a bit old”."
+"Choose an item and describe your claim. Receipts, wear, previous holders, "
+"and the object's own account all enter the hearing."
 msgstr ""
-"Lost things may deny being lost and former holders may appeal; nobody may "
-"reduce an object's testimony to “a bit old”."
+"Choose an item and describe your claim. Receipts, wear, previous holders, "
+"and the object's own account all enter the hearing."
 
 #. copy/items
 #: src/js/commons.js:50
@@ -246,8 +240,8 @@ msgstr "Four seats leave separate opinions"
 #. copy/hearingLead
 #: src/js/commons.js:50
 msgctxt "tree:copy#/hearingLead"
-msgid "There is no average score. Every question and objection enters the ruling."
-msgstr "There is no average score. Every question and objection enters the ruling."
+msgid "Read each of the four opinions before accepting the ruling."
+msgstr "Read each of the four opinions before accepting the ruling."
 
 #. copy/chooseRuling
 #: src/js/commons.js:50
@@ -311,11 +305,11 @@ msgstr "Crow-Tengu Campus Post & Notification Centre"
 #: src/js/commons.js:50
 msgctxt "tree:copy#/postLead"
 msgid ""
-"An offer may precede an application and cancellation may follow the make-up. "
-"At least keep source, version, and correction from vanishing together."
+"Read the source, date, and corrections on each letter. Delivery order can be "
+"unreliable here."
 msgstr ""
-"An offer may precede an application and cancellation may follow the make-up. "
-"At least keep source, version, and correction from vanishing together."
+"Read the source, date, and corrections on each letter. Delivery order can be "
+"unreliable here."
 
 #. copy/inbox
 #: src/js/commons.js:50

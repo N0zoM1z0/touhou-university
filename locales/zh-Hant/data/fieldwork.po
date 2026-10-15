@@ -572,8 +572,8 @@ msgstr "巡查結界縫、賽錢箱周邊與『剛才還在』的界標。"
 #. fieldworkStations.0.0.premise
 #: src/data/fieldwork.js:248
 msgctxt "text:fieldworkStations.0.0.premise"
-msgid "Record how the boundary is used instead of calling every movement a failure."
-msgstr "記錄界線如何被使用，而不是把每次移動都叫作失效。"
+msgid "Track where the boundary moves and how people use the crossing."
+msgstr "記錄界線如何移動，以及人們如何使用通路。"
 
 #. fieldworkStations.0.0.access
 #: src/data/fieldwork.js:249
@@ -676,8 +676,8 @@ msgstr "整理口述史、寺子屋點名與公告訂正，不把『大家都知
 #. fieldworkStations.1.0.premise
 #: src/data/fieldwork.js:267
 msgctxt "text:fieldworkStations.1.0.premise"
-msgid "One event may have village, teacher, youkai, and later-chronicle versions."
-msgstr "同一件事可有村民、教師、妖怪與後世編年的不同版本。"
+msgid "Compare how villagers, teachers, and youkai remember the same event."
+msgstr "比較村民、老師與妖怪如何記得同一件事。"
 
 #. fieldworkStations.1.0.access
 #: src/data/fieldwork.js:268
@@ -782,8 +782,8 @@ msgstr "為同一事件建立版本鏈、缺頁說明與不可合併的矛盾索
 #. fieldworkStations.2.0.premise
 #: src/data/fieldwork.js:286
 msgctxt "text:fieldworkStations.2.0.premise"
-msgid "Preserving what each version says matters more than choosing a convenient yesterday."
-msgstr "保留哪一版說了什麼，比替幻想鄉選一個方便的昨天更重要。"
+msgid "Date each account and keep its disagreements with earlier versions."
+msgstr "替每份記述標明日期，記下它與舊版的出入。"
 
 #. fieldworkStations.2.0.access
 #: src/data/fieldwork.js:287
@@ -888,8 +888,8 @@ msgstr "辨認名稱與用途、測試實際操作，並保留兩者不一致的
 #. fieldworkStations.3.0.premise
 #: src/data/fieldwork.js:305
 msgctxt "text:fieldworkStations.3.0.premise"
-msgid "Knowing purpose does not reveal operation—or willingness."
-msgstr "知道一件物品做什麼，不代表知道它如何做、願不願意做。"
+msgid "Compare an object's stated purpose, actual operation, and willingness to cooperate."
+msgstr "分別確認物品的用途、實際運作與合作意願。"
 
 #. fieldworkStations.3.0.access
 #: src/data/fieldwork.js:306
@@ -992,8 +992,8 @@ msgstr "測量霧、冰面、湖燈與妖精活動，另記錄樣區被重新命
 #. fieldworkStations.4.0.premise
 #: src/data/fieldwork.js:324
 msgctxt "text:fieldworkStations.4.0.premise"
-msgid "Fairies are not background noise; they often co-author the conditions."
-msgstr "妖精不是背景噪音；她們往往就是實驗條件的共同作者。"
+msgid "Record the fairies' changes to your test site as part of the experiment."
+msgstr "妖精對現場做的改動，也要記入實驗條件。"
 
 #. fieldworkStations.4.0.access
 #: src/data/fieldwork.js:325
@@ -1098,8 +1098,8 @@ msgstr "重建停止時間中的搬運順序、館藏流向與夜班服務，不
 #. fieldworkStations.5.0.premise
 #: src/data/fieldwork.js:343
 msgctxt "text:fieldworkStations.5.0.premise"
-msgid "Everything is punctual; therefore timestamps alone may not prove sequence."
-msgstr "館內一切準時，正因如此，時間戳不一定足以證明先後。"
+msgid "Reconstruct the sequence using duty logs and witnesses alongside the mansion clocks."
+msgstr "比對館內時鐘、值班紀錄與證詞，還原工作順序。"
 
 #. fieldworkStations.5.0.access
 #: src/data/fieldwork.js:344
@@ -1208,8 +1208,8 @@ msgstr "記錄魔菇、魔力沉積與採集失敗，建立材料真正來源而
 #. fieldworkStations.6.0.premise
 #: src/data/fieldwork.js:362
 msgctxt "text:fieldworkStations.6.0.premise"
-msgid "Reproducible magic starts with provenance; Marisa's definition requires an annex."
-msgstr "可重現的魔法從材料來源開始；魔理沙對『來源』的定義需另附註。"
+msgid "Log where each material came from. Ask Marisa to be more specific than “the forest”."
+msgstr "記下每種材料的出處；問魔理沙時，請追問「森林」之後的部分。"
 
 #. fieldworkStations.6.0.access
 #: src/data/fieldwork.js:363
@@ -1318,8 +1318,8 @@ msgstr "觀察操線、半自主協作與修補工序，區分指令、習慣與
 #. fieldworkStations.7.0.premise
 #: src/data/fieldwork.js:381
 msgctxt "text:fieldworkStations.7.0.premise"
-msgid "A completed job does not prove who performed each step."
-msgstr "工作完成不代表能從結果推回誰做了哪一步。"
+msgid "Follow each step from the operator's instruction to the doll's response."
+msgstr "逐步追查操作者的指令，以及人偶如何回應。"
 
 #. fieldworkStations.7.0.access
 #: src/data/fieldwork.js:382
@@ -1420,8 +1420,8 @@ msgstr "測量花期、踩踏、花粉與觀看者造成的擾動，學會把『
 #. fieldworkStations.8.0.premise
 #: src/data/fieldwork.js:400
 msgctxt "text:fieldworkStations.8.0.premise"
-msgid "Silence is not non-disturbance; shadows, scent, and frightened walking remain."
-msgstr "停止說話不等於沒有干擾；影子、氣味與害怕的走法都會留下。"
+msgid "Check how your shadow, scent, and movement affect the flowers."
+msgstr "觀察自己的影子、氣味與走動如何影響花朵。"
 
 #. fieldworkStations.8.0.access
 #: src/data/fieldwork.js:401
@@ -1524,8 +1524,8 @@ msgstr "建立暴露、症狀與環境條件紀錄，區分毒的存在、劑量
 #. fieldworkStations.9.0.premise
 #: src/data/fieldwork.js:419
 msgctxt "text:fieldworkStations.9.0.premise"
-msgid "Plants are not medicine bottles, and Medicine is not their instruction leaflet."
-msgstr "植物不是藥瓶，梅蒂欣也不是植物附屬說明書。"
+msgid "Observe the plants on their own terms. Ask Medicine before handling anything."
+msgstr "直接觀察植物的狀態，接觸前先詢問梅蒂欣。"
 
 #. fieldworkStations.9.0.access
 #: src/data/fieldwork.js:420
@@ -1628,10 +1628,8 @@ msgstr "記錄夜間聲景、食物來源與路線互助，區分迷路、停留
 #. fieldworkStations.10.0.premise
 #: src/data/fieldwork.js:438
 msgctxt "text:fieldworkStations.10.0.premise"
-msgid ""
-"Kitchen, performance, and road share one stall lamp and cannot be treated as "
-"independent."
-msgstr "食堂、表演與道路在同一攤燈下運作，不能假裝彼此沒有影響。"
+msgid "Track how supper, singing, and passing travellers affect one another."
+msgstr "追查餐食、歌聲與過路旅人如何互相影響。"
 
 #. fieldworkStations.10.0.access
 #: src/data/fieldwork.js:439
@@ -1736,8 +1734,8 @@ msgstr "跟隨速報、巡邏與空域公告，標記預測、觀察、傳聞與
 #. fieldworkStations.11.0.premise
 #: src/data/fieldwork.js:457
 msgctxt "text:fieldworkStations.11.0.premise"
-msgid "Speed is a research subject, not an exemption from verification."
-msgstr "速度是研究對象，不是免除核驗的理由。"
+msgid "Measure the time between an event, the first report, and its correction."
+msgstr "量測事件、首報與更正之間相隔多久。"
 
 #. fieldworkStations.11.0.access
 #: src/data/fieldwork.js:458
@@ -1842,10 +1840,8 @@ msgstr "測量低落差水輪、臨時膠帶補丁與厄流旁路，保存維修
 #. fieldworkStations.12.0.premise
 #: src/data/fieldwork.js:476
 msgctxt "text:fieldworkStations.12.0.premise"
-msgid ""
-"Running does not mean diagram-compliant, and a correct diagram may not be "
-"the one the machine reads today."
-msgstr "能運轉不等於符合圖紙；圖紙正確也不代表設備今天讀它。"
+msgid "Compare the running machine with today's drawing and repair log."
+msgstr "比對運轉中的設備、今日圖紙與維修紀錄。"
 
 #. fieldworkStations.12.0.access
 #: src/data/fieldwork.js:477
@@ -1950,8 +1946,8 @@ msgstr "追蹤風、水、電與信仰如何一起進入公共設施，保留所
 #. fieldworkStations.13.0.premise
 #: src/data/fieldwork.js:495
 msgctxt "text:fieldworkStations.13.0.premise"
-msgid "Numbers are not faith; they are Kanako's annex for noticing neglect."
-msgstr "數字不是信仰；它們是神奈子發現信仰被忽略時會拿出的附件。"
+msgid "Follow water, power, and maintenance costs through Kanako's infrastructure plans."
+msgstr "沿著神奈子的建設計畫，追查水、電力與維修費用的去向。"
 
 #. fieldworkStations.13.0.access
 #: src/data/fieldwork.js:496
@@ -2054,8 +2050,8 @@ msgstr "觀測池水、降雨與參拜動線，區分神聖性、危險與觀察
 #. fieldworkStations.14.0.premise
 #: src/data/fieldwork.js:514
 msgctxt "text:fieldworkStations.14.0.premise"
-msgid "Measurement does not cancel respect, and respect does not replace a water reading."
-msgstr "測量不取消敬意；敬意也不能替代水位讀值。"
+msgid "Agree on an observation spot, then record the pond's water level and worship routes."
+msgstr "約好觀察位置，再記錄池水水位與參拜路線。"
 
 #. fieldworkStations.14.0.access
 #: src/data/fieldwork.js:515
@@ -2158,10 +2154,8 @@ msgstr "協助人類、妖怪與寺方處理共享空間、服務與拒絕，記
 #. fieldworkStations.15.0.premise
 #: src/data/fieldwork.js:533
 msgctxt "text:fieldworkStations.15.0.premise"
-msgid ""
-"Welcome does not surrender a temple to convenience; compassion must still "
-"identify responsibility."
-msgstr "歡迎不是把寺院交給訪客方便；慈悲也需要能指出責任。"
+msgid "Record what visitors request, what the temple can offer, and who takes responsibility."
+msgstr "記下訪客的要求、寺院能提供什麼，以及由誰負責。"
 
 #. fieldworkStations.15.0.access
 #: src/data/fieldwork.js:534
@@ -2264,8 +2258,8 @@ msgstr "觀察同時聽取、願望分類與公共演說，核對聽見的願望
 #. fieldworkStations.16.0.premise
 #: src/data/fieldwork.js:552
 msgctxt "text:fieldworkStations.16.0.premise"
-msgid "Hearing a desire accurately does not guarantee understanding its holder."
-msgstr "準確聽見願望，不保證準確理解擁有願望的人。"
+msgid "Ask speakers to check how their wishes were summarised."
+msgstr "請發言者確認，願望的摘要是否符合本意。"
 
 #. fieldworkStations.16.0.access
 #: src/data/fieldwork.js:553
@@ -2368,8 +2362,8 @@ msgstr "隨診、藥局與康復輪值，區分族群、劑量、停止規則與
 #. fieldworkStations.17.0.premise
 #: src/data/fieldwork.js:571
 msgctxt "text:fieldworkStations.17.0.premise"
-msgid "Treatability is not research permission, and sample size does not repair a wrong dose."
-msgstr "能治療不等於可研究；大樣本也不能讓錯的劑量變成對。"
+msgid "Check dose and consent for each patient before using clinical records in research."
+msgstr "將診療紀錄用於研究前，逐一確認患者的劑量與同意。"
 
 #. fieldworkStations.17.0.access
 #: src/data/fieldwork.js:572
@@ -2476,8 +2470,10 @@ msgstr "比較月相、路標、腳步與驚慌造成的方向差，保留走失
 #. fieldworkStations.18.0.premise
 #: src/data/fieldwork.js:590
 msgctxt "text:fieldworkStations.18.0.premise"
-msgid "An immortal's return does not prove route safety, and lantern four may not be fourth."
-msgstr "永生者能走回來不代表路線安全；第四盞燈也不保證是第四盞。"
+msgid ""
+"Test the route with travellers who can get lost. Check the fourth lantern's "
+"position each time."
+msgstr "與可能迷路的旅人一起驗證路線，每次都要確認第四盞燈的位置。"
 
 #. fieldworkStations.18.0.access
 #: src/data/fieldwork.js:591
@@ -2584,8 +2580,8 @@ msgstr "記錄櫻花、幽靈通行、庭園維護與半靈觀察單位，不把
 #. fieldworkStations.19.0.premise
 #: src/data/fieldwork.js:609
 msgctxt "text:fieldworkStations.19.0.premise"
-msgid "Person, half-human, half-phantom, and lunch serving are not naturally equal units."
-msgstr "一人、半人、半靈與一份午餐不是天然相同的統計單位。"
+msgid "Choose a counting unit before recording people, half-phantoms, or lunch portions."
+msgstr "登記人數、半靈或午餐份量前，先選定計算單位。"
 
 #. fieldworkStations.19.0.access
 #: src/data/fieldwork.js:610
@@ -2692,8 +2688,8 @@ msgstr "記錄距離變化、船資、排隊與未完成訪談，區分抵岸與
 #. fieldworkStations.20.0.premise
 #: src/data/fieldwork.js:628
 msgctxt "text:fieldworkStations.20.0.premise"
-msgid "A shorter river does not automatically shorten responsibility or unfinished words."
-msgstr "河可以變短，責任與尚未說完的話不會因此自動變短。"
+msgid "Keep a record of interrupted interviews when the river shortens."
+msgstr "河道變短而打斷訪談時，也要記下中斷經過。"
 
 #. fieldworkStations.20.0.access
 #: src/data/fieldwork.js:629
@@ -2796,8 +2792,8 @@ msgstr "記錄宴會、競技、街路損壞與共同修復，區分誰贏、誰
 #. fieldworkStations.21.0.premise
 #: src/data/fieldwork.js:647
 msgctxt "text:fieldworkStations.21.0.premise"
-msgid "Losing honestly does not waive repair, and strength cannot consent for others."
-msgstr "誠實地輸不免除修理；有力量也不代表能替別人答應。"
+msgid "Agree on participation and repairs before the contest starts."
+msgstr "較量開始前，先約好參與同意與修繕分工。"
 
 #. fieldworkStations.21.0.access
 #: src/data/fieldwork.js:648
@@ -2902,8 +2898,8 @@ msgstr "練習訪談、讀心邊界、動物照護與未記錄資訊，區分想
 #. fieldworkStations.22.0.premise
 #: src/data/fieldwork.js:666
 msgctxt "text:fieldworkStations.22.0.premise"
-msgid "Privacy is not pretending thoughts do not exist; it is deciding what they become."
-msgstr "隱私不是假裝沒有思想；是決定思想出現後能變成什麼。"
+msgid "Ask separately about reading, analysing, recording, and publishing someone's thoughts."
+msgstr "讀取、分析、記錄與公開思想，須分別詢問本人意願。"
 
 #. fieldworkStations.22.0.access
 #: src/data/fieldwork.js:667
@@ -3012,8 +3008,8 @@ msgstr "讀取核熱、冷卻、輪值與疏散資料，區分高輸出、穩定
 #. fieldworkStations.23.0.premise
 #: src/data/fieldwork.js:685
 msgctxt "text:fieldworkStations.23.0.premise"
-msgid "Brightness is not calibration, and stable running is not agreement over interpretation."
-msgstr "很亮不是校準；穩定運轉也不等於所有人同意由誰解釋它。"
+msgid "Check the instrument calibration, cooling logs, and who can order a shutdown."
+msgstr "確認儀器校準、冷卻紀錄，以及誰有權下令停機。"
 
 #. fieldworkStations.23.0.access
 #: src/data/fieldwork.js:686

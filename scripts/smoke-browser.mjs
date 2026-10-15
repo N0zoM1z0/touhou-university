@@ -5,6 +5,10 @@ import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { browserPorts } from "./browser/ports.mjs";
+import { messages } from "../src/data/i18n.js";
+import { trees as spellcardCopy } from "../src/generated/i18n/ui/spellcard-workshop.js";
+import { trees as ethicsCopy } from "../src/generated/i18n/ui/ethics.js";
+import { trees as recordsCopy } from "../src/generated/i18n/ui/local-records.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const { sitePort, debugPort } = await browserPorts(process.env.BROWSER_SITE_PORT, process.env.BROWSER_DEBUG_PORT);
@@ -151,6 +155,44 @@ try {
   });
   await Promise.all([cdp.call("Runtime.enable"), cdp.call("Log.enable"), cdp.call("Page.enable")]);
   await navigate("index.html", "body");
+  const defaultLanguage = await cdp.evaluate(`({
+    locale: document.documentElement.lang,
+    title: document.title,
+    description: document.querySelector('meta[name="description"]').content,
+    saved: localStorage.getItem('tu:locale'),
+    orders: [...document.querySelectorAll('.language-switcher, .mobile-languages')].map(group => [...group.querySelectorAll('[data-lang]')].map(button => button.dataset.lang).join(','))
+  })`);
+  check(defaultLanguage.locale === "en" && defaultLanguage.saved === null, "A fresh visit must open in English without overwriting a preference.");
+  check(defaultLanguage.orders.every(order => order === "en,ja,zh-Hant"), "Language controls must list English, Japanese, then Traditional Chinese.");
+  check(defaultLanguage.title.includes("Touhou University") && defaultLanguage.description.includes("seven schools"), "Initial title and metadata must be English.");
+  for (const page of ["index.html", "academics.html", "admissions.html", "welcome.html", "research.html", "ethics.html", "festival.html", "fieldwork.html", "commons.html", "calendar.html", "careers.html", "incidents.html", "campus.html", "mytu.html", "library.html", "clinic.html", "housing.html", "records.html", "hieda.html", "phantasm.html"]) {
+    await navigate(page, "main");
+    const untranslated = await cdp.evaluate(`(() => {
+      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+      const found = [];
+      for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+        const parent = node.parentElement;
+        if (!parent || parent.closest('[data-lang], script, style, svg, [aria-hidden="true"]') || !parent.getClientRects().length) continue;
+        if (/[\\p{Script=Han}\\p{Script=Hiragana}\\p{Script=Katakana}]{3}/u.test(node.nodeValue)) found.push(node.nodeValue.trim().slice(0, 100));
+      }
+      return {locale: document.documentElement.lang, found};
+    })()`);
+    check(untranslated.locale === "en" && !untranslated.found.length, `${page} default UI contains untranslated copy: ${JSON.stringify(untranslated.found)}`);
+  }
+  await navigate("index.html", "body");
+  for (const savedLanguage of ["ja", "zh-Hant"]) {
+    await cdp.evaluate(`document.querySelector('[data-lang="${savedLanguage}"]').click(); true`);
+    await navigate("academics.html", "#academics");
+    const restored = await cdp.evaluate(`({locale: document.documentElement.lang, saved: localStorage.getItem('tu:locale'), title: document.title, description: document.querySelector('meta[name="description"]').content})`);
+    check(restored.locale === savedLanguage && restored.saved === savedLanguage, `Saved ${savedLanguage} preference did not survive navigation.`);
+    check(savedLanguage === "ja" ? restored.description.includes("七学部") : restored.description.includes("七所學院"), `Metadata did not follow the ${savedLanguage} choice.`);
+    await navigate("index.html", "body");
+  }
+  await cdp.evaluate("localStorage.setItem('tu:locale', 'older-locale'); true");
+  await navigate("academics.html", "#academics");
+  check(await cdp.evaluate("document.documentElement.lang === 'en' && localStorage.getItem('tu:locale') === 'older-locale'"), "An unknown saved locale must fall back to English without rewriting the saved value.");
+  await cdp.evaluate("localStorage.removeItem('tu:locale'); true");
+  await navigate("index.html", "body");
   const keyedTranslations = await cdp.evaluate(`(() => {
     const fixture = document.createElement('section');
     fixture.innerHTML = '<p data-authored-copy>學校介紹</p><p data-i18n="navAbout">學校介紹</p><a><!-- i18n:navAbout -->學校介紹<b>↗</b></a><input value="學校介紹" placeholder="學校介紹" data-i18n-placeholder="navAbout">';
@@ -248,7 +290,7 @@ try {
   })()`);
   check(locale.lang === "en" && locale.title.includes("Touhou University"), "English locale did not apply to page chrome.");
   check(locale.service === "What do you need today?", "English home content did not translate.");
-  check(locale.faqContext === "Before you arrive,", "Explicit FAQ translation key lost its contextual English copy.");
+  check(locale.faqContext === messages.en.faqTitle1, "Explicit FAQ translation key lost its contextual English copy.");
   check(locale.clinicContext === "Eientei Hospital", "Explicit clinic translation key resolved to the page-title collision.");
   check(locale.recordsContext === "On-device Records", "Explicit records translation key resolved to the page-title collision.");
 
@@ -437,7 +479,7 @@ try {
       && admissionsApplication.restoredName === "外界人類測試生"
       && admissionsApplication.restoredSchool === "magic"
       && admissionsApplication.hash === "#service-application",
-    "Admissions guide/direct application buttons did not open a persistent Chinese-capable form.",
+    `Admissions guide/direct application buttons did not open a persistent Chinese-capable form (${JSON.stringify(admissionsApplication)}).`,
   );
 
   await navigate("research.html#research-spellcard", "#research");
@@ -1335,9 +1377,9 @@ try {
     return { ja, en, zh };
   })()`);
   check(
-    spellcardLanguages.ja.includes("公平")
-      && spellcardLanguages.en.includes("fairness")
-      && spellcardLanguages.zh.includes("公平"),
+    spellcardLanguages.ja === spellcardCopy.copy.ja.title
+      && spellcardLanguages.en === spellcardCopy.copy.en.title
+      && spellcardLanguages.zh === spellcardCopy.copy["zh-Hant"].title,
     "Spell-card workshop did not rerender its public interface across Japanese, English, and Traditional Chinese.",
   );
 
@@ -1501,9 +1543,9 @@ try {
     return { ja, en, zh };
   })()`);
   check(
-    ethicsLanguages.ja.includes("同意")
-      && ethicsLanguages.en.includes("consent")
-      && ethicsLanguages.zh.includes("同意"),
+    ethicsLanguages.ja === ethicsCopy.copy.ja.title
+      && ethicsLanguages.en === ethicsCopy.copy.en.title
+      && ethicsLanguages.zh === ethicsCopy.copy["zh-Hant"].title,
     "Research ethics board did not rerender across Japanese, English, and Traditional Chinese.",
   );
   const ethicsBack = await cdp.evaluate(`(async () => {
@@ -3191,8 +3233,8 @@ try {
     cabinetActions.download?.download?.startsWith("touhou-university-local-archive-")
       && cabinetActions.download.href.startsWith("blob:")
       && cabinetActions.deletedOne
-      && cabinetActions.ja.includes("この端末")
-      && cabinetActions.en.includes("Which campus papers")
+      && cabinetActions.ja === recordsCopy.copy.ja.title
+      && cabinetActions.en === recordsCopy.copy.en.title
       && cabinetActions.remaining === 0
       && cabinetActions.presentRows === 0,
     `Visible export, individual deletion, trilingual rerender, or clear-all failed (${JSON.stringify(cabinetActions)}).`,

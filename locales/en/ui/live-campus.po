@@ -16,20 +16,18 @@ msgstr "LIVE CAMPUS / OPERATIONS BOARD"
 #. copy/title
 #: src/js/live-campus.js:13
 msgctxt "tree:copy#/title"
-msgid "Today’s campus does not inherit yesterday’s assumptions."
-msgstr "Today’s campus does not inherit yesterday’s assumptions."
+msgid "What's happening today?"
+msgstr "What's happening today?"
 
 #. copy/lead
 #: src/js/live-campus.js:13
 msgctxt "tree:copy#/lead"
 msgid ""
-"Time, moon phase, and duty incidents jointly change menus, classes, free "
-"rooms, flight restrictions, and routes. Conditions rotate every three hours; "
-"votes stay on this device and enter the My TU ledger."
+"Check classes, meals, rooms, and routes for this duty period. Conditions "
+"update every three hours with the moon and campus incidents."
 msgstr ""
-"Time, moon phase, and duty incidents jointly change menus, classes, free "
-"rooms, flight restrictions, and routes. Conditions rotate every three hours; "
-"votes stay on this device and enter the My TU ledger."
+"Check classes, meals, rooms, and routes for this duty period. Conditions "
+"update every three hours with the moon and campus incidents."
 
 #. copy/deviceTime
 #: src/js/live-campus.js:13
@@ -112,20 +110,18 @@ msgstr "CAMPUS SENATE / GOVERNANCE BELL"
 #. copy/governanceTitle
 #: src/js/live-campus.js:13
 msgctxt "tree:copy#/governanceTitle"
-msgid "Rules can operate while characters still object."
-msgstr "Rules can operate while characters still object."
+msgid "Campus proposals"
+msgstr "Campus proposals"
 
 #. copy/governanceLead
 #: src/js/live-campus.js:13
 msgctxt "tree:copy#/governanceLead"
 msgid ""
-"Baseline votes come from schools, facilities, clubs, and airborne "
-"stakeholders. Cast or change one on this device; the count does not pretend "
-"the campus suddenly agrees."
+"Read the options and their consequences, then cast or change your vote. Your "
+"vote is saved in this browser."
 msgstr ""
-"Baseline votes come from schools, facilities, clubs, and airborne "
-"stakeholders. Cast or change one on this device; the count does not pretend "
-"the campus suddenly agrees."
+"Read the options and their consequences, then cast or change your vote. Your "
+"vote is saved in this browser."
 
 #. copy/sponsor
 #: src/js/live-campus.js:13

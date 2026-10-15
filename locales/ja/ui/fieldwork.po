@@ -16,20 +16,16 @@ msgstr "FIELDWORK PASSPORT / 幻想郷域内実習 × フィールド調査"
 #. copy/title
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/title"
-msgid "A map says how to go. A passport remembers why, what you saw, and who disagreed."
-msgstr "地図は行き方を示す。旅券は、なぜ行き、何を見て、誰が異議を唱えたかまで覚える。"
+msgid "Twenty-four places to learn in the field."
+msgstr "二十四の現場で学ぶ。"
 
 #. copy/lead
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/lead"
 msgid ""
-"Twenty-four stations have their own entry rules, supervisors, and "
-"complications. Obtain dispatch, check in, respond when something refuses to "
-"follow the plan, then return with observations, provenance, and a decision "
-"on research use."
-msgstr ""
-"二十四の実習所には、それぞれ異なる入場規則と指導者、厄介事がある。派遣令を受け、現地で点呼し、予定どおりには起きない一件に対処したうえで、観察記録・来歴"
-"・研究利用の判断を持ち帰る。"
+"Choose a station, arrange your placement, and check in. Bring back "
+"observations and sources to complete your passport entry."
+msgstr "実習先を選び、派遣手続を済ませて現地で受付します。観察と出典を持ち帰り、手帳の記録を完成させてください。"
 
 #. copy/stationsTab
 #: src/js/fieldwork.js:47
@@ -94,8 +90,8 @@ msgstr "本日の経路机"
 #. copy/routeNote
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/routeNote"
-msgid "Moon, duty band, and mode change estimates; 'soon' is not a unit of time."
-msgstr "月相・時刻・交通手段で所要時間が変わる。「すぐ」は時間単位ではない。"
+msgid "Travel estimates change with the moon, duty period, and transport mode."
+msgstr "所要時間は月相、当番時間帯、移動手段で変わります。"
 
 #. copy/search
 #: src/js/fieldwork.js:47
@@ -130,8 +126,8 @@ msgstr "この実習所で派遣準備"
 #. copy/mapHint
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/mapHint"
-msgid "Choose a wooden seal; the place may not retain the map's opinion."
-msgstr "木印を選択。現地は地図と同じ意見を保つとは限らない。"
+msgid "Choose a station to read its entry rules and available work."
+msgstr "実習先を選ぶと、受入条件と作業内容を読めます。"
 
 #. copy/supervisor
 #: src/js/fieldwork.js:47
@@ -338,8 +334,8 @@ msgstr "幻想郷域内実習派遣令"
 #. copy/permitLead
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/permitLead"
-msgid "This paper permits work; it does not permit bringing home everything you see."
-msgstr "この紙は仕事を許可するが、見たもの全ての持帰りを許可しない。"
+msgid "Check the permitted work, access limits, and return requirements before leaving."
+msgstr "出発前に、許可された作業、立入範囲、帰還時の提出物を確認してください。"
 
 #. copy/printPermit
 #: src/js/fieldwork.js:47
@@ -410,10 +406,8 @@ msgstr "情報源・版・入手方法"
 #. copy/sourcePlaceholder
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/sourcePlaceholder"
-msgid ""
-"Who said it, which version, which instrument, or how the object expressed "
-"itself; not merely 'field data'."
-msgstr "誰の発言、どの版、どの計器、物がどう表明したか。「現地資料」だけは禁止。"
+msgid "Name the witness, document version, instrument, or object that supplied the information."
+msgstr "証言者、資料の版、観測機器、情報をくれた物の名を記入してください。"
 
 #. copy/evidenceCode
 #: src/js/fieldwork.js:47
@@ -526,8 +520,10 @@ msgstr "幻想郷域内実習・フィールド調査パスポート"
 #. copy/passportLead
 #: src/js/fieldwork.js:47
 msgctxt "tree:copy#/passportLead"
-msgid "A seal proves traceable learning returned; it does not prove every dispute was resolved."
-msgstr "印は追跡可能な学びを持ち帰った証明で、全争議解決の証明ではない。"
+msgid ""
+"Each seal links to the observations and sources you brought back, including "
+"unresolved questions."
+msgstr "各印章から、持ち帰った観察、出典、未解決の問いを確認できます。"
 
 #. copy/noStamps
 #: src/js/fieldwork.js:47

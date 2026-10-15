@@ -16,17 +16,16 @@ msgstr "ACADEMIC WORKBENCH / 課業與答辯"
 #. copy/title
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/title"
-msgid "Answers do not disappear behind Submit."
-msgstr "答案不只消失在提交鍵後面。"
+msgid "Coursework, exams & defence"
+msgstr "課業、考試與答辯"
 
 #. copy/lead
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/lead"
 msgid ""
-"Assignment drafts, exam answers, per-question scoring, explanations, "
-"transcripts, and thesis/spell-card defences stay on this device. Retakes "
-"never erase earlier slips."
-msgstr "作業草稿、考試答案、逐題判分、解析、成績單與論文／符卡答辯都保存在這台裝置。重考與重交不會抹掉較早的回條。"
+"Submit work, review your marks, and prepare a thesis or spell-card defence. "
+"Drafts and past attempts stay in this browser."
+msgstr "提交作業、查看評分，並準備論文或符卡答辯。草稿與歷次作答保存在這個瀏覽器。"
 
 #. copy/mytu
 #: src/js/academic-work.js:36
@@ -236,9 +235,9 @@ msgstr "尚未評分"
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/gradeLead"
 msgid ""
-"Assignments, course exams, and defences use percentages. The overall mark "
-"averages each item’s best result without deleting lower attempts."
-msgstr "作業、課程試驗與答辯各以百分制列出；總評取每一項最佳成績的平均，不會刪除較低嘗試。"
+"Your overall mark is the average of your best result for each item. Earlier "
+"attempts remain available."
+msgstr "總成績以各項最佳成績的平均計算，較早的作答仍可查閱。"
 
 #. copy/overall
 #: src/js/academic-work.js:36
@@ -297,16 +296,16 @@ msgstr "PROJECT DOSSIER / 研究計畫"
 #. copy/proposalTitle
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/proposalTitle"
-msgid "First, make the claim capable of failing."
-msgstr "先把主張寫成會失敗的樣子。"
+msgid "What will your project test?"
+msgstr "你的研究要驗證什麼？"
 
 #. copy/proposalLead
 #: src/js/academic-work.js:36
 msgctxt "tree:copy#/proposalLead"
 msgid ""
-"A simulation defence opens after submission. The committee asks about scope, "
-"reproduction, and stopping."
-msgstr "提交後可立即進入模擬答辯；委員會會追問範圍、重現與停止條件。"
+"Submit a proposal to begin the simulated defence. Examiners ask about scope, "
+"repeatability, and stopping conditions."
+msgstr "提交計畫後可開始模擬答辯。委員會詢問範圍、重現方法與停止條件。"
 
 #. copy/projectType
 #: src/js/academic-work.js:36

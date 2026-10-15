@@ -16,22 +16,18 @@ msgstr "FESTIVAL OPERATIONS / SPRING SPELL-CARD LANTERNS × BOUNDARY MATRICULATI
 #. copy/title
 #: src/js/festival.js:56
 msgctxt "tree:copy#/title"
-msgid "A festival is not one success score. It is a campus running all at once."
-msgstr "A festival is not one success score. It is a campus running all at once."
+msgid "Plan the festival. Keep a way home."
+msgstr "Plan the festival. Keep a way home."
 
 #. copy/lead
 #: src/js/festival.js:56
 msgctxt "tree:copy#/lead"
 msgid ""
-"Plan procession, airspace, stalls, power, main gate, and aid stations; six "
-"desks stamp independently. Once open, Aya's extra, fairy clouds, Moriya "
-"voltage, and poltergeist after-hours sound do not promise to obey the "
-"programme."
+"Set the route, airspace, stalls, power, gate, and aid stations. Six desks "
+"review the plan; after opening, you'll handle whatever the programme missed."
 msgstr ""
-"Plan procession, airspace, stalls, power, main gate, and aid stations; six "
-"desks stamp independently. Once open, Aya's extra, fairy clouds, Moriya "
-"voltage, and poltergeist after-hours sound do not promise to obey the "
-"programme."
+"Set the route, airspace, stalls, power, gate, and aid stations. Six desks "
+"review the plan; after opening, you'll handle whatever the programme missed."
 
 #. copy/deskTab
 #: src/js/festival.js:56
@@ -313,13 +309,11 @@ msgstr "Six desks do not sign for one another"
 #: src/js/festival.js:56
 msgctxt "tree:copy#/desksLead"
 msgid ""
-"Safety, power, medicine, publicity, faith, and shared night life are not "
-"averaged. One return can block opening; objections enter the formal permit "
-"unchanged."
+"Read all six reviews. A revision request can block opening; each desk's "
+"conditions stay on the permit."
 msgstr ""
-"Safety, power, medicine, publicity, faith, and shared night life are not "
-"averaged. One return can block opening; objections enter the formal permit "
-"unchanged."
+"Read all six reviews. A revision request can block opening; each desk's "
+"conditions stay on the permit."
 
 #. copy/conditions
 #: src/js/festival.js:56
@@ -372,12 +366,8 @@ msgstr "Formal event permit"
 #. copy/permitNotice
 #: src/js/festival.js:56
 msgctxt "tree:copy#/permitNotice"
-msgid ""
-"All six desk opinions form the permit. Do not keep only the outcome and omit "
-"exits, medical conditions, or gate objections."
-msgstr ""
-"All six desk opinions form the permit. Do not keep only the outcome and omit "
-"exits, medical conditions, or gate objections."
+msgid "Check the full permit for exit routes, medical conditions, and gate restrictions."
+msgstr "Check the full permit for exit routes, medical conditions, and gate restrictions."
 
 #. copy/status
 #: src/js/festival.js:56
@@ -578,8 +568,8 @@ msgstr "Decisions still disputed"
 #. copy/reportNotice
 #: src/js/festival.js:56
 msgctxt "tree:copy#/reportNotice"
-msgid "Closing releases temporary routes; history does not disappear with the barriers."
-msgstr "Closing releases temporary routes; history does not disappear with the barriers."
+msgid "Closing the festival releases temporary routes. Reports and decisions remain on file."
+msgstr "Closing the festival releases temporary routes. Reports and decisions remain on file."
 
 #. copy/printReport
 #: src/js/festival.js:56

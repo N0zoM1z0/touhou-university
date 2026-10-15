@@ -31,7 +31,7 @@ queue.
 - school introduction, motto, traditions, uniforms and anniversary;
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
-- Traditional Chinese, Japanese and English language switching;
+- English by default, with Japanese and Traditional Chinese language switching;
 - nineteen ordinary generated, shareable pages for the home portal, academics,
   admissions, First Bell arrival, research, research ethics, festival operations, fieldwork, the
   campus commons, academic calendar, graduation/careers/alumni, campus

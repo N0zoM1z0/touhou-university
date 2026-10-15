@@ -1287,29 +1287,19 @@ msgstr "Forty-nine leaves admit seven nuisances; none admit they describe the sa
 #: src/data/campus-history.js:356
 msgctxt "text:campusHistory.five-records-share-one-red-thread.summary"
 msgid ""
-"Akyuu spreads incident files, equipment and evidence, news marginalia, "
-"governance rules, courses and research, BBS, holdings, housing, drift "
-"objects, spell-card defences, and the first-parent chronicle into seven "
-"cross-files. Visitors can invert the index by event, fifteen characters who "
-"left fingerprints, or version and time. Every linked leaf still returns to "
-"its original office; the index does not duplicate a more obedient truth. If "
-"this device really borrowed, voted, simulated, enrolled, or defended work, "
-"the official event ledger adds the keeper's own red thread and direct cause "
-"in the margin. Things never done stay blank. Governance motions also gain "
-"exact addresses, so opening the full-moon library rule no longer returns "
-"every visitor to the first airspace proposal."
+"Akyuu opens seven case files linking incident reports, objects, news, rules, "
+"courses, books, and housing. Readers can follow an event, one of fifteen "
+"people, or a date in the chronicle; each source opens at its own office. "
+"Related borrowing, votes, enrolments, and defences appear beside the case "
+"when recorded in My TU. Governance proposals also receive individual "
+"addresses, so the full-moon library rule finally opens on its own page."
 msgstr ""
-"Akyuu spreads incident files, equipment and evidence, news marginalia, "
-"governance rules, courses and research, BBS, holdings, housing, drift "
-"objects, spell-card defences, and the first-parent chronicle into seven "
-"cross-files. Visitors can invert the index by event, fifteen characters who "
-"left fingerprints, or version and time. Every linked leaf still returns to "
-"its original office; the index does not duplicate a more obedient truth. If "
-"this device really borrowed, voted, simulated, enrolled, or defended work, "
-"the official event ledger adds the keeper's own red thread and direct cause "
-"in the margin. Things never done stay blank. Governance motions also gain "
-"exact addresses, so opening the full-moon library rule no longer returns "
-"every visitor to the first airspace proposal."
+"Akyuu opens seven case files linking incident reports, objects, news, rules, "
+"courses, books, and housing. Readers can follow an event, one of fifteen "
+"people, or a date in the chronicle; each source opens at its own office. "
+"Related borrowing, votes, enrolments, and defences appear beside the case "
+"when recorded in My TU. Governance proposals also receive individual "
+"addresses, so the full-moon library rule finally opens on its own page."
 
 #. campusHistory.five-records-share-one-red-thread.marginalia
 #: src/data/campus-history.js:357
@@ -2213,25 +2203,19 @@ msgstr "Three review desks receive type cases; issued copies leave the entrance"
 #: src/data/campus-history.js:525
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.summary"
 msgid ""
-"The Hieda archive separates three-language notices from admissions, course, "
-"clinic, and chronicle procedures. Each entry retains its source location and "
-"fixed number. Missing translations, lost insertion fields, and unreviewed "
-"red-pencil notes cannot enter the issued copy. Kappa typesetting machinery "
-"prints from each domain’s type case; General Affairs packs pages, styles, "
-"and offline papers into one publication box. Manuscripts, images, and "
-"research notes return to their own shelves. Campus addresses and older "
-"student records remain recognisable, and the next reviewer can finally find "
-"the line that needs attention."
+"The Hieda archive gives each office its own three-language type case. Every "
+"notice keeps a fixed number and source location; missing translations and "
+"unreviewed corrections hold up the press. General Affairs packs the issued "
+"pages, styles, and examination papers together, while manuscripts and "
+"research notes return to their shelves. All twenty campus addresses remain "
+"in use."
 msgstr ""
-"The Hieda archive separates three-language notices from admissions, course, "
-"clinic, and chronicle procedures. Each entry retains its source location and "
-"fixed number. Missing translations, lost insertion fields, and unreviewed "
-"red-pencil notes cannot enter the issued copy. Kappa typesetting machinery "
-"prints from each domain’s type case; General Affairs packs pages, styles, "
-"and offline papers into one publication box. Manuscripts, images, and "
-"research notes return to their own shelves. Campus addresses and older "
-"student records remain recognisable, and the next reviewer can finally find "
-"the line that needs attention."
+"The Hieda archive gives each office its own three-language type case. Every "
+"notice keeps a fixed number and source location; missing translations and "
+"unreviewed corrections hold up the press. General Affairs packs the issued "
+"pages, styles, and examination papers together, while manuscripts and "
+"research notes return to their shelves. All twenty campus addresses remain "
+"in use."
 
 #. text:campusHistory.three-desks-get-separate-type-cases.marginalia
 #: src/data/campus-history.js:526
@@ -2290,19 +2274,19 @@ msgstr ""
 "will provide an inspection report."
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.era
-#: src/data/campus-history.js:548
+#: src/data/campus-history.js:547
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.era"
 msgid "Replacement-sheet inspection"
 msgstr "Replacement-sheet inspection"
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.title
-#: src/data/campus-history.js:549
+#: src/data/campus-history.js:548
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.title"
 msgid "The inspector must wait for the old sheet to leave"
 msgstr "The inspector must wait for the old sheet to leave"
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.summary
-#: src/data/campus-history.js:550
+#: src/data/campus-history.js:549
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.summary"
 msgid ""
 "The dispatch window opens, but the inspector reaches for a course control on "
@@ -2320,7 +2304,7 @@ msgstr ""
 "the inspection finally waits its turn."
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.marginalia
-#: src/data/campus-history.js:551
+#: src/data/campus-history.js:550
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.marginalia"
 msgid ""
 "Aya calls it a disappearing course. Keine points to the departing sheet. "
@@ -2330,3 +2314,43 @@ msgstr ""
 "Aya calls it a disappearing course. Keine points to the departing sheet. "
 "Marisa offers to hold both editions in place; Akyuu asks which one the "
 "inspector intends to certify."
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.era
+#: src/data/campus-history.js:560
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.era"
+msgid "Gensokyo 142 · Gate notice revision"
+msgstr "Gensokyo 142 · Gate notice revision"
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.title
+#: src/data/campus-history.js:561
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.title"
+msgid "The gate notices lose their prefaces"
+msgstr "The gate notices lose their prefaces"
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.summary
+#: src/data/campus-history.js:562
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.summary"
+msgid ""
+"Admissions places the English notice first, with Japanese and Traditional "
+"Chinese copies beside it. Returning readers keep their chosen edition. The "
+"offices shorten directions, put requirements beside the forms, and give each "
+"field station a specific observation task. Faculty review their comments in "
+"their own voices. Akyuu keeps the old text with the revision date."
+msgstr ""
+"Admissions places the English notice first, with Japanese and Traditional "
+"Chinese copies beside it. Returning readers keep their chosen edition. The "
+"offices shorten directions, put requirements beside the forms, and give each "
+"field station a specific observation task. Faculty review their comments in "
+"their own voices. Akyuu keeps the old text with the revision date."
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.marginalia
+#: src/data/campus-history.js:563
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.marginalia"
+msgid ""
+"Reimu crosses out the opening paragraph and writes, “Which gate?” Nitori "
+"wants to charge by the copy, then discovers that the new notice uses less "
+"paper."
+msgstr ""
+"Reimu crosses out the opening paragraph and writes, “Which gate?” Nitori "
+"wants to charge by the copy, then discovers that the new notice uses less "
+"paper."

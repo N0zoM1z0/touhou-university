@@ -16,17 +16,16 @@ msgstr "RESEARCH ETHICS / 幻想鄉研究倫理審查委員會"
 #. copy/title
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/title"
-msgid "Being able to do it is not consent to do it."
-msgstr "能做到，並不等於已經取得同意。"
+msgid "Research ethics review"
+msgstr "研究倫理審查"
 
 #. copy/lead
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/lead"
 msgid ""
-"Before research begins, present the proposed ability use, data access, stop "
-"rules, and withdrawal process to five independent reviewers. Akyuu binds the "
-"file; she does not average five disagreements into one convenient permit."
-msgstr "研究開始前，把能力、資料、停止規則與撤回方式攤在五席面前。阿求負責裝訂；她沒有把五張不同的意見平均成一張比較方便的許可。"
+"Submit a plan covering ability use, data access, stopping, and withdrawal. "
+"Five reviewers examine it before the research can begin."
+msgstr "提交計畫，說明能力使用、資料存取、停止與退出方法；研究開始前由五位委員審查。"
 
 #. copy/board
 #: src/js/ethics.js:47
@@ -37,10 +36,8 @@ msgstr "五宗示範案件"
 #. copy/boardLead
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/boardLead"
-msgid ""
-"Choose a file and submit your own version of its dispute. The specimens are "
-"not model answers; they are places where the argument has already started."
-msgstr "選一宗案卷，沿用爭點送出自己的版本。示範答案不是標準答案；它們只是已經開始吵架的地方。"
+msgid "Choose a case and work through the questions it raises in your own protocol."
+msgstr "選擇案例，並在自己的計畫中回應它提出的問題。"
 
 #. copy/form
 #: src/js/ethics.js:47
@@ -63,10 +60,8 @@ msgstr "五席獨立審查"
 #. copy/reviewersLead
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/reviewersLead"
-msgid ""
-"Each seat answers only its own question. Blocks, conditions, and minority "
-"opinions survive majorities and averages."
-msgstr "每席只對自己的問題負責。阻擋、條件與少數意見都不會被多數票或平均分抹掉。"
+msgid "Each reviewer covers a different area. Read their findings, conditions, and objections."
+msgstr "各位委員負責不同範疇，請逐一閱讀所見、條件與異議。"
 
 #. copy/openCase
 #: src/js/ethics.js:47
@@ -264,9 +259,9 @@ msgstr "五席預審"
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/previewLead"
 msgid ""
-"This is not a total score. One blocking seat can stop the start; minority "
-"opinions enter the formal file."
-msgstr "這不是總分。最嚴格的一席可以阻擋開始；少數意見也會留在正式案卷。"
+"A blocking finding requires revision before work starts. Other opinions "
+"remain in the decision file."
+msgstr "若有退修意見，須修訂後才能開始；其餘意見也會留在決議卷宗中。"
 
 #. copy/conditions
 #: src/js/ethics.js:47
@@ -452,9 +447,9 @@ msgstr "研究倫理審查決議書"
 #: src/js/ethics.js:47
 msgctxt "tree:copy#/documentNotice"
 msgid ""
-"A majority summary may not replace seat-level conditions. Withdrawal, "
-"amendment, and minority opinions remain part of the file."
-msgstr "本決議不得以多數票摘要取代逐席條件；撤回、修訂與少數意見均屬案卷的一部分。"
+"The decision includes every reviewer's conditions, amendments, withdrawal "
+"terms, and minority opinions."
+msgstr "本決議包括各委員的條件、修訂、退出約定與少數意見。"
 
 #. copy/originalCase
 #: src/js/ethics.js:47

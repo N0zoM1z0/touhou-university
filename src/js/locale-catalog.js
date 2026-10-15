@@ -1,4 +1,8 @@
 // Shared by generated catalogs, browser renderers and the offline Node build.
+export const defaultLocale = "en";
+export const supportedLocales = [defaultLocale, "ja", "zh-Hant"];
+// Existing data adapters consume values as (zh, ja, en). Display order must
+// not change this positional API or relabel their translated fields.
 export const catalogLocales = ["zh-Hant", "ja", "en"];
 
 export function formatCatalogMessage(value, variables = {}) {

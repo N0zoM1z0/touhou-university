@@ -16,20 +16,20 @@ msgstr "UNIFIED EXAMINATION / GENSOKYO UNIFIED EXAM"
 #. copy/title
 #: src/js/gaokao.js:21
 msgctxt "tree:copy#/title"
-msgid "NORMAL to EXTRA: four unified papers whose questions truly change."
-msgstr "NORMAL to EXTRA: four unified papers whose questions truly change."
+msgid "Gensokyo Unified Examination"
+msgstr "Gensokyo Unified Examination"
 
 #. copy/lead
 #: src/js/gaokao.js:21
 msgctxt "tree:copy#/lead"
 msgid ""
-"Humanities and sciences each run at four difficulties. Higher papers combine "
-"notices, versions, lunar phases, route graphs, observations, and conflicting "
-"testimony."
+"Choose humanities or sciences, then a difficulty from NORMAL to EXTRA. Later "
+"papers ask you to compare more sources and follow longer chains of "
+"reasoning."
 msgstr ""
-"Humanities and sciences each run at four difficulties. Higher papers combine "
-"notices, versions, lunar phases, route graphs, observations, and conflicting "
-"testimony."
+"Choose humanities or sciences, then a difficulty from NORMAL to EXTRA. Later "
+"papers ask you to compare more sources and follow longer chains of "
+"reasoning."
 
 #. copy/chooseDifficulty
 #: src/js/gaokao.js:21

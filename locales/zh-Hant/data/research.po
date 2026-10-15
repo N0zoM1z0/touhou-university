@@ -191,10 +191,10 @@ msgstr "問題"
 #: src/data/research.js:27
 msgctxt "tree:researchFiles.moonpath.sections#/0/1"
 msgid ""
-"The forest is not merely a maze. Anxiety amplifies similar bamboo shadows, "
-"hides changing wind, and persuades travellers they are still walking "
+"Anxiety makes bamboo shadows harder to distinguish and changing wind easier "
+"to miss. Travellers may circle a junction while believing they are walking "
 "straight."
-msgstr "竹林不是單純的迷宮。人在焦慮時會放大相似竹影、忽略不同風向，最後相信自己始終走在直線上。"
+msgstr "焦慮會讓竹影更難分辨，也容易錯過風向變化。旅人可能繞著同一個岔口，卻以為自己正直走。"
 
 #. researchFiles.moonpath.sections/1/0
 #: src/data/research.js:27
@@ -307,10 +307,9 @@ msgstr "結論"
 #: src/data/research.js:34
 msgctxt "tree:researchFiles.reports.sections#/3/1"
 msgid ""
-"Fast text is not necessarily least reliable, nor slow text most sincere. "
-"Quality begins by marking what is unknown and leaving an entrance for "
-"correction."
-msgstr "最快的文本不必然最不可靠，最慢的文本也不必然最真誠。報導品質來自清楚標出自己不知道什麼，以及願意留下訂正入口。"
+"Compare each report's evidence and omissions. The useful correction "
+"identifies what changed and what remains unknown."
+msgstr "比對各份報導的證據與遺漏。更正須說明改了什麼，以及哪些仍待確認。"
 
 #. researchFiles.spellcard.title
 #: src/data/research.js:38

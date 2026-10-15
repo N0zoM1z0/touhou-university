@@ -16,22 +16,18 @@ msgstr "GENSOKYO EMPLOYMENT MARKET / FOR THOSE LEAVING WITH PROBLEMS"
 #. copy/title
 #: src/js/employment.js:42
 msgctxt "tree:copy#/title"
-msgid "We do not publish one flattering employment rate. First declare how you counted."
-msgstr "We do not publish one flattering employment rate. First declare how you counted."
+msgid "Find work in Gensokyo."
+msgstr "Find work in Gensokyo."
 
 #. copy/lead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/lead"
 msgid ""
-"Is a half-phantom one graduate, two, or one and a half? Is posthumous Sanzu "
-"duty retention or pre-reincarnation unemployment? If work becomes an "
-"incident first, is it work or incident? Careers preserves denominators, "
-"testimony, and objections while the notice rack continues hiring."
+"Browse twenty-one vacancies, read the conditions, and send an odd résumé. "
+"You can also add your whereabouts to the graduate survey."
 msgstr ""
-"Is a half-phantom one graduate, two, or one and a half? Is posthumous Sanzu "
-"duty retention or pre-reincarnation unemployment? If work becomes an "
-"incident first, is it work or incident? Careers preserves denominators, "
-"testimony, and objections while the notice rack continues hiring."
+"Browse twenty-one vacancies, read the conditions, and send an odd résumé. "
+"You can also add your whereabouts to the graduate survey."
 
 #. copy/jobs
 #: src/js/employment.js:42
@@ -48,14 +44,14 @@ msgstr "odd résumés dispatched"
 #. copy/attestations
 #: src/js/employment.js:42
 msgctxt "tree:copy#/attestations"
-msgid "on-device whereabouts statements"
-msgstr "on-device whereabouts statements"
+msgid "graduate statements"
+msgstr "graduate statements"
 
 #. copy/outcomesNav
 #: src/js/employment.js:42
 msgctxt "tree:copy#/outcomesNav"
-msgid "Whereabouts Echo Roll"
-msgstr "Whereabouts Echo Roll"
+msgid "Graduate whereabouts"
+msgstr "Graduate whereabouts"
 
 #. copy/marketNav
 #: src/js/employment.js:42
@@ -78,20 +74,18 @@ msgstr "COHORT 146 / DENOMINATOR HEARING"
 #. copy/censusTitle
 #: src/js/employment.js:42
 msgctxt "tree:copy#/censusTitle"
-msgid "One graduating cohort produces a different Gensokyo under every counting rule."
-msgstr "One graduating cohort produces a different Gensokyo under every counting rule."
+msgid "Where did the graduates go?"
+msgstr "Where did the graduates go?"
 
 #. copy/censusLead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/censusLead"
 msgid ""
-"The categories may overlap, so their sum intentionally differs from the "
-"denominator. Akyuu keeps overlap, Keine demands a date on each roll, and Aya "
-"already drafted a headline for the largest number."
+"Choose a counting rule and date range. Some graduates appear in several "
+"categories; Aya has already picked the largest number for her headline."
 msgstr ""
-"The categories may overlap, so their sum intentionally differs from the "
-"denominator. Akyuu keeps overlap, Keine demands a date on each roll, and Aya "
-"already drafted a headline for the largest number."
+"Choose a counting rule and date range. Some graduates appear in several "
+"categories; Aya has already picked the largest number for her headline."
 
 #. copy/basis
 #: src/js/employment.js:42
@@ -114,8 +108,8 @@ msgstr "Current denominator"
 #. copy/statements
 #: src/js/employment.js:42
 msgctxt "tree:copy#/statements"
-msgid "Valid whereabouts claims"
-msgstr "Valid whereabouts claims"
+msgid "valid statements"
+msgstr "valid statements"
 
 #. copy/overlap
 #: src/js/employment.js:42
@@ -138,30 +132,30 @@ msgstr "Denominator hearing"
 #. copy/localAdded
 #: src/js/employment.js:42
 msgctxt "tree:copy#/localAdded"
-msgid "Includes this device's statements"
-msgstr "Includes this device's statements"
+msgid "includes your saved statement"
+msgstr "includes your saved statement"
 
 #. copy/attestTitle
 #: src/js/employment.js:42
 msgctxt "tree:copy#/attestTitle"
-msgid "Place your whereabouts in the echo roll"
-msgstr "Place your whereabouts in the echo roll"
+msgid "Add your graduate whereabouts"
+msgstr "Add your graduate whereabouts"
 
 #. copy/attestLead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/attestLead"
 msgid ""
-"This statement stays on this device. It joins the current roll and may be "
-"disputed on BBS by another graduate."
+"Your statement is saved in this browser and added to the current roll. Other "
+"graduates may reply on the BBS."
 msgstr ""
-"This statement stays on this device. It joins the current roll and may be "
-"disputed on BBS by another graduate."
+"Your statement is saved in this browser and added to the current roll. Other "
+"graduates may reply on the BBS."
 
 #. copy/name
 #: src/js/employment.js:42
 msgctxt "tree:copy#/name"
-msgid "Name used by this edition of you"
-msgstr "Name used by this edition of you"
+msgid "Name or known name"
+msgstr "Name or known name"
 
 #. copy/outcome
 #: src/js/employment.js:42
@@ -184,14 +178,14 @@ msgstr "Actual situation / what statistics must not erase"
 #. copy/attestSubmit
 #: src/js/employment.js:42
 msgctxt "tree:copy#/attestSubmit"
-msgid "Leave an on-device statement"
-msgstr "Leave an on-device statement"
+msgid "Save my whereabouts"
+msgstr "Save my whereabouts"
 
 #. copy/attested
 #: src/js/employment.js:42
 msgctxt "tree:copy#/attested"
-msgid "Your whereabouts statement entered the echo roll; the denominator retains appeal rights."
-msgstr "Your whereabouts statement entered the echo roll; the denominator retains appeal rights."
+msgid "Your whereabouts statement is saved."
+msgstr "Your whereabouts statement is saved."
 
 #. copy/marketEyebrow
 #: src/js/employment.js:42
@@ -202,20 +196,18 @@ msgstr "CLASSIFIEDS / MAY SMOKE, MOVE, OR HAVE HIRED YOU"
 #. copy/marketTitle
 #: src/js/employment.js:42
 msgctxt "tree:copy#/marketTitle"
-msgid "Twenty-one notices; none promises the job begins before the incident."
-msgstr "Twenty-one notices; none promises the job begins before the incident."
+msgid "Twenty-one vacancies. Read the small print."
+msgstr "Twenty-one vacancies. Read the small print."
 
 #. copy/marketLead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/marketLead"
 msgid ""
-"Filter by trouble, view of time, and risk seals. Open a post for a shareable "
-"exact link, full strange clauses, a trial task, and an odd résumé that "
-"actually submits."
+"Filter the notices, then open a vacancy for duties, conditions, a trial "
+"task, and an application form."
 msgstr ""
-"Filter by trouble, view of time, and risk seals. Open a post for a shareable "
-"exact link, full strange clauses, a trial task, and an odd résumé that "
-"actually submits."
+"Filter the notices, then open a vacancy for duties, conditions, a trial "
+"task, and an application form."
 
 #. copy/category
 #: src/js/employment.js:42
@@ -290,8 +282,8 @@ msgstr ""
 #. copy/fileEyebrow
 #: src/js/employment.js:42
 msgctxt "tree:copy#/fileEyebrow"
-msgid "FULL RECRUITMENT FILE / NOT A FATE GUARANTEE"
-msgstr "FULL RECRUITMENT FILE / NOT A FATE GUARANTEE"
+msgid "RECRUITMENT FILE"
+msgstr "RECRUITMENT FILE"
 
 #. copy/employer
 #: src/js/employment.js:42
@@ -344,20 +336,18 @@ msgstr "Share this vacancy"
 #. copy/applyTitle
 #: src/js/employment.js:42
 msgctxt "tree:copy#/applyTitle"
-msgid "Dispatch an odd résumé"
-msgstr "Dispatch an odd résumé"
+msgid "Send an odd résumé"
+msgstr "Send an odd résumé"
 
 #. copy/applyLead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/applyLead"
 msgid ""
-"Careers will not beautify abilities or interpret “willing to suffer” as "
-"surrendering boundaries. The employer returns an immediately disputable "
-"first review."
+"Describe your skills and the conditions you can accept. The employer will "
+"issue a first review for you to answer."
 msgstr ""
-"Careers will not beautify abilities or interpret “willing to suffer” as "
-"surrendering boundaries. The employer returns an immediately disputable "
-"first review."
+"Describe your skills and the conditions you can accept. The employer will "
+"issue a first review for you to answer."
 
 #. copy/degree
 #: src/js/employment.js:42
@@ -446,8 +436,8 @@ msgstr "Odd résumé draft is stored only on this device"
 #. copy/submitted
 #: src/js/employment.js:42
 msgctxt "tree:copy#/submitted"
-msgid "Odd résumé dispatched; the employer's first-edition reply has arrived."
-msgstr "Odd résumé dispatched; the employer's first-edition reply has arrived."
+msgid "Résumé sent. The employer's first review is ready."
+msgstr "Résumé sent. The employer's first review is ready."
 
 #. copy/formError
 #: src/js/employment.js:42
@@ -469,19 +459,17 @@ msgstr "How will you answer this reply?"
 #: src/js/employment.js:42
 msgctxt "tree:copy#/responseLead"
 msgid ""
-"Accepting a trial is not accepting every clause; requesting correction is "
-"not rejection. Adjacent-timeline hires especially require this page's "
-"applicant to answer again."
+"Accept the trial, request a correction, negotiate, or decline. Your reply is "
+"saved with the employer's review."
 msgstr ""
-"Accepting a trial is not accepting every clause; requesting correction is "
-"not rejection. Adjacent-timeline hires especially require this page's "
-"applicant to answer again."
+"Accept the trial, request a correction, negotiate, or decline. Your reply is "
+"saved with the employer's review."
 
 #. copy/responseNote
 #: src/js/employment.js:42
 msgctxt "tree:copy#/responseNote"
-msgid "Note for edition two"
-msgstr "Note for edition two"
+msgid "Your reply note"
+msgstr "Your reply note"
 
 #. copy/responses/trial
 #: src/js/employment.js:42
@@ -510,14 +498,14 @@ msgstr "Hold for moon / date"
 #. copy/responses/decline
 #: src/js/employment.js:42
 msgctxt "tree:copy#/responses/decline"
-msgid "I reject this edition"
-msgstr "I reject this edition"
+msgid "Decline the offer"
+msgstr "Decline the offer"
 
 #. copy/responded
 #: src/js/employment.js:42
 msgctxt "tree:copy#/responded"
-msgid "Edition-two reply saved. Tengu Post and BBS will each misunderstand it once."
-msgstr "Edition-two reply saved. Tengu Post and BBS will each misunderstand it once."
+msgid "Reply saved. Check Tengu Post and the BBS for follow-up."
+msgstr "Reply saved. Check Tengu Post and the BBS for follow-up."
 
 #. copy/recordsEyebrow
 #: src/js/employment.js:42
@@ -528,18 +516,18 @@ msgstr "MY APPLICATIONS / THIS DEVICE ONLY"
 #. copy/recordsTitle
 #: src/js/employment.js:42
 msgctxt "tree:copy#/recordsTitle"
-msgid "Applications, first reviews, and your replies survive closing the card."
-msgstr "Applications, first reviews, and your replies survive closing the card."
+msgid "My applications & replies"
+msgstr "My applications & replies"
 
 #. copy/recordsLead
 #: src/js/employment.js:42
 msgctxt "tree:copy#/recordsLead"
 msgid ""
-"Each record retains the vacancy, employer review, and your edition-two "
-"response; export them together from the on-device cabinet."
+"Vacancies, employer reviews, and your replies are saved together. Export "
+"them from the records cabinet."
 msgstr ""
-"Each record retains the vacancy, employer review, and your edition-two "
-"response; export them together from the on-device cabinet."
+"Vacancies, employer reviews, and your replies are saved together. Export "
+"them from the records cabinet."
 
 #. copy/noRecords
 #: src/js/employment.js:42
@@ -562,8 +550,8 @@ msgstr "Sent"
 #. copy/status
 #: src/js/employment.js:42
 msgctxt "tree:copy#/status"
-msgid "Current edition"
-msgstr "Current edition"
+msgid "Application status"
+msgstr "Application status"
 
 #. copy/reviewed
 #: src/js/employment.js:42

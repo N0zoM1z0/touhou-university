@@ -572,8 +572,8 @@ msgstr "結界継目、賽銭箱周辺、「先ほどまであった」標識を
 #. fieldworkStations.0.0.premise
 #: src/data/fieldwork.js:248
 msgctxt "text:fieldworkStations.0.0.premise"
-msgid "Record how the boundary is used instead of calling every movement a failure."
-msgstr "境界の利用を記録し、移動を全て故障と呼ばない。"
+msgid "Track where the boundary moves and how people use the crossing."
+msgstr "境界の動きと、人が通り道をどう使うかを記録する。"
 
 #. fieldworkStations.0.0.access
 #: src/data/fieldwork.js:249
@@ -676,8 +676,8 @@ msgstr "口述史・寺子屋点呼・告知訂正を整理し、「皆知って
 #. fieldworkStations.1.0.premise
 #: src/data/fieldwork.js:267
 msgctxt "text:fieldworkStations.1.0.premise"
-msgid "One event may have village, teacher, youkai, and later-chronicle versions."
-msgstr "同じ出来事に住民・教師・妖怪・後世編年の別版がある。"
+msgid "Compare how villagers, teachers, and youkai remember the same event."
+msgstr "同じ出来事を、里の住民、教師、妖怪がどう覚えているか比べる。"
 
 #. fieldworkStations.1.0.access
 #: src/data/fieldwork.js:268
@@ -782,8 +782,8 @@ msgstr "同一事件の版鎖、欠頁説明、統合不能な矛盾索引を作
 #. fieldworkStations.2.0.premise
 #: src/data/fieldwork.js:286
 msgctxt "text:fieldworkStations.2.0.premise"
-msgid "Preserving what each version says matters more than choosing a convenient yesterday."
-msgstr "便利な昨日を選ぶより、各版が何を語るか残す。"
+msgid "Date each account and keep its disagreements with earlier versions."
+msgstr "記述ごとに日付を付け、以前の版との食い違いを残す。"
 
 #. fieldworkStations.2.0.access
 #: src/data/fieldwork.js:287
@@ -888,8 +888,8 @@ msgstr "名称・用途を同定し実操作を試験、両者の不一致を残
 #. fieldworkStations.3.0.premise
 #: src/data/fieldwork.js:305
 msgctxt "text:fieldworkStations.3.0.premise"
-msgid "Knowing purpose does not reveal operation—or willingness."
-msgstr "用途が分かっても、操作法や意思まで分かるわけではない。"
+msgid "Compare an object's stated purpose, actual operation, and willingness to cooperate."
+msgstr "品物の用途、実際の動き、協力する意思を別々に確かめる。"
 
 #. fieldworkStations.3.0.access
 #: src/data/fieldwork.js:306
@@ -992,8 +992,8 @@ msgstr "霧・氷面・湖灯・妖精活動を測り、区画改名回数も記
 #. fieldworkStations.4.0.premise
 #: src/data/fieldwork.js:324
 msgctxt "text:fieldworkStations.4.0.premise"
-msgid "Fairies are not background noise; they often co-author the conditions."
-msgstr "妖精は背景雑音ではなく、実験条件の共同著者である。"
+msgid "Record the fairies' changes to your test site as part of the experiment."
+msgstr "妖精が現場に加えた変化も、実験条件に記録する。"
 
 #. fieldworkStations.4.0.access
 #: src/data/fieldwork.js:325
@@ -1098,8 +1098,8 @@ msgstr "停止時間内の搬送順・蔵書移動・夜勤業務を復元し、
 #. fieldworkStations.5.0.premise
 #: src/data/fieldwork.js:343
 msgctxt "text:fieldworkStations.5.0.premise"
-msgid "Everything is punctual; therefore timestamps alone may not prove sequence."
-msgstr "館内は全て定刻。だからこそ時刻印だけでは順序を証明できない。"
+msgid "Reconstruct the sequence using duty logs and witnesses alongside the mansion clocks."
+msgstr "館の時計に加え、当番記録と証言から作業の順序を調べる。"
 
 #. fieldworkStations.5.0.access
 #: src/data/fieldwork.js:344
@@ -1208,8 +1208,8 @@ msgstr "魔茸・魔力堆積・採集失敗を記録し、「近所で拾った
 #. fieldworkStations.6.0.premise
 #: src/data/fieldwork.js:362
 msgctxt "text:fieldworkStations.6.0.premise"
-msgid "Reproducible magic starts with provenance; Marisa's definition requires an annex."
-msgstr "再現可能魔法は素材来歴から。魔理沙の「来歴」定義は別注。"
+msgid "Log where each material came from. Ask Marisa to be more specific than “the forest”."
+msgstr "素材の採取場所を記録する。魔理沙には「森」の続きも聞くこと。"
 
 #. fieldworkStations.6.0.access
 #: src/data/fieldwork.js:363
@@ -1318,8 +1318,8 @@ msgstr "操糸・半自律協働・修繕工程を観察し、命令・習慣・
 #. fieldworkStations.7.0.premise
 #: src/data/fieldwork.js:381
 msgctxt "text:fieldworkStations.7.0.premise"
-msgid "A completed job does not prove who performed each step."
-msgstr "完成品から誰がどの工程をしたか逆算できるとは限らない。"
+msgid "Follow each step from the operator's instruction to the doll's response."
+msgstr "操作者の指示から人形の動きまで、工程ごとに追う。"
 
 #. fieldworkStations.7.0.access
 #: src/data/fieldwork.js:382
@@ -1420,8 +1420,8 @@ msgstr "花期・踏圧・花粉・観察者撹乱を測り、「触れていな
 #. fieldworkStations.8.0.premise
 #: src/data/fieldwork.js:400
 msgctxt "text:fieldworkStations.8.0.premise"
-msgid "Silence is not non-disturbance; shadows, scent, and frightened walking remain."
-msgstr "黙っても撹乱ゼロではない。影・匂い・怯えた歩き方も残る。"
+msgid "Check how your shadow, scent, and movement affect the flowers."
+msgstr "自分の影、匂い、動きが花に与える影響を調べる。"
 
 #. fieldworkStations.8.0.access
 #: src/data/fieldwork.js:401
@@ -1524,8 +1524,8 @@ msgstr "曝露・症状・環境条件を記録し、毒の存在・量・害を
 #. fieldworkStations.9.0.premise
 #: src/data/fieldwork.js:419
 msgctxt "text:fieldworkStations.9.0.premise"
-msgid "Plants are not medicine bottles, and Medicine is not their instruction leaflet."
-msgstr "植物は薬瓶でなく、メディスンも植物の説明書ではない。"
+msgid "Observe the plants on their own terms. Ask Medicine before handling anything."
+msgstr "植物の状態を直接観察する。触れる前にメディスンへ確認すること。"
 
 #. fieldworkStations.9.0.access
 #: src/data/fieldwork.js:420
@@ -1628,10 +1628,8 @@ msgstr "夜間音景・食材来歴・経路互助を記録し、迷い・滞留
 #. fieldworkStations.10.0.premise
 #: src/data/fieldwork.js:438
 msgctxt "text:fieldworkStations.10.0.premise"
-msgid ""
-"Kitchen, performance, and road share one stall lamp and cannot be treated as "
-"independent."
-msgstr "食堂・演奏・道路が同じ屋台灯で動き、相互影響を無視できない。"
+msgid "Track how supper, singing, and passing travellers affect one another."
+msgstr "食事、歌、通行人が互いにどう影響するか調べる。"
 
 #. fieldworkStations.10.0.access
 #: src/data/fieldwork.js:439
@@ -1736,8 +1734,8 @@ msgstr "速報・巡回・空域告知を追い、予測・観察・噂・訂正
 #. fieldworkStations.11.0.premise
 #: src/data/fieldwork.js:457
 msgctxt "text:fieldworkStations.11.0.premise"
-msgid "Speed is a research subject, not an exemption from verification."
-msgstr "速度は研究対象であり、照合免除の理由ではない。"
+msgid "Measure the time between an event, the first report, and its correction."
+msgstr "出来事、第一報、訂正の間にどれだけ時間があるか測る。"
 
 #. fieldworkStations.11.0.access
 #: src/data/fieldwork.js:458
@@ -1842,10 +1840,8 @@ msgstr "低落差水車・テープ補修・厄流迂回を測り、保守前後
 #. fieldworkStations.12.0.premise
 #: src/data/fieldwork.js:476
 msgctxt "text:fieldworkStations.12.0.premise"
-msgid ""
-"Running does not mean diagram-compliant, and a correct diagram may not be "
-"the one the machine reads today."
-msgstr "動作しても図面通りとは限らず、正しい図面を設備が今日読むとも限らない。"
+msgid "Compare the running machine with today's drawing and repair log."
+msgstr "稼働中の設備を、今日の図面と修理記録に照らして確かめる。"
 
 #. fieldworkStations.12.0.access
 #: src/data/fieldwork.js:477
@@ -1950,8 +1946,8 @@ msgstr "風・水・電気・信仰が公共設備へ入る経路を追い、所
 #. fieldworkStations.13.0.premise
 #: src/data/fieldwork.js:495
 msgctxt "text:fieldworkStations.13.0.premise"
-msgid "Numbers are not faith; they are Kanako's annex for noticing neglect."
-msgstr "数字は信仰ではないが、神奈子が放置を見つける附件になる。"
+msgid "Follow water, power, and maintenance costs through Kanako's infrastructure plans."
+msgstr "神奈子の設備計画から、水、電力、保守費用の流れを追う。"
 
 #. fieldworkStations.13.0.access
 #: src/data/fieldwork.js:496
@@ -2054,8 +2050,8 @@ msgstr "池水・降雨・参拝動線を観測し、神聖・危険・観察便
 #. fieldworkStations.14.0.premise
 #: src/data/fieldwork.js:514
 msgctxt "text:fieldworkStations.14.0.premise"
-msgid "Measurement does not cancel respect, and respect does not replace a water reading."
-msgstr "測量は敬意を消さず、敬意も水位読値の代わりにならない。"
+msgid "Agree on an observation spot, then record the pond's water level and worship routes."
+msgstr "観察場所を確認してから、池の水位と参拝の経路を記録する。"
 
 #. fieldworkStations.14.0.access
 #: src/data/fieldwork.js:515
@@ -2158,10 +2154,8 @@ msgstr "人・妖怪・寺の共有空間・奉仕・拒否を調停し、和解
 #. fieldworkStations.15.0.premise
 #: src/data/fieldwork.js:533
 msgctxt "text:fieldworkStations.15.0.premise"
-msgid ""
-"Welcome does not surrender a temple to convenience; compassion must still "
-"identify responsibility."
-msgstr "歓迎は寺を来客都合へ渡すことではなく、慈悲も責任を指せる必要がある。"
+msgid "Record what visitors request, what the temple can offer, and who takes responsibility."
+msgstr "来訪者の希望、寺が引き受けられること、その担当を記録する。"
 
 #. fieldworkStations.15.0.access
 #: src/data/fieldwork.js:534
@@ -2264,8 +2258,8 @@ msgstr "同時聴取・欲分類・公共演説を観察し、聞いた欲と人
 #. fieldworkStations.16.0.premise
 #: src/data/fieldwork.js:552
 msgctxt "text:fieldworkStations.16.0.premise"
-msgid "Hearing a desire accurately does not guarantee understanding its holder."
-msgstr "欲を正確に聞いても、その人を正確に理解したとは限らない。"
+msgid "Ask speakers to check how their wishes were summarised."
+msgstr "発言者本人に、願いの要約が合っているか確認する。"
 
 #. fieldworkStations.16.0.access
 #: src/data/fieldwork.js:553
@@ -2368,8 +2362,8 @@ msgstr "診療・薬局・回復当番で、種族・用量・停止規則・実
 #. fieldworkStations.17.0.premise
 #: src/data/fieldwork.js:571
 msgctxt "text:fieldworkStations.17.0.premise"
-msgid "Treatability is not research permission, and sample size does not repair a wrong dose."
-msgstr "治療可能でも研究可能とは限らず、大標本も誤用量を正しくしない。"
+msgid "Check dose and consent for each patient before using clinical records in research."
+msgstr "診療記録を研究に用いる前に、患者ごとの用量と同意を確認する。"
 
 #. fieldworkStations.17.0.access
 #: src/data/fieldwork.js:572
@@ -2476,8 +2470,10 @@ msgstr "月相・標識・足音・パニックの方向差を比較し、到着
 #. fieldworkStations.18.0.premise
 #: src/data/fieldwork.js:590
 msgctxt "text:fieldworkStations.18.0.premise"
-msgid "An immortal's return does not prove route safety, and lantern four may not be fourth."
-msgstr "不死者が戻れることは経路安全を意味せず、第四灯が第四とは限らない。"
+msgid ""
+"Test the route with travellers who can get lost. Check the fourth lantern's "
+"position each time."
+msgstr "迷う可能性のある旅人と経路を確かめる。第四の灯りの位置も毎回確認する。"
 
 #. fieldworkStations.18.0.access
 #: src/data/fieldwork.js:591
@@ -2584,8 +2580,8 @@ msgstr "桜・幽霊通行・庭園管理・半霊観察単位を記録し、生
 #. fieldworkStations.19.0.premise
 #: src/data/fieldwork.js:609
 msgctxt "text:fieldworkStations.19.0.premise"
-msgid "Person, half-human, half-phantom, and lunch serving are not naturally equal units."
-msgstr "一人・半人・半霊・一食分は自然に同じ統計単位ではない。"
+msgid "Choose a counting unit before recording people, half-phantoms, or lunch portions."
+msgstr "人、半霊、昼食の数を記録する前に、数える単位を決める。"
 
 #. fieldworkStations.19.0.access
 #: src/data/fieldwork.js:610
@@ -2692,8 +2688,8 @@ msgstr "距離変化・運賃・待列・未完聞取を記録し、着岸と完
 #. fieldworkStations.20.0.premise
 #: src/data/fieldwork.js:628
 msgctxt "text:fieldworkStations.20.0.premise"
-msgid "A shorter river does not automatically shorten responsibility or unfinished words."
-msgstr "川が短くなっても、責任と未完の言葉は自動では短くならない。"
+msgid "Keep a record of interrupted interviews when the river shortens."
+msgstr "川が短くなって聞き取りが途切れたら、その経緯も記録する。"
 
 #. fieldworkStations.20.0.access
 #: src/data/fieldwork.js:629
@@ -2796,8 +2792,8 @@ msgstr "宴会・勝負・街路損傷・共同修復を記録し、勝者・責
 #. fieldworkStations.21.0.premise
 #: src/data/fieldwork.js:647
 msgctxt "text:fieldworkStations.21.0.premise"
-msgid "Losing honestly does not waive repair, and strength cannot consent for others."
-msgstr "正直に負けても修理は免除されず、強さは他人の同意を代行しない。"
+msgid "Agree on participation and repairs before the contest starts."
+msgstr "勝負の前に、参加の同意と修理の分担を取り決める。"
 
 #. fieldworkStations.21.0.access
 #: src/data/fieldwork.js:648
@@ -2902,8 +2898,8 @@ msgstr "聞取・読心境界・動物ケア・未記録情報を扱い、思考
 #. fieldworkStations.22.0.premise
 #: src/data/fieldwork.js:666
 msgctxt "text:fieldworkStations.22.0.premise"
-msgid "Privacy is not pretending thoughts do not exist; it is deciding what they become."
-msgstr "プライバシーは思考がないふりでなく、現れた後に何へなるか決めること。"
+msgid "Ask separately about reading, analysing, recording, and publishing someone's thoughts."
+msgstr "思考を読む、分析する、記録する、公表する。それぞれについて本人に確認する。"
 
 #. fieldworkStations.22.0.access
 #: src/data/fieldwork.js:667
@@ -3012,8 +3008,8 @@ msgstr "核熱・冷却・当番・退避資料を読み、高出力・安定・
 #. fieldworkStations.23.0.premise
 #: src/data/fieldwork.js:685
 msgctxt "text:fieldworkStations.23.0.premise"
-msgid "Brightness is not calibration, and stable running is not agreement over interpretation."
-msgstr "明るさは校正でなく、安定動作も解釈権の同意ではない。"
+msgid "Check the instrument calibration, cooling logs, and who can order a shutdown."
+msgstr "計器の校正、冷却記録、停止を判断する担当者を確認する。"
 
 #. fieldworkStations.23.0.access
 #: src/data/fieldwork.js:686

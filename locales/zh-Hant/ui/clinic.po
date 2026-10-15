@@ -16,17 +16,16 @@ msgstr "EIENTEI UNIVERSITY HOSPITAL / 校醫療網"
 #. copy/title
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/title"
-msgid "First say what is wrong. The route and medicine may argue later."
-msgstr "先把哪裡不對說清楚。路和藥，可以之後再吵。"
+msgid "Tell us what's wrong."
+msgstr "哪裡不舒服？"
 
 #. copy/lead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/lead"
 msgid ""
-"The main infirmary handles everyday injuries; Eientei takes cross-species, "
-"lunar, boundary, and magical-material cases. Triage, consultations, "
-"prescriptions, dispensing, and recovery stay on this device."
-msgstr "本部醫務室處理日常傷勢；永遠亭承接跨種族、月相、境界與魔法材料暴露。分診、診察、處方、領藥與康復進度只保存在這台裝置。"
+"The main infirmary treats everyday injuries. Eientei handles cross-species "
+"care and cases involving lunar phases, boundaries, or magical materials."
+msgstr "日常傷勢由本部醫務室處理；跨種族診療，以及月相、境界或魔法材料相關症例，由永遠亭承接。"
 
 #. copy/open
 #: src/js/clinic.js:39
@@ -115,10 +114,8 @@ msgstr "兩處院區，一張會被帝換位置的轉診單。"
 #. copy/careNetworkLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/careNetworkLead"
-msgid ""
-"Not every scrape requires crossing the Bamboo Forest. Writing “fine” does "
-"not guarantee the infirmary will keep the case."
-msgstr "不是每次擦傷都要穿過迷途竹林；也不是寫了「沒事」就能留在本部。"
+msgid "Check which clinic handles your symptoms and how to get there."
+msgstr "查看適合症狀的診療窗口與前往路線。"
 
 #. copy/hours
 #: src/js/clinic.js:39
@@ -153,10 +150,8 @@ msgstr "此刻候診板"
 #. copy/waitingLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/waitingLead"
-msgid ""
-"Duty tokens only. Times shift with lunar phase, live incidents, and "
-"rabbit-shuttle conditions."
-msgstr "病友資料由當值號碼牌顯示；時間會隨月相、當值事件與兔車路況變動。"
+msgid "Queue times change with the moon, campus incidents, and rabbit-shuttle service."
+msgstr "候診時間會隨月相、校園事件與兔車班次變動。"
 
 #. copy/token
 #: src/js/clinic.js:39
@@ -198,9 +193,9 @@ msgstr "本機分診台"
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/triageLead"
 msgid ""
-"Save and return later. Check-in never requires a My TU identity; an existing "
-"identity adds the record to campus history."
-msgstr "可先保存再回來；掛號不要求 My TU 身分，已有身分時則會編入校園履歷。"
+"You can save and return later. A My TU identity is optional; if you have "
+"one, this visit joins your campus record."
+msgstr "可先儲存，稍後繼續。已有My TU身分時，本次診療會加入校園紀錄；沒有身分也可就診。"
 
 #. copy/complaint
 #: src/js/clinic.js:39
@@ -211,8 +206,8 @@ msgstr "目前符合哪些情況？"
 #. copy/complaintHint
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/complaintHint"
-msgid "Choose at least one; multiple selections are welcome."
-msgstr "至少選一項；可以同時選擇多項。"
+msgid "Choose one or more symptoms."
+msgstr "選擇一項或多項症狀。"
 
 #. copy/intensity
 #: src/js/clinic.js:39
@@ -445,16 +440,16 @@ msgstr "LUNAR PHARMACY / 月藥與校園藥櫃"
 #. copy/pharmacyTitle
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/pharmacyTitle"
-msgid "The bag may use bells, corners, or daylight. Do not add the units yourself."
-msgstr "藥袋上的單位可能是校鐘、轉角或日照。不要擅自相加。"
+msgid "Pharmacy & prescriptions"
+msgstr "藥局與處方"
 
 #. copy/pharmacyLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/pharmacyLead"
 msgid ""
-"Search twelve Gensokyo medicines and aids, including provenance, directions, "
-"and cautions usually written on the reverse."
-msgstr "搜尋十二種幻想鄉藥品與醫材，查看來源、用法與那些通常被寫在背面的注意事項。"
+"Browse twelve medicines and aids, with sources, directions, and cautions. "
+"Follow the units written on your prescription."
+msgstr "查看十二種藥品與輔具的來源、用法及注意事項，並依處方所列單位使用。"
 
 #. copy/searchMedicine
 #: src/js/clinic.js:39
@@ -605,16 +600,16 @@ msgstr "RECOVERY CORRIDOR / 康復走廊"
 #. copy/recoveryTitle
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/recoveryTitle"
-msgid "Recovery is not dragging a progress bar to the right."
-msgstr "康復不是把進度條拖到右邊。"
+msgid "Your recovery plan"
+msgstr "你的康復計畫"
 
 #. copy/recoveryLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/recoveryLead"
 msgid ""
-"Every therapy has four independently confirmable steps. Leave halfway and "
-"the original box will still be waiting."
-msgstr "每套療法都有四個能單獨確認的步驟；做到一半可以離開，回來後仍從原來那一格繼續。"
+"Each therapy has four steps. Confirm them as you finish; you can return to "
+"an unfinished plan later."
+msgstr "每項療法有四個步驟，完成後逐項確認；未完成的計畫可稍後繼續。"
 
 #. copy/prescribedTherapies
 #: src/js/clinic.js:39
@@ -685,16 +680,16 @@ msgstr "MY MEDICAL FILE / 本機診療袋"
 #. copy/accountTitle
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/accountTitle"
-msgid "Queue tokens may be hidden. Clinical slips are not."
-msgstr "號碼牌會被藏起來，診療回條不會。"
+msgid "My clinic records"
+msgstr "我的診療紀錄"
 
 #. copy/accountLead
 #: src/js/clinic.js:39
 msgctxt "tree:copy#/accountLead"
 msgid ""
-"Check-ins, consultations, prescriptions, each dose, and recovery steps "
-"remain chronological. Retriage does not erase earlier versions."
-msgstr "掛號、診察、處方、每次記錄與康復步驟依時間保存。較早的版本不因重新分診而消失。"
+"Visits, prescriptions, doses, and recovery steps are saved here in date "
+"order, including earlier triage results."
+msgstr "受診、處方、服藥與康復步驟依日期保存，較早的分診結果也可查閱。"
 
 #. copy/visits
 #: src/js/clinic.js:39

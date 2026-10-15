@@ -159,11 +159,11 @@ msgstr "Housing needs application"
 #: src/js/housing.js:32
 msgctxt "tree:copy#/applicationLead"
 msgid ""
-"This is not a personality test. It finds combinations that can sleep, get "
-"home, and are less likely to hold a full-moon meeting over one chair."
+"Tell us about access, sleep, water, wingspan, and anyone sharing your room. "
+"The committee uses these needs to suggest rooms."
 msgstr ""
-"This is not a personality test. It finds combinations that can sleep, get "
-"home, and are less likely to hold a full-moon meeting over one chair."
+"Tell us about access, sleep, water, wingspan, and anyone sharing your room. "
+"The committee uses these needs to suggest rooms."
 
 #. copy/identityNeeded
 #: src/js/housing.js:32
@@ -353,13 +353,11 @@ msgstr "Three committee proposals"
 #: src/js/housing.js:32
 msgctxt "tree:copy#/matchingLead"
 msgid ""
-"A score is not a promise of friendship. It measures overlap between "
-"facilities, habits, and your needs; friction remains visible for your "
-"judgment."
+"Compare each room's facilities and habits with your needs. Read the listed "
+"conflicts before accepting an offer."
 msgstr ""
-"A score is not a promise of friendship. It measures overlap between "
-"facilities, habits, and your needs; friction remains visible for your "
-"judgment."
+"Compare each room's facilities and habits with your needs. Read the listed "
+"conflicts before accepting an offer."
 
 #. copy/score
 #: src/js/housing.js:32
@@ -502,14 +500,8 @@ msgstr "Roommate agreement"
 #. copy/agreementLead
 #: src/js/housing.js:32
 msgctxt "tree:copy#/agreementLead"
-msgid ""
-"The committee generated four rules from both sets of needs. Checking means "
-"you read them on this device; it does not mean your roommate promised not to "
-"steal breakfast."
-msgstr ""
-"The committee generated four rules from both sets of needs. Checking means "
-"you read them on this device; it does not mean your roommate promised not to "
-"steal breakfast."
+msgid "Read the four rules drawn from both occupants' needs, then confirm each one."
+msgstr "Read the four rules drawn from both occupants' needs, then confirm each one."
 
 #. copy/agreementCheck
 #: src/js/housing.js:32
@@ -533,11 +525,11 @@ msgstr "Room-transfer request"
 #: src/js/housing.js:32
 msgctxt "tree:copy#/roomChangeLead"
 msgid ""
-"Describe what is actually happening. The committee keeps your current room "
-"and attaches a viable alternative; your bed does not suddenly disappear."
+"Explain the problem to request an alternative. Your current room remains "
+"assigned while the committee reviews it."
 msgstr ""
-"Describe what is actually happening. The committee keeps your current room "
-"and attaches a viable alternative; your bed does not suddenly disappear."
+"Explain the problem to request an alternative. Your current room remains "
+"assigned while the committee reviews it."
 
 #. copy/reason
 #: src/js/housing.js:32

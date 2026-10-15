@@ -16,17 +16,17 @@ msgstr "UNIFIED EXAMINATION / 幻想鄉統一學力試驗"
 #. copy/title
 #: src/js/gaokao.js:21
 msgctxt "tree:copy#/title"
-msgid "NORMAL to EXTRA: four unified papers whose questions truly change."
-msgstr "從 NORMAL 到 EXTRA：四份真的會改變題目的統一試卷。"
+msgid "Gensokyo Unified Examination"
+msgstr "幻想鄉統一學力試驗"
 
 #. copy/lead
 #: src/js/gaokao.js:21
 msgctxt "tree:copy#/lead"
 msgid ""
-"Humanities and sciences each run at four difficulties. Higher papers combine "
-"notices, versions, lunar phases, route graphs, observations, and conflicting "
-"testimony."
-msgstr "文科與理科各有四個難度。共同科包含語文、結界算術與幻想鄉常識；高難度卷會把公告版本、月相、路網、觀測表與證詞一起交給你。"
+"Choose humanities or sciences, then a difficulty from NORMAL to EXTRA. Later "
+"papers ask you to compare more sources and follow longer chains of "
+"reasoning."
+msgstr "選擇文科或理科，再從NORMAL至EXTRA挑選難度。較高難度需要比對更多資料，完成更長的推理。"
 
 #. copy/chooseDifficulty
 #: src/js/gaokao.js:21

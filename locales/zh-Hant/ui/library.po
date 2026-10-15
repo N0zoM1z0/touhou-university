@@ -16,8 +16,8 @@ msgstr "MISTY LAKE LIBRARY / 霧湖圖書館"
 #. copy/title
 #: src/js/library.js:19
 msgctxt "tree:copy#/title"
-msgid "Books need not be quiet. Their circulation records do."
-msgstr "書不一定安靜，但借閱紀錄必須說得清楚。"
+msgid "Find your next book."
+msgstr "找下一本想讀的書。"
 
 #. copy/lead
 #: src/js/library.js:19
@@ -505,10 +505,8 @@ msgstr "返回圖書館"
 #. copy/lunarNotice
 #: src/js/library.js:19
 msgctxt "tree:copy#/lunarNotice"
-msgid ""
-"Full-moon states are updated by staff that night. A torch does not count as "
-"a lunar phase."
-msgstr "滿月書況由館員在當夜更新；手電筒不算月相。"
+msgid "Staff update full-moon availability on the night. Check the catalogue before visiting."
+msgstr "滿月開放狀態由館員當晚更新，來館前請查看目錄。"
 
 #. copy/holdPosition
 #: src/js/library.js:19

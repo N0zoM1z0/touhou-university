@@ -16,17 +16,14 @@ msgstr "GRADUATION × CAREERS × HYAKKI YAGYO ALUMNI"
 #. copy/title
 #: src/js/careers.js:55
 msgctxt "tree:copy#/title"
-msgid "A degree does not solve every problem. It proves you learned to carry one home intact."
-msgstr "学位は問題を解決しない。問題を完全なまま持ち帰る方法を学んだ証明である。"
+msgid "Graduation & next steps"
+msgstr "卒業と、その先へ"
 
 #. copy/lead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/lead"
-msgid ""
-"Eight desks separately inspect credits, methods, defence, ethics, fieldwork, "
-"books, housing, and disputes. Careers does not promise normal work; Alumni "
-"welcomes questions that outlive graduation."
-msgstr "八席が単位、方法、答弁、倫理、現地、蔵書、退寮、争議を別々に確認。進路室は正常な職場を保証せず、同窓会は卒業後も問いを持つ者を歓迎します。"
+msgid "Check eight graduation requirements, explore career paths, and find an alumni chapter."
+msgstr "八項目の卒業判定を確認し、進路や同窓会の活動を探せます。"
 
 #. copy/graduation
 #: src/js/careers.js:55
@@ -97,10 +94,8 @@ msgstr "八席卒業判定会議"
 #. copy/auditLead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/auditLead"
-msgid ""
-"Each desk signs only its own field. Conditions and disputes print unchanged "
-"in the degree file."
-msgstr "各席は自分の欄だけ署名。条件と争議は学位資料へそのまま印刷。"
+msgid "Each desk records its decision and any conditions in your degree file."
+msgstr "各窓口の判定と条件を、学位の記録にまとめます。"
 
 #. copy/school
 #: src/js/careers.js:55
@@ -431,16 +426,16 @@ msgstr "戻る"
 #. copy/careersTitle
 #: src/js/careers.js:55
 msgctxt "tree:copy#/careersTitle"
-msgid "Careers Office: which trouble is worth taking to work?"
-msgstr "進路室：どの面倒を職場へ持っていく？"
+msgid "Where would you like to work?"
+msgstr "どんな仕事をしたいですか？"
 
 #. copy/careersLead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/careersLead"
 msgid ""
-"Twelve destinations state real work, compensation, duty bell, friction, and "
-"boundaries. Matching explains rather than pretending everything fits."
-msgstr "十二の進路に実務、報酬、勤務鐘、摩擦、越えない境界があります。理由を説明し、適合を装いません。"
+"Compare twelve career paths by duties, pay, hours, and conditions. Open a "
+"match to see why it was suggested."
+msgstr "十二の進路を、仕事内容、報酬、勤務時間、条件で比べます。候補を開くと推薦理由を確認できます。"
 
 #. copy/domains
 #: src/js/careers.js:55
@@ -631,10 +626,8 @@ msgstr "百鬼夜行同窓会"
 #. copy/alumniLead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/alumniLead"
-msgid ""
-"Cohorts are not divided by species, lifespan, or death. Chapters follow "
-"questions members still ask."
-msgstr "種族・寿命・生死で期を分けず、卒業後も共に問う問題で支部を分けます。"
+msgid "Join a chapter working on a question you want to keep pursuing."
+msgstr "卒業後も取り組みたい問いから、同窓会の分会を選べます。"
 
 #. copy/tonight
 #: src/js/careers.js:55

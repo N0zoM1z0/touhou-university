@@ -16,23 +16,20 @@ msgstr "GRADUATION × CAREERS × HYAKKI YAGYO ALUMNI"
 #. copy/title
 #: src/js/careers.js:55
 msgctxt "tree:copy#/title"
-msgid "A degree does not solve every problem. It proves you learned to carry one home intact."
-msgstr "學位不會替你解決所有問題；它只證明你已學會把問題完整帶走。"
+msgid "Graduation & next steps"
+msgstr "畢業，然後呢？"
 
 #. copy/lead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/lead"
-msgid ""
-"Eight desks separately inspect credits, methods, defence, ethics, fieldwork, "
-"books, housing, and disputes. Careers does not promise normal work; Alumni "
-"welcomes questions that outlive graduation."
-msgstr "八個案頭逐一核對學分、方法、答辯、倫理、田野、館藏、退宿與爭議；進路室不承諾工作正常，校友會則歡迎畢業後仍有問題的人。"
+msgid "Check eight graduation requirements, explore career paths, and find an alumni chapter."
+msgstr "查看八項畢業審查，探索工作方向與校友會活動。"
 
 #. copy/graduation
 #: src/js/careers.js:55
 msgctxt "tree:copy#/graduation"
 msgid "Graduation audit"
-msgstr "卒業判定"
+msgstr "畢業判定"
 
 #. copy/careers
 #: src/js/careers.js:55
@@ -92,15 +89,13 @@ msgstr "已開封"
 #: src/js/careers.js:55
 msgctxt "tree:copy#/auditTitle"
 msgid "Eight-desk Graduation Board"
-msgstr "八席卒業判定會議"
+msgstr "八席畢業判定會議"
 
 #. copy/auditLead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/auditLead"
-msgid ""
-"Each desk signs only its own field. Conditions and disputes print unchanged "
-"in the degree file."
-msgstr "每席只簽自己看得懂的部分；附帶條件與爭議會原樣印到學位檔案。"
+msgid "Each desk records its decision and any conditions in your degree file."
+msgstr "各窗口的判定與條件，都會記入學位卷宗。"
 
 #. copy/school
 #: src/js/careers.js:55
@@ -431,16 +426,16 @@ msgstr "返回"
 #. copy/careersTitle
 #: src/js/careers.js:55
 msgctxt "tree:copy#/careersTitle"
-msgid "Careers Office: which trouble is worth taking to work?"
-msgstr "進路室：哪一份麻煩值得帶去上班？"
+msgid "Where would you like to work?"
+msgstr "想做什麼工作？"
 
 #. copy/careersLead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/careersLead"
 msgid ""
-"Twelve destinations state real work, compensation, duty bell, friction, and "
-"boundaries. Matching explains rather than pretending everything fits."
-msgstr "十二個去向都有具體工作、報酬、出勤校鐘、摩擦與不能跨過的界線。媒合會解釋理由，不替你假裝一切適合。"
+"Compare twelve career paths by duties, pay, hours, and conditions. Open a "
+"match to see why it was suggested."
+msgstr "依工作內容、報酬、時段與條件，比較十二種進路。打開配對結果可查看推薦理由。"
 
 #. copy/domains
 #: src/js/careers.js:55
@@ -631,10 +626,8 @@ msgstr "百鬼夜行校友會"
 #. copy/alumniLead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/alumniLead"
-msgid ""
-"Cohorts are not divided by species, lifespan, or death. Chapters follow "
-"questions members still ask."
-msgstr "校友會不按物種、壽命或死亡狀態分屆；按還願意共同追問的問題分支部。"
+msgid "Join a chapter working on a question you want to keep pursuing."
+msgstr "依畢業後還想繼續研究的問題，選擇校友會分會。"
 
 #. copy/tonight
 #: src/js/careers.js:55

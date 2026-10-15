@@ -1,4 +1,5 @@
 import { text as catalogText } from "../generated/i18n/ui/festival-model.js";
+import { defaultLocale } from "./locale-catalog.js";
 import {
   festivalAidPlan,
   festivalFairyZone,
@@ -98,7 +99,7 @@ function firstAprilFullMoon(now = new Date()) {
   return new Date(year, 3, 8, 18, 0, 0, 0);
 }
 
-export function defaultFestivalDraft(now = new Date()) {
+export function defaultFestivalDraft(now = new Date(), locale = defaultLocale) {
   return {
     schema: 1,
     kindId: "spring-lantern",
@@ -120,16 +121,16 @@ export function defaultFestivalDraft(now = new Date()) {
     rainPlan: true,
     debrisCrew: true,
     independentCounter: true,
-    stopRule: "三次木鐘、紅白燈同亮，所有符卡立即停止，最近的值班者先開退路再問理由。",
-    rainRule: "雨線越過朱繩或能見度低於兩座燈籠時，熄滅低空光路並轉入屋簷節目。",
-    accessibilityNote: "地面保留無閃光路線；大型翼展由山側分流，精神感知者可領取低刺激節目表。",
+    stopRule: catalogText("defaultFestivalDraft.stopRule")[locale],
+    rainRule: catalogText("defaultFestivalDraft.rainRule")[locale],
+    accessibilityNote: catalogText("defaultFestivalDraft.accessibilityNote")[locale],
     organiserNote: "",
     updatedAt: now.toISOString(),
   };
 }
 
-export function normalizeFestivalDraft(value = {}, now = new Date()) {
-  const fallback = defaultFestivalDraft(now);
+export function normalizeFestivalDraft(value = {}, now = new Date(), locale = defaultLocale) {
+  const fallback = defaultFestivalDraft(now, locale);
   return {
     schema: 1,
     kindId: known(value.kindId, festivalKinds, fallback.kindId),
@@ -159,8 +160,9 @@ export function normalizeFestivalDraft(value = {}, now = new Date()) {
   };
 }
 
-export function festivalDraft() {
-  return normalizeFestivalDraft(readJson(DRAFT_KEY, defaultFestivalDraft()));
+export function festivalDraft(locale = defaultLocale) {
+  const now = new Date();
+  return normalizeFestivalDraft(readJson(DRAFT_KEY, defaultFestivalDraft(now, locale)), now, locale);
 }
 
 export function saveFestivalDraft(value, now = new Date()) {
@@ -170,8 +172,8 @@ export function saveFestivalDraft(value, now = new Date()) {
   return draft;
 }
 
-export function resetFestivalDraft(now = new Date()) {
-  const draft = defaultFestivalDraft(now);
+export function resetFestivalDraft(now = new Date(), locale = defaultLocale) {
+  const draft = defaultFestivalDraft(now, locale);
   writeJson(DRAFT_KEY, draft);
   emit("draft-reset");
   return draft;

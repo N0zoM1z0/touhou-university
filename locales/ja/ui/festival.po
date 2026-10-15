@@ -16,18 +16,16 @@ msgstr "FESTIVAL OPERATIONS / 春季スペルカード灯会 × 境界開学祭"
 #. copy/title
 #: src/js/festival.js:56
 msgctxt "tree:copy#/title"
-msgid "A festival is not one success score. It is a campus running all at once."
-msgstr "祭典は、一つの成功点で測るものではない。一晩じゅう、すべてが同時に動くキャンパスだ。"
+msgid "Plan the festival. Keep a way home."
+msgstr "祭りを開こう。帰り道も残そう。"
 
 #. copy/lead
 #: src/js/festival.js:56
 msgctxt "tree:copy#/lead"
 msgid ""
-"Plan procession, airspace, stalls, power, main gate, and aid stations; six "
-"desks stamp independently. Once open, Aya's extra, fairy clouds, Moriya "
-"voltage, and poltergeist after-hours sound do not promise to obey the "
-"programme."
-msgstr "行列、空域、屋台、給電、正門、救護所を組み、六つの机がそれぞれ押印する。開祭後、文の号外も、妖精の雲も、守矢の電気も、騒霊の深夜演奏も、予定表どおりに動くとは限らない。"
+"Set the route, airspace, stalls, power, gate, and aid stations. Six desks "
+"review the plan; after opening, you'll handle whatever the programme missed."
+msgstr "経路、空域、屋台、電力、門、救護所を決め、六つの窓口で審査を受けます。開幕後は、進行表にない出来事にも対応してください。"
 
 #. copy/deskTab
 #: src/js/festival.js:56
@@ -309,10 +307,9 @@ msgstr "六机は相互代署しない"
 #: src/js/festival.js:56
 msgctxt "tree:copy#/desksLead"
 msgid ""
-"Safety, power, medicine, publicity, faith, and shared night life are not "
-"averaged. One return can block opening; objections enter the formal permit "
-"unchanged."
-msgstr "安全、給電、医療、広報、信仰、共同夜生活を平均しない。一つの差戻しで開祭を止め、異議は許可本文に残る。"
+"Read all six reviews. A revision request can block opening; each desk's "
+"conditions stay on the permit."
+msgstr "六つの審査結果を確認してください。差し戻しがあれば開幕できず、各窓口の条件は許可証に残ります。"
 
 #. copy/conditions
 #: src/js/festival.js:56
@@ -365,10 +362,8 @@ msgstr "正式行事許可"
 #. copy/permitNotice
 #: src/js/festival.js:56
 msgctxt "tree:copy#/permitNotice"
-msgid ""
-"All six desk opinions form the permit. Do not keep only the outcome and omit "
-"exits, medical conditions, or gate objections."
-msgstr "六机意見は全て許可本文。結論だけ残して退路・救護・正門異議を省略しない。"
+msgid "Check the full permit for exit routes, medical conditions, and gate restrictions."
+msgstr "退路、医療条件、門の制限まで、許可証全体を確認してください。"
 
 #. copy/status
 #: src/js/festival.js:56
@@ -567,8 +562,8 @@ msgstr "異議付き決定"
 #. copy/reportNotice
 #: src/js/festival.js:56
 msgctxt "tree:copy#/reportNotice"
-msgid "Closing releases temporary routes; history does not disappear with the barriers."
-msgstr "閉祭で臨時規制は解放。柵を外しても出来事は消えない。"
+msgid "Closing the festival releases temporary routes. Reports and decisions remain on file."
+msgstr "閉会すると臨時経路を解除します。報告と判断の記録は残ります。"
 
 #. copy/printReport
 #: src/js/festival.js:56

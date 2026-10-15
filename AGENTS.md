@@ -32,8 +32,9 @@ in the same change; never choose the nicer-looking number.
   “not official setting”, or similar immersion-breaking editorial language.
   Keep the short fan-work notice in the header and the full notice in the
   footer; keep source distinctions inside `docs/research/`.
-- Every public feature ships in Traditional Chinese (`zh-Hant`), Japanese
-  (`ja`) and English (`en`) in the same change.
+- Every public feature ships in English (`en`), Japanese (`ja`) and Traditional
+  Chinese (`zh-Hant`) in the same change. English is the default; preserve saved
+  language choices. Keep public copy concise, natural and useful to visitors.
 - This is a static GitHub Pages site. User records remain on the visitor's
   device; do not add analytics, trackers, remote JavaScript, real-data
   collection or a backend without explicit permission.

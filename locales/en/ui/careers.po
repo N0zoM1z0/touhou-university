@@ -16,20 +16,14 @@ msgstr "GRADUATION × CAREERS × HYAKKI YAGYO ALUMNI"
 #. copy/title
 #: src/js/careers.js:55
 msgctxt "tree:copy#/title"
-msgid "A degree does not solve every problem. It proves you learned to carry one home intact."
-msgstr "A degree does not solve every problem. It proves you learned to carry one home intact."
+msgid "Graduation & next steps"
+msgstr "Graduation & next steps"
 
 #. copy/lead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/lead"
-msgid ""
-"Eight desks separately inspect credits, methods, defence, ethics, fieldwork, "
-"books, housing, and disputes. Careers does not promise normal work; Alumni "
-"welcomes questions that outlive graduation."
-msgstr ""
-"Eight desks separately inspect credits, methods, defence, ethics, fieldwork, "
-"books, housing, and disputes. Careers does not promise normal work; Alumni "
-"welcomes questions that outlive graduation."
+msgid "Check eight graduation requirements, explore career paths, and find an alumni chapter."
+msgstr "Check eight graduation requirements, explore career paths, and find an alumni chapter."
 
 #. copy/graduation
 #: src/js/careers.js:55
@@ -100,12 +94,8 @@ msgstr "Eight-desk Graduation Board"
 #. copy/auditLead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/auditLead"
-msgid ""
-"Each desk signs only its own field. Conditions and disputes print unchanged "
-"in the degree file."
-msgstr ""
-"Each desk signs only its own field. Conditions and disputes print unchanged "
-"in the degree file."
+msgid "Each desk records its decision and any conditions in your degree file."
+msgstr "Each desk records its decision and any conditions in your degree file."
 
 #. copy/school
 #: src/js/careers.js:55
@@ -438,18 +428,18 @@ msgstr "Back"
 #. copy/careersTitle
 #: src/js/careers.js:55
 msgctxt "tree:copy#/careersTitle"
-msgid "Careers Office: which trouble is worth taking to work?"
-msgstr "Careers Office: which trouble is worth taking to work?"
+msgid "Where would you like to work?"
+msgstr "Where would you like to work?"
 
 #. copy/careersLead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/careersLead"
 msgid ""
-"Twelve destinations state real work, compensation, duty bell, friction, and "
-"boundaries. Matching explains rather than pretending everything fits."
+"Compare twelve career paths by duties, pay, hours, and conditions. Open a "
+"match to see why it was suggested."
 msgstr ""
-"Twelve destinations state real work, compensation, duty bell, friction, and "
-"boundaries. Matching explains rather than pretending everything fits."
+"Compare twelve career paths by duties, pay, hours, and conditions. Open a "
+"match to see why it was suggested."
 
 #. copy/domains
 #: src/js/careers.js:55
@@ -640,12 +630,8 @@ msgstr "Hyakki Yagyo Alumni Association"
 #. copy/alumniLead
 #: src/js/careers.js:55
 msgctxt "tree:copy#/alumniLead"
-msgid ""
-"Cohorts are not divided by species, lifespan, or death. Chapters follow "
-"questions members still ask."
-msgstr ""
-"Cohorts are not divided by species, lifespan, or death. Chapters follow "
-"questions members still ask."
+msgid "Join a chapter working on a question you want to keep pursuing."
+msgstr "Join a chapter working on a question you want to keep pursuing."
 
 #. copy/tonight
 #: src/js/careers.js:55

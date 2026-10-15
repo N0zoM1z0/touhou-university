@@ -35,7 +35,7 @@ msgstr "學分不打折，只把『下學期再說』的上限延長到三十九
 #: src/data/careers.js:19
 msgctxt "text:graduationTracks.fairy-repeat.title"
 msgid "Fairy repeat-graduation record"
-msgstr "妖精反覆卒業籍"
+msgstr "妖精反覆畢業籍"
 
 #. graduationTracks.fairy-repeat.note
 #: src/data/careers.js:20

@@ -109,7 +109,7 @@ msgstr "付喪神聽證、鴉天狗通知狀態、寄件卷與紅書籤曆葉。
 #: src/data/local-records.js:67
 msgctxt "text:localRecordGroups.careers.title"
 msgid "Graduation, careers & alumni"
-msgstr "卒業、進路與校友"
+msgstr "畢業、進路與校友"
 
 #. localRecordGroups.careers.note
 #: src/data/local-records.js:68
@@ -487,7 +487,7 @@ msgstr "學年曆紅書籤"
 #: src/data/local-records.js:157
 msgctxt "text:localRecordRegistry.52.tu-graduation-audits.2"
 msgid "Eight-desk graduation audits"
-msgstr "八席卒業判定卷"
+msgstr "八席畢業判定卷"
 
 #. localRecordRegistry.53.tu-graduation-degrees.2
 #: src/data/local-records.js:158

@@ -568,7 +568,7 @@ function bindEvents() {
       return;
     }
     if (event.target.closest("[data-festival-reset]")) {
-      currentDraft = resetFestivalDraft();
+      currentDraft = resetFestivalDraft(undefined, getLocale());
       preview = assessFestivalPlan(currentDraft, locale);
       render();
       return;
@@ -726,7 +726,7 @@ function initialView() {
 export function initFestival() {
   root = document.querySelector("[data-festival-app]");
   if (!root) return;
-  currentDraft = festivalDraft();
+  currentDraft = festivalDraft(getLocale());
   initialView();
   render({ preserveWindow: false });
   bindEvents();
@@ -738,7 +738,7 @@ export function initFestival() {
       view = "desk";
       selectedPlanId = null;
       selectedOperationId = null;
-      currentDraft = festivalDraft();
+      currentDraft = festivalDraft(getLocale());
       preview = assessFestivalPlan(currentDraft, getLocale());
       render({ preserveWindow: false });
     },

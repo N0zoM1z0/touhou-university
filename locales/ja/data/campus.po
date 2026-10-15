@@ -150,9 +150,9 @@ msgstr "紙・製本・噛みつく本の角"
 #: src/data/campus.js:50
 msgctxt "text:clubs.grimoire.description"
 msgid ""
-"Repairs grimoires damaged by damp, burns, and self-rewriting page numbers. A "
-"new member's first lesson is not magic, but knowing when to close the book."
-msgstr "湿気、焦げ、自動改頁に傷んだ魔導書を修復。新入生の初回は魔法ではなく、本を閉じるべき時を学びます。"
+"Repairs grimoires damaged by damp, burns, and self-rewriting page numbers. "
+"New members first learn when to close the book."
+msgstr "湿気、焦げ、自分で書き換わる頁番号を修復します。新入部員は、まず本を閉じるタイミングを習います。"
 
 #. clubs.grimoire.meeting
 #: src/data/campus.js:51
@@ -215,9 +215,9 @@ msgstr "直線に頼らない方向感覚"
 #: src/data/campus.js:68
 msgctxt "text:clubs.bamboo.description"
 msgid ""
-"Practises safe return when roads, memory, and moonlight are unreliable. It "
-"is not a race; the route is complete only when the whole team returns."
-msgstr "道、記憶、月光が頼れない時の安全な帰還を練習。競走ではなく、全員で戻って初めて完了です。"
+"Practises returning safely when roads, memory, and moonlight become "
+"unreliable. Every outing ends with a full headcount."
+msgstr "道、記憶、月明かりが頼れないときの帰り方を練習します。全員の点呼を終えるまでが活動です。"
 
 #. clubs.bamboo.meeting
 #: src/data/campus.js:69

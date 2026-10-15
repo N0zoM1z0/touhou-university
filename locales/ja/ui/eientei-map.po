@@ -124,17 +124,16 @@ msgstr "EIENTEI FOCUS MAP / 永遠亭・迷いの竹林"
 #. copy/title
 #: src/js/eientei-map.js:27
 msgctxt "tree:copy#/title"
-msgid "The road exists every day. Its location may not."
-msgstr "道は毎日ある。位置は毎日同じとは限らない。"
+msgid "Finding Eientei"
+msgstr "永遠亭への道"
 
 #. copy/lead
 #: src/js/eientei-map.js:27
 msgctxt "tree:copy#/lead"
 msgid ""
-"This detail map follows your device date, time, and lunar phase. Bamboo "
-"forks rotate daily; rabbit lamps appear at night; full-moon clinic traffic "
-"diverts through the pharmacy."
-msgstr "端末の日付・時刻・月相で変化する詳細図。竹林分岐は日替わり、夜は兎灯、満月は調剤室経由の診療動線になります。"
+"Bamboo paths rotate daily. Check today's map and moon phase; at night, "
+"follow the rabbit lamps. Full-moon clinic traffic goes via the pharmacy."
+msgstr "竹林の分岐は日ごとに変わります。今日の地図と月相を確認し、夜は兎の灯りをたどってください。満月の診療経路は薬局を通ります。"
 
 #. copy/back
 #: src/js/eientei-map.js:27

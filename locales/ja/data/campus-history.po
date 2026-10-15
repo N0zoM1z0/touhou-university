@@ -1103,22 +1103,15 @@ msgstr "七つの厄介事を四十九枚の紙が同時に認めるが、同じ
 #: src/data/campus-history.js:356
 msgctxt "text:campusHistory.five-records-share-one-red-thread.summary"
 msgid ""
-"Akyuu spreads incident files, equipment and evidence, news marginalia, "
-"governance rules, courses and research, BBS, holdings, housing, drift "
-"objects, spell-card defences, and the first-parent chronicle into seven "
-"cross-files. Visitors can invert the index by event, fifteen characters who "
-"left fingerprints, or version and time. Every linked leaf still returns to "
-"its original office; the index does not duplicate a more obedient truth. If "
-"this device really borrowed, voted, simulated, enrolled, or defended work, "
-"the official event ledger adds the keeper's own red thread and direct cause "
-"in the margin. Things never done stay blank. Governance motions also gain "
-"exact addresses, so opening the full-moon library rule no longer returns "
-"every visitor to the first airspace proposal."
+"Akyuu opens seven case files linking incident reports, objects, news, rules, "
+"courses, books, and housing. Readers can follow an event, one of fifteen "
+"people, or a date in the chronicle; each source opens at its own office. "
+"Related borrowing, votes, enrolments, and defences appear beside the case "
+"when recorded in My TU. Governance proposals also receive individual "
+"addresses, so the full-moon library rule finally opens on its own page."
 msgstr ""
-"阿求は事案ファイル、設備・物証、報道側記、学務規程、授業研究、BBS、蔵書、学生寮、漂流物、スペル答弁、主分岐大学史を七つの交差案件へ広げた。訪問者は事"
-"案、手印を残す十五名、または first-parent の版／時間から逆引きできる。各関連紙は元の窓口へ戻り、索引に従順な真実の複製を作らない。この端末"
-"で実際に借用、投票、模擬、履修、答弁を行っていれば、正式イベント台帳が本人の赤糸と直接前因を欄外へ補う。未実施の出来事は空白のまま。学務議案にも正確な住"
-"所が付き、満月図書館規程を開いて毎回最初の空域議案へ送られることはなくなった。"
+"阿求は異変、物品、報道、規程、授業、蔵書、寮を結ぶ七つの案件をまとめた。出来事、十五名の人物、大学史の日付から調べ、出典ごとに担当窓口へ戻れる。My "
+"TUに残した貸出、投票、履修、口頭審査の履歴も案件の横に並ぶ。議案にも個別の住所が付き、満月の図書館規程をようやく直接開けるようになった。"
 
 #. campusHistory.five-records-share-one-red-thread.marginalia
 #: src/data/campus-history.js:357
@@ -1842,19 +1835,15 @@ msgstr "三つの校閲机に活字箱が届き、玄関から配布本が片付
 #: src/data/campus-history.js:525
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.summary"
 msgid ""
-"The Hieda archive separates three-language notices from admissions, course, "
-"clinic, and chronicle procedures. Each entry retains its source location and "
-"fixed number. Missing translations, lost insertion fields, and unreviewed "
-"red-pencil notes cannot enter the issued copy. Kappa typesetting machinery "
-"prints from each domain’s type case; General Affairs packs pages, styles, "
-"and offline papers into one publication box. Manuscripts, images, and "
-"research notes return to their own shelves. Campus addresses and older "
-"student records remain recognisable, and the next reviewer can finally find "
-"the line that needs attention."
+"The Hieda archive gives each office its own three-language type case. Every "
+"notice keeps a fixed number and source location; missing translations and "
+"unreviewed corrections hold up the press. General Affairs packs the issued "
+"pages, styles, and examination papers together, while manuscripts and "
+"research notes return to their shelves. All twenty campus addresses remain "
+"in use."
 msgstr ""
-"稗田資料室は入学・科目・診療・大学史の規程に挟まれた三言語の告示を別冊へ収めた。各条には原巻の場所と固定番号が残り、訳の欠落、差込欄の脱落、未確認の赤字"
-"は配布版へ入れない。河童の植字機が領域ごとの活字箱から刷り、総務は頁面・様式・オフライン試験紙を一つの発行箱へ収める。原稿・図像・研究ノートは元の棚へ戻"
-"った。校門の札も学生の古い記録も識別され続け、次の校閲者は直すべき一行を先に見つけられる。"
+"稗田資料室が各窓口に三言語の活字箱を渡した。通知には固定番号と出典を付け、訳抜けや未確認の訂正があれば印刷を止める。総務は刊行頁、体裁、試験用紙を一箱に"
+"収め、原稿と研究ノートはそれぞれの棚へ戻した。二十の構内住所は引き続き使える。"
 
 #. text:campusHistory.three-desks-get-separate-type-cases.marginalia
 #: src/data/campus-history.js:526
@@ -1904,19 +1893,19 @@ msgid ""
 msgstr "文はもう「全窓開放」と書いていた。阿求は発送印を預かったまま。魔理沙が壁越しに見ればよいと言うと、にとりは「その壁は検収報告を出すのかい」と聞いた。"
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.era
-#: src/data/campus-history.js:548
+#: src/data/campus-history.js:547
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.era"
 msgid "Replacement-sheet inspection"
 msgstr "差し替え用紙の検収期"
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.title
-#: src/data/campus-history.js:549
+#: src/data/campus-history.js:548
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.title"
 msgid "The inspector must wait for the old sheet to leave"
 msgstr "検査係は古い紙が退くまで待つ"
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.summary
-#: src/data/campus-history.js:550
+#: src/data/campus-history.js:549
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.summary"
 msgid ""
 "The dispatch window opens, but the inspector reaches for a course control on "
@@ -1931,10 +1920,44 @@ msgstr ""
 "ようやく自分の順番を待つことになった。"
 
 #. text:campusHistory.inspector-waits-for-the-new-sheet.marginalia
-#: src/data/campus-history.js:551
+#: src/data/campus-history.js:550
 msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.marginalia"
 msgid ""
 "Aya calls it a disappearing course. Keine points to the departing sheet. "
 "Marisa offers to hold both editions in place; Akyuu asks which one the "
 "inspector intends to certify."
 msgstr "文は「科目が消失」と書いた。慧音は退けられる古い紙を指さす。魔理沙は両方を留めておこうと言い、阿求はどちらの版に検収印を押すつもりなのかと尋ねた。"
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.era
+#: src/data/campus-history.js:560
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.era"
+msgid "Gensokyo 142 · Gate notice revision"
+msgstr "幻想郷142年・門前案内の改訂"
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.title
+#: src/data/campus-history.js:561
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.title"
+msgid "The gate notices lose their prefaces"
+msgstr "門前の案内から前置きが減る"
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.summary
+#: src/data/campus-history.js:562
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.summary"
+msgid ""
+"Admissions places the English notice first, with Japanese and Traditional "
+"Chinese copies beside it. Returning readers keep their chosen edition. The "
+"offices shorten directions, put requirements beside the forms, and give each "
+"field station a specific observation task. Faculty review their comments in "
+"their own voices. Akyuu keeps the old text with the revision date."
+msgstr ""
+"入試窓口が英語の案内を先頭に置き、日本語と繁体字中国語の版を隣に並べた。再訪者は選んだ版を引き続き読める。各窓口は案内を短くし、必要条件を記入欄のそばへ"
+"移した。実習先には具体的な観察課題が付き、教員も自分の言葉で評語を書き直した。旧文と改訂日は阿求が保管している。"
+
+#. text:campusHistory.gate-notices-lose-their-prefaces.marginalia
+#: src/data/campus-history.js:563
+msgctxt "text:campusHistory.gate-notices-lose-their-prefaces.marginalia"
+msgid ""
+"Reimu crosses out the opening paragraph and writes, “Which gate?” Nitori "
+"wants to charge by the copy, then discovers that the new notice uses less "
+"paper."
+msgstr "霊夢は冒頭の段落を消し、「どの門？」と書いた。にとりは一枚ごとの印刷代を請求しようとして、新しい案内のほうが紙を使わないことに気付いた。"

@@ -16,19 +16,16 @@ msgstr "CAMPUS COMMONS / 付喪神物権 × 鴉天狗郵便"
 #. copy/title
 #: src/js/commons.js:50
 msgctxt "tree:copy#/title"
-msgid ""
-"A thing may have an opinion after being lost; a notice may be another "
-"version after delivery."
-msgstr "物が失われた後には意見があり、通知が届いた後には別の版かもしれない。"
+msgid "Lost Property & Tengu Post"
+msgstr "遺失物窓口・天狗郵便"
 
 #. copy/lead
 #: src/js/commons.js:50
 msgctxt "tree:copy#/lead"
 msgid ""
-"At Property, receipts, wear, provenance, and the object testify separately. "
-"At Post, every letter retains source, trust, version, order, and correction. "
-"The two offices mail one another."
-msgstr "物権所では領収書・摩耗・来歴・物件本人が別席で陳述。郵便では資料源、信頼度、版、配達順、訂正を保存し、両方の記録が互いに手紙を送ります。"
+"File a claim, hear what the object has to say, or check your post. Keep an "
+"eye on the date: some letters arrive ahead of their applications."
+msgstr "届け出を出す、物の言い分を聞く、郵便を確認する。手紙が出願より先に届くこともあるので、日付もご確認ください。"
 
 #. copy/propertyTab
 #: src/js/commons.js:50
@@ -52,9 +49,9 @@ msgstr "付喪神遺失物取扱・物権仲裁所"
 #: src/js/commons.js:50
 msgctxt "tree:copy#/propertyLead"
 msgid ""
-"Lost things may deny being lost and former holders may appeal; nobody may "
-"reduce an object's testimony to “a bit old”."
-msgstr "遺失物は紛失を否認でき、旧持主も不服申立できます。ただし物件の陳述を「少し古い」に縮められません。"
+"Choose an item and describe your claim. Receipts, wear, previous holders, "
+"and the object's own account all enter the hearing."
+msgstr "品物を選び、申立てを記入してください。領収書、摩耗、以前の持ち主、品物自身の証言を審理します。"
 
 #. copy/items
 #: src/js/commons.js:50
@@ -239,8 +236,8 @@ msgstr "四席が別々に意見を残す"
 #. copy/hearingLead
 #: src/js/commons.js:50
 msgctxt "tree:copy#/hearingLead"
-msgid "There is no average score. Every question and objection enters the ruling."
-msgstr "平均点はありません。四席の問いと異議がそのまま裁定へ入ります。"
+msgid "Read each of the four opinions before accepting the ruling."
+msgstr "裁定を受け入れる前に、四名それぞれの意見を確認してください。"
 
 #. copy/chooseRuling
 #: src/js/commons.js:50
@@ -302,9 +299,9 @@ msgstr "鴉天狗学内郵便・通知センター"
 #: src/js/commons.js:50
 msgctxt "tree:copy#/postLead"
 msgid ""
-"An offer may precede an application and cancellation may follow the make-up. "
-"At least keep source, version, and correction from vanishing together."
-msgstr "合格通知は願書より早く、取消状は追試より遅く届くことがあります。資料源・版・訂正まで失わないでください。"
+"Read the source, date, and corrections on each letter. Delivery order can be "
+"unreliable here."
+msgstr "手紙ごとの差出元、日付、訂正を確認してください。配達順が前後することがあります。"
 
 #. copy/inbox
 #: src/js/commons.js:50
