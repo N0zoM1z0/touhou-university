@@ -1,0 +1,738 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. newsItems.first-bell-arrival.category
+#: src/data/community.js:7
+msgctxt "text:newsItems.first-bell-arrival.category"
+msgid "New Students"
+msgstr "New Students"
+
+#. newsItems.first-bell-arrival.title
+#: src/data/community.js:8
+msgctxt "text:newsItems.first-bell-arrival.title"
+msgid "First Bell arrival files open: bring a way back with the admission letter"
+msgstr "First Bell arrival files open: bring a way back with the admission letter"
+
+#. newsItems.first-bell-arrival.summary
+#: src/data/community.js:9
+msgctxt "text:newsItems.first-bell-arrival.summary"
+msgid ""
+"The arrival office checks the route from Hakurei Gate, a stop signal the "
+"student can recognise, and a first destination. Bunbunmaru receives only a "
+"nameless count."
+msgstr ""
+"The arrival office checks the route from Hakurei Gate, a stop signal the "
+"student can recognise, and a first destination. Bunbunmaru receives only a "
+"nameless count."
+
+#. newsItems.open-day-gate.category
+#: src/data/community.js:14
+msgctxt "text:newsItems.open-day-gate.category"
+msgid "Admissions"
+msgstr "Admissions"
+
+#. newsItems.open-day-gate.title
+#: src/data/community.js:15
+msgctxt "text:newsItems.open-day-gate.title"
+msgid "Open Day: Outside World visitors meet at the Hakurei entrance"
+msgstr "Open Day: Outside World visitors meet at the Hakurei entrance"
+
+#. newsItems.open-day-gate.summary
+#: src/data/community.js:16
+msgctxt "text:newsItems.open-day-gate.summary"
+msgid ""
+"Morning checks begin at the third quarter of the Dragon hour. Do not follow "
+"an umbrella or butterfly without credentials."
+msgstr ""
+"Morning checks begin at the third quarter of the Dragon hour. Do not follow "
+"an umbrella or butterfly without credentials."
+
+#. newsItems.turbine-three.category
+#: src/data/community.js:21
+msgctxt "text:newsItems.turbine-three.category"
+msgid "Research"
+msgstr "Research"
+
+#. newsItems.turbine-three.title
+#: src/data/community.js:22
+msgctxt "text:newsItems.turbine-three.title"
+msgid "Kappa Engineering completes its third-generation low-head turbine"
+msgstr "Kappa Engineering completes its third-generation low-head turbine"
+
+#. newsItems.turbine-three.summary
+#: src/data/community.js:23
+msgctxt "text:newsItems.turbine-three.summary"
+msgid ""
+"The new design needs only three maintenance tools and disengages "
+"automatically in heavy rain."
+msgstr ""
+"The new design needs only three maintenance tools and disengages "
+"automatically in heavy rain."
+
+#. newsItems.archive-night.category
+#: src/data/community.js:28
+msgctxt "text:newsItems.archive-night.category"
+msgid "Library"
+msgstr "Library"
+
+#. newsItems.archive-night.title
+#: src/data/community.js:29
+msgctxt "text:newsItems.archive-night.title"
+msgid "Hieda History Hall updates night-reading rules"
+msgstr "Hieda History Hall updates night-reading rules"
+
+#. newsItems.archive-night.summary
+#: src/data/community.js:30
+msgctxt "text:newsItems.archive-night.summary"
+msgid ""
+"For three nights before the full moon, second-floor created-history records "
+"require booking; first-floor oral histories remain open."
+msgstr ""
+"For three nights before the full moon, second-floor created-history records "
+"require booking; first-floor oral histories remain open."
+
+#. newsItems.coexistence-lecture.category
+#: src/data/community.js:35
+msgctxt "text:newsItems.coexistence-lecture.category"
+msgid "Lecture"
+msgstr "Lecture"
+
+#. newsItems.coexistence-lecture.title
+#: src/data/community.js:36
+msgctxt "text:newsItems.coexistence-lecture.title"
+msgid "Registration opens for the 9th Human–Youkai Coexistence Lecture"
+msgstr "Registration opens for the 9th Human–Youkai Coexistence Lecture"
+
+#. newsItems.coexistence-lecture.summary
+#: src/data/community.js:37
+msgctxt "text:newsItems.coexistence-lecture.summary"
+msgid ""
+"This year asks whether public space equals consent to observation, with "
+"human, youkai, and fairy seating."
+msgstr ""
+"This year asks whether public space equals consent to observation, with "
+"human, youkai, and fairy seating."
+
+#. newsItems.moon-soba.category
+#: src/data/community.js:42
+msgctxt "text:newsItems.moon-soba.category"
+msgid "Dining"
+msgstr "Dining"
+
+#. newsItems.moon-soba.title
+#: src/data/community.js:43
+msgctxt "text:newsItems.moon-soba.title"
+msgid "Bamboo Moon Soba adds an egg-free version"
+msgstr "Bamboo Moon Soba adds an egg-free version"
+
+#. newsItems.moon-soba.summary
+#: src/data/community.js:44
+msgctxt "text:newsItems.moon-soba.summary"
+msgid "The lunar phase stays intact; yuzu jelly replaces the yolk, and the price drops by ¥20."
+msgstr "The lunar phase stays intact; yuzu jelly replaces the yolk, and the price drops by ¥20."
+
+#. newsItems.library-book.category
+#: src/data/community.js:49
+msgctxt "text:newsItems.library-book.category"
+msgid "Library"
+msgstr "Library"
+
+#. newsItems.library-book.title
+#: src/data/community.js:50
+msgctxt "text:newsItems.library-book.title"
+msgid "North-wing shelf seven temporarily relocates to shelf nine"
+msgstr "North-wing shelf seven temporarily relocates to shelf nine"
+
+#. newsItems.library-book.summary
+#: src/data/community.js:51
+msgctxt "text:newsItems.library-book.summary"
+msgid ""
+"This is not construction. The shelf refuses its former position, and the "
+"library is negotiating return terms."
+msgstr ""
+"This is not construction. The shelf refuses its former position, and the "
+"library is negotiating return terms."
+
+#. newsItems.spell-lantern.category
+#: src/data/community.js:56
+msgctxt "text:newsItems.spell-lantern.category"
+msgid "Events"
+msgstr "Events"
+
+#. newsItems.spell-lantern.title
+#: src/data/community.js:57
+msgctxt "text:newsItems.spell-lantern.title"
+msgid "Spring Spell-card Festival seeks low-noise entries"
+msgstr "Spring Spell-card Festival seeks low-noise entries"
+
+#. newsItems.spell-lantern.summary
+#: src/data/community.js:58
+msgctxt "text:newsItems.spell-lantern.summary"
+msgid ""
+"Refraction, reflection, and slow danmaku are encouraged. Sound must remain "
+"low enough for the Fairy Choir to continue."
+msgstr ""
+"Refraction, reflection, and slow danmaku are encouraged. Sound must remain "
+"low enough for the Fairy Choir to continue."
+
+#. newsItems.correction-award.category
+#: src/data/community.js:63
+msgctxt "text:newsItems.correction-award.category"
+msgid "News"
+msgstr "News"
+
+#. newsItems.correction-award.title
+#: src/data/community.js:64
+msgctxt "text:newsItems.correction-award.title"
+msgid "Voting opens for Bunbunmaru Campus News correction of the year"
+msgstr "Voting opens for Bunbunmaru Campus News correction of the year"
+
+#. newsItems.correction-award.summary
+#: src/data/community.js:65
+msgctxt "text:newsItems.correction-award.summary"
+msgid ""
+"Candidates are judged on correction size, publication speed, and whether "
+"they truly explain what went wrong."
+msgstr ""
+"Candidates are judged on correction size, publication speed, and whether "
+"they truly explain what went wrong."
+
+#. newsItems.clinic-route.category
+#: src/data/community.js:70
+msgctxt "text:newsItems.clinic-route.category"
+msgid "Health"
+msgstr "Health"
+
+#. newsItems.clinic-route.title
+#: src/data/community.js:71
+msgctxt "text:newsItems.clinic-route.title"
+msgid "Eientei Clinic opens a low-stimulus bamboo guidance route"
+msgstr "Eientei Clinic opens a low-stimulus bamboo guidance route"
+
+#. newsItems.clinic-route.summary
+#: src/data/community.js:72
+msgctxt "text:newsItems.clinic-route.summary"
+msgid "Full-moon mode slows the pulse and stores no visitor wavelength or ability data."
+msgstr "Full-moon mode slows the pulse and stores no visitor wavelength or ability data."
+
+#. newsItems.roof-berths.category
+#: src/data/community.js:77
+msgctxt "text:newsItems.roof-berths.category"
+msgid "Transit"
+msgstr "Transit"
+
+#. newsItems.roof-berths.title
+#: src/data/community.js:78
+msgctxt "text:newsItems.roof-berths.title"
+msgid "Boundary Hall adds four large-wing roof berths"
+msgstr "Boundary Hall adds four large-wing roof berths"
+
+#. newsItems.roof-berths.summary
+#: src/data/community.js:79
+msgctxt "text:newsItems.roof-berths.summary"
+msgid "The new berths use crosswind approach; brooms and small wings remain in the east zone."
+msgstr "The new berths use crosswind approach; brooms and small wings remain in the east zone."
+
+#. newsItems.fairy-audit.category
+#: src/data/community.js:84
+msgctxt "text:newsItems.fairy-audit.category"
+msgid "Campus"
+msgstr "Campus"
+
+#. newsItems.fairy-audit.title
+#: src/data/community.js:85
+msgctxt "text:newsItems.fairy-audit.title"
+msgid "Fairy auditors may now check in with images"
+msgstr "Fairy auditors may now check in with images"
+
+#. newsItems.fairy-audit.summary
+#: src/data/community.js:86
+msgctxt "text:newsItems.fairy-audit.summary"
+msgid "The self-portrait need not be consistent; it only has to identify that day's course."
+msgstr "The self-portrait need not be consistent; it only has to identify that day's course."
+
+#. newsItems.unknown-umbrella.category
+#: src/data/community.js:91
+msgctxt "text:newsItems.unknown-umbrella.category"
+msgid "Lost & Found"
+msgstr "Lost & Found"
+
+#. newsItems.unknown-umbrella.title
+#: src/data/community.js:92
+msgctxt "text:newsItems.unknown-umbrella.title"
+msgid "Hakurei Gate receives an umbrella insisting it is not lost"
+msgstr "Hakurei Gate receives an umbrella insisting it is not lost"
+
+#. newsItems.unknown-umbrella.summary
+#: src/data/community.js:93
+msgctxt "text:newsItems.unknown-umbrella.summary"
+msgid ""
+"The umbrella refuses to describe its owner. Claimants must answer three "
+"questions only the umbrella knows."
+msgstr ""
+"The umbrella refuses to describe its owner. Claimants must answer three "
+"questions only the umbrella knows."
+
+#. newsItems.history-exam.category
+#: src/data/community.js:98
+msgctxt "text:newsItems.history-exam.category"
+msgid "Exams"
+msgstr "Exams"
+
+#. newsItems.history-exam.title
+#: src/data/community.js:99
+msgctxt "text:newsItems.history-exam.title"
+msgid "History of Gensokyo open-book exam bans sources that have not happened yet"
+msgstr "History of Gensokyo open-book exam bans sources that have not happened yet"
+
+#. newsItems.history-exam.summary
+#: src/data/community.js:100
+msgctxt "text:newsItems.history-exam.summary"
+msgid ""
+"Prophecy, dream journals, and reverse-flow river records require individual "
+"declaration and may not be slipped into reference books."
+msgstr ""
+"Prophecy, dream journals, and reverse-flow river records require individual "
+"declaration and may not be slipped into reference books."
+
+#. newsItems.observatory-cloud.category
+#: src/data/community.js:105
+msgctxt "text:newsItems.observatory-cloud.category"
+msgid "Research"
+msgstr "Research"
+
+#. newsItems.observatory-cloud.title
+#: src/data/community.js:106
+msgctxt "text:newsItems.observatory-cloud.title"
+msgid "Tengu Observatory publishes a cloud repeatedly appearing in photo corners"
+msgstr "Tengu Observatory publishes a cloud repeatedly appearing in photo corners"
+
+#. newsItems.observatory-cloud.summary
+#: src/data/community.js:107
+msgctxt "text:newsItems.observatory-cloud.summary"
+msgid ""
+"There is no evidence it follows reporters. The cloud was invited to comment "
+"and did not reply before deadline."
+msgstr ""
+"There is no evidence it follows reporters. The cloud was invited to comment "
+"and did not reply before deadline."
+
+#. newsItems.quiet-bell.category
+#: src/data/community.js:112
+msgctxt "text:newsItems.quiet-bell.category"
+msgid "Facilities"
+msgstr "Facilities"
+
+#. newsItems.quiet-bell.title
+#: src/data/community.js:113
+msgctxt "text:newsItems.quiet-bell.title"
+msgid "Campus bell trials an audible-only-to-latecomers mode"
+msgstr "Campus bell trials an audible-only-to-latecomers mode"
+
+#. newsItems.quiet-bell.summary
+#: src/data/community.js:114
+msgctxt "text:newsItems.quiet-bell.summary"
+msgid ""
+"Seven people claimed to be on time yet heard it on day one. The team is now "
+"redefining punctuality."
+msgstr ""
+"Seven people claimed to be on time yet heard it on day one. The team is now "
+"redefining punctuality."
+
+#. seededPosts.0.1
+#: src/data/community.js:119
+msgctxt "text:seededPosts.0.1"
+msgid "Student Council"
+msgstr "Student Council"
+
+#. seededPosts.0.2
+#: src/data/community.js:119
+msgctxt "text:seededPosts.0.2"
+msgid "Temporary air-route and boundary-gate controls during the anniversary"
+msgstr "Temporary air-route and boundary-gate controls during the anniversary"
+
+#. seededPosts.0.3
+#: src/data/community.js:119
+msgctxt "text:seededPosts.0.3"
+msgid ""
+"After the sunset bell, airspace above Boundary Hall becomes one-way. Large "
+"wings should approach from Youkai Mountain."
+msgstr ""
+"After the sunset bell, airspace above Boundary Hall becomes one-way. Large "
+"wings should approach from Youkai Mountain."
+
+#. seededPosts.1.1
+#: src/data/community.js:120
+msgctxt "text:seededPosts.1.1"
+msgid "Ordinary Magic Graduate"
+msgstr "Ordinary Magic Graduate"
+
+#. seededPosts.1.2
+#: src/data/community.js:120
+msgctxt "text:seededPosts.1.2"
+msgid "Has anyone found a safe solution to Seven-Day Elemental Theory II assignment three?"
+msgstr "Has anyone found a safe solution to Seven-Day Elemental Theory II assignment three?"
+
+#. seededPosts.1.3
+#: src/data/community.js:120
+msgctxt "text:seededPosts.1.3"
+msgid ""
+"My wood element fired before metal and the desk grew scissors. Is that "
+"success or two incidents?"
+msgstr ""
+"My wood element fired before metal and the desk grew scissors. Is that "
+"success or two incidents?"
+
+#. seededPosts.2.1
+#: src/data/community.js:121
+msgctxt "text:seededPosts.2.1"
+msgid "White Rabbit No. 27"
+msgstr "White Rabbit No. 27"
+
+#. seededPosts.2.2
+#: src/data/community.js:121
+msgctxt "text:seededPosts.2.2"
+msgid "Bamboo Navigation recruitment: no guarantee of the same return route this week"
+msgstr "Bamboo Navigation recruitment: no guarantee of the same return route this week"
+
+#. seededPosts.2.3
+#: src/data/community.js:121
+msgctxt "text:seededPosts.2.3"
+msgid ""
+"Meet at the east bamboo gate. If you see the identical meeting point a "
+"second time, do not stop—that one is from last week."
+msgstr ""
+"Meet at the east bamboo gate. If you see the identical meeting point a "
+"second time, do not stop—that one is from last week."
+
+#. seededPosts.3.1
+#: src/data/community.js:122
+msgctxt "text:seededPosts.3.1"
+msgid "Workshop North Seat"
+msgstr "Workshop North Seat"
+
+#. seededPosts.3.2
+#: src/data/community.js:122
+msgctxt "text:seededPosts.3.2"
+msgid "Trading unused waterproof talismans for a lunar-spec hex-key set"
+msgstr "Trading unused waterproof talismans for a lunar-spec hex-key set"
+
+#. seededPosts.3.3
+#: src/data/community.js:122
+msgctxt "text:seededPosts.3.3"
+msgid ""
+"Two dozen talismans, never submerged, used in one rain trial. Inspection "
+"available at the Kappa Workshop."
+msgstr ""
+"Two dozen talismans, never submerged, used in one rain trial. Inspection "
+"available at the Kappa Workshop."
+
+#. seededPosts.4.1
+#: src/data/community.js:123
+msgctxt "text:seededPosts.4.1"
+msgid "Anonymous Human Student"
+msgstr "Anonymous Human Student"
+
+#. seededPosts.4.2
+#: src/data/community.js:123
+msgctxt "text:seededPosts.4.2"
+msgid "Does Professor Keine take attendance—and does it enter history?"
+msgstr "Does Professor Keine take attendance—and does it enter history?"
+
+#. seededPosts.4.3
+#: src/data/community.js:123
+msgctxt "text:seededPosts.4.3"
+msgid ""
+"I was five minutes late. The roll omits me, but everyone remembers. Which "
+"source should I attach to an appeal?"
+msgstr ""
+"I was five minutes late. The roll omits me, but everyone remembers. Which "
+"source should I attach to an appeal?"
+
+#. seededPosts.5.1
+#: src/data/community.js:124
+msgctxt "text:seededPosts.5.1"
+msgid "Misty Lake Librarian"
+msgstr "Misty Lake Librarian"
+
+#. seededPosts.5.2
+#: src/data/community.js:124
+msgctxt "text:seededPosts.5.2"
+msgid "Please keep flying books away from open-window seats"
+msgstr "Please keep flying books away from open-window seats"
+
+#. seededPosts.5.3
+#: src/data/community.js:124
+msgctxt "text:seededPosts.5.3"
+msgid ""
+"Three were recovered today; a fourth is negotiating with fairies over the "
+"lake. Returns lose no points. Self-capture earns five, but is discouraged."
+msgstr ""
+"Three were recovered today; a fourth is negotiating with fairies over the "
+"lake. Returns lose no points. Self-capture earns five, but is discouraged."
+
+#. seededPosts.6.1
+#: src/data/community.js:125
+msgctxt "text:seededPosts.6.1"
+msgid "Fairy Choir Alto-ish Section"
+msgstr "Fairy Choir Alto-ish Section"
+
+#. seededPosts.6.2
+#: src/data/community.js:125
+msgctxt "text:seededPosts.6.2"
+msgid "Seeking anyone who remembers verse two; range irrelevant"
+msgstr "Seeking anyone who remembers verse two; range irrelevant"
+
+#. seededPosts.6.3
+#: src/data/community.js:125
+msgctxt "text:seededPosts.6.3"
+msgid ""
+"If you only remember verse three, we can rename it verse two. Wednesday at "
+"the floating stage."
+msgstr ""
+"If you only remember verse three, we can rename it verse two. Wednesday at "
+"the floating stage."
+
+#. seededPosts.7.1
+#: src/data/community.js:126
+msgctxt "text:seededPosts.7.1"
+msgid "Outside World Exchange Student"
+msgstr "Outside World Exchange Student"
+
+#. seededPosts.7.2
+#: src/data/community.js:126
+msgctxt "text:seededPosts.7.2"
+msgid "Seeking someone who can explain to a smartphone that no signal is not a fault"
+msgstr "Seeking someone who can explain to a smartphone that no signal is not a fault"
+
+#. seededPosts.7.3
+#: src/data/community.js:126
+msgctxt "text:seededPosts.7.3"
+msgid ""
+"It restarts every ten minutes; the kappa says hardware is fine. Offering two "
+"bags of Outside World gummies."
+msgstr ""
+"It restarts every ten minutes; the kappa says hardware is fine. Offering two "
+"bags of Outside World gummies."
+
+#. seededPosts.8.1
+#: src/data/community.js:127
+msgctxt "text:seededPosts.8.1"
+msgid "First-year Lunar Medicine"
+msgstr "First-year Lunar Medicine"
+
+#. seededPosts.8.2
+#: src/data/community.js:127
+msgctxt "text:seededPosts.8.2"
+msgid "Can informed consent for cross-species pharmacology be signed in a dream?"
+msgstr "Can informed consent for cross-species pharmacology be signed in a dream?"
+
+#. seededPosts.8.3
+#: src/data/community.js:127
+msgctxt "text:seededPosts.8.3"
+msgid ""
+"The participant remembers the form, but the signature is visible only under "
+"the pillow. Ethics review is tomorrow."
+msgstr ""
+"The participant remembers the form, but the signature is visible only under "
+"the pillow. Ethics review is tomorrow."
+
+#. seededPosts.9.1
+#: src/data/community.js:128
+msgctxt "text:seededPosts.9.1"
+msgid "Air Route Office"
+msgstr "Air Route Office"
+
+#. seededPosts.9.2
+#: src/data/community.js:128
+msgctxt "text:seededPosts.9.2"
+msgid "Hovering directly above the campus bell is prohibited this week"
+msgstr "Hovering directly above the campus bell is prohibited this week"
+
+#. seededPosts.9.3
+#: src/data/community.js:128
+msgctxt "text:seededPosts.9.3"
+msgid ""
+"Wing surfaces reflect the bell into the president's office. Shift at least "
+"twelve metres east."
+msgstr ""
+"Wing surfaces reflect the bell into the president's office. Shift at least "
+"twelve metres east."
+
+#. seededPosts.10.1
+#: src/data/community.js:129
+msgctxt "text:seededPosts.10.1"
+msgid "Tea & News Ethics Society"
+msgstr "Tea & News Ethics Society"
+
+#. seededPosts.10.2
+#: src/data/community.js:129
+msgctxt "text:seededPosts.10.2"
+msgid "Reporters wanted for the wait-until-the-second-pot headline trial"
+msgstr "Reporters wanted for the wait-until-the-second-pot headline trial"
+
+#. seededPosts.10.3
+#: src/data/community.js:129
+msgctxt "text:seededPosts.10.3"
+msgid ""
+"Tea, deadline-extension certificates, and a control group that cannot resist "
+"writing after pot one are provided."
+msgstr ""
+"Tea, deadline-extension certificates, and a control group that cannot resist "
+"writing after pot one are provided."
+
+#. seededPosts.11.1
+#: src/data/community.js:130
+msgctxt "text:seededPosts.11.1"
+msgid "Kourindou Auditor"
+msgstr "Kourindou Auditor"
+
+#. seededPosts.11.2
+#: src/data/community.js:130
+msgctxt "text:seededPosts.11.2"
+msgid "Free: three cables with unknown destinations"
+msgstr "Free: three cables with unknown destinations"
+
+#. seededPosts.11.3
+#: src/data/community.js:130
+msgctxt "text:seededPosts.11.3"
+msgid ""
+"The institute says they are not fully forgotten and may develop a new use. "
+"Bring your own bag."
+msgstr ""
+"The institute says they are not fully forgotten and may develop a new use. "
+"Bring your own bag."
+
+#. seededPosts.12.1
+#: src/data/community.js:131
+msgctxt "text:seededPosts.12.1"
+msgid "Second-year Boundary Studies"
+msgstr "Second-year Boundary Studies"
+
+#. seededPosts.12.2
+#: src/data/community.js:131
+msgctxt "text:seededPosts.12.2"
+msgid "If the assignment leaves the paper, is it late?"
+msgstr "If the assignment leaves the paper, is it late?"
+
+#. seededPosts.12.3
+#: src/data/community.js:131
+msgctxt "text:seededPosts.12.3"
+msgid ""
+"The question is currently between the front and back of the sheet. The TA "
+"says it is on-page; the lecturer says it is out of view."
+msgstr ""
+"The question is currently between the front and back of the sheet. The TA "
+"says it is on-page; the lecturer says it is out of view."
+
+#. seededPosts.13.1
+#: src/data/community.js:132
+msgctxt "text:seededPosts.13.1"
+msgid "South Dining Hall"
+msgstr "South Dining Hall"
+
+#. seededPosts.13.2
+#: src/data/community.js:132
+msgctxt "text:seededPosts.13.2"
+msgid "The gear-cut lotus in Kappa Curry is not a spare part"
+msgstr "The gear-cut lotus in Kappa Curry is not a spare part"
+
+#. seededPosts.13.3
+#: src/data/community.js:132
+msgctxt "text:seededPosts.13.3"
+msgid "Two slices reached the workshop today. They are suitable for eating, not torque."
+msgstr "Two slices reached the workshop today. They are suitable for eating, not torque."
+
+#. seededPosts.14.1
+#: src/data/community.js:133
+msgctxt "text:seededPosts.14.1"
+msgid "Unidentified Flying Object Society"
+msgstr "Unidentified Flying Object Society"
+
+#. seededPosts.14.2
+#: src/data/community.js:133
+msgctxt "text:seededPosts.14.2"
+msgid "Last night's disc confirmed as a plate; the plate is still flying"
+msgstr "Last night's disc confirmed as a plate; the plate is still flying"
+
+#. seededPosts.14.3
+#: src/data/community.js:133
+msgctxt "text:seededPosts.14.3"
+msgid ""
+"Classification changed from unidentified flying object to unidentified "
+"flight of an identified object. Tracking continues tonight."
+msgstr ""
+"Classification changed from unidentified flying object to unidentified "
+"flight of an identified object. Tracking continues tonight."
+
+#. seededPosts.15.1
+#: src/data/community.js:134
+msgctxt "text:seededPosts.15.1"
+msgid "First-year Tengu Journalism"
+msgstr "First-year Tengu Journalism"
+
+#. seededPosts.15.2
+#: src/data/community.js:134
+msgctxt "text:seededPosts.15.2"
+msgid "If my source is faster than me, do they still need anonymity?"
+msgstr "If my source is faster than me, do they still need anonymity?"
+
+#. seededPosts.15.3
+#: src/data/community.js:134
+msgctxt "text:seededPosts.15.3"
+msgid ""
+"The source flew in front of every interviewee but asked me not to name them. "
+"Photography Ethics did not cover this."
+msgstr ""
+"The source flew in front of every interviewee but asked me not to name them. "
+"Photography Ethics did not cover this."
+
+#. seededPosts.16.1
+#: src/data/community.js:135
+msgctxt "text:seededPosts.16.1"
+msgid "Scarlet Mansion Exchange Desk"
+msgstr "Scarlet Mansion Exchange Desk"
+
+#. seededPosts.16.2
+#: src/data/community.js:135
+msgctxt "text:seededPosts.16.2"
+msgid "Loaning a reference book that does not bite; deposit is a bookmark that does"
+msgstr "Loaning a reference book that does not bite; deposit is a bookmark that does"
+
+#. seededPosts.16.3
+#: src/data/community.js:135
+msgctxt "text:seededPosts.16.3"
+msgid ""
+"Three-day loan. The bookmark bites only when overdue, so it is theoretically "
+"completely safe."
+msgstr ""
+"Three-day loan. The bookmark bites only when overdue, so it is theoretically "
+"completely safe."
+
+#. seededPosts.17.1
+#: src/data/community.js:136
+msgctxt "text:seededPosts.17.1"
+msgid "Eientei Clinic"
+msgstr "Eientei Clinic"
+
+#. seededPosts.17.2
+#: src/data/community.js:136
+msgctxt "text:seededPosts.17.2"
+msgid "Do not test whether you will be anxious before the full-moon clinic"
+msgstr "Do not test whether you will be anxious before the full-moon clinic"
+
+#. seededPosts.17.3
+#: src/data/community.js:136
+msgctxt "text:seededPosts.17.3"
+msgid ""
+"Repeatedly imagining the bamboo maze changes the baseline. Eat and sleep "
+"normally; save getting lost for the trial."
+msgstr ""
+"Repeatedly imagining the bamboo maze changes the baseline. Eat and sleep "
+"normally; save getting lost for the trial."

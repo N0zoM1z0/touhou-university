@@ -23,7 +23,7 @@ For a normal feature, identify:
 - the HTML partial in `src/sections/`;
 - the trilingual source data in `src/data/`;
 - the pure/persistent model in `src/js/*-model.js` when applicable;
-- the focused UI module in `src/js/` and its initializer in `src/js/main.js`;
+- the focused UI module in `src/js/` and its `src/js/feature-registry.js` entry;
 - its domain manifest, event contracts, local-record registrations, Hieda
   references and focused validator;
 - its research note and generated-asset provenance, if content/art changes.
@@ -35,24 +35,28 @@ Node standard-library build.
 
 ```text
 src/templates/page.html     shared page shell
-src/sections/*.html         authored institutional sections
-src/styles/*.css            authored core/feature styles
-src/data/*.js               trilingual records and deterministic rules
+src/sections/*.html         authored sections with explicit translation keys
+src/styles/*.css            small manifests + feature/component stylesheet parts
+src/data/*.js               domain records, relationships and deterministic rules
 src/js/*.js                 models, stores, renderers and shared controllers
+locales/{zh-Hant,ja,en}/    authored PO catalogs, partitioned by owner
+public/                    original static assets, copied to publication root
+src/generated/i18n/         compiled catalogs (ignored)
 site.config.mjs             page/section/style/preload registry
-scripts/build.mjs           generates root HTML + assets/css bundles
-scripts/build-gaokao-*.mjs  generates 48 offline papers/answers
-*.html                      committed generated GitHub Pages route artifacts
-assets/css/styles*.css      committed generated CSS bundles
-downloads/gaokao/           committed generated examination artifacts
+scripts/build.mjs           ordered translation/page/exam/publication build
+dist/                      complete publication, including runtime modules (ignored)
 ```
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the build graph, registry boundaries
+and [catalog guide](../locales/README.md) for translation maintenance.
 
 The forty-eight downloads are the eight ordinary humanities/science papers.
 The single PHANTASM common reverse paper is deliberately rendered and printed
 only inside the opened dream campus; it is not a ninth admissions download.
 
-Never make a substantive fix only in generated HTML/CSS. Edit source, run
-`npm run build`, and commit both the source and regenerated artifacts.
+Never make a substantive fix only in generated HTML/CSS or compiled catalogs.
+Edit source and PO, then run `npm run build`. Commit authored files; `dist/`,
+compiled catalogs and generated POT files are ignored.
 
 New deep institutional features belong on the appropriate subpage. Do not
 grow `index.html` back into a single monolith. Register new pages, section order
@@ -111,11 +115,16 @@ time. Run `npm run check:knowledge` when extending it.
 ## 4. Three-language content
 
 - Supported locales are `zh-Hant`, `ja`, and `en`.
-- Stable shell/control text uses explicit keys in `src/data/i18n.js` plus
-  readable Traditional Chinese fallback markup and `data-i18n` attributes.
-- Domain records carry `{ "zh-Hant", ja, en }` values together.
-- The old Chinese text-node lookup is migration fallback only. Do not create
-  punctuation-coupled keys or translate user-authored application/BBS text.
+- Stable shell/control text uses explicit keys in `locales/*/shell/*.po` plus
+  readable Traditional Chinese source fallbacks and `data-i18n` attributes.
+- Domain records resolve `{ "zh-Hant", ja, en }` values from their owning PO
+  catalog. Dynamic controls/replies live in `ui/`; offline labels in `build/`.
+- Mixed-content text uses an `<!-- i18n:key -->` marker when replacing a whole
+  element would destroy its children. No source-text lookup translates visitor
+  application/BBS prose.
+- English is the PO source reference; the public default remains `zh-Hant`.
+  After changing English `msgstr`, run `npm run i18n:sync` and review the fuzzy
+  translations it preserves. Builds reject pending, empty or mismatched entries.
 - Translate labels, validation, empty/error states, ARIA text, placeholders,
   image alternatives, print copy and dynamic replies in the same change.
 
@@ -165,7 +174,7 @@ architecture.
 Use the smallest useful check while developing, then widen before handoff.
 
 ```bash
-npm run build               # regenerate 19 pages, CSS and offline exams
+npm run build               # generate dist/: 20 pages, CSS, modules and offline exams
 npm run check:docs          # documentation/source agreement
 npm run check:<domain>      # focused data/model/route contracts
 npm run check               # complete static/data/relationship/history suite
@@ -239,11 +248,12 @@ project-original institution design and fallible in-world claims.
 
 For an explicitly requested publication:
 
-1. update version and `CHANGELOG.md`;
+1. confirm Pages Source is GitHub Actions (required for this source-only layout),
+   then update version and `CHANGELOG.md`;
 2. run `npm run check` and risk-appropriate browser/visual checks;
 3. run `git diff --check`, inspect scope and commit intentionally;
 4. push `main`;
-5. wait for the `pages-build-deployment` run to succeed;
+5. wait for the `Validate and publish Pages` workflow to succeed;
 6. verify the live canonical page, representative deep links and new assets;
 7. report the deployed commit and any relevant local documentation paths.
 

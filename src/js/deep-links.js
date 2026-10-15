@@ -1,3 +1,4 @@
+import { trees as catalogTrees } from "../generated/i18n/ui/deep-links.js";
 import { showToast } from "./ui.js";
 import { safeDecodeFragment } from "./url-state.js";
 
@@ -8,11 +9,7 @@ let restoreFrame = 0;
 let positionToken = 0;
 let skipHashPositionRoute = null;
 
-const shareCopy = {
-  "zh-Hant": ["複製此頁連結", "連結已複製，可以直接分享這一頁。"],
-  ja: ["このページのリンクをコピー", "このページへのリンクをコピーしました。"],
-  en: ["Copy link to this page", "Link copied. This view can now be shared directly."],
-};
+const shareCopy = catalogTrees["shareCopy"];
 
 function locale() {
   return document.documentElement.lang || "zh-Hant";

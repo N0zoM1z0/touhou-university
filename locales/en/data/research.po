@@ -1,0 +1,712 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. researchFiles.boundary.title
+#: src/data/research.js:5
+msgctxt "text:researchFiles.boundary.title"
+msgid "Cross-Boundary Drift Index of Forgotten Objects"
+msgstr "Cross-Boundary Drift Index of Forgotten Objects"
+
+#. researchFiles.boundary.summary
+#: src/data/research.js:6
+msgctxt "text:researchFiles.boundary.summary"
+msgid ""
+"A five-year observatory programme tracking the delay, semantic change, and "
+"new uses of Outside World objects after they pass from use into oblivion."
+msgstr ""
+"A five-year observatory programme tracking the delay, semantic change, and "
+"new uses of Outside World objects after they pass from use into oblivion."
+
+#. researchFiles.boundary.sections/0/0
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/0/0"
+msgid "Question"
+msgstr "Question"
+
+#. researchFiles.boundary.sections/0/1
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/0/1"
+msgid ""
+"When does an object become fantasy? Continuous observation shows that it "
+"first loses repair, then use, and finally the need to be named."
+msgstr ""
+"When does an object become fantasy? Continuous observation shows that it "
+"first loses repair, then use, and finally the need to be named."
+
+#. researchFiles.boundary.sections/1/0
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/1/0"
+msgid "Method"
+msgstr "Method"
+
+#. researchFiles.boundary.sections/1/1
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/1/1"
+msgid ""
+"Passive recording arrays at Kourindou, Hakurei Gate, and Misty Lake log "
+"material, wear, first name, and its name after thirty days. No rift is "
+"widened and no former owner's memory is read."
+msgstr ""
+"Passive recording arrays at Kourindou, Hakurei Gate, and Misty Lake log "
+"material, wear, first name, and its name after thirty days. No rift is "
+"widened and no former owner's memory is read."
+
+#. researchFiles.boundary.sections/2/0
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/2/0"
+msgid "Key finding"
+msgstr "Key finding"
+
+#. researchFiles.boundary.sections/2/1
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/2/1"
+msgid ""
+"Electronic dictionaries arrive 6.3 years later than paper dictionaries on "
+"average. Orphaned charging cables appear earliest, and product names usually "
+"become functional nicknames within forty days."
+msgstr ""
+"Electronic dictionaries arrive 6.3 years later than paper dictionaries on "
+"average. Orphaned charging cables appear earliest, and product names usually "
+"become functional nicknames within forty days."
+
+#. researchFiles.boundary.sections/3/0
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/3/0"
+msgid "Field note"
+msgstr "Field note"
+
+#. researchFiles.boundary.sections/3/1
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/3/1"
+msgid ""
+"On night 309, a printer without ink became nine kappa measuring tools. The "
+"index gained a new field: dead functions can produce new uses."
+msgstr ""
+"On night 309, a printer without ink became nine kappa measuring tools. The "
+"index gained a new field: dead functions can produce new uses."
+
+#. researchFiles.boundary.sections/4/0
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/4/0"
+msgid "Next"
+msgstr "Next"
+
+#. researchFiles.boundary.sections/4/1
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/4/1"
+msgid ""
+"The next phase compares deliberate collection with natural forgetting and "
+"develops non-invasive interview rules with the tsukumogami laboratory."
+msgstr ""
+"The next phase compares deliberate collection with natural forgetting and "
+"develops non-invasive interview rules with the tsukumogami laboratory."
+
+#. researchFiles.waterwheel.title
+#: src/data/research.js:17
+msgctxt "text:researchFiles.waterwheel.title"
+msgid "A Magic-Independent Turbine for Low-Head Streams"
+msgstr "A Magic-Independent Turbine for Low-Head Streams"
+
+#. researchFiles.waterwheel.summary
+#: src/data/research.js:18
+msgctxt "text:researchFiles.waterwheel.summary"
+msgid ""
+"A micro-hydropower system requiring neither magic nor proprietary parts, now "
+"through a full year of trials in three village irrigation channels."
+msgstr ""
+"A micro-hydropower system requiring neither magic nor proprietary parts, now "
+"through a full year of trials in three village irrigation channels."
+
+#. researchFiles.waterwheel.sections/0/0
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/0/0"
+msgid "Design goal"
+msgstr "Design goal"
+
+#. researchFiles.waterwheel.sections/0/1
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/0/1"
+msgid ""
+"Anyone with a wrench, wooden wedge, and hemp rope can strip and wash it in "
+"half a day. Bamboo-and-copper blades disengage before a lodged boulder can "
+"damage the canal."
+msgstr ""
+"Anyone with a wrench, wooden wedge, and hemp rope can strip and wash it in "
+"half a day. Bamboo-and-copper blades disengage before a lodged boulder can "
+"damage the canal."
+
+#. researchFiles.waterwheel.sections/1/0
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/1/0"
+msgid "Trial"
+msgstr "Trial"
+
+#. researchFiles.waterwheel.sections/1/1
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/1/1"
+msgid ""
+"Three prototypes ran beside a mill, a rice field, and a night-sparrow dining "
+"hall. Kappa students logged flow; villagers only marked abnormal sound. The "
+"records were reconciled each term."
+msgstr ""
+"Three prototypes ran beside a mill, a rice field, and a night-sparrow dining "
+"hall. Kappa students logged flow; villagers only marked abnormal sound. The "
+"records were reconciled each term."
+
+#. researchFiles.waterwheel.sections/2/0
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/2/0"
+msgid "Unexpected finding"
+msgstr "Unexpected finding"
+
+#. researchFiles.waterwheel.sections/2/1
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/2/1"
+msgid ""
+"Dining-hall waste heat delayed winter icing by forty-eight minutes. A "
+"removable warm-water loop followed—with a strict ban on connecting soup pots "
+"directly."
+msgstr ""
+"Dining-hall waste heat delayed winter icing by forty-eight minutes. A "
+"removable warm-water loop followed—with a strict ban on connecting soup pots "
+"directly."
+
+#. researchFiles.waterwheel.sections/3/0
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/3/0"
+msgid "Open specification"
+msgstr "Open specification"
+
+#. researchFiles.waterwheel.sections/3/1
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/3/1"
+msgid ""
+"All non-standard nuts were removed. The illustrated manual works for low "
+"literacy, darkness, and wet paper; reversed assembly exposes a red warning "
+"face."
+msgstr ""
+"All non-standard nuts were removed. The illustrated manual works for low "
+"literacy, darkness, and wet paper; reversed assembly exposes a red warning "
+"face."
+
+#. researchFiles.moonpath.title
+#: src/data/research.js:24
+msgctxt "text:researchFiles.moonpath.title"
+msgid "Lunar-Phase Sensory Guidance for Lost Bamboo Travellers"
+msgstr "Lunar-Phase Sensory Guidance for Lost Bamboo Travellers"
+
+#. researchFiles.moonpath.summary
+#: src/data/research.js:25
+msgctxt "text:researchFiles.moonpath.summary"
+msgid ""
+"A non-text guidance system translating moonlight, footsteps, and breathing "
+"rhythm to reduce panic-driven loops in the Bamboo Forest."
+msgstr ""
+"A non-text guidance system translating moonlight, footsteps, and breathing "
+"rhythm to reduce panic-driven loops in the Bamboo Forest."
+
+#. researchFiles.moonpath.sections/0/0
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/0/0"
+msgid "Problem"
+msgstr "Problem"
+
+#. researchFiles.moonpath.sections/0/1
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/0/1"
+msgid ""
+"The forest is not merely a maze. Anxiety amplifies similar bamboo shadows, "
+"hides changing wind, and persuades travellers they are still walking "
+"straight."
+msgstr ""
+"The forest is not merely a maze. Anxiety amplifies similar bamboo shadows, "
+"hides changing wind, and persuades travellers they are still walking "
+"straight."
+
+#. researchFiles.moonpath.sections/1/0
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/1/0"
+msgid "Method"
+msgstr "Method"
+
+#. researchFiles.moonpath.sections/1/1
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/1/1"
+msgid ""
+"Eighteen guide posts change reflection with the lunar phase. Only after a "
+"traveller stops for three breaths do the two nearest Eientei respond."
+msgstr ""
+"Eighteen guide posts change reflection with the lunar phase. Only after a "
+"traveller stops for three breaths do the two nearest Eientei respond."
+
+#. researchFiles.moonpath.sections/2/0
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/2/0"
+msgid "Result"
+msgstr "Result"
+
+#. researchFiles.moonpath.sections/2/1
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/2/1"
+msgid ""
+"Without ability-based interference, repeated returns to the same junction "
+"fell by 61%. Under a full moon, slower light pulses helped more than "
+"brighter ones."
+msgstr ""
+"Without ability-based interference, repeated returns to the same junction "
+"fell by 61%. Under a full moon, slower light pulses helped more than "
+"brighter ones."
+
+#. researchFiles.moonpath.sections/3/0
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/3/0"
+msgid "Clinical rule"
+msgstr "Clinical rule"
+
+#. researchFiles.moonpath.sections/3/1
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/3/1"
+msgid ""
+"No personal wavelength is stored and no lost traveller is a compulsory "
+"exposure subject. A white-rabbit card ends participation at any time."
+msgstr ""
+"No personal wavelength is stored and no lost traveller is a compulsory "
+"exposure subject. A white-rabbit card ends participation at any time."
+
+#. researchFiles.reports.title
+#: src/data/research.js:31
+msgctxt "text:researchFiles.reports.title"
+msgid "Three Reports of the Same Incident"
+msgstr "Three Reports of the Same Incident"
+
+#. researchFiles.reports.summary
+#: src/data/research.js:32
+msgctxt "text:researchFiles.reports.summary"
+msgid ""
+"A parallel reading of tengu breaking news, village testimony, and next-day "
+"participant notes from a minor red-moon incident."
+msgstr ""
+"A parallel reading of tengu breaking news, village testimony, and next-day "
+"participant notes from a minor red-moon incident."
+
+#. researchFiles.reports.sections/0/0
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/0/0"
+msgid "Material"
+msgstr "Material"
+
+#. researchFiles.reports.sections/0/1
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/0/1"
+msgid ""
+"Set one was breaking news published within nine minutes; set two was "
+"collective village testimony that night; set three asked participants, after "
+"one night's sleep, to record only what they still wished public."
+msgstr ""
+"Set one was breaking news published within nine minutes; set two was "
+"collective village testimony that night; set three asked participants, after "
+"one night's sleep, to record only what they still wished public."
+
+#. researchFiles.reports.sections/1/0
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/1/0"
+msgid "Difference"
+msgstr "Difference"
+
+#. researchFiles.reports.sections/1/1
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/1/1"
+msgid ""
+"Breaking news timed events best but overstated the danger radius. Testimony "
+"preserved mutual aid yet remembered three people as five. Next-day notes "
+"removed firepower and added hesitation and silence."
+msgstr ""
+"Breaking news timed events best but overstated the danger radius. Testimony "
+"preserved mutual aid yet remembered three people as five. Next-day notes "
+"removed firepower and added hesitation and silence."
+
+#. researchFiles.reports.sections/2/0
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/2/0"
+msgid "Correction trial"
+msgstr "Correction trial"
+
+#. researchFiles.reports.sections/2/1
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/2/1"
+msgid ""
+"Students published a second headline and an explanation. Nine of twelve "
+"corrections received longer average reading time than the originals."
+msgstr ""
+"Students published a second headline and an explanation. Nine of twelve "
+"corrections received longer average reading time than the originals."
+
+#. researchFiles.reports.sections/3/0
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/3/0"
+msgid "Conclusion"
+msgstr "Conclusion"
+
+#. researchFiles.reports.sections/3/1
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/3/1"
+msgid ""
+"Fast text is not necessarily least reliable, nor slow text most sincere. "
+"Quality begins by marking what is unknown and leaving an entrance for "
+"correction."
+msgstr ""
+"Fast text is not necessarily least reliable, nor slow text most sincere. "
+"Quality begins by marking what is unknown and leaving an entrance for "
+"correction."
+
+#. researchFiles.spellcard.title
+#: src/data/research.js:38
+msgctxt "text:researchFiles.spellcard.title"
+msgid "Readability, Fairness & Exit Design Under Spell-card Rules"
+msgstr "Readability, Fairness & Exit Design Under Spell-card Rules"
+
+#. researchFiles.spellcard.summary
+#: src/data/research.js:39
+msgctxt "text:researchFiles.spellcard.summary"
+msgid ""
+"Ninety-six experimental patterns separate declaration, telegraph, density, "
+"speed, and exit windows to study how a spell card can preserve authorship, "
+"spectator legibility, and genuine player choice."
+msgstr ""
+"Ninety-six experimental patterns separate declaration, telegraph, density, "
+"speed, and exit windows to study how a spell card can preserve authorship, "
+"spectator legibility, and genuine player choice."
+
+#. researchFiles.spellcard.sections/0/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/0/0"
+msgid "Research question"
+msgstr "Research question"
+
+#. researchFiles.spellcard.sections/0/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/0/1"
+msgid ""
+"Must spectacle cost fairness? We measured “can evade” separately from “can "
+"explain the hit”: without replay, could a participant identify the threat, "
+"the rule change, and the exit that remained?"
+msgstr ""
+"Must spectacle cost fairness? We measured “can evade” separately from “can "
+"explain the hit”: without replay, could a participant identify the threat, "
+"the rule change, and the exit that remained?"
+
+#. researchFiles.spellcard.sections/1/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/1/0"
+msgid "Experimental design"
+msgstr "Experimental design"
+
+#. researchFiles.spellcard.sections/1/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/1/1"
+msgid ""
+"Ninety-six patterns shared one core trajectory while declaration, opening "
+"sound, colour, speed, density, and safety window changed one at a time. "
+"Forty-two participants covered walking, flight, burst movement, low vision, "
+"single-sided hearing, and delayed perception. Each attempted only twelve "
+"patterns so memorisation could not replace reading."
+msgstr ""
+"Ninety-six patterns shared one core trajectory while declaration, opening "
+"sound, colour, speed, density, and safety window changed one at a time. "
+"Forty-two participants covered walking, flight, burst movement, low vision, "
+"single-sided hearing, and delayed perception. Each attempted only twelve "
+"patterns so memorisation could not replace reading."
+
+#. researchFiles.spellcard.sections/2/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/2/0"
+msgid "Readability finding"
+msgstr "Readability finding"
+
+#. researchFiles.spellcard.sections/2/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/2/1"
+msgid ""
+"Colour-only rule changes were missed most often. A 0.8-second directional "
+"telegraph before a phase shift raised first-attempt identification of the "
+"next wave from 46% to 81%. Declarations also helped when their verbs matched "
+"the motion—such as unfold, converge, or reflect."
+msgstr ""
+"Colour-only rule changes were missed most often. A 0.8-second directional "
+"telegraph before a phase shift raised first-attempt identification of the "
+"next wave from 46% to 81%. Declarations also helped when their verbs matched "
+"the motion—such as unfold, converge, or reflect."
+
+#. researchFiles.spellcard.sections/3/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/3/0"
+msgid "Fairness is not symmetry"
+msgstr "Fairness is not symmetry"
+
+#. researchFiles.spellcard.sections/3/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/3/1"
+msgid ""
+"Perfect left–right symmetry was not always fair: fast fliers gained "
+"excessive lateral space while walkers were sealed from both sides. The most "
+"stable design offered one broad, slow main exit and one narrow precision "
+"shortcut, leaving every movement style a consequential choice."
+msgstr ""
+"Perfect left–right symmetry was not always fair: fast fliers gained "
+"excessive lateral space while walkers were sealed from both sides. The most "
+"stable design offered one broad, slow main exit and one narrow precision "
+"shortcut, leaving every movement style a consequential choice."
+
+#. researchFiles.spellcard.sections/4/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/4/0"
+msgid "Field note: the seventh trial in rain"
+msgstr "Field note: the seventh trial in rain"
+
+#. researchFiles.spellcard.sections/4/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/4/1"
+msgid ""
+"A sudden shower made Marisa's star telegraphs brighter than the main shots "
+"in the water curtain. Spectators mistook warning for attack. Reimu stopped "
+"the clock and split the cue into sound, then outline. With no reduction in "
+"projectile count, misreads fell from eleven to two. Weather became part of "
+"the rules, not off-field noise."
+msgstr ""
+"A sudden shower made Marisa's star telegraphs brighter than the main shots "
+"in the water curtain. Spectators mistook warning for attack. Reimu stopped "
+"the clock and split the cue into sound, then outline. With no reduction in "
+"projectile count, misreads fell from eleven to two. Weather became part of "
+"the rules, not off-field noise."
+
+#. researchFiles.spellcard.sections/5/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/5/0"
+msgid "Open standard & next step"
+msgstr "Open standard & next step"
+
+#. researchFiles.spellcard.sections/5/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/5/1"
+msgid ""
+"The lab published a three-question check: Is the rule knowable before the "
+"first hit? Is a mistake explainable afterwards? Does every phase change "
+"retain a legible exit? Next come fairy group play, giant bodies, audio-only "
+"spell cards, and an appealable post-match record for university spell-card "
+"interviews."
+msgstr ""
+"The lab published a three-question check: Is the rule knowable before the "
+"first hit? Is a mistake explainable afterwards? Does every phase change "
+"retain a legible exit? Next come fairy group play, giant bodies, audio-only "
+"spell cards, and an appealable post-match record for university spell-card "
+"interviews."
+
+#. text:researchFiles.boundary.meta.0.label
+#: src/data/research.js:8
+msgctxt "text:researchFiles.boundary.meta.0.label"
+msgid "Research period"
+msgstr "Research period"
+
+#. text:researchFiles.boundary.meta.0.value
+#: src/data/research.js:8
+msgctxt "text:researchFiles.boundary.meta.0.value"
+msgid "Gensokyo Calendar 137—141"
+msgstr "Gensokyo Calendar 137—141"
+
+#. text:researchFiles.boundary.meta.1.label
+#: src/data/research.js:9
+msgctxt "text:researchFiles.boundary.meta.1.label"
+msgid "Lead"
+msgstr "Lead"
+
+#. text:researchFiles.boundary.meta.1.value
+#: src/data/research.js:9
+msgctxt "text:researchFiles.boundary.meta.1.value"
+msgid "Yukari Yakumo · Rinnosuke Morichika · Boundary Observatory"
+msgstr "Yukari Yakumo · Rinnosuke Morichika · Boundary Observatory"
+
+#. text:researchFiles.boundary.meta.2.label
+#: src/data/research.js:10
+msgctxt "text:researchFiles.boundary.meta.2.label"
+msgid "Sample"
+msgstr "Sample"
+
+#. text:researchFiles.boundary.meta.2.value
+#: src/data/research.js:10
+msgctxt "text:researchFiles.boundary.meta.2.value"
+msgid "1,842 unclaimed drift objects"
+msgstr "1,842 unclaimed drift objects"
+
+#. text:researchFiles.boundary.meta.3.label
+#: src/data/research.js:11
+msgctxt "text:researchFiles.boundary.meta.3.label"
+msgid "Status"
+msgstr "Status"
+
+#. text:researchFiles.boundary.meta.3.value
+#: src/data/research.js:11
+msgctxt "text:researchFiles.boundary.meta.3.value"
+msgid "Annual index published"
+msgstr "Annual index published"
+
+#. text:researchFiles.waterwheel.meta.0.label
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.0.label"
+msgid "Efficiency"
+msgstr "Efficiency"
+
+#. text:researchFiles.waterwheel.meta.1.label
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.1.label"
+msgid "Repair tools"
+msgstr "Repair tools"
+
+#. text:researchFiles.waterwheel.meta.1.value
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.1.value"
+msgid "3 tools"
+msgstr "3 tools"
+
+#. text:researchFiles.waterwheel.meta.2.label
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.2.label"
+msgid "Shutdown"
+msgstr "Shutdown"
+
+#. text:researchFiles.waterwheel.meta.2.value
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.2.value"
+msgid "Automatic in heavy rain"
+msgstr "Automatic in heavy rain"
+
+#. text:researchFiles.waterwheel.meta.3.label
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.3.label"
+msgid "Release"
+msgstr "Release"
+
+#. text:researchFiles.waterwheel.meta.3.value
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.3.value"
+msgid "Open workshop specification"
+msgstr "Open workshop specification"
+
+#. text:researchFiles.moonpath.meta.0.label
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.0.label"
+msgid "Observation nights"
+msgstr "Observation nights"
+
+#. text:researchFiles.moonpath.meta.1.label
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.1.label"
+msgid "Guide posts"
+msgstr "Guide posts"
+
+#. text:researchFiles.moonpath.meta.2.label
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.2.label"
+msgid "Full-moon mode"
+msgstr "Full-moon mode"
+
+#. text:researchFiles.moonpath.meta.2.value
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.2.value"
+msgid "Low stimulus"
+msgstr "Low stimulus"
+
+#. text:researchFiles.moonpath.meta.3.label
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.3.label"
+msgid "Lead"
+msgstr "Lead"
+
+#. text:researchFiles.moonpath.meta.3.value
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.3.value"
+msgid "Eirin Yagokoro · Reisen"
+msgstr "Eirin Yagokoro · Reisen"
+
+#. text:researchFiles.reports.meta.0.label
+#: src/data/research.js:33
+msgctxt "text:researchFiles.reports.meta.0.label"
+msgid "Comparative texts"
+msgstr "Comparative texts"
+
+#. text:researchFiles.reports.meta.1.label
+#: src/data/research.js:33
+msgctxt "text:researchFiles.reports.meta.1.label"
+msgid "Public corrections"
+msgstr "Public corrections"
+
+#. text:researchFiles.reports.meta.2.label
+#: src/data/research.js:33
+msgctxt "text:researchFiles.reports.meta.2.label"
+msgid "Photo withdrawals"
+msgstr "Photo withdrawals"
+
+#. text:researchFiles.reports.meta.3.label
+#: src/data/research.js:33
+msgctxt "text:researchFiles.reports.meta.3.label"
+msgid "Lead"
+msgstr "Lead"
+
+#. text:researchFiles.reports.meta.3.value
+#: src/data/research.js:33
+msgctxt "text:researchFiles.reports.meta.3.value"
+msgid "Aya Shameimaru · Hieda Archive"
+msgstr "Aya Shameimaru · Hieda Archive"
+
+#. text:researchFiles.spellcard.meta.0.label
+#: src/data/research.js:41
+msgctxt "text:researchFiles.spellcard.meta.0.label"
+msgid "Test patterns"
+msgstr "Test patterns"
+
+#. text:researchFiles.spellcard.meta.0.value
+#: src/data/research.js:41
+msgctxt "text:researchFiles.spellcard.meta.0.value"
+msgid "96 patterns"
+msgstr "96 patterns"
+
+#. text:researchFiles.spellcard.meta.1.label
+#: src/data/research.js:42
+msgctxt "text:researchFiles.spellcard.meta.1.label"
+msgid "Participants"
+msgstr "Participants"
+
+#. text:researchFiles.spellcard.meta.1.value
+#: src/data/research.js:42
+msgctxt "text:researchFiles.spellcard.meta.1.value"
+msgid "42 · 6 movement modes"
+msgstr "42 · 6 movement modes"
+
+#. text:researchFiles.spellcard.meta.2.label
+#: src/data/research.js:43
+msgctxt "text:researchFiles.spellcard.meta.2.label"
+msgid "Exit telegraph"
+msgstr "Exit telegraph"
+
+#. text:researchFiles.spellcard.meta.2.value
+#: src/data/research.js:43
+msgctxt "text:researchFiles.spellcard.meta.2.value"
+msgid "Minimum 0.8 seconds"
+msgstr "Minimum 0.8 seconds"
+
+#. text:researchFiles.spellcard.meta.3.label
+#: src/data/research.js:44
+msgctxt "text:researchFiles.spellcard.meta.3.label"
+msgid "Lead"
+msgstr "Lead"
+
+#. text:researchFiles.spellcard.meta.3.value
+#: src/data/research.js:44
+msgctxt "text:researchFiles.spellcard.meta.3.value"
+msgid "Reimu Hakurei · Marisa Kirisame · Spell-card Systems Lab"
+msgstr "Reimu Hakurei · Marisa Kirisame · Spell-card Systems Lab"

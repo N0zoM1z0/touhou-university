@@ -1,0 +1,250 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. abilityLabels.none
+#: src/js/fieldwork-model.js:252
+msgctxt "text:abilityLabels.none"
+msgid "No ability use"
+msgstr "今回は能力を使用しない"
+
+#. abilityLabels.declared
+#: src/js/fieldwork-model.js:253
+msgctxt "text:abilityLabels.declared"
+msgid "Purpose and stop command declared"
+msgstr "用途・停止号令を事前申告"
+
+#. abilityLabels.supervised
+#: src/js/fieldwork-model.js:254
+msgctxt "text:abilityLabels.supervised"
+msgid "Use only with supervisor present"
+msgstr "指導者同席時のみ使用"
+
+#. abilityLabels.sealed
+#: src/js/fieldwork-model.js:255
+msgctxt "text:abilityLabels.sealed"
+msgid "Sealed before departure; jointly released after return"
+msgstr "出発前封印・帰校後共同解除"
+
+#. emergencyLabels.return-bell
+#: src/js/fieldwork-model.js:259
+msgctxt "text:emergencyLabels.return-bell"
+msgid "Three-tone return bell"
+msgstr "三音帰校鈴"
+
+#. emergencyLabels.buddy-rope
+#: src/js/fieldwork-model.js:260
+msgctxt "text:emergencyLabels.buddy-rope"
+msgid "Buddy return rope"
+msgstr "二人帰還縄"
+
+#. emergencyLabels.host-escort
+#: src/js/fieldwork-model.js:261
+msgctxt "text:emergencyLabels.host-escort"
+msgid "Host-escorted exit"
+msgstr "現地主催者同行退出"
+
+#. emergencyLabels.clinic-route
+#: src/js/fieldwork-model.js:262
+msgctxt "text:emergencyLabels.clinic-route"
+msgid "Pre-filed Eientei / infirmary route"
+msgstr "永遠亭・校医務室事前経路"
+
+#. assessFieldworkDraft.0.0
+#: src/js/fieldwork-model.js:270
+msgctxt "text:assessFieldworkDraft.0.0"
+msgid "{value0} of three listed items selected; the host must verify the rest."
+msgstr "指定装備三件中{value0}件のみ。残りは現地主催者が照合。"
+
+#. assessFieldworkDraft.0.0
+#: src/js/fieldwork-model.js:273
+msgctxt "text:assessFieldworkDraft.0.0.2"
+msgid "High/variable-risk stations require a buddy or medical exit line at dispatch."
+msgstr "高・変動リスク所は出発机で二人または医療退出線を追記。"
+
+#. assessFieldworkDraft.0.0
+#: src/js/fieldwork-model.js:276
+msgctxt "text:assessFieldworkDraft.0.0.3"
+msgid ""
+"Clinical or mental-information work still needs encounter-by-encounter "
+"consent after declaration."
+msgstr "臨床・精神情報では能力申告後も現場で逐次同意が必要。"
+
+#. note
+#: src/js/fieldwork-model.js:388
+msgctxt "text:note"
+msgid "{value0}: Observation, report, and unresolved matters remain distinct. Seal granted."
+msgstr "{value0}：見たこと、聞いたこと、未解決を区別できた。押印。"
+
+#. note
+#: src/js/fieldwork-model.js:390
+msgctxt "text:note.2"
+msgid ""
+"{value0}: Passport may be stamped; keep the annex. Next time, place sources "
+"before the conclusion."
+msgstr "{value0}：旅券へ押印可、附件は保持。次は結論より先に資料源を。"
+
+#. note
+#: src/js/fieldwork-model.js:391
+msgctxt "text:note.3"
+msgid ""
+"{value0}: Return certified, but the dispute must not become a tidy success "
+"story. Red thread travels with the seal."
+msgstr "{value0}：帰校可。ただし争議を美しい成功談にしない。赤糸は印と共に残す。"
+
+#. lunarLabels.0
+#: src/js/fieldwork-model.js:439
+msgctxt "text:lunarLabels.0"
+msgid "new moon"
+msgstr "新月"
+
+#. lunarLabels.1
+#: src/js/fieldwork-model.js:440
+msgctxt "text:lunarLabels.1"
+msgid "waxing crescent"
+msgstr "三日月"
+
+#. lunarLabels.2
+#: src/js/fieldwork-model.js:441
+msgctxt "text:lunarLabels.2"
+msgid "pre-first-quarter"
+msgstr "上弦前"
+
+#. lunarLabels.3
+#: src/js/fieldwork-model.js:442
+msgctxt "text:lunarLabels.3"
+msgid "waxing gibbous"
+msgstr "満ちる凸月"
+
+#. lunarLabels.4
+#: src/js/fieldwork-model.js:443
+msgctxt "text:lunarLabels.4"
+msgid "full moon"
+msgstr "満月"
+
+#. lunarLabels.5
+#: src/js/fieldwork-model.js:444
+msgctxt "text:lunarLabels.5"
+msgid "waning gibbous"
+msgstr "欠ける凸月"
+
+#. lunarLabels.6
+#: src/js/fieldwork-model.js:445
+msgctxt "text:lunarLabels.6"
+msgid "post-last-quarter"
+msgstr "下弦後"
+
+#. lunarLabels.7
+#: src/js/fieldwork-model.js:446
+msgctxt "text:lunarLabels.7"
+msgid "waning crescent"
+msgstr "有明月"
+
+#. timeLabels.morning
+#: src/js/fieldwork-model.js:450
+msgctxt "text:timeLabels.morning"
+msgid "morning duty"
+msgstr "朝当番"
+
+#. timeLabels.midday
+#: src/js/fieldwork-model.js:451
+msgctxt "text:timeLabels.midday"
+msgid "midday duty"
+msgstr "日中当番"
+
+#. timeLabels.afternoon
+#: src/js/fieldwork-model.js:452
+msgctxt "text:timeLabels.afternoon"
+msgid "afternoon duty"
+msgstr "午後当番"
+
+#. timeLabels.evening
+#: src/js/fieldwork-model.js:453
+msgctxt "text:timeLabels.evening"
+msgid "evening duty"
+msgstr "夕刻当番"
+
+#. timeLabels.night
+#: src/js/fieldwork-model.js:454
+msgctxt "text:timeLabels.night"
+msgid "night duty"
+msgstr "夜間当番"
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:469
+msgctxt "text:fieldworkTravelEstimate.0"
+msgid "At new/full moon, marker four does not count as reliable."
+msgstr "新月・満月の第四標識は信頼標識に数えない。"
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:476
+msgctxt "text:fieldworkTravelEstimate.0.2"
+msgid "Night brooms detour around the patrol edge."
+msgstr "夜間山域の箒は巡回外縁へ迂回。"
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:481
+msgctxt "text:fieldworkTravelEstimate.0.3"
+msgid "Walking time excludes the stairs' disagreement over 'up'."
+msgstr "徒歩時間は階段の「上」への異議を含まない。"
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:485
+msgctxt "text:fieldworkTravelEstimate.0.4"
+msgid "Underground broom airway is airborne only where there is airspace."
+msgstr "地下箒空路は空間がある所だけ空路。"
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:489
+msgctxt "text:fieldworkTravelEstimate.0.5"
+msgid "Boundary passage is short; annex review uses ordinary time."
+msgstr "境界通行は短いが、附件照合は通常時間。"
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:492
+msgctxt "text:fieldworkTravelEstimate.0.6"
+msgid "Expected publication is nine minutes before arrival."
+msgstr "記事は到着九分前を予定。"
+
+#. fieldworkMapNotice.0
+#: src/js/fieldwork-model.js:516
+msgctxt "text:fieldworkMapNotice.0"
+msgid "Fieldwork passport is on duty at {value0}; return line remains until stamping."
+msgstr "フィールド旅券は{value0}で当番中。帰校線は押印まで保持。"
+
+#. base.0.body.0
+#: src/js/fieldwork-model.js:530
+msgctxt "text:base.0.body.0"
+msgid "Return stamped. {value0}"
+msgstr "帰校押印済み。{value0}。"
+
+#. base.0.body.0
+#: src/js/fieldwork-model.js:531
+msgctxt "text:base.0.body.0.2"
+msgid ""
+"Dispatch filed with {value0} condition(s). Before leaving, verify the site "
+"is still on the same side today."
+msgstr "派遣令保存済み。条件{value0}件。出発前に現地が今日も同じ側か確認。"
+
+#. fieldworkCommunityPosts.0.0.title.0
+#: src/js/fieldwork-model.js:543
+msgctxt "text:fieldworkCommunityPosts.0.0.title.0"
+msgid "{value0} return annex was not tidily deleted"
+msgstr "{value0} 帰還附件はきれいに削除されなかった"
+
+#. base.0.author
+#: src/js/fieldwork-model.js:527
+msgctxt "text:base.0.author"
+msgid "Domestic Placement Dispatch Desk"
+msgstr "境内実習派遣机"
+
+#. base.0.title
+#: src/js/fieldwork-model.js:528
+msgctxt "text:base.0.title"
+msgid "{value0} · {value1} dispatch"
+msgstr "{value0}・{value1}派遣票"

@@ -1,0 +1,382 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. courseTerm.label
+#: src/data/courses.js:18
+msgctxt "text:courseTerm.label"
+msgid "Gensokyo 142 · Autumn"
+msgstr "幻想曆 142・秋季"
+
+#. courseTerm.addDeadline
+#: src/data/courses.js:19
+msgctxt "text:courseTerm.addDeadline"
+msgid "Add through 14 September"
+msgstr "加選至 9 月 14 日"
+
+#. courseTerm.dropDeadline
+#: src/data/courses.js:20
+msgctxt "text:courseTerm.dropDeadline"
+msgid "Drop through 5 October"
+msgstr "退選至 10 月 5 日"
+
+#. courseDays.mon
+#: src/data/courses.js:25
+msgctxt "text:courseDays.mon"
+msgid "Monday"
+msgstr "週一"
+
+#. courseDays.tue
+#: src/data/courses.js:26
+msgctxt "text:courseDays.tue"
+msgid "Tuesday"
+msgstr "週二"
+
+#. courseDays.wed
+#: src/data/courses.js:27
+msgctxt "text:courseDays.wed"
+msgid "Wednesday"
+msgstr "週三"
+
+#. courseDays.thu
+#: src/data/courses.js:28
+msgctxt "text:courseDays.thu"
+msgid "Thursday"
+msgstr "週四"
+
+#. courseDays.fri
+#: src/data/courses.js:29
+msgctxt "text:courseDays.fri"
+msgid "Friday"
+msgstr "週五"
+
+#. courseDays.sat
+#: src/data/courses.js:30
+msgctxt "text:courseDays.sat"
+msgid "Saturday"
+msgstr "週六"
+
+#. courseDays.lunar
+#: src/data/courses.js:31
+msgctxt "text:courseDays.lunar"
+msgid "Lunar session"
+msgstr "月相指定日"
+
+#. courseDays.boundary
+#: src/data/courses.js:32
+msgctxt "text:courseDays.boundary"
+msgid "Boundary-adjacent day"
+msgstr "邊界相鄰日"
+
+#. teachers.reimu
+#: src/data/courses.js:45
+msgctxt "text:teachers.reimu"
+msgid "Reimu Hakurei"
+msgstr "博麗 靈夢"
+
+#. teachers.yukari
+#: src/data/courses.js:46
+msgctxt "text:teachers.yukari"
+msgid "Yukari Yakumo"
+msgstr "八雲 紫"
+
+#. teachers.keine
+#: src/data/courses.js:47
+msgctxt "text:teachers.keine"
+msgid "Keine Kamishirasawa"
+msgstr "上白澤 慧音"
+
+#. teachers.akyuu
+#: src/data/courses.js:48
+msgctxt "text:teachers.akyuu"
+msgid "Hieda no Akyuu"
+msgstr "稗田 阿求"
+
+#. teachers.patchouli
+#: src/data/courses.js:49
+msgctxt "text:teachers.patchouli"
+msgid "Patchouli Knowledge"
+msgstr "帕秋莉・諾蕾姬"
+
+#. teachers.marisa
+#: src/data/courses.js:50
+msgctxt "text:teachers.marisa"
+msgid "Marisa Kirisame"
+msgstr "霧雨 魔理沙"
+
+#. teachers.alice
+#: src/data/courses.js:51
+msgctxt "text:teachers.alice"
+msgid "Alice Margatroid"
+msgstr "愛麗絲・瑪格特洛依德"
+
+#. teachers.eirin
+#: src/data/courses.js:52
+msgctxt "text:teachers.eirin"
+msgid "Eirin Yagokoro"
+msgstr "八意 永琳"
+
+#. teachers.reisen
+#: src/data/courses.js:53
+msgctxt "text:teachers.reisen"
+msgid "Reisen Udongein Inaba"
+msgstr "鈴仙・優曇華院・因幡"
+
+#. teachers.nitori
+#: src/data/courses.js:54
+msgctxt "text:teachers.nitori"
+msgid "Nitori Kawashiro"
+msgstr "河城 荷取"
+
+#. teachers.aya
+#: src/data/courses.js:55
+msgctxt "text:teachers.aya"
+msgid "Aya Shameimaru"
+msgstr "射命丸 文"
+
+#. teachers.hatate
+#: src/data/courses.js:56
+msgctxt "text:teachers.hatate"
+msgid "Hatate Himekaidou"
+msgstr "姬海棠 果"
+
+#. teachers.sanae
+#: src/data/courses.js:57
+msgctxt "text:teachers.sanae"
+msgid "Sanae Kochiya"
+msgstr "東風谷 早苗"
+
+#. teachers.byakuren
+#: src/data/courses.js:58
+msgctxt "text:teachers.byakuren"
+msgid "Byakuren Hijiri"
+msgstr "聖 白蓮"
+
+#. teachers.miko
+#: src/data/courses.js:59
+msgctxt "text:teachers.miko"
+msgid "Toyosatomimi no Miko"
+msgstr "豐聰耳 神子"
+
+#. meta.BIS-101.mon.7
+#: src/data/courses.js:63
+msgctxt "text:meta.BIS-101.mon.7"
+msgid "In the first class, students draw exit routes. Donation-box shapes earn no bonus."
+msgstr "第一堂先畫退路；畫成賽錢箱形狀不加分。"
+
+#. meta.BIS-132.tue.7
+#: src/data/courses.js:64
+msgctxt "text:meta.BIS-132.tue.7"
+msgid "Keep the first field note even when the second is less embarrassing."
+msgstr "現場筆記須保留第一版，即使第二版比較不丟臉。"
+
+#. meta.BIS-204.thu.7
+#: src/data/courses.js:65
+msgctxt "text:meta.BIS-204.thu.7"
+msgid "Exit design is 40%; a beautiful spell that cannot stop fails."
+msgstr "退路設計占 40%；漂亮但不能停下來的符卡不及格。"
+
+#. meta.BIS-271.boundary.7
+#: src/data/courses.js:66
+msgctxt "text:meta.BIS-271.boundary.7"
+msgid "The room borders every room. The system warns but declines to decide."
+msgstr "教室與所有教室邊界相鄰，系統只提出警告，不敢替你判斷。"
+
+#. meta.BIS-401.fri.7
+#: src/data/courses.js:67
+msgctxt "text:meta.BIS-401.fri.7"
+msgid "Once full, overrides require the incident's own signature."
+msgstr "滿班後只接受由異變本人簽名的加簽單。"
+
+#. meta.HRS-100.mon.7
+#: src/data/courses.js:69
+msgctxt "text:meta.HRS-100.mon.7"
+msgid "Three versions of one event are welcome; do not call all three final truth."
+msgstr "同一事件可交三個版本；請勿把三份都寫成最後真相。"
+
+#. meta.HRS-126.tue.7
+#: src/data/courses.js:70
+msgctxt "text:meta.HRS-126.tue.7"
+msgid "The room sits inside the source volume and unusually conflicts with Grimoire Reading."
+msgstr "教室位於《缺頁學》原書內部，與魔導書閱讀課構成非普通衝堂。"
+
+#. meta.HRS-208.wed.7
+#: src/data/courses.js:71
+msgctxt "text:meta.HRS-208.wed.7"
+msgid "For narrators over 300, “when I was young” needs a date range."
+msgstr "訪談超過三百年者時，『小時候』必須另附年代範圍。"
+
+#. meta.HRS-250.wed.7
+#: src/data/courses.js:72
+msgctxt "text:meta.HRS-250.wed.7"
+msgid "If a Wednesday is erased, the make-up occurs in one of two valid calendars."
+msgstr "若某個週三被歷史刪除，補課日在兩份校曆中擇一有效。"
+
+#. meta.HRS-410.fri.7
+#: src/data/courses.js:73
+msgctxt "text:meta.HRS-410.fri.7"
+msgid "The capstone must preserve one version you distrust but cannot delete."
+msgstr "畢業檔案必須容納一份你不相信、但不能刪掉的版本。"
+
+#. meta.MTP-111.mon.7
+#: src/data/courses.js:75
+msgctxt "text:meta.MTP-111.mon.7"
+msgid "A wrong element order is not penalized until the desk grows scissors."
+msgstr "元素順序寫錯不會立刻扣分；桌子先長出剪刀時才會。"
+
+#. meta.MTP-143.thu.7
+#: src/data/courses.js:76
+msgctxt "text:meta.MTP-143.thu.7"
+msgid ""
+"The classroom is a book that reshelves itself; this course cannot be taken "
+"alongside HRS-126."
+msgstr "本課教室是一本會移架的書，與 HRS-126 不得同修。"
+
+#. meta.MTP-220.tue.7
+#: src/data/courses.js:77
+msgctxt "text:meta.MTP-220.tue.7"
+msgid "A doll cannot answer roll call unless it can also answer the follow-up."
+msgstr "遠端人偶代為點名無效；人偶若能回答追問則另案討論。"
+
+#. meta.MTP-308.fri.7
+#: src/data/courses.js:78
+msgctxt "text:meta.MTP-308.fri.7"
+msgid "“Found in the forest” may occupy at most half the provenance field."
+msgstr "材料來源欄不可只寫『森林裡撿的』，最多占半格。"
+
+#. meta.MTP-430.sat.7
+#: src/data/courses.js:79
+msgctxt "text:meta.MTP-430.sat.7"
+msgid "An uninformed peer reproduces the final; blast direction counts as a result."
+msgstr "期末作品須由不知情同學依說明書重現；爆炸方向也算結果。"
+
+#. meta.LML-102.mon.7
+#: src/data/courses.js:81
+msgctxt "text:meta.LML-102.mon.7"
+msgid "Week one forbids assuming identical pulses, wings, or life states."
+msgstr "第一週禁止假設所有人的脈搏、翅膀或生死狀態相同。"
+
+#. meta.LML-166.lunar.7
+#: src/data/courses.js:82
+msgctxt "text:meta.LML-166.lunar.7"
+msgid "Meet once under full and non-full moons; attending only the easier one is not a control."
+msgstr "滿月與非滿月各上一次；只出席比較舒服的一次不算對照。"
+
+#. meta.LML-240.tue.7
+#: src/data/courses.js:83
+msgctxt "text:meta.LML-240.tue.7"
+msgid "Every claim of permanence must say for whom and for how long."
+msgstr "任何『永久』主張都要先定義對誰、維持多久。"
+
+#. meta.LML-351.thu.7
+#: src/data/courses.js:84
+msgctxt "text:meta.LML-351.thu.7"
+msgid "Four lanterns appear in the navigation trial; the fourth is not bonus credit."
+msgstr "導航考核會放置四盞燈；第四盞不是加分題。"
+
+#. meta.LML-602.sat.7
+#: src/data/courses.js:85
+msgctxt "text:meta.LML-602.sat.7"
+msgid "The night clinic has no waitlist; patients do not queue by registrar order."
+msgstr "夜診輪值不設候補；病人不按教務處排隊。"
+
+#. meta.KPE-110.mon.7
+#: src/data/courses.js:87
+msgctxt "text:meta.KPE-110.mon.7"
+msgid "A leaking turbine is not always failure; if it powers another, revise the objective."
+msgstr "實驗水輪漏水不必然失敗；若它驅動了另一台水輪，須重寫目的。"
+
+#. meta.KPE-148.tue.7
+#: src/data/courses.js:88
+msgctxt "text:meta.KPE-148.tue.7"
+msgid "Every number needs units, timestamp, and the instrument's tape batch."
+msgstr "每個數字都要帶單位、時間戳與儀器上那塊膠帶的批次。"
+
+#. meta.KPE-215.wed.7
+#: src/data/courses.js:89
+msgctxt "text:meta.KPE-215.wed.7"
+msgid "A box that cannot open is not repairable even when smoking normally."
+msgstr "打不開的盒子不算可維修，即使裡面仍在正常冒煙。"
+
+#. meta.KPE-322.thu.7
+#: src/data/courses.js:90
+msgctxt "text:meta.KPE-322.thu.7"
+msgid "Village users must touch the controls; a kappa demo is not user testing."
+msgstr "村落試運轉須讓真正使用者碰按鈕；河童演示不算使用者測試。"
+
+#. meta.KPE-440.sat.7
+#: src/data/courses.js:91
+msgctxt "text:meta.KPE-440.sat.7"
+msgid ""
+"The build must run 30 days; tearing failures from the calendar does not "
+"restore continuity."
+msgstr "作品需連續運轉三十日；把故障日從日曆撕掉不延長連續性。"
+
+#. meta.TJM-105.mon.7
+#: src/data/courses.js:93
+msgctxt "text:meta.TJM-105.mon.7"
+msgid "A source may fly into frame and still request anonymity; speed is not consent."
+msgstr "消息來源飛到鏡頭前仍可要求匿名；速度不構成同意。"
+
+#. meta.TJM-144.tue.7
+#: src/data/courses.js:94
+msgctxt "text:meta.TJM-144.tue.7"
+msgid ""
+"Whether you can photograph it and whether you should publish it are graded "
+"separately; the dean often objects."
+msgstr "拍得到與應不應刊出分開評分；院長對此常提出異議。"
+
+#. meta.TJM-212.boundary.7
+#: src/data/courses.js:95
+msgctxt "text:meta.TJM-212.boundary.7"
+msgid ""
+"During an incident, class time moves toward it; waitlisted students provide "
+"pursuit transport."
+msgstr "異變發生時上課時間會移向異變；候補者須自備能追上的交通。"
+
+#. meta.TJM-301.fri.7
+#: src/data/courses.js:96
+msgctxt "text:meta.TJM-301.fri.7"
+msgid "This week's case may be the teacher's morning headline; correction is rarely faster."
+msgstr "本週案例可能是教師今早刊出的標題；訂正速度不保證比原文快。"
+
+#. meta.TJM-420.sat.7
+#: src/data/courses.js:97
+msgctxt "text:meta.TJM-420.sat.7"
+msgid "Three reports need evidenced disagreement, not merely three headlines."
+msgstr "三報須互相矛盾得有證據，不能只靠三個不同標題。"
+
+#. meta.FCP-104.tue.7
+#: src/data/courses.js:99
+msgctxt "text:meta.FCP-104.tue.7"
+msgid "Map shrines and temples—and people who want recruitment from neither."
+msgstr "田野圖要標示神社、寺院，也要標示不想被任何一方招募的人。"
+
+#. meta.FCP-160.wed.7
+#: src/data/courses.js:100
+msgctxt "text:meta.FCP-160.wed.7"
+msgid "Ending the meeting is facilitation; carrying it to the dorm does not extend class."
+msgstr "散會也是主持的一部分；把爭論帶回宿舍不算延長討論。"
+
+#. meta.FCP-233.thu.7
+#: src/data/courses.js:101
+msgctxt "text:meta.FCP-233.thu.7"
+msgid "After hearing eleven wishes, disclose which will not be met."
+msgstr "聽見十一種願望後仍須公開哪些不會被滿足。"
+
+#. meta.FCP-310.fri.7
+#: src/data/courses.js:102
+msgctxt "text:meta.FCP-310.fri.7"
+msgid "Three traditions may book one stage; “build another” is not a complete answer."
+msgstr "三個宗教傳統可能同時預約主舞台；本課不接受『多蓋一座』作唯一答案。"
+
+#. meta.FCP-402.sat.7
+#: src/data/courses.js:103
+msgctxt "text:meta.FCP-402.sat.7"
+msgid "The agreement needs three signatures; dissent follows in equal-sized type."
+msgstr "協議需三方簽字，反對意見附在正文後且不得縮成較小字。"

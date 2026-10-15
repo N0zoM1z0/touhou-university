@@ -1,0 +1,916 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. propertyJurisdictions.university
+#: src/data/property.js:34
+msgctxt "text:propertyJurisdictions.university"
+msgid "Campus find"
+msgstr "Campus find"
+
+#. propertyJurisdictions.residence
+#: src/data/property.js:35
+msgctxt "text:propertyJurisdictions.residence"
+msgid "Residential commons"
+msgstr "Residential commons"
+
+#. propertyJurisdictions.library
+#: src/data/property.js:36
+msgctxt "text:propertyJurisdictions.library"
+msgid "Misty Lake Library holding"
+msgstr "Misty Lake Library holding"
+
+#. propertyJurisdictions.kourindou
+#: src/data/property.js:37
+msgctxt "text:propertyJurisdictions.kourindou"
+msgid "Kourindou Outside-World object"
+msgstr "Kourindou Outside-World object"
+
+#. propertyJurisdictions.shrine
+#: src/data/property.js:38
+msgctxt "text:propertyJurisdictions.shrine"
+msgid "Hakurei Shrine deposit"
+msgstr "Hakurei Shrine deposit"
+
+#. propertyJurisdictions.autonomous
+#: src/data/property.js:39
+msgctxt "text:propertyJurisdictions.autonomous"
+msgid "Tsukumogami self-filing"
+msgstr "Tsukumogami self-filing"
+
+#. propertyItems.0.0.name
+#: src/data/property.js:47
+msgctxt "text:propertyItems.0.0.name"
+msgid "Silver watch that rejects its former holder"
+msgstr "Silver watch that rejects its former holder"
+
+#. propertyItems.0.0.foundAt
+#: src/data/property.js:48
+msgctxt "text:propertyItems.0.0.foundAt"
+msgid "The third yesterday of the Scarlet trainee shuttle"
+msgstr "The third yesterday of the Scarlet trainee shuttle"
+
+#. propertyItems.0.0.foundBy
+#: src/data/property.js:49
+msgctxt "text:propertyItems.0.0.foundBy"
+msgid "Clocktower duty fairy (signed before finding it)"
+msgstr "Clocktower duty fairy (signed before finding it)"
+
+#. propertyItems.0.0.condition
+#: src/data/property.js:50
+msgctxt "text:propertyItems.0.0.condition"
+msgid "Keeps exact time; loses one second near Sakuya"
+msgstr "Keeps exact time; loses one second near Sakuya"
+
+#. propertyItems.0.0.statement
+#: src/data/property.js:51
+msgctxt "text:propertyItems.0.0.statement"
+msgid "“I was not lost; I resigned. Replace ‘owner’ with ‘former employer’.”"
+msgstr "“I was not lost; I resigned. Replace ‘owner’ with ‘former employer’.”"
+
+#. propertyItems.0.0.dispute
+#: src/data/property.js:52
+msgctxt "text:propertyItems.0.0.dispute"
+msgid "The Scarlet duty log, stopped-time interval, and an object's right to resign conflict."
+msgstr "The Scarlet duty log, stopped-time interval, and an object's right to resign conflict."
+
+#. propertyItems.0.0.evidence.0
+#: src/data/property.js:55
+msgctxt "text:propertyItems.0.0.evidence.0"
+msgid "SDM-03 is engraved inside; 03 insists it is a room number"
+msgstr "SDM-03 is engraved inside; 03 insists it is a room number"
+
+#. propertyItems.0.0.evidence.1
+#: src/data/property.js:56
+msgctxt "text:propertyItems.0.0.evidence.1"
+msgid "Three mutually disagreeing last-shuttle timetables"
+msgstr "Three mutually disagreeing last-shuttle timetables"
+
+#. propertyItems.0.0.evidence.2
+#: src/data/property.js:57
+msgctxt "text:propertyItems.0.0.evidence.2"
+msgid "A written resignation one second long"
+msgstr "A written resignation one second long"
+
+#. propertyItems.0.0.responses.0.1
+#: src/data/property.js:61
+msgctxt "text:propertyItems.0.0.responses.0.1"
+msgid "Return to the Mansion under a revocable custody contract"
+msgstr "Return to the Mansion under a revocable custody contract"
+
+#. propertyItems.0.0.responses.1.1
+#: src/data/property.js:62
+msgctxt "text:propertyItems.0.0.responses.1.1"
+msgid "Recognise resignation and lodge it in the History Hall clock cabinet"
+msgstr "Recognise resignation and lodge it in the History Hall clock cabinet"
+
+#. propertyItems.0.0.responses.2.1
+#: src/data/property.js:63
+msgctxt "text:propertyItems.0.0.responses.2.1"
+msgid "Require Sakuya and the watch to testify within the same minute"
+msgstr "Require Sakuya and the watch to testify within the same minute"
+
+#. propertyItems.1.0.name
+#: src/data/property.js:70
+msgctxt "text:propertyItems.1.0.name"
+msgid "Patched umbrella that reports itself lost only in sunshine"
+msgstr "Patched umbrella that reports itself lost only in sunshine"
+
+#. propertyItems.1.0.foundAt
+#: src/data/property.js:71
+msgctxt "text:propertyItems.1.0.foundAt"
+msgid "Above the Hakurei Gate donation box, still floating after rain"
+msgstr "Above the Hakurei Gate donation box, still floating after rain"
+
+#. propertyItems.1.0.foundBy
+#: src/data/property.js:72
+msgctxt "text:propertyItems.1.0.foundBy"
+msgid "Kogasa Tatara, claiming to be witness, companion, and weather"
+msgstr "Kogasa Tatara, claiming to be witness, companion, and weather"
+
+#. propertyItems.1.0.condition
+#: src/data/property.js:73
+msgctxt "text:propertyItems.1.0.condition"
+msgid "Nine kappa-tape repairs; ribs startle whoever turns the form"
+msgstr "Nine kappa-tape repairs; ribs startle whoever turns the form"
+
+#. propertyItems.1.0.statement
+#: src/data/property.js:74
+msgctxt "text:propertyItems.1.0.statement"
+msgid "“My holder remembers me only when it rains. That is seasonal abandonment.”"
+msgstr "“My holder remembers me only when it rains. That is seasonal abandonment.”"
+
+#. propertyItems.1.0.dispute
+#: src/data/property.js:75
+msgctxt "text:propertyItems.1.0.dispute"
+msgid ""
+"The former holder brings a receipt; the umbrella brings nineteen consecutive "
+"sunny days of loneliness."
+msgstr ""
+"The former holder brings a receipt; the umbrella brings nineteen consecutive "
+"sunny days of loneliness."
+
+#. propertyItems.1.0.evidence.0
+#: src/data/property.js:78
+msgctxt "text:propertyItems.1.0.evidence.0"
+msgid "Faded Kourindou tag naming it a “portable roof”"
+msgstr "Faded Kourindou tag naming it a “portable roof”"
+
+#. propertyItems.1.0.evidence.1
+#: src/data/property.js:79
+msgctxt "text:propertyItems.1.0.evidence.1"
+msgid "Handle wear matches the holder's grip"
+msgstr "Handle wear matches the holder's grip"
+
+#. propertyItems.1.0.evidence.2
+#: src/data/property.js:80
+msgctxt "text:propertyItems.1.0.evidence.2"
+msgid "Kogasa's scare rota contains two extra Sundays"
+msgstr "Kogasa's scare rota contains two extra Sundays"
+
+#. propertyItems.1.0.responses.0.1
+#: src/data/property.js:84
+msgctxt "text:propertyItems.1.0.responses.0.1"
+msgid "Return with a weekly fair-weather outing clause"
+msgstr "Return with a weekly fair-weather outing clause"
+
+#. propertyItems.1.0.responses.1.1
+#: src/data/property.js:85
+msgctxt "text:propertyItems.1.0.responses.1.1"
+msgid "Place in the campus umbrella foster rack under Kogasa"
+msgstr "Place in the campus umbrella foster rack under Kogasa"
+
+#. propertyItems.1.0.responses.2.1
+#: src/data/property.js:86
+msgctxt "text:propertyItems.1.0.responses.2.1"
+msgid "Register as an autonomous Hakurei Gate rain shelter"
+msgstr "Register as an autonomous Hakurei Gate rain shelter"
+
+#. propertyItems.2.0.name
+#: src/data/property.js:93
+msgctxt "text:propertyItems.2.0.name"
+msgid "Bookmark insisting the book lost it"
+msgstr "Bookmark insisting the book lost it"
+
+#. propertyItems.2.0.foundAt
+#: src/data/property.js:94
+msgctxt "text:propertyItems.2.0.foundAt"
+msgid "Between a self-reshelving grimoire and cookbook"
+msgstr "Between a self-reshelving grimoire and cookbook"
+
+#. propertyItems.2.0.foundBy
+#: src/data/property.js:95
+msgctxt "text:propertyItems.2.0.foundBy"
+msgid "Koakuma, annotating “I did not put it there” three times"
+msgstr "Koakuma, annotating “I did not put it there” three times"
+
+#. propertyItems.2.0.condition
+#: src/data/property.js:96
+msgctxt "text:propertyItems.2.0.condition"
+msgid "Scorched corners; recites the last borrower's unfinished sentence"
+msgstr "Scorched corners; recites the last borrower's unfinished sentence"
+
+#. propertyItems.2.0.statement
+#: src/data/property.js:97
+msgctxt "text:propertyItems.2.0.statement"
+msgid "“Call number ML-R-009 flew away. I am the one who stayed in place.”"
+msgstr "“Call number ML-R-009 flew away. I am the one who stayed in place.”"
+
+#. propertyItems.2.0.dispute
+#: src/data/property.js:98
+msgctxt "text:propertyItems.2.0.dispute"
+msgid "If part of the holding it should return; if reader notes, it should not read them aloud."
+msgstr "If part of the holding it should return; if reader notes, it should not read them aloud."
+
+#. propertyItems.2.0.evidence.0
+#: src/data/property.js:101
+msgctxt "text:propertyItems.2.0.evidence.0"
+msgid "Three loans record the book but never the bookmark"
+msgstr "Three loans record the book but never the bookmark"
+
+#. propertyItems.2.0.evidence.1
+#: src/data/property.js:102
+msgctxt "text:propertyItems.2.0.evidence.1"
+msgid "Paper fibres match a Hieda correction leaf"
+msgstr "Paper fibres match a Hieda correction leaf"
+
+#. propertyItems.2.0.evidence.2
+#: src/data/property.js:103
+msgctxt "text:propertyItems.2.0.evidence.2"
+msgid "A shelf's note: “witnessed, declines testimony”"
+msgstr "A shelf's note: “witnessed, declines testimony”"
+
+#. propertyItems.2.0.responses.0.1
+#: src/data/property.js:107
+msgctxt "text:propertyItems.2.0.responses.0.1"
+msgid "Give the bookmark its own call number"
+msgstr "Give the bookmark its own call number"
+
+#. propertyItems.2.0.responses.1.1
+#: src/data/property.js:108
+msgctxt "text:propertyItems.2.0.responses.1.1"
+msgid "Return it to the book and forbid reciting reader notes"
+msgstr "Return it to the book and forbid reciting reader notes"
+
+#. propertyItems.2.0.responses.2.1
+#: src/data/property.js:109
+msgctxt "text:propertyItems.2.0.responses.2.1"
+msgid "Recall the book and convene if it can find the hearing room"
+msgstr "Recall the book and convene if it can find the hearing room"
+
+#. propertyItems.3.0.name
+#: src/data/property.js:116
+msgctxt "text:propertyItems.3.0.name"
+msgid "Wrench that declares everything “temporarily repairable”"
+msgstr "Wrench that declares everything “temporarily repairable”"
+
+#. propertyItems.3.0.foundAt
+#: src/data/property.js:117
+msgctxt "text:propertyItems.3.0.foundAt"
+msgid "Outside the Kappa Workshop cordon, which it tightened"
+msgstr "Outside the Kappa Workshop cordon, which it tightened"
+
+#. propertyItems.3.0.foundBy
+#: src/data/property.js:118
+msgctxt "text:propertyItems.3.0.foundBy"
+msgid "Nitori's third tool inventory"
+msgstr "Nitori's third tool inventory"
+
+#. propertyItems.3.0.condition
+#: src/data/property.js:119
+msgctxt "text:propertyItems.3.0.condition"
+msgid "Carries three generations of tape; size markings bargain"
+msgstr "Carries three generations of tape; size markings bargain"
+
+#. propertyItems.3.0.statement
+#: src/data/property.js:120
+msgctxt "text:propertyItems.3.0.statement"
+msgid "“The workshop listed me as lost because it refuses to admit I was doing overtime.”"
+msgstr "“The workshop listed me as lost because it refuses to admit I was doing overtime.”"
+
+#. propertyItems.3.0.dispute
+#: src/data/property.js:121
+msgctxt "text:propertyItems.3.0.dispute"
+msgid "Who owns the tool, its overtime, and the lost-property box it repaired."
+msgstr "Who owns the tool, its overtime, and the lost-property box it repaired."
+
+#. propertyItems.3.0.evidence.0
+#: src/data/property.js:124
+msgctxt "text:propertyItems.3.0.evidence.0"
+msgid "Stamped KW-17; the workshop has four KW-17s"
+msgstr "Stamped KW-17; the workshop has four KW-17s"
+
+#. propertyItems.3.0.evidence.1
+#: src/data/property.js:125
+msgctxt "text:propertyItems.3.0.evidence.1"
+msgid "An unsigned 27-hour overtime sheet"
+msgstr "An unsigned 27-hour overtime sheet"
+
+#. propertyItems.3.0.evidence.2
+#: src/data/property.js:126
+msgctxt "text:propertyItems.3.0.evidence.2"
+msgid "The repaired box is marked “permanently temporary”"
+msgstr "The repaired box is marked “permanently temporary”"
+
+#. propertyItems.3.0.responses.0.1
+#: src/data/property.js:130
+msgctxt "text:propertyItems.3.0.responses.0.1"
+msgid "Return to the workshop and record its duty hours"
+msgstr "Return to the workshop and record its duty hours"
+
+#. propertyItems.3.0.responses.1.1
+#: src/data/property.js:131
+msgctxt "text:propertyItems.3.0.responses.1.1"
+msgid "Register as an autonomous contractor paid one cucumber per repair"
+msgstr "Register as an autonomous contractor paid one cucumber per repair"
+
+#. propertyItems.3.0.responses.2.1
+#: src/data/property.js:132
+msgctxt "text:propertyItems.3.0.responses.2.1"
+msgid "Hold until all four KW-17s complete identity reconciliation"
+msgstr "Hold until all four KW-17s complete identity reconciliation"
+
+#. propertyItems.4.0.name
+#: src/data/property.js:139
+msgctxt "text:propertyItems.4.0.name"
+msgid "Hair ribbon claimed by two half-phantom rolls"
+msgstr "Hair ribbon claimed by two half-phantom rolls"
+
+#. propertyItems.4.0.foundAt
+#: src/data/property.js:140
+msgctxt "text:propertyItems.4.0.foundAt"
+msgid "Between the Hakugyokurou return gate and Higan queue"
+msgstr "Between the Hakugyokurou return gate and Higan queue"
+
+#. propertyItems.4.0.foundBy
+#: src/data/property.js:141
+msgctxt "text:propertyItems.4.0.foundBy"
+msgid "Youmu Konpaku; her phantom half drew a circle in the witness box"
+msgstr "Youmu Konpaku; her phantom half drew a circle in the witness box"
+
+#. propertyItems.4.0.condition
+#: src/data/property.js:142
+msgctxt "text:propertyItems.4.0.condition"
+msgid "Half ties tightly; half passes through every evidence box"
+msgstr "Half ties tightly; half passes through every evidence box"
+
+#. propertyItems.4.0.statement
+#: src/data/property.js:143
+msgctxt "text:propertyItems.4.0.statement"
+msgid "“Do not ask which half owns me; first prove your form is whole.”"
+msgstr "“Do not ask which half owns me; first prove your form is whole.”"
+
+#. propertyItems.4.0.dispute
+#: src/data/property.js:144
+msgctxt "text:propertyItems.4.0.dispute"
+msgid "Two rolls each list half, totalling one and a half; Yuyuko also claims napkin use."
+msgstr "Two rolls each list half, totalling one and a half; Yuyuko also claims napkin use."
+
+#. propertyItems.4.0.evidence.0
+#: src/data/property.js:147
+msgctxt "text:propertyItems.4.0.evidence.0"
+msgid "Youmu's full-item claim"
+msgstr "Youmu's full-item claim"
+
+#. propertyItems.4.0.evidence.1
+#: src/data/property.js:148
+msgctxt "text:propertyItems.4.0.evidence.1"
+msgid "Two phantom rolls, one written through the paper"
+msgstr "Two phantom rolls, one written through the paper"
+
+#. propertyItems.4.0.evidence.2
+#: src/data/property.js:149
+msgctxt "text:propertyItems.4.0.evidence.2"
+msgid "Yuyuko's lunch booking scheduled after the hearing"
+msgstr "Yuyuko's lunch booking scheduled after the hearing"
+
+#. propertyItems.4.0.responses.0.1
+#: src/data/property.js:153
+msgctxt "text:propertyItems.4.0.responses.0.1"
+msgid "Return to Youmu while preserving the one-and-a-half correction"
+msgstr "Return to Youmu while preserving the one-and-a-half correction"
+
+#. propertyItems.4.0.responses.1.1
+#: src/data/property.js:154
+msgctxt "text:propertyItems.4.0.responses.1.1"
+msgid "Register as shared by human and phantom without physical division"
+msgstr "Register as shared by human and phantom without physical division"
+
+#. propertyItems.4.0.responses.2.1
+#: src/data/property.js:155
+msgctxt "text:propertyItems.4.0.responses.2.1"
+msgid "Let the ribbon choose which side it ties each day"
+msgstr "Let the ribbon choose which side it ties each day"
+
+#. propertyItems.5.0.name
+#: src/data/property.js:162
+msgctxt "text:propertyItems.5.0.name"
+msgid "Moon-rabbit shuttle ticket whose destination is “yesterday”"
+msgstr "Moon-rabbit shuttle ticket whose destination is “yesterday”"
+
+#. propertyItems.5.0.foundAt
+#: src/data/property.js:163
+msgctxt "text:propertyItems.5.0.foundAt"
+msgid "Eientei bamboo stop, Exit Zero"
+msgstr "Eientei bamboo stop, Exit Zero"
+
+#. propertyItems.5.0.foundBy
+#: src/data/property.js:164
+msgctxt "text:propertyItems.5.0.foundBy"
+msgid "Reisen; Tewi added “possibly tomorrow” on the reverse"
+msgstr "Reisen; Tewi added “possibly tomorrow” on the reverse"
+
+#. propertyItems.5.0.condition
+#: src/data/property.js:165
+msgctxt "text:propertyItems.5.0.condition"
+msgid "Unpunched, yet bears three arrival stamps"
+msgstr "Unpunched, yet bears three arrival stamps"
+
+#. propertyItems.5.0.statement
+#: src/data/property.js:166
+msgctxt "text:propertyItems.5.0.statement"
+msgid "“I am not lost property; I am a journey record that has not happened yet.”"
+msgstr "“I am not lost property; I am a journey record that has not happened yet.”"
+
+#. propertyItems.5.0.dispute
+#: src/data/property.js:167
+msgctxt "text:propertyItems.5.0.dispute"
+msgid ""
+"Unused tickets merit refunds; arrived tickets belong in archives; the "
+"destination does not exist today."
+msgstr ""
+"Unused tickets merit refunds; arrived tickets belong in archives; the "
+"destination does not exist today."
+
+#. propertyItems.5.0.evidence.0
+#: src/data/property.js:170
+msgctxt "text:propertyItems.5.0.evidence.0"
+msgid "Three Eientei arrival seals in order two, one, three"
+msgstr "Three Eientei arrival seals in order two, one, three"
+
+#. propertyItems.5.0.evidence.1
+#: src/data/property.js:171
+msgctxt "text:propertyItems.5.0.evidence.1"
+msgid "Tewi's luck guarantee, guarantor: “depends”"
+msgstr "Tewi's luck guarantee, guarantor: “depends”"
+
+#. propertyItems.5.0.evidence.2
+#: src/data/property.js:172
+msgctxt "text:propertyItems.5.0.evidence.2"
+msgid "Lunar table says yesterday's moon appears tonight"
+msgstr "Lunar table says yesterday's moon appears tonight"
+
+#. propertyItems.5.0.responses.0.1
+#: src/data/property.js:176
+msgctxt "text:propertyItems.5.0.responses.0.1"
+msgid "Archive as future-arrival evidence at Hieda Hall"
+msgstr "Archive as future-arrival evidence at Hieda Hall"
+
+#. propertyItems.5.0.responses.1.1
+#: src/data/property.js:177
+msgctxt "text:propertyItems.5.0.responses.1.1"
+msgid "Redeem for one return shuttle after full moon"
+msgstr "Redeem for one return shuttle after full moon"
+
+#. propertyItems.5.0.responses.2.1
+#: src/data/property.js:178
+msgctxt "text:propertyItems.5.0.responses.2.1"
+msgid "Hold until yesterday formally arrives"
+msgstr "Hold until yesterday formally arrives"
+
+#. propertyItems.6.0.name
+#: src/data/property.js:185
+msgctxt "text:propertyItems.6.0.name"
+msgid "Taiko beater refusing accessory status"
+msgstr "Taiko beater refusing accessory status"
+
+#. propertyItems.6.0.foundAt
+#: src/data/property.js:186
+msgctxt "text:propertyItems.6.0.foundAt"
+msgid "Inside the residence noise-complaint box, striking its walls"
+msgstr "Inside the residence noise-complaint box, striking its walls"
+
+#. propertyItems.6.0.foundBy
+#: src/data/property.js:187
+msgctxt "text:propertyItems.6.0.foundBy"
+msgid "Raiko Horikawa, saying it merely arrived early for the meeting"
+msgstr "Raiko Horikawa, saying it merely arrived early for the meeting"
+
+#. propertyItems.6.0.condition
+#: src/data/property.js:188
+msgctxt "text:propertyItems.6.0.condition"
+msgid "Uncracked; adds a beat whenever called “one stick”"
+msgstr "Uncracked; adds a beat whenever called “one stick”"
+
+#. propertyItems.6.0.statement
+#: src/data/property.js:189
+msgctxt "text:propertyItems.6.0.statement"
+msgid "“The drum sounds without me; I strike without it. Therefore we are colleagues.”"
+msgstr "“The drum sounds without me; I strike without it. Therefore we are colleagues.”"
+
+#. propertyItems.6.0.dispute
+#: src/data/property.js:190
+msgctxt "text:propertyItems.6.0.dispute"
+msgid ""
+"Housing calls it noise evidence, the music club calls it equipment, and the "
+"beater claims employment."
+msgstr ""
+"Housing calls it noise evidence, the music club calls it equipment, and the "
+"beater claims employment."
+
+#. propertyItems.6.0.evidence.0
+#: src/data/property.js:193
+msgctxt "text:propertyItems.6.0.evidence.0"
+msgid "Thirteen noise complaints, nine filed by the beater"
+msgstr "Thirteen noise complaints, nine filed by the beater"
+
+#. propertyItems.6.0.evidence.1
+#: src/data/property.js:194
+msgctxt "text:propertyItems.6.0.evidence.1"
+msgid "Music inventory lists only “one taiko set”"
+msgstr "Music inventory lists only “one taiko set”"
+
+#. propertyItems.6.0.evidence.2
+#: src/data/property.js:195
+msgctxt "text:propertyItems.6.0.evidence.2"
+msgid "Raiko's colleague statement, signed with a rhythm"
+msgstr "Raiko's colleague statement, signed with a rhythm"
+
+#. propertyItems.6.0.responses.0.1
+#: src/data/property.js:199
+msgctxt "text:propertyItems.6.0.responses.0.1"
+msgid "Return to the music club as an independently listed member"
+msgstr "Return to the music club as an independently listed member"
+
+#. propertyItems.6.0.responses.1.1
+#: src/data/property.js:200
+msgctxt "text:propertyItems.6.0.responses.1.1"
+msgid "Sign a quiet-night/day-rehearsal compact with housing"
+msgstr "Sign a quiet-night/day-rehearsal compact with housing"
+
+#. propertyItems.6.0.responses.2.1
+#: src/data/property.js:201
+msgctxt "text:propertyItems.6.0.responses.2.1"
+msgid "Permit it to join campus meetings and speak only in rhythm"
+msgstr "Permit it to join campus meetings and speak only in rhythm"
+
+#. propertyItems.7.0.name
+#: src/data/property.js:208
+msgctxt "text:propertyItems.7.0.name"
+msgid "Donation-box key that will not say what it opens"
+msgstr "Donation-box key that will not say what it opens"
+
+#. propertyItems.7.0.foundAt
+#: src/data/property.js:209
+msgctxt "text:propertyItems.7.0.foundAt"
+msgid "Inside the Hakurei donation box while it was locked"
+msgstr "Inside the Hakurei donation box while it was locked"
+
+#. propertyItems.7.0.foundBy
+#: src/data/property.js:210
+msgctxt "text:propertyItems.7.0.foundBy"
+msgid "Reimu, immediately applying to treat storage fees as offerings"
+msgstr "Reimu, immediately applying to treat storage fees as offerings"
+
+#. propertyItems.7.0.condition
+#: src/data/property.js:211
+msgctxt "text:propertyItems.7.0.condition"
+msgid "Teeth intact; clicks only at empty boxes"
+msgstr "Teeth intact; clicks only at empty boxes"
+
+#. propertyItems.7.0.statement
+#: src/data/property.js:212
+msgctxt "text:propertyItems.7.0.statement"
+msgid "“My secret is the only part of me that has not been used up.”"
+msgstr "“My secret is the only part of me that has not been used up.”"
+
+#. propertyItems.7.0.dispute
+#: src/data/property.js:213
+msgctxt "text:propertyItems.7.0.dispute"
+msgid ""
+"The shrine claims appurtenance, the key claims silence, and Lost Property "
+"wants to test every box."
+msgstr ""
+"The shrine claims appurtenance, the key claims silence, and Lost Property "
+"wants to test every box."
+
+#. propertyItems.7.0.evidence.0
+#: src/data/property.js:216
+msgctxt "text:propertyItems.7.0.evidence.0"
+msgid "Three identical donation boxes it does not open"
+msgstr "Three identical donation boxes it does not open"
+
+#. propertyItems.7.0.evidence.1
+#: src/data/property.js:217
+msgctxt "text:propertyItems.7.0.evidence.1"
+msgid "Reimu's receipt: “storage / possible offering”"
+msgstr "Reimu's receipt: “storage / possible offering”"
+
+#. propertyItems.7.0.evidence.2
+#: src/data/property.js:218
+msgctxt "text:propertyItems.7.0.evidence.2"
+msgid "The key remains wholly silent during hearing"
+msgstr "The key remains wholly silent during hearing"
+
+#. propertyItems.7.0.responses.0.1
+#: src/data/property.js:222
+msgctxt "text:propertyItems.7.0.responses.0.1"
+msgid "Place in shrine custody without compelled lock testing"
+msgstr "Place in shrine custody without compelled lock testing"
+
+#. propertyItems.7.0.responses.1.1
+#: src/data/property.js:223
+msgctxt "text:propertyItems.7.0.responses.1.1"
+msgid "Keep as sealed evidence until it speaks voluntarily"
+msgstr "Keep as sealed evidence until it speaks voluntarily"
+
+#. propertyItems.7.0.responses.2.1
+#: src/data/property.js:224
+msgctxt "text:propertyItems.7.0.responses.2.1"
+msgid "Recognise purpose confidentiality and register as Key to an Unknown Door"
+msgstr "Recognise purpose confidentiality and register as Key to an Unknown Door"
+
+#. propertyItems.8.0.name
+#: src/data/property.js:231
+msgctxt "text:propertyItems.8.0.name"
+msgid "Teacup treating every drinker as a temporary custodian"
+msgstr "Teacup treating every drinker as a temporary custodian"
+
+#. propertyItems.8.0.foundAt
+#: src/data/property.js:232
+msgctxt "text:propertyItems.8.0.foundAt"
+msgid "On the boundary line of a Myouren–Moriya–Senkai meeting table"
+msgstr "On the boundary line of a Myouren–Moriya–Senkai meeting table"
+
+#. propertyItems.8.0.foundBy
+#: src/data/property.js:233
+msgctxt "text:propertyItems.8.0.foundBy"
+msgid "Three minutes each say another party found it"
+msgstr "Three minutes each say another party found it"
+
+#. propertyItems.8.0.condition
+#: src/data/property.js:234
+msgctxt "text:propertyItems.8.0.condition"
+msgid "Chip faces the last speaker; tea flavour changes with faith agenda"
+msgstr "Chip faces the last speaker; tea flavour changes with faith agenda"
+
+#. propertyItems.8.0.statement
+#: src/data/property.js:235
+msgctxt "text:propertyItems.8.0.statement"
+msgid "“Rotating use is not common ownership; common ownership does not mean nobody washes me.”"
+msgstr "“Rotating use is not common ownership; common ownership does not mean nobody washes me.”"
+
+#. propertyItems.8.0.dispute
+#: src/data/property.js:236
+msgctxt "text:propertyItems.8.0.dispute"
+msgid "All three agree to share, provided the other two wash, store, and compensate."
+msgstr "All three agree to share, provided the other two wash, store, and compensate."
+
+#. propertyItems.8.0.evidence.0
+#: src/data/property.js:239
+msgctxt "text:propertyItems.8.0.evidence.0"
+msgid "Three same-day minutes using three date formats"
+msgstr "Three same-day minutes using three date formats"
+
+#. propertyItems.8.0.evidence.1
+#: src/data/property.js:240
+msgctxt "text:propertyItems.8.0.evidence.1"
+msgid "Torii, lotus, and ten ears appear in turn on the base"
+msgstr "Torii, lotus, and ten ears appear in turn on the base"
+
+#. propertyItems.8.0.evidence.2
+#: src/data/property.js:241
+msgctxt "text:propertyItems.8.0.evidence.2"
+msgid "A washing rota nobody claims"
+msgstr "A washing rota nobody claims"
+
+#. propertyItems.8.0.responses.0.1
+#: src/data/property.js:245
+msgctxt "text:propertyItems.8.0.responses.0.1"
+msgid "Create a three-party rota; failure to wash forfeits the next speaking turn"
+msgstr "Create a three-party rota; failure to wash forfeits the next speaking turn"
+
+#. propertyItems.8.0.responses.1.1
+#: src/data/property.js:246
+msgctxt "text:propertyItems.8.0.responses.1.1"
+msgid "Let the teacup chair meetings and name its next custodian"
+msgstr "Let the teacup chair meetings and name its next custodian"
+
+#. propertyItems.8.0.responses.2.1
+#: src/data/property.js:247
+msgctxt "text:propertyItems.8.0.responses.2.1"
+msgid "Keep at the tribunal tea desk until all three collect it together"
+msgstr "Keep at the tribunal tea desk until all three collect it together"
+
+#. propertyItems.9.0.name
+#: src/data/property.js:254
+msgctxt "text:propertyItems.9.0.name"
+msgid "Outside-World earbud, left only, receiving right-ear notices"
+msgstr "Outside-World earbud, left only, receiving right-ear notices"
+
+#. propertyItems.9.0.foundAt
+#: src/data/property.js:255
+msgctxt "text:propertyItems.9.0.foundAt"
+msgid "Simultaneously on Kourindou's appraisal desk and the library return rack"
+msgstr "Simultaneously on Kourindou's appraisal desk and the library return rack"
+
+#. propertyItems.9.0.foundBy
+#: src/data/property.js:256
+msgctxt "text:propertyItems.9.0.foundBy"
+msgid "Rinnosuke and Patchouli each submitted an original bearing the same serial"
+msgstr "Rinnosuke and Patchouli each submitted an original bearing the same serial"
+
+#. propertyItems.9.0.condition
+#: src/data/property.js:257
+msgctxt "text:propertyItems.9.0.condition"
+msgid "Plays tengu notices without power; volume adjusts credibility"
+msgstr "Plays tengu notices without power; volume adjusts credibility"
+
+#. propertyItems.9.0.statement
+#: src/data/property.js:258
+msgctxt "text:propertyItems.9.0.statement"
+msgid "“Pairing is not ownership. I un-synchronised from the right ear long ago.”"
+msgstr "“Pairing is not ownership. I un-synchronised from the right ear long ago.”"
+
+#. propertyItems.9.0.dispute
+#: src/data/property.js:259
+msgctxt "text:propertyItems.9.0.dispute"
+msgid ""
+"The manual requires pairing, the object refuses, and Tengu Post wants it "
+"registered as an inbox."
+msgstr ""
+"The manual requires pairing, the object refuses, and Tengu Post wants it "
+"registered as an inbox."
+
+#. propertyItems.9.0.evidence.0
+#: src/data/property.js:262
+msgctxt "text:propertyItems.9.0.evidence.0"
+msgid "Two physical objects with one serial, each denying it is the copy"
+msgstr "Two physical objects with one serial, each denying it is the copy"
+
+#. propertyItems.9.0.evidence.1
+#: src/data/property.js:263
+msgctxt "text:propertyItems.9.0.evidence.1"
+msgid "Outside-World manual whose charging instructions do not work here"
+msgstr "Outside-World manual whose charging instructions do not work here"
+
+#. propertyItems.9.0.evidence.2
+#: src/data/property.js:264
+msgctxt "text:propertyItems.9.0.evidence.2"
+msgid "An unsent “delivery successful” notice"
+msgstr "An unsent “delivery successful” notice"
+
+#. propertyItems.9.0.responses.0.1
+#: src/data/property.js:268
+msgctxt "text:propertyItems.9.0.responses.0.1"
+msgid "Catalogue one at the library and one at Kourindou under distinct versions"
+msgstr "Catalogue one at the library and one at Kourindou under distinct versions"
+
+#. propertyItems.9.0.responses.1.1
+#: src/data/property.js:269
+msgctxt "text:propertyItems.9.0.responses.1.1"
+msgid "Recognise both as originals and list the serial number as lost"
+msgstr "Recognise both as originals and list the serial number as lost"
+
+#. propertyItems.9.0.responses.2.1
+#: src/data/property.js:270
+msgctxt "text:propertyItems.9.0.responses.2.1"
+msgid "Commission as a one-ear Tengu Post terminal"
+msgstr "Commission as a one-ear Tengu Post terminal"
+
+#. propertyArbiters.kogasa.name
+#: src/data/property.js:279
+msgctxt "text:propertyArbiters.kogasa.name"
+msgid "Kogasa Tatara"
+msgstr "Kogasa Tatara"
+
+#. propertyArbiters.kogasa.seat
+#: src/data/property.js:280
+msgctxt "text:propertyArbiters.kogasa.seat"
+msgid "Object life & neglect seat"
+msgstr "Object life & neglect seat"
+
+#. propertyArbiters.kogasa.question
+#: src/data/property.js:281
+msgctxt "text:propertyArbiters.kogasa.question"
+msgid "How long since it was properly used, cared for, or allowed to surprise someone?"
+msgstr "How long since it was properly used, cared for, or allowed to surprise someone?"
+
+#. propertyArbiters.rinnosuke.name
+#: src/data/property.js:286
+msgctxt "text:propertyArbiters.rinnosuke.name"
+msgid "Rinnosuke Morichika"
+msgstr "Rinnosuke Morichika"
+
+#. propertyArbiters.rinnosuke.seat
+#: src/data/property.js:287
+msgctxt "text:propertyArbiters.rinnosuke.seat"
+msgid "Name, use & wear seat"
+msgstr "Name, use & wear seat"
+
+#. propertyArbiters.rinnosuke.question
+#: src/data/property.js:288
+msgctxt "text:propertyArbiters.rinnosuke.question"
+msgid "What does the label call it, and what does wear say it actually did?"
+msgstr "What does the label call it, and what does wear say it actually did?"
+
+#. propertyArbiters.akyuu.name
+#: src/data/property.js:293
+msgctxt "text:propertyArbiters.akyuu.name"
+msgid "Hieda no Akyuu"
+msgstr "Hieda no Akyuu"
+
+#. propertyArbiters.akyuu.seat
+#: src/data/property.js:294
+msgctxt "text:propertyArbiters.akyuu.seat"
+msgid "Provenance, version & corrections seat"
+msgstr "Provenance, version & corrections seat"
+
+#. propertyArbiters.akyuu.question
+#: src/data/property.js:295
+msgctxt "text:propertyArbiters.akyuu.question"
+msgid "Which custody record is earliest, and which merely looks most official?"
+msgstr "Which custody record is earliest, and which merely looks most official?"
+
+#. propertyArbiters.eiki.name
+#: src/data/property.js:300
+msgctxt "text:propertyArbiters.eiki.name"
+msgid "Eiki Shiki"
+msgstr "Eiki Shiki"
+
+#. propertyArbiters.eiki.seat
+#: src/data/property.js:301
+msgctxt "text:propertyArbiters.eiki.seat"
+msgid "Return, responsibility & appeal seat"
+msgstr "Return, responsibility & appeal seat"
+
+#. propertyArbiters.eiki.question
+#: src/data/property.js:302
+msgctxt "text:propertyArbiters.eiki.question"
+msgid "Capacity to keep is not a right to use; losing is not always permanent forfeiture."
+msgstr "Capacity to keep is not a right to use; losing is not always permanent forfeiture."
+
+#. propertyDispositionLabels.return
+#: src/data/property.js:307
+msgctxt "text:propertyDispositionLabels.return"
+msgid "Conditional return"
+msgstr "Conditional return"
+
+#. propertyDispositionLabels.independent
+#: src/data/property.js:308
+msgctxt "text:propertyDispositionLabels.independent"
+msgid "Recognise autonomous destination"
+msgstr "Recognise autonomous destination"
+
+#. propertyDispositionLabels.hearing
+#: src/data/property.js:309
+msgctxt "text:propertyDispositionLabels.hearing"
+msgid "Further hearing"
+msgstr "Further hearing"
+
+#. propertyDispositionLabels.foster
+#: src/data/property.js:310
+msgctxt "text:propertyDispositionLabels.foster"
+msgid "Foster placement"
+msgstr "Foster placement"
+
+#. propertyDispositionLabels.catalogue
+#: src/data/property.js:311
+msgctxt "text:propertyDispositionLabels.catalogue"
+msgid "Independent cataloguing"
+msgstr "Independent cataloguing"
+
+#. propertyDispositionLabels.contract
+#: src/data/property.js:312
+msgctxt "text:propertyDispositionLabels.contract"
+msgid "Separate contract"
+msgstr "Separate contract"
+
+#. propertyDispositionLabels.hold
+#: src/data/property.js:313
+msgctxt "text:propertyDispositionLabels.hold"
+msgid "Protective hold"
+msgstr "Protective hold"
+
+#. propertyDispositionLabels.shared
+#: src/data/property.js:314
+msgctxt "text:propertyDispositionLabels.shared"
+msgid "Shared title"
+msgstr "Shared title"
+
+#. propertyDispositionLabels.archive
+#: src/data/property.js:315
+msgctxt "text:propertyDispositionLabels.archive"
+msgid "Archival custody"
+msgstr "Archival custody"
+
+#. propertyDispositionLabels.redeem
+#: src/data/property.js:316
+msgctxt "text:propertyDispositionLabels.redeem"
+msgid "Redeemable use right"
+msgstr "Redeemable use right"

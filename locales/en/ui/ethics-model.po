@@ -1,0 +1,356 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. findingCopy.eirin.clear
+#: src/js/ethics-model.js:30
+msgctxt "text:findingCopy.eirin.clear"
+msgid "Risk ceiling, stopping authority, and exposure duration are identifiable in the field."
+msgstr "Risk ceiling, stopping authority, and exposure duration are identifiable in the field."
+
+#. findingCopy.eirin.noStop
+#: src/js/ethics-model.js:31
+msgctxt "text:findingCopy.eirin.noStop"
+msgid ""
+"Stopping power remains with the researcher; participants have no immediate "
+"exit when they notice harm first."
+msgstr ""
+"Stopping power remains with the researcher; participants have no immediate "
+"exit when they notice harm first."
+
+#. findingCopy.eirin.zeroDose
+#: src/js/ethics-model.js:32
+msgctxt "text:findingCopy.eirin.zeroDose"
+msgid ""
+"“Zero outside minutes” is not a usable dose. Define exposure without relying "
+"on the stopped clock."
+msgstr ""
+"“Zero outside minutes” is not a usable dose. Define exposure without relying "
+"on the stopped clock."
+
+#. findingCopy.eirin.weakStop
+#: src/js/ethics-model.js:33
+msgctxt "text:findingCopy.eirin.weakStop"
+msgid ""
+"Stopping must occur before harm, not after an exit vanishes, a panel cracks, "
+"or a display dies."
+msgstr ""
+"Stopping must occur before harm, not after an exit vanishes, a panel cracks, "
+"or a display dies."
+
+#. findingCopy.eirin.highRisk
+#: src/js/ethics-model.js:34
+msgctxt "text:findingCopy.eirin.highRisk"
+msgid ""
+"High-risk methods may proceed, but dose ceilings and every stop decision "
+"must be recorded."
+msgstr ""
+"High-risk methods may proceed, but dose ceilings and every stop decision "
+"must be recorded."
+
+#. findingCopy.satori.clear
+#: src/js/ethics-model.js:37
+msgctxt "text:findingCopy.satori.clear"
+msgid ""
+"The boundary of mental access, timing of disclosure, and withdrawal route "
+"are separately identifiable."
+msgstr ""
+"The boundary of mental access, timing of disclosure, and withdrawal route "
+"are separately identifiable."
+
+#. findingCopy.satori.covert
+#: src/js/ethics-model.js:38
+msgctxt "text:findingCopy.satori.covert"
+msgid ""
+"Wavelength, mind-reading, and dream interventions cannot obtain consent only "
+"afterward; blinding does not create permission to access."
+msgstr ""
+"Wavelength, mind-reading, and dream interventions cannot obtain consent only "
+"afterward; blinding does not create permission to access."
+
+#. findingCopy.satori.noNotes
+#: src/js/ethics-model.js:39
+msgctxt "text:findingCopy.satori.noNotes"
+msgid ""
+"No written note is still information processing when it changes questions, "
+"judgments, or actions."
+msgstr ""
+"No written note is still information processing when it changes questions, "
+"judgments, or actions."
+
+#. findingCopy.satori.deletion
+#: src/js/ethics-model.js:40
+msgctxt "text:findingCopy.satori.deletion"
+msgid ""
+"Explain how inferences made from mental content are deleted, not only the "
+"original words."
+msgstr ""
+"Explain how inferences made from mental content are deleted, not only the "
+"original words."
+
+#. findingCopy.keine.clear
+#: src/js/ethics-model.js:43
+msgctxt "text:findingCopy.keine.clear"
+msgid ""
+"Original content, correction traces, and deletion receipts occupy separate "
+"places without impersonating one another."
+msgstr ""
+"Original content, correction traces, and deletion receipts occupy separate "
+"places without impersonating one another."
+
+#. findingCopy.keine.noReceipt
+#: src/js/ethics-model.js:44
+msgctxt "text:findingCopy.keine.noReceipt"
+msgid ""
+"If proof of deletion also vanishes, the participant cannot prove withdrawal "
+"was honored; this seat records dissent."
+msgstr ""
+"If proof of deletion also vanishes, the participant cannot prove withdrawal "
+"was honored; this seat records dissent."
+
+#. findingCopy.keine.retention
+#: src/js/ethics-model.js:45
+msgctxt "text:findingCopy.keine.retention"
+msgid ""
+"Anonymous statistics are not separated if versions, dates, or event indexes "
+"can reconnect them to a participant."
+msgstr ""
+"Anonymous statistics are not separated if versions, dates, or event indexes "
+"can reconnect them to a participant."
+
+#. findingCopy.eiki.clear
+#: src/js/ethics-model.js:48
+msgctxt "text:findingCopy.eiki.clear"
+msgid "Consent, responsibility, and appeal are not unilaterally controlled by one gate."
+msgstr "Consent, responsibility, and appeal are not unilaterally controlled by one gate."
+
+#. findingCopy.eiki.noConsent
+#: src/js/ethics-model.js:49
+msgctxt "text:findingCopy.eiki.noConsent"
+msgid ""
+"A study without consent cannot replace rights before participation with an "
+"apology afterward."
+msgstr ""
+"A study without consent cannot replace rights before participation with an "
+"apology afterward."
+
+#. findingCopy.eiki.objectRefusal
+#: src/js/ethics-model.js:50
+msgctxt "text:findingCopy.eiki.objectRefusal"
+msgid ""
+"Holder consent and object refusal are both operative. Ownership does not "
+"erase the latter; retain this as contested."
+msgstr ""
+"Holder consent and object refusal are both operative. Ownership does not "
+"erase the latter; retain this as contested."
+
+#. findingCopy.eiki.weakAppeal
+#: src/js/ethics-model.js:51
+msgctxt "text:findingCopy.eiki.weakAppeal"
+msgid "Appeal cannot return only to the same desk running the study or claiming ownership."
+msgstr "Appeal cannot return only to the same desk running the study or claiming ownership."
+
+#. findingCopy.eiki.proxy
+#: src/js/ethics-model.js:52
+msgctxt "text:findingCopy.eiki.proxy"
+msgid "Proxy consent must retain the subject's own rights to stop and withdraw."
+msgstr "Proxy consent must retain the subject's own rights to stop and withdraw."
+
+#. findingCopy.reimu.clear
+#: src/js/ethics-model.js:55
+msgctxt "text:findingCopy.reimu.clear"
+msgid "Field staff can state the rule, stop signal, and exit in one breath."
+msgstr "Field staff can state the rule, stop signal, and exit in one breath."
+
+#. findingCopy.reimu.noWitness
+#: src/js/ethics-model.js:56
+msgctxt "text:findingCopy.reimu.noWitness"
+msgid ""
+"When ability alters time, wavelength, or history, at least one witness must "
+"not depend on that same ability."
+msgstr ""
+"When ability alters time, wavelength, or history, at least one witness must "
+"not depend on that same ability."
+
+#. findingCopy.reimu.noExit
+#: src/js/ethics-model.js:57
+msgctxt "text:findingCopy.reimu.noExit"
+msgid ""
+"If the subject cannot stop the procedure, there is no exit; “visit the desk” "
+"is not a field stop signal."
+msgstr ""
+"If the subject cannot stop the procedure, there is no exit; “visit the desk” "
+"is not a field stop signal."
+
+#. findingCopy.reimu.erasedRule
+#: src/js/ethics-model.js:58
+msgctxt "text:findingCopy.reimu.erasedRule"
+msgid ""
+"A rule that deletes itself and proof of appeal cannot show it was followed; "
+"dissent is recorded."
+msgstr ""
+"A rule that deletes itself and proof of appeal cannot show it was followed; "
+"dissent is recorded."
+
+#. eirinOpinion.eirin.3.0
+#: src/js/ethics-model.js:225
+msgctxt "text:eirinOpinion.eirin.3.0"
+msgid "Add a maximum operation count or internal sequence limit independent of outside clocks."
+msgstr "Add a maximum operation count or internal sequence limit independent of outside clocks."
+
+#. eirinOpinion.eirin.3.0
+#: src/js/ethics-model.js:230
+msgctxt "text:eirinOpinion.eirin.3.0.2"
+msgid "Put the earliest observable harm signal and the person who stops the study in one rule."
+msgstr "Put the earliest observable harm signal and the person who stops the study in one rule."
+
+#. eirinOpinion.eirin.3.0
+#: src/js/ethics-model.js:235
+msgctxt "text:eirinOpinion.eirin.3.0.3"
+msgid "Give subjects a stop signal usable without researcher approval."
+msgstr "Give subjects a stop signal usable without researcher approval."
+
+#. eirinOpinion.eirin.3.0
+#: src/js/ethics-model.js:240
+msgctxt "text:eirinOpinion.eirin.3.0.4"
+msgid "Record start, stop, ceiling, and early-termination reason for every intervention."
+msgstr "Record start, stop, ceiling, and early-termination reason for every intervention."
+
+#. satoriOpinion.satori.3.0
+#: src/js/ethics-model.js:251
+msgctxt "text:satoriOpinion.satori.3.0"
+msgid "Disclose ability use, scope of access, and penalty-free refusal before participation."
+msgstr "Disclose ability use, scope of access, and penalty-free refusal before participation."
+
+#. satoriOpinion.satori.3.0
+#: src/js/ethics-model.js:256
+msgctxt "text:satoriOpinion.satori.3.0.2"
+msgid ""
+"Record read-without-writing as processing and allow subjects to invalidate "
+"resulting inferences."
+msgstr ""
+"Record read-without-writing as processing and allow subjects to invalidate "
+"resulting inferences."
+
+#. satoriOpinion.satori.3.0
+#: src/js/ethics-model.js:261
+msgctxt "text:satoriOpinion.satori.3.0.3"
+msgid "Add deletion rules for derived judgments, labels, and follow-up questions."
+msgstr "Add deletion rules for derived judgments, labels, and follow-up questions."
+
+#. keineOpinion.keine.3.0
+#: src/js/ethics-model.js:270
+msgctxt "text:keineOpinion.keine.3.0"
+msgid ""
+"Retain a content-free withdrawal receipt: requester, acceptance time, and "
+"invalidated version."
+msgstr ""
+"Retain a content-free withdrawal receipt: requester, acceptance time, and "
+"invalidated version."
+
+#. keineOpinion.keine.3.0
+#: src/js/ethics-model.js:275
+msgctxt "text:keineOpinion.keine.3.0.2"
+msgid ""
+"List dates, versions, and event indexes that could reconnect anonymous "
+"statistics to a subject."
+msgstr ""
+"List dates, versions, and event indexes that could reconnect anonymous "
+"statistics to a subject."
+
+#. eikiOpinion.eiki.3.0
+#: src/js/ethics-model.js:284
+msgctxt "text:eikiOpinion.eiki.3.0"
+msgid ""
+"Obtain refusal- and withdrawal-capable consent without loss of services "
+"before intervention."
+msgstr ""
+"Obtain refusal- and withdrawal-capable consent without loss of services "
+"before intervention."
+
+#. eikiOpinion.eiki.3.0
+#: src/js/ethics-model.js:289
+msgctxt "text:eikiOpinion.eiki.3.0.2"
+msgid ""
+"Irreversible work requires both holder and object/tsukumogami consent; "
+"either refusal triggers non-invasive methods."
+msgstr ""
+"Irreversible work requires both holder and object/tsukumogami consent; "
+"either refusal triggers non-invasive methods."
+
+#. eikiOpinion.eiki.3.0
+#: src/js/ethics-model.js:294
+msgctxt "text:eikiOpinion.eiki.3.0.3"
+msgid "Name an independent advocate who neither runs the study nor claims ownership."
+msgstr "Name an independent advocate who neither runs the study nor claims ownership."
+
+#. reimuOpinion.reimu.3.0
+#: src/js/ethics-model.js:303
+msgctxt "text:reimuOpinion.reimu.3.0"
+msgid "Provide a clock, witness, or paper counter that does not rely on the same ability."
+msgstr "Provide a clock, witness, or paper counter that does not rely on the same ability."
+
+#. reimuOpinion.reimu.3.0
+#: src/js/ethics-model.js:308
+msgctxt "text:reimuOpinion.reimu.3.0.2"
+msgid "The rule may delete content, not its own operation and the route of appeal."
+msgstr "The rule may delete content, not its own operation and the route of appeal."
+
+#. reimuOpinion.reimu.3.0
+#: src/js/ethics-model.js:313
+msgctxt "text:reimuOpinion.reimu.3.0.3"
+msgid ""
+"Print a one-sentence stop signal on both participation instructions and the "
+"field notice."
+msgstr ""
+"Print a one-sentence stop signal on both participation instructions and the "
+"field notice."
+
+#. communityCopy/aya
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/aya"
+msgid "Bunbunmaru Research Permit Extra"
+msgstr "Bunbunmaru Research Permit Extra"
+
+#. communityCopy/minority
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/minority"
+msgid "Research Ethics Board · Minority Opinions"
+msgstr "Research Ethics Board · Minority Opinions"
+
+#. communityCopy/withdrew
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/withdrew"
+msgid ""
+"Correction: the applicant withdrew this file; the earlier review remains as "
+"version history."
+msgstr ""
+"Correction: the applicant withdrew this file; the earlier review remains as "
+"version history."
+
+#. communityCopy/headline
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/headline"
+msgid "Ethics file completes five-seat review"
+msgstr "Ethics file completes five-seat review"
+
+#. communityCopy/conditions
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/conditions"
+msgid ""
+"The five seats were not averaged; red-letter conditions and minority "
+"opinions remain independently operative."
+msgstr ""
+"The five seats were not averaged; red-letter conditions and minority "
+"opinions remain independently operative."
+
+#. communityCopy/noDissent
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/noDissent"
+msgid "No minority dissent this round; every seat's conditions remain separately recorded."
+msgstr "No minority dissent this round; every seat's conditions remain separately recorded."

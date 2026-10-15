@@ -1,0 +1,525 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/eyebrow"
+msgid "MY TU / COURSE REGISTRATION"
+msgstr "MY TU / COURSE REGISTRATION"
+
+#. copy/title
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/title"
+msgid "Put classes into your life—then check the rooms stayed put."
+msgstr "把課選進生活裡，然後確認教室還在原來的位置。"
+
+#. copy/lead
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/lead"
+msgid ""
+"Search 35 courses across seven schools. Add/drop, waitlists, prerequisites, "
+"and unusual collisions are resolved on this device. Eighteen credits is "
+"advice, not a barrier."
+msgstr "搜尋七所學院的 35 門課；加退選、候補、先修與非普通衝堂都在這台裝置上即時判定。18 學分是提醒，不是結界。"
+
+#. copy/records
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/records"
+msgid "Student record"
+msgstr "學籍首頁"
+
+#. copy/registration
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/registration"
+msgid "Courses & grades"
+msgstr "選課與成績"
+
+#. copy/workbench
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/workbench"
+msgid "Work, exams & defences"
+msgstr "作業、考試與答辯"
+
+#. copy/term
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/term"
+msgid "Open term"
+msgstr "開放學期"
+
+#. copy/credits
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/credits"
+msgid "Selected credits"
+msgstr "已選學分"
+
+#. copy/enrolled
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/enrolled"
+msgid "Enrolled"
+msgstr "已選課"
+
+#. copy/waitlisted
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/waitlisted"
+msgid "Waitlisted"
+msgstr "候補中"
+
+#. copy/local
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/local"
+msgid "On-device registrar file"
+msgstr "本機教務檔案"
+
+#. copy/privacy
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/privacy"
+msgid "Course and grade records stay in this browser."
+msgstr "選課與成績紀錄只保存在目前瀏覽器。"
+
+#. copy/catalogue
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/catalogue"
+msgid "Course catalogue"
+msgstr "課程目錄"
+
+#. copy/schedule
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/schedule"
+msgid "My timetable"
+msgstr "我的課表"
+
+#. copy/academicRecord
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/academicRecord"
+msgid "Grades & documents"
+msgstr "成績與文件"
+
+#. copy/search
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/search"
+msgid "Search code, title, instructor, or odd warning"
+msgstr "搜尋課號、課名、教師或奇怪警告"
+
+#. copy/allSchools
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/allSchools"
+msgid "All schools"
+msgstr "全部學院"
+
+#. copy/allStates
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/allStates"
+msgid "All states"
+msgstr "所有狀態"
+
+#. copy/eligibleOnly
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/eligibleOnly"
+msgid "Eligible now (live prerequisites & collisions)"
+msgstr "目前可選（已即時計算先修與衝堂）"
+
+#. copy/openOnly
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/openOnly"
+msgid "Seats available"
+msgstr "仍有名額"
+
+#. copy/waitlistOnly
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/waitlistOnly"
+msgid "Full / waitlist"
+msgstr "已滿／可候補"
+
+#. copy/applyFilters
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/applyFilters"
+msgid "Search"
+msgstr "查詢"
+
+#. copy/resultCount
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/resultCount"
+msgid "matching courses"
+msgstr "門符合條件"
+
+#. copy/seats
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/seats"
+msgid "Capacity"
+msgstr "名額"
+
+#. copy/seatsOpen
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/seatsOpen"
+msgid "open"
+msgstr "可選"
+
+#. copy/full
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/full"
+msgid "Full"
+msgstr "已滿"
+
+#. copy/noWaitlist
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/noWaitlist"
+msgid "No waitlist"
+msgstr "不開放候補"
+
+#. copy/prerequisite
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/prerequisite"
+msgid "Prerequisite"
+msgstr "先修"
+
+#. copy/noPrerequisite
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/noPrerequisite"
+msgid "None"
+msgstr "無"
+
+#. copy/meeting
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/meeting"
+msgid "Meets"
+msgstr "上課"
+
+#. copy/instructor
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/instructor"
+msgid "Instructor"
+msgstr "教師"
+
+#. copy/creditsLabel
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/creditsLabel"
+msgid "Credits"
+msgstr "學分"
+
+#. copy/selectCourse
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/selectCourse"
+msgid "View course"
+msgstr "查看課程"
+
+#. copy/add
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/add"
+msgid "Add to timetable"
+msgstr "加入課表"
+
+#. copy/joinWaitlist
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/joinWaitlist"
+msgid "Join waitlist"
+msgstr "加入候補"
+
+#. copy/drop
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/drop"
+msgid "Drop course"
+msgstr "退選"
+
+#. copy/cancelWaitlist
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/cancelWaitlist"
+msgid "Leave waitlist"
+msgstr "取消候補"
+
+#. copy/selected
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/selected"
+msgid "Enrolled"
+msgstr "已選"
+
+#. copy/onWaitlist
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/onWaitlist"
+msgid "Waitlist"
+msgstr "候補"
+
+#. copy/waitlistPosition
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/waitlistPosition"
+msgid "Local waitlist position"
+msgstr "本機候補順位"
+
+#. copy/missingIdentity
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/missingIdentity"
+msgid "Create a My TU identity to register. The catalogue remains open to browse."
+msgstr "建立 My TU 身分後即可選課；課程目錄仍可自由瀏覽。"
+
+#. copy/createIdentity
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/createIdentity"
+msgid "Create My TU identity"
+msgstr "建立 My TU 身分"
+
+#. copy/missingPrerequisite
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/missingPrerequisite"
+msgid "Missing prerequisite"
+msgstr "尚缺先修"
+
+#. copy/conflict
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/conflict"
+msgid "Collision"
+msgstr "衝堂"
+
+#. copy/creditLimit
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/creditLimit"
+msgid "Above the suggested 18-credit load"
+msgstr "超過本學期 18 學分建議值"
+
+#. copy/overloadWarning
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/overloadWarning"
+msgid ""
+"Your timetable has entered danmaku density. The registrar recommends sleep "
+"but will not block registration."
+msgstr "課表已進入彈幕密度區；教務處提醒你保留睡眠，但不會攔下這次選課。"
+
+#. copy/overloadToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/overloadToast"
+msgid ""
+"Added. Your load is above the suggestion; registration succeeded, sleep is "
+"not guaranteed."
+msgstr "已加入課表。總學分超過建議值；選課成功，睡眠不保證。"
+
+#. copy/registeredToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/registeredToast"
+msgid "Added to your timetable. The room remains at its registered location for now."
+msgstr "已加入課表。教室目前仍在登記的位置。"
+
+#. copy/waitlistedToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/waitlistedToast"
+msgid "The class is full; you joined the on-device waitlist."
+msgstr "課程已滿，已加入本機候補序列。"
+
+#. copy/droppedToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/droppedToast"
+msgid "Course dropped. The event remains on record but leaves your timetable."
+msgstr "已退選；教務處保留事件紀錄，但不再占用你的課表。"
+
+#. copy/cancelledToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/cancelledToast"
+msgid "Waitlist place cancelled."
+msgstr "已取消候補。"
+
+#. copy/unavailableToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/unavailableToast"
+msgid "This full course does not accept a waitlist."
+msgstr "本課滿班且不接受候補。"
+
+#. copy/identityToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/identityToast"
+msgid "Create a My TU identity first."
+msgstr "請先建立 My TU 身分。"
+
+#. copy/boundaryWarning
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/boundaryWarning"
+msgid "Boundary-adjacent: the registrar cannot promise this course touches no other class."
+msgstr "邊界相鄰：教務系統無法保證它不與任何課靠在一起。"
+
+#. copy/emptyCatalogue
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/emptyCatalogue"
+msgid "No courses match. Try fewer words or loosen a filter."
+msgstr "沒有符合條件的課。試著少寫一點，或讓篩選器退一步。"
+
+#. copy/emptySchedule
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/emptySchedule"
+msgid "Your timetable is empty. This feels free on day one and usually alarming on day two."
+msgstr "課表還是空的。這在開學第一天看起來很自由，第二天通常比較慌。"
+
+#. copy/enrolledCourses
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/enrolledCourses"
+msgid "Official timetable"
+msgstr "正式課表"
+
+#. copy/waitlistCourses
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/waitlistCourses"
+msgid "Waitlist observation desk"
+msgstr "候補觀察席"
+
+#. copy/weeklyGrid
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/weeklyGrid"
+msgid "Weekly timetable"
+msgstr "每週排課"
+
+#. copy/lunarFootnote
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/lunarFootnote"
+msgid ""
+"Lunar courses meet on monthly notice dates. Instructors and rooms jointly "
+"interpret boundary-adjacent times."
+msgstr "月相指定課依當月公告日上課；邊界相鄰課的時間由教師與教室共同解釋。"
+
+#. copy/completed
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/completed"
+msgid "Completed courses"
+msgstr "已完成課程"
+
+#. copy/inProgress
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/inProgress"
+msgid "In progress"
+msgstr "修讀中"
+
+#. copy/noCompleted
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/noCompleted"
+msgid ""
+"No completed courses yet. Current classes appear as IP (in progress) on the "
+"academic record."
+msgstr "尚無已完成課程。本學期課程會以 IP（修讀中）列入成績紀錄。"
+
+#. copy/assessments
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/assessments"
+msgid "Non-credit assessments"
+msgstr "非學分試驗紀錄"
+
+#. copy/noAssessments
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/noAssessments"
+msgid "No entrance or unified examination results are available to include."
+msgstr "尚無可編入的入學或統一試驗成績。"
+
+#. copy/standing
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/standing"
+msgid "Academic standing"
+msgstr "學籍狀態"
+
+#. copy/firstRegistration
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/firstRegistration"
+msgid "First registration / grades pending"
+msgstr "首次註冊／成績尚未結算"
+
+#. copy/earnedCredits
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/earnedCredits"
+msgid "Earned credits"
+msgstr "已獲學分"
+
+#. copy/gpa
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/gpa"
+msgid "Grade average"
+msgstr "平均點"
+
+#. copy/confirmation
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/confirmation"
+msgid "Registration confirmation"
+msgstr "選課確認單"
+
+#. copy/transcript
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/transcript"
+msgid "Academic record"
+msgstr "學業成績紀錄"
+
+#. copy/openConfirmation
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/openConfirmation"
+msgid "Open registration confirmation"
+msgstr "開啟選課確認單"
+
+#. copy/openTranscript
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/openTranscript"
+msgid "Open academic record"
+msgstr "開啟成績紀錄"
+
+#. copy/documentBack
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/documentBack"
+msgid "Back to registration"
+msgstr "返回選課系統"
+
+#. copy/print
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/print"
+msgid "Print / save PDF"
+msgstr "列印／另存 PDF"
+
+#. copy/documentUniversity
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/documentUniversity"
+msgid "Gensokyo Municipal Touhou University"
+msgstr "幻想鄉立東方大學"
+
+#. copy/registrar
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/registrar"
+msgid "Registrar · On-device record cabinet"
+msgstr "教務處・本機學籍櫃"
+
+#. copy/student
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/student"
+msgid "Student"
+msgstr "學生"
+
+#. copy/studentId
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/studentId"
+msgid "Student ID"
+msgstr "學籍編號"
+
+#. copy/issued
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/issued"
+msgid "Generated"
+msgstr "產生日期"
+
+#. copy/status
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/status"
+msgid "Status"
+msgstr "狀態"
+
+#. copy/grade
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/grade"
+msgid "Grade"
+msgstr "成績"
+
+#. copy/codeCourse
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/codeCourse"
+msgid "Code / course"
+msgstr "課號／課程"
+
+#. copy/documentNote
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/documentNote"
+msgid ""
+"Generated from the identity, registration, and assessment records on this "
+"device. If a room moves after printing, follow the room's latest notice."
+msgstr "本文件依這台裝置上的學籍、選課與試驗紀錄生成。教室若在列印後移動，請以教室留下的最新公告為準。"

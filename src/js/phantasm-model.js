@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/phantasm-model.js";
 import { academicAssignments } from "../data/academic-work.js";
 import { courseByCode } from "../data/courses.js";
 import { governanceProposal } from "../data/governance.js";
@@ -199,16 +200,8 @@ function assignmentFragment(seal, locale) {
     mark: "答",
     title,
     sourceAt: record?.submittedAt || seal.timestamp,
-    ordinary: locale === "ja"
-      ? `提出済み答案は ${Number.isFinite(percent) ? `${percent}%` : "採点済み"} として保存された。`
-      : locale === "en"
-        ? `The submitted answer remains ${Number.isFinite(percent) ? `graded at ${percent}%` : "graded"} in the ordinary record.`
-        : `提交答案以${Number.isFinite(percent) ? ` ${percent}%` : "已判分"}留在正式回條。`,
-    dream: locale === "ja"
-      ? "書かなかった選択肢が満点答案として再提出され、元の答案へ出典を要求している。"
-      : locale === "en"
-        ? "An option you did not write has resubmitted itself for full marks and asks the ordinary answer for a citation."
-        : "沒有寫下的選項以滿分答案重新提交，並要求正式答案標註引用。",
+    ordinary: catalogText("assignmentFragment.ordinary", { [locale]: locale === "ja" ? {value0: Number.isFinite(percent) ? `${percent}%` : "採点済み"} : locale === "en" ? {value0: Number.isFinite(percent) ? `graded at ${percent}%` : "graded"} : {value0: Number.isFinite(percent) ? ` ${percent}%` : "已判分"} })[locale],
+    dream: catalogText("assignmentFragment.dream")[locale],
   };
 }
 
@@ -223,10 +216,10 @@ function governanceFragment(seal, locale) {
     title: proposal ? localize(proposal.title, locale) : "SHADOW SENATE",
     sourceAt: seal.timestamp,
     ordinary: selected
-      ? `${locale === "ja" ? "投票" : locale === "en" ? "Ballot" : "正式投票"}：${localize(selected.label, locale)}`
+      ? `${catalogText("governanceFragment.ordinary")[locale]}：${localize(selected.label, locale)}`
       : localize(phantasmSealCopy.governance.found, locale),
     dream: alternative
-      ? `${locale === "ja" ? "影の可決" : locale === "en" ? "Passed in shadow" : "影子議場通過"}：${localize(alternative.label, locale)} — ${localize(alternative.consequence, locale)}`
+      ? `${catalogText("governanceFragment.dream")[locale]}：${localize(alternative.label, locale)} — ${localize(alternative.consequence, locale)}`
       : localize(phantasmSealCopy.governance.found, locale),
   };
 }
@@ -246,10 +239,10 @@ function incidentFragment(seal, locale) {
     title: incident ? `${incident.code} · ${localize(incident.title, locale)}` : "INCIDENT REVERSE",
     sourceAt: seal.timestamp,
     ordinary: selected
-      ? `${locale === "ja" ? "終結仮説" : locale === "en" ? "Closure hypothesis" : "結案假說"}：${localize(selected.title, locale)}`
+      ? `${catalogText("incidentFragment.ordinary")[locale]}：${localize(selected.title, locale)}`
       : localize(phantasmSealCopy.incident.found, locale),
     dream: rejected
-      ? `${locale === "ja" ? "夢の正式結論" : locale === "en" ? "Official dream conclusion" : "夢境正式結論"}：${localize(rejected.title, locale)} — ${localize(rejected.rationale, locale)}`
+      ? `${catalogText("incidentFragment.dream")[locale]}：${localize(rejected.title, locale)} — ${localize(rejected.rationale, locale)}`
       : localize(phantasmSealCopy.incident.found, locale),
   };
 }
@@ -266,11 +259,11 @@ function housingFragment(seal, locale) {
     id: "counter-housing",
     sealId: "housing",
     mark: "室",
-    title: roomLabel || (locale === "ja" ? "断った部屋" : locale === "en" ? "Declined room" : "拒絕過的房間"),
+    title: roomLabel || (catalogText("housingFragment.title")[locale]),
     sourceAt: application?.updatedAt || seal.timestamp,
-    ordinary: `${locale === "ja" ? "辞退済み" : locale === "en" ? "Offer declined" : "已拒絕分房"}${offer?.score ? ` · ${offer.score}%` : ""}`,
+    ordinary: `${catalogText("housingFragment.ordinary")[locale]}${offer?.score ? ` · ${offer.score}%` : ""}`,
     dream: roommate
-      ? `${localize(roommate.name, locale)}${locale === "ja" ? "は昨夜あなたが帰らなかったと言う。" : locale === "en" ? " says you failed to come home last night." : "表示你昨夜沒有回來，要求補簽寢室點名。"}`
+      ? `${localize(roommate.name, locale)}${catalogText("housingFragment.dream")[locale]}`
       : localize(phantasmSealCopy.housing.found, locale),
   };
 }
@@ -285,12 +278,8 @@ function courseFragment(seal, locale) {
       ? `${course.code} · ${localize(course.title, locale)}`
       : (seal.event?.payload?.courseCode || "DROPPED COURSE"),
     sourceAt: seal.timestamp,
-    ordinary: locale === "ja" ? "通常時間割から履修取消。" : locale === "en" ? "Dropped from the ordinary timetable." : "已從普通課表退選。",
-    dream: locale === "ja"
-      ? "第九時限へ自動登録。教室は「元の場所の裏」、担当は出席簿だけが知っている。"
-      : locale === "en"
-        ? "Automatically enrolled in ninth period. The room is “behind the original room”; only the roll knows the instructor."
-        : "自動編入第九節；教室為「原教室背面」，授課教師只有點名簿知道。",
+    ordinary: catalogText("courseFragment.ordinary")[locale],
+    dream: catalogText("courseFragment.dream")[locale],
   };
 }
 
@@ -300,14 +289,10 @@ function unusedRouteFragment(seal, locale) {
     id: "counter-unused-route",
     sealId: "unused-route",
     mark: "未",
-    title: project?.title || (locale === "ja" ? "採用しなかった経路" : locale === "en" ? "Route deliberately not taken" : "刻意沒有採用的路線"),
+    title: project?.title || (catalogText("unusedRouteFragment.title")[locale]),
     sourceAt: seal.defence?.completedAt || seal.timestamp,
     ordinary: project?.unusedRoute || localize(phantasmSealCopy["unused-route"].found, locale),
-    dream: locale === "ja"
-      ? "未踏経路はBND-∞の主教材として採用され、正式研究へ「自分を採用しなかった理由」の引用を要求した。"
-      : locale === "en"
-        ? "The unused route becomes the primary text for BND-∞ and asks the official project to cite why it was not adopted."
-        : "未行路線成為 BND-∞ 主教材，並要求正式研究引用「為何沒有採用自己」。",
+    dream: catalogText("unusedRouteFragment.dream")[locale],
   };
 }
 
@@ -324,12 +309,8 @@ function libraryFragment(locale) {
     mark: "否",
     title: holding ? `${holding.callNumber} · ${localize(holding.title, locale)}` : returned.holdingId,
     sourceAt: returned.returnedAt,
-    ordinary: locale === "ja" ? "通常図書館の記録では返却済み。" : locale === "en" ? "Returned in the ordinary library record." : "普通圖書館記錄：已歸還。",
-    dream: locale === "ja"
-      ? "本は貸出自体を否認し、あなたを返却した側だと主張している。"
-      : locale === "en"
-        ? "The book denies the loan and says it was the party that returned you."
-        : "館藏否認曾被借出，並表示其實是它把你歸還了。",
+    ordinary: catalogText("libraryFragment.ordinary")[locale],
+    dream: catalogText("libraryFragment.dream")[locale],
   };
 }
 
@@ -419,55 +400,19 @@ export function dreamRulingCopy(rulingId, examinerId, locale = "zh-Hant") {
   const name = localize(examiner.name, locale);
   const copy = {
     retain: {
-      ruling: {
-        "zh-Hant": `${name} 裁定：未行路線准予在夢境校區保留，不得冒充正式結論。`,
-        ja: `${name}裁定：未踏経路は夢境キャンパスで保存可。正式結論を名乗ってはならない。`,
-        en: `${name} rules that the untaken route may remain in Dream Campus but may not impersonate an official conclusion.`,
-      },
-      condition: {
-        "zh-Hant": "每次引用時，必須同頁附上醒著時真正採用的路線。",
-        ja: "引用時は、覚醒時に実際採用した経路を同じ頁へ添付すること。",
-        en: "Every citation must show the route actually adopted while awake on the same page.",
-      },
-      dissent: {
-        "zh-Hant": "靈夢少數意見：既然沒有走，路費不應報銷。",
-        ja: "霊夢少数意見：通っていないなら旅費精算不可。",
-        en: "Reimu dissents: a route not taken cannot claim travel expenses.",
-      },
+      ruling: catalogText("copy.retain.ruling", { "zh-Hant": {value0: name}, "ja": {value0: name}, "en": {value0: name} }),
+      condition: catalogText("copy.retain.condition"),
+      dissent: catalogText("copy.retain.dissent"),
     },
     conditional: {
-      ruling: {
-        "zh-Hant": `${name} 裁定：附帶夢界條件通過；可教學，不可倒灌正式學籍。`,
-        ja: `${name}裁定：夢境条件付き可。教材利用可、正式学籍への逆流不可。`,
-        en: `${name} grants dream-boundary conditional approval: teachable here, never backfilled into official records.`,
-      },
-      condition: {
-        "zh-Hant": "鐘響後須重新說明一次為何沒有採用；理由若完全相同，視為仍在做夢。",
-        ja: "鐘の後に不採用理由を再説明。同文なら覚醒していないものとする。",
-        en: "After the bell, explain again why it was not adopted. An identical answer proves you are still dreaming.",
-      },
-      dissent: {
-        "zh-Hant": "文少數意見：『附帶條件』四字可在號外第二版再補。",
-        ja: "文少数意見：「条件付き」は号外第二版で追記可能。",
-        en: "Aya dissents that “conditional” may be added in the extra edition's second printing.",
-      },
+      ruling: catalogText("copy.conditional.ruling", { "zh-Hant": {value0: name}, "ja": {value0: name}, "en": {value0: name} }),
+      condition: catalogText("copy.conditional.condition"),
+      dissent: catalogText("copy.conditional.dissent"),
     },
     wake: {
-      ruling: {
-        "zh-Hant": `${name} 裁定：論證成立得過於整齊，先醒一次再決定是否保留。`,
-        ja: `${name}裁定：論証が整いすぎている。一度覚醒してから保存を再判断。`,
-        en: `${name} finds the argument suspiciously tidy and orders one waking before retention is reconsidered.`,
-      },
-      condition: {
-        "zh-Hant": "醒來後若仍記得同一條路，可在夢學籍續頁補一個不一致的細節。",
-        ja: "覚醒後も同じ道を覚えていれば、夢学籍の続紙へ矛盾を一つ追記できる。",
-        en: "If the route survives waking, add one inconsistent detail on the dream transcript continuation sheet.",
-      },
-      dissent: {
-        "zh-Hant": "多蕾米少數意見：太整齊的夢通常只是校務表格，不必浪費食慾。",
-        ja: "ドレミー少数意見：整いすぎた夢は学務様式にすぎず、食欲を使うほどではない。",
-        en: "Doremy dissents that a dream this tidy is probably an administrative form and not worth an appetite.",
-      },
+      ruling: catalogText("copy.wake.ruling", { "zh-Hant": {value0: name}, "ja": {value0: name}, "en": {value0: name} }),
+      condition: catalogText("copy.wake.condition"),
+      dissent: catalogText("copy.wake.dissent"),
     },
   };
   const selected = copy[rulingId] || copy.conditional;
@@ -533,19 +478,11 @@ export function phantasmCommunityPosts(locale = "zh-Hant") {
     generated: true,
     phantasm: true,
     category: "course",
-    author: locale === "ja" ? "北階段の点呼係（未登録）" : locale === "en" ? "North Stair Roll Keeper (unregistered)" : "北樓梯點名員（未登錄）",
-    title: locale === "ja" ? "第九時限の教室を知っている人？" : locale === "en" ? "Does anyone know the ninth-period room?" : "有人知道第九節教室在哪裡嗎？",
+    author: catalogText("posts.phantasm-ninth-period-rumour.author")[locale],
+    title: catalogText("posts.phantasm-ninth-period-rumour.title")[locale],
     body: progress.count < 3
-      ? (locale === "ja"
-        ? "時間割にはないのに、北階段を下ると四階の出席簿だけ増える。誤植なら、なぜ毎週違う名前が欠席なのか。"
-        : locale === "en"
-          ? "It is not on the timetable, but descending the north stair adds a fourth-floor roll. If it is a typo, why is a different name absent each week?"
-          : "課表沒有，可是北樓梯往下走會多出四樓點名簿。若是錯字，為何每週缺席的是不同名字？")
-      : (locale === "ja"
-        ? `点呼簿の裏から印が${progress.count}個透けた。学務へ持参したら、表だけ返された。`
-        : locale === "en"
-          ? `${progress.count} seals showed through the roll. Academic Affairs returned only its front side.`
-          : `點名簿背面透出 ${progress.count} 枚印章；拿去教務處後，只還回了正面。`),
+      ? (catalogText("posts.phantasm-ninth-period-rumour.body")[locale])
+      : (catalogText("posts.phantasm-ninth-period-rumour.body.2", { [locale]: locale === "ja" ? {value0: progress.count} : locale === "en" ? {value0: progress.count} : {value0: progress.count} })[locale]),
     replies: 9 + progress.count,
     createdAt,
     phantasmRoute: progress.eligible ? "phantasm-campus" : null,
@@ -556,19 +493,11 @@ export function phantasmCommunityPosts(locale = "zh-Hant") {
     generated: true,
     phantasm: true,
     category: "course",
-    author: locale === "ja" ? "試験机の裏面係（表には不在）" : locale === "en" ? "Reverse-Side Exams Clerk (absent from front)" : "試務桌反面職員（正面查無此人）",
-    title: locale === "ja" ? "EXTRAの裏にPHANTASM問題があるって本当？" : locale === "en" ? "Is there really a PHANTASM paper behind EXTRA?" : "EXTRA 背面真的有 PHANTASM 試卷嗎？",
+    author: catalogText("phantasmCommunityPosts.0.author")[locale],
+    title: catalogText("phantasmCommunityPosts.0.title")[locale],
     body: extraAttempts.length
-      ? (locale === "ja"
-        ? "EXTRA提出印を灯りへ透かすと、九問・百五十点と読める。試験係はインク染みだと言うが、染みが『正式成績へ転記不可』と三言語で注意している。"
-        : locale === "en"
-          ? "Hold an EXTRA submission seal to the light and it reads nine questions, 150 marks. Exams calls it an ink stain, although the stain warns in three languages not to enter the score officially."
-          : "把 EXTRA 交卷章對著光，背面會讀出九題、一百五十分。試務處說那只是墨漬，但墨漬用三種語言警告不得登錄正式成績。")
-      : (locale === "ja"
-        ? "最初に尋ねた受験者は「まずEXTRAを終えよ」という無署名紙片を受け取った。二度目に尋ねると、紙片は自分が最初の返答ではないと主張した。"
-        : locale === "en"
-          ? "The first candidate to ask received an unsigned slip: 'Finish EXTRA first.' Asked again, the slip denied being the first answer."
-          : "第一位去問的考生收到無署名紙條：『先把 EXTRA 寫完。』再問一次，紙條否認自己是第一份回答。"),
+      ? (catalogText("phantasmCommunityPosts.0.body")[locale])
+      : (catalogText("phantasmCommunityPosts.0.body.2")[locale]),
     replies: 12 + extraAttempts.length,
     createdAt,
     phantasmRoute: progress.eligible ? "phantasm-exam" : null,
@@ -580,13 +509,9 @@ export function phantasmCommunityPosts(locale = "zh-Hant") {
       generated: true,
       phantasm: true,
       category: "notice",
-      author: locale === "ja" ? "文々。第九版（初版なし）" : locale === "en" ? "Bunbunmaru Ninth Edition (no first edition)" : "文文。第九版（沒有第一版）",
-      title: locale === "ja" ? "訂正：夢学籍は存在しないが、印刷は可能" : locale === "en" ? "Correction: dream transcripts do not exist, but can be printed" : "訂正：夢學籍不存在，但可以列印",
-      body: locale === "ja"
-        ? `${latest.id}は正式学籍へ入っていない。にもかかわらず紙面を一頁使ったため、大学は「存在しない」とだけ回答した。`
-        : locale === "en"
-          ? `${latest.id} is absent from the official registry yet used one full sheet of paper. The university answered only that it “does not exist.”`
-          : `${latest.id} 不在正式學籍，卻用掉了一整張紙；校方僅回覆「不存在」。`,
+      author: catalogText("phantasmCommunityPosts.0.author.2")[locale],
+      title: catalogText("phantasmCommunityPosts.0.title.2")[locale],
+      body: catalogText("phantasmCommunityPosts.0.body.3", { [locale]: locale === "ja" ? {value0: latest.id} : locale === "en" ? {value0: latest.id} : {value0: latest.id} })[locale],
       replies: 19,
       createdAt: latest.completedAt,
       phantasmRoute: `phantasm-transcript-${latest.id}`,

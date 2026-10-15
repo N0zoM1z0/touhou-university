@@ -1,0 +1,1103 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/housing.js:32
+msgctxt "tree:copy#/eyebrow"
+msgid "RESIDENTIAL LIFE"
+msgstr "RESIDENTIAL LIFE / 宿舍生活"
+
+#. copy/title
+#: src/js/housing.js:32
+msgctxt "tree:copy#/title"
+msgid "Rooms are allocated. Living together is negotiated."
+msgstr "房間會分配，生活得一起協商。"
+
+#. copy/lead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/lead"
+msgid ""
+"Compare five residences and record needs around moon phase, wingspan, water, "
+"familiars, and sleep. The housing committee returns three room offers with "
+"both the fit and the likely arguments in writing."
+msgstr "比較五座宿舍，填寫月相、翼展、水域、使魔與作息需求；住宿委員會會給出三份房間方案，把合拍之處和可能吵起來的地方都寫清楚。"
+
+#. copy/term
+#: src/js/housing.js:32
+msgctxt "tree:copy#/term"
+msgid "Autumn 2026 move-in"
+msgstr "2026 秋季入住"
+
+#. copy/residences
+#: src/js/housing.js:32
+msgctxt "tree:copy#/residences"
+msgid "residences"
+msgstr "宿舍"
+
+#. copy/openBeds
+#: src/js/housing.js:32
+msgctxt "tree:copy#/openBeds"
+msgid "Open beds now"
+msgstr "目前空床"
+
+#. copy/monthlyFrom
+#: src/js/housing.js:32
+msgctxt "tree:copy#/monthlyFrom"
+msgid "Lowest monthly fee"
+msgstr "最低月宿費"
+
+#. copy/tabs/0
+#: src/js/housing.js:32
+msgctxt "tree:copy#/tabs/0"
+msgid "Residences"
+msgstr "宿舍總覽"
+
+#. copy/tabs/1
+#: src/js/housing.js:32
+msgctxt "tree:copy#/tabs/1"
+msgid "Apply & match"
+msgstr "申請與配對"
+
+#. copy/tabs/2
+#: src/js/housing.js:32
+msgctxt "tree:copy#/tabs/2"
+msgid "My housing"
+msgstr "我的宿舍"
+
+#. copy/overview
+#: src/js/housing.js:32
+msgctxt "tree:copy#/overview"
+msgid "Five halls. Five ways to get home."
+msgstr "五座宿舍，五種回房方法。"
+
+#. copy/overviewLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/overviewLead"
+msgid ""
+"Choose a hall to see rooms, open beds, facilities, and the notice pinned by "
+"its warden. The selected sign has a shareable address."
+msgstr "先選宿舍查看房型、空床、設備與舍監公告。選中的門牌可以直接分享。"
+
+#. copy/details
+#: src/js/housing.js:32
+msgctxt "tree:copy#/details"
+msgid "Residence file"
+msgstr "宿舍檔案"
+
+#. copy/roomTypes
+#: src/js/housing.js:32
+msgctxt "tree:copy#/roomTypes"
+msgid "Rooms open this term"
+msgstr "本期可申請房間"
+
+#. copy/features
+#: src/js/housing.js:32
+msgctxt "tree:copy#/features"
+msgid "Shared facilities"
+msgstr "共用設備"
+
+#. copy/warden
+#: src/js/housing.js:32
+msgctxt "tree:copy#/warden"
+msgid "Warden & management"
+msgstr "舍監與管理"
+
+#. copy/notice
+#: src/js/housing.js:32
+msgctxt "tree:copy#/notice"
+msgid "Pinned to the door"
+msgstr "釘在門上的公告"
+
+#. copy/distance
+#: src/js/housing.js:32
+msgctxt "tree:copy#/distance"
+msgid "Route to campus"
+msgstr "到校路線"
+
+#. copy/beds
+#: src/js/housing.js:32
+msgctxt "tree:copy#/beds"
+msgid "beds"
+msgstr "床"
+
+#. copy/open
+#: src/js/housing.js:32
+msgctxt "tree:copy#/open"
+msgid "open"
+msgstr "空"
+
+#. copy/month
+#: src/js/housing.js:32
+msgctxt "tree:copy#/month"
+msgid "yen / month"
+msgstr "円／月"
+
+#. copy/applyHere
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applyHere"
+msgid "Make this my first choice"
+msgstr "以此宿舍為第一志願"
+
+#. copy/applicationTitle
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applicationTitle"
+msgid "Housing needs application"
+msgstr "住宿需求申請"
+
+#. copy/applicationLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applicationLead"
+msgid ""
+"This is not a personality test. It finds combinations that can sleep, get "
+"home, and are less likely to hold a full-moon meeting over one chair."
+msgstr "這不是性格測驗。它只用來找到能睡、能回房，也比較不容易在滿月凌晨因一把椅子開會的組合。"
+
+#. copy/identityNeeded
+#: src/js/housing.js:32
+msgctxt "tree:copy#/identityNeeded"
+msgid ""
+"Create a My TU identity first so the housing committee knows whose name "
+"belongs beside the room number. Residence files remain open to everyone."
+msgstr "需要先建立 My TU 身分，住宿委員會才知道要把房號寫給誰。宿舍檔案仍可自由查看。"
+
+#. copy/createIdentity
+#: src/js/housing.js:32
+msgctxt "tree:copy#/createIdentity"
+msgid "Create My TU identity"
+msgstr "建立 My TU 身分"
+
+#. copy/applicant
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applicant"
+msgid "Applicant"
+msgstr "申請人"
+
+#. copy/firstResidence
+#: src/js/housing.js:32
+msgctxt "tree:copy#/firstResidence"
+msgid "First-choice residence"
+msgstr "第一志願宿舍"
+
+#. copy/secondResidence
+#: src/js/housing.js:32
+msgctxt "tree:copy#/secondResidence"
+msgid "Second-choice residence"
+msgstr "第二志願宿舍"
+
+#. copy/roomType
+#: src/js/housing.js:32
+msgctxt "tree:copy#/roomType"
+msgid "Preferred room type"
+msgstr "希望房型"
+
+#. copy/anyRoom
+#: src/js/housing.js:32
+msgctxt "tree:copy#/anyRoom"
+msgid "Any room type"
+msgstr "任何房型"
+
+#. copy/budget
+#: src/js/housing.js:32
+msgctxt "tree:copy#/budget"
+msgid "Monthly fee ceiling"
+msgstr "每月宿費上限"
+
+#. copy/habits
+#: src/js/housing.js:32
+msgctxt "tree:copy#/habits"
+msgid "Shared-life and physical needs"
+msgstr "共同生活與身體需求"
+
+#. copy/sleep
+#: src/js/housing.js:32
+msgctxt "tree:copy#/sleep"
+msgid "Main sleeping hours"
+msgstr "主要睡眠時段"
+
+#. copy/noise
+#: src/js/housing.js:32
+msgctxt "tree:copy#/noise"
+msgid "Room noise"
+msgstr "房內聲量"
+
+#. copy/cleanliness
+#: src/js/housing.js:32
+msgctxt "tree:copy#/cleanliness"
+msgid "Tidying style"
+msgstr "整理方式"
+
+#. copy/cooking
+#: src/js/housing.js:32
+msgctxt "tree:copy#/cooking"
+msgid "Kitchen use"
+msgstr "使用廚房"
+
+#. copy/moon
+#: src/js/housing.js:32
+msgctxt "tree:copy#/moon"
+msgid "Moon response"
+msgstr "月相反應"
+
+#. copy/water
+#: src/js/housing.js:32
+msgctxt "tree:copy#/water"
+msgid "Water access"
+msgstr "水域需求"
+
+#. copy/flight
+#: src/js/housing.js:32
+msgctxt "tree:copy#/flight"
+msgid "Flight / wingspan"
+msgstr "飛行／翼展"
+
+#. copy/wall
+#: src/js/housing.js:32
+msgctxt "tree:copy#/wall"
+msgid "Wall use"
+msgstr "牆面使用"
+
+#. copy/familiar
+#: src/js/housing.js:32
+msgctxt "tree:copy#/familiar"
+msgid "Familiar space"
+msgstr "使魔空間"
+
+#. copy/danmaku
+#: src/js/housing.js:32
+msgctxt "tree:copy#/danmaku"
+msgid "Indoor danmaku"
+msgstr "室內彈幕"
+
+#. copy/note
+#: src/js/housing.js:32
+msgctxt "tree:copy#/note"
+msgid "Anything that must be said first"
+msgstr "還有什麼一定要先說"
+
+#. copy/notePlaceholder
+#: src/js/housing.js:32
+msgctxt "tree:copy#/notePlaceholder"
+msgid "For example: my suitcase becomes larger on Wednesdays; no roommate who steals breakfast."
+msgstr "例如：行李箱會在週三變成較大的行李箱；不接受會偷早餐的室友。"
+
+#. copy/draft
+#: src/js/housing.js:32
+msgctxt "tree:copy#/draft"
+msgid "This form autosaves on this device."
+msgstr "表單會自動保存在這台裝置。"
+
+#. copy/submit
+#: src/js/housing.js:32
+msgctxt "tree:copy#/submit"
+msgid "Send to housing committee"
+msgstr "送交住宿委員會"
+
+#. copy/clear
+#: src/js/housing.js:32
+msgctxt "tree:copy#/clear"
+msgid "Clear draft"
+msgstr "清除草稿"
+
+#. copy/draftSaved
+#: src/js/housing.js:32
+msgctxt "tree:copy#/draftSaved"
+msgid "Housing needs draft saved on this device."
+msgstr "住宿需求草稿已留在這台裝置。"
+
+#. copy/submitted
+#: src/js/housing.js:32
+msgctxt "tree:copy#/submitted"
+msgid "Application submitted. Three room proposals are on the table."
+msgstr "申請已送出，三份分房建議已放上桌。"
+
+#. copy/applicationRef
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applicationRef"
+msgid "Housing application"
+msgstr "住宿申請"
+
+#. copy/applicationHistory
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applicationHistory"
+msgid "On-device housing application history"
+msgstr "本機住宿申請紀錄"
+
+#. copy/chooseApplication
+#: src/js/housing.js:32
+msgctxt "tree:copy#/chooseApplication"
+msgid "Choose a housing application"
+msgstr "查看一份住宿申請"
+
+#. copy/matchingTitle
+#: src/js/housing.js:32
+msgctxt "tree:copy#/matchingTitle"
+msgid "Three committee proposals"
+msgstr "住宿委員會的三份建議"
+
+#. copy/matchingLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/matchingLead"
+msgid ""
+"A score is not a promise of friendship. It measures overlap between "
+"facilities, habits, and your needs; friction remains visible for your "
+"judgment."
+msgstr "分數不是友情保證。它表示房間設備、生活習慣與你的需求重疊到什麼程度；摩擦點會保留給你判斷。"
+
+#. copy/score
+#: src/js/housing.js:32
+msgctxt "tree:copy#/score"
+msgid "match"
+msgstr "相容"
+
+#. copy/matchedWith
+#: src/js/housing.js:32
+msgctxt "tree:copy#/matchedWith"
+msgid "Roommate"
+msgstr "同住者"
+
+#. copy/noRoommate
+#: src/js/housing.js:32
+msgctxt "tree:copy#/noRoommate"
+msgid "Single room this term"
+msgstr "本期單人室"
+
+#. copy/fit
+#: src/js/housing.js:32
+msgctxt "tree:copy#/fit"
+msgid "Why it fits"
+msgstr "為什麼合適"
+
+#. copy/friction
+#: src/js/housing.js:32
+msgctxt "tree:copy#/friction"
+msgid "Discuss first"
+msgstr "先談清楚"
+
+#. copy/accept
+#: src/js/housing.js:32
+msgctxt "tree:copy#/accept"
+msgid "Accept this room"
+msgstr "接受這份房間"
+
+#. copy/decline
+#: src/js/housing.js:32
+msgctxt "tree:copy#/decline"
+msgid "Pass on this offer"
+msgstr "略過這份"
+
+#. copy/accepted
+#: src/js/housing.js:32
+msgctxt "tree:copy#/accepted"
+msgid "Room accepted and written into My Housing."
+msgstr "房間已接受，入住資料已寫入「我的宿舍」。"
+
+#. copy/allocationClosed
+#: src/js/housing.js:32
+msgctxt "tree:copy#/allocationClosed"
+msgid "Allocation completed for this application"
+msgstr "本份申請已完成分房"
+
+#. copy/declined
+#: src/js/housing.js:32
+msgctxt "tree:copy#/declined"
+msgid "Offer passed. The committee did not quietly put it back on top."
+msgstr "這份建議已略過；委員會沒有偷偷把它放回最上面。"
+
+#. copy/allDeclined
+#: src/js/housing.js:32
+msgctxt "tree:copy#/allDeclined"
+msgid "All three proposals were passed. Rewrite your needs for a new match."
+msgstr "三份建議都已略過。你可以改寫需求，讓委員會重新配對。"
+
+#. copy/newApplication
+#: src/js/housing.js:32
+msgctxt "tree:copy#/newApplication"
+msgid "Rewrite my needs"
+msgstr "重新填寫需求"
+
+#. copy/accountTitle
+#: src/js/housing.js:32
+msgctxt "tree:copy#/accountTitle"
+msgid "My housing"
+msgstr "我的宿舍"
+
+#. copy/accountLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/accountLead"
+msgid "Room, roommate agreement, move-in notes, and transfer requests stay on this device."
+msgstr "房號、室友協議、入住備忘與換房請求都留在這台裝置。"
+
+#. copy/noAssignment
+#: src/js/housing.js:32
+msgctxt "tree:copy#/noAssignment"
+msgid "No room has been accepted. Complete the needs form and choose a committee offer."
+msgstr "尚未接受房間。先完成需求申請，再從住宿委員會的建議中選一份。"
+
+#. copy/goApplication
+#: src/js/housing.js:32
+msgctxt "tree:copy#/goApplication"
+msgid "Go to application & matching"
+msgstr "前往申請與配對"
+
+#. copy/activeRoom
+#: src/js/housing.js:32
+msgctxt "tree:copy#/activeRoom"
+msgid "Current room"
+msgstr "目前房間"
+
+#. copy/roommateFile
+#: src/js/housing.js:32
+msgctxt "tree:copy#/roommateFile"
+msgid "Roommate profile"
+msgstr "室友小檔案"
+
+#. copy/fee
+#: src/js/housing.js:32
+msgctxt "tree:copy#/fee"
+msgid "Monthly fee"
+msgstr "月宿費"
+
+#. copy/acceptedOn
+#: src/js/housing.js:32
+msgctxt "tree:copy#/acceptedOn"
+msgid "Accepted"
+msgstr "接受日期"
+
+#. copy/moveIn
+#: src/js/housing.js:32
+msgctxt "tree:copy#/moveIn"
+msgid "Move-in"
+msgstr "入住日"
+
+#. copy/moveInDate
+#: src/js/housing.js:32
+msgctxt "tree:copy#/moveInDate"
+msgid "6 September 2026 · before sunset"
+msgstr "2026 年 9 月 6 日・日落前"
+
+#. copy/agreement
+#: src/js/housing.js:32
+msgctxt "tree:copy#/agreement"
+msgid "Roommate agreement"
+msgstr "共住協議"
+
+#. copy/agreementLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/agreementLead"
+msgid ""
+"The committee generated four rules from both sets of needs. Checking means "
+"you read them on this device; it does not mean your roommate promised not to "
+"steal breakfast."
+msgstr "委員會依兩邊的需求生成了四條先談好的規則。勾選只代表你在本機看過；不代表室友已經同意不偷早餐。"
+
+#. copy/agreementCheck
+#: src/js/housing.js:32
+msgctxt "tree:copy#/agreementCheck"
+msgid "I have read this shared-living note"
+msgstr "我已閱讀這份共住備忘"
+
+#. copy/agreementSaved
+#: src/js/housing.js:32
+msgctxt "tree:copy#/agreementSaved"
+msgid "Agreement status updated."
+msgstr "共住備忘狀態已更新。"
+
+#. copy/roomChange
+#: src/js/housing.js:32
+msgctxt "tree:copy#/roomChange"
+msgid "Room-transfer request"
+msgstr "換房申請"
+
+#. copy/roomChangeLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/roomChangeLead"
+msgid ""
+"Describe what is actually happening. The committee keeps your current room "
+"and attaches a viable alternative; your bed does not suddenly disappear."
+msgstr "說明現在真正發生的問題。委員會會先保留原房，再附上一份可行替代，不會讓你的床位突然消失。"
+
+#. copy/reason
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reason"
+msgid "Main reason"
+msgstr "主要原因"
+
+#. copy/urgency
+#: src/js/housing.js:32
+msgctxt "tree:copy#/urgency"
+msgid "Response time"
+msgstr "處理時限"
+
+#. copy/changeNote
+#: src/js/housing.js:32
+msgctxt "tree:copy#/changeNote"
+msgid "What is happening"
+msgstr "具體情況"
+
+#. copy/sendChange
+#: src/js/housing.js:32
+msgctxt "tree:copy#/sendChange"
+msgid "Send transfer request"
+msgstr "送出換房請求"
+
+#. copy/changeSent
+#: src/js/housing.js:32
+msgctxt "tree:copy#/changeSent"
+msgid "Transfer request saved; your current room remains active."
+msgstr "換房請求已保存；原房間仍然有效。"
+
+#. copy/changeHistory
+#: src/js/housing.js:32
+msgctxt "tree:copy#/changeHistory"
+msgid "Transfer-request history"
+msgstr "換房請求紀錄"
+
+#. copy/cancelChange
+#: src/js/housing.js:32
+msgctxt "tree:copy#/cancelChange"
+msgid "Withdraw request"
+msgstr "撤回請求"
+
+#. copy/changeCancelled
+#: src/js/housing.js:32
+msgctxt "tree:copy#/changeCancelled"
+msgid "Transfer request withdrawn."
+msgstr "換房請求已撤回。"
+
+#. copy/suggestion
+#: src/js/housing.js:32
+msgctxt "tree:copy#/suggestion"
+msgid "Provisional alternative"
+msgstr "委員會暫列替代"
+
+#. copy/status/under-review
+#: src/js/housing.js:32
+msgctxt "tree:copy#/status/under-review"
+msgid "Under review"
+msgstr "審查中"
+
+#. copy/status/cancelled
+#: src/js/housing.js:32
+msgctxt "tree:copy#/status/cancelled"
+msgid "Withdrawn"
+msgstr "已撤回"
+
+#. copy/reasons/firstResidence
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/firstResidence"
+msgid "First-choice residence"
+msgstr "第一志願宿舍"
+
+#. copy/reasons/secondResidence
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/secondResidence"
+msgid "Second-choice residence"
+msgstr "第二志願宿舍"
+
+#. copy/reasons/roomType
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/roomType"
+msgid "Preferred room type"
+msgstr "符合希望房型"
+
+#. copy/reasons/withinBudget
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/withinBudget"
+msgid "Within fee ceiling"
+msgstr "在宿費上限內"
+
+#. copy/reasons/sleepMatch
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/sleepMatch"
+msgid "Similar sleep hours"
+msgstr "睡眠時段接近"
+
+#. copy/reasons/noiseMatch
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/noiseMatch"
+msgid "Matching room-noise habits"
+msgstr "房內聲量習慣一致"
+
+#. copy/reasons/cleanlinessMatch
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/cleanlinessMatch"
+msgid "Similar tidying rhythm"
+msgstr "整理節奏相近"
+
+#. copy/reasons/cookingMatch
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/cookingMatch"
+msgid "Compatible kitchen hours"
+msgstr "廚房使用時段相容"
+
+#. copy/reasons/moonProtected
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/moonProtected"
+msgid "Moon screen and low-stimulus fittings"
+msgstr "有遮月與低刺激設備"
+
+#. copy/reasons/waterAccess
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/waterAccess"
+msgid "Direct water access"
+msgstr "能直接接近水域"
+
+#. copy/reasons/waterNearby
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/waterNearby"
+msgid "Water is nearby"
+msgstr "水域距離合適"
+
+#. copy/reasons/wingSpace
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/wingSpace"
+msgid "Enough turning space for wings"
+msgstr "翼展回旋空間足夠"
+
+#. copy/reasons/flightStorage
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/flightStorage"
+msgid "Flight-gear storage"
+msgstr "有飛具收納"
+
+#. copy/reasons/phaseSafe
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/phaseSafe"
+msgid "Marked wall-passage lines"
+msgstr "牆面穿越標線完整"
+
+#. copy/reasons/familiarWelcome
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/familiarWelcome"
+msgid "Dedicated large-familiar space"
+msgstr "大型使魔有獨立位置"
+
+#. copy/reasons/familiarBay
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/familiarBay"
+msgid "Small familiar bay"
+msgstr "小型使魔有休息格"
+
+#. copy/reasons/blastDesk
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/blastDesk"
+msgid "Blast-resistant workbench"
+msgstr "室內實驗有耐爆工作桌"
+
+#. copy/reasons/quietWard
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/quietWard"
+msgid "Night quiet ward"
+msgstr "夜間靜音結界"
+
+#. copy/reasons/singleRoom
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/singleRoom"
+msgid "No fixed roommate to coordinate"
+msgstr "不必協調固定室友"
+
+#. copy/frictions/sleepConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/sleepConflict"
+msgid "Sleep schedules need agreed quiet hours"
+msgstr "睡眠時段需要先訂安靜時間"
+
+#. copy/frictions/noiseConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/noiseConflict"
+msgid "Different tolerance for room noise"
+msgstr "對房內聲量的容忍不同"
+
+#. copy/frictions/cleanlinessConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/cleanlinessConflict"
+msgid "Tidying standards may collide"
+msgstr "整理標準可能正面相撞"
+
+#. copy/frictions/moonConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/moonConflict"
+msgid "Different full-moon patterns"
+msgstr "滿月作息反應不同"
+
+#. copy/frictions/waterConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/waterConflict"
+msgid "Different water-use habits"
+msgstr "水域使用習慣不同"
+
+#. copy/frictions/flightConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/flightConflict"
+msgid "Window and take-off path need allocation"
+msgstr "窗邊與起飛動線需分配"
+
+#. copy/frictions/wallConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/wallConflict"
+msgid "Different definitions of doors and walls"
+msgstr "對『門』與『牆』的定義不同"
+
+#. copy/frictions/familiarConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/familiarConflict"
+msgid "Furniture for familiars needs labels"
+msgstr "使魔可使用的家具要先寫名"
+
+#. copy/frictions/danmakuConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/danmakuConflict"
+msgid "Different indoor danmaku boundaries"
+msgstr "室內彈幕界線不同"
+
+#. copy/frictions/moonUnshielded
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/moonUnshielded"
+msgid "No complete moon screening"
+msgstr "沒有完整遮月設備"
+
+#. copy/frictions/waterMissing
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/waterMissing"
+msgid "No direct water connection"
+msgstr "房間不直接連接水域"
+
+#. copy/frictions/wingTight
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/wingTight"
+msgid "Limited turning space for large wings"
+msgstr "大翼展轉身空間有限"
+
+#. copy/frictions/phaseUnmarked
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/phaseUnmarked"
+msgid "No marked safe wall passage"
+msgstr "牆面未標記安全穿越線"
+
+#. copy/frictions/familiarCrowded
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/familiarCrowded"
+msgid "Tight space for a large familiar"
+msgstr "大型使魔位置偏擠"
+
+#. copy/frictions/danmakuOutside
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/danmakuOutside"
+msgid "Danmaku practice must move outdoors"
+msgstr "彈幕練習須移到室外"
+
+#. copy/frictions/roomTypeDifferent
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/roomTypeDifferent"
+msgid "Not the requested room type"
+msgstr "不是原先希望的房型"
+
+#. copy/frictions/overBudget
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/overBudget"
+msgid "Above the stated fee ceiling"
+msgstr "高於填寫的宿費上限"
+
+#. copy/incidents/doorName
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/doorName"
+msgid ""
+"The sign must show both names and the room number. If the number changes "
+"itself, use the names."
+msgstr "門牌必須同時寫房號與兩位住戶姓名；若房號自行改變，以姓名為準。"
+
+#. copy/incidents/singleVisitor
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/singleVisitor"
+msgid ""
+"A single-room guest may not stay beyond three nights as a “temporary "
+"roommate”; on night four they receive a bed application."
+msgstr "單人室訪客不得以『臨時室友』名義連住三夜；第四夜起會收到床位申請表。"
+
+#. copy/incidents/quietHours
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/quietHours"
+msgid "Sleep hours differ. Post daily quiet hours on the door; change them before dinner."
+msgstr "兩邊睡眠時段不同：每日安靜時段先寫在門板，臨時更改須在晚飯前。"
+
+#. copy/incidents/nightKitchen
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/nightKitchen"
+msgid "Keep one red lamp on during late kitchen use. Do not use a saucepan as an alarm."
+msgstr "深夜使用廚房須保留一盞紅燈，不得讓鍋子代替鬧鐘。"
+
+#. copy/incidents/fullMoon
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/fullMoon"
+msgid ""
+"For three nights around the full moon, low-stimulus needs take priority; the "
+"lounge absorbs the other resident’s activity."
+msgstr "滿月前後三夜，以需要低刺激的一方為準；談話室負責接收另一方的活動量。"
+
+#. copy/incidents/familiarChair
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/familiarChair"
+msgid ""
+"Familiars and furniture are not first come, first served. Redraw the "
+"window-chair rota weekly."
+msgstr "使魔與家具不是先到先得；窗邊椅的使用表每週重排一次。"
+
+#. copy/incidents/wallKnock
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/wallKnock"
+msgid ""
+"Knock three times before phasing. Whether it is a wall or door does not "
+"alter the number three."
+msgstr "穿牆前敲三下。敲的是牆還是門不影響三下這個數字。"
+
+#. copy/incidents/waterSchedule
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/waterSchedule"
+msgid ""
+"Clear the room channel at 06:00 daily. Personal objects may not be renamed "
+"“temporary waterworks.”"
+msgstr "室內水道每日 06:00 清障；個人物品不得被稱作『臨時水利設施』。"
+
+#. copy/incidents/windowRunway
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/windowRunway"
+msgid ""
+"Keep the window take-off line clear. The wider wingspan tests the "
+"clothesline height first."
+msgstr "窗邊起飛動線保持淨空；晾衣繩高度由翼展較大者先試。"
+
+#. copy/incidents/danmakuTape
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/danmakuTape"
+msgid ""
+"Only the area inside red tape is blast-resistant. Moving the tape does not "
+"enlarge the room."
+msgstr "紅膠帶內才算耐爆區。把膠帶往外移動不會讓房間跟著變大。"
+
+#. copy/options/sleep/early
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/sleep/early"
+msgid "Early sleeper"
+msgstr "早睡早起"
+
+#. copy/options/sleep/late
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/sleep/late"
+msgid "Nocturnal"
+msgstr "夜行"
+
+#. copy/options/sleep/shifting
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/sleep/shifting"
+msgid "Shift / irregular"
+msgstr "輪班／不固定"
+
+#. copy/options/noise/quiet
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/noise/quiet"
+msgid "Prefer quiet"
+msgstr "偏安靜"
+
+#. copy/options/noise/social
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/noise/social"
+msgid "Conversation and music are fine"
+msgstr "能接受談話與音樂"
+
+#. copy/options/cleanliness/neat
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/cleanliness/neat"
+msgid "Everything returned to place"
+msgstr "物品需歸位"
+
+#. copy/options/cleanliness/relaxed
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/cleanliness/relaxed"
+msgid "Floor visible is enough"
+msgstr "看得見地板即可"
+
+#. copy/options/cooking/no
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/cooking/no"
+msgid "Rarely use it"
+msgstr "很少使用"
+
+#. copy/options/cooking/shared
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/cooking/shared"
+msgid "Normal shared use"
+msgstr "正常共用"
+
+#. copy/options/cooking/night
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/cooking/night"
+msgid "Often cook late"
+msgstr "常在深夜使用"
+
+#. copy/options/moon/ordinary
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/moon/ordinary"
+msgid "No special response"
+msgstr "無特別反應"
+
+#. copy/options/moon/sensitive
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/moon/sensitive"
+msgid "Need moon screen / low stimulus"
+msgstr "需要遮月／低刺激"
+
+#. copy/options/moon/active
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/moon/active"
+msgid "More active at full moon"
+msgstr "滿月時更活躍"
+
+#. copy/options/water/dry
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/water/dry"
+msgid "Ordinary dry room"
+msgstr "一般乾燥房間"
+
+#. copy/options/water/near
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/water/near"
+msgid "Prefer nearby water"
+msgstr "希望靠近水"
+
+#. copy/options/water/must
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/water/must"
+msgid "Direct water access required"
+msgstr "必須直接接水域"
+
+#. copy/options/flight/ground
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/flight/ground"
+msgid "No flight space needed"
+msgstr "不需飛行空間"
+
+#. copy/options/flight/small
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/flight/small"
+msgid "Broom / small wingspan"
+msgstr "掃帚／小翼展"
+
+#. copy/options/flight/large
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/flight/large"
+msgid "Large wingspan"
+msgstr "大翼展"
+
+#. copy/options/wall/solid
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/wall/solid"
+msgid "Use doors only"
+msgstr "只使用門"
+
+#. copy/options/wall/phase
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/wall/phase"
+msgid "Need wall-passage markings"
+msgstr "需要穿牆標線"
+
+#. copy/options/familiar/none
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/familiar/none"
+msgid "No resident familiar"
+msgstr "沒有固定使魔"
+
+#. copy/options/familiar/small
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/familiar/small"
+msgid "Small familiar"
+msgstr "小型使魔"
+
+#. copy/options/familiar/large
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/familiar/large"
+msgid "Large / several familiars"
+msgstr "大型／多隻使魔"
+
+#. copy/options/danmaku/none
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/danmaku/none"
+msgid "No indoor practice"
+msgstr "不在室內練習"
+
+#. copy/options/danmaku/outdoors
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/danmaku/outdoors"
+msgid "Outdoors only"
+msgstr "只在室外練習"
+
+#. copy/options/danmaku/indoor
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/danmaku/indoor"
+msgid "Need blast-resistant indoor zone"
+msgstr "需要耐爆室內區"
+
+#. copy/options/reasons/schedule
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/schedule"
+msgid "Schedule / noise"
+msgstr "作息與噪音"
+
+#. copy/options/reasons/moon
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/moon"
+msgid "Moon / sensory needs"
+msgstr "月相／感官需求"
+
+#. copy/options/reasons/water
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/water"
+msgid "Water / physical needs"
+msgstr "水域或身體需求"
+
+#. copy/options/reasons/familiar
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/familiar"
+msgid "Familiar / insufficient space"
+msgstr "使魔／空間不足"
+
+#. copy/options/reasons/conflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/conflict"
+msgid "Shared-living conflict"
+msgstr "共同生活衝突"
+
+#. copy/options/reasons/route
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/route"
+msgid "Commute"
+msgstr "通學路線"
+
+#. copy/options/reasons/other
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/other"
+msgid "Other"
+msgstr "其他"
+
+#. copy/options/urgency/ordinary
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/urgency/ordinary"
+msgid "Ordinary review"
+msgstr "一般審查"
+
+#. copy/options/urgency/soon
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/urgency/soon"
+msgid "Within seven days"
+msgstr "七日內"
+
+#. copy/options/urgency/immediate
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/urgency/immediate"
+msgid "Contact me today"
+msgstr "需要當日聯絡"

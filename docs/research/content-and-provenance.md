@@ -61,6 +61,9 @@ tape and catalogue styling, so this feature adds no generated-image asset.
 
 ## Generated visual assets
 
+Asset paths below are published URLs. Authored originals live under
+`public/<asset-path>`; the build copies them unchanged to `dist/<asset-path>`.
+
 All illustrations were generated specifically for this project on
 2026-07-24 using the built-in OpenAI image generation tool. They do not use
 official game sprites, screenshots, scans or another fan artist's work.

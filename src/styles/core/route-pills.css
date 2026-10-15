@@ -1,0 +1,425 @@
+.route-pills span {
+  padding: 5px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 9px;
+}
+
+.button-light {
+  color: var(--red-dark);
+  background: var(--paper-light);
+}
+
+.button-light:hover {
+  color: var(--ink);
+  background: #fff;
+}
+
+.admissions-actions {
+  display: grid;
+  max-width: 520px;
+  margin-top: 34px;
+  grid-template-columns: 0.72fr 1.28fr;
+  gap: 10px;
+}
+
+.admissions-guide-button,
+.application-cta {
+  position: relative;
+  min-height: 114px;
+  padding: 19px 20px;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  background: rgba(255, 255, 255, 0.035);
+  cursor: pointer;
+  text-align: left;
+  transition:
+    transform 0.22s,
+    border-color 0.22s,
+    background 0.22s,
+    box-shadow 0.22s;
+}
+
+.admissions-guide-button {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.admissions-guide-button small {
+  display: block;
+  margin-bottom: 21px;
+  color: rgba(255, 255, 255, 0.45);
+  font-family: var(--sans);
+  font-size: 6px;
+  font-weight: 850;
+  letter-spacing: 0.13em;
+}
+
+.admissions-guide-button i {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  font-style: normal;
+}
+
+.application-cta {
+  padding: 19px 52px 18px 21px;
+  color: var(--ink);
+  border-color: var(--paper-light);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.72), transparent 48%),
+    var(--paper-light);
+  box-shadow: 0 14px 40px rgba(54, 10, 16, 0.2);
+}
+
+.application-cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44%;
+  height: 3px;
+  background: #d29a73;
+  transition: width 0.25s;
+}
+
+.application-cta-status {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  gap: 7px;
+  color: var(--red);
+  font-size: 6px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+}
+
+.application-cta-status i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #4c9878;
+  box-shadow: 0 0 0 4px rgba(76, 152, 120, 0.13);
+}
+
+.application-cta strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.application-cta > small {
+  display: block;
+  margin-top: 7px;
+  color: #807970;
+  font-size: 7px;
+}
+
+.application-cta-arrow {
+  position: absolute;
+  right: 18px;
+  bottom: 19px;
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  color: var(--white);
+  border-radius: 50%;
+  background: var(--red);
+}
+
+.admissions-guide-button:hover,
+.admissions-guide-button:focus-visible,
+.application-cta:hover,
+.application-cta:focus-visible {
+  z-index: 1;
+  outline: 0;
+  transform: translateY(-3px);
+}
+
+.admissions-guide-button:hover,
+.admissions-guide-button:focus-visible {
+  border-color: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.application-cta:hover,
+.application-cta:focus-visible {
+  box-shadow: 0 20px 55px rgba(52, 8, 14, 0.34);
+}
+
+.application-cta:hover::before,
+.application-cta:focus-visible::before {
+  width: 100%;
+}
+
+.admission-steps {
+  padding: 38px 42px;
+  color: var(--ink);
+  background: rgba(250, 247, 240, 0.96);
+  box-shadow: 0 28px 70px rgba(50, 13, 18, 0.25);
+}
+
+.admission-steps ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.admission-steps li {
+  display: grid;
+  padding: 22px 0;
+  grid-template-columns: 48px 1fr;
+  gap: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.admission-steps li:last-child {
+  border: 0;
+}
+
+.admission-steps li > span {
+  color: var(--red);
+  font-family: var(--serif);
+  font-size: 24px;
+}
+
+.admission-steps small {
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+
+.admission-steps h3 {
+  margin: 4px 0 6px;
+  font-family: var(--serif);
+  font-size: 18px;
+}
+
+.admission-steps p {
+  margin: 0;
+  color: #68645f;
+  font-size: 11px;
+}
+
+.research {
+  background: var(--paper-light);
+}
+
+.research .section-header > div:last-child {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.feature-research {
+  position: relative;
+  display: grid;
+  min-height: 420px;
+  padding: 60px;
+  grid-template-columns: 90px 1fr 0.8fr;
+  gap: 45px;
+  align-items: center;
+  color: var(--white);
+  background:
+    radial-gradient(circle at 80% 50%, rgba(94, 142, 147, 0.3), transparent 35%),
+    var(--blue);
+  overflow: hidden;
+}
+
+.feature-research::after {
+  content: "";
+  position: absolute;
+  right: -80px;
+  bottom: -100px;
+  width: 430px;
+  height: 430px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+}
+
+.feature-number {
+  align-self: start;
+  padding-top: 7px;
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+
+.feature-copy {
+  position: relative;
+  z-index: 2;
+}
+
+.feature-copy > p:first-child {
+  margin-bottom: 14px;
+  color: #9db7b6;
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+}
+
+.feature-copy h3 {
+  margin-bottom: 20px;
+  font-family: var(--serif);
+  font-size: clamp(29px, 3.2vw, 45px);
+  line-height: 1.35;
+}
+
+.feature-copy h3 + p {
+  max-width: 600px;
+  color: rgba(255, 255, 255, 0.64);
+  font-family: var(--serif);
+  font-size: 13px;
+  line-height: 2;
+}
+
+.feature-copy a {
+  display: inline-flex;
+  margin-top: 14px;
+  gap: 35px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.11em;
+}
+
+.research-open,
+.research-card > button {
+  display: flex;
+  min-height: 48px;
+  margin-top: 24px;
+  padding: 0 17px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  background: rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  transition:
+    color 0.2s,
+    background 0.2s,
+    border-color 0.2s,
+    transform 0.2s;
+}
+
+.research-open:hover,
+.research-open:focus-visible {
+  color: var(--ink);
+  border-color: var(--white);
+  background: var(--white);
+  outline: 0;
+  transform: translateY(-2px);
+}
+
+.orbit-graphic {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: min(280px, 100%);
+  aspect-ratio: 1;
+  place-items: center;
+  justify-self: center;
+}
+
+.orbit-graphic i {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 50%;
+}
+
+.orbit-graphic i:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  animation: orbitPulse 6s infinite alternate;
+}
+
+.orbit-graphic i:nth-child(2) {
+  width: 74%;
+  height: 74%;
+  border-style: dashed;
+  animation: slowSpin 28s linear infinite;
+}
+
+.orbit-graphic i:nth-child(3) {
+  width: 48%;
+  height: 48%;
+  box-shadow: 0 0 60px rgba(119, 192, 191, 0.23);
+}
+
+.orbit-graphic b {
+  font-family: var(--serif);
+  font-size: 55px;
+  font-weight: 500;
+}
+
+@keyframes orbitPulse {
+  to {
+    transform: scale(0.94);
+    opacity: 0.5;
+  }
+}
+
+.research-list {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.research-card {
+  display: flex;
+  padding: 33px;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid var(--line);
+  background: #f7f2e8;
+  transition:
+    transform 0.25s,
+    box-shadow 0.25s,
+    border-color 0.25s;
+}
+
+.research-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(155, 48, 57, 0.4);
+  box-shadow: var(--shadow);
+}
+
+.research-card > p:first-child {
+  margin-bottom: 22px;
+  color: #888078;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.research-card > p:first-child span {
+  margin-right: 8px;
+  color: var(--red);
+}
+
+.research-card h3 {
+  min-height: 64px;
+  margin-bottom: 13px;
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.55;
+}

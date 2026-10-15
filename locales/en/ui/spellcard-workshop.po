@@ -1,0 +1,540 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/eyebrow"
+msgid "SPELL-CARD DESIGN + ETHICS WORKSHOP"
+msgstr "SPELL-CARD DESIGN + ETHICS WORKSHOP"
+
+#. copy/title
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/title"
+msgid "A spell card is not one fairness score."
+msgstr "A spell card is not one fairness score."
+
+#. copy/lead
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/lead"
+msgid ""
+"Fly your own rule, then hear six incompatible reviews. Reimu watches exits, "
+"Marisa expression and reproducibility, Aya the audience, Nitori collision "
+"stability, Eirin stimulation, while the Misty Lake fairies refuse to let the "
+"whole venue contain nothing but alarms."
+msgstr ""
+"Fly your own rule, then hear six incompatible reviews. Reimu watches exits, "
+"Marisa expression and reproducibility, Aya the audience, Nitori collision "
+"stability, Eirin stimulation, while the Misty Lake fairies refuse to let the "
+"whole venue contain nothing but alarms."
+
+#. copy/notice
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/notice"
+msgid "Today's demonstration conditions"
+msgstr "Today's demonstration conditions"
+
+#. copy/designTab
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/designTab"
+msgid "Design & test-flight"
+msgstr "Design & test-flight"
+
+#. copy/archiveTab
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/archiveTab"
+msgid "My spell-card files"
+msgstr "My spell-card files"
+
+#. copy/archiveCounts
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/archiveCounts"
+msgid "designs / defences"
+msgstr "designs / defences"
+
+#. copy/sandbox
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/sandbox"
+msgid "Lightweight test-flight sandbox"
+msgstr "Lightweight test-flight sandbox"
+
+#. copy/sandboxLead
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/sandboxLead"
+msgid "Move with arrows or WASD, hold Shift for focus speed, or drag the player directly."
+msgstr "Move with arrows or WASD, hold Shift for focus speed, or drag the player directly."
+
+#. copy/resetFlight
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/resetFlight"
+msgid "Reset flight"
+msgstr "Reset flight"
+
+#. copy/pause
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/pause"
+msgid "Pause"
+msgstr "Pause"
+
+#. copy/resume
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/resume"
+msgid "Resume"
+msgstr "Resume"
+
+#. copy/collisions
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/collisions"
+msgid "Hits"
+msgstr "Hits"
+
+#. copy/grazes
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/grazes"
+msgid "Grazes"
+msgstr "Grazes"
+
+#. copy/declaration
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/declaration"
+msgid "Declaration cue"
+msgstr "Declaration cue"
+
+#. copy/flight
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/flight"
+msgid "Test flight"
+msgstr "Test flight"
+
+#. copy/pattern
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/pattern"
+msgid "Danmaku frame"
+msgstr "Danmaku frame"
+
+#. copy/venue
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/venue"
+msgid "Demonstration venue"
+msgstr "Demonstration venue"
+
+#. copy/cue
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/cue"
+msgid "Visual cue"
+msgstr "Visual cue"
+
+#. copy/sound
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/sound"
+msgid "Sound cue"
+msgstr "Sound cue"
+
+#. copy/name
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/name"
+msgid "Spell-card name"
+msgstr "Spell-card name"
+
+#. copy/namePlaceholder
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/namePlaceholder"
+msgid "Example: Star Sign “The Seventh Exit the Paper Missed”"
+msgstr "Example: Star Sign “The Seventh Exit the Paper Missed”"
+
+#. copy/speed
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/speed"
+msgid "Shot speed"
+msgstr "Shot speed"
+
+#. copy/density
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/density"
+msgid "On-screen density"
+msgstr "On-screen density"
+
+#. copy/symmetry
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/symmetry"
+msgid "Symmetry"
+msgstr "Symmetry"
+
+#. copy/randomness
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/randomness"
+msgid "Random variation"
+msgstr "Random variation"
+
+#. copy/declarationDelay
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/declarationDelay"
+msgid "Declaration to wave one"
+msgstr "Declaration to wave one"
+
+#. copy/corridorWidth
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/corridorWidth"
+msgid "Safe corridor"
+msgstr "Safe corridor"
+
+#. copy/changeFrequency
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/changeFrequency"
+msgid "Change frequency"
+msgstr "Change frequency"
+
+#. copy/duration
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/duration"
+msgid "Duration"
+msgstr "Duration"
+
+#. copy/flashLevel
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/flashLevel"
+msgid "Added flashing"
+msgstr "Added flashing"
+
+#. copy/seedLock
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/seedLock"
+msgid "Lock random seed and collision version"
+msgstr "Lock random seed and collision version"
+
+#. copy/stopSignal
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/stopSignal"
+msgid "Retain a recognisable stop signal"
+msgstr "Retain a recognisable stop signal"
+
+#. copy/audienceBriefing
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/audienceBriefing"
+msgid "Give the audience a solution-free cue beforehand"
+msgstr "Give the audience a solution-free cue beforehand"
+
+#. copy/liveConditions
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/liveConditions"
+msgid "Bring today's moon and campus incidents into the test"
+msgstr "Bring today's moon and campus incidents into the test"
+
+#. copy/fieldNote
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/fieldNote"
+msgid "Design memorandum"
+msgstr "Design memorandum"
+
+#. copy/fieldPlaceholder
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/fieldPlaceholder"
+msgid ""
+"Record an intentionally retained risk, a route not taken, or the part that "
+"looks suspiciously beautiful."
+msgstr ""
+"Record an intentionally retained risk, a route not taken, or the part that "
+"looks suspiciously beautiful."
+
+#. copy/metrics
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/metrics"
+msgid "Measurements that refuse to merge"
+msgstr "Measurements that refuse to merge"
+
+#. copy/corridorMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/corridorMetric"
+msgid "Effective corridor"
+msgstr "Effective corridor"
+
+#. copy/projectileMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/projectileMetric"
+msgid "Shot budget"
+msgstr "Shot budget"
+
+#. copy/workloadMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/workloadMetric"
+msgid "Collision load"
+msgstr "Collision load"
+
+#. copy/readabilityMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/readabilityMetric"
+msgid "Readable signal"
+msgstr "Readable signal"
+
+#. copy/expressionMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/expressionMetric"
+msgid "Expressive shape"
+msgstr "Expressive shape"
+
+#. copy/reproducibilityMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/reproducibilityMetric"
+msgid "Reproduction"
+msgstr "Reproduction"
+
+#. copy/fatigueMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/fatigueMetric"
+msgid "Stimulus / fatigue"
+msgstr "Stimulus / fatigue"
+
+#. copy/units
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/units"
+msgid "shots"
+msgstr "shots"
+
+#. copy/reviews
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/reviews"
+msgid "Six workshop marginalia"
+msgstr "Six workshop marginalia"
+
+#. copy/approve
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/approve"
+msgid "May demonstrate"
+msgstr "May demonstrate"
+
+#. copy/caution
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/caution"
+msgid "Conditional"
+msgstr "Conditional"
+
+#. copy/object
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/object"
+msgid "Objects to public use"
+msgstr "Objects to public use"
+
+#. copy/noSingleScore
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/noSingleScore"
+msgid ""
+"There is no total score. Averaging objections produces a conclusion nobody "
+"actually signed."
+msgstr ""
+"There is no total score. Averaging objections produces a conclusion nobody "
+"actually signed."
+
+#. copy/autosaved
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/autosaved"
+msgid "Draft saved on this device"
+msgstr "Draft saved on this device"
+
+#. copy/clear
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/clear"
+msgid "Clear the bench"
+msgstr "Clear the bench"
+
+#. copy/save
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/save"
+msgid "Archive this design version"
+msgstr "Archive this design version"
+
+#. copy/nameRequired
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/nameRequired"
+msgid "Name the spell card first. “Untitled” will not answer for you in a defence."
+msgstr "Name the spell card first. “Untitled” will not answer for you in a defence."
+
+#. copy/saved
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/saved"
+msgid "Design archived; six reviews were not allowed to cancel one another."
+msgstr "Design archived; six reviews were not allowed to cancel one another."
+
+#. copy/designFile
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/designFile"
+msgid "Spell-card design file"
+msgstr "Spell-card design file"
+
+#. copy/version
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/version"
+msgid "Version source"
+msgstr "Version source"
+
+#. copy/firstVersion
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/firstVersion"
+msgid "First version"
+msgstr "First version"
+
+#. copy/created
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/created"
+msgid "Archived"
+msgstr "Archived"
+
+#. copy/conditionsAtSave
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/conditionsAtSave"
+msgid "Archive conditions"
+msgstr "Archive conditions"
+
+#. copy/revise
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/revise"
+msgid "Revise from this version"
+msgstr "Revise from this version"
+
+#. copy/defend
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/defend"
+msgid "Send to public defence"
+msgstr "Send to public defence"
+
+#. copy/print
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/print"
+msgid "Print / save PDF"
+msgstr "Print / save PDF"
+
+#. copy/openBbs
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/openBbs"
+msgid "Open linked BBS"
+msgstr "Open linked BBS"
+
+#. copy/noDesigns
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/noDesigns"
+msgid "No design has been archived on this device. The draft remains on the bench."
+msgstr "No design has been archived on this device. The draft remains on the bench."
+
+#. copy/allDesigns
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/allDesigns"
+msgid "On-device version shelf"
+msgstr "On-device version shelf"
+
+#. copy/noDefence
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/noDefence"
+msgid "No public defence"
+msgstr "No public defence"
+
+#. copy/defended
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/defended"
+msgid "Defended"
+msgstr "Defended"
+
+#. copy/publicDefence
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/publicDefence"
+msgid "Public Spell-Card Ethics Defence"
+msgstr "Public Spell-Card Ethics Defence"
+
+#. copy/defenceLead
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/defenceLead"
+msgid ""
+"Three examiners do not average one another. The strongest current external "
+"objection takes seat three."
+msgstr ""
+"Three examiners do not average one another. The strongest current external "
+"objection takes seat three."
+
+#. copy/majority
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/majority"
+msgid "Majority ruling"
+msgstr "Majority ruling"
+
+#. copy/minority
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/minority"
+msgid "Minority / reserved opinion"
+msgstr "Minority / reserved opinion"
+
+#. copy/conditions
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/conditions"
+msgid "Red-cord conditions"
+msgstr "Red-cord conditions"
+
+#. copy/answerAll
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/answerAll"
+msgid ""
+"Leave a position on all three questions. Silence preserves the draft; it is "
+"not a defence."
+msgstr ""
+"Leave a position on all three questions. Silence preserves the draft; it is "
+"not a defence."
+
+#. copy/submitDefence
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/submitDefence"
+msgid "Submit three answers for public ruling"
+msgstr "Submit three answers for public ruling"
+
+#. copy/defenceSaved
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/defenceSaved"
+msgid "Defence retained; majority and minority opinions entered separate fields."
+msgstr "Defence retained; majority and minority opinions entered separate fields."
+
+#. copy/voteApprove
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/voteApprove"
+msgid "Approve"
+msgstr "Approve"
+
+#. copy/voteConditional
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/voteConditional"
+msgid "Conditional"
+msgstr "Conditional"
+
+#. copy/voteReject
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/voteReject"
+msgid "Object"
+msgstr "Object"
+
+#. copy/selectedAnswer
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/selectedAnswer"
+msgid "Your defence"
+msgstr "Your defence"
+
+#. copy/documentTitle
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/documentTitle"
+msgid "Spell-Card Ethics Review & Design File"
+msgstr "Spell-Card Ethics Review & Design File"
+
+#. copy/documentNote
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/documentNote"
+msgid ""
+"Generated from design and defence records in this browser. Red-cord "
+"conditions are not decoration."
+msgstr ""
+"Generated from design and defence records in this browser. Red-cord "
+"conditions are not decoration."
+
+#. copy/backDesign
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/backDesign"
+msgid "Return to design bench"
+msgstr "Return to design bench"

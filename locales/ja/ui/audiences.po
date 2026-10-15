@@ -1,0 +1,186 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. paths.visitor.label
+#: src/js/audiences.js:8
+msgctxt "text:paths.visitor.label"
+msgid "Visitor"
+msgstr "来訪者"
+
+#. paths.visitor.title
+#: src/js/audiences.js:9
+msgctxt "text:paths.visitor.title"
+msgid "Your first visit to Touhou University"
+msgstr "幻想郷立東方大学を初めて訪れる"
+
+#. paths.visitor.lead
+#: src/js/audiences.js:10
+msgctxt "text:paths.visitor.lead"
+msgid "See how campus works, then plan a visit route that does not deposit you in last week."
+msgstr "大学の仕組みを知り、先週へ迷い込まない見学経路を組みましょう。"
+
+#. paths.visitor.actions.0.1
+#: src/js/audiences.js:12
+msgctxt "text:paths.visitor.actions.0.1"
+msgid "Meet the university"
+msgstr "大学を知る"
+
+#. paths.visitor.actions.1.1
+#: src/js/audiences.js:13
+msgctxt "text:paths.visitor.actions.1.1"
+msgid "Open campus map"
+msgstr "地図を開く"
+
+#. paths.visitor.actions.2.1
+#: src/js/audiences.js:14
+msgctxt "text:paths.visitor.actions.2.1"
+msgid "Reserve a visit"
+msgstr "来校予約"
+
+#. paths.visitor.actions.3.1
+#: src/js/audiences.js:15
+msgctxt "text:paths.visitor.actions.3.1"
+msgid "Explore campus life"
+msgstr "キャンパスライフ"
+
+#. paths.applicant.label
+#: src/js/audiences.js:20
+msgctxt "text:paths.applicant.label"
+msgid "Applicant"
+msgstr "志願者"
+
+#. paths.applicant.title
+#: src/js/audiences.js:21
+msgctxt "text:paths.applicant.title"
+msgid "Put your school, question, and exam on one path"
+msgstr "志望・問い・試験を一つの経路へ"
+
+#. paths.applicant.lead
+#: src/js/audiences.js:22
+msgctxt "text:paths.applicant.lead"
+msgid "Compare seven schools, take a simulation, then carry your choice into the application."
+msgstr "七学部を比較し、模試を受け、選んだ学部をそのまま出願票へ。"
+
+#. paths.applicant.actions.0.1
+#: src/js/audiences.js:24
+msgctxt "text:paths.applicant.actions.0.1"
+msgid "Compare seven schools"
+msgstr "七学部を比較"
+
+#. paths.applicant.actions.1.1
+#: src/js/audiences.js:25
+msgctxt "text:paths.applicant.actions.1.1"
+msgid "Try the entrance exam"
+msgstr "入学試験に挑戦"
+
+#. paths.applicant.actions.2.1
+#: src/js/audiences.js:26
+msgctxt "text:paths.applicant.actions.2.1"
+msgid "Take the Gensokyo exam"
+msgstr "幻想郷統一試験"
+
+#. paths.applicant.actions.3.1
+#: src/js/audiences.js:27
+msgctxt "text:paths.applicant.actions.3.1"
+msgid "Start application"
+msgstr "オンライン出願"
+
+#. paths.newcomer.label
+#: src/js/audiences.js:32
+msgctxt "text:paths.newcomer.label"
+msgid "New Student"
+msgstr "新入生"
+
+#. paths.newcomer.title
+#: src/js/audiences.js:33
+msgctxt "text:paths.newcomer.title"
+msgid "Bring the admission review, not only the welcome"
+msgstr "歓迎の言葉だけでなく、合格審査を持ってくる"
+
+#. paths.newcomer.lead
+#: src/js/audiences.js:34
+msgctxt "text:paths.newcomer.lead"
+msgid ""
+"Confirm a route that works today from Hakurei Gate, agree on a stop signal, "
+"then choose the first real thing to do after First Bell."
+msgstr "博麗門から今日通れる経路を確かめ、停止合図を決め、第一鐘の後に始める本当の用事を選びます。"
+
+#. paths.newcomer.actions.0.1
+#: src/js/audiences.js:36
+msgctxt "text:paths.newcomer.actions.0.1"
+msgid "Open the arrival file"
+msgstr "新入生到着票を開く"
+
+#. paths.newcomer.actions.1.1
+#: src/js/audiences.js:37
+msgctxt "text:paths.newcomer.actions.1.1"
+msgid "Check the admission review"
+msgstr "合格審査を確認"
+
+#. paths.newcomer.actions.2.1
+#: src/js/audiences.js:38
+msgctxt "text:paths.newcomer.actions.2.1"
+msgid "Inspect today's routes"
+msgstr "当日の経路を見る"
+
+#. paths.newcomer.actions.3.1
+#: src/js/audiences.js:39
+msgctxt "text:paths.newcomer.actions.3.1"
+msgid "Discuss living arrangements"
+msgstr "共同生活の条件を話す"
+
+#. paths.student.label
+#: src/js/audiences.js:44
+msgctxt "text:paths.student.label"
+msgid "Current Student"
+msgstr "在学生"
+
+#. paths.student.title
+#: src/js/audiences.js:45
+msgctxt "text:paths.student.title"
+msgid "Today's classes, free rooms, and campus rumours"
+msgstr "今日の授業、空き教室、キャンパスの風聞"
+
+#. paths.student.lead
+#: src/js/audiences.js:46
+msgctxt "text:paths.student.lead"
+msgid ""
+"It will not submit your work, but it can tell you whether the room still "
+"exists and what lunch remains."
+msgstr "課題の提出は代行しませんが、教室がまだ存在するか、昼食が残っているかは分かります。"
+
+#. paths.student.actions.0.1
+#: src/js/audiences.js:48
+msgctxt "text:paths.student.actions.0.1"
+msgid "Today's timetable"
+msgstr "今日の時間割"
+
+#. paths.student.actions.1.1
+#: src/js/audiences.js:49
+msgctxt "text:paths.student.actions.1.1"
+msgid "My housing"
+msgstr "自分の寮"
+
+#. paths.student.actions.2.1
+#: src/js/audiences.js:50
+msgctxt "text:paths.student.actions.2.1"
+msgid "Find a free room"
+msgstr "空き教室"
+
+#. paths.student.actions.3.1
+#: src/js/audiences.js:51
+msgctxt "text:paths.student.actions.3.1"
+msgid "Enter Campus BBS"
+msgstr "学内 BBS へ"
+
+#. render
+#: src/js/audiences.js:68
+msgctxt "text:render"
+msgid "How are you entering campus today?"
+msgstr "今日はどの立場で大学へ？"

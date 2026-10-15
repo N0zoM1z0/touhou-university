@@ -1,0 +1,236 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/choose
+#: src/js/exam.js:7
+msgctxt "tree:copy#/choose"
+msgid "Choose a paper"
+msgstr "試験を選ぶ"
+
+#. copy/chooseLead
+#: src/js/exam.js:7
+msgctxt "tree:copy#/chooseLead"
+msgid "Each of four banks is timed separately; question order changes every attempt."
+msgstr "四つの問題集は個別に計時され、開始ごとに問題順が変わります。"
+
+#. copy/questions
+#: src/js/exam.js:7
+msgctxt "tree:copy#/questions"
+msgid "questions"
+msgstr "問"
+
+#. copy/minutes
+#: src/js/exam.js:7
+msgctxt "tree:copy#/minutes"
+msgid "minutes"
+msgstr "分"
+
+#. copy/best
+#: src/js/exam.js:7
+msgctxt "tree:copy#/best"
+msgid "Personal best"
+msgstr "自己最高"
+
+#. copy/attempts
+#: src/js/exam.js:7
+msgctxt "tree:copy#/attempts"
+msgid "Attempts"
+msgstr "受験回数"
+
+#. copy/noAttempt
+#: src/js/exam.js:7
+msgctxt "tree:copy#/noAttempt"
+msgid "Not attempted"
+msgstr "未受験"
+
+#. copy/start
+#: src/js/exam.js:7
+msgctxt "tree:copy#/start"
+msgid "Start exam"
+msgstr "試験開始"
+
+#. copy/answered
+#: src/js/exam.js:7
+msgctxt "tree:copy#/answered"
+msgid "Answered"
+msgstr "回答済み"
+
+#. copy/timeLeft
+#: src/js/exam.js:7
+msgctxt "tree:copy#/timeLeft"
+msgid "Time left"
+msgstr "残り時間"
+
+#. copy/prev
+#: src/js/exam.js:7
+msgctxt "tree:copy#/prev"
+msgid "Previous"
+msgstr "前の問題"
+
+#. copy/next
+#: src/js/exam.js:7
+msgctxt "tree:copy#/next"
+msgid "Next"
+msgstr "次の問題"
+
+#. copy/submit
+#: src/js/exam.js:7
+msgctxt "tree:copy#/submit"
+msgid "Submit & score"
+msgstr "提出・採点"
+
+#. copy/unanswered
+#: src/js/exam.js:7
+msgctxt "tree:copy#/unanswered"
+msgid "Unanswered"
+msgstr "未回答"
+
+#. copy/result
+#: src/js/exam.js:7
+msgctxt "tree:copy#/result"
+msgid "Result sheet"
+msgstr "成績表"
+
+#. copy/correct
+#: src/js/exam.js:7
+msgctxt "tree:copy#/correct"
+msgid "Correct"
+msgstr "正解"
+
+#. copy/score
+#: src/js/exam.js:7
+msgctxt "tree:copy#/score"
+msgid "Score"
+msgstr "得点"
+
+#. copy/newBest
+#: src/js/exam.js:7
+msgctxt "tree:copy#/newBest"
+msgid "New personal best"
+msgstr "自己最高得点を更新"
+
+#. copy/category
+#: src/js/exam.js:7
+msgctxt "tree:copy#/category"
+msgid "By category"
+msgstr "分野別"
+
+#. copy/review
+#: src/js/exam.js:7
+msgctxt "tree:copy#/review"
+msgid "Answer review"
+msgstr "問題解説"
+
+#. copy/yourAnswer
+#: src/js/exam.js:7
+msgctxt "tree:copy#/yourAnswer"
+msgid "Your answer"
+msgstr "あなたの回答"
+
+#. copy/correctAnswer
+#: src/js/exam.js:7
+msgctxt "tree:copy#/correctAnswer"
+msgid "Correct answer"
+msgstr "正解"
+
+#. copy/retake
+#: src/js/exam.js:7
+msgctxt "tree:copy#/retake"
+msgid "Retake this paper"
+msgstr "この試験を再受験"
+
+#. copy/back
+#: src/js/exam.js:7
+msgctxt "tree:copy#/back"
+msgid "Choose another paper"
+msgstr "別の試験を選ぶ"
+
+#. copy/expired
+#: src/js/exam.js:7
+msgctxt "tree:copy#/expired"
+msgid "Time expired. The paper was submitted automatically."
+msgstr "時間切れのため自動提出しました。"
+
+#. copy/excellent
+#: src/js/exam.js:7
+msgctxt "tree:copy#/excellent"
+msgid "Sound judgment—you can cross the campus gate with confidence."
+msgstr "判断は安定しています。安心して校門をくぐれます。"
+
+#. copy/pass
+#: src/js/exam.js:7
+msgctxt "tree:copy#/pass"
+msgid "The foundation is sound; review a few explanations."
+msgstr "基礎は合格。いくつかの解説を読み直しましょう。"
+
+#. copy/revise
+#: src/js/exam.js:7
+msgctxt "tree:copy#/revise"
+msgid "Read the explanations, then give this paper another attempt."
+msgstr "解説を読んでから、もう一度挑戦することを勧めます。"
+
+#. copy/history
+#: src/js/exam.js:7
+msgctxt "tree:copy#/history"
+msgid "On-device record"
+msgstr "端末内記録"
+
+#. copy/myRecords
+#: src/js/exam.js:7
+msgctxt "tree:copy#/myRecords"
+msgid "My entrance-exam records"
+msgstr "自分の入学試験記録"
+
+#. copy/recordLead
+#: src/js/exam.js:7
+msgctxt "tree:copy#/recordLead"
+msgid "Full answers and item reviews stay on this device only."
+msgstr "答案と問題解説はこの端末だけに保存されます。"
+
+#. copy/noRecords
+#: src/js/exam.js:7
+msgctxt "tree:copy#/noRecords"
+msgid "No completed entrance exam is stored on this device."
+msgstr "この端末には完了した入学試験がありません。"
+
+#. copy/viewRecord
+#: src/js/exam.js:7
+msgctxt "tree:copy#/viewRecord"
+msgid "Reopen result and review"
+msgstr "成績・解説を再表示"
+
+#. copy/legacyRecord
+#: src/js/exam.js:7
+msgctxt "tree:copy#/legacyRecord"
+msgid "Older version saved only a score summary"
+msgstr "旧版では成績概要のみ保存"
+
+#. copy/deleteRecord
+#: src/js/exam.js:7
+msgctxt "tree:copy#/deleteRecord"
+msgid "Delete local record"
+msgstr "端末記録を削除"
+
+#. copy/deleteConfirm
+#: src/js/exam.js:7
+msgctxt "tree:copy#/deleteConfirm"
+msgid "Delete this entrance-exam record?"
+msgstr "この受験記録を削除しますか。"
+
+#. copy/recordDeleted
+#: src/js/exam.js:7
+msgctxt "tree:copy#/recordDeleted"
+msgid "Local entrance-exam record deleted."
+msgstr "端末の受験記録を削除しました。"
+
+#. copy/completed
+#: src/js/exam.js:7
+msgctxt "tree:copy#/completed"
+msgid "Submitted"
+msgstr "提出日時"

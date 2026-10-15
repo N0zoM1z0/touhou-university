@@ -1,0 +1,1020 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. libraryFacets.schools.common
+#: src/data/library.js:8
+msgctxt "text:libraryFacets.schools.common"
+msgid "University Core"
+msgstr "University Core"
+
+#. libraryFacets.schools.boundary
+#: src/data/library.js:9
+msgctxt "text:libraryFacets.schools.boundary"
+msgid "Boundaries & Incidents"
+msgstr "Boundaries & Incidents"
+
+#. libraryFacets.schools.history
+#: src/data/library.js:10
+msgctxt "text:libraryFacets.schools.history"
+msgid "History & Records"
+msgstr "History & Records"
+
+#. libraryFacets.schools.magic
+#: src/data/library.js:11
+msgctxt "text:libraryFacets.schools.magic"
+msgid "Magic Theory"
+msgstr "Magic Theory"
+
+#. libraryFacets.schools.medicine
+#: src/data/library.js:12
+msgctxt "text:libraryFacets.schools.medicine"
+msgid "Lunar Medicine"
+msgstr "Lunar Medicine"
+
+#. libraryFacets.schools.engineering
+#: src/data/library.js:13
+msgctxt "text:libraryFacets.schools.engineering"
+msgid "Kappa Engineering"
+msgstr "Kappa Engineering"
+
+#. libraryFacets.schools.journalism
+#: src/data/library.js:14
+msgctxt "text:libraryFacets.schools.journalism"
+msgid "Tengu Journalism"
+msgstr "Tengu Journalism"
+
+#. libraryFacets.schools.policy
+#: src/data/library.js:15
+msgctxt "text:libraryFacets.schools.policy"
+msgid "Faith & Policy"
+msgstr "Faith & Policy"
+
+#. libraryFacets.dangers.low
+#: src/data/library.js:18
+msgctxt "text:libraryFacets.dangers.low"
+msgid "Routine"
+msgstr "Routine"
+
+#. libraryFacets.dangers.guarded
+#: src/data/library.js:19
+msgctxt "text:libraryFacets.dangers.guarded"
+msgid "Guarded"
+msgstr "Guarded"
+
+#. libraryFacets.dangers.high
+#: src/data/library.js:20
+msgctxt "text:libraryFacets.dangers.high"
+msgid "High risk"
+msgstr "High risk"
+
+#. libraryFacets.dangers.sealed
+#: src/data/library.js:21
+msgctxt "text:libraryFacets.dangers.sealed"
+msgid "Sealed"
+msgstr "Sealed"
+
+#. libraryFacets.states.available
+#: src/data/library.js:24
+msgctxt "text:libraryFacets.states.available"
+msgid "Available"
+msgstr "Available"
+
+#. libraryFacets.states.onLoan
+#: src/data/library.js:25
+msgctxt "text:libraryFacets.states.onLoan"
+msgid "On loan"
+msgstr "On loan"
+
+#. libraryFacets.states.flight
+#: src/data/library.js:26
+msgctxt "text:libraryFacets.states.flight"
+msgid "In flight"
+msgstr "In flight"
+
+#. libraryFacets.states.negotiating
+#: src/data/library.js:27
+msgctxt "text:libraryFacets.states.negotiating"
+msgid "Negotiating with shelf"
+msgstr "Negotiating with shelf"
+
+#. libraryFacets.states.moon
+#: src/data/library.js:28
+msgctxt "text:libraryFacets.states.moon"
+msgid "Visible at full moon"
+msgstr "Visible at full moon"
+
+#. libraryFacets.states.reference
+#: src/data/library.js:29
+msgctxt "text:libraryFacets.states.reference"
+msgid "Library use only"
+msgstr "Library use only"
+
+#. libraryFacets.states.unwritten
+#: src/data/library.js:30
+msgctxt "text:libraryFacets.states.unwritten"
+msgid "Not yet written"
+msgstr "Not yet written"
+
+#. libraryFacets.states.erased
+#: src/data/library.js:31
+msgctxt "text:libraryFacets.states.erased"
+msgid "Erased from history"
+msgstr "Erased from history"
+
+#. libraryFacets.wills.none
+#: src/data/library.js:34
+msgctxt "text:libraryFacets.wills.none"
+msgid "None observed"
+msgstr "None observed"
+
+#. libraryFacets.wills.mild
+#: src/data/library.js:35
+msgctxt "text:libraryFacets.wills.mild"
+msgid "Occasionally turns its own pages"
+msgstr "Occasionally turns its own pages"
+
+#. libraryFacets.wills.mobile
+#: src/data/library.js:36
+msgctxt "text:libraryFacets.wills.mobile"
+msgid "Shelves itself elsewhere"
+msgstr "Shelves itself elsewhere"
+
+#. libraryFacets.wills.argumentative
+#: src/data/library.js:37
+msgctxt "text:libraryFacets.wills.argumentative"
+msgid "Argues with readers"
+msgstr "Argues with readers"
+
+#. libraryFacets.wills.unknown
+#: src/data/library.js:38
+msgctxt "text:libraryFacets.wills.unknown"
+msgid "No consensus"
+msgstr "No consensus"
+
+#. libraryHoldings.0.seven-day-reverse.2
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.2"
+msgid "Seven-Day Reverse Index: From Result to Element"
+msgstr "Seven-Day Reverse Index: From Result to Element"
+
+#. libraryHoldings.0.seven-day-reverse.3
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.3"
+msgid "Patchouli Knowledge / catalogued by Koakuma"
+msgstr "Patchouli Knowledge / catalogued by Koakuma"
+
+#. libraryHoldings.0.seven-day-reverse.5
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.5"
+msgid "Elemental magic / fault diagnosis"
+msgstr "Elemental magic / fault diagnosis"
+
+#. libraryHoldings.0.seven-day-reverse.6
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.6"
+msgid "Scarlet Library corrected ed. 7"
+msgstr "Scarlet Library corrected ed. 7"
+
+#. libraryHoldings.0.seven-day-reverse.7
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.7"
+msgid "Scarlet Library exchange; due-date dispute remains in appendix 3"
+msgstr "Scarlet Library exchange; due-date dispute remains in appendix 3"
+
+#. libraryHoldings.0.seven-day-reverse.8
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.8"
+msgid "North Wing · Closed Stack M-7"
+msgstr "North Wing · Closed Stack M-7"
+
+#. libraryHoldings.0.seven-day-reverse.15
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.15"
+msgid ""
+"Secure the metal chapter before reading wood; the last reverse reading grew "
+"scissors from a desk."
+msgstr ""
+"Secure the metal chapter before reading wood; the last reverse reading grew "
+"scissors from a desk."
+
+#. libraryHoldings.1.barrier-step-atlas.2
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.2"
+msgid "Pedestrian Atlas of the Great Barrier"
+msgstr "Pedestrian Atlas of the Great Barrier"
+
+#. libraryHoldings.1.barrier-step-atlas.3
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.3"
+msgid "Surveyed by Ran Yakumo / marginal revisions by Yukari"
+msgstr "Surveyed by Ran Yakumo / marginal revisions by Yukari"
+
+#. libraryHoldings.1.barrier-step-atlas.5
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.5"
+msgid "Boundary survey / passage"
+msgstr "Boundary survey / passage"
+
+#. libraryHoldings.1.barrier-step-atlas.6
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.6"
+msgid "Gensokyo 142 rainy-season ed."
+msgstr "Gensokyo 142 rainy-season ed."
+
+#. libraryHoldings.1.barrier-step-atlas.7
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.7"
+msgid "Boundary Studies legal deposit"
+msgstr "Boundary Studies legal deposit"
+
+#. libraryHoldings.1.barrier-step-atlas.8
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.8"
+msgid "Level 1 · Oversize A-2"
+msgstr "Level 1 · Oversize A-2"
+
+#. libraryHoldings.1.barrier-step-atlas.15
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.15"
+msgid ""
+"Page 47's east changes with the reader's stance. Do not pin it with a ruler "
+"to prove stability."
+msgstr ""
+"Page 47's east changes with the reader's stance. Do not pin it with a ruler "
+"to prove stability."
+
+#. libraryHoldings.2.three-yesterdays.2
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.2"
+msgid "Three Yesterdays of Gensokyo"
+msgstr "Three Yesterdays of Gensokyo"
+
+#. libraryHoldings.2.three-yesterdays.3
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.3"
+msgid "Edited by Hieda no Akyuu"
+msgstr "Edited by Hieda no Akyuu"
+
+#. libraryHoldings.2.three-yesterdays.5
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.5"
+msgid "Chronicle / version studies"
+msgstr "Chronicle / version studies"
+
+#. libraryHoldings.2.three-yesterdays.6
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.6"
+msgid "Bound contradictory edition"
+msgstr "Bound contradictory edition"
+
+#. libraryHoldings.2.three-yesterdays.7
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.7"
+msgid "Exchange copy from Hieda History Hall"
+msgstr "Exchange copy from Hieda History Hall"
+
+#. libraryHoldings.2.three-yesterdays.8
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.8"
+msgid "Level 2 · Records H-12"
+msgstr "Level 2 · Records H-12"
+
+#. libraryHoldings.2.three-yesterdays.15
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.15"
+msgid "You need not believe one yesterday; citations must say which yesterday you read."
+msgstr "You need not believe one yesterday; citations must say which yesterday you read."
+
+#. libraryHoldings.3.flying-index.2
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.2"
+msgid "Why Flying Books Still Have Call Numbers"
+msgstr "Why Flying Books Still Have Call Numbers"
+
+#. libraryHoldings.3.flying-index.3
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.3"
+msgid "Anonymous collective, Misty Lake Cataloguing"
+msgstr "Anonymous collective, Misty Lake Cataloguing"
+
+#. libraryHoldings.3.flying-index.5
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.5"
+msgid "Library science / autonomous holdings"
+msgstr "Library science / autonomous holdings"
+
+#. libraryHoldings.3.flying-index.6
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.6"
+msgid "Second ed. with net foldout"
+msgstr "Second ed. with net foldout"
+
+#. libraryHoldings.3.flying-index.7
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.7"
+msgid "In-house research"
+msgstr "In-house research"
+
+#. libraryHoldings.3.flying-index.8
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.8"
+msgid "North Wing airspace; last seen on curtain rail"
+msgstr "North Wing airspace; last seen on curtain rail"
+
+#. libraryHoldings.3.flying-index.15
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.15"
+msgid ""
+"Holds allowed. Availability begins when the book lands on the desk, not when "
+"its shadow passes."
+msgstr ""
+"Holds allowed. Availability begins when the book lands on the desk, not when "
+"its shadow passes."
+
+#. libraryHoldings.4.fourth-lantern-manual.2
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.2"
+msgid "Fourth Lantern Maintenance Manual v3.1b"
+msgstr "Fourth Lantern Maintenance Manual v3.1b"
+
+#. libraryHoldings.4.fourth-lantern-manual.3
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.3"
+msgid "Kappa Engineering Bamboo Team"
+msgstr "Kappa Engineering Bamboo Team"
+
+#. libraryHoldings.4.fourth-lantern-manual.5
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.5"
+msgid "Navigation / sensors / maintenance"
+msgstr "Navigation / sensors / maintenance"
+
+#. libraryHoldings.4.fourth-lantern-manual.6
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.6"
+msgid "Blue-gain corrected edition"
+msgstr "Blue-gain corrected edition"
+
+#. libraryHoldings.4.fourth-lantern-manual.7
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.7"
+msgid "Closure appendix to seven-day temporary repair"
+msgstr "Closure appendix to seven-day temporary repair"
+
+#. libraryHoldings.4.fourth-lantern-manual.8
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.8"
+msgid "Level 1 · Technical K-4"
+msgstr "Level 1 · Technical K-4"
+
+#. libraryHoldings.4.fourth-lantern-manual.15
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.15"
+msgid ""
+"The fourth lantern denies being the covered model; Engineering taped “still "
+"applies” to the back."
+msgstr ""
+"The fourth lantern denies being the covered model; Engineering taped “still "
+"applies” to the back."
+
+#. libraryHoldings.5.doll-remote-protocol.2
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.2"
+msgid "Doll Teleoperation and Failed Proxy Attendance"
+msgstr "Doll Teleoperation and Failed Proxy Attendance"
+
+#. libraryHoldings.5.doll-remote-protocol.3
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.3"
+msgid "Alice Margatroid"
+msgstr "Alice Margatroid"
+
+#. libraryHoldings.5.doll-remote-protocol.5
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.5"
+msgid "Doll engineering / teleoperation"
+msgstr "Doll engineering / teleoperation"
+
+#. libraryHoldings.5.doll-remote-protocol.6
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.6"
+msgid "With twelve wiring plates"
+msgstr "With twelve wiring plates"
+
+#. libraryHoldings.5.doll-remote-protocol.7
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.7"
+msgid "Magic Theory course reserve"
+msgstr "Magic Theory course reserve"
+
+#. libraryHoldings.5.doll-remote-protocol.8
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.8"
+msgid "Level 3 · Course Reserve M-22"
+msgstr "Level 3 · Course Reserve M-22"
+
+#. libraryHoldings.5.doll-remote-protocol.15
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.15"
+msgid "Its doll can turn pages but may not answer the librarian's comprehension check."
+msgstr "Its doll can turn pages but may not answer the librarian's comprehension check."
+
+#. libraryHoldings.6.leak-that-powers.2
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.2"
+msgid "The Leak That Powers Another Turbine"
+msgstr "The Leak That Powers Another Turbine"
+
+#. libraryHoldings.6.leak-that-powers.3
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.3"
+msgid "Nitori Kawashiro and Repair Cohort 29"
+msgstr "Nitori Kawashiro and Repair Cohort 29"
+
+#. libraryHoldings.6.leak-that-powers.5
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.5"
+msgid "Low-head hydro / system boundaries"
+msgstr "Low-head hydro / system boundaries"
+
+#. libraryHoldings.6.leak-that-powers.6
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.6"
+msgid "Waterproof cover; pages are not"
+msgstr "Waterproof cover; pages are not"
+
+#. libraryHoldings.6.leak-that-powers.7
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.7"
+msgid "Kappa Joint Workshop report"
+msgstr "Kappa Joint Workshop report"
+
+#. libraryHoldings.6.leak-that-powers.8
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.8"
+msgid "Level 1 · Technical K-11"
+msgstr "Level 1 · Technical K-11"
+
+#. libraryHoldings.6.leak-that-powers.15
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.15"
+msgid ""
+"The appendix renames failure “an unplanned second output”; administration "
+"has not agreed."
+msgstr ""
+"The appendix renames failure “an unplanned second output”; administration "
+"has not agreed."
+
+#. libraryHoldings.7.corrections-headlines.2
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.2"
+msgid "Headlines Faster Than Their Corrections"
+msgstr "Headlines Faster Than Their Corrections"
+
+#. libraryHoldings.7.corrections-headlines.3
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.3"
+msgid "Aya Shameimaru / twelve editors requesting anonymity"
+msgstr "Aya Shameimaru / twelve editors requesting anonymity"
+
+#. libraryHoldings.7.corrections-headlines.5
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.5"
+msgid "Public correction / news ethics"
+msgstr "Public correction / news ethics"
+
+#. libraryHoldings.7.corrections-headlines.6
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.6"
+msgid "Morning loose-leaf edition"
+msgstr "Morning loose-leaf edition"
+
+#. libraryHoldings.7.corrections-headlines.7
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.7"
+msgid "Bunbunmaru legal deposit"
+msgstr "Bunbunmaru legal deposit"
+
+#. libraryHoldings.7.corrections-headlines.8
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.8"
+msgid "Level 2 · Press T-3"
+msgstr "Level 2 · Press T-3"
+
+#. libraryHoldings.7.corrections-headlines.15
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.15"
+msgid ""
+"The borrower is listed as “Tomorrow's Front Page.” Holds are open while "
+"staff verify the name."
+msgstr ""
+"The borrower is listed as “Tomorrow's Front Page.” Holds are open while "
+"staff verify the name."
+
+#. libraryHoldings.8.many-pulses.2
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.2"
+msgid "Not Every Pulse Wishes to Be Counted"
+msgstr "Not Every Pulse Wishes to Be Counted"
+
+#. libraryHoldings.8.many-pulses.3
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.3"
+msgid "Eirin Yagokoro / clinical notes by Reisen"
+msgstr "Eirin Yagokoro / clinical notes by Reisen"
+
+#. libraryHoldings.8.many-pulses.5
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.5"
+msgid "Cross-species physiology / clinical observation"
+msgstr "Cross-species physiology / clinical observation"
+
+#. libraryHoldings.8.many-pulses.6
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.6"
+msgid "Earth-readable edition"
+msgstr "Earth-readable edition"
+
+#. libraryHoldings.8.many-pulses.7
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.7"
+msgid "Eientei medical exchange"
+msgstr "Eientei medical exchange"
+
+#. libraryHoldings.8.many-pulses.8
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.8"
+msgid "Quiet Reading L-2"
+msgstr "Quiet Reading L-2"
+
+#. libraryHoldings.8.many-pulses.15
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.15"
+msgid ""
+"The seventeen-step lunar calculation remains untranslated; the main text "
+"stands without it."
+msgstr ""
+"The seventeen-step lunar calculation remains untranslated; the main text "
+"stands without it."
+
+#. libraryHoldings.9.ending-meetings.2
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.2"
+msgid "How to End a Meeting Before Three Traditions Finish"
+msgstr "How to End a Meeting Before Three Traditions Finish"
+
+#. libraryHoldings.9.ending-meetings.3
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.3"
+msgid "Byakuren, Kanako, and Miko; timed by Sanae"
+msgstr "Byakuren, Kanako, and Miko; timed by Sanae"
+
+#. libraryHoldings.9.ending-meetings.5
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.5"
+msgid "Interfaith dialogue / meeting governance"
+msgstr "Interfaith dialogue / meeting governance"
+
+#. libraryHoldings.9.ending-meetings.6
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.6"
+msgid "Table-leg revision 47"
+msgstr "Table-leg revision 47"
+
+#. libraryHoldings.9.ending-meetings.7
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.7"
+msgid "Faith & Coexistence meeting attachment"
+msgstr "Faith & Coexistence meeting attachment"
+
+#. libraryHoldings.9.ending-meetings.8
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.8"
+msgid "Level 2 · Policy F-6"
+msgstr "Level 2 · Policy F-6"
+
+#. libraryHoldings.9.ending-meetings.15
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.15"
+msgid ""
+"The last chapter gives three adjournment times. The book uses the earliest; "
+"its authors still argue next door."
+msgstr ""
+"The last chapter gives three adjournment times. The book uses the earliest; "
+"its authors still argue next door."
+
+#. libraryHoldings.10.moon-sealed-senses.2
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.2"
+msgid "Full-Moon Low-Stimulus Room Log"
+msgstr "Full-Moon Low-Stimulus Room Log"
+
+#. libraryHoldings.10.moon-sealed-senses.3
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.3"
+msgid "Eientei night-clinic rotation"
+msgstr "Eientei night-clinic rotation"
+
+#. libraryHoldings.10.moon-sealed-senses.5
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.5"
+msgid "Lunar sensation / neural safety"
+msgstr "Lunar sensation / neural safety"
+
+#. libraryHoldings.10.moon-sealed-senses.6
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.6"
+msgid "Full-moon developed copy"
+msgstr "Full-moon developed copy"
+
+#. libraryHoldings.10.moon-sealed-senses.7
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.7"
+msgid "Restricted Eientei exchange"
+msgstr "Restricted Eientei exchange"
+
+#. libraryHoldings.10.moon-sealed-senses.8
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.8"
+msgid "North Wing · Moon Cabinet L-FM"
+msgstr "North Wing · Moon Cabinet L-FM"
+
+#. libraryHoldings.10.moon-sealed-senses.15
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.15"
+msgid ""
+"Pages appear blank off the full moon. Staff refuse torches, miracles, or "
+"sensational headlines as early development."
+msgstr ""
+"Pages appear blank off the full moon. Staff refuse torches, miracles, or "
+"sensational headlines as early development."
+
+#. libraryHoldings.11.missing-wednesday.2
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.2"
+msgid "The Wednesday Erased from History"
+msgstr "The Wednesday Erased from History"
+
+#. libraryHoldings.11.missing-wednesday.3
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.3"
+msgid "Keine Kamishirasawa; a second name once occupied this field"
+msgstr "Keine Kamishirasawa; a second name once occupied this field"
+
+#. libraryHoldings.11.missing-wednesday.5
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.5"
+msgid "Terakoya curriculum / missing pages"
+msgstr "Terakoya curriculum / missing pages"
+
+#. libraryHoldings.11.missing-wednesday.6
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.6"
+msgid "Catalogue-surviving edition"
+msgstr "Catalogue-surviving edition"
+
+#. libraryHoldings.11.missing-wednesday.7
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.7"
+msgid "Acquisition record erased"
+msgstr "Acquisition record erased"
+
+#. libraryHoldings.11.missing-wednesday.8
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.8"
+msgid "Level 2 · Empty Space H-00"
+msgstr "Level 2 · Empty Space H-00"
+
+#. libraryHoldings.11.missing-wednesday.15
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.15"
+msgid ""
+"Not loanable: staff cannot verify that the same Wednesday returns. Cite the "
+"catalogue record instead."
+msgstr ""
+"Not loanable: staff cannot verify that the same Wednesday returns. Cite the "
+"catalogue record instead."
+
+#. libraryHoldings.12.book-not-written.2
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.2"
+msgid "A Grimoire Reproducible by a Non-Magician"
+msgstr "A Grimoire Reproducible by a Non-Magician"
+
+#. libraryHoldings.12.book-not-written.3
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.3"
+msgid "Author to be determined after successful replication"
+msgstr "Author to be determined after successful replication"
+
+#. libraryHoldings.12.book-not-written.5
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.5"
+msgid "Reproducibility / unfinished work"
+msgstr "Reproducibility / unfinished work"
+
+#. libraryHoldings.12.book-not-written.6
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.6"
+msgid "Prospectus edition"
+msgstr "Prospectus edition"
+
+#. libraryHoldings.12.book-not-written.7
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.7"
+msgid "Magic School pre-catalogue"
+msgstr "Magic School pre-catalogue"
+
+#. libraryHoldings.12.book-not-written.8
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.8"
+msgid "Level 3 · Future Stack M-∞"
+msgstr "Level 3 · Future Stack M-∞"
+
+#. libraryHoldings.12.book-not-written.15
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.15"
+msgid ""
+"You may watch the catalogue record, not reserve a physical copy that does "
+"not exist. The two buttons once fought over this."
+msgstr ""
+"You may watch the catalogue record, not reserve a physical copy that does "
+"not exist. The two buttons once fought over this."
+
+#. libraryHoldings.13.spellcard-telegraph.2
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.2"
+msgid "Fifty Spell Telegraphs and Exit Diagrams"
+msgstr "Fifty Spell Telegraphs and Exit Diagrams"
+
+#. libraryHoldings.13.spellcard-telegraph.3
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.3"
+msgid "Reimu Hakurei / Spell Card Laboratory"
+msgstr "Reimu Hakurei / Spell Card Laboratory"
+
+#. libraryHoldings.13.spellcard-telegraph.5
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.5"
+msgid "Spell readability / safety design"
+msgstr "Spell readability / safety design"
+
+#. libraryHoldings.13.spellcard-telegraph.6
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.6"
+msgid "Open trial plates"
+msgstr "Open trial plates"
+
+#. libraryHoldings.13.spellcard-telegraph.7
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.7"
+msgid "Spell-card research supplement"
+msgstr "Spell-card research supplement"
+
+#. libraryHoldings.13.spellcard-telegraph.8
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.8"
+msgid "Level 1 · Oversize B-5"
+msgstr "Level 1 · Oversize B-5"
+
+#. libraryHoldings.13.spellcard-telegraph.15
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.15"
+msgid ""
+"Transparent overlays show first-seen exits. Do not erase failed paths; the "
+"next reader needs them."
+msgstr ""
+"Transparent overlays show first-seen exits. Do not erase failed paths; the "
+"next reader needs them."
+
+#. libraryHoldings.14.outside-drift-catalogue.2
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.2"
+msgid "Outside World Drift: 77 Objects Without Manuals"
+msgstr "Outside World Drift: 77 Objects Without Manuals"
+
+#. libraryHoldings.14.outside-drift-catalogue.3
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.3"
+msgid "Catalogued by Ran Yakumo / notes by Rinnosuke Morichika"
+msgstr "Catalogued by Ran Yakumo / notes by Rinnosuke Morichika"
+
+#. libraryHoldings.14.outside-drift-catalogue.5
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.5"
+msgid "Outside objects / use identification"
+msgstr "Outside objects / use identification"
+
+#. libraryHoldings.14.outside-drift-catalogue.6
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.6"
+msgid "Fifth corrected-use edition"
+msgstr "Fifth corrected-use edition"
+
+#. libraryHoldings.14.outside-drift-catalogue.7
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.7"
+msgid "Joint deposit by Kourindou and Boundary Studies"
+msgstr "Joint deposit by Kourindou and Boundary Studies"
+
+#. libraryHoldings.14.outside-drift-catalogue.8
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.8"
+msgid "Level 1 · Outside Objects O-7"
+msgstr "Level 1 · Outside Objects O-7"
+
+#. libraryHoldings.14.outside-drift-catalogue.15
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.15"
+msgid ""
+"Item 31 is not ritual equipment; item 44 is not a kappa battery. Old uses "
+"remain in corrections."
+msgstr ""
+"Item 31 is not ritual equipment; item 44 is not a kappa battery. Old uses "
+"remain in corrections."
+
+#. libraryHoldings.15.mushroom-provenance.2
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.2"
+msgid "Found in the Forest Is Not Full Provenance"
+msgstr "Found in the Forest Is Not Full Provenance"
+
+#. libraryHoldings.15.mushroom-provenance.3
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.3"
+msgid "Marisa Kirisame / red annotations by Patchouli"
+msgstr "Marisa Kirisame / red annotations by Patchouli"
+
+#. libraryHoldings.15.mushroom-provenance.5
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.5"
+msgid "Material provenance / reproducible failure"
+msgstr "Material provenance / reproducible failure"
+
+#. libraryHoldings.15.mushroom-provenance.6
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.6"
+msgid "Thirteenth supplemented edition"
+msgstr "Thirteenth supplemented edition"
+
+#. libraryHoldings.15.mushroom-provenance.7
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.7"
+msgid "Left in returns; donation status disputed"
+msgstr "Left in returns; donation status disputed"
+
+#. libraryHoldings.15.mushroom-provenance.8
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.8"
+msgid "Level 3 · Materials M-13"
+msgstr "Level 3 · Materials M-13"
+
+#. libraryHoldings.15.mushroom-provenance.15
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.15"
+msgid ""
+"The book refuses Patchouli's shelf because red notes occupy half its text. "
+"Holds may await negotiation."
+msgstr ""
+"The book refuses Patchouli's shelf because red notes occupy half its text. "
+"Holds may await negotiation."
+
+#. libraryHoldings.16.interview-with-minds.2
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.2"
+msgid "The Source Heard Your Question Before You Asked"
+msgstr "The Source Heard Your Question Before You Asked"
+
+#. libraryHoldings.16.interview-with-minds.3
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.3"
+msgid "Satori Komeiji / Tengu Journalism Ethics Group"
+msgstr "Satori Komeiji / Tengu Journalism Ethics Group"
+
+#. libraryHoldings.16.interview-with-minds.5
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.5"
+msgid "Mind-reading / interview consent"
+msgstr "Mind-reading / interview consent"
+
+#. libraryHoldings.16.interview-with-minds.6
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.6"
+msgid "Eleven-consent-path comparison"
+msgstr "Eleven-consent-path comparison"
+
+#. libraryHoldings.16.interview-with-minds.7
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.7"
+msgid "Restricted Palace of Earth Spirits deposit"
+msgstr "Restricted Palace of Earth Spirits deposit"
+
+#. libraryHoldings.16.interview-with-minds.8
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.8"
+msgid "Level 2 · Ethics T-11"
+msgstr "Level 2 · Ethics T-11"
+
+#. libraryHoldings.16.interview-with-minds.15
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.15"
+msgid ""
+"Borrowing is not consent for the book to read thoughts. It claims to see "
+"only library cards; staff cannot verify that."
+msgstr ""
+"Borrowing is not consent for the book to read thoughts. It claims to see "
+"only library cards; staff cannot verify that."
+
+#. libraryHoldings.17.two-simultaneous-editions.2
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.2"
+msgid "Two Second Editions Existing at Once"
+msgstr "Two Second Editions Existing at Once"
+
+#. libraryHoldings.17.two-simultaneous-editions.3
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.3"
+msgid "Hieda Hall Editions Office"
+msgstr "Hieda Hall Editions Office"
+
+#. libraryHoldings.17.two-simultaneous-editions.5
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.5"
+msgid "Textual criticism / identification"
+msgstr "Textual criticism / identification"
+
+#. libraryHoldings.17.two-simultaneous-editions.6
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.6"
+msgid "Second A and Second B boxed together"
+msgstr "Second A and Second B boxed together"
+
+#. libraryHoldings.17.two-simultaneous-editions.7
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.7"
+msgid "Preserved edition dispute"
+msgstr "Preserved edition dispute"
+
+#. libraryHoldings.17.two-simultaneous-editions.8
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.8"
+msgid "Level 2 · Editions H-2A/B"
+msgstr "Level 2 · Editions H-2A/B"
+
+#. libraryHoldings.17.two-simultaneous-editions.15
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.15"
+msgid "The pair circulates as one item. Returning only the more credible volume is incomplete."
+msgstr "The pair circulates as one item. Returning only the more credible volume is incomplete."
+
+#. libraryHoldings.18.shelf-negotiation-minutes.2
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.2"
+msgid "Shelf Refuses Former Position: Day 129 Minutes"
+msgstr "Shelf Refuses Former Position: Day 129 Minutes"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.3
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.3"
+msgid "Misty Lake staff, the shelf, and one non-voting fairy"
+msgstr "Misty Lake staff, the shelf, and one non-voting fairy"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.5
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.5"
+msgid "Collection management / negotiation"
+msgstr "Collection management / negotiation"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.6
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.6"
+msgid "Kappa-tape binding"
+msgstr "Kappa-tape binding"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.7
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.7"
+msgid "North Wing on-site meeting"
+msgstr "North Wing on-site meeting"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.8
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.8"
+msgid "North Wing · Temporary Desk N-129"
+msgstr "North Wing · Temporary Desk N-129"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.15
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.15"
+msgid ""
+"The shelf requests co-authorship. The library lists it as an attendee but "
+"pays no honorarium."
+msgstr ""
+"The shelf requests co-authorship. The library lists it as an attendee but "
+"pays no honorarium."

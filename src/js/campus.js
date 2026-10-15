@@ -1,3 +1,4 @@
+import { trees as catalogTrees } from "../generated/i18n/ui/campus.js";
 import { campusFeatures, clubs } from "../data/campus.js";
 import { getLocale } from "./i18n.js";
 import { closeInfoDialog, openInfoDialog } from "./info-dialog.js";
@@ -32,11 +33,7 @@ function showClub(id) {
   const club = clubs[id];
   if (!club) return;
   const locale = getLocale();
-  const copy = {
-    "zh-Hant": ["研究／活動方向", "例會", "登記成員", "本學期企劃", "到 BBS 找成員"],
-    ja: ["研究・活動分野", "例会", "登録会員", "今学期の企画", "BBSで部員を探す"],
-    en: ["Focus", "Meeting", "Members", "This term", "Find members on BBS"],
-  }[locale];
+  const copy = catalogTrees["copy"][locale];
   openInfoDialog({
     kicker: `CAMPUS CLUB · ${club.glyph}`,
     title: club.name[locale],

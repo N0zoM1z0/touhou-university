@@ -1,0 +1,78 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. outcomes.passed
+#: src/js/academic-model.js:353
+msgctxt "text:outcomes.passed"
+msgid "passed"
+msgstr "合格"
+
+#. outcomes.conditional
+#: src/js/academic-model.js:354
+msgctxt "text:outcomes.conditional"
+msgid "conditionally passed"
+msgstr "条件付合格"
+
+#. outcomes.revise
+#: src/js/academic-model.js:355
+msgctxt "text:outcomes.revise"
+msgid "returned for revision"
+msgstr "補正再提出"
+
+#. type.yes
+#: src/js/academic-model.js:365
+msgctxt "text:type.yes"
+msgid "spell-card"
+msgstr "スペルカード"
+
+#. type.no
+#: src/js/academic-model.js:365
+msgctxt "text:type.no"
+msgid "thesis"
+msgstr "論文"
+
+#. committee.author
+#: src/js/academic-model.js:366
+msgctxt "text:committee.author"
+msgid "Public Defence Shorthand Desk"
+msgstr "公開答弁速記席"
+
+#. committee.title
+#: src/js/academic-model.js:366
+msgctxt "text:committee.title"
+msgid "{value0} defence ruling: {value1}"
+msgstr "{value0}答弁裁定：{value1}"
+
+#. committee.body
+#: src/js/academic-model.js:366
+msgctxt "text:committee.body"
+msgid ""
+"The committee ruled “{value0}” at {value1}/100. Question slips remain; "
+"Marisa wants material provenance attached before the celebratory drink."
+msgstr "委員会は {value0}/100 で「{value1}」と裁定。問答票は保持され、魔理沙は祝杯より先に材料出所を添付せよと要求。"
+
+#. corridor/author
+#: src/js/academic-model.js:367
+msgctxt "tree:corridor#/author"
+msgid "Anonymous Listener Outside the Defence Room"
+msgstr "答弁会場外の匿名聴講生"
+
+#. corridor/title
+#: src/js/academic-model.js:367
+msgctxt "tree:corridor#/title"
+msgid "Question: does a claim grow after it passes?"
+msgstr "質問：合格後、主張は勝手に拡大するのか"
+
+#. corridor/body
+#: src/js/academic-model.js:367
+msgctxt "tree:corridor#/body"
+msgid ""
+"The project passed only within its declared place, moon phase, and version. "
+"Yukari left with the word “within”; the committee is requesting its return."
+msgstr "題目は申告した場所・月相・版の範囲でのみ合格。八雲紫が退室時に「範囲内」の内を持ち去り、委員会が返却を要求中。"

@@ -1,0 +1,772 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/eyebrow"
+msgid "FIELDWORK PASSPORT / DOMESTIC PLACEMENT × FIELD INQUIRY"
+msgstr "FIELDWORK PASSPORT / 幻想郷域内実習 × フィールド調査"
+
+#. copy/title
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/title"
+msgid "A map says how to go. A passport remembers why, what you saw, and who disagreed."
+msgstr "地図は行き方を示す。旅券は、なぜ行き、何を見て、誰が異議を唱えたかまで覚える。"
+
+#. copy/lead
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/lead"
+msgid ""
+"Twenty-four stations have their own entry rules, supervisors, and "
+"complications. Obtain dispatch, check in, respond when something refuses to "
+"follow the plan, then return with observations, provenance, and a decision "
+"on research use."
+msgstr ""
+"二十四の実習所には、それぞれ異なる入場規則と指導者、厄介事がある。派遣令を受け、現地で点呼し、予定どおりには起きない一件に対処したうえで、観察記録・来歴"
+"・研究利用の判断を持ち帰る。"
+
+#. copy/stationsTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/stationsTab"
+msgid "Twenty-four stations"
+msgstr "二十四実習所"
+
+#. copy/dispatchTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/dispatchTab"
+msgid "Dispatch desk"
+msgstr "派遣机"
+
+#. copy/passportTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/passportTab"
+msgid "My passport"
+msgstr "自分の旅券"
+
+#. copy/recordsTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/recordsTab"
+msgid "Dispatch & returns"
+msgstr "派遣・帰還記録"
+
+#. copy/stations
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/stations"
+msgid "stations"
+msgstr "実習所"
+
+#. copy/stamps
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/stamps"
+msgid "field seals"
+msgstr "現地印"
+
+#. copy/hours
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/hours"
+msgid "hours"
+msgstr "時間"
+
+#. copy/credits
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/credits"
+msgid "field credits"
+msgstr "実習単位"
+
+#. copy/active
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/active"
+msgid "on duty"
+msgstr "外勤中"
+
+#. copy/routeDesk
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/routeDesk"
+msgid "Today's route desk"
+msgstr "本日の経路机"
+
+#. copy/routeNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/routeNote"
+msgid "Moon, duty band, and mode change estimates; 'soon' is not a unit of time."
+msgstr "月相・時刻・交通手段で所要時間が変わる。「すぐ」は時間単位ではない。"
+
+#. copy/search
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/search"
+msgid "Search station, supervisor, or work"
+msgstr "実習所・指導者・仕事を検索"
+
+#. copy/allRegions
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/allRegions"
+msgid "All regions"
+msgstr "全地域"
+
+#. copy/allDisciplines
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/allDisciplines"
+msgid "All fields"
+msgstr "全分野"
+
+#. copy/show
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/show"
+msgid "Open station file"
+msgstr "実習所ファイルを開く"
+
+#. copy/apply
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/apply"
+msgid "Prepare dispatch here"
+msgstr "この実習所で派遣準備"
+
+#. copy/mapHint
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/mapHint"
+msgid "Choose a wooden seal; the place may not retain the map's opinion."
+msgstr "木印を選択。現地は地図と同じ意見を保つとは限らない。"
+
+#. copy/supervisor
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/supervisor"
+msgid "Field supervisor"
+msgstr "現地指導"
+
+#. copy/companion
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/companion"
+msgid "Collaborator / source of trouble"
+msgstr "協働／厄介事の源"
+
+#. copy/shift
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/shift"
+msgid "Duty window"
+msgstr "当番時間"
+
+#. copy/risk
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/risk"
+msgid "Risk & stopping"
+msgstr "リスク・停止"
+
+#. copy/access
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/access"
+msgid "Entry rule"
+msgstr "入口規則"
+
+#. copy/ethics
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/ethics"
+msgid "Field ethics"
+msgstr "現地倫理"
+
+#. copy/equipment
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/equipment"
+msgid "Listed equipment"
+msgstr "指定装備"
+
+#. copy/tasks
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/tasks"
+msgid "Available work"
+msgstr "今回可能な仕事"
+
+#. copy/wrinkle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/wrinkle"
+msgid "Marginal forecast"
+msgstr "欄外予告"
+
+#. copy/travel
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/travel"
+msgid "Travel mode"
+msgstr "出発手段"
+
+#. copy/estimated
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/estimated"
+msgid "Estimated"
+msgstr "推定"
+
+#. copy/min
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/min"
+msgid "min"
+msgstr "分"
+
+#. copy/moon
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/moon"
+msgid "Today's moon"
+msgstr "本日の月相"
+
+#. copy/duty
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/duty"
+msgid "Duty band"
+msgstr "当番帯"
+
+#. copy/dispatchTitle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/dispatchTitle"
+msgid "Complete domestic-placement dispatch"
+msgstr "幻想郷域内実習派遣令を記入"
+
+#. copy/station
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/station"
+msgid "Station"
+msgstr "実習所"
+
+#. copy/fieldName
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/fieldName"
+msgid "Passport signature / duty name"
+msgstr "旅券署名／当番名"
+
+#. copy/purpose
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/purpose"
+msgid "Field question for this visit"
+msgstr "今回の現地調査で答える問い"
+
+#. copy/purposePlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/purposePlaceholder"
+msgid ""
+"Example: compare the Scarlet duty log and relative timeline while retaining "
+"disagreement."
+msgstr "例：紅魔館当直簿と相対時間線を比較し、不一致を残す。"
+
+#. copy/departure
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/departure"
+msgid "Planned departure"
+msgstr "出発予定日"
+
+#. copy/ability
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/ability"
+msgid "Ability-use plan"
+msgstr "能力使用計画"
+
+#. copy/emergency
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/emergency"
+msgid "Return / exit plan"
+msgstr "帰校／退出計画"
+
+#. copy/chooseGear
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/chooseGear"
+msgid "Carried equipment (missing items create conditions; they are not treated as packed)"
+msgstr "携行装備（不足は条件付許可。持参済みとは扱わない）"
+
+#. copy/acknowledge
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/acknowledge"
+msgid ""
+"I have read this station's risk, entry, and ethics notes. People, youkai, "
+"gods, spirits, and objects may still refuse."
+msgstr "実習所のリスク、入口、倫理を読みました。現地の人・妖怪・神霊・幽霊・物件はなお拒否できます。"
+
+#. copy/submit
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/submit"
+msgid "Submit to dispatch"
+msgstr "派遣机へ提出"
+
+#. copy/clear
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/clear"
+msgid "New blank order"
+msgstr "空白派遣令へ"
+
+#. copy/purposeError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/purposeError"
+msgid "Write at least twelve characters of a field question; 'look around' returns unchanged."
+msgstr "問いは十二文字以上。「見に行く」はそのまま差戻し。"
+
+#. copy/ethicsError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/ethicsError"
+msgid "Confirm the field ethics and refusal rule."
+msgstr "現地倫理と拒否規則を確認してください。"
+
+#. copy/activeError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/activeError"
+msgid "A passport is already in the field. Return for stamping before opening another route."
+msgstr "外勤中の旅券があります。帰校押印後に次の経路を開いてください。"
+
+#. copy/approved
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/approved"
+msgid "Dispatch approved"
+msgstr "派遣許可"
+
+#. copy/conditional
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/conditional"
+msgid "Conditional dispatch"
+msgstr "条件付派遣"
+
+#. copy/conditions
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/conditions"
+msgid "Pre-departure annex"
+msgstr "出発前の附帯条件"
+
+#. copy/permit
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/permit"
+msgid "Domestic Placement Dispatch Order"
+msgstr "幻想郷域内実習派遣令"
+
+#. copy/permitLead
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/permitLead"
+msgid "This paper permits work; it does not permit bringing home everything you see."
+msgstr "この紙は仕事を許可するが、見たもの全ての持帰りを許可しない。"
+
+#. copy/printPermit
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/printPermit"
+msgid "Print dispatch / Save PDF"
+msgstr "派遣令を印刷／PDF 保存"
+
+#. copy/checkin
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/checkin"
+msgid "Verify entry and begin duty"
+msgstr "入口確認・当番開始"
+
+#. copy/checkinNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/checkinNote"
+msgid "Check-in reveals the complication this station kept for today."
+msgstr "点呼後、本日この実習所が残した現場の厄介事が開く。"
+
+#. copy/fieldCase
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/fieldCase"
+msgid "Field deviation report"
+msgstr "現場偏差報告"
+
+#. copy/chooseResponse
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/chooseResponse"
+msgid "Choose a first response. None turns the field into a tidy success score."
+msgstr "初動を選択。現場を整った成功点へ変える選択肢はない。"
+
+#. copy/responded
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/responded"
+msgid "First response entered into provenance"
+msgstr "初動を来歴鎖へ記録済み"
+
+#. copy/returnLog
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/returnLog"
+msgid "Return observation & source report"
+msgstr "帰校観察・情報源報告"
+
+#. copy/observation
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/observation"
+msgid "Direct observation / work completed"
+msgstr "直接観察／実施内容"
+
+#. copy/observationPlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/observationPlaceholder"
+msgid "Separate seen, reported, and inferred. You may explicitly retain the unknown."
+msgstr "見たこと、聞いたこと、推測を分ける。不明も残せる。"
+
+#. copy/sourceKind
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourceKind"
+msgid "Primary source form"
+msgstr "主な情報源の種別"
+
+#. copy/sourceNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourceNote"
+msgid "Source, version, and acquisition"
+msgstr "情報源・版・入手方法"
+
+#. copy/sourcePlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourcePlaceholder"
+msgid ""
+"Who said it, which version, which instrument, or how the object expressed "
+"itself; not merely 'field data'."
+msgstr "誰の発言、どの版、どの計器、物がどう表明したか。「現地資料」だけは禁止。"
+
+#. copy/evidenceCode
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/evidenceCode"
+msgid "Evidence / page / instrument-version code"
+msgstr "証物／頁／計器版コード"
+
+#. copy/incident
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/incident"
+msgid "Deviation or incident"
+msgstr "偏差・事故種別"
+
+#. copy/incidentNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/incidentNote"
+msgid "Incident, medical, consent, or custody annex"
+msgstr "事故・医療・同意・来歴附件"
+
+#. copy/incidentPlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/incidentPlaceholder"
+msgid "With no incident, retain deviation. With one, record stopping and notification."
+msgstr "事故なしでも偏差を記録。事故ありなら停止と通報を記す。"
+
+#. copy/research
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/research"
+msgid "May this log become formal research data?"
+msgstr "正式研究資料としての扱い"
+
+#. copy/complete
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/complete"
+msgid "Submit return and request supervisor seal"
+msgstr "帰校報告を提出し指導印を求める"
+
+#. copy/observationError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/observationError"
+msgid "Observation needs twenty characters; blank cannot testify for the field."
+msgstr "観察は二十文字以上。空白は現場の証言にならない。"
+
+#. copy/sourceError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourceError"
+msgid "Leave a traceable source description."
+msgstr "追跡可能な資料源説明を残してください。"
+
+#. copy/report
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/report"
+msgid "Return certification & supervisor note"
+msgstr "帰校認証・指導評"
+
+#. copy/standing
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/standing"
+msgid "Supervisor standing"
+msgstr "指導判定"
+
+#. copy/strengths
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/strengths"
+msgid "What remained well"
+msgstr "保持できた点"
+
+#. copy/cautions
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/cautions"
+msgid "What stays beside the seal"
+msgstr "印の横に残す問題"
+
+#. copy/researchDisposition
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/researchDisposition"
+msgid "Research-data disposition"
+msgstr "研究資料の行先"
+
+#. copy/printReport
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/printReport"
+msgid "Print return / Save PDF"
+msgstr "帰還記録を印刷／PDF 保存"
+
+#. copy/openBbs
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/openBbs"
+msgid "Open field rumours on BBS"
+msgstr "BBS の外勤風聞を見る"
+
+#. copy/openMap
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/openMap"
+msgid "Open campus departure map"
+msgstr "出発地図を開く"
+
+#. copy/backStations
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/backStations"
+msgid "Back to twenty-four stations"
+msgstr "二十四実習所へ"
+
+#. copy/passportTitle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/passportTitle"
+msgid "Domestic Placement & Field Inquiry Passport"
+msgstr "幻想郷域内実習・フィールド調査パスポート"
+
+#. copy/passportLead
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/passportLead"
+msgid "A seal proves traceable learning returned; it does not prove every dispute was resolved."
+msgstr "印は追跡可能な学びを持ち帰った証明で、全争議解決の証明ではない。"
+
+#. copy/noStamps
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/noStamps"
+msgid "No seals yet. The first station file will not walk into the passport by itself."
+msgstr "旅券は未押印。最初の実習所ファイルは自ら旅券へ歩いてこない。"
+
+#. copy/distinct
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/distinct"
+msgid "distinct stations"
+msgstr "異なる実習所"
+
+#. copy/disciplines
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/disciplines"
+msgid "fields"
+msgstr "分野"
+
+#. copy/researchReady
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/researchReady"
+msgid "research-eligible logs"
+msgstr "研究利用申請可"
+
+#. copy/contestedCount
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/contestedCount"
+msgid "red-thread seals"
+msgstr "赤糸付印"
+
+#. copy/repeated
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/repeated"
+msgid "return visit"
+msgstr "再訪印"
+
+#. copy/first
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/first"
+msgid "first visit"
+msgstr "初訪印"
+
+#. copy/printPassport
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/printPassport"
+msgid "Print passport / Save PDF"
+msgstr "旅券を印刷／PDF 保存"
+
+#. copy/recordsTitle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/recordsTitle"
+msgid "Dispatch, field duty & return files"
+msgstr "派遣令・外勤・帰還記録"
+
+#. copy/noRecords
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/noRecords"
+msgid "No dispatch files yet; choose somewhere likely to cause trouble."
+msgstr "派遣記録なし。まず地図から厄介そうな場所を選べます。"
+
+#. copy/openRecord
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/openRecord"
+msgid "Open file"
+msgstr "記録を開く"
+
+#. copy/statusApproved
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusApproved"
+msgid "Awaiting departure"
+msgstr "出発待ち"
+
+#. copy/statusConditional
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusConditional"
+msgid "Conditional · awaiting departure"
+msgstr "条件付・出発待ち"
+
+#. copy/statusDeployed
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusDeployed"
+msgid "Field duty"
+msgstr "現地当番"
+
+#. copy/statusResponded
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusResponded"
+msgid "Awaiting return report"
+msgstr "帰校報告待ち"
+
+#. copy/statusCompleted
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusCompleted"
+msgid "Returned & stamped"
+msgstr "帰校押印済み"
+
+#. copy/copied
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/copied"
+msgid "Passport-file link copied."
+msgstr "旅券記録リンクをコピーしました。"
+
+#. copy/shared
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/shared"
+msgid "Copy file link"
+msgstr "記録リンクをコピー"
+
+#. copy/clearStanding
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/clearStanding"
+msgid "Clear & traceable"
+msgstr "明瞭・追跡可能"
+
+#. copy/conditionalStanding
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/conditionalStanding"
+msgid "Retained with conditions"
+msgstr "条件付保持"
+
+#. copy/contestedStanding
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/contestedStanding"
+msgid "Dispute travels with seal"
+msgstr "争議は印と同行"
+
+#. copy/saveHint
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/saveHint"
+msgid ""
+"Draft stays on this device. Dispatch, response, observation, and seals enter "
+"the records cabinet and My TU."
+msgstr "下書きはこの端末のみ。派遣・初動・観察・印は資料棚と My TU へ入る。"
+
+#. copy/issued
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/issued"
+msgid "Dispatch saved; the site may still add today's condition."
+msgstr "派遣令を保存。現地は本日も新条件を出せる。"
+
+#. copy/departed
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/departed"
+msgid "Entry verified. The field now stops following the plan."
+msgstr "入口確認完了。現場はここから予定通りでなくなる。"
+
+#. copy/handled
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/handled"
+msgid "Response entered on the field slip; do not erase the dispute on return."
+msgstr "初動を外勤票へ記録。帰校時に争議を消さないこと。"
+
+#. copy/completedToast
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/completedToast"
+msgid "Return certified; seal and red thread entered the passport."
+msgstr "帰校認証完了。印と赤糸が旅券へ入りました。"
+
+#. abilityOptions.none
+#: src/js/fieldwork.js:50
+msgctxt "text:abilityOptions.none"
+msgid "No ability use"
+msgstr "今回は能力を使用しない"
+
+#. abilityOptions.declared
+#: src/js/fieldwork.js:51
+msgctxt "text:abilityOptions.declared"
+msgid "Purpose and stop command declared"
+msgstr "用途・停止号令を事前申告"
+
+#. abilityOptions.supervised
+#: src/js/fieldwork.js:52
+msgctxt "text:abilityOptions.supervised"
+msgid "Supervisor-present use only"
+msgstr "指導者同席時のみ使用"
+
+#. abilityOptions.sealed
+#: src/js/fieldwork.js:53
+msgctxt "text:abilityOptions.sealed"
+msgid "Sealed before departure; jointly released after return"
+msgstr "出発前封印・帰校後共同解除"
+
+#. emergencyOptions.return-bell
+#: src/js/fieldwork.js:57
+msgctxt "text:emergencyOptions.return-bell"
+msgid "Three-tone return bell"
+msgstr "三音帰校鈴"
+
+#. emergencyOptions.buddy-rope
+#: src/js/fieldwork.js:58
+msgctxt "text:emergencyOptions.buddy-rope"
+msgid "Buddy return rope"
+msgstr "二人帰還縄"
+
+#. emergencyOptions.host-escort
+#: src/js/fieldwork.js:59
+msgctxt "text:emergencyOptions.host-escort"
+msgid "Host-escorted exit"
+msgstr "現地主催者同行退出"
+
+#. emergencyOptions.clinic-route
+#: src/js/fieldwork.js:60
+msgctxt "text:emergencyOptions.clinic-route"
+msgid "Pre-filed Eientei / infirmary route"
+msgstr "永遠亭・校医務室事前経路"
+
+#. reviewItemLabels.observation
+#: src/js/fieldwork.js:78
+msgctxt "text:reviewItemLabels.observation"
+msgid "Direct observation remained separate from inference"
+msgstr "直接観察と推測を分けて保存"
+
+#. reviewItemLabels.provenance
+#: src/js/fieldwork.js:79
+msgctxt "text:reviewItemLabels.provenance"
+msgid "The primary source retained a traceable version"
+msgstr "主要資料源に追跡可能な版が残った"
+
+#. reviewItemLabels.response-chain
+#: src/js/fieldwork.js:80
+msgctxt "text:reviewItemLabels.response-chain"
+msgid "The field response was joined to the provenance chain"
+msgstr "現場初動が来歴鎖へ接続された"
+
+#. reviewItemLabels.research-consent
+#: src/js/fieldwork.js:81
+msgctxt "text:reviewItemLabels.research-consent"
+msgid "Research-use scope was chosen explicitly"
+msgstr "研究利用範囲が明示的に選択された"
+
+#. reviewItemLabels.unresolved-dispute
+#: src/js/fieldwork.js:82
+msgctxt "text:reviewItemLabels.unresolved-dispute"
+msgid "The field dispute remains unresolved and must not be rewritten as consensus"
+msgstr "現場争議は未解決。合意へ書き換えない"
+
+#. reviewItemLabels.reported-deviation
+#: src/js/fieldwork.js:83
+msgctxt "text:reviewItemLabels.reported-deviation"
+msgid "The deviation or incident annex must travel with the main file"
+msgstr "偏差・事故附件は本記録と同行"

@@ -1,0 +1,1816 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. employmentJobs.0.0.0.employer
+#: src/data/employment.js:46
+msgctxt "text:employmentJobs.0.0.0.employer"
+msgid "Scarlet Mansion Household & Time Office"
+msgstr "Scarlet Mansion Household & Time Office"
+
+#. employmentJobs.0.0.0.title
+#: src/data/employment.js:47
+msgctxt "text:employmentJobs.0.0.0.title"
+msgid "Zero-minute night maid & fairy-colleague recovery clerk"
+msgstr "Zero-minute night maid & fairy-colleague recovery clerk"
+
+#. employmentJobs.0.0.0.summary
+#: src/data/employment.js:54
+msgctxt "text:employmentJobs.0.0.0.summary"
+msgid ""
+"Dinner, broken windows, and the vampire's morning must occur in order; the "
+"duty chief decides separately whether time elapsed."
+msgstr ""
+"Dinner, broken windows, and the vampire's morning must occur in order; the "
+"duty chief decides separately whether time elapsed."
+
+#. employmentJobs.0.0.0.duty
+#: src/data/employment.js:55
+msgctxt "text:employmentJobs.0.0.0.duty"
+msgid ""
+"Polish silver, recover fairy maids collapsed beside tea trays, and file "
+"three broken windows in one minute as separate incidents."
+msgstr ""
+"Polish silver, recover fairy maids collapsed beside tea trays, and file "
+"three broken windows in one minute as separate incidents."
+
+#. employmentJobs.0.0.0.pay
+#: src/data/employment.js:56
+msgctxt "text:employmentJobs.0.0.0.pay"
+msgid ""
+"Room, board, and uniform. Pay by negotiation with the mistress. Stopped time "
+"counts as neither overtime nor rest."
+msgstr ""
+"Room, board, and uniform. Pay by negotiation with the mistress. Stopped time "
+"counts as neither overtime nor rest."
+
+#. employmentJobs.0.0.0.clause
+#: src/data/employment.js:57
+msgctxt "text:employmentJobs.0.0.0.clause"
+msgid ""
+"Applicants may not cite “zero minutes” as no work. The mansion may not cite "
+"it as no pay. The latter sentence remains circled in red."
+msgstr ""
+"Applicants may not cite “zero minutes” as no work. The mansion may not cite "
+"it as no pay. The latter sentence remains circled in red."
+
+#. employmentJobs.0.0.0.trial
+#: src/data/employment.js:58
+msgctxt "text:employmentJobs.0.0.0.trial"
+msgid ""
+"Set tea before one sugar cube falls, and ensure at least one fairy colleague "
+"remembers clocking out."
+msgstr ""
+"Set tea before one sugar cube falls, and ensure at least one fairy colleague "
+"remembers clocking out."
+
+#. employmentJobs.0.0.0.reply
+#: src/data/employment.js:59
+msgctxt "text:employmentJobs.0.0.0.reply"
+msgid ""
+"Sakuya reserved minute zero for interview. Meiling says falling asleep at "
+"the gate can count as check-in."
+msgstr ""
+"Sakuya reserved minute zero for interview. Meiling says falling asleep at "
+"the gate can count as check-in."
+
+#. employmentJobs.0.1.0.employer
+#: src/data/employment.js:65
+msgctxt "text:employmentJobs.0.1.0.employer"
+msgid "Kappa Cooperative Workshop"
+msgstr "Kappa Cooperative Workshop"
+
+#. employmentJobs.0.1.0.title
+#: src/data/employment.js:66
+msgctxt "text:employmentJobs.0.1.0.title"
+msgid "Day-129 temporary repair & tool-colleague engineer"
+msgstr "Day-129 temporary repair & tool-colleague engineer"
+
+#. employmentJobs.0.1.0.summary
+#: src/data/employment.js:73
+msgctxt "text:employmentJobs.0.1.0.summary"
+msgid ""
+"The turbine normally smokes; if it does not, check whether it stopped. Tape "
+"colour marks versions unless Nitori changed that yesterday."
+msgstr ""
+"The turbine normally smokes; if it does not, check whether it stopped. Tape "
+"colour marks versions unless Nitori changed that yesterday."
+
+#. employmentJobs.0.1.0.duty
+#: src/data/employment.js:74
+msgctxt "text:employmentJobs.0.1.0.duty"
+msgid ""
+"Calibrate incompatible gauges, log leak speed, and decide whether an "
+"overtime-claiming wrench is equipment, colleague, or witness."
+msgstr ""
+"Calibrate incompatible gauges, log leak speed, and decide whether an "
+"overtime-claiming wrench is equipment, colleague, or witness."
+
+#. employmentJobs.0.1.0.pay
+#: src/data/employment.js:75
+msgctxt "text:employmentJobs.0.1.0.pay"
+msgid ""
+"Yen, cucumbers, and patent credit are settled separately. One identifiable "
+"post-explosion part may be taken home."
+msgstr ""
+"Yen, cucumbers, and patent credit are settled separately. One identifiable "
+"post-explosion part may be taken home."
+
+#. employmentJobs.0.1.0.clause
+#: src/data/employment.js:76
+msgctxt "text:employmentJobs.0.1.0.clause"
+msgid ""
+"“Temporary” describes the repair, not employment. Renewal on day 130 "
+"requires one more tape layer."
+msgstr ""
+"“Temporary” describes the repair, not employment. Renewal on day 130 "
+"requires one more tape layer."
+
+#. employmentJobs.0.1.0.trial
+#: src/data/employment.js:77
+msgctxt "text:employmentJobs.0.1.0.trial"
+msgid ""
+"Make three mutually hostile gauges agree which is most wrong; do not call "
+"their average a repair."
+msgstr ""
+"Make three mutually hostile gauges agree which is most wrong; do not call "
+"their average a repair."
+
+#. employmentJobs.0.1.0.reply
+#: src/data/employment.js:78
+msgctxt "text:employmentJobs.0.1.0.reply"
+msgid ""
+"Nitori finds your odd résumé dismantle-worthy and scheduled a trial at the "
+"next controllable leak."
+msgstr ""
+"Nitori finds your odd résumé dismantle-worthy and scheduled a trial at the "
+"next controllable leak."
+
+#. employmentJobs.0.2.0.employer
+#: src/data/employment.js:84
+msgctxt "text:employmentJobs.0.2.0.employer"
+msgid "Sanzu Queue Appeals Office"
+msgstr "Sanzu Queue Appeals Office"
+
+#. employmentJobs.0.2.0.title
+#: src/data/employment.js:85
+msgctxt "text:employmentJobs.0.2.0.title"
+msgid "Posthumous queue appeals clerk & relief ferryperson"
+msgstr "Posthumous queue appeals clerk & relief ferryperson"
+
+#. employmentJobs.0.2.0.summary
+#: src/data/employment.js:92
+msgctxt "text:employmentJobs.0.2.0.summary"
+msgid ""
+"Handle the dead, not-yet-dead, disputed death dates, and applicants born "
+"after receiving a queue number."
+msgstr ""
+"Handle the dead, not-yet-dead, disputed death dates, and applicants born "
+"after receiving a queue number."
+
+#. employmentJobs.0.2.0.duty
+#: src/data/employment.js:93
+msgctxt "text:employmentJobs.0.2.0.duty"
+msgid ""
+"Check coins, hear queue appeals, and leave traceable reasons for the half of "
+"the route Komachi did not row."
+msgstr ""
+"Check coins, hear queue appeals, and leave traceable reasons for the half of "
+"the route Komachi did not row."
+
+#. employmentJobs.0.2.0.pay
+#: src/data/employment.js:94
+msgctxt "text:employmentJobs.0.2.0.pay"
+msgid ""
+"Paid per crossing, soul, or surviving queue ticket. Passage priority may not "
+"be resold to your not-yet-dead self."
+msgstr ""
+"Paid per crossing, soul, or surviving queue ticket. Passage priority may not "
+"be resold to your not-yet-dead self."
+
+#. employmentJobs.0.2.0.clause
+#: src/data/employment.js:95
+msgctxt "text:employmentJobs.0.2.0.clause"
+msgid ""
+"Late fees begin one day before death; successful appeals may convert one day "
+"into a chronology dispute."
+msgstr ""
+"Late fees begin one day before death; successful appeals may convert one day "
+"into a chronology dispute."
+
+#. employmentJobs.0.2.0.trial
+#: src/data/employment.js:96
+msgctxt "text:employmentJobs.0.2.0.trial"
+msgid ""
+"Before Eiki finishes asking, explain whether a half-phantom queues once, "
+"twice, or makes the queue admit miscounting."
+msgstr ""
+"Before Eiki finishes asking, explain whether a half-phantom queues once, "
+"twice, or makes the queue admit miscounting."
+
+#. employmentJobs.0.2.0.reply
+#: src/data/employment.js:97
+msgctxt "text:employmentJobs.0.2.0.reply"
+msgid ""
+"Komachi placed the interview after her nap; Eiki corrected “after the nap” "
+"into an unavoidable date."
+msgstr ""
+"Komachi placed the interview after her nap; Eiki corrected “after the nap” "
+"into an unavoidable date."
+
+#. employmentJobs.0.3.0.employer
+#: src/data/employment.js:103
+msgctxt "text:employmentJobs.0.3.0.employer"
+msgid "Bunbunmaru News Corrections & Early Dispatch"
+msgstr "Bunbunmaru News Corrections & Early Dispatch"
+
+#. employmentJobs.0.3.0.title
+#: src/data/employment.js:104
+msgctxt "text:employmentJobs.0.3.0.title"
+msgid "Tomorrow-headline advance retraction clerk"
+msgstr "Tomorrow-headline advance retraction clerk"
+
+#. employmentJobs.0.3.0.summary
+#: src/data/employment.js:111
+msgctxt "text:employmentJobs.0.3.0.summary"
+msgid "Retract an error not yet published, then catch Aya and ask what she plans to write."
+msgstr "Retract an error not yet published, then catch Aya and ask what she plans to write."
+
+#. employmentJobs.0.3.0.duty
+#: src/data/employment.js:112
+msgctxt "text:employmentJobs.0.3.0.duty"
+msgid ""
+"Keep every headline version, redact an anonymous source's self-shouted name, "
+"and classify the nine-fast clock as equipment rather than evidence."
+msgstr ""
+"Keep every headline version, redact an anonymous source's self-shouted name, "
+"and classify the nine-fast clock as equipment rather than evidence."
+
+#. employmentJobs.0.3.0.pay
+#: src/data/employment.js:113
+msgctxt "text:employmentJobs.0.3.0.pay"
+msgid ""
+"Copy fee, wind-route passes, and first-edition byline; retracted bylines "
+"remain in Corrections."
+msgstr ""
+"Copy fee, wind-route passes, and first-edition byline; retracted bylines "
+"remain in Corrections."
+
+#. employmentJobs.0.3.0.clause
+#: src/data/employment.js:114
+msgctxt "text:employmentJobs.0.3.0.clause"
+msgid ""
+"News may arrive before events; wages may not. Aya claims source protection "
+"over the latter sentence."
+msgstr ""
+"News may arrive before events; wages may not. Aya claims source protection "
+"over the latter sentence."
+
+#. employmentJobs.0.3.0.trial
+#: src/data/employment.js:115
+msgctxt "text:employmentJobs.0.3.0.trial"
+msgid ""
+"Write a thirty-character correction naming the error; “caused confusion” may "
+"not substitute for a subject."
+msgstr ""
+"Write a thirty-character correction naming the error; “caused confusion” may "
+"not substitute for a subject."
+
+#. employmentJobs.0.3.0.reply
+#: src/data/employment.js:116
+msgctxt "text:employmentJobs.0.3.0.reply"
+msgid "The desk shortlisted you for edition two; edition one already says you declined comment."
+msgstr "The desk shortlisted you for edition two; edition one already says you declined comment."
+
+#. employmentJobs.0.4.0.employer
+#: src/data/employment.js:122
+msgctxt "text:employmentJobs.0.4.0.employer"
+msgid "Hakurei Shrine Donation Box & Boundary Duty"
+msgstr "Hakurei Shrine Donation Box & Boundary Duty"
+
+#. employmentJobs.0.4.0.title
+#: src/data/employment.js:123
+msgctxt "text:employmentJobs.0.4.0.title"
+msgid "Offering whereabouts auditor & boundary-leaf sweeper"
+msgstr "Offering whereabouts auditor & boundary-leaf sweeper"
+
+#. employmentJobs.0.4.0.summary
+#: src/data/employment.js:130
+msgctxt "text:employmentJobs.0.4.0.summary"
+msgid ""
+"Sweep leaves fallen from Outside and retain coins fallen from Outside; the "
+"two often impersonate each other."
+msgstr ""
+"Sweep leaves fallen from Outside and retain coins fallen from Outside; the "
+"two often impersonate each other."
+
+#. employmentJobs.0.4.0.duty
+#: src/data/employment.js:131
+msgctxt "text:employmentJobs.0.4.0.duty"
+msgid ""
+"Patrol the torii, ask why the donation box is in Administration again, and "
+"hold Reimu's “hiring suspended” sign during incidents."
+msgstr ""
+"Patrol the torii, ask why the donation box is in Administration again, and "
+"hold Reimu's “hiring suspended” sign during incidents."
+
+#. employmentJobs.0.4.0.pay
+#: src/data/employment.js:132
+msgctxt "text:employmentJobs.0.4.0.pay"
+msgid "Share offerings after tea costs. If negative, receive a warding charm and one meal."
+msgstr "Share offerings after tea costs. If negative, receive a warding charm and one meal."
+
+#. employmentJobs.0.4.0.clause
+#: src/data/employment.js:133
+msgctxt "text:employmentJobs.0.4.0.clause"
+msgid ""
+"Reimu may forget publishing the vacancy. This notice entitles you to one "
+"“I'll take a look.”"
+msgstr ""
+"Reimu may forget publishing the vacancy. This notice entitles you to one "
+"“I'll take a look.”"
+
+#. employmentJobs.0.4.0.trial
+#: src/data/employment.js:134
+msgctxt "text:employmentJobs.0.4.0.trial"
+msgid ""
+"When Yukari opens two identically named torii, identify which side to sweep. "
+"“The one with more offerings” is accepted."
+msgstr ""
+"When Yukari opens two identically named torii, identify which side to sweep. "
+"“The one with more offerings” is accepted."
+
+#. employmentJobs.0.4.0.reply
+#: src/data/employment.js:135
+msgctxt "text:employmentJobs.0.4.0.reply"
+msgid ""
+"Reimu provisionally agrees to interview if you place this reply in the "
+"donation box and retrieve it from the back yourself."
+msgstr ""
+"Reimu provisionally agrees to interview if you place this reply in the "
+"donation box and retrieve it from the back yourself."
+
+#. employmentJobs.0.5.0.employer
+#: src/data/employment.js:141
+msgctxt "text:employmentJobs.0.5.0.employer"
+msgid "Kourindou Outside-Object Non-sales Department"
+msgstr "Kourindou Outside-Object Non-sales Department"
+
+#. employmentJobs.0.5.0.title
+#: src/data/employment.js:142
+msgctxt "text:employmentJobs.0.5.0.title"
+msgid "Use-naming apprentice & unsold-stock companion"
+msgstr "Use-naming apprentice & unsold-stock companion"
+
+#. employmentJobs.0.5.0.summary
+#: src/data/employment.js:149
+msgctxt "text:employmentJobs.0.5.0.summary"
+msgid ""
+"Assign Outside drift objects their most confident wrong uses, then await "
+"corrections from wear, object, and customer."
+msgstr ""
+"Assign Outside drift objects their most confident wrong uses, then await "
+"corrections from wear, object, and customer."
+
+#. employmentJobs.0.5.0.duty
+#: src/data/employment.js:150
+msgctxt "text:employmentJobs.0.5.0.duty"
+msgid ""
+"Count unsold goods, stop Marisa relabelling borrowing as collaboration, and "
+"hear a radio's complaint about having no station."
+msgstr ""
+"Count unsold goods, stop Marisa relabelling borrowing as collaboration, and "
+"hear a radio's complaint about having no station."
+
+#. employmentJobs.0.5.0.pay
+#: src/data/employment.js:151
+msgctxt "text:employmentJobs.0.5.0.pay"
+msgid "Paid in an unknown-use object appraised as valuable. Cash follows if it ever sells."
+msgstr "Paid in an unknown-use object appraised as valuable. Cash follows if it ever sells."
+
+#. employmentJobs.0.5.0.clause
+#: src/data/employment.js:152
+msgctxt "text:employmentJobs.0.5.0.clause"
+msgid "Apprentices may disagree with the proprietor; disagreement forms receive price tags."
+msgstr "Apprentices may disagree with the proprietor; disagreement forms receive price tags."
+
+#. employmentJobs.0.5.0.trial
+#: src/data/employment.js:153
+msgctxt "text:employmentJobs.0.5.0.trial"
+msgid ""
+"Without opening it, explain why a USB cable may not be a snake, leaving "
+"space for the snake's objection."
+msgstr ""
+"Without opening it, explain why a USB cable may not be a snake, leaving "
+"space for the snake's objection."
+
+#. employmentJobs.0.5.0.reply
+#: src/data/employment.js:154
+msgctxt "text:employmentJobs.0.5.0.reply"
+msgid ""
+"Rinnosuke appraised your application as a “folding personnel manual,” "
+"provisionally worth more than the wage."
+msgstr ""
+"Rinnosuke appraised your application as a “folding personnel manual,” "
+"provisionally worth more than the wage."
+
+#. employmentJobs.0.6.0.employer
+#: src/data/employment.js:160
+msgctxt "text:employmentJobs.0.6.0.employer"
+msgid "Eientei Moonlit Handover Office"
+msgstr "Eientei Moonlit Handover Office"
+
+#. employmentJobs.0.6.0.title
+#: src/data/employment.js:161
+msgctxt "text:employmentJobs.0.6.0.title"
+msgid "Immortal-patient night handover & moon-rabbit relief"
+msgstr "Immortal-patient night handover & moon-rabbit relief"
+
+#. employmentJobs.0.6.0.summary
+#: src/data/employment.js:168
+msgctxt "text:employmentJobs.0.6.0.summary"
+msgid "A patient may be unable to die while their chart can; handover must protect both."
+msgstr "A patient may be unable to die while their chart can; handover must protect both."
+
+#. employmentJobs.0.6.0.duty
+#: src/data/employment.js:169
+msgctxt "text:employmentJobs.0.6.0.duty"
+msgid ""
+"Check prescriptions, escort lost patients, and find a more plausible excuse "
+"for rabbits calling in sick with Hourai elixir."
+msgstr ""
+"Check prescriptions, escort lost patients, and find a more plausible excuse "
+"for rabbits calling in sick with Hourai elixir."
+
+#. employmentJobs.0.6.0.pay
+#: src/data/employment.js:170
+msgctxt "text:employmentJobs.0.6.0.pay"
+msgid ""
+"Yen, bamboo shoots, and night-shift medicinal tea. Immortality does not make "
+"probation infinite."
+msgstr ""
+"Yen, bamboo shoots, and night-shift medicinal tea. Immortality does not make "
+"probation infinite."
+
+#. employmentJobs.0.6.0.clause
+#: src/data/employment.js:171
+msgctxt "text:employmentJobs.0.6.0.clause"
+msgid ""
+"Full-moon overtime may be refused, but the refusal must be handed to a "
+"rabbit not planning to flee that night."
+msgstr ""
+"Full-moon overtime may be refused, but the refusal must be handed to a "
+"rabbit not planning to flee that night."
+
+#. employmentJobs.0.6.0.trial
+#: src/data/employment.js:172
+msgctxt "text:employmentJobs.0.6.0.trial"
+msgid ""
+"Hand one chart to Eirin, Reisen, and the patient without giving all three "
+"the same secret."
+msgstr ""
+"Hand one chart to Eirin, Reisen, and the patient without giving all three "
+"the same secret."
+
+#. employmentJobs.0.6.0.reply
+#: src/data/employment.js:173
+msgctxt "text:employmentJobs.0.6.0.reply"
+msgid "Reisen sent a low-gaze interview route; the lunar phase will decide it after you arrive."
+msgstr "Reisen sent a low-gaze interview route; the lunar phase will decide it after you arrive."
+
+#. employmentJobs.0.7.0.employer
+#: src/data/employment.js:179
+msgctxt "text:employmentJobs.0.7.0.employer"
+msgid "Hakugyokurou Phantom Roll & Banquet Logistics"
+msgstr "Hakugyokurou Phantom Roll & Banquet Logistics"
+
+#. employmentJobs.0.7.0.title
+#: src/data/employment.js:180
+msgctxt "text:employmentJobs.0.7.0.title"
+msgid "Half-phantom headcount dispute recorder"
+msgstr "Half-phantom headcount dispute recorder"
+
+#. employmentJobs.0.7.0.summary
+#: src/data/employment.js:187
+msgctxt "text:employmentJobs.0.7.0.summary"
+msgid ""
+"Roll, seats, and the count after Yuyuko eats never agree; preserve the "
+"difference rather than reconcile it."
+msgstr ""
+"Roll, seats, and the count after Yuyuko eats never agree; preserve the "
+"difference rather than reconcile it."
+
+#. employmentJobs.0.7.0.duty
+#: src/data/employment.js:188
+msgctxt "text:employmentJobs.0.7.0.duty"
+msgid ""
+"Separate people, half-phantoms, passing ghosts, and self-declared petals, "
+"and stop the banquet treating the roll as a menu."
+msgstr ""
+"Separate people, half-phantoms, passing ghosts, and self-declared petals, "
+"and stop the banquet treating the roll as a menu."
+
+#. employmentJobs.0.7.0.pay
+#: src/data/employment.js:189
+msgctxt "text:employmentJobs.0.7.0.pay"
+msgid "Room, board, cherry-season allowance, and desserts not requisitioned by Yuyuko."
+msgstr "Room, board, cherry-season allowance, and desserts not requisitioned by Yuyuko."
+
+#. employmentJobs.0.7.0.clause
+#: src/data/employment.js:190
+msgctxt "text:employmentJobs.0.7.0.clause"
+msgid ""
+"If spring fails to arrive, the contract is not extended; the vacancy is "
+"temporarily renamed winter."
+msgstr ""
+"If spring fails to arrive, the contract is not extended; the vacancy is "
+"temporarily renamed winter."
+
+#. employmentJobs.0.7.0.trial
+#: src/data/employment.js:191
+msgctxt "text:employmentJobs.0.7.0.trial"
+msgid "Seat Youmu and her phantom in one and a half chairs without sawing furniture."
+msgstr "Seat Youmu and her phantom in one and a half chairs without sawing furniture."
+
+#. employmentJobs.0.7.0.reply
+#: src/data/employment.js:192
+msgctxt "text:employmentJobs.0.7.0.reply"
+msgid "Youmu approved the interview; Yuyuko added one seat because “it looks delicious.”"
+msgstr "Youmu approved the interview; Yuyuko added one seat because “it looks delicious.”"
+
+#. employmentJobs.0.8.0.employer
+#: src/data/employment.js:198
+msgctxt "text:employmentJobs.0.8.0.employer"
+msgid "Scarlet Underground Library Flying-Book Herd"
+msgstr "Scarlet Underground Library Flying-Book Herd"
+
+#. employmentJobs.0.8.0.title
+#: src/data/employment.js:199
+msgctxt "text:employmentJobs.0.8.0.title"
+msgid "Low-oxygen flying-book shepherd"
+msgstr "Low-oxygen flying-book shepherd"
+
+#. employmentJobs.0.8.0.summary
+#: src/data/employment.js:206
+msgctxt "text:employmentJobs.0.8.0.summary"
+msgid "Some books fly, some bite; worst are those insisting they are merely references."
+msgstr "Some books fly, some bite; worst are those insisting they are merely references."
+
+#. employmentJobs.0.8.0.duty
+#: src/data/employment.js:207
+msgctxt "text:employmentJobs.0.8.0.duty"
+msgid ""
+"Recover books before windows close, log oxygen and visitors for Koakuma, and "
+"prevent Marisa recording a repeat borrowing as the first."
+msgstr ""
+"Recover books before windows close, log oxygen and visitors for Koakuma, and "
+"prevent Marisa recording a repeat borrowing as the first."
+
+#. employmentJobs.0.8.0.pay
+#: src/data/employment.js:208
+msgctxt "text:employmentJobs.0.8.0.pay"
+msgid ""
+"Underground lodging, tea, and limited collection access. Wage envelopes may "
+"be inside a book refusing return."
+msgstr ""
+"Underground lodging, tea, and limited collection access. Wage envelopes may "
+"be inside a book refusing return."
+
+#. employmentJobs.0.8.0.clause
+#: src/data/employment.js:209
+msgctxt "text:employmentJobs.0.8.0.clause"
+msgid ""
+"Log dust, magic, and low oxygen separately. “Patchouli is used to it” is not "
+"protective equipment."
+msgstr ""
+"Log dust, magic, and low oxygen separately. “Patchouli is used to it” is not "
+"protective equipment."
+
+#. employmentJobs.0.8.0.trial
+#: src/data/employment.js:210
+msgctxt "text:employmentJobs.0.8.0.trial"
+msgid "Return a grimoire to its shelf voluntarily without reading its title aloud."
+msgstr "Return a grimoire to its shelf voluntarily without reading its title aloud."
+
+#. employmentJobs.0.8.0.reply
+#: src/data/employment.js:211
+msgctxt "text:employmentJobs.0.8.0.reply"
+msgid ""
+"Koakuma shelved your application with returns; if it flies back first, round "
+"one is passed."
+msgstr ""
+"Koakuma shelved your application with returns; if it flies back first, round "
+"one is passed."
+
+#. employmentJobs.0.9.0.employer
+#: src/data/employment.js:217
+msgctxt "text:employmentJobs.0.9.0.employer"
+msgid "Moriya Shrine Faith-Grid Division"
+msgstr "Moriya Shrine Faith-Grid Division"
+
+#. employmentJobs.0.9.0.title
+#: src/data/employment.js:218
+msgctxt "text:employmentJobs.0.9.0.title"
+msgid "Merit-and-kilowatt split-ledger accountant"
+msgstr "Merit-and-kilowatt split-ledger accountant"
+
+#. employmentJobs.0.9.0.summary
+#: src/data/employment.js:225
+msgctxt "text:employmentJobs.0.9.0.summary"
+msgid ""
+"Settle faith, hydropower, and miracles separately, keeping three signature "
+"boxes when three supervisors claim sole authority."
+msgstr ""
+"Settle faith, hydropower, and miracles separately, keeping three signature "
+"boxes when three supervisors claim sole authority."
+
+#. employmentJobs.0.9.0.duty
+#: src/data/employment.js:226
+msgctxt "text:employmentJobs.0.9.0.duty"
+msgid ""
+"Reconcile offerings, turbine output, and Sanae's Outside conversion sheet; "
+"stop Kanako booking Suwako's earth as free input."
+msgstr ""
+"Reconcile offerings, turbine output, and Sanae's Outside conversion sheet; "
+"stop Kanako booking Suwako's earth as free input."
+
+#. employmentJobs.0.9.0.pay
+#: src/data/employment.js:227
+msgctxt "text:employmentJobs.0.9.0.pay"
+msgid ""
+"Yen and merit in separate columns. Merit cannot be cashed but counts as "
+"seniority in shrine debates."
+msgstr ""
+"Yen and merit in separate columns. Merit cannot be cashed but counts as "
+"seniority in shrine debates."
+
+#. employmentJobs.0.9.0.clause
+#: src/data/employment.js:228
+msgctxt "text:employmentJobs.0.9.0.clause"
+msgid ""
+"Miracles are not performance guarantees. Unhappened miracles remain "
+"receivable and may not be written off by advance worship."
+msgstr ""
+"Miracles are not performance guarantees. Unhappened miracles remain "
+"receivable and may not be written off by advance worship."
+
+#. employmentJobs.0.9.0.trial
+#: src/data/employment.js:229
+msgctxt "text:employmentJobs.0.9.0.trial"
+msgid ""
+"Report one kilowatt-hour to all three supervisors without letting anyone "
+"claim they were averaged away."
+msgstr ""
+"Report one kilowatt-hour to all three supervisors without letting anyone "
+"claim they were averaged away."
+
+#. employmentJobs.0.9.0.reply
+#: src/data/employment.js:230
+msgctxt "text:employmentJobs.0.9.0.reply"
+msgid ""
+"Sanae sent an Outside-style invitation; Kanako sealed it, while Suwako "
+"proposed another time from the reverse."
+msgstr ""
+"Sanae sent an Outside-style invitation; Kanako sealed it, while Suwako "
+"proposed another time from the reverse."
+
+#. employmentJobs.0.10.0.employer
+#: src/data/employment.js:236
+msgctxt "text:employmentJobs.0.10.0.employer"
+msgid "Myouren Temple Night Commons"
+msgstr "Myouren Temple Night Commons"
+
+#. employmentJobs.0.10.0.title
+#: src/data/employment.js:237
+msgctxt "text:employmentJobs.0.10.0.title"
+msgid "Human-youkai dinner mediator & late-arrival plate keeper"
+msgstr "Human-youkai dinner mediator & late-arrival plate keeper"
+
+#. employmentJobs.0.10.0.summary
+#: src/data/employment.js:244
+msgctxt "text:employmentJobs.0.10.0.summary"
+msgid ""
+"Everyone may sit without agreeing who owns the table—especially since the "
+"table began speaking."
+msgstr ""
+"Everyone may sit without agreeing who owns the table—especially since the "
+"table began speaking."
+
+#. employmentJobs.0.10.0.duty
+#: src/data/employment.js:245
+msgctxt "text:employmentJobs.0.10.0.duty"
+msgid ""
+"Keep dietary rules distinct, manage Kyouko's echoes, and write down the "
+"actual dispute before Byakuren mediates."
+msgstr ""
+"Keep dietary rules distinct, manage Kyouko's echoes, and write down the "
+"actual dispute before Byakuren mediates."
+
+#. employmentJobs.0.10.0.pay
+#: src/data/employment.js:246
+msgctxt "text:employmentJobs.0.10.0.pay"
+msgid "Meals, lodging, and Village yen; if dinner becomes a service, sesame cakes are added."
+msgstr "Meals, lodging, and Village yen; if dinner becomes a service, sesame cakes are added."
+
+#. employmentJobs.0.10.0.clause
+#: src/data/employment.js:247
+msgctxt "text:employmentJobs.0.10.0.clause"
+msgid ""
+"Mediation need not make everyone agreeable; success means they still share "
+"the entrance tomorrow."
+msgstr ""
+"Mediation need not make everyone agreeable; success means they still share "
+"the entrance tomorrow."
+
+#. employmentJobs.0.10.0.trial
+#: src/data/employment.js:248
+msgctxt "text:employmentJobs.0.10.0.trial"
+msgid ""
+"Share one pot among an umbrella youkai, beast, and youkai-fearing human "
+"without seating anyone at an invisible table."
+msgstr ""
+"Share one pot among an umbrella youkai, beast, and youkai-fearing human "
+"without seating anyone at an invisible table."
+
+#. employmentJobs.0.10.0.reply
+#: src/data/employment.js:249
+msgctxt "text:employmentJobs.0.10.0.reply"
+msgid ""
+"Byakuren invites you to a dinner interview; Kyouko's echo delivered it to "
+"yesterday's valley."
+msgstr ""
+"Byakuren invites you to a dinner interview; Kyouko's echo delivered it to "
+"yesterday's valley."
+
+#. employmentJobs.0.11.0.employer
+#: src/data/employment.js:255
+msgctxt "text:employmentJobs.0.11.0.employer"
+msgid "Chireiden Mind-Reading Redaction Office"
+msgstr "Chireiden Mind-Reading Redaction Office"
+
+#. employmentJobs.0.11.0.title
+#: src/data/employment.js:256
+msgctxt "text:employmentJobs.0.11.0.title"
+msgid "Unwritable-content stenographer"
+msgstr "Unwritable-content stenographer"
+
+#. employmentJobs.0.11.0.summary
+#: src/data/employment.js:263
+msgctxt "text:employmentJobs.0.11.0.summary"
+msgid ""
+"Record what was read and not consented for use, without smuggling the "
+"content back inside brackets."
+msgstr ""
+"Record what was read and not consented for use, without smuggling the "
+"content back inside brackets."
+
+#. employmentJobs.0.11.0.duty
+#: src/data/employment.js:264
+msgctxt "text:employmentJobs.0.11.0.duty"
+msgid ""
+"Preserve sources for Satori's blanks, attendance traces for Koishi's unseen "
+"collisions, and stop Orin carrying away annexes still speaking."
+msgstr ""
+"Preserve sources for Satori's blanks, attendance traces for Koishi's unseen "
+"collisions, and stop Orin carrying away annexes still speaking."
+
+#. employmentJobs.0.11.0.pay
+#: src/data/employment.js:265
+msgctxt "text:employmentJobs.0.11.0.pay"
+msgid ""
+"Underground yen, heat, and unspoken meal preferences. Thoughts do not count "
+"as voluntary overtime."
+msgstr ""
+"Underground yen, heat, and unspoken meal preferences. Thoughts do not count "
+"as voluntary overtime."
+
+#. employmentJobs.0.11.0.clause
+#: src/data/employment.js:266
+msgctxt "text:employmentJobs.0.11.0.clause"
+msgid ""
+"An employer reading your intent to quit is not resignation, though handover "
+"may be prepared early."
+msgstr ""
+"An employer reading your intent to quit is not resignation, though handover "
+"may be prepared early."
+
+#. employmentJobs.0.11.0.trial
+#: src/data/employment.js:267
+msgctxt "text:employmentJobs.0.11.0.trial"
+msgid "Write minutes everyone understands and nobody can reverse into the secret."
+msgstr "Write minutes everyone understands and nobody can reverse into the secret."
+
+#. employmentJobs.0.11.0.reply
+#: src/data/employment.js:268
+msgctxt "text:employmentJobs.0.11.0.reply"
+msgid "Satori says she knows whether you'll attend; Personnel still requires your own reply."
+msgstr "Satori says she knows whether you'll attend; Personnel still requires your own reply."
+
+#. employmentJobs.0.12.0.employer
+#: src/data/employment.js:274
+msgctxt "text:employmentJobs.0.12.0.employer"
+msgid "Alice Doll Workshop Labour Desk"
+msgstr "Alice Doll Workshop Labour Desk"
+
+#. employmentJobs.0.12.0.title
+#: src/data/employment.js:275
+msgctxt "text:employmentJobs.0.12.0.title"
+msgid "Doll-union & control-thread responsibility examiner"
+msgstr "Doll-union & control-thread responsibility examiner"
+
+#. employmentJobs.0.12.0.summary
+#: src/data/employment.js:282
+msgctxt "text:employmentJobs.0.12.0.summary"
+msgid ""
+"A doll asks for rest while its thread proves it did not move itself "
+"yesterday; both statements need chairs."
+msgstr ""
+"A doll asks for rest while its thread proves it did not move itself "
+"yesterday; both statements need chairs."
+
+#. employmentJobs.0.12.0.duty
+#: src/data/employment.js:283
+msgctxt "text:employmentJobs.0.12.0.duty"
+msgid ""
+"Record autonomous, remote, and silent dolls; trace materials borrowed by "
+"Marisa; prepare a negotiation table that cannot be cut."
+msgstr ""
+"Record autonomous, remote, and silent dolls; trace materials borrowed by "
+"Marisa; prepare a negotiation table that cannot be cut."
+
+#. employmentJobs.0.12.0.pay
+#: src/data/employment.js:284
+msgctxt "text:employmentJobs.0.12.0.pay"
+msgid ""
+"Yen, handmade parts, and one volunteering doll. The doll itself may not be "
+"booked as wages."
+msgstr ""
+"Yen, handmade parts, and one volunteering doll. The doll itself may not be "
+"booked as wages."
+
+#. employmentJobs.0.12.0.clause
+#: src/data/employment.js:285
+msgctxt "text:employmentJobs.0.12.0.clause"
+msgid "Remote-controlled applicants remain valid, but operator and body check in separately."
+msgstr "Remote-controlled applicants remain valid, but operator and body check in separately."
+
+#. employmentJobs.0.12.0.trial
+#: src/data/employment.js:286
+msgctxt "text:employmentJobs.0.12.0.trial"
+msgid "Have three dolls overrule Alice once without cutting a thread."
+msgstr "Have three dolls overrule Alice once without cutting a thread."
+
+#. employmentJobs.0.12.0.reply
+#: src/data/employment.js:287
+msgctxt "text:employmentJobs.0.12.0.reply"
+msgid ""
+"Shanghai carried off your application and Hourai returned another; Alice "
+"wants to know which is yours."
+msgstr ""
+"Shanghai carried off your application and Hourai returned another; Alice "
+"wants to know which is yours."
+
+#. employmentJobs.0.13.0.employer
+#: src/data/employment.js:293
+msgctxt "text:employmentJobs.0.13.0.employer"
+msgid "Prismriver Ensemble Silence-Incident Desk"
+msgstr "Prismriver Ensemble Silence-Incident Desk"
+
+#. employmentJobs.0.13.0.title
+#: src/data/employment.js:294
+msgctxt "text:employmentJobs.0.13.0.title"
+msgid "Non-airborne sound stage technician"
+msgstr "Non-airborne sound stage technician"
+
+#. employmentJobs.0.13.0.summary
+#: src/data/employment.js:301
+msgctxt "text:employmentJobs.0.13.0.summary"
+msgid ""
+"Earplugs stop air, not the third beat sounding inside the mind; work begins "
+"by admitting the earplugs are not at fault."
+msgstr ""
+"Earplugs stop air, not the third beat sounding inside the mind; work begins "
+"by admitting the earplugs are not at fault."
+
+#. employmentJobs.0.13.0.duty
+#: src/data/employment.js:302
+msgctxt "text:employmentJobs.0.13.0.duty"
+msgid ""
+"Rig stages, log inaudible bands, recover Lunasa's lost mood, and stop Merlin "
+"counting runaway volume as audience enthusiasm."
+msgstr ""
+"Rig stages, log inaudible bands, recover Lunasa's lost mood, and stop Merlin "
+"counting runaway volume as audience enthusiasm."
+
+#. employmentJobs.0.13.0.pay
+#: src/data/employment.js:303
+msgctxt "text:employmentJobs.0.13.0.pay"
+msgid "Highest of per-show, per-echo, or remembered tunes. Silence counts as a performance."
+msgstr "Highest of per-show, per-echo, or remembered tunes. Silence counts as a performance."
+
+#. employmentJobs.0.13.0.clause
+#: src/data/employment.js:304
+msgctxt "text:employmentJobs.0.13.0.clause"
+msgid ""
+"Inaudibility is not non-exposure. Recovery leave does not require "
+"professionally impressive tinnitus."
+msgstr ""
+"Inaudibility is not non-exposure. Recovery leave does not require "
+"professionally impressive tinnitus."
+
+#. employmentJobs.0.13.0.trial
+#: src/data/employment.js:305
+msgctxt "text:employmentJobs.0.13.0.trial"
+msgid "Safely stop the stage while the ensemble performs and denies performing."
+msgstr "Safely stop the stage while the ensemble performs and denies performing."
+
+#. employmentJobs.0.13.0.reply
+#: src/data/employment.js:306
+msgctxt "text:employmentJobs.0.13.0.reply"
+msgid ""
+"The sisters replied hire, waitlist, and key change; the ensemble will decide "
+"which is melody after rehearsal."
+msgstr ""
+"The sisters replied hire, waitlist, and key change; the ensemble will decide "
+"which is melody after rehearsal."
+
+#. employmentJobs.0.14.0.employer
+#: src/data/employment.js:312
+msgctxt "text:employmentJobs.0.14.0.employer"
+msgid "Misty Lake Fairy Ice Reserve & Forgotten-Class Office"
+msgstr "Misty Lake Fairy Ice Reserve & Forgotten-Class Office"
+
+#. employmentJobs.0.14.0.title
+#: src/data/employment.js:313
+msgctxt "text:employmentJobs.0.14.0.title"
+msgid "Melt-loss & repeat-graduation roll clerk"
+msgstr "Melt-loss & repeat-graduation roll clerk"
+
+#. employmentJobs.0.14.0.summary
+#: src/data/employment.js:320
+msgctxt "text:employmentJobs.0.14.0.summary"
+msgid ""
+"The ice reserve shrinks daily while Cirno graduates once more; neither "
+"number accepts being called loss."
+msgstr ""
+"The ice reserve shrinks daily while Cirno graduates once more; neither "
+"number accepts being called loss."
+
+#. employmentJobs.0.14.0.duty
+#: src/data/employment.js:321
+msgctxt "text:employmentJobs.0.14.0.duty"
+msgid ""
+"Measure ice, draw attendance, and decide whether to rename verse three or "
+"reteach verse two."
+msgstr ""
+"Measure ice, draw attendance, and decide whether to rename verse three or "
+"reteach verse two."
+
+#. employmentJobs.0.14.0.pay
+#: src/data/employment.js:322
+msgctxt "text:employmentJobs.0.14.0.pay"
+msgid "Ice, berries, and Village pocket money. Summer ice wages deduct commuting melt first."
+msgstr "Ice, berries, and Village pocket money. Summer ice wages deduct commuting melt first."
+
+#. employmentJobs.0.14.0.clause
+#: src/data/employment.js:323
+msgctxt "text:employmentJobs.0.14.0.clause"
+msgid ""
+"Forgetting work is not automatically absence; first prove the day's "
+"timetable was remembered."
+msgstr ""
+"Forgetting work is not automatically absence; first prove the day's "
+"timetable was remembered."
+
+#. employmentJobs.0.14.0.trial
+#: src/data/employment.js:324
+msgctxt "text:employmentJobs.0.14.0.trial"
+msgid "Have Cirno draw herself only once on the same attendance picture."
+msgstr "Have Cirno draw herself only once on the same attendance picture."
+
+#. employmentJobs.0.14.0.reply
+#: src/data/employment.js:325
+msgctxt "text:employmentJobs.0.14.0.reply"
+msgid "The ice fairy says you're hired; Daiyousei added “ask the applicant first.”"
+msgstr "The ice fairy says you're hired; Daiyousei added “ask the applicant first.”"
+
+#. employmentJobs.0.15.0.employer
+#: src/data/employment.js:331
+msgctxt "text:employmentJobs.0.15.0.employer"
+msgid "Hieda Five-Records-of-One-Matter Room"
+msgstr "Hieda Five-Records-of-One-Matter Room"
+
+#. employmentJobs.0.15.0.title
+#: src/data/employment.js:332
+msgctxt "text:employmentJobs.0.15.0.title"
+msgid "Disbelieved-version preservation clerk"
+msgstr "Disbelieved-version preservation clerk"
+
+#. employmentJobs.0.15.0.summary
+#: src/data/employment.js:339
+msgctxt "text:employmentJobs.0.15.0.summary"
+msgid "Preserve one record you disbelieve, may not delete, and must keep source-findable."
+msgstr "Preserve one record you disbelieve, may not delete, and must keep source-findable."
+
+#. employmentJobs.0.15.0.duty
+#: src/data/employment.js:340
+msgctxt "text:employmentJobs.0.15.0.duty"
+msgid ""
+"Tie red thread, distinguish first-parent chronicle from feature merges, and "
+"file Aya's extra beside evidence rather than inside it."
+msgstr ""
+"Tie red thread, distinguish first-parent chronicle from feature merges, and "
+"file Aya's extra beside evidence rather than inside it."
+
+#. employmentJobs.0.15.0.pay
+#: src/data/employment.js:341
+msgctxt "text:employmentJobs.0.15.0.pay"
+msgid "Village yen, paper and ink, plus one monthly right to say “I already documented this.”"
+msgstr "Village yen, paper and ink, plus one monthly right to say “I already documented this.”"
+
+#. employmentJobs.0.15.0.clause
+#: src/data/employment.js:342
+msgctxt "text:employmentJobs.0.15.0.clause"
+msgid ""
+"Corrections never overwrite version one; if version one vanishes, suspect "
+"the correction first."
+msgstr ""
+"Corrections never overwrite version one; if version one vanishes, suspect "
+"the correction first."
+
+#. employmentJobs.0.15.0.trial
+#: src/data/employment.js:343
+msgctxt "text:employmentJobs.0.15.0.trial"
+msgid ""
+"Arrange the official file, bell log, BBS, extra, and Git version in five "
+"columns without choosing a winner."
+msgstr ""
+"Arrange the official file, bell log, BBS, extra, and Git version in five "
+"columns without choosing a winner."
+
+#. employmentJobs.0.15.0.reply
+#: src/data/employment.js:344
+msgctxt "text:employmentJobs.0.15.0.reply"
+msgid ""
+"Akyuu says your application contradicts yesterday's copy; both are on the "
+"candidate shelf."
+msgstr ""
+"Akyuu says your application contradicts yesterday's copy; both are on the "
+"candidate shelf."
+
+#. employmentJobs.0.16.0.employer
+#: src/data/employment.js:350
+msgctxt "text:employmentJobs.0.16.0.employer"
+msgid "Blazing Hell Ruins Heat & Cat-Cart Accounts"
+msgstr "Blazing Hell Ruins Heat & Cat-Cart Accounts"
+
+#. employmentJobs.0.16.0.title
+#: src/data/employment.js:351
+msgctxt "text:employmentJobs.0.16.0.title"
+msgid "Geothermal quota & fuel-aliveness assessor"
+msgstr "Geothermal quota & fuel-aliveness assessor"
+
+#. employmentJobs.0.16.0.summary
+#: src/data/employment.js:358
+msgctxt "text:employmentJobs.0.16.0.summary"
+msgid ""
+"Determine whether fuel came to work or work came to be fuel; Orin requires "
+"different carts."
+msgstr ""
+"Determine whether fuel came to work or work came to be fuel; Orin requires "
+"different carts."
+
+#. employmentJobs.0.16.0.duty
+#: src/data/employment.js:359
+msgctxt "text:employmentJobs.0.16.0.duty"
+msgid ""
+"Copy heat ledgers, mark the fusion bird's mood, and stop Okuu converting "
+"“bright today” directly into stable output."
+msgstr ""
+"Copy heat ledgers, mark the fusion bird's mood, and stop Okuu converting "
+"“bright today” directly into stable output."
+
+#. employmentJobs.0.16.0.pay
+#: src/data/employment.js:360
+msgctxt "text:employmentJobs.0.16.0.pay"
+msgid "Yen, geothermal quota, and unlimited winter heat. Summer heating cannot be cashed."
+msgstr "Yen, geothermal quota, and unlimited winter heat. Summer heating cannot be cashed."
+
+#. employmentJobs.0.16.0.clause
+#: src/data/employment.js:361
+msgctxt "text:employmentJobs.0.16.0.clause"
+msgid ""
+"Heat tolerance is not consent to ignition. Claims must be filed before the "
+"cat cart arrives."
+msgstr ""
+"Heat tolerance is not consent to ignition. Claims must be filed before the "
+"cat cart arrives."
+
+#. employmentJobs.0.16.0.trial
+#: src/data/employment.js:362
+msgctxt "text:employmentJobs.0.16.0.trial"
+msgid ""
+"Without approaching the core, persuade Okuu to reduce output from “sun” to "
+"“one classroom.”"
+msgstr ""
+"Without approaching the core, persuade Okuu to reduce output from “sun” to "
+"“one classroom.”"
+
+#. employmentJobs.0.16.0.reply
+#: src/data/employment.js:363
+msgctxt "text:employmentJobs.0.16.0.reply"
+msgid "Orin brought an interview cart; Personnel insists it does not imply an outcome."
+msgstr "Orin brought an interview cart; Personnel insists it does not imply an outcome."
+
+#. employmentJobs.0.17.0.employer
+#: src/data/employment.js:369
+msgctxt "text:employmentJobs.0.17.0.employer"
+msgid "Human Village Nightwatch & Rumour Order Office"
+msgstr "Human Village Nightwatch & Rumour Order Office"
+
+#. employmentJobs.0.17.0.title
+#: src/data/employment.js:370
+msgctxt "text:employmentJobs.0.17.0.title"
+msgid "Not-yet-happened rumour nightwatch"
+msgstr "Not-yet-happened rumour nightwatch"
+
+#. employmentJobs.0.17.0.summary
+#: src/data/employment.js:377
+msgctxt "text:employmentJobs.0.17.0.summary"
+msgid ""
+"Decide whether a rumour preceded, followed, or was caused by verification; "
+"do not report the third as the first."
+msgstr ""
+"Decide whether a rumour preceded, followed, or was caused by verification; "
+"do not report the third as the first."
+
+#. employmentJobs.0.17.0.duty
+#: src/data/employment.js:378
+msgctxt "text:employmentJobs.0.17.0.duty"
+msgid ""
+"Patrol, interview shops, separate witnessing from “everyone knows,” and "
+"persuade Keine not to eat an unverifiable evening whole."
+msgstr ""
+"Patrol, interview shops, separate witnessing from “everyone knows,” and "
+"persuade Keine not to eat an unverifiable evening whole."
+
+#. employmentJobs.0.17.0.pay
+#: src/data/employment.js:379
+msgctxt "text:employmentJobs.0.17.0.pay"
+msgid "Village yen, supper, and leave for erased nights; restored history decides the date."
+msgstr "Village yen, supper, and leave for erased nights; restored history decides the date."
+
+#. employmentJobs.0.17.0.clause
+#: src/data/employment.js:380
+msgctxt "text:employmentJobs.0.17.0.clause"
+msgid "Nightwatch may fear youkai; fear itself is not eyewitness evidence."
+msgstr "Nightwatch may fear youkai; fear itself is not eyewitness evidence."
+
+#. employmentJobs.0.17.0.trial
+#: src/data/employment.js:381
+msgctxt "text:employmentJobs.0.17.0.trial"
+msgid ""
+"Verify “a bridge princess on the bridge” without escalating it to two "
+"incidents when she becomes jealous."
+msgstr ""
+"Verify “a bridge princess on the bridge” without escalating it to two "
+"incidents when she becomes jealous."
+
+#. employmentJobs.0.17.0.reply
+#: src/data/employment.js:382
+msgctxt "text:employmentJobs.0.17.0.reply"
+msgid ""
+"Nightwatch invites you tonight. Aya already praised last night's work; do "
+"not fabricate last night to match."
+msgstr ""
+"Nightwatch invites you tonight. Aya already praised last night's work; do "
+"not fabricate last night to match."
+
+#. employmentJobs.0.18.0.employer
+#: src/data/employment.js:388
+msgctxt "text:employmentJobs.0.18.0.employer"
+msgid "Hakurei Border Drift-Object & Moving-Gate Customs"
+msgstr "Hakurei Border Drift-Object & Moving-Gate Customs"
+
+#. employmentJobs.0.18.0.title
+#: src/data/employment.js:389
+msgctxt "text:employmentJobs.0.18.0.title"
+msgid "Moving-gate customs declarant"
+msgstr "Moving-gate customs declarant"
+
+#. employmentJobs.0.18.0.summary
+#: src/data/employment.js:396
+msgctxt "text:employmentJobs.0.18.0.summary"
+msgid ""
+"Before checking where an item came from, determine which side of the gate "
+"currently contains “where.”"
+msgstr ""
+"Before checking where an item came from, determine which side of the gate "
+"currently contains “where.”"
+
+#. employmentJobs.0.18.0.duty
+#: src/data/employment.js:397
+msgctxt "text:employmentJobs.0.18.0.duty"
+msgid ""
+"Register phones, umbrellas, and unclaimed degrees, recording Yukari's verbal "
+"exception without making it next time's precedent."
+msgstr ""
+"Register phones, umbrellas, and unclaimed degrees, recording Yukari's verbal "
+"exception without making it next time's precedent."
+
+#. employmentJobs.0.18.0.pay
+#: src/data/employment.js:398
+msgctxt "text:employmentJobs.0.18.0.pay"
+msgid "Yen, Outside trinkets, and one lawful crossing without destination guarantee."
+msgstr "Yen, Outside trinkets, and one lawful crossing without destination guarantee."
+
+#. employmentJobs.0.18.0.clause
+#: src/data/employment.js:399
+msgctxt "text:employmentJobs.0.18.0.clause"
+msgid ""
+"Customs is not liable if the gate moves during interview. Late applicants "
+"may show timely arrival on the other side."
+msgstr ""
+"Customs is not liable if the gate moves during interview. Late applicants "
+"may show timely arrival on the other side."
+
+#. employmentJobs.0.18.0.trial
+#: src/data/employment.js:400
+msgctxt "text:employmentJobs.0.18.0.trial"
+msgid "Clear an Outside umbrella without assuming it lacks its own travel purpose."
+msgstr "Clear an Outside umbrella without assuming it lacks its own travel purpose."
+
+#. employmentJobs.0.18.0.reply
+#: src/data/employment.js:401
+msgctxt "text:employmentJobs.0.18.0.reply"
+msgid ""
+"Yukari approves reporting through nonexistent Gate Three; Reimu adds “come "
+"through the front first.”"
+msgstr ""
+"Yukari approves reporting through nonexistent Gate Three; Reimu adds “come "
+"through the front first.”"
+
+#. employmentJobs.0.19.0.employer
+#: src/data/employment.js:407
+msgctxt "text:employmentJobs.0.19.0.employer"
+msgid "Moon Rabbit Yesterday-Line Shuttle"
+msgstr "Moon Rabbit Yesterday-Line Shuttle"
+
+#. employmentJobs.0.19.0.title
+#: src/data/employment.js:408
+msgctxt "text:employmentJobs.0.19.0.title"
+msgid "Yesterday-destination ticket & carriage attendant"
+msgstr "Yesterday-destination ticket & carriage attendant"
+
+#. employmentJobs.0.19.0.summary
+#: src/data/employment.js:415
+msgctxt "text:employmentJobs.0.19.0.summary"
+msgid ""
+"A ticket saying yesterday may not mean the passenger wants to return; the "
+"machine may lag the moon by one day."
+msgstr ""
+"A ticket saying yesterday may not mean the passenger wants to return; the "
+"machine may lag the moon by one day."
+
+#. employmentJobs.0.19.0.duty
+#: src/data/employment.js:416
+msgctxt "text:employmentJobs.0.19.0.duty"
+msgid ""
+"Inspect tickets, guide Reisen's low-gaze passengers, and find at least one "
+"rabbit from tomorrow during mass sick leave."
+msgstr ""
+"Inspect tickets, guide Reisen's low-gaze passengers, and find at least one "
+"rabbit from tomorrow during mass sick leave."
+
+#. employmentJobs.0.19.0.pay
+#: src/data/employment.js:417
+msgctxt "text:employmentJobs.0.19.0.pay"
+msgid ""
+"Highest of run, lunar phase, or actual arrivals. Yesterday Line does not pay "
+"minus one day's wage."
+msgstr ""
+"Highest of run, lunar phase, or actual arrivals. Yesterday Line does not pay "
+"minus one day's wage."
+
+#. employmentJobs.0.19.0.clause
+#: src/data/employment.js:418
+msgctxt "text:employmentJobs.0.19.0.clause"
+msgid "Crew may not correct a passenger's yesterday, only mark which yesterday boarded."
+msgstr "Crew may not correct a passenger's yesterday, only mark which yesterday boarded."
+
+#. employmentJobs.0.19.0.trial
+#: src/data/employment.js:419
+msgctxt "text:employmentJobs.0.19.0.trial"
+msgid "Transfer a tomorrow-ticket passenger today onto Yesterday Line without double charging."
+msgstr "Transfer a tomorrow-ticket passenger today onto Yesterday Line without double charging."
+
+#. employmentJobs.0.19.0.reply
+#: src/data/employment.js:420
+msgctxt "text:employmentJobs.0.19.0.reply"
+msgid ""
+"Your interview ticket was punched yesterday; if intact today, file a version "
+"dispute at the rabbit window."
+msgstr ""
+"Your interview ticket was punched yesterday; if intact today, file a version "
+"dispute at the rabbit window."
+
+#. employmentJobs.0.20.0.employer
+#: src/data/employment.js:426
+msgctxt "text:employmentJobs.0.20.0.employer"
+msgid "Tsukumogami Labour & Property Joint Desk"
+msgstr "Tsukumogami Labour & Property Joint Desk"
+
+#. employmentJobs.0.20.0.title
+#: src/data/employment.js:427
+msgctxt "text:employmentJobs.0.20.0.title"
+msgid "Tool, worker, or employer status conciliator"
+msgstr "Tool, worker, or employer status conciliator"
+
+#. employmentJobs.0.20.0.summary
+#: src/data/employment.js:434
+msgctxt "text:employmentJobs.0.20.0.summary"
+msgid ""
+"A wrench claims overtime, a drum performance rights, and a teacup the entire "
+"lounge; fill in the job title after hearing."
+msgstr ""
+"A wrench claims overtime, a drum performance rights, and a teacup the entire "
+"lounge; fill in the job title after hearing."
+
+#. employmentJobs.0.20.0.duty
+#: src/data/employment.js:435
+msgctxt "text:employmentJobs.0.20.0.duty"
+msgid ""
+"Seat objects, separate ownership from employment, and identify the exhibit "
+"when Kogasa testifies for an umbrella."
+msgstr ""
+"Seat objects, separate ownership from employment, and identify the exhibit "
+"when Kogasa testifies for an umbrella."
+
+#. employmentJobs.0.20.0.pay
+#: src/data/employment.js:436
+msgctxt "text:employmentJobs.0.20.0.pay"
+msgid ""
+"Yen and tribunal-approved tool access. A tool currently appealing may not be "
+"used as wages."
+msgstr ""
+"Yen and tribunal-approved tool access. A tool currently appealing may not be "
+"used as wages."
+
+#. employmentJobs.0.20.0.clause
+#: src/data/employment.js:437
+msgctxt "text:employmentJobs.0.20.0.clause"
+msgid "Your furniture may join negotiations; if it becomes a party, that day's meeting stands."
+msgstr "Your furniture may join negotiations; if it becomes a party, that day's meeting stands."
+
+#. employmentJobs.0.20.0.trial
+#: src/data/employment.js:438
+msgctxt "text:employmentJobs.0.20.0.trial"
+msgid "Hear wrench, workshop, and user separately without closing as “everyone has a point.”"
+msgstr "Hear wrench, workshop, and user separately without closing as “everyone has a point.”"
+
+#. employmentJobs.0.20.0.reply
+#: src/data/employment.js:439
+msgctxt "text:employmentJobs.0.20.0.reply"
+msgid ""
+"The tribunal confirms receipt; the application paper itself requests "
+"co-applicant status."
+msgstr ""
+"The tribunal confirms receipt; the application paper itself requests "
+"co-applicant status."
+
+#. employmentCategoryOptions.0.0.1
+#: src/data/employment.js:444
+msgctxt "text:employmentCategoryOptions.0.0.1"
+msgid "All trouble"
+msgstr "All trouble"
+
+#. employmentCategoryOptions.0.1.1
+#: src/data/employment.js:445
+msgctxt "text:employmentCategoryOptions.0.1.1"
+msgid "Household & banquets"
+msgstr "Household & banquets"
+
+#. employmentCategoryOptions.0.2.1
+#: src/data/employment.js:446
+msgctxt "text:employmentCategoryOptions.0.2.1"
+msgid "Workshops & cores"
+msgstr "Workshops & cores"
+
+#. employmentCategoryOptions.0.3.1
+#: src/data/employment.js:447
+msgctxt "text:employmentCategoryOptions.0.3.1"
+msgid "Archives & rolls"
+msgstr "Archives & rolls"
+
+#. employmentCategoryOptions.0.4.1
+#: src/data/employment.js:448
+msgctxt "text:employmentCategoryOptions.0.4.1"
+msgid "News & rumours"
+msgstr "News & rumours"
+
+#. employmentCategoryOptions.0.5.1
+#: src/data/employment.js:449
+msgctxt "text:employmentCategoryOptions.0.5.1"
+msgid "Care & handover"
+msgstr "Care & handover"
+
+#. employmentCategoryOptions.0.6.1
+#: src/data/employment.js:450
+msgctxt "text:employmentCategoryOptions.0.6.1"
+msgid "Faith & boundaries"
+msgstr "Faith & boundaries"
+
+#. employmentCategoryOptions.0.7.1
+#: src/data/employment.js:451
+msgctxt "text:employmentCategoryOptions.0.7.1"
+msgid "Mediation & property"
+msgstr "Mediation & property"
+
+#. employmentCategoryOptions.0.8.1
+#: src/data/employment.js:452
+msgctxt "text:employmentCategoryOptions.0.8.1"
+msgid "Ferries & Yesterday Line"
+msgstr "Ferries & Yesterday Line"
+
+#. employmentScheduleOptions.0.0.1
+#: src/data/employment.js:456
+msgctxt "text:employmentScheduleOptions.0.0.1"
+msgid "Any view of time"
+msgstr "Any view of time"
+
+#. employmentScheduleOptions.0.1.1
+#: src/data/employment.js:457
+msgctxt "text:employmentScheduleOptions.0.1.1"
+msgid "Day bells"
+msgstr "Day bells"
+
+#. employmentScheduleOptions.0.2.1
+#: src/data/employment.js:458
+msgctxt "text:employmentScheduleOptions.0.2.1"
+msgid "Dawn"
+msgstr "Dawn"
+
+#. employmentScheduleOptions.0.3.1
+#: src/data/employment.js:459
+msgctxt "text:employmentScheduleOptions.0.3.1"
+msgid "Pre-banquet dusk"
+msgstr "Pre-banquet dusk"
+
+#. employmentScheduleOptions.0.4.1
+#: src/data/employment.js:460
+msgctxt "text:employmentScheduleOptions.0.4.1"
+msgid "Night / underground"
+msgstr "Night / underground"
+
+#. employmentScheduleOptions.0.5.1
+#: src/data/employment.js:461
+msgctxt "text:employmentScheduleOptions.0.5.1"
+msgid "Lunar duty"
+msgstr "Lunar duty"
+
+#. employmentScheduleOptions.0.6.1
+#: src/data/employment.js:462
+msgctxt "text:employmentScheduleOptions.0.6.1"
+msgid "If the season arrives"
+msgstr "If the season arrives"
+
+#. employmentScheduleOptions.0.7.1
+#: src/data/employment.js:463
+msgctxt "text:employmentScheduleOptions.0.7.1"
+msgid "Afterlife hours"
+msgstr "Afterlife hours"
+
+#. employmentScheduleOptions.0.8.1
+#: src/data/employment.js:464
+msgctxt "text:employmentScheduleOptions.0.8.1"
+msgid "Non-linear time"
+msgstr "Non-linear time"
+
+#. employmentPayKinds.0.yen
+#: src/data/employment.js:468
+msgctxt "text:employmentPayKinds.0.yen"
+msgid "Village yen"
+msgstr "Village yen"
+
+#. employmentPayKinds.0.mixed
+#: src/data/employment.js:469
+msgctxt "text:employmentPayKinds.0.mixed"
+msgid "Mixed settlement"
+msgstr "Mixed settlement"
+
+#. employmentPayKinds.0.offerings
+#: src/data/employment.js:470
+msgctxt "text:employmentPayKinds.0.offerings"
+msgid "Offerings / in kind"
+msgstr "Offerings / in kind"
+
+#. employmentPayKinds.0.lodging
+#: src/data/employment.js:471
+msgctxt "text:employmentPayKinds.0.lodging"
+msgid "Room, board & extras"
+msgstr "Room, board & extras"
+
+#. employmentPayKinds.0.barter
+#: src/data/employment.js:472
+msgctxt "text:employmentPayKinds.0.barter"
+msgid "Unknown-use barter"
+msgstr "Unknown-use barter"
+
+#. employmentPayKinds.0.faith
+#: src/data/employment.js:473
+msgctxt "text:employmentPayKinds.0.faith"
+msgid "Yen / merit split"
+msgstr "Yen / merit split"
+
+#. employmentPayKinds.0.passage
+#: src/data/employment.js:474
+msgctxt "text:employmentPayKinds.0.passage"
+msgid "Passage & routes"
+msgstr "Passage & routes"
+
+#. employmentPayKinds.0.kind
+#: src/data/employment.js:475
+msgctxt "text:employmentPayKinds.0.kind"
+msgid "Goods & pocket money"
+msgstr "Goods & pocket money"
+
+#. employmentOutcomeKinds.0.wage.title
+#: src/data/employment.js:503
+msgctxt "text:employmentOutcomeKinds.0.wage.title"
+msgid "Paid by wage or run"
+msgstr "Paid by wage or run"
+
+#. employmentOutcomeKinds.0.wage.note
+#: src/data/employment.js:503
+msgctxt "text:employmentOutcomeKinds.0.wage.note"
+msgid "Excludes wages still undecided during stopped time."
+msgstr "Excludes wages still undecided during stopped time."
+
+#. employmentOutcomeKinds.0.household.title
+#: src/data/employment.js:504
+msgctxt "text:employmentOutcomeKinds.0.household.title"
+msgid "Room-board & household work"
+msgstr "Room-board & household work"
+
+#. employmentOutcomeKinds.0.household.note
+#: src/data/employment.js:504
+msgctxt "text:employmentOutcomeKinds.0.household.note"
+msgid "Having a bed does not establish rest time."
+msgstr "Having a bed does not establish rest time."
+
+#. employmentOutcomeKinds.0.barter.title
+#: src/data/employment.js:505
+msgctxt "text:employmentOutcomeKinds.0.barter.title"
+msgid "Paid in goods, faith, or use"
+msgstr "Paid in goods, faith, or use"
+
+#. employmentOutcomeKinds.0.barter.note
+#: src/data/employment.js:505
+msgctxt "text:employmentOutcomeKinds.0.barter.note"
+msgid "Six wage objects later requested property hearings."
+msgstr "Six wage objects later requested property hearings."
+
+#. employmentOutcomeKinds.0.research.title
+#: src/data/employment.js:506
+msgctxt "text:employmentOutcomeKinds.0.research.title"
+msgid "Research, teaching & archives"
+msgstr "Research, teaching & archives"
+
+#. employmentOutcomeKinds.0.research.note
+#: src/data/employment.js:506
+msgctxt "text:employmentOutcomeKinds.0.research.note"
+msgid "Two teach a make-up yesterday while marked absent by yesterday."
+msgstr "Two teach a make-up yesterday while marked absent by yesterday."
+
+#. employmentOutcomeKinds.0.afterlife.title
+#: src/data/employment.js:507
+msgctxt "text:employmentOutcomeKinds.0.afterlife.title"
+msgid "Employed after death / waitlisted before"
+msgstr "Employed after death / waitlisted before"
+
+#. employmentOutcomeKinds.0.afterlife.note
+#: src/data/employment.js:507
+msgctxt "text:employmentOutcomeKinds.0.afterlife.note"
+msgid "Eiki rejects death as an automatic separation date."
+msgstr "Eiki rejects death as an automatic separation date."
+
+#. employmentOutcomeKinds.0.incident.title
+#: src/data/employment.js:508
+msgctxt "text:employmentOutcomeKinds.0.incident.title"
+msgid "Job became an incident first"
+msgstr "Job became an incident first"
+
+#. employmentOutcomeKinds.0.incident.note
+#: src/data/employment.js:508
+msgctxt "text:employmentOutcomeKinds.0.incident.note"
+msgid "Three kept paying; one filed mediation against its wage."
+msgstr "Three kept paying; one filed mediation against its wage."
+
+#. employmentOutcomeKinds.0.multiple.title
+#: src/data/employment.js:509
+msgctxt "text:employmentOutcomeKinds.0.multiple.title"
+msgid "Claimed by two employers"
+msgstr "Claimed by two employers"
+
+#. employmentOutcomeKinds.0.multiple.note
+#: src/data/employment.js:509
+msgctxt "text:employmentOutcomeKinds.0.multiple.note"
+msgid "Excludes separate body-and-soul check-ins for half-phantoms."
+msgstr "Excludes separate body-and-soul check-ins for half-phantoms."
+
+#. employmentOutcomeKinds.0.unobserved.title
+#: src/data/employment.js:510
+msgctxt "text:employmentOutcomeKinds.0.unobserved.title"
+msgid "Not missing; presently unobservable"
+msgstr "Not missing; presently unobservable"
+
+#. employmentOutcomeKinds.0.unobserved.note
+#: src/data/employment.js:510
+msgctxt "text:employmentOutcomeKinds.0.unobserved.note"
+msgid "Yukari requires “presently” beside every statistic."
+msgstr "Yukari requires “presently” beside every statistic."
+
+#. employmentCountBases.0.person.title
+#: src/data/employment.js:514
+msgctxt "text:employmentCountBases.0.person.title"
+msgid "By person"
+msgstr "By person"
+
+#. employmentCountBases.0.person.note
+#: src/data/employment.js:514
+msgctxt "text:employmentCountBases.0.person.note"
+msgid "University roll; half-phantoms provisionally count once."
+msgstr "University roll; half-phantoms provisionally count once."
+
+#. employmentCountBases.0.body.title
+#: src/data/employment.js:515
+msgctxt "text:employmentCountBases.0.body.title"
+msgid "By work-capable body"
+msgstr "By work-capable body"
+
+#. employmentCountBases.0.body.note
+#: src/data/employment.js:515
+msgctxt "text:employmentCountBases.0.body.note"
+msgid "Ghosts, dream workers, and remote dolls object."
+msgstr "Ghosts, dream workers, and remote dolls object."
+
+#. employmentCountBases.0.soul.title
+#: src/data/employment.js:516
+msgctxt "text:employmentCountBases.0.soul.title"
+msgid "By soul or mind"
+msgstr "By soul or mind"
+
+#. employmentCountBases.0.soul.note
+#: src/data/employment.js:516
+msgctxt "text:employmentCountBases.0.soul.note"
+msgid "Half-phantom and tsukumogami seats rise; shell employers refuse subtraction."
+msgstr "Half-phantom and tsukumogami seats rise; shell employers refuse subtraction."
+
+#. employmentCountBases.0.name.title
+#: src/data/employment.js:517
+msgctxt "text:employmentCountBases.0.name.title"
+msgid "By registered name"
+msgstr "By registered name"
+
+#. employmentCountBases.0.name.note
+#: src/data/employment.js:517
+msgctxt "text:employmentCountBases.0.name.note"
+msgid "Renamings, same-name fairies, and a self-applying form count separately."
+msgstr "Renamings, same-name fairies, and a self-applying form count separately."
+
+#. employmentCountBases.0.employer.title
+#: src/data/employment.js:518
+msgctxt "text:employmentCountBases.0.employer.title"
+msgid "By employer claim"
+msgstr "By employer claim"
+
+#. employmentCountBases.0.employer.note
+#: src/data/employment.js:518
+msgctxt "text:employmentCountBases.0.employer.note"
+msgid "Remilia pre-claims fate has already hired twenty-three."
+msgstr "Remilia pre-claims fate has already hired twenty-three."
+
+#. employmentObservationWindows.0.noon.title
+#: src/data/employment.js:522
+msgctxt "text:employmentObservationWindows.0.noon.title"
+msgid "Noon roll"
+msgstr "Noon roll"
+
+#. employmentObservationWindows.0.noon.note
+#: src/data/employment.js:522
+msgctxt "text:employmentObservationWindows.0.noon.note"
+msgid "Night, ghost, and vampire shifts undercount."
+msgstr "Night, ghost, and vampire shifts undercount."
+
+#. employmentObservationWindows.0.full-moon.title
+#: src/data/employment.js:523
+msgctxt "text:employmentObservationWindows.0.full-moon.title"
+msgid "Full-moon handover"
+msgstr "Full-moon handover"
+
+#. employmentObservationWindows.0.full-moon.note
+#: src/data/employment.js:523
+msgctxt "text:employmentObservationWindows.0.full-moon.note"
+msgid "Rabbit absences, werewolf overtime, and Eientei relief coincide."
+msgstr "Rabbit absences, werewolf overtime, and Eientei relief coincide."
+
+#. employmentObservationWindows.0.higan.title
+#: src/data/employment.js:524
+msgctxt "text:employmentObservationWindows.0.higan.title"
+msgid "After Higan week"
+msgstr "After Higan week"
+
+#. employmentObservationWindows.0.higan.note
+#: src/data/employment.js:524
+msgctxt "text:employmentObservationWindows.0.higan.note"
+msgid "Posthumous work becomes visible; punctual arrivals have not arrived."
+msgstr "Posthumous work becomes visible; punctual arrivals have not arrived."
+
+#. employmentObservationWindows.0.erased-wednesday.title
+#: src/data/employment.js:525
+msgctxt "text:employmentObservationWindows.0.erased-wednesday.title"
+msgid "Erased Wednesday"
+msgstr "Erased Wednesday"
+
+#. employmentObservationWindows.0.erased-wednesday.note
+#: src/data/employment.js:525
+msgctxt "text:employmentObservationWindows.0.erased-wednesday.note"
+msgid "Every denominator retains an absence-shaped hole."
+msgstr "Every denominator retains an absence-shaped hole."
+
+#. employmentObservationWindows.0.border.title
+#: src/data/employment.js:526
+msgctxt "text:employmentObservationWindows.0.border.title"
+msgid "After the border swaps sides"
+msgstr "After the border swaps sides"
+
+#. employmentObservationWindows.0.border.note
+#: src/data/employment.js:526
+msgctxt "text:employmentObservationWindows.0.border.note"
+msgid "Outside and Gensokyo jobs each call the other remote."
+msgstr "Outside and Gensokyo jobs each call the other remote."
+
+#. employmentApplicationDecisions.0.interview.title
+#: src/data/employment.js:533
+msgctxt "text:employmentApplicationDecisions.0.interview.title"
+msgid "Interview"
+msgstr "Interview"
+
+#. employmentApplicationDecisions.0.interview.note
+#: src/data/employment.js:534
+msgctxt "text:employmentApplicationDecisions.0.interview.note"
+msgid "The employer wants your uncrossable line in your own words."
+msgstr "The employer wants your uncrossable line in your own words."
+
+#. employmentApplicationDecisions.0.trial.title
+#: src/data/employment.js:539
+msgctxt "text:employmentApplicationDecisions.0.trial.title"
+msgid "One-shift trial"
+msgstr "One-shift trial"
+
+#. employmentApplicationDecisions.0.trial.note
+#: src/data/employment.js:540
+msgctxt "text:employmentApplicationDecisions.0.trial.note"
+msgid "The trial has a receipt and must have an exit even if time stops."
+msgstr "The trial has a receipt and must have an exit even if time stops."
+
+#. employmentApplicationDecisions.0.correction.title
+#: src/data/employment.js:545
+msgctxt "text:employmentApplicationDecisions.0.correction.title"
+msgid "Odd-résumé correction requested"
+msgstr "Odd-résumé correction requested"
+
+#. employmentApplicationDecisions.0.correction.note
+#: src/data/employment.js:546
+msgctxt "text:employmentApplicationDecisions.0.correction.note"
+msgid "Not rejection; the employer disputes listing “being chased” as logistics."
+msgstr "Not rejection; the employer disputes listing “being chased” as logistics."
+
+#. employmentApplicationDecisions.0.adjacent-offer.title
+#: src/data/employment.js:551
+msgctxt "text:employmentApplicationDecisions.0.adjacent-offer.title"
+msgid "Hired in an adjacent timeline"
+msgstr "Hired in an adjacent timeline"
+
+#. employmentApplicationDecisions.0.adjacent-offer.note
+#: src/data/employment.js:552
+msgctxt "text:employmentApplicationDecisions.0.adjacent-offer.note"
+msgid "No wage reached this page; adjacent-you is already complaining about shifts."
+msgstr "No wage reached this page; adjacent-you is already complaining about shifts."
+
+#. employmentApplicationDecisions.0.mutual-refusal.title
+#: src/data/employment.js:557
+msgctxt "text:employmentApplicationDecisions.0.mutual-refusal.title"
+msgid "Mutual refusal retained"
+msgstr "Mutual refusal retained"
+
+#. employmentApplicationDecisions.0.mutual-refusal.note
+#: src/data/employment.js:558
+msgctxt "text:employmentApplicationDecisions.0.mutual-refusal.note"
+msgid "Not failure: you and the employer agree on what cannot be accepted."
+msgstr "Not failure: you and the employer agree on what cannot be accepted."

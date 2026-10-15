@@ -1,0 +1,576 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. housingFacets.roomTypes.single
+#: src/data/housing.js:5
+msgctxt "text:housingFacets.roomTypes.single"
+msgid "Single"
+msgstr "Single"
+
+#. housingFacets.roomTypes.twin
+#: src/data/housing.js:6
+msgctxt "text:housingFacets.roomTypes.twin"
+msgid "Twin"
+msgstr "Twin"
+
+#. housingFacets.roomTypes.cluster
+#: src/data/housing.js:7
+msgctxt "text:housingFacets.roomTypes.cluster"
+msgid "Three-person cluster"
+msgstr "Three-person cluster"
+
+#. housingFacets.features.moonShield
+#: src/data/housing.js:10
+msgctxt "text:housingFacets.features.moonShield"
+msgid "Moon screen & low-stimulus lamps"
+msgstr "Moon screen & low-stimulus lamps"
+
+#. housingFacets.features.waterAccess
+#: src/data/housing.js:11
+msgctxt "text:housingFacets.features.waterAccess"
+msgid "Indoor channel / waterside deck"
+msgstr "Indoor channel / waterside deck"
+
+#. housingFacets.features.wideFlight
+#: src/data/housing.js:12
+msgctxt "text:housingFacets.features.wideFlight"
+msgid "Wide-span flight gallery"
+msgstr "Wide-span flight gallery"
+
+#. housingFacets.features.broomRack
+#: src/data/housing.js:13
+msgctxt "text:housingFacets.features.broomRack"
+msgid "Broom & flight rack"
+msgstr "Broom & flight rack"
+
+#. housingFacets.features.phaseMarked
+#: src/data/housing.js:14
+msgctxt "text:housingFacets.features.phaseMarked"
+msgid "Wall-passage markings"
+msgstr "Wall-passage markings"
+
+#. housingFacets.features.familiarBay
+#: src/data/housing.js:15
+msgctxt "text:housingFacets.features.familiarBay"
+msgid "Familiar bay"
+msgstr "Familiar bay"
+
+#. housingFacets.features.quietWard
+#: src/data/housing.js:16
+msgctxt "text:housingFacets.features.quietWard"
+msgid "Night quiet ward"
+msgstr "Night quiet ward"
+
+#. housingFacets.features.workshop
+#: src/data/housing.js:17
+msgctxt "text:housingFacets.features.workshop"
+msgid "Blast-resistant workbench"
+msgstr "Blast-resistant workbench"
+
+#. housingFacets.features.kitchen
+#: src/data/housing.js:18
+msgctxt "text:housingFacets.features.kitchen"
+msgid "Shared kitchenette"
+msgstr "Shared kitchenette"
+
+#. housingFacets.features.garden
+#: src/data/housing.js:19
+msgctxt "text:housingFacets.features.garden"
+msgid "Herb and sun garden"
+msgstr "Herb and sun garden"
+
+#. residences.hakurei-east.name
+#: src/data/housing.js:27
+msgctxt "text:residences.hakurei-east.name"
+msgid "Hakurei East Hall"
+msgstr "Hakurei East Hall"
+
+#. residences.hakurei-east.area
+#: src/data/housing.js:28
+msgctxt "text:residences.hakurei-east.area"
+msgid "Old approach beyond Hakurei Gate"
+msgstr "Old approach beyond Hakurei Gate"
+
+#. residences.hakurei-east.description
+#: src/data/housing.js:29
+msgctxt "text:residences.hakurei-east.description"
+msgid ""
+"A timber hall joined from two former pilgrim inns, closest to the common "
+"lecture rooms. In rain, one eave leaks in a perfectly straight line; the "
+"hall council calls it a natural clock."
+msgstr ""
+"A timber hall joined from two former pilgrim inns, closest to the common "
+"lecture rooms. In rain, one eave leaks in a perfectly straight line; the "
+"hall council calls it a natural clock."
+
+#. residences.hakurei-east.warden
+#: src/data/housing.js:30
+msgctxt "text:residences.hakurei-east.warden"
+msgid "Warden: Reimu Hakurei (physically present about two days a week)"
+msgstr "Warden: Reimu Hakurei (physically present about two days a week)"
+
+#. residences.hakurei-east.notice
+#: src/data/housing.js:31
+msgctxt "text:residences.hakurei-east.notice"
+msgid ""
+"The donation box is not the laundry payment slot. Last week’s three coins "
+"will not be returned."
+msgstr ""
+"The donation box is not the laundry payment slot. Last week’s three coins "
+"will not be returned."
+
+#. residences.hakurei-east.distance
+#: src/data/housing.js:32
+msgctxt "text:residences.hakurei-east.distance"
+msgid "4 min walk to Common Hall"
+msgstr "4 min walk to Common Hall"
+
+#. residences.misty-north.name
+#: src/data/housing.js:38
+msgctxt "text:residences.misty-north.name"
+msgid "Misty Lake North Hall"
+msgstr "Misty Lake North Hall"
+
+#. residences.misty-north.area
+#: src/data/housing.js:39
+msgctxt "text:residences.misty-north.area"
+msgid "North shore, behind the library"
+msgstr "North shore, behind the library"
+
+#. residences.misty-north.description
+#: src/data/housing.js:40
+msgctxt "text:residences.misty-north.description"
+msgid ""
+"Half rests on shore and half on kappa piles over the lake. Aquatic residents "
+"may enter through the lower water gate; terrestrial residents must remember "
+"which doors genuinely have floors beneath them."
+msgstr ""
+"Half rests on shore and half on kappa piles over the lake. Aquatic residents "
+"may enter through the lower water gate; terrestrial residents must remember "
+"which doors genuinely have floors beneath them."
+
+#. residences.misty-north.warden
+#: src/data/housing.js:41
+msgctxt "text:residences.misty-north.warden"
+msgid "Warden: Daiyousei / Maintenance: Kappa Water Crew Six"
+msgstr "Warden: Daiyousei / Maintenance: Kappa Water Crew Six"
+
+#. residences.misty-north.notice
+#: src/data/housing.js:42
+msgctxt "text:residences.misty-north.notice"
+msgid ""
+"No test flights on the bridge after midnight. Vampires do not qualify for "
+"the bird exception."
+msgstr ""
+"No test flights on the bridge after midnight. Vampires do not qualify for "
+"the bird exception."
+
+#. residences.misty-north.distance
+#: src/data/housing.js:43
+msgctxt "text:residences.misty-north.distance"
+msgid "2 min walk to Misty Lake Library"
+msgstr "2 min walk to Misty Lake Library"
+
+#. residences.bamboo-lantern.name
+#: src/data/housing.js:49
+msgctxt "text:residences.bamboo-lantern.name"
+msgid "Bamboo Lantern Hall"
+msgstr "Bamboo Lantern Hall"
+
+#. residences.bamboo-lantern.area
+#: src/data/housing.js:50
+msgctxt "text:residences.bamboo-lantern.area"
+msgid "Past the fourth blue lantern, Bamboo Forest"
+msgstr "Past the fourth blue lantern, Bamboo Forest"
+
+#. residences.bamboo-lantern.description
+#: src/data/housing.js:51
+msgctxt "text:residences.bamboo-lantern.description"
+msgid ""
+"A night residence jointly managed with Eientei, with moon screens, herb "
+"gardens, and the last rabbit shuttle. The fourth lantern sometimes claims to "
+"be the third; lateness slips require two rabbit signatures."
+msgstr ""
+"A night residence jointly managed with Eientei, with moon screens, herb "
+"gardens, and the last rabbit shuttle. The fourth lantern sometimes claims to "
+"be the third; lateness slips require two rabbit signatures."
+
+#. residences.bamboo-lantern.warden
+#: src/data/housing.js:52
+msgctxt "text:residences.bamboo-lantern.warden"
+msgid "Warden: Reisen Udongein Inaba / Night rota: allegedly arranged by Tewi"
+msgstr "Warden: Reisen Udongein Inaba / Night rota: allegedly arranged by Tewi"
+
+#. residences.bamboo-lantern.notice
+#: src/data/housing.js:53
+msgctxt "text:residences.bamboo-lantern.notice"
+msgid ""
+"For three nights around the full moon, the east lounge becomes low-stimulus. "
+"Card-game noises are not medical alarms."
+msgstr ""
+"For three nights around the full moon, the east lounge becomes low-stimulus. "
+"Card-game noises are not medical alarms."
+
+#. residences.bamboo-lantern.distance
+#: src/data/housing.js:54
+msgctxt "text:residences.bamboo-lantern.distance"
+msgid "6 min walk / 3 min rabbit shuttle to Eientei"
+msgstr "6 min walk / 3 min rabbit shuttle to Eientei"
+
+#. residences.youkai-workshop.name
+#: src/data/housing.js:60
+msgctxt "text:residences.youkai-workshop.name"
+msgid "Youkai Mountain Workshop Hall"
+msgstr "Youkai Mountain Workshop Hall"
+
+#. residences.youkai-workshop.area
+#: src/data/housing.js:61
+msgctxt "text:residences.youkai-workshop.area"
+msgid "Old cable station, mid-mountain"
+msgstr "Old cable station, mid-mountain"
+
+#. residences.youkai-workshop.description
+#: src/data/housing.js:62
+msgctxt "text:residences.youkai-workshop.description"
+msgid ""
+"Built from an abandoned cable station, two Outside freight cars, and one "
+"pipe still in service. The workshop floor is open all day; after any "
+"explosion, place the “planned / unplanned” label correctly."
+msgstr ""
+"Built from an abandoned cable station, two Outside freight cars, and one "
+"pipe still in service. The workshop floor is open all day; after any "
+"explosion, place the “planned / unplanned” label correctly."
+
+#. residences.youkai-workshop.warden
+#: src/data/housing.js:63
+msgctxt "text:residences.youkai-workshop.warden"
+msgid "Warden: Nitori Kawashiro / Actual key holders: at least nine"
+msgstr "Warden: Nitori Kawashiro / Actual key holders: at least nine"
+
+#. residences.youkai-workshop.notice
+#: src/data/housing.js:64
+msgctxt "text:residences.youkai-workshop.notice"
+msgid ""
+"The north stair remains repaired with kappa tape. “It lasted 130 days” is "
+"not permanent certification."
+msgstr ""
+"The north stair remains repaired with kappa tape. “It lasted 130 days” is "
+"not permanent certification."
+
+#. residences.youkai-workshop.distance
+#: src/data/housing.js:65
+msgctxt "text:residences.youkai-workshop.distance"
+msgid "5 min by windway / 19 min on foot to Engineering"
+msgstr "5 min by windway / 19 min on foot to Engineering"
+
+#. residences.boundary-annex.name
+#: src/data/housing.js:71
+msgctxt "text:residences.boundary-annex.name"
+msgid "Boundary Annex"
+msgstr "Boundary Annex"
+
+#. residences.boundary-annex.area
+#: src/data/housing.js:72
+msgctxt "text:residences.boundary-annex.area"
+msgid "West of Main Hall, behind its address"
+msgstr "West of Main Hall, behind its address"
+
+#. residences.boundary-annex.description
+#: src/data/housing.js:73
+msgctxt "text:residences.boundary-annex.description"
+msgid ""
+"It appears three storeys from the front and occasionally four from the rear "
+"door. Wall-passage markings, a lost-property return seam, and a "
+"cross-time-zone kitchen are “provisionally recognised”; the room areas still "
+"refuse to add up."
+msgstr ""
+"It appears three storeys from the front and occasionally four from the rear "
+"door. Wall-passage markings, a lost-property return seam, and a "
+"cross-time-zone kitchen are “provisionally recognised”; the room areas still "
+"refuse to add up."
+
+#. residences.boundary-annex.warden
+#: src/data/housing.js:74
+msgctxt "text:residences.boundary-annex.warden"
+msgid "Warden: Ran Yakumo / Room-number consultant: Yukari Yakumo (uninvited)"
+msgstr "Warden: Ran Yakumo / Room-number consultant: Yukari Yakumo (uninvited)"
+
+#. residences.boundary-annex.notice
+#: src/data/housing.js:75
+msgctxt "text:residences.boundary-annex.notice"
+msgid ""
+"Do not pass through walls marked with a red X. If the X is on the other "
+"side, apply from that side first."
+msgstr ""
+"Do not pass through walls marked with a red X. If the X is on the other "
+"side, apply from that side first."
+
+#. residences.boundary-annex.distance
+#: src/data/housing.js:76
+msgctxt "text:residences.boundary-annex.distance"
+msgid "3 min to My TU desk (within the same date)"
+msgstr "3 min to My TU desk (within the same date)"
+
+#. roommateProfiles.sumire.name
+#: src/data/housing.js:98
+msgctxt "text:roommateProfiles.sumire.name"
+msgid "Sumire Suzuniwa"
+msgstr "Sumire Suzuniwa"
+
+#. roommateProfiles.sumire.kind
+#: src/data/housing.js:98
+msgctxt "text:roommateProfiles.sumire.kind"
+msgid "Human"
+msgstr "Human"
+
+#. roommateProfiles.sumire.school
+#: src/data/housing.js:99
+msgctxt "text:roommateProfiles.sumire.school"
+msgid "History & Records · Year 2"
+msgstr "History & Records · Year 2"
+
+#. roommateProfiles.sumire.bio
+#: src/data/housing.js:100
+msgctxt "text:roommateProfiles.sumire.bio"
+msgid ""
+"A terakoya-trained campus-paper proofreader. Sleeps early, then posts "
+"yesterday’s typos on the door at dawn."
+msgstr ""
+"A terakoya-trained campus-paper proofreader. Sleeps early, then posts "
+"yesterday’s typos on the door at dawn."
+
+#. roommateProfiles.rin.name
+#: src/data/housing.js:104
+msgctxt "text:roommateProfiles.rin.name"
+msgid "Rin Hino"
+msgstr "Rin Hino"
+
+#. roommateProfiles.rin.kind
+#: src/data/housing.js:104
+msgctxt "text:roommateProfiles.rin.kind"
+msgid "Youkai beast"
+msgstr "Youkai beast"
+
+#. roommateProfiles.rin.school
+#: src/data/housing.js:105
+msgctxt "text:roommateProfiles.rin.school"
+msgid "Faith & Coexistence · Year 1"
+msgstr "Faith & Coexistence · Year 1"
+
+#. roommateProfiles.rin.bio
+#: src/data/housing.js:106
+msgctxt "text:roommateProfiles.rin.bio"
+msgid ""
+"Runs lost-property exchanges between shrine, temple, and mausoleum events. "
+"Her tiny fire mouse regards socks as public resources."
+msgstr ""
+"Runs lost-property exchanges between shrine, temple, and mausoleum events. "
+"Her tiny fire mouse regards socks as public resources."
+
+#. roommateProfiles.nagi.name
+#: src/data/housing.js:110
+msgctxt "text:roommateProfiles.nagi.name"
+msgid "Nagi Mizua"
+msgstr "Nagi Mizua"
+
+#. roommateProfiles.nagi.kind
+#: src/data/housing.js:110
+msgctxt "text:roommateProfiles.nagi.kind"
+msgid "Kappa"
+msgstr "Kappa"
+
+#. roommateProfiles.nagi.school
+#: src/data/housing.js:111
+msgctxt "text:roommateProfiles.nagi.school"
+msgid "Kappa Engineering · Year 3"
+msgstr "Kappa Engineering · Year 3"
+
+#. roommateProfiles.nagi.bio
+#: src/data/housing.js:112
+msgctxt "text:roommateProfiles.nagi.bio"
+msgid ""
+"Maintains the lower water gate and sleeps according to water pressure. Every "
+"strange shower noise becomes a maintenance ticket."
+msgstr ""
+"Maintains the lower water gate and sleeps according to water pressure. Every "
+"strange shower noise becomes a maintenance ticket."
+
+#. roommateProfiles.lumi.name
+#: src/data/housing.js:116
+msgctxt "text:roommateProfiles.lumi.name"
+msgid "Lumi Twilight"
+msgstr "Lumi Twilight"
+
+#. roommateProfiles.lumi.kind
+#: src/data/housing.js:116
+msgctxt "text:roommateProfiles.lumi.kind"
+msgid "Night sparrow"
+msgstr "Night sparrow"
+
+#. roommateProfiles.lumi.school
+#: src/data/housing.js:117
+msgctxt "text:roommateProfiles.lumi.school"
+msgid "Tengu Journalism · Year 1"
+msgstr "Tengu Journalism · Year 1"
+
+#. roommateProfiles.lumi.bio
+#: src/data/housing.js:118
+msgctxt "text:roommateProfiles.lumi.bio"
+msgid ""
+"Records lakeside soundscapes after midnight and sleeps by day. Promises her "
+"singing never passes the fourth corridor lamp; the method is unpublished."
+msgstr ""
+"Records lakeside soundscapes after midnight and sleeps by day. Promises her "
+"singing never passes the fourth corridor lamp; the method is unpublished."
+
+#. roommateProfiles.tsukino.name
+#: src/data/housing.js:122
+msgctxt "text:roommateProfiles.tsukino.name"
+msgid "Sumi Tsukino"
+msgstr "Sumi Tsukino"
+
+#. roommateProfiles.tsukino.kind
+#: src/data/housing.js:122
+msgctxt "text:roommateProfiles.tsukino.kind"
+msgid "Moon rabbit"
+msgstr "Moon rabbit"
+
+#. roommateProfiles.tsukino.school
+#: src/data/housing.js:123
+msgctxt "text:roommateProfiles.tsukino.school"
+msgid "Lunar Medicine & Life · Year 2"
+msgstr "Lunar Medicine & Life · Year 2"
+
+#. roommateProfiles.tsukino.bio
+#: src/data/housing.js:124
+msgctxt "text:roommateProfiles.tsukino.bio"
+msgid ""
+"Works Eientei night-clinic rotations and is sensitive to full moons and high "
+"frequencies. Her medicine box is arranged precisely enough to reveal who "
+"moved anything one notch."
+msgstr ""
+"Works Eientei night-clinic rotations and is sensitive to full moons and high "
+"frequencies. Her medicine box is arranged precisely enough to reveal who "
+"moved anything one notch."
+
+#. roommateProfiles.kuroha.name
+#: src/data/housing.js:128
+msgctxt "text:roommateProfiles.kuroha.name"
+msgid "Hayate Kuroha"
+msgstr "Hayate Kuroha"
+
+#. roommateProfiles.kuroha.kind
+#: src/data/housing.js:128
+msgctxt "text:roommateProfiles.kuroha.kind"
+msgid "Crow tengu"
+msgstr "Crow tengu"
+
+#. roommateProfiles.kuroha.school
+#: src/data/housing.js:129
+msgctxt "text:roommateProfiles.kuroha.school"
+msgid "Tengu Journalism · Year 3"
+msgstr "Tengu Journalism · Year 3"
+
+#. roommateProfiles.kuroha.bio
+#: src/data/housing.js:130
+msgctxt "text:roommateProfiles.kuroha.bio"
+msgid ""
+"A morning-paper photographer with a wide wingspan. His alarm is a dive past "
+"the window. He will not photograph roommates unless they become a public "
+"incident."
+msgstr ""
+"A morning-paper photographer with a wide wingspan. His alarm is a dive past "
+"the window. He will not photograph roommates unless they become a public "
+"incident."
+
+#. roommateProfiles.suzu.name
+#: src/data/housing.js:134
+msgctxt "text:roommateProfiles.suzu.name"
+msgid "Suzu Kawase"
+msgstr "Suzu Kawase"
+
+#. roommateProfiles.suzu.kind
+#: src/data/housing.js:134
+msgctxt "text:roommateProfiles.suzu.kind"
+msgid "Kappa"
+msgstr "Kappa"
+
+#. roommateProfiles.suzu.school
+#: src/data/housing.js:135
+msgctxt "text:roommateProfiles.suzu.school"
+msgid "Kappa Engineering · Year 2"
+msgstr "Kappa Engineering · Year 2"
+
+#. roommateProfiles.suzu.bio
+#: src/data/housing.js:136
+msgctxt "text:roommateProfiles.suzu.bio"
+msgid ""
+"Studies how leaks become secondary output. Her room is immaculate because "
+"every unclassified object is temporarily stored in the corridor."
+msgstr ""
+"Studies how leaks become secondary output. Her room is immaculate because "
+"every unclassified object is temporarily stored in the corridor."
+
+#. roommateProfiles.matoi.name
+#: src/data/housing.js:140
+msgctxt "text:roommateProfiles.matoi.name"
+msgid "Matoi Sakaime"
+msgstr "Matoi Sakaime"
+
+#. roommateProfiles.matoi.kind
+#: src/data/housing.js:140
+msgctxt "text:roommateProfiles.matoi.kind"
+msgid "Gap youkai"
+msgstr "Gap youkai"
+
+#. roommateProfiles.matoi.school
+#: src/data/housing.js:141
+msgctxt "text:roommateProfiles.matoi.school"
+msgid "Boundaries & Incidents · Year 3"
+msgstr "Boundaries & Incidents · Year 3"
+
+#. roommateProfiles.matoi.bio
+#: src/data/housing.js:142
+msgctxt "text:roommateProfiles.matoi.bio"
+msgid ""
+"Returns lost property through wall seams and never opens doors. Claims "
+"knocking before phasing is equivalent to knocking on a door; the hall "
+"council has not voted."
+msgstr ""
+"Returns lost property through wall seams and never opens doors. Claims "
+"knocking before phasing is equivalent to knocking on a door; the hall "
+"council has not voted."
+
+#. roommateProfiles.chiya.name
+#: src/data/housing.js:146
+msgctxt "text:roommateProfiles.chiya.name"
+msgid "Chacha Senya"
+msgstr "Chacha Senya"
+
+#. roommateProfiles.chiya.kind
+#: src/data/housing.js:146
+msgctxt "text:roommateProfiles.chiya.kind"
+msgid "Tsukumogami"
+msgstr "Tsukumogami"
+
+#. roommateProfiles.chiya.school
+#: src/data/housing.js:147
+msgctxt "text:roommateProfiles.chiya.school"
+msgid "History & Records · Year 1"
+msgstr "History & Records · Year 1"
+
+#. roommateProfiles.chiya.bio
+#: src/data/housing.js:148
+msgctxt "text:roommateProfiles.chiya.bio"
+msgid ""
+"Formerly a teahouse bench, now a collector of Outside cups. Personally "
+"quiet, though familiars and cups fill every sill."
+msgstr ""
+"Formerly a teahouse bench, now a collector of Outside cups. Personally "
+"quiet, though familiars and cups fill every sill."

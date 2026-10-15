@@ -1,0 +1,566 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/employment.js:42
+msgctxt "tree:copy#/eyebrow"
+msgid "GENSOKYO EMPLOYMENT MARKET / FOR THOSE LEAVING WITH PROBLEMS"
+msgstr "GENSOKYO EMPLOYMENT MARKET / 離校後も問題を抱える者へ"
+
+#. copy/title
+#: src/js/employment.js:42
+msgctxt "tree:copy#/title"
+msgid "We do not publish one flattering employment rate. First declare how you counted."
+msgstr "見栄えのよい就職率は公表しない。まず、どう数えるかを書いてください。"
+
+#. copy/lead
+#: src/js/employment.js:42
+msgctxt "tree:copy#/lead"
+msgid ""
+"Is a half-phantom one graduate, two, or one and a half? Is posthumous Sanzu "
+"duty retention or pre-reincarnation unemployment? If work becomes an "
+"incident first, is it work or incident? Careers preserves denominators, "
+"testimony, and objections while the notice rack continues hiring."
+msgstr "半霊は一名、二名、一名半か。死後も三途川で勤務中なら在職か転生前失業か。仕事が先に異変化した場合は職か異変か。進路室は分母・証言・反対意見を残し、求人棚は通常どおり人を募る。"
+
+#. copy/jobs
+#: src/js/employment.js:42
+msgctxt "tree:copy#/jobs"
+msgid "notices still hiring"
+msgstr "件の募集中掲示"
+
+#. copy/applications
+#: src/js/employment.js:42
+msgctxt "tree:copy#/applications"
+msgid "odd résumés dispatched"
+msgstr "通の怪歴書を発送"
+
+#. copy/attestations
+#: src/js/employment.js:42
+msgctxt "tree:copy#/attestations"
+msgid "on-device whereabouts statements"
+msgstr "件の端末内進路証言"
+
+#. copy/outcomesNav
+#: src/js/employment.js:42
+msgctxt "tree:copy#/outcomesNav"
+msgid "Whereabouts Echo Roll"
+msgstr "離校先反響簿"
+
+#. copy/marketNav
+#: src/js/employment.js:42
+msgctxt "tree:copy#/marketNav"
+msgid "Recruitment Notice Rack"
+msgstr "求人掲示棚"
+
+#. copy/recordsNav
+#: src/js/employment.js:42
+msgctxt "tree:copy#/recordsNav"
+msgid "My applications & replies"
+msgstr "自分の応募と返事"
+
+#. copy/censusEyebrow
+#: src/js/employment.js:42
+msgctxt "tree:copy#/censusEyebrow"
+msgid "COHORT 146 / DENOMINATOR HEARING"
+msgstr "COHORT 146 / 分母聴聞"
+
+#. copy/censusTitle
+#: src/js/employment.js:42
+msgctxt "tree:copy#/censusTitle"
+msgid "One graduating cohort produces a different Gensokyo under every counting rule."
+msgstr "同じ卒業期でも、数え方ごとに別の幻想郷になる。"
+
+#. copy/censusLead
+#: src/js/employment.js:42
+msgctxt "tree:copy#/censusLead"
+msgid ""
+"The categories may overlap, so their sum intentionally differs from the "
+"denominator. Akyuu keeps overlap, Keine demands a date on each roll, and Aya "
+"already drafted a headline for the largest number."
+msgstr "以下は同時成立できるため、合計は意図的に分母と一致しない。阿求は重複を消さず、慧音は点呼日を書かせ、文は最大値の見出しを既に準備した。"
+
+#. copy/basis
+#: src/js/employment.js:42
+msgctxt "tree:copy#/basis"
+msgid "What counts as one"
+msgstr "何を一単位にするか"
+
+#. copy/observation
+#: src/js/employment.js:42
+msgctxt "tree:copy#/observation"
+msgid "When to observe"
+msgstr "いつ観測するか"
+
+#. copy/denominator
+#: src/js/employment.js:42
+msgctxt "tree:copy#/denominator"
+msgid "Current denominator"
+msgstr "今回の分母"
+
+#. copy/statements
+#: src/js/employment.js:42
+msgctxt "tree:copy#/statements"
+msgid "Valid whereabouts claims"
+msgstr "有効な進路証言"
+
+#. copy/overlap
+#: src/js/employment.js:42
+msgctxt "tree:copy#/overlap"
+msgid "Overlap / contested seats"
+msgstr "重複・係争席"
+
+#. copy/notRate
+#: src/js/employment.js:42
+msgctxt "tree:copy#/notRate"
+msgid "Not an employment rate"
+msgstr "就職率ではない"
+
+#. copy/denominatorNote
+#: src/js/employment.js:42
+msgctxt "tree:copy#/denominatorNote"
+msgid "Denominator hearing"
+msgstr "分母聴聞"
+
+#. copy/localAdded
+#: src/js/employment.js:42
+msgctxt "tree:copy#/localAdded"
+msgid "Includes this device's statements"
+msgstr "この端末の証言を含む"
+
+#. copy/attestTitle
+#: src/js/employment.js:42
+msgctxt "tree:copy#/attestTitle"
+msgid "Place your whereabouts in the echo roll"
+msgstr "自分の進路を反響簿へ"
+
+#. copy/attestLead
+#: src/js/employment.js:42
+msgctxt "tree:copy#/attestLead"
+msgid ""
+"This statement stays on this device. It joins the current roll and may be "
+"disputed on BBS by another graduate."
+msgstr "証言は端末内保存。現在の点呼に加わり、BBSで別の卒業生から異議が出る場合もある。"
+
+#. copy/name
+#: src/js/employment.js:42
+msgctxt "tree:copy#/name"
+msgid "Name used by this edition of you"
+msgstr "この版で使う名前"
+
+#. copy/outcome
+#: src/js/employment.js:42
+msgctxt "tree:copy#/outcome"
+msgid "Closest present whereabouts"
+msgstr "現在最も近い進路"
+
+#. copy/simultaneous
+#: src/js/employment.js:42
+msgctxt "tree:copy#/simultaneous"
+msgid "This is not exclusive; another employer simultaneously claims me"
+msgstr "唯一の進路ではなく、同時に別の雇主からも在籍扱い"
+
+#. copy/note
+#: src/js/employment.js:42
+msgctxt "tree:copy#/note"
+msgid "Actual situation / what statistics must not erase"
+msgstr "実情／統計に消させない点"
+
+#. copy/attestSubmit
+#: src/js/employment.js:42
+msgctxt "tree:copy#/attestSubmit"
+msgid "Leave an on-device statement"
+msgstr "端末内証言を残す"
+
+#. copy/attested
+#: src/js/employment.js:42
+msgctxt "tree:copy#/attested"
+msgid "Your whereabouts statement entered the echo roll; the denominator retains appeal rights."
+msgstr "進路証言を反響簿へ綴じました。分母には不服申立権が残ります。"
+
+#. copy/marketEyebrow
+#: src/js/employment.js:42
+msgctxt "tree:copy#/marketEyebrow"
+msgid "CLASSIFIEDS / MAY SMOKE, MOVE, OR HAVE HIRED YOU"
+msgstr "CLASSIFIEDS / 発煙・移動・採用済みの可能性"
+
+#. copy/marketTitle
+#: src/js/employment.js:42
+msgctxt "tree:copy#/marketTitle"
+msgid "Twenty-one notices; none promises the job begins before the incident."
+msgstr "二十一の求人。仕事が異変より先に始まる保証は一つもない。"
+
+#. copy/marketLead
+#: src/js/employment.js:42
+msgctxt "tree:copy#/marketLead"
+msgid ""
+"Filter by trouble, view of time, and risk seals. Open a post for a shareable "
+"exact link, full strange clauses, a trial task, and an odd résumé that "
+"actually submits."
+msgstr "厄介事、時間観、危険印で絞込み。求人を開くと共有可能な固定リンク、全文小条項、試用課題、実際に送れる怪歴書が出る。"
+
+#. copy/category
+#: src/js/employment.js:42
+msgctxt "tree:copy#/category"
+msgid "Kind of trouble"
+msgstr "厄介事の種類"
+
+#. copy/schedule
+#: src/js/employment.js:42
+msgctxt "tree:copy#/schedule"
+msgid "Employer's view of time"
+msgstr "勤務時間観"
+
+#. copy/risk
+#: src/js/employment.js:42
+msgctxt "tree:copy#/risk"
+msgid "Maximum risk seals"
+msgstr "許容する危険印"
+
+#. copy/found
+#: src/js/employment.js:42
+msgctxt "tree:copy#/found"
+msgid "notices match"
+msgstr "件が該当"
+
+#. copy/open
+#: src/js/employment.js:42
+msgctxt "tree:copy#/open"
+msgid "Open recruitment notice"
+msgstr "求人掲示を開く"
+
+#. copy/pay
+#: src/js/employment.js:42
+msgctxt "tree:copy#/pay"
+msgid "Settlement"
+msgstr "精算"
+
+#. copy/scheduleLabel
+#: src/js/employment.js:42
+msgctxt "tree:copy#/scheduleLabel"
+msgid "Time"
+msgstr "時間"
+
+#. copy/danger
+#: src/js/employment.js:42
+msgctxt "tree:copy#/danger"
+msgid "Risk"
+msgstr "危険"
+
+#. copy/dangerUnit
+#: src/js/employment.js:42
+msgctxt "tree:copy#/dangerUnit"
+msgid "seals"
+msgstr "印"
+
+#. copy/posterAlt
+#: src/js/employment.js:42
+msgctxt "tree:copy#/posterAlt"
+msgid "Illustrated Gensokyo recruitment notice"
+msgstr "幻想郷求人掲示の挿絵"
+
+#. copy/noResults
+#: src/js/employment.js:42
+msgctxt "tree:copy#/noResults"
+msgid ""
+"No employer admits matching these terms. Add one risk seal or wait for the "
+"gate to swap sides."
+msgstr "この条件を認める雇主はいません。危険を一段上げるか、門が反転してから再検索を。"
+
+#. copy/fileEyebrow
+#: src/js/employment.js:42
+msgctxt "tree:copy#/fileEyebrow"
+msgid "FULL RECRUITMENT FILE / NOT A FATE GUARANTEE"
+msgstr "FULL RECRUITMENT FILE / 運命による採用保証ではない"
+
+#. copy/employer
+#: src/js/employment.js:42
+msgctxt "tree:copy#/employer"
+msgid "Employer"
+msgstr "雇主"
+
+#. copy/work
+#: src/js/employment.js:42
+msgctxt "tree:copy#/work"
+msgid "Actual work"
+msgstr "実務"
+
+#. copy/compensation
+#: src/js/employment.js:42
+msgctxt "tree:copy#/compensation"
+msgid "Wages & exchange"
+msgstr "賃金・交換"
+
+#. copy/impossibleClause
+#: src/js/employment.js:42
+msgctxt "tree:copy#/impossibleClause"
+msgid "Clause most likely eaten by fine print"
+msgstr "小字に食われやすい条項"
+
+#. copy/trial
+#: src/js/employment.js:42
+msgctxt "tree:copy#/trial"
+msgid "Trial task"
+msgstr "試用課題"
+
+#. copy/employerReply
+#: src/js/employment.js:42
+msgctxt "tree:copy#/employerReply"
+msgid "Employer's usual reply"
+msgstr "通常の返事"
+
+#. copy/print
+#: src/js/employment.js:42
+msgctxt "tree:copy#/print"
+msgid "Print / save this notice"
+msgstr "この掲示を印刷／PDF保存"
+
+#. copy/share
+#: src/js/employment.js:42
+msgctxt "tree:copy#/share"
+msgid "Share this vacancy"
+msgstr "求人を共有"
+
+#. copy/applyTitle
+#: src/js/employment.js:42
+msgctxt "tree:copy#/applyTitle"
+msgid "Dispatch an odd résumé"
+msgstr "怪歴書を発送"
+
+#. copy/applyLead
+#: src/js/employment.js:42
+msgctxt "tree:copy#/applyLead"
+msgid ""
+"Careers will not beautify abilities or interpret “willing to suffer” as "
+"surrendering boundaries. The employer returns an immediately disputable "
+"first review."
+msgstr "進路室は能力を美化せず、「苦労可」を境界放棄と解さない。雇主から争議可能な初審が直ちに返る。"
+
+#. copy/degree
+#: src/js/employment.js:42
+msgctxt "tree:copy#/degree"
+msgid "Degree number (blank applications remain valid)"
+msgstr "学位番号（空欄でも応募可）"
+
+#. copy/strength
+#: src/js/employment.js:42
+msgctxt "tree:copy#/strength"
+msgid "Something you actually did, even if it sounds unlike experience"
+msgstr "経験らしくなくても、実際にしたこと"
+
+#. copy/boundary
+#: src/js/employment.js:42
+msgctxt "tree:copy#/boundary"
+msgid "A boundary you will not cross"
+msgstr "越えない境界"
+
+#. copy/desiredPay
+#: src/js/employment.js:42
+msgctxt "tree:copy#/desiredPay"
+msgid "How you expect settlement"
+msgstr "希望する精算方法"
+
+#. copy/availability
+#: src/js/employment.js:42
+msgctxt "tree:copy#/availability"
+msgid "Time in which you can report"
+msgstr "勤務可能な時間"
+
+#. copy/availabilityOptions/ordinary
+#: src/js/employment.js:42
+msgctxt "tree:copy#/availabilityOptions/ordinary"
+msgid "Ordinary continuous time"
+msgstr "通常の連続時間"
+
+#. copy/availabilityOptions/night
+#: src/js/employment.js:42
+msgctxt "tree:copy#/availabilityOptions/night"
+msgid "Night / underground time"
+msgstr "夜勤・地下時間"
+
+#. copy/availabilityOptions/lunar
+#: src/js/employment.js:42
+msgctxt "tree:copy#/availabilityOptions/lunar"
+msgid "Lunar rota"
+msgstr "月相勤務"
+
+#. copy/availabilityOptions/nonlinear
+#: src/js/employment.js:42
+msgctxt "tree:copy#/availabilityOptions/nonlinear"
+msgid "Non-linear / stopped time"
+msgstr "非線形・停止時間"
+
+#. copy/availabilityOptions/afterlife
+#: src/js/employment.js:42
+msgctxt "tree:copy#/availabilityOptions/afterlife"
+msgid "Negotiable after death"
+msgstr "死後も応相談"
+
+#. copy/nonlinearReady
+#: src/js/employment.js:42
+msgctxt "tree:copy#/nonlinearReady"
+msgid "Even if time stops, my shift requires an explicit ending"
+msgstr "時間停止でも勤務に明確な終了方法を要求する"
+
+#. copy/clauseAccepted
+#: src/js/employment.js:42
+msgctxt "tree:copy#/clauseAccepted"
+msgid "I saw the strange clause; this does not waive appeal"
+msgstr "上の怪条項を見た。申訴権を放棄する意味ではない"
+
+#. copy/submit
+#: src/js/employment.js:42
+msgctxt "tree:copy#/submit"
+msgid "Give to crow-tengu dispatch"
+msgstr "鴉天狗発送台へ渡す"
+
+#. copy/draftSaved
+#: src/js/employment.js:42
+msgctxt "tree:copy#/draftSaved"
+msgid "Odd résumé draft is stored only on this device"
+msgstr "怪歴書の下書きはこの端末だけに保存"
+
+#. copy/submitted
+#: src/js/employment.js:42
+msgctxt "tree:copy#/submitted"
+msgid "Odd résumé dispatched; the employer's first-edition reply has arrived."
+msgstr "怪歴書を発送。雇主の第一版回答も到着しました。"
+
+#. copy/formError
+#: src/js/employment.js:42
+msgctxt "tree:copy#/formError"
+msgid ""
+"Add a name, at least eight characters of experience and boundaries, and "
+"confirm you saw the clause."
+msgstr "名前、八字以上の経験と境界を記し、怪条項を見たことを確認してください。"
+
+#. copy/responseTitle
+#: src/js/employment.js:42
+msgctxt "tree:copy#/responseTitle"
+msgid "How will you answer this reply?"
+msgstr "この回答へどう返す？"
+
+#. copy/responseLead
+#: src/js/employment.js:42
+msgctxt "tree:copy#/responseLead"
+msgid ""
+"Accepting a trial is not accepting every clause; requesting correction is "
+"not rejection. Adjacent-timeline hires especially require this page's "
+"applicant to answer again."
+msgstr "試用承諾は全条項承諾ではなく、訂正要求も拒否ではない。隣接時間線採用は特に、この頁の本人が再回答する。"
+
+#. copy/responseNote
+#: src/js/employment.js:42
+msgctxt "tree:copy#/responseNote"
+msgid "Note for edition two"
+msgstr "第二版へ残す注記"
+
+#. copy/responses/trial
+#: src/js/employment.js:42
+msgctxt "tree:copy#/responses/trial"
+msgid "Accept one-shift trial"
+msgstr "一勤務の試用を受諾"
+
+#. copy/responses/correction
+#: src/js/employment.js:42
+msgctxt "tree:copy#/responses/correction"
+msgid "Request clause correction"
+msgstr "条項訂正を要求"
+
+#. copy/responses/adjacent
+#: src/js/employment.js:42
+msgctxt "tree:copy#/responses/adjacent"
+msgid "Provisionally accept adjacent hire"
+msgstr "隣接採用を暫定承認"
+
+#. copy/responses/hold
+#: src/js/employment.js:42
+msgctxt "tree:copy#/responses/hold"
+msgid "Hold for moon / date"
+msgstr "月相・日付まで保留"
+
+#. copy/responses/decline
+#: src/js/employment.js:42
+msgctxt "tree:copy#/responses/decline"
+msgid "I reject this edition"
+msgstr "この版は本人が拒否"
+
+#. copy/responded
+#: src/js/employment.js:42
+msgctxt "tree:copy#/responded"
+msgid "Edition-two reply saved. Tengu Post and BBS will each misunderstand it once."
+msgstr "第二版回答を保存。鴉天狗郵便とBBSが各一度ずつ誤解します。"
+
+#. copy/recordsEyebrow
+#: src/js/employment.js:42
+msgctxt "tree:copy#/recordsEyebrow"
+msgid "MY APPLICATIONS / THIS DEVICE ONLY"
+msgstr "MY APPLICATIONS / この端末のみ"
+
+#. copy/recordsTitle
+#: src/js/employment.js:42
+msgctxt "tree:copy#/recordsTitle"
+msgid "Applications, first reviews, and your replies survive closing the card."
+msgstr "応募、初審、本人回答はカードを閉じても消えない。"
+
+#. copy/recordsLead
+#: src/js/employment.js:42
+msgctxt "tree:copy#/recordsLead"
+msgid ""
+"Each record retains the vacancy, employer review, and your edition-two "
+"response; export them together from the on-device cabinet."
+msgstr "求人、初審版、本人の第二版を保存し、端末内資料棚からまとめて書き出せる。"
+
+#. copy/noRecords
+#: src/js/employment.js:42
+msgctxt "tree:copy#/noRecords"
+msgid "No odd résumé has left this device yet."
+msgstr "この端末から怪歴書はまだ発送されていません。"
+
+#. copy/openRecord
+#: src/js/employment.js:42
+msgctxt "tree:copy#/openRecord"
+msgid "Open application file"
+msgstr "応募記録を見る"
+
+#. copy/submittedAt
+#: src/js/employment.js:42
+msgctxt "tree:copy#/submittedAt"
+msgid "Sent"
+msgstr "発送"
+
+#. copy/status
+#: src/js/employment.js:42
+msgctxt "tree:copy#/status"
+msgid "Current edition"
+msgstr "現在版"
+
+#. copy/reviewed
+#: src/js/employment.js:42
+msgctxt "tree:copy#/reviewed"
+msgid "Employer review"
+msgstr "雇主初審"
+
+#. copy/responseSaved
+#: src/js/employment.js:42
+msgctxt "tree:copy#/responseSaved"
+msgid "Applicant replied"
+msgstr "本人回答済み"
+
+#. copy/attestationError
+#: src/js/employment.js:42
+msgctxt "tree:copy#/attestationError"
+msgid "Add a name, whereabouts, and at least eight characters of actual context."
+msgstr "名前、進路、八字以上の実情を記してください。"
+
+#. copy/shareCopied
+#: src/js/employment.js:42
+msgctxt "tree:copy#/shareCopied"
+msgid "Vacancy link copied."
+msgstr "求人リンクをコピーしました。"

@@ -1,0 +1,215 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. transportModes.walk.name
+#: src/data/routes.js:6
+msgctxt "text:transportModes.walk.name"
+msgid "Village Walk"
+msgstr "人里步行"
+
+#. transportModes.walk.summary
+#: src/data/routes.js:7
+msgctxt "text:transportModes.walk.summary"
+msgid "All paths · no waiting"
+msgstr "全路網・不等車"
+
+#. transportModes.walk.notice
+#: src/data/routes.js:8
+msgctxt "text:transportModes.walk.notice"
+msgid ""
+"Based on an average human walking pace, with extra time included for "
+"mountain and bamboo paths."
+msgstr "時間以一般人類平地步速估算；山路與竹林已另加緩衝。"
+
+#. transportModes.broom.name
+#: src/data/routes.js:12
+msgctxt "text:transportModes.broom.name"
+msgid "Magic Broom"
+msgstr "魔法掃帚"
+
+#. transportModes.broom.summary
+#: src/data/routes.js:13
+msgctxt "text:transportModes.broom.summary"
+msgid "Berth airways + walking"
+msgstr "停泊點空路＋步行接駁"
+
+#. transportModes.broom.notice
+#: src/data/routes.js:14
+msgctxt "text:transportModes.broom.notice"
+msgid ""
+"Brooms may berth only at Misty Lake, Boundary, Seven-Day, and Youkai "
+"Mountain. Low flight is banned at Hakurei Gate, so the last leg may still be "
+"on foot."
+msgstr "掃帚只能在霧湖、境界、七曜與妖怪山停泊；博麗門前低空禁飛，最後一段常常仍要走。"
+
+#. transportModes.tengu.name
+#: src/data/routes.js:18
+msgctxt "text:transportModes.tengu.name"
+msgid "Tengu Express Windway"
+msgstr "天狗急行風路"
+
+#. transportModes.tengu.summary
+#: src/data/routes.js:19
+msgctxt "text:transportModes.tengu.summary"
+msgid "Fixed wind stops + hourly wait"
+msgstr "固定風站＋整點候風"
+
+#. transportModes.tengu.notice
+#: src/data/routes.js:20
+msgctxt "text:transportModes.tengu.notice"
+msgid ""
+"Express windways stop only at Boundary Hall, Hieda Archives, and Youkai "
+"Mountain. Do not chase a missed flag unless you want to become tengu news."
+msgstr "急行只停境界講堂、稗田史料館與妖怪山；錯過旗號就別追，天狗會把追車拍成新聞。"
+
+#. transportModes.rabbit.name
+#: src/data/routes.js:24
+msgctxt "text:transportModes.rabbit.name"
+msgid "Moon-Rabbit Shuttle"
+msgstr "竹林月兔接駁"
+
+#. transportModes.rabbit.summary
+#: src/data/routes.js:25
+msgctxt "text:transportModes.rabbit.summary"
+msgid "Boundary Hall / Eientei only"
+msgstr "只停境界講堂／永遠亭"
+
+#. transportModes.rabbit.notice
+#: src/data/routes.js:26
+msgctxt "text:transportModes.rabbit.notice"
+msgid ""
+"Rabbit carts run only between Boundary Hall and Eientei Clinic; every other "
+"leg is on foot. During emergencies, the timetable pretends it never existed."
+msgstr "兔車只往返境界講堂與永遠亭診療所；其餘路段請步行。急診時，時刻表會假裝自己從沒存在過。"
+
+#. campusEdges.0.3
+#: src/data/routes.js:33
+msgctxt "text:campusEdges.0.3"
+msgid "South Misty Lake path"
+msgstr "霧湖南岸步道"
+
+#. campusEdges.1.3
+#: src/data/routes.js:34
+msgctxt "text:campusEdges.1.3"
+msgid "Vermilion Cord Walk"
+msgstr "朱繩中央路"
+
+#. campusEdges.2.3
+#: src/data/routes.js:35
+msgctxt "text:campusEdges.2.3"
+msgid "Lakeside Stack Slope"
+msgstr "湖畔書架坡"
+
+#. campusEdges.3.3
+#: src/data/routes.js:36
+msgctxt "text:campusEdges.3.3"
+msgid "North Village Book Road"
+msgstr "人里北書路"
+
+#. campusEdges.4.3
+#: src/data/routes.js:37
+msgctxt "text:campusEdges.4.3"
+msgid "Chronicle Stoneway"
+msgstr "編年石板道"
+
+#. campusEdges.5.3
+#: src/data/routes.js:38
+msgctxt "text:campusEdges.5.3"
+msgid "Seven-Day Arcade"
+msgstr "七曜迴廊"
+
+#. campusEdges.6.3
+#: src/data/routes.js:39
+msgctxt "text:campusEdges.6.3"
+msgid "Three-Breath Bamboo Way"
+msgstr "竹林三息路"
+
+#. campusEdges.7.3
+#: src/data/routes.js:40
+msgctxt "text:campusEdges.7.3"
+msgid "Hieda East Gate Road"
+msgstr "稗田東門道"
+
+#. campusEdges.8.3
+#: src/data/routes.js:41
+msgctxt "text:campusEdges.8.3"
+msgid "Foothill Record Road"
+msgstr "山麓記錄路"
+
+#. campusEdges.9.3
+#: src/data/routes.js:42
+msgctxt "text:campusEdges.9.3"
+msgid "Moonshadow Lab Path"
+msgstr "月影實驗徑"
+
+#. campusEdges.10.3
+#: src/data/routes.js:43
+msgctxt "text:campusEdges.10.3"
+msgid "Waterfall Supply Line"
+msgstr "瀑布送材線"
+
+#. campusEdges.11.3
+#: src/data/routes.js:44
+msgctxt "text:campusEdges.11.3"
+msgid "Bamboo–Mountain Link"
+msgstr "竹山聯絡道"
+
+#. transitEdges.broom.0.3
+#: src/data/routes.js:52
+msgctxt "text:transitEdges.broom.0.3"
+msgid "Misty Lake–Boundary lamp airway"
+msgstr "霧湖—境界低空燈線"
+
+#. transitEdges.broom.1.3
+#: src/data/routes.js:53
+msgctxt "text:transitEdges.broom.1.3"
+msgid "Seven-Day north broom corridor"
+msgstr "七曜北側掃帚廊"
+
+#. transitEdges.broom.2.3
+#: src/data/routes.js:54
+msgctxt "text:transitEdges.broom.2.3"
+msgid "Lake–Mountain long broomway"
+msgstr "湖山長距停箒線"
+
+#. transitEdges.broom.3.3
+#: src/data/routes.js:55
+msgctxt "text:transitEdges.broom.3.3"
+msgid "Vermilion Mountain broomway"
+msgstr "朱繩山風停箒線"
+
+#. transitEdges.broom.4.3
+#: src/data/routes.js:56
+msgctxt "text:transitEdges.broom.4.3"
+msgid "Waterfall aerial supply line"
+msgstr "瀑布上空送材線"
+
+#. transitEdges.tengu.0.3
+#: src/data/routes.js:59
+msgctxt "text:transitEdges.tengu.0.3"
+msgid "Wind Stop One · Chronicle Line"
+msgstr "第一風站・編年線"
+
+#. transitEdges.tengu.1.3
+#: src/data/routes.js:60
+msgctxt "text:transitEdges.tengu.1.3"
+msgid "Wind Stop Two · Mountain Line"
+msgstr "第二風站・山腹線"
+
+#. transitEdges.tengu.2.3
+#: src/data/routes.js:61
+msgctxt "text:transitEdges.tengu.2.3"
+msgid "Express · Summit Flag Line"
+msgstr "急行直達・山頂旗線"
+
+#. transitEdges.rabbit.0.3
+#: src/data/routes.js:64
+msgctxt "text:transitEdges.rabbit.0.3"
+msgid "Boundary–Eientei Moon-Rabbit Line"
+msgstr "境界—永遠亭月兔專線"

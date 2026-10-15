@@ -1,0 +1,20 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. university
+#: src/js/i18n.js:37
+msgctxt "text:university"
+msgid "Touhou University"
+msgstr "幻想鄉立東方大學"
+
+#. setLocale
+#: src/js/i18n.js:40
+msgctxt "text:setLocale"
+msgid "Touhou University of Gensokyo | Knowledge Beyond the Border"
+msgstr "幻想鄉立東方大學｜越境而學，知行幻想"

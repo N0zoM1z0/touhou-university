@@ -10,11 +10,11 @@ if (!requestedSet || !/^[a-z0-9-]+$/.test(requestedSet)) {
   process.exit(1);
 }
 
-const assetDirectory = path.join(root, "assets", "images", "faculty", requestedSet);
+const assetDirectory = path.join(root, "public", "assets", "images", "faculty", requestedSet);
 try {
   await access(assetDirectory);
 } catch {
-  console.error(`Portrait set does not exist: assets/images/faculty/${requestedSet}`);
+  console.error(`Portrait set does not exist: public/assets/images/faculty/${requestedSet}`);
   process.exit(1);
 }
 
@@ -29,4 +29,4 @@ if (updated === config) {
 
 await writeFile(configFile, updated, "utf8");
 console.log(`Active faculty portraits: ${requestedSet}`);
-console.log("Run npm run build to refresh index.html.");
+console.log("Run npm run build to refresh dist/index.html.");

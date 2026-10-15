@@ -1,0 +1,398 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. outcomeLabels.0.cleared
+#: src/js/festival-model.js:29
+msgctxt "text:outcomeLabels.0.cleared"
+msgid "Cleared to open"
+msgstr "准予開祭"
+
+#. outcomeLabels.0.conditional
+#: src/js/festival-model.js:30
+msgctxt "text:outcomeLabels.0.conditional"
+msgid "Conditional permit"
+msgstr "附條件許可"
+
+#. outcomeLabels.0.contested
+#: src/js/festival-model.js:31
+msgctxt "text:outcomeLabels.0.contested"
+msgid "Contested permit"
+msgstr "爭議性許可"
+
+#. outcomeLabels.0.revision
+#: src/js/festival-model.js:32
+msgctxt "text:outcomeLabels.0.revision"
+msgid "Return for replanning"
+msgstr "退回重排"
+
+#. outcomeLabels.0.live
+#: src/js/festival-model.js:33
+msgctxt "text:outcomeLabels.0.live"
+msgid "Festival live"
+msgstr "祭典運行中"
+
+#. outcomeLabels.0.closed
+#: src/js/festival-model.js:34
+msgctxt "text:outcomeLabels.0.closed"
+msgid "Festival closed"
+msgstr "已結祭"
+
+#. stanceLabels.0.clear
+#: src/js/festival-model.js:38
+msgctxt "text:stanceLabels.0.clear"
+msgid "Clear"
+msgstr "放行"
+
+#. stanceLabels.0.condition
+#: src/js/festival-model.js:39
+msgctxt "text:stanceLabels.0.condition"
+msgid "Condition"
+msgstr "條件"
+
+#. stanceLabels.0.contest
+#: src/js/festival-model.js:40
+msgctxt "text:stanceLabels.0.contest"
+msgid "Contest"
+msgstr "異議"
+
+#. stanceLabels.0.revise
+#: src/js/festival-model.js:41
+msgctxt "text:stanceLabels.0.revise"
+msgid "Revise"
+msgstr "退回"
+
+#. reimuReview.reimu.2
+#: src/js/festival-model.js:252
+msgctxt "text:reimuReview.reimu.2"
+msgid ""
+"The warning vanishes before the danmaku; by the stop signal, spectators can "
+"only see what already happened."
+msgstr "預兆比彈幕先消失；喊停時觀眾只會看到已經發生的事。"
+
+#. reimuReview.reimu.3.0
+#: src/js/festival-model.js:253
+msgctxt "text:reimuReview.reimu.3.0"
+msgid "Extend the cue to at least 1.2 seconds or lower low-altitude density."
+msgstr "把預兆延長到至少 1.2 秒，或降低低空密度。"
+
+#. reimuReview.reimu.2
+#: src/js/festival-model.js:260
+msgctxt "text:reimuReview.reimu.2.2"
+msgid "Declared attendance exceeds the narrowest of route, stage, or food court."
+msgstr "申報人數大於路線、舞台或食堂中最窄的一處。"
+
+#. reimuReview.reimu.3.0
+#: src/js/festival-model.js:261
+msgctxt "text:reimuReview.reimu.3.0.2"
+msgid "Cap concurrent attendance at {value0}."
+msgstr "現場同時容量以 {value0} 為上限。"
+
+#. reimuReview.reimu.2
+#: src/js/festival-model.js:268
+msgctxt "text:reimuReview.reimu.2.3"
+msgid "The stopping rule is not yet one sentence the field can follow."
+msgstr "停止規則還不能印成一句現場會照做的話。"
+
+#. reimuReview.reimu.3.0
+#: src/js/festival-model.js:269
+msgctxt "text:reimuReview.reimu.3.0.3"
+msgid "Name the signal, first actor, and first exit to open."
+msgstr "寫出訊號、誰先行動與先開哪條退路。"
+
+#. reimuReview.reimu.2
+#: src/js/festival-model.js:272
+msgctxt "text:reimuReview.reimu.2.4"
+msgid "Cue, stop, and physical exit fit on one notice."
+msgstr "預兆、停止與實體退路能被同一張告示說清楚。"
+
+#. nitoriReview.nitori.2
+#: src/js/festival-model.js:280
+msgctxt "text:nitoriReview.nitori.2"
+msgid ""
+"Main and backup combined are insufficient; another layer of kappa tape does "
+"not create capacity."
+msgstr "主網與備援一起算仍不夠，這不是靠多貼一層河童膠帶能變出的容量。"
+
+#. nitoriReview.nitori.3.0
+#: src/js/festival-model.js:281
+msgctxt "text:nitoriReview.nitori.3.0"
+msgid "Lower density, attendance, or evening load."
+msgstr "降低密度、觀眾容量或晚場負載。"
+
+#. nitoriReview.nitori.2
+#: src/js/festival-model.js:288
+msgctxt "text:nitoriReview.nitori.2.2"
+msgid ""
+"Output margin is large, but prototype reactors lack a public load test; "
+"capacity is not reliability."
+msgstr "輸出餘裕很大，試作爐卻沒有完成公開負載測試；工程桌拒絕把容量等同可靠。"
+
+#. nitoriReview.nitori.3.0
+#: src/js/festival-model.js:289
+msgctxt "text:nitoriReview.nitori.3.0.2"
+msgid "Retain per-reactor isolation and lighting backup of a different type."
+msgstr "保留逐爐切離權與不依賴同型爐的照明備援。"
+
+#. nitoriReview.nitori.2
+#: src/js/festival-model.js:296
+msgctxt "text:nitoriReview.nitori.2.3"
+msgid ""
+"The system can run, but backup or power credit becomes an ownership question "
+"after opening."
+msgstr "系統可運轉，但備援或供電署名會在開祭後變成主辦權問題。"
+
+#. nitoriReview.nitori.3.0
+#: src/js/festival-model.js:297
+msgctxt "text:nitoriReview.nitori.3.0.3"
+msgid "Jointly record every switchover, not only the festival-day peak."
+msgstr "共同記錄每次切換，不得只保留祭典日最高輸出。"
+
+#. nitoriReview.nitori.2
+#: src/js/festival-model.js:300
+msgctxt "text:nitoriReview.nitori.2.4"
+msgid "Main grid, backup, recovery tools, and duty names share one diagram."
+msgstr "主網、備援、回收工具與值班人都在同一張圖上。"
+
+#. eirinReview.eirin.2
+#: src/js/festival-model.js:308
+msgctxt "text:eirinReview.eirin.2"
+msgid ""
+"Expected presentations exceed medical capacity, or maximum density lacks "
+"sufficient cueing."
+msgstr "預估候診已超過急救站容量，或者最高密度沒有足夠預兆。"
+
+#. eirinReview.eirin.3.0
+#: src/js/festival-model.js:309
+msgctxt "text:eirinReview.eirin.3.0"
+msgid "Add dual stations, reduce density, or cap concurrent entry."
+msgstr "增加雙站、降低密度或限制同時入場。"
+
+#. eirinReview.eirin.2
+#: src/js/festival-model.js:316
+msgctxt "text:eirinReview.eirin.2.2"
+msgid ""
+"A large near-full-moon event with one station makes bamboo transfers and "
+"wavelength reactions share one queue."
+msgstr "近滿月的大型活動只設一站，竹林轉送與波長反應會共用同一條隊伍。"
+
+#. eirinReview.eirin.3.0
+#: src/js/festival-model.js:317
+msgctxt "text:eirinReview.eirin.3.0.2"
+msgid "Add gate screening; Reisen must not double as traffic guide."
+msgstr "加設門前初篩，鈴仙不兼任交通引導。"
+
+#. eirinReview.eirin.2
+#: src/js/festival-model.js:320
+msgctxt "text:eirinReview.eirin.2.3"
+msgid "Medical capacity, lunar load, and nearest stopping staff are counted together."
+msgstr "急救容量、月相負荷與最近停止人員已一起列入。"
+
+#. ayaReview.aya.2
+#: src/js/festival-model.js:328
+msgctxt "text:ayaReview.aya.2"
+msgid ""
+"Aya has already typeset “Grand Opening.” She agrees to reserve correction "
+"space, not to leave the front page empty."
+msgstr "文已預先排好「盛大開幕」；她同意保留訂正版位，沒有同意空著頭版。"
+
+#. ayaReview.aya.3.0
+#: src/js/festival-model.js:329
+msgctxt "text:ayaReview.aya.3.0"
+msgid "Every early extra must carry the permit version and a visible correction field."
+msgstr "每份提前號外必須帶許可版本號與可見訂正欄。"
+
+#. ayaReview.aya.2
+#: src/js/festival-model.js:336
+msgctxt "text:ayaReview.aya.2.2"
+msgid ""
+"There is no early-reporting risk and almost no way for village visitors to "
+"learn reroutes."
+msgstr "沒有搶跑風險，也幾乎沒有讓人里訪客得知改道的方法。"
+
+#. ayaReview.aya.3.0
+#: src/js/festival-model.js:337
+msgctxt "text:ayaReview.aya.3.0.2"
+msgid "Assign at least one messenger who will chase a carried-away noticeboard."
+msgstr "至少指定一名會追著被搬走木板跑的通報員。"
+
+#. ayaReview.aya.2
+#: src/js/festival-model.js:340
+msgctxt "text:ayaReview.aya.2.3"
+msgid "Two headlines check each other; one bell late is still before formal opening."
+msgstr "兩份標題互相校對；晚一鐘仍在正式開門之前。"
+
+#. faithReview.faith.2
+#: src/js/festival-model.js:349
+msgctxt "text:faithReview.faith.2"
+msgid ""
+"{value0} receives the sole gate; the other two parties refuse to treat it as "
+"mere signage."
+msgstr "{value0}取得唯一正門後，另外兩方拒絕把它只當交通標誌。"
+
+#. faithReview.faith.3.0
+#: src/js/festival-model.js:350
+msgctxt "text:faithReview.faith.3.0"
+msgid "Separate gate credit, power, donations, and stage time into four papers."
+msgstr "把正門署名、供電、募捐與舞台時段拆成四張不同的紙。"
+
+#. faithReview.faith.2
+#: src/js/festival-model.js:353
+msgctxt "text:faithReview.faith.2.2"
+msgid ""
+"Rotation lets each party briefly claim uniqueness and actually withdraws it "
+"at the next bell."
+msgstr "輪值讓每一方都能短暫宣稱唯一，並在下一鐘被實際撤回。"
+
+#. residenceReview.residence.2
+#: src/js/festival-model.js:363
+msgctxt "text:residenceReview.residence.2"
+msgid ""
+"The residence has received a noise complaint without airborne transmission; "
+"“the windows did not shake” is not a stopping rule for shared burden."
+msgstr "宿舍已收到不經空氣傳播的噪音投訴；『窗戶沒震』不是共享負擔的停止規則。"
+
+#. residenceReview.residence.3.0
+#: src/js/festival-model.js:364
+msgctxt "text:residenceReview.residence.3.0"
+msgid "List separate stopping rights for late music, dream echo, and photographs inside walls."
+msgstr "把深夜曲目、夢境回聲與牆內照片的停止權分開列出。"
+
+#. residenceReview.residence.2
+#: src/js/festival-model.js:371
+msgctxt "text:residenceReview.residence.2.2"
+msgid ""
+"The venue or sound may leave its filed location; the night desk requires a "
+"duty person able to follow."
+msgstr "場地或聲音可能離開申報位置；共同夜桌要求一名會追上去的值班者。"
+
+#. residenceReview.residence.3.0
+#: src/js/festival-model.js:372
+msgctxt "text:residenceReview.residence.3.0.2"
+msgid "Reconfirm the fairy zone and residence-side soundscape every bell."
+msgstr "每一校鐘重新確認妖精區與宿舍側聲景。"
+
+#. residenceReview.residence.2
+#: src/js/festival-model.js:375
+msgctxt "text:residenceReview.residence.2.3"
+msgid "The programme ends before night duty, and the fairy zone has trackable ground."
+msgstr "演出在夜桌輪值結束前收束，妖精區也有可追蹤的地面。"
+
+#. headline
+#: src/js/festival-model.js:578
+msgctxt "text:headline"
+msgid "Boundary festival produces three sole main gates; Transit refuses to choose the solest"
+msgstr "境界開學祭成功產生三扇唯一正門，交通室拒絕選出最唯一的一扇"
+
+#. headline
+#: src/js/festival-model.js:580
+msgctxt "text:headline.2"
+msgid "Lantern festival closes; Eientei asks next programme to list the waiting queue"
+msgstr "春季燈會完成閉幕，永遠亭要求把候診隊伍列入下屆節目表"
+
+#. headline
+#: src/js/festival-model.js:581
+msgctxt "text:headline.3"
+msgid "Lights close by version; unresolved objections and recovered lanterns wait for morning"
+msgstr "燈火按版本熄滅；未解決異議與回收燈籠一起留到明早"
+
+#. festivalRouteOverlay.notices.0
+#: src/js/festival-model.js:657
+msgctxt "text:festivalRouteOverlay.notices.0"
+msgid "Festival procession and stall closures are included in routing."
+msgstr "祭典遊行與攤位封路已加入路線計算。"
+
+#. festivalRouteOverlay.notices.1
+#: src/js/festival-model.js:658
+msgctxt "text:festivalRouteOverlay.notices.1"
+msgid "{value0} is live."
+msgstr "{value0}正在運行。"
+
+#. base.0.author
+#: src/js/festival-model.js:715
+msgctxt "text:base.0.author"
+msgid "Joint Festival Operations Room"
+msgstr "祭典共同營運室"
+
+#. base.0.body
+#: src/js/festival-model.js:721
+msgctxt "text:base.0.body"
+msgid ""
+"Conditions and objections from six desks remain separate. Gate, power, aid, "
+"and exits were not averaged."
+msgstr "六桌條件與異議仍分紙保留；正門、供電、急救與退路沒有被平均。"
+
+#. festivalCommunityPosts.0.0.author
+#: src/js/festival-model.js:733
+msgctxt "text:festivalCommunityPosts.0.0.author"
+msgid "Bunbunmaru Closing Extra"
+msgstr "文文。閉祭號外"
+
+#. festivalCommunityPosts.0.0.author
+#: src/js/festival-model.js:746
+msgctxt "text:festivalCommunityPosts.0.0.author.2"
+msgid "Festival Field Wire"
+msgstr "祭典現場線"
+
+#. buildFestivalProgramme.0.1
+#: src/js/festival-model.js:691
+msgctxt "text:buildFestivalProgramme.0.1"
+msgid "Volunteer roll, exit walk, and fourth-lantern renumbering"
+msgstr "志工點名、退路步測與第四盞燈重新編號"
+
+#. buildFestivalProgramme.2.1
+#: src/js/festival-model.js:693
+msgctxt "text:buildFestivalProgramme.2.1"
+msgid "Fairy low-altitude rehearsal and audience cue practice"
+msgstr "妖精低空試演與觀眾預兆練習"
+
+#. buildFestivalProgramme.3.1
+#: src/js/festival-model.js:694
+msgctxt "text:buildFestivalProgramme.3.1"
+msgid "Night Sparrow kitchen, kappa prototypes, and village tables"
+msgstr "夜雀食堂、河童原型攤與人里長桌"
+
+#. buildFestivalProgramme.4.1
+#: src/js/festival-model.js:695
+msgctxt "text:buildFestivalProgramme.4.1"
+msgid "Twilight spell-card exhibition: every rule has a visible exit"
+msgstr "暮色符卡競演：每一規則都有可見出口"
+
+#. buildFestivalProgramme.5.1
+#: src/js/festival-model.js:696
+msgctxt "text:buildFestivalProgramme.5.1"
+msgid "Lantern recovery, correction extra, and first residence quiet watch"
+msgstr "回收燈線、訂正號外與第一輪宿舍靜夜"
+
+#. buildFestivalProgramme.1.1
+#: src/js/festival-model.js:692
+msgctxt "text:buildFestivalProgramme.1.1"
+msgid "{value0} opening bell"
+msgstr "{value0}開門鐘"
+
+#. festivalCommunityPosts.0.0.body
+#: src/js/festival-model.js:735
+msgctxt "text:festivalCommunityPosts.0.0.body"
+msgid ""
+"{value0} attended; {value1} medical presentations; {value2} minutes delay. "
+"Objections carry into morning."
+msgstr "到場 {value0}、急救 {value1}、延誤 {value2} 分；異議留到明早。"
+
+#. festivalCommunityPosts.0.0.title
+#: src/js/festival-model.js:747
+msgctxt "text:festivalCommunityPosts.0.0.title"
+msgid "{value0} is live"
+msgstr "{value0}運行中"
+
+#. festivalCommunityPosts.0.0.body
+#: src/js/festival-model.js:748
+msgctxt "text:festivalCommunityPosts.0.0.body.2"
+msgid ""
+"Field cases {value0}/{value1}. Map detours and Eientei load now read this "
+"operations slip."
+msgstr "現場事件 {value0}/{value1}；地圖改道與永遠亭負荷正讀取這張現場執行單。"

@@ -1,0 +1,459 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/eyebrow"
+msgid "LOCAL ARCHIVES / ON-DEVICE RECORDS CABINET"
+msgstr "LOCAL ARCHIVES / 端末内資料棚"
+
+#. copy/title
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/title"
+msgid "Which campus papers is this device keeping for you?"
+msgstr "この端末は、どの学務書類を預かっている？"
+
+#. copy/lead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/lead"
+msgid ""
+"Applications, courses, loans, care, and unfinished drafts are listed shelf "
+"by shelf. Nothing is uploaded during ordinary use; when moving, you seal the "
+"box yourself."
+msgstr "出願、履修、貸出、診療、未提出の下書きを棚ごとに示します。通常は送信されず、引っ越す時だけ自分の手で箱詰めします。"
+
+#. copy/offline
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/offline"
+msgid "On-device reading room"
+msgstr "端末内閲覧"
+
+#. copy/offlineLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/offlineLead"
+msgid ""
+"During ordinary use, files are visible only to this browser profile and this "
+"site's origin."
+msgstr "通常利用では、ファイルは現在のブラウザプロファイルとこのサイトのオリジンだけから見えます。"
+
+#. copy/origin
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/origin"
+msgid "Current origin"
+msgstr "現在のオリジン"
+
+#. copy/writtenFiles
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/writtenFiles"
+msgid "Stored files"
+msgstr "保存済み"
+
+#. copy/entries
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/entries"
+msgid "Content entries"
+msgstr "内容件数"
+
+#. copy/used
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/used"
+msgid "Cabinet usage"
+msgstr "資料棚の使用量"
+
+#. copy/portable
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/portable"
+msgid "Portable files"
+msgstr "箱詰め可能"
+
+#. copy/allowance
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/allowance"
+msgid ""
+"Gauge uses a common 5 MiB localStorage allowance as a reference; the browser "
+"sets the actual limit."
+msgstr "一般的な 5 MiB の localStorage 枠を目安に表示。実際の上限はブラウザが決めます。"
+
+#. copy/originEstimate
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/originEstimate"
+msgid ""
+"Browser estimate: this origin uses {usage} of {quota}; this may include "
+"other site storage."
+msgstr "ブラウザ報告：このオリジンは {usage}／{quota} を使用。サイトの他の保存領域を含む場合があります。"
+
+#. copy/originUnknown
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/originUnknown"
+msgid ""
+"The browser did not provide an origin-wide allowance; the figure above "
+"remains an exact UTF-8 estimate of university files."
+msgstr "オリジン全体の上限は取得できません。上記は本学ファイルの UTF-8 による正確な見積りです。"
+
+#. copy/visibility
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/visibility"
+msgid "Who can see these papers?"
+msgstr "この紙を見られるのは誰？"
+
+#. copy/visibilityLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/visibilityLead"
+msgid ""
+"“On-device” is not a cloud account. Other browsers, private windows, "
+"devices, and site origins cannot see it."
+msgstr "「端末内」はクラウドアカウントではありません。別のブラウザ、シークレット窓、端末、オリジンからは見えません。"
+
+#. copy/export
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/export"
+msgid "Seal and export everything"
+msgstr "一括箱詰め・書き出し"
+
+#. copy/exportLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/exportLead"
+msgid "Downloads a JSON box with a SHA-256 seal. Short-lived tab passes are never packed."
+msgstr "SHA-256 封印付き JSON を書き出します。短時間のタブ通行票は箱に入りません。"
+
+#. copy/exporting
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/exporting"
+msgid "Counting pages…"
+msgstr "頁を数えています…"
+
+#. copy/exported
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/exported"
+msgid "The on-device archive has been sealed and downloaded."
+msgstr "端末内ファイルを書き出しました。"
+
+#. copy/import
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/import"
+msgid "Import an earlier archive box"
+msgstr "以前の資料箱を読み込む"
+
+#. copy/importLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importLead"
+msgid ""
+"The seal, format, and every key are checked before you choose what happens "
+"to name collisions. A failed validation writes nothing."
+msgstr "封印、形式、各キーを先に検査し、同名ファイルの扱いを選んでから保存します。検査失敗時は何も書き込みません。"
+
+#. copy/chooseFile
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/chooseFile"
+msgid "Choose JSON file"
+msgstr "JSON ファイルを選択"
+
+#. copy/collision
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/collision"
+msgid "Name-collision policy"
+msgstr "同名ファイルの処理"
+
+#. copy/preserve
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/preserve"
+msgid "Keep current version (recommended)"
+msgstr "現在の版を保持（推奨）"
+
+#. copy/overwrite
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/overwrite"
+msgid "Overwrite same-name files from import"
+msgstr "読み込み側で同名ファイルを上書き"
+
+#. copy/applyImport
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/applyImport"
+msgid "Place in cabinet"
+msgstr "棚へ収める"
+
+#. copy/imported
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/imported"
+msgid "Filed {imported}; skipped {skipped} same-name files."
+msgstr "{imported} 件を収納、同名 {skipped} 件をスキップしました。"
+
+#. copy/importReady
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importReady"
+msgid "Seal passed: {count} files, {size}"
+msgstr "封印確認済み：{count} 件、{size}"
+
+#. copy/importConflicts
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importConflicts"
+msgid "{count} share a name with a current file"
+msgstr "{count} 件が現在のファイルと同名"
+
+#. copy/importUnknown
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importUnknown"
+msgid "{count} are not yet catalogued but retain the tu: campus prefix"
+msgstr "{count} 件は未登録ですが tu: 学務接頭辞を保持"
+
+#. copy/importBlocked
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importBlocked"
+msgid "{count} short-lived or non-portable files will be skipped"
+msgstr "{count} 件の短時間／持出不可データをスキップ"
+
+#. copy/importSource
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importSource"
+msgid "Packed {date} · origin {origin}"
+msgstr "箱詰め {date} · 出所 {origin}"
+
+#. copy/importReplaceWarning
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importReplaceWarning"
+msgid ""
+"Overwrite replaces only same-name files present in the imported box; it does "
+"not delete anything else."
+msgstr "上書きは読込箱の同名ファイルだけを置換し、他のデータは削除しません。"
+
+#. copy/filter
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/filter"
+msgid "Search file title or storage key"
+msgstr "ファイル名または保存キーを検索"
+
+#. copy/presentOnly
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/presentOnly"
+msgid "Stored files only"
+msgstr "保存済みだけ表示"
+
+#. copy/showCatalogue
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/showCatalogue"
+msgid "Show full registered catalogue"
+msgstr "登録済み全ファイルを見る"
+
+#. copy/hideCatalogue
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/hideCatalogue"
+msgid "Hide blank files"
+msgstr "空のファイルを閉じる"
+
+#. copy/noMatch
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/noMatch"
+msgid "No file matches. Keine may also have reassigned that page to yesterday."
+msgstr "条件に合うファイルはありません。慧音がその頁を昨日へ移した可能性もあります。"
+
+#. copy/stored
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/stored"
+msgid "Stored"
+msgstr "保存済み"
+
+#. copy/empty
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/empty"
+msgid "Not written"
+msgstr "未保存"
+
+#. copy/item
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/item"
+msgid "entry"
+msgstr "件"
+
+#. copy/items
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/items"
+msgid "entries"
+msgstr "件"
+
+#. copy/view
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/view"
+msgid "Open file"
+msgstr "開いて見る"
+
+#. copy/destroy
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroy"
+msgid "Destroy"
+msgstr "廃棄"
+
+#. copy/destroyGroup
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyGroup"
+msgid "Destroy this shelf"
+msgstr "この棚を廃棄"
+
+#. copy/destroyAll
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyAll"
+msgid "Destroy all university data"
+msgstr "本学の全端末内データを廃棄"
+
+#. copy/destroyOneConfirm
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyOneConfirm"
+msgid "Destroy “{title}”? This cannot be undone; you can export the archive first."
+msgstr "「{title}」を廃棄しますか？元に戻せません。先に箱詰め書き出しができます。"
+
+#. copy/destroyGroupConfirm
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyGroupConfirm"
+msgid "Destroy {count} stored files in “{title}”?"
+msgstr "「{title}」にある {count} 件の保存済みファイルを廃棄しますか？"
+
+#. copy/destroyAllConfirm
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyAllConfirm"
+msgid ""
+"Destroy all Touhou University data under this browser origin? Identity, "
+"applications, grades, drafts, and short-lived tab data will disappear."
+msgstr "このブラウザオリジンにある Touhou University の全端末内データを廃棄しますか？身分、出願、成績、下書き、短時間タブデータも消えます。"
+
+#. copy/destroyed
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyed"
+msgid "Destroyed {count} on-device files."
+msgstr "{count} 件の端末内ファイルを廃棄しました。"
+
+#. copy/cabinetEmpty
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/cabinetEmpty"
+msgid "There are no files to destroy."
+msgstr "廃棄できるファイルはありません。"
+
+#. copy/rawTitle
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/rawTitle"
+msgid "Raw file"
+msgstr "ファイル原文"
+
+#. copy/storageKey
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/storageKey"
+msgid "Storage key"
+msgstr "保存キー"
+
+#. copy/storageKind
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/storageKind"
+msgid "Storage location"
+msgstr "保存場所"
+
+#. copy/persistent
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/persistent"
+msgid "localStorage · retained after closing the tab"
+msgstr "localStorage · タブを閉じても保持"
+
+#. copy/session
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/session"
+msgid "sessionStorage · this tab only"
+msgstr "sessionStorage · このタブのみ"
+
+#. copy/bytes
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/bytes"
+msgid "Space used"
+msgstr "使用量"
+
+#. copy/scope
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/scope"
+msgid "Visibility"
+msgstr "可視範囲"
+
+#. copy/close
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/close"
+msgid "Close file"
+msgstr "閉じる"
+
+#. copy/rawWarning
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/rawWarning"
+msgid ""
+"This is the actual stored content. Check names, answers, and medical records "
+"before sharing a screenshot or exported box."
+msgstr "実際の保存内容を表示しています。スクリーンショットや書出しファイルを共有する前に、氏名・解答・診療記録を確認してください。"
+
+#. copy/integrity
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/integrity"
+msgid ""
+"The kappa packing machine validates structure and seals; it does not vouch "
+"for mysterious files from the Outside World."
+msgstr "河童箱詰め機は構造と封印を検査しますが、外界由来の不明なファイルまで保証しません。"
+
+#. copy/error/archive-size
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-size"
+msgid "The file is empty or exceeds 8 MiB, so the gatekeeper refused it."
+msgstr "ファイルが空か 8 MiB を超えたため、門衛が運搬を拒否しました。"
+
+#. copy/error/archive-json
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-json"
+msgid "This is not a readable JSON archive box."
+msgstr "読める JSON 資料箱ではありません。"
+
+#. copy/error/archive-format
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-format"
+msgid "The archive format or version does not belong to this cabinet."
+msgstr "資料箱の形式または版が本学資料棚に対応していません。"
+
+#. copy/error/archive-records
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-records"
+msgid "The file catalogue is missing or contains an unreasonable number of records."
+msgstr "ファイル目録がないか、件数が異常です。"
+
+#. copy/error/archive-record
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-record"
+msgid "At least one record has an invalid key, storage location, or value."
+msgstr "少なくとも一件のキー、場所、内容形式が不正です。"
+
+#. copy/error/archive-checksum
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-checksum"
+msgid "The SHA-256 seal does not match; the file may be edited or incompletely downloaded."
+msgstr "SHA-256 封印が一致しません。変更または不完全なダウンロードの可能性があります。"
+
+#. copy/error/archive-import
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-import"
+msgid "The import policy is invalid."
+msgstr "読み込み方式が不正です。"
+
+#. copy/error/archive-storage
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-storage"
+msgid "This browser refused access to localStorage."
+msgstr "ブラウザが localStorage を開くことを拒否しました。"
+
+#. copy/error/archive-quota
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-quota"
+msgid ""
+"The browser is out of space. This import was rolled back and current files "
+"were preserved."
+msgstr "空き容量不足です。今回の読込を撤回し、以前のファイルを維持しました。"
+
+#. copy/error/unknown
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/unknown"
+msgid "The records cabinet cannot complete that action right now."
+msgstr "資料棚は現在この操作を完了できません。"

@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/employment-model.js";
 import {
   employmentApplicationDecisions,
   employmentCountBases,
@@ -306,7 +307,7 @@ export function employmentCommunityPosts(locale = "zh-Hant") {
     posts.push({
       id: `employment-application-${latest.id}`,
       category: "market",
-      author: locale === "ja" ? "進路室・怪歴書発送台" : locale === "en" ? "Careers Office · Odd Résumé Dispatch" : "進路室・怪歷書寄發臺",
+      author: catalogText("employmentCommunityPosts.0.author")[locale],
       title: `${employmentLocalized(job.title, locale)} · ${employmentLocalized(decision.title, locale)}`,
       body: `${employmentLocalized(job.reply, locale)} ${latest.response?.note || ""}`.trim(),
       createdAt: latest.response?.respondedAt || latest.submittedAt,
@@ -320,7 +321,7 @@ export function employmentCommunityPosts(locale = "zh-Hant") {
     posts.push({
       id: `employment-attestation-${attestation.id}`,
       category: "market",
-      author: locale === "ja" ? "離校先反響簿" : locale === "en" ? "Graduate Whereabouts Echo Roll" : "離校去向回聲簿",
+      author: catalogText("employmentCommunityPosts.0.author.2")[locale],
       title: employmentLocalized(outcome.title, locale),
       body: `${attestation.displayName}：${attestation.note}`,
       createdAt: attestation.attestedAt,
@@ -348,11 +349,7 @@ export function employmentPostMessages(locale = "zh-Hant") {
       ordering: decision.id === "adjacent-offer" ? "early" : "normal",
       correction: decision.id === "adjacent-offer"
         ? (
-          locale === "ja"
-            ? "この頁の採用効力はまだ未着。隣接版の勤務表だけ先着しています。"
-            : locale === "en"
-              ? "Hire has not reached this page; only the adjacent edition's rota arrived early."
-              : "錄用效力尚未抵達本頁；只有相鄰版本的排班表先到了。"
+          catalogText("employmentPostMessages.0.correction")[locale]
         )
         : null,
       route: `employment-application-${application.id}`,

@@ -1,0 +1,76 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. notice
+#: src/js/appraisal-model.js:232
+msgctxt "text:notice"
+msgid ""
+"Kourindou separated “knowing the purpose” from “knowing how to operate it,” "
+"adding one page to every form."
+msgstr "香霖堂は本日、「用途を知る」と「使い方を知る」を別欄にしたため、帳票が一頁増えた。"
+
+#. appraisalDeskStatus
+#: src/js/appraisal-model.js:235
+msgctxt "text:appraisalDeskStatus"
+msgid ""
+"Returning holdings occupy two benches; object 31 was just mistaken for a "
+"bookmark by a dictionary."
+msgstr "帰航資料が鑑定机二台を占有。31番イヤホンは辞書に栞と誤認された。"
+
+#. appraisalDeskStatus
+#: src/js/appraisal-model.js:238
+msgctxt "text:appraisalDeskStatus.2"
+msgid ""
+"Nitori brought a reversible adapter box and tape. The library recognizes "
+"only the former as method."
+msgstr "にとりは可逆変換箱とテープを持参。図書館が方法として認めたのは前者だけ。"
+
+#. appraisalDeskStatus
+#: src/js/appraisal-model.js:240
+msgctxt "text:appraisalDeskStatus.3"
+msgid "Bamboo humidity is up. Sleeves enter drying boxes; all camera shutter tests are paused."
+msgstr "竹林の湿度上昇。紙袋は乾燥箱へ、カメラ案件のシャッター試験は停止。"
+
+#. communityCopy.author
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.author"
+msgid "Kourindou × Misty Lake Cataloguing Desk"
+msgstr "香霖堂 × 霧の湖目録机"
+
+#. communityCopy.contestedAuthor
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.contestedAuthor"
+msgid "Bunbunmaru Corrections-Candidate Desk"
+msgstr "文々。新聞・訂正候補欄"
+
+#. communityCopy.supported
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.supported"
+msgid "Drift-object appraisal completed"
+msgstr "漂流物鑑定完了"
+
+#. communityCopy.provisional
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.provisional"
+msgid "Drift object provisionally catalogued"
+msgstr "漂流物暫定目録"
+
+#. communityCopy.contested
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.contested"
+msgid "An unsupported use retained by request"
+msgstr "成立しないが保存を求められた用途"
+
+#. communityCopy.warning
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.warning"
+msgid ""
+"Evidence did not support the proposed original use; the file remains a "
+"red-pencil contested record."
+msgstr "原用途は証拠で支持されず、赤鉛筆の係争記録として保存。"

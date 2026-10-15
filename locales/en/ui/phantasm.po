@@ -1,0 +1,36 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. ordinaryBrand/name
+#: src/js/phantasm.js:68
+msgctxt "tree:ordinaryBrand#/name"
+msgid "Touhou University"
+msgstr "Touhou University"
+
+#. ordinaryBrand/title
+#: src/js/phantasm.js:68
+msgctxt "tree:ordinaryBrand#/title"
+msgid "Ninth-Period Roll｜Touhou University"
+msgstr "Ninth-Period Roll｜Touhou University"
+
+#. ordinaryBrand/motto
+#: src/js/phantasm.js:68
+msgctxt "tree:ordinaryBrand#/motto"
+msgid "SEEK TRUTH BEYOND THE BORDER"
+msgstr "SEEK TRUTH BEYOND THE BORDER"
+
+#. defenceView
+#: src/js/phantasm.js:365
+msgctxt "text:defenceView"
+msgid ""
+"A dream is not a wastebasket for rejected options. Bring the reason you "
+"discarded it in a form I can eat."
+msgstr ""
+"A dream is not a wastebasket for rejected options. Bring the reason you "
+"discarded it in a form I can eat."

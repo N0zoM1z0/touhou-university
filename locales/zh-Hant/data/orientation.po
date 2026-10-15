@@ -1,0 +1,169 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. orientationSeason.0.window
+#: src/data/orientation.js:6
+msgctxt "text:orientationSeason.0.window"
+msgid "11–18 October"
+msgstr "十月十一日至十八日"
+
+#. orientationSeason.0.title
+#: src/data/orientation.js:7
+msgctxt "text:orientationSeason.0.title"
+msgid "First Bell · New Student Arrival Week"
+msgstr "第一鐘・新生到着週"
+
+#. orientationSeason.0.premise
+#: src/data/orientation.js:8
+msgctxt "text:orientationSeason.0.premise"
+msgid ""
+"Admission means the university will let you in. Arrival means knowing the "
+"gate, the way back, and the people with whom you will share campus."
+msgstr "錄取只表示校方同意你進門；報到要確認你找得到門、退路，以及願意共同生活的人。"
+
+#. orientationStopSignals.0.wood-bell.name
+#: src/data/orientation.js:25
+msgctxt "text:orientationStopSignals.0.wood-bell.name"
+msgid "Three wooden bells"
+msgstr "三聲木鐘"
+
+#. orientationStopSignals.0.wood-bell.detail
+#: src/data/orientation.js:26
+msgctxt "text:orientationStopSignals.0.wood-bell.detail"
+msgid ""
+"Stop at the first bell, find the nearest vermilion cord at the second, and "
+"move only on the third. Do not choose this if you cannot reliably hear it."
+msgstr "第一聲停下，第二聲看清最近的朱繩，第三聲才移動。聽不見木鐘的人不要選這一項。"
+
+#. orientationStopSignals.0.red-white-lamps.name
+#: src/data/orientation.js:31
+msgctxt "text:orientationStopSignals.0.red-white-lamps.name"
+msgid "Red-and-white exit lamps"
+msgstr "紅白退路燈"
+
+#. orientationStopSignals.0.red-white-lamps.detail
+#: src/data/orientation.js:32
+msgctxt "text:orientationStopSignals.0.red-white-lamps.detail"
+msgid ""
+"Red closes the original route; white lights advance along a passable "
+"boundary. The lamp bases also pulse when colour is not a usable cue."
+msgstr "紅燈表示原路停止使用，白燈沿可通行邊界逐盞亮起；不以顏色辨識時，燈座會同時震動。"
+
+#. orientationStopSignals.0.paired-cord.name
+#: src/data/orientation.js:37
+msgctxt "text:orientationStopSignals.0.paired-cord.name"
+msgid "Paired vermilion cord"
+msgstr "雙人朱繩"
+
+#. orientationStopSignals.0.paired-cord.detail
+#: src/data/orientation.js:38
+msgctxt "text:orientationStopSignals.0.paired-cord.detail"
+msgid ""
+"Each person holds one end and the route changes only after both answer. The "
+"cord preserves contact; it does not decide for either person."
+msgstr "兩人各持一端，只有彼此都回應才改道。繩子負責保持聯絡，不負責替任何人作決定。"
+
+#. orientationNoticePlans.0.archive-board.name
+#: src/data/orientation.js:46
+msgctxt "text:orientationNoticePlans.0.archive-board.name"
+msgid "Notice board + Hieda copy"
+msgstr "木板公告＋稗田留底"
+
+#. orientationNoticePlans.0.archive-board.detail
+#: src/data/orientation.js:47
+msgctxt "text:orientationNoticePlans.0.archive-board.detail"
+msgid ""
+"For anyone passing Hakurei Gate each day. The board may be replaced; the "
+"previous version remains at the archive."
+msgstr "適合每天會經過博麗門的人。公告可以換版，原版仍留在史料館。"
+
+#. orientationNoticePlans.0.tengu-correction.name
+#: src/data/orientation.js:52
+msgctxt "text:orientationNoticePlans.0.tengu-correction.name"
+msgid "Tengu post + public correction"
+msgstr "鴉天狗郵便＋公開訂正"
+
+#. orientationNoticePlans.0.tengu-correction.detail
+#: src/data/orientation.js:53
+msgctxt "text:orientationNoticePlans.0.tengu-correction.detail"
+msgid ""
+"Fastest, and therefore capable of arriving before the decision. Every "
+"edition retains its time and correction trail."
+msgstr "送得最快，也最可能比決定早到。每一版都要保留時間與訂正關係。"
+
+#. orientationNoticePlans.0.named-buddy.name
+#: src/data/orientation.js:58
+msgctxt "text:orientationNoticePlans.0.named-buddy.name"
+msgid "Named companion + personal check"
+msgstr "指定同路人＋本人覆核"
+
+#. orientationNoticePlans.0.named-buddy.detail
+#: src/data/orientation.js:59
+msgctxt "text:orientationNoticePlans.0.named-buddy.detail"
+msgid ""
+"A companion may relay a detour, but you make the final confirmation. "
+"Mind-reading still does not count as your reply."
+msgstr "同路人可以轉述改道，但最後仍由你確認。即使對方能讀心，也不能代替你的回覆。"
+
+#. orientationFirstStops.0.first-course.name
+#: src/data/orientation.js:68
+msgctxt "text:orientationFirstStops.0.first-course.name"
+msgid "Put the first course into your life"
+msgstr "把第一門課放進生活"
+
+#. orientationFirstStops.0.first-course.detail
+#: src/data/orientation.js:69
+msgctxt "text:orientationFirstStops.0.first-course.detail"
+msgid ""
+"Choose the course first; room, lunar phase, and non-ordinary clashes still "
+"need checking on the timetable."
+msgstr "課號可以先選；教室、月相與不普通衝堂仍要在課表上逐項確認。"
+
+#. orientationFirstStops.0.first-room.name
+#: src/data/orientation.js:75
+msgctxt "text:orientationFirstStops.0.first-room.name"
+msgid "State the terms of living together"
+msgstr "把共同生活條件談清楚"
+
+#. orientationFirstStops.0.first-room.detail
+#: src/data/orientation.js:76
+msgctxt "text:orientationFirstStops.0.first-room.detail"
+msgid ""
+"A suitable room is not trouble-free; it makes lunar, wingspan, water, "
+"phasing, and schedule needs visible early."
+msgstr "適合的房間不是沒有麻煩，而是月相、翼展、水域、穿牆與作息能先被看見。"
+
+#. orientationFirstStops.0.first-club.name
+#: src/data/orientation.js:82
+msgctxt "text:orientationFirstStops.0.first-club.name"
+msgid "Hear Four Seasons at Once"
+msgstr "去聽《四季同時發生》"
+
+#. orientationFirstStops.0.first-club.detail
+#: src/data/orientation.js:83
+msgctxt "text:orientationFirstStops.0.first-club.detail"
+msgid ""
+"The Fairy Choir lets a singer re-enter after forgetting a phrase. Every "
+"other society also keeps one rule it will not waive for recruitment."
+msgstr "妖精合唱團允許忘詞後重新加入；其他社團也各有一條不會為迎新方便而取消的規矩。"
+
+#. orientationFirstStops.0.first-gate.name
+#: src/data/orientation.js:89
+msgctxt "text:orientationFirstStops.0.first-gate.name"
+msgid "Watch three sole main gates open"
+msgstr "先看三扇唯一正門怎麼開"
+
+#. orientationFirstStops.0.first-gate.detail
+#: src/data/orientation.js:90
+msgctxt "text:orientationFirstStops.0.first-gate.detail"
+msgid ""
+"The operations room will not let a newcomer sign for six desks. You may "
+"still learn who disputes the gate and who is responsible for getting people "
+"home."
+msgstr "營運室不會讓新生替六桌代簽；你可以先讀清楚誰在爭門、誰負責讓人平安回來。"

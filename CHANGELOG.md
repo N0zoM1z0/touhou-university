@@ -4,6 +4,8 @@ All notable changes to the Touhou University project are recorded here.
 
 ## [Unreleased]
 
+## [0.31.0] - 2026-10-15
+
 ### Added
 
 - Added the trilingual First Bell new-student arrival week: formally admitted
@@ -32,12 +34,20 @@ All notable changes to the Touhou University project are recorded here.
 
 ### Changed
 
-- Reorganized generated site artifacts without changing public routes: the
-  nineteen GitHub Pages HTML entries remain at repository root, generated CSS
-  bundles now live under `assets/css/`, and the shared page shell now lives at
-  `src/templates/page.html`. Build, scaffolding, i18n and maintainer references
-  follow the new paths, the section scaffolder now registers its target page
-  instead of editing template includes, and builds remove legacy root CSS bundles.
+- Separated source and publication: all twenty HTML pages, CSS bundles, offline
+  papers and required browser modules build into ignored `dist/`; original
+  images and crest live in `public/`. The Pages workflow uploads only `dist/`,
+  preserving public URLs. Switched Pages Source from branch root to GitHub
+  Actions for this release.
+- Moved structured public copy into matching, owner-scoped gettext PO catalogs.
+  Added deterministic compilation, synchronization with fuzzy review and obsolete
+  memory, strict placeholder/coverage checks and generated Traditional Chinese
+  defaults. Explicit markup keys replace source-text translation at runtime.
+- Separated UI initialization declarations, Canvas spell-card simulation and
+  component stylesheet parts. Development watches source, catalogs, assets and
+  page configuration and serializes full publication builds.
+- Completed previously missing Japanese referral controls and trilingual page
+  mastheads/navigation that the former source-only language check did not cover.
 - Re-edited seventy-five high-impact Traditional Chinese, Japanese and English
   copy groups across admissions, BBS, academics, clinical care, fieldwork,
   festivals, ethics, the library and careers, then regenerated all nineteen
@@ -55,15 +65,17 @@ All notable changes to the Touhou University project are recorded here.
 
 ### Quality
 
-- Kept source strings, structured datasets, runtime fallbacks and generated
-  HTML synchronized under the full build, documentation, localization,
-  contract, knowledge, feature and interaction checks.
-- Backfilled TU-H-039 with first-parent commit
-  `ce2b2e050a6fae11014197031c6fc6ea717f06c5`; planned TU-H-040 uses exact
-  subject `Refactor generated site structure`.
-- Added unified-examination validation for cyclic answer keys and multilingual
-  option-length leakage, plus a browser regression for revision-one drafts and
-  completed attempts; regenerated all forty-eight offline papers and keys.
+- Added PO parser/compiler/merge, translator-metadata, interpolation, compiled
+  defaults, stylesheet includes and DOM-event/storage distinction regressions.
+  Publication validation checks local assets/imports and excludes authoring data.
+- Backfilled TU-H-041 with first-parent `ccaf453cca16e643aba29d6d76625e9c17bb3fca`
+  and planned TU-H-042 for `Separate translation catalogs and modularize site architecture`.
+  History validation explicitly follows main even in detached CI checkouts.
+- Retained unified-examination key/leakage and revision compatibility checks,
+  and added real-browser coverage for keyed three-language switching that keeps
+  mixed-content children and visitor-authored text intact.
+- Browser tools choose free local ports; room-availability assertions check the
+  live model and its empty state instead of assuming rooms are always open.
 
 ## [0.30.0] - 2026-08-12
 

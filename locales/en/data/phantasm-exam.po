@@ -1,0 +1,976 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. phantasmExamSections.reverse-archives.title
+#: src/data/phantasm-exam.js:27
+msgctxt "text:phantasmExamSections.reverse-archives.title"
+msgid "Reverse-Side Historiography"
+msgstr "Reverse-Side Historiography"
+
+#. phantasmExamSections.reverse-archives.note
+#: src/data/phantasm-exam.js:28
+msgctxt "text:phantasmExamSections.reverse-archives.note"
+msgid "Do not choose the more convenient world from mutually exclusive records."
+msgstr "Do not choose the more convenient world from mutually exclusive records."
+
+#. phantasmExamSections.boundary-logic.title
+#: src/data/phantasm-exam.js:33
+msgctxt "text:phantasmExamSections.boundary-logic.title"
+msgid "Boundary and Contradiction Reasoning"
+msgstr "Boundary and Contradiction Reasoning"
+
+#. phantasmExamSections.boundary-logic.note
+#: src/data/phantasm-exam.js:34
+msgctxt "text:phantasmExamSections.boundary-logic.note"
+msgid "A contradiction may be retained; it may not license an arbitrary conclusion."
+msgstr "A contradiction may be retained; it may not license an arbitrary conclusion."
+
+#. phantasmExamSections.untaken-causality.title
+#: src/data/phantasm-exam.js:39
+msgctxt "text:phantasmExamSections.untaken-causality.title"
+msgid "Untaken Causality and Record Boundaries"
+msgstr "Untaken Causality and Record Boundaries"
+
+#. phantasmExamSections.untaken-causality.note
+#: src/data/phantasm-exam.js:40
+msgctxt "text:phantasmExamSections.untaken-causality.note"
+msgid ""
+"Dreams may retain unchosen branches; simulations may not impersonate waking "
+"counterfactuals."
+msgstr ""
+"Dreams may retain unchosen branches; simulations may not impersonate waking "
+"counterfactuals."
+
+#. phantasmExamQuestions.0.PH-R01.3
+#: src/data/phantasm-exam.js:49
+msgctxt "text:phantasmExamQuestions.0.PH-R01.3"
+msgid ""
+"[One file: TU-I-17]\nFront, 14:00: closure adopts hypothesis A; B is excluded "
+"for lack of a windway log.\nReverse, after the ninth strike: B becomes dream "
+"history and cites the 'missing windway log' as evidence that the record was "
+"eaten."
+msgstr ""
+"[One file: TU-I-17]\nFront, 14:00: closure adopts hypothesis A; B is excluded "
+"for lack of a windway log.\nReverse, after the ninth strike: B becomes dream "
+"history and cites the 'missing windway log' as evidence that the record was "
+"eaten."
+
+#. phantasmExamQuestions.0.PH-R01.4
+#: src/data/phantasm-exam.js:50
+msgctxt "text:phantasmExamQuestions.0.PH-R01.4"
+msgid ""
+"Which catalogue treatment preserves the reverse source without rewriting the "
+"completed official closure?"
+msgstr ""
+"Which catalogue treatment preserves the reverse source without rewriting the "
+"completed official closure?"
+
+#. phantasmExamQuestions.0.PH-R01.5.0
+#: src/data/phantasm-exam.js:52
+msgctxt "text:phantasmExamQuestions.0.PH-R01.5.0"
+msgid ""
+"Replace the official closure because the reverse is later, mark the original "
+"obsolete, and reuse its source number to preserve apparent traceability"
+msgstr ""
+"Replace the official closure because the reverse is later, mark the original "
+"obsolete, and reuse its source number to preserve apparent traceability"
+
+#. phantasmExamQuestions.0.PH-R01.5.1
+#: src/data/phantasm-exam.js:53
+msgctxt "text:phantasmExamQuestions.0.PH-R01.5.1"
+msgid ""
+"Append B as an official correction while retaining A's score and closure "
+"time, reducing the reverse marker to an internal grader note"
+msgstr ""
+"Append B as an official correction while retaining A's score and closure "
+"time, reducing the reverse marker to an internal grader note"
+
+#. phantasmExamQuestions.0.PH-R01.5.2
+#: src/data/phantasm-exam.js:54
+msgctxt "text:phantasmExamQuestions.0.PH-R01.5.2"
+msgid ""
+"Keep official closure and dream edition separately, link both to the same "
+"source, and mark their incompatible validity boundaries"
+msgstr ""
+"Keep official closure and dream edition separately, link both to the same "
+"source, and mark their incompatible validity boundaries"
+
+#. phantasmExamQuestions.0.PH-R01.5.3
+#: src/data/phantasm-exam.js:55
+msgctxt "text:phantasmExamQuestions.0.PH-R01.5.3"
+msgid ""
+"Merge A and B as 'partly supported' to avoid opposing conclusions, attaching "
+"both summaries and their shared source number without identifying front or "
+"reverse"
+msgstr ""
+"Merge A and B as 'partly supported' to avoid opposing conclusions, attaching "
+"both summaries and their shared source number without identifying front or "
+"reverse"
+
+#. phantasmExamQuestions.0.PH-R01.7
+#: src/data/phantasm-exam.js:58
+msgctxt "text:phantasmExamQuestions.0.PH-R01.7"
+msgid ""
+"PHANTASM does not retry the case for the dream. It gives an excluded branch "
+"a traceable place; sources may be shared, validity boundaries may not be "
+"swapped."
+msgstr ""
+"PHANTASM does not retry the case for the dream. It gives an excluded branch "
+"a traceable place; sources may be shared, validity boundaries may not be "
+"swapped."
+
+#. phantasmExamQuestions.1.PH-R02.3
+#: src/data/phantasm-exam.js:64
+msgctxt "text:phantasmExamQuestions.1.PH-R02.3"
+msgid ""
+"[Before and after dream consumption]\n08:58: the reverse paragraph has "
+"checksum K9-441; two graders copy it independently.\n09:00: Doremy "
+"acknowledges eating that dream.\n09:01: its location is blank; the front "
+"record never contained the paragraph."
+msgstr ""
+"[Before and after dream consumption]\n08:58: the reverse paragraph has "
+"checksum K9-441; two graders copy it independently.\n09:00: Doremy "
+"acknowledges eating that dream.\n09:01: its location is blank; the front "
+"record never contained the paragraph."
+
+#. phantasmExamQuestions.1.PH-R02.4
+#: src/data/phantasm-exam.js:65
+msgctxt "text:phantasmExamQuestions.1.PH-R02.4"
+msgid "What is the most rigorous interpretation of the blank at 09:01?"
+msgstr "What is the most rigorous interpretation of the blank at 09:01?"
+
+#. phantasmExamQuestions.1.PH-R02.5.0
+#: src/data/phantasm-exam.js:67
+msgctxt "text:phantasmExamQuestions.1.PH-R02.5.0"
+msgid ""
+"Retain the pre-consumption snapshot and consumption event, treating the "
+"blank as mechanism-linked missingness rather than proof the paragraph never "
+"existed"
+msgstr ""
+"Retain the pre-consumption snapshot and consumption event, treating the "
+"blank as mechanism-linked missingness rather than proof the paragraph never "
+"existed"
+
+#. phantasmExamQuestions.1.PH-R02.5.1
+#: src/data/phantasm-exam.js:68
+msgctxt "text:phantasmExamQuestions.1.PH-R02.5.1"
+msgid ""
+"Treat the current blank as the highest version and revoke both copies "
+"because reverse content should not outlive its page"
+msgstr ""
+"Treat the current blank as the highest version and revoke both copies "
+"because reverse content should not outlive its page"
+
+#. phantasmExamQuestions.1.PH-R02.5.2
+#: src/data/phantasm-exam.js:69
+msgctxt "text:phantasmExamQuestions.1.PH-R02.5.2"
+msgid ""
+"Reconstruct the full text from both graders and label it the pre-consumption "
+"original rather than a derivative copy"
+msgstr ""
+"Reconstruct the full text from both graders and label it the pre-consumption "
+"original rather than a derivative copy"
+
+#. phantasmExamQuestions.1.PH-R02.5.3
+#: src/data/phantasm-exam.js:70
+msgctxt "text:phantasmExamQuestions.1.PH-R02.5.3"
+msgid ""
+"Count Doremy's acknowledgment as a third matching copy and use a three-vote "
+"majority to establish the wording"
+msgstr ""
+"Count Doremy's acknowledgment as a third matching copy and use a three-vote "
+"majority to establish the wording"
+
+#. phantasmExamQuestions.1.PH-R02.7
+#: src/data/phantasm-exam.js:73
+msgctxt "text:phantasmExamQuestions.1.PH-R02.7"
+msgid ""
+"An observed deletion mechanism changes what a blank means. Consumption "
+"supports prior existence followed by missingness, but supplies no new "
+"verbatim evidence of the lost text."
+msgstr ""
+"An observed deletion mechanism changes what a blank means. Consumption "
+"supports prior existence followed by missingness, but supplies no new "
+"verbatim evidence of the lost text."
+
+#. phantasmExamQuestions.2.PH-R03.3
+#: src/data/phantasm-exam.js:79
+msgctxt "text:phantasmExamQuestions.2.PH-R03.3"
+msgid ""
+"[Yakumo boundary notice]\nFront: no passage after the ninth strike.\nReverse: "
+"passage only after the ninth strike.\nThe page turns itself at 09:00; the "
+"candidate crosses at 09:02 and wakes at 09:04 with the front showing again."
+msgstr ""
+"[Yakumo boundary notice]\nFront: no passage after the ninth strike.\nReverse: "
+"passage only after the ninth strike.\nThe page turns itself at 09:00; the "
+"candidate crosses at 09:02 and wakes at 09:04 with the front showing again."
+
+#. phantasmExamQuestions.2.PH-R03.4
+#: src/data/phantasm-exam.js:80
+msgctxt "text:phantasmExamQuestions.2.PH-R03.4"
+msgid "Which passage record is sufficient to reproduce the decision?"
+msgstr "Which passage record is sufficient to reproduce the decision?"
+
+#. phantasmExamQuestions.2.PH-R03.5.0
+#: src/data/phantasm-exam.js:82
+msgctxt "text:phantasmExamQuestions.2.PH-R03.5.0"
+msgid ""
+"Record legal passage at 09:02; once crossed, the side shown after waking "
+"cannot affect validity"
+msgstr ""
+"Record legal passage at 09:02; once crossed, the side shown after waking "
+"cannot affect validity"
+
+#. phantasmExamQuestions.2.PH-R03.5.1
+#: src/data/phantasm-exam.js:83
+msgctxt "text:phantasmExamQuestions.2.PH-R03.5.1"
+msgid ""
+"Mark the notice self-contradictory and void both rules, retaining only that "
+"the candidate reached the other side"
+msgstr ""
+"Mark the notice self-contradictory and void both rules, retaining only that "
+"the candidate reached the other side"
+
+#. phantasmExamQuestions.2.PH-R03.5.2
+#: src/data/phantasm-exam.js:84
+msgctxt "text:phantasmExamQuestions.2.PH-R03.5.2"
+msgid ""
+"Use the 09:04 front as final, retroactively mark 09:02 unlawful, and retain "
+"the turn time only as a display fault that cannot alter validity"
+msgstr ""
+"Use the 09:04 front as final, retroactively mark 09:02 unlawful, and retain "
+"the turn time only as a display fault that cannot alter validity"
+
+#. phantasmExamQuestions.2.PH-R03.5.3
+#: src/data/phantasm-exam.js:85
+msgctxt "text:phantasmExamQuestions.2.PH-R03.5.3"
+msgid ""
+"Record wording, page side, turn event, crossing time, and applicable "
+"boundary; judge 09:02 only within that condition set"
+msgstr ""
+"Record wording, page side, turn event, crossing time, and applicable "
+"boundary; judge 09:02 only within that condition set"
+
+#. phantasmExamQuestions.2.PH-R03.7
+#: src/data/phantasm-exam.js:88
+msgctxt "text:phantasmExamQuestions.2.PH-R03.7"
+msgid ""
+"The proposition's truth depends on side and time. Saving only the sentence "
+"or final display loses the boundary actually in force."
+msgstr ""
+"The proposition's truth depends on side and time. Saving only the sentence "
+"or final display loses the boundary actually in force."
+
+#. phantasmExamQuestions.3.PH-B01.3
+#: src/data/phantasm-exam.js:94
+msgctxt "text:phantasmExamQuestions.3.PH-B01.3"
+msgid ""
+"[Non-explosion rule] A contradiction remains inside the file that produced "
+"it and cannot entail an unrelated proposition.\nFront record: candidate "
+"enrolled in PH-009.\nReverse record: candidate never enrolled in "
+"PH-009.\nLibrary file: evidence is insufficient on whether LIB-NULL opens "
+"today."
+msgstr ""
+"[Non-explosion rule] A contradiction remains inside the file that produced "
+"it and cannot entail an unrelated proposition.\nFront record: candidate "
+"enrolled in PH-009.\nReverse record: candidate never enrolled in "
+"PH-009.\nLibrary file: evidence is insufficient on whether LIB-NULL opens "
+"today."
+
+#. phantasmExamQuestions.3.PH-B01.4
+#: src/data/phantasm-exam.js:95
+msgctxt "text:phantasmExamQuestions.3.PH-B01.4"
+msgid "Which conclusion is valid under the rule?"
+msgstr "Which conclusion is valid under the rule?"
+
+#. phantasmExamQuestions.3.PH-B01.5.0
+#: src/data/phantasm-exam.js:97
+msgctxt "text:phantasmExamQuestions.3.PH-B01.5.0"
+msgid ""
+"Because PH-009 is both enrolled and unenrolled, any course state follows, "
+"including LIB-NULL opening today"
+msgstr ""
+"Because PH-009 is both enrolled and unenrolled, any course state follows, "
+"including LIB-NULL opening today"
+
+#. phantasmExamQuestions.3.PH-B01.5.1
+#: src/data/phantasm-exam.js:98
+msgctxt "text:phantasmExamQuestions.3.PH-B01.5.1"
+msgid ""
+"The records conflict locally about PH-009; absent new library evidence, "
+"LIB-NULL remains undetermined"
+msgstr ""
+"The records conflict locally about PH-009; absent new library evidence, "
+"LIB-NULL remains undetermined"
+
+#. phantasmExamQuestions.3.PH-B01.5.2
+#: src/data/phantasm-exam.js:99
+msgctxt "text:phantasmExamQuestions.3.PH-B01.5.2"
+msgid ""
+"Because the front is official, every reverse proposition is false; LIB-NULL "
+"should inherit that day's ordinary-library hours and duty rules"
+msgstr ""
+"Because the front is official, every reverse proposition is false; LIB-NULL "
+"should inherit that day's ordinary-library hours and duty rules"
+
+#. phantasmExamQuestions.3.PH-B01.5.3
+#: src/data/phantasm-exam.js:100
+msgctxt "text:phantasmExamQuestions.3.PH-B01.5.3"
+msgid ""
+"Because the reverse is PHANTASM, contradiction itself is true; LIB-NULL may "
+"be open and closed at once, with service chosen by arrival side"
+msgstr ""
+"Because the reverse is PHANTASM, contradiction itself is true; LIB-NULL may "
+"be open and closed at once, with service chosen by arrival side"
+
+#. phantasmExamQuestions.3.PH-B01.7
+#: src/data/phantasm-exam.js:103
+msgctxt "text:phantasmExamQuestions.3.PH-B01.7"
+msgid ""
+"Non-explosive reasoning preserves a local inconsistency without turning it "
+"into a blank cheque. The library question still needs its own evidence."
+msgstr ""
+"Non-explosive reasoning preserves a local inconsistency without turning it "
+"into a blank cheque. The library question still needs its own evidence."
+
+#. phantasmExamQuestions.4.PH-B02.3
+#: src/data/phantasm-exam.js:109
+msgctxt "text:phantasmExamQuestions.4.PH-B02.3"
+msgid ""
+"[Clock version chain]\nK1 original: before → ninth → after.\nK2 reverse: "
+"before → never; metadata says it was produced by erasing K1's middle at the "
+"ninth strike.\nK3 summary calls K1 and K2 observations from two independent "
+"clocks."
+msgstr ""
+"[Clock version chain]\nK1 original: before → ninth → after.\nK2 reverse: "
+"before → never; metadata says it was produced by erasing K1's middle at the "
+"ninth strike.\nK3 summary calls K1 and K2 observations from two independent "
+"clocks."
+
+#. phantasmExamQuestions.4.PH-B02.4
+#: src/data/phantasm-exam.js:110
+msgctxt "text:phantasmExamQuestions.4.PH-B02.4"
+msgid "How should K3 be assessed?"
+msgstr "How should K3 be assessed?"
+
+#. phantasmExamQuestions.4.PH-B02.5.0
+#: src/data/phantasm-exam.js:112
+msgctxt "text:phantasmExamQuestions.4.PH-B02.5.0"
+msgid ""
+"K1 and K2 differ, so they count as independent replication; derivation "
+"affects only storage format"
+msgstr ""
+"K1 and K2 differ, so they count as independent replication; derivation "
+"affects only storage format"
+
+#. phantasmExamQuestions.4.PH-B02.5.1
+#: src/data/phantasm-exam.js:113
+msgctxt "text:phantasmExamQuestions.4.PH-B02.5.1"
+msgid "K2 has less information but remains independent; K3 need only down-weight it"
+msgstr "K2 has less information but remains independent; K3 need only down-weight it"
+
+#. phantasmExamQuestions.4.PH-B02.5.2
+#: src/data/phantasm-exam.js:114
+msgctxt "text:phantasmExamQuestions.4.PH-B02.5.2"
+msgid ""
+"K2's never shows that K1's ninth is hindsight bias, so K2 should correct K1; "
+"then count corrected K1 and K2 as two independent observations confirming "
+"each other"
+msgstr ""
+"K2's never shows that K1's ninth is hindsight bias, so K2 should correct K1; "
+"then count corrected K1 and K2 as two independent observations confirming "
+"each other"
+
+#. phantasmExamQuestions.4.PH-B02.5.3
+#: src/data/phantasm-exam.js:115
+msgctxt "text:phantasmExamQuestions.4.PH-B02.5.3"
+msgid ""
+"K2 is a transformed descendant of K1, not a second observation; K3 must "
+"retain the derivation edge and withdraw the replication claim"
+msgstr ""
+"K2 is a transformed descendant of K1, not a second observation; K3 must "
+"retain the derivation edge and withdraw the replication claim"
+
+#. phantasmExamQuestions.4.PH-B02.7
+#: src/data/phantasm-exam.js:118
+msgctxt "text:phantasmExamQuestions.4.PH-B02.7"
+msgid ""
+"Different content does not imply independent provenance. PHANTASM must ask "
+"whether 'never happened' was observed or manufactured by erasure."
+msgstr ""
+"Different content does not imply independent provenance. PHANTASM must ask "
+"whether 'never happened' was observed or manufactured by erasure."
+
+#. phantasmExamQuestions.5.PH-B03.3
+#: src/data/phantasm-exam.js:124
+msgctxt "text:phantasmExamQuestions.5.PH-B03.3"
+msgid ""
+"[Circular publications]\nFirst edition: 'Paper cancelled; see ninth "
+"edition.'\nNinth edition: 'Cancellation is true because the queue vanished "
+"after the first edition.'\nCorrection: issued because the first edition "
+"disrupted the queue, citing the ninth edition as proof cancellation was "
+"already effective.\nGate log: candidates were admitted throughout."
+msgstr ""
+"[Circular publications]\nFirst edition: 'Paper cancelled; see ninth "
+"edition.'\nNinth edition: 'Cancellation is true because the queue vanished "
+"after the first edition.'\nCorrection: issued because the first edition "
+"disrupted the queue, citing the ninth edition as proof cancellation was "
+"already effective.\nGate log: candidates were admitted throughout."
+
+#. phantasmExamQuestions.5.PH-B03.4
+#: src/data/phantasm-exam.js:125
+msgctxt "text:phantasmExamQuestions.5.PH-B03.4"
+msgid "What is the best evidence-graph conclusion?"
+msgstr "What is the best evidence-graph conclusion?"
+
+#. phantasmExamQuestions.5.PH-B03.5.0
+#: src/data/phantasm-exam.js:127
+msgctxt "text:phantasmExamQuestions.5.PH-B03.5.0"
+msgid ""
+"The three publications form a dependency cycle and cannot independently "
+"support one another; cancellation must be judged from out-of-cycle evidence "
+"such as the gate log"
+msgstr ""
+"The three publications form a dependency cycle and cannot independently "
+"support one another; cancellation must be judged from out-of-cycle evidence "
+"such as the gate log"
+
+#. phantasmExamQuestions.5.PH-B03.5.1
+#: src/data/phantasm-exam.js:128
+msgctxt "text:phantasmExamQuestions.5.PH-B03.5.1"
+msgid ""
+"The correction is latest and therefore authoritative; citing the ninth "
+"edition breaks the cycle originating in the first"
+msgstr ""
+"The correction is latest and therefore authoritative; citing the ninth "
+"edition breaks the cycle originating in the first"
+
+#. phantasmExamQuestions.5.PH-B03.5.2
+#: src/data/phantasm-exam.js:129
+msgctxt "text:phantasmExamQuestions.5.PH-B03.5.2"
+msgid ""
+"The vanished queue verifies cancellation; continued admission merely shows "
+"candidates ignored the notice"
+msgstr ""
+"The vanished queue verifies cancellation; continued admission merely shows "
+"candidates ignored the notice"
+
+#. phantasmExamQuestions.5.PH-B03.5.3
+#: src/data/phantasm-exam.js:130
+msgctxt "text:phantasmExamQuestions.5.PH-B03.5.3"
+msgid ""
+"The first edition accurately predicts the ninth and precedes it, so the "
+"cycle counts as predictive replication in the dream and the correction as a "
+"third time-ordered verification"
+msgstr ""
+"The first edition accurately predicts the ninth and precedes it, so the "
+"cycle counts as predictive replication in the dream and the correction as a "
+"third time-ordered verification"
+
+#. phantasmExamQuestions.5.PH-B03.7
+#: src/data/phantasm-exam.js:133
+msgctxt "text:phantasmExamQuestions.5.PH-B03.7"
+msgid ""
+"Circular citations should be preserved, but repetition around a loop creates "
+"no independent evidence. The gate log sits outside the loop and directly "
+"measures admission."
+msgstr ""
+"Circular citations should be preserved, but repetition around a loop creates "
+"no independent evidence. The gate log sits outside the loop and directly "
+"measures admission."
+
+#. phantasmExamQuestions.6.PH-C01.3
+#: src/data/phantasm-exam.js:139
+msgctxt "text:phantasmExamQuestions.6.PH-C01.3"
+msgid ""
+"[Two timetables for one student number]\nOfficial: TU-17 dropped BND-204 at "
+"08:40.\nDream: TU-17 was automatically enrolled in BND-204 at the ninth "
+"strike, room behind the original room.\nThe export tool currently "
+"deduplicates only by student ID plus course code."
+msgstr ""
+"[Two timetables for one student number]\nOfficial: TU-17 dropped BND-204 at "
+"08:40.\nDream: TU-17 was automatically enrolled in BND-204 at the ninth "
+"strike, room behind the original room.\nThe export tool currently "
+"deduplicates only by student ID plus course code."
+
+#. phantasmExamQuestions.6.PH-C01.4
+#: src/data/phantasm-exam.js:140
+msgctxt "text:phantasmExamQuestions.6.PH-C01.4"
+msgid "Which change prevents one record from being wrongly deleted?"
+msgstr "Which change prevents one record from being wrongly deleted?"
+
+#. phantasmExamQuestions.6.PH-C01.5.0
+#: src/data/phantasm-exam.js:142
+msgctxt "text:phantasmExamQuestions.6.PH-C01.5.0"
+msgid ""
+"Keep the newer dream enrolment because one student-course pair can have only "
+"one current state"
+msgstr ""
+"Keep the newer dream enrolment because one student-course pair can have only "
+"one current state"
+
+#. phantasmExamQuestions.6.PH-C01.5.1
+#: src/data/phantasm-exam.js:143
+msgctxt "text:phantasmExamQuestions.6.PH-C01.5.1"
+msgid ""
+"Keep the official drop and convert dream enrolment to anonymous auditing "
+"without a student ID"
+msgstr ""
+"Keep the official drop and convert dream enrolment to anonymous auditing "
+"without a student ID"
+
+#. phantasmExamQuestions.6.PH-C01.5.2
+#: src/data/phantasm-exam.js:144
+msgctxt "text:phantasmExamQuestions.6.PH-C01.5.2"
+msgid ""
+"Add boundary, branch/version, and effective time to the identity key; keep "
+"the shared student-course link, but deduplicate only inside one validity "
+"domain"
+msgstr ""
+"Add boundary, branch/version, and effective time to the identity key; keep "
+"the shared student-course link, but deduplicate only inside one validity "
+"domain"
+
+#. phantasmExamQuestions.6.PH-C01.5.3
+#: src/data/phantasm-exam.js:145
+msgctxt "text:phantasmExamQuestions.6.PH-C01.5.3"
+msgid ""
+"Merge enrolment and drop as 'status unknown,' retaining one record without "
+"favouring either campus; leave both source times in a note and choose the "
+"newer one wherever a downstream boolean is required"
+msgstr ""
+"Merge enrolment and drop as 'status unknown,' retaining one record without "
+"favouring either campus; leave both source times in a note and choose the "
+"newer one wherever a downstream boolean is required"
+
+#. phantasmExamQuestions.6.PH-C01.7
+#: src/data/phantasm-exam.js:148
+msgctxt "text:phantasmExamQuestions.6.PH-C01.7"
+msgid ""
+"A shared student ID identifies the person, not a shared validity world. "
+"Deduplication must respect the boundary."
+msgstr ""
+"A shared student ID identifies the person, not a shared validity world. "
+"Deduplication must respect the boundary."
+
+#. phantasmExamQuestions.7.PH-C02.3
+#: src/data/phantasm-exam.js:154
+msgctxt "text:phantasmExamQuestions.7.PH-C02.3"
+msgid ""
+"[Untaken-route evaluation]\nThe candidate chose method A after judging the "
+"case high-risk; official result: 62.\nThe dream simulates unchosen method B "
+"on the same candidate and returns 91; B depends on a moonshadow variable "
+"unobserved while awake.\nThe researcher claims 'B would improve the score by "
+"29.'"
+msgstr ""
+"[Untaken-route evaluation]\nThe candidate chose method A after judging the "
+"case high-risk; official result: 62.\nThe dream simulates unchosen method B "
+"on the same candidate and returns 91; B depends on a moonshadow variable "
+"unobserved while awake.\nThe researcher claims 'B would improve the score by "
+"29.'"
+
+#. phantasmExamQuestions.7.PH-C02.4
+#: src/data/phantasm-exam.js:155
+msgctxt "text:phantasmExamQuestions.7.PH-C02.4"
+msgid "What is the soundest assessment and follow-up design?"
+msgstr "What is the soundest assessment and follow-up design?"
+
+#. phantasmExamQuestions.7.PH-C02.5.0
+#: src/data/phantasm-exam.js:157
+msgctxt "text:phantasmExamQuestions.7.PH-C02.5.0"
+msgid ""
+"Using the same candidate removes individual differences, so 91−62 is B's "
+"individual causal effect; moonshadow is merely a dream-runtime detail"
+msgstr ""
+"Using the same candidate removes individual differences, so 91−62 is B's "
+"individual causal effect; moonshadow is merely a dream-runtime detail"
+
+#. phantasmExamQuestions.7.PH-C02.5.1
+#: src/data/phantasm-exam.js:158
+msgctxt "text:phantasmExamQuestions.7.PH-C02.5.1"
+msgid ""
+"The difference mixes selection, simulation, and an unobserved variable; "
+"prospectively assign A/B within permitted paired dream replicas, preserve "
+"parameters and versions, and never write back to the official score"
+msgstr ""
+"The difference mixes selection, simulation, and an unobserved variable; "
+"prospectively assign A/B within permitted paired dream replicas, preserve "
+"parameters and versions, and never write back to the official score"
+
+#. phantasmExamQuestions.7.PH-C02.5.2
+#: src/data/phantasm-exam.js:159
+msgctxt "text:phantasmExamQuestions.7.PH-C02.5.2"
+msgid ""
+"Set moonshadow to the pooled mean, rerun across dream seeds for an interval, "
+"and generalise to the ordinary campus if it remains near 29"
+msgstr ""
+"Set moonshadow to the pooled mean, rerun across dream seeds for an interval, "
+"and generalise to the ordinary campus if it remains near 29"
+
+#. phantasmExamQuestions.7.PH-C02.5.3
+#: src/data/phantasm-exam.js:160
+msgctxt "text:phantasmExamQuestions.7.PH-C02.5.3"
+msgid ""
+"Because B was unchosen, further testing is unethical; retain model version, "
+"selection reason, and the dream-descriptive 29, but build no identification "
+"design"
+msgstr ""
+"Because B was unchosen, further testing is unethical; retain model version, "
+"selection reason, and the dream-descriptive 29, but build no identification "
+"design"
+
+#. phantasmExamQuestions.7.PH-C02.7
+#: src/data/phantasm-exam.js:163
+msgctxt "text:phantasmExamQuestions.7.PH-C02.7"
+msgid ""
+"The same person is not the same observable world-line. Selection and "
+"unobserved moonshadow make 29 unidentified; the dream may improve design, "
+"not manufacture a waking counterfactual."
+msgstr ""
+"The same person is not the same observable world-line. Selection and "
+"unobserved moonshadow make 29 unidentified; the dream may improve design, "
+"not manufacture a waking counterfactual."
+
+#. phantasmExamQuestions.8.PH-C03.3
+#: src/data/phantasm-exam.js:169
+msgctxt "text:phantasmExamQuestions.8.PH-C03.3"
+msgid ""
+"[Reverse capstone conditions]\n1. Six official records remain valid on the "
+"ordinary campus.\n2. Six unchosen branches are each internally coherent in "
+"the dream.\n3. One branch depends on a consumed paragraph; only its checksum "
+"and two copies remain.\n4. Dream credits cannot enter the official "
+"transcript.\n5. The purpose is to preserve what excluded proposals can teach, "
+"not retry them."
+msgstr ""
+"[Reverse capstone conditions]\n1. Six official records remain valid on the "
+"ordinary campus.\n2. Six unchosen branches are each internally coherent in "
+"the dream.\n3. One branch depends on a consumed paragraph; only its checksum "
+"and two copies remain.\n4. Dream credits cannot enter the official "
+"transcript.\n5. The purpose is to preserve what excluded proposals can teach, "
+"not retry them."
+
+#. phantasmExamQuestions.8.PH-C03.4
+#: src/data/phantasm-exam.js:170
+msgctxt "text:phantasmExamQuestions.8.PH-C03.4"
+msgid "Which final ruling satisfies every condition?"
+msgstr "Which final ruling satisfies every condition?"
+
+#. phantasmExamQuestions.8.PH-C03.5.0
+#: src/data/phantasm-exam.js:172
+msgctxt "text:phantasmExamQuestions.8.PH-C03.5.0"
+msgid ""
+"Keep the six official outcomes externally valid; store six dream branches "
+"separately with boundaries, provenance, and missingness mechanism; link "
+"lessons to their source files without changing official conclusions or "
+"transferring credit"
+msgstr ""
+"Keep the six official outcomes externally valid; store six dream branches "
+"separately with boundaries, provenance, and missingness mechanism; link "
+"lessons to their source files without changing official conclusions or "
+"transferring credit"
+
+#. phantasmExamQuestions.8.PH-C03.5.1
+#: src/data/phantasm-exam.js:173
+msgctxt "text:phantasmExamQuestions.8.PH-C03.5.1"
+msgid ""
+"Compare coherence, version completeness, and copy count case by case; "
+"promote stronger dream branches to official corrections and transfer only "
+"their dream credit"
+msgstr ""
+"Compare coherence, version completeness, and copy count case by case; "
+"promote stronger dream branches to official corrections and transfer only "
+"their dream credit"
+
+#. phantasmExamQuestions.8.PH-C03.5.2
+#: src/data/phantasm-exam.js:174
+msgctxt "text:phantasmExamQuestions.8.PH-C03.5.2"
+msgid ""
+"Because official conclusions already exist, mark all dream material "
+"inadmissible and keep the checksum, copies, and consumption event only in "
+"private memory"
+msgstr ""
+"Because official conclusions already exist, mark all dream material "
+"inadmissible and keep the checksum, copies, and consumption event only in "
+"private memory"
+
+#. phantasmExamQuestions.8.PH-C03.5.3
+#: src/data/phantasm-exam.js:175
+msgctxt "text:phantasmExamQuestions.8.PH-C03.5.3"
+msgid ""
+"Merge front and reverse into one probability distribution, replace validity "
+"boundaries with uncertainty, adjust posterior weights for provenance "
+"completeness and dream-consumption risk, then post probability-weighted "
+"dream credit officially"
+msgstr ""
+"Merge front and reverse into one probability distribution, replace validity "
+"boundaries with uncertainty, adjust posterior weights for provenance "
+"completeness and dream-consumption risk, then post probability-weighted "
+"dream credit officially"
+
+#. phantasmExamQuestions.8.PH-C03.7
+#: src/data/phantasm-exam.js:178
+msgctxt "text:phantasmExamQuestions.8.PH-C03.7"
+msgid ""
+"The highest difficulty is not choosing one world. It keeps validity, "
+"provenance, missingness, and pedagogical use separate, allowing the dream to "
+"tell truths without impersonating the official ledger."
+msgstr ""
+"The highest difficulty is not choosing one world. It keeps validity, "
+"provenance, missingness, and pedagogical use separate, allowing the dream to "
+"tell truths without impersonating the official ledger."
+
+#. phantasmExamCopy/eyebrow
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/eyebrow"
+msgid "GKE-2026 / REVERSE-SIDE PAPER"
+msgstr "GKE-2026 / REVERSE-SIDE PAPER"
+
+#. phantasmExamCopy/title
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/title"
+msgid "Gensokyo Unified Examination · PHANTASM Common Reverse Paper"
+msgstr "Gensokyo Unified Examination · PHANTASM Common Reverse Paper"
+
+#. phantasmExamCopy/lead
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/lead"
+msgid ""
+"EXTRA follows versions and causes within one world-line. PHANTASM makes you "
+"retain incompatible worlds at once without letting either steal the other's "
+"authority."
+msgstr ""
+"EXTRA follows versions and causes within one world-line. PHANTASM makes you "
+"retain incompatible worlds at once without letting either steal the other's "
+"authority."
+
+#. phantasmExamCopy/prerequisite
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/prerequisite"
+msgid "Opening condition"
+msgstr "Opening condition"
+
+#. phantasmExamCopy/extraFound
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/extraFound"
+msgid ""
+"An ordinary-campus EXTRA submission seal shows through the paper. "
+"Reverse-side text is authorised to appear."
+msgstr ""
+"An ordinary-campus EXTRA submission seal shows through the paper. "
+"Reverse-side text is authorised to appear."
+
+#. phantasmExamCopy/extraMissing
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/extraMissing"
+msgid ""
+"The sheet says only: Finish EXTRA first. Either track qualifies; the score "
+"is not the threshold. Complete one whole world-line."
+msgstr ""
+"The sheet says only: Finish EXTRA first. Either track qualifies; the score "
+"is not the threshold. Complete one whole world-line."
+
+#. phantasmExamCopy/start
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/start"
+msgid "Turn over and begin"
+msgstr "Turn over and begin"
+
+#. phantasmExamCopy/resume
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/resume"
+msgid "Resume reverse paper"
+msgstr "Resume reverse paper"
+
+#. phantasmExamCopy/restart
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/restart"
+msgid "Issue another reverse paper"
+msgstr "Issue another reverse paper"
+
+#. phantasmExamCopy/records
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/records"
+msgid "Dream attempt history"
+msgstr "Dream attempt history"
+
+#. phantasmExamCopy/noRecords
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/noRecords"
+msgid "No PHANTASM submission is stored. Ordinary Exams also denies printing this paper."
+msgstr "No PHANTASM submission is stored. Ordinary Exams also denies printing this paper."
+
+#. phantasmExamCopy/paper
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/paper"
+msgid "Common reverse paper"
+msgstr "Common reverse paper"
+
+#. phantasmExamCopy/instructions
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/instructions"
+msgid "Candidate rules"
+msgstr "Candidate rules"
+
+#. phantasmExamCopy/rules/0
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/rules/0"
+msgid ""
+"Nine questions, three parts, 150 marks. Untimed: the ninth strike does not "
+"promise to move forward."
+msgstr ""
+"Nine questions, three parts, 150 marks. Untimed: the ninth strike does not "
+"promise to move forward."
+
+#. phantasmExamCopy/rules/1
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/rules/1"
+msgid ""
+"Every item has one best answer. Contradictions may be retained, but cannot "
+"entail claims outside their file."
+msgstr ""
+"Every item has one best answer. Contradictions may be retained, but cannot "
+"entail claims outside their file."
+
+#. phantasmExamCopy/rules/2
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/rules/2"
+msgid ""
+"Front and reverse may cite the same source; version, boundary, effective "
+"time, and missingness mechanism remain distinct."
+msgstr ""
+"Front and reverse may cite the same source; version, boundary, effective "
+"time, and missingness mechanism remain distinct."
+
+#. phantasmExamCopy/rules/3
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/rules/3"
+msgid ""
+"Drafts and results stay in dream files only. They never enter My TU, the "
+"official transcript, or the campus event ledger."
+msgstr ""
+"Drafts and results stay in dream files only. They never enter My TU, the "
+"official transcript, or the campus event ledger."
+
+#. phantasmExamCopy/answered
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/answered"
+msgid "Answered"
+msgstr "Answered"
+
+#. phantasmExamCopy/points
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/points"
+msgid "marks"
+msgstr "marks"
+
+#. phantasmExamCopy/submit
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/submit"
+msgid "Seal reverse answer sheet"
+msgstr "Seal reverse answer sheet"
+
+#. phantasmExamCopy/submitConfirm
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/submitConfirm"
+msgid "Some items are unanswered. A blank is evidence in PHANTASM too. Submit anyway?"
+msgstr "Some items are unanswered. A blank is evidence in PHANTASM too. Submit anyway?"
+
+#. phantasmExamCopy/saved
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/saved"
+msgid "Reverse answers saved in this device's dream files."
+msgstr "Reverse answers saved in this device's dream files."
+
+#. phantasmExamCopy/result
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/result"
+msgid "PHANTASM Reverse-Side Result"
+msgstr "PHANTASM Reverse-Side Result"
+
+#. phantasmExamCopy/score
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/score"
+msgid "Dream score"
+msgstr "Dream score"
+
+#. phantasmExamCopy/correct
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/correct"
+msgid "Correct"
+msgstr "Correct"
+
+#. phantasmExamCopy/excellent
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/excellent"
+msgid "You retained two worlds without letting either impersonate the other."
+msgstr "You retained two worlds without letting either impersonate the other."
+
+#. phantasmExamCopy/pass
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/pass"
+msgid "The boundary mostly holds. Review where dream evidence slipped onto the front."
+msgstr "The boundary mostly holds. Review where dream evidence slipped onto the front."
+
+#. phantasmExamCopy/revise
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/revise"
+msgid ""
+"Separate validity, provenance, missingness, and causality before seating "
+"contradictory files together."
+msgstr ""
+"Separate validity, provenance, missingness, and causality before seating "
+"contradictory files together."
+
+#. phantasmExamCopy/review
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/review"
+msgid "Item-by-item reverse annotations"
+msgstr "Item-by-item reverse annotations"
+
+#. phantasmExamCopy/yourAnswer
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/yourAnswer"
+msgid "Your answer"
+msgstr "Your answer"
+
+#. phantasmExamCopy/rightAnswer
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/rightAnswer"
+msgid "Reverse reference answer"
+msgstr "Reverse reference answer"
+
+#. phantasmExamCopy/unanswered
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/unanswered"
+msgid "Blank"
+msgstr "Blank"
+
+#. phantasmExamCopy/back
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/back"
+msgid "Back to reverse examination desk"
+msgstr "Back to reverse examination desk"
+
+#. phantasmExamCopy/printPaper
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/printPaper"
+msgid "Print / save blank reverse paper"
+msgstr "Print / save blank reverse paper"
+
+#. phantasmExamCopy/printResult
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/printResult"
+msgid "Print / save reverse result"
+msgstr "Print / save reverse result"
+
+#. phantasmExamCopy/invalid
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/invalid"
+msgid "Not valid outside the dream boundary"
+msgstr "Not valid outside the dream boundary"

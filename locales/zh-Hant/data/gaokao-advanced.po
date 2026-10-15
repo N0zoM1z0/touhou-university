@@ -1,0 +1,2510 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.3
+#: src/data/gaokao-advanced.js:17
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.3"
+msgid ""
+"[Paper 08:10] North Windway reopened.\n[Workshop note 08:06] Third support "
+"held with kappa tape; one-person load, awaiting reinspection.\n[Correction "
+"08:32] “Reopened” removed; “inspection staff only” substituted."
+msgstr ""
+"【校報 08:10】北風路恢復通行。\n【工房便箋 08:06】第三支架以河童膠帶固定；載重限一人，等候複檢。\n【校報訂正 "
+"08:32】刪除「恢復通行」，改為「僅開放巡檢人員」。"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.4
+#: src/data/gaokao-advanced.js:18
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.4"
+msgid "Which description best states the error without turning an unproved motive into fact?"
+msgstr "哪一項最準確描述這次錯誤，而不把尚未證明的動機寫成事實？"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.5.0
+#: src/data/gaokao-advanced.js:20
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.5.0"
+msgid "The 08:10 reporter deliberately hid a support failure already confirmed by the workshop"
+msgstr "08:10 的記者故意隱瞞工房已確認的支架故障"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.5.1
+#: src/data/gaokao-advanced.js:21
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.5.1"
+msgid "The 08:10 headline expanded a restricted inspection state into general access"
+msgstr "08:10 的標題把有限度巡檢狀態擴大成一般通行"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.5.2
+#: src/data/gaokao-advanced.js:22
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.5.2"
+msgid ""
+"The 08:32 correction introduced the restriction; the workshop had reported "
+"no load limit before then"
+msgstr "08:32 的訂正才首次加入限制；此前工房並未通報載重上限"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.5.3
+#: src/data/gaokao-advanced.js:23
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.5.3"
+msgid "The one-person note proves the tape cannot support any ordinary student passage"
+msgstr "一人載重的便箋證明河童膠帶無法承受任何一般學生通行"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.7
+#: src/data/gaokao-advanced.js:25
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.7"
+msgid ""
+"The workshop note predates the report. The evidence proves overgeneralised "
+"access, not motive or tape lifetime."
+msgstr "時間戳證明工房便箋早於原報導；能確定的是通行範圍被擴大，不能由材料推出記者動機或膠帶壽命。"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.3
+#: src/data/gaokao-advanced.js:29
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.3"
+msgid ""
+"[Bamboo notice A] After the bell, follow white-rabbit tracks.\n[Reverse-side "
+"addition] After rain the tracks point backwards; use the medicinal "
+"scent.\nDaily log: rain last night, calm at 09:00, medicinal scent from "
+"southeast at 09:07."
+msgstr ""
+"【竹林告示甲】鐘響後沿白兔足跡前行。\n【告示乙・背面補字】雨後白兔足跡會倒向；以藥草香為準。\n當日記錄：昨夜有雨，09:00 無風，09:07 "
+"聞到藥草香自東南方傳來。"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.4
+#: src/data/gaokao-advanced.js:30
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.4"
+msgid "Which rewrite is the most complete actionable instruction for that day?"
+msgstr "要把告示改寫成當日可執行的指示，哪一句最完整？"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.5.0
+#: src/data/gaokao-advanced.js:32
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.5.0"
+msgid ""
+"After the bell, walk opposite the tracks because the reverse-side note "
+"supersedes scent guidance"
+msgstr "鐘響後沿足跡反方向走；背面補字已取代香氣指引"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.5.1
+#: src/data/gaokao-advanced.js:33
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.5.1"
+msgid ""
+"After the bell, wait for wind and follow the direction carrying the "
+"medicinal scent from the southeast"
+msgstr "鐘響後先等有風，再沿風把東南方藥草香送來的方向前行"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.5.2
+#: src/data/gaokao-advanced.js:34
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.5.2"
+msgid ""
+"After the bell, do not follow the track direction; in calm air proceed "
+"southeast toward the scent source"
+msgstr "鐘響後不要沿足跡方向；在無風時朝藥草香來源的東南方前行"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.5.3
+#: src/data/gaokao-advanced.js:35
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.5.3"
+msgid ""
+"After the bell, follow the tracks and reverse only if the scent disappears "
+"in the southeast"
+msgstr "鐘響後先沿足跡，到東南方聞不到香氣時才改走反方向"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.7
+#: src/data/gaokao-advanced.js:37
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.7"
+msgid "The rain exception, calm-air condition, and southeast observation must all be combined."
+msgstr "補字提供雨後例外；無風使香氣方向可用，當日記錄又給出東南方。三項必須合併。"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.3
+#: src/data/gaokao-advanced.js:41
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.3"
+msgid ""
+"A: “The gate did not move; the road forgot it.”\nB: “At dragon hour the "
+"gateposts remained two lengths north of the old boundary stone; at snake "
+"hour the road ended in the bamboo forest.”\nC: “Everyone knows Yukari was "
+"cheerful this morning.”"
+msgstr ""
+"甲：「門沒有移動，是道路忘了門。」\n乙：「辰時量得門柱仍在舊界石北二丈；巳時道路盡頭改接竹林。」\n丙：「大家都知道八雲紫今早心情很好。」"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.4
+#: src/data/gaokao-advanced.js:42
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.4"
+msgid ""
+"Which research summary best preserves A's rhetoric while keeping evidence "
+"levels distinct?"
+msgstr "研究摘要若要保留甲的修辭，同時維持證據層次，哪個寫法最好？"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.5.0
+#: src/data/gaokao-advanced.js:44
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.5.0"
+msgid ""
+"“The road forgot the gate” can operationally mean that the gateposts stayed "
+"fixed while the road connection changed between the two hours; cause remains "
+"undetermined"
+msgstr "所謂「道路忘了門」，可操作地理解為門柱位置未變而道路接點在辰、巳之間改變；原因未定"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.5.1
+#: src/data/gaokao-advanced.js:45
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.5.1"
+msgid ""
+"“The road forgot the gate” means Yukari's mood altered the road, while the "
+"gatepost measurement shows she did not move the gate"
+msgstr "所謂「道路忘了門」，可理解為紫心情改變道路；門柱測量則證明她沒有移門"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.5.2
+#: src/data/gaokao-advanced.js:46
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.5.2"
+msgid ""
+"Because the posts were fixed at dragon hour, A proves the road connected to "
+"bamboo only at snake hour and necessarily later returned"
+msgstr "門柱在辰時未移，故甲證明道路只在巳時短暫接上竹林，之後必然復原"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.5.3
+#: src/data/gaokao-advanced.js:47
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.5.3"
+msgid ""
+"A is rhetorical and B measured, so their different evidence types cannot be "
+"compared in one summary"
+msgstr "甲屬修辭材料、乙屬量測材料，兩者證據類型不同，故不能放進同一摘要比較"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.7
+#: src/data/gaokao-advanced.js:49
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.7"
+msgid ""
+"A sound summary maps local rhetoric to observable variables while leaving "
+"causation open."
+msgstr "好摘要可以保留在地語言，但必須把比喻對應到可觀察變量，並把原因留作未知。"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.3
+#: src/data/gaokao-advanced.js:53
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.3"
+msgid ""
+"[Bunbunmaru first edition 06:40] “Mountain Gate closed all day; everyone "
+"reroute via Misty Lake.”\n[Gate log 06:35] 06:30–07:10 only large freight "
+"barred; student cards admitted.\n[Extra 07:05] “Gate reopened after this "
+"paper intervened.”\n[Correction 11:50] “All-day closure” changed to “partial "
+"control”; extra unchanged.\n[Windway log] No gate-state change around 07:05."
+msgstr ""
+"【文文。新聞 初版 06:40】「山門全天封閉，所有人改走霧湖。」\n【山門值班簿 06:35】06:30–07:10 僅禁大型貨物；學生證通行。\n【號外 "
+"07:05】「山門已在本報交涉後重開。」\n【訂正欄 11:50】將「全天封閉」改作「部分管制」，未修改號外。\n【風路紀錄】07:05 "
+"前後閘門狀態無變化。"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.4
+#: src/data/gaokao-advanced.js:54
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.4"
+msgid ""
+"Which notice is minimally sufficient to correct both the event and the "
+"paper's self-narrative?"
+msgstr "若要做一則同時更正事件與報社自我敘事的公開訂正，哪一版本最低限度充分？"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.5.0
+#: src/data/gaokao-advanced.js:56
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.5.0"
+msgid ""
+"The gate had a partial freight restriction; the first edition wrongly called "
+"it an all-day closure. No reopening occurred at 07:05, so the extra's claim "
+"that the paper caused one is also unsupported"
+msgstr "山門曾有部分貨運管制；初版錯稱全天封閉。07:05 並無「重開」狀態變化，因此號外所稱由本報促成重開亦不成立"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.5.1
+#: src/data/gaokao-advanced.js:57
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.5.1"
+msgid ""
+"The gate restricted large freight only; replace “everyone” with “freight.” "
+"The 07:05 extra is the paper's self-assessment of its influence, not an "
+"access instruction, so gate logs need not govern its correction"
+msgstr "山門只限制大型貨物；初版應把「所有人」改成「貨運」。07:05 號外屬報社對交涉效果的自我評價，既非通行指示，便不必依閘門紀錄訂正"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.5.2
+#: src/data/gaokao-advanced.js:58
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.5.2"
+msgid ""
+"Student cards remained valid, so the first edition misstated scope; despite "
+"no gate change, the paper's intervention may count as preventing a wider "
+"closure"
+msgstr "學生證一直可通行，故初版的範圍有誤；號外所稱交涉雖無閘門變化，仍可視為預防封閉擴大的成果"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.5.3
+#: src/data/gaokao-advanced.js:59
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.5.3"
+msgid ""
+"No state change occurred around 07:05, disproving the reopening story and "
+"showing that no gate restriction existed that day"
+msgstr "07:05 前後沒有狀態變化，故號外的重開說不成立；也因此可判定當日從未有任何形式的山門管制"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.7
+#: src/data/gaokao-advanced.js:61
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.7"
+msgid ""
+"Both the exaggerated scope and the nonexistent state transition must be "
+"corrected; changing one quantifier leaves the invented causal story intact."
+msgstr "必須同時處理錯誤範圍與不存在的狀態轉換；只改一個量詞仍會保留報社製造的因果敘事。"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.3
+#: src/data/gaokao-advanced.js:65
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.3"
+msgid ""
+"[Village calendar] Mist at rooster hour on day nine; bell stopped at dog "
+"hour.\n[Lunar-duty record] Same night labelled day ten; bell stopped half a "
+"watch before mist.\n[Keine lecture note] Village date changes at midnight; "
+"lunar duty date changes at rooster hour.\n[Belfry log] “Mist came first” was "
+"added later in newer ink."
+msgstr ""
+"【人里曆】第九日酉時起霧，戌時鐘停。\n【月都式記錄】同一夜標作第十日；鐘停早於起霧半刻。\n【慧音講義抄】里曆換日於子時；月都值班簿換日於酉時。\n【鐘樓維"
+"修簿】「霧先至」一行以較新的墨補寫。"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.4
+#: src/data/gaokao-advanced.js:66
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.4"
+msgid "Which conclusion is most resistant to falsification from the supplied evidence?"
+msgstr "目前最能承受反證的結論是？"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.5.0
+#: src/data/gaokao-advanced.js:68
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.5.0"
+msgid ""
+"The date conventions reconcile days nine and ten, so the lunar record's "
+"bell-first order should override the village record"
+msgstr "換日規則可把九日與十日對齊；因此月都記錄的停鐘先於起霧應優先於人里記錄"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.5.1
+#: src/data/gaokao-advanced.js:69
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.5.1"
+msgid ""
+"Date conventions explain the date gap; treat the lunar “half-watch earlier” "
+"as rounding during conversion to village time, allowing both records to be "
+"combined as mist before bell"
+msgstr "日期差來自換日規則；事件順序差則可把月都的『早半刻』視作換算到人里時制時的捨入誤差，兩份記錄因此可合成霧先鐘後"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.5.2
+#: src/data/gaokao-advanced.js:70
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.5.2"
+msgid ""
+"Date conventions can explain day nine versus ten, but event order still "
+"conflicts, and the later “mist first” addition is not independent evidence"
+msgstr "換日規則可解釋九日／十日差異；但霧與停鐘先後仍衝突，且「霧先至」補寫不能作獨立證據"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.5.3
+#: src/data/gaokao-advanced.js:71
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.5.3"
+msgid ""
+"The newer-ink addition can be treated as later belfry verification "
+"supporting the village event order"
+msgstr "補寫採用較新的墨，可視為鐘樓事後查證，足以支持人里記錄的事件順序"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.7
+#: src/data/gaokao-advanced.js:73
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.7"
+msgid ""
+"Separate conventional date disagreement from the real ordering conflict. The "
+"dependent later addition cannot independently break the tie."
+msgstr "先把可由制度解釋的日期差與真正的事件次序衝突分開；補寫來源依附於爭議本身，不能打破平手。"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.3
+#: src/data/gaokao-advanced.js:77
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.3"
+msgid ""
+"[Rule v3.1] Absence means not entering the scheduled classroom.\n[Academic "
+"supplement v3.1b] If a room moves by boundary, the teacher's space counts as "
+"the classroom.\n[Yukari notice] Today's room is “between presence and "
+"absence”; teacher remains at the old lectern.\n[Access log] Student A enters "
+"the old room; spatial label says “not scheduled classroom.”"
+msgstr ""
+"【校規 v3.1】「缺席」指學生未進入排定教室。\n【教務補充 v3.1b】教室因境界移動時，以教師所在空間為準。\n【紫的通知】本日教室位於「出席與缺席之"
+"間」，教師仍在原講台。\n【門禁】學生甲進入原教室；空間標籤顯示「非排定教室」。"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.4
+#: src/data/gaokao-advanced.js:78
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.4"
+msgid "Without inventing a new clause, which reading is most rigorous?"
+msgstr "在不替規章補寫新條文的前提下，哪一判讀最嚴謹？"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.5.0
+#: src/data/gaokao-advanced.js:80
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.5.0"
+msgid ""
+"The main rule's “scheduled classroom” controls; because the spatial label "
+"denies that status, A is absent"
+msgstr "主條文的「排定教室」優先於補充條文，空間標籤既否定排定身分，甲應判缺席"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.5.1
+#: src/data/gaokao-advanced.js:81
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.5.1"
+msgid ""
+"v3.1b supports presence because A entered the teacher's space, but whether "
+"“scheduled classroom” and “classroom” are identical remains a version gap"
+msgstr "v3.1b 把教師所在空間指定為教室，故甲有出席依據；但「排定教室」與「教室」是否同義仍是版本漏洞"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.5.2
+#: src/data/gaokao-advanced.js:82
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.5.2"
+msgid ""
+"The supplement defines teacher-space as the classroom and shares the v3.1 "
+"series with the main rule, so it should be treated as a complete operational "
+"definition of “scheduled”; A must be present"
+msgstr "v3.1b 明定教師空間就是教室，且補充條文與主規同為 v3.1 系列，因此它應被視為對「排定」一詞的完整操作定義，甲必須判出席"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.5.3
+#: src/data/gaokao-advanced.js:83
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.5.3"
+msgid ""
+"Because the teacher stayed at the old lectern, no boundary movement "
+"occurred; v3.1b does not apply and the access label alone decides"
+msgstr "教師仍在舊講台，表示教室沒有發生境界移動，v3.1b 不適用，應只依門禁標籤判定"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.7
+#: src/data/gaokao-advanced.js:85
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.7"
+msgid ""
+"The supplement provides an operational basis for presence but does not "
+"explicitly resolve the main rule's “scheduled” qualifier."
+msgstr "補充條文提供有利於出席的操作定義，但主條文的「排定」限定尚未被明確覆蓋；嚴謹答案要保留這個缺口。"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.3
+#: src/data/gaokao-advanced.js:89
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.3"
+msgid ""
+"[Route notice history]\nv4.2 05:50: “At full moon, turn right after lantern "
+"four.”\nv4.2-k 06:02 (kappa-terminal cache): “At full moon, go straight after "
+"lantern four.”\nv4.3 06:11: “At full moon, turn right after lantern three; "
+"lantern four is a decoy.”\n[Distribution] Central board received v4.3 at "
+"06:12; rabbit station 06:18; kappa terminal still showed v4.2-k until "
+"07:04.\n[Incident] At 06:37 a visitor followed the terminal straight and "
+"returned to Yesterday's Meeting Point."
+msgstr ""
+"【路線公告版本鏈】\nv4.2 05:50：「滿月時，第四燈後右轉。」\nv4.2-k 06:02（河童終端快取）：「滿月時，第四燈後直行。」\nv4.3 "
+"06:11：「滿月時，第三燈後右轉；第四燈為誘導燈。」\n【發布紀錄】中央告示 06:12 收到 v4.3；兔車站 06:18；河童終端直到 07:04 "
+"仍顯示 v4.2-k。\n【事故】06:37 一名訪客依河童終端直行後回到昨日的集合點。"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.4
+#: src/data/gaokao-advanced.js:90
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.4"
+msgid ""
+"What minimum information must be stated to make the incident traceable "
+"without vaguely calling every problem “an old version”?"
+msgstr "要讓事故敘述可追溯並避免把所有問題籠統稱作「舊版」，必須至少指出哪組資訊？"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.5.0
+#: src/data/gaokao-advanced.js:92
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.5.0"
+msgid ""
+"The terminal viewed, displayed version v4.2-k, access time 06:37, and the "
+"exact divergence of v4.2-k from official v4.2/v4.3"
+msgstr "訪客看見的終端、顯示版本 v4.2-k、06:37 的存取時點，以及 v4.2-k 與正式 v4.2/v4.3 的具體分歧"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.5.1
+#: src/data/gaokao-advanced.js:93
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.5.1"
+msgid ""
+"Record the kappa terminal, 06:37 access, and missing v4.3; classify ordinary "
+"distribution lag without preserving the exact displayed text"
+msgstr "記錄河童終端、06:37 存取與尚未收到 v4.3；將事故歸類為一般發布延遲，不必另存終端顯示的具體文字"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.5.2
+#: src/data/gaokao-advanced.js:94
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.5.2"
+msgid ""
+"Record v4.2-k and the visitor's straight route; compare only with v4.3 and "
+"treat every difference as update lag"
+msgstr "記錄終端顯示 v4.2-k 與訪客直行；只和最新 v4.3 比較，並把所有差異都視作尚未更新造成"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.5.3
+#: src/data/gaokao-advanced.js:95
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.5.3"
+msgid ""
+"Retain v4.3 and the incident time but remove v4.2-k from formal lineage, "
+"keeping the device trace without letting an unofficial cache contaminate "
+"version history"
+msgstr "保留 v4.3 與事故時間，將 v4.2-k 移出正式版本鏈；如此可避免非正式快取污染公告沿革，同時仍能追到訪客所用設備"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.7
+#: src/data/gaokao-advanced.js:97
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.7"
+msgid ""
+"This is not mere lag: the cached variant altered the action. Device, "
+"version, time, and diff are all needed to separate bad generation from "
+"delayed distribution."
+msgstr "這不是單純延遲：快取版還改寫了動作。設備、版本、時間與差分缺一，就無法區分錯版生成與發布延遲。"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.3
+#: src/data/gaokao-advanced.js:101
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.3"
+msgid ""
+"[Testimony] Reisen: “I closed the moonlight gate after the second bell.” "
+"Tewi: “The gate dimmed first, then the second bell sounded.”\n[Devices] Bell "
+"recorder clock is 18 seconds slow; gate controller resets to 00:00 after "
+"each full-moon switch; corridor light meter is correctly "
+"timed.\n[Illuminance] 80→12 at 21:14:42; recorder labels the second bell "
+"21:14:31."
+msgstr ""
+"【證詞】鈴仙：「我在第二聲鐘後關閉月光門。」帝：「我看見門先暗，第二聲鐘才響。」\n【設備】鐘錄音器時間戳比標準鐘慢 18 "
+"秒；門控器在每次滿月切換後重置為 00:00；走廊照度計時間正常。\n【照度】21:14:42 由 80 降至 12；錄音檔第二聲鐘標作 "
+"21:14:31。"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.4
+#: src/data/gaokao-advanced.js:102
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.4"
+msgid "Which interpretation survives clock correction without exceeding the data?"
+msgstr "哪一項是校正後能成立、又不超出資料的判讀？"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.5.0
+#: src/data/gaokao-advanced.js:104
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.5.0"
+msgid ""
+"Adding 18 seconds places bell two near 21:14:49, after the light drop; "
+"Tewi's observed order is compatible, but this does not establish that Reisen "
+"lied"
+msgstr "錄音時間加 18 秒後，第二聲鐘約在 21:14:49，晚於照度下降；帝對可見先後的證詞與資料相容，但不能據此斷定鈴仙說謊"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.5.1
+#: src/data/gaokao-advanced.js:105
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.5.1"
+msgid ""
+"Because the recorder is 18 seconds slow, subtract 18 seconds to get "
+"21:14:13; the bell precedes the light drop and supports Reisen's order"
+msgstr "錄音器慢 18 秒，應把標準時間減去 18 秒得 21:14:13；鐘早於照度下降，鈴仙的順序因而獲得設備支持"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.5.2
+#: src/data/gaokao-advanced.js:106
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.5.2"
+msgid ""
+"The light meter times visible dimming only; with the controller reset, the "
+"action is untimed, so testimony should be ranked by the speakers' "
+"institutional roles"
+msgstr "照度計時間正常但只量到可見變暗；門控器歸零使關門動作無法定時，因此兩份證詞只能以說話者職責高低排序"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.5.3
+#: src/data/gaokao-advanced.js:107
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.5.3"
+msgid ""
+"After correction the bell is about 21:14:49 and dimming came first; "
+"therefore Tewi's account is true and Reisen falsely reported the closing "
+"time"
+msgstr "校正後鐘約 21:14:49、照度先降；因此帝的完整證詞為真，並可據此判定鈴仙對關門時間作了不實陳述"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.7
+#: src/data/gaokao-advanced.js:109
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.7"
+msgid ""
+"Correct the known recorder offset first. Action/perception lag remains, so "
+"event order—not honesty—is identifiable."
+msgstr "先校正唯一已知偏移的鐘錄音器；動作與感知可能有延遲，故只能判斷可見事件順序，不能推定誠信。"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.3
+#: src/data/gaokao-advanced.js:113
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.3"
+msgid ""
+"[Original] “At monkey hour, red mist crossed the lake; the gatekeeper did "
+"not see the moon.”\n[Copy A] “At monkey hour red mist crossed the lake, and "
+"the gatekeeper did not see the moon.”\n[Copy B] “At monkey hour, red mist "
+"crossed the lake guarding the gate; one did not see the moon.”\n[Catalogue] "
+"Copy B used a kappa auto-segmenter known to join the characters around "
+"“lake; gatekeeper.”\nResearcher: “B proves the red mist guarded a gate by the "
+"lake.”"
+msgstr ""
+"【原始簿】「申時，紅霧越湖；守門者未見月。」\n【抄本甲】「申時紅霧越湖，守門者未見月。」\n【抄本乙】「申時，紅霧越湖守門；者未見月。」\n【編目卡】抄本乙"
+"由自動分詞河童機處理；該機常把「湖；守」黏連。\n研究者主張：「抄本乙證明紅霧在湖邊守門。」"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.4
+#: src/data/gaokao-advanced.js:114
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.4"
+msgid "What is the strongest precise objection to the claim?"
+msgstr "對這個主張最強而且最精確的反駁是？"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.5.0
+#: src/data/gaokao-advanced.js:116
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.5.0"
+msgid ""
+"The original and Copy A make the gatekeeper the subject, but mist may have "
+"acquired guarding ability; the objection is only that ability evidence is "
+"missing"
+msgstr "原始簿與抄本甲都把守門者當主語；但紅霧也可能取得守門能力，因此只能說研究者尚未提供能力方面的旁證"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.5.1
+#: src/data/gaokao-advanced.js:117
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.5.1"
+msgid ""
+"B presents a different syntax that may preserve another oral version; count "
+"the original, A, and B as one vote each and seek more copies"
+msgstr "乙呈現一個不同句法，可視為抄寫者保存的另一口傳版本；原始簿、甲、乙各算一票，故仍需更多抄本決定"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.5.2
+#: src/data/gaokao-advanced.js:118
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.5.2"
+msgid ""
+"The claim depends on a known segmentation failure and conflicts with "
+"original punctuation plus independent Copy A; B is not independent semantic "
+"evidence"
+msgstr "主張依賴已知的自動分詞錯誤，且與原始標點及獨立抄本甲不合；乙不能作為獨立語義證據"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.5.3
+#: src/data/gaokao-advanced.js:119
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.5.3"
+msgid ""
+"The segmentation fault shows possible machine bias only; once disclosed, B "
+"can still join the original and A with equal weight in a semantic majority "
+"vote"
+msgstr "自動分詞錯誤只說明乙可能有機械偏差；只要研究者公開該偏差，乙仍可與原始簿、甲等權用於語義多數決"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.7
+#: src/data/gaokao-advanced.js:121
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.7"
+msgid ""
+"The key is provenance: B is not another witness but a derivative reading "
+"produced by a known tool failure."
+msgstr "EXTRA 要追到文本生成機制：乙的差異不是另一位目擊者，而是已知工具錯誤產生的衍生讀法。"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.3
+#: src/data/gaokao-advanced.js:127
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.3"
+msgid ""
+"Gate→wind stop walk 6 min; service every 12 min from 08:00; ride 11 min; "
+"stop→workshop walk 5 min. Candidate reaches gate 08:07. Walking throughout "
+"takes 31 min."
+msgstr "博麗門→風路站步行 6 分；每 12 分一班，首班 08:00；風路 11 分；站→工房步行 5 分。考生 08:07 抵達博麗門，另有全程步行 31 分。"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.4
+#: src/data/gaokao-advanced.js:128
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.4"
+msgid "Ignoring delay, which option arrives first and by how much?"
+msgstr "不計誤點，選哪種方式最早抵達，差多少？"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.5.0
+#: src/data/gaokao-advanced.js:129
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.5.0"
+msgid "Windway by 1 minute"
+msgstr "風路，早 1 分"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.5.1
+#: src/data/gaokao-advanced.js:129
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.5.1"
+msgid "Walking by 2 minutes"
+msgstr "步行，早 2 分"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.5.2
+#: src/data/gaokao-advanced.js:129
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.5.2"
+msgid "Windway by 5 minutes"
+msgstr "風路，早 5 分"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.5.3
+#: src/data/gaokao-advanced.js:129
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.5.3"
+msgid "They tie"
+msgstr "同時抵達"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.7
+#: src/data/gaokao-advanced.js:130
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.7"
+msgid ""
+"Arrival at the stop at 08:13 means the 08:24 service and an 08:40 arrival; "
+"walking arrives at 08:38, two minutes sooner."
+msgstr "08:13 到站，須等 08:24 班次，08:35 下車、08:40 抵達；步行 08:38 抵達，早 2 分。"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.3
+#: src/data/gaokao-advanced.js:134
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.3"
+msgid ""
+"In ring n of an eight-direction spell, each direction has 2n+1 bullets, plus "
+"one central bullet overall. Count the first four rings; overlaps count "
+"separately."
+msgstr "某八向符卡第 n 圈每方向有 2n+1 枚彈，中心另有 1 枚；只計前 4 圈，重疊位置仍分別計數。"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.4
+#: src/data/gaokao-advanced.js:135
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.4"
+msgid "What is the total number of bullets?"
+msgstr "總彈數為何？"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.5.0
+#: src/data/gaokao-advanced.js:136
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.5.0"
+msgid "160"
+msgstr "160"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.5.1
+#: src/data/gaokao-advanced.js:136
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.5.1"
+msgid "176"
+msgstr "176"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.5.2
+#: src/data/gaokao-advanced.js:136
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.5.2"
+msgid "193"
+msgstr "193"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.5.3
+#: src/data/gaokao-advanced.js:136
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.5.3"
+msgid "200"
+msgstr "200"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.7
+#: src/data/gaokao-advanced.js:137
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.7"
+msgid "8(3+5+7+9)=192, plus the single centre bullet gives 193."
+msgstr "每圈合計 8(2n+1)。n=1…4 的和是 8(3+5+7+9)=192，再加中心 1，得 193。"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.3
+#: src/data/gaokao-advanced.js:141
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.3"
+msgid ""
+"Pre-full-moon navigation errors (degrees): 2, 3, 3, 4, 18. The fifth is "
+"affected by the fourth lantern."
+msgstr "滿月前的導航誤差（度）：2, 3, 3, 4, 18。第 5 筆受第四盞燈干擾。"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.4
+#: src/data/gaokao-advanced.js:142
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.4"
+msgid ""
+"After removing the fifth reading, what is the percentage reduction relative "
+"to the original mean?"
+msgstr "移除第 5 筆後，以原樣本平均數為基準，平均誤差下降多少百分比？"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.5.0
+#: src/data/gaokao-advanced.js:143
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.5.0"
+msgid "40%"
+msgstr "40%"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.5.1
+#: src/data/gaokao-advanced.js:143
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.5.1"
+msgid "50%"
+msgstr "50%"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.5.2
+#: src/data/gaokao-advanced.js:143
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.5.2"
+msgid "60%"
+msgstr "60%"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.5.3
+#: src/data/gaokao-advanced.js:143
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.5.3"
+msgid "75%"
+msgstr "75%"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.7
+#: src/data/gaokao-advanced.js:144
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.7"
+msgid ""
+"The means are 6 and 3, so reduction is 50%. The arithmetic alone does not "
+"justify exclusion."
+msgstr "原平均 30/5=6；移除後 12/4=3；下降 (6−3)/6=50%。是否應移除是研究判斷，計算本身不證明它該被刪。"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.3
+#: src/data/gaokao-advanced.js:148
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.3"
+msgid ""
+"Nodes: G gate, W wind stop, B hall, K workshop.\nEdges (min): G–W walk 6; W–K "
+"wind 12; G–B walk 9; B–K rabbit 10; G–K walk 31.\nAt full moon W–K is closed. "
+"Rabbit shuttles leave B every 15 minutes from 08:00. After reaching B, the "
+"candidate must complete a 3-minute check before boarding; if a service has "
+"departed by completion, the next one must be used. The candidate reaches G "
+"at 08:08."
+msgstr ""
+"節點：門 G、風站 W、講堂 B、工房 K。\n邊（分鐘）：G–W 步 6；W–K 風路 12；G–B 步 9；B–K 兔車 10；G–K 步 "
+"31。\n條件：滿月時 W–K 關閉；兔車每 15 分由 B 發車（08:00 起）。抵達 B 後須先完成 3 "
+"分鐘核驗，核驗完成後方可登車；若完成時班次已發車，須等下一班。考生 08:08 抵達 G。"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.4
+#: src/data/gaokao-advanced.js:149
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.4"
+msgid "At full moon, what is the earliest arrival time and route?"
+msgstr "滿月時最早到 K 的時間與路徑是？"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.5.0
+#: src/data/gaokao-advanced.js:150
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.5.0"
+msgid "08:35 via G–B–K"
+msgstr "08:35，G–B–K"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.5.1
+#: src/data/gaokao-advanced.js:150
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.5.1"
+msgid "08:39 via G–K"
+msgstr "08:39，G–K"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.5.2
+#: src/data/gaokao-advanced.js:150
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.5.2"
+msgid "08:30 via G–W–K"
+msgstr "08:30，G–W–K"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.5.3
+#: src/data/gaokao-advanced.js:150
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.5.3"
+msgid "08:43 via G–B–K"
+msgstr "08:43，G–B–K"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.7
+#: src/data/gaokao-advanced.js:151
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.7"
+msgid ""
+"B is reached at 08:17, check ends at 08:20, and the 08:30 shuttle arrives at "
+"08:40. Direct walking arrives at 08:39."
+msgstr "08:17 到 B，核驗到 08:20，趕 08:30 班，08:40 才到；直接步行 08:39。需同時處理封閉、班距與核驗。"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.3
+#: src/data/gaokao-advanced.js:155
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.3"
+msgid ""
+"Bullet point P=(4,−1) is reflected in y=x, rotated 90° counter-clockwise "
+"about the origin, then transformed by T(x,y)=(x+2y, y−x)."
+msgstr "彈幕點 P=(4,−1) 先關於直線 y=x 鏡射，再繞原點逆時針 90°，最後通過結界變換 T(x,y)=(x+2y, y−x)。"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.4
+#: src/data/gaokao-advanced.js:156
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.4"
+msgid "What is the final coordinate?"
+msgstr "最終座標是？"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.5.0
+#: src/data/gaokao-advanced.js:157
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.5.0"
+msgid "(−6,3)"
+msgstr "(−6,3)"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.5.1
+#: src/data/gaokao-advanced.js:157
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.5.1"
+msgid "(−4,1)"
+msgstr "(−4,1)"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.5.2
+#: src/data/gaokao-advanced.js:157
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.5.2"
+msgid "(3,11)"
+msgstr "(3,11)"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.5.3
+#: src/data/gaokao-advanced.js:157
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.5.3"
+msgid "(11,3)"
+msgstr "(11,3)"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.7
+#: src/data/gaokao-advanced.js:158
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.7"
+msgid "(4,−1)→(−1,4)→(−4,−1)→(−6,3)."
+msgstr "(4,−1)→(−1,4)→(−4,−1)→(−6,3)。"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.3
+#: src/data/gaokao-advanced.js:162
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.3"
+msgid ""
+"A bamboo fork updates exit labels daily by σ=(A B C). Five daily updates "
+"have been completed; tonight's full-moon settlement then applies τ=(B C) "
+"once. Composition is defined as τ∘σ⁵: apply σ five times, then τ once."
+msgstr ""
+"竹林三岔口每天按置換 σ=(A B C) 更新出口標籤。現在已完成五次每日更新，今晚滿月結算時再施加交換 τ=(B C)。本題的合成明定為 "
+"τ∘σ⁵：先做五次 σ，再做一次 τ。"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.4
+#: src/data/gaokao-advanced.js:163
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.4"
+msgid "What is the final label of initial exit A?"
+msgstr "起始出口 A 的最終標籤為何？"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.5.0
+#: src/data/gaokao-advanced.js:164
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.5.0"
+msgid "A"
+msgstr "A"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.5.1
+#: src/data/gaokao-advanced.js:164
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.5.1"
+msgid "B"
+msgstr "B"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.5.2
+#: src/data/gaokao-advanced.js:164
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.5.2"
+msgid "C"
+msgstr "C"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.5.3
+#: src/data/gaokao-advanced.js:164
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.5.3"
+msgid "Indeterminate"
+msgstr "無法判斷"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.7
+#: src/data/gaokao-advanced.js:165
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.7"
+msgid "σ⁵=σ² sends A→C; τ then sends C→B, so the final label is B."
+msgstr "σ⁵=σ²，故 A→C；再施 τ，C→B，最終標籤為 B。"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.3
+#: src/data/gaokao-advanced.js:169
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.3"
+msgid ""
+"From 08:00: G–B=8; B–E=12 (entry only during minutes 10–19 each hour); "
+"G–W=5; W–E=9 (at full moon, entry closed on odd-numbered minutes); G–E=30. "
+"Waiting is allowed. Depart G at 08:07:30; round arrivals up to a whole "
+"minute before testing entry."
+msgstr ""
+"08:00 起，邊 e(t) 的通行時間為：G–B=8；B–E=12（僅每小時第 10–19 "
+"分可進入）；G–W=5；W–E=9（滿月時在奇數分鐘關閉入口）；G–E=30。到達封閉入口可等待。08:07:30 自 G "
+"出發，所有時間向上取整到整分鐘後判斷入口。"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.4
+#: src/data/gaokao-advanced.js:170
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.4"
+msgid "At full moon, what route reaches E earliest and when?"
+msgstr "滿月時最早抵達 E 的路徑與時刻？"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.5.0
+#: src/data/gaokao-advanced.js:171
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.5.0"
+msgid "G–B–E at 08:28"
+msgstr "G–B–E，08:28"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.5.1
+#: src/data/gaokao-advanced.js:171
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.5.1"
+msgid "G–W–E at 08:23"
+msgstr "G–W–E，08:23"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.5.2
+#: src/data/gaokao-advanced.js:171
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.5.2"
+msgid "G–W–E at 08:22"
+msgstr "G–W–E，08:22"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.5.3
+#: src/data/gaokao-advanced.js:171
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.5.3"
+msgid "G–E at 08:38"
+msgstr "G–E，08:38"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.7
+#: src/data/gaokao-advanced.js:172
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.7"
+msgid ""
+"Reach W at 08:12:30; rounding gives 08:13, an odd minute when entry is "
+"closed. Enter at 08:14 and travel 9 minutes, so G–W–E arrives at 08:23. "
+"G–B–E reaches B at 08:15:30, rounds to an admissible 08:16, and arrives at "
+"08:28."
+msgstr ""
+"到 W 為 08:12:30，取整後的 08:13 是奇數分鐘，入口關閉；等到 08:14 進入，再行 9 分，沿 G–W–E 於 08:23 "
+"抵達。G–B–E 則在 08:15:30 到 B，取整至 08:16 後可進入，08:28 抵達。"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.3
+#: src/data/gaokao-advanced.js:176
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.3"
+msgid ""
+"Observed points lie on an unknown circle (x−a)²+(y−b)²=r². Reliable points: "
+"(1,5), (5,1), (7,5). A fourth, (3,9), comes from a camera known to lag one "
+"beat."
+msgstr "某符卡的觀測點滿足未知圓 (x−a)²+(y−b)²=r²。三筆可靠點為 (1,5)、(5,1)、(7,5)；第四筆 (3,9) 來自時鐘已知慢一拍的攝影機。"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.4
+#: src/data/gaokao-advanced.js:177
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.4"
+msgid "Using only reliable points, what centre and squared radius result?"
+msgstr "只用可靠點估計圓心與半徑平方，結果為何？"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.5.0
+#: src/data/gaokao-advanced.js:178
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.5.0"
+msgid "(4,5), 9"
+msgstr "(4,5), 9"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.5.1
+#: src/data/gaokao-advanced.js:178
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.5.1"
+msgid "(4,4), 10"
+msgstr "(4,4), 10"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.5.2
+#: src/data/gaokao-advanced.js:178
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.5.2"
+msgid "(3,5), 16"
+msgstr "(3,5), 16"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.5.3
+#: src/data/gaokao-advanced.js:178
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.5.3"
+msgid "(4,5), 16"
+msgstr "(4,5), 16"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.7
+#: src/data/gaokao-advanced.js:179
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.7"
+msgid ""
+"Perpendicular bisectors give centre (4,4), with r²=10. The lagged point "
+"should not enter before correction."
+msgstr "(1,5) 與 (7,5) 的垂直平分線是 x=4；配合 (5,1) 解得中心 (4,4)，r²=10。延遲點不應在未校正前混入。"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.3
+#: src/data/gaokao-advanced.js:183
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.3"
+msgid ""
+"True boundary count N is observed as A=N+u and B=2N+u+v, where u is common "
+"moonlight bias and v is B-specific. An eclipse calibration supplies only "
+"A₀=u."
+msgstr "邊界計數器真值 N 經兩台儀器觀測：A=N+u；B=2N+u+v。u 是共同月光偏移，v 是 B 的獨立偏移。另一次遮月校正只給出 A₀=u。"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.4
+#: src/data/gaokao-advanced.js:184
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.4"
+msgid "Which quantities are uniquely identifiable from A, B, and A₀?"
+msgstr "由 A、B、A₀ 能唯一識別哪些量？"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.5.0
+#: src/data/gaokao-advanced.js:185
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.5.0"
+msgid "N only"
+msgstr "只識別 N"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.5.1
+#: src/data/gaokao-advanced.js:185
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.5.1"
+msgid "N and u, then v from B, so all three"
+msgstr "N 與 u，可再由 B 求 v，因此三者皆可識別"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.5.2
+#: src/data/gaokao-advanced.js:185
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.5.2"
+msgid "u and v only"
+msgstr "只識別 u 與 v"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.5.3
+#: src/data/gaokao-advanced.js:185
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.5.3"
+msgid "None"
+msgstr "沒有任何量可識別"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.7
+#: src/data/gaokao-advanced.js:186
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.7"
+msgid "u=A₀, N=A−A₀, and v=B−2N−u; the system has enough independent information."
+msgstr "u=A₀；N=A−A₀；v=B−2N−u。EXTRA 的關鍵是先檢查方程是否提供足夠獨立資訊。"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.3
+#: src/data/gaokao-advanced.js:192
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.3"
+msgid ""
+"Spell-card filing: east shore, three rounds, loser exits by red lamp. Before "
+"start, wind hides the red lamp in mist, though both can see the referee "
+"flag."
+msgstr "符卡申請寫明：場地霧湖東岸、三回合、敗者可沿紅燈退場。開場前風向改變，紅燈被霧遮住，但雙方仍看得到裁判旗。"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.4
+#: src/data/gaokao-advanced.js:193
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.4"
+msgid "What is the best way to proceed?"
+msgstr "最合適的開場處理是？"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.5.0
+#: src/data/gaokao-advanced.js:194
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.5.0"
+msgid "Keep the red lamp as the formal exit and have the referee guide the loser only if needed"
+msgstr "保留紅燈為正式退場線，敗者看不見時再由裁判帶離"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.5.1
+#: src/data/gaokao-advanced.js:194
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.5.1"
+msgid ""
+"Explicitly redesignate the mutually visible referee flag as the exit signal, "
+"then begin after both confirm"
+msgstr "把共同可見的裁判旗明確改作退場信號，雙方確認後再開始"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.5.2
+#: src/data/gaokao-advanced.js:194
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.5.2"
+msgid "Begin the first round as filed, changing to the referee flag only if the mist remains"
+msgstr "先按原申請開始第一回合，若霧未散再把裁判旗改作退場信號"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.5.3
+#: src/data/gaokao-advanced.js:194
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.5.3"
+msgid "Move inland and retain the red lamp without rechecking visibility for both sides"
+msgstr "移到較內陸的位置並沿用紅燈，不另確認雙方是否都看得見"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.7
+#: src/data/gaokao-advanced.js:195
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.7"
+msgid ""
+"A field adjustment is possible, but the exit signal must remain legible and "
+"mutually understood."
+msgstr "規則允許現場調整，但退場訊號必須可辨認且由參與者共同知道。"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.3
+#: src/data/gaokao-advanced.js:199
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.3"
+msgid ""
+"Marisa's spark experiment records procedure, dose, and distance, but "
+"material is “the blue stone common at Patchouli's.” Patchouli reports two "
+"different lots in the last three months."
+msgstr "魔理沙交來可重現的火花實驗：步驟、劑量、距離完整；材料欄寫「帕秋莉那邊常見的藍石」。帕秋莉表示近三月有兩批不同藍石。"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.4
+#: src/data/gaokao-advanced.js:200
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.4"
+msgid "Which supplement best preserves the result while addressing provenance?"
+msgstr "哪個補件最能保留成果又處理來源問題？"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.5.0
+#: src/data/gaokao-advanced.js:201
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.5.0"
+msgid ""
+"Add acquisition date, lot features, and a retained sample, then rerun the "
+"same procedure by lot"
+msgstr "補記取得日期、批次特徵與留樣，並依批次重跑相同步驟"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.5.1
+#: src/data/gaokao-advanced.js:201
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.5.1"
+msgid ""
+"Have Patchouli confirm both lots are commonly called blue stone and sign the "
+"original result"
+msgstr "請帕秋莉確認兩批都俗稱藍石，再把她的簽名附於原結果"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.5.2
+#: src/data/gaokao-advanced.js:201
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.5.2"
+msgid ""
+"Keep the success counts but remove all material conclusions and do not use "
+"surviving samples"
+msgstr "保留成功次數，但刪除所有材料相關結論，且不再使用現存樣本"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.5.3
+#: src/data/gaokao-advanced.js:201
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.5.3"
+msgid ""
+"Mix both lots into one retained sample and rerun it as representative "
+"Patchouli blue stone"
+msgstr "將兩批混合成單一留樣後重跑，以代表帕秋莉處常見藍石"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.7
+#: src/data/gaokao-advanced.js:202
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.7"
+msgid ""
+"Procedural reproduction and material equivalence differ; retained samples "
+"and lot reruns locate the issue without erasing results."
+msgstr "程序重現與材料等同性是兩個問題；留樣與分批重跑能定位差異而不抹掉已有結果。"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.3
+#: src/data/gaokao-advanced.js:206
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.3"
+msgid ""
+"Shrine, temple, and hermitage request the central square the same night: "
+"quiet rite, public sermon, hermit display. The square hosts a fairy market "
+"next morning."
+msgstr "神社、寺院、道觀各申請同一晚的中央廣場。神社要祭儀安靜；寺院要公開說法；道觀要展示仙術。隔日廣場須作妖精市場。"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.4
+#: src/data/gaokao-advanced.js:207
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.4"
+msgid ""
+"Which plan actually handles the conflict rather than pretending the requests "
+"are identical?"
+msgstr "哪個方案最能實際處理衝突，而不是假裝三方需求相同？"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.5.0
+#: src/data/gaokao-advanced.js:208
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.5.0"
+msgid ""
+"Assign central time by filing order and make the last group responsible for "
+"next-day clearance"
+msgstr "三方依申請先後分時使用中心點，隔日市場由最後一方負責清場"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.5.1
+#: src/data/gaokao-advanced.js:208
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.5.1"
+msgid "Draw one sole user; move the other two off campus and omit them from the official record"
+msgstr "抽籤決定唯一使用者，其餘兩方移到校外且不列入正式紀錄"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.5.2
+#: src/data/gaokao-advanced.js:208
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.5.2"
+msgid ""
+"Separate time and space by noise and clearance needs, publishing shared "
+"costs and unresolved dissent"
+msgstr "依噪音與清場需求分時／分區，公開共同成本與仍未同意之處"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.5.3
+#: src/data/gaokao-advanced.js:208
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.5.3"
+msgid ""
+"Cancel the next-day market to free the night, then require all three to "
+"share one volume and layout"
+msgstr "先取消隔日市場取得整夜，再要求三方共享同一音量與場地配置"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.7
+#: src/data/gaokao-advanced.js:209
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.7"
+msgid ""
+"A workable negotiation recognizes ritual differences, next-day clearance, "
+"and remaining dissent."
+msgstr "可行協商需要承認儀式差異、隔日清場與未消失的異議。"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.3
+#: src/data/gaokao-advanced.js:213
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.3"
+msgid ""
+"Incident: Patchouli's Seven-Day Reverse Index is missing.\nAccess: Marisa "
+"13:02–15:11; Alice 14:20–14:48. No loan. Koakuma saw it at 14:35. At 15:20 "
+"Marisa's box shows a same-sized blue cover, no spine visible. West-window "
+"seal failed 14:50–15:05."
+msgstr ""
+"事件：帕秋莉館藏《七曜逆引》離架。\n門禁：魔理沙 13:02 入館，15:11 離館；愛麗絲 "
+"14:20–14:48。\n借閱簿：無借出。\n小惡魔：14:35 見書仍在。\n魔理沙材料箱：15:20 "
+"被拍到有同尺寸藍封面，但無書脊。\n結界：14:50–15:05 西窗封鎖失效。"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.4
+#: src/data/gaokao-advanced.js:214
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.4"
+msgid "What is the most reasonable next sequence?"
+msgstr "目前最合理的處理順序是？"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.5.0
+#: src/data/gaokao-advanced.js:215
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.5.0"
+msgid ""
+"Check Marisa's blue cover first; if its size matches, retain it as the "
+"likeliest volume and decide whether to inspect the window and shelf only "
+"after identifying the spine"
+msgstr "先核對魔理沙箱中藍封面；若尺寸相同就視作最可能館藏並暫扣，待書脊鑑定後才決定是否補查西窗與書架"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.5.1
+#: src/data/gaokao-advanced.js:215
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.5.1"
+msgid ""
+"Check post-14:35 shelf and window traces and the blue spine, then interview "
+"those present while retaining multiple hypotheses"
+msgstr "核對 14:35 後的書架、西窗痕跡與藍色書脊，再訪談在場者並保留多個假說"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.5.2
+#: src/data/gaokao-advanced.js:215
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.5.2"
+msgid ""
+"With no loan and a failed window seal, prioritize unauthorized window "
+"removal and defer examining the box"
+msgstr "借閱簿無紀錄而西窗失效，先以未授權窗外移出為主假說，暫不檢查箱子"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.5.3
+#: src/data/gaokao-advanced.js:215
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.5.3"
+msgid ""
+"The 14:35 shelf sighting excludes Alice, so investigate only those still "
+"present afterward"
+msgstr "小惡魔 14:35 見書在架，故排除較早離館的愛麗絲，只調查其後仍在場者"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.7
+#: src/data/gaokao-advanced.js:216
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.7"
+msgid ""
+"The window narrows time but identifies no unique actor. Gather evidence that "
+"can discriminate the seal and blue-cover hypotheses."
+msgstr "資料縮小了時間窗卻未唯一指向一人；封鎖失效與模糊照片都需要先取得能區分假說的證據。"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.3
+#: src/data/gaokao-advanced.js:220
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.3"
+msgid ""
+"Rule: research flights may not cross dining-hall airspace; incident response "
+"may use the shortest safe line.\n12:00 chimney backflow; fairy reports fire. "
+"12:03 Reimu flies directly overhead; 12:05 identified as night-sparrow "
+"grill; 12:07 she diverts to land.\nHeadline: “Shrine Maiden Openly Violates "
+"Research-Flight Ban.”"
+msgstr ""
+"規則：研究飛行不得穿越食堂上空；異變處理可走最短安全線。\n12:00 食堂煙囪倒流，妖精誤報為火災；12:03 靈夢自神社直飛食堂上空；12:05 "
+"確認只是夜雀烤爐；12:07 她改道降落。\n報告標題：「巫女公然違反研究飛行禁令」。"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.4
+#: src/data/gaokao-advanced.js:221
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.4"
+msgid "Which reading handles both rule category and information updates?"
+msgstr "哪個判讀同時處理規則類型與資訊更新？"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.5.0
+#: src/data/gaokao-advanced.js:222
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.5.0"
+msgid ""
+"At 12:03 the fire report supports the incident-response exception; its basis "
+"ends at 12:05, the 12:07 diversion fits, and the headline misclassifies the "
+"mission"
+msgstr "12:03 依當時火災資訊可適用異變處理例外；12:05 後理由消失，12:07 改道與此相容；標題誤分類任務"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.5.1
+#: src/data/gaokao-advanced.js:222
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.5.1"
+msgid ""
+"The backflow still occurred, but the exception protects actual incidents "
+"rather than good-faith mistakes, so the 12:03 flight becomes retroactively "
+"unlawful once the grill is identified"
+msgstr "誤報不改變 12:00 的煙囪倒流；但規章例外只保護實際異變，不保護善意誤認，所以 12:03 從事後查明時即回溯成違規"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.5.2
+#: src/data/gaokao-advanced.js:222
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.5.2"
+msgid ""
+"The exception applied at 12:03, so the rest of Reimu's flight remains exempt "
+"from the dining-hall restriction"
+msgstr "12:03 可適用例外；既然例外曾成立，靈夢之後整段航線都不再受食堂上空限制"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.5.3
+#: src/data/gaokao-advanced.js:222
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.5.3"
+msgid ""
+"The research ban excludes shrine maidens while the incident exception "
+"requires a real fire; together they make 12:03 lawful"
+msgstr "研究飛行禁令不適用巫女，但異變例外要求確認真實火災；兩條理由因此同時使 12:03 合法"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.7
+#: src/data/gaokao-advanced.js:223
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.7"
+msgid ""
+"Evaluate decisions using information available at the time and the correct "
+"mission category."
+msgstr "決策應按當時可得資訊評估，且研究飛行禁令不等同異變處理規則。"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.3
+#: src/data/gaokao-advanced.js:227
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.3"
+msgid ""
+"Festival stage vote: Kanako 4, Byakuren 3, Miko 3. Charter: faith-ritual "
+"matters require a majority plus at least one supporting vote from two "
+"traditions. A Moriya-only rite passes 6–4, supported only by Moriya and two "
+"unaffiliated representatives."
+msgstr ""
+"三方表決校慶主舞台：神奈子持 4 票、白蓮 3 票、神子 3 票。章程：涉及信仰儀式時，不只需過半，還須至少兩個傳統各有一票贊成。提案只安排守矢儀式；表"
+"決 6–4 通過，其中贊成票全來自守矢與兩名無宗派代表。"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.4
+#: src/data/gaokao-advanced.js:228
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.4"
+msgid "What is the most accurate institutional conclusion?"
+msgstr "制度上最準確的結論是？"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.5.0
+#: src/data/gaokao-advanced.js:229
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.5.0"
+msgid ""
+"The 6–4 vote satisfies the majority; the cross-tradition condition applies "
+"only as a tie-breaker"
+msgstr "6–4 已滿足一般過半；跨傳統條件只在票數平手時用作決勝"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.5.1
+#: src/data/gaokao-advanced.js:229
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.5.1"
+msgid ""
+"The proposal has a majority but lacks cross-tradition support; its "
+"composition threshold cannot be replaced by vote count"
+msgstr "提案有多數但未達跨傳統支持；本案的構成門檻不能由票數取代"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.5.2
+#: src/data/gaokao-advanced.js:229
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.5.2"
+msgid ""
+"Because the two unaffiliated representatives are not Moriya, they can count "
+"as another tradition and satisfy the rule"
+msgstr "兩名無宗派代表不屬守矢，因此可各自算作另一傳統，滿足兩方支持"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.5.3
+#: src/data/gaokao-advanced.js:229
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.5.3"
+msgid ""
+"The proposal is Moriya-only, but the charter concerns voter identity; six "
+"supporters are enough to form two groups"
+msgstr "提案內容只有守矢儀式，但章程約束的是投票者身分；六名贊成者已足以形成兩個群體"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.7
+#: src/data/gaokao-advanced.js:230
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.7"
+msgid ""
+"This is a dual threshold: numerical majority cannot substitute for "
+"cross-tradition support."
+msgstr "這是雙重門檻；票數過半不能替代跨傳統支持。"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.3
+#: src/data/gaokao-advanced.js:234
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.3"
+msgid ""
+"[Sequence] 02:10 all campus clocks lag 7 min; 02:12 kappa time server "
+"normal; 02:14 Eientei lunar clock normal; 02:16 Yukari rotates the “on "
+"time/late” boundary marker 180°; 02:17 only clocks reading the "
+"policy-location definition lag again, while independent mechanical clocks "
+"recover.\n[Versions] v2 uses astronomical time; v3 also reads marker "
+"orientation."
+msgstr ""
+"【異變序列】02:10 全校鐘慢 7 分；02:12 河童時間伺服器回報正常；02:14 永遠亭月時計正常；02:16 紫把「準時／遲到」界碑旋轉 "
+"180°；02:17 只有讀取校規位置定義的鐘再慢 7 分，獨立機械鐘恢復。\n【版本】鐘控 v2 以天文時間校時；v3 另讀取界碑方向。"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.4
+#: src/data/gaokao-advanced.js:235
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.4"
+msgid "Which fault attribution is minimal yet sufficient?"
+msgstr "下列哪個故障歸因最小而充分？"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.5.0
+#: src/data/gaokao-advanced.js:236
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.5.0"
+msgid ""
+"The astronomical source lagged seven minutes at 02:10 and later recovered; "
+"the 02:17 subset merely had not resynchronized"
+msgstr "02:10 天文時間源短暫慢 7 分；伺服器與月時計稍後恢復，02:17 只是部分鐘尚未完成同步"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.5.1
+#: src/data/gaokao-advanced.js:236
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.5.1"
+msgid ""
+"Because servers report normal while campus clocks fail, the shared “normal” "
+"state value was wrong; marker rotation merely triggered rereading"
+msgstr "河童伺服器回報正常而全校鐘曾同時錯誤，說明伺服器的『正常』狀態值本身被統一寫錯；界碑旋轉只觸發重新讀取"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.5.2
+#: src/data/gaokao-advanced.js:236
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.5.2"
+msgid ""
+"v3 couples marker orientation into clock correction; selective recurrence "
+"after rotation supports that path, while the initial 02:10 trigger remains "
+"unexplained"
+msgstr "v3 把制度界標方向耦合進校時；旋轉後的選擇性復發支持此路徑，但 02:10 首次觸發仍未解明"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.5.3
+#: src/data/gaokao-advanced.js:236
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.5.3"
+msgid ""
+"Only policy-reading clocks recur after rotation, so Yukari's intervention "
+"explains both 02:17 and 02:10; the matching seven-minute errors form one "
+"causal chain"
+msgstr "界碑旋轉後只有讀校規位置的鐘復發，因此紫的介入可同時解釋 02:17 與 02:10；兩次七分鐘誤差應屬同一完整因果鏈"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.7
+#: src/data/gaokao-advanced.js:237
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.7"
+msgid ""
+"The attribution explains version selectivity and post-intervention "
+"recurrence without inventing the first trigger."
+msgstr "解釋要涵蓋版本選擇性與介入後復發，又不能把尚未觀測的首次觸發補成故事。"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.3
+#: src/data/gaokao-advanced.js:241
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.3"
+msgid ""
+"[Spell incident] A saw the red exit line; B says a lunar rainbow hid it; "
+"central referee saw it.\n[Video] Central camera normal; B-side camera "
+"polarizer reversed; two of three spectators there also failed to see the "
+"line.\n[Rule] Every participant must be able to identify the exit signal from "
+"their activity zone."
+msgstr ""
+"【符卡事故】參與者甲稱已見退場紅線；乙稱紅線在她視角被月虹覆蓋；裁判站中央可見紅線。\n【影像】中央機位正常；乙側機位偏振片裝反；觀眾席三人中兩人亦看不見"
+"紅線。\n【規則】退場訊號須由每位參與者在其活動區可辨認。"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.4
+#: src/data/gaokao-advanced.js:242
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.4"
+msgid "Can the rule be deemed satisfied solely because the central referee saw the line? Why?"
+msgstr "是否可僅以「中央裁判看得見」判定規則已滿足？最好的理由是？"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.5.0
+#: src/data/gaokao-advanced.js:243
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.5.0"
+msgid ""
+"Yes. The referee administers exit rulings, so a normal central view "
+"satisfies the institutional function; participant views affect convenience "
+"only"
+msgstr "可以；裁判負責判定退場，中央視角正常即可滿足制度功能，參與者視角只影響便利性"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.5.1
+#: src/data/gaokao-advanced.js:243
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.5.1"
+msgid ""
+"No. The rule applies to each participant's zone; B-side observations remain, "
+"and the faulty camera weakens video without erasing testimony"
+msgstr "不可以；規則以每位參與者的活動區為單位。乙側另有不可見觀察，壞相機只削弱影像，不消除證詞"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.5.2
+#: src/data/gaokao-advanced.js:243
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.5.2"
+msgid ""
+"No. The reversed polarizer and two spectators prove the lunar rainbow was "
+"inherently dangerous on B's side, invalidating the entire contest"
+msgstr "不可以；偏振片裝反與兩名觀眾看不見共同證明月虹在乙側必然危險，因此整場符卡無效"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.5.3
+#: src/data/gaokao-advanced.js:243
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.5.3"
+msgid ""
+"Yes. A and the referee supply a majority of independent visible viewpoints; "
+"the faulty B-side camera excludes contrary evidence"
+msgstr "可以；甲與中央裁判兩個獨立位置都看見，已達多數視角可見。乙側相機故障使反對證據不能計入"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.7
+#: src/data/gaokao-advanced.js:244
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.7"
+msgid ""
+"Do not generalize central visibility globally or discard all same-side "
+"evidence because one camera failed."
+msgstr "EXTRA 的陷阱是把中央可見性錯當全域可見性，也把一台壞相機錯當所有同側證據失效。"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.3
+#: src/data/gaokao-advanced.js:248
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.3"
+msgid ""
+"[Missing book timeline] Shelf 3.2kg at 14:00 and 14:31; 2.4 at 14:44; west "
+"window opens 14:46; Marisa exits 14:49; doll returns a 0.8kg book at "
+"15:02.\n[Sensor] Weight readings lag one record when a doll approaches; "
+"window sensor normal.\n[Loan] Alice borrowed a different 0.8kg book at 14:40 "
+"and returned it by doll at 15:02."
+msgstr ""
+"【失書時間線】14:00 書架重量 3.2kg；14:31 仍 3.2；14:44 降至 2.4；14:46 西窗開；14:49 魔理沙離館；15:02 "
+"自動人偶回架一冊 0.8kg。\n【感測】重量器每逢人偶靠近會延遲一筆；窗磁簧正常。\n【借閱】愛麗絲 14:40 登記借同重量的另一本書，15:02 "
+"由人偶歸還。"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.4
+#: src/data/gaokao-advanced.js:249
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.4"
+msgid "Which conclusion matches what the data can identify?"
+msgstr "哪個結論最符合資料的識別能力？"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.5.0
+#: src/data/gaokao-advanced.js:250
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.5.0"
+msgid ""
+"The 14:44 drop can be explained by Alice's valid loan; the window and Marisa "
+"events are temporal proximity, not unique identification"
+msgstr "14:44 重量下降可由愛麗絲合法借閱解釋；窗開與魔理沙離館只是時間相近，不能唯一識別失書者"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.5.1
+#: src/data/gaokao-advanced.js:250
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.5.1"
+msgid ""
+"The weight change matches the loan, but window opening followed by Marisa's "
+"exit forms another chain; when both exist, the later chain identifies the "
+"culprit"
+msgstr "重量下降與合法借閱同量，但窗開後魔理沙離館形成另一條獨立時間鏈；兩條鏈並存時應以較晚事件判定失書者"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.5.2
+#: src/data/gaokao-advanced.js:250
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.5.2"
+msgid ""
+"Because a doll approaches at 15:02 and weight lags one record, the 14:44 "
+"drop may belong to 15:02, so all earlier weight points should be discarded"
+msgstr "人偶會令重量資料延遲一筆，而 15:02 有人偶靠近；因此 14:44 的下降可能其實屬 15:02，全部早期重量點都應棄用"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.5.3
+#: src/data/gaokao-advanced.js:250
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.5.3"
+msgid ""
+"The 0.8kg return exactly restores the 14:44 loss; mass conservation proves "
+"it is the missing book, making the window and exit irrelevant"
+msgstr "15:02 人偶歸還 0.8kg，恰好補回 14:44 的下降；重量守恆足以證明它就是失書，窗與離館紀錄不再相關"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.7
+#: src/data/gaokao-advanced.js:251
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.7"
+msgid ""
+"The known loan explains the weight change. Remaining events do not identify "
+"a particular volume or possessor."
+msgstr "先用已知借閱解釋重量變化；其餘事件未連到特定書脊或持有人，不能越過識別邊界。"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.3
+#: src/data/gaokao-advanced.js:257
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.3"
+msgid ""
+"Source A was written that night in the village and saw only red light; B "
+"three days later at the Scarlet Devil Mansion logs gate shifts; C is a "
+"compilation fifty years later claiming “all Gensokyo saw red mist at once.”"
+msgstr "史料甲成於異變當夜，作者在人里，只見紅光；乙三日後成於紅魔館，記錄守門者交班；丙五十年後彙編，稱「全鄉同時見紅霧」。"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.4
+#: src/data/gaokao-advanced.js:258
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.4"
+msgid "Which evidence strategy best tests whether the mist covered all Gensokyo simultaneously?"
+msgstr "研究「紅霧是否同時覆蓋全鄉」，哪個證據配置最合理？"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.5.0
+#: src/data/gaokao-advanced.js:259
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.5.0"
+msgid ""
+"Use C to define the Gensokyo-wide scope, then fill village and mansion "
+"detail from A and B"
+msgstr "以丙的全鄉敘述定義範圍，再用甲乙補寫人里與紅魔館細節"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.5.1
+#: src/data/gaokao-advanced.js:259
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.5.1"
+msgid ""
+"Treat A and B as local records, seek timed mountain and lake evidence, and "
+"treat C as later narrative"
+msgstr "把甲乙視作兩地局部記錄，另找帶時間的山區／湖區資料；丙只作後世敘事"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.5.2
+#: src/data/gaokao-advanced.js:259
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.5.2"
+msgid "Convert A and B to one date and use their agreement to infer simultaneous coverage"
+msgstr "把甲乙成文日換成同一日期，再以兩份一致判定同時覆蓋"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.5.3
+#: src/data/gaokao-advanced.js:259
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.5.3"
+msgid ""
+"Because A records red light and B gate shifts rather than mist, use C as the "
+"only direct evidence"
+msgstr "甲只記紅光、乙記交班，兩者未直稱霧，因此暫以丙為唯一直接證據"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.7
+#: src/data/gaokao-advanced.js:260
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.7"
+msgid ""
+"Simultaneity across Gensokyo requires timed observations from several "
+"places; a later summary cannot replace spatial sampling."
+msgstr "「全鄉同時」需要多地帶時點資料；晚期總結不能替代缺失的空間取樣。"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.3
+#: src/data/gaokao-advanced.js:264
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.3"
+msgid ""
+"Map A shows a fixed well and daily paths but no date. Map B shows date, "
+"lunar phase, and fixed gate but omits temporary trails."
+msgstr "兩張竹林圖：地圖甲標有固定井與每日路徑，無製圖日期；地圖乙有日期、月相與固定門，但未畫臨時小徑。"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.4
+#: src/data/gaokao-advanced.js:265
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.4"
+msgid "How should they be used for today's rescue map?"
+msgstr "製作今日救援圖時應如何使用？"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.5.0
+#: src/data/gaokao-advanced.js:266
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.5.0"
+msgid "Use A's full route network as the base and place B's date and phase in the corner"
+msgstr "以甲的完整路網為底圖，把乙的日期與月相註記附在圖角"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.5.1
+#: src/data/gaokao-advanced.js:266
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.5.1"
+msgid "Use every element from B only; exclude even A's fixed well because A is undated"
+msgstr "只採用乙所有元素；沒有日期的甲連固定井也不應進救援圖"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.5.2
+#: src/data/gaokao-advanced.js:266
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.5.2"
+msgid ""
+"Use B's date, phase, and gate as the temporal frame; field-check A's well "
+"and omit A's undated paths"
+msgstr "用乙的日期、月相與固定門作時態框架；實地核對甲的井，不採用甲的未定年路徑"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.5.3
+#: src/data/gaokao-advanced.js:266
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.5.3"
+msgid "Overlay both maps; trust overlaps and prefer the more detailed A where they differ"
+msgstr "把兩圖疊合；重合處視為可靠，不重合處以較細節的甲為準"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.7
+#: src/data/gaokao-advanced.js:267
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.7"
+msgid ""
+"Map layers can have different reliability; stable anchors can be checked, "
+"while conditional routes require dates."
+msgstr "不同圖層可有不同可靠度；固定錨點能核查，條件路徑必須有日期。"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.3
+#: src/data/gaokao-advanced.js:271
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.3"
+msgid ""
+"Aya predicts 800 attendees; Hatate's photos count 520 entry marks; "
+"organizers issue 610 tickets, 90 allowing re-entry; simultaneous square "
+"capacity is 560."
+msgstr "Aya 的頭版預測祭典人數 800；Hatate 的照片計得入場標記 520；主辦方票券 610，其中 90 張為可重複進場；廣場同時容量 560。"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.4
+#: src/data/gaokao-advanced.js:272
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.4"
+msgid ""
+"Which headline best avoids conflating forecast, entries, unique people, and "
+"simultaneous presence?"
+msgstr "哪個標題最不混淆「預測、入場次數、獨立人數、同時在場」？"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.5.0
+#: src/data/gaokao-advanced.js:273
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.5.0"
+msgid "Forecast 800, tickets 610: festival draws at least 610 unique visitors"
+msgstr "預測 800 人、售票 610 張：祭典至少已有 610 名獨立訪客"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.5.1
+#: src/data/gaokao-advanced.js:273
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.5.1"
+msgid ""
+"Photos record 520 entries; unique attendance and peak occupancy still "
+"require ticket deduplication"
+msgstr "照片記錄 520 次入場；獨立人數與峰值仍須對票券去重"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.5.2
+#: src/data/gaokao-advanced.js:273
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.5.2"
+msgid "Capacity 560 and 520 entry marks place peak occupancy between 520 and 560"
+msgstr "廣場容量 560、入場標記 520：峰值在 520 至 560 人之間"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.5.3
+#: src/data/gaokao-advanced.js:273
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.5.3"
+msgid "Because 90 of 610 tickets allow re-entry, unique attendance is exactly 520"
+msgstr "610 張票含 90 張可重入，因此獨立人數恰為 520 人"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.7
+#: src/data/gaokao-advanced.js:274
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.7"
+msgid ""
+"The direct observation is 520 marks; re-entry means it is not automatically "
+"520 unique people."
+msgstr "唯一直接觀察是 520 次標記；重複進場使它不能直接等於獨立人數。"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.3
+#: src/data/gaokao-advanced.js:278
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.3"
+msgid ""
+"[A Village] Thick by midnight; writer's clock 15 min slow.\n[B Mountain] Mist "
+"after the sixth eastward wind reading; vane sampled every 30 min.\n[C Misty "
+"Lake] Mist 8 min after the moon reflection vanished; standard disappearance "
+"23:42.\n[D 50 years later] All Gensokyo entered mist simultaneously at "
+"midnight."
+msgstr ""
+"【甲・人里】子時紅霧已濃，作者鐘慢一刻。\n【乙・妖怪山】「第六次風向轉東後才見紅霧」；風向器每半刻記一次。\n【丙・霧湖】月面在水中消失後 8 "
+"分鐘見紅霧；當夜月面消失的標準時刻為 23:42。\n【丁・五十年後】全鄉於子時同時陷入紅霧。"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.4
+#: src/data/gaokao-advanced.js:279
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.4"
+msgid "Which research conclusion is most defensible?"
+msgstr "哪個研究結論最恰當？"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.5.0
+#: src/data/gaokao-advanced.js:280
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.5.0"
+msgid ""
+"A corrects to 00:15 and C to about 23:50; the 25-minute gap exceeds both "
+"records' stated precision and therefore rules out one mist event"
+msgstr "甲校正為 00:15、丙約 23:50；兩地相差 25 分，超過兩份記錄標示的時間精度，因此足以否定同一場紅霧"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.5.1
+#: src/data/gaokao-advanced.js:280
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.5.1"
+msgid ""
+"C gives about 23:50; A may correct to 00:15. B lacks an origin, so "
+"Gensokyo-wide simultaneity is not established"
+msgstr "丙約 23:50；甲的子時讀數校正後可能到 00:15。乙缺起始讀數，資料不足以證明全鄉同時"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.5.2
+#: src/data/gaokao-advanced.js:280
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.5.2"
+msgid ""
+"D fixes midnight as a Gensokyo-wide reference; align A, B, and C to D before "
+"judging local deviations"
+msgstr "丁把全鄉時間定在子時，可作共同時基；甲、乙、丙的局部時點應先對齊丁，再判斷各地偏差"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.5.3
+#: src/data/gaokao-advanced.js:280
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.5.3"
+msgid ""
+"B's six half-watch readings place mist three hours after observation began; "
+"even without a start time, sequence length makes it more precise than A or C"
+msgstr "乙每半刻一次且記到第六次，故可定位紅霧在起測後三小時；即使起始鐘時不明，序列長度仍使它比甲丙精確"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.7
+#: src/data/gaokao-advanced.js:281
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.7"
+msgid ""
+"Normalize sources to a common clock. B lacks an origin and D is late "
+"synthesis, so neither proves simultaneity."
+msgstr "需要把每份史料校正成共同時基；乙缺起點，丁又是晚期概括，都不能補足同時性。"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.3
+#: src/data/gaokao-advanced.js:285
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.3"
+msgid ""
+"Mountain turbine: kappa operate, Moriya guarantees by faith, village pays "
+"maintenance. Below 70% triggers renegotiation. Kappa report 76% all-day; "
+"village measures 64% for two peak watches; Moriya publishes 88% for one "
+"festival watch."
+msgstr ""
+"山區公共水輪由河童營運、守矢提供信仰擔保、人里支付維修。合約：產能不足 70% 時三方重談。河童表報 76%；人里在用水尖峰量得 "
+"64%；守矢只公布祭典日 88%。三方儀表採樣窗分別為全天、尖峰兩刻、祭典一刻。"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.4
+#: src/data/gaokao-advanced.js:286
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.4"
+msgid "Has renegotiation triggered, and what is the soundest institutional response?"
+msgstr "是否已觸發重談？最穩健的制度處理是？"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.5.0
+#: src/data/gaokao-advanced.js:287
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.5.0"
+msgid ""
+"Two peak watches below 70% meet the literal trigger; the undefined window "
+"affects breach liability but not whether renegotiation starts"
+msgstr "尖峰兩刻低於 70% 已符合字面條件，應先觸發重談；採樣窗雖未定義，只影響違約責任而不影響觸發"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.5.1
+#: src/data/gaokao-advanced.js:287
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.5.1"
+msgid ""
+"The all-day 76% uses the longest window and should override shorter "
+"observations; with no peak guarantee, renegotiation does not trigger"
+msgstr "全天 76% 是最長採樣窗，應優先於兩個較短觀測；合約未另定尖峰保障，所以暫不觸發重談"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.5.2
+#: src/data/gaokao-advanced.js:287
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.5.2"
+msgid ""
+"The contract lacks a sampling window; remeasure on a shared window and "
+"define the time scale of 70% in an addendum"
+msgstr "合約未定義採樣窗，三數不可直比；用共同時窗重測並在補充條款定義 70% 的時間尺度"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.5.3
+#: src/data/gaokao-advanced.js:287
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.5.3"
+msgid ""
+"Each party represents one responsibility, so their equal-weight mean of 76% "
+"is contractual capacity; being above threshold closes the matter"
+msgstr "三方各代表不同責任，將 76%、64%、88% 等權平均為 76% 即為契約產能；平均高於門檻，故可永久結案"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.7
+#: src/data/gaokao-advanced.js:288
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.7"
+msgid ""
+"The threshold lacks a time scale. Establish comparability before deciding "
+"whether it was crossed."
+msgstr "爭議不是只選哪方可信，而是門檻缺少時間尺度。先修正可比性，才能判定是否觸發。"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.3
+#: src/data/gaokao-advanced.js:292
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.3"
+msgid ""
+"Study claims public correction raises trust. Aya's paper: 12 corrections, "
+"trust 42→55; Hatate's: 2 corrections, 51→54. Aya simultaneously switched to "
+"free delivery and ran a popular incident map."
+msgstr ""
+"校報研究聲稱「公開訂正使信任上升」。資料：本學期 Aya 的報紙訂正 12 次，讀者信任由 42 升至 55；Hatate 的刊物訂正 2 次，信任由 "
+"51 升至 54。同時 Aya 改用免費派報且連載熱門異變圖。"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.4
+#: src/data/gaokao-advanced.js:293
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.4"
+msgid "Which conclusion best matches these observational data?"
+msgstr "哪個結論最符合這份觀察資料？"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.5.0
+#: src/data/gaokao-advanced.js:294
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.5.0"
+msgid ""
+"Aya had ten more corrections and gained ten more points; after removing the "
+"shared three-point period trend, each correction adds about one trust point"
+msgstr "Aya 比 Hatate 多 10 次訂正且多升 10 點；控制兩刊物共同的 3 點時期趨勢後，可估每次訂正約增加 1 點信任"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.5.1
+#: src/data/gaokao-advanced.js:294
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.5.1"
+msgid ""
+"Aya's corrections and trust rose together, but free delivery, the popular "
+"series, and baseline differences prevent estimating an independent "
+"correction effect"
+msgstr "Aya 的訂正與信任同時上升，但免費派報、熱門連載及不同基線妨礙估計訂正的獨立效果"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.5.2
+#: src/data/gaokao-advanced.js:294
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.5.2"
+msgid ""
+"Both papers gained trust and the one with more corrections gained more; this "
+"supports a positive causal direction, though not its size"
+msgstr "兩刊物信任都上升，且訂正較多者升幅較大；這足以支持訂正效果方向為正，但資料不足以估計大小"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.5.3
+#: src/data/gaokao-advanced.js:294
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.5.3"
+msgid ""
+"Use Hatate's three points as the no-correction trend and assign Aya's "
+"remaining ten points to corrections; free delivery and the series affect "
+"reach only"
+msgstr "以 Hatate 的 3 點作無訂正趨勢，Aya 剩餘 10 點可全歸於 12 次訂正，免費派報與連載只影響接觸人數"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.7
+#: src/data/gaokao-advanced.js:295
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.7"
+msgid ""
+"Several changes coincide and baselines differ; the before-after change "
+"cannot be assigned solely to corrections."
+msgstr "多個政策同時改變，兩刊物初始值也不同；不能把前後差全歸於訂正。"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.3
+#: src/data/gaokao-advanced.js:299
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.3"
+msgid ""
+"[Archive] A: 18 same-night village diaries, preserved only from East Gate "
+"residents. B: 40 tengu photos, editors removed 11 showing “no mist.” C: "
+"complete mansion duty log, timestamps uniformly 9 minutes slow. D: later "
+"encyclopedia cites A/B, not C.\nGoal: estimate arrival-time distribution by "
+"district."
+msgstr ""
+"【事件檔案】A：當夜村民日記 18 份，只有住在東門者被保存；B：天狗照片 40 張，編輯刪去「沒有紅霧」的 11 "
+"張；C：紅魔館值班簿完整但時間戳統一慢 9 分；D：後世百科引用 A、B，未引用 C。\n問題：估計紅霧到達各區的時間分布。"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.4
+#: src/data/gaokao-advanced.js:300
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.4"
+msgid ""
+"Which plan best avoids mistaking preservation and editing mechanisms for the "
+"world itself?"
+msgstr "哪個分析方案最能避免把保存與編輯機制誤當世界本身？"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.5.0
+#: src/data/gaokao-advanced.js:301
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.5.0"
+msgid ""
+"Treat A and B as contemporary and D as an independent later observation; "
+"correct C by nine minutes as the mansion baseline"
+msgstr "A 與 B 是當時材料、D 是後世綜合，三者可作不同時期的獨立觀測；C 校正 9 分後另作紅魔館基準"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.5.1
+#: src/data/gaokao-advanced.js:301
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.5.1"
+msgid ""
+"Estimate mist districts from B's surviving 29 images and supplement the "
+"village with A; deleted no-mist images cannot enter the model because they "
+"no longer survive"
+msgstr "以 B 現存 29 張估計霧區，再用 A 的 18 份日記補足人里；沒有紅霧的照片既未保存，就不能納入數值模型"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.5.2
+#: src/data/gaokao-advanced.js:301
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.5.2"
+msgid ""
+"Model A's geographic selection and B's deletions, correct C by nine minutes, "
+"and do not double-weight D because it depends on A and B"
+msgstr "明示 A 的地理選擇，將 B 刪除納入缺失機制，校正 C 九分鐘；D 依賴 A/B，不重複計權"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.5.3
+#: src/data/gaokao-advanced.js:301
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.5.3"
+msgid ""
+"Because D omits C, the mansion log was not accepted; build the distribution "
+"from A, B, and D and relegate C to a non-influential sensitivity appendix"
+msgstr "D 未引用 C，顯示紅魔館簿不屬當時公認資料；先用 A/B/D 建分布，再以 C 作不影響估計的敏感度附錄"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.7
+#: src/data/gaokao-advanced.js:302
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.7"
+msgid ""
+"Model how records survived. D is not a new observation, and B's omissions "
+"are not random."
+msgstr "EXTRA 要建模資料如何留下來；D 並非新觀測，B 的刪除也不是隨機缺失。"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.3
+#: src/data/gaokao-advanced.js:306
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.3"
+msgid ""
+"Three faiths choose whether to run free lectures. Clear weather raises "
+"outdoor lectures and Moriya enrolment; the temple moves indoors when rainy; "
+"the hermitage adds sessions only when it foresees high interest. A "
+"researcher directly compares enrolment with/without lectures and claims "
+"causation."
+msgstr ""
+"三宗派爭取學生：各自選擇是否在同一週舉辦免費講座。過去資料顯示，天氣晴朗同時提高戶外講座與守矢報名；寺院常在雨天把活動移入室內；道觀只在能預先讀到高興趣"
+"時加場。研究者用「有免費講座／無」直接比較報名人數，宣稱講座有因果效果。"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.4
+#: src/data/gaokao-advanced.js:307
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.4"
+msgid ""
+"Which design comes closest to identifying the causal effect without asking "
+"faiths to abandon their practices?"
+msgstr "哪個設計最接近可識別講座的因果效果，又不要求宗派放棄自身作風？"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.5.0
+#: src/data/gaokao-advanced.js:308
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.5.0"
+msgid ""
+"Add historical years and propensity scores by faith and weather, using "
+"extra-session count as a proxy for the hermitage's foreseen interest"
+msgstr "增加更多往年資料，分宗派與晴雨建立傾向分數；道觀預知的興趣無法直接量測，可用加場次數代理"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.5.1
+#: src/data/gaokao-advanced.js:308
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.5.1"
+msgid ""
+"Within dates each faith deems feasible, publicly randomize this week versus "
+"next, estimate by faith, and record weather and prior interest"
+msgstr "在各宗派已認可的可辦日期內，公開抽籤本週或下週；分宗派估計並記錄天氣與預先興趣"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.5.2
+#: src/data/gaokao-advanced.js:308
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.5.2"
+msgid ""
+"Pool students across faiths, stratify by weather, and compare lectures; a "
+"large sample averages away faith differences"
+msgstr "把三宗派學生合併後依天氣分層，比較有無講座；宗派差異可由大樣本平均消除"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.5.3
+#: src/data/gaokao-advanced.js:308
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.5.3"
+msgid ""
+"Randomize Moriya lectures on clear days, then extrapolate that clean causal "
+"effect to the temple and hermitage"
+msgstr "只研究守矢並在晴天隨機舉辦講座；先得到乾淨因果效果，再把同一效果外推到寺院與道觀"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.7
+#: src/data/gaokao-advanced.js:309
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.7"
+msgid ""
+"Randomizing within feasible dates respects faith-specific constraints while "
+"breaking systematic assignment by interest and weather."
+msgstr "在可接受日期內隨機排程保留宗派選擇邊界，又切斷當週講座與已知興趣／天氣的系統性關聯。"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.3
+#: src/data/gaokao-advanced.js:313
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.3"
+msgid ""
+"[News chain] Aya draft: “Moon rabbits seal bamboo forest”; edited: “Moon "
+"rabbits control full-moon clinic flow”; reprint deletes “full-moon”; "
+"fifty-year chronology: “Moon rabbits maintained a long blockade.”\n[Clinic "
+"log] Controls occurred on three full-moon nights, two watches each, with "
+"emergency entry open."
+msgstr ""
+"【新聞鏈】Aya 初稿：「月兔封鎖竹林」；編輯版：「月兔管制滿月診療動線」；轉載版刪去「滿月」；五十年後年表寫「月兔長期封鎖竹林」。\n【門診簿】管制只發"
+"生三個滿月夜，每次兩刻，且保留急診入口。"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.4
+#: src/data/gaokao-advanced.js:314
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.4"
+msgid ""
+"What textual mechanism most strongly explains the shift from brief control "
+"to long blockade?"
+msgstr "要解釋「短時管制」如何變成「長期封鎖」，最有力的文本機制是哪一個？"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.5.0
+#: src/data/gaokao-advanced.js:315
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.5.0"
+msgid ""
+"The draft's “seal” and three full-moon controls corroborate each other; the "
+"chronology simply calls a repeated long-lived rabbit policy long-term"
+msgstr "初稿的『封鎖』與三次滿月管制互相印證；年表只是把長壽月兔在多年內反覆執行的同一政策稱為長期"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.5.1
+#: src/data/gaokao-advanced.js:315
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.5.1"
+msgid ""
+"The strong draft verb “seal” remains, the reprint removes “full-moon,” and "
+"the chronology compresses repeated events into continuity"
+msgstr "初稿的強動詞『封鎖』留下，轉載刪去『滿月』，年表再把重複事件壓成連續狀態"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.5.2
+#: src/data/gaokao-advanced.js:315
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.5.2"
+msgid ""
+"The edited copy replaced “seal” with “control,” so only the later chronology "
+"can be at fault; the reprint's deletion does not affect duration"
+msgstr "編輯版已把『封鎖』改成『管制』，故錯誤只可能發生在五十年後年表，轉載刪詞不影響事件長度"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.5.3
+#: src/data/gaokao-advanced.js:315
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.5.3"
+msgid ""
+"The clinic log totals six watches, which historical convention can directly "
+"convert into a long blockade; emergency access is merely an exception"
+msgstr "門診簿顯示三次、每次兩刻；累計六刻可在史學慣例中直接換算成長期封鎖，急診入口只屬例外"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.7
+#: src/data/gaokao-advanced.js:316
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.7"
+msgid ""
+"Trace which qualifier disappears at each transmission step rather than "
+"comparing only endpoints."
+msgstr "需要追蹤每次轉載丟失了哪個限定語，而不是只比較首尾兩句。"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.3
+#: src/data/gaokao-advanced.js:322
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.3"
+msgid ""
+"Turbine tests: old runner at flow 10 outputs 72, 74; new runner at flow 12 "
+"outputs 91, 93. Researcher claims the new runner is more efficient."
+msgstr "水輪三次測試：舊葉輪在流量 10 時輸出 72、74；新葉輪在流量 12 時輸出 91、93。研究者說新葉輪效率更高。"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.4
+#: src/data/gaokao-advanced.js:323
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.4"
+msgid "What is the most important next test?"
+msgstr "下一步最關鍵的測試是？"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.5.0
+#: src/data/gaokao-advanced.js:324
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.5.0"
+msgid "Alternate runners at the same flow and head, measuring input and output power"
+msgstr "在相同流量與落差下交替測兩種葉輪，同時量輸入與輸出功率"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.5.1
+#: src/data/gaokao-advanced.js:324
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.5.1"
+msgid "Raise the old runner to flow 12 and compare only mean output between runners"
+msgstr "把舊葉輪也提高到流量 12，只比較兩者的平均輸出"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.5.2
+#: src/data/gaokao-advanced.js:324
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.5.2"
+msgid ""
+"Repeat each at its original flow and use narrower confidence intervals to "
+"judge efficiency"
+msgstr "維持原流量各再做十次，用較窄信賴區間判定新葉輪效率"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.5.3
+#: src/data/gaokao-advanced.js:324
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.5.3"
+msgid "Compare output-to-flow ratios without controlling head or measuring input power"
+msgstr "量兩種葉輪的輸出／流量比，但不控制落差與輸入功率"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.7
+#: src/data/gaokao-advanced.js:325
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.7"
+msgid ""
+"Runner and flow both changed, and input power is absent; controlled "
+"input/output measurement is required."
+msgstr "現有比較同時改變葉輪與流量，且只有輸出沒有效率分母；控制條件與量輸入才能判斷效率。"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.3
+#: src/data/gaokao-advanced.js:329
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.3"
+msgid ""
+"Eientei herb trial: full-moon mean recovery 4.2 days (n=8), non-full-moon "
+"5.0 (n=8). Reisen measures every full-moon case, Tewi every non-full-moon "
+"case; their “recovery” criteria are uncalibrated."
+msgstr "永遠亭藥草試驗：滿月組平均恢復 4.2 日（n=8），非滿月組 5.0 日（n=8）。滿月組全部由鈴仙量測，非滿月組全部由帝量測；兩人對「恢復」的判準未校正。"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.4
+#: src/data/gaokao-advanced.js:330
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.4"
+msgid "What most directly threatens the interpretation that lunar phase caused the difference?"
+msgstr "哪項最直接威脅「月相造成差異」的解釋？"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.5.0
+#: src/data/gaokao-advanced.js:331
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.5.0"
+msgid "The groups are equal but only eight each, so their means cannot be compared"
+msgstr "兩組樣本數相同，但每組只有八人，平均數因此不能比較"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.5.1
+#: src/data/gaokao-advanced.js:331
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.5.1"
+msgid ""
+"Observer and phase are perfectly confounded, so criterion differences cannot "
+"be separated from phase effects"
+msgstr "測量者與月相完全重合，判準差異無法和月相效果分開"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.5.2
+#: src/data/gaokao-advanced.js:331
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.5.2"
+msgid "Decimal recovery times imply a precision beyond the actual observation schedule"
+msgstr "恢復時間以小數日呈現，表示判準精度高於實際觀察頻率"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.5.3
+#: src/data/gaokao-advanced.js:331
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.5.3"
+msgid ""
+"Different observers were used, but a 0.8-day gap is large enough to overcome "
+"any criterion difference"
+msgstr "兩組由不同人量測，但平均相差 0.8 日足以克服任何判準差異"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.7
+#: src/data/gaokao-advanced.js:332
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.7"
+msgid "The factors are perfectly aligned; cross-rating or blinded common criteria are needed."
+msgstr "兩個因素完全共線；需交叉量測或盲化共同判準。"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.3
+#: src/data/gaokao-advanced.js:336
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.3"
+msgid ""
+"Magic material A succeeds 14/20, B 9/10. A is always tested at Misty Lake, B "
+"always in the library; same caster."
+msgstr "魔法材料甲在 20 次中成功 14 次，乙在 10 次中成功 9 次。甲皆在霧湖測、乙皆在圖書館測；施術者相同。"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.4
+#: src/data/gaokao-advanced.js:337
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.4"
+msgid "What is the most reasonable conclusion?"
+msgstr "最合理的結論是？"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.5.0
+#: src/data/gaokao-advanced.js:338
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.5.0"
+msgid ""
+"B is currently 20 points higher; extending each to 30 trials will confirm "
+"the material difference"
+msgstr "乙目前高 20 個百分點；先各補到 30 次即可確認材料差異"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.5.1
+#: src/data/gaokao-advanced.js:338
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.5.1"
+msgid "The rates confound material and site; randomize A and B within both sites"
+msgstr "成功率同時混入場地與材料；應在兩場地內隨機交替甲乙"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.5.2
+#: src/data/gaokao-advanced.js:338
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.5.2"
+msgid ""
+"The same caster controls the main difference, so 70% versus 90% can be "
+"attributed directly to material"
+msgstr "施術者相同已控制主要差異，因此可把 70% 與 90% 直接歸因於材料"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.5.3
+#: src/data/gaokao-advanced.js:338
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.5.3"
+msgid "Pool the groups as 23/30 overall, then adjust for site afterward"
+msgstr "把兩組合併成 23/30 作總成功率，再用場地作事後修正"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.7
+#: src/data/gaokao-advanced.js:339
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.7"
+msgid "Site and material change together; within-site randomization can separate them."
+msgstr "場地與材料一起改變，差異無法歸因；分層隨機測試能拆開兩者。"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.3
+#: src/data/gaokao-advanced.js:343
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.3"
+msgid ""
+"Kappa turbine by watch: flow 10,10,10,10; head 5,5,5,5; output 80,79,61,60; "
+"shaft temperature 31,32,48,49. At watch 3, speed sensor firmware v2→v3; "
+"manual rotation log unchanged; weed found on runner."
+msgstr ""
+"河童水輪每刻資料：\n流量 10,10,10,10；落差 5,5,5,5；輸出 80,79,61,60；軸溫 "
+"31,32,48,49。\n第三刻起轉速感測器韌體由 v2 升 v3；人工轉數記錄未變；拆檢發現葉輪纏有水草。"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.4
+#: src/data/gaokao-advanced.js:344
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.4"
+msgid "Which diagnosis best fits all observations?"
+msgstr "哪個診斷最符合全部資料？"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.5.0
+#: src/data/gaokao-advanced.js:345
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.5.0"
+msgid ""
+"v3 coincides with the output drop and manual speed is unchanged, so firmware "
+"is the sole fault and weeds are a consequence"
+msgstr "v3 與輸出下降同刻出現；人工轉數未變，故韌體應是唯一故障，水草只是結果"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.5.1
+#: src/data/gaokao-advanced.js:345
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.5.1"
+msgid ""
+"Weeds explain output loss and heating; firmware changed concurrently but "
+"unchanged manual speed means sensor bias needs separate testing"
+msgstr "水草可解釋輸出下降與升溫；韌體同時更換但人工轉數未變，感測偏差應另行驗證"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.5.2
+#: src/data/gaokao-advanced.js:345
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.5.2"
+msgid ""
+"Fixed flow, head, and manual rotation show mechanical output did not change; "
+"the drop is entirely display error"
+msgstr "流量與落差固定而人工轉數未變，說明真實機械輸出未變，下降完全是顯示誤差"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.5.3
+#: src/data/gaokao-advanced.js:345
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.5.3"
+msgid "Downgrade to v2; recovery rules out weeds, while no recovery rules out firmware"
+msgstr "先降回 v2；若輸出恢復即可排除水草，若未恢復即可排除韌體"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.7
+#: src/data/gaokao-advanced.js:346
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.7"
+msgid ""
+"Physical covariates support blockage; firmware needs separate A/B validation "
+"rather than attribution by coincidence."
+msgstr "物理共變量支持阻塞；版本事件仍需 A/B 校驗，但不能單靠時間重合取代機理。"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.3
+#: src/data/gaokao-advanced.js:350
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.3"
+msgid ""
+"Same 12 patients: drug A on a full-moon night, drug B next new moon; A "
+"appears faster. Everyone receives A then B, and illness naturally improves "
+"over time."
+msgstr "月草藥效研究分兩夜：同 12 名患者，滿月夜服藥甲、次月新月夜服藥乙；結果甲較快。所有患者都先甲後乙，且病程通常隨時間自然改善。"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.4
+#: src/data/gaokao-advanced.js:351
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.4"
+msgid "Which next-round design best separates drug, phase, order, and natural course?"
+msgstr "下一輪最能分開藥物、月相、順序與自然病程的設計是？"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.5.0
+#: src/data/gaokao-advanced.js:352
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.5.0"
+msgid ""
+"Split patients equally between A at full moon and B at new moon; match "
+"baseline illness to estimate drug and phase together"
+msgstr "把患者分成兩組，一組滿月只用甲、另一組新月只用乙；兩組人數與初始病情配對，就可同時估計藥物和月相"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.5.1
+#: src/data/gaokao-advanced.js:352
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.5.1"
+msgid ""
+"Randomize A and B within both phases and randomize A→B or B→A, with washout "
+"and blinded assessment"
+msgstr "在兩月相內隨機給甲乙，並隨機安排甲→乙／乙→甲，設洗脫期與盲化判讀"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.5.2
+#: src/data/gaokao-advanced.js:352
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.5.2"
+msgid ""
+"Keep A→B for everyone, move the second dose earlier, and blind assessment to "
+"reduce natural recovery and observer bias"
+msgstr "維持全員甲→乙，但把第二次給藥提前並加入盲化判讀，降低自然改善與觀察偏差"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.5.3
+#: src/data/gaokao-advanced.js:352
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.5.3"
+msgid ""
+"Let patients choose the drug while researchers randomize phase; adjust drug "
+"preference as a covariate in analysis"
+msgstr "讓患者選擇藥物，再由研究者把月相隨機分配為滿月或新月；偏好可在分析時作共變量校正"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.7
+#: src/data/gaokao-advanced.js:353
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.7"
+msgid ""
+"A balanced crossover identifies drug, phase, and order effects; "
+"washout/blinding address carryover and assessment bias."
+msgstr "交叉且平衡的因子設計可估計藥物、月相及順序效應；洗脫與盲化處理殘留及判讀偏差。"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.3
+#: src/data/gaokao-advanced.js:357
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.3"
+msgid ""
+"Starlight samples: A “back shelf of Kirisame shop,” B “Kourindou "
+"Outside-World crate,” C “Patchouli cabinet seven.” A/C share main peak; B "
+"has an extra peak. Same spell radii: 8.1, 11.7, 8.0. No dark calibration "
+"before B."
+msgstr ""
+"星光材料來源紀錄：樣本 A「霧雨店後架」；B「香霖堂外界箱」；C「帕秋莉第七櫃」。光譜顯示 A、C 主峰相同，B 多一峰；三者在同咒式的爆炸半徑 "
+"A=8.1、B=11.7、C=8.0。儀器在測 B 前未做暗場校正。"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.4
+#: src/data/gaokao-advanced.js:358
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.4"
+msgid ""
+"Which follow-up best discriminates the claim that B's extra component causes "
+"the larger blast?"
+msgstr "哪個後續步驟對「B 的額外成分造成更大爆炸」最具區分力？"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.5.0
+#: src/data/gaokao-advanced.js:359
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.5.0"
+msgid ""
+"Recalibrate and rescan; add B's extra component to A and C, test B without "
+"it, and blind and randomize casting"
+msgstr "校正後重測；把 B 的額外成分加入 A/C，並測試去除該成分的 B，施術盲化且隨機"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.5.1
+#: src/data/gaokao-advanced.js:359
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.5.1"
+msgid ""
+"Recalibrate and repeatedly randomize B castings; if the extra peak and "
+"larger blast recur together, infer a causal component effect"
+msgstr "校正後只重測 B；若額外峰與較大爆炸在多次隨機施術中共同重現，即可判定成分具有因果作用"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.5.2
+#: src/data/gaokao-advanced.js:359
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.5.2"
+msgid ""
+"Rescan A, B, and C on one calibrated instrument, control spell and order, "
+"and infer causation from a peak-height dose response"
+msgstr "在同一已校正儀器上重測 A、B、C，控制咒式與施術順序，再以峰高和爆炸半徑的劑量反應關係判定因果"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.5.3
+#: src/data/gaokao-advanced.js:359
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.5.3"
+msgid ""
+"Add B's extra component to both A and C; if both blasts grow, sufficiency "
+"and necessity are proved without testing B after removal"
+msgstr "把 B 額外成分分別加入 A 與 C；若兩者爆炸都增大，即已證明充分性與必要性，不必再測去除後的 B"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.7
+#: src/data/gaokao-advanced.js:360
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.7"
+msgid ""
+"Rule out an instrumental peak, then use addition/removal to test necessity "
+"and sufficiency."
+msgstr "先排除儀器假峰，再以添加／去除介入檢驗成分的必要性與充分性。"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.3
+#: src/data/gaokao-advanced.js:364
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.3"
+msgid ""
+"Navigator error: v2 day 2%, night 3%; v3 day 2%, night 19%; v3 with 430nm "
+"blocked at night 4%; same block plus lantern four off 3%. v3 adds 420–450nm "
+"auto-gain. Lantern four peaks at 432nm; other three at 560nm. Keine confirms "
+"route stayed fixed each test night."
+msgstr ""
+"導航器失誤率：\nv2 白天 2%、夜間 3%；v3 白天 2%、夜間 19%；v3+遮住 430nm 光 夜間 4%；v3+遮光但第四燈熄滅 夜間 "
+"3%。\n韌體差分：v3 新增 420–450nm 自動增益。第四燈主峰 432nm；其他三燈主峰 560nm。路徑在各試驗夜由慧音確認未移動。"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.4
+#: src/data/gaokao-advanced.js:365
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.4"
+msgid "What is the minimal sufficient failure mechanism and next confirmation test?"
+msgstr "最小充分的故障機制與下一個確認試驗是？"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.5.0
+#: src/data/gaokao-advanced.js:366
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.5.0"
+msgid ""
+"v3 fails only at night, showing nocturnal forest movement; remap each test "
+"night and recalibrate the navigator to the new route"
+msgstr "v3 夜間失誤而白天正常，說明竹林只在夜間移動；應在各試驗夜重畫路徑，再以新圖校正導航器"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.5.1
+#: src/data/gaokao-advanced.js:366
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.5.1"
+msgid ""
+"v3's 432nm gain lets lantern four dominate navigation features; on a fixed "
+"route randomize gain and lantern four to test their interaction"
+msgstr "v3 的 432nm 增益使第四燈壓過導航特徵；固定路徑下隨機切換增益與第四燈，檢驗交互作用"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.5.2
+#: src/data/gaokao-advanced.js:366
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.5.2"
+msgid ""
+"Blocking 430nm reduces error to 4%, proving all blue light is causal; next "
+"block moonlight and every short-wave lamp"
+msgstr "遮住 430nm 使失誤降至 4%，足以證明所有藍光都是原因；下一步應把月光與所有短波燈一併遮蔽"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.5.3
+#: src/data/gaokao-advanced.js:366
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.5.3"
+msgid ""
+"v3 matches v2 by day, so firmware has no main effect; reaching 3% with "
+"lantern four off proves only the lamp matters"
+msgstr "v3 白天表現與 v2 相同，故韌體主效應為零；第四燈熄滅後降到 3% 證明只有燈本身相關"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.7
+#: src/data/gaokao-advanced.js:367
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.7"
+msgid ""
+"Version diff, spectral match, and rescue by filtering support one mechanism; "
+"factorial intervention tests dependence on lantern four."
+msgstr "版本差分、光譜對應與遮光救援形成一致機理；二因子介入能測它是否特別依賴第四燈。"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.3
+#: src/data/gaokao-advanced.js:371
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.3"
+msgid ""
+"Four lunar-drug sequences, n=10 each: full-A→new-B: 8 improvement; "
+"full-B→new-A: 5; new-A→full-B: 4; new-B→full-A: 7. Cells where A is given at "
+"full moon are higher, but three second-period patients have carryover. No "
+"untreated group."
+msgstr ""
+"月藥試驗四序列各 n=10：\n滿月-甲→新月-乙：改善 8；滿月-乙→新月-甲：改善 5；新月-甲→滿月-乙：改善 4；新月-乙→滿月-甲：改善 "
+"7。\n甲在滿月給藥的兩格皆較高；但第二期有 3 人仍殘留第一期藥物。無未服藥組。"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.4
+#: src/data/gaokao-advanced.js:372
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.4"
+msgid "What can be claimed now, and what should the next round add?"
+msgstr "目前能主張到哪一層，下一輪應補什麼？"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.5.0
+#: src/data/gaokao-advanced.js:373
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.5.0"
+msgid ""
+"Both sequences with full-moon A are higher, proving A works only at full "
+"moon; exclude the three carryover patients from period-two analysis"
+msgstr "兩個甲在滿月的序列都較高，已證明甲只在滿月有效；三名殘留只需從第二期分析排除"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.5.1
+#: src/data/gaokao-advanced.js:373
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.5.1"
+msgid ""
+"The data suggest an A-by-full-moon interaction, but carryover and natural "
+"course remain; extend washout and add untreated or placebo controls within "
+"each phase"
+msgstr "資料提示甲×滿月交互作用，但殘留與自然病程仍在；下一輪延長洗脫並於各月相加入未服藥／安慰對照"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.5.2
+#: src/data/gaokao-advanced.js:373
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.5.2"
+msgid ""
+"Without an untreated group, absolute benefit is unknown, so the four "
+"sequences also contain no information about relative drug-by-phase "
+"interaction"
+msgstr "沒有未服藥組，無法估計絕對療效；因此四個序列連藥物與月相的相對交互作用也完全沒有資訊"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.5.3
+#: src/data/gaokao-advanced.js:373
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.5.3"
+msgid ""
+"Retain the two high full-moon-A cells, remove the other two as "
+"carryover-contaminated, and repeat only retained sequences for precision"
+msgstr "保留滿月甲的兩個高格、刪除另兩格作為受殘留污染；下一輪只重複被保留序列以增加精度"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.7
+#: src/data/gaokao-advanced.js:374
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.7"
+msgid ""
+"Balanced sequences suggest interaction, but absolute benefit over natural "
+"recovery is unidentified and carryover violates clean crossover assumptions."
+msgstr "平衡序列給出交互作用線索，但無法單獨識別相對自然改善的絕對療效，且殘留違反乾淨交叉假設。"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.3
+#: src/data/gaokao-advanced.js:378
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.3"
+msgid ""
+"Replication: Forest (unknown lot) 9/10; library (P7) 2/10; Kourindou (P7) "
+"8/10. Same caster in forest/Kourindou; Patchouli casts in library. Library "
+"humidity 78%, others 42–45%. P7 sample remains for 12 trials."
+msgstr ""
+"魔理沙實驗三地重現：\n森林：材料批次不詳，成功 9/10；圖書館：批次 P7，成功 2/10；香霖堂：批次 P7，成功 "
+"8/10。\n森林與香霖堂用同一施術者；圖書館由帕秋莉施術。圖書館濕度 78%，其餘 42–45%。P7 留樣足夠再做 12 次。"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.4
+#: src/data/gaokao-advanced.js:379
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.4"
+msgid "With limited P7, which allocation best separates site humidity from caster?"
+msgstr "用有限 P7 留樣，哪個分配最能區分場地濕度與施術者？"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.5.0
+#: src/data/gaokao-advanced.js:380
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.5.0"
+msgid ""
+"Have Marisa perform all twelve in a controlled room, six at each humidity; "
+"identify humidity first, then back-calculate caster effect from existing "
+"library data"
+msgstr "12 次全由魔理沙在可控房間做：45% 與 78% 濕度各六次；先識別濕度效果，再用既有圖書館資料推回施術者效果"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.5.1
+#: src/data/gaokao-advanced.js:380
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.5.1"
+msgid ""
+"Use a controlled room at 45% and 78%; both casters perform three randomized "
+"interleaved trials at each humidity"
+msgstr "可控房間設 45%／78% 兩濕度；兩名施術者在各濕度隨機交錯做三次"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.5.2
+#: src/data/gaokao-advanced.js:380
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.5.2"
+msgid ""
+"Run six P7 trials with Marisa in the forest and six with Patchouli in the "
+"library; fixing lot allows site and caster to be separated from the rate "
+"difference"
+msgstr "魔理沙在森林做六次、帕秋莉在圖書館做六次，兩地都用 P7；批次固定後，場地與施術者可由成功率差分拆開"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.5.3
+#: src/data/gaokao-advanced.js:380
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.5.3"
+msgid ""
+"Give each caster six trials at an intermediate 60% humidity; removing site "
+"difference makes the result representative of both original humidities"
+msgstr "兩名施術者各做六次，但都放在約 60% 的中間濕度；消除場地差後，結果即可同時代表兩個原濕度"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.7
+#: src/data/gaokao-advanced.js:381
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.7"
+msgid ""
+"A balanced 2×2 design uses all 12 trials and avoids confounding caster with "
+"humidity again."
+msgstr "2×2 因子配置用 12 次恰好平衡施術者與濕度，避免再次把兩者綁在一起。"

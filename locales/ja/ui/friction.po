@@ -1,0 +1,52 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/open
+#: src/js/friction.js:8
+msgctxt "tree:copy#/open"
+msgid "Open case file"
+msgstr "案件を開く"
+
+#. copy/course
+#: src/js/friction.js:8
+msgctxt "tree:copy#/course"
+msgid "Course this term"
+msgstr "今学期の授業"
+
+#. copy/friction
+#: src/js/friction.js:8
+msgctxt "tree:copy#/friction"
+msgid "Current friction"
+msgstr "現在の対立"
+
+#. copy/office
+#: src/js/friction.js:8
+msgctxt "tree:copy#/office"
+msgid "Council seat"
+msgstr "所属議席"
+
+#. copy/officeValue
+#: src/js/friction.js:8
+msgctxt "tree:copy#/officeValue"
+msgid "Faith & Coexistence Policy · Temporary Meeting Room"
+msgstr "信仰・共生政策学部・仮会議室"
+
+#. copy/review
+#: src/js/friction.js:8
+msgctxt "tree:copy#/review"
+msgid "External appeals review"
+msgstr "学外異議審査"
+
+#. copy/imageAlt
+#: src/js/friction.js:8
+msgctxt "tree:copy#/imageAlt"
+msgid ""
+"Byakuren, Kanako, Miko, and Sanae argue over a festival resource map in a "
+"shabby meeting room"
+msgstr "古びた会議室で祭礼資源図をめぐり議論する聖白蓮、八坂神奈子、豊聡耳神子、東風谷早苗"

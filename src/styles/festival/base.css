@@ -1,0 +1,427 @@
+.festival-section {
+  --festival-ink: #13243a;
+  --festival-red: #9c2d3a;
+  --festival-red-dark: #6f1824;
+  --festival-gold: #b18747;
+  --festival-green: #2f584b;
+  --festival-paper: #f7f1e5;
+  --festival-line: rgba(25, 35, 49, 0.19);
+  --font-serif: var(--serif);
+  --font-sans: var(--sans);
+  position: relative;
+  min-height: 72vh;
+  padding: clamp(58px, 8vw, 112px) 0;
+  color: var(--festival-ink);
+  background:
+    radial-gradient(circle at 82% 5%, rgba(196, 127, 92, 0.11), transparent 25%),
+    linear-gradient(90deg, transparent 49.85%, rgba(74, 49, 29, 0.04) 50%, transparent 50.15%),
+    #f9f5ec;
+}
+
+.festival-section::before {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  opacity: 0.36;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 37px, rgba(26, 38, 54, 0.035) 37px 38px),
+    repeating-linear-gradient(90deg, transparent 0 75px, rgba(26, 38, 54, 0.018) 75px 76px);
+  mask-image: linear-gradient(#000 0 72%, transparent);
+}
+
+.festival-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.festival-loading {
+  display: grid;
+  min-height: 45vh;
+  place-content: center;
+  text-align: center;
+}
+
+.festival-loading p,
+.festival-hero > div > p,
+.festival-form > header p,
+.festival-metrics header p,
+.festival-reviews > header p,
+.festival-programme > header p,
+.festival-map-panel > header p,
+.festival-records > header p,
+.festival-incidents > header p,
+.festival-field-heading p,
+.festival-report header p,
+.festival-start-panel > div p {
+  margin: 0 0 9px;
+  color: var(--festival-red);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.16em;
+}
+
+.festival-loading h2 {
+  margin: 0;
+  font: 500 clamp(2.2rem, 5vw, 4.5rem)/1.1 var(--font-serif);
+}
+
+.festival-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.54fr);
+  min-height: 530px;
+  border-top: 6px solid var(--festival-ink);
+  border-bottom: 1px solid var(--festival-line);
+}
+
+.festival-hero > div {
+  display: flex;
+  padding: clamp(34px, 6vw, 78px) clamp(30px, 7vw, 96px) clamp(36px, 6vw, 76px) 0;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.festival-hero h2 {
+  max-width: 900px;
+  margin: 0 0 24px;
+  font: 500 clamp(2.7rem, 5.8vw, 6rem)/1.02 var(--font-serif);
+  letter-spacing: -0.045em;
+}
+
+.festival-hero > div > span {
+  max-width: 780px;
+  color: rgba(19, 36, 58, 0.74);
+  font-size: clamp(1rem, 1.35vw, 1.16rem);
+  line-height: 1.9;
+}
+
+.festival-hero figure {
+  position: relative;
+  min-height: 440px;
+  margin: 0;
+  overflow: hidden;
+  background: var(--festival-red-dark);
+}
+
+.festival-hero figure::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, transparent 50%, rgba(11, 21, 34, 0.84)),
+    linear-gradient(90deg, rgba(112, 24, 36, 0.25), transparent 56%);
+}
+
+.festival-hero picture,
+.festival-hero img {
+  width: 100%;
+  height: 100%;
+}
+
+.festival-hero img {
+  display: block;
+  object-fit: cover;
+}
+
+.festival-hero figcaption {
+  position: absolute;
+  right: 24px;
+  bottom: 22px;
+  left: 24px;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.78rem;
+  letter-spacing: 0.07em;
+}
+
+.festival-hero figcaption b {
+  color: #fff;
+  font: 500 1.65rem var(--font-serif);
+}
+
+.festival-mode-nav {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: clamp(38px, 7vw, 80px);
+  border-bottom: 1px solid var(--festival-line);
+}
+
+.festival-mode-nav a {
+  display: flex;
+  min-height: 68px;
+  padding: 14px 22px;
+  align-items: center;
+  gap: 14px;
+  color: rgba(19, 36, 58, 0.62);
+  border-right: 1px solid var(--festival-line);
+  font-size: 0.87rem;
+  font-weight: 760;
+  letter-spacing: 0.07em;
+}
+
+.festival-mode-nav a:last-child {
+  border-right: 0;
+}
+
+.festival-mode-nav a span {
+  color: var(--festival-red);
+  font: 500 1.12rem var(--font-serif);
+}
+
+.festival-mode-nav a[aria-current="page"] {
+  color: #fff;
+  background: var(--festival-ink);
+}
+
+.festival-body,
+.festival-body :is(input, select, textarea, button) {
+  font-family: var(--font-sans);
+}
+
+.festival-desk {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.34fr) minmax(0, 1fr);
+  margin-bottom: 36px;
+  border: 1px solid var(--festival-line);
+  background: rgba(255, 255, 255, 0.44);
+}
+
+.festival-dossier {
+  position: relative;
+  padding: clamp(24px, 4vw, 48px);
+  overflow: hidden;
+  color: #fff;
+  background:
+    linear-gradient(145deg, rgba(156, 45, 58, 0.86), transparent 58%),
+    var(--festival-ink);
+}
+
+.festival-dossier::after {
+  position: absolute;
+  right: -25px;
+  bottom: -50px;
+  color: rgba(255, 255, 255, 0.075);
+  content: "祭";
+  font: 500 13rem/1 var(--font-serif);
+  transform: rotate(-10deg);
+}
+
+.festival-dossier > * {
+  position: relative;
+  z-index: 1;
+}
+
+.festival-dossier > header {
+  display: flex;
+  margin-bottom: 55px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.festival-dossier > header span {
+  color: #dfbd87;
+  font-size: 0.7rem;
+  font-weight: 850;
+  letter-spacing: 0.16em;
+}
+
+.festival-dossier > header b {
+  display: grid;
+  width: 52px;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  border-radius: 50%;
+  font: 500 1.3rem var(--font-serif);
+}
+
+.festival-dossier > p {
+  margin: 0 0 7px;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.festival-dossier h3 {
+  margin: 0 0 12px;
+  font: 500 clamp(1.8rem, 3vw, 2.8rem)/1.15 var(--font-serif);
+}
+
+.festival-dossier > strong {
+  display: block;
+  color: #e6c18d;
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.festival-dossier blockquote {
+  margin: 30px 0;
+  padding: 18px 0;
+  color: rgba(255, 255, 255, 0.73);
+  border-block: 1px solid rgba(255, 255, 255, 0.18);
+  font: 500 1rem/1.8 var(--font-serif);
+}
+
+.festival-dossier dl {
+  margin: 0;
+}
+
+.festival-dossier dl div {
+  display: grid;
+  padding: 10px 0;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.festival-dossier dt {
+  color: rgba(255, 255, 255, 0.53);
+  font-size: 0.7rem;
+}
+
+.festival-dossier dd {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.festival-form {
+  padding: clamp(25px, 4.5vw, 56px);
+}
+
+.festival-form > header,
+.festival-metrics > header,
+.festival-reviews > header,
+.festival-programme > header,
+.festival-map-panel > header,
+.festival-records > header,
+.festival-incidents > header {
+  display: flex;
+  margin-bottom: 25px;
+  align-items: end;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.festival-form h3,
+.festival-metrics h3,
+.festival-reviews h3,
+.festival-programme h3,
+.festival-map-panel h3,
+.festival-records h3,
+.festival-incidents h3 {
+  margin: 0;
+  font: 500 clamp(1.55rem, 3vw, 2.65rem)/1.2 var(--font-serif);
+}
+
+.festival-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 20px;
+}
+
+.festival-field {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 8px;
+  color: rgba(19, 36, 58, 0.7);
+  font-size: 0.75rem;
+  font-weight: 750;
+}
+
+.festival-field-wide {
+  grid-column: 1 / -1;
+}
+
+.festival-field :is(input, select, textarea),
+.festival-start-panel select {
+  width: 100%;
+  min-height: 47px;
+  padding: 11px 13px;
+  color: var(--festival-ink);
+  border: 1px solid rgba(19, 36, 58, 0.23);
+  border-radius: 0;
+  background: rgba(255, 253, 248, 0.78);
+  font-size: 0.9rem;
+}
+
+.festival-field textarea {
+  min-height: 86px;
+  resize: vertical;
+  line-height: 1.65;
+}
+
+.festival-field input[type="range"] {
+  min-height: 28px;
+  padding: 0;
+  accent-color: var(--festival-red);
+}
+
+.festival-field output {
+  align-self: end;
+  margin-top: -31px;
+  padding-right: 8px;
+  pointer-events: none;
+  color: var(--festival-red);
+  font-size: 0.75rem;
+}
+
+.festival-protections {
+  display: grid;
+  margin: 28px 0;
+  padding: 0;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid var(--festival-line);
+}
+
+.festival-protections legend {
+  margin-left: 14px;
+  padding: 0 8px;
+  color: var(--festival-red);
+  background: var(--festival-paper);
+  font-size: 0.7rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+}
+
+.festival-protections label {
+  display: flex;
+  min-height: 75px;
+  padding: 15px;
+  align-items: center;
+  gap: 10px;
+  border-right: 1px solid var(--festival-line);
+  cursor: pointer;
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+.festival-protections label:last-child {
+  border-right: 0;
+}
+
+.festival-protections input {
+  accent-color: var(--festival-red);
+}
+
+.festival-form > footer,
+.festival-permit-file > footer {
+  display: flex;
+  margin-top: 28px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 9px;
+}
+
+.festival-metrics {
+  margin: 36px 0;
+  padding: clamp(24px, 4vw, 46px);
+  color: #fff;
+  background:
+    repeating-linear-gradient(94deg, transparent 0 54px, rgba(255, 255, 255, 0.022) 54px 55px),
+    var(--festival-ink);
+}

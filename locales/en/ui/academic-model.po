@@ -1,0 +1,82 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. outcomes.passed
+#: src/js/academic-model.js:353
+msgctxt "text:outcomes.passed"
+msgid "passed"
+msgstr "passed"
+
+#. outcomes.conditional
+#: src/js/academic-model.js:354
+msgctxt "text:outcomes.conditional"
+msgid "conditionally passed"
+msgstr "conditionally passed"
+
+#. outcomes.revise
+#: src/js/academic-model.js:355
+msgctxt "text:outcomes.revise"
+msgid "returned for revision"
+msgstr "returned for revision"
+
+#. type.yes
+#: src/js/academic-model.js:365
+msgctxt "text:type.yes"
+msgid "spell-card"
+msgstr "spell-card"
+
+#. type.no
+#: src/js/academic-model.js:365
+msgctxt "text:type.no"
+msgid "thesis"
+msgstr "thesis"
+
+#. committee.author
+#: src/js/academic-model.js:366
+msgctxt "text:committee.author"
+msgid "Public Defence Shorthand Desk"
+msgstr "Public Defence Shorthand Desk"
+
+#. committee.title
+#: src/js/academic-model.js:366
+msgctxt "text:committee.title"
+msgid "{value0} defence ruling: {value1}"
+msgstr "{value0} defence ruling: {value1}"
+
+#. committee.body
+#: src/js/academic-model.js:366
+msgctxt "text:committee.body"
+msgid ""
+"The committee ruled “{value0}” at {value1}/100. Question slips remain; "
+"Marisa wants material provenance attached before the celebratory drink."
+msgstr ""
+"The committee ruled “{value0}” at {value1}/100. Question slips remain; "
+"Marisa wants material provenance attached before the celebratory drink."
+
+#. corridor/author
+#: src/js/academic-model.js:367
+msgctxt "tree:corridor#/author"
+msgid "Anonymous Listener Outside the Defence Room"
+msgstr "Anonymous Listener Outside the Defence Room"
+
+#. corridor/title
+#: src/js/academic-model.js:367
+msgctxt "tree:corridor#/title"
+msgid "Question: does a claim grow after it passes?"
+msgstr "Question: does a claim grow after it passes?"
+
+#. corridor/body
+#: src/js/academic-model.js:367
+msgctxt "tree:corridor#/body"
+msgid ""
+"The project passed only within its declared place, moon phase, and version. "
+"Yukari left with the word “within”; the committee is requesting its return."
+msgstr ""
+"The project passed only within its declared place, moon phase, and version. "
+"Yukari left with the word “within”; the committee is requesting its return."

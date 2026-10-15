@@ -1,4 +1,5 @@
 import { readFile, readdir } from "node:fs/promises";
+import { recordKeyReferences } from "./checks/record-references.mjs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -38,10 +39,7 @@ const jsFiles = (await readdir(jsDir)).filter((file) => file.endsWith(".js"));
 const referencedKeys = new Set();
 for (const file of jsFiles) {
   const source = await readFile(path.join(jsDir, file), "utf8");
-  for (const match of source.matchAll(/["'](tu:[A-Za-z0-9:_-]+)["']/g)) {
-    const key = match[1];
-    if (!key.endsWith("change")) referencedKeys.add(key);
-  }
+  for (const key of recordKeyReferences(source)) referencedKeys.add(key);
 }
 for (const key of referencedKeys) {
   check(keys.has(key), `${key} is used by the site but absent from the records catalogue.`);

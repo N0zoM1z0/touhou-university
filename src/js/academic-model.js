@@ -1,3 +1,4 @@
+import { text as catalogText, trees as catalogTrees } from "../generated/i18n/ui/academic-model.js";
 import {
   academicAssignments,
   academicExams,
@@ -349,21 +350,9 @@ export function academicGradebook() {
 
 export function academicCommunityPosts(locale) {
   const outcomes = {
-    passed: {
-      "zh-Hant": "通過",
-      ja: "合格",
-      en: "passed",
-    },
-    conditional: {
-      "zh-Hant": "有條件通過",
-      ja: "条件付合格",
-      en: "conditionally passed",
-    },
-    revise: {
-      "zh-Hant": "退回補正",
-      ja: "補正再提出",
-      en: "returned for revision",
-    },
+    passed: catalogText("outcomes.passed"),
+    conditional: catalogText("outcomes.conditional"),
+    revise: catalogText("outcomes.revise"),
   };
   return academicDefences()
     .slice()
@@ -373,45 +362,9 @@ export function academicCommunityPosts(locale) {
       if (!project) return [];
       const outcome = outcomes[record.outcome]?.[locale] || record.outcome;
       const isSpellcard = project.type === "spellcard";
-      const type = {
-        "zh-Hant": isSpellcard ? "符卡" : "論文",
-        ja: isSpellcard ? "スペルカード" : "論文",
-        en: isSpellcard ? "spell-card" : "thesis",
-      }[locale];
-      const committee = {
-        "zh-Hant": {
-          author: "公開答辯速記席",
-          title: `${type}答辯裁定：${project.title}`,
-          body: `委員會以 ${record.percent}/100 裁定「${outcome}」。逐問回條仍保留；魔理沙要求把材料來源附在慶祝酒之前。`,
-        },
-        ja: {
-          author: "公開答弁速記席",
-          title: `${type}答弁裁定：${project.title}`,
-          body: `委員会は ${record.percent}/100 で「${outcome}」と裁定。問答票は保持され、魔理沙は祝杯より先に材料出所を添付せよと要求。`,
-        },
-        en: {
-          author: "Public Defence Shorthand Desk",
-          title: `${type} defence ruling: ${project.title}`,
-          body: `The committee ruled “${outcome}” at ${record.percent}/100. Question slips remain; Marisa wants material provenance attached before the celebratory drink.`,
-        },
-      }[locale];
-      const corridor = {
-        "zh-Hant": {
-          author: "答辯會場門外的匿名旁聽生",
-          title: `問：通過後，主張會不會自己變大？`,
-          body: `剛才的題目只在申報場地、月相與版本內通過。八雲紫離場時把「內」字帶走了，委員會正在要求歸還。`,
-        },
-        ja: {
-          author: "答弁会場外の匿名聴講生",
-          title: "質問：合格後、主張は勝手に拡大するのか",
-          body: "題目は申告した場所・月相・版の範囲でのみ合格。八雲紫が退室時に「範囲内」の内を持ち去り、委員会が返却を要求中。",
-        },
-        en: {
-          author: "Anonymous Listener Outside the Defence Room",
-          title: "Question: does a claim grow after it passes?",
-          body: "The project passed only within its declared place, moon phase, and version. Yukari left with the word “within”; the committee is requesting its return.",
-        },
-      }[locale];
+      const type = { "zh-Hant": (isSpellcard ? catalogText("type.yes")["zh-Hant"] : catalogText("type.no")["zh-Hant"]), "ja": (isSpellcard ? catalogText("type.yes")["ja"] : catalogText("type.no")["ja"]), "en": (isSpellcard ? catalogText("type.yes")["en"] : catalogText("type.no")["en"]) }[locale];
+      const committee = { "zh-Hant": { author: catalogText("committee.author")["zh-Hant"], title: catalogText("committee.title", {value0: type, value1: project.title})["zh-Hant"], body: catalogText("committee.body", {value0: record.percent, value1: outcome})["zh-Hant"] }, "ja": { author: catalogText("committee.author")["ja"], title: catalogText("committee.title", {value0: type, value1: project.title})["ja"], body: catalogText("committee.body", {value0: record.percent, value1: outcome})["ja"] }, "en": { author: catalogText("committee.author")["en"], title: catalogText("committee.title", {value0: type, value1: project.title})["en"], body: catalogText("committee.body", {value0: outcome, value1: record.percent})["en"] } }[locale];
+      const corridor = catalogTrees["corridor"][locale];
       return [committee, corridor].map((copy, index) => ({
         id: `academic-${record.id.toLowerCase()}-${index + 1}`,
         academicRoute: "academic-defense",

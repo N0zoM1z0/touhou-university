@@ -1,9 +1,13 @@
 import { execFileSync } from "node:child_process";
 import { campusHistory } from "../src/data/campus-history.js";
 
+// Canonical history is main, including when CI checks out a PR head. A
+// detached checkout may only have the fetched origin/main reference.
+const localMain = execFileSync("git", ["branch", "--list", "main"], { encoding: "utf8" }).trim();
+const mainRef = localMain ? "main" : "origin/main";
 const log = execFileSync(
   "git",
-  ["log", "--first-parent", "--reverse", "--format=%H%x1f%aI%x1f%P%x1f%s"],
+  ["log", "--first-parent", "--reverse", "--format=%H%x1f%aI%x1f%P%x1f%s", mainRef],
   { encoding: "utf8" },
 )
   .trim()

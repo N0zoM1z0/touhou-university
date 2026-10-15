@@ -1,38 +1,11 @@
+import { trees as catalogTrees } from "../generated/i18n/ui/friction.js";
 import { faithFaculty, faithReview, unresolvedMatters } from "../data/friction.js";
 import { getLocale } from "./i18n.js";
 import { openInfoDialog } from "./info-dialog.js";
 
 const faithImage = "assets/images/faculty/faith-council.webp";
 
-const copy = {
-  "zh-Hant": {
-    open: "打開案卷",
-    course: "本學期課程",
-    friction: "目前衝突",
-    office: "所屬議席",
-    officeValue: "信仰與共生政策學院・臨時會議室",
-    review: "校外申訴審查",
-    imageAlt: "聖白蓮、八坂神奈子、豐聰耳神子與東風谷早苗在破舊會議室裡爭論祭典資源圖",
-  },
-  ja: {
-    open: "案件を開く",
-    course: "今学期の授業",
-    friction: "現在の対立",
-    office: "所属議席",
-    officeValue: "信仰・共生政策学部・仮会議室",
-    review: "学外異議審査",
-    imageAlt: "古びた会議室で祭礼資源図をめぐり議論する聖白蓮、八坂神奈子、豊聡耳神子、東風谷早苗",
-  },
-  en: {
-    open: "Open case file",
-    course: "Course this term",
-    friction: "Current friction",
-    office: "Council seat",
-    officeValue: "Faith & Coexistence Policy · Temporary Meeting Room",
-    review: "External appeals review",
-    imageAlt: "Byakuren, Kanako, Miko, and Sanae argue over a festival resource map in a shabby meeting room",
-  },
-};
+const copy = catalogTrees["copy"];
 
 function showMatter(id) {
   const matter = unresolvedMatters[id];

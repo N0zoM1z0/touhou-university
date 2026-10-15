@@ -1,0 +1,190 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. paths.visitor.label
+#: src/js/audiences.js:8
+msgctxt "text:paths.visitor.label"
+msgid "Visitor"
+msgstr "Visitor"
+
+#. paths.visitor.title
+#: src/js/audiences.js:9
+msgctxt "text:paths.visitor.title"
+msgid "Your first visit to Touhou University"
+msgstr "Your first visit to Touhou University"
+
+#. paths.visitor.lead
+#: src/js/audiences.js:10
+msgctxt "text:paths.visitor.lead"
+msgid "See how campus works, then plan a visit route that does not deposit you in last week."
+msgstr "See how campus works, then plan a visit route that does not deposit you in last week."
+
+#. paths.visitor.actions.0.1
+#: src/js/audiences.js:12
+msgctxt "text:paths.visitor.actions.0.1"
+msgid "Meet the university"
+msgstr "Meet the university"
+
+#. paths.visitor.actions.1.1
+#: src/js/audiences.js:13
+msgctxt "text:paths.visitor.actions.1.1"
+msgid "Open campus map"
+msgstr "Open campus map"
+
+#. paths.visitor.actions.2.1
+#: src/js/audiences.js:14
+msgctxt "text:paths.visitor.actions.2.1"
+msgid "Reserve a visit"
+msgstr "Reserve a visit"
+
+#. paths.visitor.actions.3.1
+#: src/js/audiences.js:15
+msgctxt "text:paths.visitor.actions.3.1"
+msgid "Explore campus life"
+msgstr "Explore campus life"
+
+#. paths.applicant.label
+#: src/js/audiences.js:20
+msgctxt "text:paths.applicant.label"
+msgid "Applicant"
+msgstr "Applicant"
+
+#. paths.applicant.title
+#: src/js/audiences.js:21
+msgctxt "text:paths.applicant.title"
+msgid "Put your school, question, and exam on one path"
+msgstr "Put your school, question, and exam on one path"
+
+#. paths.applicant.lead
+#: src/js/audiences.js:22
+msgctxt "text:paths.applicant.lead"
+msgid "Compare seven schools, take a simulation, then carry your choice into the application."
+msgstr "Compare seven schools, take a simulation, then carry your choice into the application."
+
+#. paths.applicant.actions.0.1
+#: src/js/audiences.js:24
+msgctxt "text:paths.applicant.actions.0.1"
+msgid "Compare seven schools"
+msgstr "Compare seven schools"
+
+#. paths.applicant.actions.1.1
+#: src/js/audiences.js:25
+msgctxt "text:paths.applicant.actions.1.1"
+msgid "Try the entrance exam"
+msgstr "Try the entrance exam"
+
+#. paths.applicant.actions.2.1
+#: src/js/audiences.js:26
+msgctxt "text:paths.applicant.actions.2.1"
+msgid "Take the Gensokyo exam"
+msgstr "Take the Gensokyo exam"
+
+#. paths.applicant.actions.3.1
+#: src/js/audiences.js:27
+msgctxt "text:paths.applicant.actions.3.1"
+msgid "Start application"
+msgstr "Start application"
+
+#. paths.newcomer.label
+#: src/js/audiences.js:32
+msgctxt "text:paths.newcomer.label"
+msgid "New Student"
+msgstr "New Student"
+
+#. paths.newcomer.title
+#: src/js/audiences.js:33
+msgctxt "text:paths.newcomer.title"
+msgid "Bring the admission review, not only the welcome"
+msgstr "Bring the admission review, not only the welcome"
+
+#. paths.newcomer.lead
+#: src/js/audiences.js:34
+msgctxt "text:paths.newcomer.lead"
+msgid ""
+"Confirm a route that works today from Hakurei Gate, agree on a stop signal, "
+"then choose the first real thing to do after First Bell."
+msgstr ""
+"Confirm a route that works today from Hakurei Gate, agree on a stop signal, "
+"then choose the first real thing to do after First Bell."
+
+#. paths.newcomer.actions.0.1
+#: src/js/audiences.js:36
+msgctxt "text:paths.newcomer.actions.0.1"
+msgid "Open the arrival file"
+msgstr "Open the arrival file"
+
+#. paths.newcomer.actions.1.1
+#: src/js/audiences.js:37
+msgctxt "text:paths.newcomer.actions.1.1"
+msgid "Check the admission review"
+msgstr "Check the admission review"
+
+#. paths.newcomer.actions.2.1
+#: src/js/audiences.js:38
+msgctxt "text:paths.newcomer.actions.2.1"
+msgid "Inspect today's routes"
+msgstr "Inspect today's routes"
+
+#. paths.newcomer.actions.3.1
+#: src/js/audiences.js:39
+msgctxt "text:paths.newcomer.actions.3.1"
+msgid "Discuss living arrangements"
+msgstr "Discuss living arrangements"
+
+#. paths.student.label
+#: src/js/audiences.js:44
+msgctxt "text:paths.student.label"
+msgid "Current Student"
+msgstr "Current Student"
+
+#. paths.student.title
+#: src/js/audiences.js:45
+msgctxt "text:paths.student.title"
+msgid "Today's classes, free rooms, and campus rumours"
+msgstr "Today's classes, free rooms, and campus rumours"
+
+#. paths.student.lead
+#: src/js/audiences.js:46
+msgctxt "text:paths.student.lead"
+msgid ""
+"It will not submit your work, but it can tell you whether the room still "
+"exists and what lunch remains."
+msgstr ""
+"It will not submit your work, but it can tell you whether the room still "
+"exists and what lunch remains."
+
+#. paths.student.actions.0.1
+#: src/js/audiences.js:48
+msgctxt "text:paths.student.actions.0.1"
+msgid "Today's timetable"
+msgstr "Today's timetable"
+
+#. paths.student.actions.1.1
+#: src/js/audiences.js:49
+msgctxt "text:paths.student.actions.1.1"
+msgid "My housing"
+msgstr "My housing"
+
+#. paths.student.actions.2.1
+#: src/js/audiences.js:50
+msgctxt "text:paths.student.actions.2.1"
+msgid "Find a free room"
+msgstr "Find a free room"
+
+#. paths.student.actions.3.1
+#: src/js/audiences.js:51
+msgctxt "text:paths.student.actions.3.1"
+msgid "Enter Campus BBS"
+msgstr "Enter Campus BBS"
+
+#. render
+#: src/js/audiences.js:68
+msgctxt "text:render"
+msgid "How are you entering campus today?"
+msgstr "How are you entering campus today?"

@@ -54,7 +54,7 @@ for (const job of employmentJobs) {
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 for (const image of Object.values(employmentPosterImages)) {
-  const target = path.join(projectRoot, image);
+  const target = path.join(projectRoot, "public", image);
   await access(target);
   check((await stat(target)).size < 300_000, `${image} is too large for a notice-rack asset.`);
 }

@@ -78,7 +78,7 @@ Everything in this section is project-original:
 
 - name: 幻想鄉立東方大學 / Touhou University;
 - motto: “越境求真・以禮交鋒”;
-- seven schools, eighteen field stations, 108 “registered species” and all
+- seven schools, fieldwork stations, 108 “registered species” and all
   numerical performance claims;
 - admissions routes and dates;
 - all research-project titles and metrics;

@@ -1,0 +1,559 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/commons.js:50
+msgctxt "tree:copy#/eyebrow"
+msgid "CAMPUS COMMONS / TSUKUMOGAMI TITLE × TENGU POST"
+msgstr "CAMPUS COMMONS / 付喪神物權 × 鴉天狗郵便"
+
+#. copy/title
+#: src/js/commons.js:50
+msgctxt "tree:copy#/title"
+msgid ""
+"A thing may have an opinion after being lost; a notice may be another "
+"version after delivery."
+msgstr "東西被弄丟之後可能有自己的意見；通知被送到之後，也未必還是同一個版本。"
+
+#. copy/lead
+#: src/js/commons.js:50
+msgctxt "tree:copy#/lead"
+msgid ""
+"At Property, receipts, wear, provenance, and the object testify separately. "
+"At Post, every letter retains source, trust, version, order, and correction. "
+"The two offices mail one another."
+msgstr "在物權庭，收據、磨損、來源與物件本人分席陳述；在郵便中心，每封信都留下來源、可信度、版次、送達順序與訂正。兩邊的卷宗會互相寄信。"
+
+#. copy/propertyTab
+#: src/js/commons.js:50
+msgctxt "tree:copy#/propertyTab"
+msgid "Lost property & title"
+msgstr "失物與物權"
+
+#. copy/postTab
+#: src/js/commons.js:50
+msgctxt "tree:copy#/postTab"
+msgid "Post & notices"
+msgstr "郵便與通知"
+
+#. copy/propertyDesk
+#: src/js/commons.js:50
+msgctxt "tree:copy#/propertyDesk"
+msgid "Tsukumogami Lost Property & Title Tribunal"
+msgstr "付喪神失物招領與物權仲裁處"
+
+#. copy/propertyLead
+#: src/js/commons.js:50
+msgctxt "tree:copy#/propertyLead"
+msgid ""
+"Lost things may deny being lost and former holders may appeal; nobody may "
+"reduce an object's testimony to “a bit old”."
+msgstr "失物可以否認自己遺失，原持有人也可以申訴；但誰都不能把物件的陳述縮成「有點舊」。"
+
+#. copy/items
+#: src/js/commons.js:50
+msgctxt "tree:copy#/items"
+msgid "Objects awaiting review"
+msgstr "待審物件"
+
+#. copy/hearings
+#: src/js/commons.js:50
+msgctxt "tree:copy#/hearings"
+msgid "My hearings"
+msgstr "我的聽證"
+
+#. copy/resolved
+#: src/js/commons.js:50
+msgctxt "tree:copy#/resolved"
+msgid "Rulings"
+msgstr "已有裁定"
+
+#. copy/searchProperty
+#: src/js/commons.js:50
+msgctxt "tree:copy#/searchProperty"
+msgid "Search object, place, statement, or code"
+msgstr "搜尋物件、地點、陳述或案號"
+
+#. copy/openFile
+#: src/js/commons.js:50
+msgctxt "tree:copy#/openFile"
+msgid "Open object file"
+msgstr "打開物件案卷"
+
+#. copy/foundAt
+#: src/js/commons.js:50
+msgctxt "tree:copy#/foundAt"
+msgid "Found at"
+msgstr "拾得位置"
+
+#. copy/foundBy
+#: src/js/commons.js:50
+msgctxt "tree:copy#/foundBy"
+msgid "Finding record"
+msgstr "拾得記錄"
+
+#. copy/condition
+#: src/js/commons.js:50
+msgctxt "tree:copy#/condition"
+msgid "Condition"
+msgstr "現況"
+
+#. copy/dispute
+#: src/js/commons.js:50
+msgctxt "tree:copy#/dispute"
+msgid "Dispute"
+msgstr "爭點"
+
+#. copy/statement
+#: src/js/commons.js:50
+msgctxt "tree:copy#/statement"
+msgid "Object's own statement"
+msgstr "物件本人陳述"
+
+#. copy/evidence
+#: src/js/commons.js:50
+msgctxt "tree:copy#/evidence"
+msgid "Evidence on file"
+msgstr "現有證物"
+
+#. copy/jurisdiction
+#: src/js/commons.js:50
+msgctxt "tree:copy#/jurisdiction"
+msgid "Overlapping jurisdiction"
+msgstr "重疊管轄"
+
+#. copy/claim
+#: src/js/commons.js:50
+msgctxt "tree:copy#/claim"
+msgid "File a return / destination claim"
+msgstr "提出領回／去向申請"
+
+#. copy/claimant
+#: src/js/commons.js:50
+msgctxt "tree:copy#/claimant"
+msgid "Claimant or object name"
+msgstr "申請人或物件姓名"
+
+#. copy/relationship
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationship"
+msgid "Relationship to the object"
+msgstr "你與物件的關係"
+
+#. copy/relationHolder
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationHolder"
+msgid "Former / current holder"
+msgstr "前／現持有人"
+
+#. copy/relationFinder
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationFinder"
+msgid "Finder"
+msgstr "拾得人"
+
+#. copy/relationCustodian
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationCustodian"
+msgid "Custodial office"
+msgstr "保管單位"
+
+#. copy/relationObject
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationObject"
+msgid "I am this object"
+msgstr "我就是這件物件"
+
+#. copy/relationWitness
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationWitness"
+msgid "Witness"
+msgstr "目擊者"
+
+#. copy/relationOther
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationOther"
+msgid "Other"
+msgstr "其他關係"
+
+#. copy/claimEvidence
+#: src/js/commons.js:50
+msgctxt "tree:copy#/claimEvidence"
+msgid "Describe wear, time, witness, care, or provenance; “mine” is insufficient"
+msgstr "請說明使用痕跡、時間、目擊、照護或來源；只寫「是我的」不夠"
+
+#. copy/requested
+#: src/js/commons.js:50
+msgctxt "tree:copy#/requested"
+msgid "Requested destination"
+msgstr "希望的去向"
+
+#. copy/hearVoice
+#: src/js/commons.js:50
+msgctxt "tree:copy#/hearVoice"
+msgid "I read the object's statement and will not treat it as an opinionless accessory"
+msgstr "我已讀過物件陳述，不會把它當作沒有意見的附件"
+
+#. copy/acceptConditions
+#: src/js/commons.js:50
+msgctxt "tree:copy#/acceptConditions"
+msgid "I accept that return, custody, or autonomy may carry care and appeal conditions"
+msgstr "我接受返還、保管或自主去向可能附帶照護與申訴條件"
+
+#. copy/submitClaim
+#: src/js/commons.js:50
+msgctxt "tree:copy#/submitClaim"
+msgid "Send to four-seat hearing"
+msgstr "送入四席聽證"
+
+#. copy/claimantError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/claimantError"
+msgid "The claimant name needs at least two characters."
+msgstr "申請人名稱至少需要兩個字元。"
+
+#. copy/evidenceError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/evidenceError"
+msgid "Leave at least 18 characters of traceable reasoning."
+msgstr "請留下至少 18 個字元、可以被追溯的理由。"
+
+#. copy/voiceError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/voiceError"
+msgid "First recognise that the object has a chair in this case."
+msgstr "要先承認物件本人在這宗案子裡有一張椅子。"
+
+#. copy/hearingTitle
+#: src/js/commons.js:50
+msgctxt "tree:copy#/hearingTitle"
+msgid "Four seats leave separate opinions"
+msgstr "四席各自留下意見"
+
+#. copy/hearingLead
+#: src/js/commons.js:50
+msgctxt "tree:copy#/hearingLead"
+msgid "There is no average score. Every question and objection enters the ruling."
+msgstr "這裡沒有平均分；四席的問題與異議會一起進入裁定。"
+
+#. copy/chooseRuling
+#: src/js/commons.js:50
+msgctxt "tree:copy#/chooseRuling"
+msgid "Choose an interim ruling"
+msgstr "作出暫行裁定"
+
+#. copy/issueRuling
+#: src/js/commons.js:50
+msgctxt "tree:copy#/issueRuling"
+msgid "Stamp the ruling"
+msgstr "蓋下裁定紅印"
+
+#. copy/conditionsError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/conditionsError"
+msgid ""
+"That destination requires follow-up conditions; otherwise choose further "
+"hearing or protective hold."
+msgstr "這個去向需要接受後續條件；否則只能追加聽證或留置保管。"
+
+#. copy/ruling
+#: src/js/commons.js:50
+msgctxt "tree:copy#/ruling"
+msgid "Property ruling"
+msgstr "物權裁定書"
+
+#. copy/printRuling
+#: src/js/commons.js:50
+msgctxt "tree:copy#/printRuling"
+msgid "Print / save ruling"
+msgstr "列印／另存裁定書"
+
+#. copy/noClaims
+#: src/js/commons.js:50
+msgctxt "tree:copy#/noClaims"
+msgid "No property claim has been filed on this device."
+msgstr "這台裝置尚未提交物權申請。"
+
+#. copy/submitted
+#: src/js/commons.js:50
+msgctxt "tree:copy#/submitted"
+msgid "The claim entered four-seat hearing; its tengu notice has also arrived."
+msgstr "申請已進入四席聽證；鴉天狗通知也到了。"
+
+#. copy/ruled
+#: src/js/commons.js:50
+msgctxt "tree:copy#/ruled"
+msgid "The ruling is filed; the object retains its right of appeal."
+msgstr "裁定已封存；物件仍保留申訴權。"
+
+#. copy/postDesk
+#: src/js/commons.js:50
+msgctxt "tree:copy#/postDesk"
+msgid "Crow-Tengu Campus Post & Notification Centre"
+msgstr "鴉天狗校園郵便與通知中心"
+
+#. copy/postLead
+#: src/js/commons.js:50
+msgctxt "tree:copy#/postLead"
+msgid ""
+"An offer may precede an application and cancellation may follow the make-up. "
+"At least keep source, version, and correction from vanishing together."
+msgstr "入學通知可以早於申請，取消信可以晚於補考；至少讓來源、版次與訂正別一起失蹤。"
+
+#. copy/inbox
+#: src/js/commons.js:50
+msgctxt "tree:copy#/inbox"
+msgid "Inbox"
+msgstr "收件箱"
+
+#. copy/compose
+#: src/js/commons.js:50
+msgctxt "tree:copy#/compose"
+msgid "Send a notice"
+msgstr "寄發通知"
+
+#. copy/sent
+#: src/js/commons.js:50
+msgctxt "tree:copy#/sent"
+msgid "Dispatch files"
+msgstr "寄件卷"
+
+#. copy/searchPost
+#: src/js/commons.js:50
+msgctxt "tree:copy#/searchPost"
+msgid "Search subject, source, or body"
+msgstr "搜尋主旨、來源或內文"
+
+#. copy/unread
+#: src/js/commons.js:50
+msgctxt "tree:copy#/unread"
+msgid "Unread"
+msgstr "未讀"
+
+#. copy/pinned
+#: src/js/commons.js:50
+msgctxt "tree:copy#/pinned"
+msgid "Pinned to board"
+msgstr "釘在木板上"
+
+#. copy/source
+#: src/js/commons.js:50
+msgctxt "tree:copy#/source"
+msgid "Source"
+msgstr "來源"
+
+#. copy/trust
+#: src/js/commons.js:50
+msgctxt "tree:copy#/trust"
+msgid "Trust"
+msgstr "可信度"
+
+#. copy/version
+#: src/js/commons.js:50
+msgctxt "tree:copy#/version"
+msgid "Version"
+msgstr "版次"
+
+#. copy/delivery
+#: src/js/commons.js:50
+msgctxt "tree:copy#/delivery"
+msgid "Delivery order"
+msgstr "送達順序"
+
+#. copy/correction
+#: src/js/commons.js:50
+msgctxt "tree:copy#/correction"
+msgid "Correction / version note"
+msgstr "訂正／版本說明"
+
+#. copy/noCorrection
+#: src/js/commons.js:50
+msgctxt "tree:copy#/noCorrection"
+msgid "No correction accompanies this version; the headline may still be wrong."
+msgstr "這一版沒有另附訂正；不代表標題可靠。"
+
+#. copy/openLetter
+#: src/js/commons.js:50
+msgctxt "tree:copy#/openLetter"
+msgid "Open letter"
+msgstr "拆信"
+
+#. copy/markRead
+#: src/js/commons.js:50
+msgctxt "tree:copy#/markRead"
+msgid "Toggle read"
+msgstr "切換已讀"
+
+#. copy/pin
+#: src/js/commons.js:50
+msgctxt "tree:copy#/pin"
+msgid "Pin / unpin"
+msgstr "釘選／取消釘選"
+
+#. copy/acknowledge
+#: src/js/commons.js:50
+msgctxt "tree:copy#/acknowledge"
+msgid "Acknowledge this version"
+msgstr "簽收這一版"
+
+#. copy/correctionRequest
+#: src/js/commons.js:50
+msgctxt "tree:copy#/correctionRequest"
+msgid "Request corrected copy"
+msgstr "要求寄送訂正版"
+
+#. copy/readAloud
+#: src/js/commons.js:50
+msgctxt "tree:copy#/readAloud"
+msgid "Let a fairy read it aloud"
+msgstr "讓妖精朗讀全信"
+
+#. copy/readAloudWarning
+#: src/js/commons.js:50
+msgctxt "tree:copy#/readAloudWarning"
+msgid "Read aloud: this private letter is now a rather public performance."
+msgstr "已朗讀：這會把私人信件變成一場很公開的演出。"
+
+#. copy/correctionRequested
+#: src/js/commons.js:50
+msgctxt "tree:copy#/correctionRequested"
+msgid "Correction requested; Aya says this proves the original headline worked."
+msgstr "訂正請求已送出；文聲稱這證明原標題很成功。"
+
+#. copy/acknowledged
+#: src/js/commons.js:50
+msgctxt "tree:copy#/acknowledged"
+msgid "Current version acknowledged; contents not necessarily accepted."
+msgstr "已簽收目前版次，不代表同意內容。"
+
+#. copy/recipient
+#: src/js/commons.js:50
+msgctxt "tree:copy#/recipient"
+msgid "Recipient / office"
+msgstr "收件人／處室"
+
+#. copy/subject
+#: src/js/commons.js:50
+msgctxt "tree:copy#/subject"
+msgid "Subject"
+msgstr "主旨"
+
+#. copy/body
+#: src/js/commons.js:50
+msgctxt "tree:copy#/body"
+msgid "Body"
+msgstr "正文"
+
+#. copy/channel
+#: src/js/commons.js:50
+msgctxt "tree:copy#/channel"
+msgid "Delivery channel"
+msgstr "投遞方式"
+
+#. copy/visibility
+#: src/js/commons.js:50
+msgctxt "tree:copy#/visibility"
+msgid "Visibility"
+msgstr "可見範圍"
+
+#. copy/private
+#: src/js/commons.js:50
+msgctxt "tree:copy#/private"
+msgid "Private letter"
+msgstr "私人信件"
+
+#. copy/campus
+#: src/js/commons.js:50
+msgctxt "tree:copy#/campus"
+msgid "Campus-visible"
+msgstr "校內可見"
+
+#. copy/public
+#: src/js/commons.js:50
+msgctxt "tree:copy#/public"
+msgid "Publish to campus BBS"
+msgstr "公開到校園 BBS"
+
+#. copy/send
+#: src/js/commons.js:50
+msgctxt "tree:copy#/send"
+msgid "Seal and hand to a crow tengu"
+msgstr "封口並交給鴉天狗"
+
+#. copy/recipientError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/recipientError"
+msgid "Name a recipient."
+msgstr "請寫一位收件人。"
+
+#. copy/subjectError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/subjectError"
+msgid "The subject needs at least three characters."
+msgstr "主旨至少需要三個字元。"
+
+#. copy/bodyError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/bodyError"
+msgid "The body needs at least twelve characters."
+msgstr "正文至少需要十二個字元。"
+
+#. copy/dispatched
+#: src/js/commons.js:50
+msgctxt "tree:copy#/dispatched"
+msgid "Dispatched; arrival order remains negotiable."
+msgstr "郵件已投遞；是否按順序抵達另議。"
+
+#. copy/noSent
+#: src/js/commons.js:50
+msgctxt "tree:copy#/noSent"
+msgid "No notice has been sent from this device."
+msgstr "這台裝置尚未寄出通知。"
+
+#. copy/minutesAgo
+#: src/js/commons.js:50
+msgctxt "tree:copy#/minutesAgo"
+msgid "minutes ago"
+msgstr "分鐘前"
+
+#. copy/hoursAgo
+#: src/js/commons.js:50
+msgctxt "tree:copy#/hoursAgo"
+msgid "hours ago"
+msgstr "小時前"
+
+#. copy/daysAgo
+#: src/js/commons.js:50
+msgctxt "tree:copy#/daysAgo"
+msgid "days ago"
+msgstr "天前"
+
+#. copy/justNow
+#: src/js/commons.js:50
+msgctxt "tree:copy#/justNow"
+msgid "just now"
+msgstr "剛剛"
+
+#. copy/share
+#: src/js/commons.js:50
+msgctxt "tree:copy#/share"
+msgid "Copy this file URL"
+msgstr "複製這份案卷網址"
+
+#. copy/copied
+#: src/js/commons.js:50
+msgctxt "tree:copy#/copied"
+msgid "URL copied."
+msgstr "網址已複製。"
+
+#. copy/back
+#: src/js/commons.js:50
+msgctxt "tree:copy#/back"
+msgid "Back to file rack"
+msgstr "回到案卷架"

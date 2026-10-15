@@ -1,0 +1,427 @@
+.clinic-medicine-file::after {
+  position: absolute;
+  z-index: 0;
+  right: -20px;
+  bottom: -60px;
+  content: "薬";
+  color: rgba(124, 38, 53, .045);
+  font-family: var(--serif);
+  font-size: 17rem;
+}
+
+.clinic-medicine-file > header,
+.clinic-medicine-file > dl {
+  position: relative;
+  z-index: 1;
+}
+
+.clinic-medicine-file > header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 27px;
+  border-bottom: 2px solid #7c2635;
+}
+
+.clinic-medicine-file header > i {
+  display: grid;
+  width: 76px;
+  height: 76px;
+  place-items: center;
+  border-radius: 50%;
+  background: #7c2635;
+  color: #fff;
+  font-family: var(--serif);
+  font-size: 1.8rem;
+  font-style: normal;
+}
+
+.clinic-medicine-file header p {
+  margin: 0 0 7px;
+  color: #9b7345;
+  font: 800 .67rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.clinic-medicine-file h4 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.7rem, 3vw, 2.7rem);
+  font-weight: 500;
+}
+
+.clinic-medicine-file dl {
+  margin: 20px 0 0;
+}
+
+.clinic-medicine-file dl div {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 20px;
+  padding: 19px 0;
+  border-bottom: 1px dashed #cdd2cd;
+}
+
+.clinic-medicine-file dl div.caution {
+  margin-top: 9px;
+  padding: 19px;
+  border: 1px solid #c9978e;
+  background: #fff3e9;
+}
+
+.clinic-medicine-file dt {
+  color: #7c2635;
+  font-size: .72rem;
+  font-weight: 900;
+}
+
+.clinic-medicine-file dd {
+  margin: 0;
+  color: #4d5b56;
+  font-size: .84rem;
+  line-height: 1.75;
+}
+
+.clinic-prescriptions > header > span,
+.clinic-care-plans > header > span {
+  justify-self: end;
+  color: #7c2635;
+  font-family: var(--serif);
+  font-size: 3rem;
+}
+
+.clinic-prescriptions > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+
+.clinic-prescriptions article {
+  padding: 24px;
+  border: 1px solid #c7cec7;
+  background: #fbfaf5;
+}
+
+.clinic-prescriptions article > header {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.clinic-prescriptions header small {
+  color: #90704b;
+  font: 700 .63rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.clinic-prescriptions h4 {
+  margin: 7px 0 0;
+  font-family: var(--serif);
+  font-size: 1.3rem;
+}
+
+.clinic-prescriptions header > b,
+.clinic-account article > span {
+  align-self: flex-start;
+  padding: 7px 9px;
+  background: #e8ece7;
+  color: #56665f;
+  font-size: .63rem;
+}
+
+.clinic-prescriptions header > b[data-status="dispensed"],
+.clinic-account [data-status="dispensed"],
+.clinic-account [data-status="active"] {
+  background: #fff0cf;
+  color: #835d1f;
+}
+
+.clinic-prescriptions header > b[data-status="course-complete"],
+.clinic-account [data-status="course-complete"],
+.clinic-account [data-status="completed"],
+.clinic-account [data-status="consulted"] {
+  background: #dcece0;
+  color: #2e6340;
+}
+
+.clinic-rx-progress {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 12px;
+  align-items: center;
+  margin: 22px 0 15px;
+}
+
+.clinic-rx-progress > span {
+  position: relative;
+  height: 7px;
+  overflow: hidden;
+  background: #d9ded8;
+}
+
+.clinic-rx-progress i {
+  position: absolute;
+  inset: 0 auto 0 0;
+  background: #7c2635;
+}
+
+.clinic-rx-progress > b {
+  font: 800 .74rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.clinic-rx-progress > small {
+  grid-column: 1 / -1;
+  color: #858f8a;
+  font-size: .64rem;
+}
+
+.clinic-prescriptions ul {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clinic-prescriptions li {
+  display: grid;
+  grid-template-columns: 36px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #d8ddd8;
+  background: #fff;
+}
+
+.clinic-prescriptions li > i {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 50%;
+  background: #edf0eb;
+  font-family: var(--serif);
+  font-style: normal;
+}
+
+.clinic-prescriptions li strong,
+.clinic-prescriptions li small {
+  display: block;
+}
+
+.clinic-prescriptions li strong {
+  font-size: .75rem;
+}
+
+.clinic-prescriptions li small {
+  margin-top: 4px;
+  color: #7a8580;
+  font-size: .63rem;
+  line-height: 1.4;
+}
+
+.clinic-prescriptions li button {
+  border: 1px solid #7c2635;
+  background: transparent;
+  color: #7c2635;
+  font-size: .65rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.clinic-prescriptions li > b {
+  color: #3d7350;
+  font-size: .65rem;
+}
+
+.clinic-prescriptions article > footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 18px;
+}
+
+.clinic-therapy-catalogue {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 13px;
+}
+
+.clinic-therapy-catalogue article {
+  display: flex;
+  flex-direction: column;
+  min-height: 340px;
+  padding: 24px;
+  border: 1px solid #c7cec7;
+  background: #faf9f4;
+}
+
+.clinic-therapy-catalogue article.suggested {
+  border-top: 4px solid #7c2635;
+}
+
+.clinic-therapy-catalogue header {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+
+.clinic-therapy-catalogue header i {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border: 1px solid #7c2635;
+  border-radius: 50%;
+  color: #7c2635;
+  font-family: var(--serif);
+  font-style: normal;
+}
+
+.clinic-therapy-catalogue header small {
+  display: block;
+  margin-bottom: 4px;
+  color: #7c2635;
+  font: 800 .6rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.clinic-therapy-catalogue h4 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.16rem;
+}
+
+.clinic-therapy-catalogue > article > p {
+  margin: 18px 0;
+  color: #5f6c67;
+  font-size: .76rem;
+  line-height: 1.7;
+}
+
+.clinic-therapy-catalogue dl {
+  margin: auto 0 17px;
+}
+
+.clinic-therapy-catalogue dl div {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 10px;
+  padding: 8px 0;
+  border-top: 1px dashed #d3d8d3;
+}
+
+.clinic-therapy-catalogue dt {
+  color: #7b8681;
+  font-size: .65rem;
+}
+
+.clinic-therapy-catalogue dd {
+  margin: 0;
+  font-size: .7rem;
+  font-weight: 700;
+}
+
+.clinic-care-plans {
+  margin-top: 54px;
+}
+
+.clinic-care-plans > article {
+  margin-bottom: 14px;
+  padding: 25px;
+  border: 1px solid #c6cec7;
+  background: #fbfaf6;
+}
+
+.clinic-care-plans > article.completed {
+  opacity: .78;
+}
+
+.clinic-care-plans article > header {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: end;
+  margin-bottom: 20px;
+}
+
+.clinic-care-plans header small {
+  color: #91704a;
+  font: 700 .63rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.clinic-care-plans h4 {
+  margin: 6px 0 4px;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+}
+
+.clinic-care-plans header span {
+  color: #73807a;
+  font-size: .7rem;
+}
+
+.clinic-care-plans header > strong {
+  color: #7c2635;
+  font-family: var(--serif);
+  font-size: 2.3rem;
+}
+
+.clinic-care-plans ol {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clinic-care-plans li {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  gap: 9px;
+  min-height: 124px;
+  padding: 13px;
+  border: 1px solid #d5dad5;
+  background: #fff;
+}
+
+.clinic-care-plans li.done {
+  background: #edf4ed;
+}
+
+.clinic-care-plans li > span {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border-radius: 50%;
+  background: #e7ebe6;
+  font: 800 .66rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.clinic-care-plans li.done > span {
+  background: #497557;
+  color: #fff;
+}
+
+.clinic-care-plans li p {
+  margin: 3px 0 0;
+  font-size: .71rem;
+  line-height: 1.55;
+}
+
+.clinic-care-plans li button,
+.clinic-care-plans li > b {
+  grid-column: 2;
+  align-self: end;
+  justify-self: start;
+}
+
+.clinic-care-plans li button {
+  padding: 5px 7px;
+  border: 1px solid #7c2635;
+  background: transparent;
+  color: #7c2635;
+  font-size: .62rem;
+  font-weight: 800;
+  cursor: pointer;
+}

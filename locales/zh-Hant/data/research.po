@@ -1,0 +1,640 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. researchFiles.boundary.title
+#: src/data/research.js:5
+msgctxt "text:researchFiles.boundary.title"
+msgid "Cross-Boundary Drift Index of Forgotten Objects"
+msgstr "「被遺忘之物」跨界漂移索引"
+
+#. researchFiles.boundary.summary
+#: src/data/research.js:6
+msgctxt "text:researchFiles.boundary.summary"
+msgid ""
+"A five-year observatory programme tracking the delay, semantic change, and "
+"new uses of Outside World objects after they pass from use into oblivion."
+msgstr "五年期觀測計畫追蹤外界物品從「被使用」走向「被遺忘」後，進入幻想鄉的時間差、語義變化與新用途。"
+
+#. researchFiles.boundary.sections/0/0
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/0/0"
+msgid "Question"
+msgstr "問題"
+
+#. researchFiles.boundary.sections/0/1
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/0/1"
+msgid ""
+"When does an object become fantasy? Continuous observation shows that it "
+"first loses repair, then use, and finally the need to be named."
+msgstr "一件物品究竟在何時成為「幻想」？早期假說把漂移視為瞬間事件，但連續觀測顯示，物品會先失去維修、再失去用途，最後才失去被命名的必要。"
+
+#. researchFiles.boundary.sections/1/0
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/1/0"
+msgid "Method"
+msgstr "方法"
+
+#. researchFiles.boundary.sections/1/1
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/1/1"
+msgid ""
+"Passive recording arrays at Kourindou, Hakurei Gate, and Misty Lake log "
+"material, wear, first name, and its name after thirty days. No rift is "
+"widened and no former owner's memory is read."
+msgstr "觀測所沒有擴大任何結界裂隙，而是在香霖堂、博麗門與霧湖三處設置被動記錄陣。每件物品只記錄材質、磨損、最初稱呼與三十日後稱呼，不讀取原持有人的記憶。"
+
+#. researchFiles.boundary.sections/2/0
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/2/0"
+msgid "Key finding"
+msgstr "主要發現"
+
+#. researchFiles.boundary.sections/2/1
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/2/1"
+msgid ""
+"Electronic dictionaries arrive 6.3 years later than paper dictionaries on "
+"average. Orphaned charging cables appear earliest, and product names usually "
+"become functional nicknames within forty days."
+msgstr "電子辭典平均比紙本字典晚漂移 6.3 年；失去配套規格的充電線最早出現；同一物件在外界的產品名，進入幻想鄉後通常在四十日內被功能性綽號取代。"
+
+#. researchFiles.boundary.sections/3/0
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/3/0"
+msgid "Field note"
+msgstr "現場紀錄"
+
+#. researchFiles.boundary.sections/3/1
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/3/1"
+msgid ""
+"On night 309, a printer without ink became nine kappa measuring tools. The "
+"index gained a new field: dead functions can produce new uses."
+msgstr "第 309 夜，一台沒有墨水的印表機被河童拆成九種測量工具。索引因此增加了「死亡功能可孕育新用途」欄位。"
+
+#. researchFiles.boundary.sections/4/0
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/4/0"
+msgid "Next"
+msgstr "下一步"
+
+#. researchFiles.boundary.sections/4/1
+#: src/data/research.js:13
+msgctxt "tree:researchFiles.boundary.sections#/4/1"
+msgid ""
+"The next phase compares deliberate collection with natural forgetting and "
+"develops non-invasive interview rules with the tsukumogami laboratory."
+msgstr "下一期將比較被主動收藏與自然遺忘的物品是否沿同一條境界路徑進入，並邀請付喪神研究室共同制定非侵入式訪談規範。"
+
+#. researchFiles.waterwheel.title
+#: src/data/research.js:17
+msgctxt "text:researchFiles.waterwheel.title"
+msgid "A Magic-Independent Turbine for Low-Head Streams"
+msgstr "低落差河道的妖力無關水輪"
+
+#. researchFiles.waterwheel.summary
+#: src/data/research.js:18
+msgctxt "text:researchFiles.waterwheel.summary"
+msgid ""
+"A micro-hydropower system requiring neither magic nor proprietary parts, now "
+"through a full year of trials in three village irrigation channels."
+msgstr "一套不要求使用者具備妖力、也不依賴專用零件的小型水力系統，已在三處人里灌溉渠完成全年試運轉。"
+
+#. researchFiles.waterwheel.sections/0/0
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/0/0"
+msgid "Design goal"
+msgstr "設計目標"
+
+#. researchFiles.waterwheel.sections/0/1
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/0/1"
+msgid ""
+"Anyone with a wrench, wooden wedge, and hemp rope can strip and wash it in "
+"half a day. Bamboo-and-copper blades disengage before a lodged boulder can "
+"damage the canal."
+msgstr "任何能使用扳手、木楔與麻繩的人都能在半日內拆洗。葉片以竹骨與薄銅片組合，卡入大石時會先脫扣，不拖垮整條水渠。"
+
+#. researchFiles.waterwheel.sections/1/0
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/1/0"
+msgid "Trial"
+msgstr "測試"
+
+#. researchFiles.waterwheel.sections/1/1
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/1/1"
+msgid ""
+"Three prototypes ran beside a mill, a rice field, and a night-sparrow dining "
+"hall. Kappa students logged flow; villagers only marked abnormal sound. The "
+"records were reconciled each term."
+msgstr "三座原型分別置於磨坊、稻田與夜雀食堂旁。河童學生每週記錄流速，村民只需標記聲音是否異常；兩組紀錄在學期末交叉比對。"
+
+#. researchFiles.waterwheel.sections/2/0
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/2/0"
+msgid "Unexpected finding"
+msgstr "意外發現"
+
+#. researchFiles.waterwheel.sections/2/1
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/2/1"
+msgid ""
+"Dining-hall waste heat delayed winter icing by forty-eight minutes. A "
+"removable warm-water loop followed—with a strict ban on connecting soup pots "
+"directly."
+msgstr "食堂廢熱使冬季結冰時間延後了四十八分鐘。研究組據此增加可拆式溫水回流環，但禁止直接把湯鍋接進渦輪。"
+
+#. researchFiles.waterwheel.sections/3/0
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/3/0"
+msgid "Open specification"
+msgstr "公開規格"
+
+#. researchFiles.waterwheel.sections/3/1
+#: src/data/research.js:20
+msgctxt "tree:researchFiles.waterwheel.sections#/3/1"
+msgid ""
+"All non-standard nuts were removed. The illustrated manual works for low "
+"literacy, darkness, and wet paper; reversed assembly exposes a red warning "
+"face."
+msgstr "所有非標準螺帽已被取消。圖像維修冊能在不識字、夜間或紙張被濺濕時繼續使用，錯裝方向則會露出紅色警示面。"
+
+#. researchFiles.moonpath.title
+#: src/data/research.js:24
+msgctxt "text:researchFiles.moonpath.title"
+msgid "Lunar-Phase Sensory Guidance for Lost Bamboo Travellers"
+msgstr "竹林迷途者的月相感覺指引"
+
+#. researchFiles.moonpath.summary
+#: src/data/research.js:25
+msgctxt "text:researchFiles.moonpath.summary"
+msgid ""
+"A non-text guidance system translating moonlight, footsteps, and breathing "
+"rhythm to reduce panic-driven loops in the Bamboo Forest."
+msgstr "把月光反射、腳步回聲與呼吸節奏轉成不依賴文字的引導系統，降低迷途者因恐慌而一再繞回同一路口的機率。"
+
+#. researchFiles.moonpath.sections/0/0
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/0/0"
+msgid "Problem"
+msgstr "問題"
+
+#. researchFiles.moonpath.sections/0/1
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/0/1"
+msgid ""
+"The forest is not merely a maze. Anxiety amplifies similar bamboo shadows, "
+"hides changing wind, and persuades travellers they are still walking "
+"straight."
+msgstr "竹林不是單純的迷宮。人在焦慮時會放大相似竹影、忽略不同風向，最後相信自己始終走在直線上。"
+
+#. researchFiles.moonpath.sections/1/0
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/1/0"
+msgid "Method"
+msgstr "方法"
+
+#. researchFiles.moonpath.sections/1/1
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/1/1"
+msgid ""
+"Eighteen guide posts change reflection with the lunar phase. Only after a "
+"traveller stops for three breaths do the two nearest Eientei respond."
+msgstr "十八支引導樁不發出固定方向，而根據月相調整反光角度。行人停下三次呼吸後，離永遠亭最近的兩支才會回應。"
+
+#. researchFiles.moonpath.sections/2/0
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/2/0"
+msgid "Result"
+msgstr "結果"
+
+#. researchFiles.moonpath.sections/2/1
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/2/1"
+msgid ""
+"Without ability-based interference, repeated returns to the same junction "
+"fell by 61%. Under a full moon, slower light pulses helped more than "
+"brighter ones."
+msgstr "在不使用能力干預的組別中，重返同一路口的次數下降 61%。滿月時降低光脈衝速度，反而比提高亮度更能穩定方向判斷。"
+
+#. researchFiles.moonpath.sections/3/0
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/3/0"
+msgid "Clinical rule"
+msgstr "臨床規則"
+
+#. researchFiles.moonpath.sections/3/1
+#: src/data/research.js:27
+msgctxt "tree:researchFiles.moonpath.sections#/3/1"
+msgid ""
+"No personal wavelength is stored and no lost traveller is a compulsory "
+"exposure subject. A white-rabbit card ends participation at any time."
+msgstr "系統不記錄個體波長，也不以迷途者作為強制暴露樣本。所有觀察者可在任一時點用白兔牌終止參與。"
+
+#. researchFiles.reports.title
+#: src/data/research.js:31
+msgctxt "text:researchFiles.reports.title"
+msgid "Three Reports of the Same Incident"
+msgstr "同一場異變的三種報導"
+
+#. researchFiles.reports.summary
+#: src/data/research.js:32
+msgctxt "text:researchFiles.reports.summary"
+msgid ""
+"A parallel reading of tengu breaking news, village testimony, and next-day "
+"participant notes from a minor red-moon incident."
+msgstr "把天狗速報、人里口述與當事人隔日筆記並置，追蹤速度、恐懼與立場如何改寫一場小型赤月異變。"
+
+#. researchFiles.reports.sections/0/0
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/0/0"
+msgid "Material"
+msgstr "材料"
+
+#. researchFiles.reports.sections/0/1
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/0/1"
+msgid ""
+"Set one was breaking news published within nine minutes; set two was "
+"collective village testimony that night; set three asked participants, after "
+"one night's sleep, to record only what they still wished public."
+msgstr "第一組文本在異變發生後九分鐘內刊出；第二組由人里居民在當晚共同口述；第三組則要求當事人睡過一夜後，只寫仍願意公開的部分。"
+
+#. researchFiles.reports.sections/1/0
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/1/0"
+msgid "Difference"
+msgstr "差異"
+
+#. researchFiles.reports.sections/1/1
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/1/1"
+msgid ""
+"Breaking news timed events best but overstated the danger radius. Testimony "
+"preserved mutual aid yet remembered three people as five. Next-day notes "
+"removed firepower and added hesitation and silence."
+msgstr "速報最準確地記錄時間，卻高估了危險半徑；口述保留最多互助細節，也把三個人記成了五個；隔日筆記刪去最多火力描述，增加了猶豫與沉默。"
+
+#. researchFiles.reports.sections/2/0
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/2/0"
+msgid "Correction trial"
+msgstr "訂正實驗"
+
+#. researchFiles.reports.sections/2/1
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/2/1"
+msgid ""
+"Students published a second headline and an explanation. Nine of twelve "
+"corrections received longer average reading time than the originals."
+msgstr "學生必須為自己的第一版標題寫第二版，並公開說明改動。十二則訂正中，有九則獲得比原稿更長的平均閱讀時間。"
+
+#. researchFiles.reports.sections/3/0
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/3/0"
+msgid "Conclusion"
+msgstr "結論"
+
+#. researchFiles.reports.sections/3/1
+#: src/data/research.js:34
+msgctxt "tree:researchFiles.reports.sections#/3/1"
+msgid ""
+"Fast text is not necessarily least reliable, nor slow text most sincere. "
+"Quality begins by marking what is unknown and leaving an entrance for "
+"correction."
+msgstr "最快的文本不必然最不可靠，最慢的文本也不必然最真誠。報導品質來自清楚標出自己不知道什麼，以及願意留下訂正入口。"
+
+#. researchFiles.spellcard.title
+#: src/data/research.js:38
+msgctxt "text:researchFiles.spellcard.title"
+msgid "Readability, Fairness & Exit Design Under Spell-card Rules"
+msgstr "符卡規則下的可讀性、公平與退路設計"
+
+#. researchFiles.spellcard.summary
+#: src/data/research.js:39
+msgctxt "text:researchFiles.spellcard.summary"
+msgid ""
+"Ninety-six experimental patterns separate declaration, telegraph, density, "
+"speed, and exit windows to study how a spell card can preserve authorship, "
+"spectator legibility, and genuine player choice."
+msgstr "以九十六組實驗彈幕拆解宣言、預兆、密度、速度與退路窗口，研究一張符卡如何同時保留作者風格、觀眾辨識度與挑戰者的真實選擇。"
+
+#. researchFiles.spellcard.sections/0/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/0/0"
+msgid "Research question"
+msgstr "研究問題"
+
+#. researchFiles.spellcard.sections/0/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/0/1"
+msgid ""
+"Must spectacle cost fairness? We measured “can evade” separately from “can "
+"explain the hit”: without replay, could a participant identify the threat, "
+"the rule change, and the exit that remained?"
+msgstr "華麗是否必然犧牲公平？研究室把「躲得過」和「看得懂為何被擊中」分開測量：前者是成功率，後者是參與者能否在不看回放的情況下指出危險來源、規則轉換與仍然存在的退路。"
+
+#. researchFiles.spellcard.sections/1/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/1/0"
+msgid "Experimental design"
+msgstr "實驗設計"
+
+#. researchFiles.spellcard.sections/1/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/1/1"
+msgid ""
+"Ninety-six patterns shared one core trajectory while declaration, opening "
+"sound, colour, speed, density, and safety window changed one at a time. "
+"Forty-two participants covered walking, flight, burst movement, low vision, "
+"single-sided hearing, and delayed perception. Each attempted only twelve "
+"patterns so memorisation could not replace reading."
+msgstr ""
+"九十六組彈幕由同一套核心軌跡生成，再逐項改變名稱宣言、起手音、顏色、速度、密度與安全窗口。四十二名參與者包含步行、飛行、瞬間加速、低視力、單側聽覺與延遲"
+"感知等六種移動或感覺條件；每人只打十二組，避免背板取代判讀。"
+
+#. researchFiles.spellcard.sections/2/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/2/0"
+msgid "Readability finding"
+msgstr "可讀性發現"
+
+#. researchFiles.spellcard.sections/2/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/2/1"
+msgid ""
+"Colour-only rule changes were missed most often. A 0.8-second directional "
+"telegraph before a phase shift raised first-attempt identification of the "
+"next wave from 46% to 81%. Declarations also helped when their verbs matched "
+"the motion—such as unfold, converge, or reflect."
+msgstr ""
+"只有顏色變化的規則提示最容易被漏看；在轉階前加入 0.8 秒的方向性預兆，可讓首次挑戰者正確指出下一波來源的比例由 46% 提升至 "
+"81%。名稱宣言若與軌跡動詞一致——例如「展開」「收束」「返照」——也能顯著縮短理解時間。"
+
+#. researchFiles.spellcard.sections/3/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/3/0"
+msgid "Fairness is not symmetry"
+msgstr "公平不是對稱"
+
+#. researchFiles.spellcard.sections/3/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/3/1"
+msgid ""
+"Perfect left–right symmetry was not always fair: fast fliers gained "
+"excessive lateral space while walkers were sealed from both sides. The most "
+"stable design offered one broad, slow main exit and one narrow precision "
+"shortcut, leaving every movement style a consequential choice."
+msgstr ""
+"左右完全對稱的彈幕並不一定公平：高速飛行者會取得過大的橫向空間，步行者卻容易被兩側同時封死。效果最穩定的設計保留一條較寬但較慢的主退路，以及一條狹窄、需"
+"要精確判斷的捷徑，讓不同移動方式都能作出有代價的選擇。"
+
+#. researchFiles.spellcard.sections/4/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/4/0"
+msgid "Field note: the seventh trial in rain"
+msgstr "現場紀錄：雨中的第七輪"
+
+#. researchFiles.spellcard.sections/4/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/4/1"
+msgid ""
+"A sudden shower made Marisa's star telegraphs brighter than the main shots "
+"in the water curtain. Spectators mistook warning for attack. Reimu stopped "
+"the clock and split the cue into sound, then outline. With no reduction in "
+"projectile count, misreads fell from eleven to two. Weather became part of "
+"the rules, not off-field noise."
+msgstr ""
+"第七輪公開測試遇上驟雨，魔理沙的星形預兆在水幕中變得比主彈更亮，觀眾以為那就是攻擊本體。靈夢暫停計時，把預兆改成先有音、後有輪廓的兩段式訊號。重開後沒有"
+"降低彈量，誤判卻從十一人降為兩人。研究組因此把天候列為規則的一部分，而不是場外雜訊。"
+
+#. researchFiles.spellcard.sections/5/0
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/5/0"
+msgid "Open standard & next step"
+msgstr "公開規格與下一步"
+
+#. researchFiles.spellcard.sections/5/1
+#: src/data/research.js:46
+msgctxt "tree:researchFiles.spellcard.sections#/5/1"
+msgid ""
+"The lab published a three-question check: Is the rule knowable before the "
+"first hit? Is a mistake explainable afterwards? Does every phase change "
+"retain a legible exit? Next come fairy group play, giant bodies, audio-only "
+"spell cards, and an appealable post-match record for university spell-card "
+"interviews."
+msgstr ""
+"研究室發佈「三問檢核」：挑戰者在第一擊前能否知道規則、失誤後能否知道原因、任何轉階是否仍有一條可辨識退路。下一期將測試妖精群體挑戰、巨大體型與純音訊符卡"
+"，並為校內符卡式口試建立可申訴的賽後記錄格式。"
+
+#. text:researchFiles.boundary.meta.0.label
+#: src/data/research.js:8
+msgctxt "text:researchFiles.boundary.meta.0.label"
+msgid "Research period"
+msgstr "研究期間"
+
+#. text:researchFiles.boundary.meta.0.value
+#: src/data/research.js:8
+msgctxt "text:researchFiles.boundary.meta.0.value"
+msgid "Gensokyo Calendar 137—141"
+msgstr "幻想曆 137—141"
+
+#. text:researchFiles.boundary.meta.1.label
+#: src/data/research.js:9
+msgctxt "text:researchFiles.boundary.meta.1.label"
+msgid "Lead"
+msgstr "主持"
+
+#. text:researchFiles.boundary.meta.1.value
+#: src/data/research.js:9
+msgctxt "text:researchFiles.boundary.meta.1.value"
+msgid "Yukari Yakumo · Rinnosuke Morichika · Boundary Observatory"
+msgstr "八雲紫・森近霖之助・結界觀測所"
+
+#. text:researchFiles.boundary.meta.2.label
+#: src/data/research.js:10
+msgctxt "text:researchFiles.boundary.meta.2.label"
+msgid "Sample"
+msgstr "樣本"
+
+#. text:researchFiles.boundary.meta.2.value
+#: src/data/research.js:10
+msgctxt "text:researchFiles.boundary.meta.2.value"
+msgid "1,842 unclaimed drift objects"
+msgstr "1,842 件無主漂移物"
+
+#. text:researchFiles.boundary.meta.3.label
+#: src/data/research.js:11
+msgctxt "text:researchFiles.boundary.meta.3.label"
+msgid "Status"
+msgstr "狀態"
+
+#. text:researchFiles.boundary.meta.3.value
+#: src/data/research.js:11
+msgctxt "text:researchFiles.boundary.meta.3.value"
+msgid "Annual index published"
+msgstr "年度索引公開"
+
+#. text:researchFiles.waterwheel.meta.0.label
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.0.label"
+msgid "Efficiency"
+msgstr "效率"
+
+#. text:researchFiles.waterwheel.meta.1.label
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.1.label"
+msgid "Repair tools"
+msgstr "維修工具"
+
+#. text:researchFiles.waterwheel.meta.1.value
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.1.value"
+msgid "3 tools"
+msgstr "3 種"
+
+#. text:researchFiles.waterwheel.meta.2.label
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.2.label"
+msgid "Shutdown"
+msgstr "停機"
+
+#. text:researchFiles.waterwheel.meta.2.value
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.2.value"
+msgid "Automatic in heavy rain"
+msgstr "暴雨日自動"
+
+#. text:researchFiles.waterwheel.meta.3.label
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.3.label"
+msgid "Release"
+msgstr "授權"
+
+#. text:researchFiles.waterwheel.meta.3.value
+#: src/data/research.js:19
+msgctxt "text:researchFiles.waterwheel.meta.3.value"
+msgid "Open workshop specification"
+msgstr "工房公開規格"
+
+#. text:researchFiles.moonpath.meta.0.label
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.0.label"
+msgid "Observation nights"
+msgstr "觀察夜"
+
+#. text:researchFiles.moonpath.meta.1.label
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.1.label"
+msgid "Guide posts"
+msgstr "引導樁"
+
+#. text:researchFiles.moonpath.meta.2.label
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.2.label"
+msgid "Full-moon mode"
+msgstr "滿月模式"
+
+#. text:researchFiles.moonpath.meta.2.value
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.2.value"
+msgid "Low stimulus"
+msgstr "低刺激"
+
+#. text:researchFiles.moonpath.meta.3.label
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.3.label"
+msgid "Lead"
+msgstr "主持"
+
+#. text:researchFiles.moonpath.meta.3.value
+#: src/data/research.js:26
+msgctxt "text:researchFiles.moonpath.meta.3.value"
+msgid "Eirin Yagokoro · Reisen"
+msgstr "八意永琳・鈴仙"
+
+#. text:researchFiles.reports.meta.0.label
+#: src/data/research.js:33
+msgctxt "text:researchFiles.reports.meta.0.label"
+msgid "Comparative texts"
+msgstr "對照文本"
+
+#. text:researchFiles.reports.meta.1.label
+#: src/data/research.js:33
+msgctxt "text:researchFiles.reports.meta.1.label"
+msgid "Public corrections"
+msgstr "公開訂正"
+
+#. text:researchFiles.reports.meta.2.label
+#: src/data/research.js:33
+msgctxt "text:researchFiles.reports.meta.2.label"
+msgid "Photo withdrawals"
+msgstr "照片撤回"
+
+#. text:researchFiles.reports.meta.3.label
+#: src/data/research.js:33
+msgctxt "text:researchFiles.reports.meta.3.label"
+msgid "Lead"
+msgstr "主持"
+
+#. text:researchFiles.reports.meta.3.value
+#: src/data/research.js:33
+msgctxt "text:researchFiles.reports.meta.3.value"
+msgid "Aya Shameimaru · Hieda Archive"
+msgstr "射命丸文・稗田史料室"
+
+#. text:researchFiles.spellcard.meta.0.label
+#: src/data/research.js:41
+msgctxt "text:researchFiles.spellcard.meta.0.label"
+msgid "Test patterns"
+msgstr "測試彈幕"
+
+#. text:researchFiles.spellcard.meta.0.value
+#: src/data/research.js:41
+msgctxt "text:researchFiles.spellcard.meta.0.value"
+msgid "96 patterns"
+msgstr "96 組"
+
+#. text:researchFiles.spellcard.meta.1.label
+#: src/data/research.js:42
+msgctxt "text:researchFiles.spellcard.meta.1.label"
+msgid "Participants"
+msgstr "參與者"
+
+#. text:researchFiles.spellcard.meta.1.value
+#: src/data/research.js:42
+msgctxt "text:researchFiles.spellcard.meta.1.value"
+msgid "42 · 6 movement modes"
+msgstr "42 名・6 種移動方式"
+
+#. text:researchFiles.spellcard.meta.2.label
+#: src/data/research.js:43
+msgctxt "text:researchFiles.spellcard.meta.2.label"
+msgid "Exit telegraph"
+msgstr "退路預兆"
+
+#. text:researchFiles.spellcard.meta.2.value
+#: src/data/research.js:43
+msgctxt "text:researchFiles.spellcard.meta.2.value"
+msgid "Minimum 0.8 seconds"
+msgstr "最低 0.8 秒"
+
+#. text:researchFiles.spellcard.meta.3.label
+#: src/data/research.js:44
+msgctxt "text:researchFiles.spellcard.meta.3.label"
+msgid "Lead"
+msgstr "主持"
+
+#. text:researchFiles.spellcard.meta.3.value
+#: src/data/research.js:44
+msgctxt "text:researchFiles.spellcard.meta.3.value"
+msgid "Reimu Hakurei · Marisa Kirisame · Spell-card Systems Lab"
+msgstr "博麗靈夢・霧雨魔理沙・符卡系統研究室"

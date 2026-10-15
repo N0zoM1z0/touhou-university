@@ -1,0 +1,3308 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. fieldworkRegions.village
+#: src/data/fieldwork.js:60
+msgctxt "text:fieldworkRegions.village"
+msgid "Village & Hakurei boundary"
+msgstr "Village & Hakurei boundary"
+
+#. fieldworkRegions.lake
+#: src/data/fieldwork.js:61
+msgctxt "text:fieldworkRegions.lake"
+msgid "Misty Lake & Scarlet grounds"
+msgstr "Misty Lake & Scarlet grounds"
+
+#. fieldworkRegions.forest
+#: src/data/fieldwork.js:62
+msgctxt "text:fieldworkRegions.forest"
+msgid "Forest of Magic & flowerlands"
+msgstr "Forest of Magic & flowerlands"
+
+#. fieldworkRegions.mountain
+#: src/data/fieldwork.js:63
+msgctxt "text:fieldworkRegions.mountain"
+msgid "Youkai Mountain waters & airspace"
+msgstr "Youkai Mountain waters & airspace"
+
+#. fieldworkRegions.faith
+#: src/data/fieldwork.js:64
+msgctxt "text:fieldworkRegions.faith"
+msgid "Temple, shrine & Senkai commons"
+msgstr "Temple, shrine & Senkai commons"
+
+#. fieldworkRegions.lunar
+#: src/data/fieldwork.js:65
+msgctxt "text:fieldworkRegions.lunar"
+msgid "Eientei & Bamboo Forest"
+msgstr "Eientei & Bamboo Forest"
+
+#. fieldworkRegions.afterlife
+#: src/data/fieldwork.js:66
+msgctxt "text:fieldworkRegions.afterlife"
+msgid "Netherworld & Higan transit"
+msgstr "Netherworld & Higan transit"
+
+#. fieldworkRegions.underground
+#: src/data/fieldwork.js:67
+msgctxt "text:fieldworkRegions.underground"
+msgid "Former Hell energy & shared life"
+msgstr "Former Hell energy & shared life"
+
+#. fieldworkDisciplines.boundary
+#: src/data/fieldwork.js:71
+msgctxt "text:fieldworkDisciplines.boundary"
+msgid "Boundary & routing"
+msgstr "Boundary & routing"
+
+#. fieldworkDisciplines.history
+#: src/data/fieldwork.js:72
+msgctxt "text:fieldworkDisciplines.history"
+msgid "History & public records"
+msgstr "History & public records"
+
+#. fieldworkDisciplines.material
+#: src/data/fieldwork.js:73
+msgctxt "text:fieldworkDisciplines.material"
+msgid "Magic & material culture"
+msgstr "Magic & material culture"
+
+#. fieldworkDisciplines.medicine
+#: src/data/fieldwork.js:74
+msgctxt "text:fieldworkDisciplines.medicine"
+msgid "Clinical care"
+msgstr "Clinical care"
+
+#. fieldworkDisciplines.engineering
+#: src/data/fieldwork.js:75
+msgctxt "text:fieldworkDisciplines.engineering"
+msgid "Engineering & energy"
+msgstr "Engineering & energy"
+
+#. fieldworkDisciplines.ecology
+#: src/data/fieldwork.js:76
+msgctxt "text:fieldworkDisciplines.ecology"
+msgid "Ecology & seasons"
+msgstr "Ecology & seasons"
+
+#. fieldworkDisciplines.governance
+#: src/data/fieldwork.js:77
+msgctxt "text:fieldworkDisciplines.governance"
+msgid "Faith & public governance"
+msgstr "Faith & public governance"
+
+#. fieldworkDisciplines.journalism
+#: src/data/fieldwork.js:78
+msgctxt "text:fieldworkDisciplines.journalism"
+msgid "Journalism & field records"
+msgstr "Journalism & field records"
+
+#. fieldworkDisciplines.afterlife
+#: src/data/fieldwork.js:79
+msgctxt "text:fieldworkDisciplines.afterlife"
+msgid "Life/death boundary & transit"
+msgstr "Life/death boundary & transit"
+
+#. fieldworkDisciplines.underground
+#: src/data/fieldwork.js:80
+msgctxt "text:fieldworkDisciplines.underground"
+msgid "Underground society & mental privacy"
+msgstr "Underground society & mental privacy"
+
+#. fieldworkTravelModes.foot.name
+#: src/data/fieldwork.js:86
+msgctxt "text:fieldworkTravelModes.foot.name"
+msgid "Foot / non-flier link"
+msgstr "Foot / non-flier link"
+
+#. fieldworkTravelModes.foot.note
+#: src/data/fieldwork.js:88
+msgctxt "text:fieldworkTravelModes.foot.note"
+msgid "Slowest, but best for noticing when signs begin to lie."
+msgstr "Slowest, but best for noticing when signs begin to lie."
+
+#. fieldworkTravelModes.broom.name
+#: src/data/fieldwork.js:92
+msgctxt "text:fieldworkTravelModes.broom.name"
+msgid "Registered broom airway"
+msgstr "Registered broom airway"
+
+#. fieldworkTravelModes.broom.note
+#: src/data/fieldwork.js:94
+msgctxt "text:fieldworkTravelModes.broom.note"
+msgid "Subject to airspace and spell notices; Marisa's shortcut is not a notice."
+msgstr "Subject to airspace and spell notices; Marisa's shortcut is not a notice."
+
+#. fieldworkTravelModes.tengu.name
+#: src/data/fieldwork.js:98
+msgctxt "text:fieldworkTravelModes.tengu.name"
+msgid "Tengu document-courier seat"
+msgstr "Tengu document-courier seat"
+
+#. fieldworkTravelModes.tengu.note
+#: src/data/fieldwork.js:100
+msgctxt "text:fieldworkTravelModes.tengu.note"
+msgid "Fast; your placement may be in print before you arrive."
+msgstr "Fast; your placement may be in print before you arrive."
+
+#. fieldworkTravelModes.rabbit.name
+#: src/data/fieldwork.js:104
+msgctxt "text:fieldworkTravelModes.rabbit.name"
+msgid "Moon-rabbit shuttle & bamboo guide"
+msgstr "Moon-rabbit shuttle & bamboo guide"
+
+#. fieldworkTravelModes.rabbit.note
+#: src/data/fieldwork.js:106
+msgctxt "text:fieldworkTravelModes.rabbit.note"
+msgid "Most stable in bamboo; Tewi may swap the stop names."
+msgstr "Most stable in bamboo; Tewi may swap the stop names."
+
+#. fieldworkTravelModes.gap.name
+#: src/data/fieldwork.js:110
+msgctxt "text:fieldworkTravelModes.gap.name"
+msgid "Supervised boundary passage"
+msgstr "Supervised boundary passage"
+
+#. fieldworkTravelModes.gap.note
+#: src/data/fieldwork.js:112
+msgctxt "text:fieldworkTravelModes.gap.note"
+msgid "Short journey, long annex; declare which side of the destination first."
+msgstr "Short journey, long annex; declare which side of the destination first."
+
+#. fieldworkComplications.permit-moved.title
+#: src/data/fieldwork.js:119
+msgctxt "text:fieldworkComplications.permit-moved.title"
+msgid "Permit desk moves outside its permitted area"
+msgstr "Permit desk moves outside its permitted area"
+
+#. fieldworkComplications.permit-moved.detail
+#: src/data/fieldwork.js:120
+msgctxt "text:fieldworkComplications.permit-moved.detail"
+msgid "The gate accepts your paper, but its verification desk is now across the boundary."
+msgstr "The gate accepts your paper, but its verification desk is now across the boundary."
+
+#. fieldworkComplications.permit-moved.responses.0.1
+#: src/data/fieldwork.js:122
+msgctxt "text:fieldworkComplications.permit-moved.responses.0.1"
+msgid "Walk the boundary to the desk without changing the paper"
+msgstr "Walk the boundary to the desk without changing the paper"
+
+#. fieldworkComplications.permit-moved.responses.1.1
+#: src/data/fieldwork.js:123
+msgctxt "text:fieldworkComplications.permit-moved.responses.1.1"
+msgid "Annotate which side held the desk at verification"
+msgstr "Annotate which side held the desk at verification"
+
+#. fieldworkComplications.permit-moved.responses.2.1
+#: src/data/fieldwork.js:124
+msgctxt "text:fieldworkComplications.permit-moved.responses.2.1"
+msgid "Ask Ran to verify and keep Yukari from signing the answer"
+msgstr "Ask Ran to verify and keep Yukari from signing the answer"
+
+#. fieldworkComplications.frozen-register.title
+#: src/data/fieldwork.js:129
+msgctxt "text:fieldworkComplications.frozen-register.title"
+msgid "Three hours of work carry the same minute"
+msgstr "Three hours of work carry the same minute"
+
+#. fieldworkComplications.frozen-register.detail
+#: src/data/fieldwork.js:130
+msgctxt "text:fieldworkComplications.frozen-register.detail"
+msgid ""
+"Sakuya says the schedule is exact; your provenance chain says every "
+"observation happened at once."
+msgstr ""
+"Sakuya says the schedule is exact; your provenance chain says every "
+"observation happened at once."
+
+#. fieldworkComplications.frozen-register.responses.0.1
+#: src/data/fieldwork.js:132
+msgctxt "text:fieldworkComplications.frozen-register.responses.0.1"
+msgid "Reconstruct sequence from tea temperature and changed cutlery"
+msgstr "Reconstruct sequence from tea temperature and changed cutlery"
+
+#. fieldworkComplications.frozen-register.responses.1.1
+#: src/data/fieldwork.js:133
+msgctxt "text:fieldworkComplications.frozen-register.responses.1.1"
+msgid "Keep the timestamp and record relative order separately"
+msgstr "Keep the timestamp and record relative order separately"
+
+#. fieldworkComplications.frozen-register.responses.2.1
+#: src/data/fieldwork.js:134
+msgctxt "text:fieldworkComplications.frozen-register.responses.2.1"
+msgid "Ask Sakuya to return three minutes; specify which three"
+msgstr "Ask Sakuya to return three minutes; specify which three"
+
+#. fieldworkComplications.source-writes-back.title
+#: src/data/fieldwork.js:139
+msgctxt "text:fieldworkComplications.source-writes-back.title"
+msgid "The observed book completes your observation field"
+msgstr "The observed book completes your observation field"
+
+#. fieldworkComplications.source-writes-back.detail
+#: src/data/fieldwork.js:140
+msgctxt "text:fieldworkComplications.source-writes-back.detail"
+msgid "The handwriting is not yours, but it is more precise and requests co-authorship order."
+msgstr "The handwriting is not yours, but it is more precise and requests co-authorship order."
+
+#. fieldworkComplications.source-writes-back.responses.0.1
+#: src/data/fieldwork.js:142
+msgctxt "text:fieldworkComplications.source-writes-back.responses.0.1"
+msgid "Keep both hands and identify each observer"
+msgstr "Keep both hands and identify each observer"
+
+#. fieldworkComplications.source-writes-back.responses.1.1
+#: src/data/fieldwork.js:143
+msgctxt "text:fieldworkComplications.source-writes-back.responses.1.1"
+msgid "Register the book as source and participant, not equipment"
+msgstr "Register the book as source and participant, not equipment"
+
+#. fieldworkComplications.source-writes-back.responses.2.1
+#: src/data/fieldwork.js:144
+msgctxt "text:fieldworkComplications.source-writes-back.responses.2.1"
+msgid "Convene an authorship meeting; Koakuma has nine chairs ready"
+msgstr "Convene an authorship meeting; Koakuma has nine chairs ready"
+
+#. fieldworkComplications.headline-before-arrival.title
+#: src/data/fieldwork.js:149
+msgctxt "text:fieldworkComplications.headline-before-arrival.title"
+msgid "An extra reports completion before your placement begins"
+msgstr "An extra reports completion before your placement begins"
+
+#. fieldworkComplications.headline-before-arrival.detail
+#: src/data/fieldwork.js:150
+msgctxt "text:fieldworkComplications.headline-before-arrival.detail"
+msgid "Its field photo shows you reading this very extra."
+msgstr "Its field photo shows you reading this very extra."
+
+#. fieldworkComplications.headline-before-arrival.responses.0.1
+#: src/data/fieldwork.js:152
+msgctxt "text:fieldworkComplications.headline-before-arrival.responses.0.1"
+msgid "Archive it as a forecast, not field evidence"
+msgstr "Archive it as a forecast, not field evidence"
+
+#. fieldworkComplications.headline-before-arrival.responses.1.1
+#: src/data/fieldwork.js:153
+msgctxt "text:fieldworkComplications.headline-before-arrival.responses.1.1"
+msgid "Compare forecast and actual log line by line after return"
+msgstr "Compare forecast and actual log line by line after return"
+
+#. fieldworkComplications.headline-before-arrival.responses.2.1
+#: src/data/fieldwork.js:154
+msgctxt "text:fieldworkComplications.headline-before-arrival.responses.2.1"
+msgid "Ask Aya to open Corrections first; she asks you to supply an error"
+msgstr "Ask Aya to open Corrections first; she asks you to supply an error"
+
+#. fieldworkComplications.yesterday-marker.title
+#: src/data/fieldwork.js:159
+msgctxt "text:fieldworkComplications.yesterday-marker.title"
+msgid "The fourth marker points to yesterday's meeting point"
+msgstr "The fourth marker points to yesterday's meeting point"
+
+#. fieldworkComplications.yesterday-marker.detail
+#: src/data/fieldwork.js:160
+msgctxt "text:fieldworkComplications.yesterday-marker.detail"
+msgid "Roll is being taken there; you are listed, one day early."
+msgstr "Roll is being taken there; you are listed, one day early."
+
+#. fieldworkComplications.yesterday-marker.responses.0.1
+#: src/data/fieldwork.js:162
+msgctxt "text:fieldworkComplications.yesterday-marker.responses.0.1"
+msgid "Skip marker four under today's moon and log its position"
+msgstr "Skip marker four under today's moon and log its position"
+
+#. fieldworkComplications.yesterday-marker.responses.1.1
+#: src/data/fieldwork.js:163
+msgctxt "text:fieldworkComplications.yesterday-marker.responses.1.1"
+msgid "Leave different-coloured arrival slips in yesterday and today"
+msgstr "Leave different-coloured arrival slips in yesterday and today"
+
+#. fieldworkComplications.yesterday-marker.responses.2.1
+#: src/data/fieldwork.js:164
+msgctxt "text:fieldworkComplications.yesterday-marker.responses.2.1"
+msgid "Follow once while Mokou holds the return end"
+msgstr "Follow once while Mokou holds the return end"
+
+#. fieldworkComplications.fairy-coauthor.title
+#: src/data/fieldwork.js:169
+msgctxt "text:fieldworkComplications.fairy-coauthor.title"
+msgid "Three fairies declare themselves co-investigators"
+msgstr "Three fairies declare themselves co-investigators"
+
+#. fieldworkComplications.fairy-coauthor.detail
+#: src/data/fieldwork.js:170
+msgctxt "text:fieldworkComplications.fairy-coauthor.detail"
+msgid "They moved the plot, renamed the wind, and noticed you omitted fun."
+msgstr "They moved the plot, renamed the wind, and noticed you omitted fun."
+
+#. fieldworkComplications.fairy-coauthor.responses.0.1
+#: src/data/fieldwork.js:172
+msgctxt "text:fieldworkComplications.fairy-coauthor.responses.0.1"
+msgid "Keep pre/post plots and name who moved them"
+msgstr "Keep pre/post plots and name who moved them"
+
+#. fieldworkComplications.fairy-coauthor.responses.1.1
+#: src/data/fieldwork.js:173
+msgctxt "text:fieldworkComplications.fairy-coauthor.responses.1.1"
+msgid "Attach a fairy-method page without merging scales"
+msgstr "Attach a fairy-method page without merging scales"
+
+#. fieldworkComplications.fairy-coauthor.responses.2.1
+#: src/data/fieldwork.js:174
+msgctxt "text:fieldworkComplications.fairy-coauthor.responses.2.1"
+msgid "Accept co-authorship and let them order surnames once"
+msgstr "Accept co-authorship and let them order surnames once"
+
+#. fieldworkComplications.three-seals.title
+#: src/data/fieldwork.js:179
+msgctxt "text:fieldworkComplications.three-seals.title"
+msgid "One dispatch order gains three uniquely valid seals"
+msgstr "One dispatch order gains three uniquely valid seals"
+
+#. fieldworkComplications.three-seals.detail
+#: src/data/fieldwork.js:180
+msgctxt "text:fieldworkComplications.three-seals.detail"
+msgid "Moriya, Myouren, and Senkai each accept the other two only as historical sources."
+msgstr "Moriya, Myouren, and Senkai each accept the other two only as historical sources."
+
+#. fieldworkComplications.three-seals.responses.0.1
+#: src/data/fieldwork.js:182
+msgctxt "text:fieldworkComplications.three-seals.responses.0.1"
+msgid "Keep all three and record each authority's scope"
+msgstr "Keep all three and record each authority's scope"
+
+#. fieldworkComplications.three-seals.responses.1.1
+#: src/data/fieldwork.js:183
+msgctxt "text:fieldworkComplications.three-seals.responses.1.1"
+msgid "Travel under the host seal and retain two annexes"
+msgstr "Travel under the host seal and retain two annexes"
+
+#. fieldworkComplications.three-seals.responses.2.1
+#: src/data/fieldwork.js:184
+msgctxt "text:fieldworkComplications.three-seals.responses.2.1"
+msgid "Rotate the valid seal every twenty minutes, retaining one overlap minute"
+msgstr "Rotate the valid seal every twenty minutes, retaining one overlap minute"
+
+#. fieldworkComplications.thought-before-consent.title
+#: src/data/fieldwork.js:189
+msgctxt "text:fieldworkComplications.thought-before-consent.title"
+msgid "Satori hears an observation before you decide to submit it"
+msgstr "Satori hears an observation before you decide to submit it"
+
+#. fieldworkComplications.thought-before-consent.detail
+#: src/data/fieldwork.js:190
+msgctxt "text:fieldworkComplications.thought-before-consent.detail"
+msgid "She wrote nothing down, but precisely identifies the missing source."
+msgstr "She wrote nothing down, but precisely identifies the missing source."
+
+#. fieldworkComplications.thought-before-consent.responses.0.1
+#: src/data/fieldwork.js:192
+msgctxt "text:fieldworkComplications.thought-before-consent.responses.0.1"
+msgid "Ask her not to repeat it and recheck the source yourself"
+msgstr "Ask her not to repeat it and recheck the source yourself"
+
+#. fieldworkComplications.thought-before-consent.responses.1.1
+#: src/data/fieldwork.js:193
+msgctxt "text:fieldworkComplications.thought-before-consent.responses.1.1"
+msgid "Open a new page at consent and do not backfill"
+msgstr "Open a new page at consent and do not backfill"
+
+#. fieldworkComplications.thought-before-consent.responses.2.1
+#: src/data/fieldwork.js:194
+msgctxt "text:fieldworkComplications.thought-before-consent.responses.2.1"
+msgid "Record the objection that hearing is not collection and retain it for ethics"
+msgstr "Record the objection that hearing is not collection and retain it for ethics"
+
+#. fieldworkComplications.ghost-headcount.title
+#: src/data/fieldwork.js:199
+msgctxt "text:fieldworkComplications.ghost-headcount.title"
+msgid "Half-phantom, ghost, and shadow disagree on sample size"
+msgstr "Half-phantom, ghost, and shadow disagree on sample size"
+
+#. fieldworkComplications.ghost-headcount.detail
+#: src/data/fieldwork.js:200
+msgctxt "text:fieldworkComplications.ghost-headcount.detail"
+msgid "Youmu writes 2, Yuyuko says count lunches, and your form accepts integers only."
+msgstr "Youmu writes 2, Yuyuko says count lunches, and your form accepts integers only."
+
+#. fieldworkComplications.ghost-headcount.responses.0.1
+#: src/data/fieldwork.js:202
+msgctxt "text:fieldworkComplications.ghost-headcount.responses.0.1"
+msgid "Define person, spirit, and observation units, then use three rows"
+msgstr "Define person, spirit, and observation units, then use three rows"
+
+#. fieldworkComplications.ghost-headcount.responses.1.1
+#: src/data/fieldwork.js:203
+msgctxt "text:fieldworkComplications.ghost-headcount.responses.1.1"
+msgid "Record one paired existence without claiming separability"
+msgstr "Record one paired existence without claiming separability"
+
+#. fieldworkComplications.ghost-headcount.responses.2.1
+#: src/data/fieldwork.js:204
+msgctxt "text:fieldworkComplications.ghost-headcount.responses.2.1"
+msgid "Count lunches and note Yuyuko ate the calibrator"
+msgstr "Count lunches and note Yuyuko ate the calibrator"
+
+#. fieldworkComplications.evidence-follows.title
+#: src/data/fieldwork.js:209
+msgctxt "text:fieldworkComplications.evidence-follows.title"
+msgid "Bagged evidence refuses to remain bagged"
+msgstr "Bagged evidence refuses to remain bagged"
+
+#. fieldworkComplications.evidence-follows.detail
+#: src/data/fieldwork.js:210
+msgctxt "text:fieldworkComplications.evidence-follows.detail"
+msgid "It returns to its owner each time, making custody look like repeated loans."
+msgstr "It returns to its owner each time, making custody look like repeated loans."
+
+#. fieldworkComplications.evidence-follows.responses.0.1
+#: src/data/fieldwork.js:212
+msgctxt "text:fieldworkComplications.evidence-follows.responses.0.1"
+msgid "Seal the empty bag and every departure time without forcing the object"
+msgstr "Seal the empty bag and every departure time without forcing the object"
+
+#. fieldworkComplications.evidence-follows.responses.1.1
+#: src/data/fieldwork.js:213
+msgctxt "text:fieldworkComplications.evidence-follows.responses.1.1"
+msgid "Let its chosen owner hold custody while the student only observes"
+msgstr "Let its chosen owner hold custody while the student only observes"
+
+#. fieldworkComplications.evidence-follows.responses.2.1
+#: src/data/fieldwork.js:214
+msgctxt "text:fieldworkComplications.evidence-follows.responses.2.1"
+msgid "Ask the object to stamp custody; the mark moves to the reverse"
+msgstr "Ask the object to stamp custody; the mark moves to the reverse"
+
+#. fieldworkComplications.shortened-river.title
+#: src/data/fieldwork.js:219
+msgctxt "text:fieldworkComplications.shortened-river.title"
+msgid "The Sanzu shortens; the interview does not"
+msgstr "The Sanzu shortens; the interview does not"
+
+#. fieldworkComplications.shortened-river.detail
+#: src/data/fieldwork.js:220
+msgctxt "text:fieldworkComplications.shortened-river.detail"
+msgid "The landing bell rings during question three; Komachi says distance is not a deadline."
+msgstr "The landing bell rings during question three; Komachi says distance is not a deadline."
+
+#. fieldworkComplications.shortened-river.responses.0.1
+#: src/data/fieldwork.js:222
+msgctxt "text:fieldworkComplications.shortened-river.responses.0.1"
+msgid "Stop collection at landing and mark the rest incomplete"
+msgstr "Stop collection at landing and mark the rest incomplete"
+
+#. fieldworkComplications.shortened-river.responses.1.1
+#: src/data/fieldwork.js:223
+msgctxt "text:fieldworkComplications.shortened-river.responses.1.1"
+msgid "Pay for another crossing and do not call it the same trip"
+msgstr "Pay for another crossing and do not call it the same trip"
+
+#. fieldworkComplications.shortened-river.responses.2.1
+#: src/data/fieldwork.js:224
+msgctxt "text:fieldworkComplications.shortened-river.responses.2.1"
+msgid "Ask Komachi to lengthen only question three"
+msgstr "Ask Komachi to lengthen only question three"
+
+#. fieldworkComplications.power-has-owner.title
+#: src/data/fieldwork.js:229
+msgctxt "text:fieldworkComplications.power-has-owner.title"
+msgid "Two institutions claim one meter reading"
+msgstr "Two institutions claim one meter reading"
+
+#. fieldworkComplications.power-has-owner.detail
+#: src/data/fieldwork.js:230
+msgctxt "text:fieldworkComplications.power-has-owner.detail"
+msgid "Kappa supply power, gods explain why it matters, and the reading picks neither."
+msgstr "Kappa supply power, gods explain why it matters, and the reading picks neither."
+
+#. fieldworkComplications.power-has-owner.responses.0.1
+#: src/data/fieldwork.js:232
+msgctxt "text:fieldworkComplications.power-has-owner.responses.0.1"
+msgid "List equipment, energy, and interpretive authority together"
+msgstr "List equipment, energy, and interpretive authority together"
+
+#. fieldworkComplications.power-has-owner.responses.1.1
+#: src/data/fieldwork.js:233
+msgctxt "text:fieldworkComplications.power-has-owner.responses.1.1"
+msgid "Report value and version without judging ownership"
+msgstr "Report value and version without judging ownership"
+
+#. fieldworkComplications.power-has-owner.responses.2.1
+#: src/data/fieldwork.js:234
+msgctxt "text:fieldworkComplications.power-has-owner.responses.2.1"
+msgid "Split the meter; Nitori wants the voided warranty signed first"
+msgstr "Split the meter; Nitori wants the voided warranty signed first"
+
+#. fieldworkStations.0.0.name
+#: src/data/fieldwork.js:242
+msgctxt "text:fieldworkStations.0.0.name"
+msgid "Hakurei Shrine · Great Barrier Survey"
+msgstr "Hakurei Shrine · Great Barrier Survey"
+
+#. fieldworkStations.0.0.host
+#: src/data/fieldwork.js:243
+msgctxt "text:fieldworkStations.0.0.host"
+msgid "Hakurei Shrine"
+msgstr "Hakurei Shrine"
+
+#. fieldworkStations.0.0.supervisor
+#: src/data/fieldwork.js:244
+msgctxt "text:fieldworkStations.0.0.supervisor"
+msgid "Reimu Hakurei"
+msgstr "Reimu Hakurei"
+
+#. fieldworkStations.0.0.companion
+#: src/data/fieldwork.js:245
+msgctxt "text:fieldworkStations.0.0.companion"
+msgid "Ran Yakumo (calculates, does not apologise for boundaries)"
+msgstr "Ran Yakumo (calculates, does not apologise for boundaries)"
+
+#. fieldworkStations.0.0.placement
+#: src/data/fieldwork.js:247
+msgctxt "text:fieldworkStations.0.0.placement"
+msgid ""
+"Inspect barrier seams, the donation box perimeter, and markers that were "
+"here a moment ago."
+msgstr ""
+"Inspect barrier seams, the donation box perimeter, and markers that were "
+"here a moment ago."
+
+#. fieldworkStations.0.0.premise
+#: src/data/fieldwork.js:248
+msgctxt "text:fieldworkStations.0.0.premise"
+msgid "Record how the boundary is used instead of calling every movement a failure."
+msgstr "Record how the boundary is used instead of calling every movement a failure."
+
+#. fieldworkStations.0.0.access
+#: src/data/fieldwork.js:249
+msgctxt "text:fieldworkStations.0.0.access"
+msgid "Enter right of the hall after sunrise; after a feast, count bottles before markers."
+msgstr "Enter right of the hall after sunrise; after a feast, count bottles before markers."
+
+#. fieldworkStations.0.0.shift
+#: src/data/fieldwork.js:250
+msgctxt "text:fieldworkStations.0.0.shift"
+msgid "Morning bell to the second 'just now'"
+msgstr "Morning bell to the second 'just now'"
+
+#. fieldworkStations.0.0.ethics
+#: src/data/fieldwork.js:252
+msgctxt "text:fieldworkStations.0.0.ethics"
+msgid "Donation shortage is not permission to open a boundary."
+msgstr "Donation shortage is not permission to open a boundary."
+
+#. fieldworkStations.0.0.equipment.0
+#: src/data/fieldwork.js:253
+msgctxt "text:fieldworkStations.0.0.equipment.0"
+msgid "Twelve red-white boundary stakes"
+msgstr "Twelve red-white boundary stakes"
+
+#. fieldworkStations.0.0.equipment.1
+#: src/data/fieldwork.js:253
+msgctxt "text:fieldworkStations.0.0.equipment.1"
+msgid "Pencil that does not self-correct"
+msgstr "Pencil that does not self-correct"
+
+#. fieldworkStations.0.0.equipment.2
+#: src/data/fieldwork.js:253
+msgctxt "text:fieldworkStations.0.0.equipment.2"
+msgid "Rain clip for donation-box work"
+msgstr "Rain clip for donation-box work"
+
+#. fieldworkStations.0.0.tasks.0
+#: src/data/fieldwork.js:254
+msgctxt "text:fieldworkStations.0.0.tasks.0"
+msgid "Pace the eastern seam"
+msgstr "Pace the eastern seam"
+
+#. fieldworkStations.0.0.tasks.1
+#: src/data/fieldwork.js:254
+msgctxt "text:fieldworkStations.0.0.tasks.1"
+msgid "Compare Ran's two map versions"
+msgstr "Compare Ran's two map versions"
+
+#. fieldworkStations.0.0.tasks.2
+#: src/data/fieldwork.js:254
+msgctxt "text:fieldworkStations.0.0.tasks.2"
+msgid "Log Reimu's temporary rule"
+msgstr "Log Reimu's temporary rule"
+
+#. fieldworkStations.0.0.wrinkle
+#: src/data/fieldwork.js:256
+msgctxt "text:fieldworkStations.0.0.wrinkle"
+msgid "Reimu writes on the reverse: 'An empty box is not a request for a new boundary.'"
+msgstr "Reimu writes on the reverse: 'An empty box is not a request for a new boundary.'"
+
+#. fieldworkStations.0.0.seal
+#: src/data/fieldwork.js:257
+msgctxt "text:fieldworkStations.0.0.seal"
+msgid "Hakurei Seam Seal"
+msgstr "Hakurei Seam Seal"
+
+#. fieldworkStations.1.0.name
+#: src/data/fieldwork.js:261
+msgctxt "text:fieldworkStations.1.0.name"
+msgid "Human Village · Terakoya Public History"
+msgstr "Human Village · Terakoya Public History"
+
+#. fieldworkStations.1.0.host
+#: src/data/fieldwork.js:262
+msgctxt "text:fieldworkStations.1.0.host"
+msgid "Terakoya & Village Council Desk"
+msgstr "Terakoya & Village Council Desk"
+
+#. fieldworkStations.1.0.supervisor
+#: src/data/fieldwork.js:263
+msgctxt "text:fieldworkStations.1.0.supervisor"
+msgid "Keine Kamishirasawa"
+msgstr "Keine Kamishirasawa"
+
+#. fieldworkStations.1.0.companion
+#: src/data/fieldwork.js:264
+msgctxt "text:fieldworkStations.1.0.companion"
+msgid "Kosuzu Motoori (brings one book not on the list)"
+msgstr "Kosuzu Motoori (brings one book not on the list)"
+
+#. fieldworkStations.1.0.placement
+#: src/data/fieldwork.js:266
+msgctxt "text:fieldworkStations.1.0.placement"
+msgid ""
+"Curate oral history, class rolls, and notice corrections without citing "
+"'everyone knows'."
+msgstr ""
+"Curate oral history, class rolls, and notice corrections without citing "
+"'everyone knows'."
+
+#. fieldworkStations.1.0.premise
+#: src/data/fieldwork.js:267
+msgctxt "text:fieldworkStations.1.0.premise"
+msgid "One event may have village, teacher, youkai, and later-chronicle versions."
+msgstr "One event may have village, teacher, youkai, and later-chronicle versions."
+
+#. fieldworkStations.1.0.access
+#: src/data/fieldwork.js:268
+msgctxt "text:fieldworkStations.1.0.access"
+msgid "Interview after the market bell; a lunch queue is not automatically a focus group."
+msgstr "Interview after the market bell; a lunch queue is not automatically a focus group."
+
+#. fieldworkStations.1.0.shift
+#: src/data/fieldwork.js:269
+msgctxt "text:fieldworkStations.1.0.shift"
+msgid "Market opening to terakoya dismissal"
+msgstr "Market opening to terakoya dismissal"
+
+#. fieldworkStations.1.0.ethics
+#: src/data/fieldwork.js:271
+msgctxt "text:fieldworkStations.1.0.ethics"
+msgid ""
+"Consent children, long-lived residents, and anonymous youkai separately; "
+"silence is not public record."
+msgstr ""
+"Consent children, long-lived residents, and anonymous youkai separately; "
+"silence is not public record."
+
+#. fieldworkStations.1.0.equipment.0
+#: src/data/fieldwork.js:272
+msgctxt "text:fieldworkStations.1.0.equipment.0"
+msgid "Three-colour source cards"
+msgstr "Three-colour source cards"
+
+#. fieldworkStations.1.0.equipment.1
+#: src/data/fieldwork.js:272
+msgctxt "text:fieldworkStations.1.0.equipment.1"
+msgid "Peel-away anonymous badges"
+msgstr "Peel-away anonymous badges"
+
+#. fieldworkStations.1.0.equipment.2
+#: src/data/fieldwork.js:272
+msgctxt "text:fieldworkStations.1.0.equipment.2"
+msgid "Keine correction slips"
+msgstr "Keine correction slips"
+
+#. fieldworkStations.1.0.tasks.0
+#: src/data/fieldwork.js:273
+msgctxt "text:fieldworkStations.1.0.tasks.0"
+msgid "Interview one minor incident"
+msgstr "Interview one minor incident"
+
+#. fieldworkStations.1.0.tasks.1
+#: src/data/fieldwork.js:273
+msgctxt "text:fieldworkStations.1.0.tasks.1"
+msgid "Compare roll versions"
+msgstr "Compare roll versions"
+
+#. fieldworkStations.1.0.tasks.2
+#: src/data/fieldwork.js:273
+msgctxt "text:fieldworkStations.1.0.tasks.2"
+msgid "Publish one correction"
+msgstr "Publish one correction"
+
+#. fieldworkStations.1.0.wrinkle
+#: src/data/fieldwork.js:275
+msgctxt "text:fieldworkStations.1.0.wrinkle"
+msgid "Keine corrects the error; Akyuu preserves how you erred. Submit both."
+msgstr "Keine corrects the error; Akyuu preserves how you erred. Submit both."
+
+#. fieldworkStations.1.0.seal
+#: src/data/fieldwork.js:276
+msgctxt "text:fieldworkStations.1.0.seal"
+msgid "Terakoya Three-Yesterdays Seal"
+msgstr "Terakoya Three-Yesterdays Seal"
+
+#. fieldworkStations.2.0.name
+#: src/data/fieldwork.js:280
+msgctxt "text:fieldworkStations.2.0.name"
+msgid "Hieda Residence · Versions & Missing Leaves"
+msgstr "Hieda Residence · Versions & Missing Leaves"
+
+#. fieldworkStations.2.0.host
+#: src/data/fieldwork.js:281
+msgctxt "text:fieldworkStations.2.0.host"
+msgid "Hieda Archive Room"
+msgstr "Hieda Archive Room"
+
+#. fieldworkStations.2.0.supervisor
+#: src/data/fieldwork.js:282
+msgctxt "text:fieldworkStations.2.0.supervisor"
+msgid "Hieda no Akyuu"
+msgstr "Hieda no Akyuu"
+
+#. fieldworkStations.2.0.companion
+#: src/data/fieldwork.js:283
+msgctxt "text:fieldworkStations.2.0.companion"
+msgid "Keine Kamishirasawa (holds another version of why the leaf is missing)"
+msgstr "Keine Kamishirasawa (holds another version of why the leaf is missing)"
+
+#. fieldworkStations.2.0.placement
+#: src/data/fieldwork.js:285
+msgctxt "text:fieldworkStations.2.0.placement"
+msgid ""
+"Build version chains, missing-leaf notes, and an index of contradictions "
+"that must not be merged."
+msgstr ""
+"Build version chains, missing-leaf notes, and an index of contradictions "
+"that must not be merged."
+
+#. fieldworkStations.2.0.premise
+#: src/data/fieldwork.js:286
+msgctxt "text:fieldworkStations.2.0.premise"
+msgid "Preserving what each version says matters more than choosing a convenient yesterday."
+msgstr "Preserving what each version says matters more than choosing a convenient yesterday."
+
+#. fieldworkStations.2.0.access
+#: src/data/fieldwork.js:287
+msgctxt "text:fieldworkStations.2.0.access"
+msgid "Wash hands, remove dew, and do not take red thread home as a bookmark."
+msgstr "Wash hands, remove dew, and do not take red thread home as a bookmark."
+
+#. fieldworkStations.2.0.shift
+#: src/data/fieldwork.js:288
+msgctxt "text:fieldworkStations.2.0.shift"
+msgid "Four watches after morning dehumidifying"
+msgstr "Four watches after morning dehumidifying"
+
+#. fieldworkStations.2.0.ethics
+#: src/data/fieldwork.js:290
+msgctxt "text:fieldworkStations.2.0.ethics"
+msgid ""
+"Separate living marginalia from posthumous assessments; clear memory still "
+"needs a source."
+msgstr ""
+"Separate living marginalia from posthumous assessments; clear memory still "
+"needs a source."
+
+#. fieldworkStations.2.0.equipment.0
+#: src/data/fieldwork.js:291
+msgctxt "text:fieldworkStations.2.0.equipment.0"
+msgid "Non-adhesive red thread"
+msgstr "Non-adhesive red thread"
+
+#. fieldworkStations.2.0.equipment.1
+#: src/data/fieldwork.js:291
+msgctxt "text:fieldworkStations.2.0.equipment.1"
+msgid "Version-time ruler"
+msgstr "Version-time ruler"
+
+#. fieldworkStations.2.0.equipment.2
+#: src/data/fieldwork.js:291
+msgctxt "text:fieldworkStations.2.0.equipment.2"
+msgid "Missing-leaf shadow paper"
+msgstr "Missing-leaf shadow paper"
+
+#. fieldworkStations.2.0.tasks.0
+#: src/data/fieldwork.js:292
+msgctxt "text:fieldworkStations.2.0.tasks.0"
+msgid "Bind one version chain"
+msgstr "Bind one version chain"
+
+#. fieldworkStations.2.0.tasks.1
+#: src/data/fieldwork.js:292
+msgctxt "text:fieldworkStations.2.0.tasks.1"
+msgid "Describe a missing leaf without filling it"
+msgstr "Describe a missing leaf without filling it"
+
+#. fieldworkStations.2.0.tasks.2
+#: src/data/fieldwork.js:292
+msgctxt "text:fieldworkStations.2.0.tasks.2"
+msgid "Leave your own correction"
+msgstr "Leave your own correction"
+
+#. fieldworkStations.2.0.wrinkle
+#: src/data/fieldwork.js:294
+msgctxt "text:fieldworkStations.2.0.wrinkle"
+msgid ""
+"If an archive cites your unfinished log, record the citation before "
+"finishing it to justify the loop."
+msgstr ""
+"If an archive cites your unfinished log, record the citation before "
+"finishing it to justify the loop."
+
+#. fieldworkStations.2.0.seal
+#: src/data/fieldwork.js:295
+msgctxt "text:fieldworkStations.2.0.seal"
+msgid "Hieda Missing-Leaf Seal"
+msgstr "Hieda Missing-Leaf Seal"
+
+#. fieldworkStations.3.0.name
+#: src/data/fieldwork.js:299
+msgctxt "text:fieldworkStations.3.0.name"
+msgid "Kourindou · Drift-object Provenance"
+msgstr "Kourindou · Drift-object Provenance"
+
+#. fieldworkStations.3.0.host
+#: src/data/fieldwork.js:300
+msgctxt "text:fieldworkStations.3.0.host"
+msgid "Kourindou × Misty Lake Appraisal Office"
+msgstr "Kourindou × Misty Lake Appraisal Office"
+
+#. fieldworkStations.3.0.supervisor
+#: src/data/fieldwork.js:301
+msgctxt "text:fieldworkStations.3.0.supervisor"
+msgid "Rinnosuke Morichika"
+msgstr "Rinnosuke Morichika"
+
+#. fieldworkStations.3.0.companion
+#: src/data/fieldwork.js:302
+msgctxt "text:fieldworkStations.3.0.companion"
+msgid "Kogasa Tatara (files objections for objects)"
+msgstr "Kogasa Tatara (files objections for objects)"
+
+#. fieldworkStations.3.0.placement
+#: src/data/fieldwork.js:304
+msgctxt "text:fieldworkStations.3.0.placement"
+msgid "Identify name and purpose, test actual operation, and retain discrepancies."
+msgstr "Identify name and purpose, test actual operation, and retain discrepancies."
+
+#. fieldworkStations.3.0.premise
+#: src/data/fieldwork.js:305
+msgctxt "text:fieldworkStations.3.0.premise"
+msgid "Knowing purpose does not reveal operation—or willingness."
+msgstr "Knowing purpose does not reveal operation—or willingness."
+
+#. fieldworkStations.3.0.access
+#: src/data/fieldwork.js:306
+msgctxt "text:fieldworkStations.3.0.access"
+msgid ""
+"Use whichever door remains visible; if stock blocks it, catalogue the door's "
+"custody first."
+msgstr ""
+"Use whichever door remains visible; if stock blocks it, catalogue the door's "
+"custody first."
+
+#. fieldworkStations.3.0.shift
+#: src/data/fieldwork.js:307
+msgctxt "text:fieldworkStations.3.0.shift"
+msgid "From Rinnosuke's 'open' to Marisa's 'only borrowing'"
+msgstr "From Rinnosuke's 'open' to Marisa's 'only borrowing'"
+
+#. fieldworkStations.3.0.ethics
+#: src/data/fieldwork.js:309
+msgctxt "text:fieldworkStations.3.0.ethics"
+msgid "Tsukumogami, holder, and finder cannot sign for one another."
+msgstr "Tsukumogami, holder, and finder cannot sign for one another."
+
+#. fieldworkStations.3.0.equipment.0
+#: src/data/fieldwork.js:310
+msgctxt "text:fieldworkStations.3.0.equipment.0"
+msgid "Three empty evidence bags"
+msgstr "Three empty evidence bags"
+
+#. fieldworkStations.3.0.equipment.1
+#: src/data/fieldwork.js:310
+msgctxt "text:fieldworkStations.3.0.equipment.1"
+msgid "Non-invasive test case"
+msgstr "Non-invasive test case"
+
+#. fieldworkStations.3.0.equipment.2
+#: src/data/fieldwork.js:310
+msgctxt "text:fieldworkStations.3.0.equipment.2"
+msgid "Name ≠ operation labels"
+msgstr "Name ≠ operation labels"
+
+#. fieldworkStations.3.0.tasks.0
+#: src/data/fieldwork.js:311
+msgctxt "text:fieldworkStations.3.0.tasks.0"
+msgid "Reconstruct one provenance chain"
+msgstr "Reconstruct one provenance chain"
+
+#. fieldworkStations.3.0.tasks.1
+#: src/data/fieldwork.js:311
+msgctxt "text:fieldworkStations.3.0.tasks.1"
+msgid "Run two non-invasive tests"
+msgstr "Run two non-invasive tests"
+
+#. fieldworkStations.3.0.tasks.2
+#: src/data/fieldwork.js:311
+msgctxt "text:fieldworkStations.3.0.tasks.2"
+msgid "Ask the object where it goes"
+msgstr "Ask the object where it goes"
+
+#. fieldworkStations.3.0.wrinkle
+#: src/data/fieldwork.js:313
+msgctxt "text:fieldworkStations.3.0.wrinkle"
+msgid "If Marisa calls evidence borrowed, ask whether the prior holder uses the same verb."
+msgstr "If Marisa calls evidence borrowed, ask whether the prior holder uses the same verb."
+
+#. fieldworkStations.3.0.seal
+#: src/data/fieldwork.js:314
+msgctxt "text:fieldworkStations.3.0.seal"
+msgid "Kourindou Not-Sold Seal"
+msgstr "Kourindou Not-Sold Seal"
+
+#. fieldworkStations.4.0.name
+#: src/data/fieldwork.js:318
+msgctxt "text:fieldworkStations.4.0.name"
+msgid "Misty Lake · Fairy Weather Plots"
+msgstr "Misty Lake · Fairy Weather Plots"
+
+#. fieldworkStations.4.0.host
+#: src/data/fieldwork.js:319
+msgctxt "text:fieldworkStations.4.0.host"
+msgid "Misty Lake Ecology Joint Desk"
+msgstr "Misty Lake Ecology Joint Desk"
+
+#. fieldworkStations.4.0.supervisor
+#: src/data/fieldwork.js:320
+msgctxt "text:fieldworkStations.4.0.supervisor"
+msgid "Daiyousei (rota rewritten weekly)"
+msgstr "Daiyousei (rota rewritten weekly)"
+
+#. fieldworkStations.4.0.companion
+#: src/data/fieldwork.js:321
+msgctxt "text:fieldworkStations.4.0.companion"
+msgid "Cirno (makes controls stop controlling)"
+msgstr "Cirno (makes controls stop controlling)"
+
+#. fieldworkStations.4.0.placement
+#: src/data/fieldwork.js:323
+msgctxt "text:fieldworkStations.4.0.placement"
+msgid "Measure fog, ice, lanterns, and fairy activity, including plot renamings."
+msgstr "Measure fog, ice, lanterns, and fairy activity, including plot renamings."
+
+#. fieldworkStations.4.0.premise
+#: src/data/fieldwork.js:324
+msgctxt "text:fieldworkStations.4.0.premise"
+msgid "Fairies are not background noise; they often co-author the conditions."
+msgstr "Fairies are not background noise; they often co-author the conditions."
+
+#. fieldworkStations.4.0.access
+#: src/data/fieldwork.js:325
+msgctxt "text:fieldworkStations.4.0.access"
+msgid "Use the east-shore rope; recheck ice, as 'it was thick just now' is invalid."
+msgstr "Use the east-shore rope; recheck ice, as 'it was thick just now' is invalid."
+
+#. fieldworkStations.4.0.shift
+#: src/data/fieldwork.js:326
+msgctxt "text:fieldworkStations.4.0.shift"
+msgid "First fog layer to the third plot relocation"
+msgstr "First fog layer to the third plot relocation"
+
+#. fieldworkStations.4.0.ethics
+#: src/data/fieldwork.js:328
+msgctxt "text:fieldworkStations.4.0.ethics"
+msgid ""
+"Joining, leaving, and breaking the scale are participation; do not log only "
+"compliant fairies."
+msgstr ""
+"Joining, leaving, and breaking the scale are participation; do not log only "
+"compliant fairies."
+
+#. fieldworkStations.4.0.equipment.0
+#: src/data/fieldwork.js:329
+msgctxt "text:fieldworkStations.4.0.equipment.0"
+msgid "Floating plot frame"
+msgstr "Floating plot frame"
+
+#. fieldworkStations.4.0.equipment.1
+#: src/data/fieldwork.js:329
+msgctxt "text:fieldworkStations.4.0.equipment.1"
+msgid "Freeze-proof ink"
+msgstr "Freeze-proof ink"
+
+#. fieldworkStations.4.0.equipment.2
+#: src/data/fieldwork.js:329
+msgctxt "text:fieldworkStations.4.0.equipment.2"
+msgid "Wind flag fairies may rename"
+msgstr "Wind flag fairies may rename"
+
+#. fieldworkStations.4.0.tasks.0
+#: src/data/fieldwork.js:330
+msgctxt "text:fieldworkStations.4.0.tasks.0"
+msgid "Measure three fog layers"
+msgstr "Measure three fog layers"
+
+#. fieldworkStations.4.0.tasks.1
+#: src/data/fieldwork.js:330
+msgctxt "text:fieldworkStations.4.0.tasks.1"
+msgid "Track one moving ice sheet"
+msgstr "Track one moving ice sheet"
+
+#. fieldworkStations.4.0.tasks.2
+#: src/data/fieldwork.js:330
+msgctxt "text:fieldworkStations.4.0.tasks.2"
+msgid "Co-define fun"
+msgstr "Co-define fun"
+
+#. fieldworkStations.4.0.wrinkle
+#: src/data/fieldwork.js:332
+msgctxt "text:fieldworkStations.4.0.wrinkle"
+msgid "If Cirno records the highest temperature, check the scale before changing her rank."
+msgstr "If Cirno records the highest temperature, check the scale before changing her rank."
+
+#. fieldworkStations.4.0.seal
+#: src/data/fieldwork.js:333
+msgctxt "text:fieldworkStations.4.0.seal"
+msgid "Misty Lake Moving-Plot Seal"
+msgstr "Misty Lake Moving-Plot Seal"
+
+#. fieldworkStations.5.0.name
+#: src/data/fieldwork.js:337
+msgctxt "text:fieldworkStations.5.0.name"
+msgid "Scarlet Devil Mansion · Night Archives & Time Logistics"
+msgstr "Scarlet Devil Mansion · Night Archives & Time Logistics"
+
+#. fieldworkStations.5.0.host
+#: src/data/fieldwork.js:338
+msgctxt "text:fieldworkStations.5.0.host"
+msgid "Scarlet Library & Household Duty Desk"
+msgstr "Scarlet Library & Household Duty Desk"
+
+#. fieldworkStations.5.0.supervisor
+#: src/data/fieldwork.js:339
+msgctxt "text:fieldworkStations.5.0.supervisor"
+msgid "Sakuya Izayoi"
+msgstr "Sakuya Izayoi"
+
+#. fieldworkStations.5.0.companion
+#: src/data/fieldwork.js:340
+msgctxt "text:fieldworkStations.5.0.companion"
+msgid "Patchouli Knowledge (objects to calling books cargo)"
+msgstr "Patchouli Knowledge (objects to calling books cargo)"
+
+#. fieldworkStations.5.0.placement
+#: src/data/fieldwork.js:342
+msgctxt "text:fieldworkStations.5.0.placement"
+msgid ""
+"Reconstruct stopped-time logistics, collection movement, and night service "
+"without treating efficiency as natural law."
+msgstr ""
+"Reconstruct stopped-time logistics, collection movement, and night service "
+"without treating efficiency as natural law."
+
+#. fieldworkStations.5.0.premise
+#: src/data/fieldwork.js:343
+msgctxt "text:fieldworkStations.5.0.premise"
+msgid "Everything is punctual; therefore timestamps alone may not prove sequence."
+msgstr "Everything is punctual; therefore timestamps alone may not prove sequence."
+
+#. fieldworkStations.5.0.access
+#: src/data/fieldwork.js:344
+msgctxt "text:fieldworkStations.5.0.access"
+msgid ""
+"Only Sakuya's current badge counts; fate's invitation does not replace gate "
+"registration."
+msgstr ""
+"Only Sakuya's current badge counts; fate's invitation does not replace gate "
+"registration."
+
+#. fieldworkStations.5.0.shift
+#: src/data/fieldwork.js:345
+msgctxt "text:fieldworkStations.5.0.shift"
+msgid "Sunset tea until Remilia decides the evening is interesting"
+msgstr "Sunset tea until Remilia decides the evening is interesting"
+
+#. fieldworkStations.5.0.ethics
+#: src/data/fieldwork.js:347
+msgctxt "text:fieldworkStations.5.0.ethics"
+msgid ""
+"Stopped time does not stop withdrawal; moved persons may refuse becoming "
+"logistics data afterward."
+msgstr ""
+"Stopped time does not stop withdrawal; moved persons may refuse becoming "
+"logistics data afterward."
+
+#. fieldworkStations.5.0.equipment.0
+#: src/data/fieldwork.js:348
+msgctxt "text:fieldworkStations.5.0.equipment.0"
+msgid "Relative-order tea tags"
+msgstr "Relative-order tea tags"
+
+#. fieldworkStations.5.0.equipment.1
+#: src/data/fieldwork.js:348
+msgctxt "text:fieldworkStations.5.0.equipment.1"
+msgid "Cutlery-position rubbings"
+msgstr "Cutlery-position rubbings"
+
+#. fieldworkStations.5.0.equipment.2
+#: src/data/fieldwork.js:348
+msgctxt "text:fieldworkStations.5.0.equipment.2"
+msgid "Seven-day book-cart chock"
+msgstr "Seven-day book-cart chock"
+
+#. fieldworkStations.5.0.tasks.0
+#: src/data/fieldwork.js:349
+msgctxt "text:fieldworkStations.5.0.tasks.0"
+msgid "Reconstruct one night-tea delivery"
+msgstr "Reconstruct one night-tea delivery"
+
+#. fieldworkStations.5.0.tasks.1
+#: src/data/fieldwork.js:349
+msgctxt "text:fieldworkStations.5.0.tasks.1"
+msgid "Track one shelf-departing book"
+msgstr "Track one shelf-departing book"
+
+#. fieldworkStations.5.0.tasks.2
+#: src/data/fieldwork.js:349
+msgctxt "text:fieldworkStations.5.0.tasks.2"
+msgid "Submit a relative timeline"
+msgstr "Submit a relative timeline"
+
+#. fieldworkStations.5.0.wrinkle
+#: src/data/fieldwork.js:351
+msgctxt "text:fieldworkStations.5.0.wrinkle"
+msgid ""
+"If Remilia calls the result fate, record it as the mansion's interpretation, "
+"not a measurement method."
+msgstr ""
+"If Remilia calls the result fate, record it as the mansion's interpretation, "
+"not a measurement method."
+
+#. fieldworkStations.5.0.seal
+#: src/data/fieldwork.js:352
+msgctxt "text:fieldworkStations.5.0.seal"
+msgid "Scarlet Same-Minute Night Seal"
+msgstr "Scarlet Same-Minute Night Seal"
+
+#. fieldworkStations.6.0.name
+#: src/data/fieldwork.js:356
+msgctxt "text:fieldworkStations.6.0.name"
+msgid "Forest of Magic · Wild Material Provenance"
+msgstr "Forest of Magic · Wild Material Provenance"
+
+#. fieldworkStations.6.0.host
+#: src/data/fieldwork.js:357
+msgctxt "text:fieldworkStations.6.0.host"
+msgid "Forest of Magic Temporary Collecting Desk"
+msgstr "Forest of Magic Temporary Collecting Desk"
+
+#. fieldworkStations.6.0.supervisor
+#: src/data/fieldwork.js:358
+msgctxt "text:fieldworkStations.6.0.supervisor"
+msgid "Marisa Kirisame"
+msgstr "Marisa Kirisame"
+
+#. fieldworkStations.6.0.companion
+#: src/data/fieldwork.js:359
+msgctxt "text:fieldworkStations.6.0.companion"
+msgid "Alice Margatroid (asks where materials actually came from)"
+msgstr "Alice Margatroid (asks where materials actually came from)"
+
+#. fieldworkStations.6.0.placement
+#: src/data/fieldwork.js:361
+msgctxt "text:fieldworkStations.6.0.placement"
+msgid ""
+"Log mushrooms, magical deposits, and failed collection with provenance "
+"beyond 'found nearby'."
+msgstr ""
+"Log mushrooms, magical deposits, and failed collection with provenance "
+"beyond 'found nearby'."
+
+#. fieldworkStations.6.0.premise
+#: src/data/fieldwork.js:362
+msgctxt "text:fieldworkStations.6.0.premise"
+msgid "Reproducible magic starts with provenance; Marisa's definition requires an annex."
+msgstr "Reproducible magic starts with provenance; Marisa's definition requires an annex."
+
+#. fieldworkStations.6.0.access
+#: src/data/fieldwork.js:363
+msgctxt "text:fieldworkStations.6.0.access"
+msgid ""
+"Pairs only, with three distinct return marks; identical mushrooms do not "
+"prove identical places."
+msgstr ""
+"Pairs only, with three distinct return marks; identical mushrooms do not "
+"prove identical places."
+
+#. fieldworkStations.6.0.shift
+#: src/data/fieldwork.js:364
+msgctxt "text:fieldworkStations.6.0.shift"
+msgid "Spore settling to the first 'borrowed' material"
+msgstr "Spore settling to the first 'borrowed' material"
+
+#. fieldworkStations.6.0.ethics
+#: src/data/fieldwork.js:366
+msgctxt "text:fieldworkStations.6.0.ethics"
+msgid ""
+"Separate living specimens, colonies, and owned material; collectability is "
+"not portability."
+msgstr ""
+"Separate living specimens, colonies, and owned material; collectability is "
+"not portability."
+
+#. fieldworkStations.6.0.equipment.0
+#: src/data/fieldwork.js:367
+msgctxt "text:fieldworkStations.6.0.equipment.0"
+msgid "Spore wind paper"
+msgstr "Spore wind paper"
+
+#. fieldworkStations.6.0.equipment.1
+#: src/data/fieldwork.js:367
+msgctxt "text:fieldworkStations.6.0.equipment.1"
+msgid "Material-provenance twine"
+msgstr "Material-provenance twine"
+
+#. fieldworkStations.6.0.equipment.2
+#: src/data/fieldwork.js:367
+msgctxt "text:fieldworkStations.6.0.equipment.2"
+msgid "Refuses collection tags"
+msgstr "Refuses collection tags"
+
+#. fieldworkStations.6.0.tasks.0
+#: src/data/fieldwork.js:368
+msgctxt "text:fieldworkStations.6.0.tasks.0"
+msgid "Trace one material home"
+msgstr "Trace one material home"
+
+#. fieldworkStations.6.0.tasks.1
+#: src/data/fieldwork.js:368
+msgctxt "text:fieldworkStations.6.0.tasks.1"
+msgid "Record one failed recipe"
+msgstr "Record one failed recipe"
+
+#. fieldworkStations.6.0.tasks.2
+#: src/data/fieldwork.js:368
+msgctxt "text:fieldworkStations.6.0.tasks.2"
+msgid "Audit Marisa's borrowing verb"
+msgstr "Audit Marisa's borrowing verb"
+
+#. fieldworkStations.6.0.wrinkle
+#: src/data/fieldwork.js:370
+msgctxt "text:fieldworkStations.6.0.wrinkle"
+msgid ""
+"If material is already in Marisa's pocket, provenance may start there but "
+"cannot end there."
+msgstr ""
+"If material is already in Marisa's pocket, provenance may start there but "
+"cannot end there."
+
+#. fieldworkStations.6.0.seal
+#: src/data/fieldwork.js:371
+msgctxt "text:fieldworkStations.6.0.seal"
+msgid "Forest Material-Returns Seal"
+msgstr "Forest Material-Returns Seal"
+
+#. fieldworkStations.7.0.name
+#: src/data/fieldwork.js:375
+msgctxt "text:fieldworkStations.7.0.name"
+msgid "Alice's Workshop · Doll Collaboration"
+msgstr "Alice's Workshop · Doll Collaboration"
+
+#. fieldworkStations.7.0.host
+#: src/data/fieldwork.js:376
+msgctxt "text:fieldworkStations.7.0.host"
+msgid "Margatroid Workshop"
+msgstr "Margatroid Workshop"
+
+#. fieldworkStations.7.0.supervisor
+#: src/data/fieldwork.js:377
+msgctxt "text:fieldworkStations.7.0.supervisor"
+msgid "Alice Margatroid"
+msgstr "Alice Margatroid"
+
+#. fieldworkStations.7.0.companion
+#: src/data/fieldwork.js:378
+msgctxt "text:fieldworkStations.7.0.companion"
+msgid "Shanghai / Hourai dolls (rota refuses master/servant field)"
+msgstr "Shanghai / Hourai dolls (rota refuses master/servant field)"
+
+#. fieldworkStations.7.0.placement
+#: src/data/fieldwork.js:380
+msgctxt "text:fieldworkStations.7.0.placement"
+msgid ""
+"Observe puppetry, semi-autonomous collaboration, and repairs while "
+"separating orders, habits, and initiative."
+msgstr ""
+"Observe puppetry, semi-autonomous collaboration, and repairs while "
+"separating orders, habits, and initiative."
+
+#. fieldworkStations.7.0.premise
+#: src/data/fieldwork.js:381
+msgctxt "text:fieldworkStations.7.0.premise"
+msgid "A completed job does not prove who performed each step."
+msgstr "A completed job does not prove who performed each step."
+
+#. fieldworkStations.7.0.access
+#: src/data/fieldwork.js:382
+msgctxt "text:fieldworkStations.7.0.access"
+msgid "After knocking, wait for a doll; opening it yourself changes the autonomy record."
+msgstr "After knocking, wait for a doll; opening it yourself changes the autonomy record."
+
+#. fieldworkStations.7.0.shift
+#: src/data/fieldwork.js:383
+msgctxt "text:fieldworkStations.7.0.shift"
+msgid "First taut thread to the last stitch finishing itself"
+msgstr "First taut thread to the last stitch finishing itself"
+
+#. fieldworkStations.7.0.ethics
+#: src/data/fieldwork.js:385
+msgctxt "text:fieldworkStations.7.0.ethics"
+msgid "Do not pre-classify dolls as equipment or participants; record who can refuse each task."
+msgstr "Do not pre-classify dolls as equipment or participants; record who can refuse each task."
+
+#. fieldworkStations.7.0.equipment.0
+#: src/data/fieldwork.js:386
+msgctxt "text:fieldworkStations.7.0.equipment.0"
+msgid "Low-tension thread gauge"
+msgstr "Low-tension thread gauge"
+
+#. fieldworkStations.7.0.equipment.1
+#: src/data/fieldwork.js:386
+msgctxt "text:fieldworkStations.7.0.equipment.1"
+msgid "Doll consent flags"
+msgstr "Doll consent flags"
+
+#. fieldworkStations.7.0.equipment.2
+#: src/data/fieldwork.js:386
+msgctxt "text:fieldworkStations.7.0.equipment.2"
+msgid "Needle-and-thread provenance tray"
+msgstr "Needle-and-thread provenance tray"
+
+#. fieldworkStations.7.0.tasks.0
+#: src/data/fieldwork.js:387
+msgctxt "text:fieldworkStations.7.0.tasks.0"
+msgid "Mark one command chain"
+msgstr "Mark one command chain"
+
+#. fieldworkStations.7.0.tasks.1
+#: src/data/fieldwork.js:387
+msgctxt "text:fieldworkStations.7.0.tasks.1"
+msgid "Log one initiated repair"
+msgstr "Log one initiated repair"
+
+#. fieldworkStations.7.0.tasks.2
+#: src/data/fieldwork.js:387
+msgctxt "text:fieldworkStations.7.0.tasks.2"
+msgid "Co-sign with a doll"
+msgstr "Co-sign with a doll"
+
+#. fieldworkStations.7.0.wrinkle
+#: src/data/fieldwork.js:389
+msgctxt "text:fieldworkStations.7.0.wrinkle"
+msgid "If a doll finishes the log first, do not erase authorship with the word 'assisted'."
+msgstr "If a doll finishes the log first, do not erase authorship with the word 'assisted'."
+
+#. fieldworkStations.7.0.seal
+#: src/data/fieldwork.js:390
+msgctxt "text:fieldworkStations.7.0.seal"
+msgid "Doll-Finished-Stitch Seal"
+msgstr "Doll-Finished-Stitch Seal"
+
+#. fieldworkStations.8.0.name
+#: src/data/fieldwork.js:394
+msgctxt "text:fieldworkStations.8.0.name"
+msgid "Garden of the Sun · Seasons & Disturbance"
+msgstr "Garden of the Sun · Seasons & Disturbance"
+
+#. fieldworkStations.8.0.host
+#: src/data/fieldwork.js:395
+msgctxt "text:fieldworkStations.8.0.host"
+msgid "Garden Transect Desk"
+msgstr "Garden Transect Desk"
+
+#. fieldworkStations.8.0.supervisor
+#: src/data/fieldwork.js:396
+msgctxt "text:fieldworkStations.8.0.supervisor"
+msgid "Yuuka Kazami"
+msgstr "Yuuka Kazami"
+
+#. fieldworkStations.8.0.companion
+#: src/data/fieldwork.js:397
+msgctxt "text:fieldworkStations.8.0.companion"
+msgid "Medicine Melancholy (reminds that toxicity is not temperament)"
+msgstr "Medicine Melancholy (reminds that toxicity is not temperament)"
+
+#. fieldworkStations.8.0.placement
+#: src/data/fieldwork.js:399
+msgctxt "text:fieldworkStations.8.0.placement"
+msgid "Measure bloom, trampling, pollen, and observer disturbance beyond merely not touching."
+msgstr "Measure bloom, trampling, pollen, and observer disturbance beyond merely not touching."
+
+#. fieldworkStations.8.0.premise
+#: src/data/fieldwork.js:400
+msgctxt "text:fieldworkStations.8.0.premise"
+msgid "Silence is not non-disturbance; shadows, scent, and frightened walking remain."
+msgstr "Silence is not non-disturbance; shadows, scent, and frightened walking remain."
+
+#. fieldworkStations.8.0.access
+#: src/data/fieldwork.js:401
+msgctxt "text:fieldworkStations.8.0.access"
+msgid "Use yesterday's line; if flowers cover it, first acknowledge that the flowers won."
+msgstr "Use yesterday's line; if flowers cover it, first acknowledge that the flowers won."
+
+#. fieldworkStations.8.0.shift
+#: src/data/fieldwork.js:402
+msgctxt "text:fieldworkStations.8.0.shift"
+msgid "Dewfall retreat until Yuuka asks what you still disturb"
+msgstr "Dewfall retreat until Yuuka asks what you still disturb"
+
+#. fieldworkStations.8.0.ethics
+#: src/data/fieldwork.js:404
+msgctxt "text:fieldworkStations.8.0.ethics"
+msgid ""
+"Separate toxicity, danger, and hostility; do not file Medicine's speech as "
+"specimen notes."
+msgstr ""
+"Separate toxicity, danger, and hostility; do not file Medicine's speech as "
+"specimen notes."
+
+#. fieldworkStations.8.0.equipment.0
+#: src/data/fieldwork.js:405
+msgctxt "text:fieldworkStations.8.0.equipment.0"
+msgid "Shadow-width ruler"
+msgstr "Shadow-width ruler"
+
+#. fieldworkStations.8.0.equipment.1
+#: src/data/fieldwork.js:405
+msgctxt "text:fieldworkStations.8.0.equipment.1"
+msgid "Pollen seal paper"
+msgstr "Pollen seal paper"
+
+#. fieldworkStations.8.0.equipment.2
+#: src/data/fieldwork.js:405
+msgctxt "text:fieldworkStations.8.0.equipment.2"
+msgid "No-picking transect flags"
+msgstr "No-picking transect flags"
+
+#. fieldworkStations.8.0.tasks.0
+#: src/data/fieldwork.js:406
+msgctxt "text:fieldworkStations.8.0.tasks.0"
+msgid "Measure observer effect"
+msgstr "Measure observer effect"
+
+#. fieldworkStations.8.0.tasks.1
+#: src/data/fieldwork.js:406
+msgctxt "text:fieldworkStations.8.0.tasks.1"
+msgid "Compare two bloom phases"
+msgstr "Compare two bloom phases"
+
+#. fieldworkStations.8.0.tasks.2
+#: src/data/fieldwork.js:406
+msgctxt "text:fieldworkStations.8.0.tasks.2"
+msgid "Submit a no-collection record"
+msgstr "Submit a no-collection record"
+
+#. fieldworkStations.8.0.wrinkle
+#: src/data/fieldwork.js:408
+msgctxt "text:fieldworkStations.8.0.wrinkle"
+msgid "If a flower refuses a number, leave the gap; do not promote the next flower."
+msgstr "If a flower refuses a number, leave the gap; do not promote the next flower."
+
+#. fieldworkStations.8.0.seal
+#: src/data/fieldwork.js:409
+msgctxt "text:fieldworkStations.8.0.seal"
+msgid "Garden Missing-Number Seal"
+msgstr "Garden Missing-Number Seal"
+
+#. fieldworkStations.9.0.name
+#: src/data/fieldwork.js:413
+msgctxt "text:fieldworkStations.9.0.name"
+msgid "Nameless Hill · Lily Toxicology & Care"
+msgstr "Nameless Hill · Lily Toxicology & Care"
+
+#. fieldworkStations.9.0.host
+#: src/data/fieldwork.js:414
+msgctxt "text:fieldworkStations.9.0.host"
+msgid "Eientei Mobile Pharmacology Desk"
+msgstr "Eientei Mobile Pharmacology Desk"
+
+#. fieldworkStations.9.0.supervisor
+#: src/data/fieldwork.js:415
+msgctxt "text:fieldworkStations.9.0.supervisor"
+msgid "Medicine Melancholy / Eirin remote review"
+msgstr "Medicine Melancholy / Eirin remote review"
+
+#. fieldworkStations.9.0.companion
+#: src/data/fieldwork.js:416
+msgctxt "text:fieldworkStations.9.0.companion"
+msgid "Lily colony (rejects singular address)"
+msgstr "Lily colony (rejects singular address)"
+
+#. fieldworkStations.9.0.placement
+#: src/data/fieldwork.js:418
+msgctxt "text:fieldworkStations.9.0.placement"
+msgid "Record exposure, symptoms, and conditions while separating presence, dose, and harm."
+msgstr "Record exposure, symptoms, and conditions while separating presence, dose, and harm."
+
+#. fieldworkStations.9.0.premise
+#: src/data/fieldwork.js:419
+msgctxt "text:fieldworkStations.9.0.premise"
+msgid "Plants are not medicine bottles, and Medicine is not their instruction leaflet."
+msgstr "Plants are not medicine bottles, and Medicine is not their instruction leaflet."
+
+#. fieldworkStations.9.0.access
+#: src/data/fieldwork.js:420
+msgctxt "text:fieldworkStations.9.0.access"
+msgid "Meet upwind and buddy-check; dizziness means exit before discussing courage."
+msgstr "Meet upwind and buddy-check; dizziness means exit before discussing courage."
+
+#. fieldworkStations.9.0.shift
+#: src/data/fieldwork.js:421
+msgctxt "text:fieldworkStations.9.0.shift"
+msgid "One stable twenty-minute wind"
+msgstr "One stable twenty-minute wind"
+
+#. fieldworkStations.9.0.ethics
+#: src/data/fieldwork.js:423
+msgctxt "text:fieldworkStations.9.0.ethics"
+msgid "Do not derive ordinary safe doses from immortals or toxin-resistant participants."
+msgstr "Do not derive ordinary safe doses from immortals or toxin-resistant participants."
+
+#. fieldworkStations.9.0.equipment.0
+#: src/data/fieldwork.js:424
+msgctxt "text:fieldworkStations.9.0.equipment.0"
+msgid "Wind bells"
+msgstr "Wind bells"
+
+#. fieldworkStations.9.0.equipment.1
+#: src/data/fieldwork.js:424
+msgctxt "text:fieldworkStations.9.0.equipment.1"
+msgid "Exposure slips"
+msgstr "Exposure slips"
+
+#. fieldworkStations.9.0.equipment.2
+#: src/data/fieldwork.js:424
+msgctxt "text:fieldworkStations.9.0.equipment.2"
+msgid "Eientei exit rope"
+msgstr "Eientei exit rope"
+
+#. fieldworkStations.9.0.tasks.0
+#: src/data/fieldwork.js:425
+msgctxt "text:fieldworkStations.9.0.tasks.0"
+msgid "Mark one exposure gradient"
+msgstr "Mark one exposure gradient"
+
+#. fieldworkStations.9.0.tasks.1
+#: src/data/fieldwork.js:425
+msgctxt "text:fieldworkStations.9.0.tasks.1"
+msgid "Rehearse the stop rule"
+msgstr "Rehearse the stop rule"
+
+#. fieldworkStations.9.0.tasks.2
+#: src/data/fieldwork.js:425
+msgctxt "text:fieldworkStations.9.0.tasks.2"
+msgid "Log the colony's statement"
+msgstr "Log the colony's statement"
+
+#. fieldworkStations.9.0.wrinkle
+#: src/data/fieldwork.js:427
+msgctxt "text:fieldworkStations.9.0.wrinkle"
+msgid "If Medicine says 'we are fine,' ask who 'we' includes and for how long."
+msgstr "If Medicine says 'we are fine,' ask who 'we' includes and for how long."
+
+#. fieldworkStations.9.0.seal
+#: src/data/fieldwork.js:428
+msgctxt "text:fieldworkStations.9.0.seal"
+msgid "Nameless Hill Upwind Seal"
+msgstr "Nameless Hill Upwind Seal"
+
+#. fieldworkStations.10.0.name
+#: src/data/fieldwork.js:432
+msgctxt "text:fieldworkStations.10.0.name"
+msgid "Youkai Trail · Night Sparrow Foodways"
+msgstr "Youkai Trail · Night Sparrow Foodways"
+
+#. fieldworkStations.10.0.host
+#: src/data/fieldwork.js:433
+msgctxt "text:fieldworkStations.10.0.host"
+msgid "Night Sparrow Stall & Night-route Desk"
+msgstr "Night Sparrow Stall & Night-route Desk"
+
+#. fieldworkStations.10.0.supervisor
+#: src/data/fieldwork.js:434
+msgctxt "text:fieldworkStations.10.0.supervisor"
+msgid "Mystia Lorelei"
+msgstr "Mystia Lorelei"
+
+#. fieldworkStations.10.0.companion
+#: src/data/fieldwork.js:435
+msgctxt "text:fieldworkStations.10.0.companion"
+msgid "Passing customers (roster settles after the song)"
+msgstr "Passing customers (roster settles after the song)"
+
+#. fieldworkStations.10.0.placement
+#: src/data/fieldwork.js:437
+msgctxt "text:fieldworkStations.10.0.placement"
+msgid ""
+"Log nocturnal soundscapes, food provenance, and route aid while separating "
+"lost, lingering, and song-diverted travel."
+msgstr ""
+"Log nocturnal soundscapes, food provenance, and route aid while separating "
+"lost, lingering, and song-diverted travel."
+
+#. fieldworkStations.10.0.premise
+#: src/data/fieldwork.js:438
+msgctxt "text:fieldworkStations.10.0.premise"
+msgid ""
+"Kitchen, performance, and road share one stall lamp and cannot be treated as "
+"independent."
+msgstr ""
+"Kitchen, performance, and road share one stall lamp and cannot be treated as "
+"independent."
+
+#. fieldworkStations.10.0.access
+#: src/data/fieldwork.js:439
+msgctxt "text:fieldworkStations.10.0.access"
+msgid "Bring a direction bell; grilled food smell does not prove arrival."
+msgstr "Bring a direction bell; grilled food smell does not prove arrival."
+
+#. fieldworkStations.10.0.shift
+#: src/data/fieldwork.js:440
+msgctxt "text:fieldworkStations.10.0.shift"
+msgid "First twilight song to the last unidentified guest bowl"
+msgstr "First twilight song to the last unidentified guest bowl"
+
+#. fieldworkStations.10.0.ethics
+#: src/data/fieldwork.js:442
+msgctxt "text:fieldworkStations.10.0.ethics"
+msgid "Do not infer original intent from routes chosen after song exposure."
+msgstr "Do not infer original intent from routes chosen after song exposure."
+
+#. fieldworkStations.10.0.equipment.0
+#: src/data/fieldwork.js:443
+msgctxt "text:fieldworkStations.10.0.equipment.0"
+msgid "Binaural soundscape paper"
+msgstr "Binaural soundscape paper"
+
+#. fieldworkStations.10.0.equipment.1
+#: src/data/fieldwork.js:443
+msgctxt "text:fieldworkStations.10.0.equipment.1"
+msgid "Ingredient provenance skewers"
+msgstr "Ingredient provenance skewers"
+
+#. fieldworkStations.10.0.equipment.2
+#: src/data/fieldwork.js:443
+msgctxt "text:fieldworkStations.10.0.equipment.2"
+msgid "Pre-song route cards"
+msgstr "Pre-song route cards"
+
+#. fieldworkStations.10.0.tasks.0
+#: src/data/fieldwork.js:444
+msgctxt "text:fieldworkStations.10.0.tasks.0"
+msgid "Map one soundscape"
+msgstr "Map one soundscape"
+
+#. fieldworkStations.10.0.tasks.1
+#: src/data/fieldwork.js:444
+msgctxt "text:fieldworkStations.10.0.tasks.1"
+msgid "Trace one ingredient skewer"
+msgstr "Trace one ingredient skewer"
+
+#. fieldworkStations.10.0.tasks.2
+#: src/data/fieldwork.js:444
+msgctxt "text:fieldworkStations.10.0.tasks.2"
+msgid "Log one mutual wayfinding act"
+msgstr "Log one mutual wayfinding act"
+
+#. fieldworkStations.10.0.wrinkle
+#: src/data/fieldwork.js:446
+msgctxt "text:fieldworkStations.10.0.wrinkle"
+msgid ""
+"If a guest says the song drew them in, record that separately from what they "
+"ordered next."
+msgstr ""
+"If a guest says the song drew them in, record that separately from what they "
+"ordered next."
+
+#. fieldworkStations.10.0.seal
+#: src/data/fieldwork.js:447
+msgctxt "text:fieldworkStations.10.0.seal"
+msgid "Night Sparrow Pre-song Route Seal"
+msgstr "Night Sparrow Pre-song Route Seal"
+
+#. fieldworkStations.11.0.name
+#: src/data/fieldwork.js:451
+msgctxt "text:fieldworkStations.11.0.name"
+msgid "Youkai Mountain · Tengu News & Airspace"
+msgstr "Youkai Mountain · Tengu News & Airspace"
+
+#. fieldworkStations.11.0.host
+#: src/data/fieldwork.js:452
+msgctxt "text:fieldworkStations.11.0.host"
+msgid "Bunbunmaru Field Desk"
+msgstr "Bunbunmaru Field Desk"
+
+#. fieldworkStations.11.0.supervisor
+#: src/data/fieldwork.js:453
+msgctxt "text:fieldworkStations.11.0.supervisor"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. fieldworkStations.11.0.companion
+#: src/data/fieldwork.js:454
+msgctxt "text:fieldworkStations.11.0.companion"
+msgid "Momiji Inubashiri (her duty log usually trails the headline)"
+msgstr "Momiji Inubashiri (her duty log usually trails the headline)"
+
+#. fieldworkStations.11.0.placement
+#: src/data/fieldwork.js:456
+msgctxt "text:fieldworkStations.11.0.placement"
+msgid ""
+"Track extras, patrols, and airspace notices, marking when forecast, "
+"observation, rumour, and correction exchange places."
+msgstr ""
+"Track extras, patrols, and airspace notices, marking when forecast, "
+"observation, rumour, and correction exchange places."
+
+#. fieldworkStations.11.0.premise
+#: src/data/fieldwork.js:457
+msgctxt "text:fieldworkStations.11.0.premise"
+msgid "Speed is a research subject, not an exemption from verification."
+msgstr "Speed is a research subject, not an exemption from verification."
+
+#. fieldworkStations.11.0.access
+#: src/data/fieldwork.js:458
+msgctxt "text:fieldworkStations.11.0.access"
+msgid "Carry a temporary feather pass; keeping up with Aya is not clearance."
+msgstr "Carry a temporary feather pass; keeping up with Aya is not clearance."
+
+#. fieldworkStations.11.0.shift
+#: src/data/fieldwork.js:459
+msgctxt "text:fieldworkStations.11.0.shift"
+msgid "First advance extra to first advance correction"
+msgstr "First advance extra to first advance correction"
+
+#. fieldworkStations.11.0.ethics
+#: src/data/fieldwork.js:461
+msgctxt "text:fieldworkStations.11.0.ethics"
+msgid ""
+"Roof angle, wing shape, and flight path may identify anonymous sources; "
+"review before publication."
+msgstr ""
+"Roof angle, wing shape, and flight path may identify anonymous sources; "
+"review before publication."
+
+#. fieldworkStations.11.0.equipment.0
+#: src/data/fieldwork.js:462
+msgctxt "text:fieldworkStations.11.0.equipment.0"
+msgid "Forecast/occurred split sheets"
+msgstr "Forecast/occurred split sheets"
+
+#. fieldworkStations.11.0.equipment.1
+#: src/data/fieldwork.js:462
+msgctxt "text:fieldworkStations.11.0.equipment.1"
+msgid "Feather-pass wind clip"
+msgstr "Feather-pass wind clip"
+
+#. fieldworkStations.11.0.equipment.2
+#: src/data/fieldwork.js:462
+msgctxt "text:fieldworkStations.11.0.equipment.2"
+msgid "Clock nine minutes late"
+msgstr "Clock nine minutes late"
+
+#. fieldworkStations.11.0.tasks.0
+#: src/data/fieldwork.js:463
+msgctxt "text:fieldworkStations.11.0.tasks.0"
+msgid "Compare one extra to one duty log"
+msgstr "Compare one extra to one duty log"
+
+#. fieldworkStations.11.0.tasks.1
+#: src/data/fieldwork.js:463
+msgctxt "text:fieldworkStations.11.0.tasks.1"
+msgid "Flag one anonymity leak"
+msgstr "Flag one anonymity leak"
+
+#. fieldworkStations.11.0.tasks.2
+#: src/data/fieldwork.js:463
+msgctxt "text:fieldworkStations.11.0.tasks.2"
+msgid "Write a correctable headline"
+msgstr "Write a correctable headline"
+
+#. fieldworkStations.11.0.wrinkle
+#: src/data/fieldwork.js:465
+msgctxt "text:fieldworkStations.11.0.wrinkle"
+msgid "Aya praises the fastest log; Momiji asks whether its event had happened yet."
+msgstr "Aya praises the fastest log; Momiji asks whether its event had happened yet."
+
+#. fieldworkStations.11.0.seal
+#: src/data/fieldwork.js:466
+msgctxt "text:fieldworkStations.11.0.seal"
+msgid "Tengu Nine-Minute Extra Seal"
+msgstr "Tengu Nine-Minute Extra Seal"
+
+#. fieldworkStations.12.0.name
+#: src/data/fieldwork.js:470
+msgctxt "text:fieldworkStations.12.0.name"
+msgid "Genbu Ravine · Kappa Waterworks"
+msgstr "Genbu Ravine · Kappa Waterworks"
+
+#. fieldworkStations.12.0.host
+#: src/data/fieldwork.js:471
+msgctxt "text:fieldworkStations.12.0.host"
+msgid "Kappa Engineering Joint Maintenance"
+msgstr "Kappa Engineering Joint Maintenance"
+
+#. fieldworkStations.12.0.supervisor
+#: src/data/fieldwork.js:472
+msgctxt "text:fieldworkStations.12.0.supervisor"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. fieldworkStations.12.0.companion
+#: src/data/fieldwork.js:473
+msgctxt "text:fieldworkStations.12.0.companion"
+msgid "Hina Kagiyama (misfortune flow is not ordinary drainage)"
+msgstr "Hina Kagiyama (misfortune flow is not ordinary drainage)"
+
+#. fieldworkStations.12.0.placement
+#: src/data/fieldwork.js:475
+msgctxt "text:fieldworkStations.12.0.placement"
+msgid ""
+"Measure low-head turbines, tape repairs, and misfortune bypasses with "
+"before/after versions."
+msgstr ""
+"Measure low-head turbines, tape repairs, and misfortune bypasses with "
+"before/after versions."
+
+#. fieldworkStations.12.0.premise
+#: src/data/fieldwork.js:476
+msgctxt "text:fieldworkStations.12.0.premise"
+msgid ""
+"Running does not mean diagram-compliant, and a correct diagram may not be "
+"the one the machine reads today."
+msgstr ""
+"Running does not mean diagram-compliant, and a correct diagram may not be "
+"the one the machine reads today."
+
+#. fieldworkStations.12.0.access
+#: src/data/fieldwork.js:477
+msgctxt "text:fieldworkStations.12.0.access"
+msgid "Wear a borrowed kappa helmet; warranty label out, tape repairs upstream."
+msgstr "Wear a borrowed kappa helmet; warranty label out, tape repairs upstream."
+
+#. fieldworkStations.12.0.shift
+#: src/data/fieldwork.js:478
+msgctxt "text:fieldworkStations.12.0.shift"
+msgid "Upstream opening to the third 'temporary' repair"
+msgstr "Upstream opening to the third 'temporary' repair"
+
+#. fieldworkStations.12.0.ethics
+#: src/data/fieldwork.js:480
+msgctxt "text:fieldworkStations.12.0.ethics"
+msgid ""
+"Separate downstream residents, machinery, and misfortune; mean flow must not "
+"erase local backwash."
+msgstr ""
+"Separate downstream residents, machinery, and misfortune; mean flow must not "
+"erase local backwash."
+
+#. fieldworkStations.12.0.equipment.0
+#: src/data/fieldwork.js:481
+msgctxt "text:fieldworkStations.12.0.equipment.0"
+msgid "Waterproof version tags"
+msgstr "Waterproof version tags"
+
+#. fieldworkStations.12.0.equipment.1
+#: src/data/fieldwork.js:481
+msgctxt "text:fieldworkStations.12.0.equipment.1"
+msgid "Low-head current cups"
+msgstr "Low-head current cups"
+
+#. fieldworkStations.12.0.equipment.2
+#: src/data/fieldwork.js:481
+msgctxt "text:fieldworkStations.12.0.equipment.2"
+msgid "Kappa-tape batch cards"
+msgstr "Kappa-tape batch cards"
+
+#. fieldworkStations.12.0.tasks.0
+#: src/data/fieldwork.js:482
+msgctxt "text:fieldworkStations.12.0.tasks.0"
+msgid "Draw one patch diagram"
+msgstr "Draw one patch diagram"
+
+#. fieldworkStations.12.0.tasks.1
+#: src/data/fieldwork.js:482
+msgctxt "text:fieldworkStations.12.0.tasks.1"
+msgid "Measure three downstream points"
+msgstr "Measure three downstream points"
+
+#. fieldworkStations.12.0.tasks.2
+#: src/data/fieldwork.js:482
+msgctxt "text:fieldworkStations.12.0.tasks.2"
+msgid "Find the warranty/reality gap"
+msgstr "Find the warranty/reality gap"
+
+#. fieldworkStations.12.0.wrinkle
+#: src/data/fieldwork.js:484
+msgctxt "text:fieldworkStations.12.0.wrinkle"
+msgid "When Nitori says removable, ask how many wrenches and minutes."
+msgstr "When Nitori says removable, ask how many wrenches and minutes."
+
+#. fieldworkStations.12.0.seal
+#: src/data/fieldwork.js:485
+msgctxt "text:fieldworkStations.12.0.seal"
+msgid "Genbu Temporary Version Three Seal"
+msgstr "Genbu Temporary Version Three Seal"
+
+#. fieldworkStations.13.0.name
+#: src/data/fieldwork.js:489
+msgctxt "text:fieldworkStations.13.0.name"
+msgid "Moriya Shrine · Faith Infrastructure"
+msgstr "Moriya Shrine · Faith Infrastructure"
+
+#. fieldworkStations.13.0.host
+#: src/data/fieldwork.js:490
+msgctxt "text:fieldworkStations.13.0.host"
+msgid "Moriya Technology & Faith Desk"
+msgstr "Moriya Technology & Faith Desk"
+
+#. fieldworkStations.13.0.supervisor
+#: src/data/fieldwork.js:491
+msgctxt "text:fieldworkStations.13.0.supervisor"
+msgid "Sanae Kochiya / Kanako Yasaka"
+msgstr "Sanae Kochiya / Kanako Yasaka"
+
+#. fieldworkStations.13.0.companion
+#: src/data/fieldwork.js:492
+msgctxt "text:fieldworkStations.13.0.companion"
+msgid "Suwako Moriya (asks whose land lies under the pipe)"
+msgstr "Suwako Moriya (asks whose land lies under the pipe)"
+
+#. fieldworkStations.13.0.placement
+#: src/data/fieldwork.js:494
+msgctxt "text:fieldworkStations.13.0.placement"
+msgid ""
+"Trace wind, water, power, and faith into public infrastructure while "
+"separating ownership from effect."
+msgstr ""
+"Trace wind, water, power, and faith into public infrastructure while "
+"separating ownership from effect."
+
+#. fieldworkStations.13.0.premise
+#: src/data/fieldwork.js:495
+msgctxt "text:fieldworkStations.13.0.premise"
+msgid "Numbers are not faith; they are Kanako's annex for noticing neglect."
+msgstr "Numbers are not faith; they are Kanako's annex for noticing neglect."
+
+#. fieldworkStations.13.0.access
+#: src/data/fieldwork.js:496
+msgctxt "text:fieldworkStations.13.0.access"
+msgid "Collect three seals below; the summit recognises one. Keep the other two."
+msgstr "Collect three seals below; the summit recognises one. Keep the other two."
+
+#. fieldworkStations.13.0.shift
+#: src/data/fieldwork.js:497
+msgctxt "text:fieldworkStations.13.0.shift"
+msgid "After morning rite to first infrastructure negotiation"
+msgstr "After morning rite to first infrastructure negotiation"
+
+#. fieldworkStations.13.0.ethics
+#: src/data/fieldwork.js:499
+msgctxt "text:fieldworkStations.13.0.ethics"
+msgid "Service use is not automatic religious consent; separate offering from fee."
+msgstr "Service use is not automatic religious consent; separate offering from fee."
+
+#. fieldworkStations.13.0.equipment.0
+#: src/data/fieldwork.js:500
+msgctxt "text:fieldworkStations.13.0.equipment.0"
+msgid "Three-faith parallel seal sheet"
+msgstr "Three-faith parallel seal sheet"
+
+#. fieldworkStations.13.0.equipment.1
+#: src/data/fieldwork.js:500
+msgctxt "text:fieldworkStations.13.0.equipment.1"
+msgid "Wind-water-power shared meter"
+msgstr "Wind-water-power shared meter"
+
+#. fieldworkStations.13.0.equipment.2
+#: src/data/fieldwork.js:500
+msgctxt "text:fieldworkStations.13.0.equipment.2"
+msgid "Old land-under-pipe map"
+msgstr "Old land-under-pipe map"
+
+#. fieldworkStations.13.0.tasks.0
+#: src/data/fieldwork.js:501
+msgctxt "text:fieldworkStations.13.0.tasks.0"
+msgid "Trace one public line"
+msgstr "Trace one public line"
+
+#. fieldworkStations.13.0.tasks.1
+#: src/data/fieldwork.js:501
+msgctxt "text:fieldworkStations.13.0.tasks.1"
+msgid "Separate offering and charge"
+msgstr "Separate offering and charge"
+
+#. fieldworkStations.13.0.tasks.2
+#: src/data/fieldwork.js:501
+msgctxt "text:fieldworkStations.13.0.tasks.2"
+msgid "Record three-way objections"
+msgstr "Record three-way objections"
+
+#. fieldworkStations.13.0.wrinkle
+#: src/data/fieldwork.js:503
+msgctxt "text:fieldworkStations.13.0.wrinkle"
+msgid "Stable operation does not prove agreement over ownership."
+msgstr "Stable operation does not prove agreement over ownership."
+
+#. fieldworkStations.13.0.seal
+#: src/data/fieldwork.js:504
+msgctxt "text:fieldworkStations.13.0.seal"
+msgid "Moriya Three-Seals One-Pipe Seal"
+msgstr "Moriya Three-Seals One-Pipe Seal"
+
+#. fieldworkStations.14.0.name
+#: src/data/fieldwork.js:508
+msgctxt "text:fieldworkStations.14.0.name"
+msgid "Giant Toad Pond · Mountain Hydrology & Respect"
+msgstr "Giant Toad Pond · Mountain Hydrology & Respect"
+
+#. fieldworkStations.14.0.host
+#: src/data/fieldwork.js:509
+msgctxt "text:fieldworkStations.14.0.host"
+msgid "Moriya Waters Observation Desk"
+msgstr "Moriya Waters Observation Desk"
+
+#. fieldworkStations.14.0.supervisor
+#: src/data/fieldwork.js:510
+msgctxt "text:fieldworkStations.14.0.supervisor"
+msgid "Suwako Moriya"
+msgstr "Suwako Moriya"
+
+#. fieldworkStations.14.0.companion
+#: src/data/fieldwork.js:511
+msgctxt "text:fieldworkStations.14.0.companion"
+msgid "Giant Toad (rejects being called station equipment)"
+msgstr "Giant Toad (rejects being called station equipment)"
+
+#. fieldworkStations.14.0.placement
+#: src/data/fieldwork.js:513
+msgctxt "text:fieldworkStations.14.0.placement"
+msgid ""
+"Observe pond, rain, and worship routes while separating sacredness, danger, "
+"and convenience."
+msgstr ""
+"Observe pond, rain, and worship routes while separating sacredness, danger, "
+"and convenience."
+
+#. fieldworkStations.14.0.premise
+#: src/data/fieldwork.js:514
+msgctxt "text:fieldworkStations.14.0.premise"
+msgid "Measurement does not cancel respect, and respect does not replace a water reading."
+msgstr "Measurement does not cancel respect, and respect does not replace a water reading."
+
+#. fieldworkStations.14.0.access
+#: src/data/fieldwork.js:515
+msgctxt "text:fieldworkStations.14.0.access"
+msgid "Set three steps from shore; if the toad moves, follow waterline, not the toad."
+msgstr "Set three steps from shore; if the toad moves, follow waterline, not the toad."
+
+#. fieldworkStations.14.0.shift
+#: src/data/fieldwork.js:516
+msgctxt "text:fieldworkStations.14.0.shift"
+msgid "Mountain fog clearing to first unforecast rain"
+msgstr "Mountain fog clearing to first unforecast rain"
+
+#. fieldworkStations.14.0.ethics
+#: src/data/fieldwork.js:518
+msgctxt "text:fieldworkStations.14.0.ethics"
+msgid "Ritual does not waive disturbance records; science does not waive sacred boundaries."
+msgstr "Ritual does not waive disturbance records; science does not waive sacred boundaries."
+
+#. fieldworkStations.14.0.equipment.0
+#: src/data/fieldwork.js:519
+msgctxt "text:fieldworkStations.14.0.equipment.0"
+msgid "Three-step waterline rope"
+msgstr "Three-step waterline rope"
+
+#. fieldworkStations.14.0.equipment.1
+#: src/data/fieldwork.js:519
+msgctxt "text:fieldworkStations.14.0.equipment.1"
+msgid "Unforecast-rain paper"
+msgstr "Unforecast-rain paper"
+
+#. fieldworkStations.14.0.equipment.2
+#: src/data/fieldwork.js:519
+msgctxt "text:fieldworkStations.14.0.equipment.2"
+msgid "Not-equipment badge"
+msgstr "Not-equipment badge"
+
+#. fieldworkStations.14.0.tasks.0
+#: src/data/fieldwork.js:520
+msgctxt "text:fieldworkStations.14.0.tasks.0"
+msgid "Take three water readings"
+msgstr "Take three water readings"
+
+#. fieldworkStations.14.0.tasks.1
+#: src/data/fieldwork.js:520
+msgctxt "text:fieldworkStations.14.0.tasks.1"
+msgid "Log one worship detour"
+msgstr "Log one worship detour"
+
+#. fieldworkStations.14.0.tasks.2
+#: src/data/fieldwork.js:520
+msgctxt "text:fieldworkStations.14.0.tasks.2"
+msgid "Explain purpose to the toad"
+msgstr "Explain purpose to the toad"
+
+#. fieldworkStations.14.0.wrinkle
+#: src/data/fieldwork.js:522
+msgctxt "text:fieldworkStations.14.0.wrinkle"
+msgid "If Suwako says the pond predates the university, its first gauge record need not."
+msgstr "If Suwako says the pond predates the university, its first gauge record need not."
+
+#. fieldworkStations.14.0.seal
+#: src/data/fieldwork.js:523
+msgctxt "text:fieldworkStations.14.0.seal"
+msgid "Giant Toad Not-Equipment Seal"
+msgstr "Giant Toad Not-Equipment Seal"
+
+#. fieldworkStations.15.0.name
+#: src/data/fieldwork.js:527
+msgctxt "text:fieldworkStations.15.0.name"
+msgid "Myouren Temple · Shared-life Mediation"
+msgstr "Myouren Temple · Shared-life Mediation"
+
+#. fieldworkStations.15.0.host
+#: src/data/fieldwork.js:528
+msgctxt "text:fieldworkStations.15.0.host"
+msgid "Myouren Shared-life Desk"
+msgstr "Myouren Shared-life Desk"
+
+#. fieldworkStations.15.0.supervisor
+#: src/data/fieldwork.js:529
+msgctxt "text:fieldworkStations.15.0.supervisor"
+msgid "Byakuren Hijiri"
+msgstr "Byakuren Hijiri"
+
+#. fieldworkStations.15.0.companion
+#: src/data/fieldwork.js:530
+msgctxt "text:fieldworkStations.15.0.companion"
+msgid "Ichirin Kumoi / Unzan (speaker count must be decided first)"
+msgstr "Ichirin Kumoi / Unzan (speaker count must be decided first)"
+
+#. fieldworkStations.15.0.placement
+#: src/data/fieldwork.js:532
+msgctxt "text:fieldworkStations.15.0.placement"
+msgid ""
+"Mediate shared space, service, and refusal among humans, youkai, and temple, "
+"recording both agreement and non-agreement."
+msgstr ""
+"Mediate shared space, service, and refusal among humans, youkai, and temple, "
+"recording both agreement and non-agreement."
+
+#. fieldworkStations.15.0.premise
+#: src/data/fieldwork.js:533
+msgctxt "text:fieldworkStations.15.0.premise"
+msgid ""
+"Welcome does not surrender a temple to convenience; compassion must still "
+"identify responsibility."
+msgstr ""
+"Welcome does not surrender a temple to convenience; compassion must still "
+"identify responsibility."
+
+#. fieldworkStations.15.0.access
+#: src/data/fieldwork.js:534
+msgctxt "text:fieldworkStations.15.0.access"
+msgid "Enter after morning practice; public events and internal practice use separate lines."
+msgstr "Enter after morning practice; public events and internal practice use separate lines."
+
+#. fieldworkStations.15.0.shift
+#: src/data/fieldwork.js:535
+msgctxt "text:fieldworkStations.15.0.shift"
+msgid "After morning practice to the first still-disagreed conclusion"
+msgstr "After morning practice to the first still-disagreed conclusion"
+
+#. fieldworkStations.15.0.ethics
+#: src/data/fieldwork.js:537
+msgctxt "text:fieldworkStations.15.0.ethics"
+msgid "Service is not consent to religious study; refusal must not affect meals or shelter."
+msgstr "Service is not consent to religious study; refusal must not affect meals or shelter."
+
+#. fieldworkStations.15.0.equipment.0
+#: src/data/fieldwork.js:538
+msgctxt "text:fieldworkStations.15.0.equipment.0"
+msgid "Separate-side version sheets"
+msgstr "Separate-side version sheets"
+
+#. fieldworkStations.15.0.equipment.1
+#: src/data/fieldwork.js:538
+msgctxt "text:fieldworkStations.15.0.equipment.1"
+msgid "Unresolved-agreement clip"
+msgstr "Unresolved-agreement clip"
+
+#. fieldworkStations.15.0.equipment.2
+#: src/data/fieldwork.js:538
+msgctxt "text:fieldworkStations.15.0.equipment.2"
+msgid "Unzan oversize margin"
+msgstr "Unzan oversize margin"
+
+#. fieldworkStations.15.0.tasks.0
+#: src/data/fieldwork.js:539
+msgctxt "text:fieldworkStations.15.0.tasks.0"
+msgid "Observe one mediation"
+msgstr "Observe one mediation"
+
+#. fieldworkStations.15.0.tasks.1
+#: src/data/fieldwork.js:539
+msgctxt "text:fieldworkStations.15.0.tasks.1"
+msgid "Write both disagreements"
+msgstr "Write both disagreements"
+
+#. fieldworkStations.15.0.tasks.2
+#: src/data/fieldwork.js:539
+msgctxt "text:fieldworkStations.15.0.tasks.2"
+msgid "Verify service access remains"
+msgstr "Verify service access remains"
+
+#. fieldworkStations.15.0.wrinkle
+#: src/data/fieldwork.js:541
+msgctxt "text:fieldworkStations.15.0.wrinkle"
+msgid "If Byakuren yields, do not rewrite the record as though the request never existed."
+msgstr "If Byakuren yields, do not rewrite the record as though the request never existed."
+
+#. fieldworkStations.15.0.seal
+#: src/data/fieldwork.js:542
+msgctxt "text:fieldworkStations.15.0.seal"
+msgid "Myouren Still-Disagreed Seal"
+msgstr "Myouren Still-Disagreed Seal"
+
+#. fieldworkStations.16.0.name
+#: src/data/fieldwork.js:546
+msgctxt "text:fieldworkStations.16.0.name"
+msgid "Hall of Dreams' Great Mausoleum · Ten-desire Listening"
+msgstr "Hall of Dreams' Great Mausoleum · Ten-desire Listening"
+
+#. fieldworkStations.16.0.host
+#: src/data/fieldwork.js:547
+msgctxt "text:fieldworkStations.16.0.host"
+msgid "Senkai Public Address Desk"
+msgstr "Senkai Public Address Desk"
+
+#. fieldworkStations.16.0.supervisor
+#: src/data/fieldwork.js:548
+msgctxt "text:fieldworkStations.16.0.supervisor"
+msgid "Toyosatomimi no Miko"
+msgstr "Toyosatomimi no Miko"
+
+#. fieldworkStations.16.0.companion
+#: src/data/fieldwork.js:549
+msgctxt "text:fieldworkStations.16.0.companion"
+msgid "Mononobe no Futo (the form may be tested by fire once)"
+msgstr "Mononobe no Futo (the form may be tested by fire once)"
+
+#. fieldworkStations.16.0.placement
+#: src/data/fieldwork.js:551
+msgctxt "text:fieldworkStations.16.0.placement"
+msgid ""
+"Observe simultaneous listening, desire classification, and public speech, "
+"checking desire against interpretation."
+msgstr ""
+"Observe simultaneous listening, desire classification, and public speech, "
+"checking desire against interpretation."
+
+#. fieldworkStations.16.0.premise
+#: src/data/fieldwork.js:552
+msgctxt "text:fieldworkStations.16.0.premise"
+msgid "Hearing a desire accurately does not guarantee understanding its holder."
+msgstr "Hearing a desire accurately does not guarantee understanding its holder."
+
+#. fieldworkStations.16.0.access
+#: src/data/fieldwork.js:553
+msgctxt "text:fieldworkStations.16.0.access"
+msgid "Use today's Senkai line; yesterday's entrance is a source, not a route."
+msgstr "Use today's Senkai line; yesterday's entrance is a source, not a route."
+
+#. fieldworkStations.16.0.shift
+#: src/data/fieldwork.js:554
+msgctxt "text:fieldworkStations.16.0.shift"
+msgid "First ten-person hearing until Futo finds a brazier"
+msgstr "First ten-person hearing until Futo finds a brazier"
+
+#. fieldworkStations.16.0.ethics
+#: src/data/fieldwork.js:556
+msgctxt "text:fieldworkStations.16.0.ethics"
+msgid "Store desire separately from identity; being heard is not consent to publication."
+msgstr "Store desire separately from identity; being heard is not consent to publication."
+
+#. fieldworkStations.16.0.equipment.0
+#: src/data/fieldwork.js:557
+msgctxt "text:fieldworkStations.16.0.equipment.0"
+msgid "Ten-column synchronous sheet"
+msgstr "Ten-column synchronous sheet"
+
+#. fieldworkStations.16.0.equipment.1
+#: src/data/fieldwork.js:557
+msgctxt "text:fieldworkStations.16.0.equipment.1"
+msgid "Fireproof annex pouch"
+msgstr "Fireproof annex pouch"
+
+#. fieldworkStations.16.0.equipment.2
+#: src/data/fieldwork.js:557
+msgctxt "text:fieldworkStations.16.0.equipment.2"
+msgid "Understanding/hearing divider"
+msgstr "Understanding/hearing divider"
+
+#. fieldworkStations.16.0.tasks.0
+#: src/data/fieldwork.js:558
+msgctxt "text:fieldworkStations.16.0.tasks.0"
+msgid "Log ten desires without identities"
+msgstr "Log ten desires without identities"
+
+#. fieldworkStations.16.0.tasks.1
+#: src/data/fieldwork.js:558
+msgctxt "text:fieldworkStations.16.0.tasks.1"
+msgid "Compare one interpretation gap"
+msgstr "Compare one interpretation gap"
+
+#. fieldworkStations.16.0.tasks.2
+#: src/data/fieldwork.js:558
+msgctxt "text:fieldworkStations.16.0.tasks.2"
+msgid "Preserve an unburned annex"
+msgstr "Preserve an unburned annex"
+
+#. fieldworkStations.16.0.wrinkle
+#: src/data/fieldwork.js:560
+msgctxt "text:fieldworkStations.16.0.wrinkle"
+msgid "Even if Miko has heard your motive, passport entry waits for your choice."
+msgstr "Even if Miko has heard your motive, passport entry waits for your choice."
+
+#. fieldworkStations.16.0.seal
+#: src/data/fieldwork.js:561
+msgctxt "text:fieldworkStations.16.0.seal"
+msgid "Mausoleum Heard-Is-Not-Published Seal"
+msgstr "Mausoleum Heard-Is-Not-Published Seal"
+
+#. fieldworkStations.17.0.name
+#: src/data/fieldwork.js:565
+msgctxt "text:fieldworkStations.17.0.name"
+msgid "Eientei · Cross-species Clinical Placement"
+msgstr "Eientei · Cross-species Clinical Placement"
+
+#. fieldworkStations.17.0.host
+#: src/data/fieldwork.js:566
+msgctxt "text:fieldworkStations.17.0.host"
+msgid "Eientei University Hospital"
+msgstr "Eientei University Hospital"
+
+#. fieldworkStations.17.0.supervisor
+#: src/data/fieldwork.js:567
+msgctxt "text:fieldworkStations.17.0.supervisor"
+msgid "Eirin Yagokoro"
+msgstr "Eirin Yagokoro"
+
+#. fieldworkStations.17.0.companion
+#: src/data/fieldwork.js:568
+msgctxt "text:fieldworkStations.17.0.companion"
+msgid "Reisen Udongein Inaba (wavelength use requires separate consent)"
+msgstr "Reisen Udongein Inaba (wavelength use requires separate consent)"
+
+#. fieldworkStations.17.0.placement
+#: src/data/fieldwork.js:570
+msgctxt "text:fieldworkStations.17.0.placement"
+msgid ""
+"Rotate through clinic, pharmacy, and recovery while separating species, "
+"dose, stop rules, and actual patients."
+msgstr ""
+"Rotate through clinic, pharmacy, and recovery while separating species, "
+"dose, stop rules, and actual patients."
+
+#. fieldworkStations.17.0.premise
+#: src/data/fieldwork.js:571
+msgctxt "text:fieldworkStations.17.0.premise"
+msgid "Treatability is not research permission, and sample size does not repair a wrong dose."
+msgstr "Treatability is not research permission, and sample size does not repair a wrong dose."
+
+#. fieldworkStations.17.0.access
+#: src/data/fieldwork.js:572
+msgctxt "text:fieldworkStations.17.0.access"
+msgid "Enter by the east guide stake; Tewi's shortcut applies only with her and may still fail."
+msgstr "Enter by the east guide stake; Tewi's shortcut applies only with her and may still fail."
+
+#. fieldworkStations.17.0.shift
+#: src/data/fieldwork.js:573
+msgctxt "text:fieldworkStations.17.0.shift"
+msgid "Morning handover to the rabbits' second renumbering"
+msgstr "Morning handover to the rabbits' second renumbering"
+
+#. fieldworkStations.17.0.ethics
+#: src/data/fieldwork.js:575
+msgctxt "text:fieldworkStations.17.0.ethics"
+msgid ""
+"Treatment, teaching observation, research data, and wavelength intervention "
+"use four separate forms."
+msgstr ""
+"Treatment, teaching observation, research data, and wavelength intervention "
+"use four separate forms."
+
+#. fieldworkStations.17.0.equipment.0
+#: src/data/fieldwork.js:576
+msgctxt "text:fieldworkStations.17.0.equipment.0"
+msgid "Four-layer consent clip"
+msgstr "Four-layer consent clip"
+
+#. fieldworkStations.17.0.equipment.1
+#: src/data/fieldwork.js:576
+msgctxt "text:fieldworkStations.17.0.equipment.1"
+msgid "Cross-species dose ruler"
+msgstr "Cross-species dose ruler"
+
+#. fieldworkStations.17.0.equipment.2
+#: src/data/fieldwork.js:576
+msgctxt "text:fieldworkStations.17.0.equipment.2"
+msgid "Bamboo exit lamp"
+msgstr "Bamboo exit lamp"
+
+#. fieldworkStations.17.0.tasks.0
+#: src/data/fieldwork.js:577
+msgctxt "text:fieldworkStations.17.0.tasks.0"
+msgid "Observe one triage"
+msgstr "Observe one triage"
+
+#. fieldworkStations.17.0.tasks.1
+#: src/data/fieldwork.js:577
+msgctxt "text:fieldworkStations.17.0.tasks.1"
+msgid "Audit one prescription"
+msgstr "Audit one prescription"
+
+#. fieldworkStations.17.0.tasks.2
+#: src/data/fieldwork.js:577
+msgctxt "text:fieldworkStations.17.0.tasks.2"
+msgid "Rehearse stop and exit"
+msgstr "Rehearse stop and exit"
+
+#. fieldworkStations.17.0.wrinkle
+#: src/data/fieldwork.js:579
+msgctxt "text:fieldworkStations.17.0.wrinkle"
+msgid ""
+"When Eirin says permanent, she asks permanent for whom and observed how "
+"long. Your log must too."
+msgstr ""
+"When Eirin says permanent, she asks permanent for whom and observed how "
+"long. Your log must too."
+
+#. fieldworkStations.17.0.seal
+#: src/data/fieldwork.js:580
+msgctxt "text:fieldworkStations.17.0.seal"
+msgid "Eientei Four-Consent Seal"
+msgstr "Eientei Four-Consent Seal"
+
+#. fieldworkStations.18.0.name
+#: src/data/fieldwork.js:584
+msgctxt "text:fieldworkStations.18.0.name"
+msgid "Bamboo Forest · Lunar Orientation"
+msgstr "Bamboo Forest · Lunar Orientation"
+
+#. fieldworkStations.18.0.host
+#: src/data/fieldwork.js:585
+msgctxt "text:fieldworkStations.18.0.host"
+msgid "Bamboo Route & Cognition Joint Station"
+msgstr "Bamboo Route & Cognition Joint Station"
+
+#. fieldworkStations.18.0.supervisor
+#: src/data/fieldwork.js:586
+msgctxt "text:fieldworkStations.18.0.supervisor"
+msgid "Fujiwara no Mokou"
+msgstr "Fujiwara no Mokou"
+
+#. fieldworkStations.18.0.companion
+#: src/data/fieldwork.js:587
+msgctxt "text:fieldworkStations.18.0.companion"
+msgid "Tewi Inaba (does not guarantee signs belong to today)"
+msgstr "Tewi Inaba (does not guarantee signs belong to today)"
+
+#. fieldworkStations.18.0.placement
+#: src/data/fieldwork.js:589
+msgctxt "text:fieldworkStations.18.0.placement"
+msgid ""
+"Compare lunar phase, signs, footsteps, and panic, retaining lost routes "
+"rather than only arrivals."
+msgstr ""
+"Compare lunar phase, signs, footsteps, and panic, retaining lost routes "
+"rather than only arrivals."
+
+#. fieldworkStations.18.0.premise
+#: src/data/fieldwork.js:590
+msgctxt "text:fieldworkStations.18.0.premise"
+msgid "An immortal's return does not prove route safety, and lantern four may not be fourth."
+msgstr "An immortal's return does not prove route safety, and lantern four may not be fourth."
+
+#. fieldworkStations.18.0.access
+#: src/data/fieldwork.js:591
+msgctxt "text:fieldworkStations.18.0.access"
+msgid "Two per rope, three return signals; on seeing the meeting point twice, verify date."
+msgstr "Two per rope, three return signals; on seeing the meeting point twice, verify date."
+
+#. fieldworkStations.18.0.shift
+#: src/data/fieldwork.js:592
+msgctxt "text:fieldworkStations.18.0.shift"
+msgid "Forty minutes before moonrise until return to today"
+msgstr "Forty minutes before moonrise until return to today"
+
+#. fieldworkStations.18.0.ethics
+#: src/data/fieldwork.js:594
+msgctxt "text:fieldworkStations.18.0.ethics"
+msgid ""
+"Separate panic, disorientation, and wavelength exposure; never deliberately "
+"lose an unconsenting control."
+msgstr ""
+"Separate panic, disorientation, and wavelength exposure; never deliberately "
+"lose an unconsenting control."
+
+#. fieldworkStations.18.0.equipment.0
+#: src/data/fieldwork.js:595
+msgctxt "text:fieldworkStations.18.0.equipment.0"
+msgid "Buddy return rope"
+msgstr "Buddy return rope"
+
+#. fieldworkStations.18.0.equipment.1
+#: src/data/fieldwork.js:595
+msgctxt "text:fieldworkStations.18.0.equipment.1"
+msgid "Three-tone direction bell"
+msgstr "Three-tone direction bell"
+
+#. fieldworkStations.18.0.equipment.2
+#: src/data/fieldwork.js:595
+msgctxt "text:fieldworkStations.18.0.equipment.2"
+msgid "Today's date board"
+msgstr "Today's date board"
+
+#. fieldworkStations.18.0.tasks.0
+#: src/data/fieldwork.js:596
+msgctxt "text:fieldworkStations.18.0.tasks.0"
+msgid "Walk one lunar route"
+msgstr "Walk one lunar route"
+
+#. fieldworkStations.18.0.tasks.1
+#: src/data/fieldwork.js:596
+msgctxt "text:fieldworkStations.18.0.tasks.1"
+msgid "Log one false marker"
+msgstr "Log one false marker"
+
+#. fieldworkStations.18.0.tasks.2
+#: src/data/fieldwork.js:596
+msgctxt "text:fieldworkStations.18.0.tasks.2"
+msgid "Guide one person back to today"
+msgstr "Guide one person back to today"
+
+#. fieldworkStations.18.0.wrinkle
+#: src/data/fieldwork.js:598
+msgctxt "text:fieldworkStations.18.0.wrinkle"
+msgid ""
+"Mokou rescues you not because the sample is special, but because you stand "
+"in the wrong forest. Write that."
+msgstr ""
+"Mokou rescues you not because the sample is special, but because you stand "
+"in the wrong forest. Write that."
+
+#. fieldworkStations.18.0.seal
+#: src/data/fieldwork.js:599
+msgctxt "text:fieldworkStations.18.0.seal"
+msgid "Bamboo Returned-to-Today Seal"
+msgstr "Bamboo Returned-to-Today Seal"
+
+#. fieldworkStations.19.0.name
+#: src/data/fieldwork.js:603
+msgctxt "text:fieldworkStations.19.0.name"
+msgid "Hakugyokurou · Netherworld Phenology & Half-phantom Records"
+msgstr "Hakugyokurou · Netherworld Phenology & Half-phantom Records"
+
+#. fieldworkStations.19.0.host
+#: src/data/fieldwork.js:604
+msgctxt "text:fieldworkStations.19.0.host"
+msgid "Hakugyokurou Garden & Netherworld Records Desk"
+msgstr "Hakugyokurou Garden & Netherworld Records Desk"
+
+#. fieldworkStations.19.0.supervisor
+#: src/data/fieldwork.js:605
+msgctxt "text:fieldworkStations.19.0.supervisor"
+msgid "Youmu Konpaku"
+msgstr "Youmu Konpaku"
+
+#. fieldworkStations.19.0.companion
+#: src/data/fieldwork.js:606
+msgctxt "text:fieldworkStations.19.0.companion"
+msgid "Yuyuko Saigyouji (may eat the sample-count sweets)"
+msgstr "Yuyuko Saigyouji (may eat the sample-count sweets)"
+
+#. fieldworkStations.19.0.placement
+#: src/data/fieldwork.js:608
+msgctxt "text:fieldworkStations.19.0.placement"
+msgid ""
+"Log blossoms, ghost passage, garden work, and half-phantom observation units "
+"without treating life/death as scenery."
+msgstr ""
+"Log blossoms, ghost passage, garden work, and half-phantom observation units "
+"without treating life/death as scenery."
+
+#. fieldworkStations.19.0.premise
+#: src/data/fieldwork.js:609
+msgctxt "text:fieldworkStations.19.0.premise"
+msgid "Person, half-human, half-phantom, and lunch serving are not naturally equal units."
+msgstr "Person, half-human, half-phantom, and lunch serving are not naturally equal units."
+
+#. fieldworkStations.19.0.access
+#: src/data/fieldwork.js:610
+msgctxt "text:fieldworkStations.19.0.access"
+msgid ""
+"Use Netherworld stairs and Youmu's check; do not shortcut by cutting "
+"misunderstandings—she is unsure too."
+msgstr ""
+"Use Netherworld stairs and Youmu's check; do not shortcut by cutting "
+"misunderstandings—she is unsure too."
+
+#. fieldworkStations.19.0.shift
+#: src/data/fieldwork.js:611
+msgctxt "text:fieldworkStations.19.0.shift"
+msgid "Morning sweeping until Yuyuko asks for the last sweet"
+msgstr "Morning sweeping until Yuyuko asks for the last sweet"
+
+#. fieldworkStations.19.0.ethics
+#: src/data/fieldwork.js:613
+msgctxt "text:fieldworkStations.19.0.ethics"
+msgid ""
+"Explain data destinations separately to dead, half-phantom, and living; "
+"posthumous remarks cannot replace living consent."
+msgstr ""
+"Explain data destinations separately to dead, half-phantom, and living; "
+"posthumous remarks cannot replace living consent."
+
+#. fieldworkStations.19.0.equipment.0
+#: src/data/fieldwork.js:614
+msgctxt "text:fieldworkStations.19.0.equipment.0"
+msgid "Person/spirit twin ledger"
+msgstr "Person/spirit twin ledger"
+
+#. fieldworkStations.19.0.equipment.1
+#: src/data/fieldwork.js:614
+msgctxt "text:fieldworkStations.19.0.equipment.1"
+msgid "Falling-petal time net"
+msgstr "Falling-petal time net"
+
+#. fieldworkStations.19.0.equipment.2
+#: src/data/fieldwork.js:614
+msgctxt "text:fieldworkStations.19.0.equipment.2"
+msgid "Inedible calibration sweets"
+msgstr "Inedible calibration sweets"
+
+#. fieldworkStations.19.0.tasks.0
+#: src/data/fieldwork.js:615
+msgctxt "text:fieldworkStations.19.0.tasks.0"
+msgid "Define one observation unit"
+msgstr "Define one observation unit"
+
+#. fieldworkStations.19.0.tasks.1
+#: src/data/fieldwork.js:615
+msgctxt "text:fieldworkStations.19.0.tasks.1"
+msgid "Trace one ghost passage"
+msgstr "Trace one ghost passage"
+
+#. fieldworkStations.19.0.tasks.2
+#: src/data/fieldwork.js:615
+msgctxt "text:fieldworkStations.19.0.tasks.2"
+msgid "Compare two bloom versions"
+msgstr "Compare two bloom versions"
+
+#. fieldworkStations.19.0.wrinkle
+#: src/data/fieldwork.js:617
+msgctxt "text:fieldworkStations.19.0.wrinkle"
+msgid "If Yuyuko answers life/death lightly, still log when Youmu stops being light about it."
+msgstr "If Yuyuko answers life/death lightly, still log when Youmu stops being light about it."
+
+#. fieldworkStations.19.0.seal
+#: src/data/fieldwork.js:618
+msgctxt "text:fieldworkStations.19.0.seal"
+msgid "Hakugyokurou Half-phantom Twin Seal"
+msgstr "Hakugyokurou Half-phantom Twin Seal"
+
+#. fieldworkStations.20.0.name
+#: src/data/fieldwork.js:622
+msgctxt "text:fieldworkStations.20.0.name"
+msgid "Sanzu River · Distance & Ferry Administration"
+msgstr "Sanzu River · Distance & Ferry Administration"
+
+#. fieldworkStations.20.0.host
+#: src/data/fieldwork.js:623
+msgctxt "text:fieldworkStations.20.0.host"
+msgid "Sanzu Ferry & Higan Paper Desk"
+msgstr "Sanzu Ferry & Higan Paper Desk"
+
+#. fieldworkStations.20.0.supervisor
+#: src/data/fieldwork.js:624
+msgctxt "text:fieldworkStations.20.0.supervisor"
+msgid "Komachi Onozuka"
+msgstr "Komachi Onozuka"
+
+#. fieldworkStations.20.0.companion
+#: src/data/fieldwork.js:625
+msgctxt "text:fieldworkStations.20.0.companion"
+msgid "Eiki Shiki, Yamaxanadu (checks when you began calling it a delay)"
+msgstr "Eiki Shiki, Yamaxanadu (checks when you began calling it a delay)"
+
+#. fieldworkStations.20.0.placement
+#: src/data/fieldwork.js:627
+msgctxt "text:fieldworkStations.20.0.placement"
+msgid ""
+"Log shifting distance, fare, queues, and unfinished interviews while "
+"separating arrival from completion."
+msgstr ""
+"Log shifting distance, fare, queues, and unfinished interviews while "
+"separating arrival from completion."
+
+#. fieldworkStations.20.0.premise
+#: src/data/fieldwork.js:628
+msgctxt "text:fieldworkStations.20.0.premise"
+msgid "A shorter river does not automatically shorten responsibility or unfinished words."
+msgstr "A shorter river does not automatically shorten responsibility or unfinished words."
+
+#. fieldworkStations.20.0.access
+#: src/data/fieldwork.js:629
+msgctxt "text:fieldworkStations.20.0.access"
+msgid "Use the university placement boat; Komachi's 'soon' is an estimate, not a timestamp."
+msgstr "Use the university placement boat; Komachi's 'soon' is an estimate, not a timestamp."
+
+#. fieldworkStations.20.0.shift
+#: src/data/fieldwork.js:630
+msgctxt "text:fieldworkStations.20.0.shift"
+msgid "Ferryman arrival until explanation of why it is not late"
+msgstr "Ferryman arrival until explanation of why it is not late"
+
+#. fieldworkStations.20.0.ethics
+#: src/data/fieldwork.js:632
+msgctxt "text:fieldworkStations.20.0.ethics"
+msgid "Waiting for a ferry is not interview consent; Higan destinations are sensitive."
+msgstr "Waiting for a ferry is not interview consent; Higan destinations are sensitive."
+
+#. fieldworkStations.20.0.equipment.0
+#: src/data/fieldwork.js:633
+msgctxt "text:fieldworkStations.20.0.equipment.0"
+msgid "Elastic distance rope"
+msgstr "Elastic distance rope"
+
+#. fieldworkStations.20.0.equipment.1
+#: src/data/fieldwork.js:633
+msgctxt "text:fieldworkStations.20.0.equipment.1"
+msgid "Arrival/completion twin slips"
+msgstr "Arrival/completion twin slips"
+
+#. fieldworkStations.20.0.equipment.2
+#: src/data/fieldwork.js:633
+msgctxt "text:fieldworkStations.20.0.equipment.2"
+msgid "Fare provenance pouch"
+msgstr "Fare provenance pouch"
+
+#. fieldworkStations.20.0.tasks.0
+#: src/data/fieldwork.js:634
+msgctxt "text:fieldworkStations.20.0.tasks.0"
+msgid "Measure one distance shift"
+msgstr "Measure one distance shift"
+
+#. fieldworkStations.20.0.tasks.1
+#: src/data/fieldwork.js:634
+msgctxt "text:fieldworkStations.20.0.tasks.1"
+msgid "Record one unfinished interview"
+msgstr "Record one unfinished interview"
+
+#. fieldworkStations.20.0.tasks.2
+#: src/data/fieldwork.js:634
+msgctxt "text:fieldworkStations.20.0.tasks.2"
+msgid "Audit fare against route"
+msgstr "Audit fare against route"
+
+#. fieldworkStations.20.0.wrinkle
+#: src/data/fieldwork.js:636
+msgctxt "text:fieldworkStations.20.0.wrinkle"
+msgid "If Komachi shortens the trip, record who benefited before how much work she saved."
+msgstr "If Komachi shortens the trip, record who benefited before how much work she saved."
+
+#. fieldworkStations.20.0.seal
+#: src/data/fieldwork.js:637
+msgctxt "text:fieldworkStations.20.0.seal"
+msgid "Sanzu Arrived-Not-Finished Seal"
+msgstr "Sanzu Arrived-Not-Finished Seal"
+
+#. fieldworkStations.21.0.name
+#: src/data/fieldwork.js:641
+msgctxt "text:fieldworkStations.21.0.name"
+msgid "Old Capital · Underground Shared-life & Repair"
+msgstr "Old Capital · Underground Shared-life & Repair"
+
+#. fieldworkStations.21.0.host
+#: src/data/fieldwork.js:642
+msgctxt "text:fieldworkStations.21.0.host"
+msgid "Old Capital Streets & Post-feast Repair Desk"
+msgstr "Old Capital Streets & Post-feast Repair Desk"
+
+#. fieldworkStations.21.0.supervisor
+#: src/data/fieldwork.js:643
+msgctxt "text:fieldworkStations.21.0.supervisor"
+msgid "Yuugi Hoshiguma"
+msgstr "Yuugi Hoshiguma"
+
+#. fieldworkStations.21.0.companion
+#: src/data/fieldwork.js:644
+msgctxt "text:fieldworkStations.21.0.companion"
+msgid "Rin Kaenbyou (has another evidence route in mind)"
+msgstr "Rin Kaenbyou (has another evidence route in mind)"
+
+#. fieldworkStations.21.0.placement
+#: src/data/fieldwork.js:646
+msgctxt "text:fieldworkStations.21.0.placement"
+msgid ""
+"Log feasts, contests, street damage, and collective repair, separating "
+"winner, responsibility, and repairer."
+msgstr ""
+"Log feasts, contests, street damage, and collective repair, separating "
+"winner, responsibility, and repairer."
+
+#. fieldworkStations.21.0.premise
+#: src/data/fieldwork.js:647
+msgctxt "text:fieldworkStations.21.0.premise"
+msgid "Losing honestly does not waive repair, and strength cannot consent for others."
+msgstr "Losing honestly does not waive repair, and strength cannot consent for others."
+
+#. fieldworkStations.21.0.access
+#: src/data/fieldwork.js:648
+msgctxt "text:fieldworkStations.21.0.access"
+msgid ""
+"Register at Old Hell gate; bring a companion who can say no clearly, not a "
+"form that only nods."
+msgstr ""
+"Register at Old Hell gate; bring a companion who can say no clearly, not a "
+"form that only nods."
+
+#. fieldworkStations.21.0.shift
+#: src/data/fieldwork.js:649
+msgctxt "text:fieldworkStations.21.0.shift"
+msgid "Before first bowl to last paving stone restored"
+msgstr "Before first bowl to last paving stone restored"
+
+#. fieldworkStations.21.0.ethics
+#: src/data/fieldwork.js:651
+msgctxt "text:fieldworkStations.21.0.ethics"
+msgid "Separate post-drink, contest, and research consent; watching is not competing."
+msgstr "Separate post-drink, contest, and research consent; watching is not competing."
+
+#. fieldworkStations.21.0.equipment.0
+#: src/data/fieldwork.js:652
+msgctxt "text:fieldworkStations.21.0.equipment.0"
+msgid "Pre-feast consent boards"
+msgstr "Pre-feast consent boards"
+
+#. fieldworkStations.21.0.equipment.1
+#: src/data/fieldwork.js:652
+msgctxt "text:fieldworkStations.21.0.equipment.1"
+msgid "Damage/repair twin chalk"
+msgstr "Damage/repair twin chalk"
+
+#. fieldworkStations.21.0.equipment.2
+#: src/data/fieldwork.js:652
+msgctxt "text:fieldworkStations.21.0.equipment.2"
+msgid "Clear-refusal bell"
+msgstr "Clear-refusal bell"
+
+#. fieldworkStations.21.0.tasks.0
+#: src/data/fieldwork.js:653
+msgctxt "text:fieldworkStations.21.0.tasks.0"
+msgid "Log one contest rule"
+msgstr "Log one contest rule"
+
+#. fieldworkStations.21.0.tasks.1
+#: src/data/fieldwork.js:653
+msgctxt "text:fieldworkStations.21.0.tasks.1"
+msgid "Track one damage site"
+msgstr "Track one damage site"
+
+#. fieldworkStations.21.0.tasks.2
+#: src/data/fieldwork.js:653
+msgctxt "text:fieldworkStations.21.0.tasks.2"
+msgid "Join post-feast repair"
+msgstr "Join post-feast repair"
+
+#. fieldworkStations.21.0.wrinkle
+#: src/data/fieldwork.js:655
+msgctxt "text:fieldworkStations.21.0.wrinkle"
+msgid "Yuugi praising an honest loss is not failure; she next watches what you repair."
+msgstr "Yuugi praising an honest loss is not failure; she next watches what you repair."
+
+#. fieldworkStations.21.0.seal
+#: src/data/fieldwork.js:656
+msgctxt "text:fieldworkStations.21.0.seal"
+msgid "Old Capital Post-feast Repair Seal"
+msgstr "Old Capital Post-feast Repair Seal"
+
+#. fieldworkStations.22.0.name
+#: src/data/fieldwork.js:660
+msgctxt "text:fieldworkStations.22.0.name"
+msgid "Palace of the Earth Spirits · Mental Privacy & Care"
+msgstr "Palace of the Earth Spirits · Mental Privacy & Care"
+
+#. fieldworkStations.22.0.host
+#: src/data/fieldwork.js:661
+msgctxt "text:fieldworkStations.22.0.host"
+msgid "Chireiden Interview & Animal-care Desk"
+msgstr "Chireiden Interview & Animal-care Desk"
+
+#. fieldworkStations.22.0.supervisor
+#: src/data/fieldwork.js:662
+msgctxt "text:fieldworkStations.22.0.supervisor"
+msgid "Satori Komeiji"
+msgstr "Satori Komeiji"
+
+#. fieldworkStations.22.0.companion
+#: src/data/fieldwork.js:663
+msgctxt "text:fieldworkStations.22.0.companion"
+msgid "Koishi Komeiji (attendance may escape both herself and the roll)"
+msgstr "Koishi Komeiji (attendance may escape both herself and the roll)"
+
+#. fieldworkStations.22.0.placement
+#: src/data/fieldwork.js:665
+msgctxt "text:fieldworkStations.22.0.placement"
+msgid ""
+"Practice interviewing, mind-reading boundaries, animal care, and unrecorded "
+"information, separating thought, choice, and submission."
+msgstr ""
+"Practice interviewing, mind-reading boundaries, animal care, and unrecorded "
+"information, separating thought, choice, and submission."
+
+#. fieldworkStations.22.0.premise
+#: src/data/fieldwork.js:666
+msgctxt "text:fieldworkStations.22.0.premise"
+msgid "Privacy is not pretending thoughts do not exist; it is deciding what they become."
+msgstr "Privacy is not pretending thoughts do not exist; it is deciding what they become."
+
+#. fieldworkStations.22.0.access
+#: src/data/fieldwork.js:667
+msgctxt "text:fieldworkStations.22.0.access"
+msgid ""
+"Choose mental-access scope before entry; trying not to think is louder, but "
+"non-recording remains an option."
+msgstr ""
+"Choose mental-access scope before entry; trying not to think is louder, but "
+"non-recording remains an option."
+
+#. fieldworkStations.22.0.shift
+#: src/data/fieldwork.js:668
+msgctxt "text:fieldworkStations.22.0.shift"
+msgid "First already-known question to last unsubmitted thought"
+msgstr "First already-known question to last unsubmitted thought"
+
+#. fieldworkStations.22.0.ethics
+#: src/data/fieldwork.js:670
+msgctxt "text:fieldworkStations.22.0.ethics"
+msgid ""
+"Consent separately to access, repeat, record, analyse, and publish; 'not "
+"written' does not mean unprocessed."
+msgstr ""
+"Consent separately to access, repeat, record, analyse, and publish; 'not "
+"written' does not mean unprocessed."
+
+#. fieldworkStations.22.0.equipment.0
+#: src/data/fieldwork.js:671
+msgctxt "text:fieldworkStations.22.0.equipment.0"
+msgid "Five-layer mental-access cards"
+msgstr "Five-layer mental-access cards"
+
+#. fieldworkStations.22.0.equipment.1
+#: src/data/fieldwork.js:671
+msgctxt "text:fieldworkStations.22.0.equipment.1"
+msgid "Do-not-repeat bell"
+msgstr "Do-not-repeat bell"
+
+#. fieldworkStations.22.0.equipment.2
+#: src/data/fieldwork.js:671
+msgctxt "text:fieldworkStations.22.0.equipment.2"
+msgid "Animal-care rota"
+msgstr "Animal-care rota"
+
+#. fieldworkStations.22.0.tasks.0
+#: src/data/fieldwork.js:672
+msgctxt "text:fieldworkStations.22.0.tasks.0"
+msgid "Complete one layered consent"
+msgstr "Complete one layered consent"
+
+#. fieldworkStations.22.0.tasks.1
+#: src/data/fieldwork.js:672
+msgctxt "text:fieldworkStations.22.0.tasks.1"
+msgid "Care for one animal resident"
+msgstr "Care for one animal resident"
+
+#. fieldworkStations.22.0.tasks.2
+#: src/data/fieldwork.js:672
+msgctxt "text:fieldworkStations.22.0.tasks.2"
+msgid "Retain one unsubmitted item"
+msgstr "Retain one unsubmitted item"
+
+#. fieldworkStations.22.0.wrinkle
+#: src/data/fieldwork.js:674
+msgctxt "text:fieldworkStations.22.0.wrinkle"
+msgid ""
+"If Satori identifies a missing source, do not rewrite her accuracy as your "
+"prior knowledge."
+msgstr ""
+"If Satori identifies a missing source, do not rewrite her accuracy as your "
+"prior knowledge."
+
+#. fieldworkStations.22.0.seal
+#: src/data/fieldwork.js:675
+msgctxt "text:fieldworkStations.22.0.seal"
+msgid "Chireiden Unsubmitted-Thought Seal"
+msgstr "Chireiden Unsubmitted-Thought Seal"
+
+#. fieldworkStations.23.0.name
+#: src/data/fieldwork.js:679
+msgctxt "text:fieldworkStations.23.0.name"
+msgid "Hell of Blazing Fires · Nuclear Heat & Duty"
+msgstr "Hell of Blazing Fires · Nuclear Heat & Duty"
+
+#. fieldworkStations.23.0.host
+#: src/data/fieldwork.js:680
+msgctxt "text:fieldworkStations.23.0.host"
+msgid "Blazing Hell Energy Control Desk"
+msgstr "Blazing Hell Energy Control Desk"
+
+#. fieldworkStations.23.0.supervisor
+#: src/data/fieldwork.js:681
+msgctxt "text:fieldworkStations.23.0.supervisor"
+msgid "Utsuho Reiuji"
+msgstr "Utsuho Reiuji"
+
+#. fieldworkStations.23.0.companion
+#: src/data/fieldwork.js:682
+msgctxt "text:fieldworkStations.23.0.companion"
+msgid "Rin Kaenbyou / Nitori remote engineering line"
+msgstr "Rin Kaenbyou / Nitori remote engineering line"
+
+#. fieldworkStations.23.0.placement
+#: src/data/fieldwork.js:684
+msgctxt "text:fieldworkStations.23.0.placement"
+msgid ""
+"Read nuclear heat, cooling, duty, and evacuation data, separating output, "
+"stability, and readiness."
+msgstr ""
+"Read nuclear heat, cooling, duty, and evacuation data, separating output, "
+"stability, and readiness."
+
+#. fieldworkStations.23.0.premise
+#: src/data/fieldwork.js:685
+msgctxt "text:fieldworkStations.23.0.premise"
+msgid "Brightness is not calibration, and stable running is not agreement over interpretation."
+msgstr "Brightness is not calibration, and stable running is not agreement over interpretation."
+
+#. fieldworkStations.23.0.access
+#: src/data/fieldwork.js:686
+msgctxt "text:fieldworkStations.23.0.access"
+msgid ""
+"Complete Eientei exposure and Nitori equipment briefings; neither replaces "
+"Utsuho's field command."
+msgstr ""
+"Complete Eientei exposure and Nitori equipment briefings; neither replaces "
+"Utsuho's field command."
+
+#. fieldworkStations.23.0.shift
+#: src/data/fieldwork.js:687
+msgctxt "text:fieldworkStations.23.0.shift"
+msgid "Cooling handover until Utsuho says brighter is still stable"
+msgstr "Cooling handover until Utsuho says brighter is still stable"
+
+#. fieldworkStations.23.0.ethics
+#: src/data/fieldwork.js:689
+msgctxt "text:fieldworkStations.23.0.ethics"
+msgid ""
+"Separate personal dose, machine reading, and group evacuation; immortals are "
+"not exposure calibrators."
+msgstr ""
+"Separate personal dose, machine reading, and group evacuation; immortals are "
+"not exposure calibrators."
+
+#. fieldworkStations.23.0.equipment.0
+#: src/data/fieldwork.js:690
+msgctxt "text:fieldworkStations.23.0.equipment.0"
+msgid "Personal exposure moon badge"
+msgstr "Personal exposure moon badge"
+
+#. fieldworkStations.23.0.equipment.1
+#: src/data/fieldwork.js:690
+msgctxt "text:fieldworkStations.23.0.equipment.1"
+msgid "Cooling-version lock"
+msgstr "Cooling-version lock"
+
+#. fieldworkStations.23.0.equipment.2
+#: src/data/fieldwork.js:690
+msgctxt "text:fieldworkStations.23.0.equipment.2"
+msgid "Two-route exit lamp"
+msgstr "Two-route exit lamp"
+
+#. fieldworkStations.23.0.tasks.0
+#: src/data/fieldwork.js:691
+msgctxt "text:fieldworkStations.23.0.tasks.0"
+msgid "Audit one cooling handover"
+msgstr "Audit one cooling handover"
+
+#. fieldworkStations.23.0.tasks.1
+#: src/data/fieldwork.js:691
+msgctxt "text:fieldworkStations.23.0.tasks.1"
+msgid "Read three different instruments"
+msgstr "Read three different instruments"
+
+#. fieldworkStations.23.0.tasks.2
+#: src/data/fieldwork.js:691
+msgctxt "text:fieldworkStations.23.0.tasks.2"
+msgid "Walk one evacuation line"
+msgstr "Walk one evacuation line"
+
+#. fieldworkStations.23.0.wrinkle
+#: src/data/fieldwork.js:693
+msgctxt "text:fieldworkStations.23.0.wrinkle"
+msgid "Even if Utsuho recites the entire procedure, verify which version she uses today."
+msgstr "Even if Utsuho recites the entire procedure, verify which version she uses today."
+
+#. fieldworkStations.23.0.seal
+#: src/data/fieldwork.js:694
+msgctxt "text:fieldworkStations.23.0.seal"
+msgid "Blazing Hell Three-Meter Seal"
+msgstr "Blazing Hell Three-Meter Seal"
+
+#. fieldworkRiskLabels.low
+#: src/data/fieldwork.js:699
+msgctxt "text:fieldworkRiskLabels.low"
+msgid "Low risk / sources still required"
+msgstr "Low risk / sources still required"
+
+#. fieldworkRiskLabels.moderate
+#: src/data/fieldwork.js:700
+msgctxt "text:fieldworkRiskLabels.moderate"
+msgid "Moderate / buddy duty"
+msgstr "Moderate / buddy duty"
+
+#. fieldworkRiskLabels.high
+#: src/data/fieldwork.js:701
+msgctxt "text:fieldworkRiskLabels.high"
+msgid "High / stop and exit first"
+msgstr "High / stop and exit first"
+
+#. fieldworkRiskLabels.variable
+#: src/data/fieldwork.js:702
+msgctxt "text:fieldworkRiskLabels.variable"
+msgid "Conditional risk / depends on today's world"
+msgstr "Conditional risk / depends on today's world"
+
+#. fieldworkSourceKinds.observation
+#: src/data/fieldwork.js:706
+msgctxt "text:fieldworkSourceKinds.observation"
+msgid "Direct observation"
+msgstr "Direct observation"
+
+#. fieldworkSourceKinds.testimony
+#: src/data/fieldwork.js:707
+msgctxt "text:fieldworkSourceKinds.testimony"
+msgid "Participant / witness account"
+msgstr "Participant / witness account"
+
+#. fieldworkSourceKinds.instrument
+#: src/data/fieldwork.js:708
+msgctxt "text:fieldworkSourceKinds.instrument"
+msgid "Instrument reading & version"
+msgstr "Instrument reading & version"
+
+#. fieldworkSourceKinds.archive
+#: src/data/fieldwork.js:709
+msgctxt "text:fieldworkSourceKinds.archive"
+msgid "Archive, notice, or duty log"
+msgstr "Archive, notice, or duty log"
+
+#. fieldworkSourceKinds.object
+#: src/data/fieldwork.js:710
+msgctxt "text:fieldworkSourceKinds.object"
+msgid "Object, specimen, or autonomous evidence"
+msgstr "Object, specimen, or autonomous evidence"
+
+#. fieldworkSourceKinds.mixed
+#: src/data/fieldwork.js:711
+msgctxt "text:fieldworkSourceKinds.mixed"
+msgid "Two or more non-mergeable sources"
+msgstr "Two or more non-mergeable sources"
+
+#. fieldworkIncidentKinds.none
+#: src/data/fieldwork.js:715
+msgctxt "text:fieldworkIncidentKinds.none"
+msgid "No incident; deviation retained"
+msgstr "No incident; deviation retained"
+
+#. fieldworkIncidentKinds.route
+#: src/data/fieldwork.js:716
+msgctxt "text:fieldworkIncidentKinds.route"
+msgid "Route / boundary deviation"
+msgstr "Route / boundary deviation"
+
+#. fieldworkIncidentKinds.medical
+#: src/data/fieldwork.js:717
+msgctxt "text:fieldworkIncidentKinds.medical"
+msgid "Medical / exposure report"
+msgstr "Medical / exposure report"
+
+#. fieldworkIncidentKinds.ability
+#: src/data/fieldwork.js:718
+msgctxt "text:fieldworkIncidentKinds.ability"
+msgid "Ability-use / consent dispute"
+msgstr "Ability-use / consent dispute"
+
+#. fieldworkIncidentKinds.custody
+#: src/data/fieldwork.js:719
+msgctxt "text:fieldworkIncidentKinds.custody"
+msgid "Evidence custody break"
+msgstr "Evidence custody break"
+
+#. fieldworkIncidentKinds.publication
+#: src/data/fieldwork.js:720
+msgctxt "text:fieldworkIncidentKinds.publication"
+msgid "Publication / timing dispute"
+msgstr "Publication / timing dispute"
+
+#. fieldworkResearchChoices.teaching
+#: src/data/fieldwork.js:724
+msgctxt "text:fieldworkResearchChoices.teaching"
+msgid "Teaching reflection only; not formal research"
+msgstr "Teaching reflection only; not formal research"
+
+#. fieldworkResearchChoices.pending
+#: src/data/fieldwork.js:725
+msgctxt "text:fieldworkResearchChoices.pending"
+msgid "Await renewed participant / object consent"
+msgstr "Await renewed participant / object consent"
+
+#. fieldworkResearchChoices.allowed
+#: src/data/fieldwork.js:726
+msgctxt "text:fieldworkResearchChoices.allowed"
+msgid "Complete provenance and consent; research use may be requested"
+msgstr "Complete provenance and consent; research use may be requested"
+
+#. fieldworkResearchChoices.refused
+#: src/data/fieldwork.js:727
+msgctxt "text:fieldworkResearchChoices.refused"
+msgid "Research use refused; placement learning record retained"
+msgstr "Research use refused; placement learning record retained"

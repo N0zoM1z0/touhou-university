@@ -1,0 +1,259 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/eyebrow"
+msgid "GENSOKYO ACADEMIC CALENDAR / SEASONS × MOON × INCIDENTS"
+msgstr "GENSOKYO ACADEMIC CALENDAR / 四季 × 月相 × 異変"
+
+#. copy/title
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/title"
+msgid ""
+"Terms have start dates; spring, full moons, and incidents retain the right "
+"to arrive off schedule."
+msgstr "学期には開始日がある。春・満月・異変には時間表どおり来ない権利がある。"
+
+#. copy/lead
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/lead"
+msgid ""
+"This calendar is not a static poster. Season, moon, and date alter classes, "
+"facilities, transport, dining, and clinic load. Saving a leaf stores a "
+"reminder; it does not pin the world down."
+msgstr "この学年暦は静止したポスターではありません。季節・月相・日付が授業、施設、交通、食堂、校医負荷を変更し、栞は通知を保存しても世界を固定しません。"
+
+#. copy/today
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/today"
+msgid "Today's calendar face"
+msgstr "本日の暦面"
+
+#. copy/currentSeason
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/currentSeason"
+msgid "Duty season"
+msgstr "当番季節"
+
+#. copy/currentMoon
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/currentMoon"
+msgid "Moon"
+msgstr "月相"
+
+#. copy/active
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/active"
+msgid "Changing campus now"
+msgstr "現在キャンパスを変更中"
+
+#. copy/noActive
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/noActive"
+msgid "No added incident this bell; the season above is still adding trouble at its own pace."
+msgstr "この校鐘には追加異変なし。季節は上記どおり、ゆっくり面倒を増やしています。"
+
+#. copy/year
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/year"
+msgid "Year calendar"
+msgstr "年暦"
+
+#. copy/agenda
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/agenda"
+msgid "My calendar leaves"
+msgstr "自分の暦葉"
+
+#. copy/print
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/print"
+msgid "Print academic calendar"
+msgstr "学年暦を印刷"
+
+#. copy/download
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/download"
+msgid "Download iCalendar"
+msgstr "iCalendar を保存"
+
+#. copy/all
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/all"
+msgid "All year"
+msgstr "通年"
+
+#. copy/open
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/open"
+msgid "Open calendar leaf"
+msgstr "暦葉を開く"
+
+#. copy/window
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/window"
+msgid "Seasonal window"
+msgstr "時季窓"
+
+#. copy/premise
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/premise"
+msgid "What happens"
+msgstr "この期間に起こること"
+
+#. copy/impacts
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/impacts"
+msgid "Campus projections"
+msgstr "キャンパス投影"
+
+#. copy/course
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/course"
+msgid "Courses"
+msgstr "授業"
+
+#. copy/transport
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/transport"
+msgid "Transport"
+msgstr "交通"
+
+#. copy/library
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/library"
+msgid "Library"
+msgstr "図書館"
+
+#. copy/medicine
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/medicine"
+msgid "Clinic"
+msgstr "校医"
+
+#. copy/save
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/save"
+msgid "Add red bookmark"
+msgstr "赤い栞を挟む"
+
+#. copy/remove
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/remove"
+msgid "Remove red bookmark"
+msgstr "赤い栞を外す"
+
+#. copy/saved
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/saved"
+msgid "Calendar leaf saved; Tengu Post can now see it too."
+msgstr "暦葉を保存。鴉天狗通知センターにも現れます。"
+
+#. copy/removed
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/removed"
+msgid "Red bookmark removed; the season will still happen."
+msgstr "栞を外しました。季節はそのまま起こります。"
+
+#. copy/noAgenda
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/noAgenda"
+msgid "No saved leaves. Open an event and insert the red bookmark."
+msgstr "保存済み暦葉はありません。事件を開いて赤い栞を挟んでください。"
+
+#. copy/back
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/back"
+msgid "Back to year calendar"
+msgstr "年暦へ戻る"
+
+#. copy/copied
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/copied"
+msgid "URL copied."
+msgstr "URL をコピーしました。"
+
+#. copy/share
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/share"
+msgid "Copy this calendar-leaf URL"
+msgstr "暦葉 URL をコピー"
+
+#. copy/activeNow
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/activeNow"
+msgid "Active now"
+msgstr "現在有効"
+
+#. copy/annualRule
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/annualRule"
+msgid "Recurs annually by date"
+msgstr "日付により毎年再現"
+
+#. copy/lunarRule
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/lunarRule"
+msgid "Recurs by moon and campus bell"
+msgstr "月相・校鐘により再現"
+
+#. copy/yearLabel
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/yearLabel"
+msgid "Gensokyo Academic Year"
+msgstr "幻想郷学年"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:30
+msgctxt "text:moonLabels.-"
+msgid "New moon"
+msgstr "新月"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:31
+msgctxt "text:moonLabels.-.2"
+msgid "Waxing crescent"
+msgstr "三日月"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:32
+msgctxt "text:moonLabels.-.3"
+msgid "Pre-first-quarter"
+msgstr "上弦前"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:33
+msgctxt "text:moonLabels.-.4"
+msgid "Waxing gibbous"
+msgstr "満ちる凸月"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:34
+msgctxt "text:moonLabels.-.5"
+msgid "Full moon"
+msgstr "満月"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:35
+msgctxt "text:moonLabels.-.6"
+msgid "Waning gibbous"
+msgstr "欠ける凸月"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:36
+msgctxt "text:moonLabels.-.7"
+msgid "Post-last-quarter"
+msgstr "下弦後"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:37
+msgctxt "text:moonLabels.-.8"
+msgid "Waning crescent"
+msgstr "有明月"

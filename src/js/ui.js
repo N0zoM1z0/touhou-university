@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/ui.js";
 import { getLocale } from "./i18n.js";
 import { safeDecodeFragment } from "./url-state.js";
 
@@ -47,11 +48,7 @@ export function initUI() {
 
   function setMenu(open) {
     menuToggle?.setAttribute("aria-expanded", String(open));
-    const copy = {
-      "zh-Hant": open ? "關閉選單" : "開啟選單",
-      ja: open ? "メニューを閉じる" : "メニューを開く",
-      en: open ? "Close menu" : "Open menu",
-    };
+    const copy = { "zh-Hant": (open ? catalogText("copy.yes")["zh-Hant"] : catalogText("copy.no")["zh-Hant"]), "ja": (open ? catalogText("copy.yes")["ja"] : catalogText("copy.no")["ja"]), "en": (open ? catalogText("copy.yes")["en"] : catalogText("copy.no")["en"]) };
     menuToggle?.setAttribute("aria-label", copy[getLocale()]);
     if (mobileMenu) mobileMenu.hidden = !open;
     document.body.classList.toggle("menu-open", open);

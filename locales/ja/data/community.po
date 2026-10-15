@@ -1,0 +1,679 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. newsItems.first-bell-arrival.category
+#: src/data/community.js:7
+msgctxt "text:newsItems.first-bell-arrival.category"
+msgid "New Students"
+msgstr "新入生"
+
+#. newsItems.first-bell-arrival.title
+#: src/data/community.js:8
+msgctxt "text:newsItems.first-bell-arrival.title"
+msgid "First Bell arrival files open: bring a way back with the admission letter"
+msgstr "第一鐘の到着票を開封：合格通知と退路を一緒に"
+
+#. newsItems.first-bell-arrival.summary
+#: src/data/community.js:9
+msgctxt "text:newsItems.first-bell-arrival.summary"
+msgid ""
+"The arrival office checks the route from Hakurei Gate, a stop signal the "
+"student can recognise, and a first destination. Bunbunmaru receives only a "
+"nameless count."
+msgstr "到着室は博麗門からの経路、本人が識別できる停止合図、最初の行先を確認します。文々。学報が得るのは氏名なしの総数だけです。"
+
+#. newsItems.open-day-gate.category
+#: src/data/community.js:14
+msgctxt "text:newsItems.open-day-gate.category"
+msgid "Admissions"
+msgstr "入試"
+
+#. newsItems.open-day-gate.title
+#: src/data/community.js:15
+msgctxt "text:newsItems.open-day-gate.title"
+msgid "Open Day: Outside World visitors meet at the Hakurei entrance"
+msgstr "公開日：外界生は博麗側入口に集合"
+
+#. newsItems.open-day-gate.summary
+#: src/data/community.js:16
+msgctxt "text:newsItems.open-day-gate.summary"
+msgid ""
+"Morning checks begin at the third quarter of the Dragon hour. Do not follow "
+"an umbrella or butterfly without credentials."
+msgstr "午前便は辰三刻から確認開始。証票のない傘や蝶について行かないでください。"
+
+#. newsItems.turbine-three.category
+#: src/data/community.js:21
+msgctxt "text:newsItems.turbine-three.category"
+msgid "Research"
+msgstr "研究"
+
+#. newsItems.turbine-three.title
+#: src/data/community.js:22
+msgctxt "text:newsItems.turbine-three.title"
+msgid "Kappa Engineering completes its third-generation low-head turbine"
+msgstr "河童工学部、第三世代低落差水車を完成"
+
+#. newsItems.turbine-three.summary
+#: src/data/community.js:23
+msgctxt "text:newsItems.turbine-three.summary"
+msgid ""
+"The new design needs only three maintenance tools and disengages "
+"automatically in heavy rain."
+msgstr "新型は三種の工具で整備でき、豪雨時は自動離脱して停止します。"
+
+#. newsItems.archive-night.category
+#: src/data/community.js:28
+msgctxt "text:newsItems.archive-night.category"
+msgid "Library"
+msgstr "図書"
+
+#. newsItems.archive-night.title
+#: src/data/community.js:29
+msgctxt "text:newsItems.archive-night.title"
+msgid "Hieda History Hall updates night-reading rules"
+msgstr "稗田史学館、夜間閲覧規則を更新"
+
+#. newsItems.archive-night.summary
+#: src/data/community.js:30
+msgctxt "text:newsItems.archive-night.summary"
+msgid ""
+"For three nights before the full moon, second-floor created-history records "
+"require booking; first-floor oral histories remain open."
+msgstr "満月前三夜は二階創造史料区を予約制に変更。一階口述史は通常通りです。"
+
+#. newsItems.coexistence-lecture.category
+#: src/data/community.js:35
+msgctxt "text:newsItems.coexistence-lecture.category"
+msgid "Lecture"
+msgstr "講座"
+
+#. newsItems.coexistence-lecture.title
+#: src/data/community.js:36
+msgctxt "text:newsItems.coexistence-lecture.title"
+msgid "Registration opens for the 9th Human–Youkai Coexistence Lecture"
+msgstr "第九回人妖共生公開講座、受付開始"
+
+#. newsItems.coexistence-lecture.summary
+#: src/data/community.js:37
+msgctxt "text:newsItems.coexistence-lecture.summary"
+msgid ""
+"This year asks whether public space equals consent to observation, with "
+"human, youkai, and fairy seating."
+msgstr "今回は「公共空間は観察への同意か」を討論し、人間・妖怪・妖精席を用意します。"
+
+#. newsItems.moon-soba.category
+#: src/data/community.js:42
+msgctxt "text:newsItems.moon-soba.category"
+msgid "Dining"
+msgstr "食堂"
+
+#. newsItems.moon-soba.title
+#: src/data/community.js:43
+msgctxt "text:newsItems.moon-soba.title"
+msgid "Bamboo Moon Soba adds an egg-free version"
+msgstr "竹林月見そばに卵なし版を追加"
+
+#. newsItems.moon-soba.summary
+#: src/data/community.js:44
+msgctxt "text:newsItems.moon-soba.summary"
+msgid "The lunar phase stays intact; yuzu jelly replaces the yolk, and the price drops by ¥20."
+msgstr "月相はそのまま、卵黄を柚子寒天に変更。価格は20円下がります。"
+
+#. newsItems.library-book.category
+#: src/data/community.js:49
+msgctxt "text:newsItems.library-book.category"
+msgid "Library"
+msgstr "図書"
+
+#. newsItems.library-book.title
+#: src/data/community.js:50
+msgctxt "text:newsItems.library-book.title"
+msgid "North-wing shelf seven temporarily relocates to shelf nine"
+msgstr "北翼第七列書架、暫定的に第九列へ移動"
+
+#. newsItems.library-book.summary
+#: src/data/community.js:51
+msgctxt "text:newsItems.library-book.summary"
+msgid ""
+"This is not construction. The shelf refuses its former position, and the "
+"library is negotiating return terms."
+msgstr "工事ではありません。書架が元の位置を拒否しており、返還条件を協議中です。"
+
+#. newsItems.spell-lantern.category
+#: src/data/community.js:56
+msgctxt "text:newsItems.spell-lantern.category"
+msgid "Events"
+msgstr "行事"
+
+#. newsItems.spell-lantern.title
+#: src/data/community.js:57
+msgctxt "text:newsItems.spell-lantern.title"
+msgid "Spring Spell-card Festival seeks low-noise entries"
+msgstr "春季スペルカード灯会、低騒音作品を募集"
+
+#. newsItems.spell-lantern.summary
+#: src/data/community.js:58
+msgctxt "text:newsItems.spell-lantern.summary"
+msgid ""
+"Refraction, reflection, and slow danmaku are encouraged. Sound must remain "
+"low enough for the Fairy Choir to continue."
+msgstr "屈折、反射、低速弾幕を推奨。音圧上限は妖精が合唱を続けられる程度です。"
+
+#. newsItems.correction-award.category
+#: src/data/community.js:63
+msgctxt "text:newsItems.correction-award.category"
+msgid "News"
+msgstr "報道"
+
+#. newsItems.correction-award.title
+#: src/data/community.js:64
+msgctxt "text:newsItems.correction-award.title"
+msgid "Voting opens for Bunbunmaru Campus News correction of the year"
+msgstr "『文々。学報』年間最優秀訂正、投票開始"
+
+#. newsItems.correction-award.summary
+#: src/data/community.js:65
+msgctxt "text:newsItems.correction-award.summary"
+msgid ""
+"Candidates are judged on correction size, publication speed, and whether "
+"they truly explain what went wrong."
+msgstr "修正幅、公開速度、何を誤ったかへの回答で選考します。"
+
+#. newsItems.clinic-route.category
+#: src/data/community.js:70
+msgctxt "text:newsItems.clinic-route.category"
+msgid "Health"
+msgstr "医療"
+
+#. newsItems.clinic-route.title
+#: src/data/community.js:71
+msgctxt "text:newsItems.clinic-route.title"
+msgid "Eientei Clinic opens a low-stimulus bamboo guidance route"
+msgstr "永遠亭診療所、低刺激竹林案内線を運用開始"
+
+#. newsItems.clinic-route.summary
+#: src/data/community.js:72
+msgctxt "text:newsItems.clinic-route.summary"
+msgid "Full-moon mode slows the pulse and stores no visitor wavelength or ability data."
+msgstr "満月モードは点滅を遅くし、来訪者の波長・能力データを保存しません。"
+
+#. newsItems.roof-berths.category
+#: src/data/community.js:77
+msgctxt "text:newsItems.roof-berths.category"
+msgid "Transit"
+msgstr "交通"
+
+#. newsItems.roof-berths.title
+#: src/data/community.js:78
+msgctxt "text:newsItems.roof-berths.title"
+msgid "Boundary Hall adds four large-wing roof berths"
+msgstr "境界講堂屋上、大型翼用停泊枠を4席増設"
+
+#. newsItems.roof-berths.summary
+#: src/data/community.js:79
+msgctxt "text:newsItems.roof-berths.summary"
+msgid "The new berths use crosswind approach; brooms and small wings remain in the east zone."
+msgstr "新枠は横風進入。箒と小型翼は引き続き東側旧区を使用します。"
+
+#. newsItems.fairy-audit.category
+#: src/data/community.js:84
+msgctxt "text:newsItems.fairy-audit.category"
+msgid "Campus"
+msgstr "学務"
+
+#. newsItems.fairy-audit.title
+#: src/data/community.js:85
+msgctxt "text:newsItems.fairy-audit.title"
+msgid "Fairy auditors may now check in with images"
+msgstr "妖精聴講生、図像での出席登録が可能に"
+
+#. newsItems.fairy-audit.summary
+#: src/data/community.js:86
+msgctxt "text:newsItems.fairy-audit.summary"
+msgid "The self-portrait need not be consistent; it only has to identify that day's course."
+msgstr "毎回同じ自画像である必要はなく、当日の授業を識別できれば有効です。"
+
+#. newsItems.unknown-umbrella.category
+#: src/data/community.js:91
+msgctxt "text:newsItems.unknown-umbrella.category"
+msgid "Lost & Found"
+msgstr "遺失物"
+
+#. newsItems.unknown-umbrella.title
+#: src/data/community.js:92
+msgctxt "text:newsItems.unknown-umbrella.title"
+msgid "Hakurei Gate receives an umbrella insisting it is not lost"
+msgstr "博麗門遺失物係、「迷っていない」と主張する傘を保管"
+
+#. newsItems.unknown-umbrella.summary
+#: src/data/community.js:93
+msgctxt "text:newsItems.unknown-umbrella.summary"
+msgid ""
+"The umbrella refuses to describe its owner. Claimants must answer three "
+"questions only the umbrella knows."
+msgstr "傘は所有者の説明を拒否。受取人は傘だけが知る三問に答える必要があります。"
+
+#. newsItems.history-exam.category
+#: src/data/community.js:98
+msgctxt "text:newsItems.history-exam.category"
+msgid "Exams"
+msgstr "試験"
+
+#. newsItems.history-exam.title
+#: src/data/community.js:99
+msgctxt "text:newsItems.history-exam.title"
+msgid "History of Gensokyo open-book exam bans sources that have not happened yet"
+msgstr "幻想郷通史の持込試験、未発生史料を禁止"
+
+#. newsItems.history-exam.summary
+#: src/data/community.js:100
+msgctxt "text:newsItems.history-exam.summary"
+msgid ""
+"Prophecy, dream journals, and reverse-flow river records require individual "
+"declaration and may not be slipped into reference books."
+msgstr "予言、夢日記、逆流河川資料は個別申告し、参考書への直接挟み込みは禁止です。"
+
+#. newsItems.observatory-cloud.category
+#: src/data/community.js:105
+msgctxt "text:newsItems.observatory-cloud.category"
+msgid "Research"
+msgstr "研究"
+
+#. newsItems.observatory-cloud.title
+#: src/data/community.js:106
+msgctxt "text:newsItems.observatory-cloud.title"
+msgid "Tengu Observatory publishes a cloud repeatedly appearing in photo corners"
+msgstr "天狗観測所、写真の隅に繰り返し現れる雲を公開"
+
+#. newsItems.observatory-cloud.summary
+#: src/data/community.js:107
+msgctxt "text:newsItems.observatory-cloud.summary"
+msgid ""
+"There is no evidence it follows reporters. The cloud was invited to comment "
+"and did not reply before deadline."
+msgstr "記者を追跡している証拠はまだなく、雲に回答を求めましたが締切まで返答はありません。"
+
+#. newsItems.quiet-bell.category
+#: src/data/community.js:112
+msgctxt "text:newsItems.quiet-bell.category"
+msgid "Facilities"
+msgstr "施設"
+
+#. newsItems.quiet-bell.title
+#: src/data/community.js:113
+msgctxt "text:newsItems.quiet-bell.title"
+msgid "Campus bell trials an audible-only-to-latecomers mode"
+msgstr "校鐘、遅刻者だけに聞こえるモードを試験"
+
+#. newsItems.quiet-bell.summary
+#: src/data/community.js:114
+msgctxt "text:newsItems.quiet-bell.summary"
+msgid ""
+"Seven people claimed to be on time yet heard it on day one. The team is now "
+"redefining punctuality."
+msgstr "初日に7名が定刻だが聞こえたと申告。研究班は「定刻」の再定義を開始しました。"
+
+#. seededPosts.0.1
+#: src/data/community.js:119
+msgctxt "text:seededPosts.0.1"
+msgid "Student Council"
+msgstr "学生自治会"
+
+#. seededPosts.0.2
+#: src/data/community.js:119
+msgctxt "text:seededPosts.0.2"
+msgid "Temporary air-route and boundary-gate controls during the anniversary"
+msgstr "大学祭期間の空路・境界門臨時規制"
+
+#. seededPosts.0.3
+#: src/data/community.js:119
+msgctxt "text:seededPosts.0.3"
+msgid ""
+"After the sunset bell, airspace above Boundary Hall becomes one-way. Large "
+"wings should approach from Youkai Mountain."
+msgstr "日没鐘後、境界講堂上空は一方通行。大型翼は妖怪の山側から進入してください。"
+
+#. seededPosts.1.1
+#: src/data/community.js:120
+msgctxt "text:seededPosts.1.1"
+msgid "Ordinary Magic Graduate"
+msgstr "普通の魔法大学院生"
+
+#. seededPosts.1.2
+#: src/data/community.js:120
+msgctxt "text:seededPosts.1.2"
+msgid "Has anyone found a safe solution to Seven-Day Elemental Theory II assignment three?"
+msgstr "「七曜元素論 II」第三課題の安全な解を見つけた人は？"
+
+#. seededPosts.1.3
+#: src/data/community.js:120
+msgctxt "text:seededPosts.1.3"
+msgid ""
+"My wood element fired before metal and the desk grew scissors. Is that "
+"success or two incidents?"
+msgstr "木元素が金より先に起動し、机から鋏が生えました。成功か二件の事故か確認したいです。"
+
+#. seededPosts.2.1
+#: src/data/community.js:121
+msgctxt "text:seededPosts.2.1"
+msgid "White Rabbit No. 27"
+msgstr "白兎27号"
+
+#. seededPosts.2.2
+#: src/data/community.js:121
+msgctxt "text:seededPosts.2.2"
+msgid "Bamboo Navigation recruitment: no guarantee of the same return route this week"
+msgstr "竹林オリエンテーリング部新歓：今週は同じ帰路を保証しません"
+
+#. seededPosts.2.3
+#: src/data/community.js:121
+msgctxt "text:seededPosts.2.3"
+msgid ""
+"Meet at the east bamboo gate. If you see the identical meeting point a "
+"second time, do not stop—that one is from last week."
+msgstr "集合は竹林東口。同じ集合点を二度目に見ても止まらないでください。先週のものです。"
+
+#. seededPosts.3.1
+#: src/data/community.js:122
+msgctxt "text:seededPosts.3.1"
+msgid "Workshop North Seat"
+msgstr "工房北側席"
+
+#. seededPosts.3.2
+#: src/data/community.js:122
+msgctxt "text:seededPosts.3.2"
+msgid "Trading unused waterproof talismans for a lunar-spec hex-key set"
+msgstr "未使用の防水符紙と月面規格の六角レンチ一式を交換希望"
+
+#. seededPosts.3.3
+#: src/data/community.js:122
+msgctxt "text:seededPosts.3.3"
+msgid ""
+"Two dozen talismans, never submerged, used in one rain trial. Inspection "
+"available at the Kappa Workshop."
+msgstr "符紙二ダース、未浸水、豪雨試験一回のみ。河童工房で現物確認可。"
+
+#. seededPosts.4.1
+#: src/data/community.js:123
+msgctxt "text:seededPosts.4.1"
+msgid "Anonymous Human Student"
+msgstr "匿名人間学生"
+
+#. seededPosts.4.2
+#: src/data/community.js:123
+msgctxt "text:seededPosts.4.2"
+msgid "Does Professor Keine take attendance—and does it enter history?"
+msgstr "慧音先生の史料批判は出席を取りますか？それも歴史に残りますか？"
+
+#. seededPosts.4.3
+#: src/data/community.js:123
+msgctxt "text:seededPosts.4.3"
+msgid ""
+"I was five minutes late. The roll omits me, but everyone remembers. Which "
+"source should I attach to an appeal?"
+msgstr "先週5分遅刻。名簿にいないのに全員が覚えています。異議申立てにはどの史料を添付すべきですか。"
+
+#. seededPosts.5.1
+#: src/data/community.js:124
+msgctxt "text:seededPosts.5.1"
+msgid "Misty Lake Librarian"
+msgstr "霧の湖司書"
+
+#. seededPosts.5.2
+#: src/data/community.js:124
+msgctxt "text:seededPosts.5.2"
+msgid "Please keep flying books away from open-window seats"
+msgstr "飛ぶ蔵書を開いた窓の席へ持ち込まないでください"
+
+#. seededPosts.5.3
+#: src/data/community.js:124
+msgctxt "text:seededPosts.5.3"
+msgid ""
+"Three were recovered today; a fourth is negotiating with fairies over the "
+"lake. Returns lose no points. Self-capture earns five, but is discouraged."
+msgstr "本日三冊回収。四冊目は湖上で妖精と交渉中。返却は減点なし、自力捕獲は5点ですが非推奨です。"
+
+#. seededPosts.6.1
+#: src/data/community.js:125
+msgctxt "text:seededPosts.6.1"
+msgid "Fairy Choir Alto-ish Section"
+msgstr "妖精合唱団低音部"
+
+#. seededPosts.6.2
+#: src/data/community.js:125
+msgctxt "text:seededPosts.6.2"
+msgid "Seeking anyone who remembers verse two; range irrelevant"
+msgstr "第二節を覚えられる方募集、音域不問"
+
+#. seededPosts.6.3
+#: src/data/community.js:125
+msgctxt "text:seededPosts.6.3"
+msgid ""
+"If you only remember verse three, we can rename it verse two. Wednesday at "
+"the floating stage."
+msgstr "第三節しか覚えていなくても、それを第二節と呼び直せます。水曜に水上舞台で。"
+
+#. seededPosts.7.1
+#: src/data/community.js:126
+msgctxt "text:seededPosts.7.1"
+msgid "Outside World Exchange Student"
+msgstr "外界交換生"
+
+#. seededPosts.7.2
+#: src/data/community.js:126
+msgctxt "text:seededPosts.7.2"
+msgid "Seeking someone who can explain to a smartphone that no signal is not a fault"
+msgstr "スマートフォンに圏外は故障ではないと説明できる方募集"
+
+#. seededPosts.7.3
+#: src/data/community.js:126
+msgctxt "text:seededPosts.7.3"
+msgid ""
+"It restarts every ten minutes; the kappa says hardware is fine. Offering two "
+"bags of Outside World gummies."
+msgstr "10分ごとに再起動。河童はハードに問題なしとのこと。外界グミ二袋と交換します。"
+
+#. seededPosts.8.1
+#: src/data/community.js:127
+msgctxt "text:seededPosts.8.1"
+msgid "First-year Lunar Medicine"
+msgstr "月都医薬一年"
+
+#. seededPosts.8.2
+#: src/data/community.js:127
+msgctxt "text:seededPosts.8.2"
+msgid "Can informed consent for cross-species pharmacology be signed in a dream?"
+msgstr "種族横断薬理の同意書は夢の署名でも有効ですか？"
+
+#. seededPosts.8.3
+#: src/data/community.js:127
+msgctxt "text:seededPosts.8.3"
+msgid ""
+"The participant remembers the form, but the signature is visible only under "
+"the pillow. Ethics review is tomorrow."
+msgstr "被験者は内容を覚えていますが、署名は枕の下でしか見えません。明日倫理審査です。"
+
+#. seededPosts.9.1
+#: src/data/community.js:128
+msgctxt "text:seededPosts.9.1"
+msgid "Air Route Office"
+msgstr "空路管理室"
+
+#. seededPosts.9.2
+#: src/data/community.js:128
+msgctxt "text:seededPosts.9.2"
+msgid "Hovering directly above the campus bell is prohibited this week"
+msgstr "今週は校鐘直上での停止禁止"
+
+#. seededPosts.9.3
+#: src/data/community.js:128
+msgctxt "text:seededPosts.9.3"
+msgid ""
+"Wing surfaces reflect the bell into the president's office. Shift at least "
+"twelve metres east."
+msgstr "鐘音が翼で学長室へ反射します。東へ最低12メートルずれてください。"
+
+#. seededPosts.10.1
+#: src/data/community.js:129
+msgctxt "text:seededPosts.10.1"
+msgid "Tea & News Ethics Society"
+msgstr "茶と報道倫理会"
+
+#. seededPosts.10.2
+#: src/data/community.js:129
+msgctxt "text:seededPosts.10.2"
+msgid "Reporters wanted for the wait-until-the-second-pot headline trial"
+msgstr "「二煎目まで見出しを待つ」実験記者募集"
+
+#. seededPosts.10.3
+#: src/data/community.js:129
+msgctxt "text:seededPosts.10.3"
+msgid ""
+"Tea, deadline-extension certificates, and a control group that cannot resist "
+"writing after pot one are provided."
+msgstr "茶、締切延長証明、一煎目で見出しを書いてしまう対照群があります。"
+
+#. seededPosts.11.1
+#: src/data/community.js:130
+msgctxt "text:seededPosts.11.1"
+msgid "Kourindou Auditor"
+msgstr "香霖堂聴講生"
+
+#. seededPosts.11.2
+#: src/data/community.js:130
+msgctxt "text:seededPosts.11.2"
+msgid "Free: three cables with unknown destinations"
+msgstr "何につなぐか不明なケーブル三本、無料"
+
+#. seededPosts.11.3
+#: src/data/community.js:130
+msgctxt "text:seededPosts.11.3"
+msgid ""
+"The institute says they are not fully forgotten and may develop a new use. "
+"Bring your own bag."
+msgstr "研究所によると未だ完全には忘れられておらず、新用途が発生する可能性あり。袋持参。"
+
+#. seededPosts.12.1
+#: src/data/community.js:131
+msgctxt "text:seededPosts.12.1"
+msgid "Second-year Boundary Studies"
+msgstr "境界研究二年"
+
+#. seededPosts.12.2
+#: src/data/community.js:131
+msgctxt "text:seededPosts.12.2"
+msgid "If the assignment leaves the paper, is it late?"
+msgstr "課題が用紙から出た場合、遅延提出ですか？"
+
+#. seededPosts.12.3
+#: src/data/community.js:131
+msgctxt "text:seededPosts.12.3"
+msgid ""
+"The question is currently between the front and back of the sheet. The TA "
+"says it is on-page; the lecturer says it is out of view."
+msgstr "課題は現在、紙の表裏の間にあります。TAはページ内、教員は可視範囲外との見解です。"
+
+#. seededPosts.13.1
+#: src/data/community.js:132
+msgctxt "text:seededPosts.13.1"
+msgid "South Dining Hall"
+msgstr "南食堂"
+
+#. seededPosts.13.2
+#: src/data/community.js:132
+msgctxt "text:seededPosts.13.2"
+msgid "The gear-cut lotus in Kappa Curry is not a spare part"
+msgstr "河童工房カレーの歯車れんこんは予備部品ではありません"
+
+#. seededPosts.13.3
+#: src/data/community.js:132
+msgctxt "text:seededPosts.13.3"
+msgid "Two slices reached the workshop today. They are suitable for eating, not torque."
+msgstr "本日二枚が工房へ持ち出されました。食用には適しますが、トルクには耐えません。"
+
+#. seededPosts.14.1
+#: src/data/community.js:133
+msgctxt "text:seededPosts.14.1"
+msgid "Unidentified Flying Object Society"
+msgstr "未確認飛行物体観測会"
+
+#. seededPosts.14.2
+#: src/data/community.js:133
+msgctxt "text:seededPosts.14.2"
+msgid "Last night's disc confirmed as a plate; the plate is still flying"
+msgstr "昨夜の円盤は皿と確認。ただし皿はまだ飛行中"
+
+#. seededPosts.14.3
+#: src/data/community.js:133
+msgctxt "text:seededPosts.14.3"
+msgid ""
+"Classification changed from unidentified flying object to unidentified "
+"flight of an identified object. Tracking continues tonight."
+msgstr "分類を「未確認飛行物体」から「確認済物体の未確認飛行」へ変更。今夜も追跡します。"
+
+#. seededPosts.15.1
+#: src/data/community.js:134
+msgctxt "text:seededPosts.15.1"
+msgid "First-year Tengu Journalism"
+msgstr "天狗新聞一年"
+
+#. seededPosts.15.2
+#: src/data/community.js:134
+msgctxt "text:seededPosts.15.2"
+msgid "If my source is faster than me, do they still need anonymity?"
+msgstr "情報源が自分より速くても匿名保護は必要ですか？"
+
+#. seededPosts.15.3
+#: src/data/community.js:134
+msgctxt "text:seededPosts.15.3"
+msgid ""
+"The source flew in front of every interviewee but asked me not to name them. "
+"Photography Ethics did not cover this."
+msgstr "情報源は全取材相手の前へ自ら飛びましたが、匿名を要求。写真倫理では未習です。"
+
+#. seededPosts.16.1
+#: src/data/community.js:135
+msgctxt "text:seededPosts.16.1"
+msgid "Scarlet Mansion Exchange Desk"
+msgstr "紅魔館交換席"
+
+#. seededPosts.16.2
+#: src/data/community.js:135
+msgctxt "text:seededPosts.16.2"
+msgid "Loaning a reference book that does not bite; deposit is a bookmark that does"
+msgstr "噛まない参考書を貸出、保証金は噛む栞"
+
+#. seededPosts.16.3
+#: src/data/community.js:135
+msgctxt "text:seededPosts.16.3"
+msgid ""
+"Three-day loan. The bookmark bites only when overdue, so it is theoretically "
+"completely safe."
+msgstr "期限三日。栞は延滞時のみ噛むため、理論上は完全に安全です。"
+
+#. seededPosts.17.1
+#: src/data/community.js:136
+msgctxt "text:seededPosts.17.1"
+msgid "Eientei Clinic"
+msgstr "永遠亭診療所"
+
+#. seededPosts.17.2
+#: src/data/community.js:136
+msgctxt "text:seededPosts.17.2"
+msgid "Do not test whether you will be anxious before the full-moon clinic"
+msgstr "満月外来前に自分が緊張するか試さないでください"
+
+#. seededPosts.17.3
+#: src/data/community.js:136
+msgctxt "text:seededPosts.17.3"
+msgid ""
+"Repeatedly imagining the bamboo maze changes the baseline. Eat and sleep "
+"normally; save getting lost for the trial."
+msgstr "竹林迷路の反復想像は基準値に影響します。普段通り食事と睡眠を取り、迷うのは試験時に。"

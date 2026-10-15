@@ -1,0 +1,707 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/festival.js:56
+msgctxt "tree:copy#/eyebrow"
+msgid "FESTIVAL OPERATIONS / SPRING SPELL-CARD LANTERNS × BOUNDARY MATRICULATION"
+msgstr "FESTIVAL OPERATIONS / 春季スペルカード灯会 × 境界開学祭"
+
+#. copy/title
+#: src/js/festival.js:56
+msgctxt "tree:copy#/title"
+msgid "A festival is not one success score. It is a campus running all at once."
+msgstr "祭典は、一つの成功点で測るものではない。一晩じゅう、すべてが同時に動くキャンパスだ。"
+
+#. copy/lead
+#: src/js/festival.js:56
+msgctxt "tree:copy#/lead"
+msgid ""
+"Plan procession, airspace, stalls, power, main gate, and aid stations; six "
+"desks stamp independently. Once open, Aya's extra, fairy clouds, Moriya "
+"voltage, and poltergeist after-hours sound do not promise to obey the "
+"programme."
+msgstr "行列、空域、屋台、給電、正門、救護所を組み、六つの机がそれぞれ押印する。開祭後、文の号外も、妖精の雲も、守矢の電気も、騒霊の深夜演奏も、予定表どおりに動くとは限らない。"
+
+#. copy/deskTab
+#: src/js/festival.js:56
+msgctxt "tree:copy#/deskTab"
+msgid "Operations desk"
+msgstr "運営編成机"
+
+#. copy/recordsTab
+#: src/js/festival.js:56
+msgctxt "tree:copy#/recordsTab"
+msgid "Permits & closing files"
+msgstr "許可・閉祭記録"
+
+#. copy/liveTab
+#: src/js/festival.js:56
+msgctxt "tree:copy#/liveTab"
+msgid "Live field board"
+msgstr "現場運行盤"
+
+#. copy/plans
+#: src/js/festival.js:56
+msgctxt "tree:copy#/plans"
+msgid " permits"
+msgstr "件の許可"
+
+#. copy/live
+#: src/js/festival.js:56
+msgctxt "tree:copy#/live"
+msgid " live"
+msgstr "件運行中"
+
+#. copy/closed
+#: src/js/festival.js:56
+msgctxt "tree:copy#/closed"
+msgid " closed"
+msgstr "件閉祭済み"
+
+#. copy/chooseKind
+#: src/js/festival.js:56
+msgctxt "tree:copy#/chooseKind"
+msgid "Festival dossier"
+msgstr "祭典種別"
+
+#. copy/eventTitle
+#: src/js/festival.js:56
+msgctxt "tree:copy#/eventTitle"
+msgid "Event title (optional)"
+msgstr "今回の行事名（空欄可）"
+
+#. copy/startsAt
+#: src/js/festival.js:56
+msgctxt "tree:copy#/startsAt"
+msgid "Date & opening time"
+msgstr "日付・開門時刻"
+
+#. copy/route
+#: src/js/festival.js:56
+msgctxt "tree:copy#/route"
+msgid "Procession / lantern line"
+msgstr "行列／灯線"
+
+#. copy/stage
+#: src/js/festival.js:56
+msgctxt "tree:copy#/stage"
+msgid "Main stage"
+msgstr "主舞台"
+
+#. copy/altitude
+#: src/js/festival.js:56
+msgctxt "tree:copy#/altitude"
+msgid "Spell-card altitude"
+msgstr "スペル空域高度"
+
+#. copy/density
+#: src/js/festival.js:56
+msgctxt "tree:copy#/density"
+msgid "Spell-card density"
+msgstr "スペル密度"
+
+#. copy/cue
+#: src/js/festival.js:56
+msgctxt "tree:copy#/cue"
+msgid "Cue time (seconds)"
+msgstr "予兆時間（秒）"
+
+#. copy/capacity
+#: src/js/festival.js:56
+msgctxt "tree:copy#/capacity"
+msgid "Concurrent village visitors"
+msgstr "里の同時来場上限"
+
+#. copy/power
+#: src/js/festival.js:56
+msgctxt "tree:copy#/power"
+msgid "Kappa power & backup"
+msgstr "河童給電・予備"
+
+#. copy/food
+#: src/js/festival.js:56
+msgctxt "tree:copy#/food"
+msgid "Stalls & Night Sparrow kitchen"
+msgstr "屋台・夜雀食堂"
+
+#. copy/fairies
+#: src/js/festival.js:56
+msgctxt "tree:copy#/fairies"
+msgid "Fairy performance zone"
+msgstr "妖精演技区"
+
+#. copy/aid
+#: src/js/festival.js:56
+msgctxt "tree:copy#/aid"
+msgid "Eientei / gate aid stations"
+msgstr "永遠亭／門前救護所"
+
+#. copy/gate
+#: src/js/festival.js:56
+msgctxt "tree:copy#/gate"
+msgid "Who uses the “sole main gate”"
+msgstr "「唯一の正門」使用者"
+
+#. copy/press
+#: src/js/festival.js:56
+msgctxt "tree:copy#/press"
+msgid "News & field wire"
+msgstr "報道・現場通報"
+
+#. copy/music
+#: src/js/festival.js:56
+msgctxt "tree:copy#/music"
+msgid "Prismriver set & closing"
+msgstr "騒霊楽団・閉場"
+
+#. copy/protections
+#: src/js/festival.js:56
+msgctxt "tree:copy#/protections"
+msgid "Three sheets the wind may not carry"
+msgstr "風で飛ばせない三枚"
+
+#. copy/rainPlan
+#: src/js/festival.js:56
+msgctxt "tree:copy#/rainPlan"
+msgid "Wet-weather / incident fallback filed"
+msgstr "雨天・異変予備あり"
+
+#. copy/debrisCrew
+#: src/js/festival.js:56
+msgctxt "tree:copy#/debrisCrew"
+msgid "Falling-object / lantern recovery crew filed"
+msgstr "落下物・灯籠回収班あり"
+
+#. copy/independentCounter
+#: src/js/festival.js:56
+msgctxt "tree:copy#/independentCounter"
+msgid "Attendance count does not depend on one ticket system or ability"
+msgstr "人数計測は同じ券／能力だけに依存しない"
+
+#. copy/stopRule
+#: src/js/festival.js:56
+msgctxt "tree:copy#/stopRule"
+msgid "Stopping rule"
+msgstr "停止規則"
+
+#. copy/rainRule
+#: src/js/festival.js:56
+msgctxt "tree:copy#/rainRule"
+msgid "Wet-weather / incident switch rule"
+msgstr "雨天／異変切替規則"
+
+#. copy/accessibility
+#: src/js/festival.js:56
+msgctxt "tree:copy#/accessibility"
+msgid "Shared-life and low-stimulation arrangements"
+msgstr "共同生活・低刺激配置"
+
+#. copy/note
+#: src/js/festival.js:56
+msgctxt "tree:copy#/note"
+msgid "Organiser marginalia"
+msgstr "主催側記"
+
+#. copy/save
+#: src/js/festival.js:56
+msgctxt "tree:copy#/save"
+msgid "Pin draft to desk"
+msgstr "下書きを机の角へ留める"
+
+#. copy/reset
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reset"
+msgid "Restore first operations draft"
+msgstr "初版運営案へ戻す"
+
+#. copy/preview
+#: src/js/festival.js:56
+msgctxt "tree:copy#/preview"
+msgid "Ring the six-desk bell"
+msgstr "六机合同鐘を鳴らす"
+
+#. copy/submit
+#: src/js/festival.js:56
+msgctxt "tree:copy#/submit"
+msgid "Submit for formal festival permit"
+msgstr "祭典許可へ正式提出"
+
+#. copy/saved
+#: src/js/festival.js:56
+msgctxt "tree:copy#/saved"
+msgid "Draft pinned; kappa tape did not touch the date field."
+msgstr "下書きを固定。河童テープは日付欄に触れていない。"
+
+#. copy/issued
+#: src/js/festival.js:56
+msgctxt "tree:copy#/issued"
+msgid "Six-desk permit filed without merging the sheets."
+msgstr "六机許可を別紙のまま綴じました。"
+
+#. copy/metrics
+#: src/js/festival.js:56
+msgctxt "tree:copy#/metrics"
+msgid "How this version changes campus"
+msgstr "この版がキャンパスをどう変えるか"
+
+#. copy/attendance
+#: src/js/festival.js:56
+msgctxt "tree:copy#/attendance"
+msgid "Expected concurrent attendance"
+msgstr "同時来場予測"
+
+#. copy/powerLoad
+#: src/js/festival.js:56
+msgctxt "tree:copy#/powerLoad"
+msgid "Peak power"
+msgstr "給電ピーク"
+
+#. copy/clinic
+#: src/js/festival.js:56
+msgctxt "tree:copy#/clinic"
+msgid "Expected aid / clinic presentations"
+msgstr "救護／受診予測"
+
+#. copy/routeDelay
+#: src/js/festival.js:56
+msgctxt "tree:copy#/routeDelay"
+msgid "Added route delay"
+msgstr "経路追加遅延"
+
+#. copy/volunteers
+#: src/js/festival.js:56
+msgctxt "tree:copy#/volunteers"
+msgid "Minimum duty crew"
+msgstr "最低当番人数"
+
+#. copy/recovery
+#: src/js/festival.js:56
+msgctxt "tree:copy#/recovery"
+msgid "Lanterns / light markers to recover"
+msgstr "回収灯籠／光標"
+
+#. copy/people
+#: src/js/festival.js:56
+msgctxt "tree:copy#/people"
+msgid "people"
+msgstr "人"
+
+#. copy/minutes
+#: src/js/festival.js:56
+msgctxt "tree:copy#/minutes"
+msgid "minutes"
+msgstr "分"
+
+#. copy/desks
+#: src/js/festival.js:56
+msgctxt "tree:copy#/desks"
+msgid "Six desks do not sign for one another"
+msgstr "六机は相互代署しない"
+
+#. copy/desksLead
+#: src/js/festival.js:56
+msgctxt "tree:copy#/desksLead"
+msgid ""
+"Safety, power, medicine, publicity, faith, and shared night life are not "
+"averaged. One return can block opening; objections enter the formal permit "
+"unchanged."
+msgstr "安全、給電、医療、広報、信仰、共同夜生活を平均しない。一つの差戻しで開祭を止め、異議は許可本文に残る。"
+
+#. copy/conditions
+#: src/js/festival.js:56
+msgctxt "tree:copy#/conditions"
+msgid "Conditions / objections"
+msgstr "条件／異議"
+
+#. copy/noConditions
+#: src/js/festival.js:56
+msgctxt "tree:copy#/noConditions"
+msgid "No additional condition from this desk."
+msgstr "本机の追加条件なし。"
+
+#. copy/programme
+#: src/js/festival.js:56
+msgctxt "tree:copy#/programme"
+msgid "Programme generated from this version"
+msgstr "この版の番組表"
+
+#. copy/operationsMap
+#: src/js/festival.js:56
+msgctxt "tree:copy#/operationsMap"
+msgid "Closures & site layout"
+msgstr "通行規制・会場配置"
+
+#. copy/liveCampus
+#: src/js/festival.js:56
+msgctxt "tree:copy#/liveCampus"
+msgid "Duty campus"
+msgstr "当番キャンパス"
+
+#. copy/weather
+#: src/js/festival.js:56
+msgctxt "tree:copy#/weather"
+msgid "Field weather"
+msgstr "現場気象"
+
+#. copy/phase
+#: src/js/festival.js:56
+msgctxt "tree:copy#/phase"
+msgid "Moon phase"
+msgstr "月相"
+
+#. copy/permit
+#: src/js/festival.js:56
+msgctxt "tree:copy#/permit"
+msgid "Formal event permit"
+msgstr "正式行事許可"
+
+#. copy/permitNotice
+#: src/js/festival.js:56
+msgctxt "tree:copy#/permitNotice"
+msgid ""
+"All six desk opinions form the permit. Do not keep only the outcome and omit "
+"exits, medical conditions, or gate objections."
+msgstr "六机意見は全て許可本文。結論だけ残して退路・救護・正門異議を省略しない。"
+
+#. copy/status
+#: src/js/festival.js:56
+msgctxt "tree:copy#/status"
+msgid "Permit status"
+msgstr "許可状態"
+
+#. copy/filed
+#: src/js/festival.js:56
+msgctxt "tree:copy#/filed"
+msgid "Filed"
+msgstr "綴込時刻"
+
+#. copy/startFestival
+#: src/js/festival.js:56
+msgctxt "tree:copy#/startFestival"
+msgid "Open and take a duty badge"
+msgstr "開祭して当番札を受け取る"
+
+#. copy/role
+#: src/js/festival.js:56
+msgctxt "tree:copy#/role"
+msgid "Role in on-device record"
+msgstr "端末内履歴の役割"
+
+#. copy/organiser
+#: src/js/festival.js:56
+msgctxt "tree:copy#/organiser"
+msgid "Organiser / operations"
+msgstr "主催／運営"
+
+#. copy/volunteer
+#: src/js/festival.js:56
+msgctxt "tree:copy#/volunteer"
+msgid "Volunteer / guide"
+msgstr "志願／誘導"
+
+#. copy/observer
+#: src/js/festival.js:56
+msgctxt "tree:copy#/observer"
+msgid "Campus observer"
+msgstr "学務観察員"
+
+#. copy/acknowledge
+#: src/js/festival.js:56
+msgctxt "tree:copy#/acknowledge"
+msgid "I read all six conditions and understand a contested permit does not remove the dispute"
+msgstr "六机条件を読み、係争許可でも争いは消えないと理解した"
+
+#. copy/start
+#: src/js/festival.js:56
+msgctxt "tree:copy#/start"
+msgid "Ring the opening bell"
+msgstr "開門鐘を鳴らす"
+
+#. copy/blocked
+#: src/js/festival.js:56
+msgctxt "tree:copy#/blocked"
+msgid "This version was returned; replan and submit again."
+msgstr "この版は差戻し。再編成して再提出が必要。"
+
+#. copy/acknowledgementNeeded
+#: src/js/festival.js:56
+msgctxt "tree:copy#/acknowledgementNeeded"
+msgid "First acknowledge that six-desk conditions remain operative after opening."
+msgstr "開祭後も六机条件が有効だと先に確認してください。"
+
+#. copy/revise
+#: src/js/festival.js:56
+msgctxt "tree:copy#/revise"
+msgid "Replan from six opinions"
+msgstr "六机意見から再編成"
+
+#. copy/printPermit
+#: src/js/festival.js:56
+msgctxt "tree:copy#/printPermit"
+msgid "Print / save event permit"
+msgstr "行事許可を印刷／PDF保存"
+
+#. copy/share
+#: src/js/festival.js:56
+msgctxt "tree:copy#/share"
+msgid "Copy exact address"
+msgstr "正確な住所をコピー"
+
+#. copy/copied
+#: src/js/festival.js:56
+msgctxt "tree:copy#/copied"
+msgid "Festival file address copied."
+msgstr "祭典ファイルの住所をコピーしました。"
+
+#. copy/openMap
+#: src/js/festival.js:56
+msgctxt "tree:copy#/openMap"
+msgid "View active campus detours"
+msgstr "有効な迂回を地図で見る"
+
+#. copy/openClinic
+#: src/js/festival.js:56
+msgctxt "tree:copy#/openClinic"
+msgid "View Eientei load"
+msgstr "永遠亭の受診負荷を見る"
+
+#. copy/fieldBoard
+#: src/js/festival.js:56
+msgctxt "tree:copy#/fieldBoard"
+msgid "Festival live operations board"
+msgstr "祭典現場運行盤"
+
+#. copy/fieldLead
+#: src/js/festival.js:56
+msgctxt "tree:copy#/fieldLead"
+msgid ""
+"Choose one first response per field case. Responses change delay, medicine, "
+"power, attendance, and unresolved disputes."
+msgstr "各現場案件は先行措置を一つ選ぶ。措置は遅延、救護、給電、来場、未解決異議を変える。"
+
+#. copy/resolved
+#: src/js/festival.js:56
+msgctxt "tree:copy#/resolved"
+msgid "Resolved"
+msgstr "処置済み"
+
+#. copy/chooseResponse
+#: src/js/festival.js:56
+msgctxt "tree:copy#/chooseResponse"
+msgid "Choose first response"
+msgstr "先行措置を選ぶ"
+
+#. copy/fieldCases
+#: src/js/festival.js:56
+msgctxt "tree:copy#/fieldCases"
+msgid "Field cases"
+msgstr "現場案件"
+
+#. copy/closeFestival
+#: src/js/festival.js:56
+msgctxt "tree:copy#/closeFestival"
+msgid "Complete recovery and close"
+msgstr "回収完了・閉祭"
+
+#. copy/unresolved
+#: src/js/festival.js:56
+msgctxt "tree:copy#/unresolved"
+msgid "Field cases remain unresolved; turning out the lights alone is not closure."
+msgstr "未処置案件あり。灯を消すだけでは閉祭にならない。"
+
+#. copy/closedToast
+#: src/js/festival.js:56
+msgctxt "tree:copy#/closedToast"
+msgid "Closing bell rung; routes release while objections and extras remain until morning."
+msgstr "閉場鐘。経路は解放、異議と号外は明朝へ。"
+
+#. copy/report
+#: src/js/festival.js:56
+msgctxt "tree:copy#/report"
+msgid "Festival closing report"
+msgstr "閉祭運営報告"
+
+#. copy/headline
+#: src/js/festival.js:56
+msgctxt "tree:copy#/headline"
+msgid "Bunbunmaru Closing Extra"
+msgstr "文々。閉祭号外"
+
+#. copy/reportAttendance
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportAttendance"
+msgid "Estimated attendance"
+msgstr "推定来場"
+
+#. copy/reportClinic
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportClinic"
+msgid "Aid / clinic"
+msgstr "救護／受診"
+
+#. copy/reportDelay
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportDelay"
+msgid "Total delay"
+msgstr "総遅延"
+
+#. copy/reportPower
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportPower"
+msgid "Peak power"
+msgstr "給電ピーク"
+
+#. copy/reportDisputes
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportDisputes"
+msgid "Decisions still disputed"
+msgstr "異議付き決定"
+
+#. copy/reportNotice
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportNotice"
+msgid "Closing releases temporary routes; history does not disappear with the barriers."
+msgstr "閉祭で臨時規制は解放。柵を外しても出来事は消えない。"
+
+#. copy/printReport
+#: src/js/festival.js:56
+msgctxt "tree:copy#/printReport"
+msgid "Print / save closing report"
+msgstr "閉祭報告を印刷／PDF保存"
+
+#. copy/records
+#: src/js/festival.js:56
+msgctxt "tree:copy#/records"
+msgid "On-device festival files"
+msgstr "端末内祭典記録"
+
+#. copy/noRecords
+#: src/js/festival.js:56
+msgctxt "tree:copy#/noRecords"
+msgid "No festival permit on this device. Three sole main gates are serving as broom stands."
+msgstr "この端末に祭典許可なし。三つの唯一正門は箒立てになっている。"
+
+#. copy/openFile
+#: src/js/festival.js:56
+msgctxt "tree:copy#/openFile"
+msgid "Open file"
+msgstr "記録を開く"
+
+#. copy/planRecord
+#: src/js/festival.js:56
+msgctxt "tree:copy#/planRecord"
+msgid "Permit"
+msgstr "許可"
+
+#. copy/operationRecord
+#: src/js/festival.js:56
+msgctxt "tree:copy#/operationRecord"
+msgid "Operation"
+msgstr "運行"
+
+#. copy/localOnly
+#: src/js/festival.js:56
+msgctxt "tree:copy#/localOnly"
+msgid ""
+"Draft, permit, duty, and closure stay in this browser. Formal actions enter "
+"My TU and the records cabinet can box the files."
+msgstr "下書き、許可、当番、閉祭はこのブラウザだけ。正式動作は My TU に入り、資料棚から封箱できます。"
+
+#. copy/cabinet
+#: src/js/festival.js:56
+msgctxt "tree:copy#/cabinet"
+msgid "Open on-device records"
+msgstr "端末内資料棚を開く"
+
+#. copy/mytu
+#: src/js/festival.js:56
+msgctxt "tree:copy#/mytu"
+msgid "View My TU organiser / volunteer record"
+msgstr "My TU の志願／主催履歴を見る"
+
+#. copy/activeNow
+#: src/js/festival.js:56
+msgctxt "tree:copy#/activeNow"
+msgid "This operations slip is changing the ordinary campus"
+msgstr "この運行票が通常キャンパスを変更中"
+
+#. copy/activeNote
+#: src/js/festival.js:56
+msgctxt "tree:copy#/activeNote"
+msgid ""
+"Closures are in the map algorithm and expected presentations are in "
+"Eientei's board. Closing releases both."
+msgstr "規制は地図算法へ、受診予測は永遠亭盤へ反映。閉祭後に同時解放。"
+
+#. copy/documentTitle
+#: src/js/festival.js:56
+msgctxt "tree:copy#/documentTitle"
+msgid "Joint Festival Operations Permit"
+msgstr "祭典共同運営許可書"
+
+#. copy/reportTitle
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportTitle"
+msgid "Festival Closing Operations Report"
+msgstr "祭典閉祭運営報告"
+
+#. names/0
+#: src/js/festival.js:87
+msgctxt "tree:names#/0"
+msgid "new moon"
+msgstr "新月"
+
+#. names/1
+#: src/js/festival.js:87
+msgctxt "tree:names#/1"
+msgid "waxing crescent"
+msgstr "三日月"
+
+#. names/2
+#: src/js/festival.js:87
+msgctxt "tree:names#/2"
+msgid "first-quarter approach"
+msgstr "上弦前"
+
+#. names/3
+#: src/js/festival.js:87
+msgctxt "tree:names#/3"
+msgid "waxing gibbous"
+msgstr "十三夜"
+
+#. names/4
+#: src/js/festival.js:87
+msgctxt "tree:names#/4"
+msgid "full moon"
+msgstr "満月"
+
+#. names/5
+#: src/js/festival.js:87
+msgctxt "tree:names#/5"
+msgid "waning gibbous"
+msgstr "寝待月"
+
+#. names/6
+#: src/js/festival.js:87
+msgctxt "tree:names#/6"
+msgid "last-quarter wake"
+msgstr "下弦後"
+
+#. names/7
+#: src/js/festival.js:87
+msgctxt "tree:names#/7"
+msgid "waning crescent"
+msgstr "有明月"
+
+#. hero.0
+#: src/js/festival.js:141
+msgctxt "text:hero.0"
+msgid "Spring spell-card lantern festival beneath shrine gates and cherry blossoms"
+msgstr "鳥居と桜の下の春季スペルカード灯会"

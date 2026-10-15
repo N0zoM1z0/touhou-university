@@ -1,0 +1,807 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. schools.boundary.name
+#: src/data/schools.js:9
+msgctxt "text:schools.boundary.name"
+msgid "School of Boundaries & Incidents"
+msgstr "境界・異変研究院"
+
+#. schools.boundary.degree
+#: src/data/schools.js:11
+msgctxt "text:schools.boundary.degree"
+msgid "Bachelor of Boundary Studies"
+msgstr "境界学学士"
+
+#. schools.boundary.duration
+#: src/data/schools.js:12
+msgctxt "text:schools.boundary.duration"
+msgid "4 years · 8 terms"
+msgstr "4年・8学期"
+
+#. schools.boundary.intake
+#: src/data/schools.js:14
+msgctxt "text:schools.boundary.intake"
+msgid "48 students"
+msgstr "48名"
+
+#. schools.boundary.tuition
+#: src/data/schools.js:15
+msgctxt "text:schools.boundary.tuition"
+msgid "¥82,000 / term"
+msgstr "82,000円／学期"
+
+#. schools.boundary.director
+#: src/data/schools.js:16
+msgctxt "text:schools.boundary.director"
+msgid "Dean: Yukari Yakumo"
+msgstr "院長：八雲紫"
+
+#. schools.boundary.overview
+#: src/data/schools.js:17
+msgctxt "text:schools.boundary.overview"
+msgid ""
+"Study how separation, passage, and incidents come into being. Students "
+"identify everyone affected by a boundary, build a verifiable incident "
+"timeline, and later run a joint exercise with explicit stop conditions."
+msgstr "隔たり、通行、異変が成立する条件を研究する。まず境界の影響を受ける者を見極め、異変を検証可能な時系列へ記述する。上級生は終了条件付き共同演習を主宰する。"
+
+#. schools.boundary.courses.0.1
+#: src/data/schools.js:19
+msgctxt "text:schools.boundary.courses.0.1"
+msgid "Boundary Literacy & Safe Distance"
+msgstr "境界読解と安全距離"
+
+#. schools.boundary.courses.1.1
+#: src/data/schools.js:20
+msgctxt "text:schools.boundary.courses.1.1"
+msgid "Incident Field Recording"
+msgstr "異変現場記録法"
+
+#. schools.boundary.courses.2.1
+#: src/data/schools.js:21
+msgctxt "text:schools.boundary.courses.2.1"
+msgid "Spell-card Rules & Exit Design"
+msgstr "スペルカード規則と退路設計"
+
+#. schools.boundary.courses.3.1
+#: src/data/schools.js:22
+msgctxt "text:schools.boundary.courses.3.1"
+msgid "Great Barrier Passage Governance"
+msgstr "大結界通行ガバナンス"
+
+#. schools.boundary.courses.4.1
+#: src/data/schools.js:23
+msgctxt "text:schools.boundary.courses.4.1"
+msgid "Joint Incident Practicum"
+msgstr "共同異変演習"
+
+#. schools.boundary.studios
+#: src/data/schools.js:25
+msgctxt "text:schools.boundary.studios"
+msgid ""
+"Choose Dream & Reality, Gap Measurement, or Incident Mediation; each studio "
+"is capped at twelve."
+msgstr "「夢と現実」「隙間計測」「異変調停」の三工房から選択。各工房は12名まで。"
+
+#. schools.boundary.fieldwork
+#: src/data/schools.js:26
+msgctxt "text:schools.boundary.fieldwork"
+msgid ""
+"From year two, students rotate through Hakurei Gate and Boundary Hall. Rifts "
+"may never be widened merely to obtain data."
+msgstr "2年次から博麗門と境界講堂で当番実習。資料取得のため裂け目を拡大してはならない。"
+
+#. schools.boundary.progression
+#: src/data/schools.js:27
+msgctxt "text:schools.boundary.progression"
+msgid ""
+"Graduation requires 132 credits, two cross-species risk reviews, and a "
+"public defence of one route deliberately not taken."
+msgstr "132単位、種族横断リスク審査2回、公開討論で採用しなかった経路の説明が必要。"
+
+#. schools.boundary.costs
+#: src/data/schools.js:28
+msgctxt "text:schools.boundary.costs"
+msgid ""
+"A ¥4,000 practicum bond is refunded if the venue, barrier, and bystanders "
+"all remain intact."
+msgstr "共同演習保証金4,000円。演習後に会場・結界・見学者が無事なら学期末に全額返還。"
+
+#. schools.boundary.outcomes
+#: src/data/schools.js:29
+msgctxt "text:schools.boundary.outcomes"
+msgid ""
+"Boundary steward, incident investigator, public-safety planner, inter-campus "
+"passage coordinator."
+msgstr "境界管理者、異変調査員、公共安全企画担当、キャンパス間通行調整員。"
+
+#. schools.history.name
+#: src/data/schools.js:36
+msgctxt "text:schools.history.name"
+msgid "School of History & Records"
+msgstr "歴史記録学部"
+
+#. schools.history.degree
+#: src/data/schools.js:38
+msgctxt "text:schools.history.degree"
+msgid "Bachelor of Record Studies"
+msgstr "記録学学士"
+
+#. schools.history.duration
+#: src/data/schools.js:39
+msgctxt "text:schools.history.duration"
+msgid "4 years · 8 terms"
+msgstr "4年・8学期"
+
+#. schools.history.intake
+#: src/data/schools.js:41
+msgctxt "text:schools.history.intake"
+msgid "56 students"
+msgstr "56名"
+
+#. schools.history.tuition
+#: src/data/schools.js:42
+msgctxt "text:schools.history.tuition"
+msgid "¥68,000 / term"
+msgstr "68,000円／学期"
+
+#. schools.history.director
+#: src/data/schools.js:43
+msgctxt "text:schools.history.director"
+msgid "Dean: Hieda no Akyuu"
+msgstr "学部長：稗田阿求"
+
+#. schools.history.overview
+#: src/data/schools.js:44
+msgctxt "text:schools.history.overview"
+msgid ""
+"Chronicles, oral accounts, terakoya texts, and youkai rumours share one "
+"worktable. The accounts need not agree; students must identify who "
+"remembered what and when—and who left no written record."
+msgstr "年代記、口述、寺子屋教材、妖怪の噂を同じ机で読む。全記録の一致ではなく、誰がいつ記憶し、誰が文字を残せなかったかを明示する。"
+
+#. schools.history.courses.0.1
+#: src/data/schools.js:46
+msgctxt "text:schools.history.courses.0.1"
+msgid "History of Gensokyo"
+msgstr "幻想郷通史"
+
+#. schools.history.courses.1.1
+#: src/data/schools.js:47
+msgctxt "text:schools.history.courses.1.1"
+msgid "Source Criticism & Missing Pages"
+msgstr "史料校勘と欠頁学"
+
+#. schools.history.courses.2.1
+#: src/data/schools.js:48
+msgctxt "text:schools.history.courses.2.1"
+msgid "Oral History of Long-Lived Species"
+msgstr "長命種オーラルヒストリー"
+
+#. schools.history.courses.3.1
+#: src/data/schools.js:49
+msgctxt "text:schools.history.courses.3.1"
+msgid "Terakoya Curriculum Design"
+msgstr "寺子屋カリキュラム設計"
+
+#. schools.history.courses.4.1
+#: src/data/schools.js:50
+msgctxt "text:schools.history.courses.4.1"
+msgid "Three Histories of One Place"
+msgstr "一地三史卒業資料"
+
+#. schools.history.studios
+#: src/data/schools.js:52
+msgctxt "text:schools.history.studios"
+msgid ""
+"Mix paper archives, oral memory, and youkai imagery. Full-moon sealed "
+"records require seven days' notice."
+msgstr "紙資料・口述記憶・妖怪図像の三経路を横断履修可。満月封印資料は7日前申請。"
+
+#. schools.history.fieldwork
+#: src/data/schools.js:53
+msgctxt "text:schools.history.fieldwork"
+msgid ""
+"Every student serves one season of village oral-history duty and logs "
+"passages narrators ask to remove in a closed catalogue."
+msgstr "人里で一季節にわたる口述史当番を務め、話者が削除を求めた箇所は非公開目録に記録する。"
+
+#. schools.history.progression
+#: src/data/schools.js:54
+msgctxt "text:schools.history.progression"
+msgid ""
+"At least 20 of 128 credits must use non-text sources. The capstone preserves "
+"contradictory versions alongside its correction history."
+msgstr "128単位のうち20単位以上を非文字資料から取得。卒業資料は矛盾する版と訂正履歴を共に保存する。"
+
+#. schools.history.costs
+#: src/data/schools.js:55
+msgctxt "text:schools.history.costs"
+msgid ""
+"Archive reproduction is capped at ¥2,400 per term and may be offset by "
+"transcription or preservation duty."
+msgstr "史料複製費は学期2,400円上限。筆写または防虫作業で相殺可。"
+
+#. schools.history.outcomes
+#: src/data/schools.js:56
+msgctxt "text:schools.history.outcomes"
+msgid "Archivist, terakoya teacher, oral historian, public-memory curator."
+msgstr "公文書員、寺子屋教師、口述史研究員、公共記憶キュレーター。"
+
+#. schools.magic.name
+#: src/data/schools.js:63
+msgctxt "text:schools.magic.name"
+msgid "School of Magic Theory & Practice"
+msgstr "魔法理論実践学部"
+
+#. schools.magic.degree
+#: src/data/schools.js:65
+msgctxt "text:schools.magic.degree"
+msgid "Bachelor of Magic Practice"
+msgstr "魔法実践学士"
+
+#. schools.magic.duration
+#: src/data/schools.js:66
+msgctxt "text:schools.magic.duration"
+msgid "4 years · 8 terms"
+msgstr "4年・8学期"
+
+#. schools.magic.intake
+#: src/data/schools.js:68
+msgctxt "text:schools.magic.intake"
+msgid "40 students"
+msgstr "40名"
+
+#. schools.magic.tuition
+#: src/data/schools.js:69
+msgctxt "text:schools.magic.tuition"
+msgid "¥96,000 / term"
+msgstr "96,000円／学期"
+
+#. schools.magic.director
+#: src/data/schools.js:70
+msgctxt "text:schools.magic.director"
+msgid "Dean: Patchouli Knowledge"
+msgstr "学部長：パチュリー・ノーレッジ"
+
+#. schools.magic.overview
+#: src/data/schools.js:71
+msgctxt "text:schools.magic.overview"
+msgid ""
+"From Seven-Day elements to grimoires, dolls, and high-output trials, the "
+"school assesses successful activation separately from safe reproducibility. "
+"Students without magic can specialise in magical media and measurement."
+msgstr "七曜元素、魔導書読解、人形、高出力実験を学び、「発動できる」と「安全に再現できる」を別々に評価する。魔力を持たない学生は媒体設計・計測経路を選べる。"
+
+#. schools.magic.courses.0.1
+#: src/data/schools.js:73
+msgctxt "text:schools.magic.courses.0.1"
+msgid "Seven-Day Elemental Theory I"
+msgstr "七曜元素論 I"
+
+#. schools.magic.courses.1.1
+#: src/data/schools.js:74
+msgctxt "text:schools.magic.courses.1.1"
+msgid "Grimoire Reading & Counter-Reading"
+msgstr "魔導書読解と逆読"
+
+#. schools.magic.courses.2.1
+#: src/data/schools.js:75
+msgctxt "text:schools.magic.courses.2.1"
+msgid "Doll Engineering & Remote Control"
+msgstr "人形工学と遠隔操作"
+
+#. schools.magic.courses.3.1
+#: src/data/schools.js:76
+msgctxt "text:schools.magic.courses.3.1"
+msgid "High-Output Experimental Safety"
+msgstr "高出力実験安全"
+
+#. schools.magic.courses.4.1
+#: src/data/schools.js:77
+msgctxt "text:schools.magic.courses.4.1"
+msgid "Reproducible Magic Studio"
+msgstr "再現可能魔法制作"
+
+#. schools.magic.studios
+#: src/data/schools.js:79
+msgctxt "text:schools.magic.studios"
+msgid ""
+"Each laboratory floor corresponds to one element. Cross-floor work needs "
+"signatures from two instructors of different elements."
+msgstr "七曜塔は各階が一元素に対応。階をまたぐ実験は異なる元素の教員2名の署名が必要。"
+
+#. schools.magic.fieldwork
+#: src/data/schools.js:80
+msgctxt "text:schools.magic.fieldwork"
+msgid ""
+"Third-years take Borrowed Magic: use only a classmate's spell and report "
+"every assumption hidden in its manual."
+msgstr "3年次に「借りた魔法」実習。他学生の術式のみを使い、説明書の推測箇所をすべて報告する。"
+
+#. schools.magic.progression
+#: src/data/schools.js:81
+msgctxt "text:schools.magic.progression"
+msgid ""
+"Complete 136 credits and two runaway-shutdown assessments. A non-magician "
+"must reproduce the capstone from its diagrams."
+msgstr "136単位と暴走停止試験2回に合格。卒業作は非魔法使1名が図面から再現できること。"
+
+#. schools.magic.costs
+#: src/data/schools.js:82
+msgctxt "text:schools.magic.costs"
+msgid ""
+"A ¥12,000 materials deposit is refunded when unused. Personal mushrooms "
+"require spore registration and do not offset tuition."
+msgstr "材料預託12,000円、未使用分返金。持込茸は胞子登録必須で、授業料相殺不可。"
+
+#. schools.magic.outcomes
+#: src/data/schools.js:83
+msgctxt "text:schools.magic.outcomes"
+msgid "Magic researcher, spell safety officer, arcane-medium designer, doll-systems engineer."
+msgstr "魔法研究、術式安全管理、魔導媒体設計、人形システム技師。"
+
+#. schools.medicine.name
+#: src/data/schools.js:90
+msgctxt "text:schools.medicine.name"
+msgid "School of Lunar Medicine & Life"
+msgstr "月都医薬生命学部"
+
+#. schools.medicine.degree
+#: src/data/schools.js:92
+msgctxt "text:schools.medicine.degree"
+msgid "Bachelor of Cross-Species Medicine"
+msgstr "種族横断医薬学士"
+
+#. schools.medicine.duration
+#: src/data/schools.js:93
+msgctxt "text:schools.medicine.duration"
+msgid "6 years · 12 terms"
+msgstr "6年・12学期"
+
+#. schools.medicine.intake
+#: src/data/schools.js:95
+msgctxt "text:schools.medicine.intake"
+msgid "32 students"
+msgstr "32名"
+
+#. schools.medicine.tuition
+#: src/data/schools.js:96
+msgctxt "text:schools.medicine.tuition"
+msgid "¥112,000 / term"
+msgstr "112,000円／学期"
+
+#. schools.medicine.director
+#: src/data/schools.js:97
+msgctxt "text:schools.medicine.director"
+msgid "Dean: Eirin Yagokoro"
+msgstr "学部長：八意永琳"
+
+#. schools.medicine.overview
+#: src/data/schools.js:98
+msgctxt "text:schools.medicine.overview"
+msgid ""
+"Study pharmacology, lunar sensation, and care across different bodies. "
+"Training begins with “never assume every pulse is alike” and ends with a "
+"clear Eientei night-clinic handover."
+msgstr "薬理、月相感覚、異なる身体の臨床を学ぶ。「全員の脈が同じと思わない」ことから始め、永遠亭夜診で明確な引継ぎができるまで進む。"
+
+#. schools.medicine.courses.0.1
+#: src/data/schools.js:100
+msgctxt "text:schools.medicine.courses.0.1"
+msgid "Comparative Anatomy Across Species"
+msgstr "種族横断解剖概論"
+
+#. schools.medicine.courses.1.1
+#: src/data/schools.js:101
+msgctxt "text:schools.medicine.courses.1.1"
+msgid "Lunar Sensation & Neural Safety"
+msgstr "月相感覚と神経安全"
+
+#. schools.medicine.courses.2.1
+#: src/data/schools.js:102
+msgctxt "text:schools.medicine.courses.2.1"
+msgid "Hourai Pharmacology & Irreversibility"
+msgstr "蓬莱薬理と不可逆性"
+
+#. schools.medicine.courses.3.1
+#: src/data/schools.js:103
+msgctxt "text:schools.medicine.courses.3.1"
+msgid "Bamboo Emergency Navigation"
+msgstr "竹林救急ナビゲーション"
+
+#. schools.medicine.courses.4.1
+#: src/data/schools.js:104
+msgctxt "text:schools.medicine.courses.4.1"
+msgid "Eientei Clinical Rotation"
+msgstr "永遠亭臨床実習"
+
+#. schools.medicine.studios
+#: src/data/schools.js:106
+msgctxt "text:schools.medicine.studios"
+msgid ""
+"Choose pharmacology, sensory safety, or community care. Hourai components "
+"never leave the sealed teaching cabinet."
+msgstr "薬理・感覚安全・地域医療の三経路。蓬莱成分を密閉教材庫から持ち出してはならない。"
+
+#. schools.medicine.fieldwork
+#: src/data/schools.js:107
+msgctxt "text:schools.medicine.fieldwork"
+msgid ""
+"From year four, students serve two night clinics per month, using "
+"moon-rabbit transport, low-stimulus rooms, and language support as clinical "
+"resources."
+msgstr "4年次から月2回の夜診。月兎便、満月低刺激室、言語支援を臨床資源として扱う。"
+
+#. schools.medicine.progression
+#: src/data/schools.js:108
+msgctxt "text:schools.medicine.progression"
+msgid ""
+"Requires 198 credits, three simulated emergencies, complete handover "
+"records, and one treatment study causing no permanent change."
+msgstr "198単位、模擬救急3回、完全な引継ぎ記録、永久変化を起こさない治療研究1件。"
+
+#. schools.medicine.costs
+#: src/data/schools.js:109
+msgctxt "text:schools.medicine.costs"
+msgid ""
+"The clinical equipment fee is ¥8,000 per term; Eientei scholarships can "
+"cover it in full through night-clinic assistance."
+msgstr "臨床器材費は学期8,000円。永遠亭奨学金は夜診補助時間で全額相殺可。"
+
+#. schools.medicine.outcomes
+#: src/data/schools.js:110
+msgctxt "text:schools.medicine.outcomes"
+msgid ""
+"Cross-species clinician, pharmacology researcher, lunar-safety adviser, "
+"bamboo emergency coordinator."
+msgstr "種族横断臨床、薬理研究、月相安全相談、竹林救急調整。"
+
+#. schools.engineering.name
+#: src/data/schools.js:117
+msgctxt "text:schools.engineering.name"
+msgid "School of Kappa Engineering"
+msgstr "河童工学部"
+
+#. schools.engineering.degree
+#: src/data/schools.js:119
+msgctxt "text:schools.engineering.degree"
+msgid "Bachelor of Public Engineering"
+msgstr "公共工学学士"
+
+#. schools.engineering.duration
+#: src/data/schools.js:120
+msgctxt "text:schools.engineering.duration"
+msgid "4 years · 8 terms"
+msgstr "4年・8学期"
+
+#. schools.engineering.intake
+#: src/data/schools.js:122
+msgctxt "text:schools.engineering.intake"
+msgid "64 students"
+msgstr "64名"
+
+#. schools.engineering.tuition
+#: src/data/schools.js:123
+msgctxt "text:schools.engineering.tuition"
+msgid "¥88,000 / term"
+msgstr "88,000円／学期"
+
+#. schools.engineering.director
+#: src/data/schools.js:124
+msgctxt "text:schools.engineering.director"
+msgid "Dean: Nitori Kawashiro"
+msgstr "学部長：河城にとり"
+
+#. schools.engineering.overview
+#: src/data/schools.js:125
+msgctxt "text:schools.engineering.overview"
+msgid ""
+"Design waterpower, weather instruments, observatories, and repair systems "
+"together. Every build must be dismantled, understood, and reassembled by the "
+"next person. Prototype sparks are admired but ungraded."
+msgstr "水車、気象、観測器、修理制度を一体で設計する。作品は次の人が分解・理解・再組立できること。試作火花は人気だが単位にはならない。"
+
+#. schools.engineering.courses.0.1
+#: src/data/schools.js:127
+msgctxt "text:schools.engineering.courses.0.1"
+msgid "Low-Head Hydropower Systems"
+msgstr "低落差水力システム"
+
+#. schools.engineering.courses.1.1
+#: src/data/schools.js:128
+msgctxt "text:schools.engineering.courses.1.1"
+msgid "Measurement, Error & Mountain Weather"
+msgstr "計測・誤差・妖怪山気象"
+
+#. schools.engineering.courses.2.1
+#: src/data/schools.js:129
+msgctxt "text:schools.engineering.courses.2.1"
+msgid "Design for Disassembly & Repair"
+msgstr "分解整備機構設計"
+
+#. schools.engineering.courses.3.1
+#: src/data/schools.js:130
+msgctxt "text:schools.engineering.courses.3.1"
+msgid "Public Prototypes & Village Trials"
+msgstr "公共試作と里の試運転"
+
+#. schools.engineering.courses.4.1
+#: src/data/schools.js:131
+msgctxt "text:schools.engineering.courses.4.1"
+msgid "Waterfall Workshop Capstone"
+msgstr "滝工房卒業制作"
+
+#. schools.engineering.studios
+#: src/data/schools.js:133
+msgctxt "text:schools.engineering.studios"
+msgid ""
+"Hydropower, weather, and precision-observation studios share one tool wall. "
+"Whoever borrows the last wrench brings it back."
+msgstr "水力・気象・精密観測の三工房が工具壁を共有。最後のレンチを借りた者が返却責任を持つ。"
+
+#. schools.engineering.fieldwork
+#: src/data/schools.js:134
+msgctxt "text:schools.engineering.fieldwork"
+msgid ""
+"Second-years complete forty maintenance hours at three village sites. "
+"Failure reports must be written for the people who actually use the device."
+msgstr "2年次に人里3施設で40時間の整備当番。故障報告は実際の利用者向けに書く。"
+
+#. schools.engineering.progression
+#: src/data/schools.js:135
+msgctxt "text:schools.engineering.progression"
+msgid ""
+"Requires 138 credits and a public prototype that runs for thirty days, plus "
+"diagnosis after one component is deliberately reversed."
+msgstr "138単位と30日連続稼働する公共試作。部品1点を意図的に逆装着した診断試験を含む。"
+
+#. schools.engineering.costs
+#: src/data/schools.js:136
+msgctxt "text:schools.engineering.costs"
+msgid ""
+"Workshop consumables cost ¥9,600. Reusable offcuts earn weight-based "
+"refunds; secret screws are not reimbursable."
+msgstr "工房消耗品9,600円。再利用可能な端材は重量で返金。秘密ねじは精算不可。"
+
+#. schools.engineering.outcomes
+#: src/data/schools.js:137
+msgctxt "text:schools.engineering.outcomes"
+msgid ""
+"Water engineer, instrument designer, public-maintenance coordinator, "
+"mountain-safety engineer."
+msgstr "水利技師、観測機器設計、公共整備調整、山地安全技師。"
+
+#. schools.journalism.name
+#: src/data/schools.js:144
+msgctxt "text:schools.journalism.name"
+msgid "School of Tengu Journalism"
+msgstr "天狗新聞報道学部"
+
+#. schools.journalism.degree
+#: src/data/schools.js:146
+msgctxt "text:schools.journalism.degree"
+msgid "Bachelor of Public Journalism"
+msgstr "公共報道学学士"
+
+#. schools.journalism.duration
+#: src/data/schools.js:147
+msgctxt "text:schools.journalism.duration"
+msgid "4 years · 8 terms"
+msgstr "4年・8学期"
+
+#. schools.journalism.intake
+#: src/data/schools.js:149
+msgctxt "text:schools.journalism.intake"
+msgid "52 students"
+msgstr "52名"
+
+#. schools.journalism.tuition
+#: src/data/schools.js:150
+msgctxt "text:schools.journalism.tuition"
+msgid "¥72,000 / term"
+msgstr "72,000円／学期"
+
+#. schools.journalism.director
+#: src/data/schools.js:151
+msgctxt "text:schools.journalism.director"
+msgid "Dean: Aya Shameimaru"
+msgstr "学部長：射命丸文"
+
+#. schools.journalism.overview
+#: src/data/schools.js:152
+msgctxt "text:schools.journalism.overview"
+msgid ""
+"Balance breaking news, photography, and public correction. Students file a "
+"nine-minute version, an overnight version, then publicly identify the "
+"sentence changed by new evidence."
+msgstr "速報、写真、公開訂正の均衡を学ぶ。9分版、翌朝版を提出し、どの一文を新証拠で変えたか公開説明する。"
+
+#. schools.journalism.courses.0.1
+#: src/data/schools.js:154
+msgctxt "text:schools.journalism.courses.0.1"
+msgid "Interviewing & Source Ethics"
+msgstr "取材と情報源倫理"
+
+#. schools.journalism.courses.1.1
+#: src/data/schools.js:155
+msgctxt "text:schools.journalism.courses.1.1"
+msgid "High-Speed Photography & Visual Evidence"
+msgstr "高速撮影と画像証拠"
+
+#. schools.journalism.courses.2.1
+#: src/data/schools.js:156
+msgctxt "text:schools.journalism.courses.2.1"
+msgid "Incident Breaking-News Desk"
+msgstr "異変速報編集室"
+
+#. schools.journalism.courses.3.1
+#: src/data/schools.js:157
+msgctxt "text:schools.journalism.courses.3.1"
+msgid "Retractions, Corrections & Trust"
+msgstr "撤回・訂正・読者信頼"
+
+#. schools.journalism.courses.4.1
+#: src/data/schools.js:158
+msgctxt "text:schools.journalism.courses.4.1"
+msgid "One Event, Three Reports"
+msgstr "一事三報公開特集"
+
+#. schools.journalism.studios
+#: src/data/schools.js:160
+msgctxt "text:schools.journalism.studios"
+msgid ""
+"Text, photography, and rumour-verification desks exchange one student daily "
+"so no desk trusts only its own format."
+msgstr "文章・写真・風聞検証の三デスクが毎日1名交換し、自分の形式だけを信じないようにする。"
+
+#. schools.journalism.fieldwork
+#: src/data/schools.js:161
+msgctxt "text:schools.journalism.fieldwork"
+msgid ""
+"Complete six village morning editions and two mountain night shifts. A "
+"second editor must verify every anonymous source exists."
+msgstr "人里朝刊6回、妖怪山夜勤2回以上。匿名情報源は第二編集者が実在確認する。"
+
+#. schools.journalism.progression
+#: src/data/schools.js:162
+msgctxt "text:schools.journalism.progression"
+msgid ""
+"Requires 126 credits, twelve public corrections, four voluntarily withdrawn "
+"photographs, and a capstone with a right of reply."
+msgstr "126単位、公開訂正12件、自主撤回写真4枚、当事者が応答できる卒業特集。"
+
+#. schools.journalism.costs
+#: src/data/schools.js:163
+msgctxt "text:schools.journalism.costs"
+msgid ""
+"A ¥6,000 equipment bond applies. Lenses lost while chasing an exclusive do "
+"not count as ordinary wear."
+msgstr "撮影機材保証金6,000円。スクープ追跡中の紛失レンズは通常損耗に含まれない。"
+
+#. schools.journalism.outcomes
+#: src/data/schools.js:164
+msgctxt "text:schools.journalism.outcomes"
+msgid "Reporter, photo editor, public-information verifier, crisis-communications coordinator."
+msgstr "記者、写真編集、公共情報検証、危機広報調整。"
+
+#. schools.policy.name
+#: src/data/schools.js:171
+msgctxt "text:schools.policy.name"
+msgid "School of Faith & Coexistence Policy"
+msgstr "信仰・共生政策学部"
+
+#. schools.policy.degree
+#: src/data/schools.js:173
+msgctxt "text:schools.policy.degree"
+msgid "Bachelor of Coexistence Policy"
+msgstr "共生政策学士"
+
+#. schools.policy.duration
+#: src/data/schools.js:174
+msgctxt "text:schools.policy.duration"
+msgid "4 years · 8 terms"
+msgstr "4年・8学期"
+
+#. schools.policy.intake
+#: src/data/schools.js:176
+msgctxt "text:schools.policy.intake"
+msgid "44 students"
+msgstr "44名"
+
+#. schools.policy.tuition
+#: src/data/schools.js:177
+msgctxt "text:schools.policy.tuition"
+msgid "¥70,000 / term"
+msgstr "70,000円／学期"
+
+#. schools.policy.director
+#: src/data/schools.js:178
+msgctxt "text:schools.policy.director"
+msgid "Dean: Sanae Kochiya"
+msgstr "学部長：東風谷早苗"
+
+#. schools.policy.overview
+#: src/data/schools.js:179
+msgctxt "text:schools.policy.overview"
+msgid ""
+"Study how shrines, temples, believers, non-believers, and public systems "
+"share one road. Classes do not rank faith by strength; they ask whether the "
+"quietest participant can safely leave."
+msgstr "神社、寺院、信徒、信仰を持たない者、公共制度が、同じ道を共有する方法を研究する。信仰の強さではなく、最も声の小さい者も安全に退席できる政策になっているかを評価する。"
+
+#. schools.policy.courses.0.1
+#: src/data/schools.js:181
+msgctxt "text:schools.policy.courses.0.1"
+msgid "Faith Landscapes of Gensokyo"
+msgstr "幻想郷信仰景観"
+
+#. schools.policy.courses.1.1
+#: src/data/schools.js:182
+msgctxt "text:schools.policy.courses.1.1"
+msgid "Interfaith Dialogue & Facilitation"
+msgstr "宗教対話と進行技術"
+
+#. schools.policy.courses.2.1
+#: src/data/schools.js:183
+msgctxt "text:schools.policy.courses.2.1"
+msgid "Human–Youkai Coexistence Policy"
+msgstr "人妖共生政策設計"
+
+#. schools.policy.courses.3.1
+#: src/data/schools.js:184
+msgctxt "text:schools.policy.courses.3.1"
+msgid "Festival Flow & Public Safety"
+msgstr "祭礼動線と公共安全"
+
+#. schools.policy.courses.4.1
+#: src/data/schools.js:185
+msgctxt "text:schools.policy.courses.4.1"
+msgid "Three-Party Negotiation Practicum"
+msgstr "三者協議卒業実習"
+
+#. schools.policy.studios
+#: src/data/schools.js:187
+msgctxt "text:schools.policy.studios"
+msgid ""
+"Festival governance, public mediation, and faith economy all share one "
+"course: How to End a Meeting Well."
+msgstr "祭礼統治・公共調停・信仰経済の三経路が「上手な閉会方法」を共通履修。"
+
+#. schools.policy.fieldwork
+#: src/data/schools.js:188
+msgctxt "text:schools.policy.fieldwork"
+msgid ""
+"Students serve for one season at each of two institutions with different "
+"affiliations, then design public guidance that asks no visitor to declare a "
+"faith."
+msgstr "立場の異なる2施設で各一季実習し、来訪者に信仰表明を求めない公共案内を設計する。"
+
+#. schools.policy.progression
+#: src/data/schools.js:189
+msgctxt "text:schools.policy.progression"
+msgid ""
+"Requires 128 credits, three facilitation records, and a public agreement "
+"signed by at least three parties, with dissent appended."
+msgstr "128単位、進行記録3件、三者以上署名の公開協定。反対意見を本文後に添付する。"
+
+#. schools.policy.costs
+#: src/data/schools.js:190
+msgctxt "text:schools.policy.costs"
+msgid ""
+"Field travel costs ¥3,200 per term and can be fully offset by "
+"accessible-route duty at the university festival."
+msgstr "実地交通費は学期3,200円。学園祭の移動支援当番で全額相殺可。"
+
+#. schools.policy.outcomes
+#: src/data/schools.js:191
+msgctxt "text:schools.policy.outcomes"
+msgid "Policy analyst, festival-safety planner, interfaith facilitator, community coordinator."
+msgstr "公共政策分析、祭礼安全企画、宗教対話進行、地域調整。"

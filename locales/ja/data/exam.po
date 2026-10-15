@@ -1,0 +1,1476 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. examBanks.readiness.title
+#: src/data/exam.js:9
+msgctxt "text:examBanks.readiness.title"
+msgid "Gensokyo Common Readiness"
+msgstr "幻想郷共通基礎"
+
+#. examBanks.readiness.subtitle
+#: src/data/exam.js:10
+msgctxt "text:examBanks.readiness.subtitle"
+msgid ""
+"Campus judgment for every applicant: method, courtesy, and keeping a clear "
+"head when things get strange."
+msgstr "全志願者向けの判断試験。方法、礼節、奇妙な状況で平静を保つ力を問います。"
+
+#. examBanks.readiness.questions.0.category
+#: src/data/exam.js:13
+msgctxt "text:examBanks.readiness.questions.0.category"
+msgid "Motto"
+msgstr "校訓"
+
+#. examBanks.readiness.questions.0.prompt
+#: src/data/exam.js:14
+msgctxt "text:examBanks.readiness.questions.0.prompt"
+msgid "Which action best follows “Cross borders for truth; contest ideas with respect”?"
+msgstr "「境を越えて真を求め、礼をもって競う」に最も近い行動は？"
+
+#. examBanks.readiness.questions.0.explanation
+#: src/data/exam.js:22
+msgctxt "text:examBanks.readiness.questions.0.explanation"
+msgid ""
+"Truth-seeking crosses existing viewpoints; respectful contest requires "
+"traceable rules, consent, and stopping conditions."
+msgstr "真を求めるには既存の視点を越え、「礼をもって競う」には規則・同意・停止条件が必要です。"
+
+#. examBanks.readiness.questions.1.category
+#: src/data/exam.js:25
+msgctxt "text:examBanks.readiness.questions.1.category"
+msgid "Safety"
+msgstr "安全"
+
+#. examBanks.readiness.questions.1.prompt
+#: src/data/exam.js:26
+msgctxt "text:examBanks.readiness.questions.1.prompt"
+msgid "The red lamp suddenly lights in Seven-Day Laboratory. What should you do first?"
+msgstr "七曜実験塔で赤灯が点いた。最初にすることは？"
+
+#. examBanks.readiness.questions.1.explanation
+#: src/data/exam.js:34
+msgctxt "text:examBanks.readiness.questions.1.explanation"
+msgid "Red-lamp evacuation is counter-clockwise; the duty practitioner identifies the element."
+msgstr "赤灯時の避難は反時計回り。元素の確認は当直術者が行います。"
+
+#. examBanks.readiness.questions.2.category
+#: src/data/exam.js:37
+msgctxt "text:examBanks.readiness.questions.2.category"
+msgid "Source Judgment"
+msgstr "情報判断"
+
+#. examBanks.readiness.questions.2.prompt
+#: src/data/exam.js:38
+msgctxt "text:examBanks.readiness.questions.2.prompt"
+msgid ""
+"You hear that every campus gate will lead to the Lunar Capital tomorrow. "
+"What is the best first step?"
+msgstr "「明日は全校門が月都へ通じる」と聞いた。最初の一手は？"
+
+#. examBanks.readiness.questions.2.explanation
+#: src/data/exam.js:46
+msgctxt "text:examBanks.readiness.questions.2.explanation"
+msgid ""
+"Separate witness, hearsay, and inference, then consult traceable sources. "
+"Strangeness proves neither truth nor falsehood."
+msgstr "目撃・伝聞・推測を分け、追跡できる情報源を確認します。奇妙さは真偽の証明になりません。"
+
+#. examBanks.readiness.questions.3.category
+#: src/data/exam.js:49
+msgctxt "text:examBanks.readiness.questions.3.category"
+msgid "Shared Life"
+msgstr "共同生活"
+
+#. examBanks.readiness.questions.3.prompt
+#: src/data/exam.js:50
+msgctxt "text:examBanks.readiness.questions.3.prompt"
+msgid ""
+"A fairy roommate hides your alarm clock in a flowerpot as “spatial "
+"beautification.” What is the best response?"
+msgstr "妖精の同室者が目覚まし時計を植木鉢へ隠し「空間美化」と言った。最善の対応は？"
+
+#. examBanks.readiness.questions.3.explanation
+#: src/data/exam.js:58
+msgctxt "text:examBanks.readiness.questions.3.explanation"
+msgid "Shared life needs repeatable boundaries, not retaliation or blanket prohibition."
+msgstr "共同生活では、報復や全面禁止ではなく、繰り返し守れる境界を作ります。"
+
+#. examBanks.readiness.questions.4.category
+#: src/data/exam.js:61
+msgctxt "text:examBanks.readiness.questions.4.category"
+msgid "Research Ethics"
+msgstr "研究倫理"
+
+#. examBanks.readiness.questions.4.prompt
+#: src/data/exam.js:62
+msgctxt "text:examBanks.readiness.questions.4.prompt"
+msgid ""
+"A mind reader wants to use hallway thoughts as class samples. What is the "
+"minimum requirement?"
+msgstr "読心能力者が廊下の学生の思考を授業標本にしたい。最低限必要なのは？"
+
+#. examBanks.readiness.questions.4.explanation
+#: src/data/exam.js:70
+msgctxt "text:examBanks.readiness.questions.4.explanation"
+msgid ""
+"Public space does not waive inner privacy, and de-identification cannot "
+"replace prior consent and withdrawal."
+msgstr "公共空間でも内面のプライバシーは失われず、匿名化は事前同意と撤回手続の代わりになりません。"
+
+#. examBanks.readiness.questions.5.category
+#: src/data/exam.js:73
+msgctxt "text:examBanks.readiness.questions.5.category"
+msgid "Transit"
+msgstr "交通"
+
+#. examBanks.readiness.questions.5.prompt
+#: src/data/exam.js:74
+msgctxt "text:examBanks.readiness.questions.5.prompt"
+msgid "After receiving a Hakurei Gate arrival time, what should an Outside World student do?"
+msgstr "外界新入生が博麗門の到着時刻を受け取った後、どうする？"
+
+#. examBanks.readiness.questions.5.explanation
+#: src/data/exam.js:82
+msgctxt "text:examBanks.readiness.questions.5.explanation"
+msgid ""
+"Barrier passage follows the notice; unknown gaps, umbrellas, and butterflies "
+"are not admissions desks."
+msgstr "結界通行は通知どおりに行い、未知の隙間・傘・蝶は受付窓口ではありません。"
+
+#. examBanks.readiness.questions.6.category
+#: src/data/exam.js:85
+msgctxt "text:examBanks.readiness.questions.6.category"
+msgid "Spell-card Rules"
+msgstr "スペルカード規則"
+
+#. examBanks.readiness.questions.6.prompt
+#: src/data/exam.js:86
+msgctxt "text:examBanks.readiness.questions.6.prompt"
+msgid "What does not determine admission in an academic spell-card interview?"
+msgstr "学術スペルカード面接で合否を決めないものは？"
+
+#. examBanks.readiness.questions.6.explanation
+#: src/data/exam.js:94
+msgctxt "text:examBanks.readiness.questions.6.explanation"
+msgid ""
+"The interview assesses questions, methods, limits, and judgment; firepower "
+"is not an academic argument."
+msgstr "面接は問い・方法・制限・判断を評価し、火力の大きさは学術的論証ではありません。"
+
+#. examBanks.readiness.questions.7.category
+#: src/data/exam.js:97
+msgctxt "text:examBanks.readiness.questions.7.category"
+msgid "Library"
+msgstr "図書館"
+
+#. examBanks.readiness.questions.7.prompt
+#: src/data/exam.js:98
+msgctxt "text:examBanks.readiness.questions.7.prompt"
+msgid ""
+"A book flies away from its shelf in Misty Lake Library. What is the most "
+"reasonable response?"
+msgstr "霧の湖図書館で本が自力で棚を離れた。最も適切なのは？"
+
+#. examBanks.readiness.questions.7.explanation
+#: src/data/exam.js:106
+msgctxt "text:examBanks.readiness.questions.7.explanation"
+msgid ""
+"The collection may fly, but call numbers do not; traceable records beat "
+"chasing or damaging it."
+msgstr "蔵書は飛んでも請求記号は飛びません。追跡可能な記録が追走や破壊より有効です。"
+
+#. examBanks.boundary.title
+#: src/data/exam.js:115
+msgctxt "text:examBanks.boundary.title"
+msgid "Boundaries & Incident Judgment"
+msgstr "境界・異変判断"
+
+#. examBanks.boundary.subtitle
+#: src/data/exam.js:116
+msgctxt "text:examBanks.boundary.subtitle"
+msgid "For applicants who want to turn “not again” into a testable question."
+msgstr "「また起きた」を検証可能な問いへ変えたい人のための試験。"
+
+#. examBanks.boundary.questions.0.category
+#: src/data/exam.js:119
+msgctxt "text:examBanks.boundary.questions.0.category"
+msgid "Incident Triage"
+msgstr "異変分類"
+
+#. examBanks.boundary.questions.0.prompt
+#: src/data/exam.js:120
+msgctxt "text:examBanks.boundary.questions.0.prompt"
+msgid ""
+"Every shadow begins moving three seconds late, with no injuries. What "
+"matters most in the first record?"
+msgstr "朝から全ての影が本人より三秒遅れるが負傷者はいない。最初の記録で最重要なのは？"
+
+#. examBanks.boundary.questions.0.explanation
+#: src/data/exam.js:128
+msgctxt "text:examBanks.boundary.questions.0.explanation"
+msgid ""
+"Initial records fix observable conditions before names or guesses are "
+"mistaken for mechanisms."
+msgstr "初期記録は観察条件を固定し、命名や推測を機構と取り違えないようにします。"
+
+#. examBanks.boundary.questions.1.category
+#: src/data/exam.js:131
+msgctxt "text:examBanks.boundary.questions.1.category"
+msgid "Boundary Survey"
+msgstr "境界測量"
+
+#. examBanks.boundary.questions.1.prompt
+#: src/data/exam.js:132
+msgctxt "text:examBanks.boundary.questions.1.prompt"
+msgid "A signpost points differently on the second passage. Which comparison is most useful?"
+msgstr "同じ道標が二度目には別方向を示した。最も価値ある比較は？"
+
+#. examBanks.boundary.questions.1.explanation
+#: src/data/exam.js:140
+msgctxt "text:examBanks.boundary.questions.1.explanation"
+msgid ""
+"Boundary effects often depend on sequence and viewpoint; paired records "
+"distinguish a changed sign from a changed route."
+msgstr "境界現象は順序と観測位置に依存しやすく、対の記録で道標と経路の変化を区別できます。"
+
+#. examBanks.boundary.questions.2.category
+#: src/data/exam.js:143
+msgctxt "text:examBanks.boundary.questions.2.category"
+msgid "Stopping Rules"
+msgstr "停止条件"
+
+#. examBanks.boundary.questions.2.prompt
+#: src/data/exam.js:144
+msgctxt "text:examBanks.boundary.questions.2.prompt"
+msgid "Which stopping condition is most operational during incident tracking?"
+msgstr "異変追跡で最も運用可能な停止条件は？"
+
+#. examBanks.boundary.questions.2.explanation
+#: src/data/exam.js:152
+msgctxt "text:examBanks.boundary.questions.2.explanation"
+msgid ""
+"Good stopping rules are pre-agreed, observable on site, and triggerable by "
+"affected participants."
+msgstr "良い停止条件は事前合意でき、現場で判定でき、影響を受ける者が起動できます。"
+
+#. examBanks.boundary.questions.3.category
+#: src/data/exam.js:155
+msgctxt "text:examBanks.boundary.questions.3.category"
+msgid "Drift Objects"
+msgstr "漂流物"
+
+#. examBanks.boundary.questions.3.prompt
+#: src/data/exam.js:156
+msgctxt "text:examBanks.boundary.questions.3.prompt"
+msgid ""
+"An Outside World object changes use after crossing the barrier. What should "
+"researchers most avoid?"
+msgstr "外界の物が結界通過後に用途を変えた。研究者が最も避けるべきことは？"
+
+#. examBanks.boundary.questions.3.explanation
+#: src/data/exam.js:164
+msgctxt "text:examBanks.boundary.questions.3.explanation"
+msgid ""
+"Sample size does not outrank barrier safety; the registry is non-invasive "
+"and never widens gaps."
+msgstr "標本数は境界安全に優先せず、本学の索引は裂け目を広げない非侵襲登録を原則とします。"
+
+#. examBanks.boundary.questions.4.category
+#: src/data/exam.js:167
+msgctxt "text:examBanks.boundary.questions.4.category"
+msgid "Oral Defence"
+msgstr "口頭試問"
+
+#. examBanks.boundary.questions.4.prompt
+#: src/data/exam.js:168
+msgctxt "text:examBanks.boundary.questions.4.prompt"
+msgid "What does a “way out” mainly mean in a spell-card defence?"
+msgstr "スペルカード式討論の「退路」とは主に何か？"
+
+#. examBanks.boundary.questions.4.explanation
+#: src/data/exam.js:176
+msgctxt "text:examBanks.boundary.questions.4.explanation"
+msgid ""
+"A way out is part of the rules, preventing pride or firepower from "
+"escalating the contest indefinitely."
+msgstr "退路は規則の一部で、面子や火力による無限の激化を防ぎます。"
+
+#. examBanks.boundary.questions.5.category
+#: src/data/exam.js:179
+msgctxt "text:examBanks.boundary.questions.5.category"
+msgid "Causality"
+msgstr "因果"
+
+#. examBanks.boundary.questions.5.prompt
+#: src/data/exam.js:180
+msgctxt "text:examBanks.boundary.questions.5.prompt"
+msgid ""
+"Books in the library's north wing move more often at every full moon. What "
+"does this directly establish?"
+msgstr "満月ごとに図書館北翼の本がよく動く。直接証明できるのは？"
+
+#. examBanks.boundary.questions.5.explanation
+#: src/data/exam.js:188
+msgctxt "text:examBanks.boundary.questions.5.explanation"
+msgid ""
+"Repeated association merits study, but lunar phase is not yet a cause "
+"without controls and mechanism evidence."
+msgstr "反復する関連は研究価値がありますが、対照と機構の証拠なしに月相を原因とは断定できません。"
+
+#. examBanks.boundary.questions.6.category
+#: src/data/exam.js:191
+msgctxt "text:examBanks.boundary.questions.6.category"
+msgid "Witness Records"
+msgstr "目撃記録"
+
+#. examBanks.boundary.questions.6.prompt
+#: src/data/exam.js:192
+msgctxt "text:examBanks.boundary.questions.6.prompt"
+msgid "Three witnesses disagree about a danmaku's color. What is the best treatment?"
+msgstr "三人の目撃者が弾幕の色について異なる証言をした。最善の処理は？"
+
+#. examBanks.boundary.questions.6.explanation
+#: src/data/exam.js:200
+msgctxt "text:examBanks.boundary.questions.6.explanation"
+msgid ""
+"Disagreement may be error or reveal viewpoint and sensory differences; "
+"preserve context before judging."
+msgstr "不一致は誤差かもしれず、観測位置や感覚差を示す可能性もあります。文脈を保存します。"
+
+#. examBanks.boundary.questions.7.category
+#: src/data/exam.js:203
+msgctxt "text:examBanks.boundary.questions.7.category"
+msgid "Risk Communication"
+msgstr "リスク伝達"
+
+#. examBanks.boundary.questions.7.prompt
+#: src/data/exam.js:204
+msgctxt "text:examBanks.boundary.questions.7.prompt"
+msgid ""
+"A temporary low-risk inversion zone appears in a known area. What should the "
+"notice include?"
+msgstr "低危険で範囲既知の一時的反転区域が出現した。告知に必要なのは？"
+
+#. examBanks.boundary.questions.7.explanation
+#: src/data/exam.js:212
+msgctxt "text:examBanks.boundary.questions.7.explanation"
+msgid "Risk notices must support action and make uncertainty and the next update explicit."
+msgstr "リスク告知は行動可能で、不確実性と次回更新を明示する必要があります。"
+
+#. examBanks.methods.title
+#: src/data/exam.js:221
+msgctxt "text:examBanks.methods.title"
+msgid "Research Methods & Field Records"
+msgstr "研究方法・フィールド記録"
+
+#. examBanks.methods.subtitle
+#: src/data/exam.js:222
+msgctxt "text:examBanks.methods.subtitle"
+msgid ""
+"Strange answers are welcome; missing methods, runaway samples, and invisible "
+"corrections are not."
+msgstr "奇妙な答えより、方法の未記載・逃げる標本・見つからない訂正を恐れます。"
+
+#. examBanks.methods.questions.0.category
+#: src/data/exam.js:225
+msgctxt "text:examBanks.methods.questions.0.category"
+msgid "Operational Definition"
+msgstr "操作的定義"
+
+#. examBanks.methods.questions.0.prompt
+#: src/data/exam.js:226
+msgctxt "text:examBanks.methods.questions.0.prompt"
+msgid "When studying “thick mist,” which definition is most comparable?"
+msgstr "「霧が濃い」を研究する際、比較に最適な定義は？"
+
+#. examBanks.methods.questions.0.explanation
+#: src/data/exam.js:234
+msgctxt "text:examBanks.methods.questions.0.explanation"
+msgid "An operational definition converts a feeling into repeatable measurement conditions."
+msgstr "操作的定義は感覚を再現可能な測定条件へ変え、観察者間の比較を可能にします。"
+
+#. examBanks.methods.questions.1.category
+#: src/data/exam.js:237
+msgctxt "text:examBanks.methods.questions.1.category"
+msgid "Controls"
+msgstr "対照"
+
+#. examBanks.methods.questions.1.prompt
+#: src/data/exam.js:238
+msgctxt "text:examBanks.methods.questions.1.prompt"
+msgid "When testing whether a kappa turbine needs no magic, what is the most important control?"
+msgstr "河童水車が妖力不要か試す際、最重要な対照は？"
+
+#. examBanks.methods.questions.1.explanation
+#: src/data/exam.js:246
+msgctxt "text:examBanks.methods.questions.1.explanation"
+msgid ""
+"Testing magic independence requires matched water and load plus real "
+"isolation of magical input."
+msgstr "妖力依存を検証するには、水位と負荷を揃え、妖力入力を実際に隔離します。"
+
+#. examBanks.methods.questions.2.category
+#: src/data/exam.js:249
+msgctxt "text:examBanks.methods.questions.2.category"
+msgid "Sampling"
+msgstr "標本"
+
+#. examBanks.methods.questions.2.prompt
+#: src/data/exam.js:250
+msgctxt "text:examBanks.methods.questions.2.prompt"
+msgid ""
+"If you interview only people who escaped the Bamboo Forest, what are you "
+"most likely to miss?"
+msgstr "竹林から出られた人だけに聞くと、何を見落とす？"
+
+#. examBanks.methods.questions.2.explanation
+#: src/data/exam.js:258
+msgctxt "text:examBanks.methods.questions.2.explanation"
+msgid ""
+"This is survivorship bias: successful exits overstate working methods and "
+"hide failure paths."
+msgstr "典型的な生存者バイアスで、成功法を過大評価し失敗経路を見落とします。"
+
+#. examBanks.methods.questions.3.category
+#: src/data/exam.js:261
+msgctxt "text:examBanks.methods.questions.3.category"
+msgid "Reproducibility"
+msgstr "再現性"
+
+#. examBanks.methods.questions.3.prompt
+#: src/data/exam.js:262
+msgctxt "text:examBanks.methods.questions.3.prompt"
+msgid "Which magic experiment record is easiest to reproduce?"
+msgstr "最も再現しやすい魔法実験記録は？"
+
+#. examBanks.methods.questions.3.explanation
+#: src/data/exam.js:270
+msgctxt "text:examBanks.methods.questions.3.explanation"
+msgid ""
+"Reproducible records include success, failure, sequence, and environment "
+"instead of relying on tacit memory."
+msgstr "再現可能な記録は成功・失敗・操作順序・環境条件を含み、個人の暗黙記憶に頼りません。"
+
+#. examBanks.methods.questions.4.category
+#: src/data/exam.js:273
+msgctxt "text:examBanks.methods.questions.4.category"
+msgid "Corrections"
+msgstr "データ訂正"
+
+#. examBanks.methods.questions.4.prompt
+#: src/data/exam.js:274
+msgctxt "text:examBanks.methods.questions.4.prompt"
+msgid ""
+"After publication, 12 dates are found to be transcribed incorrectly. What is "
+"the best response?"
+msgstr "研究公開後、日付12件の転記ミスが判明した。最善の対応は？"
+
+#. examBanks.methods.questions.4.explanation
+#: src/data/exam.js:282
+msgctxt "text:examBanks.methods.questions.4.explanation"
+msgid ""
+"A correction is itself a research record: what changed, why, and which "
+"conclusions are affected."
+msgstr "訂正も研究記録です。何をなぜ変え、どの結論に影響するかを示します。"
+
+#. examBanks.methods.questions.5.category
+#: src/data/exam.js:285
+msgctxt "text:examBanks.methods.questions.5.category"
+msgid "Image Ethics"
+msgstr "画像倫理"
+
+#. examBanks.methods.questions.5.prompt
+#: src/data/exam.js:286
+msgctxt "text:examBanks.methods.questions.5.prompt"
+msgid "An interviewee later withdraws consent to publish a photograph. What should the team do?"
+msgstr "取材相手が後から写真公開の同意を撤回した。研究班は？"
+
+#. examBanks.methods.questions.5.explanation
+#: src/data/exam.js:294
+msgctxt "text:examBanks.methods.questions.5.explanation"
+msgid ""
+"Withdrawal must be actionable and limits on recall explained; one-time "
+"consent is not permanent."
+msgstr "撤回手続は実行可能で、回収不能な範囲も説明します。一度の同意は永久ではありません。"
+
+#. examBanks.methods.questions.6.category
+#: src/data/exam.js:297
+msgctxt "text:examBanks.methods.questions.6.category"
+msgid "Inference"
+msgstr "推論"
+
+#. examBanks.methods.questions.6.prompt
+#: src/data/exam.js:298
+msgctxt "text:examBanks.methods.questions.6.prompt"
+msgid ""
+"Electrical leakage appeared during rain in all three observations. What is a "
+"reasonable next step?"
+msgstr "三回とも雨天に漏電した。合理的な次の手順は？"
+
+#. examBanks.methods.questions.6.explanation
+#: src/data/exam.js:306
+msgctxt "text:examBanks.methods.questions.6.explanation"
+msgid ""
+"The pattern suggests a hypothesis; next isolate related factors and add "
+"controls that distinguish mechanisms."
+msgstr "初期パターンは仮説を与えます。次は関連因子を分離し、機構を区別する対照を増やします。"
+
+#. examBanks.methods.questions.7.category
+#: src/data/exam.js:309
+msgctxt "text:examBanks.methods.questions.7.category"
+msgid "Field Notes"
+msgstr "フィールドノート"
+
+#. examBanks.methods.questions.7.prompt
+#: src/data/exam.js:310
+msgctxt "text:examBanks.methods.questions.7.prompt"
+msgid "Which line most resembles a sound field note?"
+msgstr "合格するフィールドノートに最も近い一文は？"
+
+#. examBanks.methods.questions.7.explanation
+#: src/data/exam.js:318
+msgctxt "text:examBanks.methods.questions.7.explanation"
+msgid ""
+"Time, place, sensory source, counter-observation, and environment are "
+"separated so the observation can be reconstructed."
+msgstr "時刻・位置・感覚源・反例・環境条件が分けて記され、観察を再構成できます。"
+
+#. examBanks.campus.title
+#: src/data/exam.js:327
+msgctxt "text:examBanks.campus.title"
+msgid "Campus Life Practicum"
+msgstr "キャンパス生活実務"
+
+#. examBanks.campus.subtitle
+#: src/data/exam.js:328
+msgctxt "text:examBanks.campus.subtitle"
+msgid "From flight levels to dining queues: making it through a term is a method too."
+msgstr "飛行レイヤーから食堂の列まで。無事に一学期を過ごすことも方法論です。"
+
+#. examBanks.campus.questions.0.category
+#: src/data/exam.js:331
+msgctxt "text:examBanks.campus.questions.0.category"
+msgid "Map"
+msgstr "地図"
+
+#. examBanks.campus.questions.0.prompt
+#: src/data/exam.js:332
+msgctxt "text:examBanks.campus.questions.0.prompt"
+msgid "Which campus place takes the longest walk from Hakurei Gate?"
+msgstr "博麗門から徒歩で最も時間がかかる施設は？"
+
+#. examBanks.campus.questions.0.explanation
+#: src/data/exam.js:340
+msgctxt "text:examBanks.campus.questions.0.explanation"
+msgid "Kappa Joint Workshop is in the mountain field zone, about 31 minutes from the gate."
+msgstr "河童共同工房は妖怪の山実習区にあり、正門から徒歩約31分です。"
+
+#. examBanks.campus.questions.1.category
+#: src/data/exam.js:343
+msgctxt "text:examBanks.campus.questions.1.category"
+msgid "Air Route"
+msgstr "空路"
+
+#. examBanks.campus.questions.1.prompt
+#: src/data/exam.js:344
+msgctxt "text:examBanks.campus.questions.1.prompt"
+msgid "What is the air-route rule above Eientei Clinic?"
+msgstr "永遠亭診療所上空の原則は？"
+
+#. examBanks.campus.questions.1.explanation
+#: src/data/exam.js:352
+msgctxt "text:examBanks.campus.questions.1.explanation"
+msgid "Emergency rabbit carts and medical transport have priority; sightseeing traffic yields."
+msgstr "救急兎車と医療輸送が優先され、観光飛行は譲ります。"
+
+#. examBanks.campus.questions.2.category
+#: src/data/exam.js:355
+msgctxt "text:examBanks.campus.questions.2.category"
+msgid "Clubs"
+msgstr "団体"
+
+#. examBanks.campus.questions.2.prompt
+#: src/data/exam.js:356
+msgctxt "text:examBanks.campus.questions.2.prompt"
+msgid "Which club best suits practicing navigation when the return route may change?"
+msgstr "帰路が変わるかもしれない道での案内を練習したい。最適な団体は？"
+
+#. examBanks.campus.questions.2.explanation
+#: src/data/exam.js:364
+msgctxt "text:examBanks.campus.questions.2.explanation"
+msgid ""
+"Bamboo Navigation documents unstable routes, return markers, and companion "
+"rules for getting lost."
+msgstr "竹林オリエンテーリング部は不安定経路、帰還標識、迷った際の同行規則を扱います。"
+
+#. examBanks.campus.questions.3.category
+#: src/data/exam.js:367
+msgctxt "text:examBanks.campus.questions.3.category"
+msgid "Dining"
+msgstr "食堂"
+
+#. examBanks.campus.questions.3.prompt
+#: src/data/exam.js:368
+msgctxt "text:examBanks.campus.questions.3.prompt"
+msgid "When is Night-Sparrow Supper normally available?"
+msgstr "夜雀夜食は通常何時から？"
+
+#. examBanks.campus.questions.3.explanation
+#: src/data/exam.js:376
+msgctxt "text:examBanks.campus.questions.3.explanation"
+msgid "Night-Sparrow Supper follows evening performances and is served after 17:30."
+msgstr "夜雀夜食は夜の演奏に合わせ、17:30以降に提供されます。"
+
+#. examBanks.campus.questions.4.category
+#: src/data/exam.js:379
+msgctxt "text:examBanks.campus.questions.4.category"
+msgid "Festival"
+msgstr "大学祭"
+
+#. examBanks.campus.questions.4.prompt
+#: src/data/exam.js:380
+msgctxt "text:examBanks.campus.questions.4.prompt"
+msgid "What is the basic venue rule for the Spring Spell-card Lantern Festival?"
+msgstr "春季スペルカード灯会の基本会場規則は？"
+
+#. examBanks.campus.questions.4.explanation
+#: src/data/exam.js:388
+msgctxt "text:examBanks.campus.questions.4.explanation"
+msgid ""
+"Separating sky and ground preserves safe distance for viewing, dining, and "
+"spell-card displays."
+msgstr "空と地上を分け、観覧・飲食・スペルカード展示の安全距離を保ちます。"
+
+#. examBanks.campus.questions.5.category
+#: src/data/exam.js:391
+msgctxt "text:examBanks.campus.questions.5.category"
+msgid "Borrowing"
+msgstr "貸出"
+
+#. examBanks.campus.questions.5.prompt
+#: src/data/exam.js:392
+msgctxt "text:examBanks.campus.questions.5.prompt"
+msgid "What may and may not be borrowed from Kappa Joint Workshop?"
+msgstr "河童共同工房で借りられる物・借りられない物は？"
+
+#. examBanks.campus.questions.5.explanation
+#: src/data/exam.js:400
+msgctxt "text:examBanks.campus.questions.5.explanation"
+msgid ""
+"Mountain rain gear may be borrowed; unfinished prototypes remain in the "
+"workshop for records and testing."
+msgstr "山地用雨具は貸出可。未完成の試作機は記録・試験のため工房に残します。"
+
+#. examBanks.campus.questions.6.category
+#: src/data/exam.js:403
+msgctxt "text:examBanks.campus.questions.6.category"
+msgid "BBS"
+msgstr "BBS"
+
+#. examBanks.campus.questions.6.prompt
+#: src/data/exam.js:404
+msgctxt "text:examBanks.campus.questions.6.prompt"
+msgid "You have unverified breaking news. What best follows Campus BBS rules?"
+msgstr "未確認の速報がある。学内BBS規則に最も合う行動は？"
+
+#. examBanks.campus.questions.6.explanation
+#: src/data/exam.js:412
+msgctxt "text:examBanks.campus.questions.6.explanation"
+msgid ""
+"The BBS is for deliberation; Journalism verifies breaking news, while posts "
+"distinguish witness, hearsay, and inference."
+msgstr "BBSは熟議向け。速報は新聞学部で確認し、投稿では目撃・伝聞・推測を分けます。"
+
+#. examBanks.campus.questions.7.category
+#: src/data/exam.js:415
+msgctxt "text:examBanks.campus.questions.7.category"
+msgid "Exams"
+msgstr "試験"
+
+#. examBanks.campus.questions.7.prompt
+#: src/data/exam.js:416
+msgctxt "text:examBanks.campus.questions.7.prompt"
+msgid "Besides examination time, what should a flying candidate allow for at Boundary Hall?"
+msgstr "飛行受験者が境界講堂へ行く際、試験時刻以外に何を見込む？"
+
+#. examBanks.campus.questions.7.explanation
+#: src/data/exam.js:424
+msgctxt "text:examBanks.campus.questions.7.explanation"
+msgid ""
+"Boundary Hall roof berths are limited, so landing and registration time "
+"belong in the plan."
+msgstr "境界講堂の屋上停泊枠は有限で、着陸・登録時間を見込みます。"
+
+#. examBanks.readiness.questions.0.options.0
+#: src/data/exam.js:16
+msgctxt "text:examBanks.readiness.questions.0.options.0"
+msgid "Duel first; the winner defines the facts"
+msgstr "まず決闘し、勝者が事実を決める"
+
+#. examBanks.readiness.questions.0.options.1
+#: src/data/exam.js:17
+msgctxt "text:examBanks.readiness.questions.0.options.1"
+msgid "Cross to gather evidence while preserving consent, rules, and a way out"
+msgstr "境を越えて証拠を集め、同意・規則・退路も残す"
+
+#. examBanks.readiness.questions.0.options.2
+#: src/data/exam.js:18
+msgctxt "text:examBanks.readiness.questions.0.options.2"
+msgid "Avoid conflict by studying only what you already believe"
+msgstr "衝突を避け、信じていることだけを研究する"
+
+#. examBanks.readiness.questions.0.options.3
+#: src/data/exam.js:19
+msgctxt "text:examBanks.readiness.questions.0.options.3"
+msgid "Leave every conclusion to the oldest person"
+msgstr "すべての結論を最年長者に委ねる"
+
+#. examBanks.readiness.questions.1.options.0
+#: src/data/exam.js:28
+msgctxt "text:examBanks.readiness.questions.1.options.0"
+msgid "Evacuate counter-clockwise along the marked route"
+msgstr "標線に沿って反時計回りに退避する"
+
+#. examBanks.readiness.questions.1.options.1
+#: src/data/exam.js:29
+msgctxt "text:examBanks.readiness.questions.1.options.1"
+msgid "Move closer to identify the element"
+msgstr "近づいて元素を確認する"
+
+#. examBanks.readiness.questions.1.options.2
+#: src/data/exam.js:30
+msgctxt "text:examBanks.readiness.questions.1.options.2"
+msgid "Open a window to vent the magic"
+msgstr "窓を開けて魔力を逃がす"
+
+#. examBanks.readiness.questions.1.options.3
+#: src/data/exam.js:31
+msgctxt "text:examBanks.readiness.questions.1.options.3"
+msgid "Photograph it for the BBS first"
+msgstr "まず写真をBBSへ投稿する"
+
+#. examBanks.readiness.questions.2.options.0
+#: src/data/exam.js:40
+msgctxt "text:examBanks.readiness.questions.2.options.0"
+msgid "Forward it immediately with three exclamation marks"
+msgstr "すぐに感嘆符三つで拡散する"
+
+#. examBanks.readiness.questions.2.options.1
+#: src/data/exam.js:41
+msgctxt "text:examBanks.readiness.questions.2.options.1"
+msgid "Ask whether it was witnessed, then check campus and barrier notices"
+msgstr "伝聞か目撃かを確認し、学務・結界観測の告知を調べる"
+
+#. examBanks.readiness.questions.2.options.2
+#: src/data/exam.js:42
+msgctxt "text:examBanks.readiness.questions.2.options.2"
+msgid "Ignore it because it sounds impossible"
+msgstr "不可能なので完全に無視する"
+
+#. examBanks.readiness.questions.2.options.3
+#: src/data/exam.js:43
+msgctxt "text:examBanks.readiness.questions.2.options.3"
+msgid "Walk through every gate once"
+msgstr "全ての門を一度ずつ通る"
+
+#. examBanks.readiness.questions.3.options.0
+#: src/data/exam.js:52
+msgctxt "text:examBanks.readiness.questions.3.options.0"
+msgid "Hide the fairy in a flowerpot"
+msgstr "相手も植木鉢へ隠す"
+
+#. examBanks.readiness.questions.3.options.1
+#: src/data/exam.js:53
+msgctxt "text:examBanks.readiness.questions.3.options.1"
+msgid "Quietly buy ten louder alarms"
+msgstr "もっと大音量の時計を十個買う"
+
+#. examBanks.readiness.questions.3.options.2
+#: src/data/exam.js:54
+msgctxt "text:examBanks.readiness.questions.3.options.2"
+msgid "Explain property boundaries and agree on play areas and return times"
+msgstr "物の境界を説明し、遊んでよい範囲と返却時間を決める"
+
+#. examBanks.readiness.questions.3.options.3
+#: src/data/exam.js:55
+msgctxt "text:examBanks.readiness.questions.3.options.3"
+msgid "Declare the whole residence flower-free"
+msgstr "寮全体を花禁止区域にする"
+
+#. examBanks.readiness.questions.4.options.0
+#: src/data/exam.js:64
+msgctxt "text:examBanks.readiness.questions.4.options.0"
+msgid "No consent is needed in a public corridor"
+msgstr "公共廊下なので同意不要"
+
+#. examBanks.readiness.questions.4.options.1
+#: src/data/exam.js:65
+msgctxt "text:examBanks.readiness.questions.4.options.1"
+msgid "Removing names is enough"
+msgstr "名前を書かなければよい"
+
+#. examBanks.readiness.questions.4.options.2
+#: src/data/exam.js:66
+msgctxt "text:examBanks.readiness.questions.4.options.2"
+msgid "Explicit consent, a withdrawal path, and a stated use under course rules"
+msgstr "授業規程に基づく明確な同意、撤回方法、利用目的の説明"
+
+#. examBanks.readiness.questions.4.options.3
+#: src/data/exam.js:67
+msgctxt "text:examBanks.readiness.questions.4.options.3"
+msgid "A verbal nod from the instructor"
+msgstr "担当教員の口頭承認"
+
+#. examBanks.readiness.questions.5.options.0
+#: src/data/exam.js:76
+msgctxt "text:examBanks.readiness.questions.5.options.0"
+msgid "Find a gap and enter three days early"
+msgstr "自分で隙間を探し、三日前に入る"
+
+#. examBanks.readiness.questions.5.options.1
+#: src/data/exam.js:77
+msgctxt "text:examBanks.readiness.questions.5.options.1"
+msgid "Wait at the specified entrance and time, registering Outside World electronics"
+msgstr "指定入口・時刻に案内を待ち、外界の電気製品を登録する"
+
+#. examBanks.readiness.questions.5.options.2
+#: src/data/exam.js:78
+msgctxt "text:examBanks.readiness.questions.5.options.2"
+msgid "Follow the first butterfly that looks confident"
+msgstr "道に詳しそうな蝶について行く"
+
+#. examBanks.readiness.questions.5.options.3
+#: src/data/exam.js:79
+msgctxt "text:examBanks.readiness.questions.5.options.3"
+msgid "Swim into campus through Misty Lake"
+msgstr "霧の湖から泳いで入る"
+
+#. examBanks.readiness.questions.6.options.0
+#: src/data/exam.js:88
+msgctxt "text:examBanks.readiness.questions.6.options.0"
+msgid "Clarity of rules"
+msgstr "規則の明確さ"
+
+#. examBanks.readiness.questions.6.options.1
+#: src/data/exam.js:89
+msgctxt "text:examBanks.readiness.questions.6.options.1"
+msgid "Ability to explain one's method"
+msgstr "自分の方法を説明できるか"
+
+#. examBanks.readiness.questions.6.options.2
+#: src/data/exam.js:90
+msgctxt "text:examBanks.readiness.questions.6.options.2"
+msgid "Raw firepower"
+msgstr "純粋な火力"
+
+#. examBanks.readiness.questions.6.options.3
+#: src/data/exam.js:91
+msgctxt "text:examBanks.readiness.questions.6.options.3"
+msgid "Knowing when to stop"
+msgstr "いつ止めるべきかの判断"
+
+#. examBanks.readiness.questions.7.options.0
+#: src/data/exam.js:100
+msgctxt "text:examBanks.readiness.questions.7.options.0"
+msgid "Chase it while shouting the entire text"
+msgstr "追いかけて全文を叫ぶ"
+
+#. examBanks.readiness.questions.7.options.1
+#: src/data/exam.js:101
+msgctxt "text:examBanks.readiness.questions.7.options.1"
+msgid "Note the call number and direction, then alert the north-wing librarian"
+msgstr "請求記号と方向を記録し、北翼の司書へ知らせる"
+
+#. examBanks.readiness.questions.7.options.2
+#: src/data/exam.js:102
+msgctxt "text:examBanks.readiness.questions.7.options.2"
+msgid "Mark it automatically returned"
+msgstr "自動返却されたことにする"
+
+#. examBanks.readiness.questions.7.options.3
+#: src/data/exam.js:103
+msgctxt "text:examBanks.readiness.questions.7.options.3"
+msgid "Shoot it down with a fireball"
+msgstr "火球で撃ち落とす"
+
+#. examBanks.boundary.questions.0.options.0
+#: src/data/exam.js:122
+msgctxt "text:examBanks.boundary.questions.0.options.0"
+msgid "Give the incident the scariest possible name"
+msgstr "最も恐ろしい異変名をつける"
+
+#. examBanks.boundary.questions.0.options.1
+#: src/data/exam.js:123
+msgctxt "text:examBanks.boundary.questions.0.options.1"
+msgid "Time, range, exceptions, light source, and reproducibility"
+msgstr "時刻・範囲・例外・光源・再現条件"
+
+#. examBanks.boundary.questions.0.options.2
+#: src/data/exam.js:124
+msgctxt "text:examBanks.boundary.questions.0.options.2"
+msgid "The presumed culprit's clothing color"
+msgstr "推定犯人の服の色"
+
+#. examBanks.boundary.questions.0.options.3
+#: src/data/exam.js:125
+msgctxt "text:examBanks.boundary.questions.0.options.3"
+msgid "Declare the shadows sentient"
+msgstr "影に自我があると宣言する"
+
+#. examBanks.boundary.questions.1.options.0
+#: src/data/exam.js:134
+msgctxt "text:examBanks.boundary.questions.1.options.0"
+msgid "Compare only which photo looks better"
+msgstr "写真の美しさだけを比べる"
+
+#. examBanks.boundary.questions.1.options.1
+#: src/data/exam.js:135
+msgctxt "text:examBanks.boundary.questions.1.options.1"
+msgid "Record crossing order, lunar phase, companions, and observation position"
+msgstr "通過順序・月相・同行者・観測位置を記録する"
+
+#. examBanks.boundary.questions.1.options.2
+#: src/data/exam.js:136
+msgctxt "text:examBanks.boundary.questions.1.options.2"
+msgid "Remove the signpost so the problem disappears"
+msgstr "道標を抜けば問題は消える"
+
+#. examBanks.boundary.questions.1.options.3
+#: src/data/exam.js:137
+msgctxt "text:examBanks.boundary.questions.1.options.3"
+msgid "Ask the signpost which direction it prefers"
+msgstr "道標に好きな方向を聞く"
+
+#. examBanks.boundary.questions.2.options.0
+#: src/data/exam.js:146
+msgctxt "text:examBanks.boundary.questions.2.options.0"
+msgid "When the researcher gets a bad feeling"
+msgstr "研究員が嫌な感じを覚えた時"
+
+#. examBanks.boundary.questions.2.options.1
+#: src/data/exam.js:147
+msgctxt "text:examBanks.boundary.questions.2.options.1"
+msgid "Three consecutive safety-limit readings or any companion withdrawing consent"
+msgstr "観測値が三回連続で安全線を超える、または同行者が同意を撤回する"
+
+#. examBanks.boundary.questions.2.options.2
+#: src/data/exam.js:148
+msgctxt "text:examBanks.boundary.questions.2.options.2"
+msgid "When everyone gets tired"
+msgstr "全員が疲れるまで"
+
+#. examBanks.boundary.questions.2.options.3
+#: src/data/exam.js:149
+msgctxt "text:examBanks.boundary.questions.2.options.3"
+msgid "When the incident says you may stop"
+msgstr "異変が止めてよいと言う"
+
+#. examBanks.boundary.questions.3.options.0
+#: src/data/exam.js:158
+msgctxt "text:examBanks.boundary.questions.3.options.0"
+msgid "Record original use, present use, and the owner's account"
+msgstr "元の用途・現在の用途・所有者の説明を記録する"
+
+#. examBanks.boundary.questions.3.options.1
+#: src/data/exam.js:159
+msgctxt "text:examBanks.boundary.questions.3.options.1"
+msgid "Widen an unknown gap to obtain more samples"
+msgstr "標本を増やすため未知の裂け目を広げる"
+
+#. examBanks.boundary.questions.3.options.2
+#: src/data/exam.js:160
+msgctxt "text:examBanks.boundary.questions.3.options.2"
+msgid "Use non-invasive registration"
+msgstr "非侵襲的な登録を使う"
+
+#. examBanks.boundary.questions.3.options.3
+#: src/data/exam.js:161
+msgctxt "text:examBanks.boundary.questions.3.options.3"
+msgid "Record observation separately from interpretation"
+msgstr "観察と解釈を分けて記録する"
+
+#. examBanks.boundary.questions.4.options.0
+#: src/data/exam.js:170
+msgctxt "text:examBanks.boundary.questions.4.options.0"
+msgid "The loser may pretend not to have attended"
+msgstr "敗者が参加していないふりをする"
+
+#. examBanks.boundary.questions.4.options.1
+#: src/data/exam.js:171
+msgctxt "text:examBanks.boundary.questions.4.options.1"
+msgid "Published stopping conditions and a safe exit procedure"
+msgstr "事前公開された終了条件と安全な退出方法"
+
+#. examBanks.boundary.questions.4.options.2
+#: src/data/exam.js:172
+msgctxt "text:examBanks.boundary.questions.4.options.2"
+msgid "The lecture hall's back door is unlocked"
+msgstr "講堂の裏口が開いていること"
+
+#. examBanks.boundary.questions.4.options.3
+#: src/data/exam.js:173
+msgctxt "text:examBanks.boundary.questions.4.options.3"
+msgid "Changing the question when stuck"
+msgstr "答えられなければ問題を変える"
+
+#. examBanks.boundary.questions.5.options.0
+#: src/data/exam.js:182
+msgctxt "text:examBanks.boundary.questions.5.options.0"
+msgid "The moon commands the books to move"
+msgstr "月が本に移動を命じている"
+
+#. examBanks.boundary.questions.5.options.1
+#: src/data/exam.js:183
+msgctxt "text:examBanks.boundary.questions.5.options.1"
+msgid "An observed association; the mechanism still needs controls"
+msgstr "満月と移動頻度が観測上関連し、機構は要検証"
+
+#. examBanks.boundary.questions.5.options.2
+#: src/data/exam.js:184
+msgctxt "text:examBanks.boundary.questions.5.options.2"
+msgid "Every book is a moon rabbit"
+msgstr "全ての本が月兎である"
+
+#. examBanks.boundary.questions.5.options.3
+#: src/data/exam.js:185
+msgctxt "text:examBanks.boundary.questions.5.options.3"
+msgid "The north wing should close forever"
+msgstr "北翼を永久閉鎖すべきだ"
+
+#. examBanks.boundary.questions.6.options.0
+#: src/data/exam.js:194
+msgctxt "text:examBanks.boundary.questions.6.options.0"
+msgid "Use the loudest witness"
+msgstr "最も声の大きい証人を採用する"
+
+#. examBanks.boundary.questions.6.options.1
+#: src/data/exam.js:195
+msgctxt "text:examBanks.boundary.questions.6.options.1"
+msgid "Preserve the differences with position, species vision, and lighting conditions"
+msgstr "差異を残し、位置・種族視覚・照明条件も記録する"
+
+#. examBanks.boundary.questions.6.options.2
+#: src/data/exam.js:196
+msgctxt "text:examBanks.boundary.questions.6.options.2"
+msgid "Average the three colors"
+msgstr "三色の平均を取る"
+
+#. examBanks.boundary.questions.6.options.3
+#: src/data/exam.js:197
+msgctxt "text:examBanks.boundary.questions.6.options.3"
+msgid "Discard all witness data"
+msgstr "全ての目撃資料を削除する"
+
+#. examBanks.boundary.questions.7.options.0
+#: src/data/exam.js:206
+msgctxt "text:examBanks.boundary.questions.7.options.0"
+msgid "Only “do not ask”"
+msgstr "「聞くな」だけ"
+
+#. examBanks.boundary.questions.7.options.1
+#: src/data/exam.js:207
+msgctxt "text:examBanks.boundary.questions.7.options.1"
+msgid "Area, time, visible effects, detour, and next update"
+msgstr "範囲・時間・見える現象・迂回路・更新時刻"
+
+#. examBanks.boundary.questions.7.options.2
+#: src/data/exam.js:208
+msgctxt "text:examBanks.boundary.questions.7.options.2"
+msgid "A suspected culprit's name"
+msgstr "推定犯人の氏名"
+
+#. examBanks.boundary.questions.7.options.3
+#: src/data/exam.js:209
+msgctxt "text:examBanks.boundary.questions.7.options.3"
+msgid "The full text of every past incident"
+msgstr "過去の全異変全文"
+
+#. examBanks.methods.questions.0.options.0
+#: src/data/exam.js:228
+msgctxt "text:examBanks.methods.questions.0.options.0"
+msgid "It looks atmospheric"
+msgstr "雰囲気がある"
+
+#. examBanks.methods.questions.0.options.1
+#: src/data/exam.js:229
+msgctxt "text:examBanks.methods.questions.0.options.1"
+msgid "Minutes a 20-metre marker is obscured under fixed lighting"
+msgstr "固定照明で20m標識が見えない分数"
+
+#. examBanks.methods.questions.0.options.2
+#: src/data/exam.js:230
+msgctxt "text:examBanks.methods.questions.0.options.2"
+msgid "Cirno says it is thick"
+msgstr "チルノが濃いと言った"
+
+#. examBanks.methods.questions.0.options.3
+#: src/data/exam.js:231
+msgctxt "text:examBanks.methods.questions.0.options.3"
+msgid "The photo looks blue"
+msgstr "写真が青っぽい"
+
+#. examBanks.methods.questions.1.options.0
+#: src/data/exam.js:240
+msgctxt "text:examBanks.methods.questions.1.options.0"
+msgid "Put the strongest magician beside it"
+msgstr "最も魔力の強い者が隣に立つ"
+
+#. examBanks.methods.questions.1.options.1
+#: src/data/exam.js:241
+msgctxt "text:examBanks.methods.questions.1.options.1"
+msgid "At equal water level and load, isolate magical input and record output"
+msgstr "同じ水位・負荷で妖力供給を隔離し、出力を記録する"
+
+#. examBanks.methods.questions.1.options.2
+#: src/data/exam.js:242
+msgctxt "text:examBanks.methods.questions.1.options.2"
+msgid "Paint the turbine a different color"
+msgstr "水車を別の色に塗る"
+
+#. examBanks.methods.questions.1.options.3
+#: src/data/exam.js:243
+msgctxt "text:examBanks.methods.questions.1.options.3"
+msgid "Run it once on a sunny day"
+msgstr "晴天に一度だけ動かす"
+
+#. examBanks.methods.questions.2.options.0
+#: src/data/exam.js:252
+msgctxt "text:examBanks.methods.questions.2.options.0"
+msgid "The successful travellers' shoe brands"
+msgstr "成功者の靴の銘柄"
+
+#. examBanks.methods.questions.2.options.1
+#: src/data/exam.js:253
+msgctxt "text:examBanks.methods.questions.2.options.1"
+msgid "Experiences of those still lost or rescued midway"
+msgstr "迷ったままの人と途中救助された人の経験"
+
+#. examBanks.methods.questions.2.options.2
+#: src/data/exam.js:254
+msgctxt "text:examBanks.methods.questions.2.options.2"
+msgid "Average bamboo height"
+msgstr "竹の平均高さ"
+
+#. examBanks.methods.questions.2.options.3
+#: src/data/exam.js:255
+msgctxt "text:examBanks.methods.questions.2.options.3"
+msgid "Moon rabbits' lunch time"
+msgstr "月兎の昼食時間"
+
+#. examBanks.methods.questions.3.options.0
+#: src/data/exam.js:264
+msgctxt "text:examBanks.methods.questions.3.options.0"
+msgid "“Did the usual thing and it glowed”"
+msgstr "「いつも通りやったら光った」"
+
+#. examBanks.methods.questions.3.options.1
+#: src/data/exam.js:265
+msgctxt "text:examBanks.methods.questions.3.options.1"
+msgid "Records batches, formula, order, environment, failures, and safety limits"
+msgstr "材料ロット・術式・順序・環境・失敗・安全線を記録"
+
+#. examBanks.methods.questions.3.options.2
+#: src/data/exam.js:266
+msgctxt "text:examBanks.methods.questions.3.options.2"
+msgid "A photo of the successful moment"
+msgstr "成功した瞬間の写真だけ"
+
+#. examBanks.methods.questions.3.options.3
+#: src/data/exam.js:267
+msgctxt "text:examBanks.methods.questions.3.options.3"
+msgid "The researcher promises to remember"
+msgstr "実験者が覚えていると保証する"
+
+#. examBanks.methods.questions.4.options.0
+#: src/data/exam.js:276
+msgctxt "text:examBanks.methods.questions.4.options.0"
+msgid "Silently replace the file"
+msgstr "記録を残さず密かに差し替える"
+
+#. examBanks.methods.questions.4.options.1
+#: src/data/exam.js:277
+msgctxt "text:examBanks.methods.questions.4.options.1"
+msgid "Publish a correction, identify affected conclusions, and preserve version history"
+msgstr "訂正を公開し、影響する結論を示し、版履歴を残す"
+
+#. examBanks.methods.questions.4.options.2
+#: src/data/exam.js:278
+msgctxt "text:examBanks.methods.questions.4.options.2"
+msgid "Delete all data"
+msgstr "全データを削除する"
+
+#. examBanks.methods.questions.4.options.3
+#: src/data/exam.js:279
+msgctxt "text:examBanks.methods.questions.4.options.3"
+msgid "Say dates are merely a human obsession"
+msgstr "日付は人間の執着だと言う"
+
+#. examBanks.methods.questions.5.options.0
+#: src/data/exam.js:288
+msgctxt "text:examBanks.methods.questions.5.options.0"
+msgid "It was already taken, so consent is permanent"
+msgstr "撮影済みなので永久に有効"
+
+#. examBanks.methods.questions.5.options.1
+#: src/data/exam.js:289
+msgctxt "text:examBanks.methods.questions.5.options.1"
+msgid "Remove controlled copies, record withdrawal, and notify publishing partners"
+msgstr "管理可能な複製を撤下し、撤回を記録し、共同公開者へ通知する"
+
+#. examBanks.methods.questions.5.options.2
+#: src/data/exam.js:290
+msgctxt "text:examBanks.methods.questions.5.options.2"
+msgid "Draw a tanuki face over it"
+msgstr "顔を狸に描けば解決"
+
+#. examBanks.methods.questions.5.options.3
+#: src/data/exam.js:291
+msgctxt "text:examBanks.methods.questions.5.options.3"
+msgid "Let the tengu newspaper decide"
+msgstr "天狗新聞に決めてもらう"
+
+#. examBanks.methods.questions.6.options.0
+#: src/data/exam.js:300
+msgctxt "text:examBanks.methods.questions.6.options.0"
+msgid "Declare rain the sole cause"
+msgstr "雨が唯一の原因と宣言する"
+
+#. examBanks.methods.questions.6.options.1
+#: src/data/exam.js:301
+msgctxt "text:examBanks.methods.questions.6.options.1"
+msgid "Check humidity, grounding, materials, dry controls, and more rainfall levels"
+msgstr "湿度・接地・材料・無雨対照を調べ、雨量別の標本を増やす"
+
+#. examBanks.methods.questions.6.options.2
+#: src/data/exam.js:302
+msgctxt "text:examBanks.methods.questions.6.options.2"
+msgid "Stop recording weather"
+msgstr "今後は天気を記録しない"
+
+#. examBanks.methods.questions.6.options.3
+#: src/data/exam.js:303
+msgctxt "text:examBanks.methods.questions.6.options.3"
+msgid "Place a weather maiden beside it"
+msgstr "晴れ女を装置の隣に立たせる"
+
+#. examBanks.methods.questions.7.options.0
+#: src/data/exam.js:312
+msgctxt "text:examBanks.methods.questions.7.options.0"
+msgid "“That youkai is suspicious, as expected.”"
+msgstr "「あの妖怪はやはり怪しい。」"
+
+#. examBanks.methods.questions.7.options.1
+#: src/data/exam.js:313
+msgctxt "text:examBanks.methods.questions.7.options.1"
+msgid "“14:32, third east torii; sweet odor. Two companions did not detect it. Wind southwest.”"
+msgstr "「14:32、東側第三鳥居。甘い匂い。同行者二名は感じず。南西風。」"
+
+#. examBanks.methods.questions.7.options.2
+#: src/data/exam.js:314
+msgctxt "text:examBanks.methods.questions.7.options.2"
+msgid "“Everyone knows what happened.”"
+msgstr "「何が起きたか皆知っている。」"
+
+#. examBanks.methods.questions.7.options.3
+#: src/data/exam.js:315
+msgctxt "text:examBanks.methods.questions.7.options.3"
+msgid "“Will reconstruct from memory later.”"
+msgstr "「後で記憶から補う。」"
+
+#. examBanks.campus.questions.0.options.0
+#: src/data/exam.js:334
+msgctxt "text:examBanks.campus.questions.0.options.0"
+msgid "Boundary Hall"
+msgstr "境界講堂"
+
+#. examBanks.campus.questions.0.options.1
+#: src/data/exam.js:335
+msgctxt "text:examBanks.campus.questions.0.options.1"
+msgid "Misty Lake Library"
+msgstr "霧の湖図書館"
+
+#. examBanks.campus.questions.0.options.2
+#: src/data/exam.js:336
+msgctxt "text:examBanks.campus.questions.0.options.2"
+msgid "Kappa Joint Workshop"
+msgstr "河童共同工房"
+
+#. examBanks.campus.questions.0.options.3
+#: src/data/exam.js:337
+msgctxt "text:examBanks.campus.questions.0.options.3"
+msgid "Hieda History Hall"
+msgstr "稗田史学館"
+
+#. examBanks.campus.questions.1.options.0
+#: src/data/exam.js:346
+msgctxt "text:examBanks.campus.questions.1.options.0"
+msgid "Racing priority"
+msgstr "競走優先"
+
+#. examBanks.campus.questions.1.options.1
+#: src/data/exam.js:347
+msgctxt "text:examBanks.campus.questions.1.options.1"
+msgid "Medical priority"
+msgstr "医療優先"
+
+#. examBanks.campus.questions.1.options.2
+#: src/data/exam.js:348
+msgctxt "text:examBanks.campus.questions.1.options.2"
+msgid "Fully open at the full moon"
+msgstr "満月は全面開放"
+
+#. examBanks.campus.questions.1.options.3
+#: src/data/exam.js:349
+msgctxt "text:examBanks.campus.questions.1.options.3"
+msgid "Brooms only"
+msgstr "箒のみ利用可"
+
+#. examBanks.campus.questions.2.options.0
+#: src/data/exam.js:358
+msgctxt "text:examBanks.campus.questions.2.options.0"
+msgid "Bamboo Navigation Club"
+msgstr "竹林オリエンテーリング部"
+
+#. examBanks.campus.questions.2.options.1
+#: src/data/exam.js:359
+msgctxt "text:examBanks.campus.questions.2.options.1"
+msgid "Grimoire Restoration Society"
+msgstr "魔導書修復会"
+
+#. examBanks.campus.questions.2.options.2
+#: src/data/exam.js:360
+msgctxt "text:examBanks.campus.questions.2.options.2"
+msgid "Fairy Choir"
+msgstr "妖精合唱団"
+
+#. examBanks.campus.questions.2.options.3
+#: src/data/exam.js:361
+msgctxt "text:examBanks.campus.questions.2.options.3"
+msgid "Tea & News Ethics Society"
+msgstr "茶と報道倫理会"
+
+#. examBanks.campus.questions.3.options.0
+#: src/data/exam.js:370
+msgctxt "text:examBanks.campus.questions.3.options.0"
+msgid "06:00"
+msgstr "06:00"
+
+#. examBanks.campus.questions.3.options.1
+#: src/data/exam.js:371
+msgctxt "text:examBanks.campus.questions.3.options.1"
+msgid "12:00"
+msgstr "12:00"
+
+#. examBanks.campus.questions.3.options.2
+#: src/data/exam.js:372
+msgctxt "text:examBanks.campus.questions.3.options.2"
+msgid "After 17:30"
+msgstr "17:30以降"
+
+#. examBanks.campus.questions.3.options.3
+#: src/data/exam.js:373
+msgctxt "text:examBanks.campus.questions.3.options.3"
+msgid "Only at full moon"
+msgstr "満月のみ"
+
+#. examBanks.campus.questions.4.options.0
+#: src/data/exam.js:382
+msgctxt "text:examBanks.campus.questions.4.options.0"
+msgid "Danmaku and stalls both stay in the sky"
+msgstr "弾幕も屋台も空"
+
+#. examBanks.campus.questions.4.options.1
+#: src/data/exam.js:383
+msgctxt "text:examBanks.campus.questions.4.options.1"
+msgid "Danmaku stays in the sky; stalls stay on the ground"
+msgstr "弾幕は空、屋台は地上"
+
+#. examBanks.campus.questions.4.options.2
+#: src/data/exam.js:384
+msgctxt "text:examBanks.campus.questions.4.options.2"
+msgid "Everything happens in the library north wing"
+msgstr "全行事を図書館北翼で行う"
+
+#. examBanks.campus.questions.4.options.3
+#: src/data/exam.js:385
+msgctxt "text:examBanks.campus.questions.4.options.3"
+msgid "All glowing objects are prohibited"
+msgstr "発光物を全面禁止する"
+
+#. examBanks.campus.questions.5.options.0
+#: src/data/exam.js:394
+msgctxt "text:examBanks.campus.questions.5.options.0"
+msgid "Prototypes yes, rain gear no"
+msgstr "試作機は可、雨具は不可"
+
+#. examBanks.campus.questions.5.options.1
+#: src/data/exam.js:395
+msgctxt "text:examBanks.campus.questions.5.options.1"
+msgid "Rain gear yes, prototypes no"
+msgstr "雨具は可、試作機は不可"
+
+#. examBanks.campus.questions.5.options.2
+#: src/data/exam.js:396
+msgctxt "text:examBanks.campus.questions.5.options.2"
+msgid "Both may go back to the residence"
+msgstr "両方とも寮へ持帰可"
+
+#. examBanks.campus.questions.5.options.3
+#: src/data/exam.js:397
+msgctxt "text:examBanks.campus.questions.5.options.3"
+msgid "Both require winning a spell-card duel"
+msgstr "両方とも決闘で取得"
+
+#. examBanks.campus.questions.6.options.0
+#: src/data/exam.js:406
+msgctxt "text:examBanks.campus.questions.6.options.0"
+msgid "Post and pin it on every board"
+msgstr "全板に投稿して固定する"
+
+#. examBanks.campus.questions.6.options.1
+#: src/data/exam.js:407
+msgctxt "text:examBanks.campus.questions.6.options.1"
+msgid "Send it to Journalism for verification and label source status on the BBS"
+msgstr "まず新聞学部で確認し、BBSでは情報源の状態を明示する"
+
+#. examBanks.campus.questions.6.options.2
+#: src/data/exam.js:408
+msgctxt "text:examBanks.campus.questions.6.options.2"
+msgid "Anonymity removes the need to verify"
+msgstr "匿名なら確認不要"
+
+#. examBanks.campus.questions.6.options.3
+#: src/data/exam.js:409
+msgctxt "text:examBanks.campus.questions.6.options.3"
+msgid "More replies make it truer"
+msgstr "返信数が多いほど真実"
+
+#. examBanks.campus.questions.7.options.0
+#: src/data/exam.js:418
+msgctxt "text:examBanks.campus.questions.7.options.0"
+msgid "Roof-berthing time"
+msgstr "屋上停泊時間"
+
+#. examBanks.campus.questions.7.options.1
+#: src/data/exam.js:419
+msgctxt "text:examBanks.campus.questions.7.options.1"
+msgid "Changing names twice"
+msgstr "二度の改名"
+
+#. examBanks.campus.questions.7.options.2
+#: src/data/exam.js:420
+msgctxt "text:examBanks.campus.questions.7.options.2"
+msgid "Library closing time"
+msgstr "図書館閉館時刻"
+
+#. examBanks.campus.questions.7.options.3
+#: src/data/exam.js:421
+msgctxt "text:examBanks.campus.questions.7.options.3"
+msgid "The dining dessert queue"
+msgstr "食堂デザートの列"

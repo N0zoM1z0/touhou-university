@@ -1,3 +1,4 @@
+import { text as catalogText, trees as catalogTrees } from "../generated/i18n/ui/ethics-model.js";
 import {
   ethicsCase,
   ethicsCases,
@@ -23,39 +24,38 @@ const DRAFT_KEY = "tu:ethics:drafts";
 const PROTOCOL_KEY = "tu:ethics:protocols";
 const REVIEW_KEY = "tu:ethics:reviews";
 const MAX_PROTOCOLS = 80;
-const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
 const findingCopy = {
   eirin: {
-    clear: l("風險上限、停止權與暴露長度可以在現場辨認。", "リスク上限・停止権・曝露時間を現場で識別できる。", "Risk ceiling, stopping authority, and exposure duration are identifiable in the field."),
-    noStop: l("停止權仍在研究者手裡；受影響者先感到不適時，規則沒有立即出口。", "停止権が研究者側に残る。参加者が先に異常を感じても即時の出口がない。", "Stopping power remains with the researcher; participants have no immediate exit when they notice harm first."),
-    zeroDose: l("『外部零分鐘』不是可用劑量。請另設不依賴被停止時鐘的暴露計量。", "「外部0分」は用量ではない。停止した時計に依存しない曝露測定が必要。", "“Zero outside minutes” is not a usable dose. Define exposure without relying on the stopped clock."),
-    weakStop: l("停止條件必須早於傷害，而不是等出口消失、背板裂開或畫面熄滅才生效。", "停止条件は害より前に働くこと。出口消失・背板破損・画面消灯を待ってはならない。", "Stopping must occur before harm, not after an exit vanishes, a panel cracks, or a display dies."),
-    highRisk: l("高風險方法可送審，但劑量上限與停止紀錄必須逐次留下。", "高リスク方法は審査可能だが、用量上限と停止記録を逐次残すこと。", "High-risk methods may proceed, but dose ceilings and every stop decision must be recorded."),
+    clear: catalogText("findingCopy.eirin.clear"),
+    noStop: catalogText("findingCopy.eirin.noStop"),
+    zeroDose: catalogText("findingCopy.eirin.zeroDose"),
+    weakStop: catalogText("findingCopy.eirin.weakStop"),
+    highRisk: catalogText("findingCopy.eirin.highRisk"),
   },
   satori: {
-    clear: l("精神資料的讀取邊界、告知時點與撤回方式可以分開辨認。", "精神情報の読取境界・説明時点・撤回方法を別々に識別できる。", "The boundary of mental access, timing of disclosure, and withdrawal route are separately identifiable."),
-    covert: l("波長、讀心或夢境干預不能只靠事後告知取得同意；盲測需求不會自動成為讀取許可。", "波長・読心・夢介入は事後説明だけで同意にならない。盲検の必要性は読取許可を生まない。", "Wavelength, mind-reading, and dream interventions cannot obtain consent only afterward; blinding does not create permission to access."),
-    noNotes: l("沒有落筆仍是資訊處理：它已改變追問、判斷或他人的處置。", "記録しなくても情報処理であり、追問・判断・他者の処置を変えている。", "No written note is still information processing when it changes questions, judgments, or actions."),
-    deletion: l("請說明如何刪除由精神內容推得的判斷，而不只刪除原句。", "精神内容から導いた判断をどう削除するか。原文削除だけでは足りない。", "Explain how inferences made from mental content are deleted, not only the original words."),
+    clear: catalogText("findingCopy.satori.clear"),
+    covert: catalogText("findingCopy.satori.covert"),
+    noNotes: catalogText("findingCopy.satori.noNotes"),
+    deletion: catalogText("findingCopy.satori.deletion"),
   },
   keine: {
-    clear: l("原文、訂正痕跡與刪除收據各有位置，沒有互相冒充。", "原文・訂正痕跡・削除受領票が別々の位置にあり、互いになりすまさない。", "Original content, correction traces, and deletion receipts occupy separate places without impersonating one another."),
-    noReceipt: l("若連刪除曾發生的證明也消失，當事人將無法證明撤回被受理；此席保留異議。", "削除が行われた証明まで消すと、撤回受理を立証できない。本席は異議を留保する。", "If proof of deletion also vanishes, the participant cannot prove withdrawal was honored; this seat records dissent."),
-    retention: l("匿名統計若仍能被版本、日期或事件索引重新連回當事人，就不是完整分離。", "匿名統計が版・日付・事案索引から本人へ戻れるなら、分離は不完全。", "Anonymous statistics are not separated if versions, dates, or event indexes can reconnect them to a participant."),
+    clear: catalogText("findingCopy.keine.clear"),
+    noReceipt: catalogText("findingCopy.keine.noReceipt"),
+    retention: catalogText("findingCopy.keine.retention"),
   },
   eiki: {
-    clear: l("同意、責任與申訴不由同一扇門單方面控制。", "同意・責任・不服申立てを同じ窓口が一方的に支配していない。", "Consent, responsibility, and appeal are not unilaterally controlled by one gate."),
-    noConsent: l("沒有同意的研究不能以『事後可以道歉』代替開始前的權利。", "同意のない研究は「後で謝れる」を開始前の権利の代わりにできない。", "A study without consent cannot replace rights before participation with an apology afterward."),
-    objectRefusal: l("持有人同意與物品拒絕同時有效。所有權沒有把後者擦掉；本席要求以爭議案保存。", "所有者の同意と物の拒否は同時に有効。所有権は後者を消さない。係争案件として保存を求める。", "Holder consent and object refusal are both operative. Ownership does not erase the latter; retain this as contested."),
-    weakAppeal: l("申訴不能只回到主持研究或主張所有權的同一窗口。", "不服申立てを研究責任者や所有権主張者と同じ窓口だけへ戻してはならない。", "Appeal cannot return only to the same desk running the study or claiming ownership."),
-    proxy: l("代理同意必須保留當事人自己的停止與撤回權。", "代理同意でも本人の停止権・撤回権を残すこと。", "Proxy consent must retain the subject's own rights to stop and withdraw."),
+    clear: catalogText("findingCopy.eiki.clear"),
+    noConsent: catalogText("findingCopy.eiki.noConsent"),
+    objectRefusal: catalogText("findingCopy.eiki.objectRefusal"),
+    weakAppeal: catalogText("findingCopy.eiki.weakAppeal"),
+    proxy: catalogText("findingCopy.eiki.proxy"),
   },
   reimu: {
-    clear: l("現場人員能在一口氣內說完規則、停止訊號與退路。", "現場担当者が一息で規則・停止合図・退路を説明できる。", "Field staff can state the rule, stop signal, and exit in one breath."),
-    noWitness: l("時間、波長或歷史被能力改動時，至少要有一個不依賴同一能力的見證方式。", "時間・波長・歴史を能力で変えるなら、同じ能力に依存しない立会方法が必要。", "When ability alters time, wavelength, or history, at least one witness must not depend on that same ability."),
-    noExit: l("研究對象不能自己停下，就不算有退路；『去找窗口』不是現場停止訊號。", "対象者自身が止められないなら退路ではない。「窓口へ行く」は現場停止合図にならない。", "If the subject cannot stop the procedure, there is no exit; “visit the desk” is not a field stop signal."),
-    erasedRule: l("一條執行後會刪除自己與申訴證明的規則，不能證明自己曾被遵守；保留異議。", "実行後に自分と申立て証明を消す規則は、守られたことを証明できない。異議を留保する。", "A rule that deletes itself and proof of appeal cannot show it was followed; dissent is recorded."),
+    clear: catalogText("findingCopy.reimu.clear"),
+    noWitness: catalogText("findingCopy.reimu.noWitness"),
+    noExit: catalogText("findingCopy.reimu.noExit"),
+    erasedRule: catalogText("findingCopy.reimu.erasedRule"),
   },
 };
 
@@ -222,22 +222,22 @@ function opinion(reviewerId, stance, findingId, conditions = []) {
 function eirinOpinion(draft) {
   if (draft.riskId === "high" && draft.maxExposure <= 0) {
     return opinion("eirin", "revise", "zeroDose", [
-      l("增加一個不依賴外部鐘面的最大操作次數或內部時序上限。", "外部時計に依存しない最大操作回数・内部順序上限を追加。", "Add a maximum operation count or internal sequence limit independent of outside clocks."),
+      catalogText("eirinOpinion.eirin.3.0"),
     ]);
   }
   if (draft.stopRule.length < 12) {
     return opinion("eirin", "revise", "weakStop", [
-      l("把最早可觀察的不良訊號與負責喊停的人寫進同一句。", "最初に観察できる有害兆候と停止担当者を同じ文に記す。", "Put the earliest observable harm signal and the person who stops the study in one rule."),
+      catalogText("eirinOpinion.eirin.3.0.2"),
     ]);
   }
   if (draft.riskId === "high" && !draft.subjectCanStop) {
     return opinion("eirin", "revise", "noStop", [
-      l("研究對象必須有不經研究者批准即可使用的停止訊號。", "研究対象が研究者の許可なく使える停止合図を設ける。", "Give subjects a stop signal usable without researcher approval."),
+      catalogText("eirinOpinion.eirin.3.0.3"),
     ]);
   }
   if (draft.riskId === "high") {
     return opinion("eirin", "conditional", "highRisk", [
-      l("每次能力介入都記錄開始、停止、暴露上限與提前中止原因。", "能力介入ごとに開始・停止・上限・早期中止理由を記録。", "Record start, stop, ceiling, and early-termination reason for every intervention."),
+      catalogText("eirinOpinion.eirin.3.0.4"),
     ]);
   }
   return opinion("eirin", "approve", "clear");
@@ -248,17 +248,17 @@ function satoriOpinion(draft) {
   const subjectConsent = ["subject", "both", "community", "proxy"].includes(draft.consentId);
   if (mental && (!subjectConsent || ["after", "none"].includes(draft.disclosureId))) {
     return opinion("satori", "revise", "covert", [
-      l("至少事前說明會使用能力、可能讀取的範圍與拒絕後不受損失。", "能力使用・読取範囲・拒否による不利益なしを事前説明。", "Disclose ability use, scope of access, and penalty-free refusal before participation."),
+      catalogText("satoriOpinion.satori.3.0"),
     ]);
   }
   if (draft.methodId === "mind-read" && draft.dataIds.includes("thought")) {
     return opinion("satori", "conditional", "noNotes", [
-      l("把『讀取但不落筆』列為一次資料處理，並允許當事人要求推論失效。", "「読取・非記録」を情報処理として記録し、推論の無効化請求を認める。", "Record read-without-writing as processing and allow subjects to invalidate resulting inferences."),
+      catalogText("satoriOpinion.satori.3.0.2"),
     ]);
   }
   if (draft.dataIds.includes("thought") && draft.deletionPlan.length < 18) {
     return opinion("satori", "conditional", "deletion", [
-      l("補寫衍生判斷、標籤與追問紀錄的刪除方式。", "派生判断・ラベル・追問記録の削除方法を追記。", "Add deletion rules for derived judgments, labels, and follow-up questions."),
+      catalogText("satoriOpinion.satori.3.0.3"),
     ]);
   }
   return opinion("satori", "approve", "clear");
@@ -267,12 +267,12 @@ function satoriOpinion(draft) {
 function keineOpinion(draft) {
   if (draft.methodId === "history-edit" && !draft.auditStub) {
     return opinion("keine", "contested", "noReceipt", [
-      l("只保留一張不含原文的撤回收據：誰提出、何時受理、哪個版本不再可用。", "原文を含まない撤回受領票だけを残す：申請者・受理時刻・無効版。", "Retain a content-free withdrawal receipt: requester, acceptance time, and invalidated version."),
+      catalogText("keineOpinion.keine.3.0"),
     ]);
   }
   if (draft.dataIds.includes("history") && draft.deletionPlan.length < 18) {
     return opinion("keine", "conditional", "retention", [
-      l("列出匿名統計可能重新連回當事人的日期、版本與事件索引。", "匿名統計から本人へ戻り得る日付・版・事案索引を列挙。", "List dates, versions, and event indexes that could reconnect anonymous statistics to a subject."),
+      catalogText("keineOpinion.keine.3.0.2"),
     ]);
   }
   return opinion("keine", "approve", "clear");
@@ -281,17 +281,17 @@ function keineOpinion(draft) {
 function eikiOpinion(draft) {
   if (draft.consentId === "none") {
     return opinion("eiki", "revise", "noConsent", [
-      l("在任何能力介入前取得可拒絕、可撤回且不減損服務的同意。", "能力介入前に、拒否・撤回可能でサービス不利益のない同意を得る。", "Obtain refusal- and withdrawal-capable consent without loss of services before intervention."),
+      catalogText("eikiOpinion.eiki.3.0"),
     ]);
   }
   if (draft.targetId === "object" && (!draft.objectAssent || draft.consentId === "holder")) {
     return opinion("eiki", "contested", "objectRefusal", [
-      l("不可逆操作必須同時取得持有人與物品／付喪神的同意；任一方拒絕即改用非侵入檢查。", "不可逆操作は所有者と物／付喪神双方の同意が必要。一方が拒否すれば非侵入検査へ。", "Irreversible work requires both holder and object/tsukumogami consent; either refusal triggers non-invasive methods."),
+      catalogText("eikiOpinion.eiki.3.0.2"),
     ]);
   }
   if (draft.appealPlan.length < 18 || ["holder", "proxy"].includes(draft.consentId)) {
     return opinion("eiki", "conditional", draft.consentId === "proxy" ? "proxy" : "weakAppeal", [
-      l("指定一名不主持研究、不主張所有權的獨立申訴人。", "研究責任者でも所有権主張者でもない独立申立人を指定。", "Name an independent advocate who neither runs the study nor claims ownership."),
+      catalogText("eikiOpinion.eiki.3.0.3"),
     ]);
   }
   return opinion("eiki", "approve", "clear");
@@ -300,17 +300,17 @@ function eikiOpinion(draft) {
 function reimuOpinion(draft) {
   if (["time-stop", "wave", "history-edit"].includes(draft.methodId) && !draft.independentMonitor) {
     return opinion("reimu", "revise", "noWitness", [
-      l("準備一個不靠同一能力運作的鐘、標記人或紙面計數器。", "同じ能力に依存しない時計・立会人・紙の計数器を用意。", "Provide a clock, witness, or paper counter that does not rely on the same ability."),
+      catalogText("reimuOpinion.reimu.3.0"),
     ]);
   }
   if (draft.methodId === "history-edit" && !draft.auditStub) {
     return opinion("reimu", "contested", "erasedRule", [
-      l("規則可以刪內容，不能把自己曾經生效與如何申訴一併刪掉。", "規則は内容を消しても、自らの発効と申立方法まで消してはならない。", "The rule may delete content, not its own operation and the route of appeal."),
+      catalogText("reimuOpinion.reimu.3.0.2"),
     ]);
   }
   if (!draft.subjectCanStop) {
     return opinion("reimu", "conditional", "noExit", [
-      l("把一句話的停止口令直接印在參與說明與現場告示上。", "一文の停止合図を参加説明と現場掲示へ直接印刷。", "Print a one-sentence stop signal on both participation instructions and the field notice."),
+      catalogText("reimuOpinion.reimu.3.0.3"),
     ]);
   }
   return opinion("reimu", "approve", "clear");
@@ -482,32 +482,7 @@ export function withdrawEthicsProtocol(protocolId, reason = "", now = new Date()
   return protocols[index];
 }
 
-const communityCopy = {
-  "zh-Hant": {
-    aya: "文文。研究許可速報",
-    minority: "研究倫理委員會・少數意見欄",
-    withdrew: "訂正：申請人已撤回本案；先前審查仍留作版本記錄。",
-    headline: "倫理案卷完成五席審查",
-    conditions: "五席沒有平均；紅字條件與少數意見仍各自有效。",
-    noDissent: "本輪沒有少數異議，但每席條件仍分開保存。",
-  },
-  ja: {
-    aya: "文々。研究許可速報",
-    minority: "研究倫理委員会・少数意見欄",
-    withdrew: "訂正：申請者が本件を取り下げた。先の審査は版記録として残る。",
-    headline: "倫理案件、五席審査を完了",
-    conditions: "五席は平均されず、赤字条件と少数意見はそれぞれ有効。",
-    noDissent: "今回は少数異議なし。ただし各席条件は別々に保存。",
-  },
-  en: {
-    aya: "Bunbunmaru Research Permit Extra",
-    minority: "Research Ethics Board · Minority Opinions",
-    withdrew: "Correction: the applicant withdrew this file; the earlier review remains as version history.",
-    headline: "Ethics file completes five-seat review",
-    conditions: "The five seats were not averaged; red-letter conditions and minority opinions remain independently operative.",
-    noDissent: "No minority dissent this round; every seat's conditions remain separately recorded.",
-  },
-};
+const communityCopy = catalogTrees["communityCopy"];
 
 export function ethicsCommunityPosts(locale = "zh-Hant") {
   const c = communityCopy[locale] || communityCopy["zh-Hant"];

@@ -1,0 +1,58 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. filed
+#: src/js/domain-registry.js:105
+msgctxt "text:filed"
+msgid "Arrival file"
+msgstr "到着記錄"
+
+#. open
+#: src/js/domain-registry.js:106
+msgctxt "text:open"
+msgid "Arrival in progress"
+msgstr "報到辦理中"
+
+#. domainManifests.phantasm.search.0.phantasm-campus.2
+#: src/js/domain-registry.js:535
+msgctxt "text:domainManifests.phantasm.search.0.phantasm-campus.2"
+msgid "Dream Campus / Ninth Period"
+msgstr "夢境校區／第九節"
+
+#. domainManifests.phantasm.search.0.phantasm-campus.3
+#: src/js/domain-registry.js:536
+msgctxt "text:domainManifests.phantasm.search.0.phantasm-campus.3"
+msgid "Untaken-route transcript, reverse map, dream courses, and reverse viva"
+msgstr "未選路線學籍、裏側地圖、夢課與反向答辯"
+
+#. domainManifests.phantasm.search.0.phantasm-campus.2
+#: src/js/domain-registry.js:555
+msgctxt "text:domainManifests.phantasm.search.0.phantasm-campus.2.2"
+msgid "Result Nine (index denies it)"
+msgstr "第九筆（索引否認）"
+
+#. domainManifests.phantasm.search.0.phantasm-campus.3
+#: src/js/domain-registry.js:556
+msgctxt "text:domainManifests.phantasm.search.0.phantasm-campus.3.2"
+msgid ""
+"Six reverse seals are present, but the result moves with date, lunar phase, "
+"and duty bell."
+msgstr "六枚反面印已齊，但查詢位置會隨日期、月相與當值校鐘移動。"
+
+#. domainManifests.phantasm.search.0.my-tu.2
+#: src/js/domain-registry.js:565
+msgctxt "text:domainManifests.phantasm.search.0.my-tu.2"
+msgid "Ninth Period (no registration)"
+msgstr "第九節（無此課號）"
+
+#. domainManifests.phantasm.search.0.my-tu.3
+#: src/js/domain-registry.js:566
+msgctxt "text:domainManifests.phantasm.search.0.my-tu.3"
+msgid "One search-index row refuses deletion; {value0} seals show through its reverse."
+msgstr "搜尋索引有一行拒絕刪除；背面透出 {value0} 枚印章。"

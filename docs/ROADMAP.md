@@ -348,7 +348,7 @@ Status: implemented in 0.30.0.
 
 ## Batch 21 — First Bell new-student arrival
 
-Status: implemented in Unreleased.
+Status: implemented in 0.31.0.
 
 - a public arrival office with a strict formal-admission gate: conditional,
   supplementary, interview and pending-review editions remain visible but do
@@ -360,6 +360,19 @@ Status: implemented in Unreleased.
   newcomer home path, Search, nameless BBS and Hieda projections
 - three complete public languages and an original paper, ink and vermilion
   visual system with focused lifecycle and browser verification
+
+## Batch 22 — Source, translation and publication boundaries
+
+Status: implemented in 0.31.0.
+
+- owner-scoped trilingual gettext PO catalogs, explicit markup keys and strict
+  deterministic compilation with translator metadata and review memory
+- source templates, modular styles and focused UI initializers build into an
+  ignored `dist/` publication directory while preserving all public page URLs
+- GitHub Actions validates domain contracts and browser flows before deploying
+  only the built publication; local tools support clean builds and free ports
+- TU-H-042 records the reorganization in three languages while Git subjects and
+  first-parent history remain the authoritative commit linkage
 
 ## Future directions, not commitments
 

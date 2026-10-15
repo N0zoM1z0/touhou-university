@@ -1,0 +1,84 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. notice
+#: src/js/appraisal-model.js:232
+msgctxt "text:notice"
+msgid ""
+"Kourindou separated “knowing the purpose” from “knowing how to operate it,” "
+"adding one page to every form."
+msgstr ""
+"Kourindou separated “knowing the purpose” from “knowing how to operate it,” "
+"adding one page to every form."
+
+#. appraisalDeskStatus
+#: src/js/appraisal-model.js:235
+msgctxt "text:appraisalDeskStatus"
+msgid ""
+"Returning holdings occupy two benches; object 31 was just mistaken for a "
+"bookmark by a dictionary."
+msgstr ""
+"Returning holdings occupy two benches; object 31 was just mistaken for a "
+"bookmark by a dictionary."
+
+#. appraisalDeskStatus
+#: src/js/appraisal-model.js:238
+msgctxt "text:appraisalDeskStatus.2"
+msgid ""
+"Nitori brought a reversible adapter box and tape. The library recognizes "
+"only the former as method."
+msgstr ""
+"Nitori brought a reversible adapter box and tape. The library recognizes "
+"only the former as method."
+
+#. appraisalDeskStatus
+#: src/js/appraisal-model.js:240
+msgctxt "text:appraisalDeskStatus.3"
+msgid "Bamboo humidity is up. Sleeves enter drying boxes; all camera shutter tests are paused."
+msgstr "Bamboo humidity is up. Sleeves enter drying boxes; all camera shutter tests are paused."
+
+#. communityCopy.author
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.author"
+msgid "Kourindou × Misty Lake Cataloguing Desk"
+msgstr "Kourindou × Misty Lake Cataloguing Desk"
+
+#. communityCopy.contestedAuthor
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.contestedAuthor"
+msgid "Bunbunmaru Corrections-Candidate Desk"
+msgstr "Bunbunmaru Corrections-Candidate Desk"
+
+#. communityCopy.supported
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.supported"
+msgid "Drift-object appraisal completed"
+msgstr "Drift-object appraisal completed"
+
+#. communityCopy.provisional
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.provisional"
+msgid "Drift object provisionally catalogued"
+msgstr "Drift object provisionally catalogued"
+
+#. communityCopy.contested
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.contested"
+msgid "An unsupported use retained by request"
+msgstr "An unsupported use retained by request"
+
+#. communityCopy.warning
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.warning"
+msgid ""
+"Evidence did not support the proposed original use; the file remains a "
+"red-pencil contested record."
+msgstr ""
+"Evidence did not support the proposed original use; the file remains a "
+"red-pencil contested record."

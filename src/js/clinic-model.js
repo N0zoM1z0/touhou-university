@@ -1,3 +1,4 @@
+import { text as catalogText, trees as catalogTrees } from "../generated/i18n/ui/clinic-model.js";
 import {
   clinicComplaint,
   clinicComplaints,
@@ -191,11 +192,7 @@ export function assessTriage(input, now = new Date()) {
     weather: state.weather,
     rules: [
       ...state.activeEvents.map((event) => event.rule),
-      ...(festival.active ? [{
-        "zh-Hant": `祭典現場執行單預估另有 ${festival.expected} 人需要急救或候診。`,
-        ja: `祭典運行票は救護・受診 ${festival.expected} 人を追加予測。`,
-        en: `The live festival slip adds ${festival.expected} expected aid or clinic presentations.`,
-      }] : []),
+      ...(festival.active ? [catalogText("assessTriage.rules.1.0", { "zh-Hant": {value0: festival.expected}, "ja": {value0: festival.expected}, "en": {value0: festival.expected} })] : []),
     ],
   };
 }
@@ -225,23 +222,7 @@ export function submitClinicTriage(input, now = new Date()) {
 
 function consultationNote(visit) {
   const signature = hashValue(`${visit.id}:${visit.score}`) % 3;
-  return {
-    "zh-Hant": [
-      "永琳將主訴拆成能被處理的部分，並把「大概沒事」退回重寫。",
-      "鈴仙完成波長與月相分診；帝把叫號牌放回了另一個抽屜。",
-      "本部醫務室先處理可逆傷勢，並以三個驚嘆號轉介永遠亭覆核。",
-    ][signature],
-    ja: [
-      "永琳は主訴を処置可能な部分へ分け、「たぶん平気」を書き直しに戻した。",
-      "鈴仙が波長・月相トリアージを完了。てゐは番号札を別の引出しへ戻した。",
-      "本部保健室が可逆的損傷を先に処置し、感嘆符三つで永遠亭へ照会した。",
-    ][signature],
-    en: [
-      "Eirin separated the complaint into treatable parts and returned “probably fine” for revision.",
-      "Reisen completed wavelength and lunar triage; Tewi returned the token to a different drawer.",
-      "The infirmary treated reversible injuries first and referred the file to Eientei with three exclamation points.",
-    ][signature],
-  };
+  return { "zh-Hant": catalogTrees["consultationNote"]["zh-Hant"][signature], "ja": catalogTrees["consultationNote"]["ja"][signature], "en": catalogTrees["consultationNote"]["en"][signature] };
 }
 
 export function completeClinicConsultation(visitId, now = new Date()) {
@@ -376,20 +357,12 @@ export function clinicOperationalBoard(now = new Date()) {
     id: visit.id,
     token: visit.id.slice(-5),
     glyph: visit.band === "urgent" ? "急" : visit.band === "priority" ? "優" : "診",
-    name: {
-      "zh-Hant": visit.patientLabel === "LOCAL PATIENT" ? "本機病友" : visit.patientLabel,
-      ja: visit.patientLabel === "LOCAL PATIENT" ? "端末内患者" : visit.patientLabel,
-      en: visit.patientLabel === "LOCAL PATIENT" ? "On-device patient" : visit.patientLabel,
-    },
+    name: { "zh-Hant": (visit.patientLabel === "LOCAL PATIENT" ? catalogText("local.0.name.yes")["zh-Hant"] : visit.patientLabel), "ja": (visit.patientLabel === "LOCAL PATIENT" ? catalogText("local.0.name.yes")["ja"] : visit.patientLabel), "en": (visit.patientLabel === "LOCAL PATIENT" ? catalogText("local.0.name.yes")["en"] : visit.patientLabel) },
     reason: Object.fromEntries(["zh-Hant", "ja", "en"].map((locale) => [
       locale,
       visit.answers.complaints.map((id) => clinicComplaint(id)?.name[locale]).filter(Boolean).join("、"),
     ])),
-    note: {
-      "zh-Hant": "這張號碼牌來自本機分診，候診時間會保留到完成診察。",
-      ja: "この番号札は端末内トリアージから作成。診察完了まで保存される。",
-      en: "This token came from on-device triage and remains until consultation is completed.",
-    },
+    note: catalogText("local.0.note"),
     minutes: visit.waitMinutes,
     local: true,
     visitId: visit.id,
@@ -426,21 +399,9 @@ export function clinicCommunityPosts(locale) {
     const medicines = prescription.medicineIds.map((id) => clinicMedicine(id)?.name[locale]).filter(Boolean);
     posts.push(localizedPost(locale, prescription, {
       id: `clinic-rx-${prescription.id}`,
-      author: {
-        "zh-Hant": "永遠亭月藥調劑室",
-        ja: "永遠亭月薬調剤室",
-        en: "Eientei Lunar Pharmacy",
-      },
-      title: {
-        "zh-Hant": `處方 ${prescription.id} 已領藥；帝經手的數量請自行再數一次`,
-        ja: `処方 ${prescription.id} 調剤済み・てゐ経由分は再計数を`,
-        en: `Prescription ${prescription.id} dispensed; recount anything Tewi handled`,
-      },
-      body: {
-        "zh-Hant": `本次調劑：${medicines.join("、")}。藥袋已寫明校鐘／轉角／日照單位；請勿把三種單位自行加總。`,
-        ja: `今回：${medicines.join("、")}。薬袋の単位は校鐘・角・日照。三種を独自に合算しないこと。`,
-        en: `Dispensed: ${medicines.join(", ")}. The bag uses bell, corner, and daylight units; do not add those units together.`,
-      },
+      author: catalogText("clinicCommunityPosts.0.2.author"),
+      title: catalogText("clinicCommunityPosts.0.2.title", { "zh-Hant": {value0: prescription.id}, "ja": {value0: prescription.id}, "en": {value0: prescription.id} }),
+      body: catalogText("clinicCommunityPosts.0.2.body", { "zh-Hant": {value0: medicines.join("、")}, "ja": {value0: medicines.join("、")}, "en": {value0: medicines.join(", ")} }),
       replies: 2 + (hashValue(prescription.id) % 8),
       createdAt: prescription.dispensedAt,
       clinicRoute: "clinic-pharmacy",
@@ -452,21 +413,9 @@ export function clinicCommunityPosts(locale) {
     posts.push(localizedPost(locale, plan, {
       id: `clinic-care-${plan.id}`,
       category: "club",
-      author: {
-        "zh-Hant": "校醫院康復走廊",
-        ja: "校医院回復廊",
-        en: "Campus Hospital Recovery Corridor",
-      },
-      title: {
-        "zh-Hant": `${therapy.name[locale]}完成；旁觀者與本人對「完全恢復」仍有一格分歧`,
-        ja: `${therapy.name[locale]}完了・「完全回復」は本人と観察者で一欄不一致`,
-        en: `${therapy.name[locale]} complete; patient and observer differ by one box on “fully recovered”`,
-      },
-      body: {
-        "zh-Hant": "四步回條全部蓋章。若復發，請帶原回條回診；文的剪報不視為病歷副本。",
-        ja: "四段階すべて押印。再発時は原票を持参。文の切抜きは診療録控えではない。",
-        en: "All four steps are stamped. Bring the original slip if symptoms recur; Aya’s clipping is not a medical-record copy.",
-      },
+      author: catalogText("clinicCommunityPosts.0.2.author.2"),
+      title: catalogText("clinicCommunityPosts.0.2.title.2", { "zh-Hant": {value0: therapy.name[locale]}, "ja": {value0: therapy.name[locale]}, "en": {value0: therapy.name[locale]} }),
+      body: catalogText("clinicCommunityPosts.0.2.body.2"),
       replies: 4 + (hashValue(plan.id) % 11),
       createdAt: plan.completedAt,
       clinicRoute: "clinic-recovery",

@@ -1,0 +1,376 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/eyebrow"
+msgid "UNIFIED EXAMINATION / GENSOKYO UNIFIED EXAM"
+msgstr "UNIFIED EXAMINATION / 幻想郷統一高等試験"
+
+#. copy/title
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/title"
+msgid "NORMAL to EXTRA: four unified papers whose questions truly change."
+msgstr "NORMALからEXTRAまで、問題そのものが変わる四つの統一試験。"
+
+#. copy/lead
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/lead"
+msgid ""
+"Humanities and sciences each run at four difficulties. Higher papers combine "
+"notices, versions, lunar phases, route graphs, observations, and conflicting "
+"testimony."
+msgstr "文系・理系それぞれ四難度。語文、境界数学、幻想郷共通常識に加え、高難度では告知版、月相、経路網、観測表、対立証言を同時に扱います。"
+
+#. copy/chooseDifficulty
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/chooseDifficulty"
+msgid "Choose a danmaku difficulty"
+msgstr "弾幕難度を選択"
+
+#. copy/choose
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/choose"
+msgid "Choose an examination track"
+msgstr "受験区分を選択"
+
+#. copy/chooseLead
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/chooseLead"
+msgid ""
+"Four subjects, 150 marks. Printable papers are untimed and work offline or "
+"as saved PDFs."
+msgstr "各区分4科目・150点満点。紙版は時間制限なしで、オフライン受験・印刷・PDF保存に対応。"
+
+#. copy/start
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/start"
+msgid "Start online simulation"
+msgstr "オンライン模試を開始"
+
+#. copy/resume
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/resume"
+msgid "Resume unfinished paper"
+msgstr "未完了答案を続ける"
+
+#. copy/discard
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/discard"
+msgid "Discard draft"
+msgstr "下書きを破棄"
+
+#. copy/paper
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/paper"
+msgid "Download offline paper"
+msgstr "オフライン試験紙"
+
+#. copy/answers
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/answers"
+msgid "Download answer key"
+msgstr "参考解答をダウンロード"
+
+#. copy/format
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/format"
+msgid "Print-ready HTML · no connection required after download"
+msgstr "印刷対応HTML・ダウンロード後は通信不要"
+
+#. copy/subjects
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/subjects"
+msgid "Exam subjects"
+msgstr "受験科目"
+
+#. copy/points
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/points"
+msgid "marks"
+msgstr "点"
+
+#. copy/questions
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/questions"
+msgid "questions"
+msgstr "問"
+
+#. copy/duration
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/duration"
+msgid "Duration"
+msgstr "試験時間"
+
+#. copy/minutes
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/minutes"
+msgid "minutes"
+msgstr "分"
+
+#. copy/total
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/total"
+msgid "Maximum"
+msgstr "満点"
+
+#. copy/candidate
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/candidate"
+msgid "Candidate"
+msgstr "受験者"
+
+#. copy/deviceCandidate
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/deviceCandidate"
+msgid "On-device simulation candidate"
+msgstr "端末内模擬受験者"
+
+#. copy/instructions
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/instructions"
+msgid "Instructions to candidates"
+msgstr "受験上の注意"
+
+#. copy/rules/0
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/0"
+msgid "Every item is single-choice. Select the one best answer."
+msgstr "全問単一選択。最も適切な答えを一つ選ぶこと。"
+
+#. copy/rules/1
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/1"
+msgid "Source boxes are part of the item. Jump from the answer sheet; answers autosave."
+msgstr "資料枠も問題の一部。右の解答欄から移動でき、答案は自動保存される。"
+
+#. copy/rules/2
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/2"
+msgid ""
+"Unless an item says otherwise, its lunar phase, time, route, and version "
+"come only from its source box; the live campus-map state is not consulted."
+msgstr "別記がない限り、月相・時刻・経路・版は資料枠の条件に従い、学内地図の現在状態は参照しない。"
+
+#. copy/rules/3
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/3"
+msgid ""
+"The paper submits at time. Full moons, outages, and relocated classrooms do "
+"not add time."
+msgstr "時間切れで自動提出。満月・停電・教室移動による延長なし。"
+
+#. copy/answered
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/answered"
+msgid "Answered"
+msgstr "回答済"
+
+#. copy/timeLeft
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/timeLeft"
+msgid "Time left"
+msgstr "残り時間"
+
+#. copy/submit
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/submit"
+msgid "Submit and score now"
+msgstr "提出して採点"
+
+#. copy/submitConfirm
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/submitConfirm"
+msgid "Some questions are unanswered. Submit anyway?"
+msgstr "未回答があります。提出しますか。"
+
+#. copy/saved
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/saved"
+msgid "Paper progress saved on this device."
+msgstr "答案をこの端末へ保存しました。"
+
+#. copy/draftRevised
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/draftRevised"
+msgid ""
+"The question bank was revised. Your old choices remain in the local draft, "
+"but please confirm every answer against the new wording."
+msgstr "問題集が改訂されました。旧回答は端末内の下書きに保持していますが、新しい問題文で回答を選び直してください。"
+
+#. copy/expired
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/expired"
+msgid "Time expired. The paper was submitted automatically."
+msgstr "時間切れのため自動提出しました。"
+
+#. copy/result
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/result"
+msgid "Unified Examination Result"
+msgstr "統一試験成績表"
+
+#. copy/score
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/score"
+msgid "Total score"
+msgstr "総得点"
+
+#. copy/correct
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/correct"
+msgid "Correct"
+msgstr "正解"
+
+#. copy/review
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/review"
+msgid "Answer key and explanations"
+msgstr "参考解答・問題解説"
+
+#. copy/yourAnswer
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/yourAnswer"
+msgid "Your answer"
+msgstr "あなたの回答"
+
+#. copy/rightAnswer
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rightAnswer"
+msgid "Reference answer"
+msgstr "参考解答"
+
+#. copy/unanswered
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/unanswered"
+msgid "Unanswered"
+msgstr "未回答"
+
+#. copy/back
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/back"
+msgid "Back to paper selection"
+msgstr "試験選択へ"
+
+#. copy/retake
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/retake"
+msgid "Retake paper"
+msgstr "再受験"
+
+#. copy/excellent
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/excellent"
+msgid "You untangled the versions, lunar phases, and conflicting testimony."
+msgstr "版、月相、証言の分岐をすべて整理できています。"
+
+#. copy/pass
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/pass"
+msgid "A sound result. Revisit the source chains in weaker subjects."
+msgstr "全体は合格。失点科目の資料連鎖を見直しましょう。"
+
+#. copy/revise
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/revise"
+msgid "Trace each source through the key before trusting Yesterday's Clearing."
+msgstr "解説から各資料を遡り、昨日の空地を信じるか再考を。"
+
+#. copy/localRecords
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/localRecords"
+msgid "My unified-exam records"
+msgstr "自分の高等試験記録"
+
+#. copy/localLead
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/localLead"
+msgid "Full answers, scores, and review links stay on this device only."
+msgstr "答案、成績、解説入口はこの端末だけに保存されます。"
+
+#. copy/attempts
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/attempts"
+msgid "submitted"
+msgstr "件提出済み"
+
+#. copy/noRecords
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/noRecords"
+msgid "No completed Gensokyo unified exam is stored on this device."
+msgstr "この端末には完了した統一高等試験がありません。"
+
+#. copy/viewRecord
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/viewRecord"
+msgid "Reopen result and review"
+msgstr "成績・解説を再表示"
+
+#. copy/legacyRecord
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/legacyRecord"
+msgid "Older version saved only a score summary"
+msgstr "旧版では成績概要のみ保存"
+
+#. copy/legacyReview
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/legacyReview"
+msgid ""
+"This record belongs to an older question-bank revision. Its score uses the "
+"original answer positions; old option wording is not projected onto the new "
+"paper."
+msgstr "この記録は旧版の問題集によるものです。得点は当時の解答位置で照合し、旧選択肢の文面を新版へ流用しません。"
+
+#. copy/legacyChoice
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/legacyChoice"
+msgid "Choice on old paper"
+msgstr "旧版の解答記号"
+
+#. copy/completed
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/completed"
+msgid "Submitted"
+msgstr "提出日時"
+
+#. copy/deleteRecord
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/deleteRecord"
+msgid "Delete local record"
+msgstr "端末記録を削除"
+
+#. copy/deleteConfirm
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/deleteConfirm"
+msgid "Delete this examination record?"
+msgstr "この受験記録を削除しますか。"
+
+#. copy/recordDeleted
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/recordDeleted"
+msgid "Local examination record deleted."
+msgstr "端末の受験記録を削除しました。"
+
+#. copy/archive
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/archive"
+msgid "On-device answer archive"
+msgstr "端末内答案庫"
+
+#. copy/sourceFile
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/sourceFile"
+msgid "Source dossier · independent conditions"
+msgstr "問題資料 · 独立条件"
+
+#. renderRunner
+#: src/js/gaokao.js:246
+msgctxt "text:renderRunner"
+msgid "Gensokyo Unified Examination"
+msgstr "幻想郷統一高等試験"

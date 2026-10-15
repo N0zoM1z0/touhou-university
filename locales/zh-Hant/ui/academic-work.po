@@ -1,0 +1,495 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/eyebrow"
+msgid "ACADEMIC WORKBENCH / WORK & DEFENCE"
+msgstr "ACADEMIC WORKBENCH / 課業與答辯"
+
+#. copy/title
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/title"
+msgid "Answers do not disappear behind Submit."
+msgstr "答案不只消失在提交鍵後面。"
+
+#. copy/lead
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/lead"
+msgid ""
+"Assignment drafts, exam answers, per-question scoring, explanations, "
+"transcripts, and thesis/spell-card defences stay on this device. Retakes "
+"never erase earlier slips."
+msgstr "作業草稿、考試答案、逐題判分、解析、成績單與論文／符卡答辯都保存在這台裝置。重考與重交不會抹掉較早的回條。"
+
+#. copy/mytu
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/mytu"
+msgid "Back to student record"
+msgstr "返回學籍首頁"
+
+#. copy/assignments
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/assignments"
+msgid "Course assignments"
+msgstr "課程作業"
+
+#. copy/exam
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/exam"
+msgid "Course exam"
+msgstr "課程考試"
+
+#. copy/grades
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/grades"
+msgid "Transcript"
+msgstr "成績單"
+
+#. copy/defence
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/defence"
+msgid "Thesis / spell-card defence"
+msgstr "論文／符卡答辯"
+
+#. copy/due
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/due"
+msgid "Due"
+msgstr "截止"
+
+#. copy/teacher
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/teacher"
+msgid "Teacher"
+msgstr "授課教師"
+
+#. copy/points
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/points"
+msgid "points"
+msgstr "分"
+
+#. copy/attempts
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/attempts"
+msgid "submissions"
+msgstr "次提交"
+
+#. copy/draftSaved
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/draftSaved"
+msgid "Assignment draft saved on this device."
+msgstr "作業草稿已保存在這台裝置。"
+
+#. copy/saveDraft
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/saveDraft"
+msgid "Save draft"
+msgstr "保存草稿"
+
+#. copy/submit
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/submit"
+msgid "Submit and grade now"
+msgstr "提交並立即判分"
+
+#. copy/incomplete
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/incomplete"
+msgid "Answer every question. Blank space cannot gain marks by imagination."
+msgstr "請完成所有題目；空白不能靠想像自動得分。"
+
+#. copy/submitted
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/submitted"
+msgid "Assignment graded and added to the transcript."
+msgstr "作業已判分並寫入成績單。"
+
+#. copy/latest
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/latest"
+msgid "Latest grading slip"
+msgstr "最新判分回條"
+
+#. copy/correct
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/correct"
+msgid "Earned"
+msgstr "得分"
+
+#. copy/wrong
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/wrong"
+msgid "No mark"
+msgstr "未得分"
+
+#. copy/yourAnswer
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/yourAnswer"
+msgid "Your answer"
+msgstr "你的答案"
+
+#. copy/explanation
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/explanation"
+msgid "Scoring explanation"
+msgstr "判分說明"
+
+#. copy/noSubmission
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/noSubmission"
+msgid "Not submitted. The draft remains."
+msgstr "尚未提交；草稿會留下。"
+
+#. copy/examEyebrow
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/examEyebrow"
+msgid "TIMED COURSE EXAM"
+msgstr "TIMED COURSE EXAM / 計時課程試驗"
+
+#. copy/startExam
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/startExam"
+msgid "Start 18-minute exam"
+msgstr "開始 18 分鐘考試"
+
+#. copy/resumeExam
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/resumeExam"
+msgid "Resume unfinished exam"
+msgstr "繼續未完成考試"
+
+#. copy/examLead
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/examLead"
+msgid "Device time runs after starting; leaving does not pause it. Answers autosave."
+msgstr "開始後由本機時鐘計時；離開頁面不會讓時間停下來，答案則會自動保存。"
+
+#. copy/remaining
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/remaining"
+msgid "Time remaining"
+msgstr "剩餘時間"
+
+#. copy/finishExam
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/finishExam"
+msgid "Submit and grade"
+msgstr "交卷並判分"
+
+#. copy/examSaved
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/examSaved"
+msgid "Exam answers autosaved."
+msgstr "考試答案已自動保存。"
+
+#. copy/examFinished
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/examFinished"
+msgid "Exam submitted; answers and explanations entered the on-device transcript."
+msgstr "考試已交卷；答案與解析已進入本機成績單。"
+
+#. copy/timedOut
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/timedOut"
+msgid "Time expired. Current answers were submitted."
+msgstr "時間到，系統已按目前答案交卷。"
+
+#. copy/retake
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/retake"
+msgid "Retake; keep prior result"
+msgstr "再考一份；保留前次成績"
+
+#. copy/score
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/score"
+msgid "Score"
+msgstr "成績"
+
+#. copy/grade
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/grade"
+msgid "Grade"
+msgstr "等第"
+
+#. copy/status
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/status"
+msgid "Status"
+msgstr "狀態"
+
+#. copy/notGraded
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/notGraded"
+msgid "Not graded"
+msgstr "尚未評分"
+
+#. copy/gradeLead
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/gradeLead"
+msgid ""
+"Assignments, course exams, and defences use percentages. The overall mark "
+"averages each item’s best result without deleting lower attempts."
+msgstr "作業、課程試驗與答辯各以百分制列出；總評取每一項最佳成績的平均，不會刪除較低嘗試。"
+
+#. copy/overall
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/overall"
+msgid "Current overall"
+msgstr "目前總評"
+
+#. copy/print
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/print"
+msgid "Print / Save transcript"
+msgstr "列印／另存成績單"
+
+#. copy/kind
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/kind"
+msgid "Kind"
+msgstr "類別"
+
+#. copy/item
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/item"
+msgid "Assessment"
+msgstr "評量項目"
+
+#. copy/record
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/record"
+msgid "Slip"
+msgstr "回條"
+
+#. copy/assignment
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/assignment"
+msgid "Assignment"
+msgstr "作業"
+
+#. copy/courseExam
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/courseExam"
+msgid "Exam"
+msgstr "考試"
+
+#. copy/defenceKind
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/defenceKind"
+msgid "Defence"
+msgstr "答辯"
+
+#. copy/proposalEyebrow
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/proposalEyebrow"
+msgid "PROJECT DOSSIER"
+msgstr "PROJECT DOSSIER / 研究計畫"
+
+#. copy/proposalTitle
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/proposalTitle"
+msgid "First, make the claim capable of failing."
+msgstr "先把主張寫成會失敗的樣子。"
+
+#. copy/proposalLead
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/proposalLead"
+msgid ""
+"A simulation defence opens after submission. The committee asks about scope, "
+"reproduction, and stopping."
+msgstr "提交後可立即進入模擬答辯；委員會會追問範圍、重現與停止條件。"
+
+#. copy/projectType
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/projectType"
+msgid "Defence type"
+msgstr "答辯類型"
+
+#. copy/thesis
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/thesis"
+msgid "Thesis defence"
+msgstr "論文答辯"
+
+#. copy/spellcard
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/spellcard"
+msgid "Spell-card defence"
+msgstr "符卡答辯"
+
+#. copy/projectTitle
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/projectTitle"
+msgid "Title"
+msgstr "題目"
+
+#. copy/abstract
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/abstract"
+msgid "Abstract (at least 40 characters)"
+msgstr "摘要（至少 40 字元）"
+
+#. copy/claim
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/claim"
+msgid "Falsifiable central claim"
+msgstr "可被推翻的核心主張"
+
+#. copy/method
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/method"
+msgid "Method, versions, and material provenance"
+msgstr "方法、版本與材料來源"
+
+#. copy/stopRule
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/stopRule"
+msgid "Stop / withdrawal rule"
+msgstr "停止／撤回條件"
+
+#. copy/unusedRoute
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/unusedRoute"
+msgid "Route deliberately not taken (optional; 18+ characters)"
+msgstr "刻意沒有採用的路線（選填；至少 18 字元）"
+
+#. copy/unusedRouteHint
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/unusedRouteHint"
+msgid ""
+"Name one route seriously considered but ultimately unused, and why. The "
+"committee keeps it in the defence margin."
+msgstr "寫明一條你認真考慮過、最後沒有採用的路，以及沒有採用的理由。委員會會把它留在答辯卷邊。"
+
+#. copy/submitProject
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/submitProject"
+msgid "Submit project and form committee"
+msgstr "提交計畫並組成委員會"
+
+#. copy/projectSaved
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/projectSaved"
+msgid "Project saved. The committee has begun interrupting itself."
+msgstr "研究計畫已存檔；委員會開始彼此打斷。"
+
+#. copy/committee
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/committee"
+msgid "Defence committee"
+msgstr "答辯委員會"
+
+#. copy/beginDefence
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/beginDefence"
+msgid "Three-question public defence"
+msgstr "公開答辯三問"
+
+#. copy/answerAll
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/answerAll"
+msgid "Every examiner needs one answer."
+msgstr "每一位委員都要得到一個答案。"
+
+#. copy/completeDefence
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/completeDefence"
+msgid "Submit defence for ruling"
+msgstr "提交答辯並裁定"
+
+#. copy/defenceSaved
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/defenceSaved"
+msgid "Defence ruling entered the transcript."
+msgstr "答辯裁定已進入成績單。"
+
+#. copy/outcomes/passed
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomes/passed"
+msgid "Passed"
+msgstr "通過"
+
+#. copy/outcomes/conditional
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomes/conditional"
+msgid "Conditional pass"
+msgstr "有條件通過"
+
+#. copy/outcomes/revise
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomes/revise"
+msgid "Revise and return"
+msgstr "退回補正"
+
+#. copy/outcomeBodies/passed
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomeBodies/passed"
+msgid ""
+"Scope, reproduction record, and stop condition may be published. Examiners "
+"retain the right to complain on BBS."
+msgstr "主張範圍、重現記錄與停止條件均可公開；委員仍保留在 BBS 抱怨的權利。"
+
+#. copy/outcomeBodies/conditional
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomeBodies/conditional"
+msgid "Keep the topic, but attach one method or stop-rule correction before archiving."
+msgstr "可保留題目，但須補一份方法或停止條件附件後再歸檔。"
+
+#. copy/outcomeBodies/revise
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomeBodies/revise"
+msgid "The project remains. Revise from the question slips and apply for another defence."
+msgstr "計畫不作廢；請依逐問回條修改，再申請下一次答辯。"
+
+#. copy/noProject
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/noProject"
+msgid "No project exists yet."
+msgstr "尚無研究計畫。"
+
+#. copy/identityNeeded
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/identityNeeded"
+msgid ""
+"Create a My TU identity before formally submitting work, exams, or a "
+"defence. Browsing remains open."
+msgstr "建立 My TU 身分後才能正式提交作業、考試與答辯；瀏覽題目不受限制。"
+
+#. copy/createIdentity
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/createIdentity"
+msgid "Create My TU identity"
+msgstr "建立 My TU 身分"
+
+#. examinerNames.reimu
+#: src/js/academic-work.js:39
+msgctxt "text:examinerNames.reimu"
+msgid "Reimu Hakurei"
+msgstr "博麗靈夢"
+
+#. examinerNames.marisa
+#: src/js/academic-work.js:40
+msgctxt "text:examinerNames.marisa"
+msgid "Marisa Kirisame"
+msgstr "霧雨魔理沙"
+
+#. examinerNames.yukari
+#: src/js/academic-work.js:41
+msgctxt "text:examinerNames.yukari"
+msgid "Yukari Yakumo"
+msgstr "八雲紫"
+
+#. examinerNames.keine
+#: src/js/academic-work.js:42
+msgctxt "text:examinerNames.keine"
+msgid "Keine Kamishirasawa"
+msgstr "上白澤慧音"

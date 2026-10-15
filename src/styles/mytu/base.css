@@ -1,0 +1,419 @@
+.mytu-section {
+  padding: 92px 0 104px;
+  color: var(--ink);
+  background:
+    linear-gradient(90deg, rgba(74, 48, 35, 0.055) 1px, transparent 1px) 0 0 / 34px 34px,
+    linear-gradient(180deg, #efe5d3, #f8f3e9 72%);
+  border-block: 1px solid rgba(23, 32, 44, 0.16);
+}
+
+.mytu-heading {
+  display: grid;
+  margin-bottom: 38px;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  align-items: end;
+  gap: 48px;
+}
+
+.mytu-heading > div > p,
+.mytu-review header p,
+.mytu-summary header p,
+.mytu-ledger header p,
+.mytu-next > p {
+  margin: 0 0 11px;
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+}
+
+.mytu-heading h2 {
+  max-width: 780px;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(34px, 5vw, 64px);
+  line-height: 1.12;
+}
+
+.mytu-heading > p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+
+.mytu-onboarding {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.52fr) minmax(0, 1.48fr);
+  border: 1px solid rgba(23, 32, 44, 0.2);
+  box-shadow: 0 26px 70px rgba(50, 39, 29, 0.1);
+}
+
+.mytu-onboarding > aside {
+  position: relative;
+  padding: 38px 32px;
+  color: var(--white);
+  background:
+    radial-gradient(circle at 90% 10%, rgba(155, 48, 57, 0.55), transparent 38%),
+    #172536;
+  overflow: hidden;
+}
+
+.mytu-onboarding > aside > span {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+  font-family: var(--serif);
+  font-size: 27px;
+}
+
+.mytu-onboarding > aside > p {
+  margin: 45px 0 5px;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 10px;
+}
+
+.mytu-onboarding > aside > strong {
+  display: block;
+  margin-bottom: 27px;
+  color: #f2d4ad;
+  font-family: var(--serif);
+  font-size: 58px;
+  line-height: 1;
+}
+
+.mytu-onboarding aside dl {
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.mytu-onboarding aside dl div {
+  display: flex;
+  padding: 9px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mytu-onboarding aside dt,
+.mytu-onboarding aside dd {
+  margin: 0;
+  font-size: 10px;
+}
+
+.mytu-profile-form {
+  display: grid;
+  padding: 38px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  background: rgba(255, 253, 248, 0.78);
+}
+
+.mytu-profile-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--ink-soft);
+  font-size: 10px;
+  font-weight: 750;
+}
+
+.mytu-profile-form input,
+.mytu-profile-form select,
+.mytu-profile-form textarea,
+.mytu-application-select select {
+  width: 100%;
+  min-height: 48px;
+  padding: 11px 13px;
+  color: var(--ink);
+  border: 1px solid rgba(23, 32, 44, 0.22);
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.72);
+  font: 500 13px/1.5 var(--sans);
+}
+
+.mytu-profile-form textarea {
+  resize: vertical;
+}
+
+.mytu-profile-form .mytu-check {
+  display: flex;
+  min-height: 48px;
+  padding: 11px 13px;
+  align-items: center;
+  gap: 11px;
+  border: 1px solid rgba(23, 32, 44, 0.16);
+  background: rgba(155, 48, 57, 0.045);
+}
+
+.mytu-profile-form .mytu-check input {
+  width: 18px;
+  min-height: 18px;
+  flex: 0 0 18px;
+}
+
+.mytu-profile-form .mytu-wide,
+.mytu-profile-form footer {
+  grid-column: 1 / -1;
+}
+
+.mytu-profile-form footer {
+  display: flex;
+  padding-top: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.mytu-profile-form footer > span {
+  margin-right: auto;
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.mytu-dashboard {
+  display: grid;
+  margin-bottom: 30px;
+  grid-template-columns: minmax(330px, 0.84fr) minmax(0, 1.16fr);
+  gap: 20px;
+}
+
+.mytu-id-card {
+  position: relative;
+  display: grid;
+  min-height: 315px;
+  padding: 32px;
+  grid-template-columns: 98px 1fr;
+  gap: 25px;
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(155, 48, 57, 0.74), transparent 42%),
+    #142333;
+  box-shadow: 0 24px 54px rgba(31, 37, 46, 0.16);
+  overflow: hidden;
+}
+
+.mytu-id-card::after {
+  content: "TU";
+  position: absolute;
+  right: -10px;
+  bottom: -66px;
+  color: rgba(255, 255, 255, 0.035);
+  font-family: var(--serif);
+  font-size: 210px;
+  line-height: 1;
+}
+
+.mytu-id-crest {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: 98px;
+  height: 98px;
+  place-items: center;
+  border: 1px solid rgba(242, 212, 173, 0.7);
+  border-radius: 50%;
+}
+
+.mytu-id-crest::before,
+.mytu-id-crest::after {
+  position: absolute;
+  content: "";
+  border-radius: inherit;
+  border: 1px solid rgba(242, 212, 173, 0.22);
+}
+
+.mytu-id-crest::before {
+  inset: 7px;
+}
+
+.mytu-id-crest::after {
+  inset: 16px;
+}
+
+.mytu-id-crest span {
+  color: #f2d4ad;
+  font-family: var(--serif);
+  font-size: 31px;
+}
+
+.mytu-id-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.mytu-id-copy > p {
+  margin: 2px 0 3px;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.mytu-id-copy h3 {
+  margin: 0 0 2px;
+  font-family: var(--serif);
+  font-size: 28px;
+}
+
+.mytu-id-copy > code {
+  color: #f2d4ad;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.mytu-id-copy dl {
+  display: grid;
+  margin: 24px 0 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 11px 18px;
+}
+
+.mytu-id-copy dt {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 8px;
+}
+
+.mytu-id-copy dd {
+  margin: 1px 0 0;
+  font-size: 10px;
+}
+
+.mytu-id-card > button {
+  position: absolute;
+  right: 20px;
+  top: 19px;
+  z-index: 2;
+  padding: 6px 9px;
+  color: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+.mytu-summary {
+  padding: 31px;
+  border: 1px solid rgba(23, 32, 44, 0.18);
+  background: rgba(255, 253, 248, 0.7);
+}
+
+.mytu-summary header h3,
+.mytu-review h3,
+.mytu-ledger h3,
+.mytu-next h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 25px;
+}
+
+.mytu-summary > div {
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.mytu-summary a,
+.mytu-summary > div > span {
+  display: grid;
+  min-height: 86px;
+  padding: 14px;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  border: 1px solid rgba(23, 32, 44, 0.13);
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.mytu-summary a span,
+.mytu-summary > div > span small {
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.mytu-summary a strong,
+.mytu-summary > div > span b {
+  color: var(--red);
+  font-family: var(--serif);
+  font-size: 30px;
+  line-height: 1;
+}
+
+.mytu-summary > div > span:last-child {
+  grid-column: 1 / -1;
+  min-height: 54px;
+}
+
+.mytu-application-select {
+  display: grid;
+  margin: 0 0 20px;
+  grid-template-columns: 190px 1fr;
+  align-items: center;
+  gap: 15px;
+  color: var(--ink-soft);
+  font-size: 10px;
+  font-weight: 750;
+}
+
+.mytu-review {
+  padding: 34px;
+  border: 1px solid rgba(23, 32, 44, 0.2);
+  background: #fffaf0;
+  box-shadow: 0 22px 60px rgba(70, 50, 35, 0.08);
+}
+
+.mytu-review > header {
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  align-items: start;
+  gap: 30px;
+}
+
+.mytu-review > header span,
+.mytu-review-empty > div > span {
+  display: block;
+  max-width: 740px;
+  color: var(--ink-soft);
+  font-size: 11px;
+}
+
+.mytu-review > header > b {
+  color: var(--red);
+  font: 800 9px/1.4 var(--sans);
+  letter-spacing: 0.08em;
+}
+
+.mytu-review-source {
+  display: grid;
+  margin-bottom: 22px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.mytu-review-source > div {
+  padding: 15px;
+  border: 1px solid rgba(23, 32, 44, 0.12);
+}
+
+.mytu-review-source span,
+.mytu-review-source strong {
+  display: block;
+}
+
+.mytu-review-source span {
+  margin-bottom: 4px;
+  color: var(--ink-soft);
+  font-size: 8px;
+}
+
+.mytu-review-source strong {
+  font-size: 11px;
+}
+
+.mytu-review-empty {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 30px;
+}

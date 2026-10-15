@@ -1,0 +1,488 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. contracts.0.identity.created.1
+#: src/data/event-contracts.js:56
+msgctxt "text:contracts.0.identity.created.1"
+msgid "Created on-device campus identity"
+msgstr "Created on-device campus identity"
+
+#. contracts.1.identity.updated.1
+#: src/data/event-contracts.js:60
+msgctxt "text:contracts.1.identity.updated.1"
+msgid "Updated on-device identity"
+msgstr "Updated on-device identity"
+
+#. contracts.2.application.submitted.1
+#: src/data/event-contracts.js:64
+msgctxt "text:contracts.2.application.submitted.1"
+msgid "Submitted an application"
+msgstr "Submitted an application"
+
+#. contracts.3.application.reviewed.1
+#: src/data/event-contracts.js:67
+msgctxt "text:contracts.3.application.reviewed.1"
+msgid "Completed joint faculty review"
+msgstr "Completed joint faculty review"
+
+#. contracts.4.application.deleted.1
+#: src/data/event-contracts.js:71
+msgctxt "text:contracts.4.application.deleted.1"
+msgid "Removed a record from the on-device application file"
+msgstr "Removed a record from the on-device application file"
+
+#. contracts.5.orientation.dossier.opened.1
+#: src/data/event-contracts.js:75
+msgctxt "text:contracts.5.orientation.dossier.opened.1"
+msgid "Opened a new-student arrival file"
+msgstr "Opened a new-student arrival file"
+
+#. contracts.6.orientation.arrival.confirmed.1
+#: src/data/event-contracts.js:80
+msgctxt "text:contracts.6.orientation.arrival.confirmed.1"
+msgid "Confirmed the new-student arrival route"
+msgstr "Confirmed the new-student arrival route"
+
+#. contracts.7.orientation.boundary.confirmed.1
+#: src/data/event-contracts.js:85
+msgctxt "text:contracts.7.orientation.boundary.confirmed.1"
+msgid "Confirmed stop signal and detour notice"
+msgstr "Confirmed stop signal and detour notice"
+
+#. contracts.8.orientation.matriculated.1
+#: src/data/event-contracts.js:90
+msgctxt "text:contracts.8.orientation.matriculated.1"
+msgid "Rang First Bell and filed arrival"
+msgstr "Rang First Bell and filed arrival"
+
+#. contracts.9.visit.reserved.1
+#: src/data/event-contracts.js:95
+msgctxt "text:contracts.9.visit.reserved.1"
+msgid "Reserved a campus visit"
+msgstr "Reserved a campus visit"
+
+#. contracts.10.visit.deleted.1
+#: src/data/event-contracts.js:98
+msgctxt "text:contracts.10.visit.deleted.1"
+msgid "Removed a record from the on-device visit file"
+msgstr "Removed a record from the on-device visit file"
+
+#. contracts.11.exam.completed.1
+#: src/data/event-contracts.js:101
+msgctxt "text:contracts.11.exam.completed.1"
+msgid "Completed an entrance exam"
+msgstr "Completed an entrance exam"
+
+#. contracts.12.exam.deleted.1
+#: src/data/event-contracts.js:104
+msgctxt "text:contracts.12.exam.deleted.1"
+msgid "Removed a score from the on-device entrance-exam file"
+msgstr "Removed a score from the on-device entrance-exam file"
+
+#. contracts.13.gaokao.completed.1
+#: src/data/event-contracts.js:107
+msgctxt "text:contracts.13.gaokao.completed.1"
+msgid "Completed the Gensokyo unified exam"
+msgstr "Completed the Gensokyo unified exam"
+
+#. contracts.14.gaokao.deleted.1
+#: src/data/event-contracts.js:111
+msgctxt "text:contracts.14.gaokao.deleted.1"
+msgid "Removed a score from the on-device unified-exam file"
+msgstr "Removed a score from the on-device unified-exam file"
+
+#. contracts.15.bbs.posted.1
+#: src/data/event-contracts.js:114
+msgctxt "text:contracts.15.bbs.posted.1"
+msgid "Published to Campus BBS"
+msgstr "Published to Campus BBS"
+
+#. contracts.16.course.enrolled.1
+#: src/data/event-contracts.js:117
+msgctxt "text:contracts.16.course.enrolled.1"
+msgid "Added a course to the term timetable"
+msgstr "Added a course to the term timetable"
+
+#. contracts.17.course.waitlisted.1
+#: src/data/event-contracts.js:121
+msgctxt "text:contracts.17.course.waitlisted.1"
+msgid "Joined a course waitlist"
+msgstr "Joined a course waitlist"
+
+#. contracts.18.course.dropped.1
+#: src/data/event-contracts.js:125
+msgctxt "text:contracts.18.course.dropped.1"
+msgid "Dropped a current course"
+msgstr "Dropped a current course"
+
+#. contracts.19.course.waitlist.cancelled.1
+#: src/data/event-contracts.js:129
+msgctxt "text:contracts.19.course.waitlist.cancelled.1"
+msgid "Left a course waitlist"
+msgstr "Left a course waitlist"
+
+#. contracts.20.book.borrowed.1
+#: src/data/event-contracts.js:133
+msgctxt "text:contracts.20.book.borrowed.1"
+msgid "Borrowed library holding"
+msgstr "Borrowed library holding"
+
+#. contracts.21.book.renewed.1
+#: src/data/event-contracts.js:137
+msgctxt "text:contracts.21.book.renewed.1"
+msgid "Renewed library holding"
+msgstr "Renewed library holding"
+
+#. contracts.22.book.returned.1
+#: src/data/event-contracts.js:141
+msgctxt "text:contracts.22.book.returned.1"
+msgid "Returned library holding"
+msgstr "Returned library holding"
+
+#. contracts.23.book.held.1
+#: src/data/event-contracts.js:145
+msgctxt "text:contracts.23.book.held.1"
+msgid "Placed library hold"
+msgstr "Placed library hold"
+
+#. contracts.24.book.hold.cancelled.1
+#: src/data/event-contracts.js:149
+msgctxt "text:contracts.24.book.hold.cancelled.1"
+msgid "Cancelled library hold"
+msgstr "Cancelled library hold"
+
+#. contracts.25.housing.application.submitted.1
+#: src/data/event-contracts.js:153
+msgctxt "text:contracts.25.housing.application.submitted.1"
+msgid "Submitted housing needs"
+msgstr "Submitted housing needs"
+
+#. contracts.26.housing.offer.declined.1
+#: src/data/event-contracts.js:157
+msgctxt "text:contracts.26.housing.offer.declined.1"
+msgid "Passed on a room offer"
+msgstr "Passed on a room offer"
+
+#. contracts.27.housing.assignment.accepted.1
+#: src/data/event-contracts.js:161
+msgctxt "text:contracts.27.housing.assignment.accepted.1"
+msgid "Accepted a residence room"
+msgstr "Accepted a residence room"
+
+#. contracts.28.housing.change.requested.1
+#: src/data/event-contracts.js:169
+msgctxt "text:contracts.28.housing.change.requested.1"
+msgid "Submitted a room-transfer request"
+msgstr "Submitted a room-transfer request"
+
+#. contracts.29.housing.change.cancelled.1
+#: src/data/event-contracts.js:174
+msgctxt "text:contracts.29.housing.change.cancelled.1"
+msgid "Withdrew a room-transfer request"
+msgstr "Withdrew a room-transfer request"
+
+#. contracts.30.incident.experiment.completed.1
+#: src/data/event-contracts.js:179
+msgctxt "text:contracts.30.incident.experiment.completed.1"
+msgid "Completed an incident research simulation"
+msgstr "Completed an incident research simulation"
+
+#. contracts.31.incident.resolved.1
+#: src/data/event-contracts.js:184
+msgctxt "text:contracts.31.incident.resolved.1"
+msgid "Closed a case and published linked reactions"
+msgstr "Closed a case and published linked reactions"
+
+#. contracts.32.governance.vote.cast.1
+#: src/data/event-contracts.js:189
+msgctxt "text:contracts.32.governance.vote.cast.1"
+msgid "Cast an on-device governance vote"
+msgstr "Cast an on-device governance vote"
+
+#. contracts.33.academic.assignment.graded.1
+#: src/data/event-contracts.js:193
+msgctxt "text:contracts.33.academic.assignment.graded.1"
+msgid "Submitted and graded course work"
+msgstr "Submitted and graded course work"
+
+#. contracts.34.academic.exam.started.1
+#: src/data/event-contracts.js:197
+msgctxt "text:contracts.34.academic.exam.started.1"
+msgid "Started a timed course exam"
+msgstr "Started a timed course exam"
+
+#. contracts.35.academic.exam.completed.1
+#: src/data/event-contracts.js:201
+msgctxt "text:contracts.35.academic.exam.completed.1"
+msgid "Completed a timed course exam"
+msgstr "Completed a timed course exam"
+
+#. contracts.36.academic.project.submitted.1
+#: src/data/event-contracts.js:205
+msgctxt "text:contracts.36.academic.project.submitted.1"
+msgid "Submitted a thesis / spell-card project"
+msgstr "Submitted a thesis / spell-card project"
+
+#. contracts.37.academic.defence.completed.1
+#: src/data/event-contracts.js:209
+msgctxt "text:contracts.37.academic.defence.completed.1"
+msgid "Completed a thesis / spell-card defence"
+msgstr "Completed a thesis / spell-card defence"
+
+#. contracts.38.clinic.visit.checked-in.1
+#: src/data/event-contracts.js:213
+msgctxt "text:contracts.38.clinic.visit.checked-in.1"
+msgid "Completed campus-hospital triage check-in"
+msgstr "Completed campus-hospital triage check-in"
+
+#. contracts.39.clinic.consultation.completed.1
+#: src/data/event-contracts.js:216
+msgctxt "text:contracts.39.clinic.consultation.completed.1"
+msgid "Completed consultation and received a prescription"
+msgstr "Completed consultation and received a prescription"
+
+#. contracts.40.clinic.prescription.dispensed.1
+#: src/data/event-contracts.js:220
+msgctxt "text:contracts.40.clinic.prescription.dispensed.1"
+msgid "Collected a campus-hospital prescription"
+msgstr "Collected a campus-hospital prescription"
+
+#. contracts.41.clinic.dose.recorded.1
+#: src/data/event-contracts.js:228
+msgctxt "text:contracts.41.clinic.dose.recorded.1"
+msgid "Recorded one on-device dose"
+msgstr "Recorded one on-device dose"
+
+#. contracts.42.clinic.therapy.started.1
+#: src/data/event-contracts.js:234
+msgctxt "text:contracts.42.clinic.therapy.started.1"
+msgid "Started a recovery therapy"
+msgstr "Started a recovery therapy"
+
+#. contracts.43.clinic.therapy.step.completed.1
+#: src/data/event-contracts.js:239
+msgctxt "text:contracts.43.clinic.therapy.step.completed.1"
+msgid "Completed one recovery step"
+msgstr "Completed one recovery step"
+
+#. contracts.44.clinic.therapy.completed.1
+#: src/data/event-contracts.js:244
+msgctxt "text:contracts.44.clinic.therapy.completed.1"
+msgid "Completed a recovery course"
+msgstr "Completed a recovery course"
+
+#. contracts.45.appraisal.completed.1
+#: src/data/event-contracts.js:249
+msgctxt "text:contracts.45.appraisal.completed.1"
+msgid "Completed an Outside drift-object appraisal"
+msgstr "Completed an Outside drift-object appraisal"
+
+#. contracts.46.appraisal.catalogued.1
+#: src/data/event-contracts.js:253
+msgctxt "text:contracts.46.appraisal.catalogued.1"
+msgid "Catalogued a drift object at Misty Lake"
+msgstr "Catalogued a drift object at Misty Lake"
+
+#. contracts.47.spellcard.design.saved.1
+#: src/data/event-contracts.js:257
+msgctxt "text:contracts.47.spellcard.design.saved.1"
+msgid "Archived a spell-card design version"
+msgstr "Archived a spell-card design version"
+
+#. contracts.48.spellcard.defence.completed.1
+#: src/data/event-contracts.js:261
+msgctxt "text:contracts.48.spellcard.defence.completed.1"
+msgid "Completed a public spell-card defence"
+msgstr "Completed a public spell-card defence"
+
+#. contracts.49.festival.plan.submitted.1
+#: src/data/event-contracts.js:265
+msgctxt "text:contracts.49.festival.plan.submitted.1"
+msgid "Submitted a festival operations plan"
+msgstr "Submitted a festival operations plan"
+
+#. contracts.50.festival.permit.issued.1
+#: src/data/event-contracts.js:269
+msgctxt "text:contracts.50.festival.permit.issued.1"
+msgid "Received a six-desk festival permit"
+msgstr "Received a six-desk festival permit"
+
+#. contracts.51.festival.shift.started.1
+#: src/data/event-contracts.js:274
+msgctxt "text:contracts.51.festival.shift.started.1"
+msgid "Rang the opening bell and took a duty badge"
+msgstr "Rang the opening bell and took a duty badge"
+
+#. contracts.52.festival.incident.resolved.1
+#: src/data/event-contracts.js:280
+msgctxt "text:contracts.52.festival.incident.resolved.1"
+msgid "Resolved a festival field case"
+msgstr "Resolved a festival field case"
+
+#. contracts.53.festival.report.closed.1
+#: src/data/event-contracts.js:287
+msgctxt "text:contracts.53.festival.report.closed.1"
+msgid "Completed recovery and filed the festival closing report"
+msgstr "Completed recovery and filed the festival closing report"
+
+#. contracts.54.ethics.protocol.submitted.1
+#: src/data/event-contracts.js:293
+msgctxt "text:contracts.54.ethics.protocol.submitted.1"
+msgid "Submitted a research ethics protocol"
+msgstr "Submitted a research ethics protocol"
+
+#. contracts.55.ethics.review.completed.1
+#: src/data/event-contracts.js:298
+msgctxt "text:contracts.55.ethics.review.completed.1"
+msgid "Completed five-seat research ethics review"
+msgstr "Completed five-seat research ethics review"
+
+#. contracts.56.ethics.protocol.amended.1
+#: src/data/event-contracts.js:304
+msgctxt "text:contracts.56.ethics.protocol.amended.1"
+msgid "Submitted a research ethics amendment"
+msgstr "Submitted a research ethics amendment"
+
+#. contracts.57.ethics.protocol.withdrawn.1
+#: src/data/event-contracts.js:310
+msgctxt "text:contracts.57.ethics.protocol.withdrawn.1"
+msgid "Withdrew a research ethics protocol"
+msgstr "Withdrew a research ethics protocol"
+
+#. contracts.58.property.claim.submitted.1
+#: src/data/event-contracts.js:316
+msgctxt "text:contracts.58.property.claim.submitted.1"
+msgid "Submitted a tsukumogami property claim"
+msgstr "Submitted a tsukumogami property claim"
+
+#. contracts.59.property.ruling.issued.1
+#: src/data/event-contracts.js:321
+msgctxt "text:contracts.59.property.ruling.issued.1"
+msgid "Filed a tsukumogami property ruling"
+msgstr "Filed a tsukumogami property ruling"
+
+#. contracts.60.post.message.acknowledged.1
+#: src/data/event-contracts.js:327
+msgctxt "text:contracts.60.post.message.acknowledged.1"
+msgid "Acknowledged a tengu-post version"
+msgstr "Acknowledged a tengu-post version"
+
+#. contracts.61.post.correction.requested.1
+#: src/data/event-contracts.js:331
+msgctxt "text:contracts.61.post.correction.requested.1"
+msgid "Requested a corrected tengu-post copy"
+msgstr "Requested a corrected tengu-post copy"
+
+#. contracts.62.post.notice.dispatched.1
+#: src/data/event-contracts.js:334
+msgctxt "text:contracts.62.post.notice.dispatched.1"
+msgid "Dispatched a campus notice"
+msgstr "Dispatched a campus notice"
+
+#. contracts.63.calendar.event.saved.1
+#: src/data/event-contracts.js:338
+msgctxt "text:contracts.63.calendar.event.saved.1"
+msgid "Saved an academic-calendar leaf"
+msgstr "Saved an academic-calendar leaf"
+
+#. contracts.64.calendar.event.removed.1
+#: src/data/event-contracts.js:342
+msgctxt "text:contracts.64.calendar.event.removed.1"
+msgid "Removed an academic-calendar leaf"
+msgstr "Removed an academic-calendar leaf"
+
+#. contracts.65.fieldwork.application.submitted.1
+#: src/data/event-contracts.js:347
+msgctxt "text:contracts.65.fieldwork.application.submitted.1"
+msgid "Submitted a fieldwork dispatch order"
+msgstr "Submitted a fieldwork dispatch order"
+
+#. contracts.66.fieldwork.departure.checked.1
+#: src/data/event-contracts.js:352
+msgctxt "text:contracts.66.fieldwork.departure.checked.1"
+msgid "Verified entry and began field duty"
+msgstr "Verified entry and began field duty"
+
+#. contracts.67.fieldwork.complication.handled.1
+#: src/data/event-contracts.js:358
+msgctxt "text:contracts.67.fieldwork.complication.handled.1"
+msgid "Handled a field complication"
+msgstr "Handled a field complication"
+
+#. contracts.68.fieldwork.observation.logged.1
+#: src/data/event-contracts.js:364
+msgctxt "text:contracts.68.fieldwork.observation.logged.1"
+msgid "Submitted field observation and provenance"
+msgstr "Submitted field observation and provenance"
+
+#. contracts.69.fieldwork.return.certified.1
+#: src/data/event-contracts.js:370
+msgctxt "text:contracts.69.fieldwork.return.certified.1"
+msgid "Certified return and received a field seal"
+msgstr "Certified return and received a field seal"
+
+#. contracts.70.graduation.audit.requested.1
+#: src/data/event-contracts.js:376
+msgctxt "text:contracts.70.graduation.audit.requested.1"
+msgid "Submitted an eight-desk graduation audit"
+msgstr "Submitted an eight-desk graduation audit"
+
+#. contracts.71.graduation.degree.issued.1
+#: src/data/event-contracts.js:381
+msgctxt "text:contracts.71.graduation.degree.issued.1"
+msgid "Unsealed a degree carrying an unresolved question"
+msgstr "Unsealed a degree carrying an unresolved question"
+
+#. contracts.72.career.plan.submitted.1
+#: src/data/event-contracts.js:387
+msgctxt "text:contracts.72.career.plan.submitted.1"
+msgid "Filed a career matching plan"
+msgstr "Filed a career matching plan"
+
+#. contracts.73.career.referral.sent.1
+#: src/data/event-contracts.js:392
+msgctxt "text:contracts.73.career.referral.sent.1"
+msgid "Sent a career referral by crow-tengu post"
+msgstr "Sent a career referral by crow-tengu post"
+
+#. contracts.74.employment.application.submitted.1
+#: src/data/event-contracts.js:398
+msgctxt "text:contracts.74.employment.application.submitted.1"
+msgid "Dispatched a Gensokyo odd résumé"
+msgstr "Dispatched a Gensokyo odd résumé"
+
+#. contracts.75.employment.application.responded.1
+#: src/data/event-contracts.js:403
+msgctxt "text:contracts.75.employment.application.responded.1"
+msgid "Responded to an employer's first-edition review"
+msgstr "Responded to an employer's first-edition review"
+
+#. contracts.76.employment.outcome.attested.1
+#: src/data/event-contracts.js:409
+msgctxt "text:contracts.76.employment.outcome.attested.1"
+msgid "Filed graduate whereabouts in the echo roll"
+msgstr "Filed graduate whereabouts in the echo roll"
+
+#. contracts.77.alumni.profile.activated.1
+#: src/data/event-contracts.js:414
+msgctxt "text:contracts.77.alumni.profile.activated.1"
+msgid "Unsealed a Hyakki Yagyo alumni file"
+msgstr "Unsealed a Hyakki Yagyo alumni file"
+
+#. contracts.78.alumni.reunion.rsvp.1
+#: src/data/event-contracts.js:420
+msgctxt "text:contracts.78.alumni.reunion.rsvp.1"
+msgid "Replied to the Hyakki Yagyo lantern desk"
+msgstr "Replied to the Hyakki Yagyo lantern desk"
+
+#. contracts.79.alumni.mentorship.offered.1
+#: src/data/event-contracts.js:426
+msgctxt "text:contracts.79.alumni.mentorship.offered.1"
+msgid "Registered as a returning fieldwork mentor"
+msgstr "Registered as a returning fieldwork mentor"

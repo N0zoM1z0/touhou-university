@@ -1,0 +1,747 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/eyebrow"
+msgid "MY TU / STUDENT RECORDS"
+msgstr "MY TU / 幻想鄉學籍中心"
+
+#. copy/title
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/title"
+msgid "Keep one continuous campus life on this device."
+msgstr "同一台裝置上，留下一條真正的校園生命線。"
+
+#. copy/lead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/lead"
+msgid ""
+"Applications, exams, visits, and posts become one on-device student record. "
+"Nothing leaves this browser."
+msgstr "把申請、考試、進校預約與發帖收進同一份本機學籍；資料不離開這個瀏覽器。"
+
+#. copy/createTitle
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/createTitle"
+msgid "Create your on-device campus identity"
+msgstr "先建立你的本機校園身分"
+
+#. copy/createLead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/createLead"
+msgid ""
+"Existing applications and scores stay unchanged; they will be compiled into "
+"the same campus history."
+msgstr "已有的申請與成績不會被改動；建立身分後，它們會被編入同一份校園履歷。"
+
+#. copy/found
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/found"
+msgid "On-device records ready to compile"
+msgstr "已找到可編入履歷的本機記錄"
+
+#. copy/name
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/name"
+msgid "Name or known name"
+msgstr "姓名或通稱"
+
+#. copy/kind
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/kind"
+msgid "Species / identity"
+msgstr "種族／身分"
+
+#. copy/origin
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/origin"
+msgid "Origin"
+msgstr "來處"
+
+#. copy/school
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/school"
+msgid "Preferred school"
+msgstr "志願學院"
+
+#. copy/lunar
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/lunar"
+msgid "I need low-stimulus, rerouting, or other full-moon arrangements"
+msgstr "滿月時需要低刺激、改道或其他安排"
+
+#. copy/housing
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/housing"
+msgid "Housing, wingspan, familiar, aquatic, or phasing needs"
+msgstr "住宿、飛行翅展、使魔、水域或穿牆需求"
+
+#. copy/housingPlaceholder
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/housingPlaceholder"
+msgid "Optional; you can change this later."
+msgstr "可留白；之後仍能修改。"
+
+#. copy/create
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/create"
+msgid "Create My TU identity"
+msgstr "建立 My TU 身分"
+
+#. copy/save
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/save"
+msgid "Save identity"
+msgstr "保存身分資料"
+
+#. copy/edit
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/edit"
+msgid "Edit on-device identity"
+msgstr "編輯本機身分"
+
+#. copy/cancel
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/cancel"
+msgid "Cancel"
+msgstr "取消"
+
+#. copy/privacy
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/privacy"
+msgid "Stored only on this device. Names, contacts, and application content are not uploaded."
+msgstr "只儲存在這台裝置，不會上傳姓名、聯絡方式或申請內容。"
+
+#. copy/identitySaved
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/identitySaved"
+msgid "My TU identity saved on this device."
+msgstr "My TU 身分已保存在這台裝置。"
+
+#. copy/localId
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/localId"
+msgid "On-device student number"
+msgstr "本機學籍編號"
+
+#. copy/stage
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stage"
+msgid "Current stage"
+msgstr "目前階段"
+
+#. copy/preferredSchool
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/preferredSchool"
+msgid "Preference"
+msgstr "志願"
+
+#. copy/recordSummary
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/recordSummary"
+msgid "Campus record summary"
+msgstr "校園履歷摘要"
+
+#. copy/applications
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/applications"
+msgid "Applications"
+msgstr "入學申請"
+
+#. copy/arrivals
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/arrivals"
+msgid "First Bell arrival files"
+msgstr "第一鐘報到卷"
+
+#. copy/exams
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/exams"
+msgid "Completed exams"
+msgstr "已完成試卷"
+
+#. copy/visits
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/visits"
+msgid "Campus visits"
+msgstr "進校預約"
+
+#. copy/posts
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/posts"
+msgid "BBS posts"
+msgstr "BBS 發帖"
+
+#. copy/courses
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/courses"
+msgid "Current courses"
+msgstr "本學期課程"
+
+#. copy/library
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/library"
+msgid "Loans / holds"
+msgstr "借閱／預約"
+
+#. copy/residential
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/residential"
+msgid "Housing / transfers"
+msgstr "宿舍／換房"
+
+#. copy/incidents
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/incidents"
+msgid "Incident studies / closures"
+msgstr "事件研究／結案"
+
+#. copy/academicRecords
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/academicRecords"
+msgid "Coursework / defences"
+msgstr "課業評量／答辯"
+
+#. copy/medical
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/medical"
+msgid "Care / prescriptions / recovery"
+msgstr "診療／處方／康復"
+
+#. copy/appraisals
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/appraisals"
+msgid "Drift-object appraisals"
+msgstr "漂流物鑑定"
+
+#. copy/spellcards
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/spellcards"
+msgid "Spell-card designs / defences"
+msgstr "符卡設計／答辯"
+
+#. copy/ethics
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/ethics"
+msgid "Research ethics / five-seat review"
+msgstr "研究倫理／五席審查"
+
+#. copy/festivals
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/festivals"
+msgid "Festival permits / duty record"
+msgstr "祭典許可／值班履歷"
+
+#. copy/fieldwork
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/fieldwork"
+msgid "Fieldwork passport / seals"
+msgstr "田野護照／場地印"
+
+#. copy/commons
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/commons"
+msgid "Property hearings / campus post"
+msgstr "物權聽證／校園郵便"
+
+#. copy/calendar
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/calendar"
+msgid "Academic-calendar bookmarks"
+msgstr "學年曆紅書籤"
+
+#. copy/careers
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/careers"
+msgid "Graduation / careers / alumni"
+msgstr "卒業／進路／校友"
+
+#. copy/recordsMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/recordsMode"
+msgid "Student record"
+msgstr "學籍首頁"
+
+#. copy/courseMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/courseMode"
+msgid "Courses & grades"
+msgstr "選課與成績"
+
+#. copy/academicMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/academicMode"
+msgid "Work, exams & defences"
+msgstr "作業、考試與答辯"
+
+#. copy/cabinetMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/cabinetMode"
+msgid "On-device records"
+msgstr "本機資料櫃"
+
+#. copy/cabinetSummary
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/cabinetSummary"
+msgid "All on-device files"
+msgstr "全部本機卷宗"
+
+#. copy/drafts
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/drafts"
+msgid "Unfinished"
+msgstr "未完成"
+
+#. copy/applicationReview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/applicationReview"
+msgid "Joint faculty review"
+msgstr "教授聯合審查"
+
+#. copy/reviewLead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewLead"
+msgid ""
+"The panel reads the selected question, method, needs, and best on-device "
+"exam result, then saves a reopenable internal review."
+msgstr "審查會讀取所選申請的研究問題、方法、需求與本機最佳考試成績，產生可再次開啟的校內評議。"
+
+#. copy/reviewQuestion
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewQuestion"
+msgid "Reading of the question"
+msgstr "研究問題判讀"
+
+#. copy/reviewMethod
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewMethod"
+msgid "Reading of method and evidence"
+msgstr "方法與證據判讀"
+
+#. copy/reviewNeeds
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewNeeds"
+msgid "Reading of field conditions"
+msgstr "現場條件判讀"
+
+#. copy/noDeclaredNeeds
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noDeclaredNeeds"
+msgid "No field needs were declared; the panel may still attach its own."
+msgstr "未另列現場需求；委員仍可能自行加註。"
+
+#. copy/noApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noApplication"
+msgid ""
+"No application has been submitted. Complete one first, so the faculty have "
+"something to disagree about."
+msgstr "尚無已提交申請。先完成一份填報，教授才有東西可以爭論。"
+
+#. copy/openApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/openApplication"
+msgid "Start online application"
+msgstr "開始線上申請"
+
+#. copy/chooseApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/chooseApplication"
+msgid "Choose dossier"
+msgstr "選擇審查檔案"
+
+#. copy/submitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/submitted"
+msgid "Submitted"
+msgstr "提交"
+
+#. copy/runReview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/runReview"
+msgid "Convene joint faculty review"
+msgstr "召集教授聯合審查"
+
+#. copy/reviewed
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewed"
+msgid "Review complete"
+msgstr "評議完成"
+
+#. copy/dossierScore
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/dossierScore"
+msgid "Dossier reading"
+msgstr "檔案綜合判讀"
+
+#. copy/examEvidence
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/examEvidence"
+msgid "On-device exam evidence"
+msgstr "本機考試參考"
+
+#. copy/noExam
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noExam"
+msgid "No exam score yet"
+msgstr "尚無考試成績"
+
+#. copy/stanceApprove
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stanceApprove"
+msgid "Recommend admission"
+msgstr "建議通過"
+
+#. copy/stanceCondition
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stanceCondition"
+msgid "Conditions attached"
+msgstr "附帶條件"
+
+#. copy/stanceRevise
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stanceRevise"
+msgid "Revision required"
+msgstr "要求補正"
+
+#. copy/printDecision
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/printDecision"
+msgid "Open printable decision letter"
+msgstr "開啟可列印校務通知書"
+
+#. copy/timeline
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/timeline"
+msgid "Campus event ledger"
+msgstr "校園事件帳本"
+
+#. copy/timelineLead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/timelineLead"
+msgid ""
+"Records events, submissions, corrections, and removals. Deleting a source "
+"card does not pretend the event never happened."
+msgstr "記錄發生、提交、訂正與被移除；刪除原始卡片不會假裝事件從未存在。"
+
+#. copy/noEvents
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noEvents"
+msgid "The event ledger is empty."
+msgstr "事件帳本尚無記錄。"
+
+#. copy/contestedClosure
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/contestedClosure"
+msgid "Red-thread contested file"
+msgstr "紅線爭議案卷"
+
+#. copy/next
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/next"
+msgid "Next step"
+msgstr "下一步"
+
+#. copy/nextApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextApplication"
+msgid "Submit an application to move this identity into applicant status."
+msgstr "提交一份入學申請，讓這個身分進入申請生階段。"
+
+#. copy/nextReview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextReview"
+msgid "Send the application to joint review. Agreement among faculty is not guaranteed."
+msgstr "把申請送入教授聯合審查；他們不保證彼此同意。"
+
+#. copy/nextExam
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextExam"
+msgid "Continue exams or satisfy review conditions to advance the decision."
+msgstr "繼續考試或補交審查條件，讓錄取狀態向前推進。"
+
+#. copy/nextOrientation
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextOrientation"
+msgid ""
+"The formal admission edition now stands. Confirm the route and way back at "
+"the arrival office, then ring for the first real thing you will do on "
+"campus."
+msgstr "正式錄取版本已經成立。去到着室認路、確認退路，再為入學後第一件真事敲鐘。"
+
+#. copy/goExam
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/goExam"
+msgid "Go to entrance exam"
+msgstr "前往入學試驗"
+
+#. copy/goGaokao
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/goGaokao"
+msgid "Go to Gensokyo exam"
+msgstr "前往幻想鄉統一學力試驗"
+
+#. copy/goOrientation
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/goOrientation"
+msgid "Go to First Bell arrival week"
+msgstr "前往第一鐘・新生到着週"
+
+#. copy/outcome/admitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/admitted"
+msgid "Admitted"
+msgstr "正式錄取"
+
+#. copy/outcome/conditional
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/conditional"
+msgid "Conditional Admission"
+msgstr "有條件錄取"
+
+#. copy/outcome/supplement
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/supplement"
+msgid "Research Plan Required"
+msgstr "補交研究計畫"
+
+#. copy/outcome/interview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/interview"
+msgid "Proceed to Interview"
+msgstr "進入面試"
+
+#. copy/outcomeBody/admitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/admitted"
+msgid ""
+"The panel approves direct progression to new-student registration; each "
+"laboratory's field conditions still apply."
+msgstr "評議同意直接進入新生報到；仍須遵守各研究室列出的現場條件。"
+
+#. copy/outcomeBody/conditional
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/conditional"
+msgid ""
+"A place is reserved. Complete the specified method revision and safety "
+"conditions to convert it to full admission."
+msgstr "保留入學名額；完成指定方法補件與安全條件後轉為正式錄取。"
+
+#. copy/outcomeBody/supplement
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/supplement"
+msgid ""
+"The question is worth keeping, but the method cannot yet identify the claim. "
+"The same panel will review a supplement."
+msgstr "問題值得保留，但方法尚不足以識別主張。補件後由原委員會重審。"
+
+#. copy/outcomeBody/interview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/interview"
+msgid ""
+"The written dossier cannot resolve the central disagreement. Explain "
+"trade-offs and stop conditions in a spell-card interview."
+msgstr "書面材料無法消除主要分歧；請在符卡式面試中說明取捨與停止條件。"
+
+#. copy/stages/profile
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/profile"
+msgid "Campus identity created"
+msgstr "校園身分已建立"
+
+#. copy/stages/applicant
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/applicant"
+msgid "Applicant"
+msgstr "申請生"
+
+#. copy/stages/conditional
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/conditional"
+msgid "Conditional Admit"
+msgstr "有條件錄取"
+
+#. copy/stages/admitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/admitted"
+msgid "New Student"
+msgstr "新生"
+
+#. copy/stages/supplement
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/supplement"
+msgid "Supplement Pending"
+msgstr "待補件申請生"
+
+#. copy/stages/interview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/interview"
+msgid "Interview Candidate"
+msgstr "面試候選人"
+
+#. copy/document/university
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/university"
+msgid "TOUHOU UNIVERSITY OF GENSOKYO"
+msgstr "幻想鄉立東方大學"
+
+#. copy/document/office
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/office"
+msgid "Joint Admissions Review Council"
+msgstr "入學選拔聯合評議會"
+
+#. copy/document/admission
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/admission"
+msgid "LETTER OF ADMISSION"
+msgstr "錄取通知書"
+
+#. copy/document/decision
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/decision"
+msgid "SELECTION DECISION"
+msgstr "選拔結果通知書"
+
+#. copy/document/certifies
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/certifies"
+msgid "Notice of the Autumn 2026 selection result for"
+msgstr "茲通知下列申請人之 2026 秋季選拔結果"
+
+#. copy/document/applicant
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/applicant"
+msgid "Applicant"
+msgstr "申請人"
+
+#. copy/document/application
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/application"
+msgid "Application reference"
+msgstr "申請編號"
+
+#. copy/document/review
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/review"
+msgid "Review reference"
+msgstr "評議編號"
+
+#. copy/document/school
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/school"
+msgid "Admitting / reviewing school"
+msgstr "錄取／審查學院"
+
+#. copy/document/result
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/result"
+msgid "Decision"
+msgstr "評議結果"
+
+#. copy/document/conditions
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/conditions"
+msgid "Next conditions"
+msgstr "後續條件"
+
+#. copy/document/issued
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/issued"
+msgid "Issued"
+msgstr "發文日期"
+
+#. copy/document/signatures
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/signatures"
+msgid "Joint reviewers"
+msgstr "聯合評議委員"
+
+#. copy/document/verification
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/verification"
+msgid "On-device verification weave"
+msgstr "本機驗證紋"
+
+#. copy/document/footer
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/footer"
+msgid ""
+"Generated by the My TU on-device student-record centre from the saved "
+"application and review. Verify both the application and review references."
+msgstr "本文件由 My TU 本機學籍中心依已保存的申請與評議生成；查驗時應同時核對申請編號與評議編號。"
+
+#. copy/document/print
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/print"
+msgid "Print / Save PDF"
+msgstr "列印／另存 PDF"
+
+#. copy/document/close
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/close"
+msgid "Back to My TU"
+msgstr "返回 My TU"
+
+#. words.eyebrow
+#: src/js/mytu.js:412
+msgctxt "text:words.eyebrow"
+msgid "TIMETABLE REVERSE / UNREGISTERED MARGINALIA"
+msgstr "TIMETABLE REVERSE / 未登錄側記"
+
+#. words.title.yes
+#: src/js/mytu.js:412
+msgctxt "text:words.title.yes"
+msgid "The ninth-period roll has written your name."
+msgstr "第九節點名簿已寫下你的名字。"
+
+#. words.title.no
+#: src/js/mytu.js:412
+msgctxt "text:words.title.no"
+msgid "A row on the timetable's reverse does not belong to this term."
+msgstr "課表背面有一行不屬於本學期。"
+
+#. words.body.yes
+#: src/js/mytu.js:412
+msgctxt "text:words.body.yes"
+msgid ""
+"Six ordinary administrative seals overlap on the reverse of one sheet. The "
+"system cannot find a room; the north stair has begun roll call."
+msgstr "六枚普通校務印章在同一張紙的反面重疊。教務系統找不到教室，北樓梯卻已開始點名。"
+
+#. words.body.no
+#: src/js/mytu.js:412
+msgctxt "text:words.body.no"
+msgid "{value0} seals currently show through; Academic Affairs still crosses out row nine."
+msgstr "目前有 {value0} 枚印章透過紙面；第九行仍被教務處劃掉。"
+
+#. words.action.yes
+#: src/js/mytu.js:412
+msgctxt "text:words.action.yes"
+msgid "Return to ninth period"
+msgstr "返回第九節"
+
+#. words.action.no
+#: src/js/mytu.js:412
+msgctxt "text:words.action.no"
+msgid "Inspect the roll's reverse"
+msgstr "查看點名簿反面"
+
+#. words.seek
+#: src/js/mytu.js:412
+msgctxt "text:words.seek"
+msgid "Try the present duty bell's ink trail"
+msgstr "沿今值鐘的墨跡試門"
+
+#. words.closed
+#: src/js/mytu.js:412
+msgctxt "text:words.closed"
+msgid "Room field: not yet admitted"
+msgstr "教室欄：尚未承認"

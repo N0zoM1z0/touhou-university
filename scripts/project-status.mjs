@@ -1,4 +1,3 @@
-import { readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -10,18 +9,7 @@ import { employmentJobs, employmentPosterImages } from "../src/data/employment.j
 import { fieldworkStations } from "../src/data/fieldwork.js";
 import { knowledgeCharacters, knowledgeDossiers, knowledgeVersions } from "../src/data/knowledge-graph.js";
 import { localRecordGroups, localRecordRegistry } from "../src/data/local-records.js";
-
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-
-async function countFiles(directory) {
-  const entries = await readdir(directory, { withFileTypes: true });
-  let count = 0;
-  for (const entry of entries) {
-    if (entry.isDirectory()) count += await countFiles(path.join(directory, entry.name));
-    else if (entry.isFile()) count += 1;
-  }
-  return count;
-}
+import { gaokaoDifficulties, gaokaoTracks } from "../src/data/gaokao.js";
 
 export async function projectStatus() {
   return Object.freeze({
@@ -43,7 +31,7 @@ export async function projectStatus() {
     employmentPosters: Object.keys(employmentPosterImages).length,
     courses: courseCatalogue.length,
     fieldworkStations: fieldworkStations.length,
-    offlineExamFiles: await countFiles(path.join(root, "downloads", "gaokao")),
+    offlineExamFiles: Object.keys(gaokaoDifficulties).length * Object.keys(gaokaoTracks).length * site.locales.length * 2,
   });
 }
 

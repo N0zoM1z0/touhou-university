@@ -1,0 +1,1194 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. graduationTracks.ordinary.title
+#: src/data/careers.js:7
+msgctxt "text:graduationTracks.ordinary.title"
+msgid "Ordinary four/six-year record"
+msgstr "四年／六年通常学籍"
+
+#. graduationTracks.ordinary.note
+#: src/data/careers.js:8
+msgctxt "text:graduationTracks.ordinary.note"
+msgid "Dates follow the academic calendar. Incident days may be annotated, not torn out."
+msgstr "日付は学務暦どおり。異変日は注記可、頁ごとの削除は不可。"
+
+#. graduationTracks.long-lived.title
+#: src/data/careers.js:13
+msgctxt "text:graduationTracks.long-lived.title"
+msgid "Forty-year long-lived track"
+msgstr "長命種四十年制"
+
+#. graduationTracks.long-lived.note
+#: src/data/careers.js:14
+msgctxt "text:graduationTracks.long-lived.note"
+msgid "Credits are not discounted; only “next term” may continue for thirty-nine years."
+msgstr "単位は割引なし。「来学期に」の上限だけ39年へ延長。"
+
+#. graduationTracks.fairy-repeat.title
+#: src/data/careers.js:19
+msgctxt "text:graduationTracks.fairy-repeat.title"
+msgid "Fairy repeat-graduation record"
+msgstr "妖精反復卒業籍"
+
+#. graduationTracks.fairy-repeat.note
+#: src/data/careers.js:20
+msgctxt "text:graduationTracks.fairy-repeat.note"
+msgid ""
+"Forgetting graduation does not revoke it; one ceremony may reissue at most "
+"three wreaths."
+msgstr "卒業を忘れても学位は取消されない。同一式典の花輪再交付は三回まで。"
+
+#. graduationTracks.chronology-dispute.title
+#: src/data/careers.js:25
+msgctxt "text:graduationTracks.chronology-dispute.title"
+msgid "Chronology-dispute record"
+msgstr "年代逆転異議籍"
+
+#. graduationTracks.chronology-dispute.note
+#: src/data/careers.js:26
+msgctxt "text:graduationTracks.chronology-dispute.note"
+msgid "Graduation may precede admission, but both dates print in different inks."
+msgstr "卒業年が入学年より前でも可。ただし証書は二色の墨で両日を印刷。"
+
+#. careerOpenings.0.0.institution
+#: src/data/careers.js:43
+msgctxt "text:careerOpenings.0.0.institution"
+msgid "Hakurei Shrine Boundary & Donation-Box Duty"
+msgstr "博麗神社・境界と賽銭箱合同当番"
+
+#. careerOpenings.0.0.title
+#: src/data/careers.js:44
+msgctxt "text:careerOpenings.0.0.title"
+msgid "Boundary patrol & salary-not-guaranteed clerk"
+msgstr "境界巡回兼・給与保証なし事務"
+
+#. careerOpenings.0.0.host
+#: src/data/careers.js:45
+msgctxt "text:careerOpenings.0.0.host"
+msgid "Reimu Hakurei"
+msgstr "博麗霊夢"
+
+#. careerOpenings.0.0.region
+#: src/data/careers.js:46
+msgctxt "text:careerOpenings.0.0.region"
+msgid "Hakurei Shrine"
+msgstr "博麗神社"
+
+#. careerOpenings.0.0.premise
+#: src/data/careers.js:53
+msgctxt "text:careerOpenings.0.0.premise"
+msgid ""
+"Patrol the boundary, draw visitor exits, and prove the wrench in the "
+"donation box is not payroll."
+msgstr "境界巡回、参拝者の退路作図、賽銭箱に突然入ったレンチが給与でないことの立証。"
+
+#. careerOpenings.0.0.duties.0
+#: src/data/careers.js:55
+msgctxt "text:careerOpenings.0.0.duties.0"
+msgid "Record three boundaries Yukari did not move"
+msgstr "紫に動かされなかった境界を三本記録"
+
+#. careerOpenings.0.0.duties.1
+#: src/data/careers.js:56
+msgctxt "text:careerOpenings.0.0.duties.1"
+msgid "Separate lost property from offerings into at least two boxes"
+msgstr "遺失物と賽銭を最低二箱へ分別"
+
+#. careerOpenings.0.0.duties.2
+#: src/data/careers.js:57
+msgctxt "text:careerOpenings.0.0.duties.2"
+msgid "Find an exit still usable before the feast"
+msgstr "宴会前に使える非常口を確認"
+
+#. careerOpenings.0.0.friction
+#: src/data/careers.js:59
+msgctxt "text:careerOpenings.0.0.friction"
+msgid ""
+"Reimu may rewrite “necessary but troublesome” as “tomorrow”; Yukari may "
+"prove the route never belonged to today."
+msgstr "霊夢は「必要だが面倒」を「明日」に直し、紫は巡回路が今日に属さないと証明し得る。"
+
+#. careerOpenings.0.0.boundary
+#: src/data/careers.js:60
+msgctxt "text:careerOpenings.0.0.boundary"
+msgid "Do not widen a rift to create work."
+msgstr "仕事量を作るため裂け目を拡大しない。"
+
+#. careerOpenings.0.0.interview
+#: src/data/careers.js:61
+msgctxt "text:careerOpenings.0.0.interview"
+msgid "If the donation box and boundary vanish together, which do you log first?"
+msgstr "賽銭箱と結界が同時に消えたら、どちらを先に記録する？"
+
+#. careerOpenings.1.0.institution
+#: src/data/careers.js:67
+msgctxt "text:careerOpenings.1.0.institution"
+msgid "Scarlet Devil Mansion Zero-Minute Night Archive"
+msgstr "紅魔館・零分夜間文書室"
+
+#. careerOpenings.1.0.title
+#: src/data/careers.js:68
+msgctxt "text:careerOpenings.1.0.title"
+msgid "Night archivist & stopped-time observer"
+msgstr "夜間記録員兼・停止時間観察者"
+
+#. careerOpenings.1.0.host
+#: src/data/careers.js:69
+msgctxt "text:careerOpenings.1.0.host"
+msgid "Sakuya Izayoi / Patchouli Knowledge"
+msgstr "十六夜咲夜／パチュリー・ノーレッジ"
+
+#. careerOpenings.1.0.region
+#: src/data/careers.js:70
+msgctxt "text:careerOpenings.1.0.region"
+msgid "Scarlet Devil Mansion"
+msgstr "紅魔館"
+
+#. careerOpenings.1.0.premise
+#: src/data/careers.js:77
+msgctxt "text:careerOpenings.1.0.premise"
+msgid "Arrange duty logs with perfect order and zero elapsed time; tea may outlast the shift."
+msgstr "順序は完全だが経過0分の当直簿を整理。休憩が勤務全体より長い場合あり。"
+
+#. careerOpenings.1.0.duties.0
+#: src/data/careers.js:79
+msgctxt "text:careerOpenings.1.0.duties.0"
+msgid "Retain timestamps before and after a stop"
+msgstr "停止前後の二時刻を保存"
+
+#. careerOpenings.1.0.duties.1
+#: src/data/careers.js:80
+msgctxt "text:careerOpenings.1.0.duties.1"
+msgid "Log the path of shelving grimoires"
+msgstr "移動する魔導書の進路を記録"
+
+#. careerOpenings.1.0.duties.2
+#: src/data/careers.js:81
+msgctxt "text:careerOpenings.1.0.duties.2"
+msgid "Do not convert a vampire's “later” into human minutes"
+msgstr "吸血鬼の「後で」を人間の分へ換算しない"
+
+#. careerOpenings.1.0.friction
+#: src/data/careers.js:83
+msgctxt "text:careerOpenings.1.0.friction"
+msgid ""
+"Sakuya's record is punctual even when time is not; Patchouli rejects “the "
+"book walked” as complete provenance."
+msgstr "咲夜の記録は定刻でも時間はそうとは限らず、パチュリーは「本が歩いた」を完全な来歴と認めない。"
+
+#. careerOpenings.1.0.boundary
+#: src/data/careers.js:84
+msgctxt "text:careerOpenings.1.0.boundary"
+msgid "Never backfill consent during stopped time."
+msgstr "停止時間中に同意署名を代筆しない。"
+
+#. careerOpenings.1.0.interview
+#: src/data/careers.js:85
+msgctxt "text:careerOpenings.1.0.interview"
+msgid "Eight hours of work finish in zero minutes. What do you record?"
+msgstr "0分で8時間分を完了。勤務時間は何時間と書く？"
+
+#. careerOpenings.2.0.institution
+#: src/data/careers.js:91
+msgctxt "text:careerOpenings.2.0.institution"
+msgid "Eientei Cross-Species Night Clinic"
+msgstr "永遠亭・種族横断夜診"
+
+#. careerOpenings.2.0.title
+#: src/data/careers.js:92
+msgctxt "text:careerOpenings.2.0.title"
+msgid "Lunar handover & bamboo emergency coordinator"
+msgstr "月相引継ぎ・竹林救急調整"
+
+#. careerOpenings.2.0.host
+#: src/data/careers.js:93
+msgctxt "text:careerOpenings.2.0.host"
+msgid "Eirin Yagokoro / Reisen"
+msgstr "八意永琳／鈴仙"
+
+#. careerOpenings.2.0.region
+#: src/data/careers.js:94
+msgctxt "text:careerOpenings.2.0.region"
+msgid "Eientei & Bamboo Forest"
+msgstr "永遠亭・迷いの竹林"
+
+#. careerOpenings.2.0.premise
+#: src/data/careers.js:101
+msgctxt "text:careerOpenings.2.0.premise"
+msgid "Keep different pulses, wings, life states, and lunar responses distinct on one handover."
+msgstr "異なる脈・翼・生死・月相反応を一枚の引継票で別々に読めるようにする。"
+
+#. careerOpenings.2.0.duties.0
+#: src/data/careers.js:103
+msgctxt "text:careerOpenings.2.0.duties.0"
+msgid "Complete handover under full and non-full moons"
+msgstr "満月・非満月で各一回引継ぎ"
+
+#. careerOpenings.2.0.duties.1
+#: src/data/careers.js:104
+msgctxt "text:careerOpenings.2.0.duties.1"
+msgid "Retain a lost patient's original direction statement"
+msgstr "迷子の元の方向陳述を保存"
+
+#. careerOpenings.2.0.duties.2
+#: src/data/careers.js:105
+msgctxt "text:careerOpenings.2.0.duties.2"
+msgid "Rewrite permanent efficacy as stoppable observation"
+msgstr "永久効果を停止可能な観察へ直す"
+
+#. careerOpenings.2.0.friction
+#: src/data/careers.js:107
+msgctxt "text:careerOpenings.2.0.friction"
+msgid "Eirin asks whom “permanent” applies to; rabbit transit may depart before the form signs."
+msgstr "永琳は「永久」が誰に対してかを問い、兎便は受領前に出発し得る。"
+
+#. careerOpenings.2.0.boundary
+#: src/data/careers.js:108
+msgctxt "text:careerOpenings.2.0.boundary"
+msgid "Hourai components are not employee benefits."
+msgstr "蓬莱成分を福利厚生として持ち帰らない。"
+
+#. careerOpenings.2.0.interview
+#: src/data/careers.js:109
+msgctxt "text:careerOpenings.2.0.interview"
+msgid "A patient says they became immortal yesterday. Ask date or dose first?"
+msgstr "患者が「昨日不死になった」と言う。日付と用量、どちらを先に聞く？"
+
+#. careerOpenings.3.0.institution
+#: src/data/careers.js:115
+msgctxt "text:careerOpenings.3.0.institution"
+msgid "Kappa Workshop Village Public Trial Desk"
+msgstr "河童工房・人里公共試運転席"
+
+#. careerOpenings.3.0.title
+#: src/data/careers.js:116
+msgctxt "text:careerOpenings.3.0.title"
+msgid "Tape-batch & user-button engineer"
+msgstr "テープロット・利用者ボタン技師"
+
+#. careerOpenings.3.0.host
+#: src/data/careers.js:117
+msgctxt "text:careerOpenings.3.0.host"
+msgid "Nitori Kawashiro"
+msgstr "河城にとり"
+
+#. careerOpenings.3.0.region
+#: src/data/careers.js:118
+msgctxt "text:careerOpenings.3.0.region"
+msgid "Youkai Mountain Ravine / Human Village"
+msgstr "妖怪山渓谷／人里"
+
+#. careerOpenings.3.0.premise
+#: src/data/careers.js:125
+msgctxt "text:careerOpenings.3.0.premise"
+msgid ""
+"Turn smoking prototypes into public equipment villagers can open, repair, "
+"and press themselves."
+msgstr "煙の出る試作を、開けて修理でき、里人が自分で押せる公共設備へ。"
+
+#. careerOpenings.3.0.duties.0
+#: src/data/careers.js:127
+msgctxt "text:careerOpenings.3.0.duties.0"
+msgid "Attach units, time, and tape batch to every number"
+msgstr "全数値に単位・時刻・テープロット"
+
+#. careerOpenings.3.0.duties.1
+#: src/data/careers.js:128
+msgctxt "text:careerOpenings.3.0.duties.1"
+msgid "Run one trial with an actual user"
+msgstr "実利用者による試運転を一回実施"
+
+#. careerOpenings.3.0.duties.2
+#: src/data/careers.js:129
+msgctxt "text:careerOpenings.3.0.duties.2"
+msgid "Retain the failure day caused by a reversed part"
+msgstr "逆向部品による故障日を保存"
+
+#. careerOpenings.3.0.friction
+#: src/data/careers.js:131
+msgctxt "text:careerOpenings.3.0.friction"
+msgid ""
+"Nitori calls temporary patches Production v2; if the machine repairs another "
+"machine, rewrite the brief."
+msgstr "にとりは仮補修を第2量産版と呼ぶ。装置が別機を直したら要件を書き直す。"
+
+#. careerOpenings.3.0.boundary
+#: src/data/careers.js:132
+msgctxt "text:careerOpenings.3.0.boundary"
+msgid "A kappa demo cannot replace village user testing."
+msgstr "河童実演は里人の利用者試験を代替しない。"
+
+#. careerOpenings.3.0.interview
+#: src/data/careers.js:133
+msgctxt "text:careerOpenings.3.0.interview"
+msgid "A box smokes normally but will not open. Is it repairable?"
+msgstr "箱は正常に煙を出すが開かない。整備可能か？"
+
+#. careerOpenings.4.0.institution
+#: src/data/careers.js:139
+msgctxt "text:careerOpenings.4.0.institution"
+msgid "Bunbunmaru Public Corrections Desk"
+msgstr "文々。新聞・公開訂正台"
+
+#. careerOpenings.4.0.title
+#: src/data/careers.js:140
+msgctxt "text:careerOpenings.4.0.title"
+msgid "Extra-edition version & right-of-reply editor"
+msgstr "号外版管理・反論権編集"
+
+#. careerOpenings.4.0.host
+#: src/data/careers.js:141
+msgctxt "text:careerOpenings.4.0.host"
+msgid "Aya Shameimaru"
+msgstr "射命丸文"
+
+#. careerOpenings.4.0.region
+#: src/data/careers.js:142
+msgctxt "text:careerOpenings.4.0.region"
+msgid "Youkai Mountain / Airspace"
+msgstr "妖怪山／全学上空"
+
+#. careerOpenings.4.0.premise
+#: src/data/careers.js:149
+msgctxt "text:careerOpenings.4.0.premise"
+msgid "When news precedes events, retain source, original headline, correction, and reply."
+msgstr "記事が事件より先に届いても、資料源・元見出し・訂正・反論権を残す。"
+
+#. careerOpenings.4.0.duties.0
+#: src/data/careers.js:151
+msgctxt "text:careerOpenings.4.0.duties.0"
+msgid "Publish one self-caused correction daily"
+msgstr "毎日、自分が原因の訂正を一件公開"
+
+#. careerOpenings.4.0.duties.1
+#: src/data/careers.js:152
+msgctxt "text:careerOpenings.4.0.duties.1"
+msgid "Record anonymity separately from speed"
+msgstr "匿名と速度を別々に記録"
+
+#. careerOpenings.4.0.duties.2
+#: src/data/careers.js:153
+msgctxt "text:careerOpenings.4.0.duties.2"
+msgid "Retain unused but verifiable headlines"
+msgstr "不採用だが検証可能な見出しを保存"
+
+#. careerOpenings.4.0.friction
+#: src/data/careers.js:155
+msgctxt "text:careerOpenings.4.0.friction"
+msgid "Aya may profile the hire before interview and turn your correction into a faster extra."
+msgstr "文は面接前に合格者記事を出し、訂正をさらに速い号外へ変えるかもしれない。"
+
+#. careerOpenings.4.0.boundary
+#: src/data/careers.js:156
+msgctxt "text:careerOpenings.4.0.boundary"
+msgid "Photographable does not mean publishable."
+msgstr "撮れることは掲載許可ではない。"
+
+#. careerOpenings.4.0.interview
+#: src/data/careers.js:157
+msgctxt "text:careerOpenings.4.0.interview"
+msgid "Your false hiring story earned the interview. Correct it first?"
+msgstr "自分の採用記事が誤報だが面接につながった。先に訂正する？"
+
+#. careerOpenings.5.0.institution
+#: src/data/careers.js:163
+msgctxt "text:careerOpenings.5.0.institution"
+msgid "Human Village Terakoya Missing-Year Textbook Room"
+msgstr "人里寺子屋・欠年教材室"
+
+#. careerOpenings.5.0.title
+#: src/data/careers.js:164
+msgctxt "text:careerOpenings.5.0.title"
+msgid "Oral-history teacher & deleted-Wednesday tutor"
+msgstr "口述史教員兼・削除水曜補講係"
+
+#. careerOpenings.5.0.host
+#: src/data/careers.js:165
+msgctxt "text:careerOpenings.5.0.host"
+msgid "Keine Kamishirasawa / Hieda no Akyuu"
+msgstr "上白沢慧音／稗田阿求"
+
+#. careerOpenings.5.0.region
+#: src/data/careers.js:166
+msgctxt "text:careerOpenings.5.0.region"
+msgid "Human Village"
+msgstr "人里"
+
+#. careerOpenings.5.0.premise
+#: src/data/careers.js:173
+msgctxt "text:careerOpenings.5.0.premise"
+msgid "Teach three versions of one event and retain proof when Wednesday is deleted."
+msgstr "同一事件の三版を教え、水曜が削除されたら補講証拠を保存。"
+
+#. careerOpenings.5.0.duties.0
+#: src/data/careers.js:175
+msgctxt "text:careerOpenings.5.0.duties.0"
+msgid "Preserve one version you distrust"
+msgstr "信じない版を一つ保存"
+
+#. careerOpenings.5.0.duties.1
+#: src/data/careers.js:176
+msgctxt "text:careerOpenings.5.0.duties.1"
+msgid "Add a date range to a long-lived speaker's childhood"
+msgstr "長命種の「子供の頃」に年代幅を付す"
+
+#. careerOpenings.5.0.duties.2
+#: src/data/careers.js:177
+msgctxt "text:careerOpenings.5.0.duties.2"
+msgid "Catalogue people who left no writing"
+msgstr "文字を残せなかった者も目録へ"
+
+#. careerOpenings.5.0.friction
+#: src/data/careers.js:179
+msgctxt "text:careerOpenings.5.0.friction"
+msgid ""
+"Keine can erase history; Akyuu wants the deletion receipt. Neither treats "
+"blank as never happened."
+msgstr "慧音は歴史を消せるが阿求は削除受領票を要求。空白を未発生とは認めない。"
+
+#. careerOpenings.5.0.boundary
+#: src/data/careers.js:180
+msgctxt "text:careerOpenings.5.0.boundary"
+msgid "Withdrawn passages belong only in the closed catalogue."
+msgstr "話者が削除を求めた箇所は閉架目録のみ。"
+
+#. careerOpenings.5.0.interview
+#: src/data/careers.js:181
+msgctxt "text:careerOpenings.5.0.interview"
+msgid "A student graduates before admission. Which page do you fix first?"
+msgstr "卒業年が入学年より前。どの頁を先に直す？"
+
+#. careerOpenings.6.0.institution
+#: src/data/careers.js:187
+msgctxt "text:careerOpenings.6.0.institution"
+msgid "Myouren Temple Shared Table"
+msgstr "命蓮寺・異種共同食卓"
+
+#. careerOpenings.6.0.title
+#: src/data/careers.js:188
+msgctxt "text:careerOpenings.6.0.title"
+msgid "Adjournment, meals & de-escalation coordinator"
+msgstr "閉会・食事・非激化調整"
+
+#. careerOpenings.6.0.host
+#: src/data/careers.js:189
+msgctxt "text:careerOpenings.6.0.host"
+msgid "Byakuren Hijiri"
+msgstr "聖白蓮"
+
+#. careerOpenings.6.0.region
+#: src/data/careers.js:190
+msgctxt "text:careerOpenings.6.0.region"
+msgid "Myouren Temple"
+msgstr "命蓮寺"
+
+#. careerOpenings.6.0.premise
+#: src/data/careers.js:197
+msgctxt "text:careerOpenings.6.0.premise"
+msgid "Seat humans, youkai, and faiths together—and give the argument a real closing time."
+msgstr "人間・妖怪・異なる信仰を同席させ、議論に本当の閉会時刻を持たせる。"
+
+#. careerOpenings.6.0.duties.0
+#: src/data/careers.js:199
+msgctxt "text:careerOpenings.6.0.duties.0"
+msgid "Append dissent at the same font size"
+msgstr "反対意見を本文と同じ字級で添付"
+
+#. careerOpenings.6.0.duties.1
+#: src/data/careers.js:200
+msgctxt "text:careerOpenings.6.0.duties.1"
+msgid "Treat adjournment as facilitation work"
+msgstr "閉会を進行業務へ含める"
+
+#. careerOpenings.6.0.duties.2
+#: src/data/careers.js:201
+msgctxt "text:careerOpenings.6.0.duties.2"
+msgid "Stop the meeting continuing down residence halls"
+msgstr "寮廊下での延長会を止める"
+
+#. careerOpenings.6.0.friction
+#: src/data/careers.js:203
+msgctxt "text:careerOpenings.6.0.friction"
+msgid ""
+"Three faiths may all interpret goodwill as endorsement; the night-sparrow "
+"stall hears the closing bell as another order."
+msgstr "善意は三信仰から同時支持と解釈され、夜雀食堂は閉会鐘を追加注文と聞く。"
+
+#. careerOpenings.6.0.boundary
+#: src/data/careers.js:204
+msgctxt "text:careerOpenings.6.0.boundary"
+msgid "Joining dinner is not consent to recruitment."
+msgstr "会食参加は勧誘同意ではない。"
+
+#. careerOpenings.6.0.interview
+#: src/data/careers.js:205
+msgctxt "text:careerOpenings.6.0.interview"
+msgid "Three parties each demand the only gate. How do you begin adjournment?"
+msgstr "三者が唯一の正門を要求。どう閉会を始める？"
+
+#. careerOpenings.7.0.institution
+#: src/data/careers.js:211
+msgctxt "text:careerOpenings.7.0.institution"
+msgid "Moriya Wind & Festival Infrastructure Office"
+msgstr "守矢神社・風祭基盤室"
+
+#. careerOpenings.7.0.title
+#: src/data/careers.js:212
+msgctxt "text:careerOpenings.7.0.title"
+msgid "Wind, faith attribution & backup engineer"
+msgstr "風力・信仰帰属・予備電源技師"
+
+#. careerOpenings.7.0.host
+#: src/data/careers.js:213
+msgctxt "text:careerOpenings.7.0.host"
+msgid "Kanako Yasaka / Sanae Kochiya"
+msgstr "八坂神奈子／東風谷早苗"
+
+#. careerOpenings.7.0.region
+#: src/data/careers.js:214
+msgctxt "text:careerOpenings.7.0.region"
+msgid "Youkai Mountain / Moriya Shrine"
+msgstr "妖怪山・守矢神社"
+
+#. careerOpenings.7.0.premise
+#: src/data/careers.js:221
+msgctxt "text:careerOpenings.7.0.premise"
+msgid "Trace festival power, wind routes, and backup while naming who claims each miracle."
+msgstr "祭典電力・風路・予備を追跡可能にし、各「神徳」の主張者を明記。"
+
+#. careerOpenings.7.0.duties.0
+#: src/data/careers.js:223
+msgctxt "text:careerOpenings.7.0.duties.0"
+msgid "Record divine merit separately from kilowatts"
+msgstr "神徳とkWを別欄へ"
+
+#. careerOpenings.7.0.duties.1
+#: src/data/careers.js:224
+msgctxt "text:careerOpenings.7.0.duties.1"
+msgid "Test one faith-independent backup"
+msgstr "信仰なしの予備を一回試験"
+
+#. careerOpenings.7.0.duties.2
+#: src/data/careers.js:225
+msgctxt "text:careerOpenings.7.0.duties.2"
+msgid "Publish three accounts of festival ownership"
+msgstr "主催権の三説を公開"
+
+#. careerOpenings.7.0.friction
+#: src/data/careers.js:227
+msgctxt "text:careerOpenings.7.0.friction"
+msgid ""
+"Kanako may treat stable power as a mandate; Sanae's Outside device may have "
+"a plug that rejects Gensokyo."
+msgstr "神奈子は安定電力を統治権と見なし、早苗の外界機器はプラグが幻想郷を拒む。"
+
+#. careerOpenings.7.0.boundary
+#: src/data/careers.js:228
+msgctxt "text:careerOpenings.7.0.boundary"
+msgid "Backup cannot be another god's verbal promise."
+msgstr "予備系統を別の神の口約束だけにしない。"
+
+#. careerOpenings.7.0.interview
+#: src/data/careers.js:229
+msgctxt "text:careerOpenings.7.0.interview"
+msgid "Wind power fails at a festival; the wind god says wind is normal. Which meter?"
+msgstr "祭で風力停電、風神は正常と言う。どの計器を信じる？"
+
+#. careerOpenings.8.0.institution
+#: src/data/careers.js:235
+msgctxt "text:careerOpenings.8.0.institution"
+msgid "Hakugyokurou Half-Phantom Roll & Feast Logistics"
+msgstr "白玉楼・半霊名簿と宴席物流"
+
+#. careerOpenings.8.0.title
+#: src/data/careers.js:236
+msgctxt "text:careerOpenings.8.0.title"
+msgid "Phantom roll-call & pre-consumption inventory clerk"
+msgstr "幽霊点呼兼・食前棚卸係"
+
+#. careerOpenings.8.0.host
+#: src/data/careers.js:237
+msgctxt "text:careerOpenings.8.0.host"
+msgid "Youmu Konpaku / Yuyuko Saigyouji"
+msgstr "魂魄妖夢／西行寺幽々子"
+
+#. careerOpenings.8.0.region
+#: src/data/careers.js:238
+msgctxt "text:careerOpenings.8.0.region"
+msgid "Hakugyokurou"
+msgstr "白玉楼"
+
+#. careerOpenings.8.0.premise
+#: src/data/careers.js:245
+msgctxt "text:careerOpenings.8.0.premise"
+msgid "Separate phantoms present, passing, being eaten, and insisting they are petals."
+msgstr "在席・通過・食事中・花弁だと主張する幽霊を分けて点呼。"
+
+#. careerOpenings.8.0.duties.0
+#: src/data/careers.js:247
+msgctxt "text:careerOpenings.8.0.duties.0"
+msgid "Decide whether a half-phantom gets one or half a badge"
+msgstr "半霊へ一枚か半枚の名札を決定"
+
+#. careerOpenings.8.0.duties.1
+#: src/data/careers.js:248
+msgctxt "text:careerOpenings.8.0.duties.1"
+msgid "Call the same roll before and after dinner"
+msgstr "宴席前後に同じ名簿で点呼"
+
+#. careerOpenings.8.0.duties.2
+#: src/data/careers.js:249
+msgctxt "text:careerOpenings.8.0.duties.2"
+msgid "Retain Yuyuko's self-made fifth column"
+msgstr "幽々子の自作第五欄を保存"
+
+#. careerOpenings.8.0.friction
+#: src/data/careers.js:251
+msgctxt "text:careerOpenings.8.0.friction"
+msgid "Youmu counts seriously; Yuyuko seriously asks whether she is guest, host, or menu."
+msgstr "妖夢は真剣に数え、幽々子は自分が客・主・献立のどれかを真剣に問う。"
+
+#. careerOpenings.8.0.boundary
+#: src/data/careers.js:252
+msgctxt "text:careerOpenings.8.0.boundary"
+msgid "Do not infer the roll total from plates left after dinner."
+msgstr "名簿総数を宴後の皿から逆算しない。"
+
+#. careerOpenings.8.0.interview
+#: src/data/careers.js:253
+msgctxt "text:careerOpenings.8.0.interview"
+msgid "Does one half-phantom need one diploma or two?"
+msgstr "半霊一名の卒業証書は一枚か二枚か？"
+
+#. careerOpenings.9.0.institution
+#: src/data/careers.js:259
+msgctxt "text:careerOpenings.9.0.institution"
+msgid "Chireiden Unspoken-Evidence Room"
+msgstr "地霊殿・未発話証拠室"
+
+#. careerOpenings.9.0.title
+#: src/data/careers.js:260
+msgctxt "text:careerOpenings.9.0.title"
+msgid "Mental-privacy & fire-energy incident recorder"
+msgstr "精神プライバシー・火焔能源事案記録"
+
+#. careerOpenings.9.0.host
+#: src/data/careers.js:261
+msgctxt "text:careerOpenings.9.0.host"
+msgid "Satori Komeiji"
+msgstr "古明地さとり"
+
+#. careerOpenings.9.0.region
+#: src/data/careers.js:262
+msgctxt "text:careerOpenings.9.0.region"
+msgid "Chireiden / Blazing Hell Ruins"
+msgstr "地霊殿／灼熱地獄跡"
+
+#. careerOpenings.9.0.premise
+#: src/data/careers.js:269
+msgctxt "text:careerOpenings.9.0.premise"
+msgid "Record equipment, flame, and spoken testimony; read thoughts keep separate permissions."
+msgstr "設備・炎・明示証言を記録。読まれた思考は別権限で、研究資料へ自動変換しない。"
+
+#. careerOpenings.9.0.duties.0
+#: src/data/careers.js:271
+msgctxt "text:careerOpenings.9.0.duties.0"
+msgid "Separate reading, recording, and use"
+msgstr "読取・記録・利用を三欄へ"
+
+#. careerOpenings.9.0.duties.1
+#: src/data/careers.js:272
+msgctxt "text:careerOpenings.9.0.duties.1"
+msgid "Leave a content-free receipt for unwritten material"
+msgstr "未記載内容に内容なし受領票を残す"
+
+#. careerOpenings.9.0.duties.2
+#: src/data/careers.js:273
+msgctxt "text:careerOpenings.9.0.duties.2"
+msgid "Trigger stopping rules before energy drift expands"
+msgstr "能源偏差拡大前に停止規則"
+
+#. careerOpenings.9.0.friction
+#: src/data/careers.js:275
+msgctxt "text:careerOpenings.9.0.friction"
+msgid "Satori knows what you plan to hide but still waits for an explicit record choice."
+msgstr "さとりは隠す内容を知っていても、記録するか明示選択を待つ。"
+
+#. careerOpenings.9.0.boundary
+#: src/data/careers.js:276
+msgctxt "text:careerOpenings.9.0.boundary"
+msgid "Knowing is not research permission."
+msgstr "知ることは研究利用権ではない。"
+
+#. careerOpenings.9.0.interview
+#: src/data/careers.js:277
+msgctxt "text:careerOpenings.9.0.interview"
+msgid "Your unspoken answer was correct. Does it count?"
+msgstr "未発話の正答は面接点になる？"
+
+#. careerOpenings.10.0.institution
+#: src/data/careers.js:283
+msgctxt "text:careerOpenings.10.0.institution"
+msgid "Kourindou Outside-Object Use & Price Dispute Desk"
+msgstr "香霖堂・外界物用途と値札争議机"
+
+#. careerOpenings.10.0.title
+#: src/data/careers.js:284
+msgctxt "text:careerOpenings.10.0.title"
+msgid "Object-name, use & anachronistic pricing clerk"
+msgstr "物品名・用途・時代外れ値付係"
+
+#. careerOpenings.10.0.host
+#: src/data/careers.js:285
+msgctxt "text:careerOpenings.10.0.host"
+msgid "Rinnosuke Morichika"
+msgstr "森近霖之助"
+
+#. careerOpenings.10.0.region
+#: src/data/careers.js:286
+msgctxt "text:careerOpenings.10.0.region"
+msgid "Forest of Magic / Kourindou"
+msgstr "魔法の森・香霖堂"
+
+#. careerOpenings.10.0.premise
+#: src/data/careers.js:293
+msgctxt "text:careerOpenings.10.0.premise"
+msgid "After naming, let wear, manuals, object testimony, and price tags dispute use."
+msgstr "名称判定後も摩耗・説明書・物の意見・値札で用途を争わせる。"
+
+#. careerOpenings.10.0.duties.0
+#: src/data/careers.js:295
+msgctxt "text:careerOpenings.10.0.duties.0"
+msgid "Retain two use hypotheses per object"
+msgstr "各物品に用途仮説を二つ以上"
+
+#. careerOpenings.10.0.duties.1
+#: src/data/careers.js:296
+msgctxt "text:careerOpenings.10.0.duties.1"
+msgid "Use non-destructive tests only"
+msgstr "外装を壊さない試験のみ"
+
+#. careerOpenings.10.0.duties.2
+#: src/data/careers.js:297
+msgctxt "text:careerOpenings.10.0.duties.2"
+msgid "Record an object's refusal to be dismantled"
+msgstr "分解拒否の物品意見を明記"
+
+#. careerOpenings.10.0.friction
+#: src/data/careers.js:299
+msgctxt "text:careerOpenings.10.0.friction"
+msgid ""
+"Rinnosuke may name it correctly and date its price entirely wrong; Marisa "
+"writes “borrowed” outside provenance."
+msgstr "霖之助は名前を正しく言い、年代を誤って値付けし得る。魔理沙は「借用」を来歴欄外へ書く。"
+
+#. careerOpenings.10.0.boundary
+#: src/data/careers.js:300
+msgctxt "text:careerOpenings.10.0.boundary"
+msgid "Appraisal does not create ownership."
+msgstr "鑑定は所有権を生まない。"
+
+#. careerOpenings.10.0.interview
+#: src/data/careers.js:301
+msgctxt "text:careerOpenings.10.0.interview"
+msgid "You know the name; the object denies it. Whose version titles the file?"
+msgstr "名前は分かるが物が否定。標題は誰の版？"
+
+#. careerOpenings.11.0.institution
+#: src/data/careers.js:307
+msgctxt "text:careerOpenings.11.0.institution"
+msgid "Sanzu Delayed Arrival & Property Appeal Ferry"
+msgstr "三途川・遅延届と物権上訴渡し場"
+
+#. careerOpenings.11.0.title
+#: src/data/careers.js:308
+msgctxt "text:careerOpenings.11.0.title"
+msgid "Queue, fare & late-deceased appeal clerk"
+msgstr "列・渡し賃・遅刻亡者申立係"
+
+#. careerOpenings.11.0.host
+#: src/data/careers.js:309
+msgctxt "text:careerOpenings.11.0.host"
+msgid "Komachi Onozuka / Eiki Shiki"
+msgstr "小野塚小町／四季映姫"
+
+#. careerOpenings.11.0.region
+#: src/data/careers.js:310
+msgctxt "text:careerOpenings.11.0.region"
+msgid "Sanzu River / Higan"
+msgstr "三途の川／彼岸"
+
+#. careerOpenings.11.0.premise
+#: src/data/careers.js:317
+msgctxt "text:careerOpenings.11.0.premise"
+msgid "Handle ferry papers arriving after death, before judgment, or claiming auditor status."
+msgstr "死亡より遅く、裁定より早く、または聴講生だと主張する渡河書類を扱う。"
+
+#. careerOpenings.11.0.duties.0
+#: src/data/careers.js:319
+msgctxt "text:careerOpenings.11.0.duties.0"
+msgid "Separate queue time from slacking time"
+msgstr "待機時間と怠業時間を分ける"
+
+#. careerOpenings.11.0.duties.1
+#: src/data/careers.js:320
+msgctxt "text:careerOpenings.11.0.duties.1"
+msgid "Retain the prior ruling for every property appeal"
+msgstr "物権上訴ごとに前裁定を保存"
+
+#. careerOpenings.11.0.duties.2
+#: src/data/careers.js:321
+msgctxt "text:careerOpenings.11.0.duties.2"
+msgid "Find the same boat before Higan week ends"
+msgstr "彼岸週終了前に同じ船を探す"
+
+#. careerOpenings.11.0.friction
+#: src/data/careers.js:323
+msgctxt "text:careerOpenings.11.0.friction"
+msgid ""
+"Komachi offers persuasive delay reasons; Eiki notes a valid reason does not "
+"erase responsibility."
+msgstr "小町は説得力ある遅延理由を出し、映姫は理由成立と責任消滅は別と指摘。"
+
+#. careerOpenings.11.0.boundary
+#: src/data/careers.js:324
+msgctxt "text:careerOpenings.11.0.boundary"
+msgid "Do not average a queue into one punctual arrival."
+msgstr "列の人々を平均して一人の定刻到着者にしない。"
+
+#. careerOpenings.11.0.interview
+#: src/data/careers.js:325
+msgctxt "text:careerOpenings.11.0.interview"
+msgid "An appeal arrives before its ruling. Is it cause or attachment?"
+msgstr "申立が裁定より先に到着。前因か添付か？"
+
+#. careerDomainOptions.0.1
+#: src/data/careers.js:330
+msgctxt "text:careerDomainOptions.0.1"
+msgid "Field & routes"
+msgstr "現地・経路"
+
+#. careerDomainOptions.1.1
+#: src/data/careers.js:331
+msgctxt "text:careerDomainOptions.1.1"
+msgid "Archives & memory"
+msgstr "文書・記憶"
+
+#. careerDomainOptions.2.1
+#: src/data/careers.js:332
+msgctxt "text:careerDomainOptions.2.1"
+msgid "Research & methods"
+msgstr "研究・方法"
+
+#. careerDomainOptions.3.1
+#: src/data/careers.js:333
+msgctxt "text:careerDomainOptions.3.1"
+msgid "Care & handover"
+msgstr "ケア・引継ぎ"
+
+#. careerDomainOptions.4.1
+#: src/data/careers.js:334
+msgctxt "text:careerDomainOptions.4.1"
+msgid "Workshop & repair"
+msgstr "工房・修理"
+
+#. careerDomainOptions.5.1
+#: src/data/careers.js:335
+msgctxt "text:careerDomainOptions.5.1"
+msgid "News & corrections"
+msgstr "報道・訂正"
+
+#. careerDomainOptions.6.1
+#: src/data/careers.js:336
+msgctxt "text:careerDomainOptions.6.1"
+msgid "Governance & mediation"
+msgstr "統治・調整"
+
+#. careerDomainOptions.7.1
+#: src/data/careers.js:337
+msgctxt "text:careerDomainOptions.7.1"
+msgid "Teaching & shared life"
+msgstr "教育・共同生活"
+
+#. careerScheduleOptions.0.1
+#: src/data/careers.js:341
+msgctxt "text:careerScheduleOptions.0.1"
+msgid "Day bells"
+msgstr "昼の校鐘"
+
+#. careerScheduleOptions.1.1
+#: src/data/careers.js:342
+msgctxt "text:careerScheduleOptions.1.1"
+msgid "Dawn & mist"
+msgstr "早朝・薄霧"
+
+#. careerScheduleOptions.2.1
+#: src/data/careers.js:343
+msgctxt "text:careerScheduleOptions.2.1"
+msgid "Dusk & before feasts"
+msgstr "夕刻・宴前"
+
+#. careerScheduleOptions.3.1
+#: src/data/careers.js:344
+msgctxt "text:careerScheduleOptions.3.1"
+msgid "Night & underground"
+msgstr "夜間・地下"
+
+#. careerScheduleOptions.4.1
+#: src/data/careers.js:345
+msgctxt "text:careerScheduleOptions.4.1"
+msgid "Lunar duty"
+msgstr "月相勤務"
+
+#. careerScheduleOptions.5.1
+#: src/data/careers.js:346
+msgctxt "text:careerScheduleOptions.5.1"
+msgid "Non-linear time accepted"
+msgstr "非線形時間可"
+
+#. alumniChapters.village-twilight.title
+#: src/data/careers.js:353
+msgctxt "text:alumniChapters.village-twilight.title"
+msgid "Village Twilight Chronicle Circle"
+msgstr "人里黄昏編年会"
+
+#. alumniChapters.village-twilight.meeting
+#: src/data/careers.js:354
+msgctxt "text:alumniChapters.village-twilight.meeting"
+msgid "The last Wednesday that still exists each month"
+msgstr "毎月最後の存在する水曜"
+
+#. alumniChapters.village-twilight.steward
+#: src/data/careers.js:355
+msgctxt "text:alumniChapters.village-twilight.steward"
+msgid "Keine keeps absences; Akyuu keeps corrections to them."
+msgstr "慧音が欠席簿、阿求がその訂正を保管。"
+
+#. alumniChapters.village-twilight.unresolved
+#: src/data/careers.js:356
+msgctxt "text:alumniChapters.village-twilight.unresolved"
+msgid "Whether an erased cohort can receive a make-up graduation."
+msgstr "削除された一学年へ補卒業式を行えるか。"
+
+#. alumniChapters.misty-lake-night-readers.title
+#: src/data/careers.js:362
+msgctxt "text:alumniChapters.misty-lake-night-readers.title"
+msgid "Misty Lake Night Readers Chapter"
+msgstr "霧湖夜行読書支部"
+
+#. alumniChapters.misty-lake-night-readers.meeting
+#: src/data/careers.js:363
+msgctxt "text:alumniChapters.misty-lake-night-readers.meeting"
+msgid "After closing, if the books remain awake"
+msgstr "閉館後、本が起きていれば"
+
+#. alumniChapters.misty-lake-night-readers.steward
+#: src/data/careers.js:364
+msgctxt "text:alumniChapters.misty-lake-night-readers.steward"
+msgid "Koakuma punches cards; fairies count holes as attendance."
+msgstr "小悪魔が貸出票を穿孔、妖精は穴数を出席とする。"
+
+#. alumniChapters.misty-lake-night-readers.unresolved
+#: src/data/careers.js:365
+msgctxt "text:alumniChapters.misty-lake-night-readers.unresolved"
+msgid "Whether a book refusing return may join as an alum."
+msgstr "返却拒否の本が校友本人として加入できるか。"
+
+#. alumniChapters.mountain-windworks.title
+#: src/data/careers.js:371
+msgctxt "text:alumniChapters.mountain-windworks.title"
+msgid "Youkai Mountain Windworks Guild"
+msgstr "妖怪山風路工務会"
+
+#. alumniChapters.mountain-windworks.meeting
+#: src/data/careers.js:372
+msgctxt "text:alumniChapters.mountain-windworks.meeting"
+msgid "When wind can carry away the wrong blueprint"
+msgstr "誤版図面が飛ぶ風速時"
+
+#. alumniChapters.mountain-windworks.steward
+#: src/data/careers.js:373
+msgctxt "text:alumniChapters.mountain-windworks.steward"
+msgid "Nitori brings tape; Aya brings an extra it has not fixed."
+msgstr "にとりはテープ、文は未修正の号外を持参。"
+
+#. alumniChapters.mountain-windworks.unresolved
+#: src/data/careers.js:374
+msgctxt "text:alumniChapters.mountain-windworks.unresolved"
+msgid "Whether successful infrastructure creates festival ownership."
+msgstr "公共設備の成功が祭典主催権を生むか。"
+
+#. alumniChapters.eientei-moon-shift.title
+#: src/data/careers.js:380
+msgctxt "text:alumniChapters.eientei-moon-shift.title"
+msgid "Eientei Moonshift Chapter"
+msgstr "永遠亭月下当直会"
+
+#. alumniChapters.eientei-moon-shift.meeting
+#: src/data/careers.js:381
+msgctxt "text:alumniChapters.eientei-moon-shift.meeting"
+msgid "Once full and once non-full; the comfortable one alone does not count"
+msgstr "満月・非満月各一回、楽な方だけ不可"
+
+#. alumniChapters.eientei-moon-shift.steward
+#: src/data/careers.js:382
+msgctxt "text:alumniChapters.eientei-moon-shift.steward"
+msgid "Reisen calls roll; Tewi draws lots for absentees."
+msgstr "鈴仙が点呼、てゐが欠席者の籤を引く。"
+
+#. alumniChapters.eientei-moon-shift.unresolved
+#: src/data/careers.js:383
+msgctxt "text:alumniChapters.eientei-moon-shift.unresolved"
+msgid "How long an immortal's fifth graduation anniversary takes."
+msgstr "不死者の卒業五周年はいつか。"
+
+#. alumniChapters.underground-no-sun.title
+#: src/data/careers.js:389
+msgctxt "text:alumniChapters.underground-no-sun.title"
+msgid "Underground No-Sun Liaison"
+msgstr "地底日照なし連絡所"
+
+#. alumniChapters.underground-no-sun.meeting
+#: src/data/careers.js:390
+msgctxt "text:alumniChapters.underground-no-sun.meeting"
+msgid "When the surface says morning and underground has a table"
+msgstr "地上が朝と言い、地下に空席がある時"
+
+#. alumniChapters.underground-no-sun.steward
+#: src/data/careers.js:391
+msgctxt "text:alumniChapters.underground-no-sun.steward"
+msgid "Satori knows who will attend and still waits for their reply."
+msgstr "さとりは出席者を知るが、本人の返事を待つ。"
+
+#. alumniChapters.underground-no-sun.unresolved
+#: src/data/careers.js:392
+msgctxt "text:alumniChapters.underground-no-sun.unresolved"
+msgid "Whether an unspoken alumni pledge belongs in the budget."
+msgstr "未発話の寄付約束を予算へ入れられるか。"
+
+#. alumniChapters.higan-late-arrivals.title
+#: src/data/careers.js:398
+msgctxt "text:alumniChapters.higan-late-arrivals.title"
+msgid "Higan Late-Arrival Society"
+msgstr "彼岸遅延報到会"
+
+#. alumniChapters.higan-late-arrivals.meeting
+#: src/data/careers.js:399
+msgctxt "text:alumniChapters.higan-late-arrivals.meeting"
+msgid "Starts punctually after Higan week ends"
+msgstr "彼岸週終了後、定刻開始"
+
+#. alumniChapters.higan-late-arrivals.steward
+#: src/data/careers.js:400
+msgctxt "text:alumniChapters.higan-late-arrivals.steward"
+msgid "Komachi handles time; Eiki notes that she does not."
+msgstr "小町が時間担当、映姫が担当していないと指摘。"
+
+#. alumniChapters.higan-late-arrivals.unresolved
+#: src/data/careers.js:401
+msgctxt "text:alumniChapters.higan-late-arrivals.unresolved"
+msgid "Whether the deceased-but-not-yet-enrolled may be back-entered as alumni."
+msgstr "死亡済み未入学者を校友へ補記できるか。"
+
+#. alumniChapters.hakugyokurou-half-spirit.title
+#: src/data/careers.js:407
+msgctxt "text:alumniChapters.hakugyokurou-half-spirit.title"
+msgid "Hakugyokurou Half-Phantom Cohort"
+msgstr "白玉楼半霊同期会"
+
+#. alumniChapters.hakugyokurou-half-spirit.meeting
+#: src/data/careers.js:408
+msgctxt "text:alumniChapters.hakugyokurou-half-spirit.meeting"
+msgid "Simultaneously before and after hanami"
+msgstr "花見開始前と終了後に同時"
+
+#. alumniChapters.hakugyokurou-half-spirit.steward
+#: src/data/careers.js:409
+msgctxt "text:alumniChapters.hakugyokurou-half-spirit.steward"
+msgid "Youmu brings two rolls; Yuyuko brings a fifth column."
+msgstr "妖夢は名簿二冊、幽々子は第五欄。"
+
+#. alumniChapters.hakugyokurou-half-spirit.unresolved
+#: src/data/careers.js:410
+msgctxt "text:alumniChapters.hakugyokurou-half-spirit.unresolved"
+msgid "Whether a half-phantom owes one, half, or two dues."
+msgstr "半霊の会費は一口、半口、二口か。"
+
+#. alumniChapters.outside-drift-cohort.title
+#: src/data/careers.js:416
+msgctxt "text:alumniChapters.outside-drift-cohort.title"
+msgid "Outside-Drift Alumni Cohort"
+msgstr "外界漂流同窓会"
+
+#. alumniChapters.outside-drift-cohort.meeting
+#: src/data/careers.js:417
+msgctxt "text:alumniChapters.outside-drift-cohort.meeting"
+msgid "When Kourindou reprices an object before determining use"
+msgstr "香霖堂の値札更新・用途未確定時"
+
+#. alumniChapters.outside-drift-cohort.steward
+#: src/data/careers.js:418
+msgctxt "text:alumniChapters.outside-drift-cohort.steward"
+msgid "Rinnosuke names; the object keeps refusal rights."
+msgstr "霖之助が命名、物は拒否権を保持。"
+
+#. alumniChapters.outside-drift-cohort.unresolved
+#: src/data/careers.js:419
+msgctxt "text:alumniChapters.outside-drift-cohort.unresolved"
+msgid "Whether a diploma drifting Outside still recognises its holder."
+msgstr "卒業証書が外界へ漂流後も持主を認識するか。"
+
+#. alumniStories.three-times-fairy.name
+#: src/data/careers.js:428
+msgctxt "text:alumniStories.three-times-fairy.name"
+msgid "Dew Number Three"
+msgstr "露番号三号"
+
+#. alumniStories.three-times-fairy.line
+#: src/data/careers.js:429
+msgctxt "text:alumniStories.three-times-fairy.line"
+msgid "Forgot graduating three times; on the fourth return, hosted orientation."
+msgstr "卒業を三度忘れ、四度目の帰校で新入生説明会司会に採用。"
+
+#. alumniStories.future-admit.name
+#: src/data/careers.js:434
+msgctxt "text:alumniStories.future-admit.name"
+msgid "Class 141 alum, not yet admitted"
+msgstr "未入学の141期校友"
+
+#. alumniStories.future-admit.line
+#: src/data/careers.js:435
+msgctxt "text:alumniStories.future-admit.line"
+msgid "The alumni invitation arrived one night before Aya's already-early offer."
+msgstr "文の合格通知より一夜早く校友会招待が届いた。"
+
+#. alumniStories.book-alumnus.name
+#: src/data/careers.js:440
+msgctxt "text:alumniStories.book-alumnus.name"
+msgid "Misty Lake Closed Stack ML-R-009"
+msgstr "霧湖閉架 ML-R-009"
+
+#. alumniStories.book-alumnus.line
+#: src/data/careers.js:441
+msgctxt "text:alumniStories.book-alumnus.line"
+msgid "Audited two courses after refusing return; claims its borrower owes it a book."
+msgstr "返却拒否後に二科目聴講し、現在は借り手が本を一冊借りていると主張。"
+
+#. alumniStories.half-diploma.name
+#: src/data/careers.js:446
+msgctxt "text:alumniStories.half-diploma.name"
+msgid "Half-phantom with the right half of a diploma"
+msgstr "証書右半分だけの半霊"
+
+#. alumniStories.half-diploma.line
+#: src/data/careers.js:447
+msgctxt "text:alumniStories.half-diploma.line"
+msgid "The left half remains at feast roll-call; each half joined a different chapter."
+msgstr "左半分は白玉楼宴席の点呼中。二半は別支部へ参加。"

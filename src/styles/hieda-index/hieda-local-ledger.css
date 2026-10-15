@@ -1,0 +1,398 @@
+.hieda-local-ledger header p {
+  color: #f0c7bb;
+}
+
+.hieda-local-ledger h2 {
+  margin-bottom: 10px;
+  font: 700 clamp(1.8rem, 3vw, 2.8rem) var(--serif);
+}
+
+.hieda-local-ledger > header > span {
+  display: grid;
+  width: 58px;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid #f0c7bb;
+  border-radius: 50%;
+  color: #f0c7bb;
+  font: 700 1.6rem var(--serif);
+}
+
+.hieda-local-ledger > p {
+  max-width: 780px;
+  color: rgba(255, 253, 248, 0.72);
+  font-size: 0.84rem;
+}
+
+.hieda-local-ledger ol {
+  display: grid;
+  gap: 0;
+  margin: 28px 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.hieda-local-ledger li {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 14px;
+  padding: 17px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.hieda-local-ledger li > i {
+  width: 8px;
+  aspect-ratio: 1;
+  margin-top: 9px;
+  border-radius: 50%;
+  background: #f0c7bb;
+  box-shadow: 0 0 0 4px rgba(240, 199, 187, 0.12);
+}
+
+.hieda-local-ledger li small,
+.hieda-local-ledger li strong {
+  display: block;
+}
+
+.hieda-local-ledger li small {
+  color: #f0c7bb;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+}
+
+.hieda-local-ledger li strong {
+  margin: 2px 0 8px;
+  font: 650 1rem var(--serif);
+}
+
+.hieda-local-ledger dl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin: 0;
+  color: rgba(255, 253, 248, 0.68);
+  font-size: 0.65rem;
+}
+
+.hieda-local-ledger dl div {
+  display: flex;
+  gap: 7px;
+}
+
+.hieda-local-ledger dt {
+  color: #f0c7bb;
+  font-weight: 800;
+}
+
+.hieda-local-ledger dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.hieda-local-empty {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 28px 0;
+  padding: 18px;
+  border: 1px dashed rgba(255, 255, 255, 0.25);
+}
+
+.hieda-local-empty span {
+  display: grid;
+  flex: 0 0 42px;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid #f0c7bb;
+  border-radius: 50%;
+  color: #f0c7bb;
+  font: 700 0.9rem var(--serif);
+}
+
+.hieda-local-empty p {
+  margin: 0;
+  color: rgba(255, 253, 248, 0.72);
+  font: 500 0.88rem / 1.7 var(--serif);
+}
+
+.hieda-ledger-link {
+  display: inline-block;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #f0c7bb;
+  color: #f0c7bb;
+  font-size: 0.75rem;
+  font-weight: 850;
+}
+
+@media (max-width: 1050px) {
+  .hieda-mode-switch {
+    top: 58px;
+  }
+
+  .hieda-mode-switch > a {
+    padding-inline: 15px;
+  }
+
+  .hieda-mode-switch > a small {
+    display: none;
+  }
+
+  .hieda-mode-switch > button {
+    min-width: 110px;
+  }
+
+  .hieda-worktable {
+    grid-template-columns: 235px minmax(0, 1fr);
+    gap: 30px;
+  }
+
+  .hieda-dossier-head,
+  .hieda-context {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .hieda-dossier-head > a,
+  .hieda-context > a,
+  .hieda-version-actions {
+    grid-column: 2;
+    justify-self: start;
+    align-items: flex-start;
+  }
+
+  .hieda-contradiction,
+  .hieda-dossier-people,
+  .hieda-record-stack,
+  .hieda-version-links {
+    margin-left: 0;
+  }
+
+  .hieda-version-links > div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .hieda-section {
+    padding-top: 22px;
+  }
+
+  .hieda-hero,
+  .hieda-mode-switch,
+  .hieda-worktable {
+    width: min(100% - 28px, 680px);
+  }
+
+  .hieda-hero {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .hieda-hero-copy h1 {
+    font-size: clamp(2.7rem, 14vw, 4.8rem);
+  }
+
+  .hieda-hero > aside {
+    min-height: 0;
+    padding: 25px 24px 24px 78px;
+  }
+
+  .hieda-hero dl {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hieda-hero dl div {
+    min-height: 72px;
+  }
+
+  .hieda-mode-switch {
+    position: relative;
+    top: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hieda-mode-switch > a {
+    min-height: 74px;
+    justify-content: center;
+    padding: 11px 6px;
+    text-align: center;
+  }
+
+  .hieda-mode-switch > a i {
+    display: none;
+  }
+
+  .hieda-mode-switch > a strong {
+    font-size: 0.78rem;
+  }
+
+  .hieda-mode-switch > button {
+    grid-column: 1 / -1;
+    min-height: 42px;
+  }
+
+  .hieda-mode-switch > button span,
+  .hieda-mode-switch > button b {
+    display: inline;
+  }
+
+  .hieda-mode-switch > button b {
+    margin-left: 8px;
+  }
+
+  .hieda-worktable {
+    display: block;
+    padding-top: 26px;
+  }
+
+  .hieda-index-rail {
+    position: relative;
+    top: auto;
+    max-height: none;
+    margin-bottom: 32px;
+    overflow: visible;
+  }
+
+  .hieda-index-rail > label {
+    position: relative;
+  }
+
+  .hieda-index-rail nav {
+    display: grid;
+    grid-auto-columns: minmax(230px, 78vw);
+    grid-auto-flow: column;
+    gap: 8px;
+    margin-inline: -14px;
+    padding-inline: 14px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+  }
+
+  .hieda-index-rail nav a {
+    min-height: 82px;
+    padding: 11px;
+    border: 1px solid var(--line);
+    background: rgba(255, 253, 248, 0.68);
+    scroll-snap-align: start;
+  }
+
+  .hieda-reading-summary {
+    margin-bottom: 20px;
+  }
+
+  .hieda-reading-summary small {
+    display: none;
+  }
+
+  .hieda-context,
+  .hieda-dossier-head {
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 14px;
+    padding-inline: 0;
+  }
+
+  .hieda-context {
+    padding: 18px;
+  }
+
+  .hieda-context > i,
+  .hieda-dossier-glyph {
+    width: 54px;
+  }
+
+  .hieda-version-stamp {
+    min-width: 64px;
+    min-height: 64px;
+  }
+
+  .hieda-dossier-head h2 {
+    font-size: clamp(1.8rem, 8.5vw, 2.75rem);
+  }
+
+  .hieda-contradiction {
+    margin-top: 22px;
+    padding: 16px 17px 16px 22px;
+  }
+
+  .hieda-record {
+    grid-template-columns: 30px minmax(0, 1fr);
+  }
+
+  .hieda-record-stack::before {
+    left: 14px;
+  }
+
+  .hieda-record-spine span {
+    display: none;
+  }
+
+  .hieda-record-body {
+    padding: 18px 16px;
+  }
+
+  .hieda-record-body > header {
+    display: block;
+  }
+
+  .hieda-record-body > header > b {
+    display: inline-block;
+    margin-top: 9px;
+  }
+
+  .hieda-thread-note {
+    display: block;
+  }
+
+  .hieda-thread-note > span {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .hieda-record footer {
+    display: block;
+  }
+
+  .hieda-record footer > a {
+    display: inline-block;
+    margin-top: 14px;
+  }
+
+  .hieda-version-links > div {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 430px) {
+  .hieda-hero dl {
+    grid-template-columns: 1fr;
+  }
+
+  .hieda-hero dl div {
+    min-height: 58px;
+  }
+
+  .hieda-context,
+  .hieda-dossier-head {
+    display: block;
+  }
+
+  .hieda-context > i,
+  .hieda-dossier-glyph,
+  .hieda-version-stamp {
+    margin-bottom: 14px;
+  }
+
+  .hieda-context > a,
+  .hieda-version-actions,
+  .hieda-dossier-head > a {
+    margin-top: 13px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hieda-index-rail nav a,
+  .hieda-mode-switch > a {
+    transition: none;
+  }
+}

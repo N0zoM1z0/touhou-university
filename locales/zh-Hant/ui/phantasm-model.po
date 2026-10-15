@@ -1,0 +1,246 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy.retain.ruling
+#: src/js/phantasm-model.js:403
+msgctxt "text:copy.retain.ruling"
+msgid ""
+"{value0} rules that the untaken route may remain in Dream Campus but may not "
+"impersonate an official conclusion."
+msgstr "{value0} 裁定：未行路線准予在夢境校區保留，不得冒充正式結論。"
+
+#. copy.retain.condition
+#: src/js/phantasm-model.js:404
+msgctxt "text:copy.retain.condition"
+msgid "Every citation must show the route actually adopted while awake on the same page."
+msgstr "每次引用時，必須同頁附上醒著時真正採用的路線。"
+
+#. copy.retain.dissent
+#: src/js/phantasm-model.js:405
+msgctxt "text:copy.retain.dissent"
+msgid "Reimu dissents: a route not taken cannot claim travel expenses."
+msgstr "靈夢少數意見：既然沒有走，路費不應報銷。"
+
+#. copy.conditional.ruling
+#: src/js/phantasm-model.js:408
+msgctxt "text:copy.conditional.ruling"
+msgid ""
+"{value0} grants dream-boundary conditional approval: teachable here, never "
+"backfilled into official records."
+msgstr "{value0} 裁定：附帶夢界條件通過；可教學，不可倒灌正式學籍。"
+
+#. copy.conditional.condition
+#: src/js/phantasm-model.js:409
+msgctxt "text:copy.conditional.condition"
+msgid ""
+"After the bell, explain again why it was not adopted. An identical answer "
+"proves you are still dreaming."
+msgstr "鐘響後須重新說明一次為何沒有採用；理由若完全相同，視為仍在做夢。"
+
+#. copy.conditional.dissent
+#: src/js/phantasm-model.js:410
+msgctxt "text:copy.conditional.dissent"
+msgid "Aya dissents that “conditional” may be added in the extra edition's second printing."
+msgstr "文少數意見：『附帶條件』四字可在號外第二版再補。"
+
+#. copy.wake.ruling
+#: src/js/phantasm-model.js:413
+msgctxt "text:copy.wake.ruling"
+msgid ""
+"{value0} finds the argument suspiciously tidy and orders one waking before "
+"retention is reconsidered."
+msgstr "{value0} 裁定：論證成立得過於整齊，先醒一次再決定是否保留。"
+
+#. copy.wake.condition
+#: src/js/phantasm-model.js:414
+msgctxt "text:copy.wake.condition"
+msgid ""
+"If the route survives waking, add one inconsistent detail on the dream "
+"transcript continuation sheet."
+msgstr "醒來後若仍記得同一條路，可在夢學籍續頁補一個不一致的細節。"
+
+#. copy.wake.dissent
+#: src/js/phantasm-model.js:415
+msgctxt "text:copy.wake.dissent"
+msgid ""
+"Doremy dissents that a dream this tidy is probably an administrative form "
+"and not worth an appetite."
+msgstr "多蕾米少數意見：太整齊的夢通常只是校務表格，不必浪費食慾。"
+
+#. assignmentFragment.dream
+#: src/js/phantasm-model.js:204
+msgctxt "text:assignmentFragment.dream"
+msgid ""
+"An option you did not write has resubmitted itself for full marks and asks "
+"the ordinary answer for a citation."
+msgstr "沒有寫下的選項以滿分答案重新提交，並要求正式答案標註引用。"
+
+#. governanceFragment.ordinary
+#: src/js/phantasm-model.js:219
+msgctxt "text:governanceFragment.ordinary"
+msgid "Ballot"
+msgstr "正式投票"
+
+#. governanceFragment.dream
+#: src/js/phantasm-model.js:222
+msgctxt "text:governanceFragment.dream"
+msgid "Passed in shadow"
+msgstr "影子議場通過"
+
+#. incidentFragment.ordinary
+#: src/js/phantasm-model.js:242
+msgctxt "text:incidentFragment.ordinary"
+msgid "Closure hypothesis"
+msgstr "結案假說"
+
+#. incidentFragment.dream
+#: src/js/phantasm-model.js:245
+msgctxt "text:incidentFragment.dream"
+msgid "Official dream conclusion"
+msgstr "夢境正式結論"
+
+#. housingFragment.title
+#: src/js/phantasm-model.js:262
+msgctxt "text:housingFragment.title"
+msgid "Declined room"
+msgstr "拒絕過的房間"
+
+#. housingFragment.ordinary
+#: src/js/phantasm-model.js:264
+msgctxt "text:housingFragment.ordinary"
+msgid "Offer declined"
+msgstr "已拒絕分房"
+
+#. housingFragment.dream
+#: src/js/phantasm-model.js:266
+msgctxt "text:housingFragment.dream"
+msgid " says you failed to come home last night."
+msgstr "表示你昨夜沒有回來，要求補簽寢室點名。"
+
+#. courseFragment.ordinary
+#: src/js/phantasm-model.js:281
+msgctxt "text:courseFragment.ordinary"
+msgid "Dropped from the ordinary timetable."
+msgstr "已從普通課表退選。"
+
+#. courseFragment.dream
+#: src/js/phantasm-model.js:282
+msgctxt "text:courseFragment.dream"
+msgid ""
+"Automatically enrolled in ninth period. The room is “behind the original "
+"room”; only the roll knows the instructor."
+msgstr "自動編入第九節；教室為「原教室背面」，授課教師只有點名簿知道。"
+
+#. unusedRouteFragment.title
+#: src/js/phantasm-model.js:292
+msgctxt "text:unusedRouteFragment.title"
+msgid "Route deliberately not taken"
+msgstr "刻意沒有採用的路線"
+
+#. unusedRouteFragment.dream
+#: src/js/phantasm-model.js:295
+msgctxt "text:unusedRouteFragment.dream"
+msgid ""
+"The unused route becomes the primary text for BND-∞ and asks the official "
+"project to cite why it was not adopted."
+msgstr "未行路線成為 BND-∞ 主教材，並要求正式研究引用「為何沒有採用自己」。"
+
+#. libraryFragment.ordinary
+#: src/js/phantasm-model.js:312
+msgctxt "text:libraryFragment.ordinary"
+msgid "Returned in the ordinary library record."
+msgstr "普通圖書館記錄：已歸還。"
+
+#. libraryFragment.dream
+#: src/js/phantasm-model.js:313
+msgctxt "text:libraryFragment.dream"
+msgid "The book denies the loan and says it was the party that returned you."
+msgstr "館藏否認曾被借出，並表示其實是它把你歸還了。"
+
+#. posts.phantasm-ninth-period-rumour.author
+#: src/js/phantasm-model.js:481
+msgctxt "text:posts.phantasm-ninth-period-rumour.author"
+msgid "North Stair Roll Keeper (unregistered)"
+msgstr "北樓梯點名員（未登錄）"
+
+#. posts.phantasm-ninth-period-rumour.title
+#: src/js/phantasm-model.js:482
+msgctxt "text:posts.phantasm-ninth-period-rumour.title"
+msgid "Does anyone know the ninth-period room?"
+msgstr "有人知道第九節教室在哪裡嗎？"
+
+#. posts.phantasm-ninth-period-rumour.body
+#: src/js/phantasm-model.js:484
+msgctxt "text:posts.phantasm-ninth-period-rumour.body"
+msgid ""
+"It is not on the timetable, but descending the north stair adds a "
+"fourth-floor roll. If it is a typo, why is a different name absent each "
+"week?"
+msgstr "課表沒有，可是北樓梯往下走會多出四樓點名簿。若是錯字，為何每週缺席的是不同名字？"
+
+#. phantasmCommunityPosts.0.author
+#: src/js/phantasm-model.js:496
+msgctxt "text:phantasmCommunityPosts.0.author"
+msgid "Reverse-Side Exams Clerk (absent from front)"
+msgstr "試務桌反面職員（正面查無此人）"
+
+#. phantasmCommunityPosts.0.title
+#: src/js/phantasm-model.js:497
+msgctxt "text:phantasmCommunityPosts.0.title"
+msgid "Is there really a PHANTASM paper behind EXTRA?"
+msgstr "EXTRA 背面真的有 PHANTASM 試卷嗎？"
+
+#. phantasmCommunityPosts.0.body
+#: src/js/phantasm-model.js:499
+msgctxt "text:phantasmCommunityPosts.0.body"
+msgid ""
+"Hold an EXTRA submission seal to the light and it reads nine questions, 150 "
+"marks. Exams calls it an ink stain, although the stain warns in three "
+"languages not to enter the score officially."
+msgstr "把 EXTRA 交卷章對著光，背面會讀出九題、一百五十分。試務處說那只是墨漬，但墨漬用三種語言警告不得登錄正式成績。"
+
+#. phantasmCommunityPosts.0.body
+#: src/js/phantasm-model.js:500
+msgctxt "text:phantasmCommunityPosts.0.body.2"
+msgid ""
+"The first candidate to ask received an unsigned slip: 'Finish EXTRA first.' "
+"Asked again, the slip denied being the first answer."
+msgstr "第一位去問的考生收到無署名紙條：『先把 EXTRA 寫完。』再問一次，紙條否認自己是第一份回答。"
+
+#. phantasmCommunityPosts.0.author
+#: src/js/phantasm-model.js:512
+msgctxt "text:phantasmCommunityPosts.0.author.2"
+msgid "Bunbunmaru Ninth Edition (no first edition)"
+msgstr "文文。第九版（沒有第一版）"
+
+#. phantasmCommunityPosts.0.title
+#: src/js/phantasm-model.js:513
+msgctxt "text:phantasmCommunityPosts.0.title.2"
+msgid "Correction: dream transcripts do not exist, but can be printed"
+msgstr "訂正：夢學籍不存在，但可以列印"
+
+#. assignmentFragment.ordinary
+#: src/js/phantasm-model.js:203
+msgctxt "text:assignmentFragment.ordinary"
+msgid "The submitted answer remains {value0} in the ordinary record."
+msgstr "提交答案以{value0}留在正式回條。"
+
+#. posts.phantasm-ninth-period-rumour.body
+#: src/js/phantasm-model.js:485
+msgctxt "text:posts.phantasm-ninth-period-rumour.body.2"
+msgid "{value0} seals showed through the roll. Academic Affairs returned only its front side."
+msgstr "點名簿背面透出 {value0} 枚印章；拿去教務處後，只還回了正面。"
+
+#. phantasmCommunityPosts.0.body
+#: src/js/phantasm-model.js:514
+msgctxt "text:phantasmCommunityPosts.0.body.3"
+msgid ""
+"{value0} is absent from the official registry yet used one full sheet of "
+"paper. The university answered only that it “does not exist.”"
+msgstr "{value0} 不在正式學籍，卻用掉了一整張紙；校方僅回覆「不存在」。"

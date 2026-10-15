@@ -1,0 +1,674 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. localRecordGroups.identity.title
+#: src/data/local-records.js:19
+msgctxt "text:localRecordGroups.identity.title"
+msgid "Identity & student record"
+msgstr "身分與學籍"
+
+#. localRecordGroups.identity.note
+#: src/data/local-records.js:20
+msgctxt "text:localRecordGroups.identity.note"
+msgid "My TU identity, campus history, and application reviews."
+msgstr "My TU 身分、校園履歷與申請審查。"
+
+#. localRecordGroups.admissions.title
+#: src/data/local-records.js:25
+msgctxt "text:localRecordGroups.admissions.title"
+msgid "Admissions & examinations"
+msgstr "招生與試驗"
+
+#. localRecordGroups.admissions.note
+#: src/data/local-records.js:26
+msgctxt "text:localRecordGroups.admissions.note"
+msgid "Drafts and results for applications, visits, and both examination systems."
+msgstr "申請、進校預約與兩類試驗的草稿和結果。"
+
+#. localRecordGroups.academics.title
+#: src/data/local-records.js:31
+msgctxt "text:localRecordGroups.academics.title"
+msgid "Academic work & governance"
+msgstr "課業與校務"
+
+#. localRecordGroups.academics.note
+#: src/data/local-records.js:32
+msgctxt "text:localRecordGroups.academics.note"
+msgid "Registration, grades, coursework, defences, and governance votes."
+msgstr "選課、成績、作業、答辯與治理投票。"
+
+#. localRecordGroups.library.title
+#: src/data/local-records.js:37
+msgctxt "text:localRecordGroups.library.title"
+msgid "Library & appraisal"
+msgstr "圖書館與鑑定"
+
+#. localRecordGroups.library.note
+#: src/data/local-records.js:38
+msgctxt "text:localRecordGroups.library.note"
+msgid "Loans, holds, and Outside World drift-object appraisal files."
+msgstr "借閱、預約及外界漂流物鑑定檔案。"
+
+#. localRecordGroups.campus.title
+#: src/data/local-records.js:43
+msgctxt "text:localRecordGroups.campus.title"
+msgid "Campus life"
+msgstr "校園生活"
+
+#. localRecordGroups.campus.note
+#: src/data/local-records.js:44
+msgctxt "text:localRecordGroups.campus.note"
+msgid "On-device BBS, housing, healthcare, incident-centre, and festival-operations records."
+msgstr "BBS、住宿、醫療、事件中心與祭典營運的本機紀錄。"
+
+#. localRecordGroups.research.title
+#: src/data/local-records.js:49
+msgctxt "text:localRecordGroups.research.title"
+msgid "Research workshops"
+msgstr "研究工房"
+
+#. localRecordGroups.research.note
+#: src/data/local-records.js:50
+msgctxt "text:localRecordGroups.research.note"
+msgid "Spell-card designs, public defences, and research drafts."
+msgstr "符卡設計、公開答辯與研究草稿。"
+
+#. localRecordGroups.fieldwork.title
+#: src/data/local-records.js:55
+msgctxt "text:localRecordGroups.fieldwork.title"
+msgid "Fieldwork passport"
+msgstr "境內實習護照"
+
+#. localRecordGroups.fieldwork.note
+#: src/data/local-records.js:56
+msgctxt "text:localRecordGroups.fieldwork.note"
+msgid "Dispatch drafts, field responses, return reports, and seals from twenty-four stations."
+msgstr "派遣草稿、外勤處置、返校回報與二十四站印章。"
+
+#. localRecordGroups.commons.title
+#: src/data/local-records.js:61
+msgctxt "text:localRecordGroups.commons.title"
+msgid "Property, post & calendar"
+msgstr "物權、郵便與學年曆"
+
+#. localRecordGroups.commons.note
+#: src/data/local-records.js:62
+msgctxt "text:localRecordGroups.commons.note"
+msgid ""
+"Tsukumogami hearings, tengu-post state, dispatch files, and red-bookmarked "
+"calendar leaves."
+msgstr "付喪神聽證、鴉天狗通知狀態、寄件卷與紅書籤曆葉。"
+
+#. localRecordGroups.careers.title
+#: src/data/local-records.js:67
+msgctxt "text:localRecordGroups.careers.title"
+msgid "Graduation, careers & alumni"
+msgstr "卒業、進路與校友"
+
+#. localRecordGroups.careers.note
+#: src/data/local-records.js:68
+msgctxt "text:localRecordGroups.careers.note"
+msgid ""
+"Eight-desk audits, degrees, career matching, odd résumés, whereabouts "
+"statements, and Hyakki Yagyo alumni files."
+msgstr "八席判定、學位、進路媒合、怪歷書、離校去向口供與百鬼夜行校友籍。"
+
+#. localRecordGroups.preferences.title
+#: src/data/local-records.js:73
+msgctxt "text:localRecordGroups.preferences.title"
+msgid "Interface bookmarks"
+msgstr "介面書籤"
+
+#. localRecordGroups.preferences.note
+#: src/data/local-records.js:74
+msgctxt "text:localRecordGroups.preferences.note"
+msgid ""
+"Language, audience route, and last-opened positions; deleting these does not "
+"erase formal records."
+msgstr "語言、導覽入口與最後開啟位置；刪除後不會抹去正式紀錄。"
+
+#. localRecordGroups.system.title
+#: src/data/local-records.js:79
+msgctxt "text:localRecordGroups.system.title"
+msgid "Campus event ledger"
+msgstr "校務事件帳本"
+
+#. localRecordGroups.system.note
+#: src/data/local-records.js:80
+msgctxt "text:localRecordGroups.system.note"
+msgid "The deduplicated event index My TU uses to connect actions across offices."
+msgstr "My TU 用來串連各處室行動的去重事件索引。"
+
+#. localRecordGroups.dream.title
+#: src/data/local-records.js:85
+msgctxt "text:localRecordGroups.dream.title"
+msgid "Reverse-side files"
+msgstr "反面檔案"
+
+#. localRecordGroups.dream.note
+#: src/data/local-records.js:86
+msgctxt "text:localRecordGroups.dream.note"
+msgid ""
+"Shown only after being written and kept separate from formal records and the "
+"campus ledger."
+msgstr "只在曾被寫入時出現，與正式學籍及事件帳本分開保存。"
+
+#. localRecordGroups.unknown.title
+#: src/data/local-records.js:91
+msgctxt "text:localRecordGroups.unknown.title"
+msgid "Unregistered files"
+msgstr "未登錄卷宗"
+
+#. localRecordGroups.unknown.note
+#: src/data/local-records.js:92
+msgctxt "text:localRecordGroups.unknown.note"
+msgid "New data using the tu: prefix that has not yet entered the archive catalogue."
+msgstr "使用 tu: 前綴但尚未列入檔案目錄的新資料。"
+
+#. localRecordRegistry.0.tu-identity.2
+#: src/data/local-records.js:97
+msgctxt "text:localRecordRegistry.0.tu-identity.2"
+msgid "My TU on-device identity"
+msgstr "My TU 本機身分"
+
+#. localRecordRegistry.1.tu-application-reviews.2
+#: src/data/local-records.js:98
+msgctxt "text:localRecordRegistry.1.tu-application-reviews.2"
+msgid "Joint faculty reviews"
+msgstr "教授聯合審查"
+
+#. localRecordRegistry.2.tu-orientation-dossiers.2
+#: src/data/local-records.js:99
+msgctxt "text:localRecordRegistry.2.tu-orientation-dossiers.2"
+msgid "First Bell arrival files"
+msgstr "第一鐘新生到着卷"
+
+#. localRecordRegistry.3.tu-application-draft.2
+#: src/data/local-records.js:101
+msgctxt "text:localRecordRegistry.3.tu-application-draft.2"
+msgid "Application draft"
+msgstr "入學申請草稿"
+
+#. localRecordRegistry.4.tu-application-submissions.2
+#: src/data/local-records.js:102
+msgctxt "text:localRecordRegistry.4.tu-application-submissions.2"
+msgid "Submitted applications"
+msgstr "入學申請送件"
+
+#. localRecordRegistry.5.tu-visit-draft.2
+#: src/data/local-records.js:103
+msgctxt "text:localRecordRegistry.5.tu-visit-draft.2"
+msgid "Campus-visit draft"
+msgstr "進校預約草稿"
+
+#. localRecordRegistry.6.tu-visits.2
+#: src/data/local-records.js:104
+msgctxt "text:localRecordRegistry.6.tu-visits.2"
+msgid "Campus visits"
+msgstr "進校預約"
+
+#. localRecordRegistry.7.tu-exam-history.2
+#: src/data/local-records.js:105
+msgctxt "text:localRecordRegistry.7.tu-exam-history.2"
+msgid "Entrance-exam results"
+msgstr "入學試驗成績"
+
+#. localRecordRegistry.8.tu-gaokao-draft.2
+#: src/data/local-records.js:106
+msgctxt "text:localRecordRegistry.8.tu-gaokao-draft.2"
+msgid "Unified-exam draft"
+msgstr "統一試驗答題草稿"
+
+#. localRecordRegistry.9.tu-gaokao-attempts.2
+#: src/data/local-records.js:107
+msgctxt "text:localRecordRegistry.9.tu-gaokao-attempts.2"
+msgid "Unified-exam attempts"
+msgstr "統一試驗作答紀錄"
+
+#. localRecordRegistry.10.tu-courses-registration.2
+#: src/data/local-records.js:109
+msgctxt "text:localRecordRegistry.10.tu-courses-registration.2"
+msgid "Current registration"
+msgstr "本學期選課"
+
+#. localRecordRegistry.11.tu-courses-transcript.2
+#: src/data/local-records.js:110
+msgctxt "text:localRecordRegistry.11.tu-courses-transcript.2"
+msgid "Course transcript"
+msgstr "課程成績單"
+
+#. localRecordRegistry.12.tu-academics-drafts.2
+#: src/data/local-records.js:111
+msgctxt "text:localRecordRegistry.12.tu-academics-drafts.2"
+msgid "Coursework drafts"
+msgstr "課程作業草稿"
+
+#. localRecordRegistry.13.tu-academics-submissions.2
+#: src/data/local-records.js:112
+msgctxt "text:localRecordRegistry.13.tu-academics-submissions.2"
+msgid "Coursework submissions"
+msgstr "課程作業繳交"
+
+#. localRecordRegistry.14.tu-academics-exam-session.2
+#: src/data/local-records.js:113
+msgctxt "text:localRecordRegistry.14.tu-academics-exam-session.2"
+msgid "Active course examination"
+msgstr "進行中的課程考試"
+
+#. localRecordRegistry.15.tu-academics-exam-attempts.2
+#: src/data/local-records.js:114
+msgctxt "text:localRecordRegistry.15.tu-academics-exam-attempts.2"
+msgid "Course examination attempts"
+msgstr "課程考試紀錄"
+
+#. localRecordRegistry.16.tu-academics-projects.2
+#: src/data/local-records.js:115
+msgctxt "text:localRecordRegistry.16.tu-academics-projects.2"
+msgid "Thesis / spell-card projects"
+msgstr "論文／符卡專題"
+
+#. localRecordRegistry.17.tu-academics-defences.2
+#: src/data/local-records.js:116
+msgctxt "text:localRecordRegistry.17.tu-academics-defences.2"
+msgid "Academic defences"
+msgstr "課業公開答辯"
+
+#. localRecordRegistry.18.tu-governance-votes.2
+#: src/data/local-records.js:117
+msgctxt "text:localRecordRegistry.18.tu-governance-votes.2"
+msgid "Governance votes"
+msgstr "校務治理投票"
+
+#. localRecordRegistry.19.tu-library-loans.2
+#: src/data/local-records.js:119
+msgctxt "text:localRecordRegistry.19.tu-library-loans.2"
+msgid "Library loans"
+msgstr "圖書借閱"
+
+#. localRecordRegistry.20.tu-library-holds.2
+#: src/data/local-records.js:120
+msgctxt "text:localRecordRegistry.20.tu-library-holds.2"
+msgid "Library holds"
+msgstr "圖書預約"
+
+#. localRecordRegistry.21.tu-appraisal-drafts.2
+#: src/data/local-records.js:121
+msgctxt "text:localRecordRegistry.21.tu-appraisal-drafts.2"
+msgid "Appraisal drafts"
+msgstr "漂流物鑑定草稿"
+
+#. localRecordRegistry.22.tu-appraisal-records.2
+#: src/data/local-records.js:122
+msgctxt "text:localRecordRegistry.22.tu-appraisal-records.2"
+msgid "Appraisal records"
+msgstr "漂流物鑑定檔案"
+
+#. localRecordRegistry.23.tu-bbs-draft.2
+#: src/data/local-records.js:124
+msgctxt "text:localRecordRegistry.23.tu-bbs-draft.2"
+msgid "BBS post draft"
+msgstr "BBS 發帖草稿"
+
+#. localRecordRegistry.24.tu-bbs-posts.2
+#: src/data/local-records.js:125
+msgctxt "text:localRecordRegistry.24.tu-bbs-posts.2"
+msgid "My BBS posts"
+msgstr "我的 BBS 發帖"
+
+#. localRecordRegistry.25.tu-housing-draft.2
+#: src/data/local-records.js:126
+msgctxt "text:localRecordRegistry.25.tu-housing-draft.2"
+msgid "Housing draft"
+msgstr "宿舍申請草稿"
+
+#. localRecordRegistry.26.tu-housing-applications.2
+#: src/data/local-records.js:127
+msgctxt "text:localRecordRegistry.26.tu-housing-applications.2"
+msgid "Housing applications"
+msgstr "宿舍申請"
+
+#. localRecordRegistry.27.tu-housing-assignments.2
+#: src/data/local-records.js:128
+msgctxt "text:localRecordRegistry.27.tu-housing-assignments.2"
+msgid "Room and roommate assignments"
+msgstr "房間與室友分配"
+
+#. localRecordRegistry.28.tu-housing-room-changes.2
+#: src/data/local-records.js:129
+msgctxt "text:localRecordRegistry.28.tu-housing-room-changes.2"
+msgid "Room-change requests"
+msgstr "換房申請"
+
+#. localRecordRegistry.29.tu-clinic-triage-draft.2
+#: src/data/local-records.js:130
+msgctxt "text:localRecordRegistry.29.tu-clinic-triage-draft.2"
+msgid "Triage draft"
+msgstr "分診草稿"
+
+#. localRecordRegistry.30.tu-clinic-visits.2
+#: src/data/local-records.js:131
+msgctxt "text:localRecordRegistry.30.tu-clinic-visits.2"
+msgid "Clinic visits"
+msgstr "診療紀錄"
+
+#. localRecordRegistry.31.tu-clinic-prescriptions.2
+#: src/data/local-records.js:132
+msgctxt "text:localRecordRegistry.31.tu-clinic-prescriptions.2"
+msgid "Prescriptions and dispensing"
+msgstr "處方與領藥"
+
+#. localRecordRegistry.32.tu-clinic-care-plans.2
+#: src/data/local-records.js:133
+msgctxt "text:localRecordRegistry.32.tu-clinic-care-plans.2"
+msgid "Recovery plans"
+msgstr "康復療程"
+
+#. localRecordRegistry.33.tu-incidents-workbench.2
+#: src/data/local-records.js:134
+msgctxt "text:localRecordRegistry.33.tu-incidents-workbench.2"
+msgid "Incident workbench"
+msgstr "事件工作台"
+
+#. localRecordRegistry.34.tu-incidents-experiments.2
+#: src/data/local-records.js:135
+msgctxt "text:localRecordRegistry.34.tu-incidents-experiments.2"
+msgid "Research simulation slips"
+msgstr "研究模擬回條"
+
+#. localRecordRegistry.35.tu-incidents-resolutions.2
+#: src/data/local-records.js:136
+msgctxt "text:localRecordRegistry.35.tu-incidents-resolutions.2"
+msgid "Incident resolutions"
+msgstr "事件結案卷"
+
+#. localRecordRegistry.36.tu-festival-draft.2
+#: src/data/local-records.js:137
+msgctxt "text:localRecordRegistry.36.tu-festival-draft.2"
+msgid "Festival operations draft"
+msgstr "祭典營運草案"
+
+#. localRecordRegistry.37.tu-festival-plans.2
+#: src/data/local-records.js:138
+msgctxt "text:localRecordRegistry.37.tu-festival-plans.2"
+msgid "Six-desk festival permits"
+msgstr "六桌祭典許可"
+
+#. localRecordRegistry.38.tu-festival-operations.2
+#: src/data/local-records.js:139
+msgctxt "text:localRecordRegistry.38.tu-festival-operations.2"
+msgid "Festival duty and closure files"
+msgstr "值班與結祭卷"
+
+#. localRecordRegistry.39.tu-spellcards-draft.2
+#: src/data/local-records.js:141
+msgctxt "text:localRecordRegistry.39.tu-spellcards-draft.2"
+msgid "Spell-card design draft"
+msgstr "符卡設計草稿"
+
+#. localRecordRegistry.40.tu-spellcards-designs.2
+#: src/data/local-records.js:142
+msgctxt "text:localRecordRegistry.40.tu-spellcards-designs.2"
+msgid "Sealed spell-card designs"
+msgstr "封存符卡設計"
+
+#. localRecordRegistry.41.tu-spellcards-defences.2
+#: src/data/local-records.js:143
+msgctxt "text:localRecordRegistry.41.tu-spellcards-defences.2"
+msgid "Spell-card public defences"
+msgstr "符卡公開答辯"
+
+#. localRecordRegistry.42.tu-ethics-drafts.2
+#: src/data/local-records.js:144
+msgctxt "text:localRecordRegistry.42.tu-ethics-drafts.2"
+msgid "Research ethics drafts"
+msgstr "研究倫理送審草稿"
+
+#. localRecordRegistry.43.tu-ethics-protocols.2
+#: src/data/local-records.js:145
+msgctxt "text:localRecordRegistry.43.tu-ethics-protocols.2"
+msgid "Research ethics protocols & versions"
+msgstr "研究倫理計畫與版本"
+
+#. localRecordRegistry.44.tu-ethics-reviews.2
+#: src/data/local-records.js:146
+msgctxt "text:localRecordRegistry.44.tu-ethics-reviews.2"
+msgid "Five-seat ethics reviews"
+msgstr "五席倫理審查意見"
+
+#. localRecordRegistry.45.tu-fieldwork-draft.2
+#: src/data/local-records.js:148
+msgctxt "text:localRecordRegistry.45.tu-fieldwork-draft.2"
+msgid "Fieldwork dispatch draft"
+msgstr "境內實習派遣草稿"
+
+#. localRecordRegistry.46.tu-fieldwork-placements.2
+#: src/data/local-records.js:149
+msgctxt "text:localRecordRegistry.46.tu-fieldwork-placements.2"
+msgid "Dispatch, field duty & return files"
+msgstr "派遣、外勤與返校卷"
+
+#. localRecordRegistry.47.tu-fieldwork-passport.2
+#: src/data/local-records.js:150
+msgctxt "text:localRecordRegistry.47.tu-fieldwork-passport.2"
+msgid "Field inquiry passport & station seals"
+msgstr "田野調查護照與場地印"
+
+#. localRecordRegistry.48.tu-property-claims.2
+#: src/data/local-records.js:152
+msgctxt "text:localRecordRegistry.48.tu-property-claims.2"
+msgid "Tsukumogami property hearings & rulings"
+msgstr "付喪神物權聽證與裁定"
+
+#. localRecordRegistry.49.tu-post-state.2
+#: src/data/local-records.js:153
+msgctxt "text:localRecordRegistry.49.tu-post-state.2"
+msgid "Tengu-post read, pin & correction state"
+msgstr "鴉天狗通知已讀、釘選與訂正狀態"
+
+#. localRecordRegistry.50.tu-post-dispatches.2
+#: src/data/local-records.js:154
+msgctxt "text:localRecordRegistry.50.tu-post-dispatches.2"
+msgid "Campus-post dispatch files"
+msgstr "校園郵便寄件卷"
+
+#. localRecordRegistry.51.tu-calendar-bookmarks.2
+#: src/data/local-records.js:155
+msgctxt "text:localRecordRegistry.51.tu-calendar-bookmarks.2"
+msgid "Academic-calendar red bookmarks"
+msgstr "學年曆紅書籤"
+
+#. localRecordRegistry.52.tu-graduation-audits.2
+#: src/data/local-records.js:157
+msgctxt "text:localRecordRegistry.52.tu-graduation-audits.2"
+msgid "Eight-desk graduation audits"
+msgstr "八席卒業判定卷"
+
+#. localRecordRegistry.53.tu-graduation-degrees.2
+#: src/data/local-records.js:158
+msgctxt "text:localRecordRegistry.53.tu-graduation-degrees.2"
+msgid "Unsealed degree records"
+msgstr "開封學位證書"
+
+#. localRecordRegistry.54.tu-careers-draft.2
+#: src/data/local-records.js:159
+msgctxt "text:localRecordRegistry.54.tu-careers-draft.2"
+msgid "Career preference draft"
+msgstr "進路志望草稿"
+
+#. localRecordRegistry.55.tu-careers-plans.2
+#: src/data/local-records.js:160
+msgctxt "text:localRecordRegistry.55.tu-careers-plans.2"
+msgid "Career matching & referral files"
+msgstr "進路媒合與推薦卷"
+
+#. localRecordRegistry.56.tu-employment-draft.2
+#: src/data/local-records.js:161
+msgctxt "text:localRecordRegistry.56.tu-employment-draft.2"
+msgid "Gensokyo odd-résumé draft"
+msgstr "幻想鄉怪歷書草稿"
+
+#. localRecordRegistry.57.tu-employment-applications.2
+#: src/data/local-records.js:162
+msgctxt "text:localRecordRegistry.57.tu-employment-applications.2"
+msgid "Recruitment applications, reviews & replies"
+msgstr "招聘投遞、初審與本人回覆"
+
+#. localRecordRegistry.58.tu-employment-attestations.2
+#: src/data/local-records.js:163
+msgctxt "text:localRecordRegistry.58.tu-employment-attestations.2"
+msgid "On-device graduate whereabouts statements"
+msgstr "離校去向本機口供"
+
+#. localRecordRegistry.59.tu-alumni-profile.2
+#: src/data/local-records.js:164
+msgctxt "text:localRecordRegistry.59.tu-alumni-profile.2"
+msgid "Hyakki Yagyo alumni file"
+msgstr "百鬼夜行校友籍"
+
+#. localRecordRegistry.60.tu-locale.2
+#: src/data/local-records.js:166
+msgctxt "text:localRecordRegistry.60.tu-locale.2"
+msgid "Site language"
+msgstr "網站語言"
+
+#. localRecordRegistry.61.tu-audience.2
+#: src/data/local-records.js:167
+msgctxt "text:localRecordRegistry.61.tu-audience.2"
+msgid "Audience path"
+msgstr "訪客導覽入口"
+
+#. localRecordRegistry.62.tu-mytu-selected-application.2
+#: src/data/local-records.js:168
+msgctxt "text:localRecordRegistry.62.tu-mytu-selected-application.2"
+msgid "Last My TU application"
+msgstr "My TU 最後檢視申請"
+
+#. localRecordRegistry.63.tu-academics-selected-assignment.2
+#: src/data/local-records.js:169
+msgctxt "text:localRecordRegistry.63.tu-academics-selected-assignment.2"
+msgid "Last-opened assignment"
+msgstr "最後開啟作業"
+
+#. localRecordRegistry.64.tu-academics-selected-project.2
+#: src/data/local-records.js:170
+msgctxt "text:localRecordRegistry.64.tu-academics-selected-project.2"
+msgid "Last-opened project"
+msgstr "最後開啟專題"
+
+#. localRecordRegistry.65.tu-governance-selected.2
+#: src/data/local-records.js:171
+msgctxt "text:localRecordRegistry.65.tu-governance-selected.2"
+msgid "Last-opened proposal"
+msgstr "最後開啟議案"
+
+#. localRecordRegistry.66.tu-incidents-last-case.2
+#: src/data/local-records.js:172
+msgctxt "text:localRecordRegistry.66.tu-incidents-last-case.2"
+msgid "Last-opened incident"
+msgstr "最後開啟事件"
+
+#. localRecordRegistry.67.tu-campus-ledger.2
+#: src/data/local-records.js:174
+msgctxt "text:localRecordRegistry.67.tu-campus-ledger.2"
+msgid "Campus event ledger"
+msgstr "校務事件帳本"
+
+#. localRecordRegistry.68.tu-phantasm-state.2
+#: src/data/local-records.js:176
+msgctxt "text:localRecordRegistry.68.tu-phantasm-state.2"
+msgid "Ninth-period course state"
+msgstr "第九節課程狀態"
+
+#. localRecordRegistry.69.tu-phantasm-transcripts.2
+#: src/data/local-records.js:177
+msgctxt "text:localRecordRegistry.69.tu-phantasm-transcripts.2"
+msgid "Reverse-side transcripts"
+msgstr "反面成績紙"
+
+#. localRecordRegistry.70.tu-phantasm-exam-draft.2
+#: src/data/local-records.js:178
+msgctxt "text:localRecordRegistry.70.tu-phantasm-exam-draft.2"
+msgid "PHANTASM reverse-paper draft"
+msgstr "PHANTASM 反面試卷草稿"
+
+#. localRecordRegistry.71.tu-phantasm-exam-attempts.2
+#: src/data/local-records.js:179
+msgctxt "text:localRecordRegistry.71.tu-phantasm-exam-attempts.2"
+msgid "PHANTASM reverse-exam results"
+msgstr "PHANTASM 反面試驗成績"
+
+#. localRecordRegistry.72.tu-phantasm-boundary.2
+#: src/data/local-records.js:180
+msgctxt "text:localRecordRegistry.72.tu-phantasm-boundary.2"
+msgid "Boundary-door traces"
+msgstr "邊界探門痕跡"
+
+#. localRecordRegistry.73.tu-phantasm-pass.2
+#: src/data/local-records.js:184
+msgctxt "text:localRecordRegistry.73.tu-phantasm-pass.2"
+msgid "Short-lived paper-seam pass"
+msgstr "短時紙縫通行條"
+
+#. localRecordKinds.record
+#: src/data/local-records.js:190
+msgctxt "text:localRecordKinds.record"
+msgid "Record"
+msgstr "正式卷宗"
+
+#. localRecordKinds.draft
+#: src/data/local-records.js:191
+msgctxt "text:localRecordKinds.draft"
+msgid "Draft"
+msgstr "未完成草稿"
+
+#. localRecordKinds.preference
+#: src/data/local-records.js:192
+msgctxt "text:localRecordKinds.preference"
+msgid "Interface bookmark"
+msgstr "介面書籤"
+
+#. localRecordKinds.ledger
+#: src/data/local-records.js:193
+msgctxt "text:localRecordKinds.ledger"
+msgid "Derived index"
+msgstr "衍生索引"
+
+#. localRecordKinds.session
+#: src/data/local-records.js:194
+msgctxt "text:localRecordKinds.session"
+msgid "This tab only"
+msgstr "本次分頁"
+
+#. localRecordScopes.device
+#: src/data/local-records.js:198
+msgctxt "text:localRecordScopes.device"
+msgid "Visible only to this browser profile and site origin; retained after the tab closes."
+msgstr "只對目前瀏覽器設定檔、這個網站來源可見；關閉分頁後仍保留。"
+
+#. localRecordScopes.interface
+#: src/data/local-records.js:199
+msgctxt "text:localRecordScopes.interface"
+msgid "Stores interface preferences and last positions only, not primary campus records."
+msgstr "只保存介面偏好與最後位置，不含主要校務內容。"
+
+#. localRecordScopes.dream
+#: src/data/local-records.js:200
+msgctxt "text:localRecordScopes.dream"
+msgid ""
+"Visible only in this browser's reverse-side files and never enters formal "
+"records or the campus ledger."
+msgstr "只在目前瀏覽器的反面檔案中可見，不會進入正式學籍或校務事件帳本。"
+
+#. localRecordScopes.session
+#: src/data/local-records.js:201
+msgctxt "text:localRecordScopes.session"
+msgid ""
+"Valid only for this tab session; expires when the tab closes or after waking "
+"and is never exported."
+msgstr "只在目前分頁工作階段有效；關閉分頁或明確醒來後失效，也不會匯出。"

@@ -1,0 +1,338 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Global message key: navAbout
+#: src/sections/chrome.html:27 src/sections/footer.html:22
+msgctxt "text:navAbout"
+msgid "About"
+msgstr "About"
+
+#. Global message key: navAcademics
+#: src/sections/chrome.html:28 src/sections/footer.html:23
+msgctxt "text:navAcademics"
+msgid "Academics"
+msgstr "Academics"
+
+#. Global message key: navFaculty
+#: src/data/i18n.js:1
+msgctxt "text:navFaculty"
+msgid "Faculty"
+msgstr "Faculty"
+
+#. Global message key: navFacultyLong
+#: site.config.mjs:29 src/sections/chrome.html:93 src/sections/footer.html:24
+msgctxt "text:navFacultyLong"
+msgid "Faculty"
+msgstr "Faculty"
+
+#. Global message key: navAdmissions
+#: src/data/i18n.js:1
+msgctxt "text:navAdmissions"
+msgid "Admissions"
+msgstr "Admissions"
+
+#. Global message key: navAdmissionsLong
+#: src/sections/chrome.html:105 src/sections/footer.html:28
+msgctxt "text:navAdmissionsLong"
+msgid "Admissions"
+msgstr "Admissions"
+
+#. Global message key: navUniversityGroup
+#: src/sections/chrome.html:24
+msgctxt "text:navUniversityGroup"
+msgid "University & Academics"
+msgstr "University & Academics"
+
+#. Global message key: navServicesGroup
+#: src/sections/chrome.html:38
+msgctxt "text:navServicesGroup"
+msgid "Admissions & Student Services"
+msgstr "Admissions & Student Services"
+
+#. Global message key: navAboutDetail
+#: src/sections/chrome.html:27
+msgctxt "text:navAboutDetail"
+msgid "Motto, traditions & chronicle"
+msgstr "Motto, traditions & chronicle"
+
+#. Global message key: navAcademicsDetail
+#: src/sections/chrome.html:28
+msgctxt "text:navAcademicsDetail"
+msgid "Schools, courses & faculty"
+msgstr "Schools, courses & faculty"
+
+#. Global message key: navResearchDetail
+#: src/sections/chrome.html:29
+msgctxt "text:navResearchDetail"
+msgid "Methods, failures & corrections"
+msgstr "Methods, failures & corrections"
+
+#. Global message key: navEthics
+#: site.config.mjs:79 src/sections/chrome.html:30 src/sections/footer.html:34
+msgctxt "text:navEthics"
+msgid "Research Ethics Review"
+msgstr "Research Ethics Review"
+
+#. Global message key: navEthicsDetail
+#: src/sections/chrome.html:30
+msgctxt "text:navEthicsDetail"
+msgid "Consent, risk & five-seat dissent"
+msgstr "Consent, risk & five-seat dissent"
+
+#. Global message key: navHieda
+#: site.config.mjs:305 src/sections/chrome.html:31 src/sections/footer.html:35
+msgctxt "text:navHieda"
+msgid "Hieda Index"
+msgstr "Hieda Index"
+
+#. Global message key: navHiedaDetail
+#: src/sections/chrome.html:31
+msgctxt "text:navHiedaDetail"
+msgid "Red threads across events, people & versions"
+msgstr "Red threads across events, people & versions"
+
+#. Global message key: navCalendar
+#: site.config.mjs:166 src/sections/chrome.html:32
+msgctxt "text:navCalendar"
+msgid "Gensokyo Academic Calendar"
+msgstr "Gensokyo Academic Calendar"
+
+#. Global message key: navCalendarDetail
+#: src/sections/chrome.html:32
+msgctxt "text:navCalendarDetail"
+msgid "Seasons, moon phases & live campus"
+msgstr "Seasons, moon phases & live campus"
+
+#. Global message key: navCampusLife
+#: src/sections/chrome.html:33
+msgctxt "text:navCampusLife"
+msgid "Campus Life"
+msgstr "Campus Life"
+
+#. Global message key: navCampusDetail
+#: src/sections/chrome.html:33
+msgctxt "text:navCampusDetail"
+msgid "Map, clubs & BBS"
+msgstr "Map, clubs & BBS"
+
+#. Global message key: navFestival
+#: src/sections/chrome.html:34
+msgctxt "text:navFestival"
+msgid "Festival Operations"
+msgstr "Festival Operations"
+
+#. Global message key: navFestivalDetail
+#: src/sections/chrome.html:34
+msgctxt "text:navFestivalDetail"
+msgid "Six-desk permits, opening & closure"
+msgstr "Six-desk permits, opening & closure"
+
+#. Global message key: navAdmissionsExams
+#: src/sections/chrome.html:41
+msgctxt "text:navAdmissionsExams"
+msgid "Admissions & Examinations"
+msgstr "Admissions & Examinations"
+
+#. Global message key: navAdmissionsDetail
+#: src/sections/chrome.html:41
+msgctxt "text:navAdmissionsDetail"
+msgid "Applications, exams & unified test"
+msgstr "Applications, exams & unified test"
+
+#. Global message key: navOrientation
+#: src/sections/chrome.html:42 src/sections/hero.html:38
+msgctxt "text:navOrientation"
+msgid "First Bell Arrival"
+msgstr "First Bell Arrival"
+
+#. Global message key: navOrientationDetail
+#: src/sections/chrome.html:42
+msgctxt "text:navOrientationDetail"
+msgid "Route, way back & first destination"
+msgstr "Route, way back & first destination"
+
+#. Global message key: navMyTuDetail
+#: src/sections/chrome.html:43
+msgctxt "text:navMyTuDetail"
+msgid "Records, courses & grades"
+msgstr "Records, courses & grades"
+
+#. Global message key: navFieldwork
+#: src/sections/chrome.html:45
+msgctxt "text:navFieldwork"
+msgid "Fieldwork Passport"
+msgstr "Fieldwork Passport"
+
+#. Global message key: navFieldworkDetail
+#: src/sections/chrome.html:45
+msgctxt "text:navFieldworkDetail"
+msgid "Twenty-four stations, dispatch & return seals"
+msgstr "Twenty-four stations, dispatch & return seals"
+
+#. Global message key: navCommons
+#: src/sections/chrome.html:46
+msgctxt "text:navCommons"
+msgid "Campus Commons"
+msgstr "Campus Commons"
+
+#. Global message key: navCommonsDetail
+#: src/sections/chrome.html:46
+msgctxt "text:navCommonsDetail"
+msgid "Property, lost items & tengu post"
+msgstr "Property, lost items & tengu post"
+
+#. Global message key: navLocalRecords
+#: site.config.mjs:287 src/sections/chrome.html:47 src/sections/footer.html:29 src/sections/services.html:25
+msgctxt "text:navLocalRecords"
+msgid "On-device Records"
+msgstr "On-device Records"
+
+#. Global message key: navLocalRecordsDetail
+#: src/sections/chrome.html:47
+msgctxt "text:navLocalRecordsDetail"
+msgid "Export, import & file management"
+msgstr "Export, import & file management"
+
+#. Global message key: navLibraryDetail
+#: src/sections/chrome.html:48
+msgctxt "text:navLibraryDetail"
+msgid "Borrow, renew & hold"
+msgstr "Borrow, renew & hold"
+
+#. Global message key: navClinicDetail
+#: src/sections/chrome.html:49
+msgctxt "text:navClinicDetail"
+msgid "Triage, prescriptions & recovery"
+msgstr "Triage, prescriptions & recovery"
+
+#. Global message key: navHousing
+#: src/sections/chrome.html:50
+msgctxt "text:navHousing"
+msgid "Housing & Roommates"
+msgstr "Housing & Roommates"
+
+#. Global message key: navHousingDetail
+#: src/sections/chrome.html:50
+msgctxt "text:navHousingDetail"
+msgid "Rooms, matching & transfers"
+msgstr "Rooms, matching & transfers"
+
+#. Global message key: navIncidents
+#: src/data/i18n.js:1
+msgctxt "text:navIncidents"
+msgid "Incident Centre"
+msgstr "Incident Centre"
+
+#. Global message key: navIncidentsDetail
+#: src/sections/chrome.html:51
+msgctxt "text:navIncidentsDetail"
+msgid "Cases, simulation & closure"
+msgstr "Cases, simulation & closure"
+
+#. Global message key: navClinic
+#: src/data/i18n.js:1
+msgctxt "text:navClinic"
+msgid "Medical Center"
+msgstr "Medical Center"
+
+#. Global message key: navResearch
+#: src/data/i18n.js:1
+msgctxt "text:navResearch"
+msgid "Research"
+msgstr "Research"
+
+#. Global message key: navResearchLong
+#: site.config.mjs:79 src/sections/chrome.html:29 src/sections/footer.html:33
+msgctxt "text:navResearchLong"
+msgid "Research"
+msgstr "Research"
+
+#. Global message key: navIncidentsShort
+#: src/data/i18n.js:1
+msgctxt "text:navIncidentsShort"
+msgid "Incidents"
+msgstr "Incidents"
+
+#. Global message key: navIncidentCenter
+#: src/sections/chrome.html:51
+msgctxt "text:navIncidentCenter"
+msgid "Incident Center"
+msgstr "Incident Center"
+
+#. Global message key: navCampus
+#: site.config.mjs:205 src/sections/footer.html:37
+msgctxt "text:navCampus"
+msgid "Campus Life"
+msgstr "Campus Life"
+
+#. Global message key: backToGate
+#: src/sections/closing.html:8
+msgctxt "text:backToGate"
+msgid "Back to the gate"
+msgstr "Back to the gate"
+
+#. Global message key: languageZhShort
+#: src/sections/chrome.html:62
+msgctxt "text:languageZhShort"
+msgid "ZH"
+msgstr "ZH"
+
+#. Global message key: languageZh
+#: src/sections/chrome.html:121
+msgctxt "text:languageZh"
+msgid "Chinese"
+msgstr "Chinese"
+
+#. Global message key: languageJaShort
+#: src/sections/chrome.html:63
+msgctxt "text:languageJaShort"
+msgid "JA"
+msgstr "JA"
+
+#. Global message key: languageJa
+#: src/sections/chrome.html:122
+msgctxt "text:languageJa"
+msgid "Japanese"
+msgstr "Japanese"
+
+#. Global message key: backToMyTu
+#: src/sections/dialogs.html:137
+msgctxt "text:backToMyTu"
+msgid "Back to My TU"
+msgstr "Back to My TU"
+
+#. Global message key: backToCourseRegistration
+#: src/sections/dialogs.html:146
+msgctxt "text:backToCourseRegistration"
+msgid "Back to course registration"
+msgstr "Back to course registration"
+
+#. Global message key: backToAcademicTranscript
+#: src/sections/dialogs.html:155
+msgctxt "text:backToAcademicTranscript"
+msgid "Back to transcript"
+msgstr "Back to transcript"
+
+#. Global message key: navCareers
+#: src/sections/chrome.html:44
+msgctxt "text:navCareers"
+msgid "Graduation & Careers"
+msgstr "Graduation & Careers"
+
+#. Global message key: navCareersDetail
+#: src/sections/chrome.html:44
+msgctxt "text:navCareersDetail"
+msgid "Audits, matching & Hyakki Yagyo Alumni"
+msgstr "Audits, matching & Hyakki Yagyo Alumni"
+
+#. Global message key: backToLibrary
+#: src/sections/dialogs.html:164
+msgctxt "text:backToLibrary"
+msgid "Back to library"
+msgstr "Back to library"

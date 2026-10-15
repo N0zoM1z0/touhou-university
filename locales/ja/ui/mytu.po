@@ -1,0 +1,747 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/eyebrow"
+msgid "MY TU / STUDENT RECORDS"
+msgstr "MY TU / 幻想郷学籍センター"
+
+#. copy/title
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/title"
+msgid "Keep one continuous campus life on this device."
+msgstr "この端末に、一つのキャンパス人生を残す。"
+
+#. copy/lead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/lead"
+msgid ""
+"Applications, exams, visits, and posts become one on-device student record. "
+"Nothing leaves this browser."
+msgstr "出願、試験、来校予約、投稿を一つの端末内学籍へ。データはこのブラウザから出ません。"
+
+#. copy/createTitle
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/createTitle"
+msgid "Create your on-device campus identity"
+msgstr "端末内キャンパス身分を作成"
+
+#. copy/createLead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/createLead"
+msgid ""
+"Existing applications and scores stay unchanged; they will be compiled into "
+"the same campus history."
+msgstr "既存の出願や成績は変更せず、同じキャンパス履歴へ編入します。"
+
+#. copy/found
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/found"
+msgid "On-device records ready to compile"
+msgstr "履歴へ編入できる端末内記録"
+
+#. copy/name
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/name"
+msgid "Name or known name"
+msgstr "氏名・通称"
+
+#. copy/kind
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/kind"
+msgid "Species / identity"
+msgstr "種族／身分"
+
+#. copy/origin
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/origin"
+msgid "Origin"
+msgstr "出身"
+
+#. copy/school
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/school"
+msgid "Preferred school"
+msgstr "志望学部"
+
+#. copy/lunar
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/lunar"
+msgid "I need low-stimulus, rerouting, or other full-moon arrangements"
+msgstr "満月時に低刺激・迂回その他の配慮が必要"
+
+#. copy/housing
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/housing"
+msgid "Housing, wingspan, familiar, aquatic, or phasing needs"
+msgstr "住居、翼幅、使い魔、水域、壁抜け等の希望"
+
+#. copy/housingPlaceholder
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/housingPlaceholder"
+msgid "Optional; you can change this later."
+msgstr "空欄可。後から変更できます。"
+
+#. copy/create
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/create"
+msgid "Create My TU identity"
+msgstr "My TU 身分を作成"
+
+#. copy/save
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/save"
+msgid "Save identity"
+msgstr "身分情報を保存"
+
+#. copy/edit
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/edit"
+msgid "Edit on-device identity"
+msgstr "端末内身分を編集"
+
+#. copy/cancel
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/cancel"
+msgid "Cancel"
+msgstr "取消"
+
+#. copy/privacy
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/privacy"
+msgid "Stored only on this device. Names, contacts, and application content are not uploaded."
+msgstr "この端末だけに保存し、氏名・連絡先・出願内容を送信しません。"
+
+#. copy/identitySaved
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/identitySaved"
+msgid "My TU identity saved on this device."
+msgstr "My TU 身分をこの端末へ保存しました。"
+
+#. copy/localId
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/localId"
+msgid "On-device student number"
+msgstr "端末内学籍番号"
+
+#. copy/stage
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stage"
+msgid "Current stage"
+msgstr "現在段階"
+
+#. copy/preferredSchool
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/preferredSchool"
+msgid "Preference"
+msgstr "志望"
+
+#. copy/recordSummary
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/recordSummary"
+msgid "Campus record summary"
+msgstr "キャンパス履歴概要"
+
+#. copy/applications
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/applications"
+msgid "Applications"
+msgstr "入学出願"
+
+#. copy/arrivals
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/arrivals"
+msgid "First Bell arrival files"
+msgstr "第一鐘到着票"
+
+#. copy/exams
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/exams"
+msgid "Completed exams"
+msgstr "完了試験"
+
+#. copy/visits
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/visits"
+msgid "Campus visits"
+msgstr "来校予約"
+
+#. copy/posts
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/posts"
+msgid "BBS posts"
+msgstr "BBS 投稿"
+
+#. copy/courses
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/courses"
+msgid "Current courses"
+msgstr "今学期の履修"
+
+#. copy/library
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/library"
+msgid "Loans / holds"
+msgstr "貸出／予約"
+
+#. copy/residential
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/residential"
+msgid "Housing / transfers"
+msgstr "学生寮／転室"
+
+#. copy/incidents
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/incidents"
+msgid "Incident studies / closures"
+msgstr "事案研究／終結"
+
+#. copy/academicRecords
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/academicRecords"
+msgid "Coursework / defences"
+msgstr "課業評価／答弁"
+
+#. copy/medical
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/medical"
+msgid "Care / prescriptions / recovery"
+msgstr "診療／処方／回復"
+
+#. copy/appraisals
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/appraisals"
+msgid "Drift-object appraisals"
+msgstr "漂流物鑑定"
+
+#. copy/spellcards
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/spellcards"
+msgid "Spell-card designs / defences"
+msgstr "スペルカード設計／答弁"
+
+#. copy/ethics
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/ethics"
+msgid "Research ethics / five-seat review"
+msgstr "研究倫理／五席審査"
+
+#. copy/festivals
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/festivals"
+msgid "Festival permits / duty record"
+msgstr "祭典許可／当番履歴"
+
+#. copy/fieldwork
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/fieldwork"
+msgid "Fieldwork passport / seals"
+msgstr "フィールド旅券／現地印"
+
+#. copy/commons
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/commons"
+msgid "Property hearings / campus post"
+msgstr "物権聴聞／学内郵便"
+
+#. copy/calendar
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/calendar"
+msgid "Academic-calendar bookmarks"
+msgstr "学年暦の赤い栞"
+
+#. copy/careers
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/careers"
+msgid "Graduation / careers / alumni"
+msgstr "卒業／進路／同窓"
+
+#. copy/recordsMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/recordsMode"
+msgid "Student record"
+msgstr "学籍ホーム"
+
+#. copy/courseMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/courseMode"
+msgid "Courses & grades"
+msgstr "履修・成績"
+
+#. copy/academicMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/academicMode"
+msgid "Work, exams & defences"
+msgstr "課題・試験・答弁"
+
+#. copy/cabinetMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/cabinetMode"
+msgid "On-device records"
+msgstr "端末内資料棚"
+
+#. copy/cabinetSummary
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/cabinetSummary"
+msgid "All on-device files"
+msgstr "端末内の全ファイル"
+
+#. copy/drafts
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/drafts"
+msgid "Unfinished"
+msgstr "未完了"
+
+#. copy/applicationReview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/applicationReview"
+msgid "Joint faculty review"
+msgstr "教員合同審査"
+
+#. copy/reviewLead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewLead"
+msgid ""
+"The panel reads the selected question, method, needs, and best on-device "
+"exam result, then saves a reopenable internal review."
+msgstr "選択した出願の問い・方法・希望と端末内最高試験成績を読み、再閲覧可能な学内評議を作成します。"
+
+#. copy/reviewQuestion
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewQuestion"
+msgid "Reading of the question"
+msgstr "研究課題の読解"
+
+#. copy/reviewMethod
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewMethod"
+msgid "Reading of method and evidence"
+msgstr "方法・証拠の読解"
+
+#. copy/reviewNeeds
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewNeeds"
+msgid "Reading of field conditions"
+msgstr "現場条件の読解"
+
+#. copy/noDeclaredNeeds
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noDeclaredNeeds"
+msgid "No field needs were declared; the panel may still attach its own."
+msgstr "現場希望の記載なし。委員による追記はあり得ます。"
+
+#. copy/noApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noApplication"
+msgid ""
+"No application has been submitted. Complete one first, so the faculty have "
+"something to disagree about."
+msgstr "提出済み出願がありません。まず一件提出し、教員が議論できる材料を用意してください。"
+
+#. copy/openApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/openApplication"
+msgid "Start online application"
+msgstr "オンライン出願へ"
+
+#. copy/chooseApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/chooseApplication"
+msgid "Choose dossier"
+msgstr "審査ファイルを選択"
+
+#. copy/submitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/submitted"
+msgid "Submitted"
+msgstr "提出"
+
+#. copy/runReview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/runReview"
+msgid "Convene joint faculty review"
+msgstr "教員合同審査を招集"
+
+#. copy/reviewed
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewed"
+msgid "Review complete"
+msgstr "評議完了"
+
+#. copy/dossierScore
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/dossierScore"
+msgid "Dossier reading"
+msgstr "書類総合判定"
+
+#. copy/examEvidence
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/examEvidence"
+msgid "On-device exam evidence"
+msgstr "端末内試験資料"
+
+#. copy/noExam
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noExam"
+msgid "No exam score yet"
+msgstr "試験成績なし"
+
+#. copy/stanceApprove
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stanceApprove"
+msgid "Recommend admission"
+msgstr "通過を推奨"
+
+#. copy/stanceCondition
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stanceCondition"
+msgid "Conditions attached"
+msgstr "条件付き"
+
+#. copy/stanceRevise
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stanceRevise"
+msgid "Revision required"
+msgstr "補正要求"
+
+#. copy/printDecision
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/printDecision"
+msgid "Open printable decision letter"
+msgstr "印刷用学務通知を開く"
+
+#. copy/timeline
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/timeline"
+msgid "Campus event ledger"
+msgstr "キャンパス事件台帳"
+
+#. copy/timelineLead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/timelineLead"
+msgid ""
+"Records events, submissions, corrections, and removals. Deleting a source "
+"card does not pretend the event never happened."
+msgstr "発生、提出、訂正、削除を記録。元カードを消しても出来事を無かったことにはしません。"
+
+#. copy/noEvents
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noEvents"
+msgid "The event ledger is empty."
+msgstr "事件台帳に記録はありません。"
+
+#. copy/contestedClosure
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/contestedClosure"
+msgid "Red-thread contested file"
+msgstr "赤糸係争記録"
+
+#. copy/next
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/next"
+msgid "Next step"
+msgstr "次の手続"
+
+#. copy/nextApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextApplication"
+msgid "Submit an application to move this identity into applicant status."
+msgstr "入学出願を提出し、この身分を志願者段階へ進めます。"
+
+#. copy/nextReview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextReview"
+msgid "Send the application to joint review. Agreement among faculty is not guaranteed."
+msgstr "出願を合同審査へ。教員同士の合意は保証されません。"
+
+#. copy/nextExam
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextExam"
+msgid "Continue exams or satisfy review conditions to advance the decision."
+msgstr "試験または審査条件の補足を続け、合格状態を進めます。"
+
+#. copy/nextOrientation
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextOrientation"
+msgid ""
+"The formal admission edition now stands. Confirm the route and way back at "
+"the arrival office, then ring for the first real thing you will do on "
+"campus."
+msgstr "正式合格版が成立しました。到着室で経路と退路を確認し、入学後最初の用事のために鐘を鳴らします。"
+
+#. copy/goExam
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/goExam"
+msgid "Go to entrance exam"
+msgstr "入学試験へ"
+
+#. copy/goGaokao
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/goGaokao"
+msgid "Go to Gensokyo exam"
+msgstr "幻想郷統一試験へ"
+
+#. copy/goOrientation
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/goOrientation"
+msgid "Go to First Bell arrival week"
+msgstr "第一鐘・新入生到着週へ"
+
+#. copy/outcome/admitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/admitted"
+msgid "Admitted"
+msgstr "正式合格"
+
+#. copy/outcome/conditional
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/conditional"
+msgid "Conditional Admission"
+msgstr "条件付合格"
+
+#. copy/outcome/supplement
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/supplement"
+msgid "Research Plan Required"
+msgstr "研究計画補充"
+
+#. copy/outcome/interview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/interview"
+msgid "Proceed to Interview"
+msgstr "面接へ"
+
+#. copy/outcomeBody/admitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/admitted"
+msgid ""
+"The panel approves direct progression to new-student registration; each "
+"laboratory's field conditions still apply."
+msgstr "評議は新入生手続への直接進行を承認。各研究室の現場条件は引き続き適用されます。"
+
+#. copy/outcomeBody/conditional
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/conditional"
+msgid ""
+"A place is reserved. Complete the specified method revision and safety "
+"conditions to convert it to full admission."
+msgstr "入学枠を保留。指定の方法補充と安全条件を満たした後、正式合格へ移行します。"
+
+#. copy/outcomeBody/supplement
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/supplement"
+msgid ""
+"The question is worth keeping, but the method cannot yet identify the claim. "
+"The same panel will review a supplement."
+msgstr "問いは保存に値するが、方法が主張を識別できていません。補充後に同委員会が再審査します。"
+
+#. copy/outcomeBody/interview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/interview"
+msgid ""
+"The written dossier cannot resolve the central disagreement. Explain "
+"trade-offs and stop conditions in a spell-card interview."
+msgstr "書面では主要な不一致を解消できません。スペルカード式面接で選択と停止条件を説明してください。"
+
+#. copy/stages/profile
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/profile"
+msgid "Campus identity created"
+msgstr "キャンパス身分作成済"
+
+#. copy/stages/applicant
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/applicant"
+msgid "Applicant"
+msgstr "志願者"
+
+#. copy/stages/conditional
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/conditional"
+msgid "Conditional Admit"
+msgstr "条件付合格"
+
+#. copy/stages/admitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/admitted"
+msgid "New Student"
+msgstr "新入生"
+
+#. copy/stages/supplement
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/supplement"
+msgid "Supplement Pending"
+msgstr "補充待ち志願者"
+
+#. copy/stages/interview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/interview"
+msgid "Interview Candidate"
+msgstr "面接候補者"
+
+#. copy/document/university
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/university"
+msgid "TOUHOU UNIVERSITY OF GENSOKYO"
+msgstr "幻想郷立東方大学"
+
+#. copy/document/office
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/office"
+msgid "Joint Admissions Review Council"
+msgstr "入学選抜合同評議会"
+
+#. copy/document/admission
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/admission"
+msgid "LETTER OF ADMISSION"
+msgstr "合格通知書"
+
+#. copy/document/decision
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/decision"
+msgid "SELECTION DECISION"
+msgstr "選抜結果通知書"
+
+#. copy/document/certifies
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/certifies"
+msgid "Notice of the Autumn 2026 selection result for"
+msgstr "下記志願者の2026年秋季選抜結果を通知します"
+
+#. copy/document/applicant
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/applicant"
+msgid "Applicant"
+msgstr "志願者"
+
+#. copy/document/application
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/application"
+msgid "Application reference"
+msgstr "出願番号"
+
+#. copy/document/review
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/review"
+msgid "Review reference"
+msgstr "評議番号"
+
+#. copy/document/school
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/school"
+msgid "Admitting / reviewing school"
+msgstr "合格／審査学部"
+
+#. copy/document/result
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/result"
+msgid "Decision"
+msgstr "評議結果"
+
+#. copy/document/conditions
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/conditions"
+msgid "Next conditions"
+msgstr "今後の条件"
+
+#. copy/document/issued
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/issued"
+msgid "Issued"
+msgstr "発行日"
+
+#. copy/document/signatures
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/signatures"
+msgid "Joint reviewers"
+msgstr "合同評議委員"
+
+#. copy/document/verification
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/verification"
+msgid "On-device verification weave"
+msgstr "端末内検証紋"
+
+#. copy/document/footer
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/footer"
+msgid ""
+"Generated by the My TU on-device student-record centre from the saved "
+"application and review. Verify both the application and review references."
+msgstr "本書は My TU 端末内学籍センターが保存済み出願・評議から生成しました。照合時は出願番号と評議番号を確認してください。"
+
+#. copy/document/print
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/print"
+msgid "Print / Save PDF"
+msgstr "印刷／PDF保存"
+
+#. copy/document/close
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/close"
+msgid "Back to My TU"
+msgstr "My TU へ戻る"
+
+#. words.eyebrow
+#: src/js/mytu.js:412
+msgctxt "text:words.eyebrow"
+msgid "TIMETABLE REVERSE / UNREGISTERED MARGINALIA"
+msgstr "TIMETABLE REVERSE / 未登録欄外"
+
+#. words.title.yes
+#: src/js/mytu.js:412
+msgctxt "text:words.title.yes"
+msgid "The ninth-period roll has written your name."
+msgstr "第九時限の点呼簿があなたの名を書いた。"
+
+#. words.title.no
+#: src/js/mytu.js:412
+msgctxt "text:words.title.no"
+msgid "A row on the timetable's reverse does not belong to this term."
+msgstr "時間割の裏に今学期ではない一行がある。"
+
+#. words.body.yes
+#: src/js/mytu.js:412
+msgctxt "text:words.body.yes"
+msgid ""
+"Six ordinary administrative seals overlap on the reverse of one sheet. The "
+"system cannot find a room; the north stair has begun roll call."
+msgstr "六つの通常学務印が同じ紙の裏で重なった。システムは教室を見つけられないが、北階段は点呼を始めている。"
+
+#. words.body.no
+#: src/js/mytu.js:412
+msgctxt "text:words.body.no"
+msgid "{value0} seals currently show through; Academic Affairs still crosses out row nine."
+msgstr "現在{value0}個の印が透け、第九行はまだ学務に消されている。"
+
+#. words.action.yes
+#: src/js/mytu.js:412
+msgctxt "text:words.action.yes"
+msgid "Return to ninth period"
+msgstr "第九時限へ戻る"
+
+#. words.action.no
+#: src/js/mytu.js:412
+msgctxt "text:words.action.no"
+msgid "Inspect the roll's reverse"
+msgstr "点呼簿の裏を見る"
+
+#. words.seek
+#: src/js/mytu.js:412
+msgctxt "text:words.seek"
+msgid "Try the present duty bell's ink trail"
+msgstr "今の当番鐘の墨跡から扉を試す"
+
+#. words.closed
+#: src/js/mytu.js:412
+msgctxt "text:words.closed"
+msgid "Room field: not yet admitted"
+msgstr "教室欄：未承認"

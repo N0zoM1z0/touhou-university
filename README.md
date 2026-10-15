@@ -32,8 +32,8 @@ queue.
 - seven schools with full trilingual catalogues, eight illustrated core
   faculty profiles, and a four-seat Faith & Coexistence faculty council;
 - Traditional Chinese, Japanese and English language switching;
-- eighteen ordinary generated, shareable pages for the home portal, academics,
-  admissions, research, research ethics, festival operations, fieldwork, the
+- nineteen ordinary generated, shareable pages for the home portal, academics,
+  admissions, First Bell arrival, research, research ethics, festival operations, fieldwork, the
   campus commons, academic calendar, graduation/careers/alumni, campus
   incidents, campus life, My TU, the
   Misty Lake Library, housing, campus healthcare, the on-device records cabinet
@@ -210,34 +210,38 @@ threads remain available under “My Posts” even after topics are reshuffled.
 ## Project structure
 
 ```text
-src/
-  data/       translated content plus stable i18n and event contracts
-  js/         interaction modules and the cross-feature domain registry
-  sections/   page partials, one institutional section per file
-  styles/     authored base and feature-specific stylesheets
-  templates/  shared page shell used by the generator
-assets/
-  css/        generated shared and per-page CSS bundles
-scripts/      build, preview, validation, scaffolding and asset helpers
-*.html        nineteen generated GitHub Pages route artifacts; one is deliberately hidden
+src/          page templates, sections, data, models, UI and CSS component parts
+locales/      matching Traditional Chinese, Japanese and English PO catalogs
+public/       original images and crest; copied unchanged to the published root
+scripts/      build, preview, catalog tooling, validators and regression tests
+docs/         operating handbook, architecture, research and implementation history
 site.config.mjs
+src/generated/i18n/   compiled catalogs (ignored)
+dist/                 complete publication: HTML, assets, modules and offline papers (ignored)
 ```
 
-Edit `src/`, not the generated root HTML pages or `assets/css/styles*.css` bundles.
+Edit authored source and PO catalogs. `npm run build` prepares `dist/`; generated
+HTML no longer lives at the repository root. Public page and asset URLs remain
+unchanged because Pages publishes the contents of `dist/` as the web root.
+Read [the architecture guide](docs/ARCHITECTURE.md) and
+[translation maintenance](locales/README.md).
 
 ## Common commands
 
-No package installation is required; the build uses Node.js standard-library
-modules only.
+Use Node.js 22 or newer. No package installation is required; the build uses
+Node.js standard-library modules only.
 
 ```bash
 npm run dev                 # rebuild on change and serve at localhost:4173
-npm run build               # generate nineteen pages and shared/per-page CSS bundles
+npm run build               # generate the complete dist/ publication
+npm run preview             # serve an existing dist/ publication
+npm run i18n:sync           # merge catalogs, retain notes/memory, mark source changes for review
+npm run i18n:status         # strict three-language catalog coverage
 npm run check               # build + all source, data, relationship and history contracts
 npm run docs:status         # derive release counts from the current source of truth
 npm run check:docs          # reject stale handoff counts, missing volumes and mirror drift
-npm run check:i18n          # stable/legacy keys, collisions, titles and interpolation parity
-npm run check:contracts     # 76 event types, producer coverage and causal lifecycle fixtures
+npm run check:i18n          # PO coverage, explicit keys, current defaults and placeholder parity
+npm run check:contracts     # 80 event types, producer coverage and causal lifecycle fixtures
 npm run check:knowledge     # Hieda sources, five-form dossiers, characters, routes and versions
 npm run check:ethics        # five cases/seats, non-averaged rulings, routes, records and events
 npm run check:festival      # six desks, field cases, routing/clinic overlays and closure
@@ -383,7 +387,7 @@ Set a different preview port with `PORT=4180 npm run dev`.
   three languages beside its answer and explanation.
 - Add unified-examination subjects in `src/data/gaokao.js` and higher-difficulty
   dossiers in `src/data/gaokao-advanced.js`; `npm run build` regenerates all
-  48 self-contained files under `downloads/gaokao/`.
+  48 self-contained files under `dist/downloads/gaokao/`.
 - Register page ownership through `src/js/site-router.js` and shareable overlay
   routes through `src/js/deep-links.js`; use stable
   routes such as `#research-spellcard`, `#faculty-aya` and `#map-eientei`, and
@@ -401,15 +405,15 @@ Set a different preview port with `PORT=4180 npm run dev`.
   `commit` always comes from `git log --first-parent main`; only mechanical
   multi-parent merges additionally record the second parent as `changeCommit`.
 - Add page structure in `src/sections/`.
-- Add feature logic as a focused module in `src/js/` and import it from
-  `src/js/main.js`. Cross-feature search or BBS capabilities belong in one
+- Add feature logic as a focused module in `src/js/` and register its initializer in
+  `src/js/feature-registry.js`. Cross-feature search or BBS capabilities belong in one
   manifest in `src/js/domain-registry.js`.
 - Add styles to the relevant file under `src/styles/`.
-- Add every new public interface string to `src/data/i18n.js`. New or touched
-  static controls keep readable Chinese fallback text and declare
-  `data-i18n` (or a translated-attribute key); structured domain content keeps
-  `{ "zh-Hant", ja, en }` values. `npm run check:i18n` rejects unknown keys,
-  collisions and variable drift.
+- Add every public string to the three matching PO catalogs under `locales/`.
+  Keep contexts stable and placeholders aligned. Static controls use `data-i18n`
+  or attribute keys; mixed-content text can use `<!-- i18n:key -->` markers.
+  Domain data resolves trilingual records from its compiled catalog. See
+  [the catalog guide](locales/README.md); never edit compiled JavaScript.
 - Register every new official ledger type in `src/data/event-contracts.js`
   with the payload IDs needed for subject, workflow and causation links, then
   run `npm run check:contracts`. Dream records never enter this registry.

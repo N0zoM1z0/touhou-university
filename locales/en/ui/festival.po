@@ -1,0 +1,722 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/festival.js:56
+msgctxt "tree:copy#/eyebrow"
+msgid "FESTIVAL OPERATIONS / SPRING SPELL-CARD LANTERNS × BOUNDARY MATRICULATION"
+msgstr "FESTIVAL OPERATIONS / SPRING SPELL-CARD LANTERNS × BOUNDARY MATRICULATION"
+
+#. copy/title
+#: src/js/festival.js:56
+msgctxt "tree:copy#/title"
+msgid "A festival is not one success score. It is a campus running all at once."
+msgstr "A festival is not one success score. It is a campus running all at once."
+
+#. copy/lead
+#: src/js/festival.js:56
+msgctxt "tree:copy#/lead"
+msgid ""
+"Plan procession, airspace, stalls, power, main gate, and aid stations; six "
+"desks stamp independently. Once open, Aya's extra, fairy clouds, Moriya "
+"voltage, and poltergeist after-hours sound do not promise to obey the "
+"programme."
+msgstr ""
+"Plan procession, airspace, stalls, power, main gate, and aid stations; six "
+"desks stamp independently. Once open, Aya's extra, fairy clouds, Moriya "
+"voltage, and poltergeist after-hours sound do not promise to obey the "
+"programme."
+
+#. copy/deskTab
+#: src/js/festival.js:56
+msgctxt "tree:copy#/deskTab"
+msgid "Operations desk"
+msgstr "Operations desk"
+
+#. copy/recordsTab
+#: src/js/festival.js:56
+msgctxt "tree:copy#/recordsTab"
+msgid "Permits & closing files"
+msgstr "Permits & closing files"
+
+#. copy/liveTab
+#: src/js/festival.js:56
+msgctxt "tree:copy#/liveTab"
+msgid "Live field board"
+msgstr "Live field board"
+
+#. copy/plans
+#: src/js/festival.js:56
+msgctxt "tree:copy#/plans"
+msgid " permits"
+msgstr " permits"
+
+#. copy/live
+#: src/js/festival.js:56
+msgctxt "tree:copy#/live"
+msgid " live"
+msgstr " live"
+
+#. copy/closed
+#: src/js/festival.js:56
+msgctxt "tree:copy#/closed"
+msgid " closed"
+msgstr " closed"
+
+#. copy/chooseKind
+#: src/js/festival.js:56
+msgctxt "tree:copy#/chooseKind"
+msgid "Festival dossier"
+msgstr "Festival dossier"
+
+#. copy/eventTitle
+#: src/js/festival.js:56
+msgctxt "tree:copy#/eventTitle"
+msgid "Event title (optional)"
+msgstr "Event title (optional)"
+
+#. copy/startsAt
+#: src/js/festival.js:56
+msgctxt "tree:copy#/startsAt"
+msgid "Date & opening time"
+msgstr "Date & opening time"
+
+#. copy/route
+#: src/js/festival.js:56
+msgctxt "tree:copy#/route"
+msgid "Procession / lantern line"
+msgstr "Procession / lantern line"
+
+#. copy/stage
+#: src/js/festival.js:56
+msgctxt "tree:copy#/stage"
+msgid "Main stage"
+msgstr "Main stage"
+
+#. copy/altitude
+#: src/js/festival.js:56
+msgctxt "tree:copy#/altitude"
+msgid "Spell-card altitude"
+msgstr "Spell-card altitude"
+
+#. copy/density
+#: src/js/festival.js:56
+msgctxt "tree:copy#/density"
+msgid "Spell-card density"
+msgstr "Spell-card density"
+
+#. copy/cue
+#: src/js/festival.js:56
+msgctxt "tree:copy#/cue"
+msgid "Cue time (seconds)"
+msgstr "Cue time (seconds)"
+
+#. copy/capacity
+#: src/js/festival.js:56
+msgctxt "tree:copy#/capacity"
+msgid "Concurrent village visitors"
+msgstr "Concurrent village visitors"
+
+#. copy/power
+#: src/js/festival.js:56
+msgctxt "tree:copy#/power"
+msgid "Kappa power & backup"
+msgstr "Kappa power & backup"
+
+#. copy/food
+#: src/js/festival.js:56
+msgctxt "tree:copy#/food"
+msgid "Stalls & Night Sparrow kitchen"
+msgstr "Stalls & Night Sparrow kitchen"
+
+#. copy/fairies
+#: src/js/festival.js:56
+msgctxt "tree:copy#/fairies"
+msgid "Fairy performance zone"
+msgstr "Fairy performance zone"
+
+#. copy/aid
+#: src/js/festival.js:56
+msgctxt "tree:copy#/aid"
+msgid "Eientei / gate aid stations"
+msgstr "Eientei / gate aid stations"
+
+#. copy/gate
+#: src/js/festival.js:56
+msgctxt "tree:copy#/gate"
+msgid "Who uses the “sole main gate”"
+msgstr "Who uses the “sole main gate”"
+
+#. copy/press
+#: src/js/festival.js:56
+msgctxt "tree:copy#/press"
+msgid "News & field wire"
+msgstr "News & field wire"
+
+#. copy/music
+#: src/js/festival.js:56
+msgctxt "tree:copy#/music"
+msgid "Prismriver set & closing"
+msgstr "Prismriver set & closing"
+
+#. copy/protections
+#: src/js/festival.js:56
+msgctxt "tree:copy#/protections"
+msgid "Three sheets the wind may not carry"
+msgstr "Three sheets the wind may not carry"
+
+#. copy/rainPlan
+#: src/js/festival.js:56
+msgctxt "tree:copy#/rainPlan"
+msgid "Wet-weather / incident fallback filed"
+msgstr "Wet-weather / incident fallback filed"
+
+#. copy/debrisCrew
+#: src/js/festival.js:56
+msgctxt "tree:copy#/debrisCrew"
+msgid "Falling-object / lantern recovery crew filed"
+msgstr "Falling-object / lantern recovery crew filed"
+
+#. copy/independentCounter
+#: src/js/festival.js:56
+msgctxt "tree:copy#/independentCounter"
+msgid "Attendance count does not depend on one ticket system or ability"
+msgstr "Attendance count does not depend on one ticket system or ability"
+
+#. copy/stopRule
+#: src/js/festival.js:56
+msgctxt "tree:copy#/stopRule"
+msgid "Stopping rule"
+msgstr "Stopping rule"
+
+#. copy/rainRule
+#: src/js/festival.js:56
+msgctxt "tree:copy#/rainRule"
+msgid "Wet-weather / incident switch rule"
+msgstr "Wet-weather / incident switch rule"
+
+#. copy/accessibility
+#: src/js/festival.js:56
+msgctxt "tree:copy#/accessibility"
+msgid "Shared-life and low-stimulation arrangements"
+msgstr "Shared-life and low-stimulation arrangements"
+
+#. copy/note
+#: src/js/festival.js:56
+msgctxt "tree:copy#/note"
+msgid "Organiser marginalia"
+msgstr "Organiser marginalia"
+
+#. copy/save
+#: src/js/festival.js:56
+msgctxt "tree:copy#/save"
+msgid "Pin draft to desk"
+msgstr "Pin draft to desk"
+
+#. copy/reset
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reset"
+msgid "Restore first operations draft"
+msgstr "Restore first operations draft"
+
+#. copy/preview
+#: src/js/festival.js:56
+msgctxt "tree:copy#/preview"
+msgid "Ring the six-desk bell"
+msgstr "Ring the six-desk bell"
+
+#. copy/submit
+#: src/js/festival.js:56
+msgctxt "tree:copy#/submit"
+msgid "Submit for formal festival permit"
+msgstr "Submit for formal festival permit"
+
+#. copy/saved
+#: src/js/festival.js:56
+msgctxt "tree:copy#/saved"
+msgid "Draft pinned; kappa tape did not touch the date field."
+msgstr "Draft pinned; kappa tape did not touch the date field."
+
+#. copy/issued
+#: src/js/festival.js:56
+msgctxt "tree:copy#/issued"
+msgid "Six-desk permit filed without merging the sheets."
+msgstr "Six-desk permit filed without merging the sheets."
+
+#. copy/metrics
+#: src/js/festival.js:56
+msgctxt "tree:copy#/metrics"
+msgid "How this version changes campus"
+msgstr "How this version changes campus"
+
+#. copy/attendance
+#: src/js/festival.js:56
+msgctxt "tree:copy#/attendance"
+msgid "Expected concurrent attendance"
+msgstr "Expected concurrent attendance"
+
+#. copy/powerLoad
+#: src/js/festival.js:56
+msgctxt "tree:copy#/powerLoad"
+msgid "Peak power"
+msgstr "Peak power"
+
+#. copy/clinic
+#: src/js/festival.js:56
+msgctxt "tree:copy#/clinic"
+msgid "Expected aid / clinic presentations"
+msgstr "Expected aid / clinic presentations"
+
+#. copy/routeDelay
+#: src/js/festival.js:56
+msgctxt "tree:copy#/routeDelay"
+msgid "Added route delay"
+msgstr "Added route delay"
+
+#. copy/volunteers
+#: src/js/festival.js:56
+msgctxt "tree:copy#/volunteers"
+msgid "Minimum duty crew"
+msgstr "Minimum duty crew"
+
+#. copy/recovery
+#: src/js/festival.js:56
+msgctxt "tree:copy#/recovery"
+msgid "Lanterns / light markers to recover"
+msgstr "Lanterns / light markers to recover"
+
+#. copy/people
+#: src/js/festival.js:56
+msgctxt "tree:copy#/people"
+msgid "people"
+msgstr "people"
+
+#. copy/minutes
+#: src/js/festival.js:56
+msgctxt "tree:copy#/minutes"
+msgid "minutes"
+msgstr "minutes"
+
+#. copy/desks
+#: src/js/festival.js:56
+msgctxt "tree:copy#/desks"
+msgid "Six desks do not sign for one another"
+msgstr "Six desks do not sign for one another"
+
+#. copy/desksLead
+#: src/js/festival.js:56
+msgctxt "tree:copy#/desksLead"
+msgid ""
+"Safety, power, medicine, publicity, faith, and shared night life are not "
+"averaged. One return can block opening; objections enter the formal permit "
+"unchanged."
+msgstr ""
+"Safety, power, medicine, publicity, faith, and shared night life are not "
+"averaged. One return can block opening; objections enter the formal permit "
+"unchanged."
+
+#. copy/conditions
+#: src/js/festival.js:56
+msgctxt "tree:copy#/conditions"
+msgid "Conditions / objections"
+msgstr "Conditions / objections"
+
+#. copy/noConditions
+#: src/js/festival.js:56
+msgctxt "tree:copy#/noConditions"
+msgid "No additional condition from this desk."
+msgstr "No additional condition from this desk."
+
+#. copy/programme
+#: src/js/festival.js:56
+msgctxt "tree:copy#/programme"
+msgid "Programme generated from this version"
+msgstr "Programme generated from this version"
+
+#. copy/operationsMap
+#: src/js/festival.js:56
+msgctxt "tree:copy#/operationsMap"
+msgid "Closures & site layout"
+msgstr "Closures & site layout"
+
+#. copy/liveCampus
+#: src/js/festival.js:56
+msgctxt "tree:copy#/liveCampus"
+msgid "Duty campus"
+msgstr "Duty campus"
+
+#. copy/weather
+#: src/js/festival.js:56
+msgctxt "tree:copy#/weather"
+msgid "Field weather"
+msgstr "Field weather"
+
+#. copy/phase
+#: src/js/festival.js:56
+msgctxt "tree:copy#/phase"
+msgid "Moon phase"
+msgstr "Moon phase"
+
+#. copy/permit
+#: src/js/festival.js:56
+msgctxt "tree:copy#/permit"
+msgid "Formal event permit"
+msgstr "Formal event permit"
+
+#. copy/permitNotice
+#: src/js/festival.js:56
+msgctxt "tree:copy#/permitNotice"
+msgid ""
+"All six desk opinions form the permit. Do not keep only the outcome and omit "
+"exits, medical conditions, or gate objections."
+msgstr ""
+"All six desk opinions form the permit. Do not keep only the outcome and omit "
+"exits, medical conditions, or gate objections."
+
+#. copy/status
+#: src/js/festival.js:56
+msgctxt "tree:copy#/status"
+msgid "Permit status"
+msgstr "Permit status"
+
+#. copy/filed
+#: src/js/festival.js:56
+msgctxt "tree:copy#/filed"
+msgid "Filed"
+msgstr "Filed"
+
+#. copy/startFestival
+#: src/js/festival.js:56
+msgctxt "tree:copy#/startFestival"
+msgid "Open and take a duty badge"
+msgstr "Open and take a duty badge"
+
+#. copy/role
+#: src/js/festival.js:56
+msgctxt "tree:copy#/role"
+msgid "Role in on-device record"
+msgstr "Role in on-device record"
+
+#. copy/organiser
+#: src/js/festival.js:56
+msgctxt "tree:copy#/organiser"
+msgid "Organiser / operations"
+msgstr "Organiser / operations"
+
+#. copy/volunteer
+#: src/js/festival.js:56
+msgctxt "tree:copy#/volunteer"
+msgid "Volunteer / guide"
+msgstr "Volunteer / guide"
+
+#. copy/observer
+#: src/js/festival.js:56
+msgctxt "tree:copy#/observer"
+msgid "Campus observer"
+msgstr "Campus observer"
+
+#. copy/acknowledge
+#: src/js/festival.js:56
+msgctxt "tree:copy#/acknowledge"
+msgid "I read all six conditions and understand a contested permit does not remove the dispute"
+msgstr "I read all six conditions and understand a contested permit does not remove the dispute"
+
+#. copy/start
+#: src/js/festival.js:56
+msgctxt "tree:copy#/start"
+msgid "Ring the opening bell"
+msgstr "Ring the opening bell"
+
+#. copy/blocked
+#: src/js/festival.js:56
+msgctxt "tree:copy#/blocked"
+msgid "This version was returned; replan and submit again."
+msgstr "This version was returned; replan and submit again."
+
+#. copy/acknowledgementNeeded
+#: src/js/festival.js:56
+msgctxt "tree:copy#/acknowledgementNeeded"
+msgid "First acknowledge that six-desk conditions remain operative after opening."
+msgstr "First acknowledge that six-desk conditions remain operative after opening."
+
+#. copy/revise
+#: src/js/festival.js:56
+msgctxt "tree:copy#/revise"
+msgid "Replan from six opinions"
+msgstr "Replan from six opinions"
+
+#. copy/printPermit
+#: src/js/festival.js:56
+msgctxt "tree:copy#/printPermit"
+msgid "Print / save event permit"
+msgstr "Print / save event permit"
+
+#. copy/share
+#: src/js/festival.js:56
+msgctxt "tree:copy#/share"
+msgid "Copy exact address"
+msgstr "Copy exact address"
+
+#. copy/copied
+#: src/js/festival.js:56
+msgctxt "tree:copy#/copied"
+msgid "Festival file address copied."
+msgstr "Festival file address copied."
+
+#. copy/openMap
+#: src/js/festival.js:56
+msgctxt "tree:copy#/openMap"
+msgid "View active campus detours"
+msgstr "View active campus detours"
+
+#. copy/openClinic
+#: src/js/festival.js:56
+msgctxt "tree:copy#/openClinic"
+msgid "View Eientei load"
+msgstr "View Eientei load"
+
+#. copy/fieldBoard
+#: src/js/festival.js:56
+msgctxt "tree:copy#/fieldBoard"
+msgid "Festival live operations board"
+msgstr "Festival live operations board"
+
+#. copy/fieldLead
+#: src/js/festival.js:56
+msgctxt "tree:copy#/fieldLead"
+msgid ""
+"Choose one first response per field case. Responses change delay, medicine, "
+"power, attendance, and unresolved disputes."
+msgstr ""
+"Choose one first response per field case. Responses change delay, medicine, "
+"power, attendance, and unresolved disputes."
+
+#. copy/resolved
+#: src/js/festival.js:56
+msgctxt "tree:copy#/resolved"
+msgid "Resolved"
+msgstr "Resolved"
+
+#. copy/chooseResponse
+#: src/js/festival.js:56
+msgctxt "tree:copy#/chooseResponse"
+msgid "Choose first response"
+msgstr "Choose first response"
+
+#. copy/fieldCases
+#: src/js/festival.js:56
+msgctxt "tree:copy#/fieldCases"
+msgid "Field cases"
+msgstr "Field cases"
+
+#. copy/closeFestival
+#: src/js/festival.js:56
+msgctxt "tree:copy#/closeFestival"
+msgid "Complete recovery and close"
+msgstr "Complete recovery and close"
+
+#. copy/unresolved
+#: src/js/festival.js:56
+msgctxt "tree:copy#/unresolved"
+msgid "Field cases remain unresolved; turning out the lights alone is not closure."
+msgstr "Field cases remain unresolved; turning out the lights alone is not closure."
+
+#. copy/closedToast
+#: src/js/festival.js:56
+msgctxt "tree:copy#/closedToast"
+msgid "Closing bell rung; routes release while objections and extras remain until morning."
+msgstr "Closing bell rung; routes release while objections and extras remain until morning."
+
+#. copy/report
+#: src/js/festival.js:56
+msgctxt "tree:copy#/report"
+msgid "Festival closing report"
+msgstr "Festival closing report"
+
+#. copy/headline
+#: src/js/festival.js:56
+msgctxt "tree:copy#/headline"
+msgid "Bunbunmaru Closing Extra"
+msgstr "Bunbunmaru Closing Extra"
+
+#. copy/reportAttendance
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportAttendance"
+msgid "Estimated attendance"
+msgstr "Estimated attendance"
+
+#. copy/reportClinic
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportClinic"
+msgid "Aid / clinic"
+msgstr "Aid / clinic"
+
+#. copy/reportDelay
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportDelay"
+msgid "Total delay"
+msgstr "Total delay"
+
+#. copy/reportPower
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportPower"
+msgid "Peak power"
+msgstr "Peak power"
+
+#. copy/reportDisputes
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportDisputes"
+msgid "Decisions still disputed"
+msgstr "Decisions still disputed"
+
+#. copy/reportNotice
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportNotice"
+msgid "Closing releases temporary routes; history does not disappear with the barriers."
+msgstr "Closing releases temporary routes; history does not disappear with the barriers."
+
+#. copy/printReport
+#: src/js/festival.js:56
+msgctxt "tree:copy#/printReport"
+msgid "Print / save closing report"
+msgstr "Print / save closing report"
+
+#. copy/records
+#: src/js/festival.js:56
+msgctxt "tree:copy#/records"
+msgid "On-device festival files"
+msgstr "On-device festival files"
+
+#. copy/noRecords
+#: src/js/festival.js:56
+msgctxt "tree:copy#/noRecords"
+msgid "No festival permit on this device. Three sole main gates are serving as broom stands."
+msgstr "No festival permit on this device. Three sole main gates are serving as broom stands."
+
+#. copy/openFile
+#: src/js/festival.js:56
+msgctxt "tree:copy#/openFile"
+msgid "Open file"
+msgstr "Open file"
+
+#. copy/planRecord
+#: src/js/festival.js:56
+msgctxt "tree:copy#/planRecord"
+msgid "Permit"
+msgstr "Permit"
+
+#. copy/operationRecord
+#: src/js/festival.js:56
+msgctxt "tree:copy#/operationRecord"
+msgid "Operation"
+msgstr "Operation"
+
+#. copy/localOnly
+#: src/js/festival.js:56
+msgctxt "tree:copy#/localOnly"
+msgid ""
+"Draft, permit, duty, and closure stay in this browser. Formal actions enter "
+"My TU and the records cabinet can box the files."
+msgstr ""
+"Draft, permit, duty, and closure stay in this browser. Formal actions enter "
+"My TU and the records cabinet can box the files."
+
+#. copy/cabinet
+#: src/js/festival.js:56
+msgctxt "tree:copy#/cabinet"
+msgid "Open on-device records"
+msgstr "Open on-device records"
+
+#. copy/mytu
+#: src/js/festival.js:56
+msgctxt "tree:copy#/mytu"
+msgid "View My TU organiser / volunteer record"
+msgstr "View My TU organiser / volunteer record"
+
+#. copy/activeNow
+#: src/js/festival.js:56
+msgctxt "tree:copy#/activeNow"
+msgid "This operations slip is changing the ordinary campus"
+msgstr "This operations slip is changing the ordinary campus"
+
+#. copy/activeNote
+#: src/js/festival.js:56
+msgctxt "tree:copy#/activeNote"
+msgid ""
+"Closures are in the map algorithm and expected presentations are in "
+"Eientei's board. Closing releases both."
+msgstr ""
+"Closures are in the map algorithm and expected presentations are in "
+"Eientei's board. Closing releases both."
+
+#. copy/documentTitle
+#: src/js/festival.js:56
+msgctxt "tree:copy#/documentTitle"
+msgid "Joint Festival Operations Permit"
+msgstr "Joint Festival Operations Permit"
+
+#. copy/reportTitle
+#: src/js/festival.js:56
+msgctxt "tree:copy#/reportTitle"
+msgid "Festival Closing Operations Report"
+msgstr "Festival Closing Operations Report"
+
+#. names/0
+#: src/js/festival.js:87
+msgctxt "tree:names#/0"
+msgid "new moon"
+msgstr "new moon"
+
+#. names/1
+#: src/js/festival.js:87
+msgctxt "tree:names#/1"
+msgid "waxing crescent"
+msgstr "waxing crescent"
+
+#. names/2
+#: src/js/festival.js:87
+msgctxt "tree:names#/2"
+msgid "first-quarter approach"
+msgstr "first-quarter approach"
+
+#. names/3
+#: src/js/festival.js:87
+msgctxt "tree:names#/3"
+msgid "waxing gibbous"
+msgstr "waxing gibbous"
+
+#. names/4
+#: src/js/festival.js:87
+msgctxt "tree:names#/4"
+msgid "full moon"
+msgstr "full moon"
+
+#. names/5
+#: src/js/festival.js:87
+msgctxt "tree:names#/5"
+msgid "waning gibbous"
+msgstr "waning gibbous"
+
+#. names/6
+#: src/js/festival.js:87
+msgctxt "tree:names#/6"
+msgid "last-quarter wake"
+msgstr "last-quarter wake"
+
+#. names/7
+#: src/js/festival.js:87
+msgctxt "tree:names#/7"
+msgid "waning crescent"
+msgstr "waning crescent"
+
+#. hero.0
+#: src/js/festival.js:141
+msgctxt "text:hero.0"
+msgid "Spring spell-card lantern festival beneath shrine gates and cherry blossoms"
+msgstr "Spring spell-card lantern festival beneath shrine gates and cherry blossoms"

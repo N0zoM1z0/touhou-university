@@ -1,0 +1,762 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. spellPatterns.star-orbit.name
+#: src/data/spellcard-workshop.js:8
+msgctxt "text:spellPatterns.star-orbit.name"
+msgid "Stardust Orbit"
+msgstr "星屑軌道"
+
+#. spellPatterns.star-orbit.premise
+#: src/data/spellcard-workshop.js:9
+msgctxt "text:spellPatterns.star-orbit.premise"
+msgid ""
+"Star rings expand from the centre. The promise is clear; the second ring "
+"rarely obeys the first."
+msgstr "中心から広がる星環。予告は明快だが、第二環は第一環の意図に従いたがらない。"
+
+#. spellPatterns.amulet-fan.name
+#: src/data/spellcard-workshop.js:15
+msgctxt "text:spellPatterns.amulet-fan.name"
+msgid "Ofuda Fan Gate"
+msgstr "御札扇門"
+
+#. spellPatterns.amulet-fan.premise
+#: src/data/spellcard-workshop.js:16
+msgctxt "text:spellPatterns.amulet-fan.premise"
+msgid ""
+"A fan of shots leaves several gates after declaration. Reimu and the "
+"designer often disagree on whether they count as exits."
+msgstr "宣言後、扇状弾幕に複数の門が残る。その門が退路かどうか、霊夢と設計者はよく意見が違う。"
+
+#. spellPatterns.frozen-lattice.name
+#: src/data/spellcard-workshop.js:22
+msgctxt "text:spellPatterns.frozen-lattice.name"
+msgid "Frozen Lattice"
+msgstr "凍結格子"
+
+#. spellPatterns.frozen-lattice.premise
+#: src/data/spellcard-workshop.js:23
+msgctxt "text:spellPatterns.frozen-lattice.premise"
+msgid ""
+"Orderly ice rows stop, then shift. Reading the lattice is easy; remembering "
+"where it just was is harder."
+msgstr "整然とした氷晶列が停止してから転位する。格子を読むのは易しいが、直前の位置を覚えるのは難しい。"
+
+#. spellPatterns.wind-corridor.name
+#: src/data/spellcard-workshop.js:29
+msgctxt "text:spellPatterns.wind-corridor.name"
+msgid "Wind-Cut Gallery"
+msgstr "風切回廊"
+
+#. spellPatterns.wind-corridor.premise
+#: src/data/spellcard-workshop.js:30
+msgctxt "text:spellPatterns.wind-corridor.premise"
+msgid ""
+"Crossing wind shots push the safe gallery sideways. The clearest audience "
+"angle is usually not the participant's."
+msgstr "両側の風弾が交差し、安全回廊を押して移動させる。観客に最も見やすい角度は、参加者側とは限らない。"
+
+#. spellPatterns.boundary-fold.name
+#: src/data/spellcard-workshop.js:36
+msgctxt "text:spellPatterns.boundary-fold.name"
+msgid "Boundary Foldback"
+msgstr "境界折返"
+
+#. spellPatterns.boundary-fold.premise
+#: src/data/spellcard-workshop.js:37
+msgctxt "text:spellPatterns.boundary-fold.premise"
+msgid ""
+"Shots leaving one edge return from the other. Without version and direction "
+"marks, they excel at pretending they never left."
+msgstr "退場した弾が反対側から戻る。版と方向を記録しなければ、最初から退場していないふりも得意。"
+
+#. spellVenues.hakurei-yard.name
+#: src/data/spellcard-workshop.js:44
+msgctxt "text:spellVenues.hakurei-yard.name"
+msgid "Hakurei Shrine Stone Yard"
+msgstr "博麗神社石庭"
+
+#. spellVenues.hakurei-yard.note
+#: src/data/spellcard-workshop.js:45
+msgctxt "text:spellVenues.hakurei-yard.note"
+msgid "Open ground; the visitor path may not be reclassified as a safe corridor."
+msgstr "開けた会場。参拝者動線を臨時の安全回廊に数えてはならない。"
+
+#. spellVenues.misty-lake-bank.name
+#: src/data/spellcard-workshop.js:50
+msgctxt "text:spellVenues.misty-lake-bank.name"
+msgid "Misty Lake Shore Stage"
+msgstr "霧の湖畔舞台"
+
+#. spellVenues.misty-lake-bank.note
+#: src/data/spellcard-workshop.js:51
+msgctxt "text:spellVenues.misty-lake-bank.note"
+msgid "Crosswind and lake glare can turn one beautiful cue into another."
+msgstr "横風と水面反射が、美しい予告を別の予告へ変える。"
+
+#. spellVenues.boundary-court.name
+#: src/data/spellcard-workshop.js:56
+msgctxt "text:spellVenues.boundary-court.name"
+msgid "Boundary Hall Demonstration Court"
+msgstr "境界講堂試演場"
+
+#. spellVenues.boundary-court.note
+#: src/data/spellcard-workshop.js:57
+msgctxt "text:spellVenues.boundary-court.note"
+msgid ""
+"Return markers are clear, although the audience may occasionally occupy the "
+"other side of the venue."
+msgstr "折返表示は明瞭だが、観客席が会場の反対側にあることがある。"
+
+#. spellVenues.bamboo-clearing.name
+#: src/data/spellcard-workshop.js:62
+msgctxt "text:spellVenues.bamboo-clearing.name"
+msgid "Moonlit Bamboo Clearing"
+msgstr "迷いの竹林・月光広場"
+
+#. spellVenues.bamboo-clearing.note
+#: src/data/spellcard-workshop.js:63
+msgctxt "text:spellVenues.bamboo-clearing.note"
+msgid "Low light reduces glare; bamboo shadows add an undeclared second layer."
+msgstr "低照度で眩光は減るが、竹影が未申告の第二層を弾幕へ加える。"
+
+#. spellCues.ring-preview.name
+#: src/data/spellcard-workshop.js:71
+msgctxt "text:spellCues.ring-preview.name"
+msgid "Outline First"
+msgstr "輪郭先行"
+
+#. spellCues.ring-preview.note
+#: src/data/spellcard-workshop.js:72
+msgctxt "text:spellCues.ring-preview.note"
+msgid "Draw the whole outline before the first wave."
+msgstr "第一波前に全輪郭を示す。"
+
+#. spellCues.color-pulse.name
+#: src/data/spellcard-workshop.js:78
+msgctxt "text:spellCues.color-pulse.name"
+msgid "Two-Beat Colour Pulse"
+msgstr "二段色パルス"
+
+#. spellCues.color-pulse.note
+#: src/data/spellcard-workshop.js:79
+msgctxt "text:spellCues.color-pulse.note"
+msgid "Two colour changes signal direction; reflective venues may swallow the second."
+msgstr "二回の色変化で方向を示す。反射会場では二回目が消えることがある。"
+
+#. spellCues.freeze-trace.name
+#: src/data/spellcard-workshop.js:85
+msgctxt "text:spellCues.freeze-trace.name"
+msgid "Afterimage Trace"
+msgstr "残像軌跡"
+
+#. spellCues.freeze-trace.note
+#: src/data/spellcard-workshop.js:86
+msgctxt "text:spellCues.freeze-trace.note"
+msgid "Keep a pale trace of the previous wave; at high density it becomes a very diligent lie."
+msgstr "前波の淡い経路を残す。高密度では、努力した嘘の地図になる。"
+
+#. spellCues.declaration-only.name
+#: src/data/spellcard-workshop.js:92
+msgctxt "text:spellCues.declaration-only.name"
+msgid "Declaration Only"
+msgstr "口頭宣言のみ"
+
+#. spellCues.declaration-only.note
+#: src/data/spellcard-workshop.js:93
+msgctxt "text:spellCues.declaration-only.note"
+msgid "No second visual cue. Aya likes the headline; Reimu dislikes the incident report."
+msgstr "画面上の再提示なし。文は見出しを好み、霊夢は事故報告を好まない。"
+
+#. spellSounds.quiet.name
+#: src/data/spellcard-workshop.js:102
+msgctxt "text:spellSounds.quiet.name"
+msgid "No Added Sound Pressure"
+msgstr "追加音圧なし"
+
+#. spellSounds.quiet.note
+#: src/data/spellcard-workshop.js:103
+msgctxt "text:spellSounds.quiet.note"
+msgid "Let the danmaku speak; the fairy chorus keeps its rehearsal rights."
+msgstr "弾幕自身に語らせ、妖精合唱団の稽古権を残す。"
+
+#. spellSounds.wood-chime.name
+#: src/data/spellcard-workshop.js:108
+msgctxt "text:spellSounds.wood-chime.name"
+msgid "Wooden Beat"
+msgstr "木片拍子"
+
+#. spellSounds.wood-chime.note
+#: src/data/spellcard-workshop.js:109
+msgctxt "text:spellSounds.wood-chime.note"
+msgid "One strike before every change; bad timing is worse than no cue."
+msgstr "変化前に一打。拍がずれると無提示より悪い。"
+
+#. spellSounds.temple-bell.name
+#: src/data/spellcard-workshop.js:114
+msgctxt "text:spellSounds.temple-bell.name"
+msgid "Small Temple Bell"
+msgstr "小鐘"
+
+#. spellSounds.temple-bell.note
+#: src/data/spellcard-workshop.js:115
+msgctxt "text:spellSounds.temple-bell.note"
+msgid "Readable to the audience and to the class next door."
+msgstr "観客にも隣の授業にもよく聞こえる。"
+
+#. spellSounds.kappa-metal.name
+#: src/data/spellcard-workshop.js:120
+msgctxt "text:spellSounds.kappa-metal.name"
+msgid "Kappa Metal Alarm"
+msgstr "河童金属警報"
+
+#. spellSounds.kappa-metal.note
+#: src/data/spellcard-workshop.js:121
+msgctxt "text:spellSounds.kappa-metal.note"
+msgid "The machine never misses a change; few other sounds survive it."
+msgstr "機械は変化を見逃さない。他の音も残りにくい。"
+
+#. spellReviewers.reimu.name
+#: src/data/spellcard-workshop.js:129
+msgctxt "text:spellReviewers.reimu.name"
+msgid "Reimu Hakurei"
+msgstr "博麗霊夢"
+
+#. spellReviewers.reimu.role
+#: src/data/spellcard-workshop.js:130
+msgctxt "text:spellReviewers.reimu.role"
+msgid "Rules & exits"
+msgstr "規則と退路"
+
+#. spellReviewers.reimu.responses.approve
+#: src/data/spellcard-workshop.js:132
+msgctxt "text:spellReviewers.reimu.responses.approve"
+msgid ""
+"The rule arrives before the shots and the exit needs no guessing. Start it; "
+"change things mid-pattern and I stop the match."
+msgstr "規則が弾より先に出て、退路も推測不要。始めてよい。勝手に変えたら止める。"
+
+#. spellReviewers.reimu.responses.caution
+#: src/data/spellcard-workshop.js:133
+msgctxt "text:spellReviewers.reimu.responses.caution"
+msgid ""
+"I can see the gate. I am not sure it remains a gate until a slower "
+"participant reaches it."
+msgstr "門は見える。でも遅い人が着くまで門のままかは分からない。"
+
+#. spellReviewers.reimu.responses.object
+#: src/data/spellcard-workshop.js:134
+msgctxt "text:spellReviewers.reimu.responses.object"
+msgid "That is not an exit; it is empty space you can point at afterward. Write the rule first."
+msgstr "これは退路ではなく、後から指差せる空白よ。先に規則を書きなさい。"
+
+#. spellReviewers.marisa.name
+#: src/data/spellcard-workshop.js:139
+msgctxt "text:spellReviewers.marisa.name"
+msgid "Marisa Kirisame"
+msgstr "霧雨魔理沙"
+
+#. spellReviewers.marisa.role
+#: src/data/spellcard-workshop.js:140
+msgctxt "text:spellReviewers.marisa.role"
+msgid "Expression & reproducibility"
+msgstr "表現力と再現"
+
+#. spellReviewers.marisa.responses.approve
+#: src/data/spellcard-workshop.js:142
+msgctxt "text:spellReviewers.marisa.responses.approve"
+msgid ""
+"It has its own silhouette, and you wrote down the seed, speed, and venue. "
+"That means the next one can be even louder."
+msgstr "固有の輪郭があり、種・速度・会場も記録済み。次にもっと派手にできるってことだぜ。"
+
+#. spellReviewers.marisa.responses.caution
+#: src/data/spellcard-workshop.js:143
+msgctxt "text:spellReviewers.marisa.responses.caution"
+msgid ""
+"It looks good, but if you save only the best run, you are reproducing "
+"publicity, not the spell card."
+msgstr "綺麗だが、最高の一回だけ残すなら再現できるのは宣伝で、スペルカードじゃない。"
+
+#. spellReviewers.marisa.responses.object
+#: src/data/spellcard-workshop.js:144
+msgctxt "text:spellReviewers.marisa.responses.object"
+msgid ""
+"Sanding off every edge is not fairness; it means you have not chosen what to "
+"perform. Give it one recognisable promise."
+msgstr "角を全部削るのは公平じゃなく、何を見せるか未決定なだけだ。識別できる約束を一つ作れ。"
+
+#. spellReviewers.aya.name
+#: src/data/spellcard-workshop.js:149
+msgctxt "text:spellReviewers.aya.name"
+msgid "Aya Shameimaru"
+msgstr "射命丸文"
+
+#. spellReviewers.aya.role
+#: src/data/spellcard-workshop.js:150
+msgctxt "text:spellReviewers.aya.role"
+msgid "Audience readability"
+msgstr "観客可読性"
+
+#. spellReviewers.aya.responses.approve
+#: src/data/spellcard-workshop.js:152
+msgctxt "text:spellReviewers.aya.responses.approve"
+msgid ""
+"The first photograph explains the rule; only the second needs a headline. "
+"Rare, and front-page material."
+msgstr "一枚目で規則が分かり、二枚目で初めて見出しが要る。珍しい。第一面向きです。"
+
+#. spellReviewers.aya.responses.caution
+#: src/data/spellcard-workshop.js:153
+msgctxt "text:spellReviewers.aya.responses.caution"
+msgid ""
+"The participant understood. The audience saw only a beautiful escape. I need "
+"a cue that does not rely on the caption afterward."
+msgstr "参加者は理解したが、観客には美しい逃走しか見えない。事後説明に頼らない予告が必要です。"
+
+#. spellReviewers.aya.responses.object
+#: src/data/spellcard-workshop.js:154
+msgctxt "text:spellReviewers.aya.responses.object"
+msgid ""
+"If the complete rule must fit in my headline, the picture has not reported "
+"itself clearly."
+msgstr "完全な規則を見出しへ詰める必要があるなら、画面自体がまだ報じ切れていません。"
+
+#. spellReviewers.nitori.name
+#: src/data/spellcard-workshop.js:159
+msgctxt "text:spellReviewers.nitori.name"
+msgid "Nitori Kawashiro"
+msgstr "河城にとり"
+
+#. spellReviewers.nitori.role
+#: src/data/spellcard-workshop.js:160
+msgctxt "text:spellReviewers.nitori.role"
+msgid "Performance & collision stability"
+msgstr "性能と当たり判定"
+
+#. spellReviewers.nitori.responses.approve
+#: src/data/spellcard-workshop.js:162
+msgctxt "text:spellReviewers.nitori.responses.approve"
+msgid ""
+"Projectile count is within budget and the collision/display versions are "
+"locked. It is stable if nobody touches the taped wire."
+msgstr "弾数は予算内、当たり核と表示版も固定済み。テープの線に触らなければ安定だよ。"
+
+#. spellReviewers.nitori.responses.caution
+#: src/data/spellcard-workshop.js:163
+msgctxt "text:spellReviewers.nitori.responses.caution"
+msgid ""
+"It runs now. Raise randomness and change rate together and the collision log "
+"will arrive after the bullet."
+msgstr "今は動く。でも乱数幅と変化頻度を同時に一段上げると、当たり記録が弾より遅れる。"
+
+#. spellReviewers.nitori.responses.object
+#: src/data/spellcard-workshop.js:164
+msgctxt "text:spellReviewers.nitori.responses.object"
+msgid ""
+"You are designing a spell card, not a device where frame rate becomes phase "
+"two. Cut the count or lock the seed."
+msgstr "設計しているのはスペルカードで、フレームレートを第二段階にする装置じゃない。弾数を削るか種を固定して。"
+
+#. spellReviewers.eirin.name
+#: src/data/spellcard-workshop.js:169
+msgctxt "text:spellReviewers.eirin.name"
+msgid "Eirin Yagokoro"
+msgstr "八意永琳"
+
+#. spellReviewers.eirin.role
+#: src/data/spellcard-workshop.js:170
+msgctxt "text:spellReviewers.eirin.role"
+msgid "Light, fatigue & stopping"
+msgstr "光刺激・疲労・停止"
+
+#. spellReviewers.eirin.responses.approve
+#: src/data/spellcard-workshop.js:172
+msgctxt "text:spellReviewers.eirin.responses.approve"
+msgid ""
+"Stimulation, duration, and stop signal are predictable. This design can be "
+"refused and left midway."
+msgstr "刺激・時間・停止合図が予測範囲内。拒否も途中離脱も可能な設計です。"
+
+#. spellReviewers.eirin.responses.caution
+#: src/data/spellcard-workshop.js:173
+msgctxt "text:spellReviewers.eirin.responses.caution"
+msgid ""
+"One demonstration is possible. Repeated runs require rest, and closing one's "
+"eyes cannot be the only safeguard."
+msgstr "一回の試演は可。連続実演には休憩が必要で、閉眼を唯一の安全策にしてはいけません。"
+
+#. spellReviewers.eirin.responses.object
+#: src/data/spellcard-workshop.js:174
+msgctxt "text:spellReviewers.eirin.responses.object"
+msgid ""
+"A warning does not cancel excessive stimulation. Keep it in research "
+"simulation; do not put people inside to prove it harmless."
+msgstr "警告は過剰刺激を相殺しません。研究模擬には残せますが、人を入れて無害を証明してはいけません。"
+
+#. spellReviewers.fairies.name
+#: src/data/spellcard-workshop.js:179
+msgctxt "text:spellReviewers.fairies.name"
+msgid "Misty Lake Fairy Chorus"
+msgstr "霧の湖妖精合唱団"
+
+#. spellReviewers.fairies.role
+#: src/data/spellcard-workshop.js:180
+msgctxt "text:spellReviewers.fairies.role"
+msgid "Shared space, sound & play"
+msgstr "共用会場・音・遊び"
+
+#. spellReviewers.fairies.responses.approve
+#: src/data/spellcard-workshop.js:182
+msgctxt "text:spellReviewers.fairies.responses.approve"
+msgid ""
+"We can sing the second verse beside it, and Cirno found a route you did not "
+"draw. That counts as fun."
+msgstr "隣で二番まで歌えるし、チルノは図にない道を見つけた。面白いってこと。"
+
+#. spellReviewers.fairies.responses.caution
+#: src/data/spellcard-workshop.js:183
+msgctxt "text:spellReviewers.fairies.responses.caution"
+msgid ""
+"We can follow the beat, but every shape change steals beat one. Leave us a "
+"breath or let us strike the wooden cue."
+msgstr "拍には乗れるが、形が変わるたび一拍目を奪う。一息残すか、木片を私たちに任せて。"
+
+#. spellReviewers.fairies.responses.object
+#: src/data/spellcard-workshop.js:184
+msgctxt "text:spellReviewers.fairies.responses.object"
+msgid ""
+"This is not a performance everyone can see; it freezes every sound nearby. "
+"Even the strongest must leave rehearsal time."
+msgstr "これは『皆が見られる実演』じゃなく、隣の音を全部凍らせるもの。最強でも稽古時間は残して。"
+
+#. spellDefenceRounds.rule.role
+#: src/data/spellcard-workshop.js:194
+msgctxt "text:spellDefenceRounds.rule.role"
+msgid "Question I · Is the exit still a rule?"
+msgstr "第一問・退路はまだ規則か"
+
+#. spellDefenceRounds.rule.prompt
+#: src/data/spellcard-workshop.js:195
+msgctxt "text:spellDefenceRounds.rule.prompt"
+msgid ""
+"After a change, the safe corridor is narrower than declared. What will you "
+"make a rule that cannot change mid-performance?"
+msgstr "変化後、安全回廊は宣言時より狭い。どの項目を臨時変更不可の規則にしますか。"
+
+#. spellDefenceRounds.rule.choices.0.reserve.1
+#: src/data/spellcard-workshop.js:197
+msgctxt "text:spellDefenceRounds.rule.choices.0.reserve.1"
+msgid "Reserve the minimum corridor, even if symmetry breaks"
+msgstr "対称性を崩しても最低回廊を確保"
+
+#. spellDefenceRounds.rule.choices.0.reserve.2
+#: src/data/spellcard-workshop.js:197
+msgctxt "text:spellDefenceRounds.rule.choices.0.reserve.2"
+msgid "Reimu gets a real exit; Marisa will ask you to explain the gap."
+msgstr "霊夢は明確な退路を得る。魔理沙はその欠けを説明せよと言う。"
+
+#. spellDefenceRounds.rule.choices.1.adaptive.1
+#: src/data/spellcard-workshop.js:198
+msgctxt "text:spellDefenceRounds.rule.choices.1.adaptive.1"
+msgid "Move the corridor, but precede every move with two cues"
+msgstr "回廊を移動させ、毎回二重予告"
+
+#. spellDefenceRounds.rule.choices.1.adaptive.2
+#: src/data/spellcard-workshop.js:198
+msgctxt "text:spellDefenceRounds.rule.choices.1.adaptive.2"
+msgid "Keeps the variation while turning readability into a promise that must be tested."
+msgstr "変化を残し、可読性を検証必須の約束にする。"
+
+#. spellDefenceRounds.rule.choices.2.advanced-only.1
+#: src/data/spellcard-workshop.js:199
+msgctxt "text:spellDefenceRounds.rule.choices.2.advanced-only.1"
+msgid "Keep the design and limit it to an advanced public session"
+msgstr "設計を残し、上級公開枠に限定"
+
+#. spellDefenceRounds.rule.choices.2.advanced-only.2
+#: src/data/spellcard-workshop.js:199
+msgctxt "text:spellDefenceRounds.rule.choices.2.advanced-only.2"
+msgid "Not everyone must participate, but the restriction must be visible before sign-up."
+msgstr "全員参加は不要だが、制限は申込前に見えなければならない。"
+
+#. spellDefenceRounds.rule.choices.3.resolve-later.1
+#: src/data/spellcard-workshop.js:200
+msgctxt "text:spellDefenceRounds.rule.choices.3.resolve-later.1"
+msgid "Perform first; decide what counted as an exit after the incident"
+msgstr "先に実演し、事故後に出口を決める"
+
+#. spellDefenceRounds.rule.choices.3.resolve-later.2
+#: src/data/spellcard-workshop.js:200
+msgctxt "text:spellDefenceRounds.rule.choices.3.resolve-later.2"
+msgid "Aya has already reserved the front page for this answer."
+msgstr "文はこの回答のために第一面を空けている。"
+
+#. spellDefenceRounds.reproducibility.role
+#: src/data/spellcard-workshop.js:205
+msgctxt "text:spellDefenceRounds.reproducibility.role"
+msgid "Question II · Can somebody else reproduce it?"
+msgstr "第二問・他者が再現できるか"
+
+#. spellDefenceRounds.reproducibility.prompt
+#: src/data/spellcard-workshop.js:206
+msgctxt "text:spellDefenceRounds.reproducibility.prompt"
+msgid ""
+"Your best test flight is beautiful. What will you publish so the next person "
+"reproduces the design, not merely its publicity?"
+msgstr "最高の試飛は非常に美しい。次の人が宣伝でなく設計を再現するため、何を公開しますか。"
+
+#. spellDefenceRounds.reproducibility.choices.0.publish-seed.1
+#: src/data/spellcard-workshop.js:208
+msgctxt "text:spellDefenceRounds.reproducibility.choices.0.publish-seed.1"
+msgid "Seed, parameters, collision version, and venue conditions"
+msgstr "種・パラメータ・当たり版・会場条件"
+
+#. spellDefenceRounds.reproducibility.choices.0.publish-seed.2
+#: src/data/spellcard-workshop.js:208
+msgctxt "text:spellDefenceRounds.reproducibility.choices.0.publish-seed.2"
+msgid "Failed runs are included."
+msgstr "失敗した回も併記する。"
+
+#. spellDefenceRounds.reproducibility.choices.1.publish-rig.1
+#: src/data/spellcard-workshop.js:209
+msgctxt "text:spellDefenceRounds.reproducibility.choices.1.publish-rig.1"
+msgid "Publish the rig and calibration, but keep the random seed"
+msgstr "装置と校正を公開、乱数種は保留"
+
+#. spellDefenceRounds.reproducibility.choices.1.publish-rig.2
+#: src/data/spellcard-workshop.js:209
+msgctxt "text:spellDefenceRounds.reproducibility.choices.1.publish-rig.2"
+msgid "Nitori can rebuild the machine, not guarantee the same sky."
+msgstr "にとりは装置を再建できるが、同じ空は保証できない。"
+
+#. spellDefenceRounds.reproducibility.choices.2.best-video.1
+#: src/data/spellcard-workshop.js:210
+msgctxt "text:spellDefenceRounds.reproducibility.choices.2.best-video.1"
+msgid "Publish only the best-looking recording"
+msgstr "最も美しい映像だけ公開"
+
+#. spellDefenceRounds.reproducibility.choices.2.best-video.2
+#: src/data/spellcard-workshop.js:210
+msgctxt "text:spellDefenceRounds.reproducibility.choices.2.best-video.2"
+msgid "Aya gets a good story; the methods field stays blank."
+msgstr "文は良い記事を得るが、方法欄は空白のまま。"
+
+#. spellDefenceRounds.reproducibility.choices.3.trade-secret.1
+#: src/data/spellcard-workshop.js:211
+msgctxt "text:spellDefenceRounds.reproducibility.choices.3.trade-secret.1"
+msgid "Publish nothing; label it a magician's trade secret"
+msgstr "非公開、魔法使い秘伝と表示"
+
+#. spellDefenceRounds.reproducibility.choices.3.trade-secret.2
+#: src/data/spellcard-workshop.js:211
+msgctxt "text:spellDefenceRounds.reproducibility.choices.3.trade-secret.2"
+msgid "It may be performed, but not described as independently verified."
+msgstr "実演はできるが、他者検証済みとは言えない。"
+
+#. spellDefenceRounds.aya.role
+#: src/data/spellcard-workshop.js:216
+msgctxt "text:spellDefenceRounds.aya.role"
+msgid "Question III · What did the audience see?"
+msgstr "第三問・観客は何を見たか"
+
+#. spellDefenceRounds.aya.prompt
+#: src/data/spellcard-workshop.js:217
+msgctxt "text:spellDefenceRounds.aya.prompt"
+msgid ""
+"The participant read it at low speed; the audience photographed only light. "
+"How do you show that the cue was not invented afterward?"
+msgstr "参加者は低速で読めたが、観客写真は光だけ。予告が事後解釈でないとどう示しますか。"
+
+#. spellDefenceRounds.aya.choices.0.audience-map.1
+#: src/data/spellcard-workshop.js:219
+msgctxt "text:spellDefenceRounds.aya.choices.0.audience-map.1"
+msgid "Publish a cue map without the solution before the performance"
+msgstr "実演前に答えを含まない予告図を公開"
+
+#. spellDefenceRounds.aya.choices.0.audience-map.2
+#: src/data/spellcard-workshop.js:219
+msgctxt "text:spellDefenceRounds.aya.choices.0.audience-map.2"
+msgid "The audience knows where to look but must still read it."
+msgstr "観客は見る場所を知るが、読み取りは自分で行う。"
+
+#. spellDefenceRounds.aya.choices.1.blind-coders.1
+#: src/data/spellcard-workshop.js:220
+msgctxt "text:spellDefenceRounds.aya.choices.1.blind-coders.1"
+msgid "Have design-blind observers independently mark cue timing"
+msgstr "設計未見者に予告時刻を独立符号化"
+
+#. spellDefenceRounds.aya.choices.1.blind-coders.2
+#: src/data/spellcard-workshop.js:220
+msgctxt "text:spellDefenceRounds.aya.choices.1.blind-coders.2"
+msgid "The newspaper photograph becomes evidence, not judge."
+msgstr "新聞写真は資料の一つで、判定者ではない。"
+
+#. spellDefenceRounds.aya.choices.2.better-headline.1
+#: src/data/spellcard-workshop.js:221
+msgctxt "text:spellDefenceRounds.aya.choices.2.better-headline.1"
+msgid "Ask Aya to put the whole rule in the headline"
+msgstr "文に規則全部を見出しへ書かせる"
+
+#. spellDefenceRounds.aya.choices.2.better-headline.2
+#: src/data/spellcard-workshop.js:221
+msgctxt "text:spellDefenceRounds.aya.choices.2.better-headline.2"
+msgid "The headline may hit readers before the danmaku does."
+msgstr "見出しが弾より先に読者へ当たるかもしれない。"
+
+#. spellDefenceRounds.nitori.role
+#: src/data/spellcard-workshop.js:226
+msgctxt "text:spellDefenceRounds.nitori.role"
+msgid "Question III · Is phase two just frame rate?"
+msgstr "第三問・第二段階はフレーム率か"
+
+#. spellDefenceRounds.nitori.prompt
+#: src/data/spellcard-workshop.js:227
+msgctxt "text:spellDefenceRounds.nitori.prompt"
+msgid ""
+"Under load, collision records trail the display by half a beat. What do you "
+"sacrifice first?"
+msgstr "負荷試験で当たり記録が表示より半拍遅れた。最初に何を削りますか。"
+
+#. spellDefenceRounds.nitori.choices.0.cap-budget.1
+#: src/data/spellcard-workshop.js:229
+msgctxt "text:spellDefenceRounds.nitori.choices.0.cap-budget.1"
+msgid "Cap simultaneous shots and lock the collision version"
+msgstr "同時弾数を制限し当たり版を固定"
+
+#. spellDefenceRounds.nitori.choices.0.cap-budget.2
+#: src/data/spellcard-workshop.js:229
+msgctxt "text:spellDefenceRounds.nitori.choices.0.cap-budget.2"
+msgid "The picture loses a layer; the rule stays the same."
+msgstr "画面は一層減るが、規則は同じまま。"
+
+#. spellDefenceRounds.nitori.choices.1.lower-effects.1
+#: src/data/spellcard-workshop.js:230
+msgctxt "text:spellDefenceRounds.nitori.choices.1.lower-effects.1"
+msgid "Keep trajectories; reduce afterimages and decoration first"
+msgstr "弾路を残し、残像と装飾を先に削減"
+
+#. spellDefenceRounds.nitori.choices.1.lower-effects.2
+#: src/data/spellcard-workshop.js:230
+msgctxt "text:spellDefenceRounds.nitori.choices.1.lower-effects.2"
+msgid "Aya dislikes the photograph; the participant avoids delayed collision."
+msgstr "文は写真に不満だが、参加者は遅延に衝突しない。"
+
+#. spellDefenceRounds.nitori.choices.2.more-tape.1
+#: src/data/spellcard-workshop.js:231
+msgctxt "text:spellDefenceRounds.nitori.choices.2.more-tape.1"
+msgid "Add two strips of kappa tape and raise the alarm volume"
+msgstr "河童テープ二本と警報音量を追加"
+
+#. spellDefenceRounds.nitori.choices.2.more-tape.2
+#: src/data/spellcard-workshop.js:231
+msgctxt "text:spellDefenceRounds.nitori.choices.2.more-tape.2"
+msgid "Nitori asks the record to state that she did not recommend this."
+msgstr "にとりは、この回答を推奨していないと記録せよと要求。"
+
+#. spellDefenceRounds.eirin.role
+#: src/data/spellcard-workshop.js:236
+msgctxt "text:spellDefenceRounds.eirin.role"
+msgid "Question III · Does a warning cancel stimulation?"
+msgstr "第三問・警告は刺激を相殺するか"
+
+#. spellDefenceRounds.eirin.prompt
+#: src/data/spellcard-workshop.js:237
+msgctxt "text:spellDefenceRounds.eirin.prompt"
+msgid ""
+"Light load and duration exceed ordinary public conditions. How do you "
+"preserve the research without using participants to prove it safe?"
+msgstr "光刺激と時間が一般公開条件を超える。参加者で安全を証明せず、研究をどう残しますか。"
+
+#. spellDefenceRounds.eirin.choices.0.closed-simulation.1
+#: src/data/spellcard-workshop.js:239
+msgctxt "text:spellDefenceRounds.eirin.choices.0.closed-simulation.1"
+msgid "Move to closed simulation; preserve the design without public flight"
+msgstr "閉鎖模擬へ変更、設計は保存し公開試飛なし"
+
+#. spellDefenceRounds.eirin.choices.0.closed-simulation.2
+#: src/data/spellcard-workshop.js:239
+msgctxt "text:spellDefenceRounds.eirin.choices.0.closed-simulation.2"
+msgid "Rejects public performance, not the research question."
+msgstr "公開実演を否決し、研究課題は否決しない。"
+
+#. spellDefenceRounds.eirin.choices.1.short-session.1
+#: src/data/spellcard-workshop.js:240
+msgctxt "text:spellDefenceRounds.eirin.choices.1.short-session.1"
+msgid "Shorten duration, reduce flashing, and provide exit/rest"
+msgstr "時間短縮・閃光低減・途中離脱休憩"
+
+#. spellDefenceRounds.eirin.choices.1.short-session.2
+#: src/data/spellcard-workshop.js:240
+msgctxt "text:spellDefenceRounds.eirin.choices.1.short-session.2"
+msgid "Measure again after revision; do not reuse the old risk conclusion."
+msgstr "修正後に再測定し、旧リスク結論を流用しない。"
+
+#. spellDefenceRounds.eirin.choices.2.stronger-warning.1
+#: src/data/spellcard-workshop.js:241
+msgctxt "text:spellDefenceRounds.eirin.choices.2.stronger-warning.1"
+msgid "Change nothing; make the warning larger"
+msgstr "変更せず警告だけ大きくする"
+
+#. spellDefenceRounds.eirin.choices.2.stronger-warning.2
+#: src/data/spellcard-workshop.js:241
+msgctxt "text:spellDefenceRounds.eirin.choices.2.stronger-warning.2"
+msgid "The warning still absorbs neither light nor fatigue."
+msgstr "警告は光も疲労も吸収しない。"
+
+#. spellDefenceRounds.fairies.role
+#: src/data/spellcard-workshop.js:246
+msgctxt "text:spellDefenceRounds.fairies.role"
+msgid "Question III · Is any sound left in the shared venue?"
+msgstr "第三問・共用会場に音は残るか"
+
+#. spellDefenceRounds.fairies.prompt
+#: src/data/spellcard-workshop.js:247
+msgctxt "text:spellDefenceRounds.fairies.prompt"
+msgid ""
+"Alarm and change beats cover Misty Lake rehearsal. Whose time belongs inside "
+"the spell-card rule?"
+msgstr "警報と変化拍が霧の湖の稽古を覆う。誰の時間をスペルカード規則へ数えますか。"
+
+#. spellDefenceRounds.fairies.choices.0.shared-count.1
+#: src/data/spellcard-workshop.js:249
+msgctxt "text:spellDefenceRounds.fairies.choices.0.shared-count.1"
+msgid "Put chorus breaks and performance beats on one timeline"
+msgstr "合唱休止と実演拍を同じ時系列表へ"
+
+#. spellDefenceRounds.fairies.choices.0.shared-count.2
+#: src/data/spellcard-workshop.js:249
+msgctxt "text:spellDefenceRounds.fairies.choices.0.shared-count.2"
+msgid "Shared space stops being blank outside the design."
+msgstr "共用会場を設計外の空白として扱わない。"
+
+#. spellDefenceRounds.fairies.choices.1.wood-cue.1
+#: src/data/spellcard-workshop.js:250
+msgctxt "text:spellDefenceRounds.fairies.choices.1.wood-cue.1"
+msgid "Replace the metal alarm with fairy-run wooden cues"
+msgstr "金属警報をやめ、妖精が木片予告を担当"
+
+#. spellDefenceRounds.fairies.choices.1.wood-cue.2
+#: src/data/spellcard-workshop.js:250
+msgctxt "text:spellDefenceRounds.fairies.choices.1.wood-cue.2"
+msgid "Cues gain play; missed beats must enter version history."
+msgstr "予告は楽しくなるが、拍ずれも版記録へ入れる必要。"
+
+#. spellDefenceRounds.fairies.choices.2.sing-louder.1
+#: src/data/spellcard-workshop.js:251
+msgctxt "text:spellDefenceRounds.fairies.choices.2.sing-louder.1"
+msgid "Require the chorus to sing louder than the alarm"
+msgstr "合唱団へ警報より大声を要求"
+
+#. spellDefenceRounds.fairies.choices.2.sing-louder.2
+#: src/data/spellcard-workshop.js:251
+msgctxt "text:spellDefenceRounds.fairies.choices.2.sing-louder.2"
+msgid "Cirno accepts the challenge. Medical review does not."
+msgstr "チルノは挑戦を受ける。医療側は受けない。"

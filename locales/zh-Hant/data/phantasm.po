@@ -1,0 +1,1177 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. phantasmSealCopy.coursework.name
+#: src/data/phantasm.js:15
+msgctxt "text:phantasmSealCopy.coursework.name"
+msgid "An answer submitted"
+msgstr "交出去的答案"
+
+#. phantasmSealCopy.coursework.missing
+#: src/data/phantasm.js:16
+msgctxt "text:phantasmSealCopy.coursework.missing"
+msgid ""
+"An assignment slip is waiting. Only an answer written and submitted counts "
+"as a chosen route."
+msgstr "有一張作業紙還在等你承認：寫下來的答案才算選過。"
+
+#. phantasmSealCopy.coursework.found
+#: src/data/phantasm.js:17
+msgctxt "text:phantasmSealCopy.coursework.found"
+msgid "Another answer appears behind the grading seal and insists it also earned marks."
+msgstr "批改章背面浮出另一個答案；那個答案聲稱自己也得過分。"
+
+#. phantasmSealCopy.governance.name
+#: src/data/phantasm.js:21
+msgctxt "text:phantasmSealCopy.governance.name"
+msgid "The ballot not cast"
+msgstr "沒有投下的那一票"
+
+#. phantasmSealCopy.governance.missing
+#: src/data/phantasm.js:22
+msgctxt "text:phantasmSealCopy.governance.missing"
+msgid "The senate box has three mouths. Two have not yet learned the shape of your hand."
+msgstr "校務院的票匭有三個口；你尚未讓其中兩個口記住你的手。"
+
+#. phantasmSealCopy.governance.found
+#: src/data/phantasm.js:23
+msgctxt "text:phantasmSealCopy.governance.found"
+msgid ""
+"The minority ballot passes in the shadow senate and asks the ordinary "
+"chamber to prove it is more real."
+msgstr "少數票在影子議場宣布通過，並要求正式議場證明自己比較真。"
+
+#. phantasmSealCopy.incident.name
+#: src/data/phantasm.js:27
+msgctxt "text:phantasmSealCopy.incident.name"
+msgid "A hypothesis closure excluded"
+msgstr "被結案排除的假說"
+
+#. phantasmSealCopy.incident.missing
+#: src/data/phantasm.js:28
+msgctxt "text:phantasmSealCopy.incident.missing"
+msgid "One incident binder still lacks a closure seal on its reverse."
+msgstr "事件中心仍有一個案卷夾沒有反面的結案章。"
+
+#. phantasmSealCopy.incident.found
+#: src/data/phantasm.js:29
+msgctxt "text:phantasmSealCopy.incident.found"
+msgid ""
+"The rejected hypothesis becomes the official dream conclusion; the ordinary "
+"finding is asked to resubmit evidence."
+msgstr "被退回的假說在夢裡成為正式結論，原結論則被要求補交證據。"
+
+#. phantasmSealCopy.housing.name
+#: src/data/phantasm.js:33
+msgctxt "text:phantasmSealCopy.housing.name"
+msgid "A room door declined"
+msgstr "拒絕過的房門"
+
+#. phantasmSealCopy.housing.missing
+#: src/data/phantasm.js:34
+msgctxt "text:phantasmSealCopy.housing.missing"
+msgid "The housing desk's second key has no room number and has not been returned."
+msgstr "宿舍辦的第二把鑰匙沒有房號，也沒有被退回。"
+
+#. phantasmSealCopy.housing.found
+#: src/data/phantasm.js:35
+msgctxt "text:phantasmSealCopy.housing.found"
+msgid ""
+"The room you declined marks you present each day; its roommate says they "
+"borrowed your pillow last night."
+msgstr "你沒有接受的房間每天替你點名；那位室友堅稱昨夜借過你的枕頭。"
+
+#. phantasmSealCopy.course.name
+#: src/data/phantasm.js:39
+msgctxt "text:phantasmSealCopy.course.name"
+msgid "The class still meeting after withdrawal"
+msgstr "退選後仍在上的課"
+
+#. phantasmSealCopy.course.missing
+#: src/data/phantasm.js:40
+msgctxt "text:phantasmSealCopy.course.missing"
+msgid "The ninth-period timetable can only be printed on the reverse of a drop stamp."
+msgstr "第九節課表只能用退選章的背面印刷。"
+
+#. phantasmSealCopy.course.found
+#: src/data/phantasm.js:41
+msgctxt "text:phantasmSealCopy.course.found"
+msgid ""
+"The dropped course meets in a nonexistent ninth period; only your name is "
+"circled on the absence roll."
+msgstr "退選課在不存在的第九節照常上課；缺席名單只有你的名字被圈起。"
+
+#. phantasmSealCopy.unused-route.name
+#: src/data/phantasm.js:45
+msgctxt "text:phantasmSealCopy.unused-route.name"
+msgid "The unused route acknowledged in defence"
+msgstr "答辯承認的未行路線"
+
+#. phantasmSealCopy.unused-route.missing
+#: src/data/phantasm.js:46
+msgctxt "text:phantasmSealCopy.unused-route.missing"
+msgid ""
+"The defence bench is not waiting for the route you took. It wants the route "
+"you deliberately left unused, in your own hand."
+msgstr "答辯席不問你走了哪條路；它在等你親手寫出為何沒有走另一條。"
+
+#. phantasmSealCopy.unused-route.found
+#: src/data/phantasm.js:47
+msgctxt "text:phantasmSealCopy.unused-route.found"
+msgid ""
+"The unused route has erected its own signposts and requests a citation from "
+"your official thesis."
+msgstr "那條未採用路線已自行補上路標，並向你的正式論文索取引用。"
+
+#. phantasmCourses.PH-009.title
+#: src/data/phantasm.js:55
+msgctxt "text:phantasmCourses.PH-009.title"
+msgid "Ninth Period: Practicum in Routes Not Taken"
+msgstr "第九節：未選路線實習"
+
+#. phantasmCourses.PH-009.teacher
+#: src/data/phantasm.js:56
+msgctxt "text:phantasmCourses.PH-009.teacher"
+msgid "Doremy Sweet (denies teaching while awake)"
+msgstr "多蕾米・蘇伊特（醒著時不承認授課）"
+
+#. phantasmCourses.PH-009.credits
+#: src/data/phantasm.js:57
+msgctxt "text:phantasmCourses.PH-009.credits"
+msgid "−3 / +3 credits"
+msgstr "−3／＋3 學分"
+
+#. phantasmCourses.PH-009.room
+#: src/data/phantasm.js:58
+msgctxt "text:phantasmCourses.PH-009.room"
+msgid "Fourth floor, downstairs from the north stair"
+msgstr "北樓梯向下的四樓"
+
+#. phantasmCourses.PH-009.syllabus
+#: src/data/phantasm.js:59
+msgctxt "text:phantasmCourses.PH-009.syllabus"
+msgid ""
+"Split one real decision into at least three untaken branches. Submit only "
+"the version you did not use; the final must be unfindable after waking."
+msgstr "把一次確實做過的選擇拆成至少三條未走分支；每週只提交沒有採用的版本。期末作品必須在醒來後找不到。"
+
+#. phantasmCourses.PH-009.assessment
+#: src/data/phantasm.js:60
+msgctxt "text:phantasmCourses.PH-009.assessment"
+msgid "Absence 40% · non-submission 30% · punctual arrival at the wrong room 30%"
+msgstr "缺席 40%・未交 30%・在錯誤教室準時到達 30%"
+
+#. phantasmCourses.DRM-404.title
+#: src/data/phantasm.js:66
+msgctxt "text:phantasmCourses.DRM-404.title"
+msgid "Dream Historiography: Official Events That Never Happened"
+msgstr "夢中史料學：沒有發生過的正史"
+
+#. phantasmCourses.DRM-404.teacher
+#: src/data/phantasm.js:67
+msgctxt "text:phantasmCourses.DRM-404.teacher"
+msgid "Keine Kamishirasawa / another Keine who refuses to sign"
+msgstr "上白澤慧音／不肯簽名的另一位慧音"
+
+#. phantasmCourses.DRM-404.credits
+#: src/data/phantasm.js:68
+msgctxt "text:phantasmCourses.DRM-404.credits"
+msgid "4 credits (displayed as 0 after waking)"
+msgstr "4 學分（醒後顯示 0）"
+
+#. phantasmCourses.DRM-404.room
+#: src/data/phantasm.js:69
+msgctxt "text:phantasmCourses.DRM-404.room"
+msgid "Hieda Hall, between deleted page numbers"
+msgstr "稗田館・被刪除的頁碼之間"
+
+#. phantasmCourses.DRM-404.syllabus
+#: src/data/phantasm.js:70
+msgctxt "text:phantasmCourses.DRM-404.syllabus"
+msgid ""
+"Write an excluded incident hypothesis as university history, then refute it "
+"with the original evidence. Both contradictory editions share one archive "
+"number."
+msgstr "把被結案排除的假說寫成校史，再以原本的證物反駁它。兩份互相否定的稿件必須使用同一個檔案號。"
+
+#. phantasmCourses.DRM-404.assessment
+#: src/data/phantasm.js:71
+msgctxt "text:phantasmCourses.DRM-404.assessment"
+msgid "Version-difference viva 60% · making Akyuu misplace edition one 40%"
+msgstr "版本差異口試 60%・讓阿求找不到第一版 40%"
+
+#. phantasmCourses.GOV-000.title
+#: src/data/phantasm.js:77
+msgctxt "text:phantasmCourses.GOV-000.title"
+msgid "Shadow Senate: Making the Minority Decision Already True"
+msgstr "影子議場：少數票既成事實演習"
+
+#. phantasmCourses.GOV-000.teacher
+#: src/data/phantasm.js:78
+msgctxt "text:phantasmCourses.GOV-000.teacher"
+msgid "Yukari Yakumo (one seat inside and one outside the roll)"
+msgstr "八雲紫（出席名冊內外各一席）"
+
+#. phantasmCourses.GOV-000.credits
+#: src/data/phantasm.js:79
+msgctxt "text:phantasmCourses.GOV-000.credits"
+msgid "2 + unvoted credits"
+msgstr "2＋未表決學分"
+
+#. phantasmCourses.GOV-000.room
+#: src/data/phantasm.js:80
+msgctxt "text:phantasmCourses.GOV-000.room"
+msgid "The underside of the senate table"
+msgstr "評議會室桌面的背面"
+
+#. phantasmCourses.GOV-000.syllabus
+#: src/data/phantasm.js:81
+msgctxt "text:phantasmCourses.GOV-000.syllabus"
+msgid ""
+"Implement the option you did not vote for, then require the chosen option to "
+"submit an impact assessment. Aya claims the scoop in both chambers."
+msgstr "先執行你沒有投的方案，再要求你已投的方案提交影響評估。文負責在兩邊都宣布自己先報導。"
+
+#. phantasmCourses.GOV-000.assessment
+#: src/data/phantasm.js:82
+msgctxt "text:phantasmCourses.GOV-000.assessment"
+msgid "Rule friction 50% · completing the second vote before Corrections 50%"
+msgstr "規章摩擦 50%・在訂正刊出前完成第二次表決 50%"
+
+#. phantasmCourses.DOR-013.title
+#: src/data/phantasm.js:88
+msgctxt "text:phantasmCourses.DOR-013.title"
+msgid "Unmatched Residential Life: The Roommate You Declined"
+msgstr "未配對共同生活：拒絕過的室友"
+
+#. phantasmCourses.DOR-013.teacher
+#: src/data/phantasm.js:89
+msgctxt "text:phantasmCourses.DOR-013.teacher"
+msgid "Residence Council Seat Thirteen (currently empty)"
+msgstr "宿舍自治會第十三席（座位目前空著）"
+
+#. phantasmCourses.DOR-013.credits
+#: src/data/phantasm.js:90
+msgctxt "text:phantasmCourses.DOR-013.credits"
+msgid "1 pillow credit + night practicum"
+msgstr "1 枕學分＋夜間實習"
+
+#. phantasmCourses.DOR-013.room
+#: src/data/phantasm.js:91
+msgctxt "text:phantasmCourses.DOR-013.room"
+msgid "The room you declined, with its plate on another hall"
+msgstr "你拒絕的房號，但門牌在別棟"
+
+#. phantasmCourses.DOR-013.syllabus
+#: src/data/phantasm.js:92
+msgctxt "text:phantasmCourses.DOR-013.syllabus"
+msgid ""
+"Negotiate sleep, moonlight, walls, and refrigerator liability with someone "
+"who never became your roommate. “We do not live together” is not closure."
+msgstr "與一位沒有成為室友的人協商作息、月相、牆面與冰箱責任。不得用「反正沒住一起」結案。"
+
+#. phantasmCourses.DOR-013.assessment
+#: src/data/phantasm.js:93
+msgctxt "text:phantasmCourses.DOR-013.assessment"
+msgid "Agreement inside the door 50% · reconsideration outside 50%"
+msgstr "門內協議 50%・門外反悔 50%"
+
+#. phantasmCourses.LIB-NULL.title
+#: src/data/phantasm.js:99
+msgctxt "text:phantasmCourses.LIB-NULL.title"
+msgid "Negative Circulation: Holdings That Refute Their Readers"
+msgstr "否定借閱學：會反駁讀者的館藏"
+
+#. phantasmCourses.LIB-NULL.teacher
+#: src/data/phantasm.js:100
+msgctxt "text:phantasmCourses.LIB-NULL.teacher"
+msgid "Koakuma / a return stamp with no borrower"
+msgstr "小惡魔／一枚沒有借閱人的還書章"
+
+#. phantasmCourses.LIB-NULL.credits
+#: src/data/phantasm.js:101
+msgctxt "text:phantasmCourses.LIB-NULL.credits"
+msgid "3 volumes (not 3 credits)"
+msgstr "3 本（不是 3 學分）"
+
+#. phantasmCourses.LIB-NULL.room
+#: src/data/phantasm.js:102
+msgctxt "text:phantasmCourses.LIB-NULL.room"
+msgid "Beyond the Misty Lake return slot"
+msgstr "霧湖館還書口之後"
+
+#. phantasmCourses.LIB-NULL.syllabus
+#: src/data/phantasm.js:103
+msgctxt "text:phantasmCourses.LIB-NULL.syllabus"
+msgid ""
+"Return a book insisting you never borrowed it. Prove acquaintance through "
+"call number, creases, and overdue dreams; the book may place a hold on "
+"testimony."
+msgstr "歸還一本堅稱你從未借過的書；以索書號、折角與逾期夢證明你們曾經見面。書可對證詞提出預約。"
+
+#. phantasmCourses.LIB-NULL.assessment
+#: src/data/phantasm.js:104
+msgctxt "text:phantasmCourses.LIB-NULL.assessment"
+msgid "Returning the book 0% · being returned by it 100%"
+msgstr "還書 0%・被書歸還 100%"
+
+#. phantasmCourses.BND--.title
+#: src/data/phantasm.js:110
+msgctxt "text:phantasmCourses.BND--.title"
+msgid "Reverse Campus Survey: Floors, Boundaries, and Waking Direction"
+msgstr "裏側校園測量：樓層、邊界與醒來方向"
+
+#. phantasmCourses.BND--.teacher
+#: src/data/phantasm.js:111
+msgctxt "text:phantasmCourses.BND--.teacher"
+msgid "Yukari / Doremy (each cedes the chair to the other)"
+msgstr "八雲紫／多蕾米（兩人都把主考席讓給對方）"
+
+#. phantasmCourses.BND--.credits
+#: src/data/phantasm.js:112
+msgctxt "text:phantasmCourses.BND--.credits"
+msgid "∞ credits, finite component counted"
+msgstr "∞ 學分，僅取有限部分"
+
+#. phantasmCourses.BND--.room
+#: src/data/phantasm.js:113
+msgctxt "text:phantasmCourses.BND--.room"
+msgid "Where the campus map is creased"
+msgstr "校園地圖折線壓過的地方"
+
+#. phantasmCourses.BND--.syllabus
+#: src/data/phantasm.js:114
+msgctxt "text:phantasmCourses.BND--.syllabus"
+msgid ""
+"Survey one building before the bell, after it, and when it never rang. Route "
+"reports may not assume the destination consents to arrival."
+msgstr "測量同一棟樓在鐘響前、鐘響後、沒有鐘響三種狀態的入口；導航報告不得假設目的地願意被抵達。"
+
+#. phantasmCourses.BND--.assessment
+#: src/data/phantasm.js:115
+msgctxt "text:phantasmCourses.BND--.assessment"
+msgid "Map 30% · crease 30% · defence of the deliberately unused route 40%"
+msgstr "地圖 30%・折痕 30%・解釋刻意未走的路 40%"
+
+#. phantasmNodes.north-stair.title
+#: src/data/phantasm.js:124
+msgctxt "text:phantasmNodes.north-stair.title"
+msgid "The fourth floor reached by descending"
+msgstr "向下抵達的四樓"
+
+#. phantasmNodes.north-stair.role
+#: src/data/phantasm.js:125
+msgctxt "text:phantasmNodes.north-stair.role"
+msgid "Ninth-period common hall"
+msgstr "第九節共同講堂"
+
+#. phantasmNodes.north-stair.body
+#: src/data/phantasm.js:126
+msgctxt "text:phantasmNodes.north-stair.body"
+msgid ""
+"Every step down raises the floor number. Students ask you not to count "
+"backward because the steps behind are dropping the course."
+msgstr "北樓梯每下一階，樓層牌增加一層。學生會要求你不要回頭數，因為後面的台階正在辦退選。"
+
+#. phantasmNodes.shadow-senate.title
+#: src/data/phantasm.js:133
+msgctxt "text:phantasmNodes.shadow-senate.title"
+msgid "Shadow Senate"
+msgstr "影子議場"
+
+#. phantasmNodes.shadow-senate.role
+#: src/data/phantasm.js:134
+msgctxt "text:phantasmNodes.shadow-senate.role"
+msgid "Office for implementing uncast options"
+msgstr "未投選項先行施行處"
+
+#. phantasmNodes.shadow-senate.body
+#: src/data/phantasm.js:135
+msgctxt "text:phantasmNodes.shadow-senate.body"
+msgid ""
+"The agenda above and below the table veto each other. Aya tapes a correction "
+"to the edge: “This paper supports the last proposal passed first.”"
+msgstr "桌上議程與桌下議程互相否決。文在桌沿貼了一條勘誤：『本報支持最先通過的最後方案。』"
+
+#. phantasmNodes.room-404.title
+#: src/data/phantasm.js:142
+msgctxt "text:phantasmNodes.room-404.title"
+msgid "Room 404, never assigned to you"
+msgstr "沒有分配給你的 404 室"
+
+#. phantasmNodes.room-404.role
+#: src/data/phantasm.js:143
+msgctxt "text:phantasmNodes.room-404.role"
+msgid "Unmatched residence practicum"
+msgstr "未配對住宿實習室"
+
+#. phantasmNodes.room-404.body
+#: src/data/phantasm.js:144
+msgctxt "text:phantasmNodes.room-404.body"
+msgid ""
+"Inside is footwear that is not yours; outside, your nameplate. The roommate "
+"is angry you did not come home last night."
+msgstr "門內留著一雙不是你的拖鞋，門外名牌卻寫你的名字。室友正為你昨晚沒有回來而生氣。"
+
+#. phantasmNodes.reverse-library.title
+#: src/data/phantasm.js:151
+msgctxt "text:phantasmNodes.reverse-library.title"
+msgid "The library behind the return slot"
+msgstr "還書口後方的圖書館"
+
+#. phantasmNodes.reverse-library.role
+#: src/data/phantasm.js:152
+msgctxt "text:phantasmNodes.reverse-library.role"
+msgid "Negative loans and reversed call numbers"
+msgstr "否定借閱與倒置索書"
+
+#. phantasmNodes.reverse-library.body
+#: src/data/phantasm.js:153
+msgctxt "text:phantasmNodes.reverse-library.body"
+msgid ""
+"Every spine faces inward. Readers must recite the last page to borrow the "
+"first. A returned volume insists it borrowed you."
+msgstr "所有書背朝內，讀者要先說出最後一頁才能借到第一頁。一本歸還書堅稱是它借閱了你。"
+
+#. phantasmNodes.ninth-bell.title
+#: src/data/phantasm.js:160
+msgctxt "text:phantasmNodes.ninth-bell.title"
+msgid "The bell tower that only strikes nine"
+msgstr "只敲第九下的鐘樓"
+
+#. phantasmNodes.ninth-bell.role
+#: src/data/phantasm.js:161
+msgctxt "text:phantasmNodes.ninth-bell.role"
+msgid "Dream-campus time standard"
+msgstr "夢境校區時間基準"
+
+#. phantasmNodes.ninth-bell.body
+#: src/data/phantasm.js:162
+msgctxt "text:phantasmNodes.ninth-bell.body"
+msgid ""
+"The ordinary campus handles strikes one through eight. This tower keeps only "
+"the ninth; each ring changes whether campus is before, after, or without a "
+"bell."
+msgstr "第一到第八下由普通校區負責。這座鐘只保管第九下；每敲一次，校園就改口說現在是鐘前、鐘後，或從未有鐘。"
+
+#. phantasmNodes.unused-gate.title
+#: src/data/phantasm.js:169
+msgctxt "text:phantasmNodes.unused-gate.title"
+msgid "The gate deliberately not taken"
+msgstr "刻意沒有走的校門"
+
+#. phantasmNodes.unused-gate.role
+#: src/data/phantasm.js:170
+msgctxt "text:phantasmNodes.unused-gate.role"
+msgid "Boundary between waking and staying enrolled"
+msgstr "醒來與繼續上課的分界"
+
+#. phantasmNodes.unused-gate.body
+#: src/data/phantasm.js:171
+msgctxt "text:phantasmNodes.unused-gate.body"
+msgid ""
+"There is no lock, only a defence form asking why you did not use this gate. "
+"It opens when answered, not necessarily on the same side."
+msgstr "門上沒有鎖，只有一張要求說明『為何不走這裡』的答辯表。寫完後門會打開，但不保證在同一邊。"
+
+#. phantasmExaminers.doremy.name
+#: src/data/phantasm.js:180
+msgctxt "text:phantasmExaminers.doremy.name"
+msgid "Doremy Sweet"
+msgstr "多蕾米・蘇伊特"
+
+#. phantasmExaminers.doremy.role
+#: src/data/phantasm.js:181
+msgctxt "text:phantasmExaminers.doremy.role"
+msgid "Acting Dream Registrar / dream eater"
+msgstr "夢境校務代理／食夢人"
+
+#. phantasmExaminers.yukari.name
+#: src/data/phantasm.js:185
+msgctxt "text:phantasmExaminers.yukari.name"
+msgid "Yukari Yakumo"
+msgstr "八雲紫"
+
+#. phantasmExaminers.yukari.role
+#: src/data/phantasm.js:186
+msgctxt "text:phantasmExaminers.yukari.role"
+msgid "Boundary chair for campus front and reverse"
+msgstr "校區裏側與表側邊界席"
+
+#. phantasmExaminers.keine.name
+#: src/data/phantasm.js:190
+msgctxt "text:phantasmExaminers.keine.name"
+msgid "Keine Kamishirasawa"
+msgstr "上白澤慧音"
+
+#. phantasmExaminers.keine.role
+#: src/data/phantasm.js:191
+msgctxt "text:phantasmExaminers.keine.role"
+msgid "Provisional reviewer of history that did not happen"
+msgstr "未發生校史臨時審閱"
+
+#. phantasmExaminers.reimu.name
+#: src/data/phantasm.js:195
+msgctxt "text:phantasmExaminers.reimu.name"
+msgid "Reimu Hakurei"
+msgstr "博麗靈夢"
+
+#. phantasmExaminers.reimu.role
+#: src/data/phantasm.js:196
+msgctxt "text:phantasmExaminers.reimu.role"
+msgid "Chair for waking costs and inconvenience"
+msgstr "醒來成本與麻煩裁定席"
+
+#. phantasmBrandProfiles.new.name
+#: src/data/phantasm.js:203
+msgctxt "text:phantasmBrandProfiles.new.name"
+msgid "Touhou University · Moonless Dream Campus"
+msgstr "幻想鄉立東方大學・無月夢境校"
+
+#. phantasmBrandProfiles.new.short
+#: src/data/phantasm.js:204
+msgctxt "text:phantasmBrandProfiles.new.short"
+msgid "MOONLESS DREAM AFFAIRS"
+msgstr "無月校務處"
+
+#. phantasmBrandProfiles.new.motto
+#: src/data/phantasm.js:205
+msgctxt "text:phantasmBrandProfiles.new.motto"
+msgid "When the moon is absent, its shadow teaches"
+msgstr "沒有月亮時，影子自行代課"
+
+#. phantasmBrandProfiles.waxing.name
+#: src/data/phantasm.js:209
+msgctxt "text:phantasmBrandProfiles.waxing.name"
+msgid "Touhou University · Ninth-Period Campus"
+msgstr "幻想鄉立東方大學・第九節分校"
+
+#. phantasmBrandProfiles.waxing.short
+#: src/data/phantasm.js:210
+msgctxt "text:phantasmBrandProfiles.waxing.short"
+msgid "NINTH-PERIOD DREAM REGISTRY"
+msgstr "第九節夢境學籍"
+
+#. phantasmBrandProfiles.waxing.motto
+#: src/data/phantasm.js:211
+msgctxt "text:phantasmBrandProfiles.waxing.motto"
+msgid "Enrol by the moonlight not yet completed"
+msgstr "沿尚未走完的月光入學"
+
+#. phantasmBrandProfiles.full.name
+#: src/data/phantasm.js:215
+msgctxt "text:phantasmBrandProfiles.full.name"
+msgid "Touhou University · Full-Moon Reverse Campus"
+msgstr "幻想鄉立東方大學・滿月反面校區"
+
+#. phantasmBrandProfiles.full.short
+#: src/data/phantasm.js:216
+msgctxt "text:phantasmBrandProfiles.full.short"
+msgid "FULL-MOON REVERSE SENATE"
+msgstr "滿月臨時校務院"
+
+#. phantasmBrandProfiles.full.motto
+#: src/data/phantasm.js:217
+msgctxt "text:phantasmBrandProfiles.full.motto"
+msgid "Every untaken route claims to be the main gate tonight"
+msgstr "所有沒選的路，今夜都聲稱自己是正門"
+
+#. phantasmBrandProfiles.waning.name
+#: src/data/phantasm.js:221
+msgctxt "text:phantasmBrandProfiles.waning.name"
+msgid "Touhou University · Untaken-Route Campus"
+msgstr "幻想鄉立東方大學・未行路線校區"
+
+#. phantasmBrandProfiles.waning.short
+#: src/data/phantasm.js:222
+msgctxt "text:phantasmBrandProfiles.waning.short"
+msgid "REVERSE-RECORDS OFFICE"
+msgstr "反面學籍保存處"
+
+#. phantasmBrandProfiles.waning.motto
+#: src/data/phantasm.js:223
+msgctxt "text:phantasmBrandProfiles.waning.motto"
+msgid "After moonlight recedes, the crease still calls your name"
+msgstr "月光退去後，折痕仍替你點名"
+
+#. phantasmCopy/lockedEyebrow
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/lockedEyebrow"
+msgid "BOUNDARY REGISTRAR / DREAM AFFAIRS (NOT ESTABLISHED)"
+msgstr "BOUNDARY REGISTRAR / 夢境校務處（未設立）"
+
+#. phantasmCopy/lockedTitle
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/lockedTitle"
+msgid "There is no campus on this page. That is the university's answer."
+msgstr "本頁沒有校區。至少校方這樣回答。"
+
+#. phantasmCopy/lockedLead
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/lockedLead"
+msgid ""
+"Entering the address directly reaches only a desk without a floor. Six "
+"ordinary records must first acquire reverse sides on this device; only then "
+"do date, lunar phase, and the duty bell begin choosing an entrance."
+msgstr "直接輸入網址只會抵達一張沒有樓層的辦公桌。六份普通校務記錄必須先在同一台裝置上留下反面；此後日期、月相與當值校鐘才開始決定入口。"
+
+#. phantasmCopy/lockedCount
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/lockedCount"
+msgid "reverse sides visible"
+msgstr "張反面已浮出"
+
+#. phantasmCopy/lockedNote
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/lockedNote"
+msgid ""
+"Do not complete a checklist. Study, vote, close, decline, drop, and defend "
+"as usual. If the ninth period needs you, it will leave its own blank in the "
+"timetable."
+msgstr "不要照清單完成。照常讀書、投票、結案、拒絕、退選與答辯；若第九節真的需要你，它會自己在課表上留下空格。"
+
+#. phantasmCopy/boundaryEyebrow
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryEyebrow"
+msgid "LUNAR BOUNDARY DESK / NO VERBAL DIRECTIONS TODAY"
+msgstr "LUNAR BOUNDARY DESK / 今日不受理口頭問路"
+
+#. phantasmCopy/boundaryTitle
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryTitle"
+msgid "Six seals prove only eligibility; moonshadow decides which page you fall asleep through."
+msgstr "六印只證明你有資格；今天從哪一頁睡著，由月影決定。"
+
+#. phantasmCopy/boundaryLead
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryLead"
+msgid ""
+"The entrance changes duty every three hours. New and full moons may admit "
+"two doors at once. Every day contains at least two ordinary opening windows; "
+"enough different wrong doors will also wear a temporary seam through the "
+"paper."
+msgstr "入口每三小時換一次值班位置；朔月與滿月偶爾同時承認兩扇門。每天至少有兩個開門時段。若你反覆摸到不同的錯門，紙張也會被磨出一條臨時縫。"
+
+#. phantasmCopy/boundaryDate
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryDate"
+msgid "Date on paper"
+msgstr "紙面日期"
+
+#. phantasmCopy/boundaryMoon
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryMoon"
+msgid "Eight-phase moon"
+msgstr "八相月齡"
+
+#. phantasmCopy/boundaryBell
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryBell"
+msgid "Duty bell"
+msgstr "當值校鐘"
+
+#. phantasmCopy/boundaryDoor
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryDoor"
+msgid "Moonshadow note"
+msgstr "月影批註"
+
+#. phantasmCopy/boundaryAttempts
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryAttempts"
+msgid "Wrong-door traces"
+msgstr "錯門痕跡"
+
+#. phantasmCopy/boundaryAttemptUnit
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryAttemptUnit"
+msgid "places / temporary seam"
+msgstr "處／臨時縫"
+
+#. phantasmCopy/boundaryWaiting
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryWaiting"
+msgid ""
+"The present bell has not written an entrance on this page. Another ordinary "
+"window will still rotate through today."
+msgstr "本值鐘尚未把入口寫在這一頁；下一個正常窗口仍會在今日輪到。"
+
+#. phantasmCopy/boundaryResonant
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryResonant"
+msgid "This door is warm now, but only fresh ink carried from its original page may pass."
+msgstr "這扇門現在有溫度，但只有從原頁留下的新墨才能穿過。"
+
+#. phantasmCopy/boundaryFrayed
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/boundaryFrayed"
+msgid ""
+"Wrong doors have thinned the boundary. Approach once more from any reverse "
+"carrying fresh ink."
+msgstr "錯門已把邊界磨薄；再從任一有新墨的反面靠近一次。"
+
+#. phantasmCopy/moonNames/0
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/moonNames/0"
+msgid "New moon"
+msgstr "朔月"
+
+#. phantasmCopy/moonNames/1
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/moonNames/1"
+msgid "Waxing crescent"
+msgstr "眉月"
+
+#. phantasmCopy/moonNames/2
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/moonNames/2"
+msgid "Before first quarter"
+msgstr "上弦前"
+
+#. phantasmCopy/moonNames/3
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/moonNames/3"
+msgid "Waxing gibbous"
+msgstr "盈凸月"
+
+#. phantasmCopy/moonNames/4
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/moonNames/4"
+msgid "Full moon"
+msgstr "滿月"
+
+#. phantasmCopy/moonNames/5
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/moonNames/5"
+msgid "Waning gibbous"
+msgstr "虧凸月"
+
+#. phantasmCopy/moonNames/6
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/moonNames/6"
+msgid "After last quarter"
+msgstr "下弦後"
+
+#. phantasmCopy/moonNames/7
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/moonNames/7"
+msgid "Waning crescent"
+msgstr "殘月"
+
+#. phantasmCopy/returnMytu
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/returnMytu"
+msgid "Return to My TU"
+msgstr "返回 My TU"
+
+#. phantasmCopy/openOrdinary
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/openOrdinary"
+msgid "View the ordinary timetable"
+msgstr "查看普通課表"
+
+#. phantasmCopy/campusEyebrow
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/campusEyebrow"
+msgid "PHANTASM / REVERSE CAMPUS"
+msgstr "PHANTASM / REVERSE CAMPUS"
+
+#. phantasmCopy/campusTitle
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/campusTitle"
+msgid "Dream Campus begins along the routes you did not take."
+msgstr "夢境校區在你沒有走的路上開學。"
+
+#. phantasmCopy/campusLead
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/campusLead"
+msgid ""
+"This is not another life. It temporarily enrols the branches ordinary "
+"administration excluded, declined, dropped, or left unvoted. After waking, "
+"the official ledger still recognises only the original choices."
+msgstr "這裡不收藏另一套人生，而是把正式校務排除、拒絕、退選與沒投的分支暫時編成學籍。醒來後，普通帳本仍然只承認原來的選擇。"
+
+#. phantasmCopy/dreamTime
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/dreamTime"
+msgid "Dream campus time"
+msgstr "夢境校時"
+
+#. phantasmCopy/bellLabels/before
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/bellLabels/before"
+msgid "Before the ninth strike"
+msgstr "第九響之前"
+
+#. phantasmCopy/bellLabels/ninth
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/bellLabels/ninth"
+msgid "During the ninth strike"
+msgstr "第九響正在發生"
+
+#. phantasmCopy/bellLabels/after
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/bellLabels/after"
+msgid "After the ninth strike"
+msgstr "第九響之後"
+
+#. phantasmCopy/bellLabels/never
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/bellLabels/never"
+msgid "The bell never rang today"
+msgstr "本日從未鳴鐘"
+
+#. phantasmCopy/ring
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/ring"
+msgid "Ring the ninth strike once"
+msgstr "敲一次第九響"
+
+#. phantasmCopy/mapTitle
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/mapTitle"
+msgid "Reverse-campus crease map"
+msgstr "裏側校園折線圖"
+
+#. phantasmCopy/mapLead
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/mapLead"
+msgid "Nodes rearrange with the ninth strike. A route does not promise to consent to arrival."
+msgstr "節點會隨第九響重排；路徑不保證同意被抵達。"
+
+#. phantasmCopy/selectedPlace
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/selectedPlace"
+msgid "Place currently admitting existence"
+msgstr "目前承認存在的地點"
+
+#. phantasmCopy/transcriptEyebrow
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/transcriptEyebrow"
+msgid "TU-DREAM-TRANSCRIPT"
+msgstr "TU-DREAM-TRANSCRIPT"
+
+#. phantasmCopy/transcriptTitle
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/transcriptTitle"
+msgid "Untaken-Route Student Copy"
+msgstr "未選路線學籍副本"
+
+#. phantasmCopy/invalid
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/invalid"
+msgid "Not valid outside the dream boundary"
+msgstr "Not valid outside the dream boundary"
+
+#. phantasmCopy/officialWarning
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/officialWarning"
+msgid "This copy never writes to My TU, the official transcript, or the campus event ledger."
+msgstr "本副本不寫入 My TU、正式成績單或校園事件帳本。"
+
+#. phantasmCopy/ordinaryColumn
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/ordinaryColumn"
+msgid "Record left while awake"
+msgstr "醒著時留下的記錄"
+
+#. phantasmCopy/dreamColumn
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/dreamColumn"
+msgid "How Dream Campus enrols it"
+msgstr "夢境校區的編法"
+
+#. phantasmCopy/noLibrary
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/noLibrary"
+msgid ""
+"No returned volume has yet denied meeting you. Entry is unaffected; Negative "
+"Circulation remains audit-only."
+msgstr "還沒有一本歸還書願意否認見過你。這不影響入校，只會讓否定借閱學暫列旁聽。"
+
+#. phantasmCopy/coursesEyebrow
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/coursesEyebrow"
+msgid "NINTH-PERIOD REGISTRATION"
+msgstr "NINTH-PERIOD REGISTRATION"
+
+#. phantasmCopy/coursesTitle
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/coursesTitle"
+msgid "Ninth-period registration"
+msgstr "第九節選課"
+
+#. phantasmCopy/coursesLead
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/coursesLead"
+msgid ""
+"Choose three. The credit limit is outside the dream boundary, but one you "
+"cannot occupy four nonexistent rooms at once."
+msgstr "選三門。學分上限位於夢境邊界之外，但同一個你不能同時坐在四間不存在的教室裡。"
+
+#. phantasmCopy/selected
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/selected"
+msgid "Enrolled"
+msgstr "已選"
+
+#. phantasmCopy/choose
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/choose"
+msgid "Add to ninth period"
+msgstr "選入第九節"
+
+#. phantasmCopy/drop
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/drop"
+msgid "Drop from the dream"
+msgstr "從夢裡退選"
+
+#. phantasmCopy/bonusLocked
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/bonusLocked"
+msgid "Audit condition: return one book in the ordinary library"
+msgstr "旁聽條件：先在普通圖書館歸還一本書"
+
+#. phantasmCopy/schedule
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/schedule"
+msgid "Period"
+msgstr "時段"
+
+#. phantasmCopy/scheduleValue
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/scheduleValue"
+msgid "Ninth / when the bell strikes"
+msgstr "第九節／鐘響時"
+
+#. phantasmCopy/credits
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/credits"
+msgid "Credits"
+msgstr "學分"
+
+#. phantasmCopy/room
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/room"
+msgid "Room"
+msgstr "教室"
+
+#. phantasmCopy/teacher
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/teacher"
+msgid "Instructor"
+msgstr "授課"
+
+#. phantasmCopy/syllabus
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/syllabus"
+msgid "Syllabus"
+msgstr "課程內容"
+
+#. phantasmCopy/assessment
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/assessment"
+msgid "Assessment"
+msgstr "考核"
+
+#. phantasmCopy/selectedCount
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/selectedCount"
+msgid "dream courses selected"
+msgstr "門夢課已選"
+
+#. phantasmCopy/defenceEyebrow
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/defenceEyebrow"
+msgid "REVERSE VIVA / PUBLIC DEFENCE"
+msgstr "REVERSE VIVA / 公開反向答辯"
+
+#. phantasmCopy/defenceTitle
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/defenceTitle"
+msgid "Defend the route you did not take."
+msgstr "替沒有採用的路線答辯。"
+
+#. phantasmCopy/defenceLead
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/defenceLead"
+msgid ""
+"Choose one reverse record. Explain why the dream should retain it and why it "
+"must not secretly rewrite the waking decision. Three dream courses and "
+"twenty-four characters are required."
+msgstr "選一份反面記錄，說明它為何值得被夢保存、又為何不應偷偷改寫醒著時的決定。三門夢課與至少二十四字的陳述缺一不可。"
+
+#. phantasmCopy/fragment
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/fragment"
+msgid "Defence file"
+msgstr "答辯案卷"
+
+#. phantasmCopy/examiner
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/examiner"
+msgid "Examiner"
+msgstr "主考席"
+
+#. phantasmCopy/statement
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/statement"
+msgid "Why was this route not taken, and what should the dream retain?"
+msgstr "為何沒有走這條路？它應該在夢裡保留什麼？"
+
+#. phantasmCopy/statementPlaceholder
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/statementPlaceholder"
+msgid ""
+"For example: I did not use it because… Yet it still exposes what the "
+"original method never asked…"
+msgstr "例如：我沒有採用它，因為……；但它仍能暴露原方法沒有問到的……"
+
+#. phantasmCopy/submitDefence
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/submitDefence"
+msgid "Submit reverse viva"
+msgstr "提交反向答辯"
+
+#. phantasmCopy/needCourses
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/needCourses"
+msgid "Choose three ninth-period courses first."
+msgstr "先選滿三門第九節課。"
+
+#. phantasmCopy/needStatement
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/needStatement"
+msgid "The statement needs at least twenty-four characters; an ellipsis is not another route."
+msgstr "陳述至少二十四字；省略號不算另一條路。"
+
+#. phantasmCopy/completed
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/completed"
+msgid "The reverse viva is sealed in dream records and does not alter the official ledger."
+msgstr "反向答辯已封存於夢學籍，不影響正式帳本。"
+
+#. phantasmCopy/records
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/records"
+msgid "Dream transcript history"
+msgstr "歷次夢學籍"
+
+#. phantasmCopy/noRecords
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/noRecords"
+msgid ""
+"No dream transcript is sealed. The bell tower calls this normal and also "
+"says it does not exist today."
+msgstr "還沒有封存的夢學籍。鐘樓說這是正常的，鐘樓今天也說自己不存在。"
+
+#. phantasmCopy/ruling
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/ruling"
+msgid "Ruling"
+msgstr "裁定"
+
+#. phantasmCopy/conditions
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/conditions"
+msgid "Dream-boundary conditions"
+msgstr "夢境附帶條件"
+
+#. phantasmCopy/dissent
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/dissent"
+msgid "Minority opinion"
+msgstr "少數意見"
+
+#. phantasmCopy/print
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/print"
+msgid "Print / save dream transcript PDF"
+msgstr "列印／另存夢學籍 PDF"
+
+#. phantasmCopy/share
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/share"
+msgid "Share this dream transcript"
+msgstr "分享這份夢學籍"
+
+#. phantasmCopy/wake
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/wake"
+msgid "Wake up with one unreliable memory"
+msgstr "醒來，帶走一點不可靠的記憶"
+
+#. phantasmCopy/wakeNote
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/wakeNote"
+msgid ""
+"Waking does not delete dream records or insert them into the official "
+"ledger. BBS may ignore the second half."
+msgstr "醒來不會刪除夢學籍，也不會把它塞進正式帳本；BBS 可能不遵守後半句。"
+
+#. phantasmCopy/student
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/student"
+msgid "Dream student"
+msgstr "夢境學生"
+
+#. phantasmCopy/studentFallback
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/studentFallback"
+msgid "Unregistered auditor"
+msgstr "未登錄的旁聽者"
+
+#. phantasmCopy/issued
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/issued"
+msgid "Dream issue"
+msgstr "夢境編發"
+
+#. phantasmCopy/coursesLabel
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/coursesLabel"
+msgid "Ninth-period courses"
+msgstr "第九節修課"
+
+#. phantasmCopy/defended
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/defended"
+msgid "Untaken route defended"
+msgstr "答辯的未行路線"
+
+#. phantasmCopy/residue
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/residue"
+msgid "Waking residue"
+msgstr "醒後殘留"
+
+#. phantasmCopy/residueLabels/0
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/residueLabels/0"
+msgid "North-stair chalk on your shoe"
+msgstr "鞋底多了一點北樓梯的粉筆灰"
+
+#. phantasmCopy/residueLabels/1
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/residueLabels/1"
+msgid "One timetable cell refusing erasure"
+msgstr "課表背面有一格不肯被擦掉"
+
+#. phantasmCopy/residueLabels/2
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/residueLabels/2"
+msgid "A never-borrowed book remembers your call number"
+msgstr "一本沒有借過的書記得你的索書號"
+
+#. phantasmCopy/residueLabels/3
+#: src/data/phantasm.js:227
+msgctxt "tree:phantasmCopy#/residueLabels/3"
+msgid "An authorless full stop in a BBS draft"
+msgstr "BBS 草稿多出一個沒有作者的句號"

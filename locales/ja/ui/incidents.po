@@ -1,0 +1,697 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/eyebrow"
+msgid "INCIDENT RESPONSE / CAMPUS INCIDENT DESK"
+msgstr "INCIDENT RESPONSE / 学内事案連絡室"
+
+#. copy/title
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/title"
+msgid "Do not declare an incident just yet."
+msgstr "異変と発表するのは、まだ早い。"
+
+#. copy/lead
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/lead"
+msgid ""
+"Collect testimony, open the version history, choose a reversible response, "
+"then let the research design decide what is actually known. The campus wire "
+"will be restrained after closure; the BBS usually will not."
+msgstr ""
+"証言を集め、版ごとの差異を洗い出し、撤回可能な措置を選ぶ。そのうえで、研究設計に照らして「何が分かったと言えるか」を判断する。終結後の大学速報は控えめだ"
+"が、BBS はたいていそうではない。"
+
+#. copy/live
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/live"
+msgid "Active"
+msgstr "対応中"
+
+#. copy/resolved
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/resolved"
+msgid "Closed"
+msgstr "終結"
+
+#. copy/experiments
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/experiments"
+msgid "simulations"
+msgstr "回の模擬"
+
+#. copy/cases
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/cases"
+msgid "Case files"
+msgstr "事案記録"
+
+#. copy/simulator
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/simulator"
+msgid "Research simulator"
+msgstr "研究シミュレーター"
+
+#. copy/records
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/records"
+msgid "Closures & reactions"
+msgstr "終結・連動"
+
+#. copy/dispatch
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/dispatch"
+msgid "Duty dispatch"
+msgstr "当番通報"
+
+#. copy/affected
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/affected"
+msgid "Scope affected"
+msgstr "影響範囲"
+
+#. copy/measure
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/measure"
+msgid "Primary measure"
+msgstr "主要観測量"
+
+#. copy/dossier
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/dossier"
+msgid "Field dossier"
+msgstr "現場記録"
+
+#. copy/evidence
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/evidence"
+msgid "Evidence & records"
+msgstr "物証・記録"
+
+#. copy/evidenceLead
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/evidenceLead"
+msgid ""
+"Select an item to mark it reviewed. Reliability describes the material "
+"itself, not whether its conclusion is true."
+msgstr "押すと確認済みになります。信頼度は結論の正しさではなく、資料そのものの安定性を示します。"
+
+#. copy/testimony
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/testimony"
+msgid "Testimony & trouble"
+msgstr "証言と厄介事"
+
+#. copy/testimonyLead
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/testimonyLead"
+msgid ""
+"A witness may also maintain the equipment, control the first headline, or be "
+"part of the incident. That is a position to record, not a reason to erase "
+"them."
+msgstr "証人は保守担当、情報源、または事案の一部かもしれません。排除理由ではなく、位置を記録する理由です。"
+
+#. copy/reviewed
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/reviewed"
+msgid "Reviewed"
+msgstr "確認済み"
+
+#. copy/markReviewed
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/markReviewed"
+msgid "Mark reviewed"
+msgstr "確認する"
+
+#. copy/source
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/source"
+msgid "Source"
+msgstr "出所"
+
+#. copy/reliability
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/reliability"
+msgid "Material reliability"
+msgstr "資料信頼度"
+
+#. copy/tension
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/tension"
+msgid "Tension to retain"
+msgstr "残すべき矛盾"
+
+#. copy/hypothesis
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/hypothesis"
+msgid "Working hypothesis"
+msgstr "作業仮説"
+
+#. copy/hypothesisLead
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/hypothesisLead"
+msgid "Choose one explanation that can be disproved. The simulator keeps wrong guesses."
+msgstr "反証可能な説明を一つ選びます。シミュレーターは外れた推測も保存します。"
+
+#. copy/response
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/response"
+msgid "Reversible response"
+msgstr "可逆的措置"
+
+#. copy/responseLead
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/responseLead"
+msgid ""
+"Choose up to two first moves. If the study overturns the hypothesis, they "
+"can be withdrawn instead of becoming tradition."
+msgstr "先行は二件まで。仮説が覆ったら撤回でき、臨時規則を伝統にする必要はありません。"
+
+#. copy/reversible
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/reversible"
+msgid "Reversible"
+msgstr "撤回可"
+
+#. copy/caution
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/caution"
+msgid "Field reaction"
+msgstr "現場の反作用"
+
+#. copy/selected
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/selected"
+msgid "Selected"
+msgstr "選択済み"
+
+#. copy/actionLimit
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/actionLimit"
+msgid "Two first responses at most. Remove one before adding another."
+msgstr "先行措置は二件まで。どれかを外してから追加してください。"
+
+#. copy/openLab
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/openLab"
+msgid "Take this hypothesis into the simulator"
+msgstr "この仮説をシミュレーターへ"
+
+#. copy/ethicsReference
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/ethicsReference"
+msgid "Prior ethics files for ability intervention"
+msgstr "能力介入前の倫理案件"
+
+#. copy/ethicsReferenceLead
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/ethicsReferenceLead"
+msgid ""
+"If this incident becomes an ability-intervention study, cite the files below "
+"first. Closing an incident does not retroactively grant research permission."
+msgstr "本件を能力介入研究へ使う場合、次の審査案件を先に引用すること。事案終結が遡って研究許可になることはない。"
+
+#. copy/openEthics
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/openEthics"
+msgid "Open prior ethics question"
+msgstr "前置倫理争点を見る"
+
+#. copy/chooseHypothesis
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/chooseHypothesis"
+msgid "Choose a working hypothesis"
+msgstr "作業仮説を選択"
+
+#. copy/readiness
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/readiness"
+msgid "Dossier readiness"
+msgstr "記録準備度"
+
+#. copy/reviewedEvidence
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/reviewedEvidence"
+msgid "evidence items"
+msgstr "件の物証"
+
+#. copy/reviewedWitnesses
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/reviewedWitnesses"
+msgid "testimonies"
+msgstr "件の証言"
+
+#. copy/labEyebrow
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/labEyebrow"
+msgid "METHODS LAB / IDENTIFIABILITY IS NOT DECORATION"
+msgstr "METHODS LAB / 識別可能性は飾りではない"
+
+#. copy/labTitle
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/labTitle"
+msgid "Make the elegant conclusion capable of failing."
+msgstr "きれいな結論を、失敗できる形へ。"
+
+#. copy/labLead
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/labLead"
+msgid ""
+"A larger sample narrows chance error. It does not repair confounding, drift, "
+"missing records, or kappa firmware replaced yesterday. Responses also change "
+"the field, so they enter the model too."
+msgstr "標本数は偶然誤差を縮めますが、交絡、ドリフト、欠測、昨日交換された河童ファームウェアは直しません。措置が現場を変える効果もモデルへ入れます。"
+
+#. copy/activeCase
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/activeCase"
+msgid "Active case"
+msgstr "現在の事案"
+
+#. copy/testedHypothesis
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/testedHypothesis"
+msgid "Hypothesis tested"
+msgstr "検証仮説"
+
+#. copy/sample
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/sample"
+msgid "Observation units"
+msgstr "観測単位"
+
+#. copy/sampleHelp
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/sampleHelp"
+msgid "A larger sample reduces random variation, not systematic error."
+msgstr "大標本は偶然変動を減らしますが、系統誤差は消しません。"
+
+#. copy/repeats
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/repeats"
+msgid "Replicate rounds"
+msgstr "反復回数"
+
+#. copy/control
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/control"
+msgid "Add a same-time control group"
+msgstr "同時刻の対照群を置く"
+
+#. copy/randomize
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/randomize"
+msgid "Randomise observation order"
+msgstr "観測順序を無作為化"
+
+#. copy/calibration
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/calibration"
+msgid "Recalibrate every round"
+msgstr "各回で機器を再校正"
+
+#. copy/versionLock
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/versionLock"
+msgid "Lock equipment and data versions"
+msgstr "機器・データ版を固定"
+
+#. copy/run
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/run"
+msgid "Run simulation"
+msgstr "シミュレーション実行"
+
+#. copy/result
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/result"
+msgid "Latest experiment slip"
+msgstr "最新実験票"
+
+#. copy/noResult
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/noResult"
+msgid ""
+"No simulation exists for this case. Choose a hypothesis and design, then run "
+"it; failures are saved too."
+msgstr "この事案の模擬はまだありません。仮説と設計を選んで実行してください。失敗も端末に保存されます。"
+
+#. copy/identifiability
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/identifiability"
+msgid "Design identifiability"
+msgstr "設計識別度"
+
+#. copy/observed
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/observed"
+msgid "Observed difference"
+msgstr "観測差"
+
+#. copy/interval
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/interval"
+msgid "Uncertainty range"
+msgstr "不確実範囲"
+
+#. copy/residuals
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/residuals"
+msgid "Interference still present"
+msgstr "残存する干渉"
+
+#. copy/confounding
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/confounding"
+msgid "Confounding"
+msgstr "交絡"
+
+#. copy/drift
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/drift"
+msgid "Drift"
+msgstr "ドリフト"
+
+#. copy/missing
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/missing"
+msgid "Missingness"
+msgstr "欠測"
+
+#. copy/version
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/version"
+msgid "Version change"
+msgstr "版変動"
+
+#. copy/hazards
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/hazards"
+msgid "Trouble still in the field"
+msgstr "現場に残る問題"
+
+#. copy/noHazards
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/noHazards"
+msgid ""
+"Major structural interference is low. This does not mean Gensokyo has "
+"suddenly become orderly."
+msgstr "主要な構造的干渉は低下。ただし幻想郷が急に規則的になったわけではありません。"
+
+#. copy/verdicts/supports
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/verdicts/supports"
+msgid "The design supports this hypothesis"
+msgstr "設計はこの仮説を支持"
+
+#. copy/verdicts/rejects
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/verdicts/rejects"
+msgid "The design tends to reject this hypothesis"
+msgstr "設計はこの仮説を棄却する傾向"
+
+#. copy/verdicts/inconclusive
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/verdicts/inconclusive"
+msgid "The design cannot yet separate hypothesis from interference"
+msgstr "仮説と干渉をまだ区別不能"
+
+#. copy/verdicts/false-confidence
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/verdicts/false-confidence"
+msgid "The number is loud, but the design is manufacturing confidence"
+msgstr "数字は大きいが、設計が偽の確信を作っている"
+
+#. copy/resolve
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/resolve"
+msgid "Close normally with this experiment and publish reactions"
+msgstr "この実験で通常終結し、連動を公開"
+
+#. copy/retainContested
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/retainContested"
+msgid "Send to the Red-Thread Desk: retain this unsupported theory"
+msgstr "赤糸席へ：支持されない異説を保存"
+
+#. copy/retentionTitle
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/retentionTitle"
+msgid "This is not confirmation. Close it anyway?"
+msgstr "立証ではありません。それでも終結扱いにしますか？"
+
+#. copy/retentionLead
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/retentionLead"
+msgid ""
+"Ordinary review rejected this inference, but the duty reviewer thinks its "
+"failure, controversy, or headline value deserves a record. If you insist, "
+"the university will bind it as a contested closure and release linked "
+"campus-wire and BBS reactions."
+msgstr ""
+"通常査読はこの推論を退けました。しかし当番査読者は、誤り方・論争・見出し価値を残す意味があると考えています。続行すると「係争終結」として赤糸で綴じ、大学"
+"速報と BBS にも連動します。"
+
+#. copy/retentionWarning
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/retentionWarning"
+msgid ""
+"The red-thread file permanently keeps the original result and a NOT "
+"ESTABLISHED mark. A large headline cannot launder it into confirmation."
+msgstr "赤糸記録には元の実験結果と「未支持」が恒久表示されます。大見出しで立証済みに変えることはできません。"
+
+#. copy/originalResult
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/originalResult"
+msgid "Original experiment result"
+msgstr "元の実験結果"
+
+#. copy/reviewer
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/reviewer"
+msgid "Reviewer proposing retention"
+msgstr "保存を提案した査読者"
+
+#. copy/retentionReason
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/retentionReason"
+msgid "Reason to retain"
+msgstr "保存理由"
+
+#. copy/retentionConfirm
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/retentionConfirm"
+msgid ""
+"I understand that the experiment did not establish this claim and still "
+"request publication as a contested closure."
+msgstr "この主張が実験で立証されていないと理解した上で、係争終結として公開保存を求めます。"
+
+#. copy/cancelRetention
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/cancelRetention"
+msgid "Do not bind it yet"
+msgstr "まだ綴じない"
+
+#. copy/publishContested
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/publishContested"
+msgid "Sign, stamp, and let the BBS argue"
+msgstr "署名・押印して BBS を騒がせる"
+
+#. copy/contestedSaved
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/contestedSaved"
+msgid ""
+"The red-thread file is bound. The campus wire kept its warning; the BBS did "
+"not keep calm."
+msgstr "赤糸係争記録を綴じました。大学速報は警告を保ち、BBS は平静を保ちませんでした。"
+
+#. copy/contested
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/contested"
+msgid "Red-thread contested file"
+msgstr "赤糸係争記録"
+
+#. copy/established
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/established"
+msgid "Ordinary closure"
+msgstr "通常終結"
+
+#. copy/disposition
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/disposition"
+msgid "File disposition"
+msgstr "記録区分"
+
+#. copy/signedBy
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/signedBy"
+msgid "Signing reviewer"
+msgstr "署名査読"
+
+#. copy/retainedBecause
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/retainedBecause"
+msgid "Reason retained"
+msgstr "保存理由"
+
+#. copy/unsupportedFinding
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/unsupportedFinding"
+msgid "Unsupported theory"
+msgstr "支持されない異説"
+
+#. copy/resolvedAlready
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/resolvedAlready"
+msgid "This case is closed. The BBS is not."
+msgstr "この事案は終結済み。BBS はまだです。"
+
+#. copy/notReady
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/notReady"
+msgid ""
+"Ordinary closure needs identifiability of at least 60, support for the "
+"tested hypothesis, and one reversible response. Unsupported results do not "
+"slip through silently; a reviewer may instead sign a red-thread retention."
+msgstr "通常終結には識別度 60 以上、仮説を支持する結果、可逆的措置一件以上が必要です。未支持の結果は黙って通しませんが、査読席が署名するなら赤糸保存へ送れます。"
+
+#. copy/experimentSaved
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/experimentSaved"
+msgid "The experiment slip is saved on this device and recorded in the My TU ledger."
+msgstr "実験票をこの端末へ保存し、My TU 事案台帳にも記録しました。"
+
+#. copy/resolutionSaved
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/resolutionSaved"
+msgid "Case closed. A campus-wire item and three BBS threads have appeared."
+msgstr "事案を終結。大学速報と BBS 三件が現れました。"
+
+#. copy/archiveEyebrow
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/archiveEyebrow"
+msgid "CASE ARCHIVE / CLOSURE DOES NOT END OBJECTIONS"
+msgstr "CASE ARCHIVE / 終結しても反対は終わらない"
+
+#. copy/archiveTitle
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/archiveTitle"
+msgid "After a finding enters the campus system."
+msgstr "結論が学務系へ入った後。"
+
+#. copy/archiveLead
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/archiveLead"
+msgid ""
+"Closures, experiment slips, and incident-triggered BBS threads stay on this "
+"device. There is one official record and usually three dissatisfied "
+"headlines."
+msgstr "終結記録、実験票、事案連動 BBS はこの端末に保存。公式記録は一件、不満な見出しは通常三件です。"
+
+#. copy/resolutionsTitle
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/resolutionsTitle"
+msgid "Closure records"
+msgstr "終結記録"
+
+#. copy/experimentHistory
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/experimentHistory"
+msgid "Experiment slips"
+msgstr "実験票"
+
+#. copy/noResolutions
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/noResolutions"
+msgid ""
+"No cases have closed. Choose a hypothesis from a case and build a design "
+"that can distinguish it."
+msgstr "終結済み事案はありません。記録から仮説を選び、識別可能な設計を作ってください。"
+
+#. copy/noExperiments
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/noExperiments"
+msgid "No experiment slips yet."
+msgstr "実験票はまだありません。"
+
+#. copy/finding
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/finding"
+msgid "Provisional finding"
+msgstr "暫定所見"
+
+#. copy/responseUsed
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/responseUsed"
+msgid "First response"
+msgstr "先行措置"
+
+#. copy/published
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/published"
+msgid "Published"
+msgstr "公開済み"
+
+#. copy/openBbs
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/openBbs"
+msgid "Open linked BBS"
+msgstr "事案連動 BBS を見る"
+
+#. copy/reopenCase
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/reopenCase"
+msgid "Reopen case file"
+msgstr "事案記録へ"
+
+#. copy/quality
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/quality"
+msgid "Identifiability"
+msgstr "識別度"
+
+#. copy/design
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/design"
+msgid "Design"
+msgstr "設計"
+
+#. copy/samplesShort
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/samplesShort"
+msgid "units"
+msgstr "単位"
+
+#. copy/roundsShort
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/roundsShort"
+msgid "rounds"
+msgstr "回"
+
+#. copy/bbsThreads
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/bbsThreads"
+msgid "linked threads"
+msgstr "件の連動投稿"
+
+#. copy/localOnly
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/localOnly"
+msgid "On-device"
+msgstr "端末保存"
+
+#. copy/resolvedOn
+#: src/js/incidents.js:33
+msgctxt "tree:copy#/resolvedOn"
+msgid "Closed"
+msgstr "終結日時"

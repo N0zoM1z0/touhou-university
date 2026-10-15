@@ -1,0 +1,425 @@
+.residence-facts dd {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.residence-room-features {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 27px;
+  margin-top: 22px;
+}
+
+.residence-room-features ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.residence-room-features section:first-child li {
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
+  padding: 10px 0;
+  border-bottom: 1px dotted rgba(28, 53, 68, 0.2);
+}
+
+.residence-room-features li strong {
+  font: 700 12px var(--serif);
+}
+
+.residence-room-features li span {
+  color: var(--ink-soft);
+  font-size: 10px;
+  text-align: right;
+}
+
+.housing-feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.housing-feature-list li {
+  padding: 6px 9px;
+  border: 1px solid rgba(28, 53, 68, 0.15);
+  border-radius: 2px;
+  background: rgba(28, 53, 68, 0.045);
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.residence-file > aside {
+  margin: 25px 0 19px;
+  padding: 16px 18px 14px 22px;
+  border-left: 3px solid var(--red);
+  background: rgba(155, 48, 57, 0.055);
+  transform: rotate(-0.25deg);
+}
+
+.residence-file > aside span {
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+}
+
+.residence-file > aside p {
+  margin: 6px 0 0;
+  font: 700 12px/1.65 var(--serif);
+}
+
+.housing-form {
+  position: relative;
+  padding: 0 38px 28px;
+  border: 1px solid rgba(28, 53, 68, 0.2);
+  border-top: 4px solid #1c3544;
+  background: rgba(255, 253, 248, 0.88);
+  box-shadow: 0 17px 40px rgba(48, 34, 22, 0.08);
+}
+
+.housing-form-stamp {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 13px;
+  align-items: center;
+  margin: 0 -38px 23px;
+  padding: 17px 38px;
+  border-bottom: 1px solid rgba(28, 53, 68, 0.14);
+  background: rgba(28, 53, 68, 0.045);
+}
+
+.housing-form-stamp span {
+  color: var(--red);
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.housing-form-stamp strong {
+  font: 700 15px var(--serif);
+}
+
+.housing-form-stamp code {
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.housing-form fieldset {
+  margin: 0;
+  padding: 24px 0 29px;
+  border: 0;
+  border-bottom: 1px solid rgba(28, 53, 68, 0.13);
+}
+
+.housing-form legend {
+  padding: 0;
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.housing-form-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.housing-needs-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  row-gap: 18px;
+}
+
+.housing-form label,
+.housing-change form label {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 7px;
+  color: var(--ink-soft);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.housing-form select,
+.housing-form textarea,
+.housing-change select,
+.housing-change textarea {
+  width: 100%;
+  border: 1px solid rgba(28, 53, 68, 0.2);
+  border-radius: 2px;
+  outline: none;
+  background: #fffefa;
+  color: var(--ink);
+  font: 600 11px var(--sans);
+}
+
+.housing-form select,
+.housing-change select {
+  height: 46px;
+  padding: 0 30px 0 12px;
+}
+
+.housing-form textarea,
+.housing-change textarea {
+  padding: 12px;
+  line-height: 1.65;
+  resize: vertical;
+}
+
+.housing-form select:focus,
+.housing-form textarea:focus,
+.housing-change select:focus,
+.housing-change textarea:focus {
+  border-color: rgba(155, 48, 57, 0.58);
+  box-shadow: 0 0 0 3px rgba(155, 48, 57, 0.08);
+}
+
+.housing-note {
+  margin-top: 25px;
+}
+
+.housing-form > footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.housing-form > footer > span {
+  margin-right: auto;
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.housing-application-meta {
+  flex-wrap: wrap;
+  gap: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -7px 0 13px;
+  padding: 10px 13px;
+  border-block: 1px solid rgba(28, 53, 68, 0.12);
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.housing-application-meta label {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink-soft);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.housing-application-meta select {
+  min-width: min(420px, 100%);
+  height: 38px;
+  padding: 0 30px 0 11px;
+  border: 1px solid rgba(28, 53, 68, 0.18);
+  background: #fffefa;
+  color: var(--ink);
+  font: 600 10px var(--sans);
+}
+
+.housing-offers {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.housing-offer {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  padding: 23px 22px 20px;
+  border: 1px solid rgba(28, 53, 68, 0.18);
+  border-top: 4px solid #1c3544;
+  background: rgba(255, 254, 250, 0.9);
+  box-shadow: 0 14px 31px rgba(47, 35, 23, 0.08);
+}
+
+.housing-offer:nth-child(2) { border-top-color: #8c6d39; }
+.housing-offer:nth-child(3) { border-top-color: #8d3942; }
+.housing-offer.is-declined { opacity: 0.53; filter: grayscale(0.35); }
+
+.housing-offer > header {
+  display: grid;
+  grid-template-columns: 29px 1fr auto;
+  gap: 10px;
+  align-items: start;
+}
+
+.housing-offer > header > span {
+  color: rgba(155, 48, 57, 0.38);
+  font: 700 20px var(--serif);
+}
+
+.housing-offer > header p {
+  margin: 0;
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 900;
+}
+
+.housing-offer > header h4 {
+  margin: 4px 0 0;
+  font: 700 17px var(--serif);
+}
+
+.housing-offer > header > b {
+  color: #1c3544;
+  font: 700 30px/0.85 var(--serif);
+  text-align: right;
+}
+
+.housing-offer > header > b small {
+  display: block;
+  margin-top: 7px;
+  color: var(--ink-soft);
+  font: 800 7px var(--sans);
+  text-transform: uppercase;
+}
+
+.housing-offer-person {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  margin: 18px 0 12px;
+  padding: 13px;
+  background: rgba(28, 53, 68, 0.055);
+}
+
+.housing-offer-person i,
+.housing-roommate-card i {
+  display: grid;
+  width: 43px;
+  height: 43px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid rgba(155, 48, 57, 0.3);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 15px var(--serif);
+  font-style: normal;
+}
+
+.housing-offer-person div {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.housing-offer-person span {
+  color: var(--ink-soft);
+  font-size: 8px;
+}
+
+.housing-offer-person strong {
+  margin: 2px 0;
+  font: 700 14px var(--serif);
+}
+
+.housing-offer-person small {
+  overflow: hidden;
+  color: var(--ink-soft);
+  font-size: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.housing-offer > p {
+  min-height: 62px;
+  margin: 0 0 13px;
+  color: var(--ink-soft);
+  font-size: 10px;
+  line-height: 1.65;
+}
+
+.housing-offer > dl {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 0 0 18px;
+}
+
+.housing-offer > dl div {
+  min-height: 83px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(28, 53, 68, 0.12);
+}
+
+.housing-offer dt {
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 900;
+}
+
+.housing-offer dd {
+  margin: 6px 0 0;
+}
+
+.housing-offer dd ul {
+  margin: 0;
+  padding-left: 15px;
+  color: var(--ink-soft);
+  font-size: 9px;
+  line-height: 1.6;
+}
+
+.housing-offer > footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+  margin-top: auto;
+}
+
+.housing-offer > footer > span {
+  width: 100%;
+  margin-bottom: 3px;
+  color: #1c3544;
+  font: 700 14px var(--serif);
+}
+
+.housing-offer > footer .button {
+  min-height: 39px;
+  flex: 1;
+  padding: 8px 10px;
+  font-size: 9px;
+}
+
+.housing-offer > footer > b {
+  color: var(--ink-soft);
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.housing-new-link {
+  display: block;
+  margin: 22px auto 0;
+  padding: 6px;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+  color: var(--red);
+  font: 800 10px var(--sans);
+  cursor: pointer;
+}
+
+.housing-empty {
+  display: flex;
+  min-height: 190px;
+  align-items: center;
+  gap: 22px;
+  padding: 32px 38px;
+  border: 1px solid rgba(28, 53, 68, 0.18);
+  border-left: 4px solid var(--red);
+  background: rgba(255, 253, 248, 0.8);
+}

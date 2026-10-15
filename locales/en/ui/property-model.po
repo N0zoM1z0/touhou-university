@@ -1,0 +1,88 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. propertyOpinions.0
+#: src/js/property-model.js:130
+msgctxt "text:propertyOpinions.0"
+msgid ""
+"The claimant says they are the object; this seat asks where it wants to go "
+"before who brought a receipt."
+msgstr ""
+"The claimant says they are the object; this seat asks where it wants to go "
+"before who brought a receipt."
+
+#. propertyOpinions.0
+#: src/js/property-model.js:131
+msgctxt "text:propertyOpinions.0.2"
+msgid "The statement “{value0}” is in evidence and may not be reduced to “a bit old”."
+msgstr "The statement “{value0}” is in evidence and may not be reduced to “a bit old”."
+
+#. propertyOpinions.0
+#: src/js/property-model.js:135
+msgctxt "text:propertyOpinions.0.3"
+msgid ""
+"Name, wear, and claimant account offer at least two comparisons; use still "
+"cannot be decided for the object."
+msgstr ""
+"Name, wear, and claimant account offer at least two comparisons; use still "
+"cannot be decided for the object."
+
+#. propertyOpinions.0
+#: src/js/property-model.js:136
+msgctxt "text:propertyOpinions.0.4"
+msgid "This evidence resembles a price tag: confident, but silent on wear, time, and witness."
+msgstr "This evidence resembles a price tag: confident, but silent on wear, time, and witness."
+
+#. propertyOpinions.0
+#: src/js/property-model.js:139
+msgctxt "text:propertyOpinions.0.5"
+msgid ""
+"This file crosses {value0} jurisdictions. The earliest record is not the "
+"neatest form; corrections remain side by side."
+msgstr ""
+"This file crosses {value0} jurisdictions. The earliest record is not the "
+"neatest form; corrections remain side by side."
+
+#. propertyOpinions.0
+#: src/js/property-model.js:143
+msgctxt "text:propertyOpinions.0.6"
+msgid ""
+"A conditional interim ruling is possible. Return does not erase the object's "
+"appeal; autonomy does not erase former custodial responsibility."
+msgstr ""
+"A conditional interim ruling is possible. Return does not erase the object's "
+"appeal; autonomy does not erase former custodial responsibility."
+
+#. propertyOpinions.0
+#: src/js/property-model.js:144
+msgctxt "text:propertyOpinions.0.7"
+msgid ""
+"The claimant wants an outcome without conditions; one collection may not "
+"erase duties of care, use, and repeat loss."
+msgstr ""
+"The claimant wants an outcome without conditions; one collection may not "
+"erase duties of care, use, and repeat loss."
+
+#. propertyClaimSummary.disposition.0
+#: src/js/property-model.js:202
+msgctxt "text:propertyClaimSummary.disposition.0"
+msgid "In hearing"
+msgstr "In hearing"
+
+#. propertyCommunityPosts.0.author
+#: src/js/property-model.js:183
+msgctxt "text:propertyCommunityPosts.0.author"
+msgid "Tsukumogami Property Tribunal · gallery"
+msgstr "Tsukumogami Property Tribunal · gallery"
+
+#. propertyCommunityPosts.0.body
+#: src/js/property-model.js:189
+msgctxt "text:propertyCommunityPosts.0.body"
+msgid "{value0} reached an outcome; the object's appeal and Akyuu's correction slip remain."
+msgstr "{value0} reached an outcome; the object's appeal and Akyuu's correction slip remain."

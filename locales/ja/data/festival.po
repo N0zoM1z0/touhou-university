@@ -1,0 +1,724 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. festivalKinds.0.spring-lantern.name
+#: src/data/festival.js:8
+msgctxt "text:festivalKinds.0.spring-lantern.name"
+msgid "Spring Spell-card Lantern Festival"
+msgstr "春季スペルカード灯会"
+
+#. festivalKinds.0.spring-lantern.short
+#: src/data/festival.js:9
+msgctxt "text:festivalKinds.0.spring-lantern.short"
+msgid "Lend the night sky to students"
+msgstr "夜空を一晩、学生へ貸す"
+
+#. festivalKinds.0.spring-lantern.premise
+#: src/data/festival.js:10
+msgctxt "text:festivalKinds.0.spring-lantern.premise"
+msgid ""
+"Twenty-four student groups compose the campus sky with non-aggressive light "
+"danmaku, handmade lanterns, and soundscapes. Every light route must leave a "
+"visibly legible exit."
+msgstr "二十四組の団体が非攻撃性光弾、手作り灯籠、音景で夜空を編成。すべての光路に肉眼で分かる退場方向を残す。"
+
+#. festivalKinds.0.boundary-opening.name
+#: src/data/festival.js:16
+msgctxt "text:festivalKinds.0.boundary-opening.name"
+msgid "Boundary Matriculation Festival"
+msgstr "境界開学祭"
+
+#. festivalKinds.0.boundary-opening.short
+#: src/data/festival.js:17
+msgctxt "text:festivalKinds.0.boundary-opening.short"
+msgid "New students pass through a gate not fully persuaded it is a gate"
+msgstr "門であることに完全同意しない門を新入生が通る"
+
+#. festivalKinds.0.boundary-opening.premise
+#: src/data/festival.js:18
+msgctxt "text:festivalKinds.0.boundary-opening.premise"
+msgid ""
+"New students, village visitors, and campus factions enter along the "
+"Vermilion Cord Walk. Three faith groups each file for the sole main gate; "
+"Yukari files a gate with no front or back."
+msgstr "新入生・里の来訪者・学内勢力が朱縄路から入場。三つの信仰勢力は全て「唯一の正門」を申請し、紫は表裏のない門を提出した。"
+
+#. festivalRoutes.0.lake-ring.name
+#: src/data/festival.js:26
+msgctxt "text:festivalRoutes.0.lake-ring.name"
+msgid "Misty Lake Lantern Ring"
+msgstr "霧湖環灯線"
+
+#. festivalRoutes.0.lake-ring.detail
+#: src/data/festival.js:27
+msgctxt "text:festivalRoutes.0.lake-ring.detail"
+msgid ""
+"Hakurei Gate–Misty Lake–Boundary Hall. The reflection counts as a second "
+"show but receives no separate ticket."
+msgstr "博麗門—霧の湖—境界講堂。水面反射は第二公演扱いだが別料金なし。"
+
+#. festivalRoutes.0.vermilion-procession.name
+#: src/data/festival.js:36
+msgctxt "text:festivalRoutes.0.vermilion-procession.name"
+msgid "Vermilion Cord Matriculation Procession"
+msgstr "朱縄迎新行列"
+
+#. festivalRoutes.0.vermilion-procession.detail
+#: src/data/festival.js:37
+msgctxt "text:festivalRoutes.0.vermilion-procession.detail"
+msgid ""
+"A direct Hakurei Gate–Boundary Hall procession. The main walk belongs to new "
+"students; return traffic must acknowledge Lakeside Stack Slope."
+msgstr "博麗門から境界講堂へ直進。主路は新入生用、帰路は湖畔書架坂の存在を認める。"
+
+#. festivalRoutes.0.mountain-circuit.name
+#: src/data/festival.js:46
+msgctxt "text:festivalRoutes.0.mountain-circuit.name"
+msgid "Youkai Mountain Wind-Lantern Circuit"
+msgstr "妖怪の山・風灯巡回"
+
+#. festivalRoutes.0.mountain-circuit.detail
+#: src/data/festival.js:47
+msgctxt "text:festivalRoutes.0.mountain-circuit.detail"
+msgid ""
+"Workshop freight and tengu spectators share the mountain line. The extra "
+"edition normally reaches the finish first."
+msgstr "工房資材と天狗観客が山路を共有。速報はたいてい行列より先に到着。"
+
+#. festivalRoutes.0.three-faith-loop.name
+#: src/data/festival.js:56
+msgctxt "text:festivalRoutes.0.three-faith-loop.name"
+msgid "Three-Faith Rotating Gate Line"
+msgstr "三信仰輪番門線"
+
+#. festivalRoutes.0.three-faith-loop.detail
+#: src/data/festival.js:57
+msgctxt "text:festivalRoutes.0.three-faith-loop.detail"
+msgid ""
+"The symbolic main gate changes every bell. The physical entrance stays put; "
+"the signboards and arguments move."
+msgstr "校鐘ごとに象徴正門を交代。実際の入口は動かず、説明板と論争だけが移動。"
+
+#. festivalStages.0.boundary-roof.name
+#: src/data/festival.js:68
+msgctxt "text:festivalStages.0.boundary-roof.name"
+msgid "Boundary Hall Roof"
+msgstr "境界講堂屋上"
+
+#. festivalStages.0.boundary-roof.note
+#: src/data/festival.js:73
+msgctxt "text:festivalStages.0.boundary-roof.note"
+msgid "Best sightlines; exits must actually be drawn."
+msgstr "視界は最高、退路は本当に描く必要あり。"
+
+#. festivalStages.0.lake-bank.name
+#: src/data/festival.js:77
+msgctxt "text:festivalStages.0.lake-bank.name"
+msgid "Misty Lake South-Bank Stage"
+msgstr "霧の湖南岸・水辺舞台"
+
+#. festivalStages.0.lake-bank.note
+#: src/data/festival.js:82
+msgctxt "text:festivalStages.0.lake-bank.note"
+msgid "The lake duplicates lights; fairies count the copies as extra entries."
+msgstr "水面が灯を複製し、妖精は複製分を追加枠と数える。"
+
+#. festivalStages.0.hakurei-yard.name
+#: src/data/festival.js:86
+msgctxt "text:festivalStages.0.hakurei-yard.name"
+msgid "Hakurei Gate Temporary Yard"
+msgstr "博麗門前仮設庭台"
+
+#. festivalStages.0.hakurei-yard.note
+#: src/data/festival.js:91
+msgctxt "text:festivalStages.0.hakurei-yard.note"
+msgid "Reimu can stop it quickly. The donation box is also easily counted as stall revenue."
+msgstr "霊夢が止めやすい。賽銭箱も屋台収入へ算入されやすい。"
+
+#. festivalStages.0.history-court.name
+#: src/data/festival.js:95
+msgctxt "text:festivalStages.0.history-court.name"
+msgid "Hieda Chronicle Court"
+msgstr "稗田史庭"
+
+#. festivalStages.0.history-court.note
+#: src/data/festival.js:100
+msgctxt "text:festivalStages.0.history-court.note"
+msgid ""
+"Every act leaves a version. The ghost residence argues applause need not "
+"travel through air."
+msgstr "全演目に版が残る。幽霊寮は拍手に空気伝播は不要と主張。"
+
+#. festivalPowerPlans.0.kappa-grid.name
+#: src/data/festival.js:107
+msgctxt "text:festivalPowerPlans.0.kappa-grid.name"
+msgid "Kappa Turbine Grid"
+msgstr "河童水車単独給電"
+
+#. festivalPowerPlans.0.kappa-grid.owner
+#: src/data/festival.js:110
+msgctxt "text:festivalPowerPlans.0.kappa-grid.owner"
+msgid "Kappa Joint Workshop"
+msgstr "河童共同工房"
+
+#. festivalPowerPlans.0.kappa-grid.dispute
+#: src/data/festival.js:111
+msgctxt "text:festivalPowerPlans.0.kappa-grid.dispute"
+msgid "The firmware version is under the tape."
+msgstr "ファームウェア版はテープの下。"
+
+#. festivalPowerPlans.0.moriya-grid.name
+#: src/data/festival.js:115
+msgctxt "text:festivalPowerPlans.0.moriya-grid.name"
+msgid "Moriya Divine-Voltage Regulation"
+msgstr "守矢神徳安定化"
+
+#. festivalPowerPlans.0.moriya-grid.owner
+#: src/data/festival.js:118
+msgctxt "text:festivalPowerPlans.0.moriya-grid.owner"
+msgid "Moriya Shrine"
+msgstr "守矢神社"
+
+#. festivalPowerPlans.0.moriya-grid.dispute
+#: src/data/festival.js:119
+msgctxt "text:festivalPowerPlans.0.moriya-grid.dispute"
+msgid "Output is stable, but every distribution box acquires a votive plaque."
+msgstr "出力は安定するが、配電箱ごとに奉納札が増える。"
+
+#. festivalPowerPlans.0.mixed-grid.name
+#: src/data/festival.js:123
+msgctxt "text:festivalPowerPlans.0.mixed-grid.name"
+msgid "Kappa Main Grid + Three-Party Hand-Crank Backup"
+msgstr "河童主網＋三者手回し予備"
+
+#. festivalPowerPlans.0.mixed-grid.owner
+#: src/data/festival.js:126
+msgctxt "text:festivalPowerPlans.0.mixed-grid.owner"
+msgid "Kappa / Hakurei / Myouren joint duty"
+msgstr "河童・博麗・命蓮寺共同当番"
+
+#. festivalPowerPlans.0.mixed-grid.dispute
+#: src/data/festival.js:127
+msgctxt "text:festivalPowerPlans.0.mixed-grid.dispute"
+msgid "Slower, but no one party can leave with the plug."
+msgstr "遅いが、誰も単独でプラグを持ち去れない。"
+
+#. festivalPowerPlans.0.mini-reactors.name
+#: src/data/festival.js:131
+msgctxt "text:festivalPowerPlans.0.mini-reactors.name"
+msgid "Kappa Prototype Micro-Reactor Row"
+msgstr "河童試作小型炉列"
+
+#. festivalPowerPlans.0.mini-reactors.owner
+#: src/data/festival.js:134
+msgctxt "text:festivalPowerPlans.0.mini-reactors.owner"
+msgid "Hisoutensoku Research Society"
+msgstr "非想天則研究会"
+
+#. festivalPowerPlans.0.mini-reactors.dispute
+#: src/data/festival.js:135
+msgctxt "text:festivalPowerPlans.0.mini-reactors.dispute"
+msgid "Highest capacity. The word “prototype” is folded behind the label."
+msgstr "最大容量。「試作」の二字はラベルの裏へ折られている。"
+
+#. festivalFoodCourts.0.village-court.name
+#: src/data/festival.js:142
+msgctxt "text:festivalFoodCourts.0.village-court.name"
+msgid "Human Village Night-Market Tables"
+msgstr "人里夜市長卓"
+
+#. festivalFoodCourts.0.village-court.note
+#: src/data/festival.js:145
+msgctxt "text:festivalFoodCourts.0.village-court.note"
+msgid "Best visitor capacity; grill smoke files its own wind request."
+msgstr "外来客向け最大。焼煙が自分で風向申請する。"
+
+#. festivalFoodCourts.0.lake-stalls.name
+#: src/data/festival.js:149
+msgctxt "text:festivalFoodCourts.0.lake-stalls.name"
+msgid "Misty Lake Floating-Stall Line"
+msgstr "霧の湖・浮灯屋台線"
+
+#. festivalFoodCourts.0.lake-stalls.note
+#: src/data/festival.js:152
+msgctxt "text:festivalFoodCourts.0.lake-stalls.note"
+msgid "Closest to the Night Sparrow kitchen; songs may reflow the menu."
+msgstr "夜雀食堂が舞台最寄り。献立が歌で改行される。"
+
+#. festivalFoodCourts.0.boundary-yard.name
+#: src/data/festival.js:156
+msgctxt "text:festivalFoodCourts.0.boundary-yard.name"
+msgid "Boundary Hall Forecourt"
+msgstr "境界講堂外庭"
+
+#. festivalFoodCourts.0.boundary-yard.note
+#: src/data/festival.js:159
+msgctxt "text:festivalFoodCourts.0.boundary-yard.note"
+msgid "Fastest changeovers; stalls and danmaku must renegotiate which side counts as ground."
+msgstr "転換は最速。屋台と弾幕がどちらを地面と呼ぶか再協議。"
+
+#. festivalFairyZones.0.lake-lawn.name
+#: src/data/festival.js:166
+msgctxt "text:festivalFairyZones.0.lake-lawn.name"
+msgid "Misty Lake Fairy Free Lawn"
+msgstr "霧の湖・妖精自由芝生"
+
+#. festivalFairyZones.0.lake-lawn.note
+#: src/data/festival.js:169
+msgctxt "text:festivalFairyZones.0.lake-lawn.note"
+msgid "The boundary is clear; fairies still treat it as play equipment."
+msgstr "境界線は明瞭だが、妖精は線を遊具として扱う。"
+
+#. festivalFairyZones.0.history-court.name
+#: src/data/festival.js:173
+msgctxt "text:festivalFairyZones.0.history-court.name"
+msgid "Chronicle Court Low-Light Zone"
+msgstr "史庭・低照度演技区"
+
+#. festivalFairyZones.0.history-court.note
+#: src/data/festival.js:176
+msgctxt "text:festivalFairyZones.0.history-court.note"
+msgid "Easy roll call; difficult to tell whether one fairy registered twice."
+msgstr "点呼しやすいが、同じ妖精の重複登録判定は難しい。"
+
+#. festivalFairyZones.0.mobile-cloud.name
+#: src/data/festival.js:180
+msgctxt "text:festivalFairyZones.0.mobile-cloud.name"
+msgid "Mobile Cloud Platform"
+msgstr "移動雲台"
+
+#. festivalFairyZones.0.mobile-cloud.note
+#: src/data/festival.js:183
+msgctxt "text:festivalFairyZones.0.mobile-cloud.note"
+msgid "Most freedom; the venue itself refuses to stay on the map."
+msgstr "最も自由。会場自体が地図上に残る約束を拒否。"
+
+#. festivalAidPlans.0.gate-infirmary.name
+#: src/data/festival.js:190
+msgctxt "text:festivalAidPlans.0.gate-infirmary.name"
+msgid "Hakurei Gate Infirmary Only"
+msgstr "博麗門医務室・単站"
+
+#. festivalAidPlans.0.gate-infirmary.note
+#: src/data/festival.js:193
+msgctxt "text:festivalAidPlans.0.gate-infirmary.note"
+msgid "Fast stopping; slow transfer to the bamboo forest."
+msgstr "停止は早いが、重症の竹林搬送は遅い。"
+
+#. festivalAidPlans.0.eientei-station.name
+#: src/data/festival.js:197
+msgctxt "text:festivalAidPlans.0.eientei-station.name"
+msgid "Eientei Moon-Rabbit Roaming Station"
+msgstr "永遠亭月兎巡回站"
+
+#. festivalAidPlans.0.eientei-station.note
+#: src/data/festival.js:200
+msgctxt "text:festivalAidPlans.0.eientei-station.note"
+msgid "Full treatment; ask Reisen before setting a full-moon patrol route."
+msgstr "処置は充実。満月の巡回路は鈴仙へ先に確認。"
+
+#. festivalAidPlans.0.dual-station.name
+#: src/data/festival.js:204
+msgctxt "text:festivalAidPlans.0.dual-station.name"
+msgid "Gate Infirmary + Eientei Dual Stations"
+msgstr "門前医務室＋永遠亭二站"
+
+#. festivalAidPlans.0.dual-station.note
+#: src/data/festival.js:207
+msgctxt "text:festivalAidPlans.0.dual-station.note"
+msgid "Highest capacity; the two desks mean different things by “observe first.”"
+msgstr "最大容量。両者で「まず観察」の意味が違う。"
+
+#. festivalGatePlans.0.hakurei.name
+#: src/data/festival.js:214
+msgctxt "text:festivalGatePlans.0.hakurei.name"
+msgid "Hakurei Great Barrier Main Gate"
+msgstr "博麗大結界正門"
+
+#. festivalGatePlans.0.hakurei.claimant
+#: src/data/festival.js:215
+msgctxt "text:festivalGatePlans.0.hakurei.claimant"
+msgid "Hakurei Shrine"
+msgstr "博麗神社"
+
+#. festivalGatePlans.0.moriya.name
+#: src/data/festival.js:220
+msgctxt "text:festivalGatePlans.0.moriya.name"
+msgid "Moriya Wind-Priestess Welcome Gate"
+msgstr "守矢風祝迎賓門"
+
+#. festivalGatePlans.0.moriya.claimant
+#: src/data/festival.js:221
+msgctxt "text:festivalGatePlans.0.moriya.claimant"
+msgid "Moriya Shrine"
+msgstr "守矢神社"
+
+#. festivalGatePlans.0.myouren.name
+#: src/data/festival.js:226
+msgctxt "text:festivalGatePlans.0.myouren.name"
+msgid "Myouren Gate for All Beings"
+msgstr "命蓮寺衆生共門"
+
+#. festivalGatePlans.0.myouren.claimant
+#: src/data/festival.js:227
+msgctxt "text:festivalGatePlans.0.myouren.claimant"
+msgid "Myouren Temple"
+msgstr "命蓮寺"
+
+#. festivalGatePlans.0.rotating.name
+#: src/data/festival.js:232
+msgctxt "text:festivalGatePlans.0.rotating.name"
+msgid "Rotate Every Campus Bell"
+msgstr "校鐘ごとの輪番"
+
+#. festivalGatePlans.0.rotating.claimant
+#: src/data/festival.js:233
+msgctxt "text:festivalGatePlans.0.rotating.claimant"
+msgid "Jointly held, mutually unrecognised"
+msgstr "三者共同・相互未承認"
+
+#. festivalPressPlans.0.aya-live.name
+#: src/data/festival.js:241
+msgctxt "text:festivalPressPlans.0.aya-live.name"
+msgid "Bunbunmaru Live Extras"
+msgstr "文々。即時号外"
+
+#. festivalPressPlans.0.aya-live.note
+#: src/data/festival.js:244
+msgctxt "text:festivalPressPlans.0.aya-live.note"
+msgid "Fastest. “Grand Opening” is ready nine minutes before approval."
+msgstr "最速。承認9分前に「盛大開幕」を準備済み。"
+
+#. festivalPressPlans.0.joint-desk.name
+#: src/data/festival.js:248
+msgctxt "text:festivalPressPlans.0.joint-desk.name"
+msgid "Campus Paper / Tengu Joint Wire"
+msgstr "学報・天狗共同通報"
+
+#. festivalPressPlans.0.joint-desk.note
+#: src/data/festival.js:251
+msgctxt "text:festivalPressPlans.0.joint-desk.note"
+msgid "Waits for two headlines to agree and normally trails the programme by one bell."
+msgstr "二つの見出しの合意待ちで、番組表より一鐘遅い。"
+
+#. festivalPressPlans.0.notice-only.name
+#: src/data/festival.js:255
+msgctxt "text:festivalPressPlans.0.notice-only.name"
+msgid "Official Noticeboard Only"
+msgstr "正式木札のみ"
+
+#. festivalPressPlans.0.notice-only.note
+#: src/data/festival.js:258
+msgctxt "text:festivalPressPlans.0.notice-only.note"
+msgid "Never jumps the start; also never catches a noticeboard carried away by fairies."
+msgstr "先走りしない。妖精が木札を運び去っても追わない。"
+
+#. festivalMusicPlans.0.sunset-only.name
+#: src/data/festival.js:265
+msgctxt "text:festivalMusicPlans.0.sunset-only.name"
+msgid "Finish Before the Sunset Bell"
+msgstr "日没鐘前に終了"
+
+#. festivalMusicPlans.0.prismriver-evening.name
+#: src/data/festival.js:271
+msgctxt "text:festivalMusicPlans.0.prismriver-evening.name"
+msgid "Prismriver Evening Set"
+msgstr "騒霊楽団・夜公演"
+
+#. festivalMusicPlans.0.ghost-afterhours.name
+#: src/data/festival.js:277
+msgctxt "text:festivalMusicPlans.0.ghost-afterhours.name"
+msgid "Ghost Residence After-Hours Encore"
+msgstr "幽霊寮・深夜追加公演"
+
+#. festivalReviewDesks.0.reimu.name
+#: src/data/festival.js:287
+msgctxt "text:festivalReviewDesks.0.reimu.name"
+msgid "Hakurei Exit Desk"
+msgstr "博麗退路机"
+
+#. festivalReviewDesks.0.reimu.question
+#: src/data/festival.js:288
+msgctxt "text:festivalReviewDesks.0.reimu.question"
+msgid "Can spectators see the stop signal and actually reach an exit?"
+msgstr "観客は停止合図を見て、実際に出口へ行けるか。"
+
+#. festivalReviewDesks.0.nitori.name
+#: src/data/festival.js:293
+msgctxt "text:festivalReviewDesks.0.nitori.name"
+msgid "Kappa Power & Recovery Desk"
+msgstr "河童給電・回収机"
+
+#. festivalReviewDesks.0.nitori.question
+#: src/data/festival.js:294
+msgctxt "text:festivalReviewDesks.0.nitori.question"
+msgid "Are lights, stages, stalls, and backups on the same honest diagram?"
+msgstr "灯・舞台・屋台・予備電源は同じ正直な図にあるか。"
+
+#. festivalReviewDesks.0.eirin.name
+#: src/data/festival.js:299
+msgctxt "text:festivalReviewDesks.0.eirin.name"
+msgid "Eientei Medical Desk"
+msgstr "永遠亭救護机"
+
+#. festivalReviewDesks.0.eirin.question
+#: src/data/festival.js:300
+msgctxt "text:festivalReviewDesks.0.eirin.question"
+msgid "Were moon, density, capacity, and the nearest person who can stop it counted together?"
+msgstr "月相・密度・収容・最寄りの停止者を一緒に数えたか。"
+
+#. festivalReviewDesks.0.aya.name
+#: src/data/festival.js:305
+msgctxt "text:festivalReviewDesks.0.aya.name"
+msgid "Bunbunmaru Wire Desk"
+msgstr "文々。広報机"
+
+#. festivalReviewDesks.0.aya.question
+#: src/data/festival.js:306
+msgctxt "text:festivalReviewDesks.0.aya.question"
+msgid "Will the public see the permit or Aya's prewritten conclusion first?"
+msgstr "公衆が先に見るのは承認内容か、文の用意済み結論か。"
+
+#. festivalReviewDesks.0.faith.name
+#: src/data/festival.js:311
+msgctxt "text:festivalReviewDesks.0.faith.name"
+msgid "Three-Faith Main-Gate Council"
+msgstr "三信仰正門会議"
+
+#. festivalReviewDesks.0.faith.question
+#: src/data/festival.js:312
+msgctxt "text:festivalReviewDesks.0.faith.question"
+msgid "Is the sole main gate traffic control or unbudgeted ownership of the festival?"
+msgstr "唯一の正門は交通計画か、予算にない主催権か。"
+
+#. festivalReviewDesks.0.residence.name
+#: src/data/festival.js:317
+msgctxt "text:festivalReviewDesks.0.residence.name"
+msgid "Residence & Fairy Night Desk"
+msgstr "学生寮・妖精共同夜机"
+
+#. festivalReviewDesks.0.residence.question
+#: src/data/festival.js:318
+msgctxt "text:festivalReviewDesks.0.residence.question"
+msgid "Who can promise that shared sound, clouds, and lawns will stay where filed?"
+msgstr "夜に共有する音・雲・芝生を、誰が元の場所に留めると約束できるか。"
+
+#. festivalIncidentPool.0.aya-early-opening.title
+#: src/data/festival.js:326
+msgctxt "text:festivalIncidentPool.0.aya-early-opening.title"
+msgid "Extra declares a grand opening; Reimu has not stamped it"
+msgstr "号外は盛大開幕を宣言、霊夢はまだ未押印"
+
+#. festivalIncidentPool.0.aya-early-opening.body
+#: src/data/festival.js:327
+msgctxt "text:festivalIncidentPool.0.aya-early-opening.body"
+msgid ""
+"Visitors are already moving toward the main gate on Bunbunmaru's "
+"nine-minute-early report."
+msgstr "来訪者は文々。の9分前報道で正門へ移動中。"
+
+#. festivalIncidentPool.0.aya-early-opening.responses.correction-slip.label
+#: src/data/festival.js:331
+msgctxt "text:festivalIncidentPool.0.aya-early-opening.responses.correction-slip.label"
+msgid "Make Aya post a correction and retain the old headline"
+msgstr "文に訂正を貼らせ原見出しも保存"
+
+#. festivalIncidentPool.0.aya-early-opening.responses.open-early.label
+#: src/data/festival.js:336
+msgctxt "text:festivalIncidentPool.0.aya-early-opening.responses.open-early.label"
+msgid "Admit the news arrived before permission and open early"
+msgstr "報道が許可より早いと認め前倒し開門"
+
+#. festivalIncidentPool.0.aya-early-opening.responses.ask-keine.label
+#: src/data/festival.js:341
+msgctxt "text:festivalIncidentPool.0.aya-early-opening.responses.ask-keine.label"
+msgid "Ask Keine whether it already counts as open"
+msgstr "慧音に現在が開幕後か判定依頼"
+
+#. festivalIncidentPool.0.power-votive-plaques.title
+#: src/data/festival.js:349
+msgctxt "text:festivalIncidentPool.0.power-votive-plaques.title"
+msgid "Every power box sprouts a votive plaque; load is now measured in faith"
+msgstr "配電箱に奉納札、負荷表が信仰単位へ"
+
+#. festivalIncidentPool.0.power-votive-plaques.body
+#: src/data/festival.js:350
+msgctxt "text:festivalIncidentPool.0.power-votive-plaques.body"
+msgid "Moriya claims greater stability; Nitori says the telemetry is no longer reproducible."
+msgstr "守矢は安定化を主張、にとりは監視項目が再現不能と主張。"
+
+#. festivalIncidentPool.0.power-votive-plaques.responses.shed-lantern-row.label
+#: src/data/festival.js:354
+msgctxt "text:festivalIncidentPool.0.power-votive-plaques.responses.shed-lantern-row.label"
+msgid "Shed one lake-lantern row and retain the shared meter"
+msgstr "湖灯一列を停止し共同計器を維持"
+
+#. festivalIncidentPool.0.power-votive-plaques.responses.grant-shrine-stage.label
+#: src/data/festival.js:359
+msgctxt "text:festivalIncidentPool.0.power-votive-plaques.responses.grant-shrine-stage.label"
+msgid "Trade one programme slot for Moriya stage credit"
+msgstr "守矢舞台の一枠と交換"
+
+#. festivalIncidentPool.0.power-votive-plaques.responses.hand-crank.label
+#: src/data/festival.js:364
+msgctxt "text:festivalIncidentPool.0.power-votive-plaques.responses.hand-crank.label"
+msgid "Switch to three-party hand-crank backup and make the dispute generate power"
+msgstr "三者手回し予備へ切替、論争で発電"
+
+#. festivalIncidentPool.0.fairy-lantern-drift.title
+#: src/data/festival.js:372
+msgctxt "text:festivalIncidentPool.0.fairy-lantern-drift.title"
+msgid "The fairy zone and its cloud drift into the audience exit"
+msgstr "妖精演技区と雲台が観客退路へ漂流"
+
+#. festivalIncidentPool.0.fairy-lantern-drift.body
+#: src/data/festival.js:373
+msgctxt "text:festivalIncidentPool.0.fairy-lantern-drift.body"
+msgid "The fairies say the venue moved first and they faithfully stayed inside it."
+msgstr "妖精は会場が先に動き、自分たちは忠実に残ったと主張。"
+
+#. festivalIncidentPool.0.fairy-lantern-drift.responses.widen-exit.label
+#: src/data/festival.js:377
+msgctxt "text:festivalIncidentPool.0.fairy-lantern-drift.responses.widen-exit.label"
+msgid "Pause the main stage and widen the physical exit"
+msgstr "主舞台を停止し物理退路を拡幅"
+
+#. festivalIncidentPool.0.fairy-lantern-drift.responses.parade-cloud.label
+#: src/data/festival.js:382
+msgctxt "text:festivalIncidentPool.0.fairy-lantern-drift.responses.parade-cloud.label"
+msgid "Reclassify the drift as an impromptu parade with two guides"
+msgstr "漂流を臨時行列へ変更し誘導二名"
+
+#. festivalIncidentPool.0.fairy-lantern-drift.responses.ring-recall.label
+#: src/data/festival.js:387
+msgctxt "text:festivalIncidentPool.0.fairy-lantern-drift.responses.ring-recall.label"
+msgid "Ring the recall bell and admit only thirty percent of fairies recognise it"
+msgstr "回収鐘を鳴らし、認識妖精は三割と認める"
+
+#. festivalIncidentPool.0.prismriver-airless-noise.title
+#: src/data/festival.js:395
+msgctxt "text:festivalIncidentPool.0.prismriver-airless-noise.title"
+msgid "Ghost residence files a noise complaint; Prismriver asks whether sound used air"
+msgstr "幽霊寮が深夜騒音を申立て、騒霊楽団は空気伝播の立証を要求"
+
+#. festivalIncidentPool.0.prismriver-airless-noise.body
+#: src/data/festival.js:396
+msgctxt "text:festivalIncidentPool.0.prismriver-airless-noise.body"
+msgid "No windows vibrate; residents' dreams and photographs inside the walls keep time."
+msgstr "寮窓は振動せず、住民の夢と壁内写真だけが拍子を取る。"
+
+#. festivalIncidentPool.0.prismriver-airless-noise.responses.end-encore.label
+#: src/data/festival.js:400
+msgctxt "text:festivalIncidentPool.0.prismriver-airless-noise.responses.end-encore.label"
+msgid "End the encore and list unplayed pieces for next year"
+msgstr "追加公演を終了、未演曲を次回へ"
+
+#. festivalIncidentPool.0.prismriver-airless-noise.responses.move-lake.label
+#: src/data/festival.js:405
+msgctxt "text:festivalIncidentPool.0.prismriver-airless-noise.responses.move-lake.label"
+msgid "Move to the lake and ask the library to register the reflected sound"
+msgstr "霧の湖水面へ移動、図書館に反響の登録依頼"
+
+#. festivalIncidentPool.0.prismriver-airless-noise.responses.silent-ruling.label
+#: src/data/festival.js:410
+msgctxt "text:festivalIncidentPool.0.prismriver-airless-noise.responses.silent-ruling.label"
+msgid "Rule that no airborne transmission does not mean no shared burden"
+msgstr "空気伝播なしでも共有負担ありと裁定"
+
+#. festivalIncidentPool.0.full-moon-book-flock.title
+#: src/data/festival.js:418
+msgctxt "text:festivalIncidentPool.0.full-moon-book-flock.title"
+msgid "Full-moon special collections attend the festival; the library wants them counted"
+msgstr "満月特蔵が灯会へ外出、図書館は観客数算入を要求"
+
+#. festivalIncidentPool.0.full-moon-book-flock.body
+#: src/data/festival.js:419
+msgctxt "text:festivalIncidentPool.0.full-moon-book-flock.body"
+msgid "Seventeen books form their own programme in the air; none carries a visitor ticket."
+msgstr "十七冊が空域で独自番組を編成、来訪券は一冊も不携帯。"
+
+#. festivalIncidentPool.0.full-moon-book-flock.responses.count-spines.label
+#: src/data/festival.js:423
+msgctxt "text:festivalIncidentPool.0.full-moon-book-flock.responses.count-spines.label"
+msgid "Count every spine toward capacity and open a return lane"
+msgstr "背表紙ごとに収容数へ算入し帰館線を開く"
+
+#. festivalIncidentPool.0.full-moon-book-flock.responses.performers.label
+#: src/data/festival.js:428
+msgctxt "text:festivalIncidentPool.0.full-moon-book-flock.responses.performers.label"
+msgid "Register them as impromptu performers, outside audience capacity"
+msgstr "臨時出演者として観客枠外"
+
+#. festivalIncidentPool.0.full-moon-book-flock.responses.library-recall.label
+#: src/data/festival.js:433
+msgctxt "text:festivalIncidentPool.0.full-moon-book-flock.responses.library-recall.label"
+msgid "Ask the library to issue due notices without promising compliance"
+msgstr "図書館に返却期限通知、従う保証なし"
+
+#. festivalIncidentPool.0.rain-border-pocket.title
+#: src/data/festival.js:441
+msgctxt "text:festivalIncidentPool.0.rain-border-pocket.title"
+msgid "Fairy-local rain falls only outside the official wet-weather zone"
+msgstr "妖精局地雨が正式雨天区画の外だけに降る"
+
+#. festivalIncidentPool.0.rain-border-pocket.body
+#: src/data/festival.js:442
+msgctxt "text:festivalIncidentPool.0.rain-border-pocket.body"
+msgid ""
+"Yukari offers to move “outside”; logistics first wants to know which side "
+"contains the tents."
+msgstr "紫は「外」を移動する案、後勤班はテントがどちら側か先に要求。"
+
+#. festivalIncidentPool.0.rain-border-pocket.responses.move-boundary.label
+#: src/data/festival.js:446
+msgctxt "text:festivalIncidentPool.0.rain-border-pocket.responses.move-boundary.label"
+msgid "Move the wet-weather boundary, not the audience"
+msgstr "雨天区画境界を移動、観客は動かさない"
+
+#. festivalIncidentPool.0.rain-border-pocket.responses.paper-capes.label
+#: src/data/festival.js:451
+msgctxt "text:festivalIncidentPool.0.rain-border-pocket.responses.paper-capes.label"
+msgid "Issue campus-paper rain capes; Aya reserves the readable front page"
+msgstr "学報雨合羽を配布、文は一面の可読面を確保"
+
+#. festivalIncidentPool.0.rain-border-pocket.responses.pause-lanterns.label
+#: src/data/festival.js:456
+msgctxt "text:festivalIncidentPool.0.rain-border-pocket.responses.pause-lanterns.label"
+msgid "Pause lanterns for one watch until the rain acknowledges the site"
+msgstr "灯を一刻停止、雨が会場を認めるまで待つ"
+
+#. festivalIncidentPool.0.gate-claimants.title
+#: src/data/festival.js:464
+msgctxt "text:festivalIncidentPool.0.gate-claimants.title"
+msgid "Three “sole main gates” begin ribbon-cutting at once"
+msgstr "三つの「唯一正門」が同時にテープカット"
+
+#. festivalIncidentPool.0.gate-claimants.body
+#: src/data/festival.js:465
+msgctxt "text:festivalIncidentPool.0.gate-claimants.body"
+msgid "The procession stops in a road with no traffic congestion, only theological congestion."
+msgstr "行列は交通渋滞ではなく神学渋滞の道で停止。"
+
+#. festivalIncidentPool.0.gate-claimants.responses.rotate-bell.label
+#: src/data/festival.js:469
+msgctxt "text:festivalIncidentPool.0.gate-claimants.responses.rotate-bell.label"
+msgid "Rotate by campus bell; rotate the scissors too"
+msgstr "校鐘輪番、鋏も輪番"
+
+#. festivalIncidentPool.0.gate-claimants.responses.three-ribbons.label
+#: src/data/festival.js:474
+msgctxt "text:festivalIncidentPool.0.gate-claimants.responses.three-ribbons.label"
+msgid "Cut three ribbons facing different directions"
+msgstr "三方向のリボンを切る"
+
+#. festivalIncidentPool.0.gate-claimants.responses.yukari-gate.label
+#: src/data/festival.js:479
+msgctxt "text:festivalIncidentPool.0.gate-claimants.responses.yukari-gate.label"
+msgid "Use Yukari's fourth gate with no front or back"
+msgstr "紫の表裏なき第四門を採用"

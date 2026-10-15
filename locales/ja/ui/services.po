@@ -1,0 +1,646 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/application/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/application/0"
+msgid "ONLINE APPLICATION / 2026"
+msgstr "ONLINE APPLICATION / 2026"
+
+#. copy/application/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/application/1"
+msgid "Online Application"
+msgstr "オンライン入学出願"
+
+#. copy/application/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/application/2"
+msgid "Save in stages. Submission creates an internal application reference."
+msgstr "途中保存できます。提出後、学内受付番号が発行されます。"
+
+#. copy/availability/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/availability/0"
+msgid "ROOM FINDER / LIVE"
+msgstr "ROOM FINDER / LIVE"
+
+#. copy/availability/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/availability/1"
+msgid "Room Availability"
+msgstr "施設空き状況"
+
+#. copy/availability/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/availability/2"
+msgid "Find classrooms, seminar rooms, and workshops currently available by building."
+msgstr "現在利用できる教室、演習室、工房を施設別に確認します。"
+
+#. copy/visit/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/visit/0"
+msgid "CAMPUS VISIT / RESERVATION"
+msgstr "CAMPUS VISIT / RESERVATION"
+
+#. copy/visit/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/visit/1"
+msgid "Campus Visit Reservation"
+msgstr "来校予約"
+
+#. copy/visit/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/visit/2"
+msgid "Choose your arrival route and date. Outside World visitors are checked at Hakurei Gate."
+msgstr "到着方法と日付を選択。外界からの来訪者は博麗門で確認します。"
+
+#. copy/dining/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/dining/0"
+msgid "DINING / TODAY"
+msgstr "DINING / TODAY"
+
+#. copy/dining/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/dining/1"
+msgid "Today's Dining Menu"
+msgstr "本日の食堂メニュー"
+
+#. copy/dining/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/dining/2"
+msgid "Offerings may shift with foraging, lunar phase, and night-sparrow performance times."
+msgstr "採集、月相、夜雀の演奏時刻により内容が変わる場合があります。"
+
+#. copy/timetable/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/timetable/0"
+msgid "ACADEMIC AFFAIRS / CLASSES"
+msgstr "ACADEMIC AFFAIRS / CLASSES"
+
+#. copy/timetable/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/timetable/1"
+msgid "Today's Class Schedule"
+msgstr "本日の時間割"
+
+#. copy/timetable/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/timetable/2"
+msgid "Shared-campus timetable. Room changes are posted fifteen minutes before class."
+msgstr "共同キャンパスの時間割。教室変更は開始15分前までに更新されます。"
+
+#. copy/exams/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/exams/0"
+msgid "ACADEMIC AFFAIRS / EXAMS"
+msgstr "ACADEMIC AFFAIRS / EXAMS"
+
+#. copy/exams/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/exams/1"
+msgid "Examination Schedule"
+msgstr "試験日程"
+
+#. copy/exams/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/exams/2"
+msgid "Check venue rules and permitted materials; flying candidates should allow berthing time."
+msgstr "会場規則と持込資料を確認し、飛行者は停泊時間も確保してください。"
+
+#. copy/name
+#: src/js/services.js:17
+msgctxt "tree:copy#/name"
+msgid "Name or known name"
+msgstr "氏名・通称"
+
+#. copy/origin
+#: src/js/services.js:17
+msgctxt "tree:copy#/origin"
+msgid "Current residence"
+msgstr "現住所"
+
+#. copy/identity
+#: src/js/services.js:17
+msgctxt "tree:copy#/identity"
+msgid "Species / identity"
+msgstr "種族／身分"
+
+#. copy/school
+#: src/js/services.js:17
+msgctxt "tree:copy#/school"
+msgid "Preferred school"
+msgstr "志望学部"
+
+#. copy/contact
+#: src/js/services.js:17
+msgctxt "tree:copy#/contact"
+msgid "Contact"
+msgstr "連絡先"
+
+#. copy/question
+#: src/js/services.js:17
+msgctxt "tree:copy#/question"
+msgid "The question you want to bring"
+msgstr "キャンパスへ持ち込みたい問い"
+
+#. copy/method
+#: src/js/services.js:17
+msgctxt "tree:copy#/method"
+msgid "How you plan to observe it"
+msgstr "どのように観察しますか"
+
+#. copy/needs
+#: src/js/services.js:17
+msgctxt "tree:copy#/needs"
+msgid "Housing, food, lunar, or safety needs"
+msgstr "住居・食事・月相・安全上の希望"
+
+#. copy/save
+#: src/js/services.js:17
+msgctxt "tree:copy#/save"
+msgid "Save draft"
+msgstr "下書き保存"
+
+#. copy/submit
+#: src/js/services.js:17
+msgctxt "tree:copy#/submit"
+msgid "Submit application"
+msgstr "出願する"
+
+#. copy/saved
+#: src/js/services.js:17
+msgctxt "tree:copy#/saved"
+msgid "Draft saved on this device."
+msgstr "下書きをこの端末に保存しました。"
+
+#. copy/accepted
+#: src/js/services.js:17
+msgctxt "tree:copy#/accepted"
+msgid "Application received"
+msgstr "出願を受け付けました"
+
+#. copy/acceptedBody
+#: src/js/services.js:17
+msgctxt "tree:copy#/acceptedBody"
+msgid "Keep this reference; the Admissions Office will use it for the next stage."
+msgstr "受付番号を保存してください。入学相談室が次の選抜を案内します。"
+
+#. copy/newApplication
+#: src/js/services.js:17
+msgctxt "tree:copy#/newApplication"
+msgid "Start another application"
+msgstr "別の出願を書く"
+
+#. copy/myApplications
+#: src/js/services.js:17
+msgctxt "tree:copy#/myApplications"
+msgid "My Applications"
+msgstr "自分の出願"
+
+#. copy/localRecords
+#: src/js/services.js:17
+msgctxt "tree:copy#/localRecords"
+msgid "Applications on this device"
+msgstr "この端末の出願記録"
+
+#. copy/localRecordsLead
+#: src/js/services.js:17
+msgctxt "tree:copy#/localRecordsLead"
+msgid "Applications and drafts stay in this browser and do not sync to other devices."
+msgstr "出願と下書きはこの端末だけに保存され、他のブラウザへ同期されません。"
+
+#. copy/noApplications
+#: src/js/services.js:17
+msgctxt "tree:copy#/noApplications"
+msgid "No applications have been submitted from this device yet."
+msgstr "この端末には提出済みの出願がまだありません。"
+
+#. copy/backToForm
+#: src/js/services.js:17
+msgctxt "tree:copy#/backToForm"
+msgid "Back to application"
+msgstr "出願フォームへ戻る"
+
+#. copy/submitted
+#: src/js/services.js:17
+msgctxt "tree:copy#/submitted"
+msgid "Submitted"
+msgstr "提出済み"
+
+#. copy/submittedOn
+#: src/js/services.js:17
+msgctxt "tree:copy#/submittedOn"
+msgid "Submitted"
+msgstr "提出日時"
+
+#. copy/applicationDetail
+#: src/js/services.js:17
+msgctxt "tree:copy#/applicationDetail"
+msgid "View application details"
+msgstr "出願内容を見る"
+
+#. copy/deleteRecord
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteRecord"
+msgid "Delete local record"
+msgstr "端末の記録を削除"
+
+#. copy/deleteConfirm
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteConfirm"
+msgid "Delete this application record from this device?"
+msgstr "この端末から出願記録を削除しますか？"
+
+#. copy/recordDeleted
+#: src/js/services.js:17
+msgctxt "tree:copy#/recordDeleted"
+msgid "Application record deleted from this device."
+msgstr "この端末の出願記録を削除しました。"
+
+#. copy/draftPresent
+#: src/js/services.js:17
+msgctxt "tree:copy#/draftPresent"
+msgid "An autosaved draft is available"
+msgstr "自動保存された下書きがあります"
+
+#. copy/formAutoSave
+#: src/js/services.js:17
+msgctxt "tree:copy#/formAutoSave"
+msgid "Your entries are autosaved on this device."
+msgstr "入力内容はこの端末へ自動保存されます。"
+
+#. copy/selectedSchool
+#: src/js/services.js:17
+msgctxt "tree:copy#/selectedSchool"
+msgid "Your choice from the school catalogue is preselected; you may still change it."
+msgstr "学部案内から志望先を入力しました。フォーム内で変更できます。"
+
+#. copy/recordsUnit
+#: src/js/services.js:17
+msgctxt "tree:copy#/recordsUnit"
+msgid "submitted"
+msgstr "件提出済み"
+
+#. copy/selectSchool
+#: src/js/services.js:17
+msgctxt "tree:copy#/selectSchool"
+msgid "Select one"
+msgstr "選択してください"
+
+#. copy/consent
+#: src/js/services.js:17
+msgctxt "tree:copy#/consent"
+msgid "I confirm the Admissions Office may use this information for selection."
+msgstr "上記内容を入学相談室が選抜審査に利用することを確認します。"
+
+#. copy/allBuildings
+#: src/js/services.js:17
+msgctxt "tree:copy#/allBuildings"
+msgid "All buildings"
+msgstr "すべての施設"
+
+#. copy/building
+#: src/js/services.js:17
+msgctxt "tree:copy#/building"
+msgid "Building"
+msgstr "施設"
+
+#. copy/room
+#: src/js/services.js:17
+msgctxt "tree:copy#/room"
+msgid "Room"
+msgstr "部屋"
+
+#. copy/type
+#: src/js/services.js:17
+msgctxt "tree:copy#/type"
+msgid "Type"
+msgstr "種別"
+
+#. copy/seats
+#: src/js/services.js:17
+msgctxt "tree:copy#/seats"
+msgid "Seats"
+msgstr "席"
+
+#. copy/freeUntil
+#: src/js/services.js:17
+msgctxt "tree:copy#/freeUntil"
+msgid "Free until"
+msgstr "利用可能時刻"
+
+#. copy/availableNow
+#: src/js/services.js:17
+msgctxt "tree:copy#/availableNow"
+msgid "Available now"
+msgstr "現在利用可"
+
+#. copy/liveFacilities
+#: src/js/services.js:17
+msgctxt "tree:copy#/liveFacilities"
+msgid "Live facility board"
+msgstr "現在の施設開館板"
+
+#. copy/hoursLabel
+#: src/js/services.js:17
+msgctxt "tree:copy#/hoursLabel"
+msgid "Opening hours"
+msgstr "開館時間"
+
+#. copy/openNow
+#: src/js/services.js:17
+msgctxt "tree:copy#/openNow"
+msgid "Open now"
+msgstr "開館中"
+
+#. copy/closedNow
+#: src/js/services.js:17
+msgctxt "tree:copy#/closedNow"
+msgid "Currently closed"
+msgstr "現在閉館"
+
+#. copy/seatsFree
+#: src/js/services.js:17
+msgctxt "tree:copy#/seatsFree"
+msgid "places free"
+msgstr "空席"
+
+#. copy/noRooms
+#: src/js/services.js:17
+msgctxt "tree:copy#/noRooms"
+msgid ""
+"No room is directly available in this period. Check the closure and load "
+"notices above, or wait for the next bell."
+msgstr "この時間に直接利用できる部屋はありません。上の休館・減載告知を確認するか、次の校鐘をお待ちください。"
+
+#. copy/reading
+#: src/js/services.js:17
+msgctxt "tree:copy#/reading"
+msgid "Reading room"
+msgstr "閲覧室"
+
+#. copy/classroom
+#: src/js/services.js:17
+msgctxt "tree:copy#/classroom"
+msgid "Classroom"
+msgstr "教室"
+
+#. copy/seminar
+#: src/js/services.js:17
+msgctxt "tree:copy#/seminar"
+msgid "Seminar room"
+msgstr "演習室"
+
+#. copy/lab
+#: src/js/services.js:17
+msgctxt "tree:copy#/lab"
+msgid "Laboratory"
+msgstr "実験室"
+
+#. copy/workshop
+#: src/js/services.js:17
+msgctxt "tree:copy#/workshop"
+msgid "Workshop"
+msgstr "工房"
+
+#. copy/visitor
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitor"
+msgid "Visitor name"
+msgstr "来訪者名"
+
+#. copy/party
+#: src/js/services.js:17
+msgctxt "tree:copy#/party"
+msgid "Party size"
+msgstr "同行人数"
+
+#. copy/date
+#: src/js/services.js:17
+msgctxt "tree:copy#/date"
+msgid "Visit date"
+msgstr "来校日"
+
+#. copy/route
+#: src/js/services.js:17
+msgctxt "tree:copy#/route"
+msgid "Arrival gate"
+msgstr "到着入口"
+
+#. copy/visitNeeds
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitNeeds"
+msgid "Access and assistance needs"
+msgstr "通行・支援の希望"
+
+#. copy/reserve
+#: src/js/services.js:17
+msgctxt "tree:copy#/reserve"
+msgid "Reserve visit"
+msgstr "予約を送信"
+
+#. copy/reserved
+#: src/js/services.js:17
+msgctxt "tree:copy#/reserved"
+msgid "Campus visit registered"
+msgstr "来校予約を登録しました"
+
+#. copy/reservedBody
+#: src/js/services.js:17
+msgctxt "tree:copy#/reservedBody"
+msgid "Arrive fifteen minutes early and present the following passage reference."
+msgstr "予約時刻の15分前に入口へ到着し、次の通行番号を提示してください。"
+
+#. copy/saveVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/saveVisit"
+msgid "Save visit draft"
+msgstr "予約下書きを保存"
+
+#. copy/visitSaved
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitSaved"
+msgid "Visit draft saved on this device."
+msgstr "来校予約の下書きをこの端末へ保存しました。"
+
+#. copy/myVisits
+#: src/js/services.js:17
+msgctxt "tree:copy#/myVisits"
+msgid "My Campus Visits"
+msgstr "自分の来校予約"
+
+#. copy/visitRecords
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitRecords"
+msgid "Campus visits on this device"
+msgstr "この端末の来校記録"
+
+#. copy/visitRecordsLead
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitRecordsLead"
+msgid "Reservations and drafts stay in this browser and do not sync to other devices."
+msgstr "予約と下書きはこの端末だけに保存され、他のブラウザへ同期されません。"
+
+#. copy/noVisits
+#: src/js/services.js:17
+msgctxt "tree:copy#/noVisits"
+msgid "No campus visit has been submitted from this device."
+msgstr "この端末には提出済みの来校予約がありません。"
+
+#. copy/backToVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/backToVisit"
+msgid "Back to visit form"
+msgstr "予約フォームへ戻る"
+
+#. copy/newVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/newVisit"
+msgid "Reserve another visit"
+msgstr "別の来校を予約"
+
+#. copy/visitDetail
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitDetail"
+msgid "View access needs"
+msgstr "通行希望を見る"
+
+#. copy/deleteVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteVisit"
+msgid "Delete local reservation"
+msgstr "端末の予約を削除"
+
+#. copy/deleteVisitConfirm
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteVisitConfirm"
+msgid "Delete this campus-visit reservation from this device?"
+msgstr "この端末から来校予約を削除しますか。"
+
+#. copy/visitDeleted
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitDeleted"
+msgid "Campus-visit reservation deleted from this device."
+msgstr "この端末の来校予約を削除しました。"
+
+#. copy/visitDraftPresent
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitDraftPresent"
+msgid "An autosaved visit draft is available"
+msgstr "自動保存された予約下書きがあります"
+
+#. copy/visitAutoSave
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitAutoSave"
+msgid "Your entries are autosaved on this device."
+msgstr "入力内容はこの端末へ自動保存されます。"
+
+#. copy/visitRecordsUnit
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitRecordsUnit"
+msgid "reserved"
+msgstr "件予約済み"
+
+#. copy/menu
+#: src/js/services.js:17
+msgctxt "tree:copy#/menu"
+msgid "Item"
+msgstr "品名"
+
+#. copy/contents
+#: src/js/services.js:17
+msgctxt "tree:copy#/contents"
+msgid "Contents"
+msgstr "内容"
+
+#. copy/price
+#: src/js/services.js:17
+msgctxt "tree:copy#/price"
+msgid "Price"
+msgstr "価格"
+
+#. copy/note
+#: src/js/services.js:17
+msgctxt "tree:copy#/note"
+msgid "Note"
+msgstr "備考"
+
+#. copy/time
+#: src/js/services.js:17
+msgctxt "tree:copy#/time"
+msgid "Time"
+msgstr "時刻"
+
+#. copy/course
+#: src/js/services.js:17
+msgctxt "tree:copy#/course"
+msgid "Course"
+msgstr "授業"
+
+#. copy/instructor
+#: src/js/services.js:17
+msgctxt "tree:copy#/instructor"
+msgid "Instructor"
+msgstr "担当"
+
+#. copy/change
+#: src/js/services.js:17
+msgctxt "tree:copy#/change"
+msgid "Live change"
+msgstr "現場変更"
+
+#. copy/examination
+#: src/js/services.js:17
+msgctxt "tree:copy#/examination"
+msgid "Examination"
+msgstr "試験"
+
+#. copy/venue
+#: src/js/services.js:17
+msgctxt "tree:copy#/venue"
+msgid "Venue"
+msgstr "会場"
+
+#. copy/format
+#: src/js/services.js:17
+msgctxt "tree:copy#/format"
+msgid "Format"
+msgstr "形式"
+
+#. copy/required
+#: src/js/services.js:17
+msgctxt "tree:copy#/required"
+msgid "Please complete all required fields."
+msgstr "必須項目をすべて入力してください。"
+
+#. copy/hakureiGate
+#: src/js/services.js:17
+msgctxt "tree:copy#/hakureiGate"
+msgid "Hakurei Gate (walk)"
+msgstr "博麗門（徒歩）"
+
+#. copy/mountainGate
+#: src/js/services.js:17
+msgctxt "tree:copy#/mountainGate"
+msgid "Youkai Mountain Gate (mountain)"
+msgstr "妖怪山門（山道）"
+
+#. copy/mistyPier
+#: src/js/services.js:17
+msgctxt "tree:copy#/mistyPier"
+msgid "Misty Lake Pier (water)"
+msgstr "霧の湖桟橋（水路）"
+
+#. copy/skyBerth
+#: src/js/services.js:17
+msgctxt "tree:copy#/skyBerth"
+msgid "Boundary Hall Roof (air)"
+msgstr "境界講堂屋上（空路）"

@@ -1,0 +1,423 @@
+.phantasm-defence-layout aside small {
+  color: rgba(237, 240, 223, 0.3);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+}
+
+.phantasm-records {
+  margin-top: 3rem;
+}
+
+.phantasm-records > header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem 1rem;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+
+.phantasm-records > header p {
+  grid-column: 1 / -1;
+  color: var(--dream-violet);
+}
+
+.phantasm-records > header h3 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.phantasm-records > header span {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+}
+
+.phantasm-empty-record {
+  margin: 0;
+  padding: 4rem;
+  color: var(--dream-muted);
+  border: 1px dashed rgba(198, 166, 213, 0.22);
+  text-align: center;
+}
+
+.phantasm-final-transcript {
+  margin-top: 1rem;
+  color: #211f26;
+  border: 1px solid #aaa5ac;
+  background:
+    linear-gradient(90deg, rgba(101, 75, 112, 0.04) 1px, transparent 1px) 0 0 / 4rem 100%,
+    #ebe7de;
+}
+
+.phantasm-final-transcript.is-focused {
+  box-shadow: 0 0 0 2px var(--dream-violet), 1rem 1rem 0 rgba(121, 85, 137, 0.16);
+}
+
+.phantasm-final-transcript > header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+  padding: 2.3rem;
+  border-bottom: 2px solid #28232b;
+}
+
+.phantasm-final-transcript > header p {
+  margin: 0;
+  color: #70567b;
+  font-size: 0.67rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+
+.phantasm-final-transcript > header h3 {
+  margin: 0.5rem 0 0.25rem;
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.phantasm-final-transcript > header strong {
+  color: #98465a;
+  font-size: 0.67rem;
+  letter-spacing: 0.08em;
+}
+
+.phantasm-final-transcript > header > span {
+  display: grid;
+  place-items: center;
+  width: 4.4rem;
+  height: 4.4rem;
+  color: #98465a;
+  border: 2px solid #98465a;
+  border-radius: 50%;
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  transform: rotate(-9deg);
+}
+
+.phantasm-transcript-meta {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr 1fr 1fr;
+  margin: 0;
+  border-bottom: 1px solid #b4afb5;
+}
+
+.phantasm-transcript-meta div {
+  padding: 1rem;
+  border-right: 1px solid #b4afb5;
+}
+
+.phantasm-transcript-meta div:last-child {
+  border-right: 0;
+}
+
+.phantasm-transcript-meta dt,
+.phantasm-final-transcript > section > p,
+.phantasm-ruling-grid p {
+  color: #796f7b;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.phantasm-transcript-meta dd {
+  margin: 0.4rem 0 0;
+  font-size: 0.8rem;
+}
+
+.phantasm-final-transcript > section {
+  padding: 1.8rem 2.3rem;
+  border-bottom: 1px solid #b4afb5;
+}
+
+.phantasm-final-transcript > section > p {
+  margin: 0 0 1rem;
+}
+
+.phantasm-final-transcript ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.phantasm-final-transcript li {
+  display: grid;
+  grid-template-columns: 6rem 1fr auto;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-top: 1px dotted #b7b1b7;
+}
+
+.phantasm-final-transcript li small {
+  color: #746c77;
+}
+
+.phantasm-defended-route h4 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.phantasm-defended-route blockquote {
+  margin: 1rem 0 0;
+  padding-left: 1rem;
+  color: #514b53;
+  border-left: 2px solid #8e658e;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.phantasm-ruling-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr 1fr;
+  border-bottom: 1px solid #b4afb5;
+}
+
+.phantasm-ruling-grid section {
+  padding: 1.5rem;
+  border-right: 1px solid #b4afb5;
+}
+
+.phantasm-ruling-grid section:last-child {
+  border-right: 0;
+}
+
+.phantasm-ruling-grid p {
+  margin: 0 0 0.7rem;
+}
+
+.phantasm-ruling-grid strong,
+.phantasm-ruling-grid span {
+  display: block;
+  line-height: 1.75;
+}
+
+.phantasm-ruling-grid strong {
+  margin-bottom: 0.5rem;
+  color: #744d78;
+  font-family: var(--font-serif);
+}
+
+.phantasm-ruling-grid span {
+  font-size: 0.84rem;
+}
+
+.phantasm-final-transcript > footer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.8rem 2rem;
+  padding: 1.5rem 2.3rem;
+}
+
+.phantasm-final-transcript > footer > span,
+.phantasm-final-transcript > footer > b {
+  font-size: 0.7rem;
+}
+
+.phantasm-final-transcript > footer > b {
+  color: #8f4658;
+  text-align: right;
+}
+
+.phantasm-final-transcript > footer > div {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.7rem;
+}
+
+.phantasm-final-transcript footer button {
+  color: #302a33;
+  border-color: #918994;
+}
+
+.phantasm-final-transcript footer button:hover {
+  color: #eee8f0;
+  background: #6d5477;
+}
+
+[data-phantasm-exam] {
+  scroll-margin-top: 6rem;
+}
+
+.phantasm-exam-desk,
+.phantasm-exam-runner,
+.phantasm-exam-result {
+  border: 1px solid rgba(198, 166, 213, 0.22);
+  background: rgba(15, 14, 25, 0.88);
+  box-shadow: 1.2rem 1.2rem 0 rgba(111, 80, 128, 0.1);
+}
+
+.phantasm-exam-desk > .phantasm-section-heading {
+  padding: clamp(2rem, 5vw, 4rem);
+}
+
+.phantasm-exam-seal {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 1.4rem;
+  align-items: center;
+  margin: 0 clamp(2rem, 5vw, 4rem);
+  padding: 1.4rem;
+  border: 1px solid rgba(198, 166, 213, 0.2);
+  background: rgba(198, 166, 213, 0.035);
+}
+
+.phantasm-exam-seal > span {
+  display: grid;
+  place-items: center;
+  width: 5rem;
+  height: 5rem;
+  color: #17131d;
+  background: #77717b;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+}
+
+.phantasm-exam-seal.is-visible > span {
+  background: var(--dream-lilac);
+  box-shadow: 0 0 2rem rgba(198, 166, 213, 0.32);
+}
+
+.phantasm-exam-seal b,
+.phantasm-exam-seal p,
+.phantasm-exam-seal small {
+  display: block;
+}
+
+.phantasm-exam-seal p {
+  margin: 0.4rem 0;
+  color: var(--dream-muted);
+  line-height: 1.7;
+}
+
+.phantasm-exam-seal small {
+  color: var(--dream-lilac);
+}
+
+.phantasm-exam-actions {
+  display: flex;
+  gap: 0.8rem;
+  padding: 1.5rem clamp(2rem, 5vw, 4rem);
+}
+
+.phantasm-exam-actions button,
+.phantasm-exam-sheet button,
+.phantasm-exam-result footer button {
+  padding: 0.8rem 1rem;
+  color: var(--dream-ink);
+  border: 1px solid rgba(198, 166, 213, 0.35);
+  background: rgba(198, 166, 213, 0.08);
+}
+
+.phantasm-exam-actions button:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.phantasm-exam-records {
+  padding: 0 clamp(2rem, 5vw, 4rem) clamp(2rem, 5vw, 4rem);
+}
+
+.phantasm-exam-records h3 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.phantasm-exam-records > p {
+  color: var(--dream-muted);
+}
+
+.phantasm-exam-records > button {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.8rem 0;
+  color: var(--dream-ink);
+  border: 0;
+  border-top: 1px dotted rgba(198, 166, 213, 0.25);
+  background: transparent;
+  text-align: left;
+}
+
+.phantasm-exam-runner {
+  position: relative;
+  padding: clamp(1rem, 3vw, 2rem);
+}
+
+.phantasm-exam-paper {
+  color: #25202a;
+  background: #e9e5dc;
+}
+
+.phantasm-exam-paper > header {
+  padding: clamp(2rem, 5vw, 4rem);
+  border-bottom: 3px double #847b88;
+}
+
+.phantasm-exam-paper > header > p,
+.phantasm-exam-part > header span,
+.phantasm-exam-result > header p {
+  color: #76547b;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+}
+
+.phantasm-exam-paper > header h2 {
+  margin: 0.8rem 0;
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 500;
+}
+
+.phantasm-exam-paper > header > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  color: #7f4053;
+}
+
+.phantasm-exam-paper > header section {
+  margin-top: 2rem;
+  padding: 1rem 1.3rem;
+  border: 1px solid #b4adb6;
+}
+
+.phantasm-exam-paper > header li {
+  margin: 0.45rem 0;
+  line-height: 1.6;
+}
+
+.phantasm-exam-part > header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem clamp(1.5rem, 4vw, 3rem);
+  border-bottom: 1px solid #aaa2ac;
+}
+
+.phantasm-exam-part > header h3 {
+  margin: 0.3rem 0 0;
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.phantasm-exam-part > header p {
+  margin: 0;
+  color: #625b65;
+  line-height: 1.7;
+}
+
+.phantasm-exam-question {
+  margin: 0;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 0;
+  border-bottom: 1px solid #aaa2ac;
+}

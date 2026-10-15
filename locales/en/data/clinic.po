@@ -1,0 +1,1174 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. clinicSites.infirmary.name
+#: src/data/clinic.js:8
+msgctxt "text:clinicSites.infirmary.name"
+msgid "Hakurei Gate Infirmary"
+msgstr "Hakurei Gate Infirmary"
+
+#. clinicSites.infirmary.short
+#: src/data/clinic.js:9
+msgctxt "text:clinicSites.infirmary.short"
+msgid "Main infirmary"
+msgstr "Main infirmary"
+
+#. clinicSites.infirmary.location
+#: src/data/clinic.js:10
+msgctxt "text:clinicSites.infirmary.location"
+msgid "Main campus · old shrine office east of Hakurei Gate"
+msgstr "Main campus · old shrine office east of Hakurei Gate"
+
+#. clinicSites.infirmary.hours
+#: src/data/clinic.js:11
+msgctxt "text:clinicSites.infirmary.hours"
+msgid "07:40—21:30; the desk is not guaranteed occupied for twenty minutes after the noon bell"
+msgstr "07:40—21:30; the desk is not guaranteed occupied for twenty minutes after the noon bell"
+
+#. clinicSites.infirmary.scope
+#: src/data/clinic.js:12
+msgctxt "text:clinicSites.infirmary.scope"
+msgid ""
+"Scrapes, mild magical feedback, flight-muscle strains, paper-talisman cuts, "
+"class-related sleep loss, and symptoms still deciding whether they require "
+"Eientei."
+msgstr ""
+"Scrapes, mild magical feedback, flight-muscle strains, paper-talisman cuts, "
+"class-related sleep loss, and symptoms still deciding whether they require "
+"Eientei."
+
+#. clinicSites.infirmary.staff
+#: src/data/clinic.js:13
+msgctxt "text:clinicSites.infirmary.staff"
+msgid ""
+"Duty clinician, two moon-rabbit trainees, and Reimu when she comes to "
+"collect the offering-box fee"
+msgstr ""
+"Duty clinician, two moon-rabbit trainees, and Reimu when she comes to "
+"collect the offering-box fee"
+
+#. clinicSites.eientei.name
+#: src/data/clinic.js:19
+msgctxt "text:clinicSites.eientei.name"
+msgid "Eientei University Hospital"
+msgstr "Eientei University Hospital"
+
+#. clinicSites.eientei.short
+#: src/data/clinic.js:20
+msgctxt "text:clinicSites.eientei.short"
+msgid "Eientei Hospital"
+msgstr "Eientei Hospital"
+
+#. clinicSites.eientei.location
+#: src/data/clinic.js:21
+msgctxt "text:clinicSites.eientei.location"
+msgid "Bamboo Forest · Eientei clinical wing and lunar pharmacy"
+msgstr "Bamboo Forest · Eientei clinical wing and lunar pharmacy"
+
+#. clinicSites.eientei.hours
+#: src/data/clinic.js:22
+msgctxt "text:clinicSites.eientei.hours"
+msgid "Always open; full-moon traffic diverts through the pharmacy corridor"
+msgstr "Always open; full-moon traffic diverts through the pharmacy corridor"
+
+#. clinicSites.eientei.scope
+#: src/data/clinic.js:23
+msgctxt "text:clinicSites.eientei.scope"
+msgid ""
+"Cross-species care, lunar sensory conditions, boundary sickness, phantom "
+"desynchrony, fairy-core trouble, magical-material exposure, and cases marked "
+"with three exclamation points by the infirmary."
+msgstr ""
+"Cross-species care, lunar sensory conditions, boundary sickness, phantom "
+"desynchrony, fairy-core trouble, magical-material exposure, and cases marked "
+"with three exclamation points by the infirmary."
+
+#. clinicSites.eientei.staff
+#: src/data/clinic.js:24
+msgctxt "text:clinicSites.eientei.staff"
+msgid ""
+"Eirin Yagokoro consulting, Reisen triaging, and Tewi hiding queue tokens "
+"back where they came from"
+msgstr ""
+"Eirin Yagokoro consulting, Reisen triaging, and Tewi hiding queue tokens "
+"back where they came from"
+
+#. clinicComplaints.danmaku-impact.name
+#: src/data/clinic.js:36
+msgctxt "text:clinicComplaints.danmaku-impact.name"
+msgid "Danmaku impact / talisman abrasion"
+msgstr "Danmaku impact / talisman abrasion"
+
+#. clinicComplaints.danmaku-impact.prompt
+#: src/data/clinic.js:37
+msgctxt "text:clinicComplaints.danmaku-impact.prompt"
+msgid ""
+"Is the impact site still glowing, smoking, or insisting it was merely a "
+"background bullet?"
+msgstr ""
+"Is the impact site still glowing, smoking, or insisting it was merely a "
+"background bullet?"
+
+#. clinicComplaints.magic-feedback.name
+#: src/data/clinic.js:46
+msgctxt "text:clinicComplaints.magic-feedback.name"
+msgid "Magical feedback / hakkero overheating"
+msgstr "Magical feedback / hakkero overheating"
+
+#. clinicComplaints.magic-feedback.prompt
+#: src/data/clinic.js:47
+msgctxt "text:clinicComplaints.magic-feedback.prompt"
+msgid "Sleeves, hair, or thesis appendices continue discharging after the spell stops."
+msgstr "Sleeves, hair, or thesis appendices continue discharging after the spell stops."
+
+#. clinicComplaints.boundary-vertigo.name
+#: src/data/clinic.js:56
+msgctxt "text:clinicComplaints.boundary-vertigo.name"
+msgid "Boundary vertigo / door arriving first"
+msgstr "Boundary vertigo / door arriving first"
+
+#. clinicComplaints.boundary-vertigo.prompt
+#: src/data/clinic.js:57
+msgctxt "text:clinicComplaints.boundary-vertigo.prompt"
+msgid ""
+"The two sides of one door show different dates, or descending returns you to "
+"before you climbed."
+msgstr ""
+"The two sides of one door show different dates, or descending returns you to "
+"before you climbed."
+
+#. clinicComplaints.lunar-overload.name
+#: src/data/clinic.js:66
+msgctxt "text:clinicComplaints.lunar-overload.name"
+msgid "Lunar overload / wavelength desynchrony"
+msgstr "Lunar overload / wavelength desynchrony"
+
+#. clinicComplaints.lunar-overload.prompt
+#: src/data/clinic.js:67
+msgctxt "text:clinicComplaints.lunar-overload.prompt"
+msgid ""
+"Moonlight is too loud, colours are arguing, or rabbit ears receive "
+"broadcasts from the wrong week."
+msgstr ""
+"Moonlight is too loud, colours are arguing, or rabbit ears receive "
+"broadcasts from the wrong week."
+
+#. clinicComplaints.mushroom-exposure.name
+#: src/data/clinic.js:76
+msgctxt "text:clinicComplaints.mushroom-exposure.name"
+msgid "Unknown-mushroom exposure"
+msgstr "Unknown-mushroom exposure"
+
+#. clinicComplaints.mushroom-exposure.prompt
+#: src/data/clinic.js:77
+msgctxt "text:clinicComplaints.mushroom-exposure.prompt"
+msgid ""
+"The batch is labelled “that basket from the forest,” and each sneeze "
+"produces a different element."
+msgstr ""
+"The batch is labelled “that basket from the forest,” and each sneeze "
+"produces a different element."
+
+#. clinicComplaints.flight-strain.name
+#: src/data/clinic.js:86
+msgctxt "text:clinicComplaints.flight-strain.name"
+msgid "Wing / broom-launch strain"
+msgstr "Wing / broom-launch strain"
+
+#. clinicComplaints.flight-strain.prompt
+#: src/data/clinic.js:87
+msgctxt "text:clinicComplaints.flight-strain.prompt"
+msgid "Turning remains possible, but Aya has already printed the landing posture as an extra."
+msgstr "Turning remains possible, but Aya has already printed the landing posture as an extra."
+
+#. clinicComplaints.phantom-desync.name
+#: src/data/clinic.js:96
+msgctxt "text:clinicComplaints.phantom-desync.name"
+msgid "Phantom desynchrony / duplicate half-phantom check-in"
+msgstr "Phantom desynchrony / duplicate half-phantom check-in"
+
+#. clinicComplaints.phantom-desync.prompt
+#: src/data/clinic.js:97
+msgctxt "text:clinicComplaints.phantom-desync.prompt"
+msgid "The body says it has arrived while the half-phantom token remains en route."
+msgstr "The body says it has arrived while the half-phantom token remains en route."
+
+#. clinicComplaints.fairy-core-flicker.name
+#: src/data/clinic.js:106
+msgctxt "text:clinicComplaints.fairy-core-flicker.name"
+msgid "Fairy-core flicker / local season pause"
+msgstr "Fairy-core flicker / local season pause"
+
+#. clinicComplaints.fairy-core-flicker.prompt
+#: src/data/clinic.js:107
+msgctxt "text:clinicComplaints.fairy-core-flicker.prompt"
+msgid "Nearby flowers cannot decide the season, and wing transparency is not intentional."
+msgstr "Nearby flowers cannot decide the season, and wing transparency is not intentional."
+
+#. clinicMedicines.hakurei-seal-patch.name
+#: src/data/clinic.js:118
+msgctxt "text:clinicMedicines.hakurei-seal-patch.name"
+msgid "Hakurei Stop-Sign Patch"
+msgstr "Hakurei Stop-Sign Patch"
+
+#. clinicMedicines.hakurei-seal-patch.maker
+#: src/data/clinic.js:119
+msgctxt "text:clinicMedicines.hakurei-seal-patch.maker"
+msgid "Supplied by Hakurei Shrine; hand-cut beside the offering box"
+msgstr "Supplied by Hakurei Shrine; hand-cut beside the offering box"
+
+#. clinicMedicines.hakurei-seal-patch.indication
+#: src/data/clinic.js:120
+msgctxt "text:clinicMedicines.hakurei-seal-patch.indication"
+msgid "Glowing abrasions, mild talisman residue, and small seasonal leaks around a fairy core."
+msgstr "Glowing abrasions, mild talisman residue, and small seasonal leaks around a fairy core."
+
+#. clinicMedicines.hakurei-seal-patch.directions
+#: src/data/clinic.js:121
+msgctxt "text:clinicMedicines.hakurei-seal-patch.directions"
+msgid ""
+"Apply until the glow admits it has been noticed; inspect once per bell and "
+"remove after three."
+msgstr ""
+"Apply until the glow admits it has been noticed; inspect once per bell and "
+"remove after three."
+
+#. clinicMedicines.hakurei-seal-patch.caution
+#: src/data/clinic.js:122
+msgctxt "text:clinicMedicines.hakurei-seal-patch.caution"
+msgid "“Great Fortune” is not a potency grade; Reimu does not refund blurred ink."
+msgstr "“Great Fortune” is not a potency grade; Reimu does not refund blurred ink."
+
+#. clinicMedicines.magic-diversion-powder.name
+#: src/data/clinic.js:130
+msgctxt "text:clinicMedicines.magic-diversion-powder.name"
+msgid "Yagokoro Magical Diversion Powder"
+msgstr "Yagokoro Magical Diversion Powder"
+
+#. clinicMedicines.magic-diversion-powder.maker
+#: src/data/clinic.js:131
+msgctxt "text:clinicMedicines.magic-diversion-powder.maker"
+msgid "Eientei Lunar Pharmacy · Eirin reviewed"
+msgstr "Eientei Lunar Pharmacy · Eirin reviewed"
+
+#. clinicMedicines.magic-diversion-powder.indication
+#: src/data/clinic.js:132
+msgctxt "text:clinicMedicines.magic-diversion-powder.indication"
+msgid "Magic returning through hair, sleeves, or equipment grounding after a spell ends."
+msgstr "Magic returning through hair, sleeves, or equipment grounding after a spell ends."
+
+#. clinicMedicines.magic-diversion-powder.directions
+#: src/data/clinic.js:133
+msgctxt "text:clinicMedicines.magic-diversion-powder.directions"
+msgid ""
+"One non-conductive bamboo spoon with unenchanted warm water; do not restart "
+"the same spell for four class breaks."
+msgstr ""
+"One non-conductive bamboo spoon with unenchanted warm water; do not restart "
+"the same spell for four class breaks."
+
+#. clinicMedicines.magic-diversion-powder.caution
+#: src/data/clinic.js:134
+msgctxt "text:clinicMedicines.magic-diversion-powder.caution"
+msgid "Carrying it beside a hakkero treats the medicine bag before it treats you."
+msgstr "Carrying it beside a hakkero treats the medicine bag before it treats you."
+
+#. clinicMedicines.seven-day-cooling-ampoule.name
+#: src/data/clinic.js:142
+msgctxt "text:clinicMedicines.seven-day-cooling-ampoule.name"
+msgid "Seven-Day Residual-Heat Ampoule"
+msgstr "Seven-Day Residual-Heat Ampoule"
+
+#. clinicMedicines.seven-day-cooling-ampoule.maker
+#: src/data/clinic.js:143
+msgctxt "text:clinicMedicines.seven-day-cooling-ampoule.maker"
+msgid ""
+"Jointly prepared by Seven-Day Laboratory and the hospital; stoppers "
+"inventoried by Koakuma"
+msgstr ""
+"Jointly prepared by Seven-Day Laboratory and the hospital; stoppers "
+"inventoried by Koakuma"
+
+#. clinicMedicines.seven-day-cooling-ampoule.indication
+#: src/data/clinic.js:144
+msgctxt "text:clinicMedicines.seven-day-cooling-ampoule.indication"
+msgid ""
+"Residual elemental heat, local fire/water/wood cycling after mushroom "
+"sneezes, and self-igniting appendices."
+msgstr ""
+"Residual elemental heat, local fire/water/wood cycling after mushroom "
+"sneezes, and self-igniting appendices."
+
+#. clinicMedicines.seven-day-cooling-ampoule.directions
+#: src/data/clinic.js:145
+msgctxt "text:clinicMedicines.seven-day-cooling-ampoule.directions"
+msgid ""
+"Snap one open a lecture-sheet away from the heat source; do not drink the "
+"blue Tuesday vial."
+msgstr ""
+"Snap one open a lecture-sheet away from the heat source; do not drink the "
+"blue Tuesday vial."
+
+#. clinicMedicines.seven-day-cooling-ampoule.caution
+#: src/data/clinic.js:146
+msgctxt "text:clinicMedicines.seven-day-cooling-ampoule.caution"
+msgid "If the bottle shows an eighth day, return it to Patchouli without adding a date."
+msgstr "If the bottle shows an eighth day, return it to Patchouli without adding a date."
+
+#. clinicMedicines.boundary-motion-slip.name
+#: src/data/clinic.js:154
+msgctxt "text:clinicMedicines.boundary-motion-slip.name"
+msgid "Boundary Motion-Anchor Slip"
+msgstr "Boundary Motion-Anchor Slip"
+
+#. clinicMedicines.boundary-motion-slip.maker
+#: src/data/clinic.js:155
+msgctxt "text:clinicMedicines.boundary-motion-slip.maker"
+msgid "Eientei clinical wing; Hieda Hall supplies yesterday and today editions"
+msgstr "Eientei clinical wing; Hieda Hall supplies yesterday and today editions"
+
+#. clinicMedicines.boundary-motion-slip.indication
+#: src/data/clinic.js:156
+msgctxt "text:clinicMedicines.boundary-motion-slip.indication"
+msgid "Short-range anchoring when doors, stairs, dates, or the patient arrive out of order."
+msgstr "Short-range anchoring when doors, stairs, dates, or the patient arrive out of order."
+
+#. clinicMedicines.boundary-motion-slip.directions
+#: src/data/clinic.js:157
+msgctxt "text:clinicMedicines.boundary-motion-slip.directions"
+msgid ""
+"Write today’s date and toe direction on a floor known to exist; carry "
+"through five corners."
+msgstr ""
+"Write today’s date and toe direction on a floor known to exist; carry "
+"through five corners."
+
+#. clinicMedicines.boundary-motion-slip.caution
+#: src/data/clinic.js:158
+msgctxt "text:clinicMedicines.boundary-motion-slip.caution"
+msgid ""
+"Yukari’s signature proves only that she saw the slip, not that the location "
+"is more reliable."
+msgstr ""
+"Yukari’s signature proves only that she saw the slip, not that the location "
+"is more reliable."
+
+#. clinicMedicines.bamboo-return-tea.name
+#: src/data/clinic.js:166
+msgctxt "text:clinicMedicines.bamboo-return-tea.name"
+msgid "Bamboo-Dew Return Tea"
+msgstr "Bamboo-Dew Return Tea"
+
+#. clinicMedicines.bamboo-return-tea.maker
+#: src/data/clinic.js:167
+msgctxt "text:clinicMedicines.bamboo-return-tea.maker"
+msgid "Second kettle behind the east-gate rabbit-shuttle shelter"
+msgstr "Second kettle behind the east-gate rabbit-shuttle shelter"
+
+#. clinicMedicines.bamboo-return-tea.indication
+#: src/data/clinic.js:168
+msgctxt "text:clinicMedicines.bamboo-return-tea.indication"
+msgid ""
+"Passing one lantern three times, having your sense of direction outvoted by "
+"bamboo, or finding the signpost more tired than you."
+msgstr ""
+"Passing one lantern three times, having your sense of direction outvoted by "
+"bamboo, or finding the signpost more tired than you."
+
+#. clinicMedicines.bamboo-return-tea.directions
+#: src/data/clinic.js:169
+msgctxt "text:clinicMedicines.bamboo-return-tea.directions"
+msgid ""
+"Drink half a cup facing true east; if east is unknown, follow the medicine "
+"scent and do not ask Tewi."
+msgstr ""
+"Drink half a cup facing true east; if east is unknown, follow the medicine "
+"scent and do not ask Tewi."
+
+#. clinicMedicines.bamboo-return-tea.caution
+#: src/data/clinic.js:170
+msgctxt "text:clinicMedicines.bamboo-return-tea.caution"
+msgid "The shortcut seen afterward may not be shorter, but usually reaches whoever needs you."
+msgstr "The shortcut seen afterward may not be shorter, but usually reaches whoever needs you."
+
+#. clinicMedicines.moon-dust-eye-drops.name
+#: src/data/clinic.js:178
+msgctxt "text:clinicMedicines.moon-dust-eye-drops.name"
+msgid "Lunar-Dust Isolation Drops"
+msgstr "Lunar-Dust Isolation Drops"
+
+#. clinicMedicines.moon-dust-eye-drops.maker
+#: src/data/clinic.js:179
+msgctxt "text:clinicMedicines.moon-dust-eye-drops.maker"
+msgid "Lunar Pharmacy · fourth cold-store shelf (not the Hourai compartment)"
+msgstr "Lunar Pharmacy · fourth cold-store shelf (not the Hourai compartment)"
+
+#. clinicMedicines.moon-dust-eye-drops.indication
+#: src/data/clinic.js:180
+msgctxt "text:clinicMedicines.moon-dust-eye-drops.indication"
+msgid ""
+"Moonlight that is too loud, star-point afterimages, and unapproved silver "
+"lingering after full moon."
+msgstr ""
+"Moonlight that is too loud, star-point afterimages, and unapproved silver "
+"lingering after full moon."
+
+#. clinicMedicines.moon-dust-eye-drops.directions
+#: src/data/clinic.js:181
+msgctxt "text:clinicMedicines.moon-dust-eye-drops.directions"
+msgid ""
+"One drop at a time; close eyes until the next non-prime-numbered bell. Four "
+"doses form one course."
+msgstr ""
+"One drop at a time; close eyes until the next non-prime-numbered bell. Four "
+"doses form one course."
+
+#. clinicMedicines.moon-dust-eye-drops.caution
+#: src/data/clinic.js:182
+msgctxt "text:clinicMedicines.moon-dust-eye-drops.caution"
+msgid "A telescope is not a dropper; the astronomy club has received three written notices."
+msgstr "A telescope is not a dropper; the astronomy club has received three written notices."
+
+#. clinicMedicines.reisen-calibration-drop.name
+#: src/data/clinic.js:190
+msgctxt "text:clinicMedicines.reisen-calibration-drop.name"
+msgid "Reisen Wavelength Calibration Drop"
+msgstr "Reisen Wavelength Calibration Drop"
+
+#. clinicMedicines.reisen-calibration-drop.maker
+#: src/data/clinic.js:191
+msgctxt "text:clinicMedicines.reisen-calibration-drop.maker"
+msgid "Reisen formula; count before signing for any batch handled by Tewi"
+msgstr "Reisen formula; count before signing for any batch handled by Tewi"
+
+#. clinicMedicines.reisen-calibration-drop.indication
+#: src/data/clinic.js:192
+msgctxt "text:clinicMedicines.reisen-calibration-drop.indication"
+msgid ""
+"Colours interrupting one another, rabbit ears receiving the wrong week, or "
+"gaze and trajectory disagreeing."
+msgstr ""
+"Colours interrupting one another, rabbit ears receiving the wrong week, or "
+"gaze and trajectory disagreeing."
+
+#. clinicMedicines.reisen-calibration-drop.directions
+#: src/data/clinic.js:193
+msgctxt "text:clinicMedicines.reisen-calibration-drop.directions"
+msgid ""
+"Dissolve until sourness and red reach an agreement; pause wavelength danmaku "
+"during three calibrations."
+msgstr ""
+"Dissolve until sourness and red reach an agreement; pause wavelength danmaku "
+"during three calibrations."
+
+#. clinicMedicines.reisen-calibration-drop.caution
+#: src/data/clinic.js:194
+msgctxt "text:clinicMedicines.reisen-calibration-drop.caution"
+msgid ""
+"May briefly reveal, with excessive honesty, the distance between a headline "
+"and its article."
+msgstr ""
+"May briefly reveal, with excessive honesty, the distance between a headline "
+"and its article."
+
+#. clinicMedicines.spore-truth-syrup.name
+#: src/data/clinic.js:202
+msgctxt "text:clinicMedicines.spore-truth-syrup.name"
+msgid "Mushroom Batch-Confession Syrup"
+msgstr "Mushroom Batch-Confession Syrup"
+
+#. clinicMedicines.spore-truth-syrup.maker
+#: src/data/clinic.js:203
+msgctxt "text:clinicMedicines.spore-truth-syrup.maker"
+msgid "Eientei Pharmacy; Marisa is still submitting the ingredient labels"
+msgstr "Eientei Pharmacy; Marisa is still submitting the ingredient labels"
+
+#. clinicMedicines.spore-truth-syrup.indication
+#: src/data/clinic.js:204
+msgctxt "text:clinicMedicines.spore-truth-syrup.indication"
+msgid ""
+"Elemental sneezes, hat-brim spore rain, and a newly added forest in memory "
+"after unknown mushrooms."
+msgstr ""
+"Elemental sneezes, hat-brim spore rain, and a newly added forest in memory "
+"after unknown mushrooms."
+
+#. clinicMedicines.spore-truth-syrup.directions
+#: src/data/clinic.js:205
+msgctxt "text:clinicMedicines.spore-truth-syrup.directions"
+msgid ""
+"One bamboo segment per dose; state known material provenance first, or let "
+"the pharmacist record “unknown.”"
+msgstr ""
+"One bamboo segment per dose; state known material provenance first, or let "
+"the pharmacist record “unknown.”"
+
+#. clinicMedicines.spore-truth-syrup.caution
+#: src/data/clinic.js:206
+msgctxt "text:clinicMedicines.spore-truth-syrup.caution"
+msgid "Does not compel truth; it merely makes the mushroom smell difficult to deny."
+msgstr "Does not compel truth; it merely makes the mushroom smell difficult to deny."
+
+#. clinicMedicines.kappa-joint-salve.name
+#: src/data/clinic.js:214
+msgctxt "text:clinicMedicines.kappa-joint-salve.name"
+msgid "Kappa Waterproof Joint Salve"
+msgstr "Kappa Waterproof Joint Salve"
+
+#. clinicMedicines.kappa-joint-salve.maker
+#: src/data/clinic.js:215
+msgctxt "text:clinicMedicines.kappa-joint-salve.maker"
+msgid "Kappa Joint Workshop medical line; the lid still uses tape as its final quality seal"
+msgstr "Kappa Joint Workshop medical line; the lid still uses tape as its final quality seal"
+
+#. clinicMedicines.kappa-joint-salve.indication
+#: src/data/clinic.js:216
+msgctxt "text:clinicMedicines.kappa-joint-salve.indication"
+msgid ""
+"Wing roots, broom-launch muscles, ordinary shoulders, and ordinary shoulders "
+"strained while fixing equipment."
+msgstr ""
+"Wing roots, broom-launch muscles, ordinary shoulders, and ordinary shoulders "
+"strained while fixing equipment."
+
+#. clinicMedicines.kappa-joint-salve.directions
+#: src/data/clinic.js:217
+msgctxt "text:clinicMedicines.kappa-joint-salve.directions"
+msgid ""
+"Apply thinly and wait for the tape smell to fade; check range of motion "
+"around four practice sessions."
+msgstr ""
+"Apply thinly and wait for the tape smell to fade; check range of motion "
+"around four practice sessions."
+
+#. clinicMedicines.kappa-joint-salve.caution
+#: src/data/clinic.js:218
+msgctxt "text:clinicMedicines.kappa-joint-salve.caution"
+msgid ""
+"Works suspiciously well on mechanical joints; prosthetic users should ask "
+"Nitori whether the jar is actually machine oil."
+msgstr ""
+"Works suspiciously well on mechanical joints; prosthetic users should ask "
+"Nitori whether the jar is actually machine oil."
+
+#. clinicMedicines.tengu-tailwind-tape.name
+#: src/data/clinic.js:226
+msgctxt "text:clinicMedicines.tengu-tailwind-tape.name"
+msgid "Tengu Headwind Muscle Tape"
+msgstr "Tengu Headwind Muscle Tape"
+
+#. clinicMedicines.tengu-tailwind-tape.maker
+#: src/data/clinic.js:227
+msgctxt "text:clinicMedicines.tengu-tailwind-tape.maker"
+msgid "Youkai Mountain sports-medicine class; Aya turned the caution into a subheadline"
+msgstr "Youkai Mountain sports-medicine class; Aya turned the caution into a subheadline"
+
+#. clinicMedicines.tengu-tailwind-tape.indication
+#: src/data/clinic.js:228
+msgctxt "text:clinicMedicines.tengu-tailwind-tape.indication"
+msgid ""
+"Wing-back and shoulder-girdle strain after sharp turns, diving interviews, "
+"or emergency broom braking."
+msgstr ""
+"Wing-back and shoulder-girdle strain after sharp turns, diving interviews, "
+"or emergency broom braking."
+
+#. clinicMedicines.tengu-tailwind-tape.directions
+#: src/data/clinic.js:229
+msgctxt "text:clinicMedicines.tengu-tailwind-tape.directions"
+msgid ""
+"Apply three strips facing the headwind; same-day return is limited to low "
+"straight flight, with no exclusive-story dives."
+msgstr ""
+"Apply three strips facing the headwind; same-day return is limited to low "
+"straight flight, with no exclusive-story dives."
+
+#. clinicMedicines.tengu-tailwind-tape.caution
+#: src/data/clinic.js:230
+msgctxt "text:clinicMedicines.tengu-tailwind-tape.caution"
+msgid "Arranging it as an arrow does not void a flight ban; it only helps patrols find you."
+msgstr "Arranging it as an arrow does not void a flight ban; it only helps patrols find you."
+
+#. clinicMedicines.phantom-position-thread.name
+#: src/data/clinic.js:238
+msgctxt "text:clinicMedicines.phantom-position-thread.name"
+msgid "Half-Phantom Positioning Thread"
+msgstr "Half-Phantom Positioning Thread"
+
+#. clinicMedicines.phantom-position-thread.maker
+#: src/data/clinic.js:239
+msgctxt "text:clinicMedicines.phantom-position-thread.maker"
+msgid "Eientei Cross-Species Clinic; Youmu supplied the post-use knot"
+msgstr "Eientei Cross-Species Clinic; Youmu supplied the post-use knot"
+
+#. clinicMedicines.phantom-position-thread.indication
+#: src/data/clinic.js:240
+msgctxt "text:clinicMedicines.phantom-position-thread.indication"
+msgid ""
+"Body and half-phantom queue number, arrival time, or mood appearing in "
+"different columns."
+msgstr ""
+"Body and half-phantom queue number, arrival time, or mood appearing in "
+"different columns."
+
+#. clinicMedicines.phantom-position-thread.directions
+#: src/data/clinic.js:241
+msgctxt "text:clinicMedicines.phantom-position-thread.directions"
+msgid ""
+"Tie one end to the clinic slip and let the half-phantom carry the other "
+"voluntarily; compare both numbers after five doors."
+msgstr ""
+"Tie one end to the clinic slip and let the half-phantom carry the other "
+"voluntarily; compare both numbers after five doors."
+
+#. clinicMedicines.phantom-position-thread.caution
+#: src/data/clinic.js:242
+msgctxt "text:clinicMedicines.phantom-position-thread.caution"
+msgid ""
+"May not bind two assignments into one submission; the registrar has already "
+"rejected the precedent."
+msgstr ""
+"May not bind two assignments into one submission; the registrar has already "
+"rejected the precedent."
+
+#. clinicMedicines.fairy-core-warming-leaf.name
+#: src/data/clinic.js:250
+msgctxt "text:clinicMedicines.fairy-core-warming-leaf.name"
+msgid "Fairy-Core Season-Return Leaf"
+msgstr "Fairy-Core Season-Return Leaf"
+
+#. clinicMedicines.fairy-core-warming-leaf.maker
+#: src/data/clinic.js:251
+msgctxt "text:clinicMedicines.fairy-core-warming-leaf.maker"
+msgid "Collected in the Four-Season Garden; each leaf is asked what season it believes it is"
+msgstr "Collected in the Four-Season Garden; each leaf is asked what season it believes it is"
+
+#. clinicMedicines.fairy-core-warming-leaf.indication
+#: src/data/clinic.js:252
+msgctxt "text:clinicMedicines.fairy-core-warming-leaf.indication"
+msgid ""
+"Fairy-core flicker, abnormal wing transparency, and nearby flowers refusing "
+"to change season."
+msgstr ""
+"Fairy-core flicker, abnormal wing transparency, and nearby flowers refusing "
+"to change season."
+
+#. clinicMedicines.fairy-core-warming-leaf.directions
+#: src/data/clinic.js:253
+msgctxt "text:clinicMedicines.fairy-core-warming-leaf.directions"
+msgid ""
+"Place near the core without covering wing roots; replace across three "
+"daylight periods with a leaf agreeing to the current season."
+msgstr ""
+"Place near the core without covering wing roots; replace across three "
+"daylight periods with a leaf agreeing to the current season."
+
+#. clinicMedicines.fairy-core-warming-leaf.caution
+#: src/data/clinic.js:254
+msgctxt "text:clinicMedicines.fairy-core-warming-leaf.caution"
+msgid ""
+"Cirno’s requested “permanent winter” is not a recovery target; her objection "
+"is on the reverse."
+msgstr ""
+"Cirno’s requested “permanent winter” is not a recovery target; her objection "
+"is on the reverse."
+
+#. clinicTherapies.danmaku-shoulder.name
+#: src/data/clinic.js:262
+msgctxt "text:clinicTherapies.danmaku-shoulder.name"
+msgid "Danmaku Shoulder-Wing Return"
+msgstr "Danmaku Shoulder-Wing Return"
+
+#. clinicTherapies.danmaku-shoulder.lead
+#: src/data/clinic.js:263
+msgctxt "text:clinicTherapies.danmaku-shoulder.lead"
+msgid ""
+"Breaks “I can still fly” into take-off, turning, stopping, and resisting a "
+"breaking-news dive."
+msgstr ""
+"Breaks “I can still fly” into take-off, turning, stopping, and resisting a "
+"breaking-news dive."
+
+#. clinicTherapies.danmaku-shoulder.clinician
+#: src/data/clinic.js:264
+msgctxt "text:clinicTherapies.danmaku-shoulder.clinician"
+msgid "Youkai Mountain sports medicine / Reisen"
+msgstr "Youkai Mountain sports medicine / Reisen"
+
+#. clinicTherapies.danmaku-shoulder.steps.0
+#: src/data/clinic.js:266
+msgctxt "text:clinicTherapies.danmaku-shoulder.steps.0"
+msgid "Danmaku-free shoulder and wing range check"
+msgstr "Danmaku-free shoulder and wing range check"
+
+#. clinicTherapies.danmaku-shoulder.steps.1
+#: src/data/clinic.js:267
+msgctxt "text:clinicTherapies.danmaku-shoulder.steps.1"
+msgid "Three low straight flights; no reporting dives"
+msgstr "Three low straight flights; no reporting dives"
+
+#. clinicTherapies.danmaku-shoulder.steps.2
+#: src/data/clinic.js:268
+msgctxt "text:clinicTherapies.danmaku-shoulder.steps.2"
+msgid "Turns and landings with an explicit stop line"
+msgstr "Turns and landings with an explicit stop line"
+
+#. clinicTherapies.danmaku-shoulder.steps.3
+#: src/data/clinic.js:269
+msgctxt "text:clinicTherapies.danmaku-shoulder.steps.3"
+msgid "Return-to-flight slip signed by patient and observer"
+msgstr "Return-to-flight slip signed by patient and observer"
+
+#. clinicTherapies.boundary-walk.name
+#: src/data/clinic.js:275
+msgctxt "text:clinicTherapies.boundary-walk.name"
+msgid "Five-Door Boundary Reorientation Walk"
+msgstr "Five-Door Boundary Reorientation Walk"
+
+#. clinicTherapies.boundary-walk.lead
+#: src/data/clinic.js:276
+msgctxt "text:clinicTherapies.boundary-walk.lead"
+msgid ""
+"Uses a traceable small route to recalibrate direction, date, and whether the "
+"patient has arrived."
+msgstr ""
+"Uses a traceable small route to recalibrate direction, date, and whether the "
+"patient has arrived."
+
+#. clinicTherapies.boundary-walk.clinician
+#: src/data/clinic.js:277
+msgctxt "text:clinicTherapies.boundary-walk.clinician"
+msgid "Eirin / duty recorder from Hieda Hall"
+msgstr "Eirin / duty recorder from Hieda Hall"
+
+#. clinicTherapies.boundary-walk.steps.0
+#: src/data/clinic.js:279
+msgctxt "text:clinicTherapies.boundary-walk.steps.0"
+msgid "Record the date at Eientei Front Gate"
+msgstr "Record the date at Eientei Front Gate"
+
+#. clinicTherapies.boundary-walk.steps.1
+#: src/data/clinic.js:280
+msgctxt "text:clinicTherapies.boundary-walk.steps.1"
+msgid "Follow three lanterns, not a fourth"
+msgstr "Follow three lanterns, not a fourth"
+
+#. clinicTherapies.boundary-walk.steps.2
+#: src/data/clinic.js:281
+msgctxt "text:clinicTherapies.boundary-walk.steps.2"
+msgid "Check toe direction at the pharmacy"
+msgstr "Check toe direction at the pharmacy"
+
+#. clinicTherapies.boundary-walk.steps.3
+#: src/data/clinic.js:282
+msgctxt "text:clinicTherapies.boundary-walk.steps.3"
+msgid "Return to the same door and verify it is still today"
+msgstr "Return to the same door and verify it is still today"
+
+#. clinicTherapies.lunar-low-stimulus.name
+#: src/data/clinic.js:288
+msgctxt "text:clinicTherapies.lunar-low-stimulus.name"
+msgid "Lunar Low-Stimulus Recovery Seat"
+msgstr "Lunar Low-Stimulus Recovery Seat"
+
+#. clinicTherapies.lunar-low-stimulus.lead
+#: src/data/clinic.js:289
+msgctxt "text:clinicTherapies.lunar-low-stimulus.lead"
+msgid ""
+"Does not dim the moon; it returns light, sound, wavelength, and headlines to "
+"one channel at a time."
+msgstr ""
+"Does not dim the moon; it returns light, sound, wavelength, and headlines to "
+"one channel at a time."
+
+#. clinicTherapies.lunar-low-stimulus.clinician
+#: src/data/clinic.js:290
+msgctxt "text:clinicTherapies.lunar-low-stimulus.clinician"
+msgid "Reisen / Lunar Sensory Station"
+msgstr "Reisen / Lunar Sensory Station"
+
+#. clinicTherapies.lunar-low-stimulus.steps.0
+#: src/data/clinic.js:292
+msgctxt "text:clinicTherapies.lunar-low-stimulus.steps.0"
+msgid "Twenty minutes in a no-extra-edition low-stimulus seat"
+msgstr "Twenty minutes in a no-extra-edition low-stimulus seat"
+
+#. clinicTherapies.lunar-low-stimulus.steps.1
+#: src/data/clinic.js:293
+msgctxt "text:clinicTherapies.lunar-low-stimulus.steps.1"
+msgid "Identify three non-arguing colours after calibration"
+msgstr "Identify three non-arguing colours after calibration"
+
+#. clinicTherapies.lunar-low-stimulus.steps.2
+#: src/data/clinic.js:294
+msgctxt "text:clinicTherapies.lunar-low-stimulus.steps.2"
+msgid "Corridor trial under lunar-dust lenses"
+msgstr "Corridor trial under lunar-dust lenses"
+
+#. clinicTherapies.lunar-low-stimulus.steps.3
+#: src/data/clinic.js:295
+msgctxt "text:clinicTherapies.lunar-low-stimulus.steps.3"
+msgid "Full-moon diversion and return-to-class note"
+msgstr "Full-moon diversion and return-to-class note"
+
+#. clinicTherapies.phantom-sync.name
+#: src/data/clinic.js:301
+msgctxt "text:clinicTherapies.phantom-sync.name"
+msgid "Two-Column Half-Phantom Synchronisation"
+msgstr "Two-Column Half-Phantom Synchronisation"
+
+#. clinicTherapies.phantom-sync.lead
+#: src/data/clinic.js:302
+msgctxt "text:clinicTherapies.phantom-sync.lead"
+msgid ""
+"Body and half-phantom keep separate columns without overwriting check-in, "
+"arrival, or mood."
+msgstr ""
+"Body and half-phantom keep separate columns without overwriting check-in, "
+"arrival, or mood."
+
+#. clinicTherapies.phantom-sync.clinician
+#: src/data/clinic.js:303
+msgctxt "text:clinicTherapies.phantom-sync.clinician"
+msgid "Eirin / demonstration support from Youmu Konpaku"
+msgstr "Eirin / demonstration support from Youmu Konpaku"
+
+#. clinicTherapies.phantom-sync.steps.0
+#: src/data/clinic.js:305
+msgctxt "text:clinicTherapies.phantom-sync.steps.0"
+msgid "Body and half-phantom take separate numbers"
+msgstr "Body and half-phantom take separate numbers"
+
+#. clinicTherapies.phantom-sync.steps.1
+#: src/data/clinic.js:306
+msgctxt "text:clinicTherapies.phantom-sync.steps.1"
+msgid "Pass three doors with unknotted silver thread"
+msgstr "Pass three doors with unknotted silver thread"
+
+#. clinicTherapies.phantom-sync.steps.2
+#: src/data/clinic.js:307
+msgctxt "text:clinicTherapies.phantom-sync.steps.2"
+msgid "Exchange one observation without exchanging positions"
+msgstr "Exchange one observation without exchanging positions"
+
+#. clinicTherapies.phantom-sync.steps.3
+#: src/data/clinic.js:308
+msgctxt "text:clinicTherapies.phantom-sync.steps.3"
+msgid "Arrive together and sign separately"
+msgstr "Arrive together and sign separately"
+
+#. clinicTherapies.fairy-core-rest.name
+#: src/data/clinic.js:314
+msgctxt "text:clinicTherapies.fairy-core-rest.name"
+msgid "Three-Daylight Fairy-Core Season Return"
+msgstr "Three-Daylight Fairy-Core Season Return"
+
+#. clinicTherapies.fairy-core-rest.lead
+#: src/data/clinic.js:315
+msgctxt "text:clinicTherapies.fairy-core-rest.lead"
+msgid ""
+"Resynchronises the core with nearby nature without treating winter, ice, or "
+"pranks as the only vital signs."
+msgstr ""
+"Resynchronises the core with nearby nature without treating winter, ice, or "
+"pranks as the only vital signs."
+
+#. clinicTherapies.fairy-core-rest.clinician
+#: src/data/clinic.js:316
+msgctxt "text:clinicTherapies.fairy-core-rest.clinician"
+msgid "Four-Season Garden / campus clinician"
+msgstr "Four-Season Garden / campus clinician"
+
+#. clinicTherapies.fairy-core-rest.steps.0
+#: src/data/clinic.js:318
+msgctxt "text:clinicTherapies.fairy-core-rest.steps.0"
+msgid "First daylight: check wing transparency"
+msgstr "First daylight: check wing transparency"
+
+#. clinicTherapies.fairy-core-rest.steps.1
+#: src/data/clinic.js:319
+msgctxt "text:clinicTherapies.fairy-core-rest.steps.1"
+msgid "Second daylight: let three flowers choose their season"
+msgstr "Second daylight: let three flowers choose their season"
+
+#. clinicTherapies.fairy-core-rest.steps.2
+#: src/data/clinic.js:320
+msgctxt "text:clinicTherapies.fairy-core-rest.steps.2"
+msgid "Third daylight: low-intensity prank test"
+msgstr "Third daylight: low-intensity prank test"
+
+#. clinicTherapies.fairy-core-rest.steps.3
+#: src/data/clinic.js:321
+msgctxt "text:clinicTherapies.fairy-core-rest.steps.3"
+msgid "Return surplus ice after core stabilisation"
+msgstr "Return surplus ice after core stabilisation"
+
+#. clinicTherapies.magic-cooldown.name
+#: src/data/clinic.js:327
+msgctxt "text:clinicTherapies.magic-cooldown.name"
+msgid "Four-Break Magical Feedback Cooldown"
+msgstr "Four-Break Magical Feedback Cooldown"
+
+#. clinicTherapies.magic-cooldown.lead
+#: src/data/clinic.js:328
+msgctxt "text:clinicTherapies.magic-cooldown.lead"
+msgid ""
+"Until material provenance is complete, do not use a larger output to prove a "
+"smaller accident has healed."
+msgstr ""
+"Until material provenance is complete, do not use a larger output to prove a "
+"smaller accident has healed."
+
+#. clinicTherapies.magic-cooldown.clinician
+#: src/data/clinic.js:329
+msgctxt "text:clinicTherapies.magic-cooldown.clinician"
+msgid "Eirin / Patchouli review / Marisa assigned to finish the labels"
+msgstr "Eirin / Patchouli review / Marisa assigned to finish the labels"
+
+#. clinicTherapies.magic-cooldown.steps.0
+#: src/data/clinic.js:331
+msgctxt "text:clinicTherapies.magic-cooldown.steps.0"
+msgid "Keep the same spell off for one class break"
+msgstr "Keep the same spell off for one class break"
+
+#. clinicTherapies.magic-cooldown.steps.1
+#: src/data/clinic.js:332
+msgctxt "text:clinicTherapies.magic-cooldown.steps.1"
+msgid "List material batches and unknown provenance"
+msgstr "List material batches and unknown provenance"
+
+#. clinicTherapies.magic-cooldown.steps.2
+#: src/data/clinic.js:333
+msgctxt "text:clinicTherapies.magic-cooldown.steps.2"
+msgid "No-material idle calibration"
+msgstr "No-material idle calibration"
+
+#. clinicTherapies.magic-cooldown.steps.3
+#: src/data/clinic.js:334
+msgctxt "text:clinicTherapies.magic-cooldown.steps.3"
+msgid "Reproduce at quarter output and stop if unsuccessful"
+msgstr "Reproduce at quarter output and stop if unsuccessful"
+
+#. clinicQueuePatients.mq-marisa.name
+#: src/data/clinic.js:344
+msgctxt "text:clinicQueuePatients.mq-marisa.name"
+msgid "Marisa Kirisame"
+msgstr "Marisa Kirisame"
+
+#. clinicQueuePatients.mq-marisa.reason
+#: src/data/clinic.js:345
+msgctxt "text:clinicQueuePatients.mq-marisa.reason"
+msgid "Elemental sleeve sneezes; provenance still reads “found it”"
+msgstr "Elemental sleeve sneezes; provenance still reads “found it”"
+
+#. clinicQueuePatients.mq-marisa.note
+#: src/data/clinic.js:346
+msgctxt "text:clinicQueuePatients.mq-marisa.note"
+msgid ""
+"Eirin returned history version three and asked that mushrooms move from "
+"“equipment” to “exposure.”"
+msgstr ""
+"Eirin returned history version three and asked that mushrooms move from "
+"“equipment” to “exposure.”"
+
+#. clinicQueuePatients.mq-cirno.name
+#: src/data/clinic.js:353
+msgctxt "text:clinicQueuePatients.mq-cirno.name"
+msgid "Cirno"
+msgstr "Cirno"
+
+#. clinicQueuePatients.mq-cirno.reason
+#: src/data/clinic.js:354
+msgctxt "text:clinicQueuePatients.mq-cirno.reason"
+msgid "Chief complaint: “36°C is abnormally hot”"
+msgstr "Chief complaint: “36°C is abnormally hot”"
+
+#. clinicQueuePatients.mq-cirno.note
+#: src/data/clinic.js:355
+msgctxt "text:clinicQueuePatients.mq-cirno.note"
+msgid ""
+"The season-return leaf refused permanent winter; patient wrote “strongest” "
+"on the reverse."
+msgstr ""
+"The season-return leaf refused permanent winter; patient wrote “strongest” "
+"on the reverse."
+
+#. clinicQueuePatients.mq-aya.name
+#: src/data/clinic.js:362
+msgctxt "text:clinicQueuePatients.mq-aya.name"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. clinicQueuePatients.mq-aya.reason
+#: src/data/clinic.js:363
+msgctxt "text:clinicQueuePatients.mq-aya.reason"
+msgid "Wing-back strain after a reporting dive; interviewing the queue meanwhile"
+msgstr "Wing-back strain after a reporting dive; interviewing the queue meanwhile"
+
+#. clinicQueuePatients.mq-aya.note
+#: src/data/clinic.js:364
+msgctxt "text:clinicQueuePatients.mq-aya.note"
+msgid "Reisen added the question mark because Aya published her diagnosis before examination."
+msgstr "Reisen added the question mark because Aya published her diagnosis before examination."
+
+#. clinicQueuePatients.mq-youmu.name
+#: src/data/clinic.js:371
+msgctxt "text:clinicQueuePatients.mq-youmu.name"
+msgid "Youmu Konpaku & half-phantom"
+msgstr "Youmu Konpaku & half-phantom"
+
+#. clinicQueuePatients.mq-youmu.reason
+#: src/data/clinic.js:372
+msgctxt "text:clinicQueuePatients.mq-youmu.reason"
+msgid "Two tokens for one symptom; negotiating whether this counts as one and a half patients"
+msgstr "Two tokens for one symptom; negotiating whether this counts as one and a half patients"
+
+#. clinicQueuePatients.mq-youmu.note
+#: src/data/clinic.js:373
+msgctxt "text:clinicQueuePatients.mq-youmu.note"
+msgid "Youmu arrived on time; the half-phantom call record arrived four minutes early."
+msgstr "Youmu arrived on time; the half-phantom call record arrived four minutes early."
+
+#. clinicQueuePatients.mq-nitori.name
+#: src/data/clinic.js:380
+msgctxt "text:clinicQueuePatients.mq-nitori.name"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. clinicQueuePatients.mq-nitori.reason
+#: src/data/clinic.js:381
+msgctxt "text:clinicQueuePatients.mq-nitori.reason"
+msgid "Homemade diagnostic says “patient not found”; patient wants the device treated first"
+msgstr "Homemade diagnostic says “patient not found”; patient wants the device treated first"
+
+#. clinicQueuePatients.mq-nitori.note
+#: src/data/clinic.js:382
+msgctxt "text:clinicQueuePatients.mq-nitori.note"
+msgid ""
+"The device is held by three colours of kappa tape; pharmacy refuses to "
+"classify it as bandaging."
+msgstr ""
+"The device is held by three colours of kappa tape; pharmacy refuses to "
+"classify it as bandaging."
+
+#. clinicQueuePatients.mq-reimu.name
+#: src/data/clinic.js:389
+msgctxt "text:clinicQueuePatients.mq-reimu.name"
+msgid "Reimu Hakurei"
+msgstr "Reimu Hakurei"
+
+#. clinicQueuePatients.mq-reimu.reason
+#: src/data/clinic.js:390
+msgctxt "text:clinicQueuePatients.mq-reimu.reason"
+msgid "Restocking infirmary seal patches; insists this is not a visit"
+msgstr "Restocking infirmary seal patches; insists this is not a visit"
+
+#. clinicQueuePatients.mq-reimu.note
+#: src/data/clinic.js:391
+msgctxt "text:clinicQueuePatients.mq-reimu.note"
+msgid ""
+"The queue bell lists her anyway because the offering box occupies the "
+"blood-pressure station."
+msgstr ""
+"The queue bell lists her anyway because the offering box occupies the "
+"blood-pressure station."
+
+#. clinicQueuePatients.mq-mystia.name
+#: src/data/clinic.js:398
+msgctxt "text:clinicQueuePatients.mq-mystia.name"
+msgid "Mystia Lorelei"
+msgstr "Mystia Lorelei"
+
+#. clinicQueuePatients.mq-mystia.reason
+#: src/data/clinic.js:399
+msgctxt "text:clinicQueuePatients.mq-mystia.reason"
+msgid "Lost voice after festival sets; answering on the menu chalkboard"
+msgstr "Lost voice after festival sets; answering on the menu chalkboard"
+
+#. clinicQueuePatients.mq-mystia.note
+#: src/data/clinic.js:400
+msgctxt "text:clinicQueuePatients.mq-mystia.note"
+msgid ""
+"Night-sparrow lozenges share a drawer with supper stock; Reisen divided it "
+"with a red line."
+msgstr ""
+"Night-sparrow lozenges share a drawer with supper stock; Reisen divided it "
+"with a red line."
+
+#. clinicCategories.patch
+#: src/data/clinic.js:406
+msgctxt "text:clinicCategories.patch"
+msgid "Patch / topical"
+msgstr "Patch / topical"
+
+#. clinicCategories.powder
+#: src/data/clinic.js:407
+msgctxt "text:clinicCategories.powder"
+msgid "Powder"
+msgstr "Powder"
+
+#. clinicCategories.ampoule
+#: src/data/clinic.js:408
+msgctxt "text:clinicCategories.ampoule"
+msgid "Ampoule / environmental"
+msgstr "Ampoule / environmental"
+
+#. clinicCategories.paper
+#: src/data/clinic.js:409
+msgctxt "text:clinicCategories.paper"
+msgid "Anchor slip"
+msgstr "Anchor slip"
+
+#. clinicCategories.tea
+#: src/data/clinic.js:410
+msgctxt "text:clinicCategories.tea"
+msgid "Tea"
+msgstr "Tea"
+
+#. clinicCategories.drops
+#: src/data/clinic.js:411
+msgctxt "text:clinicCategories.drops"
+msgid "Eye drops"
+msgstr "Eye drops"
+
+#. clinicCategories.lozenge
+#: src/data/clinic.js:412
+msgctxt "text:clinicCategories.lozenge"
+msgid "Calibration drop"
+msgstr "Calibration drop"
+
+#. clinicCategories.syrup
+#: src/data/clinic.js:413
+msgctxt "text:clinicCategories.syrup"
+msgid "Syrup"
+msgstr "Syrup"
+
+#. clinicCategories.salve
+#: src/data/clinic.js:414
+msgctxt "text:clinicCategories.salve"
+msgid "Salve"
+msgstr "Salve"
+
+#. clinicCategories.tape
+#: src/data/clinic.js:415
+msgctxt "text:clinicCategories.tape"
+msgid "Muscle tape"
+msgstr "Muscle tape"
+
+#. clinicCategories.thread
+#: src/data/clinic.js:416
+msgctxt "text:clinicCategories.thread"
+msgid "Positioning aid"
+msgstr "Positioning aid"
+
+#. clinicCategories.leaf
+#: src/data/clinic.js:417
+msgctxt "text:clinicCategories.leaf"
+msgid "Living leaf"
+msgstr "Living leaf"

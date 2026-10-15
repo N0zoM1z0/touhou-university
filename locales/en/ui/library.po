@@ -1,0 +1,528 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/library.js:19
+msgctxt "tree:copy#/eyebrow"
+msgid "MISTY LAKE LIBRARY"
+msgstr "MISTY LAKE LIBRARY"
+
+#. copy/title
+#: src/js/library.js:19
+msgctxt "tree:copy#/title"
+msgid "Books need not be quiet. Their circulation records do."
+msgstr "Books need not be quiet. Their circulation records do."
+
+#. copy/lead
+#: src/js/library.js:19
+msgctxt "tree:copy#/lead"
+msgid ""
+"Search the collection, borrow available books, place holds on items that are "
+"checked out or temporarily off the shelf, and renew loans before they are "
+"due. Every action stays on this device."
+msgstr ""
+"Search the collection, borrow available books, place holds on items that are "
+"checked out or temporarily off the shelf, and renew loans before they are "
+"due. Every action stays on this device."
+
+#. copy/open
+#: src/js/library.js:19
+msgctxt "tree:copy#/open"
+msgid "Open today"
+msgstr "Open today"
+
+#. copy/closed
+#: src/js/library.js:19
+msgctxt "tree:copy#/closed"
+msgid "Closed today"
+msgstr "Closed today"
+
+#. copy/seatsFree
+#: src/js/library.js:19
+msgctxt "tree:copy#/seatsFree"
+msgid "places free"
+msgstr "places free"
+
+#. copy/hours
+#: src/js/library.js:19
+msgctxt "tree:copy#/hours"
+msgid "08:10—moon above the trees"
+msgstr "08:10—moon above the trees"
+
+#. copy/holdings
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdings"
+msgid "Searchable holdings"
+msgstr "Searchable holdings"
+
+#. copy/available
+#: src/js/library.js:19
+msgctxt "tree:copy#/available"
+msgid "On shelf now"
+msgstr "On shelf now"
+
+#. copy/strange
+#: src/js/library.js:19
+msgctxt "tree:copy#/strange"
+msgid "Unusual states"
+msgstr "Unusual states"
+
+#. copy/desk
+#: src/js/library.js:19
+msgctxt "tree:copy#/desk"
+msgid "Circulation desk"
+msgstr "Circulation desk"
+
+#. copy/catalogue
+#: src/js/library.js:19
+msgctxt "tree:copy#/catalogue"
+msgid "Catalogue"
+msgstr "Catalogue"
+
+#. copy/myLibrary
+#: src/js/library.js:19
+msgctxt "tree:copy#/myLibrary"
+msgid "My library"
+msgstr "My library"
+
+#. copy/activeBadge
+#: src/js/library.js:19
+msgctxt "tree:copy#/activeBadge"
+msgid "active"
+msgstr "active"
+
+#. copy/search
+#: src/js/library.js:19
+msgctxt "tree:copy#/search"
+msgid "Search title, author, call number, subject, or staff note"
+msgstr "Search title, author, call number, subject, or staff note"
+
+#. copy/allSchools
+#: src/js/library.js:19
+msgctxt "tree:copy#/allSchools"
+msgid "All collections"
+msgstr "All collections"
+
+#. copy/allStates
+#: src/js/library.js:19
+msgctxt "tree:copy#/allStates"
+msgid "All item states"
+msgstr "All item states"
+
+#. copy/allDangers
+#: src/js/library.js:19
+msgctxt "tree:copy#/allDangers"
+msgid "All risks"
+msgstr "All risks"
+
+#. copy/result
+#: src/js/library.js:19
+msgctxt "tree:copy#/result"
+msgid "holdings"
+msgstr "holdings"
+
+#. copy/reset
+#: src/js/library.js:19
+msgctxt "tree:copy#/reset"
+msgid "Clear filters"
+msgstr "Clear filters"
+
+#. copy/openRecord
+#: src/js/library.js:19
+msgctxt "tree:copy#/openRecord"
+msgid "View holding"
+msgstr "View holding"
+
+#. copy/noResults
+#: src/js/library.js:19
+msgctxt "tree:copy#/noResults"
+msgid "No book admits to matching those conditions. Try fewer words or a wider risk filter."
+msgstr "No book admits to matching those conditions. Try fewer words or a wider risk filter."
+
+#. copy/details
+#: src/js/library.js:19
+msgctxt "tree:copy#/details"
+msgid "Holding record"
+msgstr "Holding record"
+
+#. copy/callNumber
+#: src/js/library.js:19
+msgctxt "tree:copy#/callNumber"
+msgid "Call number"
+msgstr "Call number"
+
+#. copy/author
+#: src/js/library.js:19
+msgctxt "tree:copy#/author"
+msgid "Responsibility"
+msgstr "Responsibility"
+
+#. copy/subject
+#: src/js/library.js:19
+msgctxt "tree:copy#/subject"
+msgid "Subject"
+msgstr "Subject"
+
+#. copy/edition
+#: src/js/library.js:19
+msgctxt "tree:copy#/edition"
+msgid "Edition"
+msgstr "Edition"
+
+#. copy/origin
+#: src/js/library.js:19
+msgctxt "tree:copy#/origin"
+msgid "Provenance"
+msgstr "Provenance"
+
+#. copy/location
+#: src/js/library.js:19
+msgctxt "tree:copy#/location"
+msgid "Location"
+msgstr "Location"
+
+#. copy/disposition
+#: src/js/library.js:19
+msgctxt "tree:copy#/disposition"
+msgid "Autonomous tendency"
+msgstr "Autonomous tendency"
+
+#. copy/danger
+#: src/js/library.js:19
+msgctxt "tree:copy#/danger"
+msgid "Reading risk"
+msgstr "Reading risk"
+
+#. copy/state
+#: src/js/library.js:19
+msgctxt "tree:copy#/state"
+msgid "Current state"
+msgstr "Current state"
+
+#. copy/terms
+#: src/js/library.js:19
+msgctxt "tree:copy#/terms"
+msgid "Loan terms"
+msgstr "Loan terms"
+
+#. copy/days
+#: src/js/library.js:19
+msgctxt "tree:copy#/days"
+msgid "days"
+msgstr "days"
+
+#. copy/renewals
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewals"
+msgid "renewals"
+msgstr "renewals"
+
+#. copy/courseGate
+#: src/js/library.js:19
+msgctxt "tree:copy#/courseGate"
+msgid "Course reserve"
+msgstr "Course reserve"
+
+#. copy/courseGateBody
+#: src/js/library.js:19
+msgctxt "tree:copy#/courseGateBody"
+msgid "The desk releases this book clasp after you complete or enrol in one of:"
+msgstr "The desk releases this book clasp after you complete or enrol in one of:"
+
+#. copy/eligible
+#: src/js/library.js:19
+msgctxt "tree:copy#/eligible"
+msgid "Eligibility confirmed"
+msgstr "Eligibility confirmed"
+
+#. copy/ineligible
+#: src/js/library.js:19
+msgctxt "tree:copy#/ineligible"
+msgid "Borrowing eligibility missing"
+msgstr "Borrowing eligibility missing"
+
+#. copy/borrow
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrow"
+msgid "Borrow this book"
+msgstr "Borrow this book"
+
+#. copy/placeHold
+#: src/js/library.js:19
+msgctxt "tree:copy#/placeHold"
+msgid "Place a hold"
+msgstr "Place a hold"
+
+#. copy/renew
+#: src/js/library.js:19
+msgctxt "tree:copy#/renew"
+msgid "Renew"
+msgstr "Renew"
+
+#. copy/return
+#: src/js/library.js:19
+msgctxt "tree:copy#/return"
+msgid "Return"
+msgstr "Return"
+
+#. copy/cancelHold
+#: src/js/library.js:19
+msgctxt "tree:copy#/cancelHold"
+msgid "Cancel hold"
+msgstr "Cancel hold"
+
+#. copy/reference
+#: src/js/library.js:19
+msgctxt "tree:copy#/reference"
+msgid "Library use only"
+msgstr "Library use only"
+
+#. copy/unavailable
+#: src/js/library.js:19
+msgctxt "tree:copy#/unavailable"
+msgid "Not available to borrow or hold"
+msgstr "Not available to borrow or hold"
+
+#. copy/identityNeeded
+#: src/js/library.js:19
+msgctxt "tree:copy#/identityNeeded"
+msgid ""
+"Create a My TU identity to borrow or place holds. The catalogue remains open "
+"to everyone."
+msgstr ""
+"Create a My TU identity to borrow or place holds. The catalogue remains open "
+"to everyone."
+
+#. copy/createIdentity
+#: src/js/library.js:19
+msgctxt "tree:copy#/createIdentity"
+msgid "Create My TU identity"
+msgstr "Create My TU identity"
+
+#. copy/maxLoans
+#: src/js/library.js:19
+msgctxt "tree:copy#/maxLoans"
+msgid "You may borrow five holdings at once. Return one first."
+msgstr "You may borrow five holdings at once. Return one first."
+
+#. copy/courseNeeded
+#: src/js/library.js:19
+msgctxt "tree:copy#/courseNeeded"
+msgid "This book clasp accepts only the specified course record."
+msgstr "This book clasp accepts only the specified course record."
+
+#. copy/alreadyLoaned
+#: src/js/library.js:19
+msgctxt "tree:copy#/alreadyLoaned"
+msgid "This book is already in your loan bag."
+msgstr "This book is already in your loan bag."
+
+#. copy/alreadyHeld
+#: src/js/library.js:19
+msgctxt "tree:copy#/alreadyHeld"
+msgid "You are already in this book's hold queue."
+msgstr "You are already in this book's hold queue."
+
+#. copy/borrowed
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrowed"
+msgid "Checked out. The librarian added one extra moon-shaped stamp nobody can read."
+msgstr "Checked out. The librarian added one extra moon-shaped stamp nobody can read."
+
+#. copy/held
+#: src/js/library.js:19
+msgctxt "tree:copy#/held"
+msgid ""
+"Hold placed. When the book reaches the desk, a paper crane will leave a "
+"notice on this page."
+msgstr ""
+"Hold placed. When the book reaches the desk, a paper crane will leave a "
+"notice on this page."
+
+#. copy/renewed
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewed"
+msgid "Renewed. The new due date is written into your on-device library card."
+msgstr "Renewed. The new due date is written into your on-device library card."
+
+#. copy/returned
+#: src/js/library.js:19
+msgctxt "tree:copy#/returned"
+msgid "Returned. The shelf has provisionally agreed to take it."
+msgstr "Returned. The shelf has provisionally agreed to take it."
+
+#. copy/holdCancelled
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdCancelled"
+msgid "Hold cancelled. The queue moved forward by one."
+msgstr "Hold cancelled. The queue moved forward by one."
+
+#. copy/renewalLimit
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewalLimit"
+msgid "This book has used all permitted renewals."
+msgstr "This book has used all permitted renewals."
+
+#. copy/renewalBlocked
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewalBlocked"
+msgid "Another reader has a hold, so this loan cannot be renewed."
+msgstr "Another reader has a hold, so this loan cannot be renewed."
+
+#. copy/due
+#: src/js/library.js:19
+msgctxt "tree:copy#/due"
+msgid "Due"
+msgstr "Due"
+
+#. copy/overdue
+#: src/js/library.js:19
+msgctxt "tree:copy#/overdue"
+msgid "Overdue"
+msgstr "Overdue"
+
+#. copy/borrowedOn
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrowedOn"
+msgid "Borrowed"
+msgstr "Borrowed"
+
+#. copy/holdPlaced
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdPlaced"
+msgid "Placed"
+msgstr "Placed"
+
+#. copy/queue
+#: src/js/library.js:19
+msgctxt "tree:copy#/queue"
+msgid "Queue"
+msgstr "Queue"
+
+#. copy/activeLoans
+#: src/js/library.js:19
+msgctxt "tree:copy#/activeLoans"
+msgid "Items on loan"
+msgstr "Items on loan"
+
+#. copy/activeHolds
+#: src/js/library.js:19
+msgctxt "tree:copy#/activeHolds"
+msgid "Waiting holds"
+msgstr "Waiting holds"
+
+#. copy/history
+#: src/js/library.js:19
+msgctxt "tree:copy#/history"
+msgid "Loan & hold history"
+msgstr "Loan & hold history"
+
+#. copy/noLoans
+#: src/js/library.js:19
+msgctxt "tree:copy#/noLoans"
+msgid "Your loan bag is empty except for a Kourindou receipt nobody remembers adding."
+msgstr "Your loan bag is empty except for a Kourindou receipt nobody remembers adding."
+
+#. copy/noHolds
+#: src/js/library.js:19
+msgctxt "tree:copy#/noHolds"
+msgid "No holds are waiting."
+msgstr "No holds are waiting."
+
+#. copy/noHistory
+#: src/js/library.js:19
+msgctxt "tree:copy#/noHistory"
+msgid "No circulation history yet. The librarian is polite but slightly bored."
+msgstr "No circulation history yet. The librarian is polite but slightly bored."
+
+#. copy/returnedStatus
+#: src/js/library.js:19
+msgctxt "tree:copy#/returnedStatus"
+msgid "Returned"
+msgstr "Returned"
+
+#. copy/cancelledStatus
+#: src/js/library.js:19
+msgctxt "tree:copy#/cancelledStatus"
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#. copy/printReceipt
+#: src/js/library.js:19
+msgctxt "tree:copy#/printReceipt"
+msgid "Open loan receipt"
+msgstr "Open loan receipt"
+
+#. copy/receiptTitle
+#: src/js/library.js:19
+msgctxt "tree:copy#/receiptTitle"
+msgid "Misty Lake Library loan receipt"
+msgstr "Misty Lake Library loan receipt"
+
+#. copy/receiptSubtitle
+#: src/js/library.js:19
+msgctxt "tree:copy#/receiptSubtitle"
+msgid "On-device library-card copy"
+msgstr "On-device library-card copy"
+
+#. copy/borrower
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrower"
+msgid "Borrower"
+msgstr "Borrower"
+
+#. copy/libraryCard
+#: src/js/library.js:19
+msgctxt "tree:copy#/libraryCard"
+msgid "Library card"
+msgstr "Library card"
+
+#. copy/issued
+#: src/js/library.js:19
+msgctxt "tree:copy#/issued"
+msgid "Printed"
+msgstr "Printed"
+
+#. copy/receiptNote
+#: src/js/library.js:19
+msgctxt "tree:copy#/receiptNote"
+msgid ""
+"If a book shelves itself elsewhere, its return destination remains Misty "
+"Lake Library. This receipt is generated from records in the current browser."
+msgstr ""
+"If a book shelves itself elsewhere, its return destination remains Misty "
+"Lake Library. This receipt is generated from records in the current browser."
+
+#. copy/print
+#: src/js/library.js:19
+msgctxt "tree:copy#/print"
+msgid "Print / save PDF"
+msgstr "Print / save PDF"
+
+#. copy/closeReceipt
+#: src/js/library.js:19
+msgctxt "tree:copy#/closeReceipt"
+msgid "Back to library"
+msgstr "Back to library"
+
+#. copy/lunarNotice
+#: src/js/library.js:19
+msgctxt "tree:copy#/lunarNotice"
+msgid ""
+"Full-moon states are updated by staff that night. A torch does not count as "
+"a lunar phase."
+msgstr ""
+"Full-moon states are updated by staff that night. A torch does not count as "
+"a lunar phase."
+
+#. copy/holdPosition
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdPosition"
+msgid "On-device queue position 1"
+msgstr "On-device queue position 1"

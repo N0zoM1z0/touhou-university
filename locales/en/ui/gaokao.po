@@ -1,0 +1,390 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/eyebrow"
+msgid "UNIFIED EXAMINATION / GENSOKYO UNIFIED EXAM"
+msgstr "UNIFIED EXAMINATION / GENSOKYO UNIFIED EXAM"
+
+#. copy/title
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/title"
+msgid "NORMAL to EXTRA: four unified papers whose questions truly change."
+msgstr "NORMAL to EXTRA: four unified papers whose questions truly change."
+
+#. copy/lead
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/lead"
+msgid ""
+"Humanities and sciences each run at four difficulties. Higher papers combine "
+"notices, versions, lunar phases, route graphs, observations, and conflicting "
+"testimony."
+msgstr ""
+"Humanities and sciences each run at four difficulties. Higher papers combine "
+"notices, versions, lunar phases, route graphs, observations, and conflicting "
+"testimony."
+
+#. copy/chooseDifficulty
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/chooseDifficulty"
+msgid "Choose a danmaku difficulty"
+msgstr "Choose a danmaku difficulty"
+
+#. copy/choose
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/choose"
+msgid "Choose an examination track"
+msgstr "Choose an examination track"
+
+#. copy/chooseLead
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/chooseLead"
+msgid ""
+"Four subjects, 150 marks. Printable papers are untimed and work offline or "
+"as saved PDFs."
+msgstr ""
+"Four subjects, 150 marks. Printable papers are untimed and work offline or "
+"as saved PDFs."
+
+#. copy/start
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/start"
+msgid "Start online simulation"
+msgstr "Start online simulation"
+
+#. copy/resume
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/resume"
+msgid "Resume unfinished paper"
+msgstr "Resume unfinished paper"
+
+#. copy/discard
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/discard"
+msgid "Discard draft"
+msgstr "Discard draft"
+
+#. copy/paper
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/paper"
+msgid "Download offline paper"
+msgstr "Download offline paper"
+
+#. copy/answers
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/answers"
+msgid "Download answer key"
+msgstr "Download answer key"
+
+#. copy/format
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/format"
+msgid "Print-ready HTML · no connection required after download"
+msgstr "Print-ready HTML · no connection required after download"
+
+#. copy/subjects
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/subjects"
+msgid "Exam subjects"
+msgstr "Exam subjects"
+
+#. copy/points
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/points"
+msgid "marks"
+msgstr "marks"
+
+#. copy/questions
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/questions"
+msgid "questions"
+msgstr "questions"
+
+#. copy/duration
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/duration"
+msgid "Duration"
+msgstr "Duration"
+
+#. copy/minutes
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/minutes"
+msgid "minutes"
+msgstr "minutes"
+
+#. copy/total
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/total"
+msgid "Maximum"
+msgstr "Maximum"
+
+#. copy/candidate
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/candidate"
+msgid "Candidate"
+msgstr "Candidate"
+
+#. copy/deviceCandidate
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/deviceCandidate"
+msgid "On-device simulation candidate"
+msgstr "On-device simulation candidate"
+
+#. copy/instructions
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/instructions"
+msgid "Instructions to candidates"
+msgstr "Instructions to candidates"
+
+#. copy/rules/0
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/0"
+msgid "Every item is single-choice. Select the one best answer."
+msgstr "Every item is single-choice. Select the one best answer."
+
+#. copy/rules/1
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/1"
+msgid "Source boxes are part of the item. Jump from the answer sheet; answers autosave."
+msgstr "Source boxes are part of the item. Jump from the answer sheet; answers autosave."
+
+#. copy/rules/2
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/2"
+msgid ""
+"Unless an item says otherwise, its lunar phase, time, route, and version "
+"come only from its source box; the live campus-map state is not consulted."
+msgstr ""
+"Unless an item says otherwise, its lunar phase, time, route, and version "
+"come only from its source box; the live campus-map state is not consulted."
+
+#. copy/rules/3
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/3"
+msgid ""
+"The paper submits at time. Full moons, outages, and relocated classrooms do "
+"not add time."
+msgstr ""
+"The paper submits at time. Full moons, outages, and relocated classrooms do "
+"not add time."
+
+#. copy/answered
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/answered"
+msgid "Answered"
+msgstr "Answered"
+
+#. copy/timeLeft
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/timeLeft"
+msgid "Time left"
+msgstr "Time left"
+
+#. copy/submit
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/submit"
+msgid "Submit and score now"
+msgstr "Submit and score now"
+
+#. copy/submitConfirm
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/submitConfirm"
+msgid "Some questions are unanswered. Submit anyway?"
+msgstr "Some questions are unanswered. Submit anyway?"
+
+#. copy/saved
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/saved"
+msgid "Paper progress saved on this device."
+msgstr "Paper progress saved on this device."
+
+#. copy/draftRevised
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/draftRevised"
+msgid ""
+"The question bank was revised. Your old choices remain in the local draft, "
+"but please confirm every answer against the new wording."
+msgstr ""
+"The question bank was revised. Your old choices remain in the local draft, "
+"but please confirm every answer against the new wording."
+
+#. copy/expired
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/expired"
+msgid "Time expired. The paper was submitted automatically."
+msgstr "Time expired. The paper was submitted automatically."
+
+#. copy/result
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/result"
+msgid "Unified Examination Result"
+msgstr "Unified Examination Result"
+
+#. copy/score
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/score"
+msgid "Total score"
+msgstr "Total score"
+
+#. copy/correct
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/correct"
+msgid "Correct"
+msgstr "Correct"
+
+#. copy/review
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/review"
+msgid "Answer key and explanations"
+msgstr "Answer key and explanations"
+
+#. copy/yourAnswer
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/yourAnswer"
+msgid "Your answer"
+msgstr "Your answer"
+
+#. copy/rightAnswer
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rightAnswer"
+msgid "Reference answer"
+msgstr "Reference answer"
+
+#. copy/unanswered
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/unanswered"
+msgid "Unanswered"
+msgstr "Unanswered"
+
+#. copy/back
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/back"
+msgid "Back to paper selection"
+msgstr "Back to paper selection"
+
+#. copy/retake
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/retake"
+msgid "Retake paper"
+msgstr "Retake paper"
+
+#. copy/excellent
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/excellent"
+msgid "You untangled the versions, lunar phases, and conflicting testimony."
+msgstr "You untangled the versions, lunar phases, and conflicting testimony."
+
+#. copy/pass
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/pass"
+msgid "A sound result. Revisit the source chains in weaker subjects."
+msgstr "A sound result. Revisit the source chains in weaker subjects."
+
+#. copy/revise
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/revise"
+msgid "Trace each source through the key before trusting Yesterday's Clearing."
+msgstr "Trace each source through the key before trusting Yesterday's Clearing."
+
+#. copy/localRecords
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/localRecords"
+msgid "My unified-exam records"
+msgstr "My unified-exam records"
+
+#. copy/localLead
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/localLead"
+msgid "Full answers, scores, and review links stay on this device only."
+msgstr "Full answers, scores, and review links stay on this device only."
+
+#. copy/attempts
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/attempts"
+msgid "submitted"
+msgstr "submitted"
+
+#. copy/noRecords
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/noRecords"
+msgid "No completed Gensokyo unified exam is stored on this device."
+msgstr "No completed Gensokyo unified exam is stored on this device."
+
+#. copy/viewRecord
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/viewRecord"
+msgid "Reopen result and review"
+msgstr "Reopen result and review"
+
+#. copy/legacyRecord
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/legacyRecord"
+msgid "Older version saved only a score summary"
+msgstr "Older version saved only a score summary"
+
+#. copy/legacyReview
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/legacyReview"
+msgid ""
+"This record belongs to an older question-bank revision. Its score uses the "
+"original answer positions; old option wording is not projected onto the new "
+"paper."
+msgstr ""
+"This record belongs to an older question-bank revision. Its score uses the "
+"original answer positions; old option wording is not projected onto the new "
+"paper."
+
+#. copy/legacyChoice
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/legacyChoice"
+msgid "Choice on old paper"
+msgstr "Choice on old paper"
+
+#. copy/completed
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/completed"
+msgid "Submitted"
+msgstr "Submitted"
+
+#. copy/deleteRecord
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/deleteRecord"
+msgid "Delete local record"
+msgstr "Delete local record"
+
+#. copy/deleteConfirm
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/deleteConfirm"
+msgid "Delete this examination record?"
+msgstr "Delete this examination record?"
+
+#. copy/recordDeleted
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/recordDeleted"
+msgid "Local examination record deleted."
+msgstr "Local examination record deleted."
+
+#. copy/archive
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/archive"
+msgid "On-device answer archive"
+msgstr "On-device answer archive"
+
+#. copy/sourceFile
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/sourceFile"
+msgid "Source dossier · independent conditions"
+msgstr "Source dossier · independent conditions"
+
+#. renderRunner
+#: src/js/gaokao.js:246
+msgctxt "text:renderRunner"
+msgid "Gensokyo Unified Examination"
+msgstr "Gensokyo Unified Examination"

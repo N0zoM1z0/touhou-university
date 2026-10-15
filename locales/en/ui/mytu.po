@@ -1,0 +1,772 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/eyebrow"
+msgid "MY TU / STUDENT RECORDS"
+msgstr "MY TU / STUDENT RECORDS"
+
+#. copy/title
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/title"
+msgid "Keep one continuous campus life on this device."
+msgstr "Keep one continuous campus life on this device."
+
+#. copy/lead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/lead"
+msgid ""
+"Applications, exams, visits, and posts become one on-device student record. "
+"Nothing leaves this browser."
+msgstr ""
+"Applications, exams, visits, and posts become one on-device student record. "
+"Nothing leaves this browser."
+
+#. copy/createTitle
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/createTitle"
+msgid "Create your on-device campus identity"
+msgstr "Create your on-device campus identity"
+
+#. copy/createLead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/createLead"
+msgid ""
+"Existing applications and scores stay unchanged; they will be compiled into "
+"the same campus history."
+msgstr ""
+"Existing applications and scores stay unchanged; they will be compiled into "
+"the same campus history."
+
+#. copy/found
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/found"
+msgid "On-device records ready to compile"
+msgstr "On-device records ready to compile"
+
+#. copy/name
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/name"
+msgid "Name or known name"
+msgstr "Name or known name"
+
+#. copy/kind
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/kind"
+msgid "Species / identity"
+msgstr "Species / identity"
+
+#. copy/origin
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/origin"
+msgid "Origin"
+msgstr "Origin"
+
+#. copy/school
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/school"
+msgid "Preferred school"
+msgstr "Preferred school"
+
+#. copy/lunar
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/lunar"
+msgid "I need low-stimulus, rerouting, or other full-moon arrangements"
+msgstr "I need low-stimulus, rerouting, or other full-moon arrangements"
+
+#. copy/housing
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/housing"
+msgid "Housing, wingspan, familiar, aquatic, or phasing needs"
+msgstr "Housing, wingspan, familiar, aquatic, or phasing needs"
+
+#. copy/housingPlaceholder
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/housingPlaceholder"
+msgid "Optional; you can change this later."
+msgstr "Optional; you can change this later."
+
+#. copy/create
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/create"
+msgid "Create My TU identity"
+msgstr "Create My TU identity"
+
+#. copy/save
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/save"
+msgid "Save identity"
+msgstr "Save identity"
+
+#. copy/edit
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/edit"
+msgid "Edit on-device identity"
+msgstr "Edit on-device identity"
+
+#. copy/cancel
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/cancel"
+msgid "Cancel"
+msgstr "Cancel"
+
+#. copy/privacy
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/privacy"
+msgid "Stored only on this device. Names, contacts, and application content are not uploaded."
+msgstr "Stored only on this device. Names, contacts, and application content are not uploaded."
+
+#. copy/identitySaved
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/identitySaved"
+msgid "My TU identity saved on this device."
+msgstr "My TU identity saved on this device."
+
+#. copy/localId
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/localId"
+msgid "On-device student number"
+msgstr "On-device student number"
+
+#. copy/stage
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stage"
+msgid "Current stage"
+msgstr "Current stage"
+
+#. copy/preferredSchool
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/preferredSchool"
+msgid "Preference"
+msgstr "Preference"
+
+#. copy/recordSummary
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/recordSummary"
+msgid "Campus record summary"
+msgstr "Campus record summary"
+
+#. copy/applications
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/applications"
+msgid "Applications"
+msgstr "Applications"
+
+#. copy/arrivals
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/arrivals"
+msgid "First Bell arrival files"
+msgstr "First Bell arrival files"
+
+#. copy/exams
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/exams"
+msgid "Completed exams"
+msgstr "Completed exams"
+
+#. copy/visits
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/visits"
+msgid "Campus visits"
+msgstr "Campus visits"
+
+#. copy/posts
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/posts"
+msgid "BBS posts"
+msgstr "BBS posts"
+
+#. copy/courses
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/courses"
+msgid "Current courses"
+msgstr "Current courses"
+
+#. copy/library
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/library"
+msgid "Loans / holds"
+msgstr "Loans / holds"
+
+#. copy/residential
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/residential"
+msgid "Housing / transfers"
+msgstr "Housing / transfers"
+
+#. copy/incidents
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/incidents"
+msgid "Incident studies / closures"
+msgstr "Incident studies / closures"
+
+#. copy/academicRecords
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/academicRecords"
+msgid "Coursework / defences"
+msgstr "Coursework / defences"
+
+#. copy/medical
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/medical"
+msgid "Care / prescriptions / recovery"
+msgstr "Care / prescriptions / recovery"
+
+#. copy/appraisals
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/appraisals"
+msgid "Drift-object appraisals"
+msgstr "Drift-object appraisals"
+
+#. copy/spellcards
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/spellcards"
+msgid "Spell-card designs / defences"
+msgstr "Spell-card designs / defences"
+
+#. copy/ethics
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/ethics"
+msgid "Research ethics / five-seat review"
+msgstr "Research ethics / five-seat review"
+
+#. copy/festivals
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/festivals"
+msgid "Festival permits / duty record"
+msgstr "Festival permits / duty record"
+
+#. copy/fieldwork
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/fieldwork"
+msgid "Fieldwork passport / seals"
+msgstr "Fieldwork passport / seals"
+
+#. copy/commons
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/commons"
+msgid "Property hearings / campus post"
+msgstr "Property hearings / campus post"
+
+#. copy/calendar
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/calendar"
+msgid "Academic-calendar bookmarks"
+msgstr "Academic-calendar bookmarks"
+
+#. copy/careers
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/careers"
+msgid "Graduation / careers / alumni"
+msgstr "Graduation / careers / alumni"
+
+#. copy/recordsMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/recordsMode"
+msgid "Student record"
+msgstr "Student record"
+
+#. copy/courseMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/courseMode"
+msgid "Courses & grades"
+msgstr "Courses & grades"
+
+#. copy/academicMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/academicMode"
+msgid "Work, exams & defences"
+msgstr "Work, exams & defences"
+
+#. copy/cabinetMode
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/cabinetMode"
+msgid "On-device records"
+msgstr "On-device records"
+
+#. copy/cabinetSummary
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/cabinetSummary"
+msgid "All on-device files"
+msgstr "All on-device files"
+
+#. copy/drafts
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/drafts"
+msgid "Unfinished"
+msgstr "Unfinished"
+
+#. copy/applicationReview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/applicationReview"
+msgid "Joint faculty review"
+msgstr "Joint faculty review"
+
+#. copy/reviewLead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewLead"
+msgid ""
+"The panel reads the selected question, method, needs, and best on-device "
+"exam result, then saves a reopenable internal review."
+msgstr ""
+"The panel reads the selected question, method, needs, and best on-device "
+"exam result, then saves a reopenable internal review."
+
+#. copy/reviewQuestion
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewQuestion"
+msgid "Reading of the question"
+msgstr "Reading of the question"
+
+#. copy/reviewMethod
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewMethod"
+msgid "Reading of method and evidence"
+msgstr "Reading of method and evidence"
+
+#. copy/reviewNeeds
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewNeeds"
+msgid "Reading of field conditions"
+msgstr "Reading of field conditions"
+
+#. copy/noDeclaredNeeds
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noDeclaredNeeds"
+msgid "No field needs were declared; the panel may still attach its own."
+msgstr "No field needs were declared; the panel may still attach its own."
+
+#. copy/noApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noApplication"
+msgid ""
+"No application has been submitted. Complete one first, so the faculty have "
+"something to disagree about."
+msgstr ""
+"No application has been submitted. Complete one first, so the faculty have "
+"something to disagree about."
+
+#. copy/openApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/openApplication"
+msgid "Start online application"
+msgstr "Start online application"
+
+#. copy/chooseApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/chooseApplication"
+msgid "Choose dossier"
+msgstr "Choose dossier"
+
+#. copy/submitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/submitted"
+msgid "Submitted"
+msgstr "Submitted"
+
+#. copy/runReview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/runReview"
+msgid "Convene joint faculty review"
+msgstr "Convene joint faculty review"
+
+#. copy/reviewed
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/reviewed"
+msgid "Review complete"
+msgstr "Review complete"
+
+#. copy/dossierScore
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/dossierScore"
+msgid "Dossier reading"
+msgstr "Dossier reading"
+
+#. copy/examEvidence
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/examEvidence"
+msgid "On-device exam evidence"
+msgstr "On-device exam evidence"
+
+#. copy/noExam
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noExam"
+msgid "No exam score yet"
+msgstr "No exam score yet"
+
+#. copy/stanceApprove
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stanceApprove"
+msgid "Recommend admission"
+msgstr "Recommend admission"
+
+#. copy/stanceCondition
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stanceCondition"
+msgid "Conditions attached"
+msgstr "Conditions attached"
+
+#. copy/stanceRevise
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stanceRevise"
+msgid "Revision required"
+msgstr "Revision required"
+
+#. copy/printDecision
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/printDecision"
+msgid "Open printable decision letter"
+msgstr "Open printable decision letter"
+
+#. copy/timeline
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/timeline"
+msgid "Campus event ledger"
+msgstr "Campus event ledger"
+
+#. copy/timelineLead
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/timelineLead"
+msgid ""
+"Records events, submissions, corrections, and removals. Deleting a source "
+"card does not pretend the event never happened."
+msgstr ""
+"Records events, submissions, corrections, and removals. Deleting a source "
+"card does not pretend the event never happened."
+
+#. copy/noEvents
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/noEvents"
+msgid "The event ledger is empty."
+msgstr "The event ledger is empty."
+
+#. copy/contestedClosure
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/contestedClosure"
+msgid "Red-thread contested file"
+msgstr "Red-thread contested file"
+
+#. copy/next
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/next"
+msgid "Next step"
+msgstr "Next step"
+
+#. copy/nextApplication
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextApplication"
+msgid "Submit an application to move this identity into applicant status."
+msgstr "Submit an application to move this identity into applicant status."
+
+#. copy/nextReview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextReview"
+msgid "Send the application to joint review. Agreement among faculty is not guaranteed."
+msgstr "Send the application to joint review. Agreement among faculty is not guaranteed."
+
+#. copy/nextExam
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextExam"
+msgid "Continue exams or satisfy review conditions to advance the decision."
+msgstr "Continue exams or satisfy review conditions to advance the decision."
+
+#. copy/nextOrientation
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/nextOrientation"
+msgid ""
+"The formal admission edition now stands. Confirm the route and way back at "
+"the arrival office, then ring for the first real thing you will do on "
+"campus."
+msgstr ""
+"The formal admission edition now stands. Confirm the route and way back at "
+"the arrival office, then ring for the first real thing you will do on "
+"campus."
+
+#. copy/goExam
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/goExam"
+msgid "Go to entrance exam"
+msgstr "Go to entrance exam"
+
+#. copy/goGaokao
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/goGaokao"
+msgid "Go to Gensokyo exam"
+msgstr "Go to Gensokyo exam"
+
+#. copy/goOrientation
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/goOrientation"
+msgid "Go to First Bell arrival week"
+msgstr "Go to First Bell arrival week"
+
+#. copy/outcome/admitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/admitted"
+msgid "Admitted"
+msgstr "Admitted"
+
+#. copy/outcome/conditional
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/conditional"
+msgid "Conditional Admission"
+msgstr "Conditional Admission"
+
+#. copy/outcome/supplement
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/supplement"
+msgid "Research Plan Required"
+msgstr "Research Plan Required"
+
+#. copy/outcome/interview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcome/interview"
+msgid "Proceed to Interview"
+msgstr "Proceed to Interview"
+
+#. copy/outcomeBody/admitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/admitted"
+msgid ""
+"The panel approves direct progression to new-student registration; each "
+"laboratory's field conditions still apply."
+msgstr ""
+"The panel approves direct progression to new-student registration; each "
+"laboratory's field conditions still apply."
+
+#. copy/outcomeBody/conditional
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/conditional"
+msgid ""
+"A place is reserved. Complete the specified method revision and safety "
+"conditions to convert it to full admission."
+msgstr ""
+"A place is reserved. Complete the specified method revision and safety "
+"conditions to convert it to full admission."
+
+#. copy/outcomeBody/supplement
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/supplement"
+msgid ""
+"The question is worth keeping, but the method cannot yet identify the claim. "
+"The same panel will review a supplement."
+msgstr ""
+"The question is worth keeping, but the method cannot yet identify the claim. "
+"The same panel will review a supplement."
+
+#. copy/outcomeBody/interview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/outcomeBody/interview"
+msgid ""
+"The written dossier cannot resolve the central disagreement. Explain "
+"trade-offs and stop conditions in a spell-card interview."
+msgstr ""
+"The written dossier cannot resolve the central disagreement. Explain "
+"trade-offs and stop conditions in a spell-card interview."
+
+#. copy/stages/profile
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/profile"
+msgid "Campus identity created"
+msgstr "Campus identity created"
+
+#. copy/stages/applicant
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/applicant"
+msgid "Applicant"
+msgstr "Applicant"
+
+#. copy/stages/conditional
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/conditional"
+msgid "Conditional Admit"
+msgstr "Conditional Admit"
+
+#. copy/stages/admitted
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/admitted"
+msgid "New Student"
+msgstr "New Student"
+
+#. copy/stages/supplement
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/supplement"
+msgid "Supplement Pending"
+msgstr "Supplement Pending"
+
+#. copy/stages/interview
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/stages/interview"
+msgid "Interview Candidate"
+msgstr "Interview Candidate"
+
+#. copy/document/university
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/university"
+msgid "TOUHOU UNIVERSITY OF GENSOKYO"
+msgstr "TOUHOU UNIVERSITY OF GENSOKYO"
+
+#. copy/document/office
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/office"
+msgid "Joint Admissions Review Council"
+msgstr "Joint Admissions Review Council"
+
+#. copy/document/admission
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/admission"
+msgid "LETTER OF ADMISSION"
+msgstr "LETTER OF ADMISSION"
+
+#. copy/document/decision
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/decision"
+msgid "SELECTION DECISION"
+msgstr "SELECTION DECISION"
+
+#. copy/document/certifies
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/certifies"
+msgid "Notice of the Autumn 2026 selection result for"
+msgstr "Notice of the Autumn 2026 selection result for"
+
+#. copy/document/applicant
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/applicant"
+msgid "Applicant"
+msgstr "Applicant"
+
+#. copy/document/application
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/application"
+msgid "Application reference"
+msgstr "Application reference"
+
+#. copy/document/review
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/review"
+msgid "Review reference"
+msgstr "Review reference"
+
+#. copy/document/school
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/school"
+msgid "Admitting / reviewing school"
+msgstr "Admitting / reviewing school"
+
+#. copy/document/result
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/result"
+msgid "Decision"
+msgstr "Decision"
+
+#. copy/document/conditions
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/conditions"
+msgid "Next conditions"
+msgstr "Next conditions"
+
+#. copy/document/issued
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/issued"
+msgid "Issued"
+msgstr "Issued"
+
+#. copy/document/signatures
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/signatures"
+msgid "Joint reviewers"
+msgstr "Joint reviewers"
+
+#. copy/document/verification
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/verification"
+msgid "On-device verification weave"
+msgstr "On-device verification weave"
+
+#. copy/document/footer
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/footer"
+msgid ""
+"Generated by the My TU on-device student-record centre from the saved "
+"application and review. Verify both the application and review references."
+msgstr ""
+"Generated by the My TU on-device student-record centre from the saved "
+"application and review. Verify both the application and review references."
+
+#. copy/document/print
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/print"
+msgid "Print / Save PDF"
+msgstr "Print / Save PDF"
+
+#. copy/document/close
+#: src/js/mytu.js:23
+msgctxt "tree:copy#/document/close"
+msgid "Back to My TU"
+msgstr "Back to My TU"
+
+#. words.eyebrow
+#: src/js/mytu.js:412
+msgctxt "text:words.eyebrow"
+msgid "TIMETABLE REVERSE / UNREGISTERED MARGINALIA"
+msgstr "TIMETABLE REVERSE / UNREGISTERED MARGINALIA"
+
+#. words.title.yes
+#: src/js/mytu.js:412
+msgctxt "text:words.title.yes"
+msgid "The ninth-period roll has written your name."
+msgstr "The ninth-period roll has written your name."
+
+#. words.title.no
+#: src/js/mytu.js:412
+msgctxt "text:words.title.no"
+msgid "A row on the timetable's reverse does not belong to this term."
+msgstr "A row on the timetable's reverse does not belong to this term."
+
+#. words.body.yes
+#: src/js/mytu.js:412
+msgctxt "text:words.body.yes"
+msgid ""
+"Six ordinary administrative seals overlap on the reverse of one sheet. The "
+"system cannot find a room; the north stair has begun roll call."
+msgstr ""
+"Six ordinary administrative seals overlap on the reverse of one sheet. The "
+"system cannot find a room; the north stair has begun roll call."
+
+#. words.body.no
+#: src/js/mytu.js:412
+msgctxt "text:words.body.no"
+msgid "{value0} seals currently show through; Academic Affairs still crosses out row nine."
+msgstr "{value0} seals currently show through; Academic Affairs still crosses out row nine."
+
+#. words.action.yes
+#: src/js/mytu.js:412
+msgctxt "text:words.action.yes"
+msgid "Return to ninth period"
+msgstr "Return to ninth period"
+
+#. words.action.no
+#: src/js/mytu.js:412
+msgctxt "text:words.action.no"
+msgid "Inspect the roll's reverse"
+msgstr "Inspect the roll's reverse"
+
+#. words.seek
+#: src/js/mytu.js:412
+msgctxt "text:words.seek"
+msgid "Try the present duty bell's ink trail"
+msgstr "Try the present duty bell's ink trail"
+
+#. words.closed
+#: src/js/mytu.js:412
+msgctxt "text:words.closed"
+msgid "Room field: not yet admitted"
+msgstr "Room field: not yet admitted"

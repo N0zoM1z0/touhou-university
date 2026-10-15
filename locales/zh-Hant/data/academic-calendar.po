@@ -1,0 +1,791 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. academicSeasons.spring.name
+#: src/data/academic-calendar.js:9
+msgctxt "text:academicSeasons.spring.name"
+msgid "Blossom & Unmelted Snow"
+msgstr "花見與未融雪季"
+
+#. academicSeasons.spring.note
+#: src/data/academic-calendar.js:11
+msgctxt "text:academicSeasons.spring.note"
+msgid "Spring has arrived; Hakugyokurou has not signed for it."
+msgstr "春天已到；白玉樓尚未簽收。"
+
+#. academicSeasons.rain.name
+#: src/data/academic-calendar.js:15
+msgctxt "text:academicSeasons.rain.name"
+msgid "Rain & Paperweight Season"
+msgstr "梅雨與紙張鎮壓季"
+
+#. academicSeasons.rain.note
+#: src/data/academic-calendar.js:17
+msgctxt "text:academicSeasons.rain.note"
+msgid "Notices remain valid; the date in the lower-right may have run off."
+msgstr "公告有效，但右下角的日期可能已流走。"
+
+#. academicSeasons.summer.name
+#: src/data/academic-calendar.js:21
+msgctxt "text:academicSeasons.summer.name"
+msgid "Night-Sparrow Supper & Summer Field Season"
+msgstr "夜雀晚食與夏夜實習季"
+
+#. academicSeasons.summer.note
+#: src/data/academic-calendar.js:23
+msgctxt "text:academicSeasons.summer.note"
+msgid "Fewer daylight classes, more nocturnal complications."
+msgstr "白天課少一點，夜間麻煩多一點。"
+
+#. academicSeasons.autumn.name
+#: src/data/academic-calendar.js:27
+msgctxt "text:academicSeasons.autumn.name"
+msgid "Maple, Harvest & Shrine Festival Season"
+msgstr "紅葉、收穫與神社祭季"
+
+#. academicSeasons.autumn.note
+#: src/data/academic-calendar.js:29
+msgctxt "text:academicSeasons.autumn.note"
+msgid "Three festivals share a calendar, not a main gate."
+msgstr "三方祭典共用一份日曆，但不共用正門。"
+
+#. academicSeasons.winter.name
+#: src/data/academic-calendar.js:33
+msgctxt "text:academicSeasons.winter.name"
+msgid "Hibernation & Winter Placement Season"
+msgstr "冬眠與寒期實習季"
+
+#. academicSeasons.winter.note
+#: src/data/academic-calendar.js:35
+msgctxt "text:academicSeasons.winter.note"
+msgid "Hibernation is not absence if the form was filed before sleep."
+msgstr "冬眠不算缺席；前提是睡前交了表。"
+
+#. academicCalendarEvents.0.0.title
+#: src/data/academic-calendar.js:78
+msgctxt "text:academicCalendarEvents.0.0.title"
+msgid "Winter placement return & snow-boot provenance"
+msgstr "寒期實習返校與雪靴來源核驗"
+
+#. academicCalendarEvents.0.0.window
+#: src/data/academic-calendar.js:79
+msgctxt "text:academicCalendarEvents.0.0.window"
+msgid "6–18 January"
+msgstr "一月 6—18 日"
+
+#. academicCalendarEvents.0.0.premise
+#: src/data/academic-calendar.js:80
+msgctxt "text:academicCalendarEvents.0.0.premise"
+msgid ""
+"Returning snow, phantoms, and tools may not all be denied on one ‘nothing "
+"imported’ form."
+msgstr "返校生帶回的雪、幽靈與工具不得在同一張『無攜入物』表上一起否認。"
+
+#. academicCalendarEvents.0.0.details
+#: src/data/academic-calendar.js:81
+msgctxt "text:academicCalendarEvents.0.0.details"
+msgid ""
+"Hieda extends passport inspection; the clinic opens a frozen-magic warming "
+"desk; Kappa Workshop accepts only equipment still moving after drying."
+msgstr "稗田館延長護照驗收；校醫院開設凍結魔力回溫桌；河童工房只收乾燥後仍會動的器材。"
+
+#. academicCalendarEvents.0.0.impacts.course
+#: src/data/academic-calendar.js:83
+msgctxt "text:academicCalendarEvents.0.0.impacts.course"
+msgid "Morning classes shift one bell; field reports replace first period"
+msgstr "上午課延後一校鐘，田野回報取代第一節"
+
+#. academicCalendarEvents.0.0.impacts.transport
+#: src/data/academic-calendar.js:84
+msgctxt "text:academicCalendarEvents.0.0.impacts.transport"
+msgid "Add 3 minutes between Hakurei Gate and Hieda Hall"
+msgstr "博麗門—稗田館步行加 3 分鐘"
+
+#. academicCalendarEvents.0.0.impacts.library
+#: src/data/academic-calendar.js:85
+msgctxt "text:academicCalendarEvents.0.0.impacts.library"
+msgid "Field archive stays open until 22:30"
+msgstr "田野史料櫃延長至 22:30"
+
+#. academicCalendarEvents.0.0.impacts.medicine
+#: src/data/academic-calendar.js:86
+msgctxt "text:academicCalendarEvents.0.0.impacts.medicine"
+msgid "Frozen-magic warming desk opens"
+msgstr "凍結魔力回溫桌增開"
+
+#. academicCalendarEvents.1.0.title
+#: src/data/academic-calendar.js:97
+msgctxt "text:academicCalendarEvents.1.0.title"
+msgid "Hibernation filing & absent registration"
+msgstr "冬眠登記與不在場選課"
+
+#. academicCalendarEvents.1.0.window
+#: src/data/academic-calendar.js:98
+msgctxt "text:academicCalendarEvents.1.0.window"
+msgid "1–12 February"
+msgstr "二月 1—12 日"
+
+#. academicCalendarEvents.1.0.premise
+#: src/data/academic-calendar.js:99
+msgctxt "text:academicCalendarEvents.1.0.premise"
+msgid ""
+"Hibernators may add and drop by sleep-talking; if the dream enrols in eight "
+"courses, waking responsibility remains theirs."
+msgstr "冬眠者可由夢話代理加退選；夢話若選了八門課，醒來仍需自己處理。"
+
+#. academicCalendarEvents.1.0.details
+#: src/data/academic-calendar.js:100
+msgctxt "text:academicCalendarEvents.1.0.details"
+msgid ""
+"Residence desks accept bedside forms; My TU marks ‘student may not know’; "
+"instructors may not use pot-banging as formal awakening."
+msgstr "宿舍夜間桌收取枕邊申請；My TU 標記為『本人可能不知道』；教授不得以敲鍋代替正式喚醒。"
+
+#. academicCalendarEvents.1.0.impacts.course
+#: src/data/academic-calendar.js:102
+msgctxt "text:academicCalendarEvents.1.0.impacts.course"
+msgid "Waitlists recalculate each dusk"
+msgstr "候補席每日黃昏重算一次"
+
+#. academicCalendarEvents.1.0.impacts.transport
+#: src/data/academic-calendar.js:103
+msgctxt "text:academicCalendarEvents.1.0.impacts.transport"
+msgid "Quiet footways apply around hibernation wings"
+msgstr "冬眠棟周邊改為靜音步道"
+
+#. academicCalendarEvents.1.0.impacts.library
+#: src/data/academic-calendar.js:104
+msgctxt "text:academicCalendarEvents.1.0.impacts.library"
+msgid "Bedside loans receive one renewal"
+msgstr "枕邊借閱可延長一次"
+
+#. academicCalendarEvents.1.0.impacts.medicine
+#: src/data/academic-calendar.js:105
+msgctxt "text:academicCalendarEvents.1.0.impacts.medicine"
+msgid "Sleepwalking cases move to residence rounds"
+msgstr "夢行症狀改至宿舍巡診"
+
+#. academicCalendarEvents.2.0.title
+#: src/data/academic-calendar.js:116
+msgctxt "text:academicCalendarEvents.2.0.title"
+msgid "Spring term opening & Hakugyokurou unmelted-snow objection"
+msgstr "春季開學與白玉樓未融雪異議"
+
+#. academicCalendarEvents.2.0.window
+#: src/data/academic-calendar.js:117
+msgctxt "text:academicCalendarEvents.2.0.window"
+msgid "18 March–7 April"
+msgstr "三月 18 日—四月 7 日"
+
+#. academicCalendarEvents.2.0.premise
+#: src/data/academic-calendar.js:118
+msgctxt "text:academicCalendarEvents.2.0.premise"
+msgid ""
+"The university declares spring term; Hakugyokurou petitions delay for snow "
+"while Yuyuko holds hanami first."
+msgstr "校方宣布春季開學；白玉樓以仍有積雪為由申請延後，幽幽子已先辦花見。"
+
+#. academicCalendarEvents.2.0.details
+#: src/data/academic-calendar.js:119
+msgctxt "text:academicCalendarEvents.2.0.details"
+msgid ""
+"Week one has spring and winter timetables; Youmu patrols between them; "
+"Yukari declines to say which is earlier."
+msgstr "第一週課程同時存在春季與冬季版；妖夢在兩份課表間巡邏；紫拒絕說哪一側比較早。"
+
+#. academicCalendarEvents.2.0.impacts.course
+#: src/data/academic-calendar.js:121
+msgctxt "text:academicCalendarEvents.2.0.impacts.course"
+msgid "Hakugyokurou remote classes keep winter time"
+msgstr "白玉樓遠距課保留冬季時刻"
+
+#. academicCalendarEvents.2.0.impacts.transport
+#: src/data/academic-calendar.js:122
+msgctxt "text:academicCalendarEvents.2.0.impacts.transport"
+msgid "Add 8 minutes to Higan/Hakugyokurou routes"
+msgstr "彼岸／白玉樓路段加 8 分鐘"
+
+#. academicCalendarEvents.2.0.impacts.library
+#: src/data/academic-calendar.js:123
+msgctxt "text:academicCalendarEvents.2.0.impacts.library"
+msgid "Spring reserves and winter renewals overlap"
+msgstr "春季指定書與冬季續借同時有效"
+
+#. academicCalendarEvents.2.0.impacts.medicine
+#: src/data/academic-calendar.js:124
+msgctxt "text:academicCalendarEvents.2.0.impacts.medicine"
+msgid "Pollen and frostbite triage stay separate"
+msgstr "花粉與凍傷分診不可合併"
+
+#. academicCalendarEvents.3.0.title
+#: src/data/academic-calendar.js:135
+msgctxt "text:academicCalendarEvents.3.0.title"
+msgid "Boundary matriculation & three sole main gates"
+msgstr "境界開學式與三扇唯一正門"
+
+#. academicCalendarEvents.3.0.window
+#: src/data/academic-calendar.js:136
+msgctxt "text:academicCalendarEvents.3.0.window"
+msgid "Second week of April"
+msgstr "四月第二個星期"
+
+#. academicCalendarEvents.3.0.premise
+#: src/data/academic-calendar.js:137
+msgctxt "text:academicCalendarEvents.3.0.premise"
+msgid ""
+"New students split among three ‘sole’ gates by flight, faith route, and "
+"boundary visibility."
+msgstr "新生依是否會飛、信仰路線與能否看見境界，從三扇『唯一正門』分流。"
+
+#. academicCalendarEvents.3.0.details
+#: src/data/academic-calendar.js:138
+msgctxt "text:academicCalendarEvents.3.0.details"
+msgid ""
+"Reimu unveils the nameboard; Aya publishes attendance nine minutes early; "
+"Kogasa startles those who missed the gates."
+msgstr "靈夢主持校名揭牌；文提前九分鐘刊出出席人數；小傘負責讓沒注意到校門的人注意到。"
+
+#. academicCalendarEvents.3.0.impacts.course
+#: src/data/academic-calendar.js:140
+msgctxt "text:academicCalendarEvents.3.0.impacts.course"
+msgid "Orientation replaces morning classes"
+msgstr "新生導覽取代上午課"
+
+#. academicCalendarEvents.3.0.impacts.transport
+#: src/data/academic-calendar.js:141
+msgctxt "text:academicCalendarEvents.3.0.impacts.transport"
+msgid "Hakurei Gate–Boundary Hall becomes one-way"
+msgstr "博麗門—境界講堂單向步行"
+
+#. academicCalendarEvents.3.0.impacts.library
+#: src/data/academic-calendar.js:142
+msgctxt "text:academicCalendarEvents.3.0.impacts.library"
+msgid "New library cards issued on site"
+msgstr "新生借閱證現場換發"
+
+#. academicCalendarEvents.3.0.impacts.medicine
+#: src/data/academic-calendar.js:143
+msgctxt "text:academicCalendarEvents.3.0.impacts.medicine"
+msgid "Extra triage for lostness, flight sickness, and surprise"
+msgstr "迷路、飛行暈眩與驚嚇分診增開"
+
+#. academicCalendarEvents.4.0.title
+#: src/data/academic-calendar.js:154
+msgctxt "text:academicCalendarEvents.4.0.title"
+msgid "Spring Spell-card Lantern Festival"
+msgstr "春季符卡燈會"
+
+#. academicCalendarEvents.4.0.window
+#: src/data/academic-calendar.js:155
+msgctxt "text:academicCalendarEvents.4.0.window"
+msgid "Around May’s first full moon"
+msgstr "五月第一個滿月前後"
+
+#. academicCalendarEvents.4.0.premise
+#: src/data/academic-calendar.js:156
+msgctxt "text:academicCalendarEvents.4.0.premise"
+msgid ""
+"Lanterns need wind, spell cards need airspace, and kappa power boxes need "
+"nobody touching the red tape."
+msgstr "燈籠需要風、符卡需要空域、河童電箱需要每個人別碰那條紅膠帶。"
+
+#. academicCalendarEvents.4.0.details
+#: src/data/academic-calendar.js:157
+msgctxt "text:academicCalendarEvents.4.0.details"
+msgid ""
+"Six permits remain independent; one return stops opening; night food, aid, "
+"and returning book flocks operate together."
+msgstr "六桌許可各自有效；一席否決即可停祭；夜雀晚食、校醫急救與圖書返航書群同時運作。"
+
+#. academicCalendarEvents.4.0.impacts.course
+#: src/data/academic-calendar.js:159
+msgctxt "text:academicCalendarEvents.4.0.impacts.course"
+msgid "Spell-card practicals become public demonstrations"
+msgstr "符卡實作改為公開展演"
+
+#. academicCalendarEvents.4.0.impacts.transport
+#: src/data/academic-calendar.js:160
+msgctxt "text:academicCalendarEvents.4.0.impacts.transport"
+msgid "Timed closures above the hall and along the lake"
+msgstr "講堂上空與湖岸分時封路"
+
+#. academicCalendarEvents.4.0.impacts.library
+#: src/data/academic-calendar.js:161
+msgctxt "text:academicCalendarEvents.4.0.impacts.library"
+msgid "North Wing extends; returning zone loses 18 seats"
+msgstr "北翼延長開放，返航區減 18 席"
+
+#. academicCalendarEvents.4.0.impacts.medicine
+#: src/data/academic-calendar.js:162
+msgctxt "text:academicCalendarEvents.4.0.impacts.medicine"
+msgid "First-aid post and Eientei transfer line activate"
+msgstr "校醫急救站與永遠亭後送線啟動"
+
+#. academicCalendarEvents.5.0.title
+#: src/data/academic-calendar.js:174
+msgctxt "text:academicCalendarEvents.5.0.title"
+msgid "Rainy-season campus-paper corrections"
+msgstr "梅雨校報訂正月"
+
+#. academicCalendarEvents.5.0.window
+#: src/data/academic-calendar.js:175
+msgctxt "text:academicCalendarEvents.5.0.window"
+msgid "All June"
+msgstr "六月全月"
+
+#. academicCalendarEvents.5.0.premise
+#: src/data/academic-calendar.js:176
+msgctxt "text:academicCalendarEvents.5.0.premise"
+msgid ""
+"Rain washes headlines into body copy and pushes dates to tomorrow; Aya calls "
+"it improved layout mobility."
+msgstr "雨水把標題沖到內文，內文把日期推到明天；文認為這提高了版面流動性。"
+
+#. academicCalendarEvents.5.0.details
+#: src/data/academic-calendar.js:177
+msgctxt "text:academicCalendarEvents.5.0.details"
+msgid ""
+"Paper notices carry version and dryness; board credibility is counted in "
+"nails; the library lends paperweight stones."
+msgstr "所有紙本通知需附版本號與乾燥狀態；木板公告以釘子數量作可信度；圖書館提供壓紙石借閱。"
+
+#. academicCalendarEvents.5.0.impacts.course
+#: src/data/academic-calendar.js:179
+msgctxt "text:academicCalendarEvents.5.0.impacts.course"
+msgid "Journalism submits one legible correction daily"
+msgstr "新聞課每天提交一份可讀訂正版"
+
+#. academicCalendarEvents.5.0.impacts.transport
+#: src/data/academic-calendar.js:180
+msgctxt "text:academicCalendarEvents.5.0.impacts.transport"
+msgid "Mountain kite post closes; tengu oral delivery expands"
+msgstr "山側紙鳶便停用，天狗口述便加班"
+
+#. academicCalendarEvents.5.0.impacts.library
+#: src/data/academic-calendar.js:181
+msgctxt "text:academicCalendarEvents.5.0.impacts.library"
+msgid "Paperweight loans and wet-book quarantine open"
+msgstr "壓紙石借閱；濕書隔離架開放"
+
+#. academicCalendarEvents.5.0.impacts.medicine
+#: src/data/academic-calendar.js:182
+msgctxt "text:academicCalendarEvents.5.0.impacts.medicine"
+msgid "Extra wet-wing and ink-allergy clinic"
+msgstr "濕翅、墨水過敏門診增加"
+
+#. academicCalendarEvents.6.0.title
+#: src/data/academic-calendar.js:193
+msgctxt "text:academicCalendarEvents.6.0.title"
+msgid "Summer night classes & night-sparrow supper term"
+msgstr "夏夜課與夜雀晚食學期"
+
+#. academicCalendarEvents.6.0.window
+#: src/data/academic-calendar.js:194
+msgctxt "text:academicCalendarEvents.6.0.window"
+msgid "10 July–31 August"
+msgstr "七月 10 日—八月 31 日"
+
+#. academicCalendarEvents.6.0.premise
+#: src/data/academic-calendar.js:195
+msgctxt "text:academicCalendarEvents.6.0.premise"
+msgid "Classes begin after dusk; Mystia insists her singing is a bell, not noise."
+msgstr "黃昏後才開課；米斯蒂婭堅稱歌聲是校鐘，不是噪音。"
+
+#. academicCalendarEvents.6.0.details
+#: src/data/academic-calendar.js:196
+msgctxt "text:academicCalendarEvents.6.0.details"
+msgid ""
+"Night classes take lantern attendance; dining serves lamprey; housing "
+"records performance and complaints separately."
+msgstr "夜間課改用提燈點名；食堂供應八目鰻；宿舍夜聲桌把演唱與申訴分開登記。"
+
+#. academicCalendarEvents.6.0.impacts.course
+#: src/data/academic-calendar.js:198
+msgctxt "text:academicCalendarEvents.6.0.impacts.course"
+msgid "Afternoon classes shift two bells; night fieldwork expands"
+msgstr "下午課後移兩校鐘；夜間田野課增加"
+
+#. academicCalendarEvents.6.0.impacts.transport
+#: src/data/academic-calendar.js:199
+msgctxt "text:academicCalendarEvents.6.0.impacts.transport"
+msgid "Night-sparrow lantern path opens; brooms fly low and slow"
+msgstr "夜雀提燈步道開放，掃帚需低空慢行"
+
+#. academicCalendarEvents.6.0.impacts.library
+#: src/data/academic-calendar.js:200
+msgctxt "text:academicCalendarEvents.6.0.impacts.library"
+msgid "Night reading room stays open until 02:00"
+msgstr "夜間閱覽室開至 02:00"
+
+#. academicCalendarEvents.6.0.impacts.medicine
+#: src/data/academic-calendar.js:201
+msgctxt "text:academicCalendarEvents.6.0.impacts.medicine"
+msgid "Night-blindness and song-residue clinic extends"
+msgstr "夜盲與歌聲殘留門診延長"
+
+#. academicCalendarEvents.7.0.title
+#: src/data/academic-calendar.js:213
+msgctxt "text:academicCalendarEvents.7.0.title"
+msgid "Seasonal-energy anomaly observation week"
+msgstr "季節能量偏差觀測週"
+
+#. academicCalendarEvents.7.0.window
+#: src/data/academic-calendar.js:214
+msgctxt "text:academicCalendarEvents.7.0.window"
+msgid "Third week of August"
+msgstr "八月第三週"
+
+#. academicCalendarEvents.7.0.premise
+#: src/data/academic-calendar.js:215
+msgctxt "text:academicCalendarEvents.7.0.premise"
+msgid ""
+"Four seasonal energies appear together; the seasonal-anomaly course demands "
+"records before culprit guesses."
+msgstr "四季能量在校園同時出現；天空璋課程要求先記錄，不准先猜犯人。"
+
+#. academicCalendarEvents.7.0.details
+#: src/data/academic-calendar.js:216
+msgctxt "text:academicCalendarEvents.7.0.details"
+msgid ""
+"One classroom corner blooms, another frosts; kappa meters treat maple leaves "
+"as firmware; the clinic separates heat, cold, and elation."
+msgstr "教室一角開花、一角結霜；河童量測器把秋葉當作韌體更新；校醫院分開處理熱、寒與情緒高揚。"
+
+#. academicCalendarEvents.7.0.impacts.course
+#: src/data/academic-calendar.js:218
+msgctxt "text:academicCalendarEvents.7.0.impacts.course"
+msgid "Cross-school observation replaces two ordinary periods"
+msgstr "跨院觀測取代兩節普通課"
+
+#. academicCalendarEvents.7.0.impacts.transport
+#: src/data/academic-calendar.js:219
+msgctxt "text:academicCalendarEvents.7.0.impacts.transport"
+msgid "Affected routes change their traversable season every three hours"
+msgstr "受影響路段每三小時更換通行季節"
+
+#. academicCalendarEvents.7.0.impacts.library
+#: src/data/academic-calendar.js:220
+msgctxt "text:academicCalendarEvents.7.0.impacts.library"
+msgid "All four seasons enter course reserves"
+msgstr "四季資料同時列入指定書"
+
+#. academicCalendarEvents.7.0.impacts.medicine
+#: src/data/academic-calendar.js:221
+msgctxt "text:academicCalendarEvents.7.0.impacts.medicine"
+msgid "Clinic load rises; do not close cases by average temperature"
+msgstr "校醫負載上升；不得用平均體溫結案"
+
+#. academicCalendarEvents.8.0.title
+#: src/data/academic-calendar.js:232
+msgctxt "text:academicCalendarEvents.8.0.title"
+msgid "Autumn Higan life-death transit field week"
+msgstr "秋彼岸生死交通田野週"
+
+#. academicCalendarEvents.8.0.window
+#: src/data/academic-calendar.js:233
+msgctxt "text:academicCalendarEvents.8.0.window"
+msgid "20–26 September"
+msgstr "九月 20—26 日"
+
+#. academicCalendarEvents.8.0.premise
+#: src/data/academic-calendar.js:234
+msgctxt "text:academicCalendarEvents.8.0.premise"
+msgid "Higan queues sort not by life or death but return seals; Komachi has no official view."
+msgstr "彼岸候車線不按生死排序，按是否帶齊回程印排序；小町對此沒有正式意見。"
+
+#. academicCalendarEvents.8.0.details
+#: src/data/academic-calendar.js:235
+msgctxt "text:academicCalendarEvents.8.0.details"
+msgid ""
+"Eiki teaches property and causal responsibility; Youmu counts phantom "
+"halves; field students prove intent to return before sunset."
+msgstr "映姬開設物權與因果責任特講；妖夢核對半靈人數；所有田野生須在日落前證明自己打算回來。"
+
+#. academicCalendarEvents.8.0.impacts.course
+#: src/data/academic-calendar.js:237
+msgctxt "text:academicCalendarEvents.8.0.impacts.course"
+msgid "Law, history, and fieldwork combine"
+msgstr "法政、歷史與田野課合班"
+
+#. academicCalendarEvents.8.0.impacts.transport
+#: src/data/academic-calendar.js:238
+msgctxt "text:academicCalendarEvents.8.0.impacts.transport"
+msgid "Add 12 minutes to Higan ferry waits"
+msgstr "彼岸渡船候時增加 12 分鐘"
+
+#. academicCalendarEvents.8.0.impacts.library
+#: src/data/academic-calendar.js:239
+msgctxt "text:academicCalendarEvents.8.0.impacts.library"
+msgid "Deceased rolls become reading-room only"
+msgstr "亡者名冊只可館內閱覽"
+
+#. academicCalendarEvents.8.0.impacts.medicine
+#: src/data/academic-calendar.js:240
+msgctxt "text:academicCalendarEvents.8.0.impacts.medicine"
+msgid "Uncertain-existence cases receive triage before mortality fields"
+msgstr "存在狀態不明者先分診，不先填死亡欄"
+
+#. academicCalendarEvents.9.0.title
+#: src/data/academic-calendar.js:251
+msgctxt "text:academicCalendarEvents.9.0.title"
+msgid "Harvest, shrine festival & three-faith stall bidding"
+msgstr "秋收、神社祭與三方信仰攤位競標"
+
+#. academicCalendarEvents.9.0.window
+#: src/data/academic-calendar.js:252
+msgctxt "text:academicCalendarEvents.9.0.window"
+msgid "7–20 October"
+msgstr "十月 7—20 日"
+
+#. academicCalendarEvents.9.0.premise
+#: src/data/academic-calendar.js:253
+msgctxt "text:academicCalendarEvents.9.0.premise"
+msgid ""
+"Moriya wants power, Myouren wants public passage, Hakurei wants offerings; "
+"Miko hears all three deny competing."
+msgstr "守矢要電力、命蓮寺要公共通道、博麗神社要香油錢；神子已聽見三方都說自己沒有競爭。"
+
+#. academicCalendarEvents.9.0.details
+#: src/data/academic-calendar.js:254
+msgctxt "text:academicCalendarEvents.9.0.details"
+msgid ""
+"Faith & Coexistence hosts public hearings; miracles, merit, and “free "
+"samples” do not bypass fees."
+msgstr "信仰與共生政策學院主持公開聽證；攤位不得用奇蹟、功德或『免費試吃』規避費用欄。"
+
+#. academicCalendarEvents.9.0.impacts.course
+#: src/data/academic-calendar.js:256
+msgctxt "text:academicCalendarEvents.9.0.impacts.course"
+msgid "Public-governance class rotates through three grounds"
+msgstr "公共治理課改在三座祭場輪流上課"
+
+#. academicCalendarEvents.9.0.impacts.transport
+#: src/data/academic-calendar.js:257
+msgctxt "text:academicCalendarEvents.9.0.impacts.transport"
+msgid "One-way gates; extra mountain tengu service"
+msgstr "正門周邊單向；山路天狗便增班"
+
+#. academicCalendarEvents.9.0.impacts.library
+#: src/data/academic-calendar.js:258
+msgctxt "text:academicCalendarEvents.9.0.impacts.library"
+msgid "Festival rules and cookbooks see heavy loans"
+msgstr "祭典法規與食譜借閱增加"
+
+#. academicCalendarEvents.9.0.impacts.medicine
+#: src/data/academic-calendar.js:259
+msgctxt "text:academicCalendarEvents.9.0.impacts.medicine"
+msgid "Separate queues for overeating, miracle vertigo, and faith disputes"
+msgstr "過食、奇蹟眩暈與信仰爭執分流"
+
+#. academicCalendarEvents.10.0.title
+#: src/data/academic-calendar.js:270
+msgctxt "text:academicCalendarEvents.10.0.title"
+msgid "Maple chronicle correction & fallen-leaf versions"
+msgstr "紅葉校史訂正與落葉版本月"
+
+#. academicCalendarEvents.10.0.window
+#: src/data/academic-calendar.js:271
+msgctxt "text:academicCalendarEvents.10.0.window"
+msgid "All November"
+msgstr "十一月全月"
+
+#. academicCalendarEvents.10.0.premise
+#: src/data/academic-calendar.js:272
+msgctxt "text:academicCalendarEvents.10.0.premise"
+msgid ""
+"Every leaf resembles a version; Keine asks whether it is an addition, "
+"deletion, or the tree’s own merge."
+msgstr "每片落葉都像一個版本；慧音要求先判斷是新增、刪除，還是樹自己做的 merge。"
+
+#. academicCalendarEvents.10.0.details
+#: src/data/academic-calendar.js:273
+msgctxt "text:academicCalendarEvents.10.0.details"
+msgid ""
+"Hieda opens the red-thread desk; real commits remain distinct from merges; "
+"Aya may report a merge but not call it the day’s only commit."
+msgstr "稗田索引開放紅線工作桌；實際提交與合併紀錄分開；文可以報導 merge，但不准把它寫成當日唯一提交。"
+
+#. academicCalendarEvents.10.0.impacts.course
+#: src/data/academic-calendar.js:275
+msgctxt "text:academicCalendarEvents.10.0.impacts.course"
+msgid "Chronicle classes replace midterm summaries with version tracing"
+msgstr "校史課以版本追蹤代替期中摘要"
+
+#. academicCalendarEvents.10.0.impacts.transport
+#: src/data/academic-calendar.js:276
+msgctxt "text:academicCalendarEvents.10.0.impacts.transport"
+msgid "Maple-covered mountain paths add 4 minutes"
+msgstr "落葉覆蓋山路，步行加 4 分鐘"
+
+#. academicCalendarEvents.10.0.impacts.library
+#: src/data/academic-calendar.js:277
+msgctxt "text:academicCalendarEvents.10.0.impacts.library"
+msgid "Version-comparison desks open; six general seats close"
+msgstr "版本比較席增開，普通閱覽少 6 席"
+
+#. academicCalendarEvents.10.0.impacts.medicine
+#: src/data/academic-calendar.js:278
+msgctxt "text:academicCalendarEvents.10.0.impacts.medicine"
+msgid "Leaf-allergy and chronicle-anxiety clinic"
+msgstr "葉片過敏與校史焦慮門診"
+
+#. academicCalendarEvents.11.0.title
+#: src/data/academic-calendar.js:289
+msgctxt "text:academicCalendarEvents.11.0.title"
+msgid "Winter seals, book hibernation & year-end closure"
+msgstr "冬季封印、圖書冬眠與年度結卷"
+
+#. academicCalendarEvents.11.0.window
+#: src/data/academic-calendar.js:290
+msgctxt "text:academicCalendarEvents.11.0.window"
+msgid "18–31 December"
+msgstr "十二月 18—31 日"
+
+#. academicCalendarEvents.11.0.premise
+#: src/data/academic-calendar.js:291
+msgctxt "text:academicCalendarEvents.11.0.premise"
+msgid ""
+"Hibernating books sign attendance first; waking seals sign out first; "
+"year-end files recognise only the first timeline."
+msgstr "會冬眠的書先簽出席，會醒來的封印先簽離校；年終卷宗只承認第一條時間線。"
+
+#. academicCalendarEvents.11.0.details
+#: src/data/academic-calendar.js:292
+msgctxt "text:academicCalendarEvents.11.0.details"
+msgid ""
+"The library calls shelves; the magic tower reduces load; the clinic issues "
+"hibernation guidance; housing accepts notes read next spring."
+msgstr "圖書館逐架點名；魔法塔降載；校醫院發放冬眠須知；宿舍接受來年春天才會讀到的留言。"
+
+#. academicCalendarEvents.11.0.impacts.course
+#: src/data/academic-calendar.js:294
+msgctxt "text:academicCalendarEvents.11.0.impacts.course"
+msgid "Courses close; unfinished work may enter hibernation status"
+msgstr "課程結卷；未完成作業可申請冬眠中狀態"
+
+#. academicCalendarEvents.11.0.impacts.transport
+#: src/data/academic-calendar.js:295
+msgctxt "text:academicCalendarEvents.11.0.impacts.transport"
+msgid "Night broom routes contract; quiet ground routes open"
+msgstr "夜間掃帚空路縮減，地面靜音線開放"
+
+#. academicCalendarEvents.11.0.impacts.library
+#: src/data/academic-calendar.js:296
+msgctxt "text:academicCalendarEvents.11.0.impacts.library"
+msgid "Some holdings hibernate; holds defer until thaw"
+msgstr "部分館藏冬眠，預約順延至解凍"
+
+#. academicCalendarEvents.11.0.impacts.medicine
+#: src/data/academic-calendar.js:297
+msgctxt "text:academicCalendarEvents.11.0.impacts.medicine"
+msgid "Hibernation assessment and cold pharmacy extend"
+msgstr "冬眠評估與低溫藥局延長"
+
+#. academicCalendarEvents.12.0.title
+#: src/data/academic-calendar.js:308
+msgctxt "text:academicCalendarEvents.12.0.title"
+msgid "Full-moon special: lunar phase, pharmacology & identity variance"
+msgstr "滿月特別課：月相、藥理與身份偏差"
+
+#. academicCalendarEvents.12.0.window
+#: src/data/academic-calendar.js:309
+msgctxt "text:academicCalendarEvents.12.0.window"
+msgid "Every full moon, dusk and night"
+msgstr "每個滿月的黃昏與夜間"
+
+#. academicCalendarEvents.12.0.premise
+#: src/data/academic-calendar.js:310
+msgctxt "text:academicCalendarEvents.12.0.premise"
+msgid ""
+"Full moons alter medicine, routes, beast traits, and attendance; averages "
+"may not wash differences away."
+msgstr "滿月會改變藥效、路線、獸性與某些人對出席名冊的看法；不得用平均值把它們洗掉。"
+
+#. academicCalendarEvents.12.0.details
+#: src/data/academic-calendar.js:311
+msgctxt "text:academicCalendarEvents.12.0.details"
+msgid ""
+"Eirin and Keine co-teach but sign separately; Reisen demonstrates "
+"wavelengths; Tewi sells “moon-proof” charms whose receipts guarantee "
+"nothing."
+msgstr "永琳與慧音共同上課但分開簽名；鈴仙提供波長演示；帝出售『保證不受月亮影響』護符，收據不保證。"
+
+#. academicCalendarEvents.12.0.impacts.course
+#: src/data/academic-calendar.js:313
+msgctxt "text:academicCalendarEvents.12.0.impacts.course"
+msgid "Special night class replaces ordinary study"
+msgstr "夜間特講取代普通自習"
+
+#. academicCalendarEvents.12.0.impacts.transport
+#: src/data/academic-calendar.js:314
+msgctxt "text:academicCalendarEvents.12.0.impacts.transport"
+msgid "Ground routes through Eientei add 7 minutes"
+msgstr "永遠亭地面路線加 7 分鐘"
+
+#. academicCalendarEvents.12.0.impacts.library
+#: src/data/academic-calendar.js:315
+msgctxt "text:academicCalendarEvents.12.0.impacts.library"
+msgid "Full-moon holdings open; ten ordinary seats close"
+msgstr "滿月可見館藏開架，普通席減 10"
+
+#. academicCalendarEvents.12.0.impacts.medicine
+#: src/data/academic-calendar.js:316
+msgctxt "text:academicCalendarEvents.12.0.impacts.medicine"
+msgid "Lunar-sensitive triage load rises"
+msgstr "月相敏感分診負載上升"
+
+#. academicCalendarEvents.13.0.title
+#: src/data/academic-calendar.js:327
+msgctxt "text:academicCalendarEvents.13.0.title"
+msgid "New-moon invisible-boundary inventory"
+msgstr "朔月不可見境界盤點"
+
+#. academicCalendarEvents.13.0.window
+#: src/data/academic-calendar.js:328
+msgctxt "text:academicCalendarEvents.13.0.window"
+msgid "Every new-moon night"
+msgstr "每個朔月夜間"
+
+#. academicCalendarEvents.13.0.premise
+#: src/data/academic-calendar.js:329
+msgctxt "text:academicCalendarEvents.13.0.premise"
+msgid "An unseen boundary is not absent; seeing Yukari nearby does not complete inventory."
+msgstr "看不見的境界不等於不存在；看見紫站在旁邊也不等於盤點完成。"
+
+#. academicCalendarEvents.13.0.details
+#: src/data/academic-calendar.js:330
+msgctxt "text:academicCalendarEvents.13.0.details"
+msgid ""
+"Boundary Studies walks every entrance; non-flier links remain; every "
+"shortcut needs signatures at both ends."
+msgstr "結界學院步測所有入口；不會飛者聯絡道保留；任何『近路』需有出發與抵達兩端共同簽名。"
+
+#. academicCalendarEvents.13.0.impacts.course
+#: src/data/academic-calendar.js:332
+msgctxt "text:academicCalendarEvents.13.0.impacts.course"
+msgid "Boundary practical moves to night"
+msgstr "結界實作移至夜間"
+
+#. academicCalendarEvents.13.0.impacts.transport
+#: src/data/academic-calendar.js:333
+msgctxt "text:academicCalendarEvents.13.0.impacts.transport"
+msgid "Broom airways close; walking adds 2 minutes"
+msgstr "掃帚空路停用，步行路加 2 分鐘"
+
+#. academicCalendarEvents.13.0.impacts.library
+#: src/data/academic-calendar.js:334
+msgctxt "text:academicCalendarEvents.13.0.impacts.library"
+msgid "Boundary maps unfold only at reading desks"
+msgstr "結界地圖只在閱覽桌攤開"
+
+#. academicCalendarEvents.13.0.impacts.medicine
+#: src/data/academic-calendar.js:335
+msgctxt "text:academicCalendarEvents.13.0.impacts.medicine"
+msgid "Extra disorientation and boundary-vertigo rounds"
+msgstr "迷向與邊界暈眩巡診增開"

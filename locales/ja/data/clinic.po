@@ -1,0 +1,1080 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. clinicSites.infirmary.name
+#: src/data/clinic.js:8
+msgctxt "text:clinicSites.infirmary.name"
+msgid "Hakurei Gate Infirmary"
+msgstr "博麗門保健室"
+
+#. clinicSites.infirmary.short
+#: src/data/clinic.js:9
+msgctxt "text:clinicSites.infirmary.short"
+msgid "Main infirmary"
+msgstr "本部保健室"
+
+#. clinicSites.infirmary.location
+#: src/data/clinic.js:10
+msgctxt "text:clinicSites.infirmary.location"
+msgid "Main campus · old shrine office east of Hakurei Gate"
+msgstr "本部・博麗門東側旧社務所"
+
+#. clinicSites.infirmary.hours
+#: src/data/clinic.js:11
+msgctxt "text:clinicSites.infirmary.hours"
+msgid "07:40—21:30; the desk is not guaranteed occupied for twenty minutes after the noon bell"
+msgstr "07:40—21:30・昼鐘後20分は受付在席を保証せず"
+
+#. clinicSites.infirmary.scope
+#: src/data/clinic.js:12
+msgctxt "text:clinicSites.infirmary.scope"
+msgid ""
+"Scrapes, mild magical feedback, flight-muscle strains, paper-talisman cuts, "
+"class-related sleep loss, and symptoms still deciding whether they require "
+"Eientei."
+msgstr "擦過傷、軽度魔力逆流、飛行筋の捻挫、札の切創、授業由来の睡眠不足、永遠亭へ行くか未決の症状。"
+
+#. clinicSites.infirmary.staff
+#: src/data/clinic.js:13
+msgctxt "text:clinicSites.infirmary.staff"
+msgid ""
+"Duty clinician, two moon-rabbit trainees, and Reimu when she comes to "
+"collect the offering-box fee"
+msgstr "当直校医、月兎実習生二名、時折お賽銭を回収しに来る霊夢"
+
+#. clinicSites.eientei.name
+#: src/data/clinic.js:19
+msgctxt "text:clinicSites.eientei.name"
+msgid "Eientei University Hospital"
+msgstr "永遠亭附属校医院"
+
+#. clinicSites.eientei.short
+#: src/data/clinic.js:20
+msgctxt "text:clinicSites.eientei.short"
+msgid "Eientei Hospital"
+msgstr "永遠亭校医院"
+
+#. clinicSites.eientei.location
+#: src/data/clinic.js:21
+msgctxt "text:clinicSites.eientei.location"
+msgid "Bamboo Forest · Eientei clinical wing and lunar pharmacy"
+msgstr "迷いの竹林・永遠亭診療棟／月薬調剤室"
+
+#. clinicSites.eientei.hours
+#: src/data/clinic.js:22
+msgctxt "text:clinicSites.eientei.hours"
+msgid "Always open; full-moon traffic diverts through the pharmacy corridor"
+msgstr "終日・満月前後は調剤室迂回廊を使用"
+
+#. clinicSites.eientei.scope
+#: src/data/clinic.js:23
+msgctxt "text:clinicSites.eientei.scope"
+msgid ""
+"Cross-species care, lunar sensory conditions, boundary sickness, phantom "
+"desynchrony, fairy-core trouble, magical-material exposure, and cases marked "
+"with three exclamation points by the infirmary."
+msgstr "種族横断外来、月相感覚、境界酔い、幽体不同期、妖精核異常、魔法素材曝露、本部保健室が感嘆符を三つ付けた症例。"
+
+#. clinicSites.eientei.staff
+#: src/data/clinic.js:24
+msgctxt "text:clinicSites.eientei.staff"
+msgid ""
+"Eirin Yagokoro consulting, Reisen triaging, and Tewi hiding queue tokens "
+"back where they came from"
+msgstr "八意永琳が診察、鈴仙がトリアージ、てゐが番号札を元の場所へ隠す"
+
+#. clinicComplaints.danmaku-impact.name
+#: src/data/clinic.js:36
+msgctxt "text:clinicComplaints.danmaku-impact.name"
+msgid "Danmaku impact / talisman abrasion"
+msgstr "弾幕衝突・札力擦過傷"
+
+#. clinicComplaints.danmaku-impact.prompt
+#: src/data/clinic.js:37
+msgctxt "text:clinicComplaints.danmaku-impact.prompt"
+msgid ""
+"Is the impact site still glowing, smoking, or insisting it was merely a "
+"background bullet?"
+msgstr "被弾部が発光・発煙、または背景弾だったと主張していますか。"
+
+#. clinicComplaints.magic-feedback.name
+#: src/data/clinic.js:46
+msgctxt "text:clinicComplaints.magic-feedback.name"
+msgid "Magical feedback / hakkero overheating"
+msgstr "魔力逆流・八卦炉過熱"
+
+#. clinicComplaints.magic-feedback.prompt
+#: src/data/clinic.js:47
+msgctxt "text:clinicComplaints.magic-feedback.prompt"
+msgid "Sleeves, hair, or thesis appendices continue discharging after the spell stops."
+msgstr "術式停止後も袖・髪・論文付録が放電する。"
+
+#. clinicComplaints.boundary-vertigo.name
+#: src/data/clinic.js:56
+msgctxt "text:clinicComplaints.boundary-vertigo.name"
+msgid "Boundary vertigo / door arriving first"
+msgstr "境界酔い・扉が本人より先に到着"
+
+#. clinicComplaints.boundary-vertigo.prompt
+#: src/data/clinic.js:57
+msgctxt "text:clinicComplaints.boundary-vertigo.prompt"
+msgid ""
+"The two sides of one door show different dates, or descending returns you to "
+"before you climbed."
+msgstr "同じ扉の両側が別の日付、または階段を下りて上る前へ戻る。"
+
+#. clinicComplaints.lunar-overload.name
+#: src/data/clinic.js:66
+msgctxt "text:clinicComplaints.lunar-overload.name"
+msgid "Lunar overload / wavelength desynchrony"
+msgstr "月相過負荷・波長不同期"
+
+#. clinicComplaints.lunar-overload.prompt
+#: src/data/clinic.js:67
+msgctxt "text:clinicComplaints.lunar-overload.prompt"
+msgid ""
+"Moonlight is too loud, colours are arguing, or rabbit ears receive "
+"broadcasts from the wrong week."
+msgstr "月光が大きすぎる、色が口論する、兎耳が今週でない放送を受信する。"
+
+#. clinicComplaints.mushroom-exposure.name
+#: src/data/clinic.js:76
+msgctxt "text:clinicComplaints.mushroom-exposure.name"
+msgid "Unknown-mushroom exposure"
+msgstr "出所不明茸への曝露"
+
+#. clinicComplaints.mushroom-exposure.prompt
+#: src/data/clinic.js:77
+msgctxt "text:clinicComplaints.mushroom-exposure.prompt"
+msgid ""
+"The batch is labelled “that basket from the forest,” and each sneeze "
+"produces a different element."
+msgstr "材料ロットが「森のあの籠」で、くしゃみごとに元素が変わる。"
+
+#. clinicComplaints.flight-strain.name
+#: src/data/clinic.js:86
+msgctxt "text:clinicComplaints.flight-strain.name"
+msgid "Wing / broom-launch strain"
+msgstr "翼・箒離陸筋の捻挫"
+
+#. clinicComplaints.flight-strain.prompt
+#: src/data/clinic.js:87
+msgctxt "text:clinicComplaints.flight-strain.prompt"
+msgid "Turning remains possible, but Aya has already printed the landing posture as an extra."
+msgstr "旋回は可能だが、着地姿勢を文が号外にした。"
+
+#. clinicComplaints.phantom-desync.name
+#: src/data/clinic.js:96
+msgctxt "text:clinicComplaints.phantom-desync.name"
+msgid "Phantom desynchrony / duplicate half-phantom check-in"
+msgstr "幽体不同期・半霊の重複受付"
+
+#. clinicComplaints.phantom-desync.prompt
+#: src/data/clinic.js:97
+msgctxt "text:clinicComplaints.phantom-desync.prompt"
+msgid "The body says it has arrived while the half-phantom token remains en route."
+msgstr "本体は到着済みだが、半霊の番号札はまだ移動中。"
+
+#. clinicComplaints.fairy-core-flicker.name
+#: src/data/clinic.js:106
+msgctxt "text:clinicComplaints.fairy-core-flicker.name"
+msgid "Fairy-core flicker / local season pause"
+msgstr "妖精核の点滅・局所季節停止"
+
+#. clinicComplaints.fairy-core-flicker.prompt
+#: src/data/clinic.js:107
+msgctxt "text:clinicComplaints.fairy-core-flicker.prompt"
+msgid "Nearby flowers cannot decide the season, and wing transparency is not intentional."
+msgstr "周囲の花が季節を決められず、羽の透明度も本人の演出ではない。"
+
+#. clinicMedicines.hakurei-seal-patch.name
+#: src/data/clinic.js:118
+msgctxt "text:clinicMedicines.hakurei-seal-patch.name"
+msgid "Hakurei Stop-Sign Patch"
+msgstr "博麗式止符貼"
+
+#. clinicMedicines.hakurei-seal-patch.maker
+#: src/data/clinic.js:119
+msgctxt "text:clinicMedicines.hakurei-seal-patch.maker"
+msgid "Supplied by Hakurei Shrine; hand-cut beside the offering box"
+msgstr "博麗神社供給・賽銭箱横で手切り"
+
+#. clinicMedicines.hakurei-seal-patch.indication
+#: src/data/clinic.js:120
+msgctxt "text:clinicMedicines.hakurei-seal-patch.indication"
+msgid "Glowing abrasions, mild talisman residue, and small seasonal leaks around a fairy core."
+msgstr "発光する擦過傷、軽度札力残留、妖精核周辺の小範囲季節漏出。"
+
+#. clinicMedicines.hakurei-seal-patch.directions
+#: src/data/clinic.js:121
+msgctxt "text:clinicMedicines.hakurei-seal-patch.directions"
+msgid ""
+"Apply until the glow admits it has been noticed; inspect once per bell and "
+"remove after three."
+msgstr "光が認識されたと認めるまで貼付。校鐘ごとに確認し三回後に除去。"
+
+#. clinicMedicines.hakurei-seal-patch.caution
+#: src/data/clinic.js:122
+msgctxt "text:clinicMedicines.hakurei-seal-patch.caution"
+msgid "“Great Fortune” is not a potency grade; Reimu does not refund blurred ink."
+msgstr "札の「大吉」は効力等級ではない。霊夢は墨滲みの返金を拒否。"
+
+#. clinicMedicines.magic-diversion-powder.name
+#: src/data/clinic.js:130
+msgctxt "text:clinicMedicines.magic-diversion-powder.name"
+msgid "Yagokoro Magical Diversion Powder"
+msgstr "八意式魔力分流散"
+
+#. clinicMedicines.magic-diversion-powder.maker
+#: src/data/clinic.js:131
+msgctxt "text:clinicMedicines.magic-diversion-powder.maker"
+msgid "Eientei Lunar Pharmacy · Eirin reviewed"
+msgstr "永遠亭月薬調剤室・永琳確認"
+
+#. clinicMedicines.magic-diversion-powder.indication
+#: src/data/clinic.js:132
+msgctxt "text:clinicMedicines.magic-diversion-powder.indication"
+msgid "Magic returning through hair, sleeves, or equipment grounding after a spell ends."
+msgstr "術式停止後も髪・袖・機器接地線へ戻る魔力。"
+
+#. clinicMedicines.magic-diversion-powder.directions
+#: src/data/clinic.js:133
+msgctxt "text:clinicMedicines.magic-diversion-powder.directions"
+msgid ""
+"One non-conductive bamboo spoon with unenchanted warm water; do not restart "
+"the same spell for four class breaks."
+msgstr "非導魔竹匙一杯を無呪湯で。四休時間は同術式を再起動しない。"
+
+#. clinicMedicines.magic-diversion-powder.caution
+#: src/data/clinic.js:134
+msgctxt "text:clinicMedicines.magic-diversion-powder.caution"
+msgid "Carrying it beside a hakkero treats the medicine bag before it treats you."
+msgstr "八卦炉と同じ袋に入れると薬袋が先に治り、本人は後回し。"
+
+#. clinicMedicines.seven-day-cooling-ampoule.name
+#: src/data/clinic.js:142
+msgctxt "text:clinicMedicines.seven-day-cooling-ampoule.name"
+msgid "Seven-Day Residual-Heat Ampoule"
+msgstr "七曜余熱冷却アンプル"
+
+#. clinicMedicines.seven-day-cooling-ampoule.maker
+#: src/data/clinic.js:143
+msgctxt "text:clinicMedicines.seven-day-cooling-ampoule.maker"
+msgid ""
+"Jointly prepared by Seven-Day Laboratory and the hospital; stoppers "
+"inventoried by Koakuma"
+msgstr "七曜実験塔・校医院共同調製・栓は小悪魔が棚卸"
+
+#. clinicMedicines.seven-day-cooling-ampoule.indication
+#: src/data/clinic.js:144
+msgctxt "text:clinicMedicines.seven-day-cooling-ampoule.indication"
+msgid ""
+"Residual elemental heat, local fire/water/wood cycling after mushroom "
+"sneezes, and self-igniting appendices."
+msgstr "元素混合の余熱、茸くしゃみの局所火水木交替、論文付録の自然発火。"
+
+#. clinicMedicines.seven-day-cooling-ampoule.directions
+#: src/data/clinic.js:145
+msgctxt "text:clinicMedicines.seven-day-cooling-ampoule.directions"
+msgid ""
+"Snap one open a lecture-sheet away from the heat source; do not drink the "
+"blue Tuesday vial."
+msgstr "熱源から講義一枚分離れて折る。青い火曜日瓶は直接飲まない。"
+
+#. clinicMedicines.seven-day-cooling-ampoule.caution
+#: src/data/clinic.js:146
+msgctxt "text:clinicMedicines.seven-day-cooling-ampoule.caution"
+msgid "If the bottle shows an eighth day, return it to Patchouli without adding a date."
+msgstr "瓶に第八曜日が出たら日付を書き足さずパチュリーへ返却。"
+
+#. clinicMedicines.boundary-motion-slip.name
+#: src/data/clinic.js:154
+msgctxt "text:clinicMedicines.boundary-motion-slip.name"
+msgid "Boundary Motion-Anchor Slip"
+msgstr "境界酔い定位紙"
+
+#. clinicMedicines.boundary-motion-slip.maker
+#: src/data/clinic.js:155
+msgctxt "text:clinicMedicines.boundary-motion-slip.maker"
+msgid "Eientei clinical wing; Hieda Hall supplies yesterday and today editions"
+msgstr "永遠亭診療棟・稗田館が昨日版／今日版を提供"
+
+#. clinicMedicines.boundary-motion-slip.indication
+#: src/data/clinic.js:156
+msgctxt "text:clinicMedicines.boundary-motion-slip.indication"
+msgid "Short-range anchoring when doors, stairs, dates, or the patient arrive out of order."
+msgstr "扉・階段・日付・本人の前後順が不安定な際の短距離定位。"
+
+#. clinicMedicines.boundary-motion-slip.directions
+#: src/data/clinic.js:157
+msgctxt "text:clinicMedicines.boundary-motion-slip.directions"
+msgid ""
+"Write today’s date and toe direction on a floor known to exist; carry "
+"through five corners."
+msgstr "確実に存在する床の上で、今日の日付とつま先の向きを記し、五つ目の曲がり角まで携帯する。"
+
+#. clinicMedicines.boundary-motion-slip.caution
+#: src/data/clinic.js:158
+msgctxt "text:clinicMedicines.boundary-motion-slip.caution"
+msgid ""
+"Yukari’s signature proves only that she saw the slip, not that the location "
+"is more reliable."
+msgstr "紫の署名は位置の信頼性でなく、彼女が見たことだけを証明。"
+
+#. clinicMedicines.bamboo-return-tea.name
+#: src/data/clinic.js:166
+msgctxt "text:clinicMedicines.bamboo-return-tea.name"
+msgid "Bamboo-Dew Return Tea"
+msgstr "竹露反迷湯"
+
+#. clinicMedicines.bamboo-return-tea.maker
+#: src/data/clinic.js:167
+msgctxt "text:clinicMedicines.bamboo-return-tea.maker"
+msgid "Second kettle behind the east-gate rabbit-shuttle shelter"
+msgstr "迷いの竹林東口兎車小屋裏・二番目の薬缶"
+
+#. clinicMedicines.bamboo-return-tea.indication
+#: src/data/clinic.js:168
+msgctxt "text:clinicMedicines.bamboo-return-tea.indication"
+msgid ""
+"Passing one lantern three times, having your sense of direction outvoted by "
+"bamboo, or finding the signpost more tired than you."
+msgstr "同じ灯を三度通過、方向感を竹葉投票で否決、道標の方が疲れている時。"
+
+#. clinicMedicines.bamboo-return-tea.directions
+#: src/data/clinic.js:169
+msgctxt "text:clinicMedicines.bamboo-return-tea.directions"
+msgid ""
+"Drink half a cup facing true east; if east is unknown, follow the medicine "
+"scent and do not ask Tewi."
+msgstr "真の東を向き半杯。不明なら薬香を辿り、てゐには聞かない。"
+
+#. clinicMedicines.bamboo-return-tea.caution
+#: src/data/clinic.js:170
+msgctxt "text:clinicMedicines.bamboo-return-tea.caution"
+msgid "The shortcut seen afterward may not be shorter, but usually reaches whoever needs you."
+msgstr "飲後の近道は短いとは限らないが、通常あなたを必要とする所へ着く。"
+
+#. clinicMedicines.moon-dust-eye-drops.name
+#: src/data/clinic.js:178
+msgctxt "text:clinicMedicines.moon-dust-eye-drops.name"
+msgid "Lunar-Dust Isolation Drops"
+msgstr "月塵隔離点眼液"
+
+#. clinicMedicines.moon-dust-eye-drops.maker
+#: src/data/clinic.js:179
+msgctxt "text:clinicMedicines.moon-dust-eye-drops.maker"
+msgid "Lunar Pharmacy · fourth cold-store shelf (not the Hourai compartment)"
+msgstr "月薬調剤室・冷蔵庫四段目（蓬莱薬の棚を除く）"
+
+#. clinicMedicines.moon-dust-eye-drops.indication
+#: src/data/clinic.js:180
+msgctxt "text:clinicMedicines.moon-dust-eye-drops.indication"
+msgid ""
+"Moonlight that is too loud, star-point afterimages, and unapproved silver "
+"lingering after full moon."
+msgstr "月光が大きい、星の残像、満月後も未承認の銀色が見える。"
+
+#. clinicMedicines.moon-dust-eye-drops.directions
+#: src/data/clinic.js:181
+msgctxt "text:clinicMedicines.moon-dust-eye-drops.directions"
+msgid ""
+"One drop at a time; close eyes until the next non-prime-numbered bell. Four "
+"doses form one course."
+msgstr "一回一滴、次の非素数校鐘まで閉眼。四回で一程。"
+
+#. clinicMedicines.moon-dust-eye-drops.caution
+#: src/data/clinic.js:182
+msgctxt "text:clinicMedicines.moon-dust-eye-drops.caution"
+msgid "A telescope is not a dropper; the astronomy club has received three written notices."
+msgstr "望遠鏡を点眼器に代用不可。天文会へ三度通知済み。"
+
+#. clinicMedicines.reisen-calibration-drop.name
+#: src/data/clinic.js:190
+msgctxt "text:clinicMedicines.reisen-calibration-drop.name"
+msgid "Reisen Wavelength Calibration Drop"
+msgstr "鈴仙波長校正糖"
+
+#. clinicMedicines.reisen-calibration-drop.maker
+#: src/data/clinic.js:191
+msgctxt "text:clinicMedicines.reisen-calibration-drop.maker"
+msgid "Reisen formula; count before signing for any batch handled by Tewi"
+msgstr "鈴仙処方・てゐ担当ロットは数えてから受領"
+
+#. clinicMedicines.reisen-calibration-drop.indication
+#: src/data/clinic.js:192
+msgctxt "text:clinicMedicines.reisen-calibration-drop.indication"
+msgid ""
+"Colours interrupting one another, rabbit ears receiving the wrong week, or "
+"gaze and trajectory disagreeing."
+msgstr "色が互いに割り込む、兎耳が別週放送を受信、視線と弾道が不一致。"
+
+#. clinicMedicines.reisen-calibration-drop.directions
+#: src/data/clinic.js:193
+msgctxt "text:clinicMedicines.reisen-calibration-drop.directions"
+msgid ""
+"Dissolve until sourness and red reach an agreement; pause wavelength danmaku "
+"during three calibrations."
+msgstr "酸味と赤が再合意するまで含む。三回校正中は波長系弾幕を休止。"
+
+#. clinicMedicines.reisen-calibration-drop.caution
+#: src/data/clinic.js:194
+msgctxt "text:clinicMedicines.reisen-calibration-drop.caution"
+msgid ""
+"May briefly reveal, with excessive honesty, the distance between a headline "
+"and its article."
+msgstr "一時的に新聞見出しと本文の距離が正直に見えすぎる場合がある。"
+
+#. clinicMedicines.spore-truth-syrup.name
+#: src/data/clinic.js:202
+msgctxt "text:clinicMedicines.spore-truth-syrup.name"
+msgid "Mushroom Batch-Confession Syrup"
+msgstr "菌傘ロット自白シロップ"
+
+#. clinicMedicines.spore-truth-syrup.maker
+#: src/data/clinic.js:203
+msgctxt "text:clinicMedicines.spore-truth-syrup.maker"
+msgid "Eientei Pharmacy; Marisa is still submitting the ingredient labels"
+msgstr "永遠亭薬局・原料票は魔理沙が追提出中"
+
+#. clinicMedicines.spore-truth-syrup.indication
+#: src/data/clinic.js:204
+msgctxt "text:clinicMedicines.spore-truth-syrup.indication"
+msgid ""
+"Elemental sneezes, hat-brim spore rain, and a newly added forest in memory "
+"after unknown mushrooms."
+msgstr "出所不明茸後の元素くしゃみ、帽子の胞子雨、記憶に増えた森。"
+
+#. clinicMedicines.spore-truth-syrup.directions
+#: src/data/clinic.js:205
+msgctxt "text:clinicMedicines.spore-truth-syrup.directions"
+msgid ""
+"One bamboo segment per dose; state known material provenance first, or let "
+"the pharmacist record “unknown.”"
+msgstr "一回一竹節目盛。服用前に既知の由来を申告、不明なら薬師が「不明」と記載。"
+
+#. clinicMedicines.spore-truth-syrup.caution
+#: src/data/clinic.js:206
+msgctxt "text:clinicMedicines.spore-truth-syrup.caution"
+msgid "Does not compel truth; it merely makes the mushroom smell difficult to deny."
+msgstr "本人に真実を言わせず、茸の匂いだけを否定しにくくする。"
+
+#. clinicMedicines.kappa-joint-salve.name
+#: src/data/clinic.js:214
+msgctxt "text:clinicMedicines.kappa-joint-salve.name"
+msgid "Kappa Waterproof Joint Salve"
+msgstr "河童防水関節膏"
+
+#. clinicMedicines.kappa-joint-salve.maker
+#: src/data/clinic.js:215
+msgctxt "text:clinicMedicines.kappa-joint-salve.maker"
+msgid "Kappa Joint Workshop medical line; the lid still uses tape as its final quality seal"
+msgstr "河童共同工房医材線・蓋の最終封印は依然テープ"
+
+#. clinicMedicines.kappa-joint-salve.indication
+#: src/data/clinic.js:216
+msgctxt "text:clinicMedicines.kappa-joint-salve.indication"
+msgid ""
+"Wing roots, broom-launch muscles, ordinary shoulders, and ordinary shoulders "
+"strained while fixing equipment."
+msgstr "翼根、箒離陸筋、普通の肩、機材修理ついでに捻った普通の肩。"
+
+#. clinicMedicines.kappa-joint-salve.directions
+#: src/data/clinic.js:217
+msgctxt "text:clinicMedicines.kappa-joint-salve.directions"
+msgid ""
+"Apply thinly and wait for the tape smell to fade; check range of motion "
+"around four practice sessions."
+msgstr "薄く塗りテープ臭が消えるまで待つ。四回の練習前後に可動域確認。"
+
+#. clinicMedicines.kappa-joint-salve.caution
+#: src/data/clinic.js:218
+msgctxt "text:clinicMedicines.kappa-joint-salve.caution"
+msgid ""
+"Works suspiciously well on mechanical joints; prosthetic users should ask "
+"Nitori whether the jar is actually machine oil."
+msgstr "機械関節への効果は疑わしいほど高い。義肢使用者は機油瓶でないか荷取に確認。"
+
+#. clinicMedicines.tengu-tailwind-tape.name
+#: src/data/clinic.js:226
+msgctxt "text:clinicMedicines.tengu-tailwind-tape.name"
+msgid "Tengu Headwind Muscle Tape"
+msgstr "天狗向かい風筋テープ"
+
+#. clinicMedicines.tengu-tailwind-tape.maker
+#: src/data/clinic.js:227
+msgctxt "text:clinicMedicines.tengu-tailwind-tape.maker"
+msgid "Youkai Mountain sports-medicine class; Aya turned the caution into a subheadline"
+msgstr "妖怪山運動医学班・注意文を文が副見出しへ変更"
+
+#. clinicMedicines.tengu-tailwind-tape.indication
+#: src/data/clinic.js:228
+msgctxt "text:clinicMedicines.tengu-tailwind-tape.indication"
+msgid ""
+"Wing-back and shoulder-girdle strain after sharp turns, diving interviews, "
+"or emergency broom braking."
+msgstr "急旋回、急降下取材、箒急停止後の翼背・肩帯捻挫。"
+
+#. clinicMedicines.tengu-tailwind-tape.directions
+#: src/data/clinic.js:229
+msgctxt "text:clinicMedicines.tengu-tailwind-tape.directions"
+msgid ""
+"Apply three strips facing the headwind; same-day return is limited to low "
+"straight flight, with no exclusive-story dives."
+msgstr "向かい風方向へ三本。当日の復帰飛行は低空直線のみ、独占記事を理由に急降下不可。"
+
+#. clinicMedicines.tengu-tailwind-tape.caution
+#: src/data/clinic.js:230
+msgctxt "text:clinicMedicines.tengu-tailwind-tape.caution"
+msgid "Arranging it as an arrow does not void a flight ban; it only helps patrols find you."
+msgstr "矢印形に貼っても飛行禁止は無効にならず、風紀委員が見つけやすくなる。"
+
+#. clinicMedicines.phantom-position-thread.name
+#: src/data/clinic.js:238
+msgctxt "text:clinicMedicines.phantom-position-thread.name"
+msgid "Half-Phantom Positioning Thread"
+msgstr "半霊定位銀糸"
+
+#. clinicMedicines.phantom-position-thread.maker
+#: src/data/clinic.js:239
+msgctxt "text:clinicMedicines.phantom-position-thread.maker"
+msgid "Eientei Cross-Species Clinic; Youmu supplied the post-use knot"
+msgstr "永遠亭種族横断診療所・妖夢が使用後の結び方を提供"
+
+#. clinicMedicines.phantom-position-thread.indication
+#: src/data/clinic.js:240
+msgctxt "text:clinicMedicines.phantom-position-thread.indication"
+msgid ""
+"Body and half-phantom queue number, arrival time, or mood appearing in "
+"different columns."
+msgstr "本体と半霊の呼出番号・到着時刻・感情が別欄になる。"
+
+#. clinicMedicines.phantom-position-thread.directions
+#: src/data/clinic.js:241
+msgctxt "text:clinicMedicines.phantom-position-thread.directions"
+msgid ""
+"Tie one end to the clinic slip and let the half-phantom carry the other "
+"voluntarily; compare both numbers after five doors."
+msgstr "一端を診療券へ、他端を半霊が任意携帯。五扉後に双方の番号を再確認。"
+
+#. clinicMedicines.phantom-position-thread.caution
+#: src/data/clinic.js:242
+msgctxt "text:clinicMedicines.phantom-position-thread.caution"
+msgid ""
+"May not bind two assignments into one submission; the registrar has already "
+"rejected the precedent."
+msgstr "二つの課題を一提出に結ぶ用途は禁止。教務課が前例を返却済み。"
+
+#. clinicMedicines.fairy-core-warming-leaf.name
+#: src/data/clinic.js:250
+msgctxt "text:clinicMedicines.fairy-core-warming-leaf.name"
+msgid "Fairy-Core Season-Return Leaf"
+msgstr "妖精核返季葉"
+
+#. clinicMedicines.fairy-core-warming-leaf.maker
+#: src/data/clinic.js:251
+msgctxt "text:clinicMedicines.fairy-core-warming-leaf.maker"
+msgid "Collected in the Four-Season Garden; each leaf is asked what season it believes it is"
+msgstr "四季観察園採取・各葉へ現在の季節を確認"
+
+#. clinicMedicines.fairy-core-warming-leaf.indication
+#: src/data/clinic.js:252
+msgctxt "text:clinicMedicines.fairy-core-warming-leaf.indication"
+msgid ""
+"Fairy-core flicker, abnormal wing transparency, and nearby flowers refusing "
+"to change season."
+msgstr "妖精核点滅、羽透明度異常、周囲の花が季節交代を停止。"
+
+#. clinicMedicines.fairy-core-warming-leaf.directions
+#: src/data/clinic.js:253
+msgctxt "text:clinicMedicines.fairy-core-warming-leaf.directions"
+msgid ""
+"Place near the core without covering wing roots; replace across three "
+"daylight periods with a leaf agreeing to the current season."
+msgstr "核の近くへ置き翼根は覆わない。三日照帯ごとに当季へ同意する葉へ交換。"
+
+#. clinicMedicines.fairy-core-warming-leaf.caution
+#: src/data/clinic.js:254
+msgctxt "text:clinicMedicines.fairy-core-warming-leaf.caution"
+msgid ""
+"Cirno’s requested “permanent winter” is not a recovery target; her objection "
+"is on the reverse."
+msgstr "チルノ希望の「永久冬季」は回復目標外。処方裏に異議提出済み。"
+
+#. clinicTherapies.danmaku-shoulder.name
+#: src/data/clinic.js:262
+msgctxt "text:clinicTherapies.danmaku-shoulder.name"
+msgid "Danmaku Shoulder-Wing Return"
+msgstr "弾幕肩翼リターンライン"
+
+#. clinicTherapies.danmaku-shoulder.lead
+#: src/data/clinic.js:263
+msgctxt "text:clinicTherapies.danmaku-shoulder.lead"
+msgid ""
+"Breaks “I can still fly” into take-off, turning, stopping, and resisting a "
+"breaking-news dive."
+msgstr "「まだ飛べる」を離陸・旋回・停止・記事を追わないの四項へ分解。"
+
+#. clinicTherapies.danmaku-shoulder.clinician
+#: src/data/clinic.js:264
+msgctxt "text:clinicTherapies.danmaku-shoulder.clinician"
+msgid "Youkai Mountain sports medicine / Reisen"
+msgstr "妖怪山運動医学班／鈴仙"
+
+#. clinicTherapies.danmaku-shoulder.steps.0
+#: src/data/clinic.js:266
+msgctxt "text:clinicTherapies.danmaku-shoulder.steps.0"
+msgid "Danmaku-free shoulder and wing range check"
+msgstr "弾幕なし肩翼可動域測定"
+
+#. clinicTherapies.danmaku-shoulder.steps.1
+#: src/data/clinic.js:267
+msgctxt "text:clinicTherapies.danmaku-shoulder.steps.1"
+msgid "Three low straight flights; no reporting dives"
+msgstr "低空直線三回・急降下取材禁止"
+
+#. clinicTherapies.danmaku-shoulder.steps.2
+#: src/data/clinic.js:268
+msgctxt "text:clinicTherapies.danmaku-shoulder.steps.2"
+msgid "Turns and landings with an explicit stop line"
+msgstr "停止線付き旋回・着地"
+
+#. clinicTherapies.danmaku-shoulder.steps.3
+#: src/data/clinic.js:269
+msgctxt "text:clinicTherapies.danmaku-shoulder.steps.3"
+msgid "Return-to-flight slip signed by patient and observer"
+msgstr "復帰票・本人と観察者が各一欄署名"
+
+#. clinicTherapies.boundary-walk.name
+#: src/data/clinic.js:275
+msgctxt "text:clinicTherapies.boundary-walk.name"
+msgid "Five-Door Boundary Reorientation Walk"
+msgstr "五扉境界再定位歩行"
+
+#. clinicTherapies.boundary-walk.lead
+#: src/data/clinic.js:276
+msgctxt "text:clinicTherapies.boundary-walk.lead"
+msgid ""
+"Uses a traceable small route to recalibrate direction, date, and whether the "
+"patient has arrived."
+msgstr "追跡可能な小道で方向・日付・本人の到着を再校正。"
+
+#. clinicTherapies.boundary-walk.clinician
+#: src/data/clinic.js:277
+msgctxt "text:clinicTherapies.boundary-walk.clinician"
+msgid "Eirin / duty recorder from Hieda Hall"
+msgstr "永琳／稗田史学館当番記録員"
+
+#. clinicTherapies.boundary-walk.steps.0
+#: src/data/clinic.js:279
+msgctxt "text:clinicTherapies.boundary-walk.steps.0"
+msgid "Record the date at Eientei Front Gate"
+msgstr "永遠亭表門で日付を記録"
+
+#. clinicTherapies.boundary-walk.steps.1
+#: src/data/clinic.js:280
+msgctxt "text:clinicTherapies.boundary-walk.steps.1"
+msgid "Follow three lanterns, not a fourth"
+msgstr "三つの灯だけを追い四つ目は追わない"
+
+#. clinicTherapies.boundary-walk.steps.2
+#: src/data/clinic.js:281
+msgctxt "text:clinicTherapies.boundary-walk.steps.2"
+msgid "Check toe direction at the pharmacy"
+msgstr "調剤室でつま先方向を確認"
+
+#. clinicTherapies.boundary-walk.steps.3
+#: src/data/clinic.js:282
+msgctxt "text:clinicTherapies.boundary-walk.steps.3"
+msgid "Return to the same door and verify it is still today"
+msgstr "同じ扉へ戻り今日のままか確認"
+
+#. clinicTherapies.lunar-low-stimulus.name
+#: src/data/clinic.js:288
+msgctxt "text:clinicTherapies.lunar-low-stimulus.name"
+msgid "Lunar Low-Stimulus Recovery Seat"
+msgstr "月相低刺激回復席"
+
+#. clinicTherapies.lunar-low-stimulus.lead
+#: src/data/clinic.js:289
+msgctxt "text:clinicTherapies.lunar-low-stimulus.lead"
+msgid ""
+"Does not dim the moon; it returns light, sound, wavelength, and headlines to "
+"one channel at a time."
+msgstr "月を暗くせず、光・音・波長・新聞見出しを一度に一チャンネルへ戻す。"
+
+#. clinicTherapies.lunar-low-stimulus.clinician
+#: src/data/clinic.js:290
+msgctxt "text:clinicTherapies.lunar-low-stimulus.clinician"
+msgid "Reisen / Lunar Sensory Station"
+msgstr "鈴仙／月相感覚研究所"
+
+#. clinicTherapies.lunar-low-stimulus.steps.0
+#: src/data/clinic.js:292
+msgctxt "text:clinicTherapies.lunar-low-stimulus.steps.0"
+msgid "Twenty minutes in a no-extra-edition low-stimulus seat"
+msgstr "号外なし低刺激席20分"
+
+#. clinicTherapies.lunar-low-stimulus.steps.1
+#: src/data/clinic.js:293
+msgctxt "text:clinicTherapies.lunar-low-stimulus.steps.1"
+msgid "Identify three non-arguing colours after calibration"
+msgstr "校正糖後に口論しない三色を識別"
+
+#. clinicTherapies.lunar-low-stimulus.steps.2
+#: src/data/clinic.js:294
+msgctxt "text:clinicTherapies.lunar-low-stimulus.steps.2"
+msgid "Corridor trial under lunar-dust lenses"
+msgstr "月塵隔離レンズ下で廊下試行"
+
+#. clinicTherapies.lunar-low-stimulus.steps.3
+#: src/data/clinic.js:295
+msgctxt "text:clinicTherapies.lunar-low-stimulus.steps.3"
+msgid "Full-moon diversion and return-to-class note"
+msgstr "満月迂回・復学メモ"
+
+#. clinicTherapies.phantom-sync.name
+#: src/data/clinic.js:301
+msgctxt "text:clinicTherapies.phantom-sync.name"
+msgid "Two-Column Half-Phantom Synchronisation"
+msgstr "半霊二欄同期療法"
+
+#. clinicTherapies.phantom-sync.lead
+#: src/data/clinic.js:302
+msgctxt "text:clinicTherapies.phantom-sync.lead"
+msgid ""
+"Body and half-phantom keep separate columns without overwriting check-in, "
+"arrival, or mood."
+msgstr "本体と半霊は別欄を保ち、受付・到着・感情を上書きしない。"
+
+#. clinicTherapies.phantom-sync.clinician
+#: src/data/clinic.js:303
+msgctxt "text:clinicTherapies.phantom-sync.clinician"
+msgid "Eirin / demonstration support from Youmu Konpaku"
+msgstr "永琳／魂魄妖夢が実演協力"
+
+#. clinicTherapies.phantom-sync.steps.0
+#: src/data/clinic.js:305
+msgctxt "text:clinicTherapies.phantom-sync.steps.0"
+msgid "Body and half-phantom take separate numbers"
+msgstr "本体・半霊が別々に番号取得"
+
+#. clinicTherapies.phantom-sync.steps.1
+#: src/data/clinic.js:306
+msgctxt "text:clinicTherapies.phantom-sync.steps.1"
+msgid "Pass three doors with unknotted silver thread"
+msgstr "銀糸で三扉通過・結び目なし"
+
+#. clinicTherapies.phantom-sync.steps.2
+#: src/data/clinic.js:307
+msgctxt "text:clinicTherapies.phantom-sync.steps.2"
+msgid "Exchange one observation without exchanging positions"
+msgstr "位置を替えず観察一項を交換"
+
+#. clinicTherapies.phantom-sync.steps.3
+#: src/data/clinic.js:308
+msgctxt "text:clinicTherapies.phantom-sync.steps.3"
+msgid "Arrive together and sign separately"
+msgstr "同時到着・署名は別々"
+
+#. clinicTherapies.fairy-core-rest.name
+#: src/data/clinic.js:314
+msgctxt "text:clinicTherapies.fairy-core-rest.name"
+msgid "Three-Daylight Fairy-Core Season Return"
+msgstr "妖精核三日照返季"
+
+#. clinicTherapies.fairy-core-rest.lead
+#: src/data/clinic.js:315
+msgctxt "text:clinicTherapies.fairy-core-rest.lead"
+msgid ""
+"Resynchronises the core with nearby nature without treating winter, ice, or "
+"pranks as the only vital signs."
+msgstr "核を周囲の自然へ再同期し、冬・氷・悪戯だけを生命徴候としない。"
+
+#. clinicTherapies.fairy-core-rest.clinician
+#: src/data/clinic.js:316
+msgctxt "text:clinicTherapies.fairy-core-rest.clinician"
+msgid "Four-Season Garden / campus clinician"
+msgstr "四季観察園／本部校医"
+
+#. clinicTherapies.fairy-core-rest.steps.0
+#: src/data/clinic.js:318
+msgctxt "text:clinicTherapies.fairy-core-rest.steps.0"
+msgid "First daylight: check wing transparency"
+msgstr "第一日照・羽透明度確認"
+
+#. clinicTherapies.fairy-core-rest.steps.1
+#: src/data/clinic.js:319
+msgctxt "text:clinicTherapies.fairy-core-rest.steps.1"
+msgid "Second daylight: let three flowers choose their season"
+msgstr "第二日照・三種の花が季節を選ぶ"
+
+#. clinicTherapies.fairy-core-rest.steps.2
+#: src/data/clinic.js:320
+msgctxt "text:clinicTherapies.fairy-core-rest.steps.2"
+msgid "Third daylight: low-intensity prank test"
+msgstr "第三日照・低強度悪戯試験"
+
+#. clinicTherapies.fairy-core-rest.steps.3
+#: src/data/clinic.js:321
+msgctxt "text:clinicTherapies.fairy-core-rest.steps.3"
+msgid "Return surplus ice after core stabilisation"
+msgstr "核安定後に余分な氷を返却"
+
+#. clinicTherapies.magic-cooldown.name
+#: src/data/clinic.js:327
+msgctxt "text:clinicTherapies.magic-cooldown.name"
+msgid "Four-Break Magical Feedback Cooldown"
+msgstr "魔力逆流冷却四休間"
+
+#. clinicTherapies.magic-cooldown.lead
+#: src/data/clinic.js:328
+msgctxt "text:clinicTherapies.magic-cooldown.lead"
+msgid ""
+"Until material provenance is complete, do not use a larger output to prove a "
+"smaller accident has healed."
+msgstr "材料由来が揃うまで、大出力で小事故の回復を証明しない。"
+
+#. clinicTherapies.magic-cooldown.clinician
+#: src/data/clinic.js:329
+msgctxt "text:clinicTherapies.magic-cooldown.clinician"
+msgid "Eirin / Patchouli review / Marisa assigned to finish the labels"
+msgstr "永琳／パチュリー確認／魔理沙は札追記"
+
+#. clinicTherapies.magic-cooldown.steps.0
+#: src/data/clinic.js:331
+msgctxt "text:clinicTherapies.magic-cooldown.steps.0"
+msgid "Keep the same spell off for one class break"
+msgstr "同術式を一休間停止"
+
+#. clinicTherapies.magic-cooldown.steps.1
+#: src/data/clinic.js:332
+msgctxt "text:clinicTherapies.magic-cooldown.steps.1"
+msgid "List material batches and unknown provenance"
+msgstr "材料ロット・不明由来を列記"
+
+#. clinicTherapies.magic-cooldown.steps.2
+#: src/data/clinic.js:333
+msgctxt "text:clinicTherapies.magic-cooldown.steps.2"
+msgid "No-material idle calibration"
+msgstr "材料なし空荷校正"
+
+#. clinicTherapies.magic-cooldown.steps.3
+#: src/data/clinic.js:334
+msgctxt "text:clinicTherapies.magic-cooldown.steps.3"
+msgid "Reproduce at quarter output and stop if unsuccessful"
+msgstr "四分の一出力で再現・失敗時停止"
+
+#. clinicQueuePatients.mq-marisa.name
+#: src/data/clinic.js:344
+msgctxt "text:clinicQueuePatients.mq-marisa.name"
+msgid "Marisa Kirisame"
+msgstr "霧雨魔理沙"
+
+#. clinicQueuePatients.mq-marisa.reason
+#: src/data/clinic.js:345
+msgctxt "text:clinicQueuePatients.mq-marisa.reason"
+msgid "Elemental sleeve sneezes; provenance still reads “found it”"
+msgstr "袖から元素くしゃみ・材料由来は依然「拾った」"
+
+#. clinicQueuePatients.mq-marisa.note
+#: src/data/clinic.js:346
+msgctxt "text:clinicQueuePatients.mq-marisa.note"
+msgid ""
+"Eirin returned history version three and asked that mushrooms move from "
+"“equipment” to “exposure.”"
+msgstr "永琳が病歴第三版を返却、茸を「機器」から「曝露物」へ移すよう要求。"
+
+#. clinicQueuePatients.mq-cirno.name
+#: src/data/clinic.js:353
+msgctxt "text:clinicQueuePatients.mq-cirno.name"
+msgid "Cirno"
+msgstr "チルノ"
+
+#. clinicQueuePatients.mq-cirno.reason
+#: src/data/clinic.js:354
+msgctxt "text:clinicQueuePatients.mq-cirno.reason"
+msgid "Chief complaint: “36°C is abnormally hot”"
+msgstr "主訴「体温36度、熱すぎる」"
+
+#. clinicQueuePatients.mq-cirno.note
+#: src/data/clinic.js:355
+msgctxt "text:clinicQueuePatients.mq-cirno.note"
+msgid ""
+"The season-return leaf refused permanent winter; patient wrote “strongest” "
+"on the reverse."
+msgstr "返季葉が永久冬季処方を拒否。本人は裏面へ「最強」と記入。"
+
+#. clinicQueuePatients.mq-aya.name
+#: src/data/clinic.js:362
+msgctxt "text:clinicQueuePatients.mq-aya.name"
+msgid "Aya Shameimaru"
+msgstr "射命丸文"
+
+#. clinicQueuePatients.mq-aya.reason
+#: src/data/clinic.js:363
+msgctxt "text:clinicQueuePatients.mq-aya.reason"
+msgid "Wing-back strain after a reporting dive; interviewing the queue meanwhile"
+msgstr "急降下取材後の翼背捻挫・待合患者も取材中"
+
+#. clinicQueuePatients.mq-aya.note
+#: src/data/clinic.js:364
+msgctxt "text:clinicQueuePatients.mq-aya.note"
+msgid "Reisen added the question mark because Aya published her diagnosis before examination."
+msgstr "番号札の疑問符は鈴仙が追加。文が診断を先に掲載したため。"
+
+#. clinicQueuePatients.mq-youmu.name
+#: src/data/clinic.js:371
+msgctxt "text:clinicQueuePatients.mq-youmu.name"
+msgid "Youmu Konpaku & half-phantom"
+msgstr "魂魄妖夢と半霊"
+
+#. clinicQueuePatients.mq-youmu.reason
+#: src/data/clinic.js:372
+msgctxt "text:clinicQueuePatients.mq-youmu.reason"
+msgid "Two tokens for one symptom; negotiating whether this counts as one and a half patients"
+msgstr "同一症状で二枚発券・一人半の患者か協議中"
+
+#. clinicQueuePatients.mq-youmu.note
+#: src/data/clinic.js:373
+msgctxt "text:clinicQueuePatients.mq-youmu.note"
+msgid "Youmu arrived on time; the half-phantom call record arrived four minutes early."
+msgstr "妖夢は定刻、半霊の呼出記録は4分早い。"
+
+#. clinicQueuePatients.mq-nitori.name
+#: src/data/clinic.js:380
+msgctxt "text:clinicQueuePatients.mq-nitori.name"
+msgid "Nitori Kawashiro"
+msgstr "河城にとり"
+
+#. clinicQueuePatients.mq-nitori.reason
+#: src/data/clinic.js:381
+msgctxt "text:clinicQueuePatients.mq-nitori.reason"
+msgid "Homemade diagnostic says “patient not found”; patient wants the device treated first"
+msgstr "自作診断器が「患者なし」・患者は機器修理を先に要求"
+
+#. clinicQueuePatients.mq-nitori.note
+#: src/data/clinic.js:382
+msgctxt "text:clinicQueuePatients.mq-nitori.note"
+msgid ""
+"The device is held by three colours of kappa tape; pharmacy refuses to "
+"classify it as bandaging."
+msgstr "機器は三色河童テープ固定。薬師は包帯としての登録を拒否。"
+
+#. clinicQueuePatients.mq-reimu.name
+#: src/data/clinic.js:389
+msgctxt "text:clinicQueuePatients.mq-reimu.name"
+msgid "Reimu Hakurei"
+msgstr "博麗霊夢"
+
+#. clinicQueuePatients.mq-reimu.reason
+#: src/data/clinic.js:390
+msgctxt "text:clinicQueuePatients.mq-reimu.reason"
+msgid "Restocking infirmary seal patches; insists this is not a visit"
+msgstr "保健室の止符貼を補充・診察ではないと主張"
+
+#. clinicQueuePatients.mq-reimu.note
+#: src/data/clinic.js:391
+msgctxt "text:clinicQueuePatients.mq-reimu.note"
+msgid ""
+"The queue bell lists her anyway because the offering box occupies the "
+"blood-pressure station."
+msgstr "待合鐘は掲載継続。賽銭箱が血圧計の位置にあるため。"
+
+#. clinicQueuePatients.mq-mystia.name
+#: src/data/clinic.js:398
+msgctxt "text:clinicQueuePatients.mq-mystia.name"
+msgid "Mystia Lorelei"
+msgstr "ミスティア・ローレライ"
+
+#. clinicQueuePatients.mq-mystia.reason
+#: src/data/clinic.js:399
+msgctxt "text:clinicQueuePatients.mq-mystia.reason"
+msgid "Lost voice after festival sets; answering on the menu chalkboard"
+msgstr "学祭連唱後の失声・献立黒板で回答中"
+
+#. clinicQueuePatients.mq-mystia.note
+#: src/data/clinic.js:400
+msgctxt "text:clinicQueuePatients.mq-mystia.note"
+msgid ""
+"Night-sparrow lozenges share a drawer with supper stock; Reisen divided it "
+"with a red line."
+msgstr "夜雀飴と夜食屋台が同じ引出し。鈴仙が赤線で左右に分割。"
+
+#. clinicCategories.patch
+#: src/data/clinic.js:406
+msgctxt "text:clinicCategories.patch"
+msgid "Patch / topical"
+msgstr "札・外用"
+
+#. clinicCategories.powder
+#: src/data/clinic.js:407
+msgctxt "text:clinicCategories.powder"
+msgid "Powder"
+msgstr "散剤"
+
+#. clinicCategories.ampoule
+#: src/data/clinic.js:408
+msgctxt "text:clinicCategories.ampoule"
+msgid "Ampoule / environmental"
+msgstr "アンプル・環境用"
+
+#. clinicCategories.paper
+#: src/data/clinic.js:409
+msgctxt "text:clinicCategories.paper"
+msgid "Anchor slip"
+msgstr "定位票"
+
+#. clinicCategories.tea
+#: src/data/clinic.js:410
+msgctxt "text:clinicCategories.tea"
+msgid "Tea"
+msgstr "湯剤"
+
+#. clinicCategories.drops
+#: src/data/clinic.js:411
+msgctxt "text:clinicCategories.drops"
+msgid "Eye drops"
+msgstr "点眼"
+
+#. clinicCategories.lozenge
+#: src/data/clinic.js:412
+msgctxt "text:clinicCategories.lozenge"
+msgid "Calibration drop"
+msgstr "校正糖"
+
+#. clinicCategories.syrup
+#: src/data/clinic.js:413
+msgctxt "text:clinicCategories.syrup"
+msgid "Syrup"
+msgstr "シロップ"
+
+#. clinicCategories.salve
+#: src/data/clinic.js:414
+msgctxt "text:clinicCategories.salve"
+msgid "Salve"
+msgstr "軟膏"
+
+#. clinicCategories.tape
+#: src/data/clinic.js:415
+msgctxt "text:clinicCategories.tape"
+msgid "Muscle tape"
+msgstr "筋テープ"
+
+#. clinicCategories.thread
+#: src/data/clinic.js:416
+msgctxt "text:clinicCategories.thread"
+msgid "Positioning aid"
+msgstr "定位医材"
+
+#. clinicCategories.leaf
+#: src/data/clinic.js:417
+msgctxt "text:clinicCategories.leaf"
+msgid "Living leaf"
+msgstr "活性葉剤"

@@ -1,0 +1,78 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. outcomes.passed
+#: src/js/academic-model.js:353
+msgctxt "text:outcomes.passed"
+msgid "passed"
+msgstr "通過"
+
+#. outcomes.conditional
+#: src/js/academic-model.js:354
+msgctxt "text:outcomes.conditional"
+msgid "conditionally passed"
+msgstr "有條件通過"
+
+#. outcomes.revise
+#: src/js/academic-model.js:355
+msgctxt "text:outcomes.revise"
+msgid "returned for revision"
+msgstr "退回補正"
+
+#. type.yes
+#: src/js/academic-model.js:365
+msgctxt "text:type.yes"
+msgid "spell-card"
+msgstr "符卡"
+
+#. type.no
+#: src/js/academic-model.js:365
+msgctxt "text:type.no"
+msgid "thesis"
+msgstr "論文"
+
+#. committee.author
+#: src/js/academic-model.js:366
+msgctxt "text:committee.author"
+msgid "Public Defence Shorthand Desk"
+msgstr "公開答辯速記席"
+
+#. committee.title
+#: src/js/academic-model.js:366
+msgctxt "text:committee.title"
+msgid "{value0} defence ruling: {value1}"
+msgstr "{value0}答辯裁定：{value1}"
+
+#. committee.body
+#: src/js/academic-model.js:366
+msgctxt "text:committee.body"
+msgid ""
+"The committee ruled “{value0}” at {value1}/100. Question slips remain; "
+"Marisa wants material provenance attached before the celebratory drink."
+msgstr "委員會以 {value0}/100 裁定「{value1}」。逐問回條仍保留；魔理沙要求把材料來源附在慶祝酒之前。"
+
+#. corridor/author
+#: src/js/academic-model.js:367
+msgctxt "tree:corridor#/author"
+msgid "Anonymous Listener Outside the Defence Room"
+msgstr "答辯會場門外的匿名旁聽生"
+
+#. corridor/title
+#: src/js/academic-model.js:367
+msgctxt "tree:corridor#/title"
+msgid "Question: does a claim grow after it passes?"
+msgstr "問：通過後，主張會不會自己變大？"
+
+#. corridor/body
+#: src/js/academic-model.js:367
+msgctxt "tree:corridor#/body"
+msgid ""
+"The project passed only within its declared place, moon phase, and version. "
+"Yukari left with the word “within”; the committee is requesting its return."
+msgstr "剛才的題目只在申報場地、月相與版本內通過。八雲紫離場時把「內」字帶走了，委員會正在要求歸還。"

@@ -1,0 +1,82 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. propertyMessages.0.source
+#: src/js/post-model.js:98
+msgctxt "text:propertyMessages.0.source"
+msgid "Tsukumogami Property Tribunal"
+msgstr "Tsukumogami Property Tribunal"
+
+#. propertyMessages.0.correction
+#: src/js/post-model.js:111
+msgctxt "text:propertyMessages.0.correction"
+msgid "Hearing time will be re-sent if the object refuses attendance."
+msgstr "Hearing time will be re-sent if the object refuses attendance."
+
+#. saved.0.source
+#: src/js/post-model.js:127
+msgctxt "text:saved.0.source"
+msgid "Gensokyo Academic Calendar Desk"
+msgstr "Gensokyo Academic Calendar Desk"
+
+#. active.0.source
+#: src/js/post-model.js:141
+msgctxt "text:active.0.source"
+msgid "Today's calendar projection"
+msgstr "Today's calendar projection"
+
+#. propertyMessages.0.subject
+#: src/js/post-model.js:103
+msgctxt "text:propertyMessages.0.subject"
+msgid "{value0} ruling: {value1}"
+msgstr "{value0} ruling: {value1}"
+
+#. propertyMessages.0.subject
+#: src/js/post-model.js:104
+msgctxt "text:propertyMessages.0.subject.2"
+msgid "{value0} hearing: leave a seat for the object"
+msgstr "{value0} hearing: leave a seat for the object"
+
+#. propertyMessages.0.body
+#: src/js/post-model.js:106
+msgctxt "text:propertyMessages.0.body"
+msgid ""
+"{value0}'s claim closed as {value1}. Four seat opinions remain separate and "
+"appeal remains available."
+msgstr ""
+"{value0}'s claim closed as {value1}. Four seat opinions remain separate and "
+"appeal remains available."
+
+#. propertyMessages.0.body
+#: src/js/post-model.js:107
+msgctxt "text:propertyMessages.0.body.2"
+msgid ""
+"{value0}'s claim was received. Bring not only receipts but the object's "
+"statement and provenance corrections."
+msgstr ""
+"{value0}'s claim was received. Bring not only receipts but the object's "
+"statement and provenance corrections."
+
+#. saved.0.subject
+#: src/js/post-model.js:131
+msgctxt "text:saved.0.subject"
+msgid "Calendar leaf saved: {value0}"
+msgstr "Calendar leaf saved: {value0}"
+
+#. dispatches.0.source
+#: src/js/post-model.js:189
+msgctxt "text:dispatches.0.source"
+msgid "You → {value0}"
+msgstr "You → {value0}"
+
+#. postCommunityPosts.0.author
+#: src/js/post-model.js:275
+msgctxt "text:postCommunityPosts.0.author"
+msgid "Tengu Post / to {value0}"
+msgstr "Tengu Post / to {value0}"

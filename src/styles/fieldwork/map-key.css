@@ -1,0 +1,420 @@
+.fieldwork-map-key {
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+  left: 18px;
+  display: flex;
+  z-index: 3;
+  padding: 12px 14px;
+  gap: 9px 16px;
+  flex-wrap: wrap;
+  border: 1px solid var(--field-line);
+  background: rgba(247, 243, 234, 0.91);
+}
+
+.fieldwork-map-key span {
+  color: var(--field-muted);
+  font: 600 0.62rem/1.3 var(--sans);
+}
+
+.fieldwork-map-key span::before {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: var(--field-red);
+  content: "";
+}
+
+.fieldwork-station-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.fieldwork-station-card {
+  display: flex;
+  min-width: 0;
+  min-height: 345px;
+  padding: 27px;
+  flex-direction: column;
+  border-right: 1px solid var(--field-line);
+  border-bottom: 1px solid var(--field-line);
+  background: rgba(250, 248, 242, 0.68);
+}
+
+.fieldwork-station-card:nth-child(3n) {
+  border-right: 0;
+}
+
+.fieldwork-station-card > header {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.fieldwork-station-card > header > span,
+.fieldwork-file-heading > b {
+  display: grid;
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border: 1px solid var(--field-red);
+  border-radius: 50%;
+  color: var(--field-red);
+  font: 500 1.05rem/1 var(--serif);
+  transform: rotate(-5deg);
+}
+
+.fieldwork-station-card h4 {
+  margin: 5px 0 0;
+  font: 500 1.35rem/1.3 var(--serif);
+}
+
+.fieldwork-station-card header small,
+.fieldwork-file-heading p,
+.fieldwork-live-file header small,
+.fieldwork-return-form header small {
+  color: var(--field-red);
+  font: 700 0.62rem/1.4 var(--sans);
+  letter-spacing: 0.08em;
+}
+
+.fieldwork-station-card > p {
+  margin: 22px 0;
+  color: var(--field-muted);
+  font: 400 0.96rem/1.75 var(--serif);
+}
+
+.fieldwork-station-card dl {
+  margin: auto 0 0;
+}
+
+.fieldwork-station-card dl div {
+  display: grid;
+  padding: 9px 0;
+  grid-template-columns: 90px 1fr;
+  gap: 10px;
+  border-top: 1px solid var(--field-line);
+}
+
+.fieldwork-station-card dt,
+.fieldwork-permit-grid dt,
+.fieldwork-report-grid dt,
+.fieldwork-route-slip dt {
+  color: var(--field-muted);
+  font: 700 0.62rem/1.5 var(--sans);
+  letter-spacing: 0.07em;
+}
+
+.fieldwork-station-card dd,
+.fieldwork-permit-grid dd,
+.fieldwork-report-grid dd,
+.fieldwork-route-slip dd {
+  margin: 0;
+  font: 400 0.84rem/1.55 var(--serif);
+}
+
+.fieldwork-station-card > footer {
+  display: flex;
+  margin-top: 18px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fieldwork-station-card footer span {
+  color: var(--field-red);
+  font: 700 0.67rem/1 var(--sans);
+}
+
+.fieldwork-station-card footer button,
+.fieldwork-record-list article > button {
+  border: 0;
+  color: var(--field-blue);
+  background: transparent;
+  font: 700 0.72rem/1.2 var(--sans);
+  cursor: pointer;
+}
+
+.fieldwork-station-file,
+.fieldwork-dispatch-view,
+.fieldwork-records,
+.fieldwork-passport-book,
+.fieldwork-live-file,
+.fieldwork-return-form,
+.fieldwork-official-file {
+  margin: clamp(20px, 4vw, 58px);
+  border: 1px solid var(--field-line);
+  background: rgba(250, 248, 242, 0.92);
+  box-shadow: 0 22px 50px rgba(57, 47, 34, 0.08);
+}
+
+.fieldwork-file-heading,
+.fieldwork-dispatch-view > header,
+.fieldwork-records > header,
+.fieldwork-live-file > header,
+.fieldwork-return-form > header {
+  display: flex;
+  padding: 32px clamp(24px, 4vw, 48px);
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--field-line);
+}
+
+.fieldwork-file-heading h3,
+.fieldwork-dispatch-view > header h3,
+.fieldwork-records > header h3,
+.fieldwork-live-file > header h3,
+.fieldwork-return-form > header h3 {
+  margin: 5px 0;
+  font: 500 clamp(1.8rem, 4vw, 3.4rem)/1.1 var(--serif);
+}
+
+.fieldwork-file-heading span,
+.fieldwork-dispatch-view > header span,
+.fieldwork-return-form > header span {
+  color: var(--field-muted);
+  font: 400 0.94rem/1.6 var(--serif);
+}
+
+.fieldwork-file-lead {
+  display: grid;
+  padding: 32px clamp(24px, 4vw, 48px);
+  grid-template-columns: 1fr auto;
+  gap: 30px;
+  align-items: center;
+  color: #fff;
+  background: var(--field-blue);
+}
+
+.fieldwork-file-lead p {
+  max-width: 900px;
+  margin: 0;
+  font: 500 clamp(1.2rem, 2.4vw, 1.8rem)/1.55 var(--serif);
+}
+
+.fieldwork-file-lead span {
+  color: #e0be7f;
+  font: 700 0.78rem/1.3 var(--sans);
+  white-space: nowrap;
+}
+
+.fieldwork-file-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: 1px solid var(--field-line);
+}
+
+.fieldwork-file-grid section {
+  min-height: 190px;
+  padding: 30px;
+  border-right: 1px solid var(--field-line);
+  border-bottom: 1px solid var(--field-line);
+}
+
+.fieldwork-file-grid section:nth-child(2n) {
+  border-right: 0;
+}
+
+.fieldwork-file-grid h4,
+.fieldwork-file-lists h4,
+.fieldwork-permit-conditions h4,
+.fieldwork-review-columns h4 {
+  margin: 0 0 15px;
+  color: var(--field-red);
+  font: 700 0.68rem/1.3 var(--sans);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.fieldwork-file-grid strong {
+  font: 500 1.2rem/1.5 var(--serif);
+}
+
+.fieldwork-file-grid p {
+  margin: 10px 0 0;
+  color: var(--field-muted);
+  font: 400 0.93rem/1.7 var(--serif);
+}
+
+.fieldwork-file-lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.fieldwork-file-lists section {
+  padding: 31px;
+  border-right: 1px solid var(--field-line);
+  border-bottom: 1px solid var(--field-line);
+}
+
+.fieldwork-file-lists section:last-child {
+  border-right: 0;
+}
+
+.fieldwork-file-lists ol {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+  counter-reset: item;
+  list-style: none;
+}
+
+.fieldwork-file-lists li {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  color: var(--field-muted);
+  font: 400 0.94rem/1.6 var(--serif);
+}
+
+.fieldwork-file-lists li::before {
+  color: var(--field-red);
+  content: counter(item, decimal-leading-zero);
+  counter-increment: item;
+  font: 700 0.62rem/1.8 var(--sans);
+}
+
+.fieldwork-station-file > blockquote {
+  margin: 0;
+  padding: 28px clamp(24px, 4vw, 48px);
+  border-bottom: 1px solid var(--field-line);
+  background:
+    repeating-linear-gradient(0deg, transparent 0 30px, rgba(54, 49, 41, 0.06) 31px),
+    #efe7d8;
+  transform: rotate(-0.25deg);
+}
+
+.fieldwork-station-file > blockquote small {
+  color: var(--field-red);
+  font: 700 0.64rem/1.3 var(--sans);
+  letter-spacing: 0.09em;
+}
+
+.fieldwork-station-file > blockquote p {
+  margin: 9px 0 0;
+  font: 500 1.03rem/1.65 var(--serif);
+}
+
+.fieldwork-route-chooser {
+  display: grid;
+  padding: 32px clamp(24px, 4vw, 48px);
+  grid-template-columns: minmax(210px, 0.45fr) minmax(0, 1.55fr);
+  gap: 25px;
+}
+
+.fieldwork-route-slip {
+  display: grid;
+  padding: 22px;
+  grid-template-columns: minmax(220px, 1fr) auto;
+  gap: 12px 22px;
+  border: 1px dashed rgba(34, 68, 54, 0.45);
+  color: #f4ecdc;
+  background: var(--field-green);
+}
+
+.fieldwork-route-slip > header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.fieldwork-route-slip header > span {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border: 1px solid #d6bc86;
+  border-radius: 50%;
+  color: #d6bc86;
+  font: 500 0.9rem/1 var(--serif);
+}
+
+.fieldwork-route-slip header small,
+.fieldwork-route-slip header strong {
+  display: block;
+}
+
+.fieldwork-route-slip header small {
+  color: #d6bc86;
+  font: 700 0.61rem/1.4 var(--sans);
+}
+
+.fieldwork-route-slip header strong {
+  margin-top: 4px;
+  font: 500 1rem/1.4 var(--serif);
+}
+
+.fieldwork-route-slip > div {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+.fieldwork-route-slip > div b {
+  color: #f0ca80;
+  font: 500 2.4rem/1 var(--serif);
+}
+
+.fieldwork-route-slip > div span {
+  font: 700 0.62rem/1 var(--sans);
+}
+
+.fieldwork-route-slip dl {
+  display: grid;
+  margin: 5px 0 0;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 15px;
+}
+
+.fieldwork-route-slip dl div {
+  min-width: 0;
+}
+
+.fieldwork-route-slip dt {
+  color: rgba(244, 236, 220, 0.58);
+}
+
+.fieldwork-route-slip dd {
+  color: rgba(244, 236, 220, 0.9);
+}
+
+.fieldwork-route-slip > p {
+  margin: 5px 0 0;
+  color: rgba(244, 236, 220, 0.8);
+  font: 400 0.83rem/1.55 var(--serif);
+}
+
+.fieldwork-route-slip > small {
+  grid-column: 1 / -1;
+  color: #e8c982;
+  font: 500 0.75rem/1.45 var(--serif);
+}
+
+.fieldwork-file-actions,
+.fieldwork-form-actions,
+.fieldwork-document-actions {
+  display: flex;
+  padding: 24px clamp(24px, 4vw, 48px);
+  gap: 12px;
+  justify-content: flex-end;
+  border-top: 1px solid var(--field-line);
+}
+
+.fieldwork-section .paper-button,
+.fieldwork-section .primary-button {
+  display: inline-flex;
+  min-height: 48px;
+  padding: 12px 18px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--field-red);
+  border-radius: 0;
+  color: var(--field-red);
+  background: transparent;
+  font: 700 0.74rem/1.2 var(--sans);
+  text-decoration: none;
+  cursor: pointer;
+}

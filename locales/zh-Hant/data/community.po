@@ -1,0 +1,679 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. newsItems.first-bell-arrival.category
+#: src/data/community.js:7
+msgctxt "text:newsItems.first-bell-arrival.category"
+msgid "New Students"
+msgstr "新生"
+
+#. newsItems.first-bell-arrival.title
+#: src/data/community.js:8
+msgctxt "text:newsItems.first-bell-arrival.title"
+msgid "First Bell arrival files open: bring a way back with the admission letter"
+msgstr "第一鐘報到卷開放：請把退路和錄取通知一起帶來"
+
+#. newsItems.first-bell-arrival.summary
+#: src/data/community.js:9
+msgctxt "text:newsItems.first-bell-arrival.summary"
+msgid ""
+"The arrival office checks the route from Hakurei Gate, a stop signal the "
+"student can recognise, and a first destination. Bunbunmaru receives only a "
+"nameless count."
+msgstr "到着室會核對博麗門路線、本人能辨認的停止信號與第一站；文文。校報只能取得不含姓名的總數。"
+
+#. newsItems.open-day-gate.category
+#: src/data/community.js:14
+msgctxt "text:newsItems.open-day-gate.category"
+msgid "Admissions"
+msgstr "招生"
+
+#. newsItems.open-day-gate.title
+#: src/data/community.js:15
+msgctxt "text:newsItems.open-day-gate.title"
+msgid "Open Day: Outside World visitors meet at the Hakurei entrance"
+msgstr "開放日：外界生請於博麗側入口集合"
+
+#. newsItems.open-day-gate.summary
+#: src/data/community.js:16
+msgctxt "text:newsItems.open-day-gate.summary"
+msgid ""
+"Morning checks begin at the third quarter of the Dragon hour. Do not follow "
+"an umbrella or butterfly without credentials."
+msgstr "上午批次於辰時三刻開始核驗；請勿跟隨未佩證件的傘或蝴蝶。"
+
+#. newsItems.turbine-three.category
+#: src/data/community.js:21
+msgctxt "text:newsItems.turbine-three.category"
+msgid "Research"
+msgstr "研究"
+
+#. newsItems.turbine-three.title
+#: src/data/community.js:22
+msgctxt "text:newsItems.turbine-three.title"
+msgid "Kappa Engineering completes its third-generation low-head turbine"
+msgstr "河童工程院完成第三代低落差水輪"
+
+#. newsItems.turbine-three.summary
+#: src/data/community.js:23
+msgctxt "text:newsItems.turbine-three.summary"
+msgid ""
+"The new design needs only three maintenance tools and disengages "
+"automatically in heavy rain."
+msgstr "新機型只需三種工具維修，暴雨時會自行脫扣停機。"
+
+#. newsItems.archive-night.category
+#: src/data/community.js:28
+msgctxt "text:newsItems.archive-night.category"
+msgid "Library"
+msgstr "圖書"
+
+#. newsItems.archive-night.title
+#: src/data/community.js:29
+msgctxt "text:newsItems.archive-night.title"
+msgid "Hieda History Hall updates night-reading rules"
+msgstr "稗田史學館夜間閱覽規則更新"
+
+#. newsItems.archive-night.summary
+#: src/data/community.js:30
+msgctxt "text:newsItems.archive-night.summary"
+msgid ""
+"For three nights before the full moon, second-floor created-history records "
+"require booking; first-floor oral histories remain open."
+msgstr "滿月前三夜，二樓創造史料區改採預約制；一樓口述史仍照常開放。"
+
+#. newsItems.coexistence-lecture.category
+#: src/data/community.js:35
+msgctxt "text:newsItems.coexistence-lecture.category"
+msgid "Lecture"
+msgstr "講座"
+
+#. newsItems.coexistence-lecture.title
+#: src/data/community.js:36
+msgctxt "text:newsItems.coexistence-lecture.title"
+msgid "Registration opens for the 9th Human–Youkai Coexistence Lecture"
+msgstr "第九回人妖共生公開講座開始登記"
+
+#. newsItems.coexistence-lecture.summary
+#: src/data/community.js:37
+msgctxt "text:newsItems.coexistence-lecture.summary"
+msgid ""
+"This year asks whether public space equals consent to observation, with "
+"human, youkai, and fairy seating."
+msgstr "本屆討論『公共空間是否等於同意被觀察』，提供人類、妖怪與妖精席。"
+
+#. newsItems.moon-soba.category
+#: src/data/community.js:42
+msgctxt "text:newsItems.moon-soba.category"
+msgid "Dining"
+msgstr "食堂"
+
+#. newsItems.moon-soba.title
+#: src/data/community.js:43
+msgctxt "text:newsItems.moon-soba.title"
+msgid "Bamboo Moon Soba adds an egg-free version"
+msgstr "竹林月見麵追加無蛋版本"
+
+#. newsItems.moon-soba.summary
+#: src/data/community.js:44
+msgctxt "text:newsItems.moon-soba.summary"
+msgid "The lunar phase stays intact; yuzu jelly replaces the yolk, and the price drops by ¥20."
+msgstr "月相保持不變，蛋黃將由柚子凍替代；價格下調二十円。"
+
+#. newsItems.library-book.category
+#: src/data/community.js:49
+msgctxt "text:newsItems.library-book.category"
+msgid "Library"
+msgstr "圖書"
+
+#. newsItems.library-book.title
+#: src/data/community.js:50
+msgctxt "text:newsItems.library-book.title"
+msgid "North-wing shelf seven temporarily relocates to shelf nine"
+msgstr "北翼第七排書架暫時移至第九排"
+
+#. newsItems.library-book.summary
+#: src/data/community.js:51
+msgctxt "text:newsItems.library-book.summary"
+msgid ""
+"This is not construction. The shelf refuses its former position, and the "
+"library is negotiating return terms."
+msgstr "這不是施工。書架拒絕原位置，本館正與它協商返還條件。"
+
+#. newsItems.spell-lantern.category
+#: src/data/community.js:56
+msgctxt "text:newsItems.spell-lantern.category"
+msgid "Events"
+msgstr "活動"
+
+#. newsItems.spell-lantern.title
+#: src/data/community.js:57
+msgctxt "text:newsItems.spell-lantern.title"
+msgid "Spring Spell-card Festival seeks low-noise entries"
+msgstr "春季符卡燈會徵集低噪音作品"
+
+#. newsItems.spell-lantern.summary
+#: src/data/community.js:58
+msgctxt "text:newsItems.spell-lantern.summary"
+msgid ""
+"Refraction, reflection, and slow danmaku are encouraged. Sound must remain "
+"low enough for the Fairy Choir to continue."
+msgstr "鼓勵使用折射、反光與慢速彈幕；聲壓限制以妖精可繼續合唱為準。"
+
+#. newsItems.correction-award.category
+#: src/data/community.js:63
+msgctxt "text:newsItems.correction-award.category"
+msgid "News"
+msgstr "新聞"
+
+#. newsItems.correction-award.title
+#: src/data/community.js:64
+msgctxt "text:newsItems.correction-award.title"
+msgid "Voting opens for Bunbunmaru Campus News correction of the year"
+msgstr "《文文。校報》年度最佳訂正開始票選"
+
+#. newsItems.correction-award.summary
+#: src/data/community.js:65
+msgctxt "text:newsItems.correction-award.summary"
+msgid ""
+"Candidates are judged on correction size, publication speed, and whether "
+"they truly explain what went wrong."
+msgstr "候選稿件以修正幅度、公開速度與是否真的回答錯在哪裡評選。"
+
+#. newsItems.clinic-route.category
+#: src/data/community.js:70
+msgctxt "text:newsItems.clinic-route.category"
+msgid "Health"
+msgstr "醫療"
+
+#. newsItems.clinic-route.title
+#: src/data/community.js:71
+msgctxt "text:newsItems.clinic-route.title"
+msgid "Eientei Clinic opens a low-stimulus bamboo guidance route"
+msgstr "永遠亭診療所啟用低刺激竹林引導線"
+
+#. newsItems.clinic-route.summary
+#: src/data/community.js:72
+msgctxt "text:newsItems.clinic-route.summary"
+msgid "Full-moon mode slows the pulse and stores no visitor wavelength or ability data."
+msgstr "滿月模式降低閃爍頻率，不儲存訪客波長與能力資料。"
+
+#. newsItems.roof-berths.category
+#: src/data/community.js:77
+msgctxt "text:newsItems.roof-berths.category"
+msgid "Transit"
+msgstr "交通"
+
+#. newsItems.roof-berths.title
+#: src/data/community.js:78
+msgctxt "text:newsItems.roof-berths.title"
+msgid "Boundary Hall adds four large-wing roof berths"
+msgstr "境界講堂屋頂新增四席大型翅翼停泊位"
+
+#. newsItems.roof-berths.summary
+#: src/data/community.js:79
+msgctxt "text:newsItems.roof-berths.summary"
+msgid "The new berths use crosswind approach; brooms and small wings remain in the east zone."
+msgstr "新席位採側風進場；掃帚與小型翅翼仍使用東側舊區。"
+
+#. newsItems.fairy-audit.category
+#: src/data/community.js:84
+msgctxt "text:newsItems.fairy-audit.category"
+msgid "Campus"
+msgstr "校務"
+
+#. newsItems.fairy-audit.title
+#: src/data/community.js:85
+msgctxt "text:newsItems.fairy-audit.title"
+msgid "Fairy auditors may now check in with images"
+msgstr "妖精旁聽生可改用圖像簽到"
+
+#. newsItems.fairy-audit.summary
+#: src/data/community.js:86
+msgctxt "text:newsItems.fairy-audit.summary"
+msgid "The self-portrait need not be consistent; it only has to identify that day's course."
+msgstr "連續畫出同一個自己並非必要；能辨認當日課程即可。"
+
+#. newsItems.unknown-umbrella.category
+#: src/data/community.js:91
+msgctxt "text:newsItems.unknown-umbrella.category"
+msgid "Lost & Found"
+msgstr "失物"
+
+#. newsItems.unknown-umbrella.title
+#: src/data/community.js:92
+msgctxt "text:newsItems.unknown-umbrella.title"
+msgid "Hakurei Gate receives an umbrella insisting it is not lost"
+msgstr "博麗門失物處收到一把堅稱自己沒走失的傘"
+
+#. newsItems.unknown-umbrella.summary
+#: src/data/community.js:93
+msgctxt "text:newsItems.unknown-umbrella.summary"
+msgid ""
+"The umbrella refuses to describe its owner. Claimants must answer three "
+"questions only the umbrella knows."
+msgstr "傘目前拒絕描述持有人；認領者需先回答三個只有傘知道的問題。"
+
+#. newsItems.history-exam.category
+#: src/data/community.js:98
+msgctxt "text:newsItems.history-exam.category"
+msgid "Exams"
+msgstr "考試"
+
+#. newsItems.history-exam.title
+#: src/data/community.js:99
+msgctxt "text:newsItems.history-exam.title"
+msgid "History of Gensokyo open-book exam bans sources that have not happened yet"
+msgstr "幻想鄉通史開卷考禁止攜帶尚未發生的史料"
+
+#. newsItems.history-exam.summary
+#: src/data/community.js:100
+msgctxt "text:newsItems.history-exam.summary"
+msgid ""
+"Prophecy, dream journals, and reverse-flow river records require individual "
+"declaration and may not be slipped into reference books."
+msgstr "預言、夢記與倒流河段採個案申報，不得直接夾入參考書。"
+
+#. newsItems.observatory-cloud.category
+#: src/data/community.js:105
+msgctxt "text:newsItems.observatory-cloud.category"
+msgid "Research"
+msgstr "研究"
+
+#. newsItems.observatory-cloud.title
+#: src/data/community.js:106
+msgctxt "text:newsItems.observatory-cloud.title"
+msgid "Tengu Observatory publishes a cloud repeatedly appearing in photo corners"
+msgstr "天狗觀測所公開一朵反覆出現在照片角落的雲"
+
+#. newsItems.observatory-cloud.summary
+#: src/data/community.js:107
+msgctxt "text:newsItems.observatory-cloud.summary"
+msgid ""
+"There is no evidence it follows reporters. The cloud was invited to comment "
+"and did not reply before deadline."
+msgstr "目前尚無證據顯示它在追蹤記者；雲已受邀回應，截稿前未答覆。"
+
+#. newsItems.quiet-bell.category
+#: src/data/community.js:112
+msgctxt "text:newsItems.quiet-bell.category"
+msgid "Facilities"
+msgstr "設施"
+
+#. newsItems.quiet-bell.title
+#: src/data/community.js:113
+msgctxt "text:newsItems.quiet-bell.title"
+msgid "Campus bell trials an audible-only-to-latecomers mode"
+msgstr "校鐘試行只對遲到者可聞模式"
+
+#. newsItems.quiet-bell.summary
+#: src/data/community.js:114
+msgctxt "text:newsItems.quiet-bell.summary"
+msgid ""
+"Seven people claimed to be on time yet heard it on day one. The team is now "
+"redefining punctuality."
+msgstr "試行首日有七人聲稱準時卻聽見鐘聲，研究組已開始重新定義準時。"
+
+#. seededPosts.0.1
+#: src/data/community.js:119
+msgctxt "text:seededPosts.0.1"
+msgid "Student Council"
+msgstr "學生自治會"
+
+#. seededPosts.0.2
+#: src/data/community.js:119
+msgctxt "text:seededPosts.0.2"
+msgid "Temporary air-route and boundary-gate controls during the anniversary"
+msgstr "校慶期間空路與境界門臨時管制"
+
+#. seededPosts.0.3
+#: src/data/community.js:119
+msgctxt "text:seededPosts.0.3"
+msgid ""
+"After the sunset bell, airspace above Boundary Hall becomes one-way. Large "
+"wings should approach from Youkai Mountain."
+msgstr "日落鐘響後，境界講堂上空改為單向；大型翅翼請從妖怪山側進場。"
+
+#. seededPosts.1.1
+#: src/data/community.js:120
+msgctxt "text:seededPosts.1.1"
+msgid "Ordinary Magic Graduate"
+msgstr "普通的魔法研究生"
+
+#. seededPosts.1.2
+#: src/data/community.js:120
+msgctxt "text:seededPosts.1.2"
+msgid "Has anyone found a safe solution to Seven-Day Elemental Theory II assignment three?"
+msgstr "有人找到「七曜元素論 II」第三次作業的安全解嗎？"
+
+#. seededPosts.1.3
+#: src/data/community.js:120
+msgctxt "text:seededPosts.1.3"
+msgid ""
+"My wood element fired before metal and the desk grew scissors. Is that "
+"success or two incidents?"
+msgstr "我的木元素先於金元素啟動，現在桌子長出了一把剪刀。想確認這算成功還是兩個事故。"
+
+#. seededPosts.2.1
+#: src/data/community.js:121
+msgctxt "text:seededPosts.2.1"
+msgid "White Rabbit No. 27"
+msgstr "白兔 27 號"
+
+#. seededPosts.2.2
+#: src/data/community.js:121
+msgctxt "text:seededPosts.2.2"
+msgid "Bamboo Navigation recruitment: no guarantee of the same return route this week"
+msgstr "竹林定向部招新：本週不保證走同一條回程"
+
+#. seededPosts.2.3
+#: src/data/community.js:121
+msgctxt "text:seededPosts.2.3"
+msgid ""
+"Meet at the east bamboo gate. If you see the identical meeting point a "
+"second time, do not stop—that one is from last week."
+msgstr "集合點在竹林東口。看到第二個一模一樣的集合點時不要停，那是上週的。"
+
+#. seededPosts.3.1
+#: src/data/community.js:122
+msgctxt "text:seededPosts.3.1"
+msgid "Workshop North Seat"
+msgstr "工房北側座位"
+
+#. seededPosts.3.2
+#: src/data/community.js:122
+msgctxt "text:seededPosts.3.2"
+msgid "Trading unused waterproof talismans for a lunar-spec hex-key set"
+msgstr "交換未使用的防水符紙，求一組月面規格六角扳手"
+
+#. seededPosts.3.3
+#: src/data/community.js:122
+msgctxt "text:seededPosts.3.3"
+msgid ""
+"Two dozen talismans, never submerged, used in one rain trial. Inspection "
+"available at the Kappa Workshop."
+msgstr "符紙兩打，未落水，只做過一次暴雨測試。可在河童工房當面驗貨。"
+
+#. seededPosts.4.1
+#: src/data/community.js:123
+msgctxt "text:seededPosts.4.1"
+msgid "Anonymous Human Student"
+msgstr "匿名人類學生"
+
+#. seededPosts.4.2
+#: src/data/community.js:123
+msgctxt "text:seededPosts.4.2"
+msgid "Does Professor Keine take attendance—and does it enter history?"
+msgstr "慧音老師的史料批判課會點名嗎？會，而且會記進歷史嗎？"
+
+#. seededPosts.4.3
+#: src/data/community.js:123
+msgctxt "text:seededPosts.4.3"
+msgid ""
+"I was five minutes late. The roll omits me, but everyone remembers. Which "
+"source should I attach to an appeal?"
+msgstr "上週遲到五分鐘，點名冊沒有我，但下課後所有人都記得我遲到。請問申訴要附哪一份史料？"
+
+#. seededPosts.5.1
+#: src/data/community.js:124
+msgctxt "text:seededPosts.5.1"
+msgid "Misty Lake Librarian"
+msgstr "霧湖圖書館員"
+
+#. seededPosts.5.2
+#: src/data/community.js:124
+msgctxt "text:seededPosts.5.2"
+msgid "Please keep flying books away from open-window seats"
+msgstr "請不要把會飛的館藏帶到開窗座位"
+
+#. seededPosts.5.3
+#: src/data/community.js:124
+msgctxt "text:seededPosts.5.3"
+msgid ""
+"Three were recovered today; a fourth is negotiating with fairies over the "
+"lake. Returns lose no points. Self-capture earns five, but is discouraged."
+msgstr "今天已追回三冊，第四冊正在湖面與妖精談判。歸還不扣分，自行捕捉加五點但不建議。"
+
+#. seededPosts.6.1
+#: src/data/community.js:125
+msgctxt "text:seededPosts.6.1"
+msgid "Fairy Choir Alto-ish Section"
+msgstr "妖精合唱團低音部"
+
+#. seededPosts.6.2
+#: src/data/community.js:125
+msgctxt "text:seededPosts.6.2"
+msgid "Seeking anyone who remembers verse two; range irrelevant"
+msgstr "尋找能記住第二段的人，不限音域"
+
+#. seededPosts.6.3
+#: src/data/community.js:125
+msgctxt "text:seededPosts.6.3"
+msgid ""
+"If you only remember verse three, we can rename it verse two. Wednesday at "
+"the floating stage."
+msgstr "如果你只記得第三段也可以，我們可以把它改叫第二段。週三水上台見。"
+
+#. seededPosts.7.1
+#: src/data/community.js:126
+msgctxt "text:seededPosts.7.1"
+msgid "Outside World Exchange Student"
+msgstr "外界交換生"
+
+#. seededPosts.7.2
+#: src/data/community.js:126
+msgctxt "text:seededPosts.7.2"
+msgid "Seeking someone who can explain to a smartphone that no signal is not a fault"
+msgstr "求能替智慧型手機解釋沒有訊號不是故障的人"
+
+#. seededPosts.7.3
+#: src/data/community.js:126
+msgctxt "text:seededPosts.7.3"
+msgid ""
+"It restarts every ten minutes; the kappa says hardware is fine. Offering two "
+"bags of Outside World gummies."
+msgstr "它每隔十分鐘重啟一次，河童說硬體沒問題。可用兩包外界軟糖交換。"
+
+#. seededPosts.8.1
+#: src/data/community.js:127
+msgctxt "text:seededPosts.8.1"
+msgid "First-year Lunar Medicine"
+msgstr "月都醫藥一年生"
+
+#. seededPosts.8.2
+#: src/data/community.js:127
+msgctxt "text:seededPosts.8.2"
+msgid "Can informed consent for cross-species pharmacology be signed in a dream?"
+msgstr "跨種族藥理的知情同意表可以用夢境簽名嗎？"
+
+#. seededPosts.8.3
+#: src/data/community.js:127
+msgctxt "text:seededPosts.8.3"
+msgid ""
+"The participant remembers the form, but the signature is visible only under "
+"the pillow. Ethics review is tomorrow."
+msgstr "受試者醒來後記得內容，但簽名只在枕頭下面看得到。明天要交倫理審查。"
+
+#. seededPosts.9.1
+#: src/data/community.js:128
+msgctxt "text:seededPosts.9.1"
+msgid "Air Route Office"
+msgstr "空路管理室"
+
+#. seededPosts.9.2
+#: src/data/community.js:128
+msgctxt "text:seededPosts.9.2"
+msgid "Hovering directly above the campus bell is prohibited this week"
+msgstr "本週禁止在校鐘正上方懸停"
+
+#. seededPosts.9.3
+#: src/data/community.js:128
+msgctxt "text:seededPosts.9.3"
+msgid ""
+"Wing surfaces reflect the bell into the president's office. Shift at least "
+"twelve metres east."
+msgstr "鐘聲會被翅翼反射回校長室。請向東偏移至少十二公尺。"
+
+#. seededPosts.10.1
+#: src/data/community.js:129
+msgctxt "text:seededPosts.10.1"
+msgid "Tea & News Ethics Society"
+msgstr "茶與新聞倫理社"
+
+#. seededPosts.10.2
+#: src/data/community.js:129
+msgctxt "text:seededPosts.10.2"
+msgid "Reporters wanted for the wait-until-the-second-pot headline trial"
+msgstr "徵求『喝完第二壺才下標』實驗志願記者"
+
+#. seededPosts.10.3
+#: src/data/community.js:129
+msgctxt "text:seededPosts.10.3"
+msgid ""
+"Tea, deadline-extension certificates, and a control group that cannot resist "
+"writing after pot one are provided."
+msgstr "有茶、有截稿時間延長證明，也有在第一壺後忍不住下標的對照組。"
+
+#. seededPosts.11.1
+#: src/data/community.js:130
+msgctxt "text:seededPosts.11.1"
+msgid "Kourindou Auditor"
+msgstr "香霖堂旁聽生"
+
+#. seededPosts.11.2
+#: src/data/community.js:130
+msgctxt "text:seededPosts.11.2"
+msgid "Free: three cables with unknown destinations"
+msgstr "免費送出三條不知道接什麼的線"
+
+#. seededPosts.11.3
+#: src/data/community.js:130
+msgctxt "text:seededPosts.11.3"
+msgid ""
+"The institute says they are not fully forgotten and may develop a new use. "
+"Bring your own bag."
+msgstr "研究所判定它們尚未被完全遺忘，帶走可能觸發新用途。請自備袋子。"
+
+#. seededPosts.12.1
+#: src/data/community.js:131
+msgctxt "text:seededPosts.12.1"
+msgid "Second-year Boundary Studies"
+msgstr "結界研究二年生"
+
+#. seededPosts.12.2
+#: src/data/community.js:131
+msgctxt "text:seededPosts.12.2"
+msgid "If the assignment leaves the paper, is it late?"
+msgstr "作業題目離開作業紙算遲交嗎？"
+
+#. seededPosts.12.3
+#: src/data/community.js:131
+msgctxt "text:seededPosts.12.3"
+msgid ""
+"The question is currently between the front and back of the sheet. The TA "
+"says it is on-page; the lecturer says it is out of view."
+msgstr "題目現在在紙張背面和正面之間。助教說仍在頁內，老師說不在可見範圍。"
+
+#. seededPosts.13.1
+#: src/data/community.js:132
+msgctxt "text:seededPosts.13.1"
+msgid "South Dining Hall"
+msgstr "南食堂"
+
+#. seededPosts.13.2
+#: src/data/community.js:132
+msgctxt "text:seededPosts.13.2"
+msgid "The gear-cut lotus in Kappa Curry is not a spare part"
+msgstr "河童工房咖哩的齒輪蓮藕不是備用零件"
+
+#. seededPosts.13.3
+#: src/data/community.js:132
+msgctxt "text:seededPosts.13.3"
+msgid "Two slices reached the workshop today. They are suitable for eating, not torque."
+msgstr "今天已有兩片被帶往工房。它們適合食用，不適合承受扭矩。"
+
+#. seededPosts.14.1
+#: src/data/community.js:133
+msgctxt "text:seededPosts.14.1"
+msgid "Unidentified Flying Object Society"
+msgstr "不明飛行物觀測會"
+
+#. seededPosts.14.2
+#: src/data/community.js:133
+msgctxt "text:seededPosts.14.2"
+msgid "Last night's disc confirmed as a plate; the plate is still flying"
+msgstr "昨晚的圓盤已確認是餐盤；但餐盤仍在飛"
+
+#. seededPosts.14.3
+#: src/data/community.js:133
+msgctxt "text:seededPosts.14.3"
+msgid ""
+"Classification changed from unidentified flying object to unidentified "
+"flight of an identified object. Tracking continues tonight."
+msgstr "分類已從『不明飛行物』改為『已知物體的不明飛行』。今晚繼續追蹤。"
+
+#. seededPosts.15.1
+#: src/data/community.js:134
+msgctxt "text:seededPosts.15.1"
+msgid "First-year Tengu Journalism"
+msgstr "天狗新聞一年生"
+
+#. seededPosts.15.2
+#: src/data/community.js:134
+msgctxt "text:seededPosts.15.2"
+msgid "If my source is faster than me, do they still need anonymity?"
+msgstr "如果消息來源比我快，還需要保護匿名嗎？"
+
+#. seededPosts.15.3
+#: src/data/community.js:134
+msgctxt "text:seededPosts.15.3"
+msgid ""
+"The source flew in front of every interviewee but asked me not to name them. "
+"Photography Ethics did not cover this."
+msgstr "來源已經自己飛到所有受訪者面前，但要求我不要寫名字。攝影倫理課沒教這題。"
+
+#. seededPosts.16.1
+#: src/data/community.js:135
+msgctxt "text:seededPosts.16.1"
+msgid "Scarlet Mansion Exchange Desk"
+msgstr "紅魔館交換席"
+
+#. seededPosts.16.2
+#: src/data/community.js:135
+msgctxt "text:seededPosts.16.2"
+msgid "Loaning a reference book that does not bite; deposit is a bookmark that does"
+msgstr "借出不會咬人的參考書，押金是一個會咬人的書籤"
+
+#. seededPosts.16.3
+#: src/data/community.js:135
+msgctxt "text:seededPosts.16.3"
+msgid ""
+"Three-day loan. The bookmark bites only when overdue, so it is theoretically "
+"completely safe."
+msgstr "期限三天。書籤只在逾期時咬人，所以理論上完全安全。"
+
+#. seededPosts.17.1
+#: src/data/community.js:136
+msgctxt "text:seededPosts.17.1"
+msgid "Eientei Clinic"
+msgstr "永遠亭診療所"
+
+#. seededPosts.17.2
+#: src/data/community.js:136
+msgctxt "text:seededPosts.17.2"
+msgid "Do not test whether you will be anxious before the full-moon clinic"
+msgstr "滿月門診請勿提前測試自己會不會緊張"
+
+#. seededPosts.17.3
+#: src/data/community.js:136
+msgctxt "text:seededPosts.17.3"
+msgid ""
+"Repeatedly imagining the bamboo maze changes the baseline. Eat and sleep "
+"normally; save getting lost for the trial."
+msgstr "反覆想像竹林迷路會影響基線。照常吃飯、睡覺，迷路留給正式測試。"

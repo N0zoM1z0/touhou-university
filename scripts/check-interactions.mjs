@@ -1,3 +1,4 @@
+import { outputRoot } from "./build/paths.mjs";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -24,7 +25,7 @@ for (const { file, source } of sectionSources) {
 
 const builtPages = site.pages.map((page) => page.output);
 for (const file of builtPages) {
-  const source = await readFile(path.join(root, file), "utf8");
+  const source = await readFile(path.join(outputRoot, file), "utf8");
   if (/<a\b[^>]*href\s*=\s*["'](?:|#)["']/i.test(source)) {
     failures.push(`${file}: empty placeholder link remains in a built page.`);
   }

@@ -1,0 +1,322 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. postSourceKinds.registrar
+#: src/data/post.js:4
+msgctxt "text:postSourceKinds.registrar"
+msgid "Registrar seal"
+msgstr "Registrar seal"
+
+#. postSourceKinds.professor
+#: src/data/post.js:5
+msgctxt "text:postSourceKinds.professor"
+msgid "Faculty note"
+msgstr "Faculty note"
+
+#. postSourceKinds.tengu
+#: src/data/post.js:6
+msgctxt "text:postSourceKinds.tengu"
+msgid "Crow-tengu express"
+msgstr "Crow-tengu express"
+
+#. postSourceKinds.bulletin
+#: src/data/post.js:7
+msgctxt "text:postSourceKinds.bulletin"
+msgid "Wooden notice"
+msgstr "Wooden notice"
+
+#. postSourceKinds.object
+#: src/data/post.js:8
+msgctxt "text:postSourceKinds.object"
+msgid "Object self-delivery"
+msgstr "Object self-delivery"
+
+#. postSourceKinds.system
+#: src/data/post.js:9
+msgctxt "text:postSourceKinds.system"
+msgid "Campus-event projection"
+msgstr "Campus-event projection"
+
+#. postTrustLabels.sealed
+#: src/data/post.js:13
+msgctxt "text:postTrustLabels.sealed"
+msgid "Traceable seal"
+msgstr "Traceable seal"
+
+#. postTrustLabels.witnessed
+#: src/data/post.js:14
+msgctxt "text:postTrustLabels.witnessed"
+msgid "Named witness"
+msgstr "Named witness"
+
+#. postTrustLabels.contested
+#: src/data/post.js:15
+msgctxt "text:postTrustLabels.contested"
+msgid "Sources dispute one another"
+msgstr "Sources dispute one another"
+
+#. postTrustLabels.rumour
+#: src/data/post.js:16
+msgctxt "text:postTrustLabels.rumour"
+msgid "Only one envelope above rumour"
+msgstr "Only one envelope above rumour"
+
+#. postSeedMessages.admission-before-application.source
+#: src/data/post.js:23
+msgctxt "text:postSeedMessages.admission-before-application.source"
+msgid "Admissions · Joint Faculty Review"
+msgstr "Admissions · Joint Faculty Review"
+
+#. postSeedMessages.admission-before-application.subject
+#: src/data/post.js:27
+msgctxt "text:postSeedMessages.admission-before-application.subject"
+msgid "Conditional offer (awaiting your application)"
+msgstr "Conditional offer (awaiting your application)"
+
+#. postSeedMessages.admission-before-application.body
+#: src/data/post.js:28
+msgctxt "text:postSeedMessages.admission-before-application.body"
+msgid ""
+"The faculty has already read a study plan you have not submitted. File the "
+"original within seven days; if they differ, the more interesting traceable "
+"version prevails."
+msgstr ""
+"The faculty has already read a study plan you have not submitted. File the "
+"original within seven days; if they differ, the more interesting traceable "
+"version prevails."
+
+#. postSeedMessages.admission-before-application.correction
+#: src/data/post.js:31
+msgctxt "text:postSeedMessages.admission-before-application.correction"
+msgid "v1 placed “conditional” on the back; v2 restores it to the subject."
+msgstr "v1 placed “conditional” on the back; v2 restores it to the subject."
+
+#. postSeedMessages.cancel-after-makeup.source
+#: src/data/post.js:37
+msgctxt "text:postSeedMessages.cancel-after-makeup.source"
+msgid "Boundary Hall Exams Desk"
+msgstr "Boundary Hall Exams Desk"
+
+#. postSeedMessages.cancel-after-makeup.subject
+#: src/data/post.js:41
+msgctxt "text:postSeedMessages.cancel-after-makeup.subject"
+msgid "Make-up cancelled — it concluded yesterday"
+msgstr "Make-up cancelled — it concluded yesterday"
+
+#. postSeedMessages.cancel-after-makeup.body
+#: src/data/post.js:42
+msgctxt "text:postSeedMessages.cancel-after-makeup.body"
+msgid ""
+"This notice cancels yesterday’s 15:00 make-up. Those who finished need not "
+"answer backwards; others may apply for the Not-Yet-Happened room."
+msgstr ""
+"This notice cancels yesterday’s 15:00 make-up. Those who finished need not "
+"answer backwards; others may apply for the Not-Yet-Happened room."
+
+#. postSeedMessages.cancel-after-makeup.correction
+#: src/data/post.js:45
+msgctxt "text:postSeedMessages.cancel-after-makeup.correction"
+msgid "Aya's extra printed “cancel” as “cover”; Exams refuses to treat them as the same verb."
+msgstr "Aya's extra printed “cancel” as “cover”; Exams refuses to treat them as the same verb."
+
+#. postSeedMessages.aya-extra-previews-letter.source
+#: src/data/post.js:51
+msgctxt "text:postSeedMessages.aya-extra-previews-letter.source"
+msgid "Bunbunmaru Campus Extra"
+msgstr "Bunbunmaru Campus Extra"
+
+#. postSeedMessages.aya-extra-previews-letter.subject
+#: src/data/post.js:55
+msgctxt "text:postSeedMessages.aya-extra-previews-letter.subject"
+msgid "Exclusive: next paragraph denies this headline"
+msgstr "Exclusive: next paragraph denies this headline"
+
+#. postSeedMessages.aya-extra-previews-letter.body
+#: src/data/post.js:56
+msgctxt "text:postSeedMessages.aya-extra-previews-letter.body"
+msgid ""
+"A reliable source (the reporter) says the university will issue a notice in "
+"nine minutes denying this paper knew it early. Read tomorrow's correction "
+"first."
+msgstr ""
+"A reliable source (the reporter) says the university will issue a notice in "
+"nine minutes denying this paper knew it early. Read tomorrow's correction "
+"first."
+
+#. postSeedMessages.aya-extra-previews-letter.correction
+#: src/data/post.js:59
+msgctxt "text:postSeedMessages.aya-extra-previews-letter.correction"
+msgid "v4 said “unanimous”; v5 adds a tiny asterisk beside three objections."
+msgstr "v4 said “unanimous”; v5 adds a tiny asterisk beside three objections."
+
+#. postSeedMessages.library-read-aloud.source
+#: src/data/post.js:65
+msgctxt "text:postSeedMessages.library-read-aloud.source"
+msgid "Misty Lake Library North Wing"
+msgstr "Misty Lake Library North Wing"
+
+#. postSeedMessages.library-read-aloud.subject
+#: src/data/post.js:69
+msgctxt "text:postSeedMessages.library-read-aloud.subject"
+msgid "Due notice: “read” does not mean read the whole letter aloud"
+msgstr "Due notice: “read” does not mean read the whole letter aloud"
+
+#. postSeedMessages.library-read-aloud.body
+#: src/data/post.js:70
+msgctxt "text:postSeedMessages.library-read-aloud.body"
+msgid ""
+"A fairy courier read seven private recall letters aloud in the reading room. "
+"Henceforth “read” means opened; singing remains public performance."
+msgstr ""
+"A fairy courier read seven private recall letters aloud in the reading room. "
+"Henceforth “read” means opened; singing remains public performance."
+
+#. postSeedMessages.clinic-moon-dose.source
+#: src/data/post.js:79
+msgctxt "text:postSeedMessages.clinic-moon-dose.source"
+msgid "Eientei University Hospital"
+msgstr "Eientei University Hospital"
+
+#. postSeedMessages.clinic-moon-dose.subject
+#: src/data/post.js:83
+msgctxt "text:postSeedMessages.clinic-moon-dose.subject"
+msgid "Full-moon dose correction: use the moon’s arrival"
+msgstr "Full-moon dose correction: use the moon’s arrival"
+
+#. postSeedMessages.clinic-moon-dose.body
+#: src/data/post.js:84
+msgctxt "text:postSeedMessages.clinic-moon-dose.body"
+msgid ""
+"Campus bells differ from lunar time by twelve minutes. “After full moon” "
+"means when the moon clears bamboo, not Bunbunmaru publication time."
+msgstr ""
+"Campus bells differ from lunar time by twelve minutes. “After full moon” "
+"means when the moon clears bamboo, not Bunbunmaru publication time."
+
+#. postSeedMessages.clinic-moon-dose.correction
+#: src/data/post.js:87
+msgctxt "text:postSeedMessages.clinic-moon-dose.correction"
+msgid "v3 used campus bells; v4 uses lunar time. Do not return already swallowed medicine."
+msgstr "v3 used campus bells; v4 uses lunar time. Do not return already swallowed medicine."
+
+#. postSeedMessages.housing-window-claim.source
+#: src/data/post.js:93
+msgctxt "text:postSeedMessages.housing-window-claim.source"
+msgid "Residence Night Desk"
+msgstr "Residence Night Desk"
+
+#. postSeedMessages.housing-window-claim.subject
+#: src/data/post.js:97
+msgctxt "text:postSeedMessages.housing-window-claim.subject"
+msgid "Room transfer paused: the room filed to change its resident first"
+msgstr "Room transfer paused: the room filed to change its resident first"
+
+#. postSeedMessages.housing-window-claim.body
+#: src/data/post.js:98
+msgctxt "text:postSeedMessages.housing-window-claim.body"
+msgid ""
+"West Wing W-09's latch walked to Property Arbitration. The room rejects a "
+"new resident without it; the latch says the room never closed properly."
+msgstr ""
+"West Wing W-09's latch walked to Property Arbitration. The room rejects a "
+"new resident without it; the latch says the room never closed properly."
+
+#. postSeedMessages.housing-window-claim.correction
+#: src/data/post.js:101
+msgctxt "text:postSeedMessages.housing-window-claim.correction"
+msgid "The draft named W-06; W-06 wants it retained because it also wants a new resident."
+msgstr "The draft named W-06; W-06 wants it retained because it also wants a new resident."
+
+#. postSeedMessages.festival-gate-three.source
+#: src/data/post.js:107
+msgctxt "text:postSeedMessages.festival-gate-three.source"
+msgid "Boundary Festival Six-Desk Notice"
+msgstr "Boundary Festival Six-Desk Notice"
+
+#. postSeedMessages.festival-gate-three.subject
+#: src/data/post.js:111
+msgctxt "text:postSeedMessages.festival-gate-three.subject"
+msgid "Sole Main Gate notice (three gates attached)"
+msgstr "Sole Main Gate notice (three gates attached)"
+
+#. postSeedMessages.festival-gate-three.body
+#: src/data/post.js:112
+msgctxt "text:postSeedMessages.festival-gate-three.body"
+msgid ""
+"Hakurei Gate, Myouren Reception Gate, and Moriya Windway may all display "
+"“Sole Main Gate”. Choose by flight ability, faith, and fear of hills."
+msgstr ""
+"Hakurei Gate, Myouren Reception Gate, and Moriya Windway may all display "
+"“Sole Main Gate”. Choose by flight ability, faith, and fear of hills."
+
+#. postSeedMessages.festival-gate-three.correction
+#: src/data/post.js:115
+msgctxt "text:postSeedMessages.festival-gate-three.correction"
+msgid "v5 had two gates; Yukari drew a boundary between versions."
+msgstr "v5 had two gates; Yukari drew a boundary between versions."
+
+#. postSeedMessages.object-delivered-itself.source
+#: src/data/post.js:121
+msgctxt "text:postSeedMessages.object-delivered-itself.source"
+msgid "An envelope with no sender"
+msgstr "An envelope with no sender"
+
+#. postSeedMessages.object-delivered-itself.subject
+#: src/data/post.js:125
+msgctxt "text:postSeedMessages.object-delivered-itself.subject"
+msgid "Lost Property Office missing notice"
+msgstr "Lost Property Office missing notice"
+
+#. postSeedMessages.object-delivered-itself.body
+#: src/data/post.js:126
+msgctxt "text:postSeedMessages.object-delivered-itself.body"
+msgid ""
+"This envelope accuses Lost Property of losing itself in the organisation "
+"chart. Deliver this if found; the office will certify that you found "
+"yourself too."
+msgstr ""
+"This envelope accuses Lost Property of losing itself in the organisation "
+"chart. Deliver this if found; the office will certify that you found "
+"yourself too."
+
+#. postDeliveryChannels.tengu-express.name
+#: src/data/post.js:138
+msgctxt "text:postDeliveryChannels.tengu-express.name"
+msgid "Crow-Tengu Express"
+msgstr "Crow-Tengu Express"
+
+#. postDeliveryChannels.tengu-express.speed
+#: src/data/post.js:139
+msgctxt "text:postDeliveryChannels.tengu-express.speed"
+msgid "Fastest; may precede its contents"
+msgstr "Fastest; may precede its contents"
+
+#. postDeliveryChannels.fairy-rounds.name
+#: src/data/post.js:144
+msgctxt "text:postDeliveryChannels.fairy-rounds.name"
+msgid "Fairy Campus Rounds"
+msgstr "Fairy Campus Rounds"
+
+#. postDeliveryChannels.fairy-rounds.speed
+#: src/data/post.js:145
+msgctxt "text:postDeliveryChannels.fairy-rounds.speed"
+msgid "Delivers to the most interesting recipient"
+msgstr "Delivers to the most interesting recipient"
+
+#. postDeliveryChannels.wooden-board.name
+#: src/data/post.js:150
+msgctxt "text:postDeliveryChannels.wooden-board.name"
+msgid "Wooden-board posting"
+msgstr "Wooden-board posting"
+
+#. postDeliveryChannels.wooden-board.speed
+#: src/data/post.js:151
+msgctxt "text:postDeliveryChannels.wooden-board.speed"
+msgid "Slowest; credibility wrinkles after rain"
+msgstr "Slowest; credibility wrinkles after rain"

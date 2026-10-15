@@ -1,0 +1,38 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/0
+#: src/js/campus.js:36
+msgctxt "tree:copy#/0"
+msgid "Focus"
+msgstr "研究／活動方向"
+
+#. copy/1
+#: src/js/campus.js:36
+msgctxt "tree:copy#/1"
+msgid "Meeting"
+msgstr "例會"
+
+#. copy/2
+#: src/js/campus.js:36
+msgctxt "tree:copy#/2"
+msgid "Members"
+msgstr "登記成員"
+
+#. copy/3
+#: src/js/campus.js:36
+msgctxt "tree:copy#/3"
+msgid "This term"
+msgstr "本學期企劃"
+
+#. copy/4
+#: src/js/campus.js:36
+msgctxt "tree:copy#/4"
+msgid "Find members on BBS"
+msgstr "到 BBS 找成員"

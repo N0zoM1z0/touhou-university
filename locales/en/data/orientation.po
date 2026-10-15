@@ -1,0 +1,192 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. orientationSeason.0.window
+#: src/data/orientation.js:6
+msgctxt "text:orientationSeason.0.window"
+msgid "11–18 October"
+msgstr "11–18 October"
+
+#. orientationSeason.0.title
+#: src/data/orientation.js:7
+msgctxt "text:orientationSeason.0.title"
+msgid "First Bell · New Student Arrival Week"
+msgstr "First Bell · New Student Arrival Week"
+
+#. orientationSeason.0.premise
+#: src/data/orientation.js:8
+msgctxt "text:orientationSeason.0.premise"
+msgid ""
+"Admission means the university will let you in. Arrival means knowing the "
+"gate, the way back, and the people with whom you will share campus."
+msgstr ""
+"Admission means the university will let you in. Arrival means knowing the "
+"gate, the way back, and the people with whom you will share campus."
+
+#. orientationStopSignals.0.wood-bell.name
+#: src/data/orientation.js:25
+msgctxt "text:orientationStopSignals.0.wood-bell.name"
+msgid "Three wooden bells"
+msgstr "Three wooden bells"
+
+#. orientationStopSignals.0.wood-bell.detail
+#: src/data/orientation.js:26
+msgctxt "text:orientationStopSignals.0.wood-bell.detail"
+msgid ""
+"Stop at the first bell, find the nearest vermilion cord at the second, and "
+"move only on the third. Do not choose this if you cannot reliably hear it."
+msgstr ""
+"Stop at the first bell, find the nearest vermilion cord at the second, and "
+"move only on the third. Do not choose this if you cannot reliably hear it."
+
+#. orientationStopSignals.0.red-white-lamps.name
+#: src/data/orientation.js:31
+msgctxt "text:orientationStopSignals.0.red-white-lamps.name"
+msgid "Red-and-white exit lamps"
+msgstr "Red-and-white exit lamps"
+
+#. orientationStopSignals.0.red-white-lamps.detail
+#: src/data/orientation.js:32
+msgctxt "text:orientationStopSignals.0.red-white-lamps.detail"
+msgid ""
+"Red closes the original route; white lights advance along a passable "
+"boundary. The lamp bases also pulse when colour is not a usable cue."
+msgstr ""
+"Red closes the original route; white lights advance along a passable "
+"boundary. The lamp bases also pulse when colour is not a usable cue."
+
+#. orientationStopSignals.0.paired-cord.name
+#: src/data/orientation.js:37
+msgctxt "text:orientationStopSignals.0.paired-cord.name"
+msgid "Paired vermilion cord"
+msgstr "Paired vermilion cord"
+
+#. orientationStopSignals.0.paired-cord.detail
+#: src/data/orientation.js:38
+msgctxt "text:orientationStopSignals.0.paired-cord.detail"
+msgid ""
+"Each person holds one end and the route changes only after both answer. The "
+"cord preserves contact; it does not decide for either person."
+msgstr ""
+"Each person holds one end and the route changes only after both answer. The "
+"cord preserves contact; it does not decide for either person."
+
+#. orientationNoticePlans.0.archive-board.name
+#: src/data/orientation.js:46
+msgctxt "text:orientationNoticePlans.0.archive-board.name"
+msgid "Notice board + Hieda copy"
+msgstr "Notice board + Hieda copy"
+
+#. orientationNoticePlans.0.archive-board.detail
+#: src/data/orientation.js:47
+msgctxt "text:orientationNoticePlans.0.archive-board.detail"
+msgid ""
+"For anyone passing Hakurei Gate each day. The board may be replaced; the "
+"previous version remains at the archive."
+msgstr ""
+"For anyone passing Hakurei Gate each day. The board may be replaced; the "
+"previous version remains at the archive."
+
+#. orientationNoticePlans.0.tengu-correction.name
+#: src/data/orientation.js:52
+msgctxt "text:orientationNoticePlans.0.tengu-correction.name"
+msgid "Tengu post + public correction"
+msgstr "Tengu post + public correction"
+
+#. orientationNoticePlans.0.tengu-correction.detail
+#: src/data/orientation.js:53
+msgctxt "text:orientationNoticePlans.0.tengu-correction.detail"
+msgid ""
+"Fastest, and therefore capable of arriving before the decision. Every "
+"edition retains its time and correction trail."
+msgstr ""
+"Fastest, and therefore capable of arriving before the decision. Every "
+"edition retains its time and correction trail."
+
+#. orientationNoticePlans.0.named-buddy.name
+#: src/data/orientation.js:58
+msgctxt "text:orientationNoticePlans.0.named-buddy.name"
+msgid "Named companion + personal check"
+msgstr "Named companion + personal check"
+
+#. orientationNoticePlans.0.named-buddy.detail
+#: src/data/orientation.js:59
+msgctxt "text:orientationNoticePlans.0.named-buddy.detail"
+msgid ""
+"A companion may relay a detour, but you make the final confirmation. "
+"Mind-reading still does not count as your reply."
+msgstr ""
+"A companion may relay a detour, but you make the final confirmation. "
+"Mind-reading still does not count as your reply."
+
+#. orientationFirstStops.0.first-course.name
+#: src/data/orientation.js:68
+msgctxt "text:orientationFirstStops.0.first-course.name"
+msgid "Put the first course into your life"
+msgstr "Put the first course into your life"
+
+#. orientationFirstStops.0.first-course.detail
+#: src/data/orientation.js:69
+msgctxt "text:orientationFirstStops.0.first-course.detail"
+msgid ""
+"Choose the course first; room, lunar phase, and non-ordinary clashes still "
+"need checking on the timetable."
+msgstr ""
+"Choose the course first; room, lunar phase, and non-ordinary clashes still "
+"need checking on the timetable."
+
+#. orientationFirstStops.0.first-room.name
+#: src/data/orientation.js:75
+msgctxt "text:orientationFirstStops.0.first-room.name"
+msgid "State the terms of living together"
+msgstr "State the terms of living together"
+
+#. orientationFirstStops.0.first-room.detail
+#: src/data/orientation.js:76
+msgctxt "text:orientationFirstStops.0.first-room.detail"
+msgid ""
+"A suitable room is not trouble-free; it makes lunar, wingspan, water, "
+"phasing, and schedule needs visible early."
+msgstr ""
+"A suitable room is not trouble-free; it makes lunar, wingspan, water, "
+"phasing, and schedule needs visible early."
+
+#. orientationFirstStops.0.first-club.name
+#: src/data/orientation.js:82
+msgctxt "text:orientationFirstStops.0.first-club.name"
+msgid "Hear Four Seasons at Once"
+msgstr "Hear Four Seasons at Once"
+
+#. orientationFirstStops.0.first-club.detail
+#: src/data/orientation.js:83
+msgctxt "text:orientationFirstStops.0.first-club.detail"
+msgid ""
+"The Fairy Choir lets a singer re-enter after forgetting a phrase. Every "
+"other society also keeps one rule it will not waive for recruitment."
+msgstr ""
+"The Fairy Choir lets a singer re-enter after forgetting a phrase. Every "
+"other society also keeps one rule it will not waive for recruitment."
+
+#. orientationFirstStops.0.first-gate.name
+#: src/data/orientation.js:89
+msgctxt "text:orientationFirstStops.0.first-gate.name"
+msgid "Watch three sole main gates open"
+msgstr "Watch three sole main gates open"
+
+#. orientationFirstStops.0.first-gate.detail
+#: src/data/orientation.js:90
+msgctxt "text:orientationFirstStops.0.first-gate.detail"
+msgid ""
+"The operations room will not let a newcomer sign for six desks. You may "
+"still learn who disputes the gate and who is responsible for getting people "
+"home."
+msgstr ""
+"The operations room will not let a newcomer sign for six desks. You may "
+"still learn who disputes the gate and who is responsible for getting people "
+"home."

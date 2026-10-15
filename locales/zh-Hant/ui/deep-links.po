@@ -1,0 +1,20 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. shareCopy/0
+#: src/js/deep-links.js:12
+msgctxt "tree:shareCopy#/0"
+msgid "Copy link to this page"
+msgstr "複製此頁連結"
+
+#. shareCopy/1
+#: src/js/deep-links.js:12
+msgctxt "tree:shareCopy#/1"
+msgid "Link copied. This view can now be shared directly."
+msgstr "連結已複製，可以直接分享這一頁。"

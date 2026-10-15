@@ -1,0 +1,52 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/open
+#: src/js/friction.js:8
+msgctxt "tree:copy#/open"
+msgid "Open case file"
+msgstr "打開案卷"
+
+#. copy/course
+#: src/js/friction.js:8
+msgctxt "tree:copy#/course"
+msgid "Course this term"
+msgstr "本學期課程"
+
+#. copy/friction
+#: src/js/friction.js:8
+msgctxt "tree:copy#/friction"
+msgid "Current friction"
+msgstr "目前衝突"
+
+#. copy/office
+#: src/js/friction.js:8
+msgctxt "tree:copy#/office"
+msgid "Council seat"
+msgstr "所屬議席"
+
+#. copy/officeValue
+#: src/js/friction.js:8
+msgctxt "tree:copy#/officeValue"
+msgid "Faith & Coexistence Policy · Temporary Meeting Room"
+msgstr "信仰與共生政策學院・臨時會議室"
+
+#. copy/review
+#: src/js/friction.js:8
+msgctxt "tree:copy#/review"
+msgid "External appeals review"
+msgstr "校外申訴審查"
+
+#. copy/imageAlt
+#: src/js/friction.js:8
+msgctxt "tree:copy#/imageAlt"
+msgid ""
+"Byakuren, Kanako, Miko, and Sanae argue over a festival resource map in a "
+"shabby meeting room"
+msgstr "聖白蓮、八坂神奈子、豐聰耳神子與東風谷早苗在破舊會議室裡爭論祭典資源圖"

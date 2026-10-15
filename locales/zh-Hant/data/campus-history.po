@@ -1,0 +1,1827 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. campusHistoryCategories.foundation
+#: src/data/campus-history.js:4
+msgctxt "text:campusHistoryCategories.foundation"
+msgid "Founding"
+msgstr "創校"
+
+#. campusHistoryCategories.access
+#: src/data/campus-history.js:5
+msgctxt "text:campusHistoryCategories.access"
+msgid "Access"
+msgstr "校務"
+
+#. campusHistoryCategories.campus
+#: src/data/campus-history.js:6
+msgctxt "text:campusHistoryCategories.campus"
+msgid "Campus"
+msgstr "校園"
+
+#. campusHistoryCategories.academics
+#: src/data/campus-history.js:7
+msgctxt "text:campusHistoryCategories.academics"
+msgid "Academics"
+msgstr "學術"
+
+#. campusHistoryCategories.archive
+#: src/data/campus-history.js:8
+msgctxt "text:campusHistoryCategories.archive"
+msgid "Records"
+msgstr "檔案"
+
+#. campusHistoryCategories.friction
+#: src/data/campus-history.js:9
+msgctxt "text:campusHistoryCategories.friction"
+msgid "Friction"
+msgstr "爭議"
+
+#. campusHistoryCategories.examinations
+#: src/data/campus-history.js:10
+msgctxt "text:campusHistoryCategories.examinations"
+msgid "Examinations"
+msgstr "試驗"
+
+#. campusHistoryCategories.correction
+#: src/data/campus-history.js:11
+msgctxt "text:campusHistoryCategories.correction"
+msgid "Correction"
+msgstr "訂正"
+
+#. campusHistoryCategories.registry
+#: src/data/campus-history.js:12
+msgctxt "text:campusHistoryCategories.registry"
+msgid "Registry"
+msgstr "學籍"
+
+#. campusHistoryCategories.boundary
+#: src/data/campus-history.js:13
+msgctxt "text:campusHistoryCategories.boundary"
+msgid "Boundary"
+msgstr "邊界"
+
+#. campusHistoryCategories.chronicle
+#: src/data/campus-history.js:14
+msgctxt "text:campusHistoryCategories.chronicle"
+msgid "Chronicle"
+msgstr "校史"
+
+#. campusHistoryCategories.library
+#: src/data/campus-history.js:15
+msgctxt "text:campusHistoryCategories.library"
+msgid "Library"
+msgstr "圖書館"
+
+#. campusHistoryCategories.incidents
+#: src/data/campus-history.js:16
+msgctxt "text:campusHistoryCategories.incidents"
+msgid "Incidents"
+msgstr "事件"
+
+#. campusHistoryCategories.medicine
+#: src/data/campus-history.js:17
+msgctxt "text:campusHistoryCategories.medicine"
+msgid "Medicine"
+msgstr "醫療"
+
+#. campusHistory.signboard-before-dawn.era
+#: src/data/campus-history.js:28
+msgctxt "text:campusHistory.signboard-before-dawn.era"
+msgid "Gensokyo 142 · Seventh Moon · Before Dawn"
+msgstr "幻想曆一四二年・文月・黎明前"
+
+#. campusHistory.signboard-before-dawn.title
+#: src/data/campus-history.js:29
+msgctxt "text:campusHistory.signboard-before-dawn.title"
+msgid "A sign reading “University” appears beside the torii"
+msgstr "鳥居旁多出一塊寫著「大學」的牌子"
+
+#. campusHistory.signboard-before-dawn.summary
+#: src/data/campus-history.js:30
+msgctxt "text:campusHistory.signboard-before-dawn.summary"
+msgid ""
+"The first campus held an admissions desk, seven school charters that did not "
+"yet recognise one another, and Reimu’s donation box temporarily serving as a "
+"seal stand. The university dates its founding here, although nobody admits "
+"to conducting the groundbreaking."
+msgstr "最早的校舍只有招生桌、七份尚未互相承認的學院章程，以及一只被臨時借來當公章墊的博麗捐款箱。校方仍以此日為創校，儘管沒有人承認自己主持過動土。"
+
+#. campusHistory.signboard-before-dawn.marginalia
+#: src/data/campus-history.js:31
+msgctxt "text:campusHistory.signboard-before-dawn.marginalia"
+msgid ""
+"Reimu’s note: the sign may stay; return the donation box. The next day only "
+"the board beneath it came back."
+msgstr "靈夢補記：牌子可以留下，捐款箱要還。翌日只還了墊在下面的木板。"
+
+#. campusHistory.three-language-gate.era
+#: src/data/campus-history.js:40
+msgctxt "text:campusHistory.three-language-gate.era"
+msgid "Same day · First Bell"
+msgstr "同日・第一校鐘"
+
+#. campusHistory.three-language-gate.title
+#: src/data/campus-history.js:41
+msgctxt "text:campusHistory.three-language-gate.title"
+msgid "Three languages take effect at the same campus gate"
+msgstr "三種語言在同一扇校門上同時生效"
+
+#. campusHistory.three-language-gate.summary
+#: src/data/campus-history.js:42
+msgctxt "text:campusHistory.three-language-gate.summary"
+msgid ""
+"Campus services, admissions rules, and research files begin operating in "
+"Chinese, Japanese, and English. Yukari calls them three sides of one notice; "
+"the translation office submits three separate overtime forms."
+msgstr "校務入口、招生章程與研究檔案開始以中文、日文與英文並列運作。八雲紫聲稱三份告示只是同一份告示的不同側面；翻譯室則提交了三張不同的加班單。"
+
+#. campusHistory.three-language-gate.marginalia
+#: src/data/campus-history.js:43
+msgctxt "text:campusHistory.three-language-gate.marginalia"
+msgid ""
+"The English edition appeared outside the gate nine minutes before the "
+"Japanese text was final. Boundary Studies declined to define “outside.”"
+msgstr "英文版曾比日文定稿早九分鐘出現在門外。境界研究院拒絕說明「門外」是哪一側。"
+
+#. campusHistory.campus-begins-moving.era
+#: src/data/campus-history.js:52
+msgctxt "text:campusHistory.campus-begins-moving.era"
+msgid "Same day · Third Bell"
+msgstr "同日・第三校鐘"
+
+#. campusHistory.campus-begins-moving.title
+#: src/data/campus-history.js:53
+msgctxt "text:campusHistory.campus-begins-moving.title"
+msgid "Campus administration moves under its own power"
+msgstr "校務第一次開始自行運轉"
+
+#. campusHistory.campus-begins-moving.summary
+#: src/data/campus-history.js:54
+msgctxt "text:campusHistory.campus-begins-moving.summary"
+msgid ""
+"Entrance exams gain clocks, map locations gain photographs and dossiers, and "
+"BBS topics rotate with the campus wind. Answers are now scored, clubs open "
+"when selected, and news may deny it was ever the leading item after a "
+"refresh."
+msgstr "入學試驗裝上計時器，地圖地點獲得照片與說明，BBS 話題開始隨校園風聲輪換。首批使用者證實：答卷會被判分，社團會被點開，新聞也確實可能在重新整理後否認自己剛才排在第一條。"
+
+#. campusHistory.campus-begins-moving.marginalia
+#: src/data/campus-history.js:55
+msgctxt "text:campusHistory.campus-begins-moving.marginalia"
+msgid ""
+"Aya objected that “random rotation” is not an editorial policy, then "
+"requested that this objection be pinned."
+msgstr "射命丸文抗議「隨機輪換」不應被稱為編輯政策，隨後要求將這句抗議置頂。"
+
+#. campusHistory.seven-catalogues.era
+#: src/data/campus-history.js:64
+msgctxt "text:campusHistory.seven-catalogues.era"
+msgid "Same day · Late Morning"
+msgstr "同日・午前末刻"
+
+#. campusHistory.seven-catalogues.title
+#: src/data/campus-history.js:65
+msgctxt "text:campusHistory.seven-catalogues.title"
+msgid "Seven schools submit their first mutually incompatible catalogues"
+msgstr "七所學院交出第一份彼此不完全相容的課程表"
+
+#. campusHistory.seven-catalogues.summary
+#: src/data/campus-history.js:66
+msgctxt "text:campusHistory.seven-catalogues.summary"
+msgid ""
+"Credits, tuition, core courses, and graduation rules enter the catalogue. "
+"Kappa lay out the route network while the Spell Card Laboratory publishes "
+"its first readability and fairness study. Day one reveals three prerequisite "
+"loops and one shortcut leading only inside itself."
+msgstr "學分、學費、核心課程與畢業條件正式列冊；河童同時鋪出校園路網，符卡研究室提交第一份可讀性與公平性研究。跨院選修當日就出現三起先修課循環與一條只通往自己內部的近路。"
+
+#. campusHistory.seven-catalogues.marginalia
+#: src/data/campus-history.js:67
+msgctxt "text:campusHistory.seven-catalogues.marginalia"
+msgid ""
+"Marisa wrote “mostly sourced” under material costs. Patchouli added in red: "
+"this is not a price."
+msgstr "魔理沙在「材料費」欄填寫「大致都有來源」。帕秋莉以紅筆補上：這不是金額。"
+
+#. campusHistory.selection-is-not-exit.era
+#: src/data/campus-history.js:76
+msgctxt "text:campusHistory.selection-is-not-exit.era"
+msgid "Same day · After the Noon Bell"
+msgstr "同日・午鐘後"
+
+#. campusHistory.selection-is-not-exit.title
+#: src/data/campus-history.js:77
+msgctxt "text:campusHistory.selection-is-not-exit.title"
+msgid "Choosing an option is no longer treated as leaving campus"
+msgstr "選一個選項不再被當作離校申請"
+
+#. campusHistory.selection-is-not-exit.summary
+#: src/data/campus-history.js:78
+msgctxt "text:campusHistory.selection-is-not-exit.summary"
+msgid ""
+"Early forms mistook select popovers for visitors outside the window and sent "
+"applicants home after they chose a school. Kappa repaired access control "
+"with two event checks and one strip of tape; applications, visits, and posts "
+"also began staying on the visitor’s device."
+msgstr "早期表單曾把下拉選單彈出的選項誤認為窗外訪客，導致申請人選完學院便被送回主頁。河童用兩層事件判定與一條膠帶修好門禁；申請、預約與發帖記錄也開始留在使用者自己的裝置。"
+
+#. campusHistory.selection-is-not-exit.marginalia
+#: src/data/campus-history.js:79
+msgctxt "text:campusHistory.selection-is-not-exit.marginalia"
+msgid ""
+"The repair slip says “permanent.” A label corrects it to “permanent until "
+"the next permanent repair.”"
+msgstr "維修單寫著「永久修復」。旁邊貼紙訂正為「在下一次永久修復以前永久」。"
+
+#. campusHistory.friction-and-separate-roads.era
+#: src/data/campus-history.js:88
+msgctxt "text:campusHistory.friction-and-separate-roads.era"
+msgid "Same day · Second Afternoon Watch"
+msgstr "同日・午後第二刻"
+
+#. campusHistory.friction-and-separate-roads.title
+#: src/data/campus-history.js:89
+msgctxt "text:campusHistory.friction-and-separate-roads.title"
+msgid "Faculty trouble returns to the employment record"
+msgstr "教授的麻煩被重新列入聘任檔案"
+
+#. campusHistory.friction-and-separate-roads.summary
+#: src/data/campus-history.js:90
+msgctxt "text:campusHistory.friction-and-separate-roads.summary"
+msgid ""
+"The university concedes that excellent faculty need not behave: Aya may "
+"create the headline she must correct, Marisa’s material provenance remains "
+"dubious, and Yukari occasionally invalidates the boundary of a rule. "
+"Walking, broom, tengu windway, and rabbit shuttle become genuinely separate "
+"networks the same day."
+msgstr "校方承認優秀教師不一定服從制度：文可能製造自己要訂正的標題，魔理沙的材料來源仍然可疑，紫則讓規則的邊界偶爾失效。同日，步行、掃帚、天狗風路與兔車被拆成真正不同的交通網。"
+
+#. campusHistory.friction-and-separate-roads.marginalia
+#: src/data/campus-history.js:91
+msgctxt "text:campusHistory.friction-and-separate-roads.marginalia"
+msgid ""
+"Bunbunmaru headline: “University finally admits professors are a problem.” "
+"Asked to correct it, Aya changed “admits” to “publicly admits.”"
+msgstr "文文。新聞標題：「本校終於承認教授有問題」。校方要求訂正；文改為「本校終於公開承認」。"
+
+#. campusHistory.addresses-and-unified-paper.era
+#: src/data/campus-history.js:100
+msgctxt "text:campusHistory.addresses-and-unified-paper.era"
+msgid "Same day · Fourth Afternoon Watch"
+msgstr "同日・午後第四刻"
+
+#. campusHistory.addresses-and-unified-paper.title
+#: src/data/campus-history.js:101
+msgctxt "text:campusHistory.addresses-and-unified-paper.title"
+msgid "Every campus file receives an address as the unified examination opens"
+msgstr "每份校務檔案取得自己的門牌，統一試驗首次開卷"
+
+#. campusHistory.addresses-and-unified-paper.summary
+#: src/data/campus-history.js:102
+msgctxt "text:campusHistory.addresses-and-unified-paper.summary"
+msgid ""
+"Schools, faculty, research, clubs, and BBS records receive stable shareable "
+"addresses, alongside visitor-specific gateways. The first Gensokyo Unified "
+"Examination is issued, placing humanities and sciences under one rule sheet "
+"for arguments about moon phase, routes, and versions."
+msgstr "學院、教師、研究、社團與 BBS 內容開始擁有可分享的固定地址；訪客也可依身分選擇導覽入口。首份幻想鄉統一試驗同時發下，文理兩組首次在同一張規則表上爭論月相、路線與版本。"
+
+#. campusHistory.addresses-and-unified-paper.marginalia
+#: src/data/campus-history.js:103
+msgctxt "text:campusHistory.addresses-and-unified-paper.marginalia"
+msgid ""
+"Yukari says a “stable address” guarantees only the address, not either side "
+"of it. Academic Affairs moved this sentence into fine print."
+msgstr "紫表示「固定地址」只保證地址固定，不保證地址兩側固定。教務處把這句移到小字。"
+
+#. campusHistory.four-danmaku-difficulties.era
+#: src/data/campus-history.js:112
+msgctxt "text:campusHistory.four-danmaku-difficulties.era"
+msgid "Same day · Before Dusk"
+msgstr "同日・暮色前"
+
+#. campusHistory.four-danmaku-difficulties.title
+#: src/data/campus-history.js:113
+msgctxt "text:campusHistory.four-danmaku-difficulties.title"
+msgid "The unified examination adopts NORMAL, HARD, LUNATIC, and EXTRA"
+msgstr "統一試驗正式採用 NORMAL、HARD、LUNATIC、EXTRA"
+
+#. campusHistory.four-danmaku-difficulties.summary
+#: src/data/campus-history.js:114
+msgctxt "text:campusHistory.four-danmaku-difficulties.summary"
+msgid ""
+"The examination office replaces lettered papers with four danmaku "
+"difficulties. LUNATIC cross-reads lunar state, route networks, and "
+"testimony; EXTRA traces cache versions, sensor drift, and identifiable "
+"designs. Full answers, scores, and reviews now persist on-device."
+msgstr ""
+"命題室取消甲乙卷，以彈幕難度區分四級試卷；LUNATIC 要求交叉判讀月相、路網與證詞，EXTRA "
+"則追查快取版本、感測漂移與可識別實驗。完整答案、成績與逐題解析開始保存在本機。"
+
+#. campusHistory.four-danmaku-difficulties.marginalia
+#: src/data/campus-history.js:115
+msgctxt "text:campusHistory.four-danmaku-difficulties.marginalia"
+msgid ""
+"The first candidate to ask for PHANTASM received an unsigned slip reading "
+"only: “Finish EXTRA first.”"
+msgstr "第一位詢問 PHANTASM 在哪裡的考生，收到一張沒有署名、只寫「先把 EXTRA 寫完」的紙條。"
+
+#. campusHistory.moon-condition-correction.era
+#: src/data/campus-history.js:124
+msgctxt "text:campusHistory.moon-condition-correction.era"
+msgid "Same day · Dusk Bell"
+msgstr "同日・暮鐘"
+
+#. campusHistory.moon-condition-correction.title
+#: src/data/campus-history.js:125
+msgctxt "text:campusHistory.moon-condition-correction.title"
+msgid "The examination office corrects lunar conditions and rotated answers"
+msgstr "命題室就滿月條件與旋轉答案公開訂正"
+
+#. campusHistory.moon-condition-correction.summary
+#: src/data/campus-history.js:126
+msgctxt "text:campusHistory.moon-condition-correction.summary"
+msgid ""
+"Questions must now state moon phase, time, route, and version entirely "
+"inside their dossier rather than silently reading live campus state. An "
+"answer that remained called “B” after rotation was corrected, with a new "
+"rule: explain the correct content, never the option letter."
+msgstr "題目自此必須在材料框內完整交代月相、時間、路線與版本，不得暗讀即時校園狀態。某題答案輪換後仍把正解稱作「B」的事故也被修正，並新增規則：解析應說明正確內容，不得依賴選項字母。"
+
+#. campusHistory.moon-condition-correction.marginalia
+#: src/data/campus-history.js:127
+msgctxt "text:campusHistory.moon-condition-correction.marginalia"
+msgid ""
+"Keine preserved the bad version, the correction, and a clipping claiming no "
+"error occurred. All three now deny one another in the same envelope."
+msgstr "慧音保留了錯誤版、訂正版與一份聲稱從未出錯的報紙剪貼，三者現於同一檔案袋內互相否認。"
+
+#. campusHistory.my-tu-registry.era
+#: src/data/campus-history.js:136
+msgctxt "text:campusHistory.my-tu-registry.era"
+msgid "Same day · First Night Watch"
+msgstr "同日・入夜第一刻"
+
+#. campusHistory.my-tu-registry.title
+#: src/data/campus-history.js:137
+msgctxt "text:campusHistory.my-tu-registry.title"
+msgid "My TU opens; three professors immediately disagree"
+msgstr "My TU 學籍中心開門，三位教授立即不同意彼此"
+
+#. campusHistory.my-tu-registry.summary
+#: src/data/campus-history.js:138
+msgctxt "text:campusHistory.my-tu-registry.summary"
+msgid ""
+"Visitors can create an on-device identity that compiles applications, exams, "
+"visit bookings, and BBS posts into one campus life. Schools begin "
+"three-member joint review with printable decisions, and closing a card "
+"returns to where it truly opened."
+msgstr "訪客可在本機建立身分，將申請、試驗、入校預約與 BBS 記錄編成同一份校園履歷。各學院開始三人聯合審查並簽發可列印通知書；卡片關閉後也會返回真正開啟它的位置。"
+
+#. campusHistory.my-tu-registry.marginalia
+#: src/data/campus-history.js:139
+msgctxt "text:campusHistory.my-tu-registry.marginalia"
+msgid ""
+"First review: Marisa says admit the applicant to the workshop, Patchouli "
+"says rewrite the question, and Reimu bans both from testing at the shrine. "
+"The decision field holds one outcome; the attachments take three pages."
+msgstr "首份審查意見：魔理沙主張先准入工房，帕秋莉要求重寫問題，靈夢禁止兩人在神社測。結果欄只能容納一種決定，附件用了三頁。"
+
+#. campusHistory.eientei-location-correction.era
+#: src/data/campus-history.js:148
+msgctxt "text:campusHistory.eientei-location-correction.era"
+msgid "Same day · Third Night Watch"
+msgstr "同日・入夜第三刻"
+
+#. campusHistory.eientei-location-correction.title
+#: src/data/campus-history.js:149
+msgctxt "text:campusHistory.eientei-location-correction.title"
+msgid "Eientei is no longer filed under the examination hall"
+msgstr "永遠亭不再被校史定位到試驗會場"
+
+#. campusHistory.eientei-location-correction.summary
+#: src/data/campus-history.js:150
+msgctxt "text:campusHistory.eientei-location-correction.summary"
+msgid ""
+"Opening Eientei directly once let late-arriving examination content above it "
+"push the bamboo forest away, leaving visitors at the exam hall. Boundary "
+"Calibration assigns every section, school, faculty file, research record, "
+"club, BBS post, and service a formal landing point and rechecks it while "
+"layout settles."
+msgstr "直接開啟永遠亭詳圖時，上方遲到的試驗內容曾把竹林推離原座標，訪客因而停在考場。境界校準室為所有章節、學院、教師、研究、社團、BBS 與服務補上正式落點，並在版面安定前持續複核。"
+
+#. campusHistory.eientei-location-correction.marginalia
+#: src/data/campus-history.js:151
+msgctxt "text:campusHistory.eientei-location-correction.marginalia"
+msgid ""
+"Eirin says the clinic never moved. Yukari says “did not move” and “remained "
+"in one place” are different claims. The map office refuses to print both."
+msgstr "永琳表示診療所從未移動。紫表示「未移動」與「一直在同一位置」不是同一句話。地圖室拒絕把兩句都印上去。"
+
+#. campusHistory.living-version-chronicle.era
+#: src/data/campus-history.js:160
+msgctxt "text:campusHistory.living-version-chronicle.era"
+msgid "Same day · Before Midnight"
+msgstr "同日・夜半前"
+
+#. campusHistory.living-version-chronicle.title
+#: src/data/campus-history.js:161
+msgctxt "text:campusHistory.living-version-chronicle.title"
+msgid "The version repository is sewn into the university chronicle"
+msgstr "版本庫與校史簿正式縫在一起"
+
+#. campusHistory.living-version-chronicle.summary
+#: src/data/campus-history.js:162
+msgctxt "text:campusHistory.living-version-chronicle.summary"
+msgid ""
+"The Hieda archive begins turning every main-branch revision into university "
+"history. The real version subject serves as the source, while campus "
+"consequences survive alongside Keine’s additions and objections from those "
+"involved. If the version changes without a new page, the build check refuses "
+"to pretend nothing happened."
+msgstr "稗田史學館開始為每次主分支修訂編寫校史：真實版本主旨作為底本，校務影響則由館員、慧音的補記與當事人的抗議共同保存。此後若版本有變而校史沒有新頁，建置檢查會拒絕假裝什麼都沒發生。"
+
+#. campusHistory.living-version-chronicle.marginalia
+#: src/data/campus-history.js:163
+msgctxt "text:campusHistory.living-version-chronicle.marginalia"
+msgid ""
+"Aya has already written tomorrow’s chronicle headline. Keine refuses to "
+"archive events not yet on main; Yukari drew a box around the word “yet.”"
+msgstr "文已寫好明日的校史標題。慧音拒絕收錄尚未進入主分支的事件；紫在「尚未」兩字周圍畫了一個框。"
+
+#. campusHistory.registration-room-remains.era
+#: src/data/campus-history.js:172
+msgctxt "text:campusHistory.registration-room-remains.era"
+msgid "Same day · Midnight"
+msgstr "同日・夜半"
+
+#. campusHistory.registration-room-remains.title
+#: src/data/campus-history.js:173
+msgctxt "text:campusHistory.registration-room-remains.title"
+msgid "Registration opens; the registrar declines to guarantee room locations"
+msgstr "教務處開放加退選，並拒絕保證教室維持原位"
+
+#. campusHistory.registration-room-remains.summary
+#: src/data/campus-history.js:174
+msgctxt "text:campusHistory.registration-room-remains.summary"
+msgid ""
+"All 35 courses across seven schools enter My TU. Students may add, drop, "
+"waitlist, and print timetables and academic records on-device. Ordinary "
+"collisions and missing prerequisites are stopped; passing eighteen credits "
+"merely earns a “danmaku density” warning. Rooms inside books, Wednesdays "
+"erased from history, and a hall bordering every classroom receive "
+"case-by-case notices."
+msgstr ""
+"七所學院的三十五門課正式進入 My TU。學生可在本機加選、退選、候補並列印課表與學業紀錄；系統會攔下普通衝堂與先修不足，超過十八學分則只蓋一枚「彈幕密"
+"度」提醒。位於書本內部、被歷史刪除的週三，以及和所有教室邊界相鄰的講堂，仍逐案留下警告。"
+
+#. campusHistory.registration-room-remains.marginalia
+#: src/data/campus-history.js:175
+msgctxt "text:campusHistory.registration-room-remains.marginalia"
+msgid ""
+"Yukari asked that “boundary-adjacent” be treated as a teaching mode, not a "
+"warning. The registrar replied that it was not a valid period. By morning, "
+"the reply had become BIS-271 assignment one."
+msgstr "紫要求把「邊界相鄰」從警告改成上課方式。教務處回覆這不是有效時段。翌晨，回覆被登記為 BIS-271 的第一次作業。"
+
+#. campusHistory.seven-doors-and-misty-desk.era
+#: src/data/campus-history.js:186
+msgctxt "text:campusHistory.seven-doors-and-misty-desk.era"
+msgid "Next day · Before First Bell"
+msgstr "翌日・第一校鐘前"
+
+#. campusHistory.seven-doors-and-misty-desk.title
+#: src/data/campus-history.js:187
+msgctxt "text:campusHistory.seven-doors-and-misty-desk.title"
+msgid "Seven campus doors receive signs as the Misty Lake desk begins stamping loans"
+msgstr "校園分成七扇正式門牌，霧湖借閱桌開始蓋章"
+
+#. campusHistory.seven-doors-and-misty-desk.summary
+#: src/data/campus-history.js:188
+msgctxt "text:campusHistory.seven-doors-and-misty-desk.summary"
+msgid ""
+"Academics, admissions, research, campus life, My TU, and the library finally "
+"receive pages of their own instead of sharing one endlessly extended notice. "
+"Misty Lake opens search, borrowing, holds, renewals, and returns for "
+"nineteen holdings; flying books, full-moon logs, and research material "
+"refusing its old shelf all receive traceable on-device slips."
+msgstr ""
+"學術、招生、研究、校園、My TU 與圖書館終於各自取得頁面，不必再擠在同一張無限延長的公告紙上。霧湖館同日開放十九筆館藏的搜尋、借閱、預約、續借與歸還"
+"；會飛的書、只在滿月顯字的觀察簿，以及拒絕原書架的研究材料都收到可追溯的本機回條。"
+
+#. campusHistory.seven-doors-and-misty-desk.marginalia
+#: src/data/campus-history.js:189
+msgctxt "text:campusHistory.seven-doors-and-misty-desk.marginalia"
+msgid ""
+"Koakuma corrected “seven doors” to “seven HTML files.” Yukari folded the "
+"correction into a real door; its first student arrived directly at the "
+"curtain rail currently hosting the flying book."
+msgstr "小惡魔把「七扇門」訂正成「七份 HTML」。紫把訂正紙折成一扇真正的門；第一位穿過去的學生直接抵達《會飛的書》目前所在的窗簾桿。"
+
+#. campusHistory.five-halls-and-one-chair.era
+#: src/data/campus-history.js:198
+msgctxt "text:campusHistory.five-halls-and-one-chair.era"
+msgid "Next day · After First Bell"
+msgstr "翌日・第一校鐘後"
+
+#. campusHistory.five-halls-and-one-chair.title
+#: src/data/campus-history.js:199
+msgctxt "text:campusHistory.five-halls-and-one-chair.title"
+msgid "Five halls begin allocation; one window chair produces the first roommate agreement"
+msgstr "五座宿舍開放分房，一把窗邊椅引發首份共住協議"
+
+#. campusHistory.five-halls-and-one-chair.summary
+#: src/data/campus-history.js:200
+msgctxt "text:campusHistory.five-halls-and-one-chair.summary"
+msgid ""
+"The housing committee now reads needs around moon phase, wingspan, water, "
+"familiars, phasing, and sleep, returning three explained room-and-roommate "
+"offers per application. Students may accept or pass, keep a shared-living "
+"note, and request a transfer. The library and course catalogues also stop "
+"interrupting Chinese and Japanese IME composition during live search."
+msgstr ""
+"住宿委員會開始受理月相、翼展、水域、使魔、穿牆與作息需求，並為每份申請提出三個附理由的房間與室友組合。學生可接受或略過分房、保存共住備忘並提出換房請求；"
+"同日，圖書館與選課目錄修正了會打斷中文與日文輸入法組字的即時搜尋。"
+
+#. campusHistory.five-halls-and-one-chair.marginalia
+#: src/data/campus-history.js:201
+msgctxt "text:campusHistory.five-halls-and-one-chair.marginalia"
+msgid ""
+"The first agreement says familiars, laundry, and take-off gear may not "
+"permanently occupy the window chair. The chair objected as a prospective "
+"tsukumogami and asked whether it, too, counts as a roommate."
+msgstr "首份協議規定使魔、晾衣與起飛都不能永久占用窗邊椅。椅子本人以付喪神候選人的身分提出異議，要求先確認它是否也是室友。"
+
+#. campusHistory.five-cases-three-headlines.era
+#: src/data/campus-history.js:210
+msgctxt "text:campusHistory.five-cases-three-headlines.era"
+msgid "Next day · Before Second Bell"
+msgstr "翌日・第二校鐘前"
+
+#. campusHistory.five-cases-three-headlines.title
+#: src/data/campus-history.js:211
+msgctxt "text:campusHistory.five-cases-three-headlines.title"
+msgid "The Incident Desk accepts five cases and receives fifteen headlines after closure"
+msgstr "事件聯絡室收下五宗案卷，結案後卻收到十五個標題"
+
+#. campusHistory.five-cases-three-headlines.summary
+#: src/data/campus-history.js:212
+msgctxt "text:campusHistory.five-cases-three-headlines.summary"
+msgid ""
+"A misfiring bell, rabbit shuttles returning to one lantern, a flying book, "
+"yesterday arriving early, and a chair demanding roommate status enter the "
+"Incident Centre. Students review evidence and conflicting testimony, choose "
+"reversible responses, then distinguish hypotheses with controls, "
+"randomisation, calibration, and version locking. Experiment slips and "
+"closures persist on-device and enter My TU. Every closure reaches the campus "
+"wire, after which participants, bystanders, and the corrections desk each "
+"publish their own BBS version."
+msgstr ""
+"校鐘誤響、兔車繞回同一盞燈、會飛的書、提前抵達的昨日與一把要求室友名額的椅子正式進入事件中心。學生必須審閱證物與互相牴觸的證詞，選擇可撤回處置，再用對照"
+"、隨機化、校準與版本鎖定辨別假說；模擬回條與結案都保存在本機並寫進 My TU。每宗結案隨即進入校務快訊，當事人、旁觀者與訂正欄各自在 BBS "
+"發出自己的版本。"
+
+#. campusHistory.five-cases-three-headlines.marginalia
+#: src/data/campus-history.js:213
+msgctxt "text:campusHistory.five-cases-three-headlines.marginalia"
+msgid ""
+"Aya asked that three linked posts count as one exclusive in three tenses; "
+"Keine refused to merge them. Nitori filed a fourth post titled “Different "
+"firmware does not mean I changed it three times,” attaching four versions."
+msgstr "文要求把「三篇連動帖」算作一篇有三種時間態的獨家；慧音拒絕合併。荷取則提交第四篇，題為「韌體版本不同不代表我改過三次」，附件列出四個版本。"
+
+#. campusHistory.red-thread-preservation-desk.era
+#: src/data/campus-history.js:222
+msgctxt "text:campusHistory.red-thread-preservation-desk.era"
+msgid "Next day · After Second Bell"
+msgstr "翌日・第二校鐘後"
+
+#. campusHistory.red-thread-preservation-desk.title
+#: src/data/campus-history.js:223
+msgctxt "text:campusHistory.red-thread-preservation-desk.title"
+msgid "Rejected hypotheses gain red-thread binding as version history records a second parent"
+msgstr "被推翻的假說獲得紅線裝訂，版本史則多了一條第二親本"
+
+#. campusHistory.red-thread-preservation-desk.summary
+#: src/data/campus-history.js:224
+msgctxt "text:campusHistory.red-thread-preservation-desk.summary"
+msgid ""
+"The Incident Centre no longer pretends every result worth preserving has "
+"been established. Rejected, indistinguishable, or falsely confident findings "
+"may still close with full makeshift ceremony when a reviewer signs, the "
+"applicant confirms again, and the file is visibly marked contested—after "
+"which campus news and BBS may react. The Hieda archive also separates a "
+"main-branch merge commit from the second-parent change commit, refusing to "
+"treat two SHAs as one."
+msgstr ""
+"事件中心不再假裝所有值得保存的研究都已被證實。被推翻、無法區分或充滿假確信的結果，只要審閱者願意署名、申請人再次確認並清楚標成爭議案卷，仍可草臺班子般正"
+"式結案、進入校務快訊與 BBS。稗田史學館同日修訂版本底本：主分支 merge commit 與實際改動的第二親本分欄保存，不再把兩個 SHA "
+"當成同一件事。"
+
+#. campusHistory.red-thread-preservation-desk.marginalia
+#: src/data/campus-history.js:225
+msgctxt "text:campusHistory.red-thread-preservation-desk.marginalia"
+msgid ""
+"Before the confirmation screen appeared, Aya published “University admits "
+"errors may graduate.” Marisa requested preservation as a perfect "
+"demonstration of the new rule. Keine bound it in red thread and crossed out "
+"“perfect.”"
+msgstr "文在確認框出現前已發出「校方承認錯誤也能畢業」；魔理沙要求保留這個錯誤標題，理由是它完美示範了新制度。慧音用紅線裝訂，但把「完美」劃掉。"
+
+#. campusHistory.three-hour-bell-and-public-defence.era
+#: src/data/campus-history.js:234
+msgctxt "text:campusHistory.three-hour-bell-and-public-defence.era"
+msgid "Next day · Third Bell"
+msgstr "翌日・第三校鐘"
+
+#. campusHistory.three-hour-bell-and-public-defence.title
+#: src/data/campus-history.js:235
+msgctxt "text:campusHistory.three-hour-bell-and-public-defence.title"
+msgid ""
+"The three-hour operations bell begins rotating; the first spell-card defence "
+"runs four minutes late"
+msgstr "三小時校務鐘開始換班，第一場符卡答辯延誤了四分鐘"
+
+#. campusHistory.three-hour-bell-and-public-defence.summary
+#: src/data/campus-history.js:236
+msgctxt "text:campusHistory.three-hour-bell-and-public-defence.summary"
+msgid ""
+"The operations board now lets device time, moon phase, and duty incidents "
+"jointly alter dining, the day’s classes, free rooms, flight restrictions, "
+"and actual routes. The governance bell opens four policy proposals so "
+"schools, clubs, and airborne stakeholders can remain publicly unconvinced. "
+"My TU gains an academic workbench that retains assignment drafts and "
+"per-question reviews, timed exam answers, printable transcripts, and "
+"three-question rulings for thesis or spell-card projects. The first defence "
+"began on time, but make-up danmaku moved it from Boundary Hall to Hieda "
+"Hall; both records still claim punctuality."
+msgstr ""
+"校園運行盤開始依本機時間、月相與當值事件共同改動食堂菜單、今日課表、空房、飛行限制與實際路線；議事鐘同時開放四份規章提案，讓學院、社團與會飛的利益關係人"
+"繼續公開不同意。My TU 另設課業工作台，保存作業草稿與逐題評閱、限時考試答案、可列印成績單，以及論文／符卡研究計畫的三問答辯裁定。第一場答辯準時開始"
+"，但境界講堂因補考彈幕臨時移到稗田館，故兩份記錄至今仍各自聲稱自己準時。"
+
+#. campusHistory.three-hour-bell-and-public-defence.marginalia
+#: src/data/campus-history.js:237
+msgctxt "text:campusHistory.three-hour-bell-and-public-defence.marginalia"
+msgid ""
+"After the defence, Yukari asked whether passing makes a claim’s scope grow; "
+"Marisa demanded the material batch first; Reimu asked only when the room "
+"would clear. The governance bell recorded all three as amendments, while Aya "
+"published the clearing time as graduation day."
+msgstr "答辯後，紫問「通過」是否會讓主張範圍自己長大；魔理沙要求先公開材料批次；靈夢只問何時能清場。議事鐘把三句都記成修正案，文則把清場時間刊成了畢業典禮日期。"
+
+#. campusHistory.two-clinics-and-one-missing-token.era
+#: src/data/campus-history.js:246
+msgctxt "text:campusHistory.two-clinics-and-one-missing-token.era"
+msgid "Next day · Before Fourth Bell"
+msgstr "翌日・第四校鐘前"
+
+#. campusHistory.two-clinics-and-one-missing-token.title
+#: src/data/campus-history.js:247
+msgctxt "text:campusHistory.two-clinics-and-one-missing-token.title"
+msgid "Two campus clinics begin calling patients; the first lucky token promptly disappears"
+msgstr "兩處校醫療院區開始叫號，第一張幸運號碼牌隨即失蹤"
+
+#. campusHistory.two-clinics-and-one-missing-token.summary
+#: src/data/campus-history.js:248
+msgctxt "text:campusHistory.two-clinics-and-one-missing-token.summary"
+msgid ""
+"The old office beside Hakurei Gate becomes the main infirmary while "
+"Eientei’s clinical wing becomes the affiliated university hospital. Patients "
+"may complete cross-species triage on-device, receive waits shaped by time, "
+"lunar phase, rabbit-shuttle conditions, and live incidents, then consult, "
+"collect and track prescriptions across twelve Gensokyo medicines and aids, "
+"or begin recovery slips for danmaku shoulders and wings, boundary anchoring, "
+"lunar load, half-phantom sync, and fairy cores. Check-ins, prescriptions, "
+"and every recovery step enter My TU; after dispensing and completion, the "
+"Lunar Pharmacy and patient wall publish their own BBS versions."
+msgstr ""
+"博麗門舊社務所改為本部校醫務室，永遠亭診療棟則正式成為附屬校醫院。病友可在本機完成跨種族分診，依時間、月相、兔車路況與當值事件取得候診時間，再接受診察、"
+"領取十二種幻想鄉藥品與醫材的處方、記錄療程，或開始彈幕肩翼、境界定位、月相降載、半靈同步與妖精核心等康復回條。掛號、處方與每一步恢復都編入 My "
+"TU；領藥與結療後，月藥調劑室和病友牆則會在 BBS 公開各自版本。"
+
+#. campusHistory.two-clinics-and-one-missing-token.marginalia
+#: src/data/campus-history.js:249
+msgctxt "text:campusHistory.two-clinics-and-one-missing-token.marginalia"
+msgid ""
+"Tewi replaced the first ordinary token with “Great Fortune,” and Aya "
+"reported that the hospital had adopted luck-based triage. Eirin retrieved "
+"the token, corrected the paper, and added to every medicine bag: luck does "
+"not change priority. Cirno wrote beneath it: strongest does."
+msgstr "帝把第一張普通號碼牌換成「大吉」，文立即報導校醫院採用運氣分診。永琳收回號碼牌、訂正報紙，並在藥袋上加註：幸運不改變優先級。琪露諾在下一行補寫：最強可以。"
+
+#. campusHistory.five-printing-presses-and-one-outside-audit.era
+#: src/data/campus-history.js:258
+msgctxt "text:campusHistory.five-printing-presses-and-one-outside-audit.era"
+msgid "Next day · After Fourth Bell"
+msgstr "翌日・第四校鐘後"
+
+#. campusHistory.five-printing-presses-and-one-outside-audit.title
+#: src/data/campus-history.js:259
+msgctxt "text:campusHistory.five-printing-presses-and-one-outside-audit.title"
+msgid ""
+"Five presses finally print their documents; the Outside audit receives one "
+"false-report correction"
+msgstr "五台印刷機終於吐出正文，外界審計則被退回一張誤報訂正"
+
+#. campusHistory.five-printing-presses-and-one-outside-audit.summary
+#: src/data/campus-history.js:260
+msgctxt "text:campusHistory.five-printing-presses-and-one-outside-audit.summary"
+msgid ""
+"Admission decisions, course records, academic transcripts, loan slips, and "
+"clinical receipts now copy their rendered content onto one shared print desk "
+"before reaching paper or PDF, rather than treating a hidden dialog’s blank "
+"space as an official document. Global navigation splits university/academic "
+"work from admissions/student services; the clinic puts Start Care at its "
+"front door; and joint faculty review reads each application’s question, "
+"method, and field needs separately. Facility hours, vacancies, and the "
+"wooden notice board now follow the same three-hour bell. Each page receives "
+"only its own style bundle, search carries out the university index on first "
+"use, and mobile imagery, type sizes, and deep-link landing points are "
+"corrected together."
+msgstr ""
+"錄取通知、選課與成績、課業成績單、借閱回條及診療回條改由同一個列印台先複製已渲染正文，再送往紙張或 "
+"PDF，不再把藏在對話框裡的空白當公文。頂部導覽分成大學學術與入學學生服務兩櫃，校醫院把開始診療放到正門，教授聯審則分別讀取申請的問題、方法與現場需求。"
+"館舍開放、空位與木板通告開始跟著同一座三小時校鐘變動；每頁只領自己的樣式卷，搜尋首次使用才搬出全校索引，行動圖片、字級與深連結落點亦一併重整。"
+
+#. campusHistory.five-printing-presses-and-one-outside-audit.marginalia
+#: src/data/campus-history.js:261
+msgctxt "text:campusHistory.five-printing-presses-and-one-outside-audit.marginalia"
+msgid ""
+"An Outside World applicant asked to remove forms that only checked whether a "
+"checker had checked; Academic Affairs approved, keeping the regressions that "
+"still catch old accidents. A separate third-party Outside intelligence filed "
+"eight concrete alerts, one of which mistook the deployed ten-page campus for "
+"the old single page, establishing a 12.5% false-positive rate. Aya demanded "
+"the headline “Outside intelligence reaches 87.5% accuracy.” Corrections "
+"observed that both versions were true, and they argued until press time."
+msgstr ""
+"一名外界人類申請生要求撤下「只檢查檢查器有沒有檢查」的表格，校務處批准並保留真正會抓舊事故的回歸卷。另一名外界第三方智能體提交八項具體警報，其中一項把已"
+"上線的十頁校舍誤認成舊單頁，誤報率正式記為 12.5%。文要求標題改成「外界智能體準確率高達 87.5%」；訂正欄認為兩句都是真的，於是吵到截稿。"
+
+#. campusHistory.first-bell-that-refused-to-eat-a-click.era
+#: src/data/campus-history.js:270
+msgctxt "text:campusHistory.first-bell-that-refused-to-eat-a-click.era"
+msgid "Next day · Fourth Bell echo"
+msgstr "翌日・第四校鐘餘響"
+
+#. campusHistory.first-bell-that-refused-to-eat-a-click.title
+#: src/data/campus-history.js:271
+msgctxt "text:campusHistory.first-bell-that-refused-to-eat-a-click.title"
+msgid "The first knock is answered even while the campus is still carrying its maps"
+msgstr "校舍還在搬地圖時，第一下敲門終於也有人應"
+
+#. campusHistory.first-bell-that-refused-to-eat-a-click.summary
+#: src/data/campus-history.js:272
+msgctxt "text:campusHistory.first-bell-that-refused-to-eat-a-click.summary"
+msgid ""
+"A production patrol found a seam visible only on slower Outside World links: "
+"service cards and the search bell could appear while maps, archives, and "
+"clinic modules were still moving, letting one very early click fall into the "
+"corridor. Loading guards now report before the heavy modules, catch that "
+"first action, bring in the needed desk, and replay it intact while the rest "
+"of each page continues loading in parallel."
+msgstr ""
+"正式站巡查發現一條只在外界網路較慢時露面的縫：服務卡和搜尋鈴已經掛上門面，地圖、校史與醫院模組卻仍在搬運，於是過早的一次點擊可能落進走廊。載入守門人現改"
+"在重型模組之前值班，會接住第一下點擊、搬來需要的服務，再把原動作完整交還；其餘頁面仍維持並行載入。"
+
+#. campusHistory.first-bell-that-refused-to-eat-a-click.marginalia
+#: src/data/campus-history.js:273
+msgctxt "text:campusHistory.first-bell-that-refused-to-eat-a-click.marginalia"
+msgid ""
+"Aya called the sub-six-second miss “the shortest strike in history”; the "
+"kappa called it an initialization race. Reimu stamped both explanations "
+"because applicants only care whether the door opens."
+msgstr "文把六秒內的漏接稱為「史上最短罷工」；河童說那只是初始化競態。靈夢在兩張說明上都蓋了同一個印，理由是申請生只在乎門有沒有開。"
+
+#. campusHistory.eight-objects-on-a-seven-object-shelf.era
+#: src/data/campus-history.js:282
+msgctxt "text:campusHistory.eight-objects-on-a-seven-object-shelf.era"
+msgid "Next day · Late-night special opening"
+msgstr "翌日・夜更けの臨時開架"
+
+#. campusHistory.eight-objects-on-a-seven-object-shelf.title
+#: src/data/campus-history.js:283
+msgctxt "text:campusHistory.eight-objects-on-a-seven-object-shelf.title"
+msgid ""
+"Kourindou and Misty Lake share an appraisal desk; object 77 appears after "
+"the seventh item"
+msgstr "香霖堂與霧湖館合開鑑定桌，第七件之後又出現一件第七十七號"
+
+#. campusHistory.eight-objects-on-a-seven-object-shelf.summary
+#: src/data/campus-history.js:284
+msgctxt "text:campusHistory.eight-objects-on-a-seven-object-shelf.summary"
+msgid ""
+"Outside drift objects are no longer connected to kappa power merely because "
+"they look useful. Students record wear, interfaces, and residue; propose an "
+"original-use hypothesis; choose non-invasive tests; then decide a new "
+"Gensokyo use, destination, and whether the object is developing an opinion. "
+"Rinnosuke supplies names and purposes, the library traces provenance, Nitori "
+"asks to open the casing, and Kogasa objects on behalf of things likely to be "
+"forgotten again. The first eight files persist on-device and enter My TU; "
+"after closure, the library and BBS retain their own versions."
+msgstr ""
+"外界漂流物自此不再只憑「看起來能用」就接上河童電源。學生先記錄磨損、接口與殘留物，再提出原用途假說、選擇非侵入檢查，決定它在幻想鄉的新用途、去處與是否正"
+"在長出意見。霖之助負責說出名字和用途，藍代表館方追查來歷，荷取要求拆開看看，小傘則代表可能被再次遺忘的物品反對前三者。八件首批案卷可在本機續寫並進入 "
+"My TU；結案後，圖書館與 BBS 也會留下各自版本。"
+
+#. campusHistory.eight-objects-on-a-seven-object-shelf.marginalia
+#: src/data/campus-history.js:285
+msgctxt "text:campusHistory.eight-objects-on-a-seven-object-shelf.marginalia"
+msgid ""
+"The seventh item is numbered 72 and the eighth 77. Aya reports “five drift "
+"objects lost during cataloguing”; Ran notes that sequence was never "
+"promised. Rinnosuke calls 77 a complete model number, Nitori blames a "
+"label-printer jam, and Kogasa files both identical 77 labels so neither "
+"becomes a tsukumogami first."
+msgstr ""
+"第七件編號為 72，第八件編號為 77。文據此報導「五件漂流物在編目途中失蹤」；藍指出編號從未承諾連續。霖之助認為這證明 77 "
+"是完整型號，荷取認為只是標籤機卡紙，小傘則把兩張相同的 77 號貼紙都收進案袋，免得其中一張先成為付喪神。"
+
+#. campusHistory.six-seals-refuse-one-average.era
+#: src/data/campus-history.js:294
+msgctxt "text:campusHistory.six-seals-refuse-one-average.era"
+msgid "Next day · Moon-shadow Demonstration Watch"
+msgstr "翌日・月影試演刻"
+
+#. campusHistory.six-seals-refuse-one-average.title
+#: src/data/campus-history.js:295
+msgctxt "text:campusHistory.six-seals-refuse-one-average.title"
+msgid "The spell-card workshop opens its first flight court; six seals refuse one score"
+msgstr "符卡工房架起第一座試飛場，六枚印章拒絕蓋在同一個分數上"
+
+#. campusHistory.six-seals-refuse-one-average.summary
+#: src/data/campus-history.js:296
+msgctxt "text:campusHistory.six-seals-refuse-one-average.summary"
+msgid ""
+"Students may tune speed, density, symmetry, randomness, declarations, exits, "
+"light, sound, and venue inside a lightweight seventy-two-shot flight court, "
+"then personally fly through that promise. Reimu reviews rules and exits; "
+"Marisa expression and reproducibility; Aya what the audience saw; Nitori "
+"collision and performance; Eirin stimulation and stopping; and the Misty "
+"Lake Fairy Chorus whether shared space retains sound and play. Their six "
+"findings may not be flattened into one average pretending everybody signed "
+"it. Each version persists on-device; a three-seat, three-question public "
+"defence preserves rulings, conditions, and minority objections before BBS "
+"retells the result in several incompatible stories."
+msgstr ""
+"學生可以先在七十二發以內的輕量試飛場調整彈速、密度、對稱、隨機、宣言、退路、聲光與場地，再親自飛進那份承諾。靈夢審規則與退路，魔理沙審表現與重現，文審觀"
+"眾看見什麼，荷取審碰撞與效能，永琳審刺激與停止，霧湖妖精合唱團則審共用場地是否還剩聲音和玩心；六方批註不得平均成一個假裝大家都簽過名的總分。每一版設計會"
+"在本機封存，經三席公開三問後留下裁定、條件與少數異議，並由 BBS 各自傳成不同的故事。"
+
+#. campusHistory.six-seals-refuse-one-average.marginalia
+#: src/data/campus-history.js:297
+msgctxt "text:campusHistory.six-seals-refuse-one-average.marginalia"
+msgid ""
+"Aya typeset “conditionally approved” as “approved,” moving the conditions "
+"into edition two’s fine print. Reimu tied both editions together with "
+"vermilion cord; Marisa called that improved reproducibility. The fairy "
+"chorus added beside the knot: rehearsal time is part of the method."
+msgstr "文先把「附帶條件通過」排成「通過」，再把條件塞進第二版小字。靈夢用朱繩把兩版綁在一起，魔理沙稱這提高了重現性；妖精合唱團則在繩結旁加註：排練時間也屬於方法。"
+
+#. campusHistory.ninth-period-takes-attendance.era
+#: src/data/campus-history.js:306
+msgctxt "text:campusHistory.ninth-period-takes-attendance.era"
+msgid "Same night · The nonexistent ninth bell"
+msgstr "同夜・不存在的第九校鐘"
+
+#. campusHistory.ninth-period-takes-attendance.title
+#: src/data/campus-history.js:307
+msgctxt "text:campusHistory.ninth-period-takes-attendance.title"
+msgid "Six seals bleed through the page; ninth period calls the routes not taken"
+msgstr "六枚印章從紙背透出，第九節開始替未選的路點名"
+
+#. campusHistory.ninth-period-takes-attendance.summary
+#: src/data/campus-history.js:308
+msgctxt "text:campusHistory.ninth-period-takes-attendance.summary"
+msgid ""
+"A marked answer, cast ballot, closed incident, declined room, dropped "
+"course, and unused route written into a defence form six seals on the back "
+"of an ordinary record. Only then does Dream Affairs admit another campus "
+"exists: the minority option passes in the Shadow Senate, an excluded "
+"hypothesis becomes history, a declined roommate asks about curfew, and a "
+"dropped course continues in nonexistent ninth period. Doremy, Yukari, Keine, "
+"and Reimu conduct the reverse viva, but every enrolment and ruling may enter "
+"only the dream transcript. The official ledger denies having had the dream."
+msgstr ""
+"一份批改過的答案、一張已投選票、一宗已結事件、一扇拒絕過的房門、一門退選課與答辯中親筆承認的未行路線，在校務紙背湊齊六枚印章。此後夢境校務處才承認有另一"
+"座校區：少數票在影子議場通過，被排除的假說成為正史，拒絕過的室友追問夜歸時間，退選課則在不存在的第九節照常點名。多蕾米、紫、慧音與靈夢主持反向答辯，但所"
+"有選課與裁定只准寫進夢境學籍副本；正式帳本拒絕承認自己做過這場夢。"
+
+#. campusHistory.ninth-period-takes-attendance.marginalia
+#: src/data/campus-history.js:309
+msgctxt "text:campusHistory.ninth-period-takes-attendance.marginalia"
+msgid ""
+"Akyuu reserved a page number, but by morning found only a reverse-side copy "
+"marked TU-DREAM-TRANSCRIPT. Reimu stamped “Not valid outside the dream "
+"boundary,” then added: not valid toward ordinary tuition either. Yukari "
+"called the second clause the only genuine boundary."
+msgstr ""
+"阿求為這頁預留編號，翌晨卻只找到一張寫著「TU-DREAM-TRANSCRIPT」的反面影印。靈夢在「不得於夢境邊界外使用」旁蓋了校印，又補一句：也不得"
+"拿來抵正式學費。紫認為後一句才是唯一真正的邊界。"
+
+#. campusHistory.moon-reassigns-the-university-door.era
+#: src/data/campus-history.js:318
+msgctxt "text:campusHistory.moon-reassigns-the-university-door.era"
+msgid "Same night · Fifth moonshadow duty bell"
+msgstr "同夜・月影輪值第五鐘"
+
+#. campusHistory.moon-reassigns-the-university-door.title
+#: src/data/campus-history.js:319
+msgctxt "text:campusHistory.moon-reassigns-the-university-door.title"
+msgid "The moon takes over ninth-period reception; five entrances deny one another's shift"
+msgstr "月相接管第九節門房，五扇入口開始否認彼此值班"
+
+#. campusHistory.moon-reassigns-the-university-door.summary
+#: src/data/campus-history.js:320
+msgctxt "text:campusHistory.moon-reassigns-the-university-door.summary"
+msgid ""
+"Six reverse seals now prove only that an applicant may dream; they no longer "
+"guarantee which page permits sleep. Date, eight-phase lunar age, and "
+"three-hour bells rotate the entrance among the footer signature, My TU row "
+"nine, the wooden map crease, the result after no results, and an authorless "
+"BBS thread. New and full moons may let two doors claim to be the main gate "
+"at once. So an Outside World visitor need not wait until next month, several "
+"wrong doors wear the paper thin enough for a six-hour seam. After passage, "
+"the university name, crest, tab icon, and motto change with the moon; on "
+"waking, the ordinary university denies ever approving a rename."
+msgstr ""
+"六枚反面印如今只證明申請人有資格做夢，不再保證哪一頁肯讓他睡著。日期、八相月齡與三小時校鐘會把入口輪派到頁尾落款、My TU "
+"第九行、地圖木板折痕、查無結果的下一筆或沒有作者的 BBS 帖；朔月與滿月偶爾讓兩扇門同時自稱正門。為免外界人類真的在門外守到下個月，連續摸到幾處錯門會"
+"把紙磨薄成六小時臨時縫。穿過後，校名、校徽、頁籤圖標與校訓也隨月相換班；醒來時普通大學則堅稱從未批准改名。"
+
+#. campusHistory.moon-reassigns-the-university-door.marginalia
+#: src/data/campus-history.js:321
+msgctxt "text:campusHistory.moon-reassigns-the-university-door.marginalia"
+msgid ""
+"Aya called it “the first admissions gate guaranteeing successful loss.” "
+"Nitori objected that only eventual entry is guaranteed, not getting lost. "
+"Yukari drew a door between the two sentences. Reimu asked only whether the "
+"temporary crest required another production fee."
+msgstr "文把這套制度稱為「史上首個保證迷路成功率的招生入口」。荷取反駁保證的是最終能進，不是一定迷路；紫在兩句之間畫了一扇門。靈夢只問臨時校徽是否需要再付一次製作費。"
+
+#. campusHistory.kappa-cabinets-reveal-their-drawers.era
+#: src/data/campus-history.js:330
+msgctxt "text:campusHistory.kappa-cabinets-reveal-their-drawers.era"
+msgid "Next morning · First red-stamp inventory"
+msgstr "翌朝・紅印盤點第一刻"
+
+#. campusHistory.kappa-cabinets-reveal-their-drawers.title
+#: src/data/campus-history.js:331
+msgctxt "text:campusHistory.kappa-cabinets-reveal-their-drawers.title"
+msgid ""
+"Kappa cabinets must reveal every drawer, its weight, and the owner's red "
+"destruction stamp"
+msgstr "河童檔案櫃被迫把每個抽屜、重量與銷毀紅印交給本人"
+
+#. campusHistory.kappa-cabinets-reveal-their-drawers.summary
+#: src/data/campus-history.js:332
+msgctxt "text:campusHistory.kappa-cabinets-reveal-their-drawers.summary"
+msgid ""
+"Akyuu and Nitori catalogue fifty kinds of on-device files scattered across "
+"Admissions, Academic Affairs, the library, Eientei, housing, and research "
+"into nine official shelves, leaving one drawer for unregistered new paper. "
+"Each keeper can inspect raw contents, space used, storage location, and "
+"visibility. When moving to another Outside World machine, a kappa packing "
+"desk seals one JSON box with SHA-256, then checks version, keys, collisions, "
+"and seal before filing. Red stamps can destroy one file, one shelf, or "
+"everything, while any failed import must restore every paper it touched. "
+"Dream Affairs permits reverse-side files to appear only after they exist, "
+"but refuses to pack the six-hour paper-seam pass because “the ticket wakes "
+"before the box.”"
+msgstr ""
+"阿求與荷取把散落在申請處、課務組、圖書館、永遠亭、宿舍與研究工房的五十種本機卷宗編成九座正式資料架，另留一格給尚未登錄的新紙。每位使用者都能查看實際內容"
+"、占用空間、保存位置與誰能看見；搬往另一台外界機器時，河童封箱機以 SHA-256 印封成一份 "
+"JSON，入櫃前先查版本、鍵名、重複與封印。銷毀可逐份、逐架或全部落紅印，且失敗匯入必須把剛動過的紙完整放回。夢境校務處准許反面卷宗在確實存在後露面，卻"
+"拒絕讓六小時紙縫通行條裝箱，理由是門票比箱子先醒。"
+
+#. campusHistory.kappa-cabinets-reveal-their-drawers.marginalia
+#: src/data/campus-history.js:333
+msgctxt "text:campusHistory.kappa-cabinets-reveal-their-drawers.marginalia"
+msgid ""
+"Marisa asked whether one-click packing could also invent provenance for "
+"research materials of unknown origin. Nitori said the seal proves only that "
+"the box was unchanged after packing, not that its earlier story was true. "
+"Aya immediately changed her headline to “Kappa admits seal does not "
+"guarantee truth,” then noticed her own draft was listed in the cabinet."
+msgstr ""
+"魔理沙問「一鍵封箱」能否順便替來源不明的研究材料補出處；荷取說封印只能證明箱子從封好後沒被改，不會替封箱前的故事負責。文立即把標題改成《河童承認封印不保"
+"證真相》，然後發現自己的草稿也在資料櫃裡。"
+
+#. campusHistory.translation-keys-tie-the-red-ledger-thread.era
+#: src/data/campus-history.js:342
+msgctxt "text:campusHistory.translation-keys-tie-the-red-ledger-thread.era"
+msgid "Same morning · Translation Office's seventh return"
+msgstr "同朝・翻譯室第七次退件"
+
+#. campusHistory.translation-keys-tie-the-red-ledger-thread.title
+#: src/data/campus-history.js:343
+msgctxt "text:campusHistory.translation-keys-tie-the-red-ledger-thread.title"
+msgid ""
+"The Translation Office numbers every sentence; the campus ledger admits "
+"events have causes"
+msgstr "翻譯室給每句話編號，校務帳本則開始承認事情有前因"
+
+#. campusHistory.translation-keys-tie-the-red-ledger-thread.summary
+#: src/data/campus-history.js:344
+msgctxt "text:campusHistory.translation-keys-tie-the-red-ledger-thread.summary"
+msgid ""
+"The Translation Office finds four notices whose Chinese is identical while "
+"their English changes with the file, so navigation, page names, and "
+"accessibility labels receive punctuation-proof message seals. Meanwhile "
+"Akyuu registers all forty-five official campus event types: each must name "
+"its subject, the red thread joining its workflow, its immediate cause, and "
+"the files it references. Old ledgers gain threads in their original date "
+"order; nobody may rewrite what happened merely to make the shelves tidy. "
+"Search, Campus BBS, and My TU now consult the same domain roll, so a new "
+"office need not bribe three duty clerks separately. Dream Campus stamps “not "
+"for the official ledger” in the margin, then denies owning the stamp."
+msgstr ""
+"翻譯室查出四組中文完全相同、英譯卻因所在卷宗而不同的告示，於是替導覽、頁名與可及性標籤蓋上不受標點影響的訊息印。另一邊，阿求把四十五種正式校務事件逐項登"
+"記：每筆要寫明主體、同一流程的紅線、直接前因與旁涉卷宗；舊帳仍按原日期補線，不准為了整齊重寫發生過的事。搜尋室、校園 BBS 與 My TU "
+"也改查同一份領域名冊，新增辦公室不必再分別賄賂三位值班員。夢境校區在名冊角落蓋了「不進正式帳」的反印，然後否認那枚印屬於它。 "
+
+#. campusHistory.translation-keys-tie-the-red-ledger-thread.marginalia
+#: src/data/campus-history.js:345
+msgctxt "text:campusHistory.translation-keys-tie-the-red-ledger-thread.marginalia"
+msgid ""
+"Aya asked whether every future headline must disclose its cause. Akyuu "
+"replied that only campus events must. Yukari cut “campus event” into a "
+"Möbius strip; Marisa wrote “material provenance: add later” on its reverse."
+msgstr "文問往後每個標題是否都要交代前因；阿求回答只有校務事件需要。紫把「校務事件」四字剪成一條莫比烏斯紙帶，魔理沙則在背面寫上「材料來源：稍後補」。"
+
+#. campusHistory.five-records-share-one-red-thread.era
+#: src/data/campus-history.js:354
+msgctxt "text:campusHistory.five-records-share-one-red-thread.era"
+msgid "Same morning · Fifth mark of the Hieda indexing desk"
+msgstr "同朝・稗田索引開桌第五星"
+
+#. campusHistory.five-records-share-one-red-thread.title
+#: src/data/campus-history.js:355
+msgctxt "text:campusHistory.five-records-share-one-red-thread.title"
+msgid "Forty-nine leaves admit seven nuisances; none admit they describe the same events"
+msgstr "七件麻煩被四十九張紙同時承認，卻沒有一張肯承認自己寫的是同一件事"
+
+#. campusHistory.five-records-share-one-red-thread.summary
+#: src/data/campus-history.js:356
+msgctxt "text:campusHistory.five-records-share-one-red-thread.summary"
+msgid ""
+"Akyuu spreads incident files, equipment and evidence, news marginalia, "
+"governance rules, courses and research, BBS, holdings, housing, drift "
+"objects, spell-card defences, and the first-parent chronicle into seven "
+"cross-files. Visitors can invert the index by event, fifteen characters who "
+"left fingerprints, or version and time. Every linked leaf still returns to "
+"its original office; the index does not duplicate a more obedient truth. If "
+"this device really borrowed, voted, simulated, enrolled, or defended work, "
+"the official event ledger adds the keeper's own red thread and direct cause "
+"in the margin. Things never done stay blank. Governance motions also gain "
+"exact addresses, so opening the full-moon library rule no longer returns "
+"every visitor to the first airspace proposal."
+msgstr ""
+"阿求把事件案卷、設備與證物、新聞側記、校務規章、課程研究、BBS、館藏、住宿、漂流物、符卡答辯與主分支校史攤成七宗交叉案卷。訪客可按事件、十五位留下手印"
+"的角色，或 first-parent 版本／時間反查；每一張關聯紙仍翻回原來的辦公室，不在索引裡複製一份較聽話的真相。這台裝置若真的借過書、投過票、做過"
+"模擬、選過課或完成答辯，正式事件帳本還會在頁邊補出本人的紅線與直接前因；沒做過的事維持空白。校務議案也第一次取得自己的精確門牌，滿月圖書館規章不再每次都"
+"把訪客送到第一份空域提案。"
+
+#. campusHistory.five-records-share-one-red-thread.marginalia
+#: src/data/campus-history.js:357
+msgctxt "text:campusHistory.five-records-share-one-red-thread.marginalia"
+msgid ""
+"Aya titles it “Forty-nine exclusive reports on seven incidents.” Keine "
+"stamps fifteen different fingerprints beside “exclusive”; Nitori draws a "
+"route map for the red thread, which detours through the library at full "
+"moon. Akyuu adds one line: if five records agree perfectly, first check "
+"whether someone removed the other four."
+msgstr ""
+"文把索引稱為《七起事件的四十九次獨家報導》。慧音在「獨家」旁蓋了十五枚不同角色的手印；荷取替紅線畫了路由圖，結果線在滿月時繞去圖書館。阿求最後只補一句："
+"若五份記錄完全一致，請先檢查是不是有人把另外四份收走了。"
+
+#. campusHistory.five-seats-refuse-one-average.era
+#: src/data/campus-history.js:366
+msgctxt "text:campusHistory.five-seats-refuse-one-average.era"
+msgid "Same morning · Before the first observation"
+msgstr "同朝・第一觀測之前"
+
+#. campusHistory.five-seats-refuse-one-average.title
+#: src/data/campus-history.js:367
+msgctxt "text:campusHistory.five-seats-refuse-one-average.title"
+msgid ""
+"The five-seat board permits arguments about starting research and bans "
+"Akyuu's averaging stapler"
+msgstr "五席委員會准許研究開始爭論，並禁止阿求使用平均釘書機"
+
+#. campusHistory.five-seats-refuse-one-average.summary
+#: src/data/campus-history.js:368
+msgctxt "text:campusHistory.five-seats-refuse-one-average.summary"
+msgid ""
+"Eirin, Satori, Keine, Eiki, and Reimu open separate sheets before the first "
+"observation: risk and dose, mental privacy, historical erasure, rights and "
+"appeal, and whether a field rule can truly stop anything. Reisen's "
+"undisclosed wavelength, Satori's unrecorded mind-reading, Sakuya's "
+"zero-minute control, Keine's historical deletion, and Drift Reader 77's "
+"refusal of disassembly become the first five cases. Any seat may require "
+"revision; disputes and minority opinions may not be folded into a total "
+"score. Applicants keep drafts, versioned submissions, withdrawals, and "
+"printable rulings on-device, while four causal event types enter My TU. "
+"Campus BBS turns decisions into extras, the Incident Centre cites ethics "
+"addresses before ability intervention, and the Hieda Index leaves one red "
+"thread that consents for nobody."
+msgstr ""
+"永琳、覺、慧音、映姬與靈夢在第一筆觀測前各開一張審查紙：風險與劑量、精神隱私、史料刪除、權利申訴、以及現場規則是否真的喊得停。鈴仙的未告知波長試驗、覺的"
+"無筆記讀心、咲夜的零分鐘對照、慧音的歷史刪除與第七十七號漂流物的拆機拒絕成為首批五案；任何一席都能要求退修，爭議與少數意見不准折成一個總分。申請人可在本"
+"機保存草稿、逐版送審、撤回與列印，正式動作則以四類帶前因的事件進入 My TU。校園 BBS "
+"會把決議寫成速報，事件中心會在能力干預前引用原倫理門牌，稗田索引則替五宗案卷留下一條不替任何人同意的紅線。"
+
+#. campusHistory.five-seats-refuse-one-average.marginalia
+#: src/data/campus-history.js:369
+msgctxt "text:campusHistory.five-seats-refuse-one-average.marginalia"
+msgid ""
+"Aya prints “Five seats unanimously approve first protocol” nine minutes "
+"before the meeting. Their only unanimous act is returning the headline for "
+"revision. Marisa asks whether consent can be added after the experiment; "
+"Reimu turns the form over, where a very large “NO” occupies the reverse. "
+"After everyone signs, Drift Reader 77 displays: “I did not.”"
+msgstr ""
+"文在開會前九分鐘刊出《五席一致通過首案》；五席當時唯一一致的事，是要求標題退回修改。魔理沙問能否先做實驗再補同意，靈夢把申請表翻到背面，背面只有一個很大"
+"的「不行」。第七十七號閱讀器則在所有人簽完後顯示：『我沒有簽。』"
+
+#. campusHistory.six-desks-open-one-contested-gate.era
+#: src/data/campus-history.js:378
+msgctxt "text:campusHistory.six-desks-open-one-contested-gate.era"
+msgid "Same day · Nine minutes before the opening bell"
+msgstr "同日・開門鐘前九分鐘"
+
+#. campusHistory.six-desks-open-one-contested-gate.title
+#: src/data/campus-history.js:379
+msgctxt "text:campusHistory.six-desks-open-one-contested-gate.title"
+msgid "Six desks clear one lantern festival; three sole main gates all deny being late"
+msgstr "六桌准許一場燈會開幕，三扇唯一正門則同時宣稱自己沒有遲到"
+
+#. campusHistory.six-desks-open-one-contested-gate.summary
+#: src/data/campus-history.js:380
+msgctxt "text:campusHistory.six-desks-open-one-contested-gate.summary"
+msgid ""
+"The Spring Spell-card Lantern Festival and Boundary Matriculation Festival "
+"are no longer one calendar line. Organisers compose date, moon, procession, "
+"spell altitude and density, cues, stage, stalls, fairy zone, power, aid, "
+"sole gate, press, and poltergeist closing. Reimu, Nitori, Eirin, Aya, the "
+"Three-Faith Council, and the residence night desk review separately: one "
+"return can stop opening, while every condition and objection enters the "
+"permit intact. After the bell, early extras, votive-plaque power boxes, "
+"drifting fairy lanterns, airless poltergeist noise, full-moon book flocks, "
+"and rain boundaries each demand a field response. Choices alter attendance, "
+"delay, power, clinic presentations, and unresolved disputes. The live slip "
+"changes campus routing and Eientei load until closure; permits, duty, "
+"incidents, and reports enter the records cabinet, My TU, BBS, and Hieda's "
+"ninth cross-file."
+msgstr ""
+"春季符卡燈會與境界開學祭不再只是校曆上的一行。主辦人可編成日期、月相、遊行線、符卡高度與密度、預兆、舞台、攤位、妖精區、供電、急救、正門、通報與騷靈閉場"
+"；靈夢、荷取、永琳、文、三信仰會議與宿舍夜桌分開審查，任一退回都能阻止開祭，條件與異議則原樣進入正式許可。開門後，號外搶跑、奉納配電箱、漂走的妖精燈、無"
+"需空氣傳播的騷靈噪音、滿月書群與雨中境界會逐宗要求處置；選擇會改變到場、延誤、供電、候診與仍未解決的爭議。運行票同時接管校園路線與永遠亭負荷，結祭才釋放"
+"封路；許可、值班、事故與報告進入本機資料櫃、My TU、BBS 與稗田第九宗交叉案卷。"
+
+#. campusHistory.six-desks-open-one-contested-gate.marginalia
+#: src/data/campus-history.js:381
+msgctxt "text:campusHistory.six-desks-open-one-contested-gate.marginalia"
+msgid ""
+"Aya publishes “unanimously approved” nine minutes before the six desks ring. "
+"Akyuu counts one condition, two objections, and three rain-stuck annexes. "
+"Kanako says the voltage regulator proves Moriya owns the event; Byakuren "
+"leaves the gate to non-fliers; Miko has already heard ten opening speeches "
+"at once. Yukari draws a boundary between two minutes on the rota, giving the "
+"university two sole main gates in the same instant."
+msgstr ""
+"文在六桌敲鐘前九分鐘刊出「一致通過」；阿求數出一席條件、兩席異議與三張被雨黏住的附件。神奈子說穩壓器證明守矢才是主辦，白蓮把正門讓給不會飛的人，神子則已"
+"經同時聽完十份開幕辭。紫最後在輪值表兩分鐘之間畫了一道境界，於是本校第一次在同一瞬間擁有兩扇唯一正門。"
+
+#. campusHistory.twenty-four-seals-return-with-red-thread.era
+#: src/data/campus-history.js:390
+msgctxt "text:campusHistory.twenty-four-seals-return-with-red-thread.era"
+msgid "Same day · Before the twenty-fourth field seal dries"
+msgstr "同日・第二十四枚場地印尚未乾"
+
+#. campusHistory.twenty-four-seals-return-with-red-thread.title
+#: src/data/campus-history.js:391
+msgctxt "text:campusHistory.twenty-four-seals-return-with-red-thread.title"
+msgid "Twenty-four sites admit student work; none promise to happen according to dispatch"
+msgstr "二十四處場地准許學生前來工作，沒有一處保證自己會照派遣令發生"
+
+#. campusHistory.twenty-four-seals-return-with-red-thread.summary
+#: src/data/campus-history.js:392
+msgctxt "text:campusHistory.twenty-four-seals-return-with-red-thread.summary"
+msgid ""
+"Domestic placement is no longer a statistic saying eighteen on Admissions "
+"while no door can be found. Hakurei Shrine, the Village, Hieda residence, "
+"Kourindou, Misty Lake, Scarlet Devil Mansion, Forest of Magic, Alice's "
+"workshop, Garden of the Sun, Nameless Hill, Youkai Trail, Youkai Mountain, "
+"Genbu Ravine, Moriya Shrine, Giant Toad Pond, Myouren Temple, the Great "
+"Mausoleum, Eientei, Bamboo Forest, Hakugyokurou, Sanzu River, Old Capital, "
+"Chireiden, and the Blazing Hell ruins each receive a site file, entry rule, "
+"supervisor, equipment, work, risk, sources, and a seal that will not sign "
+"for conclusions. Applicants first state a question, ability use, and exit "
+"plan; Dispatch issues approval or conditions without averaging danger into "
+"one score. After check-in, twelve rotating complications demand a response "
+"that remains traceable, conditional, or contested. Return separates "
+"observation, testimony, inference, incident annex, and research use. The "
+"passport grants first-visit credit or a smaller return seal, while My TU, "
+"the cabinet, BBS, map, and Hieda's tenth cross-file preserve different "
+"papers from the same duty."
+msgstr ""
+"境內實習不再只是招生頁上寫著十八、實際卻找不到門的統計。博麗神社、人里、稗田邸、香霖堂、霧湖、紅魔館、魔法森林、愛麗絲工房、太陽花田、無名之丘、妖怪獸道"
+"、妖怪山、玄武澗、守矢神社、大蛤蟆池、命蓮寺、神靈廟、永遠亭、迷途竹林、白玉樓、三途川、舊都、地靈殿與灼熱地獄遺址各自取得場地檔案、入口規矩、帶隊人、裝"
+"備、工作、風險、來源與一枚不肯代替結論的印。申請人先填田野問題、能力使用與退場計畫；派遣桌只作核准或附條件，不把危險平均成總分。報到後，十二類現場偏差輪"
+"值出現，處置會留下可追溯、附條件或爭議結果；返校時還要分開親見、陳述、推測、事故附件與研究使用。完成後，護照收下首訪學分或再訪小印，My "
+"TU、資料櫃、BBS、校園地圖與稗田第十宗案卷則各保存同一趟外勤的不同紙面。"
+
+#. campusHistory.twenty-four-seals-return-with-red-thread.marginalia
+#: src/data/campus-history.js:393
+msgctxt "text:campusHistory.twenty-four-seals-return-with-red-thread.marginalia"
+msgid ""
+"Sakuya changes an eight-hour Scarlet dispatch to zero minutes; Keine "
+"restores eight hours of credit beside it. Youmu asks whether her phantom "
+"half needs another passport, and Yuyuko proposes half a seal in each. "
+"Rinnosuke appraises the passport as an Outside World folding stamp album and "
+"prices it; Reimu stamps “not valid toward donations” on the cover. Akyuu's "
+"red-thread note says only this: a return seal proves the problem came home, "
+"not that it became obedient."
+msgstr ""
+"咲夜在紅魔館派遣令上把八小時值勤改成零分鐘，慧音又在旁邊補回八小時學分；妖夢問半靈要不要另發一本護照，幽幽子建議先各蓋半枚印。霖之助替護照鑑定出『外界摺"
+"頁集章冊』的用途並標價，靈夢立即在封面加蓋『不得抵香油錢』。阿求最後用紅線註明：返校印只證明你把問題帶回來，不證明問題變乖了。"
+
+#. campusHistory.lost-things-appeal-mail-arrives-before-spring.era
+#: src/data/campus-history.js:402
+msgctxt "text:campusHistory.lost-things-appeal-mail-arrives-before-spring.era"
+msgid "Next day · Spring's receipt box remains empty"
+msgstr "翌日・春天的簽收欄仍是空白"
+
+#. campusHistory.lost-things-appeal-mail-arrives-before-spring.title
+#: src/data/campus-history.js:403
+msgctxt "text:campusHistory.lost-things-appeal-mail-arrives-before-spring.title"
+msgid ""
+"Lost things gain a chair, post keeps every version, and the calendar begins "
+"changing campus"
+msgstr "失物取得一張椅子、郵件保留每一版，學年曆開始真的改動校園"
+
+#. campusHistory.lost-things-appeal-mail-arrives-before-spring.summary
+#: src/data/campus-history.js:404
+msgctxt "text:campusHistory.lost-things-appeal-mail-arrives-before-spring.summary"
+msgid ""
+"Campus Commons places ten objects that refuse to wait quietly in Lost "
+"Property on the file rack: a resigned watch, fair-weather lost umbrella, "
+"bookmark lost by its book, overtime wrench, ribbon claimed by two phantom "
+"rolls, yesterday-bound rabbit ticket, labour-seeking beater, purpose-silent "
+"key, shared unwashed teacup, and two left earbuds sharing a serial. Claims "
+"require provenance, wear, and care. Kogasa, Rinnosuke, Akyuu, and Eiki "
+"separately review neglect, name and use, version provenance, and return "
+"responsibility; opinions are not averaged. Rulings persist locally and "
+"generate post. Tengu Post combines seeded notices, hearings, calendar "
+"reminders, and local dispatches in one inbox, retaining source, trust, "
+"version, delivery order, correction, read, pin, acknowledgement, and "
+"read-aloud consequences. The Gensokyo Academic Calendar arranges twelve "
+"annual sequences plus full-moon classes and new-moon boundary audits, "
+"projecting real date, time band, and moon into routes, facility seats, "
+"timetables, dining, and clinic load. Red bookmarks can save, print, and "
+"export iCalendar leaves, but cannot stop Hakugyokurou refusing spring."
+msgstr ""
+"校園公共服務館把十件不肯安靜待在失物箱裡的物件送上案卷架：辭職的懷錶、晴天報失的傘、被書弄丟的書籤、主張加班的扳手、兩份半靈名冊共同認領的髮帶、目的地為"
+"昨日的月兔車票、要求勞動關係的鼓棒、保持用途沉默的鑰匙、三方共用卻無人洗的茶杯，以及兩件共享序號的左耳耳機。領回人需留下來源、磨損與照護理由；小傘、霖之"
+"助、阿求與映姬分別審查冷落、名稱用途、版本來源與返還責任，意見不得平均。裁定會成為本機卷宗並生成郵件。鴉天狗通知中心把種子通知、物權聽證、曆葉提醒與本機"
+"寄件放進同一收件箱，每封信保留來源、可信度、版次、送達順序、訂正、已讀、釘選、簽收與朗讀後果。幻想鄉學年曆則排列十二組年度事件、滿月特講與朔月境界盤點，"
+"依實際日期、時段與月相投影到路網、館舍空位、課表、食堂與校醫負載；紅書籤可保存、列印或匯出 iCalendar，卻不能阻止白玉樓拒收春天。"
+
+#. campusHistory.lost-things-appeal-mail-arrives-before-spring.marginalia
+#: src/data/campus-history.js:405
+msgctxt "text:campusHistory.lost-things-appeal-mail-arrives-before-spring.marginalia"
+msgid ""
+"Kogasa first saves the umbrella a chair; Reimu asks whether the chair owes "
+"storage fees. Aya delivers “unanimous ruling” nine minutes before hearing, "
+"and Akyuu writes on the envelope that four seats hold four different "
+"opinions. Eiki does not withdraw the ruling; she adds the extra to next "
+"round's evidence. When Keine files the same letter in the calendar, its date "
+"lies in the week spring opening overlaps Hakugyokurou's snow objection. "
+"Yukari draws a boundary between “delivered” and “happened”; a crow tengu "
+"delivers the correction again above it."
+msgstr ""
+"小傘先替紙傘留了一張椅子，靈夢問那張椅子是否也能收保管費。文在聽證開始前九分鐘寄出『裁定一致通過』，阿求在信封背面補上四席其實有四種不同意見；映姬沒有撤"
+"回裁定，只把號外列入下一輪證物。慧音把同一封信夾進學年曆，才發現日期落在春季開學與白玉樓積雪異議重疊的那一週。紫最後把『已送達』和『已發生』之間畫成境界"
+"，鴉天狗從境界上方把訂正版又送了一次。"
+
+#. campusHistory.degree-arrives-nine-minutes-after-alumni-invitation.era
+#: src/data/campus-history.js:414
+msgctxt "text:campusHistory.degree-arrives-nine-minutes-after-alumni-invitation.era"
+msgid "Next day · Nine minutes after the alumni invitation arrived"
+msgstr "翌日・校友邀請已送達九分鐘"
+
+#. campusHistory.degree-arrives-nine-minutes-after-alumni-invitation.title
+#: src/data/campus-history.js:415
+msgctxt "text:campusHistory.degree-arrives-nine-minutes-after-alumni-invitation.title"
+msgid ""
+"Eight desks let a degree leave with its questions; Careers refuses to "
+"promise work will not become an incident first"
+msgstr "八席同意一份學位可以帶著問題離校，進路室則拒絕保證工作不會先變成異變"
+
+#. campusHistory.degree-arrives-nine-minutes-after-alumni-invitation.summary
+#: src/data/campus-history.js:416
+msgctxt "text:campusHistory.degree-arrives-nine-minutes-after-alumni-invitation.summary"
+msgid ""
+"Graduation is no longer one green tick. Credits and cores, methods work and "
+"exams, thesis or spell-card defence, research ethics, the twenty-four-site "
+"passport, holdings that refuse return, unfinished residence checkout, and "
+"incident, property, and chronology disputes each occupy a separate desk. "
+"Missing evidence blocks unsealing; conditions and disputes require explicit "
+"acceptance and print unchanged in the degree file. Dream Campus's "
+"plus-or-minus three credits never enter the official total, though they may "
+"show through the paper. Careers publishes twelve actual jobs—from Hakurei "
+"boundary care, Scarlet zero-minute archives, and Eientei night handover to "
+"Sanzu queue appeals—explaining both fit and friction while requiring the "
+"applicant's uncrossable line. An unsealed degree unlocks a Hyakki Yagyo "
+"alumni file: eight chapters organise by unresolved questions rather than "
+"species, lifespan, or death. Alumni may RSVP to the lantern procession and "
+"return as field mentors. When an invitation predates graduation or "
+"admission, Akyuu preserves both versions."
+msgstr ""
+"卒業不再由一個綠色勾勾決定。學分與核心課、方法作業與考試、論文或符卡答辯、研究倫理、二十四站田野護照、拒絕歸還的館藏、尚未退清的宿舍，以及事件、物權和年"
+"代爭議各佔一席；缺件會阻止開封，附條件與爭議則須本人明確接受並原樣印在學位卷。夢境校區的正負三學分永不進入正式總數，紙背卻可能留下透痕。進路室公開十二份"
+"真實工作：從博麗境界維護、紅魔館零分鐘檔案、永遠亭夜班交接，到三途川排隊申訴；媒合說明相合與摩擦，也要求申請人先寫下拒絕跨過的界線。學位開封後可建立百鬼"
+"夜行校友籍，八支部按仍未解決的問題而非物種、壽命或死亡狀態分組；校友可回覆提燈夜行、登記田野導師，若邀請早於卒業或入學，阿求保留兩個版本。"
+
+#. campusHistory.degree-arrives-nine-minutes-after-alumni-invitation.marginalia
+#: src/data/campus-history.js:417
+msgctxt "text:campusHistory.degree-arrives-nine-minutes-after-alumni-invitation.marginalia"
+msgid ""
+"Cirno forgets graduating three times and receives three certificates with "
+"one number; Keine converts two into attendance records. Remilia demands a "
+"“fate guarantees hire” field, and Careers adds “not an employment promise.” "
+"Aya prints the alumni roll nine minutes before the degree is unsealed. "
+"Yukari swaps its enrolment and graduation years; Akyuu does not correct "
+"them, only ties a red thread between both."
+msgstr ""
+"琪露諾第三次忘記自己已經畢業，於是連續取得三份同號證書；慧音把其中兩份改成出席紀錄。蕾米莉亞要求進路室提供「命運已保證錄取」欄，職員在旁加了「不構成雇用"
+"承諾」。文在學位開封前九分鐘刊出校友名冊；紫把名冊的入學年與畢業年交換，阿求沒有修正，只在兩個年份之間牽了一條紅線。"
+
+#. campusHistory.employment-denominator-refuses-one-rate.era
+#: src/data/campus-history.js:426
+msgctxt "text:campusHistory.employment-denominator-refuses-one-rate.era"
+msgid "Next day · The denominator hearing remains in session"
+msgstr "翌日・分母聽證尚未散席"
+
+#. campusHistory.employment-denominator-refuses-one-rate.title
+#: src/data/campus-history.js:427
+msgctxt "text:campusHistory.employment-denominator-refuses-one-rate.title"
+msgid ""
+"One hundred forty-six graduates leave more whereabouts; twenty-one notices "
+"conceal twenty-one views of work time"
+msgstr "一四六名卒業生留下更多份去向，二十一張招聘告示則各自藏著一種上班時間"
+
+#. campusHistory.employment-denominator-refuses-one-rate.summary
+#: src/data/campus-history.js:428
+msgctxt "text:campusHistory.employment-denominator-refuses-one-rate.summary"
+msgid ""
+"Careers no longer compresses graduate whereabouts into a percentage fit for "
+"a gate banner. Person, work-capable body, soul, registered name, and "
+"employer claim each define a denominator; noon, full moon, Higan week, an "
+"erased Wednesday, and a border-side swap alter the roll again. One graduate "
+"may receive yen, live in-house, work after death, be claimed by two "
+"employers, or be unmissing yet refuse observation, so valid statements may "
+"exceed the denominator. The rack publishes twenty-one roles: a Scarlet "
+"zero-minute night shift, day-129 kappa repair, posthumous Sanzu queue "
+"appeals, advance retraction of tomorrow's headline, mind-reading redaction, "
+"Yesterday Line crew, and a labour/property desk where the tool co-applies. "
+"Every file retains pay, strange clause, trial, and employer reply; "
+"odd-résumé drafts, first reviews, and applicant edition-two responses "
+"connect to Tengu Post, BBS, My TU, the on-device cabinet, and Hieda Index."
+msgstr ""
+"進路室不再把離校去向壓成一個適合校門布條的百分比。本人、可到班身體、魂魄、登記姓名與雇主口供各有一種分母；正午、滿月、彼岸週、被刪除的週三與境界換側又各"
+"自改動點名。同一位卒業生可以領日圓、住在館內、死後仍在職、被兩個雇主同時認領，或沒有失蹤而只是拒絕被觀測，因此有效口供的總數被允許大於分母。招聘告示架同"
+"時掛出二十一份工作：紅魔館的零分鐘夜班、河童工房第一百二十九日臨時維修、三途川死後排隊申訴、明日頭條預先撤回、心讀缺字速記、昨日線乘務，以及工具本人要求"
+"共同應徵的物權勞動桌。每份職缺保留薪資、怪條款、試工題與雇主回音；怪歷書會保存草稿、初審與本人第二版答覆，並聯動鴉天狗郵便、BBS、My "
+"TU、本機資料櫃與稗田索引。"
+
+#. campusHistory.employment-denominator-refuses-one-rate.marginalia
+#: src/data/campus-history.js:429
+msgctxt "text:campusHistory.employment-denominator-refuses-one-rate.marginalia"
+msgid ""
+"Remilia pre-counts twenty-three non-applicants as fate-guaranteed hires, and "
+"Sakuya schedules them all in the same zero minute; Eiki orders the claims "
+"separated. Youmu asks whether a half-phantom earns two wages, while Yuyuko "
+"asks whether two wages include two dinners. Nitori tapes a thirteenth layer "
+"behind the poster and declares it still temporary. Aya prints “University "
+"employment testimony reaches 119%.” Akyuu does not retract it; she adds one "
+"line below: the denominator is appealing."
+msgstr ""
+"蕾米莉亞先把二十三名尚未投遞的人算作命運保證錄用，咲夜把他們排進同一個零分鐘；映姬要求把兩件事分開。妖夢詢問半靈能否領兩份薪水，幽幽子則問兩份薪水是否附"
+"兩份晚餐。荷取在招聘海報背面貼上第十三層膠帶並宣布它仍是臨時版本。文以『本校就業口供達一一九％』刊出號外；阿求沒有撤稿，只在標題下加了一行：分母正在申訴"
+"。"
+
+#. campusHistory.every-vacancy-demands-own-sheet.era
+#: src/data/campus-history.js:438
+msgctxt "text:campusHistory.every-vacancy-demands-own-sheet.era"
+msgid "Same day · The duplicator files for its seventeenth break"
+msgstr "同日・影印機申請第十七次休息"
+
+#. campusHistory.every-vacancy-demands-own-sheet.title
+#: src/data/campus-history.js:439
+msgctxt "text:campusHistory.every-vacancy-demands-own-sheet.title"
+msgid ""
+"The remaining seventeen vacancies reject text-only classifieds and each "
+"occupy an old sheet"
+msgstr "其餘十七份職缺拒絕繼續當純文字分類廣告，並各自佔領一張舊紙"
+
+#. campusHistory.every-vacancy-demands-own-sheet.summary
+#: src/data/campus-history.js:440
+msgctxt "text:campusHistory.every-vacancy-demands-own-sheet.summary"
+msgid ""
+"Scarlet, kappa, Sanzu, and tengu are no longer the only employers with "
+"pictures. Hakurei mixes leaves with coins in one audit; Kourindou catalogues "
+"confident wrong uses; Eientei gives seven chart versions to one rabbit. "
+"Hakugyokurou seats refuse the half-phantom roll, and the underground library "
+"herds biting reference books. Three Moriya supervisors stamp separately, "
+"Myouren's table joins dinner mediation, Chireiden prints unwritable content "
+"as blanks, dolls and strings testify in separate seats, and a silent "
+"ensemble sends the third beat directly into a stagehand's mind. Melting ice, "
+"five-version history, living-fuel carts, not-yet-happened rumours, "
+"side-swapping customs doors, yesterday-bound rabbit transit, and co-applying "
+"tools each gain their own old sheet. All twenty-one posters leave exact "
+"trilingual copy to HTML, recruiting through ink, folds, blank boxes, and "
+"employer-specific trouble."
+msgstr ""
+"招聘架不再只有紅魔館、河童、三途川與鴉天狗擁有畫面。博麗神社把落葉與硬幣混進同一份稽核，香霖堂替錯誤用途辦商品目錄，永遠亭把七版交班病歷塞給同一隻月兔；"
+"白玉樓的座位拒絕配合半靈點名，地下圖書館則把會咬人的參考書列入牧養。守矢三位主管蓋了三個不同章，命蓮寺的桌子加入晚餐調停，地靈殿把不可寫內容印成缺字，人"
+"偶與操線分席陳述，無聲樂團把第三拍送進舞臺技師心裡。融化冰庫、五版校史、活燃料貓車、尚未發生的夜巡傳聞、會換側的海關門、通往昨天的月兔車與要求共同應徵的"
+"工具，也都取得自己的舊紙。二十一張海報仍把精確三語文字留給網頁，只用墨跡、摺痕、空白欄與各雇主的麻煩來招聘。"
+
+#. campusHistory.every-vacancy-demands-own-sheet.marginalia
+#: src/data/campus-history.js:441
+msgctxt "text:campusHistory.every-vacancy-demands-own-sheet.marginalia"
+msgid ""
+"Reimu asks whether a poster can substitute for offerings; Rinnosuke "
+"appraises it as an Outside job-finding machine of undiscovered use. Akyuu "
+"catalogues twenty-one sheets, and Aya prints “poster coverage reaches 105%.” "
+"The extra sheet is the duplicator's own leave request. Eiki accepts it, "
+"provided someone first decides whether the machine is a tool, employee, or "
+"contractor."
+msgstr ""
+"靈夢問海報能不能代替香油錢，霖之助判定海報是一種尚未發現用途的外界求職機。阿求把二十一張逐張編目，文隨即刊出『本校海報覆蓋率一○五％』；多出的那一張是影"
+"印機自己的休假申請。映姬准予受理，條件是先確認影印機算工具、員工，還是承包商。"
+
+#. campusHistory.appointment-scroll-becomes-four-readable-volumes.era
+#: src/data/campus-history.js:450
+msgctxt "text:campusHistory.appointment-scroll-becomes-four-readable-volumes.era"
+msgid "Fourteen days later · Line 679 still asks whether it was read"
+msgstr "十四日後・第六百七十九行仍在詢問是否已讀"
+
+#. campusHistory.appointment-scroll-becomes-four-readable-volumes.title
+#: src/data/campus-history.js:451
+msgctxt "text:campusHistory.appointment-scroll-becomes-four-readable-volumes.title"
+msgid ""
+"A new agent's appointment scroll becomes four volumes; no old rule is used "
+"to steady a desk"
+msgstr "新任代理人的任命卷被拆成四冊，舊規則沒有被拿去墊桌腳"
+
+#. campusHistory.appointment-scroll-becomes-four-readable-volumes.summary
+#: src/data/campus-history.js:452
+msgctxt "text:campusHistory.appointment-scroll-becomes-four-readable-volumes.summary"
+msgid ""
+"The Hieda archive audits a 679-line appointment scroll whose filename case "
+"can swap sides at the Outside gate. A standard lowercase AGENTS.md now does "
+"only one job: lead a new agent to the right shelf. CURRENT_STATE counts "
+"nineteen pages, seventy-one on-device keys, seventy-six event contracts, and "
+"twenty-one recruitment posters directly from source. AGENT_HANDBOOK "
+"preserves build order, data ownership, local repainting, three languages, "
+"deep links, printing, first-parent history, and release procedure; the old "
+"long scroll moves intact into the domain-rules volume rather than being "
+"discarded for being hard to read. ROADMAP identifies itself as "
+"implementation history instead of tomorrow's work order, the research index "
+"says which note to open, and CHANGELOG moves onto the formal shelf that "
+"travels with a clone. Finally, kappa-made docs:status counts from evidence "
+"while check:docs catches stale figures, missing volumes, and disagreement "
+"between research mirrors. Handoff no longer depends on an Outside human "
+"remembering to explain line 679."
+msgstr ""
+"稗田檔案室審查了那份長達六百七十九行、檔名大小寫還會在外界門口換邊的任命卷。從此，標準小寫的 AGENTS.md "
+"只負責把新任代理人帶到正確書架；CURRENT_STATE 用來源程式當場清點十九個頁面、七十一個本機鍵、七十六份事件契約與二十一張招聘海報；AGENT"
+"_HANDBOOK 保存建置、資料所有權、局部重繪、三語、深連結、列印、first-parent "
+"校史與發佈順序；原本的長卷則完整收進領域規則冊，沒有因為難讀就被丟掉。ROADMAP "
+"正名為實施史而不再假裝是下一張派工單，研究索引告訴人應讀哪份筆記，CHANGELOG 也搬進可隨 clone 帶走的正規檔案架。最後，河童製作的 "
+"docs:status 從來源報數，check:docs 專門抓過期數字、失蹤卷冊與兩邊研究鏡像的分歧；交接因此不再依賴某位外界人類記得解釋第六百七十九"
+"行。"
+
+#. campusHistory.appointment-scroll-becomes-four-readable-volumes.marginalia
+#: src/data/campus-history.js:453
+msgctxt "text:campusHistory.appointment-scroll-becomes-four-readable-volumes.marginalia"
+msgid ""
+"Aya immediately prints: “Administrative manual shortened 96%; actual volume "
+"count quadruples!” Akyuu notes beneath it that volume one is only the index. "
+"Keine corrects “fifty on-device keys” to seventy-one, then orders everyone "
+"not to copy that number by hand again. Yukari connects the uppercase "
+"AGENTS.MD door to lowercase AGENTS.md and denies they were ever one door. "
+"Marisa edits a generated page directly; one build restores it. She writes in "
+"the handbook margin: “reproducible, therefore impossible to steal.”"
+msgstr ""
+"文立刻刊出號外：『校務手冊縮短九成六，實際冊數增至四倍！』阿求在標題下補註第一冊只是目錄；慧音把「五十個本機鍵」訂正成七十一，隔天又要求任何人不得手抄這"
+"個數字。紫把大寫 AGENTS.MD 的門接到小寫 AGENTS.md，並否認兩扇門曾是同一扇。魔理沙試著直接改生成後的頁面，建置一次便把字變回來；她因"
+"此在手冊空白處寫下：『可重現，偷不走。』"
+
+#. campusHistory.three-language-desks-return-the-strangeness.era
+#: src/data/campus-history.js:462
+msgctxt "text:campusHistory.three-language-desks-return-the-strangeness.era"
+msgid "Next day · Three campus desks change pens at once"
+msgstr "次日・三座校務窗口同時換筆"
+
+#. campusHistory.three-language-desks-return-the-strangeness.title
+#: src/data/campus-history.js:463
+msgctxt "text:campusHistory.three-language-desks-return-the-strangeness.title"
+msgid "Three languages begin speaking naturally, and the campus becomes stranger"
+msgstr "三種語言各自說得自然，校園反而顯得更怪了"
+
+#. campusHistory.three-language-desks-return-the-strangeness.summary
+#: src/data/campus-history.js:464
+msgctxt "text:campusHistory.three-language-desks-return-the-strangeness.summary"
+msgid ""
+"The Hieda archive divides every public notice among Traditional Chinese, "
+"Japanese, and English review desks; each returns twenty-five red-pencil "
+"slips. The Traditional Chinese desk restores the local administrative voice "
+"of admissions, posts, boards, saving, and live operations. The Japanese desk "
+"separates Gensokyo-wide placements from shrine precincts and seats "
+"waitlists, GPA, the university hospital, and the campus paper where they "
+"belong. The English desk rewrites the motto, admissions, research, care, "
+"character portraits, and course descriptions that sounded carried over from "
+"another grammar. Admissions, BBS, academics, care, fieldwork, festivals, "
+"ethics, the library, and careers now sound like themselves in all three "
+"languages. Only awkward phrasing leaves the register: self-reshelving books, "
+"graduates who refuse a fixed denominator, side-swapping gates, open-book "
+"source criticism, and character-made trouble all remain. The university "
+"adopts a copy rule: strangeness must come from Gensokyo's institutions, "
+"people, and consequences, never from the shadow of a translation pretending "
+"to be worldbuilding."
+msgstr ""
+"稗田資料室把所有公開告示分送到繁體中文、日文與英文三座校閱桌，每桌交回二十五張紅筆單。繁中桌讓招生資訊、貼文、看板、儲存與現場運作回到本地校務語感；日文"
+"桌把幻想鄉域內實習和神社境內分開，也讓キャンセル待ち、GPA、附屬醫院與學內報各歸其位；英文桌則重寫校訓、入學、研究、診療、角色小傳與那些像是從另一種語"
+"法直搬過來的課程說明。招生、BBS、學術、診療、野外調查、祭典、倫理、圖書館與進路室因此在三種語言裡都像自己。被修走的只有語病：會自行歸架的書、拒絕固定"
+"分母的卒業生、換側的校門、開卷資料批判和角色各自惹出的麻煩一件也沒有減少。校方由此確認，怪異必須來自幻想鄉的制度、人物與後果，不能讓翻譯的影子冒充世界觀"
+"。"
+
+#. campusHistory.three-language-desks-return-the-strangeness.marginalia
+#: src/data/campus-history.js:465
+msgctxt "text:campusHistory.three-language-desks-return-the-strangeness.marginalia"
+msgid ""
+"Aya's extra reads, “University removes seventy-five anomalies overnight.” "
+"Akyuu demands a correction: awkward phrasing was removed; every anomaly "
+"remains enrolled. Marisa steals the English desk's red pencil and adds "
+"“open-library, if the books consent” beside “open-book source criticism.” "
+"Patchouli permits the second clause to remain and merely returns the comma "
+"to its proper place."
+msgstr ""
+"文的號外寫著：『本校一夜刪除七十五項怪異。』阿求要求更正——刪掉的是語病，怪異全數仍在籍。魔理沙順走英文桌的紅筆，在「open-book source "
+"criticism」旁補上「open-library, if the books consent」；帕秋莉准予保留後半句，只把逗號移回原位。"
+
+#. campusHistory.longest-answer-loses-its-uniform.era
+#: src/data/campus-history.js:474
+msgctxt "text:campusHistory.longest-answer-loses-its-uniform.era"
+msgid "That afternoon · The answer sheet stops marching in formation"
+msgstr "同日下午・答題卡不再列隊行進"
+
+#. campusHistory.longest-answer-loses-its-uniform.title
+#: src/data/campus-history.js:475
+msgctxt "text:campusHistory.longest-answer-loses-its-uniform.title"
+msgid "Correct answers shed their longest uniforms; wrong answers learn to argue"
+msgstr "正確答案脫下最長的制服，錯誤答案也學會據理力爭"
+
+#. campusHistory.longest-answer-loses-its-uniform.summary
+#: src/data/campus-history.js:476
+msgctxt "text:campusHistory.longest-answer-loses-its-uniform.summary"
+msgid ""
+"Keine discovers that the eight papers—despite testing different versions, "
+"moons, testimonies, routes, and observations—leak their answers elsewhere. "
+"The fullest, most cautious, longest sentence is usually correct, while A, B, "
+"C, and D patrol the answer sheet in perfect order. Patchouli therefore "
+"requires every distractor to commit one diagnosable error: use the right "
+"clue under the wrong rule, omit one necessary condition, turn sequence into "
+"cause, claim more than the dossier permits, or dismantle a whole barrier "
+"when reversible isolation would suffice. Traditional Chinese, Japanese, and "
+"English are revised together. NORMAL keeps one-step judgments; HARD joins "
+"conditions; LUNATIC reconciles conflicting sources; EXTRA asks about version "
+"lineage, telemetry, missingness, and identifiable causal designs. Eight "
+"balanced answer schedules stop cycling, all forty-eight offline files are "
+"reprinted, old draft choices are sealed locally for confirmation, and old "
+"results remain scored by their original positions so new wording cannot "
+"impersonate a past option."
+msgstr ""
+"慧音發現八份統一試卷雖然各自考版本、月相、證詞、路網與觀測，答案卻在另一處洩題：最完整、最謹慎、穿得最長的那一句往往就是正解，而且 A、B、C、D "
+"還會沿整張答題卡規律巡邏。於是帕秋莉要求每個錯誤選項都必須犯一種可診斷的錯——用對線索卻套錯規則、少一個必要條件、把先後當因果、把結論推得比材料更遠，或"
+"在只需隔離觀察時直接拆掉整座結界。繁中、日文與英文三份題面一同改寫；NORMAL 保留單一步驟，HARD 結合條件，LUNATIC "
+"調解互相衝突的材料，EXTRA 則追問版本鏈、遙測、缺失值與足以辨認因果的設計。八張答案表各自採用平衡但不循環的排列，四十八份離線卷重新印製；舊草稿的選"
+"擇被封存在本機並請考生重新確認，舊成績則仍按當時的答案位置核對，不讓新版文字冒充過去的選項。"
+
+#. campusHistory.longest-answer-loses-its-uniform.marginalia
+#: src/data/campus-history.js:477
+msgctxt "text:campusHistory.longest-answer-loses-its-uniform.marginalia"
+msgid ""
+"Aya's extra claims, “Correct answers shrink thirty percent; scholarship "
+"rises thirty percent.” Akyuu crosses out the second clause and notes that "
+"wrong answers have merely learned to finish their arguments. Marisa steals "
+"an old draft and finds that the office has not turned her former B into the "
+"new D—only a request to confirm it again. She accuses examinations of "
+"obstructing spontaneous answer evolution. Patchouli replies: answers may "
+"evolve; evidence chains may not mutate."
+msgstr ""
+"文的號外宣稱：『本校正解平均縮短三成，學力同步提升三成。』阿求把後半句劃掉，補註錯誤答案只是終於學會把話說完。魔理沙偷走一份舊草稿，發現校方沒有替她把 "
+"B 猜成新版的 D，只留下一張「請重新確認」；她因此指控試務處妨礙答案自行進化。帕秋莉回覆：答案可以進化，證據鏈不得變種。"
+
+#. campusHistory.ninth-paper-appears-on-the-reverse.era
+#: src/data/campus-history.js:486
+msgctxt "text:campusHistory.ninth-paper-appears-on-the-reverse.era"
+msgid "After the ninth strike that day · The unsigned slip finally turns over"
+msgstr "同日第九響後・那張無署名紙條終於翻面"
+
+#. campusHistory.ninth-paper-appears-on-the-reverse.title
+#: src/data/campus-history.js:487
+msgctxt "text:campusHistory.ninth-paper-appears-on-the-reverse.title"
+msgid "A ninth paper reaches those who finish EXTRA; Exams denies printing it on the front"
+msgstr "考完 EXTRA 的人收到第九份試卷，試務處否認它曾在正面印刷"
+
+#. campusHistory.ninth-paper-appears-on-the-reverse.summary
+#: src/data/campus-history.js:488
+msgctxt "text:campusHistory.ninth-paper-appears-on-the-reverse.summary"
+msgid ""
+"Years ago, the first candidate to ask where PHANTASM was received only an "
+"unsigned slip: “Finish EXTRA first.” Now, after earning all six dream seals "
+"and submitting either ordinary EXTRA paper, its reverse reveals a common "
+"examination of nine questions, three parts, and 150 marks. It is untimed "
+"because the ninth strike has never promised that time moves forward. Part "
+"one separates official closures from reverse-side sources; part two keeps "
+"contradictions local without letting them prove unrelated claims; part three "
+"asks when a simulation of an untaken route may speak causally. When Doremy "
+"consumes a paragraph, the blank is filed with its missingness mechanism. "
+"Keine catalogues mutually exclusive histories without retrying either case. "
+"Yukari links one source across a boundary but forbids its authority from "
+"being smuggled through. Reimu stamps every result “Not valid outside the "
+"dream boundary.” Blank papers and annotated results can be printed inside "
+"the dream, and drafts and scores keep their own files; My TU, the official "
+"transcript, and the campus event ledger nevertheless agree that the "
+"examination never happened."
+msgstr ""
+"多年前第一位追問 PHANTASM 的考生，只收到一句『先把 EXTRA 寫完』。如今，完成六枚夢境封印並交過任一普通 EXTRA "
+"卷的人，會在夢境校區看見紙條背面顯出九題、三部分、一百五十分的共同卷；不設時限，因第九響從未保證時間向前。第一部分要求把正式結案與反面史料分開保存，第二"
+"部分准許矛盾留在原案卻禁止它證明無關命題，第三部分追問未選路線的模擬何時才有資格談因果。多蕾米吃掉一段夢後，空白必須連同缺失機制入檔；慧音替互相排斥的歷"
+"史編目，不替其中一份翻案；紫讓同一來源跨過邊界，卻不准效力跟著偷渡；靈夢則在每張成績紙蓋上『夢境邊界外無效』。空白卷與批註可以在夢中列印，草稿與成績也各"
+"有檔案，但 My TU、正式成績單與校務事件帳本一致聲稱這場考試沒有發生。"
+
+#. campusHistory.ninth-paper-appears-on-the-reverse.marginalia
+#: src/data/campus-history.js:489
+msgctxt "text:campusHistory.ninth-paper-appears-on-the-reverse.marginalia"
+msgid ""
+"Aya publishes “PHANTASM pass rate: 100%” nine minutes before submission. "
+"Asked for her denominator, she points to an answer sheet whose text has not "
+"appeared. Marisa slips the dream's 150 marks into her official transcript; "
+"the page turns itself over, leaving only “sources may be shared; authority "
+"may not.” Reimu returns it, and Doremy eats the rejection stamp. Keine adds "
+"a field: return occurred; seal currently missing."
+msgstr ""
+"文在考生交卷前九分鐘刊出『PHANTASM 合格率百分之百』，阿求問她分母從哪來；文指向一張尚未顯字的答題紙。魔理沙試圖把夢境的一百五十分夾進正式成績單"
+"，紙張自行翻面，只剩一句『來源可以共用，效力不可』。靈夢把它退回，多蕾米順手吃掉退件章；慧音只好新增一欄：退件已發生，印章目前缺失。"
+
+#. campusHistory.style-ledgers-leave-the-front-desk.era
+#: src/data/campus-history.js:498
+msgctxt "text:campusHistory.style-ledgers-leave-the-front-desk.era"
+msgid "Gensokyo 142 · Eighth Moon · General Affairs reshelves the front desk"
+msgstr "幻想曆一四二年・葉月・總務搬櫃日"
+
+#. campusHistory.style-ledgers-leave-the-front-desk.title
+#: src/data/campus-history.js:499
+msgctxt "text:campusHistory.style-ledgers-leave-the-front-desk.title"
+msgid "Nineteen campus doors stay put; twenty style ledgers finally leave the entrance"
+msgstr "十九扇校門留在原位，二十冊樣式簿終於搬離門口"
+
+#. campusHistory.style-ledgers-leave-the-front-desk.summary
+#: src/data/campus-history.js:500
+msgctxt "text:campusHistory.style-ledgers-leave-the-front-desk.summary"
+msgid ""
+"General Affairs finally admits that the twenty style ledgers scattered "
+"across the entrance desk are not part of the nineteen campus doors. The "
+"nineteen public route placards stay where they are so old bookmarks, campus "
+"routes, and boundary entrances still reach the same doors; shared and "
+"page-specific styles move into the assets/css cabinet, while the page master "
+"is filed under src/templates. Each build still prints from src/styles and "
+"sections and now removes legacy root ledgers. Visitors follow exactly the "
+"same routes; maintainers can finally distinguish source from issued copies "
+"by the shelf they occupy."
+msgstr ""
+"總務處終於承認散在校門前的二十冊樣式簿並不是十九扇門的一部分。十九張對外門牌仍留在原位，讓舊書籤、校內路線與境界入口繼續找到同一扇門；共享與逐頁樣式則搬"
+"進 assets/css 的資料櫃，頁面母版歸入 src/templates。每次抄印仍從 src/styles 與 sections "
+"取原稿，並會撤走舊的根目錄樣式簿。訪客看見的路線沒有改變，維護員卻終於能從書架位置分清原稿與發行本。"
+
+#. campusHistory.style-ledgers-leave-the-front-desk.marginalia
+#: src/data/campus-history.js:501
+msgctxt "text:campusHistory.style-ledgers-leave-the-front-desk.marginalia"
+msgid ""
+"Aya's extra reads, “Twenty documents removed from the gate; access "
+"efficiency up 105%.” Akyuu strikes the second clause and notes that the "
+"style ledgers merely moved into a cabinet. Marisa proposes putting all "
+"nineteen doors in the same folder. Reimu replies that then nobody would "
+"actually be able to enter."
+msgstr ""
+"文的號外寫著「校門口文件減少二十份，通行效率提升百分之一百零五」。阿求把後半句劃掉，註明只是把樣式簿搬進櫃子。魔理沙提議既然如此乾脆把十九扇門也塞進同一"
+"個資料夾；靈夢回答：那樣大家就真的進不來了。"
+
+#. campusHistory.first-bell-keeps-three-fields.era
+#: src/data/campus-history.js:510
+msgctxt "text:campusHistory.first-bell-keeps-three-fields.era"
+msgid "Gensokyo 142 · Before the Ninth Moon · First Bell trial"
+msgstr "幻想曆一四二年・長月前・第一鐘試響日"
+
+#. campusHistory.first-bell-keeps-three-fields.title
+#: src/data/campus-history.js:511
+msgctxt "text:campusHistory.first-bell-keeps-three-fields.title"
+msgid "A newcomer carries one admission through three gates; Arrival permits one bell"
+msgstr "新生帶著同一份錄取通知走進三扇門，到着室只准敲一聲鐘"
+
+#. campusHistory.first-bell-keeps-three-fields.summary
+#: src/data/campus-history.js:512
+msgctxt "text:campusHistory.first-bell-keeps-three-fields.summary"
+msgid ""
+"The New Student Arrival Office sets a First Bell file beside Hakurei Gate "
+"and refuses to copy “admission letter sent” into “student arrived.” Only a "
+"formal admitted review on this device opens the file; conditional, "
+"supplementary, and unreviewed editions remain in their original fields, "
+"undiluted by festive welcome copy. A newcomer first uses the live map to "
+"find a route that truly reaches the admitting school today, then separately "
+"chooses a stop signal they can recognise and a detour notice they will "
+"personally verify. At last they choose a first real act after admission: a "
+"course, shared living, a society, or festival operations. Akyuu cites "
+"identity, application, and review numbers without copying their prose. "
+"Bunbunmaru receives a nameless arrival count, never the application "
+"question. The official ledger keeps four causes in order: opening the file, "
+"confirming the route, confirming the way back, and ringing the bell. Welcome "
+"no longer claims every gate is one gate; it teaches each newcomer how to "
+"stop, return, and continue when a gate changes."
+msgstr ""
+"新生到着室在博麗門旁擺出第一鐘報到卷，拒絕把「錄取信已寄出」直接抄成「本人已抵達」。只有這台裝置上的正式錄取評議能開封卷宗；有條件錄取、待補件與尚未審查"
+"的版本仍留在原欄，不能被一段熱鬧的歡迎詞沖淡。新生先從當值地圖找出今日真的走得通的學院路線，再分開選一種本人能辨認的停止信號與一種會親自覆核的改道通知，"
+"最後把第一門課、共同生活、社團或祭典營運選作入學後第一件真事。阿求只在卷上引用身分、申請與評議編號；文文。校報拿得到不含姓名的到着總數，拿不到申請問題；"
+"校園事件帳本則依開卷、認路、確認退路、敲鐘四步留下因果。於是「歡迎」第一次不是把所有門說成同一扇，而是讓每位新生知道門變了時如何停下、回頭，再繼續走。"
+
+#. campusHistory.first-bell-keeps-three-fields.marginalia
+#: src/data/campus-history.js:513
+msgctxt "text:campusHistory.first-bell-keeps-three-fields.marginalia"
+msgid ""
+"Aya publishes “First Bell arrival rate: 100%” before the first newcomer "
+"arrives. Asked for the denominator, she points to a blank file and promises "
+"to add it later. Yukari arranges three self-declared sole main gates along "
+"one route; Reimu draws a vermilion cord before the second—routes may change, "
+"stop signals may not. Marisa chooses a first course and borrows the bell "
+"striker for a resonance experiment. Arrival adds one field: student present; "
+"striker outstanding."
+msgstr ""
+"文在第一位新生尚未抵達前刊出「第一鐘到着率百分之一百」；阿求問分母，文指著空白卷說預計稍後補上。紫把三扇自稱唯一的正門排成同一條路，靈夢在第二扇前拉起朱"
+"繩：路線可以改，停止信號不行。魔理沙選了第一門課，順手把鐘槌借去做共振實驗；報到室在她的卷尾補了一欄——本人已到，鐘槌待歸。"
+
+#. text:campusHistory.three-desks-get-separate-type-cases.era
+#: src/data/campus-history.js:524
+msgctxt "text:campusHistory.three-desks-get-separate-type-cases.era"
+msgid "Gensokyo 142 · Tenth Moon · Three-language typesetting day"
+msgstr "幻想曆一四二年・神無月・三語排字日"
+
+#. text:campusHistory.three-desks-get-separate-type-cases.title
+#: src/data/campus-history.js:525
+msgctxt "text:campusHistory.three-desks-get-separate-type-cases.title"
+msgid "Three review desks receive type cases; issued copies leave the entrance"
+msgstr "三座校閱桌各有字盤，校門前不再堆放發行本"
+
+#. text:campusHistory.three-desks-get-separate-type-cases.summary
+#: src/data/campus-history.js:526
+msgctxt "text:campusHistory.three-desks-get-separate-type-cases.summary"
+msgid ""
+"The Hieda archive separates three-language notices from admissions, course, "
+"clinic, and chronicle procedures. Each entry retains its source location and "
+"fixed number. Missing translations, lost insertion fields, and unreviewed "
+"red-pencil notes cannot enter the issued copy. Kappa typesetting machinery "
+"prints from each domain’s type case; General Affairs packs pages, styles, "
+"and offline papers into one publication box. Manuscripts, images, and "
+"research notes return to their own shelves. Campus addresses and older "
+"student records remain recognisable, and the next reviewer can finally find "
+"the line that needs attention."
+msgstr ""
+"稗田資料室把夾在招生、課程、診療與校史章程裡的三語告示分冊收藏。每一條仍帶著原卷位置與固定編號；少一份譯文、漏一個代填欄，或尚待覆核的紅筆，都不能混進發"
+"行本。河童排字機按各領域的字盤重印，總務處再把頁面、樣式與離線試卷一同裝入發行匣；原稿、圖像與研究筆記各歸原架。校門的門牌與學生的舊記錄照常辨認，下一位"
+"校閱員則終於能先找到該改的那一行。"
+
+#. text:campusHistory.three-desks-get-separate-type-cases.marginalia
+#: src/data/campus-history.js:527
+msgctxt "text:campusHistory.three-desks-get-separate-type-cases.marginalia"
+msgid ""
+"Aya announces three times as many notices; Akyuu notes that only the type "
+"cases were separated. Marisa takes one piece of English type, stopping the "
+"press over a mismatched field. Patchouli asks her to return the brace. "
+"Yukari reconnects the publication box to the same twenty gates and refuses "
+"to add “inside the box” to their addresses."
+msgstr ""
+"文宣布本校新增三倍告示，阿求註明只是分開字盤。魔理沙換走英文桌的一枚活字；排字機因欄位不齊拒絕開印，帕秋莉請她先把那個大括號還回來。紫把發行匣接回原來的"
+"二十扇門，並拒絕替每扇門加上「匣內」二字。"

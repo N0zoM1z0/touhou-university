@@ -1,0 +1,2068 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. appraisalDestinations.library.name
+#: src/data/appraisal.js:22
+msgctxt "text:appraisalDestinations.library.name"
+msgid "Misty Lake Outside-Object Cabinet"
+msgstr "霧の湖図書館・外界物庫"
+
+#. appraisalDestinations.library.note
+#: src/data/appraisal.js:23
+msgctxt "text:appraisalDestinations.library.note"
+msgid "Retain provenance, dissent, and operating limits for reference access."
+msgstr "来歴・異議・操作制限を残して閲覧公開。"
+
+#. appraisalDestinations.kourindou.name
+#: src/data/appraisal.js:27
+msgctxt "text:appraisalDestinations.kourindou.name"
+msgid "Kourindou Consignment Shelf"
+msgstr "香霖堂委託棚"
+
+#. appraisalDestinations.kourindou.note
+#: src/data/appraisal.js:28
+msgctxt "text:appraisalDestinations.kourindou.note"
+msgid "It may receive a price, though Rinnosuke may still mark it “not for sale yet.”"
+msgstr "値札は付けられるが、霖之助は「当面非売品」と書ける。"
+
+#. appraisalDestinations.kappa.name
+#: src/data/appraisal.js:32
+msgctxt "text:appraisalDestinations.kappa.name"
+msgid "Kappa Reversible Retrofit Bench"
+msgstr "河童工房・可逆改造台"
+
+#. appraisalDestinations.kappa.note
+#: src/data/appraisal.js:33
+msgctxt "text:appraisalDestinations.kappa.note"
+msgid "Only removable adapters are approved; tape is not automatically reversible."
+msgstr "元へ戻せる接続部品のみ承認。テープは自動的に可逆とは見なさない。"
+
+#. appraisalDestinations.museum.name
+#: src/data/appraisal.js:37
+msgctxt "text:appraisalDestinations.museum.name"
+msgid "Hieda Everyday-History Cabinet"
+msgstr "稗田史学館・生活史庫"
+
+#. appraisalDestinations.museum.note
+#: src/data/appraisal.js:38
+msgctxt "text:appraisalDestinations.museum.note"
+msgid "An Outside life may be preserved without restoring operation."
+msgstr "機能を戻さなくても、外界の暮らしは保存できる。"
+
+#. appraisalDestinations.sealed.name
+#: src/data/appraisal.js:42
+msgctxt "text:appraisalDestinations.sealed.name"
+msgid "Deferred-Operation Seal Bag"
+msgstr "操作保留封印袋"
+
+#. appraisalDestinations.sealed.note
+#: src/data/appraisal.js:43
+msgctxt "text:appraisalDestinations.sealed.note"
+msgid "Used for private contents, unknown power, or an object beginning to refuse."
+msgstr "私的内容・未知の動力・拒否反応がある場合に使用。"
+
+#. appraisalAgencyLevels.none
+#: src/data/appraisal.js:48
+msgctxt "text:appraisalAgencyLevels.none"
+msgid "No autonomous response observed"
+msgstr "自律反応なし"
+
+#. appraisalAgencyLevels.watch
+#: src/data/appraisal.js:49
+msgctxt "text:appraisalAgencyLevels.watch"
+msgid "Continued observation required"
+msgstr "継続観察が必要"
+
+#. appraisalAgencyLevels.stirring
+#: src/data/appraisal.js:50
+msgctxt "text:appraisalAgencyLevels.stirring"
+msgid "Possible will formation"
+msgstr "意思形成の兆候"
+
+#. appraisalAgencyLevels.objected
+#: src/data/appraisal.js:51
+msgctxt "text:appraisalAgencyLevels.objected"
+msgid "Explicitly objected to disposition"
+msgstr "処置へ明確に異議"
+
+#. appraisalReviewers.rinnosuke.name
+#: src/data/appraisal.js:56
+msgctxt "text:appraisalReviewers.rinnosuke.name"
+msgid "Rinnosuke Morichika"
+msgstr "森近霖之助"
+
+#. appraisalReviewers.rinnosuke.role
+#: src/data/appraisal.js:57
+msgctxt "text:appraisalReviewers.rinnosuke.role"
+msgid "Name and purpose examiner"
+msgstr "名称・用途鑑別"
+
+#. appraisalReviewers.ran.name
+#: src/data/appraisal.js:60
+msgctxt "text:appraisalReviewers.ran.name"
+msgid "Ran Yakumo"
+msgstr "八雲藍"
+
+#. appraisalReviewers.ran.role
+#: src/data/appraisal.js:61
+msgctxt "text:appraisalReviewers.ran.role"
+msgid "Boundary provenance and version cataloguing"
+msgstr "越境来歴・版目録"
+
+#. appraisalReviewers.nitori.name
+#: src/data/appraisal.js:64
+msgctxt "text:appraisalReviewers.nitori.name"
+msgid "Nitori Kawashiro"
+msgstr "河城にとり"
+
+#. appraisalReviewers.nitori.role
+#: src/data/appraisal.js:65
+msgctxt "text:appraisalReviewers.nitori.role"
+msgid "Mechanism and reversible retrofit"
+msgstr "機構・可逆改造"
+
+#. appraisalReviewers.kogasa.name
+#: src/data/appraisal.js:68
+msgctxt "text:appraisalReviewers.kogasa.name"
+msgid "Kogasa Tatara"
+msgstr "多々良小傘"
+
+#. appraisalReviewers.kogasa.role
+#: src/data/appraisal.js:69
+msgctxt "text:appraisalReviewers.kogasa.role"
+msgid "Forgotten-tool lived-experience adviser"
+msgstr "忘れられた道具の当事物顧問"
+
+#. appraisalObjects.thermal-printer.name
+#: src/data/appraisal.js:78
+msgctxt "text:appraisalObjects.thermal-printer.name"
+msgid "Small printer with no ink"
+msgstr "インクのない小型印刷機"
+
+#. appraisalObjects.thermal-printer.workingTitle
+#: src/data/appraisal.js:79
+msgctxt "text:appraisalObjects.thermal-printer.workingTitle"
+msgid "Box that issues blank fortune slips"
+msgstr "白紙のおみくじを吐く箱"
+
+#. appraisalObjects.thermal-printer.arrival
+#: src/data/appraisal.js:80
+msgctxt "text:appraisalObjects.thermal-printer.arrival"
+msgid "Recovered beside the Beast Path with a faded adhesive-paper roll"
+msgstr "妖怪獣道脇、色褪せた粘着紙一巻と共に採取"
+
+#. appraisalObjects.thermal-printer.condition
+#: src/data/appraisal.js:81
+msgctxt "text:appraisalObjects.thermal-printer.condition"
+msgid "Power supply missing; cutter dulled; half an Outside shipping label remains"
+msgstr "電源欠品、刃は鈍化、外界物流ラベル半片あり"
+
+#. appraisalObjects.thermal-printer.truth.intended
+#: src/data/appraisal.js:103
+msgctxt "text:appraisalObjects.thermal-printer.truth.intended"
+msgid "Outside logistics and retail thermal label printer"
+msgstr "外界の物流・店舗用感熱ラベルプリンター"
+
+#. appraisalObjects.thermal-printer.truth.operation
+#: src/data/appraisal.js:104
+msgctxt "text:appraisalObjects.thermal-printer.truth.operation"
+msgid "An external device sends text; a linear thermal head darkens heat-sensitive stock."
+msgstr "外部機器から文字を受け、線状熱ヘッドで感熱紙を黒化。"
+
+#. appraisalObjects.thermal-printer.truth.caution
+#: src/data/appraisal.js:105
+msgctxt "text:appraisalObjects.thermal-printer.truth.caution"
+msgid "Power requirements are unknown; do not connect directly to a kappa generator."
+msgstr "電源仕様不明。復旧前に河童発電機へ直結しない。"
+
+#. appraisalObjects.thermal-printer.panel.rinnosuke
+#: src/data/appraisal.js:108
+msgctxt "text:appraisalObjects.thermal-printer.panel.rinnosuke"
+msgid ""
+"The name and purpose are clear. What is unclear is why Outsiders invented "
+"labels, then mass-produced goods that lose them."
+msgstr "名称と用途は明白だ。問題は、外界人がラベルを発明した後でラベルを失う品を大量に作る理由だ。"
+
+#. appraisalObjects.thermal-printer.panel.ran
+#: src/data/appraisal.js:109
+msgctxt "text:appraisalObjects.thermal-printer.panel.ran"
+msgid ""
+"Object 18 shares a serial with item 12 in the fifth catalogue. Keep both "
+"provenances; do not repair the Outside World’s contradiction."
+msgstr "第18点と第五版目録第12点が同じ番号を持つ。外界の矛盾を勝手に直さず、来歴を二本残す。"
+
+#. appraisalObjects.thermal-printer.panel.nitori
+#: src/data/appraisal.js:110
+msgctxt "text:appraisalObjects.thermal-printer.panel.nitori"
+msgid ""
+"I can make a removable power box. “Removable” means three minutes with a "
+"wrench, not the library’s bare-hand standard."
+msgstr "着脱式電源箱なら作れる。「着脱」はレンチ三分で、図書館のいう素手可逆ではない。"
+
+#. appraisalObjects.thermal-printer.panel.kogasa
+#: src/data/appraisal.js:111
+msgctxt "text:appraisalObjects.thermal-printer.panel.kogasa"
+msgid ""
+"It was not forgotten for lacking ink. Nobody remembers what paper it needs. "
+"That is a quieter, deeper kind of forgetting."
+msgstr "インク切れで忘れられたんじゃない。必要な紙まで誰も覚えていない。静かで、深い忘れ方だよ。"
+
+#. appraisalObjects.single-earbud.name
+#: src/data/appraisal.js:119
+msgctxt "text:appraisalObjects.single-earbud.name"
+msgid "White earpiece, right side only"
+msgstr "右側だけ残った白い耳栓"
+
+#. appraisalObjects.single-earbud.workingTitle
+#: src/data/appraisal.js:120
+msgctxt "text:appraisalObjects.single-earbud.workingTitle"
+msgid "Bean that hides half a sentence in the ear"
+msgstr "半分の言葉を耳へ隠す豆"
+
+#. appraisalObjects.single-earbud.arrival
+#: src/data/appraisal.js:121
+msgctxt "text:appraisalObjects.single-earbud.arrival"
+msgid "Found beneath the Hakurei donation box with three Outside coins"
+msgstr "博麗神社の賽銭箱底、外界硬貨三枚と同袋"
+
+#. appraisalObjects.single-earbud.condition
+#: src/data/appraisal.js:122
+msgctxt "text:appraisalObjects.single-earbud.condition"
+msgid "Partner and charging case missing; mesh dusty; emits an occasional brief tone"
+msgstr "対になる品と充電箱なし、網に微塵、時折短い通知音"
+
+#. appraisalObjects.single-earbud.truth.intended
+#: src/data/appraisal.js:144
+msgctxt "text:appraisalObjects.single-earbud.truth.intended"
+msgid "Right unit from a paired set of wireless earbuds"
+msgstr "左右一組の無線イヤホン右側単体"
+
+#. appraisalObjects.single-earbud.truth.operation
+#: src/data/appraisal.js:145
+msgctxt "text:appraisalObjects.single-earbud.truth.operation"
+msgid ""
+"Pairs with a playback device and dedicated charging case; the single unit "
+"may retain a small charge."
+msgstr "外部再生機器と専用充電箱に接続。単体に少量の電力が残る場合がある。"
+
+#. appraisalObjects.single-earbud.truth.caution
+#: src/data/appraisal.js:146
+msgctxt "text:appraisalObjects.single-earbud.truth.caution"
+msgid "Pairing data and volume are unknown; do not test in an ear."
+msgstr "接続情報・音量不明。耳へ直接入れて試験しない。"
+
+#. appraisalObjects.single-earbud.panel.rinnosuke
+#: src/data/appraisal.js:149
+msgctxt "text:appraisalObjects.single-earbud.panel.rinnosuke"
+msgid ""
+"I know it is a wireless earbud and that it is for listening. My ability does "
+"not include the location of its other half."
+msgstr "無線イヤホンという名と音を聴く用途は分かる。能力は相方の所在まで付けてくれない。"
+
+#. appraisalObjects.single-earbud.panel.ran
+#: src/data/appraisal.js:150
+msgctxt "text:appraisalObjects.single-earbud.panel.ran"
+msgid ""
+"R has three readings: right, model mark, or owner initial. The catalogue "
+"should retain all three, not choose the most dramatic."
+msgstr "Rの解釈は右・型番・所有者名の三説。目録は三説を残し、最も劇的な一つを選ばない。"
+
+#. appraisalObjects.single-earbud.panel.nitori
+#: src/data/appraisal.js:151
+msgctxt "text:appraisalObjects.single-earbud.panel.nitori"
+msgid ""
+"In theory I can make a charger. In practice I need the voltage first. Print "
+"that sentence larger than “in theory.”"
+msgstr "理論上は充電台を作れる。実務では電圧が先。この一文を「理論上」より大きく印刷して。"
+
+#. appraisalObjects.single-earbud.panel.kogasa
+#: src/data/appraisal.js:152
+msgctxt "text:appraisalObjects.single-earbud.panel.kogasa"
+msgid "Paired tools hate being treated as half-broken. It may simply be waiting, not broken."
+msgstr "対の道具は「半分壊れた」と扱われるのが一番つらい。壊れず、待っているだけかも。"
+
+#. appraisalObjects.transit-card.name
+#: src/data/appraisal.js:160
+msgctxt "text:appraisalObjects.transit-card.name"
+msgid "Deactivated Outside transit card"
+msgstr "使用停止の外界交通カード"
+
+#. appraisalObjects.transit-card.workingTitle
+#: src/data/appraisal.js:161
+msgctxt "text:appraisalObjects.transit-card.workingTitle"
+msgid "Thin plate that once made gates open"
+msgstr "かつて門を自ら開かせた薄片"
+
+#. appraisalObjects.transit-card.arrival
+#: src/data/appraisal.js:162
+msgctxt "text:appraisalObjects.transit-card.arrival"
+msgid "Recovered at Muenzuka between a torn pass case and a dry maple leaf"
+msgstr "無縁塚の縁、破損した定期入れと乾いた楓葉の間"
+
+#. appraisalObjects.transit-card.condition
+#: src/data/appraisal.js:163
+msgctxt "text:appraisalObjects.transit-card.condition"
+msgid "Surface worn; fragmentary route map printed; internal coil intact but service retired"
+msgstr "表面摩耗、路線図断片あり。内部コイルは健全だがサービス停止"
+
+#. appraisalObjects.transit-card.truth.intended
+#: src/data/appraisal.js:185
+msgctxt "text:appraisalObjects.transit-card.truth.intended"
+msgid "Outside public-transport contactless fare and access card"
+msgstr "外界公共交通用の非接触式運賃・通行カード"
+
+#. appraisalObjects.transit-card.truth.operation
+#: src/data/appraisal.js:186
+msgctxt "text:appraisalObjects.transit-card.truth.operation"
+msgid ""
+"A gate powers it by near field, reads identity and service data, then "
+"updates fare state."
+msgstr "改札の近接場で給電され、識別・サービス情報を読み運賃状態を更新。"
+
+#. appraisalObjects.transit-card.truth.caution
+#: src/data/appraisal.js:187
+msgctxt "text:appraisalObjects.transit-card.truth.caution"
+msgid ""
+"The service is retired and may contain former-holder data; isolated minimum "
+"reading only."
+msgstr "サービス停止済みで旧利用者情報の可能性。隔離・最小読取のみ。"
+
+#. appraisalObjects.transit-card.panel.rinnosuke
+#: src/data/appraisal.js:190
+msgctxt "text:appraisalObjects.transit-card.panel.rinnosuke"
+msgid ""
+"Its purpose is passage. My ability is not responsible for Outside companies "
+"going out of service."
+msgstr "用途は通行で間違いない。なぜ通れないかまで、私の能力は外界企業の廃業を担当しない。"
+
+#. appraisalObjects.transit-card.panel.ran
+#: src/data/appraisal.js:191
+msgctxt "text:appraisalObjects.transit-card.panel.ran"
+msgid ""
+"A readable serial is not permission to read all of it. Catalogue the service "
+"class and expiry; leave the former holder inside the seal."
+msgstr "番号が読めても全読権限ではない。目録はサービス種別と失効状態だけ残し、旧利用者は封袋の中へ。"
+
+#. appraisalObjects.transit-card.panel.nitori
+#: src/data/appraisal.js:192
+msgctxt "text:appraisalObjects.transit-card.panel.nitori"
+msgid ""
+"The coil could sense water level—yes, I heard “reversible.” I will use a "
+"clamp, not solder."
+msgstr "コイルは水位検知に使える——はい、「可逆」は聞こえた。半田でなく治具にする。"
+
+#. appraisalObjects.transit-card.panel.kogasa
+#: src/data/appraisal.js:193
+msgctxt "text:appraisalObjects.transit-card.panel.kogasa"
+msgid ""
+"Expired cards are strange. They remember where they went every day, while "
+"the gate pretends not to know them."
+msgstr "期限切れの札は変だね。毎日どこへ行ったか覚えてるのに、門だけが知らないふりをする。"
+
+#. appraisalObjects.unreadable-disc.name
+#: src/data/appraisal.js:201
+msgctxt "text:appraisalObjects.unreadable-disc.name"
+msgid "Unreadable rainbow disc"
+msgstr "読めない虹色円盤"
+
+#. appraisalObjects.unreadable-disc.workingTitle
+#: src/data/appraisal.js:202
+msgctxt "text:appraisalObjects.unreadable-disc.workingTitle"
+msgid "Thin moon with a summer sealed in its surface"
+msgstr "夏を反射面へ封じた薄い月"
+
+#. appraisalObjects.unreadable-disc.arrival
+#: src/data/appraisal.js:203
+msgctxt "text:appraisalObjects.unreadable-disc.arrival"
+msgid "Bottom of a Kourindou crate; sleeve says “SUMMER 2009 FINAL FINAL2”"
+msgstr "香霖堂の箱底、袋に「2009夏 最終 最終2」"
+
+#. appraisalObjects.unreadable-disc.condition
+#: src/data/appraisal.js:204
+msgctxt "text:appraisalObjects.unreadable-disc.condition"
+msgid "Outer ring scratched; fingerprints on record face; contents unknown and reader missing"
+msgstr "外周に傷、記録面に指紋。内容不明、読取機欠品"
+
+#. appraisalObjects.unreadable-disc.truth.intended
+#: src/data/appraisal.js:226
+msgctxt "text:appraisalObjects.unreadable-disc.truth.intended"
+msgid "Outside recordable optical data disc"
+msgstr "外界の書込式光学データディスク"
+
+#. appraisalObjects.unreadable-disc.truth.operation
+#: src/data/appraisal.js:227
+msgctxt "text:appraisalObjects.unreadable-disc.truth.operation"
+msgid ""
+"A laser reads and writes digital data along a spiral track; format and "
+"permission are unknown."
+msgstr "レーザーが螺旋軌道のデジタル情報を読書き。現在は形式・権限とも不明。"
+
+#. appraisalObjects.unreadable-disc.truth.caution
+#: src/data/appraisal.js:228
+msgctxt "text:appraisalObjects.unreadable-disc.truth.caution"
+msgid ""
+"Unknown private content is not automatically decoded merely because recovery "
+"may be possible."
+msgstr "技術的に復元可能でも、未知の私的内容を自動復号しない。"
+
+#. appraisalObjects.unreadable-disc.panel.rinnosuke
+#: src/data/appraisal.js:231
+msgctxt "text:appraisalObjects.unreadable-disc.panel.rinnosuke"
+msgid ""
+"Its name is recordable optical disc and its purpose is data storage. "
+"“FINAL2” lies outside my ability, and perhaps outside Outsiders’ "
+"explanations."
+msgstr "名は書込式光盤、用途は資料保存。「最終2」は能力の範囲外で、外界人にも説明できないと思う。"
+
+#. appraisalObjects.unreadable-disc.panel.ran
+#: src/data/appraisal.js:232
+msgctxt "text:appraisalObjects.unreadable-disc.panel.ran"
+msgid ""
+"Recoverable does not mean readable. Record the permission gap before the "
+"data gap; do not reverse them."
+msgstr "復元可能は閲覧許可ではない。まず権限の欠落、次にデータの欠落を記録する。順序を逆にしない。"
+
+#. appraisalObjects.unreadable-disc.panel.nitori
+#: src/data/appraisal.js:233
+msgctxt "text:appraisalObjects.unreadable-disc.panel.nitori"
+msgid ""
+"I have a reader—no, I did not say connect it now. I only want “equipment "
+"available” entered in the minutes."
+msgstr "読取機はある——今すぐ繋ぐとは言ってない。「設備あり」を議事録へ入れたいだけ。"
+
+#. appraisalObjects.unreadable-disc.panel.kogasa
+#: src/data/appraisal.js:234
+msgctxt "text:appraisalObjects.unreadable-disc.panel.kogasa"
+msgid ""
+"Everyone wants to know what is inside. Nobody asks whether it means to keep "
+"the final ring unread."
+msgstr "中身を知りたがるけど、最後の一周を読ませないのがわざとかは誰も聞かない。"
+
+#. appraisalObjects.disposable-camera.name
+#: src/data/appraisal.js:242
+msgctxt "text:appraisalObjects.disposable-camera.name"
+msgid "Single-use camera with three frames remaining"
+msgstr "残り三枚の使い切りカメラ"
+
+#. appraisalObjects.disposable-camera.workingTitle
+#: src/data/appraisal.js:243
+msgctxt "text:appraisalObjects.disposable-camera.workingTitle"
+msgid "Cardboard eye that may remember strangers"
+msgstr "誰を写したか分からない紙箱の目"
+
+#. appraisalObjects.disposable-camera.arrival
+#: src/data/appraisal.js:244
+msgctxt "text:appraisalObjects.disposable-camera.arrival"
+msgid "Recovered above a Bamboo Forest drain, wrapped in dry cloth by rabbits"
+msgstr "迷いの竹林の排水溝上、兎が乾布で包んでいた"
+
+#. appraisalObjects.disposable-camera.condition
+#: src/data/appraisal.js:245
+msgctxt "text:appraisalObjects.disposable-camera.condition"
+msgid "Case damp but intact; counter shows 3; flash capacitor condition unknown"
+msgstr "外装は湿気あり未破損、計数窓3、フラッシュ蓄電部不明"
+
+#. appraisalObjects.disposable-camera.truth.intended
+#: src/data/appraisal.js:267
+msgctxt "text:appraisalObjects.disposable-camera.truth.intended"
+msgid "Preloaded single-use camera returned whole for film processing"
+msgstr "フィルム内蔵、撮影後に本体ごと現像へ出す使い切りカメラ"
+
+#. appraisalObjects.disposable-camera.truth.operation
+#: src/data/appraisal.js:268
+msgctxt "text:appraisalObjects.disposable-camera.truth.operation"
+msgid "A fixed lens exposes film; simple mechanisms control winding, shutter, and flash."
+msgstr "固定レンズで光をフィルムへ結像し、巻上げ・シャッター・閃光を簡易機構で制御。"
+
+#. appraisalObjects.disposable-camera.truth.caution
+#: src/data/appraisal.js:269
+msgctxt "text:appraisalObjects.disposable-camera.truth.caution"
+msgid ""
+"Unknown images raise privacy, unused frames require consent, and the flash "
+"capacitor raises safety concerns."
+msgstr "未知画像は私権、残りフィルムは同意、閃光蓄電部は安全問題。"
+
+#. appraisalObjects.disposable-camera.panel.rinnosuke
+#: src/data/appraisal.js:272
+msgctxt "text:appraisalObjects.disposable-camera.panel.rinnosuke"
+msgid ""
+"I can state its name and purpose. Exposed contents are not “purpose.” Do not "
+"turn my ability into a darkroom for peeking."
+msgstr "名と用途は説明できるが、撮影済み内容は「用途」ではない。能力を覗き見暗室にしないでほしい。"
+
+#. appraisalObjects.disposable-camera.panel.ran
+#: src/data/appraisal.js:273
+msgctxt "text:appraisalObjects.disposable-camera.panel.ran"
+msgid ""
+"The provenance chain stops at the rabbit’s dry cloth. A gap is not blanket "
+"permission; it is an unknown to preserve."
+msgstr "来歴は兎の乾布で途切れる。途切れは白紙委任でなく、保存すべき未知だ。"
+
+#. appraisalObjects.disposable-camera.panel.nitori
+#: src/data/appraisal.js:274
+msgctxt "text:appraisalObjects.disposable-camera.panel.nitori"
+msgid ""
+"We can tell the mechanism is not entirely dead without opening it. I support "
+"sealing this one: “can move” is not “should move now.”"
+msgstr "開けずとも機構が完全には死んでいないと分かる。今回は封印に賛成。「動ける」は「今動かすべき」ではない。"
+
+#. appraisalObjects.disposable-camera.panel.kogasa
+#: src/data/appraisal.js:275
+msgctxt "text:appraisalObjects.disposable-camera.panel.kogasa"
+msgid ""
+"A camera’s best surprise is suddenly meeting your former self. "
+"Unfortunately, nobody agreed to that surprise this time."
+msgstr "カメラの一番の驚きは昔の自分を見ること。でも今回は誰も驚かされることに同意してない。"
+
+#. appraisalObjects.orphan-controller.name
+#: src/data/appraisal.js:283
+msgctxt "text:appraisalObjects.orphan-controller.name"
+msgid "Game controller without its console"
+msgstr "本体のないゲームコントローラー"
+
+#. appraisalObjects.orphan-controller.workingTitle
+#: src/data/appraisal.js:284
+msgctxt "text:appraisalObjects.orphan-controller.workingTitle"
+msgid "Twin-handled device that refuses to admit input"
+msgstr "何度押しても入力を認めない双柄"
+
+#. appraisalObjects.orphan-controller.arrival
+#: src/data/appraisal.js:285
+msgctxt "text:appraisalObjects.orphan-controller.arrival"
+msgid "Kappa swap-meet return basket with note: “not waterproof, poor rating”"
+msgstr "河童中古交換会の返品籠、「防水でない、低評価」札付き"
+
+#. appraisalObjects.orphan-controller.condition
+#: src/data/appraisal.js:286
+msgctxt "text:appraisalObjects.orphan-controller.condition"
+msgid "Buttons intact; cable end unfamiliar; moving mass inside grips"
+msgstr "ボタン健全、端子規格不明、握り内部に可動重り"
+
+#. appraisalObjects.orphan-controller.truth.intended
+#: src/data/appraisal.js:308
+msgctxt "text:appraisalObjects.orphan-controller.truth.intended"
+msgid "Wired controller for a particular electronic game console"
+msgstr "特定電子ゲーム機用の有線コントローラー"
+
+#. appraisalObjects.orphan-controller.truth.operation
+#: src/data/appraisal.js:309
+msgctxt "text:appraisalObjects.orphan-controller.truth.operation"
+msgid "Sends button and stick state to a console and receives commands for vibration motors."
+msgstr "ボタン・棒の状態を本体へ送り、指令を受け振動モーターを駆動。"
+
+#. appraisalObjects.orphan-controller.truth.caution
+#: src/data/appraisal.js:310
+msgctxt "text:appraisalObjects.orphan-controller.truth.caution"
+msgid "Port voltage is unknown; any adapter must be isolated and removable."
+msgstr "端子電圧不明。変換は絶縁・着脱式に限る。"
+
+#. appraisalObjects.orphan-controller.panel.rinnosuke
+#: src/data/appraisal.js:313
+msgctxt "text:appraisalObjects.orphan-controller.panel.rinnosuke"
+msgid ""
+"It is a game controller, for controlling a game. That does not locate the "
+"game, just as naming a key does not provide a house."
+msgstr "ゲームコントローラーで、用途はゲーム操作。だがゲームの所在は分からない。鍵の名を知っても家は付かない。"
+
+#. appraisalObjects.orphan-controller.panel.ran
+#: src/data/appraisal.js:314
+msgctxt "text:appraisalObjects.orphan-controller.panel.ran"
+msgid ""
+"Controller, console, software, and version are four separate gaps. “Console "
+"missing” falsely implies the other three remain."
+msgstr "操作器・本体・ソフト・版は四つの欠落。「本体なし」だけでは残り三つがあるように見える。"
+
+#. appraisalObjects.orphan-controller.panel.nitori
+#: src/data/appraisal.js:315
+msgctxt "text:appraisalObjects.orphan-controller.panel.nitori"
+msgid ""
+"This matrix is elegant. I am building an external adapter, not "
+"“incidentally” cutting the original cable. Move the cutters."
+msgstr "この行列はきれいだ。作るのは外付変換箱で、「ついで」に原線を切るんじゃない。ニッパーをどけて。"
+
+#. appraisalObjects.orphan-controller.panel.kogasa
+#: src/data/appraisal.js:316
+msgctxt "text:appraisalObjects.orphan-controller.panel.kogasa"
+msgid ""
+"Every button expects to cause something, yet now nothing happens. That can "
+"anger a tool more than being broken."
+msgstr "どのボタンも何かを起こすためにあるのに、今は押しても何もない。壊れるより道具が怒りやすい。"
+
+#. appraisalObjects.orphan-cable.name
+#: src/data/appraisal.js:324
+msgctxt "text:appraisalObjects.orphan-cable.name"
+msgid "White charging cable with no matching socket"
+msgstr "合う端子のない白い充電線"
+
+#. appraisalObjects.orphan-cable.workingTitle
+#: src/data/appraisal.js:325
+msgctxt "text:appraisalObjects.orphan-cable.workingTitle"
+msgid "Both ends know where to go; the desk has neither destination"
+msgstr "両端は行先を知るのに、机に目的地がない"
+
+#. appraisalObjects.orphan-cable.arrival
+#: src/data/appraisal.js:326
+msgctxt "text:appraisalObjects.orphan-cable.arrival"
+msgid "Inside a drift bottle on the Misty Lake shore with a faded shopping list"
+msgstr "霧の湖岸の漂流瓶、色褪せた買物メモと同封"
+
+#. appraisalObjects.orphan-cable.condition
+#: src/data/appraisal.js:327
+msgctxt "text:appraisalObjects.orphan-cable.condition"
+msgid "Jacket yellowed but intact; one end broadly standard, the other discontinued"
+msgstr "被覆は黄変、亀裂なし。一端は汎用矩形、他端は廃止規格"
+
+#. appraisalObjects.orphan-cable.truth.intended
+#: src/data/appraisal.js:349
+msgctxt "text:appraisalObjects.orphan-cable.truth.intended"
+msgid "Charging and data cable for an older mobile electronic device"
+msgstr "旧式携帯電子機器用の充電・データ転送ケーブル"
+
+#. appraisalObjects.orphan-cable.truth.operation
+#: src/data/appraisal.js:350
+msgctxt "text:appraisalObjects.orphan-cable.truth.operation"
+msgid "Carries power and serial data between a host or supply and a particular obsolete device."
+msgstr "主機・電源と特定廃止機器の間で電力・直列データを運ぶ。"
+
+#. appraisalObjects.orphan-cable.truth.caution
+#: src/data/appraisal.js:351
+msgctxt "text:appraisalObjects.orphan-cable.truth.caution"
+msgid "Similar-looking connectors may differ in voltage and wiring; no trial insertion."
+msgstr "似た外形でも電圧・配線が異なる。試し挿し禁止。"
+
+#. appraisalObjects.orphan-cable.panel.rinnosuke
+#: src/data/appraisal.js:354
+msgctxt "text:appraisalObjects.orphan-cable.panel.rinnosuke"
+msgid ""
+"It is a charging data cable. Its purpose requires both ends, so with one end "
+"lost my answer becomes half a sentence."
+msgstr "充電データ線という。用途は両端で成立するから、一端を失えば能力の答えも半文になる。"
+
+#. appraisalObjects.orphan-cable.panel.ran
+#: src/data/appraisal.js:355
+msgctxt "text:appraisalObjects.orphan-cable.panel.ran"
+msgid ""
+"The “universal end” merely survived longer; the other end is not wrong. Do "
+"not let the winning standard rewrite the losing one’s history."
+msgstr "「汎用端」は後世に残っただけで、他端が誤りではない。勝った規格に敗れた規格の歴史を書き換えさせない。"
+
+#. appraisalObjects.orphan-cable.panel.nitori
+#: src/data/appraisal.js:356
+msgctxt "text:appraisalObjects.orphan-cable.panel.nitori"
+msgid ""
+"I can make an adapter. That proves we can connect, not that we should power "
+"an unknown device."
+msgstr "変換器は作れる。ただし、接続可能は未知機器へ給電すべき証明ではない。"
+
+#. appraisalObjects.orphan-cable.panel.kogasa
+#: src/data/appraisal.js:357
+msgctxt "text:appraisalObjects.orphan-cable.panel.kogasa"
+msgid ""
+"The worst thing for a cable is not breaking. It is keeping both ends while "
+"nothing needs either."
+msgstr "線が一番怖いのは切れることじゃない。両端が無事なのに、もう何も必要としないこと。"
+
+#. appraisalObjects.frozen-reader.name
+#: src/data/appraisal.js:365
+msgctxt "text:appraisalObjects.frozen-reader.name"
+msgid "Electronic reader frozen on one page"
+msgstr "同じ頁で止まった電子書籍端末"
+
+#. appraisalObjects.frozen-reader.workingTitle
+#: src/data/appraisal.js:366
+msgctxt "text:appraisalObjects.frozen-reader.workingTitle"
+msgid "Book that refuses to close after losing power"
+msgstr "電池切れでも閉じることを拒む本"
+
+#. appraisalObjects.frozen-reader.arrival
+#: src/data/appraisal.js:367
+msgctxt "text:appraisalObjects.frozen-reader.arrival"
+msgid "Kourindou windowsill; reportedly unchanged on the same page for seven years"
+msgstr "香霖堂の窓辺、同じ頁のまま七年とされる"
+
+#. appraisalObjects.frozen-reader.condition
+#: src/data/appraisal.js:368
+msgctxt "text:appraisalObjects.frozen-reader.condition"
+msgid "Will not start; half a page remains visible; charging port and battery condition unknown"
+msgstr "起動不能、画面に半頁の文字が残る。充電端子・電池状態不明"
+
+#. appraisalObjects.frozen-reader.truth.intended
+#: src/data/appraisal.js:390
+msgctxt "text:appraisalObjects.frozen-reader.truth.intended"
+msgid "Electronic reader using bistable electronic paper for multiple digital texts"
+msgstr "双安定電子紙で複数のデジタル文書を読む電子書籍端末"
+
+#. appraisalObjects.frozen-reader.truth.operation
+#: src/data/appraisal.js:391
+msgctxt "text:appraisalObjects.frozen-reader.truth.operation"
+msgid ""
+"Stores digital documents and rearranges charged pigment particles on page "
+"turns; a static page needs almost no power."
+msgstr "デジタル文書を保存し、頁更新時に帯電顔料粒子を並べ替える。静止表示はほぼ無給電。"
+
+#. appraisalObjects.frozen-reader.truth.caution
+#: src/data/appraisal.js:392
+msgctxt "text:appraisalObjects.frozen-reader.truth.caution"
+msgid ""
+"The unknown battery may swell, and content provenance is unclear; isolate "
+"and inspect before waking."
+msgstr "未知電池は膨張の恐れ、画面内容の来歴・権限も不明。起動前に隔離検査。"
+
+#. appraisalObjects.frozen-reader.panel.rinnosuke
+#: src/data/appraisal.js:395
+msgctxt "text:appraisalObjects.frozen-reader.panel.rinnosuke"
+msgid ""
+"It is an electronic book reader, used for reading. Paper pages need no power "
+"to exist either; persisting after power loss is no more mysterious than an "
+"ordinary book."
+msgstr "電子書籍端末で、用途は読書。紙頁も存在に電力を要しない。電池切れで表示が残るのは普通の本より神秘的ではない。"
+
+#. appraisalObjects.frozen-reader.panel.ran
+#: src/data/appraisal.js:396
+msgctxt "text:appraisalObjects.frozen-reader.panel.ran"
+msgid ""
+"The display is one page of one version, not the whole holding. Catalogue "
+"device, document, edition, and visible page separately."
+msgstr "画面は一版の一頁で、蔵書全体ではない。端末・文書・版・可視頁を分けて目録する。"
+
+#. appraisalObjects.frozen-reader.panel.nitori
+#: src/data/appraisal.js:397
+msgctxt "text:appraisalObjects.frozen-reader.panel.nitori"
+msgid ""
+"I want to turn one page, and I want to know why I want that. This usually "
+"means building a battery model instead of gambling with a handy supply."
+msgstr "一頁めくりたいし、なぜそうしたいかも考える。こういう時は既製電源で賭けず、電池模型からだ。"
+
+#. appraisalObjects.frozen-reader.panel.kogasa
+#: src/data/appraisal.js:398
+msgctxt "text:appraisalObjects.frozen-reader.panel.kogasa"
+msgid ""
+"It has spent seven years inside one sentence. Perhaps it cannot turn—or "
+"perhaps someone finally agreed to wait until it finishes being on this page."
+msgstr "七年も文の途中にいる。めくれないんじゃなく、ようやく誰かがこの頁を居終えるまで待ってくれたのかも。"
+
+#. appraisalObjects.thermal-printer.evidence.0.slot.1
+#: src/data/appraisal.js:83
+msgctxt "text:appraisalObjects.thermal-printer.evidence.0.slot.1"
+msgid "Rubber roller and fine toothed cutter behind a narrow slot"
+msgstr "細い排出口の奥にゴムローラーと鋸刃"
+
+#. appraisalObjects.thermal-printer.evidence.0.slot.2
+#: src/data/appraisal.js:83
+msgctxt "text:appraisalObjects.thermal-printer.evidence.0.slot.2"
+msgid "The path suits continuous paper rather than liquid ink."
+msgstr "インク経路ではなく連続紙材向け。"
+
+#. appraisalObjects.thermal-printer.evidence.1.residue.1
+#: src/data/appraisal.js:84
+msgctxt "text:appraisalObjects.thermal-printer.evidence.1.residue.1"
+msgid "No ink residue; heat-darkened paper fibres cling to the roller"
+msgstr "内壁にインク跡なし、ローラーに熱で黒化した紙片"
+
+#. appraisalObjects.thermal-printer.evidence.1.residue.2
+#: src/data/appraisal.js:84
+msgctxt "text:appraisalObjects.thermal-printer.evidence.1.residue.2"
+msgid "Blank output may indicate the wrong paper rather than missing ink."
+msgstr "白紙は消耗品切れでなく、紙種違いかもしれない。"
+
+#. appraisalObjects.thermal-printer.evidence.2.marks.1
+#: src/data/appraisal.js:85
+msgctxt "text:appraisalObjects.thermal-printer.evidence.2.marks.1"
+msgid "Underside marks show DC, USB, and a crossed-out bin"
+msgstr "底面にDC・USB・廃棄禁止表示"
+
+#. appraisalObjects.thermal-printer.evidence.2.marks.2
+#: src/data/appraisal.js:85
+msgctxt "text:appraisalObjects.thermal-printer.evidence.2.marks.2"
+msgid "It expects external power and content from another device."
+msgstr "外部電源と別機器からのデータを要する。"
+
+#. appraisalObjects.thermal-printer.hypotheses.0.fortune.1
+#: src/data/appraisal.js:88
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.0.fortune.1"
+msgid "Shrine tube that selects and cuts fortunes"
+msgstr "自動で籤を選び切る神社用筒"
+
+#. appraisalObjects.thermal-printer.hypotheses.0.fortune.2
+#: src/data/appraisal.js:88
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.0.fortune.2"
+msgid "Adhesive paper prevents fortunes blowing away; the gods supply the writing."
+msgstr "粘着紙は籤の飛散防止、白紙は神が追記する。"
+
+#. appraisalObjects.thermal-printer.hypotheses.1.label-printer.1
+#: src/data/appraisal.js:89
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.1.label-printer.1"
+msgid "Thermal label printer"
+msgstr "感熱式ラベルプリンター"
+
+#. appraisalObjects.thermal-printer.hypotheses.1.label-printer.2
+#: src/data/appraisal.js:89
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.1.label-printer.2"
+msgid "It prints by heating special stock, then cuts the continuous strip."
+msgstr "インクでなく加熱で印字し、連続紙を鋸刃で切る。"
+
+#. appraisalObjects.thermal-printer.hypotheses.2.name-stamper.1
+#: src/data/appraisal.js:90
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.2.name-stamper.1"
+msgid "Name-sealer for objects that have lost their names"
+msgstr "失せ物へ名を戻す封名器"
+
+#. appraisalObjects.thermal-printer.hypotheses.2.name-stamper.2
+#: src/data/appraisal.js:90
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.2.name-stamper.2"
+msgid "USB may be an Outside abbreviation for transmitting true names."
+msgstr "USBは真名を送る外界式の略号かもしれない。"
+
+#. appraisalObjects.thermal-printer.tests.0.raking-light.1
+#: src/data/appraisal.js:93
+msgctxt "text:appraisalObjects.thermal-printer.tests.0.raking-light.1"
+msgid "Raking-light paper-path inspection"
+msgstr "斜光による紙路検査"
+
+#. appraisalObjects.thermal-printer.tests.0.raking-light.2
+#: src/data/appraisal.js:93
+msgctxt "text:appraisalObjects.thermal-printer.tests.0.raking-light.2"
+msgid "Trace roller, sensor, and cutter under angled light without opening the shell."
+msgstr "分解せず、斜光でローラー・センサー・刃を追う。"
+
+#. appraisalObjects.thermal-printer.tests.0.raking-light.3
+#: src/data/appraisal.js:93
+msgctxt "text:appraisalObjects.thermal-printer.tests.0.raking-light.3"
+msgid "The roll path reaches a linear ceramic element; there is no ink chamber."
+msgstr "紙巻きから線状セラミック部品へ直結、インク室なし。"
+
+#. appraisalObjects.thermal-printer.tests.1.paper-scrap.1
+#: src/data/appraisal.js:94
+msgctxt "text:appraisalObjects.thermal-printer.tests.1.paper-scrap.1"
+msgid "Catalogue paper-scrap comparison"
+msgstr "収蔵紙片との比較"
+
+#. appraisalObjects.thermal-printer.tests.1.paper-scrap.2
+#: src/data/appraisal.js:94
+msgctxt "text:appraisalObjects.thermal-printer.tests.1.paper-scrap.2"
+msgid "Warm only a detached fibre sample; do not power the object."
+msgstr "脱落済み紙片のみ加熱し、本体へは通電しない。"
+
+#. appraisalObjects.thermal-printer.tests.1.paper-scrap.3
+#: src/data/appraisal.js:94
+msgctxt "text:appraisalObjects.thermal-printer.tests.1.paper-scrap.3"
+msgid "The scrap blackens evenly. Reimu withdraws the budget request for divine handwriting."
+msgstr "紙片は均一に黒化。霊夢は「神が追記」予算を撤回。"
+
+#. appraisalObjects.thermal-printer.tests.2.passive-port.1
+#: src/data/appraisal.js:95
+msgctxt "text:appraisalObjects.thermal-printer.tests.2.passive-port.1"
+msgid "Passive port-shape comparison"
+msgstr "受動端子形状照合"
+
+#. appraisalObjects.thermal-printer.tests.2.passive-port.2
+#: src/data/appraisal.js:95
+msgctxt "text:appraisalObjects.thermal-printer.tests.2.passive-port.2"
+msgid "Measure with a wooden gauge; insert no kappa adapter."
+msgstr "木製ゲージで測り、河童アダプターは挿さない。"
+
+#. appraisalObjects.thermal-printer.tests.2.passive-port.3
+#: src/data/appraisal.js:95
+msgctxt "text:appraisalObjects.thermal-printer.tests.2.passive-port.3"
+msgid ""
+"The port matches an older data connector. Nitori says her hydraulic plug was "
+"“nearly right.”"
+msgstr "旧式データ端子と一致。にとりは水圧端子も「ほぼ合う」と主張。"
+
+#. appraisalObjects.thermal-printer.uses.0.shelf-labels.1
+#: src/data/appraisal.js:98
+msgctxt "text:appraisalObjects.thermal-printer.uses.0.shelf-labels.1"
+msgid "Temporary call labels for moving shelves"
+msgstr "動く書架の仮請求ラベル"
+
+#. appraisalObjects.thermal-printer.uses.0.shelf-labels.2
+#: src/data/appraisal.js:98
+msgctxt "text:appraisalObjects.thermal-printer.uses.0.shelf-labels.2"
+msgid "Until the label peels off, staff know where the shelf was yesterday."
+msgstr "剥がれるまでは棚が昨日どこにいたか分かる。"
+
+#. appraisalObjects.thermal-printer.uses.1.fortune-corrections.1
+#: src/data/appraisal.js:99
+msgctxt "text:appraisalObjects.thermal-printer.uses.1.fortune-corrections.1"
+msgid "Fortune-slip corrections only"
+msgstr "おみくじ訂正欄専用"
+
+#. appraisalObjects.thermal-printer.uses.1.fortune-corrections.2
+#: src/data/appraisal.js:99
+msgctxt "text:appraisalObjects.thermal-printer.uses.1.fortune-corrections.2"
+msgid "Reimu agrees if corrections do not cost more than the fortune itself."
+msgstr "霊夢は、訂正欄が籤本体より高くない条件で同意。"
+
+#. appraisalObjects.thermal-printer.uses.2.valve-tags.1
+#: src/data/appraisal.js:100
+msgctxt "text:appraisalObjects.thermal-printer.uses.2.valve-tags.1"
+msgid "Kappa valve warning labels"
+msgstr "河童水栓の警告札"
+
+#. appraisalObjects.thermal-printer.uses.2.valve-tags.2
+#: src/data/appraisal.js:100
+msgctxt "text:appraisalObjects.thermal-printer.uses.2.valve-tags.2"
+msgid "Nitori promises labels before leakage, without saying how long before."
+msgstr "にとりは漏水前に貼ると保証。どれほど前かは不明。"
+
+#. appraisalObjects.single-earbud.evidence.0.mesh.1
+#: src/data/appraisal.js:124
+msgctxt "text:appraisalObjects.single-earbud.evidence.0.mesh.1"
+msgid "One face has an acoustic port and debris mesh"
+msgstr "片面に音孔と防汚メッシュ"
+
+#. appraisalObjects.single-earbud.evidence.0.mesh.2
+#: src/data/appraisal.js:124
+msgctxt "text:appraisalObjects.single-earbud.evidence.0.mesh.2"
+msgid "Its geometry fits an ear, not a seed or charm."
+msgstr "耳介向けの形で、種子や護符ではない。"
+
+#. appraisalObjects.single-earbud.evidence.1.contacts.1
+#: src/data/appraisal.js:125
+msgctxt "text:appraisalObjects.single-earbud.evidence.1.contacts.1"
+msgid "Two underside contacts show even wear"
+msgstr "底面の金属接点二つが均等に摩耗"
+
+#. appraisalObjects.single-earbud.evidence.1.contacts.2
+#: src/data/appraisal.js:125
+msgctxt "text:appraisalObjects.single-earbud.evidence.1.contacts.2"
+msgid "It was repeatedly seated in a missing container."
+msgstr "失われた容器へ反復収納されていた。"
+
+#. appraisalObjects.single-earbud.evidence.2.letter.1
+#: src/data/appraisal.js:126
+msgctxt "text:appraisalObjects.single-earbud.evidence.2.letter.1"
+msgid "A tiny R and serial appear inside"
+msgstr "内側に小さなR字と番号"
+
+#. appraisalObjects.single-earbud.evidence.2.letter.2
+#: src/data/appraisal.js:126
+msgctxt "text:appraisalObjects.single-earbud.evidence.2.letter.2"
+msgid "R may mean right; do not immediately assign ownership to Reimu."
+msgstr "Rは右側の可能性があり、霊夢所有と即断しない。"
+
+#. appraisalObjects.single-earbud.hypotheses.0.whisper-charm.1
+#: src/data/appraisal.js:129
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.0.whisper-charm.1"
+msgid "Communication charm that places distant whispers in the ear"
+msgstr "遠方の囁きを耳へ入れる通信護符"
+
+#. appraisalObjects.single-earbud.hypotheses.0.whisper-charm.2
+#: src/data/appraisal.js:129
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.0.whisper-charm.2"
+msgid "The tone is a knock from elsewhere; the pairing rite is lost."
+msgstr "通知音は向こう側のノックだが、対の儀式が失われた。"
+
+#. appraisalObjects.single-earbud.hypotheses.1.wireless-earbud.1
+#: src/data/appraisal.js:130
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.1.wireless-earbud.1"
+msgid "Right half of a paired wireless earbud"
+msgstr "対で使う無線イヤホン右側"
+
+#. appraisalObjects.single-earbud.hypotheses.1.wireless-earbud.2
+#: src/data/appraisal.js:130
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.1.wireless-earbud.2"
+msgid "It receives sound from another device and recharges in the missing case."
+msgstr "外部機器の音を受け、失われた箱で充電する。"
+
+#. appraisalObjects.single-earbud.hypotheses.2.dream-seed.1
+#: src/data/appraisal.js:131
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.2.dream-seed.1"
+msgid "Sleep seed that plays only the first half of a dream"
+msgstr "夢の前半だけ再生する睡眠種"
+
+#. appraisalObjects.single-earbud.hypotheses.2.dream-seed.2
+#: src/data/appraisal.js:131
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.2.dream-seed.2"
+msgid "Only the right remains, so the sleeper never hears the left-hand ending."
+msgstr "右側しかなく、目覚めた者は左側の結末を知らない。"
+
+#. appraisalObjects.single-earbud.tests.0.acoustic.1
+#: src/data/appraisal.js:134
+msgctxt "text:appraisalObjects.single-earbud.tests.0.acoustic.1"
+msgid "Contactless acoustic recording"
+msgstr "非接触音響記録"
+
+#. appraisalObjects.single-earbud.tests.0.acoustic.2
+#: src/data/appraisal.js:134
+msgctxt "text:appraisalObjects.single-earbud.tests.0.acoustic.2"
+msgid "Place it in a padded sound box; put it in nobody’s ear."
+msgstr "軟台の遮音箱へ置き、誰の耳にも入れない。"
+
+#. appraisalObjects.single-earbud.tests.0.acoustic.3
+#: src/data/appraisal.js:134
+msgctxt "text:appraisalObjects.single-earbud.tests.0.acoustic.3"
+msgid ""
+"A tiny diaphragm makes the tone. It is unlike an insect, though Wriggle "
+"files a minority opinion."
+msgstr "微小振動板が通知音を発生。虫声ではないが、リグルは昆虫少数意見を要求。"
+
+#. appraisalObjects.single-earbud.tests.1.magnetic-map.1
+#: src/data/appraisal.js:135
+msgctxt "text:appraisalObjects.single-earbud.tests.1.magnetic-map.1"
+msgid "Weak-field magnetic mapping"
+msgstr "弱磁場輪郭測定"
+
+#. appraisalObjects.single-earbud.tests.1.magnetic-map.2
+#: src/data/appraisal.js:135
+msgctxt "text:appraisalObjects.single-earbud.tests.1.magnetic-map.2"
+msgid "Read static magnetism only; transmit no pairing signal."
+msgstr "静的磁性のみ測り、接続信号は送らない。"
+
+#. appraisalObjects.single-earbud.tests.1.magnetic-map.3
+#: src/data/appraisal.js:135
+msgctxt "text:appraisalObjects.single-earbud.tests.1.magnetic-map.3"
+msgid "A small cell sits by the contacts; internal magnets assist seating."
+msgstr "接点脇に小型蓄電部、内部磁石は位置決め用。"
+
+#. appraisalObjects.single-earbud.tests.2.case-impression.1
+#: src/data/appraisal.js:136
+msgctxt "text:appraisalObjects.single-earbud.tests.2.case-impression.1"
+msgid "Case-impression wear comparison"
+msgstr "箱跡・摩耗方向照合"
+
+#. appraisalObjects.single-earbud.tests.2.case-impression.2
+#: src/data/appraisal.js:136
+msgctxt "text:appraisalObjects.single-earbud.tests.2.case-impression.2"
+msgid "Take an external clay negative without touching the mesh."
+msgstr "粘土で外形負型を取り、メッシュへ触れない。"
+
+#. appraisalObjects.single-earbud.tests.2.case-impression.3
+#: src/data/appraisal.js:136
+msgctxt "text:appraisalObjects.single-earbud.tests.2.case-impression.3"
+msgid "Wear shows angled seating in a dedicated case, not burial in soil."
+msgstr "接点と側壁の摩耗は専用箱への斜め収納を示し、土中埋設ではない。"
+
+#. appraisalObjects.single-earbud.uses.0.lost-pair-beacon.1
+#: src/data/appraisal.js:139
+msgctxt "text:appraisalObjects.single-earbud.uses.0.lost-pair-beacon.1"
+msgid "Lost-and-found partner beacon"
+msgstr "遺失物係の対用品探索標"
+
+#. appraisalObjects.single-earbud.uses.0.lost-pair-beacon.2
+#: src/data/appraisal.js:139
+msgctxt "text:appraisalObjects.single-earbud.uses.0.lost-pair-beacon.2"
+msgid "Make no connection; display shape and serial while awaiting its counterpart."
+msgstr "自動接続せず、形と番号だけで相方を待つ。"
+
+#. appraisalObjects.single-earbud.uses.1.quiet-exhibit.1
+#: src/data/appraisal.js:140
+msgctxt "text:appraisalObjects.single-earbud.uses.1.quiet-exhibit.1"
+msgid "“Half an object can still be catalogued” exhibit"
+msgstr "「半分でも目録できる」展示"
+
+#. appraisalObjects.single-earbud.uses.1.quiet-exhibit.2
+#: src/data/appraisal.js:140
+msgctxt "text:appraisalObjects.single-earbud.uses.1.quiet-exhibit.2"
+msgid "The library refuses to catalogue the missing half as “presumed flown.”"
+msgstr "図書館は欠けた半分を「推定飛去」と記入することを拒否。"
+
+#. appraisalObjects.single-earbud.uses.2.fairy-metronome.1
+#: src/data/appraisal.js:141
+msgctxt "text:appraisalObjects.single-earbud.uses.2.fairy-metronome.1"
+msgid "One-ear fairy-choir metronome"
+msgstr "妖精合唱の片耳メトロノーム"
+
+#. appraisalObjects.single-earbud.uses.2.fairy-metronome.2
+#: src/data/appraisal.js:141
+msgctxt "text:appraisalObjects.single-earbud.uses.2.fairy-metronome.2"
+msgid "Safe volume and an actual charging method come first."
+msgstr "安全音量と正しい充電法の確認が先。"
+
+#. appraisalObjects.transit-card.evidence.0.route.1
+#: src/data/appraisal.js:165
+msgctxt "text:appraisalObjects.transit-card.evidence.0.route.1"
+msgid "Station names, line colours, and remnants of an expiry date"
+msgstr "表面に駅名・路線色・期限の残字"
+
+#. appraisalObjects.transit-card.evidence.0.route.2
+#: src/data/appraisal.js:165
+msgctxt "text:appraisalObjects.transit-card.evidence.0.route.2"
+msgid "It belonged to a large public passage system."
+msgstr "大規模な公共通行制度に属していた。"
+
+#. appraisalObjects.transit-card.evidence.1.coil.1
+#: src/data/appraisal.js:166
+msgctxt "text:appraisalObjects.transit-card.evidence.1.coil.1"
+msgid "Transmitted light reveals a rectangular coil and no replaceable battery"
+msgstr "透光で矩形コイル、交換電池なし"
+
+#. appraisalObjects.transit-card.evidence.1.coil.2
+#: src/data/appraisal.js:166
+msgctxt "text:appraisalObjects.transit-card.evidence.1.coil.2"
+msgid "A reader likely powered it through a near field."
+msgstr "読取機が近距離場で給電した可能性。"
+
+#. appraisalObjects.transit-card.evidence.2.wear.1
+#: src/data/appraisal.js:167
+msgctxt "text:appraisalObjects.transit-card.evidence.2.wear.1"
+msgid "One corner is polished; edges show repeated removal"
+msgstr "一角が光り、縁に反復抜き差し痕"
+
+#. appraisalObjects.transit-card.evidence.2.wear.2
+#: src/data/appraisal.js:167
+msgctxt "text:appraisalObjects.transit-card.evidence.2.wear.2"
+msgid "It was often drawn quickly, though not necessarily inserted."
+msgstr "頻繁に取り出されたが、機械へ挿したとは限らない。"
+
+#. appraisalObjects.transit-card.hypotheses.0.fare-card.1
+#: src/data/appraisal.js:170
+msgctxt "text:appraisalObjects.transit-card.hypotheses.0.fare-card.1"
+msgid "Contactless transit fare and access card"
+msgstr "運賃・通行資格を記録する非接触交通券"
+
+#. appraisalObjects.transit-card.hypotheses.0.fare-card.2
+#: src/data/appraisal.js:170
+msgctxt "text:appraisalObjects.transit-card.hypotheses.0.fare-card.2"
+msgid "Presented near a gate, it verifies access and deducts stored value."
+msgstr "改札へ近づけると資格確認と残額処理を行う。"
+
+#. appraisalObjects.transit-card.hypotheses.1.boundary-pass.1
+#: src/data/appraisal.js:171
+msgctxt "text:appraisalObjects.transit-card.hypotheses.1.boundary-pass.1"
+msgid "Outside charm for one boundary crossing"
+msgstr "一度だけ境界を渡る外界護符"
+
+#. appraisalObjects.transit-card.hypotheses.1.boundary-pass.2
+#: src/data/appraisal.js:171
+msgctxt "text:appraisalObjects.transit-card.hypotheses.1.boundary-pass.2"
+msgid "It reached Gensokyo after expiry; perhaps its one passage was merely delayed."
+msgstr "期限後に幻想入りしたため、通行効果が一度だけ遅れたのかもしれない。"
+
+#. appraisalObjects.transit-card.hypotheses.2.luck-card.1
+#: src/data/appraisal.js:172
+msgctxt "text:appraisalObjects.transit-card.hypotheses.2.luck-card.1"
+msgid "Lottery card that stores daily luck in its coil"
+msgstr "日々の運をコイルへ貯める抽選札"
+
+#. appraisalObjects.transit-card.hypotheses.2.luck-card.2
+#: src/data/appraisal.js:172
+msgctxt "text:appraisalObjects.transit-card.hypotheses.2.luck-card.2"
+msgid "The polished corner records years of rubbing for luck."
+msgstr "光る角は長年運を撫で取った跡。"
+
+#. appraisalObjects.transit-card.tests.0.field-response.1
+#: src/data/appraisal.js:175
+msgctxt "text:appraisalObjects.transit-card.tests.0.field-response.1"
+msgid "Low-energy near-field response"
+msgstr "低出力近接場応答"
+
+#. appraisalObjects.transit-card.tests.0.field-response.2
+#: src/data/appraisal.js:175
+msgctxt "text:appraisalObjects.transit-card.tests.0.field-response.2"
+msgid "Ask only whether the card exists using an isolated reader; do not read personal fields."
+msgstr "館の隔離読取器で存在のみ照会し、個人領域は読まない。"
+
+#. appraisalObjects.transit-card.tests.0.field-response.3
+#: src/data/appraisal.js:175
+msgctxt "text:appraisalObjects.transit-card.tests.0.field-response.3"
+msgid "The coil answers with an identifier frame, but service keys have expired."
+msgstr "コイルは固定識別枠へ応答するが、サービス鍵は失効。"
+
+#. appraisalObjects.transit-card.tests.1.route-archive.1
+#: src/data/appraisal.js:176
+msgctxt "text:appraisalObjects.transit-card.tests.1.route-archive.1"
+msgid "Outside route-map layout comparison"
+msgstr "外界路線図様式照合"
+
+#. appraisalObjects.transit-card.tests.1.route-archive.2
+#: src/data/appraisal.js:176
+msgctxt "text:appraisalObjects.transit-card.tests.1.route-archive.2"
+msgid "Compare with the fifth catalogue plates without polishing the surface."
+msgstr "『77点』第五版図版と照合し、表面を研磨しない。"
+
+#. appraisalObjects.transit-card.tests.1.route-archive.3
+#: src/data/appraisal.js:176
+msgctxt "text:appraisalObjects.transit-card.tests.1.route-archive.3"
+msgid ""
+"The colours match commuter rail legends. Ran notes this proves provenance, "
+"not remaining balance."
+msgstr "残色は通勤鉄道凡例と一致。藍は来歴証拠であり残額証拠ではないと注記。"
+
+#. appraisalObjects.transit-card.tests.2.boundary-reflection.1
+#: src/data/appraisal.js:177
+msgctxt "text:appraisalObjects.transit-card.tests.2.boundary-reflection.1"
+msgid "Boundary-reflection observation"
+msgstr "境界反射観察"
+
+#. appraisalObjects.transit-card.tests.2.boundary-reflection.2
+#: src/data/appraisal.js:177
+msgctxt "text:appraisalObjects.transit-card.tests.2.boundary-reflection.2"
+msgid "Approach the campus boundary through a seal bag; do not tap through."
+msgstr "封袋越しに校門結界へ近づけ、実際には通さない。"
+
+#. appraisalObjects.transit-card.tests.2.boundary-reflection.3
+#: src/data/appraisal.js:177
+msgctxt "text:appraisalObjects.transit-card.tests.2.boundary-reflection.3"
+msgid ""
+"The boundary classifies it as “expired but confident” and keeps the gate "
+"shut. Yukari declines to define the field."
+msgstr "結界は「期限切れだが自信あり」と判定し、門は開かず。紫は項目定義を説明しない。"
+
+#. appraisalObjects.transit-card.uses.0.route-history.1
+#: src/data/appraisal.js:180
+msgctxt "text:appraisalObjects.transit-card.uses.0.route-history.1"
+msgid "Outside commuting-history specimen"
+msgstr "外界通勤生活史標本"
+
+#. appraisalObjects.transit-card.uses.0.route-history.2
+#: src/data/appraisal.js:180
+msgctxt "text:appraisalObjects.transit-card.uses.0.route-history.2"
+msgid "Preserve wear and expiry; restore no balance."
+msgstr "摩耗と期限を保存し、残額は復元しない。"
+
+#. appraisalObjects.transit-card.uses.1.shuttle-token.1
+#: src/data/appraisal.js:181
+msgctxt "text:appraisalObjects.transit-card.uses.1.shuttle-token.1"
+msgid "Rabbit-shuttle queue token"
+msgstr "兎車の待ち順札"
+
+#. appraisalObjects.transit-card.uses.1.shuttle-token.2
+#: src/data/appraisal.js:181
+msgctxt "text:appraisalObjects.transit-card.uses.1.shuttle-token.2"
+msgid "Reuse the form without claiming the original service remains active."
+msgstr "形だけ借り、元サービスが有効とは称さない。"
+
+#. appraisalObjects.transit-card.uses.2.gate-teaching.1
+#: src/data/appraisal.js:182
+msgctxt "text:appraisalObjects.transit-card.uses.2.gate-teaching.1"
+msgid "Boundary-access teaching counterexample"
+msgstr "結界通行授業の反例"
+
+#. appraisalObjects.transit-card.uses.2.gate-teaching.2
+#: src/data/appraisal.js:182
+msgctxt "text:appraisalObjects.transit-card.uses.2.gate-teaching.2"
+msgid "Demonstrate that readable and authorized are not the same condition."
+msgstr "「読める」と「権限がある」は別だと示す。"
+
+#. appraisalObjects.unreadable-disc.evidence.0.rings.1
+#: src/data/appraisal.js:206
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.0.rings.1"
+msgid "Fine continuous rings run from centre outward"
+msgstr "反射面に内から外へ連続する細環"
+
+#. appraisalObjects.unreadable-disc.evidence.0.rings.2
+#: src/data/appraisal.js:206
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.0.rings.2"
+msgid "Information may follow one path rather than a magic circle."
+msgstr "情報は単一路へ記録され、魔法陣ではない可能性。"
+
+#. appraisalObjects.unreadable-disc.evidence.1.sleeve.1
+#: src/data/appraisal.js:207
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.1.sleeve.1"
+msgid "Handwritten title is corrected twice and predates the crossing"
+msgstr "手書き題名は二度訂正、日付は漂流以前"
+
+#. appraisalObjects.unreadable-disc.evidence.1.sleeve.2
+#: src/data/appraisal.js:207
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.1.sleeve.2"
+msgid "“Final” is a version claim, not proof that the contents were finished."
+msgstr "「最終」は版の主張で、内容完成の証拠ではない。"
+
+#. appraisalObjects.unreadable-disc.evidence.2.fingerprints.1
+#: src/data/appraisal.js:208
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.2.fingerprints.1"
+msgid "Three differently oriented prints cross the reading face"
+msgstr "三方向の指紋が読取面を横切る"
+
+#. appraisalObjects.unreadable-disc.evidence.2.fingerprints.2
+#: src/data/appraisal.js:208
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.2.fingerprints.2"
+msgid "Several people handled it; the sleeve writer need not be the content author."
+msgstr "複数人が扱った。袋の筆者を内容作者と推定できない。"
+
+#. appraisalObjects.unreadable-disc.hypotheses.0.music-disc.1
+#: src/data/appraisal.js:211
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.0.music-disc.1"
+msgid "Optical disc containing Outside music"
+msgstr "外界音楽を収めた光学盤"
+
+#. appraisalObjects.unreadable-disc.hypotheses.0.music-disc.2
+#: src/data/appraisal.js:211
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.0.music-disc.2"
+msgid "Light reads the rings; “summer” may name a performance or festival."
+msgstr "細環を光で読み、袋の夏は演奏や祭りかもしれない。"
+
+#. appraisalObjects.unreadable-disc.hypotheses.1.data-disc.1
+#: src/data/appraisal.js:212
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.1.data-disc.1"
+msgid "Recordable optical data disc"
+msgstr "デジタル資料を記録した書込式光盤"
+
+#. appraisalObjects.unreadable-disc.hypotheses.1.data-disc.2
+#: src/data/appraisal.js:212
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.1.data-disc.2"
+msgid "The handwritten version label and prints resemble a private data backup."
+msgstr "手書き版名と指紋は個人資料の保存らしい。"
+
+#. appraisalObjects.unreadable-disc.hypotheses.2.moon-fragment.1
+#: src/data/appraisal.js:213
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.2.moon-fragment.1"
+msgid "Moon fragment pressed thin and made to remember summer"
+msgstr "夏を記録して薄く圧した月片"
+
+#. appraisalObjects.unreadable-disc.hypotheses.2.moon-fragment.2
+#: src/data/appraisal.js:213
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.2.moon-fragment.2"
+msgid "The rainbow is moonlight trapped in Outside resin."
+msgstr "虹は月光が外界樹脂へ閉じ込められたもの。"
+
+#. appraisalObjects.unreadable-disc.tests.0.spectral.1
+#: src/data/appraisal.js:216
+msgctxt "text:appraisalObjects.unreadable-disc.tests.0.spectral.1"
+msgid "Low-light reflection spectrum"
+msgstr "低照度反射分光"
+
+#. appraisalObjects.unreadable-disc.tests.0.spectral.2
+#: src/data/appraisal.js:216
+msgctxt "text:appraisalObjects.unreadable-disc.tests.0.spectral.2"
+msgid "Use diffuse cold light to avoid heating or optical writing."
+msgstr "非集光の冷光を使い、加熱・強光書込を避ける。"
+
+#. appraisalObjects.unreadable-disc.tests.0.spectral.3
+#: src/data/appraisal.js:216
+msgctxt "text:appraisalObjects.unreadable-disc.tests.0.spectral.3"
+msgid ""
+"The rainbow is structural diffraction; no lunar material is found. Eirin "
+"notes this does not exclude Lunar resin."
+msgstr "虹は微細構造の回折で、月質試料なし。永琳は月都樹脂を否定できないと注記。"
+
+#. appraisalObjects.unreadable-disc.tests.1.track-map.1
+#: src/data/appraisal.js:217
+msgctxt "text:appraisalObjects.unreadable-disc.tests.1.track-map.1"
+msgid "Track-boundary map without content reading"
+msgstr "内容を読まない軌道境界図"
+
+#. appraisalObjects.unreadable-disc.tests.1.track-map.2
+#: src/data/appraisal.js:217
+msgctxt "text:appraisalObjects.unreadable-disc.tests.1.track-map.2"
+msgid "Measure reflectance differences between written and blank regions; decode nothing."
+msgstr "記録域と空白域の反射差だけ測り、復号しない。"
+
+#. appraisalObjects.unreadable-disc.tests.1.track-map.3
+#: src/data/appraisal.js:217
+msgctxt "text:appraisalObjects.unreadable-disc.tests.1.track-map.3"
+msgid "Roughly seventy percent was written; outer damage crosses the final region."
+msgstr "約七割が記録済み、外周傷は末尾区間を横断。"
+
+#. appraisalObjects.unreadable-disc.tests.2.sleeve-history.1
+#: src/data/appraisal.js:218
+msgctxt "text:appraisalObjects.unreadable-disc.tests.2.sleeve-history.1"
+msgid "Sleeve handwriting and version comparison"
+msgstr "紙袋筆跡・版照合"
+
+#. appraisalObjects.unreadable-disc.tests.2.sleeve-history.2
+#: src/data/appraisal.js:218
+msgctxt "text:appraisalObjects.unreadable-disc.tests.2.sleeve-history.2"
+msgid "Compare only with Outside formatting samples; identify no writer."
+msgstr "外界書式とのみ照合し、筆者は特定しない。"
+
+#. appraisalObjects.unreadable-disc.tests.2.sleeve-history.3
+#: src/data/appraisal.js:218
+msgctxt "text:appraisalObjects.unreadable-disc.tests.2.sleeve-history.3"
+msgid "“FINAL2” commonly marks repeatedly revised private files, not a second ending."
+msgstr "「FINAL2」は反復修正された私的資料に多く、第二の終末を意味しない。"
+
+#. appraisalObjects.unreadable-disc.uses.0.sealed-archive.1
+#: src/data/appraisal.js:221
+msgctxt "text:appraisalObjects.unreadable-disc.uses.0.sealed-archive.1"
+msgid "Sealed private-data specimen without decoding"
+msgstr "未復号の私的資料封印標本"
+
+#. appraisalObjects.unreadable-disc.uses.0.sealed-archive.2
+#: src/data/appraisal.js:221
+msgctxt "text:appraisalObjects.unreadable-disc.uses.0.sealed-archive.2"
+msgid "Preserve media history without turning unknown contents into a public holding."
+msgstr "媒体史は保存し、未知内容を公開蔵書にしない。"
+
+#. appraisalObjects.unreadable-disc.uses.1.version-teaching.1
+#: src/data/appraisal.js:222
+msgctxt "text:appraisalObjects.unreadable-disc.uses.1.version-teaching.1"
+msgid "Version-naming failure teaching aid"
+msgstr "版名失敗の教材"
+
+#. appraisalObjects.unreadable-disc.uses.1.version-teaching.2
+#: src/data/appraisal.js:222
+msgctxt "text:appraisalObjects.unreadable-disc.uses.1.version-teaching.2"
+msgid "Display the sleeve; reading the contents is unnecessary."
+msgstr "紙袋だけ展示し、内容を読む必要はない。"
+
+#. appraisalObjects.unreadable-disc.uses.2.light-mobile.1
+#: src/data/appraisal.js:223
+msgctxt "text:appraisalObjects.unreadable-disc.uses.2.light-mobile.1"
+msgid "Fairy cold-light mobile"
+msgstr "妖精の冷光モビール"
+
+#. appraisalObjects.unreadable-disc.uses.2.light-mobile.2
+#: src/data/appraisal.js:223
+msgctxt "text:appraisalObjects.unreadable-disc.uses.2.light-mobile.2"
+msgid "Use a replica only; do not pierce the original."
+msgstr "複製品のみ使用し、原品へ穴を開けない。"
+
+#. appraisalObjects.disposable-camera.evidence.0.lens.1
+#: src/data/appraisal.js:247
+msgctxt "text:appraisalObjects.disposable-camera.evidence.0.lens.1"
+msgid "Fixed-focus plastic lens and simple viewfinder"
+msgstr "固定焦点樹脂レンズと簡易ファインダー"
+
+#. appraisalObjects.disposable-camera.evidence.0.lens.2
+#: src/data/appraisal.js:247
+msgctxt "text:appraisalObjects.disposable-camera.evidence.0.lens.2"
+msgid "Designed to record images rather than view distant scenes."
+msgstr "遠方を見るより画像記録用。"
+
+#. appraisalObjects.disposable-camera.evidence.1.counter.1
+#: src/data/appraisal.js:248
+msgctxt "text:appraisalObjects.disposable-camera.evidence.1.counter.1"
+msgid "Counter wear traces movement from 4 to 3"
+msgstr "上面の計数窓に4から3へ進んだ摩耗"
+
+#. appraisalObjects.disposable-camera.evidence.1.counter.2
+#: src/data/appraisal.js:248
+msgctxt "text:appraisalObjects.disposable-camera.evidence.1.counter.2"
+msgid "Unexposed film may remain inside."
+msgstr "内部に未露光フィルムが残る可能性。"
+
+#. appraisalObjects.disposable-camera.evidence.2.warning.1
+#: src/data/appraisal.js:249
+msgctxt "text:appraisalObjects.disposable-camera.evidence.2.warning.1"
+msgid "Rear diagrams require dark opening and warn of high voltage"
+msgstr "裏面図示は暗所分解と高電圧を表示"
+
+#. appraisalObjects.disposable-camera.evidence.2.warning.2
+#: src/data/appraisal.js:249
+msgctxt "text:appraisalObjects.disposable-camera.evidence.2.warning.2"
+msgid "Opening may ruin remaining images and expose stored energy."
+msgstr "開封は残り画像を損ね、蓄電部へ触れる危険。"
+
+#. appraisalObjects.disposable-camera.hypotheses.0.spirit-box.1
+#: src/data/appraisal.js:252
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.0.spirit-box.1"
+msgid "Device that seals part of a subject’s soul in cardboard"
+msgstr "被写体の魂の一部を紙箱へ封じる器具"
+
+#. appraisalObjects.disposable-camera.hypotheses.0.spirit-box.2
+#: src/data/appraisal.js:252
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.0.spirit-box.2"
+msgid "Three remaining frames mean room for three more shadows."
+msgstr "残り三枚は影を三つ収められる印。"
+
+#. appraisalObjects.disposable-camera.hypotheses.1.single-use-camera.1
+#: src/data/appraisal.js:253
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.1.single-use-camera.1"
+msgid "Preloaded single-use film camera"
+msgstr "フィルム内蔵の使い切りカメラ"
+
+#. appraisalObjects.disposable-camera.hypotheses.1.single-use-camera.2
+#: src/data/appraisal.js:253
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.1.single-use-camera.2"
+msgid "After the counter reaches zero, a darkroom removes and develops the film."
+msgstr "計数が尽きた後、暗室でフィルムを取り出し現像。"
+
+#. appraisalObjects.disposable-camera.hypotheses.2.memory-counter.1
+#: src/data/appraisal.js:254
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.2.memory-counter.1"
+msgid "Outside eye that stores a fixed number of memories"
+msgstr "一定数の記憶だけ保存する外界の目"
+
+#. appraisalObjects.disposable-camera.hypotheses.2.memory-counter.2
+#: src/data/appraisal.js:254
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.2.memory-counter.2"
+msgid "The counter is not remaining photos, but how many more times it agrees to remember."
+msgstr "計数窓は写真残数でなく、あと何度覚える意思があるか。"
+
+#. appraisalObjects.disposable-camera.tests.0.dark-bag.1
+#: src/data/appraisal.js:257
+msgctxt "text:appraisalObjects.disposable-camera.tests.0.dark-bag.1"
+msgid "External mechanism check inside a dark bag"
+msgstr "暗袋内の外部機構触診"
+
+#. appraisalObjects.disposable-camera.tests.0.dark-bag.2
+#: src/data/appraisal.js:257
+msgctxt "text:appraisalObjects.disposable-camera.tests.0.dark-bag.2"
+msgid "Do not open; check only whether wind wheel and shutter are seized."
+msgstr "開封せず、巻上げ輪とシャッター固着のみ確認。"
+
+#. appraisalObjects.disposable-camera.tests.0.dark-bag.3
+#: src/data/appraisal.js:257
+msgctxt "text:appraisalObjects.disposable-camera.tests.0.dark-bag.3"
+msgid "The film is wound and shutter mobile; librarians prohibit pressing it."
+msgstr "巻上げは準備位置、シャッター可動。司書は押下を禁止。"
+
+#. appraisalObjects.disposable-camera.tests.1.capacitor-field.1
+#: src/data/appraisal.js:258
+msgctxt "text:appraisalObjects.disposable-camera.tests.1.capacitor-field.1"
+msgid "Passive flash-capacitor field check"
+msgstr "フラッシュ蓄電部の受動場検査"
+
+#. appraisalObjects.disposable-camera.tests.1.capacitor-field.2
+#: src/data/appraisal.js:258
+msgctxt "text:appraisalObjects.disposable-camera.tests.1.capacitor-field.2"
+msgid "Do not trigger flash; measure residual field near the case."
+msgstr "フラッシュを起動せず、外装付近の残留場だけ測る。"
+
+#. appraisalObjects.disposable-camera.tests.1.capacitor-field.3
+#: src/data/appraisal.js:258
+msgctxt "text:appraisalObjects.disposable-camera.tests.1.capacitor-field.3"
+msgid ""
+"No measurable residual charge; that does not make bare-hand opening safe. "
+"Eirin writes this twice."
+msgstr "測定可能な残圧なし。ただし素手分解可を意味しない。永琳が二度記載。"
+
+#. appraisalObjects.disposable-camera.tests.2.privacy-provenance.1
+#: src/data/appraisal.js:259
+msgctxt "text:appraisalObjects.disposable-camera.tests.2.privacy-provenance.1"
+msgid "Provenance and image-permission inventory"
+msgstr "来歴・撮影権限の棚卸し"
+
+#. appraisalObjects.disposable-camera.tests.2.privacy-provenance.2
+#: src/data/appraisal.js:259
+msgctxt "text:appraisalObjects.disposable-camera.tests.2.privacy-provenance.2"
+msgid "Record location, wrapping, and unknown photographer; develop nothing."
+msgstr "発見位置・包み方・撮影者不明を記録し、現像しない。"
+
+#. appraisalObjects.disposable-camera.tests.2.privacy-provenance.3
+#: src/data/appraisal.js:259
+msgctxt "text:appraisalObjects.disposable-camera.tests.2.privacy-provenance.3"
+msgid ""
+"No consent chain can be established for photographer or subjects. Three "
+"unused frames are not permission to use them."
+msgstr "撮影者・被写体の同意連鎖を確立できず。残り三枚も使用許可ではない。"
+
+#. appraisalObjects.disposable-camera.uses.0.sealed-history.1
+#: src/data/appraisal.js:262
+msgctxt "text:appraisalObjects.disposable-camera.uses.0.sealed-history.1"
+msgid "Seal as an Outside everyday-photography specimen"
+msgstr "外界の日常写真史標本として封印"
+
+#. appraisalObjects.disposable-camera.uses.0.sealed-history.2
+#: src/data/appraisal.js:262
+msgctxt "text:appraisalObjects.disposable-camera.uses.0.sealed-history.2"
+msgid "Develop nothing, take nothing, preserve the unknown."
+msgstr "現像も追加撮影もせず、未知を残す。"
+
+#. appraisalObjects.disposable-camera.uses.1.camera-teaching.1
+#: src/data/appraisal.js:263
+msgctxt "text:appraisalObjects.disposable-camera.uses.1.camera-teaching.1"
+msgid "Combined image-ethics and mechanism teaching aid"
+msgstr "画像倫理・機構の二重教材"
+
+#. appraisalObjects.disposable-camera.uses.1.camera-teaching.2
+#: src/data/appraisal.js:263
+msgctxt "text:appraisalObjects.disposable-camera.uses.1.camera-teaching.2"
+msgid "Teach from diagrams and replicas; keep the original in a dark bag."
+msgstr "外装図と複製品で教え、原品は暗袋へ。"
+
+#. appraisalObjects.disposable-camera.uses.2.three-consented-frames.1
+#: src/data/appraisal.js:264
+msgctxt "text:appraisalObjects.disposable-camera.uses.2.three-consented-frames.1"
+msgid "Three explicitly consented festival photographs"
+msgstr "明示同意による学祭写真三枚"
+
+#. appraisalObjects.disposable-camera.uses.2.three-consented-frames.2
+#: src/data/appraisal.js:264
+msgctxt "text:appraisalObjects.disposable-camera.uses.2.three-consented-frames.2"
+msgid "First establish mechanism safety; every subject may decline development."
+msgstr "機構安全を確認し、各被写体は現像拒否可。"
+
+#. appraisalObjects.orphan-controller.evidence.0.layout.1
+#: src/data/appraisal.js:288
+msgctxt "text:appraisalObjects.orphan-controller.evidence.0.layout.1"
+msgid "More than ten buttons surround two self-centring sticks"
+msgstr "十数ボタンと自動復帰する二本の小棒"
+
+#. appraisalObjects.orphan-controller.evidence.0.layout.2
+#: src/data/appraisal.js:288
+msgctxt "text:appraisalObjects.orphan-controller.evidence.0.layout.2"
+msgid "Designed for continuous two-handed input, not a single switch."
+msgstr "単一スイッチでなく両手連続入力用。"
+
+#. appraisalObjects.orphan-controller.evidence.1.cable.1
+#: src/data/appraisal.js:289
+msgctxt "text:appraisalObjects.orphan-controller.evidence.1.cable.1"
+msgid "Cable end has directional contacts and a keyed notch"
+msgstr "端子に方向付き金属接点と誤挿入防止溝"
+
+#. appraisalObjects.orphan-controller.evidence.1.cable.2
+#: src/data/appraisal.js:289
+msgctxt "text:appraisalObjects.orphan-controller.evidence.1.cable.2"
+msgid "It depends on a missing matching device."
+msgstr "失われた対応機器に依存する。"
+
+#. appraisalObjects.orphan-controller.evidence.2.mass.1
+#: src/data/appraisal.js:290
+msgctxt "text:appraisalObjects.orphan-controller.evidence.2.mass.1"
+msgid "Each grip contains an eccentric rotor"
+msgstr "振ると両握りに偏心回転子"
+
+#. appraisalObjects.orphan-controller.evidence.2.mass.2
+#: src/data/appraisal.js:290
+msgctxt "text:appraisalObjects.orphan-controller.evidence.2.mass.2"
+msgid "It may answer the user rather than merely receive presses."
+msgstr "押下を受けるだけでなく利用者へ返答する可能性。"
+
+#. appraisalObjects.orphan-controller.hypotheses.0.danmaku-trainer.1
+#: src/data/appraisal.js:293
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.0.danmaku-trainer.1"
+msgid "Outside trainer for two-handed danmaku illusions"
+msgstr "外界で弾幕幻影を両手操作する訓練器"
+
+#. appraisalObjects.orphan-controller.hypotheses.0.danmaku-trainer.2
+#: src/data/appraisal.js:293
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.0.danmaku-trainer.2"
+msgid "Buttons map to shooting, evasion, and pause; vibration signals a hit."
+msgstr "ボタンは射撃・回避・停止、振動は被弾を示す。"
+
+#. appraisalObjects.orphan-controller.hypotheses.1.game-controller.1
+#: src/data/appraisal.js:294
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.1.game-controller.1"
+msgid "Input controller for an electronic game console"
+msgstr "電子ゲーム機への入力コントローラー"
+
+#. appraisalObjects.orphan-controller.hypotheses.1.game-controller.2
+#: src/data/appraisal.js:294
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.1.game-controller.2"
+msgid "Buttons and sticks send input; internal motors provide tactile feedback."
+msgstr "ボタンと棒で操作を送り、内部モーターが触覚を返す。"
+
+#. appraisalObjects.orphan-controller.hypotheses.2.remote-shikigami.1
+#: src/data/appraisal.js:295
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.2.remote-shikigami.1"
+msgid "Remote shikigami command device whose familiar is missing"
+msgstr "式神本体を失った遠隔使役器"
+
+#. appraisalObjects.orphan-controller.hypotheses.2.remote-shikigami.2
+#: src/data/appraisal.js:295
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.2.remote-shikigami.2"
+msgid "It keeps waiting for an unresponsive host, like a shikigami whose link was severed."
+msgstr "応答しない本体を待ち続け、接続を失った式のようだ。"
+
+#. appraisalObjects.orphan-controller.tests.0.continuity.1
+#: src/data/appraisal.js:298
+msgctxt "text:appraisalObjects.orphan-controller.tests.0.continuity.1"
+msgid "Unpowered button-matrix mapping"
+msgstr "無給電ボタン行列測定"
+
+#. appraisalObjects.orphan-controller.tests.0.continuity.2
+#: src/data/appraisal.js:298
+msgctxt "text:appraisalObjects.orphan-controller.tests.0.continuity.2"
+msgid "Read switch continuity with a high-impedance tool; supply no port power."
+msgstr "高抵抗計器でスイッチ導通のみ読み、端子へ給電しない。"
+
+#. appraisalObjects.orphan-controller.tests.0.continuity.3
+#: src/data/appraisal.js:298
+msgctxt "text:appraisalObjects.orphan-controller.tests.0.continuity.3"
+msgid "Buttons form a scanned matrix; the two sticks output continuous position."
+msgstr "ボタンは走査行列、二本の棒は連続位置を出力。"
+
+#. appraisalObjects.orphan-controller.tests.1.mass-map.1
+#: src/data/appraisal.js:299
+msgctxt "text:appraisalObjects.orphan-controller.tests.1.mass-map.1"
+msgid "Grip mass imaging"
+msgstr "握り内部質量像"
+
+#. appraisalObjects.orphan-controller.tests.1.mass-map.2
+#: src/data/appraisal.js:299
+msgctxt "text:appraisalObjects.orphan-controller.tests.1.mass-map.2"
+msgid "Use low-strength youkai imaging without driving the rotors."
+msgstr "低強度妖力で透視し、回転子を駆動しない。"
+
+#. appraisalObjects.orphan-controller.tests.1.mass-map.3
+#: src/data/appraisal.js:299
+msgctxt "text:appraisalObjects.orphan-controller.tests.1.mass-map.3"
+msgid "Two eccentric motors can create graded vibration; they are not loose screws."
+msgstr "偏心モーター二基が強弱振動を作り、緩んだねじではない。"
+
+#. appraisalObjects.orphan-controller.tests.2.adapter-fit.1
+#: src/data/appraisal.js:300
+msgctxt "text:appraisalObjects.orphan-controller.tests.2.adapter-fit.1"
+msgid "Reversible wooden port fitting"
+msgstr "可逆木型端子合わせ"
+
+#. appraisalObjects.orphan-controller.tests.2.adapter-fit.2
+#: src/data/appraisal.js:300
+msgctxt "text:appraisalObjects.orphan-controller.tests.2.adapter-fit.2"
+msgid "Make a wooden negative only; connect no wires."
+msgstr "木製の負型だけ作り、配線しない。"
+
+#. appraisalObjects.orphan-controller.tests.2.adapter-fit.3
+#: src/data/appraisal.js:300
+msgctxt "text:appraisalObjects.orphan-controller.tests.2.adapter-fit.3"
+msgid ""
+"The plug belongs to a specific console generation. Nitori’s universal "
+"adapter has two surplus water holes."
+msgstr "端子は特定世代機用。にとりの万能変換器には水穴が二つ余る。"
+
+#. appraisalObjects.orphan-controller.uses.0.input-teaching.1
+#: src/data/appraisal.js:303
+msgctxt "text:appraisalObjects.orphan-controller.uses.0.input-teaching.1"
+msgid "Human-machine input and feedback teaching aid"
+msgstr "人機入力・反応教材"
+
+#. appraisalObjects.orphan-controller.uses.0.input-teaching.2
+#: src/data/appraisal.js:303
+msgctxt "text:appraisalObjects.orphan-controller.uses.0.input-teaching.2"
+msgid "Buttons, position, and vibration can be studied without restoring a whole game."
+msgstr "ゲーム全体を復元せず、ボタン・位置・振動を研究できる。"
+
+#. appraisalObjects.orphan-controller.uses.1.danmaku-access.1
+#: src/data/appraisal.js:304
+msgctxt "text:appraisalObjects.orphan-controller.uses.1.danmaku-access.1"
+msgid "Low-motion danmaku training input"
+msgstr "小動作弾幕訓練入力器"
+
+#. appraisalObjects.orphan-controller.uses.1.danmaku-access.2
+#: src/data/appraisal.js:304
+msgctxt "text:appraisalObjects.orphan-controller.uses.1.danmaku-access.2"
+msgid "Requires an isolated adapter; vibration must not be treated as injury."
+msgstr "隔離変換器が必要で、振動を負傷と見なさない。"
+
+#. appraisalObjects.orphan-controller.uses.2.kappa-prototype.1
+#: src/data/appraisal.js:305
+msgctxt "text:appraisalObjects.orphan-controller.uses.2.kappa-prototype.1"
+msgid "Kappa multi-valve remote prototype"
+msgstr "河童多弁遠隔操作試作"
+
+#. appraisalObjects.orphan-controller.uses.2.kappa-prototype.2
+#: src/data/appraisal.js:305
+msgctxt "text:appraisalObjects.orphan-controller.uses.2.kappa-prototype.2"
+msgid "All modification stays in an external box; cut no original wire."
+msgstr "改造は外付箱のみで行い、原線を切らない。"
+
+#. appraisalObjects.orphan-cable.evidence.0.ends.1
+#: src/data/appraisal.js:329
+msgctxt "text:appraisalObjects.orphan-cable.evidence.0.ends.1"
+msgid "The ends differ in size and contact count"
+msgstr "両端の寸法・接点数が異なる"
+
+#. appraisalObjects.orphan-cable.evidence.0.ends.2
+#: src/data/appraisal.js:329
+msgctxt "text:appraisalObjects.orphan-cable.evidence.0.ends.2"
+msgid "It carried power or data between two device types."
+msgstr "二種機器間で電力または情報を運ぶ。"
+
+#. appraisalObjects.orphan-cable.evidence.1.strain.1
+#: src/data/appraisal.js:330
+msgctxt "text:appraisalObjects.orphan-cable.evidence.1.strain.1"
+msgid "Repeated bending has whitened the small-end strain relief"
+msgstr "小端根元に反復屈曲の白化"
+
+#. appraisalObjects.orphan-cable.evidence.1.strain.2
+#: src/data/appraisal.js:330
+msgctxt "text:appraisalObjects.orphan-cable.evidence.1.strain.2"
+msgid "The small end often attached to something lifted and moved."
+msgstr "小端は持ち運ぶ品へ頻繁に接続された。"
+
+#. appraisalObjects.orphan-cable.evidence.2.shield.1
+#: src/data/appraisal.js:331
+msgctxt "text:appraisalObjects.orphan-cable.evidence.2.shield.1"
+msgid "Weak-field inspection shows multiple conductors and shielding"
+msgstr "弱磁検査で複数線と遮蔽層"
+
+#. appraisalObjects.orphan-cable.evidence.2.shield.2
+#: src/data/appraisal.js:331
+msgctxt "text:appraisalObjects.orphan-cable.evidence.2.shield.2"
+msgid "It is more than a cord or single-wire power lead."
+msgstr "単なる紐や単線給電ではない。"
+
+#. appraisalObjects.orphan-cable.hypotheses.0.charging-data.1
+#: src/data/appraisal.js:334
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.0.charging-data.1"
+msgid "Charging and data cable for an older mobile device"
+msgstr "旧式携帯機器の充電・データ線"
+
+#. appraisalObjects.orphan-cable.hypotheses.0.charging-data.2
+#: src/data/appraisal.js:334
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.0.charging-data.2"
+msgid "The large end met power or computer; the small end met the missing device."
+msgstr "大端は電源・計算機、小端は失われた携帯機器へ。"
+
+#. appraisalObjects.orphan-cable.hypotheses.1.boundary-thread.1
+#: src/data/appraisal.js:335
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.1.boundary-thread.1"
+msgid "Wired boundary tying two endpoints together"
+msgstr "二つの境界端を固定する有線結界"
+
+#. appraisalObjects.orphan-cable.hypotheses.1.boundary-thread.2
+#: src/data/appraisal.js:335
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.1.boundary-thread.2"
+msgid "Shielding prevents intervening worlds from leaking into the data."
+msgstr "遮蔽層は途中の世界が情報へ染み込むのを防ぐ。"
+
+#. appraisalObjects.orphan-cable.hypotheses.2.familiar-leash.1
+#: src/data/appraisal.js:336
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.2.familiar-leash.1"
+msgid "Data leash preventing a small familiar from wandering"
+msgstr "小型式神の迷子防止データ綱"
+
+#. appraisalObjects.orphan-cable.hypotheses.2.familiar-leash.2
+#: src/data/appraisal.js:336
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.2.familiar-leash.2"
+msgid "Wear at the small end shows the familiar often tried to escape."
+msgstr "小端摩耗は式神が頻繁に逃げようとした跡。"
+
+#. appraisalObjects.orphan-cable.tests.0.conductor-map.1
+#: src/data/appraisal.js:339
+msgctxt "text:appraisalObjects.orphan-cable.tests.0.conductor-map.1"
+msgid "Unpowered conductor map"
+msgstr "無給電導線写像"
+
+#. appraisalObjects.orphan-cable.tests.0.conductor-map.2
+#: src/data/appraisal.js:339
+msgctxt "text:appraisalObjects.orphan-cable.tests.0.conductor-map.2"
+msgid "Map end-to-end continuity with a tiny test signal, not operating voltage."
+msgstr "微弱測定信号で両端対応を確認し、動作電圧は加えない。"
+
+#. appraisalObjects.orphan-cable.tests.0.conductor-map.3
+#: src/data/appraisal.js:339
+msgctxt "text:appraisalObjects.orphan-cable.tests.0.conductor-map.3"
+msgid "Power and several data conductors are present, with no open circuit."
+msgstr "電力線と複数データ線を含み、断線なし。"
+
+#. appraisalObjects.orphan-cable.tests.1.connector-catalogue.1
+#: src/data/appraisal.js:340
+msgctxt "text:appraisalObjects.orphan-cable.tests.1.connector-catalogue.1"
+msgid "Discontinued connector catalogue comparison"
+msgstr "廃止端子図録照合"
+
+#. appraisalObjects.orphan-cable.tests.1.connector-catalogue.2
+#: src/data/appraisal.js:340
+msgctxt "text:appraisalObjects.orphan-cable.tests.1.connector-catalogue.2"
+msgid "Compare against catalogue rubbings; force it into nothing."
+msgstr "『77点』端子拓本と照合し、無理に挿さない。"
+
+#. appraisalObjects.orphan-cable.tests.1.connector-catalogue.3
+#: src/data/appraisal.js:340
+msgctxt "text:appraisalObjects.orphan-cable.tests.1.connector-catalogue.3"
+msgid ""
+"The small end matches a discontinued mobile family; three look-alike "
+"versions remain possible."
+msgstr "小端は廃止携帯機器群に合うが、外形類似三版を併記。"
+
+#. appraisalObjects.orphan-cable.tests.2.shield-test.1
+#: src/data/appraisal.js:341
+msgctxt "text:appraisalObjects.orphan-cable.tests.2.shield-test.1"
+msgid "Passive shielding check"
+msgstr "遮蔽層の受動検査"
+
+#. appraisalObjects.orphan-cable.tests.2.shield-test.2
+#: src/data/appraisal.js:341
+msgctxt "text:appraisalObjects.orphan-cable.tests.2.shield-test.2"
+msgid "Transmit no content; compare only external noise penetration."
+msgstr "内容を送らず、外部雑音の透過だけ比較。"
+
+#. appraisalObjects.orphan-cable.tests.2.shield-test.3
+#: src/data/appraisal.js:341
+msgctxt "text:appraisalObjects.orphan-cable.tests.2.shield-test.3"
+msgid "The shield blocks electromagnetic noise, not a gap opened by Yukari."
+msgstr "遮蔽は電磁雑音向けで、紫の隙間には効かない。"
+
+#. appraisalObjects.orphan-cable.uses.0.connector-history.1
+#: src/data/appraisal.js:344
+msgctxt "text:appraisalObjects.orphan-cable.uses.0.connector-history.1"
+msgid "Discontinued-port and repair-chain teaching aid"
+msgstr "廃止端子・修理断絶教材"
+
+#. appraisalObjects.orphan-cable.uses.0.connector-history.2
+#: src/data/appraisal.js:344
+msgctxt "text:appraisalObjects.orphan-cable.uses.0.connector-history.2"
+msgid "A sound cable loses purpose when its matching device disappears."
+msgstr "相手機器を失うと、健全な線も用途を失う。"
+
+#. appraisalObjects.orphan-cable.uses.1.reversible-adapter.1
+#: src/data/appraisal.js:345
+msgctxt "text:appraisalObjects.orphan-cable.uses.1.reversible-adapter.1"
+msgid "Kappa reversible-adapter study sample"
+msgstr "河童可逆変換研究標本"
+
+#. appraisalObjects.orphan-cable.uses.1.reversible-adapter.2
+#: src/data/appraisal.js:345
+msgctxt "text:appraisalObjects.orphan-cable.uses.1.reversible-adapter.2"
+msgid "Clamp onto an external replica; do not cut the obsolete end."
+msgstr "外部拓片へ挟み、廃止端を切らない。"
+
+#. appraisalObjects.orphan-cable.uses.2.catalogue-tether.1
+#: src/data/appraisal.js:346
+msgctxt "text:appraisalObjects.orphan-cable.uses.2.catalogue-tether.1"
+msgid "Unpowered bookmark tether for flying holdings"
+msgstr "飛ぶ蔵書の無通電しおり紐"
+
+#. appraisalObjects.orphan-cable.uses.2.catalogue-tether.2
+#: src/data/appraisal.js:346
+msgctxt "text:appraisalObjects.orphan-cable.uses.2.catalogue-tether.2"
+msgid "Connect it to no device, lest the shelves learn data transfer."
+msgstr "機器へ接続せず、棚にデータ転送を覚えさせない。"
+
+#. appraisalObjects.frozen-reader.evidence.0.persistent-page.1
+#: src/data/appraisal.js:370
+msgctxt "text:appraisalObjects.frozen-reader.evidence.0.persistent-page.1"
+msgid "Greyscale page persists after years without power"
+msgstr "無給電で多年、灰階頁面を保持"
+
+#. appraisalObjects.frozen-reader.evidence.0.persistent-page.2
+#: src/data/appraisal.js:370
+msgctxt "text:appraisalObjects.frozen-reader.evidence.0.persistent-page.2"
+msgid "The display may consume power only when changing; persistence is not operation."
+msgstr "表示材は更新時のみ電力を使い、動作中とは限らない。"
+
+#. appraisalObjects.frozen-reader.evidence.1.bezel.1
+#: src/data/appraisal.js:371
+msgctxt "text:appraisalObjects.frozen-reader.evidence.1.bezel.1"
+msgid "Bezel carries page-turn keys and a recessed port"
+msgstr "枠に頁送りキーと recessed 端子"
+
+#. appraisalObjects.frozen-reader.evidence.1.bezel.2
+#: src/data/appraisal.js:371
+msgctxt "text:appraisalObjects.frozen-reader.evidence.1.bezel.2"
+msgid "It is an updateable reading device, not a printed sheet."
+msgstr "更新可能な読書機器で、印刷一枚ではない。"
+
+#. appraisalObjects.frozen-reader.evidence.2.page.1
+#: src/data/appraisal.js:372
+msgctxt "text:appraisalObjects.frozen-reader.evidence.2.page.1"
+msgid "Text stops mid-sentence at page 214 of 389"
+msgstr "文章は文中で止まり、頁番号214/389"
+
+#. appraisalObjects.frozen-reader.evidence.2.page.2
+#: src/data/appraisal.js:372
+msgctxt "text:appraisalObjects.frozen-reader.evidence.2.page.2"
+msgid "Visible content is not the whole work, nor proof that a reader reached it."
+msgstr "見える内容は作品全体でなく、読者がここまで読んだ証拠でもない。"
+
+#. appraisalObjects.frozen-reader.hypotheses.0.e-reader.1
+#: src/data/appraisal.js:375
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.0.e-reader.1"
+msgid "Device for reading many books on a low-power paper-like screen"
+msgstr "低消費の紙状画面で複数冊を読む端末"
+
+#. appraisalObjects.frozen-reader.hypotheses.0.e-reader.2
+#: src/data/appraisal.js:375
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.0.e-reader.2"
+msgid "Power is used chiefly when changing pages and managing a collection."
+msgstr "電力は頁更新・書庫管理時に主に使う。"
+
+#. appraisalObjects.frozen-reader.hypotheses.1.book-prison.1
+#: src/data/appraisal.js:376
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.1.book-prison.1"
+msgid "Book-prison compressing 389 pages into one slab"
+msgstr "389頁を一枚へ押し込めた本の牢"
+
+#. appraisalObjects.frozen-reader.hypotheses.1.book-prison.2
+#: src/data/appraisal.js:376
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.1.book-prison.2"
+msgid "Buttons decide which page may rise to the surface."
+msgstr "ボタンが表面へ出る頁を許可する。"
+
+#. appraisalObjects.frozen-reader.hypotheses.2.sentence-talisman.1
+#: src/data/appraisal.js:377
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.2.sentence-talisman.1"
+msgid "Outside talisman suspending an unfinished sentence forever"
+msgstr "未完の文を永遠に保留する外界符"
+
+#. appraisalObjects.frozen-reader.hypotheses.2.sentence-talisman.2
+#: src/data/appraisal.js:377
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.2.sentence-talisman.2"
+msgid "As long as the sentence never ends, the reader cannot truly leave the book."
+msgstr "文が終わらない限り、読者は本から離れられない。"
+
+#. appraisalObjects.frozen-reader.tests.0.polarization.1
+#: src/data/appraisal.js:380
+msgctxt "text:appraisalObjects.frozen-reader.tests.0.polarization.1"
+msgid "Low-light polarization observation"
+msgstr "低照度偏光観察"
+
+#. appraisalObjects.frozen-reader.tests.0.polarization.2
+#: src/data/appraisal.js:380
+msgctxt "text:appraisalObjects.frozen-reader.tests.0.polarization.2"
+msgid "Compare display-particle orientation without refreshing the page."
+msgstr "表示粒子の向きを比較し、画面更新しない。"
+
+#. appraisalObjects.frozen-reader.tests.0.polarization.3
+#: src/data/appraisal.js:380
+msgctxt "text:appraisalObjects.frozen-reader.tests.0.polarization.3"
+msgid ""
+"Black and white particles remain in distinct positions, consistent with "
+"bistable electronic paper."
+msgstr "白黒粒子が別位置で固定され、双安定電子紙と一致。"
+
+#. appraisalObjects.frozen-reader.tests.1.port-rubbing.1
+#: src/data/appraisal.js:381
+msgctxt "text:appraisalObjects.frozen-reader.tests.1.port-rubbing.1"
+msgid "Port rubbing and dust stratigraphy"
+msgstr "端子拓本・埃層序"
+
+#. appraisalObjects.frozen-reader.tests.1.port-rubbing.2
+#: src/data/appraisal.js:381
+msgctxt "text:appraisalObjects.frozen-reader.tests.1.port-rubbing.2"
+msgid "Take a soft-paper rubbing; insert no cable; note disturbed dust."
+msgstr "軟紙で形を取り、挿線せず、埃の乱れを記録。"
+
+#. appraisalObjects.frozen-reader.tests.1.port-rubbing.3
+#: src/data/appraisal.js:381
+msgctxt "text:appraisalObjects.frozen-reader.tests.1.port-rubbing.3"
+msgid "The port has been unused for years and matches an older Outside reader family."
+msgstr "多年未使用、外界旧式読書端末の端子と一致。"
+
+#. appraisalObjects.frozen-reader.tests.2.page-catalogue.1
+#: src/data/appraisal.js:382
+msgctxt "text:appraisalObjects.frozen-reader.tests.2.page-catalogue.1"
+msgid "Visible-page bibliographic comparison"
+msgstr "可視頁の書誌照合"
+
+#. appraisalObjects.frozen-reader.tests.2.page-catalogue.2
+#: src/data/appraisal.js:382
+msgctxt "text:appraisalObjects.frozen-reader.tests.2.page-catalogue.2"
+msgid "Record only a short fragment and pagination traits; attempt no full recovery."
+msgstr "短い断片と頁番号特徴だけ記録し、全内容復元を試みない。"
+
+#. appraisalObjects.frozen-reader.tests.2.page-catalogue.3
+#: src/data/appraisal.js:382
+msgctxt "text:appraisalObjects.frozen-reader.tests.2.page-catalogue.3"
+msgid ""
+"The fragment matches no complete holding exactly; it may be another edition "
+"or private document."
+msgstr "断片は既存蔵書と完全一致せず、異版または私文書の可能性。"
+
+#. appraisalObjects.frozen-reader.uses.0.media-history.1
+#: src/data/appraisal.js:385
+msgctxt "text:appraisalObjects.frozen-reader.uses.0.media-history.1"
+msgid "Unawakened electronic-paper media specimen"
+msgstr "起動しない電子紙媒体史標本"
+
+#. appraisalObjects.frozen-reader.uses.0.media-history.2
+#: src/data/appraisal.js:385
+msgctxt "text:appraisalObjects.frozen-reader.uses.0.media-history.2"
+msgid "Keep the frozen page in its arrival state."
+msgstr "止まった頁を到着時状態のまま残す。"
+
+#. appraisalObjects.frozen-reader.uses.1.recovery-project.1
+#: src/data/appraisal.js:386
+msgctxt "text:appraisalObjects.frozen-reader.uses.1.recovery-project.1"
+msgid "Reversible power-recovery study"
+msgstr "撤回可能な電源復旧研究"
+
+#. appraisalObjects.frozen-reader.uses.1.recovery-project.2
+#: src/data/appraisal.js:386
+msgctxt "text:appraisalObjects.frozen-reader.uses.1.recovery-project.2"
+msgid ""
+"Begin with an isolated battery model; a successful page turn is not "
+"permission to expose contents."
+msgstr "隔離電池模型から始め、頁更新成功を内容公開許可としない。"
+
+#. appraisalObjects.frozen-reader.uses.2.unfinished-sentence.1
+#: src/data/appraisal.js:387
+msgctxt "text:appraisalObjects.frozen-reader.uses.2.unfinished-sentence.1"
+msgid "Last sentence before library closing exhibit"
+msgstr "図書館閉館前の最後の一文展示"
+
+#. appraisalObjects.frozen-reader.uses.2.unfinished-sentence.2
+#: src/data/appraisal.js:387
+msgctxt "text:appraisalObjects.frozen-reader.uses.2.unfinished-sentence.2"
+msgid "Show only the existing half-sentence; write no ending for its author."
+msgstr "元から見える半文だけ展示し、作者の続きを書かない。"

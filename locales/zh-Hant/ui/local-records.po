@@ -1,0 +1,459 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/eyebrow"
+msgid "LOCAL ARCHIVES / ON-DEVICE RECORDS CABINET"
+msgstr "LOCAL ARCHIVES / 本機資料櫃"
+
+#. copy/title
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/title"
+msgid "Which campus papers is this device keeping for you?"
+msgstr "這台裝置替你保管了哪些校務紙張？"
+
+#. copy/lead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/lead"
+msgid ""
+"Applications, courses, loans, care, and unfinished drafts are listed shelf "
+"by shelf. Nothing is uploaded during ordinary use; when moving, you seal the "
+"box yourself."
+msgstr "申請、選課、借書、診療與尚未交出的草稿都在這裡逐櫃列明。平時不會上傳；需要搬家時，再由你親手封箱。"
+
+#. copy/offline
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/offline"
+msgid "On-device reading room"
+msgstr "本機閱覽"
+
+#. copy/offlineLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/offlineLead"
+msgid ""
+"During ordinary use, files are visible only to this browser profile and this "
+"site's origin."
+msgstr "普通使用時，卷宗只對目前瀏覽器設定檔與這個網站來源可見。"
+
+#. copy/origin
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/origin"
+msgid "Current origin"
+msgstr "目前來源"
+
+#. copy/writtenFiles
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/writtenFiles"
+msgid "Stored files"
+msgstr "已有卷宗"
+
+#. copy/entries
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/entries"
+msgid "Content entries"
+msgstr "內容筆數"
+
+#. copy/used
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/used"
+msgid "Cabinet usage"
+msgstr "檔案櫃占用"
+
+#. copy/portable
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/portable"
+msgid "Portable files"
+msgstr "可封箱"
+
+#. copy/allowance
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/allowance"
+msgid ""
+"Gauge uses a common 5 MiB localStorage allowance as a reference; the browser "
+"sets the actual limit."
+msgstr "以常見 5 MiB localStorage 額度作參考；實際限制由瀏覽器決定。"
+
+#. copy/originEstimate
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/originEstimate"
+msgid ""
+"Browser estimate: this origin uses {usage} of {quota}; this may include "
+"other site storage."
+msgstr "瀏覽器回報本來源已使用 {usage}／可用 {quota}；可能包含本網站其他儲存。"
+
+#. copy/originUnknown
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/originUnknown"
+msgid ""
+"The browser did not provide an origin-wide allowance; the figure above "
+"remains an exact UTF-8 estimate of university files."
+msgstr "瀏覽器沒有提供本來源總額度；上方仍是本校卷宗的 UTF-8 精確估算。"
+
+#. copy/visibility
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/visibility"
+msgid "Who can see these papers?"
+msgstr "誰看得見這些紙？"
+
+#. copy/visibilityLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/visibilityLead"
+msgid ""
+"“On-device” is not a cloud account. Other browsers, private windows, "
+"devices, and site origins cannot see it."
+msgstr "「本機」不是一個雲端帳號。不同瀏覽器、無痕視窗、裝置與網站來源彼此看不到。"
+
+#. copy/export
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/export"
+msgid "Seal and export everything"
+msgstr "一鍵封箱匯出"
+
+#. copy/exportLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/exportLead"
+msgid "Downloads a JSON box with a SHA-256 seal. Short-lived tab passes are never packed."
+msgstr "匯出一份帶 SHA-256 封印的 JSON。短時分頁通行條不會裝箱。"
+
+#. copy/exporting
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/exporting"
+msgid "Counting pages…"
+msgstr "正在點算頁碼…"
+
+#. copy/exported
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/exported"
+msgid "The on-device archive has been sealed and downloaded."
+msgstr "本機卷宗已封箱下載。"
+
+#. copy/import
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/import"
+msgid "Import an earlier archive box"
+msgstr "匯入舊檔案箱"
+
+#. copy/importLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importLead"
+msgid ""
+"The seal, format, and every key are checked before you choose what happens "
+"to name collisions. A failed validation writes nothing."
+msgstr "先驗封印、格式與每個鍵，再讓你決定如何處理同名卷宗；驗證失敗時不會寫入任何資料。"
+
+#. copy/chooseFile
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/chooseFile"
+msgid "Choose JSON file"
+msgstr "選擇 JSON 檔案"
+
+#. copy/collision
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/collision"
+msgid "Name-collision policy"
+msgstr "同名卷宗處理"
+
+#. copy/preserve
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/preserve"
+msgid "Keep current version (recommended)"
+msgstr "保留目前版本（推薦）"
+
+#. copy/overwrite
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/overwrite"
+msgid "Overwrite same-name files from import"
+msgstr "以匯入檔覆蓋同名卷宗"
+
+#. copy/applyImport
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/applyImport"
+msgid "Place in cabinet"
+msgstr "確認入櫃"
+
+#. copy/imported
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/imported"
+msgid "Filed {imported}; skipped {skipped} same-name files."
+msgstr "已入櫃 {imported} 份；略過 {skipped} 份同名卷宗。"
+
+#. copy/importReady
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importReady"
+msgid "Seal passed: {count} files, {size}"
+msgstr "封印通過：{count} 份卷宗，{size}"
+
+#. copy/importConflicts
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importConflicts"
+msgid "{count} share a name with a current file"
+msgstr "{count} 份與目前卷宗同名"
+
+#. copy/importUnknown
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importUnknown"
+msgid "{count} are not yet catalogued but retain the tu: campus prefix"
+msgstr "{count} 份尚未列入本校目錄，但保留 tu: 校務前綴"
+
+#. copy/importBlocked
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importBlocked"
+msgid "{count} short-lived or non-portable files will be skipped"
+msgstr "{count} 份短時或不可攜資料將略過"
+
+#. copy/importSource
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importSource"
+msgid "Packed {date} · origin {origin}"
+msgstr "封箱時間 {date} · 來源 {origin}"
+
+#. copy/importReplaceWarning
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importReplaceWarning"
+msgid ""
+"Overwrite replaces only same-name files present in the imported box; it does "
+"not delete anything else."
+msgstr "覆蓋只處理匯入檔裡的同名卷宗，不會刪除其他資料。"
+
+#. copy/filter
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/filter"
+msgid "Search file title or storage key"
+msgstr "搜尋卷宗名稱或儲存鍵"
+
+#. copy/presentOnly
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/presentOnly"
+msgid "Stored files only"
+msgstr "只看已有資料"
+
+#. copy/showCatalogue
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/showCatalogue"
+msgid "Show full registered catalogue"
+msgstr "查看全部登錄卷宗"
+
+#. copy/hideCatalogue
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/hideCatalogue"
+msgid "Hide blank files"
+msgstr "收起空白卷宗"
+
+#. copy/noMatch
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/noMatch"
+msgid "No file matches. Keine may also have reassigned that page to yesterday."
+msgstr "沒有符合條件的卷宗。也可能是慧音剛把那一頁改成昨天。"
+
+#. copy/stored
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/stored"
+msgid "Stored"
+msgstr "已寫入"
+
+#. copy/empty
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/empty"
+msgid "Not written"
+msgstr "尚未寫入"
+
+#. copy/item
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/item"
+msgid "entry"
+msgstr "筆"
+
+#. copy/items
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/items"
+msgid "entries"
+msgstr "筆"
+
+#. copy/view
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/view"
+msgid "Open file"
+msgstr "開卷查看"
+
+#. copy/destroy
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroy"
+msgid "Destroy"
+msgstr "銷毀"
+
+#. copy/destroyGroup
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyGroup"
+msgid "Destroy this shelf"
+msgstr "銷毀本櫃"
+
+#. copy/destroyAll
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyAll"
+msgid "Destroy all university data"
+msgstr "銷毀全部本校資料"
+
+#. copy/destroyOneConfirm
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyOneConfirm"
+msgid "Destroy “{title}”? This cannot be undone; you can export the archive first."
+msgstr "確定銷毀「{title}」？這個動作無法復原；可先匯出封箱。"
+
+#. copy/destroyGroupConfirm
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyGroupConfirm"
+msgid "Destroy {count} stored files in “{title}”?"
+msgstr "確定銷毀「{title}」內 {count} 份已有卷宗？"
+
+#. copy/destroyAllConfirm
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyAllConfirm"
+msgid ""
+"Destroy all Touhou University data under this browser origin? Identity, "
+"applications, grades, drafts, and short-lived tab data will disappear."
+msgstr "確定銷毀這個瀏覽器來源下全部 Touhou University 本機資料？身分、申請、成績、草稿與短時分頁資料都會消失。"
+
+#. copy/destroyed
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyed"
+msgid "Destroyed {count} on-device files."
+msgstr "已銷毀 {count} 份本機卷宗。"
+
+#. copy/cabinetEmpty
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/cabinetEmpty"
+msgid "There are no files to destroy."
+msgstr "目前沒有可銷毀的卷宗。"
+
+#. copy/rawTitle
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/rawTitle"
+msgid "Raw file"
+msgstr "卷宗原文"
+
+#. copy/storageKey
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/storageKey"
+msgid "Storage key"
+msgstr "儲存鍵"
+
+#. copy/storageKind
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/storageKind"
+msgid "Storage location"
+msgstr "保存位置"
+
+#. copy/persistent
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/persistent"
+msgid "localStorage · retained after closing the tab"
+msgstr "localStorage · 關閉分頁後保留"
+
+#. copy/session
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/session"
+msgid "sessionStorage · this tab only"
+msgstr "sessionStorage · 本次分頁"
+
+#. copy/bytes
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/bytes"
+msgid "Space used"
+msgstr "占用空間"
+
+#. copy/scope
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/scope"
+msgid "Visibility"
+msgstr "可見範圍"
+
+#. copy/close
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/close"
+msgid "Close file"
+msgstr "合卷"
+
+#. copy/rawWarning
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/rawWarning"
+msgid ""
+"This is the actual stored content. Check names, answers, and medical records "
+"before sharing a screenshot or exported box."
+msgstr "這裡顯示的是實際保存內容；分享截圖或匯出檔案前請先檢查姓名、答案與診療紀錄。"
+
+#. copy/integrity
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/integrity"
+msgid ""
+"The kappa packing machine validates structure and seals; it does not vouch "
+"for mysterious files from the Outside World."
+msgstr "河童封箱機會驗證結構與封印，但不替外界來歷不明的檔案背書。"
+
+#. copy/error/archive-size
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-size"
+msgid "The file is empty or exceeds 8 MiB, so the gatekeeper refused it."
+msgstr "檔案為空或超過 8 MiB，門衛拒絕搬運。"
+
+#. copy/error/archive-json
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-json"
+msgid "This is not a readable JSON archive box."
+msgstr "這不是可讀的 JSON 檔案箱。"
+
+#. copy/error/archive-format
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-format"
+msgid "The archive format or version does not belong to this cabinet."
+msgstr "封箱格式或版本不屬於本校資料櫃。"
+
+#. copy/error/archive-records
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-records"
+msgid "The file catalogue is missing or contains an unreasonable number of records."
+msgstr "卷宗目錄缺失或數量異常。"
+
+#. copy/error/archive-record
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-record"
+msgid "At least one record has an invalid key, storage location, or value."
+msgstr "至少一份卷宗的鍵、位置或內容格式不合法。"
+
+#. copy/error/archive-checksum
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-checksum"
+msgid "The SHA-256 seal does not match; the file may be edited or incompletely downloaded."
+msgstr "SHA-256 封印不一致；檔案可能被修改或沒有完整下載。"
+
+#. copy/error/archive-import
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-import"
+msgid "The import policy is invalid."
+msgstr "匯入方式不合法。"
+
+#. copy/error/archive-storage
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-storage"
+msgid "This browser refused access to localStorage."
+msgstr "目前瀏覽器拒絕開啟 localStorage。"
+
+#. copy/error/archive-quota
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-quota"
+msgid ""
+"The browser is out of space. This import was rolled back and current files "
+"were preserved."
+msgstr "瀏覽器空間不足；已撤回本次匯入，原卷宗保持不變。"
+
+#. copy/error/unknown
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/unknown"
+msgid "The records cabinet cannot complete that action right now."
+msgstr "檔案櫃暫時無法完成這個動作。"

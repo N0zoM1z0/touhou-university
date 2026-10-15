@@ -1,3 +1,4 @@
+import { text as catalogText, trees as catalogTrees } from "../generated/i18n/ui/spellcard-workshop-model.js";
 import {
   spellCue,
   spellCues,
@@ -17,23 +18,22 @@ const DESIGN_KEY = "tu:spellcards:designs";
 const DEFENCE_KEY = "tu:spellcards:defences";
 const MAX_RECORDS = 60;
 
-const l = (zh, ja, en) => ({ "zh-Hant": zh, ja, en });
 
 export const spellRulings = {
-  "public-demo": l("公開試演通過", "公開試演可", "Approved for public demonstration"),
-  conditional: l("紅繩條件付き通過", "赤紐条件付可", "Approved with red-cord conditions"),
-  "research-only": l("僅限封閉研究模擬", "閉鎖研究模擬のみ", "Closed research simulation only"),
-  revise: l("保留設計，退回再答辯", "設計保存・再答弁", "Design retained; revise and defend again"),
+  "public-demo": catalogText("spellRulings.public-demo"),
+  conditional: catalogText("spellRulings.conditional"),
+  "research-only": catalogText("spellRulings.research-only"),
+  revise: catalogText("spellRulings.revise"),
 };
 
 export const spellConditions = {
-  corridor: l("最低安全走廊與提示必須寫進正式演出版本。", "最低安全回廊と予告を正式実演版へ固定すること。", "Fix the minimum safe corridor and cue in the performance version."),
-  version: l("公開種子、參數、碰撞版本、場地條件與失敗場次。", "種・パラメータ・当たり版・会場条件・失敗回を公開すること。", "Publish seed, parameters, collision version, venue conditions, and failed runs."),
-  audience: l("以獨立觀察或演出前提示驗證觀眾能讀懂規則。", "独立観察または実演前予告で観客の可読性を検証すること。", "Verify audience readability with independent observation or a pre-performance cue."),
-  performance: l("鎖定同屏彈數與碰撞核；效能下降不得改變規則。", "同時弾数と当たり核を固定し、性能低下で規則を変えないこと。", "Lock projectile budget and collision core; performance loss may not change the rule."),
-  care: l("縮短場次、保留停止手勢與可離場休息，修改後重新量測。", "時間短縮・停止合図・途中離脱休憩を設け、修正後再測定すること。", "Shorten sessions, retain a stop signal and exit/rest, then measure again."),
-  simulation: l("禁止公開試飛；可保留參數、模擬與研究問題。", "公開試飛禁止。パラメータ・模擬・研究課題は保存可。", "No public flight; parameters, simulation, and research question may be retained."),
-  sharedSpace: l("把共用場地的排練、音壓與休息時間寫進同一張時序表。", "共用会場の稽古・音圧・休止を同じ時系列表へ記載すること。", "Put shared-space rehearsal, sound pressure, and breaks on the same timeline."),
+  corridor: catalogText("spellConditions.corridor"),
+  version: catalogText("spellConditions.version"),
+  audience: catalogText("spellConditions.audience"),
+  performance: catalogText("spellConditions.performance"),
+  care: catalogText("spellConditions.care"),
+  simulation: catalogText("spellConditions.simulation"),
+  sharedSpace: catalogText("spellConditions.sharedSpace"),
 };
 
 function readJson(key, fallback) {
@@ -156,40 +156,20 @@ export function workshopConditions(locale = "zh-Hant", now = new Date()) {
   const state = liveCampusSnapshot(now);
   const ids = new Set(state.activeEvents.map((event) => event.id));
   let modifier = { corridor: 0, workload: 0, fatigue: 0, readability: 0 };
-  let notice = l(
-    "今日試演場只受普通風向影響；普通在此指沒有人承認自己改過風向。",
-    "本日の試演場は通常風向のみ。通常とは、誰も風向変更を認めていない状態を指す。",
-    "Today's court has only ordinary wind, meaning nobody admits to changing it.",
-  );
+  let notice = catalogText("notice");
   if (state.phase === 4) {
     modifier = { corridor: -2, workload: 0, fatigue: 2, readability: -1 };
-    notice = l(
-      "月光殘像延長；同一提示會多留半拍，疲勞卻不會因此少半拍。",
-      "月光残像が延長。同じ予告は半拍長く残るが、疲労は半拍減らない。",
-      "Moonlit afterimages linger half a beat longer; fatigue does not become half a beat shorter.",
-    );
+    notice = catalogText("workshopConditions");
   }
   if (ids.has("kappaTape")) {
     modifier = { corridor: -1, workload: -1, fatigue: 0, readability: 0 };
-    notice = l(
-      "荷取已更換碰撞記錄箱，舊箱上的膠帶仍被列為備援版本。",
-      "にとりが当たり記録箱を交換。旧箱のテープは予備版として残る。",
-      "Nitori replaced the collision logger; the tape on the old box remains listed as a fallback version.",
-    );
+    notice = catalogText("workshopConditions.2");
   } else if (ids.has("bambooMist")) {
     modifier = { corridor: -3, workload: 1, fatigue: 1, readability: -2 };
-    notice = l(
-      "竹霧借用了試演場邊緣；所有安全走廊先扣三尺，除非你能指出霧到底站在哪裡。",
-      "竹霧が試演場の縁を借用。霧の立ち位置を示せない限り、安全回廊から三尺差し引く。",
-      "Bamboo mist has borrowed the court edge. Subtract three feet from every corridor unless you can show where the mist stands.",
-    );
+    notice = catalogText("workshopConditions.3");
   } else if (ids.has("bookFlock")) {
     modifier = { corridor: -1, workload: 2, fatigue: 0, readability: -1 };
-    notice = l(
-      "兩冊返航館藏正在觀眾席上方盤旋；圖書館堅稱這不構成第二層彈幕。",
-      "帰航資料二冊が観客席上空を旋回中。図書館は第二弾幕ではないと主張。",
-      "Two returning holdings circle above the audience. The library insists this is not a second danmaku layer.",
-    );
+    notice = catalogText("workshopConditions.4");
   }
   return {
     dayKey: state.dayKey,
@@ -529,35 +509,7 @@ export function completeSpellcardDefence(designId, answers = {}, now = new Date(
   return { record, design, rounds };
 }
 
-const communityCopy = {
-  "zh-Hant": {
-    aya: "文文。公開試演速報",
-    panel: "符卡倫理答辯記錄席",
-    chorus: "霧湖妖精合唱團",
-    headline: "公開答辯已有裁定",
-    correction: "訂正：通過不等於取消條件，紅繩也不是舞台裝飾。",
-    panelBody: "三名答辯者分別保留規則、重現與外部風險意見；少數意見未被折進多數結論。",
-    chorusBody: "合唱團已查閱時序表，並在所有沒留呼吸的地方畫了比校方更大的休止符。",
-  },
-  ja: {
-    aya: "文々。公開試演速報",
-    panel: "スペルカード倫理答弁記録席",
-    chorus: "霧の湖妖精合唱団",
-    headline: "公開答弁に裁定",
-    correction: "訂正：可決は条件消滅を意味せず、赤紐も舞台装飾ではない。",
-    panelBody: "三名は規則・再現・外部リスクの意見を別々に保存。少数意見は多数結論へ折り畳まれていない。",
-    chorusBody: "合唱団は時系列表を確認し、息継ぎのない箇所すべてへ大学より大きな休止符を描いた。",
-  },
-  en: {
-    aya: "Bunbunmaru Public-Demo Wire",
-    panel: "Spell-Card Ethics Defence Record",
-    chorus: "Misty Lake Fairy Chorus",
-    headline: "Public defence receives a ruling",
-    correction: "Correction: approval does not erase conditions, and the red cord is not stage decoration.",
-    panelBody: "Three examiners preserve separate views on rules, reproducibility, and external risk; minority opinion was not folded into the majority.",
-    chorusBody: "The chorus reviewed the timeline and drew a rest larger than the university's wherever the design forgot to breathe.",
-  },
-};
+const communityCopy = catalogTrees["communityCopy"];
 
 export function spellcardCommunityPosts(locale = "zh-Hant") {
   const c = communityCopy[locale] || communityCopy["zh-Hant"];

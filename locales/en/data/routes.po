@@ -1,0 +1,224 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. transportModes.walk.name
+#: src/data/routes.js:6
+msgctxt "text:transportModes.walk.name"
+msgid "Village Walk"
+msgstr "Village Walk"
+
+#. transportModes.walk.summary
+#: src/data/routes.js:7
+msgctxt "text:transportModes.walk.summary"
+msgid "All paths · no waiting"
+msgstr "All paths · no waiting"
+
+#. transportModes.walk.notice
+#: src/data/routes.js:8
+msgctxt "text:transportModes.walk.notice"
+msgid ""
+"Based on an average human walking pace, with extra time included for "
+"mountain and bamboo paths."
+msgstr ""
+"Based on an average human walking pace, with extra time included for "
+"mountain and bamboo paths."
+
+#. transportModes.broom.name
+#: src/data/routes.js:12
+msgctxt "text:transportModes.broom.name"
+msgid "Magic Broom"
+msgstr "Magic Broom"
+
+#. transportModes.broom.summary
+#: src/data/routes.js:13
+msgctxt "text:transportModes.broom.summary"
+msgid "Berth airways + walking"
+msgstr "Berth airways + walking"
+
+#. transportModes.broom.notice
+#: src/data/routes.js:14
+msgctxt "text:transportModes.broom.notice"
+msgid ""
+"Brooms may berth only at Misty Lake, Boundary, Seven-Day, and Youkai "
+"Mountain. Low flight is banned at Hakurei Gate, so the last leg may still be "
+"on foot."
+msgstr ""
+"Brooms may berth only at Misty Lake, Boundary, Seven-Day, and Youkai "
+"Mountain. Low flight is banned at Hakurei Gate, so the last leg may still be "
+"on foot."
+
+#. transportModes.tengu.name
+#: src/data/routes.js:18
+msgctxt "text:transportModes.tengu.name"
+msgid "Tengu Express Windway"
+msgstr "Tengu Express Windway"
+
+#. transportModes.tengu.summary
+#: src/data/routes.js:19
+msgctxt "text:transportModes.tengu.summary"
+msgid "Fixed wind stops + hourly wait"
+msgstr "Fixed wind stops + hourly wait"
+
+#. transportModes.tengu.notice
+#: src/data/routes.js:20
+msgctxt "text:transportModes.tengu.notice"
+msgid ""
+"Express windways stop only at Boundary Hall, Hieda Archives, and Youkai "
+"Mountain. Do not chase a missed flag unless you want to become tengu news."
+msgstr ""
+"Express windways stop only at Boundary Hall, Hieda Archives, and Youkai "
+"Mountain. Do not chase a missed flag unless you want to become tengu news."
+
+#. transportModes.rabbit.name
+#: src/data/routes.js:24
+msgctxt "text:transportModes.rabbit.name"
+msgid "Moon-Rabbit Shuttle"
+msgstr "Moon-Rabbit Shuttle"
+
+#. transportModes.rabbit.summary
+#: src/data/routes.js:25
+msgctxt "text:transportModes.rabbit.summary"
+msgid "Boundary Hall / Eientei only"
+msgstr "Boundary Hall / Eientei only"
+
+#. transportModes.rabbit.notice
+#: src/data/routes.js:26
+msgctxt "text:transportModes.rabbit.notice"
+msgid ""
+"Rabbit carts run only between Boundary Hall and Eientei Clinic; every other "
+"leg is on foot. During emergencies, the timetable pretends it never existed."
+msgstr ""
+"Rabbit carts run only between Boundary Hall and Eientei Clinic; every other "
+"leg is on foot. During emergencies, the timetable pretends it never existed."
+
+#. campusEdges.0.3
+#: src/data/routes.js:33
+msgctxt "text:campusEdges.0.3"
+msgid "South Misty Lake path"
+msgstr "South Misty Lake path"
+
+#. campusEdges.1.3
+#: src/data/routes.js:34
+msgctxt "text:campusEdges.1.3"
+msgid "Vermilion Cord Walk"
+msgstr "Vermilion Cord Walk"
+
+#. campusEdges.2.3
+#: src/data/routes.js:35
+msgctxt "text:campusEdges.2.3"
+msgid "Lakeside Stack Slope"
+msgstr "Lakeside Stack Slope"
+
+#. campusEdges.3.3
+#: src/data/routes.js:36
+msgctxt "text:campusEdges.3.3"
+msgid "North Village Book Road"
+msgstr "North Village Book Road"
+
+#. campusEdges.4.3
+#: src/data/routes.js:37
+msgctxt "text:campusEdges.4.3"
+msgid "Chronicle Stoneway"
+msgstr "Chronicle Stoneway"
+
+#. campusEdges.5.3
+#: src/data/routes.js:38
+msgctxt "text:campusEdges.5.3"
+msgid "Seven-Day Arcade"
+msgstr "Seven-Day Arcade"
+
+#. campusEdges.6.3
+#: src/data/routes.js:39
+msgctxt "text:campusEdges.6.3"
+msgid "Three-Breath Bamboo Way"
+msgstr "Three-Breath Bamboo Way"
+
+#. campusEdges.7.3
+#: src/data/routes.js:40
+msgctxt "text:campusEdges.7.3"
+msgid "Hieda East Gate Road"
+msgstr "Hieda East Gate Road"
+
+#. campusEdges.8.3
+#: src/data/routes.js:41
+msgctxt "text:campusEdges.8.3"
+msgid "Foothill Record Road"
+msgstr "Foothill Record Road"
+
+#. campusEdges.9.3
+#: src/data/routes.js:42
+msgctxt "text:campusEdges.9.3"
+msgid "Moonshadow Lab Path"
+msgstr "Moonshadow Lab Path"
+
+#. campusEdges.10.3
+#: src/data/routes.js:43
+msgctxt "text:campusEdges.10.3"
+msgid "Waterfall Supply Line"
+msgstr "Waterfall Supply Line"
+
+#. campusEdges.11.3
+#: src/data/routes.js:44
+msgctxt "text:campusEdges.11.3"
+msgid "Bamboo–Mountain Link"
+msgstr "Bamboo–Mountain Link"
+
+#. transitEdges.broom.0.3
+#: src/data/routes.js:52
+msgctxt "text:transitEdges.broom.0.3"
+msgid "Misty Lake–Boundary lamp airway"
+msgstr "Misty Lake–Boundary lamp airway"
+
+#. transitEdges.broom.1.3
+#: src/data/routes.js:53
+msgctxt "text:transitEdges.broom.1.3"
+msgid "Seven-Day north broom corridor"
+msgstr "Seven-Day north broom corridor"
+
+#. transitEdges.broom.2.3
+#: src/data/routes.js:54
+msgctxt "text:transitEdges.broom.2.3"
+msgid "Lake–Mountain long broomway"
+msgstr "Lake–Mountain long broomway"
+
+#. transitEdges.broom.3.3
+#: src/data/routes.js:55
+msgctxt "text:transitEdges.broom.3.3"
+msgid "Vermilion Mountain broomway"
+msgstr "Vermilion Mountain broomway"
+
+#. transitEdges.broom.4.3
+#: src/data/routes.js:56
+msgctxt "text:transitEdges.broom.4.3"
+msgid "Waterfall aerial supply line"
+msgstr "Waterfall aerial supply line"
+
+#. transitEdges.tengu.0.3
+#: src/data/routes.js:59
+msgctxt "text:transitEdges.tengu.0.3"
+msgid "Wind Stop One · Chronicle Line"
+msgstr "Wind Stop One · Chronicle Line"
+
+#. transitEdges.tengu.1.3
+#: src/data/routes.js:60
+msgctxt "text:transitEdges.tengu.1.3"
+msgid "Wind Stop Two · Mountain Line"
+msgstr "Wind Stop Two · Mountain Line"
+
+#. transitEdges.tengu.2.3
+#: src/data/routes.js:61
+msgctxt "text:transitEdges.tengu.2.3"
+msgid "Express · Summit Flag Line"
+msgstr "Express · Summit Flag Line"
+
+#. transitEdges.rabbit.0.3
+#: src/data/routes.js:64
+msgctxt "text:transitEdges.rabbit.0.3"
+msgid "Boundary–Eientei Moon-Rabbit Line"
+msgstr "Boundary–Eientei Moon-Rabbit Line"

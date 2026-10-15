@@ -1,0 +1,296 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. labels/course
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/course"
+msgid "Courses"
+msgstr "授業"
+
+#. labels/club
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/club"
+msgid "Clubs"
+msgstr "団体"
+
+#. labels/market
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/market"
+msgid "Exchange"
+msgstr "交換"
+
+#. labels/notice
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/notice"
+msgid "Campus"
+msgstr "学務"
+
+#. labels/justNow
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/justNow"
+msgid "just now"
+msgstr "たった今"
+
+#. labels/minutes
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/minutes"
+msgid "minutes ago"
+msgstr "分前"
+
+#. labels/hours
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/hours"
+msgid "hours ago"
+msgstr "時間前"
+
+#. labels/days
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/days"
+msgid "days ago"
+msgstr "日前"
+
+#. labels/replies
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/replies"
+msgid "Replies"
+msgstr "返信"
+
+#. labels/posted
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/posted"
+msgid "Published to the Campus BBS."
+msgstr "学内 BBS に投稿しました。"
+
+#. labels/shuffled
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/shuffled"
+msgid "A fresh set of topics arrived on the campus wind."
+msgstr "キャンパスの風から別の話題を読み込みました。"
+
+#. labels/anonymous
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/anonymous"
+msgid "Anonymous Student"
+msgstr "匿名学生"
+
+#. labels/author
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/author"
+msgid "Posted by"
+msgstr "投稿者"
+
+#. labels/board
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/board"
+msgid "Board"
+msgstr "板"
+
+#. labels/local
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/local"
+msgid "Stored on this device"
+msgstr "この端末に保存"
+
+#. labels/online
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/online"
+msgid "Online now"
+msgstr "オンライン"
+
+#. labels/topics
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/topics"
+msgid "Topics today"
+msgstr "本日のトピック"
+
+#. labels/synced
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/synced"
+msgid "Last synced"
+msgstr "最終同期"
+
+#. labels/pinned
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/pinned"
+msgid "Pinned"
+msgstr "固定"
+
+#. labels/status
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/status"
+msgid "Status"
+msgstr "状態"
+
+#. labels/mine
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/mine"
+msgid "My Posts"
+msgstr "自分の投稿"
+
+#. labels/localSaved
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/localSaved"
+msgid "Saved locally"
+msgstr "端末保存"
+
+#. labels/postsUnit
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/postsUnit"
+msgid "posts"
+msgstr "件"
+
+#. labels/noPosts
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/noPosts"
+msgid "There are no posts on this board yet."
+msgstr "この板にはまだ投稿がありません。"
+
+#. labels/noLocalPosts
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/noLocalPosts"
+msgid "Nothing has been posted from this device yet. New posts will be saved here."
+msgstr "この端末からの投稿はまだありません。投稿後はここに保存されます。"
+
+#. labels/incidentLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/incidentLinked"
+msgid "Incident-linked"
+msgstr "事案連動"
+
+#. labels/contestedFile
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/contestedFile"
+msgid "Red-thread contested file"
+msgstr "赤糸係争記録"
+
+#. labels/governanceLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/governanceLinked"
+msgid "Governance-linked"
+msgstr "議事鐘連動"
+
+#. labels/academicLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/academicLinked"
+msgid "Defence-linked"
+msgstr "答弁連動"
+
+#. labels/clinicLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/clinicLinked"
+msgid "Hospital-linked"
+msgstr "校医院連動"
+
+#. labels/appraisalLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/appraisalLinked"
+msgid "Drift-appraisal-linked"
+msgstr "漂流物鑑定連動"
+
+#. labels/spellcardLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/spellcardLinked"
+msgid "Spell-card-defence-linked"
+msgstr "スペルカード答弁連動"
+
+#. labels/ethicsLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/ethicsLinked"
+msgid "Research-ethics-linked"
+msgstr "研究倫理審査連動"
+
+#. labels/festivalLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/festivalLinked"
+msgid "Festival-field-linked"
+msgstr "祭典現場連動"
+
+#. labels/fieldworkLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/fieldworkLinked"
+msgid "Fieldwork-linked"
+msgstr "幻想郷域内実習連動"
+
+#. labels/orientationLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/orientationLinked"
+msgid "First-Bell-linked"
+msgstr "第一鐘連動"
+
+#. labels/phantasmLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/phantasmLinked"
+msgid "Ninth-period linkage disputed"
+msgstr "第九時限不明連動"
+
+#. labels/openCase
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openCase"
+msgid "Open closure record"
+msgstr "終結記録を見る"
+
+#. labels/openGovernance
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openGovernance"
+msgid "Open governance proposal"
+msgstr "学務提案を見る"
+
+#. labels/openAcademic
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openAcademic"
+msgid "Open defence & grades"
+msgstr "答弁・成績を見る"
+
+#. labels/openClinic
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openClinic"
+msgid "Open care & prescriptions"
+msgstr "診療・処方を見る"
+
+#. labels/openAppraisal
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openAppraisal"
+msgid "Open drift-object file"
+msgstr "漂流物記録を見る"
+
+#. labels/openSpellcard
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openSpellcard"
+msgid "Open design & defence"
+msgstr "設計・答弁を見る"
+
+#. labels/openEthics
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openEthics"
+msgid "Open ethics review file"
+msgstr "倫理審査記録を見る"
+
+#. labels/openFestival
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openFestival"
+msgid "Open festival permit / field board"
+msgstr "祭典許可／運行盤を見る"
+
+#. labels/openFieldwork
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openFieldwork"
+msgid "Open dispatch / return file"
+msgstr "派遣令／帰校記録を見る"
+
+#. labels/openOrientation
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openOrientation"
+msgid "Open new-student arrival file"
+msgstr "新入生到着票を見る"
+
+#. labels/openPhantasm
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openPhantasm"
+msgid "Open the ninth-period roll"
+msgstr "第九時限の点呼簿を見る"

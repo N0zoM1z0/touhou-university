@@ -1,0 +1,422 @@
+.mytu-decision {
+  margin-bottom: 18px;
+  padding: 22px 24px;
+  color: var(--white);
+  background:
+    linear-gradient(90deg, rgba(155, 48, 57, 0.74), transparent 50%),
+    #182637;
+}
+
+.mytu-decision span {
+  color: #e7c194;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.mytu-decision h4 {
+  margin: 5px 0;
+  font-family: var(--serif);
+  font-size: 30px;
+}
+
+.mytu-decision p {
+  max-width: 850px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 10px;
+}
+
+.mytu-reviewers {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.mytu-reviewers article {
+  padding: 18px;
+  border: 1px solid rgba(23, 32, 44, 0.14);
+  background: rgba(245, 237, 223, 0.56);
+}
+
+.mytu-reviewers article header {
+  display: flex;
+  min-height: 52px;
+  justify-content: space-between;
+  align-items: start;
+  gap: 9px;
+}
+
+.mytu-reviewers article strong,
+.mytu-reviewers article span {
+  display: block;
+}
+
+.mytu-reviewers article strong {
+  font-family: var(--serif);
+  font-size: 14px;
+}
+
+.mytu-reviewers article span {
+  color: var(--ink-soft);
+  font-size: 8px;
+}
+
+.mytu-reviewers article i {
+  padding: 3px 6px;
+  border: 1px solid currentColor;
+  font-size: 7px;
+  font-style: normal;
+  white-space: nowrap;
+}
+
+.mytu-reviewers article i[data-stance="approve"] {
+  color: var(--jade);
+}
+
+.mytu-reviewers article i[data-stance="condition"] {
+  color: #967025;
+}
+
+.mytu-reviewers article i[data-stance="revise"] {
+  color: var(--red);
+}
+
+.mytu-reviewers blockquote {
+  margin: 4px 0 0;
+  padding: 10px 12px;
+  border-left: 2px solid rgba(40, 72, 100, 0.45);
+  background: rgba(255, 255, 255, 0.48);
+}
+
+.mytu-reviewers blockquote small,
+.mytu-reviewers blockquote q {
+  display: block;
+}
+
+.mytu-reviewers blockquote small {
+  margin-bottom: 5px;
+  color: var(--red);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.mytu-reviewers blockquote q {
+  font-family: var(--serif);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.mytu-reviewers article > p {
+  margin: 10px 0 0;
+  font-family: var(--serif);
+  font-size: 11px;
+  line-height: 1.85;
+}
+
+.mytu-review > footer {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.mytu-review > footer > span {
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.mytu-lower {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.55fr);
+  gap: 20px;
+}
+
+.mytu-ledger,
+.mytu-next {
+  padding: 30px;
+  border: 1px solid rgba(23, 32, 44, 0.16);
+  background: rgba(255, 253, 248, 0.58);
+}
+
+.mytu-ledger > header {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  align-items: end;
+  gap: 28px;
+}
+
+.mytu-ledger > header > span {
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.mytu-ledger ol {
+  margin: 25px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mytu-ledger li {
+  display: grid;
+  padding: 11px 0;
+  grid-template-columns: 12px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 11px;
+  border-top: 1px solid rgba(23, 32, 44, 0.11);
+}
+
+.mytu-ledger li > span {
+  width: 7px;
+  height: 7px;
+  border: 1px solid var(--red);
+  border-radius: 50%;
+}
+
+.mytu-ledger li strong,
+.mytu-ledger li time {
+  display: block;
+}
+
+.mytu-ledger li strong {
+  font-size: 10px;
+}
+
+.mytu-ledger li time,
+.mytu-ledger li code {
+  color: var(--ink-soft);
+  font-size: 7px;
+}
+
+.mytu-ledger li code {
+  max-width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mytu-next {
+  display: flex;
+  flex-direction: column;
+}
+
+.mytu-next > span {
+  margin: 15px 0 25px;
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.mytu-next .button {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.mytu-document-dialog {
+  width: min(920px, calc(100% - 40px));
+  max-height: calc(100vh - 40px);
+  padding: 0;
+  color: var(--ink);
+  border: 0;
+  background: #f9f4e9;
+  box-shadow: 0 35px 100px rgba(15, 20, 28, 0.34);
+}
+
+.mytu-document-dialog::backdrop {
+  background: rgba(12, 18, 26, 0.76);
+  backdrop-filter: blur(7px);
+}
+
+.mytu-document {
+  margin: 24px;
+  padding: 44px 48px 34px;
+  border: 3px double #172536;
+  background:
+    linear-gradient(rgba(83, 65, 45, 0.032) 1px, transparent 1px) 0 0 / 100% 7px,
+    #fffaf0;
+}
+
+.mytu-document > header {
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 20px;
+}
+
+.mytu-document-crest {
+  display: grid;
+  width: 56px;
+  height: 56px;
+  place-items: center;
+  border: 1px solid var(--ink);
+  border-radius: 50%;
+  font-family: var(--serif);
+  font-size: 20px;
+}
+
+.mytu-document > header p,
+.mytu-document > header span {
+  margin: 0;
+}
+
+.mytu-document > header p {
+  font: 700 18px/1.3 var(--serif);
+  letter-spacing: 0.08em;
+}
+
+.mytu-document > header span,
+.mytu-document > header code {
+  font-size: 8px;
+  letter-spacing: 0.1em;
+}
+
+.mytu-document-title {
+  padding: 54px 0 38px;
+  text-align: center;
+}
+
+.mytu-document-title p {
+  margin: 0 0 8px;
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.2em;
+}
+
+.mytu-document-title h2 {
+  margin: 0 0 22px;
+  font-family: var(--serif);
+  font-size: 40px;
+  letter-spacing: 0.14em;
+}
+
+.mytu-document-title > span,
+.mytu-document-title > strong {
+  display: block;
+}
+
+.mytu-document-title > span {
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.mytu-document-title > strong {
+  margin-top: 7px;
+  font-family: var(--serif);
+  font-size: 24px;
+}
+
+.mytu-document-facts {
+  display: grid;
+  margin: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid var(--ink);
+  border-left: 1px solid var(--ink);
+}
+
+.mytu-document-facts > div {
+  display: grid;
+  min-height: 59px;
+  padding: 10px 13px;
+  grid-template-columns: 128px 1fr;
+  align-items: center;
+  border-right: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+.mytu-document-facts dt {
+  color: var(--ink-soft);
+  font-size: 8px;
+}
+
+.mytu-document-facts dd {
+  margin: 0;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.mytu-document-condition {
+  margin: 28px 0;
+  padding: 20px;
+  border-left: 4px solid var(--red);
+  background: rgba(155, 48, 57, 0.055);
+}
+
+.mytu-document-condition p {
+  margin: 0 0 4px;
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.15em;
+}
+
+.mytu-document-condition h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.mytu-document > footer {
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  gap: 30px;
+}
+
+.mytu-document > footer p,
+.mytu-verification > span {
+  margin: 0 0 10px;
+  color: var(--ink-soft);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.mytu-document > footer ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+  list-style: none;
+}
+
+.mytu-document > footer li strong,
+.mytu-document > footer li span {
+  display: block;
+}
+
+.mytu-document > footer li strong {
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--ink);
+  font: 700 12px/1.4 var(--serif);
+}
+
+.mytu-document > footer li span {
+  margin-top: 3px;
+  color: var(--ink-soft);
+  font-size: 6px;
+}
+
+.mytu-verification > div {
+  display: grid;
+  width: 99px;
+  height: 99px;
+  padding: 5px;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  gap: 1px;
+  border: 1px solid var(--ink);
+}
+
+.mytu-verification i {
+  background: transparent;
+}
+
+.mytu-verification i.on {
+  background: var(--ink);
+}

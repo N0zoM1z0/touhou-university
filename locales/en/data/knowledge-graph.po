@@ -1,0 +1,1454 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. knowledgeRecordKinds.0.case
+#: src/data/knowledge-graph.js:47
+msgctxt "text:knowledgeRecordKinds.0.case"
+msgid "Official file"
+msgstr "Official file"
+
+#. knowledgeRecordKinds.0.evidence
+#: src/data/knowledge-graph.js:48
+msgctxt "text:knowledgeRecordKinds.0.evidence"
+msgid "Field record"
+msgstr "Field record"
+
+#. knowledgeRecordKinds.0.correction
+#: src/data/knowledge-graph.js:49
+msgctxt "text:knowledgeRecordKinds.0.correction"
+msgid "Correction & variant"
+msgstr "Correction & variant"
+
+#. knowledgeRecordKinds.0.report
+#: src/data/knowledge-graph.js:50
+msgctxt "text:knowledgeRecordKinds.0.report"
+msgid "News & rumour"
+msgstr "News & rumour"
+
+#. knowledgeRecordKinds.0.governance
+#: src/data/knowledge-graph.js:51
+msgctxt "text:knowledgeRecordKinds.0.governance"
+msgid "Governance"
+msgstr "Governance"
+
+#. knowledgeRecordKinds.0.community
+#: src/data/knowledge-graph.js:52
+msgctxt "text:knowledgeRecordKinds.0.community"
+msgid "Student account"
+msgstr "Student account"
+
+#. knowledgeRecordKinds.0.learning
+#: src/data/knowledge-graph.js:53
+msgctxt "text:knowledgeRecordKinds.0.learning"
+msgid "Course & assignment"
+msgstr "Course & assignment"
+
+#. knowledgeRecordKinds.0.research
+#: src/data/knowledge-graph.js:54
+msgctxt "text:knowledgeRecordKinds.0.research"
+msgid "Research file"
+msgstr "Research file"
+
+#. knowledgeRecordKinds.0.archive
+#: src/data/knowledge-graph.js:55
+msgctxt "text:knowledgeRecordKinds.0.archive"
+msgid "Chronicle version"
+msgstr "Chronicle version"
+
+#. knowledgeRecordKinds.0.object
+#: src/data/knowledge-graph.js:56
+msgctxt "text:knowledgeRecordKinds.0.object"
+msgid "Object & holding"
+msgstr "Object & holding"
+
+#. knowledgeRecordKinds.0.residence
+#: src/data/knowledge-graph.js:57
+msgctxt "text:knowledgeRecordKinds.0.residence"
+msgid "Residence record"
+msgstr "Residence record"
+
+#. knowledgeRecordKinds.0.ethics
+#: src/data/knowledge-graph.js:58
+msgctxt "text:knowledgeRecordKinds.0.ethics"
+msgid "Ethics review"
+msgstr "Ethics review"
+
+#. knowledgeCharacters.0.akyuu.name
+#: src/data/knowledge-graph.js:65
+msgctxt "text:knowledgeCharacters.0.akyuu.name"
+msgid "Hieda no Akyuu"
+msgstr "Hieda no Akyuu"
+
+#. knowledgeCharacters.0.akyuu.role
+#: src/data/knowledge-graph.js:66
+msgctxt "text:knowledgeCharacters.0.akyuu.role"
+msgid "Indexing, version notes, and refusing to erase contradictions"
+msgstr "Indexing, version notes, and refusing to erase contradictions"
+
+#. knowledgeCharacters.0.keine.role
+#: src/data/knowledge-graph.js:73
+msgctxt "text:knowledgeCharacters.0.keine.role"
+msgid "Roll calls, source corrections, and asking which edition yesterday was"
+msgstr "Roll calls, source corrections, and asking which edition yesterday was"
+
+#. knowledgeCharacters.0.aya.role
+#: src/data/knowledge-graph.js:80
+msgctxt "text:knowledgeCharacters.0.aya.role"
+msgid "First to the scene, and first to give Corrections more work"
+msgstr "First to the scene, and first to give Corrections more work"
+
+#. knowledgeCharacters.0.nitori.role
+#: src/data/knowledge-graph.js:87
+msgctxt "text:knowledgeCharacters.0.nitori.role"
+msgid "Equipment logs, tape repairs, and firmware that promises no version agreement"
+msgstr "Equipment logs, tape repairs, and firmware that promises no version agreement"
+
+#. knowledgeCharacters.0.eirin.role
+#: src/data/knowledge-graph.js:94
+msgctxt "text:knowledgeCharacters.0.eirin.role"
+msgid "Lunar observation, clinical judgement, and not letting sample size hide bad methods"
+msgstr "Lunar observation, clinical judgement, and not letting sample size hide bad methods"
+
+#. knowledgeCharacters.0.reisen.name
+#: src/data/knowledge-graph.js:99
+msgctxt "text:knowledgeCharacters.0.reisen.name"
+msgid "Reisen Udongein Inaba"
+msgstr "Reisen Udongein Inaba"
+
+#. knowledgeCharacters.0.reisen.role
+#: src/data/knowledge-graph.js:100
+msgctxt "text:knowledgeCharacters.0.reisen.role"
+msgid "Lunar perception, bamboo guidance, and arrows that keep being redrawn"
+msgstr "Lunar perception, bamboo guidance, and arrows that keep being redrawn"
+
+#. knowledgeCharacters.0.tewi.name
+#: src/data/knowledge-graph.js:105
+msgctxt "text:knowledgeCharacters.0.tewi.name"
+msgid "Tewi Inaba"
+msgstr "Tewi Inaba"
+
+#. knowledgeCharacters.0.tewi.role
+#: src/data/knowledge-graph.js:106
+msgctxt "text:knowledgeCharacters.0.tewi.role"
+msgid "Shortcuts, ticket stubs, and route design that denies being a trap"
+msgstr "Shortcuts, ticket stubs, and route design that denies being a trap"
+
+#. knowledgeCharacters.0.koakuma.name
+#: src/data/knowledge-graph.js:111
+msgctxt "text:knowledgeCharacters.0.koakuma.name"
+msgid "Koakuma"
+msgstr "Koakuma"
+
+#. knowledgeCharacters.0.koakuma.role
+#: src/data/knowledge-graph.js:112
+msgctxt "text:knowledgeCharacters.0.koakuma.role"
+msgid "Shelf-departure logs, window control, and cataloguing books that object"
+msgstr "Shelf-departure logs, window control, and cataloguing books that object"
+
+#. knowledgeCharacters.0.cirno.name
+#: src/data/knowledge-graph.js:117
+msgctxt "text:knowledgeCharacters.0.cirno.name"
+msgid "Cirno"
+msgstr "Cirno"
+
+#. knowledgeCharacters.0.cirno.role
+#: src/data/knowledge-graph.js:118
+msgctxt "text:knowledgeCharacters.0.cirno.role"
+msgid ""
+"Witnessing, emergency refrigeration, and testimony whose confidence exceeds "
+"its reliability"
+msgstr ""
+"Witnessing, emergency refrigeration, and testimony whose confidence exceeds "
+"its reliability"
+
+#. knowledgeCharacters.0.patchouli.role
+#: src/data/knowledge-graph.js:125
+msgctxt "text:knowledgeCharacters.0.patchouli.role"
+msgid "Grimoire reading, interlibrary disputes, and banning folded-page bookmarks"
+msgstr "Grimoire reading, interlibrary disputes, and banning folded-page bookmarks"
+
+#. knowledgeCharacters.0.reimu.role
+#: src/data/knowledge-graph.js:132
+msgctxt "text:knowledgeCharacters.0.reimu.role"
+msgid "Rules, exits, and the shortest opinion on overcomplicated systems"
+msgstr "Rules, exits, and the shortest opinion on overcomplicated systems"
+
+#. knowledgeCharacters.0.marisa.role
+#: src/data/knowledge-graph.js:139
+msgctxt "text:knowledgeCharacters.0.marisa.role"
+msgid "High-output practice, provenance to be added later, and failures worth keeping"
+msgstr "High-output practice, provenance to be added later, and failures worth keeping"
+
+#. knowledgeCharacters.0.yukari.role
+#: src/data/knowledge-graph.js:146
+msgctxt "text:knowledgeCharacters.0.yukari.role"
+msgid "Boundaries, regulatory gaps, and doors that were not between versions"
+msgstr "Boundaries, regulatory gaps, and doors that were not between versions"
+
+#. knowledgeCharacters.0.rinnosuke.name
+#: src/data/knowledge-graph.js:151
+msgctxt "text:knowledgeCharacters.0.rinnosuke.name"
+msgid "Rinnosuke Morichika"
+msgstr "Rinnosuke Morichika"
+
+#. knowledgeCharacters.0.rinnosuke.role
+#: src/data/knowledge-graph.js:152
+msgctxt "text:knowledgeCharacters.0.rinnosuke.role"
+msgid "Names, purposes, and remaining not for sale after pricing"
+msgstr "Names, purposes, and remaining not for sale after pricing"
+
+#. knowledgeCharacters.0.kogasa.name
+#: src/data/knowledge-graph.js:157
+msgctxt "text:knowledgeCharacters.0.kogasa.name"
+msgid "Kogasa Tatara"
+msgstr "Kogasa Tatara"
+
+#. knowledgeCharacters.0.kogasa.role
+#: src/data/knowledge-graph.js:158
+msgctxt "text:knowledgeCharacters.0.kogasa.role"
+msgid "The forgotten object's own view, and sudden speaking rights"
+msgstr "The forgotten object's own view, and sudden speaking rights"
+
+#. knowledgeCharacters.0.satori.name
+#: src/data/knowledge-graph.js:163
+msgctxt "text:knowledgeCharacters.0.satori.name"
+msgid "Satori Komeiji"
+msgstr "Satori Komeiji"
+
+#. knowledgeCharacters.0.satori.role
+#: src/data/knowledge-graph.js:164
+msgctxt "text:knowledgeCharacters.0.satori.role"
+msgid "Mental privacy, unwritten data, and requiring a separate protocol for mind-reading"
+msgstr "Mental privacy, unwritten data, and requiring a separate protocol for mind-reading"
+
+#. knowledgeCharacters.0.eiki.name
+#: src/data/knowledge-graph.js:169
+msgctxt "text:knowledgeCharacters.0.eiki.name"
+msgid "Eiki Shiki, Yamaxanadu"
+msgstr "Eiki Shiki, Yamaxanadu"
+
+#. knowledgeCharacters.0.eiki.role
+#: src/data/knowledge-graph.js:170
+msgctxt "text:knowledgeCharacters.0.eiki.role"
+msgid ""
+"Consent, responsibility, appeal, and refusing to let ownership waive "
+"another's withdrawal"
+msgstr ""
+"Consent, responsibility, appeal, and refusing to let ownership waive "
+"another's withdrawal"
+
+#. knowledgeCharacters.0.sakuya.name
+#: src/data/knowledge-graph.js:175
+msgctxt "text:knowledgeCharacters.0.sakuya.name"
+msgid "Sakuya Izayoi"
+msgstr "Sakuya Izayoi"
+
+#. knowledgeCharacters.0.sakuya.role
+#: src/data/knowledge-graph.js:176
+msgctxt "text:knowledgeCharacters.0.sakuya.role"
+msgid "Stopped time, zero-minute controls, and the clock still moving only on her side"
+msgstr "Stopped time, zero-minute controls, and the clock still moving only on her side"
+
+#. knowledgeCharacters.0.kanako.name
+#: src/data/knowledge-graph.js:181
+msgctxt "text:knowledgeCharacters.0.kanako.name"
+msgid "Kanako Yasaka"
+msgstr "Kanako Yasaka"
+
+#. knowledgeCharacters.0.kanako.role
+#: src/data/knowledge-graph.js:182
+msgctxt "text:knowledgeCharacters.0.kanako.role"
+msgid ""
+"Stable power, shimenawa works, and disputes over whose faith infrastructure "
+"each cable is"
+msgstr ""
+"Stable power, shimenawa works, and disputes over whose faith infrastructure "
+"each cable is"
+
+#. knowledgeCharacters.0.byakuren.name
+#: src/data/knowledge-graph.js:187
+msgctxt "text:knowledgeCharacters.0.byakuren.name"
+msgid "Byakuren Hijiri"
+msgstr "Byakuren Hijiri"
+
+#. knowledgeCharacters.0.byakuren.role
+#: src/data/knowledge-graph.js:188
+msgctxt "text:knowledgeCharacters.0.byakuren.role"
+msgid "Shared life, night welcome, and leaving the sole main gate to those who cannot fly"
+msgstr "Shared life, night welcome, and leaving the sole main gate to those who cannot fly"
+
+#. knowledgeCharacters.0.miko.name
+#: src/data/knowledge-graph.js:193
+msgctxt "text:knowledgeCharacters.0.miko.name"
+msgid "Toyosatomimi no Miko"
+msgstr "Toyosatomimi no Miko"
+
+#. knowledgeCharacters.0.miko.role
+#: src/data/knowledge-graph.js:194
+msgctxt "text:knowledgeCharacters.0.miko.role"
+msgid ""
+"Hearing ten opening speeches at once, public order, and insisting the gate "
+"is first-come first-served"
+msgstr ""
+"Hearing ten opening speeches at once, public order, and insisting the gate "
+"is first-come first-served"
+
+#. knowledgeCharacters.0.youmu.name
+#: src/data/knowledge-graph.js:199
+msgctxt "text:knowledgeCharacters.0.youmu.name"
+msgid "Youmu Konpaku"
+msgstr "Youmu Konpaku"
+
+#. knowledgeCharacters.0.youmu.role
+#: src/data/knowledge-graph.js:200
+msgctxt "text:knowledgeCharacters.0.youmu.role"
+msgid ""
+"Garden duty, phantom roll call, and whether half-human half-phantom counts "
+"as one or a pair"
+msgstr ""
+"Garden duty, phantom roll call, and whether half-human half-phantom counts "
+"as one or a pair"
+
+#. knowledgeCharacters.0.yuyuko.name
+#: src/data/knowledge-graph.js:205
+msgctxt "text:knowledgeCharacters.0.yuyuko.name"
+msgid "Yuyuko Saigyouji"
+msgstr "Yuyuko Saigyouji"
+
+#. knowledgeCharacters.0.yuyuko.role
+#: src/data/knowledge-graph.js:206
+msgctxt "text:knowledgeCharacters.0.yuyuko.role"
+msgid ""
+"Hakugyokurou feasts, phantom populations, and admitting after roll call that "
+"she was present all along"
+msgstr ""
+"Hakugyokurou feasts, phantom populations, and admitting after roll call that "
+"she was present all along"
+
+#. knowledgeDossiers.0.late-bell-seven.title
+#: src/data/knowledge-graph.js:215
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.title"
+msgid "The late-bell case: why did punctual students hear it?"
+msgstr "The late-bell case: why did punctual students hear it?"
+
+#. knowledgeDossiers.0.late-bell-seven.lead
+#: src/data/knowledge-graph.js:216
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.lead"
+msgid ""
+"The same bell has different times in equipment logs, roll sheets, an extra "
+"edition, and local closures. Akyuu declines to choose the most obedient "
+"yesterday."
+msgstr ""
+"The same bell has different times in equipment logs, roll sheets, an extra "
+"edition, and local closures. Akyuu declines to choose the most obedient "
+"yesterday."
+
+#. knowledgeDossiers.0.late-bell-seven.tension
+#: src/data/knowledge-graph.js:217
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.tension"
+msgid ""
+"Keine's roll marks seven punctual; Aya's extra was typeset nine minutes "
+"before the bell; Nitori's tower insists it executed one correct instruction."
+msgstr ""
+"Keine's roll marks seven punctual; Aya's extra was typeset nine minutes "
+"before the bell; Nitori's tower insists it executed one correct instruction."
+
+#. knowledgeDossiers.0.late-bell-seven.records.0.official-case.5
+#: src/data/knowledge-graph.js:226
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.0.official-case.5"
+msgid "The Incident Desk accepts this as the case's beginning, not the story's ending."
+msgstr "The Incident Desk accepts this as the case's beginning, not the story's ending."
+
+#. knowledgeDossiers.0.late-bell-seven.records.1.tower-log.5
+#: src/data/knowledge-graph.js:227
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.1.tower-log.5"
+msgid "The equipment time is stable; half the firmware-version field is under kappa tape."
+msgstr "The equipment time is stable; half the firmware-version field is under kappa tape."
+
+#. knowledgeDossiers.0.late-bell-seven.records.2.roll-page.5
+#: src/data/knowledge-graph.js:228
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.2.roll-page.5"
+msgid "Keine crossed out “late” twice; the second ink dried first."
+msgstr "Keine crossed out “late” twice; the second ink dried first."
+
+#. knowledgeDossiers.0.late-bell-seven.records.3.extra-edition.5
+#: src/data/knowledge-graph.js:229
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.3.extra-edition.5"
+msgid "The headline did not miss the bell; the bell missed deadline."
+msgstr "The headline did not miss the bell; the bell missed deadline."
+
+#. knowledgeDossiers.0.late-bell-seven.records.4.airspace-rule.5
+#: src/data/knowledge-graph.js:230
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.4.airspace-rule.5"
+msgid ""
+"Airspace rules do not settle sequence; they only say who may close things "
+"while everyone waits."
+msgstr ""
+"Airspace rules do not settle sequence; they only say who may close things "
+"while everyone waits."
+
+#. knowledgeDossiers.0.late-bell-seven.records.5.airspace-bbs.5
+#: src/data/knowledge-graph.js:231
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.5.airspace-bbs.5"
+msgid ""
+"Students first ask whether they may hover above the bell, not whether the "
+"bell is in today."
+msgstr ""
+"Students first ask whether they may hover above the bell, not whether the "
+"bell is in today."
+
+#. knowledgeDossiers.0.late-bell-seven.records.6.three-reports.5
+#: src/data/knowledge-graph.js:232
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.6.three-reports.5"
+msgid "The research file permits three mutually unconvinced reports to be cited together."
+msgstr "The research file permits three mutually unconvinced reports to be cited together."
+
+#. knowledgeDossiers.0.flying-book-window.title
+#: src/data/knowledge-graph.js:239
+msgctxt "text:knowledgeDossiers.0.flying-book-window.title"
+msgid "Shelf departure: four books, only one wanted to escape"
+msgstr "Shelf departure: four books, only one wanted to escape"
+
+#. knowledgeDossiers.0.flying-book-window.lead
+#: src/data/knowledge-graph.js:240
+msgctxt "text:knowledgeDossiers.0.flying-book-window.lead"
+msgid ""
+"The window log says closed, clasp telemetry says all four moved, and the "
+"fourth book petitioned by turning pages not to return."
+msgstr ""
+"The window log says closed, clasp telemetry says all four moved, and the "
+"fourth book petitioned by turning pages not to return."
+
+#. knowledgeDossiers.0.flying-book-window.tension
+#: src/data/knowledge-graph.js:241
+msgctxt "text:knowledgeDossiers.0.flying-book-window.tension"
+msgid ""
+"The library records departure, Koakuma records equipment failure, and the "
+"holding accepts only “location negotiation.” Cirno's testimony is all caps."
+msgstr ""
+"The library records departure, Koakuma records equipment failure, and the "
+"holding accepts only “location negotiation.” Cirno's testimony is all caps."
+
+#. knowledgeDossiers.0.flying-book-window.records.0.official-case.5
+#: src/data/knowledge-graph.js:250
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.0.official-case.5"
+msgid "The file says “shelf departure” so no book is called a fugitive before closure."
+msgstr "The file says “shelf departure” so no book is called a fugitive before closure."
+
+#. knowledgeDossiers.0.flying-book-window.records.1.margin-petition.5
+#: src/data/knowledge-graph.js:251
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.1.margin-petition.5"
+msgid "The petition is in a margin: cataloguing calls it holding, governance calls it speech."
+msgstr "The petition is in a margin: cataloguing calls it holding, governance calls it speech."
+
+#. knowledgeDossiers.0.flying-book-window.records.2.flying-index.5
+#: src/data/knowledge-graph.js:252
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.2.flying-index.5"
+msgid "This book explains why flying books retain call numbers, and refuses to demonstrate."
+msgstr "This book explains why flying books retain call numbers, and refuses to demonstrate."
+
+#. knowledgeDossiers.0.flying-book-window.records.3.library-rule.5
+#: src/data/knowledge-graph.js:253
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.3.library-rule.5"
+msgid ""
+"The motion debates longer full-moon reading; the book asks whether readers "
+"may be renewed first."
+msgstr ""
+"The motion debates longer full-moon reading; the book asks whether readers "
+"may be renewed first."
+
+#. knowledgeDossiers.0.flying-book-window.records.4.window-bbs.5
+#: src/data/knowledge-graph.js:254
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.4.window-bbs.5"
+msgid "The librarian's notice is clear; someone at the window seats still asks nightly."
+msgstr "The librarian's notice is clear; someone at the window seats still asks nightly."
+
+#. knowledgeDossiers.0.flying-book-window.records.5.grimoire-course.5
+#: src/data/knowledge-graph.js:255
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.5.grimoire-course.5"
+msgid ""
+"The course teaches reading and counter-reading, not how to recover a book "
+"that finished its reader."
+msgstr ""
+"The course teaches reading and counter-reading, not how to recover a book "
+"that finished its reader."
+
+#. knowledgeDossiers.0.flying-book-window.records.6.shelf-minutes.5
+#: src/data/knowledge-graph.js:256
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.6.shelf-minutes.5"
+msgid "Day 129 still did not decide whether an “original location” may move itself."
+msgstr "Day 129 still did not decide whether an “original location” may move itself."
+
+#. knowledgeDossiers.0.headline-yesterday.title
+#: src/data/knowledge-graph.js:263
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.title"
+msgid "Yesterday extra: why tomorrow's incident was already archived"
+msgstr "Yesterday extra: why tomorrow's incident was already archived"
+
+#. knowledgeDossiers.0.headline-yesterday.lead
+#: src/data/knowledge-graph.js:264
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.lead"
+msgid ""
+"Layout cache, archive index, and valve audio each have a date, and each date "
+"is reasonable when read alone."
+msgstr ""
+"Layout cache, archive index, and valve audio each have a date, and each date "
+"is reasonable when read alone."
+
+#. knowledgeDossiers.0.headline-yesterday.tension
+#: src/data/knowledge-graph.js:265
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.tension"
+msgid ""
+"Aya says the news merely arrived early; Akyuu says the chronicle was merely "
+"written late. Keine asks both to version “yesterday.” Yukari cuts open the "
+"date field."
+msgstr ""
+"Aya says the news merely arrived early; Akyuu says the chronicle was merely "
+"written late. Keine asks both to version “yesterday.” Yukari cuts open the "
+"date field."
+
+#. knowledgeDossiers.0.headline-yesterday.records.0.official-case.5
+#: src/data/knowledge-graph.js:275
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.0.official-case.5"
+msgid "The case says in progress; the chronicle citation already has its post-closure page."
+msgstr "The case says in progress; the chronicle citation already has its post-closure page."
+
+#. knowledgeDossiers.0.headline-yesterday.records.1.layout-cache.5
+#: src/data/knowledge-graph.js:276
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.1.layout-cache.5"
+msgid "The cache proves when the headline was set, not that the incident agreed to occur then."
+msgstr "The cache proves when the headline was set, not that the incident agreed to occur then."
+
+#. knowledgeDossiers.0.headline-yesterday.records.2.chronicle-index.5
+#: src/data/knowledge-graph.js:277
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.2.chronicle-index.5"
+msgid "The index page number is valid; its paper appeared only after the case opened."
+msgstr "The index page number is valid; its paper appeared only after the case opened."
+
+#. knowledgeDossiers.0.headline-yesterday.records.3.reports-research.5
+#: src/data/knowledge-graph.js:278
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.3.reports-research.5"
+msgid ""
+"Research records “reported first, occurred later” as an observed order, not "
+"a causal finding."
+msgstr ""
+"Research records “reported first, occurred later” as an observed order, not "
+"a causal finding."
+
+#. knowledgeDossiers.0.headline-yesterday.records.4.yesterday-assignment.5
+#: src/data/knowledge-graph.js:279
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.4.yesterday-assignment.5"
+msgid ""
+"The assignment forbids choosing the more emotionally satisfying yesterday; "
+"both sources stay."
+msgstr ""
+"The assignment forbids choosing the more emotionally satisfying yesterday; "
+"both sources stay."
+
+#. knowledgeDossiers.0.headline-yesterday.records.5.red-thread-rule.5
+#: src/data/knowledge-graph.js:280
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.5.red-thread-rule.5"
+msgid "The motion decides warning size, not whether contested content should quiet down."
+msgstr "The motion decides warning size, not whether contested content should quiet down."
+
+#. knowledgeDossiers.0.headline-yesterday.records.6.headline-holding.5
+#: src/data/knowledge-graph.js:281
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.6.headline-holding.5"
+msgid ""
+"Its corrections appendix is always one page thicker than the text; sometimes "
+"tomorrow adds it."
+msgstr ""
+"Its corrections appendix is always one page thicker than the text; sometimes "
+"tomorrow adds it."
+
+#. knowledgeDossiers.0.fourth-lantern-loop.title
+#: src/data/knowledge-graph.js:288
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.title"
+msgid "The fourth lantern: three rabbit coaches reach one bend"
+msgstr "The fourth lantern: three rabbit coaches reach one bend"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.lead
+#: src/data/knowledge-graph.js:289
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.lead"
+msgid ""
+"Every lantern in the bamboo claims to be fourth. Tickets, moon phase, and "
+"firmware disagree on whether the three coaches happened in sequence."
+msgstr ""
+"Every lantern in the bamboo claims to be fourth. Tickets, moon phase, and "
+"firmware disagree on whether the three coaches happened in sequence."
+
+#. knowledgeDossiers.0.fourth-lantern-loop.tension
+#: src/data/knowledge-graph.js:290
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.tension"
+msgid ""
+"Tewi calls the loop a shortcut, Eirin repeated exposure, and Nitori a legacy "
+"compatibility layer. Reisen turned the arrow back again."
+msgstr ""
+"Tewi calls the loop a shortcut, Eirin repeated exposure, and Nitori a legacy "
+"compatibility layer. Reisen turned the arrow back again."
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.0.official-case.5
+#: src/data/knowledge-graph.js:298
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.0.official-case.5"
+msgid "The file numbers three coaches separately; the bamboo swaps their numbers next day."
+msgstr "The file numbers three coaches separately; the bamboo swaps their numbers next day."
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.1.firmware-stubs.5
+#: src/data/knowledge-graph.js:299
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.1.firmware-stubs.5"
+msgid "Tickets have three timestamps; firmware has one “still en route” state."
+msgstr "Tickets have three timestamps; firmware has one “still en route” state."
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.2.moon-log.5
+#: src/data/knowledge-graph.js:300
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.2.moon-log.5"
+msgid "The lunar log has no duplicate; its recorder passed the same lantern three times."
+msgstr "The lunar log has no duplicate; its recorder passed the same lantern three times."
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.3.lantern-manual.5
+#: src/data/knowledge-graph.js:301
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.3.lantern-manual.5"
+msgid "Manual 3.1b begins by asking you to verify you are not reading 3.1b."
+msgstr "Manual 3.1b begins by asking you to verify you are not reading 3.1b."
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.4.bamboo-bbs.5
+#: src/data/knowledge-graph.js:302
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.4.bamboo-bbs.5"
+msgid ""
+"Orienteering promises no identical return route this week; that notice alone "
+"arrived on time."
+msgstr ""
+"Orienteering promises no identical return route this week; that notice alone "
+"arrived on time."
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.5.clinic-route-course.5
+#: src/data/knowledge-graph.js:303
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.5.clinic-route-course.5"
+msgid "Three loops add no credits, though they may add absences."
+msgstr "Three loops add no credits, though they may add absences."
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.6.clinic-route-news.5
+#: src/data/knowledge-graph.js:304
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.6.clinic-route-news.5"
+msgid "The low-stimulus route is open; Tewi posted an “even lower-stimulus shortcut” beside it."
+msgstr "The low-stimulus route is open; Tewi posted an “even lower-stimulus shortcut” beside it."
+
+#. knowledgeDossiers.0.dorm-window-chair.title
+#: src/data/knowledge-graph.js:311
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.title"
+msgid "The window chair: third roommate to a co-living agreement"
+msgstr "The window chair: third roommate to a co-living agreement"
+
+#. knowledgeDossiers.0.dorm-window-chair.lead
+#: src/data/knowledge-graph.js:312
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.lead"
+msgid ""
+"The housing form says two people, the night grid measures three fixed "
+"positions, and scratches on the chair request a rota entry."
+msgstr ""
+"The housing form says two people, the night grid measures three fixed "
+"positions, and scratches on the chair request a rota entry."
+
+#. knowledgeDossiers.0.dorm-window-chair.tension
+#: src/data/knowledge-graph.js:313
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.tension"
+msgid ""
+"Housing says furniture takes no bed; Yukari says boundaries need not take "
+"space. An old receipt says the chair moved in before one roommate."
+msgstr ""
+"Housing says furniture takes no bed; Yukari says boundaries need not take "
+"space. An old receipt says the chair moved in before one roommate."
+
+#. knowledgeDossiers.0.dorm-window-chair.records.0.official-case.5
+#: src/data/knowledge-graph.js:322
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.0.official-case.5"
+msgid "The Incident Centre lists the chair as affected, not witness. The chair has appealed."
+msgstr "The Incident Centre lists the chair as affected, not witness. The chair has appealed."
+
+#. knowledgeDossiers.0.dorm-window-chair.records.1.scratch-text.5
+#: src/data/knowledge-graph.js:323
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.1.scratch-text.5"
+msgid "The scratches read as a name, or “stop putting coats on me.”"
+msgstr "The scratches read as a name, or “stop putting coats on me.”"
+
+#. knowledgeDossiers.0.dorm-window-chair.records.2.old-receipt.5
+#: src/data/knowledge-graph.js:324
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.2.old-receipt.5"
+msgid "The receipt predates the dorm conversion; item says only “one, wooden.”"
+msgstr "The receipt predates the dorm conversion; item says only “one, wooden.”"
+
+#. knowledgeDossiers.0.dorm-window-chair.records.3.hakurei-east.5
+#: src/data/knowledge-graph.js:325
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.3.hakurei-east.5"
+msgid "The hall calls its rain leak a natural clock; the chair calls it curtains."
+msgstr "The hall calls its rain leak a natural clock; the chair calls it curtains."
+
+#. knowledgeDossiers.0.dorm-window-chair.records.4.boundary-course.5
+#: src/data/knowledge-graph.js:326
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.4.boundary-course.5"
+msgid ""
+"The course studies passage governance; this assignment asks who may pass "
+"through a chair back."
+msgstr ""
+"The course studies passage governance; this assignment asks who may pass "
+"through a chair back."
+
+#. knowledgeDossiers.0.dorm-window-chair.records.5.red-thread-rule.5
+#: src/data/knowledge-graph.js:327
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.5.red-thread-rule.5"
+msgid ""
+"The chair wants a warning its own height; council has not measured a chair's "
+"reading distance."
+msgstr ""
+"The chair wants a warning its own height; council has not measured a chair's "
+"reading distance."
+
+#. knowledgeDossiers.0.dorm-window-chair.records.6.shelf-negotiation.5
+#: src/data/knowledge-graph.js:328
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.6.shelf-negotiation.5"
+msgid "Housing cites shelf-location negotiations as precedent for furniture speaking rights."
+msgstr "Housing cites shelf-location negotiations as precedent for furniture speaking rights."
+
+#. knowledgeDossiers.0.drift-reader-77.title
+#: src/data/knowledge-graph.js:335
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.title"
+msgid "Drift Object 77: the reader frozen on one page"
+msgstr "Drift Object 77: the reader frozen on one page"
+
+#. knowledgeDossiers.0.drift-reader-77.lead
+#: src/data/knowledge-graph.js:336
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.lead"
+msgid ""
+"Kourindou calls it a reading tool, Misty Lake a book, and the kappa a "
+"missing cable. The character on screen says they have not been finished."
+msgstr ""
+"Kourindou calls it a reading tool, Misty Lake a book, and the kappa a "
+"missing cable. The character on screen says they have not been finished."
+
+#. knowledgeDossiers.0.drift-reader-77.tension
+#: src/data/knowledge-graph.js:337
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.tension"
+msgid ""
+"Purpose appraisal wants an operating test; preservation forbids erasing the "
+"page to test it. Kogasa asks whether the object objects."
+msgstr ""
+"Purpose appraisal wants an operating test; preservation forbids erasing the "
+"page to test it. Kogasa asks whether the object objects."
+
+#. knowledgeDossiers.0.drift-reader-77.records.0.object-file.5
+#: src/data/knowledge-graph.js:346
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.0.object-file.5"
+msgid ""
+"Seventy-seven is not a count; the shelf slip refused to call the next object "
+"seventy-eight."
+msgstr ""
+"Seventy-seven is not a count; the shelf slip refused to call the next object "
+"seventy-eight."
+
+#. knowledgeDossiers.0.drift-reader-77.records.1.drift-research.5
+#: src/data/knowledge-graph.js:347
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.1.drift-research.5"
+msgid ""
+"The drift index records semantic change after forgetting; it does not "
+"rehabilitate manuals."
+msgstr ""
+"The drift index records semantic change after forgetting; it does not "
+"rehabilitate manuals."
+
+#. knowledgeDossiers.0.drift-reader-77.records.2.drift-catalogue.5
+#: src/data/knowledge-graph.js:348
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.2.drift-catalogue.5"
+msgid "The holding says seventy-seven objects; its appendix already has a blank card 78."
+msgstr "The holding says seventy-seven objects; its appendix already has a blank card 78."
+
+#. knowledgeDossiers.0.drift-reader-77.records.3.boundary-course.5
+#: src/data/knowledge-graph.js:349
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.3.boundary-course.5"
+msgid "Students identify the crossed boundary, then discover the charging port has one too."
+msgstr "Students identify the crossed boundary, then discover the charging port has one too."
+
+#. knowledgeDossiers.0.drift-reader-77.records.4.wire-bbs.5
+#: src/data/knowledge-graph.js:350
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.4.wire-bbs.5"
+msgid ""
+"A Kourindou auditor offers free cables; Appraisal first wants proof the "
+"cable is not another drift object."
+msgstr ""
+"A Kourindou auditor offers free cables; Appraisal first wants proof the "
+"cable is not another drift object."
+
+#. knowledgeDossiers.0.drift-reader-77.records.5.lost-umbrella-news.5
+#: src/data/knowledge-graph.js:351
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.5.lost-umbrella-news.5"
+msgid ""
+"Lost Property says the umbrella is not lost; the umbrella says the desk is "
+"what got found."
+msgstr ""
+"Lost Property says the umbrella is not lost; the umbrella says the desk is "
+"what got found."
+
+#. knowledgeDossiers.0.drift-reader-77.records.6.appraisal-history.5
+#: src/data/knowledge-graph.js:352
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.6.appraisal-history.5"
+msgid "The chronicle keeps the opening version and why object 77 followed object seven."
+msgstr "The chronicle keeps the opening version and why object 77 followed object seven."
+
+#. knowledgeDossiers.0.spellcard-six-seals.title
+#: src/data/knowledge-graph.js:359
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.title"
+msgid "Six-seal defence: does beautiful danmaku still leave an exit?"
+msgstr "Six-seal defence: does beautiful danmaku still leave an exit?"
+
+#. knowledgeDossiers.0.spellcard-six-seals.lead
+#: src/data/knowledge-graph.js:360
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.lead"
+msgid ""
+"Design, sandbox, methods, public defence, and audience notes score the same "
+"spell differently. The university refuses to average six seals."
+msgstr ""
+"Design, sandbox, methods, public defence, and audience notes score the same "
+"spell differently. The university refuses to average six seals."
+
+#. knowledgeDossiers.0.spellcard-six-seals.tension
+#: src/data/knowledge-graph.js:361
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.tension"
+msgid ""
+"Reimu asks exits, Marisa output, Aya writes the headline first, and Nitori "
+"measures frame drops. All deny changing the question."
+msgstr ""
+"Reimu asks exits, Marisa output, Aya writes the headline first, and Nitori "
+"measures frame drops. All deny changing the question."
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.0.pattern.5
+#: src/data/knowledge-graph.js:369
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.0.pattern.5"
+msgid ""
+"The design promises several gates; after wave two, gates and designer "
+"disagree on “remain.”"
+msgstr ""
+"The design promises several gates; after wave two, gates and designer "
+"disagree on “remain.”"
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.1.spellcard-research.5
+#: src/data/knowledge-graph.js:370
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.1.spellcard-research.5"
+msgid ""
+"Research records readability, fairness, and exits separately so one pretty "
+"total cannot swallow them."
+msgstr ""
+"Research records readability, fairness, and exits separately so one pretty "
+"total cannot swallow them."
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.2.spellcard-course.5
+#: src/data/knowledge-graph.js:371
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.2.spellcard-course.5"
+msgid "Exit design is forty percent; donation-box shapes still earn no bonus."
+msgstr "Exit design is forty percent; donation-box shapes still earn no bonus."
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.3.telegraph-holding.5
+#: src/data/knowledge-graph.js:372
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.3.telegraph-holding.5"
+msgid ""
+"Forty-nine of fifty telegraphs are readable; the fiftieth says the reader "
+"stands in the wrong version."
+msgstr ""
+"Forty-nine of fifty telegraphs are readable; the fiftieth says the reader "
+"stands in the wrong version."
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.4.red-thread-rule.5
+#: src/data/knowledge-graph.js:373
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.4.red-thread-rule.5"
+msgid "A failed defence may be kept, but danmaku effects may not cover its red-thread warning."
+msgstr "A failed defence may be kept, but danmaku effects may not cover its red-thread warning."
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.5.lantern-call.5
+#: src/data/knowledge-graph.js:374
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.5.lantern-call.5"
+msgid ""
+"The call asks for low noise; the fairy choir asks whether low means volume, "
+"pitch, or rank."
+msgstr ""
+"The call asks for low noise; the fairy choir asks whether low means volume, "
+"pitch, or rank."
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.6.workshop-history.5
+#: src/data/knowledge-graph.js:375
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.6.workshop-history.5"
+msgid "The chronicle records the first sandbox and why six seals refused one average."
+msgstr "The chronicle records the first sandbox and why six seals refused one average."
+
+#. knowledgeDossiers.0.consent-five-seats.title
+#: src/data/knowledge-graph.js:382
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.title"
+msgid "Five gates of consent: who may let research begin?"
+msgstr "Five gates of consent: who may let research begin?"
+
+#. knowledgeDossiers.0.consent-five-seats.lead
+#: src/data/knowledge-graph.js:383
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.lead"
+msgid ""
+"Wavelengths, mind-reading, stopped time, historical erasure, and "
+"drift-object disassembly can all be done. Five seats ask whether the person "
+"doing them has the right."
+msgstr ""
+"Wavelengths, mind-reading, stopped time, historical erasure, and "
+"drift-object disassembly can all be done. Five seats ask whether the person "
+"doing them has the right."
+
+#. knowledgeDossiers.0.consent-five-seats.tension
+#: src/data/knowledge-graph.js:384
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.tension"
+msgid ""
+"Eirin asks for stopping rules; Satori says unwritten access is still access; "
+"Keine refuses to erase the deletion receipt; Eiki rejects ownership as "
+"consent; Reimu wants a field rule spoken in one breath."
+msgstr ""
+"Eirin asks for stopping rules; Satori says unwritten access is still access; "
+"Keine refuses to erase the deletion receipt; Eiki rejects ownership as "
+"consent; Reimu wants a field rule spoken in one breath."
+
+#. knowledgeDossiers.0.consent-five-seats.records.0.reisen-consent.5
+#: src/data/knowledge-graph.js:400
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.0.reisen-consent.5"
+msgid "Blinding may hide the research question; it may not hide the right to refuse."
+msgstr "Blinding may hide the research question; it may not hide the right to refuse."
+
+#. knowledgeDossiers.0.consent-five-seats.records.1.satori-processing.5
+#: src/data/knowledge-graph.js:401
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.1.satori-processing.5"
+msgid "Satori retains no raw thought; Akyuu keeps a content-free slip that access occurred."
+msgstr "Satori retains no raw thought; Akyuu keeps a content-free slip that access occurred."
+
+#. knowledgeDossiers.0.consent-five-seats.records.2.sakuya-control.5
+#: src/data/knowledge-graph.js:402
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.2.sakuya-control.5"
+msgid ""
+"The outside clock says zero minutes; Sakuya's operation sequence has "
+"seventeen lines. Nobody averages them into eight and a half."
+msgstr ""
+"The outside clock says zero minutes; Sakuya's operation sequence has "
+"seventeen lines. Nobody averages them into eight and a half."
+
+#. knowledgeDossiers.0.consent-five-seats.records.3.keine-receipt.5
+#: src/data/knowledge-graph.js:403
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.3.keine-receipt.5"
+msgid ""
+"Content may be deleted; the receipt proves only that the right was exercised "
+"and retains no original text."
+msgstr ""
+"Content may be deleted; the receipt proves only that the right was exercised "
+"and retains no original text."
+
+#. knowledgeDossiers.0.consent-five-seats.records.4.object-assent.5
+#: src/data/knowledge-graph.js:404
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.4.object-assent.5"
+msgid ""
+"The salvage slip grants custody; “do not disassemble” remains an opinion the "
+"ticket stub cannot swallow."
+msgstr ""
+"The salvage slip grants custody; “do not disassemble” remains an opinion the "
+"ticket stub cannot swallow."
+
+#. knowledgeDossiers.0.consent-five-seats.records.5.ethics-history.5
+#: src/data/knowledge-graph.js:405
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.5.ethics-history.5"
+msgid "The chronicle records the five-seat opening and its first ruling: no averaging stapler."
+msgstr "The chronicle records the five-seat opening and its first ruling: no averaging stapler."
+
+#. knowledgeDossiers.0.festival-six-desks.title
+#: src/data/knowledge-graph.js:412
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.title"
+msgid "Six desks, one night: how many sole main gates exist?"
+msgstr "Six desks, one night: how many sole main gates exist?"
+
+#. knowledgeDossiers.0.festival-six-desks.lead
+#: src/data/knowledge-graph.js:413
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.lead"
+msgid ""
+"The same lantern festival is an exit plan at Safety, a load curve to the "
+"kappa, a clinic queue at Eientei, and already open in Aya's paper. Three "
+"faiths each arrive with the key to the sole main gate."
+msgstr ""
+"The same lantern festival is an exit plan at Safety, a load curve to the "
+"kappa, a clinic queue at Eientei, and already open in Aya's paper. Three "
+"faiths each arrive with the key to the sole main gate."
+
+#. knowledgeDossiers.0.festival-six-desks.tension
+#: src/data/knowledge-graph.js:414
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.tension"
+msgid ""
+"Reimu wants the stop rule in one breath; Nitori wants to know whether Kanako "
+"will turn the backup supply into an offering; Eirin treats the full moon as "
+"a medical condition; Aya calls publishing nine minutes early punctual "
+"delivery."
+msgstr ""
+"Reimu wants the stop rule in one breath; Nitori wants to know whether Kanako "
+"will turn the backup supply into an offering; Eirin treats the full moon as "
+"a medical condition; Aya calls publishing nine minutes early punctual "
+"delivery."
+
+#. knowledgeDossiers.0.festival-six-desks.records.0.festival-brief.5
+#: src/data/knowledge-graph.js:430
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.0.festival-brief.5"
+msgid ""
+"The call says non-aggressive light danmaku; Safety attaches a sheet asking "
+"whether the danmaku knows that."
+msgstr ""
+"The call says non-aggressive light danmaku; Safety attaches a sheet asking "
+"whether the danmaku knows that."
+
+#. knowledgeDossiers.0.festival-six-desks.records.1.six-desk-sheet.5
+#: src/data/knowledge-graph.js:431
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.1.six-desk-sheet.5"
+msgid ""
+"The faith desk does not vote on who is more sole; it schedules three opening "
+"addresses for the same minute so the dispute begins on time."
+msgstr ""
+"The faith desk does not vote on who is more sole; it schedules three opening "
+"addresses for the same minute so the dispute begins on time."
+
+#. knowledgeDossiers.0.festival-six-desks.records.2.procession-line.5
+#: src/data/knowledge-graph.js:432
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.2.procession-line.5"
+msgid ""
+"The route has one entrance, three arrows marked main gate, and one ground "
+"line for non-fliers that brooms keep using as a shortcut."
+msgstr ""
+"The route has one entrance, three arrows marked main gate, and one ground "
+"line for non-fliers that brooms keep using as a shortcut."
+
+#. knowledgeDossiers.0.festival-six-desks.records.3.mixed-power.5
+#: src/data/knowledge-graph.js:433
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.3.mixed-power.5"
+msgid ""
+"Kappa deliver power to the lanterns; Moriya explains why they shine. During "
+"an outage, each proves it was not their half."
+msgstr ""
+"Kappa deliver power to the lanterns; Moriya explains why they shine. During "
+"an outage, each proves it was not their half."
+
+#. knowledgeDossiers.0.festival-six-desks.records.4.aya-opening.5
+#: src/data/knowledge-graph.js:434
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.4.aya-opening.5"
+msgid ""
+"The extra says “opened as scheduled” nine minutes before approval; "
+"Corrections adds “which schedule” nine minutes after."
+msgstr ""
+"The extra says “opened as scheduled” nine minutes before approval; "
+"Corrections adds “which schedule” nine minutes after."
+
+#. knowledgeDossiers.0.festival-six-desks.records.5.gate-claim.5
+#: src/data/knowledge-graph.js:435
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.5.gate-claim.5"
+msgid ""
+"The rota changes the sole gate every twenty minutes. Yukari inserts a "
+"boundary between minutes, leaving two sole gates in the same instant."
+msgstr ""
+"The rota changes the sole gate every twenty minutes. Yukari inserts a "
+"boundary between minutes, leaving two sole gates in the same instant."
+
+#. knowledgeDossiers.0.festival-six-desks.records.6.festival-history.5
+#: src/data/knowledge-graph.js:436
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.6.festival-history.5"
+msgid ""
+"The chronicle records the operations room opening and files the unresolved "
+"gate objection ahead of next year's application."
+msgstr ""
+"The chronicle records the operations room opening and files the unresolved "
+"gate objection ahead of next year's application."
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.title
+#: src/data/knowledge-graph.js:443
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.title"
+msgid "Twenty-four field seals: which one proves you truly returned?"
+msgstr "Twenty-four field seals: which one proves you truly returned?"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.lead
+#: src/data/knowledge-graph.js:444
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.lead"
+msgid ""
+"The Scarlet duty log, Hakugyokurou phantom roll, and Kourindou object "
+"testimony may all be field sources; none can certify what another says you "
+"observed."
+msgstr ""
+"The Scarlet duty log, Hakugyokurou phantom roll, and Kourindou object "
+"testimony may all be field sources; none can certify what another says you "
+"observed."
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.tension
+#: src/data/knowledge-graph.js:445
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.tension"
+msgid ""
+"Keine requires a question before departure; Sakuya's zero-minute shift voids "
+"the date; after Youmu counts the phantoms, Yuyuko asks whether she was "
+"included at dinner. Akyuu binds the dispute beside the seal."
+msgstr ""
+"Keine requires a question before departure; Sakuya's zero-minute shift voids "
+"the date; after Youmu counts the phantoms, Yuyuko asks whether she was "
+"included at dinner. Akyuu binds the dispute beside the seal."
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.0.scarlet-duty.5
+#: src/data/knowledge-graph.js:459
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.0.scarlet-duty.5"
+msgid ""
+"Sakuya's duty book has a complete sequence and no elapsed time; Patchouli "
+"forbids averaging both into “roughly punctual.”"
+msgstr ""
+"Sakuya's duty book has a complete sequence and no elapsed time; Patchouli "
+"forbids averaging both into “roughly punctual.”"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.1.phantom-roll.5
+#: src/data/knowledge-graph.js:460
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.1.phantom-roll.5"
+msgid ""
+"Youmu sorts phantoms into present, passing, being eaten, and insisting they "
+"are petals; Yuyuko signs a fifth column."
+msgstr ""
+"Youmu sorts phantoms into present, passing, being eaten, and insisting they "
+"are petals; Yuyuko signs a fifth column."
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.2.object-statement.5
+#: src/data/knowledge-graph.js:461
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.2.object-statement.5"
+msgid ""
+"Rinnosuke may identify a name; wear, the object's view, and an overconfident "
+"price tag still dispute its use."
+msgstr ""
+"Rinnosuke may identify a name; wear, the object's view, and an overconfident "
+"price tag still dispute its use."
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.3.unsubmitted-thought.5
+#: src/data/knowledge-graph.js:462
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.3.unsubmitted-thought.5"
+msgid ""
+"What Satori reads does not cease to exist because unwritten, nor become "
+"research-eligible merely because she read it."
+msgstr ""
+"What Satori reads does not cease to exist because unwritten, nor become "
+"research-eligible merely because she read it."
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.4.ghost-headcount.5
+#: src/data/knowledge-graph.js:463
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.4.ghost-headcount.5"
+msgid ""
+"The phantom roll gains three and loses two half-phantoms after call; "
+"Corrections preserves the total and files the counting method beside it."
+msgstr ""
+"The phantom roll gains three and loses two half-phantoms after call; "
+"Corrections preserves the total and files the counting method beside it."
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.5.fieldwork-history.5
+#: src/data/knowledge-graph.js:464
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.5.fieldwork-history.5"
+msgid ""
+"The chronicle links dispatch, complication, provenance, and return seal by "
+"cause; it does not rewrite stamping as the field agreeing with your "
+"conclusion."
+msgstr ""
+"The chronicle links dispatch, complication, provenance, and return seal by "
+"cause; it does not rewrite stamping as the field agreeing with your "
+"conclusion."
+
+#. knowledgeDossiers.0.commons-early-letter.title
+#: src/data/knowledge-graph.js:471
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.title"
+msgid "An umbrella refuses home, a ruling arrives early, and spring remains unsigned"
+msgstr "An umbrella refuses home, a ruling arrives early, and spring remains unsigned"
+
+#. knowledgeDossiers.0.commons-early-letter.lead
+#: src/data/knowledge-graph.js:472
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.lead"
+msgid ""
+"One matter leaves six times across object testimony, collection form, "
+"four-seat ruling, tengu version, wooden correction, and calendar. Akyuu "
+"refuses to choose the convenient one."
+msgstr ""
+"One matter leaves six times across object testimony, collection form, "
+"four-seat ruling, tengu version, wooden correction, and calendar. Akyuu "
+"refuses to choose the convenient one."
+
+#. knowledgeDossiers.0.commons-early-letter.tension
+#: src/data/knowledge-graph.js:473
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.tension"
+msgid ""
+"Kogasa asks about neglect, Rinnosuke about name and wear, Eiki about custody "
+"and appeal; Aya asks only whether the headline can run nine minutes before "
+"hearing. Keine finds the post dated in the spring Hakugyokurou rejects."
+msgstr ""
+"Kogasa asks about neglect, Rinnosuke about name and wear, Eiki about custody "
+"and appeal; Aya asks only whether the headline can run nine minutes before "
+"hearing. Keine finds the post dated in the spring Hakugyokurou rejects."
+
+#. knowledgeDossiers.0.commons-early-letter.records.0.sunny-umbrella.5
+#: src/data/knowledge-graph.js:489
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.0.sunny-umbrella.5"
+msgid ""
+"The receipt proves purchase and nineteen sunny days prove neglect. Both are "
+"true and ask for different destinations."
+msgstr ""
+"The receipt proves purchase and nineteen sunny days prove neglect. Both are "
+"true and ask for different destinations."
+
+#. knowledgeDossiers.0.commons-early-letter.records.1.early-admission.5
+#: src/data/knowledge-graph.js:490
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.1.early-admission.5"
+msgid ""
+"The offer precedes the application. Version two restores “conditional” from "
+"the back; version one remains in Corrections."
+msgstr ""
+"The offer precedes the application. Version two restores “conditional” from "
+"the back; version one remains in Corrections."
+
+#. knowledgeDossiers.0.commons-early-letter.records.2.spring-not-received.5
+#: src/data/knowledge-graph.js:491
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.2.spring-not-received.5"
+msgid ""
+"The calendar declares spring; Hakugyokurou refuses delivery for snow, "
+"leaving winter and spring timetables together."
+msgstr ""
+"The calendar declares spring; Hakugyokurou refuses delivery for snow, "
+"leaving winter and spring timetables together."
+
+#. knowledgeDossiers.0.commons-early-letter.records.3.full-moon-mail.5
+#: src/data/knowledge-graph.js:492
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.3.full-moon-mail.5"
+msgid ""
+"The full-moon class activates when the moon clears bamboo; Bunbunmaru "
+"publication time cannot substitute for lunar arrival."
+msgstr ""
+"The full-moon class activates when the moon clears bamboo; Bunbunmaru "
+"publication time cannot substitute for lunar arrival."
+
+#. knowledgeDossiers.0.commons-early-letter.records.4.same-serial-ear.5
+#: src/data/knowledge-graph.js:493
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.4.same-serial-ear.5"
+msgid ""
+"Two left earbuds share a serial and receive separately. Property lists the "
+"serial as lost while Post wants both as inboxes."
+msgstr ""
+"Two left earbuds share a serial and receive separately. Property lists the "
+"serial as lost while Post wants both as inboxes."
+
+#. knowledgeDossiers.0.commons-early-letter.records.5.commons-history.5
+#: src/data/knowledge-graph.js:494
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.5.commons-history.5"
+msgid ""
+"The chronicle ties object, post, and calendar with one red thread without "
+"rewriting delivery order as causal order."
+msgstr ""
+"The chronicle ties object, post, and calendar with one red thread without "
+"rewriting delivery order as causal order."
+
+#. knowledgeDossiers.0.graduation-before-enrolment.title
+#: src/data/knowledge-graph.js:501
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.title"
+msgid "One degree, twelve paths, and an alumni roll nine minutes early"
+msgstr "One degree, twelve paths, and an alumni roll nine minutes early"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.lead
+#: src/data/knowledge-graph.js:502
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.lead"
+msgid ""
+"Graduation proves eight desks saw their own fields; it does not prove "
+"record, time, and graduate arrive in the same edition."
+msgstr ""
+"Graduation proves eight desks saw their own fields; it does not prove "
+"record, time, and graduate arrive in the same edition."
+
+#. knowledgeDossiers.0.graduation-before-enrolment.tension
+#: src/data/knowledge-graph.js:503
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.tension"
+msgid ""
+"Keine demands traceable cores and chronology; Akyuu finds an admission "
+"entered after graduation. Aya has published the alumni roll, while Yukari "
+"moves the degree year to the reverse. Careers can only ask what this edition "
+"of you will refuse tomorrow."
+msgstr ""
+"Keine demands traceable cores and chronology; Akyuu finds an admission "
+"entered after graduation. Aya has published the alumni roll, while Yukari "
+"moves the degree year to the reverse. Careers can only ask what this edition "
+"of you will refuse tomorrow."
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.0.graduation-capstone.5
+#: src/data/knowledge-graph.js:522
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.0.graduation-capstone.5"
+msgid ""
+"The capstone keeps one version the graduate distrusts but may not delete; "
+"the board may not average it into a prettier result."
+msgstr ""
+"The capstone keeps one version the graduate distrusts but may not delete; "
+"the board may not average it into a prettier result."
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.1.missing-year-job.5
+#: src/data/knowledge-graph.js:523
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.1.missing-year-job.5"
+msgid ""
+"The role restores deleted Wednesdays but forbids recording imagined lessons "
+"as observed; the vacancy lacks both a person and a day."
+msgstr ""
+"The role restores deleted Wednesdays but forbids recording imagined lessons "
+"as observed; the vacancy lacks both a person and a day."
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.2.zero-minute-recruitment.5
+#: src/data/knowledge-graph.js:524
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.2.zero-minute-recruitment.5"
+msgid ""
+"The Scarlet notice puts room and board, a zero-minute night shift, and "
+"stopped-time overtime on one sheet. Akyuu keeps version one; Eiki refuses to "
+"treat a red circle as a ruling."
+msgstr ""
+"The Scarlet notice puts room and board, a zero-minute night shift, and "
+"stopped-time overtime on one sheet. Akyuu keeps version one; Eiki refuses to "
+"treat a red circle as a ruling."
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.3.denominator-hearing.5
+#: src/data/knowledge-graph.js:525
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.3.denominator-hearing.5"
+msgid ""
+"One cohort of 146 leaves more than 146 valid whereabouts: separate "
+"half-phantom check-ins, dual employer claims, posthumous duty, and a route "
+"refusing observation. The arithmetic is not broken; its subjects dispute the "
+"counting rule."
+msgstr ""
+"One cohort of 146 leaves more than 146 valid whereabouts: separate "
+"half-phantom check-ins, dual employer claims, posthumous duty, and a route "
+"refusing observation. The arithmetic is not broken; its subjects dispute the "
+"counting rule."
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.4.late-arrival-alumni.5
+#: src/data/knowledge-graph.js:526
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.4.late-arrival-alumni.5"
+msgid ""
+"The Higan chapter starts punctually after Higan week and still debates "
+"alumni status for the deceased but not yet enrolled."
+msgstr ""
+"The Higan chapter starts punctually after Higan week and still debates "
+"alumni status for the deceased but not yet enrolled."
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.5.early-invitation.5
+#: src/data/knowledge-graph.js:527
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.5.early-invitation.5"
+msgid ""
+"The offer arriving before application becomes precedent for an alumni "
+"invitation arriving before graduation; correction mails the cause later "
+"without withdrawing version one."
+msgstr ""
+"The offer arriving before application becomes precedent for an alumni "
+"invitation arriving before graduation; correction mails the cause later "
+"without withdrawing version one."
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.6.phantom-count.5
+#: src/data/knowledge-graph.js:528
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.6.phantom-count.5"
+msgid ""
+"The Hakugyokurou seal proves Youmu returned with a roll, not whether a "
+"half-phantom counts as one, two, or Yuyuko's post-roll extra seat."
+msgstr ""
+"The Hakugyokurou seal proves Youmu returned with a roll, not whether a "
+"half-phantom counts as one, two, or Yuyuko's post-roll extra seat."
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.7.graduation-history.5
+#: src/data/knowledge-graph.js:529
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.7.graduation-history.5"
+msgid ""
+"The chronicle links audit, degree, careers, and alumni by actual "
+"first-parent versions; invitation delivery order continues objecting in "
+"another column."
+msgstr ""
+"The chronicle links audit, degree, careers, and alumni by actual "
+"first-parent versions; invitation delivery order continues objecting in "
+"another column."
+
+#. knowledgeDossiers.0.first-bell-three-gates.title
+#: src/data/knowledge-graph.js:536
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.title"
+msgid "First Bell: three sole main gates and one recognisable way back"
+msgstr "First Bell: three sole main gates and one recognisable way back"
+
+#. knowledgeDossiers.0.first-bell-three-gates.lead
+#: src/data/knowledge-graph.js:537
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.lead"
+msgid ""
+"One formal admission may pass through changing gates; the student still "
+"confirms stop signal, detour notice, and first destination separately."
+msgstr ""
+"One formal admission may pass through changing gates; the student still "
+"confirms stop signal, detour notice, and first destination separately."
+
+#. knowledgeDossiers.0.first-bell-three-gates.tension
+#: src/data/knowledge-graph.js:538
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.tension"
+msgid ""
+"Yukari calls all three genuine sole main gates; Reimu recognises only this "
+"side of the cord. Aya prints a total before arrival, while Akyuu refuses to "
+"copy the newcomer’s name to the public board."
+msgstr ""
+"Yukari calls all three genuine sole main gates; Reimu recognises only this "
+"side of the cord. Aya prints a total before arrival, while Akyuu refuses to "
+"copy the newcomer’s name to the public board."
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.0.arrival-season.5
+#: src/data/knowledge-graph.js:551
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.0.arrival-season.5"
+msgid ""
+"Arrival Week opens files only for the formal admitted edition; a changing "
+"gate does not rewrite admission conditions."
+msgstr ""
+"Arrival Week opens files only for the formal admitted edition; a changing "
+"gate does not rewrite admission conditions."
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.1.wood-bell-stop.5
+#: src/data/knowledge-graph.js:552
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.1.wood-bell-stop.5"
+msgid ""
+"Three wooden bells separate stopping, finding the cord, and moving again; "
+"nobody unable to hear it must pretend it is universal."
+msgstr ""
+"Three wooden bells separate stopping, finding the cord, and moving again; "
+"nobody unable to hear it must pretend it is universal."
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.2.tengu-correction.5
+#: src/data/knowledge-graph.js:553
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.2.tengu-correction.5"
+msgid ""
+"Tengu post is fastest and can deliver the wrong edition first, so every "
+"detour retains its original and correction trail."
+msgstr ""
+"Tengu post is fastest and can deliver the wrong edition first, so every "
+"detour retains its original and correction trail."
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.3.first-course.5
+#: src/data/knowledge-graph.js:554
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.3.first-course.5"
+msgid ""
+"The first destination opens a real course, not a personality test. Marisa "
+"still claims the bell striker is registration equipment."
+msgstr ""
+"The first destination opens a real course, not a personality test. Marisa "
+"still claims the bell striker is registration equipment."
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.4.arrival-notice.5
+#: src/data/knowledge-graph.js:555
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.4.arrival-notice.5"
+msgid ""
+"Campus news may publish arrival rules and anonymous totals, never the "
+"on-device name, application question, or needs."
+msgstr ""
+"Campus news may publish arrival rules and anonymous totals, never the "
+"on-device name, application question, or needs."
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.5.first-bell-history.5
+#: src/data/knowledge-graph.js:556
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.5.first-bell-history.5"
+msgid ""
+"The chronicle links file, route, way back, and bell causally; Aya’s advance "
+"total remains in the margin, never mistaken for arrival."
+msgstr ""
+"The chronicle links file, route, way back, and bell causally; Aya’s advance "
+"total remains in the margin, never mistaken for arrival."

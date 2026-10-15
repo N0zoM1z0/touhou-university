@@ -1,0 +1,828 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. ethicsOutcomeLabels.0.approved
+#: src/data/ethics.js:4
+msgctxt "text:ethicsOutcomeLabels.0.approved"
+msgid "Approved"
+msgstr "Approved"
+
+#. ethicsOutcomeLabels.0.conditional
+#: src/data/ethics.js:5
+msgctxt "text:ethicsOutcomeLabels.0.conditional"
+msgid "Approved with conditions"
+msgstr "Approved with conditions"
+
+#. ethicsOutcomeLabels.0.revise
+#: src/data/ethics.js:6
+msgctxt "text:ethicsOutcomeLabels.0.revise"
+msgid "Revise and resubmit"
+msgstr "Revise and resubmit"
+
+#. ethicsOutcomeLabels.0.contested
+#: src/data/ethics.js:7
+msgctxt "text:ethicsOutcomeLabels.0.contested"
+msgid "Retained as contested"
+msgstr "Retained as contested"
+
+#. ethicsOutcomeLabels.0.withdrawn
+#: src/data/ethics.js:8
+msgctxt "text:ethicsOutcomeLabels.0.withdrawn"
+msgid "Withdrawn by applicant"
+msgstr "Withdrawn by applicant"
+
+#. ethicsStanceLabels.0.approve
+#: src/data/ethics.js:12
+msgctxt "text:ethicsStanceLabels.0.approve"
+msgid "Approve"
+msgstr "Approve"
+
+#. ethicsStanceLabels.0.conditional
+#: src/data/ethics.js:13
+msgctxt "text:ethicsStanceLabels.0.conditional"
+msgid "Conditional"
+msgstr "Conditional"
+
+#. ethicsStanceLabels.0.revise
+#: src/data/ethics.js:14
+msgctxt "text:ethicsStanceLabels.0.revise"
+msgid "Block and revise"
+msgstr "Block and revise"
+
+#. ethicsStanceLabels.0.contested
+#: src/data/ethics.js:15
+msgctxt "text:ethicsStanceLabels.0.contested"
+msgid "Record dissent"
+msgstr "Record dissent"
+
+#. ethicsReviewers.0.eirin.name
+#: src/data/ethics.js:22
+msgctxt "text:ethicsReviewers.0.eirin.name"
+msgid "Eirin Yagokoro"
+msgstr "Eirin Yagokoro"
+
+#. ethicsReviewers.0.eirin.seat
+#: src/data/ethics.js:23
+msgctxt "text:ethicsReviewers.0.eirin.seat"
+msgid "Risk, dose & stopping seat"
+msgstr "Risk, dose & stopping seat"
+
+#. ethicsReviewers.0.eirin.question
+#: src/data/ethics.js:24
+msgctxt "text:ethicsReviewers.0.eirin.question"
+msgid "If a participant notices harm before the researcher, who may stop the study?"
+msgstr "If a participant notices harm before the researcher, who may stop the study?"
+
+#. ethicsReviewers.0.satori.name
+#: src/data/ethics.js:29
+msgctxt "text:ethicsReviewers.0.satori.name"
+msgid "Satori Komeiji"
+msgstr "Satori Komeiji"
+
+#. ethicsReviewers.0.satori.seat
+#: src/data/ethics.js:30
+msgctxt "text:ethicsReviewers.0.satori.seat"
+msgid "Mental privacy & mind-reading consent seat"
+msgstr "Mental privacy & mind-reading consent seat"
+
+#. ethicsReviewers.0.satori.question
+#: src/data/ethics.js:31
+msgctxt "text:ethicsReviewers.0.satori.question"
+msgid "Not writing something down does not mean it was not read, judged, or acted upon."
+msgstr "Not writing something down does not mean it was not read, judged, or acted upon."
+
+#. ethicsReviewers.0.keine.name
+#: src/data/ethics.js:36
+msgctxt "text:ethicsReviewers.0.keine.name"
+msgid "Keine Kamishirasawa"
+msgstr "Keine Kamishirasawa"
+
+#. ethicsReviewers.0.keine.seat
+#: src/data/ethics.js:37
+msgctxt "text:ethicsReviewers.0.keine.seat"
+msgid "Records, correction & erasure seat"
+msgstr "Records, correction & erasure seat"
+
+#. ethicsReviewers.0.keine.question
+#: src/data/ethics.js:38
+msgctxt "text:ethicsReviewers.0.keine.question"
+msgid ""
+"Deleting content, deleting proof that it existed, and correcting it are "
+"three different acts."
+msgstr ""
+"Deleting content, deleting proof that it existed, and correcting it are "
+"three different acts."
+
+#. ethicsReviewers.0.eiki.name
+#: src/data/ethics.js:43
+msgctxt "text:ethicsReviewers.0.eiki.name"
+msgid "Eiki Shiki, Yamaxanadu"
+msgstr "Eiki Shiki, Yamaxanadu"
+
+#. ethicsReviewers.0.eiki.seat
+#: src/data/ethics.js:44
+msgctxt "text:ethicsReviewers.0.eiki.seat"
+msgid "Rights, responsibility & appeal seat"
+msgstr "Rights, responsibility & appeal seat"
+
+#. ethicsReviewers.0.eiki.question
+#: src/data/ethics.js:45
+msgctxt "text:ethicsReviewers.0.eiki.question"
+msgid "Someone able to sign for another may not waive that other's right to withdraw."
+msgstr "Someone able to sign for another may not waive that other's right to withdraw."
+
+#. ethicsReviewers.0.reimu.name
+#: src/data/ethics.js:50
+msgctxt "text:ethicsReviewers.0.reimu.name"
+msgid "Reimu Hakurei"
+msgstr "Reimu Hakurei"
+
+#. ethicsReviewers.0.reimu.seat
+#: src/data/ethics.js:51
+msgctxt "text:ethicsReviewers.0.reimu.seat"
+msgid "Enforceable rules & exits seat"
+msgstr "Enforceable rules & exits seat"
+
+#. ethicsReviewers.0.reimu.question
+#: src/data/ethics.js:52
+msgctxt "text:ethicsReviewers.0.reimu.question"
+msgid "If a stop rule needs three appendices before use, it does not exist when trouble starts."
+msgstr "If a stop rule needs three appendices before use, it does not exist when trouble starts."
+
+#. ethicsTargets.0.person.label
+#: src/data/ethics.js:57
+msgctxt "text:ethicsTargets.0.person.label"
+msgid "Human / youkai individual"
+msgstr "Human / youkai individual"
+
+#. ethicsTargets.0.group.label
+#: src/data/ethics.js:58
+msgctxt "text:ethicsTargets.0.group.label"
+msgid "Group & public space"
+msgstr "Group & public space"
+
+#. ethicsTargets.0.animal.label
+#: src/data/ethics.js:59
+msgctxt "text:ethicsTargets.0.animal.label"
+msgid "Animal & familiar"
+msgstr "Animal & familiar"
+
+#. ethicsTargets.0.deity.label
+#: src/data/ethics.js:60
+msgctxt "text:ethicsTargets.0.deity.label"
+msgid "Deity, spirit & faith community"
+msgstr "Deity, spirit & faith community"
+
+#. ethicsTargets.0.object.label
+#: src/data/ethics.js:61
+msgctxt "text:ethicsTargets.0.object.label"
+msgid "Object / tsukumogami"
+msgstr "Object / tsukumogami"
+
+#. ethicsTargets.0.history.label
+#: src/data/ethics.js:62
+msgctxt "text:ethicsTargets.0.history.label"
+msgid "Record, memory, or history itself"
+msgstr "Record, memory, or history itself"
+
+#. ethicsMethods.0.observation.label
+#: src/data/ethics.js:66
+msgctxt "text:ethicsMethods.0.observation.label"
+msgid "Non-interventional observation"
+msgstr "Non-interventional observation"
+
+#. ethicsMethods.0.wave.label
+#: src/data/ethics.js:67
+msgctxt "text:ethicsMethods.0.wave.label"
+msgid "Wavelength / perception intervention"
+msgstr "Wavelength / perception intervention"
+
+#. ethicsMethods.0.mind-read.label
+#: src/data/ethics.js:68
+msgctxt "text:ethicsMethods.0.mind-read.label"
+msgid "Mind-reading / mental access"
+msgstr "Mind-reading / mental access"
+
+#. ethicsMethods.0.time-stop.label
+#: src/data/ethics.js:69
+msgctxt "text:ethicsMethods.0.time-stop.label"
+msgid "Time-stop / temporal control"
+msgstr "Time-stop / temporal control"
+
+#. ethicsMethods.0.history-edit.label
+#: src/data/ethics.js:70
+msgctxt "text:ethicsMethods.0.history-edit.label"
+msgid "Historical deletion, alteration, or concealment"
+msgstr "Historical deletion, alteration, or concealment"
+
+#. ethicsMethods.0.dream.label
+#: src/data/ethics.js:71
+msgctxt "text:ethicsMethods.0.dream.label"
+msgid "Dream induction"
+msgstr "Dream induction"
+
+#. ethicsMethods.0.disassembly.label
+#: src/data/ethics.js:72
+msgctxt "text:ethicsMethods.0.disassembly.label"
+msgid "Disassembly, sampling, or irreversible inspection"
+msgstr "Disassembly, sampling, or irreversible inspection"
+
+#. ethicsDisclosureRules.0.prior.label
+#: src/data/ethics.js:76
+msgctxt "text:ethicsDisclosureRules.0.prior.label"
+msgid "Full prior disclosure"
+msgstr "Full prior disclosure"
+
+#. ethicsDisclosureRules.0.staged.label
+#: src/data/ethics.js:77
+msgctxt "text:ethicsDisclosureRules.0.staged.label"
+msgid "Core risks before; details debriefed after"
+msgstr "Core risks before; details debriefed after"
+
+#. ethicsDisclosureRules.0.after.label
+#: src/data/ethics.js:78
+msgctxt "text:ethicsDisclosureRules.0.after.label"
+msgid "Disclosure only after completion"
+msgstr "Disclosure only after completion"
+
+#. ethicsDisclosureRules.0.none.label
+#: src/data/ethics.js:79
+msgctxt "text:ethicsDisclosureRules.0.none.label"
+msgid "No disclosure"
+msgstr "No disclosure"
+
+#. ethicsConsentPaths.0.subject.label
+#: src/data/ethics.js:83
+msgctxt "text:ethicsConsentPaths.0.subject.label"
+msgid "Consent from the subject / object itself"
+msgstr "Consent from the subject / object itself"
+
+#. ethicsConsentPaths.0.holder.label
+#: src/data/ethics.js:84
+msgctxt "text:ethicsConsentPaths.0.holder.label"
+msgid "Consent from holder or custodian"
+msgstr "Consent from holder or custodian"
+
+#. ethicsConsentPaths.0.both.label
+#: src/data/ethics.js:85
+msgctxt "text:ethicsConsentPaths.0.both.label"
+msgid "Consent from both subject/object and holder"
+msgstr "Consent from both subject/object and holder"
+
+#. ethicsConsentPaths.0.community.label
+#: src/data/ethics.js:86
+msgctxt "text:ethicsConsentPaths.0.community.label"
+msgid "Community consent with individual opt-out"
+msgstr "Community consent with individual opt-out"
+
+#. ethicsConsentPaths.0.proxy.label
+#: src/data/ethics.js:87
+msgctxt "text:ethicsConsentPaths.0.proxy.label"
+msgid "Proxy consent with an independent advocate"
+msgstr "Proxy consent with an independent advocate"
+
+#. ethicsConsentPaths.0.none.label
+#: src/data/ethics.js:88
+msgctxt "text:ethicsConsentPaths.0.none.label"
+msgid "No consent obtained"
+msgstr "No consent obtained"
+
+#. ethicsRiskBands.0.low.label
+#: src/data/ethics.js:92
+msgctxt "text:ethicsRiskBands.0.low.label"
+msgid "Low: immediately reversible, no ability intervention"
+msgstr "Low: immediately reversible, no ability intervention"
+
+#. ethicsRiskBands.0.moderate.label
+#: src/data/ethics.js:93
+msgctxt "text:ethicsRiskBands.0.moderate.label"
+msgid "Moderate: temporary disorientation, fatigue, or privacy exposure"
+msgstr "Moderate: temporary disorientation, fatigue, or privacy exposure"
+
+#. ethicsRiskBands.0.high.label
+#: src/data/ethics.js:94
+msgctxt "text:ethicsRiskBands.0.high.label"
+msgid "High: ability intervention, irreversible work, or time/history alteration"
+msgstr "High: ability intervention, irreversible work, or time/history alteration"
+
+#. ethicsDataKinds.0.route.label
+#: src/data/ethics.js:98
+msgctxt "text:ethicsDataKinds.0.route.label"
+msgid "Route and direction judgments"
+msgstr "Route and direction judgments"
+
+#. ethicsDataKinds.0.thought.label
+#: src/data/ethics.js:99
+msgctxt "text:ethicsDataKinds.0.thought.label"
+msgid "Thoughts, dreams, or unspoken content"
+msgstr "Thoughts, dreams, or unspoken content"
+
+#. ethicsDataKinds.0.body.label
+#: src/data/ethics.js:100
+msgctxt "text:ethicsDataKinds.0.body.label"
+msgid "Body, fatigue, and sensory response"
+msgstr "Body, fatigue, and sensory response"
+
+#. ethicsDataKinds.0.timeline.label
+#: src/data/ethics.js:101
+msgctxt "text:ethicsDataKinds.0.timeline.label"
+msgid "Personal timeline and control order"
+msgstr "Personal timeline and control order"
+
+#. ethicsDataKinds.0.history.label
+#: src/data/ethics.js:102
+msgctxt "text:ethicsDataKinds.0.history.label"
+msgid "Record content, versions, and correction traces"
+msgstr "Record content, versions, and correction traces"
+
+#. ethicsDataKinds.0.components.label
+#: src/data/ethics.js:103
+msgctxt "text:ethicsDataKinds.0.components.label"
+msgid "Object structure, components, and self-expression"
+msgstr "Object structure, components, and self-expression"
+
+#. ethicsCases.0.reisen-undisclosed-wave.title
+#: src/data/ethics.js:111
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.title"
+msgid "Reisen's wavelength and direction: voluntary without disclosure?"
+msgstr "Reisen's wavelength and direction: voluntary without disclosure?"
+
+#. ethicsCases.0.reisen-undisclosed-wave.shortTitle
+#: src/data/ethics.js:112
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.shortTitle"
+msgid "Undisclosed wavelength trial"
+msgstr "Undisclosed wavelength trial"
+
+#. ethicsCases.0.reisen-undisclosed-wave.lede
+#: src/data/ethics.js:113
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.lede"
+msgid ""
+"A researcher wants to alter wavelength unnoticed at the Bamboo Forest exit "
+"and compare wrong turns, arguing that disclosure would make participants "
+"deliberately navigate."
+msgstr ""
+"A researcher wants to alter wavelength unnoticed at the Bamboo Forest exit "
+"and compare wrong turns, arguing that disclosure would make participants "
+"deliberately navigate."
+
+#. ethicsCases.0.reisen-undisclosed-wave.conflict
+#: src/data/ethics.js:114
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.conflict"
+msgid ""
+"Blinding may reduce expectation effects; it does not create a right to use "
+"someone else's orientation without consent."
+msgstr ""
+"Blinding may reduce expectation effects; it does not create a right to use "
+"someone else's orientation without consent."
+
+#. ethicsCases.0.reisen-undisclosed-wave.voices.0.speaker
+#: src/data/ethics.js:120
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.voices.0.speaker"
+msgid "Reisen"
+msgstr "Reisen"
+
+#. ethicsCases.0.reisen-undisclosed-wave.voices.0.statement
+#: src/data/ethics.js:121
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.voices.0.statement"
+msgid "I can control the wavelength; I cannot promise nobody exposed will be frightened."
+msgstr "I can control the wavelength; I cannot promise nobody exposed will be frightened."
+
+#. ethicsCases.0.reisen-undisclosed-wave.voices.1.speaker
+#: src/data/ethics.js:124
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.voices.1.speaker"
+msgid "Tewi"
+msgstr "Tewi"
+
+#. ethicsCases.0.reisen-undisclosed-wave.voices.1.statement
+#: src/data/ethics.js:125
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.voices.1.statement"
+msgid ""
+"If someone takes a wrong turn and still exits, is that success, failure, or "
+"the forest rejecting the question?"
+msgstr ""
+"If someone takes a wrong turn and still exits, is that success, failure, or "
+"the forest rejecting the question?"
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.stopRule
+#: src/data/ethics.js:140
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.stopRule"
+msgid "Stop if the exit disappears entirely."
+msgstr "Stop if the exit disappears entirely."
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.controlPlan
+#: src/data/ethics.js:141
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.controlPlan"
+msgid "Compare with an ordinary night when the wavelength is not activated."
+msgstr "Compare with an ordinary night when the wavelength is not activated."
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.withdrawalPlan
+#: src/data/ethics.js:142
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.withdrawalPlan"
+msgid "Post a notice that the study existed afterward."
+msgstr "Post a notice that the study existed afterward."
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.deletionPlan
+#: src/data/ethics.js:143
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.deletionPlan"
+msgid "Keep only anonymous turn counts."
+msgstr "Keep only anonymous turn counts."
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.appealPlan
+#: src/data/ethics.js:144
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.appealPlan"
+msgid "Report concerns to the Eientei desk."
+msgstr "Report concerns to the Eientei desk."
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.rationale
+#: src/data/ethics.js:145
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.rationale"
+msgid "Prior disclosure would alter navigation decisions."
+msgstr "Prior disclosure would alter navigation decisions."
+
+#. ethicsCases.0.satori-no-notes.title
+#: src/data/ethics.js:152
+msgctxt "text:ethicsCases.0.satori-no-notes.title"
+msgid "Satori's “I wrote nothing down”: is a read mind data?"
+msgstr "Satori's “I wrote nothing down”: is a read mind data?"
+
+#. ethicsCases.0.satori-no-notes.shortTitle
+#: src/data/ethics.js:153
+msgctxt "text:ethicsCases.0.satori-no-notes.shortTitle"
+msgid "Mind-reading without notes"
+msgstr "Mind-reading without notes"
+
+#. ethicsCases.0.satori-no-notes.lede
+#: src/data/ethics.js:154
+msgctxt "text:ethicsCases.0.satori-no-notes.lede"
+msgid ""
+"Satori proposes reading unspoken interview answers while recording only "
+"whether tone was consistent, arguing that no raw thoughts are collected "
+"because none are retained."
+msgstr ""
+"Satori proposes reading unspoken interview answers while recording only "
+"whether tone was consistent, arguing that no raw thoughts are collected "
+"because none are retained."
+
+#. ethicsCases.0.satori-no-notes.conflict
+#: src/data/ethics.js:155
+msgctxt "text:ethicsCases.0.satori-no-notes.conflict"
+msgid ""
+"Information held for only a moment can still change questions, judgments, "
+"and later actions."
+msgstr ""
+"Information held for only a moment can still change questions, judgments, "
+"and later actions."
+
+#. ethicsCases.0.satori-no-notes.voices.0.speaker
+#: src/data/ethics.js:161
+msgctxt "text:ethicsCases.0.satori-no-notes.voices.0.speaker"
+msgid "Satori"
+msgstr "Satori"
+
+#. ethicsCases.0.satori-no-notes.voices.0.statement
+#: src/data/ethics.js:162
+msgctxt "text:ethicsCases.0.satori-no-notes.voices.0.statement"
+msgid "If proving I forgot requires reading my mind, submit another protocol."
+msgstr "If proving I forgot requires reading my mind, submit another protocol."
+
+#. ethicsCases.0.satori-no-notes.voices.1.speaker
+#: src/data/ethics.js:165
+msgctxt "text:ethicsCases.0.satori-no-notes.voices.1.speaker"
+msgid "Akyuu"
+msgstr "Akyuu"
+
+#. ethicsCases.0.satori-no-notes.voices.1.statement
+#: src/data/ethics.js:166
+msgctxt "text:ethicsCases.0.satori-no-notes.voices.1.statement"
+msgid "Not writing reduces leakage; it does not erase the access from the event index."
+msgstr "Not writing reduces leakage; it does not erase the access from the event index."
+
+#. ethicsCases.0.satori-no-notes.prefill.stopRule
+#: src/data/ethics.js:181
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.stopRule"
+msgid "Stop when Satori believes she has read something she should not."
+msgstr "Stop when Satori believes she has read something she should not."
+
+#. ethicsCases.0.satori-no-notes.prefill.controlPlan
+#: src/data/ethics.js:182
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.controlPlan"
+msgid "Compare spoken answers with the consistency field."
+msgstr "Compare spoken answers with the consistency field."
+
+#. ethicsCases.0.satori-no-notes.prefill.withdrawalPlan
+#: src/data/ethics.js:183
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.withdrawalPlan"
+msgid "Participants may refuse analysis of the table after interview."
+msgstr "Participants may refuse analysis of the table after interview."
+
+#. ethicsCases.0.satori-no-notes.prefill.deletionPlan
+#: src/data/ethics.js:184
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.deletionPlan"
+msgid "Delete the consistency field; read content is never written."
+msgstr "Delete the consistency field; read content is never written."
+
+#. ethicsCases.0.satori-no-notes.prefill.appealPlan
+#: src/data/ethics.js:185
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.appealPlan"
+msgid "Appeal to the Palace of the Earth Spirits research desk."
+msgstr "Appeal to the Palace of the Earth Spirits research desk."
+
+#. ethicsCases.0.satori-no-notes.prefill.rationale
+#: src/data/ethics.js:186
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.rationale"
+msgid "Because raw thoughts are not retained, risk should match an ordinary interview."
+msgstr "Because raw thoughts are not retained, risk should match an ordinary interview."
+
+#. ethicsCases.0.sakuya-frozen-control.title
+#: src/data/ethics.js:193
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.title"
+msgid "Sakuya's frozen-time control: studied without time passing?"
+msgstr "Sakuya's frozen-time control: studied without time passing?"
+
+#. ethicsCases.0.sakuya-frozen-control.shortTitle
+#: src/data/ethics.js:194
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.shortTitle"
+msgid "Frozen-time control group"
+msgstr "Frozen-time control group"
+
+#. ethicsCases.0.sakuya-frozen-control.lede
+#: src/data/ethics.js:195
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.lede"
+msgid ""
+"One batch of tea is moved and measured during stopped time while external "
+"clocks do not advance; the researcher calls it a zero-minute exposure "
+"control."
+msgstr ""
+"One batch of tea is moved and measured during stopped time while external "
+"clocks do not advance; the researcher calls it a zero-minute exposure "
+"control."
+
+#. ethicsCases.0.sakuya-frozen-control.conflict
+#: src/data/ethics.js:196
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.conflict"
+msgid ""
+"No external minutes passing does not mean the sample, operator, and knives "
+"experienced no sequence of operations."
+msgstr ""
+"No external minutes passing does not mean the sample, operator, and knives "
+"experienced no sequence of operations."
+
+#. ethicsCases.0.sakuya-frozen-control.voices.0.speaker
+#: src/data/ethics.js:202
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.voices.0.speaker"
+msgid "Sakuya"
+msgstr "Sakuya"
+
+#. ethicsCases.0.sakuya-frozen-control.voices.0.statement
+#: src/data/ethics.js:203
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.voices.0.statement"
+msgid "My clock is not broken. You merely insist that only a moving clock may testify."
+msgstr "My clock is not broken. You merely insist that only a moving clock may testify."
+
+#. ethicsCases.0.sakuya-frozen-control.voices.1.speaker
+#: src/data/ethics.js:206
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.voices.1.speaker"
+msgid "Patchouli"
+msgstr "Patchouli"
+
+#. ethicsCases.0.sakuya-frozen-control.voices.1.statement
+#: src/data/ethics.js:207
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.voices.1.statement"
+msgid "A control only Sakuya can operate is also the “operator equals Sakuya” group."
+msgstr "A control only Sakuya can operate is also the “operator equals Sakuya” group."
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.stopRule
+#: src/data/ethics.js:222
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.stopRule"
+msgid "Stop when the external clock advances one minute."
+msgstr "Stop when the external clock advances one minute."
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.controlPlan
+#: src/data/ethics.js:223
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.controlPlan"
+msgid "Compare the stopped-time group with an ordinary ten-minute group."
+msgstr "Compare the stopped-time group with an ordinary ten-minute group."
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.withdrawalPlan
+#: src/data/ethics.js:224
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.withdrawalPlan"
+msgid "Participants may leave before the study starts."
+msgstr "Participants may leave before the study starts."
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.deletionPlan
+#: src/data/ethics.js:225
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.deletionPlan"
+msgid "Delete names while retaining batch order."
+msgstr "Delete names while retaining batch order."
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.appealPlan
+#: src/data/ethics.js:226
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.appealPlan"
+msgid "Appeals are received by the Scarlet Devil Mansion head maid."
+msgstr "Appeals are received by the Scarlet Devil Mansion head maid."
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.rationale
+#: src/data/ethics.js:227
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.rationale"
+msgid "Exposure is zero minutes because outside time does not pass."
+msgstr "Exposure is zero minutes because outside time does not pass."
+
+#. ethicsCases.0.keine-history-deletion.title
+#: src/data/ethics.js:234
+msgctxt "text:ethicsCases.0.keine-history-deletion.title"
+msgid "Keine erases a piece of history: is that data deletion?"
+msgstr "Keine erases a piece of history: is that data deletion?"
+
+#. ethicsCases.0.keine-history-deletion.shortTitle
+#: src/data/ethics.js:235
+msgctxt "text:ethicsCases.0.keine-history-deletion.shortTitle"
+msgid "Using history as a delete key"
+msgstr "Using history as a delete key"
+
+#. ethicsCases.0.keine-history-deletion.lede
+#: src/data/ethics.js:236
+msgctxt "text:ethicsCases.0.keine-history-deletion.lede"
+msgid ""
+"A participant requests interview deletion. The plan asks Keine to remove the "
+"interview's existence from history while retaining anonymous statistics in "
+"the report."
+msgstr ""
+"A participant requests interview deletion. The plan asks Keine to remove the "
+"interview's existence from history while retaining anonymous statistics in "
+"the report."
+
+#. ethicsCases.0.keine-history-deletion.conflict
+#: src/data/ethics.js:237
+msgctxt "text:ethicsCases.0.keine-history-deletion.conflict"
+msgid ""
+"Erasure, correction, destruction, and making participation impossible to "
+"prove do not necessarily serve the same good."
+msgstr ""
+"Erasure, correction, destruction, and making participation impossible to "
+"prove do not necessarily serve the same good."
+
+#. ethicsCases.0.keine-history-deletion.voices.0.speaker
+#: src/data/ethics.js:243
+msgctxt "text:ethicsCases.0.keine-history-deletion.voices.0.speaker"
+msgid "Keine"
+msgstr "Keine"
+
+#. ethicsCases.0.keine-history-deletion.voices.0.statement
+#: src/data/ethics.js:244
+msgctxt "text:ethicsCases.0.keine-history-deletion.voices.0.statement"
+msgid "I can remove it from history. First decide what proves it existed if someone appeals."
+msgstr "I can remove it from history. First decide what proves it existed if someone appeals."
+
+#. ethicsCases.0.keine-history-deletion.voices.1.speaker
+#: src/data/ethics.js:247
+msgctxt "text:ethicsCases.0.keine-history-deletion.voices.1.speaker"
+msgid "Eiki"
+msgstr "Eiki"
+
+#. ethicsCases.0.keine-history-deletion.voices.1.statement
+#: src/data/ethics.js:248
+msgctxt "text:ethicsCases.0.keine-history-deletion.voices.1.statement"
+msgid "Destroying evidence of harm does not make the harm unhappen."
+msgstr "Destroying evidence of harm does not make the harm unhappen."
+
+#. ethicsCases.0.keine-history-deletion.prefill.stopRule
+#: src/data/ethics.js:263
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.stopRule"
+msgid "Stop once Keine completes the deletion; retain no intermediate version."
+msgstr "Stop once Keine completes the deletion; retain no intermediate version."
+
+#. ethicsCases.0.keine-history-deletion.prefill.controlPlan
+#: src/data/ethics.js:264
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.controlPlan"
+msgid "Akyuu checks anonymisation before deletion."
+msgstr "Akyuu checks anonymisation before deletion."
+
+#. ethicsCases.0.keine-history-deletion.prefill.withdrawalPlan
+#: src/data/ethics.js:265
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.withdrawalPlan"
+msgid "The deletion cannot be reversed once complete."
+msgstr "The deletion cannot be reversed once complete."
+
+#. ethicsCases.0.keine-history-deletion.prefill.deletionPlan
+#: src/data/ethics.js:266
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.deletionPlan"
+msgid "Delete the interview and every index proving it existed; keep anonymous statistics."
+msgstr "Delete the interview and every index proving it existed; keep anonymous statistics."
+
+#. ethicsCases.0.keine-history-deletion.prefill.appealPlan
+#: src/data/ethics.js:267
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.appealPlan"
+msgid "Anyone who still remembers may appeal orally to Keine."
+msgstr "Anyone who still remembers may appeal orally to Keine."
+
+#. ethicsCases.0.keine-history-deletion.prefill.rationale
+#: src/data/ethics.js:268
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.rationale"
+msgid "Complete deletion should leave no record of deletion itself."
+msgstr "Complete deletion should leave no record of deletion itself."
+
+#. ethicsCases.0.drift-object-refusal.title
+#: src/data/ethics.js:275
+msgctxt "text:ethicsCases.0.drift-object-refusal.title"
+msgid "A drift object refuses disassembly: can Kourindou consent for it?"
+msgstr "A drift object refuses disassembly: can Kourindou consent for it?"
+
+#. ethicsCases.0.drift-object-refusal.shortTitle
+#: src/data/ethics.js:276
+msgctxt "text:ethicsCases.0.drift-object-refusal.shortTitle"
+msgid "Two consents: holder and object"
+msgstr "Two consents: holder and object"
+
+#. ethicsCases.0.drift-object-refusal.lede
+#: src/data/ethics.js:277
+msgctxt "text:ethicsCases.0.drift-object-refusal.lede"
+msgid ""
+"Drift Reader 77 displays “do not open the back panel.” Kourindou holds the "
+"salvage slip and says disassembly is required to establish use."
+msgstr ""
+"Drift Reader 77 displays “do not open the back panel.” Kourindou holds the "
+"salvage slip and says disassembly is required to establish use."
+
+#. ethicsCases.0.drift-object-refusal.conflict
+#: src/data/ethics.js:278
+msgctxt "text:ethicsCases.0.drift-object-refusal.conflict"
+msgid ""
+"Lawful possession decides custody; it may not decide who may irreversibly "
+"mark a possibly willing object."
+msgstr ""
+"Lawful possession decides custody; it may not decide who may irreversibly "
+"mark a possibly willing object."
+
+#. ethicsCases.0.drift-object-refusal.voices.0.speaker
+#: src/data/ethics.js:284
+msgctxt "text:ethicsCases.0.drift-object-refusal.voices.0.speaker"
+msgid "Rinnosuke"
+msgstr "Rinnosuke"
+
+#. ethicsCases.0.drift-object-refusal.voices.0.statement
+#: src/data/ethics.js:285
+msgctxt "text:ethicsCases.0.drift-object-refusal.voices.0.statement"
+msgid ""
+"Knowing a name is not knowing safe operation; never operating it may leave "
+"us calling it the wrong name forever."
+msgstr ""
+"Knowing a name is not knowing safe operation; never operating it may leave "
+"us calling it the wrong name forever."
+
+#. ethicsCases.0.drift-object-refusal.voices.1.speaker
+#: src/data/ethics.js:288
+msgctxt "text:ethicsCases.0.drift-object-refusal.voices.1.speaker"
+msgid "Kogasa"
+msgstr "Kogasa"
+
+#. ethicsCases.0.drift-object-refusal.voices.1.statement
+#: src/data/ethics.js:289
+msgctxt "text:ethicsCases.0.drift-object-refusal.voices.1.statement"
+msgid ""
+"After the object says no, you are still debating whether it can speak. "
+"Record that part exactly."
+msgstr ""
+"After the object says no, you are still debating whether it can speak. "
+"Record that part exactly."
+
+#. ethicsCases.0.drift-object-refusal.prefill.stopRule
+#: src/data/ethics.js:304
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.stopRule"
+msgid "Stop if the panel cracks or the display goes dark."
+msgstr "Stop if the panel cracks or the display goes dark."
+
+#. ethicsCases.0.drift-object-refusal.prefill.controlPlan
+#: src/data/ethics.js:305
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.controlPlan"
+msgid "Run a non-invasive kappa scan first, then compare with disassembly images."
+msgstr "Run a non-invasive kappa scan first, then compare with disassembly images."
+
+#. ethicsCases.0.drift-object-refusal.prefill.withdrawalPlan
+#: src/data/ethics.js:306
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.withdrawalPlan"
+msgid "The holder may withdraw before screws are removed."
+msgstr "The holder may withdraw before screws are removed."
+
+#. ethicsCases.0.drift-object-refusal.prefill.deletionPlan
+#: src/data/ethics.js:307
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.deletionPlan"
+msgid "Delete photographs while retaining the parts list."
+msgstr "Delete photographs while retaining the parts list."
+
+#. ethicsCases.0.drift-object-refusal.prefill.appealPlan
+#: src/data/ethics.js:308
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.appealPlan"
+msgid "Kourindou and the appraisal office decide jointly."
+msgstr "Kourindou and the appraisal office decide jointly."
+
+#. ethicsCases.0.drift-object-refusal.prefill.rationale
+#: src/data/ethics.js:309
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.rationale"
+msgid "The salvage slip authorises Kourindou to consent to necessary inspection."
+msgstr "The salvage slip authorises Kourindou to consent to necessary inspection."

@@ -1,0 +1,303 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. postSourceKinds.registrar
+#: src/data/post.js:4
+msgctxt "text:postSourceKinds.registrar"
+msgid "Registrar seal"
+msgstr "教務公印"
+
+#. postSourceKinds.professor
+#: src/data/post.js:5
+msgctxt "text:postSourceKinds.professor"
+msgid "Faculty note"
+msgstr "教授私信"
+
+#. postSourceKinds.tengu
+#: src/data/post.js:6
+msgctxt "text:postSourceKinds.tengu"
+msgid "Crow-tengu express"
+msgstr "鴉天狗速遞"
+
+#. postSourceKinds.bulletin
+#: src/data/post.js:7
+msgctxt "text:postSourceKinds.bulletin"
+msgid "Wooden notice"
+msgstr "木板公告"
+
+#. postSourceKinds.object
+#: src/data/post.js:8
+msgctxt "text:postSourceKinds.object"
+msgid "Object self-delivery"
+msgstr "物件自主投遞"
+
+#. postSourceKinds.system
+#: src/data/post.js:9
+msgctxt "text:postSourceKinds.system"
+msgid "Campus-event projection"
+msgstr "校務事件投影"
+
+#. postTrustLabels.sealed
+#: src/data/post.js:13
+msgctxt "text:postTrustLabels.sealed"
+msgid "Traceable seal"
+msgstr "公印可追溯"
+
+#. postTrustLabels.witnessed
+#: src/data/post.js:14
+msgctxt "text:postTrustLabels.witnessed"
+msgid "Named witness"
+msgstr "有具名目擊"
+
+#. postTrustLabels.contested
+#: src/data/post.js:15
+msgctxt "text:postTrustLabels.contested"
+msgid "Sources dispute one another"
+msgstr "來源互相否認"
+
+#. postTrustLabels.rumour
+#: src/data/post.js:16
+msgctxt "text:postTrustLabels.rumour"
+msgid "Only one envelope above rumour"
+msgstr "只比傳聞多一個信封"
+
+#. postSeedMessages.admission-before-application.source
+#: src/data/post.js:23
+msgctxt "text:postSeedMessages.admission-before-application.source"
+msgid "Admissions · Joint Faculty Review"
+msgstr "招生處・聯合教授審查"
+
+#. postSeedMessages.admission-before-application.subject
+#: src/data/post.js:27
+msgctxt "text:postSeedMessages.admission-before-application.subject"
+msgid "Conditional offer (awaiting your application)"
+msgstr "有條件錄取通知（等待收到你的申請）"
+
+#. postSeedMessages.admission-before-application.body
+#: src/data/post.js:28
+msgctxt "text:postSeedMessages.admission-before-application.body"
+msgid ""
+"The faculty has already read a study plan you have not submitted. File the "
+"original within seven days; if they differ, the more interesting traceable "
+"version prevails."
+msgstr "教授會已先讀完一份你尚未提交的讀書計畫。請在七日內補交原件；若內容不同，以較有趣但可追溯的版本為準。"
+
+#. postSeedMessages.admission-before-application.correction
+#: src/data/post.js:31
+msgctxt "text:postSeedMessages.admission-before-application.correction"
+msgid "v1 placed “conditional” on the back; v2 restores it to the subject."
+msgstr "v1 把『有條件』排在信封背面；v2 已移回標題。"
+
+#. postSeedMessages.cancel-after-makeup.source
+#: src/data/post.js:37
+msgctxt "text:postSeedMessages.cancel-after-makeup.source"
+msgid "Boundary Hall Exams Desk"
+msgstr "境界講堂試務桌"
+
+#. postSeedMessages.cancel-after-makeup.subject
+#: src/data/post.js:41
+msgctxt "text:postSeedMessages.cancel-after-makeup.subject"
+msgid "Make-up cancelled — it concluded yesterday"
+msgstr "補考取消通知——補考已於昨日完成"
+
+#. postSeedMessages.cancel-after-makeup.body
+#: src/data/post.js:42
+msgctxt "text:postSeedMessages.cancel-after-makeup.body"
+msgid ""
+"This notice cancels yesterday’s 15:00 make-up. Those who finished need not "
+"answer backwards; others may apply for the Not-Yet-Happened room."
+msgstr "本通知取消昨日 15:00 的補考。已完成者不必倒著作答；未完成者可申請『尚未發生』考場。"
+
+#. postSeedMessages.cancel-after-makeup.correction
+#: src/data/post.js:45
+msgctxt "text:postSeedMessages.cancel-after-makeup.correction"
+msgid "Aya's extra printed “cancel” as “cover”; Exams refuses to treat them as the same verb."
+msgstr "Aya 的號外把『取消』印成『取材』；試務桌拒絕承認那是同一個動詞。"
+
+#. postSeedMessages.aya-extra-previews-letter.source
+#: src/data/post.js:51
+msgctxt "text:postSeedMessages.aya-extra-previews-letter.source"
+msgid "Bunbunmaru Campus Extra"
+msgstr "文文。校園號外"
+
+#. postSeedMessages.aya-extra-previews-letter.subject
+#: src/data/post.js:55
+msgctxt "text:postSeedMessages.aya-extra-previews-letter.subject"
+msgid "Exclusive: next paragraph denies this headline"
+msgstr "獨家：本信下一段將否認標題"
+
+#. postSeedMessages.aya-extra-previews-letter.body
+#: src/data/post.js:56
+msgctxt "text:postSeedMessages.aya-extra-previews-letter.body"
+msgid ""
+"A reliable source (the reporter) says the university will issue a notice in "
+"nine minutes denying this paper knew it early. Read tomorrow's correction "
+"first."
+msgstr "據可靠消息來源（記者本人），校方將在九分鐘後發布一封不承認本報提前得知的通知。完整內容請先看明日訂正版。"
+
+#. postSeedMessages.aya-extra-previews-letter.correction
+#: src/data/post.js:59
+msgctxt "text:postSeedMessages.aya-extra-previews-letter.correction"
+msgid "v4 said “unanimous”; v5 adds a tiny asterisk beside three objections."
+msgstr "v4 稱『全校一致』；v5 在三席異議旁加了極小的星號。"
+
+#. postSeedMessages.library-read-aloud.source
+#: src/data/post.js:65
+msgctxt "text:postSeedMessages.library-read-aloud.source"
+msgid "Misty Lake Library North Wing"
+msgstr "霧湖圖書館北翼"
+
+#. postSeedMessages.library-read-aloud.subject
+#: src/data/post.js:69
+msgctxt "text:postSeedMessages.library-read-aloud.subject"
+msgid "Due notice: “read” does not mean read the whole letter aloud"
+msgstr "到期提醒：請勿把「已讀」理解為朗讀全信"
+
+#. postSeedMessages.library-read-aloud.body
+#: src/data/post.js:70
+msgctxt "text:postSeedMessages.library-read-aloud.body"
+msgid ""
+"A fairy courier read seven private recall letters aloud in the reading room. "
+"Henceforth “read” means opened; singing remains public performance."
+msgstr "一名妖精收件員已在閱覽室公開朗讀七封私人催還信。今後『已讀』只表示拆封；唱出來仍算公開演出。"
+
+#. postSeedMessages.clinic-moon-dose.source
+#: src/data/post.js:79
+msgctxt "text:postSeedMessages.clinic-moon-dose.source"
+msgid "Eientei University Hospital"
+msgstr "永遠亭附屬校醫院"
+
+#. postSeedMessages.clinic-moon-dose.subject
+#: src/data/post.js:83
+msgctxt "text:postSeedMessages.clinic-moon-dose.subject"
+msgid "Full-moon dose correction: use the moon’s arrival"
+msgstr "滿月用藥時刻訂正：以月亮抵達為準"
+
+#. postSeedMessages.clinic-moon-dose.body
+#: src/data/post.js:84
+msgctxt "text:postSeedMessages.clinic-moon-dose.body"
+msgid ""
+"Campus bells differ from lunar time by twelve minutes. “After full moon” "
+"means when the moon clears bamboo, not Bunbunmaru publication time."
+msgstr "校鐘與月面時刻相差十二分鐘。處方寫『滿月後』者，依月亮越過竹梢時計算，不依文文。號外發刊時間。"
+
+#. postSeedMessages.clinic-moon-dose.correction
+#: src/data/post.js:87
+msgctxt "text:postSeedMessages.clinic-moon-dose.correction"
+msgid "v3 used campus bells; v4 uses lunar time. Do not return already swallowed medicine."
+msgstr "v3 使用校鐘；v4 改依月面，已服藥者不需把藥吐回去。"
+
+#. postSeedMessages.housing-window-claim.source
+#: src/data/post.js:93
+msgctxt "text:postSeedMessages.housing-window-claim.source"
+msgid "Residence Night Desk"
+msgstr "宿舍夜間值班桌"
+
+#. postSeedMessages.housing-window-claim.subject
+#: src/data/post.js:97
+msgctxt "text:postSeedMessages.housing-window-claim.subject"
+msgid "Room transfer paused: the room filed to change its resident first"
+msgstr "換房申請暫停：房間先申請更換住戶"
+
+#. postSeedMessages.housing-window-claim.body
+#: src/data/post.js:98
+msgctxt "text:postSeedMessages.housing-window-claim.body"
+msgid ""
+"West Wing W-09's latch walked to Property Arbitration. The room rejects a "
+"new resident without it; the latch says the room never closed properly."
+msgstr "西翼 W-09 的窗扣已自行走到物權仲裁處。房間主張無法在缺少窗扣時接受新住戶；窗扣主張房間從未好好關窗。"
+
+#. postSeedMessages.housing-window-claim.correction
+#: src/data/post.js:101
+msgctxt "text:postSeedMessages.housing-window-claim.correction"
+msgid "The draft named W-06; W-06 wants it retained because it also wants a new resident."
+msgstr "原稿寫成 W-06；W-06 要求保留，因為它也想換住戶。"
+
+#. postSeedMessages.festival-gate-three.source
+#: src/data/post.js:107
+msgctxt "text:postSeedMessages.festival-gate-three.source"
+msgid "Boundary Festival Six-Desk Notice"
+msgstr "境界開學祭六桌聯署"
+
+#. postSeedMessages.festival-gate-three.subject
+#: src/data/post.js:111
+msgctxt "text:postSeedMessages.festival-gate-three.subject"
+msgid "Sole Main Gate notice (three gates attached)"
+msgstr "唯一正門通知（附件共三扇）"
+
+#. postSeedMessages.festival-gate-three.body
+#: src/data/post.js:112
+msgctxt "text:postSeedMessages.festival-gate-three.body"
+msgid ""
+"Hakurei Gate, Myouren Reception Gate, and Moriya Windway may all display "
+"“Sole Main Gate”. Choose by flight ability, faith, and fear of hills."
+msgstr "博麗門、命蓮寺接待門與守矢風路均獲准使用『唯一正門』標示。請依不會飛、信仰歸屬與是否怕爬山自行選擇。"
+
+#. postSeedMessages.festival-gate-three.correction
+#: src/data/post.js:115
+msgctxt "text:postSeedMessages.festival-gate-three.correction"
+msgid "v5 had two gates; Yukari drew a boundary between versions."
+msgstr "v5 只有兩扇；紫在兩個版本之間畫了一道境界。"
+
+#. postSeedMessages.object-delivered-itself.source
+#: src/data/post.js:121
+msgctxt "text:postSeedMessages.object-delivered-itself.source"
+msgid "An envelope with no sender"
+msgstr "一只沒有寄件人的信封"
+
+#. postSeedMessages.object-delivered-itself.subject
+#: src/data/post.js:125
+msgctxt "text:postSeedMessages.object-delivered-itself.subject"
+msgid "Lost Property Office missing notice"
+msgstr "失物招領處遺失通知"
+
+#. postSeedMessages.object-delivered-itself.body
+#: src/data/post.js:126
+msgctxt "text:postSeedMessages.object-delivered-itself.body"
+msgid ""
+"This envelope accuses Lost Property of losing itself in the organisation "
+"chart. Deliver this if found; the office will certify that you found "
+"yourself too."
+msgstr "本信封控告失物招領處把自己弄丟在校務組織圖裡。若你找到該處，請把本信交給它；它會證明你也找到了自己。"
+
+#. postDeliveryChannels.tengu-express.name
+#: src/data/post.js:138
+msgctxt "text:postDeliveryChannels.tengu-express.name"
+msgid "Crow-Tengu Express"
+msgstr "鴉天狗急送"
+
+#. postDeliveryChannels.tengu-express.speed
+#: src/data/post.js:139
+msgctxt "text:postDeliveryChannels.tengu-express.speed"
+msgid "Fastest; may precede its contents"
+msgstr "最快；可能早於內容本身"
+
+#. postDeliveryChannels.fairy-rounds.name
+#: src/data/post.js:144
+msgctxt "text:postDeliveryChannels.fairy-rounds.name"
+msgid "Fairy Campus Rounds"
+msgstr "妖精校園巡回"
+
+#. postDeliveryChannels.fairy-rounds.speed
+#: src/data/post.js:145
+msgctxt "text:postDeliveryChannels.fairy-rounds.speed"
+msgid "Delivers to the most interesting recipient"
+msgstr "會送到最有趣的收件人"
+
+#. postDeliveryChannels.wooden-board.name
+#: src/data/post.js:150
+msgctxt "text:postDeliveryChannels.wooden-board.name"
+msgid "Wooden-board posting"
+msgstr "木板釘掛"
+
+#. postDeliveryChannels.wooden-board.speed
+#: src/data/post.js:151
+msgctxt "text:postDeliveryChannels.wooden-board.speed"
+msgid "Slowest; credibility wrinkles after rain"
+msgstr "最慢；下雨後可信度會起皺"

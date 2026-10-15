@@ -1,6 +1,7 @@
+import { trees as catalogTrees } from "../src/generated/i18n/build/exams.js";
 import { mkdir, readdir, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { outputRoot } from "./build/paths.mjs";
 import {
   gaokaoDifficulties,
   gaokaoMeta,
@@ -9,63 +10,10 @@ import {
   gaokaoTracks,
 } from "../src/data/gaokao.js";
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const output = path.join(root, "downloads", "gaokao");
+const output = path.join(outputRoot, "downloads", "gaokao");
 const locales = ["zh-Hant", "ja", "en"];
 
-const labels = {
-  "zh-Hant": {
-    title: "幻想鄉統一學力試驗",
-    paper: "試題本",
-    answers: "參考答案與評分說明",
-    candidate: "考生姓名",
-    number: "准考證號",
-    duration: "考試時間",
-    total: "滿分 150 分",
-    instruction: "所有題目均為單選題。材料框屬於題目；除非另有說明，月相、時間、路線與版本均以材料框為準，不讀取網站即時狀態。請把答案填在另紙，列印前確認組別、難度與頁碼。",
-    print: "列印／另存 PDF",
-    answer: "答案",
-    explanation: "解析",
-    marks: "分",
-    source: "題目材料 · 獨立條件",
-    minutes: "分鐘",
-    generated: "本檔可完全離線閱讀；題號、選項順序與線上模擬一致。",
-  },
-  ja: {
-    title: "幻想郷統一高等試験",
-    paper: "問題冊子",
-    answers: "参考解答・採点説明",
-    candidate: "受験者氏名",
-    number: "受験番号",
-    duration: "試験時間",
-    total: "満点 150点",
-    instruction: "全問単一選択。資料枠も問題の一部。別記がない限り月相・時刻・経路・版は資料枠に従い、サイトの現在状態は参照しない。解答は別紙へ記入し、印刷前に区分・難度・頁を確認すること。",
-    print: "印刷／PDF保存",
-    answer: "解答",
-    explanation: "解説",
-    marks: "点",
-    source: "問題資料 · 独立条件",
-    minutes: "分",
-    generated: "完全オフラインで閲覧可能。問題番号と選択肢順はオンライン模試と共通です。",
-  },
-  en: {
-    title: "Gensokyo Unified Examination",
-    paper: "Question Paper",
-    answers: "Reference Answers & Marking Notes",
-    candidate: "Candidate name",
-    number: "Candidate number",
-    duration: "Time allowed",
-    total: "Maximum: 150 marks",
-    instruction: "All items are single-choice. Source boxes are part of the question. Unless stated otherwise, lunar phase, time, route, and version come only from the source box, not the site's live state. Record answers separately and confirm track, difficulty, and page order.",
-    print: "Print / Save as PDF",
-    answer: "Answer",
-    explanation: "Explanation",
-    marks: "marks",
-    source: "Source dossier · independent conditions",
-    minutes: "minutes",
-    generated: "This file works fully offline. Question IDs and option order match the online simulation.",
-  },
-};
+const labels = catalogTrees["labels"];
 
 function escapeHtml(value) {
   return String(value)

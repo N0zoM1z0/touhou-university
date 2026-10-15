@@ -1,0 +1,744 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. liveCampusEvents.crosswind.title
+#: src/data/live-campus.js:33
+msgctxt "text:liveCampusEvents.crosswind.title"
+msgid "Tengu windways are running an unannounced crosswind trial"
+msgstr "Tengu windways are running an unannounced crosswind trial"
+
+#. liveCampusEvents.crosswind.body
+#: src/data/live-campus.js:34
+msgctxt "text:liveCampusEvents.crosswind.body"
+msgid ""
+"Broom airways are paused. Tengu Express still runs, although every flag "
+"claims to be a tailwind."
+msgstr ""
+"Broom airways are paused. Tengu Express still runs, although every flag "
+"claims to be a tailwind."
+
+#. liveCampusEvents.crosswind.rule
+#: src/data/live-campus.js:35
+msgctxt "text:liveCampusEvents.crosswind.rule"
+msgid "Broom network closed; add 2 minutes to tengu windways"
+msgstr "Broom network closed; add 2 minutes to tengu windways"
+
+#. liveCampusEvents.kappaTape.title
+#: src/data/live-campus.js:42
+msgctxt "text:liveCampusEvents.kappaTape.title"
+msgid "Waterfall Supply Line returns to “permanent temporary repair”"
+msgstr "Waterfall Supply Line returns to “permanent temporary repair”"
+
+#. liveCampusEvents.kappaTape.body
+#: src/data/live-campus.js:43
+msgctxt "text:liveCampusEvents.kappaTape.body"
+msgid ""
+"The Seven-Day–Kappa direct segment is closed. Changing tape from blue to red "
+"does not constitute inspection."
+msgstr ""
+"The Seven-Day–Kappa direct segment is closed. Changing tape from blue to red "
+"does not constitute inspection."
+
+#. liveCampusEvents.kappaTape.rule
+#: src/data/live-campus.js:44
+msgctxt "text:liveCampusEvents.kappaTape.rule"
+msgid "Seven-Day–Kappa direct link closed"
+msgstr "Seven-Day–Kappa direct link closed"
+
+#. liveCampusEvents.bambooMist.title
+#: src/data/live-campus.js:50
+msgctxt "text:liveCampusEvents.bambooMist.title"
+msgid "Bamboo mist has arranged three signs into a review committee"
+msgstr "Bamboo mist has arranged three signs into a review committee"
+
+#. liveCampusEvents.bambooMist.body
+#: src/data/live-campus.js:51
+msgctxt "text:liveCampusEvents.bambooMist.body"
+msgid ""
+"All ground routes through Eientei gain seven minutes. The minority opinion "
+"points to yesterday and is tabled."
+msgstr ""
+"All ground routes through Eientei gain seven minutes. The minority opinion "
+"points to yesterday and is tabled."
+
+#. liveCampusEvents.bambooMist.rule
+#: src/data/live-campus.js:52
+msgctxt "text:liveCampusEvents.bambooMist.rule"
+msgid "Add 7 minutes to ground links through Eientei"
+msgstr "Add 7 minutes to ground links through Eientei"
+
+#. liveCampusEvents.danmakuPractical.title
+#: src/data/live-campus.js:63
+msgctxt "text:liveCampusEvents.danmakuPractical.title"
+msgid "Make-up danmaku practical above Boundary Hall"
+msgstr "Make-up danmaku practical above Boundary Hall"
+
+#. liveCampusEvents.danmakuPractical.body
+#: src/data/live-campus.js:64
+msgctxt "text:liveCampusEvents.danmakuPractical.body"
+msgid ""
+"Roof berthing is cancelled until the end of this period. Walking access "
+"remains open; do not write answers on dodge paths."
+msgstr ""
+"Roof berthing is cancelled until the end of this period. Walking access "
+"remains open; do not write answers on dodge paths."
+
+#. liveCampusEvents.danmakuPractical.rule
+#: src/data/live-campus.js:65
+msgctxt "text:liveCampusEvents.danmakuPractical.rule"
+msgid "Air links through Boundary Hall closed"
+msgstr "Air links through Boundary Hall closed"
+
+#. liveCampusEvents.bookFlock.title
+#: src/data/live-campus.js:71
+msgctxt "text:liveCampusEvents.bookFlock.title"
+msgid "Misty Lake North Wing is counting returning holdings"
+msgstr "Misty Lake North Wing is counting returning holdings"
+
+#. liveCampusEvents.bookFlock.body
+#: src/data/live-campus.js:72
+msgctxt "text:liveCampusEvents.bookFlock.body"
+msgid ""
+"Two reading rooms are temporary landing buffers. Staff promise the room "
+"finder is slightly more reliable than the flock."
+msgstr ""
+"Two reading rooms are temporary landing buffers. Staff promise the room "
+"finder is slightly more reliable than the flock."
+
+#. liveCampusEvents.bookFlock.rule
+#: src/data/live-campus.js:73
+msgctxt "text:liveCampusEvents.bookFlock.rule"
+msgid "Misty Lake reading capacity reduced by 18"
+msgstr "Misty Lake reading capacity reduced by 18"
+
+#. liveCampusEvents.faithProcession.title
+#: src/data/live-campus.js:79
+msgctxt "text:liveCampusEvents.faithProcession.title"
+msgid "Three faith processions filed for the same “only true gate”"
+msgstr "Three faith processions filed for the same “only true gate”"
+
+#. liveCampusEvents.faithProcession.body
+#: src/data/live-campus.js:80
+msgctxt "text:liveCampusEvents.faithProcession.body"
+msgid ""
+"Hakurei Gate–Boundary Hall is one-way on foot. Kanako, Byakuren, and Miko "
+"will yield until someone else withdraws."
+msgstr ""
+"Hakurei Gate–Boundary Hall is one-way on foot. Kanako, Byakuren, and Miko "
+"will yield until someone else withdraws."
+
+#. liveCampusEvents.faithProcession.rule
+#: src/data/live-campus.js:81
+msgctxt "text:liveCampusEvents.faithProcession.rule"
+msgid "Add 4 minutes to Gate–Boundary walking"
+msgstr "Add 4 minutes to Gate–Boundary walking"
+
+#. liveCampusEvents.nightSparrow.title
+#: src/data/live-campus.js:87
+msgctxt "text:liveCampusEvents.nightSparrow.title"
+msgid "The night sparrow opened supper early and denies any link to rehearsal"
+msgstr "The night sparrow opened supper early and denies any link to rehearsal"
+
+#. liveCampusEvents.nightSparrow.body
+#: src/data/live-campus.js:88
+msgctxt "text:liveCampusEvents.nightSparrow.body"
+msgid ""
+"Lamprey and plum rice balls are served from dusk. Singing volume is not "
+"nutritional information."
+msgstr ""
+"Lamprey and plum rice balls are served from dusk. Singing volume is not "
+"nutritional information."
+
+#. liveCampusEvents.nightSparrow.rule
+#: src/data/live-campus.js:89
+msgctxt "text:liveCampusEvents.nightSparrow.rule"
+msgid "Supper opens 40 minutes early"
+msgstr "Supper opens 40 minutes early"
+
+#. liveCampusSnapshot.weather.0
+#: src/data/live-campus.js:152
+msgctxt "text:liveCampusSnapshot.weather.0"
+msgid "Light mist · steady lake wind"
+msgstr "Light mist · steady lake wind"
+
+#. liveCampusSnapshot.weather.1
+#: src/data/live-campus.js:153
+msgctxt "text:liveCampusSnapshot.weather.1"
+msgid "Mountain gusts · secure loose papers"
+msgstr "Mountain gusts · secure loose papers"
+
+#. liveCampusSnapshot.weather.2
+#: src/data/live-campus.js:154
+msgctxt "text:liveCampusSnapshot.weather.2"
+msgid "Bamboo humidity · signs bleeding"
+msgstr "Bamboo humidity · signs bleeding"
+
+#. liveCampusSnapshot.weather.3
+#: src/data/live-campus.js:155
+msgctxt "text:liveCampusSnapshot.weather.3"
+msgid "Sunny intervals · fairy-local rain"
+msgstr "Sunny intervals · fairy-local rain"
+
+#. note
+#: src/data/live-campus.js:188
+msgctxt "text:note"
+msgid "Operating by the ordinary bell schedule"
+msgstr "Operating by the ordinary bell schedule"
+
+#. liveFacilityStatus
+#: src/data/live-campus.js:193
+msgctxt "text:liveFacilityStatus"
+msgid "North Wing is a landing buffer for returning holdings"
+msgstr "North Wing is a landing buffer for returning holdings"
+
+#. liveFacilityStatus
+#: src/data/live-campus.js:197
+msgctxt "text:liveFacilityStatus.2"
+msgid "Roof make-up practical; front rows are exit lanes"
+msgstr "Roof make-up practical; front rows are exit lanes"
+
+#. liveFacilityStatus
+#: src/data/live-campus.js:201
+msgctxt "text:liveFacilityStatus.3"
+msgid "Full-moon archive cabinets take early attendance"
+msgstr "Full-moon archive cabinets take early attendance"
+
+#. liveFacilityStatus
+#: src/data/live-campus.js:205
+msgctxt "text:liveFacilityStatus.4"
+msgid "Upper windows closed; two laboratories are load-limited"
+msgstr "Upper windows closed; two laboratories are load-limited"
+
+#. liveFacilityStatus
+#: src/data/live-campus.js:210
+msgctxt "text:liveFacilityStatus.5"
+msgid "Direct link repair; half the benches are holding tape down"
+msgstr "Direct link repair; half the benches are holding tape down"
+
+#. liveFacilityStatus
+#: src/data/live-campus.js:214
+msgctxt "text:liveFacilityStatus.6"
+msgid "Eight seats serve wet-book quarantine and paperweight loans"
+msgstr "Eight seats serve wet-book quarantine and paperweight loans"
+
+#. liveFacilityStatus
+#: src/data/live-campus.js:218
+msgctxt "text:liveFacilityStatus.7"
+msgid "Six seats are fallen-leaf version comparison desks"
+msgstr "Six seats are fallen-leaf version comparison desks"
+
+#. liveFacilityStatus
+#: src/data/live-campus.js:222
+msgctxt "text:liveFacilityStatus.8"
+msgid "Full-moon holdings are open; ten general seats are reassigned"
+msgstr "Full-moon holdings are open; ten general seats are reassigned"
+
+#. liveFacilityStatus
+#: src/data/live-campus.js:227
+msgctxt "text:liveFacilityStatus.9"
+msgid "The laboratory reduces load early for winter seal inventory"
+msgstr "The laboratory reduces load early for winter seal inventory"
+
+#. mapNoticePool.0
+#: src/data/live-campus.js:250
+msgctxt "text:mapNoticePool.0"
+msgid ""
+"The donation box is temporarily Lost Property. Reimu says lost property is "
+"not temporarily a donation."
+msgstr ""
+"The donation box is temporarily Lost Property. Reimu says lost property is "
+"not temporarily a donation."
+
+#. mapNoticePool.1
+#: src/data/live-campus.js:251
+msgctxt "text:mapNoticePool.1"
+msgid ""
+"Today’s fourth “shortcut” is eleven minutes longer. Bamboo Orienteering "
+"refuses to revoke its shortcut status."
+msgstr ""
+"Today’s fourth “shortcut” is eleven minutes longer. Bamboo Orienteering "
+"refuses to revoke its shortcut status."
+
+#. mapNoticePool.2
+#: src/data/live-campus.js:252
+msgctxt "text:mapNoticePool.2"
+msgid ""
+"The rain-wrinkled campus paper is still dated tomorrow. Aya says this proves "
+"only that the rain arrived early."
+msgstr ""
+"The rain-wrinkled campus paper is still dated tomorrow. Aya says this proves "
+"only that the rain arrived early."
+
+#. mapNoticePool.3
+#: src/data/live-campus.js:253
+msgctxt "text:mapNoticePool.3"
+msgid "The north sign’s typo has been corrected three times. The correction date is now wrong."
+msgstr "The north sign’s typo has been corrected three times. The correction date is now wrong."
+
+#. liveMapNotice.label
+#: src/data/live-campus.js:268
+msgctxt "text:liveMapNotice.label"
+msgid "TODAY'S WOODEN NOTICE"
+msgstr "TODAY'S WOODEN NOTICE"
+
+#. menuPool.0.1
+#: src/data/live-campus.js:275
+msgctxt "text:menuPool.0.1"
+msgid "Hakurei Set"
+msgstr "Hakurei Set"
+
+#. menuPool.0.2
+#: src/data/live-campus.js:275
+msgctxt "text:menuPool.0.2"
+msgid "Mountain rice, grilled tofu, miso soup, pickled radish"
+msgstr "Mountain rice, grilled tofu, miso soup, pickled radish"
+
+#. menuPool.0.4
+#: src/data/live-campus.js:275
+msgctxt "text:menuPool.0.4"
+msgid "Popular"
+msgstr "Popular"
+
+#. menuPool.1.1
+#: src/data/live-campus.js:276
+msgctxt "text:menuPool.1.1"
+msgid "Bamboo Moon Soba"
+msgstr "Bamboo Moon Soba"
+
+#. menuPool.1.2
+#: src/data/live-campus.js:276
+msgctxt "text:menuPool.1.2"
+msgid "Soba, soft-boiled egg, bamboo shoots, and shiso"
+msgstr "Soba, soft-boiled egg, bamboo shoots, and shiso"
+
+#. menuPool.1.4
+#: src/data/live-campus.js:276
+msgctxt "text:menuPool.1.4"
+msgid "Veg option"
+msgstr "Veg option"
+
+#. menuPool.2.1
+#: src/data/live-campus.js:277
+msgctxt "text:menuPool.2.1"
+msgid "Kappa Workshop Curry"
+msgstr "Kappa Workshop Curry"
+
+#. menuPool.2.2
+#: src/data/live-campus.js:277
+msgctxt "text:menuPool.2.2"
+msgid "Green vegetable curry, gear-cut lotus, rice"
+msgstr "Green vegetable curry, gear-cut lotus, rice"
+
+#. menuPool.2.4
+#: src/data/live-campus.js:277
+msgctxt "text:menuPool.2.4"
+msgid "Medium"
+msgstr "Medium"
+
+#. menuPool.3.1
+#: src/data/live-campus.js:278
+msgctxt "text:menuPool.3.1"
+msgid "Night-Sparrow Supper"
+msgstr "Night-Sparrow Supper"
+
+#. menuPool.3.2
+#: src/data/live-campus.js:278
+msgctxt "text:menuPool.3.2"
+msgid "Grilled lamprey, plum rice ball, night tea"
+msgstr "Grilled lamprey, plum rice ball, night tea"
+
+#. menuPool.3.4
+#: src/data/live-campus.js:278
+msgctxt "text:menuPool.3.4"
+msgid "After dusk"
+msgstr "After dusk"
+
+#. menuPool.4.1
+#: src/data/live-campus.js:279
+msgctxt "text:menuPool.4.1"
+msgid "Fairy Fruit Bowl"
+msgstr "Fairy Fruit Bowl"
+
+#. menuPool.4.2
+#: src/data/live-campus.js:279
+msgctxt "text:menuPool.4.2"
+msgid "Seasonal berries, mint, honey dew"
+msgstr "Seasonal berries, mint, honey dew"
+
+#. menuPool.4.4
+#: src/data/live-campus.js:279
+msgctxt "text:menuPool.4.4"
+msgid "Small"
+msgstr "Small"
+
+#. menuPool.5.1
+#: src/data/live-campus.js:280
+msgctxt "text:menuPool.5.1"
+msgid "Scarlet Clocktower Gratin"
+msgstr "Scarlet Clocktower Gratin"
+
+#. menuPool.5.2
+#: src/data/live-campus.js:280
+msgctxt "text:menuPool.5.2"
+msgid "Tomato rice, mushrooms, calibrated cheese"
+msgstr "Tomato rice, mushrooms, calibrated cheese"
+
+#. menuPool.5.4
+#: src/data/live-campus.js:280
+msgctxt "text:menuPool.5.4"
+msgid "Service time may be nonlinear"
+msgstr "Service time may be nonlinear"
+
+#. menuPool.6.1
+#: src/data/live-campus.js:281
+msgctxt "text:menuPool.6.1"
+msgid "Moriya Wind-Priestess Rice Ball"
+msgstr "Moriya Wind-Priestess Rice Ball"
+
+#. menuPool.6.2
+#: src/data/live-campus.js:281
+msgctxt "text:menuPool.6.2"
+msgid "Pepper miso, buckwheat, wind-tilted nori"
+msgstr "Pepper miso, buckwheat, wind-tilted nori"
+
+#. menuPool.6.4
+#: src/data/live-campus.js:281
+msgctxt "text:menuPool.6.4"
+msgid "Divine merit not in calories"
+msgstr "Divine merit not in calories"
+
+#. menuPool.7.1
+#: src/data/live-campus.js:282
+msgctxt "text:menuPool.7.1"
+msgid "Myouren Temple Shōjin Pot"
+msgstr "Myouren Temple Shōjin Pot"
+
+#. menuPool.7.2
+#: src/data/live-campus.js:282
+msgctxt "text:menuPool.7.2"
+msgid "Tofu skin, mountain mushrooms, lotus, post-debate cabbage"
+msgstr "Tofu skin, mountain mushrooms, lotus, post-debate cabbage"
+
+#. menuPool.7.4
+#: src/data/live-campus.js:282
+msgctxt "text:menuPool.7.4"
+msgid "Vegan"
+msgstr "Vegan"
+
+#. menuPool.8.1
+#: src/data/live-campus.js:283
+msgctxt "text:menuPool.8.1"
+msgid "Lunar Sterile Custard"
+msgstr "Lunar Sterile Custard"
+
+#. menuPool.8.2
+#: src/data/live-campus.js:283
+msgctxt "text:menuPool.8.2"
+msgid "Moon-rabbit milk, silver sugar, one unapproved drop of caramel"
+msgstr "Moon-rabbit milk, silver sugar, one unapproved drop of caramel"
+
+#. menuPool.8.4
+#: src/data/live-campus.js:283
+msgctxt "text:menuPool.8.4"
+msgid "Limited"
+msgstr "Limited"
+
+#. menuPool.9.1
+#: src/data/live-campus.js:284
+msgctxt "text:menuPool.9.1"
+msgid "Magic Forest Forager Pie"
+msgstr "Magic Forest Forager Pie"
+
+#. menuPool.9.2
+#: src/data/live-campus.js:284
+msgctxt "text:menuPool.9.2"
+msgid "Today’s identified mushrooms, onion, pastry"
+msgstr "Today’s identified mushrooms, onion, pastry"
+
+#. menuPool.9.4
+#: src/data/live-campus.js:284
+msgctxt "text:menuPool.9.4"
+msgid "Recipe varies by batch"
+msgstr "Recipe varies by batch"
+
+#. menuPool.10.1
+#: src/data/live-campus.js:285
+msgctxt "text:menuPool.10.1"
+msgid "Misty Lake Nine Shaved Ice"
+msgstr "Misty Lake Nine Shaved Ice"
+
+#. menuPool.10.2
+#: src/data/live-campus.js:285
+msgctxt "text:menuPool.10.2"
+msgid "Nine blue syrups, three actual flavours"
+msgstr "Nine blue syrups, three actual flavours"
+
+#. menuPool.10.4
+#: src/data/live-campus.js:285
+msgctxt "text:menuPool.10.4"
+msgid "No returns after melting"
+msgstr "No returns after melting"
+
+#. menuPool.11.1
+#: src/data/live-campus.js:286
+msgctxt "text:menuPool.11.1"
+msgid "Hieda Copyist Ochazuke"
+msgstr "Hieda Copyist Ochazuke"
+
+#. menuPool.11.2
+#: src/data/live-campus.js:286
+msgctxt "text:menuPool.11.2"
+msgid "Roasted tea, plum, nori, edible correction slip"
+msgstr "Roasted tea, plum, nori, edible correction slip"
+
+#. menuPool.11.4
+#: src/data/live-campus.js:286
+msgctxt "text:menuPool.11.4"
+msgid "Includes one correction"
+msgstr "Includes one correction"
+
+#. timetablePool.0.1
+#: src/data/live-campus.js:310
+msgctxt "text:timetablePool.0.1"
+msgid "History of Gensokyo"
+msgstr "History of Gensokyo"
+
+#. timetablePool.0.3
+#: src/data/live-campus.js:310
+msgctxt "text:timetablePool.0.3"
+msgid "Keine Kamishirasawa"
+msgstr "Keine Kamishirasawa"
+
+#. timetablePool.1.1
+#: src/data/live-campus.js:311
+msgctxt "text:timetablePool.1.1"
+msgid "Boundary Identifiability"
+msgstr "Boundary Identifiability"
+
+#. timetablePool.1.3
+#: src/data/live-campus.js:311
+msgctxt "text:timetablePool.1.3"
+msgid "Yukari Yakumo"
+msgstr "Yukari Yakumo"
+
+#. timetablePool.2.1
+#: src/data/live-campus.js:312
+msgctxt "text:timetablePool.2.1"
+msgid "Seven-Day Elemental Theory II"
+msgstr "Seven-Day Elemental Theory II"
+
+#. timetablePool.2.3
+#: src/data/live-campus.js:312
+msgctxt "text:timetablePool.2.3"
+msgid "Patchouli Knowledge"
+msgstr "Patchouli Knowledge"
+
+#. timetablePool.3.1
+#: src/data/live-campus.js:313
+msgctxt "text:timetablePool.3.1"
+msgid "Faith and Public Space"
+msgstr "Faith and Public Space"
+
+#. timetablePool.3.3
+#: src/data/live-campus.js:313
+msgctxt "text:timetablePool.3.3"
+msgid "Byakuren Hijiri / Kanako Yasaka"
+msgstr "Byakuren Hijiri / Kanako Yasaka"
+
+#. timetablePool.4.1
+#: src/data/live-campus.js:314
+msgctxt "text:timetablePool.4.1"
+msgid "Low-Head Turbines"
+msgstr "Low-Head Turbines"
+
+#. timetablePool.4.3
+#: src/data/live-campus.js:314
+msgctxt "text:timetablePool.4.3"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. timetablePool.5.1
+#: src/data/live-campus.js:315
+msgctxt "text:timetablePool.5.1"
+msgid "Pharmacology and Lunar Bias"
+msgstr "Pharmacology and Lunar Bias"
+
+#. timetablePool.5.3
+#: src/data/live-campus.js:315
+msgctxt "text:timetablePool.5.3"
+msgid "Eirin Yagokoro"
+msgstr "Eirin Yagokoro"
+
+#. timetablePool.6.1
+#: src/data/live-campus.js:316
+msgctxt "text:timetablePool.6.1"
+msgid "Source Ethics"
+msgstr "Source Ethics"
+
+#. timetablePool.6.3
+#: src/data/live-campus.js:316
+msgctxt "text:timetablePool.6.3"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. timetablePool.7.1
+#: src/data/live-campus.js:317
+msgctxt "text:timetablePool.7.1"
+msgid "Reproducible Magic Practice"
+msgstr "Reproducible Magic Practice"
+
+#. timetablePool.7.3
+#: src/data/live-campus.js:317
+msgctxt "text:timetablePool.7.3"
+msgid "Marisa Kirisame"
+msgstr "Marisa Kirisame"
+
+#. timetablePool.8.1
+#: src/data/live-campus.js:318
+msgctxt "text:timetablePool.8.1"
+msgid "Spell-card Defence"
+msgstr "Spell-card Defence"
+
+#. timetablePool.8.3
+#: src/data/live-campus.js:318
+msgctxt "text:timetablePool.8.3"
+msgid "Reimu Hakurei"
+msgstr "Reimu Hakurei"
+
+#. timetablePool.9.1
+#: src/data/live-campus.js:319
+msgctxt "text:timetablePool.9.1"
+msgid "Campus Corrections Workshop"
+msgstr "Campus Corrections Workshop"
+
+#. timetablePool.9.3
+#: src/data/live-campus.js:319
+msgctxt "text:timetablePool.9.3"
+msgid "Aya Shameimaru / anonymous corrector"
+msgstr "Aya Shameimaru / anonymous corrector"
+
+#. note
+#: src/data/live-campus.js:337
+msgctxt "text:note.2"
+msgid "As scheduled"
+msgstr "As scheduled"
+
+#. liveTimetable.0
+#: src/data/live-campus.js:340
+msgctxt "text:liveTimetable.0"
+msgid "Moved to Hieda during make-up danmaku"
+msgstr "Moved to Hieda during make-up danmaku"
+
+#. liveTimetable.0
+#: src/data/live-campus.js:344
+msgctxt "text:liveTimetable.0.2"
+msgid "Workshop link closed; meet in yard"
+msgstr "Workshop link closed; meet in yard"
+
+#. liveTimetable.0
+#: src/data/live-campus.js:349
+msgctxt "text:liveTimetable.0.3"
+msgid "Shifted two bells for summer night term; lantern attendance"
+msgstr "Shifted two bells for summer night term; lantern attendance"
+
+#. liveTimetable.0
+#: src/data/live-campus.js:352
+msgctxt "text:liveTimetable.0.4"
+msgid "First bell is fieldwork return reporting"
+msgstr "First bell is fieldwork return reporting"
+
+#. exams.0.1
+#: src/data/live-campus.js:391
+msgctxt "text:exams.0.1"
+msgid "Spell-card Oral"
+msgstr "Spell-card Oral"
+
+#. exams.0.2
+#: src/data/live-campus.js:391
+msgctxt "text:exams.0.2"
+msgid "Boundary Hall"
+msgstr "Boundary Hall"
+
+#. exams.0.3
+#: src/data/live-campus.js:391
+msgctxt "text:exams.0.3"
+msgid "Three declarations + stop condition"
+msgstr "Three declarations + stop condition"
+
+#. exams.1.1
+#: src/data/live-campus.js:392
+msgctxt "text:exams.1.1"
+msgid "Seven-Day Elemental Theory II"
+msgstr "Seven-Day Elemental Theory II"
+
+#. exams.1.2
+#: src/data/live-campus.js:392
+msgctxt "text:exams.1.2"
+msgid "Seven-Day Laboratory"
+msgstr "Seven-Day Laboratory"
+
+#. exams.1.3
+#: src/data/live-campus.js:392
+msgctxt "text:exams.1.3"
+msgid "Written + safety practicum"
+msgstr "Written + safety practicum"
+
+#. exams.2.1
+#: src/data/live-campus.js:393
+msgctxt "text:exams.2.1"
+msgid "History of Gensokyo"
+msgstr "History of Gensokyo"
+
+#. exams.2.2
+#: src/data/live-campus.js:393
+msgctxt "text:exams.2.2"
+msgid "Hieda History Hall"
+msgstr "Hieda History Hall"
+
+#. exams.2.3
+#: src/data/live-campus.js:393
+msgctxt "text:exams.2.3"
+msgid "Open-book source criticism"
+msgstr "Open-book source criticism"
+
+#. exams.3.1
+#: src/data/live-campus.js:394
+msgctxt "text:exams.3.1"
+msgid "Low-Head Turbines"
+msgstr "Low-Head Turbines"
+
+#. exams.3.2
+#: src/data/live-campus.js:394
+msgctxt "text:exams.3.2"
+msgid "Kappa Joint Workshop"
+msgstr "Kappa Joint Workshop"
+
+#. exams.3.3
+#: src/data/live-campus.js:394
+msgctxt "text:exams.3.3"
+msgid "Field disassembly; tape is not an answer"
+msgstr "Field disassembly; tape is not an answer"
+
+#. exams.4.1
+#: src/data/live-campus.js:395
+msgctxt "text:exams.4.1"
+msgid "Source Ethics"
+msgstr "Source Ethics"
+
+#. exams.4.2
+#: src/data/live-campus.js:395
+msgctxt "text:exams.4.2"
+msgid "Tengu News Hall"
+msgstr "Tengu News Hall"
+
+#. exams.4.3
+#: src/data/live-campus.js:395
+msgctxt "text:exams.4.3"
+msgid "Correction copy + conflict disclosure"
+msgstr "Correction copy + conflict disclosure"

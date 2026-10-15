@@ -1,0 +1,174 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. spellRulings.public-demo
+#: src/js/spellcard-workshop-model.js:23
+msgctxt "text:spellRulings.public-demo"
+msgid "Approved for public demonstration"
+msgstr "Approved for public demonstration"
+
+#. spellRulings.conditional
+#: src/js/spellcard-workshop-model.js:24
+msgctxt "text:spellRulings.conditional"
+msgid "Approved with red-cord conditions"
+msgstr "Approved with red-cord conditions"
+
+#. spellRulings.research-only
+#: src/js/spellcard-workshop-model.js:25
+msgctxt "text:spellRulings.research-only"
+msgid "Closed research simulation only"
+msgstr "Closed research simulation only"
+
+#. spellRulings.revise
+#: src/js/spellcard-workshop-model.js:26
+msgctxt "text:spellRulings.revise"
+msgid "Design retained; revise and defend again"
+msgstr "Design retained; revise and defend again"
+
+#. spellConditions.corridor
+#: src/js/spellcard-workshop-model.js:30
+msgctxt "text:spellConditions.corridor"
+msgid "Fix the minimum safe corridor and cue in the performance version."
+msgstr "Fix the minimum safe corridor and cue in the performance version."
+
+#. spellConditions.version
+#: src/js/spellcard-workshop-model.js:31
+msgctxt "text:spellConditions.version"
+msgid "Publish seed, parameters, collision version, venue conditions, and failed runs."
+msgstr "Publish seed, parameters, collision version, venue conditions, and failed runs."
+
+#. spellConditions.audience
+#: src/js/spellcard-workshop-model.js:32
+msgctxt "text:spellConditions.audience"
+msgid "Verify audience readability with independent observation or a pre-performance cue."
+msgstr "Verify audience readability with independent observation or a pre-performance cue."
+
+#. spellConditions.performance
+#: src/js/spellcard-workshop-model.js:33
+msgctxt "text:spellConditions.performance"
+msgid "Lock projectile budget and collision core; performance loss may not change the rule."
+msgstr "Lock projectile budget and collision core; performance loss may not change the rule."
+
+#. spellConditions.care
+#: src/js/spellcard-workshop-model.js:34
+msgctxt "text:spellConditions.care"
+msgid "Shorten sessions, retain a stop signal and exit/rest, then measure again."
+msgstr "Shorten sessions, retain a stop signal and exit/rest, then measure again."
+
+#. spellConditions.simulation
+#: src/js/spellcard-workshop-model.js:35
+msgctxt "text:spellConditions.simulation"
+msgid "No public flight; parameters, simulation, and research question may be retained."
+msgstr "No public flight; parameters, simulation, and research question may be retained."
+
+#. spellConditions.sharedSpace
+#: src/js/spellcard-workshop-model.js:36
+msgctxt "text:spellConditions.sharedSpace"
+msgid "Put shared-space rehearsal, sound pressure, and breaks on the same timeline."
+msgstr "Put shared-space rehearsal, sound pressure, and breaks on the same timeline."
+
+#. notice
+#: src/js/spellcard-workshop-model.js:159
+msgctxt "text:notice"
+msgid "Today's court has only ordinary wind, meaning nobody admits to changing it."
+msgstr "Today's court has only ordinary wind, meaning nobody admits to changing it."
+
+#. workshopConditions
+#: src/js/spellcard-workshop-model.js:162
+msgctxt "text:workshopConditions"
+msgid ""
+"Moonlit afterimages linger half a beat longer; fatigue does not become half "
+"a beat shorter."
+msgstr ""
+"Moonlit afterimages linger half a beat longer; fatigue does not become half "
+"a beat shorter."
+
+#. workshopConditions
+#: src/js/spellcard-workshop-model.js:166
+msgctxt "text:workshopConditions.2"
+msgid ""
+"Nitori replaced the collision logger; the tape on the old box remains listed "
+"as a fallback version."
+msgstr ""
+"Nitori replaced the collision logger; the tape on the old box remains listed "
+"as a fallback version."
+
+#. workshopConditions
+#: src/js/spellcard-workshop-model.js:169
+msgctxt "text:workshopConditions.3"
+msgid ""
+"Bamboo mist has borrowed the court edge. Subtract three feet from every "
+"corridor unless you can show where the mist stands."
+msgstr ""
+"Bamboo mist has borrowed the court edge. Subtract three feet from every "
+"corridor unless you can show where the mist stands."
+
+#. workshopConditions
+#: src/js/spellcard-workshop-model.js:172
+msgctxt "text:workshopConditions.4"
+msgid ""
+"Two returning holdings circle above the audience. The library insists this "
+"is not a second danmaku layer."
+msgstr ""
+"Two returning holdings circle above the audience. The library insists this "
+"is not a second danmaku layer."
+
+#. communityCopy/aya
+#: src/js/spellcard-workshop-model.js:512
+msgctxt "tree:communityCopy#/aya"
+msgid "Bunbunmaru Public-Demo Wire"
+msgstr "Bunbunmaru Public-Demo Wire"
+
+#. communityCopy/panel
+#: src/js/spellcard-workshop-model.js:512
+msgctxt "tree:communityCopy#/panel"
+msgid "Spell-Card Ethics Defence Record"
+msgstr "Spell-Card Ethics Defence Record"
+
+#. communityCopy/chorus
+#: src/js/spellcard-workshop-model.js:512
+msgctxt "tree:communityCopy#/chorus"
+msgid "Misty Lake Fairy Chorus"
+msgstr "Misty Lake Fairy Chorus"
+
+#. communityCopy/headline
+#: src/js/spellcard-workshop-model.js:512
+msgctxt "tree:communityCopy#/headline"
+msgid "Public defence receives a ruling"
+msgstr "Public defence receives a ruling"
+
+#. communityCopy/correction
+#: src/js/spellcard-workshop-model.js:512
+msgctxt "tree:communityCopy#/correction"
+msgid ""
+"Correction: approval does not erase conditions, and the red cord is not "
+"stage decoration."
+msgstr ""
+"Correction: approval does not erase conditions, and the red cord is not "
+"stage decoration."
+
+#. communityCopy/panelBody
+#: src/js/spellcard-workshop-model.js:512
+msgctxt "tree:communityCopy#/panelBody"
+msgid ""
+"Three examiners preserve separate views on rules, reproducibility, and "
+"external risk; minority opinion was not folded into the majority."
+msgstr ""
+"Three examiners preserve separate views on rules, reproducibility, and "
+"external risk; minority opinion was not folded into the majority."
+
+#. communityCopy/chorusBody
+#: src/js/spellcard-workshop-model.js:512
+msgctxt "tree:communityCopy#/chorusBody"
+msgid ""
+"The chorus reviewed the timeline and drew a rest larger than the "
+"university's wherever the design forgot to breathe."
+msgstr ""
+"The chorus reviewed the timeline and drew a rest larger than the "
+"university's wherever the design forgot to breathe."

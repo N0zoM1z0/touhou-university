@@ -1,0 +1,114 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. labels/catalogue
+#: src/js/schools.js:6
+msgctxt "tree:labels#/catalogue"
+msgid "UNDERGRADUATE CATALOGUE · 2026"
+msgstr "UNDERGRADUATE CATALOGUE · 2026"
+
+#. labels/degree
+#: src/js/schools.js:6
+msgctxt "tree:labels#/degree"
+msgid "Award"
+msgstr "Award"
+
+#. labels/duration
+#: src/js/schools.js:6
+msgctxt "tree:labels#/duration"
+msgid "Duration"
+msgstr "Duration"
+
+#. labels/credits
+#: src/js/schools.js:6
+msgctxt "tree:labels#/credits"
+msgid "Credits"
+msgstr "Credits"
+
+#. labels/intake
+#: src/js/schools.js:6
+msgctxt "tree:labels#/intake"
+msgid "Intake"
+msgstr "Intake"
+
+#. labels/tuition
+#: src/js/schools.js:6
+msgctxt "tree:labels#/tuition"
+msgid "Tuition per term"
+msgstr "Tuition per term"
+
+#. labels/overview
+#: src/js/schools.js:6
+msgctxt "tree:labels#/overview"
+msgid "About the school"
+msgstr "About the school"
+
+#. labels/courses
+#: src/js/schools.js:6
+msgctxt "tree:labels#/courses"
+msgid "Selected core courses"
+msgstr "Selected core courses"
+
+#. labels/course
+#: src/js/schools.js:6
+msgctxt "tree:labels#/course"
+msgid "Code / course"
+msgstr "Code / course"
+
+#. labels/courseCredits
+#: src/js/schools.js:6
+msgctxt "tree:labels#/courseCredits"
+msgid "Credits"
+msgstr "Credits"
+
+#. labels/studios
+#: src/js/schools.js:6
+msgctxt "tree:labels#/studios"
+msgid "Pathways & studios"
+msgstr "Pathways & studios"
+
+#. labels/fieldwork
+#: src/js/schools.js:6
+msgctxt "tree:labels#/fieldwork"
+msgid "Field learning"
+msgstr "Field learning"
+
+#. labels/progression
+#: src/js/schools.js:6
+msgctxt "tree:labels#/progression"
+msgid "Graduation requirements"
+msgstr "Graduation requirements"
+
+#. labels/costs
+#: src/js/schools.js:6
+msgctxt "tree:labels#/costs"
+msgid "Additional costs"
+msgstr "Additional costs"
+
+#. labels/outcomes
+#: src/js/schools.js:6
+msgctxt "tree:labels#/outcomes"
+msgid "Where graduates go"
+msgstr "Where graduates go"
+
+#. labels/apply
+#: src/js/schools.js:6
+msgctxt "tree:labels#/apply"
+msgid "Apply to this school"
+msgstr "Apply to this school"
+
+#. labels/note
+#: src/js/schools.js:6
+msgctxt "tree:labels#/note"
+msgid ""
+"Tuition is charged by term. University core and cross-school electives count "
+"toward the graduation total."
+msgstr ""
+"Tuition is charged by term. University core and cross-school electives count "
+"toward the graduation total."

@@ -1,0 +1,276 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. governanceProposals.airspace-practicals.sponsor
+#: src/data/governance.js:8
+msgctxt "text:governanceProposals.airspace-practicals.sponsor"
+msgid "Joint Flight Safety Council (Aya says she only records it)"
+msgstr "Joint Flight Safety Council (Aya says she only records it)"
+
+#. governanceProposals.airspace-practicals.title
+#: src/data/governance.js:9
+msgctxt "text:governanceProposals.airspace-practicals.title"
+msgid "Who may close Boundary Hall airspace during make-up danmaku?"
+msgstr "Who may close Boundary Hall airspace during make-up danmaku?"
+
+#. governanceProposals.airspace-practicals.summary
+#: src/data/governance.js:10
+msgctxt "text:governanceProposals.airspace-practicals.summary"
+msgid ""
+"Rules require agreement from Academic Affairs, the hall, and Windway "
+"Control. Last week all three messengers waited for each other in the same "
+"gust."
+msgstr ""
+"Rules require agreement from Academic Affairs, the hall, and Windway "
+"Control. Last week all three messengers waited for each other in the same "
+"gust."
+
+#. governanceProposals.airspace-practicals.choices.registrar.label
+#: src/data/governance.js:12
+msgctxt "text:governanceProposals.airspace-practicals.choices.registrar.label"
+msgid "Registrar may close one period, signatures follow"
+msgstr "Registrar may close one period, signatures follow"
+
+#. governanceProposals.airspace-practicals.choices.registrar.consequence
+#: src/data/governance.js:12
+msgctxt "text:governanceProposals.airspace-practicals.choices.registrar.consequence"
+msgid "Fast; Keine records who ratified last."
+msgstr "Fast; Keine records who ratified last."
+
+#. governanceProposals.airspace-practicals.choices.reimu.label
+#: src/data/governance.js:13
+msgctxt "text:governanceProposals.airspace-practicals.choices.reimu.label"
+msgid "Reimu decides on site; attendance optional"
+msgstr "Reimu decides on site; attendance optional"
+
+#. governanceProposals.airspace-practicals.choices.reimu.consequence
+#: src/data/governance.js:13
+msgctxt "text:governanceProposals.airspace-practicals.choices.reimu.consequence"
+msgid "Direct boundary judgment, minimal administrative predictability."
+msgstr "Direct boundary judgment, minimal administrative predictability."
+
+#. governanceProposals.airspace-practicals.choices.aya.label
+#: src/data/governance.js:14
+msgctxt "text:governanceProposals.airspace-practicals.choices.aya.label"
+msgid "Aya publishes “closed”; correct later if needed"
+msgstr "Aya publishes “closed”; correct later if needed"
+
+#. governanceProposals.airspace-practicals.choices.aya.consequence
+#: src/data/governance.js:14
+msgctxt "text:governanceProposals.airspace-practicals.choices.aya.consequence"
+msgid "Fastest information; causality goes to a journalism defence."
+msgstr "Fastest information; causality goes to a journalism defence."
+
+#. governanceProposals.airspace-practicals.reaction
+#: src/data/governance.js:16
+msgctxt "text:governanceProposals.airspace-practicals.reaction"
+msgid "After the airspace vote, all three offices say they were merely consulted"
+msgstr "After the airspace vote, all three offices say they were merely consulted"
+
+#. governanceProposals.fullmoon-library.sponsor
+#: src/data/governance.js:22
+msgctxt "text:governanceProposals.fullmoon-library.sponsor"
+msgid "Misty Lake Library and Provisional Full-Moon Readers"
+msgstr "Misty Lake Library and Provisional Full-Moon Readers"
+
+#. governanceProposals.fullmoon-library.title
+#: src/data/governance.js:23
+msgctxt "text:governanceProposals.fullmoon-library.title"
+msgid "Extend full-moon reading, or let the holdings rest first?"
+msgstr "Extend full-moon reading, or let the holdings rest first?"
+
+#. governanceProposals.fullmoon-library.summary
+#: src/data/governance.js:24
+msgctxt "text:governanceProposals.fullmoon-library.summary"
+msgid ""
+"Some books reveal text only at full moon; others refuse readers then. Both "
+"claim accessibility status."
+msgstr ""
+"Some books reveal text only at full moon; others refuse readers then. Both "
+"claim accessibility status."
+
+#. governanceProposals.fullmoon-library.choices.split.label
+#: src/data/governance.js:26
+msgctxt "text:governanceProposals.fullmoon-library.choices.split.label"
+msgid "North Wing extends; South goes dark; books may move"
+msgstr "North Wing extends; South goes dark; books may move"
+
+#. governanceProposals.fullmoon-library.choices.split.consequence
+#: src/data/governance.js:26
+msgctxt "text:governanceProposals.fullmoon-library.choices.split.consequence"
+msgid "Balances both; flying holdings gain an institutional advantage."
+msgstr "Balances both; flying holdings gain an institutional advantage."
+
+#. governanceProposals.fullmoon-library.choices.appointment.label
+#: src/data/governance.js:27
+msgctxt "text:governanceProposals.fullmoon-library.choices.appointment.label"
+msgid "Moon-visible books by appointment"
+msgstr "Moon-visible books by appointment"
+
+#. governanceProposals.fullmoon-library.choices.appointment.consequence
+#: src/data/governance.js:27
+msgctxt "text:governanceProposals.fullmoon-library.choices.appointment.consequence"
+msgid "Manageable, except the booking form appears only at new moon."
+msgstr "Manageable, except the booking form appears only at new moon."
+
+#. governanceProposals.fullmoon-library.choices.books-vote.label
+#: src/data/governance.js:28
+msgctxt "text:governanceProposals.fullmoon-library.choices.books-vote.label"
+msgid "Let holdings vote; call numbers count as student IDs"
+msgstr "Let holdings vote; call numbers count as student IDs"
+
+#. governanceProposals.fullmoon-library.choices.books-vote.consequence
+#: src/data/governance.js:28
+msgctxt "text:governanceProposals.fullmoon-library.choices.books-vote.consequence"
+msgid "Most coexistential; shelves demand constituency status."
+msgstr "Most coexistential; shelves demand constituency status."
+
+#. governanceProposals.fullmoon-library.reaction
+#: src/data/governance.js:30
+msgctxt "text:governanceProposals.fullmoon-library.reaction"
+msgid ""
+"Full-moon library count opens; three abstaining books ask whether abstention "
+"is checked out"
+msgstr ""
+"Full-moon library count opens; three abstaining books ask whether abstention "
+"is checked out"
+
+#. governanceProposals.red-thread-appeal.sponsor
+#: src/data/governance.js:36
+msgctxt "text:governanceProposals.red-thread-appeal.sponsor"
+msgid "Red-Thread Review Desk and Campus Corrections"
+msgstr "Red-Thread Review Desk and Campus Corrections"
+
+#. governanceProposals.red-thread-appeal.title
+#: src/data/governance.js:37
+msgctxt "text:governanceProposals.red-thread-appeal.title"
+msgid "How large must the warning be when citing a contested closure?"
+msgstr "How large must the warning be when citing a contested closure?"
+
+#. governanceProposals.red-thread-appeal.summary
+#: src/data/governance.js:38
+msgctxt "text:governanceProposals.red-thread-appeal.summary"
+msgid ""
+"Keine wants warnings as large as headlines. Aya says that makes the warning "
+"a second headline requiring its own correction."
+msgstr ""
+"Keine wants warnings as large as headlines. Aya says that makes the warning "
+"a second headline requiring its own correction."
+
+#. governanceProposals.red-thread-appeal.choices.same-size.label
+#: src/data/governance.js:40
+msgctxt "text:governanceProposals.red-thread-appeal.choices.same-size.label"
+msgid "Same size and same view as the claim"
+msgstr "Same size and same view as the claim"
+
+#. governanceProposals.red-thread-appeal.choices.same-size.consequence
+#: src/data/governance.js:40
+msgctxt "text:governanceProposals.red-thread-appeal.choices.same-size.consequence"
+msgid "Hardest to miss; newspaper space falls forty percent."
+msgstr "Hardest to miss; newspaper space falls forty percent."
+
+#. governanceProposals.red-thread-appeal.choices.red-border.label
+#: src/data/governance.js:41
+msgctxt "text:governanceProposals.red-thread-appeal.choices.red-border.label"
+msgid "Red border + reviewer + original verdict"
+msgstr "Red border + reviewer + original verdict"
+
+#. governanceProposals.red-thread-appeal.choices.red-border.consequence
+#: src/data/governance.js:41
+msgctxt "text:governanceProposals.red-thread-appeal.choices.red-border.consequence"
+msgid "Keeps context; Yukari asks where the border itself belongs."
+msgstr "Keeps context; Yukari asks where the border itself belongs."
+
+#. governanceProposals.red-thread-appeal.choices.headline.label
+#: src/data/governance.js:42
+msgctxt "text:governanceProposals.red-thread-appeal.choices.headline.label"
+msgid "Aya decides; one error pauses publication 15 minutes"
+msgstr "Aya decides; one error pauses publication 15 minutes"
+
+#. governanceProposals.red-thread-appeal.choices.headline.consequence
+#: src/data/governance.js:42
+msgctxt "text:governanceProposals.red-thread-appeal.choices.headline.consequence"
+msgid "Fastest; an extra edition usually appears during the pause."
+msgstr "Fastest; an extra edition usually appears during the pause."
+
+#. governanceProposals.red-thread-appeal.reaction
+#: src/data/governance.js:44
+msgctxt "text:governanceProposals.red-thread-appeal.reaction"
+msgid ""
+"Red-thread warning bill reaches second reading; Aya preprints “University "
+"limits font freedom”"
+msgstr ""
+"Red-thread warning bill reaches second reading; Aya preprints “University "
+"limits font freedom”"
+
+#. governanceProposals.canteen-names.sponsor
+#: src/data/governance.js:50
+msgctxt "text:governanceProposals.canteen-names.sponsor"
+msgid "Dining Naming Committee (formed after lunch)"
+msgstr "Dining Naming Committee (formed after lunch)"
+
+#. governanceProposals.canteen-names.title
+#: src/data/governance.js:51
+msgctxt "text:governanceProposals.canteen-names.title"
+msgid "Must a menu name allow inference of its main ingredient?"
+msgstr "Must a menu name allow inference of its main ingredient?"
+
+#. governanceProposals.canteen-names.summary
+#: src/data/governance.js:52
+msgctxt "text:governanceProposals.canteen-names.summary"
+msgid ""
+"Yesterday Boundary Bowl contained tofu; today it contains the boundary "
+"between bowl and outside. Nutrition refuses to calculate protein for the "
+"latter."
+msgstr ""
+"Yesterday Boundary Bowl contained tofu; today it contains the boundary "
+"between bowl and outside. Nutrition refuses to calculate protein for the "
+"latter."
+
+#. governanceProposals.canteen-names.choices.ingredient.label
+#: src/data/governance.js:54
+msgctxt "text:governanceProposals.canteen-names.choices.ingredient.label"
+msgid "Name at least one edible ingredient"
+msgstr "Name at least one edible ingredient"
+
+#. governanceProposals.canteen-names.choices.ingredient.consequence
+#: src/data/governance.js:54
+msgctxt "text:governanceProposals.canteen-names.choices.ingredient.consequence"
+msgid "Safest for outsiders; Youmu files “half” as an ingredient."
+msgstr "Safest for outsiders; Youmu files “half” as an ingredient."
+
+#. governanceProposals.canteen-names.choices.footnote.label
+#: src/data/governance.js:55
+msgctxt "text:governanceProposals.canteen-names.choices.footnote.label"
+msgid "Keep poetic names with a traceable footnote"
+msgstr "Keep poetic names with a traceable footnote"
+
+#. governanceProposals.canteen-names.choices.footnote.consequence
+#: src/data/governance.js:55
+msgctxt "text:governanceProposals.canteen-names.choices.footnote.consequence"
+msgid "Dining agrees; today’s footnote is longer than the name."
+msgstr "Dining agrees; today’s footnote is longer than the name."
+
+#. governanceProposals.canteen-names.choices.mystery.label
+#: src/data/governance.js:56
+msgctxt "text:governanceProposals.canteen-names.choices.mystery.label"
+msgid "Keep one non-inferable dish each day"
+msgstr "Keep one non-inferable dish each day"
+
+#. governanceProposals.canteen-names.choices.mystery.consequence
+#: src/data/governance.js:56
+msgctxt "text:governanceProposals.canteen-names.choices.mystery.consequence"
+msgid "Highest research value; Allergies Office votes no."
+msgstr "Highest research value; Allergies Office votes no."
+
+#. governanceProposals.canteen-names.reaction
+#: src/data/governance.js:58
+msgctxt "text:governanceProposals.canteen-names.reaction"
+msgid "Dining-name vote opens; Today’s Special requests stakeholder speaking time"
+msgstr "Dining-name vote opens; Today’s Special requests stakeholder speaking time"

@@ -1,0 +1,670 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. identityKinds.human
+#: src/data/mytu.js:4
+msgctxt "text:identityKinds.human"
+msgid "Human"
+msgstr "Human"
+
+#. identityKinds.youkai
+#: src/data/mytu.js:5
+msgctxt "text:identityKinds.youkai"
+msgid "Youkai"
+msgstr "Youkai"
+
+#. identityKinds.fairy
+#: src/data/mytu.js:6
+msgctxt "text:identityKinds.fairy"
+msgid "Fairy"
+msgstr "Fairy"
+
+#. identityKinds.magician
+#: src/data/mytu.js:7
+msgctxt "text:identityKinds.magician"
+msgid "Magician"
+msgstr "Magician"
+
+#. identityKinds.spirit
+#: src/data/mytu.js:8
+msgctxt "text:identityKinds.spirit"
+msgid "Ghost / spirit"
+msgstr "Ghost / spirit"
+
+#. identityKinds.lunar
+#: src/data/mytu.js:9
+msgctxt "text:identityKinds.lunar"
+msgid "Lunarian / moon rabbit"
+msgstr "Lunarian / moon rabbit"
+
+#. identityKinds.other
+#: src/data/mytu.js:10
+msgctxt "text:identityKinds.other"
+msgid "Other / undecided"
+msgstr "Other / undecided"
+
+#. originKinds.gensokyo
+#: src/data/mytu.js:14
+msgctxt "text:originKinds.gensokyo"
+msgid "Gensokyo resident"
+msgstr "Gensokyo resident"
+
+#. originKinds.outside
+#: src/data/mytu.js:15
+msgctxt "text:originKinds.outside"
+msgid "Outside World visitor"
+msgstr "Outside World visitor"
+
+#. originKinds.lunar
+#: src/data/mytu.js:16
+msgctxt "text:originKinds.lunar"
+msgid "Moon / Lunar Capital"
+msgstr "Moon / Lunar Capital"
+
+#. originKinds.shifting
+#: src/data/mytu.js:17
+msgctxt "text:originKinds.shifting"
+msgid "Residence moves"
+msgstr "Residence moves"
+
+#. reviewers.reimu.name
+#: src/data/mytu.js:32
+msgctxt "text:reviewers.reimu.name"
+msgid "Reimu Hakurei"
+msgstr "Reimu Hakurei"
+
+#. reviewers.reimu.role
+#: src/data/mytu.js:33
+msgctxt "text:reviewers.reimu.role"
+msgid "Professor of Incident Response"
+msgstr "Professor of Incident Response"
+
+#. reviewers.reimu.note
+#: src/data/mytu.js:35
+msgctxt "text:reviewers.reimu.note"
+msgid ""
+"Proceed, but incident response is not an excuse to skip exit conditions or a "
+"no-Bomb constraint. If the shrine barrier breaks, the lab repairs it."
+msgstr ""
+"Proceed, but incident response is not an excuse to skip exit conditions or a "
+"no-Bomb constraint. If the shrine barrier breaks, the lab repairs it."
+
+#. reviewers.yukari.name
+#: src/data/mytu.js:38
+msgctxt "text:reviewers.yukari.name"
+msgid "Yukari Yakumo"
+msgstr "Yukari Yakumo"
+
+#. reviewers.yukari.role
+#: src/data/mytu.js:39
+msgctxt "text:reviewers.yukari.role"
+msgid "Founding Professor of Boundary Studies"
+msgstr "Founding Professor of Boundary Studies"
+
+#. reviewers.yukari.note
+#: src/data/mytu.js:41
+msgctxt "text:reviewers.yukari.note"
+msgid ""
+"The question has reached a boundary worth studying. Approved for interview; "
+"whether the interview is inside or outside campus will be defined that day."
+msgstr ""
+"The question has reached a boundary worth studying. Approved for interview; "
+"whether the interview is inside or outside campus will be defined that day."
+
+#. reviewers.keine.name
+#: src/data/mytu.js:44
+msgctxt "text:reviewers.keine.name"
+msgid "Keine Kamishirasawa"
+msgstr "Keine Kamishirasawa"
+
+#. reviewers.keine.role
+#: src/data/mytu.js:45
+msgctxt "text:reviewers.keine.role"
+msgid "Dean of History and Records"
+msgstr "Dean of History and Records"
+
+#. reviewers.keine.note
+#: src/data/mytu.js:47
+msgctxt "text:reviewers.keine.note"
+msgid ""
+"Separate what happened, who recorded it, and which version was allowed to "
+"remain. The current method still treats later narration as contemporary "
+"evidence."
+msgstr ""
+"Separate what happened, who recorded it, and which version was allowed to "
+"remain. The current method still treats later narration as contemporary "
+"evidence."
+
+#. reviewers.patchouli.name
+#: src/data/mytu.js:50
+msgctxt "text:reviewers.patchouli.name"
+msgid "Patchouli Knowledge"
+msgstr "Patchouli Knowledge"
+
+#. reviewers.patchouli.role
+#: src/data/mytu.js:51
+msgctxt "text:reviewers.patchouli.role"
+msgid "Professor of Elemental Theory"
+msgstr "Professor of Elemental Theory"
+
+#. reviewers.patchouli.note
+#: src/data/mytu.js:53
+msgctxt "text:reviewers.patchouli.note"
+msgid ""
+"“Difficult” is not an operational variable. Separate danmaku readability, "
+"control latency, route solving, and resource limits, then identify what can "
+"be falsified."
+msgstr ""
+"“Difficult” is not an operational variable. Separate danmaku readability, "
+"control latency, route solving, and resource limits, then identify what can "
+"be falsified."
+
+#. reviewers.marisa.name
+#: src/data/mytu.js:56
+msgctxt "text:reviewers.marisa.name"
+msgid "Marisa Kirisame"
+msgstr "Marisa Kirisame"
+
+#. reviewers.marisa.role
+#: src/data/mytu.js:57
+msgctxt "text:reviewers.marisa.role"
+msgid "Professor of Applied Magic"
+msgstr "Professor of Applied Magic"
+
+#. reviewers.marisa.note
+#: src/data/mytu.js:59
+msgctxt "text:reviewers.marisa.note"
+msgid ""
+"If the method runs, run it. Submit three reproducible failures and material "
+"provenance before the formal trial; “found in the forest” counts as half a "
+"field."
+msgstr ""
+"If the method runs, run it. Submit three reproducible failures and material "
+"provenance before the formal trial; “found in the forest” counts as half a "
+"field."
+
+#. reviewers.eirin.name
+#: src/data/mytu.js:62
+msgctxt "text:reviewers.eirin.name"
+msgid "Eirin Yagokoro"
+msgstr "Eirin Yagokoro"
+
+#. reviewers.eirin.role
+#: src/data/mytu.js:63
+msgctxt "text:reviewers.eirin.role"
+msgid "Dean of Lunar Medicine"
+msgstr "Dean of Lunar Medicine"
+
+#. reviewers.eirin.note
+#: src/data/mytu.js:65
+msgctxt "text:reviewers.eirin.note"
+msgid ""
+"The question may proceed. Record lunar response separately from fatigue. "
+"Housing is provisionally near the bamboo clinic route; do not follow the "
+"fourth lantern."
+msgstr ""
+"The question may proceed. Record lunar response separately from fatigue. "
+"Housing is provisionally near the bamboo clinic route; do not follow the "
+"fourth lantern."
+
+#. reviewers.nitori.name
+#: src/data/mytu.js:68
+msgctxt "text:reviewers.nitori.name"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. reviewers.nitori.role
+#: src/data/mytu.js:69
+msgctxt "text:reviewers.nitori.role"
+msgid "Dean of Kappa Engineering"
+msgstr "Dean of Kappa Engineering"
+
+#. reviewers.nitori.note
+#: src/data/mytu.js:71
+msgctxt "text:reviewers.nitori.note"
+msgid ""
+"Prototype approved. Log inputs, outputs, failure timestamps, and tape batch "
+"together. If the box cannot be opened, it is not maintainable."
+msgstr ""
+"Prototype approved. Log inputs, outputs, failure timestamps, and tape batch "
+"together. If the box cannot be opened, it is not maintainable."
+
+#. reviewers.aya.name
+#: src/data/mytu.js:74
+msgctxt "text:reviewers.aya.name"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. reviewers.aya.role
+#: src/data/mytu.js:75
+msgctxt "text:reviewers.aya.role"
+msgid "Dean of Tengu Journalism"
+msgstr "Dean of Tengu Journalism"
+
+#. reviewers.aya.note
+#: src/data/mytu.js:77
+msgctxt "text:reviewers.aya.note"
+msgid ""
+"The abstract belongs on page one, which is exactly why its claim must "
+"shrink. Add a source chain and public-correction plan before I invent the "
+"headline."
+msgstr ""
+"The abstract belongs on page one, which is exactly why its claim must "
+"shrink. Add a source chain and public-correction plan before I invent the "
+"headline."
+
+#. reviewers.byakuren.name
+#: src/data/mytu.js:80
+msgctxt "text:reviewers.byakuren.name"
+msgid "Byakuren Hijiri"
+msgstr "Byakuren Hijiri"
+
+#. reviewers.byakuren.role
+#: src/data/mytu.js:81
+msgctxt "text:reviewers.byakuren.role"
+msgid "Rotating Professor of Coexistence Practice"
+msgstr "Rotating Professor of Coexistence Practice"
+
+#. reviewers.byakuren.note
+#: src/data/mytu.js:83
+msgctxt "text:reviewers.byakuren.note"
+msgid ""
+"The question recognizes costs borne by different bodies and lifespans. "
+"Proceed, but include those who leave no written record in the next method."
+msgstr ""
+"The question recognizes costs borne by different bodies and lifespans. "
+"Proceed, but include those who leave no written record in the next method."
+
+#. reviewers.kanako.name
+#: src/data/mytu.js:86
+msgctxt "text:reviewers.kanako.name"
+msgid "Kanako Yasaka"
+msgstr "Kanako Yasaka"
+
+#. reviewers.kanako.role
+#: src/data/mytu.js:87
+msgctxt "text:reviewers.kanako.role"
+msgid "Rotating Professor of Faith Infrastructure"
+msgstr "Rotating Professor of Faith Infrastructure"
+
+#. reviewers.kanako.note
+#: src/data/mytu.js:89
+msgctxt "text:reviewers.kanako.note"
+msgid ""
+"The principle is sound; the resource table is not. Name who powers, repairs, "
+"and receives festival priority. Faith does not generate an omitted budget "
+"line."
+msgstr ""
+"The principle is sound; the resource table is not. Name who powers, repairs, "
+"and receives festival priority. Faith does not generate an omitted budget "
+"line."
+
+#. reviewers.miko.name
+#: src/data/mytu.js:92
+msgctxt "text:reviewers.miko.name"
+msgid "Toyosatomimi no Miko"
+msgstr "Toyosatomimi no Miko"
+
+#. reviewers.miko.role
+#: src/data/mytu.js:93
+msgctxt "text:reviewers.miko.role"
+msgid "Rotating Professor of Public Leadership"
+msgstr "Rotating Professor of Public Leadership"
+
+#. reviewers.miko.note
+#: src/data/mytu.js:95
+msgctxt "text:reviewers.miko.note"
+msgid ""
+"I hear eleven desires, but the application answers only three. State which "
+"requests you will not satisfy and who bears that decision."
+msgstr ""
+"I hear eleven desires, but the application answers only three. State which "
+"requests you will not satisfy and who bears that decision."
+
+#. reviewerCommentary.reimu.question
+#: src/data/mytu.js:101
+msgctxt "text:reviewerCommentary.reimu.question"
+msgid ""
+"State where this becomes an incident and where it stops being my problem. "
+"The question may be strange; the responsibility boundary may not simply sit "
+"outside the shrine."
+msgstr ""
+"State where this becomes an incident and where it stops being my problem. "
+"The question may be strange; the responsibility boundary may not simply sit "
+"outside the shrine."
+
+#. reviewerCommentary.reimu.method
+#: src/data/mytu.js:102
+msgctxt "text:reviewerCommentary.reimu.method"
+msgid ""
+"The method needs a real way to stop, clean up, and get back to dinner. Start "
+"conditions without exit conditions are not approved."
+msgstr ""
+"The method needs a real way to stop, clean up, and get back to dinner. Start "
+"conditions without exit conditions are not approved."
+
+#. reviewerCommentary.reimu.needs
+#: src/data/mytu.js:103
+msgctxt "text:reviewerCommentary.reimu.needs"
+msgid ""
+"Ask for what you need, but do not count a free venue, free repairs, and a "
+"free shrine maiden as one resource."
+msgstr ""
+"Ask for what you need, but do not count a free venue, free repairs, and a "
+"free shrine maiden as one resource."
+
+#. reviewerCommentary.yukari.question
+#: src/data/mytu.js:106
+msgctxt "text:reviewerCommentary.yukari.question"
+msgid ""
+"The interesting part is which side the question quietly holds fixed. Bring a "
+"version that still works when that assumption fails."
+msgstr ""
+"The interesting part is which side the question quietly holds fixed. Bring a "
+"version that still works when that assumption fails."
+
+#. reviewerCommentary.yukari.method
+#: src/data/mytu.js:107
+msgctxt "text:reviewerCommentary.yukari.method"
+msgid ""
+"Your observation point appears to have only one address. Explain who remains "
+"the observer when the two sides of that address exchange places."
+msgstr ""
+"Your observation point appears to have only one address. Explain who remains "
+"the observer when the two sides of that address exchange places."
+
+#. reviewerCommentary.yukari.needs
+#: src/data/mytu.js:108
+msgctxt "text:reviewerCommentary.yukari.needs"
+msgid ""
+"Support can be approved, but near and reachable are not the same housing "
+"condition. Boundary Studies reserves the right to reinterpret one of them."
+msgstr ""
+"Support can be approved, but near and reachable are not the same housing "
+"condition. Boundary Studies reserves the right to reinterpret one of them."
+
+#. reviewerCommentary.keine.question
+#: src/data/mytu.js:111
+msgctxt "text:reviewerCommentary.keine.question"
+msgid ""
+"Separate the event, its recorder, and the later interpretation. At least one "
+"sentence may be treating recollection as a same-day record."
+msgstr ""
+"Separate the event, its recorder, and the later interpretation. At least one "
+"sentence may be treating recollection as a same-day record."
+
+#. reviewerCommentary.keine.method
+#: src/data/mytu.js:112
+msgctxt "text:reviewerCommentary.keine.method"
+msgid ""
+"The method can run, but every correction must retain the previous version "
+"and date. A correct answer without a version remains unsourced."
+msgstr ""
+"The method can run, but every correction must retain the previous version "
+"and date. A correct answer without a version remains unsourced."
+
+#. reviewerCommentary.keine.needs
+#: src/data/mytu.js:113
+msgctxt "text:reviewerCommentary.keine.needs"
+msgid ""
+"Needs will enter the record. Blank fields are recorded as not declared at "
+"application, not later rewritten as always having been so."
+msgstr ""
+"Needs will enter the record. Blank fields are recorded as not declared at "
+"application, not later rewritten as always having been so."
+
+#. reviewerCommentary.patchouli.question
+#: src/data/mytu.js:116
+msgctxt "text:reviewerCommentary.patchouli.question"
+msgid ""
+"The question mixes at least two quantities that can vary separately. Name "
+"them before deciding which deserves magical expenditure."
+msgstr ""
+"The question mixes at least two quantities that can vary separately. Name "
+"them before deciding which deserves magical expenditure."
+
+#. reviewerCommentary.patchouli.method
+#: src/data/mytu.js:117
+msgctxt "text:reviewerCommentary.patchouli.method"
+msgid ""
+"Observation is not a synonym for method. Add a comparison, a failure rule, "
+"and the claim you will abandon if the result reverses."
+msgstr ""
+"Observation is not a synonym for method. Add a comparison, a failure rule, "
+"and the claim you will abandon if the result reverses."
+
+#. reviewerCommentary.patchouli.needs
+#: src/data/mytu.js:118
+msgctxt "text:reviewerCommentary.patchouli.needs"
+msgid ""
+"Equipment needs are negotiable. Put material batch, storage condition, and "
+"return date in the table first. The library does not accept should still be "
+"there."
+msgstr ""
+"Equipment needs are negotiable. Put material batch, storage condition, and "
+"return date in the table first. The library does not accept should still be "
+"there."
+
+#. reviewerCommentary.marisa.question
+#: src/data/mytu.js:121
+msgctxt "text:reviewerCommentary.marisa.question"
+msgid ""
+"This looks runnable and may blow up the original answer—good. Submit the "
+"cheapest version that can fail quickly."
+msgstr ""
+"This looks runnable and may blow up the original answer—good. Submit the "
+"cheapest version that can fail quickly."
+
+#. reviewerCommentary.marisa.method
+#: src/data/mytu.js:122
+msgctxt "text:reviewerCommentary.marisa.method"
+msgid ""
+"You have steps; now make a record that lets someone else fail in the same "
+"place. Give full provenance. Forest is not a supplier name."
+msgstr ""
+"You have steps; now make a record that lets someone else fail in the same "
+"place. Give full provenance. Forest is not a supplier name."
+
+#. reviewerCommentary.marisa.needs
+#: src/data/mytu.js:123
+msgctxt "text:reviewerCommentary.marisa.needs"
+msgid ""
+"List what you want to borrow; I will say what is available and what I "
+"already borrowed. If housed near the workshop, do not complain about "
+"reproducible midnight noise."
+msgstr ""
+"List what you want to borrow; I will say what is available and what I "
+"already borrowed. If housed near the workshop, do not complain about "
+"reproducible midnight noise."
+
+#. reviewerCommentary.eirin.question
+#: src/data/mytu.js:126
+msgctxt "text:reviewerCommentary.eirin.question"
+msgid ""
+"The question may proceed, but individual variation, lunar phase, and fatigue "
+"currently share one sentence. Give each its own field."
+msgstr ""
+"The question may proceed, but individual variation, lunar phase, and fatigue "
+"currently share one sentence. Give each its own field."
+
+#. reviewerCommentary.eirin.method
+#: src/data/mytu.js:127
+msgctxt "text:reviewerCommentary.eirin.method"
+msgid ""
+"Write stopping conditions before dose or exposure. A participant saying "
+"probably fine must not be automatically encoded as fine."
+msgstr ""
+"Write stopping conditions before dose or exposure. A participant saying "
+"probably fine must not be automatically encoded as fine."
+
+#. reviewerCommentary.eirin.needs
+#: src/data/mytu.js:128
+msgctxt "text:reviewerCommentary.eirin.needs"
+msgid ""
+"Support can be arranged, but medical care, lunar load reduction, and "
+"ordinary sleep-loss recovery are separate slips. If Tewi staples them "
+"together, hand them to Reisen."
+msgstr ""
+"Support can be arranged, but medical care, lunar load reduction, and "
+"ordinary sleep-loss recovery are separate slips. If Tewi staples them "
+"together, hand them to Reisen."
+
+#. reviewerCommentary.nitori.question
+#: src/data/mytu.js:131
+msgctxt "text:reviewerCommentary.nitori.question"
+msgid ""
+"This can become a prototype. Define input, output, and what still counts as "
+"success when smoke leaves the box."
+msgstr ""
+"This can become a prototype. Define input, output, and what still counts as "
+"success when smoke leaves the box."
+
+#. reviewerCommentary.nitori.method
+#: src/data/mytu.js:132
+msgctxt "text:reviewerCommentary.nitori.method"
+msgid ""
+"Add failure timestamp, version, and tape batch. Machines documented only by "
+"finished photos usually break between photographs."
+msgstr ""
+"Add failure timestamp, version, and tape batch. Machines documented only by "
+"finished photos usually break between photographs."
+
+#. reviewerCommentary.nitori.needs
+#: src/data/mytu.js:133
+msgctxt "text:reviewerCommentary.nitori.needs"
+msgid ""
+"Workshop space and water access can be scheduled, but maintenance clearance "
+"belongs in the request. A pretty box that cannot open is not maintainable, "
+"only expensive."
+msgstr ""
+"Workshop space and water access can be scheduled, but maintenance clearance "
+"belongs in the request. A pretty box that cannot open is not maintainable, "
+"only expensive."
+
+#. reviewerCommentary.aya.question
+#: src/data/mytu.js:136
+msgctxt "text:reviewerCommentary.aya.question"
+msgid ""
+"The question already sounds like a headline, but not a correctable one. "
+"State what new evidence would force you to replace its verb."
+msgstr ""
+"The question already sounds like a headline, but not a correctable one. "
+"State what new evidence would force you to replace its verb."
+
+#. reviewerCommentary.aya.method
+#: src/data/mytu.js:137
+msgctxt "text:reviewerCommentary.aya.method"
+msgid ""
+"Separate source, observer, and relayer. Anonymous is allowed; no source "
+"chain is not. This rule also applies to my newspaper."
+msgstr ""
+"Separate source, observer, and relayer. Anonymous is allowed; no source "
+"chain is not. This rule also applies to my newspaper."
+
+#. reviewerCommentary.aya.needs
+#: src/data/mytu.js:138
+msgctxt "text:reviewerCommentary.aya.needs"
+msgid ""
+"Mark what cannot be public before listing public needs. If left blank, I may "
+"assume the space suits a headline; that is usually bad for both sides."
+msgstr ""
+"Mark what cannot be public before listing public needs. If left blank, I may "
+"assume the space suits a headline; that is usually bad for both sides."
+
+#. reviewerCommentary.byakuren.question
+#: src/data/mytu.js:141
+msgctxt "text:reviewerCommentary.byakuren.question"
+msgid ""
+"The question sees difference but not who bears the cost of comparison. "
+"Include lifespan, body, and those unable to leave text."
+msgstr ""
+"The question sees difference but not who bears the cost of comparison. "
+"Include lifespan, body, and those unable to leave text."
+
+#. reviewerCommentary.byakuren.method
+#: src/data/mytu.js:142
+msgctxt "text:reviewerCommentary.byakuren.method"
+msgid ""
+"If everyone must participate identically, convenience is being called "
+"fairness. Keep at least one path a different body can complete."
+msgstr ""
+"If everyone must participate identically, convenience is being called "
+"fairness. Keep at least one path a different body can complete."
+
+#. reviewerCommentary.byakuren.needs
+#: src/data/mytu.js:143
+msgctxt "text:reviewerCommentary.byakuren.needs"
+msgid ""
+"Support is not an attachment added after review. Put food, access, and rest "
+"in the main plan or those excluded first will never appear in the results."
+msgstr ""
+"Support is not an attachment added after review. Put food, access, and rest "
+"in the main plan or those excluded first will never appear in the results."
+
+#. reviewerCommentary.kanako.question
+#: src/data/mytu.js:146
+msgctxt "text:reviewerCommentary.kanako.question"
+msgid ""
+"The principle is large enough. Connect it to a line that supplies power, "
+"water, or people. Public value does not generate electricity from a title."
+msgstr ""
+"The principle is large enough. Connect it to a line that supplies power, "
+"water, or people. Public value does not generate electricity from a title."
+
+#. reviewerCommentary.kanako.method
+#: src/data/mytu.js:147
+msgctxt "text:reviewerCommentary.kanako.method"
+msgid ""
+"Name maintenance, shutdown time, and festival priority. Consensus without an "
+"operating schedule is usually someone else’s overtime."
+msgstr ""
+"Name maintenance, shutdown time, and festival priority. Consensus without an "
+"operating schedule is usually someone else’s overtime."
+
+#. reviewerCommentary.kanako.needs
+#: src/data/mytu.js:148
+msgctxt "text:reviewerCommentary.kanako.needs"
+msgid ""
+"Resources are negotiable, but separate required capacity, desired capacity, "
+"and capacity Kanako believes you will eventually need. They occupy different "
+"budget lines."
+msgstr ""
+"Resources are negotiable, but separate required capacity, desired capacity, "
+"and capacity Kanako believes you will eventually need. They occupy different "
+"budget lines."
+
+#. reviewerCommentary.miko.question
+#: src/data/mytu.js:151
+msgctxt "text:reviewerCommentary.miko.question"
+msgid ""
+"I hear more desires than the question declares. State which will not be "
+"satisfied and who will publicly say no."
+msgstr ""
+"I hear more desires than the question declares. State which will not be "
+"satisfied and who will publicly say no."
+
+#. reviewerCommentary.miko.method
+#: src/data/mytu.js:152
+msgctxt "text:reviewerCommentary.miko.method"
+msgid ""
+"The method lists actions but not decision-makers. Every turn needs an "
+"accountable person; everyone agreed is not a name that can be summoned."
+msgstr ""
+"The method lists actions but not decision-makers. Every turn needs an "
+"accountable person; everyone agreed is not a name that can be summoned."
+
+#. reviewerCommentary.miko.needs
+#: src/data/mytu.js:153
+msgctxt "text:reviewerCommentary.miko.needs"
+msgid ""
+"Priorities cannot first appear after conflict. Rank them now; I would rather "
+"not hear eleven people simultaneously claim to be first."
+msgstr ""
+"Priorities cannot first appear after conflict. Rank them now; I would rather "
+"not hear eleven people simultaneously claim to be first."

@@ -1,0 +1,130 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/from
+#: src/js/map.js:18
+msgctxt "tree:copy#/from"
+msgid "From"
+msgstr "出発地"
+
+#. copy/to
+#: src/js/map.js:18
+msgctxt "tree:copy#/to"
+msgid "To"
+msgstr "目的地"
+
+#. copy/mode
+#: src/js/map.js:18
+msgctxt "tree:copy#/mode"
+msgid "Travel mode"
+msgstr "交通手段"
+
+#. copy/plan
+#: src/js/map.js:18
+msgctxt "tree:copy#/plan"
+msgid "Plan route"
+msgstr "経路を検索"
+
+#. copy/min
+#: src/js/map.js:18
+msgctxt "tree:copy#/min"
+msgid "min"
+msgstr "分"
+
+#. copy/metres
+#: src/js/map.js:18
+msgctxt "tree:copy#/metres"
+msgid "metres"
+msgstr "メートル"
+
+#. copy/arrival
+#: src/js/map.js:18
+msgctxt "tree:copy#/arrival"
+msgid "Estimated arrival"
+msgstr "到着予定"
+
+#. copy/route
+#: src/js/map.js:18
+msgctxt "tree:copy#/route"
+msgid "Route distance"
+msgstr "経路距離"
+
+#. copy/transfer
+#: src/js/map.js:18
+msgctxt "tree:copy#/transfer"
+msgid "includes walking links / waiting"
+msgstr "徒歩接続・待ち時間込み"
+
+#. copy/walkingOnly
+#: src/js/map.js:18
+msgctxt "tree:copy#/walkingOnly"
+msgid "Walking is still faster for this trip"
+msgstr "この区間は徒歩のほうが速い"
+
+#. copy/same
+#: src/js/map.js:18
+msgctxt "tree:copy#/same"
+msgid "You are already there. Look up at the building sign."
+msgstr "すでに目的地です。校名板を見上げてください。"
+
+#. copy/start
+#: src/js/map.js:18
+msgctxt "tree:copy#/start"
+msgid "Start here"
+msgstr "ここから出発"
+
+#. copy/live
+#: src/js/map.js:18
+msgctxt "tree:copy#/live"
+msgid "Live campus conditions"
+msgstr "現在のキャンパス経路"
+
+#. copy/unavailable
+#: src/js/map.js:18
+msgctxt "tree:copy#/unavailable"
+msgid "Unavailable this period"
+msgstr "この時間は停止"
+
+#. copy/restrictions
+#: src/js/map.js:18
+msgctxt "tree:copy#/restrictions"
+msgid "Live restrictions are included in this route"
+msgstr "動的規制を経路計算へ反映済み"
+
+#. copy/openNow
+#: src/js/map.js:18
+msgctxt "tree:copy#/openNow"
+msgid "Open now"
+msgstr "開館中"
+
+#. copy/closedNow
+#: src/js/map.js:18
+msgctxt "tree:copy#/closedNow"
+msgid "Currently closed"
+msgstr "現在閉館"
+
+#. copy/seatsFree
+#: src/js/map.js:18
+msgctxt "tree:copy#/seatsFree"
+msgid "places free"
+msgstr "空席"
+
+#. renderNotice
+#: src/js/map.js:275
+msgctxt "text:renderNotice"
+msgid "Inspect behind the crease ↘"
+msgstr "折り目の裏を確認する ↘"
+
+#. ninth
+#: src/js/map.js:261
+msgctxt "text:ninth"
+msgid ""
+" Marginal note: the north stair's ninth strike does not count toward today's "
+"journey time ({value0} seals on reverse)."
+msgstr "　欄外：北階段の第九打は本日の通行時間へ算入しない（裏面の印 {value0}）。"

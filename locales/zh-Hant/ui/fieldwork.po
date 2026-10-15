@@ -1,0 +1,770 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/eyebrow"
+msgid "FIELDWORK PASSPORT / DOMESTIC PLACEMENT × FIELD INQUIRY"
+msgstr "FIELDWORK PASSPORT / 境內實習 × 田野調查"
+
+#. copy/title
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/title"
+msgid "A map says how to go. A passport remembers why, what you saw, and who disagreed."
+msgstr "地圖告訴你怎麼去；護照還要記得你為什麼去、看見了什麼，以及誰不同意。"
+
+#. copy/lead
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/lead"
+msgid ""
+"Twenty-four stations have their own entry rules, supervisors, and "
+"complications. Obtain dispatch, check in, respond when something refuses to "
+"follow the plan, then return with observations, provenance, and a decision "
+"on research use."
+msgstr "二十四個實習站各有自己的入口規矩、帶隊人與麻煩。取得派遣令、現場報到、處理一宗不肯照表發生的事，再把觀察、來源鏈與研究使用決定一起帶回來。"
+
+#. copy/stationsTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/stationsTab"
+msgid "Twenty-four stations"
+msgstr "二十四站"
+
+#. copy/dispatchTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/dispatchTab"
+msgid "Dispatch desk"
+msgstr "派遣桌"
+
+#. copy/passportTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/passportTab"
+msgid "My passport"
+msgstr "我的護照"
+
+#. copy/recordsTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/recordsTab"
+msgid "Dispatch & returns"
+msgstr "派遣與回報"
+
+#. copy/stations
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/stations"
+msgid "stations"
+msgstr "實習站"
+
+#. copy/stamps
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/stamps"
+msgid "field seals"
+msgstr "枚場地印"
+
+#. copy/hours
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/hours"
+msgid "hours"
+msgstr "小時"
+
+#. copy/credits
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/credits"
+msgid "field credits"
+msgstr "田野學分"
+
+#. copy/active
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/active"
+msgid "on duty"
+msgstr "值勤中"
+
+#. copy/routeDesk
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/routeDesk"
+msgid "Today's route desk"
+msgstr "今日路線桌"
+
+#. copy/routeNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/routeNote"
+msgid "Moon, duty band, and mode change estimates; 'soon' is not a unit of time."
+msgstr "月相、時段與交通方式會改變預估；『很快』不是時間單位。"
+
+#. copy/search
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/search"
+msgid "Search station, supervisor, or work"
+msgstr "搜尋站名、帶隊人或工作"
+
+#. copy/allRegions
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/allRegions"
+msgid "All regions"
+msgstr "全部地域"
+
+#. copy/allDisciplines
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/allDisciplines"
+msgid "All fields"
+msgstr "全部領域"
+
+#. copy/show
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/show"
+msgid "Open station file"
+msgstr "打開站務檔案"
+
+#. copy/apply
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/apply"
+msgid "Prepare dispatch here"
+msgstr "以此站準備派遣"
+
+#. copy/mapHint
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/mapHint"
+msgid "Choose a wooden seal; the place may not retain the map's opinion."
+msgstr "點選木印；場地不保證和地圖維持相同意見。"
+
+#. copy/supervisor
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/supervisor"
+msgid "Field supervisor"
+msgstr "現場指導"
+
+#. copy/companion
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/companion"
+msgid "Collaborator / source of trouble"
+msgstr "協作／麻煩來源"
+
+#. copy/shift
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/shift"
+msgid "Duty window"
+msgstr "值勤時段"
+
+#. copy/risk
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/risk"
+msgid "Risk & stopping"
+msgstr "風險與停止"
+
+#. copy/access
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/access"
+msgid "Entry rule"
+msgstr "入口規矩"
+
+#. copy/ethics
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/ethics"
+msgid "Field ethics"
+msgstr "現場倫理"
+
+#. copy/equipment
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/equipment"
+msgid "Listed equipment"
+msgstr "指定裝備"
+
+#. copy/tasks
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/tasks"
+msgid "Available work"
+msgstr "本次可做的工作"
+
+#. copy/wrinkle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/wrinkle"
+msgid "Marginal forecast"
+msgstr "頁邊預告"
+
+#. copy/travel
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/travel"
+msgid "Travel mode"
+msgstr "出發方式"
+
+#. copy/estimated
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/estimated"
+msgid "Estimated"
+msgstr "預估"
+
+#. copy/min
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/min"
+msgid "min"
+msgstr "分鐘"
+
+#. copy/moon
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/moon"
+msgid "Today's moon"
+msgstr "今日月相"
+
+#. copy/duty
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/duty"
+msgid "Duty band"
+msgstr "當值時段"
+
+#. copy/dispatchTitle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/dispatchTitle"
+msgid "Complete domestic-placement dispatch"
+msgstr "填寫境內實習派遣令"
+
+#. copy/station
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/station"
+msgid "Station"
+msgstr "實習站"
+
+#. copy/fieldName
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/fieldName"
+msgid "Passport signature / duty name"
+msgstr "護照署名／值勤稱呼"
+
+#. copy/purpose
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/purpose"
+msgid "Field question for this visit"
+msgstr "這次要回答的田野問題"
+
+#. copy/purposePlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/purposePlaceholder"
+msgid ""
+"Example: compare the Scarlet duty log and relative timeline while retaining "
+"disagreement."
+msgstr "例：比較紅魔館值班簿與相對時間線，保留兩者不一致之處。"
+
+#. copy/departure
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/departure"
+msgid "Planned departure"
+msgstr "預定出發日"
+
+#. copy/ability
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/ability"
+msgid "Ability-use plan"
+msgstr "能力使用計畫"
+
+#. copy/emergency
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/emergency"
+msgid "Return / exit plan"
+msgstr "返校／退場計畫"
+
+#. copy/chooseGear
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/chooseGear"
+msgid "Carried equipment (missing items create conditions; they are not treated as packed)"
+msgstr "隨行裝備（少帶可附條件核准，不會假裝已經帶齊）"
+
+#. copy/acknowledge
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/acknowledge"
+msgid ""
+"I have read this station's risk, entry, and ethics notes. People, youkai, "
+"gods, spirits, and objects may still refuse."
+msgstr "我已讀過本站風險、入口規矩與倫理說明；現場的人、妖怪、神靈、幽靈與物件仍可拒絕。"
+
+#. copy/submit
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/submit"
+msgid "Submit to dispatch"
+msgstr "送交派遣桌"
+
+#. copy/clear
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/clear"
+msgid "New blank order"
+msgstr "換一張空白派遣令"
+
+#. copy/purposeError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/purposeError"
+msgid "Write at least twelve characters of a field question; 'look around' returns unchanged."
+msgstr "田野問題至少寫十二個字；『去看看』會被原樣退回。"
+
+#. copy/ethicsError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/ethicsError"
+msgid "Confirm the field ethics and refusal rule."
+msgstr "先確認已讀本站倫理與拒絕規則。"
+
+#. copy/activeError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/activeError"
+msgid "A passport is already in the field. Return for stamping before opening another route."
+msgstr "已有一份護照正在外勤；先返校蓋章再開下一條路。"
+
+#. copy/approved
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/approved"
+msgid "Dispatch approved"
+msgstr "核准派遣"
+
+#. copy/conditional
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/conditional"
+msgid "Conditional dispatch"
+msgstr "附條件派遣"
+
+#. copy/conditions
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/conditions"
+msgid "Pre-departure annex"
+msgstr "出發前附件"
+
+#. copy/permit
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/permit"
+msgid "Domestic Placement Dispatch Order"
+msgstr "境內實習派遣令"
+
+#. copy/permitLead
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/permitLead"
+msgid "This paper permits work; it does not permit bringing home everything you see."
+msgstr "這張紙允許你去工作，不允許你把所有看見的東西帶回來。"
+
+#. copy/printPermit
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/printPermit"
+msgid "Print dispatch / Save PDF"
+msgstr "列印派遣令／另存 PDF"
+
+#. copy/checkin
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/checkin"
+msgid "Verify entry and begin duty"
+msgstr "核驗入口，開始值勤"
+
+#. copy/checkinNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/checkinNote"
+msgid "Check-in reveals the complication this station kept for today."
+msgstr "報到後會揭開本站今天留給你的現場麻煩。"
+
+#. copy/fieldCase
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/fieldCase"
+msgid "Field deviation report"
+msgstr "現場偏差回報"
+
+#. copy/chooseResponse
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/chooseResponse"
+msgid "Choose a first response. None turns the field into a tidy success score."
+msgstr "選擇第一處置；沒有一個選項會把現場變成整齊的成功分數。"
+
+#. copy/responded
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/responded"
+msgid "First response entered into provenance"
+msgstr "第一處置已寫入來源鏈"
+
+#. copy/returnLog
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/returnLog"
+msgid "Return observation & source report"
+msgstr "返校觀察與來源回報"
+
+#. copy/observation
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/observation"
+msgid "Direct observation / work completed"
+msgstr "親眼觀察／實際完成"
+
+#. copy/observationPlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/observationPlaceholder"
+msgid "Separate seen, reported, and inferred. You may explicitly retain the unknown."
+msgstr "把看到的、聽來的與推測的分開寫；也可以明確留下不知道。"
+
+#. copy/sourceKind
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourceKind"
+msgid "Primary source form"
+msgstr "主要來源形式"
+
+#. copy/sourceNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourceNote"
+msgid "Source, version, and acquisition"
+msgstr "來源、版本與取得方式"
+
+#. copy/sourcePlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourcePlaceholder"
+msgid ""
+"Who said it, which version, which instrument, or how the object expressed "
+"itself; not merely 'field data'."
+msgstr "誰說的、哪一版、哪個儀器，或物件如何表達；不要只寫『現場資料』。"
+
+#. copy/evidenceCode
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/evidenceCode"
+msgid "Evidence / page / instrument-version code"
+msgstr "證物／頁碼／儀器版本代碼"
+
+#. copy/incident
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/incident"
+msgid "Deviation or incident"
+msgstr "偏差或事故類型"
+
+#. copy/incidentNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/incidentNote"
+msgid "Incident, medical, consent, or custody annex"
+msgstr "事故、醫療、同意或來源鏈附件"
+
+#. copy/incidentPlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/incidentPlaceholder"
+msgid "With no incident, retain deviation. With one, record stopping and notification."
+msgstr "若沒有事故，寫下仍存在的偏差；若有事故，記停止與通報。"
+
+#. copy/research
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/research"
+msgid "May this log become formal research data?"
+msgstr "這份日誌是否可成為正式研究資料"
+
+#. copy/complete
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/complete"
+msgid "Submit return and request supervisor seal"
+msgstr "提交返校回報並請指導者蓋章"
+
+#. copy/observationError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/observationError"
+msgid "Observation needs twenty characters; blank cannot testify for the field."
+msgstr "觀察至少二十個字；空白不能替現場作證。"
+
+#. copy/sourceError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourceError"
+msgid "Leave a traceable source description."
+msgstr "請留下可追溯的來源說明。"
+
+#. copy/report
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/report"
+msgid "Return certification & supervisor note"
+msgstr "返校認證與指導評語"
+
+#. copy/standing
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/standing"
+msgid "Supervisor standing"
+msgstr "指導評定"
+
+#. copy/strengths
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/strengths"
+msgid "What remained well"
+msgstr "保留得好的部分"
+
+#. copy/cautions
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/cautions"
+msgid "What stays beside the seal"
+msgstr "仍需夾在印章旁的問題"
+
+#. copy/researchDisposition
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/researchDisposition"
+msgid "Research-data disposition"
+msgstr "研究資料去向"
+
+#. copy/printReport
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/printReport"
+msgid "Print return / Save PDF"
+msgstr "列印返校卷／另存 PDF"
+
+#. copy/openBbs
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/openBbs"
+msgid "Open field rumours on BBS"
+msgstr "查看校園 BBS 的外勤風聲"
+
+#. copy/openMap
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/openMap"
+msgid "Open campus departure map"
+msgstr "打開校園出發地圖"
+
+#. copy/backStations
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/backStations"
+msgid "Back to twenty-four stations"
+msgstr "回二十四站"
+
+#. copy/passportTitle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/passportTitle"
+msgid "Domestic Placement & Field Inquiry Passport"
+msgstr "境內實習與田野調查護照"
+
+#. copy/passportLead
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/passportLead"
+msgid "A seal proves traceable learning returned; it does not prove every dispute was resolved."
+msgstr "印章證明你帶回了可追溯的學習，不證明每一場爭議都已解決。"
+
+#. copy/noStamps
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/noStamps"
+msgid "No seals yet. The first station file will not walk into the passport by itself."
+msgstr "護照尚未蓋章。第一個站務檔案不會自己走進護照。"
+
+#. copy/distinct
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/distinct"
+msgid "distinct stations"
+msgstr "個不同站"
+
+#. copy/disciplines
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/disciplines"
+msgid "fields"
+msgstr "個領域"
+
+#. copy/researchReady
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/researchReady"
+msgid "research-eligible logs"
+msgstr "份可申請研究使用"
+
+#. copy/contestedCount
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/contestedCount"
+msgid "red-thread seals"
+msgstr "枚帶紅線"
+
+#. copy/repeated
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/repeated"
+msgid "return visit"
+msgstr "再訪章"
+
+#. copy/first
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/first"
+msgid "first visit"
+msgstr "首訪章"
+
+#. copy/printPassport
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/printPassport"
+msgid "Print passport / Save PDF"
+msgstr "列印護照／另存 PDF"
+
+#. copy/recordsTitle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/recordsTitle"
+msgid "Dispatch, field duty & return files"
+msgstr "派遣令、外勤與返校卷"
+
+#. copy/noRecords
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/noRecords"
+msgid "No dispatch files yet; choose somewhere likely to cause trouble."
+msgstr "尚無派遣紀錄；你可以先在地圖上挑一個會惹麻煩的地方。"
+
+#. copy/openRecord
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/openRecord"
+msgid "Open file"
+msgstr "開啟卷宗"
+
+#. copy/statusApproved
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusApproved"
+msgid "Awaiting departure"
+msgstr "待出發"
+
+#. copy/statusConditional
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusConditional"
+msgid "Conditional · awaiting departure"
+msgstr "附條件・待出發"
+
+#. copy/statusDeployed
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusDeployed"
+msgid "Field duty"
+msgstr "現場值勤"
+
+#. copy/statusResponded
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusResponded"
+msgid "Awaiting return report"
+msgstr "待返校回報"
+
+#. copy/statusCompleted
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusCompleted"
+msgid "Returned & stamped"
+msgstr "已返校蓋章"
+
+#. copy/copied
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/copied"
+msgid "Passport-file link copied."
+msgstr "護照卷宗連結已複製。"
+
+#. copy/shared
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/shared"
+msgid "Copy file link"
+msgstr "複製此卷宗連結"
+
+#. copy/clearStanding
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/clearStanding"
+msgid "Clear & traceable"
+msgstr "清楚可追溯"
+
+#. copy/conditionalStanding
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/conditionalStanding"
+msgid "Retained with conditions"
+msgstr "附條件保留"
+
+#. copy/contestedStanding
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/contestedStanding"
+msgid "Dispute travels with seal"
+msgstr "爭議隨章同行"
+
+#. copy/saveHint
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/saveHint"
+msgid ""
+"Draft stays on this device. Dispatch, response, observation, and seals enter "
+"the records cabinet and My TU."
+msgstr "草稿只保存在這台裝置；派遣、處置、觀察與印章會進入本機資料櫃及 My TU。"
+
+#. copy/issued
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/issued"
+msgid "Dispatch saved; the site may still add today's condition."
+msgstr "派遣令已保存；場地今天仍可能提出新條件。"
+
+#. copy/departed
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/departed"
+msgid "Entry verified. The field now stops following the plan."
+msgstr "入口核驗完成。現場現在開始不照表運作。"
+
+#. copy/handled
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/handled"
+msgid "Response entered on the field slip; do not erase the dispute on return."
+msgstr "處置已寫入外勤票；返校時不要把爭議擦掉。"
+
+#. copy/completedToast
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/completedToast"
+msgid "Return certified; seal and red thread entered the passport."
+msgstr "返校認證完成；印章與紅線都已進入護照。"
+
+#. abilityOptions.none
+#: src/js/fieldwork.js:50
+msgctxt "text:abilityOptions.none"
+msgid "No ability use"
+msgstr "本次不使用能力"
+
+#. abilityOptions.declared
+#: src/js/fieldwork.js:51
+msgctxt "text:abilityOptions.declared"
+msgid "Purpose and stop command declared"
+msgstr "事前聲明用途與停止口令"
+
+#. abilityOptions.supervised
+#: src/js/fieldwork.js:52
+msgctxt "text:abilityOptions.supervised"
+msgid "Supervisor-present use only"
+msgstr "只在指導者在場時使用"
+
+#. abilityOptions.sealed
+#: src/js/fieldwork.js:53
+msgctxt "text:abilityOptions.sealed"
+msgid "Sealed before departure; jointly released after return"
+msgstr "出發前封印，返校後共同解封"
+
+#. emergencyOptions.return-bell
+#: src/js/fieldwork.js:57
+msgctxt "text:emergencyOptions.return-bell"
+msgid "Three-tone return bell"
+msgstr "三聲返校鈴"
+
+#. emergencyOptions.buddy-rope
+#: src/js/fieldwork.js:58
+msgctxt "text:emergencyOptions.buddy-rope"
+msgid "Buddy return rope"
+msgstr "雙人回程繩"
+
+#. emergencyOptions.host-escort
+#: src/js/fieldwork.js:59
+msgctxt "text:emergencyOptions.host-escort"
+msgid "Host-escorted exit"
+msgstr "場地主持陪同撤離"
+
+#. emergencyOptions.clinic-route
+#: src/js/fieldwork.js:60
+msgctxt "text:emergencyOptions.clinic-route"
+msgid "Pre-filed Eientei / infirmary route"
+msgstr "永遠亭／校醫務室預先路線"
+
+#. reviewItemLabels.observation
+#: src/js/fieldwork.js:78
+msgctxt "text:reviewItemLabels.observation"
+msgid "Direct observation remained separate from inference"
+msgstr "親眼觀察與推測分開保存"
+
+#. reviewItemLabels.provenance
+#: src/js/fieldwork.js:79
+msgctxt "text:reviewItemLabels.provenance"
+msgid "The primary source retained a traceable version"
+msgstr "主要來源留下了可追溯版本"
+
+#. reviewItemLabels.response-chain
+#: src/js/fieldwork.js:80
+msgctxt "text:reviewItemLabels.response-chain"
+msgid "The field response was joined to the provenance chain"
+msgstr "現場處置已接回來源鏈"
+
+#. reviewItemLabels.research-consent
+#: src/js/fieldwork.js:81
+msgctxt "text:reviewItemLabels.research-consent"
+msgid "Research-use scope was chosen explicitly"
+msgstr "研究使用範圍已明確選擇"
+
+#. reviewItemLabels.unresolved-dispute
+#: src/js/fieldwork.js:82
+msgctxt "text:reviewItemLabels.unresolved-dispute"
+msgid "The field dispute remains unresolved and must not be rewritten as consensus"
+msgstr "現場爭議仍未解決，不得改寫成共識"
+
+#. reviewItemLabels.reported-deviation
+#: src/js/fieldwork.js:83
+msgctxt "text:reviewItemLabels.reported-deviation"
+msgid "The deviation or incident annex must travel with the main file"
+msgstr "偏差／事故附件須與主卷同行"

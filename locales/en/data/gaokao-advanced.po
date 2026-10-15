@@ -1,0 +1,2990 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.3
+#: src/data/gaokao-advanced.js:17
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.3"
+msgid ""
+"[Paper 08:10] North Windway reopened.\n[Workshop note 08:06] Third support "
+"held with kappa tape; one-person load, awaiting reinspection.\n[Correction "
+"08:32] “Reopened” removed; “inspection staff only” substituted."
+msgstr ""
+"[Paper 08:10] North Windway reopened.\n[Workshop note 08:06] Third support "
+"held with kappa tape; one-person load, awaiting reinspection.\n[Correction "
+"08:32] “Reopened” removed; “inspection staff only” substituted."
+
+#. advancedGaokaoQuestions.language.0.HD-L01.4
+#: src/data/gaokao-advanced.js:18
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.4"
+msgid "Which description best states the error without turning an unproved motive into fact?"
+msgstr "Which description best states the error without turning an unproved motive into fact?"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.5.0
+#: src/data/gaokao-advanced.js:20
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.5.0"
+msgid "The 08:10 reporter deliberately hid a support failure already confirmed by the workshop"
+msgstr "The 08:10 reporter deliberately hid a support failure already confirmed by the workshop"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.5.1
+#: src/data/gaokao-advanced.js:21
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.5.1"
+msgid "The 08:10 headline expanded a restricted inspection state into general access"
+msgstr "The 08:10 headline expanded a restricted inspection state into general access"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.5.2
+#: src/data/gaokao-advanced.js:22
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.5.2"
+msgid ""
+"The 08:32 correction introduced the restriction; the workshop had reported "
+"no load limit before then"
+msgstr ""
+"The 08:32 correction introduced the restriction; the workshop had reported "
+"no load limit before then"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.5.3
+#: src/data/gaokao-advanced.js:23
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.5.3"
+msgid "The one-person note proves the tape cannot support any ordinary student passage"
+msgstr "The one-person note proves the tape cannot support any ordinary student passage"
+
+#. advancedGaokaoQuestions.language.0.HD-L01.7
+#: src/data/gaokao-advanced.js:25
+msgctxt "text:advancedGaokaoQuestions.language.0.HD-L01.7"
+msgid ""
+"The workshop note predates the report. The evidence proves overgeneralised "
+"access, not motive or tape lifetime."
+msgstr ""
+"The workshop note predates the report. The evidence proves overgeneralised "
+"access, not motive or tape lifetime."
+
+#. advancedGaokaoQuestions.language.1.HD-L02.3
+#: src/data/gaokao-advanced.js:29
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.3"
+msgid ""
+"[Bamboo notice A] After the bell, follow white-rabbit tracks.\n[Reverse-side "
+"addition] After rain the tracks point backwards; use the medicinal "
+"scent.\nDaily log: rain last night, calm at 09:00, medicinal scent from "
+"southeast at 09:07."
+msgstr ""
+"[Bamboo notice A] After the bell, follow white-rabbit tracks.\n[Reverse-side "
+"addition] After rain the tracks point backwards; use the medicinal "
+"scent.\nDaily log: rain last night, calm at 09:00, medicinal scent from "
+"southeast at 09:07."
+
+#. advancedGaokaoQuestions.language.1.HD-L02.4
+#: src/data/gaokao-advanced.js:30
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.4"
+msgid "Which rewrite is the most complete actionable instruction for that day?"
+msgstr "Which rewrite is the most complete actionable instruction for that day?"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.5.0
+#: src/data/gaokao-advanced.js:32
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.5.0"
+msgid ""
+"After the bell, walk opposite the tracks because the reverse-side note "
+"supersedes scent guidance"
+msgstr ""
+"After the bell, walk opposite the tracks because the reverse-side note "
+"supersedes scent guidance"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.5.1
+#: src/data/gaokao-advanced.js:33
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.5.1"
+msgid ""
+"After the bell, wait for wind and follow the direction carrying the "
+"medicinal scent from the southeast"
+msgstr ""
+"After the bell, wait for wind and follow the direction carrying the "
+"medicinal scent from the southeast"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.5.2
+#: src/data/gaokao-advanced.js:34
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.5.2"
+msgid ""
+"After the bell, do not follow the track direction; in calm air proceed "
+"southeast toward the scent source"
+msgstr ""
+"After the bell, do not follow the track direction; in calm air proceed "
+"southeast toward the scent source"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.5.3
+#: src/data/gaokao-advanced.js:35
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.5.3"
+msgid ""
+"After the bell, follow the tracks and reverse only if the scent disappears "
+"in the southeast"
+msgstr ""
+"After the bell, follow the tracks and reverse only if the scent disappears "
+"in the southeast"
+
+#. advancedGaokaoQuestions.language.1.HD-L02.7
+#: src/data/gaokao-advanced.js:37
+msgctxt "text:advancedGaokaoQuestions.language.1.HD-L02.7"
+msgid "The rain exception, calm-air condition, and southeast observation must all be combined."
+msgstr "The rain exception, calm-air condition, and southeast observation must all be combined."
+
+#. advancedGaokaoQuestions.language.2.HD-L03.3
+#: src/data/gaokao-advanced.js:41
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.3"
+msgid ""
+"A: “The gate did not move; the road forgot it.”\nB: “At dragon hour the "
+"gateposts remained two lengths north of the old boundary stone; at snake "
+"hour the road ended in the bamboo forest.”\nC: “Everyone knows Yukari was "
+"cheerful this morning.”"
+msgstr ""
+"A: “The gate did not move; the road forgot it.”\nB: “At dragon hour the "
+"gateposts remained two lengths north of the old boundary stone; at snake "
+"hour the road ended in the bamboo forest.”\nC: “Everyone knows Yukari was "
+"cheerful this morning.”"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.4
+#: src/data/gaokao-advanced.js:42
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.4"
+msgid ""
+"Which research summary best preserves A's rhetoric while keeping evidence "
+"levels distinct?"
+msgstr ""
+"Which research summary best preserves A's rhetoric while keeping evidence "
+"levels distinct?"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.5.0
+#: src/data/gaokao-advanced.js:44
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.5.0"
+msgid ""
+"“The road forgot the gate” can operationally mean that the gateposts stayed "
+"fixed while the road connection changed between the two hours; cause remains "
+"undetermined"
+msgstr ""
+"“The road forgot the gate” can operationally mean that the gateposts stayed "
+"fixed while the road connection changed between the two hours; cause remains "
+"undetermined"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.5.1
+#: src/data/gaokao-advanced.js:45
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.5.1"
+msgid ""
+"“The road forgot the gate” means Yukari's mood altered the road, while the "
+"gatepost measurement shows she did not move the gate"
+msgstr ""
+"“The road forgot the gate” means Yukari's mood altered the road, while the "
+"gatepost measurement shows she did not move the gate"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.5.2
+#: src/data/gaokao-advanced.js:46
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.5.2"
+msgid ""
+"Because the posts were fixed at dragon hour, A proves the road connected to "
+"bamboo only at snake hour and necessarily later returned"
+msgstr ""
+"Because the posts were fixed at dragon hour, A proves the road connected to "
+"bamboo only at snake hour and necessarily later returned"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.5.3
+#: src/data/gaokao-advanced.js:47
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.5.3"
+msgid ""
+"A is rhetorical and B measured, so their different evidence types cannot be "
+"compared in one summary"
+msgstr ""
+"A is rhetorical and B measured, so their different evidence types cannot be "
+"compared in one summary"
+
+#. advancedGaokaoQuestions.language.2.HD-L03.7
+#: src/data/gaokao-advanced.js:49
+msgctxt "text:advancedGaokaoQuestions.language.2.HD-L03.7"
+msgid ""
+"A sound summary maps local rhetoric to observable variables while leaving "
+"causation open."
+msgstr ""
+"A sound summary maps local rhetoric to observable variables while leaving "
+"causation open."
+
+#. advancedGaokaoQuestions.language.3.LU-L01.3
+#: src/data/gaokao-advanced.js:53
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.3"
+msgid ""
+"[Bunbunmaru first edition 06:40] “Mountain Gate closed all day; everyone "
+"reroute via Misty Lake.”\n[Gate log 06:35] 06:30–07:10 only large freight "
+"barred; student cards admitted.\n[Extra 07:05] “Gate reopened after this "
+"paper intervened.”\n[Correction 11:50] “All-day closure” changed to “partial "
+"control”; extra unchanged.\n[Windway log] No gate-state change around 07:05."
+msgstr ""
+"[Bunbunmaru first edition 06:40] “Mountain Gate closed all day; everyone "
+"reroute via Misty Lake.”\n[Gate log 06:35] 06:30–07:10 only large freight "
+"barred; student cards admitted.\n[Extra 07:05] “Gate reopened after this "
+"paper intervened.”\n[Correction 11:50] “All-day closure” changed to “partial "
+"control”; extra unchanged.\n[Windway log] No gate-state change around 07:05."
+
+#. advancedGaokaoQuestions.language.3.LU-L01.4
+#: src/data/gaokao-advanced.js:54
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.4"
+msgid ""
+"Which notice is minimally sufficient to correct both the event and the "
+"paper's self-narrative?"
+msgstr ""
+"Which notice is minimally sufficient to correct both the event and the "
+"paper's self-narrative?"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.5.0
+#: src/data/gaokao-advanced.js:56
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.5.0"
+msgid ""
+"The gate had a partial freight restriction; the first edition wrongly called "
+"it an all-day closure. No reopening occurred at 07:05, so the extra's claim "
+"that the paper caused one is also unsupported"
+msgstr ""
+"The gate had a partial freight restriction; the first edition wrongly called "
+"it an all-day closure. No reopening occurred at 07:05, so the extra's claim "
+"that the paper caused one is also unsupported"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.5.1
+#: src/data/gaokao-advanced.js:57
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.5.1"
+msgid ""
+"The gate restricted large freight only; replace “everyone” with “freight.” "
+"The 07:05 extra is the paper's self-assessment of its influence, not an "
+"access instruction, so gate logs need not govern its correction"
+msgstr ""
+"The gate restricted large freight only; replace “everyone” with “freight.” "
+"The 07:05 extra is the paper's self-assessment of its influence, not an "
+"access instruction, so gate logs need not govern its correction"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.5.2
+#: src/data/gaokao-advanced.js:58
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.5.2"
+msgid ""
+"Student cards remained valid, so the first edition misstated scope; despite "
+"no gate change, the paper's intervention may count as preventing a wider "
+"closure"
+msgstr ""
+"Student cards remained valid, so the first edition misstated scope; despite "
+"no gate change, the paper's intervention may count as preventing a wider "
+"closure"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.5.3
+#: src/data/gaokao-advanced.js:59
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.5.3"
+msgid ""
+"No state change occurred around 07:05, disproving the reopening story and "
+"showing that no gate restriction existed that day"
+msgstr ""
+"No state change occurred around 07:05, disproving the reopening story and "
+"showing that no gate restriction existed that day"
+
+#. advancedGaokaoQuestions.language.3.LU-L01.7
+#: src/data/gaokao-advanced.js:61
+msgctxt "text:advancedGaokaoQuestions.language.3.LU-L01.7"
+msgid ""
+"Both the exaggerated scope and the nonexistent state transition must be "
+"corrected; changing one quantifier leaves the invented causal story intact."
+msgstr ""
+"Both the exaggerated scope and the nonexistent state transition must be "
+"corrected; changing one quantifier leaves the invented causal story intact."
+
+#. advancedGaokaoQuestions.language.4.LU-L02.3
+#: src/data/gaokao-advanced.js:65
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.3"
+msgid ""
+"[Village calendar] Mist at rooster hour on day nine; bell stopped at dog "
+"hour.\n[Lunar-duty record] Same night labelled day ten; bell stopped half a "
+"watch before mist.\n[Keine lecture note] Village date changes at midnight; "
+"lunar duty date changes at rooster hour.\n[Belfry log] “Mist came first” was "
+"added later in newer ink."
+msgstr ""
+"[Village calendar] Mist at rooster hour on day nine; bell stopped at dog "
+"hour.\n[Lunar-duty record] Same night labelled day ten; bell stopped half a "
+"watch before mist.\n[Keine lecture note] Village date changes at midnight; "
+"lunar duty date changes at rooster hour.\n[Belfry log] “Mist came first” was "
+"added later in newer ink."
+
+#. advancedGaokaoQuestions.language.4.LU-L02.4
+#: src/data/gaokao-advanced.js:66
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.4"
+msgid "Which conclusion is most resistant to falsification from the supplied evidence?"
+msgstr "Which conclusion is most resistant to falsification from the supplied evidence?"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.5.0
+#: src/data/gaokao-advanced.js:68
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.5.0"
+msgid ""
+"The date conventions reconcile days nine and ten, so the lunar record's "
+"bell-first order should override the village record"
+msgstr ""
+"The date conventions reconcile days nine and ten, so the lunar record's "
+"bell-first order should override the village record"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.5.1
+#: src/data/gaokao-advanced.js:69
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.5.1"
+msgid ""
+"Date conventions explain the date gap; treat the lunar “half-watch earlier” "
+"as rounding during conversion to village time, allowing both records to be "
+"combined as mist before bell"
+msgstr ""
+"Date conventions explain the date gap; treat the lunar “half-watch earlier” "
+"as rounding during conversion to village time, allowing both records to be "
+"combined as mist before bell"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.5.2
+#: src/data/gaokao-advanced.js:70
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.5.2"
+msgid ""
+"Date conventions can explain day nine versus ten, but event order still "
+"conflicts, and the later “mist first” addition is not independent evidence"
+msgstr ""
+"Date conventions can explain day nine versus ten, but event order still "
+"conflicts, and the later “mist first” addition is not independent evidence"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.5.3
+#: src/data/gaokao-advanced.js:71
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.5.3"
+msgid ""
+"The newer-ink addition can be treated as later belfry verification "
+"supporting the village event order"
+msgstr ""
+"The newer-ink addition can be treated as later belfry verification "
+"supporting the village event order"
+
+#. advancedGaokaoQuestions.language.4.LU-L02.7
+#: src/data/gaokao-advanced.js:73
+msgctxt "text:advancedGaokaoQuestions.language.4.LU-L02.7"
+msgid ""
+"Separate conventional date disagreement from the real ordering conflict. The "
+"dependent later addition cannot independently break the tie."
+msgstr ""
+"Separate conventional date disagreement from the real ordering conflict. The "
+"dependent later addition cannot independently break the tie."
+
+#. advancedGaokaoQuestions.language.5.LU-L03.3
+#: src/data/gaokao-advanced.js:77
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.3"
+msgid ""
+"[Rule v3.1] Absence means not entering the scheduled classroom.\n[Academic "
+"supplement v3.1b] If a room moves by boundary, the teacher's space counts as "
+"the classroom.\n[Yukari notice] Today's room is “between presence and "
+"absence”; teacher remains at the old lectern.\n[Access log] Student A enters "
+"the old room; spatial label says “not scheduled classroom.”"
+msgstr ""
+"[Rule v3.1] Absence means not entering the scheduled classroom.\n[Academic "
+"supplement v3.1b] If a room moves by boundary, the teacher's space counts as "
+"the classroom.\n[Yukari notice] Today's room is “between presence and "
+"absence”; teacher remains at the old lectern.\n[Access log] Student A enters "
+"the old room; spatial label says “not scheduled classroom.”"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.4
+#: src/data/gaokao-advanced.js:78
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.4"
+msgid "Without inventing a new clause, which reading is most rigorous?"
+msgstr "Without inventing a new clause, which reading is most rigorous?"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.5.0
+#: src/data/gaokao-advanced.js:80
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.5.0"
+msgid ""
+"The main rule's “scheduled classroom” controls; because the spatial label "
+"denies that status, A is absent"
+msgstr ""
+"The main rule's “scheduled classroom” controls; because the spatial label "
+"denies that status, A is absent"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.5.1
+#: src/data/gaokao-advanced.js:81
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.5.1"
+msgid ""
+"v3.1b supports presence because A entered the teacher's space, but whether "
+"“scheduled classroom” and “classroom” are identical remains a version gap"
+msgstr ""
+"v3.1b supports presence because A entered the teacher's space, but whether "
+"“scheduled classroom” and “classroom” are identical remains a version gap"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.5.2
+#: src/data/gaokao-advanced.js:82
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.5.2"
+msgid ""
+"The supplement defines teacher-space as the classroom and shares the v3.1 "
+"series with the main rule, so it should be treated as a complete operational "
+"definition of “scheduled”; A must be present"
+msgstr ""
+"The supplement defines teacher-space as the classroom and shares the v3.1 "
+"series with the main rule, so it should be treated as a complete operational "
+"definition of “scheduled”; A must be present"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.5.3
+#: src/data/gaokao-advanced.js:83
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.5.3"
+msgid ""
+"Because the teacher stayed at the old lectern, no boundary movement "
+"occurred; v3.1b does not apply and the access label alone decides"
+msgstr ""
+"Because the teacher stayed at the old lectern, no boundary movement "
+"occurred; v3.1b does not apply and the access label alone decides"
+
+#. advancedGaokaoQuestions.language.5.LU-L03.7
+#: src/data/gaokao-advanced.js:85
+msgctxt "text:advancedGaokaoQuestions.language.5.LU-L03.7"
+msgid ""
+"The supplement provides an operational basis for presence but does not "
+"explicitly resolve the main rule's “scheduled” qualifier."
+msgstr ""
+"The supplement provides an operational basis for presence but does not "
+"explicitly resolve the main rule's “scheduled” qualifier."
+
+#. advancedGaokaoQuestions.language.6.EX-L01.3
+#: src/data/gaokao-advanced.js:89
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.3"
+msgid ""
+"[Route notice history]\nv4.2 05:50: “At full moon, turn right after lantern "
+"four.”\nv4.2-k 06:02 (kappa-terminal cache): “At full moon, go straight after "
+"lantern four.”\nv4.3 06:11: “At full moon, turn right after lantern three; "
+"lantern four is a decoy.”\n[Distribution] Central board received v4.3 at "
+"06:12; rabbit station 06:18; kappa terminal still showed v4.2-k until "
+"07:04.\n[Incident] At 06:37 a visitor followed the terminal straight and "
+"returned to Yesterday's Meeting Point."
+msgstr ""
+"[Route notice history]\nv4.2 05:50: “At full moon, turn right after lantern "
+"four.”\nv4.2-k 06:02 (kappa-terminal cache): “At full moon, go straight after "
+"lantern four.”\nv4.3 06:11: “At full moon, turn right after lantern three; "
+"lantern four is a decoy.”\n[Distribution] Central board received v4.3 at "
+"06:12; rabbit station 06:18; kappa terminal still showed v4.2-k until "
+"07:04.\n[Incident] At 06:37 a visitor followed the terminal straight and "
+"returned to Yesterday's Meeting Point."
+
+#. advancedGaokaoQuestions.language.6.EX-L01.4
+#: src/data/gaokao-advanced.js:90
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.4"
+msgid ""
+"What minimum information must be stated to make the incident traceable "
+"without vaguely calling every problem “an old version”?"
+msgstr ""
+"What minimum information must be stated to make the incident traceable "
+"without vaguely calling every problem “an old version”?"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.5.0
+#: src/data/gaokao-advanced.js:92
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.5.0"
+msgid ""
+"The terminal viewed, displayed version v4.2-k, access time 06:37, and the "
+"exact divergence of v4.2-k from official v4.2/v4.3"
+msgstr ""
+"The terminal viewed, displayed version v4.2-k, access time 06:37, and the "
+"exact divergence of v4.2-k from official v4.2/v4.3"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.5.1
+#: src/data/gaokao-advanced.js:93
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.5.1"
+msgid ""
+"Record the kappa terminal, 06:37 access, and missing v4.3; classify ordinary "
+"distribution lag without preserving the exact displayed text"
+msgstr ""
+"Record the kappa terminal, 06:37 access, and missing v4.3; classify ordinary "
+"distribution lag without preserving the exact displayed text"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.5.2
+#: src/data/gaokao-advanced.js:94
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.5.2"
+msgid ""
+"Record v4.2-k and the visitor's straight route; compare only with v4.3 and "
+"treat every difference as update lag"
+msgstr ""
+"Record v4.2-k and the visitor's straight route; compare only with v4.3 and "
+"treat every difference as update lag"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.5.3
+#: src/data/gaokao-advanced.js:95
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.5.3"
+msgid ""
+"Retain v4.3 and the incident time but remove v4.2-k from formal lineage, "
+"keeping the device trace without letting an unofficial cache contaminate "
+"version history"
+msgstr ""
+"Retain v4.3 and the incident time but remove v4.2-k from formal lineage, "
+"keeping the device trace without letting an unofficial cache contaminate "
+"version history"
+
+#. advancedGaokaoQuestions.language.6.EX-L01.7
+#: src/data/gaokao-advanced.js:97
+msgctxt "text:advancedGaokaoQuestions.language.6.EX-L01.7"
+msgid ""
+"This is not mere lag: the cached variant altered the action. Device, "
+"version, time, and diff are all needed to separate bad generation from "
+"delayed distribution."
+msgstr ""
+"This is not mere lag: the cached variant altered the action. Device, "
+"version, time, and diff are all needed to separate bad generation from "
+"delayed distribution."
+
+#. advancedGaokaoQuestions.language.7.EX-L02.3
+#: src/data/gaokao-advanced.js:101
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.3"
+msgid ""
+"[Testimony] Reisen: “I closed the moonlight gate after the second bell.” "
+"Tewi: “The gate dimmed first, then the second bell sounded.”\n[Devices] Bell "
+"recorder clock is 18 seconds slow; gate controller resets to 00:00 after "
+"each full-moon switch; corridor light meter is correctly "
+"timed.\n[Illuminance] 80→12 at 21:14:42; recorder labels the second bell "
+"21:14:31."
+msgstr ""
+"[Testimony] Reisen: “I closed the moonlight gate after the second bell.” "
+"Tewi: “The gate dimmed first, then the second bell sounded.”\n[Devices] Bell "
+"recorder clock is 18 seconds slow; gate controller resets to 00:00 after "
+"each full-moon switch; corridor light meter is correctly "
+"timed.\n[Illuminance] 80→12 at 21:14:42; recorder labels the second bell "
+"21:14:31."
+
+#. advancedGaokaoQuestions.language.7.EX-L02.4
+#: src/data/gaokao-advanced.js:102
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.4"
+msgid "Which interpretation survives clock correction without exceeding the data?"
+msgstr "Which interpretation survives clock correction without exceeding the data?"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.5.0
+#: src/data/gaokao-advanced.js:104
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.5.0"
+msgid ""
+"Adding 18 seconds places bell two near 21:14:49, after the light drop; "
+"Tewi's observed order is compatible, but this does not establish that Reisen "
+"lied"
+msgstr ""
+"Adding 18 seconds places bell two near 21:14:49, after the light drop; "
+"Tewi's observed order is compatible, but this does not establish that Reisen "
+"lied"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.5.1
+#: src/data/gaokao-advanced.js:105
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.5.1"
+msgid ""
+"Because the recorder is 18 seconds slow, subtract 18 seconds to get "
+"21:14:13; the bell precedes the light drop and supports Reisen's order"
+msgstr ""
+"Because the recorder is 18 seconds slow, subtract 18 seconds to get "
+"21:14:13; the bell precedes the light drop and supports Reisen's order"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.5.2
+#: src/data/gaokao-advanced.js:106
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.5.2"
+msgid ""
+"The light meter times visible dimming only; with the controller reset, the "
+"action is untimed, so testimony should be ranked by the speakers' "
+"institutional roles"
+msgstr ""
+"The light meter times visible dimming only; with the controller reset, the "
+"action is untimed, so testimony should be ranked by the speakers' "
+"institutional roles"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.5.3
+#: src/data/gaokao-advanced.js:107
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.5.3"
+msgid ""
+"After correction the bell is about 21:14:49 and dimming came first; "
+"therefore Tewi's account is true and Reisen falsely reported the closing "
+"time"
+msgstr ""
+"After correction the bell is about 21:14:49 and dimming came first; "
+"therefore Tewi's account is true and Reisen falsely reported the closing "
+"time"
+
+#. advancedGaokaoQuestions.language.7.EX-L02.7
+#: src/data/gaokao-advanced.js:109
+msgctxt "text:advancedGaokaoQuestions.language.7.EX-L02.7"
+msgid ""
+"Correct the known recorder offset first. Action/perception lag remains, so "
+"event order—not honesty—is identifiable."
+msgstr ""
+"Correct the known recorder offset first. Action/perception lag remains, so "
+"event order—not honesty—is identifiable."
+
+#. advancedGaokaoQuestions.language.8.EX-L03.3
+#: src/data/gaokao-advanced.js:113
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.3"
+msgid ""
+"[Original] “At monkey hour, red mist crossed the lake; the gatekeeper did "
+"not see the moon.”\n[Copy A] “At monkey hour red mist crossed the lake, and "
+"the gatekeeper did not see the moon.”\n[Copy B] “At monkey hour, red mist "
+"crossed the lake guarding the gate; one did not see the moon.”\n[Catalogue] "
+"Copy B used a kappa auto-segmenter known to join the characters around "
+"“lake; gatekeeper.”\nResearcher: “B proves the red mist guarded a gate by the "
+"lake.”"
+msgstr ""
+"[Original] “At monkey hour, red mist crossed the lake; the gatekeeper did "
+"not see the moon.”\n[Copy A] “At monkey hour red mist crossed the lake, and "
+"the gatekeeper did not see the moon.”\n[Copy B] “At monkey hour, red mist "
+"crossed the lake guarding the gate; one did not see the moon.”\n[Catalogue] "
+"Copy B used a kappa auto-segmenter known to join the characters around "
+"“lake; gatekeeper.”\nResearcher: “B proves the red mist guarded a gate by the "
+"lake.”"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.4
+#: src/data/gaokao-advanced.js:114
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.4"
+msgid "What is the strongest precise objection to the claim?"
+msgstr "What is the strongest precise objection to the claim?"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.5.0
+#: src/data/gaokao-advanced.js:116
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.5.0"
+msgid ""
+"The original and Copy A make the gatekeeper the subject, but mist may have "
+"acquired guarding ability; the objection is only that ability evidence is "
+"missing"
+msgstr ""
+"The original and Copy A make the gatekeeper the subject, but mist may have "
+"acquired guarding ability; the objection is only that ability evidence is "
+"missing"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.5.1
+#: src/data/gaokao-advanced.js:117
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.5.1"
+msgid ""
+"B presents a different syntax that may preserve another oral version; count "
+"the original, A, and B as one vote each and seek more copies"
+msgstr ""
+"B presents a different syntax that may preserve another oral version; count "
+"the original, A, and B as one vote each and seek more copies"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.5.2
+#: src/data/gaokao-advanced.js:118
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.5.2"
+msgid ""
+"The claim depends on a known segmentation failure and conflicts with "
+"original punctuation plus independent Copy A; B is not independent semantic "
+"evidence"
+msgstr ""
+"The claim depends on a known segmentation failure and conflicts with "
+"original punctuation plus independent Copy A; B is not independent semantic "
+"evidence"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.5.3
+#: src/data/gaokao-advanced.js:119
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.5.3"
+msgid ""
+"The segmentation fault shows possible machine bias only; once disclosed, B "
+"can still join the original and A with equal weight in a semantic majority "
+"vote"
+msgstr ""
+"The segmentation fault shows possible machine bias only; once disclosed, B "
+"can still join the original and A with equal weight in a semantic majority "
+"vote"
+
+#. advancedGaokaoQuestions.language.8.EX-L03.7
+#: src/data/gaokao-advanced.js:121
+msgctxt "text:advancedGaokaoQuestions.language.8.EX-L03.7"
+msgid ""
+"The key is provenance: B is not another witness but a derivative reading "
+"produced by a known tool failure."
+msgstr ""
+"The key is provenance: B is not another witness but a derivative reading "
+"produced by a known tool failure."
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.3
+#: src/data/gaokao-advanced.js:127
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.3"
+msgid ""
+"Gate→wind stop walk 6 min; service every 12 min from 08:00; ride 11 min; "
+"stop→workshop walk 5 min. Candidate reaches gate 08:07. Walking throughout "
+"takes 31 min."
+msgstr ""
+"Gate→wind stop walk 6 min; service every 12 min from 08:00; ride 11 min; "
+"stop→workshop walk 5 min. Candidate reaches gate 08:07. Walking throughout "
+"takes 31 min."
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.4
+#: src/data/gaokao-advanced.js:128
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.4"
+msgid "Ignoring delay, which option arrives first and by how much?"
+msgstr "Ignoring delay, which option arrives first and by how much?"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.5.0
+#: src/data/gaokao-advanced.js:129
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.5.0"
+msgid "Windway by 1 minute"
+msgstr "Windway by 1 minute"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.5.1
+#: src/data/gaokao-advanced.js:129
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.5.1"
+msgid "Walking by 2 minutes"
+msgstr "Walking by 2 minutes"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.5.2
+#: src/data/gaokao-advanced.js:129
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.5.2"
+msgid "Windway by 5 minutes"
+msgstr "Windway by 5 minutes"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.5.3
+#: src/data/gaokao-advanced.js:129
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.5.3"
+msgid "They tie"
+msgstr "They tie"
+
+#. advancedGaokaoQuestions.mathematics.0.HD-M01.7
+#: src/data/gaokao-advanced.js:130
+msgctxt "text:advancedGaokaoQuestions.mathematics.0.HD-M01.7"
+msgid ""
+"Arrival at the stop at 08:13 means the 08:24 service and an 08:40 arrival; "
+"walking arrives at 08:38, two minutes sooner."
+msgstr ""
+"Arrival at the stop at 08:13 means the 08:24 service and an 08:40 arrival; "
+"walking arrives at 08:38, two minutes sooner."
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.3
+#: src/data/gaokao-advanced.js:134
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.3"
+msgid ""
+"In ring n of an eight-direction spell, each direction has 2n+1 bullets, plus "
+"one central bullet overall. Count the first four rings; overlaps count "
+"separately."
+msgstr ""
+"In ring n of an eight-direction spell, each direction has 2n+1 bullets, plus "
+"one central bullet overall. Count the first four rings; overlaps count "
+"separately."
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.4
+#: src/data/gaokao-advanced.js:135
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.4"
+msgid "What is the total number of bullets?"
+msgstr "What is the total number of bullets?"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.5.0
+#: src/data/gaokao-advanced.js:136
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.5.0"
+msgid "160"
+msgstr "160"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.5.1
+#: src/data/gaokao-advanced.js:136
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.5.1"
+msgid "176"
+msgstr "176"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.5.2
+#: src/data/gaokao-advanced.js:136
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.5.2"
+msgid "193"
+msgstr "193"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.5.3
+#: src/data/gaokao-advanced.js:136
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.5.3"
+msgid "200"
+msgstr "200"
+
+#. advancedGaokaoQuestions.mathematics.1.HD-M02.7
+#: src/data/gaokao-advanced.js:137
+msgctxt "text:advancedGaokaoQuestions.mathematics.1.HD-M02.7"
+msgid "8(3+5+7+9)=192, plus the single centre bullet gives 193."
+msgstr "8(3+5+7+9)=192, plus the single centre bullet gives 193."
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.3
+#: src/data/gaokao-advanced.js:141
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.3"
+msgid ""
+"Pre-full-moon navigation errors (degrees): 2, 3, 3, 4, 18. The fifth is "
+"affected by the fourth lantern."
+msgstr ""
+"Pre-full-moon navigation errors (degrees): 2, 3, 3, 4, 18. The fifth is "
+"affected by the fourth lantern."
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.4
+#: src/data/gaokao-advanced.js:142
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.4"
+msgid ""
+"After removing the fifth reading, what is the percentage reduction relative "
+"to the original mean?"
+msgstr ""
+"After removing the fifth reading, what is the percentage reduction relative "
+"to the original mean?"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.5.0
+#: src/data/gaokao-advanced.js:143
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.5.0"
+msgid "40%"
+msgstr "40%"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.5.1
+#: src/data/gaokao-advanced.js:143
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.5.1"
+msgid "50%"
+msgstr "50%"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.5.2
+#: src/data/gaokao-advanced.js:143
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.5.2"
+msgid "60%"
+msgstr "60%"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.5.3
+#: src/data/gaokao-advanced.js:143
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.5.3"
+msgid "75%"
+msgstr "75%"
+
+#. advancedGaokaoQuestions.mathematics.2.HD-M03.7
+#: src/data/gaokao-advanced.js:144
+msgctxt "text:advancedGaokaoQuestions.mathematics.2.HD-M03.7"
+msgid ""
+"The means are 6 and 3, so reduction is 50%. The arithmetic alone does not "
+"justify exclusion."
+msgstr ""
+"The means are 6 and 3, so reduction is 50%. The arithmetic alone does not "
+"justify exclusion."
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.3
+#: src/data/gaokao-advanced.js:148
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.3"
+msgid ""
+"Nodes: G gate, W wind stop, B hall, K workshop.\nEdges (min): G–W walk 6; W–K "
+"wind 12; G–B walk 9; B–K rabbit 10; G–K walk 31.\nAt full moon W–K is closed. "
+"Rabbit shuttles leave B every 15 minutes from 08:00. After reaching B, the "
+"candidate must complete a 3-minute check before boarding; if a service has "
+"departed by completion, the next one must be used. The candidate reaches G "
+"at 08:08."
+msgstr ""
+"Nodes: G gate, W wind stop, B hall, K workshop.\nEdges (min): G–W walk 6; W–K "
+"wind 12; G–B walk 9; B–K rabbit 10; G–K walk 31.\nAt full moon W–K is closed. "
+"Rabbit shuttles leave B every 15 minutes from 08:00. After reaching B, the "
+"candidate must complete a 3-minute check before boarding; if a service has "
+"departed by completion, the next one must be used. The candidate reaches G "
+"at 08:08."
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.4
+#: src/data/gaokao-advanced.js:149
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.4"
+msgid "At full moon, what is the earliest arrival time and route?"
+msgstr "At full moon, what is the earliest arrival time and route?"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.5.0
+#: src/data/gaokao-advanced.js:150
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.5.0"
+msgid "08:35 via G–B–K"
+msgstr "08:35 via G–B–K"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.5.1
+#: src/data/gaokao-advanced.js:150
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.5.1"
+msgid "08:39 via G–K"
+msgstr "08:39 via G–K"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.5.2
+#: src/data/gaokao-advanced.js:150
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.5.2"
+msgid "08:30 via G–W–K"
+msgstr "08:30 via G–W–K"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.5.3
+#: src/data/gaokao-advanced.js:150
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.5.3"
+msgid "08:43 via G–B–K"
+msgstr "08:43 via G–B–K"
+
+#. advancedGaokaoQuestions.mathematics.3.LU-M01.7
+#: src/data/gaokao-advanced.js:151
+msgctxt "text:advancedGaokaoQuestions.mathematics.3.LU-M01.7"
+msgid ""
+"B is reached at 08:17, check ends at 08:20, and the 08:30 shuttle arrives at "
+"08:40. Direct walking arrives at 08:39."
+msgstr ""
+"B is reached at 08:17, check ends at 08:20, and the 08:30 shuttle arrives at "
+"08:40. Direct walking arrives at 08:39."
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.3
+#: src/data/gaokao-advanced.js:155
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.3"
+msgid ""
+"Bullet point P=(4,−1) is reflected in y=x, rotated 90° counter-clockwise "
+"about the origin, then transformed by T(x,y)=(x+2y, y−x)."
+msgstr ""
+"Bullet point P=(4,−1) is reflected in y=x, rotated 90° counter-clockwise "
+"about the origin, then transformed by T(x,y)=(x+2y, y−x)."
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.4
+#: src/data/gaokao-advanced.js:156
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.4"
+msgid "What is the final coordinate?"
+msgstr "What is the final coordinate?"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.5.0
+#: src/data/gaokao-advanced.js:157
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.5.0"
+msgid "(−6,3)"
+msgstr "(−6,3)"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.5.1
+#: src/data/gaokao-advanced.js:157
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.5.1"
+msgid "(−4,1)"
+msgstr "(−4,1)"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.5.2
+#: src/data/gaokao-advanced.js:157
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.5.2"
+msgid "(3,11)"
+msgstr "(3,11)"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.5.3
+#: src/data/gaokao-advanced.js:157
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.5.3"
+msgid "(11,3)"
+msgstr "(11,3)"
+
+#. advancedGaokaoQuestions.mathematics.4.LU-M02.7
+#: src/data/gaokao-advanced.js:158
+msgctxt "text:advancedGaokaoQuestions.mathematics.4.LU-M02.7"
+msgid "(4,−1)→(−1,4)→(−4,−1)→(−6,3)."
+msgstr "(4,−1)→(−1,4)→(−4,−1)→(−6,3)."
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.3
+#: src/data/gaokao-advanced.js:162
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.3"
+msgid ""
+"A bamboo fork updates exit labels daily by σ=(A B C). Five daily updates "
+"have been completed; tonight's full-moon settlement then applies τ=(B C) "
+"once. Composition is defined as τ∘σ⁵: apply σ five times, then τ once."
+msgstr ""
+"A bamboo fork updates exit labels daily by σ=(A B C). Five daily updates "
+"have been completed; tonight's full-moon settlement then applies τ=(B C) "
+"once. Composition is defined as τ∘σ⁵: apply σ five times, then τ once."
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.4
+#: src/data/gaokao-advanced.js:163
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.4"
+msgid "What is the final label of initial exit A?"
+msgstr "What is the final label of initial exit A?"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.5.0
+#: src/data/gaokao-advanced.js:164
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.5.0"
+msgid "A"
+msgstr "A"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.5.1
+#: src/data/gaokao-advanced.js:164
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.5.1"
+msgid "B"
+msgstr "B"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.5.2
+#: src/data/gaokao-advanced.js:164
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.5.2"
+msgid "C"
+msgstr "C"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.5.3
+#: src/data/gaokao-advanced.js:164
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.5.3"
+msgid "Indeterminate"
+msgstr "Indeterminate"
+
+#. advancedGaokaoQuestions.mathematics.5.LU-M03.7
+#: src/data/gaokao-advanced.js:165
+msgctxt "text:advancedGaokaoQuestions.mathematics.5.LU-M03.7"
+msgid "σ⁵=σ² sends A→C; τ then sends C→B, so the final label is B."
+msgstr "σ⁵=σ² sends A→C; τ then sends C→B, so the final label is B."
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.3
+#: src/data/gaokao-advanced.js:169
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.3"
+msgid ""
+"From 08:00: G–B=8; B–E=12 (entry only during minutes 10–19 each hour); "
+"G–W=5; W–E=9 (at full moon, entry closed on odd-numbered minutes); G–E=30. "
+"Waiting is allowed. Depart G at 08:07:30; round arrivals up to a whole "
+"minute before testing entry."
+msgstr ""
+"From 08:00: G–B=8; B–E=12 (entry only during minutes 10–19 each hour); "
+"G–W=5; W–E=9 (at full moon, entry closed on odd-numbered minutes); G–E=30. "
+"Waiting is allowed. Depart G at 08:07:30; round arrivals up to a whole "
+"minute before testing entry."
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.4
+#: src/data/gaokao-advanced.js:170
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.4"
+msgid "At full moon, what route reaches E earliest and when?"
+msgstr "At full moon, what route reaches E earliest and when?"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.5.0
+#: src/data/gaokao-advanced.js:171
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.5.0"
+msgid "G–B–E at 08:28"
+msgstr "G–B–E at 08:28"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.5.1
+#: src/data/gaokao-advanced.js:171
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.5.1"
+msgid "G–W–E at 08:23"
+msgstr "G–W–E at 08:23"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.5.2
+#: src/data/gaokao-advanced.js:171
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.5.2"
+msgid "G–W–E at 08:22"
+msgstr "G–W–E at 08:22"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.5.3
+#: src/data/gaokao-advanced.js:171
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.5.3"
+msgid "G–E at 08:38"
+msgstr "G–E at 08:38"
+
+#. advancedGaokaoQuestions.mathematics.6.EX-M01.7
+#: src/data/gaokao-advanced.js:172
+msgctxt "text:advancedGaokaoQuestions.mathematics.6.EX-M01.7"
+msgid ""
+"Reach W at 08:12:30; rounding gives 08:13, an odd minute when entry is "
+"closed. Enter at 08:14 and travel 9 minutes, so G–W–E arrives at 08:23. "
+"G–B–E reaches B at 08:15:30, rounds to an admissible 08:16, and arrives at "
+"08:28."
+msgstr ""
+"Reach W at 08:12:30; rounding gives 08:13, an odd minute when entry is "
+"closed. Enter at 08:14 and travel 9 minutes, so G–W–E arrives at 08:23. "
+"G–B–E reaches B at 08:15:30, rounds to an admissible 08:16, and arrives at "
+"08:28."
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.3
+#: src/data/gaokao-advanced.js:176
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.3"
+msgid ""
+"Observed points lie on an unknown circle (x−a)²+(y−b)²=r². Reliable points: "
+"(1,5), (5,1), (7,5). A fourth, (3,9), comes from a camera known to lag one "
+"beat."
+msgstr ""
+"Observed points lie on an unknown circle (x−a)²+(y−b)²=r². Reliable points: "
+"(1,5), (5,1), (7,5). A fourth, (3,9), comes from a camera known to lag one "
+"beat."
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.4
+#: src/data/gaokao-advanced.js:177
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.4"
+msgid "Using only reliable points, what centre and squared radius result?"
+msgstr "Using only reliable points, what centre and squared radius result?"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.5.0
+#: src/data/gaokao-advanced.js:178
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.5.0"
+msgid "(4,5), 9"
+msgstr "(4,5), 9"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.5.1
+#: src/data/gaokao-advanced.js:178
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.5.1"
+msgid "(4,4), 10"
+msgstr "(4,4), 10"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.5.2
+#: src/data/gaokao-advanced.js:178
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.5.2"
+msgid "(3,5), 16"
+msgstr "(3,5), 16"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.5.3
+#: src/data/gaokao-advanced.js:178
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.5.3"
+msgid "(4,5), 16"
+msgstr "(4,5), 16"
+
+#. advancedGaokaoQuestions.mathematics.7.EX-M02.7
+#: src/data/gaokao-advanced.js:179
+msgctxt "text:advancedGaokaoQuestions.mathematics.7.EX-M02.7"
+msgid ""
+"Perpendicular bisectors give centre (4,4), with r²=10. The lagged point "
+"should not enter before correction."
+msgstr ""
+"Perpendicular bisectors give centre (4,4), with r²=10. The lagged point "
+"should not enter before correction."
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.3
+#: src/data/gaokao-advanced.js:183
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.3"
+msgid ""
+"True boundary count N is observed as A=N+u and B=2N+u+v, where u is common "
+"moonlight bias and v is B-specific. An eclipse calibration supplies only "
+"A₀=u."
+msgstr ""
+"True boundary count N is observed as A=N+u and B=2N+u+v, where u is common "
+"moonlight bias and v is B-specific. An eclipse calibration supplies only "
+"A₀=u."
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.4
+#: src/data/gaokao-advanced.js:184
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.4"
+msgid "Which quantities are uniquely identifiable from A, B, and A₀?"
+msgstr "Which quantities are uniquely identifiable from A, B, and A₀?"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.5.0
+#: src/data/gaokao-advanced.js:185
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.5.0"
+msgid "N only"
+msgstr "N only"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.5.1
+#: src/data/gaokao-advanced.js:185
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.5.1"
+msgid "N and u, then v from B, so all three"
+msgstr "N and u, then v from B, so all three"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.5.2
+#: src/data/gaokao-advanced.js:185
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.5.2"
+msgid "u and v only"
+msgstr "u and v only"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.5.3
+#: src/data/gaokao-advanced.js:185
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.5.3"
+msgid "None"
+msgstr "None"
+
+#. advancedGaokaoQuestions.mathematics.8.EX-M03.7
+#: src/data/gaokao-advanced.js:186
+msgctxt "text:advancedGaokaoQuestions.mathematics.8.EX-M03.7"
+msgid "u=A₀, N=A−A₀, and v=B−2N−u; the system has enough independent information."
+msgstr "u=A₀, N=A−A₀, and v=B−2N−u; the system has enough independent information."
+
+#. advancedGaokaoQuestions.common.0.HD-C01.3
+#: src/data/gaokao-advanced.js:192
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.3"
+msgid ""
+"Spell-card filing: east shore, three rounds, loser exits by red lamp. Before "
+"start, wind hides the red lamp in mist, though both can see the referee "
+"flag."
+msgstr ""
+"Spell-card filing: east shore, three rounds, loser exits by red lamp. Before "
+"start, wind hides the red lamp in mist, though both can see the referee "
+"flag."
+
+#. advancedGaokaoQuestions.common.0.HD-C01.4
+#: src/data/gaokao-advanced.js:193
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.4"
+msgid "What is the best way to proceed?"
+msgstr "What is the best way to proceed?"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.5.0
+#: src/data/gaokao-advanced.js:194
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.5.0"
+msgid "Keep the red lamp as the formal exit and have the referee guide the loser only if needed"
+msgstr "Keep the red lamp as the formal exit and have the referee guide the loser only if needed"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.5.1
+#: src/data/gaokao-advanced.js:194
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.5.1"
+msgid ""
+"Explicitly redesignate the mutually visible referee flag as the exit signal, "
+"then begin after both confirm"
+msgstr ""
+"Explicitly redesignate the mutually visible referee flag as the exit signal, "
+"then begin after both confirm"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.5.2
+#: src/data/gaokao-advanced.js:194
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.5.2"
+msgid "Begin the first round as filed, changing to the referee flag only if the mist remains"
+msgstr "Begin the first round as filed, changing to the referee flag only if the mist remains"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.5.3
+#: src/data/gaokao-advanced.js:194
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.5.3"
+msgid "Move inland and retain the red lamp without rechecking visibility for both sides"
+msgstr "Move inland and retain the red lamp without rechecking visibility for both sides"
+
+#. advancedGaokaoQuestions.common.0.HD-C01.7
+#: src/data/gaokao-advanced.js:195
+msgctxt "text:advancedGaokaoQuestions.common.0.HD-C01.7"
+msgid ""
+"A field adjustment is possible, but the exit signal must remain legible and "
+"mutually understood."
+msgstr ""
+"A field adjustment is possible, but the exit signal must remain legible and "
+"mutually understood."
+
+#. advancedGaokaoQuestions.common.1.HD-C02.3
+#: src/data/gaokao-advanced.js:199
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.3"
+msgid ""
+"Marisa's spark experiment records procedure, dose, and distance, but "
+"material is “the blue stone common at Patchouli's.” Patchouli reports two "
+"different lots in the last three months."
+msgstr ""
+"Marisa's spark experiment records procedure, dose, and distance, but "
+"material is “the blue stone common at Patchouli's.” Patchouli reports two "
+"different lots in the last three months."
+
+#. advancedGaokaoQuestions.common.1.HD-C02.4
+#: src/data/gaokao-advanced.js:200
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.4"
+msgid "Which supplement best preserves the result while addressing provenance?"
+msgstr "Which supplement best preserves the result while addressing provenance?"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.5.0
+#: src/data/gaokao-advanced.js:201
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.5.0"
+msgid ""
+"Add acquisition date, lot features, and a retained sample, then rerun the "
+"same procedure by lot"
+msgstr ""
+"Add acquisition date, lot features, and a retained sample, then rerun the "
+"same procedure by lot"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.5.1
+#: src/data/gaokao-advanced.js:201
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.5.1"
+msgid ""
+"Have Patchouli confirm both lots are commonly called blue stone and sign the "
+"original result"
+msgstr ""
+"Have Patchouli confirm both lots are commonly called blue stone and sign the "
+"original result"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.5.2
+#: src/data/gaokao-advanced.js:201
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.5.2"
+msgid ""
+"Keep the success counts but remove all material conclusions and do not use "
+"surviving samples"
+msgstr ""
+"Keep the success counts but remove all material conclusions and do not use "
+"surviving samples"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.5.3
+#: src/data/gaokao-advanced.js:201
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.5.3"
+msgid ""
+"Mix both lots into one retained sample and rerun it as representative "
+"Patchouli blue stone"
+msgstr ""
+"Mix both lots into one retained sample and rerun it as representative "
+"Patchouli blue stone"
+
+#. advancedGaokaoQuestions.common.1.HD-C02.7
+#: src/data/gaokao-advanced.js:202
+msgctxt "text:advancedGaokaoQuestions.common.1.HD-C02.7"
+msgid ""
+"Procedural reproduction and material equivalence differ; retained samples "
+"and lot reruns locate the issue without erasing results."
+msgstr ""
+"Procedural reproduction and material equivalence differ; retained samples "
+"and lot reruns locate the issue without erasing results."
+
+#. advancedGaokaoQuestions.common.2.HD-C03.3
+#: src/data/gaokao-advanced.js:206
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.3"
+msgid ""
+"Shrine, temple, and hermitage request the central square the same night: "
+"quiet rite, public sermon, hermit display. The square hosts a fairy market "
+"next morning."
+msgstr ""
+"Shrine, temple, and hermitage request the central square the same night: "
+"quiet rite, public sermon, hermit display. The square hosts a fairy market "
+"next morning."
+
+#. advancedGaokaoQuestions.common.2.HD-C03.4
+#: src/data/gaokao-advanced.js:207
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.4"
+msgid ""
+"Which plan actually handles the conflict rather than pretending the requests "
+"are identical?"
+msgstr ""
+"Which plan actually handles the conflict rather than pretending the requests "
+"are identical?"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.5.0
+#: src/data/gaokao-advanced.js:208
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.5.0"
+msgid ""
+"Assign central time by filing order and make the last group responsible for "
+"next-day clearance"
+msgstr ""
+"Assign central time by filing order and make the last group responsible for "
+"next-day clearance"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.5.1
+#: src/data/gaokao-advanced.js:208
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.5.1"
+msgid "Draw one sole user; move the other two off campus and omit them from the official record"
+msgstr "Draw one sole user; move the other two off campus and omit them from the official record"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.5.2
+#: src/data/gaokao-advanced.js:208
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.5.2"
+msgid ""
+"Separate time and space by noise and clearance needs, publishing shared "
+"costs and unresolved dissent"
+msgstr ""
+"Separate time and space by noise and clearance needs, publishing shared "
+"costs and unresolved dissent"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.5.3
+#: src/data/gaokao-advanced.js:208
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.5.3"
+msgid ""
+"Cancel the next-day market to free the night, then require all three to "
+"share one volume and layout"
+msgstr ""
+"Cancel the next-day market to free the night, then require all three to "
+"share one volume and layout"
+
+#. advancedGaokaoQuestions.common.2.HD-C03.7
+#: src/data/gaokao-advanced.js:209
+msgctxt "text:advancedGaokaoQuestions.common.2.HD-C03.7"
+msgid ""
+"A workable negotiation recognizes ritual differences, next-day clearance, "
+"and remaining dissent."
+msgstr ""
+"A workable negotiation recognizes ritual differences, next-day clearance, "
+"and remaining dissent."
+
+#. advancedGaokaoQuestions.common.3.LU-C01.3
+#: src/data/gaokao-advanced.js:213
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.3"
+msgid ""
+"Incident: Patchouli's Seven-Day Reverse Index is missing.\nAccess: Marisa "
+"13:02–15:11; Alice 14:20–14:48. No loan. Koakuma saw it at 14:35. At 15:20 "
+"Marisa's box shows a same-sized blue cover, no spine visible. West-window "
+"seal failed 14:50–15:05."
+msgstr ""
+"Incident: Patchouli's Seven-Day Reverse Index is missing.\nAccess: Marisa "
+"13:02–15:11; Alice 14:20–14:48. No loan. Koakuma saw it at 14:35. At 15:20 "
+"Marisa's box shows a same-sized blue cover, no spine visible. West-window "
+"seal failed 14:50–15:05."
+
+#. advancedGaokaoQuestions.common.3.LU-C01.4
+#: src/data/gaokao-advanced.js:214
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.4"
+msgid "What is the most reasonable next sequence?"
+msgstr "What is the most reasonable next sequence?"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.5.0
+#: src/data/gaokao-advanced.js:215
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.5.0"
+msgid ""
+"Check Marisa's blue cover first; if its size matches, retain it as the "
+"likeliest volume and decide whether to inspect the window and shelf only "
+"after identifying the spine"
+msgstr ""
+"Check Marisa's blue cover first; if its size matches, retain it as the "
+"likeliest volume and decide whether to inspect the window and shelf only "
+"after identifying the spine"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.5.1
+#: src/data/gaokao-advanced.js:215
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.5.1"
+msgid ""
+"Check post-14:35 shelf and window traces and the blue spine, then interview "
+"those present while retaining multiple hypotheses"
+msgstr ""
+"Check post-14:35 shelf and window traces and the blue spine, then interview "
+"those present while retaining multiple hypotheses"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.5.2
+#: src/data/gaokao-advanced.js:215
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.5.2"
+msgid ""
+"With no loan and a failed window seal, prioritize unauthorized window "
+"removal and defer examining the box"
+msgstr ""
+"With no loan and a failed window seal, prioritize unauthorized window "
+"removal and defer examining the box"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.5.3
+#: src/data/gaokao-advanced.js:215
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.5.3"
+msgid ""
+"The 14:35 shelf sighting excludes Alice, so investigate only those still "
+"present afterward"
+msgstr ""
+"The 14:35 shelf sighting excludes Alice, so investigate only those still "
+"present afterward"
+
+#. advancedGaokaoQuestions.common.3.LU-C01.7
+#: src/data/gaokao-advanced.js:216
+msgctxt "text:advancedGaokaoQuestions.common.3.LU-C01.7"
+msgid ""
+"The window narrows time but identifies no unique actor. Gather evidence that "
+"can discriminate the seal and blue-cover hypotheses."
+msgstr ""
+"The window narrows time but identifies no unique actor. Gather evidence that "
+"can discriminate the seal and blue-cover hypotheses."
+
+#. advancedGaokaoQuestions.common.4.LU-C02.3
+#: src/data/gaokao-advanced.js:220
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.3"
+msgid ""
+"Rule: research flights may not cross dining-hall airspace; incident response "
+"may use the shortest safe line.\n12:00 chimney backflow; fairy reports fire. "
+"12:03 Reimu flies directly overhead; 12:05 identified as night-sparrow "
+"grill; 12:07 she diverts to land.\nHeadline: “Shrine Maiden Openly Violates "
+"Research-Flight Ban.”"
+msgstr ""
+"Rule: research flights may not cross dining-hall airspace; incident response "
+"may use the shortest safe line.\n12:00 chimney backflow; fairy reports fire. "
+"12:03 Reimu flies directly overhead; 12:05 identified as night-sparrow "
+"grill; 12:07 she diverts to land.\nHeadline: “Shrine Maiden Openly Violates "
+"Research-Flight Ban.”"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.4
+#: src/data/gaokao-advanced.js:221
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.4"
+msgid "Which reading handles both rule category and information updates?"
+msgstr "Which reading handles both rule category and information updates?"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.5.0
+#: src/data/gaokao-advanced.js:222
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.5.0"
+msgid ""
+"At 12:03 the fire report supports the incident-response exception; its basis "
+"ends at 12:05, the 12:07 diversion fits, and the headline misclassifies the "
+"mission"
+msgstr ""
+"At 12:03 the fire report supports the incident-response exception; its basis "
+"ends at 12:05, the 12:07 diversion fits, and the headline misclassifies the "
+"mission"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.5.1
+#: src/data/gaokao-advanced.js:222
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.5.1"
+msgid ""
+"The backflow still occurred, but the exception protects actual incidents "
+"rather than good-faith mistakes, so the 12:03 flight becomes retroactively "
+"unlawful once the grill is identified"
+msgstr ""
+"The backflow still occurred, but the exception protects actual incidents "
+"rather than good-faith mistakes, so the 12:03 flight becomes retroactively "
+"unlawful once the grill is identified"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.5.2
+#: src/data/gaokao-advanced.js:222
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.5.2"
+msgid ""
+"The exception applied at 12:03, so the rest of Reimu's flight remains exempt "
+"from the dining-hall restriction"
+msgstr ""
+"The exception applied at 12:03, so the rest of Reimu's flight remains exempt "
+"from the dining-hall restriction"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.5.3
+#: src/data/gaokao-advanced.js:222
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.5.3"
+msgid ""
+"The research ban excludes shrine maidens while the incident exception "
+"requires a real fire; together they make 12:03 lawful"
+msgstr ""
+"The research ban excludes shrine maidens while the incident exception "
+"requires a real fire; together they make 12:03 lawful"
+
+#. advancedGaokaoQuestions.common.4.LU-C02.7
+#: src/data/gaokao-advanced.js:223
+msgctxt "text:advancedGaokaoQuestions.common.4.LU-C02.7"
+msgid ""
+"Evaluate decisions using information available at the time and the correct "
+"mission category."
+msgstr ""
+"Evaluate decisions using information available at the time and the correct "
+"mission category."
+
+#. advancedGaokaoQuestions.common.5.LU-C03.3
+#: src/data/gaokao-advanced.js:227
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.3"
+msgid ""
+"Festival stage vote: Kanako 4, Byakuren 3, Miko 3. Charter: faith-ritual "
+"matters require a majority plus at least one supporting vote from two "
+"traditions. A Moriya-only rite passes 6–4, supported only by Moriya and two "
+"unaffiliated representatives."
+msgstr ""
+"Festival stage vote: Kanako 4, Byakuren 3, Miko 3. Charter: faith-ritual "
+"matters require a majority plus at least one supporting vote from two "
+"traditions. A Moriya-only rite passes 6–4, supported only by Moriya and two "
+"unaffiliated representatives."
+
+#. advancedGaokaoQuestions.common.5.LU-C03.4
+#: src/data/gaokao-advanced.js:228
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.4"
+msgid "What is the most accurate institutional conclusion?"
+msgstr "What is the most accurate institutional conclusion?"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.5.0
+#: src/data/gaokao-advanced.js:229
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.5.0"
+msgid ""
+"The 6–4 vote satisfies the majority; the cross-tradition condition applies "
+"only as a tie-breaker"
+msgstr ""
+"The 6–4 vote satisfies the majority; the cross-tradition condition applies "
+"only as a tie-breaker"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.5.1
+#: src/data/gaokao-advanced.js:229
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.5.1"
+msgid ""
+"The proposal has a majority but lacks cross-tradition support; its "
+"composition threshold cannot be replaced by vote count"
+msgstr ""
+"The proposal has a majority but lacks cross-tradition support; its "
+"composition threshold cannot be replaced by vote count"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.5.2
+#: src/data/gaokao-advanced.js:229
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.5.2"
+msgid ""
+"Because the two unaffiliated representatives are not Moriya, they can count "
+"as another tradition and satisfy the rule"
+msgstr ""
+"Because the two unaffiliated representatives are not Moriya, they can count "
+"as another tradition and satisfy the rule"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.5.3
+#: src/data/gaokao-advanced.js:229
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.5.3"
+msgid ""
+"The proposal is Moriya-only, but the charter concerns voter identity; six "
+"supporters are enough to form two groups"
+msgstr ""
+"The proposal is Moriya-only, but the charter concerns voter identity; six "
+"supporters are enough to form two groups"
+
+#. advancedGaokaoQuestions.common.5.LU-C03.7
+#: src/data/gaokao-advanced.js:230
+msgctxt "text:advancedGaokaoQuestions.common.5.LU-C03.7"
+msgid ""
+"This is a dual threshold: numerical majority cannot substitute for "
+"cross-tradition support."
+msgstr ""
+"This is a dual threshold: numerical majority cannot substitute for "
+"cross-tradition support."
+
+#. advancedGaokaoQuestions.common.6.EX-C01.3
+#: src/data/gaokao-advanced.js:234
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.3"
+msgid ""
+"[Sequence] 02:10 all campus clocks lag 7 min; 02:12 kappa time server "
+"normal; 02:14 Eientei lunar clock normal; 02:16 Yukari rotates the “on "
+"time/late” boundary marker 180°; 02:17 only clocks reading the "
+"policy-location definition lag again, while independent mechanical clocks "
+"recover.\n[Versions] v2 uses astronomical time; v3 also reads marker "
+"orientation."
+msgstr ""
+"[Sequence] 02:10 all campus clocks lag 7 min; 02:12 kappa time server "
+"normal; 02:14 Eientei lunar clock normal; 02:16 Yukari rotates the “on "
+"time/late” boundary marker 180°; 02:17 only clocks reading the "
+"policy-location definition lag again, while independent mechanical clocks "
+"recover.\n[Versions] v2 uses astronomical time; v3 also reads marker "
+"orientation."
+
+#. advancedGaokaoQuestions.common.6.EX-C01.4
+#: src/data/gaokao-advanced.js:235
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.4"
+msgid "Which fault attribution is minimal yet sufficient?"
+msgstr "Which fault attribution is minimal yet sufficient?"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.5.0
+#: src/data/gaokao-advanced.js:236
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.5.0"
+msgid ""
+"The astronomical source lagged seven minutes at 02:10 and later recovered; "
+"the 02:17 subset merely had not resynchronized"
+msgstr ""
+"The astronomical source lagged seven minutes at 02:10 and later recovered; "
+"the 02:17 subset merely had not resynchronized"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.5.1
+#: src/data/gaokao-advanced.js:236
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.5.1"
+msgid ""
+"Because servers report normal while campus clocks fail, the shared “normal” "
+"state value was wrong; marker rotation merely triggered rereading"
+msgstr ""
+"Because servers report normal while campus clocks fail, the shared “normal” "
+"state value was wrong; marker rotation merely triggered rereading"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.5.2
+#: src/data/gaokao-advanced.js:236
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.5.2"
+msgid ""
+"v3 couples marker orientation into clock correction; selective recurrence "
+"after rotation supports that path, while the initial 02:10 trigger remains "
+"unexplained"
+msgstr ""
+"v3 couples marker orientation into clock correction; selective recurrence "
+"after rotation supports that path, while the initial 02:10 trigger remains "
+"unexplained"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.5.3
+#: src/data/gaokao-advanced.js:236
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.5.3"
+msgid ""
+"Only policy-reading clocks recur after rotation, so Yukari's intervention "
+"explains both 02:17 and 02:10; the matching seven-minute errors form one "
+"causal chain"
+msgstr ""
+"Only policy-reading clocks recur after rotation, so Yukari's intervention "
+"explains both 02:17 and 02:10; the matching seven-minute errors form one "
+"causal chain"
+
+#. advancedGaokaoQuestions.common.6.EX-C01.7
+#: src/data/gaokao-advanced.js:237
+msgctxt "text:advancedGaokaoQuestions.common.6.EX-C01.7"
+msgid ""
+"The attribution explains version selectivity and post-intervention "
+"recurrence without inventing the first trigger."
+msgstr ""
+"The attribution explains version selectivity and post-intervention "
+"recurrence without inventing the first trigger."
+
+#. advancedGaokaoQuestions.common.7.EX-C02.3
+#: src/data/gaokao-advanced.js:241
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.3"
+msgid ""
+"[Spell incident] A saw the red exit line; B says a lunar rainbow hid it; "
+"central referee saw it.\n[Video] Central camera normal; B-side camera "
+"polarizer reversed; two of three spectators there also failed to see the "
+"line.\n[Rule] Every participant must be able to identify the exit signal from "
+"their activity zone."
+msgstr ""
+"[Spell incident] A saw the red exit line; B says a lunar rainbow hid it; "
+"central referee saw it.\n[Video] Central camera normal; B-side camera "
+"polarizer reversed; two of three spectators there also failed to see the "
+"line.\n[Rule] Every participant must be able to identify the exit signal from "
+"their activity zone."
+
+#. advancedGaokaoQuestions.common.7.EX-C02.4
+#: src/data/gaokao-advanced.js:242
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.4"
+msgid "Can the rule be deemed satisfied solely because the central referee saw the line? Why?"
+msgstr "Can the rule be deemed satisfied solely because the central referee saw the line? Why?"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.5.0
+#: src/data/gaokao-advanced.js:243
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.5.0"
+msgid ""
+"Yes. The referee administers exit rulings, so a normal central view "
+"satisfies the institutional function; participant views affect convenience "
+"only"
+msgstr ""
+"Yes. The referee administers exit rulings, so a normal central view "
+"satisfies the institutional function; participant views affect convenience "
+"only"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.5.1
+#: src/data/gaokao-advanced.js:243
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.5.1"
+msgid ""
+"No. The rule applies to each participant's zone; B-side observations remain, "
+"and the faulty camera weakens video without erasing testimony"
+msgstr ""
+"No. The rule applies to each participant's zone; B-side observations remain, "
+"and the faulty camera weakens video without erasing testimony"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.5.2
+#: src/data/gaokao-advanced.js:243
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.5.2"
+msgid ""
+"No. The reversed polarizer and two spectators prove the lunar rainbow was "
+"inherently dangerous on B's side, invalidating the entire contest"
+msgstr ""
+"No. The reversed polarizer and two spectators prove the lunar rainbow was "
+"inherently dangerous on B's side, invalidating the entire contest"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.5.3
+#: src/data/gaokao-advanced.js:243
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.5.3"
+msgid ""
+"Yes. A and the referee supply a majority of independent visible viewpoints; "
+"the faulty B-side camera excludes contrary evidence"
+msgstr ""
+"Yes. A and the referee supply a majority of independent visible viewpoints; "
+"the faulty B-side camera excludes contrary evidence"
+
+#. advancedGaokaoQuestions.common.7.EX-C02.7
+#: src/data/gaokao-advanced.js:244
+msgctxt "text:advancedGaokaoQuestions.common.7.EX-C02.7"
+msgid ""
+"Do not generalize central visibility globally or discard all same-side "
+"evidence because one camera failed."
+msgstr ""
+"Do not generalize central visibility globally or discard all same-side "
+"evidence because one camera failed."
+
+#. advancedGaokaoQuestions.common.8.EX-C03.3
+#: src/data/gaokao-advanced.js:248
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.3"
+msgid ""
+"[Missing book timeline] Shelf 3.2kg at 14:00 and 14:31; 2.4 at 14:44; west "
+"window opens 14:46; Marisa exits 14:49; doll returns a 0.8kg book at "
+"15:02.\n[Sensor] Weight readings lag one record when a doll approaches; "
+"window sensor normal.\n[Loan] Alice borrowed a different 0.8kg book at 14:40 "
+"and returned it by doll at 15:02."
+msgstr ""
+"[Missing book timeline] Shelf 3.2kg at 14:00 and 14:31; 2.4 at 14:44; west "
+"window opens 14:46; Marisa exits 14:49; doll returns a 0.8kg book at "
+"15:02.\n[Sensor] Weight readings lag one record when a doll approaches; "
+"window sensor normal.\n[Loan] Alice borrowed a different 0.8kg book at 14:40 "
+"and returned it by doll at 15:02."
+
+#. advancedGaokaoQuestions.common.8.EX-C03.4
+#: src/data/gaokao-advanced.js:249
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.4"
+msgid "Which conclusion matches what the data can identify?"
+msgstr "Which conclusion matches what the data can identify?"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.5.0
+#: src/data/gaokao-advanced.js:250
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.5.0"
+msgid ""
+"The 14:44 drop can be explained by Alice's valid loan; the window and Marisa "
+"events are temporal proximity, not unique identification"
+msgstr ""
+"The 14:44 drop can be explained by Alice's valid loan; the window and Marisa "
+"events are temporal proximity, not unique identification"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.5.1
+#: src/data/gaokao-advanced.js:250
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.5.1"
+msgid ""
+"The weight change matches the loan, but window opening followed by Marisa's "
+"exit forms another chain; when both exist, the later chain identifies the "
+"culprit"
+msgstr ""
+"The weight change matches the loan, but window opening followed by Marisa's "
+"exit forms another chain; when both exist, the later chain identifies the "
+"culprit"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.5.2
+#: src/data/gaokao-advanced.js:250
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.5.2"
+msgid ""
+"Because a doll approaches at 15:02 and weight lags one record, the 14:44 "
+"drop may belong to 15:02, so all earlier weight points should be discarded"
+msgstr ""
+"Because a doll approaches at 15:02 and weight lags one record, the 14:44 "
+"drop may belong to 15:02, so all earlier weight points should be discarded"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.5.3
+#: src/data/gaokao-advanced.js:250
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.5.3"
+msgid ""
+"The 0.8kg return exactly restores the 14:44 loss; mass conservation proves "
+"it is the missing book, making the window and exit irrelevant"
+msgstr ""
+"The 0.8kg return exactly restores the 14:44 loss; mass conservation proves "
+"it is the missing book, making the window and exit irrelevant"
+
+#. advancedGaokaoQuestions.common.8.EX-C03.7
+#: src/data/gaokao-advanced.js:251
+msgctxt "text:advancedGaokaoQuestions.common.8.EX-C03.7"
+msgid ""
+"The known loan explains the weight change. Remaining events do not identify "
+"a particular volume or possessor."
+msgstr ""
+"The known loan explains the weight change. Remaining events do not identify "
+"a particular volume or possessor."
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.3
+#: src/data/gaokao-advanced.js:257
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.3"
+msgid ""
+"Source A was written that night in the village and saw only red light; B "
+"three days later at the Scarlet Devil Mansion logs gate shifts; C is a "
+"compilation fifty years later claiming “all Gensokyo saw red mist at once.”"
+msgstr ""
+"Source A was written that night in the village and saw only red light; B "
+"three days later at the Scarlet Devil Mansion logs gate shifts; C is a "
+"compilation fifty years later claiming “all Gensokyo saw red mist at once.”"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.4
+#: src/data/gaokao-advanced.js:258
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.4"
+msgid "Which evidence strategy best tests whether the mist covered all Gensokyo simultaneously?"
+msgstr "Which evidence strategy best tests whether the mist covered all Gensokyo simultaneously?"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.5.0
+#: src/data/gaokao-advanced.js:259
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.5.0"
+msgid ""
+"Use C to define the Gensokyo-wide scope, then fill village and mansion "
+"detail from A and B"
+msgstr ""
+"Use C to define the Gensokyo-wide scope, then fill village and mansion "
+"detail from A and B"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.5.1
+#: src/data/gaokao-advanced.js:259
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.5.1"
+msgid ""
+"Treat A and B as local records, seek timed mountain and lake evidence, and "
+"treat C as later narrative"
+msgstr ""
+"Treat A and B as local records, seek timed mountain and lake evidence, and "
+"treat C as later narrative"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.5.2
+#: src/data/gaokao-advanced.js:259
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.5.2"
+msgid "Convert A and B to one date and use their agreement to infer simultaneous coverage"
+msgstr "Convert A and B to one date and use their agreement to infer simultaneous coverage"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.5.3
+#: src/data/gaokao-advanced.js:259
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.5.3"
+msgid ""
+"Because A records red light and B gate shifts rather than mist, use C as the "
+"only direct evidence"
+msgstr ""
+"Because A records red light and B gate shifts rather than mist, use C as the "
+"only direct evidence"
+
+#. advancedGaokaoQuestions.humanities.0.HD-H01.7
+#: src/data/gaokao-advanced.js:260
+msgctxt "text:advancedGaokaoQuestions.humanities.0.HD-H01.7"
+msgid ""
+"Simultaneity across Gensokyo requires timed observations from several "
+"places; a later summary cannot replace spatial sampling."
+msgstr ""
+"Simultaneity across Gensokyo requires timed observations from several "
+"places; a later summary cannot replace spatial sampling."
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.3
+#: src/data/gaokao-advanced.js:264
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.3"
+msgid ""
+"Map A shows a fixed well and daily paths but no date. Map B shows date, "
+"lunar phase, and fixed gate but omits temporary trails."
+msgstr ""
+"Map A shows a fixed well and daily paths but no date. Map B shows date, "
+"lunar phase, and fixed gate but omits temporary trails."
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.4
+#: src/data/gaokao-advanced.js:265
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.4"
+msgid "How should they be used for today's rescue map?"
+msgstr "How should they be used for today's rescue map?"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.5.0
+#: src/data/gaokao-advanced.js:266
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.5.0"
+msgid "Use A's full route network as the base and place B's date and phase in the corner"
+msgstr "Use A's full route network as the base and place B's date and phase in the corner"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.5.1
+#: src/data/gaokao-advanced.js:266
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.5.1"
+msgid "Use every element from B only; exclude even A's fixed well because A is undated"
+msgstr "Use every element from B only; exclude even A's fixed well because A is undated"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.5.2
+#: src/data/gaokao-advanced.js:266
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.5.2"
+msgid ""
+"Use B's date, phase, and gate as the temporal frame; field-check A's well "
+"and omit A's undated paths"
+msgstr ""
+"Use B's date, phase, and gate as the temporal frame; field-check A's well "
+"and omit A's undated paths"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.5.3
+#: src/data/gaokao-advanced.js:266
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.5.3"
+msgid "Overlay both maps; trust overlaps and prefer the more detailed A where they differ"
+msgstr "Overlay both maps; trust overlaps and prefer the more detailed A where they differ"
+
+#. advancedGaokaoQuestions.humanities.1.HD-H02.7
+#: src/data/gaokao-advanced.js:267
+msgctxt "text:advancedGaokaoQuestions.humanities.1.HD-H02.7"
+msgid ""
+"Map layers can have different reliability; stable anchors can be checked, "
+"while conditional routes require dates."
+msgstr ""
+"Map layers can have different reliability; stable anchors can be checked, "
+"while conditional routes require dates."
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.3
+#: src/data/gaokao-advanced.js:271
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.3"
+msgid ""
+"Aya predicts 800 attendees; Hatate's photos count 520 entry marks; "
+"organizers issue 610 tickets, 90 allowing re-entry; simultaneous square "
+"capacity is 560."
+msgstr ""
+"Aya predicts 800 attendees; Hatate's photos count 520 entry marks; "
+"organizers issue 610 tickets, 90 allowing re-entry; simultaneous square "
+"capacity is 560."
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.4
+#: src/data/gaokao-advanced.js:272
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.4"
+msgid ""
+"Which headline best avoids conflating forecast, entries, unique people, and "
+"simultaneous presence?"
+msgstr ""
+"Which headline best avoids conflating forecast, entries, unique people, and "
+"simultaneous presence?"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.5.0
+#: src/data/gaokao-advanced.js:273
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.5.0"
+msgid "Forecast 800, tickets 610: festival draws at least 610 unique visitors"
+msgstr "Forecast 800, tickets 610: festival draws at least 610 unique visitors"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.5.1
+#: src/data/gaokao-advanced.js:273
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.5.1"
+msgid ""
+"Photos record 520 entries; unique attendance and peak occupancy still "
+"require ticket deduplication"
+msgstr ""
+"Photos record 520 entries; unique attendance and peak occupancy still "
+"require ticket deduplication"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.5.2
+#: src/data/gaokao-advanced.js:273
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.5.2"
+msgid "Capacity 560 and 520 entry marks place peak occupancy between 520 and 560"
+msgstr "Capacity 560 and 520 entry marks place peak occupancy between 520 and 560"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.5.3
+#: src/data/gaokao-advanced.js:273
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.5.3"
+msgid "Because 90 of 610 tickets allow re-entry, unique attendance is exactly 520"
+msgstr "Because 90 of 610 tickets allow re-entry, unique attendance is exactly 520"
+
+#. advancedGaokaoQuestions.humanities.2.HD-H03.7
+#: src/data/gaokao-advanced.js:274
+msgctxt "text:advancedGaokaoQuestions.humanities.2.HD-H03.7"
+msgid ""
+"The direct observation is 520 marks; re-entry means it is not automatically "
+"520 unique people."
+msgstr ""
+"The direct observation is 520 marks; re-entry means it is not automatically "
+"520 unique people."
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.3
+#: src/data/gaokao-advanced.js:278
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.3"
+msgid ""
+"[A Village] Thick by midnight; writer's clock 15 min slow.\n[B Mountain] Mist "
+"after the sixth eastward wind reading; vane sampled every 30 min.\n[C Misty "
+"Lake] Mist 8 min after the moon reflection vanished; standard disappearance "
+"23:42.\n[D 50 years later] All Gensokyo entered mist simultaneously at "
+"midnight."
+msgstr ""
+"[A Village] Thick by midnight; writer's clock 15 min slow.\n[B Mountain] Mist "
+"after the sixth eastward wind reading; vane sampled every 30 min.\n[C Misty "
+"Lake] Mist 8 min after the moon reflection vanished; standard disappearance "
+"23:42.\n[D 50 years later] All Gensokyo entered mist simultaneously at "
+"midnight."
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.4
+#: src/data/gaokao-advanced.js:279
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.4"
+msgid "Which research conclusion is most defensible?"
+msgstr "Which research conclusion is most defensible?"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.5.0
+#: src/data/gaokao-advanced.js:280
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.5.0"
+msgid ""
+"A corrects to 00:15 and C to about 23:50; the 25-minute gap exceeds both "
+"records' stated precision and therefore rules out one mist event"
+msgstr ""
+"A corrects to 00:15 and C to about 23:50; the 25-minute gap exceeds both "
+"records' stated precision and therefore rules out one mist event"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.5.1
+#: src/data/gaokao-advanced.js:280
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.5.1"
+msgid ""
+"C gives about 23:50; A may correct to 00:15. B lacks an origin, so "
+"Gensokyo-wide simultaneity is not established"
+msgstr ""
+"C gives about 23:50; A may correct to 00:15. B lacks an origin, so "
+"Gensokyo-wide simultaneity is not established"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.5.2
+#: src/data/gaokao-advanced.js:280
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.5.2"
+msgid ""
+"D fixes midnight as a Gensokyo-wide reference; align A, B, and C to D before "
+"judging local deviations"
+msgstr ""
+"D fixes midnight as a Gensokyo-wide reference; align A, B, and C to D before "
+"judging local deviations"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.5.3
+#: src/data/gaokao-advanced.js:280
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.5.3"
+msgid ""
+"B's six half-watch readings place mist three hours after observation began; "
+"even without a start time, sequence length makes it more precise than A or C"
+msgstr ""
+"B's six half-watch readings place mist three hours after observation began; "
+"even without a start time, sequence length makes it more precise than A or C"
+
+#. advancedGaokaoQuestions.humanities.3.LU-H01.7
+#: src/data/gaokao-advanced.js:281
+msgctxt "text:advancedGaokaoQuestions.humanities.3.LU-H01.7"
+msgid ""
+"Normalize sources to a common clock. B lacks an origin and D is late "
+"synthesis, so neither proves simultaneity."
+msgstr ""
+"Normalize sources to a common clock. B lacks an origin and D is late "
+"synthesis, so neither proves simultaneity."
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.3
+#: src/data/gaokao-advanced.js:285
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.3"
+msgid ""
+"Mountain turbine: kappa operate, Moriya guarantees by faith, village pays "
+"maintenance. Below 70% triggers renegotiation. Kappa report 76% all-day; "
+"village measures 64% for two peak watches; Moriya publishes 88% for one "
+"festival watch."
+msgstr ""
+"Mountain turbine: kappa operate, Moriya guarantees by faith, village pays "
+"maintenance. Below 70% triggers renegotiation. Kappa report 76% all-day; "
+"village measures 64% for two peak watches; Moriya publishes 88% for one "
+"festival watch."
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.4
+#: src/data/gaokao-advanced.js:286
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.4"
+msgid "Has renegotiation triggered, and what is the soundest institutional response?"
+msgstr "Has renegotiation triggered, and what is the soundest institutional response?"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.5.0
+#: src/data/gaokao-advanced.js:287
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.5.0"
+msgid ""
+"Two peak watches below 70% meet the literal trigger; the undefined window "
+"affects breach liability but not whether renegotiation starts"
+msgstr ""
+"Two peak watches below 70% meet the literal trigger; the undefined window "
+"affects breach liability but not whether renegotiation starts"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.5.1
+#: src/data/gaokao-advanced.js:287
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.5.1"
+msgid ""
+"The all-day 76% uses the longest window and should override shorter "
+"observations; with no peak guarantee, renegotiation does not trigger"
+msgstr ""
+"The all-day 76% uses the longest window and should override shorter "
+"observations; with no peak guarantee, renegotiation does not trigger"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.5.2
+#: src/data/gaokao-advanced.js:287
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.5.2"
+msgid ""
+"The contract lacks a sampling window; remeasure on a shared window and "
+"define the time scale of 70% in an addendum"
+msgstr ""
+"The contract lacks a sampling window; remeasure on a shared window and "
+"define the time scale of 70% in an addendum"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.5.3
+#: src/data/gaokao-advanced.js:287
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.5.3"
+msgid ""
+"Each party represents one responsibility, so their equal-weight mean of 76% "
+"is contractual capacity; being above threshold closes the matter"
+msgstr ""
+"Each party represents one responsibility, so their equal-weight mean of 76% "
+"is contractual capacity; being above threshold closes the matter"
+
+#. advancedGaokaoQuestions.humanities.4.LU-H02.7
+#: src/data/gaokao-advanced.js:288
+msgctxt "text:advancedGaokaoQuestions.humanities.4.LU-H02.7"
+msgid ""
+"The threshold lacks a time scale. Establish comparability before deciding "
+"whether it was crossed."
+msgstr ""
+"The threshold lacks a time scale. Establish comparability before deciding "
+"whether it was crossed."
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.3
+#: src/data/gaokao-advanced.js:292
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.3"
+msgid ""
+"Study claims public correction raises trust. Aya's paper: 12 corrections, "
+"trust 42→55; Hatate's: 2 corrections, 51→54. Aya simultaneously switched to "
+"free delivery and ran a popular incident map."
+msgstr ""
+"Study claims public correction raises trust. Aya's paper: 12 corrections, "
+"trust 42→55; Hatate's: 2 corrections, 51→54. Aya simultaneously switched to "
+"free delivery and ran a popular incident map."
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.4
+#: src/data/gaokao-advanced.js:293
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.4"
+msgid "Which conclusion best matches these observational data?"
+msgstr "Which conclusion best matches these observational data?"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.5.0
+#: src/data/gaokao-advanced.js:294
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.5.0"
+msgid ""
+"Aya had ten more corrections and gained ten more points; after removing the "
+"shared three-point period trend, each correction adds about one trust point"
+msgstr ""
+"Aya had ten more corrections and gained ten more points; after removing the "
+"shared three-point period trend, each correction adds about one trust point"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.5.1
+#: src/data/gaokao-advanced.js:294
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.5.1"
+msgid ""
+"Aya's corrections and trust rose together, but free delivery, the popular "
+"series, and baseline differences prevent estimating an independent "
+"correction effect"
+msgstr ""
+"Aya's corrections and trust rose together, but free delivery, the popular "
+"series, and baseline differences prevent estimating an independent "
+"correction effect"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.5.2
+#: src/data/gaokao-advanced.js:294
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.5.2"
+msgid ""
+"Both papers gained trust and the one with more corrections gained more; this "
+"supports a positive causal direction, though not its size"
+msgstr ""
+"Both papers gained trust and the one with more corrections gained more; this "
+"supports a positive causal direction, though not its size"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.5.3
+#: src/data/gaokao-advanced.js:294
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.5.3"
+msgid ""
+"Use Hatate's three points as the no-correction trend and assign Aya's "
+"remaining ten points to corrections; free delivery and the series affect "
+"reach only"
+msgstr ""
+"Use Hatate's three points as the no-correction trend and assign Aya's "
+"remaining ten points to corrections; free delivery and the series affect "
+"reach only"
+
+#. advancedGaokaoQuestions.humanities.5.LU-H03.7
+#: src/data/gaokao-advanced.js:295
+msgctxt "text:advancedGaokaoQuestions.humanities.5.LU-H03.7"
+msgid ""
+"Several changes coincide and baselines differ; the before-after change "
+"cannot be assigned solely to corrections."
+msgstr ""
+"Several changes coincide and baselines differ; the before-after change "
+"cannot be assigned solely to corrections."
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.3
+#: src/data/gaokao-advanced.js:299
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.3"
+msgid ""
+"[Archive] A: 18 same-night village diaries, preserved only from East Gate "
+"residents. B: 40 tengu photos, editors removed 11 showing “no mist.” C: "
+"complete mansion duty log, timestamps uniformly 9 minutes slow. D: later "
+"encyclopedia cites A/B, not C.\nGoal: estimate arrival-time distribution by "
+"district."
+msgstr ""
+"[Archive] A: 18 same-night village diaries, preserved only from East Gate "
+"residents. B: 40 tengu photos, editors removed 11 showing “no mist.” C: "
+"complete mansion duty log, timestamps uniformly 9 minutes slow. D: later "
+"encyclopedia cites A/B, not C.\nGoal: estimate arrival-time distribution by "
+"district."
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.4
+#: src/data/gaokao-advanced.js:300
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.4"
+msgid ""
+"Which plan best avoids mistaking preservation and editing mechanisms for the "
+"world itself?"
+msgstr ""
+"Which plan best avoids mistaking preservation and editing mechanisms for the "
+"world itself?"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.5.0
+#: src/data/gaokao-advanced.js:301
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.5.0"
+msgid ""
+"Treat A and B as contemporary and D as an independent later observation; "
+"correct C by nine minutes as the mansion baseline"
+msgstr ""
+"Treat A and B as contemporary and D as an independent later observation; "
+"correct C by nine minutes as the mansion baseline"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.5.1
+#: src/data/gaokao-advanced.js:301
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.5.1"
+msgid ""
+"Estimate mist districts from B's surviving 29 images and supplement the "
+"village with A; deleted no-mist images cannot enter the model because they "
+"no longer survive"
+msgstr ""
+"Estimate mist districts from B's surviving 29 images and supplement the "
+"village with A; deleted no-mist images cannot enter the model because they "
+"no longer survive"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.5.2
+#: src/data/gaokao-advanced.js:301
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.5.2"
+msgid ""
+"Model A's geographic selection and B's deletions, correct C by nine minutes, "
+"and do not double-weight D because it depends on A and B"
+msgstr ""
+"Model A's geographic selection and B's deletions, correct C by nine minutes, "
+"and do not double-weight D because it depends on A and B"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.5.3
+#: src/data/gaokao-advanced.js:301
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.5.3"
+msgid ""
+"Because D omits C, the mansion log was not accepted; build the distribution "
+"from A, B, and D and relegate C to a non-influential sensitivity appendix"
+msgstr ""
+"Because D omits C, the mansion log was not accepted; build the distribution "
+"from A, B, and D and relegate C to a non-influential sensitivity appendix"
+
+#. advancedGaokaoQuestions.humanities.6.EX-H01.7
+#: src/data/gaokao-advanced.js:302
+msgctxt "text:advancedGaokaoQuestions.humanities.6.EX-H01.7"
+msgid ""
+"Model how records survived. D is not a new observation, and B's omissions "
+"are not random."
+msgstr ""
+"Model how records survived. D is not a new observation, and B's omissions "
+"are not random."
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.3
+#: src/data/gaokao-advanced.js:306
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.3"
+msgid ""
+"Three faiths choose whether to run free lectures. Clear weather raises "
+"outdoor lectures and Moriya enrolment; the temple moves indoors when rainy; "
+"the hermitage adds sessions only when it foresees high interest. A "
+"researcher directly compares enrolment with/without lectures and claims "
+"causation."
+msgstr ""
+"Three faiths choose whether to run free lectures. Clear weather raises "
+"outdoor lectures and Moriya enrolment; the temple moves indoors when rainy; "
+"the hermitage adds sessions only when it foresees high interest. A "
+"researcher directly compares enrolment with/without lectures and claims "
+"causation."
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.4
+#: src/data/gaokao-advanced.js:307
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.4"
+msgid ""
+"Which design comes closest to identifying the causal effect without asking "
+"faiths to abandon their practices?"
+msgstr ""
+"Which design comes closest to identifying the causal effect without asking "
+"faiths to abandon their practices?"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.5.0
+#: src/data/gaokao-advanced.js:308
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.5.0"
+msgid ""
+"Add historical years and propensity scores by faith and weather, using "
+"extra-session count as a proxy for the hermitage's foreseen interest"
+msgstr ""
+"Add historical years and propensity scores by faith and weather, using "
+"extra-session count as a proxy for the hermitage's foreseen interest"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.5.1
+#: src/data/gaokao-advanced.js:308
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.5.1"
+msgid ""
+"Within dates each faith deems feasible, publicly randomize this week versus "
+"next, estimate by faith, and record weather and prior interest"
+msgstr ""
+"Within dates each faith deems feasible, publicly randomize this week versus "
+"next, estimate by faith, and record weather and prior interest"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.5.2
+#: src/data/gaokao-advanced.js:308
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.5.2"
+msgid ""
+"Pool students across faiths, stratify by weather, and compare lectures; a "
+"large sample averages away faith differences"
+msgstr ""
+"Pool students across faiths, stratify by weather, and compare lectures; a "
+"large sample averages away faith differences"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.5.3
+#: src/data/gaokao-advanced.js:308
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.5.3"
+msgid ""
+"Randomize Moriya lectures on clear days, then extrapolate that clean causal "
+"effect to the temple and hermitage"
+msgstr ""
+"Randomize Moriya lectures on clear days, then extrapolate that clean causal "
+"effect to the temple and hermitage"
+
+#. advancedGaokaoQuestions.humanities.7.EX-H02.7
+#: src/data/gaokao-advanced.js:309
+msgctxt "text:advancedGaokaoQuestions.humanities.7.EX-H02.7"
+msgid ""
+"Randomizing within feasible dates respects faith-specific constraints while "
+"breaking systematic assignment by interest and weather."
+msgstr ""
+"Randomizing within feasible dates respects faith-specific constraints while "
+"breaking systematic assignment by interest and weather."
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.3
+#: src/data/gaokao-advanced.js:313
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.3"
+msgid ""
+"[News chain] Aya draft: “Moon rabbits seal bamboo forest”; edited: “Moon "
+"rabbits control full-moon clinic flow”; reprint deletes “full-moon”; "
+"fifty-year chronology: “Moon rabbits maintained a long blockade.”\n[Clinic "
+"log] Controls occurred on three full-moon nights, two watches each, with "
+"emergency entry open."
+msgstr ""
+"[News chain] Aya draft: “Moon rabbits seal bamboo forest”; edited: “Moon "
+"rabbits control full-moon clinic flow”; reprint deletes “full-moon”; "
+"fifty-year chronology: “Moon rabbits maintained a long blockade.”\n[Clinic "
+"log] Controls occurred on three full-moon nights, two watches each, with "
+"emergency entry open."
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.4
+#: src/data/gaokao-advanced.js:314
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.4"
+msgid ""
+"What textual mechanism most strongly explains the shift from brief control "
+"to long blockade?"
+msgstr ""
+"What textual mechanism most strongly explains the shift from brief control "
+"to long blockade?"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.5.0
+#: src/data/gaokao-advanced.js:315
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.5.0"
+msgid ""
+"The draft's “seal” and three full-moon controls corroborate each other; the "
+"chronology simply calls a repeated long-lived rabbit policy long-term"
+msgstr ""
+"The draft's “seal” and three full-moon controls corroborate each other; the "
+"chronology simply calls a repeated long-lived rabbit policy long-term"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.5.1
+#: src/data/gaokao-advanced.js:315
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.5.1"
+msgid ""
+"The strong draft verb “seal” remains, the reprint removes “full-moon,” and "
+"the chronology compresses repeated events into continuity"
+msgstr ""
+"The strong draft verb “seal” remains, the reprint removes “full-moon,” and "
+"the chronology compresses repeated events into continuity"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.5.2
+#: src/data/gaokao-advanced.js:315
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.5.2"
+msgid ""
+"The edited copy replaced “seal” with “control,” so only the later chronology "
+"can be at fault; the reprint's deletion does not affect duration"
+msgstr ""
+"The edited copy replaced “seal” with “control,” so only the later chronology "
+"can be at fault; the reprint's deletion does not affect duration"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.5.3
+#: src/data/gaokao-advanced.js:315
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.5.3"
+msgid ""
+"The clinic log totals six watches, which historical convention can directly "
+"convert into a long blockade; emergency access is merely an exception"
+msgstr ""
+"The clinic log totals six watches, which historical convention can directly "
+"convert into a long blockade; emergency access is merely an exception"
+
+#. advancedGaokaoQuestions.humanities.8.EX-H03.7
+#: src/data/gaokao-advanced.js:316
+msgctxt "text:advancedGaokaoQuestions.humanities.8.EX-H03.7"
+msgid ""
+"Trace which qualifier disappears at each transmission step rather than "
+"comparing only endpoints."
+msgstr ""
+"Trace which qualifier disappears at each transmission step rather than "
+"comparing only endpoints."
+
+#. advancedGaokaoQuestions.science.0.HD-S01.3
+#: src/data/gaokao-advanced.js:322
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.3"
+msgid ""
+"Turbine tests: old runner at flow 10 outputs 72, 74; new runner at flow 12 "
+"outputs 91, 93. Researcher claims the new runner is more efficient."
+msgstr ""
+"Turbine tests: old runner at flow 10 outputs 72, 74; new runner at flow 12 "
+"outputs 91, 93. Researcher claims the new runner is more efficient."
+
+#. advancedGaokaoQuestions.science.0.HD-S01.4
+#: src/data/gaokao-advanced.js:323
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.4"
+msgid "What is the most important next test?"
+msgstr "What is the most important next test?"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.5.0
+#: src/data/gaokao-advanced.js:324
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.5.0"
+msgid "Alternate runners at the same flow and head, measuring input and output power"
+msgstr "Alternate runners at the same flow and head, measuring input and output power"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.5.1
+#: src/data/gaokao-advanced.js:324
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.5.1"
+msgid "Raise the old runner to flow 12 and compare only mean output between runners"
+msgstr "Raise the old runner to flow 12 and compare only mean output between runners"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.5.2
+#: src/data/gaokao-advanced.js:324
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.5.2"
+msgid ""
+"Repeat each at its original flow and use narrower confidence intervals to "
+"judge efficiency"
+msgstr ""
+"Repeat each at its original flow and use narrower confidence intervals to "
+"judge efficiency"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.5.3
+#: src/data/gaokao-advanced.js:324
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.5.3"
+msgid "Compare output-to-flow ratios without controlling head or measuring input power"
+msgstr "Compare output-to-flow ratios without controlling head or measuring input power"
+
+#. advancedGaokaoQuestions.science.0.HD-S01.7
+#: src/data/gaokao-advanced.js:325
+msgctxt "text:advancedGaokaoQuestions.science.0.HD-S01.7"
+msgid ""
+"Runner and flow both changed, and input power is absent; controlled "
+"input/output measurement is required."
+msgstr ""
+"Runner and flow both changed, and input power is absent; controlled "
+"input/output measurement is required."
+
+#. advancedGaokaoQuestions.science.1.HD-S02.3
+#: src/data/gaokao-advanced.js:329
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.3"
+msgid ""
+"Eientei herb trial: full-moon mean recovery 4.2 days (n=8), non-full-moon "
+"5.0 (n=8). Reisen measures every full-moon case, Tewi every non-full-moon "
+"case; their “recovery” criteria are uncalibrated."
+msgstr ""
+"Eientei herb trial: full-moon mean recovery 4.2 days (n=8), non-full-moon "
+"5.0 (n=8). Reisen measures every full-moon case, Tewi every non-full-moon "
+"case; their “recovery” criteria are uncalibrated."
+
+#. advancedGaokaoQuestions.science.1.HD-S02.4
+#: src/data/gaokao-advanced.js:330
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.4"
+msgid "What most directly threatens the interpretation that lunar phase caused the difference?"
+msgstr "What most directly threatens the interpretation that lunar phase caused the difference?"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.5.0
+#: src/data/gaokao-advanced.js:331
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.5.0"
+msgid "The groups are equal but only eight each, so their means cannot be compared"
+msgstr "The groups are equal but only eight each, so their means cannot be compared"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.5.1
+#: src/data/gaokao-advanced.js:331
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.5.1"
+msgid ""
+"Observer and phase are perfectly confounded, so criterion differences cannot "
+"be separated from phase effects"
+msgstr ""
+"Observer and phase are perfectly confounded, so criterion differences cannot "
+"be separated from phase effects"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.5.2
+#: src/data/gaokao-advanced.js:331
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.5.2"
+msgid "Decimal recovery times imply a precision beyond the actual observation schedule"
+msgstr "Decimal recovery times imply a precision beyond the actual observation schedule"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.5.3
+#: src/data/gaokao-advanced.js:331
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.5.3"
+msgid ""
+"Different observers were used, but a 0.8-day gap is large enough to overcome "
+"any criterion difference"
+msgstr ""
+"Different observers were used, but a 0.8-day gap is large enough to overcome "
+"any criterion difference"
+
+#. advancedGaokaoQuestions.science.1.HD-S02.7
+#: src/data/gaokao-advanced.js:332
+msgctxt "text:advancedGaokaoQuestions.science.1.HD-S02.7"
+msgid "The factors are perfectly aligned; cross-rating or blinded common criteria are needed."
+msgstr "The factors are perfectly aligned; cross-rating or blinded common criteria are needed."
+
+#. advancedGaokaoQuestions.science.2.HD-S03.3
+#: src/data/gaokao-advanced.js:336
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.3"
+msgid ""
+"Magic material A succeeds 14/20, B 9/10. A is always tested at Misty Lake, B "
+"always in the library; same caster."
+msgstr ""
+"Magic material A succeeds 14/20, B 9/10. A is always tested at Misty Lake, B "
+"always in the library; same caster."
+
+#. advancedGaokaoQuestions.science.2.HD-S03.4
+#: src/data/gaokao-advanced.js:337
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.4"
+msgid "What is the most reasonable conclusion?"
+msgstr "What is the most reasonable conclusion?"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.5.0
+#: src/data/gaokao-advanced.js:338
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.5.0"
+msgid ""
+"B is currently 20 points higher; extending each to 30 trials will confirm "
+"the material difference"
+msgstr ""
+"B is currently 20 points higher; extending each to 30 trials will confirm "
+"the material difference"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.5.1
+#: src/data/gaokao-advanced.js:338
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.5.1"
+msgid "The rates confound material and site; randomize A and B within both sites"
+msgstr "The rates confound material and site; randomize A and B within both sites"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.5.2
+#: src/data/gaokao-advanced.js:338
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.5.2"
+msgid ""
+"The same caster controls the main difference, so 70% versus 90% can be "
+"attributed directly to material"
+msgstr ""
+"The same caster controls the main difference, so 70% versus 90% can be "
+"attributed directly to material"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.5.3
+#: src/data/gaokao-advanced.js:338
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.5.3"
+msgid "Pool the groups as 23/30 overall, then adjust for site afterward"
+msgstr "Pool the groups as 23/30 overall, then adjust for site afterward"
+
+#. advancedGaokaoQuestions.science.2.HD-S03.7
+#: src/data/gaokao-advanced.js:339
+msgctxt "text:advancedGaokaoQuestions.science.2.HD-S03.7"
+msgid "Site and material change together; within-site randomization can separate them."
+msgstr "Site and material change together; within-site randomization can separate them."
+
+#. advancedGaokaoQuestions.science.3.LU-S01.3
+#: src/data/gaokao-advanced.js:343
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.3"
+msgid ""
+"Kappa turbine by watch: flow 10,10,10,10; head 5,5,5,5; output 80,79,61,60; "
+"shaft temperature 31,32,48,49. At watch 3, speed sensor firmware v2→v3; "
+"manual rotation log unchanged; weed found on runner."
+msgstr ""
+"Kappa turbine by watch: flow 10,10,10,10; head 5,5,5,5; output 80,79,61,60; "
+"shaft temperature 31,32,48,49. At watch 3, speed sensor firmware v2→v3; "
+"manual rotation log unchanged; weed found on runner."
+
+#. advancedGaokaoQuestions.science.3.LU-S01.4
+#: src/data/gaokao-advanced.js:344
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.4"
+msgid "Which diagnosis best fits all observations?"
+msgstr "Which diagnosis best fits all observations?"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.5.0
+#: src/data/gaokao-advanced.js:345
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.5.0"
+msgid ""
+"v3 coincides with the output drop and manual speed is unchanged, so firmware "
+"is the sole fault and weeds are a consequence"
+msgstr ""
+"v3 coincides with the output drop and manual speed is unchanged, so firmware "
+"is the sole fault and weeds are a consequence"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.5.1
+#: src/data/gaokao-advanced.js:345
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.5.1"
+msgid ""
+"Weeds explain output loss and heating; firmware changed concurrently but "
+"unchanged manual speed means sensor bias needs separate testing"
+msgstr ""
+"Weeds explain output loss and heating; firmware changed concurrently but "
+"unchanged manual speed means sensor bias needs separate testing"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.5.2
+#: src/data/gaokao-advanced.js:345
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.5.2"
+msgid ""
+"Fixed flow, head, and manual rotation show mechanical output did not change; "
+"the drop is entirely display error"
+msgstr ""
+"Fixed flow, head, and manual rotation show mechanical output did not change; "
+"the drop is entirely display error"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.5.3
+#: src/data/gaokao-advanced.js:345
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.5.3"
+msgid "Downgrade to v2; recovery rules out weeds, while no recovery rules out firmware"
+msgstr "Downgrade to v2; recovery rules out weeds, while no recovery rules out firmware"
+
+#. advancedGaokaoQuestions.science.3.LU-S01.7
+#: src/data/gaokao-advanced.js:346
+msgctxt "text:advancedGaokaoQuestions.science.3.LU-S01.7"
+msgid ""
+"Physical covariates support blockage; firmware needs separate A/B validation "
+"rather than attribution by coincidence."
+msgstr ""
+"Physical covariates support blockage; firmware needs separate A/B validation "
+"rather than attribution by coincidence."
+
+#. advancedGaokaoQuestions.science.4.LU-S02.3
+#: src/data/gaokao-advanced.js:350
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.3"
+msgid ""
+"Same 12 patients: drug A on a full-moon night, drug B next new moon; A "
+"appears faster. Everyone receives A then B, and illness naturally improves "
+"over time."
+msgstr ""
+"Same 12 patients: drug A on a full-moon night, drug B next new moon; A "
+"appears faster. Everyone receives A then B, and illness naturally improves "
+"over time."
+
+#. advancedGaokaoQuestions.science.4.LU-S02.4
+#: src/data/gaokao-advanced.js:351
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.4"
+msgid "Which next-round design best separates drug, phase, order, and natural course?"
+msgstr "Which next-round design best separates drug, phase, order, and natural course?"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.5.0
+#: src/data/gaokao-advanced.js:352
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.5.0"
+msgid ""
+"Split patients equally between A at full moon and B at new moon; match "
+"baseline illness to estimate drug and phase together"
+msgstr ""
+"Split patients equally between A at full moon and B at new moon; match "
+"baseline illness to estimate drug and phase together"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.5.1
+#: src/data/gaokao-advanced.js:352
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.5.1"
+msgid ""
+"Randomize A and B within both phases and randomize A→B or B→A, with washout "
+"and blinded assessment"
+msgstr ""
+"Randomize A and B within both phases and randomize A→B or B→A, with washout "
+"and blinded assessment"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.5.2
+#: src/data/gaokao-advanced.js:352
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.5.2"
+msgid ""
+"Keep A→B for everyone, move the second dose earlier, and blind assessment to "
+"reduce natural recovery and observer bias"
+msgstr ""
+"Keep A→B for everyone, move the second dose earlier, and blind assessment to "
+"reduce natural recovery and observer bias"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.5.3
+#: src/data/gaokao-advanced.js:352
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.5.3"
+msgid ""
+"Let patients choose the drug while researchers randomize phase; adjust drug "
+"preference as a covariate in analysis"
+msgstr ""
+"Let patients choose the drug while researchers randomize phase; adjust drug "
+"preference as a covariate in analysis"
+
+#. advancedGaokaoQuestions.science.4.LU-S02.7
+#: src/data/gaokao-advanced.js:353
+msgctxt "text:advancedGaokaoQuestions.science.4.LU-S02.7"
+msgid ""
+"A balanced crossover identifies drug, phase, and order effects; "
+"washout/blinding address carryover and assessment bias."
+msgstr ""
+"A balanced crossover identifies drug, phase, and order effects; "
+"washout/blinding address carryover and assessment bias."
+
+#. advancedGaokaoQuestions.science.5.LU-S03.3
+#: src/data/gaokao-advanced.js:357
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.3"
+msgid ""
+"Starlight samples: A “back shelf of Kirisame shop,” B “Kourindou "
+"Outside-World crate,” C “Patchouli cabinet seven.” A/C share main peak; B "
+"has an extra peak. Same spell radii: 8.1, 11.7, 8.0. No dark calibration "
+"before B."
+msgstr ""
+"Starlight samples: A “back shelf of Kirisame shop,” B “Kourindou "
+"Outside-World crate,” C “Patchouli cabinet seven.” A/C share main peak; B "
+"has an extra peak. Same spell radii: 8.1, 11.7, 8.0. No dark calibration "
+"before B."
+
+#. advancedGaokaoQuestions.science.5.LU-S03.4
+#: src/data/gaokao-advanced.js:358
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.4"
+msgid ""
+"Which follow-up best discriminates the claim that B's extra component causes "
+"the larger blast?"
+msgstr ""
+"Which follow-up best discriminates the claim that B's extra component causes "
+"the larger blast?"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.5.0
+#: src/data/gaokao-advanced.js:359
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.5.0"
+msgid ""
+"Recalibrate and rescan; add B's extra component to A and C, test B without "
+"it, and blind and randomize casting"
+msgstr ""
+"Recalibrate and rescan; add B's extra component to A and C, test B without "
+"it, and blind and randomize casting"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.5.1
+#: src/data/gaokao-advanced.js:359
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.5.1"
+msgid ""
+"Recalibrate and repeatedly randomize B castings; if the extra peak and "
+"larger blast recur together, infer a causal component effect"
+msgstr ""
+"Recalibrate and repeatedly randomize B castings; if the extra peak and "
+"larger blast recur together, infer a causal component effect"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.5.2
+#: src/data/gaokao-advanced.js:359
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.5.2"
+msgid ""
+"Rescan A, B, and C on one calibrated instrument, control spell and order, "
+"and infer causation from a peak-height dose response"
+msgstr ""
+"Rescan A, B, and C on one calibrated instrument, control spell and order, "
+"and infer causation from a peak-height dose response"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.5.3
+#: src/data/gaokao-advanced.js:359
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.5.3"
+msgid ""
+"Add B's extra component to both A and C; if both blasts grow, sufficiency "
+"and necessity are proved without testing B after removal"
+msgstr ""
+"Add B's extra component to both A and C; if both blasts grow, sufficiency "
+"and necessity are proved without testing B after removal"
+
+#. advancedGaokaoQuestions.science.5.LU-S03.7
+#: src/data/gaokao-advanced.js:360
+msgctxt "text:advancedGaokaoQuestions.science.5.LU-S03.7"
+msgid ""
+"Rule out an instrumental peak, then use addition/removal to test necessity "
+"and sufficiency."
+msgstr ""
+"Rule out an instrumental peak, then use addition/removal to test necessity "
+"and sufficiency."
+
+#. advancedGaokaoQuestions.science.6.EX-S01.3
+#: src/data/gaokao-advanced.js:364
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.3"
+msgid ""
+"Navigator error: v2 day 2%, night 3%; v3 day 2%, night 19%; v3 with 430nm "
+"blocked at night 4%; same block plus lantern four off 3%. v3 adds 420–450nm "
+"auto-gain. Lantern four peaks at 432nm; other three at 560nm. Keine confirms "
+"route stayed fixed each test night."
+msgstr ""
+"Navigator error: v2 day 2%, night 3%; v3 day 2%, night 19%; v3 with 430nm "
+"blocked at night 4%; same block plus lantern four off 3%. v3 adds 420–450nm "
+"auto-gain. Lantern four peaks at 432nm; other three at 560nm. Keine confirms "
+"route stayed fixed each test night."
+
+#. advancedGaokaoQuestions.science.6.EX-S01.4
+#: src/data/gaokao-advanced.js:365
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.4"
+msgid "What is the minimal sufficient failure mechanism and next confirmation test?"
+msgstr "What is the minimal sufficient failure mechanism and next confirmation test?"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.5.0
+#: src/data/gaokao-advanced.js:366
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.5.0"
+msgid ""
+"v3 fails only at night, showing nocturnal forest movement; remap each test "
+"night and recalibrate the navigator to the new route"
+msgstr ""
+"v3 fails only at night, showing nocturnal forest movement; remap each test "
+"night and recalibrate the navigator to the new route"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.5.1
+#: src/data/gaokao-advanced.js:366
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.5.1"
+msgid ""
+"v3's 432nm gain lets lantern four dominate navigation features; on a fixed "
+"route randomize gain and lantern four to test their interaction"
+msgstr ""
+"v3's 432nm gain lets lantern four dominate navigation features; on a fixed "
+"route randomize gain and lantern four to test their interaction"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.5.2
+#: src/data/gaokao-advanced.js:366
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.5.2"
+msgid ""
+"Blocking 430nm reduces error to 4%, proving all blue light is causal; next "
+"block moonlight and every short-wave lamp"
+msgstr ""
+"Blocking 430nm reduces error to 4%, proving all blue light is causal; next "
+"block moonlight and every short-wave lamp"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.5.3
+#: src/data/gaokao-advanced.js:366
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.5.3"
+msgid ""
+"v3 matches v2 by day, so firmware has no main effect; reaching 3% with "
+"lantern four off proves only the lamp matters"
+msgstr ""
+"v3 matches v2 by day, so firmware has no main effect; reaching 3% with "
+"lantern four off proves only the lamp matters"
+
+#. advancedGaokaoQuestions.science.6.EX-S01.7
+#: src/data/gaokao-advanced.js:367
+msgctxt "text:advancedGaokaoQuestions.science.6.EX-S01.7"
+msgid ""
+"Version diff, spectral match, and rescue by filtering support one mechanism; "
+"factorial intervention tests dependence on lantern four."
+msgstr ""
+"Version diff, spectral match, and rescue by filtering support one mechanism; "
+"factorial intervention tests dependence on lantern four."
+
+#. advancedGaokaoQuestions.science.7.EX-S02.3
+#: src/data/gaokao-advanced.js:371
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.3"
+msgid ""
+"Four lunar-drug sequences, n=10 each: full-A→new-B: 8 improvement; "
+"full-B→new-A: 5; new-A→full-B: 4; new-B→full-A: 7. Cells where A is given at "
+"full moon are higher, but three second-period patients have carryover. No "
+"untreated group."
+msgstr ""
+"Four lunar-drug sequences, n=10 each: full-A→new-B: 8 improvement; "
+"full-B→new-A: 5; new-A→full-B: 4; new-B→full-A: 7. Cells where A is given at "
+"full moon are higher, but three second-period patients have carryover. No "
+"untreated group."
+
+#. advancedGaokaoQuestions.science.7.EX-S02.4
+#: src/data/gaokao-advanced.js:372
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.4"
+msgid "What can be claimed now, and what should the next round add?"
+msgstr "What can be claimed now, and what should the next round add?"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.5.0
+#: src/data/gaokao-advanced.js:373
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.5.0"
+msgid ""
+"Both sequences with full-moon A are higher, proving A works only at full "
+"moon; exclude the three carryover patients from period-two analysis"
+msgstr ""
+"Both sequences with full-moon A are higher, proving A works only at full "
+"moon; exclude the three carryover patients from period-two analysis"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.5.1
+#: src/data/gaokao-advanced.js:373
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.5.1"
+msgid ""
+"The data suggest an A-by-full-moon interaction, but carryover and natural "
+"course remain; extend washout and add untreated or placebo controls within "
+"each phase"
+msgstr ""
+"The data suggest an A-by-full-moon interaction, but carryover and natural "
+"course remain; extend washout and add untreated or placebo controls within "
+"each phase"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.5.2
+#: src/data/gaokao-advanced.js:373
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.5.2"
+msgid ""
+"Without an untreated group, absolute benefit is unknown, so the four "
+"sequences also contain no information about relative drug-by-phase "
+"interaction"
+msgstr ""
+"Without an untreated group, absolute benefit is unknown, so the four "
+"sequences also contain no information about relative drug-by-phase "
+"interaction"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.5.3
+#: src/data/gaokao-advanced.js:373
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.5.3"
+msgid ""
+"Retain the two high full-moon-A cells, remove the other two as "
+"carryover-contaminated, and repeat only retained sequences for precision"
+msgstr ""
+"Retain the two high full-moon-A cells, remove the other two as "
+"carryover-contaminated, and repeat only retained sequences for precision"
+
+#. advancedGaokaoQuestions.science.7.EX-S02.7
+#: src/data/gaokao-advanced.js:374
+msgctxt "text:advancedGaokaoQuestions.science.7.EX-S02.7"
+msgid ""
+"Balanced sequences suggest interaction, but absolute benefit over natural "
+"recovery is unidentified and carryover violates clean crossover assumptions."
+msgstr ""
+"Balanced sequences suggest interaction, but absolute benefit over natural "
+"recovery is unidentified and carryover violates clean crossover assumptions."
+
+#. advancedGaokaoQuestions.science.8.EX-S03.3
+#: src/data/gaokao-advanced.js:378
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.3"
+msgid ""
+"Replication: Forest (unknown lot) 9/10; library (P7) 2/10; Kourindou (P7) "
+"8/10. Same caster in forest/Kourindou; Patchouli casts in library. Library "
+"humidity 78%, others 42–45%. P7 sample remains for 12 trials."
+msgstr ""
+"Replication: Forest (unknown lot) 9/10; library (P7) 2/10; Kourindou (P7) "
+"8/10. Same caster in forest/Kourindou; Patchouli casts in library. Library "
+"humidity 78%, others 42–45%. P7 sample remains for 12 trials."
+
+#. advancedGaokaoQuestions.science.8.EX-S03.4
+#: src/data/gaokao-advanced.js:379
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.4"
+msgid "With limited P7, which allocation best separates site humidity from caster?"
+msgstr "With limited P7, which allocation best separates site humidity from caster?"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.5.0
+#: src/data/gaokao-advanced.js:380
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.5.0"
+msgid ""
+"Have Marisa perform all twelve in a controlled room, six at each humidity; "
+"identify humidity first, then back-calculate caster effect from existing "
+"library data"
+msgstr ""
+"Have Marisa perform all twelve in a controlled room, six at each humidity; "
+"identify humidity first, then back-calculate caster effect from existing "
+"library data"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.5.1
+#: src/data/gaokao-advanced.js:380
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.5.1"
+msgid ""
+"Use a controlled room at 45% and 78%; both casters perform three randomized "
+"interleaved trials at each humidity"
+msgstr ""
+"Use a controlled room at 45% and 78%; both casters perform three randomized "
+"interleaved trials at each humidity"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.5.2
+#: src/data/gaokao-advanced.js:380
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.5.2"
+msgid ""
+"Run six P7 trials with Marisa in the forest and six with Patchouli in the "
+"library; fixing lot allows site and caster to be separated from the rate "
+"difference"
+msgstr ""
+"Run six P7 trials with Marisa in the forest and six with Patchouli in the "
+"library; fixing lot allows site and caster to be separated from the rate "
+"difference"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.5.3
+#: src/data/gaokao-advanced.js:380
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.5.3"
+msgid ""
+"Give each caster six trials at an intermediate 60% humidity; removing site "
+"difference makes the result representative of both original humidities"
+msgstr ""
+"Give each caster six trials at an intermediate 60% humidity; removing site "
+"difference makes the result representative of both original humidities"
+
+#. advancedGaokaoQuestions.science.8.EX-S03.7
+#: src/data/gaokao-advanced.js:381
+msgctxt "text:advancedGaokaoQuestions.science.8.EX-S03.7"
+msgid ""
+"A balanced 2×2 design uses all 12 trials and avoids confounding caster with "
+"humidity again."
+msgstr ""
+"A balanced 2×2 design uses all 12 trials and avoids confounding caster with "
+"humidity again."

@@ -1,0 +1,930 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/eyebrow"
+msgid "EIENTEI UNIVERSITY HOSPITAL / CAMPUS CARE NETWORK"
+msgstr "EIENTEI UNIVERSITY HOSPITAL / 校醫療網"
+
+#. copy/title
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/title"
+msgid "First say what is wrong. The route and medicine may argue later."
+msgstr "先把哪裡不對說清楚。路和藥，可以之後再吵。"
+
+#. copy/lead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/lead"
+msgid ""
+"The main infirmary handles everyday injuries; Eientei takes cross-species, "
+"lunar, boundary, and magical-material cases. Triage, consultations, "
+"prescriptions, dispensing, and recovery stay on this device."
+msgstr "本部醫務室處理日常傷勢；永遠亭承接跨種族、月相、境界與魔法材料暴露。分診、診察、處方、領藥與康復進度只保存在這台裝置。"
+
+#. copy/open
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/open"
+msgid "Open now"
+msgstr "此刻開診"
+
+#. copy/startCare
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/startCare"
+msgid "Start care"
+msgstr "開始診療"
+
+#. copy/startCareLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/startCareLead"
+msgid "Begin with a one-minute on-device triage"
+msgstr "先做 1 分鐘本機分診"
+
+#. copy/load
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/load"
+msgid "Queue load"
+msgstr "候診負荷"
+
+#. copy/moon
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/moon"
+msgid "Moon phase"
+msgstr "月相"
+
+#. copy/localRecords
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/localRecords"
+msgid "On-device records"
+msgstr "本機診療紀錄"
+
+#. copy/light
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/light"
+msgid "A rabbit-shuttle row is empty"
+msgstr "兔車空一排"
+
+#. copy/steady
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/steady"
+msgid "Tokens advancing normally"
+msgstr "號碼正常前進"
+
+#. copy/high
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/high"
+msgid "Full-moon diversion active"
+msgstr "滿月分流中"
+
+#. copy/navTriage
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/navTriage"
+msgid "Triage & queue"
+msgstr "分診與候診"
+
+#. copy/navPharmacy
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/navPharmacy"
+msgid "Pharmacy & prescriptions"
+msgstr "藥局與處方"
+
+#. copy/navRecovery
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/navRecovery"
+msgid "Recovery"
+msgstr "康復療法"
+
+#. copy/navAccount
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/navAccount"
+msgid "My medical file"
+msgstr "我的診療紀錄"
+
+#. copy/careNetwork
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/careNetwork"
+msgid "Two care sites and one referral slip Tewi keeps relocating."
+msgstr "兩處院區，一張會被帝換位置的轉診單。"
+
+#. copy/careNetworkLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/careNetworkLead"
+msgid ""
+"Not every scrape requires crossing the Bamboo Forest. Writing “fine” does "
+"not guarantee the infirmary will keep the case."
+msgstr "不是每次擦傷都要穿過迷途竹林；也不是寫了「沒事」就能留在本部。"
+
+#. copy/hours
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/hours"
+msgid "Hours"
+msgstr "看診時間"
+
+#. copy/scope
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/scope"
+msgid "Scope"
+msgstr "收治範圍"
+
+#. copy/staff
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/staff"
+msgid "On duty"
+msgstr "當值"
+
+#. copy/map
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/map"
+msgid "Open Eientei route"
+msgstr "查看永遠亭路線"
+
+#. copy/waitingBoard
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/waitingBoard"
+msgid "Live waiting board"
+msgstr "此刻候診板"
+
+#. copy/waitingLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/waitingLead"
+msgid ""
+"Duty tokens only. Times shift with lunar phase, live incidents, and "
+"rabbit-shuttle conditions."
+msgstr "病友資料由當值號碼牌顯示；時間會隨月相、當值事件與兔車路況變動。"
+
+#. copy/token
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/token"
+msgid "Token"
+msgstr "號碼"
+
+#. copy/estimated
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/estimated"
+msgid "Estimated"
+msgstr "估計還要"
+
+#. copy/minutes
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/minutes"
+msgid "min"
+msgstr "分鐘"
+
+#. copy/detail
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/detail"
+msgid "Patient note"
+msgstr "病友附註"
+
+#. copy/takeVisit
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/takeVisit"
+msgid "Enter consultation"
+msgstr "接受診察"
+
+#. copy/triage
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/triage"
+msgid "On-device triage"
+msgstr "本機分診台"
+
+#. copy/triageLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/triageLead"
+msgid ""
+"Save and return later. Check-in never requires a My TU identity; an existing "
+"identity adds the record to campus history."
+msgstr "可先保存再回來；掛號不要求 My TU 身分，已有身分時則會編入校園履歷。"
+
+#. copy/complaint
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/complaint"
+msgid "Which conditions apply now?"
+msgstr "目前符合哪些情況？"
+
+#. copy/complaintHint
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/complaintHint"
+msgid "Choose at least one; multiple selections are welcome."
+msgstr "至少選一項；可以同時選擇多項。"
+
+#. copy/intensity
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/intensity"
+msgid "Current impact"
+msgstr "目前影響程度"
+
+#. copy/intensityOptions/0
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/intensityOptions/0"
+msgid "Can attend class normally"
+msgstr "仍能照常上課"
+
+#. copy/intensityOptions/1
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/intensityOptions/1"
+msgid "Need reduced activity"
+msgstr "需要減少活動"
+
+#. copy/intensityOptions/2
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/intensityOptions/2"
+msgid "Cannot complete the original plan"
+msgstr "已無法完成原計畫"
+
+#. copy/intensityOptions/3
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/intensityOptions/3"
+msgid "Symptoms or residue are expanding"
+msgstr "症狀或殘留正在擴大"
+
+#. copy/onset
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/onset"
+msgid "When it began"
+msgstr "何時開始"
+
+#. copy/onsetOptions/today
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/onsetOptions/today"
+msgid "Today / just now"
+msgstr "今天／剛剛"
+
+#. copy/onsetOptions/yesterday
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/onsetOptions/yesterday"
+msgid "Yesterday"
+msgstr "昨日"
+
+#. copy/onsetOptions/week
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/onsetOptions/week"
+msgid "One week or longer"
+msgstr "持續一週以上"
+
+#. copy/onsetOptions/uncertain
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/onsetOptions/uncertain"
+msgid "Dates disagree"
+msgstr "日期互相矛盾"
+
+#. copy/mobility
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/mobility"
+msgid "Getting to care"
+msgstr "前往診療地"
+
+#. copy/mobilityOptions/independent
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/mobilityOptions/independent"
+msgid "Can travel independently"
+msgstr "可以自行前往"
+
+#. copy/mobilityOptions/escort
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/mobilityOptions/escort"
+msgid "Need an escort"
+msgstr "需要同伴陪同"
+
+#. copy/mobilityOptions/shuttle
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/mobilityOptions/shuttle"
+msgid "Need an emergency rabbit shuttle"
+msgstr "需要急診兔車"
+
+#. copy/lunarSensitive
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/lunarSensitive"
+msgid "Moon phase, moonlight, or wavelength makes this worse"
+msgstr "月相、月光或波長會加重症狀"
+
+#. copy/residueContained
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/residueContained"
+msgid "Danmaku, magic, spores, or seasonal leakage has stopped spreading"
+msgstr "彈幕、魔力、孢子或季節外洩目前已停止擴散"
+
+#. copy/notes
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/notes"
+msgid "Extra phenomena / material batch / which door is wrong"
+msgstr "補充現象／材料批次／哪一扇門不對"
+
+#. copy/notesPlaceholder
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/notesPlaceholder"
+msgid "Example: mushroom basket has no date; fourth lantern appears only on return…"
+msgstr "例如：蘑菇籃沒有標日期；第四盞燈只在回程出現……"
+
+#. copy/saveDraft
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/saveDraft"
+msgid "Save triage draft"
+msgstr "保存分診草稿"
+
+#. copy/checkIn
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/checkIn"
+msgid "Complete triage & check in"
+msgstr "完成分診並掛號"
+
+#. copy/draftSaved
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/draftSaved"
+msgid "Triage draft saved on this device."
+msgstr "分診草稿已留在這台裝置。"
+
+#. copy/visitCreated
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/visitCreated"
+msgid "Checked in; the token is on the waiting board."
+msgstr "掛號完成；號碼牌已加入候診板。"
+
+#. copy/needsComplaint
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/needsComplaint"
+msgid "Choose at least one condition so the triage bell knows which desk to call."
+msgstr "至少選擇一項症狀，分診鐘才知道要叫哪一科。"
+
+#. copy/activeVisit
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/activeVisit"
+msgid "Your waiting token"
+msgstr "你的待診號碼"
+
+#. copy/priority/routine
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/priority/routine"
+msgid "Routine queue"
+msgstr "一般候診"
+
+#. copy/priority/priority
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/priority/priority"
+msgid "Priority diversion"
+msgstr "優先分流"
+
+#. copy/priority/urgent
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/priority/urgent"
+msgid "Emergency shuttle / immediate care"
+msgstr "急診兔車／即刻處理"
+
+#. copy/site
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/site"
+msgid "Recommended site"
+msgstr "建議院區"
+
+#. copy/wait
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/wait"
+msgid "Estimated wait"
+msgstr "估計候診"
+
+#. copy/clinician
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/clinician"
+msgid "Recommended desk"
+msgstr "建議診察席"
+
+#. copy/clinicians/eirin
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/clinicians/eirin"
+msgid "Eirin Yagokoro"
+msgstr "八意永琳"
+
+#. copy/clinicians/reisen
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/clinicians/reisen"
+msgid "Reisen Udongein Inaba"
+msgstr "鈴仙・優曇華院・因幡"
+
+#. copy/clinicians/duty
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/clinicians/duty"
+msgid "Main-campus duty clinician"
+msgstr "本部當值校醫"
+
+#. copy/clinicians/reisen-trainee
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/clinicians/reisen-trainee"
+msgid "Moon-rabbit trainee triage"
+msgstr "月兔實習分診席"
+
+#. copy/assessment
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/assessment"
+msgid "Triage assessment"
+msgstr "分診判讀"
+
+#. copy/consultation
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/consultation"
+msgid "Complete consultation & issue prescription"
+msgstr "完成診察並開立處方"
+
+#. copy/consulted
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/consulted"
+msgid "Consultation complete; prescription sent to the Lunar Pharmacy."
+msgstr "診察完成；處方已送到月藥調劑室。"
+
+#. copy/pharmacyEyebrow
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/pharmacyEyebrow"
+msgid "LUNAR PHARMACY / CAMPUS MEDICINE CABINET"
+msgstr "LUNAR PHARMACY / 月藥與校園藥櫃"
+
+#. copy/pharmacyTitle
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/pharmacyTitle"
+msgid "The bag may use bells, corners, or daylight. Do not add the units yourself."
+msgstr "藥袋上的單位可能是校鐘、轉角或日照。不要擅自相加。"
+
+#. copy/pharmacyLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/pharmacyLead"
+msgid ""
+"Search twelve Gensokyo medicines and aids, including provenance, directions, "
+"and cautions usually written on the reverse."
+msgstr "搜尋十二種幻想鄉藥品與醫材，查看來源、用法與那些通常被寫在背面的注意事項。"
+
+#. copy/searchMedicine
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/searchMedicine"
+msgid "Search medicine, use, maker, or caution"
+msgstr "搜尋藥名、用途、配製者或注意事項"
+
+#. copy/allCategories
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/allCategories"
+msgid "All forms"
+msgstr "全部劑型"
+
+#. copy/medicineCount
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/medicineCount"
+msgid "medicines / aids"
+msgstr "項藥品／醫材"
+
+#. copy/noMedicine
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noMedicine"
+msgid "No medicine admits to matching. Tewi suggests the drawer bottom; Pharmacy does not."
+msgstr "沒有藥品承認符合這組條件。帝建議翻抽屜底；藥師不建議。"
+
+#. copy/indication
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/indication"
+msgid "Use"
+msgstr "用途"
+
+#. copy/directions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/directions"
+msgid "Directions"
+msgstr "用法"
+
+#. copy/caution
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/caution"
+msgid "Caution"
+msgstr "注意"
+
+#. copy/maker
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/maker"
+msgid "Preparation & provenance"
+msgstr "配製與來源"
+
+#. copy/courseUnits
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/courseUnits"
+msgid "Full course"
+msgstr "完整一程"
+
+#. copy/units
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/units"
+msgid "records"
+msgstr "次記錄"
+
+#. copy/openMedicine
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/openMedicine"
+msgid "Open medicine file"
+msgstr "查看藥檔"
+
+#. copy/myPrescriptions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/myPrescriptions"
+msgid "My prescriptions"
+msgstr "我的處方"
+
+#. copy/noPrescriptions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noPrescriptions"
+msgid ""
+"No prescription yet. Complete triage and consultation so Pharmacy receives a "
+"legible slip."
+msgstr "尚無處方。先完成一次分診與診察，藥局才會收到可讀的單子。"
+
+#. copy/issued
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/issued"
+msgid "Awaiting collection"
+msgstr "待領藥"
+
+#. copy/dispensed
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/dispensed"
+msgid "Course active"
+msgstr "療程中"
+
+#. copy/completed
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/completed"
+msgid "Complete"
+msgstr "已完成"
+
+#. copy/dispense
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/dispense"
+msgid "Collect prescription"
+msgstr "領取這張處方"
+
+#. copy/recordDose
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/recordDose"
+msgid "Record one"
+msgstr "記錄一次"
+
+#. copy/doneDose
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/doneDose"
+msgid "Complete"
+msgstr "本項完成"
+
+#. copy/dosageRecorded
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/dosageRecorded"
+msgid "Dose recorded in the on-device medicine bag."
+msgstr "本次用藥已記入本機藥袋。"
+
+#. copy/prescriptionDispensed
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/prescriptionDispensed"
+msgid "Dispensed. Count the medicine, then count Tewi’s tokens again."
+msgstr "領藥完成；請先數藥，再數一次帝的號碼牌。"
+
+#. copy/progress
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/progress"
+msgid "Course progress"
+msgstr "療程進度"
+
+#. copy/printSlip
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/printSlip"
+msgid "Open clinical / prescription slip"
+msgstr "開啟診療／處方回條"
+
+#. copy/recoveryEyebrow
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/recoveryEyebrow"
+msgid "RECOVERY CORRIDOR"
+msgstr "RECOVERY CORRIDOR / 康復走廊"
+
+#. copy/recoveryTitle
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/recoveryTitle"
+msgid "Recovery is not dragging a progress bar to the right."
+msgstr "康復不是把進度條拖到右邊。"
+
+#. copy/recoveryLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/recoveryLead"
+msgid ""
+"Every therapy has four independently confirmable steps. Leave halfway and "
+"the original box will still be waiting."
+msgstr "每套療法都有四個能單獨確認的步驟；做到一半可以離開，回來後仍從原來那一格繼續。"
+
+#. copy/prescribedTherapies
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/prescribedTherapies"
+msgid "Consultation suggestions"
+msgstr "診察建議"
+
+#. copy/therapyClinician
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/therapyClinician"
+msgid "Led by"
+msgstr "帶領"
+
+#. copy/steps
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/steps"
+msgid "Four-step slip"
+msgstr "四步回條"
+
+#. copy/startTherapy
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/startTherapy"
+msgid "Start this therapy"
+msgstr "開始這套療法"
+
+#. copy/therapyStarted
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/therapyStarted"
+msgid "Recovery slip created."
+msgstr "康復回條已建立。"
+
+#. copy/activePlans
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/activePlans"
+msgid "Active recovery slips"
+msgstr "進行中的康復回條"
+
+#. copy/noPlans
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noPlans"
+msgid "No recovery course yet. Start from a prescription suggestion or choose one directly."
+msgstr "尚無康復療程。可以依處方建議開始，也可以直接選一套需要的。"
+
+#. copy/markStep
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/markStep"
+msgid "Complete & stamp"
+msgstr "完成並蓋章"
+
+#. copy/stepDone
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/stepDone"
+msgid "Complete"
+msgstr "已完成"
+
+#. copy/planComplete
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/planComplete"
+msgid "Recovery course complete. BBS will soon publish another version of “fully recovered.”"
+msgstr "康復療程完成；BBS 很快就會對「完全恢復」提出不同版本。"
+
+#. copy/accountEyebrow
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/accountEyebrow"
+msgid "MY MEDICAL FILE / ON-DEVICE CLINICAL BAG"
+msgstr "MY MEDICAL FILE / 本機診療袋"
+
+#. copy/accountTitle
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/accountTitle"
+msgid "Queue tokens may be hidden. Clinical slips are not."
+msgstr "號碼牌會被藏起來，診療回條不會。"
+
+#. copy/accountLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/accountLead"
+msgid ""
+"Check-ins, consultations, prescriptions, each dose, and recovery steps "
+"remain chronological. Retriage does not erase earlier versions."
+msgstr "掛號、診察、處方、每次記錄與康復步驟依時間保存。較早的版本不因重新分診而消失。"
+
+#. copy/visits
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/visits"
+msgid "Visits"
+msgstr "診療紀錄"
+
+#. copy/prescriptions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/prescriptions"
+msgid "Prescriptions"
+msgstr "處方"
+
+#. copy/plans
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/plans"
+msgid "Recovery slips"
+msgstr "康復回條"
+
+#. copy/waiting
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/waiting"
+msgid "Waiting"
+msgstr "候診中"
+
+#. copy/consultedStatus
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/consultedStatus"
+msgid "Consulted"
+msgstr "已完成診察"
+
+#. copy/noVisits
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noVisits"
+msgid "No check-in records."
+msgstr "尚無掛號紀錄。"
+
+#. copy/noAccountPrescriptions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noAccountPrescriptions"
+msgid "No prescription records."
+msgstr "尚無處方紀錄。"
+
+#. copy/noAccountPlans
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noAccountPlans"
+msgid "No recovery records."
+msgstr "尚無康復紀錄。"
+
+#. copy/checkedIn
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/checkedIn"
+msgid "Checked in"
+msgstr "掛號"
+
+#. copy/issuedAt
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/issuedAt"
+msgid "Issued"
+msgstr "開方"
+
+#. copy/startedAt
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/startedAt"
+msgid "Started"
+msgstr "開始"
+
+#. copy/completedAt
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/completedAt"
+msgid "Completed"
+msgstr "完成"
+
+#. copy/recordId
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/recordId"
+msgid "Slip reference"
+msgstr "回條編號"
+
+#. copy/conditions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/conditions"
+msgid "Complaints"
+msgstr "主訴"
+
+#. copy/bbsEchoes
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/bbsEchoes"
+msgid "Patient-wall echoes"
+msgstr "病友牆回聲"
+
+#. copy/bbsLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/bbsLead"
+msgid ""
+"Dispensing and completed therapy generate campus BBS reactions from Pharmacy "
+"and the Recovery Corridor."
+msgstr "領藥與完成療法後，永遠亭藥局和康復走廊會生成校園 BBS 回應。"
+
+#. copy/openBbs
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/openBbs"
+msgid "Open Campus BBS"
+msgstr "前往校園 BBS"
+
+#. copy/receipt/university
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/university"
+msgid "TOUHOU UNIVERSITY OF GENSOKYO · EIENTEI UNIVERSITY HOSPITAL"
+msgstr "幻想鄉立東方大學・永遠亭附屬校醫院"
+
+#. copy/receipt/title
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/title"
+msgid "ON-DEVICE CLINICAL & PRESCRIPTION SLIP"
+msgstr "本機診療與處方回條"
+
+#. copy/receipt/patient
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/patient"
+msgid "Patient / record"
+msgstr "病友／學籍"
+
+#. copy/receipt/visit
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/visit"
+msgid "Visit reference"
+msgstr "診療編號"
+
+#. copy/receipt/prescription
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/prescription"
+msgid "Prescription reference"
+msgstr "處方編號"
+
+#. copy/receipt/site
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/site"
+msgid "Care site"
+msgstr "診療地"
+
+#. copy/receipt/clinician
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/clinician"
+msgid "Clinical desk"
+msgstr "診察席"
+
+#. copy/receipt/issued
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/issued"
+msgid "Issued"
+msgstr "開立時間"
+
+#. copy/receipt/medicines
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/medicines"
+msgid "Prescription"
+msgstr "處方內容"
+
+#. copy/receipt/care
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/care"
+msgid "Recovery suggestions"
+msgstr "康復建議"
+
+#. copy/receipt/note
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/note"
+msgid ""
+"Generated from clinical records in this browser. Losing the queue token does "
+"not alter the slip; Tewi replacing it with a lucky number does not grant "
+"priority care."
+msgstr "本回條由目前瀏覽器保存的診療紀錄生成。叫號牌遺失不影響回條，但被帝換成幸運號碼不構成優先看診。"
+
+#. copy/receipt/print
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/print"
+msgid "Print / save PDF"
+msgstr "列印／另存 PDF"
+
+#. copy/receipt/close
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/close"
+msgid "Back to medical file"
+msgstr "返回診療紀錄"
+
+#. values/0
+#: src/js/clinic.js:74
+msgctxt "tree:values#/0"
+msgid "New Moon"
+msgstr "朔月"
+
+#. values/1
+#: src/js/clinic.js:74
+msgctxt "tree:values#/1"
+msgid "Waxing Crescent"
+msgstr "眉月"
+
+#. values/2
+#: src/js/clinic.js:74
+msgctxt "tree:values#/2"
+msgid "First Quarter"
+msgstr "上弦月"
+
+#. values/3
+#: src/js/clinic.js:74
+msgctxt "tree:values#/3"
+msgid "Waxing Gibbous"
+msgstr "盈凸月"
+
+#. values/4
+#: src/js/clinic.js:74
+msgctxt "tree:values#/4"
+msgid "Full Moon"
+msgstr "滿月"
+
+#. values/5
+#: src/js/clinic.js:74
+msgctxt "tree:values#/5"
+msgid "Waning Gibbous"
+msgstr "虧凸月"
+
+#. values/6
+#: src/js/clinic.js:74
+msgctxt "tree:values#/6"
+msgid "Last Quarter"
+msgstr "下弦月"
+
+#. values/7
+#: src/js/clinic.js:74
+msgctxt "tree:values#/7"
+msgid "Waning Crescent"
+msgstr "殘月"

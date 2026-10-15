@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/festival-model.js";
 import {
   festivalAidPlan,
   festivalFairyZone,
@@ -25,19 +26,19 @@ const MAX_RECORDS = 40;
 const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
 const outcomeLabels = Object.freeze({
-  cleared: l("准予開祭", "開祭許可", "Cleared to open"),
-  conditional: l("附條件許可", "条件付許可", "Conditional permit"),
-  contested: l("爭議性許可", "係争許可", "Contested permit"),
-  revision: l("退回重排", "再編成要求", "Return for replanning"),
-  live: l("祭典運行中", "祭典運行中", "Festival live"),
-  closed: l("已結祭", "閉祭済み", "Festival closed"),
+  cleared: catalogText("outcomeLabels.0.cleared"),
+  conditional: catalogText("outcomeLabels.0.conditional"),
+  contested: catalogText("outcomeLabels.0.contested"),
+  revision: catalogText("outcomeLabels.0.revision"),
+  live: catalogText("outcomeLabels.0.live"),
+  closed: catalogText("outcomeLabels.0.closed"),
 });
 
 const stanceLabels = Object.freeze({
-  clear: l("放行", "通行", "Clear"),
-  condition: l("條件", "条件", "Condition"),
-  contest: l("異議", "異議", "Contest"),
-  revise: l("退回", "差戻し", "Revise"),
+  clear: catalogText("stanceLabels.0.clear"),
+  condition: catalogText("stanceLabels.0.condition"),
+  contest: catalogText("stanceLabels.0.contest"),
+  revise: catalogText("stanceLabels.0.revise"),
 });
 
 function storage() {
@@ -248,27 +249,27 @@ function reimuReview(draft, metrics) {
     return deskFinding(
       "reimu",
       "revise",
-      l("預兆比彈幕先消失；喊停時觀眾只會看到已經發生的事。", "予兆が弾幕より先に消える。停止時に見えるのは既に起きたことだけ。", "The warning vanishes before the danmaku; by the stop signal, spectators can only see what already happened."),
-      [l("把預兆延長到至少 1.2 秒，或降低低空密度。", "予兆を1.2秒以上にするか低空密度を下げる。", "Extend the cue to at least 1.2 seconds or lower low-altitude density.")],
+      catalogText("reimuReview.reimu.2"),
+      [catalogText("reimuReview.reimu.3.0")],
     );
   }
   if (draft.visitorCapacity > metrics.hardCapacity) {
     return deskFinding(
       "reimu",
       draft.visitorCapacity > metrics.hardCapacity * 1.18 ? "revise" : "condition",
-      l("申報人數大於路線、舞台或食堂中最窄的一處。", "申告人数が経路・舞台・食堂の最狭部を超える。", "Declared attendance exceeds the narrowest of route, stage, or food court."),
-      [l(`現場同時容量以 ${metrics.hardCapacity} 為上限。`, `同時収容は${metrics.hardCapacity}を上限。`, `Cap concurrent attendance at ${metrics.hardCapacity}.`)],
+      catalogText("reimuReview.reimu.2.2"),
+      [catalogText("reimuReview.reimu.3.0.2", { "zh-Hant": {value0: metrics.hardCapacity}, "ja": {value0: metrics.hardCapacity}, "en": {value0: metrics.hardCapacity} })],
     );
   }
   if (draft.stopRule.length < 20) {
     return deskFinding(
       "reimu",
       "condition",
-      l("停止規則還不能印成一句現場會照做的話。", "停止規則が現場で実行できる一文になっていない。", "The stopping rule is not yet one sentence the field can follow."),
-      [l("寫出訊號、誰先行動與先開哪條退路。", "合図・最初の担当・最初に開く退路を記す。", "Name the signal, first actor, and first exit to open.")],
+      catalogText("reimuReview.reimu.2.3"),
+      [catalogText("reimuReview.reimu.3.0.3")],
     );
   }
-  return deskFinding("reimu", "clear", l("預兆、停止與實體退路能被同一張告示說清楚。", "予兆・停止・物理退路を一枚の掲示で説明できる。", "Cue, stop, and physical exit fit on one notice."));
+  return deskFinding("reimu", "clear", catalogText("reimuReview.reimu.2.4"));
 }
 
 function nitoriReview(draft, metrics) {
@@ -276,27 +277,27 @@ function nitoriReview(draft, metrics) {
     return deskFinding(
       "nitori",
       "revise",
-      l("主網與備援一起算仍不夠，這不是靠多貼一層河童膠帶能變出的容量。", "主系統と予備を足しても不足。河童テープを重ねても容量は増えない。", "Main and backup combined are insufficient; another layer of kappa tape does not create capacity."),
-      [l("降低密度、觀眾容量或晚場負載。", "密度・来場者・夜公演負荷を下げる。", "Lower density, attendance, or evening load.")],
+      catalogText("nitoriReview.nitori.2"),
+      [catalogText("nitoriReview.nitori.3.0")],
     );
   }
   if (draft.powerId === "mini-reactors") {
     return deskFinding(
       "nitori",
       "contest",
-      l("輸出餘裕很大，試作爐卻沒有完成公開負載測試；工程桌拒絕把容量等同可靠。", "出力余裕は大きいが、試作炉は公開負荷試験未完。容量を信頼性と同一視しない。", "Output margin is large, but prototype reactors lack a public load test; capacity is not reliability."),
-      [l("保留逐爐切離權與不依賴同型爐的照明備援。", "炉ごとの切離し権と異型照明予備を確保。", "Retain per-reactor isolation and lighting backup of a different type.")],
+      catalogText("nitoriReview.nitori.2.2"),
+      [catalogText("nitoriReview.nitori.3.0.2")],
     );
   }
   if (metrics.powerLoad > metrics.powerCapacity || draft.powerId === "moriya-grid") {
     return deskFinding(
       "nitori",
       "condition",
-      l("系統可運轉，但備援或供電署名會在開祭後變成主辦權問題。", "運転可能だが、予備電源や給電署名が開祭後に主催権問題となる。", "The system can run, but backup or power credit becomes an ownership question after opening."),
-      [l("共同記錄每次切換，不得只保留祭典日最高輸出。", "全切替を共同記録し、祭日最高出力だけを残さない。", "Jointly record every switchover, not only the festival-day peak.")],
+      catalogText("nitoriReview.nitori.2.3"),
+      [catalogText("nitoriReview.nitori.3.0.3")],
     );
   }
-  return deskFinding("nitori", "clear", l("主網、備援、回收工具與值班人都在同一張圖上。", "主系統・予備・回収工具・当番が同じ図にある。", "Main grid, backup, recovery tools, and duty names share one diagram."));
+  return deskFinding("nitori", "clear", catalogText("nitoriReview.nitori.2.4"));
 }
 
 function eirinReview(draft, metrics) {
@@ -304,19 +305,19 @@ function eirinReview(draft, metrics) {
     return deskFinding(
       "eirin",
       "revise",
-      l("預估候診已超過急救站容量，或者最高密度沒有足夠預兆。", "予測受診が救護容量を超えるか、最高密度に十分な予兆がない。", "Expected presentations exceed medical capacity, or maximum density lacks sufficient cueing."),
-      [l("增加雙站、降低密度或限制同時入場。", "二站化・密度低下・同時入場制限を行う。", "Add dual stations, reduce density, or cap concurrent entry.")],
+      catalogText("eirinReview.eirin.2"),
+      [catalogText("eirinReview.eirin.3.0")],
     );
   }
   if ([3, 4, 5].includes(metrics.phase) && draft.aidPlanId !== "dual-station" && draft.visitorCapacity >= 500) {
     return deskFinding(
       "eirin",
       "condition",
-      l("近滿月的大型活動只設一站，竹林轉送與波長反應會共用同一條隊伍。", "満月近くの大型行事で一站のみ。竹林搬送と波長反応が同じ列を使う。", "A large near-full-moon event with one station makes bamboo transfers and wavelength reactions share one queue."),
-      [l("加設門前初篩，鈴仙不兼任交通引導。", "門前一次判定を追加し、鈴仙は交通誘導を兼任しない。", "Add gate screening; Reisen must not double as traffic guide.")],
+      catalogText("eirinReview.eirin.2.2"),
+      [catalogText("eirinReview.eirin.3.0.2")],
     );
   }
-  return deskFinding("eirin", "clear", l("急救容量、月相負荷與最近停止人員已一起列入。", "救護容量・月相負荷・最寄り停止担当を同時に計上。", "Medical capacity, lunar load, and nearest stopping staff are counted together."));
+  return deskFinding("eirin", "clear", catalogText("eirinReview.eirin.2.3"));
 }
 
 function ayaReview(draft) {
@@ -324,19 +325,19 @@ function ayaReview(draft) {
     return deskFinding(
       "aya",
       "condition",
-      l("文已預先排好「盛大開幕」；她同意保留訂正版位，沒有同意空著頭版。", "文は「盛大開幕」を組版済み。訂正版の場所は残すが、一面を空ける同意はない。", "Aya has already typeset “Grand Opening.” She agrees to reserve correction space, not to leave the front page empty."),
-      [l("每份提前號外必須帶許可版本號與可見訂正欄。", "先行号外には許可版番号と可視訂正欄を付す。", "Every early extra must carry the permit version and a visible correction field.")],
+      catalogText("ayaReview.aya.2"),
+      [catalogText("ayaReview.aya.3.0")],
     );
   }
   if (draft.pressPlanId === "notice-only") {
     return deskFinding(
       "aya",
       "contest",
-      l("沒有搶跑風險，也幾乎沒有讓人里訪客得知改道的方法。", "先走りはないが、里の来訪者が迂回を知る方法もほぼない。", "There is no early-reporting risk and almost no way for village visitors to learn reroutes."),
-      [l("至少指定一名會追著被搬走木板跑的通報員。", "運び去られた木札を追う広報員を最低一名指定。", "Assign at least one messenger who will chase a carried-away noticeboard.")],
+      catalogText("ayaReview.aya.2.2"),
+      [catalogText("ayaReview.aya.3.0.2")],
     );
   }
-  return deskFinding("aya", "clear", l("兩份標題互相校對；晚一鐘仍在正式開門之前。", "二見出しが相互校正し、一鐘遅れでも正式開門前。", "Two headlines check each other; one bell late is still before formal opening."));
+  return deskFinding("aya", "clear", catalogText("ayaReview.aya.2.3"));
 }
 
 function faithReview(draft) {
@@ -345,11 +346,11 @@ function faithReview(draft) {
     return deskFinding(
       "faith",
       "contest",
-      l(`${festivalLocalized(gate.claimant)}取得唯一正門後，另外兩方拒絕把它只當交通標誌。`, `${festivalLocalized(gate.claimant, "ja")}が唯一正門を得ると、他二者は交通標識だけとは認めない。`, `${festivalLocalized(gate.claimant, "en")} receives the sole gate; the other two parties refuse to treat it as mere signage.`),
-      [l("把正門署名、供電、募捐與舞台時段拆成四張不同的紙。", "正門署名・給電・寄進・舞台時間を四枚へ分離。", "Separate gate credit, power, donations, and stage time into four papers.")],
+      catalogText("faithReview.faith.2", { "zh-Hant": {value0: festivalLocalized(gate.claimant)}, "ja": {value0: festivalLocalized(gate.claimant, "ja")}, "en": {value0: festivalLocalized(gate.claimant, "en")} }),
+      [catalogText("faithReview.faith.3.0")],
     );
   }
-  return deskFinding("faith", "clear", l("輪值讓每一方都能短暫宣稱唯一，並在下一鐘被實際撤回。", "輪番で各者が短時間だけ唯一を名乗り、次鐘で実際に撤回される。", "Rotation lets each party briefly claim uniqueness and actually withdraws it at the next bell."));
+  return deskFinding("faith", "clear", catalogText("faithReview.faith.2.2"));
 }
 
 function residenceReview(draft) {
@@ -359,19 +360,19 @@ function residenceReview(draft) {
     return deskFinding(
       "residence",
       "contest",
-      l("宿舍已收到不經空氣傳播的噪音投訴；『窗戶沒震』不是共享負擔的停止規則。", "空気伝播しない騒音申立て済み。「窓が揺れない」は共有負担の停止規則ではない。", "The residence has received a noise complaint without airborne transmission; “the windows did not shake” is not a stopping rule for shared burden."),
-      [l("把深夜曲目、夢境回聲與牆內照片的停止權分開列出。", "深夜曲・夢反響・壁内写真の停止権を別記。", "List separate stopping rights for late music, dream echo, and photographs inside walls.")],
+      catalogText("residenceReview.residence.2"),
+      [catalogText("residenceReview.residence.3.0")],
     );
   }
   if (fairies.drift >= 4 || music.noise >= 2) {
     return deskFinding(
       "residence",
       "condition",
-      l("場地或聲音可能離開申報位置；共同夜桌要求一名會追上去的值班者。", "会場か音が申告位置を離れ得る。共同夜机は追跡当番を要求。", "The venue or sound may leave its filed location; the night desk requires a duty person able to follow."),
-      [l("每一校鐘重新確認妖精區與宿舍側聲景。", "校鐘ごとに妖精区と寮側音景を再確認。", "Reconfirm the fairy zone and residence-side soundscape every bell.")],
+      catalogText("residenceReview.residence.2.2"),
+      [catalogText("residenceReview.residence.3.0.2")],
     );
   }
-  return deskFinding("residence", "clear", l("演出在夜桌輪值結束前收束，妖精區也有可追蹤的地面。", "夜当番終了前に公演が収まり、妖精区にも追跡可能な地面がある。", "The programme ends before night duty, and the fairy zone has trackable ground."));
+  return deskFinding("residence", "clear", catalogText("residenceReview.residence.2.3"));
 }
 
 export function assessFestivalPlan(value = {}, locale = "zh-Hant") {
@@ -574,10 +575,10 @@ function reportFor(operation, plan, now = new Date()) {
   const delay = Math.max(0, plan.metrics.routeDelay + effects.delay);
   const powerPeak = Math.max(0, plan.metrics.powerLoad + effects.power);
   const headline = effects.dispute >= 4
-    ? l("境界開學祭成功產生三扇唯一正門，交通室拒絕選出最唯一的一扇", "境界開学祭、三つの唯一正門を生成。交通室は最も唯一な門を選ばず", "Boundary festival produces three sole main gates; Transit refuses to choose the solest")
+    ? catalogText("headline")
     : clinicArrivals > plan.metrics.aidCapacity
-      ? l("春季燈會完成閉幕，永遠亭要求把候診隊伍列入下屆節目表", "春季灯会閉幕、永遠亭は待合列を次回番組へ記載要求", "Lantern festival closes; Eientei asks next programme to list the waiting queue")
-      : l("燈火按版本熄滅；未解決異議與回收燈籠一起留到明早", "灯は版どおり消灯。未解決異議と回収灯籠は明朝へ", "Lights close by version; unresolved objections and recovered lanterns wait for morning");
+      ? catalogText("headline.2")
+      : catalogText("headline.3");
   return {
     createdAt: now.toISOString(),
     resolved: operation.responses.length,
@@ -653,8 +654,8 @@ export function festivalRouteOverlay() {
       2,
     ])),
     notices: [
-      l("祭典遊行與攤位封路已加入路線計算。", "祭典行列・屋台規制を経路計算へ反映。", "Festival procession and stall closures are included in routing."),
-      l(`${festivalLocalized(festivalKind(plan.draft.kindId).name)}正在運行。`, `${festivalLocalized(festivalKind(plan.draft.kindId).name, "ja")}運行中。`, `${festivalLocalized(festivalKind(plan.draft.kindId).name, "en")} is live.`),
+      catalogText("festivalRouteOverlay.notices.0"),
+      catalogText("festivalRouteOverlay.notices.1", { "zh-Hant": {value0: festivalLocalized(festivalKind(plan.draft.kindId).name)}, "ja": {value0: festivalLocalized(festivalKind(plan.draft.kindId).name, "ja")}, "en": {value0: festivalLocalized(festivalKind(plan.draft.kindId).name, "en")} }),
     ],
   };
 }
@@ -687,12 +688,12 @@ export function buildFestivalProgramme(value, locale = "zh-Hant") {
   const food = festivalFoodCourt(draft.foodCourtId);
   const fairies = festivalFairyZone(draft.fairyZoneId);
   return [
-    item(-35, l("志工點名、退路步測與第四盞燈重新編號", "当番点呼・退路歩測・第四灯再番号", "Volunteer roll, exit walk, and fourth-lantern renumbering"), festivalRoute(draft.routeId).name),
-    item(0, l(`${festivalLocalized(kind.name)}開門鐘`, `${festivalLocalized(kind.name, "ja")}開門鐘`, `${festivalLocalized(kind.name, "en")} opening bell`), festivalGatePlan(draft.gatePlanId).name),
-    item(35, l("妖精低空試演與觀眾預兆練習", "妖精低空試演・観客予兆練習", "Fairy low-altitude rehearsal and audience cue practice"), fairies.name),
-    item(80, l("夜雀食堂、河童原型攤與人里長桌", "夜雀食堂・河童試作屋台・里の長卓", "Night Sparrow kitchen, kappa prototypes, and village tables"), food.name),
-    item(130, l("暮色符卡競演：每一規則都有可見出口", "黄昏スペル競演：全規則に見える出口", "Twilight spell-card exhibition: every rule has a visible exit"), stage.name),
-    item(190, l("回收燈線、訂正號外與第一輪宿舍靜夜", "灯回収・訂正号外・寮の第一静夜", "Lantern recovery, correction extra, and first residence quiet watch"), festivalMusicPlan(draft.musicPlanId).name),
+    item(-35, catalogText("buildFestivalProgramme.0.1"), festivalRoute(draft.routeId).name),
+    item(0, catalogText("buildFestivalProgramme.1.1", { "zh-Hant": {value0: festivalLocalized(kind.name)}, "ja": {value0: festivalLocalized(kind.name, "ja")}, "en": {value0: festivalLocalized(kind.name, "en")} }), festivalGatePlan(draft.gatePlanId).name),
+    item(35, catalogText("buildFestivalProgramme.2.1"), fairies.name),
+    item(80, catalogText("buildFestivalProgramme.3.1"), food.name),
+    item(130, catalogText("buildFestivalProgramme.4.1"), stage.name),
+    item(190, catalogText("buildFestivalProgramme.5.1"), festivalMusicPlan(draft.musicPlanId).name),
   ].map((entry) => ({
     ...entry,
     title: festivalLocalized(entry.title, locale),
@@ -711,17 +712,13 @@ export function festivalCommunityPosts(locale = "zh-Hant") {
     const base = [{
       id: `festival-permit-${plan.id}`,
       category: "notice",
-      author: locale === "ja" ? "祭典共同運営室" : locale === "en" ? "Joint Festival Operations Room" : "祭典共同營運室",
+      author: catalogText("base.0.author")[locale],
       title: locale === "ja"
         ? `${kindName}：${outcome}`
         : locale === "en"
           ? `${kindName}: ${outcome}`
           : `${kindName}：${outcome}`,
-      body: locale === "ja"
-        ? "六つの机の条件と異議は別紙のまま。正門・電源・救護・退路を平均していません。"
-        : locale === "en"
-          ? "Conditions and objections from six desks remain separate. Gate, power, aid, and exits were not averaged."
-          : "六桌條件與異議仍分紙保留；正門、供電、急救與退路沒有被平均。",
+      body: catalogText("base.0.body")[locale],
       replies: 11 + index,
       createdAt: plan.createdAt,
       generated: true,
@@ -733,13 +730,9 @@ export function festivalCommunityPosts(locale = "zh-Hant") {
       base.unshift({
         id: `festival-report-${operation.id}`,
         category: "club",
-        author: locale === "ja" ? "文々。閉祭号外" : locale === "en" ? "Bunbunmaru Closing Extra" : "文文。閉祭號外",
+        author: catalogText("festivalCommunityPosts.0.0.author")[locale],
         title: festivalLocalized(operation.report.headline, locale),
-        body: locale === "ja"
-          ? `来場 ${operation.report.attendance}、救護 ${operation.report.clinicArrivals}、遅延 ${operation.report.delay}分。異議は翌朝へ繰越。`
-          : locale === "en"
-            ? `${operation.report.attendance} attended; ${operation.report.clinicArrivals} medical presentations; ${operation.report.delay} minutes delay. Objections carry into morning.`
-            : `到場 ${operation.report.attendance}、急救 ${operation.report.clinicArrivals}、延誤 ${operation.report.delay} 分；異議留到明早。`,
+        body: catalogText("festivalCommunityPosts.0.0.body", { [locale]: locale === "ja" ? {value0: operation.report.attendance, value1: operation.report.clinicArrivals, value2: operation.report.delay} : locale === "en" ? {value0: operation.report.attendance, value1: operation.report.clinicArrivals, value2: operation.report.delay} : {value0: operation.report.attendance, value1: operation.report.clinicArrivals, value2: operation.report.delay} })[locale],
         replies: 24 + operation.report.disputes,
         createdAt: operation.closedAt,
         generated: true,
@@ -750,13 +743,9 @@ export function festivalCommunityPosts(locale = "zh-Hant") {
       base.unshift({
         id: `festival-live-${operation.id}`,
         category: "notice",
-        author: locale === "ja" ? "祭典現場線" : locale === "en" ? "Festival Field Wire" : "祭典現場線",
-        title: locale === "ja" ? `${kindName}運行中` : locale === "en" ? `${kindName} is live` : `${kindName}運行中`,
-        body: locale === "ja"
-          ? `現場案件 ${operation.responses.length}/${operation.scenarioIds.length}。地図の迂回と永遠亭負荷は現在の運行票を参照。`
-          : locale === "en"
-            ? `Field cases ${operation.responses.length}/${operation.scenarioIds.length}. Map detours and Eientei load now read this operations slip.`
-            : `現場事件 ${operation.responses.length}/${operation.scenarioIds.length}；地圖改道與永遠亭負荷正讀取這張現場執行單。`,
+        author: catalogText("festivalCommunityPosts.0.0.author.2")[locale],
+        title: catalogText("festivalCommunityPosts.0.0.title", { [locale]: locale === "ja" ? {value0: kindName} : locale === "en" ? {value0: kindName} : {value0: kindName} })[locale],
+        body: catalogText("festivalCommunityPosts.0.0.body.2", { [locale]: locale === "ja" ? {value0: operation.responses.length, value1: operation.scenarioIds.length} : locale === "en" ? {value0: operation.responses.length, value1: operation.scenarioIds.length} : {value0: operation.responses.length, value1: operation.scenarioIds.length} })[locale],
         replies: 17 + operation.responses.length,
         createdAt: operation.openedAt,
         generated: true,

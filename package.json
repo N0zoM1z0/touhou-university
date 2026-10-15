@@ -1,16 +1,16 @@
 {
   "name": "touhou-university",
-  "version": "0.30.0",
+  "version": "0.31.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs && node scripts/build-gaokao-downloads.mjs",
+    "build": "node scripts/build.mjs",
     "dev": "node scripts/dev.mjs",
     "new:section": "node scripts/new-section.mjs",
     "portraits": "node scripts/switch-portrait-set.mjs",
-    "docs:status": "node scripts/project-status.mjs",
+    "docs:status": "node scripts/status.mjs",
     "check:docs": "node scripts/check-docs.mjs",
-    "check:i18n": "node scripts/check-i18n.mjs",
+    "check:i18n": "npm run i18n:check && node scripts/check-i18n.mjs",
     "check:js": "node scripts/check-js.mjs",
     "check:gaokao": "node scripts/check-gaokao.mjs",
     "check:courses": "node scripts/check-courses.mjs",
@@ -35,9 +35,19 @@
     "check:employment": "node scripts/check-employment.mjs",
     "check:orientation": "node scripts/check-orientation.mjs",
     "check:history": "node scripts/check-campus-history.mjs",
-    "history:status": "node scripts/check-campus-history.mjs",
+    "history:status": "node scripts/i18n.mjs build && node scripts/check-campus-history.mjs",
     "test:browser": "npm run build && node scripts/smoke-browser.mjs",
     "capture": "npm run build && node scripts/capture-ui.mjs",
-    "check": "npm run build && npm run check:docs && npm run check:i18n && npm run check:js && npm run check:contracts && npm run check:knowledge && npm run check:ethics && npm run check:festival && npm run check:fieldwork && npm run check:commons && npm run check:careers && npm run check:employment && npm run check:orientation && npm run check:gaokao && npm run check:phantasm-exam && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:phantasm && npm run check:records && npm run check:interactions && npm run check:live && npm run check:history"
+    "check": "npm run build && npm run test:tooling && npm run check:publication && npm run check:docs && npm run check:i18n && npm run check:js && npm run check:contracts && npm run check:knowledge && npm run check:ethics && npm run check:festival && npm run check:fieldwork && npm run check:commons && npm run check:careers && npm run check:employment && npm run check:orientation && npm run check:gaokao && npm run check:phantasm-exam && npm run check:courses && npm run check:library && npm run check:housing && npm run check:incidents && npm run check:clinic && npm run check:appraisal && npm run check:spellcards && npm run check:phantasm && npm run check:records && npm run check:interactions && npm run check:live && npm run check:history",
+    "i18n:build": "node scripts/i18n.mjs build",
+    "i18n:check": "node scripts/i18n.mjs check",
+    "i18n:sync": "node scripts/i18n.mjs sync",
+    "i18n:status": "node scripts/i18n.mjs status",
+    "test:tooling": "node --test scripts/tests/*.test.mjs",
+    "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "check:publication": "node scripts/check-publication.mjs"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

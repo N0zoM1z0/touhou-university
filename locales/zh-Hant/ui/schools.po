@@ -1,0 +1,112 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. labels/catalogue
+#: src/js/schools.js:6
+msgctxt "tree:labels#/catalogue"
+msgid "UNDERGRADUATE CATALOGUE · 2026"
+msgstr "UNDERGRADUATE CATALOGUE · 2026"
+
+#. labels/degree
+#: src/js/schools.js:6
+msgctxt "tree:labels#/degree"
+msgid "Award"
+msgstr "學位"
+
+#. labels/duration
+#: src/js/schools.js:6
+msgctxt "tree:labels#/duration"
+msgid "Duration"
+msgstr "修業年限"
+
+#. labels/credits
+#: src/js/schools.js:6
+msgctxt "tree:labels#/credits"
+msgid "Credits"
+msgstr "畢業學分"
+
+#. labels/intake
+#: src/js/schools.js:6
+msgctxt "tree:labels#/intake"
+msgid "Intake"
+msgstr "招生名額"
+
+#. labels/tuition
+#: src/js/schools.js:6
+msgctxt "tree:labels#/tuition"
+msgid "Tuition per term"
+msgstr "每學期學費"
+
+#. labels/overview
+#: src/js/schools.js:6
+msgctxt "tree:labels#/overview"
+msgid "About the school"
+msgstr "學院介紹"
+
+#. labels/courses
+#: src/js/schools.js:6
+msgctxt "tree:labels#/courses"
+msgid "Selected core courses"
+msgstr "核心課程節選"
+
+#. labels/course
+#: src/js/schools.js:6
+msgctxt "tree:labels#/course"
+msgid "Code / course"
+msgstr "課號／課程"
+
+#. labels/courseCredits
+#: src/js/schools.js:6
+msgctxt "tree:labels#/courseCredits"
+msgid "Credits"
+msgstr "學分"
+
+#. labels/studios
+#: src/js/schools.js:6
+msgctxt "tree:labels#/studios"
+msgid "Pathways & studios"
+msgstr "分流與工房"
+
+#. labels/fieldwork
+#: src/js/schools.js:6
+msgctxt "tree:labels#/fieldwork"
+msgid "Field learning"
+msgstr "實地學習"
+
+#. labels/progression
+#: src/js/schools.js:6
+msgctxt "tree:labels#/progression"
+msgid "Graduation requirements"
+msgstr "畢業條件"
+
+#. labels/costs
+#: src/js/schools.js:6
+msgctxt "tree:labels#/costs"
+msgid "Additional costs"
+msgstr "費用說明"
+
+#. labels/outcomes
+#: src/js/schools.js:6
+msgctxt "tree:labels#/outcomes"
+msgid "Where graduates go"
+msgstr "畢業去向"
+
+#. labels/apply
+#: src/js/schools.js:6
+msgctxt "tree:labels#/apply"
+msgid "Apply to this school"
+msgstr "以此學院開始申請"
+
+#. labels/note
+#: src/js/schools.js:6
+msgctxt "tree:labels#/note"
+msgid ""
+"Tuition is charged by term. University core and cross-school electives count "
+"toward the graduation total."
+msgstr "學費按學期收取；共同必修與跨院選修已包含在畢業學分內。"

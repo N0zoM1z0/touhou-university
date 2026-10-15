@@ -1,0 +1,26 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. lines.4.0
+#: src/js/academic-calendar-model.js:94
+msgctxt "text:lines.4.0"
+msgid "Gensokyo Academic Calendar"
+msgstr "Gensokyo Academic Calendar"
+
+#. academicCalendarCommunityPosts.0.author
+#: src/js/academic-calendar-model.js:124
+msgctxt "text:academicCalendarCommunityPosts.0.author"
+msgid "Academic Calendar Desk · red bookmark"
+msgstr "Academic Calendar Desk · red bookmark"
+
+#. academicCalendarCommunityPosts.0.body
+#: src/js/academic-calendar-model.js:126
+msgctxt "text:academicCalendarCommunityPosts.0.body"
+msgid "{value0}. Saving the leaf does not stop changes caused by moon, incident, or festival."
+msgstr "{value0}. Saving the leaf does not stop changes caused by moon, incident, or festival."

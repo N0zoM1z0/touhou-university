@@ -1,0 +1,1264 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. knowledgeRecordKinds.0.case
+#: src/data/knowledge-graph.js:47
+msgctxt "text:knowledgeRecordKinds.0.case"
+msgid "Official file"
+msgstr "正式案件"
+
+#. knowledgeRecordKinds.0.evidence
+#: src/data/knowledge-graph.js:48
+msgctxt "text:knowledgeRecordKinds.0.evidence"
+msgid "Field record"
+msgstr "現場記録"
+
+#. knowledgeRecordKinds.0.correction
+#: src/data/knowledge-graph.js:49
+msgctxt "text:knowledgeRecordKinds.0.correction"
+msgid "Correction & variant"
+msgstr "訂正・異本"
+
+#. knowledgeRecordKinds.0.report
+#: src/data/knowledge-graph.js:50
+msgctxt "text:knowledgeRecordKinds.0.report"
+msgid "News & rumour"
+msgstr "報道・噂"
+
+#. knowledgeRecordKinds.0.governance
+#: src/data/knowledge-graph.js:51
+msgctxt "text:knowledgeRecordKinds.0.governance"
+msgid "Governance"
+msgstr "学務規程"
+
+#. knowledgeRecordKinds.0.community
+#: src/data/knowledge-graph.js:52
+msgctxt "text:knowledgeRecordKinds.0.community"
+msgid "Student account"
+msgstr "学生側記"
+
+#. knowledgeRecordKinds.0.learning
+#: src/data/knowledge-graph.js:53
+msgctxt "text:knowledgeRecordKinds.0.learning"
+msgid "Course & assignment"
+msgstr "授業・課題"
+
+#. knowledgeRecordKinds.0.research
+#: src/data/knowledge-graph.js:54
+msgctxt "text:knowledgeRecordKinds.0.research"
+msgid "Research file"
+msgstr "研究記録"
+
+#. knowledgeRecordKinds.0.archive
+#: src/data/knowledge-graph.js:55
+msgctxt "text:knowledgeRecordKinds.0.archive"
+msgid "Chronicle version"
+msgstr "大学史版"
+
+#. knowledgeRecordKinds.0.object
+#: src/data/knowledge-graph.js:56
+msgctxt "text:knowledgeRecordKinds.0.object"
+msgid "Object & holding"
+msgstr "物証・蔵書"
+
+#. knowledgeRecordKinds.0.residence
+#: src/data/knowledge-graph.js:57
+msgctxt "text:knowledgeRecordKinds.0.residence"
+msgid "Residence record"
+msgstr "共同生活記録"
+
+#. knowledgeRecordKinds.0.ethics
+#: src/data/knowledge-graph.js:58
+msgctxt "text:knowledgeRecordKinds.0.ethics"
+msgid "Ethics review"
+msgstr "倫理審査"
+
+#. knowledgeCharacters.0.akyuu.name
+#: src/data/knowledge-graph.js:65
+msgctxt "text:knowledgeCharacters.0.akyuu.name"
+msgid "Hieda no Akyuu"
+msgstr "稗田阿求"
+
+#. knowledgeCharacters.0.akyuu.role
+#: src/data/knowledge-graph.js:66
+msgctxt "text:knowledgeCharacters.0.akyuu.role"
+msgid "Indexing, version notes, and refusing to erase contradictions"
+msgstr "索引編纂・版注・矛盾を消さない仕事"
+
+#. knowledgeCharacters.0.keine.role
+#: src/data/knowledge-graph.js:73
+msgctxt "text:knowledgeCharacters.0.keine.role"
+msgid "Roll calls, source corrections, and asking which edition yesterday was"
+msgstr "点呼・史料訂正・昨日が何版かの追及"
+
+#. knowledgeCharacters.0.aya.role
+#: src/data/knowledge-graph.js:80
+msgctxt "text:knowledgeCharacters.0.aya.role"
+msgid "First to the scene, and first to give Corrections more work"
+msgstr "現場到着も訂正欄を働かせるのも最速"
+
+#. knowledgeCharacters.0.nitori.role
+#: src/data/knowledge-graph.js:87
+msgctxt "text:knowledgeCharacters.0.nitori.role"
+msgid "Equipment logs, tape repairs, and firmware that promises no version agreement"
+msgstr "設備ログ・テープ修理・版一致を保証しないファームウェア"
+
+#. knowledgeCharacters.0.eirin.role
+#: src/data/knowledge-graph.js:94
+msgctxt "text:knowledgeCharacters.0.eirin.role"
+msgid "Lunar observation, clinical judgement, and not letting sample size hide bad methods"
+msgstr "月相観測・診療判断・大標本で方法事故を隠さない"
+
+#. knowledgeCharacters.0.reisen.name
+#: src/data/knowledge-graph.js:99
+msgctxt "text:knowledgeCharacters.0.reisen.name"
+msgid "Reisen Udongein Inaba"
+msgstr "鈴仙・優曇華院・イナバ"
+
+#. knowledgeCharacters.0.reisen.role
+#: src/data/knowledge-graph.js:100
+msgctxt "text:knowledgeCharacters.0.reisen.role"
+msgid "Lunar perception, bamboo guidance, and arrows that keep being redrawn"
+msgstr "月相知覚・竹林誘導・描き直される矢印"
+
+#. knowledgeCharacters.0.tewi.name
+#: src/data/knowledge-graph.js:105
+msgctxt "text:knowledgeCharacters.0.tewi.name"
+msgid "Tewi Inaba"
+msgstr "因幡てゐ"
+
+#. knowledgeCharacters.0.tewi.role
+#: src/data/knowledge-graph.js:106
+msgctxt "text:knowledgeCharacters.0.tewi.role"
+msgid "Shortcuts, ticket stubs, and route design that denies being a trap"
+msgstr "近道・半券・罠とは認めない経路設計"
+
+#. knowledgeCharacters.0.koakuma.name
+#: src/data/knowledge-graph.js:111
+msgctxt "text:knowledgeCharacters.0.koakuma.name"
+msgid "Koakuma"
+msgstr "小悪魔"
+
+#. knowledgeCharacters.0.koakuma.role
+#: src/data/knowledge-graph.js:112
+msgctxt "text:knowledgeCharacters.0.koakuma.role"
+msgid "Shelf-departure logs, window control, and cataloguing books that object"
+msgstr "離架記録・窓管理・反論する蔵書の目録"
+
+#. knowledgeCharacters.0.cirno.name
+#: src/data/knowledge-graph.js:117
+msgctxt "text:knowledgeCharacters.0.cirno.name"
+msgid "Cirno"
+msgstr "チルノ"
+
+#. knowledgeCharacters.0.cirno.role
+#: src/data/knowledge-graph.js:118
+msgctxt "text:knowledgeCharacters.0.cirno.role"
+msgid ""
+"Witnessing, emergency refrigeration, and testimony whose confidence exceeds "
+"its reliability"
+msgstr "目撃者・臨時冷却・信頼度と自信が別物の証言"
+
+#. knowledgeCharacters.0.patchouli.role
+#: src/data/knowledge-graph.js:125
+msgctxt "text:knowledgeCharacters.0.patchouli.role"
+msgid "Grimoire reading, interlibrary disputes, and banning folded-page bookmarks"
+msgstr "魔導書読解・館間係争・頁を栞に折る行為の禁止"
+
+#. knowledgeCharacters.0.reimu.role
+#: src/data/knowledge-graph.js:132
+msgctxt "text:knowledgeCharacters.0.reimu.role"
+msgid "Rules, exits, and the shortest opinion on overcomplicated systems"
+msgstr "規則・退路・複雑すぎる制度への最短意見"
+
+#. knowledgeCharacters.0.marisa.role
+#: src/data/knowledge-graph.js:139
+msgctxt "text:knowledgeCharacters.0.marisa.role"
+msgid "High-output practice, provenance to be added later, and failures worth keeping"
+msgstr "高出力実習・出所は後記・保存に値する失敗"
+
+#. knowledgeCharacters.0.yukari.role
+#: src/data/knowledge-graph.js:146
+msgctxt "text:knowledgeCharacters.0.yukari.role"
+msgid "Boundaries, regulatory gaps, and doors that were not between versions"
+msgstr "境界・規程の隙間・版の間になかった扉"
+
+#. knowledgeCharacters.0.rinnosuke.name
+#: src/data/knowledge-graph.js:151
+msgctxt "text:knowledgeCharacters.0.rinnosuke.name"
+msgid "Rinnosuke Morichika"
+msgstr "森近霖之助"
+
+#. knowledgeCharacters.0.rinnosuke.role
+#: src/data/knowledge-graph.js:152
+msgctxt "text:knowledgeCharacters.0.rinnosuke.role"
+msgid "Names, purposes, and remaining not for sale after pricing"
+msgstr "名称・用途・値札を書いても当面非売品"
+
+#. knowledgeCharacters.0.kogasa.name
+#: src/data/knowledge-graph.js:157
+msgctxt "text:knowledgeCharacters.0.kogasa.name"
+msgid "Kogasa Tatara"
+msgstr "多々良小傘"
+
+#. knowledgeCharacters.0.kogasa.role
+#: src/data/knowledge-graph.js:158
+msgctxt "text:knowledgeCharacters.0.kogasa.role"
+msgid "The forgotten object's own view, and sudden speaking rights"
+msgstr "忘れられた道具の当事物意見・突然の発言権"
+
+#. knowledgeCharacters.0.satori.name
+#: src/data/knowledge-graph.js:163
+msgctxt "text:knowledgeCharacters.0.satori.name"
+msgid "Satori Komeiji"
+msgstr "古明地さとり"
+
+#. knowledgeCharacters.0.satori.role
+#: src/data/knowledge-graph.js:164
+msgctxt "text:knowledgeCharacters.0.satori.role"
+msgid "Mental privacy, unwritten data, and requiring a separate protocol for mind-reading"
+msgstr "精神プライバシー・書かれないデータ・読心には別申請"
+
+#. knowledgeCharacters.0.eiki.name
+#: src/data/knowledge-graph.js:169
+msgctxt "text:knowledgeCharacters.0.eiki.name"
+msgid "Eiki Shiki, Yamaxanadu"
+msgstr "四季映姫・ヤマザナドゥ"
+
+#. knowledgeCharacters.0.eiki.role
+#: src/data/knowledge-graph.js:170
+msgctxt "text:knowledgeCharacters.0.eiki.role"
+msgid ""
+"Consent, responsibility, appeal, and refusing to let ownership waive "
+"another's withdrawal"
+msgstr "同意・責任・不服申立て・所有権による撤回放棄の禁止"
+
+#. knowledgeCharacters.0.sakuya.name
+#: src/data/knowledge-graph.js:175
+msgctxt "text:knowledgeCharacters.0.sakuya.name"
+msgid "Sakuya Izayoi"
+msgstr "十六夜咲夜"
+
+#. knowledgeCharacters.0.sakuya.role
+#: src/data/knowledge-graph.js:176
+msgctxt "text:knowledgeCharacters.0.sakuya.role"
+msgid "Stopped time, zero-minute controls, and the clock still moving only on her side"
+msgstr "時間停止・0分対照・彼女側だけで進む時計"
+
+#. knowledgeCharacters.0.kanako.name
+#: src/data/knowledge-graph.js:181
+msgctxt "text:knowledgeCharacters.0.kanako.name"
+msgid "Kanako Yasaka"
+msgstr "八坂神奈子"
+
+#. knowledgeCharacters.0.kanako.role
+#: src/data/knowledge-graph.js:182
+msgctxt "text:knowledgeCharacters.0.kanako.role"
+msgid ""
+"Stable power, shimenawa works, and disputes over whose faith infrastructure "
+"each cable is"
+msgstr "安定給電・注連縄工事・各電線が誰の信仰設備かという争い"
+
+#. knowledgeCharacters.0.byakuren.name
+#: src/data/knowledge-graph.js:187
+msgctxt "text:knowledgeCharacters.0.byakuren.name"
+msgid "Byakuren Hijiri"
+msgstr "聖白蓮"
+
+#. knowledgeCharacters.0.byakuren.role
+#: src/data/knowledge-graph.js:188
+msgctxt "text:knowledgeCharacters.0.byakuren.role"
+msgid "Shared life, night welcome, and leaving the sole main gate to those who cannot fly"
+msgstr "共同生活・夜間受入れ・唯一正門を飛べない者へ残すこと"
+
+#. knowledgeCharacters.0.miko.name
+#: src/data/knowledge-graph.js:193
+msgctxt "text:knowledgeCharacters.0.miko.name"
+msgid "Toyosatomimi no Miko"
+msgstr "豊聡耳神子"
+
+#. knowledgeCharacters.0.miko.role
+#: src/data/knowledge-graph.js:194
+msgctxt "text:knowledgeCharacters.0.miko.role"
+msgid ""
+"Hearing ten opening speeches at once, public order, and insisting the gate "
+"is first-come first-served"
+msgstr "十の開幕辞の同時聴取・公共秩序・正門は先着順という主張"
+
+#. knowledgeCharacters.0.youmu.name
+#: src/data/knowledge-graph.js:199
+msgctxt "text:knowledgeCharacters.0.youmu.name"
+msgid "Youmu Konpaku"
+msgstr "魂魄妖夢"
+
+#. knowledgeCharacters.0.youmu.role
+#: src/data/knowledge-graph.js:200
+msgctxt "text:knowledgeCharacters.0.youmu.role"
+msgid ""
+"Garden duty, phantom roll call, and whether half-human half-phantom counts "
+"as one or a pair"
+msgstr "庭園当番・幽霊点呼・半人半霊を一名か一組か数える問題"
+
+#. knowledgeCharacters.0.yuyuko.name
+#: src/data/knowledge-graph.js:205
+msgctxt "text:knowledgeCharacters.0.yuyuko.name"
+msgid "Yuyuko Saigyouji"
+msgstr "西行寺幽々子"
+
+#. knowledgeCharacters.0.yuyuko.role
+#: src/data/knowledge-graph.js:206
+msgctxt "text:knowledgeCharacters.0.yuyuko.role"
+msgid ""
+"Hakugyokurou feasts, phantom populations, and admitting after roll call that "
+"she was present all along"
+msgstr "白玉楼の宴・幽霊人口・点呼後に最初から居たと認めること"
+
+#. knowledgeDossiers.0.late-bell-seven.title
+#: src/data/knowledge-graph.js:215
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.title"
+msgid "The late-bell case: why did punctual students hear it?"
+msgstr "遅刻鐘事件：定刻者にはなぜ聞こえたか"
+
+#. knowledgeDossiers.0.late-bell-seven.lead
+#: src/data/knowledge-graph.js:216
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.lead"
+msgid ""
+"The same bell has different times in equipment logs, roll sheets, an extra "
+"edition, and local closures. Akyuu declines to choose the most obedient "
+"yesterday."
+msgstr "同じ鐘が設備・点呼頁・号外・端末内終結で別の発生時刻を持つ。阿求は、より従順な昨日を一つ選ばなかった。"
+
+#. knowledgeDossiers.0.late-bell-seven.tension
+#: src/data/knowledge-graph.js:217
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.tension"
+msgid ""
+"Keine's roll marks seven punctual; Aya's extra was typeset nine minutes "
+"before the bell; Nitori's tower insists it executed one correct instruction."
+msgstr "慧音の点呼頁では七名が定刻。文の号外は鐘より九分早く組版済み。にとりの鐘楼は正しい命令を一度だけ実行したと言い張る。"
+
+#. knowledgeDossiers.0.late-bell-seven.records.0.official-case.5
+#: src/data/knowledge-graph.js:226
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.0.official-case.5"
+msgid "The Incident Desk accepts this as the case's beginning, not the story's ending."
+msgstr "事案連絡室は案件の起点とは認めるが、物語の終点とは認めない。"
+
+#. knowledgeDossiers.0.late-bell-seven.records.1.tower-log.5
+#: src/data/knowledge-graph.js:227
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.1.tower-log.5"
+msgid "The equipment time is stable; half the firmware-version field is under kappa tape."
+msgstr "設備時刻は安定。ファームウェア版欄は河童テープで半分隠れている。"
+
+#. knowledgeDossiers.0.late-bell-seven.records.2.roll-page.5
+#: src/data/knowledge-graph.js:228
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.2.roll-page.5"
+msgid "Keine crossed out “late” twice; the second ink dried first."
+msgstr "慧音は「遅刻」を二度消した。二度目の墨の方が先に乾いている。"
+
+#. knowledgeDossiers.0.late-bell-seven.records.3.extra-edition.5
+#: src/data/knowledge-graph.js:229
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.3.extra-edition.5"
+msgid "The headline did not miss the bell; the bell missed deadline."
+msgstr "見出しは鐘を逃さず、鐘の方が締切に遅れた。"
+
+#. knowledgeDossiers.0.late-bell-seven.records.4.airspace-rule.5
+#: src/data/knowledge-graph.js:230
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.4.airspace-rule.5"
+msgid ""
+"Airspace rules do not settle sequence; they only say who may close things "
+"while everyone waits."
+msgstr "空域規程は時間順を扱わず、全員が待ち合う時に誰が閉鎖できるかだけ定める。"
+
+#. knowledgeDossiers.0.late-bell-seven.records.5.airspace-bbs.5
+#: src/data/knowledge-graph.js:231
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.5.airspace-bbs.5"
+msgid ""
+"Students first ask whether they may hover above the bell, not whether the "
+"bell is in today."
+msgstr "学生はまず鐘の上で停止できるか尋ね、鐘が今日にあるかは尋ねなかった。"
+
+#. knowledgeDossiers.0.late-bell-seven.records.6.three-reports.5
+#: src/data/knowledge-graph.js:232
+msgctxt "text:knowledgeDossiers.0.late-bell-seven.records.6.three-reports.5"
+msgid "The research file permits three mutually unconvinced reports to be cited together."
+msgstr "研究記録は、互いに納得しない三本の報道を同時に引用可能とする。"
+
+#. knowledgeDossiers.0.flying-book-window.title
+#: src/data/knowledge-graph.js:239
+msgctxt "text:knowledgeDossiers.0.flying-book-window.title"
+msgid "Shelf departure: four books, only one wanted to escape"
+msgstr "離架事件：四冊のうち逃げたいのは一冊だけ"
+
+#. knowledgeDossiers.0.flying-book-window.lead
+#: src/data/knowledge-graph.js:240
+msgctxt "text:knowledgeDossiers.0.flying-book-window.lead"
+msgid ""
+"The window log says closed, clasp telemetry says all four moved, and the "
+"fourth book petitioned by turning pages not to return."
+msgstr "窓ログは終始閉鎖、留め具計測は四冊の移動を記録。第四冊は頁をめくって元位置への帰還を拒否した。"
+
+#. knowledgeDossiers.0.flying-book-window.tension
+#: src/data/knowledge-graph.js:241
+msgctxt "text:knowledgeDossiers.0.flying-book-window.tension"
+msgid ""
+"The library records departure, Koakuma records equipment failure, and the "
+"holding accepts only “location negotiation.” Cirno's testimony is all caps."
+msgstr "図書館は離架、小悪魔は設備異常、蔵書自身は「位置交渉」とだけ記録。チルノの証言は全て大文字。"
+
+#. knowledgeDossiers.0.flying-book-window.records.0.official-case.5
+#: src/data/knowledge-graph.js:250
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.0.official-case.5"
+msgid "The file says “shelf departure” so no book is called a fugitive before closure."
+msgstr "終結前に本を逃亡犯扱いしないため、案件は「離架」と記す。"
+
+#. knowledgeDossiers.0.flying-book-window.records.1.margin-petition.5
+#: src/data/knowledge-graph.js:251
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.1.margin-petition.5"
+msgid "The petition is in a margin: cataloguing calls it holding, governance calls it speech."
+msgstr "請願は欄外。目録規則では蔵書、統治規則では発言に属する。"
+
+#. knowledgeDossiers.0.flying-book-window.records.2.flying-index.5
+#: src/data/knowledge-graph.js:252
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.2.flying-index.5"
+msgid "This book explains why flying books retain call numbers, and refuses to demonstrate."
+msgstr "飛ぶ本にも請求記号がある理由を説明し、実演は拒否する。"
+
+#. knowledgeDossiers.0.flying-book-window.records.3.library-rule.5
+#: src/data/knowledge-graph.js:253
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.3.library-rule.5"
+msgid ""
+"The motion debates longer full-moon reading; the book asks whether readers "
+"may be renewed first."
+msgstr "議案は満月閲覧延長を論じるが、本は読者を更新貸出できるか先に決めよと要求。"
+
+#. knowledgeDossiers.0.flying-book-window.records.4.window-bbs.5
+#: src/data/knowledge-graph.js:254
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.4.window-bbs.5"
+msgid "The librarian's notice is clear; someone at the window seats still asks nightly."
+msgstr "司書の掲示は明快だが、窓際席では毎晩一度同じ質問が出る。"
+
+#. knowledgeDossiers.0.flying-book-window.records.5.grimoire-course.5
+#: src/data/knowledge-graph.js:255
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.5.grimoire-course.5"
+msgid ""
+"The course teaches reading and counter-reading, not how to recover a book "
+"that finished its reader."
+msgstr "授業は読解と反読を教えるが、読者を読み終えた本の追跡は教えない。"
+
+#. knowledgeDossiers.0.flying-book-window.records.6.shelf-minutes.5
+#: src/data/knowledge-graph.js:256
+msgctxt "text:knowledgeDossiers.0.flying-book-window.records.6.shelf-minutes.5"
+msgid "Day 129 still did not decide whether an “original location” may move itself."
+msgstr "第129日会議でも「元位置」が自ら移動できるか未決。"
+
+#. knowledgeDossiers.0.headline-yesterday.title
+#: src/data/knowledge-graph.js:263
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.title"
+msgid "Yesterday extra: why tomorrow's incident was already archived"
+msgstr "昨日号外：明日の事件がなぜ大学史入りしたか"
+
+#. knowledgeDossiers.0.headline-yesterday.lead
+#: src/data/knowledge-graph.js:264
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.lead"
+msgid ""
+"Layout cache, archive index, and valve audio each have a date, and each date "
+"is reasonable when read alone."
+msgstr "組版キャッシュ・史料索引・弁音声には別々の日付があり、単独で読めばどれも筋が通る。"
+
+#. knowledgeDossiers.0.headline-yesterday.tension
+#: src/data/knowledge-graph.js:265
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.tension"
+msgid ""
+"Aya says the news merely arrived early; Akyuu says the chronicle was merely "
+"written late. Keine asks both to version “yesterday.” Yukari cuts open the "
+"date field."
+msgstr "文は報道が早着しただけ、阿求は大学史が遅筆だっただけと主張。慧音はまず「昨日」に版番号を付けよと要求。紫は日付欄を切り開いた。"
+
+#. knowledgeDossiers.0.headline-yesterday.records.0.official-case.5
+#: src/data/knowledge-graph.js:275
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.0.official-case.5"
+msgid "The case says in progress; the chronicle citation already has its post-closure page."
+msgstr "案件は処理中だが、大学史の引用欄には処理後の頁番号がある。"
+
+#. knowledgeDossiers.0.headline-yesterday.records.1.layout-cache.5
+#: src/data/knowledge-graph.js:276
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.1.layout-cache.5"
+msgid "The cache proves when the headline was set, not that the incident agreed to occur then."
+msgstr "キャッシュは見出しの組版時刻を示すが、事件がその時刻に同意した証明ではない。"
+
+#. knowledgeDossiers.0.headline-yesterday.records.2.chronicle-index.5
+#: src/data/knowledge-graph.js:277
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.2.chronicle-index.5"
+msgid "The index page number is valid; its paper appeared only after the case opened."
+msgstr "索引頁番号は有効だが、参照先の紙は案件を開いた後に現れた。"
+
+#. knowledgeDossiers.0.headline-yesterday.records.3.reports-research.5
+#: src/data/knowledge-graph.js:278
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.3.reports-research.5"
+msgid ""
+"Research records “reported first, occurred later” as an observed order, not "
+"a causal finding."
+msgstr "研究は「先に報道、後に発生」を観測順として記し、因果結論とはしない。"
+
+#. knowledgeDossiers.0.headline-yesterday.records.4.yesterday-assignment.5
+#: src/data/knowledge-graph.js:279
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.4.yesterday-assignment.5"
+msgid ""
+"The assignment forbids choosing the more emotionally satisfying yesterday; "
+"both sources stay."
+msgstr "課題は感情的に好ましい昨日の選択を禁じ、二つの出所を残す。"
+
+#. knowledgeDossiers.0.headline-yesterday.records.5.red-thread-rule.5
+#: src/data/knowledge-graph.js:280
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.5.red-thread-rule.5"
+msgid "The motion decides warning size, not whether contested content should quiet down."
+msgstr "議案は警告の大きさだけを決め、係争内容を静かにするかは決めない。"
+
+#. knowledgeDossiers.0.headline-yesterday.records.6.headline-holding.5
+#: src/data/knowledge-graph.js:281
+msgctxt "text:knowledgeDossiers.0.headline-yesterday.records.6.headline-holding.5"
+msgid ""
+"Its corrections appendix is always one page thicker than the text; sometimes "
+"tomorrow adds it."
+msgstr "訂正付録は本文より常に一頁厚く、その一頁は時々明日追加される。"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.title
+#: src/data/knowledge-graph.js:288
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.title"
+msgid "The fourth lantern: three rabbit coaches reach one bend"
+msgstr "第四の灯：三便の兎車が同じ曲がり角へ到着"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.lead
+#: src/data/knowledge-graph.js:289
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.lead"
+msgid ""
+"Every lantern in the bamboo claims to be fourth. Tickets, moon phase, and "
+"firmware disagree on whether the three coaches happened in sequence."
+msgstr "竹林では全ての灯が自分を第四と名乗る。半券・月相・ファームウェアは「三便」の前後関係に別の見解を持つ。"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.tension
+#: src/data/knowledge-graph.js:290
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.tension"
+msgid ""
+"Tewi calls the loop a shortcut, Eirin repeated exposure, and Nitori a legacy "
+"compatibility layer. Reisen turned the arrow back again."
+msgstr "てゐはループを近道、永琳は反復曝露、にとりは旧ファーム互換層と呼ぶ。鈴仙は案内矢印をまた元へ戻した。"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.0.official-case.5
+#: src/data/knowledge-graph.js:298
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.0.official-case.5"
+msgid "The file numbers three coaches separately; the bamboo swaps their numbers next day."
+msgstr "案件は三便を別番号にしたが、竹林は翌日その番号を交換した。"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.1.firmware-stubs.5
+#: src/data/knowledge-graph.js:299
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.1.firmware-stubs.5"
+msgid "Tickets have three timestamps; firmware has one “still en route” state."
+msgstr "半券には三つの時刻印、ファームには一つの「移動中」状態だけ。"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.2.moon-log.5
+#: src/data/knowledge-graph.js:300
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.2.moon-log.5"
+msgid "The lunar log has no duplicate; its recorder passed the same lantern three times."
+msgstr "月相記録は重複しないが、記録者は同じ灯を三回通った。"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.3.lantern-manual.5
+#: src/data/knowledge-graph.js:301
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.3.lantern-manual.5"
+msgid "Manual 3.1b begins by asking you to verify you are not reading 3.1b."
+msgstr "手引3.1bの第一頁は、まず3.1bを読んでいないことの確認を求める。"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.4.bamboo-bbs.5
+#: src/data/knowledge-graph.js:302
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.4.bamboo-bbs.5"
+msgid ""
+"Orienteering promises no identical return route this week; that notice alone "
+"arrived on time."
+msgstr "定向部は今週、同じ帰路を保証しない。これだけが定刻に届いた掲示。"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.5.clinic-route-course.5
+#: src/data/knowledge-graph.js:303
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.5.clinic-route-course.5"
+msgid "Three loops add no credits, though they may add absences."
+msgstr "三周しても単位は増えないが、欠席判定は増えることがある。"
+
+#. knowledgeDossiers.0.fourth-lantern-loop.records.6.clinic-route-news.5
+#: src/data/knowledge-graph.js:304
+msgctxt "text:knowledgeDossiers.0.fourth-lantern-loop.records.6.clinic-route-news.5"
+msgid "The low-stimulus route is open; Tewi posted an “even lower-stimulus shortcut” beside it."
+msgstr "低刺激誘導線は開通。てゐは隣に「さらに低刺激の近道」を貼った。"
+
+#. knowledgeDossiers.0.dorm-window-chair.title
+#: src/data/knowledge-graph.js:311
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.title"
+msgid "The window chair: third roommate to a co-living agreement"
+msgstr "窓際の椅子：共同生活協定の第三の同室者"
+
+#. knowledgeDossiers.0.dorm-window-chair.lead
+#: src/data/knowledge-graph.js:312
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.lead"
+msgid ""
+"The housing form says two people, the night grid measures three fixed "
+"positions, and scratches on the chair request a rota entry."
+msgstr "入寮申請は二名、夜間格子は三つの定位置を計測。椅子背の傷は当番表に自分の名を加えるよう求める。"
+
+#. knowledgeDossiers.0.dorm-window-chair.tension
+#: src/data/knowledge-graph.js:313
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.tension"
+msgid ""
+"Housing says furniture takes no bed; Yukari says boundaries need not take "
+"space. An old receipt says the chair moved in before one roommate."
+msgstr "寮務は家具に寝床なし、紫は境界が空間を占めるとは限らないと言う。椅子は古い領収書で同室者の一人より先に入居したと証明。"
+
+#. knowledgeDossiers.0.dorm-window-chair.records.0.official-case.5
+#: src/data/knowledge-graph.js:322
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.0.official-case.5"
+msgid "The Incident Centre lists the chair as affected, not witness. The chair has appealed."
+msgstr "事案センターは椅子を影響対象に載せ、証人欄には載せない。椅子は異議申立済み。"
+
+#. knowledgeDossiers.0.dorm-window-chair.records.1.scratch-text.5
+#: src/data/knowledge-graph.js:323
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.1.scratch-text.5"
+msgid "The scratches read as a name, or “stop putting coats on me.”"
+msgstr "傷は名前にも「もう上着を置くな」にも読める。"
+
+#. knowledgeDossiers.0.dorm-window-chair.records.2.old-receipt.5
+#: src/data/knowledge-graph.js:324
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.2.old-receipt.5"
+msgid "The receipt predates the dorm conversion; item says only “one, wooden.”"
+msgstr "領収日付は寮改築前。品名欄は「一名、木製」とだけある。"
+
+#. knowledgeDossiers.0.dorm-window-chair.records.3.hakurei-east.5
+#: src/data/knowledge-graph.js:325
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.3.hakurei-east.5"
+msgid "The hall calls its rain leak a natural clock; the chair calls it curtains."
+msgstr "雨漏り線は自治会が天然時計と認定。椅子は自分のカーテンだと主張。"
+
+#. knowledgeDossiers.0.dorm-window-chair.records.4.boundary-course.5
+#: src/data/knowledge-graph.js:326
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.4.boundary-course.5"
+msgid ""
+"The course studies passage governance; this assignment asks who may pass "
+"through a chair back."
+msgstr "授業は通行統治を扱い、この課題は誰が椅子の背を通れるかを問う。"
+
+#. knowledgeDossiers.0.dorm-window-chair.records.5.red-thread-rule.5
+#: src/data/knowledge-graph.js:327
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.5.red-thread-rule.5"
+msgid ""
+"The chair wants a warning its own height; council has not measured a chair's "
+"reading distance."
+msgstr "椅子は自分と同じ高さの警告を要求。学生会は椅子の読書距離未測定と回答。"
+
+#. knowledgeDossiers.0.dorm-window-chair.records.6.shelf-negotiation.5
+#: src/data/knowledge-graph.js:328
+msgctxt "text:knowledgeDossiers.0.dorm-window-chair.records.6.shelf-negotiation.5"
+msgid "Housing cites shelf-location negotiations as precedent for furniture speaking rights."
+msgstr "書架の原位置拒否議事録を、寮務が家具発言権の先例として引用。"
+
+#. knowledgeDossiers.0.drift-reader-77.title
+#: src/data/knowledge-graph.js:335
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.title"
+msgid "Drift Object 77: the reader frozen on one page"
+msgstr "漂流物第77号：同じ頁で止まる読書端末"
+
+#. knowledgeDossiers.0.drift-reader-77.lead
+#: src/data/knowledge-graph.js:336
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.lead"
+msgid ""
+"Kourindou calls it a reading tool, Misty Lake a book, and the kappa a "
+"missing cable. The character on screen says they have not been finished."
+msgstr "香霖堂は読書道具、霧の湖は一冊の本、河童は線一本不足と判断。画面の人物はまだ読み終えられていないと考える。"
+
+#. knowledgeDossiers.0.drift-reader-77.tension
+#: src/data/knowledge-graph.js:337
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.tension"
+msgid ""
+"Purpose appraisal wants an operating test; preservation forbids erasing the "
+"page to test it. Kogasa asks whether the object objects."
+msgstr "用途鑑定は操作試験を要求するが、保存規則は試験のための頁消去を禁じる。小傘はまず物の異議を尋ねよと注意。"
+
+#. knowledgeDossiers.0.drift-reader-77.records.0.object-file.5
+#: src/data/knowledge-graph.js:346
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.0.object-file.5"
+msgid ""
+"Seventy-seven is not a count; the shelf slip refused to call the next object "
+"seventy-eight."
+msgstr "77は総数ではない。棚の札が次の品を78と呼ぶことを拒んだ。"
+
+#. knowledgeDossiers.0.drift-reader-77.records.1.drift-research.5
+#: src/data/knowledge-graph.js:347
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.1.drift-research.5"
+msgid ""
+"The drift index records semantic change after forgetting; it does not "
+"rehabilitate manuals."
+msgstr "漂流索引は忘却後の意味変化を記録し、外界説明書の名誉回復はしない。"
+
+#. knowledgeDossiers.0.drift-reader-77.records.2.drift-catalogue.5
+#: src/data/knowledge-graph.js:348
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.2.drift-catalogue.5"
+msgid "The holding says seventy-seven objects; its appendix already has a blank card 78."
+msgstr "蔵書名は77件だが、付録には78枚目の白紙カードがある。"
+
+#. knowledgeDossiers.0.drift-reader-77.records.3.boundary-course.5
+#: src/data/knowledge-graph.js:349
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.3.boundary-course.5"
+msgid "Students identify the crossed boundary, then discover the charging port has one too."
+msgstr "学生は越えた境界を先に決め、充電端子にも境界があると気づく。"
+
+#. knowledgeDossiers.0.drift-reader-77.records.4.wire-bbs.5
+#: src/data/knowledge-graph.js:350
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.4.wire-bbs.5"
+msgid ""
+"A Kourindou auditor offers free cables; Appraisal first wants proof the "
+"cable is not another drift object."
+msgstr "香霖堂聴講生は線を無料提供。鑑定所は線自体が別の漂流物でない証明を要求。"
+
+#. knowledgeDossiers.0.drift-reader-77.records.5.lost-umbrella-news.5
+#: src/data/knowledge-graph.js:351
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.5.lost-umbrella-news.5"
+msgid ""
+"Lost Property says the umbrella is not lost; the umbrella says the desk is "
+"what got found."
+msgstr "遺失物係は傘は迷子でないと言い、傘は係の方が発見された側だと言う。"
+
+#. knowledgeDossiers.0.drift-reader-77.records.6.appraisal-history.5
+#: src/data/knowledge-graph.js:352
+msgctxt "text:knowledgeDossiers.0.drift-reader-77.records.6.appraisal-history.5"
+msgid "The chronicle keeps the opening version and why object 77 followed object seven."
+msgstr "大学史は開所版と、第七件の後に突然77号が現れた理由をともに保存。"
+
+#. knowledgeDossiers.0.spellcard-six-seals.title
+#: src/data/knowledge-graph.js:359
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.title"
+msgid "Six-seal defence: does beautiful danmaku still leave an exit?"
+msgstr "六印答弁：美しい弾幕にまだ退路はあるか"
+
+#. knowledgeDossiers.0.spellcard-six-seals.lead
+#: src/data/knowledge-graph.js:360
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.lead"
+msgid ""
+"Design, sandbox, methods, public defence, and audience notes score the same "
+"spell differently. The university refuses to average six seals."
+msgstr "設計稿・試飛場・研究方法・公開答弁・観客側記は同じスペルへ別々の点を付ける。大学は六印の平均化を拒否。"
+
+#. knowledgeDossiers.0.spellcard-six-seals.tension
+#: src/data/knowledge-graph.js:361
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.tension"
+msgid ""
+"Reimu asks exits, Marisa output, Aya writes the headline first, and Nitori "
+"measures frame drops. All deny changing the question."
+msgstr "霊夢は退路、魔理沙は火力、文は先に見出し、にとりはフレーム落ちを測る。四人とも問題は変えていないと言う。"
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.0.pattern.5
+#: src/data/knowledge-graph.js:369
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.0.pattern.5"
+msgid ""
+"The design promises several gates; after wave two, gates and designer "
+"disagree on “remain.”"
+msgstr "設計は複数の門を残すと約束。第二波後、門と設計者で「残る」の解釈が違う。"
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.1.spellcard-research.5
+#: src/data/knowledge-graph.js:370
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.1.spellcard-research.5"
+msgid ""
+"Research records readability, fairness, and exits separately so one pretty "
+"total cannot swallow them."
+msgstr "研究は可読性・公平・退路を別記し、美しい総合点に飲ませない。"
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.2.spellcard-course.5
+#: src/data/knowledge-graph.js:371
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.2.spellcard-course.5"
+msgid "Exit design is forty percent; donation-box shapes still earn no bonus."
+msgstr "退路設計は四割。賽銭箱型でも加点なし。"
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.3.telegraph-holding.5
+#: src/data/knowledge-graph.js:372
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.3.telegraph-holding.5"
+msgid ""
+"Forty-nine of fifty telegraphs are readable; the fiftieth says the reader "
+"stands in the wrong version."
+msgstr "50組中49組は可読。50組目は読者が誤った版に立つと主張。"
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.4.red-thread-rule.5
+#: src/data/knowledge-graph.js:373
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.4.red-thread-rule.5"
+msgid "A failed defence may be kept, but danmaku effects may not cover its red-thread warning."
+msgstr "答弁失敗は保存可能だが、赤糸警告を弾幕演出で隠してはならない。"
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.5.lantern-call.5
+#: src/data/knowledge-graph.js:374
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.5.lantern-call.5"
+msgid ""
+"The call asks for low noise; the fairy choir asks whether low means volume, "
+"pitch, or rank."
+msgstr "募集は低騒音を要求。妖精合唱団は「低」が音量・音高・順位のどれか質問。"
+
+#. knowledgeDossiers.0.spellcard-six-seals.records.6.workshop-history.5
+#: src/data/knowledge-graph.js:375
+msgctxt "text:knowledgeDossiers.0.spellcard-six-seals.records.6.workshop-history.5"
+msgid "The chronicle records the first sandbox and why six seals refused one average."
+msgstr "大学史は最初の試飛場と、六印が平均を拒んだ理由を記す。"
+
+#. knowledgeDossiers.0.consent-five-seats.title
+#: src/data/knowledge-graph.js:382
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.title"
+msgid "Five gates of consent: who may let research begin?"
+msgstr "同意の五つの入口：誰が研究開始を許せるか"
+
+#. knowledgeDossiers.0.consent-five-seats.lead
+#: src/data/knowledge-graph.js:383
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.lead"
+msgid ""
+"Wavelengths, mind-reading, stopped time, historical erasure, and "
+"drift-object disassembly can all be done. Five seats ask whether the person "
+"doing them has the right."
+msgstr "波長・読心・時間停止・歴史削除・漂流物分解は実行できる。五席が問うのは、実行者にその権利があるか。"
+
+#. knowledgeDossiers.0.consent-five-seats.tension
+#: src/data/knowledge-graph.js:384
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.tension"
+msgid ""
+"Eirin asks for stopping rules; Satori says unwritten access is still access; "
+"Keine refuses to erase the deletion receipt; Eiki rejects ownership as "
+"consent; Reimu wants a field rule spoken in one breath."
+msgstr "永琳は停止規則、さとりは非記録でも読取り、慧音は削除受領票の削除を拒否、映姫は所有権を同意の代用にせず、霊夢は現場規則を一息で言えるよう求める。"
+
+#. knowledgeDossiers.0.consent-five-seats.records.0.reisen-consent.5
+#: src/data/knowledge-graph.js:400
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.0.reisen-consent.5"
+msgid "Blinding may hide the research question; it may not hide the right to refuse."
+msgstr "盲検は研究問題を隠せても、参加者の拒否権まで隠せない。"
+
+#. knowledgeDossiers.0.consent-five-seats.records.1.satori-processing.5
+#: src/data/knowledge-graph.js:401
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.1.satori-processing.5"
+msgid "Satori retains no raw thought; Akyuu keeps a content-free slip that access occurred."
+msgstr "さとりは元の思念を残さず、阿求は「読取りがあった」ことだけを内容なしで索引。"
+
+#. knowledgeDossiers.0.consent-five-seats.records.2.sakuya-control.5
+#: src/data/knowledge-graph.js:402
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.2.sakuya-control.5"
+msgid ""
+"The outside clock says zero minutes; Sakuya's operation sequence has "
+"seventeen lines. Nobody averages them into eight and a half."
+msgstr "外部時計は0分、咲夜の操作順序は17行。二つを平均して8.5行にはしない。"
+
+#. knowledgeDossiers.0.consent-five-seats.records.3.keine-receipt.5
+#: src/data/knowledge-graph.js:403
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.3.keine-receipt.5"
+msgid ""
+"Content may be deleted; the receipt proves only that the right was exercised "
+"and retains no original text."
+msgstr "内容は削除できるが、受理票は権利行使だけを証明し原文を保存しない。"
+
+#. knowledgeDossiers.0.consent-five-seats.records.4.object-assent.5
+#: src/data/knowledge-graph.js:404
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.4.object-assent.5"
+msgid ""
+"The salvage slip grants custody; “do not disassemble” remains an opinion the "
+"ticket stub cannot swallow."
+msgstr "拾得票は香霖堂の保管を認めるが、画面の「分解しないで」は半券に飲まれない意見。"
+
+#. knowledgeDossiers.0.consent-five-seats.records.5.ethics-history.5
+#: src/data/knowledge-graph.js:405
+msgctxt "text:knowledgeDossiers.0.consent-five-seats.records.5.ethics-history.5"
+msgid "The chronicle records the five-seat opening and its first ruling: no averaging stapler."
+msgstr "大学史は五席の開会と、最初の決定が平均ホチキス禁止だったことを記す。"
+
+#. knowledgeDossiers.0.festival-six-desks.title
+#: src/data/knowledge-graph.js:412
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.title"
+msgid "Six desks, one night: how many sole main gates exist?"
+msgstr "六机一夜：唯一の正門はいくつあるのか"
+
+#. knowledgeDossiers.0.festival-six-desks.lead
+#: src/data/knowledge-graph.js:413
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.lead"
+msgid ""
+"The same lantern festival is an exit plan at Safety, a load curve to the "
+"kappa, a clinic queue at Eientei, and already open in Aya's paper. Three "
+"faiths each arrive with the key to the sole main gate."
+msgstr "同じ灯会が安全机では退路、河童机では負荷、永遠亭では待合、文の紙面では既に開幕済み。三つの信仰勢力は全て唯一正門の鍵を持参した。"
+
+#. knowledgeDossiers.0.festival-six-desks.tension
+#: src/data/knowledge-graph.js:414
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.tension"
+msgid ""
+"Reimu wants the stop rule in one breath; Nitori wants to know whether Kanako "
+"will turn the backup supply into an offering; Eirin treats the full moon as "
+"a medical condition; Aya calls publishing nine minutes early punctual "
+"delivery."
+msgstr "霊夢は停止規則を一息で、にとりは神奈子が予備電源まで奉納にしないか確認、永琳は満月を医療条件に、文は九分前の発行を情報の定刻到着だと主張。"
+
+#. knowledgeDossiers.0.festival-six-desks.records.0.festival-brief.5
+#: src/data/knowledge-graph.js:430
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.0.festival-brief.5"
+msgid ""
+"The call says non-aggressive light danmaku; Safety attaches a sheet asking "
+"whether the danmaku knows that."
+msgstr "募集要項は非攻撃光弾。安全机は別紙で、光弾自身が非攻撃だと知っているか質問。"
+
+#. knowledgeDossiers.0.festival-six-desks.records.1.six-desk-sheet.5
+#: src/data/knowledge-graph.js:431
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.1.six-desk-sheet.5"
+msgid ""
+"The faith desk does not vote on who is more sole; it schedules three opening "
+"addresses for the same minute so the dispute begins on time."
+msgstr "信仰机は誰がより唯一か採決せず、三つの開幕辞を同時刻へ並べて争いを定刻開催。"
+
+#. knowledgeDossiers.0.festival-six-desks.records.2.procession-line.5
+#: src/data/knowledge-graph.js:432
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.2.procession-line.5"
+msgid ""
+"The route has one entrance, three arrows marked main gate, and one ground "
+"line for non-fliers that brooms keep using as a shortcut."
+msgstr "経路図は入口一つ、正門と記した矢印三つ、飛べない者専用だが箒が近道に使う地上線一本。"
+
+#. knowledgeDossiers.0.festival-six-desks.records.3.mixed-power.5
+#: src/data/knowledge-graph.js:433
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.3.mixed-power.5"
+msgid ""
+"Kappa deliver power to the lanterns; Moriya explains why they shine. During "
+"an outage, each proves it was not their half."
+msgstr "河童は灯へ電気を送り、守矢は灯が光る理由を説明。停電時は双方が自分の半分ではないと証明。"
+
+#. knowledgeDossiers.0.festival-six-desks.records.4.aya-opening.5
+#: src/data/knowledge-graph.js:434
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.4.aya-opening.5"
+msgid ""
+"The extra says “opened as scheduled” nine minutes before approval; "
+"Corrections adds “which schedule” nine minutes after."
+msgstr "号外は許可九分前に「予定通り開幕」。訂正欄は九分後に「どの予定か」を追記。"
+
+#. knowledgeDossiers.0.festival-six-desks.records.5.gate-claim.5
+#: src/data/knowledge-graph.js:435
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.5.gate-claim.5"
+msgid ""
+"The rota changes the sole gate every twenty minutes. Yukari inserts a "
+"boundary between minutes, leaving two sole gates in the same instant."
+msgstr "当番表は二十分ごとに唯一正門を交代。紫が分の間へ境界を足し、同じ瞬間に唯一が二つ残る。"
+
+#. knowledgeDossiers.0.festival-six-desks.records.6.festival-history.5
+#: src/data/knowledge-graph.js:436
+msgctxt "text:knowledgeDossiers.0.festival-six-desks.records.6.festival-history.5"
+msgid ""
+"The chronicle records the operations room opening and files the unresolved "
+"gate objection ahead of next year's application."
+msgstr "大学史は運営室の開机と、閉祭後も未解決の正門異議を次年度申請書の前へ綴じた。"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.title
+#: src/data/knowledge-graph.js:443
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.title"
+msgid "Twenty-four field seals: which one proves you truly returned?"
+msgstr "二十四の現地印：どの印が本当に帰った証明か"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.lead
+#: src/data/knowledge-graph.js:444
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.lead"
+msgid ""
+"The Scarlet duty log, Hakugyokurou phantom roll, and Kourindou object "
+"testimony may all be field sources; none can certify what another says you "
+"observed."
+msgstr "紅魔館の当直簿、白玉楼の幽霊点呼、香霖堂の物件陳述はいずれも現地資料となるが、互いに観察内容を承認することはできない。"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.tension
+#: src/data/knowledge-graph.js:445
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.tension"
+msgid ""
+"Keine requires a question before departure; Sakuya's zero-minute shift voids "
+"the date; after Youmu counts the phantoms, Yuyuko asks whether she was "
+"included at dinner. Akyuu binds the dispute beside the seal."
+msgstr "慧音は出発前の問いを要求するが、咲夜の0分当番は日付を無効にする。妖夢が幽霊を数え終えると、幽々子は自分が宴席人数に入るか尋ねる。阿求は争議を赤糸と印で綴じる。"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.0.scarlet-duty.5
+#: src/data/knowledge-graph.js:459
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.0.scarlet-duty.5"
+msgid ""
+"Sakuya's duty book has a complete sequence and no elapsed time; Patchouli "
+"forbids averaging both into “roughly punctual.”"
+msgstr "咲夜の当直簿は順序が完全だが経過時間はない。パチュリーは二つを平均して「だいたい定刻」にしないよう要求。"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.1.phantom-roll.5
+#: src/data/knowledge-graph.js:460
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.1.phantom-roll.5"
+msgid ""
+"Youmu sorts phantoms into present, passing, being eaten, and insisting they "
+"are petals; Yuyuko signs a fifth column."
+msgstr "妖夢は幽霊を在席・通過・食事中・花弁だと主張の四欄へ分類。幽々子は第五欄に署名。"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.2.object-statement.5
+#: src/data/knowledge-graph.js:461
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.2.object-statement.5"
+msgid ""
+"Rinnosuke may identify a name; wear, the object's view, and an overconfident "
+"price tag still dispute its use."
+msgstr "霖之助は名称を鑑定できるが、用途は摩耗・物件の意見・自信過剰な値札が争う。"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.3.unsubmitted-thought.5
+#: src/data/knowledge-graph.js:462
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.3.unsubmitted-thought.5"
+msgid ""
+"What Satori reads does not cease to exist because unwritten, nor become "
+"research-eligible merely because she read it."
+msgstr "さとりが読んだ内容は非記録でも不存在にはならず、読まれたことで研究利用可能にもならない。"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.4.ghost-headcount.5
+#: src/data/knowledge-graph.js:463
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.4.ghost-headcount.5"
+msgid ""
+"The phantom roll gains three and loses two half-phantoms after call; "
+"Corrections preserves the total and files the counting method beside it."
+msgstr "幽霊名簿は点呼後に三名増え半霊二体減少。訂正は総数を変えず数え方を横へ綴じた。"
+
+#. knowledgeDossiers.0.fieldwork-twenty-four-seals.records.5.fieldwork-history.5
+#: src/data/knowledge-graph.js:464
+msgctxt "text:knowledgeDossiers.0.fieldwork-twenty-four-seals.records.5.fieldwork-history.5"
+msgid ""
+"The chronicle links dispatch, complication, provenance, and return seal by "
+"cause; it does not rewrite stamping as the field agreeing with your "
+"conclusion."
+msgstr "大学史は派遣・偏差・資料源・帰校印を前因で結ぶだけで、押印を現地による結論同意へ書き換えない。"
+
+#. knowledgeDossiers.0.commons-early-letter.title
+#: src/data/knowledge-graph.js:471
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.title"
+msgid "An umbrella refuses home, a ruling arrives early, and spring remains unsigned"
+msgstr "傘は帰宅を拒み、裁定は早着し、春はまだ未受領"
+
+#. knowledgeDossiers.0.commons-early-letter.lead
+#: src/data/knowledge-graph.js:472
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.lead"
+msgid ""
+"One matter leaves six times across object testimony, collection form, "
+"four-seat ruling, tengu version, wooden correction, and calendar. Akyuu "
+"refuses to choose the convenient one."
+msgstr "同じ事柄が物件陳述、受取票、四席裁定、鴉天狗版、木札訂正、学年暦へ六つの時刻を残す。阿求は都合のよい一つを選ばない。"
+
+#. knowledgeDossiers.0.commons-early-letter.tension
+#: src/data/knowledge-graph.js:473
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.tension"
+msgid ""
+"Kogasa asks about neglect, Rinnosuke about name and wear, Eiki about custody "
+"and appeal; Aya asks only whether the headline can run nine minutes before "
+"hearing. Keine finds the post dated in the spring Hakugyokurou rejects."
+msgstr "小傘は放置、霖之助は名称と摩耗、映姫は保管と不服申立を問う。文だけは聴聞九分前に見出しを出せるか尋ねる。慧音は郵便日が白玉楼の拒む春にあると気づく。"
+
+#. knowledgeDossiers.0.commons-early-letter.records.0.sunny-umbrella.5
+#: src/data/knowledge-graph.js:489
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.0.sunny-umbrella.5"
+msgid ""
+"The receipt proves purchase and nineteen sunny days prove neglect. Both are "
+"true and ask for different destinations."
+msgstr "領収書は購入を、晴天十九日は放置を証明。両方とも真だが異なる行先を求める。"
+
+#. knowledgeDossiers.0.commons-early-letter.records.1.early-admission.5
+#: src/data/knowledge-graph.js:490
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.1.early-admission.5"
+msgid ""
+"The offer precedes the application. Version two restores “conditional” from "
+"the back; version one remains in Corrections."
+msgstr "合格通知は願書より早着。第二版は「条件付」を封筒裏から件名へ戻し、第一版は訂正欄へ残る。"
+
+#. knowledgeDossiers.0.commons-early-letter.records.2.spring-not-received.5
+#: src/data/knowledge-graph.js:491
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.2.spring-not-received.5"
+msgid ""
+"The calendar declares spring; Hakugyokurou refuses delivery for snow, "
+"leaving winter and spring timetables together."
+msgstr "学務暦は春開始を宣言、白玉楼は積雪で受領拒否。時間割は冬版・春版を併存。"
+
+#. knowledgeDossiers.0.commons-early-letter.records.3.full-moon-mail.5
+#: src/data/knowledge-graph.js:492
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.3.full-moon-mail.5"
+msgid ""
+"The full-moon class activates when the moon clears bamboo; Bunbunmaru "
+"publication time cannot substitute for lunar arrival."
+msgstr "満月特講は月が竹梢を越えて発効。文々。号外の発行時刻は月の到着を代替しない。"
+
+#. knowledgeDossiers.0.commons-early-letter.records.4.same-serial-ear.5
+#: src/data/knowledge-graph.js:493
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.4.same-serial-ear.5"
+msgid ""
+"Two left earbuds share a serial and receive separately. Property lists the "
+"serial as lost while Post wants both as inboxes."
+msgstr "同一番号の左耳二点が各自受信。仲裁所は番号自体を遺失物へ、郵便は両方を受信箱にしたい。"
+
+#. knowledgeDossiers.0.commons-early-letter.records.5.commons-history.5
+#: src/data/knowledge-graph.js:494
+msgctxt "text:knowledgeDossiers.0.commons-early-letter.records.5.commons-history.5"
+msgid ""
+"The chronicle ties object, post, and calendar with one red thread without "
+"rewriting delivery order as causal order."
+msgstr "大学史は物件・郵便・学年暦を一本の赤糸へ結ぶが、配達順を因果順へ書き換えない。"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.title
+#: src/data/knowledge-graph.js:501
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.title"
+msgid "One degree, twelve paths, and an alumni roll nine minutes early"
+msgstr "一つの学位、十二の進路、九分早着した同窓名簿"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.lead
+#: src/data/knowledge-graph.js:502
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.lead"
+msgid ""
+"Graduation proves eight desks saw their own fields; it does not prove "
+"record, time, and graduate arrive in the same edition."
+msgstr "卒業判定は八机が各欄を見た証明であり、学籍・時間・本人が同じ版へ到着する証明ではない。"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.tension
+#: src/data/knowledge-graph.js:503
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.tension"
+msgid ""
+"Keine demands traceable cores and chronology; Akyuu finds an admission "
+"entered after graduation. Aya has published the alumni roll, while Yukari "
+"moves the degree year to the reverse. Careers can only ask what this edition "
+"of you will refuse tomorrow."
+msgstr ""
+"慧音は必修と年代の追跡を要求するが、阿求は卒業後に登録された入学記録を発見。文は同窓名簿を発行済み、紫は学位年を紙背へ移す。進路室が問えるのは、この版の"
+"あなたが明日何を拒むかだけ。"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.0.graduation-capstone.5
+#: src/data/knowledge-graph.js:522
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.0.graduation-capstone.5"
+msgid ""
+"The capstone keeps one version the graduate distrusts but may not delete; "
+"the board may not average it into a prettier result."
+msgstr "卒業資料には本人が信じないが削除できない版を残す。判定席も見栄えのよい平均へ変えてはならない。"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.1.missing-year-job.5
+#: src/data/knowledge-graph.js:523
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.1.missing-year-job.5"
+msgid ""
+"The role restores deleted Wednesdays but forbids recording imagined lessons "
+"as observed; the vacancy lacks both a person and a day."
+msgstr "進路記録は削除された水曜の補講を求めるが、想像の授業を直接観察として書くことは禁止。求人は人と一日の両方を欠く。"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.2.zero-minute-recruitment.5
+#: src/data/knowledge-graph.js:524
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.2.zero-minute-recruitment.5"
+msgid ""
+"The Scarlet notice puts room and board, a zero-minute night shift, and "
+"stopped-time overtime on one sheet. Akyuu keeps version one; Eiki refuses to "
+"treat a red circle as a ruling."
+msgstr "紅魔館は衣食住・0分夜勤・停止時間の残業不算入を同じ求人へ記す。阿求は初版を保存し、映姫は後半を赤丸だけで裁定したことにしない。"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.3.denominator-hearing.5
+#: src/data/knowledge-graph.js:525
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.3.denominator-hearing.5"
+msgid ""
+"One cohort of 146 leaves more than 146 valid whereabouts: separate "
+"half-phantom check-ins, dual employer claims, posthumous duty, and a route "
+"refusing observation. The arithmetic is not broken; its subjects dispute the "
+"counting rule."
+msgstr "同じ146名から146を超える有効進路が残る。半霊の別签到、二雇主の同時在籍、死後勤務、観測拒否経路。計算誤りではなく、計数規則へ当事者が異議を出している。"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.4.late-arrival-alumni.5
+#: src/data/knowledge-graph.js:526
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.4.late-arrival-alumni.5"
+msgid ""
+"The Higan chapter starts punctually after Higan week and still debates "
+"alumni status for the deceased but not yet enrolled."
+msgstr "彼岸支部は彼岸週終了後に定刻集合し、死亡済み未入学者の校友補記をなお議論する。"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.5.early-invitation.5
+#: src/data/knowledge-graph.js:527
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.5.early-invitation.5"
+msgid ""
+"The offer arriving before application becomes precedent for an alumni "
+"invitation arriving before graduation; correction mails the cause later "
+"without withdrawing version one."
+msgstr "出願より先に届く合格通知が、卒業前に届く同窓招待の先例となる。訂正版は初版を撤回せず、原因を後から郵送した。"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.6.phantom-count.5
+#: src/data/knowledge-graph.js:528
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.6.phantom-count.5"
+msgid ""
+"The Hakugyokurou seal proves Youmu returned with a roll, not whether a "
+"half-phantom counts as one, two, or Yuyuko's post-roll extra seat."
+msgstr "白玉楼印は妖夢が名簿を持ち帰った証明であり、半霊が一名か二名か、幽々子が点呼後に足した一席かは証明しない。"
+
+#. knowledgeDossiers.0.graduation-before-enrolment.records.7.graduation-history.5
+#: src/data/knowledge-graph.js:529
+msgctxt "text:knowledgeDossiers.0.graduation-before-enrolment.records.7.graduation-history.5"
+msgid ""
+"The chronicle links audit, degree, careers, and alumni by actual "
+"first-parent versions; invitation delivery order continues objecting in "
+"another column."
+msgstr "大学史は判定・学位・進路・同窓イベントを first-parent の実版で結ぶ。招待状の配達順は別欄で反対を続ける。"
+
+#. knowledgeDossiers.0.first-bell-three-gates.title
+#: src/data/knowledge-graph.js:536
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.title"
+msgid "First Bell: three sole main gates and one recognisable way back"
+msgstr "第一鐘：三つの唯一正門と本人が識別できる退路"
+
+#. knowledgeDossiers.0.first-bell-three-gates.lead
+#: src/data/knowledge-graph.js:537
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.lead"
+msgid ""
+"One formal admission may pass through changing gates; the student still "
+"confirms stop signal, detour notice, and first destination separately."
+msgstr "同じ正式合格で変わる門を通れても、停止合図・迂回通知・最初の行先は本人が別々に確認する。"
+
+#. knowledgeDossiers.0.first-bell-three-gates.tension
+#: src/data/knowledge-graph.js:538
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.tension"
+msgid ""
+"Yukari calls all three genuine sole main gates; Reimu recognises only this "
+"side of the cord. Aya prints a total before arrival, while Akyuu refuses to "
+"copy the newcomer’s name to the public board."
+msgstr "紫は三つとも本物の唯一正門だと言い、霊夢は朱縄のこちら側だけを認める。文は到着前に総数を出し、阿求は新入生の通称を公開掲示へ写さない。"
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.0.arrival-season.5
+#: src/data/knowledge-graph.js:551
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.0.arrival-season.5"
+msgid ""
+"Arrival Week opens files only for the formal admitted edition; a changing "
+"gate does not rewrite admission conditions."
+msgstr "到着週で票を開けるのは正式合格版だけ。門が変わっても合格条件は書き換わらない。"
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.1.wood-bell-stop.5
+#: src/data/knowledge-graph.js:552
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.1.wood-bell-stop.5"
+msgid ""
+"Three wooden bells separate stopping, finding the cord, and moving again; "
+"nobody unable to hear it must pretend it is universal."
+msgstr "三打の木鐘は停止・朱縄確認・再移動を三動作へ分ける。聞こえない者に万能の合図だと装わせない。"
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.2.tengu-correction.5
+#: src/data/knowledge-graph.js:553
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.2.tengu-correction.5"
+msgid ""
+"Tengu post is fastest and can deliver the wrong edition first, so every "
+"detour retains its original and correction trail."
+msgstr "鴉天狗郵便は最速で、誤版も最初に届き得る。迂回ごとに初版と訂正関係を残す。"
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.3.first-course.5
+#: src/data/knowledge-graph.js:554
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.3.first-course.5"
+msgid ""
+"The first destination opens a real course, not a personality test. Marisa "
+"still claims the bell striker is registration equipment."
+msgstr "最初の行先は実在科目への入口で、性格診断ではない。魔理沙は撞木も履修器材だと主張する。"
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.4.arrival-notice.5
+#: src/data/knowledge-graph.js:555
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.4.arrival-notice.5"
+msgid ""
+"Campus news may publish arrival rules and anonymous totals, never the "
+"on-device name, application question, or needs."
+msgstr "学務報道は手続規則と匿名総数を公開できるが、端末内氏名・出願の問い・必要条件は得られない。"
+
+#. knowledgeDossiers.0.first-bell-three-gates.records.5.first-bell-history.5
+#: src/data/knowledge-graph.js:556
+msgctxt "text:knowledgeDossiers.0.first-bell-three-gates.records.5.first-bell-history.5"
+msgid ""
+"The chronicle links file, route, way back, and bell causally; Aya’s advance "
+"total remains in the margin, never mistaken for arrival."
+msgstr "大学史は開票・経路・退路・鐘を因果で結ぶ。文の予刊総数は欄外に残り、到着事実にはならない。"

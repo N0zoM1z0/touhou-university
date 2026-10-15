@@ -1,3 +1,4 @@
+import { text as catalogText, trees as catalogTrees } from "../generated/i18n/ui/map.js";
 import { mapPlaces } from "../data/services.js";
 import { findCampusRoute, transportModes } from "../data/routes.js";
 import { getLocale } from "./i18n.js";
@@ -14,68 +15,7 @@ export function initCampusMap() {
   let currentPlace = "gate";
   let currentRoute = null;
 
-  const copy = {
-    "zh-Hant": {
-      from: "出發地",
-      to: "目的地",
-      mode: "交通方式",
-      plan: "規劃路線",
-      min: "分鐘",
-      metres: "公尺",
-      arrival: "預計抵達",
-      route: "路線距離",
-      transfer: "含步行接駁／候車",
-      walkingOnly: "本段仍以步行較快",
-      same: "你已經在目的地了。抬頭看看校牌。",
-      start: "從這裡出發",
-      live: "此刻校園路況",
-      unavailable: "本時段停用",
-      restrictions: "動態限制已納入路線計算",
-      openNow: "開放中",
-      closedNow: "目前閉館",
-      seatsFree: "空位",
-    },
-    ja: {
-      from: "出発地",
-      to: "目的地",
-      mode: "交通手段",
-      plan: "経路を検索",
-      min: "分",
-      metres: "メートル",
-      arrival: "到着予定",
-      route: "経路距離",
-      transfer: "徒歩接続・待ち時間込み",
-      walkingOnly: "この区間は徒歩のほうが速い",
-      same: "すでに目的地です。校名板を見上げてください。",
-      start: "ここから出発",
-      live: "現在のキャンパス経路",
-      unavailable: "この時間は停止",
-      restrictions: "動的規制を経路計算へ反映済み",
-      openNow: "開館中",
-      closedNow: "現在閉館",
-      seatsFree: "空席",
-    },
-    en: {
-      from: "From",
-      to: "To",
-      mode: "Travel mode",
-      plan: "Plan route",
-      min: "min",
-      metres: "metres",
-      arrival: "Estimated arrival",
-      route: "Route distance",
-      transfer: "includes walking links / waiting",
-      walkingOnly: "Walking is still faster for this trip",
-      same: "You are already there. Look up at the building sign.",
-      start: "Start here",
-      live: "Live campus conditions",
-      unavailable: "Unavailable this period",
-      restrictions: "Live restrictions are included in this route",
-      openNow: "Open now",
-      closedNow: "Currently closed",
-      seatsFree: "places free",
-    },
-  };
+  const copy = catalogTrees["copy"];
 
   function render(placeId) {
     const place = mapPlaces[placeId];
@@ -318,11 +258,7 @@ export function initCampusMap() {
     const locale = getLocale();
     const hint = phantasmGateHint(locale, "map");
     const ninth = trace.count >= 3
-      ? (locale === "ja"
-        ? `　欄外：北階段の第九打は本日の通行時間へ算入しない（裏面の印 ${trace.count}）。`
-        : locale === "en"
-          ? ` Marginal note: the north stair's ninth strike does not count toward today's journey time (${trace.count} seals on reverse).`
-          : `　頁邊補記：北樓梯第九響不計入本日通行時間（背面 ${trace.count} 枚印）。`)
+      ? (catalogText("ninth", { [locale]: locale === "ja" ? {value0: trace.count} : locale === "en" ? {value0: trace.count} : {value0: trace.count} })[locale])
       : "";
     const label = document.querySelector("[data-map-notice-label]");
     const text = document.querySelector("[data-map-notice]");
@@ -336,11 +272,7 @@ export function initCampusMap() {
     if (entrance) {
       entrance.hidden = !hint.href;
       entrance.href = hint.href || "";
-      entrance.textContent = locale === "ja"
-        ? "折り目の裏を確認する ↘"
-        : locale === "en"
-          ? "Inspect behind the crease ↘"
-          : "沿折痕查看背面 ↘";
+      entrance.textContent = catalogText("renderNotice")[locale];
       entrance.dataset.resonant = hint.resonant ? "true" : "false";
       entrance.title = hint.text;
     }

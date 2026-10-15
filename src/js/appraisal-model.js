@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/appraisal-model.js";
 import {
   appraisalAgencyLevels,
   appraisalDestinations,
@@ -228,31 +229,15 @@ export function appraisalDeskStatus(locale = "zh-Hant", now = new Date()) {
   const open = Boolean(library?.open && hour >= 9 && hour < 18);
   const weeklyObject = appraisalObjects[(state.day + 77) % appraisalObjects.length];
   let queue = 1 + ((state.seed >>> 4) % 6);
-  let notice = {
-    "zh-Hant": "香霖堂今日把「知道用途」與「知道怎麼用」分成兩個欄位，表格因此多了一頁。",
-    ja: "香霖堂は本日、「用途を知る」と「使い方を知る」を別欄にしたため、帳票が一頁増えた。",
-    en: "Kourindou separated “knowing the purpose” from “knowing how to operate it,” adding one page to every form.",
-  };
+  let notice = catalogText("notice");
   if (ids.has("bookFlock")) {
     queue += 3;
-    notice = {
-      "zh-Hant": "返航館藏佔用了兩張鑑定桌；第 31 件耳機剛被一本辭典誤認為書籤。",
-      ja: "帰航資料が鑑定机二台を占有。31番イヤホンは辞書に栞と誤認された。",
-      en: "Returning holdings occupy two benches; object 31 was just mistaken for a bookmark by a dictionary.",
-    };
+    notice = catalogText("appraisalDeskStatus");
   } else if (ids.has("kappaTape")) {
     queue = Math.max(0, queue - 1);
-    notice = {
-      "zh-Hant": "荷取帶了可逆轉接箱，也帶了膠帶。館方只承認前者屬於方法。",
-      ja: "にとりは可逆変換箱とテープを持参。図書館が方法として認めたのは前者だけ。",
-      en: "Nitori brought a reversible adapter box and tape. The library recognizes only the former as method.",
-    };
+    notice = catalogText("appraisalDeskStatus.2");
   } else if (ids.has("bambooMist")) {
-    notice = {
-      "zh-Hant": "竹林濕氣提高，所有紙套先入乾燥盒；相機案卷暫停任何快門測試。",
-      ja: "竹林の湿度上昇。紙袋は乾燥箱へ、カメラ案件のシャッター試験は停止。",
-      en: "Bamboo humidity is up. Sleeves enter drying boxes; all camera shutter tests are paused.",
-    };
+    notice = catalogText("appraisalDeskStatus.3");
   }
   return {
     open,
@@ -265,35 +250,7 @@ export function appraisalDeskStatus(locale = "zh-Hant", now = new Date()) {
   };
 }
 
-const communityCopy = {
-  "zh-Hant": {
-    author: "香霖堂 × 霧湖編目桌",
-    contestedAuthor: "文文。校報訂正候補欄",
-    supported: "漂流物鑑定完成",
-    provisional: "漂流物暫定編目",
-    contested: "一項不成立但被要求保留的用途",
-    warning: "原用途未獲證據支持；案卷以紅鉛筆爭議件保存。",
-    replies: 7,
-  },
-  ja: {
-    author: "香霖堂 × 霧の湖目録机",
-    contestedAuthor: "文々。新聞・訂正候補欄",
-    supported: "漂流物鑑定完了",
-    provisional: "漂流物暫定目録",
-    contested: "成立しないが保存を求められた用途",
-    warning: "原用途は証拠で支持されず、赤鉛筆の係争記録として保存。",
-    replies: 7,
-  },
-  en: {
-    author: "Kourindou × Misty Lake Cataloguing Desk",
-    contestedAuthor: "Bunbunmaru Corrections-Candidate Desk",
-    supported: "Drift-object appraisal completed",
-    provisional: "Drift object provisionally catalogued",
-    contested: "An unsupported use retained by request",
-    warning: "Evidence did not support the proposed original use; the file remains a red-pencil contested record.",
-    replies: 7,
-  },
-};
+const communityCopy = { "zh-Hant": { author: catalogText("communityCopy.author")["zh-Hant"], contestedAuthor: catalogText("communityCopy.contestedAuthor")["zh-Hant"], supported: catalogText("communityCopy.supported")["zh-Hant"], provisional: catalogText("communityCopy.provisional")["zh-Hant"], contested: catalogText("communityCopy.contested")["zh-Hant"], warning: catalogText("communityCopy.warning")["zh-Hant"], replies: 7 }, "ja": { author: catalogText("communityCopy.author")["ja"], contestedAuthor: catalogText("communityCopy.contestedAuthor")["ja"], supported: catalogText("communityCopy.supported")["ja"], provisional: catalogText("communityCopy.provisional")["ja"], contested: catalogText("communityCopy.contested")["ja"], warning: catalogText("communityCopy.warning")["ja"], replies: 7 }, "en": { author: catalogText("communityCopy.author")["en"], contestedAuthor: catalogText("communityCopy.contestedAuthor")["en"], supported: catalogText("communityCopy.supported")["en"], provisional: catalogText("communityCopy.provisional")["en"], contested: catalogText("communityCopy.contested")["en"], warning: catalogText("communityCopy.warning")["en"], replies: 7 } };
 
 export function appraisalCommunityPosts(locale = "zh-Hant") {
   const c = communityCopy[locale] || communityCopy["zh-Hant"];

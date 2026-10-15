@@ -1,3 +1,4 @@
+import { trees as catalogTrees } from "../generated/i18n/ui/orientation-model.js";
 import {
   orientationFirstStop,
   orientationNoticePlan,
@@ -227,29 +228,7 @@ export function completeOrientation(id, firstStopId, now = new Date()) {
 }
 
 export function orientationCommunityPosts(locale = "zh-Hant") {
-  const copies = {
-    "zh-Hant": {
-      office: "新生到着室",
-      opened: "新生報到卷已開封；博麗門仍不承認「已寄出」等於「已到達」",
-      openedBody: "報到卷會另外核對入門路線、本人能辨認的停止信號與第一站；姓名不進入公開看板。",
-      complete: "第一鐘新增一份到着記錄；阿求拒絕公開新生通稱",
-      completeBody: "路線與退路已分欄封存。文文。新聞取得總數，沒有取得本機學籍內容。",
-    },
-    ja: {
-      office: "新入生到着室",
-      opened: "新入生手続票を開封。博麗門は「発送済み」を「到着済み」と認めず",
-      openedBody: "入門経路、本人が識別できる停止合図、最初の行先を別々に確認します。氏名は公開掲示へ出ません。",
-      complete: "第一鐘に新たな到着記録。阿求は新入生の通称公開を拒否",
-      completeBody: "経路と退路は別欄で保存。文々。新聞が得るのは総数だけで、端末内学籍は渡しません。",
-    },
-    en: {
-      office: "New Student Arrival Office",
-      opened: "A new arrival file opens; Hakurei Gate still rejects ‘sent’ as proof of ‘arrived’",
-      openedBody: "The file separately checks the entry route, a stop signal the student can recognise, and the first destination. Names do not enter the public board.",
-      complete: "First Bell gains one arrival record; Akyuu refuses to publish the newcomer’s name",
-      completeBody: "Route and way back remain separate fields. Bunbunmaru receives a count, not the on-device student record.",
-    },
-  };
+  const copies = catalogTrees["copies"];
   const labels = copies[locale] || copies["zh-Hant"];
   return orientationDossiers().slice(-5).reverse().map((dossier, index) => ({
     id: `orientation-${dossier.status}-${dossier.id}`,

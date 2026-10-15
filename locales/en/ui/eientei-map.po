@@ -1,0 +1,288 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. names/eastGate
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/eastGate"
+msgid "East Bamboo Gate"
+msgstr "East Bamboo Gate"
+
+#. names/rabbitStop
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/rabbitStop"
+msgid "Rabbit Shuttle Shelter"
+msgstr "Rabbit Shuttle Shelter"
+
+#. names/lanternFork
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/lanternFork"
+msgid "Three-Lantern Fork"
+msgstr "Three-Lantern Fork"
+
+#. names/falseClearing
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/falseClearing"
+msgid "Yesterday's Clearing"
+msgstr "Yesterday's Clearing"
+
+#. names/eienteiGate
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/eienteiGate"
+msgid "Eientei Front Gate"
+msgstr "Eientei Front Gate"
+
+#. names/mainHall
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/mainHall"
+msgid "Eientei Main House"
+msgstr "Eientei Main House"
+
+#. names/pharmacy
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/pharmacy"
+msgid "Lunar Pharmacy"
+msgstr "Lunar Pharmacy"
+
+#. names/clinic
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/clinic"
+msgid "Cross-Species Clinic"
+msgstr "Cross-Species Clinic"
+
+#. names/courtyard
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/courtyard"
+msgid "Moon-Viewing Court"
+msgstr "Moon-Viewing Court"
+
+#. names/storehouse
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/storehouse"
+msgid "Lunar-Dust Cold Store"
+msgstr "Lunar-Dust Cold Store"
+
+#. moonNames/0
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/0"
+msgid "New Moon"
+msgstr "New Moon"
+
+#. moonNames/1
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/1"
+msgid "Waxing Crescent"
+msgstr "Waxing Crescent"
+
+#. moonNames/2
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/2"
+msgid "First Quarter"
+msgstr "First Quarter"
+
+#. moonNames/3
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/3"
+msgid "Waxing Gibbous"
+msgstr "Waxing Gibbous"
+
+#. moonNames/4
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/4"
+msgid "Full Moon"
+msgstr "Full Moon"
+
+#. moonNames/5
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/5"
+msgid "Waning Gibbous"
+msgstr "Waning Gibbous"
+
+#. moonNames/6
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/6"
+msgid "Last Quarter"
+msgstr "Last Quarter"
+
+#. moonNames/7
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/7"
+msgid "Waning Crescent"
+msgstr "Waning Crescent"
+
+#. copy/kicker
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/kicker"
+msgid "EIENTEI FOCUS MAP / EIENTEI & BAMBOO FOREST"
+msgstr "EIENTEI FOCUS MAP / EIENTEI & BAMBOO FOREST"
+
+#. copy/title
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/title"
+msgid "The road exists every day. Its location may not."
+msgstr "The road exists every day. Its location may not."
+
+#. copy/lead
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/lead"
+msgid ""
+"This detail map follows your device date, time, and lunar phase. Bamboo "
+"forks rotate daily; rabbit lamps appear at night; full-moon clinic traffic "
+"diverts through the pharmacy."
+msgstr ""
+"This detail map follows your device date, time, and lunar phase. Bamboo "
+"forks rotate daily; rabbit lamps appear at night; full-moon clinic traffic "
+"diverts through the pharmacy."
+
+#. copy/back
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/back"
+msgid "Back to main campus"
+msgstr "Back to main campus"
+
+#. copy/hospital
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/hospital"
+msgid "Open hospital triage"
+msgstr "Open hospital triage"
+
+#. copy/now
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/now"
+msgid "Device time"
+msgstr "Device time"
+
+#. copy/phase
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/phase"
+msgid "Lunar phase"
+msgstr "Lunar phase"
+
+#. copy/dayShift
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/dayShift"
+msgid "Today's bamboo"
+msgstr "Today's bamboo"
+
+#. copy/auto
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/auto"
+msgid "Follow today's moon"
+msgstr "Follow today's moon"
+
+#. copy/preview
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/preview"
+msgid "Moon preview"
+msgstr "Moon preview"
+
+#. copy/from
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/from"
+msgid "Starting point"
+msgstr "Starting point"
+
+#. copy/to
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/to"
+msgid "Destination"
+msgstr "Destination"
+
+#. copy/route
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/route"
+msgid "Calculate bamboo route"
+msgstr "Calculate bamboo route"
+
+#. copy/minutes
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/minutes"
+msgid "min"
+msgstr "min"
+
+#. copy/steps
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/steps"
+msgid "segments"
+msgstr "segments"
+
+#. copy/status
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/status"
+msgid "Tonight's route status"
+msgstr "Tonight's route status"
+
+#. copy/day
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/day"
+msgid "Day: paper signs are legible. Yesterday's Clearing is not guaranteed to exist."
+msgstr "Day: paper signs are legible. Yesterday's Clearing is not guaranteed to exist."
+
+#. copy/dusk
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/dusk"
+msgid "Dusk: rabbit lamps are being lit; add one minute at the east gate."
+msgstr "Dusk: rabbit lamps are being lit; add one minute at the east gate."
+
+#. copy/night
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/night"
+msgid "Night: follow three lanterns. Do not follow a fourth."
+msgstr "Night: follow three lanterns. Do not follow a fourth."
+
+#. copy/full
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/full"
+msgid "Full-moon control: the main-house clinic corridor is closed; divert through Pharmacy."
+msgstr "Full-moon control: the main-house clinic corridor is closed; divert through Pharmacy."
+
+#. copy/new
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/new"
+msgid "New-moon shortcut: the scented path from Three-Lantern Fork to Pharmacy is open."
+msgstr "New-moon shortcut: the scented path from Three-Lantern Fork to Pharmacy is open."
+
+#. copy/shift/0
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/shift/0"
+msgid "Leaves point east; the old north path is shorter."
+msgstr "Leaves point east; the old north path is shorter."
+
+#. copy/shift/1
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/shift/1"
+msgid "Leaves point south; Yesterday's Clearing shifts one square west."
+msgstr "Leaves point south; Yesterday's Clearing shifts one square west."
+
+#. copy/shift/2
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/shift/2"
+msgid "Leaves point west; the rabbit road is drier."
+msgstr "Leaves point west; the rabbit road is drier."
+
+#. copy/start
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/start"
+msgid "Start"
+msgstr "Start"
+
+#. copy/arrive
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/arrive"
+msgid "Arrive"
+msgstr "Arrive"
+
+#. copy/noRoute
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/noRoute"
+msgid ""
+"No reliable route at this hour. Return east and wait for a rabbit shuttle "
+"displaying today's date."
+msgstr ""
+"No reliable route at this hour. Return east and wait for a rabbit shuttle "
+"displaying today's date."

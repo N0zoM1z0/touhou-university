@@ -1,0 +1,283 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. names/eastGate
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/eastGate"
+msgid "East Bamboo Gate"
+msgstr "竹林東口"
+
+#. names/rabbitStop
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/rabbitStop"
+msgid "Rabbit Shuttle Shelter"
+msgstr "兔車候車棚"
+
+#. names/lanternFork
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/lanternFork"
+msgid "Three-Lantern Fork"
+msgstr "三盞燈岔路"
+
+#. names/falseClearing
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/falseClearing"
+msgid "Yesterday's Clearing"
+msgstr "昨日的空地"
+
+#. names/eienteiGate
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/eienteiGate"
+msgid "Eientei Front Gate"
+msgstr "永遠亭表門"
+
+#. names/mainHall
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/mainHall"
+msgid "Eientei Main House"
+msgstr "永遠亭本館"
+
+#. names/pharmacy
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/pharmacy"
+msgid "Lunar Pharmacy"
+msgstr "月藥調劑室"
+
+#. names/clinic
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/clinic"
+msgid "Cross-Species Clinic"
+msgstr "跨種族診療所"
+
+#. names/courtyard
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/courtyard"
+msgid "Moon-Viewing Court"
+msgstr "望月中庭"
+
+#. names/storehouse
+#: src/js/eientei-map.js:21
+msgctxt "tree:names#/storehouse"
+msgid "Lunar-Dust Cold Store"
+msgstr "月塵冷藏庫"
+
+#. moonNames/0
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/0"
+msgid "New Moon"
+msgstr "朔月"
+
+#. moonNames/1
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/1"
+msgid "Waxing Crescent"
+msgstr "眉月"
+
+#. moonNames/2
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/2"
+msgid "First Quarter"
+msgstr "上弦月"
+
+#. moonNames/3
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/3"
+msgid "Waxing Gibbous"
+msgstr "盈凸月"
+
+#. moonNames/4
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/4"
+msgid "Full Moon"
+msgstr "滿月"
+
+#. moonNames/5
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/5"
+msgid "Waning Gibbous"
+msgstr "虧凸月"
+
+#. moonNames/6
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/6"
+msgid "Last Quarter"
+msgstr "下弦月"
+
+#. moonNames/7
+#: src/js/eientei-map.js:23
+msgctxt "tree:moonNames#/7"
+msgid "Waning Crescent"
+msgstr "殘月"
+
+#. copy/kicker
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/kicker"
+msgid "EIENTEI FOCUS MAP / EIENTEI & BAMBOO FOREST"
+msgstr "EIENTEI FOCUS MAP / 永遠亭・迷途竹林"
+
+#. copy/title
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/title"
+msgid "The road exists every day. Its location may not."
+msgstr "路每天都在，位置不一定。"
+
+#. copy/lead
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/lead"
+msgid ""
+"This detail map follows your device date, time, and lunar phase. Bamboo "
+"forks rotate daily; rabbit lamps appear at night; full-moon clinic traffic "
+"diverts through the pharmacy."
+msgstr "聚焦圖使用這台裝置的日期、時間與月相。竹林岔路會按日輪替；入夜點亮兔燈，滿月時診療動線改由調劑室分流。"
+
+#. copy/back
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/back"
+msgid "Back to main campus"
+msgstr "返回主校區"
+
+#. copy/hospital
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/hospital"
+msgid "Open hospital triage"
+msgstr "前往校醫院分診台"
+
+#. copy/now
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/now"
+msgid "Device time"
+msgstr "本機時間"
+
+#. copy/phase
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/phase"
+msgid "Lunar phase"
+msgstr "月相"
+
+#. copy/dayShift
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/dayShift"
+msgid "Today's bamboo"
+msgstr "今日竹向"
+
+#. copy/auto
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/auto"
+msgid "Follow today's moon"
+msgstr "跟隨今日月相"
+
+#. copy/preview
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/preview"
+msgid "Moon preview"
+msgstr "月相預覽"
+
+#. copy/from
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/from"
+msgid "Starting point"
+msgstr "從哪裡出發"
+
+#. copy/to
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/to"
+msgid "Destination"
+msgstr "要去哪裡"
+
+#. copy/route
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/route"
+msgid "Calculate bamboo route"
+msgstr "計算竹林路線"
+
+#. copy/minutes
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/minutes"
+msgid "min"
+msgstr "分鐘"
+
+#. copy/steps
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/steps"
+msgid "segments"
+msgstr "段路"
+
+#. copy/status
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/status"
+msgid "Tonight's route status"
+msgstr "今晚的路況"
+
+#. copy/day
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/day"
+msgid "Day: paper signs are legible. Yesterday's Clearing is not guaranteed to exist."
+msgstr "日間：紙牌路標可讀，昨日的空地不保證存在。"
+
+#. copy/dusk
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/dusk"
+msgid "Dusk: rabbit lamps are being lit; add one minute at the east gate."
+msgstr "黃昏：兔燈正在點亮，東口候車時間增加一分鐘。"
+
+#. copy/night
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/night"
+msgid "Night: follow three lanterns. Do not follow a fourth."
+msgstr "夜間：跟三盞燈走，不要跟第四盞燈走。"
+
+#. copy/full
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/full"
+msgid "Full-moon control: the main-house clinic corridor is closed; divert through Pharmacy."
+msgstr "滿月管制：本館至診療所直廊封閉，先經調劑室。"
+
+#. copy/new
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/new"
+msgid "New-moon shortcut: the scented path from Three-Lantern Fork to Pharmacy is open."
+msgstr "朔月捷徑：三盞燈岔路至調劑室的藥香小徑開放。"
+
+#. copy/shift/0
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/shift/0"
+msgid "Leaves point east; the old north path is shorter."
+msgstr "竹葉向東，北側舊路縮短。"
+
+#. copy/shift/1
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/shift/1"
+msgid "Leaves point south; Yesterday's Clearing shifts one square west."
+msgstr "竹葉向南，昨日的空地向西移一格。"
+
+#. copy/shift/2
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/shift/2"
+msgid "Leaves point west; the rabbit road is drier."
+msgstr "竹葉向西，兔車道較乾燥。"
+
+#. copy/start
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/start"
+msgid "Start"
+msgstr "起點"
+
+#. copy/arrive
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/arrive"
+msgid "Arrive"
+msgstr "抵達"
+
+#. copy/noRoute
+#: src/js/eientei-map.js:27
+msgctxt "tree:copy#/noRoute"
+msgid ""
+"No reliable route at this hour. Return east and wait for a rabbit shuttle "
+"displaying today's date."
+msgstr "這個時刻沒有可靠路線。請回東口等一輛寫著今日日期的兔車。"

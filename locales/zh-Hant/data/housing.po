@@ -1,0 +1,529 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. housingFacets.roomTypes.single
+#: src/data/housing.js:5
+msgctxt "text:housingFacets.roomTypes.single"
+msgid "Single"
+msgstr "單人室"
+
+#. housingFacets.roomTypes.twin
+#: src/data/housing.js:6
+msgctxt "text:housingFacets.roomTypes.twin"
+msgid "Twin"
+msgstr "雙人室"
+
+#. housingFacets.roomTypes.cluster
+#: src/data/housing.js:7
+msgctxt "text:housingFacets.roomTypes.cluster"
+msgid "Three-person cluster"
+msgstr "三人組室"
+
+#. housingFacets.features.moonShield
+#: src/data/housing.js:10
+msgctxt "text:housingFacets.features.moonShield"
+msgid "Moon screen & low-stimulus lamps"
+msgstr "遮月簾與低刺激燈"
+
+#. housingFacets.features.waterAccess
+#: src/data/housing.js:11
+msgctxt "text:housingFacets.features.waterAccess"
+msgid "Indoor channel / waterside deck"
+msgstr "室內水道／近水平台"
+
+#. housingFacets.features.wideFlight
+#: src/data/housing.js:12
+msgctxt "text:housingFacets.features.wideFlight"
+msgid "Wide-span flight gallery"
+msgstr "大翼展回旋廊"
+
+#. housingFacets.features.broomRack
+#: src/data/housing.js:13
+msgctxt "text:housingFacets.features.broomRack"
+msgid "Broom & flight rack"
+msgstr "掃帚與飛具架"
+
+#. housingFacets.features.phaseMarked
+#: src/data/housing.js:14
+msgctxt "text:housingFacets.features.phaseMarked"
+msgid "Wall-passage markings"
+msgstr "牆面穿越標線"
+
+#. housingFacets.features.familiarBay
+#: src/data/housing.js:15
+msgctxt "text:housingFacets.features.familiarBay"
+msgid "Familiar bay"
+msgstr "使魔休息格"
+
+#. housingFacets.features.quietWard
+#: src/data/housing.js:16
+msgctxt "text:housingFacets.features.quietWard"
+msgid "Night quiet ward"
+msgstr "夜間靜音結界"
+
+#. housingFacets.features.workshop
+#: src/data/housing.js:17
+msgctxt "text:housingFacets.features.workshop"
+msgid "Blast-resistant workbench"
+msgstr "耐爆工作桌"
+
+#. housingFacets.features.kitchen
+#: src/data/housing.js:18
+msgctxt "text:housingFacets.features.kitchen"
+msgid "Shared kitchenette"
+msgstr "共用小廚房"
+
+#. housingFacets.features.garden
+#: src/data/housing.js:19
+msgctxt "text:housingFacets.features.garden"
+msgid "Herb and sun garden"
+msgstr "藥草／日照庭"
+
+#. residences.hakurei-east.name
+#: src/data/housing.js:27
+msgctxt "text:residences.hakurei-east.name"
+msgid "Hakurei East Hall"
+msgstr "博麗東寮"
+
+#. residences.hakurei-east.area
+#: src/data/housing.js:28
+msgctxt "text:residences.hakurei-east.area"
+msgid "Old approach beyond Hakurei Gate"
+msgstr "博麗門外・舊參道"
+
+#. residences.hakurei-east.description
+#: src/data/housing.js:29
+msgctxt "text:residences.hakurei-east.description"
+msgid ""
+"A timber hall joined from two former pilgrim inns, closest to the common "
+"lecture rooms. In rain, one eave leaks in a perfectly straight line; the "
+"hall council calls it a natural clock."
+msgstr "從兩間舊參拜客棧拼成的木造宿舍，離共同講堂最近。雨天屋簷會漏一條很準的直線，自治會堅稱那是天然時鐘。"
+
+#. residences.hakurei-east.warden
+#: src/data/housing.js:30
+msgctxt "text:residences.hakurei-east.warden"
+msgid "Warden: Reimu Hakurei (physically present about two days a week)"
+msgstr "舍監：博麗靈夢（每週實際出席約兩日）"
+
+#. residences.hakurei-east.notice
+#: src/data/housing.js:31
+msgctxt "text:residences.hakurei-east.notice"
+msgid ""
+"The donation box is not the laundry payment slot. Last week’s three coins "
+"will not be returned."
+msgstr "賽錢箱不是洗衣費投入口。上週投入的三枚硬幣恕不退還。"
+
+#. residences.hakurei-east.distance
+#: src/data/housing.js:32
+msgctxt "text:residences.hakurei-east.distance"
+msgid "4 min walk to Common Hall"
+msgstr "共同講堂步行 4 分"
+
+#. residences.misty-north.name
+#: src/data/housing.js:38
+msgctxt "text:residences.misty-north.name"
+msgid "Misty Lake North Hall"
+msgstr "霧湖北寮"
+
+#. residences.misty-north.area
+#: src/data/housing.js:39
+msgctxt "text:residences.misty-north.area"
+msgid "North shore, behind the library"
+msgstr "霧之湖北岸・圖書館後側"
+
+#. residences.misty-north.description
+#: src/data/housing.js:40
+msgctxt "text:residences.misty-north.description"
+msgid ""
+"Half rests on shore and half on kappa piles over the lake. Aquatic residents "
+"may enter through the lower water gate; terrestrial residents must remember "
+"which doors genuinely have floors beneath them."
+msgstr "半座在岸上，半座由河童樁柱撐在水面。水生住戶可從下層水門回房；旱生住戶必須記得哪扇門底下真的有地板。"
+
+#. residences.misty-north.warden
+#: src/data/housing.js:41
+msgctxt "text:residences.misty-north.warden"
+msgid "Warden: Daiyousei / Maintenance: Kappa Water Crew Six"
+msgstr "舍監：大妖精／維修：河童第六水班"
+
+#. residences.misty-north.notice
+#: src/data/housing.js:42
+msgctxt "text:residences.misty-north.notice"
+msgid ""
+"No test flights on the bridge after midnight. Vampires do not qualify for "
+"the bird exception."
+msgstr "凌晨後禁止在廊橋上試飛。吸血鬼不在「鳥類例外」內。"
+
+#. residences.misty-north.distance
+#: src/data/housing.js:43
+msgctxt "text:residences.misty-north.distance"
+msgid "2 min walk to Misty Lake Library"
+msgstr "霧湖圖書館步行 2 分"
+
+#. residences.bamboo-lantern.name
+#: src/data/housing.js:49
+msgctxt "text:residences.bamboo-lantern.name"
+msgid "Bamboo Lantern Hall"
+msgstr "竹燈寮"
+
+#. residences.bamboo-lantern.area
+#: src/data/housing.js:50
+msgctxt "text:residences.bamboo-lantern.area"
+msgid "Past the fourth blue lantern, Bamboo Forest"
+msgstr "迷途竹林・第四盞藍燈後"
+
+#. residences.bamboo-lantern.description
+#: src/data/housing.js:51
+msgctxt "text:residences.bamboo-lantern.description"
+msgid ""
+"A night residence jointly managed with Eientei, with moon screens, herb "
+"gardens, and the last rabbit shuttle. The fourth lantern sometimes claims to "
+"be the third; lateness slips require two rabbit signatures."
+msgstr "永遠亭與本校共管的夜間宿舍，設有遮月簾、藥草庭與兔車末班接駁。第四盞燈偶爾自稱第三盞，遲到證明需由至少兩隻兔子簽名。"
+
+#. residences.bamboo-lantern.warden
+#: src/data/housing.js:52
+msgctxt "text:residences.bamboo-lantern.warden"
+msgid "Warden: Reisen Udongein Inaba / Night rota: allegedly arranged by Tewi"
+msgstr "舍監：鈴仙・優曇華院・因幡／值夜：因幡帝自行排班"
+
+#. residences.bamboo-lantern.notice
+#: src/data/housing.js:53
+msgctxt "text:residences.bamboo-lantern.notice"
+msgid ""
+"For three nights around the full moon, the east lounge becomes low-stimulus. "
+"Card-game noises are not medical alarms."
+msgstr "滿月前後三夜，東翼談話室改為低刺激區。撲克牌聲不屬於醫療警報。"
+
+#. residences.bamboo-lantern.distance
+#: src/data/housing.js:54
+msgctxt "text:residences.bamboo-lantern.distance"
+msgid "6 min walk / 3 min rabbit shuttle to Eientei"
+msgstr "永遠亭夜診步行 6 分／兔車 3 分"
+
+#. residences.youkai-workshop.name
+#: src/data/housing.js:60
+msgctxt "text:residences.youkai-workshop.name"
+msgid "Youkai Mountain Workshop Hall"
+msgstr "妖怪山工房寮"
+
+#. residences.youkai-workshop.area
+#: src/data/housing.js:61
+msgctxt "text:residences.youkai-workshop.area"
+msgid "Old cable station, mid-mountain"
+msgstr "妖怪山中腹・舊索道站"
+
+#. residences.youkai-workshop.description
+#: src/data/housing.js:62
+msgctxt "text:residences.youkai-workshop.description"
+msgid ""
+"Built from an abandoned cable station, two Outside freight cars, and one "
+"pipe still in service. The workshop floor is open all day; after any "
+"explosion, place the “planned / unplanned” label correctly."
+msgstr "由廢棄索道站、兩節外界貨車與一段尚在運轉的水管構成。工房層二十四小時可用，但每次爆炸後都必須把『預定內／預定外』貼紙貼對。"
+
+#. residences.youkai-workshop.warden
+#: src/data/housing.js:63
+msgctxt "text:residences.youkai-workshop.warden"
+msgid "Warden: Nitori Kawashiro / Actual key holders: at least nine"
+msgstr "舍監：河城荷取／實際鑰匙持有人：至少九名"
+
+#. residences.youkai-workshop.notice
+#: src/data/housing.js:64
+msgctxt "text:residences.youkai-workshop.notice"
+msgid ""
+"The north stair remains repaired with kappa tape. “It lasted 130 days” is "
+"not permanent certification."
+msgstr "北梯仍以河童膠帶維修。『已撐過一百三十日』不是永久修復認證。"
+
+#. residences.youkai-workshop.distance
+#: src/data/housing.js:65
+msgctxt "text:residences.youkai-workshop.distance"
+msgid "5 min by windway / 19 min on foot to Engineering"
+msgstr "工程院風路 5 分／步行 19 分"
+
+#. residences.boundary-annex.name
+#: src/data/housing.js:71
+msgctxt "text:residences.boundary-annex.name"
+msgid "Boundary Annex"
+msgstr "境界別館"
+
+#. residences.boundary-annex.area
+#: src/data/housing.js:72
+msgctxt "text:residences.boundary-annex.area"
+msgid "West of Main Hall, behind its address"
+msgstr "本部西側・地址背面"
+
+#. residences.boundary-annex.description
+#: src/data/housing.js:73
+msgctxt "text:residences.boundary-annex.description"
+msgid ""
+"It appears three storeys from the front and occasionally four from the rear "
+"door. Wall-passage markings, a lost-property return seam, and a "
+"cross-time-zone kitchen are “provisionally recognised”; the room areas still "
+"refuse to add up."
+msgstr "正面看有三層，從後門進去偶爾是四層。牆面穿越標線、失物回送縫與跨時區廚房都經過校務處『暫時承認』，但房間坪數仍拒絕相加。"
+
+#. residences.boundary-annex.warden
+#: src/data/housing.js:74
+msgctxt "text:residences.boundary-annex.warden"
+msgid "Warden: Ran Yakumo / Room-number consultant: Yukari Yakumo (uninvited)"
+msgstr "舍監：八雲藍／房號顧問：八雲紫（未受邀）"
+
+#. residences.boundary-annex.notice
+#: src/data/housing.js:75
+msgctxt "text:residences.boundary-annex.notice"
+msgid ""
+"Do not pass through walls marked with a red X. If the X is on the other "
+"side, apply from that side first."
+msgstr "請勿穿過貼有紅叉的牆。紅叉若在另一側，請先向那一側申請。"
+
+#. residences.boundary-annex.distance
+#: src/data/housing.js:76
+msgctxt "text:residences.boundary-annex.distance"
+msgid "3 min to My TU desk (within the same date)"
+msgstr "My TU 櫃檯步行 3 分（同一日期內）"
+
+#. roommateProfiles.sumire.name
+#: src/data/housing.js:98
+msgctxt "text:roommateProfiles.sumire.name"
+msgid "Sumire Suzuniwa"
+msgstr "鈴庭菫"
+
+#. roommateProfiles.sumire.kind
+#: src/data/housing.js:98
+msgctxt "text:roommateProfiles.sumire.kind"
+msgid "Human"
+msgstr "人類"
+
+#. roommateProfiles.sumire.school
+#: src/data/housing.js:99
+msgctxt "text:roommateProfiles.sumire.school"
+msgid "History & Records · Year 2"
+msgstr "歷史記錄學院・二年"
+
+#. roommateProfiles.sumire.bio
+#: src/data/housing.js:100
+msgctxt "text:roommateProfiles.sumire.bio"
+msgid ""
+"A terakoya-trained campus-paper proofreader. Sleeps early, then posts "
+"yesterday’s typos on the door at dawn."
+msgstr "寺子屋出身的校報校對，早睡，但會在清晨把昨日的錯字貼到門上。"
+
+#. roommateProfiles.rin.name
+#: src/data/housing.js:104
+msgctxt "text:roommateProfiles.rin.name"
+msgid "Rin Hino"
+msgstr "火野燐"
+
+#. roommateProfiles.rin.kind
+#: src/data/housing.js:104
+msgctxt "text:roommateProfiles.rin.kind"
+msgid "Youkai beast"
+msgstr "妖怪獸"
+
+#. roommateProfiles.rin.school
+#: src/data/housing.js:105
+msgctxt "text:roommateProfiles.rin.school"
+msgid "Faith & Coexistence · Year 1"
+msgstr "信仰與共生政策學院・一年"
+
+#. roommateProfiles.rin.bio
+#: src/data/housing.js:106
+msgctxt "text:roommateProfiles.rin.bio"
+msgid ""
+"Runs lost-property exchanges between shrine, temple, and mausoleum events. "
+"Her tiny fire mouse regards socks as public resources."
+msgstr "負責神社、寺院與道觀活動的失物交換；她的小火鼠把襪子當作公共資源。"
+
+#. roommateProfiles.nagi.name
+#: src/data/housing.js:110
+msgctxt "text:roommateProfiles.nagi.name"
+msgid "Nagi Mizua"
+msgstr "水綾凪"
+
+#. roommateProfiles.nagi.kind
+#: src/data/housing.js:110
+msgctxt "text:roommateProfiles.nagi.kind"
+msgid "Kappa"
+msgstr "河童"
+
+#. roommateProfiles.nagi.school
+#: src/data/housing.js:111
+msgctxt "text:roommateProfiles.nagi.school"
+msgid "Kappa Engineering · Year 3"
+msgstr "河童工程學院・三年"
+
+#. roommateProfiles.nagi.bio
+#: src/data/housing.js:112
+msgctxt "text:roommateProfiles.nagi.bio"
+msgid ""
+"Maintains the lower water gate and sleeps according to water pressure. Every "
+"strange shower noise becomes a maintenance ticket."
+msgstr "維修宿舍下層水門，睡眠時間由水壓決定；會把淋浴間的異音列成工單。"
+
+#. roommateProfiles.lumi.name
+#: src/data/housing.js:116
+msgctxt "text:roommateProfiles.lumi.name"
+msgid "Lumi Twilight"
+msgstr "露米・暮光"
+
+#. roommateProfiles.lumi.kind
+#: src/data/housing.js:116
+msgctxt "text:roommateProfiles.lumi.kind"
+msgid "Night sparrow"
+msgstr "夜雀"
+
+#. roommateProfiles.lumi.school
+#: src/data/housing.js:117
+msgctxt "text:roommateProfiles.lumi.school"
+msgid "Tengu Journalism · Year 1"
+msgstr "天狗新聞傳播學院・一年"
+
+#. roommateProfiles.lumi.bio
+#: src/data/housing.js:118
+msgctxt "text:roommateProfiles.lumi.bio"
+msgid ""
+"Records lakeside soundscapes after midnight and sleeps by day. Promises her "
+"singing never passes the fourth corridor lamp; the method is unpublished."
+msgstr "凌晨錄製湖畔聲景，白天睡覺；保證歌聲不超過走廊第四盞燈，測量方法未公開。"
+
+#. roommateProfiles.tsukino.name
+#: src/data/housing.js:122
+msgctxt "text:roommateProfiles.tsukino.name"
+msgid "Sumi Tsukino"
+msgstr "月野澄"
+
+#. roommateProfiles.tsukino.kind
+#: src/data/housing.js:122
+msgctxt "text:roommateProfiles.tsukino.kind"
+msgid "Moon rabbit"
+msgstr "月兔"
+
+#. roommateProfiles.tsukino.school
+#: src/data/housing.js:123
+msgctxt "text:roommateProfiles.tsukino.school"
+msgid "Lunar Medicine & Life · Year 2"
+msgstr "月都醫藥生命學院・二年"
+
+#. roommateProfiles.tsukino.bio
+#: src/data/housing.js:124
+msgctxt "text:roommateProfiles.tsukino.bio"
+msgid ""
+"Works Eientei night-clinic rotations and is sensitive to full moons and high "
+"frequencies. Her medicine box is arranged precisely enough to reveal who "
+"moved anything one notch."
+msgstr "永遠亭夜診輪值，對滿月與高頻聲敏感；房內藥箱分類精確到誰偷偷挪過一格。"
+
+#. roommateProfiles.kuroha.name
+#: src/data/housing.js:128
+msgctxt "text:roommateProfiles.kuroha.name"
+msgid "Hayate Kuroha"
+msgstr "黑羽疾"
+
+#. roommateProfiles.kuroha.kind
+#: src/data/housing.js:128
+msgctxt "text:roommateProfiles.kuroha.kind"
+msgid "Crow tengu"
+msgstr "鴉天狗"
+
+#. roommateProfiles.kuroha.school
+#: src/data/housing.js:129
+msgctxt "text:roommateProfiles.kuroha.school"
+msgid "Tengu Journalism · Year 3"
+msgstr "天狗新聞傳播學院・三年"
+
+#. roommateProfiles.kuroha.bio
+#: src/data/housing.js:130
+msgctxt "text:roommateProfiles.kuroha.bio"
+msgid ""
+"A morning-paper photographer with a wide wingspan. His alarm is a dive past "
+"the window. He will not photograph roommates unless they become a public "
+"incident."
+msgstr "晨報攝影記者，大翼展，鬧鐘是從窗外俯衝；承諾不拍室友，除非室友成為公共事件。"
+
+#. roommateProfiles.suzu.name
+#: src/data/housing.js:134
+msgctxt "text:roommateProfiles.suzu.name"
+msgid "Suzu Kawase"
+msgstr "川瀨鈴"
+
+#. roommateProfiles.suzu.kind
+#: src/data/housing.js:134
+msgctxt "text:roommateProfiles.suzu.kind"
+msgid "Kappa"
+msgstr "河童"
+
+#. roommateProfiles.suzu.school
+#: src/data/housing.js:135
+msgctxt "text:roommateProfiles.suzu.school"
+msgid "Kappa Engineering · Year 2"
+msgstr "河童工程學院・二年"
+
+#. roommateProfiles.suzu.bio
+#: src/data/housing.js:136
+msgctxt "text:roommateProfiles.suzu.bio"
+msgid ""
+"Studies how leaks become secondary output. Her room is immaculate because "
+"every unclassified object is temporarily stored in the corridor."
+msgstr "研究把漏水轉成第二輸出；房間很整齊，因為所有未分類物都暫存在走廊。"
+
+#. roommateProfiles.matoi.name
+#: src/data/housing.js:140
+msgctxt "text:roommateProfiles.matoi.name"
+msgid "Matoi Sakaime"
+msgstr "境縫纏"
+
+#. roommateProfiles.matoi.kind
+#: src/data/housing.js:140
+msgctxt "text:roommateProfiles.matoi.kind"
+msgid "Gap youkai"
+msgstr "隙間妖怪"
+
+#. roommateProfiles.matoi.school
+#: src/data/housing.js:141
+msgctxt "text:roommateProfiles.matoi.school"
+msgid "Boundaries & Incidents · Year 3"
+msgstr "結界與異變研究院・三年"
+
+#. roommateProfiles.matoi.bio
+#: src/data/housing.js:142
+msgctxt "text:roommateProfiles.matoi.bio"
+msgid ""
+"Returns lost property through wall seams and never opens doors. Claims "
+"knocking before phasing is equivalent to knocking on a door; the hall "
+"council has not voted."
+msgstr "用牆縫送還失物，從不開門；堅稱穿牆前敲牆等同敲門，宿舍委員會尚未表決。"
+
+#. roommateProfiles.chiya.name
+#: src/data/housing.js:146
+msgctxt "text:roommateProfiles.chiya.name"
+msgid "Chacha Senya"
+msgstr "千夜茶々"
+
+#. roommateProfiles.chiya.kind
+#: src/data/housing.js:146
+msgctxt "text:roommateProfiles.chiya.kind"
+msgid "Tsukumogami"
+msgstr "付喪神"
+
+#. roommateProfiles.chiya.school
+#: src/data/housing.js:147
+msgctxt "text:roommateProfiles.chiya.school"
+msgid "History & Records · Year 1"
+msgstr "歷史記錄學院・一年"
+
+#. roommateProfiles.chiya.bio
+#: src/data/housing.js:148
+msgctxt "text:roommateProfiles.chiya.bio"
+msgid ""
+"Formerly a teahouse bench, now a collector of Outside cups. Personally "
+"quiet, though familiars and cups fill every sill."
+msgstr "原本是茶屋的長椅，現在收集外界杯子；非常安靜，但使魔與杯子常把窗台排滿。"

@@ -1,0 +1,988 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. libraryFacets.schools.common
+#: src/data/library.js:8
+msgctxt "text:libraryFacets.schools.common"
+msgid "University Core"
+msgstr "共同教學"
+
+#. libraryFacets.schools.boundary
+#: src/data/library.js:9
+msgctxt "text:libraryFacets.schools.boundary"
+msgid "Boundaries & Incidents"
+msgstr "結界與異變"
+
+#. libraryFacets.schools.history
+#: src/data/library.js:10
+msgctxt "text:libraryFacets.schools.history"
+msgid "History & Records"
+msgstr "歷史記錄"
+
+#. libraryFacets.schools.magic
+#: src/data/library.js:11
+msgctxt "text:libraryFacets.schools.magic"
+msgid "Magic Theory"
+msgstr "魔法理論"
+
+#. libraryFacets.schools.medicine
+#: src/data/library.js:12
+msgctxt "text:libraryFacets.schools.medicine"
+msgid "Lunar Medicine"
+msgstr "月都醫藥"
+
+#. libraryFacets.schools.engineering
+#: src/data/library.js:13
+msgctxt "text:libraryFacets.schools.engineering"
+msgid "Kappa Engineering"
+msgstr "河童工程"
+
+#. libraryFacets.schools.journalism
+#: src/data/library.js:14
+msgctxt "text:libraryFacets.schools.journalism"
+msgid "Tengu Journalism"
+msgstr "天狗新聞"
+
+#. libraryFacets.schools.policy
+#: src/data/library.js:15
+msgctxt "text:libraryFacets.schools.policy"
+msgid "Faith & Policy"
+msgstr "信仰政策"
+
+#. libraryFacets.dangers.low
+#: src/data/library.js:18
+msgctxt "text:libraryFacets.dangers.low"
+msgid "Routine"
+msgstr "一般"
+
+#. libraryFacets.dangers.guarded
+#: src/data/library.js:19
+msgctxt "text:libraryFacets.dangers.guarded"
+msgid "Guarded"
+msgstr "需留意"
+
+#. libraryFacets.dangers.high
+#: src/data/library.js:20
+msgctxt "text:libraryFacets.dangers.high"
+msgid "High risk"
+msgstr "高風險"
+
+#. libraryFacets.dangers.sealed
+#: src/data/library.js:21
+msgctxt "text:libraryFacets.dangers.sealed"
+msgid "Sealed"
+msgstr "封印級"
+
+#. libraryFacets.states.available
+#: src/data/library.js:24
+msgctxt "text:libraryFacets.states.available"
+msgid "Available"
+msgstr "在架可借"
+
+#. libraryFacets.states.onLoan
+#: src/data/library.js:25
+msgctxt "text:libraryFacets.states.onLoan"
+msgid "On loan"
+msgstr "借出中"
+
+#. libraryFacets.states.flight
+#: src/data/library.js:26
+msgctxt "text:libraryFacets.states.flight"
+msgid "In flight"
+msgstr "飛行中"
+
+#. libraryFacets.states.negotiating
+#: src/data/library.js:27
+msgctxt "text:libraryFacets.states.negotiating"
+msgid "Negotiating with shelf"
+msgstr "正與書架協商"
+
+#. libraryFacets.states.moon
+#: src/data/library.js:28
+msgctxt "text:libraryFacets.states.moon"
+msgid "Visible at full moon"
+msgstr "滿月可見"
+
+#. libraryFacets.states.reference
+#: src/data/library.js:29
+msgctxt "text:libraryFacets.states.reference"
+msgid "Library use only"
+msgstr "館內閱覽"
+
+#. libraryFacets.states.unwritten
+#: src/data/library.js:30
+msgctxt "text:libraryFacets.states.unwritten"
+msgid "Not yet written"
+msgstr "尚未寫成"
+
+#. libraryFacets.states.erased
+#: src/data/library.js:31
+msgctxt "text:libraryFacets.states.erased"
+msgid "Erased from history"
+msgstr "已被歷史刪除"
+
+#. libraryFacets.wills.none
+#: src/data/library.js:34
+msgctxt "text:libraryFacets.wills.none"
+msgid "None observed"
+msgstr "未觀察到"
+
+#. libraryFacets.wills.mild
+#: src/data/library.js:35
+msgctxt "text:libraryFacets.wills.mild"
+msgid "Occasionally turns its own pages"
+msgstr "偶爾自行翻頁"
+
+#. libraryFacets.wills.mobile
+#: src/data/library.js:36
+msgctxt "text:libraryFacets.wills.mobile"
+msgid "Shelves itself elsewhere"
+msgstr "會自行移架"
+
+#. libraryFacets.wills.argumentative
+#: src/data/library.js:37
+msgctxt "text:libraryFacets.wills.argumentative"
+msgid "Argues with readers"
+msgstr "會反駁讀者"
+
+#. libraryFacets.wills.unknown
+#: src/data/library.js:38
+msgctxt "text:libraryFacets.wills.unknown"
+msgid "No consensus"
+msgstr "尚未取得一致意見"
+
+#. libraryHoldings.0.seven-day-reverse.2
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.2"
+msgid "Seven-Day Reverse Index: From Result to Element"
+msgstr "《七曜逆引：從結果倒查元素》"
+
+#. libraryHoldings.0.seven-day-reverse.3
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.3"
+msgid "Patchouli Knowledge / catalogued by Koakuma"
+msgstr "帕秋莉・諾蕾姬／小惡魔編目"
+
+#. libraryHoldings.0.seven-day-reverse.5
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.5"
+msgid "Elemental magic / fault diagnosis"
+msgstr "元素魔法／故障診斷"
+
+#. libraryHoldings.0.seven-day-reverse.6
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.6"
+msgid "Scarlet Library corrected ed. 7"
+msgstr "紅魔館校訂第七版"
+
+#. libraryHoldings.0.seven-day-reverse.7
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.7"
+msgid "Scarlet Library exchange; due-date dispute remains in appendix 3"
+msgstr "紅魔館館際交換；歸還期限爭議仍在附件三"
+
+#. libraryHoldings.0.seven-day-reverse.8
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.8"
+msgid "North Wing · Closed Stack M-7"
+msgstr "北翼・封閉書架 M-7"
+
+#. libraryHoldings.0.seven-day-reverse.15
+#: src/data/library.js:43
+msgctxt "text:libraryHoldings.0.seven-day-reverse.15"
+msgid ""
+"Secure the metal chapter before reading wood; the last reverse reading grew "
+"scissors from a desk."
+msgstr "閱讀木章時請先固定金章；上次倒序閱讀使一張桌子長出剪刀。"
+
+#. libraryHoldings.1.barrier-step-atlas.2
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.2"
+msgid "Pedestrian Atlas of the Great Barrier"
+msgstr "《大結界步測圖譜》"
+
+#. libraryHoldings.1.barrier-step-atlas.3
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.3"
+msgid "Surveyed by Ran Yakumo / marginal revisions by Yukari"
+msgstr "八雲藍測繪／八雲紫頁邊修訂"
+
+#. libraryHoldings.1.barrier-step-atlas.5
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.5"
+msgid "Boundary survey / passage"
+msgstr "邊界測量／通行"
+
+#. libraryHoldings.1.barrier-step-atlas.6
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.6"
+msgid "Gensokyo 142 rainy-season ed."
+msgstr "幻想曆一四二年雨季版"
+
+#. libraryHoldings.1.barrier-step-atlas.7
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.7"
+msgid "Boundary Studies legal deposit"
+msgstr "境界研究院法定送存"
+
+#. libraryHoldings.1.barrier-step-atlas.8
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.8"
+msgid "Level 1 · Oversize A-2"
+msgstr "一樓・大型圖籍 A-2"
+
+#. libraryHoldings.1.barrier-step-atlas.15
+#: src/data/library.js:44
+msgctxt "text:libraryHoldings.1.barrier-step-atlas.15"
+msgid ""
+"Page 47's east changes with the reader's stance. Do not pin it with a ruler "
+"to prove stability."
+msgstr "第 47 頁的東側會依讀者站位改變；不要用尺壓住它來證明穩定。"
+
+#. libraryHoldings.2.three-yesterdays.2
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.2"
+msgid "Three Yesterdays of Gensokyo"
+msgstr "《幻想鄉三種昨日》"
+
+#. libraryHoldings.2.three-yesterdays.3
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.3"
+msgid "Edited by Hieda no Akyuu"
+msgstr "稗田阿求編"
+
+#. libraryHoldings.2.three-yesterdays.5
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.5"
+msgid "Chronicle / version studies"
+msgstr "編年史／版本學"
+
+#. libraryHoldings.2.three-yesterdays.6
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.6"
+msgid "Bound contradictory edition"
+msgstr "矛盾版合訂本"
+
+#. libraryHoldings.2.three-yesterdays.7
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.7"
+msgid "Exchange copy from Hieda History Hall"
+msgstr "稗田史學館交換複本"
+
+#. libraryHoldings.2.three-yesterdays.8
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.8"
+msgid "Level 2 · Records H-12"
+msgstr "二樓・史料 H-12"
+
+#. libraryHoldings.2.three-yesterdays.15
+#: src/data/library.js:45
+msgctxt "text:libraryHoldings.2.three-yesterdays.15"
+msgid "You need not believe one yesterday; citations must say which yesterday you read."
+msgstr "三份昨日不必選一份相信；引用時必須說明你讀的是哪一個昨日。"
+
+#. libraryHoldings.3.flying-index.2
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.2"
+msgid "Why Flying Books Still Have Call Numbers"
+msgstr "《會飛的書如何仍有索書號》"
+
+#. libraryHoldings.3.flying-index.3
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.3"
+msgid "Anonymous collective, Misty Lake Cataloguing"
+msgstr "霧湖編目室匿名合著"
+
+#. libraryHoldings.3.flying-index.5
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.5"
+msgid "Library science / autonomous holdings"
+msgstr "圖書館學／自主館藏"
+
+#. libraryHoldings.3.flying-index.6
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.6"
+msgid "Second ed. with net foldout"
+msgstr "附捕網摺頁第二版"
+
+#. libraryHoldings.3.flying-index.7
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.7"
+msgid "In-house research"
+msgstr "館內研究成果"
+
+#. libraryHoldings.3.flying-index.8
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.8"
+msgid "North Wing airspace; last seen on curtain rail"
+msgstr "北翼上空；最後見於窗簾桿"
+
+#. libraryHoldings.3.flying-index.15
+#: src/data/library.js:46
+msgctxt "text:libraryHoldings.3.flying-index.15"
+msgid ""
+"Holds allowed. Availability begins when the book lands on the desk, not when "
+"its shadow passes."
+msgstr "可預約。回架通知以書本真正落在借閱桌為準，不以影子經過為準。"
+
+#. libraryHoldings.4.fourth-lantern-manual.2
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.2"
+msgid "Fourth Lantern Maintenance Manual v3.1b"
+msgstr "《第四盞燈維修手冊 v3.1b》"
+
+#. libraryHoldings.4.fourth-lantern-manual.3
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.3"
+msgid "Kappa Engineering Bamboo Team"
+msgstr "河童工程院竹林小組"
+
+#. libraryHoldings.4.fourth-lantern-manual.5
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.5"
+msgid "Navigation / sensors / maintenance"
+msgstr "導航／感測器／維修"
+
+#. libraryHoldings.4.fourth-lantern-manual.6
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.6"
+msgid "Blue-gain corrected edition"
+msgstr "藍光增益訂正版"
+
+#. libraryHoldings.4.fourth-lantern-manual.7
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.7"
+msgid "Closure appendix to seven-day temporary repair"
+msgstr "七日臨時維修案結案附件"
+
+#. libraryHoldings.4.fourth-lantern-manual.8
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.8"
+msgid "Level 1 · Technical K-4"
+msgstr "一樓・技術 K-4"
+
+#. libraryHoldings.4.fourth-lantern-manual.15
+#: src/data/library.js:47
+msgctxt "text:libraryHoldings.4.fourth-lantern-manual.15"
+msgid ""
+"The fourth lantern denies being the covered model; Engineering taped “still "
+"applies” to the back."
+msgstr "第四盞燈否認自己屬於本手冊涵蓋型號；工程院在封底貼了『仍適用』。"
+
+#. libraryHoldings.5.doll-remote-protocol.2
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.2"
+msgid "Doll Teleoperation and Failed Proxy Attendance"
+msgstr "《人偶遠端操作與代點名失敗錄》"
+
+#. libraryHoldings.5.doll-remote-protocol.3
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.3"
+msgid "Alice Margatroid"
+msgstr "愛麗絲・瑪格特洛依德"
+
+#. libraryHoldings.5.doll-remote-protocol.5
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.5"
+msgid "Doll engineering / teleoperation"
+msgstr "人偶工學／遠端操作"
+
+#. libraryHoldings.5.doll-remote-protocol.6
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.6"
+msgid "With twelve wiring plates"
+msgstr "附十二種線材圖"
+
+#. libraryHoldings.5.doll-remote-protocol.7
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.7"
+msgid "Magic Theory course reserve"
+msgstr "魔法理論學院教學指定本"
+
+#. libraryHoldings.5.doll-remote-protocol.8
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.8"
+msgid "Level 3 · Course Reserve M-22"
+msgstr "三樓・教學指定 M-22"
+
+#. libraryHoldings.5.doll-remote-protocol.15
+#: src/data/library.js:48
+msgctxt "text:libraryHoldings.5.doll-remote-protocol.15"
+msgid "Its doll can turn pages but may not answer the librarian's comprehension check."
+msgstr "書附的人偶可以翻頁，但不能代讀者回答館員的理解確認。"
+
+#. libraryHoldings.6.leak-that-powers.2
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.2"
+msgid "The Leak That Powers Another Turbine"
+msgstr "《驅動另一座水輪的漏水》"
+
+#. libraryHoldings.6.leak-that-powers.3
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.3"
+msgid "Nitori Kawashiro and Repair Cohort 29"
+msgstr "河城荷取與第 29 次維修班"
+
+#. libraryHoldings.6.leak-that-powers.5
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.5"
+msgid "Low-head hydro / system boundaries"
+msgstr "低落差水力／系統邊界"
+
+#. libraryHoldings.6.leak-that-powers.6
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.6"
+msgid "Waterproof cover; pages are not"
+msgstr "防水封面・內頁不防水"
+
+#. libraryHoldings.6.leak-that-powers.7
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.7"
+msgid "Kappa Joint Workshop report"
+msgstr "河童聯合工房報告"
+
+#. libraryHoldings.6.leak-that-powers.8
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.8"
+msgid "Level 1 · Technical K-11"
+msgstr "一樓・技術 K-11"
+
+#. libraryHoldings.6.leak-that-powers.15
+#: src/data/library.js:49
+msgctxt "text:libraryHoldings.6.leak-that-powers.15"
+msgid ""
+"The appendix renames failure “an unplanned second output”; administration "
+"has not agreed."
+msgstr "附錄將『故障』改稱『未預定的第二輸出』；總務處尚未接受。"
+
+#. libraryHoldings.7.corrections-headlines.2
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.2"
+msgid "Headlines Faster Than Their Corrections"
+msgstr "《跑得比訂正快的標題》"
+
+#. libraryHoldings.7.corrections-headlines.3
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.3"
+msgid "Aya Shameimaru / twelve editors requesting anonymity"
+msgstr "射命丸文／十二名要求匿名的編輯"
+
+#. libraryHoldings.7.corrections-headlines.5
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.5"
+msgid "Public correction / news ethics"
+msgstr "公開訂正／新聞倫理"
+
+#. libraryHoldings.7.corrections-headlines.6
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.6"
+msgid "Morning loose-leaf edition"
+msgstr "每晨更新活頁版"
+
+#. libraryHoldings.7.corrections-headlines.7
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.7"
+msgid "Bunbunmaru legal deposit"
+msgstr "文文。新聞法定送存"
+
+#. libraryHoldings.7.corrections-headlines.8
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.8"
+msgid "Level 2 · Press T-3"
+msgstr "二樓・報刊 T-3"
+
+#. libraryHoldings.7.corrections-headlines.15
+#: src/data/library.js:50
+msgctxt "text:libraryHoldings.7.corrections-headlines.15"
+msgid ""
+"The borrower is listed as “Tomorrow's Front Page.” Holds are open while "
+"staff verify the name."
+msgstr "目前借閱者登記為『明天的頭版』。可預約；館員正在確認這是不是有效姓名。"
+
+#. libraryHoldings.8.many-pulses.2
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.2"
+msgid "Not Every Pulse Wishes to Be Counted"
+msgstr "《不是每一種脈搏都願意被數》"
+
+#. libraryHoldings.8.many-pulses.3
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.3"
+msgid "Eirin Yagokoro / clinical notes by Reisen"
+msgstr "八意永琳／鈴仙臨床註釋"
+
+#. libraryHoldings.8.many-pulses.5
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.5"
+msgid "Cross-species physiology / clinical observation"
+msgstr "跨種族生理／臨床觀察"
+
+#. libraryHoldings.8.many-pulses.6
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.6"
+msgid "Earth-readable edition"
+msgstr "地上可理解版"
+
+#. libraryHoldings.8.many-pulses.7
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.7"
+msgid "Eientei medical exchange"
+msgstr "永遠亭醫學交換"
+
+#. libraryHoldings.8.many-pulses.8
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.8"
+msgid "Quiet Reading L-2"
+msgstr "安靜閱覽室 L-2"
+
+#. libraryHoldings.8.many-pulses.15
+#: src/data/library.js:51
+msgctxt "text:libraryHoldings.8.many-pulses.15"
+msgid ""
+"The seventeen-step lunar calculation remains untranslated; the main text "
+"stands without it."
+msgstr "附錄十七步月都計算仍未翻譯；正文不依賴它也能讀完。"
+
+#. libraryHoldings.9.ending-meetings.2
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.2"
+msgid "How to End a Meeting Before Three Traditions Finish"
+msgstr "《如何在三個宗教傳統都沒說完時散會》"
+
+#. libraryHoldings.9.ending-meetings.3
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.3"
+msgid "Byakuren, Kanako, and Miko; timed by Sanae"
+msgstr "聖白蓮、八坂神奈子、豐聰耳神子；早苗記時"
+
+#. libraryHoldings.9.ending-meetings.5
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.5"
+msgid "Interfaith dialogue / meeting governance"
+msgstr "宗教對話／會議治理"
+
+#. libraryHoldings.9.ending-meetings.6
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.6"
+msgid "Table-leg revision 47"
+msgstr "桌腳修訂第 47 版"
+
+#. libraryHoldings.9.ending-meetings.7
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.7"
+msgid "Faith & Coexistence meeting attachment"
+msgstr "信仰與共生政策學院會議附件"
+
+#. libraryHoldings.9.ending-meetings.8
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.8"
+msgid "Level 2 · Policy F-6"
+msgstr "二樓・公共政策 F-6"
+
+#. libraryHoldings.9.ending-meetings.15
+#: src/data/library.js:52
+msgctxt "text:libraryHoldings.9.ending-meetings.15"
+msgid ""
+"The last chapter gives three adjournment times. The book uses the earliest; "
+"its authors still argue next door."
+msgstr "最後一章有三種結束時間；書本採用最早的一種，作者仍在隔壁爭論。"
+
+#. libraryHoldings.10.moon-sealed-senses.2
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.2"
+msgid "Full-Moon Low-Stimulus Room Log"
+msgstr "《滿月低刺激室觀察簿》"
+
+#. libraryHoldings.10.moon-sealed-senses.3
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.3"
+msgid "Eientei night-clinic rotation"
+msgstr "永遠亭夜診輪值"
+
+#. libraryHoldings.10.moon-sealed-senses.5
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.5"
+msgid "Lunar sensation / neural safety"
+msgstr "月相感覺／神經安全"
+
+#. libraryHoldings.10.moon-sealed-senses.6
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.6"
+msgid "Full-moon developed copy"
+msgstr "滿月顯影本"
+
+#. libraryHoldings.10.moon-sealed-senses.7
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.7"
+msgid "Restricted Eientei exchange"
+msgstr "永遠亭限制交換"
+
+#. libraryHoldings.10.moon-sealed-senses.8
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.8"
+msgid "North Wing · Moon Cabinet L-FM"
+msgstr "北翼・月光櫃 L-FM"
+
+#. libraryHoldings.10.moon-sealed-senses.15
+#: src/data/library.js:53
+msgctxt "text:libraryHoldings.10.moon-sealed-senses.15"
+msgid ""
+"Pages appear blank off the full moon. Staff refuse torches, miracles, or "
+"sensational headlines as early development."
+msgstr "非滿月時書頁看似空白。館員拒絕以手電筒、奇蹟或標題黨提前顯影。"
+
+#. libraryHoldings.11.missing-wednesday.2
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.2"
+msgid "The Wednesday Erased from History"
+msgstr "《被歷史刪除的那個星期三》"
+
+#. libraryHoldings.11.missing-wednesday.3
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.3"
+msgid "Keine Kamishirasawa; a second name once occupied this field"
+msgstr "上白澤慧音；作者欄曾有第二個名字"
+
+#. libraryHoldings.11.missing-wednesday.5
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.5"
+msgid "Terakoya curriculum / missing pages"
+msgstr "寺子屋課程／缺頁"
+
+#. libraryHoldings.11.missing-wednesday.6
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.6"
+msgid "Catalogue-surviving edition"
+msgstr "目錄仍存在版"
+
+#. libraryHoldings.11.missing-wednesday.7
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.7"
+msgid "Acquisition record erased"
+msgstr "來源紀錄已刪除"
+
+#. libraryHoldings.11.missing-wednesday.8
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.8"
+msgid "Level 2 · Empty Space H-00"
+msgstr "二樓・空位 H-00"
+
+#. libraryHoldings.11.missing-wednesday.15
+#: src/data/library.js:54
+msgctxt "text:libraryHoldings.11.missing-wednesday.15"
+msgid ""
+"Not loanable: staff cannot verify that the same Wednesday returns. Cite the "
+"catalogue record instead."
+msgstr "不可借閱，因館員無法確認你歸還的是同一個星期三。引用目錄紀錄即可。"
+
+#. libraryHoldings.12.book-not-written.2
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.2"
+msgid "A Grimoire Reproducible by a Non-Magician"
+msgstr "《能由非魔法使重現的魔法書》"
+
+#. libraryHoldings.12.book-not-written.3
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.3"
+msgid "Author to be determined after successful replication"
+msgstr "作者將於成功重現後確定"
+
+#. libraryHoldings.12.book-not-written.5
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.5"
+msgid "Reproducibility / unfinished work"
+msgstr "可重現性／未完成作品"
+
+#. libraryHoldings.12.book-not-written.6
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.6"
+msgid "Prospectus edition"
+msgstr "預告版"
+
+#. libraryHoldings.12.book-not-written.7
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.7"
+msgid "Magic School pre-catalogue"
+msgstr "魔法學院預先編目"
+
+#. libraryHoldings.12.book-not-written.8
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.8"
+msgid "Level 3 · Future Stack M-∞"
+msgstr "三樓・未來書架 M-∞"
+
+#. libraryHoldings.12.book-not-written.15
+#: src/data/library.js:55
+msgctxt "text:libraryHoldings.12.book-not-written.15"
+msgid ""
+"You may watch the catalogue record, not reserve a physical copy that does "
+"not exist. The two buttons once fought over this."
+msgstr "可預約書目通知，不可預約一本尚未存在的實體；兩種按鈕曾因此打架。"
+
+#. libraryHoldings.13.spellcard-telegraph.2
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.2"
+msgid "Fifty Spell Telegraphs and Exit Diagrams"
+msgstr "《五十組符卡預兆與退路圖》"
+
+#. libraryHoldings.13.spellcard-telegraph.3
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.3"
+msgid "Reimu Hakurei / Spell Card Laboratory"
+msgstr "博麗靈夢／符卡研究室"
+
+#. libraryHoldings.13.spellcard-telegraph.5
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.5"
+msgid "Spell readability / safety design"
+msgstr "符卡可讀性／安全設計"
+
+#. libraryHoldings.13.spellcard-telegraph.6
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.6"
+msgid "Open trial plates"
+msgstr "公開測試圖版"
+
+#. libraryHoldings.13.spellcard-telegraph.7
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.7"
+msgid "Spell-card research supplement"
+msgstr "符卡研究成果附件"
+
+#. libraryHoldings.13.spellcard-telegraph.8
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.8"
+msgid "Level 1 · Oversize B-5"
+msgstr "一樓・大型圖籍 B-5"
+
+#. libraryHoldings.13.spellcard-telegraph.15
+#: src/data/library.js:56
+msgctxt "text:libraryHoldings.13.spellcard-telegraph.15"
+msgid ""
+"Transparent overlays show first-seen exits. Do not erase failed paths; the "
+"next reader needs them."
+msgstr "透明覆頁顯示首見退路；請勿把自己的失敗路線擦掉，下一位讀者需要它。"
+
+#. libraryHoldings.14.outside-drift-catalogue.2
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.2"
+msgid "Outside World Drift: 77 Objects Without Manuals"
+msgstr "《外界漂流物：不再有說明書的七十七件》"
+
+#. libraryHoldings.14.outside-drift-catalogue.3
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.3"
+msgid "Catalogued by Ran Yakumo / notes by Rinnosuke Morichika"
+msgstr "八雲藍編目／森近霖之助註解"
+
+#. libraryHoldings.14.outside-drift-catalogue.5
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.5"
+msgid "Outside objects / use identification"
+msgstr "外界物／用途識別"
+
+#. libraryHoldings.14.outside-drift-catalogue.6
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.6"
+msgid "Fifth corrected-use edition"
+msgstr "用途訂正第五版"
+
+#. libraryHoldings.14.outside-drift-catalogue.7
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.7"
+msgid "Joint deposit by Kourindou and Boundary Studies"
+msgstr "香霖堂與境界研究院共同寄存"
+
+#. libraryHoldings.14.outside-drift-catalogue.8
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.8"
+msgid "Level 1 · Outside Objects O-7"
+msgstr "一樓・外界物 O-7"
+
+#. libraryHoldings.14.outside-drift-catalogue.15
+#: src/data/library.js:57
+msgctxt "text:libraryHoldings.14.outside-drift-catalogue.15"
+msgid ""
+"Item 31 is not ritual equipment; item 44 is not a kappa battery. Old uses "
+"remain in corrections."
+msgstr "第 31 件不是祭器，第 44 件也不是河童電池；舊用途保留在訂正欄。"
+
+#. libraryHoldings.15.mushroom-provenance.2
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.2"
+msgid "Found in the Forest Is Not Full Provenance"
+msgstr "《森林裡撿的不是完整來源》"
+
+#. libraryHoldings.15.mushroom-provenance.3
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.3"
+msgid "Marisa Kirisame / red annotations by Patchouli"
+msgstr "霧雨魔理沙；帕秋莉以紅墨批註"
+
+#. libraryHoldings.15.mushroom-provenance.5
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.5"
+msgid "Material provenance / reproducible failure"
+msgstr "材料來源／可重現失敗"
+
+#. libraryHoldings.15.mushroom-provenance.6
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.6"
+msgid "Thirteenth supplemented edition"
+msgstr "第十三次補件"
+
+#. libraryHoldings.15.mushroom-provenance.7
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.7"
+msgid "Left in returns; donation status disputed"
+msgstr "作者放在還書箱；是否為捐贈仍有爭議"
+
+#. libraryHoldings.15.mushroom-provenance.8
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.8"
+msgid "Level 3 · Materials M-13"
+msgstr "三樓・材料 M-13"
+
+#. libraryHoldings.15.mushroom-provenance.15
+#: src/data/library.js:58
+msgctxt "text:libraryHoldings.15.mushroom-provenance.15"
+msgid ""
+"The book refuses Patchouli's shelf because red notes occupy half its text. "
+"Holds may await negotiation."
+msgstr "本書拒絕回到帕秋莉指定的書架，理由是紅墨批註占了正文一半。可預約協商結果。"
+
+#. libraryHoldings.16.interview-with-minds.2
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.2"
+msgid "The Source Heard Your Question Before You Asked"
+msgstr "《消息來源在你提問前已聽見問題》"
+
+#. libraryHoldings.16.interview-with-minds.3
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.3"
+msgid "Satori Komeiji / Tengu Journalism Ethics Group"
+msgstr "古明地覺／天狗新聞倫理小組"
+
+#. libraryHoldings.16.interview-with-minds.5
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.5"
+msgid "Mind-reading / interview consent"
+msgstr "讀心／採訪同意"
+
+#. libraryHoldings.16.interview-with-minds.6
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.6"
+msgid "Eleven-consent-path comparison"
+msgstr "十一種同意流程比較版"
+
+#. libraryHoldings.16.interview-with-minds.7
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.7"
+msgid "Restricted Palace of Earth Spirits deposit"
+msgstr "地靈殿限制寄存"
+
+#. libraryHoldings.16.interview-with-minds.8
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.8"
+msgid "Level 2 · Ethics T-11"
+msgstr "二樓・倫理 T-11"
+
+#. libraryHoldings.16.interview-with-minds.15
+#: src/data/library.js:59
+msgctxt "text:libraryHoldings.16.interview-with-minds.15"
+msgid ""
+"Borrowing is not consent for the book to read thoughts. It claims to see "
+"only library cards; staff cannot verify that."
+msgstr "借閱不構成同意本書閱讀你的想法；它聲稱只看借書證，館員未能驗證。"
+
+#. libraryHoldings.17.two-simultaneous-editions.2
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.2"
+msgid "Two Second Editions Existing at Once"
+msgstr "《同時存在的兩個第二版》"
+
+#. libraryHoldings.17.two-simultaneous-editions.3
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.3"
+msgid "Hieda Hall Editions Office"
+msgstr "稗田史學館版本室"
+
+#. libraryHoldings.17.two-simultaneous-editions.5
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.5"
+msgid "Textual criticism / identification"
+msgstr "版本校勘／識別"
+
+#. libraryHoldings.17.two-simultaneous-editions.6
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.6"
+msgid "Second A and Second B boxed together"
+msgstr "第二版 A 與第二版 B 合盒"
+
+#. libraryHoldings.17.two-simultaneous-editions.7
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.7"
+msgid "Preserved edition dispute"
+msgstr "版本爭議保存樣本"
+
+#. libraryHoldings.17.two-simultaneous-editions.8
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.8"
+msgid "Level 2 · Editions H-2A/B"
+msgstr "二樓・版本 H-2A/B"
+
+#. libraryHoldings.17.two-simultaneous-editions.15
+#: src/data/library.js:60
+msgctxt "text:libraryHoldings.17.two-simultaneous-editions.15"
+msgid "The pair circulates as one item. Returning only the more credible volume is incomplete."
+msgstr "借閱時兩冊視為一件；只歸還較可信的一冊仍算缺件。"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.2
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.2"
+msgid "Shelf Refuses Former Position: Day 129 Minutes"
+msgstr "《書架拒絕原位置：第一二九日會議紀錄》"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.3
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.3"
+msgid "Misty Lake staff, the shelf, and one non-voting fairy"
+msgstr "霧湖館員、書架與一名不具投票權的妖精"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.5
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.5"
+msgid "Collection management / negotiation"
+msgstr "館藏管理／協商"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.6
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.6"
+msgid "Kappa-tape binding"
+msgstr "河童膠帶裝訂"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.7
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.7"
+msgid "North Wing on-site meeting"
+msgstr "北翼現場會議"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.8
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.8"
+msgid "North Wing · Temporary Desk N-129"
+msgstr "北翼・臨時桌 N-129"
+
+#. libraryHoldings.18.shelf-negotiation-minutes.15
+#: src/data/library.js:61
+msgctxt "text:libraryHoldings.18.shelf-negotiation-minutes.15"
+msgid ""
+"The shelf requests co-authorship. The library lists it as an attendee but "
+"pays no honorarium."
+msgstr "書架要求被列為共同作者；館方同意列入會議出席者，但不支付稿酬。"

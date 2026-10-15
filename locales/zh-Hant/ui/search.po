@@ -1,0 +1,676 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/kicker
+#: src/js/search.js:13
+msgctxt "tree:copy#/kicker"
+msgid "UNIVERSITY SEARCH"
+msgstr "UNIVERSITY SEARCH"
+
+#. copy/title
+#: src/js/search.js:13
+msgctxt "tree:copy#/title"
+msgid "Search the whole campus"
+msgstr "搜尋整座校園"
+
+#. copy/placeholder
+#: src/js/search.js:13
+msgctxt "tree:copy#/placeholder"
+msgid "Search schools, faculty, research, services, clubs, or BBS…"
+msgstr "搜尋學院、教師、研究、服務、社團或 BBS…"
+
+#. copy/label
+#: src/js/search.js:13
+msgctxt "tree:copy#/label"
+msgid "Search the full site by keyword"
+msgstr "輸入關鍵字搜尋全站"
+
+#. copy/hint
+#: src/js/search.js:13
+msgctxt "tree:copy#/hint"
+msgid "Try “spell card”, “Eientei”, “application”, or a faculty name"
+msgstr "試試「符卡」、「永遠亭」、「申請」或教師姓名"
+
+#. copy/empty
+#: src/js/search.js:13
+msgctxt "tree:copy#/empty"
+msgid "No matching records. Try another or shorter search term."
+msgstr "沒有找到相符結果。換一個詞，或少寫一點。"
+
+#. copy/results
+#: src/js/search.js:13
+msgctxt "tree:copy#/results"
+msgid "results"
+msgstr "項結果"
+
+#. copy/popular
+#: src/js/search.js:13
+msgctxt "tree:copy#/popular"
+msgid "Popular destinations"
+msgstr "常用入口"
+
+#. copy/categories/section
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/section"
+msgid "Campus gateway"
+msgstr "校園入口"
+
+#. copy/categories/school
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/school"
+msgid "School"
+msgstr "學院"
+
+#. copy/categories/faculty
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/faculty"
+msgid "Faculty"
+msgstr "教師"
+
+#. copy/categories/research
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/research"
+msgid "Research"
+msgstr "研究"
+
+#. copy/categories/club
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/club"
+msgid "Club"
+msgstr "社團"
+
+#. copy/categories/service
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/service"
+msgid "Campus service"
+msgstr "校務服務"
+
+#. copy/categories/bbs
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/bbs"
+msgid "BBS"
+msgstr "BBS"
+
+#. copy/categories/map
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/map"
+msgid "Map"
+msgstr "地圖"
+
+#. copy/categories/history
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/history"
+msgid "Chronicle"
+msgstr "校史"
+
+#. copy/categories/knowledge
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/knowledge"
+msgid "Hieda Index"
+msgstr "稗田索引"
+
+#. copy/categories/ethics
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/ethics"
+msgid "Research ethics"
+msgstr "研究倫理"
+
+#. copy/categories/festival
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/festival"
+msgid "Festival operations"
+msgstr "祭典營運"
+
+#. copy/categories/fieldwork
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/fieldwork"
+msgid "Fieldwork"
+msgstr "境內實習"
+
+#. copy/categories/orientation
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/orientation"
+msgid "New-student arrival"
+msgstr "新生報到"
+
+#. copy/categories/course
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/course"
+msgid "Course"
+msgstr "課程"
+
+#. copy/categories/library
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/library"
+msgid "Library holding"
+msgstr "館藏"
+
+#. copy/categories/housing
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/housing"
+msgid "Housing"
+msgstr "住宿"
+
+#. copy/categories/incident
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/incident"
+msgid "Incident"
+msgstr "事件"
+
+#. copy/categories/clinic
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/clinic"
+msgid "Medical center"
+msgstr "校醫院"
+
+#. copy/categories/appraisal
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/appraisal"
+msgid "Drift-object appraisal"
+msgstr "漂流物鑑定"
+
+#. copy/categories/workshop
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/workshop"
+msgid "Spell-card workshop"
+msgstr "符卡工房"
+
+#. copy/categories/phantasm
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/phantasm"
+msgid "Unregistered timetable"
+msgstr "未登錄課表"
+
+#. sectionEntries.about.-
+#: src/js/search.js:16
+msgctxt "text:sectionEntries.about.-"
+msgid "About the university"
+msgstr "學校介紹"
+
+#. sectionEntries.about.-
+#: src/js/search.js:16
+msgctxt "text:sectionEntries.about.-.2"
+msgid "Motto, uniform, anniversary, and the university's approach"
+msgstr "校訓、校服、校慶與辦學方式"
+
+#. sectionEntries.chronicle.-
+#: src/js/search.js:17
+msgctxt "text:sectionEntries.chronicle.-"
+msgid "Gensokyo University Chronicle"
+msgstr "幻想鄉校史"
+
+#. sectionEntries.chronicle.-
+#: src/js/search.js:17
+msgctxt "text:sectionEntries.chronicle.-.2"
+msgid "Real version subjects, campus evolution, corrections, and marginal notes"
+msgstr "真實版本主旨、校務演變、訂正與頁邊補記"
+
+#. sectionEntries.academics.-
+#: src/js/search.js:18
+msgctxt "text:sectionEntries.academics.-"
+msgid "Seven schools"
+msgstr "七所學院"
+
+#. sectionEntries.academics.-
+#: src/js/search.js:18
+msgctxt "text:sectionEntries.academics.-.2"
+msgid "Courses, credits, tuition, and progression"
+msgstr "課程、學分、學費與畢業條件"
+
+#. sectionEntries.admissions.-
+#: src/js/search.js:19
+msgctxt "text:sectionEntries.admissions.-"
+msgid "Admissions"
+msgstr "招生與入學指南"
+
+#. sectionEntries.admissions.-
+#: src/js/search.js:19
+msgctxt "text:sectionEntries.admissions.-.2"
+msgid "Entry routes, dates, and online application"
+msgstr "入學路線、日期與線上申請"
+
+#. sectionEntries.welcome.-
+#: src/js/search.js:20
+msgctxt "text:sectionEntries.welcome.-"
+msgid "First Bell · New Student Arrival Week"
+msgstr "第一鐘・新生到着週"
+
+#. sectionEntries.welcome.-
+#: src/js/search.js:20
+msgctxt "text:sectionEntries.welcome.-.2"
+msgid "After formal admission, confirm a route, stop signal, and first destination"
+msgstr "正式錄取後核對路線、停止信號與第一站"
+
+#. sectionEntries.my-tu.My-TU-
+#: src/js/search.js:21
+msgctxt "text:sectionEntries.my-tu.My-TU-"
+msgid "My TU Student Records"
+msgstr "My TU 幻想鄉學籍中心"
+
+#. sectionEntries.my-tu.-
+#: src/js/search.js:21
+msgctxt "text:sectionEntries.my-tu.-"
+msgid "On-device identity, joint faculty review, campus history, and decision letters"
+msgstr "本機身分、教授聯合審查、校園履歷與錄取通知書"
+
+#. sectionEntries.data-cabinet.-
+#: src/js/search.js:22
+msgctxt "text:sectionEntries.data-cabinet.-"
+msgid "On-device Records Cabinet"
+msgstr "本機資料櫃"
+
+#. sectionEntries.data-cabinet.-
+#: src/js/search.js:22
+msgctxt "text:sectionEntries.data-cabinet.-.2"
+msgid ""
+"Inspect usage and visibility, export a sealed box, validate imports, or "
+"destroy individual files"
+msgstr "查看空間與可見範圍，封箱匯出、驗證匯入或銷毀個別卷宗"
+
+#. sectionEntries.festival-operations.-
+#: src/js/search.js:23
+msgctxt "text:sectionEntries.festival-operations.-"
+msgid "Spring Spell-card Lantern / Boundary Festival Operations"
+msgstr "春季符卡燈會／境界開學祭營運室"
+
+#. sectionEntries.festival-operations.-
+#: src/js/search.js:23
+msgctxt "text:sectionEntries.festival-operations.-.2"
+msgid "Six-desk permits, opening duty, field cases, detours, clinic load, and closure reports"
+msgstr "六桌許可、開祭值班、現場事故、改道、候診與結祭報告"
+
+#. sectionEntries.fieldwork-stations.-
+#: src/js/search.js:24
+msgctxt "text:sectionEntries.fieldwork-stations.-"
+msgid "Domestic Placement & Field Inquiry Passport"
+msgstr "境內實習與田野調查護照"
+
+#. sectionEntries.fieldwork-stations.-
+#: src/js/search.js:24
+msgctxt "text:sectionEntries.fieldwork-stations.-.2"
+msgid ""
+"Twenty-four stations, dispatch, field complications, provenance, returns, "
+"and station seals"
+msgstr "二十四實習站、派遣令、現場偏差、來源鏈、返校回報與場地印"
+
+#. sectionEntries.course-registration.-
+#: src/js/search.js:25
+msgctxt "text:sectionEntries.course-registration.-"
+msgid "Course registration, timetable & grades"
+msgstr "選課、課表與成績"
+
+#. sectionEntries.course-registration.35-
+#: src/js/search.js:25
+msgctxt "text:sectionEntries.course-registration.35-"
+msgid "35 courses, add/drop, waitlists, collisions, and on-device academic records"
+msgstr "35 門課程、加退選、候補、衝堂與本機學業紀錄"
+
+#. sectionEntries.academic-work.-
+#: src/js/search.js:26
+msgctxt "text:sectionEntries.academic-work.-"
+msgid "Coursework & answer review"
+msgstr "課程作業與答案評閱"
+
+#. sectionEntries.academic-work.-
+#: src/js/search.js:26
+msgctxt "text:sectionEntries.academic-work.-.2"
+msgid "Drafts, submissions, per-question scoring, and explanations"
+msgstr "草稿、提交、逐題判分與解析"
+
+#. sectionEntries.academic-exam.-
+#: src/js/search.js:27
+msgctxt "text:sectionEntries.academic-exam.-"
+msgid "Timed course examination"
+msgstr "限時課程考試"
+
+#. sectionEntries.academic-exam.-
+#: src/js/search.js:27
+msgctxt "text:sectionEntries.academic-exam.-.2"
+msgid "On-device timing, autosave, submission, and instant grading"
+msgstr "本機計時、自動保存、交卷與即時判分"
+
+#. sectionEntries.academic-grades.-
+#: src/js/search.js:28
+msgctxt "text:sectionEntries.academic-grades.-"
+msgid "On-device academic transcript"
+msgstr "本機學業成績單"
+
+#. sectionEntries.academic-grades.-
+#: src/js/search.js:28
+msgctxt "text:sectionEntries.academic-grades.-.2"
+msgid "Assignments, exams, defences, and printable records"
+msgstr "作業、考試、答辯與可列印回條"
+
+#. sectionEntries.academic-defense.-
+#: src/js/search.js:29
+msgctxt "text:sectionEntries.academic-defense.-"
+msgid "Thesis / spell-card defence"
+msgstr "論文／符卡答辯"
+
+#. sectionEntries.academic-defense.-
+#: src/js/search.js:29
+msgctxt "text:sectionEntries.academic-defense.-.2"
+msgid "Project dossier, three examiners, public questions, and ruling"
+msgstr "研究計畫、三人委員會、公開三問與裁定"
+
+#. sectionEntries.library.-
+#: src/js/search.js:30
+msgctxt "text:sectionEntries.library.-"
+msgid "Misty Lake Library"
+msgstr "霧湖圖書館"
+
+#. sectionEntries.library.-
+#: src/js/search.js:30
+msgctxt "text:sectionEntries.library.-.2"
+msgid "Search, borrow, renew, return, and place holds"
+msgstr "館藏搜尋、借閱、續借、歸還與預約"
+
+#. sectionEntries.library-appraisal.-
+#: src/js/search.js:31
+msgctxt "text:sectionEntries.library-appraisal.-"
+msgid "Kourindou × Misty Lake Drift-Object Appraisal Office"
+msgstr "香霖堂 × 霧湖外界漂流物鑑定所"
+
+#. sectionEntries.library-appraisal.-
+#: src/js/search.js:31
+msgctxt "text:sectionEntries.library-appraisal.-.2"
+msgid ""
+"Observe material and wear, propose original use, run non-invasive tests, and "
+"retain corrections"
+msgstr "觀察材質與磨損、提出原用途、進行非侵入測試並保存訂正"
+
+#. sectionEntries.spellcard-workshop.-
+#: src/js/search.js:32
+msgctxt "text:sectionEntries.spellcard-workshop.-"
+msgid "Interactive Spell-card Design & Ethics Workshop"
+msgstr "可操作的符卡設計與倫理工房"
+
+#. sectionEntries.spellcard-workshop.-
+#: src/js/search.js:32
+msgctxt "text:sectionEntries.spellcard-workshop.-.2"
+msgid ""
+"Lightweight flight tests, six independent reviews, version files, and a "
+"three-question public defence"
+msgstr "輕量試飛、六方獨立批註、版本封存與公開三問答辯"
+
+#. sectionEntries.spellcard-records.-
+#: src/js/search.js:33
+msgctxt "text:sectionEntries.spellcard-records.-"
+msgid "My spell-card designs & defences"
+msgstr "我的符卡設計與答辯檔案"
+
+#. sectionEntries.spellcard-records.-
+#: src/js/search.js:33
+msgctxt "text:sectionEntries.spellcard-records.-.2"
+msgid "On-device versions, rulings, conditions, and dissent"
+msgstr "保存在這台裝置的符卡版本、裁定、附帶條件與異議"
+
+#. sectionEntries.clinic.-
+#: src/js/search.js:34
+msgctxt "text:sectionEntries.clinic.-"
+msgid "Eientei Hospital & campus infirmary"
+msgstr "永遠亭校醫院與校醫務室"
+
+#. sectionEntries.clinic.-
+#: src/js/search.js:34
+msgctxt "text:sectionEntries.clinic.-.2"
+msgid "On-device triage, live queue, cross-species care, and referrals"
+msgstr "本機分診、動態候診、跨種族診療與轉介"
+
+#. sectionEntries.clinic-pharmacy.-
+#: src/js/search.js:35
+msgctxt "text:sectionEntries.clinic-pharmacy.-"
+msgid "Lunar Pharmacy & prescriptions"
+msgstr "月藥調劑室與處方"
+
+#. sectionEntries.clinic-pharmacy.-
+#: src/js/search.js:35
+msgctxt "text:sectionEntries.clinic-pharmacy.-.2"
+msgid "Gensokyo medicines, dispensing, dose records, and printable slips"
+msgstr "幻想鄉藥品、領藥、用藥記錄與可列印回條"
+
+#. sectionEntries.clinic-recovery.-
+#: src/js/search.js:36
+msgctxt "text:sectionEntries.clinic-recovery.-"
+msgid "Recovery therapies & follow-up"
+msgstr "康復療法與復診"
+
+#. sectionEntries.clinic-recovery.-
+#: src/js/search.js:36
+msgctxt "text:sectionEntries.clinic-recovery.-.2"
+msgid "Danmaku shoulder-wing, boundary anchoring, lunar recovery, phantom sync, and fairy cores"
+msgstr "彈幕肩翼、境界定位、月相降載、幽體同步與妖精核心"
+
+#. sectionEntries.clinic-account.-
+#: src/js/search.js:37
+msgctxt "text:sectionEntries.clinic-account.-"
+msgid "My medical file"
+msgstr "我的診療紀錄"
+
+#. sectionEntries.clinic-account.-
+#: src/js/search.js:37
+msgctxt "text:sectionEntries.clinic-account.-.2"
+msgid "Check-ins, consultations, prescriptions, dispensing, and recovery slips"
+msgstr "掛號、診察、處方、領藥與康復回條"
+
+#. sectionEntries.housing.-
+#: src/js/search.js:38
+msgctxt "text:sectionEntries.housing.-"
+msgid "Housing, rooms & roommates"
+msgstr "宿舍、房間與室友"
+
+#. sectionEntries.housing.-
+#: src/js/search.js:38
+msgctxt "text:sectionEntries.housing.-.2"
+msgid "Housing needs, allocation, roommate agreements, and transfers"
+msgstr "住宿需求、房間配對、室友協議與換房"
+
+#. sectionEntries.housing-application.-
+#: src/js/search.js:39
+msgctxt "text:sectionEntries.housing-application.-"
+msgid "Housing application & matching"
+msgstr "宿舍申請與配對"
+
+#. sectionEntries.housing-application.-
+#: src/js/search.js:39
+msgctxt "text:sectionEntries.housing-application.-.2"
+msgid "Moon phase, wingspan, water, familiars, schedules, and compatibility"
+msgstr "月相、翼展、水域、使魔、作息與相容度"
+
+#. sectionEntries.housing-account.-
+#: src/js/search.js:40
+msgctxt "text:sectionEntries.housing-account.-"
+msgid "My housing"
+msgstr "我的宿舍"
+
+#. sectionEntries.housing-account.-
+#: src/js/search.js:40
+msgctxt "text:sectionEntries.housing-account.-.2"
+msgid "Room, roommate, shared-living note, and transfer request"
+msgstr "房號、室友、共住備忘與換房申請"
+
+#. sectionEntries.incident-center.-
+#: src/js/search.js:41
+msgctxt "text:sectionEntries.incident-center.-"
+msgid "Campus Incident Centre"
+msgstr "校園事件中心"
+
+#. sectionEntries.incident-center.-
+#: src/js/search.js:41
+msgctxt "text:sectionEntries.incident-center.-.2"
+msgid "Evidence, testimony, working hypotheses, and reversible responses"
+msgstr "證物、證詞、工作假說與可逆處置"
+
+#. sectionEntries.incident-simulator.-
+#: src/js/search.js:42
+msgctxt "text:sectionEntries.incident-simulator.-"
+msgid "Research simulator"
+msgstr "研究模擬器"
+
+#. sectionEntries.incident-simulator.-
+#: src/js/search.js:42
+msgctxt "text:sectionEntries.incident-simulator.-.2"
+msgid "Controls, randomisation, calibration, and version locking"
+msgstr "對照、隨機化、校準與版本鎖定"
+
+#. sectionEntries.incident-records.-
+#: src/js/search.js:43
+msgctxt "text:sectionEntries.incident-records.-"
+msgid "Case closures & reactions"
+msgstr "事件結案與連動"
+
+#. sectionEntries.incident-records.-BBS
+#: src/js/search.js:43
+msgctxt "text:sectionEntries.incident-records.-BBS"
+msgid "On-device closures, experiment slips, and incident-linked BBS"
+msgstr "本機結案檔案、模擬回條與事件連動 BBS"
+
+#. sectionEntries.live-campus.-
+#: src/js/search.js:44
+msgctxt "text:sectionEntries.live-campus.-"
+msgid "Live Campus operations board"
+msgstr "動態校園運行盤"
+
+#. sectionEntries.live-campus.-
+#: src/js/search.js:44
+msgctxt "text:sectionEntries.live-campus.-.2"
+msgid "Time, moon phase, and duty incidents jointly alter menus, classes, rooms, and routes"
+msgstr "時間、月相與當值事件共同改動菜單、課表、空房與路線"
+
+#. sectionEntries.governance.-
+#: src/js/search.js:45
+msgctxt "text:sectionEntries.governance.-"
+msgid "University governance & voting bell"
+msgstr "校務治理與議事鐘"
+
+#. sectionEntries.governance.-
+#: src/js/search.js:45
+msgctxt "text:sectionEntries.governance.-.2"
+msgid "Public proposals, stakeholder counts, policy consequences, and on-device voting"
+msgstr "公開提案、利益關係人票數、規章後果與本機投票"
+
+#. sectionEntries.gaokao.-
+#: src/js/search.js:46
+msgctxt "text:sectionEntries.gaokao.-"
+msgid "Gensokyo Unified Examination"
+msgstr "幻想鄉統一學力試驗"
+
+#. sectionEntries.gaokao.-
+#: src/js/search.js:46
+msgctxt "text:sectionEntries.gaokao.-.2"
+msgid "Humanities, sciences, online simulation, and offline papers"
+msgstr "文科、理科、線上模擬與離線試卷"
+
+#. sectionEntries.map.-
+#: src/js/search.js:47
+msgctxt "text:sectionEntries.map.-"
+msgid "Campus map and routes"
+msgstr "校園地圖與路線"
+
+#. sectionEntries.map.-
+#: src/js/search.js:47
+msgctxt "text:sectionEntries.map.-.2"
+msgid "Walking, broom, windway, rabbit shuttle, and journey times"
+msgstr "步行、掃帚、風路、兔車與時間估算"
+
+#. sectionEntries.map-eientei.-
+#: src/js/search.js:48
+msgctxt "text:sectionEntries.map-eientei.-"
+msgid "Eientei & Bamboo Forest detail map"
+msgstr "永遠亭與迷途竹林詳圖"
+
+#. sectionEntries.map-eientei.-
+#: src/js/search.js:48
+msgctxt "text:sectionEntries.map-eientei.-.2"
+msgid "Internal routes that change with date, time, and lunar phase"
+msgstr "依日期、時間與月相改變的內部路線"
+
+#. sectionEntries.bbs.-BBS
+#: src/js/search.js:49
+msgctxt "text:sectionEntries.bbs.-BBS"
+msgid "Campus BBS"
+msgstr "校園 BBS"
+
+#. sectionEntries.bbs.-
+#: src/js/search.js:49
+msgctxt "text:sectionEntries.bbs.-"
+msgid "Course, club, exchange, and campus discussions"
+msgstr "課程、社團、交換與校務話題"
+
+#. serviceEntries.application.-
+#: src/js/search.js:53
+msgctxt "text:serviceEntries.application.-"
+msgid "Online application"
+msgstr "線上入學申請"
+
+#. serviceEntries.application.-
+#: src/js/search.js:53
+msgctxt "text:serviceEntries.application.-.2"
+msgid "Application, drafts, and on-device records"
+msgstr "填報、草稿與本機申請記錄"
+
+#. serviceEntries.availability.-
+#: src/js/search.js:54
+msgctxt "text:serviceEntries.availability.-"
+msgid "Room availability"
+msgstr "館舍空閒查詢"
+
+#. serviceEntries.availability.-
+#: src/js/search.js:54
+msgctxt "text:serviceEntries.availability.-.2"
+msgid "Classrooms, seminar rooms, and workshops"
+msgstr "教室、研討室與工房"
+
+#. serviceEntries.visit.-
+#: src/js/search.js:55
+msgctxt "text:serviceEntries.visit.-"
+msgid "Campus visit"
+msgstr "進校預約"
+
+#. serviceEntries.visit.-
+#: src/js/search.js:55
+msgctxt "text:serviceEntries.visit.-.2"
+msgid "Visitor passage and arrival gates"
+msgstr "訪客通行與到校入口"
+
+#. serviceEntries.dining.-
+#: src/js/search.js:56
+msgctxt "text:serviceEntries.dining.-"
+msgid "Today's dining menu"
+msgstr "今日食堂菜單"
+
+#. serviceEntries.dining.-
+#: src/js/search.js:56
+msgctxt "text:serviceEntries.dining.-.2"
+msgid "Set meals, bamboo moon soba, and kappa curry"
+msgstr "定食、竹林月見麵、河童咖哩"
+
+#. serviceEntries.timetable.-
+#: src/js/search.js:57
+msgctxt "text:serviceEntries.timetable.-"
+msgid "Class schedule"
+msgstr "今日排課"
+
+#. serviceEntries.timetable.-
+#: src/js/search.js:57
+msgctxt "text:serviceEntries.timetable.-.2"
+msgid "Courses, rooms, and instructors"
+msgstr "課程、場地與授課教師"
+
+#. serviceEntries.exams.-
+#: src/js/search.js:58
+msgctxt "text:serviceEntries.exams.-"
+msgid "Examination schedule"
+msgstr "考試日程"
+
+#. serviceEntries.exams.-
+#: src/js/search.js:58
+msgctxt "text:serviceEntries.exams.-.2"
+msgid "Dates, venues, and formats"
+msgstr "日期、場地與考試形式"

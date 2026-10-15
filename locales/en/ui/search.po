@@ -1,0 +1,684 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/kicker
+#: src/js/search.js:13
+msgctxt "tree:copy#/kicker"
+msgid "UNIVERSITY SEARCH"
+msgstr "UNIVERSITY SEARCH"
+
+#. copy/title
+#: src/js/search.js:13
+msgctxt "tree:copy#/title"
+msgid "Search the whole campus"
+msgstr "Search the whole campus"
+
+#. copy/placeholder
+#: src/js/search.js:13
+msgctxt "tree:copy#/placeholder"
+msgid "Search schools, faculty, research, services, clubs, or BBS…"
+msgstr "Search schools, faculty, research, services, clubs, or BBS…"
+
+#. copy/label
+#: src/js/search.js:13
+msgctxt "tree:copy#/label"
+msgid "Search the full site by keyword"
+msgstr "Search the full site by keyword"
+
+#. copy/hint
+#: src/js/search.js:13
+msgctxt "tree:copy#/hint"
+msgid "Try “spell card”, “Eientei”, “application”, or a faculty name"
+msgstr "Try “spell card”, “Eientei”, “application”, or a faculty name"
+
+#. copy/empty
+#: src/js/search.js:13
+msgctxt "tree:copy#/empty"
+msgid "No matching records. Try another or shorter search term."
+msgstr "No matching records. Try another or shorter search term."
+
+#. copy/results
+#: src/js/search.js:13
+msgctxt "tree:copy#/results"
+msgid "results"
+msgstr "results"
+
+#. copy/popular
+#: src/js/search.js:13
+msgctxt "tree:copy#/popular"
+msgid "Popular destinations"
+msgstr "Popular destinations"
+
+#. copy/categories/section
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/section"
+msgid "Campus gateway"
+msgstr "Campus gateway"
+
+#. copy/categories/school
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/school"
+msgid "School"
+msgstr "School"
+
+#. copy/categories/faculty
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/faculty"
+msgid "Faculty"
+msgstr "Faculty"
+
+#. copy/categories/research
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/research"
+msgid "Research"
+msgstr "Research"
+
+#. copy/categories/club
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/club"
+msgid "Club"
+msgstr "Club"
+
+#. copy/categories/service
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/service"
+msgid "Campus service"
+msgstr "Campus service"
+
+#. copy/categories/bbs
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/bbs"
+msgid "BBS"
+msgstr "BBS"
+
+#. copy/categories/map
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/map"
+msgid "Map"
+msgstr "Map"
+
+#. copy/categories/history
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/history"
+msgid "Chronicle"
+msgstr "Chronicle"
+
+#. copy/categories/knowledge
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/knowledge"
+msgid "Hieda Index"
+msgstr "Hieda Index"
+
+#. copy/categories/ethics
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/ethics"
+msgid "Research ethics"
+msgstr "Research ethics"
+
+#. copy/categories/festival
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/festival"
+msgid "Festival operations"
+msgstr "Festival operations"
+
+#. copy/categories/fieldwork
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/fieldwork"
+msgid "Fieldwork"
+msgstr "Fieldwork"
+
+#. copy/categories/orientation
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/orientation"
+msgid "New-student arrival"
+msgstr "New-student arrival"
+
+#. copy/categories/course
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/course"
+msgid "Course"
+msgstr "Course"
+
+#. copy/categories/library
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/library"
+msgid "Library holding"
+msgstr "Library holding"
+
+#. copy/categories/housing
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/housing"
+msgid "Housing"
+msgstr "Housing"
+
+#. copy/categories/incident
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/incident"
+msgid "Incident"
+msgstr "Incident"
+
+#. copy/categories/clinic
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/clinic"
+msgid "Medical center"
+msgstr "Medical center"
+
+#. copy/categories/appraisal
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/appraisal"
+msgid "Drift-object appraisal"
+msgstr "Drift-object appraisal"
+
+#. copy/categories/workshop
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/workshop"
+msgid "Spell-card workshop"
+msgstr "Spell-card workshop"
+
+#. copy/categories/phantasm
+#: src/js/search.js:13
+msgctxt "tree:copy#/categories/phantasm"
+msgid "Unregistered timetable"
+msgstr "Unregistered timetable"
+
+#. sectionEntries.about.-
+#: src/js/search.js:16
+msgctxt "text:sectionEntries.about.-"
+msgid "About the university"
+msgstr "About the university"
+
+#. sectionEntries.about.-
+#: src/js/search.js:16
+msgctxt "text:sectionEntries.about.-.2"
+msgid "Motto, uniform, anniversary, and the university's approach"
+msgstr "Motto, uniform, anniversary, and the university's approach"
+
+#. sectionEntries.chronicle.-
+#: src/js/search.js:17
+msgctxt "text:sectionEntries.chronicle.-"
+msgid "Gensokyo University Chronicle"
+msgstr "Gensokyo University Chronicle"
+
+#. sectionEntries.chronicle.-
+#: src/js/search.js:17
+msgctxt "text:sectionEntries.chronicle.-.2"
+msgid "Real version subjects, campus evolution, corrections, and marginal notes"
+msgstr "Real version subjects, campus evolution, corrections, and marginal notes"
+
+#. sectionEntries.academics.-
+#: src/js/search.js:18
+msgctxt "text:sectionEntries.academics.-"
+msgid "Seven schools"
+msgstr "Seven schools"
+
+#. sectionEntries.academics.-
+#: src/js/search.js:18
+msgctxt "text:sectionEntries.academics.-.2"
+msgid "Courses, credits, tuition, and progression"
+msgstr "Courses, credits, tuition, and progression"
+
+#. sectionEntries.admissions.-
+#: src/js/search.js:19
+msgctxt "text:sectionEntries.admissions.-"
+msgid "Admissions"
+msgstr "Admissions"
+
+#. sectionEntries.admissions.-
+#: src/js/search.js:19
+msgctxt "text:sectionEntries.admissions.-.2"
+msgid "Entry routes, dates, and online application"
+msgstr "Entry routes, dates, and online application"
+
+#. sectionEntries.welcome.-
+#: src/js/search.js:20
+msgctxt "text:sectionEntries.welcome.-"
+msgid "First Bell · New Student Arrival Week"
+msgstr "First Bell · New Student Arrival Week"
+
+#. sectionEntries.welcome.-
+#: src/js/search.js:20
+msgctxt "text:sectionEntries.welcome.-.2"
+msgid "After formal admission, confirm a route, stop signal, and first destination"
+msgstr "After formal admission, confirm a route, stop signal, and first destination"
+
+#. sectionEntries.my-tu.My-TU-
+#: src/js/search.js:21
+msgctxt "text:sectionEntries.my-tu.My-TU-"
+msgid "My TU Student Records"
+msgstr "My TU Student Records"
+
+#. sectionEntries.my-tu.-
+#: src/js/search.js:21
+msgctxt "text:sectionEntries.my-tu.-"
+msgid "On-device identity, joint faculty review, campus history, and decision letters"
+msgstr "On-device identity, joint faculty review, campus history, and decision letters"
+
+#. sectionEntries.data-cabinet.-
+#: src/js/search.js:22
+msgctxt "text:sectionEntries.data-cabinet.-"
+msgid "On-device Records Cabinet"
+msgstr "On-device Records Cabinet"
+
+#. sectionEntries.data-cabinet.-
+#: src/js/search.js:22
+msgctxt "text:sectionEntries.data-cabinet.-.2"
+msgid ""
+"Inspect usage and visibility, export a sealed box, validate imports, or "
+"destroy individual files"
+msgstr ""
+"Inspect usage and visibility, export a sealed box, validate imports, or "
+"destroy individual files"
+
+#. sectionEntries.festival-operations.-
+#: src/js/search.js:23
+msgctxt "text:sectionEntries.festival-operations.-"
+msgid "Spring Spell-card Lantern / Boundary Festival Operations"
+msgstr "Spring Spell-card Lantern / Boundary Festival Operations"
+
+#. sectionEntries.festival-operations.-
+#: src/js/search.js:23
+msgctxt "text:sectionEntries.festival-operations.-.2"
+msgid "Six-desk permits, opening duty, field cases, detours, clinic load, and closure reports"
+msgstr "Six-desk permits, opening duty, field cases, detours, clinic load, and closure reports"
+
+#. sectionEntries.fieldwork-stations.-
+#: src/js/search.js:24
+msgctxt "text:sectionEntries.fieldwork-stations.-"
+msgid "Domestic Placement & Field Inquiry Passport"
+msgstr "Domestic Placement & Field Inquiry Passport"
+
+#. sectionEntries.fieldwork-stations.-
+#: src/js/search.js:24
+msgctxt "text:sectionEntries.fieldwork-stations.-.2"
+msgid ""
+"Twenty-four stations, dispatch, field complications, provenance, returns, "
+"and station seals"
+msgstr ""
+"Twenty-four stations, dispatch, field complications, provenance, returns, "
+"and station seals"
+
+#. sectionEntries.course-registration.-
+#: src/js/search.js:25
+msgctxt "text:sectionEntries.course-registration.-"
+msgid "Course registration, timetable & grades"
+msgstr "Course registration, timetable & grades"
+
+#. sectionEntries.course-registration.35-
+#: src/js/search.js:25
+msgctxt "text:sectionEntries.course-registration.35-"
+msgid "35 courses, add/drop, waitlists, collisions, and on-device academic records"
+msgstr "35 courses, add/drop, waitlists, collisions, and on-device academic records"
+
+#. sectionEntries.academic-work.-
+#: src/js/search.js:26
+msgctxt "text:sectionEntries.academic-work.-"
+msgid "Coursework & answer review"
+msgstr "Coursework & answer review"
+
+#. sectionEntries.academic-work.-
+#: src/js/search.js:26
+msgctxt "text:sectionEntries.academic-work.-.2"
+msgid "Drafts, submissions, per-question scoring, and explanations"
+msgstr "Drafts, submissions, per-question scoring, and explanations"
+
+#. sectionEntries.academic-exam.-
+#: src/js/search.js:27
+msgctxt "text:sectionEntries.academic-exam.-"
+msgid "Timed course examination"
+msgstr "Timed course examination"
+
+#. sectionEntries.academic-exam.-
+#: src/js/search.js:27
+msgctxt "text:sectionEntries.academic-exam.-.2"
+msgid "On-device timing, autosave, submission, and instant grading"
+msgstr "On-device timing, autosave, submission, and instant grading"
+
+#. sectionEntries.academic-grades.-
+#: src/js/search.js:28
+msgctxt "text:sectionEntries.academic-grades.-"
+msgid "On-device academic transcript"
+msgstr "On-device academic transcript"
+
+#. sectionEntries.academic-grades.-
+#: src/js/search.js:28
+msgctxt "text:sectionEntries.academic-grades.-.2"
+msgid "Assignments, exams, defences, and printable records"
+msgstr "Assignments, exams, defences, and printable records"
+
+#. sectionEntries.academic-defense.-
+#: src/js/search.js:29
+msgctxt "text:sectionEntries.academic-defense.-"
+msgid "Thesis / spell-card defence"
+msgstr "Thesis / spell-card defence"
+
+#. sectionEntries.academic-defense.-
+#: src/js/search.js:29
+msgctxt "text:sectionEntries.academic-defense.-.2"
+msgid "Project dossier, three examiners, public questions, and ruling"
+msgstr "Project dossier, three examiners, public questions, and ruling"
+
+#. sectionEntries.library.-
+#: src/js/search.js:30
+msgctxt "text:sectionEntries.library.-"
+msgid "Misty Lake Library"
+msgstr "Misty Lake Library"
+
+#. sectionEntries.library.-
+#: src/js/search.js:30
+msgctxt "text:sectionEntries.library.-.2"
+msgid "Search, borrow, renew, return, and place holds"
+msgstr "Search, borrow, renew, return, and place holds"
+
+#. sectionEntries.library-appraisal.-
+#: src/js/search.js:31
+msgctxt "text:sectionEntries.library-appraisal.-"
+msgid "Kourindou × Misty Lake Drift-Object Appraisal Office"
+msgstr "Kourindou × Misty Lake Drift-Object Appraisal Office"
+
+#. sectionEntries.library-appraisal.-
+#: src/js/search.js:31
+msgctxt "text:sectionEntries.library-appraisal.-.2"
+msgid ""
+"Observe material and wear, propose original use, run non-invasive tests, and "
+"retain corrections"
+msgstr ""
+"Observe material and wear, propose original use, run non-invasive tests, and "
+"retain corrections"
+
+#. sectionEntries.spellcard-workshop.-
+#: src/js/search.js:32
+msgctxt "text:sectionEntries.spellcard-workshop.-"
+msgid "Interactive Spell-card Design & Ethics Workshop"
+msgstr "Interactive Spell-card Design & Ethics Workshop"
+
+#. sectionEntries.spellcard-workshop.-
+#: src/js/search.js:32
+msgctxt "text:sectionEntries.spellcard-workshop.-.2"
+msgid ""
+"Lightweight flight tests, six independent reviews, version files, and a "
+"three-question public defence"
+msgstr ""
+"Lightweight flight tests, six independent reviews, version files, and a "
+"three-question public defence"
+
+#. sectionEntries.spellcard-records.-
+#: src/js/search.js:33
+msgctxt "text:sectionEntries.spellcard-records.-"
+msgid "My spell-card designs & defences"
+msgstr "My spell-card designs & defences"
+
+#. sectionEntries.spellcard-records.-
+#: src/js/search.js:33
+msgctxt "text:sectionEntries.spellcard-records.-.2"
+msgid "On-device versions, rulings, conditions, and dissent"
+msgstr "On-device versions, rulings, conditions, and dissent"
+
+#. sectionEntries.clinic.-
+#: src/js/search.js:34
+msgctxt "text:sectionEntries.clinic.-"
+msgid "Eientei Hospital & campus infirmary"
+msgstr "Eientei Hospital & campus infirmary"
+
+#. sectionEntries.clinic.-
+#: src/js/search.js:34
+msgctxt "text:sectionEntries.clinic.-.2"
+msgid "On-device triage, live queue, cross-species care, and referrals"
+msgstr "On-device triage, live queue, cross-species care, and referrals"
+
+#. sectionEntries.clinic-pharmacy.-
+#: src/js/search.js:35
+msgctxt "text:sectionEntries.clinic-pharmacy.-"
+msgid "Lunar Pharmacy & prescriptions"
+msgstr "Lunar Pharmacy & prescriptions"
+
+#. sectionEntries.clinic-pharmacy.-
+#: src/js/search.js:35
+msgctxt "text:sectionEntries.clinic-pharmacy.-.2"
+msgid "Gensokyo medicines, dispensing, dose records, and printable slips"
+msgstr "Gensokyo medicines, dispensing, dose records, and printable slips"
+
+#. sectionEntries.clinic-recovery.-
+#: src/js/search.js:36
+msgctxt "text:sectionEntries.clinic-recovery.-"
+msgid "Recovery therapies & follow-up"
+msgstr "Recovery therapies & follow-up"
+
+#. sectionEntries.clinic-recovery.-
+#: src/js/search.js:36
+msgctxt "text:sectionEntries.clinic-recovery.-.2"
+msgid "Danmaku shoulder-wing, boundary anchoring, lunar recovery, phantom sync, and fairy cores"
+msgstr "Danmaku shoulder-wing, boundary anchoring, lunar recovery, phantom sync, and fairy cores"
+
+#. sectionEntries.clinic-account.-
+#: src/js/search.js:37
+msgctxt "text:sectionEntries.clinic-account.-"
+msgid "My medical file"
+msgstr "My medical file"
+
+#. sectionEntries.clinic-account.-
+#: src/js/search.js:37
+msgctxt "text:sectionEntries.clinic-account.-.2"
+msgid "Check-ins, consultations, prescriptions, dispensing, and recovery slips"
+msgstr "Check-ins, consultations, prescriptions, dispensing, and recovery slips"
+
+#. sectionEntries.housing.-
+#: src/js/search.js:38
+msgctxt "text:sectionEntries.housing.-"
+msgid "Housing, rooms & roommates"
+msgstr "Housing, rooms & roommates"
+
+#. sectionEntries.housing.-
+#: src/js/search.js:38
+msgctxt "text:sectionEntries.housing.-.2"
+msgid "Housing needs, allocation, roommate agreements, and transfers"
+msgstr "Housing needs, allocation, roommate agreements, and transfers"
+
+#. sectionEntries.housing-application.-
+#: src/js/search.js:39
+msgctxt "text:sectionEntries.housing-application.-"
+msgid "Housing application & matching"
+msgstr "Housing application & matching"
+
+#. sectionEntries.housing-application.-
+#: src/js/search.js:39
+msgctxt "text:sectionEntries.housing-application.-.2"
+msgid "Moon phase, wingspan, water, familiars, schedules, and compatibility"
+msgstr "Moon phase, wingspan, water, familiars, schedules, and compatibility"
+
+#. sectionEntries.housing-account.-
+#: src/js/search.js:40
+msgctxt "text:sectionEntries.housing-account.-"
+msgid "My housing"
+msgstr "My housing"
+
+#. sectionEntries.housing-account.-
+#: src/js/search.js:40
+msgctxt "text:sectionEntries.housing-account.-.2"
+msgid "Room, roommate, shared-living note, and transfer request"
+msgstr "Room, roommate, shared-living note, and transfer request"
+
+#. sectionEntries.incident-center.-
+#: src/js/search.js:41
+msgctxt "text:sectionEntries.incident-center.-"
+msgid "Campus Incident Centre"
+msgstr "Campus Incident Centre"
+
+#. sectionEntries.incident-center.-
+#: src/js/search.js:41
+msgctxt "text:sectionEntries.incident-center.-.2"
+msgid "Evidence, testimony, working hypotheses, and reversible responses"
+msgstr "Evidence, testimony, working hypotheses, and reversible responses"
+
+#. sectionEntries.incident-simulator.-
+#: src/js/search.js:42
+msgctxt "text:sectionEntries.incident-simulator.-"
+msgid "Research simulator"
+msgstr "Research simulator"
+
+#. sectionEntries.incident-simulator.-
+#: src/js/search.js:42
+msgctxt "text:sectionEntries.incident-simulator.-.2"
+msgid "Controls, randomisation, calibration, and version locking"
+msgstr "Controls, randomisation, calibration, and version locking"
+
+#. sectionEntries.incident-records.-
+#: src/js/search.js:43
+msgctxt "text:sectionEntries.incident-records.-"
+msgid "Case closures & reactions"
+msgstr "Case closures & reactions"
+
+#. sectionEntries.incident-records.-BBS
+#: src/js/search.js:43
+msgctxt "text:sectionEntries.incident-records.-BBS"
+msgid "On-device closures, experiment slips, and incident-linked BBS"
+msgstr "On-device closures, experiment slips, and incident-linked BBS"
+
+#. sectionEntries.live-campus.-
+#: src/js/search.js:44
+msgctxt "text:sectionEntries.live-campus.-"
+msgid "Live Campus operations board"
+msgstr "Live Campus operations board"
+
+#. sectionEntries.live-campus.-
+#: src/js/search.js:44
+msgctxt "text:sectionEntries.live-campus.-.2"
+msgid "Time, moon phase, and duty incidents jointly alter menus, classes, rooms, and routes"
+msgstr "Time, moon phase, and duty incidents jointly alter menus, classes, rooms, and routes"
+
+#. sectionEntries.governance.-
+#: src/js/search.js:45
+msgctxt "text:sectionEntries.governance.-"
+msgid "University governance & voting bell"
+msgstr "University governance & voting bell"
+
+#. sectionEntries.governance.-
+#: src/js/search.js:45
+msgctxt "text:sectionEntries.governance.-.2"
+msgid "Public proposals, stakeholder counts, policy consequences, and on-device voting"
+msgstr "Public proposals, stakeholder counts, policy consequences, and on-device voting"
+
+#. sectionEntries.gaokao.-
+#: src/js/search.js:46
+msgctxt "text:sectionEntries.gaokao.-"
+msgid "Gensokyo Unified Examination"
+msgstr "Gensokyo Unified Examination"
+
+#. sectionEntries.gaokao.-
+#: src/js/search.js:46
+msgctxt "text:sectionEntries.gaokao.-.2"
+msgid "Humanities, sciences, online simulation, and offline papers"
+msgstr "Humanities, sciences, online simulation, and offline papers"
+
+#. sectionEntries.map.-
+#: src/js/search.js:47
+msgctxt "text:sectionEntries.map.-"
+msgid "Campus map and routes"
+msgstr "Campus map and routes"
+
+#. sectionEntries.map.-
+#: src/js/search.js:47
+msgctxt "text:sectionEntries.map.-.2"
+msgid "Walking, broom, windway, rabbit shuttle, and journey times"
+msgstr "Walking, broom, windway, rabbit shuttle, and journey times"
+
+#. sectionEntries.map-eientei.-
+#: src/js/search.js:48
+msgctxt "text:sectionEntries.map-eientei.-"
+msgid "Eientei & Bamboo Forest detail map"
+msgstr "Eientei & Bamboo Forest detail map"
+
+#. sectionEntries.map-eientei.-
+#: src/js/search.js:48
+msgctxt "text:sectionEntries.map-eientei.-.2"
+msgid "Internal routes that change with date, time, and lunar phase"
+msgstr "Internal routes that change with date, time, and lunar phase"
+
+#. sectionEntries.bbs.-BBS
+#: src/js/search.js:49
+msgctxt "text:sectionEntries.bbs.-BBS"
+msgid "Campus BBS"
+msgstr "Campus BBS"
+
+#. sectionEntries.bbs.-
+#: src/js/search.js:49
+msgctxt "text:sectionEntries.bbs.-"
+msgid "Course, club, exchange, and campus discussions"
+msgstr "Course, club, exchange, and campus discussions"
+
+#. serviceEntries.application.-
+#: src/js/search.js:53
+msgctxt "text:serviceEntries.application.-"
+msgid "Online application"
+msgstr "Online application"
+
+#. serviceEntries.application.-
+#: src/js/search.js:53
+msgctxt "text:serviceEntries.application.-.2"
+msgid "Application, drafts, and on-device records"
+msgstr "Application, drafts, and on-device records"
+
+#. serviceEntries.availability.-
+#: src/js/search.js:54
+msgctxt "text:serviceEntries.availability.-"
+msgid "Room availability"
+msgstr "Room availability"
+
+#. serviceEntries.availability.-
+#: src/js/search.js:54
+msgctxt "text:serviceEntries.availability.-.2"
+msgid "Classrooms, seminar rooms, and workshops"
+msgstr "Classrooms, seminar rooms, and workshops"
+
+#. serviceEntries.visit.-
+#: src/js/search.js:55
+msgctxt "text:serviceEntries.visit.-"
+msgid "Campus visit"
+msgstr "Campus visit"
+
+#. serviceEntries.visit.-
+#: src/js/search.js:55
+msgctxt "text:serviceEntries.visit.-.2"
+msgid "Visitor passage and arrival gates"
+msgstr "Visitor passage and arrival gates"
+
+#. serviceEntries.dining.-
+#: src/js/search.js:56
+msgctxt "text:serviceEntries.dining.-"
+msgid "Today's dining menu"
+msgstr "Today's dining menu"
+
+#. serviceEntries.dining.-
+#: src/js/search.js:56
+msgctxt "text:serviceEntries.dining.-.2"
+msgid "Set meals, bamboo moon soba, and kappa curry"
+msgstr "Set meals, bamboo moon soba, and kappa curry"
+
+#. serviceEntries.timetable.-
+#: src/js/search.js:57
+msgctxt "text:serviceEntries.timetable.-"
+msgid "Class schedule"
+msgstr "Class schedule"
+
+#. serviceEntries.timetable.-
+#: src/js/search.js:57
+msgctxt "text:serviceEntries.timetable.-.2"
+msgid "Courses, rooms, and instructors"
+msgstr "Courses, rooms, and instructors"
+
+#. serviceEntries.exams.-
+#: src/js/search.js:58
+msgctxt "text:serviceEntries.exams.-"
+msgid "Examination schedule"
+msgstr "Examination schedule"
+
+#. serviceEntries.exams.-
+#: src/js/search.js:58
+msgctxt "text:serviceEntries.exams.-.2"
+msgid "Dates, venues, and formats"
+msgstr "Dates, venues, and formats"

@@ -1,0 +1,110 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. careersCommunityPosts.0.author
+#: src/js/careers-model.js:724
+msgctxt "text:careersCommunityPosts.0.author"
+msgid "Graduation Board Minutes Desk"
+msgstr "卒業判定会議・議事係"
+
+#. careersCommunityPosts.0.author
+#: src/js/careers-model.js:739
+msgctxt "text:careersCommunityPosts.0.author.2"
+msgid "Careers Office · Tengu Dispatch"
+msgstr "進路室・鴉天狗便控"
+
+#. careersCommunityPosts.0.author
+#: src/js/careers-model.js:753
+msgctxt "text:careersCommunityPosts.0.author.3"
+msgid "Hyakki Yagyo Alumni Lantern Desk"
+msgstr "百鬼夜行同窓会・提灯係"
+
+#. careersCommunityPosts.0.author
+#: src/js/careers-model.js:766
+msgctxt "text:careersCommunityPosts.0.author.4"
+msgid "Hyakki Yagyo Alumni Provisional Roll"
+msgstr "百鬼夜行同窓会・仮名簿"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:481
+msgctxt "text:careerMatches.0.0"
+msgid "School methods align directly"
+msgstr "学部方法が直接一致"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:485
+msgctxt "text:careerMatches.0.0.2"
+msgid "Preferred domains overlap"
+msgstr "希望領域が重複"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:488
+msgctxt "text:careerMatches.0.0.3"
+msgid "Duty bell is acceptable"
+msgstr "勤務校鐘に対応"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:490
+msgctxt "text:careerMatches.0.0.4"
+msgid "Duty bell needs negotiation"
+msgstr "勤務校鐘は要相談"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:494
+msgctxt "text:careerMatches.0.0.5"
+msgid "Primary commute is familiar"
+msgstr "主通勤手段に慣れている"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:498
+msgctxt "text:careerMatches.0.0.6"
+msgid "Compensation form aligns"
+msgstr "報酬形式が希望と一致"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:500
+msgctxt "text:careerMatches.0.0.7"
+msgid "Compensation may not appear as yen"
+msgstr "報酬は円とは限らない"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:503
+msgctxt "text:careerMatches.0.0.8"
+msgid "Trouble exceeds stated tolerance"
+msgstr "現場混乱が自己申告許容度超過"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:507
+msgctxt "text:careerMatches.0.0.9"
+msgid "Field passport supplies evidence"
+msgstr "フィールド旅券が証拠"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:508
+msgctxt "text:careerMatches.0.0.10"
+msgid "Ethics file supplies evidence"
+msgstr "倫理記録が証拠"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:510
+msgctxt "text:careerMatches.0.0.11"
+msgid "Methods work and exams supply evidence"
+msgstr "方法課題・試験が証拠"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:512
+msgctxt "text:careerMatches.0.0.12"
+msgid "Consultation is open; alumni referral waits for a degree"
+msgstr "相談可、校友推薦は学位開封後"
+
+#. careersCommunityPosts.0.title
+#: src/js/careers-model.js:725
+msgctxt "text:careersCommunityPosts.0.title"
+msgid "Degree {value0} retains an unresolved question"
+msgstr "卒業証書 {value0} は未解決の問いを添付"

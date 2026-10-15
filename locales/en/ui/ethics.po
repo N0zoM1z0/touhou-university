@@ -1,0 +1,504 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/eyebrow"
+msgid "RESEARCH ETHICS / GENSOKYO RESEARCH ETHICS REVIEW BOARD"
+msgstr "RESEARCH ETHICS / GENSOKYO RESEARCH ETHICS REVIEW BOARD"
+
+#. copy/title
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/title"
+msgid "Being able to do it is not consent to do it."
+msgstr "Being able to do it is not consent to do it."
+
+#. copy/lead
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/lead"
+msgid ""
+"Before research begins, present the proposed ability use, data access, stop "
+"rules, and withdrawal process to five independent reviewers. Akyuu binds the "
+"file; she does not average five disagreements into one convenient permit."
+msgstr ""
+"Before research begins, present the proposed ability use, data access, stop "
+"rules, and withdrawal process to five independent reviewers. Akyuu binds the "
+"file; she does not average five disagreements into one convenient permit."
+
+#. copy/board
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/board"
+msgid "Five specimen cases"
+msgstr "Five specimen cases"
+
+#. copy/boardLead
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/boardLead"
+msgid ""
+"Choose a file and submit your own version of its dispute. The specimens are "
+"not model answers; they are places where the argument has already started."
+msgstr ""
+"Choose a file and submit your own version of its dispute. The specimens are "
+"not model answers; they are places where the argument has already started."
+
+#. copy/form
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/form"
+msgid "Submission desk"
+msgstr "Submission desk"
+
+#. copy/records
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/records"
+msgid "My ethics files"
+msgstr "My ethics files"
+
+#. copy/reviewers
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/reviewers"
+msgid "Five independent review seats"
+msgstr "Five independent review seats"
+
+#. copy/reviewersLead
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/reviewersLead"
+msgid ""
+"Each seat answers only its own question. Blocks, conditions, and minority "
+"opinions survive majorities and averages."
+msgstr ""
+"Each seat answers only its own question. Blocks, conditions, and minority "
+"opinions survive majorities and averages."
+
+#. copy/openCase
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/openCase"
+msgid "Open and submit"
+msgstr "Open and submit"
+
+#. copy/related
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/related"
+msgid "Related source files"
+msgstr "Related source files"
+
+#. copy/expected
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/expected"
+msgid "Specimen pre-review"
+msgstr "Specimen pre-review"
+
+#. copy/voices
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/voices"
+msgid "Words in the margin"
+msgstr "Words in the margin"
+
+#. copy/sourceCase
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/sourceCase"
+msgid "Dispute under review"
+msgstr "Dispute under review"
+
+#. copy/protocolTitle
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/protocolTitle"
+msgid "Protocol title"
+msgstr "Protocol title"
+
+#. copy/researcher
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/researcher"
+msgid "Applicant / research group (optional)"
+msgstr "Applicant / research group (optional)"
+
+#. copy/target
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/target"
+msgid "Research subject"
+msgstr "Research subject"
+
+#. copy/method
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/method"
+msgid "Ability or method"
+msgstr "Ability or method"
+
+#. copy/disclosure
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/disclosure"
+msgid "Timing of disclosure"
+msgstr "Timing of disclosure"
+
+#. copy/consent
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/consent"
+msgid "Who gives consent"
+msgstr "Who gives consent"
+
+#. copy/risk
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/risk"
+msgid "Declared risk"
+msgstr "Declared risk"
+
+#. copy/exposure
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/exposure"
+msgid "Maximum exposure / operation minutes"
+msgstr "Maximum exposure / operation minutes"
+
+#. copy/data
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/data"
+msgid "Data to be accessed"
+msgstr "Data to be accessed"
+
+#. copy/safeguards
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/safeguards"
+msgid "Four field safeguards"
+msgstr "Four field safeguards"
+
+#. copy/subjectStop
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/subjectStop"
+msgid "Subject can stop immediately without approval"
+msgstr "Subject can stop immediately without approval"
+
+#. copy/independent
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/independent"
+msgid "Witness / clock independent of the same ability"
+msgstr "Witness / clock independent of the same ability"
+
+#. copy/audit
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/audit"
+msgid "Content-free receipt survives deletion"
+msgstr "Content-free receipt survives deletion"
+
+#. copy/assent
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/assent"
+msgid "Object / tsukumogami explicitly assents"
+msgstr "Object / tsukumogami explicitly assents"
+
+#. copy/stopRule
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/stopRule"
+msgid "Stopping rule"
+msgstr "Stopping rule"
+
+#. copy/controlPlan
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/controlPlan"
+msgid "Control and independent witness"
+msgstr "Control and independent witness"
+
+#. copy/withdrawalPlan
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdrawalPlan"
+msgid "Withdrawal route"
+msgstr "Withdrawal route"
+
+#. copy/deletionPlan
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/deletionPlan"
+msgid "Deletion and retention"
+msgstr "Deletion and retention"
+
+#. copy/appealPlan
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/appealPlan"
+msgid "Appeal and responsible office"
+msgstr "Appeal and responsible office"
+
+#. copy/rationale
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/rationale"
+msgid "Why this method is necessary"
+msgstr "Why this method is necessary"
+
+#. copy/save
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/save"
+msgid "Pin draft to the desk"
+msgstr "Pin draft to the desk"
+
+#. copy/saved
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/saved"
+msgid "Draft pinned down; kappa tape did not touch the consent field."
+msgstr "Draft pinned down; kappa tape did not touch the consent field."
+
+#. copy/preview
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/preview"
+msgid "Ring the five-seat pre-review bell"
+msgstr "Ring the five-seat pre-review bell"
+
+#. copy/submit
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/submit"
+msgid "Submit for formal five-seat review"
+msgstr "Submit for formal five-seat review"
+
+#. copy/reset
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/reset"
+msgid "Restore the specimen draft"
+msgstr "Restore the specimen draft"
+
+#. copy/required
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/required"
+msgid "The protocol title needs at least four characters."
+msgstr "The protocol title needs at least four characters."
+
+#. copy/previewTitle
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/previewTitle"
+msgid "Five-seat pre-review"
+msgstr "Five-seat pre-review"
+
+#. copy/previewLead
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/previewLead"
+msgid ""
+"This is not a total score. One blocking seat can stop the start; minority "
+"opinions enter the formal file."
+msgstr ""
+"This is not a total score. One blocking seat can stop the start; minority "
+"opinions enter the formal file."
+
+#. copy/conditions
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/conditions"
+msgid "Conditions / dissent"
+msgstr "Conditions / dissent"
+
+#. copy/noConditions
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/noConditions"
+msgid "This seat adds no condition."
+msgstr "This seat adds no condition."
+
+#. copy/decision
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/decision"
+msgid "Board decision"
+msgstr "Board decision"
+
+#. copy/decisionNote
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/decisionNote"
+msgid ""
+"The decision follows blocking conditions, irreducible disputes, and each "
+"seat's opinion; no average ethics score is calculated."
+msgstr ""
+"The decision follows blocking conditions, irreducible disputes, and each "
+"seat's opinion; no average ethics score is calculated."
+
+#. copy/protocol
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/protocol"
+msgid "Formal ethics file"
+msgstr "Formal ethics file"
+
+#. copy/revision
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/revision"
+msgid "Revision"
+msgstr "Revision"
+
+#. copy/status
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/status"
+msgid "File status"
+msgstr "File status"
+
+#. copy/active
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/active"
+msgid "Active version"
+msgstr "Active version"
+
+#. copy/superseded
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/superseded"
+msgid "Superseded by a later version"
+msgstr "Superseded by a later version"
+
+#. copy/withdrawn
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdrawn"
+msgid "Withdrawn"
+msgstr "Withdrawn"
+
+#. copy/submittedAt
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/submittedAt"
+msgid "Submitted"
+msgstr "Submitted"
+
+#. copy/print
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/print"
+msgid "Print / save formal review as PDF"
+msgstr "Print / save formal review as PDF"
+
+#. copy/revise
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/revise"
+msgid "Revise from the five opinions"
+msgstr "Revise from the five opinions"
+
+#. copy/withdraw
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdraw"
+msgid "Withdraw this version"
+msgstr "Withdraw this version"
+
+#. copy/withdrawReason
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdrawReason"
+msgid "Reason for withdrawal (retained in the on-device version chain)"
+msgstr "Reason for withdrawal (retained in the on-device version chain)"
+
+#. copy/confirmWithdraw
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/confirmWithdraw"
+msgid "I understand withdrawal does not delete existing review opinions"
+msgstr "I understand withdrawal does not delete existing review opinions"
+
+#. copy/withdrawAction
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdrawAction"
+msgid "Stamp withdrawn"
+msgstr "Stamp withdrawn"
+
+#. copy/share
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/share"
+msgid "Copy this file link"
+msgstr "Copy this file link"
+
+#. copy/shared
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/shared"
+msgid "The file address was copied."
+msgstr "The file address was copied."
+
+#. copy/noRecords
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/noRecords"
+msgid ""
+"No formal submission exists on this device. The five seats are using blank "
+"paper as tea coasters."
+msgstr ""
+"No formal submission exists on this device. The five seats are using blank "
+"paper as tea coasters."
+
+#. copy/openProtocol
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/openProtocol"
+msgid "Read file"
+msgstr "Read file"
+
+#. copy/versionChain
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/versionChain"
+msgid "Version chain for this protocol"
+msgstr "Version chain for this protocol"
+
+#. copy/localOnly
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/localOnly"
+msgid ""
+"Drafts, submissions, and reviews stay in this browser. Formal event indexes "
+"appear in My TU and can be exported through the records cabinet."
+msgstr ""
+"Drafts, submissions, and reviews stay in this browser. Formal event indexes "
+"appear in My TU and can be exported through the records cabinet."
+
+#. copy/browseCabinet
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/browseCabinet"
+msgid "Open records cabinet"
+msgstr "Open records cabinet"
+
+#. copy/browseMyTu
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/browseMyTu"
+msgid "View My TU history"
+msgstr "View My TU history"
+
+#. copy/committeeFiled
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/committeeFiled"
+msgid "All five opinions were filed separately."
+msgstr "All five opinions were filed separately."
+
+#. copy/amended
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/amended"
+msgid "The amendment was reviewed; the previous version was not erased."
+msgstr "The amendment was reviewed; the previous version was not erased."
+
+#. copy/withdrawnToast
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdrawnToast"
+msgid "Withdrawal stamped; existing opinions remain in the version chain."
+msgstr "Withdrawal stamped; existing opinions remain in the version chain."
+
+#. copy/documentTitle
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/documentTitle"
+msgid "Research Ethics Review Decision"
+msgstr "Research Ethics Review Decision"
+
+#. copy/documentNotice
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/documentNotice"
+msgid ""
+"A majority summary may not replace seat-level conditions. Withdrawal, "
+"amendment, and minority opinions remain part of the file."
+msgstr ""
+"A majority summary may not replace seat-level conditions. Withdrawal, "
+"amendment, and minority opinions remain part of the file."
+
+#. copy/originalCase
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/originalCase"
+msgid "Specimen source case"
+msgstr "Specimen source case"
+
+#. copy/plan
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/plan"
+msgid "Research plan"
+msgstr "Research plan"
+
+#. copy/pageBoard
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/pageBoard"
+msgid "Case shelf"
+msgstr "Case shelf"
+
+#. copy/pageForm
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/pageForm"
+msgid "Submission desk"
+msgstr "Submission desk"
+
+#. copy/pageRecords
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/pageRecords"
+msgid "On-device files"
+msgstr "On-device files"

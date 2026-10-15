@@ -1,0 +1,554 @@
+.clinic-care-plans li > b {
+  color: #497557;
+  font-size: .62rem;
+}
+
+.clinic-account-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 13px;
+}
+
+.clinic-account-grid > section {
+  border: 1px solid #c6cec7;
+  background: #faf9f4;
+}
+
+.clinic-account-grid > section > header {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 19px;
+  border-bottom: 2px solid #203c32;
+  background: #203c32;
+  color: #fff;
+}
+
+.clinic-account-grid > section > header h4 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.15rem;
+}
+
+.clinic-account-grid > section > header b {
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.clinic-account-grid article {
+  position: relative;
+  padding: 19px;
+  border-bottom: 1px solid #d5dad5;
+}
+
+.clinic-account-grid article > span {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.clinic-account-grid h5 {
+  max-width: calc(100% - 95px);
+  margin: 0 0 10px;
+  color: #947147;
+  font: 800 .68rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.clinic-account-grid article > p {
+  min-height: 43px;
+  margin: 0 0 13px;
+  font-family: var(--serif);
+  font-size: .94rem;
+  line-height: 1.4;
+}
+
+.clinic-account-grid dl {
+  margin: 0;
+}
+
+.clinic-account-grid dl div {
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
+  padding: 6px 0;
+  border-top: 1px dashed #d6dbd6;
+  font-size: .65rem;
+}
+
+.clinic-account-grid dd {
+  margin: 0;
+  color: #63716b;
+  text-align: right;
+}
+
+.clinic-account-grid article > button,
+.clinic-account-grid article > a {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 13px;
+  padding: 8px 0;
+  border: 0;
+  border-top: 1px solid #7c2635;
+  background: transparent;
+  color: #7c2635;
+  font-size: .67rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.clinic-bbs-echoes {
+  margin-top: 52px;
+  padding: clamp(22px, 4vw, 42px);
+  background: #1b342b;
+  color: #f6f1e7;
+}
+
+.clinic-bbs-echoes > header {
+  border-color: rgba(255, 255, 255, .16);
+}
+
+.clinic-bbs-echoes > header > span {
+  color: rgba(255, 255, 255, .62);
+}
+
+.clinic-bbs-echoes > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.clinic-bbs-echoes article {
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, .15);
+  background: rgba(255, 255, 255, .04);
+}
+
+.clinic-bbs-echoes article > span {
+  color: #dabd7d;
+  font: 800 .6rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.clinic-bbs-echoes h4 {
+  margin: 9px 0;
+  font-family: var(--serif);
+  font-size: 1.04rem;
+}
+
+.clinic-bbs-echoes article p {
+  color: rgba(255, 255, 255, .68);
+  font-size: .72rem;
+  line-height: 1.6;
+}
+
+.clinic-bbs-echoes article small {
+  color: rgba(255, 255, 255, .45);
+  font-size: .61rem;
+}
+
+.clinic-empty {
+  margin: 0;
+  padding: 32px;
+  border: 1px dashed #bdc6be;
+  color: #77837d;
+  font-size: .8rem;
+  line-height: 1.7;
+}
+
+.clinic-receipt-dialog {
+  width: min(900px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+  padding: 0;
+  border: 0;
+  background: #f7f4ed;
+  box-shadow: 0 28px 100px rgba(8, 21, 16, .45);
+}
+
+.clinic-receipt-dialog::backdrop {
+  background: rgba(9, 20, 16, .78);
+}
+
+.clinic-receipt-dialog > footer {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 17px 24px;
+  border-top: 1px solid #cbd1ca;
+}
+
+.clinic-receipt {
+  margin: 28px;
+  padding: clamp(24px, 5vw, 56px);
+  border: 2px solid #223f34;
+  background:
+    linear-gradient(rgba(34, 63, 52, .035) 1px, transparent 1px),
+    #fffdf6;
+  background-size: 100% 29px;
+  color: #182921;
+}
+
+.clinic-receipt > header {
+  display: grid;
+  grid-template-columns: 64px 1fr auto;
+  gap: 16px;
+  align-items: center;
+  padding-bottom: 19px;
+  border-bottom: 3px double #223f34;
+}
+
+.clinic-receipt-mark {
+  display: grid;
+  width: 58px;
+  height: 58px;
+  place-items: center;
+  border: 2px solid #7c2635;
+  border-radius: 50%;
+  color: #7c2635;
+  font-family: var(--serif);
+  font-size: 1.7rem;
+}
+
+.clinic-receipt header p {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.2rem;
+}
+
+.clinic-receipt header span,
+.clinic-receipt header code {
+  color: #6b7872;
+  font: 700 .63rem/1.3 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.clinic-receipt > section:nth-of-type(1) {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.clinic-receipt > section:nth-of-type(1) p {
+  margin: 0 0 9px;
+  color: #7c2635;
+  font: 800 .68rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: .12em;
+}
+
+.clinic-receipt > section:nth-of-type(1) h2 {
+  margin: 0 0 7px;
+  font-family: var(--serif);
+  font-size: 2.2rem;
+}
+
+.clinic-receipt > section:nth-of-type(1) span {
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: .72rem;
+}
+
+.clinic-receipt > dl {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  border-top: 1px solid #7b8882;
+  border-left: 1px solid #7b8882;
+}
+
+.clinic-receipt > dl div {
+  padding: 12px 14px;
+  border-right: 1px solid #7b8882;
+  border-bottom: 1px solid #7b8882;
+}
+
+.clinic-receipt dt {
+  color: #7c2635;
+  font-size: .64rem;
+  font-weight: 800;
+}
+
+.clinic-receipt dd {
+  margin: 5px 0 0;
+  font-size: .76rem;
+}
+
+.clinic-receipt-rx,
+.clinic-receipt-care {
+  margin-top: 28px;
+}
+
+.clinic-receipt-rx h3,
+.clinic-receipt-care h3 {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #223f34;
+  font-family: var(--serif);
+}
+
+.clinic-receipt-rx article {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px dashed #aeb7b0;
+}
+
+.clinic-receipt-rx article i {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid #7c2635;
+  border-radius: 50%;
+  color: #7c2635;
+  font-family: var(--serif);
+  font-style: normal;
+}
+
+.clinic-receipt-rx strong,
+.clinic-receipt-rx span,
+.clinic-receipt-rx small {
+  display: block;
+}
+
+.clinic-receipt-rx span {
+  margin-top: 4px;
+  font-size: .72rem;
+  line-height: 1.5;
+}
+
+.clinic-receipt-rx small {
+  margin-top: 4px;
+  color: #7c2635;
+  font-size: .65rem;
+}
+
+.clinic-receipt > footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 3px double #223f34;
+  color: #64716b;
+  font-size: .65rem;
+  line-height: 1.6;
+}
+
+.clinic-receipt > footer p {
+  max-width: 650px;
+  margin: 0;
+}
+
+@media (max-width: 1080px) {
+  .clinic-hero {
+    grid-template-columns: .8fr 1.2fr;
+  }
+
+  .clinic-therapy-catalogue,
+  .clinic-account-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .clinic-care-plans ol {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .clinic-section {
+    padding-top: 22px;
+  }
+
+  .clinic-hero {
+    display: block;
+  }
+
+  .clinic-hero-media {
+    min-height: 240px;
+  }
+
+  .clinic-hero-media::after {
+    background: linear-gradient(0deg, #14251f, transparent 68%);
+  }
+
+  .clinic-hero-copy {
+    margin-top: -30px;
+    padding: 28px 22px 30px;
+  }
+
+  .clinic-hero-copy h2 {
+    font-size: 2.3rem;
+  }
+
+  .clinic-hero-copy dl {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .clinic-tabs {
+    top: 60px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .clinic-tabs a {
+    flex: 0 0 58%;
+    border-bottom: 0;
+    scroll-snap-align: start;
+  }
+
+  .clinic-active-visit {
+    grid-template-columns: 62px 1fr;
+    gap: 15px;
+    padding: 18px;
+  }
+
+  .clinic-active-visit > span {
+    width: 54px;
+    height: 54px;
+  }
+
+  .clinic-active-visit > button {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .clinic-network > header,
+  .clinic-queue > header,
+  .clinic-triage > header,
+  .clinic-prescriptions > header,
+  .clinic-care-plans > header,
+  .clinic-bbs-echoes > header,
+  .clinic-section-heading {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .clinic-network > div,
+  .clinic-queue-grid,
+  .clinic-prescriptions > div,
+  .clinic-therapy-catalogue,
+  .clinic-account-grid,
+  .clinic-bbs-echoes > div {
+    grid-template-columns: 1fr;
+  }
+
+  .clinic-queue-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .clinic-queue-grid article {
+    flex: 0 0 88%;
+    scroll-snap-align: start;
+  }
+
+  .clinic-complaints > div {
+    grid-template-columns: 1fr;
+  }
+
+  .clinic-triage-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .clinic-triage-notes {
+    grid-column: auto;
+  }
+
+  .clinic-triage form > footer {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .clinic-triage form > footer > span {
+    margin: 0 0 8px;
+  }
+
+  .clinic-medicine-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .clinic-pharmacy-layout {
+    display: block;
+  }
+
+  .clinic-medicine-list {
+    display: flex;
+    max-height: none;
+    overflow-x: auto;
+    border-right: 0;
+    border-bottom: 1px solid #bdc6be;
+  }
+
+  .clinic-medicine-list > a {
+    flex: 0 0 78%;
+    border-right: 1px solid #d8dcd7;
+  }
+
+  .clinic-medicine-file {
+    min-height: 590px;
+    padding: 27px 20px;
+  }
+
+  .clinic-medicine-file dl div {
+    grid-template-columns: 1fr;
+    gap: 7px;
+  }
+
+  .clinic-prescriptions li {
+    grid-template-columns: 36px 1fr;
+  }
+
+  .clinic-prescriptions li button,
+  .clinic-prescriptions li > b {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .clinic-care-plans ol {
+    grid-template-columns: 1fr;
+  }
+
+  .clinic-care-plans li {
+    min-height: 95px;
+  }
+
+  .clinic-receipt {
+    margin: 12px;
+    padding: 20px;
+  }
+
+  .clinic-receipt > header {
+    grid-template-columns: 50px 1fr;
+  }
+
+  .clinic-receipt header code {
+    grid-column: 1 / -1;
+  }
+
+  .clinic-receipt > dl {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  body:has(.clinic-receipt-dialog[open]) > :not(.clinic-receipt-dialog) {
+    display: none !important;
+  }
+
+  .clinic-receipt-dialog[open] {
+    position: static;
+    display: block;
+    width: 100%;
+    max-height: none;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .clinic-receipt-dialog > .dialog-close,
+  .clinic-receipt-dialog > footer {
+    display: none !important;
+  }
+
+  .clinic-receipt {
+    margin: 0;
+    break-inside: avoid;
+  }
+}

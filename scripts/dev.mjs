@@ -1,38 +1,54 @@
 import { spawn } from "node:child_process";
-import { watch } from "node:fs";
+import { mkdirSync, watch } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const port = process.env.PORT || "4173";
 let timer;
+let building;
+let pending = false;
+let stopping = false;
 
 function build() {
-  const child = spawn(process.execPath, ["scripts/build.mjs"], {
+  if (building) { pending = true; return; }
+  building = spawn(process.execPath, ["scripts/build.mjs"], {
     cwd: root,
     stdio: "inherit",
   });
-  child.on("exit", (code) => {
+  building.on("exit", (code) => {
+    building = undefined;
     if (code) console.error(`Build exited with code ${code}`);
+    if (pending && !stopping) { pending = false; build(); }
   });
 }
 
+mkdirSync(path.join(root, "dist"), { recursive: true });
 build();
 
-const watcher = watch(path.join(root, "src"), { recursive: true }, () => {
+function changed(filename) {
+  if (String(filename).startsWith("generated/") || String(filename).endsWith(".pot")) return;
   clearTimeout(timer);
   timer = setTimeout(build, 120);
-});
+}
+
+const watchers = [
+  ...["src", "locales", "public"].map((directory) => watch(path.join(root, directory), { recursive: true }, (_, filename) => changed(filename))),
+  watch(path.join(root, "site.config.mjs"), () => changed("site.config.mjs")),
+];
 
 const server = spawn("python3", ["-m", "http.server", port, "--bind", "127.0.0.1"], {
-  cwd: root,
+  cwd: path.join(root, "dist"),
   stdio: "inherit",
 });
 
-console.log(`Watching src/ and serving http://127.0.0.1:${port}`);
+console.log(`Watching src/, locales/, public/ and site.config.mjs; serving http://127.0.0.1:${port}`);
 
 function stop() {
-  watcher.close();
+  stopping = true;
+  clearTimeout(timer);
+  watchers.forEach((watcher) => watcher.close());
+  building?.kill("SIGTERM");
   server.kill("SIGINT");
 }
 

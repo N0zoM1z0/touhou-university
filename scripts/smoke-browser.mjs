@@ -4,10 +4,10 @@ import { mkdtemp, rm } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { browserPorts } from "./browser/ports.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const sitePort = 4187;
-const debugPort = 9333;
+const { sitePort, debugPort } = await browserPorts(process.env.BROWSER_SITE_PORT, process.env.BROWSER_DEBUG_PORT);
 const siteUrl = `http://127.0.0.1:${sitePort}/`;
 const profile = await mkdtemp(path.join(os.tmpdir(), "tu-browser-"));
 const chrome = [
@@ -23,7 +23,7 @@ if (!chrome) {
 }
 
 const server = spawn("python3", ["-m", "http.server", String(sitePort), "--bind", "127.0.0.1"], {
-  cwd: root,
+  cwd: path.join(root, "dist"),
   stdio: "ignore",
 });
 const browser = spawn(chrome, [
@@ -122,7 +122,12 @@ function check(condition, message) {
 async function navigate(pathname, selector = "body") {
   const expected = new URL(pathname, siteUrl);
   await cdp.call("Page.navigate", { url: expected.href });
-  await eventually(() => cdp.evaluate(`document.readyState === "complete" && document.documentElement.dataset.tuReady === "true" && location.pathname === ${JSON.stringify(expected.pathname)} && Boolean(document.querySelector(${JSON.stringify(selector)}))`));
+  try {
+    await eventually(() => cdp.evaluate(`document.readyState === "complete" && document.documentElement.dataset.tuReady === "true" && location.pathname === ${JSON.stringify(expected.pathname)} && Boolean(document.querySelector(${JSON.stringify(selector)}))`));
+  } catch (error) {
+    const state = await cdp.evaluate(`({ url: location.href, ready: document.readyState, tuReady: document.documentElement.dataset.tuReady })`);
+    throw new Error(`Navigation did not become ready: ${JSON.stringify(state)}\n${errors.join("\n") || error.message}`);
+  }
   await delay(120);
 }
 
@@ -141,6 +146,24 @@ try {
   });
   await Promise.all([cdp.call("Runtime.enable"), cdp.call("Log.enable"), cdp.call("Page.enable")]);
   await navigate("index.html", "body");
+  const keyedTranslations = await cdp.evaluate(`(() => {
+    const fixture = document.createElement('section');
+    fixture.innerHTML = '<p data-authored-copy>學校介紹</p><p data-i18n="navAbout">學校介紹</p><a><!-- i18n:navAbout -->學校介紹<b>↗</b></a><input value="學校介紹" placeholder="學校介紹" data-i18n-placeholder="navAbout">';
+    document.body.append(fixture);
+    const results = [];
+    for (const [locale, expected] of [['en', 'About'], ['ja', '大学紹介'], ['zh-Hant', '學校介紹']]) {
+      document.querySelector('[data-lang="' + locale + '"]').click();
+      results.push(fixture.querySelector('[data-i18n]').textContent === expected
+        && fixture.querySelector('a').firstChild.nextSibling.nodeValue === expected
+        && fixture.querySelector('a b').textContent === '↗'
+        && fixture.querySelector('input').placeholder === expected
+        && fixture.querySelector('input').value === '學校介紹'
+        && fixture.querySelector('[data-authored-copy]').textContent === '學校介紹');
+    }
+    fixture.remove();
+    return results.every(Boolean);
+  })()`);
+  check(keyedTranslations, "PO-backed language switching changed visitor text, lost a mixed-content child, or failed a keyed translation.");
   await cdp.evaluate("localStorage.clear(); sessionStorage.clear(); true");
   await navigate("phantasm.html#phantasm-campus", "[data-phantasm-app]");
   const lockedPhantasm = await cdp.evaluate(`({
@@ -424,12 +447,15 @@ try {
   await navigate("campus.html#map", "#map");
   await eventually(() => cdp.evaluate("document.querySelectorAll('[name=\"route-mode\"]').length === 4"));
   const nearbyFacilities = await cdp.evaluate(`(async () => {
+    const { liveRoomAvailability } = await import('./src/data/live-campus.js');
     document.querySelector('#map [data-service="availability"]').click();
     await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
     const dialog = document.querySelector('[data-service-dialog]');
     const opened = {
       open: dialog.open,
       rooms: dialog.querySelectorAll('.room-card').length,
+      expectedRooms: liveRoomAvailability().filter((room) => room.available).length,
+      emptyNotice: Boolean(dialog.querySelector('.room-list-empty')?.textContent.trim()),
       hash: location.hash
     };
     dialog.querySelector('[data-service-close]').click();
@@ -438,11 +464,12 @@ try {
   })()`);
   check(
     nearbyFacilities.open
-      && nearbyFacilities.rooms > 0
+      && nearbyFacilities.rooms === nearbyFacilities.expectedRooms
+      && nearbyFacilities.emptyNotice === (nearbyFacilities.expectedRooms === 0)
       && nearbyFacilities.hash === "#service-availability"
       && nearbyFacilities.closed
       && nearbyFacilities.returnHash === "#map",
-    "Map nearby-facility action did not open, render, or return to the map.",
+    `Map nearby-facility action did not open, render, or return to the map: ${JSON.stringify(nearbyFacilities)}`,
   );
   const routes = await cdp.evaluate(`(() => {
     const form = document.querySelector('[data-route-form]');
@@ -484,6 +511,7 @@ try {
   );
   check(routes.bbs, "Campus page BBS is missing.");
   const campusActions = await cdp.evaluate(`(async () => {
+    const { liveRoomAvailability } = await import('./src/data/live-campus.js');
     document.querySelector('[data-campus-feature="library"]').click();
     await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
     const info = document.querySelector('[data-info-dialog]');
@@ -491,7 +519,10 @@ try {
     info.querySelector('[data-info-action]').click();
     await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
     const service = document.querySelector('[data-service-dialog]');
-    const featureContinued = service.open && service.querySelectorAll('.room-card').length > 0;
+    const expectedRooms = liveRoomAvailability().filter((room) => room.available).length;
+    const featureContinued = service.open
+      && service.querySelectorAll('.room-card').length === expectedRooms
+      && Boolean(service.querySelector('.room-list-empty')?.textContent.trim()) === (expectedRooms === 0);
     service.querySelector('[data-service-close]').click();
     await new Promise((resolve) => setTimeout(resolve, 120));
 
@@ -523,7 +554,7 @@ try {
       && campusActions.votes === 1
       && campusActions.governancePost
       && campusActions.liveDining,
-    "Campus cards, Continue actions, clubs, governance, or live service buttons contain an inactive action.",
+    `Campus cards, Continue actions, clubs, governance, or live service buttons contain an inactive action: ${JSON.stringify(campusActions)}`,
   );
 
   await cdp.evaluate(`(() => {

@@ -1,0 +1,488 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. contracts.0.identity.created.1
+#: src/data/event-contracts.js:56
+msgctxt "text:contracts.0.identity.created.1"
+msgid "Created on-device campus identity"
+msgstr "端末内キャンパス身分を作成"
+
+#. contracts.1.identity.updated.1
+#: src/data/event-contracts.js:60
+msgctxt "text:contracts.1.identity.updated.1"
+msgid "Updated on-device identity"
+msgstr "端末内身分情報を更新"
+
+#. contracts.2.application.submitted.1
+#: src/data/event-contracts.js:64
+msgctxt "text:contracts.2.application.submitted.1"
+msgid "Submitted an application"
+msgstr "入学出願を提出"
+
+#. contracts.3.application.reviewed.1
+#: src/data/event-contracts.js:67
+msgctxt "text:contracts.3.application.reviewed.1"
+msgid "Completed joint faculty review"
+msgstr "教員合同審査を完了"
+
+#. contracts.4.application.deleted.1
+#: src/data/event-contracts.js:71
+msgctxt "text:contracts.4.application.deleted.1"
+msgid "Removed a record from the on-device application file"
+msgstr "端末内出願ファイルから記録を削除"
+
+#. contracts.5.orientation.dossier.opened.1
+#: src/data/event-contracts.js:75
+msgctxt "text:contracts.5.orientation.dossier.opened.1"
+msgid "Opened a new-student arrival file"
+msgstr "新入生到着票を開封"
+
+#. contracts.6.orientation.arrival.confirmed.1
+#: src/data/event-contracts.js:80
+msgctxt "text:contracts.6.orientation.arrival.confirmed.1"
+msgid "Confirmed the new-student arrival route"
+msgstr "新入生の到着経路を確認"
+
+#. contracts.7.orientation.boundary.confirmed.1
+#: src/data/event-contracts.js:85
+msgctxt "text:contracts.7.orientation.boundary.confirmed.1"
+msgid "Confirmed stop signal and detour notice"
+msgstr "停止合図・迂回通知を確認"
+
+#. contracts.8.orientation.matriculated.1
+#: src/data/event-contracts.js:90
+msgctxt "text:contracts.8.orientation.matriculated.1"
+msgid "Rang First Bell and filed arrival"
+msgstr "第一鐘を鳴らし到着記録を成立"
+
+#. contracts.9.visit.reserved.1
+#: src/data/event-contracts.js:95
+msgctxt "text:contracts.9.visit.reserved.1"
+msgid "Reserved a campus visit"
+msgstr "来校予約を登録"
+
+#. contracts.10.visit.deleted.1
+#: src/data/event-contracts.js:98
+msgctxt "text:contracts.10.visit.deleted.1"
+msgid "Removed a record from the on-device visit file"
+msgstr "端末内予約ファイルから記録を削除"
+
+#. contracts.11.exam.completed.1
+#: src/data/event-contracts.js:101
+msgctxt "text:contracts.11.exam.completed.1"
+msgid "Completed an entrance exam"
+msgstr "入学試験を完了"
+
+#. contracts.12.exam.deleted.1
+#: src/data/event-contracts.js:104
+msgctxt "text:contracts.12.exam.deleted.1"
+msgid "Removed a score from the on-device entrance-exam file"
+msgstr "端末内試験ファイルから成績を削除"
+
+#. contracts.13.gaokao.completed.1
+#: src/data/event-contracts.js:107
+msgctxt "text:contracts.13.gaokao.completed.1"
+msgid "Completed the Gensokyo unified exam"
+msgstr "幻想郷統一試験を完了"
+
+#. contracts.14.gaokao.deleted.1
+#: src/data/event-contracts.js:111
+msgctxt "text:contracts.14.gaokao.deleted.1"
+msgid "Removed a score from the on-device unified-exam file"
+msgstr "端末内統一試験ファイルから成績を削除"
+
+#. contracts.15.bbs.posted.1
+#: src/data/event-contracts.js:114
+msgctxt "text:contracts.15.bbs.posted.1"
+msgid "Published to Campus BBS"
+msgstr "学内 BBS へ投稿"
+
+#. contracts.16.course.enrolled.1
+#: src/data/event-contracts.js:117
+msgctxt "text:contracts.16.course.enrolled.1"
+msgid "Added a course to the term timetable"
+msgstr "今学期の時間割へ追加"
+
+#. contracts.17.course.waitlisted.1
+#: src/data/event-contracts.js:121
+msgctxt "text:contracts.17.course.waitlisted.1"
+msgid "Joined a course waitlist"
+msgstr "科目補欠へ登録"
+
+#. contracts.18.course.dropped.1
+#: src/data/event-contracts.js:125
+msgctxt "text:contracts.18.course.dropped.1"
+msgid "Dropped a current course"
+msgstr "今学期の履修を取消"
+
+#. contracts.19.course.waitlist.cancelled.1
+#: src/data/event-contracts.js:129
+msgctxt "text:contracts.19.course.waitlist.cancelled.1"
+msgid "Left a course waitlist"
+msgstr "科目補欠を取消"
+
+#. contracts.20.book.borrowed.1
+#: src/data/event-contracts.js:133
+msgctxt "text:contracts.20.book.borrowed.1"
+msgid "Borrowed library holding"
+msgstr "霧の湖資料を貸出"
+
+#. contracts.21.book.renewed.1
+#: src/data/event-contracts.js:137
+msgctxt "text:contracts.21.book.renewed.1"
+msgid "Renewed library holding"
+msgstr "霧の湖資料を更新"
+
+#. contracts.22.book.returned.1
+#: src/data/event-contracts.js:141
+msgctxt "text:contracts.22.book.returned.1"
+msgid "Returned library holding"
+msgstr "霧の湖資料を返却"
+
+#. contracts.23.book.held.1
+#: src/data/event-contracts.js:145
+msgctxt "text:contracts.23.book.held.1"
+msgid "Placed library hold"
+msgstr "霧の湖資料を予約"
+
+#. contracts.24.book.hold.cancelled.1
+#: src/data/event-contracts.js:149
+msgctxt "text:contracts.24.book.hold.cancelled.1"
+msgid "Cancelled library hold"
+msgstr "資料予約を取消"
+
+#. contracts.25.housing.application.submitted.1
+#: src/data/event-contracts.js:153
+msgctxt "text:contracts.25.housing.application.submitted.1"
+msgid "Submitted housing needs"
+msgstr "入寮希望を提出"
+
+#. contracts.26.housing.offer.declined.1
+#: src/data/event-contracts.js:157
+msgctxt "text:contracts.26.housing.offer.declined.1"
+msgid "Passed on a room offer"
+msgstr "配室案を見送る"
+
+#. contracts.27.housing.assignment.accepted.1
+#: src/data/event-contracts.js:161
+msgctxt "text:contracts.27.housing.assignment.accepted.1"
+msgid "Accepted a residence room"
+msgstr "学生寮の部屋を受諾"
+
+#. contracts.28.housing.change.requested.1
+#: src/data/event-contracts.js:169
+msgctxt "text:contracts.28.housing.change.requested.1"
+msgid "Submitted a room-transfer request"
+msgstr "転室依頼を提出"
+
+#. contracts.29.housing.change.cancelled.1
+#: src/data/event-contracts.js:174
+msgctxt "text:contracts.29.housing.change.cancelled.1"
+msgid "Withdrew a room-transfer request"
+msgstr "転室依頼を撤回"
+
+#. contracts.30.incident.experiment.completed.1
+#: src/data/event-contracts.js:179
+msgctxt "text:contracts.30.incident.experiment.completed.1"
+msgid "Completed an incident research simulation"
+msgstr "事案研究シミュレーションを完了"
+
+#. contracts.31.incident.resolved.1
+#: src/data/event-contracts.js:184
+msgctxt "text:contracts.31.incident.resolved.1"
+msgid "Closed a case and published linked reactions"
+msgstr "事案を終結し連動を公開"
+
+#. contracts.32.governance.vote.cast.1
+#: src/data/event-contracts.js:189
+msgctxt "text:contracts.32.governance.vote.cast.1"
+msgid "Cast an on-device governance vote"
+msgstr "端末内学務議事票を投票"
+
+#. contracts.33.academic.assignment.graded.1
+#: src/data/event-contracts.js:193
+msgctxt "text:contracts.33.academic.assignment.graded.1"
+msgid "Submitted and graded course work"
+msgstr "授業課題を提出・採点"
+
+#. contracts.34.academic.exam.started.1
+#: src/data/event-contracts.js:197
+msgctxt "text:contracts.34.academic.exam.started.1"
+msgid "Started a timed course exam"
+msgstr "計時授業試験を開始"
+
+#. contracts.35.academic.exam.completed.1
+#: src/data/event-contracts.js:201
+msgctxt "text:contracts.35.academic.exam.completed.1"
+msgid "Completed a timed course exam"
+msgstr "計時授業試験を完了"
+
+#. contracts.36.academic.project.submitted.1
+#: src/data/event-contracts.js:205
+msgctxt "text:contracts.36.academic.project.submitted.1"
+msgid "Submitted a thesis / spell-card project"
+msgstr "論文／スペルカード研究計画を提出"
+
+#. contracts.37.academic.defence.completed.1
+#: src/data/event-contracts.js:209
+msgctxt "text:contracts.37.academic.defence.completed.1"
+msgid "Completed a thesis / spell-card defence"
+msgstr "論文／スペルカード答弁を完了"
+
+#. contracts.38.clinic.visit.checked-in.1
+#: src/data/event-contracts.js:213
+msgctxt "text:contracts.38.clinic.visit.checked-in.1"
+msgid "Completed campus-hospital triage check-in"
+msgstr "校医院トリアージ受付を完了"
+
+#. contracts.39.clinic.consultation.completed.1
+#: src/data/event-contracts.js:216
+msgctxt "text:contracts.39.clinic.consultation.completed.1"
+msgid "Completed consultation and received a prescription"
+msgstr "診察完了・処方発行"
+
+#. contracts.40.clinic.prescription.dispensed.1
+#: src/data/event-contracts.js:220
+msgctxt "text:contracts.40.clinic.prescription.dispensed.1"
+msgid "Collected a campus-hospital prescription"
+msgstr "校医院処方を受取"
+
+#. contracts.41.clinic.dose.recorded.1
+#: src/data/event-contracts.js:228
+msgctxt "text:contracts.41.clinic.dose.recorded.1"
+msgid "Recorded one on-device dose"
+msgstr "端末内服用を一回記録"
+
+#. contracts.42.clinic.therapy.started.1
+#: src/data/event-contracts.js:234
+msgctxt "text:contracts.42.clinic.therapy.started.1"
+msgid "Started a recovery therapy"
+msgstr "回復療法を開始"
+
+#. contracts.43.clinic.therapy.step.completed.1
+#: src/data/event-contracts.js:239
+msgctxt "text:contracts.43.clinic.therapy.step.completed.1"
+msgid "Completed one recovery step"
+msgstr "回復段階を一つ完了"
+
+#. contracts.44.clinic.therapy.completed.1
+#: src/data/event-contracts.js:244
+msgctxt "text:contracts.44.clinic.therapy.completed.1"
+msgid "Completed a recovery course"
+msgstr "回復療法を完了"
+
+#. contracts.45.appraisal.completed.1
+#: src/data/event-contracts.js:249
+msgctxt "text:contracts.45.appraisal.completed.1"
+msgid "Completed an Outside drift-object appraisal"
+msgstr "外界漂流物鑑定を完了"
+
+#. contracts.46.appraisal.catalogued.1
+#: src/data/event-contracts.js:253
+msgctxt "text:contracts.46.appraisal.catalogued.1"
+msgid "Catalogued a drift object at Misty Lake"
+msgstr "漂流物を霧の湖蔵書へ編入"
+
+#. contracts.47.spellcard.design.saved.1
+#: src/data/event-contracts.js:257
+msgctxt "text:contracts.47.spellcard.design.saved.1"
+msgid "Archived a spell-card design version"
+msgstr "スペルカード設計版を保存"
+
+#. contracts.48.spellcard.defence.completed.1
+#: src/data/event-contracts.js:261
+msgctxt "text:contracts.48.spellcard.defence.completed.1"
+msgid "Completed a public spell-card defence"
+msgstr "スペルカード公開答弁を完了"
+
+#. contracts.49.festival.plan.submitted.1
+#: src/data/event-contracts.js:265
+msgctxt "text:contracts.49.festival.plan.submitted.1"
+msgid "Submitted a festival operations plan"
+msgstr "祭典運営案を提出"
+
+#. contracts.50.festival.permit.issued.1
+#: src/data/event-contracts.js:269
+msgctxt "text:contracts.50.festival.permit.issued.1"
+msgid "Received a six-desk festival permit"
+msgstr "六机祭典許可を取得"
+
+#. contracts.51.festival.shift.started.1
+#: src/data/event-contracts.js:274
+msgctxt "text:contracts.51.festival.shift.started.1"
+msgid "Rang the opening bell and took a duty badge"
+msgstr "開祭鐘を鳴らし当番札を受取"
+
+#. contracts.52.festival.incident.resolved.1
+#: src/data/event-contracts.js:280
+msgctxt "text:contracts.52.festival.incident.resolved.1"
+msgid "Resolved a festival field case"
+msgstr "祭典現場案件を処置"
+
+#. contracts.53.festival.report.closed.1
+#: src/data/event-contracts.js:287
+msgctxt "text:contracts.53.festival.report.closed.1"
+msgid "Completed recovery and filed the festival closing report"
+msgstr "回収を終え閉祭報告を封印"
+
+#. contracts.54.ethics.protocol.submitted.1
+#: src/data/event-contracts.js:293
+msgctxt "text:contracts.54.ethics.protocol.submitted.1"
+msgid "Submitted a research ethics protocol"
+msgstr "研究倫理計画を提出"
+
+#. contracts.55.ethics.review.completed.1
+#: src/data/event-contracts.js:298
+msgctxt "text:contracts.55.ethics.review.completed.1"
+msgid "Completed five-seat research ethics review"
+msgstr "五席研究倫理審査を完了"
+
+#. contracts.56.ethics.protocol.amended.1
+#: src/data/event-contracts.js:304
+msgctxt "text:contracts.56.ethics.protocol.amended.1"
+msgid "Submitted a research ethics amendment"
+msgstr "研究倫理修正版を提出"
+
+#. contracts.57.ethics.protocol.withdrawn.1
+#: src/data/event-contracts.js:310
+msgctxt "text:contracts.57.ethics.protocol.withdrawn.1"
+msgid "Withdrew a research ethics protocol"
+msgstr "研究倫理計画を取り下げ"
+
+#. contracts.58.property.claim.submitted.1
+#: src/data/event-contracts.js:316
+msgctxt "text:contracts.58.property.claim.submitted.1"
+msgid "Submitted a tsukumogami property claim"
+msgstr "付喪神物権申請を提出"
+
+#. contracts.59.property.ruling.issued.1
+#: src/data/event-contracts.js:321
+msgctxt "text:contracts.59.property.ruling.issued.1"
+msgid "Filed a tsukumogami property ruling"
+msgstr "付喪神物権裁定を保存"
+
+#. contracts.60.post.message.acknowledged.1
+#: src/data/event-contracts.js:327
+msgctxt "text:contracts.60.post.message.acknowledged.1"
+msgid "Acknowledged a tengu-post version"
+msgstr "鴉天狗通知の版を受領"
+
+#. contracts.61.post.correction.requested.1
+#: src/data/event-contracts.js:331
+msgctxt "text:contracts.61.post.correction.requested.1"
+msgid "Requested a corrected tengu-post copy"
+msgstr "鴉天狗へ訂正版を要求"
+
+#. contracts.62.post.notice.dispatched.1
+#: src/data/event-contracts.js:334
+msgctxt "text:contracts.62.post.notice.dispatched.1"
+msgid "Dispatched a campus notice"
+msgstr "学内通知を発送"
+
+#. contracts.63.calendar.event.saved.1
+#: src/data/event-contracts.js:338
+msgctxt "text:contracts.63.calendar.event.saved.1"
+msgid "Saved an academic-calendar leaf"
+msgstr "学年暦葉へ栞を追加"
+
+#. contracts.64.calendar.event.removed.1
+#: src/data/event-contracts.js:342
+msgctxt "text:contracts.64.calendar.event.removed.1"
+msgid "Removed an academic-calendar leaf"
+msgstr "学年暦葉の栞を解除"
+
+#. contracts.65.fieldwork.application.submitted.1
+#: src/data/event-contracts.js:347
+msgctxt "text:contracts.65.fieldwork.application.submitted.1"
+msgid "Submitted a fieldwork dispatch order"
+msgstr "境内実習派遣令を提出"
+
+#. contracts.66.fieldwork.departure.checked.1
+#: src/data/event-contracts.js:352
+msgctxt "text:contracts.66.fieldwork.departure.checked.1"
+msgid "Verified entry and began field duty"
+msgstr "入口を確認し現地当番を開始"
+
+#. contracts.67.fieldwork.complication.handled.1
+#: src/data/event-contracts.js:358
+msgctxt "text:contracts.67.fieldwork.complication.handled.1"
+msgid "Handled a field complication"
+msgstr "フィールド現場偏差へ初動"
+
+#. contracts.68.fieldwork.observation.logged.1
+#: src/data/event-contracts.js:364
+msgctxt "text:contracts.68.fieldwork.observation.logged.1"
+msgid "Submitted field observation and provenance"
+msgstr "フィールド観察・来歴鎖を提出"
+
+#. contracts.69.fieldwork.return.certified.1
+#: src/data/event-contracts.js:370
+msgctxt "text:contracts.69.fieldwork.return.certified.1"
+msgid "Certified return and received a field seal"
+msgstr "帰校認証を終え現地印を取得"
+
+#. contracts.70.graduation.audit.requested.1
+#: src/data/event-contracts.js:376
+msgctxt "text:contracts.70.graduation.audit.requested.1"
+msgid "Submitted an eight-desk graduation audit"
+msgstr "八席卒業判定へ提出"
+
+#. contracts.71.graduation.degree.issued.1
+#: src/data/event-contracts.js:381
+msgctxt "text:contracts.71.graduation.degree.issued.1"
+msgid "Unsealed a degree carrying an unresolved question"
+msgstr "未解決の問いを伴う学位を開封"
+
+#. contracts.72.career.plan.submitted.1
+#: src/data/event-contracts.js:387
+msgctxt "text:contracts.72.career.plan.submitted.1"
+msgid "Filed a career matching plan"
+msgstr "進路照合記録を保存"
+
+#. contracts.73.career.referral.sent.1
+#: src/data/event-contracts.js:392
+msgctxt "text:contracts.73.career.referral.sent.1"
+msgid "Sent a career referral by crow-tengu post"
+msgstr "鴉天狗便で進路推薦を発送"
+
+#. contracts.74.employment.application.submitted.1
+#: src/data/event-contracts.js:398
+msgctxt "text:contracts.74.employment.application.submitted.1"
+msgid "Dispatched a Gensokyo odd résumé"
+msgstr "幻想郷怪歴書を発送"
+
+#. contracts.75.employment.application.responded.1
+#: src/data/event-contracts.js:403
+msgctxt "text:contracts.75.employment.application.responded.1"
+msgid "Responded to an employer's first-edition review"
+msgstr "雇主の初版審査へ返信"
+
+#. contracts.76.employment.outcome.attested.1
+#: src/data/event-contracts.js:409
+msgctxt "text:contracts.76.employment.outcome.attested.1"
+msgid "Filed graduate whereabouts in the echo roll"
+msgstr "離校先を反響簿へ綴じる"
+
+#. contracts.77.alumni.profile.activated.1
+#: src/data/event-contracts.js:414
+msgctxt "text:contracts.77.alumni.profile.activated.1"
+msgid "Unsealed a Hyakki Yagyo alumni file"
+msgstr "百鬼夜行校友籍を開封"
+
+#. contracts.78.alumni.reunion.rsvp.1
+#: src/data/event-contracts.js:420
+msgctxt "text:contracts.78.alumni.reunion.rsvp.1"
+msgid "Replied to the Hyakki Yagyo lantern desk"
+msgstr "百鬼夜行の提灯席へ返信"
+
+#. contracts.79.alumni.mentorship.offered.1
+#: src/data/event-contracts.js:426
+msgctxt "text:contracts.79.alumni.mentorship.offered.1"
+msgid "Registered as a returning fieldwork mentor"
+msgstr "帰校フィールド指導資格を登録"

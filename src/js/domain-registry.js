@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/domain-registry.js";
 import { schools } from "../data/schools.js";
 import { facultyProfiles } from "../data/faculty.js";
 import { researchFiles } from "../data/research.js";
@@ -101,8 +102,8 @@ const domainManifests = [
   {
     id: "orientation",
     search(locale) {
-      const filed = locale === "ja" ? "到着記録" : locale === "en" ? "Arrival file" : "到着記錄";
-      const open = locale === "ja" ? "手続中" : locale === "en" ? "Arrival in progress" : "報到辦理中";
+      const filed = catalogText("filed")[locale];
+      const open = catalogText("open")[locale];
       return [
         entry("welcome", "orientation", orientationLocalized(orientationSeason.title, locale), orientationLocalized(orientationSeason.premise, locale), orientationSeason, 84),
         ...orientationStopSignals.map((signal) => entry("orientation-boundary", "orientation", orientationLocalized(signal.name, locale), orientationLocalized(signal.detail, locale), signal, 64)),
@@ -531,12 +532,8 @@ const domainManifests = [
           entry(
             "phantasm-campus",
             "phantasm",
-            locale === "ja" ? "夢境キャンパス／第九時限" : locale === "en" ? "Dream Campus / Ninth Period" : "夢境校區／第九節",
-            locale === "ja"
-              ? "未選経路学籍、裏側地図、夢科目と逆答弁"
-              : locale === "en"
-                ? "Untaken-route transcript, reverse map, dream courses, and reverse viva"
-                : "未選路線學籍、裏側地圖、夢課與反向答辯",
+            catalogText("domainManifests.phantasm.search.0.phantasm-campus.2")[locale],
+            catalogText("domainManifests.phantasm.search.0.phantasm-campus.3")[locale],
             phantasmCourses,
             88,
           ),
@@ -555,12 +552,8 @@ const domainManifests = [
         return [entry(
           "phantasm-campus",
           "phantasm",
-          locale === "ja" ? "第九件（索引は否認）" : locale === "en" ? "Result Nine (index denies it)" : "第九筆（索引否認）",
-          locale === "ja"
-            ? "六つの裏印は揃ったが、検索先は日付・月相・当番鐘で移動する。"
-            : locale === "en"
-              ? "Six reverse seals are present, but the result moves with date, lunar phase, and duty bell."
-              : "六枚反面印已齊，但查詢位置會隨日期、月相與當值校鐘移動。",
+          catalogText("domainManifests.phantasm.search.0.phantasm-campus.2.2")[locale],
+          catalogText("domainManifests.phantasm.search.0.phantasm-campus.3.2")[locale],
           ["第九節", "第九時限", "ninth period", "夢境", "dream", "phantasm", "反面", "reverse"],
           32,
         )];
@@ -569,12 +562,8 @@ const domainManifests = [
         return [entry(
           "my-tu",
           "phantasm",
-          locale === "ja" ? "第九時限（登録なし）" : locale === "en" ? "Ninth Period (no registration)" : "第九節（無此課號）",
-          locale === "ja"
-            ? `検索索引の一行が削除を拒否。裏から印が${progress.count}個透けている。`
-            : locale === "en"
-              ? `One search-index row refuses deletion; ${progress.count} seals show through its reverse.`
-              : `搜尋索引有一行拒絕刪除；背面透出 ${progress.count} 枚印章。`,
+          catalogText("domainManifests.phantasm.search.0.my-tu.2")[locale],
+          catalogText("domainManifests.phantasm.search.0.my-tu.3", { [locale]: locale === "ja" ? {value0: progress.count} : locale === "en" ? {value0: progress.count} : {value0: progress.count} })[locale],
           ["第九節", "第九時限", "ninth period", "夢境校區", "dream campus", "phantasm"],
           14,
         )];

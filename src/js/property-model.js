@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/property-model.js";
 import {
   propertyArbiters,
   propertyDispositionLabels,
@@ -8,7 +9,6 @@ import {
 
 const CLAIMS_KEY = "tu:property:claims";
 const MAX_CLAIMS = 60;
-const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
 export const propertyStorageKeys = Object.freeze({ claims: CLAIMS_KEY });
 
@@ -127,49 +127,21 @@ export function propertyOpinions(claimId) {
     if (arbiter.id === "kogasa") {
       standing = claim.acceptsObjectVoice ? "heard" : "returned";
       note = claim.relationship === "object"
-        ? l(
-          "申請人自稱就是物件；本席贊成先問它想去哪裡，再問誰帶了收據。",
-          "申請人は物件本人。本席は領収書より先に行先を尋ねることに賛成。",
-          "The claimant says they are the object; this seat asks where it wants to go before who brought a receipt.",
-        )
-        : l(
-          `物件的「${propertyLocalized(item.statement, "zh-Hant")}」已進入聽證，不准縮成「有點舊」。`,
-          `物件の陳述「${propertyLocalized(item.statement, "ja")}」は聴聞記録へ入り、「少し古い」に縮約しない。`,
-          `The statement “${propertyLocalized(item.statement, "en")}” is in evidence and may not be reduced to “a bit old”.`,
-        );
+        ? catalogText("propertyOpinions.0")
+        : catalogText("propertyOpinions.0.2", { "zh-Hant": {value0: propertyLocalized(item.statement, "zh-Hant")}, "ja": {value0: propertyLocalized(item.statement, "ja")}, "en": {value0: propertyLocalized(item.statement, "en")} });
     } else if (arbiter.id === "rinnosuke") {
       standing = detailed ? "traceable" : "inspect";
       note = detailed
-        ? l(
-          "名稱、磨損與申請人的說法至少有兩處可以互相比對；用途仍不能替物件決定。",
-          "名称・摩耗・申請人陳述のうち二点以上が比較可能。ただし用途を物件に代わって決めない。",
-          "Name, wear, and claimant account offer at least two comparisons; use still cannot be decided for the object.",
-        )
-        : l(
-          "這份證據像價籤：很有自信，但沒有說明磨損、時間或由誰看見。",
-          "この証拠は値札のように自信満々だが、摩耗・時刻・目撃者を示さない。",
-          "This evidence resembles a price tag: confident, but silent on wear, time, and witness.",
-        );
+        ? catalogText("propertyOpinions.0.3")
+        : catalogText("propertyOpinions.0.4");
     } else if (arbiter.id === "akyuu") {
       standing = "contested";
-      note = l(
-        `本案跨 ${item.jurisdictions.length} 種管轄；最早記錄與最漂亮的表格不是同一份。所有訂正並列保存。`,
-        `本件は${item.jurisdictions.length}種の管轄に跨る。最古記録と最も整った書式は同一でない。訂正は併記保存。`,
-        `This file crosses ${item.jurisdictions.length} jurisdictions. The earliest record is not the neatest form; corrections remain side by side.`,
-      );
+      note = catalogText("propertyOpinions.0.5", { "zh-Hant": {value0: item.jurisdictions.length}, "ja": {value0: item.jurisdictions.length}, "en": {value0: item.jurisdictions.length} });
     } else {
       standing = claim.acceptsConditions ? "appealable" : "blocked";
       note = claim.acceptsConditions
-        ? l(
-          "可以作出附條件暫行裁定；返還不消滅物件申訴，自主去向也不免除前保管人的責任。",
-          "条件付暫定裁定は可能。返還は物件の不服申立を消さず、自主行先も前保管者の責任を免除しない。",
-          "A conditional interim ruling is possible. Return does not erase the object's appeal; autonomy does not erase former custodial responsibility.",
-        )
-        : l(
-          "申請人要求結果但拒絕條件；本席不准用一次領回把保養、使用與再次遺失的責任全部抹掉。",
-          "申請人は結果を求め条件を拒否。本席は一度の受取で保守・使用・再紛失責任を消すことを認めない。",
-          "The claimant wants an outcome without conditions; one collection may not erase duties of care, use, and repeat loss.",
-        );
+        ? catalogText("propertyOpinions.0.6")
+        : catalogText("propertyOpinions.0.7");
     }
     return { ...arbiter, standing, note };
   });
@@ -208,17 +180,13 @@ export function propertyCommunityPosts(locale = "zh-Hant") {
       return {
         id: `property-${claim.id}`,
         category: "campus",
-        author: locale === "ja" ? "付喪神物権仲裁所・傍聴席" : locale === "en" ? "Tsukumogami Property Tribunal · gallery" : "付喪神物權仲裁處・旁聽席",
+        author: catalogText("propertyCommunityPosts.0.author")[locale],
         title: locale === "ja"
           ? `${propertyLocalized(item.name, locale)}：${label}`
           : locale === "en"
             ? `${propertyLocalized(item.name, locale)}: ${label}`
             : `${propertyLocalized(item.name, locale)}：${label}`,
-        body: locale === "ja"
-          ? `${claim.rulingNumber} は結論を出したが、物件の不服申立権と阿求の訂正紙は残った。`
-          : locale === "en"
-            ? `${claim.rulingNumber} reached an outcome; the object's appeal and Akyuu's correction slip remain.`
-            : `${claim.rulingNumber} 已有結果；物件申訴權與阿求的訂正紙都還留著。`,
+        body: catalogText("propertyCommunityPosts.0.body", { [locale]: locale === "ja" ? {value0: claim.rulingNumber} : locale === "en" ? {value0: claim.rulingNumber} : {value0: claim.rulingNumber} })[locale],
         createdAt: claim.resolvedAt,
         seedOrder: index,
       };
@@ -231,6 +199,6 @@ export function propertyClaimSummary(claim, locale = "zh-Hant") {
     item,
     disposition: claim.disposition
       ? propertyLocalized(propertyDispositionLabels[claim.disposition], locale)
-      : propertyLocalized(l("聽證中", "聴聞中", "In hearing"), locale),
+      : propertyLocalized(catalogText("propertyClaimSummary.disposition.0"), locale),
   };
 }

@@ -1,0 +1,2665 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Global message key: fanworkNotice
+#: src/sections/chrome.html:3
+msgctxt "text:fanworkNotice"
+msgid "Unofficial Touhou Project fan work"
+msgstr "東方Project 非公式二次創作企画"
+
+#. Global message key: aboutSite
+#: src/sections/chrome.html:4
+msgctxt "text:aboutSite"
+msgid "About this site"
+msgstr "このサイトについて"
+
+#. Global message key: universityName
+#: src/sections/chrome.html:17 src/sections/footer.html:13
+msgctxt "text:universityName"
+msgid "Touhou University of Gensokyo"
+msgstr "幻想郷立東方大学"
+
+#. Global message key: phantasmLoading
+#: src/sections/phantasm.html:4
+msgctxt "text:phantasmLoading"
+msgid "The roll is checking whether it remembers you."
+msgstr "点呼簿は、あなたを見たことがあるか確認中。"
+
+#. Global message key: clinicName
+#: src/sections/chrome.html:49 src/sections/footer.html:31 src/sections/services.html:37
+msgctxt "text:clinicName"
+msgid "Eientei Hospital"
+msgstr "永遠亭大学附属病院"
+
+#. Global message key: clinicGlyph
+#: src/sections/services.html:36
+msgctxt "text:clinicGlyph"
+msgid "MED"
+msgstr "診"
+
+#. Global message key: clinicFullName
+#: src/sections/clinic.html:2
+msgctxt "text:clinicFullName"
+msgid "Eientei Hospital & Campus Infirmary"
+msgstr "永遠亭大学附属病院・保健室"
+
+#. Global message key: clinicContact
+#: src/sections/footer.html:43
+msgctxt "text:clinicContact"
+msgid "Hospital & Infirmary"
+msgstr "校医院・保健室"
+
+#. Global message key: clinicMasthead
+#: site.config.mjs:257
+msgctxt "text:clinicMasthead"
+msgid "Hospital, Infirmary & Lunar Pharmacy"
+msgstr "校医院・保健室・月薬調剤"
+
+#. Global message key: clinicMastheadLead
+#: site.config.mjs:259
+msgctxt "text:clinicMastheadLead"
+msgid ""
+"Describe your symptoms first, then choose between the main infirmary and "
+"care across the Bamboo Forest. Prescriptions, dispensing records, and "
+"recovery slips stay on this device."
+msgstr "症状を言葉にしてから、本部保健室か竹林を越えるかを決める。処方・調剤・回復票はこの端末に残ります。"
+
+#. Global message key: clinicTriageNav
+#: src/data/i18n.js:1
+msgctxt "text:clinicTriageNav"
+msgid "Triage & Queue"
+msgstr "トリアージ・待合"
+
+#. Global message key: clinicPharmacyNav
+#: site.config.mjs:260
+msgctxt "text:clinicPharmacyNav"
+msgid "Pharmacy & Prescriptions"
+msgstr "薬局・処方"
+
+#. Global message key: clinicRecoveryNav
+#: site.config.mjs:260
+msgctxt "text:clinicRecoveryNav"
+msgid "Recovery Therapies"
+msgstr "回復療法"
+
+#. Global message key: clinicAccountNav
+#: site.config.mjs:260
+msgctxt "text:clinicAccountNav"
+msgid "My Medical File"
+msgstr "自分の診療記録"
+
+#. Global message key: clinicLoading
+#: src/sections/clinic.html:4
+msgctxt "text:clinicLoading"
+msgid ""
+"Moon rabbits are checking queue tokens, medicine bags, and a prescription "
+"rewritten as a headline."
+msgstr "月兎が待合番号、薬袋、新聞見出しに変えられた処方を照合中。"
+
+#. Global message key: skipToMain
+#: src/templates/page.html:26
+msgctxt "text:skipToMain"
+msgid "Skip to main content"
+msgstr "メインコンテンツへ移動"
+
+#. Global message key: ariaMainNavigation
+#: src/sections/chrome.html:22
+msgctxt "text:ariaMainNavigation"
+msgid "Main navigation"
+msgstr "メインナビゲーション"
+
+#. Global message key: ariaMobileNavigation
+#: src/sections/chrome.html:87
+msgctxt "text:ariaMobileNavigation"
+msgid "Mobile navigation"
+msgstr "モバイルナビゲーション"
+
+#. Global message key: ariaSiteSearch
+#: src/sections/chrome.html:58
+msgctxt "text:ariaSiteSearch"
+msgid "SEARCH / Search the site"
+msgstr "SEARCH / サイト内検索"
+
+#. Global message key: admissionGuide
+#: src/sections/chrome.html:67
+msgctxt "text:admissionGuide"
+msgid "Admissions"
+msgstr "入学案内"
+
+#. Global message key: heroKicker
+#: src/data/i18n.js:1
+msgctxt "text:heroKicker"
+msgid "TOUHOU UNIVERSITY · OPEN CAMPUS 2026"
+msgstr "TOUHOU UNIVERSITY · オープンキャンパス 2026"
+
+#. Global message key: heroLine1
+#: src/sections/hero.html:22
+msgctxt "text:heroLine1"
+msgid "Beyond the border"
+msgstr "常識の境界の向こうで、"
+
+#. Global message key: heroLine2
+#: src/sections/hero.html:23
+msgctxt "text:heroLine2"
+msgid "we redefine knowledge."
+msgstr "知を定義し直す。"
+
+#. Global message key: heroLead
+#: src/sections/admissions.html:8
+msgctxt "text:heroLead"
+msgid "We do not ask which side you came from."
+msgstr "あなたがどちら側から来たかは問わない。"
+
+#. Global message key: heroCopy
+#: src/sections/admissions.html:8
+msgctxt "text:heroCopy"
+msgid "We ask what you are prepared to cross."
+msgstr "何を越える覚悟があるかを問う。"
+
+#. Global message key: viewAdmissions
+#: src/sections/closing.html:7
+msgctxt "text:viewAdmissions"
+msgid "View admissions"
+msgstr "入試情報を見る"
+
+#. Global message key: mainCampusView
+#: src/sections/hero.html:46
+msgctxt "text:mainCampusView"
+msgid "Main campus view"
+msgstr "メインキャンパス遠景"
+
+#. Global message key: campusLocation
+#: src/sections/hero.html:18
+msgctxt "text:campusLocation"
+msgid "Gensokyo Boundary Campus"
+msgstr "幻想郷・境界共同キャンパス"
+
+#. Global message key: ticker1
+#: src/data/i18n.js:1
+msgctxt "text:ticker1"
+msgid "Kappa Engineering completes its third-generation low-head turbine"
+msgstr "河童工学部、第三世代低落差水車を完成"
+
+#. Global message key: ticker2
+#: src/data/i18n.js:1
+msgctxt "text:ticker2"
+msgid "Registration opens for the 9th Human–Youkai Coexistence Lecture"
+msgstr "第九回人妖共生公開講座、受付開始"
+
+#. Global message key: ticker3
+#: src/data/i18n.js:1
+msgctxt "text:ticker3"
+msgid "Gensokyo Archives updates its night-reading rules"
+msgstr "幻想郷史料館、夜間閲覧規則を更新"
+
+#. Global message key: servicesEyebrow
+#: src/sections/services.html:5
+msgctxt "text:servicesEyebrow"
+msgid "CAMPUS SERVICES"
+msgstr "CAMPUS SERVICES / 学務ポータル"
+
+#. Global message key: servicesTitle
+#: src/sections/services.html:6
+msgctxt "text:servicesTitle"
+msgid "What do you need today?"
+msgstr "今日は何をしますか？"
+
+#. Global message key: servicesLead
+#: src/sections/services.html:8
+msgctxt "text:servicesLead"
+msgid "Apply, reserve a visit, find a free room—or check lunch first."
+msgstr "出願、予約、空き教室検索、それとも先に昼食を。"
+
+#. Global message key: onlineApplication
+#: src/sections/services.html:13
+msgctxt "text:onlineApplication"
+msgid "Online Application"
+msgstr "オンライン出願"
+
+#. Global message key: roomAvailability
+#: src/sections/services.html:49
+msgctxt "text:roomAvailability"
+msgid "Room Availability"
+msgstr "施設空き状況"
+
+#. Global message key: campusVisit
+#: src/sections/services.html:55
+msgctxt "text:campusVisit"
+msgid "Campus Visit"
+msgstr "来校予約"
+
+#. Global message key: campusMap
+#: site.config.mjs:205 src/sections/services.html:61
+msgctxt "text:campusMap"
+msgid "Campus Map"
+msgstr "キャンパスマップ"
+
+#. Global message key: todayDining
+#: src/sections/services.html:67
+msgctxt "text:todayDining"
+msgid "Today's Dining"
+msgstr "本日の食堂"
+
+#. Global message key: classSchedule
+#: src/sections/services.html:73
+msgctxt "text:classSchedule"
+msgid "Class Schedule"
+msgstr "時間割検索"
+
+#. Global message key: examSchedule
+#: src/sections/services.html:79
+msgctxt "text:examSchedule"
+msgid "Exam Schedule"
+msgstr "試験日程"
+
+#. Global message key: campusBbs
+#: site.config.mjs:205 src/sections/chrome.html:116 src/sections/services.html:91
+msgctxt "text:campusBbs"
+msgid "Campus BBS"
+msgstr "キャンパス BBS"
+
+#. Global message key: incidentService
+#: src/sections/footer.html:36 src/sections/services.html:97
+msgctxt "text:incidentService"
+msgid "Campus Incident Center"
+msgstr "学内事案センター"
+
+#. Global message key: incidentGlyph
+#: src/sections/services.html:96
+msgctxt "text:incidentGlyph"
+msgid "CASE"
+msgstr "異"
+
+#. Global message key: myTuRecords
+#: src/sections/chrome.html:107 src/sections/services.html:19
+msgctxt "text:myTuRecords"
+msgid "My TU Student Records"
+msgstr "My TU 学籍センター"
+
+#. Global message key: iconMyTu
+#: src/sections/services.html:18
+msgctxt "text:iconMyTu"
+msgid "TU"
+msgstr "学"
+
+#. Global message key: localRecordsGlyph
+#: src/sections/services.html:24
+msgctxt "text:localRecordsGlyph"
+msgid "ARC"
+msgstr "棚"
+
+#. Global message key: localRecordsMastheadLead
+#: site.config.mjs:289
+msgctxt "text:localRecordsMastheadLead"
+msgid ""
+"Inspect what this device remembers shelf by shelf, seal it yourself, or "
+"destroy it under a red stamp."
+msgstr "この端末が覚えているものを棚ごとに確認し、自分で箱詰めし、赤印で廃棄できます。"
+
+#. Global message key: localRecordsOverview
+#: site.config.mjs:290
+msgctxt "text:localRecordsOverview"
+msgid "Cabinet overview"
+msgstr "資料棚の全体"
+
+#. Global message key: localRecordsCatalogue
+#: site.config.mjs:290
+msgctxt "text:localRecordsCatalogue"
+msgid "File catalogue"
+msgstr "ファイル目録"
+
+#. Global message key: aboutEyebrow
+#: src/sections/about.html:4
+msgctxt "text:aboutEyebrow"
+msgid "ABOUT TU"
+msgstr "ABOUT TU / 大学紹介"
+
+#. Global message key: aboutTitle1
+#: src/sections/about.html:43
+msgctxt "text:aboutTitle1"
+msgid "One barrier, seven schools, countless ways to see the world."
+msgstr "一つの結界、七つの学部、無数の世界の見方。"
+
+#. Global message key: aboutBody1
+#: src/data/i18n.js:1
+msgctxt "text:aboutBody1"
+msgid ""
+"Touhou University sits inside the Great Barrier, connecting the Human "
+"Village, Youkai Mountain, Misty Lake, and the Bamboo Forest. It is a place "
+"where people with different lifespans, abilities, and common sense build "
+"methods they can share."
+msgstr "幻想郷立東方大学は大結界の内側に位置し、人里、妖怪の山、霧の湖、迷いの竹林を結びます。違いを隔てるのではなく、異なる寿命・能力・常識をもつ者が共有できる方法を築く場所です。"
+
+#. Global message key: aboutBody2
+#: src/data/i18n.js:1
+msgctxt "text:aboutBody2"
+msgid ""
+"Incidents, legends, and everyday life are serious subjects of research here. "
+"Every form of knowledge must answer who may use it, who bears the risk, and "
+"how its findings will serve Gensokyo."
+msgstr "異変、伝承、日常生活を真剣な研究課題として扱い、すべての知に「誰が使い、誰が危険を負い、成果をどう幻想郷へ返すか」を問いかけます。"
+
+#. Global message key: schoolsCount
+#: src/sections/about.html:48
+msgctxt "text:schoolsCount"
+msgid "Schools"
+msgstr "学部 / Schools"
+
+#. Global message key: traditionsEyebrow
+#: src/sections/traditions.html:5
+msgctxt "text:traditionsEyebrow"
+msgid "IDENTITY / MOTTO & TRADITIONS"
+msgstr "IDENTITY / 校訓と伝統"
+
+#. Global message key: motto1
+#: src/sections/traditions.html:6
+msgctxt "text:motto1"
+msgid "Cross borders in pursuit of truth;"
+msgstr "境を越えて真を求め、"
+
+#. Global message key: motto2
+#: src/sections/traditions.html:6
+msgctxt "text:motto2"
+msgid "contest ideas with respect."
+msgstr "礼をもって競い合う。"
+
+#. Global message key: mottoBody
+#: src/sections/about.html:21
+msgctxt "text:mottoBody"
+msgid ""
+"A barrier is not the end of knowledge. Every crossing must leave behind "
+"traceable observations and a clear account of responsibility."
+msgstr "結界を知の終点としない。越境のたびに、追跡できる観察と責任を残す。"
+
+#. Global message key: uniformName
+#: src/sections/traditions.html:38
+msgctxt "text:uniformName"
+msgid "Ink Navy & Vermilion Cord"
+msgstr "墨紺と朱縄"
+
+#. Global message key: uniformBody
+#: src/sections/traditions.html:39
+msgctxt "text:uniformBody"
+msgid ""
+"Winter uniform begins at the start of winter; field-course adaptations are "
+"available for species and ability needs."
+msgstr "冬服は立冬に衣替え。実地授業では種族と能力に応じた機能改修を申請できます。"
+
+#. Global message key: anniversary
+#: src/sections/traditions.html:50
+msgctxt "text:anniversary"
+msgid "Anniversary · Boundary Founding Festival"
+msgstr "大学祭・境界開学祭"
+
+#. Global message key: anniversaryBody
+#: src/sections/traditions.html:51
+msgctxt "text:anniversaryBody"
+msgid "One day each year, every campus gate leads to the same square."
+msgstr "一年に一日だけ、すべての校門が同じ広場へ通じます。"
+
+#. Global message key: chronicleEyebrow
+#: src/sections/traditions.html:68
+msgctxt "text:chronicleEyebrow"
+msgid "HIEDA ARCHIVES / UNIVERSITY CHRONICLE"
+msgstr "HIEDA ARCHIVES / 幻想郷大学史"
+
+#. Global message key: chroniclePortalTitle
+#: src/sections/traditions.html:69
+msgctxt "text:chroniclePortalTitle"
+msgid "When the version changes, history must gain a page."
+msgstr "版が変われば、大学史にも一頁増える。"
+
+#. Global message key: chroniclePortalLead
+#: src/sections/traditions.html:70
+msgctxt "text:chroniclePortalLead"
+msgid ""
+"The Hieda archive turns real version subjects into university history, "
+"preserving corrections, disputes, and objections from those involved."
+msgstr "実際の版主題を稗田史学館が大学史へ編入し、訂正・係争・当事者の抗議も併せて保存します。"
+
+#. Global message key: chronicleLatest
+#: src/sections/traditions.html:73
+msgctxt "text:chronicleLatest"
+msgid "Latest record"
+msgstr "最新収録"
+
+#. Global message key: chronicleLatestTitle
+#: src/sections/traditions.html:74
+msgctxt "text:chronicleLatestTitle"
+msgid "The version repository is sewn into the university chronicle"
+msgstr "版管理庫と大学史簿を正式に綴じ合わせる"
+
+#. Global message key: chronicleLatestEra
+#: src/sections/traditions.html:75
+msgctxt "text:chronicleLatestEra"
+msgid "Same day · Before Midnight"
+msgstr "同日・夜半前"
+
+#. Global message key: chronicleOpen
+#: src/sections/traditions.html:77
+msgctxt "text:chronicleOpen"
+msgid "Open the Hieda chronicle"
+msgstr "稗田大学史簿を開く"
+
+#. Global message key: chronicleTitle
+#: src/sections/dialogs.html:129
+msgctxt "text:chronicleTitle"
+msgid "Gensokyo University Chronicle"
+msgstr "幻想郷大学史"
+
+#. Global message key: chronicleGlyph
+#: src/sections/traditions.html:64
+msgctxt "text:chronicleGlyph"
+msgid "H"
+msgstr "史"
+
+#. Global message key: academicsEyebrow
+#: src/sections/academics.html:5
+msgctxt "text:academicsEyebrow"
+msgid "ACADEMICS"
+msgstr "ACADEMICS / 学部・研究科"
+
+#. Global message key: academicsTitle1
+#: src/sections/academics.html:6
+msgctxt "text:academicsTitle1"
+msgid "Seven schools."
+msgstr "七つの学部。"
+
+#. Global message key: academicsTitle2
+#: src/sections/academics.html:6
+msgctxt "text:academicsTitle2"
+msgid "No disciplinary boundary is safe."
+msgstr "安全な学問の境界などない。"
+
+#. Global message key: academicBoundary
+#: src/sections/academics.html:18
+msgctxt "text:academicBoundary"
+msgid "School of Boundaries & Incidents"
+msgstr "境界・異変研究院"
+
+#. Global message key: academicHistory
+#: src/sections/academics.html:27
+msgctxt "text:academicHistory"
+msgid "School of History & Records"
+msgstr "歴史記録学部"
+
+#. Global message key: academicMagic
+#: src/sections/academics.html:36
+msgctxt "text:academicMagic"
+msgid "School of Magic Theory & Practice"
+msgstr "魔法理論実践学部"
+
+#. Global message key: academicMedicine
+#: src/sections/academics.html:45
+msgctxt "text:academicMedicine"
+msgid "School of Lunar Medicine & Life"
+msgstr "月都医薬生命学部"
+
+#. Global message key: academicEngineering
+#: src/sections/academics.html:54
+msgctxt "text:academicEngineering"
+msgid "School of Kappa Engineering"
+msgstr "河童工学部"
+
+#. Global message key: academicJournalism
+#: src/sections/academics.html:63
+msgctxt "text:academicJournalism"
+msgid "School of Tengu Journalism"
+msgstr "天狗新聞報道学部"
+
+#. Global message key: academicPolicy
+#: src/sections/academics.html:72
+msgctxt "text:academicPolicy"
+msgid "School of Faith & Coexistence Policy"
+msgstr "信仰・共生政策学部"
+
+#. Global message key: facultyEyebrow
+#: src/sections/faculty.html:5
+msgctxt "text:facultyEyebrow"
+msgid "FACULTY"
+msgstr "FACULTY / 教員紹介"
+
+#. Global message key: facultyTitle1
+#: src/sections/faculty.html:6
+msgctxt "text:facultyTitle1"
+msgid "Learn from those who have done the work."
+msgstr "実際に成し遂げた者から学ぶ。"
+
+#. Global message key: facultyLead
+#: src/data/i18n.js:1
+msgctxt "text:facultyLead"
+msgid ""
+"Incident resolvers, scholars, engineers, reporters, and pharmacists teach "
+"across schools, bringing field experience into research methods, "
+"documentation, and public defence."
+msgstr "異変解決者、研究者、技師、記者、薬師が学部を越えて授業を担当します。現場経験を方法・記録・公開討論へつなげます。"
+
+#. Global message key: all
+#: src/sections/bbs.html:17 src/sections/faculty.html:15 src/js/academic-calendar.js:27 src/js/bbs.js:134
+msgctxt "text:all"
+msgid "All"
+msgstr "すべて"
+
+#. Global message key: humanities
+#: src/sections/research.html:68 src/js/gaokao.js:165 src/js/phantasm-exam-model.js:52
+msgctxt "text:humanities"
+msgid "Humanities"
+msgstr "人文"
+
+#. Global message key: magicMedicine
+#: src/sections/faculty.html:17
+msgctxt "text:magicMedicine"
+msgid "Magic & Medicine"
+msgstr "魔法・医薬"
+
+#. Global message key: engineeringSociety
+#: src/sections/faculty.html:18
+msgctxt "text:engineeringSociety"
+msgid "Engineering & Society"
+msgstr "工学・社会"
+
+#. Global message key: admissionsEyebrow
+#: src/sections/admissions.html:7
+msgctxt "text:admissionsEyebrow"
+msgid "ADMISSIONS"
+msgstr "ADMISSIONS / 入試情報"
+
+#. Global message key: admissionsTitle1
+#: src/data/i18n.js:1
+msgctxt "text:admissionsTitle1"
+msgid "Before admission,"
+msgstr "入学前に、"
+
+#. Global message key: admissionsTitle2
+#: src/sections/faq.html:5
+msgctxt "text:admissionsTitle2"
+msgid "finish asking the question."
+msgstr "まず問いを最後まで。"
+
+#. Global message key: admissionsLead
+#: src/data/i18n.js:1
+msgctxt "text:admissionsLead"
+msgid ""
+"The Autumn 2026 intake offers multiple admission pathways. Applicants of "
+"every species, lifespan, ability, and place of residence are assessed on the "
+"questions they bring, their methods of observation, and their readiness for "
+"shared campus life."
+msgstr "2026年秋季入試は多元選抜です。種族、寿命、能力、居住地を問わず、問題意識・観察方法・共同生活への準備を評価します。"
+
+#. Global message key: gensokyoApplicants
+#: src/sections/admissions.html:15
+msgctxt "text:gensokyoApplicants"
+msgid "Gensokyo General Entry"
+msgstr "幻想郷一般選抜"
+
+#. Global message key: outsideApplicants
+#: src/sections/admissions.html:17
+msgctxt "text:outsideApplicants"
+msgid "Outside World Entry"
+msgstr "外界特別選抜"
+
+#. Global message key: mountainRecommendation
+#: src/sections/admissions.html:16
+msgctxt "text:mountainRecommendation"
+msgid "Mountain Joint Recommendation"
+msgstr "山地共同推薦"
+
+#. Global message key: longLifeReturn
+#: src/sections/admissions.html:18
+msgctxt "text:longLifeReturn"
+msgid "Long-Life Re-entry"
+msgstr "長命種再入学"
+
+#. Global message key: askWorthKeeping
+#: src/sections/admissions.html:43
+msgctxt "text:askWorthKeeping"
+msgid "Submit one question worth keeping"
+msgstr "「残す価値のある問い」を提出"
+
+#. Global message key: archiveAssignment
+#: src/sections/admissions.html:51
+msgctxt "text:archiveAssignment"
+msgid "Source and observation exercise"
+msgstr "史料・観察課題"
+
+#. Global message key: spellInterview
+#: src/sections/admissions.html:59
+msgctxt "text:spellInterview"
+msgid "Spell-card interview"
+msgstr "スペルカード式面接"
+
+#. Global message key: sharedLifeInterview
+#: src/sections/admissions.html:67
+msgctxt "text:sharedLifeInterview"
+msgid "Shared-life interview"
+msgstr "共同生活面談"
+
+#. Global message key: applicationNote
+#: src/sections/admissions.html:44
+msgctxt "text:applicationNote"
+msgid "Any format, up to 1,000 characters; fairies may submit images or a field demonstration."
+msgstr "形式自由・千字以内。妖精は図像または実地実演で代替可。"
+
+#. Global message key: spellNote
+#: src/sections/admissions.html:60
+msgctxt "text:spellNote"
+msgid ""
+"An academic contest with a name, rules, and a way out; firepower does not "
+"decide admission."
+msgstr "名称・規則・退路のある学術的勝負。火力で合否は決めない。"
+
+#. Global message key: sharedLifeNote
+#: src/sections/admissions.html:68
+msgctxt "text:sharedLifeNote"
+msgid ""
+"We confirm housing, food, lunar-phase, and species safety needs; results are "
+"released that day."
+msgstr "住居、食事、月相、種族上の安全ニーズを確認し、結果は当日発表。"
+
+#. Global message key: startApplication
+#: src/sections/dialogs.html:30
+msgctxt "text:startApplication"
+msgid "Start online application"
+msgstr "オンライン出願を開始"
+
+#. Global message key: mapEyebrow
+#: src/sections/map.html:5
+msgctxt "text:mapEyebrow"
+msgid "CAMPUS MAP"
+msgstr "CAMPUS MAP / キャンパスマップ"
+
+#. Global message key: mapTitle1
+#: src/sections/map.html:6
+msgctxt "text:mapTitle1"
+msgid "Start from Hakurei Gate."
+msgstr "博麗門から出発。"
+
+#. Global message key: mapTitle2
+#: src/sections/map.html:6
+msgctxt "text:mapTitle2"
+msgid "Do not mistake a shortcut for the same path."
+msgstr "近道を同じ道と思わないこと。"
+
+#. Global message key: mapLead
+#: src/sections/map.html:8
+msgctxt "text:mapLead"
+msgid ""
+"The main campus follows the terrain inside the Great Barrier. Walking times "
+"are based on average human speed; fairies, tengu, and gap travellers must "
+"observe designated flight levels."
+msgstr "メインキャンパスは大結界内側の地形に沿って広がります。徒歩時間は人間の平均速度。妖精・天狗・隙間移動者は空路階層を守ってください。"
+
+#. Global message key: openHours
+#: src/sections/map.html:74
+msgctxt "text:openHours"
+msgid "Hours"
+msgstr "開館"
+
+#. Global message key: walking
+#: src/sections/map.html:76
+msgctxt "text:walking"
+msgid "Walk"
+msgstr "徒歩"
+
+#. Global message key: airRoute
+#: src/sections/map.html:77
+msgctxt "text:airRoute"
+msgid "Air route"
+msgstr "空路"
+
+#. Global message key: nearbyRooms
+#: src/sections/map.html:79
+msgctxt "text:nearbyRooms"
+msgid "Find nearby rooms"
+msgstr "近くの施設を検索"
+
+#. Global message key: teachingResearch
+#: src/sections/map.html:120
+msgctxt "text:teachingResearch"
+msgid "Teaching & research"
+msgstr "教育・研究"
+
+#. Global message key: publicService
+#: src/sections/map.html:121
+msgctxt "text:publicService"
+msgid "Public service"
+msgstr "公共サービス"
+
+#. Global message key: fieldTeaching
+#: src/sections/map.html:122
+msgctxt "text:fieldTeaching"
+msgid "Field teaching"
+msgstr "実地教育"
+
+#. Global message key: lunarRestricted
+#: src/sections/map.html:123
+msgctxt "text:lunarRestricted"
+msgid "Lunar restriction zone"
+msgstr "月相規制区域"
+
+#. Global message key: researchEyebrow
+#: src/sections/research.html:5
+msgctxt "text:researchEyebrow"
+msgid "RESEARCH"
+msgstr "RESEARCH / 研究成果"
+
+#. Global message key: researchTitle1
+#: src/sections/research.html:6
+msgctxt "text:researchTitle1"
+msgid "Research does not make fantasy"
+msgstr "研究は幻想を"
+
+#. Global message key: researchTitle2
+#: src/sections/research.html:6
+msgctxt "text:researchTitle2"
+msgid "less wondrous."
+msgstr "退屈にしない。"
+
+#. Global message key: researchLead
+#: src/data/i18n.js:1
+msgctxt "text:researchLead"
+msgid ""
+"It lets us be surprised with greater precision—and puts the findings in the "
+"hands of those who need them."
+msgstr "研究は驚きをより正確にし、成果を必要とする者の手へ返します。"
+
+#. Global message key: boundaryIndex
+#: src/sections/research.html:20
+msgctxt "text:boundaryIndex"
+msgid "Cross-Boundary Drift Index of Forgotten Objects"
+msgstr "「忘れられた物」境界漂流索引"
+
+#. Global message key: waterwheel
+#: src/sections/research.html:49
+msgctxt "text:waterwheel"
+msgid "Magic-Independent Low-Head Turbine"
+msgstr "低落差水路の妖力非依存水車"
+
+#. Global message key: moonGuide
+#: src/sections/research.html:59
+msgctxt "text:moonGuide"
+msgid "Lunar Guidance for Lost Bamboo Travellers"
+msgstr "竹林迷途者の月相感覚ガイド"
+
+#. Global message key: reports
+#: src/sections/research.html:69
+msgctxt "text:reports"
+msgid "Three Reports of the Same Incident"
+msgstr "同じ異変、三つの報道"
+
+#. Global message key: openResearchFile
+#: src/data/i18n.js:1
+msgctxt "text:openResearchFile"
+msgid "Open research file"
+msgstr "研究ファイルを開く"
+
+#. Global message key: campusLifeEyebrow
+#: src/sections/campus.html:5
+msgctxt "text:campusLifeEyebrow"
+msgid "CAMPUS LIFE"
+msgstr "CAMPUS LIFE / キャンパスライフ"
+
+#. Global message key: campusLifeTitle1
+#: src/sections/campus.html:6
+msgctxt "text:campusLifeTitle1"
+msgid "Beyond the classroom,"
+msgstr "授業の外でも、"
+
+#. Global message key: campusLifeTitle2
+#: src/sections/campus.html:6
+msgctxt "text:campusLifeTitle2"
+msgid "Gensokyo keeps happening."
+msgstr "幻想郷は続いている。"
+
+#. Global message key: clubsRegistered
+#: src/sections/campus.html:72
+msgctxt "text:clubsRegistered"
+msgid "Registered clubs this year"
+msgstr "今年度登録団体"
+
+#. Global message key: springFestival
+#: src/sections/campus.html:63
+msgctxt "text:springFestival"
+msgid "Spring Spell-card Lantern Festival"
+msgstr "春季スペルカード灯会"
+
+#. Global message key: nightSparrowDining
+#: src/sections/campus.html:79
+msgctxt "text:nightSparrowDining"
+msgid "Night-Sparrow Music Dining Hall"
+msgstr "夜雀音楽食堂"
+
+#. Global message key: anonymousObservation
+#: src/sections/research.html:62
+msgctxt "text:anonymousObservation"
+msgid "Anonymous Observation Night"
+msgstr "匿名観察夜"
+
+#. Global message key: bbsEyebrow
+#: src/sections/bbs.html:5
+msgctxt "text:bbsEyebrow"
+msgid "CAMPUS BBS"
+msgstr "CAMPUS BBS / 学内掲示板"
+
+#. Global message key: bbsTitle1
+#: src/sections/bbs.html:6
+msgctxt "text:bbsTitle1"
+msgid "Rumours travel fast."
+msgstr "風の噂は速い。"
+
+#. Global message key: bbsTitle2
+#: src/sections/bbs.html:6
+msgctxt "text:bbsTitle2"
+msgid "Replies can take their time."
+msgstr "返信はゆっくりでいい。"
+
+#. Global message key: bbsLead
+#: src/sections/bbs.html:8
+msgctxt "text:bbsLead"
+msgid ""
+"Course help, lost-and-found, club recruitment, and campus proposals live "
+"here. Check the board before posting; breaking news still goes to "
+"Journalism."
+msgstr "授業の助け合い、落とし物、団体募集、学務提案はこちら。投稿前に板を確認し、速報は新聞学部へ。"
+
+#. Global message key: course
+#: src/sections/bbs.html:18 src/sections/dialogs.html:85 src/js/academic-model.js:371 src/js/appraisal-model.js:266
+msgctxt "text:course"
+msgid "Courses"
+msgstr "授業"
+
+#. Global message key: club
+#: src/sections/bbs.html:19 src/sections/dialogs.html:86 src/js/campus.js:47 src/js/careers-model.js:752
+msgctxt "text:club"
+msgid "Clubs"
+msgstr "団体"
+
+#. Global message key: exchange
+#: src/sections/bbs.html:20 src/sections/dialogs.html:87
+msgctxt "text:exchange"
+msgid "Exchange"
+msgstr "交換"
+
+#. Global message key: campusAffairs
+#: src/sections/bbs.html:21
+msgctxt "text:campusAffairs"
+msgid "Campus"
+msgstr "学務"
+
+#. Global message key: newPost
+#: src/sections/bbs.html:28
+msgctxt "text:newPost"
+msgid "+ New post"
+msgstr "＋ 新規投稿"
+
+#. Global message key: pinned
+#: src/js/commons.js:271
+msgctxt "text:pinned"
+msgid "Pinned"
+msgstr "固定"
+
+#. Global message key: replies
+#: src/data/i18n.js:1
+msgctxt "text:replies"
+msgid "Replies"
+msgstr "返信"
+
+#. Global message key: onlineNow
+#: src/sections/bbs.html:37
+msgctxt "text:onlineNow"
+msgid "Online now: 108"
+msgstr "オンライン：108"
+
+#. Global message key: topicsToday
+#: src/sections/bbs.html:38
+msgctxt "text:topicsToday"
+msgid "Topics today: 74"
+msgstr "本日のトピック：74"
+
+#. Global message key: lastSync
+#: src/sections/bbs.html:40
+msgctxt "text:lastSync"
+msgid "Last synced: just now"
+msgstr "最終同期：たった今"
+
+#. Global message key: faqEyebrow
+#: src/sections/faq.html:4
+msgctxt "text:faqEyebrow"
+msgid "FAQ"
+msgstr "FAQ / よくある質問"
+
+#. Global message key: faqTitle1
+#: src/sections/faq.html:5
+msgctxt "text:faqTitle1"
+msgid "Before you arrive,"
+msgstr "入学前に、"
+
+#. Global message key: faqTitle2
+#: src/sections/closing.html:5
+msgctxt "text:faqTitle2"
+msgid "ask the next question."
+msgstr "次の問いを。"
+
+#. Global message key: noAbility
+#: src/sections/faq.html:10
+msgctxt "text:noAbility"
+msgid "Can I apply without a special ability?"
+msgstr "特殊能力がなくても出願できますか？"
+
+#. Global message key: crossBarrier
+#: src/sections/faq.html:17
+msgctxt "text:crossBarrier"
+msgid "How do Outside World students cross the Great Barrier?"
+msgstr "外界生はどうやって大結界を越えますか？"
+
+#. Global message key: spellCombat
+#: src/sections/faq.html:24
+msgctxt "text:spellCombat"
+msgid "Does the spell-card interview require combat?"
+msgstr "スペルカード面接は戦闘ですか？"
+
+#. Global message key: mindReading
+#: src/sections/faq.html:31
+msgctxt "text:mindReading"
+msgid "Are interviews or mind-reading unrestricted on campus?"
+msgstr "学内で自由に取材や読心ができますか？"
+
+#. Global message key: faqAnswerNoAbility
+#: src/data/i18n.js:1
+msgctxt "text:faqAnswerNoAbility"
+msgid ""
+"Yes. General entry values your question, observation method, readiness to "
+"collaborate, and risk judgment. An ability is assessed only if you choose it "
+"as a research method."
+msgstr "はい。一般選抜は問題意識、観察方法、協働準備、リスク判断を重視します。能力は研究方法として選ぶ場合のみ評価対象です。"
+
+#. Global message key: faqAnswerBarrier
+#: src/data/i18n.js:1
+msgctxt "text:faqAnswerBarrier"
+msgid ""
+"After admission, the admissions office assigns a Hakurei Gate crossing time. "
+"Arrive at the designated entrance, do not search for a gap yourself, and "
+"register Outside World electronics in advance."
+msgstr "合格後、入学相談室が博麗門の通行時刻を案内します。指定入口へ来てください。隙間を自力で探さず、外界の電気製品は事前登録が必要です。"
+
+#. Global message key: faqAnswerSpell
+#: src/data/i18n.js:1
+msgctxt "text:faqAnswerSpell"
+msgid ""
+"Firepower does not decide admission. The topic, limits, stop conditions, and "
+"safety distance are published in advance, and non-danmaku formats are "
+"available."
+msgstr "火力で合否は決まりません。題目・制限・終了条件・安全距離は事前公開され、非弾幕形式も申請できます。"
+
+#. Global message key: faqAnswerMind
+#: src/data/i18n.js:1
+msgctxt "text:faqAnswerMind"
+msgid ""
+"No. Interviews, photography, mind-reading, sensory guidance, and historical "
+"abilities require consent under course or research rules. A public space is "
+"not a waiver of privacy."
+msgstr "できません。取材、撮影、読心、感覚誘導、歴史能力の使用には授業・研究規程に基づく同意が必要です。公共空間でもプライバシーは失われません。"
+
+#. Global message key: closing1
+#: src/sections/about.html:6
+msgctxt "text:closing1"
+msgid "Turn incidents into questions,"
+msgstr "異変を問いに変え、"
+
+#. Global message key: closing2
+#: src/sections/about.html:6
+msgctxt "text:closing2"
+msgid "then return the questions to everyday life."
+msgstr "問いを日常へ返す。"
+
+#. Global message key: contactOffice
+#: src/sections/footer.html:41
+msgctxt "text:contactOffice"
+msgid "Admissions Office"
+msgstr "入学相談室"
+
+#. Global message key: researchFile
+#: src/sections/dialogs.html:49
+msgctxt "text:researchFile"
+msgid "Research File"
+msgstr "研究ファイル"
+
+#. Global message key: serviceDialog
+#: src/sections/dialogs.html:39
+msgctxt "text:serviceDialog"
+msgid "Campus Service"
+msgstr "学務サービス"
+
+#. Global message key: publishPost
+#: src/sections/dialogs.html:80
+msgctxt "text:publishPost"
+msgid "Publish a Post"
+msgstr "新規投稿"
+
+#. Global message key: publish
+#: src/sections/dialogs.html:105
+msgctxt "text:publish"
+msgid "Publish"
+msgstr "投稿"
+
+#. Global message key: postLocal
+#: src/data/i18n.js:1
+msgctxt "text:postLocal"
+msgid "This post will be stored on this device."
+msgstr "投稿はこの端末に保存されます。"
+
+#. Global message key: facultyProfile
+#: src/sections/dialogs.html:4
+msgctxt "text:facultyProfile"
+msgid "Faculty Profile"
+msgstr "教員プロフィール"
+
+#. Global message key: facultyRole
+#: src/sections/dialogs.html:5
+msgctxt "text:facultyRole"
+msgid "Role & Research Area"
+msgstr "職務・研究分野"
+
+#. Global message key: teachingExpertise
+#: src/sections/dialogs.html:8
+msgctxt "text:teachingExpertise"
+msgid "Teaching Expertise"
+msgstr "専門分野"
+
+#. Global message key: coursesThisTerm
+#: src/sections/dialogs.html:12
+msgctxt "text:coursesThisTerm"
+msgid "Courses This Term"
+msgstr "今学期の授業"
+
+#. Global message key: bringQuestion
+#: src/sections/dialogs.html:25
+msgctxt "text:bringQuestion"
+msgid "Bring your question."
+msgstr "あなたの問いを持ってきてください。"
+
+#. Global message key: prospectus2026
+#: src/sections/hero.html:34
+msgctxt "text:prospectus2026"
+msgid "2026 Admissions Guide"
+msgstr "2026 入学案内"
+
+#. Global message key: admissionIntro
+#: src/sections/admissions.html:9
+msgctxt "text:admissionIntro"
+msgid ""
+"The 2026 autumn intake welcomes humans, youkai, fairies, divine spirits, "
+"magicians, and Outside World applicants. Innate abilities are not required; "
+"we care more about how you describe a failure, verify a rumour, and work "
+"across differences."
+msgstr "2026年秋季入試は人間、妖怪、妖精、神霊、魔法使、外界生を受け入れます。生来の能力は不要です。失敗をどう語り、噂をどう検証し、異なる立場の者とどう協働するかを重視します。"
+
+#. Global message key: traditionsLead
+#: src/sections/traditions.html:8
+msgctxt "text:traditionsLead"
+msgid ""
+"Crossing a border does not mean crossing another person's limits; it means "
+"leaving answers that only suit you. Contest does not crown the strongest—it "
+"lets different kinds of knowledge continue speaking tomorrow."
+msgstr "「越境」は他者の境界を侵すことではなく、自分だけに都合のよい答えを離れること。「交鋒」は最強を決めることではなく、異なる知が明日も対話できるようにすることです。"
+
+#. Global message key: sevenDayTower
+#: src/sections/map.html:37
+msgctxt "text:sevenDayTower"
+msgid "Seven-Day Laboratory"
+msgstr "七曜実験塔"
+
+#. Global message key: designMorning
+#: src/sections/campus.html:46
+msgctxt "text:designMorning"
+msgid "Design in the morning; launch in the afternoon."
+msgstr "午前に設計、午後に進水。"
+
+#. Global message key: keineName
+#: src/sections/faculty.html:55
+msgctxt "text:keineName"
+msgid "Keine Kamishirasawa"
+msgstr "上白沢 慧音"
+
+#. Global message key: ethicsAnswer
+#: src/sections/faq.html:32
+msgctxt "text:ethicsAnswer"
+msgid ""
+"No. Interviews, photography, mind-reading, wavelength interference, and "
+"historical manipulation are governed by research ethics. Being able to do "
+"something is not consent."
+msgstr "できません。取材、撮影、読心、波長干渉、歴史操作は研究倫理規程の対象です。できることは、同意を得たことを意味しません。"
+
+#. Global message key: ufoClub
+#: src/sections/campus.html:80
+msgctxt "text:ufoClub"
+msgid "Unidentified Flying Object Society"
+msgstr "未確認飛行物体観測会"
+
+#. Global message key: spellAnswer
+#: src/sections/faq.html:25
+msgctxt "text:spellAnswer"
+msgid ""
+"No. It borrows a structure with a name, rules, and a way out for debating "
+"ideas. Firepower is not tested, and abilities may not interfere with "
+"judging."
+msgstr "不要です。「名称・規則・退路」のある構造で意見を論じます。火力は測らず、能力による審査干渉も禁止です。"
+
+#. Global message key: bbsExchangePost
+#: src/data/i18n.js:1
+msgctxt "text:bbsExchangePost"
+msgid "Trading unused waterproof talismans for a lunar-spec hex-key set"
+msgstr "未使用の防水符紙と月面規格の六角レンチ一式を交換希望"
+
+#. Global message key: sharedClassroom
+#: src/sections/about.html:28
+msgctxt "text:sharedClassroom"
+msgid ""
+"Humans, youkai, gods, and fairies share classrooms; differences are "
+"incorporated into method, not erased."
+msgstr "人間、妖怪、神、妖精が教室を共有し、違いを消さず方法へ組み込みます。"
+
+#. Global message key: mottoRespect
+#: src/sections/about.html:34 src/sections/traditions.html:19
+msgctxt "text:mottoRespect"
+msgid "Contest with respect"
+msgstr "礼をもって競う"
+
+#. Global message key: comparisonTexts
+#: src/sections/research.html:72
+msgctxt "text:comparisonTexts"
+msgid "comparative texts"
+msgstr "件の比較資料"
+
+#. Global message key: gateDescription
+#: src/sections/map.html:70
+msgctxt "text:gateDescription"
+msgid ""
+"The main gate just inside the Great Barrier. Outside World student check-in, "
+"visitor verification, and lost-property returns are handled here."
+msgstr "大結界内側の正門。外界生の到着、来訪者確認、遺失物返還を扱います。"
+
+#. Global message key: noLowFlight
+#: src/sections/map.html:77
+msgctxt "text:noLowFlight"
+msgid "Low flight prohibited"
+msgstr "低空飛行禁止"
+
+#. Global message key: magicTags
+#: src/sections/academics.html:39
+msgctxt "text:magicTags"
+msgid "Elemental theory · Doll engineering · High-output trials"
+msgstr "元素理論・人形工学・高出力実験"
+
+#. Global message key: patchouliTags
+#: src/sections/faculty.html:69
+msgctxt "text:patchouliTags"
+msgid "Elemental magic · Classical texts"
+msgstr "元素魔法・古典文献"
+
+#. Global message key: contentLabel
+#: src/sections/dialogs.html:99
+msgctxt "text:contentLabel"
+msgid "Content"
+msgstr "内容"
+
+#. Global message key: allApplicants
+#: src/sections/faculty.html:15
+msgctxt "text:allApplicants"
+msgid "All"
+msgstr "全体"
+
+#. Global message key: eirinName
+#: src/sections/faculty.html:94
+msgctxt "text:eirinName"
+msgid "Eirin Yagokoro"
+msgstr "八意 永琳"
+
+#. Global message key: yukariName
+#: src/sections/faculty.html:42
+msgctxt "text:yukariName"
+msgid "Yukari Yakumo"
+msgstr "八雲 紫"
+
+#. Global message key: festivalProgramme
+#: src/sections/traditions.html:53
+msgctxt "text:festivalProgramme"
+msgid ""
+"Public lectures, kappa prototypes, a Night Parade alumni gathering, and "
+"twilight spell-card exhibitions begin together at the sunset bell."
+msgstr "公開講座、河童試作展、百鬼夜行同窓会、黄昏のスペルカード競演は、日没の鐘と同時に始まります。"
+
+#. Global message key: countTogether
+#: src/sections/about.html:26
+msgctxt "text:countTogether"
+msgid "Total"
+msgstr "計"
+
+#. Global message key: north
+#: src/sections/map.html:50
+msgctxt "text:north"
+msgid "N"
+msgstr "北"
+
+#. Global message key: anonymousYesterday
+#: src/data/i18n.js:1
+msgctxt "text:anonymousYesterday"
+msgid "Anonymous Human Student · yesterday"
+msgstr "匿名人間学生・昨日"
+
+#. Global message key: sourceDistinction
+#: src/sections/admissions.html:52
+msgctxt "text:sourceDistinction"
+msgid "Separate what you saw, what you heard, and what you inferred."
+msgstr "見たこと、聞いたこと、自分で推測したことを区別する。"
+
+#. Global message key: reimuName
+#: src/sections/faculty.html:29
+msgctxt "text:reimuName"
+msgid "Reimu Hakurei"
+msgstr "博麗 霊夢"
+
+#. Global message key: hakureiGate
+#: src/sections/map.html:25
+msgctxt "text:hakureiGate"
+msgid "Hakurei Gate"
+msgstr "博麗門"
+
+#. Global message key: campusRoute
+#: src/sections/hero.html:46
+msgctxt "text:campusRoute"
+msgid "Hakurei Gate · Misty Lake Library · Youkai Mountain Observatory"
+msgstr "博麗門・霧の湖図書館・妖怪の山観測所"
+
+#. Global message key: ordinal3
+#: src/sections/about.html:32
+msgctxt "text:ordinal3"
+msgid "III"
+msgstr "参"
+
+#. Global message key: abilityAnswer
+#: src/sections/faq.html:11
+msgctxt "text:abilityAnswer"
+msgid ""
+"Yes. Ability is not an admission requirement. Clear observation, willingness "
+"to revise, and cooperation within rules matter more than innate power."
+msgstr "はい。能力は入学条件ではありません。明確な観察、修正する姿勢、規則の中で協働する力を、生来の能力より重視します。"
+
+#. Global message key: sourcesCorrections
+#: src/sections/footer.html:42
+msgctxt "text:sourcesCorrections"
+msgid "Sources & Corrections"
+msgstr "史料と訂正"
+
+#. Global message key: iconMap
+#: src/sections/services.html:60
+msgctxt "text:iconMap"
+msgid "MAP"
+msgstr "図"
+
+#. Global message key: iconBoundary
+#: src/sections/about.html:19 src/sections/research.html:30
+msgctxt "text:iconBoundary"
+msgid "B"
+msgstr "境"
+
+#. Global message key: fieldStation
+#: src/sections/about.html:52
+msgctxt "text:fieldStation"
+msgid "Field Station"
+msgstr "境内実習所"
+
+#. Global message key: boundaryTags
+#: src/sections/faculty.html:43
+msgctxt "text:boundaryTags"
+msgid "Boundary topology · Gensokyo governance"
+msgstr "境界トポロジー・幻想郷統治"
+
+#. Global message key: boundaryHall
+#: src/sections/map.html:31
+msgctxt "text:boundaryHall"
+msgid "Boundary Hall"
+msgstr "境界講堂"
+
+#. Global message key: ordinal1
+#: src/sections/about.html:18
+msgctxt "text:ordinal1"
+msgid "I"
+msgstr "壱"
+
+#. Global message key: lunarNote
+#: src/sections/faq.html:6
+msgctxt "text:lunarNote"
+msgid "If an answer changes with the full moon, we say so."
+msgstr "満月で答えが変わる場合は、明記します。"
+
+#. Global message key: kappaCampus
+#: src/sections/campus.html:45
+msgctxt "text:kappaCampus"
+msgid "Youkai Mountain · Kappa Joint Workshop"
+msgstr "妖怪の山・河童共同工房"
+
+#. Global message key: fairyChoir
+#: src/sections/campus.html:77
+msgctxt "text:fairyChoir"
+msgid "Fairy Choir"
+msgstr "妖精合唱団"
+
+#. Global message key: councilMeta
+#: src/data/i18n.js:1
+msgctxt "text:councilMeta"
+msgid "Student Council · 23 minutes ago"
+msgstr "学生自治会・23分前"
+
+#. Global message key: researchLeadActual
+#: src/sections/research.html:9
+msgctxt "text:researchLeadActual"
+msgid ""
+"It tells us which legends protect people, which devices leak in the rain, "
+"and when an incident must be stopped."
+msgstr "どの伝承が人を守り、どの装置が雨で漏電し、異変をいつ止めるべきかを明らかにします。"
+
+#. Global message key: faithTags
+#: src/sections/academics.html:75
+msgctxt "text:faithTags"
+msgid "Religious dialogue · Public leadership · Human–youkai coexistence"
+msgstr "宗教対話・公共リーダーシップ・人妖共生"
+
+#. Global message key: iconRoom
+#: src/sections/services.html:48
+msgctxt "text:iconRoom"
+msgid "ROOM"
+msgstr "室"
+
+#. Global message key: ayaName
+#: src/sections/faculty.html:120
+msgctxt "text:ayaName"
+msgid "Aya Shameimaru"
+msgstr "射命丸 文"
+
+#. Global message key: testStation
+#: src/sections/research.html:53
+msgctxt "text:testStation"
+msgid "mountain test stations"
+msgstr "山地試験所"
+
+#. Global message key: engineering
+#: src/sections/academics.html:51 src/sections/research.html:48
+msgctxt "text:engineering"
+msgid "Engineering"
+msgstr "工学"
+
+#. Global message key: workshopMeta
+#: src/data/i18n.js:1
+msgctxt "text:workshopMeta"
+msgid "Workshop North Seat · today 08:14"
+msgstr "工房北側席・本日 08:14"
+
+#. Global message key: readyApply
+#: src/sections/admissions.html:30
+msgctxt "text:readyApply"
+msgid "Ready? Apply online"
+msgstr "準備できましたか？オンライン出願へ"
+
+#. Global message key: patchouliName
+#: src/sections/faculty.html:68
+msgctxt "text:patchouliName"
+msgid "Patchouli Knowledge"
+msgstr "パチュリー・ノーレッジ"
+
+#. Global message key: iconFantasy
+#: src/sections/closing.html:2
+msgctxt "text:iconFantasy"
+msgid "G"
+msgstr "幻"
+
+#. Global message key: historyTags
+#: src/sections/faculty.html:56
+msgctxt "text:historyTags"
+msgid "Gensokyo history · Public memory"
+msgstr "幻想郷史・公共記憶"
+
+#. Global message key: aboutActual
+#: src/sections/about.html:7
+msgctxt "text:aboutActual"
+msgid ""
+"Touhou University of Gensokyo is a research university crossing species, "
+"regions, and common sense. Hieda records, terakoya history, magicians' "
+"experiments, Eientei medicine, kappa engineering, and tengu journalism meet "
+"at one table to test conflicting views."
+msgstr ""
+"幻想郷立東方大学は、種族・地域・常識を越える研究大学です。稗田家の記録、寺子屋の歴史、魔法使いの実験、永遠亭の医薬、河童の工学、天狗の新聞という知の伝統"
+"を出発点に、対立する視点を同じ机で検証します。"
+
+#. Global message key: keineTags
+#: src/sections/academics.html:30
+msgctxt "text:keineTags"
+msgid "Gensokyo chronicles · Terakoya education · Archival ethics"
+msgstr "幻想郷編年・寺子屋教育・史料倫理"
+
+#. Global message key: forcedExposure
+#: src/sections/research.html:63
+msgctxt "text:forcedExposure"
+msgid "forced-exposure cases"
+msgstr "強制曝露事例"
+
+#. Global message key: festivalRule
+#: src/sections/campus.html:64
+msgctxt "text:festivalRule"
+msgid "Danmaku stays in the sky; stalls stay on the ground."
+msgstr "弾幕は空、屋台は地上。"
+
+#. Global message key: startsAtGate
+#: src/sections/closing.html:5
+msgctxt "text:startsAtGate"
+msgid "It starts when you cross the gate."
+msgstr "門をくぐった瞬間から。"
+
+#. Global message key: academicLead
+#: src/sections/academics.html:8
+msgctxt "text:academicLead"
+msgid ""
+"From boundary governance to lunar pharmacology, every discipline must answer "
+"one question: how will this knowledge change shared life in Gensokyo?"
+msgstr "境界統治から月都薬理まで、すべての学問が同じ問いに答えます。この知識は幻想郷の共同生活をどう変えるのか。"
+
+#. Global message key: campusLead
+#: src/sections/campus.html:8
+msgctxt "text:campusLead"
+msgid ""
+"From Misty Lake study to Youkai Mountain fieldwork and the annual spell-card "
+"lantern festival, campus is not a barrier from difference but a place to "
+"learn how to live together."
+msgstr "霧の湖での自習、妖怪の山での実習、年に一度のスペルカード灯会。キャンパスは違いを避ける結界ではなく、共に生きる方法を学ぶ場所です。"
+
+#. Global message key: bbsCoursePost2
+#: src/data/i18n.js:1
+msgctxt "text:bbsCoursePost2"
+msgid "Does Professor Keine take attendance in Source Criticism—and does it enter history?"
+msgstr "慧音先生の史料批判は出席を取りますか？それも歴史に残りますか？"
+
+#. Global message key: researchReportsBody
+#: src/sections/research.html:70
+msgctxt "text:researchReportsBody"
+msgid ""
+"News, village testimony, and participant records teach students to identify "
+"narrative position and silence."
+msgstr "新聞、里の口述、当事者記録を並べ、語りの位置と沈黙を見分けます。"
+
+#. Global message key: exploreUniversity
+#: src/sections/hero.html:30
+msgctxt "text:exploreUniversity"
+msgid "Explore Touhou University"
+msgstr "東方大学を知る"
+
+#. Global message key: ayaTags
+#: src/sections/academics.html:66
+msgctxt "text:ayaTags"
+msgid "Photography · Interviews · Sources · Corrections"
+msgstr "写真・取材・情報源・訂正"
+
+#. Global message key: efficiencyGain
+#: src/sections/research.html:52
+msgctxt "text:efficiencyGain"
+msgid "efficiency gain (campus trial)"
+msgstr "効率向上（学内試験）"
+
+#. Global message key: facultyActualLead
+#: src/data/i18n.js:1
+msgctxt "text:facultyActualLead"
+msgid ""
+"Faculty teach beyond lecture halls, leading field research across shrines, "
+"bamboo forests, mountains, and the lunar surface. Eight core chairs accept "
+"graduate appointments this term."
+msgstr "教員は講堂だけでなく、神社、竹林、山岳、月面にわたる実地研究を主宰します。今学期は八つの中核教席が大学院生の予約を受け付けます。"
+
+#. Global message key: journalismTags
+#: src/sections/faculty.html:121
+msgctxt "text:journalismTags"
+msgid "News practice · Photography ethics"
+msgstr "報道実務・写真倫理"
+
+#. Global message key: magicClub
+#: src/sections/campus.html:81
+msgctxt "text:magicClub"
+msgid "Ordinary Magic Laboratory Society"
+msgstr "普通の魔法実験会"
+
+#. Global message key: magicStudentMeta
+#: src/data/i18n.js:1
+msgctxt "text:magicStudentMeta"
+msgid "Ordinary Magic Graduate · 1 hour ago"
+msgstr "普通の魔法大学院生・1時間前"
+
+#. Global message key: nickname
+#: src/sections/dialogs.html:91
+msgctxt "text:nickname"
+msgid "Nickname"
+msgstr "ニックネーム"
+
+#. Global message key: bbsCoursePost
+#: src/data/i18n.js:1
+msgctxt "text:bbsCoursePost"
+msgid "Has anyone found a safe solution to Seven-Day Elemental Theory II assignment three?"
+msgstr "「七曜元素論 II」第三課題の安全な解を見つけた人は？"
+
+#. Global message key: footerDisclaimer
+#: src/sections/footer.html:51
+msgctxt "text:footerDisclaimer"
+msgid ""
+"This is an unofficial Touhou Project fan work and is not affiliated with "
+"Team Shanghai Alice or ZUN. Touhou Project was created by ZUN (Team Shanghai "
+"Alice). The university name, courses, titles, admissions system, research "
+"results, and campus data are original to this site's AU."
+msgstr ""
+"本サイトは東方Projectの非公式二次創作であり、上海アリス幻樂団およびZUNとは関係ありません。東方Project原作：ZUN（上海アリス幻樂団）。"
+"大学名、授業、役職、入試制度、研究成果、学務データは本サイト独自のAU設定です。"
+
+#. Global message key: prospectusTitle
+#: src/sections/admissions.html:3
+msgctxt "text:prospectusTitle"
+msgid "Touhou University Admissions Guide"
+msgstr "東方大学 入学案内"
+
+#. Global message key: boardLabel
+#: src/sections/dialogs.html:82
+msgctxt "text:boardLabel"
+msgid "Board"
+msgstr "板"
+
+#. Global message key: proposalBoard
+#: src/sections/dialogs.html:88
+msgctxt "text:proposalBoard"
+msgid "Campus Proposals"
+msgstr "学務提案"
+
+#. Global message key: bbsPinnedPost
+#: src/data/i18n.js:1
+msgctxt "text:bbsPinnedPost"
+msgid "Temporary air-route and boundary-gate controls during the anniversary"
+msgstr "大学祭期間の空路・境界門臨時規制"
+
+#. Global message key: titleLabel
+#: src/sections/dialogs.html:95
+msgctxt "text:titleLabel"
+msgid "Title"
+msgstr "題名"
+
+#. Global message key: correctionsCount
+#: src/sections/research.html:73
+msgctxt "text:correctionsCount"
+msgid "public corrections"
+msgstr "回の公開訂正"
+
+#. Global message key: nitoriTags
+#: src/sections/faculty.html:108
+msgctxt "text:nitoriTags"
+msgid "Hydraulics · Prototyping"
+msgstr "水力機械・試作"
+
+#. Global message key: engineeringTags
+#: src/sections/academics.html:57
+msgctxt "text:engineeringTags"
+msgid "Hydraulic systems · Instruments · Mountain maintenance"
+msgstr "水力系・観測機器・山地保守"
+
+#. Global message key: eienteiClinic
+#: src/sections/map.html:40
+msgctxt "text:eienteiClinic"
+msgid "Eientei Clinic"
+msgstr "永遠亭診療所"
+
+#. Global message key: nitoriName
+#: src/sections/faculty.html:107
+msgctxt "text:nitoriName"
+msgid "Nitori Kawashiro"
+msgstr "河城 にとり"
+
+#. Global message key: kappaWorkshop
+#: src/sections/map.html:43
+msgctxt "text:kappaWorkshop"
+msgid "Kappa Joint Workshop"
+msgstr "河童共同工房"
+
+#. Global message key: reimuTags
+#: src/sections/faculty.html:30
+msgctxt "text:reimuTags"
+msgid "Incident response · Hakurei barrier arts"
+msgstr "異変対応実務・博麗結界術"
+
+#. Global message key: sharedSpecies
+#: src/sections/about.html:27
+msgctxt "text:sharedSpecies"
+msgid "Inter-species learning"
+msgstr "異類共学"
+
+#. Global message key: aboutQuote
+#: src/sections/hero.html:25
+msgctxt "text:aboutQuote"
+msgid ""
+"When history can be devoured, medicine comes from the Lunar Capital, and "
+"engineering runs with waterfalls, scholarship becomes more than answers: it "
+"becomes a way for humans and youkai to live together."
+msgstr "歴史が呑み込まれ、薬学が月都から来て、工学が滝に沿って動くとき——学問は答えだけでなく、人間と妖怪が共に生きる方法になります。"
+
+#. Global message key: speciesLabel
+#: src/sections/about.html:56
+msgctxt "text:speciesLabel"
+msgid "Species"
+msgstr "登録種族"
+
+#. Global message key: rabbitMeta
+#: src/data/i18n.js:1
+msgctxt "text:rabbitMeta"
+msgid "White Rabbit No. 27 · 2 hours ago"
+msgstr "白兎27号・2時間前"
+
+#. Global message key: researchMethod
+#: src/sections/research.html:55
+msgctxt "text:researchMethod"
+msgid "Methods & Field Notes"
+msgstr "研究方法と現場記録"
+
+#. Global message key: moonGuideBody
+#: src/sections/research.html:60
+msgctxt "text:moonGuideBody"
+msgid ""
+"Studies wavelength, anxiety, and spatial judgment; route guidance collects "
+"no personal ability data."
+msgstr "波長、不安、空間判断の関係を研究し、案内は個人の能力データを収集しません。"
+
+#. Global message key: iconRespect
+#: src/sections/about.html:33
+msgctxt "text:iconRespect"
+msgid "R"
+msgstr "礼"
+
+#. Global message key: prospectusBody
+#: src/sections/dialogs.html:26
+msgctxt "text:prospectusBody"
+msgid ""
+"Online applications for the autumn intake are open through 31 August. You "
+"may save in stages; Outside World applicants receive a barrier-crossing time "
+"after document review."
+msgstr "秋季入試のオンライン出願は8月31日まで。途中保存でき、外界生には書類審査後に結界通行時刻を案内します。"
+
+#. Global message key: hiedaHall
+#: src/sections/map.html:34
+msgctxt "text:hiedaHall"
+msgid "Hieda History Hall"
+msgstr "稗田史学館"
+
+#. Global message key: bambooClub
+#: src/sections/campus.html:76
+msgctxt "text:bambooClub"
+msgid "Bamboo Navigation Club"
+msgstr "竹林オリエンテーリング部"
+
+#. Global message key: bbsClubPost
+#: src/data/i18n.js:1
+msgctxt "text:bbsClubPost"
+msgid "Bamboo Navigation recruitment: no guarantee of the same return route this week"
+msgstr "竹林オリエンテーリング部新歓：今週は同じ帰路を保証しません"
+
+#. Global message key: spellPrinciple
+#: src/sections/about.html:35
+msgctxt "text:spellPrinciple"
+msgid ""
+"Spell-card rules remind us that even the sharpest contest can have a name, a "
+"boundary, and a way out."
+msgstr "スペルカード規則は、最も鋭い競い合いにも名称・境界・退路を持てると教えます。"
+
+#. Global message key: boundaryHistory
+#: src/sections/faculty.html:16
+msgctxt "text:boundaryHistory"
+msgid "Boundaries & History"
+msgstr "境界・歴史"
+
+#. Global message key: boundaryStudyTags
+#: src/sections/academics.html:21
+msgctxt "text:boundaryStudyTags"
+msgid "Boundary governance · Incident response · Spell-card ethics"
+msgstr "境界統治・異変対応・スペルカード倫理"
+
+#. Global message key: boundaryResearchBody
+#: src/sections/research.html:21
+msgctxt "text:boundaryResearchBody"
+msgid ""
+"The Boundary Observatory and Kourindou use a non-invasive registry to record "
+"how Outside World objects change meaning as they enter Gensokyo, without "
+"widening gaps or using owners' memories as experimental material."
+msgstr "境界観測所と香霖堂は非侵襲的登録手順を設け、外界の品が幻想郷へ入る際の意味変化を記録します。裂け目を広げず、所有者の記憶を実験材料にしません。"
+
+#. Global message key: iconDining
+#: src/sections/services.html:66
+msgctxt "text:iconDining"
+msgid "DIN"
+msgstr "膳"
+
+#. Global message key: teaNewsClub
+#: src/sections/campus.html:78
+msgctxt "text:teaNewsClub"
+msgid "Tea & News Ethics Society"
+msgstr "茶と報道倫理会"
+
+#. Global message key: eirinTags
+#: src/sections/academics.html:48
+msgctxt "text:eirinTags"
+msgid "Hourai pharmacology · Sensory safety · Cross-species clinical work"
+msgstr "蓬莱薬理・感覚安全・種族横断臨床"
+
+#. Global message key: medicineTags
+#: src/sections/faculty.html:95
+msgctxt "text:medicineTags"
+msgid "Pharmacology · Cross-species medicine"
+msgstr "薬理学・種族横断医療"
+
+#. Global message key: iconExam
+#: src/sections/services.html:78
+msgctxt "text:iconExam"
+msgid "EXAM"
+msgstr "試"
+
+#. Global message key: iconClass
+#: src/sections/services.html:72
+msgctxt "text:iconClass"
+msgid "CLS"
+msgstr "課"
+
+#. Global message key: iconBbs
+#: src/sections/services.html:90
+msgctxt "text:iconBbs"
+msgid "BBS"
+msgstr "談"
+
+#. Global message key: waterwheelBody
+#: src/sections/research.html:50
+msgctxt "text:waterwheelBody"
+msgid ""
+"A small hydropower system villages can maintain without magic, supported by "
+"an image-first repair manual."
+msgstr "妖力のない里でも維持できる小水力システム。整備手引きは図像を優先します。"
+
+#. Global message key: ordinal2
+#: src/sections/about.html:25
+msgctxt "text:ordinal2"
+msgid "II"
+msgstr "弐"
+
+#. Global message key: originPoint
+#: src/sections/map.html:76
+msgctxt "text:originPoint"
+msgid "Origin"
+msgstr "起点"
+
+#. Global message key: mottoTruth
+#: src/sections/about.html:20 src/sections/traditions.html:18
+msgctxt "text:mottoTruth"
+msgid "Cross borders in pursuit of truth"
+msgstr "境を越えて真を求める"
+
+#. Global message key: fullMotto
+#: src/sections/footer.html:17
+msgctxt "text:fullMotto"
+msgid "Cross borders for truth · Contest with respect"
+msgstr "境を越えて真を求め・礼をもって競う"
+
+#. Global message key: barrierCount
+#: src/sections/about.html:60
+msgctxt "text:barrierCount"
+msgid "Great Barrier"
+msgstr "の大結界"
+
+#. Global message key: medicine
+#: src/sections/academics.html:42 src/sections/research.html:58 src/js/fieldwork-model.js:275
+msgctxt "text:medicine"
+msgid "Medicine"
+msgstr "医薬"
+
+#. Global message key: barrierArrival
+#: src/sections/faq.html:18
+msgctxt "text:barrierArrival"
+msgid ""
+"After admission, the Hakurei-side desk arranges a controlled arrival. "
+"Open-day visitors should wait on the outer shrine approach at their reserved "
+"time and never follow an unfamiliar umbrella or butterfly."
+msgstr "合格後は博麗側窓口が管理された到着を手配します。公開日の来訪者は予約時刻に博麗神社外側の参道で案内を待ち、正体不明の傘や蝶について行かないでください。"
+
+#. Global message key: iconGate
+#: src/sections/services.html:54
+msgctxt "text:iconGate"
+msgid "GATE"
+msgstr "門"
+
+#. Global message key: openProspectus
+#: src/sections/admissions.html:23
+msgctxt "text:openProspectus"
+msgid "Open admissions guide"
+msgstr "入学案内を開く"
+
+#. Global message key: openDayNotice
+#: src/data/i18n.js:1
+msgctxt "text:openDayNotice"
+msgid "Open Day: Outside World visitors meet at the Hakurei entrance"
+msgstr "公開日：外界生は博麗側入口に集合"
+
+#. Global message key: readFullResearch
+#: src/sections/research.html:25
+msgctxt "text:readFullResearch"
+msgid "Read full research file"
+msgstr "研究ファイル全文を読む"
+
+#. Global message key: mistyLibrary
+#: site.config.mjs:237 src/sections/chrome.html:48 src/sections/footer.html:30 src/sections/library.html:2
+msgctxt "text:mistyLibrary"
+msgid "Misty Lake Library"
+msgstr "霧の湖図書館"
+
+#. Global message key: nightLibrary
+#: src/sections/campus.html:27
+msgctxt "text:nightLibrary"
+msgid "Misty Lake Library · Night Reading"
+msgstr "霧の湖図書館・夜間閲覧"
+
+#. Global message key: marisaName
+#: src/sections/faculty.html:81
+msgctxt "text:marisaName"
+msgid "Marisa Kirisame"
+msgstr "霧雨 魔理沙"
+
+#. Global message key: hisoutensokuClub
+#: src/sections/campus.html:75
+msgctxt "text:hisoutensokuClub"
+msgid "Hisoutensoku Research Society"
+msgstr "非想天則研究会"
+
+#. Global message key: reserveFestival
+#: src/sections/traditions.html:57
+msgctxt "text:reserveFestival"
+msgid "Reserve anniversary entry"
+msgstr "大学祭の来校予約"
+
+#. Global message key: iconWish
+#: src/sections/services.html:12
+msgctxt "text:iconWish"
+msgid "APPLY"
+msgstr "願"
+
+#. Global message key: libraryTagline
+#: src/sections/campus.html:28
+msgctxt "text:libraryTagline"
+msgid "The collection may fly; call numbers do not."
+msgstr "蔵書は飛んでも、請求記号は飛びません。"
+
+#. Global message key: marisaTags
+#: src/sections/faculty.html:82
+msgctxt "text:marisaTags"
+msgid "High-output magic · Experimental method"
+msgstr "高出力魔法・実験方法"
+
+#. Global message key: grimoireClub
+#: src/sections/campus.html:74
+msgctxt "text:grimoireClub"
+msgid "Grimoire Restoration Society"
+msgstr "魔導書修復会"
+
+#. Global message key: viewDetails
+#: src/sections/campus.html:29
+msgctxt "text:viewDetails"
+msgid "View details ↗"
+msgstr "詳細を見る ↗"
+
+#. Global message key: shuffleTopics
+#: src/sections/bbs.html:25
+msgctxt "text:shuffleTopics"
+msgid "↻ Shuffle topics"
+msgstr "↻ 話題を入れ替える"
+
+#. Global message key: contentCardClose
+#: src/data/i18n.js:1
+msgctxt "text:contentCardClose"
+msgid "Close content card"
+msgstr "コンテンツカードを閉じる"
+
+#. Global message key: campusFileDefault
+#: src/sections/dialogs.html:68
+msgctxt "text:campusFileDefault"
+msgid "Campus File"
+msgstr "キャンパスファイル"
+
+#. Global message key: continueDefault
+#: src/sections/dialogs.html:72
+msgctxt "text:continueDefault"
+msgid "Continue"
+msgstr "続ける"
+
+#. Global message key: examEyebrow
+#: src/sections/exam.html:5
+msgctxt "text:examEyebrow"
+msgid "ADMISSIONS EXAM"
+msgstr "ADMISSIONS EXAM / 入学試験"
+
+#. Global message key: examTitle1
+#: src/sections/exam.html:6
+msgctxt "text:examTitle1"
+msgid "Now,"
+msgstr "さあ、"
+
+#. Global message key: examTitle2
+#: src/sections/exam.html:6
+msgctxt "text:examTitle2"
+msgid "let the questions start the clock."
+msgstr "問いの時計を動かそう。"
+
+#. Global message key: examLead
+#: src/sections/exam.html:8
+msgctxt "text:examLead"
+msgid ""
+"Choose a paper and answer eight questions in eight minutes. Submission is "
+"scored instantly with explanations; results stay on this device, and retakes "
+"reshuffle the questions."
+msgstr "試験を一つ選び、8分で8問に答えます。提出後すぐ採点・解説され、成績はこの端末だけに保存されます。再受験では問題順が変わります。"
+
+#. Global message key: takeExam
+#: site.config.mjs:44 src/sections/services.html:85
+msgctxt "text:takeExam"
+msgid "Take an Exam"
+msgstr "入学試験"
+
+#. Global message key: iconPaper
+#: src/sections/services.html:84
+msgctxt "text:iconPaper"
+msgid "PAPER"
+msgstr "巻"
+
+#. Global message key: mapArrivalServices
+#: src/sections/map.html:65
+msgctxt "text:mapArrivalServices"
+msgid "Arrival & Services"
+msgstr "来訪・学務"
+
+#. Global message key: applicationDeadline
+#: src/sections/admissions.html:31
+msgctxt "text:applicationDeadline"
+msgid "Autumn 2026 online application · closes 31 August"
+msgstr "2026年秋季オンライン出願・8月31日締切"
+
+#. Global message key: routePlannerTitle
+#: src/sections/map.html:92
+msgctxt "text:routePlannerTitle"
+msgid "Where to? Let the campus network work it out."
+msgstr "どう行く？キャンパス路網が計算します。"
+
+#. Global message key: routePlannerLead
+#: src/sections/map.html:95
+msgctxt "text:routePlannerLead"
+msgid ""
+"Choose walking, broom, tengu windway, or bamboo rabbit shuttle; each has its "
+"own stops and connecting route."
+msgstr "徒歩、箒、天狗風路、竹林兎車を選択。それぞれ固有の停車地と接続経路があります。"
+
+#. Global message key: routeOutsiderCredit
+#: src/sections/map.html:93
+msgctxt "text:routeOutsiderCredit"
+msgid ""
+"Algorithm temporarily borrowed from an Outside World applicant who insists "
+"“it is only Dijkstra”; Yukari has not conceded that the shortest path stays "
+"on the same side."
+msgstr "アルゴリズムは「ただの Dijkstra です」と言い張る外の世界の志願者から一時借用。紫は最短路が同じ側にあるとはまだ認めていません。"
+
+#. Global message key: mapLiveLabel
+#: src/sections/map.html:75
+msgctxt "text:mapLiveLabel"
+msgid "Live"
+msgstr "現在"
+
+#. Global message key: mapByBell
+#: src/sections/map.html:75
+msgctxt "text:mapByBell"
+msgid "Open by campus bell"
+msgstr "校鐘に従い開館"
+
+#. Global message key: mapWoodenNotice
+#: src/sections/map.html:46
+msgctxt "text:mapWoodenNotice"
+msgid "TODAY'S WOODEN NOTICE"
+msgstr "本日の木札"
+
+#. Global message key: mapWoodenWaiting
+#: src/sections/map.html:47
+msgctxt "text:mapWoodenWaiting"
+msgid "The north wooden sign is waiting for the next campus bell."
+msgstr "北側木札は次の校鐘を待っています。"
+
+#. Global message key: routeFrom
+#: src/sections/map.html:100
+msgctxt "text:routeFrom"
+msgid "From"
+msgstr "出発地"
+
+#. Global message key: routeTo
+#: src/sections/map.html:105
+msgctxt "text:routeTo"
+msgid "To"
+msgstr "目的地"
+
+#. Global message key: routeMode
+#: src/sections/map.html:109
+msgctxt "text:routeMode"
+msgid "Travel mode"
+msgstr "交通手段"
+
+#. Global message key: routePlan
+#: src/sections/map.html:112
+msgctxt "text:routePlan"
+msgid "Plan route"
+msgstr "経路を検索"
+
+#. Global message key: spellcardField
+#: src/sections/research.html:78
+msgctxt "text:spellcardField"
+msgid "Spell-card Studies"
+msgstr "スペルカード学"
+
+#. Global message key: spellcardStudyTitle
+#: src/sections/research.html:79
+msgctxt "text:spellcardStudyTitle"
+msgid "Readability, Fairness & Exit Design Under Spell-card Rules"
+msgstr "スペルカード規則における可読性・公平性・退路設計"
+
+#. Global message key: spellcardStudyBody
+#: src/sections/research.html:80
+msgctxt "text:spellcardStudyBody"
+msgid ""
+"Measures declarations, telegraphs, danmaku density, and exit windows "
+"separately to find when spectacle remains legible."
+msgstr "宣言、予兆、弾幕密度、退路窓を分けて測定し、「華麗だが読める」構成条件を探ります。"
+
+#. Global message key: testPatterns
+#: src/sections/research.html:82
+msgctxt "text:testPatterns"
+msgid "test patterns"
+msgstr "組の試験弾幕"
+
+#. Global message key: minimumExitTelegraph
+#: src/sections/research.html:83
+msgctxt "text:minimumExitTelegraph"
+msgid "minimum exit telegraph"
+msgstr "最低退路予兆"
+
+#. Global message key: readSpellcardFile
+#: src/sections/research.html:85
+msgctxt "text:readSpellcardFile"
+msgid "Read the spell-card research file"
+msgstr "スペルカード研究全文を読む"
+
+#. Global message key: spellcardWorkshopNav
+#: site.config.mjs:79
+msgctxt "text:spellcardWorkshopNav"
+msgid "Spell-card Design Workshop"
+msgstr "スペルカード設計工房"
+
+#. Global message key: spellcardRecordsNav
+#: site.config.mjs:79
+msgctxt "text:spellcardRecordsNav"
+msgid "My Spell-card Files"
+msgstr "自分のスペルカード記録"
+
+#. Global message key: spellcardWorkshopTitle
+#: src/sections/spellcard-workshop.html:2
+msgctxt "text:spellcardWorkshopTitle"
+msgid "Interactive Spell-card Design & Ethics Workshop"
+msgstr "操作できるスペルカード設計・倫理工房"
+
+#. Global message key: spellcardWorkshopPortal
+#: src/sections/research.html:36
+msgctxt "text:spellcardWorkshopPortal"
+msgid "Enter the Interactive Spell-card Design & Ethics Workshop"
+msgstr "操作できるスペルカード設計・倫理工房へ"
+
+#. Global message key: myBbsPosts
+#: src/sections/bbs.html:22
+msgctxt "text:myBbsPosts"
+msgid "My Posts"
+msgstr "自分の投稿"
+
+#. Global message key: localBbsCount
+#: src/sections/bbs.html:39
+msgctxt "text:localBbsCount"
+msgid "Saved locally: 0 posts"
+msgstr "端末保存：0件"
+
+#. Global message key: bbsAutosaveNote
+#: src/sections/dialogs.html:104
+msgctxt "text:bbsAutosaveNote"
+msgid "Content is autosaved; after publishing, find it again under My Posts."
+msgstr "内容は自動保存され、投稿後は「自分の投稿」から確認できます。"
+
+#. Global message key: facultyFrictionLead
+#: src/sections/faculty.html:8
+msgctxt "text:facultyFrictionLead"
+msgid ""
+"Faculty bring field experience into the lecture hall—and their own trouble "
+"with it. Alongside eight core chairs, Faith & Coexistence opens four "
+"rotating teaching seats this term."
+msgstr "教員は現場経験だけでなく、自分の面倒事まで講堂へ持ち込みます。八つの中核教席に加え、信仰学部は今学期四つの輪番教席を開講します。"
+
+#. Global message key: unresolvedOffice
+#: src/sections/faculty.html:129
+msgctxt "text:unresolvedOffice"
+msgid "OFFICE OF UNRESOLVED MATTERS"
+msgstr "OFFICE OF UNRESOLVED MATTERS / 未解決事務室"
+
+#. Global message key: unresolvedTitle
+#: src/sections/faculty.html:130
+msgctxt "text:unresolvedTitle"
+msgid "The rules are orderly. The faculty are not."
+msgstr "制度は整然。教員本人はそうでもない。"
+
+#. Global message key: unresolvedLead
+#: src/sections/faculty.html:131
+msgctxt "text:unresolvedLead"
+msgid ""
+"These are cases the meeting has not sanded smooth: headlines too fast, "
+"materials without sources, moving classrooms, and a pipe temporarily "
+"repaired for 129 days."
+msgstr "会議で丸く収まっていない案件を集めます。速すぎる見出し、出典不明の素材、動く教室、そして仮修理129日目の配管です。"
+
+#. Global message key: weeklyConclusion
+#: src/sections/faculty.html:138
+msgctxt "text:weeklyConclusion"
+msgid "This week's administrative finding"
+msgstr "今週の学務結論"
+
+#. Global message key: allHandled
+#: src/sections/faculty.html:139
+msgctxt "text:allHandled"
+msgid "All handled according to policy"
+msgstr "全件規程どおり処理"
+
+#. Global message key: allDebated
+#: src/sections/faculty.html:140
+msgctxt "text:allDebated"
+msgid "Correction: every case remains disputed"
+msgstr "訂正：全件なお係争中"
+
+#. Global message key: faithMeetingCaption
+#: src/sections/faculty.html:156
+msgctxt "text:faithMeetingCaption"
+msgid "FCP MEETING No. 47 · TABLE LEG LOOSE AGAIN"
+msgstr "FCP MEETING No. 47 · 会議中に机脚が再び緩む"
+
+#. Global message key: hakureiGateFund
+#: src/sections/faculty.html:158
+msgctxt "text:hakureiGateFund"
+msgid "HAKUREI GATE REPAIR FUND"
+msgstr "博麗門修繕募金"
+
+#. Global message key: donationSchedule
+#: src/sections/faculty.html:160
+msgctxt "text:donationSchedule"
+msgid "※ The box attends Tue / Thu"
+msgstr "※ 賽銭箱は火・木のみ登校"
+
+#. Global message key: faithEyebrow
+#: src/sections/faculty.html:165
+msgctxt "text:faithEyebrow"
+msgid "FAITH + COEXISTENCE POLICY"
+msgstr "FAITH + COEXISTENCE POLICY / 信仰・共生政策学部"
+
+#. Global message key: faithCouncilTitle
+#: src/sections/faculty.html:166
+msgctxt "text:faithCouncilTitle"
+msgid "Four faith blocs. One table too small."
+msgstr "四つの信仰勢力、狭すぎる会議机。"
+
+#. Global message key: faithCouncilLead
+#: src/sections/faculty.html:167
+msgctxt "text:faithCouncilLead"
+msgid ""
+"The school does not pretend religious dialogue always ends smoothly. Temple "
+"coexistence, shrine infrastructure, a hermit's public desire, and "
+"Outside-style event planning collide over the same budget."
+msgstr "宗教対話がいつも穏便に終わるふりはしません。寺の共生、神社の基盤、仙人の公共欲望、外界式運営が同じ予算で正面衝突します。"
+
+#. Global message key: externalAppeals
+#: src/sections/faculty.html:174
+msgctxt "text:externalAppeals"
+msgid "External Appeals Review"
+msgstr "学外異議審査"
+
+#. Global message key: eikiNameStatic
+#: src/sections/faculty.html:175
+msgctxt "text:eikiNameStatic"
+msgid "Eiki Shiki, Yamaxanadu"
+msgstr "四季映姫・ヤマザナドゥ"
+
+#. Global message key: eikiVisitStatic
+#: src/sections/faculty.html:176
+msgctxt "text:eikiVisitStatic"
+msgid "Visits on the last Higan day each month."
+msgstr "毎月最後の彼岸日に来校。"
+
+#. Global message key: facultyUnresolved
+#: src/sections/dialogs.html:17
+msgctxt "text:facultyUnresolved"
+msgid "Unresolved This Term"
+msgstr "今学期の未解決事項"
+
+#. Global message key: mapRepairClaim
+#: src/data/i18n.js:1
+msgctxt "text:mapRepairClaim"
+msgid "North windway permanently repaired"
+msgstr "北側風路は恒久修理済み"
+
+#. Global message key: mapRepairCorrection
+#: src/data/i18n.js:1
+msgctxt "text:mapRepairCorrection"
+msgid "Correction: kappa tape still counts as temporary"
+msgstr "訂正：河童テープはなお仮修理扱い"
+
+#. Global message key: siteSearchMobile
+#: src/sections/chrome.html:85
+msgctxt "text:siteSearchMobile"
+msgid "SEARCH / SITE SEARCH"
+msgstr "SEARCH / サイト内検索"
+
+#. Global message key: closeMyTuDocument
+#: src/data/i18n.js:1
+msgctxt "text:closeMyTuDocument"
+msgid "Close university document"
+msgstr "学務文書を閉じる"
+
+#. Global message key: printMyTuDocument
+#: src/sections/dialogs.html:138
+msgctxt "text:printMyTuDocument"
+msgid "Print / Save PDF"
+msgstr "印刷／PDF保存"
+
+#. Global message key: closeCourseDocument
+#: src/data/i18n.js:1
+msgctxt "text:closeCourseDocument"
+msgid "Close registrar document"
+msgstr "教務書類を閉じる"
+
+#. Global message key: liveCampusGovernance
+#: src/sections/live-campus.html:3
+msgctxt "text:liveCampusGovernance"
+msgid "Live Campus & University Governance"
+msgstr "動的キャンパス・学務ガバナンス"
+
+#. Global message key: closeAcademicTranscript
+#: src/data/i18n.js:1
+msgctxt "text:closeAcademicTranscript"
+msgid "Close transcript"
+msgstr "成績表を閉じる"
+
+#. Global message key: libraryNav
+#: src/data/i18n.js:1
+msgctxt "text:libraryNav"
+msgid "Library"
+msgstr "図書館"
+
+#. Global message key: libraryGlyph
+#: src/sections/services.html:30
+msgctxt "text:libraryGlyph"
+msgid "BOOK"
+msgstr "書"
+
+#. Global message key: libraryLoading
+#: src/sections/library.html:4
+msgctxt "text:libraryLoading"
+msgid "Opening the collection catalogue."
+msgstr "蔵書目録を展開しています。"
+
+#. Global message key: housingNav
+#: src/data/i18n.js:1
+msgctxt "text:housingNav"
+msgid "Housing"
+msgstr "学生寮"
+
+#. Global message key: housingLife
+#: src/sections/chrome.html:114 src/sections/footer.html:32
+msgctxt "text:housingLife"
+msgid "Residential Life"
+msgstr "学寮生活"
+
+#. Global message key: housingService
+#: src/sections/services.html:43
+msgctxt "text:housingService"
+msgid "Housing & Roommates"
+msgstr "学生寮・同室者"
+
+#. Global message key: housingGlyph
+#: src/sections/services.html:42
+msgctxt "text:housingGlyph"
+msgid "HALL"
+msgstr "寮"
+
+#. Global message key: housingSectionTitle
+#: site.config.mjs:272 src/sections/housing.html:2
+msgctxt "text:housingSectionTitle"
+msgid "Housing, Rooms & Roommates"
+msgstr "学生寮・部屋・同室者"
+
+#. Global message key: housingLoading
+#: src/sections/housing.html:4
+msgctxt "text:housingLoading"
+msgid "The housing ledger is checking room numbers."
+msgstr "配室台帳が室番号を照合しています。"
+
+#. Global message key: housingOverviewNav
+#: site.config.mjs:275
+msgctxt "text:housingOverviewNav"
+msgid "Residences"
+msgstr "寮一覧"
+
+#. Global message key: housingApplicationNav
+#: site.config.mjs:275
+msgctxt "text:housingApplicationNav"
+msgid "Apply & Match"
+msgstr "申請・配室"
+
+#. Global message key: housingAccountNav
+#: site.config.mjs:275
+msgctxt "text:housingAccountNav"
+msgid "My Housing"
+msgstr "自分の寮"
+
+#. Global message key: orientationWelcomeNav
+#: site.config.mjs:60
+msgctxt "text:orientationWelcomeNav"
+msgid "Arrival office"
+msgstr "新入生到着室"
+
+#. Global message key: orientationArrivalNav
+#: site.config.mjs:61
+msgctxt "text:orientationArrivalNav"
+msgid "Arrival route"
+msgstr "到着経路"
+
+#. Global message key: orientationBoundaryNav
+#: site.config.mjs:62
+msgctxt "text:orientationBoundaryNav"
+msgid "Stop & notice"
+msgstr "停止合図・通知"
+
+#. Global message key: orientationFirstBellNav
+#: site.config.mjs:63
+msgctxt "text:orientationFirstBellNav"
+msgid "First destination"
+msgstr "最初の行先"
+
+#. Global message key: orientationLoadingEyebrow
+#: src/sections/orientation.html:4
+msgctxt "text:orientationLoadingEyebrow"
+msgid "FIRST BELL / NEW STUDENT ARRIVAL"
+msgstr "FIRST BELL / 新入生到着室"
+
+#. Global message key: orientationLoading
+#: src/sections/orientation.html:6
+msgctxt "text:orientationLoading"
+msgid ""
+"The arrival office is checking the admission edition. Aya rendered ‘expected "
+"arrival’ as ‘mysterious disappearance’; a correction is following."
+msgstr "到着室が合格版を照合中。文は『到着予定』を『謎の失踪』と書いたため、訂正版が続いて届きます。"
+
+#. Global message key: appraisalNav
+#: site.config.mjs:240
+msgctxt "text:appraisalNav"
+msgid "Drift-Object Appraisal"
+msgstr "漂流物鑑定"
+
+#. Global message key: appraisalSectionTitle
+#: src/sections/appraisal.html:3
+msgctxt "text:appraisalSectionTitle"
+msgid "Outside World Drift-Object Appraisal Office"
+msgstr "外界漂流物鑑定所"
+
+#. Global message key: festivalDeskNav
+#: src/data/i18n.js:1
+msgctxt "text:festivalDeskNav"
+msgid "Operations desk"
+msgstr "運営編成机"
+
+#. Global message key: festivalRecordsNav
+#: site.config.mjs:124
+msgctxt "text:festivalRecordsNav"
+msgid "Permits & closing files"
+msgstr "許可・閉祭記録"
+
+#. Global message key: festivalMapNav
+#: site.config.mjs:124
+msgctxt "text:festivalMapNav"
+msgid "Duty campus map"
+msgstr "当番キャンパス地図"
+
+#. Global message key: festivalBbsNav
+#: site.config.mjs:124
+msgctxt "text:festivalBbsNav"
+msgid "Festival rumours"
+msgstr "祭典の風聞"
+
+#. Global message key: festivalBoardTitle
+#: src/sections/festival.html:5
+msgctxt "text:festivalBoardTitle"
+msgid "Spring Spell-card Lantern / Boundary Festival Operations"
+msgstr "春季スペルカード灯会／境界開学祭運営室"
+
+#. Global message key: festivalLoadingEyebrow
+#: src/sections/festival.html:4
+msgctxt "text:festivalLoadingEyebrow"
+msgid "FESTIVAL OPERATIONS / BOUNDARY FESTIVAL"
+msgstr "FESTIVAL OPERATIONS / 境界開学祭運営室"
+
+#. Global message key: festivalLoading
+#: src/sections/festival.html:6
+msgctxt "text:festivalLoading"
+msgid ""
+"Kappa are pulling the power plan from under the tape; three sole main gates "
+"still deny one another on the same form."
+msgstr "河童が配電図をテープの下から抜いている。三つの唯一正門は同じ表で互いを否認中。"
+
+#. Global message key: fieldworkStationsNav
+#: site.config.mjs:139
+msgctxt "text:fieldworkStationsNav"
+msgid "Twenty-four stations"
+msgstr "二十四実習所"
+
+#. Global message key: fieldworkDispatchNav
+#: site.config.mjs:139
+msgctxt "text:fieldworkDispatchNav"
+msgid "Dispatch desk"
+msgstr "派遣机"
+
+#. Global message key: fieldworkPassportNav
+#: site.config.mjs:139
+msgctxt "text:fieldworkPassportNav"
+msgid "My passport"
+msgstr "自分の旅券"
+
+#. Global message key: fieldworkRecordsNav
+#: site.config.mjs:139
+msgctxt "text:fieldworkRecordsNav"
+msgid "Dispatch & return files"
+msgstr "派遣・帰校記録"
+
+#. Global message key: fieldworkTitle
+#: src/sections/fieldwork.html:5
+msgctxt "text:fieldworkTitle"
+msgid "Domestic Placement & Field Inquiry Passport"
+msgstr "幻想郷域内実習・フィールド調査パスポート"
+
+#. Global message key: fieldworkLoadingEyebrow
+#: src/sections/fieldwork.html:4
+msgctxt "text:fieldworkLoadingEyebrow"
+msgid "FIELDWORK PASSPORT / DOMESTIC PLACEMENT DESK"
+msgstr "FIELDWORK PASSPORT / 幻想郷域内実習派遣机"
+
+#. Global message key: fieldworkLoading
+#: src/sections/fieldwork.html:6
+msgctxt "text:fieldworkLoading"
+msgid ""
+"Keine is arranging twenty-four field seals by risk; the Scarlet Devil "
+"Mansion and Hakugyokurou refuse the same column."
+msgstr "慧音が二十四の現地印を危険度順に並べている。紅魔館と白玉楼は同じ欄を拒否中。"
+
+#. Global message key: commonsTitle
+#: src/sections/commons.html:5
+msgctxt "text:commonsTitle"
+msgid "Campus Commons"
+msgstr "学内公共サービス館"
+
+#. Global message key: commonsLoadingEyebrow
+#: src/sections/commons.html:4
+msgctxt "text:commonsLoadingEyebrow"
+msgid "CAMPUS COMMONS / PROPERTY × POST"
+msgstr "CAMPUS COMMONS / 物権 × 郵便"
+
+#. Global message key: commonsLoading
+#: src/sections/commons.html:6
+msgctxt "text:commonsLoading"
+msgid ""
+"Kogasa is saving a seat for an umbrella that refuses to go home; Aya has "
+"delivered its unsent hearing notice."
+msgstr "小傘は帰宅を拒む傘の席を確保中。文は未送信の聴聞通知を既に配達しました。"
+
+#. Global message key: graduationAuditNav
+#: site.config.mjs:185
+msgctxt "text:graduationAuditNav"
+msgid "Eight-desk audit"
+msgstr "八席卒業判定"
+
+#. Global message key: careerOfficeNav
+#: site.config.mjs:186
+msgctxt "text:careerOfficeNav"
+msgid "Twelve career files"
+msgstr "十二の進路記録"
+
+#. Global message key: employmentMarketNav
+#: site.config.mjs:187
+msgctxt "text:employmentMarketNav"
+msgid "Gensokyo Employment Market"
+msgstr "幻想郷就業市場"
+
+#. Global message key: employmentLoadingEyebrow
+#: src/sections/employment.html:4
+msgctxt "text:employmentLoadingEyebrow"
+msgid "GENSOKYO EMPLOYMENT MARKET"
+msgstr "GENSOKYO EMPLOYMENT MARKET / 幻想郷就業市場"
+
+#. Global message key: employmentLoadingTitle
+#: src/sections/employment.html:5
+msgctxt "text:employmentLoadingTitle"
+msgid "Graduate whereabouts are being recounted"
+msgstr "卒業生の進路を再点呼中"
+
+#. Global message key: employmentLoading
+#: src/sections/employment.html:6
+msgctxt "text:employmentLoading"
+msgid ""
+"Akyuu counts each person once, Youmu counts souls twice, and Remilia has "
+"already claimed every non-applicant as hired."
+msgstr "阿求は本人で一度、妖夢は魂魄で二度数え、レミリアは未応募者を先に全員採用扱いした。"
+
+#. Global message key: alumniAssociationNav
+#: site.config.mjs:188
+msgctxt "text:alumniAssociationNav"
+msgid "Hyakki Yagyo Alumni"
+msgstr "百鬼夜行同窓会"
+
+#. Global message key: graduationRecordsNav
+#: site.config.mjs:189
+msgctxt "text:graduationRecordsNav"
+msgid "My audit files"
+msgstr "自分の判定記録"
+
+#. Global message key: careersLoadingEyebrow
+#: src/sections/careers.html:4
+msgctxt "text:careersLoadingEyebrow"
+msgid "GRADUATION / CAREERS / HYAKKI YAGYO"
+msgstr "GRADUATION / 進路 / 百鬼夜行"
+
+#. Global message key: careersTitle
+#: src/sections/careers.html:5
+msgctxt "text:careersTitle"
+msgid "Graduation, Careers & Hyakki Yagyo Alumni"
+msgstr "卒業判定・進路室・百鬼夜行同窓会"
+
+#. Global message key: careersLoading
+#: src/sections/careers.html:6
+msgctxt "text:careersLoading"
+msgid ""
+"Eight desks are checking one record; crow-tengu post has already delivered "
+"its still-sealed alumni invitation."
+msgstr "八つの机が同じ学籍を照合中。鴉天狗は未開封の同窓会招待状を既に配達しました。"
+
+#. Global message key: calendarTitle
+#: src/sections/academic-calendar.html:5
+msgctxt "text:calendarTitle"
+msgid "Gensokyo Academic Calendar"
+msgstr "幻想郷学年暦"
+
+#. Global message key: calendarLoadingEyebrow
+#: src/sections/academic-calendar.html:4
+msgctxt "text:calendarLoadingEyebrow"
+msgid "GENSOKYO ACADEMIC CALENDAR"
+msgstr "GENSOKYO ACADEMIC CALENDAR / 幻想郷学年暦"
+
+#. Global message key: calendarLoading
+#: src/sections/academic-calendar.html:6
+msgctxt "text:calendarLoading"
+msgid ""
+"Keine is checking which season owns today; Hakugyokurou has objected to "
+"spring's delivery date."
+msgstr "慧音が今日の季節を照合中。白玉楼は春の配達日に異議を提出しました。"
+
+#. Global message key: ethicsBoardTitle
+#: src/sections/ethics.html:5
+msgctxt "text:ethicsBoardTitle"
+msgid "Gensokyo Research Ethics Review Board"
+msgstr "幻想郷研究倫理審査委員会"
+
+#. Global message key: ethicsLoading
+#: src/sections/ethics.html:6
+msgctxt "text:ethicsLoading"
+msgid "Akyuu is binding five opinions separately; Eiki has forbidden the averaging stapler."
+msgstr "阿求が五席の意見を別々に綴じている。映姫は平均ホチキスの使用を禁じた。"
+
+#. Global message key: ethicsPortal
+#: src/sections/research.html:42
+msgctxt "text:ethicsPortal"
+msgid "Submit a protocol to the Gensokyo Research Ethics Review Board"
+msgstr "研究計画を幻想郷研究倫理審査委員会へ提出"
+
+#. Global message key: incidentCasesNav
+#: site.config.mjs:109
+msgctxt "text:incidentCasesNav"
+msgid "Case Files"
+msgstr "事案記録"
+
+#. Global message key: incidentSimulatorNav
+#: site.config.mjs:109
+msgctxt "text:incidentSimulatorNav"
+msgid "Research Simulator"
+msgstr "研究シミュレーター"
+
+#. Global message key: incidentRecordsNav
+#: site.config.mjs:109
+msgctxt "text:incidentRecordsNav"
+msgid "Closures & Reactions"
+msgstr "終結・連動"
+
+#. Global message key: incidentLoading
+#: src/sections/incidents.html:4
+msgctxt "text:incidentLoading"
+msgid ""
+"The Incident Desk is opening evidence bags, a version sheet, and one "
+"rain-wrinkled campus paper."
+msgstr "事案連絡室が証拠袋、版管理表、雨でしわになった学内報を広げています。"

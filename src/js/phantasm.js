@@ -1,3 +1,4 @@
+import { text as catalogText, trees as catalogTrees } from "../generated/i18n/ui/phantasm.js";
 import {
   phantasmBrandProfiles,
   phantasmCopy,
@@ -64,11 +65,7 @@ function identity() {
   }
 }
 
-const ordinaryBrand = {
-  "zh-Hant": { name: "幻想鄉立東方大學", title: "第九節點名簿｜幻想鄉立東方大學", motto: "越境求真・以禮交鋒" },
-  ja: { name: "幻想郷立東方大学", title: "第九時限点呼簿｜幻想郷立東方大学", motto: "越境求真・礼をもって交鋒" },
-  en: { name: "Touhou University", title: "Ninth-Period Roll｜Touhou University", motto: "SEEK TRUTH BEYOND THE BORDER" },
-};
+const ordinaryBrand = catalogTrees["ordinaryBrand"];
 
 function dreamCrest(profileKey) {
   const marks = {
@@ -365,11 +362,7 @@ function defenceView(locale, c, state, fragments) {
           <span aria-hidden="true">審</span>
           <p>${text(phantasmExaminers[0].role, locale)}</p>
           <h3>${text(phantasmExaminers[0].name, locale)}</h3>
-          <blockquote>${locale === "ja"
-            ? "夢は採用しなかった案のゴミ箱ではない。捨てた理由まで食べられる形で持ってきて。"
-            : locale === "en"
-              ? "A dream is not a wastebasket for rejected options. Bring the reason you discarded it in a form I can eat."
-              : "夢不是把沒採用方案丟進去的紙簍。連同你丟掉它的理由，一起整理成我吃得下的樣子。"}</blockquote>
+          <blockquote>${catalogText("defenceView")[locale]}</blockquote>
           <small>DREAM EATER'S OFFICE · WINDOW 09</small>
         </aside>
       </div>

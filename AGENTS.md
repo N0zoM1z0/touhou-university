@@ -47,9 +47,11 @@ in the same change; never choose the nicer-looking number.
 
 ## Non-negotiable engineering rules
 
-- Author in `src/`, `site.config.mjs`, `scripts/` and documentation. Root
-  `*.html`, `assets/css/styles*.css` and `downloads/gaokao/` are generated
-  artifacts; regenerate them with `npm run build` rather than hand-editing.
+- Author in `src/`, `locales/`, `public/`, `site.config.mjs`, `scripts/` and
+  documentation. `dist/`, `src/generated/i18n/` and `locales/templates/` are
+  ignored generated artifacts; regenerate them rather than hand-editing.
+  Keep generated HTML out of the repository root. See
+  [Architecture](docs/ARCHITECTURE.md) and [catalog maintenance](locales/README.md).
 - New lifecycle systems use four layers: trilingual source data, a
   version-tolerant local model/store, official causal events when appropriate,
   and a focused UI renderer. Do not create another monolithic `index.html` or

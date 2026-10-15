@@ -1,0 +1,78 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. propertyMessages.0.source
+#: src/js/post-model.js:98
+msgctxt "text:propertyMessages.0.source"
+msgid "Tsukumogami Property Tribunal"
+msgstr "付喪神物權仲裁處"
+
+#. propertyMessages.0.correction
+#: src/js/post-model.js:111
+msgctxt "text:propertyMessages.0.correction"
+msgid "Hearing time will be re-sent if the object refuses attendance."
+msgstr "若物件拒絕出席，聽證時間會重新寄送。"
+
+#. saved.0.source
+#: src/js/post-model.js:127
+msgctxt "text:saved.0.source"
+msgid "Gensokyo Academic Calendar Desk"
+msgstr "幻想鄉學年曆掛"
+
+#. active.0.source
+#: src/js/post-model.js:141
+msgctxt "text:active.0.source"
+msgid "Today's calendar projection"
+msgstr "今日學年曆投影"
+
+#. propertyMessages.0.subject
+#: src/js/post-model.js:103
+msgctxt "text:propertyMessages.0.subject"
+msgid "{value0} ruling: {value1}"
+msgstr "{value0} 裁定：{value1}"
+
+#. propertyMessages.0.subject
+#: src/js/post-model.js:104
+msgctxt "text:propertyMessages.0.subject.2"
+msgid "{value0} hearing: leave a seat for the object"
+msgstr "{value0} 聽證通知：請替物件本人留一張椅子"
+
+#. propertyMessages.0.body
+#: src/js/post-model.js:106
+msgctxt "text:propertyMessages.0.body"
+msgid ""
+"{value0}'s claim closed as {value1}. Four seat opinions remain separate and "
+"appeal remains available."
+msgstr "{value0} 的申請以「{value1}」結案；四席意見仍分開保存，也仍可申訴。"
+
+#. propertyMessages.0.body
+#: src/js/post-model.js:107
+msgctxt "text:propertyMessages.0.body.2"
+msgid ""
+"{value0}'s claim was received. Bring not only receipts but the object's "
+"statement and provenance corrections."
+msgstr "已收到 {value0} 的申請。請別只帶收據，也要帶物件陳述與來源訂正。"
+
+#. saved.0.subject
+#: src/js/post-model.js:131
+msgctxt "text:saved.0.subject"
+msgid "Calendar leaf saved: {value0}"
+msgstr "已夾入曆葉：{value0}"
+
+#. dispatches.0.source
+#: src/js/post-model.js:189
+msgctxt "text:dispatches.0.source"
+msgid "You → {value0}"
+msgstr "你 → {value0}"
+
+#. postCommunityPosts.0.author
+#: src/js/post-model.js:275
+msgctxt "text:postCommunityPosts.0.author"
+msgid "Tengu Post / to {value0}"
+msgstr "鴉天狗郵便／寄往 {value0}"

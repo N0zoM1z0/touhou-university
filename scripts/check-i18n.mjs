@@ -1,3 +1,4 @@
+import { outputRoot } from "./build/paths.mjs";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -6,8 +7,6 @@ import {
   canonicalText,
   messageRecords,
   messages,
-  textTranslationCollisions,
-  textTranslations,
 } from "../src/data/i18n.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -62,7 +61,7 @@ const sectionSource = sourceDocuments.map(({ source }) => source).join("\n");
 const explicitKeyPattern = /\bdata-i18n(?:-(?:aria-label|placeholder|alt|title))?="([^"]+)"/g;
 const explicitKeys = [
   ...new Set(sourceDocuments.flatMap(({ source }) =>
-    [...source.matchAll(explicitKeyPattern)].map((match) => match[1]),
+    [...source.matchAll(explicitKeyPattern), ...source.matchAll(/<!--\s*i18n:([\w.-]+)\s*-->/g)].map((match) => match[1]),
   )),
 ];
 const unknownExplicitKeys = explicitKeys.filter((key) => !(key in base));
@@ -93,7 +92,7 @@ for (const key of baseKeys) {
   }
 }
 
-const legacySectionSource = sectionSource.replace(
+const legacySectionSource = sectionSource.replace(/<!--\s*i18n:[\w.-]+\s*-->[^<]*/g, "").replace(
   /<([a-z][\w-]*)\b[^>]*\bdata-i18n="[^"]+"[^>]*>[\s\S]*?<\/\1>/gi,
   "",
 );
@@ -104,15 +103,8 @@ const staticChinese = [
       .filter((value) => /\p{Script=Han}/u.test(value)),
   ),
 ];
-const untranslatedStatic = staticChinese.filter((value) => !(value in textTranslations.en));
-if (untranslatedStatic.length) {
-  const details = untranslatedStatic.map((value) => {
-    const collision = textTranslationCollisions[value];
-    return collision
-      ? `${value} (ambiguous: ${collision.map(({ key }) => key).join(", ")}; add data-i18n)`
-      : value;
-  });
-  console.error(`Static copy missing or ambiguously translated:\n- ${details.join("\n- ")}`);
+if (staticChinese.length) {
+  console.error(`Unkeyed static copy (use data-i18n or an i18n text marker):\n- ${staticChinese.join("\n- ")}`);
   failed = true;
 }
 
@@ -126,24 +118,24 @@ for (const { file, key, source, value } of keyedDefaults) {
     failed = true;
     continue;
   }
-  if (key in base && value && value !== canonicalText(base[key])) {
-    console.error(`${path.relative(root, file)}: data-i18n="${key}" default text does not match zh-Hant`);
-    failed = true;
-  }
 }
 
-/*
- * The legacy text lookup remains intentionally available while old sections
- * migrate. Explicit keys are the durable path; any source-text collision with
- * different translations is deliberately absent from textTranslations.
- */
-const divergentCollisions = Object.values(textTranslationCollisions).filter((group) =>
-  site.locales.some((locale) => new Set(group.map((record) => record[locale])).size > 1),
-);
+// Readable source fallbacks may lag behind an editorial PO change. Issued
+// defaults must always be compiled from the current Traditional Chinese PO.
+const escapeHtml = (value) => value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
+for (const page of site.pages) {
+  const html = await readFile(path.join(outputRoot, page.output), "utf8");
+  for (const match of html.matchAll(/<([a-z][\w-]*)\b[^>]*\bdata-i18n="([^"]+)"[^>]*>([^<]*)<\/\1>/gi)) {
+    const [, , key, fallback] = match;
+    if (!(key in base) || canonicalText(fallback) !== canonicalText(escapeHtml(base[key]))) {
+      console.error(`${page.output}: generated default for ${key} differs from its PO catalog; run npm run build`);
+      failed = true;
+    }
+  }
+}
 
 if (failed) process.exit(1);
 console.log(
   `i18n complete: ${baseKeys.length} keys across ${site.locales.length} locales; `
-  + `${staticChinese.length} legacy strings and ${explicitKeys.length} explicit keys covered; `
-  + `${divergentCollisions.length} contextual collisions safely require explicit keys.`,
+  + `${explicitKeys.length} explicit markup keys; no source-text lookup required.`,
 );

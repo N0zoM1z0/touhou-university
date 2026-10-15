@@ -1,0 +1,308 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. findingCopy.eirin.clear
+#: src/js/ethics-model.js:30
+msgctxt "text:findingCopy.eirin.clear"
+msgid "Risk ceiling, stopping authority, and exposure duration are identifiable in the field."
+msgstr "風險上限、停止權與暴露長度可以在現場辨認。"
+
+#. findingCopy.eirin.noStop
+#: src/js/ethics-model.js:31
+msgctxt "text:findingCopy.eirin.noStop"
+msgid ""
+"Stopping power remains with the researcher; participants have no immediate "
+"exit when they notice harm first."
+msgstr "停止權仍在研究者手裡；受影響者先感到不適時，規則沒有立即出口。"
+
+#. findingCopy.eirin.zeroDose
+#: src/js/ethics-model.js:32
+msgctxt "text:findingCopy.eirin.zeroDose"
+msgid ""
+"“Zero outside minutes” is not a usable dose. Define exposure without relying "
+"on the stopped clock."
+msgstr "『外部零分鐘』不是可用劑量。請另設不依賴被停止時鐘的暴露計量。"
+
+#. findingCopy.eirin.weakStop
+#: src/js/ethics-model.js:33
+msgctxt "text:findingCopy.eirin.weakStop"
+msgid ""
+"Stopping must occur before harm, not after an exit vanishes, a panel cracks, "
+"or a display dies."
+msgstr "停止條件必須早於傷害，而不是等出口消失、背板裂開或畫面熄滅才生效。"
+
+#. findingCopy.eirin.highRisk
+#: src/js/ethics-model.js:34
+msgctxt "text:findingCopy.eirin.highRisk"
+msgid ""
+"High-risk methods may proceed, but dose ceilings and every stop decision "
+"must be recorded."
+msgstr "高風險方法可送審，但劑量上限與停止紀錄必須逐次留下。"
+
+#. findingCopy.satori.clear
+#: src/js/ethics-model.js:37
+msgctxt "text:findingCopy.satori.clear"
+msgid ""
+"The boundary of mental access, timing of disclosure, and withdrawal route "
+"are separately identifiable."
+msgstr "精神資料的讀取邊界、告知時點與撤回方式可以分開辨認。"
+
+#. findingCopy.satori.covert
+#: src/js/ethics-model.js:38
+msgctxt "text:findingCopy.satori.covert"
+msgid ""
+"Wavelength, mind-reading, and dream interventions cannot obtain consent only "
+"afterward; blinding does not create permission to access."
+msgstr "波長、讀心或夢境干預不能只靠事後告知取得同意；盲測需求不會自動成為讀取許可。"
+
+#. findingCopy.satori.noNotes
+#: src/js/ethics-model.js:39
+msgctxt "text:findingCopy.satori.noNotes"
+msgid ""
+"No written note is still information processing when it changes questions, "
+"judgments, or actions."
+msgstr "沒有落筆仍是資訊處理：它已改變追問、判斷或他人的處置。"
+
+#. findingCopy.satori.deletion
+#: src/js/ethics-model.js:40
+msgctxt "text:findingCopy.satori.deletion"
+msgid ""
+"Explain how inferences made from mental content are deleted, not only the "
+"original words."
+msgstr "請說明如何刪除由精神內容推得的判斷，而不只刪除原句。"
+
+#. findingCopy.keine.clear
+#: src/js/ethics-model.js:43
+msgctxt "text:findingCopy.keine.clear"
+msgid ""
+"Original content, correction traces, and deletion receipts occupy separate "
+"places without impersonating one another."
+msgstr "原文、訂正痕跡與刪除收據各有位置，沒有互相冒充。"
+
+#. findingCopy.keine.noReceipt
+#: src/js/ethics-model.js:44
+msgctxt "text:findingCopy.keine.noReceipt"
+msgid ""
+"If proof of deletion also vanishes, the participant cannot prove withdrawal "
+"was honored; this seat records dissent."
+msgstr "若連刪除曾發生的證明也消失，當事人將無法證明撤回被受理；此席保留異議。"
+
+#. findingCopy.keine.retention
+#: src/js/ethics-model.js:45
+msgctxt "text:findingCopy.keine.retention"
+msgid ""
+"Anonymous statistics are not separated if versions, dates, or event indexes "
+"can reconnect them to a participant."
+msgstr "匿名統計若仍能被版本、日期或事件索引重新連回當事人，就不是完整分離。"
+
+#. findingCopy.eiki.clear
+#: src/js/ethics-model.js:48
+msgctxt "text:findingCopy.eiki.clear"
+msgid "Consent, responsibility, and appeal are not unilaterally controlled by one gate."
+msgstr "同意、責任與申訴不由同一扇門單方面控制。"
+
+#. findingCopy.eiki.noConsent
+#: src/js/ethics-model.js:49
+msgctxt "text:findingCopy.eiki.noConsent"
+msgid ""
+"A study without consent cannot replace rights before participation with an "
+"apology afterward."
+msgstr "沒有同意的研究不能以『事後可以道歉』代替開始前的權利。"
+
+#. findingCopy.eiki.objectRefusal
+#: src/js/ethics-model.js:50
+msgctxt "text:findingCopy.eiki.objectRefusal"
+msgid ""
+"Holder consent and object refusal are both operative. Ownership does not "
+"erase the latter; retain this as contested."
+msgstr "持有人同意與物品拒絕同時有效。所有權沒有把後者擦掉；本席要求以爭議案保存。"
+
+#. findingCopy.eiki.weakAppeal
+#: src/js/ethics-model.js:51
+msgctxt "text:findingCopy.eiki.weakAppeal"
+msgid "Appeal cannot return only to the same desk running the study or claiming ownership."
+msgstr "申訴不能只回到主持研究或主張所有權的同一窗口。"
+
+#. findingCopy.eiki.proxy
+#: src/js/ethics-model.js:52
+msgctxt "text:findingCopy.eiki.proxy"
+msgid "Proxy consent must retain the subject's own rights to stop and withdraw."
+msgstr "代理同意必須保留當事人自己的停止與撤回權。"
+
+#. findingCopy.reimu.clear
+#: src/js/ethics-model.js:55
+msgctxt "text:findingCopy.reimu.clear"
+msgid "Field staff can state the rule, stop signal, and exit in one breath."
+msgstr "現場人員能在一口氣內說完規則、停止訊號與退路。"
+
+#. findingCopy.reimu.noWitness
+#: src/js/ethics-model.js:56
+msgctxt "text:findingCopy.reimu.noWitness"
+msgid ""
+"When ability alters time, wavelength, or history, at least one witness must "
+"not depend on that same ability."
+msgstr "時間、波長或歷史被能力改動時，至少要有一個不依賴同一能力的見證方式。"
+
+#. findingCopy.reimu.noExit
+#: src/js/ethics-model.js:57
+msgctxt "text:findingCopy.reimu.noExit"
+msgid ""
+"If the subject cannot stop the procedure, there is no exit; “visit the desk” "
+"is not a field stop signal."
+msgstr "研究對象不能自己停下，就不算有退路；『去找窗口』不是現場停止訊號。"
+
+#. findingCopy.reimu.erasedRule
+#: src/js/ethics-model.js:58
+msgctxt "text:findingCopy.reimu.erasedRule"
+msgid ""
+"A rule that deletes itself and proof of appeal cannot show it was followed; "
+"dissent is recorded."
+msgstr "一條執行後會刪除自己與申訴證明的規則，不能證明自己曾被遵守；保留異議。"
+
+#. eirinOpinion.eirin.3.0
+#: src/js/ethics-model.js:225
+msgctxt "text:eirinOpinion.eirin.3.0"
+msgid "Add a maximum operation count or internal sequence limit independent of outside clocks."
+msgstr "增加一個不依賴外部鐘面的最大操作次數或內部時序上限。"
+
+#. eirinOpinion.eirin.3.0
+#: src/js/ethics-model.js:230
+msgctxt "text:eirinOpinion.eirin.3.0.2"
+msgid "Put the earliest observable harm signal and the person who stops the study in one rule."
+msgstr "把最早可觀察的不良訊號與負責喊停的人寫進同一句。"
+
+#. eirinOpinion.eirin.3.0
+#: src/js/ethics-model.js:235
+msgctxt "text:eirinOpinion.eirin.3.0.3"
+msgid "Give subjects a stop signal usable without researcher approval."
+msgstr "研究對象必須有不經研究者批准即可使用的停止訊號。"
+
+#. eirinOpinion.eirin.3.0
+#: src/js/ethics-model.js:240
+msgctxt "text:eirinOpinion.eirin.3.0.4"
+msgid "Record start, stop, ceiling, and early-termination reason for every intervention."
+msgstr "每次能力介入都記錄開始、停止、暴露上限與提前中止原因。"
+
+#. satoriOpinion.satori.3.0
+#: src/js/ethics-model.js:251
+msgctxt "text:satoriOpinion.satori.3.0"
+msgid "Disclose ability use, scope of access, and penalty-free refusal before participation."
+msgstr "至少事前說明會使用能力、可能讀取的範圍與拒絕後不受損失。"
+
+#. satoriOpinion.satori.3.0
+#: src/js/ethics-model.js:256
+msgctxt "text:satoriOpinion.satori.3.0.2"
+msgid ""
+"Record read-without-writing as processing and allow subjects to invalidate "
+"resulting inferences."
+msgstr "把『讀取但不落筆』列為一次資料處理，並允許當事人要求推論失效。"
+
+#. satoriOpinion.satori.3.0
+#: src/js/ethics-model.js:261
+msgctxt "text:satoriOpinion.satori.3.0.3"
+msgid "Add deletion rules for derived judgments, labels, and follow-up questions."
+msgstr "補寫衍生判斷、標籤與追問紀錄的刪除方式。"
+
+#. keineOpinion.keine.3.0
+#: src/js/ethics-model.js:270
+msgctxt "text:keineOpinion.keine.3.0"
+msgid ""
+"Retain a content-free withdrawal receipt: requester, acceptance time, and "
+"invalidated version."
+msgstr "只保留一張不含原文的撤回收據：誰提出、何時受理、哪個版本不再可用。"
+
+#. keineOpinion.keine.3.0
+#: src/js/ethics-model.js:275
+msgctxt "text:keineOpinion.keine.3.0.2"
+msgid ""
+"List dates, versions, and event indexes that could reconnect anonymous "
+"statistics to a subject."
+msgstr "列出匿名統計可能重新連回當事人的日期、版本與事件索引。"
+
+#. eikiOpinion.eiki.3.0
+#: src/js/ethics-model.js:284
+msgctxt "text:eikiOpinion.eiki.3.0"
+msgid ""
+"Obtain refusal- and withdrawal-capable consent without loss of services "
+"before intervention."
+msgstr "在任何能力介入前取得可拒絕、可撤回且不減損服務的同意。"
+
+#. eikiOpinion.eiki.3.0
+#: src/js/ethics-model.js:289
+msgctxt "text:eikiOpinion.eiki.3.0.2"
+msgid ""
+"Irreversible work requires both holder and object/tsukumogami consent; "
+"either refusal triggers non-invasive methods."
+msgstr "不可逆操作必須同時取得持有人與物品／付喪神的同意；任一方拒絕即改用非侵入檢查。"
+
+#. eikiOpinion.eiki.3.0
+#: src/js/ethics-model.js:294
+msgctxt "text:eikiOpinion.eiki.3.0.3"
+msgid "Name an independent advocate who neither runs the study nor claims ownership."
+msgstr "指定一名不主持研究、不主張所有權的獨立申訴人。"
+
+#. reimuOpinion.reimu.3.0
+#: src/js/ethics-model.js:303
+msgctxt "text:reimuOpinion.reimu.3.0"
+msgid "Provide a clock, witness, or paper counter that does not rely on the same ability."
+msgstr "準備一個不靠同一能力運作的鐘、標記人或紙面計數器。"
+
+#. reimuOpinion.reimu.3.0
+#: src/js/ethics-model.js:308
+msgctxt "text:reimuOpinion.reimu.3.0.2"
+msgid "The rule may delete content, not its own operation and the route of appeal."
+msgstr "規則可以刪內容，不能把自己曾經生效與如何申訴一併刪掉。"
+
+#. reimuOpinion.reimu.3.0
+#: src/js/ethics-model.js:313
+msgctxt "text:reimuOpinion.reimu.3.0.3"
+msgid ""
+"Print a one-sentence stop signal on both participation instructions and the "
+"field notice."
+msgstr "把一句話的停止口令直接印在參與說明與現場告示上。"
+
+#. communityCopy/aya
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/aya"
+msgid "Bunbunmaru Research Permit Extra"
+msgstr "文文。研究許可速報"
+
+#. communityCopy/minority
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/minority"
+msgid "Research Ethics Board · Minority Opinions"
+msgstr "研究倫理委員會・少數意見欄"
+
+#. communityCopy/withdrew
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/withdrew"
+msgid ""
+"Correction: the applicant withdrew this file; the earlier review remains as "
+"version history."
+msgstr "訂正：申請人已撤回本案；先前審查仍留作版本記錄。"
+
+#. communityCopy/headline
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/headline"
+msgid "Ethics file completes five-seat review"
+msgstr "倫理案卷完成五席審查"
+
+#. communityCopy/conditions
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/conditions"
+msgid ""
+"The five seats were not averaged; red-letter conditions and minority "
+"opinions remain independently operative."
+msgstr "五席沒有平均；紅字條件與少數意見仍各自有效。"
+
+#. communityCopy/noDissent
+#: src/js/ethics-model.js:485
+msgctxt "tree:communityCopy#/noDissent"
+msgid "No minority dissent this round; every seat's conditions remain separately recorded."
+msgstr "本輪沒有少數異議，但每席條件仍分開保存。"

@@ -1,0 +1,686 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. localRecordGroups.identity.title
+#: src/data/local-records.js:19
+msgctxt "text:localRecordGroups.identity.title"
+msgid "Identity & student record"
+msgstr "Identity & student record"
+
+#. localRecordGroups.identity.note
+#: src/data/local-records.js:20
+msgctxt "text:localRecordGroups.identity.note"
+msgid "My TU identity, campus history, and application reviews."
+msgstr "My TU identity, campus history, and application reviews."
+
+#. localRecordGroups.admissions.title
+#: src/data/local-records.js:25
+msgctxt "text:localRecordGroups.admissions.title"
+msgid "Admissions & examinations"
+msgstr "Admissions & examinations"
+
+#. localRecordGroups.admissions.note
+#: src/data/local-records.js:26
+msgctxt "text:localRecordGroups.admissions.note"
+msgid "Drafts and results for applications, visits, and both examination systems."
+msgstr "Drafts and results for applications, visits, and both examination systems."
+
+#. localRecordGroups.academics.title
+#: src/data/local-records.js:31
+msgctxt "text:localRecordGroups.academics.title"
+msgid "Academic work & governance"
+msgstr "Academic work & governance"
+
+#. localRecordGroups.academics.note
+#: src/data/local-records.js:32
+msgctxt "text:localRecordGroups.academics.note"
+msgid "Registration, grades, coursework, defences, and governance votes."
+msgstr "Registration, grades, coursework, defences, and governance votes."
+
+#. localRecordGroups.library.title
+#: src/data/local-records.js:37
+msgctxt "text:localRecordGroups.library.title"
+msgid "Library & appraisal"
+msgstr "Library & appraisal"
+
+#. localRecordGroups.library.note
+#: src/data/local-records.js:38
+msgctxt "text:localRecordGroups.library.note"
+msgid "Loans, holds, and Outside World drift-object appraisal files."
+msgstr "Loans, holds, and Outside World drift-object appraisal files."
+
+#. localRecordGroups.campus.title
+#: src/data/local-records.js:43
+msgctxt "text:localRecordGroups.campus.title"
+msgid "Campus life"
+msgstr "Campus life"
+
+#. localRecordGroups.campus.note
+#: src/data/local-records.js:44
+msgctxt "text:localRecordGroups.campus.note"
+msgid "On-device BBS, housing, healthcare, incident-centre, and festival-operations records."
+msgstr "On-device BBS, housing, healthcare, incident-centre, and festival-operations records."
+
+#. localRecordGroups.research.title
+#: src/data/local-records.js:49
+msgctxt "text:localRecordGroups.research.title"
+msgid "Research workshops"
+msgstr "Research workshops"
+
+#. localRecordGroups.research.note
+#: src/data/local-records.js:50
+msgctxt "text:localRecordGroups.research.note"
+msgid "Spell-card designs, public defences, and research drafts."
+msgstr "Spell-card designs, public defences, and research drafts."
+
+#. localRecordGroups.fieldwork.title
+#: src/data/local-records.js:55
+msgctxt "text:localRecordGroups.fieldwork.title"
+msgid "Fieldwork passport"
+msgstr "Fieldwork passport"
+
+#. localRecordGroups.fieldwork.note
+#: src/data/local-records.js:56
+msgctxt "text:localRecordGroups.fieldwork.note"
+msgid "Dispatch drafts, field responses, return reports, and seals from twenty-four stations."
+msgstr "Dispatch drafts, field responses, return reports, and seals from twenty-four stations."
+
+#. localRecordGroups.commons.title
+#: src/data/local-records.js:61
+msgctxt "text:localRecordGroups.commons.title"
+msgid "Property, post & calendar"
+msgstr "Property, post & calendar"
+
+#. localRecordGroups.commons.note
+#: src/data/local-records.js:62
+msgctxt "text:localRecordGroups.commons.note"
+msgid ""
+"Tsukumogami hearings, tengu-post state, dispatch files, and red-bookmarked "
+"calendar leaves."
+msgstr ""
+"Tsukumogami hearings, tengu-post state, dispatch files, and red-bookmarked "
+"calendar leaves."
+
+#. localRecordGroups.careers.title
+#: src/data/local-records.js:67
+msgctxt "text:localRecordGroups.careers.title"
+msgid "Graduation, careers & alumni"
+msgstr "Graduation, careers & alumni"
+
+#. localRecordGroups.careers.note
+#: src/data/local-records.js:68
+msgctxt "text:localRecordGroups.careers.note"
+msgid ""
+"Eight-desk audits, degrees, career matching, odd résumés, whereabouts "
+"statements, and Hyakki Yagyo alumni files."
+msgstr ""
+"Eight-desk audits, degrees, career matching, odd résumés, whereabouts "
+"statements, and Hyakki Yagyo alumni files."
+
+#. localRecordGroups.preferences.title
+#: src/data/local-records.js:73
+msgctxt "text:localRecordGroups.preferences.title"
+msgid "Interface bookmarks"
+msgstr "Interface bookmarks"
+
+#. localRecordGroups.preferences.note
+#: src/data/local-records.js:74
+msgctxt "text:localRecordGroups.preferences.note"
+msgid ""
+"Language, audience route, and last-opened positions; deleting these does not "
+"erase formal records."
+msgstr ""
+"Language, audience route, and last-opened positions; deleting these does not "
+"erase formal records."
+
+#. localRecordGroups.system.title
+#: src/data/local-records.js:79
+msgctxt "text:localRecordGroups.system.title"
+msgid "Campus event ledger"
+msgstr "Campus event ledger"
+
+#. localRecordGroups.system.note
+#: src/data/local-records.js:80
+msgctxt "text:localRecordGroups.system.note"
+msgid "The deduplicated event index My TU uses to connect actions across offices."
+msgstr "The deduplicated event index My TU uses to connect actions across offices."
+
+#. localRecordGroups.dream.title
+#: src/data/local-records.js:85
+msgctxt "text:localRecordGroups.dream.title"
+msgid "Reverse-side files"
+msgstr "Reverse-side files"
+
+#. localRecordGroups.dream.note
+#: src/data/local-records.js:86
+msgctxt "text:localRecordGroups.dream.note"
+msgid ""
+"Shown only after being written and kept separate from formal records and the "
+"campus ledger."
+msgstr ""
+"Shown only after being written and kept separate from formal records and the "
+"campus ledger."
+
+#. localRecordGroups.unknown.title
+#: src/data/local-records.js:91
+msgctxt "text:localRecordGroups.unknown.title"
+msgid "Unregistered files"
+msgstr "Unregistered files"
+
+#. localRecordGroups.unknown.note
+#: src/data/local-records.js:92
+msgctxt "text:localRecordGroups.unknown.note"
+msgid "New data using the tu: prefix that has not yet entered the archive catalogue."
+msgstr "New data using the tu: prefix that has not yet entered the archive catalogue."
+
+#. localRecordRegistry.0.tu-identity.2
+#: src/data/local-records.js:97
+msgctxt "text:localRecordRegistry.0.tu-identity.2"
+msgid "My TU on-device identity"
+msgstr "My TU on-device identity"
+
+#. localRecordRegistry.1.tu-application-reviews.2
+#: src/data/local-records.js:98
+msgctxt "text:localRecordRegistry.1.tu-application-reviews.2"
+msgid "Joint faculty reviews"
+msgstr "Joint faculty reviews"
+
+#. localRecordRegistry.2.tu-orientation-dossiers.2
+#: src/data/local-records.js:99
+msgctxt "text:localRecordRegistry.2.tu-orientation-dossiers.2"
+msgid "First Bell arrival files"
+msgstr "First Bell arrival files"
+
+#. localRecordRegistry.3.tu-application-draft.2
+#: src/data/local-records.js:101
+msgctxt "text:localRecordRegistry.3.tu-application-draft.2"
+msgid "Application draft"
+msgstr "Application draft"
+
+#. localRecordRegistry.4.tu-application-submissions.2
+#: src/data/local-records.js:102
+msgctxt "text:localRecordRegistry.4.tu-application-submissions.2"
+msgid "Submitted applications"
+msgstr "Submitted applications"
+
+#. localRecordRegistry.5.tu-visit-draft.2
+#: src/data/local-records.js:103
+msgctxt "text:localRecordRegistry.5.tu-visit-draft.2"
+msgid "Campus-visit draft"
+msgstr "Campus-visit draft"
+
+#. localRecordRegistry.6.tu-visits.2
+#: src/data/local-records.js:104
+msgctxt "text:localRecordRegistry.6.tu-visits.2"
+msgid "Campus visits"
+msgstr "Campus visits"
+
+#. localRecordRegistry.7.tu-exam-history.2
+#: src/data/local-records.js:105
+msgctxt "text:localRecordRegistry.7.tu-exam-history.2"
+msgid "Entrance-exam results"
+msgstr "Entrance-exam results"
+
+#. localRecordRegistry.8.tu-gaokao-draft.2
+#: src/data/local-records.js:106
+msgctxt "text:localRecordRegistry.8.tu-gaokao-draft.2"
+msgid "Unified-exam draft"
+msgstr "Unified-exam draft"
+
+#. localRecordRegistry.9.tu-gaokao-attempts.2
+#: src/data/local-records.js:107
+msgctxt "text:localRecordRegistry.9.tu-gaokao-attempts.2"
+msgid "Unified-exam attempts"
+msgstr "Unified-exam attempts"
+
+#. localRecordRegistry.10.tu-courses-registration.2
+#: src/data/local-records.js:109
+msgctxt "text:localRecordRegistry.10.tu-courses-registration.2"
+msgid "Current registration"
+msgstr "Current registration"
+
+#. localRecordRegistry.11.tu-courses-transcript.2
+#: src/data/local-records.js:110
+msgctxt "text:localRecordRegistry.11.tu-courses-transcript.2"
+msgid "Course transcript"
+msgstr "Course transcript"
+
+#. localRecordRegistry.12.tu-academics-drafts.2
+#: src/data/local-records.js:111
+msgctxt "text:localRecordRegistry.12.tu-academics-drafts.2"
+msgid "Coursework drafts"
+msgstr "Coursework drafts"
+
+#. localRecordRegistry.13.tu-academics-submissions.2
+#: src/data/local-records.js:112
+msgctxt "text:localRecordRegistry.13.tu-academics-submissions.2"
+msgid "Coursework submissions"
+msgstr "Coursework submissions"
+
+#. localRecordRegistry.14.tu-academics-exam-session.2
+#: src/data/local-records.js:113
+msgctxt "text:localRecordRegistry.14.tu-academics-exam-session.2"
+msgid "Active course examination"
+msgstr "Active course examination"
+
+#. localRecordRegistry.15.tu-academics-exam-attempts.2
+#: src/data/local-records.js:114
+msgctxt "text:localRecordRegistry.15.tu-academics-exam-attempts.2"
+msgid "Course examination attempts"
+msgstr "Course examination attempts"
+
+#. localRecordRegistry.16.tu-academics-projects.2
+#: src/data/local-records.js:115
+msgctxt "text:localRecordRegistry.16.tu-academics-projects.2"
+msgid "Thesis / spell-card projects"
+msgstr "Thesis / spell-card projects"
+
+#. localRecordRegistry.17.tu-academics-defences.2
+#: src/data/local-records.js:116
+msgctxt "text:localRecordRegistry.17.tu-academics-defences.2"
+msgid "Academic defences"
+msgstr "Academic defences"
+
+#. localRecordRegistry.18.tu-governance-votes.2
+#: src/data/local-records.js:117
+msgctxt "text:localRecordRegistry.18.tu-governance-votes.2"
+msgid "Governance votes"
+msgstr "Governance votes"
+
+#. localRecordRegistry.19.tu-library-loans.2
+#: src/data/local-records.js:119
+msgctxt "text:localRecordRegistry.19.tu-library-loans.2"
+msgid "Library loans"
+msgstr "Library loans"
+
+#. localRecordRegistry.20.tu-library-holds.2
+#: src/data/local-records.js:120
+msgctxt "text:localRecordRegistry.20.tu-library-holds.2"
+msgid "Library holds"
+msgstr "Library holds"
+
+#. localRecordRegistry.21.tu-appraisal-drafts.2
+#: src/data/local-records.js:121
+msgctxt "text:localRecordRegistry.21.tu-appraisal-drafts.2"
+msgid "Appraisal drafts"
+msgstr "Appraisal drafts"
+
+#. localRecordRegistry.22.tu-appraisal-records.2
+#: src/data/local-records.js:122
+msgctxt "text:localRecordRegistry.22.tu-appraisal-records.2"
+msgid "Appraisal records"
+msgstr "Appraisal records"
+
+#. localRecordRegistry.23.tu-bbs-draft.2
+#: src/data/local-records.js:124
+msgctxt "text:localRecordRegistry.23.tu-bbs-draft.2"
+msgid "BBS post draft"
+msgstr "BBS post draft"
+
+#. localRecordRegistry.24.tu-bbs-posts.2
+#: src/data/local-records.js:125
+msgctxt "text:localRecordRegistry.24.tu-bbs-posts.2"
+msgid "My BBS posts"
+msgstr "My BBS posts"
+
+#. localRecordRegistry.25.tu-housing-draft.2
+#: src/data/local-records.js:126
+msgctxt "text:localRecordRegistry.25.tu-housing-draft.2"
+msgid "Housing draft"
+msgstr "Housing draft"
+
+#. localRecordRegistry.26.tu-housing-applications.2
+#: src/data/local-records.js:127
+msgctxt "text:localRecordRegistry.26.tu-housing-applications.2"
+msgid "Housing applications"
+msgstr "Housing applications"
+
+#. localRecordRegistry.27.tu-housing-assignments.2
+#: src/data/local-records.js:128
+msgctxt "text:localRecordRegistry.27.tu-housing-assignments.2"
+msgid "Room and roommate assignments"
+msgstr "Room and roommate assignments"
+
+#. localRecordRegistry.28.tu-housing-room-changes.2
+#: src/data/local-records.js:129
+msgctxt "text:localRecordRegistry.28.tu-housing-room-changes.2"
+msgid "Room-change requests"
+msgstr "Room-change requests"
+
+#. localRecordRegistry.29.tu-clinic-triage-draft.2
+#: src/data/local-records.js:130
+msgctxt "text:localRecordRegistry.29.tu-clinic-triage-draft.2"
+msgid "Triage draft"
+msgstr "Triage draft"
+
+#. localRecordRegistry.30.tu-clinic-visits.2
+#: src/data/local-records.js:131
+msgctxt "text:localRecordRegistry.30.tu-clinic-visits.2"
+msgid "Clinic visits"
+msgstr "Clinic visits"
+
+#. localRecordRegistry.31.tu-clinic-prescriptions.2
+#: src/data/local-records.js:132
+msgctxt "text:localRecordRegistry.31.tu-clinic-prescriptions.2"
+msgid "Prescriptions and dispensing"
+msgstr "Prescriptions and dispensing"
+
+#. localRecordRegistry.32.tu-clinic-care-plans.2
+#: src/data/local-records.js:133
+msgctxt "text:localRecordRegistry.32.tu-clinic-care-plans.2"
+msgid "Recovery plans"
+msgstr "Recovery plans"
+
+#. localRecordRegistry.33.tu-incidents-workbench.2
+#: src/data/local-records.js:134
+msgctxt "text:localRecordRegistry.33.tu-incidents-workbench.2"
+msgid "Incident workbench"
+msgstr "Incident workbench"
+
+#. localRecordRegistry.34.tu-incidents-experiments.2
+#: src/data/local-records.js:135
+msgctxt "text:localRecordRegistry.34.tu-incidents-experiments.2"
+msgid "Research simulation slips"
+msgstr "Research simulation slips"
+
+#. localRecordRegistry.35.tu-incidents-resolutions.2
+#: src/data/local-records.js:136
+msgctxt "text:localRecordRegistry.35.tu-incidents-resolutions.2"
+msgid "Incident resolutions"
+msgstr "Incident resolutions"
+
+#. localRecordRegistry.36.tu-festival-draft.2
+#: src/data/local-records.js:137
+msgctxt "text:localRecordRegistry.36.tu-festival-draft.2"
+msgid "Festival operations draft"
+msgstr "Festival operations draft"
+
+#. localRecordRegistry.37.tu-festival-plans.2
+#: src/data/local-records.js:138
+msgctxt "text:localRecordRegistry.37.tu-festival-plans.2"
+msgid "Six-desk festival permits"
+msgstr "Six-desk festival permits"
+
+#. localRecordRegistry.38.tu-festival-operations.2
+#: src/data/local-records.js:139
+msgctxt "text:localRecordRegistry.38.tu-festival-operations.2"
+msgid "Festival duty and closure files"
+msgstr "Festival duty and closure files"
+
+#. localRecordRegistry.39.tu-spellcards-draft.2
+#: src/data/local-records.js:141
+msgctxt "text:localRecordRegistry.39.tu-spellcards-draft.2"
+msgid "Spell-card design draft"
+msgstr "Spell-card design draft"
+
+#. localRecordRegistry.40.tu-spellcards-designs.2
+#: src/data/local-records.js:142
+msgctxt "text:localRecordRegistry.40.tu-spellcards-designs.2"
+msgid "Sealed spell-card designs"
+msgstr "Sealed spell-card designs"
+
+#. localRecordRegistry.41.tu-spellcards-defences.2
+#: src/data/local-records.js:143
+msgctxt "text:localRecordRegistry.41.tu-spellcards-defences.2"
+msgid "Spell-card public defences"
+msgstr "Spell-card public defences"
+
+#. localRecordRegistry.42.tu-ethics-drafts.2
+#: src/data/local-records.js:144
+msgctxt "text:localRecordRegistry.42.tu-ethics-drafts.2"
+msgid "Research ethics drafts"
+msgstr "Research ethics drafts"
+
+#. localRecordRegistry.43.tu-ethics-protocols.2
+#: src/data/local-records.js:145
+msgctxt "text:localRecordRegistry.43.tu-ethics-protocols.2"
+msgid "Research ethics protocols & versions"
+msgstr "Research ethics protocols & versions"
+
+#. localRecordRegistry.44.tu-ethics-reviews.2
+#: src/data/local-records.js:146
+msgctxt "text:localRecordRegistry.44.tu-ethics-reviews.2"
+msgid "Five-seat ethics reviews"
+msgstr "Five-seat ethics reviews"
+
+#. localRecordRegistry.45.tu-fieldwork-draft.2
+#: src/data/local-records.js:148
+msgctxt "text:localRecordRegistry.45.tu-fieldwork-draft.2"
+msgid "Fieldwork dispatch draft"
+msgstr "Fieldwork dispatch draft"
+
+#. localRecordRegistry.46.tu-fieldwork-placements.2
+#: src/data/local-records.js:149
+msgctxt "text:localRecordRegistry.46.tu-fieldwork-placements.2"
+msgid "Dispatch, field duty & return files"
+msgstr "Dispatch, field duty & return files"
+
+#. localRecordRegistry.47.tu-fieldwork-passport.2
+#: src/data/local-records.js:150
+msgctxt "text:localRecordRegistry.47.tu-fieldwork-passport.2"
+msgid "Field inquiry passport & station seals"
+msgstr "Field inquiry passport & station seals"
+
+#. localRecordRegistry.48.tu-property-claims.2
+#: src/data/local-records.js:152
+msgctxt "text:localRecordRegistry.48.tu-property-claims.2"
+msgid "Tsukumogami property hearings & rulings"
+msgstr "Tsukumogami property hearings & rulings"
+
+#. localRecordRegistry.49.tu-post-state.2
+#: src/data/local-records.js:153
+msgctxt "text:localRecordRegistry.49.tu-post-state.2"
+msgid "Tengu-post read, pin & correction state"
+msgstr "Tengu-post read, pin & correction state"
+
+#. localRecordRegistry.50.tu-post-dispatches.2
+#: src/data/local-records.js:154
+msgctxt "text:localRecordRegistry.50.tu-post-dispatches.2"
+msgid "Campus-post dispatch files"
+msgstr "Campus-post dispatch files"
+
+#. localRecordRegistry.51.tu-calendar-bookmarks.2
+#: src/data/local-records.js:155
+msgctxt "text:localRecordRegistry.51.tu-calendar-bookmarks.2"
+msgid "Academic-calendar red bookmarks"
+msgstr "Academic-calendar red bookmarks"
+
+#. localRecordRegistry.52.tu-graduation-audits.2
+#: src/data/local-records.js:157
+msgctxt "text:localRecordRegistry.52.tu-graduation-audits.2"
+msgid "Eight-desk graduation audits"
+msgstr "Eight-desk graduation audits"
+
+#. localRecordRegistry.53.tu-graduation-degrees.2
+#: src/data/local-records.js:158
+msgctxt "text:localRecordRegistry.53.tu-graduation-degrees.2"
+msgid "Unsealed degree records"
+msgstr "Unsealed degree records"
+
+#. localRecordRegistry.54.tu-careers-draft.2
+#: src/data/local-records.js:159
+msgctxt "text:localRecordRegistry.54.tu-careers-draft.2"
+msgid "Career preference draft"
+msgstr "Career preference draft"
+
+#. localRecordRegistry.55.tu-careers-plans.2
+#: src/data/local-records.js:160
+msgctxt "text:localRecordRegistry.55.tu-careers-plans.2"
+msgid "Career matching & referral files"
+msgstr "Career matching & referral files"
+
+#. localRecordRegistry.56.tu-employment-draft.2
+#: src/data/local-records.js:161
+msgctxt "text:localRecordRegistry.56.tu-employment-draft.2"
+msgid "Gensokyo odd-résumé draft"
+msgstr "Gensokyo odd-résumé draft"
+
+#. localRecordRegistry.57.tu-employment-applications.2
+#: src/data/local-records.js:162
+msgctxt "text:localRecordRegistry.57.tu-employment-applications.2"
+msgid "Recruitment applications, reviews & replies"
+msgstr "Recruitment applications, reviews & replies"
+
+#. localRecordRegistry.58.tu-employment-attestations.2
+#: src/data/local-records.js:163
+msgctxt "text:localRecordRegistry.58.tu-employment-attestations.2"
+msgid "On-device graduate whereabouts statements"
+msgstr "On-device graduate whereabouts statements"
+
+#. localRecordRegistry.59.tu-alumni-profile.2
+#: src/data/local-records.js:164
+msgctxt "text:localRecordRegistry.59.tu-alumni-profile.2"
+msgid "Hyakki Yagyo alumni file"
+msgstr "Hyakki Yagyo alumni file"
+
+#. localRecordRegistry.60.tu-locale.2
+#: src/data/local-records.js:166
+msgctxt "text:localRecordRegistry.60.tu-locale.2"
+msgid "Site language"
+msgstr "Site language"
+
+#. localRecordRegistry.61.tu-audience.2
+#: src/data/local-records.js:167
+msgctxt "text:localRecordRegistry.61.tu-audience.2"
+msgid "Audience path"
+msgstr "Audience path"
+
+#. localRecordRegistry.62.tu-mytu-selected-application.2
+#: src/data/local-records.js:168
+msgctxt "text:localRecordRegistry.62.tu-mytu-selected-application.2"
+msgid "Last My TU application"
+msgstr "Last My TU application"
+
+#. localRecordRegistry.63.tu-academics-selected-assignment.2
+#: src/data/local-records.js:169
+msgctxt "text:localRecordRegistry.63.tu-academics-selected-assignment.2"
+msgid "Last-opened assignment"
+msgstr "Last-opened assignment"
+
+#. localRecordRegistry.64.tu-academics-selected-project.2
+#: src/data/local-records.js:170
+msgctxt "text:localRecordRegistry.64.tu-academics-selected-project.2"
+msgid "Last-opened project"
+msgstr "Last-opened project"
+
+#. localRecordRegistry.65.tu-governance-selected.2
+#: src/data/local-records.js:171
+msgctxt "text:localRecordRegistry.65.tu-governance-selected.2"
+msgid "Last-opened proposal"
+msgstr "Last-opened proposal"
+
+#. localRecordRegistry.66.tu-incidents-last-case.2
+#: src/data/local-records.js:172
+msgctxt "text:localRecordRegistry.66.tu-incidents-last-case.2"
+msgid "Last-opened incident"
+msgstr "Last-opened incident"
+
+#. localRecordRegistry.67.tu-campus-ledger.2
+#: src/data/local-records.js:174
+msgctxt "text:localRecordRegistry.67.tu-campus-ledger.2"
+msgid "Campus event ledger"
+msgstr "Campus event ledger"
+
+#. localRecordRegistry.68.tu-phantasm-state.2
+#: src/data/local-records.js:176
+msgctxt "text:localRecordRegistry.68.tu-phantasm-state.2"
+msgid "Ninth-period course state"
+msgstr "Ninth-period course state"
+
+#. localRecordRegistry.69.tu-phantasm-transcripts.2
+#: src/data/local-records.js:177
+msgctxt "text:localRecordRegistry.69.tu-phantasm-transcripts.2"
+msgid "Reverse-side transcripts"
+msgstr "Reverse-side transcripts"
+
+#. localRecordRegistry.70.tu-phantasm-exam-draft.2
+#: src/data/local-records.js:178
+msgctxt "text:localRecordRegistry.70.tu-phantasm-exam-draft.2"
+msgid "PHANTASM reverse-paper draft"
+msgstr "PHANTASM reverse-paper draft"
+
+#. localRecordRegistry.71.tu-phantasm-exam-attempts.2
+#: src/data/local-records.js:179
+msgctxt "text:localRecordRegistry.71.tu-phantasm-exam-attempts.2"
+msgid "PHANTASM reverse-exam results"
+msgstr "PHANTASM reverse-exam results"
+
+#. localRecordRegistry.72.tu-phantasm-boundary.2
+#: src/data/local-records.js:180
+msgctxt "text:localRecordRegistry.72.tu-phantasm-boundary.2"
+msgid "Boundary-door traces"
+msgstr "Boundary-door traces"
+
+#. localRecordRegistry.73.tu-phantasm-pass.2
+#: src/data/local-records.js:184
+msgctxt "text:localRecordRegistry.73.tu-phantasm-pass.2"
+msgid "Short-lived paper-seam pass"
+msgstr "Short-lived paper-seam pass"
+
+#. localRecordKinds.record
+#: src/data/local-records.js:190
+msgctxt "text:localRecordKinds.record"
+msgid "Record"
+msgstr "Record"
+
+#. localRecordKinds.draft
+#: src/data/local-records.js:191
+msgctxt "text:localRecordKinds.draft"
+msgid "Draft"
+msgstr "Draft"
+
+#. localRecordKinds.preference
+#: src/data/local-records.js:192
+msgctxt "text:localRecordKinds.preference"
+msgid "Interface bookmark"
+msgstr "Interface bookmark"
+
+#. localRecordKinds.ledger
+#: src/data/local-records.js:193
+msgctxt "text:localRecordKinds.ledger"
+msgid "Derived index"
+msgstr "Derived index"
+
+#. localRecordKinds.session
+#: src/data/local-records.js:194
+msgctxt "text:localRecordKinds.session"
+msgid "This tab only"
+msgstr "This tab only"
+
+#. localRecordScopes.device
+#: src/data/local-records.js:198
+msgctxt "text:localRecordScopes.device"
+msgid "Visible only to this browser profile and site origin; retained after the tab closes."
+msgstr "Visible only to this browser profile and site origin; retained after the tab closes."
+
+#. localRecordScopes.interface
+#: src/data/local-records.js:199
+msgctxt "text:localRecordScopes.interface"
+msgid "Stores interface preferences and last positions only, not primary campus records."
+msgstr "Stores interface preferences and last positions only, not primary campus records."
+
+#. localRecordScopes.dream
+#: src/data/local-records.js:200
+msgctxt "text:localRecordScopes.dream"
+msgid ""
+"Visible only in this browser's reverse-side files and never enters formal "
+"records or the campus ledger."
+msgstr ""
+"Visible only in this browser's reverse-side files and never enters formal "
+"records or the campus ledger."
+
+#. localRecordScopes.session
+#: src/data/local-records.js:201
+msgctxt "text:localRecordScopes.session"
+msgid ""
+"Valid only for this tab session; expires when the tab closes or after waking "
+"and is never exported."
+msgstr ""
+"Valid only for this tab session; expires when the tab closes or after waking "
+"and is never exported."

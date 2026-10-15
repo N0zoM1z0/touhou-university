@@ -1,0 +1,576 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. unresolvedMatters.ayaCorrection.stamp
+#: src/data/friction.js:5
+msgctxt "text:unresolvedMatters.ayaCorrection.stamp"
+msgid "CORRECTION 11"
+msgstr "CORRECTION 11"
+
+#. unresolvedMatters.ayaCorrection.title
+#: src/data/friction.js:6
+msgctxt "text:unresolvedMatters.ayaCorrection.title"
+msgid ""
+"The dean teaches public corrections. The headline needing correction this "
+"week is also hers."
+msgstr ""
+"The dean teaches public corrections. The headline needing correction this "
+"week is also hers."
+
+#. unresolvedMatters.ayaCorrection.summary
+#: src/data/friction.js:7
+msgctxt "text:unresolvedMatters.ayaCorrection.summary"
+msgid ""
+"Bunbunmaru Campus News turned “three late students” into “Mass Bamboo "
+"Disappearance.” All three were in the dining hall; Aya argues the hall lies "
+"within bamboo narrative territory."
+msgstr ""
+"Bunbunmaru Campus News turned “three late students” into “Mass Bamboo "
+"Disappearance.” All three were in the dining hall; Aya argues the hall lies "
+"within bamboo narrative territory."
+
+#. unresolvedMatters.ayaCorrection.details.0
+#: src/data/friction.js:9
+msgctxt "text:unresolvedMatters.ayaCorrection.details.0"
+msgid "Owner"
+msgstr "Owner"
+
+#. unresolvedMatters.ayaCorrection.details.1
+#: src/data/friction.js:10
+msgctxt "text:unresolvedMatters.ayaCorrection.details.1"
+msgid "Tengu Journalism · Correction Desk"
+msgstr "Tengu Journalism · Correction Desk"
+
+#. unresolvedMatters.ayaCorrection.details.2
+#: src/data/friction.js:11
+msgctxt "text:unresolvedMatters.ayaCorrection.details.2"
+msgid "Current action"
+msgstr "Current action"
+
+#. unresolvedMatters.ayaCorrection.details.3
+#: src/data/friction.js:12
+msgctxt "text:unresolvedMatters.ayaCorrection.details.3"
+msgid "Headline retained at smaller type; Hatate is reviewing version twelve"
+msgstr "Headline retained at smaller type; Hatate is reviewing version twelve"
+
+#. unresolvedMatters.ayaCorrection.details.4
+#: src/data/friction.js:13
+msgctxt "text:unresolvedMatters.ayaCorrection.details.4"
+msgid "Point of dispute"
+msgstr "Point of dispute"
+
+#. unresolvedMatters.ayaCorrection.details.5
+#: src/data/friction.js:14
+msgctxt "text:unresolvedMatters.ayaCorrection.details.5"
+msgid "Whether dramatic value is a measurable public benefit"
+msgstr "Whether dramatic value is a measurable public benefit"
+
+#. unresolvedMatters.marisaMaterials.stamp
+#: src/data/friction.js:18
+msgctxt "text:unresolvedMatters.marisaMaterials.stamp"
+msgid "SOURCE RETURNED"
+msgstr "SOURCE RETURNED"
+
+#. unresolvedMatters.marisaMaterials.title
+#: src/data/friction.js:19
+msgctxt "text:unresolvedMatters.marisaMaterials.title"
+msgid ""
+"Reproducibility filing, revision seven: material source still says “found it "
+"in the forest.”"
+msgstr ""
+"Reproducibility filing, revision seven: material source still says “found it "
+"in the forest.”"
+
+#. unresolvedMatters.marisaMaterials.summary
+#: src/data/friction.js:20
+msgctxt "text:unresolvedMatters.marisaMaterials.summary"
+msgid ""
+"Marisa reproduced the same explosion three times but refuses to list two "
+"grimoires as borrowed because “the books followed me.” Patchouli stamped "
+"every copy REJECTED in a different colour."
+msgstr ""
+"Marisa reproduced the same explosion three times but refuses to list two "
+"grimoires as borrowed because “the books followed me.” Patchouli stamped "
+"every copy REJECTED in a different colour."
+
+#. unresolvedMatters.marisaMaterials.details.0
+#: src/data/friction.js:22
+msgctxt "text:unresolvedMatters.marisaMaterials.details.0"
+msgid "Owner"
+msgstr "Owner"
+
+#. unresolvedMatters.marisaMaterials.details.1
+#: src/data/friction.js:23
+msgctxt "text:unresolvedMatters.marisaMaterials.details.1"
+msgid "Seven-Day Laboratory · Materials Shelf"
+msgstr "Seven-Day Laboratory · Materials Shelf"
+
+#. unresolvedMatters.marisaMaterials.details.2
+#: src/data/friction.js:24
+msgctxt "text:unresolvedMatters.marisaMaterials.details.2"
+msgid "Current action"
+msgstr "Current action"
+
+#. unresolvedMatters.marisaMaterials.details.3
+#: src/data/friction.js:25
+msgctxt "text:unresolvedMatters.marisaMaterials.details.3"
+msgid ""
+"Experiment may continue; books may not leave their current location, whose "
+"boundary is disputed"
+msgstr ""
+"Experiment may continue; books may not leave their current location, whose "
+"boundary is disputed"
+
+#. unresolvedMatters.marisaMaterials.details.4
+#: src/data/friction.js:26
+msgctxt "text:unresolvedMatters.marisaMaterials.details.4"
+msgid "Point of dispute"
+msgstr "Point of dispute"
+
+#. unresolvedMatters.marisaMaterials.details.5
+#: src/data/friction.js:27
+msgctxt "text:unresolvedMatters.marisaMaterials.details.5"
+msgid "Whether “I’ll return it later” counts as procurement"
+msgstr "Whether “I’ll return it later” counts as procurement"
+
+#. unresolvedMatters.yukariRoom.stamp
+#: src/data/friction.js:31
+msgctxt "text:unresolvedMatters.yukariRoom.stamp"
+msgid "SPATIAL APPEAL"
+msgstr "SPATIAL APPEAL"
+
+#. unresolvedMatters.yukariRoom.title
+#: src/data/friction.js:32
+msgctxt "text:unresolvedMatters.yukariRoom.title"
+msgid "Room 4-B was reclassified yesterday as “between present and absent.”"
+msgstr "Room 4-B was reclassified yesterday as “between present and absent.”"
+
+#. unresolvedMatters.yukariRoom.summary
+#: src/data/friction.js:33
+msgctxt "text:unresolvedMatters.yukariRoom.summary"
+msgid ""
+"Professor Yakumo notes that rules require students to be inside the room, "
+"not the room to be on campus. Seven arrived on time; attendance recorded "
+"them next week."
+msgstr ""
+"Professor Yakumo notes that rules require students to be inside the room, "
+"not the room to be on campus. Seven arrived on time; attendance recorded "
+"them next week."
+
+#. unresolvedMatters.yukariRoom.details.0
+#: src/data/friction.js:35
+msgctxt "text:unresolvedMatters.yukariRoom.details.0"
+msgid "Owner"
+msgstr "Owner"
+
+#. unresolvedMatters.yukariRoom.details.1
+#: src/data/friction.js:36
+msgctxt "text:unresolvedMatters.yukariRoom.details.1"
+msgid "Boundaries & Incidents · Nonexistent Second Floor"
+msgstr "Boundaries & Incidents · Nonexistent Second Floor"
+
+#. unresolvedMatters.yukariRoom.details.2
+#: src/data/friction.js:37
+msgctxt "text:unresolvedMatters.yukariRoom.details.2"
+msgid "Current action"
+msgstr "Current action"
+
+#. unresolvedMatters.yukariRoom.details.3
+#: src/data/friction.js:38
+msgctxt "text:unresolvedMatters.yukariRoom.details.3"
+msgid "Make-up time posted—on the inside of the room"
+msgstr "Make-up time posted—on the inside of the room"
+
+#. unresolvedMatters.yukariRoom.details.4
+#: src/data/friction.js:39
+msgctxt "text:unresolvedMatters.yukariRoom.details.4"
+msgid "Point of dispute"
+msgstr "Point of dispute"
+
+#. unresolvedMatters.yukariRoom.details.5
+#: src/data/friction.js:40
+msgctxt "text:unresolvedMatters.yukariRoom.details.5"
+msgid "Whether policy can take attendance from a definition that moves on purpose"
+msgstr "Whether policy can take attendance from a definition that moves on purpose"
+
+#. unresolvedMatters.nitoriTape.stamp
+#: src/data/friction.js:44
+msgctxt "text:unresolvedMatters.nitoriTape.stamp"
+msgid "TEMP REPAIR · DAY 129"
+msgstr "TEMP REPAIR · DAY 129"
+
+#. unresolvedMatters.nitoriTape.title
+#: src/data/friction.js:45
+msgctxt "text:unresolvedMatters.nitoriTape.title"
+msgid ""
+"Once kappa tape became a load-bearing part, the warranty wording became "
+"highly inventive."
+msgstr ""
+"Once kappa tape became a load-bearing part, the warranty wording became "
+"highly inventive."
+
+#. unresolvedMatters.nitoriTape.summary
+#: src/data/friction.js:46
+msgctxt "text:unresolvedMatters.nitoriTape.summary"
+msgid ""
+"Nitori calls the north pipe “a temporary version with an undecided date of "
+"permanence.” Its leak now powers a corridor turbine, so Engineering applied "
+"to list the damp patch as generation infrastructure."
+msgstr ""
+"Nitori calls the north pipe “a temporary version with an undecided date of "
+"permanence.” Its leak now powers a corridor turbine, so Engineering applied "
+"to list the damp patch as generation infrastructure."
+
+#. unresolvedMatters.nitoriTape.details.0
+#: src/data/friction.js:48
+msgctxt "text:unresolvedMatters.nitoriTape.details.0"
+msgid "Owner"
+msgstr "Owner"
+
+#. unresolvedMatters.nitoriTape.details.1
+#: src/data/friction.js:49
+msgctxt "text:unresolvedMatters.nitoriTape.details.1"
+msgid "Kappa Engineering · Honestly Temporary Repairs"
+msgstr "Kappa Engineering · Honestly Temporary Repairs"
+
+#. unresolvedMatters.nitoriTape.details.2
+#: src/data/friction.js:50
+msgctxt "text:unresolvedMatters.nitoriTape.details.2"
+msgid "Current action"
+msgstr "Current action"
+
+#. unresolvedMatters.nitoriTape.details.3
+#: src/data/friction.js:51
+msgctxt "text:unresolvedMatters.nitoriTape.details.3"
+msgid "Do not remove the tape; one strip currently provides grounding"
+msgstr "Do not remove the tape; one strip currently provides grounding"
+
+#. unresolvedMatters.nitoriTape.details.4
+#: src/data/friction.js:52
+msgctxt "text:unresolvedMatters.nitoriTape.details.4"
+msgid "Point of dispute"
+msgstr "Point of dispute"
+
+#. unresolvedMatters.nitoriTape.details.5
+#: src/data/friction.js:53
+msgctxt "text:unresolvedMatters.nitoriTape.details.5"
+msgid "Whether a power-generating leak is an incident, a facility, or an exhibit"
+msgstr "Whether a power-generating leak is an incident, a facility, or an exhibit"
+
+#. unresolvedMatters.reimuDonation.stamp
+#: src/data/friction.js:57
+msgctxt "text:unresolvedMatters.reimuDonation.stamp"
+msgid "DONATION BOX TRACE"
+msgstr "DONATION BOX TRACE"
+
+#. unresolvedMatters.reimuDonation.title
+#: src/data/friction.js:58
+msgctxt "text:unresolvedMatters.reimuDonation.title"
+msgid ""
+"Reimu moved the Hakurei Gate repair box back to the shrine: “It works better "
+"over there.”"
+msgstr ""
+"Reimu moved the Hakurei Gate repair box back to the shrine: “It works better "
+"over there.”"
+
+#. unresolvedMatters.reimuDonation.summary
+#: src/data/friction.js:59
+msgctxt "text:unresolvedMatters.reimuDonation.summary"
+msgid ""
+"Administration asked her to separate “gate repair” from “shrine maiden "
+"upkeep.” Reimu replied that they are the same thing in rain and attached a "
+"sketch of roof water dripping into her tea."
+msgstr ""
+"Administration asked her to separate “gate repair” from “shrine maiden "
+"upkeep.” Reimu replied that they are the same thing in rain and attached a "
+"sketch of roof water dripping into her tea."
+
+#. unresolvedMatters.reimuDonation.details.0
+#: src/data/friction.js:61
+msgctxt "text:unresolvedMatters.reimuDonation.details.0"
+msgid "Owner"
+msgstr "Owner"
+
+#. unresolvedMatters.reimuDonation.details.1
+#: src/data/friction.js:62
+msgctxt "text:unresolvedMatters.reimuDonation.details.1"
+msgid "Hakurei Shrine · Right Side of Veranda"
+msgstr "Hakurei Shrine · Right Side of Veranda"
+
+#. unresolvedMatters.reimuDonation.details.2
+#: src/data/friction.js:63
+msgctxt "text:unresolvedMatters.reimuDonation.details.2"
+msgid "Current action"
+msgstr "Current action"
+
+#. unresolvedMatters.reimuDonation.details.3
+#: src/data/friction.js:64
+msgctxt "text:unresolvedMatters.reimuDonation.details.3"
+msgid "The box attends campus twice weekly, except on rain cancellations"
+msgstr "The box attends campus twice weekly, except on rain cancellations"
+
+#. unresolvedMatters.reimuDonation.details.4
+#: src/data/friction.js:65
+msgctxt "text:unresolvedMatters.reimuDonation.details.4"
+msgid "Point of dispute"
+msgstr "Point of dispute"
+
+#. unresolvedMatters.reimuDonation.details.5
+#: src/data/friction.js:66
+msgctxt "text:unresolvedMatters.reimuDonation.details.5"
+msgid "Whether the shrine roof is upstream infrastructure for the gate"
+msgstr "Whether the shrine roof is upstream infrastructure for the gate"
+
+#. unresolvedMatters.patchouliLoan.stamp
+#: src/data/friction.js:70
+msgctxt "text:unresolvedMatters.patchouliLoan.stamp"
+msgid "STACKS DEADLOCK"
+msgstr "STACKS DEADLOCK"
+
+#. unresolvedMatters.patchouliLoan.title
+#: src/data/friction.js:71
+msgctxt "text:unresolvedMatters.patchouliLoan.title"
+msgid ""
+"The library requests overdue grimoires. Patchouli requests the return of the "
+"120 years borrowed from them."
+msgstr ""
+"The library requests overdue grimoires. Patchouli requests the return of the "
+"120 years borrowed from them."
+
+#. unresolvedMatters.patchouliLoan.summary
+#: src/data/friction.js:72
+msgctxt "text:unresolvedMatters.patchouliLoan.summary"
+msgid ""
+"Interlibrary policy forbids permanent possession of rare holdings. Scarlet "
+"Library annotated “permanent” with “for whom?” The case is stuck on page "
+"three of the lifespan conversion table."
+msgstr ""
+"Interlibrary policy forbids permanent possession of rare holdings. Scarlet "
+"Library annotated “permanent” with “for whom?” The case is stuck on page "
+"three of the lifespan conversion table."
+
+#. unresolvedMatters.patchouliLoan.details.0
+#: src/data/friction.js:74
+msgctxt "text:unresolvedMatters.patchouliLoan.details.0"
+msgid "Owner"
+msgstr "Owner"
+
+#. unresolvedMatters.patchouliLoan.details.1
+#: src/data/friction.js:75
+msgctxt "text:unresolvedMatters.patchouliLoan.details.1"
+msgid "Misty Lake Library · Long-Life Loans"
+msgstr "Misty Lake Library · Long-Life Loans"
+
+#. unresolvedMatters.patchouliLoan.details.2
+#: src/data/friction.js:76
+msgctxt "text:unresolvedMatters.patchouliLoan.details.2"
+msgid "Current action"
+msgstr "Current action"
+
+#. unresolvedMatters.patchouliLoan.details.3
+#: src/data/friction.js:77
+msgctxt "text:unresolvedMatters.patchouliLoan.details.3"
+msgid "Both sides have sealed the other's recall notice"
+msgstr "Both sides have sealed the other's recall notice"
+
+#. unresolvedMatters.patchouliLoan.details.4
+#: src/data/friction.js:78
+msgctxt "text:unresolvedMatters.patchouliLoan.details.4"
+msgid "Point of dispute"
+msgstr "Point of dispute"
+
+#. unresolvedMatters.patchouliLoan.details.5
+#: src/data/friction.js:79
+msgctxt "text:unresolvedMatters.patchouliLoan.details.5"
+msgid "Whether loan time follows the reader, librarian, or book"
+msgstr "Whether loan time follows the reader, librarian, or book"
+
+#. faithFaculty.byakuren.name
+#: src/data/friction.js:87
+msgctxt "text:faithFaculty.byakuren.name"
+msgid "Byakuren Hijiri"
+msgstr "Byakuren Hijiri"
+
+#. faithFaculty.byakuren.role
+#: src/data/friction.js:88
+msgctxt "text:faithFaculty.byakuren.role"
+msgid "Professor of Religious Coexistence & Temple Public Life"
+msgstr "Professor of Religious Coexistence & Temple Public Life"
+
+#. faithFaculty.byakuren.summary
+#: src/data/friction.js:89
+msgctxt "text:faithFaculty.byakuren.summary"
+msgid ""
+"She argues that humans and youkai can share one table, while insisting that "
+"welcome does not make the temple serve every convenience. Courses co-taught "
+"with Miko usually change title three times before opening."
+msgstr ""
+"She argues that humans and youkai can share one table, while insisting that "
+"welcome does not make the temple serve every convenience. Courses co-taught "
+"with Miko usually change title three times before opening."
+
+#. faithFaculty.byakuren.course
+#: src/data/friction.js:90
+msgctxt "text:faithFaculty.byakuren.course"
+msgid "FCP-214 Temples, Youkai & Arguments After Supper"
+msgstr "FCP-214 Temples, Youkai & Arguments After Supper"
+
+#. faithFaculty.byakuren.tension
+#: src/data/friction.js:91
+msgctxt "text:faithFaculty.byakuren.tension"
+msgid "Refuses to turn coexistence into a slogan—or let admissions use temple rites as scenery."
+msgstr "Refuses to turn coexistence into a slogan—or let admissions use temple rites as scenery."
+
+#. faithFaculty.kanako.name
+#: src/data/friction.js:95
+msgctxt "text:faithFaculty.kanako.name"
+msgid "Kanako Yasaka"
+msgstr "Kanako Yasaka"
+
+#. faithFaculty.kanako.role
+#: src/data/friction.js:96
+msgctxt "text:faithFaculty.kanako.role"
+msgid "Professor of Faith Infrastructure & Public Works"
+msgstr "Professor of Faith Infrastructure & Public Works"
+
+#. faithFaculty.kanako.summary
+#: src/data/friction.js:97
+msgctxt "text:faithFaculty.kanako.summary"
+msgid ""
+"She brings ropeway, water, and festival-flow plans to class and writes "
+"objections straight into version two. The problem is that version one is "
+"often already under construction; Kappa Engineering calls it “preliminary "
+"research with divine-speed decisions.”"
+msgstr ""
+"She brings ropeway, water, and festival-flow plans to class and writes "
+"objections straight into version two. The problem is that version one is "
+"often already under construction; Kappa Engineering calls it “preliminary "
+"research with divine-speed decisions.”"
+
+#. faithFaculty.kanako.course
+#: src/data/friction.js:98
+msgctxt "text:faithFaculty.kanako.course"
+msgid "FCP-241 Faith Economies & Projects That Won't Wait for Budget"
+msgstr "FCP-241 Faith Economies & Projects That Won't Wait for Budget"
+
+#. faithFaculty.kanako.tension
+#: src/data/friction.js:99
+msgctxt "text:faithFaculty.kanako.tension"
+msgid ""
+"Asks every tradition to prove it can survive; colleagues ask her not to "
+"build the proof as a ropeway first."
+msgstr ""
+"Asks every tradition to prove it can survive; colleagues ask her not to "
+"build the proof as a ropeway first."
+
+#. faithFaculty.miko.name
+#: src/data/friction.js:103
+msgctxt "text:faithFaculty.miko.name"
+msgid "Toyosatomimi no Miko"
+msgstr "Toyosatomimi no Miko"
+
+#. faithFaculty.miko.role
+#: src/data/friction.js:104
+msgctxt "text:faithFaculty.miko.role"
+msgid "Professor of Public Desire, Representation & Leadership"
+msgstr "Professor of Public Desire, Representation & Leadership"
+
+#. faithFaculty.miko.summary
+#: src/data/friction.js:105
+msgctxt "text:faithFaculty.miko.summary"
+msgid ""
+"She can hear ten desires at once and produce an elegant summary before "
+"person eleven speaks. The key assignment is not to be heard, but to rebut "
+"that too-perfect summary line by line."
+msgstr ""
+"She can hear ten desires at once and produce an elegant summary before "
+"person eleven speaks. The key assignment is not to be heard, but to rebut "
+"that too-perfect summary line by line."
+
+#. faithFaculty.miko.course
+#: src/data/friction.js:106
+msgctxt "text:faithFaculty.miko.course"
+msgid "FCP-266 Hearing Ten People Is Not Representing Ten People"
+msgstr "FCP-266 Hearing Ten People Is Not Representing Ten People"
+
+#. faithFaculty.miko.tension
+#: src/data/friction.js:107
+msgctxt "text:faithFaculty.miko.tension"
+msgid ""
+"She genuinely revises a judgment—but usually only after someone proves in "
+"public that she judged too quickly."
+msgstr ""
+"She genuinely revises a judgment—but usually only after someone proves in "
+"public that she judged too quickly."
+
+#. faithFaculty.sanae.name
+#: src/data/friction.js:111
+msgctxt "text:faithFaculty.sanae.name"
+msgid "Sanae Kochiya"
+msgstr "Sanae Kochiya"
+
+#. faithFaculty.sanae.role
+#: src/data/friction.js:112
+msgctxt "text:faithFaculty.sanae.role"
+msgid "Lecturer in Festival Design & Outside-World Translation"
+msgstr "Lecturer in Festival Design & Outside-World Translation"
+
+#. faithFaculty.sanae.summary
+#: src/data/friction.js:113
+msgctxt "text:faithFaculty.sanae.summary"
+msgid ""
+"She makes spreadsheets, borrows loudspeakers, paints queue lines, and "
+"cheerfully promises that “Outside universities all do this.” When they do "
+"not, she posts an earnest correction—then immediately proposes a larger "
+"miracle demonstration."
+msgstr ""
+"She makes spreadsheets, borrows loudspeakers, paints queue lines, and "
+"cheerfully promises that “Outside universities all do this.” When they do "
+"not, she posts an earnest correction—then immediately proposes a larger "
+"miracle demonstration."
+
+#. faithFaculty.sanae.course
+#: src/data/friction.js:114
+msgctxt "text:faithFaculty.sanae.course"
+msgid "FCP-118 Miracles, Megaphones & Rain-Smeared Run Sheets"
+msgstr "FCP-118 Miracles, Megaphones & Rain-Smeared Run Sheets"
+
+#. faithFaculty.sanae.tension
+#: src/data/friction.js:115
+msgctxt "text:faithFaculty.sanae.tension"
+msgid ""
+"She gets four religious blocs to meetings on time; each bloc thinks "
+"punctuality is a special demand placed only on them."
+msgstr ""
+"She gets four religious blocs to meetings on time; each bloc thinks "
+"punctuality is a special demand placed only on them."
+
+#. faithReview.name
+#: src/data/friction.js:120
+msgctxt "text:faithReview.name"
+msgid "Eiki Shiki, Yamaxanadu"
+msgstr "Eiki Shiki, Yamaxanadu"
+
+#. faithReview.role
+#: src/data/friction.js:121
+msgctxt "text:faithReview.role"
+msgid "External appeals examiner · visits on the last Higan day each month"
+msgstr "External appeals examiner · visits on the last Higan day each month"
+
+#. faithReview.note
+#: src/data/friction.js:122
+msgctxt "text:faithReview.note"
+msgid ""
+"She does not mediate doctrine; she separates action, reason, and consequence "
+"into three columns. Last month's longest ruling was one sentence: “Every "
+"side failed to hear one person.”"
+msgstr ""
+"She does not mediate doctrine; she separates action, reason, and consequence "
+"into three columns. Last month's longest ruling was one sentence: “Every "
+"side failed to hear one person.”"

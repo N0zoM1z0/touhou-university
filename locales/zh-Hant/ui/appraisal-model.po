@@ -1,0 +1,76 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. notice
+#: src/js/appraisal-model.js:232
+msgctxt "text:notice"
+msgid ""
+"Kourindou separated “knowing the purpose” from “knowing how to operate it,” "
+"adding one page to every form."
+msgstr "香霖堂今日把「知道用途」與「知道怎麼用」分成兩個欄位，表格因此多了一頁。"
+
+#. appraisalDeskStatus
+#: src/js/appraisal-model.js:235
+msgctxt "text:appraisalDeskStatus"
+msgid ""
+"Returning holdings occupy two benches; object 31 was just mistaken for a "
+"bookmark by a dictionary."
+msgstr "返航館藏佔用了兩張鑑定桌；第 31 件耳機剛被一本辭典誤認為書籤。"
+
+#. appraisalDeskStatus
+#: src/js/appraisal-model.js:238
+msgctxt "text:appraisalDeskStatus.2"
+msgid ""
+"Nitori brought a reversible adapter box and tape. The library recognizes "
+"only the former as method."
+msgstr "荷取帶了可逆轉接箱，也帶了膠帶。館方只承認前者屬於方法。"
+
+#. appraisalDeskStatus
+#: src/js/appraisal-model.js:240
+msgctxt "text:appraisalDeskStatus.3"
+msgid "Bamboo humidity is up. Sleeves enter drying boxes; all camera shutter tests are paused."
+msgstr "竹林濕氣提高，所有紙套先入乾燥盒；相機案卷暫停任何快門測試。"
+
+#. communityCopy.author
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.author"
+msgid "Kourindou × Misty Lake Cataloguing Desk"
+msgstr "香霖堂 × 霧湖編目桌"
+
+#. communityCopy.contestedAuthor
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.contestedAuthor"
+msgid "Bunbunmaru Corrections-Candidate Desk"
+msgstr "文文。校報訂正候補欄"
+
+#. communityCopy.supported
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.supported"
+msgid "Drift-object appraisal completed"
+msgstr "漂流物鑑定完成"
+
+#. communityCopy.provisional
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.provisional"
+msgid "Drift object provisionally catalogued"
+msgstr "漂流物暫定編目"
+
+#. communityCopy.contested
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.contested"
+msgid "An unsupported use retained by request"
+msgstr "一項不成立但被要求保留的用途"
+
+#. communityCopy.warning
+#: src/js/appraisal-model.js:253
+msgctxt "text:communityCopy.warning"
+msgid ""
+"Evidence did not support the proposed original use; the file remains a "
+"red-pencil contested record."
+msgstr "原用途未獲證據支持；案卷以紅鉛筆爭議件保存。"

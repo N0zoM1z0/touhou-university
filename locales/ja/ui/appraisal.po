@@ -1,0 +1,539 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/eyebrow"
+msgid "KOURINDOU × MISTY LAKE LIBRARY"
+msgstr "KOURINDOU × MISTY LAKE LIBRARY"
+
+#. copy/title
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/title"
+msgid "Outside World Drift-Object Appraisal Office"
+msgstr "外界漂流物鑑定所"
+
+#. copy/lead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/lead"
+msgid ""
+"A name, an original purpose, and a useful life in Gensokyo are three "
+"different questions. Kourindou sees names, the library keeps evidence, and "
+"the kappa stare at ports. If the object objects, that enters the file too."
+msgstr "名称、元の用途、幻想郷で今何に使うかは別の問い。香霖堂は名を見て、図書館は証拠を残し、河童は端子を見つめる。物が異議を唱えれば、それも記録する。"
+
+#. copy/open
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/open"
+msgid "Appraisal desk accepting cases"
+msgstr "鑑定机は受付中"
+
+#. copy/closed
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/closed"
+msgid "Appraisal desk closed for today"
+msgstr "本日の鑑定机は終了"
+
+#. copy/libraryHours
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/libraryHours"
+msgid "Library"
+msgstr "図書館"
+
+#. copy/queue
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/queue"
+msgid "Awaiting appraisal"
+msgstr "鑑定待ち"
+
+#. copy/queueUnit
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/queueUnit"
+msgid "objects"
+msgstr "点"
+
+#. copy/weekly
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/weekly"
+msgid "Drift object of the week"
+msgstr "今週の漂流物"
+
+#. copy/liveNotice
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/liveNotice"
+msgid "Duty notice on the wooden board"
+msgstr "木札当番告知"
+
+#. copy/desk
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/desk"
+msgid "Appraisal bench"
+msgstr "鑑定台"
+
+#. copy/archive
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/archive"
+msgid "My case files"
+msgstr "私の記録"
+
+#. copy/draftCount
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/draftCount"
+msgid "drafts"
+msgstr "件の下書き"
+
+#. copy/recordCount
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/recordCount"
+msgid "files"
+msgstr "件の記録"
+
+#. copy/selectObject
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/selectObject"
+msgid "Drift-object intake shelf"
+msgstr "漂流物受付棚"
+
+#. copy/scrollObjects
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/scrollObjects"
+msgid "Slide the shelf left or right · 8 files"
+msgstr "棚は左右へ送れます・全八件"
+
+#. copy/selected
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/selected"
+msgid "Currently on the bench"
+msgstr "現在机上"
+
+#. copy/arrival
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/arrival"
+msgid "Recovery and transfer"
+msgstr "発見・移管"
+
+#. copy/condition
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/condition"
+msgid "Intake condition"
+msgstr "受入状態"
+
+#. copy/lastRecord
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/lastRecord"
+msgid "Latest file"
+msgstr "最新記録"
+
+#. copy/noRecord
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/noRecord"
+msgid "Not yet closed"
+msgstr "未終結"
+
+#. copy/stepEvidence
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/stepEvidence"
+msgid "One — Look at the object before the answer"
+msgstr "一、答えより先に物を見る"
+
+#. copy/evidenceLead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/evidenceLead"
+msgid ""
+"Select observations you actually use. At least two; markings and wear "
+"usually speak more reliably than intuition."
+msgstr "実際に採用する観察を選択。最低二件。印と摩耗は直感よりよく語る。"
+
+#. copy/reviewed
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/reviewed"
+msgid "Used"
+msgstr "採用済み"
+
+#. copy/stepHypothesis
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/stepHypothesis"
+msgid "Two — Propose the original purpose"
+msgstr "二、元用途の仮説を立てる"
+
+#. copy/hypothesisLead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/hypothesisLead"
+msgid ""
+"Rinnosuke may see name and purpose without receiving an operating manual. "
+"Your evidence still has to connect."
+msgstr "霖之助は名称と用途を知っても、操作法まで保証しない。証拠をつなぐ必要がある。"
+
+#. copy/stepTests
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/stepTests"
+msgid "Three — Choose non-invasive tests"
+msgstr "三、非侵襲試験を選ぶ"
+
+#. copy/testsLead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/testsLead"
+msgid ""
+"At least one and at most three. A kappa bringing a screwdriver does not make "
+"disassembly necessary."
+msgstr "最低一件、最大三件。河童がドライバーを持参しただけで分解を必要工程にはしない。"
+
+#. copy/method
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/method"
+msgid "Method"
+msgstr "方法"
+
+#. copy/observation
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/observation"
+msgid "Observation"
+msgstr "観察結果"
+
+#. copy/stepUse
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/stepUse"
+msgid "Four — Give it a next life in Gensokyo"
+msgstr "四、幻想郷での次の用途を決める"
+
+#. copy/currentUse
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/currentUse"
+msgid "New use"
+msgstr "新用途"
+
+#. copy/chooseUse
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/chooseUse"
+msgid "Choose a present use you can explain"
+msgstr "説明できる現在用途を選択"
+
+#. copy/destination
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/destination"
+msgid "Destination"
+msgstr "移管先"
+
+#. copy/agency
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/agency"
+msgid "Object-agency observation"
+msgstr "物の意思観察"
+
+#. copy/fieldNote
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/fieldNote"
+msgid "Field note"
+msgstr "現場メモ"
+
+#. copy/fieldPlaceholder
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/fieldPlaceholder"
+msgid ""
+"Record one remaining uncertainty, version gap, or the object’s reaction to "
+"its proposed treatment…"
+msgstr "残る不確実性、版の欠落、または処置への物の反応を記録……"
+
+#. copy/autosaved
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/autosaved"
+msgid "Draft saved on this device"
+msgstr "下書きはこの端末へ保存"
+
+#. copy/clear
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/clear"
+msgid "Clear this draft"
+msgstr "この下書きを消去"
+
+#. copy/submit
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/submit"
+msgid "Send to the four-party appraisal meeting"
+msgstr "四者鑑定会へ送る"
+
+#. copy/incomplete
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/incomplete"
+msgid ""
+"The file cannot close: use at least two evidence items and one test, then "
+"complete original use, new use, destination, and agency observation."
+msgstr "終結不可：証拠二件、試験一件以上と、元用途・新用途・移管先・意思観察を入力してください。"
+
+#. copy/saved
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/saved"
+msgid "The appraisal file is bound; My TU and the campus event ledger received copies."
+msgstr "鑑定記録を綴じ、My TU と学内事象帳にも副本を送りました。"
+
+#. copy/cleared
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/cleared"
+msgid "The bench is clear. Previous case files were not discarded."
+msgstr "机を片付けました。過去記録は捨てていません。"
+
+#. copy/supported
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/supported"
+msgid "Purpose well supported"
+msgstr "用途は証拠により十分裏付けられている"
+
+#. copy/provisional
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/provisional"
+msgid "Provisional purpose pending more port or version evidence"
+msgstr "暫定用途・追加端子または版証拠待ち"
+
+#. copy/unsupported
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/unsupported"
+msgid "Original-purpose claim unsupported"
+msgstr "元の用途は裏付けられず"
+
+#. copy/contested
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/contested"
+msgid "Red-pencil contested preservation"
+msgstr "赤鉛筆係争保存"
+
+#. copy/score
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/score"
+msgid "Appraisal completeness"
+msgstr "鑑定完成度"
+
+#. copy/evidence
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/evidence"
+msgid "Evidence used"
+msgstr "採用証拠"
+
+#. copy/tests
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/tests"
+msgid "Tests completed"
+msgstr "実施試験"
+
+#. copy/proposed
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/proposed"
+msgid "Your proposed original purpose"
+msgstr "提出した元用途"
+
+#. copy/identified
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/identified"
+msgid "Original purpose reconstructed by the office"
+msgstr "鑑定所が再構成した元用途"
+
+#. copy/operation
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/operation"
+msgid "Likely operation"
+msgstr "想定操作"
+
+#. copy/caution
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/caution"
+msgid "Limit the conclusion must not erase"
+msgstr "結論で消してはいけない制限"
+
+#. copy/nextUse
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/nextUse"
+msgid "New Gensokyo use"
+msgstr "幻想郷での新用途"
+
+#. copy/assigned
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/assigned"
+msgid "Destination"
+msgstr "移管先"
+
+#. copy/agencyResult
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/agencyResult"
+msgid "Agency reading"
+msgstr "意思判定"
+
+#. copy/panel
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/panel"
+msgid "Four-party marginal opinions"
+msgstr "四者会議欄外意見"
+
+#. copy/correction
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/correction"
+msgid "This file also corrects an earlier contested appraisal"
+msgstr "本記録は以前の係争記録一件も訂正"
+
+#. copy/retainedBy
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retainedBy"
+msgid "Retention signatory"
+msgstr "保存署名者"
+
+#. copy/retentionReason
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retentionReason"
+msgid "Reason retained"
+msgstr "保存理由"
+
+#. copy/share
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/share"
+msgid "Copy file link"
+msgstr "記録リンクをコピー"
+
+#. copy/shared
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/shared"
+msgid "Case-file link copied."
+msgstr "記録リンクをコピーしました。"
+
+#. copy/openBbs
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/openBbs"
+msgid "See what the BBS did with it"
+msgstr "BBS の議論を見る"
+
+#. copy/startAnother
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/startAnother"
+msgid "Appraise this object again"
+msgstr "この品を再鑑定"
+
+#. copy/archiveTitle
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/archiveTitle"
+msgid "Appraisal files retained on this device"
+msgstr "この端末に保存された鑑定記録"
+
+#. copy/archiveLead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/archiveLead"
+msgid ""
+"Errors, provisional readings, and corrections remain where they occurred. "
+"Reappraisal creates a new file rather than pretending an older purpose never "
+"existed."
+msgstr "誤り・暫定・訂正を元の位置に残す。再鑑定は新記録となり、旧用途をなかったことにしない。"
+
+#. copy/noArchive
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/noArchive"
+msgid "No files yet. Kourindou says this means everything remains not for sale for now."
+msgstr "記録はまだありません。香霖堂いわく、すべて当面非売品ということです。"
+
+#. copy/openRecord
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/openRecord"
+msgid "Open file"
+msgstr "記録を見る"
+
+#. copy/status
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/status"
+msgid "Finding"
+msgstr "結論"
+
+#. copy/date
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/date"
+msgid "Bound"
+msgstr "綴じ時刻"
+
+#. copy/drafts
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/drafts"
+msgid "Unfinished drafts"
+msgstr "未完下書き"
+
+#. copy/continueDraft
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/continueDraft"
+msgid "Continue appraisal"
+msgstr "鑑定を続ける"
+
+#. copy/retentionTitle
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retentionTitle"
+msgid "This use did not hold. Keep it anyway?"
+msgstr "この用途は成立しません。それでも残しますか？"
+
+#. copy/retentionLead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retentionLead"
+msgid ""
+"The evidence did not support the selected original purpose. An error can "
+"still preserve how Gensokyo understood an Outside object. If retained, it "
+"stays visibly contested and generates BBS reactions."
+msgstr "証拠は選択した元用途を支持しません。ただし誤りも、幻想郷が外界をどう理解したかを残せます。保存する場合は係争記録として永久表示し、BBSへ連動します。"
+
+#. copy/retentionWarning
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retentionWarning"
+msgid ""
+"Retention does not make it correct. Later files, My TU, and BBS will all "
+"keep the UNSUPPORTED mark."
+msgstr "正しい鑑定になるわけではありません。後続記録・My TU・BBSにも「裏付けられず」と明記されます。"
+
+#. copy/reviewer
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/reviewer"
+msgid "Reviewer willing to sign retention"
+msgstr "保存へ署名する査読者"
+
+#. copy/reason
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/reason"
+msgid "Why it deserves a record"
+msgstr "保存する価値"
+
+#. copy/reasonPlaceholder
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/reasonPlaceholder"
+msgid ""
+"For example: a representative misreading, a useful new test question, or the "
+"object itself insists on this use…"
+msgstr "代表的な誤認、新たな検証問題、物自身が用途を主張した、など……"
+
+#. copy/confirm
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/confirm"
+msgid ""
+"I understand that evidence did not support this proposed original purpose "
+"and still request a contested record."
+msgstr "この元用途が証拠で支持されないことを理解し、係争記録としての保存を求めます。"
+
+#. copy/cancel
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/cancel"
+msgid "Return it to the bench"
+msgstr "机へ戻して再考"
+
+#. copy/bind
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/bind"
+msgid "Bind in red pencil and let the BBS answer for itself"
+msgstr "赤鉛筆で綴じ、BBSには自分で責任を取らせる"
+
+#. copy/retentionIncomplete
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retentionIncomplete"
+msgid "Choose a signatory, state a reason, and confirm the warning."
+msgstr "署名者・保存理由・警告確認を揃えてください。"
+
+#. copy/outsiderDesk
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/outsiderDesk"
+msgid ""
+"Outside objects are not riddle props. They were used, superseded, made "
+"unrepairable—and only then arrived here."
+msgstr "外界物は謎解きの小道具ではない。使われ、廃れ、直せなくなってから、ここへ来た。"

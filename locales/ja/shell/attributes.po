@@ -1,0 +1,561 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Static markup / page composition: attribute.openMenu
+#: src/sections/chrome.html:75
+msgctxt "text:attribute.openMenu"
+msgid "Open menu"
+msgstr "メニューを開く"
+
+#. Static markup / page composition: attribute.closeMenu
+#: src/js/i18n.js:1
+msgctxt "text:attribute.closeMenu"
+msgid "Close menu"
+msgstr "メニューを閉じる"
+
+#. Static markup / page composition: attribute.closeCampusService
+#: src/sections/dialogs.html:36
+msgctxt "text:attribute.closeCampusService"
+msgid "Close campus service"
+msgstr "学務サービスを閉じる"
+
+#. Static markup / page composition: attribute.closeResearchFile
+#: src/sections/dialogs.html:46
+msgctxt "text:attribute.closeResearchFile"
+msgid "Close research file"
+msgstr "研究ファイルを閉じる"
+
+#. Static markup / page composition: attribute.closePostForm
+#: src/sections/dialogs.html:78
+msgctxt "text:attribute.closePostForm"
+msgid "Close post form"
+msgstr "投稿画面を閉じる"
+
+#. Static markup / page composition: attribute.closeProfile
+#: src/sections/dialogs.html:2
+msgctxt "text:attribute.closeProfile"
+msgid "Close profile"
+msgstr "プロフィールを閉じる"
+
+#. Static markup / page composition: attribute.closeAdmissionsGuide
+#: src/sections/dialogs.html:23
+msgctxt "text:attribute.closeAdmissionsGuide"
+msgid "Close admissions guide"
+msgstr "入学案内を閉じる"
+
+#. Static markup / page composition: attribute.closeContentCard
+#: src/sections/dialogs.html:62
+msgctxt "text:attribute.closeContentCard"
+msgid "Close content card"
+msgstr "コンテンツカードを閉じる"
+
+#. Static markup / page composition: attribute.closeSchoolCatalogue
+#: src/sections/dialogs.html:57
+msgctxt "text:attribute.closeSchoolCatalogue"
+msgid "Close school catalogue"
+msgstr "学部案内を閉じる"
+
+#. Static markup / page composition: attribute.campusRoutePlanner
+#: src/sections/map.html:88
+msgctxt "text:attribute.campusRoutePlanner"
+msgid "Campus route planner"
+msgstr "キャンパス経路検索"
+
+#. Static markup / page composition: attribute.swapOriginAndDestination
+#: src/sections/map.html:103
+msgctxt "text:attribute.swapOriginAndDestination"
+msgid "Swap origin and destination"
+msgstr "出発地と目的地を入れ替える"
+
+#. Static markup / page composition: attribute.universityOverview
+#: src/sections/about.html:40
+msgctxt "text:attribute.universityOverview"
+msgid "University overview"
+msgstr "大学概要"
+
+#. Static markup / page composition: attribute.admissionsRoutes
+#: src/sections/admissions.html:14
+msgctxt "text:attribute.admissionsRoutes"
+msgid "Admissions routes"
+msgstr "入試経路"
+
+#. Static markup / page composition: attribute.bbsBoards
+#: src/sections/bbs.html:16
+msgctxt "text:attribute.bbsBoards"
+msgid "BBS boards"
+msgstr "BBS 掲示板"
+
+#. Static markup / page composition: attribute.mainNavigation
+#: src/js/i18n.js:1
+msgctxt "text:attribute.mainNavigation"
+msgid "Main navigation"
+msgstr "メインナビゲーション"
+
+#. Static markup / page composition: attribute.mobileNavigation
+#: src/js/i18n.js:1
+msgctxt "text:attribute.mobileNavigation"
+msgid "Mobile navigation"
+msgstr "モバイルナビゲーション"
+
+#. Static markup / page composition: attribute.viewKeineKamishirasawaProfile
+#: src/sections/faculty.html:58
+msgctxt "text:attribute.viewKeineKamishirasawaProfile"
+msgid "View Keine Kamishirasawa profile"
+msgstr "上白沢慧音のプロフィールを見る"
+
+#. Static markup / page composition: attribute.viewEirinYagokoroProfile
+#: src/sections/faculty.html:97
+msgctxt "text:attribute.viewEirinYagokoroProfile"
+msgid "View Eirin Yagokoro profile"
+msgstr "八意永琳のプロフィールを見る"
+
+#. Static markup / page composition: attribute.viewYukariYakumoProfile
+#: src/sections/faculty.html:45
+msgctxt "text:attribute.viewYukariYakumoProfile"
+msgid "View Yukari Yakumo profile"
+msgstr "八雲紫のプロフィールを見る"
+
+#. Static markup / page composition: attribute.viewReimuHakureiProfile
+#: src/sections/faculty.html:32
+msgctxt "text:attribute.viewReimuHakureiProfile"
+msgid "View Reimu Hakurei profile"
+msgstr "博麗霊夢のプロフィールを見る"
+
+#. Static markup / page composition: attribute.viewAyaShameimaruProfile
+#: src/sections/faculty.html:123
+msgctxt "text:attribute.viewAyaShameimaruProfile"
+msgid "View Aya Shameimaru profile"
+msgstr "射命丸文のプロフィールを見る"
+
+#. Static markup / page composition: attribute.viewPatchouliKnowledgeProfile
+#: src/sections/faculty.html:71
+msgctxt "text:attribute.viewPatchouliKnowledgeProfile"
+msgid "View Patchouli Knowledge profile"
+msgstr "パチュリーのプロフィールを見る"
+
+#. Static markup / page composition: attribute.viewNitoriKawashiroProfile
+#: src/sections/faculty.html:110
+msgctxt "text:attribute.viewNitoriKawashiroProfile"
+msgid "View Nitori Kawashiro profile"
+msgstr "河城にとりのプロフィールを見る"
+
+#. Static markup / page composition: attribute.viewMarisaKirisameProfile
+#: src/sections/faculty.html:84
+msgctxt "text:attribute.viewMarisaKirisameProfile"
+msgid "View Marisa Kirisame profile"
+msgstr "霧雨魔理沙のプロフィールを見る"
+
+#. Static markup / page composition: attribute.filterFaculty
+#: src/sections/faculty.html:14
+msgctxt "text:attribute.filterFaculty"
+msgid "Filter faculty"
+msgstr "教員を絞り込む"
+
+#. Static markup / page composition: attribute.touhouUniversityOfGensokyoCampusMap
+#: src/sections/map.html:15
+msgctxt "text:attribute.touhouUniversityOfGensokyoCampusMap"
+msgid "Touhou University of Gensokyo campus map"
+msgstr "幻想郷立東方大学キャンパスマップ"
+
+#. Static markup / page composition: attribute.campusNews
+#: src/sections/ticker.html:1
+msgctxt "text:attribute.campusNews"
+msgid "Campus news"
+msgstr "大学ニュース"
+
+#. Static markup / page composition: attribute.stateTheTopicClearlyInOneSentence
+#: src/sections/dialogs.html:97
+msgctxt "text:attribute.stateTheTopicClearlyInOneSentence"
+msgid "State the topic clearly in one sentence"
+msgstr "議題を一文で明確にしてください"
+
+#. Static markup / page composition: attribute.addTheTimePlaceAndAssistanceNeeded
+#: src/sections/dialogs.html:101
+msgctxt "text:attribute.addTheTimePlaceAndAssistanceNeeded"
+msgid "Add the time, place, and assistance needed"
+msgstr "日時、場所、必要な支援を補足してください"
+
+#. Static markup / page composition: attribute.professorKeineKamishirasawa
+#: src/sections/faculty.html:50
+msgctxt "text:attribute.professorKeineKamishirasawa"
+msgid "Professor Keine Kamishirasawa"
+msgstr "上白沢慧音教授"
+
+#. Static markup / page composition: attribute.professorEirinYagokoro
+#: src/sections/faculty.html:89
+msgctxt "text:attribute.professorEirinYagokoro"
+msgid "Professor Eirin Yagokoro"
+msgstr "八意永琳教授"
+
+#. Static markup / page composition: attribute.professorYukariYakumo
+#: src/sections/faculty.html:37
+msgctxt "text:attribute.professorYukariYakumo"
+msgid "Professor Yukari Yakumo"
+msgstr "八雲紫教授"
+
+#. Static markup / page composition: attribute.professorReimuHakurei
+#: src/sections/faculty.html:24
+msgctxt "text:attribute.professorReimuHakurei"
+msgid "Professor Reimu Hakurei"
+msgstr "博麗霊夢教授"
+
+#. Static markup / page composition: attribute.professorAyaShameimaru
+#: src/sections/faculty.html:115
+msgctxt "text:attribute.professorAyaShameimaru"
+msgid "Professor Aya Shameimaru"
+msgstr "射命丸文教授"
+
+#. Static markup / page composition: attribute.professorPatchouliKnowledge
+#: src/sections/faculty.html:63
+msgctxt "text:attribute.professorPatchouliKnowledge"
+msgid "Professor Patchouli Knowledge"
+msgstr "パチュリー・ノーレッジ教授"
+
+#. Static markup / page composition: attribute.professorNitoriKawashiro
+#: src/sections/faculty.html:102
+msgctxt "text:attribute.professorNitoriKawashiro"
+msgid "Professor Nitori Kawashiro"
+msgstr "河城にとり教授"
+
+#. Static markup / page composition: attribute.professorMarisaKirisame
+#: src/sections/faculty.html:76
+msgctxt "text:attribute.professorMarisaKirisame"
+msgid "Professor Marisa Kirisame"
+msgstr "霧雨魔理沙教授"
+
+#. Static markup / page composition: attribute.touhouUniversityWinterAndSummerUniforms
+#: src/sections/traditions.html:31
+msgctxt "text:attribute.touhouUniversityWinterAndSummerUniforms"
+msgid "Touhou University winter and summer uniforms"
+msgstr "東方大学の冬服と夏服"
+
+#. Static markup / page composition: attribute.studentsWatchSpellCardFireworksBeneathShrineGatesAndCherryTreesAt
+#: src/sections/campus.html:56
+msgctxt "text:attribute.studentsWatchSpellCardFireworksBeneathShrineGatesAndCherryTreesAt"
+msgid ""
+"Students watch spell-card fireworks beneath shrine gates and cherry trees at "
+"the night festival"
+msgstr "夜の学園灯会で鳥居と桜の下からスペルカード形の花火を見る学生"
+
+#. Static markup / page composition: attribute.studentsTestHydropowerMachineryAtAKappaWorkshopBesideAYoukaiMount
+#: src/sections/campus.html:38
+msgctxt "text:attribute.studentsTestHydropowerMachineryAtAKappaWorkshopBesideAYoukaiMount"
+msgid ""
+"Students test hydropower machinery at a kappa workshop beside a Youkai "
+"Mountain waterfall"
+msgstr "妖怪の山の滝そばの河童工房で水力機械を試験する学生"
+
+#. Static markup / page composition: attribute.warmLightFillsTheLongTablesShelvesAndBrassOrreryOfMistyLakeLibrar
+#: src/sections/campus.html:20
+msgctxt "text:attribute.warmLightFillsTheLongTablesShelvesAndBrassOrreryOfMistyLakeLibrar"
+msgid ""
+"Warm light fills the long tables, shelves, and brass orrery of Misty Lake "
+"Library at dusk"
+msgstr "夕暮れの霧の湖図書館、長机と書架と真鍮の天球儀を暖かな光が照らす"
+
+#. Static markup / page composition: attribute.viewMistyLakeLibraryNightReadingDetails
+#: src/sections/campus.html:31
+msgctxt "text:attribute.viewMistyLakeLibraryNightReadingDetails"
+msgid "View Misty Lake Library night-reading details"
+msgstr "霧の湖図書館・夜間閲覧の詳細を見る"
+
+#. Static markup / page composition: attribute.viewKappaJointWorkshopDetails
+#: src/sections/campus.html:49
+msgctxt "text:attribute.viewKappaJointWorkshopDetails"
+msgid "View Kappa Joint Workshop details"
+msgstr "河童共同工房の詳細を見る"
+
+#. Static markup / page composition: attribute.viewSpringSpellCardLanternFestivalDetails
+#: src/sections/campus.html:67
+msgctxt "text:attribute.viewSpringSpellCardLanternFestivalDetails"
+msgid "View Spring Spell-card Lantern Festival details"
+msgstr "春季スペルカード灯会の詳細を見る"
+
+#. Static markup / page composition: attribute.searchTheSite
+#: src/js/i18n.js:1
+msgctxt "text:attribute.searchTheSite"
+msgid "Search the site"
+msgstr "サイト内検索"
+
+#. Static markup / page composition: attribute.searchSearchTheSite
+#: src/js/i18n.js:1
+msgctxt "text:attribute.searchSearchTheSite"
+msgid "SEARCH / Search the site"
+msgstr "SEARCH / サイト内検索"
+
+#. Static markup / page composition: attribute.closeSiteSearch
+#: src/sections/dialogs.html:111
+msgctxt "text:attribute.closeSiteSearch"
+msgid "Close site search"
+msgstr "サイト内検索を閉じる"
+
+#. Static markup / page composition: attribute.closeUniversityDocument
+#: src/sections/dialogs.html:134
+msgctxt "text:attribute.closeUniversityDocument"
+msgid "Close university document"
+msgstr "学務文書を閉じる"
+
+#. Static markup / page composition: attribute.closeRegistrarDocument
+#: src/sections/dialogs.html:143
+msgctxt "text:attribute.closeRegistrarDocument"
+msgid "Close registrar document"
+msgstr "教務書類を閉じる"
+
+#. Static markup / page composition: attribute.closeTranscript
+#: src/sections/dialogs.html:152
+msgctxt "text:attribute.closeTranscript"
+msgid "Close transcript"
+msgstr "成績表を閉じる"
+
+#. Static markup / page composition: attribute.universityChronicle
+#: src/sections/dialogs.html:126
+msgctxt "text:attribute.universityChronicle"
+msgid "University chronicle"
+msgstr "大学史記録"
+
+#. Static markup / page composition: attribute.closeUniversityChronicle
+#: src/sections/dialogs.html:127
+msgctxt "text:attribute.closeUniversityChronicle"
+msgid "Close university chronicle"
+msgstr "大学史記録を閉じる"
+
+#. Static markup / page composition: attribute.closeLibraryReceipt
+#: src/sections/dialogs.html:161
+msgctxt "text:attribute.closeLibraryReceipt"
+msgid "Close library receipt"
+msgstr "貸出票を閉じる"
+
+#. Static markup / page composition: attribute.pageLocation
+#: src/js/i18n.js:1
+msgctxt "text:attribute.pageLocation"
+msgid "Page location"
+msgstr "現在位置"
+
+#. Static markup / page composition: navSevenSchools
+#: site.config.mjs:29
+msgctxt "text:navSevenSchools"
+msgid "Seven schools"
+msgstr "七つの学部"
+
+#. Static markup / page composition: navAdmissionsGuide
+#: site.config.mjs:44
+msgctxt "text:navAdmissionsGuide"
+msgid "Admissions guide"
+msgstr "入学案内"
+
+#. Static markup / page composition: navUnifiedExam
+#: site.config.mjs:44
+msgctxt "text:navUnifiedExam"
+msgid "Unified examination"
+msgstr "統一試験"
+
+#. Static markup / page composition: ethicsMastheadLead
+#: site.config.mjs:93
+msgctxt "text:ethicsMastheadLead"
+msgid ""
+"Ability is not consent. Five desks record their blocks, conditions, and "
+"minority opinions separately."
+msgstr "できることは同意を得たことではない。五席が差止め、条件、少数意見をそれぞれ記録する。"
+
+#. Static markup / page composition: navEthicsCases
+#: site.config.mjs:94
+msgctxt "text:navEthicsCases"
+msgid "Case shelf"
+msgstr "案件棚"
+
+#. Static markup / page composition: navEthicsSubmission
+#: site.config.mjs:94
+msgctxt "text:navEthicsSubmission"
+msgid "Submission desk"
+msgstr "審査提出机"
+
+#. Static markup / page composition: navMyEthicsFiles
+#: site.config.mjs:94
+msgctxt "text:navMyEthicsFiles"
+msgid "My ethics files"
+msgstr "自分の倫理記録"
+
+#. Static markup / page composition: festivalMastheadTitle
+#: site.config.mjs:121
+msgctxt "text:festivalMastheadTitle"
+msgid "Spring Spell-card Lantern / Boundary Festival Operations"
+msgstr "春季スペルカード灯会／境界開学祭運営室"
+
+#. Static markup / page composition: navFestivalSchedule
+#: site.config.mjs:124
+msgctxt "text:navFestivalSchedule"
+msgid "Operations schedule"
+msgstr "運営日程机"
+
+#. Static markup / page composition: fieldworkMastheadLead
+#: site.config.mjs:138
+msgctxt "text:fieldworkMastheadLead"
+msgid ""
+"Scarlet Mansion duty books, Hakugyokurou ghost registers, and Kourindou "
+"drift objects do not become credits on their own. Obtain a dispatch, then "
+"bring the dispute back intact."
+msgstr "紅魔館の当番簿も白玉楼の幽霊名簿も香霖堂の漂流物も、そのまま単位にはならない。派遣令を受け、争議を欠かさず持ち帰ること。"
+
+#. Static markup / page composition: commonsMastheadTitle
+#: site.config.mjs:151
+msgctxt "text:commonsMastheadTitle"
+msgid "Property, Lost Objects & Campus Post"
+msgstr "物権・落とし物・学内郵便"
+
+#. Static markup / page composition: commonsMastheadLead
+#: site.config.mjs:153
+msgctxt "text:commonsMastheadLead"
+msgid ""
+"Objects may deny being lost, and letters may arrive before their contents. "
+"At least give provenance, objections, and corrections a place to sit."
+msgstr "物は紛失を否認し、手紙は内容より先に届く。それでも来歴、異議、訂正には席を用意する。"
+
+#. Static markup / page composition: navLostProperty
+#: site.config.mjs:154
+msgctxt "text:navLostProperty"
+msgid "Lost objects & property"
+msgstr "落とし物と物権"
+
+#. Static markup / page composition: navMyHearings
+#: site.config.mjs:154
+msgctxt "text:navMyHearings"
+msgid "My hearings"
+msgstr "自分の聴聞"
+
+#. Static markup / page composition: navTenguPost
+#: site.config.mjs:154
+msgctxt "text:navTenguPost"
+msgid "Crow-tengu post"
+msgstr "鴉天狗郵便"
+
+#. Static markup / page composition: navSendNotice
+#: site.config.mjs:154
+msgctxt "text:navSendNotice"
+msgid "Send a notice"
+msgstr "通知を発送"
+
+#. Static markup / page composition: calendarMastheadLead
+#: site.config.mjs:168
+msgctxt "text:calendarMastheadLead"
+msgid ""
+"Dates arrange; moon phases alter. If spring is delayed, file separate "
+"complaints with Hakugyokurou and the academic calendar desk."
+msgstr "日付は並べ、月相は変える。春が遅れた場合は白玉楼と学務暦係へそれぞれ申し立てること。"
+
+#. Static markup / page composition: navFullCalendar
+#: site.config.mjs:169
+msgctxt "text:navFullCalendar"
+msgid "Year calendar"
+msgstr "年間暦"
+
+#. Static markup / page composition: navTodayCalendar
+#: site.config.mjs:169
+msgctxt "text:navTodayCalendar"
+msgid "Today’s calendar"
+msgstr "今日の暦"
+
+#. Static markup / page composition: navMyCalendarLeaves
+#: site.config.mjs:169
+msgctxt "text:navMyCalendarLeaves"
+msgid "My calendar leaves"
+msgstr "自分の暦葉"
+
+#. Static markup / page composition: navLiveCampus
+#: site.config.mjs:205
+msgctxt "text:navLiveCampus"
+msgid "Live campus"
+msgstr "キャンパス運行"
+
+#. Static markup / page composition: navGovernance
+#: site.config.mjs:205
+msgctxt "text:navGovernance"
+msgid "University governance"
+msgstr "学務運営"
+
+#. Static markup / page composition: mytuMastheadTitle
+#: site.config.mjs:217
+msgctxt "text:mytuMastheadTitle"
+msgid "Student Records, Coursework, Defence & Campus History"
+msgstr "学籍・課業・答弁・キャンパス履歴"
+
+#. Static markup / page composition: mytuMastheadLead
+#: site.config.mjs:219
+msgctxt "text:mytuMastheadLead"
+msgid ""
+"This device remembers your applications, examinations, courses, answers, "
+"grades, and defences. The records can stay in your browser."
+msgstr "この端末が出願、試験、科目、答案、成績、答弁を記録する。資料をブラウザーの外へ出す必要はない。"
+
+#. Static markup / page composition: navStudentRecords
+#: site.config.mjs:220
+msgctxt "text:navStudentRecords"
+msgid "Student records"
+msgstr "学籍窓口"
+
+#. Static markup / page composition: navCoursesGrades
+#: site.config.mjs:220
+msgctxt "text:navCoursesGrades"
+msgid "Courses & grades"
+msgstr "履修と成績"
+
+#. Static markup / page composition: navCourseworkDesk
+#: site.config.mjs:220
+msgctxt "text:navCourseworkDesk"
+msgid "Coursework desk"
+msgstr "課業机"
+
+#. Static markup / page composition: navTranscript
+#: site.config.mjs:220
+msgctxt "text:navTranscript"
+msgid "Transcript"
+msgstr "成績表"
+
+#. Static markup / page composition: navThesisSpellcardDefence
+#: site.config.mjs:220
+msgctxt "text:navThesisSpellcardDefence"
+msgid "Thesis / spell-card defence"
+msgstr "論文／スペルカード答弁"
+
+#. Static markup / page composition: navLibraryHoldings
+#: site.config.mjs:240
+msgctxt "text:navLibraryHoldings"
+msgid "Holdings & borrowing"
+msgstr "蔵書と貸出"
+
+#. Static markup / page composition: navBeginConsultation
+#: site.config.mjs:260
+msgctxt "text:navBeginConsultation"
+msgid "Begin a consultation"
+msgstr "診療を始める"
+
+#. Static markup / page composition: hiedaMastheadLead
+#: site.config.mjs:304
+msgctxt "text:hiedaMastheadLead"
+msgid ""
+"One event takes different forms in dossiers, equipment, news, rules, BBS, "
+"and your on-device history. Akyuu keeps the red thread between them."
+msgstr "同じ出来事も案巻、設備、新聞、規程、BBS、端末内履歴で書き方が違う。阿求はその赤糸を残す。"
+
+#. Static markup / page composition: navByEvent
+#: site.config.mjs:305
+msgctxt "text:navByEvent"
+msgid "By event"
+msgstr "出来事から"
+
+#. Static markup / page composition: navByCharacter
+#: site.config.mjs:305
+msgctxt "text:navByCharacter"
+msgid "By character"
+msgstr "人物から"
+
+#. Static markup / page composition: navByVersion
+#: site.config.mjs:305
+msgctxt "text:navByVersion"
+msgid "By version / time"
+msgstr "版・時刻から"

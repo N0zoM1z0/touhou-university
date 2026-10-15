@@ -1,0 +1,782 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/eyebrow"
+msgid "FIELDWORK PASSPORT / DOMESTIC PLACEMENT × FIELD INQUIRY"
+msgstr "FIELDWORK PASSPORT / DOMESTIC PLACEMENT × FIELD INQUIRY"
+
+#. copy/title
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/title"
+msgid "A map says how to go. A passport remembers why, what you saw, and who disagreed."
+msgstr "A map says how to go. A passport remembers why, what you saw, and who disagreed."
+
+#. copy/lead
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/lead"
+msgid ""
+"Twenty-four stations have their own entry rules, supervisors, and "
+"complications. Obtain dispatch, check in, respond when something refuses to "
+"follow the plan, then return with observations, provenance, and a decision "
+"on research use."
+msgstr ""
+"Twenty-four stations have their own entry rules, supervisors, and "
+"complications. Obtain dispatch, check in, respond when something refuses to "
+"follow the plan, then return with observations, provenance, and a decision "
+"on research use."
+
+#. copy/stationsTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/stationsTab"
+msgid "Twenty-four stations"
+msgstr "Twenty-four stations"
+
+#. copy/dispatchTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/dispatchTab"
+msgid "Dispatch desk"
+msgstr "Dispatch desk"
+
+#. copy/passportTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/passportTab"
+msgid "My passport"
+msgstr "My passport"
+
+#. copy/recordsTab
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/recordsTab"
+msgid "Dispatch & returns"
+msgstr "Dispatch & returns"
+
+#. copy/stations
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/stations"
+msgid "stations"
+msgstr "stations"
+
+#. copy/stamps
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/stamps"
+msgid "field seals"
+msgstr "field seals"
+
+#. copy/hours
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/hours"
+msgid "hours"
+msgstr "hours"
+
+#. copy/credits
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/credits"
+msgid "field credits"
+msgstr "field credits"
+
+#. copy/active
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/active"
+msgid "on duty"
+msgstr "on duty"
+
+#. copy/routeDesk
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/routeDesk"
+msgid "Today's route desk"
+msgstr "Today's route desk"
+
+#. copy/routeNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/routeNote"
+msgid "Moon, duty band, and mode change estimates; 'soon' is not a unit of time."
+msgstr "Moon, duty band, and mode change estimates; 'soon' is not a unit of time."
+
+#. copy/search
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/search"
+msgid "Search station, supervisor, or work"
+msgstr "Search station, supervisor, or work"
+
+#. copy/allRegions
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/allRegions"
+msgid "All regions"
+msgstr "All regions"
+
+#. copy/allDisciplines
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/allDisciplines"
+msgid "All fields"
+msgstr "All fields"
+
+#. copy/show
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/show"
+msgid "Open station file"
+msgstr "Open station file"
+
+#. copy/apply
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/apply"
+msgid "Prepare dispatch here"
+msgstr "Prepare dispatch here"
+
+#. copy/mapHint
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/mapHint"
+msgid "Choose a wooden seal; the place may not retain the map's opinion."
+msgstr "Choose a wooden seal; the place may not retain the map's opinion."
+
+#. copy/supervisor
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/supervisor"
+msgid "Field supervisor"
+msgstr "Field supervisor"
+
+#. copy/companion
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/companion"
+msgid "Collaborator / source of trouble"
+msgstr "Collaborator / source of trouble"
+
+#. copy/shift
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/shift"
+msgid "Duty window"
+msgstr "Duty window"
+
+#. copy/risk
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/risk"
+msgid "Risk & stopping"
+msgstr "Risk & stopping"
+
+#. copy/access
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/access"
+msgid "Entry rule"
+msgstr "Entry rule"
+
+#. copy/ethics
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/ethics"
+msgid "Field ethics"
+msgstr "Field ethics"
+
+#. copy/equipment
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/equipment"
+msgid "Listed equipment"
+msgstr "Listed equipment"
+
+#. copy/tasks
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/tasks"
+msgid "Available work"
+msgstr "Available work"
+
+#. copy/wrinkle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/wrinkle"
+msgid "Marginal forecast"
+msgstr "Marginal forecast"
+
+#. copy/travel
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/travel"
+msgid "Travel mode"
+msgstr "Travel mode"
+
+#. copy/estimated
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/estimated"
+msgid "Estimated"
+msgstr "Estimated"
+
+#. copy/min
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/min"
+msgid "min"
+msgstr "min"
+
+#. copy/moon
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/moon"
+msgid "Today's moon"
+msgstr "Today's moon"
+
+#. copy/duty
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/duty"
+msgid "Duty band"
+msgstr "Duty band"
+
+#. copy/dispatchTitle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/dispatchTitle"
+msgid "Complete domestic-placement dispatch"
+msgstr "Complete domestic-placement dispatch"
+
+#. copy/station
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/station"
+msgid "Station"
+msgstr "Station"
+
+#. copy/fieldName
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/fieldName"
+msgid "Passport signature / duty name"
+msgstr "Passport signature / duty name"
+
+#. copy/purpose
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/purpose"
+msgid "Field question for this visit"
+msgstr "Field question for this visit"
+
+#. copy/purposePlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/purposePlaceholder"
+msgid ""
+"Example: compare the Scarlet duty log and relative timeline while retaining "
+"disagreement."
+msgstr ""
+"Example: compare the Scarlet duty log and relative timeline while retaining "
+"disagreement."
+
+#. copy/departure
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/departure"
+msgid "Planned departure"
+msgstr "Planned departure"
+
+#. copy/ability
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/ability"
+msgid "Ability-use plan"
+msgstr "Ability-use plan"
+
+#. copy/emergency
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/emergency"
+msgid "Return / exit plan"
+msgstr "Return / exit plan"
+
+#. copy/chooseGear
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/chooseGear"
+msgid "Carried equipment (missing items create conditions; they are not treated as packed)"
+msgstr "Carried equipment (missing items create conditions; they are not treated as packed)"
+
+#. copy/acknowledge
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/acknowledge"
+msgid ""
+"I have read this station's risk, entry, and ethics notes. People, youkai, "
+"gods, spirits, and objects may still refuse."
+msgstr ""
+"I have read this station's risk, entry, and ethics notes. People, youkai, "
+"gods, spirits, and objects may still refuse."
+
+#. copy/submit
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/submit"
+msgid "Submit to dispatch"
+msgstr "Submit to dispatch"
+
+#. copy/clear
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/clear"
+msgid "New blank order"
+msgstr "New blank order"
+
+#. copy/purposeError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/purposeError"
+msgid "Write at least twelve characters of a field question; 'look around' returns unchanged."
+msgstr "Write at least twelve characters of a field question; 'look around' returns unchanged."
+
+#. copy/ethicsError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/ethicsError"
+msgid "Confirm the field ethics and refusal rule."
+msgstr "Confirm the field ethics and refusal rule."
+
+#. copy/activeError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/activeError"
+msgid "A passport is already in the field. Return for stamping before opening another route."
+msgstr "A passport is already in the field. Return for stamping before opening another route."
+
+#. copy/approved
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/approved"
+msgid "Dispatch approved"
+msgstr "Dispatch approved"
+
+#. copy/conditional
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/conditional"
+msgid "Conditional dispatch"
+msgstr "Conditional dispatch"
+
+#. copy/conditions
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/conditions"
+msgid "Pre-departure annex"
+msgstr "Pre-departure annex"
+
+#. copy/permit
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/permit"
+msgid "Domestic Placement Dispatch Order"
+msgstr "Domestic Placement Dispatch Order"
+
+#. copy/permitLead
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/permitLead"
+msgid "This paper permits work; it does not permit bringing home everything you see."
+msgstr "This paper permits work; it does not permit bringing home everything you see."
+
+#. copy/printPermit
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/printPermit"
+msgid "Print dispatch / Save PDF"
+msgstr "Print dispatch / Save PDF"
+
+#. copy/checkin
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/checkin"
+msgid "Verify entry and begin duty"
+msgstr "Verify entry and begin duty"
+
+#. copy/checkinNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/checkinNote"
+msgid "Check-in reveals the complication this station kept for today."
+msgstr "Check-in reveals the complication this station kept for today."
+
+#. copy/fieldCase
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/fieldCase"
+msgid "Field deviation report"
+msgstr "Field deviation report"
+
+#. copy/chooseResponse
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/chooseResponse"
+msgid "Choose a first response. None turns the field into a tidy success score."
+msgstr "Choose a first response. None turns the field into a tidy success score."
+
+#. copy/responded
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/responded"
+msgid "First response entered into provenance"
+msgstr "First response entered into provenance"
+
+#. copy/returnLog
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/returnLog"
+msgid "Return observation & source report"
+msgstr "Return observation & source report"
+
+#. copy/observation
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/observation"
+msgid "Direct observation / work completed"
+msgstr "Direct observation / work completed"
+
+#. copy/observationPlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/observationPlaceholder"
+msgid "Separate seen, reported, and inferred. You may explicitly retain the unknown."
+msgstr "Separate seen, reported, and inferred. You may explicitly retain the unknown."
+
+#. copy/sourceKind
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourceKind"
+msgid "Primary source form"
+msgstr "Primary source form"
+
+#. copy/sourceNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourceNote"
+msgid "Source, version, and acquisition"
+msgstr "Source, version, and acquisition"
+
+#. copy/sourcePlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourcePlaceholder"
+msgid ""
+"Who said it, which version, which instrument, or how the object expressed "
+"itself; not merely 'field data'."
+msgstr ""
+"Who said it, which version, which instrument, or how the object expressed "
+"itself; not merely 'field data'."
+
+#. copy/evidenceCode
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/evidenceCode"
+msgid "Evidence / page / instrument-version code"
+msgstr "Evidence / page / instrument-version code"
+
+#. copy/incident
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/incident"
+msgid "Deviation or incident"
+msgstr "Deviation or incident"
+
+#. copy/incidentNote
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/incidentNote"
+msgid "Incident, medical, consent, or custody annex"
+msgstr "Incident, medical, consent, or custody annex"
+
+#. copy/incidentPlaceholder
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/incidentPlaceholder"
+msgid "With no incident, retain deviation. With one, record stopping and notification."
+msgstr "With no incident, retain deviation. With one, record stopping and notification."
+
+#. copy/research
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/research"
+msgid "May this log become formal research data?"
+msgstr "May this log become formal research data?"
+
+#. copy/complete
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/complete"
+msgid "Submit return and request supervisor seal"
+msgstr "Submit return and request supervisor seal"
+
+#. copy/observationError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/observationError"
+msgid "Observation needs twenty characters; blank cannot testify for the field."
+msgstr "Observation needs twenty characters; blank cannot testify for the field."
+
+#. copy/sourceError
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/sourceError"
+msgid "Leave a traceable source description."
+msgstr "Leave a traceable source description."
+
+#. copy/report
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/report"
+msgid "Return certification & supervisor note"
+msgstr "Return certification & supervisor note"
+
+#. copy/standing
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/standing"
+msgid "Supervisor standing"
+msgstr "Supervisor standing"
+
+#. copy/strengths
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/strengths"
+msgid "What remained well"
+msgstr "What remained well"
+
+#. copy/cautions
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/cautions"
+msgid "What stays beside the seal"
+msgstr "What stays beside the seal"
+
+#. copy/researchDisposition
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/researchDisposition"
+msgid "Research-data disposition"
+msgstr "Research-data disposition"
+
+#. copy/printReport
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/printReport"
+msgid "Print return / Save PDF"
+msgstr "Print return / Save PDF"
+
+#. copy/openBbs
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/openBbs"
+msgid "Open field rumours on BBS"
+msgstr "Open field rumours on BBS"
+
+#. copy/openMap
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/openMap"
+msgid "Open campus departure map"
+msgstr "Open campus departure map"
+
+#. copy/backStations
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/backStations"
+msgid "Back to twenty-four stations"
+msgstr "Back to twenty-four stations"
+
+#. copy/passportTitle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/passportTitle"
+msgid "Domestic Placement & Field Inquiry Passport"
+msgstr "Domestic Placement & Field Inquiry Passport"
+
+#. copy/passportLead
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/passportLead"
+msgid "A seal proves traceable learning returned; it does not prove every dispute was resolved."
+msgstr "A seal proves traceable learning returned; it does not prove every dispute was resolved."
+
+#. copy/noStamps
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/noStamps"
+msgid "No seals yet. The first station file will not walk into the passport by itself."
+msgstr "No seals yet. The first station file will not walk into the passport by itself."
+
+#. copy/distinct
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/distinct"
+msgid "distinct stations"
+msgstr "distinct stations"
+
+#. copy/disciplines
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/disciplines"
+msgid "fields"
+msgstr "fields"
+
+#. copy/researchReady
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/researchReady"
+msgid "research-eligible logs"
+msgstr "research-eligible logs"
+
+#. copy/contestedCount
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/contestedCount"
+msgid "red-thread seals"
+msgstr "red-thread seals"
+
+#. copy/repeated
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/repeated"
+msgid "return visit"
+msgstr "return visit"
+
+#. copy/first
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/first"
+msgid "first visit"
+msgstr "first visit"
+
+#. copy/printPassport
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/printPassport"
+msgid "Print passport / Save PDF"
+msgstr "Print passport / Save PDF"
+
+#. copy/recordsTitle
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/recordsTitle"
+msgid "Dispatch, field duty & return files"
+msgstr "Dispatch, field duty & return files"
+
+#. copy/noRecords
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/noRecords"
+msgid "No dispatch files yet; choose somewhere likely to cause trouble."
+msgstr "No dispatch files yet; choose somewhere likely to cause trouble."
+
+#. copy/openRecord
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/openRecord"
+msgid "Open file"
+msgstr "Open file"
+
+#. copy/statusApproved
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusApproved"
+msgid "Awaiting departure"
+msgstr "Awaiting departure"
+
+#. copy/statusConditional
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusConditional"
+msgid "Conditional · awaiting departure"
+msgstr "Conditional · awaiting departure"
+
+#. copy/statusDeployed
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusDeployed"
+msgid "Field duty"
+msgstr "Field duty"
+
+#. copy/statusResponded
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusResponded"
+msgid "Awaiting return report"
+msgstr "Awaiting return report"
+
+#. copy/statusCompleted
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/statusCompleted"
+msgid "Returned & stamped"
+msgstr "Returned & stamped"
+
+#. copy/copied
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/copied"
+msgid "Passport-file link copied."
+msgstr "Passport-file link copied."
+
+#. copy/shared
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/shared"
+msgid "Copy file link"
+msgstr "Copy file link"
+
+#. copy/clearStanding
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/clearStanding"
+msgid "Clear & traceable"
+msgstr "Clear & traceable"
+
+#. copy/conditionalStanding
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/conditionalStanding"
+msgid "Retained with conditions"
+msgstr "Retained with conditions"
+
+#. copy/contestedStanding
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/contestedStanding"
+msgid "Dispute travels with seal"
+msgstr "Dispute travels with seal"
+
+#. copy/saveHint
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/saveHint"
+msgid ""
+"Draft stays on this device. Dispatch, response, observation, and seals enter "
+"the records cabinet and My TU."
+msgstr ""
+"Draft stays on this device. Dispatch, response, observation, and seals enter "
+"the records cabinet and My TU."
+
+#. copy/issued
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/issued"
+msgid "Dispatch saved; the site may still add today's condition."
+msgstr "Dispatch saved; the site may still add today's condition."
+
+#. copy/departed
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/departed"
+msgid "Entry verified. The field now stops following the plan."
+msgstr "Entry verified. The field now stops following the plan."
+
+#. copy/handled
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/handled"
+msgid "Response entered on the field slip; do not erase the dispute on return."
+msgstr "Response entered on the field slip; do not erase the dispute on return."
+
+#. copy/completedToast
+#: src/js/fieldwork.js:47
+msgctxt "tree:copy#/completedToast"
+msgid "Return certified; seal and red thread entered the passport."
+msgstr "Return certified; seal and red thread entered the passport."
+
+#. abilityOptions.none
+#: src/js/fieldwork.js:50
+msgctxt "text:abilityOptions.none"
+msgid "No ability use"
+msgstr "No ability use"
+
+#. abilityOptions.declared
+#: src/js/fieldwork.js:51
+msgctxt "text:abilityOptions.declared"
+msgid "Purpose and stop command declared"
+msgstr "Purpose and stop command declared"
+
+#. abilityOptions.supervised
+#: src/js/fieldwork.js:52
+msgctxt "text:abilityOptions.supervised"
+msgid "Supervisor-present use only"
+msgstr "Supervisor-present use only"
+
+#. abilityOptions.sealed
+#: src/js/fieldwork.js:53
+msgctxt "text:abilityOptions.sealed"
+msgid "Sealed before departure; jointly released after return"
+msgstr "Sealed before departure; jointly released after return"
+
+#. emergencyOptions.return-bell
+#: src/js/fieldwork.js:57
+msgctxt "text:emergencyOptions.return-bell"
+msgid "Three-tone return bell"
+msgstr "Three-tone return bell"
+
+#. emergencyOptions.buddy-rope
+#: src/js/fieldwork.js:58
+msgctxt "text:emergencyOptions.buddy-rope"
+msgid "Buddy return rope"
+msgstr "Buddy return rope"
+
+#. emergencyOptions.host-escort
+#: src/js/fieldwork.js:59
+msgctxt "text:emergencyOptions.host-escort"
+msgid "Host-escorted exit"
+msgstr "Host-escorted exit"
+
+#. emergencyOptions.clinic-route
+#: src/js/fieldwork.js:60
+msgctxt "text:emergencyOptions.clinic-route"
+msgid "Pre-filed Eientei / infirmary route"
+msgstr "Pre-filed Eientei / infirmary route"
+
+#. reviewItemLabels.observation
+#: src/js/fieldwork.js:78
+msgctxt "text:reviewItemLabels.observation"
+msgid "Direct observation remained separate from inference"
+msgstr "Direct observation remained separate from inference"
+
+#. reviewItemLabels.provenance
+#: src/js/fieldwork.js:79
+msgctxt "text:reviewItemLabels.provenance"
+msgid "The primary source retained a traceable version"
+msgstr "The primary source retained a traceable version"
+
+#. reviewItemLabels.response-chain
+#: src/js/fieldwork.js:80
+msgctxt "text:reviewItemLabels.response-chain"
+msgid "The field response was joined to the provenance chain"
+msgstr "The field response was joined to the provenance chain"
+
+#. reviewItemLabels.research-consent
+#: src/js/fieldwork.js:81
+msgctxt "text:reviewItemLabels.research-consent"
+msgid "Research-use scope was chosen explicitly"
+msgstr "Research-use scope was chosen explicitly"
+
+#. reviewItemLabels.unresolved-dispute
+#: src/js/fieldwork.js:82
+msgctxt "text:reviewItemLabels.unresolved-dispute"
+msgid "The field dispute remains unresolved and must not be rewritten as consensus"
+msgstr "The field dispute remains unresolved and must not be rewritten as consensus"
+
+#. reviewItemLabels.reported-deviation
+#: src/js/fieldwork.js:83
+msgctxt "text:reviewItemLabels.reported-deviation"
+msgid "The deviation or incident annex must travel with the main file"
+msgstr "The deviation or incident annex must travel with the main file"

@@ -1,0 +1,256 @@
+@media (max-width: 780px) {
+  .fieldwork-section {
+    padding-top: 28px;
+  }
+
+  .fieldwork-section .container {
+    width: min(100% - 20px, 1480px);
+  }
+
+  .fieldwork-hero {
+    min-height: 0;
+    grid-template-columns: 1fr;
+    background: var(--field-paper);
+  }
+
+  .fieldwork-hero-copy {
+    padding: 40px 24px;
+  }
+
+  .fieldwork-hero-copy h2 {
+    font-size: clamp(2.35rem, 11vw, 4rem);
+  }
+
+  .fieldwork-hero-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fieldwork-passport-cover {
+    min-height: 380px;
+    background: var(--field-green);
+  }
+
+  .fieldwork-tabs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fieldwork-tabs button:nth-child(2) {
+    border-right: 0;
+  }
+
+  .fieldwork-tabs button:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--field-line);
+  }
+
+  .fieldwork-filters {
+    padding: 18px;
+    grid-template-columns: 1fr;
+  }
+
+  .fieldwork-map-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .fieldwork-map-panel > header {
+    padding: 27px 22px;
+  }
+
+  .fieldwork-map {
+    min-height: 500px;
+  }
+
+  .fieldwork-map-node {
+    width: 36px;
+    height: 36px;
+  }
+
+  .fieldwork-map-key {
+    display: none;
+  }
+
+  .fieldwork-station-grid,
+  .fieldwork-file-grid,
+  .fieldwork-file-lists,
+  .fieldwork-route-chooser,
+  .fieldwork-form-grid,
+  .fieldwork-preview,
+  .fieldwork-response-grid,
+  .fieldwork-return-grid,
+  .fieldwork-review-columns,
+  .fieldwork-permit-grid,
+  .fieldwork-report-grid,
+  .fieldwork-stamp-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fieldwork-station-card,
+  .fieldwork-station-card:nth-child(3n) {
+    min-height: 320px;
+    border-right: 0;
+  }
+
+  .fieldwork-station-file,
+  .fieldwork-dispatch-view,
+  .fieldwork-records,
+  .fieldwork-passport-book,
+  .fieldwork-live-file,
+  .fieldwork-return-form,
+  .fieldwork-official-file {
+    margin: 12px;
+  }
+
+  .fieldwork-file-heading,
+  .fieldwork-dispatch-view > header,
+  .fieldwork-records > header,
+  .fieldwork-return-form > header {
+    padding: 25px 20px;
+  }
+
+  .fieldwork-file-grid section,
+  .fieldwork-file-lists section,
+  .fieldwork-review-columns section {
+    border-right: 0;
+  }
+
+  .fieldwork-file-lead {
+    padding: 25px 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .fieldwork-route-chooser {
+    padding: 25px 20px;
+  }
+
+  .fieldwork-route-slip {
+    grid-template-columns: 1fr auto;
+  }
+
+  .fieldwork-gear {
+    grid-template-columns: 1fr;
+  }
+
+  .fieldwork-gear label {
+    border-right: 0;
+    border-bottom: 1px solid var(--field-line);
+  }
+
+  .fieldwork-gear label:last-child {
+    border-bottom: 0;
+  }
+
+  .fieldwork-file-actions,
+  .fieldwork-form-actions,
+  .fieldwork-document-actions {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .fieldwork-section .paper-button,
+  .fieldwork-section .primary-button {
+    width: 100%;
+  }
+
+  .fieldwork-permit-grid .wide,
+  .fieldwork-report-grid .wide,
+  .fieldwork-form-grid .wide,
+  .fieldwork-return-grid .wide {
+    grid-column: auto;
+  }
+
+  .fieldwork-permit-grid div,
+  .fieldwork-report-grid div {
+    border-right: 0;
+  }
+
+  .fieldwork-permit > footer {
+    grid-template-columns: 1fr;
+  }
+
+  .fieldwork-response-grid button {
+    min-height: 150px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+  }
+
+  .fieldwork-live-file > footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .fieldwork-return-form > header {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .fieldwork-return-form > header span {
+    text-align: left;
+  }
+
+  .fieldwork-passport-meta dl {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fieldwork-record-list article {
+    padding: 20px;
+    grid-template-columns: 45px 1fr;
+  }
+
+  .fieldwork-record-list article > b,
+  .fieldwork-record-list article > button {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+
+@media (max-width: 430px) {
+  .fieldwork-hero-copy {
+    padding: 34px 20px;
+  }
+
+  .fieldwork-hero-copy h2 {
+    font-size: 2.45rem;
+  }
+
+  .fieldwork-hero-copy > span {
+    font-size: 0.96rem;
+  }
+
+  .fieldwork-map {
+    min-height: 440px;
+  }
+
+  .fieldwork-map-node {
+    width: 32px;
+    height: 32px;
+  }
+
+  .fieldwork-map-node small {
+    display: none;
+  }
+
+  .fieldwork-route-slip {
+    grid-template-columns: 1fr;
+  }
+
+  .fieldwork-route-slip > div {
+    justify-content: flex-start;
+  }
+
+  .fieldwork-route-slip dl {
+    grid-template-columns: 1fr;
+  }
+
+  .fieldwork-passport-meta dl {
+    grid-template-columns: 1fr;
+  }
+
+  .fieldwork-passport-book > header {
+    padding: 35px 22px;
+  }
+
+  .fieldwork-passport-book > header > b {
+    width: 55px;
+    height: 55px;
+    font-size: 1.4rem;
+  }
+}

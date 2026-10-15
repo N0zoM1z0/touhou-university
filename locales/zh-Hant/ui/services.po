@@ -1,0 +1,646 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/application/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/application/0"
+msgid "ONLINE APPLICATION / 2026"
+msgstr "ONLINE APPLICATION / 2026"
+
+#. copy/application/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/application/1"
+msgid "Online Application"
+msgstr "線上入學申請"
+
+#. copy/application/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/application/2"
+msgid "Save in stages. Submission creates an internal application reference."
+msgstr "申請可分次儲存。提交後會取得一組校內受理編號。"
+
+#. copy/availability/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/availability/0"
+msgid "ROOM FINDER / LIVE"
+msgstr "ROOM FINDER / LIVE"
+
+#. copy/availability/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/availability/1"
+msgid "Room Availability"
+msgstr "館舍空閒查詢"
+
+#. copy/availability/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/availability/2"
+msgid "Find classrooms, seminar rooms, and workshops currently available by building."
+msgstr "依館舍查看目前可使用的教室、研討室與工房。"
+
+#. copy/visit/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/visit/0"
+msgid "CAMPUS VISIT / RESERVATION"
+msgstr "CAMPUS VISIT / RESERVATION"
+
+#. copy/visit/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/visit/1"
+msgid "Campus Visit Reservation"
+msgstr "進校預約"
+
+#. copy/visit/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/visit/2"
+msgid "Choose your arrival route and date. Outside World visitors are checked at Hakurei Gate."
+msgstr "選擇抵達方式與日期；外界訪客由博麗門統一核驗。"
+
+#. copy/dining/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/dining/0"
+msgid "DINING / TODAY"
+msgstr "DINING / TODAY"
+
+#. copy/dining/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/dining/1"
+msgid "Today's Dining Menu"
+msgstr "今日食堂菜單"
+
+#. copy/dining/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/dining/2"
+msgid "Offerings may shift with foraging, lunar phase, and night-sparrow performance times."
+msgstr "供應內容可能依採集、月相與夜雀演出時刻微調。"
+
+#. copy/timetable/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/timetable/0"
+msgid "ACADEMIC AFFAIRS / CLASSES"
+msgstr "ACADEMIC AFFAIRS / CLASSES"
+
+#. copy/timetable/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/timetable/1"
+msgid "Today's Class Schedule"
+msgstr "今日排課"
+
+#. copy/timetable/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/timetable/2"
+msgid "Shared-campus timetable. Room changes are posted fifteen minutes before class."
+msgstr "共同校區課程表。場地變動會於開課前一刻鐘更新。"
+
+#. copy/exams/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/exams/0"
+msgid "ACADEMIC AFFAIRS / EXAMS"
+msgstr "ACADEMIC AFFAIRS / EXAMS"
+
+#. copy/exams/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/exams/1"
+msgid "Examination Schedule"
+msgstr "考試日程"
+
+#. copy/exams/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/exams/2"
+msgid "Check venue rules and permitted materials; flying candidates should allow berthing time."
+msgstr "請同時確認場地規則與可攜資料；飛行考生需預留停泊時間。"
+
+#. copy/name
+#: src/js/services.js:17
+msgctxt "tree:copy#/name"
+msgid "Name or known name"
+msgstr "姓名或通稱"
+
+#. copy/origin
+#: src/js/services.js:17
+msgctxt "tree:copy#/origin"
+msgid "Current residence"
+msgstr "現居地"
+
+#. copy/identity
+#: src/js/services.js:17
+msgctxt "tree:copy#/identity"
+msgid "Species / identity"
+msgstr "種族／身分"
+
+#. copy/school
+#: src/js/services.js:17
+msgctxt "tree:copy#/school"
+msgid "Preferred school"
+msgstr "志願學院"
+
+#. copy/contact
+#: src/js/services.js:17
+msgctxt "tree:copy#/contact"
+msgid "Contact"
+msgstr "聯絡方式"
+
+#. copy/question
+#: src/js/services.js:17
+msgctxt "tree:copy#/question"
+msgid "The question you want to bring"
+msgstr "你想帶進校園的問題"
+
+#. copy/method
+#: src/js/services.js:17
+msgctxt "tree:copy#/method"
+msgid "How you plan to observe it"
+msgstr "你準備如何觀察它"
+
+#. copy/needs
+#: src/js/services.js:17
+msgctxt "tree:copy#/needs"
+msgid "Housing, food, lunar, or safety needs"
+msgstr "住宿、飲食、月相或安全需求"
+
+#. copy/save
+#: src/js/services.js:17
+msgctxt "tree:copy#/save"
+msgid "Save draft"
+msgstr "儲存草稿"
+
+#. copy/submit
+#: src/js/services.js:17
+msgctxt "tree:copy#/submit"
+msgid "Submit application"
+msgstr "提交申請"
+
+#. copy/saved
+#: src/js/services.js:17
+msgctxt "tree:copy#/saved"
+msgid "Draft saved on this device."
+msgstr "草稿已儲存在這台裝置。"
+
+#. copy/accepted
+#: src/js/services.js:17
+msgctxt "tree:copy#/accepted"
+msgid "Application received"
+msgstr "申請已受理"
+
+#. copy/acceptedBody
+#: src/js/services.js:17
+msgctxt "tree:copy#/acceptedBody"
+msgid "Keep this reference; the Admissions Office will use it for the next stage."
+msgstr "請妥善保留受理編號；招生諮詢室將依此安排下一階段。"
+
+#. copy/newApplication
+#: src/js/services.js:17
+msgctxt "tree:copy#/newApplication"
+msgid "Start another application"
+msgstr "填寫另一份申請"
+
+#. copy/myApplications
+#: src/js/services.js:17
+msgctxt "tree:copy#/myApplications"
+msgid "My Applications"
+msgstr "我的申請"
+
+#. copy/localRecords
+#: src/js/services.js:17
+msgctxt "tree:copy#/localRecords"
+msgid "Applications on this device"
+msgstr "本機申請記錄"
+
+#. copy/localRecordsLead
+#: src/js/services.js:17
+msgctxt "tree:copy#/localRecordsLead"
+msgid "Applications and drafts stay in this browser and do not sync to other devices."
+msgstr "申請與草稿只保存在這台裝置，不會同步到其他瀏覽器。"
+
+#. copy/noApplications
+#: src/js/services.js:17
+msgctxt "tree:copy#/noApplications"
+msgid "No applications have been submitted from this device yet."
+msgstr "這台裝置還沒有已提交的申請。"
+
+#. copy/backToForm
+#: src/js/services.js:17
+msgctxt "tree:copy#/backToForm"
+msgid "Back to application"
+msgstr "返回申請表"
+
+#. copy/submitted
+#: src/js/services.js:17
+msgctxt "tree:copy#/submitted"
+msgid "Submitted"
+msgstr "已提交"
+
+#. copy/submittedOn
+#: src/js/services.js:17
+msgctxt "tree:copy#/submittedOn"
+msgid "Submitted"
+msgstr "提交時間"
+
+#. copy/applicationDetail
+#: src/js/services.js:17
+msgctxt "tree:copy#/applicationDetail"
+msgid "View application details"
+msgstr "查看申請內容"
+
+#. copy/deleteRecord
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteRecord"
+msgid "Delete local record"
+msgstr "刪除本機記錄"
+
+#. copy/deleteConfirm
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteConfirm"
+msgid "Delete this application record from this device?"
+msgstr "確定要從這台裝置刪除此申請記錄嗎？"
+
+#. copy/recordDeleted
+#: src/js/services.js:17
+msgctxt "tree:copy#/recordDeleted"
+msgid "Application record deleted from this device."
+msgstr "已刪除這台裝置上的申請記錄。"
+
+#. copy/draftPresent
+#: src/js/services.js:17
+msgctxt "tree:copy#/draftPresent"
+msgid "An autosaved draft is available"
+msgstr "有一份自動儲存的草稿"
+
+#. copy/formAutoSave
+#: src/js/services.js:17
+msgctxt "tree:copy#/formAutoSave"
+msgid "Your entries are autosaved on this device."
+msgstr "填寫內容會自動儲存在這台裝置。"
+
+#. copy/selectedSchool
+#: src/js/services.js:17
+msgctxt "tree:copy#/selectedSchool"
+msgid "Your choice from the school catalogue is preselected; you may still change it."
+msgstr "已從學院目錄帶入志願；仍可在表單中更改。"
+
+#. copy/recordsUnit
+#: src/js/services.js:17
+msgctxt "tree:copy#/recordsUnit"
+msgid "submitted"
+msgstr "份已提交"
+
+#. copy/selectSchool
+#: src/js/services.js:17
+msgctxt "tree:copy#/selectSchool"
+msgid "Select one"
+msgstr "請選擇"
+
+#. copy/consent
+#: src/js/services.js:17
+msgctxt "tree:copy#/consent"
+msgid "I confirm the Admissions Office may use this information for selection."
+msgstr "我確認以上內容可交由招生諮詢室進行選拔審查。"
+
+#. copy/allBuildings
+#: src/js/services.js:17
+msgctxt "tree:copy#/allBuildings"
+msgid "All buildings"
+msgstr "所有館舍"
+
+#. copy/building
+#: src/js/services.js:17
+msgctxt "tree:copy#/building"
+msgid "Building"
+msgstr "館舍"
+
+#. copy/room
+#: src/js/services.js:17
+msgctxt "tree:copy#/room"
+msgid "Room"
+msgstr "房間"
+
+#. copy/type
+#: src/js/services.js:17
+msgctxt "tree:copy#/type"
+msgid "Type"
+msgstr "類型"
+
+#. copy/seats
+#: src/js/services.js:17
+msgctxt "tree:copy#/seats"
+msgid "Seats"
+msgstr "座位"
+
+#. copy/freeUntil
+#: src/js/services.js:17
+msgctxt "tree:copy#/freeUntil"
+msgid "Free until"
+msgstr "可用至"
+
+#. copy/availableNow
+#: src/js/services.js:17
+msgctxt "tree:copy#/availableNow"
+msgid "Available now"
+msgstr "目前可用"
+
+#. copy/liveFacilities
+#: src/js/services.js:17
+msgctxt "tree:copy#/liveFacilities"
+msgid "Live facility board"
+msgstr "此刻館舍開放板"
+
+#. copy/hoursLabel
+#: src/js/services.js:17
+msgctxt "tree:copy#/hoursLabel"
+msgid "Opening hours"
+msgstr "開放時間"
+
+#. copy/openNow
+#: src/js/services.js:17
+msgctxt "tree:copy#/openNow"
+msgid "Open now"
+msgstr "開放中"
+
+#. copy/closedNow
+#: src/js/services.js:17
+msgctxt "tree:copy#/closedNow"
+msgid "Currently closed"
+msgstr "目前閉館"
+
+#. copy/seatsFree
+#: src/js/services.js:17
+msgctxt "tree:copy#/seatsFree"
+msgid "places free"
+msgstr "空位"
+
+#. copy/noRooms
+#: src/js/services.js:17
+msgctxt "tree:copy#/noRooms"
+msgid ""
+"No room is directly available in this period. Check the closure and load "
+"notices above, or wait for the next bell."
+msgstr "這個時段沒有可直接占用的房間；請查看上方閉館與降載通告，或等下一次校鐘。"
+
+#. copy/reading
+#: src/js/services.js:17
+msgctxt "tree:copy#/reading"
+msgid "Reading room"
+msgstr "閱覽室"
+
+#. copy/classroom
+#: src/js/services.js:17
+msgctxt "tree:copy#/classroom"
+msgid "Classroom"
+msgstr "教室"
+
+#. copy/seminar
+#: src/js/services.js:17
+msgctxt "tree:copy#/seminar"
+msgid "Seminar room"
+msgstr "研討室"
+
+#. copy/lab
+#: src/js/services.js:17
+msgctxt "tree:copy#/lab"
+msgid "Laboratory"
+msgstr "實驗室"
+
+#. copy/workshop
+#: src/js/services.js:17
+msgctxt "tree:copy#/workshop"
+msgid "Workshop"
+msgstr "工房"
+
+#. copy/visitor
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitor"
+msgid "Visitor name"
+msgstr "訪客姓名"
+
+#. copy/party
+#: src/js/services.js:17
+msgctxt "tree:copy#/party"
+msgid "Party size"
+msgstr "同行人數"
+
+#. copy/date
+#: src/js/services.js:17
+msgctxt "tree:copy#/date"
+msgid "Visit date"
+msgstr "到訪日期"
+
+#. copy/route
+#: src/js/services.js:17
+msgctxt "tree:copy#/route"
+msgid "Arrival gate"
+msgstr "抵達入口"
+
+#. copy/visitNeeds
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitNeeds"
+msgid "Access and assistance needs"
+msgstr "通行與協助需求"
+
+#. copy/reserve
+#: src/js/services.js:17
+msgctxt "tree:copy#/reserve"
+msgid "Reserve visit"
+msgstr "送出預約"
+
+#. copy/reserved
+#: src/js/services.js:17
+msgctxt "tree:copy#/reserved"
+msgid "Campus visit registered"
+msgstr "進校預約已登記"
+
+#. copy/reservedBody
+#: src/js/services.js:17
+msgctxt "tree:copy#/reservedBody"
+msgid "Arrive fifteen minutes early and present the following passage reference."
+msgstr "請在預約時間前一刻鐘抵達入口，並出示下列通行編號。"
+
+#. copy/saveVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/saveVisit"
+msgid "Save visit draft"
+msgstr "儲存預約草稿"
+
+#. copy/visitSaved
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitSaved"
+msgid "Visit draft saved on this device."
+msgstr "進校預約草稿已保存在這台裝置。"
+
+#. copy/myVisits
+#: src/js/services.js:17
+msgctxt "tree:copy#/myVisits"
+msgid "My Campus Visits"
+msgstr "我的進校預約"
+
+#. copy/visitRecords
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitRecords"
+msgid "Campus visits on this device"
+msgstr "本機進校記錄"
+
+#. copy/visitRecordsLead
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitRecordsLead"
+msgid "Reservations and drafts stay in this browser and do not sync to other devices."
+msgstr "預約與草稿只保存在這台裝置，不會同步到其他瀏覽器。"
+
+#. copy/noVisits
+#: src/js/services.js:17
+msgctxt "tree:copy#/noVisits"
+msgid "No campus visit has been submitted from this device."
+msgstr "這台裝置還沒有已提交的進校預約。"
+
+#. copy/backToVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/backToVisit"
+msgid "Back to visit form"
+msgstr "返回預約表"
+
+#. copy/newVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/newVisit"
+msgid "Reserve another visit"
+msgstr "再預約一次"
+
+#. copy/visitDetail
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitDetail"
+msgid "View access needs"
+msgstr "查看通行需求"
+
+#. copy/deleteVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteVisit"
+msgid "Delete local reservation"
+msgstr "刪除本機預約"
+
+#. copy/deleteVisitConfirm
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteVisitConfirm"
+msgid "Delete this campus-visit reservation from this device?"
+msgstr "確定要從這台裝置刪除此進校預約嗎？"
+
+#. copy/visitDeleted
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitDeleted"
+msgid "Campus-visit reservation deleted from this device."
+msgstr "已刪除這台裝置上的進校預約。"
+
+#. copy/visitDraftPresent
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitDraftPresent"
+msgid "An autosaved visit draft is available"
+msgstr "有一份自動儲存的預約草稿"
+
+#. copy/visitAutoSave
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitAutoSave"
+msgid "Your entries are autosaved on this device."
+msgstr "填寫內容會自動儲存在這台裝置。"
+
+#. copy/visitRecordsUnit
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitRecordsUnit"
+msgid "reserved"
+msgstr "份已預約"
+
+#. copy/menu
+#: src/js/services.js:17
+msgctxt "tree:copy#/menu"
+msgid "Item"
+msgstr "品項"
+
+#. copy/contents
+#: src/js/services.js:17
+msgctxt "tree:copy#/contents"
+msgid "Contents"
+msgstr "內容"
+
+#. copy/price
+#: src/js/services.js:17
+msgctxt "tree:copy#/price"
+msgid "Price"
+msgstr "價格"
+
+#. copy/note
+#: src/js/services.js:17
+msgctxt "tree:copy#/note"
+msgid "Note"
+msgstr "備註"
+
+#. copy/time
+#: src/js/services.js:17
+msgctxt "tree:copy#/time"
+msgid "Time"
+msgstr "時間"
+
+#. copy/course
+#: src/js/services.js:17
+msgctxt "tree:copy#/course"
+msgid "Course"
+msgstr "課程"
+
+#. copy/instructor
+#: src/js/services.js:17
+msgctxt "tree:copy#/instructor"
+msgid "Instructor"
+msgstr "授課教師"
+
+#. copy/change
+#: src/js/services.js:17
+msgctxt "tree:copy#/change"
+msgid "Live change"
+msgstr "現場變更"
+
+#. copy/examination
+#: src/js/services.js:17
+msgctxt "tree:copy#/examination"
+msgid "Examination"
+msgstr "考試"
+
+#. copy/venue
+#: src/js/services.js:17
+msgctxt "tree:copy#/venue"
+msgid "Venue"
+msgstr "場地"
+
+#. copy/format
+#: src/js/services.js:17
+msgctxt "tree:copy#/format"
+msgid "Format"
+msgstr "形式"
+
+#. copy/required
+#: src/js/services.js:17
+msgctxt "tree:copy#/required"
+msgid "Please complete all required fields."
+msgstr "請完成所有必填欄位。"
+
+#. copy/hakureiGate
+#: src/js/services.js:17
+msgctxt "tree:copy#/hakureiGate"
+msgid "Hakurei Gate (walk)"
+msgstr "博麗門（步行）"
+
+#. copy/mountainGate
+#: src/js/services.js:17
+msgctxt "tree:copy#/mountainGate"
+msgid "Youkai Mountain Gate (mountain)"
+msgstr "妖怪山門（山地通行）"
+
+#. copy/mistyPier
+#: src/js/services.js:17
+msgctxt "tree:copy#/mistyPier"
+msgid "Misty Lake Pier (water)"
+msgstr "霧湖碼頭（水路）"
+
+#. copy/skyBerth
+#: src/js/services.js:17
+msgctxt "tree:copy#/skyBerth"
+msgid "Boundary Hall Roof (air)"
+msgstr "境界講堂屋頂（空路）"

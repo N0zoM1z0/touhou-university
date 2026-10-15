@@ -1,0 +1,98 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. entranceRiddles/footer
+#: src/js/phantasm-gate.js:27
+msgctxt "tree:entranceRiddles#/footer"
+msgid "after the signature and before the rights notice"
+msgstr "after the signature and before the rights notice"
+
+#. entranceRiddles/mytu
+#: src/js/phantasm-gate.js:27
+msgctxt "tree:entranceRiddles#/mytu"
+msgid "the ninth row the official record refuses"
+msgstr "the ninth row the official record refuses"
+
+#. entranceRiddles/map
+#: src/js/phantasm-gate.js:27
+msgctxt "tree:entranceRiddles#/map"
+msgid "the rain-opened crease in today's wooden map notice"
+msgstr "the rain-opened crease in today's wooden map notice"
+
+#. entranceRiddles/search
+#: src/js/phantasm-gate.js:27
+msgctxt "tree:entranceRiddles#/search"
+msgid "the next result left after no results"
+msgstr "the next result left after no results"
+
+#. entranceRiddles/bbs
+#: src/js/phantasm-gate.js:27
+msgctxt "tree:entranceRiddles#/bbs"
+msgid "a thread with replies but no author"
+msgstr "a thread with replies but no author"
+
+#. text
+#: src/js/phantasm-gate.js:286
+msgctxt "text:text"
+msgid ""
+"Bell-tower repair slip: boxes one through eight verified; box nine need not "
+"be completed."
+msgstr ""
+"Bell-tower repair slip: boxes one through eight verified; box nine need not "
+"be completed."
+
+#. text
+#: src/js/phantasm-gate.js:288
+msgctxt "text:text.2"
+msgid ""
+"{value0} seals show through the back of the timetable; Academic Affairs "
+"blames thin paper."
+msgstr ""
+"{value0} seals show through the back of the timetable; Academic Affairs "
+"blames thin paper."
+
+#. text
+#: src/js/phantasm-gate.js:290
+msgctxt "text:text.3"
+msgid ""
+"A ninth roll-call row appeared and was crossed out; {value0} marks currently "
+"refuse erasure."
+msgstr ""
+"A ninth roll-call row appeared and was crossed out; {value0} marks currently "
+"refuse erasure."
+
+#. text
+#: src/js/phantasm-gate.js:292
+msgctxt "text:text.4"
+msgid ""
+"The reverse of this page is warm for the present duty bell; moonlight leaks "
+"down from {value0}."
+msgstr ""
+"The reverse of this page is warm for the present duty bell; moonlight leaks "
+"down from {value0}."
+
+#. text
+#: src/js/phantasm-gate.js:294
+msgctxt "text:text.5"
+msgid ""
+"Several wrong doors have worn the paper thin; the next fresh mark may pass "
+"through its reverse."
+msgstr ""
+"Several wrong doors have worn the paper thin; the next fresh mark may pass "
+"through its reverse."
+
+#. text
+#: src/js/phantasm-gate.js:295
+msgctxt "text:text.6"
+msgid ""
+"All six seals are present, but this duty bell opens elsewhere. The lunar "
+"note points to {value0}."
+msgstr ""
+"All six seals are present, but this duty bell opens elsewhere. The lunar "
+"note points to {value0}."

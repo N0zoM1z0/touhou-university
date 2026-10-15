@@ -1,0 +1,952 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/eyebrow"
+msgid "EIENTEI UNIVERSITY HOSPITAL / CAMPUS CARE NETWORK"
+msgstr "EIENTEI UNIVERSITY HOSPITAL / CAMPUS CARE NETWORK"
+
+#. copy/title
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/title"
+msgid "First say what is wrong. The route and medicine may argue later."
+msgstr "First say what is wrong. The route and medicine may argue later."
+
+#. copy/lead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/lead"
+msgid ""
+"The main infirmary handles everyday injuries; Eientei takes cross-species, "
+"lunar, boundary, and magical-material cases. Triage, consultations, "
+"prescriptions, dispensing, and recovery stay on this device."
+msgstr ""
+"The main infirmary handles everyday injuries; Eientei takes cross-species, "
+"lunar, boundary, and magical-material cases. Triage, consultations, "
+"prescriptions, dispensing, and recovery stay on this device."
+
+#. copy/open
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/open"
+msgid "Open now"
+msgstr "Open now"
+
+#. copy/startCare
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/startCare"
+msgid "Start care"
+msgstr "Start care"
+
+#. copy/startCareLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/startCareLead"
+msgid "Begin with a one-minute on-device triage"
+msgstr "Begin with a one-minute on-device triage"
+
+#. copy/load
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/load"
+msgid "Queue load"
+msgstr "Queue load"
+
+#. copy/moon
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/moon"
+msgid "Moon phase"
+msgstr "Moon phase"
+
+#. copy/localRecords
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/localRecords"
+msgid "On-device records"
+msgstr "On-device records"
+
+#. copy/light
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/light"
+msgid "A rabbit-shuttle row is empty"
+msgstr "A rabbit-shuttle row is empty"
+
+#. copy/steady
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/steady"
+msgid "Tokens advancing normally"
+msgstr "Tokens advancing normally"
+
+#. copy/high
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/high"
+msgid "Full-moon diversion active"
+msgstr "Full-moon diversion active"
+
+#. copy/navTriage
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/navTriage"
+msgid "Triage & queue"
+msgstr "Triage & queue"
+
+#. copy/navPharmacy
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/navPharmacy"
+msgid "Pharmacy & prescriptions"
+msgstr "Pharmacy & prescriptions"
+
+#. copy/navRecovery
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/navRecovery"
+msgid "Recovery"
+msgstr "Recovery"
+
+#. copy/navAccount
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/navAccount"
+msgid "My medical file"
+msgstr "My medical file"
+
+#. copy/careNetwork
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/careNetwork"
+msgid "Two care sites and one referral slip Tewi keeps relocating."
+msgstr "Two care sites and one referral slip Tewi keeps relocating."
+
+#. copy/careNetworkLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/careNetworkLead"
+msgid ""
+"Not every scrape requires crossing the Bamboo Forest. Writing “fine” does "
+"not guarantee the infirmary will keep the case."
+msgstr ""
+"Not every scrape requires crossing the Bamboo Forest. Writing “fine” does "
+"not guarantee the infirmary will keep the case."
+
+#. copy/hours
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/hours"
+msgid "Hours"
+msgstr "Hours"
+
+#. copy/scope
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/scope"
+msgid "Scope"
+msgstr "Scope"
+
+#. copy/staff
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/staff"
+msgid "On duty"
+msgstr "On duty"
+
+#. copy/map
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/map"
+msgid "Open Eientei route"
+msgstr "Open Eientei route"
+
+#. copy/waitingBoard
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/waitingBoard"
+msgid "Live waiting board"
+msgstr "Live waiting board"
+
+#. copy/waitingLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/waitingLead"
+msgid ""
+"Duty tokens only. Times shift with lunar phase, live incidents, and "
+"rabbit-shuttle conditions."
+msgstr ""
+"Duty tokens only. Times shift with lunar phase, live incidents, and "
+"rabbit-shuttle conditions."
+
+#. copy/token
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/token"
+msgid "Token"
+msgstr "Token"
+
+#. copy/estimated
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/estimated"
+msgid "Estimated"
+msgstr "Estimated"
+
+#. copy/minutes
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/minutes"
+msgid "min"
+msgstr "min"
+
+#. copy/detail
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/detail"
+msgid "Patient note"
+msgstr "Patient note"
+
+#. copy/takeVisit
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/takeVisit"
+msgid "Enter consultation"
+msgstr "Enter consultation"
+
+#. copy/triage
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/triage"
+msgid "On-device triage"
+msgstr "On-device triage"
+
+#. copy/triageLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/triageLead"
+msgid ""
+"Save and return later. Check-in never requires a My TU identity; an existing "
+"identity adds the record to campus history."
+msgstr ""
+"Save and return later. Check-in never requires a My TU identity; an existing "
+"identity adds the record to campus history."
+
+#. copy/complaint
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/complaint"
+msgid "Which conditions apply now?"
+msgstr "Which conditions apply now?"
+
+#. copy/complaintHint
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/complaintHint"
+msgid "Choose at least one; multiple selections are welcome."
+msgstr "Choose at least one; multiple selections are welcome."
+
+#. copy/intensity
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/intensity"
+msgid "Current impact"
+msgstr "Current impact"
+
+#. copy/intensityOptions/0
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/intensityOptions/0"
+msgid "Can attend class normally"
+msgstr "Can attend class normally"
+
+#. copy/intensityOptions/1
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/intensityOptions/1"
+msgid "Need reduced activity"
+msgstr "Need reduced activity"
+
+#. copy/intensityOptions/2
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/intensityOptions/2"
+msgid "Cannot complete the original plan"
+msgstr "Cannot complete the original plan"
+
+#. copy/intensityOptions/3
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/intensityOptions/3"
+msgid "Symptoms or residue are expanding"
+msgstr "Symptoms or residue are expanding"
+
+#. copy/onset
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/onset"
+msgid "When it began"
+msgstr "When it began"
+
+#. copy/onsetOptions/today
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/onsetOptions/today"
+msgid "Today / just now"
+msgstr "Today / just now"
+
+#. copy/onsetOptions/yesterday
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/onsetOptions/yesterday"
+msgid "Yesterday"
+msgstr "Yesterday"
+
+#. copy/onsetOptions/week
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/onsetOptions/week"
+msgid "One week or longer"
+msgstr "One week or longer"
+
+#. copy/onsetOptions/uncertain
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/onsetOptions/uncertain"
+msgid "Dates disagree"
+msgstr "Dates disagree"
+
+#. copy/mobility
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/mobility"
+msgid "Getting to care"
+msgstr "Getting to care"
+
+#. copy/mobilityOptions/independent
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/mobilityOptions/independent"
+msgid "Can travel independently"
+msgstr "Can travel independently"
+
+#. copy/mobilityOptions/escort
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/mobilityOptions/escort"
+msgid "Need an escort"
+msgstr "Need an escort"
+
+#. copy/mobilityOptions/shuttle
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/mobilityOptions/shuttle"
+msgid "Need an emergency rabbit shuttle"
+msgstr "Need an emergency rabbit shuttle"
+
+#. copy/lunarSensitive
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/lunarSensitive"
+msgid "Moon phase, moonlight, or wavelength makes this worse"
+msgstr "Moon phase, moonlight, or wavelength makes this worse"
+
+#. copy/residueContained
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/residueContained"
+msgid "Danmaku, magic, spores, or seasonal leakage has stopped spreading"
+msgstr "Danmaku, magic, spores, or seasonal leakage has stopped spreading"
+
+#. copy/notes
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/notes"
+msgid "Extra phenomena / material batch / which door is wrong"
+msgstr "Extra phenomena / material batch / which door is wrong"
+
+#. copy/notesPlaceholder
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/notesPlaceholder"
+msgid "Example: mushroom basket has no date; fourth lantern appears only on return…"
+msgstr "Example: mushroom basket has no date; fourth lantern appears only on return…"
+
+#. copy/saveDraft
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/saveDraft"
+msgid "Save triage draft"
+msgstr "Save triage draft"
+
+#. copy/checkIn
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/checkIn"
+msgid "Complete triage & check in"
+msgstr "Complete triage & check in"
+
+#. copy/draftSaved
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/draftSaved"
+msgid "Triage draft saved on this device."
+msgstr "Triage draft saved on this device."
+
+#. copy/visitCreated
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/visitCreated"
+msgid "Checked in; the token is on the waiting board."
+msgstr "Checked in; the token is on the waiting board."
+
+#. copy/needsComplaint
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/needsComplaint"
+msgid "Choose at least one condition so the triage bell knows which desk to call."
+msgstr "Choose at least one condition so the triage bell knows which desk to call."
+
+#. copy/activeVisit
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/activeVisit"
+msgid "Your waiting token"
+msgstr "Your waiting token"
+
+#. copy/priority/routine
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/priority/routine"
+msgid "Routine queue"
+msgstr "Routine queue"
+
+#. copy/priority/priority
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/priority/priority"
+msgid "Priority diversion"
+msgstr "Priority diversion"
+
+#. copy/priority/urgent
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/priority/urgent"
+msgid "Emergency shuttle / immediate care"
+msgstr "Emergency shuttle / immediate care"
+
+#. copy/site
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/site"
+msgid "Recommended site"
+msgstr "Recommended site"
+
+#. copy/wait
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/wait"
+msgid "Estimated wait"
+msgstr "Estimated wait"
+
+#. copy/clinician
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/clinician"
+msgid "Recommended desk"
+msgstr "Recommended desk"
+
+#. copy/clinicians/eirin
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/clinicians/eirin"
+msgid "Eirin Yagokoro"
+msgstr "Eirin Yagokoro"
+
+#. copy/clinicians/reisen
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/clinicians/reisen"
+msgid "Reisen Udongein Inaba"
+msgstr "Reisen Udongein Inaba"
+
+#. copy/clinicians/duty
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/clinicians/duty"
+msgid "Main-campus duty clinician"
+msgstr "Main-campus duty clinician"
+
+#. copy/clinicians/reisen-trainee
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/clinicians/reisen-trainee"
+msgid "Moon-rabbit trainee triage"
+msgstr "Moon-rabbit trainee triage"
+
+#. copy/assessment
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/assessment"
+msgid "Triage assessment"
+msgstr "Triage assessment"
+
+#. copy/consultation
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/consultation"
+msgid "Complete consultation & issue prescription"
+msgstr "Complete consultation & issue prescription"
+
+#. copy/consulted
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/consulted"
+msgid "Consultation complete; prescription sent to the Lunar Pharmacy."
+msgstr "Consultation complete; prescription sent to the Lunar Pharmacy."
+
+#. copy/pharmacyEyebrow
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/pharmacyEyebrow"
+msgid "LUNAR PHARMACY / CAMPUS MEDICINE CABINET"
+msgstr "LUNAR PHARMACY / CAMPUS MEDICINE CABINET"
+
+#. copy/pharmacyTitle
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/pharmacyTitle"
+msgid "The bag may use bells, corners, or daylight. Do not add the units yourself."
+msgstr "The bag may use bells, corners, or daylight. Do not add the units yourself."
+
+#. copy/pharmacyLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/pharmacyLead"
+msgid ""
+"Search twelve Gensokyo medicines and aids, including provenance, directions, "
+"and cautions usually written on the reverse."
+msgstr ""
+"Search twelve Gensokyo medicines and aids, including provenance, directions, "
+"and cautions usually written on the reverse."
+
+#. copy/searchMedicine
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/searchMedicine"
+msgid "Search medicine, use, maker, or caution"
+msgstr "Search medicine, use, maker, or caution"
+
+#. copy/allCategories
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/allCategories"
+msgid "All forms"
+msgstr "All forms"
+
+#. copy/medicineCount
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/medicineCount"
+msgid "medicines / aids"
+msgstr "medicines / aids"
+
+#. copy/noMedicine
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noMedicine"
+msgid "No medicine admits to matching. Tewi suggests the drawer bottom; Pharmacy does not."
+msgstr "No medicine admits to matching. Tewi suggests the drawer bottom; Pharmacy does not."
+
+#. copy/indication
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/indication"
+msgid "Use"
+msgstr "Use"
+
+#. copy/directions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/directions"
+msgid "Directions"
+msgstr "Directions"
+
+#. copy/caution
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/caution"
+msgid "Caution"
+msgstr "Caution"
+
+#. copy/maker
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/maker"
+msgid "Preparation & provenance"
+msgstr "Preparation & provenance"
+
+#. copy/courseUnits
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/courseUnits"
+msgid "Full course"
+msgstr "Full course"
+
+#. copy/units
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/units"
+msgid "records"
+msgstr "records"
+
+#. copy/openMedicine
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/openMedicine"
+msgid "Open medicine file"
+msgstr "Open medicine file"
+
+#. copy/myPrescriptions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/myPrescriptions"
+msgid "My prescriptions"
+msgstr "My prescriptions"
+
+#. copy/noPrescriptions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noPrescriptions"
+msgid ""
+"No prescription yet. Complete triage and consultation so Pharmacy receives a "
+"legible slip."
+msgstr ""
+"No prescription yet. Complete triage and consultation so Pharmacy receives a "
+"legible slip."
+
+#. copy/issued
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/issued"
+msgid "Awaiting collection"
+msgstr "Awaiting collection"
+
+#. copy/dispensed
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/dispensed"
+msgid "Course active"
+msgstr "Course active"
+
+#. copy/completed
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/completed"
+msgid "Complete"
+msgstr "Complete"
+
+#. copy/dispense
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/dispense"
+msgid "Collect prescription"
+msgstr "Collect prescription"
+
+#. copy/recordDose
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/recordDose"
+msgid "Record one"
+msgstr "Record one"
+
+#. copy/doneDose
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/doneDose"
+msgid "Complete"
+msgstr "Complete"
+
+#. copy/dosageRecorded
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/dosageRecorded"
+msgid "Dose recorded in the on-device medicine bag."
+msgstr "Dose recorded in the on-device medicine bag."
+
+#. copy/prescriptionDispensed
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/prescriptionDispensed"
+msgid "Dispensed. Count the medicine, then count Tewi’s tokens again."
+msgstr "Dispensed. Count the medicine, then count Tewi’s tokens again."
+
+#. copy/progress
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/progress"
+msgid "Course progress"
+msgstr "Course progress"
+
+#. copy/printSlip
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/printSlip"
+msgid "Open clinical / prescription slip"
+msgstr "Open clinical / prescription slip"
+
+#. copy/recoveryEyebrow
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/recoveryEyebrow"
+msgid "RECOVERY CORRIDOR"
+msgstr "RECOVERY CORRIDOR"
+
+#. copy/recoveryTitle
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/recoveryTitle"
+msgid "Recovery is not dragging a progress bar to the right."
+msgstr "Recovery is not dragging a progress bar to the right."
+
+#. copy/recoveryLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/recoveryLead"
+msgid ""
+"Every therapy has four independently confirmable steps. Leave halfway and "
+"the original box will still be waiting."
+msgstr ""
+"Every therapy has four independently confirmable steps. Leave halfway and "
+"the original box will still be waiting."
+
+#. copy/prescribedTherapies
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/prescribedTherapies"
+msgid "Consultation suggestions"
+msgstr "Consultation suggestions"
+
+#. copy/therapyClinician
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/therapyClinician"
+msgid "Led by"
+msgstr "Led by"
+
+#. copy/steps
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/steps"
+msgid "Four-step slip"
+msgstr "Four-step slip"
+
+#. copy/startTherapy
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/startTherapy"
+msgid "Start this therapy"
+msgstr "Start this therapy"
+
+#. copy/therapyStarted
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/therapyStarted"
+msgid "Recovery slip created."
+msgstr "Recovery slip created."
+
+#. copy/activePlans
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/activePlans"
+msgid "Active recovery slips"
+msgstr "Active recovery slips"
+
+#. copy/noPlans
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noPlans"
+msgid "No recovery course yet. Start from a prescription suggestion or choose one directly."
+msgstr "No recovery course yet. Start from a prescription suggestion or choose one directly."
+
+#. copy/markStep
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/markStep"
+msgid "Complete & stamp"
+msgstr "Complete & stamp"
+
+#. copy/stepDone
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/stepDone"
+msgid "Complete"
+msgstr "Complete"
+
+#. copy/planComplete
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/planComplete"
+msgid "Recovery course complete. BBS will soon publish another version of “fully recovered.”"
+msgstr "Recovery course complete. BBS will soon publish another version of “fully recovered.”"
+
+#. copy/accountEyebrow
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/accountEyebrow"
+msgid "MY MEDICAL FILE / ON-DEVICE CLINICAL BAG"
+msgstr "MY MEDICAL FILE / ON-DEVICE CLINICAL BAG"
+
+#. copy/accountTitle
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/accountTitle"
+msgid "Queue tokens may be hidden. Clinical slips are not."
+msgstr "Queue tokens may be hidden. Clinical slips are not."
+
+#. copy/accountLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/accountLead"
+msgid ""
+"Check-ins, consultations, prescriptions, each dose, and recovery steps "
+"remain chronological. Retriage does not erase earlier versions."
+msgstr ""
+"Check-ins, consultations, prescriptions, each dose, and recovery steps "
+"remain chronological. Retriage does not erase earlier versions."
+
+#. copy/visits
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/visits"
+msgid "Visits"
+msgstr "Visits"
+
+#. copy/prescriptions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/prescriptions"
+msgid "Prescriptions"
+msgstr "Prescriptions"
+
+#. copy/plans
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/plans"
+msgid "Recovery slips"
+msgstr "Recovery slips"
+
+#. copy/waiting
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/waiting"
+msgid "Waiting"
+msgstr "Waiting"
+
+#. copy/consultedStatus
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/consultedStatus"
+msgid "Consulted"
+msgstr "Consulted"
+
+#. copy/noVisits
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noVisits"
+msgid "No check-in records."
+msgstr "No check-in records."
+
+#. copy/noAccountPrescriptions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noAccountPrescriptions"
+msgid "No prescription records."
+msgstr "No prescription records."
+
+#. copy/noAccountPlans
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/noAccountPlans"
+msgid "No recovery records."
+msgstr "No recovery records."
+
+#. copy/checkedIn
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/checkedIn"
+msgid "Checked in"
+msgstr "Checked in"
+
+#. copy/issuedAt
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/issuedAt"
+msgid "Issued"
+msgstr "Issued"
+
+#. copy/startedAt
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/startedAt"
+msgid "Started"
+msgstr "Started"
+
+#. copy/completedAt
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/completedAt"
+msgid "Completed"
+msgstr "Completed"
+
+#. copy/recordId
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/recordId"
+msgid "Slip reference"
+msgstr "Slip reference"
+
+#. copy/conditions
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/conditions"
+msgid "Complaints"
+msgstr "Complaints"
+
+#. copy/bbsEchoes
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/bbsEchoes"
+msgid "Patient-wall echoes"
+msgstr "Patient-wall echoes"
+
+#. copy/bbsLead
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/bbsLead"
+msgid ""
+"Dispensing and completed therapy generate campus BBS reactions from Pharmacy "
+"and the Recovery Corridor."
+msgstr ""
+"Dispensing and completed therapy generate campus BBS reactions from Pharmacy "
+"and the Recovery Corridor."
+
+#. copy/openBbs
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/openBbs"
+msgid "Open Campus BBS"
+msgstr "Open Campus BBS"
+
+#. copy/receipt/university
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/university"
+msgid "TOUHOU UNIVERSITY OF GENSOKYO · EIENTEI UNIVERSITY HOSPITAL"
+msgstr "TOUHOU UNIVERSITY OF GENSOKYO · EIENTEI UNIVERSITY HOSPITAL"
+
+#. copy/receipt/title
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/title"
+msgid "ON-DEVICE CLINICAL & PRESCRIPTION SLIP"
+msgstr "ON-DEVICE CLINICAL & PRESCRIPTION SLIP"
+
+#. copy/receipt/patient
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/patient"
+msgid "Patient / record"
+msgstr "Patient / record"
+
+#. copy/receipt/visit
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/visit"
+msgid "Visit reference"
+msgstr "Visit reference"
+
+#. copy/receipt/prescription
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/prescription"
+msgid "Prescription reference"
+msgstr "Prescription reference"
+
+#. copy/receipt/site
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/site"
+msgid "Care site"
+msgstr "Care site"
+
+#. copy/receipt/clinician
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/clinician"
+msgid "Clinical desk"
+msgstr "Clinical desk"
+
+#. copy/receipt/issued
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/issued"
+msgid "Issued"
+msgstr "Issued"
+
+#. copy/receipt/medicines
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/medicines"
+msgid "Prescription"
+msgstr "Prescription"
+
+#. copy/receipt/care
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/care"
+msgid "Recovery suggestions"
+msgstr "Recovery suggestions"
+
+#. copy/receipt/note
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/note"
+msgid ""
+"Generated from clinical records in this browser. Losing the queue token does "
+"not alter the slip; Tewi replacing it with a lucky number does not grant "
+"priority care."
+msgstr ""
+"Generated from clinical records in this browser. Losing the queue token does "
+"not alter the slip; Tewi replacing it with a lucky number does not grant "
+"priority care."
+
+#. copy/receipt/print
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/print"
+msgid "Print / save PDF"
+msgstr "Print / save PDF"
+
+#. copy/receipt/close
+#: src/js/clinic.js:39
+msgctxt "tree:copy#/receipt/close"
+msgid "Back to medical file"
+msgstr "Back to medical file"
+
+#. values/0
+#: src/js/clinic.js:74
+msgctxt "tree:values#/0"
+msgid "New Moon"
+msgstr "New Moon"
+
+#. values/1
+#: src/js/clinic.js:74
+msgctxt "tree:values#/1"
+msgid "Waxing Crescent"
+msgstr "Waxing Crescent"
+
+#. values/2
+#: src/js/clinic.js:74
+msgctxt "tree:values#/2"
+msgid "First Quarter"
+msgstr "First Quarter"
+
+#. values/3
+#: src/js/clinic.js:74
+msgctxt "tree:values#/3"
+msgid "Waxing Gibbous"
+msgstr "Waxing Gibbous"
+
+#. values/4
+#: src/js/clinic.js:74
+msgctxt "tree:values#/4"
+msgid "Full Moon"
+msgstr "Full Moon"
+
+#. values/5
+#: src/js/clinic.js:74
+msgctxt "tree:values#/5"
+msgid "Waning Gibbous"
+msgstr "Waning Gibbous"
+
+#. values/6
+#: src/js/clinic.js:74
+msgctxt "tree:values#/6"
+msgid "Last Quarter"
+msgstr "Last Quarter"
+
+#. values/7
+#: src/js/clinic.js:74
+msgctxt "tree:values#/7"
+msgid "Waning Crescent"
+msgstr "Waning Crescent"

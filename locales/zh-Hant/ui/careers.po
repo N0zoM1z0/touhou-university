@@ -1,0 +1,915 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/careers.js:55
+msgctxt "tree:copy#/eyebrow"
+msgid "GRADUATION × CAREERS × HYAKKI YAGYO ALUMNI"
+msgstr "GRADUATION × CAREERS × HYAKKI YAGYO ALUMNI"
+
+#. copy/title
+#: src/js/careers.js:55
+msgctxt "tree:copy#/title"
+msgid "A degree does not solve every problem. It proves you learned to carry one home intact."
+msgstr "學位不會替你解決所有問題；它只證明你已學會把問題完整帶走。"
+
+#. copy/lead
+#: src/js/careers.js:55
+msgctxt "tree:copy#/lead"
+msgid ""
+"Eight desks separately inspect credits, methods, defence, ethics, fieldwork, "
+"books, housing, and disputes. Careers does not promise normal work; Alumni "
+"welcomes questions that outlive graduation."
+msgstr "八個案頭逐一核對學分、方法、答辯、倫理、田野、館藏、退宿與爭議；進路室不承諾工作正常，校友會則歡迎畢業後仍有問題的人。"
+
+#. copy/graduation
+#: src/js/careers.js:55
+msgctxt "tree:copy#/graduation"
+msgid "Graduation audit"
+msgstr "卒業判定"
+
+#. copy/careers
+#: src/js/careers.js:55
+msgctxt "tree:copy#/careers"
+msgid "Careers Office"
+msgstr "進路室"
+
+#. copy/alumni
+#: src/js/careers.js:55
+msgctxt "tree:copy#/alumni"
+msgid "Hyakki Yagyo Alumni"
+msgstr "百鬼夜行校友會"
+
+#. copy/audits
+#: src/js/careers.js:55
+msgctxt "tree:copy#/audits"
+msgid "Audit files"
+msgstr "判定卷"
+
+#. copy/degrees
+#: src/js/careers.js:55
+msgctxt "tree:copy#/degrees"
+msgid "Unsealed degrees"
+msgstr "已開封學位"
+
+#. copy/plans
+#: src/js/careers.js:55
+msgctxt "tree:copy#/plans"
+msgid "Career files"
+msgstr "進路卷"
+
+#. copy/referrals
+#: src/js/careers.js:55
+msgctxt "tree:copy#/referrals"
+msgid "Referrals sent"
+msgstr "已寄推薦"
+
+#. copy/alumniStatus
+#: src/js/careers.js:55
+msgctxt "tree:copy#/alumniStatus"
+msgid "Alumni file"
+msgstr "校友籍"
+
+#. copy/sealed
+#: src/js/careers.js:55
+msgctxt "tree:copy#/sealed"
+msgid "Sealed"
+msgstr "未開封"
+
+#. copy/active
+#: src/js/careers.js:55
+msgctxt "tree:copy#/active"
+msgid "Unsealed"
+msgstr "已開封"
+
+#. copy/auditTitle
+#: src/js/careers.js:55
+msgctxt "tree:copy#/auditTitle"
+msgid "Eight-desk Graduation Board"
+msgstr "八席卒業判定會議"
+
+#. copy/auditLead
+#: src/js/careers.js:55
+msgctxt "tree:copy#/auditLead"
+msgid ""
+"Each desk signs only its own field. Conditions and disputes print unchanged "
+"in the degree file."
+msgstr "每席只簽自己看得懂的部分；附帶條件與爭議會原樣印到學位檔案。"
+
+#. copy/school
+#: src/js/careers.js:55
+msgctxt "tree:copy#/school"
+msgid "School"
+msgstr "申請學院"
+
+#. copy/track
+#: src/js/careers.js:55
+msgctxt "tree:copy#/track"
+msgid "Time & lifespan record"
+msgstr "時間與壽命學籍"
+
+#. copy/enrolmentYear
+#: src/js/careers.js:55
+msgctxt "tree:copy#/enrolmentYear"
+msgid "Enrolment year"
+msgstr "入學年份"
+
+#. copy/graduationYear
+#: src/js/careers.js:55
+msgctxt "tree:copy#/graduationYear"
+msgid "Proposed graduation year"
+msgstr "申請畢業年份"
+
+#. copy/priorCredits
+#: src/js/careers.js:55
+msgctxt "tree:copy#/priorCredits"
+msgid "Earlier registered credits"
+msgstr "過往學期已取得的學分"
+
+#. copy/priorCreditsHelp
+#: src/js/careers.js:55
+msgctxt "tree:copy#/priorCreditsHelp"
+msgid "Only earlier terms absent from this device; provenance is required."
+msgstr "只需填寫這台裝置尚未收錄的過往學期學分，並附上來源。"
+
+#. copy/archiveCores
+#: src/js/careers.js:55
+msgctxt "tree:copy#/archiveCores"
+msgid "Core courses back-entered from old files"
+msgstr "舊卷補記的核心課"
+
+#. copy/provenance
+#: src/js/careers.js:55
+msgctxt "tree:copy#/provenance"
+msgid "Source for earlier credits / cores"
+msgstr "舊學分／核心課來源"
+
+#. copy/provenancePlaceholder
+#: src/js/careers.js:55
+msgctxt "tree:copy#/provenancePlaceholder"
+msgid "Example: Hieda shelf seven, Gensokyo 140 spring transcript rubbing and custodian…"
+msgstr "例如：稗田館第七櫃、幻想曆 140 春季成績拓印與經手人……"
+
+#. copy/attachments
+#: src/js/careers.js:55
+msgctxt "tree:copy#/attachments"
+msgid "I accept unresolved matters as attachments and will not rewrite them as resolved."
+msgstr "我同意把未清事項作為附件保留，不把它們寫成已解決。"
+
+#. copy/libraryDispute
+#: src/js/careers.js:55
+msgctxt "tree:copy#/libraryDispute"
+msgid "Objection when a holding refuses return"
+msgstr "館藏拒絕歸還時的異議說明"
+
+#. copy/checkout
+#: src/js/careers.js:55
+msgctxt "tree:copy#/checkout"
+msgid "Residence departure / delayed move plan"
+msgstr "宿舍退宿／延後搬離方案"
+
+#. copy/dispute
+#: src/js/careers.js:55
+msgctxt "tree:copy#/dispute"
+msgid "Open incident, property, and chronology annex"
+msgstr "未結事件、物權與年代爭議附件"
+
+#. copy/unresolved
+#: src/js/careers.js:55
+msgctxt "tree:copy#/unresolved"
+msgid "What remains worth asking after graduation?"
+msgstr "畢業後仍要繼續追問什麼？"
+
+#. copy/submitAudit
+#: src/js/careers.js:55
+msgctxt "tree:copy#/submitAudit"
+msgid "Submit to all eight desks"
+msgstr "送交八席判定"
+
+#. copy/identityNeeded
+#: src/js/careers.js:55
+msgctxt "tree:copy#/identityNeeded"
+msgid ""
+"Create an on-device My TU identity so the diploma knows which version of you "
+"receives it."
+msgstr "先在 My TU 建立本機學籍，畢業判定才知道要把證書寄給哪一版的你。"
+
+#. copy/openMyTu
+#: src/js/careers.js:55
+msgctxt "tree:copy#/openMyTu"
+msgid "Open My TU"
+msgstr "前往 My TU"
+
+#. copy/recentAudits
+#: src/js/careers.js:55
+msgctxt "tree:copy#/recentAudits"
+msgid "My audit files"
+msgstr "我的判定卷"
+
+#. copy/noAudits
+#: src/js/careers.js:55
+msgctxt "tree:copy#/noAudits"
+msgid "No audit yet. A preliminary audit may fail; its reasons remain."
+msgstr "尚無判定卷。預審可以失敗；失敗的理由也會保存。"
+
+#. copy/statusClear
+#: src/js/careers.js:55
+msgctxt "tree:copy#/statusClear"
+msgid "Cleared"
+msgstr "已清"
+
+#. copy/statusConditional
+#: src/js/careers.js:55
+msgctxt "tree:copy#/statusConditional"
+msgid "Conditional"
+msgstr "附條件"
+
+#. copy/statusContested
+#: src/js/careers.js:55
+msgctxt "tree:copy#/statusContested"
+msgid "Contested"
+msgstr "有爭議"
+
+#. copy/statusMissing
+#: src/js/careers.js:55
+msgctxt "tree:copy#/statusMissing"
+msgid "Missing"
+msgstr "尚缺"
+
+#. copy/outcomeReady
+#: src/js/careers.js:55
+msgctxt "tree:copy#/outcomeReady"
+msgid "Degree may be unsealed"
+msgstr "可以開封學位"
+
+#. copy/outcomeConditional
+#: src/js/careers.js:55
+msgctxt "tree:copy#/outcomeConditional"
+msgid "May unseal with conditions"
+msgstr "可以附條件開封"
+
+#. copy/outcomeContested
+#: src/js/careers.js:55
+msgctxt "tree:copy#/outcomeContested"
+msgid "May unseal with disputes"
+msgstr "可以附爭議開封"
+
+#. copy/outcomeNotReady
+#: src/js/careers.js:55
+msgctxt "tree:copy#/outcomeNotReady"
+msgid "Cannot unseal this round"
+msgstr "本輪不能開封"
+
+#. copy/requirementCredits
+#: src/js/careers.js:55
+msgctxt "tree:copy#/requirementCredits"
+msgid "Credits & core courses"
+msgstr "學分與核心課"
+
+#. copy/requirementMethods
+#: src/js/careers.js:55
+msgctxt "tree:copy#/requirementMethods"
+msgid "Coursework & methods exam"
+msgstr "作業與方法考試"
+
+#. copy/requirementDefence
+#: src/js/careers.js:55
+msgctxt "tree:copy#/requirementDefence"
+msgid "Thesis / spell-card public defence"
+msgstr "論文／符卡公開答辯"
+
+#. copy/requirementEthics
+#: src/js/careers.js:55
+msgctxt "tree:copy#/requirementEthics"
+msgid "Research ethics file"
+msgstr "研究倫理卷宗"
+
+#. copy/requirementFieldwork
+#: src/js/careers.js:55
+msgctxt "tree:copy#/requirementFieldwork"
+msgid "Domestic fieldwork passport"
+msgstr "境內實習與田野護照"
+
+#. copy/requirementLibrary
+#: src/js/careers.js:55
+msgctxt "tree:copy#/requirementLibrary"
+msgid "Library return & object objection"
+msgstr "圖書館歸還與物件異議"
+
+#. copy/requirementHousing
+#: src/js/careers.js:55
+msgctxt "tree:copy#/requirementHousing"
+msgid "Residence departure & transfer"
+msgstr "宿舍退宿與換房案"
+
+#. copy/requirementDisputes
+#: src/js/careers.js:55
+msgctxt "tree:copy#/requirementDisputes"
+msgid "Open incidents, property & chronology"
+msgstr "未結事件、物權與年代"
+
+#. copy/repair
+#: src/js/careers.js:55
+msgctxt "tree:copy#/repair"
+msgid "Complete evidence"
+msgstr "前往補件"
+
+#. copy/printAudit
+#: src/js/careers.js:55
+msgctxt "tree:copy#/printAudit"
+msgid "Print audit file"
+msgstr "列印判定卷"
+
+#. copy/acceptDegree
+#: src/js/careers.js:55
+msgctxt "tree:copy#/acceptDegree"
+msgid "I accept all conditions, minority opinions, and unresolved annexes"
+msgstr "我接受所有附帶條件、少數意見與未結附件"
+
+#. copy/issueDegree
+#: src/js/careers.js:55
+msgctxt "tree:copy#/issueDegree"
+msgid "Unseal degree"
+msgstr "開封學位"
+
+#. copy/issued
+#: src/js/careers.js:55
+msgctxt "tree:copy#/issued"
+msgid "Degree unsealed; Alumni received the roll nine minutes ago."
+msgstr "學位已開封；校友會在你點擊前九分鐘已收到名冊。"
+
+#. copy/auditSaved
+#: src/js/careers.js:55
+msgctxt "tree:copy#/auditSaved"
+msgid "Audit saved. Closing the page does not erase missing evidence."
+msgstr "判定卷已保存。缺件不會因關掉頁面而消失。"
+
+#. copy/errorIdentity
+#: src/js/careers.js:55
+msgctxt "tree:copy#/errorIdentity"
+msgid "An on-device My TU identity is required."
+msgstr "需要 My TU 本機學籍。"
+
+#. copy/errorProvenance
+#: src/js/careers.js:55
+msgctxt "tree:copy#/errorProvenance"
+msgid "Earlier credits or cores need at least 18 characters of provenance."
+msgstr "舊學分或核心課補記需要至少十八字的來源。"
+
+#. copy/errorQuestion
+#: src/js/careers.js:55
+msgctxt "tree:copy#/errorQuestion"
+msgid "Leave a question of at least 12 characters worth pursuing after graduation."
+msgstr "請留下一件至少十二字、畢業後仍值得追問的問題。"
+
+#. copy/errorConditions
+#: src/js/careers.js:55
+msgctxt "tree:copy#/errorConditions"
+msgid "Explicitly accept the conditions and disputed annexes."
+msgstr "請明確接受附帶條件與爭議附件。"
+
+#. copy/degreeTitle
+#: src/js/careers.js:55
+msgctxt "tree:copy#/degreeTitle"
+msgid "Touhou University of Gensokyo Degree"
+msgstr "幻想鄉立東方大學學位證書"
+
+#. copy/standing
+#: src/js/careers.js:55
+msgctxt "tree:copy#/standing"
+msgid "Standing"
+msgstr "判定"
+
+#. copy/issuedAt
+#: src/js/careers.js:55
+msgctxt "tree:copy#/issuedAt"
+msgid "Unsealed"
+msgstr "開封日期"
+
+#. copy/degreeNo
+#: src/js/careers.js:55
+msgctxt "tree:copy#/degreeNo"
+msgid "Degree number"
+msgstr "學位編號"
+
+#. copy/unresolvedQuestion
+#: src/js/careers.js:55
+msgctxt "tree:copy#/unresolvedQuestion"
+msgid "Still unresolved after graduation"
+msgstr "畢業後仍未解決"
+
+#. copy/reverseSide
+#: src/js/careers.js:55
+msgctxt "tree:copy#/reverseSide"
+msgid "Reverse side"
+msgstr "證書背面"
+
+#. copy/reverseTrace
+#: src/js/careers.js:55
+msgctxt "tree:copy#/reverseTrace"
+msgid "Dream courses do not count officially; the paper still shows"
+msgstr "夢境課程不計入正式學分；紙背仍透出"
+
+#. copy/printDegree
+#: src/js/careers.js:55
+msgctxt "tree:copy#/printDegree"
+msgid "Print degree"
+msgstr "列印學位證書"
+
+#. copy/back
+#: src/js/careers.js:55
+msgctxt "tree:copy#/back"
+msgid "Back"
+msgstr "返回"
+
+#. copy/careersTitle
+#: src/js/careers.js:55
+msgctxt "tree:copy#/careersTitle"
+msgid "Careers Office: which trouble is worth taking to work?"
+msgstr "進路室：哪一份麻煩值得帶去上班？"
+
+#. copy/careersLead
+#: src/js/careers.js:55
+msgctxt "tree:copy#/careersLead"
+msgid ""
+"Twelve destinations state real work, compensation, duty bell, friction, and "
+"boundaries. Matching explains rather than pretending everything fits."
+msgstr "十二個去向都有具體工作、報酬、出勤校鐘、摩擦與不能跨過的界線。媒合會解釋理由，不替你假裝一切適合。"
+
+#. copy/domains
+#: src/js/careers.js:55
+msgctxt "tree:copy#/domains"
+msgid "Desired work (up to four)"
+msgstr "想做的事（最多四項）"
+
+#. copy/schedule
+#: src/js/careers.js:55
+msgctxt "tree:copy#/schedule"
+msgid "Acceptable duty bell"
+msgstr "能接受的出勤校鐘"
+
+#. copy/compensation
+#: src/js/careers.js:55
+msgctxt "tree:copy#/compensation"
+msgid "Preferred main compensation"
+msgstr "希望主要報酬"
+
+#. copy/travel
+#: src/js/careers.js:55
+msgctxt "tree:copy#/travel"
+msgid "Familiar commute"
+msgstr "熟悉的通勤方式"
+
+#. copy/chaos
+#: src/js/careers.js:55
+msgctxt "tree:copy#/chaos"
+msgid "Trouble tolerance"
+msgstr "現場麻煩承受度"
+
+#. copy/refusal
+#: src/js/careers.js:55
+msgctxt "tree:copy#/refusal"
+msgid "What will you refuse even if hired?"
+msgstr "即使被錄取，也拒絕做什麼？"
+
+#. copy/careerQuestion
+#: src/js/careers.js:55
+msgctxt "tree:copy#/careerQuestion"
+msgid "What will you ask the interviewer?"
+msgstr "面試時你想反問什麼？"
+
+#. copy/submitPlan
+#: src/js/careers.js:55
+msgctxt "tree:copy#/submitPlan"
+msgid "Create career matching file"
+msgstr "生成進路媒合卷"
+
+#. copy/browseOpenings
+#: src/js/careers.js:55
+msgctxt "tree:copy#/browseOpenings"
+msgid "Twelve destination files"
+msgstr "十二份去向卷"
+
+#. copy/recommendation
+#: src/js/careers.js:55
+msgctxt "tree:copy#/recommendation"
+msgid "Strong match"
+msgstr "高度相符"
+
+#. copy/promising
+#: src/js/careers.js:55
+msgctxt "tree:copy#/promising"
+msgid "Worth applying"
+msgstr "值得投遞"
+
+#. copy/conversation
+#: src/js/careers.js:55
+msgctxt "tree:copy#/conversation"
+msgid "Discuss first"
+msgstr "先談清楚"
+
+#. copy/incident
+#: src/js/careers.js:55
+msgctxt "tree:copy#/incident"
+msgid "Likely an incident first"
+msgstr "很可能先成為事件"
+
+#. copy/friction
+#: src/js/careers.js:55
+msgctxt "tree:copy#/friction"
+msgid "Known friction"
+msgstr "已知摩擦"
+
+#. copy/duties
+#: src/js/careers.js:55
+msgctxt "tree:copy#/duties"
+msgid "Actual work"
+msgstr "真正要做的事"
+
+#. copy/boundary
+#: src/js/careers.js:55
+msgctxt "tree:copy#/boundary"
+msgid "Boundary not to cross"
+msgstr "不能跨過的界線"
+
+#. copy/interview
+#: src/js/careers.js:55
+msgctxt "tree:copy#/interview"
+msgid "Interview question"
+msgstr "面試追問"
+
+#. copy/compensationLabel
+#: src/js/careers.js:55
+msgctxt "tree:copy#/compensationLabel"
+msgid "Compensation"
+msgstr "報酬"
+
+#. copy/scheduleLabel
+#: src/js/careers.js:55
+msgctxt "tree:copy#/scheduleLabel"
+msgid "Duty"
+msgstr "出勤"
+
+#. copy/host
+#: src/js/careers.js:55
+msgctxt "tree:copy#/host"
+msgid "Host"
+msgstr "現場主持"
+
+#. copy/openFile
+#: src/js/careers.js:55
+msgctxt "tree:copy#/openFile"
+msgid "Open destination"
+msgstr "展開去向卷"
+
+#. copy/planSaved
+#: src/js/careers.js:55
+msgctxt "tree:copy#/planSaved"
+msgid "Career matching file saved."
+msgstr "進路媒合卷已保存。"
+
+#. copy/planError
+#: src/js/careers.js:55
+msgctxt "tree:copy#/planError"
+msgid "Write at least eight characters for both refusal and interview question."
+msgstr "請分別寫下拒絕事項與面試反問，至少各八字。"
+
+#. copy/reasons
+#: src/js/careers.js:55
+msgctxt "tree:copy#/reasons"
+msgid "Evidence of fit"
+msgstr "相符依據"
+
+#. copy/cautions
+#: src/js/careers.js:55
+msgctxt "tree:copy#/cautions"
+msgid "Discuss first"
+msgstr "先談清楚"
+
+#. copy/referralNote
+#: src/js/careers.js:55
+msgctxt "tree:copy#/referralNote"
+msgid "Referral note to the host"
+msgstr "給現場主持的推薦附言"
+
+#. copy/sendReferral
+#: src/js/careers.js:55
+msgctxt "tree:copy#/sendReferral"
+msgid "Send by crow-tengu post"
+msgstr "交給鴉天狗寄發"
+
+#. copy/referralSent
+#: src/js/careers.js:55
+msgctxt "tree:copy#/referralSent"
+msgid "Referral sent; receipt may precede the interview."
+msgstr "推薦已寄出；收件時間不保證晚於面試。"
+
+#. copy/referralError
+#: src/js/careers.js:55
+msgctxt "tree:copy#/referralError"
+msgid "Referral note needs 12 characters and each opening accepts one dispatch."
+msgstr "推薦附言至少十二字，且同一職缺只寄一次。"
+
+#. copy/printPlan
+#: src/js/careers.js:55
+msgctxt "tree:copy#/printPlan"
+msgid "Print career file"
+msgstr "列印進路卷"
+
+#. copy/alumniTitle
+#: src/js/careers.js:55
+msgctxt "tree:copy#/alumniTitle"
+msgid "Hyakki Yagyo Alumni Association"
+msgstr "百鬼夜行校友會"
+
+#. copy/alumniLead
+#: src/js/careers.js:55
+msgctxt "tree:copy#/alumniLead"
+msgid ""
+"Cohorts are not divided by species, lifespan, or death. Chapters follow "
+"questions members still ask."
+msgstr "校友會不按物種、壽命或死亡狀態分屆；按還願意共同追問的問題分支部。"
+
+#. copy/tonight
+#: src/js/careers.js:55
+msgctxt "tree:copy#/tonight"
+msgid "Tonight's lantern route"
+msgstr "今夜提燈路線"
+
+#. copy/invitation
+#: src/js/careers.js:55
+msgctxt "tree:copy#/invitation"
+msgid "Invitation version"
+msgstr "邀請函版次"
+
+#. copy/assembly
+#: src/js/careers.js:55
+msgctxt "tree:copy#/assembly"
+msgid "Assembly"
+msgstr "集合"
+
+#. copy/closing
+#: src/js/careers.js:55
+msgctxt "tree:copy#/closing"
+msgid "Final stop"
+msgstr "最後一站"
+
+#. copy/chapters
+#: src/js/careers.js:55
+msgctxt "tree:copy#/chapters"
+msgid "Eight alumni chapters"
+msgstr "八個校友支部"
+
+#. copy/stories
+#: src/js/careers.js:55
+msgctxt "tree:copy#/stories"
+msgid "Roll margins"
+msgstr "名冊邊角"
+
+#. copy/unresolvedMatter
+#: src/js/careers.js:55
+msgctxt "tree:copy#/unresolvedMatter"
+msgid "Still unresolved here"
+msgstr "本支部仍未解決"
+
+#. copy/meeting
+#: src/js/careers.js:55
+msgctxt "tree:copy#/meeting"
+msgid "Meeting bell"
+msgstr "聚會校鐘"
+
+#. copy/steward
+#: src/js/careers.js:55
+msgctxt "tree:copy#/steward"
+msgid "Roll keeper"
+msgstr "名冊保管"
+
+#. copy/openChapter
+#: src/js/careers.js:55
+msgctxt "tree:copy#/openChapter"
+msgid "Open chapter file"
+msgstr "翻開支部卷"
+
+#. copy/activateAlumni
+#: src/js/careers.js:55
+msgctxt "tree:copy#/activateAlumni"
+msgid "Unseal my alumni file"
+msgstr "開封我的校友籍"
+
+#. copy/noDegree
+#: src/js/careers.js:55
+msgctxt "tree:copy#/noDegree"
+msgid ""
+"The public association is open to auditors; a personal file requires a "
+"formal or contested degree."
+msgstr "公共校友會可以旁聽；個人校友籍需先開封一份正式或附爭議學位。"
+
+#. copy/displayName
+#: src/js/careers.js:55
+msgctxt "tree:copy#/displayName"
+msgid "Lantern name"
+msgstr "提燈名"
+
+#. copy/chooseChapter
+#: src/js/careers.js:55
+msgctxt "tree:copy#/chooseChapter"
+msgid "Primary chapter"
+msgstr "主要支部"
+
+#. copy/activate
+#: src/js/careers.js:55
+msgctxt "tree:copy#/activate"
+msgid "Enter alumni roll"
+msgstr "寫入校友名冊"
+
+#. copy/activated
+#: src/js/careers.js:55
+msgctxt "tree:copy#/activated"
+msgid "Alumni file unsealed; if it predates graduation, Akyuu keeps both versions."
+msgstr "校友籍已開封；若日期早於畢業，阿求會保留兩個版本。"
+
+#. copy/attending
+#: src/js/careers.js:55
+msgctxt "tree:copy#/attending"
+msgid "Attend the next Hyakki Yagyo"
+msgstr "參加下一次百鬼夜行"
+
+#. copy/notAttending
+#: src/js/careers.js:55
+msgctxt "tree:copy#/notAttending"
+msgid "Not this round; retain my badge"
+msgstr "本輪不參加，但保留名牌"
+
+#. copy/reunionNote
+#: src/js/careers.js:55
+msgctxt "tree:copy#/reunionNote"
+msgid "What I bring / why I am late"
+msgstr "攜帶物／遲到理由"
+
+#. copy/saveRsvp
+#: src/js/careers.js:55
+msgctxt "tree:copy#/saveRsvp"
+msgid "Reply to lantern desk"
+msgstr "回覆提燈席"
+
+#. copy/rsvpSaved
+#: src/js/careers.js:55
+msgctxt "tree:copy#/rsvpSaved"
+msgid "Hyakki Yagyo reply saved."
+msgstr "百鬼夜行回覆已保存。"
+
+#. copy/mentor
+#: src/js/careers.js:55
+msgctxt "tree:copy#/mentor"
+msgid "Returning fieldwork mentor"
+msgstr "回校實習導師"
+
+#. copy/mentorTopics
+#: src/js/careers.js:55
+msgctxt "tree:copy#/mentorTopics"
+msgid "Topics I can guide"
+msgstr "願意帶的題目"
+
+#. copy/mentorNote
+#: src/js/careers.js:55
+msgctxt "tree:copy#/mentorNote"
+msgid "What I will not do for a student"
+msgstr "不替學生做什麼"
+
+#. copy/offerMentor
+#: src/js/careers.js:55
+msgctxt "tree:copy#/offerMentor"
+msgid "Register mentorship"
+msgstr "登記導師資格"
+
+#. copy/mentorSaved
+#: src/js/careers.js:55
+msgctxt "tree:copy#/mentorSaved"
+msgid "Mentorship registered; students may still choose someone else."
+msgstr "導師資格已登記；學生仍有權選別人。"
+
+#. copy/mentorError
+#: src/js/careers.js:55
+msgctxt "tree:copy#/mentorError"
+msgid "Select a topic and state a boundary of at least 12 characters."
+msgstr "請選至少一項題目，並寫下至少十二字的邊界。"
+
+#. compensationLabels.yen
+#: src/js/careers.js:58
+msgctxt "text:compensationLabels.yen"
+msgid "Yen"
+msgstr "日圓"
+
+#. compensationLabels.offerings
+#: src/js/careers.js:59
+msgctxt "text:compensationLabels.offerings"
+msgid "Offerings / in kind"
+msgstr "賽錢／實物"
+
+#. compensationLabels.tea
+#: src/js/careers.js:60
+msgctxt "text:compensationLabels.tea"
+msgid "Tea & lodging"
+msgstr "茶點與館內食宿"
+
+#. compensationLabels.cucumber
+#: src/js/careers.js:61
+msgctxt "text:compensationLabels.cucumber"
+msgid "Yen + cucumber equivalent"
+msgstr "日圓＋黃瓜折算"
+
+#. compensationLabels.rice
+#: src/js/careers.js:62
+msgctxt "text:compensationLabels.rice"
+msgid "Rice & yen"
+msgstr "米糧與日圓"
+
+#. compensationLabels.faith
+#: src/js/careers.js:63
+msgctxt "text:compensationLabels.faith"
+msgid "Yen + merit (separate)"
+msgstr "日圓＋神德（分欄）"
+
+#. compensationLabels.coal
+#: src/js/careers.js:64
+msgctxt "text:compensationLabels.coal"
+msgid "Yen + geothermal quota"
+msgstr "日圓＋地熱配額"
+
+#. compensationLabels.barter
+#: src/js/careers.js:65
+msgctxt "text:compensationLabels.barter"
+msgid "Barter"
+msgstr "以物易物"
+
+#. travelLabels.foot
+#: src/js/careers.js:69
+msgctxt "text:travelLabels.foot"
+msgid "Foot / lantern"
+msgstr "步行／提燈"
+
+#. travelLabels.broom
+#: src/js/careers.js:70
+msgctxt "text:travelLabels.broom"
+msgid "Broom"
+msgstr "掃帚"
+
+#. travelLabels.tengu
+#: src/js/careers.js:71
+msgctxt "text:travelLabels.tengu"
+msgid "Tengu wind route"
+msgstr "天狗風路"
+
+#. travelLabels.shuttle
+#: src/js/careers.js:72
+msgctxt "text:travelLabels.shuttle"
+msgid "Moon-rabbit shuttle"
+msgstr "月兔接駁"
+
+#. travelLabels.ferry
+#: src/js/careers.js:73
+msgctxt "text:travelLabels.ferry"
+msgid "Sanzu / phantom ferry"
+msgstr "三途／幽靈渡船"
+
+#. requirementDetail
+#: src/js/careers.js:121
+msgctxt "text:requirementDetail"
+msgid "{value0}/{value1} credits · cores {value2}/{value3}"
+msgstr "{value0}/{value1} 學分 · 核心課 {value2}/{value3}"
+
+#. requirementDetail
+#: src/js/careers.js:123
+msgctxt "text:requirementDetail.2"
+msgid "{value0} assignments · {value1} exams"
+msgstr "作業 {value0} · 方法考 {value1}"
+
+#. requirementDetail
+#: src/js/careers.js:126
+msgctxt "text:requirementDetail.3"
+msgid "{value0} sites · {value1} visits"
+msgstr "{value0} 場地 · {value1} 次返校"
+
+#. requirementDetail
+#: src/js/careers.js:127
+msgctxt "text:requirementDetail.4"
+msgid "{value0} active loans"
+msgstr "未還館藏 {value0}"
+
+#. requirementDetail
+#: src/js/careers.js:128
+msgctxt "text:requirementDetail.5"
+msgid "{value0} active room · {value1} transfers"
+msgstr "在住宿舍 {value0} · 換房案 {value1}"
+
+#. requirementDetail
+#: src/js/careers.js:129
+msgctxt "text:requirementDetail.6"
+msgid "{value0} property · {value1} contested closures · chronology {value2}"
+msgstr "物權 {value0} · 爭議結案 {value1} · 年代{value2}"

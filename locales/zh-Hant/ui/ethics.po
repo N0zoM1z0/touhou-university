@@ -1,0 +1,487 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/eyebrow"
+msgid "RESEARCH ETHICS / GENSOKYO RESEARCH ETHICS REVIEW BOARD"
+msgstr "RESEARCH ETHICS / 幻想鄉研究倫理審查委員會"
+
+#. copy/title
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/title"
+msgid "Being able to do it is not consent to do it."
+msgstr "能做到，並不等於已經取得同意。"
+
+#. copy/lead
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/lead"
+msgid ""
+"Before research begins, present the proposed ability use, data access, stop "
+"rules, and withdrawal process to five independent reviewers. Akyuu binds the "
+"file; she does not average five disagreements into one convenient permit."
+msgstr "研究開始前，把能力、資料、停止規則與撤回方式攤在五席面前。阿求負責裝訂；她沒有把五張不同的意見平均成一張比較方便的許可。"
+
+#. copy/board
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/board"
+msgid "Five specimen cases"
+msgstr "五宗示範案件"
+
+#. copy/boardLead
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/boardLead"
+msgid ""
+"Choose a file and submit your own version of its dispute. The specimens are "
+"not model answers; they are places where the argument has already started."
+msgstr "選一宗案卷，沿用爭點送出自己的版本。示範答案不是標準答案；它們只是已經開始吵架的地方。"
+
+#. copy/form
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/form"
+msgid "Submission desk"
+msgstr "送審桌"
+
+#. copy/records
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/records"
+msgid "My ethics files"
+msgstr "我的倫理案卷"
+
+#. copy/reviewers
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/reviewers"
+msgid "Five independent review seats"
+msgstr "五席獨立審查"
+
+#. copy/reviewersLead
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/reviewersLead"
+msgid ""
+"Each seat answers only its own question. Blocks, conditions, and minority "
+"opinions survive majorities and averages."
+msgstr "每席只對自己的問題負責。阻擋、條件與少數意見都不會被多數票或平均分抹掉。"
+
+#. copy/openCase
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/openCase"
+msgid "Open and submit"
+msgstr "打開並送審"
+
+#. copy/related
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/related"
+msgid "Related source files"
+msgstr "相關原始卷宗"
+
+#. copy/expected
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/expected"
+msgid "Specimen pre-review"
+msgstr "示範案目前預審"
+
+#. copy/voices
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/voices"
+msgid "Words in the margin"
+msgstr "案邊原話"
+
+#. copy/sourceCase
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/sourceCase"
+msgid "Dispute under review"
+msgstr "本次爭點"
+
+#. copy/protocolTitle
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/protocolTitle"
+msgid "Protocol title"
+msgstr "研究計畫名稱"
+
+#. copy/researcher
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/researcher"
+msgid "Applicant / research group (optional)"
+msgstr "申請人／研究小組（可留白）"
+
+#. copy/target
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/target"
+msgid "Research subject"
+msgstr "研究對象"
+
+#. copy/method
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/method"
+msgid "Ability or method"
+msgstr "能力或方法"
+
+#. copy/disclosure
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/disclosure"
+msgid "Timing of disclosure"
+msgstr "告知時點"
+
+#. copy/consent
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/consent"
+msgid "Who gives consent"
+msgstr "同意由誰作出"
+
+#. copy/risk
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/risk"
+msgid "Declared risk"
+msgstr "申報風險"
+
+#. copy/exposure
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/exposure"
+msgid "Maximum exposure / operation minutes"
+msgstr "最大暴露／操作分鐘"
+
+#. copy/data
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/data"
+msgid "Data to be accessed"
+msgstr "將會接觸的資料"
+
+#. copy/safeguards
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/safeguards"
+msgid "Four field safeguards"
+msgstr "四張現場保命紙"
+
+#. copy/subjectStop
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/subjectStop"
+msgid "Subject can stop immediately without approval"
+msgstr "研究對象能不經批准立即喊停"
+
+#. copy/independent
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/independent"
+msgid "Witness / clock independent of the same ability"
+msgstr "有不依賴同一能力的見證／計時方式"
+
+#. copy/audit
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/audit"
+msgid "Content-free receipt survives deletion"
+msgstr "刪除後保留不含內容的受理收據"
+
+#. copy/assent
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/assent"
+msgid "Object / tsukumogami explicitly assents"
+msgstr "物品／付喪神本人也明確同意"
+
+#. copy/stopRule
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/stopRule"
+msgid "Stopping rule"
+msgstr "停止規則"
+
+#. copy/controlPlan
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/controlPlan"
+msgid "Control and independent witness"
+msgstr "對照與獨立見證"
+
+#. copy/withdrawalPlan
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdrawalPlan"
+msgid "Withdrawal route"
+msgstr "撤回方式"
+
+#. copy/deletionPlan
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/deletionPlan"
+msgid "Deletion and retention"
+msgstr "刪除與保留方式"
+
+#. copy/appealPlan
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/appealPlan"
+msgid "Appeal and responsible office"
+msgstr "申訴與責任窗口"
+
+#. copy/rationale
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/rationale"
+msgid "Why this method is necessary"
+msgstr "為何必須這樣研究"
+
+#. copy/save
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/save"
+msgid "Pin draft to the desk"
+msgstr "把草稿壓在桌角"
+
+#. copy/saved
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/saved"
+msgid "Draft pinned down; kappa tape did not touch the consent field."
+msgstr "草稿已壓好；河童膠帶沒有碰到同意欄。"
+
+#. copy/preview
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/preview"
+msgid "Ring the five-seat pre-review bell"
+msgstr "敲五席預審鐘"
+
+#. copy/submit
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/submit"
+msgid "Submit for formal five-seat review"
+msgstr "正式送交五席審查"
+
+#. copy/reset
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/reset"
+msgid "Restore the specimen draft"
+msgstr "換回示範原稿"
+
+#. copy/required
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/required"
+msgid "The protocol title needs at least four characters."
+msgstr "研究計畫名稱至少需要四個字元。"
+
+#. copy/previewTitle
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/previewTitle"
+msgid "Five-seat pre-review"
+msgstr "五席預審"
+
+#. copy/previewLead
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/previewLead"
+msgid ""
+"This is not a total score. One blocking seat can stop the start; minority "
+"opinions enter the formal file."
+msgstr "這不是總分。最嚴格的一席可以阻擋開始；少數意見也會留在正式案卷。"
+
+#. copy/conditions
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/conditions"
+msgid "Conditions / dissent"
+msgstr "條件／異議"
+
+#. copy/noConditions
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/noConditions"
+msgid "This seat adds no condition."
+msgstr "本席沒有追加條件。"
+
+#. copy/decision
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/decision"
+msgid "Board decision"
+msgstr "委員會決議"
+
+#. copy/decisionNote
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/decisionNote"
+msgid ""
+"The decision follows blocking conditions, irreducible disputes, and each "
+"seat's opinion; no average ethics score is calculated."
+msgstr "決議依阻擋條件、不可化約爭議與逐席意見形成，不計算平均倫理分。"
+
+#. copy/protocol
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/protocol"
+msgid "Formal ethics file"
+msgstr "正式倫理案卷"
+
+#. copy/revision
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/revision"
+msgid "Revision"
+msgstr "版本"
+
+#. copy/status
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/status"
+msgid "File status"
+msgstr "卷宗狀態"
+
+#. copy/active
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/active"
+msgid "Active version"
+msgstr "有效版本"
+
+#. copy/superseded
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/superseded"
+msgid "Superseded by a later version"
+msgstr "已由後續版本取代"
+
+#. copy/withdrawn
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdrawn"
+msgid "Withdrawn"
+msgstr "已撤回"
+
+#. copy/submittedAt
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/submittedAt"
+msgid "Submitted"
+msgstr "送審時間"
+
+#. copy/print
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/print"
+msgid "Print / save formal review as PDF"
+msgstr "列印／另存正式審查案卷"
+
+#. copy/revise
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/revise"
+msgid "Revise from the five opinions"
+msgstr "按五席意見修訂"
+
+#. copy/withdraw
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdraw"
+msgid "Withdraw this version"
+msgstr "撤回這一版本"
+
+#. copy/withdrawReason
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdrawReason"
+msgid "Reason for withdrawal (retained in the on-device version chain)"
+msgstr "撤回理由（會留在本機版本鏈）"
+
+#. copy/confirmWithdraw
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/confirmWithdraw"
+msgid "I understand withdrawal does not delete existing review opinions"
+msgstr "我知道撤回不會刪除既有審查意見"
+
+#. copy/withdrawAction
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdrawAction"
+msgid "Stamp withdrawn"
+msgstr "蓋撤回印"
+
+#. copy/share
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/share"
+msgid "Copy this file link"
+msgstr "複製這份案卷連結"
+
+#. copy/shared
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/shared"
+msgid "The file address was copied."
+msgstr "案卷門牌已複製。"
+
+#. copy/noRecords
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/noRecords"
+msgid ""
+"No formal submission exists on this device. The five seats are using blank "
+"paper as tea coasters."
+msgstr "這台裝置還沒有正式送審紀錄。五席目前正用空白紙墊茶杯。"
+
+#. copy/openProtocol
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/openProtocol"
+msgid "Read file"
+msgstr "閱讀案卷"
+
+#. copy/versionChain
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/versionChain"
+msgid "Version chain for this protocol"
+msgstr "同一計畫的版本鏈"
+
+#. copy/localOnly
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/localOnly"
+msgid ""
+"Drafts, submissions, and reviews stay in this browser. Formal event indexes "
+"appear in My TU and can be exported through the records cabinet."
+msgstr "草稿、送審與審查只保存在這個瀏覽器；正式事件索引會出現在 My TU，本機資料可由資料櫃匯出。"
+
+#. copy/browseCabinet
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/browseCabinet"
+msgid "Open records cabinet"
+msgstr "打開本機資料櫃"
+
+#. copy/browseMyTu
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/browseMyTu"
+msgid "View My TU history"
+msgstr "查看 My TU 履歷"
+
+#. copy/committeeFiled
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/committeeFiled"
+msgid "All five opinions were filed separately."
+msgstr "五席意見已分開入卷。"
+
+#. copy/amended
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/amended"
+msgid "The amendment was reviewed; the previous version was not erased."
+msgstr "修訂版已送審；上一版本沒有被擦掉。"
+
+#. copy/withdrawnToast
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/withdrawnToast"
+msgid "Withdrawal stamped; existing opinions remain in the version chain."
+msgstr "撤回印已蓋上；既有意見仍留在版本鏈。"
+
+#. copy/documentTitle
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/documentTitle"
+msgid "Research Ethics Review Decision"
+msgstr "研究倫理審查決議書"
+
+#. copy/documentNotice
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/documentNotice"
+msgid ""
+"A majority summary may not replace seat-level conditions. Withdrawal, "
+"amendment, and minority opinions remain part of the file."
+msgstr "本決議不得以多數票摘要取代逐席條件；撤回、修訂與少數意見均屬案卷的一部分。"
+
+#. copy/originalCase
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/originalCase"
+msgid "Specimen source case"
+msgstr "所依示範案"
+
+#. copy/plan
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/plan"
+msgid "Research plan"
+msgstr "研究計畫"
+
+#. copy/pageBoard
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/pageBoard"
+msgid "Case shelf"
+msgstr "案件架"
+
+#. copy/pageForm
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/pageForm"
+msgid "Submission desk"
+msgstr "送審桌"
+
+#. copy/pageRecords
+#: src/js/ethics.js:47
+msgctxt "tree:copy#/pageRecords"
+msgid "On-device files"
+msgstr "本機卷宗"

@@ -1,66 +1,9 @@
+import { trees as catalogTrees } from "../generated/i18n/ui/schools.js";
 import { schools } from "../data/schools.js";
 import { getLocale } from "./i18n.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 
-const labels = {
-  "zh-Hant": {
-    catalogue: "UNDERGRADUATE CATALOGUE · 2026",
-    degree: "學位",
-    duration: "修業年限",
-    credits: "畢業學分",
-    intake: "招生名額",
-    tuition: "每學期學費",
-    overview: "學院介紹",
-    courses: "核心課程節選",
-    course: "課號／課程",
-    courseCredits: "學分",
-    studios: "分流與工房",
-    fieldwork: "實地學習",
-    progression: "畢業條件",
-    costs: "費用說明",
-    outcomes: "畢業去向",
-    apply: "以此學院開始申請",
-    note: "學費按學期收取；共同必修與跨院選修已包含在畢業學分內。",
-  },
-  ja: {
-    catalogue: "UNDERGRADUATE CATALOGUE · 2026",
-    degree: "学位",
-    duration: "修業年限",
-    credits: "卒業単位",
-    intake: "募集人数",
-    tuition: "学期授業料",
-    overview: "学部紹介",
-    courses: "主要科目",
-    course: "科目番号／授業",
-    courseCredits: "単位",
-    studios: "専攻・工房",
-    fieldwork: "実地学習",
-    progression: "卒業要件",
-    costs: "費用案内",
-    outcomes: "進路",
-    apply: "この学部で出願を始める",
-    note: "授業料は学期ごと。全学必修と学部横断選択は卒業単位に含まれます。",
-  },
-  en: {
-    catalogue: "UNDERGRADUATE CATALOGUE · 2026",
-    degree: "Award",
-    duration: "Duration",
-    credits: "Credits",
-    intake: "Intake",
-    tuition: "Tuition per term",
-    overview: "About the school",
-    courses: "Selected core courses",
-    course: "Code / course",
-    courseCredits: "Credits",
-    studios: "Pathways & studios",
-    fieldwork: "Field learning",
-    progression: "Graduation requirements",
-    costs: "Additional costs",
-    outcomes: "Where graduates go",
-    apply: "Apply to this school",
-    note: "Tuition is charged by term. University core and cross-school electives count toward the graduation total.",
-  },
-};
+const labels = catalogTrees["labels"];
 
 export function initSchools() {
   const dialog = document.querySelector("[data-school-dialog]");

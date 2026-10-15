@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/careers-model.js";
 import { schools } from "../data/schools.js";
 import { courseByCode } from "../data/courses.js";
 import {
@@ -29,7 +30,6 @@ const CAREER_PLANS_KEY = "tu:careers:plans";
 const ALUMNI_PROFILE_KEY = "tu:alumni:profile";
 const MAX_RECORDS = 40;
 
-const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
 export const careersStorageKeys = Object.freeze({
   audits: AUDITS_KEY,
@@ -478,38 +478,38 @@ export function careerMatches(value = {}, locale = "zh-Hant") {
     let affinity = 0;
     if (opening.schoolIds.includes(profile.schoolId)) {
       affinity += 3;
-      reasons.push(l("與學院方法直接相符", "学部方法が直接一致", "School methods align directly"));
+      reasons.push(catalogText("careerMatches.0.0"));
     }
     const domainMatches = opening.domains.filter((id) => profile.domainIds.includes(id));
     affinity += domainMatches.length * 2;
-    if (domainMatches.length) reasons.push(l("偏好工作領域重疊", "希望領域が重複", "Preferred domains overlap"));
+    if (domainMatches.length) reasons.push(catalogText("careerMatches.0.0.2"));
     if (opening.schedule === profile.scheduleId || profile.scheduleId === "nonlinear") {
       affinity += 1;
-      reasons.push(l("能接受此出勤校鐘", "勤務校鐘に対応", "Duty bell is acceptable"));
+      reasons.push(catalogText("careerMatches.0.0.3"));
     } else {
-      cautions.push(l("出勤校鐘需要另談", "勤務校鐘は要相談", "Duty bell needs negotiation"));
+      cautions.push(catalogText("careerMatches.0.0.4"));
     }
     if (opening.travel === profile.travelId) {
       affinity += 1;
-      reasons.push(l("熟悉主要通勤方式", "主通勤手段に慣れている", "Primary commute is familiar"));
+      reasons.push(catalogText("careerMatches.0.0.5"));
     }
     if (opening.compensation === profile.compensationId) {
       affinity += 1;
-      reasons.push(l("報酬形式與偏好一致", "報酬形式が希望と一致", "Compensation form aligns"));
+      reasons.push(catalogText("careerMatches.0.0.6"));
     } else if (opening.compensation !== "yen") {
-      cautions.push(l("報酬不一定以日圓出現", "報酬は円とは限らない", "Compensation may not appear as yen"));
+      cautions.push(catalogText("careerMatches.0.0.7"));
     }
     if (opening.chaos > profile.chaosTolerance) {
-      cautions.push(l("現場麻煩高於自報承受度", "現場混乱が自己申告許容度超過", "Trouble exceeds stated tolerance"));
+      cautions.push(catalogText("careerMatches.0.0.8"));
     } else {
       affinity += 1;
     }
-    if (evidence.fieldwork && opening.domains.includes("field")) reasons.push(l("田野護照可作證", "フィールド旅券が証拠", "Field passport supplies evidence"));
-    if (evidence.ethics && opening.domains.includes("research")) reasons.push(l("倫理卷宗可作證", "倫理記録が証拠", "Ethics file supplies evidence"));
+    if (evidence.fieldwork && opening.domains.includes("field")) reasons.push(catalogText("careerMatches.0.0.9"));
+    if (evidence.ethics && opening.domains.includes("research")) reasons.push(catalogText("careerMatches.0.0.10"));
     if (evidence.academic && ["archive", "research", "teaching"].some((id) => opening.domains.includes(id))) {
-      reasons.push(l("方法作業與考試可作證", "方法課題・試験が証拠", "Methods work and exams supply evidence"));
+      reasons.push(catalogText("careerMatches.0.0.11"));
     }
-    if (!evidence.degree) cautions.push(l("可先諮詢；正式校友推薦須待學位開封", "相談可、校友推薦は学位開封後", "Consultation is open; alumni referral waits for a degree"));
+    if (!evidence.degree) cautions.push(catalogText("careerMatches.0.0.12"));
     const band = opening.chaos > profile.chaosTolerance + 1
       ? "incident"
       : affinity >= 7 ? "recommended" : affinity >= 4 ? "promising" : "conversation";
@@ -721,12 +721,8 @@ export function careersCommunityPosts(locale = "zh-Hant") {
       id: `graduation-degree-${latestDegree.id}`,
       generated: true,
       category: "notice",
-      author: locale === "ja" ? "卒業判定会議・議事係" : locale === "en" ? "Graduation Board Minutes Desk" : "畢業判定會議・議事席",
-      title: locale === "ja"
-        ? `卒業証書 ${latestDegree.degreeNumber} は未解決の問いを添付`
-        : locale === "en"
-          ? `Degree ${latestDegree.degreeNumber} retains an unresolved question`
-          : `學位 ${latestDegree.degreeNumber} 附上一件仍未解決的問題`,
+      author: catalogText("careersCommunityPosts.0.author")[locale],
+      title: catalogText("careersCommunityPosts.0.title", { [locale]: locale === "ja" ? {value0: latestDegree.degreeNumber} : locale === "en" ? {value0: latestDegree.degreeNumber} : {value0: latestDegree.degreeNumber} })[locale],
       body: latestDegree.unresolvedQuestion,
       replies: 12 + latestDegree.attachments.length * 3,
       createdAt: latestDegree.issuedAt,
@@ -740,7 +736,7 @@ export function careersCommunityPosts(locale = "zh-Hant") {
       id: `career-referral-${latestReferral.id}`,
       generated: true,
       category: "notice",
-      author: locale === "ja" ? "進路室・鴉天狗便控" : locale === "en" ? "Careers Office · Tengu Dispatch" : "進路室・鴉天狗寄發臺",
+      author: catalogText("careersCommunityPosts.0.author.2")[locale],
       title: careersLocalized(opening.title, locale),
       body: `${latestReferral.note} · ${careersLocalized(opening.friction, locale)}`,
       replies: 7 + (hashValue(latestReferral.id) % 13),
@@ -754,7 +750,7 @@ export function careersCommunityPosts(locale = "zh-Hant") {
       id: `alumni-profile-${profile.id}`,
       generated: true,
       category: "club",
-      author: locale === "ja" ? "百鬼夜行同窓会・提灯係" : locale === "en" ? "Hyakki Yagyo Alumni Lantern Desk" : "百鬼夜行校友會・提燈席",
+      author: catalogText("careersCommunityPosts.0.author.3")[locale],
       title: careersLocalized(chapter.title, locale),
       body: `${profile.displayName}：${profile.unresolvedQuestion}`,
       replies: 18 + night.route.length,
@@ -767,7 +763,7 @@ export function careersCommunityPosts(locale = "zh-Hant") {
       id: `alumni-night-${night.dayKey}`,
       generated: true,
       category: "club",
-      author: locale === "ja" ? "百鬼夜行同窓会・仮名簿" : locale === "en" ? "Hyakki Yagyo Alumni Provisional Roll" : "百鬼夜行校友會・暫定名冊",
+      author: catalogText("careersCommunityPosts.0.author.4")[locale],
       title: careersLocalized(story.name, locale),
       body: careersLocalized(story.line, locale),
       replies: 9 + night.invitationVersion,

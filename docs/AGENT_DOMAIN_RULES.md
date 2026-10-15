@@ -103,13 +103,10 @@ and submissions need a “My Applications” view, and authored BBS threads need
 
 - The site uses dependency-free semantic HTML, CSS and vanilla JavaScript with
   a zero-dependency Node build step.
-- All root page artifacts (`index.html`, `academics.html`, `admissions.html`,
-  `research.html`, `ethics.html`, `festival.html`, `fieldwork.html`,
-  `commons.html`, `calendar.html`, `campus.html`, `mytu.html`, `library.html`,
-  `housing.html`, `incidents.html`, `clinic.html`, `records.html`,
-  `careers.html`, `hieda.html` and the deliberately unlisted `phantasm.html`), shared
-  `assets/css/styles.css`, and page bundles `assets/css/styles-*.css` are
-  generated release artifacts. Do not make substantial edits to them directly.
+- Pages and CSS are generated into ignored `dist/`, alongside runtime modules
+  and offline examinations. Authored images and the crest live in `public/`.
+  Keep the repository root free of generated HTML. Pages publishes `dist/`
+  through Actions; see `docs/ARCHITECTURE.md` for the deployment transition.
 - Author page sections in `src/sections/`, data in `src/data/`, JavaScript in
   `src/js/`, and styles in `src/styles/`.
 - Register section/style order in `site.config.mjs`.
@@ -126,17 +123,14 @@ and submissions need a “My Applications” view, and authored BBS threads need
   new search and navigation links should point to that page directly.
 - Use the scripts under `scripts/` for builds, scaffolding, i18n checks and
   image optimisation instead of repeating manual work.
-- Stable multilingual interface copy lives in `src/data/i18n.js`. New or
-  touched static controls must keep readable Traditional Chinese fallback text
-  while declaring `data-i18n="<message-key>"`; translated attributes use
-  `data-i18n-aria-label`, `data-i18n-placeholder`, `data-i18n-alt` or
-  `data-i18n-title`. The legacy Chinese text-node lookup is a migration
-  fallback only: never add new punctuation-coupled lookup behaviour, and never
-  use a blanket MutationObserver that could translate applicant or BBS-authored
-  text. Domain records should continue to carry structured
-  `{ "zh-Hant", ja, en }` values. `check:i18n` must reject duplicate keys,
-  unknown explicit keys, interpolation-token drift, missing page title keys
-  and unkeyed source-text collisions with different translations.
+- Three-language editorial source lives in matching `locales/zh-Hant/`,
+  `locales/ja/` and `locales/en/` PO catalogs. Keep stable contexts and named
+  placeholders; review fuzzy translations before building. Static markup uses
+  explicit `data-i18n`/translated-attribute keys or mixed-content text markers.
+  The build compiles current Traditional Chinese defaults from PO. Never
+  translate visitor-authored prose through text matching. Domain modules retain
+  their trilingual record interface while resolving text from generated catalogs.
+  `src/data/i18n.js` is a compiled-copy facade. See `locales/README.md`.
 - Searchable/domain-linked features register their capabilities in
   `src/js/domain-registry.js`. Search and BBS consume that registry rather than
   importing every new feature directly. A domain may provide search entries,

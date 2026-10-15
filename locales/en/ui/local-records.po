@@ -1,0 +1,484 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/eyebrow"
+msgid "LOCAL ARCHIVES / ON-DEVICE RECORDS CABINET"
+msgstr "LOCAL ARCHIVES / ON-DEVICE RECORDS CABINET"
+
+#. copy/title
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/title"
+msgid "Which campus papers is this device keeping for you?"
+msgstr "Which campus papers is this device keeping for you?"
+
+#. copy/lead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/lead"
+msgid ""
+"Applications, courses, loans, care, and unfinished drafts are listed shelf "
+"by shelf. Nothing is uploaded during ordinary use; when moving, you seal the "
+"box yourself."
+msgstr ""
+"Applications, courses, loans, care, and unfinished drafts are listed shelf "
+"by shelf. Nothing is uploaded during ordinary use; when moving, you seal the "
+"box yourself."
+
+#. copy/offline
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/offline"
+msgid "On-device reading room"
+msgstr "On-device reading room"
+
+#. copy/offlineLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/offlineLead"
+msgid ""
+"During ordinary use, files are visible only to this browser profile and this "
+"site's origin."
+msgstr ""
+"During ordinary use, files are visible only to this browser profile and this "
+"site's origin."
+
+#. copy/origin
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/origin"
+msgid "Current origin"
+msgstr "Current origin"
+
+#. copy/writtenFiles
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/writtenFiles"
+msgid "Stored files"
+msgstr "Stored files"
+
+#. copy/entries
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/entries"
+msgid "Content entries"
+msgstr "Content entries"
+
+#. copy/used
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/used"
+msgid "Cabinet usage"
+msgstr "Cabinet usage"
+
+#. copy/portable
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/portable"
+msgid "Portable files"
+msgstr "Portable files"
+
+#. copy/allowance
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/allowance"
+msgid ""
+"Gauge uses a common 5 MiB localStorage allowance as a reference; the browser "
+"sets the actual limit."
+msgstr ""
+"Gauge uses a common 5 MiB localStorage allowance as a reference; the browser "
+"sets the actual limit."
+
+#. copy/originEstimate
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/originEstimate"
+msgid ""
+"Browser estimate: this origin uses {usage} of {quota}; this may include "
+"other site storage."
+msgstr ""
+"Browser estimate: this origin uses {usage} of {quota}; this may include "
+"other site storage."
+
+#. copy/originUnknown
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/originUnknown"
+msgid ""
+"The browser did not provide an origin-wide allowance; the figure above "
+"remains an exact UTF-8 estimate of university files."
+msgstr ""
+"The browser did not provide an origin-wide allowance; the figure above "
+"remains an exact UTF-8 estimate of university files."
+
+#. copy/visibility
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/visibility"
+msgid "Who can see these papers?"
+msgstr "Who can see these papers?"
+
+#. copy/visibilityLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/visibilityLead"
+msgid ""
+"“On-device” is not a cloud account. Other browsers, private windows, "
+"devices, and site origins cannot see it."
+msgstr ""
+"“On-device” is not a cloud account. Other browsers, private windows, "
+"devices, and site origins cannot see it."
+
+#. copy/export
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/export"
+msgid "Seal and export everything"
+msgstr "Seal and export everything"
+
+#. copy/exportLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/exportLead"
+msgid "Downloads a JSON box with a SHA-256 seal. Short-lived tab passes are never packed."
+msgstr "Downloads a JSON box with a SHA-256 seal. Short-lived tab passes are never packed."
+
+#. copy/exporting
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/exporting"
+msgid "Counting pages…"
+msgstr "Counting pages…"
+
+#. copy/exported
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/exported"
+msgid "The on-device archive has been sealed and downloaded."
+msgstr "The on-device archive has been sealed and downloaded."
+
+#. copy/import
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/import"
+msgid "Import an earlier archive box"
+msgstr "Import an earlier archive box"
+
+#. copy/importLead
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importLead"
+msgid ""
+"The seal, format, and every key are checked before you choose what happens "
+"to name collisions. A failed validation writes nothing."
+msgstr ""
+"The seal, format, and every key are checked before you choose what happens "
+"to name collisions. A failed validation writes nothing."
+
+#. copy/chooseFile
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/chooseFile"
+msgid "Choose JSON file"
+msgstr "Choose JSON file"
+
+#. copy/collision
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/collision"
+msgid "Name-collision policy"
+msgstr "Name-collision policy"
+
+#. copy/preserve
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/preserve"
+msgid "Keep current version (recommended)"
+msgstr "Keep current version (recommended)"
+
+#. copy/overwrite
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/overwrite"
+msgid "Overwrite same-name files from import"
+msgstr "Overwrite same-name files from import"
+
+#. copy/applyImport
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/applyImport"
+msgid "Place in cabinet"
+msgstr "Place in cabinet"
+
+#. copy/imported
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/imported"
+msgid "Filed {imported}; skipped {skipped} same-name files."
+msgstr "Filed {imported}; skipped {skipped} same-name files."
+
+#. copy/importReady
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importReady"
+msgid "Seal passed: {count} files, {size}"
+msgstr "Seal passed: {count} files, {size}"
+
+#. copy/importConflicts
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importConflicts"
+msgid "{count} share a name with a current file"
+msgstr "{count} share a name with a current file"
+
+#. copy/importUnknown
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importUnknown"
+msgid "{count} are not yet catalogued but retain the tu: campus prefix"
+msgstr "{count} are not yet catalogued but retain the tu: campus prefix"
+
+#. copy/importBlocked
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importBlocked"
+msgid "{count} short-lived or non-portable files will be skipped"
+msgstr "{count} short-lived or non-portable files will be skipped"
+
+#. copy/importSource
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importSource"
+msgid "Packed {date} · origin {origin}"
+msgstr "Packed {date} · origin {origin}"
+
+#. copy/importReplaceWarning
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/importReplaceWarning"
+msgid ""
+"Overwrite replaces only same-name files present in the imported box; it does "
+"not delete anything else."
+msgstr ""
+"Overwrite replaces only same-name files present in the imported box; it does "
+"not delete anything else."
+
+#. copy/filter
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/filter"
+msgid "Search file title or storage key"
+msgstr "Search file title or storage key"
+
+#. copy/presentOnly
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/presentOnly"
+msgid "Stored files only"
+msgstr "Stored files only"
+
+#. copy/showCatalogue
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/showCatalogue"
+msgid "Show full registered catalogue"
+msgstr "Show full registered catalogue"
+
+#. copy/hideCatalogue
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/hideCatalogue"
+msgid "Hide blank files"
+msgstr "Hide blank files"
+
+#. copy/noMatch
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/noMatch"
+msgid "No file matches. Keine may also have reassigned that page to yesterday."
+msgstr "No file matches. Keine may also have reassigned that page to yesterday."
+
+#. copy/stored
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/stored"
+msgid "Stored"
+msgstr "Stored"
+
+#. copy/empty
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/empty"
+msgid "Not written"
+msgstr "Not written"
+
+#. copy/item
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/item"
+msgid "entry"
+msgstr "entry"
+
+#. copy/items
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/items"
+msgid "entries"
+msgstr "entries"
+
+#. copy/view
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/view"
+msgid "Open file"
+msgstr "Open file"
+
+#. copy/destroy
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroy"
+msgid "Destroy"
+msgstr "Destroy"
+
+#. copy/destroyGroup
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyGroup"
+msgid "Destroy this shelf"
+msgstr "Destroy this shelf"
+
+#. copy/destroyAll
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyAll"
+msgid "Destroy all university data"
+msgstr "Destroy all university data"
+
+#. copy/destroyOneConfirm
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyOneConfirm"
+msgid "Destroy “{title}”? This cannot be undone; you can export the archive first."
+msgstr "Destroy “{title}”? This cannot be undone; you can export the archive first."
+
+#. copy/destroyGroupConfirm
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyGroupConfirm"
+msgid "Destroy {count} stored files in “{title}”?"
+msgstr "Destroy {count} stored files in “{title}”?"
+
+#. copy/destroyAllConfirm
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyAllConfirm"
+msgid ""
+"Destroy all Touhou University data under this browser origin? Identity, "
+"applications, grades, drafts, and short-lived tab data will disappear."
+msgstr ""
+"Destroy all Touhou University data under this browser origin? Identity, "
+"applications, grades, drafts, and short-lived tab data will disappear."
+
+#. copy/destroyed
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/destroyed"
+msgid "Destroyed {count} on-device files."
+msgstr "Destroyed {count} on-device files."
+
+#. copy/cabinetEmpty
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/cabinetEmpty"
+msgid "There are no files to destroy."
+msgstr "There are no files to destroy."
+
+#. copy/rawTitle
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/rawTitle"
+msgid "Raw file"
+msgstr "Raw file"
+
+#. copy/storageKey
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/storageKey"
+msgid "Storage key"
+msgstr "Storage key"
+
+#. copy/storageKind
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/storageKind"
+msgid "Storage location"
+msgstr "Storage location"
+
+#. copy/persistent
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/persistent"
+msgid "localStorage · retained after closing the tab"
+msgstr "localStorage · retained after closing the tab"
+
+#. copy/session
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/session"
+msgid "sessionStorage · this tab only"
+msgstr "sessionStorage · this tab only"
+
+#. copy/bytes
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/bytes"
+msgid "Space used"
+msgstr "Space used"
+
+#. copy/scope
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/scope"
+msgid "Visibility"
+msgstr "Visibility"
+
+#. copy/close
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/close"
+msgid "Close file"
+msgstr "Close file"
+
+#. copy/rawWarning
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/rawWarning"
+msgid ""
+"This is the actual stored content. Check names, answers, and medical records "
+"before sharing a screenshot or exported box."
+msgstr ""
+"This is the actual stored content. Check names, answers, and medical records "
+"before sharing a screenshot or exported box."
+
+#. copy/integrity
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/integrity"
+msgid ""
+"The kappa packing machine validates structure and seals; it does not vouch "
+"for mysterious files from the Outside World."
+msgstr ""
+"The kappa packing machine validates structure and seals; it does not vouch "
+"for mysterious files from the Outside World."
+
+#. copy/error/archive-size
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-size"
+msgid "The file is empty or exceeds 8 MiB, so the gatekeeper refused it."
+msgstr "The file is empty or exceeds 8 MiB, so the gatekeeper refused it."
+
+#. copy/error/archive-json
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-json"
+msgid "This is not a readable JSON archive box."
+msgstr "This is not a readable JSON archive box."
+
+#. copy/error/archive-format
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-format"
+msgid "The archive format or version does not belong to this cabinet."
+msgstr "The archive format or version does not belong to this cabinet."
+
+#. copy/error/archive-records
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-records"
+msgid "The file catalogue is missing or contains an unreasonable number of records."
+msgstr "The file catalogue is missing or contains an unreasonable number of records."
+
+#. copy/error/archive-record
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-record"
+msgid "At least one record has an invalid key, storage location, or value."
+msgstr "At least one record has an invalid key, storage location, or value."
+
+#. copy/error/archive-checksum
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-checksum"
+msgid "The SHA-256 seal does not match; the file may be edited or incompletely downloaded."
+msgstr "The SHA-256 seal does not match; the file may be edited or incompletely downloaded."
+
+#. copy/error/archive-import
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-import"
+msgid "The import policy is invalid."
+msgstr "The import policy is invalid."
+
+#. copy/error/archive-storage
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-storage"
+msgid "This browser refused access to localStorage."
+msgstr "This browser refused access to localStorage."
+
+#. copy/error/archive-quota
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/archive-quota"
+msgid ""
+"The browser is out of space. This import was rolled back and current files "
+"were preserved."
+msgstr ""
+"The browser is out of space. This import was rolled back and current files "
+"were preserved."
+
+#. copy/error/unknown
+#: src/js/local-records.js:22
+msgctxt "tree:copy#/error/unknown"
+msgid "The records cabinet cannot complete that action right now."
+msgstr "The records cabinet cannot complete that action right now."

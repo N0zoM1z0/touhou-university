@@ -1,0 +1,90 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. assessTriage.rules.1.0
+#: src/js/clinic-model.js:195
+msgctxt "text:assessTriage.rules.1.0"
+msgid "The live festival slip adds {value0} expected aid or clinic presentations."
+msgstr "祭典現場執行單預估另有 {value0} 人需要急救或候診。"
+
+#. consultationNote/0
+#: src/js/clinic-model.js:225
+msgctxt "tree:consultationNote#/0"
+msgid ""
+"Eirin separated the complaint into treatable parts and returned “probably "
+"fine” for revision."
+msgstr "永琳將主訴拆成能被處理的部分，並把「大概沒事」退回重寫。"
+
+#. consultationNote/1
+#: src/js/clinic-model.js:225
+msgctxt "tree:consultationNote#/1"
+msgid ""
+"Reisen completed wavelength and lunar triage; Tewi returned the token to a "
+"different drawer."
+msgstr "鈴仙完成波長與月相分診；帝把叫號牌放回了另一個抽屜。"
+
+#. consultationNote/2
+#: src/js/clinic-model.js:225
+msgctxt "tree:consultationNote#/2"
+msgid ""
+"The infirmary treated reversible injuries first and referred the file to "
+"Eientei with three exclamation points."
+msgstr "本部醫務室先處理可逆傷勢，並以三個驚嘆號轉介永遠亭覆核。"
+
+#. local.0.name.yes
+#: src/js/clinic-model.js:360
+msgctxt "text:local.0.name.yes"
+msgid "On-device patient"
+msgstr "本機病友"
+
+#. local.0.note
+#: src/js/clinic-model.js:365
+msgctxt "text:local.0.note"
+msgid "This token came from on-device triage and remains until consultation is completed."
+msgstr "這張號碼牌來自本機分診，候診時間會保留到完成診察。"
+
+#. clinicCommunityPosts.0.2.author
+#: src/js/clinic-model.js:402
+msgctxt "text:clinicCommunityPosts.0.2.author"
+msgid "Eientei Lunar Pharmacy"
+msgstr "永遠亭月藥調劑室"
+
+#. clinicCommunityPosts.0.2.title
+#: src/js/clinic-model.js:403
+msgctxt "text:clinicCommunityPosts.0.2.title"
+msgid "Prescription {value0} dispensed; recount anything Tewi handled"
+msgstr "處方 {value0} 已領藥；帝經手的數量請自行再數一次"
+
+#. clinicCommunityPosts.0.2.body
+#: src/js/clinic-model.js:404
+msgctxt "text:clinicCommunityPosts.0.2.body"
+msgid ""
+"Dispensed: {value0}. The bag uses bell, corner, and daylight units; do not "
+"add those units together."
+msgstr "本次調劑：{value0}。藥袋已寫明校鐘／轉角／日照單位；請勿把三種單位自行加總。"
+
+#. clinicCommunityPosts.0.2.author
+#: src/js/clinic-model.js:416
+msgctxt "text:clinicCommunityPosts.0.2.author.2"
+msgid "Campus Hospital Recovery Corridor"
+msgstr "校醫院康復走廊"
+
+#. clinicCommunityPosts.0.2.title
+#: src/js/clinic-model.js:417
+msgctxt "text:clinicCommunityPosts.0.2.title.2"
+msgid "{value0} complete; patient and observer differ by one box on “fully recovered”"
+msgstr "{value0}完成；旁觀者與本人對「完全恢復」仍有一格分歧"
+
+#. clinicCommunityPosts.0.2.body
+#: src/js/clinic-model.js:418
+msgctxt "text:clinicCommunityPosts.0.2.body.2"
+msgid ""
+"All four steps are stamped. Bring the original slip if symptoms recur; Aya’s "
+"clipping is not a medical-record copy."
+msgstr "四步回條全部蓋章。若復發，請帶原回條回診；文的剪報不視為病歷副本。"

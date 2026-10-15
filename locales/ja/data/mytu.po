@@ -1,0 +1,570 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. identityKinds.human
+#: src/data/mytu.js:4
+msgctxt "text:identityKinds.human"
+msgid "Human"
+msgstr "人間"
+
+#. identityKinds.youkai
+#: src/data/mytu.js:5
+msgctxt "text:identityKinds.youkai"
+msgid "Youkai"
+msgstr "妖怪"
+
+#. identityKinds.fairy
+#: src/data/mytu.js:6
+msgctxt "text:identityKinds.fairy"
+msgid "Fairy"
+msgstr "妖精"
+
+#. identityKinds.magician
+#: src/data/mytu.js:7
+msgctxt "text:identityKinds.magician"
+msgid "Magician"
+msgstr "魔法使い"
+
+#. identityKinds.spirit
+#: src/data/mytu.js:8
+msgctxt "text:identityKinds.spirit"
+msgid "Ghost / spirit"
+msgstr "幽霊・霊体"
+
+#. identityKinds.lunar
+#: src/data/mytu.js:9
+msgctxt "text:identityKinds.lunar"
+msgid "Lunarian / moon rabbit"
+msgstr "月人・月兎"
+
+#. identityKinds.other
+#: src/data/mytu.js:10
+msgctxt "text:identityKinds.other"
+msgid "Other / undecided"
+msgstr "その他・未定"
+
+#. originKinds.gensokyo
+#: src/data/mytu.js:14
+msgctxt "text:originKinds.gensokyo"
+msgid "Gensokyo resident"
+msgstr "幻想郷在住"
+
+#. originKinds.outside
+#: src/data/mytu.js:15
+msgctxt "text:originKinds.outside"
+msgid "Outside World visitor"
+msgstr "外の世界から"
+
+#. originKinds.lunar
+#: src/data/mytu.js:16
+msgctxt "text:originKinds.lunar"
+msgid "Moon / Lunar Capital"
+msgstr "月面・月の都"
+
+#. originKinds.shifting
+#: src/data/mytu.js:17
+msgctxt "text:originKinds.shifting"
+msgid "Residence moves"
+msgstr "住居が移動する"
+
+#. reviewers.reimu.name
+#: src/data/mytu.js:32
+msgctxt "text:reviewers.reimu.name"
+msgid "Reimu Hakurei"
+msgstr "博麗 霊夢"
+
+#. reviewers.reimu.role
+#: src/data/mytu.js:33
+msgctxt "text:reviewers.reimu.role"
+msgid "Professor of Incident Response"
+msgstr "異変対応実務 教授"
+
+#. reviewers.reimu.note
+#: src/data/mytu.js:35
+msgctxt "text:reviewers.reimu.note"
+msgid ""
+"Proceed, but incident response is not an excuse to skip exit conditions or a "
+"no-Bomb constraint. If the shrine barrier breaks, the lab repairs it."
+msgstr "実施は可。ただし「異変対応」を理由に退路や no-Bomb 条件を省略しないこと。神社の結界を破損した場合は研究室で修復。"
+
+#. reviewers.yukari.name
+#: src/data/mytu.js:38
+msgctxt "text:reviewers.yukari.name"
+msgid "Yukari Yakumo"
+msgstr "八雲 紫"
+
+#. reviewers.yukari.role
+#: src/data/mytu.js:39
+msgctxt "text:reviewers.yukari.role"
+msgid "Founding Professor of Boundary Studies"
+msgstr "境界研究 創設教授"
+
+#. reviewers.yukari.note
+#: src/data/mytu.js:41
+msgctxt "text:reviewers.yukari.note"
+msgid ""
+"The question has reached a boundary worth studying. Approved for interview; "
+"whether the interview is inside or outside campus will be defined that day."
+msgstr "研究に値する境界へ到達している。面接へ進める。ただし面接が学内か学外かは当日に定義する。"
+
+#. reviewers.keine.name
+#: src/data/mytu.js:44
+msgctxt "text:reviewers.keine.name"
+msgid "Keine Kamishirasawa"
+msgstr "上白沢 慧音"
+
+#. reviewers.keine.role
+#: src/data/mytu.js:45
+msgctxt "text:reviewers.keine.role"
+msgid "Dean of History and Records"
+msgstr "歴史記録学部長"
+
+#. reviewers.keine.note
+#: src/data/mytu.js:47
+msgctxt "text:reviewers.keine.note"
+msgid ""
+"Separate what happened, who recorded it, and which version was allowed to "
+"remain. The current method still treats later narration as contemporary "
+"evidence."
+msgstr "「何が起きたか」「誰が記録したか」「どの版が保存を許されたか」を三欄に分けること。現状では後世の叙述を当時の証拠として扱ってしまう。"
+
+#. reviewers.patchouli.name
+#: src/data/mytu.js:50
+msgctxt "text:reviewers.patchouli.name"
+msgid "Patchouli Knowledge"
+msgstr "パチュリー・ノーレッジ"
+
+#. reviewers.patchouli.role
+#: src/data/mytu.js:51
+msgctxt "text:reviewers.patchouli.role"
+msgid "Professor of Elemental Theory"
+msgstr "元素理論 教授"
+
+#. reviewers.patchouli.note
+#: src/data/mytu.js:53
+msgctxt "text:reviewers.patchouli.note"
+msgid ""
+"“Difficult” is not an operational variable. Separate danmaku readability, "
+"control latency, route solving, and resource limits, then identify what can "
+"be falsified."
+msgstr "「難しい」は操作可能な変数ではない。弾幕の可読性、操作遅延、経路探索、資源制約を分け、反証可能な項目を示すこと。"
+
+#. reviewers.marisa.name
+#: src/data/mytu.js:56
+msgctxt "text:reviewers.marisa.name"
+msgid "Marisa Kirisame"
+msgstr "霧雨 魔理沙"
+
+#. reviewers.marisa.role
+#: src/data/mytu.js:57
+msgctxt "text:reviewers.marisa.role"
+msgid "Professor of Applied Magic"
+msgstr "応用魔法 教授"
+
+#. reviewers.marisa.note
+#: src/data/mytu.js:59
+msgctxt "text:reviewers.marisa.note"
+msgid ""
+"If the method runs, run it. Submit three reproducible failures and material "
+"provenance before the formal trial; “found in the forest” counts as half a "
+"field."
+msgstr "動く方法ならまず試せ。正式実験前に再現可能な失敗を三回と素材出典を提出。「森で拾った」は今回は半欄扱い。"
+
+#. reviewers.eirin.name
+#: src/data/mytu.js:62
+msgctxt "text:reviewers.eirin.name"
+msgid "Eirin Yagokoro"
+msgstr "八意 永琳"
+
+#. reviewers.eirin.role
+#: src/data/mytu.js:63
+msgctxt "text:reviewers.eirin.role"
+msgid "Dean of Lunar Medicine"
+msgstr "月都医薬生命学部長"
+
+#. reviewers.eirin.note
+#: src/data/mytu.js:65
+msgctxt "text:reviewers.eirin.note"
+msgid ""
+"The question may proceed. Record lunar response separately from fatigue. "
+"Housing is provisionally near the bamboo clinic route; do not follow the "
+"fourth lantern."
+msgstr "次段階へ進める。月相反応と疲労は別々に記録すること。住居は竹林診療経路付近を仮指定し、第四の灯りには従わないこと。"
+
+#. reviewers.nitori.name
+#: src/data/mytu.js:68
+msgctxt "text:reviewers.nitori.name"
+msgid "Nitori Kawashiro"
+msgstr "河城 にとり"
+
+#. reviewers.nitori.role
+#: src/data/mytu.js:69
+msgctxt "text:reviewers.nitori.role"
+msgid "Dean of Kappa Engineering"
+msgstr "河童工学部長"
+
+#. reviewers.nitori.note
+#: src/data/mytu.js:71
+msgctxt "text:reviewers.nitori.note"
+msgid ""
+"Prototype approved. Log inputs, outputs, failure timestamps, and tape batch "
+"together. If the box cannot be opened, it is not maintainable."
+msgstr "試作可。入力、出力、故障時刻、テープのロットを同時に記録すること。箱が開かなければ整備可能とは認めない。"
+
+#. reviewers.aya.name
+#: src/data/mytu.js:74
+msgctxt "text:reviewers.aya.name"
+msgid "Aya Shameimaru"
+msgstr "射命丸 文"
+
+#. reviewers.aya.role
+#: src/data/mytu.js:75
+msgctxt "text:reviewers.aya.role"
+msgid "Dean of Tengu Journalism"
+msgstr "天狗新聞報道学部長"
+
+#. reviewers.aya.note
+#: src/data/mytu.js:77
+msgctxt "text:reviewers.aya.note"
+msgid ""
+"The abstract belongs on page one, which is exactly why its claim must "
+"shrink. Add a source chain and public-correction plan before I invent the "
+"headline."
+msgstr "一面向きの要旨だからこそ主張を絞る必要がある。こちらが見出しを決める前に、情報源の連鎖と公開訂正計画を追加すること。"
+
+#. reviewers.byakuren.name
+#: src/data/mytu.js:80
+msgctxt "text:reviewers.byakuren.name"
+msgid "Byakuren Hijiri"
+msgstr "聖 白蓮"
+
+#. reviewers.byakuren.role
+#: src/data/mytu.js:81
+msgctxt "text:reviewers.byakuren.role"
+msgid "Rotating Professor of Coexistence Practice"
+msgstr "共生実務 輪番教授"
+
+#. reviewers.byakuren.note
+#: src/data/mytu.js:83
+msgctxt "text:reviewers.byakuren.note"
+msgid ""
+"The question recognizes costs borne by different bodies and lifespans. "
+"Proceed, but include those who leave no written record in the next method."
+msgstr "異なる身体と寿命が負う費用を見ている点を評価する。次稿では文字を残さない者も方法に含めること。"
+
+#. reviewers.kanako.name
+#: src/data/mytu.js:86
+msgctxt "text:reviewers.kanako.name"
+msgid "Kanako Yasaka"
+msgstr "八坂 神奈子"
+
+#. reviewers.kanako.role
+#: src/data/mytu.js:87
+msgctxt "text:reviewers.kanako.role"
+msgid "Rotating Professor of Faith Infrastructure"
+msgstr "信仰基盤 輪番教授"
+
+#. reviewers.kanako.note
+#: src/data/mytu.js:89
+msgctxt "text:reviewers.kanako.note"
+msgid ""
+"The principle is sound; the resource table is not. Name who powers, repairs, "
+"and receives festival priority. Faith does not generate an omitted budget "
+"line."
+msgstr "理念はよいが資源表が足りない。給電、整備、祭日の優先権を誰が担うか追記すること。信仰は空欄の予算を発電しない。"
+
+#. reviewers.miko.name
+#: src/data/mytu.js:92
+msgctxt "text:reviewers.miko.name"
+msgid "Toyosatomimi no Miko"
+msgstr "豊聡耳 神子"
+
+#. reviewers.miko.role
+#: src/data/mytu.js:93
+msgctxt "text:reviewers.miko.role"
+msgid "Rotating Professor of Public Leadership"
+msgstr "公共指導 輪番教授"
+
+#. reviewers.miko.note
+#: src/data/mytu.js:95
+msgctxt "text:reviewers.miko.note"
+msgid ""
+"I hear eleven desires, but the application answers only three. State which "
+"requests you will not satisfy and who bears that decision."
+msgstr "十一の望みが聞こえるが、出願は三つにしか答えていない。満たさない要求と、その判断を誰が負うかを公開すること。"
+
+#. reviewerCommentary.reimu.question
+#: src/data/mytu.js:101
+msgctxt "text:reviewerCommentary.reimu.question"
+msgid ""
+"State where this becomes an incident and where it stops being my problem. "
+"The question may be strange; the responsibility boundary may not simply sit "
+"outside the shrine."
+msgstr "どの段階から異変で、どの段階から私の担当外かを先に示すこと。問いは奇妙でもよいが、責任境界を神社の外だけに引かない。"
+
+#. reviewerCommentary.reimu.method
+#: src/data/mytu.js:102
+msgctxt "text:reviewerCommentary.reimu.method"
+msgid ""
+"The method needs a real way to stop, clean up, and get back to dinner. Start "
+"conditions without exit conditions are not approved."
+msgstr "方法には本当に停止し、片付け、食事へ戻れる経路が必要。開始条件だけで終了条件がないものは不可。"
+
+#. reviewerCommentary.reimu.needs
+#: src/data/mytu.js:103
+msgctxt "text:reviewerCommentary.reimu.needs"
+msgid ""
+"Ask for what you need, but do not count a free venue, free repairs, and a "
+"free shrine maiden as one resource."
+msgstr "希望欄はいくら書いてもよいが、無料会場・無料修理・無料巫女を同じ資源として数えないこと。"
+
+#. reviewerCommentary.yukari.question
+#: src/data/mytu.js:106
+msgctxt "text:reviewerCommentary.yukari.question"
+msgid ""
+"The interesting part is which side the question quietly holds fixed. Bring a "
+"version that still works when that assumption fails."
+msgstr "この問いの面白さは、どちら側を密かに固定しているかにある。面接には、その仮定が崩れても成立する版を持参すること。"
+
+#. reviewerCommentary.yukari.method
+#: src/data/mytu.js:107
+msgctxt "text:reviewerCommentary.yukari.method"
+msgid ""
+"Your observation point appears to have only one address. Explain who remains "
+"the observer when the two sides of that address exchange places."
+msgstr "観察位置は一つの住所しか持たないようだ。住所の両側が入れ替わった時、誰が観察者のままかを示してほしい。"
+
+#. reviewerCommentary.yukari.needs
+#: src/data/mytu.js:108
+msgctxt "text:reviewerCommentary.yukari.needs"
+msgid ""
+"Support can be approved, but near and reachable are not the same housing "
+"condition. Boundary Studies reserves the right to reinterpret one of them."
+msgstr "支援希望は承認可能。ただし「近い」と「到達可能」は同じ住居条件ではない。境界研究院はいずれか一方を再解釈する権利を留保する。"
+
+#. reviewerCommentary.keine.question
+#: src/data/mytu.js:111
+msgctxt "text:reviewerCommentary.keine.question"
+msgid ""
+"Separate the event, its recorder, and the later interpretation. At least one "
+"sentence may be treating recollection as a same-day record."
+msgstr "問いの出来事・記録者・後世の解釈を分けること。少なくとも一文が回想を当日記録として扱う可能性がある。"
+
+#. reviewerCommentary.keine.method
+#: src/data/mytu.js:112
+msgctxt "text:reviewerCommentary.keine.method"
+msgid ""
+"The method can run, but every correction must retain the previous version "
+"and date. A correct answer without a version remains unsourced."
+msgstr "方法は実行可能。ただし訂正ごとに前版と日付を残すこと。版のない正答は史学館では出典不明のまま。"
+
+#. reviewerCommentary.keine.needs
+#: src/data/mytu.js:113
+msgctxt "text:reviewerCommentary.keine.needs"
+msgid ""
+"Needs will enter the record. Blank fields are recorded as not declared at "
+"application, not later rewritten as always having been so."
+msgstr "希望は記録する。空欄も「出願時未申告」と記し、後から「昔からそうだった」へ書き換えない。"
+
+#. reviewerCommentary.patchouli.question
+#: src/data/mytu.js:116
+msgctxt "text:reviewerCommentary.patchouli.question"
+msgid ""
+"The question mixes at least two quantities that can vary separately. Name "
+"them before deciding which deserves magical expenditure."
+msgstr "問いには独立に動き得る量が少なくとも二つ混ざっている。まず命名し、どちらに魔力を使う価値があるか決めること。"
+
+#. reviewerCommentary.patchouli.method
+#: src/data/mytu.js:117
+msgctxt "text:reviewerCommentary.patchouli.method"
+msgid ""
+"Observation is not a synonym for method. Add a comparison, a failure rule, "
+"and the claim you will abandon if the result reverses."
+msgstr "観察は方法の同義語ではない。比較条件、失敗基準、逆の結果が出た時に捨てる主張を追記すること。"
+
+#. reviewerCommentary.patchouli.needs
+#: src/data/mytu.js:118
+msgctxt "text:reviewerCommentary.patchouli.needs"
+msgid ""
+"Equipment needs are negotiable. Put material batch, storage condition, and "
+"return date in the table first. The library does not accept should still be "
+"there."
+msgstr "設備希望は協議可能。素材ロット、保存条件、返却期限を先に表へ入れること。図書館は「まだあるはず」を受け付けない。"
+
+#. reviewerCommentary.marisa.question
+#: src/data/mytu.js:121
+msgctxt "text:reviewerCommentary.marisa.question"
+msgid ""
+"This looks runnable and may blow up the original answer—good. Submit the "
+"cheapest version that can fail quickly."
+msgstr "この問いは実行できそうで、元の答えを吹き飛ばすかもしれない――いい。まず最安で最速に失敗する版を出せ。"
+
+#. reviewerCommentary.marisa.method
+#: src/data/mytu.js:122
+msgctxt "text:reviewerCommentary.marisa.method"
+msgid ""
+"You have steps; now make a record that lets someone else fail in the same "
+"place. Give full provenance. Forest is not a supplier name."
+msgstr "手順はある。次は他人も同じ場所で失敗できる記録が必要だ。素材出典は完全に書け。森は業者名じゃない。"
+
+#. reviewerCommentary.marisa.needs
+#: src/data/mytu.js:123
+msgctxt "text:reviewerCommentary.marisa.needs"
+msgid ""
+"List what you want to borrow; I will say what is available and what I "
+"already borrowed. If housed near the workshop, do not complain about "
+"reproducible midnight noise."
+msgstr "借りたい物を列挙しろ。貸せる物と、すでに私が借りている物を教える。工房近くの住居なら夜中の再現可能騒音に文句を言うな。"
+
+#. reviewerCommentary.eirin.question
+#: src/data/mytu.js:126
+msgctxt "text:reviewerCommentary.eirin.question"
+msgid ""
+"The question may proceed, but individual variation, lunar phase, and fatigue "
+"currently share one sentence. Give each its own field."
+msgstr "問いは次段階へ進めるが、個体差・月相・疲労が同じ文に入っている。三者を別の記録欄に分けること。"
+
+#. reviewerCommentary.eirin.method
+#: src/data/mytu.js:127
+msgctxt "text:reviewerCommentary.eirin.method"
+msgid ""
+"Write stopping conditions before dose or exposure. A participant saying "
+"probably fine must not be automatically encoded as fine."
+msgstr "中止条件を先に、用量・曝露を後に書くこと。対象者の「たぶん平気」を自動的に平気と符号化しない。"
+
+#. reviewerCommentary.eirin.needs
+#: src/data/mytu.js:128
+msgctxt "text:reviewerCommentary.eirin.needs"
+msgid ""
+"Support can be arranged, but medical care, lunar load reduction, and "
+"ordinary sleep-loss recovery are separate slips. If Tewi staples them "
+"together, hand them to Reisen."
+msgstr "希望は調整可能。ただし医療、月相低刺激、普通の夜更かし対策は別票。てゐが綴じた場合は鈴仙へ直接渡すこと。"
+
+#. reviewerCommentary.nitori.question
+#: src/data/mytu.js:131
+msgctxt "text:reviewerCommentary.nitori.question"
+msgid ""
+"This can become a prototype. Define input, output, and what still counts as "
+"success when smoke leaves the box."
+msgstr "この問いは試作できる。入力、出力、箱から煙が出た時に何を成功と数えるかを先に示すこと。"
+
+#. reviewerCommentary.nitori.method
+#: src/data/mytu.js:132
+msgctxt "text:reviewerCommentary.nitori.method"
+msgid ""
+"Add failure timestamp, version, and tape batch. Machines documented only by "
+"finished photos usually break between photographs."
+msgstr "故障時刻、版番号、テープロットを手順へ追加。完成写真だけの機械は、たいてい写真の間で壊れる。"
+
+#. reviewerCommentary.nitori.needs
+#: src/data/mytu.js:133
+msgctxt "text:reviewerCommentary.nitori.needs"
+msgid ""
+"Workshop space and water access can be scheduled, but maintenance clearance "
+"belongs in the request. A pretty box that cannot open is not maintainable, "
+"only expensive."
+msgstr "工房席と水路は調整可能だが、整備空間も希望へ含めること。開かない綺麗な箱は整備可能でなく、ただ高い。"
+
+#. reviewerCommentary.aya.question
+#: src/data/mytu.js:136
+msgctxt "text:reviewerCommentary.aya.question"
+msgid ""
+"The question already sounds like a headline, but not a correctable one. "
+"State what new evidence would force you to replace its verb."
+msgstr "問いはすでに見出しらしいが、訂正可能な見出しではない。どの新証拠で動詞を変更するか示すこと。"
+
+#. reviewerCommentary.aya.method
+#: src/data/mytu.js:137
+msgctxt "text:reviewerCommentary.aya.method"
+msgid ""
+"Separate source, observer, and relayer. Anonymous is allowed; no source "
+"chain is not. This rule also applies to my newspaper."
+msgstr "情報源、観察者、伝聞者を三欄に分ける。匿名は可、出所連鎖なしは不可。この規則は私の新聞にも適用される。"
+
+#. reviewerCommentary.aya.needs
+#: src/data/mytu.js:138
+msgctxt "text:reviewerCommentary.aya.needs"
+msgid ""
+"Mark what cannot be public before listing public needs. If left blank, I may "
+"assume the space suits a headline; that is usually bad for both sides."
+msgstr "公開希望の前に非公開部分を示すこと。空欄なら見出し向きと判断するが、通常は双方に良くない。"
+
+#. reviewerCommentary.byakuren.question
+#: src/data/mytu.js:141
+msgctxt "text:reviewerCommentary.byakuren.question"
+msgid ""
+"The question sees difference but not who bears the cost of comparison. "
+"Include lifespan, body, and those unable to leave text."
+msgstr "問いは差異を見ているが、比較の費用を誰が負うかがない。寿命、身体、文字を残せない者を含めること。"
+
+#. reviewerCommentary.byakuren.method
+#: src/data/mytu.js:142
+msgctxt "text:reviewerCommentary.byakuren.method"
+msgid ""
+"If everyone must participate identically, convenience is being called "
+"fairness. Keep at least one path a different body can complete."
+msgstr "全員に同じ参加方法を求めるなら、便利を公平と呼んでいるだけ。異なる身体でも完了できる経路を一つ残すこと。"
+
+#. reviewerCommentary.byakuren.needs
+#: src/data/mytu.js:143
+msgctxt "text:reviewerCommentary.byakuren.needs"
+msgid ""
+"Support is not an attachment added after review. Put food, access, and rest "
+"in the main plan or those excluded first will never appear in the results."
+msgstr "支援は審査後の添付ではない。食事、通行、休息を本案へ入れなければ、最初に除外された者は結果に現れない。"
+
+#. reviewerCommentary.kanako.question
+#: src/data/mytu.js:146
+msgctxt "text:reviewerCommentary.kanako.question"
+msgid ""
+"The principle is large enough. Connect it to a line that supplies power, "
+"water, or people. Public value does not generate electricity from a title."
+msgstr "理念は十分大きい。次は実際に電力・水・人員を供給する線へ接続すること。公共性は見出しだけでは発電しない。"
+
+#. reviewerCommentary.kanako.method
+#: src/data/mytu.js:147
+msgctxt "text:reviewerCommentary.kanako.method"
+msgid ""
+"Name maintenance, shutdown time, and festival priority. Consensus without an "
+"operating schedule is usually someone else’s overtime."
+msgstr "保守担当、停止時刻、祭日の優先権を方法へ書くこと。運転表のない合意は、たいてい誰かの残業である。"
+
+#. reviewerCommentary.kanako.needs
+#: src/data/mytu.js:148
+msgctxt "text:reviewerCommentary.kanako.needs"
+msgid ""
+"Resources are negotiable, but separate required capacity, desired capacity, "
+"and capacity Kanako believes you will eventually need. They occupy different "
+"budget lines."
+msgstr "資源は協議可能。ただし必要容量、希望容量、神奈子がいずれ必要と考える容量を分けること。予算欄は別々だ。"
+
+#. reviewerCommentary.miko.question
+#: src/data/mytu.js:151
+msgctxt "text:reviewerCommentary.miko.question"
+msgid ""
+"I hear more desires than the question declares. State which will not be "
+"satisfied and who will publicly say no."
+msgstr "問いに書かれた以上の願いが聞こえる。どの願いを満たさず、誰が公に断るかを示すこと。"
+
+#. reviewerCommentary.miko.method
+#: src/data/mytu.js:152
+msgctxt "text:reviewerCommentary.miko.method"
+msgid ""
+"The method lists actions but not decision-makers. Every turn needs an "
+"accountable person; everyone agreed is not a name that can be summoned."
+msgstr "方法には行動があるが決定者がない。各分岐には責任者が必要で、「皆の合意」は召喚できる名前ではない。"
+
+#. reviewerCommentary.miko.needs
+#: src/data/mytu.js:153
+msgctxt "text:reviewerCommentary.miko.needs"
+msgid ""
+"Priorities cannot first appear after conflict. Rank them now; I would rather "
+"not hear eleven people simultaneously claim to be first."
+msgstr "希望の優先順は衝突後に初めて現れてはならない。今並べること。十一人が同時に自分が先だと言うのを避けたい。"

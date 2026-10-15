@@ -1,0 +1,264 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/eyebrow"
+msgid "GENSOKYO ACADEMIC CALENDAR / SEASONS × MOON × INCIDENTS"
+msgstr "GENSOKYO ACADEMIC CALENDAR / SEASONS × MOON × INCIDENTS"
+
+#. copy/title
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/title"
+msgid ""
+"Terms have start dates; spring, full moons, and incidents retain the right "
+"to arrive off schedule."
+msgstr ""
+"Terms have start dates; spring, full moons, and incidents retain the right "
+"to arrive off schedule."
+
+#. copy/lead
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/lead"
+msgid ""
+"This calendar is not a static poster. Season, moon, and date alter classes, "
+"facilities, transport, dining, and clinic load. Saving a leaf stores a "
+"reminder; it does not pin the world down."
+msgstr ""
+"This calendar is not a static poster. Season, moon, and date alter classes, "
+"facilities, transport, dining, and clinic load. Saving a leaf stores a "
+"reminder; it does not pin the world down."
+
+#. copy/today
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/today"
+msgid "Today's calendar face"
+msgstr "Today's calendar face"
+
+#. copy/currentSeason
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/currentSeason"
+msgid "Duty season"
+msgstr "Duty season"
+
+#. copy/currentMoon
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/currentMoon"
+msgid "Moon"
+msgstr "Moon"
+
+#. copy/active
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/active"
+msgid "Changing campus now"
+msgstr "Changing campus now"
+
+#. copy/noActive
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/noActive"
+msgid "No added incident this bell; the season above is still adding trouble at its own pace."
+msgstr "No added incident this bell; the season above is still adding trouble at its own pace."
+
+#. copy/year
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/year"
+msgid "Year calendar"
+msgstr "Year calendar"
+
+#. copy/agenda
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/agenda"
+msgid "My calendar leaves"
+msgstr "My calendar leaves"
+
+#. copy/print
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/print"
+msgid "Print academic calendar"
+msgstr "Print academic calendar"
+
+#. copy/download
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/download"
+msgid "Download iCalendar"
+msgstr "Download iCalendar"
+
+#. copy/all
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/all"
+msgid "All year"
+msgstr "All year"
+
+#. copy/open
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/open"
+msgid "Open calendar leaf"
+msgstr "Open calendar leaf"
+
+#. copy/window
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/window"
+msgid "Seasonal window"
+msgstr "Seasonal window"
+
+#. copy/premise
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/premise"
+msgid "What happens"
+msgstr "What happens"
+
+#. copy/impacts
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/impacts"
+msgid "Campus projections"
+msgstr "Campus projections"
+
+#. copy/course
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/course"
+msgid "Courses"
+msgstr "Courses"
+
+#. copy/transport
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/transport"
+msgid "Transport"
+msgstr "Transport"
+
+#. copy/library
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/library"
+msgid "Library"
+msgstr "Library"
+
+#. copy/medicine
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/medicine"
+msgid "Clinic"
+msgstr "Clinic"
+
+#. copy/save
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/save"
+msgid "Add red bookmark"
+msgstr "Add red bookmark"
+
+#. copy/remove
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/remove"
+msgid "Remove red bookmark"
+msgstr "Remove red bookmark"
+
+#. copy/saved
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/saved"
+msgid "Calendar leaf saved; Tengu Post can now see it too."
+msgstr "Calendar leaf saved; Tengu Post can now see it too."
+
+#. copy/removed
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/removed"
+msgid "Red bookmark removed; the season will still happen."
+msgstr "Red bookmark removed; the season will still happen."
+
+#. copy/noAgenda
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/noAgenda"
+msgid "No saved leaves. Open an event and insert the red bookmark."
+msgstr "No saved leaves. Open an event and insert the red bookmark."
+
+#. copy/back
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/back"
+msgid "Back to year calendar"
+msgstr "Back to year calendar"
+
+#. copy/copied
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/copied"
+msgid "URL copied."
+msgstr "URL copied."
+
+#. copy/share
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/share"
+msgid "Copy this calendar-leaf URL"
+msgstr "Copy this calendar-leaf URL"
+
+#. copy/activeNow
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/activeNow"
+msgid "Active now"
+msgstr "Active now"
+
+#. copy/annualRule
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/annualRule"
+msgid "Recurs annually by date"
+msgstr "Recurs annually by date"
+
+#. copy/lunarRule
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/lunarRule"
+msgid "Recurs by moon and campus bell"
+msgstr "Recurs by moon and campus bell"
+
+#. copy/yearLabel
+#: src/js/academic-calendar.js:40
+msgctxt "tree:copy#/yearLabel"
+msgid "Gensokyo Academic Year"
+msgstr "Gensokyo Academic Year"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:30
+msgctxt "text:moonLabels.-"
+msgid "New moon"
+msgstr "New moon"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:31
+msgctxt "text:moonLabels.-.2"
+msgid "Waxing crescent"
+msgstr "Waxing crescent"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:32
+msgctxt "text:moonLabels.-.3"
+msgid "Pre-first-quarter"
+msgstr "Pre-first-quarter"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:33
+msgctxt "text:moonLabels.-.4"
+msgid "Waxing gibbous"
+msgstr "Waxing gibbous"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:34
+msgctxt "text:moonLabels.-.5"
+msgid "Full moon"
+msgstr "Full moon"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:35
+msgctxt "text:moonLabels.-.6"
+msgid "Waning gibbous"
+msgstr "Waning gibbous"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:36
+msgctxt "text:moonLabels.-.7"
+msgid "Post-last-quarter"
+msgstr "Post-last-quarter"
+
+#. moonLabels.-
+#: src/js/academic-calendar.js:37
+msgctxt "text:moonLabels.-.8"
+msgid "Waning crescent"
+msgstr "Waning crescent"

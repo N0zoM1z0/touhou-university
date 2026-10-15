@@ -1,0 +1,2184 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. incidentCases.late-bell-seven.location
+#: src/data/incidents.js:16
+msgctxt "text:incidentCases.late-bell-seven.location"
+msgid "Boundary Hall · Bell Tower"
+msgstr "Boundary Hall · Bell Tower"
+
+#. incidentCases.late-bell-seven.title
+#: src/data/incidents.js:17
+msgctxt "text:incidentCases.late-bell-seven.title"
+msgid "Seven punctual students heard the latecomer-only bell"
+msgstr "Seven punctual students heard the latecomer-only bell"
+
+#. incidentCases.late-bell-seven.lede
+#: src/data/incidents.js:18
+msgctxt "text:incidentCases.late-bell-seven.lede"
+msgid ""
+"On the first trial day, the bell should have reached only latecomers. Seven "
+"students with punctual records heard the same strike in different places; "
+"three then left their next class early."
+msgstr ""
+"On the first trial day, the bell should have reached only latecomers. Seven "
+"students with punctual records heard the same strike in different places; "
+"three then left their next class early."
+
+#. incidentCases.late-bell-seven.dispatch
+#: src/data/incidents.js:19
+msgctxt "text:incidentCases.late-bell-seven.dispatch"
+msgid ""
+"Automatic judgment is suspended; ordinary timekeeping remains active. Do not "
+"be deliberately late for testing."
+msgstr ""
+"Automatic judgment is suspended; ordinary timekeeping remains active. Do not "
+"be deliberately late for testing."
+
+#. incidentCases.late-bell-seven.affected
+#: src/data/incidents.js:20
+msgctxt "text:incidentCases.late-bell-seven.affected"
+msgid "7 students, 2 classes, and 1 roll book insisting it is correct"
+msgstr "7 students, 2 classes, and 1 roll book insisting it is correct"
+
+#. incidentCases.late-bell-seven.signal
+#: src/data/incidents.js:21
+msgctxt "text:incidentCases.late-bell-seven.signal"
+msgid "Bell detection among non-targets"
+msgstr "Bell detection among non-targets"
+
+#. incidentCases.late-bell-seven.unit
+#: src/data/incidents.js:22
+msgctxt "text:incidentCases.late-bell-seven.unit"
+msgid "percentage points"
+msgstr "percentage points"
+
+#. incidentCases.late-bell-seven.hypotheses.0.roster-lag.1
+#: src/data/incidents.js:26
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.0.roster-lag.1"
+msgid "The roll clock lags behind the bell"
+msgstr "The roll clock lags behind the bell"
+
+#. incidentCases.late-bell-seven.hypotheses.0.roster-lag.2
+#: src/data/incidents.js:26
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.0.roster-lag.2"
+msgid ""
+"The tower reads the submitted snapshot; classroom records show punctuality "
+"after Keine’s annotation."
+msgstr ""
+"The tower reads the submitted snapshot; classroom records show punctuality "
+"after Keine’s annotation."
+
+#. incidentCases.late-bell-seven.hypotheses.1.wing-reflection.1
+#: src/data/incidents.js:27
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.1.wing-reflection.1"
+msgid "Large wings reflected the bell to bystanders"
+msgstr "Large wings reflected the bell to bystanders"
+
+#. incidentCases.late-bell-seven.hypotheses.1.wing-reflection.2
+#: src/data/incidents.js:27
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.1.wing-reflection.2"
+msgid ""
+"Four of seven stood near the tengu approach, where sound may have bypassed "
+"personal wards."
+msgstr ""
+"Four of seven stood near the tengu approach, where sound may have bypassed "
+"personal wards."
+
+#. incidentCases.late-bell-seven.hypotheses.2.expectation.1
+#: src/data/incidents.js:28
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.2.expectation.1"
+msgid "The bulletin created an expectation of hearing it"
+msgstr "The bulletin created an expectation of hearing it"
+
+#. incidentCases.late-bell-seven.hypotheses.2.expectation.2
+#: src/data/incidents.js:28
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.2.expectation.2"
+msgid "Bunbunmaru Campus News issued “Late Bell Rings” nine minutes before the trial."
+msgstr "Bunbunmaru Campus News issued “Late Bell Rings” nine minutes before the trial."
+
+#. incidentCases.late-bell-seven.evidence.0.tower-log.2
+#: src/data/incidents.js:31
+msgctxt "text:incidentCases.late-bell-seven.evidence.0.tower-log.2"
+msgid "Bell decision log v1.3"
+msgstr "Bell decision log v1.3"
+
+#. incidentCases.late-bell-seven.evidence.0.tower-log.3
+#: src/data/incidents.js:31
+msgctxt "text:incidentCases.late-bell-seven.evidence.0.tower-log.3"
+msgid ""
+"Seven IDs were marked late at 08:09:58; the classroom roll shows 08:09:41. "
+"The two systems do not share the same boundary for 08:10."
+msgstr ""
+"Seven IDs were marked late at 08:09:58; the classroom roll shows 08:09:41. "
+"The two systems do not share the same boundary for 08:10."
+
+#. incidentCases.late-bell-seven.evidence.0.tower-log.4
+#: src/data/incidents.js:31
+msgctxt "text:incidentCases.late-bell-seven.evidence.0.tower-log.4"
+msgid "Kappa tower terminal"
+msgstr "Kappa tower terminal"
+
+#. incidentCases.late-bell-seven.evidence.1.roll-page.2
+#: src/data/incidents.js:32
+msgctxt "text:incidentCases.late-bell-seven.evidence.1.roll-page.2"
+msgid "Roll page annotated by Keine"
+msgstr "Roll page annotated by Keine"
+
+#. incidentCases.late-bell-seven.evidence.1.roll-page.3
+#: src/data/incidents.js:32
+msgctxt "text:incidentCases.late-bell-seven.evidence.1.roll-page.3"
+msgid ""
+"The “punctual” ink dried after the bell, but refers to an arrival before it. "
+"Keine notes this is a correction, not time travel."
+msgstr ""
+"The “punctual” ink dried after the bell, but refers to an arrival before it. "
+"Keine notes this is a correction, not time travel."
+
+#. incidentCases.late-bell-seven.evidence.1.roll-page.4
+#: src/data/incidents.js:32
+msgctxt "text:incidentCases.late-bell-seven.evidence.1.roll-page.4"
+msgid "History & Records"
+msgstr "History & Records"
+
+#. incidentCases.late-bell-seven.evidence.2.roof-audio.2
+#: src/data/incidents.js:33
+msgctxt "text:incidentCases.late-bell-seven.evidence.2.roof-audio.2"
+msgid "Four-way roof audio"
+msgstr "Four-way roof audio"
+
+#. incidentCases.late-bell-seven.evidence.2.roof-audio.3
+#: src/data/incidents.js:33
+msgctxt "text:incidentCases.late-bell-seven.evidence.2.roof-audio.3"
+msgid ""
+"A 0.7-second echo appears north; only two affected students were there. Wing "
+"reflection explains part, not all seven."
+msgstr ""
+"A 0.7-second echo appears north; only two affected students were there. Wing "
+"reflection explains part, not all seven."
+
+#. incidentCases.late-bell-seven.evidence.2.roof-audio.4
+#: src/data/incidents.js:33
+msgctxt "text:incidentCases.late-bell-seven.evidence.2.roof-audio.4"
+msgid "Tengu Observatory"
+msgstr "Tengu Observatory"
+
+#. incidentCases.late-bell-seven.evidence.3.extra-edition.2
+#: src/data/incidents.js:34
+msgctxt "text:incidentCases.late-bell-seven.evidence.3.extra-edition.2"
+msgid "Extra edition nine minutes before the bell"
+msgstr "Extra edition nine minutes before the bell"
+
+#. incidentCases.late-bell-seven.evidence.3.extra-edition.3
+#: src/data/incidents.js:34
+msgctxt "text:incidentCases.late-bell-seven.evidence.3.extra-edition.3"
+msgid ""
+"The headline says the bell rang; the body says it is due later. Aya says the "
+"headline used “the present when readers reach the paper.”"
+msgstr ""
+"The headline says the bell rang; the body says it is due later. Aya says the "
+"headline used “the present when readers reach the paper.”"
+
+#. incidentCases.late-bell-seven.evidence.3.extra-edition.4
+#: src/data/incidents.js:34
+msgctxt "text:incidentCases.late-bell-seven.evidence.3.extra-edition.4"
+msgid "Bunbunmaru clipping"
+msgstr "Bunbunmaru clipping"
+
+#. incidentCases.late-bell-seven.testimony.0.student-17.1
+#: src/data/incidents.js:37
+msgctxt "text:incidentCases.late-bell-seven.testimony.0.student-17.1"
+msgid "Outside exchange student 17"
+msgstr "Outside exchange student 17"
+
+#. incidentCases.late-bell-seven.testimony.0.student-17.2
+#: src/data/incidents.js:37
+msgctxt "text:incidentCases.late-bell-seven.testimony.0.student-17.2"
+msgid "Affected student"
+msgstr "Affected student"
+
+#. incidentCases.late-bell-seven.testimony.0.student-17.3
+#: src/data/incidents.js:37
+msgctxt "text:incidentCases.late-bell-seven.testimony.0.student-17.3"
+msgid ""
+"I saw the extra first but assumed it was newspaper tense. I checked the roll "
+"only after hearing the actual bell."
+msgstr ""
+"I saw the extra first but assumed it was newspaper tense. I checked the roll "
+"only after hearing the actual bell."
+
+#. incidentCases.late-bell-seven.testimony.0.student-17.4
+#: src/data/incidents.js:37
+msgctxt "text:incidentCases.late-bell-seven.testimony.0.student-17.4"
+msgid ""
+"Expectation remains possible, but the student describes the northbound echo "
+"after the strike."
+msgstr ""
+"Expectation remains possible, but the student describes the northbound echo "
+"after the strike."
+
+#. incidentCases.late-bell-seven.testimony.1.aya.1
+#: src/data/incidents.js:38
+msgctxt "text:incidentCases.late-bell-seven.testimony.1.aya.1"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. incidentCases.late-bell-seven.testimony.1.aya.2
+#: src/data/incidents.js:38
+msgctxt "text:incidentCases.late-bell-seven.testimony.1.aya.2"
+msgid "Publisher / observer"
+msgstr "Publisher / observer"
+
+#. incidentCases.late-bell-seven.testimony.1.aya.3
+#: src/data/incidents.js:38
+msgctxt "text:incidentCases.late-bell-seven.testimony.1.aya.3"
+msgid ""
+"I did not make the bell ring early. I merely knew it would ring before it "
+"did. Journalism treats those very differently."
+msgstr ""
+"I did not make the bell ring early. I merely knew it would ring before it "
+"did. Journalism treats those very differently."
+
+#. incidentCases.late-bell-seven.testimony.1.aya.4
+#: src/data/incidents.js:38
+msgctxt "text:incidentCases.late-bell-seven.testimony.1.aya.4"
+msgid "She controls part of the exposure and the first public narrative."
+msgstr "She controls part of the exposure and the first public narrative."
+
+#. incidentCases.late-bell-seven.testimony.2.nitori.1
+#: src/data/incidents.js:39
+msgctxt "text:incidentCases.late-bell-seven.testimony.2.nitori.1"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. incidentCases.late-bell-seven.testimony.2.nitori.2
+#: src/data/incidents.js:39
+msgctxt "text:incidentCases.late-bell-seven.testimony.2.nitori.2"
+msgid "Equipment maintainer"
+msgstr "Equipment maintainer"
+
+#. incidentCases.late-bell-seven.testimony.2.nitori.3
+#: src/data/incidents.js:39
+msgctxt "text:incidentCases.late-bell-seven.testimony.2.nitori.3"
+msgid ""
+"The tower clock is absolutely accurate. Whether it reads today’s roll was "
+"not in my procurement specification."
+msgstr ""
+"The tower clock is absolutely accurate. Whether it reads today’s roll was "
+"not in my procurement specification."
+
+#. incidentCases.late-bell-seven.testimony.2.nitori.4
+#: src/data/incidents.js:39
+msgctxt "text:incidentCases.late-bell-seven.testimony.2.nitori.4"
+msgid "Instrument time and data version are separate questions."
+msgstr "Instrument time and data version are separate questions."
+
+#. incidentCases.late-bell-seven.actions.0.freeze-roster.1
+#: src/data/incidents.js:42
+msgctxt "text:incidentCases.late-bell-seven.actions.0.freeze-roster.1"
+msgid "Freeze the tower’s roll version"
+msgstr "Freeze the tower’s roll version"
+
+#. incidentCases.late-bell-seven.actions.0.freeze-roster.2
+#: src/data/incidents.js:42
+msgctxt "text:incidentCases.late-bell-seven.actions.0.freeze-roster.2"
+msgid "Use one roll snapshot throughout a trial, accepting Keine’s annotations afterward."
+msgstr "Use one roll snapshot throughout a trial, accepting Keine’s annotations afterward."
+
+#. incidentCases.late-bell-seven.actions.0.freeze-roster.3
+#: src/data/incidents.js:42
+msgctxt "text:incidentCases.late-bell-seven.actions.0.freeze-roster.3"
+msgid "Some corrected lateness remains temporarily visible."
+msgstr "Some corrected lateness remains temporarily visible."
+
+#. incidentCases.late-bell-seven.actions.1.calibrate-clocks.1
+#: src/data/incidents.js:43
+msgctxt "text:incidentCases.late-bell-seven.actions.1.calibrate-clocks.1"
+msgid "Synchronise tower and classroom boundaries"
+msgstr "Synchronise tower and classroom boundaries"
+
+#. incidentCases.late-bell-seven.actions.1.calibrate-clocks.2
+#: src/data/incidents.js:43
+msgctxt "text:incidentCases.late-bell-seven.actions.1.calibrate-clocks.2"
+msgid "Mark 08:10 on both sides with one pulse without rewriting existing attendance."
+msgstr "Mark 08:10 on both sides with one pulse without rewriting existing attendance."
+
+#. incidentCases.late-bell-seven.actions.1.calibrate-clocks.3
+#: src/data/incidents.js:43
+msgctxt "text:incidentCases.late-bell-seven.actions.1.calibrate-clocks.3"
+msgid "Yukari wants the pulse’s side defined while it crosses."
+msgstr "Yukari wants the pulse’s side defined while it crosses."
+
+#. incidentCases.late-bell-seven.actions.2.quiet-trial.1
+#: src/data/incidents.js:44
+msgctxt "text:incidentCases.late-bell-seven.actions.2.quiet-trial.1"
+msgid "Run one morning without advance headlines"
+msgstr "Run one morning without advance headlines"
+
+#. incidentCases.late-bell-seven.actions.2.quiet-trial.2
+#: src/data/incidents.js:44
+msgctxt "text:incidentCases.late-bell-seven.actions.2.quiet-trial.2"
+msgid "Journalism may observe, but publication waits until after the strike."
+msgstr "Journalism may observe, but publication waits until after the strike."
+
+#. incidentCases.late-bell-seven.actions.2.quiet-trial.3
+#: src/data/incidents.js:44
+msgctxt "text:incidentCases.late-bell-seven.actions.2.quiet-trial.3"
+msgid "Aya has pre-filed “University Delays Vital Information.”"
+msgstr "Aya has pre-filed “University Delays Vital Information.”"
+
+#. incidentCases.late-bell-seven.actions.3.move-berth.1
+#: src/data/incidents.js:45
+msgctxt "text:incidentCases.late-bell-seven.actions.3.move-berth.1"
+msgid "Temporarily move the north large-wing berth"
+msgstr "Temporarily move the north large-wing berth"
+
+#. incidentCases.late-bell-seven.actions.3.move-berth.2
+#: src/data/incidents.js:45
+msgctxt "text:incidentCases.late-bell-seven.actions.3.move-berth.2"
+msgid "Remove wing reflection from the next round and compare north with south."
+msgstr "Remove wing reflection from the next round and compare north with south."
+
+#. incidentCases.late-bell-seven.actions.3.move-berth.3
+#: src/data/incidents.js:45
+msgctxt "text:incidentCases.late-bell-seven.actions.3.move-berth.3"
+msgid "Tengu students say the twelve-metre detour itself creates lateness."
+msgstr "Tengu students say the twelve-metre detour itself creates lateness."
+
+#. incidentCases.late-bell-seven.reactions.0.author
+#: src/data/incidents.js:48
+msgctxt "text:incidentCases.late-bell-seven.reactions.0.author"
+msgid "Bell Incident Desk"
+msgstr "Bell Incident Desk"
+
+#. incidentCases.late-bell-seven.reactions.0.title
+#: src/data/incidents.js:48
+msgctxt "text:incidentCases.late-bell-seven.reactions.0.title"
+msgid "Bell case closed: {finding}"
+msgstr "Bell case closed: {finding}"
+
+#. incidentCases.late-bell-seven.reactions.0.body
+#: src/data/incidents.js:48
+msgctxt "text:incidentCases.late-bell-seven.reactions.0.body"
+msgid "Action: {action}. Design identifiability {quality}/100; file {ref}."
+msgstr "Action: {action}. Design identifiability {quality}/100; file {ref}."
+
+#. incidentCases.late-bell-seven.reactions.1.author
+#: src/data/incidents.js:49
+msgctxt "text:incidentCases.late-bell-seven.reactions.1.author"
+msgid "Seven punctual but unconvinced students"
+msgstr "Seven punctual but unconvinced students"
+
+#. incidentCases.late-bell-seven.reactions.1.title
+#: src/data/incidents.js:49
+msgctxt "text:incidentCases.late-bell-seven.reactions.1.title"
+msgid "So were we late or not?"
+msgstr "So were we late or not?"
+
+#. incidentCases.late-bell-seven.reactions.1.body
+#: src/data/incidents.js:49
+msgctxt "text:incidentCases.late-bell-seven.reactions.1.body"
+msgid ""
+"The study says {finding}; the registrar still has two times. Do appeals "
+"attach the bell or the ink?"
+msgstr ""
+"The study says {finding}; the registrar still has two times. Do appeals "
+"attach the bell or the ink?"
+
+#. incidentCases.late-bell-seven.reactions.2.author
+#: src/data/incidents.js:50
+msgctxt "text:incidentCases.late-bell-seven.reactions.2.author"
+msgid "Bunbunmaru Corrections"
+msgstr "Bunbunmaru Corrections"
+
+#. incidentCases.late-bell-seven.reactions.2.title
+#: src/data/incidents.js:50
+msgctxt "text:incidentCases.late-bell-seven.reactions.2.title"
+msgid "Correction: we did not advance the bell; the headline arrived early"
+msgstr "Correction: we did not advance the bell; the headline arrived early"
+
+#. incidentCases.late-bell-seven.reactions.2.body
+#: src/data/incidents.js:50
+msgctxt "text:incidentCases.late-bell-seven.reactions.2.body"
+msgid "We accept part of {ref}, while reserving editorial control over the boundary of “early.”"
+msgstr "We accept part of {ref}, while reserving editorial control over the boundary of “early.”"
+
+#. incidentCases.fourth-lantern-loop.location
+#: src/data/incidents.js:60
+msgctxt "text:incidentCases.fourth-lantern-loop.location"
+msgid "Bamboo Forest · Fourth Blue Lantern Line"
+msgstr "Bamboo Forest · Fourth Blue Lantern Line"
+
+#. incidentCases.fourth-lantern-loop.title
+#: src/data/incidents.js:61
+msgctxt "text:incidentCases.fourth-lantern-loop.title"
+msgid "Three rabbit shuttles arrived at the same “fourth lantern”"
+msgstr "Three rabbit shuttles arrived at the same “fourth lantern”"
+
+#. incidentCases.fourth-lantern-loop.lede
+#: src/data/incidents.js:62
+msgctxt "text:incidentCases.fourth-lantern-loop.lede"
+msgid ""
+"Three shuttles left by different routes and returned to the same platform "
+"within twelve minutes. Conductors say the platform moved; the platform says "
+"the vehicles never left."
+msgstr ""
+"Three shuttles left by different routes and returned to the same platform "
+"within twelve minutes. Conductors say the platform moved; the platform says "
+"the vehicles never left."
+
+#. incidentCases.fourth-lantern-loop.dispatch
+#: src/data/incidents.js:63
+msgctxt "text:incidentCases.fourth-lantern-loop.dispatch"
+msgid ""
+"Rabbit shuttles divert via lantern five. If another fifth lantern appears "
+"first, do not use both."
+msgstr ""
+"Rabbit shuttles divert via lantern five. If another fifth lantern appears "
+"first, do not use both."
+
+#. incidentCases.fourth-lantern-loop.affected
+#: src/data/incidents.js:64
+msgctxt "text:incidentCases.fourth-lantern-loop.affected"
+msgid "43 passengers, 3 shuttles, at least 1 platform"
+msgstr "43 passengers, 3 shuttles, at least 1 platform"
+
+#. incidentCases.fourth-lantern-loop.signal
+#: src/data/incidents.js:65
+msgctxt "text:incidentCases.fourth-lantern-loop.signal"
+msgid "Shuttles reaching Eientei correctly"
+msgstr "Shuttles reaching Eientei correctly"
+
+#. incidentCases.fourth-lantern-loop.unit
+#: src/data/incidents.js:66
+msgctxt "text:incidentCases.fourth-lantern-loop.unit"
+msgid "percentage points"
+msgstr "percentage points"
+
+#. incidentCases.fourth-lantern-loop.hypotheses.0.firmware-drift.1
+#: src/data/incidents.js:70
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.0.firmware-drift.1"
+msgid "The shuttles used different lantern firmware"
+msgstr "The shuttles used different lantern firmware"
+
+#. incidentCases.fourth-lantern-loop.hypotheses.0.firmware-drift.2
+#: src/data/incidents.js:70
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.0.firmware-drift.2"
+msgid "Kappa terminals show v3.1b, v3.1b-really-fixed, and v3.2-do-not-release."
+msgstr "Kappa terminals show v3.1b, v3.1b-really-fixed, and v3.2-do-not-release."
+
+#. incidentCases.fourth-lantern-loop.hypotheses.1.tewi-label.1
+#: src/data/incidents.js:71
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.1.tewi-label.1"
+msgid "Tewi labelled three lanterns as number four"
+msgstr "Tewi labelled three lanterns as number four"
+
+#. incidentCases.fourth-lantern-loop.hypotheses.1.tewi-label.2
+#: src/data/incidents.js:71
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.1.tewi-label.2"
+msgid "Two removable ‘4’ labels were found; a third claims to be the factory plate."
+msgstr "Two removable ‘4’ labels were found; a third claims to be the factory plate."
+
+#. incidentCases.fourth-lantern-loop.hypotheses.2.lunar-fold.1
+#: src/data/incidents.js:72
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.2.lunar-fold.1"
+msgid "The waning moon folded three routes onto one platform"
+msgstr "The waning moon folded three routes onto one platform"
+
+#. incidentCases.fourth-lantern-loop.hypotheses.2.lunar-fold.2
+#: src/data/incidents.js:72
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.2.lunar-fold.2"
+msgid ""
+"The anomaly appears when moonlight crosses the fourth bamboo joint, but two "
+"cloud-cover intervals are missing."
+msgstr ""
+"The anomaly appears when moonlight crosses the fourth bamboo joint, but two "
+"cloud-cover intervals are missing."
+
+#. incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.2
+#: src/data/incidents.js:75
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.2"
+msgid "Boot screens from three terminals"
+msgstr "Boot screens from three terminals"
+
+#. incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.3
+#: src/data/incidents.js:75
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.3"
+msgid ""
+"Version strings and route-table checksums differ. Only v3.1b calls lantern "
+"five’s coordinates lantern four."
+msgstr ""
+"Version strings and route-table checksums differ. Only v3.1b calls lantern "
+"five’s coordinates lantern four."
+
+#. incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.4
+#: src/data/incidents.js:75
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.4"
+msgid "Kappa transit terminals"
+msgstr "Kappa transit terminals"
+
+#. incidentCases.fourth-lantern-loop.evidence.1.paper-fours.2
+#: src/data/incidents.js:76
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.1.paper-fours.2"
+msgid "Two and a half ‘4’ labels"
+msgstr "Two and a half ‘4’ labels"
+
+#. incidentCases.fourth-lantern-loop.evidence.1.paper-fours.3
+#: src/data/incidents.js:76
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.1.paper-fours.3"
+msgid ""
+"Two use carrot paste; half a label sits inside a conductor’s cap. Tewi says "
+"this proves only that someone values four."
+msgstr ""
+"Two use carrot paste; half a label sits inside a conductor’s cap. Tewi says "
+"this proves only that someone values four."
+
+#. incidentCases.fourth-lantern-loop.evidence.1.paper-fours.4
+#: src/data/incidents.js:76
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.1.paper-fours.4"
+msgid "Scene collection bag"
+msgstr "Scene collection bag"
+
+#. incidentCases.fourth-lantern-loop.evidence.2.moon-log.2
+#: src/data/incidents.js:77
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.2.moon-log.2"
+msgid "Moonlight and cloud log"
+msgstr "Moonlight and cloud log"
+
+#. incidentCases.fourth-lantern-loop.evidence.2.moon-log.3
+#: src/data/incidents.js:77
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.2.moon-log.3"
+msgid ""
+"Two missing intervals cover the second and third returns. The sensor slept "
+"because “a rabbit sat on it.”"
+msgstr ""
+"Two missing intervals cover the second and third returns. The sensor slept "
+"because “a rabbit sat on it.”"
+
+#. incidentCases.fourth-lantern-loop.evidence.2.moon-log.4
+#: src/data/incidents.js:77
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.2.moon-log.4"
+msgid "Eientei weather rack"
+msgstr "Eientei weather rack"
+
+#. incidentCases.fourth-lantern-loop.evidence.3.ticket-times.2
+#: src/data/incidents.js:78
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.3.ticket-times.2"
+msgid "Punch times on 43 tickets"
+msgstr "Punch times on 43 tickets"
+
+#. incidentCases.fourth-lantern-loop.evidence.3.ticket-times.3
+#: src/data/incidents.js:78
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.3.ticket-times.3"
+msgid ""
+"Trip times differ by 37 seconds each, matching terminal route recomputation "
+"rather than moving an entire platform."
+msgstr ""
+"Trip times differ by 37 seconds each, matching terminal route recomputation "
+"rather than moving an entire platform."
+
+#. incidentCases.fourth-lantern-loop.evidence.3.ticket-times.4
+#: src/data/incidents.js:78
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.3.ticket-times.4"
+msgid "Rabbit shuttle fare box"
+msgstr "Rabbit shuttle fare box"
+
+#. incidentCases.fourth-lantern-loop.testimony.0.conductor.1
+#: src/data/incidents.js:81
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.0.conductor.1"
+msgid "White Rabbit Conductor 08"
+msgstr "White Rabbit Conductor 08"
+
+#. incidentCases.fourth-lantern-loop.testimony.0.conductor.2
+#: src/data/incidents.js:81
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.0.conductor.2"
+msgid "First conductor"
+msgstr "First conductor"
+
+#. incidentCases.fourth-lantern-loop.testimony.0.conductor.3
+#: src/data/incidents.js:81
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.0.conductor.3"
+msgid ""
+"I followed the terminal arrow. It was confident every time, which is often "
+"worse than being correct."
+msgstr ""
+"I followed the terminal arrow. It was confident every time, which is often "
+"worse than being correct."
+
+#. incidentCases.fourth-lantern-loop.testimony.0.conductor.4
+#: src/data/incidents.js:81
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.0.conductor.4"
+msgid "Experienced with equipment, but testified after seeing the version strings."
+msgstr "Experienced with equipment, but testified after seeing the version strings."
+
+#. incidentCases.fourth-lantern-loop.testimony.1.tewi.1
+#: src/data/incidents.js:82
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.1.tewi.1"
+msgid "Tewi Inaba"
+msgstr "Tewi Inaba"
+
+#. incidentCases.fourth-lantern-loop.testimony.1.tewi.2
+#: src/data/incidents.js:82
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.1.tewi.2"
+msgid "Temporary route adviser (self-appointed)"
+msgstr "Temporary route adviser (self-appointed)"
+
+#. incidentCases.fourth-lantern-loop.testimony.1.tewi.3
+#: src/data/incidents.js:82
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.1.tewi.3"
+msgid "If labels could move platforms, the kappa would already have bought my patent."
+msgstr "If labels could move platforms, the kappa would already have bought my patent."
+
+#. incidentCases.fourth-lantern-loop.testimony.1.tewi.4
+#: src/data/incidents.js:82
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.1.tewi.4"
+msgid "Does not deny placing labels, only that labels have causal force."
+msgstr "Does not deny placing labels, only that labels have causal force."
+
+#. incidentCases.fourth-lantern-loop.testimony.2.eirin.1
+#: src/data/incidents.js:83
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.2.eirin.1"
+msgid "Eirin Yagokoro"
+msgstr "Eirin Yagokoro"
+
+#. incidentCases.fourth-lantern-loop.testimony.2.eirin.2
+#: src/data/incidents.js:83
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.2.eirin.2"
+msgid "Joint route manager"
+msgstr "Joint route manager"
+
+#. incidentCases.fourth-lantern-loop.testimony.2.eirin.3
+#: src/data/incidents.js:83
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.2.eirin.3"
+msgid ""
+"Moon phase can fold roads, but it does not name firmware. Repair what can be "
+"repaired before debating what cannot."
+msgstr ""
+"Moon phase can fold roads, but it does not name firmware. Repair what can be "
+"repaired before debating what cannot."
+
+#. incidentCases.fourth-lantern-loop.testimony.2.eirin.4
+#: src/data/incidents.js:83
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.2.eirin.4"
+msgid "Prefers actionable explanations without excluding lunar interaction."
+msgstr "Prefers actionable explanations without excluding lunar interaction."
+
+#. incidentCases.fourth-lantern-loop.actions.0.lock-firmware.1
+#: src/data/incidents.js:86
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.0.lock-firmware.1"
+msgid "Lock all shuttles to one firmware"
+msgstr "Lock all shuttles to one firmware"
+
+#. incidentCases.fourth-lantern-loop.actions.0.lock-firmware.2
+#: src/data/incidents.js:86
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.0.lock-firmware.2"
+msgid "Archive all three old images and read one route table during the trial."
+msgstr "Archive all three old images and read one route table during the trial."
+
+#. incidentCases.fourth-lantern-loop.actions.0.lock-firmware.3
+#: src/data/incidents.js:86
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.0.lock-firmware.3"
+msgid "Nitori requests the name final-final-really-this-time."
+msgstr "Nitori requests the name final-final-really-this-time."
+
+#. incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.1
+#: src/data/incidents.js:87
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.1"
+msgid "Recalibrate lantern numbers from coordinates"
+msgstr "Recalibrate lantern numbers from coordinates"
+
+#. incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.2
+#: src/data/incidents.js:87
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.2"
+msgid "Renumber from survey posts, trusting neither labels nor self-description."
+msgstr "Renumber from survey posts, trusting neither labels nor self-description."
+
+#. incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.3
+#: src/data/incidents.js:87
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.3"
+msgid "Lantern three has applied to retain the right to be called four."
+msgstr "Lantern three has applied to retain the right to be called four."
+
+#. incidentCases.fourth-lantern-loop.actions.2.cloud-control.1
+#: src/data/incidents.js:88
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.2.cloud-control.1"
+msgid "Add moonlight control shuttles"
+msgstr "Add moonlight control shuttles"
+
+#. incidentCases.fourth-lantern-loop.actions.2.cloud-control.2
+#: src/data/incidents.js:88
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.2.cloud-control.2"
+msgid "Run the same version on moon-screened and unscreened routes."
+msgstr "Run the same version on moon-screened and unscreened routes."
+
+#. incidentCases.fourth-lantern-loop.actions.2.cloud-control.3
+#: src/data/incidents.js:88
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.2.cloud-control.3"
+msgid "The moon screen may not be operated by rabbits who sit on sensors."
+msgstr "The moon screen may not be operated by rabbits who sit on sensors."
+
+#. incidentCases.fourth-lantern-loop.actions.3.remove-labels.1
+#: src/data/incidents.js:89
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.3.remove-labels.1"
+msgid "Seal all movable number labels"
+msgstr "Seal all movable number labels"
+
+#. incidentCases.fourth-lantern-loop.actions.3.remove-labels.2
+#: src/data/incidents.js:89
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.3.remove-labels.2"
+msgid "Count labels and carrot-paste residue before and after each run."
+msgstr "Count labels and carrot-paste residue before and after each run."
+
+#. incidentCases.fourth-lantern-loop.actions.3.remove-labels.3
+#: src/data/incidents.js:89
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.3.remove-labels.3"
+msgid "Tewi proposes self-moving numerals, which the rule does not cover."
+msgstr "Tewi proposes self-moving numerals, which the rule does not cover."
+
+#. incidentCases.fourth-lantern-loop.reactions.0.author
+#: src/data/incidents.js:92
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.0.author"
+msgid "Bamboo Transit Joint Desk"
+msgstr "Bamboo Transit Joint Desk"
+
+#. incidentCases.fourth-lantern-loop.reactions.0.title
+#: src/data/incidents.js:92
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.0.title"
+msgid "Fourth Lantern case closed: {finding}"
+msgstr "Fourth Lantern case closed: {finding}"
+
+#. incidentCases.fourth-lantern-loop.reactions.0.body
+#: src/data/incidents.js:92
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.0.body"
+msgid ""
+"First action: {action}. Identifiability {quality}/100. Check both lantern "
+"and version before boarding."
+msgstr ""
+"First action: {action}. Identifiability {quality}/100. Check both lantern "
+"and version before boarding."
+
+#. incidentCases.fourth-lantern-loop.reactions.1.author
+#: src/data/incidents.js:93
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.1.author"
+msgid "Anonymous but fortunate rabbit"
+msgstr "Anonymous but fortunate rabbit"
+
+#. incidentCases.fourth-lantern-loop.reactions.1.title
+#: src/data/incidents.js:93
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.1.title"
+msgid "For sale: two post-incident number-four labels"
+msgstr "For sale: two post-incident number-four labels"
+
+#. incidentCases.fourth-lantern-loop.reactions.1.body
+#: src/data/incidents.js:93
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.1.body"
+msgid ""
+"The study says {finding}, so the labels should have lost transit function. "
+"No warranty on collector value."
+msgstr ""
+"The study says {finding}, so the labels should have lost transit function. "
+"No warranty on collector value."
+
+#. incidentCases.fourth-lantern-loop.reactions.2.author
+#: src/data/incidents.js:94
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.2.author"
+msgid "Bamboo Navigation Club"
+msgstr "Bamboo Navigation Club"
+
+#. incidentCases.fourth-lantern-loop.reactions.2.title
+#: src/data/incidents.js:94
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.2.title"
+msgid "This week: find your hall without numbers"
+msgstr "This week: find your hall without numbers"
+
+#. incidentCases.fourth-lantern-loop.reactions.2.body
+#: src/data/incidents.js:94
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.2.body"
+msgid ""
+"Following {ref}, the meeting point uses scent, wind, and one rabbit of "
+"unverified reliability."
+msgstr ""
+"Following {ref}, the meeting point uses scent, wind, and one rabbit of "
+"unverified reliability."
+
+#. incidentCases.flying-book-window.location
+#: src/data/incidents.js:104
+msgctxt "text:incidentCases.flying-book-window.location"
+msgid "Misty Lake Library · North windows"
+msgstr "Misty Lake Library · North windows"
+
+#. incidentCases.flying-book-window.title
+#: src/data/incidents.js:105
+msgctxt "text:incidentCases.flying-book-window.title"
+msgid "Four flying books left together; only one meant to escape"
+msgstr "Four flying books left together; only one meant to escape"
+
+#. incidentCases.flying-book-window.lede
+#: src/data/incidents.js:106
+msgctxt "text:incidentCases.flying-book-window.lede"
+msgid ""
+"After a window opened, four autonomous holdings flew lakeward. Three circled "
+"back; the fourth negotiated a new shelf with fairies. Staff want volition "
+"separated from airflow and imitation."
+msgstr ""
+"After a window opened, four autonomous holdings flew lakeward. Three circled "
+"back; the fourth negotiated a new shelf with fairies. Staff want volition "
+"separated from airflow and imitation."
+
+#. incidentCases.flying-book-window.dispatch
+#: src/data/incidents.js:107
+msgctxt "text:incidentCases.flying-book-window.dispatch"
+msgid ""
+"North windows are limited to ten centimetres. Nets are for books without an "
+"intention to return."
+msgstr ""
+"North windows are limited to ten centimetres. Nets are for books without an "
+"intention to return."
+
+#. incidentCases.flying-book-window.affected
+#: src/data/incidents.js:108
+msgctxt "text:incidentCases.flying-book-window.affected"
+msgid "4 holdings, 19 readers, and 1 unfinished shelf negotiation"
+msgstr "4 holdings, 19 readers, and 1 unfinished shelf negotiation"
+
+#. incidentCases.flying-book-window.signal
+#: src/data/incidents.js:109
+msgctxt "text:incidentCases.flying-book-window.signal"
+msgid "Probability of leaving shelf after window opening"
+msgstr "Probability of leaving shelf after window opening"
+
+#. incidentCases.flying-book-window.unit
+#: src/data/incidents.js:110
+msgctxt "text:incidentCases.flying-book-window.unit"
+msgid "percentage points"
+msgstr "percentage points"
+
+#. incidentCases.flying-book-window.hypotheses.0.pressure-flock.1
+#: src/data/incidents.js:114
+msgctxt "text:incidentCases.flying-book-window.hypotheses.0.pressure-flock.1"
+msgid "Pressure moved one book and three followed"
+msgstr "Pressure moved one book and three followed"
+
+#. incidentCases.flying-book-window.hypotheses.0.pressure-flock.2
+#: src/data/incidents.js:114
+msgctxt "text:incidentCases.flying-book-window.hypotheses.0.pressure-flock.2"
+msgid ""
+"Departures differ by under 0.4 seconds, but only the first clasp experienced "
+"outward pressure first."
+msgstr ""
+"Departures differ by under 0.4 seconds, but only the first clasp experienced "
+"outward pressure first."
+
+#. incidentCases.flying-book-window.hypotheses.1.shelf-protest.1
+#: src/data/incidents.js:115
+msgctxt "text:incidentCases.flying-book-window.hypotheses.1.shelf-protest.1"
+msgid "A collective protest against the north shelf"
+msgstr "A collective protest against the north shelf"
+
+#. incidentCases.flying-book-window.hypotheses.1.shelf-protest.2
+#: src/data/incidents.js:115
+msgctxt "text:incidentCases.flying-book-window.hypotheses.1.shelf-protest.2"
+msgid ""
+"The fourth filed for relocation; the other three only signed a margin, whose "
+"validity is disputed."
+msgstr ""
+"The fourth filed for relocation; the other three only signed a margin, whose "
+"validity is disputed."
+
+#. incidentCases.flying-book-window.hypotheses.2.fairy-lure.1
+#: src/data/incidents.js:116
+msgctxt "text:incidentCases.flying-book-window.hypotheses.2.fairy-lure.1"
+msgid "Lake fairies lured books with story endings"
+msgstr "Lake fairies lured books with story endings"
+
+#. incidentCases.flying-book-window.hypotheses.2.fairy-lure.2
+#: src/data/incidents.js:116
+msgctxt "text:incidentCases.flying-book-window.hypotheses.2.fairy-lure.2"
+msgid ""
+"Three contradictory endings were heard outside. Only the fourth is "
+"catalogued as disliking unfinished stories."
+msgstr ""
+"Three contradictory endings were heard outside. Only the fourth is "
+"catalogued as disliking unfinished stories."
+
+#. incidentCases.flying-book-window.evidence.0.clasp-telemetry.2
+#: src/data/incidents.js:119
+msgctxt "text:incidentCases.flying-book-window.evidence.0.clasp-telemetry.2"
+msgid "Millisecond clasp tension"
+msgstr "Millisecond clasp tension"
+
+#. incidentCases.flying-book-window.evidence.0.clasp-telemetry.3
+#: src/data/incidents.js:119
+msgctxt "text:incidentCases.flying-book-window.evidence.0.clasp-telemetry.3"
+msgid ""
+"Book one received 1.8 N outward force; the other three released themselves "
+"310–390 ms later."
+msgstr ""
+"Book one received 1.8 N outward force; the other three released themselves "
+"310–390 ms later."
+
+#. incidentCases.flying-book-window.evidence.0.clasp-telemetry.4
+#: src/data/incidents.js:119
+msgctxt "text:incidentCases.flying-book-window.evidence.0.clasp-telemetry.4"
+msgid "Misty Lake Cataloguing"
+msgstr "Misty Lake Cataloguing"
+
+#. incidentCases.flying-book-window.evidence.1.window-log.2
+#: src/data/incidents.js:120
+msgctxt "text:incidentCases.flying-book-window.evidence.1.window-log.2"
+msgid "Window pressure and wind slips"
+msgstr "Window pressure and wind slips"
+
+#. incidentCases.flying-book-window.evidence.1.window-log.3
+#: src/data/incidents.js:120
+msgctxt "text:incidentCases.flying-book-window.evidence.1.window-log.3"
+msgid "The pressure could move one light holding, not four simultaneously."
+msgstr "The pressure could move one light holding, not four simultaneously."
+
+#. incidentCases.flying-book-window.evidence.1.window-log.4
+#: src/data/incidents.js:120
+msgctxt "text:incidentCases.flying-book-window.evidence.1.window-log.4"
+msgid "Kappa Facilities"
+msgstr "Kappa Facilities"
+
+#. incidentCases.flying-book-window.evidence.2.margin-petition.2
+#: src/data/incidents.js:121
+msgctxt "text:incidentCases.flying-book-window.evidence.2.margin-petition.2"
+msgid "Relocation signatures in Flying Books"
+msgstr "Relocation signatures in Flying Books"
+
+#. incidentCases.flying-book-window.evidence.2.margin-petition.3
+#: src/data/incidents.js:121
+msgctxt "text:incidentCases.flying-book-window.evidence.2.margin-petition.3"
+msgid ""
+"The fourth wrote a complete request. The other signatures appeared two "
+"minutes after departure."
+msgstr ""
+"The fourth wrote a complete request. The other signatures appeared two "
+"minutes after departure."
+
+#. incidentCases.flying-book-window.evidence.2.margin-petition.4
+#: src/data/incidents.js:121
+msgctxt "text:incidentCases.flying-book-window.evidence.2.margin-petition.4"
+msgid "Librarian scene copy"
+msgstr "Librarian scene copy"
+
+#. incidentCases.flying-book-window.evidence.3.fairy-audio.2
+#: src/data/incidents.js:122
+msgctxt "text:incidentCases.flying-book-window.evidence.3.fairy-audio.2"
+msgid "Three story endings over the lake"
+msgstr "Three story endings over the lake"
+
+#. incidentCases.flying-book-window.evidence.3.fairy-audio.3
+#: src/data/incidents.js:122
+msgctxt "text:incidentCases.flying-book-window.evidence.3.fairy-audio.3"
+msgid ""
+"The first ending came after departure, the second was supplied by a book, "
+"and the fairy forgot the third."
+msgstr ""
+"The first ending came after departure, the second was supplied by a book, "
+"and the fairy forgot the third."
+
+#. incidentCases.flying-book-window.evidence.3.fairy-audio.4
+#: src/data/incidents.js:122
+msgctxt "text:incidentCases.flying-book-window.evidence.3.fairy-audio.4"
+msgid "North-window soundscape"
+msgstr "North-window soundscape"
+
+#. incidentCases.flying-book-window.testimony.0.librarian.1
+#: src/data/incidents.js:125
+msgctxt "text:incidentCases.flying-book-window.testimony.0.librarian.1"
+msgid "Koakuma"
+msgstr "Koakuma"
+
+#. incidentCases.flying-book-window.testimony.0.librarian.2
+#: src/data/incidents.js:125
+msgctxt "text:incidentCases.flying-book-window.testimony.0.librarian.2"
+msgid "Duty librarian"
+msgstr "Duty librarian"
+
+#. incidentCases.flying-book-window.testimony.0.librarian.3
+#: src/data/incidents.js:125
+msgctxt "text:incidentCases.flying-book-window.testimony.0.librarian.3"
+msgid ""
+"One book blown out is facilities; three following is collection behaviour; "
+"the fourth refusing to return is personnel."
+msgstr ""
+"One book blown out is facilities; three following is collection behaviour; "
+"the fourth refusing to return is personnel."
+
+#. incidentCases.flying-book-window.testimony.0.librarian.4
+#: src/data/incidents.js:125
+msgctxt "text:incidentCases.flying-book-window.testimony.0.librarian.4"
+msgid "Clear classification, but sequence may have been reconstructed after telemetry."
+msgstr "Clear classification, but sequence may have been reconstructed after telemetry."
+
+#. incidentCases.flying-book-window.testimony.1.book-four.1
+#: src/data/incidents.js:126
+msgctxt "text:incidentCases.flying-book-window.testimony.1.book-four.1"
+msgid "Fourth holding (answered by page turns)"
+msgstr "Fourth holding (answered by page turns)"
+
+#. incidentCases.flying-book-window.testimony.1.book-four.2
+#: src/data/incidents.js:126
+msgctxt "text:incidentCases.flying-book-window.testimony.1.book-four.2"
+msgid "Departing holding"
+msgstr "Departing holding"
+
+#. incidentCases.flying-book-window.testimony.1.book-four.3
+#: src/data/incidents.js:126
+msgctxt "text:incidentCases.flying-book-window.testimony.1.book-four.3"
+msgid ""
+"It opened to “not every departure is escape,” then displayed its call number "
+"toward the library."
+msgstr ""
+"It opened to “not every departure is escape,” then displayed its call number "
+"toward the library."
+
+#. incidentCases.flying-book-window.testimony.1.book-four.4
+#: src/data/incidents.js:126
+msgctxt "text:incidentCases.flying-book-window.testimony.1.book-four.4"
+msgid "It intends to remain in the collection while demanding relocation."
+msgstr "It intends to remain in the collection while demanding relocation."
+
+#. incidentCases.flying-book-window.testimony.2.cirno.1
+#: src/data/incidents.js:127
+msgctxt "text:incidentCases.flying-book-window.testimony.2.cirno.1"
+msgid "Cirno"
+msgstr "Cirno"
+
+#. incidentCases.flying-book-window.testimony.2.cirno.2
+#: src/data/incidents.js:127
+msgctxt "text:incidentCases.flying-book-window.testimony.2.cirno.2"
+msgid "Lake witness"
+msgstr "Lake witness"
+
+#. incidentCases.flying-book-window.testimony.2.cirno.3
+#: src/data/incidents.js:127
+msgctxt "text:incidentCases.flying-book-window.testimony.2.cirno.3"
+msgid ""
+"I did not lure the books. I only told them the strongest story endings "
+"always contain me."
+msgstr ""
+"I did not lure the books. I only told them the strongest story endings "
+"always contain me."
+
+#. incidentCases.flying-book-window.testimony.2.cirno.4
+#: src/data/incidents.js:127
+msgctxt "text:incidentCases.flying-book-window.testimony.2.cirno.4"
+msgid "Her denial and description differ by one verb."
+msgstr "Her denial and description differ by one verb."
+
+#. incidentCases.flying-book-window.actions.0.window-baffle.1
+#: src/data/incidents.js:130
+msgctxt "text:incidentCases.flying-book-window.actions.0.window-baffle.1"
+msgid "Fit removable pressure baffles"
+msgstr "Fit removable pressure baffles"
+
+#. incidentCases.flying-book-window.actions.0.window-baffle.2
+#: src/data/incidents.js:130
+msgctxt "text:incidentCases.flying-book-window.actions.0.window-baffle.2"
+msgid "Keep ventilation while reducing the force on the first book."
+msgstr "Keep ventilation while reducing the force on the first book."
+
+#. incidentCases.flying-book-window.actions.0.window-baffle.3
+#: src/data/incidents.js:130
+msgctxt "text:incidentCases.flying-book-window.actions.0.window-baffle.3"
+msgid "Writing on the baffle may cause it to join the collection."
+msgstr "Writing on the baffle may cause it to join the collection."
+
+#. incidentCases.flying-book-window.actions.1.single-book-trials.1
+#: src/data/incidents.js:131
+msgctxt "text:incidentCases.flying-book-window.actions.1.single-book-trials.1"
+msgid "Run one-book-at-a-time window controls"
+msgstr "Run one-book-at-a-time window controls"
+
+#. incidentCases.flying-book-window.actions.1.single-book-trials.2
+#: src/data/incidents.js:131
+msgctxt "text:incidentCases.flying-book-window.actions.1.single-book-trials.2"
+msgid "Separate following from protest; books may refuse at any time."
+msgstr "Separate following from protest; books may refuse at any time."
+
+#. incidentCases.flying-book-window.actions.1.single-book-trials.3
+#: src/data/incidents.js:131
+msgctxt "text:incidentCases.flying-book-window.actions.1.single-book-trials.3"
+msgid "Patchouli wants refusals counted as missing, not uncooperative."
+msgstr "Patchouli wants refusals counted as missing, not uncooperative."
+
+#. incidentCases.flying-book-window.actions.2.shelf-mediation.1
+#: src/data/incidents.js:132
+msgctxt "text:incidentCases.flying-book-window.actions.2.shelf-mediation.1"
+msgid "Mediate the fourth book’s shelf request first"
+msgstr "Mediate the fourth book’s shelf request first"
+
+#. incidentCases.flying-book-window.actions.2.shelf-mediation.2
+#: src/data/incidents.js:132
+msgctxt "text:incidentCases.flying-book-window.actions.2.shelf-mediation.2"
+msgid ""
+"Address long-running dissatisfaction before the next trial instead of "
+"treating volition as noise."
+msgstr ""
+"Address long-running dissatisfaction before the next trial instead of "
+"treating volition as noise."
+
+#. incidentCases.flying-book-window.actions.2.shelf-mediation.3
+#: src/data/incidents.js:132
+msgctxt "text:incidentCases.flying-book-window.actions.2.shelf-mediation.3"
+msgid "The former shelf also requests representation."
+msgstr "The former shelf also requests representation."
+
+#. incidentCases.flying-book-window.actions.3.ending-silence.1
+#: src/data/incidents.js:133
+msgctxt "text:incidentCases.flying-book-window.actions.3.ending-silence.1"
+msgid "One hour without story endings outside"
+msgstr "One hour without story endings outside"
+
+#. incidentCases.flying-book-window.actions.3.ending-silence.2
+#: src/data/incidents.js:133
+msgctxt "text:incidentCases.flying-book-window.actions.3.ending-silence.2"
+msgid "Fairies may sing the body, but postpone endings."
+msgstr "Fairies may sing the body, but postpone endings."
+
+#. incidentCases.flying-book-window.actions.3.ending-silence.3
+#: src/data/incidents.js:133
+msgctxt "text:incidentCases.flying-book-window.actions.3.ending-silence.3"
+msgid "The choir plans to rename endings as preludes."
+msgstr "The choir plans to rename endings as preludes."
+
+#. incidentCases.flying-book-window.reactions.0.author
+#: src/data/incidents.js:136
+msgctxt "text:incidentCases.flying-book-window.reactions.0.author"
+msgid "Misty Lake Incident Desk"
+msgstr "Misty Lake Incident Desk"
+
+#. incidentCases.flying-book-window.reactions.0.title
+#: src/data/incidents.js:136
+msgctxt "text:incidentCases.flying-book-window.reactions.0.title"
+msgid "North-window departure case closed: {finding}"
+msgstr "North-window departure case closed: {finding}"
+
+#. incidentCases.flying-book-window.reactions.0.body
+#: src/data/incidents.js:136
+msgctxt "text:incidentCases.flying-book-window.reactions.0.body"
+msgid "First action: {action}. File {ref}. A book’s relocation request remains a valid request."
+msgstr "First action: {action}. File {ref}. A book’s relocation request remains a valid request."
+
+#. incidentCases.flying-book-window.reactions.1.author
+#: src/data/incidents.js:137
+msgctxt "text:incidentCases.flying-book-window.reactions.1.author"
+msgid "Autonomous Holdings Group"
+msgstr "Autonomous Holdings Group"
+
+#. incidentCases.flying-book-window.reactions.1.title
+#: src/data/incidents.js:137
+msgctxt "text:incidentCases.flying-book-window.reactions.1.title"
+msgid "Is following another book an act of volition?"
+msgstr "Is following another book an act of volition?"
+
+#. incidentCases.flying-book-window.reactions.1.body
+#: src/data/incidents.js:137
+msgctxt "text:incidentCases.flying-book-window.reactions.1.body"
+msgid ""
+"{ref} found {finding}. Papers may not use the capture net as their only "
+"operational definition."
+msgstr ""
+"{ref} found {finding}. Papers may not use the capture net as their only "
+"operational definition."
+
+#. incidentCases.flying-book-window.reactions.2.author
+#: src/data/incidents.js:138
+msgctxt "text:incidentCases.flying-book-window.reactions.2.author"
+msgid "Fairy Choir"
+msgstr "Fairy Choir"
+
+#. incidentCases.flying-book-window.reactions.2.title
+#: src/data/incidents.js:138
+msgctxt "text:incidentCases.flying-book-window.reactions.2.title"
+msgid "Tonight: only the first 99% of each story; books welcome"
+msgstr "Tonight: only the first 99% of each story; books welcome"
+
+#. incidentCases.flying-book-window.reactions.2.body
+#: src/data/incidents.js:138
+msgctxt "text:incidentCases.flying-book-window.reactions.2.body"
+msgid "To support {action}, endings are stored somewhere without windows. Do not ask where."
+msgstr "To support {action}, endings are stored somewhere without windows. Do not ask where."
+
+#. incidentCases.headline-yesterday.location
+#: src/data/incidents.js:148
+msgctxt "text:incidentCases.headline-yesterday.location"
+msgid "Tengu Press Tower · Hieda History Hall"
+msgstr "Tengu Press Tower · Hieda History Hall"
+
+#. incidentCases.headline-yesterday.title
+#: src/data/incidents.js:149
+msgctxt "text:incidentCases.headline-yesterday.title"
+msgid "The paper published tomorrow’s event; the chronicle filed it as yesterday"
+msgstr "The paper published tomorrow’s event; the chronicle filed it as yesterday"
+
+#. incidentCases.headline-yesterday.lede
+#: src/data/incidents.js:150
+msgctxt "text:incidentCases.headline-yesterday.lede"
+msgid ""
+"A report of an unoccurred workshop explosion appeared in the morning paper. "
+"A later explosion differed in time and cause, while the chronicle indexed "
+"both versions under yesterday."
+msgstr ""
+"A report of an unoccurred workshop explosion appeared in the morning paper. "
+"A later explosion differed in time and cause, while the chronicle indexed "
+"both versions under yesterday."
+
+#. incidentCases.headline-yesterday.dispatch
+#: src/data/incidents.js:151
+msgctxt "text:incidentCases.headline-yesterday.dispatch"
+msgid ""
+"The workshop remains open, but prophetic reporting is not a substitute for "
+"safety checks."
+msgstr ""
+"The workshop remains open, but prophetic reporting is not a substitute for "
+"safety checks."
+
+#. incidentCases.headline-yesterday.affected
+#: src/data/incidents.js:152
+msgctxt "text:incidentCases.headline-yesterday.affected"
+msgid "1 workshop, 2 incident versions, and 6 corrections citing each other"
+msgstr "1 workshop, 2 incident versions, and 6 corrections citing each other"
+
+#. incidentCases.headline-yesterday.signal
+#: src/data/incidents.js:153
+msgctxt "text:incidentCases.headline-yesterday.signal"
+msgid "Agreement between report details and actual event"
+msgstr "Agreement between report details and actual event"
+
+#. incidentCases.headline-yesterday.unit
+#: src/data/incidents.js:154
+msgctxt "text:incidentCases.headline-yesterday.unit"
+msgid "percentage points"
+msgstr "percentage points"
+
+#. incidentCases.headline-yesterday.hypotheses.0.cache-mix.1
+#: src/data/incidents.js:158
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.0.cache-mix.1"
+msgid "Layout cache mixed in a previous simulated incident"
+msgstr "Layout cache mixed in a previous simulated incident"
+
+#. incidentCases.headline-yesterday.hypotheses.0.cache-mix.2
+#: src/data/incidents.js:158
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.0.cache-mix.2"
+msgid ""
+"The report time matches last week’s simulation; only the location was "
+"replaced with today’s duty workshop."
+msgstr ""
+"The report time matches last week’s simulation; only the location was "
+"replaced with today’s duty workshop."
+
+#. incidentCases.headline-yesterday.hypotheses.1.aya-forecast.1
+#: src/data/incidents.js:159
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.1.aya-forecast.1"
+msgid "Aya forecast the incident from wind and interviews"
+msgstr "Aya forecast the incident from wind and interviews"
+
+#. incidentCases.headline-yesterday.hypotheses.1.aya-forecast.2
+#: src/data/incidents.js:159
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.1.aya-forecast.2"
+msgid ""
+"She knew about valve noise, but blamed mushroom fuel; the actual trigger was "
+"gear-cut lotus root."
+msgstr ""
+"She knew about valve noise, but blamed mushroom fuel; the actual trigger was "
+"gear-cut lotus root."
+
+#. incidentCases.headline-yesterday.hypotheses.2.history-pull.1
+#: src/data/incidents.js:160
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.2.history-pull.1"
+msgid "The chronicle’s yesterday index pulled events toward the written version"
+msgstr "The chronicle’s yesterday index pulled events toward the written version"
+
+#. incidentCases.headline-yesterday.hypotheses.2.history-pull.2
+#: src/data/incidents.js:160
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.2.history-pull.2"
+msgid "Similarity rose briefly after indexing, though the causal order may run the other way."
+msgstr "Similarity rose briefly after indexing, though the causal order may run the other way."
+
+#. incidentCases.headline-yesterday.evidence.0.layout-cache.2
+#: src/data/incidents.js:163
+msgctxt "text:incidentCases.headline-yesterday.evidence.0.layout-cache.2"
+msgid "Layout cache manifest"
+msgstr "Layout cache manifest"
+
+#. incidentCases.headline-yesterday.evidence.0.layout-cache.3
+#: src/data/incidents.js:163
+msgctxt "text:incidentCases.headline-yesterday.evidence.0.layout-cache.3"
+msgid ""
+"`incident-final2-use-this` was created in last week’s lab and mistaken by "
+"the template for the latest approved version this morning."
+msgstr ""
+"`incident-final2-use-this` was created in last week’s lab and mistaken by "
+"the template for the latest approved version this morning."
+
+#. incidentCases.headline-yesterday.evidence.0.layout-cache.4
+#: src/data/incidents.js:163
+msgctxt "text:incidentCases.headline-yesterday.evidence.0.layout-cache.4"
+msgid "Tengu Press layout machine"
+msgstr "Tengu Press layout machine"
+
+#. incidentCases.headline-yesterday.evidence.1.valve-audio.2
+#: src/data/incidents.js:164
+msgctxt "text:incidentCases.headline-yesterday.evidence.1.valve-audio.2"
+msgid "Pre-incident valve soundscape"
+msgstr "Pre-incident valve soundscape"
+
+#. incidentCases.headline-yesterday.evidence.1.valve-audio.3
+#: src/data/incidents.js:164
+msgctxt "text:incidentCases.headline-yesterday.evidence.1.valve-audio.3"
+msgid ""
+"Noise existed before publication and supports generic risk prediction, not "
+"the exact time or mushroom cause."
+msgstr ""
+"Noise existed before publication and supports generic risk prediction, not "
+"the exact time or mushroom cause."
+
+#. incidentCases.headline-yesterday.evidence.1.valve-audio.4
+#: src/data/incidents.js:164
+msgctxt "text:incidentCases.headline-yesterday.evidence.1.valve-audio.4"
+msgid "Aya’s recorder"
+msgstr "Aya’s recorder"
+
+#. incidentCases.headline-yesterday.evidence.2.lotus-gear.2
+#: src/data/incidents.js:165
+msgctxt "text:incidentCases.headline-yesterday.evidence.2.lotus-gear.2"
+msgid "Gear-cut lotus lodged in the valve"
+msgstr "Gear-cut lotus lodged in the valve"
+
+#. incidentCases.headline-yesterday.evidence.2.lotus-gear.3
+#: src/data/incidents.js:165
+msgctxt "text:incidentCases.headline-yesterday.evidence.2.lotus-gear.3"
+msgid ""
+"It came from South Dining and was used as a spare part, unrelated to the "
+"report’s mushroom fuel."
+msgstr ""
+"It came from South Dining and was used as a spare part, unrelated to the "
+"report’s mushroom fuel."
+
+#. incidentCases.headline-yesterday.evidence.2.lotus-gear.4
+#: src/data/incidents.js:165
+msgctxt "text:incidentCases.headline-yesterday.evidence.2.lotus-gear.4"
+msgid "Kappa Workshop evidence bag"
+msgstr "Kappa Workshop evidence bag"
+
+#. incidentCases.headline-yesterday.evidence.3.chronicle-index.2
+#: src/data/incidents.js:166
+msgctxt "text:incidentCases.headline-yesterday.evidence.3.chronicle-index.2"
+msgid "Creation time of the ‘yesterday’ index"
+msgstr "Creation time of the ‘yesterday’ index"
+
+#. incidentCases.headline-yesterday.evidence.3.chronicle-index.3
+#: src/data/incidents.js:166
+msgctxt "text:incidentCases.headline-yesterday.evidence.3.chronicle-index.3"
+msgid ""
+"The index was created seven minutes after cache load and nineteen before the "
+"real explosion. It records the report; it need not have caused it."
+msgstr ""
+"The index was created seven minutes after cache load and nineteen before the "
+"real explosion. It records the report; it need not have caused it."
+
+#. incidentCases.headline-yesterday.evidence.3.chronicle-index.4
+#: src/data/incidents.js:166
+msgctxt "text:incidentCases.headline-yesterday.evidence.3.chronicle-index.4"
+msgid "Hieda History Hall"
+msgstr "Hieda History Hall"
+
+#. incidentCases.headline-yesterday.testimony.0.aya-press.1
+#: src/data/incidents.js:169
+msgctxt "text:incidentCases.headline-yesterday.testimony.0.aya-press.1"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. incidentCases.headline-yesterday.testimony.0.aya-press.2
+#: src/data/incidents.js:169
+msgctxt "text:incidentCases.headline-yesterday.testimony.0.aya-press.2"
+msgid "Editor"
+msgstr "Editor"
+
+#. incidentCases.headline-yesterday.testimony.0.aya-press.3
+#: src/data/incidents.js:169
+msgctxt "text:incidentCases.headline-yesterday.testimony.0.aya-press.3"
+msgid ""
+"The cache supplied details; I supplied judgment. The judgment later became "
+"partly right, which journalism cannot call wholly wrong."
+msgstr ""
+"The cache supplied details; I supplied judgment. The judgment later became "
+"partly right, which journalism cannot call wholly wrong."
+
+#. incidentCases.headline-yesterday.testimony.0.aya-press.4
+#: src/data/incidents.js:169
+msgctxt "text:incidentCases.headline-yesterday.testimony.0.aya-press.4"
+msgid "Combines forecast, template failure, and later coincidence in one sentence."
+msgstr "Combines forecast, template failure, and later coincidence in one sentence."
+
+#. incidentCases.headline-yesterday.testimony.1.akyuu.1
+#: src/data/incidents.js:170
+msgctxt "text:incidentCases.headline-yesterday.testimony.1.akyuu.1"
+msgid "Hieda no Akyuu"
+msgstr "Hieda no Akyuu"
+
+#. incidentCases.headline-yesterday.testimony.1.akyuu.2
+#: src/data/incidents.js:170
+msgctxt "text:incidentCases.headline-yesterday.testimony.1.akyuu.2"
+msgid "Index keeper"
+msgstr "Index keeper"
+
+#. incidentCases.headline-yesterday.testimony.1.akyuu.3
+#: src/data/incidents.js:170
+msgctxt "text:incidentCases.headline-yesterday.testimony.1.akyuu.3"
+msgid ""
+"The chronicle says “reported yesterday,” not “happened yesterday.” Someone "
+"shortened the column label."
+msgstr ""
+"The chronicle says “reported yesterday,” not “happened yesterday.” Someone "
+"shortened the column label."
+
+#. incidentCases.headline-yesterday.testimony.1.akyuu.4
+#: src/data/incidents.js:170
+msgctxt "text:incidentCases.headline-yesterday.testimony.1.akyuu.4"
+msgid "The interface truncates the index semantics; the source remains available."
+msgstr "The interface truncates the index semantics; the source remains available."
+
+#. incidentCases.headline-yesterday.testimony.2.nitori-workshop.1
+#: src/data/incidents.js:171
+msgctxt "text:incidentCases.headline-yesterday.testimony.2.nitori-workshop.1"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. incidentCases.headline-yesterday.testimony.2.nitori-workshop.2
+#: src/data/incidents.js:171
+msgctxt "text:incidentCases.headline-yesterday.testimony.2.nitori-workshop.2"
+msgid "Workshop lead"
+msgstr "Workshop lead"
+
+#. incidentCases.headline-yesterday.testimony.2.nitori-workshop.3
+#: src/data/incidents.js:171
+msgctxt "text:incidentCases.headline-yesterday.testimony.2.nitori-workshop.3"
+msgid ""
+"After the prediction, everyone checked mushrooms and nobody checked lunch. "
+"Prophecy can point safety work the wrong way."
+msgstr ""
+"After the prediction, everyone checked mushrooms and nobody checked lunch. "
+"Prophecy can point safety work the wrong way."
+
+#. incidentCases.headline-yesterday.testimony.2.nitori-workshop.4
+#: src/data/incidents.js:171
+msgctxt "text:incidentCases.headline-yesterday.testimony.2.nitori-workshop.4"
+msgid "The report changed the subsequent inspection path."
+msgstr "The report changed the subsequent inspection path."
+
+#. incidentCases.headline-yesterday.actions.0.purge-cache.1
+#: src/data/incidents.js:174
+msgctxt "text:incidentCases.headline-yesterday.actions.0.purge-cache.1"
+msgid "Archive and clear the layout cache"
+msgstr "Archive and clear the layout cache"
+
+#. incidentCases.headline-yesterday.actions.0.purge-cache.2
+#: src/data/incidents.js:174
+msgctxt "text:incidentCases.headline-yesterday.actions.0.purge-cache.2"
+msgid "Keep traceable images and allow templates to read only stamped versions."
+msgstr "Keep traceable images and allow templates to read only stamped versions."
+
+#. incidentCases.headline-yesterday.actions.0.purge-cache.3
+#: src/data/incidents.js:174
+msgctxt "text:incidentCases.headline-yesterday.actions.0.purge-cache.3"
+msgid "Aya wants an exemption for the Inspiration Sources folder."
+msgstr "Aya wants an exemption for the Inspiration Sources folder."
+
+#. incidentCases.headline-yesterday.actions.1.forecast-label.1
+#: src/data/incidents.js:175
+msgctxt "text:incidentCases.headline-yesterday.actions.1.forecast-label.1"
+msgid "Separate forecasts from occurred-event reports"
+msgstr "Separate forecasts from occurred-event reports"
+
+#. incidentCases.headline-yesterday.actions.1.forecast-label.2
+#: src/data/incidents.js:175
+msgctxt "text:incidentCases.headline-yesterday.actions.1.forecast-label.2"
+msgid "Use distinct labels on one page; corrections may not merge them."
+msgstr "Use distinct labels on one page; corrections may not merge them."
+
+#. incidentCases.headline-yesterday.actions.1.forecast-label.3
+#: src/data/incidents.js:175
+msgctxt "text:incidentCases.headline-yesterday.actions.1.forecast-label.3"
+msgid "Readers may still forward only the headline."
+msgstr "Readers may still forward only the headline."
+
+#. incidentCases.headline-yesterday.actions.2.version-lock.1
+#: src/data/incidents.js:176
+msgctxt "text:incidentCases.headline-yesterday.actions.2.version-lock.1"
+msgid "Separate naming domains for lab and newsroom versions"
+msgstr "Separate naming domains for lab and newsroom versions"
+
+#. incidentCases.headline-yesterday.actions.2.version-lock.2
+#: src/data/incidents.js:176
+msgctxt "text:incidentCases.headline-yesterday.actions.2.version-lock.2"
+msgid "Lab files may no longer be final; newsroom files may no longer be maybe."
+msgstr "Lab files may no longer be final; newsroom files may no longer be maybe."
+
+#. incidentCases.headline-yesterday.actions.2.version-lock.3
+#: src/data/incidents.js:176
+msgctxt "text:incidentCases.headline-yesterday.actions.2.version-lock.3"
+msgid "Marisa has already named hers definitely-not-final."
+msgstr "Marisa has already named hers definitely-not-final."
+
+#. incidentCases.headline-yesterday.actions.3.independent-check.1
+#: src/data/incidents.js:177
+msgctxt "text:incidentCases.headline-yesterday.actions.3.independent-check.1"
+msgid "Trigger an independent safety checklist after predictive reports"
+msgstr "Trigger an independent safety checklist after predictive reports"
+
+#. incidentCases.headline-yesterday.actions.3.independent-check.2
+#: src/data/incidents.js:177
+msgctxt "text:incidentCases.headline-yesterday.actions.3.independent-check.2"
+msgid "Recheck materials, pressure, and lunch without inheriting the article’s proposed cause."
+msgstr "Recheck materials, pressure, and lunch without inheriting the article’s proposed cause."
+
+#. incidentCases.headline-yesterday.actions.3.independent-check.3
+#: src/data/incidents.js:177
+msgctxt "text:incidentCases.headline-yesterday.actions.3.independent-check.3"
+msgid "South Dining asks not to classify every lunch as hazardous material."
+msgstr "South Dining asks not to classify every lunch as hazardous material."
+
+#. incidentCases.headline-yesterday.reactions.0.author
+#: src/data/incidents.js:180
+msgctxt "text:incidentCases.headline-yesterday.reactions.0.author"
+msgid "Chronicle–Press Joint Corrections"
+msgstr "Chronicle–Press Joint Corrections"
+
+#. incidentCases.headline-yesterday.reactions.0.title
+#: src/data/incidents.js:180
+msgctxt "text:incidentCases.headline-yesterday.reactions.0.title"
+msgid "Tomorrow-explosion report case closed: {finding}"
+msgstr "Tomorrow-explosion report case closed: {finding}"
+
+#. incidentCases.headline-yesterday.reactions.0.body
+#: src/data/incidents.js:180
+msgctxt "text:incidentCases.headline-yesterday.reactions.0.body"
+msgid ""
+"First action: {action}. File {ref}. “Reported” and “occurred” are separate "
+"columns again."
+msgstr ""
+"First action: {action}. File {ref}. “Reported” and “occurred” are separate "
+"columns again."
+
+#. incidentCases.headline-yesterday.reactions.1.author
+#: src/data/incidents.js:181
+msgctxt "text:incidentCases.headline-yesterday.reactions.1.author"
+msgid "News Methods TA"
+msgstr "News Methods TA"
+
+#. incidentCases.headline-yesterday.reactions.1.title
+#: src/data/incidents.js:181
+msgctxt "text:incidentCases.headline-yesterday.reactions.1.title"
+msgid "Final question: can partial prediction offset a cache failure?"
+msgstr "Final question: can partial prediction offset a cache failure?"
+
+#. incidentCases.headline-yesterday.reactions.1.body
+#: src/data/incidents.js:181
+msgctxt "text:incidentCases.headline-yesterday.reactions.1.body"
+msgid "Cite {ref} and explain why a correct outcome does not replace an identifiable method."
+msgstr "Cite {ref} and explain why a correct outcome does not replace an identifiable method."
+
+#. incidentCases.headline-yesterday.reactions.2.author
+#: src/data/incidents.js:182
+msgctxt "text:incidentCases.headline-yesterday.reactions.2.author"
+msgid "Bunbunmaru Campus News"
+msgstr "Bunbunmaru Campus News"
+
+#. incidentCases.headline-yesterday.reactions.2.title
+#: src/data/incidents.js:182
+msgctxt "text:incidentCases.headline-yesterday.reactions.2.title"
+msgid "New column: Not Yet Happened but Worth Writing First"
+msgstr "New column: Not Yet Happened but Worth Writing First"
+
+#. incidentCases.headline-yesterday.reactions.2.body
+#: src/data/incidents.js:182
+msgctxt "text:incidentCases.headline-yesterday.reactions.2.body"
+msgid ""
+"Clearly labelled under {action}. The university declines to guarantee the "
+"label will not make events occur."
+msgstr ""
+"Clearly labelled under {action}. The university declines to guarantee the "
+"label will not make events occur."
+
+#. incidentCases.dorm-window-chair.location
+#: src/data/incidents.js:192
+msgctxt "text:incidentCases.dorm-window-chair.location"
+msgid "Boundary Annex · BA-YD window side"
+msgstr "Boundary Annex · BA-YD window side"
+
+#. incidentCases.dorm-window-chair.title
+#: src/data/incidents.js:193
+msgctxt "text:incidentCases.dorm-window-chair.title"
+msgid "The window chair in a roommate agreement applied as a third roommate"
+msgstr "The window chair in a roommate agreement applied as a third roommate"
+
+#. incidentCases.dorm-window-chair.lede
+#: src/data/incidents.js:194
+msgctxt "text:incidentCases.dorm-window-chair.lede"
+msgid ""
+"After a shared-living note was generated, the chair moved beneath the "
+"signature line and scratched “I live here too.” Both residents accept it has "
+"an opinion; they disagree on rent."
+msgstr ""
+"After a shared-living note was generated, the chair moved beneath the "
+"signature line and scratched “I live here too.” Both residents accept it has "
+"an opinion; they disagree on rent."
+
+#. incidentCases.dorm-window-chair.dispatch
+#: src/data/incidents.js:195
+msgctxt "text:incidentCases.dorm-window-chair.dispatch"
+msgid ""
+"The chair stays in place and gains a third rota row, but is not yet counted "
+"in evacuation totals."
+msgstr ""
+"The chair stays in place and gains a third rota row, but is not yet counted "
+"in evacuation totals."
+
+#. incidentCases.dorm-window-chair.affected
+#: src/data/incidents.js:196
+msgctxt "text:incidentCases.dorm-window-chair.affected"
+msgid "2 residents, 1 chair, and 4 shared rules needing reinterpretation"
+msgstr "2 residents, 1 chair, and 4 shared rules needing reinterpretation"
+
+#. incidentCases.dorm-window-chair.signal
+#: src/data/incidents.js:197
+msgctxt "text:incidentCases.dorm-window-chair.signal"
+msgid "Unattended self-movements"
+msgstr "Unattended self-movements"
+
+#. incidentCases.dorm-window-chair.unit
+#: src/data/incidents.js:198
+msgctxt "text:incidentCases.dorm-window-chair.unit"
+msgid "per night"
+msgstr "per night"
+
+#. incidentCases.dorm-window-chair.hypotheses.0.emergent-tsukumogami.1
+#: src/data/incidents.js:202
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.0.emergent-tsukumogami.1"
+msgid "Long use and the new agreement prompted tsukumogami awakening"
+msgstr "Long use and the new agreement prompted tsukumogami awakening"
+
+#. incidentCases.dorm-window-chair.hypotheses.0.emergent-tsukumogami.2
+#: src/data/incidents.js:202
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.0.emergent-tsukumogami.2"
+msgid ""
+"The chair is at least ninety-nine years old and produced stable writing "
+"after first being named in a formal rule."
+msgstr ""
+"The chair is at least ninety-nine years old and produced stable writing "
+"after first being named in a formal rule."
+
+#. incidentCases.dorm-window-chair.hypotheses.1.matoi-phasing.1
+#: src/data/incidents.js:203
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.1.matoi-phasing.1"
+msgid "A roommate’s phasing unintentionally carried the chair"
+msgstr "A roommate’s phasing unintentionally carried the chair"
+
+#. incidentCases.dorm-window-chair.hypotheses.1.matoi-phasing.2
+#: src/data/incidents.js:203
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.1.matoi-phasing.2"
+msgid "Matoi phases through the same wall nightly; the chair legs carry matching boundary dust."
+msgstr "Matoi phases through the same wall nightly; the chair legs carry matching boundary dust."
+
+#. incidentCases.dorm-window-chair.hypotheses.2.familiar-prank.1
+#: src/data/incidents.js:204
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.2.familiar-prank.1"
+msgid "A small familiar moved and wrote for the chair"
+msgstr "A small familiar moved and wrote for the chair"
+
+#. incidentCases.dorm-window-chair.hypotheses.2.familiar-prank.2
+#: src/data/incidents.js:204
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.2.familiar-prank.2"
+msgid ""
+"A fire mouse can enter unattended and matches scratch height, but the "
+"wording uses a furniture first person."
+msgstr ""
+"A fire mouse can enter unattended and matches scratch height, but the "
+"wording uses a furniture first person."
+
+#. incidentCases.dorm-window-chair.evidence.0.night-grid.2
+#: src/data/incidents.js:207
+msgctxt "text:incidentCases.dorm-window-chair.evidence.0.night-grid.2"
+msgid "Seven-night chalk coordinates"
+msgstr "Seven-night chalk coordinates"
+
+#. incidentCases.dorm-window-chair.evidence.0.night-grid.3
+#: src/data/incidents.js:207
+msgctxt "text:incidentCases.dorm-window-chair.evidence.0.night-grid.3"
+msgid ""
+"The chair moved on five nights; Matoi was away for two, and the fire mouse "
+"was confined at a shrine event for one."
+msgstr ""
+"The chair moved on five nights; Matoi was away for two, and the fire mouse "
+"was confined at a shrine event for one."
+
+#. incidentCases.dorm-window-chair.evidence.0.night-grid.4
+#: src/data/incidents.js:207
+msgctxt "text:incidentCases.dorm-window-chair.evidence.0.night-grid.4"
+msgid "Hall council"
+msgstr "Hall council"
+
+#. incidentCases.dorm-window-chair.evidence.1.scratch-text.2
+#: src/data/incidents.js:208
+msgctxt "text:incidentCases.dorm-window-chair.evidence.1.scratch-text.2"
+msgid "Lettering scratched by a chair leg"
+msgstr "Lettering scratched by a chair leg"
+
+#. incidentCases.dorm-window-chair.evidence.1.scratch-text.3
+#: src/data/incidents.js:208
+msgctxt "text:incidentCases.dorm-window-chair.evidence.1.scratch-text.3"
+msgid ""
+"Each stroke begins under the chair’s full weight with no claw-tip marks; "
+"letter shapes follow floor seams."
+msgstr ""
+"Each stroke begins under the chair’s full weight with no claw-tip marks; "
+"letter shapes follow floor seams."
+
+#. incidentCases.dorm-window-chair.evidence.1.scratch-text.4
+#: src/data/incidents.js:208
+msgctxt "text:incidentCases.dorm-window-chair.evidence.1.scratch-text.4"
+msgid "Kappa Materials Room"
+msgstr "Kappa Materials Room"
+
+#. incidentCases.dorm-window-chair.evidence.2.boundary-dust.2
+#: src/data/incidents.js:209
+msgctxt "text:incidentCases.dorm-window-chair.evidence.2.boundary-dust.2"
+msgid "Boundary dust on chair and wall seam"
+msgstr "Boundary dust on chair and wall seam"
+
+#. incidentCases.dorm-window-chair.evidence.2.boundary-dust.3
+#: src/data/incidents.js:209
+msgctxt "text:incidentCases.dorm-window-chair.evidence.2.boundary-dust.3"
+msgid ""
+"The dust shares a source but could come from repeated wall contact; it does "
+"not alone prove phasing transport."
+msgstr ""
+"The dust shares a source but could come from repeated wall contact; it does "
+"not alone prove phasing transport."
+
+#. incidentCases.dorm-window-chair.evidence.2.boundary-dust.4
+#: src/data/incidents.js:209
+msgctxt "text:incidentCases.dorm-window-chair.evidence.2.boundary-dust.4"
+msgid "Boundaries & Incidents"
+msgstr "Boundaries & Incidents"
+
+#. incidentCases.dorm-window-chair.evidence.3.old-receipt.2
+#: src/data/incidents.js:210
+msgctxt "text:incidentCases.dorm-window-chair.evidence.3.old-receipt.2"
+msgid "Faded Kourindou receipt from ninety-nine years ago"
+msgstr "Faded Kourindou receipt from ninety-nine years ago"
+
+#. incidentCases.dorm-window-chair.evidence.3.old-receipt.3
+#: src/data/incidents.js:210
+msgctxt "text:incidentCases.dorm-window-chair.evidence.3.old-receipt.3"
+msgid ""
+"The item reads only “long chair or short table.” The date is reliable; the "
+"object match is disputed."
+msgstr ""
+"The item reads only “long chair or short table.” The date is reliable; the "
+"object match is disputed."
+
+#. incidentCases.dorm-window-chair.evidence.3.old-receipt.4
+#: src/data/incidents.js:210
+msgctxt "text:incidentCases.dorm-window-chair.evidence.3.old-receipt.4"
+msgid "Found beneath the seat"
+msgstr "Found beneath the seat"
+
+#. incidentCases.dorm-window-chair.testimony.0.matoi-room.1
+#: src/data/incidents.js:213
+msgctxt "text:incidentCases.dorm-window-chair.testimony.0.matoi-room.1"
+msgid "Matoi Sakaime"
+msgstr "Matoi Sakaime"
+
+#. incidentCases.dorm-window-chair.testimony.0.matoi-room.2
+#: src/data/incidents.js:213
+msgctxt "text:incidentCases.dorm-window-chair.testimony.0.matoi-room.2"
+msgid "Resident"
+msgstr "Resident"
+
+#. incidentCases.dorm-window-chair.testimony.0.matoi-room.3
+#: src/data/incidents.js:213
+msgctxt "text:incidentCases.dorm-window-chair.testimony.0.matoi-room.3"
+msgid ""
+"I called it shared furniture. After it spoke, “shared” may need "
+"renegotiation. I did not carry it through a wall."
+msgstr ""
+"I called it shared furniture. After it spoke, “shared” may need "
+"renegotiation. I did not carry it through a wall."
+
+#. incidentCases.dorm-window-chair.testimony.0.matoi-room.4
+#: src/data/incidents.js:213
+msgctxt "text:incidentCases.dorm-window-chair.testimony.0.matoi-room.4"
+msgid "Accepts the identity question, denies the physical cause."
+msgstr "Accepts the identity question, denies the physical cause."
+
+#. incidentCases.dorm-window-chair.testimony.1.chacha.1
+#: src/data/incidents.js:214
+msgctxt "text:incidentCases.dorm-window-chair.testimony.1.chacha.1"
+msgid "Chacha Senya"
+msgstr "Chacha Senya"
+
+#. incidentCases.dorm-window-chair.testimony.1.chacha.2
+#: src/data/incidents.js:214
+msgctxt "text:incidentCases.dorm-window-chair.testimony.1.chacha.2"
+msgid "Resident / tsukumogami"
+msgstr "Resident / tsukumogami"
+
+#. incidentCases.dorm-window-chair.testimony.1.chacha.3
+#: src/data/incidents.js:214
+msgctxt "text:incidentCases.dorm-window-chair.testimony.1.chacha.3"
+msgid ""
+"I was a bench too. It writes slowly, but furniture lacking hands does not "
+"mean it lacks opinions."
+msgstr ""
+"I was a bench too. It writes slowly, but furniture lacking hands does not "
+"mean it lacks opinions."
+
+#. incidentCases.dorm-window-chair.testimony.1.chacha.4
+#: src/data/incidents.js:214
+msgctxt "text:incidentCases.dorm-window-chair.testimony.1.chacha.4"
+msgid "Relevant lived experience with possible strong projection."
+msgstr "Relevant lived experience with possible strong projection."
+
+#. incidentCases.dorm-window-chair.testimony.2.fire-mouse.1
+#: src/data/incidents.js:215
+msgctxt "text:incidentCases.dorm-window-chair.testimony.2.fire-mouse.1"
+msgid "Fire mouse (translated from singed slips)"
+msgstr "Fire mouse (translated from singed slips)"
+
+#. incidentCases.dorm-window-chair.testimony.2.fire-mouse.2
+#: src/data/incidents.js:215
+msgctxt "text:incidentCases.dorm-window-chair.testimony.2.fire-mouse.2"
+msgid "Suspected familiar"
+msgstr "Suspected familiar"
+
+#. incidentCases.dorm-window-chair.testimony.2.fire-mouse.3
+#: src/data/incidents.js:215
+msgctxt "text:incidentCases.dorm-window-chair.testimony.2.fire-mouse.3"
+msgid "“I take socks. Chair too big.”"
+msgstr "“I take socks. Chair too big.”"
+
+#. incidentCases.dorm-window-chair.testimony.2.fire-mouse.4
+#: src/data/incidents.js:215
+msgctxt "text:incidentCases.dorm-window-chair.testimony.2.fire-mouse.4"
+msgid "Brief and consistent; does not answer whether it wrote for the chair."
+msgstr "Brief and consistent; does not answer whether it wrote for the chair."
+
+#. incidentCases.dorm-window-chair.actions.0.empty-room-camera.1
+#: src/data/incidents.js:218
+msgctxt "text:incidentCases.dorm-window-chair.actions.0.empty-room-camera.1"
+msgid "Low-stimulus unattended observation"
+msgstr "Low-stimulus unattended observation"
+
+#. incidentCases.dorm-window-chair.actions.0.empty-room-camera.2
+#: src/data/incidents.js:218
+msgctxt "text:incidentCases.dorm-window-chair.actions.0.empty-room-camera.2"
+msgid "Do not restrain the chair; use a non-luminous chalk grid and mechanical shutter."
+msgstr "Do not restrain the chair; use a non-luminous chalk grid and mechanical shutter."
+
+#. incidentCases.dorm-window-chair.actions.0.empty-room-camera.3
+#: src/data/incidents.js:218
+msgctxt "text:incidentCases.dorm-window-chair.actions.0.empty-room-camera.3"
+msgid "The camera may not pre-classify the chair as object or participant."
+msgstr "The camera may not pre-classify the chair as object or participant."
+
+#. incidentCases.dorm-window-chair.actions.1.phase-control.1
+#: src/data/incidents.js:219
+msgctxt "text:incidentCases.dorm-window-chair.actions.1.phase-control.1"
+msgid "Two-night no-phasing control"
+msgstr "Two-night no-phasing control"
+
+#. incidentCases.dorm-window-chair.actions.1.phase-control.2
+#: src/data/incidents.js:219
+msgctxt "text:incidentCases.dorm-window-chair.actions.1.phase-control.2"
+msgid "Provide an ordinary key and compare whether the chair still moves."
+msgstr "Provide an ordinary key and compare whether the chair still moves."
+
+#. incidentCases.dorm-window-chair.actions.1.phase-control.3
+#: src/data/incidents.js:219
+msgctxt "text:incidentCases.dorm-window-chair.actions.1.phase-control.3"
+msgid "Matoi says using a door makes her four seconds late."
+msgstr "Matoi says using a door makes her four seconds late."
+
+#. incidentCases.dorm-window-chair.actions.2.familiar-control.1
+#: src/data/incidents.js:220
+msgctxt "text:incidentCases.dorm-window-chair.actions.2.familiar-control.1"
+msgid "Alternate familiar-present and familiar-absent nights"
+msgstr "Alternate familiar-present and familiar-absent nights"
+
+#. incidentCases.dorm-window-chair.actions.2.familiar-control.2
+#: src/data/incidents.js:220
+msgctxt "text:incidentCases.dorm-window-chair.actions.2.familiar-control.2"
+msgid "Register the fire mouse’s location rather than using missing socks as tracking."
+msgstr "Register the fire mouse’s location rather than using missing socks as tracking."
+
+#. incidentCases.dorm-window-chair.actions.2.familiar-control.3
+#: src/data/incidents.js:220
+msgctxt "text:incidentCases.dorm-window-chair.actions.2.familiar-control.3"
+msgid "The mouse refuses an ID tag larger than itself."
+msgstr "The mouse refuses an ID tag larger than itself."
+
+#. incidentCases.dorm-window-chair.actions.3.provisional-seat.1
+#: src/data/incidents.js:221
+msgctxt "text:incidentCases.dorm-window-chair.actions.3.provisional-seat.1"
+msgid "Grant the chair a provisional resident seat"
+msgstr "Grant the chair a provisional resident seat"
+
+#. incidentCases.dorm-window-chair.actions.3.provisional-seat.2
+#: src/data/incidents.js:221
+msgctxt "text:incidentCases.dorm-window-chair.actions.3.provisional-seat.2"
+msgid "Allow it into furniture rotas and agreements during study without deciding rent."
+msgstr "Allow it into furniture rotas and agreements during study without deciding rent."
+
+#. incidentCases.dorm-window-chair.actions.3.provisional-seat.3
+#: src/data/incidents.js:221
+msgctxt "text:incidentCases.dorm-window-chair.actions.3.provisional-seat.3"
+msgid "May alter behaviour, but avoids treating a possible resident as mere apparatus."
+msgstr "May alter behaviour, but avoids treating a possible resident as mere apparatus."
+
+#. incidentCases.dorm-window-chair.reactions.0.author
+#: src/data/incidents.js:224
+msgctxt "text:incidentCases.dorm-window-chair.reactions.0.author"
+msgid "Boundary Annex Hall Council"
+msgstr "Boundary Annex Hall Council"
+
+#. incidentCases.dorm-window-chair.reactions.0.title
+#: src/data/incidents.js:224
+msgctxt "text:incidentCases.dorm-window-chair.reactions.0.title"
+msgid "BA-YD chair case closed: {finding}"
+msgstr "BA-YD chair case closed: {finding}"
+
+#. incidentCases.dorm-window-chair.reactions.0.body
+#: src/data/incidents.js:224
+msgctxt "text:incidentCases.dorm-window-chair.reactions.0.body"
+msgid ""
+"Interim action: {action}. File {ref}. The rent question goes to the next "
+"meeting table that does not collapse."
+msgstr ""
+"Interim action: {action}. File {ref}. The rent question goes to the next "
+"meeting table that does not collapse."
+
+#. incidentCases.dorm-window-chair.reactions.1.author
+#: src/data/incidents.js:225
+msgctxt "text:incidentCases.dorm-window-chair.reactions.1.author"
+msgid "Window Chair (typed by Chacha)"
+msgstr "Window Chair (typed by Chacha)"
+
+#. incidentCases.dorm-window-chair.reactions.1.title
+#: src/data/incidents.js:225
+msgctxt "text:incidentCases.dorm-window-chair.reactions.1.title"
+msgid "Not for sale, not for trade, not a common resource"
+msgstr "Not for sale, not for trade, not a common resource"
+
+#. incidentCases.dorm-window-chair.reactions.1.body
+#: src/data/incidents.js:225
+msgctxt "text:incidentCases.dorm-window-chair.reactions.1.body"
+msgid "The study provisionally finds {finding}. Also, the Tuesday window slot is mine."
+msgstr "The study provisionally finds {finding}. Also, the Tuesday window slot is mine."
+
+#. incidentCases.dorm-window-chair.reactions.2.author
+#: src/data/incidents.js:226
+msgctxt "text:incidentCases.dorm-window-chair.reactions.2.author"
+msgid "Faith & Coexistence Policy"
+msgstr "Faith & Coexistence Policy"
+
+#. incidentCases.dorm-window-chair.reactions.2.title
+#: src/data/incidents.js:226
+msgctxt "text:incidentCases.dorm-window-chair.reactions.2.title"
+msgid "Pop-up seminar: when furniture becomes a stakeholder"
+msgstr "Pop-up seminar: when furniture becomes a stakeholder"
+
+#. incidentCases.dorm-window-chair.reactions.2.body
+#: src/data/incidents.js:226
+msgctxt "text:incidentCases.dorm-window-chair.reactions.2.body"
+msgid ""
+"Using {ref}: Kanako asks about infrastructure, Byakuren coexistence, and "
+"Miko wants the chair to state its desire."
+msgstr ""
+"Using {ref}: Kanako asks about infrastructure, Byakuren coexistence, and "
+"Miko wants the chair to state its desire."
+
+#. incidentSeverity.green
+#: src/data/incidents.js:232
+msgctxt "text:incidentSeverity.green"
+msgid "Observe"
+msgstr "Observe"
+
+#. incidentSeverity.amber
+#: src/data/incidents.js:233
+msgctxt "text:incidentSeverity.amber"
+msgid "Action needed"
+msgstr "Action needed"
+
+#. incidentSeverity.red
+#: src/data/incidents.js:234
+msgctxt "text:incidentSeverity.red"
+msgid "High impact"
+msgstr "High impact"
+
+#. evidenceKinds.instrument
+#: src/data/incidents.js:238
+msgctxt "text:evidenceKinds.instrument"
+msgid "Instrument"
+msgstr "Instrument"
+
+#. evidenceKinds.record
+#: src/data/incidents.js:239
+msgctxt "text:evidenceKinds.record"
+msgid "Record"
+msgstr "Record"
+
+#. evidenceKinds.trace
+#: src/data/incidents.js:240
+msgctxt "text:evidenceKinds.trace"
+msgid "Trace"
+msgstr "Trace"
+
+#. evidenceKinds.media
+#: src/data/incidents.js:241
+msgctxt "text:evidenceKinds.media"
+msgid "Media"
+msgstr "Media"
+
+#. evidenceKinds.environment
+#: src/data/incidents.js:242
+msgctxt "text:evidenceKinds.environment"
+msgid "Environment"
+msgstr "Environment"
+
+#. evidenceKinds.version
+#: src/data/incidents.js:243
+msgctxt "text:evidenceKinds.version"
+msgid "Version"
+msgstr "Version"
+
+#. evidenceKinds.material
+#: src/data/incidents.js:244
+msgctxt "text:evidenceKinds.material"
+msgid "Material"
+msgstr "Material"
+
+#. incidentRetentionReviewers.aya.name
+#: src/data/incidents.js:249
+msgctxt "text:incidentRetentionReviewers.aya.name"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. incidentRetentionReviewers.aya.role
+#: src/data/incidents.js:250
+msgctxt "text:incidentRetentionReviewers.aya.role"
+msgid "Journalism · Headline Already Typeset"
+msgstr "Journalism · Headline Already Typeset"
+
+#. incidentRetentionReviewers.aya.note
+#: src/data/incidents.js:251
+msgctxt "text:incidentRetentionReviewers.aya.note"
+msgid ""
+"The study not supporting it is one matter; readers already being supported "
+"by the headline is another. Preserve both until Corrections catches up."
+msgstr ""
+"The study not supporting it is one matter; readers already being supported "
+"by the headline is another. Preserve both until Corrections catches up."
+
+#. incidentRetentionReviewers.marisa.name
+#: src/data/incidents.js:254
+msgctxt "text:incidentRetentionReviewers.marisa.name"
+msgid "Marisa Kirisame"
+msgstr "Marisa Kirisame"
+
+#. incidentRetentionReviewers.marisa.role
+#: src/data/incidents.js:255
+msgctxt "text:incidentRetentionReviewers.marisa.role"
+msgid "Magic Practice · Wall-struck Hypothesis Seat"
+msgstr "Magic Practice · Wall-struck Hypothesis Seat"
+
+#. incidentRetentionReviewers.marisa.note
+#: src/data/incidents.js:256
+msgctxt "text:incidentRetentionReviewers.marisa.note"
+msgid ""
+"A hypothesis that hit a wall still tells the next person where the wall is. "
+"Keep it, but do not rename the wall an exit."
+msgstr ""
+"A hypothesis that hit a wall still tells the next person where the wall is. "
+"Keep it, but do not rename the wall an exit."
+
+#. incidentRetentionReviewers.yukari.name
+#: src/data/incidents.js:259
+msgctxt "text:incidentRetentionReviewers.yukari.name"
+msgid "Yukari Yakumo"
+msgstr "Yukari Yakumo"
+
+#. incidentRetentionReviewers.yukari.role
+#: src/data/incidents.js:260
+msgctxt "text:incidentRetentionReviewers.yukari.role"
+msgid "Boundary Studies · Indistinguishable Seat"
+msgstr "Boundary Studies · Indistinguishable Seat"
+
+#. incidentRetentionReviewers.yukari.note
+#: src/data/incidents.js:261
+msgctxt "text:incidentRetentionReviewers.yukari.note"
+msgid ""
+"Failing to distinguish two explanations proves neither that both are absent "
+"nor that either exists. It belongs precisely between those statements."
+msgstr ""
+"Failing to distinguish two explanations proves neither that both are absent "
+"nor that either exists. It belongs precisely between those statements."
+
+#. incidentRetentionReviewers.keine.name
+#: src/data/incidents.js:264
+msgctxt "text:incidentRetentionReviewers.keine.name"
+msgid "Keine Kamishirasawa"
+msgstr "Keine Kamishirasawa"
+
+#. incidentRetentionReviewers.keine.role
+#: src/data/incidents.js:265
+msgctxt "text:incidentRetentionReviewers.keine.role"
+msgid "History & Records · Red-thread Binding Seat"
+msgstr "History & Records · Red-thread Binding Seat"
+
+#. incidentRetentionReviewers.keine.note
+#: src/data/incidents.js:266
+msgctxt "text:incidentRetentionReviewers.keine.note"
+msgid ""
+"Failure may be preserved, but the filename, conclusion, and every later "
+"citation must retain “not supported.” Lose one word and it returns for "
+"rebinding."
+msgstr ""
+"Failure may be preserved, but the filename, conclusion, and every later "
+"citation must retain “not supported.” Lose one word and it returns for "
+"rebinding."
+
+#. incidentRetentionReasons.counterexample
+#: src/data/incidents.js:271
+msgctxt "text:incidentRetentionReasons.counterexample"
+msgid "Preserve as counterexample: show the next round which path failed"
+msgstr "Preserve as counterexample: show the next round which path failed"
+
+#. incidentRetentionReasons.method
+#: src/data/incidents.js:272
+msgctxt "text:incidentRetentionReasons.method"
+msgid "Preserve as method failure: the error teaches calibration and version control"
+msgstr "Preserve as method failure: the error teaches calibration and version control"
+
+#. incidentRetentionReasons.public
+#: src/data/incidents.js:273
+msgctxt "text:incidentRetentionReasons.public"
+msgid "Preserve as public controversy: the rumour exists, and deletion would make it look truer"
+msgstr "Preserve as public controversy: the rumour exists, and deletion would make it look truer"
+
+#. incidentRetentionReasons.headline
+#: src/data/incidents.js:274
+msgctxt "text:incidentRetentionReasons.headline"
+msgid "Preserve because the headline is printed: Corrections may catch up later"
+msgstr "Preserve because the headline is printed: Corrections may catch up later"

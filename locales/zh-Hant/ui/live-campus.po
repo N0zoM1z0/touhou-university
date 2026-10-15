@@ -1,0 +1,224 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/eyebrow"
+msgid "LIVE CAMPUS / OPERATIONS BOARD"
+msgstr "LIVE CAMPUS / 校務運行盤"
+
+#. copy/title
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/title"
+msgid "Today’s campus does not inherit yesterday’s assumptions."
+msgstr "今天的校園，不沿用昨天的假設。"
+
+#. copy/lead
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/lead"
+msgid ""
+"Time, moon phase, and duty incidents jointly change menus, classes, free "
+"rooms, flight restrictions, and routes. Conditions rotate every three hours; "
+"votes stay on this device and enter the My TU ledger."
+msgstr "時間、月相與當值事件共同改動菜單、課表、空房、飛行限制與路線。狀態每三小時換班；投票則只保存在這台裝置，並進入 My TU 事件帳本。"
+
+#. copy/deviceTime
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/deviceTime"
+msgid "Device time"
+msgstr "本機時間"
+
+#. copy/academicDay
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/academicDay"
+msgid "Rotating teaching day"
+msgstr "輪值教學日"
+
+#. copy/phase
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/phase"
+msgid "Lunar segment"
+msgstr "月相格"
+
+#. copy/weather
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/weather"
+msgid "Field weather"
+msgstr "現場氣象"
+
+#. copy/notices
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/notices"
+msgid "Duty notices"
+msgstr "當值通報"
+
+#. copy/rules
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/rules"
+msgid "Rules in force"
+msgstr "已生效限制"
+
+#. copy/services
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/services"
+msgid "Services right now"
+msgstr "查閱此刻服務"
+
+#. copy/dining
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/dining"
+msgid "Today’s dining"
+msgstr "今日食堂"
+
+#. copy/timetable
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/timetable"
+msgid "Today’s classes"
+msgstr "今日排課"
+
+#. copy/rooms
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/rooms"
+msgid "Find a free room"
+msgstr "空閒館舍"
+
+#. copy/map
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/map"
+msgid "Route with restrictions"
+msgstr "帶限制規劃路線"
+
+#. copy/clinic
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/clinic"
+msgid "Hospital queue"
+msgstr "校醫院候診"
+
+#. copy/senate
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/senate"
+msgid "CAMPUS SENATE / GOVERNANCE BELL"
+msgstr "CAMPUS SENATE / 議事鐘"
+
+#. copy/governanceTitle
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/governanceTitle"
+msgid "Rules can operate while characters still object."
+msgstr "規章在執行，角色仍然可以不服。"
+
+#. copy/governanceLead
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/governanceLead"
+msgid ""
+"Baseline votes come from schools, facilities, clubs, and airborne "
+"stakeholders. Cast or change one on this device; the count does not pretend "
+"the campus suddenly agrees."
+msgstr "每天的底票由各學院、館舍、社團與會飛的利益關係人構成。你可在這台裝置投一票或改票；票數不會假裝全校突然達成共識。"
+
+#. copy/sponsor
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/sponsor"
+msgid "Sponsor"
+msgstr "提案席"
+
+#. copy/total
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/total"
+msgid "Public count"
+msgstr "公開計數"
+
+#. copy/votes
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/votes"
+msgid "votes"
+msgstr "票"
+
+#. copy/leading
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/leading"
+msgid "Currently leading"
+msgstr "目前領先"
+
+#. copy/yourVote
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/yourVote"
+msgid "Your on-device vote"
+msgstr "你的本機票"
+
+#. copy/vote
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/vote"
+msgid "Vote for this"
+msgstr "投這一案"
+
+#. copy/voted
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/voted"
+msgid "Vote recorded. The BBS has already removed context."
+msgstr "已投；BBS 已經有人斷章取義。"
+
+#. copy/consequence
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/consequence"
+msgid "If adopted"
+msgstr "若通過"
+
+#. copy/updated
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/updated"
+msgid "Updates every minute; restrictions rotate on the three-hour bell."
+msgstr "本盤每分鐘更新；規則於三小時鐘點換班。"
+
+#. phaseName/0
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/0"
+msgid "New"
+msgstr "朔月"
+
+#. phaseName/1
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/1"
+msgid "Waxing crescent"
+msgstr "眉月"
+
+#. phaseName/2
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/2"
+msgid "First quarter"
+msgstr "上弦"
+
+#. phaseName/3
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/3"
+msgid "Waxing gibbous"
+msgstr "盈凸"
+
+#. phaseName/4
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/4"
+msgid "Full"
+msgstr "滿月"
+
+#. phaseName/5
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/5"
+msgid "Waning gibbous"
+msgstr "虧凸"
+
+#. phaseName/6
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/6"
+msgid "Last quarter"
+msgstr "下弦"
+
+#. phaseName/7
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/7"
+msgid "Waning crescent"
+msgstr "殘月"

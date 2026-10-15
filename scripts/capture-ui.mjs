@@ -3,6 +3,7 @@ import { existsSync } from "node:fs";
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { browserPorts } from "./browser/ports.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const argumentsMap = Object.fromEntries(
@@ -32,8 +33,7 @@ const width = Number(argumentsMap.width || 1440);
 const height = Number(argumentsMap.height || 1000);
 const pageLabel = page.split(/[?#]/)[0].replace(/\.html$/, "") || "index";
 const output = path.resolve(argumentsMap.output || `/tmp/touhou-university-${pageLabel}-${section}-${width}x${height}.png`);
-const sitePort = Number(process.env.CAPTURE_SITE_PORT || 4192);
-const debugPort = Number(process.env.CAPTURE_DEBUG_PORT || 9335);
+const { sitePort, debugPort } = await browserPorts(process.env.CAPTURE_SITE_PORT, process.env.CAPTURE_DEBUG_PORT);
 const siteUrl = `http://127.0.0.1:${sitePort}/`;
 const chrome = [
   process.env.CHROME_BIN,
@@ -52,7 +52,7 @@ if (!Number.isFinite(width) || !Number.isFinite(height) || width < 320 || height
 }
 
 const server = spawn("python3", ["-m", "http.server", String(sitePort), "--bind", "127.0.0.1"], {
-  cwd: root,
+  cwd: path.join(root, "dist"),
   stdio: "ignore",
 });
 const browser = spawn(

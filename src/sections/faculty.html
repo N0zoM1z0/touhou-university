@@ -2,142 +2,142 @@
         <div class="container">
           <header class="section-header faculty-header reveal">
             <div>
-              <p class="eyebrow"><span>04</span> FACULTY / 師資陣容</p>
-              <h2>跟真正做過的人學。</h2>
+              <p class="eyebrow"><span>04</span><!-- i18n:facultyEyebrow --> FACULTY / 師資陣容</p>
+              <h2 data-i18n="facultyTitle1">跟真正做過的人學。</h2>
             </div>
-            <p>
+            <p data-i18n="facultyFrictionLead">
               教師會把現場經驗帶進講堂，也把自己的麻煩一起帶來。
               八個核心教席之外，信仰學院本學期開放四席輪值教學。
             </p>
           </header>
 
-          <div class="faculty-controls reveal" role="group" aria-label="篩選教師">
-            <button class="filter-button active" type="button" data-filter="all">全體</button>
-            <button class="filter-button" type="button" data-filter="boundary">結界・歷史</button>
-            <button class="filter-button" type="button" data-filter="science">魔法・醫藥</button>
-            <button class="filter-button" type="button" data-filter="society">工程・社會</button>
+          <div class="faculty-controls reveal" role="group" aria-label="篩選教師" data-i18n-aria-label="attribute.filterFaculty">
+            <button class="filter-button active" type="button" data-filter="all" data-i18n="allApplicants">全體</button>
+            <button class="filter-button" type="button" data-filter="boundary" data-i18n="boundaryHistory">結界・歷史</button>
+            <button class="filter-button" type="button" data-filter="science" data-i18n="magicMedicine">魔法・醫藥</button>
+            <button class="filter-button" type="button" data-filter="society" data-i18n="engineeringSociety">工程・社會</button>
           </div>
 
           <div class="faculty-grid">
             <article class="faculty-card reveal" data-category="boundary">
               <div class="faculty-portrait portrait-reimu">
-                <img src="assets/images/faculty/{{portraitSet}}/reimu.webp" srcset="assets/images/faculty/{{portraitSet}}/reimu-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/reimu.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="博麗靈夢教授" loading="lazy" width="1000" height="750">
+                <img src="assets/images/faculty/{{portraitSet}}/reimu.webp" srcset="assets/images/faculty/{{portraitSet}}/reimu-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/reimu.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="博麗靈夢教授" data-i18n-alt="attribute.professorReimuHakurei" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">☯</span>
               </div>
               <div class="faculty-info">
                 <p>INCIDENT STUDIES</p>
-                <h3>博麗 靈夢 <small>Reimu Hakurei</small></h3>
-                <span>異變應對實務・博麗結界術</span>
+                <h3><!-- i18n:reimuName -->博麗 靈夢 <small>Reimu Hakurei</small></h3>
+                <span data-i18n="reimuTags">異變應對實務・博麗結界術</span>
               </div>
-              <button class="faculty-more" type="button" aria-label="查看博麗靈夢簡介" data-faculty="reimu">＋</button>
+              <button class="faculty-more" type="button" aria-label="查看博麗靈夢簡介" data-i18n-aria-label="attribute.viewReimuHakureiProfile" data-faculty="reimu">＋</button>
             </article>
 
             <article class="faculty-card reveal" data-category="boundary">
               <div class="faculty-portrait portrait-yukari">
-                <img src="assets/images/faculty/{{portraitSet}}/yukari.webp" srcset="assets/images/faculty/{{portraitSet}}/yukari-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/yukari.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="八雲紫教授" loading="lazy" width="1000" height="750">
+                <img src="assets/images/faculty/{{portraitSet}}/yukari.webp" srcset="assets/images/faculty/{{portraitSet}}/yukari-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/yukari.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="八雲紫教授" data-i18n-alt="attribute.professorYukariYakumo" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">◐</span>
               </div>
               <div class="faculty-info">
                 <p>BOUNDARY GOVERNANCE</p>
-                <h3>八雲 紫 <small>Yukari Yakumo</small></h3>
-                <span>境界拓撲・幻想鄉治理</span>
+                <h3><!-- i18n:yukariName -->八雲 紫 <small>Yukari Yakumo</small></h3>
+                <span data-i18n="boundaryTags">境界拓撲・幻想鄉治理</span>
               </div>
-              <button class="faculty-more" type="button" aria-label="查看八雲紫簡介" data-faculty="yukari">＋</button>
+              <button class="faculty-more" type="button" aria-label="查看八雲紫簡介" data-i18n-aria-label="attribute.viewYukariYakumoProfile" data-faculty="yukari">＋</button>
             </article>
 
             <article class="faculty-card reveal" data-category="boundary">
               <div class="faculty-portrait portrait-keine">
-                <img src="assets/images/faculty/{{portraitSet}}/keine.webp" srcset="assets/images/faculty/{{portraitSet}}/keine-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/keine.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="上白澤慧音教授" loading="lazy" width="1000" height="750">
+                <img src="assets/images/faculty/{{portraitSet}}/keine.webp" srcset="assets/images/faculty/{{portraitSet}}/keine-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/keine.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="上白澤慧音教授" data-i18n-alt="attribute.professorKeineKamishirasawa" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">□</span>
               </div>
               <div class="faculty-info">
                 <p>HISTORY &amp; MEMORY</p>
-                <h3>上白澤 慧音 <small>Keine Kamishirasawa</small></h3>
-                <span>幻想鄉史・公共記憶</span>
+                <h3><!-- i18n:keineName -->上白澤 慧音 <small>Keine Kamishirasawa</small></h3>
+                <span data-i18n="historyTags">幻想鄉史・公共記憶</span>
               </div>
-              <button class="faculty-more" type="button" aria-label="查看上白澤慧音簡介" data-faculty="keine">＋</button>
+              <button class="faculty-more" type="button" aria-label="查看上白澤慧音簡介" data-i18n-aria-label="attribute.viewKeineKamishirasawaProfile" data-faculty="keine">＋</button>
             </article>
 
             <article class="faculty-card reveal" data-category="science">
               <div class="faculty-portrait portrait-patchouli">
-                <img src="assets/images/faculty/{{portraitSet}}/patchouli.webp" srcset="assets/images/faculty/{{portraitSet}}/patchouli-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/patchouli.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="帕秋莉・諾蕾姬教授" loading="lazy" width="1000" height="750">
+                <img src="assets/images/faculty/{{portraitSet}}/patchouli.webp" srcset="assets/images/faculty/{{portraitSet}}/patchouli-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/patchouli.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="帕秋莉・諾蕾姬教授" data-i18n-alt="attribute.professorPatchouliKnowledge" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">☾</span>
               </div>
               <div class="faculty-info">
                 <p>ELEMENTAL MAGIC</p>
-                <h3>帕秋莉・諾蕾姬 <small>Patchouli Knowledge</small></h3>
-                <span>元素魔法・古典文獻</span>
+                <h3><!-- i18n:patchouliName -->帕秋莉・諾蕾姬 <small>Patchouli Knowledge</small></h3>
+                <span data-i18n="patchouliTags">元素魔法・古典文獻</span>
               </div>
-              <button class="faculty-more" type="button" aria-label="查看帕秋莉簡介" data-faculty="patchouli">＋</button>
+              <button class="faculty-more" type="button" aria-label="查看帕秋莉簡介" data-i18n-aria-label="attribute.viewPatchouliKnowledgeProfile" data-faculty="patchouli">＋</button>
             </article>
 
             <article class="faculty-card reveal" data-category="science">
               <div class="faculty-portrait portrait-marisa">
-                <img src="assets/images/faculty/{{portraitSet}}/marisa.webp" srcset="assets/images/faculty/{{portraitSet}}/marisa-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/marisa.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="霧雨魔理沙教授" loading="lazy" width="1000" height="750">
+                <img src="assets/images/faculty/{{portraitSet}}/marisa.webp" srcset="assets/images/faculty/{{portraitSet}}/marisa-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/marisa.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="霧雨魔理沙教授" data-i18n-alt="attribute.professorMarisaKirisame" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">✦</span>
               </div>
               <div class="faculty-info">
                 <p>APPLIED MAGIC</p>
-                <h3>霧雨 魔理沙 <small>Marisa Kirisame</small></h3>
-                <span>高輸出魔法・實驗方法</span>
+                <h3><!-- i18n:marisaName -->霧雨 魔理沙 <small>Marisa Kirisame</small></h3>
+                <span data-i18n="marisaTags">高輸出魔法・實驗方法</span>
               </div>
-              <button class="faculty-more" type="button" aria-label="查看霧雨魔理沙簡介" data-faculty="marisa">＋</button>
+              <button class="faculty-more" type="button" aria-label="查看霧雨魔理沙簡介" data-i18n-aria-label="attribute.viewMarisaKirisameProfile" data-faculty="marisa">＋</button>
             </article>
 
             <article class="faculty-card reveal" data-category="science">
               <div class="faculty-portrait portrait-eirin">
-                <img src="assets/images/faculty/{{portraitSet}}/eirin.webp" srcset="assets/images/faculty/{{portraitSet}}/eirin-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/eirin.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="八意永琳教授" loading="lazy" width="1000" height="750">
+                <img src="assets/images/faculty/{{portraitSet}}/eirin.webp" srcset="assets/images/faculty/{{portraitSet}}/eirin-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/eirin.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="八意永琳教授" data-i18n-alt="attribute.professorEirinYagokoro" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">⚕</span>
               </div>
               <div class="faculty-info">
                 <p>LUNAR MEDICINE</p>
-                <h3>八意 永琳 <small>Eirin Yagokoro</small></h3>
-                <span>藥理學・跨種族醫療</span>
+                <h3><!-- i18n:eirinName -->八意 永琳 <small>Eirin Yagokoro</small></h3>
+                <span data-i18n="medicineTags">藥理學・跨種族醫療</span>
               </div>
-              <button class="faculty-more" type="button" aria-label="查看八意永琳簡介" data-faculty="eirin">＋</button>
+              <button class="faculty-more" type="button" aria-label="查看八意永琳簡介" data-i18n-aria-label="attribute.viewEirinYagokoroProfile" data-faculty="eirin">＋</button>
             </article>
 
             <article class="faculty-card reveal" data-category="society">
               <div class="faculty-portrait portrait-nitori">
-                <img src="assets/images/faculty/{{portraitSet}}/nitori.webp" srcset="assets/images/faculty/{{portraitSet}}/nitori-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/nitori.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="河城荷取教授" loading="lazy" width="1000" height="750">
+                <img src="assets/images/faculty/{{portraitSet}}/nitori.webp" srcset="assets/images/faculty/{{portraitSet}}/nitori-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/nitori.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="河城荷取教授" data-i18n-alt="attribute.professorNitoriKawashiro" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">⚙</span>
               </div>
               <div class="faculty-info">
                 <p>KAPPA ENGINEERING</p>
-                <h3>河城 荷取 <small>Nitori Kawashiro</small></h3>
-                <span>水力機械・原型製作</span>
+                <h3><!-- i18n:nitoriName -->河城 荷取 <small>Nitori Kawashiro</small></h3>
+                <span data-i18n="nitoriTags">水力機械・原型製作</span>
               </div>
-              <button class="faculty-more" type="button" aria-label="查看河城荷取簡介" data-faculty="nitori">＋</button>
+              <button class="faculty-more" type="button" aria-label="查看河城荷取簡介" data-i18n-aria-label="attribute.viewNitoriKawashiroProfile" data-faculty="nitori">＋</button>
             </article>
 
             <article class="faculty-card reveal" data-category="society">
               <div class="faculty-portrait portrait-aya">
-                <img src="assets/images/faculty/{{portraitSet}}/aya.webp" srcset="assets/images/faculty/{{portraitSet}}/aya-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/aya.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="射命丸文教授" loading="lazy" width="1000" height="750">
+                <img src="assets/images/faculty/{{portraitSet}}/aya.webp" srcset="assets/images/faculty/{{portraitSet}}/aya-mobile.webp 560w, assets/images/faculty/{{portraitSet}}/aya.webp 1000w" sizes="(max-width: 700px) 92vw, 25vw" alt="射命丸文教授" data-i18n-alt="attribute.professorAyaShameimaru" loading="lazy" width="1000" height="750">
                 <span class="portrait-mark">◉</span>
               </div>
               <div class="faculty-info">
                 <p>JOURNALISM</p>
-                <h3>射命丸 文 <small>Aya Shameimaru</small></h3>
-                <span>新聞實務・攝影倫理</span>
+                <h3><!-- i18n:ayaName -->射命丸 文 <small>Aya Shameimaru</small></h3>
+                <span data-i18n="journalismTags">新聞實務・攝影倫理</span>
               </div>
-              <button class="faculty-more" type="button" aria-label="查看射命丸文簡介" data-faculty="aya">＋</button>
+              <button class="faculty-more" type="button" aria-label="查看射命丸文簡介" data-i18n-aria-label="attribute.viewAyaShameimaruProfile" data-faculty="aya">＋</button>
             </article>
           </div>
 
           <div class="faculty-friction reveal" role="region" aria-labelledby="friction-title">
             <header class="friction-heading">
-              <p>OFFICE OF UNRESOLVED MATTERS / 尚未解決事務室</p>
-              <h3 id="friction-title">制度寫得很整齊。教師本人沒有。</h3>
-              <p>
+              <p data-i18n="unresolvedOffice">OFFICE OF UNRESOLVED MATTERS / 尚未解決事務室</p>
+              <h3 id="friction-title" data-i18n="unresolvedTitle">制度寫得很整齊。教師本人沒有。</h3>
+              <p data-i18n="unresolvedLead">
                 這裡收的是還沒被會議磨平的案子：太快的頭條、來源不明的材料、
                 會移動的教室，以及已經臨時修了一百二十九天的水管。
               </p>
             </header>
             <div class="friction-board" data-friction-board></div>
             <footer class="friction-foot">
-              <span>本週校務結論</span>
-              <s>全數依規處理</s>
-              <b>訂正：全數仍在爭論</b>
+              <span data-i18n="weeklyConclusion">本週校務結論</span>
+              <s data-i18n="allHandled">全數依規處理</s>
+              <b data-i18n="allDebated">訂正：全數仍在爭論</b>
             </footer>
           </div>
 
@@ -153,27 +153,27 @@
                 height="1024"
                 data-faith-council-image
               >
-              <span class="faith-photo-caption">FCP MEETING No. 47 · 桌腳於會中再次鬆脫</span>
+              <span class="faith-photo-caption" data-i18n="faithMeetingCaption">FCP MEETING No. 47 · 桌腳於會中再次鬆脫</span>
               <aside class="hakurei-donation">
-                <span>博麗門修繕募金</span>
+                <span data-i18n="hakureiGateFund">博麗門修繕募金</span>
                 <strong>63%</strong>
-                <small>※ 募金箱週二、四才在校</small>
+                <small data-i18n="donationSchedule">※ 募金箱週二、四才在校</small>
               </aside>
             </div>
             <div class="faith-council-copy">
               <header>
-                <p>FAITH + COEXISTENCE POLICY / 信仰與共生政策學院</p>
-                <h3 id="faith-council-title">四個信仰勢力，一張太小的會議桌。</h3>
-                <p>
+                <p data-i18n="faithEyebrow">FAITH + COEXISTENCE POLICY / 信仰與共生政策學院</p>
+                <h3 id="faith-council-title" data-i18n="faithCouncilTitle">四個信仰勢力，一張太小的會議桌。</h3>
+                <p data-i18n="faithCouncilLead">
                   學院不假裝宗教對話總能順利結束。寺院的共生、神社的基礎設施、
                   仙人的公共欲望與外界式活動流程，經常在同一筆預算上正面相撞。
                 </p>
               </header>
               <div class="faith-roster" data-faith-roster></div>
               <aside class="faith-review" data-faith-review>
-                <span>校外申訴審查</span>
-                <strong>四季映姬・夜摩仙那度</strong>
-                <p>每月最後一個彼岸日到校。</p>
+                <span data-i18n="externalAppeals">校外申訴審查</span>
+                <strong data-i18n="eikiNameStatic">四季映姬・夜摩仙那度</strong>
+                <p data-i18n="eikiVisitStatic">每月最後一個彼岸日到校。</p>
               </aside>
             </div>
           </article>

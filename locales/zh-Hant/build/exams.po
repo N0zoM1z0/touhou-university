@@ -1,0 +1,104 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. tree:labels#/title
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/title"
+msgid "Gensokyo Unified Examination"
+msgstr "幻想鄉統一學力試驗"
+
+#. tree:labels#/paper
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/paper"
+msgid "Question Paper"
+msgstr "試題本"
+
+#. tree:labels#/answers
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/answers"
+msgid "Reference Answers & Marking Notes"
+msgstr "參考答案與評分說明"
+
+#. tree:labels#/candidate
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/candidate"
+msgid "Candidate name"
+msgstr "考生姓名"
+
+#. tree:labels#/number
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/number"
+msgid "Candidate number"
+msgstr "准考證號"
+
+#. tree:labels#/duration
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/duration"
+msgid "Time allowed"
+msgstr "考試時間"
+
+#. tree:labels#/total
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/total"
+msgid "Maximum: 150 marks"
+msgstr "滿分 150 分"
+
+#. tree:labels#/instruction
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/instruction"
+msgid ""
+"All items are single-choice. Source boxes are part of the question. Unless "
+"stated otherwise, lunar phase, time, route, and version come only from the "
+"source box, not the site's live state. Record answers separately and confirm "
+"track, difficulty, and page order."
+msgstr "所有題目均為單選題。材料框屬於題目；除非另有說明，月相、時間、路線與版本均以材料框為準，不讀取網站即時狀態。請把答案填在另紙，列印前確認組別、難度與頁碼。"
+
+#. tree:labels#/print
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/print"
+msgid "Print / Save as PDF"
+msgstr "列印／另存 PDF"
+
+#. tree:labels#/answer
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/answer"
+msgid "Answer"
+msgstr "答案"
+
+#. tree:labels#/explanation
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/explanation"
+msgid "Explanation"
+msgstr "解析"
+
+#. tree:labels#/marks
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/marks"
+msgid "marks"
+msgstr "分"
+
+#. tree:labels#/source
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/source"
+msgid "Source dossier · independent conditions"
+msgstr "題目材料 · 獨立條件"
+
+#. tree:labels#/minutes
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/minutes"
+msgid "minutes"
+msgstr "分鐘"
+
+#. tree:labels#/generated
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/generated"
+msgid ""
+"This file works fully offline. Question IDs and option order match the "
+"online simulation."
+msgstr "本檔可完全離線閱讀；題號、選項順序與線上模擬一致。"

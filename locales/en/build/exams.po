@@ -1,0 +1,110 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. tree:labels#/title
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/title"
+msgid "Gensokyo Unified Examination"
+msgstr "Gensokyo Unified Examination"
+
+#. tree:labels#/paper
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/paper"
+msgid "Question Paper"
+msgstr "Question Paper"
+
+#. tree:labels#/answers
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/answers"
+msgid "Reference Answers & Marking Notes"
+msgstr "Reference Answers & Marking Notes"
+
+#. tree:labels#/candidate
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/candidate"
+msgid "Candidate name"
+msgstr "Candidate name"
+
+#. tree:labels#/number
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/number"
+msgid "Candidate number"
+msgstr "Candidate number"
+
+#. tree:labels#/duration
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/duration"
+msgid "Time allowed"
+msgstr "Time allowed"
+
+#. tree:labels#/total
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/total"
+msgid "Maximum: 150 marks"
+msgstr "Maximum: 150 marks"
+
+#. tree:labels#/instruction
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/instruction"
+msgid ""
+"All items are single-choice. Source boxes are part of the question. Unless "
+"stated otherwise, lunar phase, time, route, and version come only from the "
+"source box, not the site's live state. Record answers separately and confirm "
+"track, difficulty, and page order."
+msgstr ""
+"All items are single-choice. Source boxes are part of the question. Unless "
+"stated otherwise, lunar phase, time, route, and version come only from the "
+"source box, not the site's live state. Record answers separately and confirm "
+"track, difficulty, and page order."
+
+#. tree:labels#/print
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/print"
+msgid "Print / Save as PDF"
+msgstr "Print / Save as PDF"
+
+#. tree:labels#/answer
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/answer"
+msgid "Answer"
+msgstr "Answer"
+
+#. tree:labels#/explanation
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/explanation"
+msgid "Explanation"
+msgstr "Explanation"
+
+#. tree:labels#/marks
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/marks"
+msgid "marks"
+msgstr "marks"
+
+#. tree:labels#/source
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/source"
+msgid "Source dossier · independent conditions"
+msgstr "Source dossier · independent conditions"
+
+#. tree:labels#/minutes
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/minutes"
+msgid "minutes"
+msgstr "minutes"
+
+#. tree:labels#/generated
+#: scripts/build-gaokao-downloads.mjs:16
+msgctxt "tree:labels#/generated"
+msgid ""
+"This file works fully offline. Question IDs and option order match the "
+"online simulation."
+msgstr ""
+"This file works fully offline. Question IDs and option order match the "
+"online simulation."

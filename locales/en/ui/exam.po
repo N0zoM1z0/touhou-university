@@ -1,0 +1,236 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/choose
+#: src/js/exam.js:7
+msgctxt "tree:copy#/choose"
+msgid "Choose a paper"
+msgstr "Choose a paper"
+
+#. copy/chooseLead
+#: src/js/exam.js:7
+msgctxt "tree:copy#/chooseLead"
+msgid "Each of four banks is timed separately; question order changes every attempt."
+msgstr "Each of four banks is timed separately; question order changes every attempt."
+
+#. copy/questions
+#: src/js/exam.js:7
+msgctxt "tree:copy#/questions"
+msgid "questions"
+msgstr "questions"
+
+#. copy/minutes
+#: src/js/exam.js:7
+msgctxt "tree:copy#/minutes"
+msgid "minutes"
+msgstr "minutes"
+
+#. copy/best
+#: src/js/exam.js:7
+msgctxt "tree:copy#/best"
+msgid "Personal best"
+msgstr "Personal best"
+
+#. copy/attempts
+#: src/js/exam.js:7
+msgctxt "tree:copy#/attempts"
+msgid "Attempts"
+msgstr "Attempts"
+
+#. copy/noAttempt
+#: src/js/exam.js:7
+msgctxt "tree:copy#/noAttempt"
+msgid "Not attempted"
+msgstr "Not attempted"
+
+#. copy/start
+#: src/js/exam.js:7
+msgctxt "tree:copy#/start"
+msgid "Start exam"
+msgstr "Start exam"
+
+#. copy/answered
+#: src/js/exam.js:7
+msgctxt "tree:copy#/answered"
+msgid "Answered"
+msgstr "Answered"
+
+#. copy/timeLeft
+#: src/js/exam.js:7
+msgctxt "tree:copy#/timeLeft"
+msgid "Time left"
+msgstr "Time left"
+
+#. copy/prev
+#: src/js/exam.js:7
+msgctxt "tree:copy#/prev"
+msgid "Previous"
+msgstr "Previous"
+
+#. copy/next
+#: src/js/exam.js:7
+msgctxt "tree:copy#/next"
+msgid "Next"
+msgstr "Next"
+
+#. copy/submit
+#: src/js/exam.js:7
+msgctxt "tree:copy#/submit"
+msgid "Submit & score"
+msgstr "Submit & score"
+
+#. copy/unanswered
+#: src/js/exam.js:7
+msgctxt "tree:copy#/unanswered"
+msgid "Unanswered"
+msgstr "Unanswered"
+
+#. copy/result
+#: src/js/exam.js:7
+msgctxt "tree:copy#/result"
+msgid "Result sheet"
+msgstr "Result sheet"
+
+#. copy/correct
+#: src/js/exam.js:7
+msgctxt "tree:copy#/correct"
+msgid "Correct"
+msgstr "Correct"
+
+#. copy/score
+#: src/js/exam.js:7
+msgctxt "tree:copy#/score"
+msgid "Score"
+msgstr "Score"
+
+#. copy/newBest
+#: src/js/exam.js:7
+msgctxt "tree:copy#/newBest"
+msgid "New personal best"
+msgstr "New personal best"
+
+#. copy/category
+#: src/js/exam.js:7
+msgctxt "tree:copy#/category"
+msgid "By category"
+msgstr "By category"
+
+#. copy/review
+#: src/js/exam.js:7
+msgctxt "tree:copy#/review"
+msgid "Answer review"
+msgstr "Answer review"
+
+#. copy/yourAnswer
+#: src/js/exam.js:7
+msgctxt "tree:copy#/yourAnswer"
+msgid "Your answer"
+msgstr "Your answer"
+
+#. copy/correctAnswer
+#: src/js/exam.js:7
+msgctxt "tree:copy#/correctAnswer"
+msgid "Correct answer"
+msgstr "Correct answer"
+
+#. copy/retake
+#: src/js/exam.js:7
+msgctxt "tree:copy#/retake"
+msgid "Retake this paper"
+msgstr "Retake this paper"
+
+#. copy/back
+#: src/js/exam.js:7
+msgctxt "tree:copy#/back"
+msgid "Choose another paper"
+msgstr "Choose another paper"
+
+#. copy/expired
+#: src/js/exam.js:7
+msgctxt "tree:copy#/expired"
+msgid "Time expired. The paper was submitted automatically."
+msgstr "Time expired. The paper was submitted automatically."
+
+#. copy/excellent
+#: src/js/exam.js:7
+msgctxt "tree:copy#/excellent"
+msgid "Sound judgment—you can cross the campus gate with confidence."
+msgstr "Sound judgment—you can cross the campus gate with confidence."
+
+#. copy/pass
+#: src/js/exam.js:7
+msgctxt "tree:copy#/pass"
+msgid "The foundation is sound; review a few explanations."
+msgstr "The foundation is sound; review a few explanations."
+
+#. copy/revise
+#: src/js/exam.js:7
+msgctxt "tree:copy#/revise"
+msgid "Read the explanations, then give this paper another attempt."
+msgstr "Read the explanations, then give this paper another attempt."
+
+#. copy/history
+#: src/js/exam.js:7
+msgctxt "tree:copy#/history"
+msgid "On-device record"
+msgstr "On-device record"
+
+#. copy/myRecords
+#: src/js/exam.js:7
+msgctxt "tree:copy#/myRecords"
+msgid "My entrance-exam records"
+msgstr "My entrance-exam records"
+
+#. copy/recordLead
+#: src/js/exam.js:7
+msgctxt "tree:copy#/recordLead"
+msgid "Full answers and item reviews stay on this device only."
+msgstr "Full answers and item reviews stay on this device only."
+
+#. copy/noRecords
+#: src/js/exam.js:7
+msgctxt "tree:copy#/noRecords"
+msgid "No completed entrance exam is stored on this device."
+msgstr "No completed entrance exam is stored on this device."
+
+#. copy/viewRecord
+#: src/js/exam.js:7
+msgctxt "tree:copy#/viewRecord"
+msgid "Reopen result and review"
+msgstr "Reopen result and review"
+
+#. copy/legacyRecord
+#: src/js/exam.js:7
+msgctxt "tree:copy#/legacyRecord"
+msgid "Older version saved only a score summary"
+msgstr "Older version saved only a score summary"
+
+#. copy/deleteRecord
+#: src/js/exam.js:7
+msgctxt "tree:copy#/deleteRecord"
+msgid "Delete local record"
+msgstr "Delete local record"
+
+#. copy/deleteConfirm
+#: src/js/exam.js:7
+msgctxt "tree:copy#/deleteConfirm"
+msgid "Delete this entrance-exam record?"
+msgstr "Delete this entrance-exam record?"
+
+#. copy/recordDeleted
+#: src/js/exam.js:7
+msgctxt "tree:copy#/recordDeleted"
+msgid "Local entrance-exam record deleted."
+msgstr "Local entrance-exam record deleted."
+
+#. copy/completed
+#: src/js/exam.js:7
+msgctxt "tree:copy#/completed"
+msgid "Submitted"
+msgstr "Submitted"

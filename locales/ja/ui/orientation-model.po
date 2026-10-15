@@ -1,0 +1,42 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copies/office
+#: src/js/orientation-model.js:231
+msgctxt "tree:copies#/office"
+msgid "New Student Arrival Office"
+msgstr "新入生到着室"
+
+#. copies/opened
+#: src/js/orientation-model.js:231
+msgctxt "tree:copies#/opened"
+msgid "A new arrival file opens; Hakurei Gate still rejects ‘sent’ as proof of ‘arrived’"
+msgstr "新入生手続票を開封。博麗門は「発送済み」を「到着済み」と認めず"
+
+#. copies/openedBody
+#: src/js/orientation-model.js:231
+msgctxt "tree:copies#/openedBody"
+msgid ""
+"The file separately checks the entry route, a stop signal the student can "
+"recognise, and the first destination. Names do not enter the public board."
+msgstr "入門経路、本人が識別できる停止合図、最初の行先を別々に確認します。氏名は公開掲示へ出ません。"
+
+#. copies/complete
+#: src/js/orientation-model.js:231
+msgctxt "tree:copies#/complete"
+msgid "First Bell gains one arrival record; Akyuu refuses to publish the newcomer’s name"
+msgstr "第一鐘に新たな到着記録。阿求は新入生の通称公開を拒否"
+
+#. copies/completeBody
+#: src/js/orientation-model.js:231
+msgctxt "tree:copies#/completeBody"
+msgid ""
+"Route and way back remain separate fields. Bunbunmaru receives a count, not "
+"the on-device student record."
+msgstr "経路と退路は別欄で保存。文々。新聞が得るのは総数だけで、端末内学籍は渡しません。"

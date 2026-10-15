@@ -1,0 +1,597 @@
+.appraisal-record-score {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  padding: 22px 32px 0;
+}
+
+.appraisal-record-score span {
+  margin-right: auto;
+  color: var(--ink-soft);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.appraisal-record-score strong {
+  color: var(--red-dark);
+  font-family: var(--serif);
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.appraisal-record-findings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 18px 32px 26px;
+  border: solid var(--line);
+  border-width: 1px 0 0 1px;
+}
+
+.appraisal-record-findings > div {
+  min-height: 106px;
+  padding: 18px;
+  border: solid var(--line);
+  border-width: 0 1px 1px 0;
+}
+
+.appraisal-record-findings > div.warning {
+  background: #f5ead4;
+}
+
+.appraisal-record-findings dt {
+  margin-bottom: 7px;
+  color: var(--red-dark);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.appraisal-record-findings dd {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.appraisal-field-note {
+  margin: 0 32px 26px;
+  padding: 18px 22px;
+  border-left: 4px solid var(--blue);
+  color: var(--ink-soft);
+  font-family: var(--serif);
+  background: rgba(27, 49, 73, 0.06);
+}
+
+.appraisal-correction {
+  margin: 0 32px 22px;
+  padding: 10px 14px;
+  border: 1px dashed var(--jade);
+  color: var(--jade);
+  font-size: 11px;
+}
+
+.appraisal-retention-meta {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5px 16px;
+  margin: 0 32px 26px;
+  padding: 18px;
+  border: 1px dashed var(--red);
+}
+
+.appraisal-retention-meta span {
+  color: var(--red-dark);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.appraisal-retention-meta p {
+  margin: 0;
+  font-family: var(--serif);
+}
+
+.appraisal-panel-notes {
+  padding: 26px 32px;
+  border-top: 1px solid var(--line);
+}
+
+.appraisal-panel-notes > h4 {
+  margin: 0 0 16px;
+  font-family: var(--serif);
+  font-size: 18px;
+}
+
+.appraisal-panel-notes > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.appraisal-panel-notes article {
+  padding: 17px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.52);
+}
+
+.appraisal-panel-notes article header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.appraisal-panel-notes article header i {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--red);
+  border-radius: 50%;
+  color: var(--red);
+  place-items: center;
+  font-family: var(--serif);
+  font-style: normal;
+}
+
+.appraisal-panel-notes article strong,
+.appraisal-panel-notes article span {
+  display: block;
+}
+
+.appraisal-panel-notes article strong {
+  font-family: var(--serif);
+  font-size: 13px;
+}
+
+.appraisal-panel-notes article span {
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.appraisal-panel-notes article p {
+  margin: 13px 0 0;
+  color: var(--ink-soft);
+  font-family: var(--serif);
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+.appraisal-record > footer {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 32px;
+  border-top: 1px solid var(--line);
+  background: rgba(223, 212, 192, 0.48);
+}
+
+.appraisal-record > footer time {
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.appraisal-record > footer > div {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.appraisal-archive {
+  padding-bottom: 34px;
+}
+
+.appraisal-archive > .appraisal-record {
+  margin-top: 30px;
+}
+
+.appraisal-draft-register {
+  margin: 28px 32px;
+}
+
+.appraisal-draft-register h4 {
+  font-family: var(--serif);
+}
+
+.appraisal-draft-register > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.appraisal-draft-register button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 13px;
+  align-items: center;
+  padding: 16px;
+  border: 1px dashed var(--gold);
+  cursor: pointer;
+  text-align: left;
+  background: #f7efd9;
+}
+
+.appraisal-draft-register button strong,
+.appraisal-draft-register button small {
+  display: block;
+}
+
+.appraisal-draft-register button strong {
+  font-family: var(--serif);
+}
+
+.appraisal-draft-register button small,
+.appraisal-draft-register button b {
+  color: var(--ink-soft);
+  font-size: 9px;
+}
+
+.appraisal-register {
+  margin: 28px 32px 0;
+  border-top: 1px solid var(--line);
+}
+
+.appraisal-register > article {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 18px;
+  align-items: center;
+  min-height: 108px;
+  padding: 18px;
+  border: solid var(--line);
+  border-width: 0 1px 1px;
+}
+
+.appraisal-register > article.is-contested {
+  box-shadow: inset 5px 0 var(--red);
+}
+
+.appraisal-register > article > i {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--red);
+  border-radius: 50%;
+  color: var(--red);
+  place-items: center;
+  font-family: var(--serif);
+  font-style: normal;
+}
+
+.appraisal-register p,
+.appraisal-register h4,
+.appraisal-register span {
+  margin: 0;
+}
+
+.appraisal-register p {
+  color: var(--red-dark);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+}
+
+.appraisal-register h4 {
+  margin: 3px 0;
+  font-family: var(--serif);
+  font-size: 17px;
+}
+
+.appraisal-register span,
+.appraisal-register time {
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.appraisal-register button {
+  padding: 9px 13px;
+  border: 1px solid var(--ink);
+  cursor: pointer;
+  background: transparent;
+}
+
+.appraisal-empty {
+  padding: 40px;
+  border: solid var(--line);
+  border-width: 0 1px 1px;
+  color: var(--ink-soft);
+  font-family: var(--serif);
+  text-align: center;
+}
+
+.appraisal-retention-dialog {
+  width: min(680px, calc(100vw - 28px));
+  max-height: calc(100vh - 28px);
+  padding: 0;
+  border: 1px solid var(--red-dark);
+  color: var(--ink);
+  box-shadow: 0 36px 100px rgba(10, 12, 16, 0.42);
+  background: var(--paper-light);
+}
+
+.appraisal-retention-dialog::backdrop {
+  background: rgba(12, 17, 24, 0.74);
+  backdrop-filter: blur(5px);
+}
+
+.appraisal-retention-dialog form {
+  position: relative;
+  display: grid;
+  gap: 18px;
+  padding: clamp(28px, 5vw, 48px);
+}
+
+.appraisal-retention-dialog .dialog-close {
+  position: absolute;
+  z-index: 2;
+  top: 13px;
+  right: 13px;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  background: transparent;
+}
+
+.appraisal-retention-dialog [data-appraisal-retention-content] {
+  display: grid;
+  gap: 16px;
+}
+
+.appraisal-retention-kicker {
+  margin: 0;
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.appraisal-retention-dialog h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(27px, 5vw, 42px);
+}
+
+.appraisal-retention-dialog p {
+  margin: 0;
+}
+
+.appraisal-retention-warning {
+  display: grid;
+  gap: 3px;
+  padding: 15px 18px;
+  border-left: 5px solid var(--red);
+  background: #f2d7d3;
+}
+
+.appraisal-retention-warning span {
+  font-size: 12px;
+}
+
+.appraisal-retention-check {
+  display: grid !important;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  color: var(--ink) !important;
+  font-size: 12px !important;
+  letter-spacing: 0 !important;
+}
+
+.appraisal-retention-check input {
+  margin-top: 5px;
+}
+
+.appraisal-retention-error {
+  min-height: 20px;
+  color: var(--red-dark);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.appraisal-retention-dialog footer {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+@media (max-width: 980px) {
+  .appraisal-hero,
+  .appraisal-object-shelf > header,
+  .appraisal-archive > header,
+  .appraisal-case-heading {
+    grid-template-columns: 1fr;
+  }
+
+  .appraisal-live-board {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .appraisal-live-board > p {
+    grid-column: 1 / -1;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .appraisal-case-heading {
+    justify-items: start;
+  }
+
+  .appraisal-evidence-grid,
+  .appraisal-tests {
+    grid-template-columns: 1fr;
+  }
+
+  .appraisal-destinations {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .appraisal-destinations button:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 700px) {
+  .appraisal-section {
+    padding: 48px 0 72px;
+  }
+
+  .appraisal-section .container {
+    width: min(100% - 24px, 1200px);
+  }
+
+  .appraisal-hero {
+    min-height: 0;
+    gap: 24px;
+    padding: 34px 24px;
+  }
+
+  .appraisal-hero h2 {
+    font-size: 38px;
+  }
+
+  .appraisal-hero > div > span {
+    font-size: 14px;
+  }
+
+  .appraisal-live-board {
+    grid-template-columns: 1fr;
+  }
+
+  .appraisal-live-board > div,
+  .appraisal-live-board > p {
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .appraisal-tabs button {
+    grid-template-columns: auto 1fr;
+    padding: 16px;
+  }
+
+  .appraisal-tabs button b {
+    display: none;
+  }
+
+  .appraisal-object-shelf > header,
+  .appraisal-archive > header {
+    gap: 12px;
+    padding: 24px 20px;
+  }
+
+  .appraisal-object-shelf button {
+    min-width: 238px;
+  }
+
+  .appraisal-case-heading {
+    gap: 18px;
+    padding: 26px 20px;
+  }
+
+  .appraisal-case-heading dl div {
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+
+  .appraisal-stage {
+    padding: 26px 18px;
+  }
+
+  .appraisal-stage legend {
+    grid-template-columns: auto 1fr;
+  }
+
+  .appraisal-stage legend small {
+    grid-column: 1 / -1;
+  }
+
+  .appraisal-evidence-card {
+    min-height: 0;
+  }
+
+  .appraisal-hypotheses button {
+    grid-template-columns: 1fr auto;
+    gap: 8px 14px;
+  }
+
+  .appraisal-hypotheses button span {
+    grid-column: 1 / -1;
+  }
+
+  .appraisal-use-fields,
+  .appraisal-destinations,
+  .appraisal-record-findings,
+  .appraisal-panel-notes > div,
+  .appraisal-draft-register > div {
+    grid-template-columns: 1fr;
+  }
+
+  .appraisal-destinations button:last-child {
+    grid-column: auto;
+  }
+
+  .appraisal-submit {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 18px;
+  }
+
+  .appraisal-submit > span {
+    margin: 0;
+  }
+
+  .appraisal-record {
+    margin: 22px 12px;
+  }
+
+  .appraisal-record.is-contested::after {
+    position: static;
+    display: inline-block;
+    margin: 0 22px 20px;
+  }
+
+  .appraisal-record > header,
+  .appraisal-record > footer {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 22px;
+  }
+
+  .appraisal-record-findings,
+  .appraisal-field-note,
+  .appraisal-correction,
+  .appraisal-retention-meta {
+    margin-right: 22px;
+    margin-left: 22px;
+  }
+
+  .appraisal-panel-notes {
+    padding: 22px;
+  }
+
+  .appraisal-record > footer > div {
+    width: 100%;
+    justify-content: stretch;
+  }
+
+  .appraisal-record > footer .button {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .appraisal-register {
+    margin: 22px 18px 0;
+  }
+
+  .appraisal-register > article {
+    grid-template-columns: auto 1fr;
+  }
+
+  .appraisal-register time,
+  .appraisal-register button {
+    grid-column: 2;
+  }
+
+  .appraisal-retention-dialog footer {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

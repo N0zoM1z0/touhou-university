@@ -1,3 +1,4 @@
+import { text as catalogText, trees as catalogTrees } from "../generated/i18n/ui/phantasm-gate.js";
 import {
   campusDayKey,
   campusLunarPhase,
@@ -23,29 +24,7 @@ const seals = [
   ["course", "course.dropped"],
 ];
 
-const entranceRiddles = {
-  "zh-Hant": {
-    footer: "落款之後、權利聲明以前",
-    mytu: "正式學籍不肯承認的第九行",
-    map: "今日木板被雨泡開的折痕",
-    search: "查無結果之後仍留著的下一筆",
-    bbs: "沒有作者、卻有人回覆的帖子",
-  },
-  ja: {
-    footer: "署名の後、権利表示の前",
-    mytu: "正式学籍が認めない第九行",
-    map: "本日の木板を雨が開いた折り目",
-    search: "該当なしの後にも残る次の一件",
-    bbs: "投稿者なし、返信ありのスレッド",
-  },
-  en: {
-    footer: "after the signature and before the rights notice",
-    mytu: "the ninth row the official record refuses",
-    map: "the rain-opened crease in today's wooden map notice",
-    search: "the next result left after no results",
-    bbs: "a thread with replies but no author",
-  },
-};
+const entranceRiddles = catalogTrees["entranceRiddles"];
 
 function storage(kind = "localStorage") {
   try {
@@ -304,40 +283,16 @@ export function phantasmGateHint(locale = "zh-Hant", source = "footer", value = 
   });
   const clue = phantasmEntranceClue(locale, schedule.primaryEntrance);
   const text = progress.count === 0
-    ? {
-      "zh-Hant": "鐘樓維修單：第一至第八格已核對；第九格不必填。",
-      ja: "鐘楼修繕票：第一〜第八欄確認済み。第九欄は記入不要。",
-      en: "Bell-tower repair slip: boxes one through eight verified; box nine need not be completed.",
-    }
+    ? catalogText("text")
     : progress.count < 3
-      ? {
-        "zh-Hant": `課表背面有 ${progress.count} 枚印章透了過來；教務處說紙太薄。`,
-        ja: `時間割の裏から印が${progress.count}個透けている。学務は紙が薄いだけだと言う。`,
-        en: `${progress.count} seals show through the back of the timetable; Academic Affairs blames thin paper.`,
-      }
+      ? catalogText("text.2", { "zh-Hant": {value0: progress.count}, "ja": {value0: progress.count}, "en": {value0: progress.count} })
       : progress.count < progress.total
-        ? {
-          "zh-Hant": `點名簿多了第九行，又被劃掉；目前有 ${progress.count} 個筆跡不肯消失。`,
-          ja: `点呼簿に九行目が増え、また消された。現在${progress.count}筆跡が消去を拒む。`,
-          en: `A ninth roll-call row appeared and was crossed out; ${progress.count} marks currently refuse erasure.`,
-        }
+        ? catalogText("text.3", { "zh-Hant": {value0: progress.count}, "ja": {value0: progress.count}, "en": {value0: progress.count} })
         : boundary.resonant
-          ? {
-            "zh-Hant": `這一頁的紙背在本值鐘有溫度；月影從${clue}往下漏。`,
-            ja: `この頁の裏は今の当番鐘だけ温かい。月影が${clue}から下へ漏れている。`,
-            en: `The reverse of this page is warm for the present duty bell; moonlight leaks down from ${clue}.`,
-          }
+          ? catalogText("text.4", { "zh-Hant": {value0: clue}, "ja": {value0: clue}, "en": {value0: clue} })
           : boundary.mercyReady
-            ? {
-              "zh-Hant": "幾扇錯門已把紙磨薄；下一筆新墨可能直接穿過反面。",
-              ja: "いくつもの誤扉が紙を薄くした。次の新しい筆跡は裏まで抜けるかもしれない。",
-              en: "Several wrong doors have worn the paper thin; the next fresh mark may pass through its reverse.",
-            }
-            : {
-              "zh-Hant": `六印齊了，但本值鐘的入口不在此頁。月相把它註在：${clue}。`,
-              ja: `六印は揃ったが、今の当番鐘の入口はこの頁ではない。月相の注記：${clue}。`,
-              en: `All six seals are present, but this duty bell opens elsewhere. The lunar note points to ${clue}.`,
-            };
+            ? catalogText("text.5")
+            : catalogText("text.6", { "zh-Hant": {value0: clue}, "ja": {value0: clue}, "en": {value0: clue} });
   return {
     text: text[locale] || text["zh-Hant"],
     href: progress.eligible ? phantasmEntranceHref(normalizedSource, "phantasm-campus", value) : null,

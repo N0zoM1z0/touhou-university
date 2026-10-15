@@ -1,0 +1,86 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. entranceRiddles/footer
+#: src/js/phantasm-gate.js:27
+msgctxt "tree:entranceRiddles#/footer"
+msgid "after the signature and before the rights notice"
+msgstr "落款之後、權利聲明以前"
+
+#. entranceRiddles/mytu
+#: src/js/phantasm-gate.js:27
+msgctxt "tree:entranceRiddles#/mytu"
+msgid "the ninth row the official record refuses"
+msgstr "正式學籍不肯承認的第九行"
+
+#. entranceRiddles/map
+#: src/js/phantasm-gate.js:27
+msgctxt "tree:entranceRiddles#/map"
+msgid "the rain-opened crease in today's wooden map notice"
+msgstr "今日木板被雨泡開的折痕"
+
+#. entranceRiddles/search
+#: src/js/phantasm-gate.js:27
+msgctxt "tree:entranceRiddles#/search"
+msgid "the next result left after no results"
+msgstr "查無結果之後仍留著的下一筆"
+
+#. entranceRiddles/bbs
+#: src/js/phantasm-gate.js:27
+msgctxt "tree:entranceRiddles#/bbs"
+msgid "a thread with replies but no author"
+msgstr "沒有作者、卻有人回覆的帖子"
+
+#. text
+#: src/js/phantasm-gate.js:286
+msgctxt "text:text"
+msgid ""
+"Bell-tower repair slip: boxes one through eight verified; box nine need not "
+"be completed."
+msgstr "鐘樓維修單：第一至第八格已核對；第九格不必填。"
+
+#. text
+#: src/js/phantasm-gate.js:288
+msgctxt "text:text.2"
+msgid ""
+"{value0} seals show through the back of the timetable; Academic Affairs "
+"blames thin paper."
+msgstr "課表背面有 {value0} 枚印章透了過來；教務處說紙太薄。"
+
+#. text
+#: src/js/phantasm-gate.js:290
+msgctxt "text:text.3"
+msgid ""
+"A ninth roll-call row appeared and was crossed out; {value0} marks currently "
+"refuse erasure."
+msgstr "點名簿多了第九行，又被劃掉；目前有 {value0} 個筆跡不肯消失。"
+
+#. text
+#: src/js/phantasm-gate.js:292
+msgctxt "text:text.4"
+msgid ""
+"The reverse of this page is warm for the present duty bell; moonlight leaks "
+"down from {value0}."
+msgstr "這一頁的紙背在本值鐘有溫度；月影從{value0}往下漏。"
+
+#. text
+#: src/js/phantasm-gate.js:294
+msgctxt "text:text.5"
+msgid ""
+"Several wrong doors have worn the paper thin; the next fresh mark may pass "
+"through its reverse."
+msgstr "幾扇錯門已把紙磨薄；下一筆新墨可能直接穿過反面。"
+
+#. text
+#: src/js/phantasm-gate.js:295
+msgctxt "text:text.6"
+msgid ""
+"All six seals are present, but this duty bell opens elsewhere. The lunar "
+"note points to {value0}."
+msgstr "六印齊了，但本值鐘的入口不在此頁。月相把它註在：{value0}。"

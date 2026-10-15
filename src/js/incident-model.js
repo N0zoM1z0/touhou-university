@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/incident-model.js";
 import {
   incidentById,
   incidentCases,
@@ -316,17 +317,9 @@ export function incidentCommunityPosts(locale) {
       const contested = resolution.disposition === "contested";
       const reviewer = incidentRetentionReviewers[resolution.reviewerId];
       const reason = incidentRetentionReasons[resolution.retentionReason];
-      const contestedFinding = {
-        "zh-Hant": `未獲支持但保留：${hypothesis.title["zh-Hant"]}`,
-        ja: `支持されず保存：${hypothesis.title.ja}`,
-        en: `Not supported, but retained: ${hypothesis.title.en}`,
-      };
+      const contestedFinding = catalogText("contestedFinding", { "zh-Hant": {value0: hypothesis.title["zh-Hant"]}, "ja": {value0: hypothesis.title.ja}, "en": {value0: hypothesis.title.en} });
       const contestedNotice = contested
-        ? {
-            "zh-Hant": `【紅線爭議案卷】模擬結果為「${resolution.verdict}」，沒有證實這項主張。${reviewer?.name?.["zh-Hant"] || "審閱席"}仍以「${reason?.["zh-Hant"] || "保留異說"}」簽名保存。`,
-            ja: `【赤糸係争記録】模擬結果は「${resolution.verdict}」で、この主張は立証されていない。${reviewer?.name?.ja || "査読席"}が「${reason?.ja || "異説保存"}」として署名保存した。`,
-            en: `【RED-THREAD CONTESTED FILE】The simulation returned “${resolution.verdict}” and did not establish this claim. ${reviewer?.name?.en || "A reviewer"} signed to retain it as “${reason?.en || "a preserved dissent"}.”`,
-          }[locale]
+        ? catalogText("contestedNotice", { "zh-Hant": {value0: resolution.verdict, value1: reviewer?.name?.["zh-Hant"] || "審閱席", value2: reason?.["zh-Hant"] || "保留異說"}, "ja": {value0: resolution.verdict, value1: reviewer?.name?.ja || "査読席", value2: reason?.ja || "異説保存"}, "en": {value0: resolution.verdict, value1: reviewer?.name?.en || "A reviewer", value2: reason?.en || "a preserved dissent"} })[locale]
         : "";
       const fields = {
         finding: contested ? contestedFinding[locale] : hypothesis.title[locale],

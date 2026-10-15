@@ -1,0 +1,296 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. labels/course
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/course"
+msgid "Courses"
+msgstr "Courses"
+
+#. labels/club
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/club"
+msgid "Clubs"
+msgstr "Clubs"
+
+#. labels/market
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/market"
+msgid "Exchange"
+msgstr "Exchange"
+
+#. labels/notice
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/notice"
+msgid "Campus"
+msgstr "Campus"
+
+#. labels/justNow
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/justNow"
+msgid "just now"
+msgstr "just now"
+
+#. labels/minutes
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/minutes"
+msgid "minutes ago"
+msgstr "minutes ago"
+
+#. labels/hours
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/hours"
+msgid "hours ago"
+msgstr "hours ago"
+
+#. labels/days
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/days"
+msgid "days ago"
+msgstr "days ago"
+
+#. labels/replies
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/replies"
+msgid "Replies"
+msgstr "Replies"
+
+#. labels/posted
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/posted"
+msgid "Published to the Campus BBS."
+msgstr "Published to the Campus BBS."
+
+#. labels/shuffled
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/shuffled"
+msgid "A fresh set of topics arrived on the campus wind."
+msgstr "A fresh set of topics arrived on the campus wind."
+
+#. labels/anonymous
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/anonymous"
+msgid "Anonymous Student"
+msgstr "Anonymous Student"
+
+#. labels/author
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/author"
+msgid "Posted by"
+msgstr "Posted by"
+
+#. labels/board
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/board"
+msgid "Board"
+msgstr "Board"
+
+#. labels/local
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/local"
+msgid "Stored on this device"
+msgstr "Stored on this device"
+
+#. labels/online
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/online"
+msgid "Online now"
+msgstr "Online now"
+
+#. labels/topics
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/topics"
+msgid "Topics today"
+msgstr "Topics today"
+
+#. labels/synced
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/synced"
+msgid "Last synced"
+msgstr "Last synced"
+
+#. labels/pinned
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/pinned"
+msgid "Pinned"
+msgstr "Pinned"
+
+#. labels/status
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/status"
+msgid "Status"
+msgstr "Status"
+
+#. labels/mine
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/mine"
+msgid "My Posts"
+msgstr "My Posts"
+
+#. labels/localSaved
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/localSaved"
+msgid "Saved locally"
+msgstr "Saved locally"
+
+#. labels/postsUnit
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/postsUnit"
+msgid "posts"
+msgstr "posts"
+
+#. labels/noPosts
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/noPosts"
+msgid "There are no posts on this board yet."
+msgstr "There are no posts on this board yet."
+
+#. labels/noLocalPosts
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/noLocalPosts"
+msgid "Nothing has been posted from this device yet. New posts will be saved here."
+msgstr "Nothing has been posted from this device yet. New posts will be saved here."
+
+#. labels/incidentLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/incidentLinked"
+msgid "Incident-linked"
+msgstr "Incident-linked"
+
+#. labels/contestedFile
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/contestedFile"
+msgid "Red-thread contested file"
+msgstr "Red-thread contested file"
+
+#. labels/governanceLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/governanceLinked"
+msgid "Governance-linked"
+msgstr "Governance-linked"
+
+#. labels/academicLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/academicLinked"
+msgid "Defence-linked"
+msgstr "Defence-linked"
+
+#. labels/clinicLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/clinicLinked"
+msgid "Hospital-linked"
+msgstr "Hospital-linked"
+
+#. labels/appraisalLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/appraisalLinked"
+msgid "Drift-appraisal-linked"
+msgstr "Drift-appraisal-linked"
+
+#. labels/spellcardLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/spellcardLinked"
+msgid "Spell-card-defence-linked"
+msgstr "Spell-card-defence-linked"
+
+#. labels/ethicsLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/ethicsLinked"
+msgid "Research-ethics-linked"
+msgstr "Research-ethics-linked"
+
+#. labels/festivalLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/festivalLinked"
+msgid "Festival-field-linked"
+msgstr "Festival-field-linked"
+
+#. labels/fieldworkLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/fieldworkLinked"
+msgid "Fieldwork-linked"
+msgstr "Fieldwork-linked"
+
+#. labels/orientationLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/orientationLinked"
+msgid "First-Bell-linked"
+msgstr "First-Bell-linked"
+
+#. labels/phantasmLinked
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/phantasmLinked"
+msgid "Ninth-period linkage disputed"
+msgstr "Ninth-period linkage disputed"
+
+#. labels/openCase
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openCase"
+msgid "Open closure record"
+msgstr "Open closure record"
+
+#. labels/openGovernance
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openGovernance"
+msgid "Open governance proposal"
+msgstr "Open governance proposal"
+
+#. labels/openAcademic
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openAcademic"
+msgid "Open defence & grades"
+msgstr "Open defence & grades"
+
+#. labels/openClinic
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openClinic"
+msgid "Open care & prescriptions"
+msgstr "Open care & prescriptions"
+
+#. labels/openAppraisal
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openAppraisal"
+msgid "Open drift-object file"
+msgstr "Open drift-object file"
+
+#. labels/openSpellcard
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openSpellcard"
+msgid "Open design & defence"
+msgstr "Open design & defence"
+
+#. labels/openEthics
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openEthics"
+msgid "Open ethics review file"
+msgstr "Open ethics review file"
+
+#. labels/openFestival
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openFestival"
+msgid "Open festival permit / field board"
+msgstr "Open festival permit / field board"
+
+#. labels/openFieldwork
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openFieldwork"
+msgid "Open dispatch / return file"
+msgstr "Open dispatch / return file"
+
+#. labels/openOrientation
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openOrientation"
+msgid "Open new-student arrival file"
+msgstr "Open new-student arrival file"
+
+#. labels/openPhantasm
+#: src/js/bbs.js:13
+msgctxt "tree:labels#/openPhantasm"
+msgid "Open the ninth-period roll"
+msgstr "Open the ninth-period roll"

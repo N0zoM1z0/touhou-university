@@ -1,0 +1,258 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. abilityLabels.none
+#: src/js/fieldwork-model.js:252
+msgctxt "text:abilityLabels.none"
+msgid "No ability use"
+msgstr "No ability use"
+
+#. abilityLabels.declared
+#: src/js/fieldwork-model.js:253
+msgctxt "text:abilityLabels.declared"
+msgid "Purpose and stop command declared"
+msgstr "Purpose and stop command declared"
+
+#. abilityLabels.supervised
+#: src/js/fieldwork-model.js:254
+msgctxt "text:abilityLabels.supervised"
+msgid "Use only with supervisor present"
+msgstr "Use only with supervisor present"
+
+#. abilityLabels.sealed
+#: src/js/fieldwork-model.js:255
+msgctxt "text:abilityLabels.sealed"
+msgid "Sealed before departure; jointly released after return"
+msgstr "Sealed before departure; jointly released after return"
+
+#. emergencyLabels.return-bell
+#: src/js/fieldwork-model.js:259
+msgctxt "text:emergencyLabels.return-bell"
+msgid "Three-tone return bell"
+msgstr "Three-tone return bell"
+
+#. emergencyLabels.buddy-rope
+#: src/js/fieldwork-model.js:260
+msgctxt "text:emergencyLabels.buddy-rope"
+msgid "Buddy return rope"
+msgstr "Buddy return rope"
+
+#. emergencyLabels.host-escort
+#: src/js/fieldwork-model.js:261
+msgctxt "text:emergencyLabels.host-escort"
+msgid "Host-escorted exit"
+msgstr "Host-escorted exit"
+
+#. emergencyLabels.clinic-route
+#: src/js/fieldwork-model.js:262
+msgctxt "text:emergencyLabels.clinic-route"
+msgid "Pre-filed Eientei / infirmary route"
+msgstr "Pre-filed Eientei / infirmary route"
+
+#. assessFieldworkDraft.0.0
+#: src/js/fieldwork-model.js:270
+msgctxt "text:assessFieldworkDraft.0.0"
+msgid "{value0} of three listed items selected; the host must verify the rest."
+msgstr "{value0} of three listed items selected; the host must verify the rest."
+
+#. assessFieldworkDraft.0.0
+#: src/js/fieldwork-model.js:273
+msgctxt "text:assessFieldworkDraft.0.0.2"
+msgid "High/variable-risk stations require a buddy or medical exit line at dispatch."
+msgstr "High/variable-risk stations require a buddy or medical exit line at dispatch."
+
+#. assessFieldworkDraft.0.0
+#: src/js/fieldwork-model.js:276
+msgctxt "text:assessFieldworkDraft.0.0.3"
+msgid ""
+"Clinical or mental-information work still needs encounter-by-encounter "
+"consent after declaration."
+msgstr ""
+"Clinical or mental-information work still needs encounter-by-encounter "
+"consent after declaration."
+
+#. note
+#: src/js/fieldwork-model.js:388
+msgctxt "text:note"
+msgid "{value0}: Observation, report, and unresolved matters remain distinct. Seal granted."
+msgstr "{value0}: Observation, report, and unresolved matters remain distinct. Seal granted."
+
+#. note
+#: src/js/fieldwork-model.js:390
+msgctxt "text:note.2"
+msgid ""
+"{value0}: Passport may be stamped; keep the annex. Next time, place sources "
+"before the conclusion."
+msgstr ""
+"{value0}: Passport may be stamped; keep the annex. Next time, place sources "
+"before the conclusion."
+
+#. note
+#: src/js/fieldwork-model.js:391
+msgctxt "text:note.3"
+msgid ""
+"{value0}: Return certified, but the dispute must not become a tidy success "
+"story. Red thread travels with the seal."
+msgstr ""
+"{value0}: Return certified, but the dispute must not become a tidy success "
+"story. Red thread travels with the seal."
+
+#. lunarLabels.0
+#: src/js/fieldwork-model.js:439
+msgctxt "text:lunarLabels.0"
+msgid "new moon"
+msgstr "new moon"
+
+#. lunarLabels.1
+#: src/js/fieldwork-model.js:440
+msgctxt "text:lunarLabels.1"
+msgid "waxing crescent"
+msgstr "waxing crescent"
+
+#. lunarLabels.2
+#: src/js/fieldwork-model.js:441
+msgctxt "text:lunarLabels.2"
+msgid "pre-first-quarter"
+msgstr "pre-first-quarter"
+
+#. lunarLabels.3
+#: src/js/fieldwork-model.js:442
+msgctxt "text:lunarLabels.3"
+msgid "waxing gibbous"
+msgstr "waxing gibbous"
+
+#. lunarLabels.4
+#: src/js/fieldwork-model.js:443
+msgctxt "text:lunarLabels.4"
+msgid "full moon"
+msgstr "full moon"
+
+#. lunarLabels.5
+#: src/js/fieldwork-model.js:444
+msgctxt "text:lunarLabels.5"
+msgid "waning gibbous"
+msgstr "waning gibbous"
+
+#. lunarLabels.6
+#: src/js/fieldwork-model.js:445
+msgctxt "text:lunarLabels.6"
+msgid "post-last-quarter"
+msgstr "post-last-quarter"
+
+#. lunarLabels.7
+#: src/js/fieldwork-model.js:446
+msgctxt "text:lunarLabels.7"
+msgid "waning crescent"
+msgstr "waning crescent"
+
+#. timeLabels.morning
+#: src/js/fieldwork-model.js:450
+msgctxt "text:timeLabels.morning"
+msgid "morning duty"
+msgstr "morning duty"
+
+#. timeLabels.midday
+#: src/js/fieldwork-model.js:451
+msgctxt "text:timeLabels.midday"
+msgid "midday duty"
+msgstr "midday duty"
+
+#. timeLabels.afternoon
+#: src/js/fieldwork-model.js:452
+msgctxt "text:timeLabels.afternoon"
+msgid "afternoon duty"
+msgstr "afternoon duty"
+
+#. timeLabels.evening
+#: src/js/fieldwork-model.js:453
+msgctxt "text:timeLabels.evening"
+msgid "evening duty"
+msgstr "evening duty"
+
+#. timeLabels.night
+#: src/js/fieldwork-model.js:454
+msgctxt "text:timeLabels.night"
+msgid "night duty"
+msgstr "night duty"
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:469
+msgctxt "text:fieldworkTravelEstimate.0"
+msgid "At new/full moon, marker four does not count as reliable."
+msgstr "At new/full moon, marker four does not count as reliable."
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:476
+msgctxt "text:fieldworkTravelEstimate.0.2"
+msgid "Night brooms detour around the patrol edge."
+msgstr "Night brooms detour around the patrol edge."
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:481
+msgctxt "text:fieldworkTravelEstimate.0.3"
+msgid "Walking time excludes the stairs' disagreement over 'up'."
+msgstr "Walking time excludes the stairs' disagreement over 'up'."
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:485
+msgctxt "text:fieldworkTravelEstimate.0.4"
+msgid "Underground broom airway is airborne only where there is airspace."
+msgstr "Underground broom airway is airborne only where there is airspace."
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:489
+msgctxt "text:fieldworkTravelEstimate.0.5"
+msgid "Boundary passage is short; annex review uses ordinary time."
+msgstr "Boundary passage is short; annex review uses ordinary time."
+
+#. fieldworkTravelEstimate.0
+#: src/js/fieldwork-model.js:492
+msgctxt "text:fieldworkTravelEstimate.0.6"
+msgid "Expected publication is nine minutes before arrival."
+msgstr "Expected publication is nine minutes before arrival."
+
+#. fieldworkMapNotice.0
+#: src/js/fieldwork-model.js:516
+msgctxt "text:fieldworkMapNotice.0"
+msgid "Fieldwork passport is on duty at {value0}; return line remains until stamping."
+msgstr "Fieldwork passport is on duty at {value0}; return line remains until stamping."
+
+#. base.0.body.0
+#: src/js/fieldwork-model.js:530
+msgctxt "text:base.0.body.0"
+msgid "Return stamped. {value0}"
+msgstr "Return stamped. {value0}"
+
+#. base.0.body.0
+#: src/js/fieldwork-model.js:531
+msgctxt "text:base.0.body.0.2"
+msgid ""
+"Dispatch filed with {value0} condition(s). Before leaving, verify the site "
+"is still on the same side today."
+msgstr ""
+"Dispatch filed with {value0} condition(s). Before leaving, verify the site "
+"is still on the same side today."
+
+#. fieldworkCommunityPosts.0.0.title.0
+#: src/js/fieldwork-model.js:543
+msgctxt "text:fieldworkCommunityPosts.0.0.title.0"
+msgid "{value0} return annex was not tidily deleted"
+msgstr "{value0} return annex was not tidily deleted"
+
+#. base.0.author
+#: src/js/fieldwork-model.js:527
+msgctxt "text:base.0.author"
+msgid "Domestic Placement Dispatch Desk"
+msgstr "Domestic Placement Dispatch Desk"
+
+#. base.0.title
+#: src/js/fieldwork-model.js:528
+msgctxt "text:base.0.title"
+msgid "{value0} · {value1} dispatch"
+msgstr "{value0} · {value1} dispatch"

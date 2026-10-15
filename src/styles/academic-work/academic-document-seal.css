@@ -1,0 +1,188 @@
+.academic-document-seal {
+  display: grid;
+  width: 60px;
+  height: 60px;
+  place-items: center;
+  border: 3px double var(--red);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 23px var(--serif);
+}
+
+.academic-document > header p,
+.academic-document > header h2,
+.academic-document > header span {
+  margin: 0;
+}
+
+.academic-document > header p {
+  color: var(--red);
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+}
+
+.academic-document > header h2 {
+  font: 700 30px var(--serif);
+}
+
+.academic-document > header span {
+  color: var(--ink-soft);
+  font-size: 11px;
+}
+
+.academic-document table {
+  margin: 32px 0;
+}
+
+.academic-document > footer {
+  padding-top: 20px;
+  border-top: 3px double rgba(27, 49, 73, 0.3);
+}
+
+.academic-document-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 16px 22px;
+  border-top: 1px solid rgba(27, 49, 73, 0.18);
+  background: var(--paper-dark);
+}
+
+@media (max-width: 840px) {
+  .academic-heading {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .academic-assignment-layout,
+  .academic-defence-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .academic-assignment-index,
+  .academic-project-list {
+    display: flex;
+    max-height: none;
+    overflow-x: auto;
+    border-right: 0;
+    border-bottom: 1px solid rgba(27, 49, 73, 0.18);
+  }
+
+  .academic-assignment-index > header,
+  .academic-project-list > header {
+    position: sticky;
+    left: 0;
+    flex: 0 0 115px;
+    align-self: stretch;
+  }
+
+  .academic-assignment-index > button,
+  .academic-project-list > button {
+    flex: 0 0 235px;
+    border-right: 1px solid rgba(27, 49, 73, 0.13);
+    border-bottom: 0;
+  }
+
+  .academic-assignment-index > button:hover,
+  .academic-assignment-index > button.active,
+  .academic-project-list > button:hover,
+  .academic-project-list > button.active {
+    box-shadow: inset 0 -4px var(--red);
+  }
+
+  .academic-exam-shell > header,
+  .academic-gradebook > header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .academic-tabs a:first-child {
+    margin-right: 0;
+  }
+
+  .academic-identity-gate,
+  .academic-assignment-file > header,
+  .academic-defence-form > header,
+  .academic-defence-result > header {
+    align-items: stretch;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+
+  .academic-assignment-file,
+  .academic-defence-workspace,
+  .academic-exam-shell,
+  .academic-gradebook {
+    padding: 20px 15px;
+  }
+
+  .academic-assignment-file > header dl {
+    min-width: 0;
+  }
+
+  .academic-assignment-file form > footer,
+  .academic-exam-paper > footer,
+  .academic-document-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .academic-assignment-file form > footer .button,
+  .academic-exam-paper > footer .button,
+  .academic-document-actions .button {
+    width: 100%;
+  }
+
+  .academic-exam-paper > header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .academic-timer {
+    width: 100%;
+    text-align: left;
+  }
+
+  .academic-project-form > div {
+    grid-template-columns: 1fr;
+  }
+
+  .academic-project-form label.span {
+    grid-column: auto;
+  }
+
+  .academic-document {
+    padding: 36px 18px;
+  }
+
+  .academic-document > header {
+    grid-template-columns: 56px 1fr;
+  }
+
+  .academic-document > header > code {
+    grid-column: 1 / -1;
+  }
+}
+
+@media print {
+  body:has(.academic-document-dialog[open]) > *:not(.academic-document-dialog) {
+    display: none !important;
+  }
+
+  .academic-document-dialog[open] {
+    position: static;
+    display: block;
+    width: 100%;
+    max-height: none;
+    margin: 0;
+    border: 0;
+  }
+
+  .academic-document-dialog[open] .dialog-close,
+  .academic-document-actions {
+    display: none !important;
+  }
+}

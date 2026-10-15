@@ -1,0 +1,136 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/kicker
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/kicker"
+msgid "HIEDA ARCHIVES / LIVING CHRONICLE"
+msgstr "HIEDA ARCHIVES / LIVING CHRONICLE"
+
+#. copy/title
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/title"
+msgid "Gensokyo University Chronicle"
+msgstr "幻想郷大学史"
+
+#. copy/lead
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/lead"
+msgid ""
+"Every main-branch revision leaves two records: the repository preserves what "
+"changed; the chronicle preserves what it did to campus and who objected at "
+"the time."
+msgstr "主分岐の各改訂には二つの記録が残る。版管理庫は実際の変更を、大学史簿はキャンパスへの影響とその場で異議を唱えた者を保存する。"
+
+#. copy/entries
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/entries"
+msgid "records"
+msgstr "頁"
+
+#. copy/all
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/all"
+msgid "All"
+msgstr "すべて"
+
+#. copy/latest
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/latest"
+msgid "Latest record"
+msgstr "最新収録"
+
+#. copy/volume
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/volume"
+msgid "Archive reference"
+msgstr "収蔵番号"
+
+#. copy/recorded
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/recorded"
+msgid "Accession date"
+msgstr "収蔵日"
+
+#. copy/source
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/source"
+msgid "Version source"
+msgstr "版底本"
+
+#. copy/sourceLead
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/sourceLead"
+msgid ""
+"The main-branch revision and the functional change may coincide, but must "
+"not be confused. Ordinary and squash commits need one record; a mechanical "
+"merge also lists its second-parent change."
+msgstr "主分岐版と機能変更は重なる場合があっても混同しない。通常・squash commit は一件、機械的 merge commit は第二親の変更主題を別記する。"
+
+#. copy/mainSource
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/mainSource"
+msgid "Main-branch commit"
+msgstr "主分岐コミット"
+
+#. copy/changeSource
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/changeSource"
+msgid "Change commit"
+msgstr "実変更コミット"
+
+#. copy/mergeNote
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/mergeNote"
+msgid ""
+"This record entered main through a GitHub merge commit; its second parent "
+"preserves the human-readable change subject."
+msgstr "この頁は GitHub merge commit で主分岐へ入ったため、第二親に人間可読の変更主題を保存する。"
+
+#. copy/marginalia
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/marginalia"
+msgid "Marginal note"
+msgstr "欄外追記"
+
+#. copy/main
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/main"
+msgid "MAIN / latest revision"
+msgstr "MAIN / 最新主分岐"
+
+#. copy/openSource
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/openSource"
+msgid "View real revision"
+msgstr "実際の版を見る"
+
+#. copy/openChange
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/openChange"
+msgid "View actual change"
+msgstr "実変更を見る"
+
+#. copy/previous
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/previous"
+msgid "Previous"
+msgstr "前頁"
+
+#. copy/next
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/next"
+msgid "Next"
+msgstr "次頁"
+
+#. copy/openRecord
+#: src/js/chronicle.js:12
+msgctxt "tree:copy#/openRecord"
+msgid "Open chronicle"
+msgstr "大学史を開く"

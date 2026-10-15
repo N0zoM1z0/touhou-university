@@ -1,0 +1,716 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. academicAssignments.his-yesterday-editions.title
+#: src/data/academic-work.js:20
+msgctxt "text:academicAssignments.his-yesterday-editions.title"
+msgid "Collation slip for two editions of Yesterday"
+msgstr "〈昨日〉兩個版本的校勘回條"
+
+#. academicAssignments.his-yesterday-editions.brief
+#: src/data/academic-work.js:21
+msgctxt "text:academicAssignments.his-yesterday-editions.brief"
+msgid ""
+"Do not choose the more emotionally convincing yesterday. Use versions, time, "
+"and traceable sources to state what can be supported."
+msgstr "不要決定哪個昨日比較有感情；先用版本、時間與可追溯來源說明哪一項主張能被支持。"
+
+#. academicAssignments.his-yesterday-editions.teacher
+#: src/data/academic-work.js:22
+msgctxt "text:academicAssignments.his-yesterday-editions.teacher"
+msgid "Keine Kamishirasawa"
+msgstr "上白澤慧音"
+
+#. academicAssignments.his-yesterday-editions.questions.0.sequence.2
+#: src/data/academic-work.js:27
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.0.sequence.2"
+msgid ""
+"A layout cache predates the accident, while its approval stamp follows it. "
+"Which statement is most rigorous?"
+msgstr "校報排版快取建立於事故前，但正式批准戳在事故後。哪個敘述最嚴謹？"
+
+#. academicAssignments.his-yesterday-editions.questions.0.sequence.3.0.caused.1
+#: src/data/academic-work.js:29
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.0.sequence.3.0.caused.1"
+msgid "The cache necessarily caused the accident"
+msgstr "快取必然造成事故"
+
+#. academicAssignments.his-yesterday-editions.questions.0.sequence.3.1.sequence.1
+#: src/data/academic-work.js:30
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.0.sequence.3.1.sequence.1"
+msgid "The cache existed first; causality among approval and accident remains unidentified"
+msgstr "快取先存在；批准與事故的因果仍待識別"
+
+#. academicAssignments.his-yesterday-editions.questions.0.sequence.3.2.stamp.1
+#: src/data/academic-work.js:31
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.0.sequence.3.2.stamp.1"
+msgid "The stamp makes the cache postdate the accident"
+msgstr "批准戳能把快取改成事故後建立"
+
+#. academicAssignments.his-yesterday-editions.questions.0.sequence.6
+#: src/data/academic-work.js:35
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.0.sequence.6"
+msgid "Temporal order excludes some causal directions; it does not confirm the remainder."
+msgstr "時間順序只能排除部分因果方向，不能自動證實剩下的方向。"
+
+#. academicAssignments.his-yesterday-editions.questions.1.citation.2
+#: src/data/academic-work.js:40
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.1.citation.2"
+msgid ""
+"Two corrections cite each other and both claim to be first. What should be "
+"checked first?"
+msgstr "兩份互相引用的訂正都聲稱自己是第一份。下一步應先查什麼？"
+
+#. academicAssignments.his-yesterday-editions.questions.1.citation.3.0.font.1
+#: src/data/academic-work.js:42
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.1.citation.3.0.font.1"
+msgid "Font size"
+msgstr "字體大小"
+
+#. academicAssignments.his-yesterday-editions.questions.1.citation.3.1.provenance.1
+#: src/data/academic-work.js:43
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.1.citation.3.1.provenance.1"
+msgid "Immutable timestamps, layout versions, and publication media"
+msgstr "不可變時間戳、排版版本與發行載體"
+
+#. academicAssignments.his-yesterday-editions.questions.1.citation.3.2.aya.1
+#: src/data/academic-work.js:44
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.1.citation.3.2.aya.1"
+msgid "Ask Aya which headline is better"
+msgstr "問文哪份標題比較好"
+
+#. academicAssignments.his-yesterday-editions.questions.1.citation.6
+#: src/data/academic-work.js:48
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.1.citation.6"
+msgid ""
+"Mutual citations cannot independently establish order; version evidence "
+"outside the chain is needed."
+msgstr "互引內容不能獨立建立順序；需要引用鏈以外的版本證據。"
+
+#. academicAssignments.his-yesterday-editions.questions.2.memo.2
+#: src/data/academic-work.js:53
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.2.memo.2"
+msgid ""
+"Write one chronicle sentence containing both “version” and “time”, without "
+"turning inference into confirmation."
+msgstr "用一句話寫入校史：必須同時提到「版本／版」與「時間／時刻」，且不得把推測寫成證實。"
+
+#. academicAssignments.his-yesterday-editions.questions.2.memo.6
+#: src/data/academic-work.js:57
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.2.memo.6"
+msgid "A passing sentence preserves both version and time; word count is not evidence count."
+msgstr "合格句需要保留版本與時間兩個軸；字多不等於證據多。"
+
+#. academicAssignments.mag-material-provenance.title
+#: src/data/academic-work.js:66
+msgctxt "text:academicAssignments.mag-material-provenance.title"
+msgid "Reproducible magic with mushrooms of unclear provenance"
+msgstr "來源不明蘑菇的可重現魔法實作"
+
+#. academicAssignments.mag-material-provenance.brief
+#: src/data/academic-work.js:67
+msgctxt "text:academicAssignments.mag-material-provenance.brief"
+msgid ""
+"Marisa’s material worked three times, but its source says “that bit of "
+"forest.” Make a record in which a fourth person can fail meaningfully."
+msgstr "魔理沙提供了能成功三次的材料，卻把採集地寫成「森林那邊」。你的工作是讓第四個人能失敗得有意義。"
+
+#. academicAssignments.mag-material-provenance.teacher
+#: src/data/academic-work.js:68
+msgctxt "text:academicAssignments.mag-material-provenance.teacher"
+msgid "Marisa Kirisame"
+msgstr "霧雨魔理沙"
+
+#. academicAssignments.mag-material-provenance.questions.0.minimum.2
+#: src/data/academic-work.js:73
+msgctxt "text:academicAssignments.mag-material-provenance.questions.0.minimum.2"
+msgid "What is the minimum additional information?"
+msgstr "最少還要補哪一組資料？"
+
+#. academicAssignments.mag-material-provenance.questions.0.minimum.3.0.colour.1
+#: src/data/academic-work.js:75
+msgctxt "text:academicAssignments.mag-material-provenance.questions.0.minimum.3.0.colour.1"
+msgid "How pretty the mushroom looked"
+msgstr "蘑菇看起來多漂亮"
+
+#. academicAssignments.mag-material-provenance.questions.0.minimum.3.1.batch.1
+#: src/data/academic-work.js:76
+msgctxt "text:academicAssignments.mag-material-provenance.questions.0.minimum.3.1.batch.1"
+msgid "Collection location, time, batch, and storage conditions"
+msgstr "採集位置、時間、批次與保存條件"
+
+#. academicAssignments.mag-material-provenance.questions.0.minimum.3.2.owner.1
+#: src/data/academic-work.js:77
+msgctxt "text:academicAssignments.mag-material-provenance.questions.0.minimum.3.2.owner.1"
+msgid "Who first claimed ownership"
+msgstr "誰先說那是自己的"
+
+#. academicAssignments.mag-material-provenance.questions.0.minimum.6
+#: src/data/academic-work.js:81
+msgctxt "text:academicAssignments.mag-material-provenance.questions.0.minimum.6"
+msgid ""
+"Reproduction needs identifiable material batches and handling differences, "
+"not only a success story."
+msgstr "可重現需要能辨識材料批次與處理差異，而不是只保留成功敘事。"
+
+#. academicAssignments.mag-material-provenance.questions.1.replicates.2
+#: src/data/academic-work.js:86
+msgctxt "text:academicAssignments.mag-material-provenance.questions.1.replicates.2"
+msgid "Three batches receive 4 trials each, plus 4 blank controls. How many experimental units?"
+msgstr "三批材料各做 4 次，另設 4 次空白對照。總實驗單位是多少？"
+
+#. academicAssignments.mag-material-provenance.questions.1.replicates.6
+#: src/data/academic-work.js:90
+msgctxt "text:academicAssignments.mag-material-provenance.questions.1.replicates.6"
+msgid "3×4+4=16; omitting controls removes the reference for the attractive success rate."
+msgstr "3×4＋4＝16；把對照忘掉會讓漂亮的成功率失去參照。"
+
+#. academicAssignments.mag-material-provenance.questions.2.stop.2
+#: src/data/academic-work.js:95
+msgctxt "text:academicAssignments.mag-material-provenance.questions.2.stop.2"
+msgid "An undocumented violet smoke appears in round four. Best response?"
+msgstr "第四輪出現未記錄的紫色煙霧，最合適的處置是？"
+
+#. academicAssignments.mag-material-provenance.questions.2.stop.3.0.continue.1
+#: src/data/academic-work.js:97
+msgctxt "text:academicAssignments.mag-material-provenance.questions.2.stop.3.0.continue.1"
+msgid "Continue for sample size"
+msgstr "為了樣本數繼續"
+
+#. academicAssignments.mag-material-provenance.questions.2.stop.3.1.stop.1
+#: src/data/academic-work.js:98
+msgctxt "text:academicAssignments.mag-material-provenance.questions.2.stop.3.1.stop.1"
+msgid "Stop, preserve batch and environment records, then decide whether to restart"
+msgstr "停止、封存批次與環境記錄，再決定是否重啟"
+
+#. academicAssignments.mag-material-provenance.questions.2.stop.3.2.rename.1
+#: src/data/academic-work.js:99
+msgctxt "text:academicAssignments.mag-material-provenance.questions.2.stop.3.2.rename.1"
+msgid "Rename it expected smoke"
+msgstr "把它命名成預期煙霧"
+
+#. academicAssignments.mag-material-provenance.questions.2.stop.6
+#: src/data/academic-work.js:103
+msgctxt "text:academicAssignments.mag-material-provenance.questions.2.stop.6"
+msgid "A stop condition must still operate when the result is inconvenient."
+msgstr "停止條件必須能在結果不合心意時仍然生效。"
+
+#. academicAssignments.eng-waterwheel-power.title
+#: src/data/academic-work.js:112
+msgctxt "text:academicAssignments.eng-waterwheel-power.title"
+msgid "Low-head turbine: do not count tape as efficiency"
+msgstr "低落差水輪：別把膠帶算進效率"
+
+#. academicAssignments.eng-waterwheel-power.brief
+#: src/data/academic-work.js:113
+msgctxt "text:academicAssignments.eng-waterwheel-power.brief"
+msgid ""
+"The kappa workshop requires calculation, units, and a stop condition. "
+"final-final is not version control."
+msgstr "河童工房要求同時交計算、單位與停止測試的條件。寫 final-final 不算版本控制。"
+
+#. academicAssignments.eng-waterwheel-power.teacher
+#: src/data/academic-work.js:114
+msgctxt "text:academicAssignments.eng-waterwheel-power.teacher"
+msgid "Nitori Kawashiro"
+msgstr "河城荷取"
+
+#. academicAssignments.eng-waterwheel-power.questions.0.power.2
+#: src/data/academic-work.js:119
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.0.power.2"
+msgid "ρ=1000 kg/m³, g=9.8 m/s², flow=0.5 m³/s, head=2 m, efficiency=.60. Output power in W?"
+msgstr "ρ=1000 kg/m³、g=9.8 m/s²、流量 0.5 m³/s、落差 2 m、效率 0.60。輸出功率是多少 W？"
+
+#. academicAssignments.eng-waterwheel-power.questions.0.power.6
+#: src/data/academic-work.js:123
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.0.power.6"
+msgid "P=ρgQHη=5880 W. Measurement rounding is accepted; tape adhesion is not η."
+msgstr "P=ρgQHη=5880 W；接受量測四捨五入，不接受把膠帶黏性當 η。"
+
+#. academicAssignments.eng-waterwheel-power.questions.1.comparison.2
+#: src/data/academic-work.js:128
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.1.comparison.2"
+msgid "Will more flow readings automatically repair an uncalibrated gauge?"
+msgstr "換成更大樣本的流量讀數，能自動修好未校準的水位尺嗎？"
+
+#. academicAssignments.eng-waterwheel-power.questions.1.comparison.3.0.yes.1
+#: src/data/academic-work.js:130
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.1.comparison.3.0.yes.1"
+msgid "Yes; more data is truth"
+msgstr "會，資料多就是真"
+
+#. academicAssignments.eng-waterwheel-power.questions.1.comparison.3.1.no.1
+#: src/data/academic-work.js:131
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.1.comparison.3.1.no.1"
+msgid "No; random error shrinks while systematic bias remains"
+msgstr "不會；隨機誤差變小，系統偏差仍在"
+
+#. academicAssignments.eng-waterwheel-power.questions.1.comparison.3.2.tape.1
+#: src/data/academic-work.js:132
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.1.comparison.3.2.tape.1"
+msgid "Only with fresh tape"
+msgstr "只要換新膠帶就會"
+
+#. academicAssignments.eng-waterwheel-power.questions.1.comparison.6
+#: src/data/academic-work.js:136
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.1.comparison.6"
+msgid "Sample size cannot wash away calibration failure."
+msgstr "樣本量不能洗掉校準問題。"
+
+#. academicAssignments.eng-waterwheel-power.questions.2.shutdown.2
+#: src/data/academic-work.js:141
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.2.shutdown.2"
+msgid "Which stop condition can be decided before testing?"
+msgstr "哪個停止條件可在測試前判定？"
+
+#. academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.0.bad.1
+#: src/data/academic-work.js:143
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.0.bad.1"
+msgid "When results look bad"
+msgstr "結果看起來不好時"
+
+#. academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.1.threshold.1
+#: src/data/academic-work.js:144
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.1.threshold.1"
+msgid "Bearing temperature above 82°C or vibration over limit three times"
+msgstr "軸承溫度超過 82°C 或振動連續三次超限"
+
+#. academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.2.nitori.1
+#: src/data/academic-work.js:145
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.2.nitori.1"
+msgid "When Nitori says it is really fine"
+msgstr "荷取說真的沒事時"
+
+#. academicAssignments.eng-waterwheel-power.questions.2.shutdown.6
+#: src/data/academic-work.js:149
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.2.shutdown.6"
+msgid "Operational thresholds beat hindsight and help the equipment survive until next class."
+msgstr "可操作閾值比事後感覺可靠，也更容易讓設備活到下一堂課。"
+
+#. academicAssignments.jrn-correction-chain.title
+#: src/data/academic-work.js:158
+msgctxt "text:academicAssignments.jrn-correction-chain.title"
+msgid "Correction chain for news that has not happened"
+msgstr "一則尚未發生新聞的訂正鏈"
+
+#. academicAssignments.jrn-correction-chain.brief
+#: src/data/academic-work.js:159
+msgctxt "text:academicAssignments.jrn-correction-chain.brief"
+msgid ""
+"Aya filed the headline first. Preserve some speed while telling readers what "
+"remains unknown."
+msgstr "文先交標題，再要求你查證。請在不把速度完全消滅的前提下，讓讀者知道什麼仍是未知。"
+
+#. academicAssignments.jrn-correction-chain.teacher
+#: src/data/academic-work.js:160
+msgctxt "text:academicAssignments.jrn-correction-chain.teacher"
+msgid "Aya Shameimaru"
+msgstr "射命丸文"
+
+#. academicAssignments.jrn-correction-chain.questions.0.headline.2
+#: src/data/academic-work.js:165
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.0.headline.2"
+msgid "One source says an explosion is possible. Best headline?"
+msgstr "唯一來源說「可能有爆炸」，哪個標題最合適？"
+
+#. academicAssignments.jrn-correction-chain.questions.0.headline.3.0.certain.1
+#: src/data/academic-work.js:167
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.0.headline.3.0.certain.1"
+msgid "Workshop explodes; university silent"
+msgstr "工房爆炸，校方沉默"
+
+#. academicAssignments.jrn-correction-chain.questions.0.headline.3.1.qualified.1
+#: src/data/academic-work.js:168
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.0.headline.3.1.qualified.1"
+msgid "Unusual workshop noise; explosive cause unconfirmed"
+msgstr "工房傳出異響；爆炸原因尚未確認"
+
+#. academicAssignments.jrn-correction-chain.questions.0.headline.3.2.future.1
+#: src/data/academic-work.js:169
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.0.headline.3.2.future.1"
+msgid "Tomorrow’s accident confirmed today"
+msgstr "明日的事故今天證實"
+
+#. academicAssignments.jrn-correction-chain.questions.0.headline.6
+#: src/data/academic-work.js:173
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.0.headline.6"
+msgid "A fast headline can still make uncertainty and known facts visible together."
+msgstr "標題可保留速度，但必須讓不確定性與已知事實同時可見。"
+
+#. academicAssignments.jrn-correction-chain.questions.1.conflict.2
+#: src/data/academic-work.js:178
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.1.conflict.2"
+msgid "The reporter’s own extra edition helped trigger the event. What must the report add?"
+msgstr "記者本人提供了觸發事件的號外。報導中至少要補什麼？"
+
+#. academicAssignments.jrn-correction-chain.questions.1.conflict.3.0.disclose.1
+#: src/data/academic-work.js:180
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.1.conflict.3.0.disclose.1"
+msgid "Disclose the reporter’s role and provide an independent timeline"
+msgstr "揭露記者角色並提供獨立時間線"
+
+#. academicAssignments.jrn-correction-chain.questions.1.conflict.3.1.hide.1
+#: src/data/academic-work.js:181
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.1.conflict.3.1.hide.1"
+msgid "Delete the extra and pretend it did not happen"
+msgstr "刪除號外，當作沒發生"
+
+#. academicAssignments.jrn-correction-chain.questions.1.conflict.3.2.award.1
+#: src/data/academic-work.js:182
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.1.conflict.3.2.award.1"
+msgid "Add an exclusive badge"
+msgstr "加上獨家標章"
+
+#. academicAssignments.jrn-correction-chain.questions.1.conflict.6
+#: src/data/academic-work.js:186
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.1.conflict.6"
+msgid ""
+"A conflict need not cancel reporting, but it must be visible and "
+"independently checkable."
+msgstr "利益衝突不必自動取消報導，但必須可見並接受獨立核對。"
+
+#. academicAssignments.jrn-correction-chain.questions.2.correction.2
+#: src/data/academic-work.js:191
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.2.correction.2"
+msgid "Write a correction of at least 16 characters containing 未確認 or “unconfirmed”."
+msgstr "寫一行訂正，須含「未確認／未確認／unconfirmed」其中之一，至少 16 字元。"
+
+#. academicAssignments.jrn-correction-chain.questions.2.correction.6
+#: src/data/academic-work.js:195
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.2.correction.6"
+msgid ""
+"A correction identifies where the original exceeded evidence, rather than "
+"merely regretting confusion."
+msgstr "訂正要能指出原說法哪裡超出證據，而不是只說造成誤會。"
+
+#. academicExams.methods-midterm.title
+#: src/data/academic-work.js:205
+msgctxt "text:academicExams.methods-midterm.title"
+msgid "Cross-School Methods Midterm"
+msgstr "跨學院方法論中間試驗"
+
+#. academicExams.methods-midterm.lead
+#: src/data/academic-work.js:206
+msgctxt "text:academicExams.methods-midterm.lead"
+msgid ""
+"Open book. If the book leaves, the timer continues. Answers and explanations "
+"remain after grading."
+msgstr "開卷；書若自行離場，計時不停止。每題判分後保留答案與解析。"
+
+#. academicExams.methods-midterm.questions.0.m1.2
+#: src/data/academic-work.js:208
+msgctxt "text:academicExams.methods-midterm.questions.0.m1.2"
+msgid "What does a larger sample most directly improve?"
+msgstr "大樣本最直接改善什麼？"
+
+#. academicExams.methods-midterm.questions.0.m1.3.0.chance.1
+#: src/data/academic-work.js:209
+msgctxt "text:academicExams.methods-midterm.questions.0.m1.3.0.chance.1"
+msgid "Precision against random error"
+msgstr "隨機誤差的精度"
+
+#. academicExams.methods-midterm.questions.0.m1.3.1.bias.1
+#: src/data/academic-work.js:210
+msgctxt "text:academicExams.methods-midterm.questions.0.m1.3.1.bias.1"
+msgid "Every systematic bias"
+msgstr "所有系統偏差"
+
+#. academicExams.methods-midterm.questions.0.m1.3.2.ethics.1
+#: src/data/academic-work.js:211
+msgctxt "text:academicExams.methods-midterm.questions.0.m1.3.2.ethics.1"
+msgid "Research ethics"
+msgstr "研究倫理"
+
+#. academicExams.methods-midterm.questions.0.m1.6
+#: src/data/academic-work.js:212
+msgctxt "text:academicExams.methods-midterm.questions.0.m1.6"
+msgid "Larger samples narrow random uncertainty; design errors remain."
+msgstr "大樣本縮窄隨機不確定性；設計錯誤不因此消失。"
+
+#. academicExams.methods-midterm.questions.1.m2.2
+#: src/data/academic-work.js:213
+msgctxt "text:academicExams.methods-midterm.questions.1.m2.2"
+msgid "A route algorithm halves walking time but has no broom berths. Main problem?"
+msgstr "路線演算法只把步行時間乘 0.5，卻沒有掃帚停泊點。主要問題是？"
+
+#. academicExams.methods-midterm.questions.1.m2.3.0.network.1
+#: src/data/academic-work.js:214
+msgctxt "text:academicExams.methods-midterm.questions.1.m2.3.0.network.1"
+msgid "It does not model the usable transport network"
+msgstr "沒有建模真正可使用的交通網路"
+
+#. academicExams.methods-midterm.questions.1.m2.3.1.fast.1
+#: src/data/academic-work.js:215
+msgctxt "text:academicExams.methods-midterm.questions.1.m2.3.1.fast.1"
+msgid "The broom is not fast enough"
+msgstr "掃帚不夠快"
+
+#. academicExams.methods-midterm.questions.1.m2.3.2.colour.1
+#: src/data/academic-work.js:216
+msgctxt "text:academicExams.methods-midterm.questions.1.m2.3.2.colour.1"
+msgid "The map colour is wrong"
+msgstr "地圖顏色錯誤"
+
+#. academicExams.methods-midterm.questions.1.m2.6
+#: src/data/academic-work.js:217
+msgctxt "text:academicExams.methods-midterm.questions.1.m2.6"
+msgid "A transport mode changes available edges and transfers, not only a multiplier."
+msgstr "交通方式必須改變可走的邊與轉乘，不只是共用路徑的倍率。"
+
+#. academicExams.methods-midterm.questions.2.m3.2
+#: src/data/academic-work.js:218
+msgctxt "text:academicExams.methods-midterm.questions.2.m3.2"
+msgid "24 observations across 3 replicate rounds: how many planned observations?"
+msgstr "觀測 24 次、重複 3 輪，共有多少筆計畫觀測？"
+
+#. academicExams.methods-midterm.questions.2.m3.6
+#: src/data/academic-work.js:218
+msgctxt "text:academicExams.methods-midterm.questions.2.m3.6"
+msgid "24×3=72. A separate control must be counted separately."
+msgstr "24×3＝72。對照若另設，必須另外計數。"
+
+#. academicExams.methods-midterm.questions.3.m4.2
+#: src/data/academic-work.js:219
+msgctxt "text:academicExams.methods-midterm.questions.3.m4.2"
+msgid "A wrong hypothesis is interesting. Most honest way to preserve it?"
+msgstr "錯誤假說很有趣，最誠實的保存方式是？"
+
+#. academicExams.methods-midterm.questions.3.m4.3.0.confirm.1
+#: src/data/academic-work.js:220
+msgctxt "text:academicExams.methods-midterm.questions.3.m4.3.0.confirm.1"
+msgid "Rewrite it as confirmed"
+msgstr "改寫成已證實"
+
+#. academicExams.methods-midterm.questions.3.m4.3.1.contested.1
+#: src/data/academic-work.js:221
+msgctxt "text:academicExams.methods-midterm.questions.3.m4.3.1.contested.1"
+msgid "Keep original verdict, reviewer, reason, and unsupported warning"
+msgstr "保留原 verdict、審閱者、理由與未獲支持警告"
+
+#. academicExams.methods-midterm.questions.3.m4.3.2.delete.1
+#: src/data/academic-work.js:222
+msgctxt "text:academicExams.methods-midterm.questions.3.m4.3.2.delete.1"
+msgid "Delete every failure"
+msgstr "刪掉所有失敗"
+
+#. academicExams.methods-midterm.questions.3.m4.6
+#: src/data/academic-work.js:223
+msgctxt "text:academicExams.methods-midterm.questions.3.m4.6"
+msgid "Preserving dissent must not erase rejection or insufficient evidence."
+msgstr "保存異說不能洗掉它被推翻或證據不足的狀態。"
+
+#. academicExams.methods-midterm.questions.4.m5.2
+#: src/data/academic-work.js:224
+msgctxt "text:academicExams.methods-midterm.questions.4.m5.2"
+msgid "Two character testimonies conflict. First step?"
+msgstr "兩個角色證詞衝突時，第一步是？"
+
+#. academicExams.methods-midterm.questions.4.m5.3.0.popular.1
+#: src/data/academic-work.js:225
+msgctxt "text:academicExams.methods-midterm.questions.4.m5.3.0.popular.1"
+msgid "Choose the more popular"
+msgstr "選人氣較高的"
+
+#. academicExams.methods-midterm.questions.4.m5.3.1.positions.1
+#: src/data/academic-work.js:226
+msgctxt "text:academicExams.methods-midterm.questions.4.m5.3.1.positions.1"
+msgid "Retain each role, exposure, interest, and checkable component"
+msgstr "保留各自角色、暴露、利益與可核對部分"
+
+#. academicExams.methods-midterm.questions.4.m5.3.2.average.1
+#: src/data/academic-work.js:227
+msgctxt "text:academicExams.methods-midterm.questions.4.m5.3.2.average.1"
+msgid "Average the sentences"
+msgstr "把句子平均"
+
+#. academicExams.methods-midterm.questions.4.m5.6
+#: src/data/academic-work.js:228
+msgctxt "text:academicExams.methods-midterm.questions.4.m5.6"
+msgid "Conflict is data. Locate the sources before deciding what claim is identifiable."
+msgstr "衝突本身是資料；先定位來源，再決定可識別的主張。"
+
+#. academicExams.methods-midterm.questions.5.m6.2
+#: src/data/academic-work.js:229
+msgctxt "text:academicExams.methods-midterm.questions.5.m6.2"
+msgid "Which stop rule is worst?"
+msgstr "哪個停止規則最差？"
+
+#. academicExams.methods-midterm.questions.5.m6.3.0.threshold.1
+#: src/data/academic-work.js:230
+msgctxt "text:academicExams.methods-midterm.questions.5.m6.3.0.threshold.1"
+msgid "Instrument crosses a pre-set threshold"
+msgstr "儀器超過預先閾值"
+
+#. academicExams.methods-midterm.questions.5.m6.3.1.harm.1
+#: src/data/academic-work.js:231
+msgctxt "text:academicExams.methods-midterm.questions.5.m6.3.1.harm.1"
+msgid "A predefined harm signal appears"
+msgstr "出現預定義傷害訊號"
+
+#. academicExams.methods-midterm.questions.5.m6.3.2.nice.1
+#: src/data/academic-work.js:232
+msgctxt "text:academicExams.methods-midterm.questions.5.m6.3.2.nice.1"
+msgid "The result finally looks attractive"
+msgstr "結果終於看起來漂亮"
+
+#. academicExams.methods-midterm.questions.5.m6.6
+#: src/data/academic-work.js:233
+msgctxt "text:academicExams.methods-midterm.questions.5.m6.6"
+msgid "Stopping when results look attractive manufactures a selected conclusion."
+msgstr "依結果美觀停止會製造選擇性結論。"
+
+#. defenceRounds.claim.examiner
+#: src/data/academic-work.js:241
+msgctxt "text:defenceRounds.claim.examiner"
+msgid "Yukari Yakumo"
+msgstr "八雲紫"
+
+#. defenceRounds.claim.role
+#: src/data/academic-work.js:242
+msgctxt "text:defenceRounds.claim.role"
+msgid "Boundary of claim"
+msgstr "主張邊界"
+
+#. defenceRounds.claim.prompt
+#: src/data/academic-work.js:243
+msgctxt "text:defenceRounds.claim.prompt"
+msgid "Beyond which boundary does your result stop holding?"
+msgstr "你的結果在哪一條邊界之外就不再成立？"
+
+#. defenceRounds.claim.choices.0.universal.1
+#: src/data/academic-work.js:245
+msgctxt "text:defenceRounds.claim.choices.0.universal.1"
+msgid "It holds in every world, moon phase, and version"
+msgstr "在任何世界、月相與版本都成立"
+
+#. defenceRounds.claim.choices.1.scope.1
+#: src/data/academic-work.js:246
+msgctxt "text:defenceRounds.claim.choices.1.scope.1"
+msgid "State population, place, moon phase, and version scope"
+msgstr "明確列出族群、場地、月相與版本範圍"
+
+#. defenceRounds.claim.choices.2.gap.1
+#: src/data/academic-work.js:247
+msgctxt "text:defenceRounds.claim.choices.2.gap.1"
+msgid "Leave through the gap between question and answer"
+msgstr "不回答，從問題與答案間隙離場"
+
+#. defenceRounds.method.examiner
+#: src/data/academic-work.js:253
+msgctxt "text:defenceRounds.method.examiner"
+msgid "Marisa Kirisame"
+msgstr "霧雨魔理沙"
+
+#. defenceRounds.method.role
+#: src/data/academic-work.js:254
+msgctxt "text:defenceRounds.method.role"
+msgid "Materials & reproduction"
+msgstr "材料與重現"
+
+#. defenceRounds.method.prompt
+#: src/data/academic-work.js:255
+msgctxt "text:defenceRounds.method.prompt"
+msgid "How can the next person reproduce your success—or at least your failure?"
+msgstr "下一個人怎樣才能重現你的成功，或至少重現你的失敗？"
+
+#. defenceRounds.method.choices.0.secret.1
+#: src/data/academic-work.js:257
+msgctxt "text:defenceRounds.method.choices.0.secret.1"
+msgid "Write “as above” for materials and lock the drawer"
+msgstr "把關鍵材料寫成「同上」並鎖進抽屜"
+
+#. defenceRounds.method.choices.1.record.1
+#: src/data/academic-work.js:258
+msgctxt "text:defenceRounds.method.choices.1.record.1"
+msgid "Preserve material batch, procedure version, environment, and stop rules"
+msgstr "保存材料批次、程序版本、環境與停止條件"
+
+#. defenceRounds.method.choices.2.borrow.1
+#: src/data/academic-work.js:259
+msgctxt "text:defenceRounds.method.choices.2.borrow.1"
+msgid "Let everyone borrow mine; provenance can wait"
+msgstr "讓大家直接借我的，來源之後再說"
+
+#. defenceRounds.stop.examiner
+#: src/data/academic-work.js:265
+msgctxt "text:defenceRounds.stop.examiner"
+msgid "Reimu Hakurei"
+msgstr "博麗靈夢"
+
+#. defenceRounds.stop.role
+#: src/data/academic-work.js:266
+msgctxt "text:defenceRounds.stop.role"
+msgid "Stop rule / spell-card ruling"
+msgstr "停止條件／符卡裁定"
+
+#. defenceRounds.stop.prompt
+#: src/data/academic-work.js:267
+msgctxt "text:defenceRounds.stop.prompt"
+msgid "If the defence itself becomes an incident, when do you stop?"
+msgstr "如果答辯現場本身變成異變，你在什麼時候停？"
+
+#. defenceRounds.stop.choices.0.bored.1
+#: src/data/academic-work.js:269
+msgctxt "text:defenceRounds.stop.choices.0.bored.1"
+msgid "When Reimu finds it troublesome"
+msgstr "靈夢覺得麻煩時"
+
+#. defenceRounds.stop.choices.1.precommit.1
+#: src/data/academic-work.js:270
+msgctxt "text:defenceRounds.stop.choices.1.precommit.1"
+msgid "When a precommitted harm, loss-of-control, or irreversible threshold triggers"
+msgstr "預先列出的傷害、失控或不可逆閾值一旦觸發"
+
+#. defenceRounds.stop.choices.2.audience.1
+#: src/data/academic-work.js:271
+msgctxt "text:defenceRounds.stop.choices.2.audience.1"
+msgid "When the audience starts applauding"
+msgstr "觀眾開始鼓掌時"
+
+#. academicGradeBands.A.label
+#: src/data/academic-work.js:278
+msgctxt "text:academicGradeBands.A.label"
+msgid "Excellent / public demonstration"
+msgstr "卓越／可公開示範"
+
+#. academicGradeBands.B.label
+#: src/data/academic-work.js:279
+msgctxt "text:academicGradeBands.B.label"
+msgid "Good / may progress"
+msgstr "良好／可進下一階"
+
+#. academicGradeBands.C.label
+#: src/data/academic-work.js:280
+msgctxt "text:academicGradeBands.C.label"
+msgid "Pass / one method correction"
+msgstr "通過／需補一處方法"
+
+#. academicGradeBands.D.label
+#: src/data/academic-work.js:281
+msgctxt "text:academicGradeBands.D.label"
+msgid "Conditional pass"
+msgstr "有條件通過"
+
+#. academicGradeBands.F.label
+#: src/data/academic-work.js:282
+msgctxt "text:academicGradeBands.F.label"
+msgid "Revise and resubmit; failure slip retained"
+msgstr "退回重做，但保留失敗回條"
+
+#. academicAssignments.his-yesterday-editions.questions.2.memo.4.keywordGroups.-
+#: src/data/academic-work.js:55
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.2.memo.4.keywordGroups.-"
+msgid "version"
+msgstr "版本"
+
+#. academicAssignments.his-yesterday-editions.questions.2.memo.4.keywordGroups.-
+#: src/data/academic-work.js:55
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.2.memo.4.keywordGroups.-.2"
+msgid "time"
+msgstr "時間"

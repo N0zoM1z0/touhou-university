@@ -1,0 +1,169 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. orientationSeason.0.window
+#: src/data/orientation.js:6
+msgctxt "text:orientationSeason.0.window"
+msgid "11–18 October"
+msgstr "10月11日—18日"
+
+#. orientationSeason.0.title
+#: src/data/orientation.js:7
+msgctxt "text:orientationSeason.0.title"
+msgid "First Bell · New Student Arrival Week"
+msgstr "第一鐘・新入生到着週"
+
+#. orientationSeason.0.premise
+#: src/data/orientation.js:8
+msgctxt "text:orientationSeason.0.premise"
+msgid ""
+"Admission means the university will let you in. Arrival means knowing the "
+"gate, the way back, and the people with whom you will share campus."
+msgstr "合格は大学が入門を認めたというだけ。手続では、門と退路、そして共に暮らす相手を自分で確かめます。"
+
+#. orientationStopSignals.0.wood-bell.name
+#: src/data/orientation.js:25
+msgctxt "text:orientationStopSignals.0.wood-bell.name"
+msgid "Three wooden bells"
+msgstr "三打の木鐘"
+
+#. orientationStopSignals.0.wood-bell.detail
+#: src/data/orientation.js:26
+msgctxt "text:orientationStopSignals.0.wood-bell.detail"
+msgid ""
+"Stop at the first bell, find the nearest vermilion cord at the second, and "
+"move only on the third. Do not choose this if you cannot reliably hear it."
+msgstr "一打目で止まり、二打目で最寄りの朱縄を確認し、三打目で移動します。木鐘を聞き取れない人には向きません。"
+
+#. orientationStopSignals.0.red-white-lamps.name
+#: src/data/orientation.js:31
+msgctxt "text:orientationStopSignals.0.red-white-lamps.name"
+msgid "Red-and-white exit lamps"
+msgstr "紅白退路灯"
+
+#. orientationStopSignals.0.red-white-lamps.detail
+#: src/data/orientation.js:32
+msgctxt "text:orientationStopSignals.0.red-white-lamps.detail"
+msgid ""
+"Red closes the original route; white lights advance along a passable "
+"boundary. The lamp bases also pulse when colour is not a usable cue."
+msgstr "赤灯で元の経路を停止し、白灯が通行可能な境界に沿って順に点灯します。色を使わない案内では灯台も振動します。"
+
+#. orientationStopSignals.0.paired-cord.name
+#: src/data/orientation.js:37
+msgctxt "text:orientationStopSignals.0.paired-cord.name"
+msgid "Paired vermilion cord"
+msgstr "二人朱縄"
+
+#. orientationStopSignals.0.paired-cord.detail
+#: src/data/orientation.js:38
+msgctxt "text:orientationStopSignals.0.paired-cord.detail"
+msgid ""
+"Each person holds one end and the route changes only after both answer. The "
+"cord preserves contact; it does not decide for either person."
+msgstr "二人で両端を持ち、双方の応答がそろった時だけ経路を変えます。縄は連絡を保ちますが、本人の代わりに判断しません。"
+
+#. orientationNoticePlans.0.archive-board.name
+#: src/data/orientation.js:46
+msgctxt "text:orientationNoticePlans.0.archive-board.name"
+msgid "Notice board + Hieda copy"
+msgstr "木札掲示＋稗田控え"
+
+#. orientationNoticePlans.0.archive-board.detail
+#: src/data/orientation.js:47
+msgctxt "text:orientationNoticePlans.0.archive-board.detail"
+msgid ""
+"For anyone passing Hakurei Gate each day. The board may be replaced; the "
+"previous version remains at the archive."
+msgstr "毎日博麗門を通る人向け。掲示は差し替えられますが、旧版は史料館に残ります。"
+
+#. orientationNoticePlans.0.tengu-correction.name
+#: src/data/orientation.js:52
+msgctxt "text:orientationNoticePlans.0.tengu-correction.name"
+msgid "Tengu post + public correction"
+msgstr "鴉天狗郵便＋公開訂正"
+
+#. orientationNoticePlans.0.tengu-correction.detail
+#: src/data/orientation.js:53
+msgctxt "text:orientationNoticePlans.0.tengu-correction.detail"
+msgid ""
+"Fastest, and therefore capable of arriving before the decision. Every "
+"edition retains its time and correction trail."
+msgstr "最速ですが、決定より先に届くこともあります。各版の時刻と訂正関係を残します。"
+
+#. orientationNoticePlans.0.named-buddy.name
+#: src/data/orientation.js:58
+msgctxt "text:orientationNoticePlans.0.named-buddy.name"
+msgid "Named companion + personal check"
+msgstr "同行者指定＋本人確認"
+
+#. orientationNoticePlans.0.named-buddy.detail
+#: src/data/orientation.js:59
+msgctxt "text:orientationNoticePlans.0.named-buddy.detail"
+msgid ""
+"A companion may relay a detour, but you make the final confirmation. "
+"Mind-reading still does not count as your reply."
+msgstr "同行者は迂回を伝えられますが、最後は本人が確認します。心を読めても返答の代行はできません。"
+
+#. orientationFirstStops.0.first-course.name
+#: src/data/orientation.js:68
+msgctxt "text:orientationFirstStops.0.first-course.name"
+msgid "Put the first course into your life"
+msgstr "最初の一科目を生活へ"
+
+#. orientationFirstStops.0.first-course.detail
+#: src/data/orientation.js:69
+msgctxt "text:orientationFirstStops.0.first-course.detail"
+msgid ""
+"Choose the course first; room, lunar phase, and non-ordinary clashes still "
+"need checking on the timetable."
+msgstr "科目番号は選べますが、教室・月相・普通でない重複は時間割で一つずつ確認します。"
+
+#. orientationFirstStops.0.first-room.name
+#: src/data/orientation.js:75
+msgctxt "text:orientationFirstStops.0.first-room.name"
+msgid "State the terms of living together"
+msgstr "共同生活の条件を先に話す"
+
+#. orientationFirstStops.0.first-room.detail
+#: src/data/orientation.js:76
+msgctxt "text:orientationFirstStops.0.first-room.detail"
+msgid ""
+"A suitable room is not trouble-free; it makes lunar, wingspan, water, "
+"phasing, and schedule needs visible early."
+msgstr "合う部屋とは問題のない部屋ではなく、月相・翼幅・水域・壁抜け・生活時間を先に確認できる部屋です。"
+
+#. orientationFirstStops.0.first-club.name
+#: src/data/orientation.js:82
+msgctxt "text:orientationFirstStops.0.first-club.name"
+msgid "Hear Four Seasons at Once"
+msgstr "『四季同時発生』を聴きに行く"
+
+#. orientationFirstStops.0.first-club.detail
+#: src/data/orientation.js:83
+msgctxt "text:orientationFirstStops.0.first-club.detail"
+msgid ""
+"The Fairy Choir lets a singer re-enter after forgetting a phrase. Every "
+"other society also keeps one rule it will not waive for recruitment."
+msgstr "妖精合唱団は歌詞を忘れても戻れます。ほかの団体にも、新歓の都合では消えない規則があります。"
+
+#. orientationFirstStops.0.first-gate.name
+#: src/data/orientation.js:89
+msgctxt "text:orientationFirstStops.0.first-gate.name"
+msgid "Watch three sole main gates open"
+msgstr "三つの唯一正門が開くところを見る"
+
+#. orientationFirstStops.0.first-gate.detail
+#: src/data/orientation.js:90
+msgctxt "text:orientationFirstStops.0.first-gate.detail"
+msgid ""
+"The operations room will not let a newcomer sign for six desks. You may "
+"still learn who disputes the gate and who is responsible for getting people "
+"home."
+msgstr "運営室は新入生に六机の代署をさせません。誰が門を争い、誰が無事の帰還を担うかは先に読めます。"

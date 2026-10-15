@@ -1,0 +1,395 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. campusFeatures.library.title
+#: src/data/campus.js:6
+msgctxt "text:campusFeatures.library.title"
+msgid "Misty Lake Library · Night Reading"
+msgstr "霧湖圖書館・夜間閱覽"
+
+#. campusFeatures.library.summary
+#: src/data/campus.js:7
+msgctxt "text:campusFeatures.library.summary"
+msgid ""
+"The north-wing reading room stays open until the second quarter of the Ox "
+"hour. Leave a bookmark where you last saw any self-moving volume."
+msgstr "北翼閱覽室開放至丑時二刻；會自行移動的館藏，請在最後一次看見的位置留下書籤。"
+
+#. campusFeatures.library.details.0
+#: src/data/campus.js:9
+msgctxt "text:campusFeatures.library.details.0"
+msgid "Seats tonight"
+msgstr "本夜席位"
+
+#. campusFeatures.library.details.2
+#: src/data/campus.js:11
+msgctxt "text:campusFeatures.library.details.2"
+msgid "Special service"
+msgstr "特別服務"
+
+#. campusFeatures.library.details.3
+#: src/data/campus.js:12
+msgctxt "text:campusFeatures.library.details.3"
+msgid "Grimoire interlibrary loans"
+msgstr "跨館魔導書調閱"
+
+#. campusFeatures.library.action
+#: src/data/campus.js:14
+msgctxt "text:campusFeatures.library.action"
+msgid "Find a reading room"
+msgstr "查詢閱覽室"
+
+#. campusFeatures.workshop.title
+#: src/data/campus.js:19
+msgctxt "text:campusFeatures.workshop.title"
+msgid "Youkai Mountain · Kappa Joint Workshop"
+msgstr "妖怪山・河童聯合工房"
+
+#. campusFeatures.workshop.summary
+#: src/data/campus.js:20
+msgctxt "text:campusFeatures.workshop.summary"
+msgid ""
+"The turbine channel, wind tower, and waterproof prototype rooms are open to "
+"students. Every moving part must be stoppable by hand before launch."
+msgstr "水輪試驗渠、風速塔與防水原型間對學生開放。任何會轉動的零件，在下水前都要能徒手停機。"
+
+#. campusFeatures.workshop.details.0
+#: src/data/campus.js:22
+msgctxt "text:campusFeatures.workshop.details.0"
+msgid "Wind today"
+msgstr "今日風況"
+
+#. campusFeatures.workshop.details.1
+#: src/data/campus.js:23
+msgctxt "text:campusFeatures.workshop.details.1"
+msgid "Valley wind, force 3"
+msgstr "山谷風 3 級"
+
+#. campusFeatures.workshop.details.2
+#: src/data/campus.js:24
+msgctxt "text:campusFeatures.workshop.details.2"
+msgid "Loan equipment"
+msgstr "借用裝備"
+
+#. campusFeatures.workshop.details.3
+#: src/data/campus.js:25
+msgctxt "text:campusFeatures.workshop.details.3"
+msgid "Rain gear · goggles"
+msgstr "雨具・護目鏡"
+
+#. campusFeatures.workshop.action
+#: src/data/campus.js:27
+msgctxt "text:campusFeatures.workshop.action"
+msgid "View workshop rooms"
+msgstr "查看工房空間"
+
+#. campusFeatures.festival.title
+#: src/data/campus.js:32
+msgctxt "text:campusFeatures.festival.title"
+msgid "Spring Spell-card Lantern Festival"
+msgstr "春季符卡燈會"
+
+#. campusFeatures.festival.summary
+#: src/data/campus.js:33
+msgctxt "text:campusFeatures.festival.summary"
+msgid ""
+"Student groups design the night sky with non-aggressive light danmaku. Every "
+"entry declares its stop condition, audience distance, and debris recovery "
+"plan."
+msgstr "學生社團以非攻擊性光彈設計校園夜空；每組作品必須申報終止條件、觀眾距離與落下物回收方法。"
+
+#. campusFeatures.festival.details.0
+#: src/data/campus.js:35
+msgctxt "text:campusFeatures.festival.details.0"
+msgid "Next event"
+msgstr "下次舉行"
+
+#. campusFeatures.festival.details.1
+#: src/data/campus.js:36
+msgctxt "text:campusFeatures.festival.details.1"
+msgid "First full moon of April"
+msgstr "四月第一個滿月"
+
+#. campusFeatures.festival.details.2
+#: src/data/campus.js:37
+msgctxt "text:campusFeatures.festival.details.2"
+msgid "Exhibition places"
+msgstr "參展名額"
+
+#. campusFeatures.festival.details.3
+#: src/data/campus.js:38
+msgctxt "text:campusFeatures.festival.details.3"
+msgid "24 teams"
+msgstr "24 組"
+
+#. campusFeatures.festival.action
+#: src/data/campus.js:40
+msgctxt "text:campusFeatures.festival.action"
+msgid "Enter festival operations"
+msgstr "進入祭典營運室"
+
+#. clubs.grimoire.name
+#: src/data/campus.js:48
+msgctxt "text:clubs.grimoire.name"
+msgid "Grimoire Restoration Society"
+msgstr "魔導書修復會"
+
+#. clubs.grimoire.focus
+#: src/data/campus.js:49
+msgctxt "text:clubs.grimoire.focus"
+msgid "Paper, binding, and books that bite"
+msgstr "紙張、裝幀與會咬人的書角"
+
+#. clubs.grimoire.description
+#: src/data/campus.js:50
+msgctxt "text:clubs.grimoire.description"
+msgid ""
+"Repairs grimoires damaged by damp, burns, and self-rewriting page numbers. A "
+"new member's first lesson is not magic, but knowing when to close the book."
+msgstr "修補受潮、灼傷與自行改寫頁碼的魔導書。新生第一堂不是施法，而是學會辨認什麼時候應該把書合上。"
+
+#. clubs.grimoire.meeting
+#: src/data/campus.js:51
+msgctxt "text:clubs.grimoire.meeting"
+msgid "Tuesdays · Misty Lake Library north wing"
+msgstr "週二・霧湖圖書館北翼"
+
+#. clubs.grimoire.project
+#: src/data/campus.js:53
+msgctxt "text:clubs.grimoire.project"
+msgid "Century-old catalogue-card de-charming"
+msgstr "百年索引卡除魅計畫"
+
+#. clubs.hisoutensoku.name
+#: src/data/campus.js:57
+msgctxt "text:clubs.hisoutensoku.name"
+msgid "Hisoutensoku Research Society"
+msgstr "非想天則研究會"
+
+#. clubs.hisoutensoku.focus
+#: src/data/campus.js:58
+msgctxt "text:clubs.hisoutensoku.focus"
+msgid "Giant mechanisms, sightings, and size disputes"
+msgstr "巨大機構、目擊史與尺寸爭議"
+
+#. clubs.hisoutensoku.description
+#: src/data/campus.js:59
+msgctxt "text:clubs.hisoutensoku.description"
+msgid ""
+"Engineering and history students compare giant-machine records with "
+"extremely enthusiastic witnesses. Rule one: a photo without scale is "
+"atmospheric evidence only."
+msgstr "工程生、史學生與熱情過剩的目擊者共同校勘巨型機構紀錄。社規第一條：沒有比例尺的照片只能算氣氛證據。"
+
+#. clubs.hisoutensoku.meeting
+#: src/data/campus.js:60
+msgctxt "text:clubs.hisoutensoku.meeting"
+msgid "Alternate Thursdays · Boundary Hall 108"
+msgstr "隔週四・境界講堂 108"
+
+#. clubs.hisoutensoku.project
+#: src/data/campus.js:62
+msgctxt "text:clubs.hisoutensoku.project"
+msgid "Campus clocktower height comparison"
+msgstr "校園鐘樓高度對照觀測"
+
+#. clubs.bamboo.name
+#: src/data/campus.js:66
+msgctxt "text:clubs.bamboo.name"
+msgid "Bamboo Navigation Club"
+msgstr "竹林定向部"
+
+#. clubs.bamboo.focus
+#: src/data/campus.js:67
+msgctxt "text:clubs.bamboo.focus"
+msgid "Direction without relying on straight lines"
+msgstr "不依賴直線的方向感"
+
+#. clubs.bamboo.description
+#: src/data/campus.js:68
+msgctxt "text:clubs.bamboo.description"
+msgid ""
+"Practises safe return when roads, memory, and moonlight are unreliable. It "
+"is not a race; the route is complete only when the whole team returns."
+msgstr "練習在道路、記憶與月光都不可靠時安全回返。活動不競速；能帶完整隊伍回來才算完成。"
+
+#. clubs.bamboo.meeting
+#: src/data/campus.js:69
+msgctxt "text:clubs.bamboo.meeting"
+msgid "Saturday dawn · east bamboo gate"
+msgstr "週六黎明・竹林東口"
+
+#. clubs.bamboo.project
+#: src/data/campus.js:71
+msgctxt "text:clubs.bamboo.project"
+msgid "Eighteen non-text guide-post trial"
+msgstr "十八支無字引導樁測試"
+
+#. clubs.fairyChoir.name
+#: src/data/campus.js:75
+msgctxt "text:clubs.fairyChoir.name"
+msgid "Fairy Choir"
+msgstr "妖精合唱團"
+
+#. clubs.fairyChoir.focus
+#: src/data/campus.js:76
+msgctxt "text:clubs.fairyChoir.focus"
+msgid "Short memory, polyphony, and starting again"
+msgstr "短期記憶、複調與重新開始"
+
+#. clubs.fairyChoir.description
+#: src/data/campus.js:77
+msgctxt "text:clubs.fairyChoir.description"
+msgid ""
+"Music is designed so anyone who forgets the last phrase can re-enter from "
+"the wind or a neighbour. Most rehearsals produce three different endings."
+msgstr "曲目被設計成即使忘記上一段，也能從風聲或鄰座重新加入。每次排練通常有三個不同版本的結尾。"
+
+#. clubs.fairyChoir.meeting
+#: src/data/campus.js:78
+msgctxt "text:clubs.fairyChoir.meeting"
+msgid "Wednesday dusk · Misty Lake floating stage"
+msgstr "週三黃昏・霧湖水上台"
+
+#. clubs.fairyChoir.project
+#: src/data/campus.js:80
+msgctxt "text:clubs.fairyChoir.project"
+msgid "Four Seasons at Once welcome concert"
+msgstr "《四季同時發生》新生公演"
+
+#. clubs.teaNews.name
+#: src/data/campus.js:84
+msgctxt "text:clubs.teaNews.name"
+msgid "Tea & News Ethics Society"
+msgstr "茶與新聞倫理社"
+
+#. clubs.teaNews.focus
+#: src/data/campus.js:85
+msgctxt "text:clubs.teaNews.focus"
+msgid "Slow breaking news, headlines, and corrections"
+msgstr "慢速報、標題與公開訂正"
+
+#. clubs.teaNews.description
+#: src/data/campus.js:86
+msgctxt "text:clubs.teaNews.description"
+msgid ""
+"Each week the society picks one story that seems impossible to delay, then "
+"chooses the headline after a second pot of tea. Typos and bad judgment "
+"receive separate corrections."
+msgstr "每週挑一則看起來非立刻刊出不可的消息，泡完第二壺茶後再決定標題。錯字與錯判分開訂正。"
+
+#. clubs.teaNews.meeting
+#: src/data/campus.js:87
+msgctxt "text:clubs.teaNews.meeting"
+msgid "Fridays · Tengu News Hall terrace"
+msgstr "週五・天狗新聞館露台"
+
+#. clubs.teaNews.project
+#: src/data/campus.js:89
+msgctxt "text:clubs.teaNews.project"
+msgid "Ten-minute anniversary-news delay trial"
+msgstr "校慶速報延遲十分鐘實驗"
+
+#. clubs.nightSparrow.name
+#: src/data/campus.js:93
+msgctxt "text:clubs.nightSparrow.name"
+msgid "Night-Sparrow Music Dining Hall"
+msgstr "夜雀音樂食堂"
+
+#. clubs.nightSparrow.focus
+#: src/data/campus.js:94
+msgctxt "text:clubs.nightSparrow.focus"
+msgid "Supper, sound fields, and ordering without sight"
+msgstr "晚食、音場與不看菜單點餐"
+
+#. clubs.nightSparrow.description
+#: src/data/campus.js:95
+msgctxt "text:clubs.nightSparrow.description"
+msgid ""
+"Music practice and late-night meals share one timetable. Soup noodles pause "
+"when the set gets too loud; lamprey always has a backup."
+msgstr "把音樂實作與深夜供餐放在同一張排程上。演出太響時，湯麵暫停供應；八目鰻永遠有備份。"
+
+#. clubs.nightSparrow.meeting
+#: src/data/campus.js:96
+msgctxt "text:clubs.nightSparrow.meeting"
+msgid "Daily after 17:30 · South Dining Hall"
+msgstr "每日 17:30 後・南食堂"
+
+#. clubs.nightSparrow.project
+#: src/data/campus.js:98
+msgctxt "text:clubs.nightSparrow.project"
+msgid "Low-stimulus full-moon supper"
+msgstr "滿月低刺激晚餐場"
+
+#. clubs.ufo.name
+#: src/data/campus.js:102
+msgctxt "text:clubs.ufo.name"
+msgid "Unidentified Flying Object Society"
+msgstr "不明飛行物觀測會"
+
+#. clubs.ufo.focus
+#: src/data/campus.js:103
+msgctxt "text:clubs.ufo.focus"
+msgid "Observe first, decide whether it is a plate later"
+msgstr "先觀測，再決定是不是盤子"
+
+#. clubs.ufo.description
+#: src/data/campus.js:104
+msgctxt "text:clubs.ufo.description"
+msgid ""
+"Shares telescopes, sketchbooks, and a very strict unknown field. Any "
+"conclusion must first rule out tengu, umbrellas, clouds, and actual flying "
+"saucers."
+msgstr "共享望遠鏡、素描本與極嚴格的『不知道』欄位。任何結論至少要排除天狗、傘、雲和真的飛碟。"
+
+#. clubs.ufo.meeting
+#: src/data/campus.js:105
+msgctxt "text:clubs.ufo.meeting"
+msgid "Clear nights · Seven-Day Laboratory roof"
+msgstr "晴夜・七曜實驗塔屋頂"
+
+#. clubs.ufo.project
+#: src/data/campus.js:107
+msgctxt "text:clubs.ufo.project"
+msgid "Summer unclaimed-light chronology"
+msgstr "夏季無主光點年表"
+
+#. clubs.ordinaryMagic.name
+#: src/data/campus.js:111
+msgctxt "text:clubs.ordinaryMagic.name"
+msgid "Ordinary Magic Laboratory Society"
+msgstr "普通的魔法實驗社"
+
+#. clubs.ordinaryMagic.focus
+#: src/data/campus.js:112
+msgctxt "text:clubs.ordinaryMagic.focus"
+msgid "Reproducible failure and starlight sparks"
+msgstr "可重現失敗與星光火花"
+
+#. clubs.ordinaryMagic.description
+#: src/data/campus.js:113
+msgctxt "text:clubs.ordinaryMagic.description"
+msgid ""
+"Ranks no one by firepower; an experiment succeeds when someone else can "
+"reproduce it from the notes. Borrowed materials must appear in the source "
+"field."
+msgstr "不以火力排序，只看實驗能否被另一個人照著筆記重現。借來的材料必須寫進來源欄。"
+
+#. clubs.ordinaryMagic.meeting
+#: src/data/campus.js:114
+msgctxt "text:clubs.ordinaryMagic.meeting"
+msgid "Mondays · Seven-Day Laboratory annex"
+msgstr "週一・七曜實驗塔側棟"
+
+#. clubs.ordinaryMagic.project
+#: src/data/campus.js:116
+msgctxt "text:clubs.ordinaryMagic.project"
+msgid "One Hundred Ways to Extinguish public show"
+msgstr "一百種熄火方式公開展"

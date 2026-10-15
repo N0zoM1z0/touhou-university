@@ -1,0 +1,428 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. outcomeLabels.0.cleared
+#: src/js/festival-model.js:29
+msgctxt "text:outcomeLabels.0.cleared"
+msgid "Cleared to open"
+msgstr "Cleared to open"
+
+#. outcomeLabels.0.conditional
+#: src/js/festival-model.js:30
+msgctxt "text:outcomeLabels.0.conditional"
+msgid "Conditional permit"
+msgstr "Conditional permit"
+
+#. outcomeLabels.0.contested
+#: src/js/festival-model.js:31
+msgctxt "text:outcomeLabels.0.contested"
+msgid "Contested permit"
+msgstr "Contested permit"
+
+#. outcomeLabels.0.revision
+#: src/js/festival-model.js:32
+msgctxt "text:outcomeLabels.0.revision"
+msgid "Return for replanning"
+msgstr "Return for replanning"
+
+#. outcomeLabels.0.live
+#: src/js/festival-model.js:33
+msgctxt "text:outcomeLabels.0.live"
+msgid "Festival live"
+msgstr "Festival live"
+
+#. outcomeLabels.0.closed
+#: src/js/festival-model.js:34
+msgctxt "text:outcomeLabels.0.closed"
+msgid "Festival closed"
+msgstr "Festival closed"
+
+#. stanceLabels.0.clear
+#: src/js/festival-model.js:38
+msgctxt "text:stanceLabels.0.clear"
+msgid "Clear"
+msgstr "Clear"
+
+#. stanceLabels.0.condition
+#: src/js/festival-model.js:39
+msgctxt "text:stanceLabels.0.condition"
+msgid "Condition"
+msgstr "Condition"
+
+#. stanceLabels.0.contest
+#: src/js/festival-model.js:40
+msgctxt "text:stanceLabels.0.contest"
+msgid "Contest"
+msgstr "Contest"
+
+#. stanceLabels.0.revise
+#: src/js/festival-model.js:41
+msgctxt "text:stanceLabels.0.revise"
+msgid "Revise"
+msgstr "Revise"
+
+#. reimuReview.reimu.2
+#: src/js/festival-model.js:252
+msgctxt "text:reimuReview.reimu.2"
+msgid ""
+"The warning vanishes before the danmaku; by the stop signal, spectators can "
+"only see what already happened."
+msgstr ""
+"The warning vanishes before the danmaku; by the stop signal, spectators can "
+"only see what already happened."
+
+#. reimuReview.reimu.3.0
+#: src/js/festival-model.js:253
+msgctxt "text:reimuReview.reimu.3.0"
+msgid "Extend the cue to at least 1.2 seconds or lower low-altitude density."
+msgstr "Extend the cue to at least 1.2 seconds or lower low-altitude density."
+
+#. reimuReview.reimu.2
+#: src/js/festival-model.js:260
+msgctxt "text:reimuReview.reimu.2.2"
+msgid "Declared attendance exceeds the narrowest of route, stage, or food court."
+msgstr "Declared attendance exceeds the narrowest of route, stage, or food court."
+
+#. reimuReview.reimu.3.0
+#: src/js/festival-model.js:261
+msgctxt "text:reimuReview.reimu.3.0.2"
+msgid "Cap concurrent attendance at {value0}."
+msgstr "Cap concurrent attendance at {value0}."
+
+#. reimuReview.reimu.2
+#: src/js/festival-model.js:268
+msgctxt "text:reimuReview.reimu.2.3"
+msgid "The stopping rule is not yet one sentence the field can follow."
+msgstr "The stopping rule is not yet one sentence the field can follow."
+
+#. reimuReview.reimu.3.0
+#: src/js/festival-model.js:269
+msgctxt "text:reimuReview.reimu.3.0.3"
+msgid "Name the signal, first actor, and first exit to open."
+msgstr "Name the signal, first actor, and first exit to open."
+
+#. reimuReview.reimu.2
+#: src/js/festival-model.js:272
+msgctxt "text:reimuReview.reimu.2.4"
+msgid "Cue, stop, and physical exit fit on one notice."
+msgstr "Cue, stop, and physical exit fit on one notice."
+
+#. nitoriReview.nitori.2
+#: src/js/festival-model.js:280
+msgctxt "text:nitoriReview.nitori.2"
+msgid ""
+"Main and backup combined are insufficient; another layer of kappa tape does "
+"not create capacity."
+msgstr ""
+"Main and backup combined are insufficient; another layer of kappa tape does "
+"not create capacity."
+
+#. nitoriReview.nitori.3.0
+#: src/js/festival-model.js:281
+msgctxt "text:nitoriReview.nitori.3.0"
+msgid "Lower density, attendance, or evening load."
+msgstr "Lower density, attendance, or evening load."
+
+#. nitoriReview.nitori.2
+#: src/js/festival-model.js:288
+msgctxt "text:nitoriReview.nitori.2.2"
+msgid ""
+"Output margin is large, but prototype reactors lack a public load test; "
+"capacity is not reliability."
+msgstr ""
+"Output margin is large, but prototype reactors lack a public load test; "
+"capacity is not reliability."
+
+#. nitoriReview.nitori.3.0
+#: src/js/festival-model.js:289
+msgctxt "text:nitoriReview.nitori.3.0.2"
+msgid "Retain per-reactor isolation and lighting backup of a different type."
+msgstr "Retain per-reactor isolation and lighting backup of a different type."
+
+#. nitoriReview.nitori.2
+#: src/js/festival-model.js:296
+msgctxt "text:nitoriReview.nitori.2.3"
+msgid ""
+"The system can run, but backup or power credit becomes an ownership question "
+"after opening."
+msgstr ""
+"The system can run, but backup or power credit becomes an ownership question "
+"after opening."
+
+#. nitoriReview.nitori.3.0
+#: src/js/festival-model.js:297
+msgctxt "text:nitoriReview.nitori.3.0.3"
+msgid "Jointly record every switchover, not only the festival-day peak."
+msgstr "Jointly record every switchover, not only the festival-day peak."
+
+#. nitoriReview.nitori.2
+#: src/js/festival-model.js:300
+msgctxt "text:nitoriReview.nitori.2.4"
+msgid "Main grid, backup, recovery tools, and duty names share one diagram."
+msgstr "Main grid, backup, recovery tools, and duty names share one diagram."
+
+#. eirinReview.eirin.2
+#: src/js/festival-model.js:308
+msgctxt "text:eirinReview.eirin.2"
+msgid ""
+"Expected presentations exceed medical capacity, or maximum density lacks "
+"sufficient cueing."
+msgstr ""
+"Expected presentations exceed medical capacity, or maximum density lacks "
+"sufficient cueing."
+
+#. eirinReview.eirin.3.0
+#: src/js/festival-model.js:309
+msgctxt "text:eirinReview.eirin.3.0"
+msgid "Add dual stations, reduce density, or cap concurrent entry."
+msgstr "Add dual stations, reduce density, or cap concurrent entry."
+
+#. eirinReview.eirin.2
+#: src/js/festival-model.js:316
+msgctxt "text:eirinReview.eirin.2.2"
+msgid ""
+"A large near-full-moon event with one station makes bamboo transfers and "
+"wavelength reactions share one queue."
+msgstr ""
+"A large near-full-moon event with one station makes bamboo transfers and "
+"wavelength reactions share one queue."
+
+#. eirinReview.eirin.3.0
+#: src/js/festival-model.js:317
+msgctxt "text:eirinReview.eirin.3.0.2"
+msgid "Add gate screening; Reisen must not double as traffic guide."
+msgstr "Add gate screening; Reisen must not double as traffic guide."
+
+#. eirinReview.eirin.2
+#: src/js/festival-model.js:320
+msgctxt "text:eirinReview.eirin.2.3"
+msgid "Medical capacity, lunar load, and nearest stopping staff are counted together."
+msgstr "Medical capacity, lunar load, and nearest stopping staff are counted together."
+
+#. ayaReview.aya.2
+#: src/js/festival-model.js:328
+msgctxt "text:ayaReview.aya.2"
+msgid ""
+"Aya has already typeset “Grand Opening.” She agrees to reserve correction "
+"space, not to leave the front page empty."
+msgstr ""
+"Aya has already typeset “Grand Opening.” She agrees to reserve correction "
+"space, not to leave the front page empty."
+
+#. ayaReview.aya.3.0
+#: src/js/festival-model.js:329
+msgctxt "text:ayaReview.aya.3.0"
+msgid "Every early extra must carry the permit version and a visible correction field."
+msgstr "Every early extra must carry the permit version and a visible correction field."
+
+#. ayaReview.aya.2
+#: src/js/festival-model.js:336
+msgctxt "text:ayaReview.aya.2.2"
+msgid ""
+"There is no early-reporting risk and almost no way for village visitors to "
+"learn reroutes."
+msgstr ""
+"There is no early-reporting risk and almost no way for village visitors to "
+"learn reroutes."
+
+#. ayaReview.aya.3.0
+#: src/js/festival-model.js:337
+msgctxt "text:ayaReview.aya.3.0.2"
+msgid "Assign at least one messenger who will chase a carried-away noticeboard."
+msgstr "Assign at least one messenger who will chase a carried-away noticeboard."
+
+#. ayaReview.aya.2
+#: src/js/festival-model.js:340
+msgctxt "text:ayaReview.aya.2.3"
+msgid "Two headlines check each other; one bell late is still before formal opening."
+msgstr "Two headlines check each other; one bell late is still before formal opening."
+
+#. faithReview.faith.2
+#: src/js/festival-model.js:349
+msgctxt "text:faithReview.faith.2"
+msgid ""
+"{value0} receives the sole gate; the other two parties refuse to treat it as "
+"mere signage."
+msgstr ""
+"{value0} receives the sole gate; the other two parties refuse to treat it as "
+"mere signage."
+
+#. faithReview.faith.3.0
+#: src/js/festival-model.js:350
+msgctxt "text:faithReview.faith.3.0"
+msgid "Separate gate credit, power, donations, and stage time into four papers."
+msgstr "Separate gate credit, power, donations, and stage time into four papers."
+
+#. faithReview.faith.2
+#: src/js/festival-model.js:353
+msgctxt "text:faithReview.faith.2.2"
+msgid ""
+"Rotation lets each party briefly claim uniqueness and actually withdraws it "
+"at the next bell."
+msgstr ""
+"Rotation lets each party briefly claim uniqueness and actually withdraws it "
+"at the next bell."
+
+#. residenceReview.residence.2
+#: src/js/festival-model.js:363
+msgctxt "text:residenceReview.residence.2"
+msgid ""
+"The residence has received a noise complaint without airborne transmission; "
+"“the windows did not shake” is not a stopping rule for shared burden."
+msgstr ""
+"The residence has received a noise complaint without airborne transmission; "
+"“the windows did not shake” is not a stopping rule for shared burden."
+
+#. residenceReview.residence.3.0
+#: src/js/festival-model.js:364
+msgctxt "text:residenceReview.residence.3.0"
+msgid "List separate stopping rights for late music, dream echo, and photographs inside walls."
+msgstr "List separate stopping rights for late music, dream echo, and photographs inside walls."
+
+#. residenceReview.residence.2
+#: src/js/festival-model.js:371
+msgctxt "text:residenceReview.residence.2.2"
+msgid ""
+"The venue or sound may leave its filed location; the night desk requires a "
+"duty person able to follow."
+msgstr ""
+"The venue or sound may leave its filed location; the night desk requires a "
+"duty person able to follow."
+
+#. residenceReview.residence.3.0
+#: src/js/festival-model.js:372
+msgctxt "text:residenceReview.residence.3.0.2"
+msgid "Reconfirm the fairy zone and residence-side soundscape every bell."
+msgstr "Reconfirm the fairy zone and residence-side soundscape every bell."
+
+#. residenceReview.residence.2
+#: src/js/festival-model.js:375
+msgctxt "text:residenceReview.residence.2.3"
+msgid "The programme ends before night duty, and the fairy zone has trackable ground."
+msgstr "The programme ends before night duty, and the fairy zone has trackable ground."
+
+#. headline
+#: src/js/festival-model.js:578
+msgctxt "text:headline"
+msgid "Boundary festival produces three sole main gates; Transit refuses to choose the solest"
+msgstr "Boundary festival produces three sole main gates; Transit refuses to choose the solest"
+
+#. headline
+#: src/js/festival-model.js:580
+msgctxt "text:headline.2"
+msgid "Lantern festival closes; Eientei asks next programme to list the waiting queue"
+msgstr "Lantern festival closes; Eientei asks next programme to list the waiting queue"
+
+#. headline
+#: src/js/festival-model.js:581
+msgctxt "text:headline.3"
+msgid "Lights close by version; unresolved objections and recovered lanterns wait for morning"
+msgstr "Lights close by version; unresolved objections and recovered lanterns wait for morning"
+
+#. festivalRouteOverlay.notices.0
+#: src/js/festival-model.js:657
+msgctxt "text:festivalRouteOverlay.notices.0"
+msgid "Festival procession and stall closures are included in routing."
+msgstr "Festival procession and stall closures are included in routing."
+
+#. festivalRouteOverlay.notices.1
+#: src/js/festival-model.js:658
+msgctxt "text:festivalRouteOverlay.notices.1"
+msgid "{value0} is live."
+msgstr "{value0} is live."
+
+#. base.0.author
+#: src/js/festival-model.js:715
+msgctxt "text:base.0.author"
+msgid "Joint Festival Operations Room"
+msgstr "Joint Festival Operations Room"
+
+#. base.0.body
+#: src/js/festival-model.js:721
+msgctxt "text:base.0.body"
+msgid ""
+"Conditions and objections from six desks remain separate. Gate, power, aid, "
+"and exits were not averaged."
+msgstr ""
+"Conditions and objections from six desks remain separate. Gate, power, aid, "
+"and exits were not averaged."
+
+#. festivalCommunityPosts.0.0.author
+#: src/js/festival-model.js:733
+msgctxt "text:festivalCommunityPosts.0.0.author"
+msgid "Bunbunmaru Closing Extra"
+msgstr "Bunbunmaru Closing Extra"
+
+#. festivalCommunityPosts.0.0.author
+#: src/js/festival-model.js:746
+msgctxt "text:festivalCommunityPosts.0.0.author.2"
+msgid "Festival Field Wire"
+msgstr "Festival Field Wire"
+
+#. buildFestivalProgramme.0.1
+#: src/js/festival-model.js:691
+msgctxt "text:buildFestivalProgramme.0.1"
+msgid "Volunteer roll, exit walk, and fourth-lantern renumbering"
+msgstr "Volunteer roll, exit walk, and fourth-lantern renumbering"
+
+#. buildFestivalProgramme.2.1
+#: src/js/festival-model.js:693
+msgctxt "text:buildFestivalProgramme.2.1"
+msgid "Fairy low-altitude rehearsal and audience cue practice"
+msgstr "Fairy low-altitude rehearsal and audience cue practice"
+
+#. buildFestivalProgramme.3.1
+#: src/js/festival-model.js:694
+msgctxt "text:buildFestivalProgramme.3.1"
+msgid "Night Sparrow kitchen, kappa prototypes, and village tables"
+msgstr "Night Sparrow kitchen, kappa prototypes, and village tables"
+
+#. buildFestivalProgramme.4.1
+#: src/js/festival-model.js:695
+msgctxt "text:buildFestivalProgramme.4.1"
+msgid "Twilight spell-card exhibition: every rule has a visible exit"
+msgstr "Twilight spell-card exhibition: every rule has a visible exit"
+
+#. buildFestivalProgramme.5.1
+#: src/js/festival-model.js:696
+msgctxt "text:buildFestivalProgramme.5.1"
+msgid "Lantern recovery, correction extra, and first residence quiet watch"
+msgstr "Lantern recovery, correction extra, and first residence quiet watch"
+
+#. buildFestivalProgramme.1.1
+#: src/js/festival-model.js:692
+msgctxt "text:buildFestivalProgramme.1.1"
+msgid "{value0} opening bell"
+msgstr "{value0} opening bell"
+
+#. festivalCommunityPosts.0.0.body
+#: src/js/festival-model.js:735
+msgctxt "text:festivalCommunityPosts.0.0.body"
+msgid ""
+"{value0} attended; {value1} medical presentations; {value2} minutes delay. "
+"Objections carry into morning."
+msgstr ""
+"{value0} attended; {value1} medical presentations; {value2} minutes delay. "
+"Objections carry into morning."
+
+#. festivalCommunityPosts.0.0.title
+#: src/js/festival-model.js:747
+msgctxt "text:festivalCommunityPosts.0.0.title"
+msgid "{value0} is live"
+msgstr "{value0} is live"
+
+#. festivalCommunityPosts.0.0.body
+#: src/js/festival-model.js:748
+msgctxt "text:festivalCommunityPosts.0.0.body.2"
+msgid ""
+"Field cases {value0}/{value1}. Map detours and Eientei load now read this "
+"operations slip."
+msgstr ""
+"Field cases {value0}/{value1}. Map detours and Eientei load now read this "
+"operations slip."

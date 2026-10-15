@@ -1,0 +1,740 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. academicAssignments.his-yesterday-editions.title
+#: src/data/academic-work.js:20
+msgctxt "text:academicAssignments.his-yesterday-editions.title"
+msgid "Collation slip for two editions of Yesterday"
+msgstr "Collation slip for two editions of Yesterday"
+
+#. academicAssignments.his-yesterday-editions.brief
+#: src/data/academic-work.js:21
+msgctxt "text:academicAssignments.his-yesterday-editions.brief"
+msgid ""
+"Do not choose the more emotionally convincing yesterday. Use versions, time, "
+"and traceable sources to state what can be supported."
+msgstr ""
+"Do not choose the more emotionally convincing yesterday. Use versions, time, "
+"and traceable sources to state what can be supported."
+
+#. academicAssignments.his-yesterday-editions.teacher
+#: src/data/academic-work.js:22
+msgctxt "text:academicAssignments.his-yesterday-editions.teacher"
+msgid "Keine Kamishirasawa"
+msgstr "Keine Kamishirasawa"
+
+#. academicAssignments.his-yesterday-editions.questions.0.sequence.2
+#: src/data/academic-work.js:27
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.0.sequence.2"
+msgid ""
+"A layout cache predates the accident, while its approval stamp follows it. "
+"Which statement is most rigorous?"
+msgstr ""
+"A layout cache predates the accident, while its approval stamp follows it. "
+"Which statement is most rigorous?"
+
+#. academicAssignments.his-yesterday-editions.questions.0.sequence.3.0.caused.1
+#: src/data/academic-work.js:29
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.0.sequence.3.0.caused.1"
+msgid "The cache necessarily caused the accident"
+msgstr "The cache necessarily caused the accident"
+
+#. academicAssignments.his-yesterday-editions.questions.0.sequence.3.1.sequence.1
+#: src/data/academic-work.js:30
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.0.sequence.3.1.sequence.1"
+msgid "The cache existed first; causality among approval and accident remains unidentified"
+msgstr "The cache existed first; causality among approval and accident remains unidentified"
+
+#. academicAssignments.his-yesterday-editions.questions.0.sequence.3.2.stamp.1
+#: src/data/academic-work.js:31
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.0.sequence.3.2.stamp.1"
+msgid "The stamp makes the cache postdate the accident"
+msgstr "The stamp makes the cache postdate the accident"
+
+#. academicAssignments.his-yesterday-editions.questions.0.sequence.6
+#: src/data/academic-work.js:35
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.0.sequence.6"
+msgid "Temporal order excludes some causal directions; it does not confirm the remainder."
+msgstr "Temporal order excludes some causal directions; it does not confirm the remainder."
+
+#. academicAssignments.his-yesterday-editions.questions.1.citation.2
+#: src/data/academic-work.js:40
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.1.citation.2"
+msgid ""
+"Two corrections cite each other and both claim to be first. What should be "
+"checked first?"
+msgstr ""
+"Two corrections cite each other and both claim to be first. What should be "
+"checked first?"
+
+#. academicAssignments.his-yesterday-editions.questions.1.citation.3.0.font.1
+#: src/data/academic-work.js:42
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.1.citation.3.0.font.1"
+msgid "Font size"
+msgstr "Font size"
+
+#. academicAssignments.his-yesterday-editions.questions.1.citation.3.1.provenance.1
+#: src/data/academic-work.js:43
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.1.citation.3.1.provenance.1"
+msgid "Immutable timestamps, layout versions, and publication media"
+msgstr "Immutable timestamps, layout versions, and publication media"
+
+#. academicAssignments.his-yesterday-editions.questions.1.citation.3.2.aya.1
+#: src/data/academic-work.js:44
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.1.citation.3.2.aya.1"
+msgid "Ask Aya which headline is better"
+msgstr "Ask Aya which headline is better"
+
+#. academicAssignments.his-yesterday-editions.questions.1.citation.6
+#: src/data/academic-work.js:48
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.1.citation.6"
+msgid ""
+"Mutual citations cannot independently establish order; version evidence "
+"outside the chain is needed."
+msgstr ""
+"Mutual citations cannot independently establish order; version evidence "
+"outside the chain is needed."
+
+#. academicAssignments.his-yesterday-editions.questions.2.memo.2
+#: src/data/academic-work.js:53
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.2.memo.2"
+msgid ""
+"Write one chronicle sentence containing both “version” and “time”, without "
+"turning inference into confirmation."
+msgstr ""
+"Write one chronicle sentence containing both “version” and “time”, without "
+"turning inference into confirmation."
+
+#. academicAssignments.his-yesterday-editions.questions.2.memo.6
+#: src/data/academic-work.js:57
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.2.memo.6"
+msgid "A passing sentence preserves both version and time; word count is not evidence count."
+msgstr "A passing sentence preserves both version and time; word count is not evidence count."
+
+#. academicAssignments.mag-material-provenance.title
+#: src/data/academic-work.js:66
+msgctxt "text:academicAssignments.mag-material-provenance.title"
+msgid "Reproducible magic with mushrooms of unclear provenance"
+msgstr "Reproducible magic with mushrooms of unclear provenance"
+
+#. academicAssignments.mag-material-provenance.brief
+#: src/data/academic-work.js:67
+msgctxt "text:academicAssignments.mag-material-provenance.brief"
+msgid ""
+"Marisa’s material worked three times, but its source says “that bit of "
+"forest.” Make a record in which a fourth person can fail meaningfully."
+msgstr ""
+"Marisa’s material worked three times, but its source says “that bit of "
+"forest.” Make a record in which a fourth person can fail meaningfully."
+
+#. academicAssignments.mag-material-provenance.teacher
+#: src/data/academic-work.js:68
+msgctxt "text:academicAssignments.mag-material-provenance.teacher"
+msgid "Marisa Kirisame"
+msgstr "Marisa Kirisame"
+
+#. academicAssignments.mag-material-provenance.questions.0.minimum.2
+#: src/data/academic-work.js:73
+msgctxt "text:academicAssignments.mag-material-provenance.questions.0.minimum.2"
+msgid "What is the minimum additional information?"
+msgstr "What is the minimum additional information?"
+
+#. academicAssignments.mag-material-provenance.questions.0.minimum.3.0.colour.1
+#: src/data/academic-work.js:75
+msgctxt "text:academicAssignments.mag-material-provenance.questions.0.minimum.3.0.colour.1"
+msgid "How pretty the mushroom looked"
+msgstr "How pretty the mushroom looked"
+
+#. academicAssignments.mag-material-provenance.questions.0.minimum.3.1.batch.1
+#: src/data/academic-work.js:76
+msgctxt "text:academicAssignments.mag-material-provenance.questions.0.minimum.3.1.batch.1"
+msgid "Collection location, time, batch, and storage conditions"
+msgstr "Collection location, time, batch, and storage conditions"
+
+#. academicAssignments.mag-material-provenance.questions.0.minimum.3.2.owner.1
+#: src/data/academic-work.js:77
+msgctxt "text:academicAssignments.mag-material-provenance.questions.0.minimum.3.2.owner.1"
+msgid "Who first claimed ownership"
+msgstr "Who first claimed ownership"
+
+#. academicAssignments.mag-material-provenance.questions.0.minimum.6
+#: src/data/academic-work.js:81
+msgctxt "text:academicAssignments.mag-material-provenance.questions.0.minimum.6"
+msgid ""
+"Reproduction needs identifiable material batches and handling differences, "
+"not only a success story."
+msgstr ""
+"Reproduction needs identifiable material batches and handling differences, "
+"not only a success story."
+
+#. academicAssignments.mag-material-provenance.questions.1.replicates.2
+#: src/data/academic-work.js:86
+msgctxt "text:academicAssignments.mag-material-provenance.questions.1.replicates.2"
+msgid "Three batches receive 4 trials each, plus 4 blank controls. How many experimental units?"
+msgstr "Three batches receive 4 trials each, plus 4 blank controls. How many experimental units?"
+
+#. academicAssignments.mag-material-provenance.questions.1.replicates.6
+#: src/data/academic-work.js:90
+msgctxt "text:academicAssignments.mag-material-provenance.questions.1.replicates.6"
+msgid "3×4+4=16; omitting controls removes the reference for the attractive success rate."
+msgstr "3×4+4=16; omitting controls removes the reference for the attractive success rate."
+
+#. academicAssignments.mag-material-provenance.questions.2.stop.2
+#: src/data/academic-work.js:95
+msgctxt "text:academicAssignments.mag-material-provenance.questions.2.stop.2"
+msgid "An undocumented violet smoke appears in round four. Best response?"
+msgstr "An undocumented violet smoke appears in round four. Best response?"
+
+#. academicAssignments.mag-material-provenance.questions.2.stop.3.0.continue.1
+#: src/data/academic-work.js:97
+msgctxt "text:academicAssignments.mag-material-provenance.questions.2.stop.3.0.continue.1"
+msgid "Continue for sample size"
+msgstr "Continue for sample size"
+
+#. academicAssignments.mag-material-provenance.questions.2.stop.3.1.stop.1
+#: src/data/academic-work.js:98
+msgctxt "text:academicAssignments.mag-material-provenance.questions.2.stop.3.1.stop.1"
+msgid "Stop, preserve batch and environment records, then decide whether to restart"
+msgstr "Stop, preserve batch and environment records, then decide whether to restart"
+
+#. academicAssignments.mag-material-provenance.questions.2.stop.3.2.rename.1
+#: src/data/academic-work.js:99
+msgctxt "text:academicAssignments.mag-material-provenance.questions.2.stop.3.2.rename.1"
+msgid "Rename it expected smoke"
+msgstr "Rename it expected smoke"
+
+#. academicAssignments.mag-material-provenance.questions.2.stop.6
+#: src/data/academic-work.js:103
+msgctxt "text:academicAssignments.mag-material-provenance.questions.2.stop.6"
+msgid "A stop condition must still operate when the result is inconvenient."
+msgstr "A stop condition must still operate when the result is inconvenient."
+
+#. academicAssignments.eng-waterwheel-power.title
+#: src/data/academic-work.js:112
+msgctxt "text:academicAssignments.eng-waterwheel-power.title"
+msgid "Low-head turbine: do not count tape as efficiency"
+msgstr "Low-head turbine: do not count tape as efficiency"
+
+#. academicAssignments.eng-waterwheel-power.brief
+#: src/data/academic-work.js:113
+msgctxt "text:academicAssignments.eng-waterwheel-power.brief"
+msgid ""
+"The kappa workshop requires calculation, units, and a stop condition. "
+"final-final is not version control."
+msgstr ""
+"The kappa workshop requires calculation, units, and a stop condition. "
+"final-final is not version control."
+
+#. academicAssignments.eng-waterwheel-power.teacher
+#: src/data/academic-work.js:114
+msgctxt "text:academicAssignments.eng-waterwheel-power.teacher"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. academicAssignments.eng-waterwheel-power.questions.0.power.2
+#: src/data/academic-work.js:119
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.0.power.2"
+msgid "ρ=1000 kg/m³, g=9.8 m/s², flow=0.5 m³/s, head=2 m, efficiency=.60. Output power in W?"
+msgstr "ρ=1000 kg/m³, g=9.8 m/s², flow=0.5 m³/s, head=2 m, efficiency=.60. Output power in W?"
+
+#. academicAssignments.eng-waterwheel-power.questions.0.power.6
+#: src/data/academic-work.js:123
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.0.power.6"
+msgid "P=ρgQHη=5880 W. Measurement rounding is accepted; tape adhesion is not η."
+msgstr "P=ρgQHη=5880 W. Measurement rounding is accepted; tape adhesion is not η."
+
+#. academicAssignments.eng-waterwheel-power.questions.1.comparison.2
+#: src/data/academic-work.js:128
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.1.comparison.2"
+msgid "Will more flow readings automatically repair an uncalibrated gauge?"
+msgstr "Will more flow readings automatically repair an uncalibrated gauge?"
+
+#. academicAssignments.eng-waterwheel-power.questions.1.comparison.3.0.yes.1
+#: src/data/academic-work.js:130
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.1.comparison.3.0.yes.1"
+msgid "Yes; more data is truth"
+msgstr "Yes; more data is truth"
+
+#. academicAssignments.eng-waterwheel-power.questions.1.comparison.3.1.no.1
+#: src/data/academic-work.js:131
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.1.comparison.3.1.no.1"
+msgid "No; random error shrinks while systematic bias remains"
+msgstr "No; random error shrinks while systematic bias remains"
+
+#. academicAssignments.eng-waterwheel-power.questions.1.comparison.3.2.tape.1
+#: src/data/academic-work.js:132
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.1.comparison.3.2.tape.1"
+msgid "Only with fresh tape"
+msgstr "Only with fresh tape"
+
+#. academicAssignments.eng-waterwheel-power.questions.1.comparison.6
+#: src/data/academic-work.js:136
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.1.comparison.6"
+msgid "Sample size cannot wash away calibration failure."
+msgstr "Sample size cannot wash away calibration failure."
+
+#. academicAssignments.eng-waterwheel-power.questions.2.shutdown.2
+#: src/data/academic-work.js:141
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.2.shutdown.2"
+msgid "Which stop condition can be decided before testing?"
+msgstr "Which stop condition can be decided before testing?"
+
+#. academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.0.bad.1
+#: src/data/academic-work.js:143
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.0.bad.1"
+msgid "When results look bad"
+msgstr "When results look bad"
+
+#. academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.1.threshold.1
+#: src/data/academic-work.js:144
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.1.threshold.1"
+msgid "Bearing temperature above 82°C or vibration over limit three times"
+msgstr "Bearing temperature above 82°C or vibration over limit three times"
+
+#. academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.2.nitori.1
+#: src/data/academic-work.js:145
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.2.shutdown.3.2.nitori.1"
+msgid "When Nitori says it is really fine"
+msgstr "When Nitori says it is really fine"
+
+#. academicAssignments.eng-waterwheel-power.questions.2.shutdown.6
+#: src/data/academic-work.js:149
+msgctxt "text:academicAssignments.eng-waterwheel-power.questions.2.shutdown.6"
+msgid "Operational thresholds beat hindsight and help the equipment survive until next class."
+msgstr "Operational thresholds beat hindsight and help the equipment survive until next class."
+
+#. academicAssignments.jrn-correction-chain.title
+#: src/data/academic-work.js:158
+msgctxt "text:academicAssignments.jrn-correction-chain.title"
+msgid "Correction chain for news that has not happened"
+msgstr "Correction chain for news that has not happened"
+
+#. academicAssignments.jrn-correction-chain.brief
+#: src/data/academic-work.js:159
+msgctxt "text:academicAssignments.jrn-correction-chain.brief"
+msgid ""
+"Aya filed the headline first. Preserve some speed while telling readers what "
+"remains unknown."
+msgstr ""
+"Aya filed the headline first. Preserve some speed while telling readers what "
+"remains unknown."
+
+#. academicAssignments.jrn-correction-chain.teacher
+#: src/data/academic-work.js:160
+msgctxt "text:academicAssignments.jrn-correction-chain.teacher"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. academicAssignments.jrn-correction-chain.questions.0.headline.2
+#: src/data/academic-work.js:165
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.0.headline.2"
+msgid "One source says an explosion is possible. Best headline?"
+msgstr "One source says an explosion is possible. Best headline?"
+
+#. academicAssignments.jrn-correction-chain.questions.0.headline.3.0.certain.1
+#: src/data/academic-work.js:167
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.0.headline.3.0.certain.1"
+msgid "Workshop explodes; university silent"
+msgstr "Workshop explodes; university silent"
+
+#. academicAssignments.jrn-correction-chain.questions.0.headline.3.1.qualified.1
+#: src/data/academic-work.js:168
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.0.headline.3.1.qualified.1"
+msgid "Unusual workshop noise; explosive cause unconfirmed"
+msgstr "Unusual workshop noise; explosive cause unconfirmed"
+
+#. academicAssignments.jrn-correction-chain.questions.0.headline.3.2.future.1
+#: src/data/academic-work.js:169
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.0.headline.3.2.future.1"
+msgid "Tomorrow’s accident confirmed today"
+msgstr "Tomorrow’s accident confirmed today"
+
+#. academicAssignments.jrn-correction-chain.questions.0.headline.6
+#: src/data/academic-work.js:173
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.0.headline.6"
+msgid "A fast headline can still make uncertainty and known facts visible together."
+msgstr "A fast headline can still make uncertainty and known facts visible together."
+
+#. academicAssignments.jrn-correction-chain.questions.1.conflict.2
+#: src/data/academic-work.js:178
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.1.conflict.2"
+msgid "The reporter’s own extra edition helped trigger the event. What must the report add?"
+msgstr "The reporter’s own extra edition helped trigger the event. What must the report add?"
+
+#. academicAssignments.jrn-correction-chain.questions.1.conflict.3.0.disclose.1
+#: src/data/academic-work.js:180
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.1.conflict.3.0.disclose.1"
+msgid "Disclose the reporter’s role and provide an independent timeline"
+msgstr "Disclose the reporter’s role and provide an independent timeline"
+
+#. academicAssignments.jrn-correction-chain.questions.1.conflict.3.1.hide.1
+#: src/data/academic-work.js:181
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.1.conflict.3.1.hide.1"
+msgid "Delete the extra and pretend it did not happen"
+msgstr "Delete the extra and pretend it did not happen"
+
+#. academicAssignments.jrn-correction-chain.questions.1.conflict.3.2.award.1
+#: src/data/academic-work.js:182
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.1.conflict.3.2.award.1"
+msgid "Add an exclusive badge"
+msgstr "Add an exclusive badge"
+
+#. academicAssignments.jrn-correction-chain.questions.1.conflict.6
+#: src/data/academic-work.js:186
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.1.conflict.6"
+msgid ""
+"A conflict need not cancel reporting, but it must be visible and "
+"independently checkable."
+msgstr ""
+"A conflict need not cancel reporting, but it must be visible and "
+"independently checkable."
+
+#. academicAssignments.jrn-correction-chain.questions.2.correction.2
+#: src/data/academic-work.js:191
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.2.correction.2"
+msgid "Write a correction of at least 16 characters containing 未確認 or “unconfirmed”."
+msgstr "Write a correction of at least 16 characters containing 未確認 or “unconfirmed”."
+
+#. academicAssignments.jrn-correction-chain.questions.2.correction.6
+#: src/data/academic-work.js:195
+msgctxt "text:academicAssignments.jrn-correction-chain.questions.2.correction.6"
+msgid ""
+"A correction identifies where the original exceeded evidence, rather than "
+"merely regretting confusion."
+msgstr ""
+"A correction identifies where the original exceeded evidence, rather than "
+"merely regretting confusion."
+
+#. academicExams.methods-midterm.title
+#: src/data/academic-work.js:205
+msgctxt "text:academicExams.methods-midterm.title"
+msgid "Cross-School Methods Midterm"
+msgstr "Cross-School Methods Midterm"
+
+#. academicExams.methods-midterm.lead
+#: src/data/academic-work.js:206
+msgctxt "text:academicExams.methods-midterm.lead"
+msgid ""
+"Open book. If the book leaves, the timer continues. Answers and explanations "
+"remain after grading."
+msgstr ""
+"Open book. If the book leaves, the timer continues. Answers and explanations "
+"remain after grading."
+
+#. academicExams.methods-midterm.questions.0.m1.2
+#: src/data/academic-work.js:208
+msgctxt "text:academicExams.methods-midterm.questions.0.m1.2"
+msgid "What does a larger sample most directly improve?"
+msgstr "What does a larger sample most directly improve?"
+
+#. academicExams.methods-midterm.questions.0.m1.3.0.chance.1
+#: src/data/academic-work.js:209
+msgctxt "text:academicExams.methods-midterm.questions.0.m1.3.0.chance.1"
+msgid "Precision against random error"
+msgstr "Precision against random error"
+
+#. academicExams.methods-midterm.questions.0.m1.3.1.bias.1
+#: src/data/academic-work.js:210
+msgctxt "text:academicExams.methods-midterm.questions.0.m1.3.1.bias.1"
+msgid "Every systematic bias"
+msgstr "Every systematic bias"
+
+#. academicExams.methods-midterm.questions.0.m1.3.2.ethics.1
+#: src/data/academic-work.js:211
+msgctxt "text:academicExams.methods-midterm.questions.0.m1.3.2.ethics.1"
+msgid "Research ethics"
+msgstr "Research ethics"
+
+#. academicExams.methods-midterm.questions.0.m1.6
+#: src/data/academic-work.js:212
+msgctxt "text:academicExams.methods-midterm.questions.0.m1.6"
+msgid "Larger samples narrow random uncertainty; design errors remain."
+msgstr "Larger samples narrow random uncertainty; design errors remain."
+
+#. academicExams.methods-midterm.questions.1.m2.2
+#: src/data/academic-work.js:213
+msgctxt "text:academicExams.methods-midterm.questions.1.m2.2"
+msgid "A route algorithm halves walking time but has no broom berths. Main problem?"
+msgstr "A route algorithm halves walking time but has no broom berths. Main problem?"
+
+#. academicExams.methods-midterm.questions.1.m2.3.0.network.1
+#: src/data/academic-work.js:214
+msgctxt "text:academicExams.methods-midterm.questions.1.m2.3.0.network.1"
+msgid "It does not model the usable transport network"
+msgstr "It does not model the usable transport network"
+
+#. academicExams.methods-midterm.questions.1.m2.3.1.fast.1
+#: src/data/academic-work.js:215
+msgctxt "text:academicExams.methods-midterm.questions.1.m2.3.1.fast.1"
+msgid "The broom is not fast enough"
+msgstr "The broom is not fast enough"
+
+#. academicExams.methods-midterm.questions.1.m2.3.2.colour.1
+#: src/data/academic-work.js:216
+msgctxt "text:academicExams.methods-midterm.questions.1.m2.3.2.colour.1"
+msgid "The map colour is wrong"
+msgstr "The map colour is wrong"
+
+#. academicExams.methods-midterm.questions.1.m2.6
+#: src/data/academic-work.js:217
+msgctxt "text:academicExams.methods-midterm.questions.1.m2.6"
+msgid "A transport mode changes available edges and transfers, not only a multiplier."
+msgstr "A transport mode changes available edges and transfers, not only a multiplier."
+
+#. academicExams.methods-midterm.questions.2.m3.2
+#: src/data/academic-work.js:218
+msgctxt "text:academicExams.methods-midterm.questions.2.m3.2"
+msgid "24 observations across 3 replicate rounds: how many planned observations?"
+msgstr "24 observations across 3 replicate rounds: how many planned observations?"
+
+#. academicExams.methods-midterm.questions.2.m3.6
+#: src/data/academic-work.js:218
+msgctxt "text:academicExams.methods-midterm.questions.2.m3.6"
+msgid "24×3=72. A separate control must be counted separately."
+msgstr "24×3=72. A separate control must be counted separately."
+
+#. academicExams.methods-midterm.questions.3.m4.2
+#: src/data/academic-work.js:219
+msgctxt "text:academicExams.methods-midterm.questions.3.m4.2"
+msgid "A wrong hypothesis is interesting. Most honest way to preserve it?"
+msgstr "A wrong hypothesis is interesting. Most honest way to preserve it?"
+
+#. academicExams.methods-midterm.questions.3.m4.3.0.confirm.1
+#: src/data/academic-work.js:220
+msgctxt "text:academicExams.methods-midterm.questions.3.m4.3.0.confirm.1"
+msgid "Rewrite it as confirmed"
+msgstr "Rewrite it as confirmed"
+
+#. academicExams.methods-midterm.questions.3.m4.3.1.contested.1
+#: src/data/academic-work.js:221
+msgctxt "text:academicExams.methods-midterm.questions.3.m4.3.1.contested.1"
+msgid "Keep original verdict, reviewer, reason, and unsupported warning"
+msgstr "Keep original verdict, reviewer, reason, and unsupported warning"
+
+#. academicExams.methods-midterm.questions.3.m4.3.2.delete.1
+#: src/data/academic-work.js:222
+msgctxt "text:academicExams.methods-midterm.questions.3.m4.3.2.delete.1"
+msgid "Delete every failure"
+msgstr "Delete every failure"
+
+#. academicExams.methods-midterm.questions.3.m4.6
+#: src/data/academic-work.js:223
+msgctxt "text:academicExams.methods-midterm.questions.3.m4.6"
+msgid "Preserving dissent must not erase rejection or insufficient evidence."
+msgstr "Preserving dissent must not erase rejection or insufficient evidence."
+
+#. academicExams.methods-midterm.questions.4.m5.2
+#: src/data/academic-work.js:224
+msgctxt "text:academicExams.methods-midterm.questions.4.m5.2"
+msgid "Two character testimonies conflict. First step?"
+msgstr "Two character testimonies conflict. First step?"
+
+#. academicExams.methods-midterm.questions.4.m5.3.0.popular.1
+#: src/data/academic-work.js:225
+msgctxt "text:academicExams.methods-midterm.questions.4.m5.3.0.popular.1"
+msgid "Choose the more popular"
+msgstr "Choose the more popular"
+
+#. academicExams.methods-midterm.questions.4.m5.3.1.positions.1
+#: src/data/academic-work.js:226
+msgctxt "text:academicExams.methods-midterm.questions.4.m5.3.1.positions.1"
+msgid "Retain each role, exposure, interest, and checkable component"
+msgstr "Retain each role, exposure, interest, and checkable component"
+
+#. academicExams.methods-midterm.questions.4.m5.3.2.average.1
+#: src/data/academic-work.js:227
+msgctxt "text:academicExams.methods-midterm.questions.4.m5.3.2.average.1"
+msgid "Average the sentences"
+msgstr "Average the sentences"
+
+#. academicExams.methods-midterm.questions.4.m5.6
+#: src/data/academic-work.js:228
+msgctxt "text:academicExams.methods-midterm.questions.4.m5.6"
+msgid "Conflict is data. Locate the sources before deciding what claim is identifiable."
+msgstr "Conflict is data. Locate the sources before deciding what claim is identifiable."
+
+#. academicExams.methods-midterm.questions.5.m6.2
+#: src/data/academic-work.js:229
+msgctxt "text:academicExams.methods-midterm.questions.5.m6.2"
+msgid "Which stop rule is worst?"
+msgstr "Which stop rule is worst?"
+
+#. academicExams.methods-midterm.questions.5.m6.3.0.threshold.1
+#: src/data/academic-work.js:230
+msgctxt "text:academicExams.methods-midterm.questions.5.m6.3.0.threshold.1"
+msgid "Instrument crosses a pre-set threshold"
+msgstr "Instrument crosses a pre-set threshold"
+
+#. academicExams.methods-midterm.questions.5.m6.3.1.harm.1
+#: src/data/academic-work.js:231
+msgctxt "text:academicExams.methods-midterm.questions.5.m6.3.1.harm.1"
+msgid "A predefined harm signal appears"
+msgstr "A predefined harm signal appears"
+
+#. academicExams.methods-midterm.questions.5.m6.3.2.nice.1
+#: src/data/academic-work.js:232
+msgctxt "text:academicExams.methods-midterm.questions.5.m6.3.2.nice.1"
+msgid "The result finally looks attractive"
+msgstr "The result finally looks attractive"
+
+#. academicExams.methods-midterm.questions.5.m6.6
+#: src/data/academic-work.js:233
+msgctxt "text:academicExams.methods-midterm.questions.5.m6.6"
+msgid "Stopping when results look attractive manufactures a selected conclusion."
+msgstr "Stopping when results look attractive manufactures a selected conclusion."
+
+#. defenceRounds.claim.examiner
+#: src/data/academic-work.js:241
+msgctxt "text:defenceRounds.claim.examiner"
+msgid "Yukari Yakumo"
+msgstr "Yukari Yakumo"
+
+#. defenceRounds.claim.role
+#: src/data/academic-work.js:242
+msgctxt "text:defenceRounds.claim.role"
+msgid "Boundary of claim"
+msgstr "Boundary of claim"
+
+#. defenceRounds.claim.prompt
+#: src/data/academic-work.js:243
+msgctxt "text:defenceRounds.claim.prompt"
+msgid "Beyond which boundary does your result stop holding?"
+msgstr "Beyond which boundary does your result stop holding?"
+
+#. defenceRounds.claim.choices.0.universal.1
+#: src/data/academic-work.js:245
+msgctxt "text:defenceRounds.claim.choices.0.universal.1"
+msgid "It holds in every world, moon phase, and version"
+msgstr "It holds in every world, moon phase, and version"
+
+#. defenceRounds.claim.choices.1.scope.1
+#: src/data/academic-work.js:246
+msgctxt "text:defenceRounds.claim.choices.1.scope.1"
+msgid "State population, place, moon phase, and version scope"
+msgstr "State population, place, moon phase, and version scope"
+
+#. defenceRounds.claim.choices.2.gap.1
+#: src/data/academic-work.js:247
+msgctxt "text:defenceRounds.claim.choices.2.gap.1"
+msgid "Leave through the gap between question and answer"
+msgstr "Leave through the gap between question and answer"
+
+#. defenceRounds.method.examiner
+#: src/data/academic-work.js:253
+msgctxt "text:defenceRounds.method.examiner"
+msgid "Marisa Kirisame"
+msgstr "Marisa Kirisame"
+
+#. defenceRounds.method.role
+#: src/data/academic-work.js:254
+msgctxt "text:defenceRounds.method.role"
+msgid "Materials & reproduction"
+msgstr "Materials & reproduction"
+
+#. defenceRounds.method.prompt
+#: src/data/academic-work.js:255
+msgctxt "text:defenceRounds.method.prompt"
+msgid "How can the next person reproduce your success—or at least your failure?"
+msgstr "How can the next person reproduce your success—or at least your failure?"
+
+#. defenceRounds.method.choices.0.secret.1
+#: src/data/academic-work.js:257
+msgctxt "text:defenceRounds.method.choices.0.secret.1"
+msgid "Write “as above” for materials and lock the drawer"
+msgstr "Write “as above” for materials and lock the drawer"
+
+#. defenceRounds.method.choices.1.record.1
+#: src/data/academic-work.js:258
+msgctxt "text:defenceRounds.method.choices.1.record.1"
+msgid "Preserve material batch, procedure version, environment, and stop rules"
+msgstr "Preserve material batch, procedure version, environment, and stop rules"
+
+#. defenceRounds.method.choices.2.borrow.1
+#: src/data/academic-work.js:259
+msgctxt "text:defenceRounds.method.choices.2.borrow.1"
+msgid "Let everyone borrow mine; provenance can wait"
+msgstr "Let everyone borrow mine; provenance can wait"
+
+#. defenceRounds.stop.examiner
+#: src/data/academic-work.js:265
+msgctxt "text:defenceRounds.stop.examiner"
+msgid "Reimu Hakurei"
+msgstr "Reimu Hakurei"
+
+#. defenceRounds.stop.role
+#: src/data/academic-work.js:266
+msgctxt "text:defenceRounds.stop.role"
+msgid "Stop rule / spell-card ruling"
+msgstr "Stop rule / spell-card ruling"
+
+#. defenceRounds.stop.prompt
+#: src/data/academic-work.js:267
+msgctxt "text:defenceRounds.stop.prompt"
+msgid "If the defence itself becomes an incident, when do you stop?"
+msgstr "If the defence itself becomes an incident, when do you stop?"
+
+#. defenceRounds.stop.choices.0.bored.1
+#: src/data/academic-work.js:269
+msgctxt "text:defenceRounds.stop.choices.0.bored.1"
+msgid "When Reimu finds it troublesome"
+msgstr "When Reimu finds it troublesome"
+
+#. defenceRounds.stop.choices.1.precommit.1
+#: src/data/academic-work.js:270
+msgctxt "text:defenceRounds.stop.choices.1.precommit.1"
+msgid "When a precommitted harm, loss-of-control, or irreversible threshold triggers"
+msgstr "When a precommitted harm, loss-of-control, or irreversible threshold triggers"
+
+#. defenceRounds.stop.choices.2.audience.1
+#: src/data/academic-work.js:271
+msgctxt "text:defenceRounds.stop.choices.2.audience.1"
+msgid "When the audience starts applauding"
+msgstr "When the audience starts applauding"
+
+#. academicGradeBands.A.label
+#: src/data/academic-work.js:278
+msgctxt "text:academicGradeBands.A.label"
+msgid "Excellent / public demonstration"
+msgstr "Excellent / public demonstration"
+
+#. academicGradeBands.B.label
+#: src/data/academic-work.js:279
+msgctxt "text:academicGradeBands.B.label"
+msgid "Good / may progress"
+msgstr "Good / may progress"
+
+#. academicGradeBands.C.label
+#: src/data/academic-work.js:280
+msgctxt "text:academicGradeBands.C.label"
+msgid "Pass / one method correction"
+msgstr "Pass / one method correction"
+
+#. academicGradeBands.D.label
+#: src/data/academic-work.js:281
+msgctxt "text:academicGradeBands.D.label"
+msgid "Conditional pass"
+msgstr "Conditional pass"
+
+#. academicGradeBands.F.label
+#: src/data/academic-work.js:282
+msgctxt "text:academicGradeBands.F.label"
+msgid "Revise and resubmit; failure slip retained"
+msgstr "Revise and resubmit; failure slip retained"
+
+#. academicAssignments.his-yesterday-editions.questions.2.memo.4.keywordGroups.-
+#: src/data/academic-work.js:55
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.2.memo.4.keywordGroups.-"
+msgid "version"
+msgstr "version"
+
+#. academicAssignments.his-yesterday-editions.questions.2.memo.4.keywordGroups.-
+#: src/data/academic-work.js:55
+msgctxt "text:academicAssignments.his-yesterday-editions.questions.2.memo.4.keywordGroups.-.2"
+msgid "time"
+msgstr "time"

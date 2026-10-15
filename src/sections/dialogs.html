@@ -1,52 +1,52 @@
 <dialog class="faculty-dialog" data-faculty-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉簡介" data-dialog-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉簡介" data-i18n-aria-label="attribute.closeProfile" data-dialog-close>×</button>
   <p data-dialog-field>FACULTY PROFILE</p>
-  <h2 data-dialog-name>師資簡介</h2>
-  <h3 data-dialog-role>教師職務與研究領域</h3>
+  <h2 data-dialog-name data-i18n="facultyProfile">師資簡介</h2>
+  <h3 data-dialog-role data-i18n="facultyRole">教師職務與研究領域</h3>
   <div class="dialog-columns">
     <div>
-      <span>教學專長</span>
+      <span data-i18n="teachingExpertise">教學專長</span>
       <p data-dialog-canon></p>
     </div>
     <div>
-      <span>本學期授課</span>
+      <span data-i18n="coursesThisTerm">本學期授課</span>
       <p data-dialog-au></p>
     </div>
   </div>
   <div class="dialog-friction">
-    <span>本學期尚未解決</span>
+    <span data-i18n="facultyUnresolved">本學期尚未解決</span>
     <p data-dialog-incident></p>
   </div>
 </dialog>
 
 <dialog class="prospectus-dialog" data-prospectus-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉入學指南" data-prospectus-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉入學指南" data-i18n-aria-label="attribute.closeAdmissionsGuide" data-prospectus-close>×</button>
   <span class="au-badge">ADMISSIONS 2026</span>
-  <h2>把你的問題帶來。</h2>
-  <p>
+  <h2 data-i18n="bringQuestion">把你的問題帶來。</h2>
+  <p data-i18n="prospectusBody">
     秋季班網路填報開放至 8 月 31 日。申請可分次儲存；
     外界生於資料審查通過後另行收到結界通行時刻。
   </p>
-  <button class="button button-primary" type="button" data-service="application" data-prospectus-close>
+  <button class="button button-primary" type="button" data-service="application" data-prospectus-close><!-- i18n:startApplication -->
     開始線上申請 <span>→</span>
   </button>
 </dialog>
 
 <dialog class="service-dialog" data-service-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉校務服務" data-service-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉校務服務" data-i18n-aria-label="attribute.closeCampusService" data-service-close>×</button>
   <div class="service-dialog-heading">
     <p data-service-kicker>CAMPUS SERVICE</p>
-    <h2 data-service-title>校務服務</h2>
+    <h2 data-service-title data-i18n="serviceDialog">校務服務</h2>
     <p data-service-description></p>
   </div>
   <div data-service-content></div>
 </dialog>
 
 <dialog class="research-dialog" data-research-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉研究檔案" data-research-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉研究檔案" data-i18n-aria-label="attribute.closeResearchFile" data-research-close>×</button>
   <div class="research-dialog-head">
     <p data-research-kicker>RESEARCH FILE</p>
-    <h2 data-research-title>研究檔案</h2>
+    <h2 data-research-title data-i18n="researchFile">研究檔案</h2>
     <p data-research-summary></p>
   </div>
   <div class="research-meta" data-research-meta></div>
@@ -54,61 +54,61 @@
 </dialog>
 
 <dialog class="school-dialog" data-school-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉學院目錄" data-school-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉學院目錄" data-i18n-aria-label="attribute.closeSchoolCatalogue" data-school-close>×</button>
   <div data-school-content></div>
 </dialog>
 
 <dialog class="info-dialog" data-info-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉內容卡片" data-info-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉內容卡片" data-i18n-aria-label="attribute.closeContentCard" data-info-close>×</button>
   <div class="info-dialog-media" data-info-media hidden>
     <img src="assets/images/campus-hero.webp" alt="" width="1280" height="853" data-info-image>
   </div>
   <div class="info-dialog-content">
     <p class="dialog-kicker" data-info-kicker>CAMPUS FILE</p>
-    <h2 data-info-title>校園檔案</h2>
+    <h2 data-info-title data-i18n="campusFileDefault">校園檔案</h2>
     <p class="info-dialog-summary" data-info-summary></p>
     <dl class="info-dialog-meta" data-info-meta></dl>
     <button class="button button-primary info-dialog-action" type="button" data-info-action hidden>
-      <span data-info-action-label>繼續</span><span aria-hidden="true">→</span>
+      <span data-info-action-label data-i18n="continueDefault">繼續</span><span aria-hidden="true">→</span>
     </button>
   </div>
 </dialog>
 
 <dialog class="compose-dialog" data-compose-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉貼文視窗" data-compose-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉貼文視窗" data-i18n-aria-label="attribute.closePostForm" data-compose-close>×</button>
   <p class="dialog-kicker">CAMPUS BBS</p>
-  <h2>發布新貼文</h2>
+  <h2 data-i18n="publishPost">發布新貼文</h2>
   <form class="campus-form" data-bbs-form>
-    <label>
+    <label><!-- i18n:boardLabel -->
       看板
       <select name="category">
-        <option value="course">課程</option>
-        <option value="club">社團</option>
-        <option value="market">交換</option>
-        <option value="notice">校務提案</option>
+        <option value="course" data-i18n="course">課程</option>
+        <option value="club" data-i18n="club">社團</option>
+        <option value="market" data-i18n="exchange">交換</option>
+        <option value="notice" data-i18n="proposalBoard">校務提案</option>
       </select>
     </label>
-    <label>
+    <label><!-- i18n:nickname -->
       暱稱
       <input name="author" type="text" maxlength="24" value="匿名學生" required>
     </label>
-    <label class="form-span">
+    <label class="form-span"><!-- i18n:titleLabel -->
       標題
-      <input name="title" type="text" maxlength="70" required placeholder="用一句話說清楚你想討論的事">
+      <input name="title" type="text" maxlength="70" required placeholder="用一句話說清楚你想討論的事" data-i18n-placeholder="attribute.stateTheTopicClearlyInOneSentence">
     </label>
-    <label class="form-span">
+    <label class="form-span"><!-- i18n:contentLabel -->
       內容
-      <textarea name="body" rows="5" maxlength="800" required placeholder="補充時間、地點與需要的協助"></textarea>
+      <textarea name="body" rows="5" maxlength="800" required placeholder="補充時間、地點與需要的協助" data-i18n-placeholder="attribute.addTheTimePlaceAndAssistanceNeeded"></textarea>
     </label>
     <div class="form-actions form-span">
-      <span>內容會自動儲存；發布後可在「我的貼文」再次查看。</span>
-      <button class="button button-primary" type="submit">發布 <span>→</span></button>
+      <span data-i18n="bbsAutosaveNote">內容會自動儲存；發布後可在「我的貼文」再次查看。</span>
+      <button class="button button-primary" type="submit"><!-- i18n:publish -->發布 <span>→</span></button>
     </div>
   </form>
 </dialog>
 
 <dialog class="search-dialog" data-search-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉全站搜尋" data-search-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉全站搜尋" data-i18n-aria-label="attribute.closeSiteSearch" data-search-close>×</button>
   <header>
     <p data-search-kicker>UNIVERSITY SEARCH</p>
     <h2 data-search-title>University search</h2>
@@ -123,45 +123,45 @@
   <div class="search-results" data-search-results></div>
 </dialog>
 
-<dialog class="chronicle-dialog" aria-label="校史檔案" data-chronicle-dialog data-preserve-scroll="chronicle-dialog">
-  <button class="dialog-close" type="button" aria-label="關閉校史檔案" data-chronicle-close>×</button>
+<dialog class="chronicle-dialog" aria-label="校史檔案" data-i18n-aria-label="attribute.universityChronicle" data-chronicle-dialog data-preserve-scroll="chronicle-dialog">
+  <button class="dialog-close" type="button" aria-label="關閉校史檔案" data-i18n-aria-label="attribute.closeUniversityChronicle" data-chronicle-close>×</button>
   <div data-chronicle-app>
-    <h2>幻想鄉校史</h2>
+    <h2 data-i18n="chronicleTitle">幻想鄉校史</h2>
   </div>
 </dialog>
 
 <dialog class="mytu-document-dialog" data-mytu-document-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉校務文件" data-mytu-document-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉校務文件" data-i18n-aria-label="attribute.closeUniversityDocument" data-mytu-document-close>×</button>
   <div class="mytu-document" data-mytu-document></div>
   <footer class="mytu-document-actions">
-    <button class="button button-secondary" type="button" data-mytu-document-close>返回 My TU</button>
-    <button class="button button-primary" type="button" data-mytu-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
+    <button class="button button-secondary" type="button" data-mytu-document-close data-i18n="backToMyTu">返回 My TU</button>
+    <button class="button button-primary" type="button" data-mytu-print><!-- i18n:printMyTuDocument -->列印／另存 PDF <span aria-hidden="true">↗</span></button>
   </footer>
 </dialog>
 
 <dialog class="course-document-dialog" data-course-document-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉教務文件" data-course-document-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉教務文件" data-i18n-aria-label="attribute.closeRegistrarDocument" data-course-document-close>×</button>
   <div class="course-document" data-course-document-body></div>
   <footer class="course-document-actions">
-    <button class="button button-secondary" type="button" data-course-document-close>返回選課系統</button>
-    <button class="button button-primary" type="button" data-course-document-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
+    <button class="button button-secondary" type="button" data-course-document-close data-i18n="backToCourseRegistration">返回選課系統</button>
+    <button class="button button-primary" type="button" data-course-document-print><!-- i18n:printMyTuDocument -->列印／另存 PDF <span aria-hidden="true">↗</span></button>
   </footer>
 </dialog>
 
 <dialog class="academic-document-dialog" data-academic-document-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉成績單" data-academic-document-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉成績單" data-i18n-aria-label="attribute.closeTranscript" data-academic-document-close>×</button>
   <div class="academic-document" data-academic-document-body></div>
   <footer class="academic-document-actions">
-    <button class="button button-secondary" type="button" data-academic-document-close>返回成績單</button>
-    <button class="button button-primary" type="button" data-academic-document-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
+    <button class="button button-secondary" type="button" data-academic-document-close data-i18n="backToAcademicTranscript">返回成績單</button>
+    <button class="button button-primary" type="button" data-academic-document-print><!-- i18n:printMyTuDocument -->列印／另存 PDF <span aria-hidden="true">↗</span></button>
   </footer>
 </dialog>
 
 <dialog class="library-receipt-dialog" data-library-receipt-dialog>
-  <button class="dialog-close" type="button" aria-label="關閉借閱回條" data-library-receipt-close>×</button>
+  <button class="dialog-close" type="button" aria-label="關閉借閱回條" data-i18n-aria-label="attribute.closeLibraryReceipt" data-library-receipt-close>×</button>
   <div class="library-receipt" data-library-receipt-body></div>
   <footer class="library-receipt-actions">
-    <button class="button button-secondary" type="button" data-library-receipt-close>返回圖書館</button>
-    <button class="button button-primary" type="button" data-library-receipt-print>列印／另存 PDF <span aria-hidden="true">↗</span></button>
+    <button class="button button-secondary" type="button" data-library-receipt-close data-i18n="backToLibrary">返回圖書館</button>
+    <button class="button button-primary" type="button" data-library-receipt-print><!-- i18n:printMyTuDocument -->列印／另存 PDF <span aria-hidden="true">↗</span></button>
   </footer>
 </dialog>

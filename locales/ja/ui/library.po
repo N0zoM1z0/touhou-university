@@ -1,0 +1,517 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/library.js:19
+msgctxt "tree:copy#/eyebrow"
+msgid "MISTY LAKE LIBRARY"
+msgstr "MISTY LAKE LIBRARY / 霧の湖図書館"
+
+#. copy/title
+#: src/js/library.js:19
+msgctxt "tree:copy#/title"
+msgid "Books need not be quiet. Their circulation records do."
+msgstr "本は静かとは限らない。貸出記録は明確でなければならない。"
+
+#. copy/lead
+#: src/js/library.js:19
+msgctxt "tree:copy#/lead"
+msgid ""
+"Search the collection, borrow available books, place holds on items that are "
+"checked out or temporarily off the shelf, and renew loans before they are "
+"due. Every action stays on this device."
+msgstr "蔵書を検索し、在架本を借り、貸出中・離架中の本を予約し、期限内に更新できます。操作はこの端末だけに保存されます。"
+
+#. copy/open
+#: src/js/library.js:19
+msgctxt "tree:copy#/open"
+msgid "Open today"
+msgstr "本日開館"
+
+#. copy/closed
+#: src/js/library.js:19
+msgctxt "tree:copy#/closed"
+msgid "Closed today"
+msgstr "本日休館"
+
+#. copy/seatsFree
+#: src/js/library.js:19
+msgctxt "tree:copy#/seatsFree"
+msgid "places free"
+msgstr "席空き"
+
+#. copy/hours
+#: src/js/library.js:19
+msgctxt "tree:copy#/hours"
+msgid "08:10—moon above the trees"
+msgstr "08:10—月が梢へ昇るまで"
+
+#. copy/holdings
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdings"
+msgid "Searchable holdings"
+msgstr "検索可能資料"
+
+#. copy/available
+#: src/js/library.js:19
+msgctxt "tree:copy#/available"
+msgid "On shelf now"
+msgstr "現在在架"
+
+#. copy/strange
+#: src/js/library.js:19
+msgctxt "tree:copy#/strange"
+msgid "Unusual states"
+msgstr "異常状態"
+
+#. copy/desk
+#: src/js/library.js:19
+msgctxt "tree:copy#/desk"
+msgid "Circulation desk"
+msgstr "貸出カウンター"
+
+#. copy/catalogue
+#: src/js/library.js:19
+msgctxt "tree:copy#/catalogue"
+msgid "Catalogue"
+msgstr "蔵書検索"
+
+#. copy/myLibrary
+#: src/js/library.js:19
+msgctxt "tree:copy#/myLibrary"
+msgid "My library"
+msgstr "利用状況"
+
+#. copy/activeBadge
+#: src/js/library.js:19
+msgctxt "tree:copy#/activeBadge"
+msgid "active"
+msgstr "件進行中"
+
+#. copy/search
+#: src/js/library.js:19
+msgctxt "tree:copy#/search"
+msgid "Search title, author, call number, subject, or staff note"
+msgstr "書名、著者、請求記号、主題、司書注記を検索"
+
+#. copy/allSchools
+#: src/js/library.js:19
+msgctxt "tree:copy#/allSchools"
+msgid "All collections"
+msgstr "全分類"
+
+#. copy/allStates
+#: src/js/library.js:19
+msgctxt "tree:copy#/allStates"
+msgid "All item states"
+msgstr "全資料状態"
+
+#. copy/allDangers
+#: src/js/library.js:19
+msgctxt "tree:copy#/allDangers"
+msgid "All risks"
+msgstr "全リスク"
+
+#. copy/result
+#: src/js/library.js:19
+msgctxt "tree:copy#/result"
+msgid "holdings"
+msgstr "件"
+
+#. copy/reset
+#: src/js/library.js:19
+msgctxt "tree:copy#/reset"
+msgid "Clear filters"
+msgstr "絞り込み解除"
+
+#. copy/openRecord
+#: src/js/library.js:19
+msgctxt "tree:copy#/openRecord"
+msgid "View holding"
+msgstr "資料を見る"
+
+#. copy/noResults
+#: src/js/library.js:19
+msgctxt "tree:copy#/noResults"
+msgid "No book admits to matching those conditions. Try fewer words or a wider risk filter."
+msgstr "この条件に該当すると認める本がありません。語を短くするか、リスク条件を広げてください。"
+
+#. copy/details
+#: src/js/library.js:19
+msgctxt "tree:copy#/details"
+msgid "Holding record"
+msgstr "蔵書ファイル"
+
+#. copy/callNumber
+#: src/js/library.js:19
+msgctxt "tree:copy#/callNumber"
+msgid "Call number"
+msgstr "請求記号"
+
+#. copy/author
+#: src/js/library.js:19
+msgctxt "tree:copy#/author"
+msgid "Responsibility"
+msgstr "責任表示"
+
+#. copy/subject
+#: src/js/library.js:19
+msgctxt "tree:copy#/subject"
+msgid "Subject"
+msgstr "主題"
+
+#. copy/edition
+#: src/js/library.js:19
+msgctxt "tree:copy#/edition"
+msgid "Edition"
+msgstr "版"
+
+#. copy/origin
+#: src/js/library.js:19
+msgctxt "tree:copy#/origin"
+msgid "Provenance"
+msgstr "由来"
+
+#. copy/location
+#: src/js/library.js:19
+msgctxt "tree:copy#/location"
+msgid "Location"
+msgstr "所在"
+
+#. copy/disposition
+#: src/js/library.js:19
+msgctxt "tree:copy#/disposition"
+msgid "Autonomous tendency"
+msgstr "自律傾向"
+
+#. copy/danger
+#: src/js/library.js:19
+msgctxt "tree:copy#/danger"
+msgid "Reading risk"
+msgstr "閲覧リスク"
+
+#. copy/state
+#: src/js/library.js:19
+msgctxt "tree:copy#/state"
+msgid "Current state"
+msgstr "現在状態"
+
+#. copy/terms
+#: src/js/library.js:19
+msgctxt "tree:copy#/terms"
+msgid "Loan terms"
+msgstr "貸出条件"
+
+#. copy/days
+#: src/js/library.js:19
+msgctxt "tree:copy#/days"
+msgid "days"
+msgstr "日"
+
+#. copy/renewals
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewals"
+msgid "renewals"
+msgstr "回延長可"
+
+#. copy/courseGate
+#: src/js/library.js:19
+msgctxt "tree:copy#/courseGate"
+msgid "Course reserve"
+msgstr "指定科目"
+
+#. copy/courseGateBody
+#: src/js/library.js:19
+msgctxt "tree:copy#/courseGateBody"
+msgid "The desk releases this book clasp after you complete or enrol in one of:"
+msgstr "次のいずれかを修得または履修中の場合、カウンターが留め具を解除します："
+
+#. copy/eligible
+#: src/js/library.js:19
+msgctxt "tree:copy#/eligible"
+msgid "Eligibility confirmed"
+msgstr "資格確認済"
+
+#. copy/ineligible
+#: src/js/library.js:19
+msgctxt "tree:copy#/ineligible"
+msgid "Borrowing eligibility missing"
+msgstr "貸出資格未取得"
+
+#. copy/borrow
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrow"
+msgid "Borrow this book"
+msgstr "この本を借りる"
+
+#. copy/placeHold
+#: src/js/library.js:19
+msgctxt "tree:copy#/placeHold"
+msgid "Place a hold"
+msgstr "予約列へ入る"
+
+#. copy/renew
+#: src/js/library.js:19
+msgctxt "tree:copy#/renew"
+msgid "Renew"
+msgstr "貸出期間を延長"
+
+#. copy/return
+#: src/js/library.js:19
+msgctxt "tree:copy#/return"
+msgid "Return"
+msgstr "返却"
+
+#. copy/cancelHold
+#: src/js/library.js:19
+msgctxt "tree:copy#/cancelHold"
+msgid "Cancel hold"
+msgstr "予約取消"
+
+#. copy/reference
+#: src/js/library.js:19
+msgctxt "tree:copy#/reference"
+msgid "Library use only"
+msgstr "館内閲覧のみ"
+
+#. copy/unavailable
+#: src/js/library.js:19
+msgctxt "tree:copy#/unavailable"
+msgid "Not available to borrow or hold"
+msgstr "現在は貸出・予約不可"
+
+#. copy/identityNeeded
+#: src/js/library.js:19
+msgctxt "tree:copy#/identityNeeded"
+msgid ""
+"Create a My TU identity to borrow or place holds. The catalogue remains open "
+"to everyone."
+msgstr "My TU身分を作成すると貸出・予約できます。検索は自由に利用できます。"
+
+#. copy/createIdentity
+#: src/js/library.js:19
+msgctxt "tree:copy#/createIdentity"
+msgid "Create My TU identity"
+msgstr "My TU身分を作成"
+
+#. copy/maxLoans
+#: src/js/library.js:19
+msgctxt "tree:copy#/maxLoans"
+msgid "You may borrow five holdings at once. Return one first."
+msgstr "同時貸出は5点までです。先に一冊返却してください。"
+
+#. copy/courseNeeded
+#: src/js/library.js:19
+msgctxt "tree:copy#/courseNeeded"
+msgid "This book clasp accepts only the specified course record."
+msgstr "この本の留め具は指定科目の履修記録だけを認めます。"
+
+#. copy/alreadyLoaned
+#: src/js/library.js:19
+msgctxt "tree:copy#/alreadyLoaned"
+msgid "This book is already in your loan bag."
+msgstr "この本はすでに貸出袋に入っています。"
+
+#. copy/alreadyHeld
+#: src/js/library.js:19
+msgctxt "tree:copy#/alreadyHeld"
+msgid "You are already in this book's hold queue."
+msgstr "この本の予約列へ登録済みです。"
+
+#. copy/borrowed
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrowed"
+msgid "Checked out. The librarian added one extra moon-shaped stamp nobody can read."
+msgstr "貸出完了。司書が読めない月印を一つ余分に押しました。"
+
+#. copy/held
+#: src/js/library.js:19
+msgctxt "tree:copy#/held"
+msgid ""
+"Hold placed. When the book reaches the desk, a paper crane will leave a "
+"notice on this page."
+msgstr "予約しました。本がカウンターへ着くと紙鶴がこの頁へ通知を残します。"
+
+#. copy/renewed
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewed"
+msgid "Renewed. The new due date is written into your on-device library card."
+msgstr "延長しました。新しい返却期限を端末内貸出票に記録しました。"
+
+#. copy/returned
+#: src/js/library.js:19
+msgctxt "tree:copy#/returned"
+msgid "Returned. The shelf has provisionally agreed to take it."
+msgstr "返却しました。書架は一旦受入れに同意しました。"
+
+#. copy/holdCancelled
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdCancelled"
+msgid "Hold cancelled. The queue moved forward by one."
+msgstr "予約を取り消しました。列が一つ進みました。"
+
+#. copy/renewalLimit
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewalLimit"
+msgid "This book has used all permitted renewals."
+msgstr "この本は延長回数を使い切りました。"
+
+#. copy/renewalBlocked
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewalBlocked"
+msgid "Another reader has a hold, so this loan cannot be renewed."
+msgstr "予約者がいるため延長できません。"
+
+#. copy/due
+#: src/js/library.js:19
+msgctxt "tree:copy#/due"
+msgid "Due"
+msgstr "返却期限"
+
+#. copy/overdue
+#: src/js/library.js:19
+msgctxt "tree:copy#/overdue"
+msgid "Overdue"
+msgstr "延滞"
+
+#. copy/borrowedOn
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrowedOn"
+msgid "Borrowed"
+msgstr "貸出日"
+
+#. copy/holdPlaced
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdPlaced"
+msgid "Placed"
+msgstr "予約日"
+
+#. copy/queue
+#: src/js/library.js:19
+msgctxt "tree:copy#/queue"
+msgid "Queue"
+msgstr "予約順位"
+
+#. copy/activeLoans
+#: src/js/library.js:19
+msgctxt "tree:copy#/activeLoans"
+msgid "Items on loan"
+msgstr "貸出中資料"
+
+#. copy/activeHolds
+#: src/js/library.js:19
+msgctxt "tree:copy#/activeHolds"
+msgid "Waiting holds"
+msgstr "予約中資料"
+
+#. copy/history
+#: src/js/library.js:19
+msgctxt "tree:copy#/history"
+msgid "Loan & hold history"
+msgstr "貸出・予約履歴"
+
+#. copy/noLoans
+#: src/js/library.js:19
+msgctxt "tree:copy#/noLoans"
+msgid "Your loan bag is empty except for a Kourindou receipt nobody remembers adding."
+msgstr "貸出袋は空です。誰かが入れた香霖堂の領収書だけがあります。"
+
+#. copy/noHolds
+#: src/js/library.js:19
+msgctxt "tree:copy#/noHolds"
+msgid "No holds are waiting."
+msgstr "予約中の資料はありません。"
+
+#. copy/noHistory
+#: src/js/library.js:19
+msgctxt "tree:copy#/noHistory"
+msgid "No circulation history yet. The librarian is polite but slightly bored."
+msgstr "貸出履歴はまだありません。司書は丁寧ですが少し退屈そうです。"
+
+#. copy/returnedStatus
+#: src/js/library.js:19
+msgctxt "tree:copy#/returnedStatus"
+msgid "Returned"
+msgstr "返却済"
+
+#. copy/cancelledStatus
+#: src/js/library.js:19
+msgctxt "tree:copy#/cancelledStatus"
+msgid "Cancelled"
+msgstr "取消済"
+
+#. copy/printReceipt
+#: src/js/library.js:19
+msgctxt "tree:copy#/printReceipt"
+msgid "Open loan receipt"
+msgstr "貸出票を開く"
+
+#. copy/receiptTitle
+#: src/js/library.js:19
+msgctxt "tree:copy#/receiptTitle"
+msgid "Misty Lake Library loan receipt"
+msgstr "霧の湖図書館 貸出票"
+
+#. copy/receiptSubtitle
+#: src/js/library.js:19
+msgctxt "tree:copy#/receiptSubtitle"
+msgid "On-device library-card copy"
+msgstr "端末内利用券控え"
+
+#. copy/borrower
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrower"
+msgid "Borrower"
+msgstr "利用者"
+
+#. copy/libraryCard
+#: src/js/library.js:19
+msgctxt "tree:copy#/libraryCard"
+msgid "Library card"
+msgstr "利用券番号"
+
+#. copy/issued
+#: src/js/library.js:19
+msgctxt "tree:copy#/issued"
+msgid "Printed"
+msgstr "印刷日"
+
+#. copy/receiptNote
+#: src/js/library.js:19
+msgctxt "tree:copy#/receiptNote"
+msgid ""
+"If a book shelves itself elsewhere, its return destination remains Misty "
+"Lake Library. This receipt is generated from records in the current browser."
+msgstr "本が自ら移架しても返却先は貸出票記載の霧の湖図書館です。この票は現在のブラウザ内貸出記録から生成されます。"
+
+#. copy/print
+#: src/js/library.js:19
+msgctxt "tree:copy#/print"
+msgid "Print / save PDF"
+msgstr "印刷／PDF保存"
+
+#. copy/closeReceipt
+#: src/js/library.js:19
+msgctxt "tree:copy#/closeReceipt"
+msgid "Back to library"
+msgstr "図書館へ戻る"
+
+#. copy/lunarNotice
+#: src/js/library.js:19
+msgctxt "tree:copy#/lunarNotice"
+msgid ""
+"Full-moon states are updated by staff that night. A torch does not count as "
+"a lunar phase."
+msgstr "満月資料は当夜に司書が更新します。懐中電灯は月相ではありません。"
+
+#. copy/holdPosition
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdPosition"
+msgid "On-device queue position 1"
+msgstr "端末内予約 1番"

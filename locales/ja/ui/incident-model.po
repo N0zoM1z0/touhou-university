@@ -1,0 +1,22 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. contestedFinding
+#: src/js/incident-model.js:320
+msgctxt "text:contestedFinding"
+msgid "Not supported, but retained: {value0}"
+msgstr "支持されず保存：{value0}"
+
+#. contestedNotice
+#: src/js/incident-model.js:322
+msgctxt "text:contestedNotice"
+msgid ""
+"【RED-THREAD CONTESTED FILE】The simulation returned “{value0}” and did not "
+"establish this claim. {value1} signed to retain it as “{value2}.”"
+msgstr "【赤糸係争記録】模擬結果は「{value0}」で、この主張は立証されていない。{value1}が「{value2}」として署名保存した。"

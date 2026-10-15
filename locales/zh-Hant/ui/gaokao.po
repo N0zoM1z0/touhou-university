@@ -1,0 +1,376 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/eyebrow"
+msgid "UNIFIED EXAMINATION / GENSOKYO UNIFIED EXAM"
+msgstr "UNIFIED EXAMINATION / 幻想鄉統一學力試驗"
+
+#. copy/title
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/title"
+msgid "NORMAL to EXTRA: four unified papers whose questions truly change."
+msgstr "從 NORMAL 到 EXTRA：四份真的會改變題目的統一試卷。"
+
+#. copy/lead
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/lead"
+msgid ""
+"Humanities and sciences each run at four difficulties. Higher papers combine "
+"notices, versions, lunar phases, route graphs, observations, and conflicting "
+"testimony."
+msgstr "文科與理科各有四個難度。共同科包含語文、結界算術與幻想鄉常識；高難度卷會把公告版本、月相、路網、觀測表與證詞一起交給你。"
+
+#. copy/chooseDifficulty
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/chooseDifficulty"
+msgid "Choose a danmaku difficulty"
+msgstr "先選擇彈幕難度"
+
+#. copy/choose
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/choose"
+msgid "Choose an examination track"
+msgstr "選擇應試組別"
+
+#. copy/chooseLead
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/chooseLead"
+msgid ""
+"Four subjects, 150 marks. Printable papers are untimed and work offline or "
+"as saved PDFs."
+msgstr "每組四科、滿分 150 分。紙本版不計時，可離線作答、列印或另存 PDF。"
+
+#. copy/start
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/start"
+msgid "Start online simulation"
+msgstr "開始線上模擬"
+
+#. copy/resume
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/resume"
+msgid "Resume unfinished paper"
+msgstr "繼續未完成試卷"
+
+#. copy/discard
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/discard"
+msgid "Discard draft"
+msgstr "放棄草稿"
+
+#. copy/paper
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/paper"
+msgid "Download offline paper"
+msgstr "下載離線試卷"
+
+#. copy/answers
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/answers"
+msgid "Download answer key"
+msgstr "下載參考答案"
+
+#. copy/format
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/format"
+msgid "Print-ready HTML · no connection required after download"
+msgstr "可列印 HTML · 下載後無需聯網"
+
+#. copy/subjects
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/subjects"
+msgid "Exam subjects"
+msgstr "應試科目"
+
+#. copy/points
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/points"
+msgid "marks"
+msgstr "分"
+
+#. copy/questions
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/questions"
+msgid "questions"
+msgstr "題"
+
+#. copy/duration
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/duration"
+msgid "Duration"
+msgstr "考試時間"
+
+#. copy/minutes
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/minutes"
+msgid "minutes"
+msgstr "分鐘"
+
+#. copy/total
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/total"
+msgid "Maximum"
+msgstr "滿分"
+
+#. copy/candidate
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/candidate"
+msgid "Candidate"
+msgstr "考生"
+
+#. copy/deviceCandidate
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/deviceCandidate"
+msgid "On-device simulation candidate"
+msgstr "本機模擬考生"
+
+#. copy/instructions
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/instructions"
+msgid "Instructions to candidates"
+msgstr "考生須知"
+
+#. copy/rules/0
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/0"
+msgid "Every item is single-choice. Select the one best answer."
+msgstr "本卷所有題目均為單選題；每題只有一個最合適答案。"
+
+#. copy/rules/1
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/1"
+msgid "Source boxes are part of the item. Jump from the answer sheet; answers autosave."
+msgstr "材料框屬於題目；可在右側答題卡跳題，答案會自動保存。"
+
+#. copy/rules/2
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/2"
+msgid ""
+"Unless an item says otherwise, its lunar phase, time, route, and version "
+"come only from its source box; the live campus-map state is not consulted."
+msgstr "除非題目另有說明，月相、時間、路線與版本均以材料框為準，不讀取校園地圖的即時狀態。"
+
+#. copy/rules/3
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rules/3"
+msgid ""
+"The paper submits at time. Full moons, outages, and relocated classrooms do "
+"not add time."
+msgstr "時間到自動交卷；滿月、停電或教室位移不另行加時。"
+
+#. copy/answered
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/answered"
+msgid "Answered"
+msgstr "已答"
+
+#. copy/timeLeft
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/timeLeft"
+msgid "Time left"
+msgstr "剩餘時間"
+
+#. copy/submit
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/submit"
+msgid "Submit and score now"
+msgstr "交卷並立即判分"
+
+#. copy/submitConfirm
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/submitConfirm"
+msgid "Some questions are unanswered. Submit anyway?"
+msgstr "仍有未作答題目，確定交卷嗎？"
+
+#. copy/saved
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/saved"
+msgid "Paper progress saved on this device."
+msgstr "試卷進度已保存在這台裝置。"
+
+#. copy/draftRevised
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/draftRevised"
+msgid ""
+"The question bank was revised. Your old choices remain in the local draft, "
+"but please confirm every answer against the new wording."
+msgstr "題庫已改版：舊選擇仍保留在本機草稿中，請按新版題面重新確認答案。"
+
+#. copy/expired
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/expired"
+msgid "Time expired. The paper was submitted automatically."
+msgstr "時間到，試卷已自動提交。"
+
+#. copy/result
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/result"
+msgid "Unified Examination Result"
+msgstr "統一試驗成績單"
+
+#. copy/score
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/score"
+msgid "Total score"
+msgstr "總分"
+
+#. copy/correct
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/correct"
+msgid "Correct"
+msgstr "答對"
+
+#. copy/review
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/review"
+msgid "Answer key and explanations"
+msgstr "參考答案與逐題解析"
+
+#. copy/yourAnswer
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/yourAnswer"
+msgid "Your answer"
+msgstr "你的答案"
+
+#. copy/rightAnswer
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/rightAnswer"
+msgid "Reference answer"
+msgstr "參考答案"
+
+#. copy/unanswered
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/unanswered"
+msgid "Unanswered"
+msgstr "未作答"
+
+#. copy/back
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/back"
+msgid "Back to paper selection"
+msgstr "返回選卷"
+
+#. copy/retake
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/retake"
+msgid "Retake paper"
+msgstr "重新應試"
+
+#. copy/excellent
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/excellent"
+msgid "You untangled the versions, lunar phases, and conflicting testimony."
+msgstr "你把版本、月相與證詞的岔路都理清了。"
+
+#. copy/pass
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/pass"
+msgid "A sound result. Revisit the source chains in weaker subjects."
+msgstr "整體合格；建議重看失分科目的材料鏈。"
+
+#. copy/revise
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/revise"
+msgid "Trace each source through the key before trusting Yesterday's Clearing."
+msgstr "先沿解析回查每份材料，再決定是否相信昨日的空地。"
+
+#. copy/localRecords
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/localRecords"
+msgid "My unified-exam records"
+msgstr "我的統一試驗記錄"
+
+#. copy/localLead
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/localLead"
+msgid "Full answers, scores, and review links stay on this device only."
+msgstr "完整答案、成績與解析入口只保存在這台裝置。"
+
+#. copy/attempts
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/attempts"
+msgid "submitted"
+msgstr "次已交卷"
+
+#. copy/noRecords
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/noRecords"
+msgid "No completed Gensokyo unified exam is stored on this device."
+msgstr "這台裝置還沒有已完成的幻想鄉統一學力試驗。"
+
+#. copy/viewRecord
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/viewRecord"
+msgid "Reopen result and review"
+msgstr "重開成績與解析"
+
+#. copy/legacyRecord
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/legacyRecord"
+msgid "Older version saved only a score summary"
+msgstr "舊版只保存成績摘要"
+
+#. copy/legacyReview
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/legacyReview"
+msgid ""
+"This record belongs to an older question-bank revision. Its score uses the "
+"original answer positions; old option wording is not projected onto the new "
+"paper."
+msgstr "此記錄來自舊版題庫；分數按當時的答案位置核對，舊選項文字不會套用到新版題面。"
+
+#. copy/legacyChoice
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/legacyChoice"
+msgid "Choice on old paper"
+msgstr "舊版作答代號"
+
+#. copy/completed
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/completed"
+msgid "Submitted"
+msgstr "交卷時間"
+
+#. copy/deleteRecord
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/deleteRecord"
+msgid "Delete local record"
+msgstr "刪除本機記錄"
+
+#. copy/deleteConfirm
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/deleteConfirm"
+msgid "Delete this examination record?"
+msgstr "確定刪除這次統一試驗記錄？"
+
+#. copy/recordDeleted
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/recordDeleted"
+msgid "Local examination record deleted."
+msgstr "已刪除本機統一試驗記錄。"
+
+#. copy/archive
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/archive"
+msgid "On-device answer archive"
+msgstr "本機答案庫"
+
+#. copy/sourceFile
+#: src/js/gaokao.js:21
+msgctxt "tree:copy#/sourceFile"
+msgid "Source dossier · independent conditions"
+msgstr "題目材料 · 獨立條件"
+
+#. renderRunner
+#: src/js/gaokao.js:246
+msgctxt "text:renderRunner"
+msgid "Gensokyo Unified Examination"
+msgstr "幻想鄉統一學力試驗"

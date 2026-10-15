@@ -1,0 +1,517 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/library.js:19
+msgctxt "tree:copy#/eyebrow"
+msgid "MISTY LAKE LIBRARY"
+msgstr "MISTY LAKE LIBRARY / 霧湖圖書館"
+
+#. copy/title
+#: src/js/library.js:19
+msgctxt "tree:copy#/title"
+msgid "Books need not be quiet. Their circulation records do."
+msgstr "書不一定安靜，但借閱紀錄必須說得清楚。"
+
+#. copy/lead
+#: src/js/library.js:19
+msgctxt "tree:copy#/lead"
+msgid ""
+"Search the collection, borrow available books, place holds on items that are "
+"checked out or temporarily off the shelf, and renew loans before they are "
+"due. Every action stays on this device."
+msgstr "搜尋館藏、借出在架書、為外借或離架中的書排隊，並在期限內續借。所有操作只保存在這台裝置。"
+
+#. copy/open
+#: src/js/library.js:19
+msgctxt "tree:copy#/open"
+msgid "Open today"
+msgstr "今日開館"
+
+#. copy/closed
+#: src/js/library.js:19
+msgctxt "tree:copy#/closed"
+msgid "Closed today"
+msgstr "今日閉館"
+
+#. copy/seatsFree
+#: src/js/library.js:19
+msgctxt "tree:copy#/seatsFree"
+msgid "places free"
+msgstr "席空位"
+
+#. copy/hours
+#: src/js/library.js:19
+msgctxt "tree:copy#/hours"
+msgid "08:10—moon above the trees"
+msgstr "08:10—月上樹梢"
+
+#. copy/holdings
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdings"
+msgid "Searchable holdings"
+msgstr "可檢索館藏"
+
+#. copy/available
+#: src/js/library.js:19
+msgctxt "tree:copy#/available"
+msgid "On shelf now"
+msgstr "目前在架"
+
+#. copy/strange
+#: src/js/library.js:19
+msgctxt "tree:copy#/strange"
+msgid "Unusual states"
+msgstr "異常書況"
+
+#. copy/desk
+#: src/js/library.js:19
+msgctxt "tree:copy#/desk"
+msgid "Circulation desk"
+msgstr "借閱桌"
+
+#. copy/catalogue
+#: src/js/library.js:19
+msgctxt "tree:copy#/catalogue"
+msgid "Catalogue"
+msgstr "館藏目錄"
+
+#. copy/myLibrary
+#: src/js/library.js:19
+msgctxt "tree:copy#/myLibrary"
+msgid "My library"
+msgstr "我的借閱"
+
+#. copy/activeBadge
+#: src/js/library.js:19
+msgctxt "tree:copy#/activeBadge"
+msgid "active"
+msgstr "項進行中"
+
+#. copy/search
+#: src/js/library.js:19
+msgctxt "tree:copy#/search"
+msgid "Search title, author, call number, subject, or staff note"
+msgstr "搜尋題名、作者、索書號、主題或館員備註"
+
+#. copy/allSchools
+#: src/js/library.js:19
+msgctxt "tree:copy#/allSchools"
+msgid "All collections"
+msgstr "全部分類"
+
+#. copy/allStates
+#: src/js/library.js:19
+msgctxt "tree:copy#/allStates"
+msgid "All item states"
+msgstr "所有書況"
+
+#. copy/allDangers
+#: src/js/library.js:19
+msgctxt "tree:copy#/allDangers"
+msgid "All risks"
+msgstr "所有風險"
+
+#. copy/result
+#: src/js/library.js:19
+msgctxt "tree:copy#/result"
+msgid "holdings"
+msgstr "筆館藏"
+
+#. copy/reset
+#: src/js/library.js:19
+msgctxt "tree:copy#/reset"
+msgid "Clear filters"
+msgstr "清除篩選"
+
+#. copy/openRecord
+#: src/js/library.js:19
+msgctxt "tree:copy#/openRecord"
+msgid "View holding"
+msgstr "查看館藏"
+
+#. copy/noResults
+#: src/js/library.js:19
+msgctxt "tree:copy#/noResults"
+msgid "No book admits to matching those conditions. Try fewer words or a wider risk filter."
+msgstr "沒有書願意承認自己符合這組條件。少寫一點，或把風險篩選放寬。"
+
+#. copy/details
+#: src/js/library.js:19
+msgctxt "tree:copy#/details"
+msgid "Holding record"
+msgstr "館藏檔案"
+
+#. copy/callNumber
+#: src/js/library.js:19
+msgctxt "tree:copy#/callNumber"
+msgid "Call number"
+msgstr "索書號"
+
+#. copy/author
+#: src/js/library.js:19
+msgctxt "tree:copy#/author"
+msgid "Responsibility"
+msgstr "責任者"
+
+#. copy/subject
+#: src/js/library.js:19
+msgctxt "tree:copy#/subject"
+msgid "Subject"
+msgstr "主題"
+
+#. copy/edition
+#: src/js/library.js:19
+msgctxt "tree:copy#/edition"
+msgid "Edition"
+msgstr "版本"
+
+#. copy/origin
+#: src/js/library.js:19
+msgctxt "tree:copy#/origin"
+msgid "Provenance"
+msgstr "來源"
+
+#. copy/location
+#: src/js/library.js:19
+msgctxt "tree:copy#/location"
+msgid "Location"
+msgstr "館藏地"
+
+#. copy/disposition
+#: src/js/library.js:19
+msgctxt "tree:copy#/disposition"
+msgid "Autonomous tendency"
+msgstr "自主傾向"
+
+#. copy/danger
+#: src/js/library.js:19
+msgctxt "tree:copy#/danger"
+msgid "Reading risk"
+msgstr "閱覽風險"
+
+#. copy/state
+#: src/js/library.js:19
+msgctxt "tree:copy#/state"
+msgid "Current state"
+msgstr "目前書況"
+
+#. copy/terms
+#: src/js/library.js:19
+msgctxt "tree:copy#/terms"
+msgid "Loan terms"
+msgstr "借閱條件"
+
+#. copy/days
+#: src/js/library.js:19
+msgctxt "tree:copy#/days"
+msgid "days"
+msgstr "日"
+
+#. copy/renewals
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewals"
+msgid "renewals"
+msgstr "次續借"
+
+#. copy/courseGate
+#: src/js/library.js:19
+msgctxt "tree:copy#/courseGate"
+msgid "Course reserve"
+msgstr "指定課程"
+
+#. copy/courseGateBody
+#: src/js/library.js:19
+msgctxt "tree:copy#/courseGateBody"
+msgid "The desk releases this book clasp after you complete or enrol in one of:"
+msgstr "完成或正在修讀下列任一課程後，借閱櫃檯才會解開書扣："
+
+#. copy/eligible
+#: src/js/library.js:19
+msgctxt "tree:copy#/eligible"
+msgid "Eligibility confirmed"
+msgstr "資格已確認"
+
+#. copy/ineligible
+#: src/js/library.js:19
+msgctxt "tree:copy#/ineligible"
+msgid "Borrowing eligibility missing"
+msgstr "尚未取得借閱資格"
+
+#. copy/borrow
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrow"
+msgid "Borrow this book"
+msgstr "借閱本書"
+
+#. copy/placeHold
+#: src/js/library.js:19
+msgctxt "tree:copy#/placeHold"
+msgid "Place a hold"
+msgstr "排入預約"
+
+#. copy/renew
+#: src/js/library.js:19
+msgctxt "tree:copy#/renew"
+msgid "Renew"
+msgstr "續借"
+
+#. copy/return
+#: src/js/library.js:19
+msgctxt "tree:copy#/return"
+msgid "Return"
+msgstr "歸還"
+
+#. copy/cancelHold
+#: src/js/library.js:19
+msgctxt "tree:copy#/cancelHold"
+msgid "Cancel hold"
+msgstr "取消預約"
+
+#. copy/reference
+#: src/js/library.js:19
+msgctxt "tree:copy#/reference"
+msgid "Library use only"
+msgstr "僅供館內閱覽"
+
+#. copy/unavailable
+#: src/js/library.js:19
+msgctxt "tree:copy#/unavailable"
+msgid "Not available to borrow or hold"
+msgstr "目前不可借閱或預約"
+
+#. copy/identityNeeded
+#: src/js/library.js:19
+msgctxt "tree:copy#/identityNeeded"
+msgid ""
+"Create a My TU identity to borrow or place holds. The catalogue remains open "
+"to everyone."
+msgstr "建立 My TU 身分後即可借閱與預約；目錄仍可自由查看。"
+
+#. copy/createIdentity
+#: src/js/library.js:19
+msgctxt "tree:copy#/createIdentity"
+msgid "Create My TU identity"
+msgstr "建立 My TU 身分"
+
+#. copy/maxLoans
+#: src/js/library.js:19
+msgctxt "tree:copy#/maxLoans"
+msgid "You may borrow five holdings at once. Return one first."
+msgstr "一次最多借閱 5 項館藏；請先歸還一本。"
+
+#. copy/courseNeeded
+#: src/js/library.js:19
+msgctxt "tree:copy#/courseNeeded"
+msgid "This book clasp accepts only the specified course record."
+msgstr "這本書的書扣只認指定課程的修讀記錄。"
+
+#. copy/alreadyLoaned
+#: src/js/library.js:19
+msgctxt "tree:copy#/alreadyLoaned"
+msgid "This book is already in your loan bag."
+msgstr "這本書已在你的借閱袋裡。"
+
+#. copy/alreadyHeld
+#: src/js/library.js:19
+msgctxt "tree:copy#/alreadyHeld"
+msgid "You are already in this book's hold queue."
+msgstr "你已經在這本書的預約隊列中。"
+
+#. copy/borrowed
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrowed"
+msgid "Checked out. The librarian added one extra moon-shaped stamp nobody can read."
+msgstr "借閱完成。館員在回條上多蓋了一個看不懂的月亮。"
+
+#. copy/held
+#: src/js/library.js:19
+msgctxt "tree:copy#/held"
+msgid ""
+"Hold placed. When the book reaches the desk, a paper crane will leave a "
+"notice on this page."
+msgstr "已排入預約。書抵達借閱桌後，紙鶴會在本頁留下通知。"
+
+#. copy/renewed
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewed"
+msgid "Renewed. The new due date is written into your on-device library card."
+msgstr "續借完成；新的期限已寫回本機借閱證。"
+
+#. copy/returned
+#: src/js/library.js:19
+msgctxt "tree:copy#/returned"
+msgid "Returned. The shelf has provisionally agreed to take it."
+msgstr "已歸還。書架暫時同意收下它。"
+
+#. copy/holdCancelled
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdCancelled"
+msgid "Hold cancelled. The queue moved forward by one."
+msgstr "預約已取消；隊列向前挪了一格。"
+
+#. copy/renewalLimit
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewalLimit"
+msgid "This book has used all permitted renewals."
+msgstr "本書已用完可續借次數。"
+
+#. copy/renewalBlocked
+#: src/js/library.js:19
+msgctxt "tree:copy#/renewalBlocked"
+msgid "Another reader has a hold, so this loan cannot be renewed."
+msgstr "已有讀者預約此書，不能再續借。"
+
+#. copy/due
+#: src/js/library.js:19
+msgctxt "tree:copy#/due"
+msgid "Due"
+msgstr "到期"
+
+#. copy/overdue
+#: src/js/library.js:19
+msgctxt "tree:copy#/overdue"
+msgid "Overdue"
+msgstr "逾期"
+
+#. copy/borrowedOn
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrowedOn"
+msgid "Borrowed"
+msgstr "借於"
+
+#. copy/holdPlaced
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdPlaced"
+msgid "Placed"
+msgstr "預約於"
+
+#. copy/queue
+#: src/js/library.js:19
+msgctxt "tree:copy#/queue"
+msgid "Queue"
+msgstr "預約順位"
+
+#. copy/activeLoans
+#: src/js/library.js:19
+msgctxt "tree:copy#/activeLoans"
+msgid "Items on loan"
+msgstr "借閱中的館藏"
+
+#. copy/activeHolds
+#: src/js/library.js:19
+msgctxt "tree:copy#/activeHolds"
+msgid "Waiting holds"
+msgstr "等待中的預約"
+
+#. copy/history
+#: src/js/library.js:19
+msgctxt "tree:copy#/history"
+msgid "Loan & hold history"
+msgstr "借閱與預約歷史"
+
+#. copy/noLoans
+#: src/js/library.js:19
+msgctxt "tree:copy#/noLoans"
+msgid "Your loan bag is empty except for a Kourindou receipt nobody remembers adding."
+msgstr "借閱袋目前是空的，只有一張不知誰放進去的香霖堂收據。"
+
+#. copy/noHolds
+#: src/js/library.js:19
+msgctxt "tree:copy#/noHolds"
+msgid "No holds are waiting."
+msgstr "沒有等待中的預約。"
+
+#. copy/noHistory
+#: src/js/library.js:19
+msgctxt "tree:copy#/noHistory"
+msgid "No circulation history yet. The librarian is polite but slightly bored."
+msgstr "尚無借閱歷史。館員對此保持禮貌，但略感無聊。"
+
+#. copy/returnedStatus
+#: src/js/library.js:19
+msgctxt "tree:copy#/returnedStatus"
+msgid "Returned"
+msgstr "已歸還"
+
+#. copy/cancelledStatus
+#: src/js/library.js:19
+msgctxt "tree:copy#/cancelledStatus"
+msgid "Cancelled"
+msgstr "已取消"
+
+#. copy/printReceipt
+#: src/js/library.js:19
+msgctxt "tree:copy#/printReceipt"
+msgid "Open loan receipt"
+msgstr "開啟借閱回條"
+
+#. copy/receiptTitle
+#: src/js/library.js:19
+msgctxt "tree:copy#/receiptTitle"
+msgid "Misty Lake Library loan receipt"
+msgstr "霧湖圖書館借閱回條"
+
+#. copy/receiptSubtitle
+#: src/js/library.js:19
+msgctxt "tree:copy#/receiptSubtitle"
+msgid "On-device library-card copy"
+msgstr "本機借閱證副本"
+
+#. copy/borrower
+#: src/js/library.js:19
+msgctxt "tree:copy#/borrower"
+msgid "Borrower"
+msgstr "借閱人"
+
+#. copy/libraryCard
+#: src/js/library.js:19
+msgctxt "tree:copy#/libraryCard"
+msgid "Library card"
+msgstr "借閱證號"
+
+#. copy/issued
+#: src/js/library.js:19
+msgctxt "tree:copy#/issued"
+msgid "Printed"
+msgstr "列印日期"
+
+#. copy/receiptNote
+#: src/js/library.js:19
+msgctxt "tree:copy#/receiptNote"
+msgid ""
+"If a book shelves itself elsewhere, its return destination remains Misty "
+"Lake Library. This receipt is generated from records in the current browser."
+msgstr "書籍若自行移架，歸還地仍以借閱回條所列霧湖圖書館為準。此回條由目前瀏覽器中的借閱記錄生成。"
+
+#. copy/print
+#: src/js/library.js:19
+msgctxt "tree:copy#/print"
+msgid "Print / save PDF"
+msgstr "列印／另存 PDF"
+
+#. copy/closeReceipt
+#: src/js/library.js:19
+msgctxt "tree:copy#/closeReceipt"
+msgid "Back to library"
+msgstr "返回圖書館"
+
+#. copy/lunarNotice
+#: src/js/library.js:19
+msgctxt "tree:copy#/lunarNotice"
+msgid ""
+"Full-moon states are updated by staff that night. A torch does not count as "
+"a lunar phase."
+msgstr "滿月書況由館員在當夜更新；手電筒不算月相。"
+
+#. copy/holdPosition
+#: src/js/library.js:19
+msgctxt "tree:copy#/holdPosition"
+msgid "On-device queue position 1"
+msgstr "本機預約第 1 位"

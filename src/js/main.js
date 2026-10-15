@@ -1,3 +1,4 @@
+import { featureModules } from "./feature-registry.js";
 import { initDeepLinks } from "./deep-links.js";
 import { initI18n } from "./i18n.js";
 import { redirectMisplacedRoute } from "./site-router.js";
@@ -69,40 +70,7 @@ if (!redirected) {
   });
 
   await Promise.all([
-    initialize("[data-info-dialog]", "./info-dialog.js", "initInfoDialog"),
-    initialize("[data-school]", "./schools.js", "initSchools"),
-    initialize("[data-faculty]", "./faculty.js", "initFaculty"),
-    initialize("[data-friction]", "./friction.js", "initFacultyFriction"),
-    initialize("#map", "./map.js", "initCampusMap"),
-    initialize("[data-live-campus-app]", "./live-campus.js", "initLiveCampus"),
-    initialize("[data-research]", "./research.js", "initResearch"),
-    initialize("[data-spellcard-workshop]", "./spellcard-workshop.js", "initSpellcardWorkshop"),
-    initialize("[data-ethics-app]", "./ethics.js", "initEthics"),
-    initialize("[data-orientation-app]", "./orientation.js", "initOrientation"),
-    initialize("[data-festival-app]", "./festival.js", "initFestival"),
-    initialize("[data-fieldwork-app]", "./fieldwork.js", "initFieldwork"),
-    initialize("[data-commons-app]", "./commons.js", "initCommons"),
-    initialize("[data-academic-calendar-app]", "./academic-calendar.js", "initAcademicCalendar"),
-    initialize("[data-careers-app]", "./careers.js", "initCareers"),
-    initialize("[data-employment-app]", "./employment.js", "initEmployment"),
-    initialize("#bbs", "./bbs.js", "initBbs"),
-    initialize("[data-campus-feature]", "./campus.js", "initCampusInteractions"),
-    initialize("[data-news-track]", "./news.js", "initNews"),
-    initialize("[data-phantasm-whisper]", "./phantasm-hints.js", "initPhantasmHints"),
-    initialize("[data-phantasm-app]", "./phantasm.js", "initPhantasm"),
-    initialize("#entrance-exam", "./exam.js", "initExam"),
-    initialize("[data-audience-app]", "./audiences.js", "initAudiencePaths"),
-    initialize("[data-eientei-focus]", "./eientei-map.js", "initEienteiMap"),
-    initialize("[data-chronicle-open]", "./chronicle.js", "initCampusChronicle"),
-    initialize("[data-library-app]", "./library.js", "initLibrary"),
-    initialize("[data-appraisal-app]", "./appraisal.js", "initAppraisal"),
-    initialize("[data-clinic-app]", "./clinic.js", "initClinic"),
-    initialize("[data-housing-app]", "./housing.js", "initHousing"),
-    initialize("[data-incident-app]", "./incidents.js", "initIncidents"),
-    initialize("[data-local-records-app]", "./local-records.js", "initLocalRecords"),
-    initialize("[data-hieda-index-app]", "./hieda-index.js", "initHiedaIndex"),
-    initialize("#my-tu", "./mytu.js", "initMyTu"),
-    initialize("#gaokao", "./gaokao.js", "initGaokao"),
+    ...featureModules.map(([selector, modulePath, exportName]) => initialize(selector, modulePath, exportName)),
     document.querySelector("main [data-service]") ? ensureServices() : Promise.resolve(),
   ]);
 

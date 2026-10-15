@@ -1,0 +1,1376 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. gaokaoSubjects.language.name
+#: src/data/gaokao.js:16
+msgctxt "text:gaokaoSubjects.language.name"
+msgid "Gensokyo Language & Letters"
+msgstr "Gensokyo Language & Letters"
+
+#. gaokaoSubjects.language.note
+#: src/data/gaokao.js:17
+msgctxt "text:gaokaoSubjects.language.note"
+msgid "Reading, source expression, notices, and news rhetoric"
+msgstr "Reading, source expression, notices, and news rhetoric"
+
+#. gaokaoSubjects.language.questions.0.L01.2
+#: src/data/gaokao.js:21
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.2"
+msgid ""
+"The paper first reports “North windway permanently repaired,” then corrects "
+"it to “kappa tape still counts as temporary.” What does the correction "
+"chiefly restore?"
+msgstr ""
+"The paper first reports “North windway permanently repaired,” then corrects "
+"it to “kappa tape still counts as temporary.” What does the correction "
+"chiefly restore?"
+
+#. gaokaoSubjects.language.questions.0.L01.3.0
+#: src/data/gaokao.js:22
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.3.0"
+msgid "A more cautious tone for “permanent,” without changing the access judgment"
+msgstr "A more cautious tone for “permanent,” without changing the access judgment"
+
+#. gaokaoSubjects.language.questions.0.L01.3.1
+#: src/data/gaokao.js:22
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.3.1"
+msgid "The repair status and the standard used to classify it"
+msgstr "The repair status and the standard used to classify it"
+
+#. gaokaoSubjects.language.questions.0.L01.3.2
+#: src/data/gaokao.js:22
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.3.2"
+msgid "The tape's material name, without stating whether passage is currently allowed"
+msgstr "The tape's material name, without stating whether passage is currently allowed"
+
+#. gaokaoSubjects.language.questions.0.L01.3.3
+#: src/data/gaokao.js:22
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.3.3"
+msgid "The publication sequence, without correcting the permanent–temporary distinction"
+msgstr "The publication sequence, without correcting the permanent–temporary distinction"
+
+#. gaokaoSubjects.language.questions.0.L01.5
+#: src/data/gaokao.js:23
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.5"
+msgid ""
+"The changed fact is whether the repair is permanent or temporary, which "
+"affects travel and risk decisions."
+msgstr ""
+"The changed fact is whether the repair is permanent or temporary, which "
+"affects travel and risk decisions."
+
+#. gaokaoSubjects.language.questions.1.L02.2
+#: src/data/gaokao.js:27
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.2"
+msgid ""
+"A bamboo notice says: “Do not stop at the second identical meeting point; it "
+"is last week's.” What is the soundest reading?"
+msgstr ""
+"A bamboo notice says: “Do not stop at the second identical meeting point; it "
+"is last week's.” What is the soundest reading?"
+
+#. gaokaoSubjects.language.questions.1.L02.3.0
+#: src/data/gaokao.js:28
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.3.0"
+msgid "Because they look identical, treat the later one as a reserve meeting point"
+msgstr "Because they look identical, treat the later one as a reserve meeting point"
+
+#. gaokaoSubjects.language.questions.1.L02.3.1
+#: src/data/gaokao.js:28
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.3.1"
+msgid "Route identification must check both spatial position and associated time"
+msgstr "Route identification must check both spatial position and associated time"
+
+#. gaokaoSubjects.language.questions.1.L02.3.2
+#: src/data/gaokao.js:28
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.3.2"
+msgid "“Second” means the traveller overshot and should return to the first point"
+msgstr "“Second” means the traveller overshot and should return to the first point"
+
+#. gaokaoSubjects.language.questions.1.L02.3.3
+#: src/data/gaokao.js:28
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.3.3"
+msgid "“Last week's” dates the notice and does not affect the point now in view"
+msgstr "“Last week's” dates the notice and does not affect the point now in view"
+
+#. gaokaoSubjects.language.questions.1.L02.5
+#: src/data/gaokao.js:29
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.5"
+msgid ""
+"The notice combines spatial and temporal evidence; identical appearance does "
+"not prove identical place."
+msgstr ""
+"The notice combines spatial and temporal evidence; identical appearance does "
+"not prove identical place."
+
+#. gaokaoSubjects.language.questions.2.L03.2
+#: src/data/gaokao.js:33
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.2"
+msgid "Which sentence is best suited to a research field record?"
+msgstr "Which sentence is best suited to a research field record?"
+
+#. gaokaoSubjects.language.questions.2.L03.3.0
+#: src/data/gaokao.js:34
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.3.0"
+msgid "Fairies probably extinguished the eastern lamps, because they are usually unreliable"
+msgstr "Fairies probably extinguished the eastern lamps, because they are usually unreliable"
+
+#. gaokaoSubjects.language.questions.2.L03.3.1
+#: src/data/gaokao.js:34
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.3.1"
+msgid "After the third bell, two of five eastern lamps went out"
+msgstr "After the third bell, two of five eastern lamps went out"
+
+#. gaokaoSubjects.language.questions.2.L03.3.2
+#: src/data/gaokao.js:34
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.3.2"
+msgid "The third bell caused a minor incident and the lighting failure"
+msgstr "The third bell caused a minor incident and the lighting failure"
+
+#. gaokaoSubjects.language.questions.2.L03.3.3
+#: src/data/gaokao.js:34
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.3.3"
+msgid "A duty worker says more failed yesterday, so today's condition should count as normal"
+msgstr "A duty worker says more failed yesterday, so today's condition should count as normal"
+
+#. gaokaoSubjects.language.questions.2.L03.5
+#: src/data/gaokao.js:35
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.5"
+msgid "It records time, direction, total count, and change, allowing later verification."
+msgstr "It records time, direction, total count, and change, allowing later verification."
+
+#. gaokaoSubjects.language.questions.3.L04.2
+#: src/data/gaokao.js:39
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.2"
+msgid "For the same minor incident, which headline least presents conjecture as fact?"
+msgstr "For the same minor incident, which headline least presents conjecture as fact?"
+
+#. gaokaoSubjects.language.questions.3.L04.3.0
+#: src/data/gaokao.js:40
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.3.0"
+msgid "Mountain works stop campus clocks; university investigates responsibility"
+msgstr "Mountain works stop campus clocks; university investigates responsibility"
+
+#. gaokaoSubjects.language.questions.3.L04.3.1
+#: src/data/gaokao.js:40
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.3.1"
+msgid "Campus clocks stop; cause remains under investigation"
+msgstr "Campus clocks stop; cause remains under investigation"
+
+#. gaokaoSubjects.language.questions.3.L04.3.2
+#: src/data/gaokao.js:40
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.3.2"
+msgid "Kappa deny changing time settings, so the university rules out equipment failure"
+msgstr "Kappa deny changing time settings, so the university rules out equipment failure"
+
+#. gaokaoSubjects.language.questions.3.L04.3.3
+#: src/data/gaokao.js:40
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.3.3"
+msgid "The stoppage coincides with a Mountain trial, making the works the sole cause"
+msgstr "The stoppage coincides with a Mountain trial, making the works the sole cause"
+
+#. gaokaoSubjects.language.questions.3.L04.5
+#: src/data/gaokao.js:41
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.5"
+msgid ""
+"The stoppage is observed, while “under investigation” clearly marks the "
+"cause as unknown."
+msgstr ""
+"The stoppage is observed, while “under investigation” clearly marks the "
+"cause as unknown."
+
+#. gaokaoSubjects.language.questions.4.L05.2
+#: src/data/gaokao.js:45
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.2"
+msgid ""
+"A source reads, “The gate remained but the path was lost; visitors followed "
+"the bell.” What does “lost” chiefly mean here?"
+msgstr ""
+"A source reads, “The gate remained but the path was lost; visitors followed "
+"the bell.” What does “lost” chiefly mean here?"
+
+#. gaokaoSubjects.language.questions.4.L05.3.0
+#: src/data/gaokao.js:46
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.3.0"
+msgid "The road was destroyed, forcing visitors to navigate by the bell"
+msgstr "The road was destroyed, forcing visitors to navigate by the bell"
+
+#. gaokaoSubjects.language.questions.4.L05.3.1
+#: src/data/gaokao.js:46
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.3.1"
+msgid "The road fled its former place but could still be followed by its traces"
+msgstr "The road fled its former place but could still be followed by its traces"
+
+#. gaokaoSubjects.language.questions.4.L05.3.2
+#: src/data/gaokao.js:46
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.3.2"
+msgid "The road vanished and could no longer be followed"
+msgstr "The road vanished and could no longer be followed"
+
+#. gaokaoSubjects.language.questions.4.L05.3.3
+#: src/data/gaokao.js:46
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.3.3"
+msgid "The road was lent elsewhere, requiring visitors to wait for its return"
+msgstr "The road was lent elsewhere, requiring visitors to wait for its return"
+
+#. gaokaoSubjects.language.questions.4.L05.5
+#: src/data/gaokao.js:47
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.5"
+msgid ""
+"The contrast is between a remaining gate and an untraceable path, so the "
+"sense is disappearance."
+msgstr ""
+"The contrast is between a remaining gate and an untraceable path, so the "
+"sense is disappearance."
+
+#. gaokaoSubjects.language.questions.5.L06.2
+#: src/data/gaokao.js:51
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.2"
+msgid ""
+"Which sequence makes a mistaken campus alert into the most traceable "
+"correction? ① impact scope ② preserve original headline ③ identify error ④ "
+"give correct information and time"
+msgstr ""
+"Which sequence makes a mistaken campus alert into the most traceable "
+"correction? ① impact scope ② preserve original headline ③ identify error ④ "
+"give correct information and time"
+
+#. gaokaoSubjects.language.questions.5.L06.3.0
+#: src/data/gaokao.js:52
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.3.0"
+msgid "②③④①: preserve, identify, give the timed correction, then state scope"
+msgstr "②③④①: preserve, identify, give the timed correction, then state scope"
+
+#. gaokaoSubjects.language.questions.5.L06.3.1
+#: src/data/gaokao.js:52
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.3.1"
+msgid "④②①③: publish the new information first and identify the error last"
+msgstr "④②①③: publish the new information first and identify the error last"
+
+#. gaokaoSubjects.language.questions.5.L06.3.2
+#: src/data/gaokao.js:52
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.3.2"
+msgid "③①②④: name the error and scope before preserving and correcting"
+msgstr "③①②④: name the error and scope before preserving and correcting"
+
+#. gaokaoSubjects.language.questions.5.L06.3.3
+#: src/data/gaokao.js:52
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.3.3"
+msgid "④①③②: give the update and scope now, preserving the original only afterward"
+msgstr "④①③②: give the update and scope now, preserving the original only afterward"
+
+#. gaokaoSubjects.language.questions.5.L06.5
+#: src/data/gaokao.js:53
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.5"
+msgid ""
+"Preserve the original, identify the error, supply corrected dated "
+"information, then state the affected scope."
+msgstr ""
+"Preserve the original, identify the error, supply corrected dated "
+"information, then state the affected scope."
+
+#. gaokaoSubjects.mathematics.name
+#: src/data/gaokao.js:59
+msgctxt "text:gaokaoSubjects.mathematics.name"
+msgid "Boundary Mathematics"
+msgstr "Boundary Mathematics"
+
+#. gaokaoSubjects.mathematics.note
+#: src/data/gaokao.js:60
+msgctxt "text:gaokaoSubjects.mathematics.note"
+msgid "Ratios, route networks, lunar cycles, and danmaku geometry"
+msgstr "Ratios, route networks, lunar cycles, and danmaku geometry"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.2
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.2"
+msgid "Using a 29.5-day lunar cycle, about how many complete cycles are 59 days?"
+msgstr "Using a 29.5-day lunar cycle, about how many complete cycles are 59 days?"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.3.0
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.3.0"
+msgid "1"
+msgstr "1"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.3.1
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.3.1"
+msgid "1.5"
+msgstr "1.5"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.3.2
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.3.2"
+msgid "2"
+msgstr "2"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.3.3
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.3.3"
+msgid "2.5"
+msgstr "2.5"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.5
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.5"
+msgid "59 ÷ 29.5 = 2."
+msgstr "59 ÷ 29.5 = 2."
+
+#. gaokaoSubjects.mathematics.questions.1.M02.2
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.2"
+msgid "A turbine rises from 80 to 100 output units per minute. What is the percentage increase?"
+msgstr "A turbine rises from 80 to 100 output units per minute. What is the percentage increase?"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.3.0
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.3.0"
+msgid "20%"
+msgstr "20%"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.3.1
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.3.1"
+msgid "25%"
+msgstr "25%"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.3.2
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.3.2"
+msgid "40%"
+msgstr "40%"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.3.3
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.3.3"
+msgid "80%"
+msgstr "80%"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.5
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.5"
+msgid "The increase is 20; 20 ÷ 80 = 25%."
+msgstr "The increase is 20; 20 ÷ 80 = 25%."
+
+#. gaokaoSubjects.mathematics.questions.2.M03.2
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.2"
+msgid ""
+"Gate to workshop takes 31 minutes walking. Windway: walk 6, wait 4, ride 12, "
+"walk 5. How many minutes are saved?"
+msgstr ""
+"Gate to workshop takes 31 minutes walking. Windway: walk 6, wait 4, ride 12, "
+"walk 5. How many minutes are saved?"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.3.0
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.3.0"
+msgid "4"
+msgstr "4"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.3.1
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.3.1"
+msgid "5"
+msgstr "5"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.3.2
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.3.2"
+msgid "6"
+msgstr "6"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.3.3
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.3.3"
+msgid "8"
+msgstr "8"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.5
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.5"
+msgid "The windway total is 27 minutes, saving 31 − 27 = 4."
+msgstr "The windway total is 27 minutes, saving 31 − 27 = 4."
+
+#. gaokaoSubjects.mathematics.questions.3.M04.2
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.2"
+msgid ""
+"Three equally spaced bullets are placed in each of eight directions, "
+"excluding the centre. How many bullets?"
+msgstr ""
+"Three equally spaced bullets are placed in each of eight directions, "
+"excluding the centre. How many bullets?"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.3.0
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.3.0"
+msgid "11"
+msgstr "11"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.3.1
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.3.1"
+msgid "16"
+msgstr "16"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.3.2
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.3.2"
+msgid "24"
+msgstr "24"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.3.3
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.3.3"
+msgid "27"
+msgstr "27"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.5
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.5"
+msgid "8 directions × 3 bullets = 24."
+msgstr "8 directions × 3 bullets = 24."
+
+#. gaokaoSubjects.mathematics.questions.4.M05.2
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.2"
+msgid ""
+"A prescription is 0.15 units per kilogram for a 48 kg participant. What is "
+"the total dose?"
+msgstr ""
+"A prescription is 0.15 units per kilogram for a 48 kg participant. What is "
+"the total dose?"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.3.0
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.3.0"
+msgid "6.2"
+msgstr "6.2"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.3.1
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.3.1"
+msgid "7.2"
+msgstr "7.2"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.3.2
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.3.2"
+msgid "8.0"
+msgstr "8.0"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.3.3
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.3.3"
+msgid "32"
+msgstr "32"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.5
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.5"
+msgid "0.15 × 48 = 7.2; the unit should remain attached in formal work."
+msgstr "0.15 × 48 = 7.2; the unit should remain attached in formal work."
+
+#. gaokaoSubjects.mathematics.questions.5.M06.2
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.2"
+msgid "A barrier reflection maps (3, −2) to (−3, −2). Across which line is it reflected?"
+msgstr "A barrier reflection maps (3, −2) to (−3, −2). Across which line is it reflected?"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.3.0
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.3.0"
+msgid "x-axis"
+msgstr "x-axis"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.3.1
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.3.1"
+msgid "y-axis"
+msgstr "y-axis"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.3.2
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.3.2"
+msgid "y=x"
+msgstr "y=x"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.3.3
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.3.3"
+msgid "x=−2"
+msgstr "x=−2"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.5
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.5"
+msgid "Only x changes sign, so the reflection is across the y-axis."
+msgstr "Only x changes sign, so the reflection is across the y-axis."
+
+#. gaokaoSubjects.common.name
+#: src/data/gaokao.js:72
+msgctxt "text:gaokaoSubjects.common.name"
+msgid "Shared Gensokyo Knowledge"
+msgstr "Shared Gensokyo Knowledge"
+
+#. gaokaoSubjects.common.note
+#: src/data/gaokao.js:73
+msgctxt "text:gaokaoSubjects.common.note"
+msgid "Rules, campus judgment, incidents, and shared life"
+msgstr "Rules, campus judgment, incidents, and shared life"
+
+#. gaokaoSubjects.common.questions.0.C01.2
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.2"
+msgid "What is most indispensable before a spell-card contest begins?"
+msgstr "What is most indispensable before a spell-card contest begins?"
+
+#. gaokaoSubjects.common.questions.0.C01.3.0
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.3.0"
+msgid "Publish the name and round count, leaving termination to the side with greater firepower"
+msgstr "Publish the name and round count, leaving termination to the side with greater firepower"
+
+#. gaokaoSubjects.common.questions.0.C01.3.1
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.3.1"
+msgid "Have both sides confirm the name, rules, and an exit each can identify"
+msgstr "Have both sides confirm the name, rules, and an exit each can identify"
+
+#. gaokaoSubjects.common.questions.0.C01.3.2
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.3.2"
+msgid "Let the referee hold the full rules while participants know only the start signal"
+msgstr "Let the referee hold the full rules while participants know only the start signal"
+
+#. gaokaoSubjects.common.questions.0.C01.3.3
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.3.3"
+msgid "Set the name and exit first, then write the rules around the opening round"
+msgstr "Set the name and exit first, then write the rules around the opening round"
+
+#. gaokaoSubjects.common.questions.0.C01.5
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.5"
+msgid ""
+"These elements make the contest identifiable and endable; raw power does not "
+"create rules."
+msgstr ""
+"These elements make the contest identifiable and endable; raw power does not "
+"create rules."
+
+#. gaokaoSubjects.common.questions.1.C02.2
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.2"
+msgid "A library book starts flying toward an open window. What is the best first step?"
+msgstr "A library book starts flying toward an open window. What is the best first step?"
+
+#. gaokaoSubjects.common.questions.1.C02.3.0
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.3.0"
+msgid "Close the window first and identify the book later from memory of its cover"
+msgstr "Close the window first and identify the book later from memory of its cover"
+
+#. gaokaoSubjects.common.questions.1.C02.3.1
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.3.1"
+msgid "Note the call number, alert staff, and close nearby windows"
+msgstr "Note the call number, alert staff, and close nearby windows"
+
+#. gaokaoSubjects.common.questions.1.C02.3.2
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.3.2"
+msgid "Restrain it with the nearest collection seal, then ask whether that seal was compatible"
+msgstr "Restrain it with the nearest collection seal, then ask whether that seal was compatible"
+
+#. gaokaoSubjects.common.questions.1.C02.3.3
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.3.3"
+msgid "Move it into an empty display case for observation without yet alerting staff or readers"
+msgstr "Move it into an empty display case for observation without yet alerting staff or readers"
+
+#. gaokaoSubjects.common.questions.1.C02.5
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.5"
+msgid ""
+"Control the reversible environmental risk, preserve identification, and "
+"involve the responsible staff."
+msgstr ""
+"Control the reversible environmental risk, preserve identification, and "
+"involve the responsible staff."
+
+#. gaokaoSubjects.common.questions.2.C03.2
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.2"
+msgid ""
+"A kappa prototype sparks blue while its note says normal sparks are green. "
+"What should you do?"
+msgstr ""
+"A kappa prototype sparks blue while its note says normal sparks are green. "
+"What should you do?"
+
+#. gaokaoSubjects.common.questions.2.C03.3.0
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.3.0"
+msgid "Record the blue sparks and continue at low power to see whether they are a new feature"
+msgstr "Record the blue sparks and continue at low power to see whether they are a new feature"
+
+#. gaokaoSubjects.common.questions.2.C03.3.1
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.3.1"
+msgid "Stop operation, preserve the scene, and notify workshop duty staff"
+msgstr "Stop operation, preserve the scene, and notify workshop duty staff"
+
+#. gaokaoSubjects.common.questions.2.C03.3.2
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.3.2"
+msgid "Remove power and casing immediately, documenting the original state afterward"
+msgstr "Remove power and casing immediately, documenting the original state afterward"
+
+#. gaokaoSubjects.common.questions.2.C03.3.3
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.3.3"
+msgid "Quarantine the machine and revise the normal colour to blue pending the next shift"
+msgstr "Quarantine the machine and revise the normal colour to blue pending the next shift"
+
+#. gaokaoSubjects.common.questions.2.C03.5
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.5"
+msgid "The colour differs from the documented normal state; stop before rewriting the standard."
+msgstr "The colour differs from the documented normal state; stop before rewriting the standard."
+
+#. gaokaoSubjects.common.questions.3.C04.2
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.2"
+msgid ""
+"A misleading headline was written by the corrections lecturer. What is the "
+"soundest response?"
+msgstr ""
+"A misleading headline was written by the corrections lecturer. What is the "
+"soundest response?"
+
+#. gaokaoSubjects.common.questions.3.C04.3.0
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.3.0"
+msgid "Correct the facts publicly but omit the author's role to avoid personalizing the issue"
+msgstr "Correct the facts publicly but omit the author's role to avoid personalizing the issue"
+
+#. gaokaoSubjects.common.questions.3.C04.3.1
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.3.1"
+msgid "Publish a correction and record the author's conflict of interest in the case"
+msgstr "Publish a correction and record the author's conflict of interest in the case"
+
+#. gaokaoSubjects.common.questions.3.C04.3.2
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.3.2"
+msgid "Wait for internal review, then silently replace the original headline"
+msgstr "Wait for internal review, then silently replace the original headline"
+
+#. gaokaoSubjects.common.questions.3.C04.3.3
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.3.3"
+msgid "Retain the headline and disclose the author's role, leaving credibility to readers"
+msgstr "Retain the headline and disclose the author's role, leaving credibility to readers"
+
+#. gaokaoSubjects.common.questions.3.C04.5
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.5"
+msgid ""
+"Her institutional role increases the need for a visible correction and "
+"conflict disclosure; it does not waive it."
+msgstr ""
+"Her institutional role increases the need for a visible correction and "
+"conflict disclosure; it does not waive it."
+
+#. gaokaoSubjects.common.questions.4.C05.2
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.2"
+msgid "On a full-moon clinic visit, the main corridor is closed. Which route should be used?"
+msgstr "On a full-moon clinic visit, the main corridor is closed. Which route should be used?"
+
+#. gaokaoSubjects.common.questions.4.C05.3.0
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.3.0"
+msgid "Take the Main House corridor because the clinic remains in the same complex"
+msgstr "Take the Main House corridor because the clinic remains in the same complex"
+
+#. gaokaoSubjects.common.questions.4.C05.3.1
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.3.1"
+msgid "Follow full-moon diversion from Main House through Pharmacy to the Clinic"
+msgstr "Follow full-moon diversion from Main House through Pharmacy to the Clinic"
+
+#. gaokaoSubjects.common.questions.4.C05.3.2
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.3.2"
+msgid "Wait at Yesterday's Clearing and infer the clinic direction from the campus bell"
+msgstr "Wait at Yesterday's Clearing and infer the clinic direction from the campus bell"
+
+#. gaokaoSubjects.common.questions.4.C05.3.3
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.3.3"
+msgid ""
+"Bypass the corridor via the fourth lantern, treating night signals as "
+"fresher than the map"
+msgstr ""
+"Bypass the corridor via the fourth lantern, treating night signals as "
+"fresher than the map"
+
+#. gaokaoSubjects.common.questions.4.C05.5
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.5"
+msgid "Full-moon flow diverts through Pharmacy; a fourth lantern is not reliable guidance."
+msgstr "Full-moon flow diverts through Pharmacy; a fourth lantern is not reliable guidance."
+
+#. gaokaoSubjects.common.questions.5.C06.2
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.2"
+msgid ""
+"Yukari moves a classroom “between presence and absence.” What should a "
+"student verify first?"
+msgstr ""
+"Yukari moves a classroom “between presence and absence.” What should a "
+"student verify first?"
+
+#. gaokaoSubjects.common.questions.5.C06.3.0
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.3.0"
+msgid "Whether policy definitions of class location and attendance cover such an address"
+msgstr "Whether policy definitions of class location and attendance cover such an address"
+
+#. gaokaoSubjects.common.questions.5.C06.3.1
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.3.1"
+msgid "Which side the teacher names as the room, using that declaration in place of policy"
+msgstr "Which side the teacher names as the room, using that declaration in place of policy"
+
+#. gaokaoSubjects.common.questions.5.C06.3.2
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.3.2"
+msgid "Whether the campus router currently classifies the signal as on or off campus"
+msgstr "Whether the campus router currently classifies the signal as on or off campus"
+
+#. gaokaoSubjects.common.questions.5.C06.3.3
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.3.3"
+msgid "Whether the roll marks the student absent, then use that result to define the location"
+msgstr "Whether the roll marks the student absent, then use that result to define the location"
+
+#. gaokaoSubjects.common.questions.5.C06.5
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.5"
+msgid ""
+"The issue turns on institutional definitions of location and attendance; "
+"inspect those boundaries first."
+msgstr ""
+"The issue turns on institutional definitions of location and attendance; "
+"inspect those boundaries first."
+
+#. gaokaoSubjects.humanities.name
+#: src/data/gaokao.js:85
+msgctxt "text:gaokaoSubjects.humanities.name"
+msgid "Humanities Comprehensive"
+msgstr "Humanities Comprehensive"
+
+#. gaokaoSubjects.humanities.note
+#: src/data/gaokao.js:86
+msgctxt "text:gaokaoSubjects.humanities.note"
+msgid "History, geography, journalism, faith, and public life"
+msgstr "History, geography, journalism, faith, and public life"
+
+#. gaokaoSubjects.humanities.questions.0.H01.2
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.2"
+msgid "Three sources disagree on an incident date. What is the best historical method?"
+msgstr "Three sources disagree on an incident date. What is the best historical method?"
+
+#. gaokaoSubjects.humanities.questions.0.H01.3.0
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.3.0"
+msgid "Convert all dates to one calendar, then average them into an incident date"
+msgstr "Convert all dates to one calendar, then average them into an incident date"
+
+#. gaokaoSubjects.humanities.questions.0.H01.3.1
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.3.1"
+msgid "Compare composition date, author position, and the calendar each source used"
+msgstr "Compare composition date, author position, and the calendar each source used"
+
+#. gaokaoSubjects.humanities.questions.0.H01.3.2
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.3.2"
+msgid "Prefer the earliest composition because it is less exposed to later memory"
+msgstr "Prefer the earliest composition because it is less exposed to later memory"
+
+#. gaokaoSubjects.humanities.questions.0.H01.3.3
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.3.3"
+msgid "Exclude the latest source until its date can be made to agree with the other two"
+msgstr "Exclude the latest source until its date can be made to agree with the other two"
+
+#. gaokaoSubjects.humanities.questions.0.H01.5
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.5"
+msgid "The disagreement is evidence; source conditions and calendars can explain how it arose."
+msgstr "The disagreement is evidence; source conditions and calendars can explain how it arose."
+
+#. gaokaoSubjects.humanities.questions.1.H02.2
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.2"
+msgid ""
+"Shrine, temple, and hermitage contest one public-event budget. Which plan "
+"best demonstrates public negotiation?"
+msgstr ""
+"Shrine, temple, and hermitage contest one public-event budget. Which plan "
+"best demonstrates public negotiation?"
+
+#. gaokaoSubjects.humanities.questions.1.H02.3.0
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.3.0"
+msgid "Split the budget equally first and require each party to fit its aims to that share"
+msgstr "Split the budget equally first and require each party to fit its aims to that share"
+
+#. gaokaoSubjects.humanities.questions.1.H02.3.1
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.3.1"
+msgid "Publish each party's aims, non-negotiables, shared costs, and remaining dissent"
+msgstr "Publish each party's aims, non-negotiables, shared costs, and remaining dissent"
+
+#. gaokaoSubjects.humanities.questions.1.H02.3.2
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.3.2"
+msgid "Weight funding by forecast attendance and publish only the adopted plan"
+msgstr "Weight funding by forecast attendance and publish only the adopted plan"
+
+#. gaokaoSubjects.humanities.questions.1.H02.3.3
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.3.3"
+msgid "Draw lots among complete proposals and deny shared facilities to the losing parties"
+msgstr "Draw lots among complete proposals and deny shared facilities to the losing parties"
+
+#. gaokaoSubjects.humanities.questions.1.H02.5
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.5"
+msgid ""
+"Negotiation makes resources, positions, and unresolved dissent visible "
+"instead of pretending conflict vanished."
+msgstr ""
+"Negotiation makes resources, positions, and unresolved dissent visible "
+"instead of pretending conflict vanished."
+
+#. gaokaoSubjects.humanities.questions.2.H03.2
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.2"
+msgid ""
+"The Bamboo Forest shifts daily while Eientei's gate is relatively stable. "
+"How should a map represent this?"
+msgstr ""
+"The Bamboo Forest shifts daily while Eientei's gate is relatively stable. "
+"How should a map represent this?"
+
+#. gaokaoSubjects.humanities.questions.2.H03.3.0
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.3.0"
+msgid "Draw the latest surveyed paths as solid lines and use the gate only for orientation"
+msgstr "Draw the latest surveyed paths as solid lines and use the gate only for orientation"
+
+#. gaokaoSubjects.humanities.questions.2.H03.3.1
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.3.1"
+msgid "Distinguish fixed anchors from conditional routes and timestamp each layer"
+msgstr "Distinguish fixed anchors from conditional routes and timestamp each layer"
+
+#. gaokaoSubjects.humanities.questions.2.H03.3.2
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.3.2"
+msgid "Print only each day's routes so fixed anchors do not create false confidence"
+msgstr "Print only each day's routes so fixed anchors do not create false confidence"
+
+#. gaokaoSubjects.humanities.questions.2.H03.3.3
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.3.3"
+msgid "Keep scale and gate, placing all route uncertainty in a note below the map"
+msgstr "Keep scale and gate, placing all route uncertainty in a note below the map"
+
+#. gaokaoSubjects.humanities.questions.2.H03.5
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.5"
+msgid ""
+"Conditional geography must communicate stability and freshness, not disguise "
+"temporary routes as fixed."
+msgstr ""
+"Conditional geography must communicate stability and freshness, not disguise "
+"temporary routes as fixed."
+
+#. gaokaoSubjects.humanities.questions.3.H04.2
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.2"
+msgid ""
+"Keine distinguishes what happened, what was recorded, and what was permitted "
+"to remain remembered. Which relation is closest?"
+msgstr ""
+"Keine distinguishes what happened, what was recorded, and what was permitted "
+"to remain remembered. Which relation is closest?"
+
+#. gaokaoSubjects.humanities.questions.3.H04.3.0
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.3.0"
+msgid "If two agree, a majority can reconstruct the single event that occurred"
+msgstr "If two agree, a majority can reconstruct the single event that occurred"
+
+#. gaokaoSubjects.humanities.questions.3.H04.3.1
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.3.1"
+msgid "Records and memory can both be shaped by power, media selection, and loss"
+msgstr "Records and memory can both be shaped by power, media selection, and loss"
+
+#. gaokaoSubjects.humanities.questions.3.H04.3.2
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.3.2"
+msgid "The earliest surviving record is closest to the event, and silence indicates absence"
+msgstr "The earliest surviving record is closest to the event, and silence indicates absence"
+
+#. gaokaoSubjects.humanities.questions.3.H04.3.3
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.3.3"
+msgid ""
+"Long-corrected public memory is more reliable than contemporary records and "
+"can adjudicate the event"
+msgstr ""
+"Long-corrected public memory is more reliable than contemporary records and "
+"can adjudicate the event"
+
+#. gaokaoSubjects.humanities.questions.3.H04.5
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.5"
+msgid ""
+"Historical method studies selections and losses between event, record, and "
+"public memory."
+msgstr ""
+"Historical method studies selections and losses between event, record, and "
+"public memory."
+
+#. gaokaoSubjects.humanities.questions.4.H05.2
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.2"
+msgid ""
+"Aya publishes the headline first and verifies later. What is the largest "
+"institutional risk?"
+msgstr ""
+"Aya publishes the headline first and verifies later. What is the largest "
+"institutional risk?"
+
+#. gaokaoSubjects.humanities.questions.4.H05.3.0
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.3.0"
+msgid "Readers may mistake the revised headline for a separate new incident"
+msgstr "Readers may mistake the revised headline for a separate new incident"
+
+#. gaokaoSubjects.humanities.questions.4.H05.3.1
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.3.1"
+msgid "Campus units may act on the error before correction can reverse its effects"
+msgstr "Campus units may act on the error before correction can reverse its effects"
+
+#. gaokaoSubjects.humanities.questions.4.H05.3.2
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.3.2"
+msgid "Other papers may repeat the headline without preserving its original layout"
+msgstr "Other papers may repeat the headline without preserving its original layout"
+
+#. gaokaoSubjects.humanities.questions.4.H05.3.3
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.3.3"
+msgid "The author may spend class time explaining the correction, reducing regular instruction"
+msgstr "The author may spend class time explaining the correction, reducing regular instruction"
+
+#. gaokaoSubjects.humanities.questions.4.H05.5
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.5"
+msgid ""
+"A later correction cannot automatically reverse evacuations, accusations, or "
+"resource decisions already made."
+msgstr ""
+"A later correction cannot automatically reverse evacuations, accusations, or "
+"resource decisions already made."
+
+#. gaokaoSubjects.humanities.questions.5.H06.2
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.2"
+msgid ""
+"The Hakurei donation box repeatedly leaves campus. Which research question "
+"is most analytical?"
+msgstr ""
+"The Hakurei donation box repeatedly leaves campus. Which research question "
+"is most analytical?"
+
+#. gaokaoSubjects.humanities.questions.5.H06.3.0
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.3.0"
+msgid "Whether the box initiates movement or is carried by the last person touching it"
+msgstr "Whether the box initiates movement or is carried by the last person touching it"
+
+#. gaokaoSubjects.humanities.questions.5.H06.3.1
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.3.1"
+msgid "How shrine and university rules of ownership, purpose, and location conflict"
+msgstr "How shrine and university rules of ownership, purpose, and location conflict"
+
+#. gaokaoSubjects.humanities.questions.5.H06.3.2
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.3.2"
+msgid "Whether red containers leave their assigned locations more often than others"
+msgstr "Whether red containers leave their assigned locations more often than others"
+
+#. gaokaoSubjects.humanities.questions.5.H06.3.3
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.3.3"
+msgid "Whether the last person holding the box should count as its lawful owner"
+msgstr "Whether the last person holding the box should count as its lawful owner"
+
+#. gaokaoSubjects.humanities.questions.5.H06.5
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.5"
+msgid ""
+"It locates the recurring event in competing institutional claims instead of "
+"ending with personification."
+msgstr ""
+"It locates the recurring event in competing institutional claims instead of "
+"ending with personification."
+
+#. gaokaoSubjects.science.name
+#: src/data/gaokao.js:99
+msgctxt "text:gaokaoSubjects.science.name"
+msgid "Sciences Comprehensive"
+msgstr "Sciences Comprehensive"
+
+#. gaokaoSubjects.science.note
+#: src/data/gaokao.js:100
+msgctxt "text:gaokaoSubjects.science.note"
+msgid "Magic experiments, hydropower, optics, pharmacology, and measurement"
+msgstr "Magic experiments, hydropower, optics, pharmacology, and measurement"
+
+#. gaokaoSubjects.science.questions.0.S01.2
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.2"
+msgid "Which design best isolates the effect of two starlight-magic materials?"
+msgstr "Which design best isolates the effect of two starlight-magic materials?"
+
+#. gaokaoSubjects.science.questions.0.S01.3.0
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.3.0"
+msgid "Keep caster and site fixed, but use the spell best suited to each material"
+msgstr "Keep caster and site fixed, but use the spell best suited to each material"
+
+#. gaokaoSubjects.science.questions.0.S01.3.1
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.3.1"
+msgid "Keep caster, spell, distance, and instrument fixed; change only material"
+msgstr "Keep caster, spell, distance, and instrument fixed; change only material"
+
+#. gaokaoSubjects.science.questions.0.S01.3.2
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.3.2"
+msgid "Keep spell and instrument fixed, testing each material at its usual site"
+msgstr "Keep spell and instrument fixed, testing each material at its usual site"
+
+#. gaokaoSubjects.science.questions.0.S01.3.3
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.3.3"
+msgid "Alternate materials, but let the caster adjust distance and dose after seeing each one"
+msgstr "Alternate materials, but let the caster adjust distance and dose after seeing each one"
+
+#. gaokaoSubjects.science.questions.0.S01.5
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.5"
+msgid ""
+"Controlling other variables lets the observed difference be attributed "
+"chiefly to material."
+msgstr ""
+"Controlling other variables lets the observed difference be attributed "
+"chiefly to material."
+
+#. gaokaoSubjects.science.questions.1.S02.2
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.2"
+msgid ""
+"If the shorter-wavelength guide signal scatters more strongly in mist, what "
+"practical effect is likely?"
+msgstr ""
+"If the shorter-wavelength guide signal scatters more strongly in mist, what "
+"practical effect is likely?"
+
+#. gaokaoSubjects.science.questions.1.S02.3.0
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.3.0"
+msgid "Both near and far views brighten, so directional judgment improves throughout"
+msgstr "Both near and far views brighten, so directional judgment improves throughout"
+
+#. gaokaoSubjects.science.questions.1.S02.3.1
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.3.1"
+msgid ""
+"The nearby glow brightens while distant direct signal and direction become "
+"harder to resolve"
+msgstr ""
+"The nearby glow brightens while distant direct signal and direction become "
+"harder to resolve"
+
+#. gaokaoSubjects.science.questions.1.S02.3.2
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.3.2"
+msgid "Nearby brightness falls while scattering concentrates more signal into distant outlines"
+msgstr "Nearby brightness falls while scattering concentrates more signal into distant outlines"
+
+#. gaokaoSubjects.science.questions.1.S02.3.3
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.3.3"
+msgid "Mist changes only perceived colour and leaves arrival-direction information unchanged"
+msgstr "Mist changes only perceived colour and leaves arrival-direction information unchanged"
+
+#. gaokaoSubjects.science.questions.1.S02.5
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.5"
+msgid ""
+"Stronger scattering brightens the near haze while weakening directional "
+"light from farther away."
+msgstr ""
+"Stronger scattering brightens the near haze while weakening directional "
+"light from farther away."
+
+#. gaokaoSubjects.science.questions.2.S03.2
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.2"
+msgid "A turbine loses output while head remains constant. What should be measured first?"
+msgstr "A turbine loses output while head remains constant. What should be measured first?"
+
+#. gaokaoSubjects.science.questions.2.S03.3.0
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.3.0"
+msgid "Remeasure head and, if unchanged, attribute the loss to measurement error"
+msgstr "Remeasure head and, if unchanged, attribute the loss to measurement error"
+
+#. gaokaoSubjects.science.questions.2.S03.3.1
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.3.1"
+msgid "Measure actual flow and inspect the runner for blockage"
+msgstr "Measure actual flow and inspect the runner for blockage"
+
+#. gaokaoSubjects.science.questions.2.S03.3.2
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.3.2"
+msgid "Compare output with lunar records to see whether both declined together"
+msgstr "Compare output with lunar records to see whether both declined together"
+
+#. gaokaoSubjects.science.questions.2.S03.3.3
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.3.3"
+msgid "Increase input flow until output recovers, then infer efficiency from the added flow"
+msgstr "Increase input flow until output recovers, then infer efficiency from the added flow"
+
+#. gaokaoSubjects.science.questions.2.S03.5
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.5"
+msgid ""
+"Hydraulic power depends on flow; with head fixed, reduced flow or mechanical "
+"blockage are direct candidates."
+msgstr ""
+"Hydraulic power depends on flow; with head fixed, reduced flow or mechanical "
+"blockage are direct candidates."
+
+#. gaokaoSubjects.science.questions.3.S04.2
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.2"
+msgid "When studying full-moon effects on spatial judgment, which comparison is most important?"
+msgstr "When studying full-moon effects on spatial judgment, which comparison is most important?"
+
+#. gaokaoSubjects.science.questions.3.S04.3.0
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.3.0"
+msgid "Use the same participants on an easier full-moon route to reduce navigation risk"
+msgstr "Use the same participants on an easier full-moon route to reduce navigation risk"
+
+#. gaokaoSubjects.science.questions.3.S04.3.1
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.3.1"
+msgid "Comparable participants on the same route at a similar time under a non-full moon"
+msgstr "Comparable participants on the same route at a similar time under a non-full moon"
+
+#. gaokaoSubjects.science.questions.3.S04.3.2
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.3.2"
+msgid ""
+"Use different participants on another route in non-full-moon daylight for a "
+"clear baseline"
+msgstr ""
+"Use different participants on another route in non-full-moon daylight for a "
+"clear baseline"
+
+#. gaokaoSubjects.science.questions.3.S04.3.3
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.3.3"
+msgid ""
+"Repeat the full-moon route with the same participants to estimate average "
+"practice effects"
+msgstr ""
+"Repeat the full-moon route with the same participants to estimate average "
+"practice effects"
+
+#. gaokaoSubjects.science.questions.3.S04.5
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.5"
+msgid ""
+"The comparison should chiefly vary lunar phase while holding time, route, "
+"and participant conditions similar."
+msgstr ""
+"The comparison should chiefly vary lunar phase while holding time, route, "
+"and participant conditions similar."
+
+#. gaokaoSubjects.science.questions.4.S05.2
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.2"
+msgid ""
+"Marisa reproduces an explosion precisely, but records the material source "
+"only as “found in the forest.” What is most impaired?"
+msgstr ""
+"Marisa reproduces an explosion precisely, but records the material source "
+"only as “found in the forest.” What is most impaired?"
+
+#. gaokaoSubjects.science.questions.4.S05.3.0
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.3.0"
+msgid "Determining whether exactly the same casting motions were used each time"
+msgstr "Determining whether exactly the same casting motions were used each time"
+
+#. gaokaoSubjects.science.questions.4.S05.3.1
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.3.1"
+msgid ""
+"Enabling others to obtain equivalent material for an interpretable "
+"independent replication"
+msgstr ""
+"Enabling others to obtain equivalent material for an interpretable "
+"independent replication"
+
+#. gaokaoSubjects.science.questions.4.S05.3.2
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.3.2"
+msgid "Comparing whether blast brightness correlates with flight speed"
+msgstr "Comparing whether blast brightness correlates with flight speed"
+
+#. gaokaoSubjects.science.questions.4.S05.3.3
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.3.3"
+msgid "Establishing whether forest material succeeds more often than library samples"
+msgstr "Establishing whether forest material succeeds more often than library samples"
+
+#. gaokaoSubjects.science.questions.4.S05.5
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.5"
+msgid ""
+"Repeatable procedure is not traceable material; provenance is needed to "
+"establish equivalence for independent replication."
+msgstr ""
+"Repeatable procedure is not traceable material; provenance is needed to "
+"establish equivalence for independent replication."
+
+#. gaokaoSubjects.science.questions.5.S06.2
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.2"
+msgid ""
+"A bamboo navigator is accurate by day but drifts toward a fourth lantern at "
+"night. What is the best next step?"
+msgstr ""
+"A bamboo navigator is accurate by day but drifts toward a fourth lantern at "
+"night. What is the best next step?"
+
+#. gaokaoSubjects.science.questions.5.S06.3.0
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.3.0"
+msgid "Retain the night data and designate the fourth lantern as the official night destination"
+msgstr "Retain the night data and designate the fourth lantern as the official night destination"
+
+#. gaokaoSubjects.science.questions.5.S06.3.1
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.3.1"
+msgid "Record sensor spectrum, lamp count, and time; run shielded and three-lamp controls"
+msgstr "Record sensor spectrum, lamp count, and time; run shielded and three-lamp controls"
+
+#. gaokaoSubjects.science.questions.5.S06.3.2
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.3.2"
+msgid "Compare mean day and night error and infer forest movement if night error is larger"
+msgstr "Compare mean day and night error and infer forest movement if night error is larger"
+
+#. gaokaoSubjects.science.questions.5.S06.3.3
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.3.3"
+msgid "Increase announcement volume and retest whether the navigator ignored instructions"
+msgstr "Increase announcement volume and retest whether the navigator ignored instructions"
+
+#. gaokaoSubjects.science.questions.5.S06.5
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.5"
+msgid ""
+"The failure correlates with night lighting; measurements and controls can "
+"separate sensor interference from route movement."
+msgstr ""
+"The failure correlates with night lighting; measurements and controls can "
+"separate sensor interference from route movement."
+
+#. gaokaoTracks.humanities.name
+#: src/data/gaokao.js:115
+msgctxt "text:gaokaoTracks.humanities.name"
+msgid "Humanities Track"
+msgstr "Humanities Track"
+
+#. gaokaoTracks.science.name
+#: src/data/gaokao.js:120
+msgctxt "text:gaokaoTracks.science.name"
+msgid "Sciences Track"
+msgstr "Sciences Track"
+
+#. gaokaoDifficulties.normal.description
+#: src/data/gaokao.js:137
+msgctxt "text:gaokaoDifficulties.normal.description"
+msgid ""
+"Foundation · 24 questions. Read the notices, calculate the route, and do not "
+"follow the fourth lantern."
+msgstr ""
+"Foundation · 24 questions. Read the notices, calculate the route, and do not "
+"follow the fourth lantern."
+
+#. gaokaoDifficulties.hard.description
+#: src/data/gaokao.js:143
+msgctxt "text:gaokaoDifficulties.hard.description"
+msgid "Source paper · 12 questions. Every item combines at least two records or conditions."
+msgstr "Source paper · 12 questions. Every item combines at least two records or conditions."
+
+#. gaokaoDifficulties.lunatic.description
+#: src/data/gaokao.js:149
+msgctxt "text:gaokaoDifficulties.lunatic.description"
+msgid ""
+"Cross-source reasoning · 12 questions. Lunar phases, versions, route graphs, "
+"and conflicting testimony arrive together."
+msgstr ""
+"Cross-source reasoning · 12 questions. Lunar phases, versions, route graphs, "
+"and conflicting testimony arrive together."
+
+#. gaokaoDifficulties.extra.description
+#: src/data/gaokao.js:155
+msgctxt "text:gaokaoDifficulties.extra.description"
+msgid ""
+"Incident paper · 12 questions. Trace data generation, fault timelines, and "
+"identifiable causal designs."
+msgstr ""
+"Incident paper · 12 questions. Trace data generation, fault timelines, and "
+"identifiable causal designs."

@@ -1,0 +1,526 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/eyebrow"
+msgid "SPELL-CARD DESIGN + ETHICS WORKSHOP"
+msgstr "SPELL-CARD DESIGN + ETHICS WORKSHOP"
+
+#. copy/title
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/title"
+msgid "A spell card is not one fairness score."
+msgstr "スペルカードは、一枚の公平点ではない。"
+
+#. copy/lead
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/lead"
+msgid ""
+"Fly your own rule, then hear six incompatible reviews. Reimu watches exits, "
+"Marisa expression and reproducibility, Aya the audience, Nitori collision "
+"stability, Eirin stimulation, while the Misty Lake fairies refuse to let the "
+"whole venue contain nothing but alarms."
+msgstr "自分の規則をまず飛び、六者の不一致を聞く。霊夢は退路、魔理沙は表現と再現、文は観客、にとりは当たり、永琳は刺激、霧の湖妖精は会場から警報以外の音が消えることに反対する。"
+
+#. copy/notice
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/notice"
+msgid "Today's demonstration conditions"
+msgstr "本日の試演条件"
+
+#. copy/designTab
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/designTab"
+msgid "Design & test-flight"
+msgstr "設計・試飛"
+
+#. copy/archiveTab
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/archiveTab"
+msgid "My spell-card files"
+msgstr "私のスペル記録"
+
+#. copy/archiveCounts
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/archiveCounts"
+msgid "designs / defences"
+msgstr "設計／答弁"
+
+#. copy/sandbox
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/sandbox"
+msgid "Lightweight test-flight sandbox"
+msgstr "軽量試飛サンドボックス"
+
+#. copy/sandboxLead
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/sandboxLead"
+msgid "Move with arrows or WASD, hold Shift for focus speed, or drag the player directly."
+msgstr "方向キーまたは WASD で移動。Shift で低速、画面上の自機を直接ドラッグ可能。"
+
+#. copy/resetFlight
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/resetFlight"
+msgid "Reset flight"
+msgstr "試飛をリセット"
+
+#. copy/pause
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/pause"
+msgid "Pause"
+msgstr "一時停止"
+
+#. copy/resume
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/resume"
+msgid "Resume"
+msgstr "再開"
+
+#. copy/collisions
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/collisions"
+msgid "Hits"
+msgstr "被弾"
+
+#. copy/grazes
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/grazes"
+msgid "Grazes"
+msgstr "グレイズ"
+
+#. copy/declaration
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/declaration"
+msgid "Declaration cue"
+msgstr "宣言予告中"
+
+#. copy/flight
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/flight"
+msgid "Test flight"
+msgstr "試飛中"
+
+#. copy/pattern
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/pattern"
+msgid "Danmaku frame"
+msgstr "弾幕骨格"
+
+#. copy/venue
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/venue"
+msgid "Demonstration venue"
+msgstr "試演会場"
+
+#. copy/cue
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/cue"
+msgid "Visual cue"
+msgstr "視覚予告"
+
+#. copy/sound
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/sound"
+msgid "Sound cue"
+msgstr "音響予告"
+
+#. copy/name
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/name"
+msgid "Spell-card name"
+msgstr "スペルカード名"
+
+#. copy/namePlaceholder
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/namePlaceholder"
+msgid "Example: Star Sign “The Seventh Exit the Paper Missed”"
+msgstr "例：星符「報じられなかった第七の退路」"
+
+#. copy/speed
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/speed"
+msgid "Shot speed"
+msgstr "弾速"
+
+#. copy/density
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/density"
+msgid "On-screen density"
+msgstr "同時密度"
+
+#. copy/symmetry
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/symmetry"
+msgid "Symmetry"
+msgstr "対称性"
+
+#. copy/randomness
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/randomness"
+msgid "Random variation"
+msgstr "乱数幅"
+
+#. copy/declarationDelay
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/declarationDelay"
+msgid "Declaration to wave one"
+msgstr "宣言から第一波"
+
+#. copy/corridorWidth
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/corridorWidth"
+msgid "Safe corridor"
+msgstr "安全回廊"
+
+#. copy/changeFrequency
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/changeFrequency"
+msgid "Change frequency"
+msgstr "変化頻度"
+
+#. copy/duration
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/duration"
+msgid "Duration"
+msgstr "持続時間"
+
+#. copy/flashLevel
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/flashLevel"
+msgid "Added flashing"
+msgstr "追加点滅"
+
+#. copy/seedLock
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/seedLock"
+msgid "Lock random seed and collision version"
+msgstr "乱数種と当たり版を固定"
+
+#. copy/stopSignal
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/stopSignal"
+msgid "Retain a recognisable stop signal"
+msgstr "識別可能な停止合図を残す"
+
+#. copy/audienceBriefing
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/audienceBriefing"
+msgid "Give the audience a solution-free cue beforehand"
+msgstr "答えなしの予告を観客へ事前提示"
+
+#. copy/liveConditions
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/liveConditions"
+msgid "Bring today's moon and campus incidents into the test"
+msgstr "本日の月相と学内事案を試演へ反映"
+
+#. copy/fieldNote
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/fieldNote"
+msgid "Design memorandum"
+msgstr "設計備忘"
+
+#. copy/fieldPlaceholder
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/fieldPlaceholder"
+msgid ""
+"Record an intentionally retained risk, a route not taken, or the part that "
+"looks suspiciously beautiful."
+msgstr "意図して残す危険、採らなかった経路、または美しすぎて疑わしい箇所を記録。"
+
+#. copy/metrics
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/metrics"
+msgid "Measurements that refuse to merge"
+msgstr "合算を拒む測定"
+
+#. copy/corridorMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/corridorMetric"
+msgid "Effective corridor"
+msgstr "有効回廊"
+
+#. copy/projectileMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/projectileMetric"
+msgid "Shot budget"
+msgstr "弾数予算"
+
+#. copy/workloadMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/workloadMetric"
+msgid "Collision load"
+msgstr "当たり負荷"
+
+#. copy/readabilityMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/readabilityMetric"
+msgid "Readable signal"
+msgstr "可読信号"
+
+#. copy/expressionMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/expressionMetric"
+msgid "Expressive shape"
+msgstr "表現輪郭"
+
+#. copy/reproducibilityMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/reproducibilityMetric"
+msgid "Reproduction"
+msgstr "再現条件"
+
+#. copy/fatigueMetric
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/fatigueMetric"
+msgid "Stimulus / fatigue"
+msgstr "刺激／疲労"
+
+#. copy/units
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/units"
+msgid "shots"
+msgstr "発"
+
+#. copy/reviews
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/reviews"
+msgid "Six workshop marginalia"
+msgstr "六者工房注記"
+
+#. copy/approve
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/approve"
+msgid "May demonstrate"
+msgstr "試演可"
+
+#. copy/caution
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/caution"
+msgid "Conditional"
+msgstr "条件付"
+
+#. copy/object
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/object"
+msgid "Objects to public use"
+msgstr "公開反対"
+
+#. copy/noSingleScore
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/noSingleScore"
+msgid ""
+"There is no total score. Averaging objections produces a conclusion nobody "
+"actually signed."
+msgstr "総合点はない。反対を平均すると、誰も署名していない結論だけが残る。"
+
+#. copy/autosaved
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/autosaved"
+msgid "Draft saved on this device"
+msgstr "下書きはこの端末に保存済み"
+
+#. copy/clear
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/clear"
+msgid "Clear the bench"
+msgstr "作業台を空にする"
+
+#. copy/save
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/save"
+msgid "Archive this design version"
+msgstr "この設計版を封印"
+
+#. copy/nameRequired
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/nameRequired"
+msgid "Name the spell card first. “Untitled” will not answer for you in a defence."
+msgstr "先にスペルカードを命名してください。「無題」は答弁で代答しません。"
+
+#. copy/saved
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/saved"
+msgid "Design archived; six reviews were not allowed to cancel one another."
+msgstr "設計版を保存。六者の注記は相殺されていない。"
+
+#. copy/designFile
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/designFile"
+msgid "Spell-card design file"
+msgstr "スペルカード設計記録"
+
+#. copy/version
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/version"
+msgid "Version source"
+msgstr "版の出所"
+
+#. copy/firstVersion
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/firstVersion"
+msgid "First version"
+msgstr "初版"
+
+#. copy/created
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/created"
+msgid "Archived"
+msgstr "保存時刻"
+
+#. copy/conditionsAtSave
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/conditionsAtSave"
+msgid "Archive conditions"
+msgstr "保存環境"
+
+#. copy/revise
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/revise"
+msgid "Revise from this version"
+msgstr "この版から改稿"
+
+#. copy/defend
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/defend"
+msgid "Send to public defence"
+msgstr "公開答弁へ送る"
+
+#. copy/print
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/print"
+msgid "Print / save PDF"
+msgstr "印刷／PDF保存"
+
+#. copy/openBbs
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/openBbs"
+msgid "Open linked BBS"
+msgstr "連動 BBS を見る"
+
+#. copy/noDesigns
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/noDesigns"
+msgid "No design has been archived on this device. The draft remains on the bench."
+msgstr "この端末に保存設計はまだない。下書きは作業台に残っている。"
+
+#. copy/allDesigns
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/allDesigns"
+msgid "On-device version shelf"
+msgstr "端末内の版棚"
+
+#. copy/noDefence
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/noDefence"
+msgid "No public defence"
+msgstr "公開答弁なし"
+
+#. copy/defended
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/defended"
+msgid "Defended"
+msgstr "答弁済み"
+
+#. copy/publicDefence
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/publicDefence"
+msgid "Public Spell-Card Ethics Defence"
+msgstr "スペルカード倫理公開答弁"
+
+#. copy/defenceLead
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/defenceLead"
+msgid ""
+"Three examiners do not average one another. The strongest current external "
+"objection takes seat three."
+msgstr "三名は互いの意見を平均しない。第三席は現在もっとも強く反対する外部者が取る。"
+
+#. copy/majority
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/majority"
+msgid "Majority ruling"
+msgstr "多数裁定"
+
+#. copy/minority
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/minority"
+msgid "Minority / reserved opinion"
+msgstr "少数／留保意見"
+
+#. copy/conditions
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/conditions"
+msgid "Red-cord conditions"
+msgstr "赤紐条件"
+
+#. copy/answerAll
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/answerAll"
+msgid ""
+"Leave a position on all three questions. Silence preserves the draft; it is "
+"not a defence."
+msgstr "三問すべてに立場を残すこと。沈黙は下書きを残すが、答弁にはならない。"
+
+#. copy/submitDefence
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/submitDefence"
+msgid "Submit three answers for public ruling"
+msgstr "三問を提出し公開裁定"
+
+#. copy/defenceSaved
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/defenceSaved"
+msgid "Defence retained; majority and minority opinions entered separate fields."
+msgstr "答弁を保存。多数意見と少数意見は別々に記録された。"
+
+#. copy/voteApprove
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/voteApprove"
+msgid "Approve"
+msgstr "同意"
+
+#. copy/voteConditional
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/voteConditional"
+msgid "Conditional"
+msgstr "条件同意"
+
+#. copy/voteReject
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/voteReject"
+msgid "Object"
+msgstr "反対"
+
+#. copy/selectedAnswer
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/selectedAnswer"
+msgid "Your defence"
+msgstr "あなたの答弁"
+
+#. copy/documentTitle
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/documentTitle"
+msgid "Spell-Card Ethics Review & Design File"
+msgstr "スペルカード倫理審査・設計記録"
+
+#. copy/documentNote
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/documentNote"
+msgid ""
+"Generated from design and defence records in this browser. Red-cord "
+"conditions are not decoration."
+msgstr "本記録は現在のブラウザ内の設計・答弁から生成。赤紐条件は装飾ではない。"
+
+#. copy/backDesign
+#: src/js/spellcard-workshop.js:42
+msgctxt "tree:copy#/backDesign"
+msgid "Return to design bench"
+msgstr "設計台へ戻る"

@@ -1,0 +1,2044 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. incidentCases.late-bell-seven.location
+#: src/data/incidents.js:16
+msgctxt "text:incidentCases.late-bell-seven.location"
+msgid "Boundary Hall · Bell Tower"
+msgstr "境界講堂・校鐘塔"
+
+#. incidentCases.late-bell-seven.title
+#: src/data/incidents.js:17
+msgctxt "text:incidentCases.late-bell-seven.title"
+msgid "Seven punctual students heard the latecomer-only bell"
+msgstr "只對遲到者可聞的校鐘，被七名準時者聽見"
+
+#. incidentCases.late-bell-seven.lede
+#: src/data/incidents.js:18
+msgctxt "text:incidentCases.late-bell-seven.lede"
+msgid ""
+"On the first trial day, the bell should have reached only latecomers. Seven "
+"students with punctual records heard the same strike in different places; "
+"three then left their next class early."
+msgstr "試行首日，校鐘按規則只應傳給遲到者；七名出席紀錄正常的學生卻在不同位置聽見同一聲鐘，其中三人因此提早離開下一堂課。"
+
+#. incidentCases.late-bell-seven.dispatch
+#: src/data/incidents.js:19
+msgctxt "text:incidentCases.late-bell-seven.dispatch"
+msgid ""
+"Automatic judgment is suspended; ordinary timekeeping remains active. Do not "
+"be deliberately late for testing."
+msgstr "鐘樓暫停自動判定，但普通報時仍運作。不要為測試而故意遲到。"
+
+#. incidentCases.late-bell-seven.affected
+#: src/data/incidents.js:20
+msgctxt "text:incidentCases.late-bell-seven.affected"
+msgid "7 students, 2 classes, and 1 roll book insisting it is correct"
+msgstr "7 名學生、2 門課、1 份堅稱無誤的點名冊"
+
+#. incidentCases.late-bell-seven.signal
+#: src/data/incidents.js:21
+msgctxt "text:incidentCases.late-bell-seven.signal"
+msgid "Bell detection among non-targets"
+msgstr "非目標者聽見鐘聲的比例"
+
+#. incidentCases.late-bell-seven.unit
+#: src/data/incidents.js:22
+msgctxt "text:incidentCases.late-bell-seven.unit"
+msgid "percentage points"
+msgstr "百分點"
+
+#. incidentCases.late-bell-seven.hypotheses.0.roster-lag.1
+#: src/data/incidents.js:26
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.0.roster-lag.1"
+msgid "The roll clock lags behind the bell"
+msgstr "點名冊時間比鐘樓慢一刻"
+
+#. incidentCases.late-bell-seven.hypotheses.0.roster-lag.2
+#: src/data/incidents.js:26
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.0.roster-lag.2"
+msgid ""
+"The tower reads the submitted snapshot; classroom records show punctuality "
+"after Keine’s annotation."
+msgstr "鐘樓讀取的是交卷時快照，教室則在慧音補記後顯示準時。"
+
+#. incidentCases.late-bell-seven.hypotheses.1.wing-reflection.1
+#: src/data/incidents.js:27
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.1.wing-reflection.1"
+msgid "Large wings reflected the bell to bystanders"
+msgstr "大型翅翼把鐘聲反射給旁人"
+
+#. incidentCases.late-bell-seven.hypotheses.1.wing-reflection.2
+#: src/data/incidents.js:27
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.1.wing-reflection.2"
+msgid ""
+"Four of seven stood near the tengu approach, where sound may have bypassed "
+"personal wards."
+msgstr "七人中四人靠近天狗進場線，聲音可能繞過個人化結界。"
+
+#. incidentCases.late-bell-seven.hypotheses.2.expectation.1
+#: src/data/incidents.js:28
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.2.expectation.1"
+msgid "The bulletin created an expectation of hearing it"
+msgstr "速報先讓大家預期自己會聽見"
+
+#. incidentCases.late-bell-seven.hypotheses.2.expectation.2
+#: src/data/incidents.js:28
+msgctxt "text:incidentCases.late-bell-seven.hypotheses.2.expectation.2"
+msgid "Bunbunmaru Campus News issued “Late Bell Rings” nine minutes before the trial."
+msgstr "文文。校報在正式試行前九分鐘發出「遲到鐘已響」的號外。"
+
+#. incidentCases.late-bell-seven.evidence.0.tower-log.2
+#: src/data/incidents.js:31
+msgctxt "text:incidentCases.late-bell-seven.evidence.0.tower-log.2"
+msgid "Bell decision log v1.3"
+msgstr "鐘樓判定紀錄 v1.3"
+
+#. incidentCases.late-bell-seven.evidence.0.tower-log.3
+#: src/data/incidents.js:31
+msgctxt "text:incidentCases.late-bell-seven.evidence.0.tower-log.3"
+msgid ""
+"Seven IDs were marked late at 08:09:58; the classroom roll shows 08:09:41. "
+"The two systems do not share the same boundary for 08:10."
+msgstr "七個學籍編號在 08:09:58 被標成遲到；教室點名頁顯示 08:09:41 到席。兩個系統的『08:10』不是同一個邊界。"
+
+#. incidentCases.late-bell-seven.evidence.0.tower-log.4
+#: src/data/incidents.js:31
+msgctxt "text:incidentCases.late-bell-seven.evidence.0.tower-log.4"
+msgid "Kappa tower terminal"
+msgstr "河童鐘樓終端"
+
+#. incidentCases.late-bell-seven.evidence.1.roll-page.2
+#: src/data/incidents.js:32
+msgctxt "text:incidentCases.late-bell-seven.evidence.1.roll-page.2"
+msgid "Roll page annotated by Keine"
+msgstr "慧音補記過的點名頁"
+
+#. incidentCases.late-bell-seven.evidence.1.roll-page.3
+#: src/data/incidents.js:32
+msgctxt "text:incidentCases.late-bell-seven.evidence.1.roll-page.3"
+msgid ""
+"The “punctual” ink dried after the bell, but refers to an arrival before it. "
+"Keine notes this is a correction, not time travel."
+msgstr "墨水乾燥層顯示『準時』寫在鐘響後，但記錄所指的到席時間在鐘響前。補記是更正，不是時間旅行——至少慧音如此註明。"
+
+#. incidentCases.late-bell-seven.evidence.1.roll-page.4
+#: src/data/incidents.js:32
+msgctxt "text:incidentCases.late-bell-seven.evidence.1.roll-page.4"
+msgid "History & Records"
+msgstr "歷史記錄學院"
+
+#. incidentCases.late-bell-seven.evidence.2.roof-audio.2
+#: src/data/incidents.js:33
+msgctxt "text:incidentCases.late-bell-seven.evidence.2.roof-audio.2"
+msgid "Four-way roof audio"
+msgstr "屋頂四向錄音"
+
+#. incidentCases.late-bell-seven.evidence.2.roof-audio.3
+#: src/data/incidents.js:33
+msgctxt "text:incidentCases.late-bell-seven.evidence.2.roof-audio.3"
+msgid ""
+"A 0.7-second echo appears north; only two affected students were there. Wing "
+"reflection explains part, not all seven."
+msgstr "北側錄到 0.7 秒回聲，但只有兩名受影響者位於北側；翼面反射能解釋局部，不能單獨解釋七人。"
+
+#. incidentCases.late-bell-seven.evidence.2.roof-audio.4
+#: src/data/incidents.js:33
+msgctxt "text:incidentCases.late-bell-seven.evidence.2.roof-audio.4"
+msgid "Tengu Observatory"
+msgstr "天狗觀測所"
+
+#. incidentCases.late-bell-seven.evidence.3.extra-edition.2
+#: src/data/incidents.js:34
+msgctxt "text:incidentCases.late-bell-seven.evidence.3.extra-edition.2"
+msgid "Extra edition nine minutes before the bell"
+msgstr "比鐘聲早九分鐘的號外"
+
+#. incidentCases.late-bell-seven.evidence.3.extra-edition.3
+#: src/data/incidents.js:34
+msgctxt "text:incidentCases.late-bell-seven.evidence.3.extra-edition.3"
+msgid ""
+"The headline says the bell rang; the body says it is due later. Aya says the "
+"headline used “the present when readers reach the paper.”"
+msgstr "標題聲稱鐘已響，正文卻寫『預計於辰末試行』。文表示標題採用了『讀者抵達報紙時的現在』。"
+
+#. incidentCases.late-bell-seven.evidence.3.extra-edition.4
+#: src/data/incidents.js:34
+msgctxt "text:incidentCases.late-bell-seven.evidence.3.extra-edition.4"
+msgid "Bunbunmaru clipping"
+msgstr "文文。校報剪貼"
+
+#. incidentCases.late-bell-seven.testimony.0.student-17.1
+#: src/data/incidents.js:37
+msgctxt "text:incidentCases.late-bell-seven.testimony.0.student-17.1"
+msgid "Outside exchange student 17"
+msgstr "外界交換生 17 號"
+
+#. incidentCases.late-bell-seven.testimony.0.student-17.2
+#: src/data/incidents.js:37
+msgctxt "text:incidentCases.late-bell-seven.testimony.0.student-17.2"
+msgid "Affected student"
+msgstr "受影響者"
+
+#. incidentCases.late-bell-seven.testimony.0.student-17.3
+#: src/data/incidents.js:37
+msgctxt "text:incidentCases.late-bell-seven.testimony.0.student-17.3"
+msgid ""
+"I saw the extra first but assumed it was newspaper tense. I checked the roll "
+"only after hearing the actual bell."
+msgstr "我先看到號外，但當時覺得那是新聞時態；真正聽見鐘後，我才查點名頁。"
+
+#. incidentCases.late-bell-seven.testimony.0.student-17.4
+#: src/data/incidents.js:37
+msgctxt "text:incidentCases.late-bell-seven.testimony.0.student-17.4"
+msgid ""
+"Expectation remains possible, but the student describes the northbound echo "
+"after the strike."
+msgstr "不能排除期待效應，但他能描述鐘後的北向回聲。"
+
+#. incidentCases.late-bell-seven.testimony.1.aya.1
+#: src/data/incidents.js:38
+msgctxt "text:incidentCases.late-bell-seven.testimony.1.aya.1"
+msgid "Aya Shameimaru"
+msgstr "射命丸文"
+
+#. incidentCases.late-bell-seven.testimony.1.aya.2
+#: src/data/incidents.js:38
+msgctxt "text:incidentCases.late-bell-seven.testimony.1.aya.2"
+msgid "Publisher / observer"
+msgstr "發稿者／觀測者"
+
+#. incidentCases.late-bell-seven.testimony.1.aya.3
+#: src/data/incidents.js:38
+msgctxt "text:incidentCases.late-bell-seven.testimony.1.aya.3"
+msgid ""
+"I did not make the bell ring early. I merely knew it would ring before it "
+"did. Journalism treats those very differently."
+msgstr "我沒有讓鐘提早響；我只是比鐘早知道它會響。兩件事在新聞學上差很多。"
+
+#. incidentCases.late-bell-seven.testimony.1.aya.4
+#: src/data/incidents.js:38
+msgctxt "text:incidentCases.late-bell-seven.testimony.1.aya.4"
+msgid "She controls part of the exposure and the first public narrative."
+msgstr "她同時控制部分暴露與第一份公開敘事。"
+
+#. incidentCases.late-bell-seven.testimony.2.nitori.1
+#: src/data/incidents.js:39
+msgctxt "text:incidentCases.late-bell-seven.testimony.2.nitori.1"
+msgid "Nitori Kawashiro"
+msgstr "河城荷取"
+
+#. incidentCases.late-bell-seven.testimony.2.nitori.2
+#: src/data/incidents.js:39
+msgctxt "text:incidentCases.late-bell-seven.testimony.2.nitori.2"
+msgid "Equipment maintainer"
+msgstr "設備維護"
+
+#. incidentCases.late-bell-seven.testimony.2.nitori.3
+#: src/data/incidents.js:39
+msgctxt "text:incidentCases.late-bell-seven.testimony.2.nitori.3"
+msgid ""
+"The tower clock is absolutely accurate. Whether it reads today’s roll was "
+"not in my procurement specification."
+msgstr "鐘樓時鐘絕對準。至於它讀的點名冊是不是今天那份，採購規格沒有要求我回答。"
+
+#. incidentCases.late-bell-seven.testimony.2.nitori.4
+#: src/data/incidents.js:39
+msgctxt "text:incidentCases.late-bell-seven.testimony.2.nitori.4"
+msgid "Instrument time and data version are separate questions."
+msgstr "設備時鐘與資料版本是兩個問題。"
+
+#. incidentCases.late-bell-seven.actions.0.freeze-roster.1
+#: src/data/incidents.js:42
+msgctxt "text:incidentCases.late-bell-seven.actions.0.freeze-roster.1"
+msgid "Freeze the tower’s roll version"
+msgstr "凍結鐘樓點名冊版本"
+
+#. incidentCases.late-bell-seven.actions.0.freeze-roster.2
+#: src/data/incidents.js:42
+msgctxt "text:incidentCases.late-bell-seven.actions.0.freeze-roster.2"
+msgid "Use one roll snapshot throughout a trial, accepting Keine’s annotations afterward."
+msgstr "讓一次測試全程使用同一份點名快照，結束後再接受慧音補記。"
+
+#. incidentCases.late-bell-seven.actions.0.freeze-roster.3
+#: src/data/incidents.js:42
+msgctxt "text:incidentCases.late-bell-seven.actions.0.freeze-roster.3"
+msgid "Some corrected lateness remains temporarily visible."
+msgstr "會暫時顯示部分已更正的遲到。"
+
+#. incidentCases.late-bell-seven.actions.1.calibrate-clocks.1
+#: src/data/incidents.js:43
+msgctxt "text:incidentCases.late-bell-seven.actions.1.calibrate-clocks.1"
+msgid "Synchronise tower and classroom boundaries"
+msgstr "同步鐘樓與教室邊界時刻"
+
+#. incidentCases.late-bell-seven.actions.1.calibrate-clocks.2
+#: src/data/incidents.js:43
+msgctxt "text:incidentCases.late-bell-seven.actions.1.calibrate-clocks.2"
+msgid "Mark 08:10 on both sides with one pulse without rewriting existing attendance."
+msgstr "用同一個脈衝標記兩邊的 08:10，不改動既有點名內容。"
+
+#. incidentCases.late-bell-seven.actions.1.calibrate-clocks.3
+#: src/data/incidents.js:43
+msgctxt "text:incidentCases.late-bell-seven.actions.1.calibrate-clocks.3"
+msgid "Yukari wants the pulse’s side defined while it crosses."
+msgstr "紫要求先定義脈衝跨境時算哪一側。"
+
+#. incidentCases.late-bell-seven.actions.2.quiet-trial.1
+#: src/data/incidents.js:44
+msgctxt "text:incidentCases.late-bell-seven.actions.2.quiet-trial.1"
+msgid "Run one morning without advance headlines"
+msgstr "無速報盲測一個早晨"
+
+#. incidentCases.late-bell-seven.actions.2.quiet-trial.2
+#: src/data/incidents.js:44
+msgctxt "text:incidentCases.late-bell-seven.actions.2.quiet-trial.2"
+msgid "Journalism may observe, but publication waits until after the strike."
+msgstr "新聞學院仍可觀測，但截稿在鐘響後；測量期待效應。"
+
+#. incidentCases.late-bell-seven.actions.2.quiet-trial.3
+#: src/data/incidents.js:44
+msgctxt "text:incidentCases.late-bell-seven.actions.2.quiet-trial.3"
+msgid "Aya has pre-filed “University Delays Vital Information.”"
+msgstr "文已提交標題為『校方延遲重要資訊』的預備稿。"
+
+#. incidentCases.late-bell-seven.actions.3.move-berth.1
+#: src/data/incidents.js:45
+msgctxt "text:incidentCases.late-bell-seven.actions.3.move-berth.1"
+msgid "Temporarily move the north large-wing berth"
+msgstr "暫移北側大型翼停泊線"
+
+#. incidentCases.late-bell-seven.actions.3.move-berth.2
+#: src/data/incidents.js:45
+msgctxt "text:incidentCases.late-bell-seven.actions.3.move-berth.2"
+msgid "Remove wing reflection from the next round and compare north with south."
+msgstr "把翼面反射從下一輪中移除，再比較南北差異。"
+
+#. incidentCases.late-bell-seven.actions.3.move-berth.3
+#: src/data/incidents.js:45
+msgctxt "text:incidentCases.late-bell-seven.actions.3.move-berth.3"
+msgid "Tengu students say the twelve-metre detour itself creates lateness."
+msgstr "天狗學生表示多走十二公尺本身會造成遲到。"
+
+#. incidentCases.late-bell-seven.reactions.0.author
+#: src/data/incidents.js:48
+msgctxt "text:incidentCases.late-bell-seven.reactions.0.author"
+msgid "Bell Incident Desk"
+msgstr "鐘樓事件聯絡室"
+
+#. incidentCases.late-bell-seven.reactions.0.title
+#: src/data/incidents.js:48
+msgctxt "text:incidentCases.late-bell-seven.reactions.0.title"
+msgid "Bell case closed: {finding}"
+msgstr "校鐘案已結案：{finding}"
+
+#. incidentCases.late-bell-seven.reactions.0.body
+#: src/data/incidents.js:48
+msgctxt "text:incidentCases.late-bell-seven.reactions.0.body"
+msgid "Action: {action}. Design identifiability {quality}/100; file {ref}."
+msgstr "採取措施：{action}。完整分辨度 {quality}/100，檔案 {ref}。"
+
+#. incidentCases.late-bell-seven.reactions.1.author
+#: src/data/incidents.js:49
+msgctxt "text:incidentCases.late-bell-seven.reactions.1.author"
+msgid "Seven punctual but unconvinced students"
+msgstr "準時但有點不服的七人"
+
+#. incidentCases.late-bell-seven.reactions.1.title
+#: src/data/incidents.js:49
+msgctxt "text:incidentCases.late-bell-seven.reactions.1.title"
+msgid "So were we late or not?"
+msgstr "所以我們到底算不算遲到？"
+
+#. incidentCases.late-bell-seven.reactions.1.body
+#: src/data/incidents.js:49
+msgctxt "text:incidentCases.late-bell-seven.reactions.1.body"
+msgid ""
+"The study says {finding}; the registrar still has two times. Do appeals "
+"attach the bell or the ink?"
+msgstr "研究說 {finding}，教務頁仍有兩種時間。有人知道申訴應該附鐘聲還是墨水嗎？"
+
+#. incidentCases.late-bell-seven.reactions.2.author
+#: src/data/incidents.js:50
+msgctxt "text:incidentCases.late-bell-seven.reactions.2.author"
+msgid "Bunbunmaru Corrections"
+msgstr "文文。校報訂正欄"
+
+#. incidentCases.late-bell-seven.reactions.2.title
+#: src/data/incidents.js:50
+msgctxt "text:incidentCases.late-bell-seven.reactions.2.title"
+msgid "Correction: we did not advance the bell; the headline arrived early"
+msgstr "訂正：本報沒有使鐘提早，只是標題早到"
+
+#. incidentCases.late-bell-seven.reactions.2.body
+#: src/data/incidents.js:50
+msgctxt "text:incidentCases.late-bell-seven.reactions.2.body"
+msgid "We accept part of {ref}, while reserving editorial control over the boundary of “early.”"
+msgstr "本報接受 {ref} 的部分結論，但保留對『早』字邊界的編輯權。"
+
+#. incidentCases.fourth-lantern-loop.location
+#: src/data/incidents.js:60
+msgctxt "text:incidentCases.fourth-lantern-loop.location"
+msgid "Bamboo Forest · Fourth Blue Lantern Line"
+msgstr "迷途竹林・第四盞藍燈線"
+
+#. incidentCases.fourth-lantern-loop.title
+#: src/data/incidents.js:61
+msgctxt "text:incidentCases.fourth-lantern-loop.title"
+msgid "Three rabbit shuttles arrived at the same “fourth lantern”"
+msgstr "兔車連續三班抵達同一盞『第四盞燈』"
+
+#. incidentCases.fourth-lantern-loop.lede
+#: src/data/incidents.js:62
+msgctxt "text:incidentCases.fourth-lantern-loop.lede"
+msgid ""
+"Three shuttles left by different routes and returned to the same platform "
+"within twelve minutes. Conductors say the platform moved; the platform says "
+"the vehicles never left."
+msgstr "三班兔車按不同路線出發，卻在十二分鐘內依次回到同一月台。車掌說月台移動；月台說車沒有離開。"
+
+#. incidentCases.fourth-lantern-loop.dispatch
+#: src/data/incidents.js:63
+msgctxt "text:incidentCases.fourth-lantern-loop.dispatch"
+msgid ""
+"Rabbit shuttles divert via lantern five. If another fifth lantern appears "
+"first, do not use both."
+msgstr "兔車改走第五盞燈；若先看到另一盞第五燈，請不要同時使用兩盞。"
+
+#. incidentCases.fourth-lantern-loop.affected
+#: src/data/incidents.js:64
+msgctxt "text:incidentCases.fourth-lantern-loop.affected"
+msgid "43 passengers, 3 shuttles, at least 1 platform"
+msgstr "43 名乘客、3 班兔車、至少 1 座月台"
+
+#. incidentCases.fourth-lantern-loop.signal
+#: src/data/incidents.js:65
+msgctxt "text:incidentCases.fourth-lantern-loop.signal"
+msgid "Shuttles reaching Eientei correctly"
+msgstr "正確抵達永遠亭的班次比例"
+
+#. incidentCases.fourth-lantern-loop.unit
+#: src/data/incidents.js:66
+msgctxt "text:incidentCases.fourth-lantern-loop.unit"
+msgid "percentage points"
+msgstr "百分點"
+
+#. incidentCases.fourth-lantern-loop.hypotheses.0.firmware-drift.1
+#: src/data/incidents.js:70
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.0.firmware-drift.1"
+msgid "The shuttles used different lantern firmware"
+msgstr "三班車使用了不同燈號韌體"
+
+#. incidentCases.fourth-lantern-loop.hypotheses.0.firmware-drift.2
+#: src/data/incidents.js:70
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.0.firmware-drift.2"
+msgid "Kappa terminals show v3.1b, v3.1b-really-fixed, and v3.2-do-not-release."
+msgstr "河童終端顯示 v3.1b、v3.1b-真的修好、v3.2-暫不發布三種版本。"
+
+#. incidentCases.fourth-lantern-loop.hypotheses.1.tewi-label.1
+#: src/data/incidents.js:71
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.1.tewi-label.1"
+msgid "Tewi labelled three lanterns as number four"
+msgstr "因幡帝把三盞燈都貼成第四盞"
+
+#. incidentCases.fourth-lantern-loop.hypotheses.1.tewi-label.2
+#: src/data/incidents.js:71
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.1.tewi-label.2"
+msgid "Two removable ‘4’ labels were found; a third claims to be the factory plate."
+msgstr "現場找到兩張可移除的『四』字貼紙，第三張自稱是原廠銘牌。"
+
+#. incidentCases.fourth-lantern-loop.hypotheses.2.lunar-fold.1
+#: src/data/incidents.js:72
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.2.lunar-fold.1"
+msgid "The waning moon folded three routes onto one platform"
+msgstr "下弦月把三條路折到同一月台"
+
+#. incidentCases.fourth-lantern-loop.hypotheses.2.lunar-fold.2
+#: src/data/incidents.js:72
+msgctxt "text:incidentCases.fourth-lantern-loop.hypotheses.2.lunar-fold.2"
+msgid ""
+"The anomaly appears when moonlight crosses the fourth bamboo joint, but two "
+"cloud-cover intervals are missing."
+msgstr "路線異常只在月光穿過第四竹節時出現，但當夜雲量紀錄缺兩段。"
+
+#. incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.2
+#: src/data/incidents.js:75
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.2"
+msgid "Boot screens from three terminals"
+msgstr "三台終端的啟動畫面"
+
+#. incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.3
+#: src/data/incidents.js:75
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.3"
+msgid ""
+"Version strings and route-table checksums differ. Only v3.1b calls lantern "
+"five’s coordinates lantern four."
+msgstr "版本字串不同，路徑表校驗碼也不同；只有 v3.1b 把第五燈的座標叫作第四燈。"
+
+#. incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.4
+#: src/data/incidents.js:75
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.0.firmware-stubs.4"
+msgid "Kappa transit terminals"
+msgstr "河童交通終端"
+
+#. incidentCases.fourth-lantern-loop.evidence.1.paper-fours.2
+#: src/data/incidents.js:76
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.1.paper-fours.2"
+msgid "Two and a half ‘4’ labels"
+msgstr "兩張半『四』字貼紙"
+
+#. incidentCases.fourth-lantern-loop.evidence.1.paper-fours.3
+#: src/data/incidents.js:76
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.1.paper-fours.3"
+msgid ""
+"Two use carrot paste; half a label sits inside a conductor’s cap. Tewi says "
+"this proves only that someone values four."
+msgstr "兩張有胡蘿蔔膠，半張貼在車掌帽內側。帝表示這只能證明有人很重視四。"
+
+#. incidentCases.fourth-lantern-loop.evidence.1.paper-fours.4
+#: src/data/incidents.js:76
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.1.paper-fours.4"
+msgid "Scene collection bag"
+msgstr "現場採集袋"
+
+#. incidentCases.fourth-lantern-loop.evidence.2.moon-log.2
+#: src/data/incidents.js:77
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.2.moon-log.2"
+msgid "Moonlight and cloud log"
+msgstr "月光與雲量紀錄"
+
+#. incidentCases.fourth-lantern-loop.evidence.2.moon-log.3
+#: src/data/incidents.js:77
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.2.moon-log.3"
+msgid ""
+"Two missing intervals cover the second and third returns. The sensor slept "
+"because “a rabbit sat on it.”"
+msgstr "兩段缺失剛好覆蓋第二、三班回轉；缺失由感測器休眠造成，休眠原因寫作『兔子坐在上面』。"
+
+#. incidentCases.fourth-lantern-loop.evidence.2.moon-log.4
+#: src/data/incidents.js:77
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.2.moon-log.4"
+msgid "Eientei weather rack"
+msgstr "永遠亭氣象架"
+
+#. incidentCases.fourth-lantern-loop.evidence.3.ticket-times.2
+#: src/data/incidents.js:78
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.3.ticket-times.2"
+msgid "Punch times on 43 tickets"
+msgstr "四十三張車票的打孔時間"
+
+#. incidentCases.fourth-lantern-loop.evidence.3.ticket-times.3
+#: src/data/incidents.js:78
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.3.ticket-times.3"
+msgid ""
+"Trip times differ by 37 seconds each, matching terminal route recomputation "
+"rather than moving an entire platform."
+msgstr "三班的乘車時間各差 37 秒，符合終端重算路徑的時間，不符合整座月台搬移。"
+
+#. incidentCases.fourth-lantern-loop.evidence.3.ticket-times.4
+#: src/data/incidents.js:78
+msgctxt "text:incidentCases.fourth-lantern-loop.evidence.3.ticket-times.4"
+msgid "Rabbit shuttle fare box"
+msgstr "兔車票務箱"
+
+#. incidentCases.fourth-lantern-loop.testimony.0.conductor.1
+#: src/data/incidents.js:81
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.0.conductor.1"
+msgid "White Rabbit Conductor 08"
+msgstr "白兔車掌 08"
+
+#. incidentCases.fourth-lantern-loop.testimony.0.conductor.2
+#: src/data/incidents.js:81
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.0.conductor.2"
+msgid "First conductor"
+msgstr "第一班車掌"
+
+#. incidentCases.fourth-lantern-loop.testimony.0.conductor.3
+#: src/data/incidents.js:81
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.0.conductor.3"
+msgid ""
+"I followed the terminal arrow. It was confident every time, which is often "
+"worse than being correct."
+msgstr "我照終端箭頭走，箭頭每次都很有自信。這通常比它正確更麻煩。"
+
+#. incidentCases.fourth-lantern-loop.testimony.0.conductor.4
+#: src/data/incidents.js:81
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.0.conductor.4"
+msgid "Experienced with equipment, but testified after seeing the version strings."
+msgstr "熟悉設備，但知道自己看見版本字串後才作證。"
+
+#. incidentCases.fourth-lantern-loop.testimony.1.tewi.1
+#: src/data/incidents.js:82
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.1.tewi.1"
+msgid "Tewi Inaba"
+msgstr "因幡帝"
+
+#. incidentCases.fourth-lantern-loop.testimony.1.tewi.2
+#: src/data/incidents.js:82
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.1.tewi.2"
+msgid "Temporary route adviser (self-appointed)"
+msgstr "臨時路線顧問（自稱）"
+
+#. incidentCases.fourth-lantern-loop.testimony.1.tewi.3
+#: src/data/incidents.js:82
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.1.tewi.3"
+msgid "If labels could move platforms, the kappa would already have bought my patent."
+msgstr "如果貼紙真的能讓月台移動，河童早就向我買專利了。"
+
+#. incidentCases.fourth-lantern-loop.testimony.1.tewi.4
+#: src/data/incidents.js:82
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.1.tewi.4"
+msgid "Does not deny placing labels, only that labels have causal force."
+msgstr "沒有否認貼貼紙，只是否認貼紙具有因果力。"
+
+#. incidentCases.fourth-lantern-loop.testimony.2.eirin.1
+#: src/data/incidents.js:83
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.2.eirin.1"
+msgid "Eirin Yagokoro"
+msgstr "八意永琳"
+
+#. incidentCases.fourth-lantern-loop.testimony.2.eirin.2
+#: src/data/incidents.js:83
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.2.eirin.2"
+msgid "Joint route manager"
+msgstr "永遠亭路線共同管理"
+
+#. incidentCases.fourth-lantern-loop.testimony.2.eirin.3
+#: src/data/incidents.js:83
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.2.eirin.3"
+msgid ""
+"Moon phase can fold roads, but it does not name firmware. Repair what can be "
+"repaired before debating what cannot."
+msgstr "月相可以折路，但不會替工程師命名版本。先把能修的修好，再討論不能修的。"
+
+#. incidentCases.fourth-lantern-loop.testimony.2.eirin.4
+#: src/data/incidents.js:83
+msgctxt "text:incidentCases.fourth-lantern-loop.testimony.2.eirin.4"
+msgid "Prefers actionable explanations without excluding lunar interaction."
+msgstr "傾向可操作解釋，但沒有排除月相交互作用。"
+
+#. incidentCases.fourth-lantern-loop.actions.0.lock-firmware.1
+#: src/data/incidents.js:86
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.0.lock-firmware.1"
+msgid "Lock all shuttles to one firmware"
+msgstr "三班車鎖定同一韌體"
+
+#. incidentCases.fourth-lantern-loop.actions.0.lock-firmware.2
+#: src/data/incidents.js:86
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.0.lock-firmware.2"
+msgid "Archive all three old images and read one route table during the trial."
+msgstr "保留三份舊版影像，測試期間只讀同一條路徑表。"
+
+#. incidentCases.fourth-lantern-loop.actions.0.lock-firmware.3
+#: src/data/incidents.js:86
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.0.lock-firmware.3"
+msgid "Nitori requests the name final-final-really-this-time."
+msgstr "荷取要求版本名叫『final-final-這次真的』。"
+
+#. incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.1
+#: src/data/incidents.js:87
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.1"
+msgid "Recalibrate lantern numbers from coordinates"
+msgstr "以實際座標重校燈號"
+
+#. incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.2
+#: src/data/incidents.js:87
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.2"
+msgid "Renumber from survey posts, trusting neither labels nor self-description."
+msgstr "不相信貼紙或自述，以測繪樁重新標號。"
+
+#. incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.3
+#: src/data/incidents.js:87
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.1.calibrate-lanterns.3"
+msgid "Lantern three has applied to retain the right to be called four."
+msgstr "第三盞燈已申請保留被叫作第四盞的權利。"
+
+#. incidentCases.fourth-lantern-loop.actions.2.cloud-control.1
+#: src/data/incidents.js:88
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.2.cloud-control.1"
+msgid "Add moonlight control shuttles"
+msgstr "補上月光對照班次"
+
+#. incidentCases.fourth-lantern-loop.actions.2.cloud-control.2
+#: src/data/incidents.js:88
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.2.cloud-control.2"
+msgid "Run the same version on moon-screened and unscreened routes."
+msgstr "同一版本分別在遮月與未遮月路線行駛。"
+
+#. incidentCases.fourth-lantern-loop.actions.2.cloud-control.3
+#: src/data/incidents.js:88
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.2.cloud-control.3"
+msgid "The moon screen may not be operated by rabbits who sit on sensors."
+msgstr "遮月簾不得由會坐上感測器的兔子操作。"
+
+#. incidentCases.fourth-lantern-loop.actions.3.remove-labels.1
+#: src/data/incidents.js:89
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.3.remove-labels.1"
+msgid "Seal all movable number labels"
+msgstr "封存所有可移動數字"
+
+#. incidentCases.fourth-lantern-loop.actions.3.remove-labels.2
+#: src/data/incidents.js:89
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.3.remove-labels.2"
+msgid "Count labels and carrot-paste residue before and after each run."
+msgstr "每班前後清點標籤與胡蘿蔔膠殘留。"
+
+#. incidentCases.fourth-lantern-loop.actions.3.remove-labels.3
+#: src/data/incidents.js:89
+msgctxt "text:incidentCases.fourth-lantern-loop.actions.3.remove-labels.3"
+msgid "Tewi proposes self-moving numerals, which the rule does not cover."
+msgstr "帝提出改用能自行走動的文字，規則尚未涵蓋。"
+
+#. incidentCases.fourth-lantern-loop.reactions.0.author
+#: src/data/incidents.js:92
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.0.author"
+msgid "Bamboo Transit Joint Desk"
+msgstr "竹林交通共同室"
+
+#. incidentCases.fourth-lantern-loop.reactions.0.title
+#: src/data/incidents.js:92
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.0.title"
+msgid "Fourth Lantern case closed: {finding}"
+msgstr "第四盞燈案結案：{finding}"
+
+#. incidentCases.fourth-lantern-loop.reactions.0.body
+#: src/data/incidents.js:92
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.0.body"
+msgid ""
+"First action: {action}. Identifiability {quality}/100. Check both lantern "
+"and version before boarding."
+msgstr "先行措施：{action}。辨識度 {quality}/100；搭車前仍請看燈，也請看版本。"
+
+#. incidentCases.fourth-lantern-loop.reactions.1.author
+#: src/data/incidents.js:93
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.1.author"
+msgid "Anonymous but fortunate rabbit"
+msgstr "匿名但很幸運的兔子"
+
+#. incidentCases.fourth-lantern-loop.reactions.1.title
+#: src/data/incidents.js:93
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.1.title"
+msgid "For sale: two post-incident number-four labels"
+msgstr "出售兩張『四』字貼紙，事件後收藏版"
+
+#. incidentCases.fourth-lantern-loop.reactions.1.body
+#: src/data/incidents.js:93
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.1.body"
+msgid ""
+"The study says {finding}, so the labels should have lost transit function. "
+"No warranty on collector value."
+msgstr "研究說 {finding}，所以貼紙理論上已失去交通功能。拒絕對收藏價值負責。"
+
+#. incidentCases.fourth-lantern-loop.reactions.2.author
+#: src/data/incidents.js:94
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.2.author"
+msgid "Bamboo Navigation Club"
+msgstr "竹林定向部"
+
+#. incidentCases.fourth-lantern-loop.reactions.2.title
+#: src/data/incidents.js:94
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.2.title"
+msgid "This week: find your hall without numbers"
+msgstr "本週訓練：不用數字找回宿舍"
+
+#. incidentCases.fourth-lantern-loop.reactions.2.body
+#: src/data/incidents.js:94
+msgctxt "text:incidentCases.fourth-lantern-loop.reactions.2.body"
+msgid ""
+"Following {ref}, the meeting point uses scent, wind, and one rabbit of "
+"unverified reliability."
+msgstr "因 {ref} 提醒，集合點改以氣味、風向與一隻不保證可靠的兔子描述。"
+
+#. incidentCases.flying-book-window.location
+#: src/data/incidents.js:104
+msgctxt "text:incidentCases.flying-book-window.location"
+msgid "Misty Lake Library · North windows"
+msgstr "霧湖圖書館・北翼窗區"
+
+#. incidentCases.flying-book-window.title
+#: src/data/incidents.js:105
+msgctxt "text:incidentCases.flying-book-window.title"
+msgid "Four flying books left together; only one meant to escape"
+msgstr "四本會飛的館藏同時離架，只有一本真的想逃"
+
+#. incidentCases.flying-book-window.lede
+#: src/data/incidents.js:106
+msgctxt "text:incidentCases.flying-book-window.lede"
+msgid ""
+"After a window opened, four autonomous holdings flew lakeward. Three circled "
+"back; the fourth negotiated a new shelf with fairies. Staff want volition "
+"separated from airflow and imitation."
+msgstr "開窗後四本自主館藏飛向湖面。三本在窗外盤旋後回館，第四本與妖精談判新書架位置。館員要求分清意志、氣流與從眾。"
+
+#. incidentCases.flying-book-window.dispatch
+#: src/data/incidents.js:107
+msgctxt "text:incidentCases.flying-book-window.dispatch"
+msgid ""
+"North windows are limited to ten centimetres. Nets are for books without an "
+"intention to return."
+msgstr "北翼窗開度限制十公分；捕網只對沒有主動返回意圖的書使用。"
+
+#. incidentCases.flying-book-window.affected
+#: src/data/incidents.js:108
+msgctxt "text:incidentCases.flying-book-window.affected"
+msgid "4 holdings, 19 readers, and 1 unfinished shelf negotiation"
+msgstr "4 本館藏、19 名讀者、1 場尚未結束的書架談判"
+
+#. incidentCases.flying-book-window.signal
+#: src/data/incidents.js:109
+msgctxt "text:incidentCases.flying-book-window.signal"
+msgid "Probability of leaving shelf after window opening"
+msgstr "開窗後離架概率"
+
+#. incidentCases.flying-book-window.unit
+#: src/data/incidents.js:110
+msgctxt "text:incidentCases.flying-book-window.unit"
+msgid "percentage points"
+msgstr "百分點"
+
+#. incidentCases.flying-book-window.hypotheses.0.pressure-flock.1
+#: src/data/incidents.js:114
+msgctxt "text:incidentCases.flying-book-window.hypotheses.0.pressure-flock.1"
+msgid "Pressure moved one book and three followed"
+msgstr "氣壓先帶走一本，其餘三本跟飛"
+
+#. incidentCases.flying-book-window.hypotheses.0.pressure-flock.2
+#: src/data/incidents.js:114
+msgctxt "text:incidentCases.flying-book-window.hypotheses.0.pressure-flock.2"
+msgid ""
+"Departures differ by under 0.4 seconds, but only the first clasp experienced "
+"outward pressure first."
+msgstr "離架相差不到 0.4 秒，但第一本的書扣先受向外壓差。"
+
+#. incidentCases.flying-book-window.hypotheses.1.shelf-protest.1
+#: src/data/incidents.js:115
+msgctxt "text:incidentCases.flying-book-window.hypotheses.1.shelf-protest.1"
+msgid "A collective protest against the north shelf"
+msgstr "四本共同抗議北翼書架"
+
+#. incidentCases.flying-book-window.hypotheses.1.shelf-protest.2
+#: src/data/incidents.js:115
+msgctxt "text:incidentCases.flying-book-window.hypotheses.1.shelf-protest.2"
+msgid ""
+"The fourth filed for relocation; the other three only signed a margin, whose "
+"validity is disputed."
+msgstr "第四本曾提交移架請求，另外三本只在頁邊簽名，簽名效力有爭議。"
+
+#. incidentCases.flying-book-window.hypotheses.2.fairy-lure.1
+#: src/data/incidents.js:116
+msgctxt "text:incidentCases.flying-book-window.hypotheses.2.fairy-lure.1"
+msgid "Lake fairies lured books with story endings"
+msgstr "湖上妖精用故事結尾引書出窗"
+
+#. incidentCases.flying-book-window.hypotheses.2.fairy-lure.2
+#: src/data/incidents.js:116
+msgctxt "text:incidentCases.flying-book-window.hypotheses.2.fairy-lure.2"
+msgid ""
+"Three contradictory endings were heard outside. Only the fourth is "
+"catalogued as disliking unfinished stories."
+msgstr "窗外錄到三個互相矛盾的結尾；只有第四本在目錄中標為『討厭未完』。"
+
+#. incidentCases.flying-book-window.evidence.0.clasp-telemetry.2
+#: src/data/incidents.js:119
+msgctxt "text:incidentCases.flying-book-window.evidence.0.clasp-telemetry.2"
+msgid "Millisecond clasp tension"
+msgstr "四個書扣的毫秒級張力"
+
+#. incidentCases.flying-book-window.evidence.0.clasp-telemetry.3
+#: src/data/incidents.js:119
+msgctxt "text:incidentCases.flying-book-window.evidence.0.clasp-telemetry.3"
+msgid ""
+"Book one received 1.8 N outward force; the other three released themselves "
+"310–390 ms later."
+msgstr "第一本先受 1.8N 外力，另外三本在 310–390ms 後主動解扣。"
+
+#. incidentCases.flying-book-window.evidence.0.clasp-telemetry.4
+#: src/data/incidents.js:119
+msgctxt "text:incidentCases.flying-book-window.evidence.0.clasp-telemetry.4"
+msgid "Misty Lake Cataloguing"
+msgstr "霧湖編目室"
+
+#. incidentCases.flying-book-window.evidence.1.window-log.2
+#: src/data/incidents.js:120
+msgctxt "text:incidentCases.flying-book-window.evidence.1.window-log.2"
+msgid "Window pressure and wind slips"
+msgstr "窗縫壓差與風向紙"
+
+#. incidentCases.flying-book-window.evidence.1.window-log.3
+#: src/data/incidents.js:120
+msgctxt "text:incidentCases.flying-book-window.evidence.1.window-log.3"
+msgid "The pressure could move one light holding, not four simultaneously."
+msgstr "開窗瞬間壓差足以移動一本輕型館藏，不足以同時移動四本。"
+
+#. incidentCases.flying-book-window.evidence.1.window-log.4
+#: src/data/incidents.js:120
+msgctxt "text:incidentCases.flying-book-window.evidence.1.window-log.4"
+msgid "Kappa Facilities"
+msgstr "河童設施組"
+
+#. incidentCases.flying-book-window.evidence.2.margin-petition.2
+#: src/data/incidents.js:121
+msgctxt "text:incidentCases.flying-book-window.evidence.2.margin-petition.2"
+msgid "Relocation signatures in Flying Books"
+msgstr "《會飛的書》頁邊移架聯署"
+
+#. incidentCases.flying-book-window.evidence.2.margin-petition.3
+#: src/data/incidents.js:121
+msgctxt "text:incidentCases.flying-book-window.evidence.2.margin-petition.3"
+msgid ""
+"The fourth wrote a complete request. The other signatures appeared two "
+"minutes after departure."
+msgstr "第四本寫了完整請求；另外三本的簽名墨跡出現在離架後兩分鐘。"
+
+#. incidentCases.flying-book-window.evidence.2.margin-petition.4
+#: src/data/incidents.js:121
+msgctxt "text:incidentCases.flying-book-window.evidence.2.margin-petition.4"
+msgid "Librarian scene copy"
+msgstr "館員現場影本"
+
+#. incidentCases.flying-book-window.evidence.3.fairy-audio.2
+#: src/data/incidents.js:122
+msgctxt "text:incidentCases.flying-book-window.evidence.3.fairy-audio.2"
+msgid "Three story endings over the lake"
+msgstr "湖上三個故事結尾"
+
+#. incidentCases.flying-book-window.evidence.3.fairy-audio.3
+#: src/data/incidents.js:122
+msgctxt "text:incidentCases.flying-book-window.evidence.3.fairy-audio.3"
+msgid ""
+"The first ending came after departure, the second was supplied by a book, "
+"and the fairy forgot the third."
+msgstr "第一個結尾發生在離架後，第二個由一本書自己補完，第三個是妖精忘詞。"
+
+#. incidentCases.flying-book-window.evidence.3.fairy-audio.4
+#: src/data/incidents.js:122
+msgctxt "text:incidentCases.flying-book-window.evidence.3.fairy-audio.4"
+msgid "North-window soundscape"
+msgstr "北窗聲景錄音"
+
+#. incidentCases.flying-book-window.testimony.0.librarian.1
+#: src/data/incidents.js:125
+msgctxt "text:incidentCases.flying-book-window.testimony.0.librarian.1"
+msgid "Koakuma"
+msgstr "小惡魔"
+
+#. incidentCases.flying-book-window.testimony.0.librarian.2
+#: src/data/incidents.js:125
+msgctxt "text:incidentCases.flying-book-window.testimony.0.librarian.2"
+msgid "Duty librarian"
+msgstr "當值館員"
+
+#. incidentCases.flying-book-window.testimony.0.librarian.3
+#: src/data/incidents.js:125
+msgctxt "text:incidentCases.flying-book-window.testimony.0.librarian.3"
+msgid ""
+"One book blown out is facilities; three following is collection behaviour; "
+"the fourth refusing to return is personnel."
+msgstr "一本書被風吹走是設施問題；三本書跟著飛是館藏行為；第四本拒絕回來是人事問題。"
+
+#. incidentCases.flying-book-window.testimony.0.librarian.4
+#: src/data/incidents.js:125
+msgctxt "text:incidentCases.flying-book-window.testimony.0.librarian.4"
+msgid "Clear classification, but sequence may have been reconstructed after telemetry."
+msgstr "分類清楚，但可能在看過張力紀錄後重構順序。"
+
+#. incidentCases.flying-book-window.testimony.1.book-four.1
+#: src/data/incidents.js:126
+msgctxt "text:incidentCases.flying-book-window.testimony.1.book-four.1"
+msgid "Fourth holding (answered by page turns)"
+msgstr "第四本館藏（以翻頁作答）"
+
+#. incidentCases.flying-book-window.testimony.1.book-four.2
+#: src/data/incidents.js:126
+msgctxt "text:incidentCases.flying-book-window.testimony.1.book-four.2"
+msgid "Departing holding"
+msgstr "離架者"
+
+#. incidentCases.flying-book-window.testimony.1.book-four.3
+#: src/data/incidents.js:126
+msgctxt "text:incidentCases.flying-book-window.testimony.1.book-four.3"
+msgid ""
+"It opened to “not every departure is escape,” then displayed its call number "
+"toward the library."
+msgstr "它翻到『不是每一次離開都是逃跑』，接著把索書號朝圖書館方向展示。"
+
+#. incidentCases.flying-book-window.testimony.1.book-four.4
+#: src/data/incidents.js:126
+msgctxt "text:incidentCases.flying-book-window.testimony.1.book-four.4"
+msgid "It intends to remain in the collection while demanding relocation."
+msgstr "書願意維持館籍，但仍要求搬架。"
+
+#. incidentCases.flying-book-window.testimony.2.cirno.1
+#: src/data/incidents.js:127
+msgctxt "text:incidentCases.flying-book-window.testimony.2.cirno.1"
+msgid "Cirno"
+msgstr "琪露諾"
+
+#. incidentCases.flying-book-window.testimony.2.cirno.2
+#: src/data/incidents.js:127
+msgctxt "text:incidentCases.flying-book-window.testimony.2.cirno.2"
+msgid "Lake witness"
+msgstr "湖上目擊者"
+
+#. incidentCases.flying-book-window.testimony.2.cirno.3
+#: src/data/incidents.js:127
+msgctxt "text:incidentCases.flying-book-window.testimony.2.cirno.3"
+msgid ""
+"I did not lure the books. I only told them the strongest story endings "
+"always contain me."
+msgstr "我沒引誘書。我只是告訴它們最強的故事結尾一定有我。"
+
+#. incidentCases.flying-book-window.testimony.2.cirno.4
+#: src/data/incidents.js:127
+msgctxt "text:incidentCases.flying-book-window.testimony.2.cirno.4"
+msgid "Her denial and description differ by one verb."
+msgstr "否認行為與描述行為之間只差一個動詞。"
+
+#. incidentCases.flying-book-window.actions.0.window-baffle.1
+#: src/data/incidents.js:130
+msgctxt "text:incidentCases.flying-book-window.actions.0.window-baffle.1"
+msgid "Fit removable pressure baffles"
+msgstr "加裝可拆風壓導板"
+
+#. incidentCases.flying-book-window.actions.0.window-baffle.2
+#: src/data/incidents.js:130
+msgctxt "text:incidentCases.flying-book-window.actions.0.window-baffle.2"
+msgid "Keep ventilation while reducing the force on the first book."
+msgstr "保留通風，降低第一本被動離架的力量。"
+
+#. incidentCases.flying-book-window.actions.0.window-baffle.3
+#: src/data/incidents.js:130
+msgctxt "text:incidentCases.flying-book-window.actions.0.window-baffle.3"
+msgid "Writing on the baffle may cause it to join the collection."
+msgstr "導板若寫上文字，可能被編入館藏。"
+
+#. incidentCases.flying-book-window.actions.1.single-book-trials.1
+#: src/data/incidents.js:131
+msgctxt "text:incidentCases.flying-book-window.actions.1.single-book-trials.1"
+msgid "Run one-book-at-a-time window controls"
+msgstr "逐本開窗對照"
+
+#. incidentCases.flying-book-window.actions.1.single-book-trials.2
+#: src/data/incidents.js:131
+msgctxt "text:incidentCases.flying-book-window.actions.1.single-book-trials.2"
+msgid "Separate following from protest; books may refuse at any time."
+msgstr "把從眾與共同抗議分開測量，書可隨時拒絕。"
+
+#. incidentCases.flying-book-window.actions.1.single-book-trials.3
+#: src/data/incidents.js:131
+msgctxt "text:incidentCases.flying-book-window.actions.1.single-book-trials.3"
+msgid "Patchouli wants refusals counted as missing, not uncooperative."
+msgstr "帕秋莉要求拒絕本也計入缺失而非不合作。"
+
+#. incidentCases.flying-book-window.actions.2.shelf-mediation.1
+#: src/data/incidents.js:132
+msgctxt "text:incidentCases.flying-book-window.actions.2.shelf-mediation.1"
+msgid "Mediate the fourth book’s shelf request first"
+msgstr "先完成第四本的移架調解"
+
+#. incidentCases.flying-book-window.actions.2.shelf-mediation.2
+#: src/data/incidents.js:132
+msgctxt "text:incidentCases.flying-book-window.actions.2.shelf-mediation.2"
+msgid ""
+"Address long-running dissatisfaction before the next trial instead of "
+"treating volition as noise."
+msgstr "在下一輪測試前處理長期不滿，避免把意志當雜訊。"
+
+#. incidentCases.flying-book-window.actions.2.shelf-mediation.3
+#: src/data/incidents.js:132
+msgctxt "text:incidentCases.flying-book-window.actions.2.shelf-mediation.3"
+msgid "The former shelf also requests representation."
+msgstr "原書架也要求參加調解。"
+
+#. incidentCases.flying-book-window.actions.3.ending-silence.1
+#: src/data/incidents.js:133
+msgctxt "text:incidentCases.flying-book-window.actions.3.ending-silence.1"
+msgid "One hour without story endings outside"
+msgstr "窗外故事結尾靜默一小時"
+
+#. incidentCases.flying-book-window.actions.3.ending-silence.2
+#: src/data/incidents.js:133
+msgctxt "text:incidentCases.flying-book-window.actions.3.ending-silence.2"
+msgid "Fairies may sing the body, but postpone endings."
+msgstr "妖精可以唱前文，但暫不說出結尾。"
+
+#. incidentCases.flying-book-window.actions.3.ending-silence.3
+#: src/data/incidents.js:133
+msgctxt "text:incidentCases.flying-book-window.actions.3.ending-silence.3"
+msgid "The choir plans to rename endings as preludes."
+msgstr "合唱團打算把結尾改名為前奏。"
+
+#. incidentCases.flying-book-window.reactions.0.author
+#: src/data/incidents.js:136
+msgctxt "text:incidentCases.flying-book-window.reactions.0.author"
+msgid "Misty Lake Incident Desk"
+msgstr "霧湖圖書館事件桌"
+
+#. incidentCases.flying-book-window.reactions.0.title
+#: src/data/incidents.js:136
+msgctxt "text:incidentCases.flying-book-window.reactions.0.title"
+msgid "North-window departure case closed: {finding}"
+msgstr "北窗離架案結案：{finding}"
+
+#. incidentCases.flying-book-window.reactions.0.body
+#: src/data/incidents.js:136
+msgctxt "text:incidentCases.flying-book-window.reactions.0.body"
+msgid "First action: {action}. File {ref}. A book’s relocation request remains a valid request."
+msgstr "先行措施：{action}。檔案 {ref}；書本的移架意見仍屬有效意見。"
+
+#. incidentCases.flying-book-window.reactions.1.author
+#: src/data/incidents.js:137
+msgctxt "text:incidentCases.flying-book-window.reactions.1.author"
+msgid "Autonomous Holdings Group"
+msgstr "自主館藏研究小組"
+
+#. incidentCases.flying-book-window.reactions.1.title
+#: src/data/incidents.js:137
+msgctxt "text:incidentCases.flying-book-window.reactions.1.title"
+msgid "Is following another book an act of volition?"
+msgstr "從眾算不算一本書的意志？徵期末報告"
+
+#. incidentCases.flying-book-window.reactions.1.body
+#: src/data/incidents.js:137
+msgctxt "text:incidentCases.flying-book-window.reactions.1.body"
+msgid ""
+"{ref} found {finding}. Papers may not use the capture net as their only "
+"operational definition."
+msgstr "{ref} 認為 {finding}。報告不得用捕網作為唯一操作定義。"
+
+#. incidentCases.flying-book-window.reactions.2.author
+#: src/data/incidents.js:138
+msgctxt "text:incidentCases.flying-book-window.reactions.2.author"
+msgid "Fairy Choir"
+msgstr "妖精合唱團"
+
+#. incidentCases.flying-book-window.reactions.2.title
+#: src/data/incidents.js:138
+msgctxt "text:incidentCases.flying-book-window.reactions.2.title"
+msgid "Tonight: only the first 99% of each story; books welcome"
+msgstr "今晚只唱故事前 99%，歡迎書本旁聽"
+
+#. incidentCases.flying-book-window.reactions.2.body
+#: src/data/incidents.js:138
+msgctxt "text:incidentCases.flying-book-window.reactions.2.body"
+msgid "To support {action}, endings are stored somewhere without windows. Do not ask where."
+msgstr "配合 {action}，結尾暫存於一個不開窗的地方。請勿追問是哪裡。"
+
+#. incidentCases.headline-yesterday.location
+#: src/data/incidents.js:148
+msgctxt "text:incidentCases.headline-yesterday.location"
+msgid "Tengu Press Tower · Hieda History Hall"
+msgstr "天狗新聞樓・稗田史學館"
+
+#. incidentCases.headline-yesterday.title
+#: src/data/incidents.js:149
+msgctxt "text:incidentCases.headline-yesterday.title"
+msgid "The paper published tomorrow’s event; the chronicle filed it as yesterday"
+msgstr "校報刊出明日的事件，校史卻已把它列為昨日"
+
+#. incidentCases.headline-yesterday.lede
+#: src/data/incidents.js:150
+msgctxt "text:incidentCases.headline-yesterday.lede"
+msgid ""
+"A report of an unoccurred workshop explosion appeared in the morning paper. "
+"A later explosion differed in time and cause, while the chronicle indexed "
+"both versions under yesterday."
+msgstr "一篇尚未發生的工房爆炸報導出現在晨報；工房隨後真的爆炸，但時間、原因與報導不同。校史索引又把兩個版本都編入昨日。"
+
+#. incidentCases.headline-yesterday.dispatch
+#: src/data/incidents.js:151
+msgctxt "text:incidentCases.headline-yesterday.dispatch"
+msgid ""
+"The workshop remains open, but prophetic reporting is not a substitute for "
+"safety checks."
+msgstr "工房維持開放，但預言性報導不得當作安全檢查替代品。"
+
+#. incidentCases.headline-yesterday.affected
+#: src/data/incidents.js:152
+msgctxt "text:incidentCases.headline-yesterday.affected"
+msgid "1 workshop, 2 incident versions, and 6 corrections citing each other"
+msgstr "1 座工房、2 個事件版本、6 篇互相引用的訂正"
+
+#. incidentCases.headline-yesterday.signal
+#: src/data/incidents.js:153
+msgctxt "text:incidentCases.headline-yesterday.signal"
+msgid "Agreement between report details and actual event"
+msgstr "報導細節與實際事件一致率"
+
+#. incidentCases.headline-yesterday.unit
+#: src/data/incidents.js:154
+msgctxt "text:incidentCases.headline-yesterday.unit"
+msgid "percentage points"
+msgstr "百分點"
+
+#. incidentCases.headline-yesterday.hypotheses.0.cache-mix.1
+#: src/data/incidents.js:158
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.0.cache-mix.1"
+msgid "Layout cache mixed in a previous simulated incident"
+msgstr "校報排版快取混入上一輪模擬事件"
+
+#. incidentCases.headline-yesterday.hypotheses.0.cache-mix.2
+#: src/data/incidents.js:158
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.0.cache-mix.2"
+msgid ""
+"The report time matches last week’s simulation; only the location was "
+"replaced with today’s duty workshop."
+msgstr "報導的爆炸時間與研究課上週模擬資料一致，只有地點被自動替換成今日值班工房。"
+
+#. incidentCases.headline-yesterday.hypotheses.1.aya-forecast.1
+#: src/data/incidents.js:159
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.1.aya-forecast.1"
+msgid "Aya forecast the incident from wind and interviews"
+msgstr "文以風向與採訪推算出事件"
+
+#. incidentCases.headline-yesterday.hypotheses.1.aya-forecast.2
+#: src/data/incidents.js:159
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.1.aya-forecast.2"
+msgid ""
+"She knew about valve noise, but blamed mushroom fuel; the actual trigger was "
+"gear-cut lotus root."
+msgstr "她確實掌握壓力閥異音，但報導原因寫成蘑菇燃料，實際原因是齒輪蓮藕。"
+
+#. incidentCases.headline-yesterday.hypotheses.2.history-pull.1
+#: src/data/incidents.js:160
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.2.history-pull.1"
+msgid "The chronicle’s yesterday index pulled events toward the written version"
+msgstr "校史的昨日索引把事件拉向已寫版本"
+
+#. incidentCases.headline-yesterday.hypotheses.2.history-pull.2
+#: src/data/incidents.js:160
+msgctxt "text:incidentCases.headline-yesterday.hypotheses.2.history-pull.2"
+msgid "Similarity rose briefly after indexing, though the causal order may run the other way."
+msgstr "索引建立後，工房事故細節與報紙相似度短暫上升，但順序可能反過來。"
+
+#. incidentCases.headline-yesterday.evidence.0.layout-cache.2
+#: src/data/incidents.js:163
+msgctxt "text:incidentCases.headline-yesterday.evidence.0.layout-cache.2"
+msgid "Layout cache manifest"
+msgstr "排版機快取目錄"
+
+#. incidentCases.headline-yesterday.evidence.0.layout-cache.3
+#: src/data/incidents.js:163
+msgctxt "text:incidentCases.headline-yesterday.evidence.0.layout-cache.3"
+msgid ""
+"`incident-final2-use-this` was created in last week’s lab and mistaken by "
+"the template for the latest approved version this morning."
+msgstr "檔名 `incident-final2-use-this` 建於上週研究課，今晨被模板誤判為最新批准版本。"
+
+#. incidentCases.headline-yesterday.evidence.0.layout-cache.4
+#: src/data/incidents.js:163
+msgctxt "text:incidentCases.headline-yesterday.evidence.0.layout-cache.4"
+msgid "Tengu Press layout machine"
+msgstr "天狗新聞樓排版機"
+
+#. incidentCases.headline-yesterday.evidence.1.valve-audio.2
+#: src/data/incidents.js:164
+msgctxt "text:incidentCases.headline-yesterday.evidence.1.valve-audio.2"
+msgid "Pre-incident valve soundscape"
+msgstr "事故前壓力閥聲景"
+
+#. incidentCases.headline-yesterday.evidence.1.valve-audio.3
+#: src/data/incidents.js:164
+msgctxt "text:incidentCases.headline-yesterday.evidence.1.valve-audio.3"
+msgid ""
+"Noise existed before publication and supports generic risk prediction, not "
+"the exact time or mushroom cause."
+msgstr "異音在報導前已出現，可支持一般風險預測；但無法支持報導內的精確時刻與蘑菇原因。"
+
+#. incidentCases.headline-yesterday.evidence.1.valve-audio.4
+#: src/data/incidents.js:164
+msgctxt "text:incidentCases.headline-yesterday.evidence.1.valve-audio.4"
+msgid "Aya’s recorder"
+msgstr "文的個人錄音筆"
+
+#. incidentCases.headline-yesterday.evidence.2.lotus-gear.2
+#: src/data/incidents.js:165
+msgctxt "text:incidentCases.headline-yesterday.evidence.2.lotus-gear.2"
+msgid "Gear-cut lotus lodged in the valve"
+msgstr "卡在壓力閥的齒輪蓮藕"
+
+#. incidentCases.headline-yesterday.evidence.2.lotus-gear.3
+#: src/data/incidents.js:165
+msgctxt "text:incidentCases.headline-yesterday.evidence.2.lotus-gear.3"
+msgid ""
+"It came from South Dining and was used as a spare part, unrelated to the "
+"report’s mushroom fuel."
+msgstr "來自南食堂咖哩；工房學生把它當備用零件，與報導所稱蘑菇燃料無關。"
+
+#. incidentCases.headline-yesterday.evidence.2.lotus-gear.4
+#: src/data/incidents.js:165
+msgctxt "text:incidentCases.headline-yesterday.evidence.2.lotus-gear.4"
+msgid "Kappa Workshop evidence bag"
+msgstr "河童工房封存袋"
+
+#. incidentCases.headline-yesterday.evidence.3.chronicle-index.2
+#: src/data/incidents.js:166
+msgctxt "text:incidentCases.headline-yesterday.evidence.3.chronicle-index.2"
+msgid "Creation time of the ‘yesterday’ index"
+msgstr "『昨日』索引建立時間"
+
+#. incidentCases.headline-yesterday.evidence.3.chronicle-index.3
+#: src/data/incidents.js:166
+msgctxt "text:incidentCases.headline-yesterday.evidence.3.chronicle-index.3"
+msgid ""
+"The index was created seven minutes after cache load and nineteen before the "
+"real explosion. It records the report; it need not have caused it."
+msgstr "索引在排版快取被讀取後七分鐘建立，在真實爆炸前十九分鐘；它記錄了報導，未必造成報導。"
+
+#. incidentCases.headline-yesterday.evidence.3.chronicle-index.4
+#: src/data/incidents.js:166
+msgctxt "text:incidentCases.headline-yesterday.evidence.3.chronicle-index.4"
+msgid "Hieda History Hall"
+msgstr "稗田史學館"
+
+#. incidentCases.headline-yesterday.testimony.0.aya-press.1
+#: src/data/incidents.js:169
+msgctxt "text:incidentCases.headline-yesterday.testimony.0.aya-press.1"
+msgid "Aya Shameimaru"
+msgstr "射命丸文"
+
+#. incidentCases.headline-yesterday.testimony.0.aya-press.2
+#: src/data/incidents.js:169
+msgctxt "text:incidentCases.headline-yesterday.testimony.0.aya-press.2"
+msgid "Editor"
+msgstr "主筆"
+
+#. incidentCases.headline-yesterday.testimony.0.aya-press.3
+#: src/data/incidents.js:169
+msgctxt "text:incidentCases.headline-yesterday.testimony.0.aya-press.3"
+msgid ""
+"The cache supplied details; I supplied judgment. The judgment later became "
+"partly right, which journalism cannot call wholly wrong."
+msgstr "快取只提供了細節，我提供了判斷。判斷後來部分正確，這在新聞上不能全算錯。"
+
+#. incidentCases.headline-yesterday.testimony.0.aya-press.4
+#: src/data/incidents.js:169
+msgctxt "text:incidentCases.headline-yesterday.testimony.0.aya-press.4"
+msgid "Combines forecast, template failure, and later coincidence in one sentence."
+msgstr "把預測、模板事故與事後命中混在同一句。"
+
+#. incidentCases.headline-yesterday.testimony.1.akyuu.1
+#: src/data/incidents.js:170
+msgctxt "text:incidentCases.headline-yesterday.testimony.1.akyuu.1"
+msgid "Hieda no Akyuu"
+msgstr "稗田阿求"
+
+#. incidentCases.headline-yesterday.testimony.1.akyuu.2
+#: src/data/incidents.js:170
+msgctxt "text:incidentCases.headline-yesterday.testimony.1.akyuu.2"
+msgid "Index keeper"
+msgstr "索引管理"
+
+#. incidentCases.headline-yesterday.testimony.1.akyuu.3
+#: src/data/incidents.js:170
+msgctxt "text:incidentCases.headline-yesterday.testimony.1.akyuu.3"
+msgid ""
+"The chronicle says “reported yesterday,” not “happened yesterday.” Someone "
+"shortened the column label."
+msgstr "校史記錄『昨日被報導』，不是『昨日發生』。有人把欄名截短了。"
+
+#. incidentCases.headline-yesterday.testimony.1.akyuu.4
+#: src/data/incidents.js:170
+msgctxt "text:incidentCases.headline-yesterday.testimony.1.akyuu.4"
+msgid "The interface truncates the index semantics; the source remains available."
+msgstr "索引語義被介面截斷，底本仍可查。"
+
+#. incidentCases.headline-yesterday.testimony.2.nitori-workshop.1
+#: src/data/incidents.js:171
+msgctxt "text:incidentCases.headline-yesterday.testimony.2.nitori-workshop.1"
+msgid "Nitori Kawashiro"
+msgstr "河城荷取"
+
+#. incidentCases.headline-yesterday.testimony.2.nitori-workshop.2
+#: src/data/incidents.js:171
+msgctxt "text:incidentCases.headline-yesterday.testimony.2.nitori-workshop.2"
+msgid "Workshop lead"
+msgstr "工房負責人"
+
+#. incidentCases.headline-yesterday.testimony.2.nitori-workshop.3
+#: src/data/incidents.js:171
+msgctxt "text:incidentCases.headline-yesterday.testimony.2.nitori-workshop.3"
+msgid ""
+"After the prediction, everyone checked mushrooms and nobody checked lunch. "
+"Prophecy can point safety work the wrong way."
+msgstr "報紙說會爆炸後，大家檢查了蘑菇，沒人檢查午餐。預言有時會把安全檢查帶去錯的地方。"
+
+#. incidentCases.headline-yesterday.testimony.2.nitori-workshop.4
+#: src/data/incidents.js:171
+msgctxt "text:incidentCases.headline-yesterday.testimony.2.nitori-workshop.4"
+msgid "The report changed the subsequent inspection path."
+msgstr "報導本身改變了後續檢查路徑。"
+
+#. incidentCases.headline-yesterday.actions.0.purge-cache.1
+#: src/data/incidents.js:174
+msgctxt "text:incidentCases.headline-yesterday.actions.0.purge-cache.1"
+msgid "Archive and clear the layout cache"
+msgstr "封存並清空排版快取"
+
+#. incidentCases.headline-yesterday.actions.0.purge-cache.2
+#: src/data/incidents.js:174
+msgctxt "text:incidentCases.headline-yesterday.actions.0.purge-cache.2"
+msgid "Keep traceable images and allow templates to read only stamped versions."
+msgstr "保留可追溯影像，模板只讀帶批准戳的版本。"
+
+#. incidentCases.headline-yesterday.actions.0.purge-cache.3
+#: src/data/incidents.js:174
+msgctxt "text:incidentCases.headline-yesterday.actions.0.purge-cache.3"
+msgid "Aya wants an exemption for the Inspiration Sources folder."
+msgstr "文要求保留『靈感來源』資料夾不受此限。"
+
+#. incidentCases.headline-yesterday.actions.1.forecast-label.1
+#: src/data/incidents.js:175
+msgctxt "text:incidentCases.headline-yesterday.actions.1.forecast-label.1"
+msgid "Separate forecasts from occurred-event reports"
+msgstr "把預測與已發生報導分欄"
+
+#. incidentCases.headline-yesterday.actions.1.forecast-label.2
+#: src/data/incidents.js:175
+msgctxt "text:incidentCases.headline-yesterday.actions.1.forecast-label.2"
+msgid "Use distinct labels on one page; corrections may not merge them."
+msgstr "相同版面、不同標識，訂正不能把兩欄合併。"
+
+#. incidentCases.headline-yesterday.actions.1.forecast-label.3
+#: src/data/incidents.js:175
+msgctxt "text:incidentCases.headline-yesterday.actions.1.forecast-label.3"
+msgid "Readers may still forward only the headline."
+msgstr "讀者仍可能只轉發標題。"
+
+#. incidentCases.headline-yesterday.actions.2.version-lock.1
+#: src/data/incidents.js:176
+msgctxt "text:incidentCases.headline-yesterday.actions.2.version-lock.1"
+msgid "Separate naming domains for lab and newsroom versions"
+msgstr "研究模擬與新聞排版使用不同版本命名域"
+
+#. incidentCases.headline-yesterday.actions.2.version-lock.2
+#: src/data/incidents.js:176
+msgctxt "text:incidentCases.headline-yesterday.actions.2.version-lock.2"
+msgid "Lab files may no longer be final; newsroom files may no longer be maybe."
+msgstr "模擬資料不能再叫 final；新聞資料不能再叫 maybe。"
+
+#. incidentCases.headline-yesterday.actions.2.version-lock.3
+#: src/data/incidents.js:176
+msgctxt "text:incidentCases.headline-yesterday.actions.2.version-lock.3"
+msgid "Marisa has already named hers definitely-not-final."
+msgstr "魔理沙已把自己的版本命名為 definitely-not-final。"
+
+#. incidentCases.headline-yesterday.actions.3.independent-check.1
+#: src/data/incidents.js:177
+msgctxt "text:incidentCases.headline-yesterday.actions.3.independent-check.1"
+msgid "Trigger an independent safety checklist after predictive reports"
+msgstr "預言性報導觸發獨立安全清單"
+
+#. incidentCases.headline-yesterday.actions.3.independent-check.2
+#: src/data/incidents.js:177
+msgctxt "text:incidentCases.headline-yesterday.actions.3.independent-check.2"
+msgid "Recheck materials, pressure, and lunch without inheriting the article’s proposed cause."
+msgstr "不沿用報導指向的原因，重新檢查材料、壓力與午餐。"
+
+#. incidentCases.headline-yesterday.actions.3.independent-check.3
+#: src/data/incidents.js:177
+msgctxt "text:incidentCases.headline-yesterday.actions.3.independent-check.3"
+msgid "South Dining asks not to classify every lunch as hazardous material."
+msgstr "南食堂要求不要把所有午餐都列為危險材料。"
+
+#. incidentCases.headline-yesterday.reactions.0.author
+#: src/data/incidents.js:180
+msgctxt "text:incidentCases.headline-yesterday.reactions.0.author"
+msgid "Chronicle–Press Joint Corrections"
+msgstr "校史與新聞聯合訂正桌"
+
+#. incidentCases.headline-yesterday.reactions.0.title
+#: src/data/incidents.js:180
+msgctxt "text:incidentCases.headline-yesterday.reactions.0.title"
+msgid "Tomorrow-explosion report case closed: {finding}"
+msgstr "明日爆炸報導案結案：{finding}"
+
+#. incidentCases.headline-yesterday.reactions.0.body
+#: src/data/incidents.js:180
+msgctxt "text:incidentCases.headline-yesterday.reactions.0.body"
+msgid ""
+"First action: {action}. File {ref}. “Reported” and “occurred” are separate "
+"columns again."
+msgstr "先行措施：{action}。檔案 {ref}；『被報導』與『已發生』恢復為兩欄。"
+
+#. incidentCases.headline-yesterday.reactions.1.author
+#: src/data/incidents.js:181
+msgctxt "text:incidentCases.headline-yesterday.reactions.1.author"
+msgid "News Methods TA"
+msgstr "新聞資料方法課助教"
+
+#. incidentCases.headline-yesterday.reactions.1.title
+#: src/data/incidents.js:181
+msgctxt "text:incidentCases.headline-yesterday.reactions.1.title"
+msgid "Final question: can partial prediction offset a cache failure?"
+msgstr "期末題：部分預測正確能否抵銷快取事故？"
+
+#. incidentCases.headline-yesterday.reactions.1.body
+#: src/data/incidents.js:181
+msgctxt "text:incidentCases.headline-yesterday.reactions.1.body"
+msgid "Cite {ref} and explain why a correct outcome does not replace an identifiable method."
+msgstr "請引用 {ref}，並說明為什麼命中結果不能替代可識別方法。"
+
+#. incidentCases.headline-yesterday.reactions.2.author
+#: src/data/incidents.js:182
+msgctxt "text:incidentCases.headline-yesterday.reactions.2.author"
+msgid "Bunbunmaru Campus News"
+msgstr "文文。校報"
+
+#. incidentCases.headline-yesterday.reactions.2.title
+#: src/data/incidents.js:182
+msgctxt "text:incidentCases.headline-yesterday.reactions.2.title"
+msgid "New column: Not Yet Happened but Worth Writing First"
+msgstr "本報新增『尚未發生但值得先寫』欄"
+
+#. incidentCases.headline-yesterday.reactions.2.body
+#: src/data/incidents.js:182
+msgctxt "text:incidentCases.headline-yesterday.reactions.2.body"
+msgid ""
+"Clearly labelled under {action}. The university declines to guarantee the "
+"label will not make events occur."
+msgstr "依 {action} 加上明確標識。校方拒絕保證欄內事件不會因標識而發生。"
+
+#. incidentCases.dorm-window-chair.location
+#: src/data/incidents.js:192
+msgctxt "text:incidentCases.dorm-window-chair.location"
+msgid "Boundary Annex · BA-YD window side"
+msgstr "境界別館・BA-YD 窗側"
+
+#. incidentCases.dorm-window-chair.title
+#: src/data/incidents.js:193
+msgctxt "text:incidentCases.dorm-window-chair.title"
+msgid "The window chair in a roommate agreement applied as a third roommate"
+msgstr "共住協議中的窗邊椅，要求被列為第三位室友"
+
+#. incidentCases.dorm-window-chair.lede
+#: src/data/incidents.js:194
+msgctxt "text:incidentCases.dorm-window-chair.lede"
+msgid ""
+"After a shared-living note was generated, the chair moved beneath the "
+"signature line and scratched “I live here too.” Both residents accept it has "
+"an opinion; they disagree on rent."
+msgstr "椅子在共住備忘生成後移到簽名欄下方，並用刮痕寫出『我也住這裡』。兩位住戶同意椅子有意見，但不同意它是否應分攤宿費。"
+
+#. incidentCases.dorm-window-chair.dispatch
+#: src/data/incidents.js:195
+msgctxt "text:incidentCases.dorm-window-chair.dispatch"
+msgid ""
+"The chair stays in place and gains a third rota row, but is not yet counted "
+"in evacuation totals."
+msgstr "椅子暫留原房，窗邊輪值表加上第三列，但不計入逃生人數。"
+
+#. incidentCases.dorm-window-chair.affected
+#: src/data/incidents.js:196
+msgctxt "text:incidentCases.dorm-window-chair.affected"
+msgid "2 residents, 1 chair, and 4 shared rules needing reinterpretation"
+msgstr "2 名住戶、1 張椅子、4 條需要重新解釋的共住規則"
+
+#. incidentCases.dorm-window-chair.signal
+#: src/data/incidents.js:197
+msgctxt "text:incidentCases.dorm-window-chair.signal"
+msgid "Unattended self-movements"
+msgstr "無人時自主移動次數"
+
+#. incidentCases.dorm-window-chair.unit
+#: src/data/incidents.js:198
+msgctxt "text:incidentCases.dorm-window-chair.unit"
+msgid "per night"
+msgstr "每夜"
+
+#. incidentCases.dorm-window-chair.hypotheses.0.emergent-tsukumogami.1
+#: src/data/incidents.js:202
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.0.emergent-tsukumogami.1"
+msgid "Long use and the new agreement prompted tsukumogami awakening"
+msgstr "長期使用與新協議促成付喪神覺醒"
+
+#. incidentCases.dorm-window-chair.hypotheses.0.emergent-tsukumogami.2
+#: src/data/incidents.js:202
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.0.emergent-tsukumogami.2"
+msgid ""
+"The chair is at least ninety-nine years old and produced stable writing "
+"after first being named in a formal rule."
+msgstr "椅齡未知但至少九十九年；第一次被制度提及後出現穩定文字。"
+
+#. incidentCases.dorm-window-chair.hypotheses.1.matoi-phasing.1
+#: src/data/incidents.js:203
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.1.matoi-phasing.1"
+msgid "A roommate’s phasing unintentionally carried the chair"
+msgstr "室友穿牆時無意把椅子帶過邊界"
+
+#. incidentCases.dorm-window-chair.hypotheses.1.matoi-phasing.2
+#: src/data/incidents.js:203
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.1.matoi-phasing.2"
+msgid "Matoi phases through the same wall nightly; the chair legs carry matching boundary dust."
+msgstr "境縫纏每晚穿過同一面牆，椅腳有相同邊界粉。"
+
+#. incidentCases.dorm-window-chair.hypotheses.2.familiar-prank.1
+#: src/data/incidents.js:204
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.2.familiar-prank.1"
+msgid "A small familiar moved and wrote for the chair"
+msgstr "小型使魔替椅子寫字並推動它"
+
+#. incidentCases.dorm-window-chair.hypotheses.2.familiar-prank.2
+#: src/data/incidents.js:204
+msgctxt "text:incidentCases.dorm-window-chair.hypotheses.2.familiar-prank.2"
+msgid ""
+"A fire mouse can enter unattended and matches scratch height, but the "
+"wording uses a furniture first person."
+msgstr "火鼠可在無人時進房，刮痕高度符合；但文字用的是家具第一人稱。"
+
+#. incidentCases.dorm-window-chair.evidence.0.night-grid.2
+#: src/data/incidents.js:207
+msgctxt "text:incidentCases.dorm-window-chair.evidence.0.night-grid.2"
+msgid "Seven-night chalk coordinates"
+msgstr "七夜粉筆座標"
+
+#. incidentCases.dorm-window-chair.evidence.0.night-grid.3
+#: src/data/incidents.js:207
+msgctxt "text:incidentCases.dorm-window-chair.evidence.0.night-grid.3"
+msgid ""
+"The chair moved on five nights; Matoi was away for two, and the fire mouse "
+"was confined at a shrine event for one."
+msgstr "椅子有五夜移動；其中兩夜纏不在宿舍，一夜火鼠被鎖在神社活動。"
+
+#. incidentCases.dorm-window-chair.evidence.0.night-grid.4
+#: src/data/incidents.js:207
+msgctxt "text:incidentCases.dorm-window-chair.evidence.0.night-grid.4"
+msgid "Hall council"
+msgstr "宿舍自治會"
+
+#. incidentCases.dorm-window-chair.evidence.1.scratch-text.2
+#: src/data/incidents.js:208
+msgctxt "text:incidentCases.dorm-window-chair.evidence.1.scratch-text.2"
+msgid "Lettering scratched by a chair leg"
+msgstr "椅腳刮痕筆畫"
+
+#. incidentCases.dorm-window-chair.evidence.1.scratch-text.3
+#: src/data/incidents.js:208
+msgctxt "text:incidentCases.dorm-window-chair.evidence.1.scratch-text.3"
+msgid ""
+"Each stroke begins under the chair’s full weight with no claw-tip marks; "
+"letter shapes follow floor seams."
+msgstr "每一筆起點都承受椅子全重，沒有爪尖壓痕；字形受地板縫限制。"
+
+#. incidentCases.dorm-window-chair.evidence.1.scratch-text.4
+#: src/data/incidents.js:208
+msgctxt "text:incidentCases.dorm-window-chair.evidence.1.scratch-text.4"
+msgid "Kappa Materials Room"
+msgstr "河童材料室"
+
+#. incidentCases.dorm-window-chair.evidence.2.boundary-dust.2
+#: src/data/incidents.js:209
+msgctxt "text:incidentCases.dorm-window-chair.evidence.2.boundary-dust.2"
+msgid "Boundary dust on chair and wall seam"
+msgstr "椅腳與牆縫的邊界粉"
+
+#. incidentCases.dorm-window-chair.evidence.2.boundary-dust.3
+#: src/data/incidents.js:209
+msgctxt "text:incidentCases.dorm-window-chair.evidence.2.boundary-dust.3"
+msgid ""
+"The dust shares a source but could come from repeated wall contact; it does "
+"not alone prove phasing transport."
+msgstr "粉末同源，但椅子可能因多次靠牆取得，不能單獨證明被穿牆帶動。"
+
+#. incidentCases.dorm-window-chair.evidence.2.boundary-dust.4
+#: src/data/incidents.js:209
+msgctxt "text:incidentCases.dorm-window-chair.evidence.2.boundary-dust.4"
+msgid "Boundaries & Incidents"
+msgstr "結界研究院"
+
+#. incidentCases.dorm-window-chair.evidence.3.old-receipt.2
+#: src/data/incidents.js:210
+msgctxt "text:incidentCases.dorm-window-chair.evidence.3.old-receipt.2"
+msgid "Faded Kourindou receipt from ninety-nine years ago"
+msgstr "香霖堂九十九年前的模糊收據"
+
+#. incidentCases.dorm-window-chair.evidence.3.old-receipt.3
+#: src/data/incidents.js:210
+msgctxt "text:incidentCases.dorm-window-chair.evidence.3.old-receipt.3"
+msgid ""
+"The item reads only “long chair or short table.” The date is reliable; the "
+"object match is disputed."
+msgstr "品名只剩『長椅或短桌』，日期可信度高，物件對應仍有爭議。"
+
+#. incidentCases.dorm-window-chair.evidence.3.old-receipt.4
+#: src/data/incidents.js:210
+msgctxt "text:incidentCases.dorm-window-chair.evidence.3.old-receipt.4"
+msgid "Found beneath the seat"
+msgstr "住戶從椅墊下找到"
+
+#. incidentCases.dorm-window-chair.testimony.0.matoi-room.1
+#: src/data/incidents.js:213
+msgctxt "text:incidentCases.dorm-window-chair.testimony.0.matoi-room.1"
+msgid "Matoi Sakaime"
+msgstr "境縫纏"
+
+#. incidentCases.dorm-window-chair.testimony.0.matoi-room.2
+#: src/data/incidents.js:213
+msgctxt "text:incidentCases.dorm-window-chair.testimony.0.matoi-room.2"
+msgid "Resident"
+msgstr "住戶"
+
+#. incidentCases.dorm-window-chair.testimony.0.matoi-room.3
+#: src/data/incidents.js:213
+msgctxt "text:incidentCases.dorm-window-chair.testimony.0.matoi-room.3"
+msgid ""
+"I called it shared furniture. After it spoke, “shared” may need "
+"renegotiation. I did not carry it through a wall."
+msgstr "我承認以前把它叫公共家具；它提出意見後，『公共』可能需要重談。但我沒有帶它穿牆。"
+
+#. incidentCases.dorm-window-chair.testimony.0.matoi-room.4
+#: src/data/incidents.js:213
+msgctxt "text:incidentCases.dorm-window-chair.testimony.0.matoi-room.4"
+msgid "Accepts the identity question, denies the physical cause."
+msgstr "承認身分問題，不承認物理原因。"
+
+#. incidentCases.dorm-window-chair.testimony.1.chacha.1
+#: src/data/incidents.js:214
+msgctxt "text:incidentCases.dorm-window-chair.testimony.1.chacha.1"
+msgid "Chacha Senya"
+msgstr "千夜茶々"
+
+#. incidentCases.dorm-window-chair.testimony.1.chacha.2
+#: src/data/incidents.js:214
+msgctxt "text:incidentCases.dorm-window-chair.testimony.1.chacha.2"
+msgid "Resident / tsukumogami"
+msgstr "住戶／付喪神"
+
+#. incidentCases.dorm-window-chair.testimony.1.chacha.3
+#: src/data/incidents.js:214
+msgctxt "text:incidentCases.dorm-window-chair.testimony.1.chacha.3"
+msgid ""
+"I was a bench too. It writes slowly, but furniture lacking hands does not "
+"mean it lacks opinions."
+msgstr "我以前也是長椅。它寫得很慢，但家具沒有手，這不等於沒有意見。"
+
+#. incidentCases.dorm-window-chair.testimony.1.chacha.4
+#: src/data/incidents.js:214
+msgctxt "text:incidentCases.dorm-window-chair.testimony.1.chacha.4"
+msgid "Relevant lived experience with possible strong projection."
+msgstr "具有相關經驗，也可能強烈投射自身歷史。"
+
+#. incidentCases.dorm-window-chair.testimony.2.fire-mouse.1
+#: src/data/incidents.js:215
+msgctxt "text:incidentCases.dorm-window-chair.testimony.2.fire-mouse.1"
+msgid "Fire mouse (translated from singed slips)"
+msgstr "小火鼠（由燒焦紙條翻譯）"
+
+#. incidentCases.dorm-window-chair.testimony.2.fire-mouse.2
+#: src/data/incidents.js:215
+msgctxt "text:incidentCases.dorm-window-chair.testimony.2.fire-mouse.2"
+msgid "Suspected familiar"
+msgstr "被懷疑的使魔"
+
+#. incidentCases.dorm-window-chair.testimony.2.fire-mouse.3
+#: src/data/incidents.js:215
+msgctxt "text:incidentCases.dorm-window-chair.testimony.2.fire-mouse.3"
+msgid "“I take socks. Chair too big.”"
+msgstr "『我只拿襪子。椅子太大。』"
+
+#. incidentCases.dorm-window-chair.testimony.2.fire-mouse.4
+#: src/data/incidents.js:215
+msgctxt "text:incidentCases.dorm-window-chair.testimony.2.fire-mouse.4"
+msgid "Brief and consistent; does not answer whether it wrote for the chair."
+msgstr "陳述簡短一致；沒有回答是否代寫。"
+
+#. incidentCases.dorm-window-chair.actions.0.empty-room-camera.1
+#: src/data/incidents.js:218
+msgctxt "text:incidentCases.dorm-window-chair.actions.0.empty-room-camera.1"
+msgid "Low-stimulus unattended observation"
+msgstr "無人房間低刺激觀察"
+
+#. incidentCases.dorm-window-chair.actions.0.empty-room-camera.2
+#: src/data/incidents.js:218
+msgctxt "text:incidentCases.dorm-window-chair.actions.0.empty-room-camera.2"
+msgid "Do not restrain the chair; use a non-luminous chalk grid and mechanical shutter."
+msgstr "不固定椅子，只用不發光粉筆格與機械快門。"
+
+#. incidentCases.dorm-window-chair.actions.0.empty-room-camera.3
+#: src/data/incidents.js:218
+msgctxt "text:incidentCases.dorm-window-chair.actions.0.empty-room-camera.3"
+msgid "The camera may not pre-classify the chair as object or participant."
+msgstr "相機不得先假定椅子是物件還是受試者。"
+
+#. incidentCases.dorm-window-chair.actions.1.phase-control.1
+#: src/data/incidents.js:219
+msgctxt "text:incidentCases.dorm-window-chair.actions.1.phase-control.1"
+msgid "Two-night no-phasing control"
+msgstr "室友停止穿牆兩夜作對照"
+
+#. incidentCases.dorm-window-chair.actions.1.phase-control.2
+#: src/data/incidents.js:219
+msgctxt "text:incidentCases.dorm-window-chair.actions.1.phase-control.2"
+msgid "Provide an ordinary key and compare whether the chair still moves."
+msgstr "提供正常門鑰匙，對比椅子是否仍移動。"
+
+#. incidentCases.dorm-window-chair.actions.1.phase-control.3
+#: src/data/incidents.js:219
+msgctxt "text:incidentCases.dorm-window-chair.actions.1.phase-control.3"
+msgid "Matoi says using a door makes her four seconds late."
+msgstr "纏表示使用門會讓她比平常晚到四秒。"
+
+#. incidentCases.dorm-window-chair.actions.2.familiar-control.1
+#: src/data/incidents.js:220
+msgctxt "text:incidentCases.dorm-window-chair.actions.2.familiar-control.1"
+msgid "Alternate familiar-present and familiar-absent nights"
+msgstr "使魔留宿與不留宿交替"
+
+#. incidentCases.dorm-window-chair.actions.2.familiar-control.2
+#: src/data/incidents.js:220
+msgctxt "text:incidentCases.dorm-window-chair.actions.2.familiar-control.2"
+msgid "Register the fire mouse’s location rather than using missing socks as tracking."
+msgstr "預先登記火鼠位置，不以襪子失蹤代替追蹤。"
+
+#. incidentCases.dorm-window-chair.actions.2.familiar-control.3
+#: src/data/incidents.js:220
+msgctxt "text:incidentCases.dorm-window-chair.actions.2.familiar-control.3"
+msgid "The mouse refuses an ID tag larger than itself."
+msgstr "火鼠拒絕佩戴比自己大的識別牌。"
+
+#. incidentCases.dorm-window-chair.actions.3.provisional-seat.1
+#: src/data/incidents.js:221
+msgctxt "text:incidentCases.dorm-window-chair.actions.3.provisional-seat.1"
+msgid "Grant the chair a provisional resident seat"
+msgstr "給椅子暫定住戶席"
+
+#. incidentCases.dorm-window-chair.actions.3.provisional-seat.2
+#: src/data/incidents.js:221
+msgctxt "text:incidentCases.dorm-window-chair.actions.3.provisional-seat.2"
+msgid "Allow it into furniture rotas and agreements during study without deciding rent."
+msgstr "在研究期間允許它參與家具輪值與共住協議，不先決定宿費。"
+
+#. incidentCases.dorm-window-chair.actions.3.provisional-seat.3
+#: src/data/incidents.js:221
+msgctxt "text:incidentCases.dorm-window-chair.actions.3.provisional-seat.3"
+msgid "May alter behaviour, but avoids treating a possible resident as mere apparatus."
+msgstr "會改變椅子的行為，卻避免把可能的住戶只當儀器。"
+
+#. incidentCases.dorm-window-chair.reactions.0.author
+#: src/data/incidents.js:224
+msgctxt "text:incidentCases.dorm-window-chair.reactions.0.author"
+msgid "Boundary Annex Hall Council"
+msgstr "境界別館自治會"
+
+#. incidentCases.dorm-window-chair.reactions.0.title
+#: src/data/incidents.js:224
+msgctxt "text:incidentCases.dorm-window-chair.reactions.0.title"
+msgid "BA-YD chair case closed: {finding}"
+msgstr "BA-YD 椅子案結案：{finding}"
+
+#. incidentCases.dorm-window-chair.reactions.0.body
+#: src/data/incidents.js:224
+msgctxt "text:incidentCases.dorm-window-chair.reactions.0.body"
+msgid ""
+"Interim action: {action}. File {ref}. The rent question goes to the next "
+"meeting table that does not collapse."
+msgstr "暫行措施：{action}。檔案 {ref}；宿費問題交給下一次不會散架的會議桌。"
+
+#. incidentCases.dorm-window-chair.reactions.1.author
+#: src/data/incidents.js:225
+msgctxt "text:incidentCases.dorm-window-chair.reactions.1.author"
+msgid "Window Chair (typed by Chacha)"
+msgstr "窗邊椅（由千夜代打字）"
+
+#. incidentCases.dorm-window-chair.reactions.1.title
+#: src/data/incidents.js:225
+msgctxt "text:incidentCases.dorm-window-chair.reactions.1.title"
+msgid "Not for sale, not for trade, not a common resource"
+msgstr "不出售，不交換，也不是公共資源"
+
+#. incidentCases.dorm-window-chair.reactions.1.body
+#: src/data/incidents.js:225
+msgctxt "text:incidentCases.dorm-window-chair.reactions.1.body"
+msgid "The study provisionally finds {finding}. Also, the Tuesday window slot is mine."
+msgstr "研究暫認 {finding}。另外，週二窗邊時段是我的。"
+
+#. incidentCases.dorm-window-chair.reactions.2.author
+#: src/data/incidents.js:226
+msgctxt "text:incidentCases.dorm-window-chair.reactions.2.author"
+msgid "Faith & Coexistence Policy"
+msgstr "信仰與共生政策學院"
+
+#. incidentCases.dorm-window-chair.reactions.2.title
+#: src/data/incidents.js:226
+msgctxt "text:incidentCases.dorm-window-chair.reactions.2.title"
+msgid "Pop-up seminar: when furniture becomes a stakeholder"
+msgstr "臨時講座：當家具成為利害關係人"
+
+#. incidentCases.dorm-window-chair.reactions.2.body
+#: src/data/incidents.js:226
+msgctxt "text:incidentCases.dorm-window-chair.reactions.2.body"
+msgid ""
+"Using {ref}: Kanako asks about infrastructure, Byakuren coexistence, and "
+"Miko wants the chair to state its desire."
+msgstr "以 {ref} 為案例。神奈子要求談基礎設施，白蓮要求談共生，神子要求椅子先說清楚欲望。"
+
+#. incidentSeverity.green
+#: src/data/incidents.js:232
+msgctxt "text:incidentSeverity.green"
+msgid "Observe"
+msgstr "觀察"
+
+#. incidentSeverity.amber
+#: src/data/incidents.js:233
+msgctxt "text:incidentSeverity.amber"
+msgid "Action needed"
+msgstr "需處置"
+
+#. incidentSeverity.red
+#: src/data/incidents.js:234
+msgctxt "text:incidentSeverity.red"
+msgid "High impact"
+msgstr "高影響"
+
+#. evidenceKinds.instrument
+#: src/data/incidents.js:238
+msgctxt "text:evidenceKinds.instrument"
+msgid "Instrument"
+msgstr "儀器"
+
+#. evidenceKinds.record
+#: src/data/incidents.js:239
+msgctxt "text:evidenceKinds.record"
+msgid "Record"
+msgstr "紀錄"
+
+#. evidenceKinds.trace
+#: src/data/incidents.js:240
+msgctxt "text:evidenceKinds.trace"
+msgid "Trace"
+msgstr "痕跡"
+
+#. evidenceKinds.media
+#: src/data/incidents.js:241
+msgctxt "text:evidenceKinds.media"
+msgid "Media"
+msgstr "傳播"
+
+#. evidenceKinds.environment
+#: src/data/incidents.js:242
+msgctxt "text:evidenceKinds.environment"
+msgid "Environment"
+msgstr "環境"
+
+#. evidenceKinds.version
+#: src/data/incidents.js:243
+msgctxt "text:evidenceKinds.version"
+msgid "Version"
+msgstr "版本"
+
+#. evidenceKinds.material
+#: src/data/incidents.js:244
+msgctxt "text:evidenceKinds.material"
+msgid "Material"
+msgstr "材料"
+
+#. incidentRetentionReviewers.aya.name
+#: src/data/incidents.js:249
+msgctxt "text:incidentRetentionReviewers.aya.name"
+msgid "Aya Shameimaru"
+msgstr "射命丸文"
+
+#. incidentRetentionReviewers.aya.role
+#: src/data/incidents.js:250
+msgctxt "text:incidentRetentionReviewers.aya.role"
+msgid "Journalism · Headline Already Typeset"
+msgstr "新聞學院・標題已排版席"
+
+#. incidentRetentionReviewers.aya.note
+#: src/data/incidents.js:251
+msgctxt "text:incidentRetentionReviewers.aya.note"
+msgid ""
+"The study not supporting it is one matter; readers already being supported "
+"by the headline is another. Preserve both until Corrections catches up."
+msgstr "研究沒有支持它是一回事，讀者已經被標題支持是另一回事。與其等訂正欄追上，不如把兩者一起保存。"
+
+#. incidentRetentionReviewers.marisa.name
+#: src/data/incidents.js:254
+msgctxt "text:incidentRetentionReviewers.marisa.name"
+msgid "Marisa Kirisame"
+msgstr "霧雨魔理沙"
+
+#. incidentRetentionReviewers.marisa.role
+#: src/data/incidents.js:255
+msgctxt "text:incidentRetentionReviewers.marisa.role"
+msgid "Magic Practice · Wall-struck Hypothesis Seat"
+msgstr "魔法實作・撞牆假說保存席"
+
+#. incidentRetentionReviewers.marisa.note
+#: src/data/incidents.js:256
+msgctxt "text:incidentRetentionReviewers.marisa.note"
+msgid ""
+"A hypothesis that hit a wall still tells the next person where the wall is. "
+"Keep it, but do not rename the wall an exit."
+msgstr "撞牆的假說至少告訴下一個人牆在哪裡。可以留，但不准把牆重新命名成出口。"
+
+#. incidentRetentionReviewers.yukari.name
+#: src/data/incidents.js:259
+msgctxt "text:incidentRetentionReviewers.yukari.name"
+msgid "Yukari Yakumo"
+msgstr "八雲紫"
+
+#. incidentRetentionReviewers.yukari.role
+#: src/data/incidents.js:260
+msgctxt "text:incidentRetentionReviewers.yukari.role"
+msgid "Boundary Studies · Indistinguishable Seat"
+msgstr "結界研究・無法區分席"
+
+#. incidentRetentionReviewers.yukari.note
+#: src/data/incidents.js:261
+msgctxt "text:incidentRetentionReviewers.yukari.note"
+msgid ""
+"Failing to distinguish two explanations proves neither that both are absent "
+"nor that either exists. It belongs precisely between those statements."
+msgstr "無法區分兩個解釋，不代表兩者都不存在；也不代表它們存在。正好值得留在這兩句話之間。"
+
+#. incidentRetentionReviewers.keine.name
+#: src/data/incidents.js:264
+msgctxt "text:incidentRetentionReviewers.keine.name"
+msgid "Keine Kamishirasawa"
+msgstr "上白澤慧音"
+
+#. incidentRetentionReviewers.keine.role
+#: src/data/incidents.js:265
+msgctxt "text:incidentRetentionReviewers.keine.role"
+msgid "History & Records · Red-thread Binding Seat"
+msgstr "歷史記錄・紅線裝訂席"
+
+#. incidentRetentionReviewers.keine.note
+#: src/data/incidents.js:266
+msgctxt "text:incidentRetentionReviewers.keine.note"
+msgid ""
+"Failure may be preserved, but the filename, conclusion, and every later "
+"citation must retain “not supported.” Lose one word and it returns for "
+"rebinding."
+msgstr "可以保存失敗，但檔名、結論與後來引用都必須保留『未獲支持』四字；少一字就退回重訂。"
+
+#. incidentRetentionReasons.counterexample
+#: src/data/incidents.js:271
+msgctxt "text:incidentRetentionReasons.counterexample"
+msgid "Preserve as counterexample: show the next round which path failed"
+msgstr "保留為反例：讓下一輪知道哪條路走不通"
+
+#. incidentRetentionReasons.method
+#: src/data/incidents.js:272
+msgctxt "text:incidentRetentionReasons.method"
+msgid "Preserve as method failure: the error teaches calibration and version control"
+msgstr "保留為方法事故：錯誤本身能教校準與版本管理"
+
+#. incidentRetentionReasons.public
+#: src/data/incidents.js:273
+msgctxt "text:incidentRetentionReasons.public"
+msgid "Preserve as public controversy: the rumour exists, and deletion would make it look truer"
+msgstr "保留為公共爭議：傳聞已經發生，刪檔只會讓它更像真的"
+
+#. incidentRetentionReasons.headline
+#: src/data/incidents.js:274
+msgctxt "text:incidentRetentionReasons.headline"
+msgid "Preserve because the headline is printed: Corrections may catch up later"
+msgstr "保留因為標題已經印了：稍後再讓訂正欄追上"

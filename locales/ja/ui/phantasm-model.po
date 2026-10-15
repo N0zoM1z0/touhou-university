@@ -1,0 +1,246 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy.retain.ruling
+#: src/js/phantasm-model.js:403
+msgctxt "text:copy.retain.ruling"
+msgid ""
+"{value0} rules that the untaken route may remain in Dream Campus but may not "
+"impersonate an official conclusion."
+msgstr "{value0}裁定：未踏経路は夢境キャンパスで保存可。正式結論を名乗ってはならない。"
+
+#. copy.retain.condition
+#: src/js/phantasm-model.js:404
+msgctxt "text:copy.retain.condition"
+msgid "Every citation must show the route actually adopted while awake on the same page."
+msgstr "引用時は、覚醒時に実際採用した経路を同じ頁へ添付すること。"
+
+#. copy.retain.dissent
+#: src/js/phantasm-model.js:405
+msgctxt "text:copy.retain.dissent"
+msgid "Reimu dissents: a route not taken cannot claim travel expenses."
+msgstr "霊夢少数意見：通っていないなら旅費精算不可。"
+
+#. copy.conditional.ruling
+#: src/js/phantasm-model.js:408
+msgctxt "text:copy.conditional.ruling"
+msgid ""
+"{value0} grants dream-boundary conditional approval: teachable here, never "
+"backfilled into official records."
+msgstr "{value0}裁定：夢境条件付き可。教材利用可、正式学籍への逆流不可。"
+
+#. copy.conditional.condition
+#: src/js/phantasm-model.js:409
+msgctxt "text:copy.conditional.condition"
+msgid ""
+"After the bell, explain again why it was not adopted. An identical answer "
+"proves you are still dreaming."
+msgstr "鐘の後に不採用理由を再説明。同文なら覚醒していないものとする。"
+
+#. copy.conditional.dissent
+#: src/js/phantasm-model.js:410
+msgctxt "text:copy.conditional.dissent"
+msgid "Aya dissents that “conditional” may be added in the extra edition's second printing."
+msgstr "文少数意見：「条件付き」は号外第二版で追記可能。"
+
+#. copy.wake.ruling
+#: src/js/phantasm-model.js:413
+msgctxt "text:copy.wake.ruling"
+msgid ""
+"{value0} finds the argument suspiciously tidy and orders one waking before "
+"retention is reconsidered."
+msgstr "{value0}裁定：論証が整いすぎている。一度覚醒してから保存を再判断。"
+
+#. copy.wake.condition
+#: src/js/phantasm-model.js:414
+msgctxt "text:copy.wake.condition"
+msgid ""
+"If the route survives waking, add one inconsistent detail on the dream "
+"transcript continuation sheet."
+msgstr "覚醒後も同じ道を覚えていれば、夢学籍の続紙へ矛盾を一つ追記できる。"
+
+#. copy.wake.dissent
+#: src/js/phantasm-model.js:415
+msgctxt "text:copy.wake.dissent"
+msgid ""
+"Doremy dissents that a dream this tidy is probably an administrative form "
+"and not worth an appetite."
+msgstr "ドレミー少数意見：整いすぎた夢は学務様式にすぎず、食欲を使うほどではない。"
+
+#. assignmentFragment.dream
+#: src/js/phantasm-model.js:204
+msgctxt "text:assignmentFragment.dream"
+msgid ""
+"An option you did not write has resubmitted itself for full marks and asks "
+"the ordinary answer for a citation."
+msgstr "書かなかった選択肢が満点答案として再提出され、元の答案へ出典を要求している。"
+
+#. governanceFragment.ordinary
+#: src/js/phantasm-model.js:219
+msgctxt "text:governanceFragment.ordinary"
+msgid "Ballot"
+msgstr "投票"
+
+#. governanceFragment.dream
+#: src/js/phantasm-model.js:222
+msgctxt "text:governanceFragment.dream"
+msgid "Passed in shadow"
+msgstr "影の可決"
+
+#. incidentFragment.ordinary
+#: src/js/phantasm-model.js:242
+msgctxt "text:incidentFragment.ordinary"
+msgid "Closure hypothesis"
+msgstr "終結仮説"
+
+#. incidentFragment.dream
+#: src/js/phantasm-model.js:245
+msgctxt "text:incidentFragment.dream"
+msgid "Official dream conclusion"
+msgstr "夢の正式結論"
+
+#. housingFragment.title
+#: src/js/phantasm-model.js:262
+msgctxt "text:housingFragment.title"
+msgid "Declined room"
+msgstr "断った部屋"
+
+#. housingFragment.ordinary
+#: src/js/phantasm-model.js:264
+msgctxt "text:housingFragment.ordinary"
+msgid "Offer declined"
+msgstr "辞退済み"
+
+#. housingFragment.dream
+#: src/js/phantasm-model.js:266
+msgctxt "text:housingFragment.dream"
+msgid " says you failed to come home last night."
+msgstr "は昨夜あなたが帰らなかったと言う。"
+
+#. courseFragment.ordinary
+#: src/js/phantasm-model.js:281
+msgctxt "text:courseFragment.ordinary"
+msgid "Dropped from the ordinary timetable."
+msgstr "通常時間割から履修取消。"
+
+#. courseFragment.dream
+#: src/js/phantasm-model.js:282
+msgctxt "text:courseFragment.dream"
+msgid ""
+"Automatically enrolled in ninth period. The room is “behind the original "
+"room”; only the roll knows the instructor."
+msgstr "第九時限へ自動登録。教室は「元の場所の裏」、担当は出席簿だけが知っている。"
+
+#. unusedRouteFragment.title
+#: src/js/phantasm-model.js:292
+msgctxt "text:unusedRouteFragment.title"
+msgid "Route deliberately not taken"
+msgstr "採用しなかった経路"
+
+#. unusedRouteFragment.dream
+#: src/js/phantasm-model.js:295
+msgctxt "text:unusedRouteFragment.dream"
+msgid ""
+"The unused route becomes the primary text for BND-∞ and asks the official "
+"project to cite why it was not adopted."
+msgstr "未踏経路はBND-∞の主教材として採用され、正式研究へ「自分を採用しなかった理由」の引用を要求した。"
+
+#. libraryFragment.ordinary
+#: src/js/phantasm-model.js:312
+msgctxt "text:libraryFragment.ordinary"
+msgid "Returned in the ordinary library record."
+msgstr "通常図書館の記録では返却済み。"
+
+#. libraryFragment.dream
+#: src/js/phantasm-model.js:313
+msgctxt "text:libraryFragment.dream"
+msgid "The book denies the loan and says it was the party that returned you."
+msgstr "本は貸出自体を否認し、あなたを返却した側だと主張している。"
+
+#. posts.phantasm-ninth-period-rumour.author
+#: src/js/phantasm-model.js:481
+msgctxt "text:posts.phantasm-ninth-period-rumour.author"
+msgid "North Stair Roll Keeper (unregistered)"
+msgstr "北階段の点呼係（未登録）"
+
+#. posts.phantasm-ninth-period-rumour.title
+#: src/js/phantasm-model.js:482
+msgctxt "text:posts.phantasm-ninth-period-rumour.title"
+msgid "Does anyone know the ninth-period room?"
+msgstr "第九時限の教室を知っている人？"
+
+#. posts.phantasm-ninth-period-rumour.body
+#: src/js/phantasm-model.js:484
+msgctxt "text:posts.phantasm-ninth-period-rumour.body"
+msgid ""
+"It is not on the timetable, but descending the north stair adds a "
+"fourth-floor roll. If it is a typo, why is a different name absent each "
+"week?"
+msgstr "時間割にはないのに、北階段を下ると四階の出席簿だけ増える。誤植なら、なぜ毎週違う名前が欠席なのか。"
+
+#. phantasmCommunityPosts.0.author
+#: src/js/phantasm-model.js:496
+msgctxt "text:phantasmCommunityPosts.0.author"
+msgid "Reverse-Side Exams Clerk (absent from front)"
+msgstr "試験机の裏面係（表には不在）"
+
+#. phantasmCommunityPosts.0.title
+#: src/js/phantasm-model.js:497
+msgctxt "text:phantasmCommunityPosts.0.title"
+msgid "Is there really a PHANTASM paper behind EXTRA?"
+msgstr "EXTRAの裏にPHANTASM問題があるって本当？"
+
+#. phantasmCommunityPosts.0.body
+#: src/js/phantasm-model.js:499
+msgctxt "text:phantasmCommunityPosts.0.body"
+msgid ""
+"Hold an EXTRA submission seal to the light and it reads nine questions, 150 "
+"marks. Exams calls it an ink stain, although the stain warns in three "
+"languages not to enter the score officially."
+msgstr "EXTRA提出印を灯りへ透かすと、九問・百五十点と読める。試験係はインク染みだと言うが、染みが『正式成績へ転記不可』と三言語で注意している。"
+
+#. phantasmCommunityPosts.0.body
+#: src/js/phantasm-model.js:500
+msgctxt "text:phantasmCommunityPosts.0.body.2"
+msgid ""
+"The first candidate to ask received an unsigned slip: 'Finish EXTRA first.' "
+"Asked again, the slip denied being the first answer."
+msgstr "最初に尋ねた受験者は「まずEXTRAを終えよ」という無署名紙片を受け取った。二度目に尋ねると、紙片は自分が最初の返答ではないと主張した。"
+
+#. phantasmCommunityPosts.0.author
+#: src/js/phantasm-model.js:512
+msgctxt "text:phantasmCommunityPosts.0.author.2"
+msgid "Bunbunmaru Ninth Edition (no first edition)"
+msgstr "文々。第九版（初版なし）"
+
+#. phantasmCommunityPosts.0.title
+#: src/js/phantasm-model.js:513
+msgctxt "text:phantasmCommunityPosts.0.title.2"
+msgid "Correction: dream transcripts do not exist, but can be printed"
+msgstr "訂正：夢学籍は存在しないが、印刷は可能"
+
+#. assignmentFragment.ordinary
+#: src/js/phantasm-model.js:203
+msgctxt "text:assignmentFragment.ordinary"
+msgid "The submitted answer remains {value0} in the ordinary record."
+msgstr "提出済み答案は {value0} として保存された。"
+
+#. posts.phantasm-ninth-period-rumour.body
+#: src/js/phantasm-model.js:485
+msgctxt "text:posts.phantasm-ninth-period-rumour.body.2"
+msgid "{value0} seals showed through the roll. Academic Affairs returned only its front side."
+msgstr "点呼簿の裏から印が{value0}個透けた。学務へ持参したら、表だけ返された。"
+
+#. phantasmCommunityPosts.0.body
+#: src/js/phantasm-model.js:514
+msgctxt "text:phantasmCommunityPosts.0.body.3"
+msgid ""
+"{value0} is absent from the official registry yet used one full sheet of "
+"paper. The university answered only that it “does not exist.”"
+msgstr "{value0}は正式学籍へ入っていない。にもかかわらず紙面を一頁使ったため、大学は「存在しない」とだけ回答した。"

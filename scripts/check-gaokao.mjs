@@ -1,3 +1,4 @@
+import { outputRoot } from "./build/paths.mjs";
 import { access } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -102,7 +103,7 @@ for (const [difficultyId, difficulty] of Object.entries(gaokaoDifficulties)) {
       for (const suffix of ["paper", "answers"]) {
         const filename = `${gaokaoMeta.edition.toLowerCase()}-${locale}-${difficultyId}-${trackId}-${suffix}.html`;
         try {
-          await access(path.join(root, "downloads", "gaokao", filename));
+          await access(path.join(outputRoot, "downloads", "gaokao", filename));
         } catch {
           failures.push(`Missing offline file: ${filename}.`);
         }

@@ -1,0 +1,26 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. employmentCommunityPosts.0.author
+#: src/js/employment-model.js:310
+msgctxt "text:employmentCommunityPosts.0.author"
+msgid "Careers Office · Odd Résumé Dispatch"
+msgstr "Careers Office · Odd Résumé Dispatch"
+
+#. employmentCommunityPosts.0.author
+#: src/js/employment-model.js:324
+msgctxt "text:employmentCommunityPosts.0.author.2"
+msgid "Graduate Whereabouts Echo Roll"
+msgstr "Graduate Whereabouts Echo Roll"
+
+#. employmentPostMessages.0.correction
+#: src/js/employment-model.js:352
+msgctxt "text:employmentPostMessages.0.correction"
+msgid "Hire has not reached this page; only the adjacent edition's rota arrived early."
+msgstr "Hire has not reached this page; only the adjacent edition's rota arrived early."

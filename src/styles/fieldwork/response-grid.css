@@ -1,0 +1,437 @@
+.fieldwork-response-grid button {
+  display: flex;
+  min-height: 220px;
+  padding: 26px;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.17);
+  color: #f3eadb;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.fieldwork-response-grid button:last-child {
+  border-right: 0;
+}
+
+.fieldwork-response-grid button:hover,
+.fieldwork-response-grid button:focus-visible {
+  color: #fff;
+  background: var(--field-red-dark);
+}
+
+.fieldwork-response-grid button b {
+  color: #dcc17d;
+  font: 700 0.67rem/1 var(--sans);
+}
+
+.fieldwork-response-grid button span {
+  margin: 25px 0 auto;
+  font: 500 1.1rem/1.5 var(--serif);
+}
+
+.fieldwork-response-grid button small {
+  margin-top: 22px;
+  color: rgba(244, 237, 222, 0.57);
+  font: 700 0.62rem/1.3 var(--sans);
+  letter-spacing: 0.07em;
+}
+
+.fieldwork-live-file > footer {
+  display: flex;
+  padding: 23px 28px;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.17);
+}
+
+.fieldwork-live-file > footer a {
+  color: #dcc17d;
+  font: 700 0.7rem/1.3 var(--sans);
+  text-decoration: none;
+}
+
+.fieldwork-live-file > footer span {
+  max-width: 800px;
+  color: rgba(244, 237, 222, 0.66);
+  font: 400 0.82rem/1.5 var(--serif);
+}
+
+.fieldwork-return-form > header {
+  color: #fff;
+  background: var(--field-blue);
+}
+
+.fieldwork-return-form > header h3,
+.fieldwork-return-form > header small {
+  color: #fff;
+}
+
+.fieldwork-return-form > header span {
+  max-width: 430px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: right;
+}
+
+.fieldwork-return-form form {
+  padding: clamp(24px, 4vw, 48px);
+}
+
+.fieldwork-return-grid {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.fieldwork-return-form .primary-button {
+  margin-top: 26px;
+  margin-left: auto;
+}
+
+.fieldwork-report > blockquote {
+  margin: 0;
+  padding: 34px clamp(24px, 5vw, 60px);
+  color: var(--field-blue);
+  background: var(--field-paper-deep);
+  font: 500 clamp(1.15rem, 2.3vw, 1.65rem)/1.6 var(--serif);
+}
+
+.fieldwork-return-observation {
+  padding: 28px clamp(24px, 4vw, 48px);
+  border-bottom: 1px solid var(--field-line);
+}
+
+.fieldwork-return-observation small {
+  color: var(--field-red);
+  font: 700 0.64rem/1.3 var(--sans);
+}
+
+.fieldwork-return-observation p {
+  margin: 10px 0 0;
+  font: 400 1rem/1.75 var(--serif);
+  white-space: pre-wrap;
+}
+
+.fieldwork-review-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.fieldwork-review-columns section {
+  padding: 27px clamp(24px, 4vw, 48px);
+  border-right: 1px solid var(--field-line);
+  border-bottom: 1px solid var(--field-line);
+}
+
+.fieldwork-review-columns section:last-child {
+  border-right: 0;
+}
+
+.fieldwork-review-columns li {
+  margin: 5px 0;
+  color: var(--field-muted);
+  font: 400 0.9rem/1.5 var(--serif);
+}
+
+.fieldwork-stamp-issued {
+  margin: 30px clamp(24px, 4vw, 48px);
+  grid-template-columns: 1fr auto;
+  transform: rotate(-0.7deg);
+}
+
+.fieldwork-stamp-issued div {
+  text-align: left;
+}
+
+.fieldwork-stamp-issued small,
+.fieldwork-stamp-issued strong,
+.fieldwork-stamp-issued span {
+  display: block;
+}
+
+.fieldwork-stamp-issued small {
+  font: 700 0.62rem/1.3 var(--sans);
+}
+
+.fieldwork-stamp-issued strong {
+  margin: 7px 0;
+  font: 500 1.2rem/1.2 var(--serif);
+}
+
+.fieldwork-stamp-issued span {
+  color: var(--field-muted);
+  font: 700 0.65rem/1.3 var(--sans);
+}
+
+.fieldwork-stamp-issued > b {
+  font: 500 3rem/1 var(--serif);
+}
+
+.fieldwork-passport-book {
+  overflow: hidden;
+}
+
+.fieldwork-passport-book > header {
+  display: flex;
+  padding: clamp(36px, 6vw, 72px);
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #f2e5cd;
+  background:
+    linear-gradient(130deg, rgba(25, 58, 46, 0.98), rgba(17, 40, 34, 0.98)),
+    var(--field-green);
+}
+
+.fieldwork-passport-book > header p {
+  color: #dfc17e;
+}
+
+.fieldwork-passport-book > header h3 {
+  margin: 8px 0 15px;
+  font: 500 clamp(2.2rem, 5vw, 4.5rem)/1.05 var(--serif);
+}
+
+.fieldwork-passport-book > header span {
+  display: block;
+  max-width: 780px;
+  color: rgba(242, 229, 205, 0.7);
+  font: 400 0.96rem/1.7 var(--serif);
+}
+
+.fieldwork-passport-book > header > b {
+  display: grid;
+  width: 75px;
+  height: 75px;
+  place-items: center;
+  border: 2px solid #dfc17e;
+  border-radius: 50%;
+  color: #dfc17e;
+  font: 500 2rem/1 var(--serif);
+  transform: rotate(7deg);
+}
+
+.fieldwork-passport-meta {
+  padding: 24px clamp(24px, 4vw, 48px);
+  border-bottom: 1px solid var(--field-line);
+}
+
+.fieldwork-passport-meta > span {
+  color: var(--field-muted);
+  font: 700 0.64rem/1.3 var(--sans);
+  letter-spacing: 0.08em;
+}
+
+.fieldwork-passport-meta dl {
+  display: grid;
+  margin: 21px 0 0;
+  grid-template-columns: repeat(6, 1fr);
+  border-top: 1px solid var(--field-line);
+  border-left: 1px solid var(--field-line);
+}
+
+.fieldwork-passport-meta dl div {
+  padding: 16px;
+  border-right: 1px solid var(--field-line);
+  border-bottom: 1px solid var(--field-line);
+}
+
+.fieldwork-passport-meta dt {
+  color: var(--field-red);
+  font: 500 1.8rem/1 var(--serif);
+}
+
+.fieldwork-passport-meta dd {
+  margin: 7px 0 0;
+  color: var(--field-muted);
+  font: 600 0.61rem/1.4 var(--sans);
+}
+
+.fieldwork-stamp-grid {
+  display: grid;
+  padding: clamp(24px, 4vw, 48px);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.fieldwork-stamp-grid button {
+  position: relative;
+  display: flex;
+  min-height: 220px;
+  padding: 23px;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px dashed rgba(156, 45, 52, 0.55);
+  color: var(--field-ink);
+  background: rgba(246, 238, 222, 0.66);
+  text-align: left;
+  transform: rotate(-0.4deg);
+  cursor: pointer;
+}
+
+.fieldwork-stamp-grid button:nth-child(2n) {
+  transform: rotate(0.7deg);
+}
+
+.fieldwork-stamp-grid button[data-standing="contested"]::after {
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  width: 2px;
+  height: calc(100% + 10px);
+  background: var(--field-red);
+  content: "";
+  transform: rotate(3deg);
+}
+
+.fieldwork-stamp-grid button:hover,
+.fieldwork-stamp-grid button:focus-visible {
+  color: #fff;
+  background: var(--field-red-dark);
+  outline: 3px solid rgba(156, 45, 52, 0.17);
+  outline-offset: 3px;
+}
+
+.fieldwork-stamp-grid i {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
+  place-items: center;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font: normal 500 1.1rem/1 var(--serif);
+}
+
+.fieldwork-stamp-grid small {
+  color: var(--field-red);
+  font: 700 0.6rem/1.4 var(--sans);
+}
+
+.fieldwork-stamp-grid button:hover small {
+  color: #e7c983;
+}
+
+.fieldwork-stamp-grid strong {
+  margin: 8px 0 auto;
+  font: 500 1.2rem/1.35 var(--serif);
+}
+
+.fieldwork-stamp-grid span {
+  margin-top: 19px;
+  color: var(--field-muted);
+  font: 700 0.61rem/1.3 var(--sans);
+}
+
+.fieldwork-stamp-grid button:hover span {
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.fieldwork-passport-book > footer {
+  display: flex;
+  padding: 25px 48px;
+  justify-content: flex-end;
+  border-top: 1px solid var(--field-line);
+}
+
+.fieldwork-empty {
+  margin: 0;
+  padding: 90px 30px;
+  color: var(--field-muted);
+  font: 500 1.1rem/1.7 var(--serif);
+  text-align: center;
+}
+
+.fieldwork-records > header > span {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  border: 1px solid var(--field-red);
+  border-radius: 50%;
+  color: var(--field-red);
+  font: 500 1.2rem/1 var(--serif);
+}
+
+.fieldwork-record-list article {
+  display: grid;
+  min-height: 150px;
+  padding: 23px 27px;
+  grid-template-columns: 50px minmax(0, 1fr) auto auto;
+  gap: 18px;
+  align-items: center;
+  border-bottom: 1px solid var(--field-line);
+}
+
+.fieldwork-record-list article:last-child {
+  border-bottom: 0;
+}
+
+.fieldwork-record-list article > i {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border: 1px solid var(--field-red);
+  border-radius: 50%;
+  color: var(--field-red);
+  font: normal 500 1rem/1 var(--serif);
+}
+
+.fieldwork-record-list small {
+  color: var(--field-red);
+  font: 700 0.6rem/1.4 var(--sans);
+}
+
+.fieldwork-record-list h4 {
+  margin: 5px 0;
+  font: 500 1.25rem/1.3 var(--serif);
+}
+
+.fieldwork-record-list p {
+  margin: 0;
+  color: var(--field-muted);
+  font: 400 0.86rem/1.45 var(--serif);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fieldwork-record-list article > b {
+  padding: 8px 10px;
+  border: 1px solid var(--field-line);
+  color: var(--field-muted);
+  font: 700 0.61rem/1.3 var(--sans);
+}
+
+.fieldwork-record-list article > b[data-status="deployed"],
+.fieldwork-record-list article > b[data-status="responded"] {
+  color: #fff;
+  background: var(--field-green);
+}
+
+@media (max-width: 1050px) {
+  .fieldwork-hero {
+    grid-template-columns: 1fr 300px;
+  }
+
+  .fieldwork-station-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fieldwork-station-card:nth-child(3n) {
+    border-right: 1px solid var(--field-line);
+  }
+
+  .fieldwork-station-card:nth-child(2n) {
+    border-right: 0;
+  }
+
+  .fieldwork-passport-meta dl {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

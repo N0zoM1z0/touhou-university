@@ -1,0 +1,338 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. facultyProfiles.reimu.field
+#: src/data/faculty.js:4
+msgctxt "text:facultyProfiles.reimu.field"
+msgid "INCIDENT STUDIES"
+msgstr "INCIDENT STUDIES / 異変対応"
+
+#. facultyProfiles.reimu.name
+#: src/data/faculty.js:5
+msgctxt "text:facultyProfiles.reimu.name"
+msgid "Reimu Hakurei"
+msgstr "博麗 霊夢"
+
+#. facultyProfiles.reimu.role
+#: src/data/faculty.js:6
+msgctxt "text:facultyProfiles.reimu.role"
+msgid "Professor of Incident Response · Hakurei Shrine Maiden"
+msgstr "異変対応実務 教授・博麗神社の巫女"
+
+#. facultyProfiles.reimu.expertise
+#: src/data/faculty.js:7
+msgctxt "text:facultyProfiles.reimu.expertise"
+msgid ""
+"Barrier arts, purification, incident intuition, and spell-card rules. She "
+"often finds the culprit before the incident report is complete, then "
+"remembers that her students still need notes on the method."
+msgstr "結界術、浄化、異変の勘、スペルカード規則。調査票が埋まる前に犯人を見つけ、学生に方法ノートが必要だったと思い出す。"
+
+#. facultyProfiles.reimu.courses
+#: src/data/faculty.js:8
+msgctxt "text:facultyProfiles.reimu.courses"
+msgid "Incident De-escalation · Hakurei Barrier Practicum · Spell-card Debate"
+msgstr "異変現場の非エスカレーション原則／博麗結界実習／スペルカード式討論"
+
+#. facultyProfiles.reimu.incident
+#: src/data/faculty.js:9
+msgctxt "text:facultyProfiles.reimu.incident"
+msgid ""
+"She moved the Hakurei Gate repair box back to the shrine for the third time "
+"this month. Administration abandoned chains and painted a return-to-campus "
+"arrow underneath."
+msgstr "博麗門修繕用の賽銭箱を今月三度目に神社へ移動。総務は鎖を諦め、箱底に帰校矢印を描いた。"
+
+#. facultyProfiles.yukari.field
+#: src/data/faculty.js:12
+msgctxt "text:facultyProfiles.yukari.field"
+msgid "BOUNDARY GOVERNANCE"
+msgstr "BOUNDARY GOVERNANCE / 境界統治"
+
+#. facultyProfiles.yukari.name
+#: src/data/faculty.js:13
+msgctxt "text:facultyProfiles.yukari.name"
+msgid "Yukari Yakumo"
+msgstr "八雲 紫"
+
+#. facultyProfiles.yukari.role
+#: src/data/faculty.js:14
+msgctxt "text:facultyProfiles.yukari.role"
+msgid "Founding Professor of Boundary Studies · Sage of Gensokyo"
+msgstr "境界研究 創設教授・幻想郷の賢者"
+
+#. facultyProfiles.yukari.expertise
+#: src/data/faculty.js:15
+msgctxt "text:facultyProfiles.yukari.expertise"
+msgid ""
+"Boundary topology, institutional risk, Outside World drift, and long-horizon "
+"governance. Her examinations often begin by redrawing the question’s "
+"boundary."
+msgstr "境界トポロジー、制度リスク、外界漂流物、長期統治。試験では問題そのものの境界が先に変わる。"
+
+#. facultyProfiles.yukari.courses
+#: src/data/faculty.js:16
+msgctxt "text:facultyProfiles.yukari.courses"
+msgid "Boundary Topology · Gensokyo Governance · Absence and Existence"
+msgstr "境界トポロジー／幻想郷統治特論／不在と存在"
+
+#. facultyProfiles.yukari.incident
+#: src/data/faculty.js:17
+msgctxt "text:facultyProfiles.yukari.incident"
+msgid ""
+"She moved a classroom between presence and absence to prove policy never "
+"says a room must be on campus. The make-up notice remains inside."
+msgstr "教室を「出席と欠席の間」へ移し、規程が教室の学内所在を求めていないと証明。補講掲示はまだ中にある。"
+
+#. facultyProfiles.keine.field
+#: src/data/faculty.js:20
+msgctxt "text:facultyProfiles.keine.field"
+msgid "HISTORY & MEMORY"
+msgstr "HISTORY & MEMORY / 歴史と記憶"
+
+#. facultyProfiles.keine.name
+#: src/data/faculty.js:21
+msgctxt "text:facultyProfiles.keine.name"
+msgid "Keine Kamishirasawa"
+msgstr "上白沢 慧音"
+
+#. facultyProfiles.keine.role
+#: src/data/faculty.js:22
+msgctxt "text:facultyProfiles.keine.role"
+msgid "Dean of History and Records · Terakoya Teacher"
+msgstr "歴史記録学部長・寺子屋教師"
+
+#. facultyProfiles.keine.expertise
+#: src/data/faculty.js:23
+msgctxt "text:facultyProfiles.keine.expertise"
+msgid ""
+"Gensokyo history, public memory, village safety, and archival ethics. She "
+"distinguishes what happened, what was recorded, and what people were "
+"permitted to remember."
+msgstr "幻想郷史、公共記憶、里の安全、史料倫理。起きたこと、記録されたこと、記憶を許されたことを区別する。"
+
+#. facultyProfiles.keine.courses
+#: src/data/faculty.js:24
+msgctxt "text:facultyProfiles.keine.courses"
+msgid "History of Gensokyo · Source Criticism · Full-Moon Field Notes"
+msgstr "幻想郷通史／史料批判／満月フィールドノート"
+
+#. facultyProfiles.keine.incident
+#: src/data/faculty.js:25
+msgctxt "text:facultyProfiles.keine.incident"
+msgid ""
+"After students claimed history ate their late record, she added an "
+"unannounced roll call. That roll call later vanished from two archives."
+msgstr "学生が「遅刻記録は歴史に呑まれた」と主張したため抜き打ち点呼を追加。その点呼自体が後に二つの記録から消えた。"
+
+#. facultyProfiles.patchouli.field
+#: src/data/faculty.js:28
+msgctxt "text:facultyProfiles.patchouli.field"
+msgid "ELEMENTAL MAGIC"
+msgstr "ELEMENTAL MAGIC / 元素魔法"
+
+#. facultyProfiles.patchouli.name
+#: src/data/faculty.js:29
+msgctxt "text:facultyProfiles.patchouli.name"
+msgid "Patchouli Knowledge"
+msgstr "パチュリー・ノーレッジ"
+
+#. facultyProfiles.patchouli.role
+#: src/data/faculty.js:30
+msgctxt "text:facultyProfiles.patchouli.role"
+msgid "Professor of Elemental Theory · Scarlet Library Scholar"
+msgstr "元素理論 教授・紅魔館図書館研究者"
+
+#. facultyProfiles.patchouli.expertise
+#: src/data/faculty.js:31
+msgctxt "text:facultyProfiles.patchouli.expertise"
+msgid ""
+"Seven-day elements, critical editions, closed-environment magic, and "
+"low-interference observation. Even the borrowing terms are part of the "
+"lesson."
+msgstr "七曜元素、古典文献校勘、閉鎖環境魔法、低干渉観測。貸出条件まで授業の一部となる。"
+
+#. facultyProfiles.patchouli.courses
+#: src/data/faculty.js:32
+msgctxt "text:facultyProfiles.patchouli.courses"
+msgid "Seven-Day Elemental Theory II · Grimoire Collation · Closed Magic Systems"
+msgstr "七曜元素論 II／魔導書校勘／小型閉鎖魔法系"
+
+#. facultyProfiles.patchouli.incident
+#: src/data/faculty.js:33
+msgctxt "text:facultyProfiles.patchouli.incident"
+msgid ""
+"She rejects the overdue finding because “120 years is insufficient to "
+"establish permanence.” Interlibrary Loans now lists the sentence as a "
+"high-risk precedent."
+msgstr "紅魔館の蔵書延滞を否定。「百二十年では永久に足りない」。相互貸借机はこの一文を高リスク判例に指定。"
+
+#. facultyProfiles.marisa.field
+#: src/data/faculty.js:36
+msgctxt "text:facultyProfiles.marisa.field"
+msgid "APPLIED MAGIC"
+msgstr "APPLIED MAGIC / 応用魔法"
+
+#. facultyProfiles.marisa.name
+#: src/data/faculty.js:37
+msgctxt "text:facultyProfiles.marisa.name"
+msgid "Marisa Kirisame"
+msgstr "霧雨 魔理沙"
+
+#. facultyProfiles.marisa.role
+#: src/data/faculty.js:38
+msgctxt "text:facultyProfiles.marisa.role"
+msgid "Professor of Applied Magic · Ordinary Magician"
+msgstr "応用魔法 教授・普通の魔法使い"
+
+#. facultyProfiles.marisa.expertise
+#: src/data/faculty.js:39
+msgctxt "text:facultyProfiles.marisa.expertise"
+msgid ""
+"High-output light magic, material gathering, prototyping, and reproducible "
+"failure. She reproduces explosions precisely; the materials field often says "
+"only “found it in the forest.”"
+msgstr "高出力光魔法、素材採集、試作、再現可能な失敗。爆発は正確に再現できるが、素材出典欄はしばしば「森で拾った」のみ。"
+
+#. facultyProfiles.marisa.courses
+#: src/data/faculty.js:40
+msgctxt "text:facultyProfiles.marisa.courses"
+msgid "High-Output Safety · Reproducible Failure · Starlight Workshop"
+msgstr "高出力魔法安全／失敗の再現性／星光実験工房"
+
+#. facultyProfiles.marisa.incident
+#: src/data/faculty.js:41
+msgctxt "text:facultyProfiles.marisa.incident"
+msgid ""
+"Revision seven still omits two grimoires. She argues they were not borrowed; "
+"the books followed her."
+msgstr "第7回素材追補にも魔導書二冊の記載なし。「借りたのではなく、本が勝手についてきた」と主張。"
+
+#. facultyProfiles.eirin.field
+#: src/data/faculty.js:44
+msgctxt "text:facultyProfiles.eirin.field"
+msgid "LUNAR MEDICINE"
+msgstr "LUNAR MEDICINE / 月都医薬"
+
+#. facultyProfiles.eirin.name
+#: src/data/faculty.js:45
+msgctxt "text:facultyProfiles.eirin.name"
+msgid "Eirin Yagokoro"
+msgstr "八意 永琳"
+
+#. facultyProfiles.eirin.role
+#: src/data/faculty.js:46
+msgctxt "text:facultyProfiles.eirin.role"
+msgid "Dean of Lunar Medicine · Pharmacist of Eientei"
+msgstr "月都医薬生命学部長・永遠亭の薬師"
+
+#. facultyProfiles.eirin.expertise
+#: src/data/faculty.js:47
+msgctxt "text:facultyProfiles.eirin.expertise"
+msgid ""
+"Cross-species pharmacology, lunar physiology, difficult cases, and village "
+"health. She often knows the answer before the patient finishes, yet declines "
+"to explain seventeen intermediate lunar calculations."
+msgstr "種族横断薬理、月相生理、難治症例、里の公衆衛生。患者が症状を言い終える前に答えを知るが、月都式計算の途中17段階は説明しない。"
+
+#. facultyProfiles.eirin.courses
+#: src/data/faculty.js:48
+msgctxt "text:facultyProfiles.eirin.courses"
+msgid "Lunar Pharmacology · Lost-Sense Clinic · Hourai Ethics Seminar"
+msgstr "月相薬理／迷い感覚外来／蓬莱倫理演習"
+
+#. facultyProfiles.eirin.incident
+#: src/data/faculty.js:49
+msgctxt "text:facultyProfiles.eirin.incident"
+msgid ""
+"Eientei filed a prescription precise to six lunar-dust decimals; its "
+"rationale reads “already conservative for earthlings.” Reviewers requested a "
+"comprehensible version."
+msgstr "永遠亭の処方は月塵小数点以下六桁まで正確だが、用量理由は「地上人には十分控えめ」。審査会は理解可能版を要求。"
+
+#. facultyProfiles.nitori.field
+#: src/data/faculty.js:52
+msgctxt "text:facultyProfiles.nitori.field"
+msgid "KAPPA ENGINEERING"
+msgstr "KAPPA ENGINEERING / 河童工学"
+
+#. facultyProfiles.nitori.name
+#: src/data/faculty.js:53
+msgctxt "text:facultyProfiles.nitori.name"
+msgid "Nitori Kawashiro"
+msgstr "河城 にとり"
+
+#. facultyProfiles.nitori.role
+#: src/data/faculty.js:54
+msgctxt "text:facultyProfiles.nitori.role"
+msgid "Dean of Kappa Engineering · Hydraulic Engineer"
+msgstr "河童工学部長・水利技師"
+
+#. facultyProfiles.nitori.expertise
+#: src/data/faculty.js:55
+msgctxt "text:facultyProfiles.nitori.expertise"
+msgid ""
+"Micro-hydropower, instruments, prototyping, and mountain maintenance. Her "
+"machines usually work; the manuals finally catch up after the second leak."
+msgstr "小水力、観測機器、試作、山地保守。機械は大抵本当に動くが、説明書が機械より完成するのは二度目の漏水後。"
+
+#. facultyProfiles.nitori.courses
+#: src/data/faculty.js:56
+msgctxt "text:facultyProfiles.nitori.courses"
+msgid "Low-Head Turbines · Waterproof Prototyping · Non-Magic User Testing"
+msgstr "低落差水車／防水試作工房／非妖力ユーザーテスト"
+
+#. facultyProfiles.nitori.incident
+#: src/data/faculty.js:57
+msgctxt "text:facultyProfiles.nitori.incident"
+msgid ""
+"The north pipe's “seven-day temporary repair” is on day 129. Its leak powers "
+"a corridor turbine, so Engineering refuses to call it a fault."
+msgstr "北側配管の「七日間仮修理」は129日目。漏水が廊下の水車を動かすため、工学部は故障との呼称を拒否。"
+
+#. facultyProfiles.aya.field
+#: src/data/faculty.js:60
+msgctxt "text:facultyProfiles.aya.field"
+msgid "JOURNALISM"
+msgstr "JOURNALISM / 新聞報道"
+
+#. facultyProfiles.aya.name
+#: src/data/faculty.js:61
+msgctxt "text:facultyProfiles.aya.name"
+msgid "Aya Shameimaru"
+msgstr "射命丸 文"
+
+#. facultyProfiles.aya.role
+#: src/data/faculty.js:62
+msgctxt "text:facultyProfiles.aya.role"
+msgid "Dean of Tengu Journalism · Bunbunmaru Reporter"
+msgstr "天狗新聞報道学部長・『文々。新聞』記者"
+
+#. facultyProfiles.aya.expertise
+#: src/data/faculty.js:63
+msgctxt "text:facultyProfiles.aya.expertise"
+msgid ""
+"Photography, interviews, sourcing, headlines, and public corrections. She "
+"teaches students to withdraw harmful headlines, then drafts three faster, "
+"louder versions before class ends."
+msgstr "写真、取材、情報源、見出し、公開訂正。傷つける見出しの撤回を教えつつ、授業終了前にもっと速く響く案を三つ考える。"
+
+#. facultyProfiles.aya.courses
+#: src/data/faculty.js:64
+msgctxt "text:facultyProfiles.aya.courses"
+msgid "Field Photography · Source Ethics · Headline or Harm"
+msgstr "現場写真／情報源倫理／見出しか、傷害か"
+
+#. facultyProfiles.aya.incident
+#: src/data/faculty.js:65
+msgctxt "text:facultyProfiles.aya.incident"
+msgid ""
+"This week's corrections class uses the dean's own newly misleading headline. "
+"She calls it advanced integration of teaching and practice."
+msgstr "今週の公開訂正授業は学部長自身の誤報見出しを教材に使用。本人は教育と実務の高度統合だと主張。"

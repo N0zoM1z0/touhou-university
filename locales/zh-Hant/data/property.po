@@ -1,0 +1,906 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. propertyJurisdictions.university
+#: src/data/property.js:34
+msgctxt "text:propertyJurisdictions.university"
+msgid "Campus find"
+msgstr "校內拾得物"
+
+#. propertyJurisdictions.residence
+#: src/data/property.js:35
+msgctxt "text:propertyJurisdictions.residence"
+msgid "Residential commons"
+msgstr "宿舍共同生活"
+
+#. propertyJurisdictions.library
+#: src/data/property.js:36
+msgctxt "text:propertyJurisdictions.library"
+msgid "Misty Lake Library holding"
+msgstr "霧湖圖書館館藏"
+
+#. propertyJurisdictions.kourindou
+#: src/data/property.js:37
+msgctxt "text:propertyJurisdictions.kourindou"
+msgid "Kourindou Outside-World object"
+msgstr "香霖堂外界物"
+
+#. propertyJurisdictions.shrine
+#: src/data/property.js:38
+msgctxt "text:propertyJurisdictions.shrine"
+msgid "Hakurei Shrine deposit"
+msgstr "博麗神社寄放"
+
+#. propertyJurisdictions.autonomous
+#: src/data/property.js:39
+msgctxt "text:propertyJurisdictions.autonomous"
+msgid "Tsukumogami self-filing"
+msgstr "付喪神自主申告"
+
+#. propertyItems.0.0.name
+#: src/data/property.js:47
+msgctxt "text:propertyItems.0.0.name"
+msgid "Silver watch that rejects its former holder"
+msgstr "拒絕承認前主人的銀懷錶"
+
+#. propertyItems.0.0.foundAt
+#: src/data/property.js:48
+msgctxt "text:propertyItems.0.0.foundAt"
+msgid "The third yesterday of the Scarlet trainee shuttle"
+msgstr "紅魔館實習生末班車的第三個昨天"
+
+#. propertyItems.0.0.foundBy
+#: src/data/property.js:49
+msgctxt "text:propertyItems.0.0.foundBy"
+msgid "Clocktower duty fairy (signed before finding it)"
+msgstr "鐘塔值班妖精（簽名時間早於拾得時間）"
+
+#. propertyItems.0.0.condition
+#: src/data/property.js:50
+msgctxt "text:propertyItems.0.0.condition"
+msgid "Keeps exact time; loses one second near Sakuya"
+msgstr "走時精準；只在咲夜靠近時慢一秒"
+
+#. propertyItems.0.0.statement
+#: src/data/property.js:51
+msgctxt "text:propertyItems.0.0.statement"
+msgid "“I was not lost; I resigned. Replace ‘owner’ with ‘former employer’.”"
+msgstr "「我不是遺失，是辭職。請把『失主』改成『前雇主』。」"
+
+#. propertyItems.0.0.dispute
+#: src/data/property.js:52
+msgctxt "text:propertyItems.0.0.dispute"
+msgid "The Scarlet duty log, stopped-time interval, and an object's right to resign conflict."
+msgstr "紅魔館值班簿、時間停止期間與物件離職權互相矛盾。"
+
+#. propertyItems.0.0.evidence.0
+#: src/data/property.js:55
+msgctxt "text:propertyItems.0.0.evidence.0"
+msgid "SDM-03 is engraved inside; 03 insists it is a room number"
+msgstr "錶蓋內刻有 SDM-03，但 03 堅稱那是房間號"
+
+#. propertyItems.0.0.evidence.1
+#: src/data/property.js:56
+msgctxt "text:propertyItems.0.0.evidence.1"
+msgid "Three mutually disagreeing last-shuttle timetables"
+msgstr "三張互相不同意的末班車時刻表"
+
+#. propertyItems.0.0.evidence.2
+#: src/data/property.js:57
+msgctxt "text:propertyItems.0.0.evidence.2"
+msgid "A written resignation one second long"
+msgstr "一秒鐘的書面辭呈"
+
+#. propertyItems.0.0.responses.0.1
+#: src/data/property.js:61
+msgctxt "text:propertyItems.0.0.responses.0.1"
+msgid "Return to the Mansion under a revocable custody contract"
+msgstr "交回紅魔館，但把值班契約改成可撤回寄放"
+
+#. propertyItems.0.0.responses.1.1
+#: src/data/property.js:62
+msgctxt "text:propertyItems.0.0.responses.1.1"
+msgid "Recognise resignation and lodge it in the History Hall clock cabinet"
+msgstr "承認自主離職，暫住校史館鐘櫃"
+
+#. propertyItems.0.0.responses.2.1
+#: src/data/property.js:63
+msgctxt "text:propertyItems.0.0.responses.2.1"
+msgid "Require Sakuya and the watch to testify within the same minute"
+msgstr "要求咲夜與懷錶在同一分鐘內各自陳述"
+
+#. propertyItems.1.0.name
+#: src/data/property.js:70
+msgctxt "text:propertyItems.1.0.name"
+msgid "Patched umbrella that reports itself lost only in sunshine"
+msgstr "只在晴天報失的補丁紙傘"
+
+#. propertyItems.1.0.foundAt
+#: src/data/property.js:71
+msgctxt "text:propertyItems.1.0.foundAt"
+msgid "Above the Hakurei Gate donation box, still floating after rain"
+msgstr "博麗門捐款箱上方，雨停後仍懸空"
+
+#. propertyItems.1.0.foundBy
+#: src/data/property.js:72
+msgctxt "text:propertyItems.1.0.foundBy"
+msgid "Kogasa Tatara, claiming to be witness, companion, and weather"
+msgstr "多多良小傘（同時主張自己是證人、同行者與天候）"
+
+#. propertyItems.1.0.condition
+#: src/data/property.js:73
+msgctxt "text:propertyItems.1.0.condition"
+msgid "Nine kappa-tape repairs; ribs startle whoever turns the form"
+msgstr "九處河童膠帶；傘骨會在表格翻頁時嚇人"
+
+#. propertyItems.1.0.statement
+#: src/data/property.js:74
+msgctxt "text:propertyItems.1.0.statement"
+msgid "“My holder remembers me only when it rains. That is seasonal abandonment.”"
+msgstr "「主人只在下雨時想起我，這叫季節性棄養。」"
+
+#. propertyItems.1.0.dispute
+#: src/data/property.js:75
+msgctxt "text:propertyItems.1.0.dispute"
+msgid ""
+"The former holder brings a receipt; the umbrella brings nineteen consecutive "
+"sunny days of loneliness."
+msgstr "原持有人帶來購買收據；傘帶來連續十九個晴日的孤獨記錄。"
+
+#. propertyItems.1.0.evidence.0
+#: src/data/property.js:78
+msgctxt "text:propertyItems.1.0.evidence.0"
+msgid "Faded Kourindou tag naming it a “portable roof”"
+msgstr "香霖堂褪色價籤，品名寫成「便攜屋頂」"
+
+#. propertyItems.1.0.evidence.1
+#: src/data/property.js:79
+msgctxt "text:propertyItems.1.0.evidence.1"
+msgid "Handle wear matches the holder's grip"
+msgstr "傘柄磨損與持有人手形相符"
+
+#. propertyItems.1.0.evidence.2
+#: src/data/property.js:80
+msgctxt "text:propertyItems.1.0.evidence.2"
+msgid "Kogasa's scare rota contains two extra Sundays"
+msgstr "小傘提供的驚嚇出勤簿，多出兩個星期日"
+
+#. propertyItems.1.0.responses.0.1
+#: src/data/property.js:84
+msgctxt "text:propertyItems.1.0.responses.0.1"
+msgid "Return with a weekly fair-weather outing clause"
+msgstr "返還，但附每週一次晴日散步條款"
+
+#. propertyItems.1.0.responses.1.1
+#: src/data/property.js:85
+msgctxt "text:propertyItems.1.0.responses.1.1"
+msgid "Place in the campus umbrella foster rack under Kogasa"
+msgstr "由小傘帶領進入校園傘具寄養架"
+
+#. propertyItems.1.0.responses.2.1
+#: src/data/property.js:86
+msgctxt "text:propertyItems.1.0.responses.2.1"
+msgid "Register as an autonomous Hakurei Gate rain shelter"
+msgstr "登記為博麗門自主遮雨設施"
+
+#. propertyItems.2.0.name
+#: src/data/property.js:93
+msgctxt "text:propertyItems.2.0.name"
+msgid "Bookmark insisting the book lost it"
+msgstr "堅稱是書把它弄丟的書籤"
+
+#. propertyItems.2.0.foundAt
+#: src/data/property.js:94
+msgctxt "text:propertyItems.2.0.foundAt"
+msgid "Between a self-reshelving grimoire and cookbook"
+msgstr "霧湖圖書館會自行換架的禁書與食譜之間"
+
+#. propertyItems.2.0.foundBy
+#: src/data/property.js:95
+msgctxt "text:propertyItems.2.0.foundBy"
+msgid "Koakuma, annotating “I did not put it there” three times"
+msgstr "小惡魔，附註「不是我夾進去的」三次"
+
+#. propertyItems.2.0.condition
+#: src/data/property.js:96
+msgctxt "text:propertyItems.2.0.condition"
+msgid "Scorched corners; recites the last borrower's unfinished sentence"
+msgstr "邊角焦黑；會朗讀上一位借閱者沒讀完的句子"
+
+#. propertyItems.2.0.statement
+#: src/data/property.js:97
+msgctxt "text:propertyItems.2.0.statement"
+msgid "“Call number ML-R-009 flew away. I am the one who stayed in place.”"
+msgstr "「書號 ML-R-009 擅自飛走。我才是留在原位置的那個。」"
+
+#. propertyItems.2.0.dispute
+#: src/data/property.js:98
+msgctxt "text:propertyItems.2.0.dispute"
+msgid "If part of the holding it should return; if reader notes, it should not read them aloud."
+msgstr "若書籤是館藏的一部分，應歸還；若是讀者筆記，內容又不該公開朗讀。"
+
+#. propertyItems.2.0.evidence.0
+#: src/data/property.js:101
+msgctxt "text:propertyItems.2.0.evidence.0"
+msgid "Three loans record the book but never the bookmark"
+msgstr "三次借閱紀錄都只登記書，沒有登記書籤"
+
+#. propertyItems.2.0.evidence.1
+#: src/data/property.js:102
+msgctxt "text:propertyItems.2.0.evidence.1"
+msgid "Paper fibres match a Hieda correction leaf"
+msgstr "紙纖維來自稗田抄本訂正頁"
+
+#. propertyItems.2.0.evidence.2
+#: src/data/property.js:103
+msgctxt "text:propertyItems.2.0.evidence.2"
+msgid "A shelf's note: “witnessed, declines testimony”"
+msgstr "書架自己提交的『目擊但拒絕作證』便條"
+
+#. propertyItems.2.0.responses.0.1
+#: src/data/property.js:107
+msgctxt "text:propertyItems.2.0.responses.0.1"
+msgid "Give the bookmark its own call number"
+msgstr "給書籤獨立索書號，不再視為附件"
+
+#. propertyItems.2.0.responses.1.1
+#: src/data/property.js:108
+msgctxt "text:propertyItems.2.0.responses.1.1"
+msgid "Return it to the book and forbid reciting reader notes"
+msgstr "送回原書，但禁止朗讀借閱者筆記"
+
+#. propertyItems.2.0.responses.2.1
+#: src/data/property.js:109
+msgctxt "text:propertyItems.2.0.responses.2.1"
+msgid "Recall the book and convene if it can find the hearing room"
+msgstr "召回那本書；若它找得到聽證室就開庭"
+
+#. propertyItems.3.0.name
+#: src/data/property.js:116
+msgctxt "text:propertyItems.3.0.name"
+msgid "Wrench that declares everything “temporarily repairable”"
+msgstr "把所有東西都判定為「臨時可修」的扳手"
+
+#. propertyItems.3.0.foundAt
+#: src/data/property.js:117
+msgctxt "text:propertyItems.3.0.foundAt"
+msgid "Outside the Kappa Workshop cordon, which it tightened"
+msgstr "河童工房封鎖線外側；封鎖線由它鎖上"
+
+#. propertyItems.3.0.foundBy
+#: src/data/property.js:118
+msgctxt "text:propertyItems.3.0.foundBy"
+msgid "Nitori's third tool inventory"
+msgstr "荷取的第三份工具盤點表"
+
+#. propertyItems.3.0.condition
+#: src/data/property.js:119
+msgctxt "text:propertyItems.3.0.condition"
+msgid "Carries three generations of tape; size markings bargain"
+msgstr "沾有藍、紅、透明三代膠帶；尺寸刻度會討價還價"
+
+#. propertyItems.3.0.statement
+#: src/data/property.js:120
+msgctxt "text:propertyItems.3.0.statement"
+msgid "“The workshop listed me as lost because it refuses to admit I was doing overtime.”"
+msgstr "「工房把我列為失物，是因為它不願承認我在加班。」"
+
+#. propertyItems.3.0.dispute
+#: src/data/property.js:121
+msgctxt "text:propertyItems.3.0.dispute"
+msgid "Who owns the tool, its overtime, and the lost-property box it repaired."
+msgstr "工具屬工房、加班成果屬誰、被工具修好的失物箱又歸誰。"
+
+#. propertyItems.3.0.evidence.0
+#: src/data/property.js:124
+msgctxt "text:propertyItems.3.0.evidence.0"
+msgid "Stamped KW-17; the workshop has four KW-17s"
+msgstr "刻有 KW-17；工房同時存在四把 KW-17"
+
+#. propertyItems.3.0.evidence.1
+#: src/data/property.js:125
+msgctxt "text:propertyItems.3.0.evidence.1"
+msgid "An unsigned 27-hour overtime sheet"
+msgstr "未簽核的二十七小時加班表"
+
+#. propertyItems.3.0.evidence.2
+#: src/data/property.js:126
+msgctxt "text:propertyItems.3.0.evidence.2"
+msgid "The repaired box is marked “permanently temporary”"
+msgstr "失物箱修復處寫著『永久臨時』"
+
+#. propertyItems.3.0.responses.0.1
+#: src/data/property.js:130
+msgctxt "text:propertyItems.3.0.responses.0.1"
+msgid "Return to the workshop and record its duty hours"
+msgstr "返還工房，另補登工具值勤時間"
+
+#. propertyItems.3.0.responses.1.1
+#: src/data/property.js:131
+msgctxt "text:propertyItems.3.0.responses.1.1"
+msgid "Register as an autonomous contractor paid one cucumber per repair"
+msgstr "改列自主承包工具，以每次修復換一枚黃瓜"
+
+#. propertyItems.3.0.responses.2.1
+#: src/data/property.js:132
+msgctxt "text:propertyItems.3.0.responses.2.1"
+msgid "Hold until all four KW-17s complete identity reconciliation"
+msgstr "留置至四把 KW-17 完成身分互認"
+
+#. propertyItems.4.0.name
+#: src/data/property.js:139
+msgctxt "text:propertyItems.4.0.name"
+msgid "Hair ribbon claimed by two half-phantom rolls"
+msgstr "同時被兩份半靈名冊認領的髮帶"
+
+#. propertyItems.4.0.foundAt
+#: src/data/property.js:140
+msgctxt "text:propertyItems.4.0.foundAt"
+msgid "Between the Hakugyokurou return gate and Higan queue"
+msgstr "白玉樓實習返校門與彼岸候車線之間"
+
+#. propertyItems.4.0.foundBy
+#: src/data/property.js:141
+msgctxt "text:propertyItems.4.0.foundBy"
+msgid "Youmu Konpaku; her phantom half drew a circle in the witness box"
+msgstr "魂魄妖夢；半靈在證人欄畫了一個圈"
+
+#. propertyItems.4.0.condition
+#: src/data/property.js:142
+msgctxt "text:propertyItems.4.0.condition"
+msgid "Half ties tightly; half passes through every evidence box"
+msgstr "一半繫得很緊，一半穿過所有收納盒"
+
+#. propertyItems.4.0.statement
+#: src/data/property.js:143
+msgctxt "text:propertyItems.4.0.statement"
+msgid "“Do not ask which half owns me; first prove your form is whole.”"
+msgstr "「請不要問我屬於哪一半；你們的表格先證明自己是完整的。」"
+
+#. propertyItems.4.0.dispute
+#: src/data/property.js:144
+msgctxt "text:propertyItems.4.0.dispute"
+msgid "Two rolls each list half, totalling one and a half; Yuyuko also claims napkin use."
+msgstr "兩份名冊各登記半件，合計一件半；幽幽子另申請餐巾用途。"
+
+#. propertyItems.4.0.evidence.0
+#: src/data/property.js:147
+msgctxt "text:propertyItems.4.0.evidence.0"
+msgid "Youmu's full-item claim"
+msgstr "妖夢的整件領回單"
+
+#. propertyItems.4.0.evidence.1
+#: src/data/property.js:148
+msgctxt "text:propertyItems.4.0.evidence.1"
+msgid "Two phantom rolls, one written through the paper"
+msgstr "兩份半靈名冊，其中一份墨水穿過紙面"
+
+#. propertyItems.4.0.evidence.2
+#: src/data/property.js:149
+msgctxt "text:propertyItems.4.0.evidence.2"
+msgid "Yuyuko's lunch booking scheduled after the hearing"
+msgstr "幽幽子的午餐預約，時間在聽證後"
+
+#. propertyItems.4.0.responses.0.1
+#: src/data/property.js:153
+msgctxt "text:propertyItems.4.0.responses.0.1"
+msgid "Return to Youmu while preserving the one-and-a-half correction"
+msgstr "返還妖夢，名冊保留『一件半』訂正痕跡"
+
+#. propertyItems.4.0.responses.1.1
+#: src/data/property.js:154
+msgctxt "text:propertyItems.4.0.responses.1.1"
+msgid "Register as shared by human and phantom without physical division"
+msgstr "登記為人與半靈共同物，不要求物理切分"
+
+#. propertyItems.4.0.responses.2.1
+#: src/data/property.js:155
+msgctxt "text:propertyItems.4.0.responses.2.1"
+msgid "Let the ribbon choose which side it ties each day"
+msgstr "髮帶自行選擇今日要繫住哪一側"
+
+#. propertyItems.5.0.name
+#: src/data/property.js:162
+msgctxt "text:propertyItems.5.0.name"
+msgid "Moon-rabbit shuttle ticket whose destination is “yesterday”"
+msgstr "目的地寫著『昨日』的月兔接駁券"
+
+#. propertyItems.5.0.foundAt
+#: src/data/property.js:163
+msgctxt "text:propertyItems.5.0.foundAt"
+msgid "Eientei bamboo stop, Exit Zero"
+msgstr "永遠亭竹林月台第零號出口"
+
+#. propertyItems.5.0.foundBy
+#: src/data/property.js:164
+msgctxt "text:propertyItems.5.0.foundBy"
+msgid "Reisen; Tewi added “possibly tomorrow” on the reverse"
+msgstr "鈴仙；帝在背面補寫『也可能是明天』"
+
+#. propertyItems.5.0.condition
+#: src/data/property.js:165
+msgctxt "text:propertyItems.5.0.condition"
+msgid "Unpunched, yet bears three arrival stamps"
+msgstr "尚未剪票，但已蓋三次到站章"
+
+#. propertyItems.5.0.statement
+#: src/data/property.js:166
+msgctxt "text:propertyItems.5.0.statement"
+msgid "“I am not lost property; I am a journey record that has not happened yet.”"
+msgstr "「我不是失物，是尚未發生的乘車紀錄。」"
+
+#. propertyItems.5.0.dispute
+#: src/data/property.js:167
+msgctxt "text:propertyItems.5.0.dispute"
+msgid ""
+"Unused tickets merit refunds; arrived tickets belong in archives; the "
+"destination does not exist today."
+msgstr "未使用票應退費；已到站票應歸檔；目的地不存在於今天。"
+
+#. propertyItems.5.0.evidence.0
+#: src/data/property.js:170
+msgctxt "text:propertyItems.5.0.evidence.0"
+msgid "Three Eientei arrival seals in order two, one, three"
+msgstr "永遠亭三枚到站章，順序為二、一、三"
+
+#. propertyItems.5.0.evidence.1
+#: src/data/property.js:171
+msgctxt "text:propertyItems.5.0.evidence.1"
+msgid "Tewi's luck guarantee, guarantor: “depends”"
+msgstr "帝的幸運保證，保證人欄填『看情況』"
+
+#. propertyItems.5.0.evidence.2
+#: src/data/property.js:172
+msgctxt "text:propertyItems.5.0.evidence.2"
+msgid "Lunar table says yesterday's moon appears tonight"
+msgstr "月相表指出昨天的月亮將在今晚出現"
+
+#. propertyItems.5.0.responses.0.1
+#: src/data/property.js:176
+msgctxt "text:propertyItems.5.0.responses.0.1"
+msgid "Archive as future-arrival evidence at Hieda Hall"
+msgstr "以『未來到站證物』送入稗田館"
+
+#. propertyItems.5.0.responses.1.1
+#: src/data/property.js:177
+msgctxt "text:propertyItems.5.0.responses.1.1"
+msgid "Redeem for one return shuttle after full moon"
+msgstr "滿月後可持券搭乘一次回程班車"
+
+#. propertyItems.5.0.responses.2.1
+#: src/data/property.js:178
+msgctxt "text:propertyItems.5.0.responses.2.1"
+msgid "Hold until yesterday formally arrives"
+msgstr "保管至昨日正式抵達"
+
+#. propertyItems.6.0.name
+#: src/data/property.js:185
+msgctxt "text:propertyItems.6.0.name"
+msgid "Taiko beater refusing accessory status"
+msgstr "拒絕被列作配件的太鼓鼓棒"
+
+#. propertyItems.6.0.foundAt
+#: src/data/property.js:186
+msgctxt "text:propertyItems.6.0.foundAt"
+msgid "Inside the residence noise-complaint box, striking its walls"
+msgstr "宿舍夜聲申訴箱內，正在敲箱壁"
+
+#. propertyItems.6.0.foundBy
+#: src/data/property.js:187
+msgctxt "text:propertyItems.6.0.foundBy"
+msgid "Raiko Horikawa, saying it merely arrived early for the meeting"
+msgstr "堀川雷鼓，表示它只是先到會議"
+
+#. propertyItems.6.0.condition
+#: src/data/property.js:188
+msgctxt "text:propertyItems.6.0.condition"
+msgid "Uncracked; adds a beat whenever called “one stick”"
+msgstr "無裂痕；每次被稱為『一根』就多敲一拍"
+
+#. propertyItems.6.0.statement
+#: src/data/property.js:189
+msgctxt "text:propertyItems.6.0.statement"
+msgid "“The drum sounds without me; I strike without it. Therefore we are colleagues.”"
+msgstr "「鼓沒有我也能響，我沒有鼓也能罷工。這證明我們是同事。」"
+
+#. propertyItems.6.0.dispute
+#: src/data/property.js:190
+msgctxt "text:propertyItems.6.0.dispute"
+msgid ""
+"Housing calls it noise evidence, the music club calls it equipment, and the "
+"beater claims employment."
+msgstr "宿舍認為是噪音證物，音樂社認為是器材，鼓棒主張勞動關係。"
+
+#. propertyItems.6.0.evidence.0
+#: src/data/property.js:193
+msgctxt "text:propertyItems.6.0.evidence.0"
+msgid "Thirteen noise complaints, nine filed by the beater"
+msgstr "夜聲申訴十三件，其中九件由鼓棒自己提交"
+
+#. propertyItems.6.0.evidence.1
+#: src/data/property.js:194
+msgctxt "text:propertyItems.6.0.evidence.1"
+msgid "Music inventory lists only “one taiko set”"
+msgstr "音樂社器材表只列『太鼓一式』"
+
+#. propertyItems.6.0.evidence.2
+#: src/data/property.js:195
+msgctxt "text:propertyItems.6.0.evidence.2"
+msgid "Raiko's colleague statement, signed with a rhythm"
+msgstr "雷鼓的同事證明，落款是一段節奏"
+
+#. propertyItems.6.0.responses.0.1
+#: src/data/property.js:199
+msgctxt "text:propertyItems.6.0.responses.0.1"
+msgid "Return to the music club as an independently listed member"
+msgstr "回到音樂社，但器材表改列獨立成員"
+
+#. propertyItems.6.0.responses.1.1
+#: src/data/property.js:200
+msgctxt "text:propertyItems.6.0.responses.1.1"
+msgid "Sign a quiet-night/day-rehearsal compact with housing"
+msgstr "與宿舍簽訂夜間靜音與日間排練協定"
+
+#. propertyItems.6.0.responses.2.1
+#: src/data/property.js:201
+msgctxt "text:propertyItems.6.0.responses.2.1"
+msgid "Permit it to join campus meetings and speak only in rhythm"
+msgstr "允許加入校務會議，僅以節奏發言"
+
+#. propertyItems.7.0.name
+#: src/data/property.js:208
+msgctxt "text:propertyItems.7.0.name"
+msgid "Donation-box key that will not say what it opens"
+msgstr "不願說自己能打開什麼的賽錢箱鑰匙"
+
+#. propertyItems.7.0.foundAt
+#: src/data/property.js:209
+msgctxt "text:propertyItems.7.0.foundAt"
+msgid "Inside the Hakurei donation box while it was locked"
+msgstr "博麗神社捐款箱裡；箱子當時上鎖"
+
+#. propertyItems.7.0.foundBy
+#: src/data/property.js:210
+msgctxt "text:propertyItems.7.0.foundBy"
+msgid "Reimu, immediately applying to treat storage fees as offerings"
+msgstr "靈夢，並立即申請把失物保管費列入香油錢"
+
+#. propertyItems.7.0.condition
+#: src/data/property.js:211
+msgctxt "text:propertyItems.7.0.condition"
+msgid "Teeth intact; clicks only at empty boxes"
+msgstr "齒紋完整；只對沒有錢的箱子發出喀噠聲"
+
+#. propertyItems.7.0.statement
+#: src/data/property.js:212
+msgctxt "text:propertyItems.7.0.statement"
+msgid "“My secret is the only part of me that has not been used up.”"
+msgstr "「鑰匙的秘密是我唯一沒有被使用掉的部分。」"
+
+#. propertyItems.7.0.dispute
+#: src/data/property.js:213
+msgctxt "text:propertyItems.7.0.dispute"
+msgid ""
+"The shrine claims appurtenance, the key claims silence, and Lost Property "
+"wants to test every box."
+msgstr "神社主張隨箱附屬；鑰匙主張沉默權；失物處想先測試所有箱子。"
+
+#. propertyItems.7.0.evidence.0
+#: src/data/property.js:216
+msgctxt "text:propertyItems.7.0.evidence.0"
+msgid "Three identical donation boxes it does not open"
+msgstr "三個外形相同但都打不開的捐款箱"
+
+#. propertyItems.7.0.evidence.1
+#: src/data/property.js:217
+msgctxt "text:propertyItems.7.0.evidence.1"
+msgid "Reimu's receipt: “storage / possible offering”"
+msgstr "靈夢的收據：『保管費／可能的香油錢』"
+
+#. propertyItems.7.0.evidence.2
+#: src/data/property.js:218
+msgctxt "text:propertyItems.7.0.evidence.2"
+msgid "The key remains wholly silent during hearing"
+msgstr "鑰匙在聽證中保持完全沉默"
+
+#. propertyItems.7.0.responses.0.1
+#: src/data/property.js:222
+msgctxt "text:propertyItems.7.0.responses.0.1"
+msgid "Place in shrine custody without compelled lock testing"
+msgstr "交由神社保管，但不得強迫試鎖"
+
+#. propertyItems.7.0.responses.1.1
+#: src/data/property.js:223
+msgctxt "text:propertyItems.7.0.responses.1.1"
+msgid "Keep as sealed evidence until it speaks voluntarily"
+msgstr "以密封證物保管，等它主動發聲"
+
+#. propertyItems.7.0.responses.2.1
+#: src/data/property.js:224
+msgctxt "text:propertyItems.7.0.responses.2.1"
+msgid "Recognise purpose confidentiality and register as Key to an Unknown Door"
+msgstr "承認用途保密，登記為『不明之門的鑰匙』"
+
+#. propertyItems.8.0.name
+#: src/data/property.js:231
+msgctxt "text:propertyItems.8.0.name"
+msgid "Teacup treating every drinker as a temporary custodian"
+msgstr "把每位飲茶者都視為暫時保管人的茶杯"
+
+#. propertyItems.8.0.foundAt
+#: src/data/property.js:232
+msgctxt "text:propertyItems.8.0.foundAt"
+msgid "On the boundary line of a Myouren–Moriya–Senkai meeting table"
+msgstr "命蓮寺、守矢神社與仙界共用會議桌的境界線上"
+
+#. propertyItems.8.0.foundBy
+#: src/data/property.js:233
+msgctxt "text:propertyItems.8.0.foundBy"
+msgid "Three minutes each say another party found it"
+msgstr "三份會議記錄各自記載另一方拾得"
+
+#. propertyItems.8.0.condition
+#: src/data/property.js:234
+msgctxt "text:propertyItems.8.0.condition"
+msgid "Chip faces the last speaker; tea flavour changes with faith agenda"
+msgstr "缺口朝向最後發言者；茶味依信仰議程變化"
+
+#. propertyItems.8.0.statement
+#: src/data/property.js:235
+msgctxt "text:propertyItems.8.0.statement"
+msgid "“Rotating use is not common ownership; common ownership does not mean nobody washes me.”"
+msgstr "「輪流使用不是共同所有；共同所有也不是誰都不用洗。」"
+
+#. propertyItems.8.0.dispute
+#: src/data/property.js:236
+msgctxt "text:propertyItems.8.0.dispute"
+msgid "All three agree to share, provided the other two wash, store, and compensate."
+msgstr "三方都願意共享，條件是由另外兩方清洗、保管與賠償。"
+
+#. propertyItems.8.0.evidence.0
+#: src/data/property.js:239
+msgctxt "text:propertyItems.8.0.evidence.0"
+msgid "Three same-day minutes using three date formats"
+msgstr "三份同日會議記錄，日期格式各不相同"
+
+#. propertyItems.8.0.evidence.1
+#: src/data/property.js:240
+msgctxt "text:propertyItems.8.0.evidence.1"
+msgid "Torii, lotus, and ten ears appear in turn on the base"
+msgstr "杯底依次出現鳥居、蓮花與十條耳朵"
+
+#. propertyItems.8.0.evidence.2
+#: src/data/property.js:241
+msgctxt "text:propertyItems.8.0.evidence.2"
+msgid "A washing rota nobody claims"
+msgstr "一張沒有人認領的洗杯輪值表"
+
+#. propertyItems.8.0.responses.0.1
+#: src/data/property.js:245
+msgctxt "text:propertyItems.8.0.responses.0.1"
+msgid "Create a three-party rota; failure to wash forfeits the next speaking turn"
+msgstr "建立三方輪值，未洗杯者失去下一輪發言權"
+
+#. propertyItems.8.0.responses.1.1
+#: src/data/property.js:246
+msgctxt "text:propertyItems.8.0.responses.1.1"
+msgid "Let the teacup chair meetings and name its next custodian"
+msgstr "茶杯主持會議，自行指定下一位保管人"
+
+#. propertyItems.8.0.responses.2.1
+#: src/data/property.js:247
+msgctxt "text:propertyItems.8.0.responses.2.1"
+msgid "Keep at the tribunal tea desk until all three collect it together"
+msgstr "留在仲裁處茶桌，直到三方共同來領"
+
+#. propertyItems.9.0.name
+#: src/data/property.js:254
+msgctxt "text:propertyItems.9.0.name"
+msgid "Outside-World earbud, left only, receiving right-ear notices"
+msgstr "只剩左耳、卻收到右耳通知的外界耳機"
+
+#. propertyItems.9.0.foundAt
+#: src/data/property.js:255
+msgctxt "text:propertyItems.9.0.foundAt"
+msgid "Simultaneously on Kourindou's appraisal desk and the library return rack"
+msgstr "香霖堂鑑定桌與霧湖圖書館退件架同時"
+
+#. propertyItems.9.0.foundBy
+#: src/data/property.js:256
+msgctxt "text:propertyItems.9.0.foundBy"
+msgid "Rinnosuke and Patchouli each submitted an original bearing the same serial"
+msgstr "霖之助與帕秋莉各自提交原件，兩件序號相同"
+
+#. propertyItems.9.0.condition
+#: src/data/property.js:257
+msgctxt "text:propertyItems.9.0.condition"
+msgid "Plays tengu notices without power; volume adjusts credibility"
+msgstr "無電仍會播放鴉天狗通知；音量鍵調整的是可信度"
+
+#. propertyItems.9.0.statement
+#: src/data/property.js:258
+msgctxt "text:propertyItems.9.0.statement"
+msgid "“Pairing is not ownership. I un-synchronised from the right ear long ago.”"
+msgstr "「配對不是所有權。我與右耳早已解除同步。」"
+
+#. propertyItems.9.0.dispute
+#: src/data/property.js:259
+msgctxt "text:propertyItems.9.0.dispute"
+msgid ""
+"The manual requires pairing, the object refuses, and Tengu Post wants it "
+"registered as an inbox."
+msgstr "外界使用說明要求配對；物件拒絕；鴉天狗郵便處想把它列為收件箱。"
+
+#. propertyItems.9.0.evidence.0
+#: src/data/property.js:262
+msgctxt "text:propertyItems.9.0.evidence.0"
+msgid "Two physical objects with one serial, each denying it is the copy"
+msgstr "兩件相同序號的實物，彼此否認是複製品"
+
+#. propertyItems.9.0.evidence.1
+#: src/data/property.js:263
+msgctxt "text:propertyItems.9.0.evidence.1"
+msgid "Outside-World manual whose charging instructions do not work here"
+msgstr "無法在幻想鄉供電的外界說明書"
+
+#. propertyItems.9.0.evidence.2
+#: src/data/property.js:264
+msgctxt "text:propertyItems.9.0.evidence.2"
+msgid "An unsent “delivery successful” notice"
+msgstr "一則尚未寄出的『送達成功』通知"
+
+#. propertyItems.9.0.responses.0.1
+#: src/data/property.js:268
+msgctxt "text:propertyItems.9.0.responses.0.1"
+msgid "Catalogue one at the library and one at Kourindou under distinct versions"
+msgstr "一件入館、一件留香霖堂，版本號不得相同"
+
+#. propertyItems.9.0.responses.1.1
+#: src/data/property.js:269
+msgctxt "text:propertyItems.9.0.responses.1.1"
+msgid "Recognise both as originals and list the serial number as lost"
+msgstr "兩件都承認為原件，另把序號列為失物"
+
+#. propertyItems.9.0.responses.2.1
+#: src/data/property.js:270
+msgctxt "text:propertyItems.9.0.responses.2.1"
+msgid "Commission as a one-ear Tengu Post terminal"
+msgstr "委任鴉天狗郵便處作單耳通知終端"
+
+#. propertyArbiters.kogasa.name
+#: src/data/property.js:279
+msgctxt "text:propertyArbiters.kogasa.name"
+msgid "Kogasa Tatara"
+msgstr "多多良小傘"
+
+#. propertyArbiters.kogasa.seat
+#: src/data/property.js:280
+msgctxt "text:propertyArbiters.kogasa.seat"
+msgid "Object life & neglect seat"
+msgstr "付喪神生活與冷落席"
+
+#. propertyArbiters.kogasa.question
+#: src/data/property.js:281
+msgctxt "text:propertyArbiters.kogasa.question"
+msgid "How long since it was properly used, cared for, or allowed to surprise someone?"
+msgstr "它多久沒有被好好使用、保養或嚇到人？"
+
+#. propertyArbiters.rinnosuke.name
+#: src/data/property.js:286
+msgctxt "text:propertyArbiters.rinnosuke.name"
+msgid "Rinnosuke Morichika"
+msgstr "森近霖之助"
+
+#. propertyArbiters.rinnosuke.seat
+#: src/data/property.js:287
+msgctxt "text:propertyArbiters.rinnosuke.seat"
+msgid "Name, use & wear seat"
+msgstr "名稱、用途與磨損席"
+
+#. propertyArbiters.rinnosuke.question
+#: src/data/property.js:288
+msgctxt "text:propertyArbiters.rinnosuke.question"
+msgid "What does the label call it, and what does wear say it actually did?"
+msgstr "名牌說它是什麼，實際磨損又說它做過什麼？"
+
+#. propertyArbiters.akyuu.name
+#: src/data/property.js:293
+msgctxt "text:propertyArbiters.akyuu.name"
+msgid "Hieda no Akyuu"
+msgstr "稗田阿求"
+
+#. propertyArbiters.akyuu.seat
+#: src/data/property.js:294
+msgctxt "text:propertyArbiters.akyuu.seat"
+msgid "Provenance, version & corrections seat"
+msgstr "來源、版本與訂正席"
+
+#. propertyArbiters.akyuu.question
+#: src/data/property.js:295
+msgctxt "text:propertyArbiters.akyuu.question"
+msgid "Which custody record is earliest, and which merely looks most official?"
+msgstr "哪一份領有記錄最早，哪一份只是寫得最像真的？"
+
+#. propertyArbiters.eiki.name
+#: src/data/property.js:300
+msgctxt "text:propertyArbiters.eiki.name"
+msgid "Eiki Shiki"
+msgstr "四季映姬"
+
+#. propertyArbiters.eiki.seat
+#: src/data/property.js:301
+msgctxt "text:propertyArbiters.eiki.seat"
+msgid "Return, responsibility & appeal seat"
+msgstr "返還、責任與申訴席"
+
+#. propertyArbiters.eiki.question
+#: src/data/property.js:302
+msgctxt "text:propertyArbiters.eiki.question"
+msgid "Capacity to keep is not a right to use; losing is not always permanent forfeiture."
+msgstr "誰能保管不等於誰有權使用；誰弄丟也不等於誰永遠失去。"
+
+#. propertyDispositionLabels.return
+#: src/data/property.js:307
+msgctxt "text:propertyDispositionLabels.return"
+msgid "Conditional return"
+msgstr "附條件返還"
+
+#. propertyDispositionLabels.independent
+#: src/data/property.js:308
+msgctxt "text:propertyDispositionLabels.independent"
+msgid "Recognise autonomous destination"
+msgstr "承認自主去向"
+
+#. propertyDispositionLabels.hearing
+#: src/data/property.js:309
+msgctxt "text:propertyDispositionLabels.hearing"
+msgid "Further hearing"
+msgstr "追加聽證"
+
+#. propertyDispositionLabels.foster
+#: src/data/property.js:310
+msgctxt "text:propertyDispositionLabels.foster"
+msgid "Foster placement"
+msgstr "寄養安置"
+
+#. propertyDispositionLabels.catalogue
+#: src/data/property.js:311
+msgctxt "text:propertyDispositionLabels.catalogue"
+msgid "Independent cataloguing"
+msgstr "獨立編目"
+
+#. propertyDispositionLabels.contract
+#: src/data/property.js:312
+msgctxt "text:propertyDispositionLabels.contract"
+msgid "Separate contract"
+msgstr "另立契約"
+
+#. propertyDispositionLabels.hold
+#: src/data/property.js:313
+msgctxt "text:propertyDispositionLabels.hold"
+msgid "Protective hold"
+msgstr "留置保管"
+
+#. propertyDispositionLabels.shared
+#: src/data/property.js:314
+msgctxt "text:propertyDispositionLabels.shared"
+msgid "Shared title"
+msgstr "共同物權"
+
+#. propertyDispositionLabels.archive
+#: src/data/property.js:315
+msgctxt "text:propertyDispositionLabels.archive"
+msgid "Archival custody"
+msgstr "史料封存"
+
+#. propertyDispositionLabels.redeem
+#: src/data/property.js:316
+msgctxt "text:propertyDispositionLabels.redeem"
+msgid "Redeemable use right"
+msgstr "換發使用權"

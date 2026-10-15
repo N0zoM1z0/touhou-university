@@ -1,0 +1,1136 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/housing.js:32
+msgctxt "tree:copy#/eyebrow"
+msgid "RESIDENTIAL LIFE"
+msgstr "RESIDENTIAL LIFE"
+
+#. copy/title
+#: src/js/housing.js:32
+msgctxt "tree:copy#/title"
+msgid "Rooms are allocated. Living together is negotiated."
+msgstr "Rooms are allocated. Living together is negotiated."
+
+#. copy/lead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/lead"
+msgid ""
+"Compare five residences and record needs around moon phase, wingspan, water, "
+"familiars, and sleep. The housing committee returns three room offers with "
+"both the fit and the likely arguments in writing."
+msgstr ""
+"Compare five residences and record needs around moon phase, wingspan, water, "
+"familiars, and sleep. The housing committee returns three room offers with "
+"both the fit and the likely arguments in writing."
+
+#. copy/term
+#: src/js/housing.js:32
+msgctxt "tree:copy#/term"
+msgid "Autumn 2026 move-in"
+msgstr "Autumn 2026 move-in"
+
+#. copy/residences
+#: src/js/housing.js:32
+msgctxt "tree:copy#/residences"
+msgid "residences"
+msgstr "residences"
+
+#. copy/openBeds
+#: src/js/housing.js:32
+msgctxt "tree:copy#/openBeds"
+msgid "Open beds now"
+msgstr "Open beds now"
+
+#. copy/monthlyFrom
+#: src/js/housing.js:32
+msgctxt "tree:copy#/monthlyFrom"
+msgid "Lowest monthly fee"
+msgstr "Lowest monthly fee"
+
+#. copy/tabs/0
+#: src/js/housing.js:32
+msgctxt "tree:copy#/tabs/0"
+msgid "Residences"
+msgstr "Residences"
+
+#. copy/tabs/1
+#: src/js/housing.js:32
+msgctxt "tree:copy#/tabs/1"
+msgid "Apply & match"
+msgstr "Apply & match"
+
+#. copy/tabs/2
+#: src/js/housing.js:32
+msgctxt "tree:copy#/tabs/2"
+msgid "My housing"
+msgstr "My housing"
+
+#. copy/overview
+#: src/js/housing.js:32
+msgctxt "tree:copy#/overview"
+msgid "Five halls. Five ways to get home."
+msgstr "Five halls. Five ways to get home."
+
+#. copy/overviewLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/overviewLead"
+msgid ""
+"Choose a hall to see rooms, open beds, facilities, and the notice pinned by "
+"its warden. The selected sign has a shareable address."
+msgstr ""
+"Choose a hall to see rooms, open beds, facilities, and the notice pinned by "
+"its warden. The selected sign has a shareable address."
+
+#. copy/details
+#: src/js/housing.js:32
+msgctxt "tree:copy#/details"
+msgid "Residence file"
+msgstr "Residence file"
+
+#. copy/roomTypes
+#: src/js/housing.js:32
+msgctxt "tree:copy#/roomTypes"
+msgid "Rooms open this term"
+msgstr "Rooms open this term"
+
+#. copy/features
+#: src/js/housing.js:32
+msgctxt "tree:copy#/features"
+msgid "Shared facilities"
+msgstr "Shared facilities"
+
+#. copy/warden
+#: src/js/housing.js:32
+msgctxt "tree:copy#/warden"
+msgid "Warden & management"
+msgstr "Warden & management"
+
+#. copy/notice
+#: src/js/housing.js:32
+msgctxt "tree:copy#/notice"
+msgid "Pinned to the door"
+msgstr "Pinned to the door"
+
+#. copy/distance
+#: src/js/housing.js:32
+msgctxt "tree:copy#/distance"
+msgid "Route to campus"
+msgstr "Route to campus"
+
+#. copy/beds
+#: src/js/housing.js:32
+msgctxt "tree:copy#/beds"
+msgid "beds"
+msgstr "beds"
+
+#. copy/open
+#: src/js/housing.js:32
+msgctxt "tree:copy#/open"
+msgid "open"
+msgstr "open"
+
+#. copy/month
+#: src/js/housing.js:32
+msgctxt "tree:copy#/month"
+msgid "yen / month"
+msgstr "yen / month"
+
+#. copy/applyHere
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applyHere"
+msgid "Make this my first choice"
+msgstr "Make this my first choice"
+
+#. copy/applicationTitle
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applicationTitle"
+msgid "Housing needs application"
+msgstr "Housing needs application"
+
+#. copy/applicationLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applicationLead"
+msgid ""
+"This is not a personality test. It finds combinations that can sleep, get "
+"home, and are less likely to hold a full-moon meeting over one chair."
+msgstr ""
+"This is not a personality test. It finds combinations that can sleep, get "
+"home, and are less likely to hold a full-moon meeting over one chair."
+
+#. copy/identityNeeded
+#: src/js/housing.js:32
+msgctxt "tree:copy#/identityNeeded"
+msgid ""
+"Create a My TU identity first so the housing committee knows whose name "
+"belongs beside the room number. Residence files remain open to everyone."
+msgstr ""
+"Create a My TU identity first so the housing committee knows whose name "
+"belongs beside the room number. Residence files remain open to everyone."
+
+#. copy/createIdentity
+#: src/js/housing.js:32
+msgctxt "tree:copy#/createIdentity"
+msgid "Create My TU identity"
+msgstr "Create My TU identity"
+
+#. copy/applicant
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applicant"
+msgid "Applicant"
+msgstr "Applicant"
+
+#. copy/firstResidence
+#: src/js/housing.js:32
+msgctxt "tree:copy#/firstResidence"
+msgid "First-choice residence"
+msgstr "First-choice residence"
+
+#. copy/secondResidence
+#: src/js/housing.js:32
+msgctxt "tree:copy#/secondResidence"
+msgid "Second-choice residence"
+msgstr "Second-choice residence"
+
+#. copy/roomType
+#: src/js/housing.js:32
+msgctxt "tree:copy#/roomType"
+msgid "Preferred room type"
+msgstr "Preferred room type"
+
+#. copy/anyRoom
+#: src/js/housing.js:32
+msgctxt "tree:copy#/anyRoom"
+msgid "Any room type"
+msgstr "Any room type"
+
+#. copy/budget
+#: src/js/housing.js:32
+msgctxt "tree:copy#/budget"
+msgid "Monthly fee ceiling"
+msgstr "Monthly fee ceiling"
+
+#. copy/habits
+#: src/js/housing.js:32
+msgctxt "tree:copy#/habits"
+msgid "Shared-life and physical needs"
+msgstr "Shared-life and physical needs"
+
+#. copy/sleep
+#: src/js/housing.js:32
+msgctxt "tree:copy#/sleep"
+msgid "Main sleeping hours"
+msgstr "Main sleeping hours"
+
+#. copy/noise
+#: src/js/housing.js:32
+msgctxt "tree:copy#/noise"
+msgid "Room noise"
+msgstr "Room noise"
+
+#. copy/cleanliness
+#: src/js/housing.js:32
+msgctxt "tree:copy#/cleanliness"
+msgid "Tidying style"
+msgstr "Tidying style"
+
+#. copy/cooking
+#: src/js/housing.js:32
+msgctxt "tree:copy#/cooking"
+msgid "Kitchen use"
+msgstr "Kitchen use"
+
+#. copy/moon
+#: src/js/housing.js:32
+msgctxt "tree:copy#/moon"
+msgid "Moon response"
+msgstr "Moon response"
+
+#. copy/water
+#: src/js/housing.js:32
+msgctxt "tree:copy#/water"
+msgid "Water access"
+msgstr "Water access"
+
+#. copy/flight
+#: src/js/housing.js:32
+msgctxt "tree:copy#/flight"
+msgid "Flight / wingspan"
+msgstr "Flight / wingspan"
+
+#. copy/wall
+#: src/js/housing.js:32
+msgctxt "tree:copy#/wall"
+msgid "Wall use"
+msgstr "Wall use"
+
+#. copy/familiar
+#: src/js/housing.js:32
+msgctxt "tree:copy#/familiar"
+msgid "Familiar space"
+msgstr "Familiar space"
+
+#. copy/danmaku
+#: src/js/housing.js:32
+msgctxt "tree:copy#/danmaku"
+msgid "Indoor danmaku"
+msgstr "Indoor danmaku"
+
+#. copy/note
+#: src/js/housing.js:32
+msgctxt "tree:copy#/note"
+msgid "Anything that must be said first"
+msgstr "Anything that must be said first"
+
+#. copy/notePlaceholder
+#: src/js/housing.js:32
+msgctxt "tree:copy#/notePlaceholder"
+msgid "For example: my suitcase becomes larger on Wednesdays; no roommate who steals breakfast."
+msgstr "For example: my suitcase becomes larger on Wednesdays; no roommate who steals breakfast."
+
+#. copy/draft
+#: src/js/housing.js:32
+msgctxt "tree:copy#/draft"
+msgid "This form autosaves on this device."
+msgstr "This form autosaves on this device."
+
+#. copy/submit
+#: src/js/housing.js:32
+msgctxt "tree:copy#/submit"
+msgid "Send to housing committee"
+msgstr "Send to housing committee"
+
+#. copy/clear
+#: src/js/housing.js:32
+msgctxt "tree:copy#/clear"
+msgid "Clear draft"
+msgstr "Clear draft"
+
+#. copy/draftSaved
+#: src/js/housing.js:32
+msgctxt "tree:copy#/draftSaved"
+msgid "Housing needs draft saved on this device."
+msgstr "Housing needs draft saved on this device."
+
+#. copy/submitted
+#: src/js/housing.js:32
+msgctxt "tree:copy#/submitted"
+msgid "Application submitted. Three room proposals are on the table."
+msgstr "Application submitted. Three room proposals are on the table."
+
+#. copy/applicationRef
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applicationRef"
+msgid "Housing application"
+msgstr "Housing application"
+
+#. copy/applicationHistory
+#: src/js/housing.js:32
+msgctxt "tree:copy#/applicationHistory"
+msgid "On-device housing application history"
+msgstr "On-device housing application history"
+
+#. copy/chooseApplication
+#: src/js/housing.js:32
+msgctxt "tree:copy#/chooseApplication"
+msgid "Choose a housing application"
+msgstr "Choose a housing application"
+
+#. copy/matchingTitle
+#: src/js/housing.js:32
+msgctxt "tree:copy#/matchingTitle"
+msgid "Three committee proposals"
+msgstr "Three committee proposals"
+
+#. copy/matchingLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/matchingLead"
+msgid ""
+"A score is not a promise of friendship. It measures overlap between "
+"facilities, habits, and your needs; friction remains visible for your "
+"judgment."
+msgstr ""
+"A score is not a promise of friendship. It measures overlap between "
+"facilities, habits, and your needs; friction remains visible for your "
+"judgment."
+
+#. copy/score
+#: src/js/housing.js:32
+msgctxt "tree:copy#/score"
+msgid "match"
+msgstr "match"
+
+#. copy/matchedWith
+#: src/js/housing.js:32
+msgctxt "tree:copy#/matchedWith"
+msgid "Roommate"
+msgstr "Roommate"
+
+#. copy/noRoommate
+#: src/js/housing.js:32
+msgctxt "tree:copy#/noRoommate"
+msgid "Single room this term"
+msgstr "Single room this term"
+
+#. copy/fit
+#: src/js/housing.js:32
+msgctxt "tree:copy#/fit"
+msgid "Why it fits"
+msgstr "Why it fits"
+
+#. copy/friction
+#: src/js/housing.js:32
+msgctxt "tree:copy#/friction"
+msgid "Discuss first"
+msgstr "Discuss first"
+
+#. copy/accept
+#: src/js/housing.js:32
+msgctxt "tree:copy#/accept"
+msgid "Accept this room"
+msgstr "Accept this room"
+
+#. copy/decline
+#: src/js/housing.js:32
+msgctxt "tree:copy#/decline"
+msgid "Pass on this offer"
+msgstr "Pass on this offer"
+
+#. copy/accepted
+#: src/js/housing.js:32
+msgctxt "tree:copy#/accepted"
+msgid "Room accepted and written into My Housing."
+msgstr "Room accepted and written into My Housing."
+
+#. copy/allocationClosed
+#: src/js/housing.js:32
+msgctxt "tree:copy#/allocationClosed"
+msgid "Allocation completed for this application"
+msgstr "Allocation completed for this application"
+
+#. copy/declined
+#: src/js/housing.js:32
+msgctxt "tree:copy#/declined"
+msgid "Offer passed. The committee did not quietly put it back on top."
+msgstr "Offer passed. The committee did not quietly put it back on top."
+
+#. copy/allDeclined
+#: src/js/housing.js:32
+msgctxt "tree:copy#/allDeclined"
+msgid "All three proposals were passed. Rewrite your needs for a new match."
+msgstr "All three proposals were passed. Rewrite your needs for a new match."
+
+#. copy/newApplication
+#: src/js/housing.js:32
+msgctxt "tree:copy#/newApplication"
+msgid "Rewrite my needs"
+msgstr "Rewrite my needs"
+
+#. copy/accountTitle
+#: src/js/housing.js:32
+msgctxt "tree:copy#/accountTitle"
+msgid "My housing"
+msgstr "My housing"
+
+#. copy/accountLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/accountLead"
+msgid "Room, roommate agreement, move-in notes, and transfer requests stay on this device."
+msgstr "Room, roommate agreement, move-in notes, and transfer requests stay on this device."
+
+#. copy/noAssignment
+#: src/js/housing.js:32
+msgctxt "tree:copy#/noAssignment"
+msgid "No room has been accepted. Complete the needs form and choose a committee offer."
+msgstr "No room has been accepted. Complete the needs form and choose a committee offer."
+
+#. copy/goApplication
+#: src/js/housing.js:32
+msgctxt "tree:copy#/goApplication"
+msgid "Go to application & matching"
+msgstr "Go to application & matching"
+
+#. copy/activeRoom
+#: src/js/housing.js:32
+msgctxt "tree:copy#/activeRoom"
+msgid "Current room"
+msgstr "Current room"
+
+#. copy/roommateFile
+#: src/js/housing.js:32
+msgctxt "tree:copy#/roommateFile"
+msgid "Roommate profile"
+msgstr "Roommate profile"
+
+#. copy/fee
+#: src/js/housing.js:32
+msgctxt "tree:copy#/fee"
+msgid "Monthly fee"
+msgstr "Monthly fee"
+
+#. copy/acceptedOn
+#: src/js/housing.js:32
+msgctxt "tree:copy#/acceptedOn"
+msgid "Accepted"
+msgstr "Accepted"
+
+#. copy/moveIn
+#: src/js/housing.js:32
+msgctxt "tree:copy#/moveIn"
+msgid "Move-in"
+msgstr "Move-in"
+
+#. copy/moveInDate
+#: src/js/housing.js:32
+msgctxt "tree:copy#/moveInDate"
+msgid "6 September 2026 · before sunset"
+msgstr "6 September 2026 · before sunset"
+
+#. copy/agreement
+#: src/js/housing.js:32
+msgctxt "tree:copy#/agreement"
+msgid "Roommate agreement"
+msgstr "Roommate agreement"
+
+#. copy/agreementLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/agreementLead"
+msgid ""
+"The committee generated four rules from both sets of needs. Checking means "
+"you read them on this device; it does not mean your roommate promised not to "
+"steal breakfast."
+msgstr ""
+"The committee generated four rules from both sets of needs. Checking means "
+"you read them on this device; it does not mean your roommate promised not to "
+"steal breakfast."
+
+#. copy/agreementCheck
+#: src/js/housing.js:32
+msgctxt "tree:copy#/agreementCheck"
+msgid "I have read this shared-living note"
+msgstr "I have read this shared-living note"
+
+#. copy/agreementSaved
+#: src/js/housing.js:32
+msgctxt "tree:copy#/agreementSaved"
+msgid "Agreement status updated."
+msgstr "Agreement status updated."
+
+#. copy/roomChange
+#: src/js/housing.js:32
+msgctxt "tree:copy#/roomChange"
+msgid "Room-transfer request"
+msgstr "Room-transfer request"
+
+#. copy/roomChangeLead
+#: src/js/housing.js:32
+msgctxt "tree:copy#/roomChangeLead"
+msgid ""
+"Describe what is actually happening. The committee keeps your current room "
+"and attaches a viable alternative; your bed does not suddenly disappear."
+msgstr ""
+"Describe what is actually happening. The committee keeps your current room "
+"and attaches a viable alternative; your bed does not suddenly disappear."
+
+#. copy/reason
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reason"
+msgid "Main reason"
+msgstr "Main reason"
+
+#. copy/urgency
+#: src/js/housing.js:32
+msgctxt "tree:copy#/urgency"
+msgid "Response time"
+msgstr "Response time"
+
+#. copy/changeNote
+#: src/js/housing.js:32
+msgctxt "tree:copy#/changeNote"
+msgid "What is happening"
+msgstr "What is happening"
+
+#. copy/sendChange
+#: src/js/housing.js:32
+msgctxt "tree:copy#/sendChange"
+msgid "Send transfer request"
+msgstr "Send transfer request"
+
+#. copy/changeSent
+#: src/js/housing.js:32
+msgctxt "tree:copy#/changeSent"
+msgid "Transfer request saved; your current room remains active."
+msgstr "Transfer request saved; your current room remains active."
+
+#. copy/changeHistory
+#: src/js/housing.js:32
+msgctxt "tree:copy#/changeHistory"
+msgid "Transfer-request history"
+msgstr "Transfer-request history"
+
+#. copy/cancelChange
+#: src/js/housing.js:32
+msgctxt "tree:copy#/cancelChange"
+msgid "Withdraw request"
+msgstr "Withdraw request"
+
+#. copy/changeCancelled
+#: src/js/housing.js:32
+msgctxt "tree:copy#/changeCancelled"
+msgid "Transfer request withdrawn."
+msgstr "Transfer request withdrawn."
+
+#. copy/suggestion
+#: src/js/housing.js:32
+msgctxt "tree:copy#/suggestion"
+msgid "Provisional alternative"
+msgstr "Provisional alternative"
+
+#. copy/status/under-review
+#: src/js/housing.js:32
+msgctxt "tree:copy#/status/under-review"
+msgid "Under review"
+msgstr "Under review"
+
+#. copy/status/cancelled
+#: src/js/housing.js:32
+msgctxt "tree:copy#/status/cancelled"
+msgid "Withdrawn"
+msgstr "Withdrawn"
+
+#. copy/reasons/firstResidence
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/firstResidence"
+msgid "First-choice residence"
+msgstr "First-choice residence"
+
+#. copy/reasons/secondResidence
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/secondResidence"
+msgid "Second-choice residence"
+msgstr "Second-choice residence"
+
+#. copy/reasons/roomType
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/roomType"
+msgid "Preferred room type"
+msgstr "Preferred room type"
+
+#. copy/reasons/withinBudget
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/withinBudget"
+msgid "Within fee ceiling"
+msgstr "Within fee ceiling"
+
+#. copy/reasons/sleepMatch
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/sleepMatch"
+msgid "Similar sleep hours"
+msgstr "Similar sleep hours"
+
+#. copy/reasons/noiseMatch
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/noiseMatch"
+msgid "Matching room-noise habits"
+msgstr "Matching room-noise habits"
+
+#. copy/reasons/cleanlinessMatch
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/cleanlinessMatch"
+msgid "Similar tidying rhythm"
+msgstr "Similar tidying rhythm"
+
+#. copy/reasons/cookingMatch
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/cookingMatch"
+msgid "Compatible kitchen hours"
+msgstr "Compatible kitchen hours"
+
+#. copy/reasons/moonProtected
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/moonProtected"
+msgid "Moon screen and low-stimulus fittings"
+msgstr "Moon screen and low-stimulus fittings"
+
+#. copy/reasons/waterAccess
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/waterAccess"
+msgid "Direct water access"
+msgstr "Direct water access"
+
+#. copy/reasons/waterNearby
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/waterNearby"
+msgid "Water is nearby"
+msgstr "Water is nearby"
+
+#. copy/reasons/wingSpace
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/wingSpace"
+msgid "Enough turning space for wings"
+msgstr "Enough turning space for wings"
+
+#. copy/reasons/flightStorage
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/flightStorage"
+msgid "Flight-gear storage"
+msgstr "Flight-gear storage"
+
+#. copy/reasons/phaseSafe
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/phaseSafe"
+msgid "Marked wall-passage lines"
+msgstr "Marked wall-passage lines"
+
+#. copy/reasons/familiarWelcome
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/familiarWelcome"
+msgid "Dedicated large-familiar space"
+msgstr "Dedicated large-familiar space"
+
+#. copy/reasons/familiarBay
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/familiarBay"
+msgid "Small familiar bay"
+msgstr "Small familiar bay"
+
+#. copy/reasons/blastDesk
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/blastDesk"
+msgid "Blast-resistant workbench"
+msgstr "Blast-resistant workbench"
+
+#. copy/reasons/quietWard
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/quietWard"
+msgid "Night quiet ward"
+msgstr "Night quiet ward"
+
+#. copy/reasons/singleRoom
+#: src/js/housing.js:32
+msgctxt "tree:copy#/reasons/singleRoom"
+msgid "No fixed roommate to coordinate"
+msgstr "No fixed roommate to coordinate"
+
+#. copy/frictions/sleepConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/sleepConflict"
+msgid "Sleep schedules need agreed quiet hours"
+msgstr "Sleep schedules need agreed quiet hours"
+
+#. copy/frictions/noiseConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/noiseConflict"
+msgid "Different tolerance for room noise"
+msgstr "Different tolerance for room noise"
+
+#. copy/frictions/cleanlinessConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/cleanlinessConflict"
+msgid "Tidying standards may collide"
+msgstr "Tidying standards may collide"
+
+#. copy/frictions/moonConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/moonConflict"
+msgid "Different full-moon patterns"
+msgstr "Different full-moon patterns"
+
+#. copy/frictions/waterConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/waterConflict"
+msgid "Different water-use habits"
+msgstr "Different water-use habits"
+
+#. copy/frictions/flightConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/flightConflict"
+msgid "Window and take-off path need allocation"
+msgstr "Window and take-off path need allocation"
+
+#. copy/frictions/wallConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/wallConflict"
+msgid "Different definitions of doors and walls"
+msgstr "Different definitions of doors and walls"
+
+#. copy/frictions/familiarConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/familiarConflict"
+msgid "Furniture for familiars needs labels"
+msgstr "Furniture for familiars needs labels"
+
+#. copy/frictions/danmakuConflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/danmakuConflict"
+msgid "Different indoor danmaku boundaries"
+msgstr "Different indoor danmaku boundaries"
+
+#. copy/frictions/moonUnshielded
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/moonUnshielded"
+msgid "No complete moon screening"
+msgstr "No complete moon screening"
+
+#. copy/frictions/waterMissing
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/waterMissing"
+msgid "No direct water connection"
+msgstr "No direct water connection"
+
+#. copy/frictions/wingTight
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/wingTight"
+msgid "Limited turning space for large wings"
+msgstr "Limited turning space for large wings"
+
+#. copy/frictions/phaseUnmarked
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/phaseUnmarked"
+msgid "No marked safe wall passage"
+msgstr "No marked safe wall passage"
+
+#. copy/frictions/familiarCrowded
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/familiarCrowded"
+msgid "Tight space for a large familiar"
+msgstr "Tight space for a large familiar"
+
+#. copy/frictions/danmakuOutside
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/danmakuOutside"
+msgid "Danmaku practice must move outdoors"
+msgstr "Danmaku practice must move outdoors"
+
+#. copy/frictions/roomTypeDifferent
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/roomTypeDifferent"
+msgid "Not the requested room type"
+msgstr "Not the requested room type"
+
+#. copy/frictions/overBudget
+#: src/js/housing.js:32
+msgctxt "tree:copy#/frictions/overBudget"
+msgid "Above the stated fee ceiling"
+msgstr "Above the stated fee ceiling"
+
+#. copy/incidents/doorName
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/doorName"
+msgid ""
+"The sign must show both names and the room number. If the number changes "
+"itself, use the names."
+msgstr ""
+"The sign must show both names and the room number. If the number changes "
+"itself, use the names."
+
+#. copy/incidents/singleVisitor
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/singleVisitor"
+msgid ""
+"A single-room guest may not stay beyond three nights as a “temporary "
+"roommate”; on night four they receive a bed application."
+msgstr ""
+"A single-room guest may not stay beyond three nights as a “temporary "
+"roommate”; on night four they receive a bed application."
+
+#. copy/incidents/quietHours
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/quietHours"
+msgid "Sleep hours differ. Post daily quiet hours on the door; change them before dinner."
+msgstr "Sleep hours differ. Post daily quiet hours on the door; change them before dinner."
+
+#. copy/incidents/nightKitchen
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/nightKitchen"
+msgid "Keep one red lamp on during late kitchen use. Do not use a saucepan as an alarm."
+msgstr "Keep one red lamp on during late kitchen use. Do not use a saucepan as an alarm."
+
+#. copy/incidents/fullMoon
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/fullMoon"
+msgid ""
+"For three nights around the full moon, low-stimulus needs take priority; the "
+"lounge absorbs the other resident’s activity."
+msgstr ""
+"For three nights around the full moon, low-stimulus needs take priority; the "
+"lounge absorbs the other resident’s activity."
+
+#. copy/incidents/familiarChair
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/familiarChair"
+msgid ""
+"Familiars and furniture are not first come, first served. Redraw the "
+"window-chair rota weekly."
+msgstr ""
+"Familiars and furniture are not first come, first served. Redraw the "
+"window-chair rota weekly."
+
+#. copy/incidents/wallKnock
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/wallKnock"
+msgid ""
+"Knock three times before phasing. Whether it is a wall or door does not "
+"alter the number three."
+msgstr ""
+"Knock three times before phasing. Whether it is a wall or door does not "
+"alter the number three."
+
+#. copy/incidents/waterSchedule
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/waterSchedule"
+msgid ""
+"Clear the room channel at 06:00 daily. Personal objects may not be renamed "
+"“temporary waterworks.”"
+msgstr ""
+"Clear the room channel at 06:00 daily. Personal objects may not be renamed "
+"“temporary waterworks.”"
+
+#. copy/incidents/windowRunway
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/windowRunway"
+msgid ""
+"Keep the window take-off line clear. The wider wingspan tests the "
+"clothesline height first."
+msgstr ""
+"Keep the window take-off line clear. The wider wingspan tests the "
+"clothesline height first."
+
+#. copy/incidents/danmakuTape
+#: src/js/housing.js:32
+msgctxt "tree:copy#/incidents/danmakuTape"
+msgid ""
+"Only the area inside red tape is blast-resistant. Moving the tape does not "
+"enlarge the room."
+msgstr ""
+"Only the area inside red tape is blast-resistant. Moving the tape does not "
+"enlarge the room."
+
+#. copy/options/sleep/early
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/sleep/early"
+msgid "Early sleeper"
+msgstr "Early sleeper"
+
+#. copy/options/sleep/late
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/sleep/late"
+msgid "Nocturnal"
+msgstr "Nocturnal"
+
+#. copy/options/sleep/shifting
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/sleep/shifting"
+msgid "Shift / irregular"
+msgstr "Shift / irregular"
+
+#. copy/options/noise/quiet
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/noise/quiet"
+msgid "Prefer quiet"
+msgstr "Prefer quiet"
+
+#. copy/options/noise/social
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/noise/social"
+msgid "Conversation and music are fine"
+msgstr "Conversation and music are fine"
+
+#. copy/options/cleanliness/neat
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/cleanliness/neat"
+msgid "Everything returned to place"
+msgstr "Everything returned to place"
+
+#. copy/options/cleanliness/relaxed
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/cleanliness/relaxed"
+msgid "Floor visible is enough"
+msgstr "Floor visible is enough"
+
+#. copy/options/cooking/no
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/cooking/no"
+msgid "Rarely use it"
+msgstr "Rarely use it"
+
+#. copy/options/cooking/shared
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/cooking/shared"
+msgid "Normal shared use"
+msgstr "Normal shared use"
+
+#. copy/options/cooking/night
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/cooking/night"
+msgid "Often cook late"
+msgstr "Often cook late"
+
+#. copy/options/moon/ordinary
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/moon/ordinary"
+msgid "No special response"
+msgstr "No special response"
+
+#. copy/options/moon/sensitive
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/moon/sensitive"
+msgid "Need moon screen / low stimulus"
+msgstr "Need moon screen / low stimulus"
+
+#. copy/options/moon/active
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/moon/active"
+msgid "More active at full moon"
+msgstr "More active at full moon"
+
+#. copy/options/water/dry
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/water/dry"
+msgid "Ordinary dry room"
+msgstr "Ordinary dry room"
+
+#. copy/options/water/near
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/water/near"
+msgid "Prefer nearby water"
+msgstr "Prefer nearby water"
+
+#. copy/options/water/must
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/water/must"
+msgid "Direct water access required"
+msgstr "Direct water access required"
+
+#. copy/options/flight/ground
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/flight/ground"
+msgid "No flight space needed"
+msgstr "No flight space needed"
+
+#. copy/options/flight/small
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/flight/small"
+msgid "Broom / small wingspan"
+msgstr "Broom / small wingspan"
+
+#. copy/options/flight/large
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/flight/large"
+msgid "Large wingspan"
+msgstr "Large wingspan"
+
+#. copy/options/wall/solid
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/wall/solid"
+msgid "Use doors only"
+msgstr "Use doors only"
+
+#. copy/options/wall/phase
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/wall/phase"
+msgid "Need wall-passage markings"
+msgstr "Need wall-passage markings"
+
+#. copy/options/familiar/none
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/familiar/none"
+msgid "No resident familiar"
+msgstr "No resident familiar"
+
+#. copy/options/familiar/small
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/familiar/small"
+msgid "Small familiar"
+msgstr "Small familiar"
+
+#. copy/options/familiar/large
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/familiar/large"
+msgid "Large / several familiars"
+msgstr "Large / several familiars"
+
+#. copy/options/danmaku/none
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/danmaku/none"
+msgid "No indoor practice"
+msgstr "No indoor practice"
+
+#. copy/options/danmaku/outdoors
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/danmaku/outdoors"
+msgid "Outdoors only"
+msgstr "Outdoors only"
+
+#. copy/options/danmaku/indoor
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/danmaku/indoor"
+msgid "Need blast-resistant indoor zone"
+msgstr "Need blast-resistant indoor zone"
+
+#. copy/options/reasons/schedule
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/schedule"
+msgid "Schedule / noise"
+msgstr "Schedule / noise"
+
+#. copy/options/reasons/moon
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/moon"
+msgid "Moon / sensory needs"
+msgstr "Moon / sensory needs"
+
+#. copy/options/reasons/water
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/water"
+msgid "Water / physical needs"
+msgstr "Water / physical needs"
+
+#. copy/options/reasons/familiar
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/familiar"
+msgid "Familiar / insufficient space"
+msgstr "Familiar / insufficient space"
+
+#. copy/options/reasons/conflict
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/conflict"
+msgid "Shared-living conflict"
+msgstr "Shared-living conflict"
+
+#. copy/options/reasons/route
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/route"
+msgid "Commute"
+msgstr "Commute"
+
+#. copy/options/reasons/other
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/reasons/other"
+msgid "Other"
+msgstr "Other"
+
+#. copy/options/urgency/ordinary
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/urgency/ordinary"
+msgid "Ordinary review"
+msgstr "Ordinary review"
+
+#. copy/options/urgency/soon
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/urgency/soon"
+msgid "Within seven days"
+msgstr "Within seven days"
+
+#. copy/options/urgency/immediate
+#: src/js/housing.js:32
+msgctxt "tree:copy#/options/urgency/immediate"
+msgid "Contact me today"
+msgstr "Contact me today"

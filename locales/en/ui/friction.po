@@ -1,0 +1,54 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/open
+#: src/js/friction.js:8
+msgctxt "tree:copy#/open"
+msgid "Open case file"
+msgstr "Open case file"
+
+#. copy/course
+#: src/js/friction.js:8
+msgctxt "tree:copy#/course"
+msgid "Course this term"
+msgstr "Course this term"
+
+#. copy/friction
+#: src/js/friction.js:8
+msgctxt "tree:copy#/friction"
+msgid "Current friction"
+msgstr "Current friction"
+
+#. copy/office
+#: src/js/friction.js:8
+msgctxt "tree:copy#/office"
+msgid "Council seat"
+msgstr "Council seat"
+
+#. copy/officeValue
+#: src/js/friction.js:8
+msgctxt "tree:copy#/officeValue"
+msgid "Faith & Coexistence Policy · Temporary Meeting Room"
+msgstr "Faith & Coexistence Policy · Temporary Meeting Room"
+
+#. copy/review
+#: src/js/friction.js:8
+msgctxt "tree:copy#/review"
+msgid "External appeals review"
+msgstr "External appeals review"
+
+#. copy/imageAlt
+#: src/js/friction.js:8
+msgctxt "tree:copy#/imageAlt"
+msgid ""
+"Byakuren, Kanako, Miko, and Sanae argue over a festival resource map in a "
+"shabby meeting room"
+msgstr ""
+"Byakuren, Kanako, Miko, and Sanae argue over a festival resource map in a "
+"shabby meeting room"

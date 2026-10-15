@@ -1,0 +1,186 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. paths.visitor.label
+#: src/js/audiences.js:8
+msgctxt "text:paths.visitor.label"
+msgid "Visitor"
+msgstr "訪客"
+
+#. paths.visitor.title
+#: src/js/audiences.js:9
+msgctxt "text:paths.visitor.title"
+msgid "Your first visit to Touhou University"
+msgstr "第一次來幻想鄉立東方大學"
+
+#. paths.visitor.lead
+#: src/js/audiences.js:10
+msgctxt "text:paths.visitor.lead"
+msgid "See how campus works, then plan a visit route that does not deposit you in last week."
+msgstr "先看校園怎麼運作，再安排一條不會把你送進上週的參觀路線。"
+
+#. paths.visitor.actions.0.1
+#: src/js/audiences.js:12
+msgctxt "text:paths.visitor.actions.0.1"
+msgid "Meet the university"
+msgstr "認識學校"
+
+#. paths.visitor.actions.1.1
+#: src/js/audiences.js:13
+msgctxt "text:paths.visitor.actions.1.1"
+msgid "Open campus map"
+msgstr "打開校園地圖"
+
+#. paths.visitor.actions.2.1
+#: src/js/audiences.js:14
+msgctxt "text:paths.visitor.actions.2.1"
+msgid "Reserve a visit"
+msgstr "預約進校"
+
+#. paths.visitor.actions.3.1
+#: src/js/audiences.js:15
+msgctxt "text:paths.visitor.actions.3.1"
+msgid "Explore campus life"
+msgstr "看看校園生活"
+
+#. paths.applicant.label
+#: src/js/audiences.js:20
+msgctxt "text:paths.applicant.label"
+msgid "Applicant"
+msgstr "申請生"
+
+#. paths.applicant.title
+#: src/js/audiences.js:21
+msgctxt "text:paths.applicant.title"
+msgid "Put your school, question, and exam on one path"
+msgstr "把志願、題目與試卷放在同一條路上"
+
+#. paths.applicant.lead
+#: src/js/audiences.js:22
+msgctxt "text:paths.applicant.lead"
+msgid "Compare seven schools, take a simulation, then carry your choice into the application."
+msgstr "比較七所學院、完成模擬試驗，再把選好的學院直接帶進申請表。"
+
+#. paths.applicant.actions.0.1
+#: src/js/audiences.js:24
+msgctxt "text:paths.applicant.actions.0.1"
+msgid "Compare seven schools"
+msgstr "比較七所學院"
+
+#. paths.applicant.actions.1.1
+#: src/js/audiences.js:25
+msgctxt "text:paths.applicant.actions.1.1"
+msgid "Try the entrance exam"
+msgstr "挑戰入學試驗"
+
+#. paths.applicant.actions.2.1
+#: src/js/audiences.js:26
+msgctxt "text:paths.applicant.actions.2.1"
+msgid "Take the Gensokyo exam"
+msgstr "參加幻想鄉統一學力試驗"
+
+#. paths.applicant.actions.3.1
+#: src/js/audiences.js:27
+msgctxt "text:paths.applicant.actions.3.1"
+msgid "Start application"
+msgstr "開始線上申請"
+
+#. paths.newcomer.label
+#: src/js/audiences.js:32
+msgctxt "text:paths.newcomer.label"
+msgid "New Student"
+msgstr "新同學"
+
+#. paths.newcomer.title
+#: src/js/audiences.js:33
+msgctxt "text:paths.newcomer.title"
+msgid "Bring the admission review, not only the welcome"
+msgstr "帶著錄取評議來，別只帶著歡迎詞"
+
+#. paths.newcomer.lead
+#: src/js/audiences.js:34
+msgctxt "text:paths.newcomer.lead"
+msgid ""
+"Confirm a route that works today from Hakurei Gate, agree on a stop signal, "
+"then choose the first real thing to do after First Bell."
+msgstr "從博麗門認一條今天走得通的路，約好停止信號，再決定第一鐘後先去做哪件真事。"
+
+#. paths.newcomer.actions.0.1
+#: src/js/audiences.js:36
+msgctxt "text:paths.newcomer.actions.0.1"
+msgid "Open the arrival file"
+msgstr "開封新生報到卷"
+
+#. paths.newcomer.actions.1.1
+#: src/js/audiences.js:37
+msgctxt "text:paths.newcomer.actions.1.1"
+msgid "Check the admission review"
+msgstr "核對錄取評議"
+
+#. paths.newcomer.actions.2.1
+#: src/js/audiences.js:38
+msgctxt "text:paths.newcomer.actions.2.1"
+msgid "Inspect today's routes"
+msgstr "查看當值路線"
+
+#. paths.newcomer.actions.3.1
+#: src/js/audiences.js:39
+msgctxt "text:paths.newcomer.actions.3.1"
+msgid "Discuss living arrangements"
+msgstr "談共同生活條件"
+
+#. paths.student.label
+#: src/js/audiences.js:44
+msgctxt "text:paths.student.label"
+msgid "Current Student"
+msgstr "在校生"
+
+#. paths.student.title
+#: src/js/audiences.js:45
+msgctxt "text:paths.student.title"
+msgid "Today's classes, free rooms, and campus rumours"
+msgstr "今天的課、空教室與校園風聲"
+
+#. paths.student.lead
+#: src/js/audiences.js:46
+msgctxt "text:paths.student.lead"
+msgid ""
+"It will not submit your work, but it can tell you whether the room still "
+"exists and what lunch remains."
+msgstr "這裡不替你交作業，但會告訴你教室是否還存在，以及午餐還剩什麼。"
+
+#. paths.student.actions.0.1
+#: src/js/audiences.js:48
+msgctxt "text:paths.student.actions.0.1"
+msgid "Today's timetable"
+msgstr "今日排課"
+
+#. paths.student.actions.1.1
+#: src/js/audiences.js:49
+msgctxt "text:paths.student.actions.1.1"
+msgid "My housing"
+msgstr "我的宿舍"
+
+#. paths.student.actions.2.1
+#: src/js/audiences.js:50
+msgctxt "text:paths.student.actions.2.1"
+msgid "Find a free room"
+msgstr "找空教室"
+
+#. paths.student.actions.3.1
+#: src/js/audiences.js:51
+msgctxt "text:paths.student.actions.3.1"
+msgid "Enter Campus BBS"
+msgstr "進入校園 BBS"
+
+#. render
+#: src/js/audiences.js:68
+msgctxt "text:render"
+msgid "How are you entering campus today?"
+msgstr "你今天以什麼身分進校？"

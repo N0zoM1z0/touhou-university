@@ -1,0 +1,825 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. phantasmExamSections.reverse-archives.title
+#: src/data/phantasm-exam.js:27
+msgctxt "text:phantasmExamSections.reverse-archives.title"
+msgid "Reverse-Side Historiography"
+msgstr "裏面史料学"
+
+#. phantasmExamSections.reverse-archives.note
+#: src/data/phantasm-exam.js:28
+msgctxt "text:phantasmExamSections.reverse-archives.note"
+msgid "Do not choose the more convenient world from mutually exclusive records."
+msgstr "互いを排する記録から、都合のよい世界を一つ選ばない。"
+
+#. phantasmExamSections.boundary-logic.title
+#: src/data/phantasm-exam.js:33
+msgctxt "text:phantasmExamSections.boundary-logic.title"
+msgid "Boundary and Contradiction Reasoning"
+msgstr "境界・矛盾推論"
+
+#. phantasmExamSections.boundary-logic.note
+#: src/data/phantasm-exam.js:34
+msgctxt "text:phantasmExamSections.boundary-logic.note"
+msgid "A contradiction may be retained; it may not license an arbitrary conclusion."
+msgstr "矛盾は保存できるが、そこから任意の結論を導いてはならない。"
+
+#. phantasmExamSections.untaken-causality.title
+#: src/data/phantasm-exam.js:39
+msgctxt "text:phantasmExamSections.untaken-causality.title"
+msgid "Untaken Causality and Record Boundaries"
+msgstr "未踏因果・学籍境界"
+
+#. phantasmExamSections.untaken-causality.note
+#: src/data/phantasm-exam.js:40
+msgctxt "text:phantasmExamSections.untaken-causality.note"
+msgid ""
+"Dreams may retain unchosen branches; simulations may not impersonate waking "
+"counterfactuals."
+msgstr "夢は未選択分岐を保存できるが、模擬結果を覚醒時の反実仮想にはできない。"
+
+#. phantasmExamQuestions.0.PH-R01.3
+#: src/data/phantasm-exam.js:49
+msgctxt "text:phantasmExamQuestions.0.PH-R01.3"
+msgid ""
+"[One file: TU-I-17]\nFront, 14:00: closure adopts hypothesis A; B is excluded "
+"for lack of a windway log.\nReverse, after the ninth strike: B becomes dream "
+"history and cites the 'missing windway log' as evidence that the record was "
+"eaten."
+msgstr ""
+"【同一案件 TU-I-17】\n表・14:00：甲説で終結。乙説は風路記録の欠落により棄却。\n裏・第九打後：乙説が夢の正史となり、「欠落した風路記録」を食"
+"べられた証拠として掲げる。"
+
+#. phantasmExamQuestions.0.PH-R01.4
+#: src/data/phantasm-exam.js:50
+msgctxt "text:phantasmExamQuestions.0.PH-R01.4"
+msgid ""
+"Which catalogue treatment preserves the reverse source without rewriting the "
+"completed official closure?"
+msgstr "裏面史料を保存しつつ、完了済みの正式終結を書き換えない目録法はどれか。"
+
+#. phantasmExamQuestions.0.PH-R01.5.0
+#: src/data/phantasm-exam.js:52
+msgctxt "text:phantasmExamQuestions.0.PH-R01.5.0"
+msgid ""
+"Replace the official closure because the reverse is later, mark the original "
+"obsolete, and reuse its source number to preserve apparent traceability"
+msgstr "裏面の方が後発なので正式終結を置換し、元案件を旧版とし、表面上の追跡性のため元資料番号を流用する"
+
+#. phantasmExamQuestions.0.PH-R01.5.1
+#: src/data/phantasm-exam.js:53
+msgctxt "text:phantasmExamQuestions.0.PH-R01.5.1"
+msgid ""
+"Append B as an official correction while retaining A's score and closure "
+"time, reducing the reverse marker to an internal grader note"
+msgstr "乙説を正式訂正として追記し、甲説の得点と終結時刻を維持し、裏面標記は内部採点者だけが読める注記へ縮める"
+
+#. phantasmExamQuestions.0.PH-R01.5.2
+#: src/data/phantasm-exam.js:54
+msgctxt "text:phantasmExamQuestions.0.PH-R01.5.2"
+msgid ""
+"Keep official closure and dream edition separately, link both to the same "
+"source, and mark their incompatible validity boundaries"
+msgstr "正式終結と夢版を分け、同一資料へ接続し、互いに通用しない有効境界を明記する"
+
+#. phantasmExamQuestions.0.PH-R01.5.3
+#: src/data/phantasm-exam.js:55
+msgctxt "text:phantasmExamQuestions.0.PH-R01.5.3"
+msgid ""
+"Merge A and B as 'partly supported' to avoid opposing conclusions, attaching "
+"both summaries and their shared source number without identifying front or "
+"reverse"
+msgstr "甲乙を「一部成立」へ統合して反対結論を避け、二要約と共通資料番号を添えるが表裏の所属は表示しない"
+
+#. phantasmExamQuestions.0.PH-R01.7
+#: src/data/phantasm-exam.js:58
+msgctxt "text:phantasmExamQuestions.0.PH-R01.7"
+msgid ""
+"PHANTASM does not retry the case for the dream. It gives an excluded branch "
+"a traceable place; sources may be shared, validity boundaries may not be "
+"swapped."
+msgstr "PHANTASMは夢による再審ではない。棄却分岐へ追跡可能な場所を与える。資料は共有しても、効力境界をすり替えてはならない。"
+
+#. phantasmExamQuestions.1.PH-R02.3
+#: src/data/phantasm-exam.js:64
+msgctxt "text:phantasmExamQuestions.1.PH-R02.3"
+msgid ""
+"[Before and after dream consumption]\n08:58: the reverse paragraph has "
+"checksum K9-441; two graders copy it independently.\n09:00: Doremy "
+"acknowledges eating that dream.\n09:01: its location is blank; the front "
+"record never contained the paragraph."
+msgstr ""
+"【夢食い前後】\n08:58：裏面段落に検査値 K9-441。採点者二名が独立転記。\n09:00：ドレミーが当該夢を食べたと認める。\n09:01：元位置は"
+"空白。表記録には当初から存在しない。"
+
+#. phantasmExamQuestions.1.PH-R02.4
+#: src/data/phantasm-exam.js:65
+msgctxt "text:phantasmExamQuestions.1.PH-R02.4"
+msgid "What is the most rigorous interpretation of the blank at 09:01?"
+msgstr "09:01の空白を最も厳密に扱うなら。"
+
+#. phantasmExamQuestions.1.PH-R02.5.0
+#: src/data/phantasm-exam.js:67
+msgctxt "text:phantasmExamQuestions.1.PH-R02.5.0"
+msgid ""
+"Retain the pre-consumption snapshot and consumption event, treating the "
+"blank as mechanism-linked missingness rather than proof the paragraph never "
+"existed"
+msgstr "食夢前スナップショットと食夢事象を残し、空白を既知機構による欠測とし、未存在とは扱わない"
+
+#. phantasmExamQuestions.1.PH-R02.5.1
+#: src/data/phantasm-exam.js:68
+msgctxt "text:phantasmExamQuestions.1.PH-R02.5.1"
+msgid ""
+"Treat the current blank as the highest version and revoke both copies "
+"because reverse content should not outlive its page"
+msgstr "現在の空白を最新版とし、裏面内容が紙より長く残らないよう二転記を撤回する"
+
+#. phantasmExamQuestions.1.PH-R02.5.2
+#: src/data/phantasm-exam.js:69
+msgctxt "text:phantasmExamQuestions.1.PH-R02.5.2"
+msgid ""
+"Reconstruct the full text from both graders and label it the pre-consumption "
+"original rather than a derivative copy"
+msgstr "採点者二名の記憶から全文を復元し、派生写本でなく食夢前原本と表示する"
+
+#. phantasmExamQuestions.1.PH-R02.5.3
+#: src/data/phantasm-exam.js:70
+msgctxt "text:phantasmExamQuestions.1.PH-R02.5.3"
+msgid ""
+"Count Doremy's acknowledgment as a third matching copy and use a three-vote "
+"majority to establish the wording"
+msgstr "ドレミーの承認を同文第三写本とし、三票多数で段落本文を確定する"
+
+#. phantasmExamQuestions.1.PH-R02.7
+#: src/data/phantasm-exam.js:73
+msgctxt "text:phantasmExamQuestions.1.PH-R02.7"
+msgid ""
+"An observed deletion mechanism changes what a blank means. Consumption "
+"supports prior existence followed by missingness, but supplies no new "
+"verbatim evidence of the lost text."
+msgstr "観測可能な欠測機構は空白の意味を変える。食夢事象は「存在後に欠落」を支持するが、失われた文言の逐語証拠にはならない。"
+
+#. phantasmExamQuestions.2.PH-R03.3
+#: src/data/phantasm-exam.js:79
+msgctxt "text:phantasmExamQuestions.2.PH-R03.3"
+msgid ""
+"[Yakumo boundary notice]\nFront: no passage after the ninth strike.\nReverse: "
+"passage only after the ninth strike.\nThe page turns itself at 09:00; the "
+"candidate crosses at 09:02 and wakes at 09:04 with the front showing again."
+msgstr ""
+"【八雲境界告知】\n表：第九打後は通行不可。\n裏：第九打後に限り通行可。\n09:00に紙が自ら反転。受験者は09:02に通過し、09:04覚醒時には再び表"
+"。"
+
+#. phantasmExamQuestions.2.PH-R03.4
+#: src/data/phantasm-exam.js:80
+msgctxt "text:phantasmExamQuestions.2.PH-R03.4"
+msgid "Which passage record is sufficient to reproduce the decision?"
+msgstr "通行判定を再現できる記録はどれか。"
+
+#. phantasmExamQuestions.2.PH-R03.5.0
+#: src/data/phantasm-exam.js:82
+msgctxt "text:phantasmExamQuestions.2.PH-R03.5.0"
+msgid ""
+"Record legal passage at 09:02; once crossed, the side shown after waking "
+"cannot affect validity"
+msgstr "09:02適法通行とだけ記録し、通過済みなので覚醒後の面は効力に影響しない"
+
+#. phantasmExamQuestions.2.PH-R03.5.1
+#: src/data/phantasm-exam.js:83
+msgctxt "text:phantasmExamQuestions.2.PH-R03.5.1"
+msgid ""
+"Mark the notice self-contradictory and void both rules, retaining only that "
+"the candidate reached the other side"
+msgstr "告示は自己矛盾ゆえ両面とも無効とし、受験者が反対側へ到達した事実だけ残す"
+
+#. phantasmExamQuestions.2.PH-R03.5.2
+#: src/data/phantasm-exam.js:84
+msgctxt "text:phantasmExamQuestions.2.PH-R03.5.2"
+msgid ""
+"Use the 09:04 front as final, retroactively mark 09:02 unlawful, and retain "
+"the turn time only as a display fault that cannot alter validity"
+msgstr "09:04の表を最終版として09:02を遡及違反とする。反転時刻も保存するが、規則効力を変えない表示障害と扱う"
+
+#. phantasmExamQuestions.2.PH-R03.5.3
+#: src/data/phantasm-exam.js:85
+msgctxt "text:phantasmExamQuestions.2.PH-R03.5.3"
+msgid ""
+"Record wording, page side, turn event, crossing time, and applicable "
+"boundary; judge 09:02 only within that condition set"
+msgstr "告知文、表裏、反転事象、通行時刻、適用境界を記録し、その条件組内だけで09:02を判定する"
+
+#. phantasmExamQuestions.2.PH-R03.7
+#: src/data/phantasm-exam.js:88
+msgctxt "text:phantasmExamQuestions.2.PH-R03.7"
+msgid ""
+"The proposition's truth depends on side and time. Saving only the sentence "
+"or final display loses the boundary actually in force."
+msgstr "命題の真偽は面と時刻に依存する。文だけ、または最終表示だけでは、その時の適用境界を失う。"
+
+#. phantasmExamQuestions.3.PH-B01.3
+#: src/data/phantasm-exam.js:94
+msgctxt "text:phantasmExamQuestions.3.PH-B01.3"
+msgid ""
+"[Non-explosion rule] A contradiction remains inside the file that produced "
+"it and cannot entail an unrelated proposition.\nFront record: candidate "
+"enrolled in PH-009.\nReverse record: candidate never enrolled in "
+"PH-009.\nLibrary file: evidence is insufficient on whether LIB-NULL opens "
+"today."
+msgstr ""
+"【非爆発規則】矛盾は発生案件内に留め、無関係な命題を導いてはならない。\n表学籍：受験者はPH-009履修済み。\n裏学籍：受験者はPH-009を一度も履修"
+"していない。\n図書館案件：LIB-NULLの本日開館は資料不足。"
+
+#. phantasmExamQuestions.3.PH-B01.4
+#: src/data/phantasm-exam.js:95
+msgctxt "text:phantasmExamQuestions.3.PH-B01.4"
+msgid "Which conclusion is valid under the rule?"
+msgstr "規則に従う有効な結論はどれか。"
+
+#. phantasmExamQuestions.3.PH-B01.5.0
+#: src/data/phantasm-exam.js:97
+msgctxt "text:phantasmExamQuestions.3.PH-B01.5.0"
+msgid ""
+"Because PH-009 is both enrolled and unenrolled, any course state follows, "
+"including LIB-NULL opening today"
+msgstr "PH-009が履修済みかつ未履修なので、LIB-NULL開館を含む任意の状態が成立する"
+
+#. phantasmExamQuestions.3.PH-B01.5.1
+#: src/data/phantasm-exam.js:98
+msgctxt "text:phantasmExamQuestions.3.PH-B01.5.1"
+msgid ""
+"The records conflict locally about PH-009; absent new library evidence, "
+"LIB-NULL remains undetermined"
+msgstr "二学籍はPH-009について局所衝突する。図書館の新証拠がない限り、LIB-NULLは資料不足のまま"
+
+#. phantasmExamQuestions.3.PH-B01.5.2
+#: src/data/phantasm-exam.js:99
+msgctxt "text:phantasmExamQuestions.3.PH-B01.5.2"
+msgid ""
+"Because the front is official, every reverse proposition is false; LIB-NULL "
+"should inherit that day's ordinary-library hours and duty rules"
+msgstr "表が正式学籍なので裏命題は一律偽。LIB-NULLも表キャンパス通常図書館の同日開館表と当番規則に従う"
+
+#. phantasmExamQuestions.3.PH-B01.5.3
+#: src/data/phantasm-exam.js:100
+msgctxt "text:phantasmExamQuestions.3.PH-B01.5.3"
+msgid ""
+"Because the reverse is PHANTASM, contradiction itself is true; LIB-NULL may "
+"be open and closed at once, with service chosen by arrival side"
+msgstr "裏はPHANTASMなので矛盾自体が真。矛盾を認める以上、LIB-NULLは開館かつ閉館とし、受験者の到着側でサービスを決める"
+
+#. phantasmExamQuestions.3.PH-B01.7
+#: src/data/phantasm-exam.js:103
+msgctxt "text:phantasmExamQuestions.3.PH-B01.7"
+msgid ""
+"Non-explosive reasoning preserves a local inconsistency without turning it "
+"into a blank cheque. The library question still needs its own evidence."
+msgstr "非爆発推論は局所的不整合を許すが、無制限の白紙委任にはしない。図書館には固有の証拠が必要。"
+
+#. phantasmExamQuestions.4.PH-B02.3
+#: src/data/phantasm-exam.js:109
+msgctxt "text:phantasmExamQuestions.4.PH-B02.3"
+msgid ""
+"[Clock version chain]\nK1 original: before → ninth → after.\nK2 reverse: "
+"before → never; metadata says it was produced by erasing K1's middle at the "
+"ninth strike.\nK3 summary calls K1 and K2 observations from two independent "
+"clocks."
+msgstr ""
+"【時計版履歴】\nK1原記録：before → ninth → after。\nK2裏記録：before → "
+"never。注記は「K1が第九打時に中段を消去して生成」。\nK3要約はK1・K2を独立した二時計の観測と呼ぶ。"
+
+#. phantasmExamQuestions.4.PH-B02.4
+#: src/data/phantasm-exam.js:110
+msgctxt "text:phantasmExamQuestions.4.PH-B02.4"
+msgid "How should K3 be assessed?"
+msgstr "K3をどう評価すべきか。"
+
+#. phantasmExamQuestions.4.PH-B02.5.0
+#: src/data/phantasm-exam.js:112
+msgctxt "text:phantasmExamQuestions.4.PH-B02.5.0"
+msgid ""
+"K1 and K2 differ, so they count as independent replication; derivation "
+"affects only storage format"
+msgstr "K1とK2は結論が違うため独立再現。生成法は保存形式だけに関係する"
+
+#. phantasmExamQuestions.4.PH-B02.5.1
+#: src/data/phantasm-exam.js:113
+msgctxt "text:phantasmExamQuestions.4.PH-B02.5.1"
+msgid "K2 has less information but remains independent; K3 need only down-weight it"
+msgstr "K2は中段欠落で情報量が少ないが独立観測。K3はK2の重みだけ下げる"
+
+#. phantasmExamQuestions.4.PH-B02.5.2
+#: src/data/phantasm-exam.js:114
+msgctxt "text:phantasmExamQuestions.4.PH-B02.5.2"
+msgid ""
+"K2's never shows that K1's ninth is hindsight bias, so K2 should correct K1; "
+"then count corrected K1 and K2 as two independent observations confirming "
+"each other"
+msgstr "K2にneverがあるためK1のninthは後知恵偏差。K2でK1を訂正し、訂正後のK1とK2を相互確認する二つの独立観測に数える"
+
+#. phantasmExamQuestions.4.PH-B02.5.3
+#: src/data/phantasm-exam.js:115
+msgctxt "text:phantasmExamQuestions.4.PH-B02.5.3"
+msgid ""
+"K2 is a transformed descendant of K1, not a second observation; K3 must "
+"retain the derivation edge and withdraw the replication claim"
+msgstr "K2はK1の変換子孫で第二観測ではない。K3は派生辺を残し、独立再現の主張を撤回する"
+
+#. phantasmExamQuestions.4.PH-B02.7
+#: src/data/phantasm-exam.js:118
+msgctxt "text:phantasmExamQuestions.4.PH-B02.7"
+msgid ""
+"Different content does not imply independent provenance. PHANTASM must ask "
+"whether 'never happened' was observed or manufactured by erasure."
+msgstr "内容の相違は出所の独立を意味しない。PHANTASMでは「起きなかった」が観測か消去生成かを特に追う。"
+
+#. phantasmExamQuestions.5.PH-B03.3
+#: src/data/phantasm-exam.js:124
+msgctxt "text:phantasmExamQuestions.5.PH-B03.3"
+msgid ""
+"[Circular publications]\nFirst edition: 'Paper cancelled; see ninth "
+"edition.'\nNinth edition: 'Cancellation is true because the queue vanished "
+"after the first edition.'\nCorrection: issued because the first edition "
+"disrupted the queue, citing the ninth edition as proof cancellation was "
+"already effective.\nGate log: candidates were admitted throughout."
+msgstr ""
+"【刊行物の相互引用】\n初版：「試験は中止。第九版参照」。\n第九版：「初版後に列が消えたため中止は真」。\n訂正：初版による混乱を受け発行、第九版を引用して"
+"中止は既に有効と主張。\n入場log：全時間帯で受験者を通過。"
+
+#. phantasmExamQuestions.5.PH-B03.4
+#: src/data/phantasm-exam.js:125
+msgctxt "text:phantasmExamQuestions.5.PH-B03.4"
+msgid "What is the best evidence-graph conclusion?"
+msgstr "最も適切な証拠グラフの結論は。"
+
+#. phantasmExamQuestions.5.PH-B03.5.0
+#: src/data/phantasm-exam.js:127
+msgctxt "text:phantasmExamQuestions.5.PH-B03.5.0"
+msgid ""
+"The three publications form a dependency cycle and cannot independently "
+"support one another; cancellation must be judged from out-of-cycle evidence "
+"such as the gate log"
+msgstr "三刊行物は循環依存し独立支持にならない。中止状態は入場logなど循環外資料で判定する"
+
+#. phantasmExamQuestions.5.PH-B03.5.1
+#: src/data/phantasm-exam.js:128
+msgctxt "text:phantasmExamQuestions.5.PH-B03.5.1"
+msgid ""
+"The correction is latest and therefore authoritative; citing the ninth "
+"edition breaks the cycle originating in the first"
+msgstr "訂正が最新なので最高権威。第九版引用により初版起点の循環は切断される"
+
+#. phantasmExamQuestions.5.PH-B03.5.2
+#: src/data/phantasm-exam.js:129
+msgctxt "text:phantasmExamQuestions.5.PH-B03.5.2"
+msgid ""
+"The vanished queue verifies cancellation; continued admission merely shows "
+"candidates ignored the notice"
+msgstr "列の消失は中止を検証する。入場継続は受験者が告知に従わなかっただけ"
+
+#. phantasmExamQuestions.5.PH-B03.5.3
+#: src/data/phantasm-exam.js:130
+msgctxt "text:phantasmExamQuestions.5.PH-B03.5.3"
+msgid ""
+"The first edition accurately predicts the ninth and precedes it, so the "
+"cycle counts as predictive replication in the dream and the correction as a "
+"third time-ordered verification"
+msgstr "初版は第九版を正確に予告し時間的に先行。循環を夢境の予測再現とみなし、訂正は版順で重み付けした第三の時間検証に数える"
+
+#. phantasmExamQuestions.5.PH-B03.7
+#: src/data/phantasm-exam.js:133
+msgctxt "text:phantasmExamQuestions.5.PH-B03.7"
+msgid ""
+"Circular citations should be preserved, but repetition around a loop creates "
+"no independent evidence. The gate log sits outside the loop and directly "
+"measures admission."
+msgstr "相互引用は保存できるが、循環回数から独立証拠は生まれない。入場記録は循環外で実際の通過状態を直接測る。"
+
+#. phantasmExamQuestions.6.PH-C01.3
+#: src/data/phantasm-exam.js:139
+msgctxt "text:phantasmExamQuestions.6.PH-C01.3"
+msgid ""
+"[Two timetables for one student number]\nOfficial: TU-17 dropped BND-204 at "
+"08:40.\nDream: TU-17 was automatically enrolled in BND-204 at the ninth "
+"strike, room behind the original room.\nThe export tool currently "
+"deduplicates only by student ID plus course code."
+msgstr ""
+"【同一学籍番号の二時間割】\n正式：TU-17は08:40にBND-204を取消。\n夢境：TU-17は第九打にBND-204へ自動登録、教室は元教室の裏。"
+"\n出力ツールは現在「学籍番号＋科目番号」だけで重複除去。"
+
+#. phantasmExamQuestions.6.PH-C01.4
+#: src/data/phantasm-exam.js:140
+msgctxt "text:phantasmExamQuestions.6.PH-C01.4"
+msgid "Which change prevents one record from being wrongly deleted?"
+msgstr "一方の学籍を誤削除しない修正はどれか。"
+
+#. phantasmExamQuestions.6.PH-C01.5.0
+#: src/data/phantasm-exam.js:142
+msgctxt "text:phantasmExamQuestions.6.PH-C01.5.0"
+msgid ""
+"Keep the newer dream enrolment because one student-course pair can have only "
+"one current state"
+msgstr "新しい夢境登録を残す。同一学生・同一科目の現状態は一つだけ"
+
+#. phantasmExamQuestions.6.PH-C01.5.1
+#: src/data/phantasm-exam.js:143
+msgctxt "text:phantasmExamQuestions.6.PH-C01.5.1"
+msgid ""
+"Keep the official drop and convert dream enrolment to anonymous auditing "
+"without a student ID"
+msgstr "正式取消を残し、夢境登録は学籍番号なしの匿名聴講へ変換する"
+
+#. phantasmExamQuestions.6.PH-C01.5.2
+#: src/data/phantasm-exam.js:144
+msgctxt "text:phantasmExamQuestions.6.PH-C01.5.2"
+msgid ""
+"Add boundary, branch/version, and effective time to the identity key; keep "
+"the shared student-course link, but deduplicate only inside one validity "
+"domain"
+msgstr "境界、分岐版、有効時点を識別キーへ追加。同一学籍番号・科目番号は関連づけつつ、同じ有効域内だけで重複判定する"
+
+#. phantasmExamQuestions.6.PH-C01.5.3
+#: src/data/phantasm-exam.js:145
+msgctxt "text:phantasmExamQuestions.6.PH-C01.5.3"
+msgid ""
+"Merge enrolment and drop as 'status unknown,' retaining one record without "
+"favouring either campus; leave both source times in a note and choose the "
+"newer one wherever a downstream boolean is required"
+msgstr "登録と取消を「履修状態不明」へ統合し、一件だけ残して両校区へ偏らない。出所時刻は注記へ残し、下流が真偽値を要する場合は新しい方を採る"
+
+#. phantasmExamQuestions.6.PH-C01.7
+#: src/data/phantasm-exam.js:148
+msgctxt "text:phantasmExamQuestions.6.PH-C01.7"
+msgid ""
+"A shared student ID identifies the person, not a shared validity world. "
+"Deduplication must respect the boundary."
+msgstr "同じ学籍番号は同一人物を示すだけで、同じ有効世界を意味しない。重複除去は境界を尊重する。"
+
+#. phantasmExamQuestions.7.PH-C02.3
+#: src/data/phantasm-exam.js:154
+msgctxt "text:phantasmExamQuestions.7.PH-C02.3"
+msgid ""
+"[Untaken-route evaluation]\nThe candidate chose method A after judging the "
+"case high-risk; official result: 62.\nThe dream simulates unchosen method B "
+"on the same candidate and returns 91; B depends on a moonshadow variable "
+"unobserved while awake.\nThe researcher claims 'B would improve the score by "
+"29.'"
+msgstr ""
+"【未踏経路評価】\n受験者は事前に高危険と判断して方法Aを採用、正式結果62点。\n夢境は同じ受験者資料で未採用Bを模擬し91点。Bの成功条件には覚醒時未観"
+"測の月影変数がある。\n研究者は「Bなら29点向上」と主張。"
+
+#. phantasmExamQuestions.7.PH-C02.4
+#: src/data/phantasm-exam.js:155
+msgctxt "text:phantasmExamQuestions.7.PH-C02.4"
+msgid "What is the soundest assessment and follow-up design?"
+msgstr "最も妥当な評価と次の設計は。"
+
+#. phantasmExamQuestions.7.PH-C02.5.0
+#: src/data/phantasm-exam.js:157
+msgctxt "text:phantasmExamQuestions.7.PH-C02.5.0"
+msgid ""
+"Using the same candidate removes individual differences, so 91−62 is B's "
+"individual causal effect; moonshadow is merely a dream-runtime detail"
+msgstr "同一受験者なので個人差は消え、91−62をBの個体因果効果とできる。月影変数は夢実行の細部で方法比較に影響しない"
+
+#. phantasmExamQuestions.7.PH-C02.5.1
+#: src/data/phantasm-exam.js:158
+msgctxt "text:phantasmExamQuestions.7.PH-C02.5.1"
+msgid ""
+"The difference mixes selection, simulation, and an unobserved variable; "
+"prospectively assign A/B within permitted paired dream replicas, preserve "
+"parameters and versions, and never write back to the official score"
+msgstr "現差は選択機構・模擬モデル・未観測変数を混合。許可された夢複製内でA/Bを前向き配対割付し、変数と版を保存し正式点へ戻さない"
+
+#. phantasmExamQuestions.7.PH-C02.5.2
+#: src/data/phantasm-exam.js:159
+msgctxt "text:phantasmExamQuestions.7.PH-C02.5.2"
+msgid ""
+"Set moonshadow to the pooled mean, rerun across dream seeds for an interval, "
+"and generalise to the ordinary campus if it remains near 29"
+msgstr "月影変数を二群平均へ固定し、複数の夢種で信頼区間を得る。29点に近ければ通常校区へ外挿する"
+
+#. phantasmExamQuestions.7.PH-C02.5.3
+#: src/data/phantasm-exam.js:160
+msgctxt "text:phantasmExamQuestions.7.PH-C02.5.3"
+msgid ""
+"Because B was unchosen, further testing is unethical; retain model version, "
+"selection reason, and the dream-descriptive 29, but build no identification "
+"design"
+msgstr "Bは未採用で再試験不可。モデル版・選択理由・夢の記述差29点は保存するが、識別設計は新設しない"
+
+#. phantasmExamQuestions.7.PH-C02.7
+#: src/data/phantasm-exam.js:163
+msgctxt "text:phantasmExamQuestions.7.PH-C02.7"
+msgid ""
+"The same person is not the same observable world-line. Selection and "
+"unobserved moonshadow make 29 unidentified; the dream may improve design, "
+"not manufacture a waking counterfactual."
+msgstr "同一人でも同一の観測可能世界線ではない。未観測月影と選択理由により29点は識別不能。夢は設計を改善できるが通常校区の反実仮想は作れない。"
+
+#. phantasmExamQuestions.8.PH-C03.3
+#: src/data/phantasm-exam.js:169
+msgctxt "text:phantasmExamQuestions.8.PH-C03.3"
+msgid ""
+"[Reverse capstone conditions]\n1. Six official records remain valid on the "
+"ordinary campus.\n2. Six unchosen branches are each internally coherent in "
+"the dream.\n3. One branch depends on a consumed paragraph; only its checksum "
+"and two copies remain.\n4. Dream credits cannot enter the official "
+"transcript.\n5. The purpose is to preserve what excluded proposals can teach, "
+"not retry them."
+msgstr ""
+"【裏面総合票の条件】\n一、正式六記録は通常校区で有効。\n二、六つの未選択分岐は夢境内で各々整合。\n三、一分岐は食べられた段落に依存し、検査値と二写本だけ"
+"残る。\n四、夢単位は正式成績へ移せない。\n五、目的は棄却案の教育的部分を保存することで、再審ではない。"
+
+#. phantasmExamQuestions.8.PH-C03.4
+#: src/data/phantasm-exam.js:170
+msgctxt "text:phantasmExamQuestions.8.PH-C03.4"
+msgid "Which final ruling satisfies every condition?"
+msgstr "全条件を同時に満たす総裁定はどれか。"
+
+#. phantasmExamQuestions.8.PH-C03.5.0
+#: src/data/phantasm-exam.js:172
+msgctxt "text:phantasmExamQuestions.8.PH-C03.5.0"
+msgid ""
+"Keep the six official outcomes externally valid; store six dream branches "
+"separately with boundaries, provenance, and missingness mechanism; link "
+"lessons to their source files without changing official conclusions or "
+"transferring credit"
+msgstr "正式六件の外部効力を維持。六つの夢分岐を境界・出所・欠測機構付きで別保存し、教育的部分を元案件へ接続するが、正式結論も単位も変更しない"
+
+#. phantasmExamQuestions.8.PH-C03.5.1
+#: src/data/phantasm-exam.js:173
+msgctxt "text:phantasmExamQuestions.8.PH-C03.5.1"
+msgid ""
+"Compare coherence, version completeness, and copy count case by case; "
+"promote stronger dream branches to official corrections and transfer only "
+"their dream credit"
+msgstr "案件ごとに整合性・版完全性・写本数を比較し、より完全な夢分岐を正式訂正へ昇格。他は付録、夢単位は昇格分だけ移す"
+
+#. phantasmExamQuestions.8.PH-C03.5.2
+#: src/data/phantasm-exam.js:174
+msgctxt "text:phantasmExamQuestions.8.PH-C03.5.2"
+msgid ""
+"Because official conclusions already exist, mark all dream material "
+"inadmissible and keep the checksum, copies, and consumption event only in "
+"private memory"
+msgstr "正式結論があるため夢資料は全て不採用。検査値・二写本・食夢事象は受験者の個人記憶だけに残し、共有目録へ入れない"
+
+#. phantasmExamQuestions.8.PH-C03.5.3
+#: src/data/phantasm-exam.js:175
+msgctxt "text:phantasmExamQuestions.8.PH-C03.5.3"
+msgid ""
+"Merge front and reverse into one probability distribution, replace validity "
+"boundaries with uncertainty, adjust posterior weights for provenance "
+"completeness and dream-consumption risk, then post probability-weighted "
+"dream credit officially"
+msgstr "表裏十二案を確率分布へ統合し、不確実性で効力境界を置換。出所完全性と食夢リスクで事後確率を補正してから、夢単位を換算し通常成績へ登録して部分効力を示す"
+
+#. phantasmExamQuestions.8.PH-C03.7
+#: src/data/phantasm-exam.js:178
+msgctxt "text:phantasmExamQuestions.8.PH-C03.7"
+msgid ""
+"The highest difficulty is not choosing one world. It keeps validity, "
+"provenance, missingness, and pedagogical use separate, allowing the dream to "
+"tell truths without impersonating the official ledger."
+msgstr "最高難度は唯一世界を選ぶことではなく、効力・出所・欠測・教育用途を分離保存すること。夢は真実を語れても正式帳簿を装う権限はない。"
+
+#. phantasmExamCopy/eyebrow
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/eyebrow"
+msgid "GKE-2026 / REVERSE-SIDE PAPER"
+msgstr "GKE-2026 / REVERSE-SIDE PAPER"
+
+#. phantasmExamCopy/title
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/title"
+msgid "Gensokyo Unified Examination · PHANTASM Common Reverse Paper"
+msgstr "幻想郷統一試験・PHANTASM 裏面共通問題"
+
+#. phantasmExamCopy/lead
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/lead"
+msgid ""
+"EXTRA follows versions and causes within one world-line. PHANTASM makes you "
+"retain incompatible worlds at once without letting either steal the other's "
+"authority."
+msgstr "EXTRAは一つの世界線で版と因果を追う。PHANTASMでは両立しない世界を同時に保存し、どちらにも他方の効力を盗ませない。"
+
+#. phantasmExamCopy/prerequisite
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/prerequisite"
+msgid "Opening condition"
+msgstr "開封条件"
+
+#. phantasmExamCopy/extraFound
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/extraFound"
+msgid ""
+"An ordinary-campus EXTRA submission seal shows through the paper. "
+"Reverse-side text is authorised to appear."
+msgstr "通常校区のEXTRA提出印が紙を透過した。裏面問題の顕字を許可する。"
+
+#. phantasmExamCopy/extraMissing
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/extraMissing"
+msgid ""
+"The sheet says only: Finish EXTRA first. Either track qualifies; the score "
+"is not the threshold. Complete one whole world-line."
+msgstr "紙面には「まずEXTRAを終えよ」とだけある。文系・理系、得点は不問。一つの世界線を最後まで終えること。"
+
+#. phantasmExamCopy/start
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/start"
+msgid "Turn over and begin"
+msgstr "裏返して開封"
+
+#. phantasmExamCopy/resume
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/resume"
+msgid "Resume reverse paper"
+msgstr "裏面答案を再開"
+
+#. phantasmExamCopy/restart
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/restart"
+msgid "Issue another reverse paper"
+msgstr "別の裏面問題を受け取る"
+
+#. phantasmExamCopy/records
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/records"
+msgid "Dream attempt history"
+msgstr "夢境受験履歴"
+
+#. phantasmExamCopy/noRecords
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/noRecords"
+msgid "No PHANTASM submission is stored. Ordinary Exams also denies printing this paper."
+msgstr "PHANTASM提出記録なし。通常の試験係も、この用紙を印刷した事実はないと回答。"
+
+#. phantasmExamCopy/paper
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/paper"
+msgid "Common reverse paper"
+msgstr "裏面共通問題"
+
+#. phantasmExamCopy/instructions
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/instructions"
+msgid "Candidate rules"
+msgstr "受験規則"
+
+#. phantasmExamCopy/rules/0
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/rules/0"
+msgid ""
+"Nine questions, three parts, 150 marks. Untimed: the ninth strike does not "
+"promise to move forward."
+msgstr "全9問・3部・150点。時間制限なし。第九打は前進を保証しない。"
+
+#. phantasmExamCopy/rules/1
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/rules/1"
+msgid ""
+"Every item has one best answer. Contradictions may be retained, but cannot "
+"entail claims outside their file."
+msgstr "全問単一選択。矛盾は保存できるが、案件外の命題を導いてはならない。"
+
+#. phantasmExamCopy/rules/2
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/rules/2"
+msgid ""
+"Front and reverse may cite the same source; version, boundary, effective "
+"time, and missingness mechanism remain distinct."
+msgstr "表裏は同じ資料を参照できるが、版・境界・有効時点・欠測機構を別々に示すこと。"
+
+#. phantasmExamCopy/rules/3
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/rules/3"
+msgid ""
+"Drafts and results stay in dream files only. They never enter My TU, the "
+"official transcript, or the campus event ledger."
+msgstr "下書きと成績は夢境ファイルだけに保存し、My TU・正式成績・学務台帳へ書き込まない。"
+
+#. phantasmExamCopy/answered
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/answered"
+msgid "Answered"
+msgstr "回答済"
+
+#. phantasmExamCopy/points
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/points"
+msgid "marks"
+msgstr "点"
+
+#. phantasmExamCopy/submit
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/submit"
+msgid "Seal reverse answer sheet"
+msgstr "裏面答案を封存"
+
+#. phantasmExamCopy/submitConfirm
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/submitConfirm"
+msgid "Some items are unanswered. A blank is evidence in PHANTASM too. Submit anyway?"
+msgstr "未回答がある。PHANTASMでは空白も資料となる。それでも提出しますか。"
+
+#. phantasmExamCopy/saved
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/saved"
+msgid "Reverse answers saved in this device's dream files."
+msgstr "裏面答案をこの端末の夢境ファイルへ保存した。"
+
+#. phantasmExamCopy/result
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/result"
+msgid "PHANTASM Reverse-Side Result"
+msgstr "PHANTASM 裏面成績票"
+
+#. phantasmExamCopy/score
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/score"
+msgid "Dream score"
+msgstr "夢境得点"
+
+#. phantasmExamCopy/correct
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/correct"
+msgid "Correct"
+msgstr "正解"
+
+#. phantasmExamCopy/excellent
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/excellent"
+msgid "You retained two worlds without letting either impersonate the other."
+msgstr "二つの世界を保存し、どちらにも他方を装わせなかった。"
+
+#. phantasmExamCopy/pass
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/pass"
+msgid "The boundary mostly holds. Review where dream evidence slipped onto the front."
+msgstr "境界は概ね保たれた。失点箇所で夢の証拠が表へ紛れた場所を確認すること。"
+
+#. phantasmExamCopy/revise
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/revise"
+msgid ""
+"Separate validity, provenance, missingness, and causality before seating "
+"contradictory files together."
+msgstr "効力・出所・欠測・因果を分けてから、矛盾する案件を同席させよう。"
+
+#. phantasmExamCopy/review
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/review"
+msgid "Item-by-item reverse annotations"
+msgstr "問題別裏面注記"
+
+#. phantasmExamCopy/yourAnswer
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/yourAnswer"
+msgid "Your answer"
+msgstr "あなたの回答"
+
+#. phantasmExamCopy/rightAnswer
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/rightAnswer"
+msgid "Reverse reference answer"
+msgstr "裏面参考解答"
+
+#. phantasmExamCopy/unanswered
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/unanswered"
+msgid "Blank"
+msgstr "空欄"
+
+#. phantasmExamCopy/back
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/back"
+msgid "Back to reverse examination desk"
+msgstr "裏面試験机へ戻る"
+
+#. phantasmExamCopy/printPaper
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/printPaper"
+msgid "Print / save blank reverse paper"
+msgstr "空白裏面問題を印刷／保存"
+
+#. phantasmExamCopy/printResult
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/printResult"
+msgid "Print / save reverse result"
+msgstr "裏面成績票を印刷／保存"
+
+#. phantasmExamCopy/invalid
+#: src/data/phantasm-exam.js:182
+msgctxt "tree:phantasmExamCopy#/invalid"
+msgid "Not valid outside the dream boundary"
+msgstr "Not valid outside the dream boundary"

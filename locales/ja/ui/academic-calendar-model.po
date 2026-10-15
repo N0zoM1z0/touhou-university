@@ -1,0 +1,26 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. lines.4.0
+#: src/js/academic-calendar-model.js:94
+msgctxt "text:lines.4.0"
+msgid "Gensokyo Academic Calendar"
+msgstr "幻想郷学年暦"
+
+#. academicCalendarCommunityPosts.0.author
+#: src/js/academic-calendar-model.js:124
+msgctxt "text:academicCalendarCommunityPosts.0.author"
+msgid "Academic Calendar Desk · red bookmark"
+msgstr "学年暦掛・赤い栞"
+
+#. academicCalendarCommunityPosts.0.body
+#: src/js/academic-calendar-model.js:126
+msgctxt "text:academicCalendarCommunityPosts.0.body"
+msgid "{value0}. Saving the leaf does not stop changes caused by moon, incident, or festival."
+msgstr "{value0}。栞を挟んでも、月相・異変・祭典による変更は止まりません。"

@@ -1,0 +1,538 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/eyebrow"
+msgid "FIRST BELL / NEW STUDENT ARRIVAL WEEK"
+msgstr "FIRST BELL / 第一鐘・新入生到着週"
+
+#. copy/title
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/title"
+msgid "First, arrive. ‘Ordinary student’ is not a field on this form."
+msgstr "まずは到着手続を。『普通の学生』という欄は、本学にはありません。"
+
+#. copy/lead
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/lead"
+msgid ""
+"Bring the admission review, confirm which gate you can use and which stop "
+"signal you can recognise, then choose one real first destination. The "
+"university keeps your choice—and every condition that did not disappear."
+msgstr "合格審査を持参し、通れる門と自分で識別できる停止合図を確認して、最初の行先を一つ選びます。大学は選択を保存し、消えていない条件も保存します。"
+
+#. copy/office
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/office"
+msgid "NEW STUDENT ARRIVAL OFFICE"
+msgstr "NEW STUDENT ARRIVAL OFFICE"
+
+#. copy/officeTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/officeTitle"
+msgid "New Student Arrival Office"
+msgstr "新入生到着室"
+
+#. copy/window
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/window"
+msgid "Filing window"
+msgstr "受付期間"
+
+#. copy/issued
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/issued"
+msgid "Opened"
+msgstr "開封済み"
+
+#. copy/completed
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/completed"
+msgid "First Bell rung"
+msgstr "第一鐘済み"
+
+#. copy/publicFile
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/publicFile"
+msgid "Public blank file"
+msgstr "公開空票"
+
+#. copy/publicLead
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/publicLead"
+msgid ""
+"Anyone may read the arrival rules. Only a person with a formal admission "
+"review on this device can place a file in the campus record."
+msgstr "手続規則は誰でも読めます。学内履歴へ記録できるのは、この端末に正式な合格審査がある人だけです。"
+
+#. copy/status
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/status"
+msgid "Current file status"
+msgstr "現在のファイル状態"
+
+#. copy/identityMissing
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/identityMissing"
+msgid ""
+"No My TU identity exists yet. Creating one will not alter earlier "
+"applications or examination records."
+msgstr "My TU 身分が未作成です。先に端末内身分を作っても、既存の出願や答案は変わりません。"
+
+#. copy/applicationMissing
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/applicationMissing"
+msgid ""
+"An on-device identity exists, but no application has been submitted. The "
+"Arrival Office will not treat a blank form as an admission letter."
+msgstr "端末内身分はありますが、提出済み出願がありません。到着室は白紙の願書を合格通知として扱いません。"
+
+#. copy/reviewMissing
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/reviewMissing"
+msgid ""
+"The application arrived, but the joint faculty review has not issued a "
+"result. Aya has a headline ready; this time she must wait."
+msgstr "出願は到着済みですが、教員合同審査の結果がありません。文は見出しを用意しましたが、今回は待たせます。"
+
+#. copy/conditional
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/conditional"
+msgid ""
+"This is a conditional admission. You may read the rules, but First Bell "
+"waits for the formally admitted edition. The conditions remain visible."
+msgstr "現在は条件付合格です。規則は読めますが、第一鐘は正式合格版を待ちます。条件は隠しません。"
+
+#. copy/notAdmitted
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/notAdmitted"
+msgid ""
+"The current review still requires a supplement or interview. The office "
+"keeps a blank file; it will not rewrite an applicant as a newcomer in "
+"advance."
+msgstr "現在の審査は補足資料または面接を求めています。到着室は空票を残し、志願者を先回りで新入生に書き換えません。"
+
+#. copy/admitted
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/admitted"
+msgid "The formal admission edition is verified. Your on-device arrival file may now be opened."
+msgstr "正式合格版を確認しました。端末内到着票を開封できます。"
+
+#. copy/goMyTu
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/goMyTu"
+msgid "Open My TU"
+msgstr "My TU へ"
+
+#. copy/goApplication
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/goApplication"
+msgid "Start an application"
+msgstr "入学出願を始める"
+
+#. copy/goAdmissions
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/goAdmissions"
+msgid "Admissions & examinations"
+msgstr "入試・試験を見る"
+
+#. copy/openDossier
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/openDossier"
+msgid "Open my arrival file"
+msgstr "自分の到着票を開封"
+
+#. copy/privacy
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/privacy"
+msgid ""
+"Names, application content, and needs remain in this browser. The BBS "
+"receives only a nameless institutional projection."
+msgstr "通称・出願内容・必要条件はこのブラウザだけに保存。BBS には氏名を含まない学務上の投影だけが出ます。"
+
+#. copy/threeThings
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/threeThings"
+msgid "Three things the office will not waive"
+msgstr "到着室が譲らない三項目"
+
+#. copy/threeLead
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/threeLead"
+msgid "This is not a stamp hunt. Every field must still help when a route actually changes."
+msgstr "スタンプ競争ではありません。実際の迂回時に使える欄だけを残します。"
+
+#. copy/ruleOne
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleOne"
+msgid "Carry the right edition"
+msgstr "版を間違えない"
+
+#. copy/ruleOneBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleOneBody"
+msgid ""
+"Admission, conditions, and minority opinions remain separate. A welcome "
+"stamp cannot cover them."
+msgstr "合格・条件・少数意見を分けて保存。「歓迎」の印で上書きしません。"
+
+#. copy/ruleTwo
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleTwo"
+msgid "Recognise a way back"
+msgstr "退路を識別する"
+
+#. copy/ruleTwoBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleTwoBody"
+msgid "Routes may change. Your stop signal must be one you can personally recognise."
+msgstr "経路は変わっても、停止合図は本人が確実に分かるものにします。"
+
+#. copy/ruleThree
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleThree"
+msgid "Choose a first destination"
+msgstr "最初の行先を選ぶ"
+
+#. copy/ruleThreeBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleThreeBody"
+msgid "Completion awards no generic badge; it opens a real route that continues into campus."
+msgstr "手続完了で得るのはバッジではなく、実際に続いている学内経路です。"
+
+#. copy/dossier
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/dossier"
+msgid "ARRIVAL FILE / THIS DEVICE"
+msgstr "ARRIVAL FILE / 端末内到着票"
+
+#. copy/dossierTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/dossierTitle"
+msgid "This file preserves your choices; it does not rewrite any office into agreement."
+msgstr "この票は選択を保存しますが、どの窓口の発言も書き換えません。"
+
+#. copy/student
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/student"
+msgid "Arriving student"
+msgstr "到着者"
+
+#. copy/school
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/school"
+msgid "Admitting school"
+msgstr "合格学部"
+
+#. copy/application
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/application"
+msgid "Application file"
+msgstr "出願記録"
+
+#. copy/review
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/review"
+msgid "Review file"
+msgstr "審査記録"
+
+#. copy/decision
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/decision"
+msgid "Decision"
+msgstr "審査結果"
+
+#. copy/question
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/question"
+msgid "The question you bring through the gate"
+msgstr "門へ持ち込む問い"
+
+#. copy/noQuestion
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/noQuestion"
+msgid "No question text is available here; the source application remains intact."
+msgstr "表示できる問いの本文がありません。元の出願記録は残っています。"
+
+#. copy/admittedLabel
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/admittedLabel"
+msgid "Admitted"
+msgstr "正式合格"
+
+#. copy/stepOne
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepOne"
+msgid "01 / ADMISSION EDITION"
+msgstr "01 / 合格版"
+
+#. copy/stepOneTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepOneTitle"
+msgid "First confirm which edition of you the university admitted."
+msgstr "大学が迎えるのは、どの版のあなたか。"
+
+#. copy/stepOneBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepOneBody"
+msgid ""
+"Akyuu cites the source application and review. She does not copy them into a "
+"more obedient second record."
+msgstr "阿求は出願・審査番号だけを参照し、従順な第二の記録へ写し替えません。"
+
+#. copy/stepTwo
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepTwo"
+msgid "02 / ARRIVAL ROUTE"
+msgstr "02 / 到着経路"
+
+#. copy/stepTwoTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepTwoTitle"
+msgid "Travel from Hakurei Gate to your school."
+msgstr "博麗門から合格学部へ。"
+
+#. copy/stepTwoBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepTwoBody"
+msgid ""
+"Choose a mode. Duty incidents, the academic calendar, and a live festival "
+"may make the usual shortest route unavailable today."
+msgstr "到着方法を選びます。当番案件・学年暦・運行中の祭典によって、普段の最短路が今日は成立しないことがあります。"
+
+#. copy/chooseMode
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/chooseMode"
+msgid "Arrival mode"
+msgstr "到着方法"
+
+#. copy/confirmArrival
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/confirmArrival"
+msgid "File this route"
+msgstr "この経路を到着票へ記入"
+
+#. copy/routeFiled
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/routeFiled"
+msgid "Arrival route confirmed"
+msgstr "到着経路確認済み"
+
+#. copy/minutes
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/minutes"
+msgid "Estimated minutes"
+msgstr "所要分"
+
+#. copy/walking
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/walking"
+msgid "Walking"
+msgstr "うち徒歩"
+
+#. copy/distance
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/distance"
+msgid "Approx. distance"
+msgstr "概算距離"
+
+#. copy/routeClosed
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/routeClosed"
+msgid ""
+"This mode cannot form a complete route today. Choose another or inspect "
+"closures on the live map."
+msgstr "今日はこの方法で全経路を作れません。方法を変えるか、当番地図で閉鎖を確認してください。"
+
+#. copy/openMap
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/openMap"
+msgid "Open the live campus map"
+msgstr "当番キャンパス地図を開く"
+
+#. copy/stepThree
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepThree"
+msgid "03 / STOP & NOTICE"
+msgstr "03 / 停止と通知"
+
+#. copy/stepThreeTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepThreeTitle"
+msgid "Choose a stop signal you can recognise yourself."
+msgstr "本人が識別できる停止合図を選ぶ。"
+
+#. copy/stepThreeBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepThreeBody"
+msgid ""
+"The faster a notice travels, the more easily the wrong edition arrives. Stop "
+"signal and detour notice are confirmed separately."
+msgstr "速い通知ほど誤った版を届けることがあります。停止合図と迂回通知は別々に確認します。"
+
+#. copy/signal
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/signal"
+msgid "Recognisable stop / exit signal"
+msgstr "識別できる停止・退路合図"
+
+#. copy/notice
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/notice"
+msgid "Detour notice I will verify"
+msgstr "自分で再確認する迂回通知"
+
+#. copy/confirmBoundary
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/confirmBoundary"
+msgid "Confirm exit and notice"
+msgstr "退路と通知を確認"
+
+#. copy/boundaryFiled
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/boundaryFiled"
+msgid "Exit field personally confirmed"
+msgstr "退路欄を本人確認済み"
+
+#. copy/stepFour
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepFour"
+msgid "04 / FIRST DESTINATION"
+msgstr "04 / 最初の行先"
+
+#. copy/stepFourTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepFourTitle"
+msgid "Where will you go after First Bell?"
+msgstr "第一鐘の後、最初にどこへ？"
+
+#. copy/stepFourBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepFourBody"
+msgid ""
+"This is not a personality test. It only chooses which real door the arrival "
+"file opens next."
+msgstr "性格診断ではありません。到着票が実在するどの扉を開くかだけを選びます。"
+
+#. copy/firstStop
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/firstStop"
+msgid "Choose a first destination"
+msgstr "最初の行先"
+
+#. copy/ringBell
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ringBell"
+msgid "Ring First Bell and file arrival"
+msgstr "第一鐘を鳴らし、到着票を保存"
+
+#. copy/required
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/required"
+msgid "Complete this field first."
+msgstr "この欄を選んでください。"
+
+#. copy/arrivalSaved
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/arrivalSaved"
+msgid "The arrival route is now in the file."
+msgstr "到着経路を記入しました。"
+
+#. copy/boundarySaved
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/boundarySaved"
+msgid "Stop signal and detour notice were filed separately."
+msgstr "停止合図と迂回通知を別欄で保存しました。"
+
+#. copy/completedToast
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/completedToast"
+msgid "First Bell rang. Your first destination is open."
+msgstr "第一鐘が鳴りました。最初の行先へ進めます。"
+
+#. copy/completeEyebrow
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/completeEyebrow"
+msgid "MATRICULATION FILED / ARRIVAL RECORDED"
+msgstr "MATRICULATION FILED / 到着記録成立"
+
+#. copy/completeTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/completeTitle"
+msgid "The gates are no more singular. You know which one to use."
+msgstr "門は唯一になっていません。それでも、通る門は分かりました。"
+
+#. copy/completeLead
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/completeLead"
+msgid ""
+"The arrival file entered the My TU campus ledger. Your name did not go to "
+"the BBS, and welcome copy did not dilute the admission conditions."
+msgstr "到着票は My TU の学内イベント台帳へ入りました。氏名は BBS に送られず、合格条件も歓迎文で薄められていません。"
+
+#. copy/firstDestination
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/firstDestination"
+msgid "First destination"
+msgstr "最初の行先"
+
+#. copy/stopSignal
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stopSignal"
+msgid "Stop signal"
+msgstr "停止合図"
+
+#. copy/noticePlan
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/noticePlan"
+msgid "Detour notice"
+msgstr "迂回通知"
+
+#. copy/filedAt
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/filedAt"
+msgid "First Bell time"
+msgstr "第一鐘時刻"
+
+#. copy/print
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/print"
+msgid "Print / save formal arrival slip"
+msgstr "正式到着票を印刷／PDF保存"
+
+#. copy/depart
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/depart"
+msgid "Go to first destination"
+msgstr "最初の行先へ"
+
+#. copy/openBbs
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/openBbs"
+msgid "See what the BBS says"
+msgstr "BBS の反応を見る"
+
+#. copy/openAnother
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/openAnother"
+msgid "Return to arrival file"
+msgstr "到着票へ戻る"
+
+#. copy/records
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/records"
+msgid "arrival files"
+msgstr "件の到着票"
+
+#. copy/openFiles
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/openFiles"
+msgid "awaiting First Bell"
+msgstr "件が第一鐘前"

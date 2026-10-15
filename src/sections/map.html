@@ -2,17 +2,17 @@
   <div class="container">
     <header class="section-header reveal">
       <div>
-        <p class="eyebrow"><span>06</span> CAMPUS MAP / 校園地圖</p>
-        <h2>從博麗門出發，<br>別把近路當成同一條路。</h2>
+        <p class="eyebrow"><span>06</span><!-- i18n:mapEyebrow --> CAMPUS MAP / 校園地圖</p>
+        <h2><!-- i18n:mapTitle1 -->從博麗門出發，<br><!-- i18n:mapTitle2 -->別把近路當成同一條路。</h2>
       </div>
-      <p>
+      <p data-i18n="mapLead">
         主校區依大結界內側山勢展開。步行時間以人類平均速度計；
         妖精、天狗與間隙移動者請遵守空路分層。
       </p>
     </header>
 
     <div class="map-layout reveal">
-      <section class="map-canvas" aria-label="幻想鄉立東方大學校園地圖">
+      <section class="map-canvas" aria-label="幻想鄉立東方大學校園地圖" data-i18n-aria-label="attribute.touhouUniversityOfGensokyoCampusMap">
         <div class="map-terrain map-lake" aria-hidden="true"></div>
         <div class="map-terrain map-forest" aria-hidden="true"></div>
         <div class="map-terrain map-mountain" aria-hidden="true"></div>
@@ -22,32 +22,32 @@
         <svg class="map-route-layer" aria-hidden="true" data-map-route-layer></svg>
 
         <button class="map-node active" type="button" data-map-place="gate">
-          <span>01</span><strong>博麗門</strong>
+          <span>01</span><strong data-i18n="hakureiGate">博麗門</strong>
         </button>
         <button class="map-node" type="button" data-map-place="library">
-          <span>02</span><strong>霧湖圖書館</strong>
+          <span>02</span><strong data-i18n="mistyLibrary">霧湖圖書館</strong>
         </button>
         <button class="map-node" type="button" data-map-place="boundary">
-          <span>03</span><strong>境界講堂</strong>
+          <span>03</span><strong data-i18n="boundaryHall">境界講堂</strong>
         </button>
         <button class="map-node" type="button" data-map-place="history">
-          <span>04</span><strong>稗田史學館</strong>
+          <span>04</span><strong data-i18n="hiedaHall">稗田史學館</strong>
         </button>
         <button class="map-node" type="button" data-map-place="magic">
-          <span>05</span><strong>七曜實驗塔</strong>
+          <span>05</span><strong data-i18n="sevenDayTower">七曜實驗塔</strong>
         </button>
         <button class="map-node" type="button" data-map-place="clinic">
-          <span>06</span><strong>永遠亭診療所</strong>
+          <span>06</span><strong data-i18n="eienteiClinic">永遠亭診療所</strong>
         </button>
         <button class="map-node" type="button" data-map-place="kappa">
-          <span>07</span><strong>河童聯合工房</strong>
+          <span>07</span><strong data-i18n="kappaWorkshop">河童聯合工房</strong>
         </button>
         <p class="map-repair-note" aria-live="polite">
-          <small data-map-notice-label>今日木板</small>
-          <b data-map-notice>北側木牌正在等下一次校鐘。</b>
+          <small data-map-notice-label data-i18n="mapWoodenNotice">今日木板</small>
+          <b data-map-notice data-i18n="mapWoodenWaiting">北側木牌正在等下一次校鐘。</b>
           <a data-phantasm-map-entrance hidden></a>
         </p>
-        <div class="map-compass" aria-hidden="true"><span>北</span><i></i></div>
+        <div class="map-compass" aria-hidden="true"><span data-i18n="north">北</span><i></i></div>
       </section>
 
       <aside class="map-detail" aria-live="polite" data-map-detail>
@@ -62,21 +62,21 @@
             loading="lazy"
             data-map-image
           >
-          <span data-map-type>迎賓與校務</span>
+          <span data-map-type data-i18n="mapArrivalServices">迎賓與校務</span>
           <p data-map-index>01 / MAIN GATE</p>
         </div>
         <div class="map-detail-content">
-          <h3 data-map-name>博麗門</h3>
-          <p data-map-description>
+          <h3 data-map-name data-i18n="hakureiGate">博麗門</h3>
+          <p data-map-description data-i18n="gateDescription">
             位於大結界內側的正門。外界生報到、訪客查驗與遺失物歸還皆在此辦理。
           </p>
           <dl>
-            <div><dt>開放</dt><dd data-map-hours>06:00—22:30</dd></div>
-            <div><dt>即時</dt><dd data-map-live>依校鐘開放</dd></div>
-            <div><dt>步行</dt><dd data-map-walk>起點</dd></div>
-            <div><dt>空路</dt><dd data-map-air>低空禁飛</dd></div>
+            <div><dt data-i18n="openHours">開放</dt><dd data-map-hours>06:00—22:30</dd></div>
+            <div><dt data-i18n="mapLiveLabel">即時</dt><dd data-map-live data-i18n="mapByBell">依校鐘開放</dd></div>
+            <div><dt data-i18n="walking">步行</dt><dd data-map-walk data-i18n="originPoint">起點</dd></div>
+            <div><dt data-i18n="airRoute">空路</dt><dd data-map-air data-i18n="noLowFlight">低空禁飛</dd></div>
           </dl>
-          <button class="text-action" type="button" data-service="availability">
+          <button class="text-action" type="button" data-service="availability"><!-- i18n:nearbyRooms -->
             查詢附近館舍 <span aria-hidden="true">→</span>
           </button>
         </div>
@@ -85,31 +85,31 @@
 
     <!-- @include eientei.html -->
 
-    <section class="route-planner reveal" id="route-planner" aria-label="校園路線規劃" data-route-planner>
+    <section class="route-planner reveal" id="route-planner" aria-label="校園路線規劃" data-i18n-aria-label="attribute.campusRoutePlanner" data-route-planner>
       <header class="route-planner-head">
         <div>
           <p>GENSOKYO CAMPUS TRANSIT</p>
-          <h3>怎麼走？讓校園路網替你算。</h3>
-          <small class="route-outsider-credit">演算法由一名堅稱「這只是 Dijkstra」的外界人類申請生暫借；紫尚未承認最短路一定在同一側。</small>
+          <h3 data-i18n="routePlannerTitle">怎麼走？讓校園路網替你算。</h3>
+          <small class="route-outsider-credit" data-i18n="routeOutsiderCredit">演算法由一名堅稱「這只是 Dijkstra」的外界人類申請生暫借；紫尚未承認最短路一定在同一側。</small>
         </div>
-        <p>選擇步行、掃帚、天狗風路或竹林兔車；每一種交通都有自己的停靠點與接駁路線。</p>
+        <p data-i18n="routePlannerLead">選擇步行、掃帚、天狗風路或竹林兔車；每一種交通都有自己的停靠點與接駁路線。</p>
       </header>
       <div class="route-live-status" data-route-live aria-live="polite"></div>
       <form class="route-form" data-route-form>
         <label>
-          <span>出發地</span>
+          <span data-i18n="routeFrom">出發地</span>
           <select name="from" data-route-from></select>
         </label>
-        <button class="route-swap" type="button" aria-label="交換出發地與目的地" data-route-swap>⇄</button>
+        <button class="route-swap" type="button" aria-label="交換出發地與目的地" data-i18n-aria-label="attribute.swapOriginAndDestination" data-route-swap>⇄</button>
         <label>
-          <span>目的地</span>
+          <span data-i18n="routeTo">目的地</span>
           <select name="to" data-route-to></select>
         </label>
         <fieldset>
-          <legend>交通方式</legend>
+          <legend data-i18n="routeMode">交通方式</legend>
           <div class="route-modes" data-route-modes></div>
         </fieldset>
-        <button class="route-submit" type="submit">
+        <button class="route-submit" type="submit"><!-- i18n:routePlan -->
           規劃路線 <span aria-hidden="true">→</span>
         </button>
       </form>
@@ -117,10 +117,10 @@
     </section>
 
     <div class="map-legend reveal">
-      <span><i class="legend-academic"></i>教學研究</span>
-      <span><i class="legend-service"></i>公共服務</span>
-      <span><i class="legend-field"></i>實地教學</span>
-      <span><i class="legend-restricted"></i>月相管制區</span>
+      <span><i class="legend-academic"></i><!-- i18n:teachingResearch -->教學研究</span>
+      <span><i class="legend-service"></i><!-- i18n:publicService -->公共服務</span>
+      <span><i class="legend-field"></i><!-- i18n:fieldTeaching -->實地教學</span>
+      <span><i class="legend-restricted"></i><!-- i18n:lunarRestricted -->月相管制區</span>
     </div>
   </div>
 </section>

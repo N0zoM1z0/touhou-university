@@ -1,0 +1,1280 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. gaokaoSubjects.language.name
+#: src/data/gaokao.js:16
+msgctxt "text:gaokaoSubjects.language.name"
+msgid "Gensokyo Language & Letters"
+msgstr "幻想鄉語文"
+
+#. gaokaoSubjects.language.note
+#: src/data/gaokao.js:17
+msgctxt "text:gaokaoSubjects.language.note"
+msgid "Reading, source expression, notices, and news rhetoric"
+msgstr "閱讀、史料表述、公告與新聞修辭"
+
+#. gaokaoSubjects.language.questions.0.L01.2
+#: src/data/gaokao.js:21
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.2"
+msgid ""
+"The paper first reports “North windway permanently repaired,” then corrects "
+"it to “kappa tape still counts as temporary.” What does the correction "
+"chiefly restore?"
+msgstr "校報先刊出「北側風路已永久修復」，隔日訂正為「河童膠帶仍算臨時修復」。這則訂正最主要補足了什麼？"
+
+#. gaokaoSubjects.language.questions.0.L01.3.0
+#: src/data/gaokao.js:22
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.3.0"
+msgid "A more cautious tone for “permanent,” without changing the access judgment"
+msgstr "把「永久」換成較保守的語氣，但未改變通行判斷"
+
+#. gaokaoSubjects.language.questions.0.L01.3.1
+#: src/data/gaokao.js:22
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.3.1"
+msgid "The repair status and the standard used to classify it"
+msgstr "維修狀態與採用的判定標準"
+
+#. gaokaoSubjects.language.questions.0.L01.3.2
+#: src/data/gaokao.js:22
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.3.2"
+msgid "The tape's material name, without stating whether passage is currently allowed"
+msgstr "河童膠帶的材料名稱，但未說明目前是否可通行"
+
+#. gaokaoSubjects.language.questions.0.L01.3.3
+#: src/data/gaokao.js:22
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.3.3"
+msgid "The publication sequence, without correcting the permanent–temporary distinction"
+msgstr "報導發布的先後順序，但未修正永久與臨時的差別"
+
+#. gaokaoSubjects.language.questions.0.L01.5
+#: src/data/gaokao.js:23
+msgctxt "text:gaokaoSubjects.language.questions.0.L01.5"
+msgid ""
+"The changed fact is whether the repair is permanent or temporary, which "
+"affects travel and risk decisions."
+msgstr "訂正改變的不是語氣，而是「永久／臨時」的事實判定，讓讀者能正確安排通行與風險。"
+
+#. gaokaoSubjects.language.questions.1.L02.2
+#: src/data/gaokao.js:27
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.2"
+msgid ""
+"A bamboo notice says: “Do not stop at the second identical meeting point; it "
+"is last week's.” What is the soundest reading?"
+msgstr "讀竹林告示：「看到第二個一模一樣的集合點時不要停，那是上週的。」最合理的閱讀方式是？"
+
+#. gaokaoSubjects.language.questions.1.L02.3.0
+#: src/data/gaokao.js:28
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.3.0"
+msgid "Because they look identical, treat the later one as a reserve meeting point"
+msgstr "兩個集合點外觀相同，所以應把較晚遇到的那個視為備用點"
+
+#. gaokaoSubjects.language.questions.1.L02.3.1
+#: src/data/gaokao.js:28
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.3.1"
+msgid "Route identification must check both spatial position and associated time"
+msgstr "路徑辨識必須同時核對空間位置與所屬時間"
+
+#. gaokaoSubjects.language.questions.1.L02.3.2
+#: src/data/gaokao.js:28
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.3.2"
+msgid "“Second” means the traveller overshot and should return to the first point"
+msgstr "「第二個」表示走過頭，應立即沿原路返回第一個集合點"
+
+#. gaokaoSubjects.language.questions.1.L02.3.3
+#: src/data/gaokao.js:28
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.3.3"
+msgid "“Last week's” dates the notice and does not affect the point now in view"
+msgstr "「上週的」只是告示更新日期，不影響眼前集合點的身分"
+
+#. gaokaoSubjects.language.questions.1.L02.5
+#: src/data/gaokao.js:29
+msgctxt "text:gaokaoSubjects.language.questions.1.L02.5"
+msgid ""
+"The notice combines spatial and temporal evidence; identical appearance does "
+"not prove identical place."
+msgstr "告示同時提供空間與時間線索；「相同外觀」不足以證明是同一地點。"
+
+#. gaokaoSubjects.language.questions.2.L03.2
+#: src/data/gaokao.js:33
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.2"
+msgid "Which sentence is best suited to a research field record?"
+msgstr "下列哪一句最適合寫進研究現場紀錄？"
+
+#. gaokaoSubjects.language.questions.2.L03.3.0
+#: src/data/gaokao.js:34
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.3.0"
+msgid "Fairies probably extinguished the eastern lamps, because they are usually unreliable"
+msgstr "東側的燈大概被妖精弄熄了，因為她們向來不可靠"
+
+#. gaokaoSubjects.language.questions.2.L03.3.1
+#: src/data/gaokao.js:34
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.3.1"
+msgid "After the third bell, two of five eastern lamps went out"
+msgstr "第三次鐘響後，東側五盞燈中有兩盞熄滅"
+
+#. gaokaoSubjects.language.questions.2.L03.3.2
+#: src/data/gaokao.js:34
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.3.2"
+msgid "The third bell caused a minor incident and the lighting failure"
+msgstr "第三次鐘響引發小型異變，並造成照明系統故障"
+
+#. gaokaoSubjects.language.questions.2.L03.3.3
+#: src/data/gaokao.js:34
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.3.3"
+msgid "A duty worker says more failed yesterday, so today's condition should count as normal"
+msgstr "值班者說昨天熄滅更多盞，因此今日情況應屬正常"
+
+#. gaokaoSubjects.language.questions.2.L03.5
+#: src/data/gaokao.js:35
+msgctxt "text:gaokaoSubjects.language.questions.2.L03.5"
+msgid "It records time, direction, total count, and change, allowing later verification."
+msgstr "它標明時間、方向、總數與變化，可被下一位觀察者核對。"
+
+#. gaokaoSubjects.language.questions.3.L04.2
+#: src/data/gaokao.js:39
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.2"
+msgid "For the same minor incident, which headline least presents conjecture as fact?"
+msgstr "同一場小型異變，哪個標題最少把推測寫成事實？"
+
+#. gaokaoSubjects.language.questions.3.L04.3.0
+#: src/data/gaokao.js:40
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.3.0"
+msgid "Mountain works stop campus clocks; university investigates responsibility"
+msgstr "妖怪山工程導致全校時鐘停擺，校方追查責任"
+
+#. gaokaoSubjects.language.questions.3.L04.3.1
+#: src/data/gaokao.js:40
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.3.1"
+msgid "Campus clocks stop; cause remains under investigation"
+msgstr "全校時鐘停擺，原因仍在調查"
+
+#. gaokaoSubjects.language.questions.3.L04.3.2
+#: src/data/gaokao.js:40
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.3.2"
+msgid "Kappa deny changing time settings, so the university rules out equipment failure"
+msgstr "河童否認修改時間設定，校方因此排除設備問題"
+
+#. gaokaoSubjects.language.questions.3.L04.3.3
+#: src/data/gaokao.js:40
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.3.3"
+msgid "The stoppage coincides with a Mountain trial, making the works the sole cause"
+msgstr "停擺恰逢妖怪山試運轉，工程應是唯一原因"
+
+#. gaokaoSubjects.language.questions.3.L04.5
+#: src/data/gaokao.js:41
+msgctxt "text:gaokaoSubjects.language.questions.3.L04.5"
+msgid ""
+"The stoppage is observed, while “under investigation” clearly marks the "
+"cause as unknown."
+msgstr "「停擺」是已知現象，「原因調查中」明確保留未知部分。"
+
+#. gaokaoSubjects.language.questions.4.L05.2
+#: src/data/gaokao.js:45
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.2"
+msgid ""
+"A source reads, “The gate remained but the path was lost; visitors followed "
+"the bell.” What does “lost” chiefly mean here?"
+msgstr "史料寫：「門在而徑亡，客循鈴聲乃至。」其中「亡」最接近下列哪個意思？"
+
+#. gaokaoSubjects.language.questions.4.L05.3.0
+#: src/data/gaokao.js:46
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.3.0"
+msgid "The road was destroyed, forcing visitors to navigate by the bell"
+msgstr "道路遭人破壞，因此旅客只能改聽鈴聲前進"
+
+#. gaokaoSubjects.language.questions.4.L05.3.1
+#: src/data/gaokao.js:46
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.3.1"
+msgid "The road fled its former place but could still be followed by its traces"
+msgstr "道路自行逃離原處，但仍可沿留下的痕跡追趕"
+
+#. gaokaoSubjects.language.questions.4.L05.3.2
+#: src/data/gaokao.js:46
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.3.2"
+msgid "The road vanished and could no longer be followed"
+msgstr "道路消失，已經無法繼續循路前進"
+
+#. gaokaoSubjects.language.questions.4.L05.3.3
+#: src/data/gaokao.js:46
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.3.3"
+msgid "The road was lent elsewhere, requiring visitors to wait for its return"
+msgstr "道路暫借給別處使用，旅客需等待歸還後再通行"
+
+#. gaokaoSubjects.language.questions.4.L05.5
+#: src/data/gaokao.js:47
+msgctxt "text:gaokaoSubjects.language.questions.4.L05.5"
+msgid ""
+"The contrast is between a remaining gate and an untraceable path, so the "
+"sense is disappearance."
+msgstr "上下文以門仍在、路徑不可循形成對比，因此是「消失」。"
+
+#. gaokaoSubjects.language.questions.5.L06.2
+#: src/data/gaokao.js:51
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.2"
+msgid ""
+"Which sequence makes a mistaken campus alert into the most traceable "
+"correction? ① impact scope ② preserve original headline ③ identify error ④ "
+"give correct information and time"
+msgstr "要把錯誤校務快訊改成可追溯的訂正，哪個順序最完整？①說明影響範圍 ②保留原標題 ③標出錯誤 ④提供正確資訊與時間"
+
+#. gaokaoSubjects.language.questions.5.L06.3.0
+#: src/data/gaokao.js:52
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.3.0"
+msgid "②③④①: preserve, identify, give the timed correction, then state scope"
+msgstr "②③④①：先留存原文，再標錯、給出帶時間的正訊息與影響範圍"
+
+#. gaokaoSubjects.language.questions.5.L06.3.1
+#: src/data/gaokao.js:52
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.3.1"
+msgid "④②①③: publish the new information first and identify the error last"
+msgstr "④②①③：先公布新訊息，再補存原文，最後才說哪裡錯"
+
+#. gaokaoSubjects.language.questions.5.L06.3.2
+#: src/data/gaokao.js:52
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.3.2"
+msgid "③①②④: name the error and scope before preserving and correcting"
+msgstr "③①②④：先標錯與影響，再回頭保存原文，最後才訂正"
+
+#. gaokaoSubjects.language.questions.5.L06.3.3
+#: src/data/gaokao.js:52
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.3.3"
+msgid "④①③②: give the update and scope now, preserving the original only afterward"
+msgstr "④①③②：立即給新訊息與影響，待事件結束後才保存原文"
+
+#. gaokaoSubjects.language.questions.5.L06.5
+#: src/data/gaokao.js:53
+msgctxt "text:gaokaoSubjects.language.questions.5.L06.5"
+msgid ""
+"Preserve the original, identify the error, supply corrected dated "
+"information, then state the affected scope."
+msgstr "先保留原文，才能指出改了什麼；再給正確資訊，最後說明誰受影響。"
+
+#. gaokaoSubjects.mathematics.name
+#: src/data/gaokao.js:59
+msgctxt "text:gaokaoSubjects.mathematics.name"
+msgid "Boundary Mathematics"
+msgstr "結界算術"
+
+#. gaokaoSubjects.mathematics.note
+#: src/data/gaokao.js:60
+msgctxt "text:gaokaoSubjects.mathematics.note"
+msgid "Ratios, route networks, lunar cycles, and danmaku geometry"
+msgstr "比例、路網、月相週期與彈幕幾何"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.2
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.2"
+msgid "Using a 29.5-day lunar cycle, about how many complete cycles are 59 days?"
+msgstr "某月相週期以 29.5 日估算。59 日約等於幾個完整週期？"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.3.0
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.3.0"
+msgid "1"
+msgstr "1"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.3.1
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.3.1"
+msgid "1.5"
+msgstr "1.5"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.3.2
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.3.2"
+msgid "2"
+msgstr "2"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.3.3
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.3.3"
+msgid "2.5"
+msgstr "2.5"
+
+#. gaokaoSubjects.mathematics.questions.0.M01.5
+#: src/data/gaokao.js:62
+msgctxt "text:gaokaoSubjects.mathematics.questions.0.M01.5"
+msgid "59 ÷ 29.5 = 2."
+msgstr "59 ÷ 29.5 = 2。"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.2
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.2"
+msgid "A turbine rises from 80 to 100 output units per minute. What is the percentage increase?"
+msgstr "水輪原型每分鐘輸出由 80 單位提高到 100 單位，增幅是多少？"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.3.0
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.3.0"
+msgid "20%"
+msgstr "20%"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.3.1
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.3.1"
+msgid "25%"
+msgstr "25%"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.3.2
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.3.2"
+msgid "40%"
+msgstr "40%"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.3.3
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.3.3"
+msgid "80%"
+msgstr "80%"
+
+#. gaokaoSubjects.mathematics.questions.1.M02.5
+#: src/data/gaokao.js:63
+msgctxt "text:gaokaoSubjects.mathematics.questions.1.M02.5"
+msgid "The increase is 20; 20 ÷ 80 = 25%."
+msgstr "增加 20，以原值 80 為基準：20 ÷ 80 = 25%。"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.2
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.2"
+msgid ""
+"Gate to workshop takes 31 minutes walking. Windway: walk 6, wait 4, ride 12, "
+"walk 5. How many minutes are saved?"
+msgstr "從博麗門到工房：步行 31 分；步行 6 分到風路站、候車 4 分、風路 12 分、再步行 5 分。選風路可節省幾分鐘？"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.3.0
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.3.0"
+msgid "4"
+msgstr "4"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.3.1
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.3.1"
+msgid "5"
+msgstr "5"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.3.2
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.3.2"
+msgid "6"
+msgstr "6"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.3.3
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.3.3"
+msgid "8"
+msgstr "8"
+
+#. gaokaoSubjects.mathematics.questions.2.M03.5
+#: src/data/gaokao.js:64
+msgctxt "text:gaokaoSubjects.mathematics.questions.2.M03.5"
+msgid "The windway total is 27 minutes, saving 31 − 27 = 4."
+msgstr "風路總時間 6+4+12+5=27 分，節省 31−27=4 分。"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.2
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.2"
+msgid ""
+"Three equally spaced bullets are placed in each of eight directions, "
+"excluding the centre. How many bullets?"
+msgstr "八個方向各放 3 枚等距彈幕，不計中心，共有幾枚？"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.3.0
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.3.0"
+msgid "11"
+msgstr "11"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.3.1
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.3.1"
+msgid "16"
+msgstr "16"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.3.2
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.3.2"
+msgid "24"
+msgstr "24"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.3.3
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.3.3"
+msgid "27"
+msgstr "27"
+
+#. gaokaoSubjects.mathematics.questions.3.M04.5
+#: src/data/gaokao.js:65
+msgctxt "text:gaokaoSubjects.mathematics.questions.3.M04.5"
+msgid "8 directions × 3 bullets = 24."
+msgstr "8 個方向 × 每方向 3 枚 = 24 枚。"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.2
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.2"
+msgid ""
+"A prescription is 0.15 units per kilogram for a 48 kg participant. What is "
+"the total dose?"
+msgstr "藥方為每公斤 0.15 單位，受試者質量 48 公斤。總劑量是多少？"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.3.0
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.3.0"
+msgid "6.2"
+msgstr "6.2"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.3.1
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.3.1"
+msgid "7.2"
+msgstr "7.2"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.3.2
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.3.2"
+msgid "8.0"
+msgstr "8.0"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.3.3
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.3.3"
+msgid "32"
+msgstr "32"
+
+#. gaokaoSubjects.mathematics.questions.4.M05.5
+#: src/data/gaokao.js:66
+msgctxt "text:gaokaoSubjects.mathematics.questions.4.M05.5"
+msgid "0.15 × 48 = 7.2; the unit should remain attached in formal work."
+msgstr "0.15 × 48 = 7.2。單位仍應寫在正式答案中。"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.2
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.2"
+msgid "A barrier reflection maps (3, −2) to (−3, −2). Across which line is it reflected?"
+msgstr "結界鏡映把點 (3, −2) 變成 (−3, −2)。這是關於哪一條線的鏡射？"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.3.0
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.3.0"
+msgid "x-axis"
+msgstr "x 軸"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.3.1
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.3.1"
+msgid "y-axis"
+msgstr "y 軸"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.3.2
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.3.2"
+msgid "y=x"
+msgstr "y=x"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.3.3
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.3.3"
+msgid "x=−2"
+msgstr "x=−2"
+
+#. gaokaoSubjects.mathematics.questions.5.M06.5
+#: src/data/gaokao.js:67
+msgctxt "text:gaokaoSubjects.mathematics.questions.5.M06.5"
+msgid "Only x changes sign, so the reflection is across the y-axis."
+msgstr "x 座標變號、y 座標不變，是關於 y 軸的鏡射。"
+
+#. gaokaoSubjects.common.name
+#: src/data/gaokao.js:72
+msgctxt "text:gaokaoSubjects.common.name"
+msgid "Shared Gensokyo Knowledge"
+msgstr "幻想鄉共同常識"
+
+#. gaokaoSubjects.common.note
+#: src/data/gaokao.js:73
+msgctxt "text:gaokaoSubjects.common.note"
+msgid "Rules, campus judgment, incidents, and shared life"
+msgstr "規則、校園判斷、異變與共同生活"
+
+#. gaokaoSubjects.common.questions.0.C01.2
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.2"
+msgid "What is most indispensable before a spell-card contest begins?"
+msgstr "一場符卡式交鋒在開始前最不可缺少的是？"
+
+#. gaokaoSubjects.common.questions.0.C01.3.0
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.3.0"
+msgid "Publish the name and round count, leaving termination to the side with greater firepower"
+msgstr "公布名稱與回合數，勝負結束方式交由火力較高者決定"
+
+#. gaokaoSubjects.common.questions.0.C01.3.1
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.3.1"
+msgid "Have both sides confirm the name, rules, and an exit each can identify"
+msgstr "讓雙方確認名稱、規則，以及各自能辨認的退路"
+
+#. gaokaoSubjects.common.questions.0.C01.3.2
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.3.2"
+msgid "Let the referee hold the full rules while participants know only the start signal"
+msgstr "由裁判保管完整規則，參與者只需知道開始訊號"
+
+#. gaokaoSubjects.common.questions.0.C01.3.3
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.3.3"
+msgid "Set the name and exit first, then write the rules around the opening round"
+msgstr "先指定名稱與退路，第一回合後再依彈幕補寫規則"
+
+#. gaokaoSubjects.common.questions.0.C01.5
+#: src/data/gaokao.js:75
+msgctxt "text:gaokaoSubjects.common.questions.0.C01.5"
+msgid ""
+"These elements make the contest identifiable and endable; raw power does not "
+"create rules."
+msgstr "符卡規則使交鋒可辨認、可結束；單純提高火力不能建立規則。"
+
+#. gaokaoSubjects.common.questions.1.C02.2
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.2"
+msgid "A library book starts flying toward an open window. What is the best first step?"
+msgstr "在霧湖圖書館發現一本會自行飛向窗外的館藏，最合適的第一步是？"
+
+#. gaokaoSubjects.common.questions.1.C02.3.0
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.3.0"
+msgid "Close the window first and identify the book later from memory of its cover"
+msgstr "先關窗阻止飛失，事件結束後再憑封面回想是哪本書"
+
+#. gaokaoSubjects.common.questions.1.C02.3.1
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.3.1"
+msgid "Note the call number, alert staff, and close nearby windows"
+msgstr "記下書號、通知館員，並先關閉鄰近窗戶"
+
+#. gaokaoSubjects.common.questions.1.C02.3.2
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.3.2"
+msgid "Restrain it with the nearest collection seal, then ask whether that seal was compatible"
+msgstr "使用最近的館藏封印壓住書本，再詢問該封印是否相容"
+
+#. gaokaoSubjects.common.questions.1.C02.3.3
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.3.3"
+msgid "Move it into an empty display case for observation without yet alerting staff or readers"
+msgstr "把書移進空展示櫃單獨觀察，暫不驚動館員或其他讀者"
+
+#. gaokaoSubjects.common.questions.1.C02.5
+#: src/data/gaokao.js:76
+msgctxt "text:gaokaoSubjects.common.questions.1.C02.5"
+msgid ""
+"Control the reversible environmental risk, preserve identification, and "
+"involve the responsible staff."
+msgstr "先控制可逆的環境風險並留下識別資訊，再交由熟悉館藏者處理。"
+
+#. gaokaoSubjects.common.questions.2.C03.2
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.2"
+msgid ""
+"A kappa prototype sparks blue while its note says normal sparks are green. "
+"What should you do?"
+msgstr "看到河童原型機冒出藍色火花，但說明紙寫著「正常為綠色」，應如何處理？"
+
+#. gaokaoSubjects.common.questions.2.C03.3.0
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.3.0"
+msgid "Record the blue sparks and continue at low power to see whether they are a new feature"
+msgstr "記錄藍色火花後繼續低功率運轉，以確認是否只是新功能"
+
+#. gaokaoSubjects.common.questions.2.C03.3.1
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.3.1"
+msgid "Stop operation, preserve the scene, and notify workshop duty staff"
+msgstr "停止操作、保留現場，並通知工房值班者"
+
+#. gaokaoSubjects.common.questions.2.C03.3.2
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.3.2"
+msgid "Remove power and casing immediately, documenting the original state afterward"
+msgstr "立即拆除電源與外殼，先消除危險再補拍原始狀態"
+
+#. gaokaoSubjects.common.questions.2.C03.3.3
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.3.3"
+msgid "Quarantine the machine and revise the normal colour to blue pending the next shift"
+msgstr "隔離機器並把正常火花改記為藍色，等待下一班覆核"
+
+#. gaokaoSubjects.common.questions.2.C03.5
+#: src/data/gaokao.js:77
+msgctxt "text:gaokaoSubjects.common.questions.2.C03.5"
+msgid "The colour differs from the documented normal state; stop before rewriting the standard."
+msgstr "顏色偏離既定狀態是可觀察的異常；先停機比改寫標準安全。"
+
+#. gaokaoSubjects.common.questions.3.C04.2
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.2"
+msgid ""
+"A misleading headline was written by the corrections lecturer. What is the "
+"soundest response?"
+msgstr "新聞標題已造成誤解，作者同時是訂正課教師。最合理的處理是？"
+
+#. gaokaoSubjects.common.questions.3.C04.3.0
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.3.0"
+msgid "Correct the facts publicly but omit the author's role to avoid personalizing the issue"
+msgstr "公開更正事實，但不提作者身分，以免把訂正變成私人爭議"
+
+#. gaokaoSubjects.common.questions.3.C04.3.1
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.3.1"
+msgid "Publish a correction and record the author's conflict of interest in the case"
+msgstr "公開訂正，並把作者的利益衝突寫進案例紀錄"
+
+#. gaokaoSubjects.common.questions.3.C04.3.2
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.3.2"
+msgid "Wait for internal review, then silently replace the original headline"
+msgstr "先讓校內委員會審查，再以無痕更新取代原標題"
+
+#. gaokaoSubjects.common.questions.3.C04.3.3
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.3.3"
+msgid "Retain the headline and disclose the author's role, leaving credibility to readers"
+msgstr "保留原標題並公開作者身分，讓讀者自行判斷是否可信"
+
+#. gaokaoSubjects.common.questions.3.C04.5
+#: src/data/gaokao.js:78
+msgctxt "text:gaokaoSubjects.common.questions.3.C04.5"
+msgid ""
+"Her institutional role increases the need for a visible correction and "
+"conflict disclosure; it does not waive it."
+msgstr "角色身分正是需要可見訂正與利益衝突說明的原因，不是豁免。"
+
+#. gaokaoSubjects.common.questions.4.C05.2
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.2"
+msgid "On a full-moon clinic visit, the main corridor is closed. Which route should be used?"
+msgstr "滿月夜前往永遠亭門診，校園詳圖提示本館直廊封閉。應選哪條路？"
+
+#. gaokaoSubjects.common.questions.4.C05.3.0
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.3.0"
+msgid "Take the Main House corridor because the clinic remains in the same complex"
+msgstr "沿本館直廊到診療所，因為目的地仍在同一建築群"
+
+#. gaokaoSubjects.common.questions.4.C05.3.1
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.3.1"
+msgid "Follow full-moon diversion from Main House through Pharmacy to the Clinic"
+msgstr "依滿月分流，由本館經調劑室前往診療所"
+
+#. gaokaoSubjects.common.questions.4.C05.3.2
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.3.2"
+msgid "Wait at Yesterday's Clearing and infer the clinic direction from the campus bell"
+msgstr "先到昨日的空地等校鐘，再由聲音反推診療所方向"
+
+#. gaokaoSubjects.common.questions.4.C05.3.3
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.3.3"
+msgid ""
+"Bypass the corridor via the fourth lantern, treating night signals as "
+"fresher than the map"
+msgstr "沿第四盞燈繞過直廊，因為夜間燈號比詳圖更新更快"
+
+#. gaokaoSubjects.common.questions.4.C05.5
+#: src/data/gaokao.js:79
+msgctxt "text:gaokaoSubjects.common.questions.4.C05.5"
+msgid "Full-moon flow diverts through Pharmacy; a fourth lantern is not reliable guidance."
+msgstr "滿月管制把門診人流經調劑室分流；第四盞燈不屬於可靠夜間指引。"
+
+#. gaokaoSubjects.common.questions.5.C06.2
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.2"
+msgid ""
+"Yukari moves a classroom “between presence and absence.” What should a "
+"student verify first?"
+msgstr "八雲紫把教室移到「出席與缺席之間」。學生首先應確認哪一項？"
+
+#. gaokaoSubjects.common.questions.5.C06.3.0
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.3.0"
+msgid "Whether policy definitions of class location and attendance cover such an address"
+msgstr "規章中的上課位置與出席定義是否涵蓋這種地址"
+
+#. gaokaoSubjects.common.questions.5.C06.3.1
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.3.1"
+msgid "Which side the teacher names as the room, using that declaration in place of policy"
+msgstr "教師口頭指定哪一側為教室，以該側暫代正式規章"
+
+#. gaokaoSubjects.common.questions.5.C06.3.2
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.3.2"
+msgid "Whether the campus router currently classifies the signal as on or off campus"
+msgstr "校園路由器目前把訊號判定在校內還是校外"
+
+#. gaokaoSubjects.common.questions.5.C06.3.3
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.3.3"
+msgid "Whether the roll marks the student absent, then use that result to define the location"
+msgstr "課後點名是否把學生記為缺席，再依結果決定位置"
+
+#. gaokaoSubjects.common.questions.5.C06.5
+#: src/data/gaokao.js:80
+msgctxt "text:gaokaoSubjects.common.questions.5.C06.5"
+msgid ""
+"The issue turns on institutional definitions of location and attendance; "
+"inspect those boundaries first."
+msgstr "這個事件的核心是制度對位置與出席的定義邊界；先讀定義才能判斷漏洞。"
+
+#. gaokaoSubjects.humanities.name
+#: src/data/gaokao.js:85
+msgctxt "text:gaokaoSubjects.humanities.name"
+msgid "Humanities Comprehensive"
+msgstr "文科綜合"
+
+#. gaokaoSubjects.humanities.note
+#: src/data/gaokao.js:86
+msgctxt "text:gaokaoSubjects.humanities.note"
+msgid "History, geography, journalism, faith, and public life"
+msgstr "歷史、地理、新聞與信仰公共生活"
+
+#. gaokaoSubjects.humanities.questions.0.H01.2
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.2"
+msgid "Three sources disagree on an incident date. What is the best historical method?"
+msgstr "三份史料對同一異變日期不一致。最好的歷史研究方法是？"
+
+#. gaokaoSubjects.humanities.questions.0.H01.3.0
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.3.0"
+msgid "Convert all dates to one calendar, then average them into an incident date"
+msgstr "先統一成同一曆法，再把三個日期平均為事件日期"
+
+#. gaokaoSubjects.humanities.questions.0.H01.3.1
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.3.1"
+msgid "Compare composition date, author position, and the calendar each source used"
+msgstr "比較成文時間、作者位置與各自使用的曆法"
+
+#. gaokaoSubjects.humanities.questions.0.H01.3.2
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.3.2"
+msgid "Prefer the earliest composition because it is less exposed to later memory"
+msgstr "優先採用最早成文者，因為較少受到後世記憶影響"
+
+#. gaokaoSubjects.humanities.questions.0.H01.3.3
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.3.3"
+msgid "Exclude the latest source until its date can be made to agree with the other two"
+msgstr "暫時排除最晚史料，待其日期與前兩份一致再納入"
+
+#. gaokaoSubjects.humanities.questions.0.H01.5
+#: src/data/gaokao.js:88
+msgctxt "text:gaokaoSubjects.humanities.questions.0.H01.5"
+msgid "The disagreement is evidence; source conditions and calendars can explain how it arose."
+msgstr "差異本身是證據；來源條件與曆法能解釋差異如何形成。"
+
+#. gaokaoSubjects.humanities.questions.1.H02.2
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.2"
+msgid ""
+"Shrine, temple, and hermitage contest one public-event budget. Which plan "
+"best demonstrates public negotiation?"
+msgstr "神社、寺院與道觀爭用同一筆公共活動預算。哪個方案最能顯示真正的公共協商？"
+
+#. gaokaoSubjects.humanities.questions.1.H02.3.0
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.3.0"
+msgid "Split the budget equally first and require each party to fit its aims to that share"
+msgstr "先平均分配，要求三方把不同目的調整到相同額度內"
+
+#. gaokaoSubjects.humanities.questions.1.H02.3.1
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.3.1"
+msgid "Publish each party's aims, non-negotiables, shared costs, and remaining dissent"
+msgstr "公開各方目的、不可讓步處、共同設施成本與仍存異議"
+
+#. gaokaoSubjects.humanities.questions.1.H02.3.2
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.3.2"
+msgid "Weight funding by forecast attendance and publish only the adopted plan"
+msgstr "依預估參加人數加權分配，最後公告只列通過的方案"
+
+#. gaokaoSubjects.humanities.questions.1.H02.3.3
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.3.3"
+msgid "Draw lots among complete proposals and deny shared facilities to the losing parties"
+msgstr "三方各提完整方案後抽籤，落選者不得再要求共同設施"
+
+#. gaokaoSubjects.humanities.questions.1.H02.5
+#: src/data/gaokao.js:89
+msgctxt "text:gaokaoSubjects.humanities.questions.1.H02.5"
+msgid ""
+"Negotiation makes resources, positions, and unresolved dissent visible "
+"instead of pretending conflict vanished."
+msgstr "協商不是假裝沒有衝突，而是讓資源、立場與未解決異議可見。"
+
+#. gaokaoSubjects.humanities.questions.2.H03.2
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.2"
+msgid ""
+"The Bamboo Forest shifts daily while Eientei's gate is relatively stable. "
+"How should a map represent this?"
+msgstr "迷途竹林地圖每天偏移，但永遠亭表門相對穩定。製圖時應如何表示？"
+
+#. gaokaoSubjects.humanities.questions.2.H03.3.0
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.3.0"
+msgid "Draw the latest surveyed paths as solid lines and use the gate only for orientation"
+msgstr "把最近測得的路徑畫成實線，表門則只作方向參考"
+
+#. gaokaoSubjects.humanities.questions.2.H03.3.1
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.3.1"
+msgid "Distinguish fixed anchors from conditional routes and timestamp each layer"
+msgstr "區分固定錨點、條件路徑，並標示每層的更新時間"
+
+#. gaokaoSubjects.humanities.questions.2.H03.3.2
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.3.2"
+msgid "Print only each day's routes so fixed anchors do not create false confidence"
+msgstr "只畫每日路徑並每天重印，以免固定錨點造成過度信任"
+
+#. gaokaoSubjects.humanities.questions.2.H03.3.3
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.3.3"
+msgid "Keep scale and gate, placing all route uncertainty in a note below the map"
+msgstr "保留比例尺與表門，把竹林的不確定性統一寫在圖下注記"
+
+#. gaokaoSubjects.humanities.questions.2.H03.5
+#: src/data/gaokao.js:90
+msgctxt "text:gaokaoSubjects.humanities.questions.2.H03.5"
+msgid ""
+"Conditional geography must communicate stability and freshness, not disguise "
+"temporary routes as fixed."
+msgstr "條件地理需要同時表達穩定程度與資料時效，不能把暫時路徑偽裝成固定。"
+
+#. gaokaoSubjects.humanities.questions.3.H04.2
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.2"
+msgid ""
+"Keine distinguishes what happened, what was recorded, and what was permitted "
+"to remain remembered. Which relation is closest?"
+msgstr "慧音的課要求區分「發生、記錄、被允許記得」。這三者的關係最接近？"
+
+#. gaokaoSubjects.humanities.questions.3.H04.3.0
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.3.0"
+msgid "If two agree, a majority can reconstruct the single event that occurred"
+msgstr "三者若有兩項一致，就可用多數決還原唯一發生過的版本"
+
+#. gaokaoSubjects.humanities.questions.3.H04.3.1
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.3.1"
+msgid "Records and memory can both be shaped by power, media selection, and loss"
+msgstr "記錄與記憶都可能受到權力、媒介選擇與遺失影響"
+
+#. gaokaoSubjects.humanities.questions.3.H04.3.2
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.3.2"
+msgid "The earliest surviving record is closest to the event, and silence indicates absence"
+msgstr "最早留下的記錄最接近發生本身，沉默可視為事件不存在"
+
+#. gaokaoSubjects.humanities.questions.3.H04.3.3
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.3.3"
+msgid ""
+"Long-corrected public memory is more reliable than contemporary records and "
+"can adjudicate the event"
+msgstr "公共記憶經長期修正後比當時記錄可靠，可反過來裁定事件"
+
+#. gaokaoSubjects.humanities.questions.3.H04.5
+#: src/data/gaokao.js:92
+msgctxt "text:gaokaoSubjects.humanities.questions.3.H04.5"
+msgid ""
+"Historical method studies selections and losses between event, record, and "
+"public memory."
+msgstr "歷史方法要分析從事件到記錄、再到公共記憶的選擇與損失。"
+
+#. gaokaoSubjects.humanities.questions.4.H05.2
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.2"
+msgid ""
+"Aya publishes the headline first and verifies later. What is the largest "
+"institutional risk?"
+msgstr "Aya 為搶速報先刊標題、後補查證。這個做法最大的制度風險是？"
+
+#. gaokaoSubjects.humanities.questions.4.H05.3.0
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.3.0"
+msgid "Readers may mistake the revised headline for a separate new incident"
+msgstr "讀者可能把後來改寫的標題誤認為另一場新事件"
+
+#. gaokaoSubjects.humanities.questions.4.H05.3.1
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.3.1"
+msgid "Campus units may act on the error before correction can reverse its effects"
+msgstr "校內單位可能依錯誤行動，訂正無法自動撤回其後果"
+
+#. gaokaoSubjects.humanities.questions.4.H05.3.2
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.3.2"
+msgid "Other papers may repeat the headline without preserving its original layout"
+msgstr "其他報紙可能轉載原標題，卻不保留其最初版面格式"
+
+#. gaokaoSubjects.humanities.questions.4.H05.3.3
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.3.3"
+msgid "The author may spend class time explaining the correction, reducing regular instruction"
+msgstr "作者之後必須用課堂時間說明訂正，減少正常授課時數"
+
+#. gaokaoSubjects.humanities.questions.4.H05.5
+#: src/data/gaokao.js:93
+msgctxt "text:gaokaoSubjects.humanities.questions.4.H05.5"
+msgid ""
+"A later correction cannot automatically reverse evacuations, accusations, or "
+"resource decisions already made."
+msgstr "事後訂正不能自動撤回已發生的疏散、指控或資源配置。"
+
+#. gaokaoSubjects.humanities.questions.5.H06.2
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.2"
+msgid ""
+"The Hakurei donation box repeatedly leaves campus. Which research question "
+"is most analytical?"
+msgstr "博麗神社捐款箱常被搬離校園。若要研究此事，哪個問題最有分析力？"
+
+#. gaokaoSubjects.humanities.questions.5.H06.3.0
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.3.0"
+msgid "Whether the box initiates movement or is carried by the last person touching it"
+msgstr "移動是否由箱子自行開始，還是由最後接觸者搬動"
+
+#. gaokaoSubjects.humanities.questions.5.H06.3.1
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.3.1"
+msgid "How shrine and university rules of ownership, purpose, and location conflict"
+msgstr "神社與大學的所有權、用途和所在規則如何互相衝突"
+
+#. gaokaoSubjects.humanities.questions.5.H06.3.2
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.3.2"
+msgid "Whether red containers leave their assigned locations more often than others"
+msgstr "紅色容器是否比其他顏色容器更常離開原來位置"
+
+#. gaokaoSubjects.humanities.questions.5.H06.3.3
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.3.3"
+msgid "Whether the last person holding the box should count as its lawful owner"
+msgstr "最後持有捐款箱的人是否應被視為當時的合法所有者"
+
+#. gaokaoSubjects.humanities.questions.5.H06.5
+#: src/data/gaokao.js:94
+msgctxt "text:gaokaoSubjects.humanities.questions.5.H06.5"
+msgid ""
+"It locates the recurring event in competing institutional claims instead of "
+"ending with personification."
+msgstr "它把反覆事件放回兩個制度的權利主張，而不是把物件人格化後停止分析。"
+
+#. gaokaoSubjects.science.name
+#: src/data/gaokao.js:99
+msgctxt "text:gaokaoSubjects.science.name"
+msgid "Sciences Comprehensive"
+msgstr "理科綜合"
+
+#. gaokaoSubjects.science.note
+#: src/data/gaokao.js:100
+msgctxt "text:gaokaoSubjects.science.note"
+msgid "Magic experiments, hydropower, optics, pharmacology, and measurement"
+msgstr "魔法實驗、水力、光學、藥理與量測"
+
+#. gaokaoSubjects.science.questions.0.S01.2
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.2"
+msgid "Which design best isolates the effect of two starlight-magic materials?"
+msgstr "比較兩種星光魔法材料時，哪個設計最能判斷材料造成的差異？"
+
+#. gaokaoSubjects.science.questions.0.S01.3.0
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.3.0"
+msgid "Keep caster and site fixed, but use the spell best suited to each material"
+msgstr "保持施術者與場地相同，讓每種材料使用最適合自己的咒式"
+
+#. gaokaoSubjects.science.questions.0.S01.3.1
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.3.1"
+msgid "Keep caster, spell, distance, and instrument fixed; change only material"
+msgstr "保持施術者、咒式、距離與量測器相同，只替換材料"
+
+#. gaokaoSubjects.science.questions.0.S01.3.2
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.3.2"
+msgid "Keep spell and instrument fixed, testing each material at its usual site"
+msgstr "保持咒式與量測器相同，在兩個最常使用各材料的場地測試"
+
+#. gaokaoSubjects.science.questions.0.S01.3.3
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.3.3"
+msgid "Alternate materials, but let the caster adjust distance and dose after seeing each one"
+msgstr "交替測試兩種材料，但允許施術者依外觀調整距離與劑量"
+
+#. gaokaoSubjects.science.questions.0.S01.5
+#: src/data/gaokao.js:102
+msgctxt "text:gaokaoSubjects.science.questions.0.S01.5"
+msgid ""
+"Controlling other variables lets the observed difference be attributed "
+"chiefly to material."
+msgstr "控制其他變量，才能把觀察差異主要歸於材料。"
+
+#. gaokaoSubjects.science.questions.1.S02.2
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.2"
+msgid ""
+"If the shorter-wavelength guide signal scatters more strongly in mist, what "
+"practical effect is likely?"
+msgstr "月光指引使用兩種波長。若短波訊號在霧中散射更強，實務上可能造成什麼？"
+
+#. gaokaoSubjects.science.questions.1.S02.3.0
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.3.0"
+msgid "Both near and far views brighten, so directional judgment improves throughout"
+msgstr "近處與遠處都更亮，因此方向判讀也會同步改善"
+
+#. gaokaoSubjects.science.questions.1.S02.3.1
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.3.1"
+msgid ""
+"The nearby glow brightens while distant direct signal and direction become "
+"harder to resolve"
+msgstr "近處光暈更亮，但遠方直達訊號與方向更難辨認"
+
+#. gaokaoSubjects.science.questions.1.S02.3.2
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.3.2"
+msgid "Nearby brightness falls while scattering concentrates more signal into distant outlines"
+msgstr "近處亮度降低，但散射把更多訊號集中到遠方輪廓"
+
+#. gaokaoSubjects.science.questions.1.S02.3.3
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.3.3"
+msgid "Mist changes only perceived colour and leaves arrival-direction information unchanged"
+msgstr "霧只改變觀察到的顏色，不會影響訊號到達方向的資訊"
+
+#. gaokaoSubjects.science.questions.1.S02.5
+#: src/data/gaokao.js:103
+msgctxt "text:gaokaoSubjects.science.questions.1.S02.5"
+msgid ""
+"Stronger scattering brightens the near haze while weakening directional "
+"light from farther away."
+msgstr "較強散射會增加近場亮度與霧幕，同時削弱直達的方向資訊。"
+
+#. gaokaoSubjects.science.questions.2.S03.2
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.2"
+msgid "A turbine loses output while head remains constant. What should be measured first?"
+msgstr "在落差不變時，水輪輸出明顯下降。最先應量測哪一項？"
+
+#. gaokaoSubjects.science.questions.2.S03.3.0
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.3.0"
+msgid "Remeasure head and, if unchanged, attribute the loss to measurement error"
+msgstr "再測一次落差，若仍相同就把下降歸因於量測誤差"
+
+#. gaokaoSubjects.science.questions.2.S03.3.1
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.3.1"
+msgid "Measure actual flow and inspect the runner for blockage"
+msgstr "量測實際流量，並檢查葉輪是否有阻塞"
+
+#. gaokaoSubjects.science.questions.2.S03.3.2
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.3.2"
+msgid "Compare output with lunar records to see whether both declined together"
+msgstr "比較輸出表與月相紀錄，先檢查兩者是否同時下降"
+
+#. gaokaoSubjects.science.questions.2.S03.3.3
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.3.3"
+msgid "Increase input flow until output recovers, then infer efficiency from the added flow"
+msgstr "提高輸入流量直到輸出恢復，再用所需增量判定效率"
+
+#. gaokaoSubjects.science.questions.2.S03.5
+#: src/data/gaokao.js:104
+msgctxt "text:gaokaoSubjects.science.questions.2.S03.5"
+msgid ""
+"Hydraulic power depends on flow; with head fixed, reduced flow or mechanical "
+"blockage are direct candidates."
+msgstr "水力輸出與流量相關；落差固定時，流量下降或機械阻塞是直接候選原因。"
+
+#. gaokaoSubjects.science.questions.3.S04.2
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.2"
+msgid "When studying full-moon effects on spatial judgment, which comparison is most important?"
+msgstr "研究滿月對空間判斷的影響，哪個對照最重要？"
+
+#. gaokaoSubjects.science.questions.3.S04.3.0
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.3.0"
+msgid "Use the same participants on an easier full-moon route to reduce navigation risk"
+msgstr "同一批參與者在滿月夜改走較簡單路段，以降低迷路風險"
+
+#. gaokaoSubjects.science.questions.3.S04.3.1
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.3.1"
+msgid "Comparable participants on the same route at a similar time under a non-full moon"
+msgstr "同類參與者在非滿月、相近時間走相同路段的表現"
+
+#. gaokaoSubjects.science.questions.3.S04.3.2
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.3.2"
+msgid ""
+"Use different participants on another route in non-full-moon daylight for a "
+"clear baseline"
+msgstr "不同參與者在非滿月白天走另一條路，以取得清楚基準"
+
+#. gaokaoSubjects.science.questions.3.S04.3.3
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.3.3"
+msgid ""
+"Repeat the full-moon route with the same participants to estimate average "
+"practice effects"
+msgstr "同一批參與者在滿月夜重走多次，以估計平均熟練效果"
+
+#. gaokaoSubjects.science.questions.3.S04.5
+#: src/data/gaokao.js:105
+msgctxt "text:gaokaoSubjects.science.questions.3.S04.5"
+msgid ""
+"The comparison should chiefly vary lunar phase while holding time, route, "
+"and participant conditions similar."
+msgstr "對照要盡量只改變月相，保留時間、路段與參與者條件。"
+
+#. gaokaoSubjects.science.questions.4.S05.2
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.2"
+msgid ""
+"Marisa reproduces an explosion precisely, but records the material source "
+"only as “found in the forest.” What is most impaired?"
+msgstr "魔理沙能精確重現爆炸，但材料來源只寫「森林裡撿的」。這最妨礙哪一項？"
+
+#. gaokaoSubjects.science.questions.4.S05.3.0
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.3.0"
+msgid "Determining whether exactly the same casting motions were used each time"
+msgstr "判斷每次爆炸是否使用了完全相同的施術動作"
+
+#. gaokaoSubjects.science.questions.4.S05.3.1
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.3.1"
+msgid ""
+"Enabling others to obtain equivalent material for an interpretable "
+"independent replication"
+msgstr "讓他人取得等同材料，並進行可判定的獨立重現"
+
+#. gaokaoSubjects.science.questions.4.S05.3.2
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.3.2"
+msgid "Comparing whether blast brightness correlates with flight speed"
+msgstr "比較爆炸當下亮度與飛行速度之間是否具有相關性"
+
+#. gaokaoSubjects.science.questions.4.S05.3.3
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.3.3"
+msgid "Establishing whether forest material succeeds more often than library samples"
+msgstr "確認森林中的材料是否比圖書館樣本更容易成功"
+
+#. gaokaoSubjects.science.questions.4.S05.5
+#: src/data/gaokao.js:106
+msgctxt "text:gaokaoSubjects.science.questions.4.S05.5"
+msgid ""
+"Repeatable procedure is not traceable material; provenance is needed to "
+"establish equivalence for independent replication."
+msgstr "操作可重複不等於材料可追溯；來源不足使獨立重現無法判定等同性。"
+
+#. gaokaoSubjects.science.questions.5.S06.2
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.2"
+msgid ""
+"A bamboo navigator is accurate by day but drifts toward a fourth lantern at "
+"night. What is the best next step?"
+msgstr "竹林導航器在白天準確、夜間頻繁偏向第四盞燈。最有效的下一步是？"
+
+#. gaokaoSubjects.science.questions.5.S06.3.0
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.3.0"
+msgid "Retain the night data and designate the fourth lantern as the official night destination"
+msgstr "保留夜間資料，將第四盞燈正式標為夜間替代目的地"
+
+#. gaokaoSubjects.science.questions.5.S06.3.1
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.3.1"
+msgid "Record sensor spectrum, lamp count, and time; run shielded and three-lamp controls"
+msgstr "記錄感測器光譜、燈數與時間，做遮光及三燈對照"
+
+#. gaokaoSubjects.science.questions.5.S06.3.2
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.3.2"
+msgid "Compare mean day and night error and infer forest movement if night error is larger"
+msgstr "比較白天與夜間平均誤差，若夜間較大就判定竹林移動"
+
+#. gaokaoSubjects.science.questions.5.S06.3.3
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.3.3"
+msgid "Increase announcement volume and retest whether the navigator ignored instructions"
+msgstr "提高語音播報音量並重測，以檢查導航器是否忽略指令"
+
+#. gaokaoSubjects.science.questions.5.S06.5
+#: src/data/gaokao.js:107
+msgctxt "text:gaokaoSubjects.science.questions.5.S06.5"
+msgid ""
+"The failure correlates with night lighting; measurements and controls can "
+"separate sensor interference from route movement."
+msgstr "問題與夜間光源相關；量測並設對照能區分感測器干擾與路徑本身變動。"
+
+#. gaokaoTracks.humanities.name
+#: src/data/gaokao.js:115
+msgctxt "text:gaokaoTracks.humanities.name"
+msgid "Humanities Track"
+msgstr "文科組"
+
+#. gaokaoTracks.science.name
+#: src/data/gaokao.js:120
+msgctxt "text:gaokaoTracks.science.name"
+msgid "Sciences Track"
+msgstr "理科組"
+
+#. gaokaoDifficulties.normal.description
+#: src/data/gaokao.js:137
+msgctxt "text:gaokaoDifficulties.normal.description"
+msgid ""
+"Foundation · 24 questions. Read the notices, calculate the route, and do not "
+"follow the fourth lantern."
+msgstr "基礎卷 · 24 題。讀懂告示、算清路程，別跟第四盞燈走。"
+
+#. gaokaoDifficulties.hard.description
+#: src/data/gaokao.js:143
+msgctxt "text:gaokaoDifficulties.hard.description"
+msgid "Source paper · 12 questions. Every item combines at least two records or conditions."
+msgstr "材料卷 · 12 題。每題都要合併兩項以上的記錄或條件。"
+
+#. gaokaoDifficulties.lunatic.description
+#: src/data/gaokao.js:149
+msgctxt "text:gaokaoDifficulties.lunatic.description"
+msgid ""
+"Cross-source reasoning · 12 questions. Lunar phases, versions, route graphs, "
+"and conflicting testimony arrive together."
+msgstr "交叉判讀 · 12 題。月相、版本、路網與互相打架的證詞會同時出現。"
+
+#. gaokaoDifficulties.extra.description
+#: src/data/gaokao.js:155
+msgctxt "text:gaokaoDifficulties.extra.description"
+msgid ""
+"Incident paper · 12 questions. Trace data generation, fault timelines, and "
+"identifiable causal designs."
+msgstr "事件卷 · 12 題。追查資料生成、故障時間線與可識別的因果設計。"

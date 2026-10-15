@@ -1,0 +1,1632 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. employmentJobs.0.0.0.employer
+#: src/data/employment.js:46
+msgctxt "text:employmentJobs.0.0.0.employer"
+msgid "Scarlet Mansion Household & Time Office"
+msgstr "紅魔館 家政與時間管理室"
+
+#. employmentJobs.0.0.0.title
+#: src/data/employment.js:47
+msgctxt "text:employmentJobs.0.0.0.title"
+msgid "Zero-minute night maid & fairy-colleague recovery clerk"
+msgstr "零分鐘夜班女僕暨妖精同事回收員"
+
+#. employmentJobs.0.0.0.summary
+#: src/data/employment.js:54
+msgctxt "text:employmentJobs.0.0.0.summary"
+msgid ""
+"Dinner, broken windows, and the vampire's morning must occur in order; the "
+"duty chief decides separately whether time elapsed."
+msgstr "晚宴、破窗與吸血鬼的清晨必須依序完成；時間是否經過由值班長另行決定。"
+
+#. employmentJobs.0.0.0.duty
+#: src/data/employment.js:55
+msgctxt "text:employmentJobs.0.0.0.duty"
+msgid ""
+"Polish silver, recover fairy maids collapsed beside tea trays, and file "
+"three broken windows in one minute as separate incidents."
+msgstr "整理銀器、追回睡倒在茶盤旁的妖精女僕，並把同一分鐘內的三次破窗分成三份事故單。"
+
+#. employmentJobs.0.0.0.pay
+#: src/data/employment.js:56
+msgctxt "text:employmentJobs.0.0.0.pay"
+msgid ""
+"Room, board, and uniform. Pay by negotiation with the mistress. Stopped time "
+"counts as neither overtime nor rest."
+msgstr "衣食住完備；制服支給；薪資與館主協商，停止的時間不計加班也不扣休息。"
+
+#. employmentJobs.0.0.0.clause
+#: src/data/employment.js:57
+msgctxt "text:employmentJobs.0.0.0.clause"
+msgid ""
+"Applicants may not cite “zero minutes” as no work. The mansion may not cite "
+"it as no pay. The latter sentence remains circled in red."
+msgstr "應徵者不得以「零分鐘」主張沒有上班；館方亦不得以此主張沒有發薪。後半句目前被紅筆圈住。"
+
+#. employmentJobs.0.0.0.trial
+#: src/data/employment.js:58
+msgctxt "text:employmentJobs.0.0.0.trial"
+msgid ""
+"Set tea before one sugar cube falls, and ensure at least one fairy colleague "
+"remembers clocking out."
+msgstr "在一枚砂糖落下前完成茶席，並讓至少一名妖精同事記得自己下班。"
+
+#. employmentJobs.0.0.0.reply
+#: src/data/employment.js:59
+msgctxt "text:employmentJobs.0.0.0.reply"
+msgid ""
+"Sakuya reserved minute zero for interview. Meiling says falling asleep at "
+"the gate can count as check-in."
+msgstr "咲夜已替你保留面談的第零分鐘；美鈴說如果你在門口睡著，她可以作證那算報到。"
+
+#. employmentJobs.0.1.0.employer
+#: src/data/employment.js:65
+msgctxt "text:employmentJobs.0.1.0.employer"
+msgid "Kappa Cooperative Workshop"
+msgstr "河童工程共同工房"
+
+#. employmentJobs.0.1.0.title
+#: src/data/employment.js:66
+msgctxt "text:employmentJobs.0.1.0.title"
+msgid "Day-129 temporary repair & tool-colleague engineer"
+msgstr "第 129 日臨時維修暨工具同事關係技師"
+
+#. employmentJobs.0.1.0.summary
+#: src/data/employment.js:73
+msgctxt "text:employmentJobs.0.1.0.summary"
+msgid ""
+"The turbine normally smokes; if it does not, check whether it stopped. Tape "
+"colour marks versions unless Nitori changed that yesterday."
+msgstr "水輪通常冒煙；不冒煙時先檢查是不是停了。膠帶顏色代表版本，除非荷取昨天改過。"
+
+#. employmentJobs.0.1.0.duty
+#: src/data/employment.js:74
+msgctxt "text:employmentJobs.0.1.0.duty"
+msgid ""
+"Calibrate incompatible gauges, log leak speed, and decide whether an "
+"overtime-claiming wrench is equipment, colleague, or witness."
+msgstr "校準不相容儀表、記錄漏水速度，並在扳手提出加班申請時判斷它是工具、同事還是證人。"
+
+#. employmentJobs.0.1.0.pay
+#: src/data/employment.js:75
+msgctxt "text:employmentJobs.0.1.0.pay"
+msgid ""
+"Yen, cucumbers, and patent credit are settled separately. One identifiable "
+"post-explosion part may be taken home."
+msgstr "日圓、黃瓜與專利署名分欄結算；爆炸後仍能辨認的零件可帶走一件。"
+
+#. employmentJobs.0.1.0.clause
+#: src/data/employment.js:76
+msgctxt "text:employmentJobs.0.1.0.clause"
+msgid ""
+"“Temporary” describes the repair, not employment. Renewal on day 130 "
+"requires one more tape layer."
+msgstr "『臨時』只描述維修，不描述雇用；第 130 日須重新貼一層膠帶才能續約。"
+
+#. employmentJobs.0.1.0.trial
+#: src/data/employment.js:77
+msgctxt "text:employmentJobs.0.1.0.trial"
+msgid ""
+"Make three mutually hostile gauges agree which is most wrong; do not call "
+"their average a repair."
+msgstr "讓三個互不相認的壓力表同意哪一個最錯；不得把平均值稱為修好。"
+
+#. employmentJobs.0.1.0.reply
+#: src/data/employment.js:78
+msgctxt "text:employmentJobs.0.1.0.reply"
+msgid ""
+"Nitori finds your odd résumé dismantle-worthy and scheduled a trial at the "
+"next controllable leak."
+msgstr "荷取認為你的怪歷書有可拆解價值，已安排在下次可控漏水時試工。"
+
+#. employmentJobs.0.2.0.employer
+#: src/data/employment.js:84
+msgctxt "text:employmentJobs.0.2.0.employer"
+msgid "Sanzu Queue Appeals Office"
+msgstr "三途川待列不服申立處"
+
+#. employmentJobs.0.2.0.title
+#: src/data/employment.js:85
+msgctxt "text:employmentJobs.0.2.0.title"
+msgid "Posthumous queue appeals clerk & relief ferryperson"
+msgstr "死後排隊申訴員暨渡船候補"
+
+#. employmentJobs.0.2.0.summary
+#: src/data/employment.js:92
+msgctxt "text:employmentJobs.0.2.0.summary"
+msgid ""
+"Handle the dead, not-yet-dead, disputed death dates, and applicants born "
+"after receiving a queue number."
+msgstr "辦理已死、尚未死、死亡日期有異議，以及拿到號碼牌後才出生的申請人。"
+
+#. employmentJobs.0.2.0.duty
+#: src/data/employment.js:93
+msgctxt "text:employmentJobs.0.2.0.duty"
+msgid ""
+"Check coins, hear queue appeals, and leave traceable reasons for the half of "
+"the route Komachi did not row."
+msgstr "核對銅錢、聽取排隊異議、替小町沒划完的半程留下可追溯理由。"
+
+#. employmentJobs.0.2.0.pay
+#: src/data/employment.js:94
+msgctxt "text:employmentJobs.0.2.0.pay"
+msgid ""
+"Paid per crossing, soul, or surviving queue ticket. Passage priority may not "
+"be resold to your not-yet-dead self."
+msgstr "按趟、按魂或按仍存在的號碼牌擇一；渡河優先權不得轉售給尚未死亡的自己。"
+
+#. employmentJobs.0.2.0.clause
+#: src/data/employment.js:95
+msgctxt "text:employmentJobs.0.2.0.clause"
+msgid ""
+"Late fees begin one day before death; successful appeals may convert one day "
+"into a chronology dispute."
+msgstr "遲到費自死亡前一日開始計算；申訴成功者可把其中一天改成『年代爭議』。"
+
+#. employmentJobs.0.2.0.trial
+#: src/data/employment.js:96
+msgctxt "text:employmentJobs.0.2.0.trial"
+msgid ""
+"Before Eiki finishes asking, explain whether a half-phantom queues once, "
+"twice, or makes the queue admit miscounting."
+msgstr "在映姬問完前說清楚半靈應排一列、兩列，還是讓隊伍自己承認數錯。"
+
+#. employmentJobs.0.2.0.reply
+#: src/data/employment.js:97
+msgctxt "text:employmentJobs.0.2.0.reply"
+msgid ""
+"Komachi placed the interview after her nap; Eiki corrected “after the nap” "
+"into an unavoidable date."
+msgstr "小町把你的面談排在午睡之後；映姬已把『午睡之後』訂正成一個不可迴避的日期。"
+
+#. employmentJobs.0.3.0.employer
+#: src/data/employment.js:103
+msgctxt "text:employmentJobs.0.3.0.employer"
+msgid "Bunbunmaru News Corrections & Early Dispatch"
+msgstr "《文文。新聞》訂正與提前寄發臺"
+
+#. employmentJobs.0.3.0.title
+#: src/data/employment.js:104
+msgctxt "text:employmentJobs.0.3.0.title"
+msgid "Tomorrow-headline advance retraction clerk"
+msgstr "明日頭條預先撤回員"
+
+#. employmentJobs.0.3.0.summary
+#: src/data/employment.js:111
+msgctxt "text:employmentJobs.0.3.0.summary"
+msgid "Retract an error not yet published, then catch Aya and ask what she plans to write."
+msgstr "先撤回一則尚未刊出的錯誤，再追上文，問她到底準備寫什麼。"
+
+#. employmentJobs.0.3.0.duty
+#: src/data/employment.js:112
+msgctxt "text:employmentJobs.0.3.0.duty"
+msgid ""
+"Keep every headline version, redact an anonymous source's self-shouted name, "
+"and classify the nine-fast clock as equipment rather than evidence."
+msgstr "保存每版標題、替匿名來源遮掉牠已經自己喊出的名字，並把九分鐘快鐘標成設備而非證據。"
+
+#. employmentJobs.0.3.0.pay
+#: src/data/employment.js:113
+msgctxt "text:employmentJobs.0.3.0.pay"
+msgid ""
+"Copy fee, wind-route passes, and first-edition byline; retracted bylines "
+"remain in Corrections."
+msgstr "稿費、風路券與第一版署名；若第一版被撤回，署名會保留在撤回欄。"
+
+#. employmentJobs.0.3.0.clause
+#: src/data/employment.js:114
+msgctxt "text:employmentJobs.0.3.0.clause"
+msgid ""
+"News may arrive before events; wages may not. Aya claims source protection "
+"over the latter sentence."
+msgstr "新聞可以比事件早到，薪資不可以；文對後半提出消息來源保護。"
+
+#. employmentJobs.0.3.0.trial
+#: src/data/employment.js:115
+msgctxt "text:employmentJobs.0.3.0.trial"
+msgid ""
+"Write a thirty-character correction naming the error; “caused confusion” may "
+"not substitute for a subject."
+msgstr "用三十字寫完訂正，必須說明哪裡錯，不得以『造成誤會』代替主詞。"
+
+#. employmentJobs.0.3.0.reply
+#: src/data/employment.js:116
+msgctxt "text:employmentJobs.0.3.0.reply"
+msgid "The desk shortlisted you for edition two; edition one already says you declined comment."
+msgstr "編輯臺說你被列入第二版候補；第一版已經刊出你拒絕受訪。"
+
+#. employmentJobs.0.4.0.employer
+#: src/data/employment.js:122
+msgctxt "text:employmentJobs.0.4.0.employer"
+msgid "Hakurei Shrine Donation Box & Boundary Duty"
+msgstr "博麗神社 賽錢箱與境界共同值班"
+
+#. employmentJobs.0.4.0.title
+#: src/data/employment.js:123
+msgctxt "text:employmentJobs.0.4.0.title"
+msgid "Offering whereabouts auditor & boundary-leaf sweeper"
+msgstr "香油錢去向稽核暨境界落葉清掃員"
+
+#. employmentJobs.0.4.0.summary
+#: src/data/employment.js:130
+msgctxt "text:employmentJobs.0.4.0.summary"
+msgid ""
+"Sweep leaves fallen from Outside and retain coins fallen from Outside; the "
+"two often impersonate each other."
+msgstr "掃掉從外界落進來的葉子，留下從外界落進來的硬幣；兩者經常互相假扮。"
+
+#. employmentJobs.0.4.0.duty
+#: src/data/employment.js:131
+msgctxt "text:employmentJobs.0.4.0.duty"
+msgid ""
+"Patrol the torii, ask why the donation box is in Administration again, and "
+"hold Reimu's “hiring suspended” sign during incidents."
+msgstr "巡查鳥居、追問賽錢箱為何又出現在校務處，異變時替靈夢拿著『暫停招聘』牌。"
+
+#. employmentJobs.0.4.0.pay
+#: src/data/employment.js:132
+msgctxt "text:employmentJobs.0.4.0.pay"
+msgid "Share offerings after tea costs. If negative, receive a warding charm and one meal."
+msgstr "當日香油錢扣除當日茶錢後分成；若為負數，改發驅邪御札與一頓飯。"
+
+#. employmentJobs.0.4.0.clause
+#: src/data/employment.js:133
+msgctxt "text:employmentJobs.0.4.0.clause"
+msgid ""
+"Reimu may forget publishing the vacancy. This notice entitles you to one "
+"“I'll take a look.”"
+msgstr "靈夢可能忘記自己刊過職缺；帶著本廣告可換取一次『我先看看』。"
+
+#. employmentJobs.0.4.0.trial
+#: src/data/employment.js:134
+msgctxt "text:employmentJobs.0.4.0.trial"
+msgid ""
+"When Yukari opens two identically named torii, identify which side to sweep. "
+"“The one with more offerings” is accepted."
+msgstr "在紫打開兩扇同名鳥居時說出哪一邊該掃；允許回答『賽錢較多的一邊』。"
+
+#. employmentJobs.0.4.0.reply
+#: src/data/employment.js:135
+msgctxt "text:employmentJobs.0.4.0.reply"
+msgid ""
+"Reimu provisionally agrees to interview if you place this reply in the "
+"donation box and retrieve it from the back yourself."
+msgstr "靈夢暫時同意面談，前提是你把這張回函投入賽錢箱並自行從背面取出。"
+
+#. employmentJobs.0.5.0.employer
+#: src/data/employment.js:141
+msgctxt "text:employmentJobs.0.5.0.employer"
+msgid "Kourindou Outside-Object Non-sales Department"
+msgstr "香霖堂 外界物品不售部"
+
+#. employmentJobs.0.5.0.title
+#: src/data/employment.js:142
+msgctxt "text:employmentJobs.0.5.0.title"
+msgid "Use-naming apprentice & unsold-stock companion"
+msgstr "用途命名學徒暨賣不出去的庫存陪談員"
+
+#. employmentJobs.0.5.0.summary
+#: src/data/employment.js:149
+msgctxt "text:employmentJobs.0.5.0.summary"
+msgid ""
+"Assign Outside drift objects their most confident wrong uses, then await "
+"corrections from wear, object, and customer."
+msgstr "為外界漂流物寫出最有把握的錯誤用途，等磨損、物件與客人來訂正。"
+
+#. employmentJobs.0.5.0.duty
+#: src/data/employment.js:150
+msgctxt "text:employmentJobs.0.5.0.duty"
+msgid ""
+"Count unsold goods, stop Marisa relabelling borrowing as collaboration, and "
+"hear a radio's complaint about having no station."
+msgstr "清點未售品、阻止魔理沙把借走寫成研究合作，並聽取收音機對沒有電台的申訴。"
+
+#. employmentJobs.0.5.0.pay
+#: src/data/employment.js:151
+msgctxt "text:employmentJobs.0.5.0.pay"
+msgid "Paid in an unknown-use object appraised as valuable. Cash follows if it ever sells."
+msgstr "以用途尚不明但霖之助判定很貴的物件支付；現金可在物件真正賣出後補發。"
+
+#. employmentJobs.0.5.0.clause
+#: src/data/employment.js:152
+msgctxt "text:employmentJobs.0.5.0.clause"
+msgid "Apprentices may disagree with the proprietor; disagreement forms receive price tags."
+msgstr "學徒可以不同意店主，但不同意書會被貼上價格。"
+
+#. employmentJobs.0.5.0.trial
+#: src/data/employment.js:153
+msgctxt "text:employmentJobs.0.5.0.trial"
+msgid ""
+"Without opening it, explain why a USB cable may not be a snake, leaving "
+"space for the snake's objection."
+msgstr "不用拆開，說明一條 USB 線為何可能不是蛇；必須保留蛇提出異議的欄。"
+
+#. employmentJobs.0.5.0.reply
+#: src/data/employment.js:154
+msgctxt "text:employmentJobs.0.5.0.reply"
+msgid ""
+"Rinnosuke appraised your application as a “folding personnel manual,” "
+"provisionally worth more than the wage."
+msgstr "霖之助把你的申請鑑定為『可折疊的人事用說明書』，暫定價格高於薪資。"
+
+#. employmentJobs.0.6.0.employer
+#: src/data/employment.js:160
+msgctxt "text:employmentJobs.0.6.0.employer"
+msgid "Eientei Moonlit Handover Office"
+msgstr "永遠亭 月夜交班室"
+
+#. employmentJobs.0.6.0.title
+#: src/data/employment.js:161
+msgctxt "text:employmentJobs.0.6.0.title"
+msgid "Immortal-patient night handover & moon-rabbit relief"
+msgstr "不死病友夜班交接暨月兔缺勤補位員"
+
+#. employmentJobs.0.6.0.summary
+#: src/data/employment.js:168
+msgctxt "text:employmentJobs.0.6.0.summary"
+msgid "A patient may be unable to die while their chart can; handover must protect both."
+msgstr "病友可能不會死，不代表病歷不會；交班須同時保護兩者。"
+
+#. employmentJobs.0.6.0.duty
+#: src/data/employment.js:169
+msgctxt "text:employmentJobs.0.6.0.duty"
+msgid ""
+"Check prescriptions, escort lost patients, and find a more plausible excuse "
+"for rabbits calling in sick with Hourai elixir."
+msgstr "核對處方、陪同迷路病友、替試圖用蓬萊藥請病假的月兔找一個比較可信的理由。"
+
+#. employmentJobs.0.6.0.pay
+#: src/data/employment.js:170
+msgctxt "text:employmentJobs.0.6.0.pay"
+msgid ""
+"Yen, bamboo shoots, and night-shift medicinal tea. Immortality does not make "
+"probation infinite."
+msgstr "日圓、竹筍與夜班藥茶；不死不視為無限試用期。"
+
+#. employmentJobs.0.6.0.clause
+#: src/data/employment.js:171
+msgctxt "text:employmentJobs.0.6.0.clause"
+msgid ""
+"Full-moon overtime may be refused, but the refusal must be handed to a "
+"rabbit not planning to flee that night."
+msgstr "滿月夜可拒絕加班，但必須把拒絕交給一名當晚不打算逃跑的月兔。"
+
+#. employmentJobs.0.6.0.trial
+#: src/data/employment.js:172
+msgctxt "text:employmentJobs.0.6.0.trial"
+msgid ""
+"Hand one chart to Eirin, Reisen, and the patient without giving all three "
+"the same secret."
+msgstr "把同一份病歷交給永琳、鈴仙與病友本人，確保三人收到的不是同一種秘密。"
+
+#. employmentJobs.0.6.0.reply
+#: src/data/employment.js:173
+msgctxt "text:employmentJobs.0.6.0.reply"
+msgid "Reisen sent a low-gaze interview route; the lunar phase will decide it after you arrive."
+msgstr "鈴仙已寄來視線避讓面談路線；因月相變動，路線會在你抵達後才決定。"
+
+#. employmentJobs.0.7.0.employer
+#: src/data/employment.js:179
+msgctxt "text:employmentJobs.0.7.0.employer"
+msgid "Hakugyokurou Phantom Roll & Banquet Logistics"
+msgstr "白玉樓 幽靈名冊與宴席調度係"
+
+#. employmentJobs.0.7.0.title
+#: src/data/employment.js:180
+msgctxt "text:employmentJobs.0.7.0.title"
+msgid "Half-phantom headcount dispute recorder"
+msgstr "半靈人數爭議記錄員"
+
+#. employmentJobs.0.7.0.summary
+#: src/data/employment.js:187
+msgctxt "text:employmentJobs.0.7.0.summary"
+msgid ""
+"Roll, seats, and the count after Yuyuko eats never agree; preserve the "
+"difference rather than reconcile it."
+msgstr "點名數、座位數與幽幽子吃完後剩下的數字永遠不同；工作是保存不同，不是湊成相同。"
+
+#. employmentJobs.0.7.0.duty
+#: src/data/employment.js:188
+msgctxt "text:employmentJobs.0.7.0.duty"
+msgid ""
+"Separate people, half-phantoms, passing ghosts, and self-declared petals, "
+"and stop the banquet treating the roll as a menu."
+msgstr "替妖夢分開人、半靈、穿過中的幽靈與自稱花瓣者，並阻止宴席把名冊當菜單。"
+
+#. employmentJobs.0.7.0.pay
+#: src/data/employment.js:189
+msgctxt "text:employmentJobs.0.7.0.pay"
+msgid "Room, board, cherry-season allowance, and desserts not requisitioned by Yuyuko."
+msgstr "館內食宿、櫻花季加給，以及沒被幽幽子點走的甜點。"
+
+#. employmentJobs.0.7.0.clause
+#: src/data/employment.js:190
+msgctxt "text:employmentJobs.0.7.0.clause"
+msgid ""
+"If spring fails to arrive, the contract is not extended; the vacancy is "
+"temporarily renamed winter."
+msgstr "春天若未按時送達，合約不延期，只暫時改稱冬季職缺。"
+
+#. employmentJobs.0.7.0.trial
+#: src/data/employment.js:191
+msgctxt "text:employmentJobs.0.7.0.trial"
+msgid "Seat Youmu and her phantom in one and a half chairs without sawing furniture."
+msgstr "為妖夢與半靈安排一張半的椅子；不得鋸椅子。"
+
+#. employmentJobs.0.7.0.reply
+#: src/data/employment.js:192
+msgctxt "text:employmentJobs.0.7.0.reply"
+msgid "Youmu approved the interview; Yuyuko added one seat because “it looks delicious.”"
+msgstr "妖夢已核准面談；幽幽子追加一席，原因欄寫著『看起來很好吃』。"
+
+#. employmentJobs.0.8.0.employer
+#: src/data/employment.js:198
+msgctxt "text:employmentJobs.0.8.0.employer"
+msgid "Scarlet Underground Library Flying-Book Herd"
+msgstr "紅魔館地下圖書館 飛行館藏牧養組"
+
+#. employmentJobs.0.8.0.title
+#: src/data/employment.js:199
+msgctxt "text:employmentJobs.0.8.0.title"
+msgid "Low-oxygen flying-book shepherd"
+msgstr "低氧書群引導員"
+
+#. employmentJobs.0.8.0.summary
+#: src/data/employment.js:206
+msgctxt "text:employmentJobs.0.8.0.summary"
+msgid "Some books fly, some bite; worst are those insisting they are merely references."
+msgstr "有些書會飛，有些書會咬；最麻煩的是堅持自己只是參考資料的那批。"
+
+#. employmentJobs.0.8.0.duty
+#: src/data/employment.js:207
+msgctxt "text:employmentJobs.0.8.0.duty"
+msgid ""
+"Recover books before windows close, log oxygen and visitors for Koakuma, and "
+"prevent Marisa recording a repeat borrowing as the first."
+msgstr "關窗前追回館藏、替小惡魔記錄氧氣與訪客，阻止魔理沙把『再次借閱』寫成首次。"
+
+#. employmentJobs.0.8.0.pay
+#: src/data/employment.js:208
+msgctxt "text:employmentJobs.0.8.0.pay"
+msgid ""
+"Underground lodging, tea, and limited collection access. Wage envelopes may "
+"be inside a book refusing return."
+msgstr "地下食宿、茶與有限制的館藏閱覽；工資袋可能夾在一本拒絕歸還的書裡。"
+
+#. employmentJobs.0.8.0.clause
+#: src/data/employment.js:209
+msgctxt "text:employmentJobs.0.8.0.clause"
+msgid ""
+"Log dust, magic, and low oxygen separately. “Patchouli is used to it” is not "
+"protective equipment."
+msgstr "塵埃、魔力與低氧分開記錄；『帕秋莉習慣了』不構成個人防護設備。"
+
+#. employmentJobs.0.8.0.trial
+#: src/data/employment.js:210
+msgctxt "text:employmentJobs.0.8.0.trial"
+msgid "Return a grimoire to its shelf voluntarily without reading its title aloud."
+msgstr "在不念出書名的情況下讓一本禁書自願回架。"
+
+#. employmentJobs.0.8.0.reply
+#: src/data/employment.js:211
+msgctxt "text:employmentJobs.0.8.0.reply"
+msgid ""
+"Koakuma shelved your application with returns; if it flies back first, round "
+"one is passed."
+msgstr "小惡魔把你的申請夾入待回架區；若它先飛回來，就視為通過第一關。"
+
+#. employmentJobs.0.9.0.employer
+#: src/data/employment.js:217
+msgctxt "text:employmentJobs.0.9.0.employer"
+msgid "Moriya Shrine Faith-Grid Division"
+msgstr "守矢神社 信仰電網事業部"
+
+#. employmentJobs.0.9.0.title
+#: src/data/employment.js:218
+msgctxt "text:employmentJobs.0.9.0.title"
+msgid "Merit-and-kilowatt split-ledger accountant"
+msgstr "神德與千瓦分欄會計"
+
+#. employmentJobs.0.9.0.summary
+#: src/data/employment.js:225
+msgctxt "text:employmentJobs.0.9.0.summary"
+msgid ""
+"Settle faith, hydropower, and miracles separately, keeping three signature "
+"boxes when three supervisors claim sole authority."
+msgstr "把信仰、水力與奇蹟分開結算，並在三位上司都自稱唯一主管時保留三個簽章欄。"
+
+#. employmentJobs.0.9.0.duty
+#: src/data/employment.js:226
+msgctxt "text:employmentJobs.0.9.0.duty"
+msgid ""
+"Reconcile offerings, turbine output, and Sanae's Outside conversion sheet; "
+"stop Kanako booking Suwako's earth as free input."
+msgstr "核對香火、渦輪輸出與早苗的外界換算表；阻止神奈子把諏訪子的地脈算成免費原料。"
+
+#. employmentJobs.0.9.0.pay
+#: src/data/employment.js:227
+msgctxt "text:employmentJobs.0.9.0.pay"
+msgid ""
+"Yen and merit in separate columns. Merit cannot be cashed but counts as "
+"seniority in shrine debates."
+msgstr "日圓與神德分欄；神德不可兌現，但可在神社內部辯論時充作資歷。"
+
+#. employmentJobs.0.9.0.clause
+#: src/data/employment.js:228
+msgctxt "text:employmentJobs.0.9.0.clause"
+msgid ""
+"Miracles are not performance guarantees. Unhappened miracles remain "
+"receivable and may not be written off by advance worship."
+msgstr "奇蹟不是績效保證；未發生的奇蹟須列為應收，不得提前祭祀沖銷。"
+
+#. employmentJobs.0.9.0.trial
+#: src/data/employment.js:229
+msgctxt "text:employmentJobs.0.9.0.trial"
+msgid ""
+"Report one kilowatt-hour to all three supervisors without letting anyone "
+"claim they were averaged away."
+msgstr "向三位主管報告同一度電，讓任何一位都不能說自己被平均掉。"
+
+#. employmentJobs.0.9.0.reply
+#: src/data/employment.js:230
+msgctxt "text:employmentJobs.0.9.0.reply"
+msgid ""
+"Sanae sent an Outside-style invitation; Kanako sealed it, while Suwako "
+"proposed another time from the reverse."
+msgstr "早苗已用外界格式寄出面談邀請；神奈子加蓋公章，諏訪子從紙背提出另一個時間。"
+
+#. employmentJobs.0.10.0.employer
+#: src/data/employment.js:236
+msgctxt "text:employmentJobs.0.10.0.employer"
+msgid "Myouren Temple Night Commons"
+msgstr "命蓮寺 夜間共同食桌"
+
+#. employmentJobs.0.10.0.title
+#: src/data/employment.js:237
+msgctxt "text:employmentJobs.0.10.0.title"
+msgid "Human-youkai dinner mediator & late-arrival plate keeper"
+msgstr "人妖晚餐衝突調停暨遲到者留飯員"
+
+#. employmentJobs.0.10.0.summary
+#: src/data/employment.js:244
+msgctxt "text:employmentJobs.0.10.0.summary"
+msgid ""
+"Everyone may sit without agreeing who owns the table—especially since the "
+"table began speaking."
+msgstr "所有人都能坐下，不代表所有人同意桌子是誰的；尤其桌子最近開始發言。"
+
+#. employmentJobs.0.10.0.duty
+#: src/data/employment.js:245
+msgctxt "text:employmentJobs.0.10.0.duty"
+msgid ""
+"Keep dietary rules distinct, manage Kyouko's echoes, and write down the "
+"actual dispute before Byakuren mediates."
+msgstr "保留不同飲食規矩、替響子控制回聲，並在白蓮勸架前先把真正的爭點寫下。"
+
+#. employmentJobs.0.10.0.pay
+#: src/data/employment.js:246
+msgctxt "text:employmentJobs.0.10.0.pay"
+msgid "Meals, lodging, and Village yen; if dinner becomes a service, sesame cakes are added."
+msgstr "食宿與人里日圓；若晚餐變成法會，當晚加發香油餅。"
+
+#. employmentJobs.0.10.0.clause
+#: src/data/employment.js:247
+msgctxt "text:employmentJobs.0.10.0.clause"
+msgid ""
+"Mediation need not make everyone agreeable; success means they still share "
+"the entrance tomorrow."
+msgstr "調停不是要求大家變得好相處；成功標準是明天仍願意共用門口。"
+
+#. employmentJobs.0.10.0.trial
+#: src/data/employment.js:248
+msgctxt "text:employmentJobs.0.10.0.trial"
+msgid ""
+"Share one pot among an umbrella youkai, beast, and youkai-fearing human "
+"without seating anyone at an invisible table."
+msgstr "讓傘妖、妖獸與怕妖怪的人類分完一壺茶，不得把任何一方安排到看不見的桌子。"
+
+#. employmentJobs.0.10.0.reply
+#: src/data/employment.js:249
+msgctxt "text:employmentJobs.0.10.0.reply"
+msgid ""
+"Byakuren invites you to a dinner interview; Kyouko's echo delivered it to "
+"yesterday's valley."
+msgstr "白蓮邀請你共進晚餐面談；響子把邀請回聲送到了昨天的山谷。"
+
+#. employmentJobs.0.11.0.employer
+#: src/data/employment.js:255
+msgctxt "text:employmentJobs.0.11.0.employer"
+msgid "Chireiden Mind-Reading Redaction Office"
+msgstr "地靈殿 心讀遮蔽與缺字記錄室"
+
+#. employmentJobs.0.11.0.title
+#: src/data/employment.js:256
+msgctxt "text:employmentJobs.0.11.0.title"
+msgid "Unwritable-content stenographer"
+msgstr "不可寫內容速記員"
+
+#. employmentJobs.0.11.0.summary
+#: src/data/employment.js:263
+msgctxt "text:employmentJobs.0.11.0.summary"
+msgid ""
+"Record what was read and not consented for use, without smuggling the "
+"content back inside brackets."
+msgstr "完整記錄哪些內容被讀到、哪些沒有被同意使用，但不得把內容本身偷塞回括號。"
+
+#. employmentJobs.0.11.0.duty
+#: src/data/employment.js:264
+msgctxt "text:employmentJobs.0.11.0.duty"
+msgid ""
+"Preserve sources for Satori's blanks, attendance traces for Koishi's unseen "
+"collisions, and stop Orin carrying away annexes still speaking."
+msgstr "替覺保留空白的來源、替戀留下看不見但確實撞到的出席痕跡，並阻止燐拿走仍在說話的附件。"
+
+#. employmentJobs.0.11.0.pay
+#: src/data/employment.js:265
+msgctxt "text:employmentJobs.0.11.0.pay"
+msgid ""
+"Underground yen, heat, and unspoken meal preferences. Thoughts do not count "
+"as voluntary overtime."
+msgstr "地底日圓、暖房與不必說出口的餐點偏好；心聲不計作自願加班。"
+
+#. employmentJobs.0.11.0.clause
+#: src/data/employment.js:266
+msgctxt "text:employmentJobs.0.11.0.clause"
+msgid ""
+"An employer reading your intent to quit is not resignation, though handover "
+"may be prepared early."
+msgstr "雇主讀到你想辭職，不等於收到辭職信；但會提前準備交接。"
+
+#. employmentJobs.0.11.0.trial
+#: src/data/employment.js:267
+msgctxt "text:employmentJobs.0.11.0.trial"
+msgid "Write minutes everyone understands and nobody can reverse into the secret."
+msgstr "寫一份人人看得懂、沒有人能從中還原秘密的會議記錄。"
+
+#. employmentJobs.0.11.0.reply
+#: src/data/employment.js:268
+msgctxt "text:employmentJobs.0.11.0.reply"
+msgid "Satori says she knows whether you'll attend; Personnel still requires your own reply."
+msgstr "覺說她已知道你會不會來；人事室仍要求她等你自己按下回覆。"
+
+#. employmentJobs.0.12.0.employer
+#: src/data/employment.js:274
+msgctxt "text:employmentJobs.0.12.0.employer"
+msgid "Alice Doll Workshop Labour Desk"
+msgstr "愛麗絲人偶工房 勞動關係桌"
+
+#. employmentJobs.0.12.0.title
+#: src/data/employment.js:275
+msgctxt "text:employmentJobs.0.12.0.title"
+msgid "Doll-union & control-thread responsibility examiner"
+msgstr "人偶工會與操線責任調查員"
+
+#. employmentJobs.0.12.0.summary
+#: src/data/employment.js:282
+msgctxt "text:employmentJobs.0.12.0.summary"
+msgid ""
+"A doll asks for rest while its thread proves it did not move itself "
+"yesterday; both statements need chairs."
+msgstr "人偶要求休息，操線卻證明她昨天沒自己動；兩份陳述都要有椅子。"
+
+#. employmentJobs.0.12.0.duty
+#: src/data/employment.js:283
+msgctxt "text:employmentJobs.0.12.0.duty"
+msgid ""
+"Record autonomous, remote, and silent dolls; trace materials borrowed by "
+"Marisa; prepare a negotiation table that cannot be cut."
+msgstr "記錄自主、遠端與意見不明的人偶，替被魔理沙借走的材料追討來源，安排不會被剪斷的談判桌。"
+
+#. employmentJobs.0.12.0.pay
+#: src/data/employment.js:284
+msgctxt "text:employmentJobs.0.12.0.pay"
+msgid ""
+"Yen, handmade parts, and one volunteering doll. The doll itself may not be "
+"booked as wages."
+msgstr "日圓、手作零件與一名自願同行的人偶；不得把人偶列為薪資本身。"
+
+#. employmentJobs.0.12.0.clause
+#: src/data/employment.js:285
+msgctxt "text:employmentJobs.0.12.0.clause"
+msgid "Remote-controlled applicants remain valid, but operator and body check in separately."
+msgstr "若應徵者其實由遠端操縱，面談仍有效，但操作者與身體須分開簽到。"
+
+#. employmentJobs.0.12.0.trial
+#: src/data/employment.js:286
+msgctxt "text:employmentJobs.0.12.0.trial"
+msgid "Have three dolls overrule Alice once without cutting a thread."
+msgstr "讓三名人偶在不剪線的情況下否決愛麗絲一次。"
+
+#. employmentJobs.0.12.0.reply
+#: src/data/employment.js:287
+msgctxt "text:employmentJobs.0.12.0.reply"
+msgid ""
+"Shanghai carried off your application and Hourai returned another; Alice "
+"wants to know which is yours."
+msgstr "上海人偶帶走了申請，蓬萊人偶帶回另一份；愛麗絲想先確認哪份是你的。"
+
+#. employmentJobs.0.13.0.employer
+#: src/data/employment.js:293
+msgctxt "text:employmentJobs.0.13.0.employer"
+msgid "Prismriver Ensemble Silence-Incident Desk"
+msgstr "普莉茲姆利巴樂團 靜音事故臺"
+
+#. employmentJobs.0.13.0.title
+#: src/data/employment.js:294
+msgctxt "text:employmentJobs.0.13.0.title"
+msgid "Non-airborne sound stage technician"
+msgstr "不經空氣聲音的舞臺技師"
+
+#. employmentJobs.0.13.0.summary
+#: src/data/employment.js:301
+msgctxt "text:employmentJobs.0.13.0.summary"
+msgid ""
+"Earplugs stop air, not the third beat sounding inside the mind; work begins "
+"by admitting the earplugs are not at fault."
+msgstr "耳塞擋得住空氣，擋不住直接在心裡響的第三拍；工作從承認耳塞沒有錯開始。"
+
+#. employmentJobs.0.13.0.duty
+#: src/data/employment.js:302
+msgctxt "text:employmentJobs.0.13.0.duty"
+msgid ""
+"Rig stages, log inaudible bands, recover Lunasa's lost mood, and stop Merlin "
+"counting runaway volume as audience enthusiasm."
+msgstr "架臺、記錄不可聽頻段、找回露娜薩遺失的情緒，並阻止梅露蘭把失控音量算觀眾熱情。"
+
+#. employmentJobs.0.13.0.pay
+#: src/data/employment.js:303
+msgctxt "text:employmentJobs.0.13.0.pay"
+msgid "Highest of per-show, per-echo, or remembered tunes. Silence counts as a performance."
+msgstr "按場、按回聲與按觀眾仍記得的曲目三者最高；寂靜也算一場。"
+
+#. employmentJobs.0.13.0.clause
+#: src/data/employment.js:304
+msgctxt "text:employmentJobs.0.13.0.clause"
+msgid ""
+"Inaudibility is not non-exposure. Recovery leave does not require "
+"professionally impressive tinnitus."
+msgstr "聽不見不等於沒有暴露；療養日不必證明自己耳鳴得足夠專業。"
+
+#. employmentJobs.0.13.0.trial
+#: src/data/employment.js:305
+msgctxt "text:employmentJobs.0.13.0.trial"
+msgid "Safely stop the stage while the ensemble performs and denies performing."
+msgstr "在樂團同時演奏與否認演奏時完成一次安全停臺。"
+
+#. employmentJobs.0.13.0.reply
+#: src/data/employment.js:306
+msgctxt "text:employmentJobs.0.13.0.reply"
+msgid ""
+"The sisters replied hire, waitlist, and key change; the ensemble will decide "
+"which is melody after rehearsal."
+msgstr "三姊妹分別給出錄用、候補與升調；樂團將在合奏後決定哪個算主旋律。"
+
+#. employmentJobs.0.14.0.employer
+#: src/data/employment.js:312
+msgctxt "text:employmentJobs.0.14.0.employer"
+msgid "Misty Lake Fairy Ice Reserve & Forgotten-Class Office"
+msgstr "霧湖妖精冰庫與忘課辦"
+
+#. employmentJobs.0.14.0.title
+#: src/data/employment.js:313
+msgctxt "text:employmentJobs.0.14.0.title"
+msgid "Melt-loss & repeat-graduation roll clerk"
+msgstr "融化損耗暨重複畢業點名員"
+
+#. employmentJobs.0.14.0.summary
+#: src/data/employment.js:320
+msgctxt "text:employmentJobs.0.14.0.summary"
+msgid ""
+"The ice reserve shrinks daily while Cirno graduates once more; neither "
+"number accepts being called loss."
+msgstr "冰庫每天少一點，琪露諾每天多畢業一次；兩個數字都拒絕被稱為損耗。"
+
+#. employmentJobs.0.14.0.duty
+#: src/data/employment.js:321
+msgctxt "text:employmentJobs.0.14.0.duty"
+msgid ""
+"Measure ice, draw attendance, and decide whether to rename verse three or "
+"reteach verse two."
+msgstr "量冰、畫圖像簽到、在妖精忘記第二段時決定把第三段改名還是重教。"
+
+#. employmentJobs.0.14.0.pay
+#: src/data/employment.js:322
+msgctxt "text:employmentJobs.0.14.0.pay"
+msgid "Ice, berries, and Village pocket money. Summer ice wages deduct commuting melt first."
+msgstr "冰、莓果與人里零用錢；夏季冰薪會先扣除通勤融化。"
+
+#. employmentJobs.0.14.0.clause
+#: src/data/employment.js:323
+msgctxt "text:employmentJobs.0.14.0.clause"
+msgid ""
+"Forgetting work is not automatically absence; first prove the day's "
+"timetable was remembered."
+msgstr "忘記上班不自動構成曠職；必須先證明當日課表有被記住。"
+
+#. employmentJobs.0.14.0.trial
+#: src/data/employment.js:324
+msgctxt "text:employmentJobs.0.14.0.trial"
+msgid "Have Cirno draw herself only once on the same attendance picture."
+msgstr "請琪露諾在同一張點名圖上只畫一次自己。"
+
+#. employmentJobs.0.14.0.reply
+#: src/data/employment.js:325
+msgctxt "text:employmentJobs.0.14.0.reply"
+msgid "The ice fairy says you're hired; Daiyousei added “ask the applicant first.”"
+msgstr "冰精說你已錄用；大妖精在旁加註『先問本人』。"
+
+#. employmentJobs.0.15.0.employer
+#: src/data/employment.js:331
+msgctxt "text:employmentJobs.0.15.0.employer"
+msgid "Hieda Five-Records-of-One-Matter Room"
+msgstr "稗田邸 五種同件記錄室"
+
+#. employmentJobs.0.15.0.title
+#: src/data/employment.js:332
+msgctxt "text:employmentJobs.0.15.0.title"
+msgid "Disbelieved-version preservation clerk"
+msgstr "不相信版本保存員"
+
+#. employmentJobs.0.15.0.summary
+#: src/data/employment.js:339
+msgctxt "text:employmentJobs.0.15.0.summary"
+msgid "Preserve one record you disbelieve, may not delete, and must keep source-findable."
+msgstr "保存一份你不相信、不能刪除、還必須替它找得到來源的記錄。"
+
+#. employmentJobs.0.15.0.duty
+#: src/data/employment.js:340
+msgctxt "text:employmentJobs.0.15.0.duty"
+msgid ""
+"Tie red thread, distinguish first-parent chronicle from feature merges, and "
+"file Aya's extra beside evidence rather than inside it."
+msgstr "牽紅線、辨認 first-parent 校史與功能合併、把文的號外放在證據旁邊而非證據裡面。"
+
+#. employmentJobs.0.15.0.pay
+#: src/data/employment.js:341
+msgctxt "text:employmentJobs.0.15.0.pay"
+msgid "Village yen, paper and ink, plus one monthly right to say “I already documented this.”"
+msgstr "人里日圓、紙墨與每月一次可以說『我早就寫過』的權利。"
+
+#. employmentJobs.0.15.0.clause
+#: src/data/employment.js:342
+msgctxt "text:employmentJobs.0.15.0.clause"
+msgid ""
+"Corrections never overwrite version one; if version one vanishes, suspect "
+"the correction first."
+msgstr "訂正不覆蓋初版；若初版消失，保存員須先懷疑訂正。"
+
+#. employmentJobs.0.15.0.trial
+#: src/data/employment.js:343
+msgctxt "text:employmentJobs.0.15.0.trial"
+msgid ""
+"Arrange the official file, bell log, BBS, extra, and Git version in five "
+"columns without choosing a winner."
+msgstr "把同一事件的官方卷、鐘樓 log、BBS、號外與 Git 版本排成五欄，不得替它們選勝者。"
+
+#. employmentJobs.0.15.0.reply
+#: src/data/employment.js:344
+msgctxt "text:employmentJobs.0.15.0.reply"
+msgid ""
+"Akyuu says your application contradicts yesterday's copy; both are on the "
+"candidate shelf."
+msgstr "阿求說你的申請與昨天那份互相矛盾；兩份都已進入候選架。"
+
+#. employmentJobs.0.16.0.employer
+#: src/data/employment.js:350
+msgctxt "text:employmentJobs.0.16.0.employer"
+msgid "Blazing Hell Ruins Heat & Cat-Cart Accounts"
+msgstr "灼熱地獄遺址 熱量與貓車會計"
+
+#. employmentJobs.0.16.0.title
+#: src/data/employment.js:351
+msgctxt "text:employmentJobs.0.16.0.title"
+msgid "Geothermal quota & fuel-aliveness assessor"
+msgstr "地熱配額暨燃料是否還活著判定員"
+
+#. employmentJobs.0.16.0.summary
+#: src/data/employment.js:358
+msgctxt "text:employmentJobs.0.16.0.summary"
+msgid ""
+"Determine whether fuel came to work or work came to be fuel; Orin requires "
+"different carts."
+msgstr "先確認燃料是不是來上班，再確認上班是不是來當燃料；燐要求兩種情況用不同車。"
+
+#. employmentJobs.0.16.0.duty
+#: src/data/employment.js:359
+msgctxt "text:employmentJobs.0.16.0.duty"
+msgid ""
+"Copy heat ledgers, mark the fusion bird's mood, and stop Okuu converting "
+"“bright today” directly into stable output."
+msgstr "抄熱表、標記核融合鳥的心情，阻止空把『今天很亮』直接換算成穩定輸出。"
+
+#. employmentJobs.0.16.0.pay
+#: src/data/employment.js:360
+msgctxt "text:employmentJobs.0.16.0.pay"
+msgid "Yen, geothermal quota, and unlimited winter heat. Summer heating cannot be cashed."
+msgstr "日圓、地熱配額與冬季無限暖房；夏季暖房不能折現。"
+
+#. employmentJobs.0.16.0.clause
+#: src/data/employment.js:361
+msgctxt "text:employmentJobs.0.16.0.clause"
+msgid ""
+"Heat tolerance is not consent to ignition. Claims must be filed before the "
+"cat cart arrives."
+msgstr "耐熱不是同意被點燃；保險理賠須在貓車抵達前提出。"
+
+#. employmentJobs.0.16.0.trial
+#: src/data/employment.js:362
+msgctxt "text:employmentJobs.0.16.0.trial"
+msgid ""
+"Without approaching the core, persuade Okuu to reduce output from “sun” to "
+"“one classroom.”"
+msgstr "在不靠近爐心的情況下說服空把輸出從『太陽』調成一間教室。"
+
+#. employmentJobs.0.16.0.reply
+#: src/data/employment.js:363
+msgctxt "text:employmentJobs.0.16.0.reply"
+msgid "Orin brought an interview cart; Personnel insists it does not imply an outcome."
+msgstr "燐已經推來面談用貓車；人事室強調這不是對面談結果的暗示。"
+
+#. employmentJobs.0.17.0.employer
+#: src/data/employment.js:369
+msgctxt "text:employmentJobs.0.17.0.employer"
+msgid "Human Village Nightwatch & Rumour Order Office"
+msgstr "人里夜巡與傳聞先後室"
+
+#. employmentJobs.0.17.0.title
+#: src/data/employment.js:370
+msgctxt "text:employmentJobs.0.17.0.title"
+msgid "Not-yet-happened rumour nightwatch"
+msgstr "尚未發生傳聞查夜員"
+
+#. employmentJobs.0.17.0.summary
+#: src/data/employment.js:377
+msgctxt "text:employmentJobs.0.17.0.summary"
+msgid ""
+"Decide whether a rumour preceded, followed, or was caused by verification; "
+"do not report the third as the first."
+msgstr "判斷傳聞是在事件之前、之後，還是因為查證才發生；第三種不可報成第一種。"
+
+#. employmentJobs.0.17.0.duty
+#: src/data/employment.js:378
+msgctxt "text:employmentJobs.0.17.0.duty"
+msgid ""
+"Patrol, interview shops, separate witnessing from “everyone knows,” and "
+"persuade Keine not to eat an unverifiable evening whole."
+msgstr "巡夜、問店家、把真正目擊與『大家都知道』分欄，並勸阻慧音直接吃掉難以核實的晚上。"
+
+#. employmentJobs.0.17.0.pay
+#: src/data/employment.js:379
+msgctxt "text:employmentJobs.0.17.0.pay"
+msgid "Village yen, supper, and leave for erased nights; restored history decides the date."
+msgstr "人里日圓、宵夜與被刪除夜晚的補休；補休日期由恢復後的歷史決定。"
+
+#. employmentJobs.0.17.0.clause
+#: src/data/employment.js:380
+msgctxt "text:employmentJobs.0.17.0.clause"
+msgid "Nightwatch may fear youkai; fear itself is not eyewitness evidence."
+msgstr "值勤員可以害怕妖怪；不得把害怕本身當作目擊證據。"
+
+#. employmentJobs.0.17.0.trial
+#: src/data/employment.js:381
+msgctxt "text:employmentJobs.0.17.0.trial"
+msgid ""
+"Verify “a bridge princess on the bridge” without escalating it to two "
+"incidents when she becomes jealous."
+msgstr "查一則『橋上有橋姬』的傳聞，不得因橋姬生氣就把傳聞升級為兩件。"
+
+#. employmentJobs.0.17.0.reply
+#: src/data/employment.js:382
+msgctxt "text:employmentJobs.0.17.0.reply"
+msgid ""
+"Nightwatch invites you tonight. Aya already praised last night's work; do "
+"not fabricate last night to match."
+msgstr "夜巡隊邀你今晚試走；文已報導你昨晚表現穩定，請勿因此補造昨晚。"
+
+#. employmentJobs.0.18.0.employer
+#: src/data/employment.js:388
+msgctxt "text:employmentJobs.0.18.0.employer"
+msgid "Hakurei Border Drift-Object & Moving-Gate Customs"
+msgstr "博麗邊境 外界漂流物與門位海關"
+
+#. employmentJobs.0.18.0.title
+#: src/data/employment.js:389
+msgctxt "text:employmentJobs.0.18.0.title"
+msgid "Moving-gate customs declarant"
+msgstr "會移動門的報關員"
+
+#. employmentJobs.0.18.0.summary
+#: src/data/employment.js:396
+msgctxt "text:employmentJobs.0.18.0.summary"
+msgid ""
+"Before checking where an item came from, determine which side of the gate "
+"currently contains “where.”"
+msgstr "檢查物件從哪裡來之前，先確認門現在把『哪裡』放在哪一側。"
+
+#. employmentJobs.0.18.0.duty
+#: src/data/employment.js:397
+msgctxt "text:employmentJobs.0.18.0.duty"
+msgid ""
+"Register phones, umbrellas, and unclaimed degrees, recording Yukari's verbal "
+"exception without making it next time's precedent."
+msgstr "登記手機、雨傘與無人承認的畢業證，將紫的口頭通融寫成不構成下一次先例。"
+
+#. employmentJobs.0.18.0.pay
+#: src/data/employment.js:398
+msgctxt "text:employmentJobs.0.18.0.pay"
+msgid "Yen, Outside trinkets, and one lawful crossing without destination guarantee."
+msgstr "日圓、外界小物與一次不保證目的地的合法過境。"
+
+#. employmentJobs.0.18.0.clause
+#: src/data/employment.js:399
+msgctxt "text:employmentJobs.0.18.0.clause"
+msgid ""
+"Customs is not liable if the gate moves during interview. Late applicants "
+"may show timely arrival on the other side."
+msgstr "海關不對門在面談期間移動負責；遲到可提交你準時抵達另一側的證據。"
+
+#. employmentJobs.0.18.0.trial
+#: src/data/employment.js:400
+msgctxt "text:employmentJobs.0.18.0.trial"
+msgid "Clear an Outside umbrella without assuming it lacks its own travel purpose."
+msgstr "替一把外界傘報關，不得預設傘沒有自己的旅程目的。"
+
+#. employmentJobs.0.18.0.reply
+#: src/data/employment.js:401
+msgctxt "text:employmentJobs.0.18.0.reply"
+msgid ""
+"Yukari approves reporting through nonexistent Gate Three; Reimu adds “come "
+"through the front first.”"
+msgstr "紫已批准你從不存在的第三號門報到；靈夢在旁寫了『先從正門來』。"
+
+#. employmentJobs.0.19.0.employer
+#: src/data/employment.js:407
+msgctxt "text:employmentJobs.0.19.0.employer"
+msgid "Moon Rabbit Yesterday-Line Shuttle"
+msgstr "月兔昨日線接駁班"
+
+#. employmentJobs.0.19.0.title
+#: src/data/employment.js:408
+msgctxt "text:employmentJobs.0.19.0.title"
+msgid "Yesterday-destination ticket & carriage attendant"
+msgstr "目的地為昨天的售票與乘務員"
+
+#. employmentJobs.0.19.0.summary
+#: src/data/employment.js:415
+msgctxt "text:employmentJobs.0.19.0.summary"
+msgid ""
+"A ticket saying yesterday may not mean the passenger wants to return; the "
+"machine may lag the moon by one day."
+msgstr "車票寫昨天不代表乘客想回去；也可能只是售票機比月相慢一天。"
+
+#. employmentJobs.0.19.0.duty
+#: src/data/employment.js:416
+msgctxt "text:employmentJobs.0.19.0.duty"
+msgid ""
+"Inspect tickets, guide Reisen's low-gaze passengers, and find at least one "
+"rabbit from tomorrow during mass sick leave."
+msgstr "驗票、安撫鈴仙視線避讓乘客、在因幡們集體請假時找出至少一位其實來自明天的人。"
+
+#. employmentJobs.0.19.0.pay
+#: src/data/employment.js:417
+msgctxt "text:employmentJobs.0.19.0.pay"
+msgid ""
+"Highest of run, lunar phase, or actual arrivals. Yesterday Line does not pay "
+"minus one day's wage."
+msgstr "按班、按月相或按實際抵達次數擇高；昨日線不支付負一天工資。"
+
+#. employmentJobs.0.19.0.clause
+#: src/data/employment.js:418
+msgctxt "text:employmentJobs.0.19.0.clause"
+msgid "Crew may not correct a passenger's yesterday, only mark which yesterday boarded."
+msgstr "乘務員不得擅自修正乘客的昨天；只可標記哪個昨天上了車。"
+
+#. employmentJobs.0.19.0.trial
+#: src/data/employment.js:419
+msgctxt "text:employmentJobs.0.19.0.trial"
+msgid "Transfer a tomorrow-ticket passenger today onto Yesterday Line without double charging."
+msgstr "讓一名持明日票的乘客在今天換乘昨天線而不重複收費。"
+
+#. employmentJobs.0.19.0.reply
+#: src/data/employment.js:420
+msgctxt "text:employmentJobs.0.19.0.reply"
+msgid ""
+"Your interview ticket was punched yesterday; if intact today, file a version "
+"dispute at the rabbit window."
+msgstr "你的面談票已在昨天打孔；若今天仍完整，請向月兔窗口提出版本異議。"
+
+#. employmentJobs.0.20.0.employer
+#: src/data/employment.js:426
+msgctxt "text:employmentJobs.0.20.0.employer"
+msgid "Tsukumogami Labour & Property Joint Desk"
+msgstr "付喪神勞動與物權聯席桌"
+
+#. employmentJobs.0.20.0.title
+#: src/data/employment.js:427
+msgctxt "text:employmentJobs.0.20.0.title"
+msgid "Tool, worker, or employer status conciliator"
+msgstr "工具、員工或雇主三選一仲裁員"
+
+#. employmentJobs.0.20.0.summary
+#: src/data/employment.js:434
+msgctxt "text:employmentJobs.0.20.0.summary"
+msgid ""
+"A wrench claims overtime, a drum performance rights, and a teacup the entire "
+"lounge; fill in the job title after hearing."
+msgstr "一把扳手主張加班，一面鼓主張演出權，一只茶杯主張整間休息室；職稱由聽證後再填。"
+
+#. employmentJobs.0.20.0.duty
+#: src/data/employment.js:435
+msgctxt "text:employmentJobs.0.20.0.duty"
+msgid ""
+"Seat objects, separate ownership from employment, and identify the exhibit "
+"when Kogasa testifies for an umbrella."
+msgstr "安排物件席、分開所有權與勞動關係、在小傘替傘作證時確認誰才是證物。"
+
+#. employmentJobs.0.20.0.pay
+#: src/data/employment.js:436
+msgctxt "text:employmentJobs.0.20.0.pay"
+msgid ""
+"Yen and tribunal-approved tool access. A tool currently appealing may not be "
+"used as wages."
+msgstr "日圓與經裁定同意的工具使用權；不得用正在申訴的工具支付工資。"
+
+#. employmentJobs.0.20.0.clause
+#: src/data/employment.js:437
+msgctxt "text:employmentJobs.0.20.0.clause"
+msgid "Your furniture may join negotiations; if it becomes a party, that day's meeting stands."
+msgstr "你的桌椅可能加入談判；若它們成為當事人，當日會議改站立。"
+
+#. employmentJobs.0.20.0.trial
+#: src/data/employment.js:438
+msgctxt "text:employmentJobs.0.20.0.trial"
+msgid "Hear wrench, workshop, and user separately without closing as “everyone has a point.”"
+msgstr "讓扳手、工房與使用者各自說完，不得用『大家都有道理』結案。"
+
+#. employmentJobs.0.20.0.reply
+#: src/data/employment.js:439
+msgctxt "text:employmentJobs.0.20.0.reply"
+msgid ""
+"The tribunal confirms receipt; the application paper itself requests "
+"co-applicant status."
+msgstr "仲裁處確認收到申請；申請紙本人同時要求列為共同應徵者。"
+
+#. employmentCategoryOptions.0.0.1
+#: src/data/employment.js:444
+msgctxt "text:employmentCategoryOptions.0.0.1"
+msgid "All trouble"
+msgstr "全部麻煩"
+
+#. employmentCategoryOptions.0.1.1
+#: src/data/employment.js:445
+msgctxt "text:employmentCategoryOptions.0.1.1"
+msgid "Household & banquets"
+msgstr "家政與宴席"
+
+#. employmentCategoryOptions.0.2.1
+#: src/data/employment.js:446
+msgctxt "text:employmentCategoryOptions.0.2.1"
+msgid "Workshops & cores"
+msgstr "工房與爐心"
+
+#. employmentCategoryOptions.0.3.1
+#: src/data/employment.js:447
+msgctxt "text:employmentCategoryOptions.0.3.1"
+msgid "Archives & rolls"
+msgstr "檔案與名冊"
+
+#. employmentCategoryOptions.0.4.1
+#: src/data/employment.js:448
+msgctxt "text:employmentCategoryOptions.0.4.1"
+msgid "News & rumours"
+msgstr "新聞與傳聞"
+
+#. employmentCategoryOptions.0.5.1
+#: src/data/employment.js:449
+msgctxt "text:employmentCategoryOptions.0.5.1"
+msgid "Care & handover"
+msgstr "診療與交班"
+
+#. employmentCategoryOptions.0.6.1
+#: src/data/employment.js:450
+msgctxt "text:employmentCategoryOptions.0.6.1"
+msgid "Faith & boundaries"
+msgstr "信仰與境界"
+
+#. employmentCategoryOptions.0.7.1
+#: src/data/employment.js:451
+msgctxt "text:employmentCategoryOptions.0.7.1"
+msgid "Mediation & property"
+msgstr "調停與物權"
+
+#. employmentCategoryOptions.0.8.1
+#: src/data/employment.js:452
+msgctxt "text:employmentCategoryOptions.0.8.1"
+msgid "Ferries & Yesterday Line"
+msgstr "渡船與昨日線"
+
+#. employmentScheduleOptions.0.0.1
+#: src/data/employment.js:456
+msgctxt "text:employmentScheduleOptions.0.0.1"
+msgid "Any view of time"
+msgstr "任何時間觀"
+
+#. employmentScheduleOptions.0.1.1
+#: src/data/employment.js:457
+msgctxt "text:employmentScheduleOptions.0.1.1"
+msgid "Day bells"
+msgstr "白日校鐘"
+
+#. employmentScheduleOptions.0.2.1
+#: src/data/employment.js:458
+msgctxt "text:employmentScheduleOptions.0.2.1"
+msgid "Dawn"
+msgstr "清晨"
+
+#. employmentScheduleOptions.0.3.1
+#: src/data/employment.js:459
+msgctxt "text:employmentScheduleOptions.0.3.1"
+msgid "Pre-banquet dusk"
+msgstr "宴前黃昏"
+
+#. employmentScheduleOptions.0.4.1
+#: src/data/employment.js:460
+msgctxt "text:employmentScheduleOptions.0.4.1"
+msgid "Night / underground"
+msgstr "夜班／地下"
+
+#. employmentScheduleOptions.0.5.1
+#: src/data/employment.js:461
+msgctxt "text:employmentScheduleOptions.0.5.1"
+msgid "Lunar duty"
+msgstr "按月相"
+
+#. employmentScheduleOptions.0.6.1
+#: src/data/employment.js:462
+msgctxt "text:employmentScheduleOptions.0.6.1"
+msgid "If the season arrives"
+msgstr "按季節是否抵達"
+
+#. employmentScheduleOptions.0.7.1
+#: src/data/employment.js:463
+msgctxt "text:employmentScheduleOptions.0.7.1"
+msgid "Afterlife hours"
+msgstr "死後時段"
+
+#. employmentScheduleOptions.0.8.1
+#: src/data/employment.js:464
+msgctxt "text:employmentScheduleOptions.0.8.1"
+msgid "Non-linear time"
+msgstr "非線性時間"
+
+#. employmentPayKinds.0.yen
+#: src/data/employment.js:468
+msgctxt "text:employmentPayKinds.0.yen"
+msgid "Village yen"
+msgstr "人里日圓"
+
+#. employmentPayKinds.0.mixed
+#: src/data/employment.js:469
+msgctxt "text:employmentPayKinds.0.mixed"
+msgid "Mixed settlement"
+msgstr "混合結算"
+
+#. employmentPayKinds.0.offerings
+#: src/data/employment.js:470
+msgctxt "text:employmentPayKinds.0.offerings"
+msgid "Offerings / in kind"
+msgstr "香油錢／實物"
+
+#. employmentPayKinds.0.lodging
+#: src/data/employment.js:471
+msgctxt "text:employmentPayKinds.0.lodging"
+msgid "Room, board & extras"
+msgstr "食宿與附帶物"
+
+#. employmentPayKinds.0.barter
+#: src/data/employment.js:472
+msgctxt "text:employmentPayKinds.0.barter"
+msgid "Unknown-use barter"
+msgstr "用途未明的實物"
+
+#. employmentPayKinds.0.faith
+#: src/data/employment.js:473
+msgctxt "text:employmentPayKinds.0.faith"
+msgid "Yen / merit split"
+msgstr "日圓與神德分欄"
+
+#. employmentPayKinds.0.passage
+#: src/data/employment.js:474
+msgctxt "text:employmentPayKinds.0.passage"
+msgid "Passage & routes"
+msgstr "通行權與班次"
+
+#. employmentPayKinds.0.kind
+#: src/data/employment.js:475
+msgctxt "text:employmentPayKinds.0.kind"
+msgid "Goods & pocket money"
+msgstr "實物與零用錢"
+
+#. employmentOutcomeKinds.0.wage.title
+#: src/data/employment.js:503
+msgctxt "text:employmentOutcomeKinds.0.wage.title"
+msgid "Paid by wage or run"
+msgstr "定額或按趟有薪"
+
+#. employmentOutcomeKinds.0.wage.note
+#: src/data/employment.js:503
+msgctxt "text:employmentOutcomeKinds.0.wage.note"
+msgid "Excludes wages still undecided during stopped time."
+msgstr "不含停止時間內仍未決定是否發薪者。"
+
+#. employmentOutcomeKinds.0.household.title
+#: src/data/employment.js:504
+msgctxt "text:employmentOutcomeKinds.0.household.title"
+msgid "Room-board & household work"
+msgstr "食宿交換與館內職"
+
+#. employmentOutcomeKinds.0.household.note
+#: src/data/employment.js:504
+msgctxt "text:employmentOutcomeKinds.0.household.note"
+msgid "Having a bed does not establish rest time."
+msgstr "有床位不必然代表有休息時間。"
+
+#. employmentOutcomeKinds.0.barter.title
+#: src/data/employment.js:505
+msgctxt "text:employmentOutcomeKinds.0.barter.title"
+msgid "Paid in goods, faith, or use"
+msgstr "以物、信仰或用途結算"
+
+#. employmentOutcomeKinds.0.barter.note
+#: src/data/employment.js:505
+msgctxt "text:employmentOutcomeKinds.0.barter.note"
+msgid "Six wage objects later requested property hearings."
+msgstr "其中六件薪資後來要求物權聽證。"
+
+#. employmentOutcomeKinds.0.research.title
+#: src/data/employment.js:506
+msgctxt "text:employmentOutcomeKinds.0.research.title"
+msgid "Research, teaching & archives"
+msgstr "研究、教學與檔案"
+
+#. employmentOutcomeKinds.0.research.note
+#: src/data/employment.js:506
+msgctxt "text:employmentOutcomeKinds.0.research.note"
+msgid "Two teach a make-up yesterday while marked absent by yesterday."
+msgstr "兩人一邊補昨天的課，一邊被昨天列為缺勤。"
+
+#. employmentOutcomeKinds.0.afterlife.title
+#: src/data/employment.js:507
+msgctxt "text:employmentOutcomeKinds.0.afterlife.title"
+msgid "Employed after death / waitlisted before"
+msgstr "死後仍在職／生前已候補"
+
+#. employmentOutcomeKinds.0.afterlife.note
+#: src/data/employment.js:507
+msgctxt "text:employmentOutcomeKinds.0.afterlife.note"
+msgid "Eiki rejects death as an automatic separation date."
+msgstr "映姬不同意把死亡當離職日。"
+
+#. employmentOutcomeKinds.0.incident.title
+#: src/data/employment.js:508
+msgctxt "text:employmentOutcomeKinds.0.incident.title"
+msgid "Job became an incident first"
+msgstr "工作先變成異變"
+
+#. employmentOutcomeKinds.0.incident.note
+#: src/data/employment.js:508
+msgctxt "text:employmentOutcomeKinds.0.incident.note"
+msgid "Three kept paying; one filed mediation against its wage."
+msgstr "其中三件異變仍照常發薪，一件向薪資提出調停。"
+
+#. employmentOutcomeKinds.0.multiple.title
+#: src/data/employment.js:509
+msgctxt "text:employmentOutcomeKinds.0.multiple.title"
+msgid "Claimed by two employers"
+msgstr "同時被兩個雇主認領"
+
+#. employmentOutcomeKinds.0.multiple.note
+#: src/data/employment.js:509
+msgctxt "text:employmentOutcomeKinds.0.multiple.note"
+msgid "Excludes separate body-and-soul check-ins for half-phantoms."
+msgstr "不含半靈的身體與魂魄分開簽到。"
+
+#. employmentOutcomeKinds.0.unobserved.title
+#: src/data/employment.js:510
+msgctxt "text:employmentOutcomeKinds.0.unobserved.title"
+msgid "Not missing; presently unobservable"
+msgstr "沒有失蹤，只是觀測不到"
+
+#. employmentOutcomeKinds.0.unobserved.note
+#: src/data/employment.js:510
+msgctxt "text:employmentOutcomeKinds.0.unobserved.note"
+msgid "Yukari requires “presently” beside every statistic."
+msgstr "紫要求把『目前』寫在每一份統計旁。"
+
+#. employmentCountBases.0.person.title
+#: src/data/employment.js:514
+msgctxt "text:employmentCountBases.0.person.title"
+msgid "By person"
+msgstr "按本人"
+
+#. employmentCountBases.0.person.note
+#: src/data/employment.js:514
+msgctxt "text:employmentCountBases.0.person.note"
+msgid "University roll; half-phantoms provisionally count once."
+msgstr "校方點名簿；半靈先暫作一位。"
+
+#. employmentCountBases.0.body.title
+#: src/data/employment.js:515
+msgctxt "text:employmentCountBases.0.body.title"
+msgid "By work-capable body"
+msgstr "按可到班身體"
+
+#. employmentCountBases.0.body.note
+#: src/data/employment.js:515
+msgctxt "text:employmentCountBases.0.body.note"
+msgid "Ghosts, dream workers, and remote dolls object."
+msgstr "幽靈、夢中出勤與遠端人偶提出異議。"
+
+#. employmentCountBases.0.soul.title
+#: src/data/employment.js:516
+msgctxt "text:employmentCountBases.0.soul.title"
+msgid "By soul or mind"
+msgstr "按魂魄與心智"
+
+#. employmentCountBases.0.soul.note
+#: src/data/employment.js:516
+msgctxt "text:employmentCountBases.0.soul.note"
+msgid "Half-phantom and tsukumogami seats rise; shell employers refuse subtraction."
+msgstr "半靈與付喪神席增加，空殼雇主拒絕減少。"
+
+#. employmentCountBases.0.name.title
+#: src/data/employment.js:517
+msgctxt "text:employmentCountBases.0.name.title"
+msgid "By registered name"
+msgstr "按登記姓名"
+
+#. employmentCountBases.0.name.note
+#: src/data/employment.js:517
+msgctxt "text:employmentCountBases.0.name.note"
+msgid "Renamings, same-name fairies, and a self-applying form count separately."
+msgstr "改名、同名妖精與一張自己應徵的申請紙另列。"
+
+#. employmentCountBases.0.employer.title
+#: src/data/employment.js:518
+msgctxt "text:employmentCountBases.0.employer.title"
+msgid "By employer claim"
+msgstr "按雇主口供"
+
+#. employmentCountBases.0.employer.note
+#: src/data/employment.js:518
+msgctxt "text:employmentCountBases.0.employer.note"
+msgid "Remilia pre-claims fate has already hired twenty-three."
+msgstr "蕾米莉亞已先聲明命運保證錄用二十三人。"
+
+#. employmentObservationWindows.0.noon.title
+#: src/data/employment.js:522
+msgctxt "text:employmentObservationWindows.0.noon.title"
+msgid "Noon roll"
+msgstr "正午點名"
+
+#. employmentObservationWindows.0.noon.note
+#: src/data/employment.js:522
+msgctxt "text:employmentObservationWindows.0.noon.note"
+msgid "Night, ghost, and vampire shifts undercount."
+msgstr "夜班、幽靈與吸血鬼席偏少。"
+
+#. employmentObservationWindows.0.full-moon.title
+#: src/data/employment.js:523
+msgctxt "text:employmentObservationWindows.0.full-moon.title"
+msgid "Full-moon handover"
+msgstr "滿月交班"
+
+#. employmentObservationWindows.0.full-moon.note
+#: src/data/employment.js:523
+msgctxt "text:employmentObservationWindows.0.full-moon.note"
+msgid "Rabbit absences, werewolf overtime, and Eientei relief coincide."
+msgstr "月兔缺勤、狼人加班與永遠亭補位同時發生。"
+
+#. employmentObservationWindows.0.higan.title
+#: src/data/employment.js:524
+msgctxt "text:employmentObservationWindows.0.higan.title"
+msgid "After Higan week"
+msgstr "彼岸週後"
+
+#. employmentObservationWindows.0.higan.note
+#: src/data/employment.js:524
+msgctxt "text:employmentObservationWindows.0.higan.note"
+msgid "Posthumous work becomes visible; punctual arrivals have not arrived."
+msgstr "死後在職變得容易觀察，準時者反而尚未抵達。"
+
+#. employmentObservationWindows.0.erased-wednesday.title
+#: src/data/employment.js:525
+msgctxt "text:employmentObservationWindows.0.erased-wednesday.title"
+msgid "Erased Wednesday"
+msgstr "被刪除的週三"
+
+#. employmentObservationWindows.0.erased-wednesday.note
+#: src/data/employment.js:525
+msgctxt "text:employmentObservationWindows.0.erased-wednesday.note"
+msgid "Every denominator retains an absence-shaped hole."
+msgstr "所有分母都保留一個長得像缺席的洞。"
+
+#. employmentObservationWindows.0.border.title
+#: src/data/employment.js:526
+msgctxt "text:employmentObservationWindows.0.border.title"
+msgid "After the border swaps sides"
+msgstr "境界換側後"
+
+#. employmentObservationWindows.0.border.note
+#: src/data/employment.js:526
+msgctxt "text:employmentObservationWindows.0.border.note"
+msgid "Outside and Gensokyo jobs each call the other remote."
+msgstr "外界工作與幻想鄉工作互相宣稱對方是遠端。"
+
+#. employmentApplicationDecisions.0.interview.title
+#: src/data/employment.js:533
+msgctxt "text:employmentApplicationDecisions.0.interview.title"
+msgid "Interview"
+msgstr "進入面談"
+
+#. employmentApplicationDecisions.0.interview.note
+#: src/data/employment.js:534
+msgctxt "text:employmentApplicationDecisions.0.interview.note"
+msgid "The employer wants your uncrossable line in your own words."
+msgstr "雇主想聽你親自說明那條不願跨過的界線。"
+
+#. employmentApplicationDecisions.0.trial.title
+#: src/data/employment.js:539
+msgctxt "text:employmentApplicationDecisions.0.trial.title"
+msgid "One-shift trial"
+msgstr "先來一班試工"
+
+#. employmentApplicationDecisions.0.trial.note
+#: src/data/employment.js:540
+msgctxt "text:employmentApplicationDecisions.0.trial.note"
+msgid "The trial has a receipt and must have an exit even if time stops."
+msgstr "試工有回條；若時間停止，班次仍須有結束方式。"
+
+#. employmentApplicationDecisions.0.correction.title
+#: src/data/employment.js:545
+msgctxt "text:employmentApplicationDecisions.0.correction.title"
+msgid "Odd-résumé correction requested"
+msgstr "要求訂正怪歷書"
+
+#. employmentApplicationDecisions.0.correction.note
+#: src/data/employment.js:546
+msgctxt "text:employmentApplicationDecisions.0.correction.note"
+msgid "Not rejection; the employer disputes listing “being chased” as logistics."
+msgstr "不是拒絕；雇主只是不同意你把『被追趕』寫成運輸經驗。"
+
+#. employmentApplicationDecisions.0.adjacent-offer.title
+#: src/data/employment.js:551
+msgctxt "text:employmentApplicationDecisions.0.adjacent-offer.title"
+msgid "Hired in an adjacent timeline"
+msgstr "相鄰時間線錄用"
+
+#. employmentApplicationDecisions.0.adjacent-offer.note
+#: src/data/employment.js:552
+msgctxt "text:employmentApplicationDecisions.0.adjacent-offer.note"
+msgid "No wage reached this page; adjacent-you is already complaining about shifts."
+msgstr "本頁尚未收到薪資，但隔壁版本的你已經抱怨排班。"
+
+#. employmentApplicationDecisions.0.mutual-refusal.title
+#: src/data/employment.js:557
+msgctxt "text:employmentApplicationDecisions.0.mutual-refusal.title"
+msgid "Mutual refusal retained"
+msgstr "雙方保留拒絕"
+
+#. employmentApplicationDecisions.0.mutual-refusal.note
+#: src/data/employment.js:558
+msgctxt "text:employmentApplicationDecisions.0.mutual-refusal.note"
+msgid "Not failure: you and the employer agree on what cannot be accepted."
+msgstr "這不是失敗：你與雇主終於對不能接受的條款達成一致。"

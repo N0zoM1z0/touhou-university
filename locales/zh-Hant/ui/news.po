@@ -1,0 +1,26 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. labels/0
+#: src/js/news.js:33
+msgctxt "tree:labels#/0"
+msgid "Published"
+msgstr "發布"
+
+#. labels/1
+#: src/js/news.js:33
+msgctxt "tree:labels#/1"
+msgid "Category"
+msgstr "分類"
+
+#. showNews.0.action.label
+#: src/js/news.js:41
+msgctxt "text:showNews.0.action.label"
+msgid "Open closure record"
+msgstr "查看結案案卷"

@@ -1,0 +1,419 @@
+.hieda-section {
+  position: relative;
+  padding: clamp(34px, 5vw, 74px) 0 100px;
+  overflow: clip;
+  background:
+    radial-gradient(circle at 12% 5%, rgba(155, 48, 57, 0.1), transparent 24rem),
+    linear-gradient(90deg, transparent 49.9%, rgba(23, 32, 44, 0.035) 50%, transparent 50.1%),
+    var(--paper-light);
+}
+
+.hieda-section::before {
+  content: "稗田索引";
+  position: absolute;
+  top: 170px;
+  right: -24px;
+  color: rgba(155, 48, 57, 0.045);
+  font: 900 clamp(64px, 11vw, 170px) / 1 var(--serif);
+  writing-mode: vertical-rl;
+  letter-spacing: 0.12em;
+  pointer-events: none;
+}
+
+[data-hieda-index-app] {
+  position: relative;
+  z-index: 1;
+}
+
+.hieda-hero,
+.hieda-mode-switch,
+.hieda-worktable {
+  width: min(1380px, calc(100% - 64px));
+  margin-inline: auto;
+}
+
+.hieda-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+  gap: 34px 76px;
+  align-items: end;
+  padding: 30px 0 38px;
+  border-top: 1px solid var(--ink);
+}
+
+.hieda-hero-copy > p,
+.hieda-context p,
+.hieda-dossier-head > div > p,
+.hieda-local-ledger header p {
+  margin-bottom: 14px;
+  color: var(--red);
+  font-size: 0.75rem;
+  font-weight: 850;
+  letter-spacing: 0.2em;
+}
+
+.hieda-hero-copy h1 {
+  max-width: 920px;
+  margin-bottom: 20px;
+  font: 700 clamp(3rem, 6.4vw, 6.6rem) / 0.96 var(--serif);
+  letter-spacing: -0.065em;
+  white-space: pre-line;
+}
+
+.hieda-hero-copy > strong {
+  display: block;
+  max-width: 820px;
+  color: var(--ink-soft);
+  font: 500 clamp(1.05rem, 1.55vw, 1.34rem) / 1.85 var(--serif);
+}
+
+.hieda-hero > aside {
+  position: relative;
+  min-height: 180px;
+  padding: 32px 34px 28px 92px;
+  border: 1px solid rgba(114, 36, 44, 0.42);
+  background:
+    linear-gradient(135deg, rgba(155, 48, 57, 0.08), transparent 52%),
+    rgba(255, 253, 248, 0.72);
+  box-shadow: 8px 9px 0 rgba(155, 48, 57, 0.08);
+  transform: rotate(0.55deg);
+}
+
+.hieda-hero > aside::after {
+  content: "";
+  position: absolute;
+  width: 72px;
+  height: 18px;
+  top: -8px;
+  right: 48px;
+  background: rgba(177, 139, 74, 0.2);
+  transform: rotate(-3deg);
+}
+
+.hieda-hero > aside i {
+  position: absolute;
+  left: 26px;
+  top: 30px;
+  display: grid;
+  width: 44px;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 2px double var(--red);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 1.25rem var(--serif);
+}
+
+.hieda-hero > aside p {
+  margin: 0;
+  color: var(--ink-soft);
+  font: 500 1rem / 1.85 var(--serif);
+}
+
+.hieda-hero dl {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0;
+  border: 1px solid var(--line);
+  border-right: 0;
+}
+
+.hieda-hero dl div {
+  display: flex;
+  min-height: 88px;
+  padding: 17px 22px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  border-right: 1px solid var(--line);
+  background: rgba(255, 253, 248, 0.55);
+}
+
+.hieda-hero dt {
+  color: var(--ink-soft);
+  font-size: 0.75rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+}
+
+.hieda-hero dd {
+  margin: 0;
+  color: var(--red);
+  font: 700 2.25rem / 1 var(--serif);
+}
+
+.hieda-mode-switch {
+  position: sticky;
+  top: 64px;
+  z-index: 12;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) auto;
+  border: 1px solid var(--ink);
+  background: rgba(250, 247, 240, 0.94);
+  box-shadow: 0 12px 30px rgba(23, 32, 44, 0.08);
+  backdrop-filter: blur(14px);
+}
+
+.hieda-mode-switch > a {
+  display: flex;
+  min-height: 84px;
+  padding: 16px 22px;
+  align-items: center;
+  gap: 14px;
+  border-right: 1px solid var(--line);
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.hieda-mode-switch > a i {
+  display: grid;
+  flex: 0 0 36px;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 0.92rem var(--serif);
+}
+
+.hieda-mode-switch > a span,
+.hieda-mode-switch > a strong,
+.hieda-mode-switch > a small {
+  display: block;
+}
+
+.hieda-mode-switch > a strong {
+  font: 650 1rem var(--serif);
+}
+
+.hieda-mode-switch > a small {
+  margin-top: 4px;
+  color: var(--ink-soft);
+  font-size: 0.68rem;
+  line-height: 1.35;
+}
+
+.hieda-mode-switch > a:hover,
+.hieda-mode-switch > a:focus-visible,
+.hieda-mode-switch > a.active {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.hieda-mode-switch > a:hover i,
+.hieda-mode-switch > a:focus-visible i,
+.hieda-mode-switch > a.active i,
+.hieda-mode-switch > a:hover small,
+.hieda-mode-switch > a:focus-visible small,
+.hieda-mode-switch > a.active small {
+  color: #f0c7bb;
+}
+
+.hieda-mode-switch > button {
+  min-width: 150px;
+  border: 0;
+  background: var(--red);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.hieda-mode-switch > button span,
+.hieda-mode-switch > button b {
+  display: block;
+}
+
+.hieda-mode-switch > button span {
+  font: 650 0.84rem var(--serif);
+}
+
+.hieda-mode-switch > button b {
+  margin-top: 2px;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+}
+
+.hieda-mode-switch > button:hover,
+.hieda-mode-switch > button:focus-visible {
+  background: var(--red-dark);
+}
+
+.hieda-worktable {
+  display: grid;
+  grid-template-columns: minmax(250px, 310px) minmax(0, 1fr);
+  gap: clamp(30px, 4vw, 70px);
+  align-items: start;
+  padding-top: 44px;
+}
+
+.hieda-index-rail {
+  position: sticky;
+  top: 170px;
+  max-height: calc(100vh - 190px);
+  overflow: auto;
+  scrollbar-width: thin;
+  border-top: 3px solid var(--ink);
+}
+
+.hieda-index-rail > label {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: block;
+  padding: 18px 0 16px;
+  background: var(--paper-light);
+}
+
+.hieda-index-rail > label span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink-soft);
+  font-size: 0.69rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hieda-index-rail input {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  background: rgba(255, 253, 248, 0.82);
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.hieda-index-rail input:focus {
+  border-color: var(--red);
+  outline: 2px solid rgba(155, 48, 57, 0.15);
+  outline-offset: 1px;
+}
+
+.hieda-index-rail nav {
+  border-top: 1px solid var(--line);
+}
+
+.hieda-index-rail nav a {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  min-height: 88px;
+  padding: 13px 8px;
+  border-bottom: 1px solid var(--line);
+  transition: padding 160ms ease, background 160ms ease;
+}
+
+.hieda-index-rail nav a[hidden] {
+  display: none;
+}
+
+.hieda-index-rail nav a > i {
+  display: grid;
+  width: 36px;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid var(--red);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 0.86rem var(--serif);
+}
+
+.hieda-index-rail nav a small,
+.hieda-index-rail nav a strong {
+  display: block;
+}
+
+.hieda-index-rail nav a small {
+  margin-bottom: 4px;
+  color: var(--red);
+  font-size: 0.6rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+}
+
+.hieda-index-rail nav a strong {
+  font: 600 0.93rem / 1.45 var(--serif);
+}
+
+.hieda-index-rail nav a > b {
+  opacity: 0;
+  color: var(--red);
+  transition: opacity 160ms ease;
+}
+
+.hieda-index-rail nav a:hover,
+.hieda-index-rail nav a:focus-visible,
+.hieda-index-rail nav a.active {
+  padding-inline: 14px 10px;
+  background: rgba(155, 48, 57, 0.07);
+}
+
+.hieda-index-rail nav a:hover > b,
+.hieda-index-rail nav a:focus-visible > b,
+.hieda-index-rail nav a.active > b {
+  opacity: 1;
+}
+
+.hieda-filter-empty {
+  padding: 20px 6px;
+  color: var(--ink-soft);
+  font: 500 0.9rem / 1.7 var(--serif);
+}
+
+.hieda-reading-pane {
+  min-width: 0;
+}
+
+.hieda-reading-summary {
+  display: flex;
+  min-height: 56px;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 26px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--ink);
+}
+
+.hieda-reading-summary span {
+  color: var(--red);
+  font-size: 0.73rem;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+}
+
+.hieda-reading-summary b {
+  font: 700 2rem var(--serif);
+}
+
+.hieda-reading-summary small {
+  margin-left: auto;
+  color: var(--ink-soft);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+}
+
+.hieda-context {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 28px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(110deg, rgba(27, 49, 73, 0.06), transparent 58%),
+    rgba(255, 253, 248, 0.62);
+}
+
+.hieda-context > i {
+  display: grid;
+  width: 72px;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 2px double var(--red);
+  border-radius: 50%;
+  color: var(--red);
+  font: 700 1.55rem var(--serif);
+}

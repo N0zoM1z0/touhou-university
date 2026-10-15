@@ -1,0 +1,1216 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. graduationTracks.ordinary.title
+#: src/data/careers.js:7
+msgctxt "text:graduationTracks.ordinary.title"
+msgid "Ordinary four/six-year record"
+msgstr "Ordinary four/six-year record"
+
+#. graduationTracks.ordinary.note
+#: src/data/careers.js:8
+msgctxt "text:graduationTracks.ordinary.note"
+msgid "Dates follow the academic calendar. Incident days may be annotated, not torn out."
+msgstr "Dates follow the academic calendar. Incident days may be annotated, not torn out."
+
+#. graduationTracks.long-lived.title
+#: src/data/careers.js:13
+msgctxt "text:graduationTracks.long-lived.title"
+msgid "Forty-year long-lived track"
+msgstr "Forty-year long-lived track"
+
+#. graduationTracks.long-lived.note
+#: src/data/careers.js:14
+msgctxt "text:graduationTracks.long-lived.note"
+msgid "Credits are not discounted; only “next term” may continue for thirty-nine years."
+msgstr "Credits are not discounted; only “next term” may continue for thirty-nine years."
+
+#. graduationTracks.fairy-repeat.title
+#: src/data/careers.js:19
+msgctxt "text:graduationTracks.fairy-repeat.title"
+msgid "Fairy repeat-graduation record"
+msgstr "Fairy repeat-graduation record"
+
+#. graduationTracks.fairy-repeat.note
+#: src/data/careers.js:20
+msgctxt "text:graduationTracks.fairy-repeat.note"
+msgid ""
+"Forgetting graduation does not revoke it; one ceremony may reissue at most "
+"three wreaths."
+msgstr ""
+"Forgetting graduation does not revoke it; one ceremony may reissue at most "
+"three wreaths."
+
+#. graduationTracks.chronology-dispute.title
+#: src/data/careers.js:25
+msgctxt "text:graduationTracks.chronology-dispute.title"
+msgid "Chronology-dispute record"
+msgstr "Chronology-dispute record"
+
+#. graduationTracks.chronology-dispute.note
+#: src/data/careers.js:26
+msgctxt "text:graduationTracks.chronology-dispute.note"
+msgid "Graduation may precede admission, but both dates print in different inks."
+msgstr "Graduation may precede admission, but both dates print in different inks."
+
+#. careerOpenings.0.0.institution
+#: src/data/careers.js:43
+msgctxt "text:careerOpenings.0.0.institution"
+msgid "Hakurei Shrine Boundary & Donation-Box Duty"
+msgstr "Hakurei Shrine Boundary & Donation-Box Duty"
+
+#. careerOpenings.0.0.title
+#: src/data/careers.js:44
+msgctxt "text:careerOpenings.0.0.title"
+msgid "Boundary patrol & salary-not-guaranteed clerk"
+msgstr "Boundary patrol & salary-not-guaranteed clerk"
+
+#. careerOpenings.0.0.host
+#: src/data/careers.js:45
+msgctxt "text:careerOpenings.0.0.host"
+msgid "Reimu Hakurei"
+msgstr "Reimu Hakurei"
+
+#. careerOpenings.0.0.region
+#: src/data/careers.js:46
+msgctxt "text:careerOpenings.0.0.region"
+msgid "Hakurei Shrine"
+msgstr "Hakurei Shrine"
+
+#. careerOpenings.0.0.premise
+#: src/data/careers.js:53
+msgctxt "text:careerOpenings.0.0.premise"
+msgid ""
+"Patrol the boundary, draw visitor exits, and prove the wrench in the "
+"donation box is not payroll."
+msgstr ""
+"Patrol the boundary, draw visitor exits, and prove the wrench in the "
+"donation box is not payroll."
+
+#. careerOpenings.0.0.duties.0
+#: src/data/careers.js:55
+msgctxt "text:careerOpenings.0.0.duties.0"
+msgid "Record three boundaries Yukari did not move"
+msgstr "Record three boundaries Yukari did not move"
+
+#. careerOpenings.0.0.duties.1
+#: src/data/careers.js:56
+msgctxt "text:careerOpenings.0.0.duties.1"
+msgid "Separate lost property from offerings into at least two boxes"
+msgstr "Separate lost property from offerings into at least two boxes"
+
+#. careerOpenings.0.0.duties.2
+#: src/data/careers.js:57
+msgctxt "text:careerOpenings.0.0.duties.2"
+msgid "Find an exit still usable before the feast"
+msgstr "Find an exit still usable before the feast"
+
+#. careerOpenings.0.0.friction
+#: src/data/careers.js:59
+msgctxt "text:careerOpenings.0.0.friction"
+msgid ""
+"Reimu may rewrite “necessary but troublesome” as “tomorrow”; Yukari may "
+"prove the route never belonged to today."
+msgstr ""
+"Reimu may rewrite “necessary but troublesome” as “tomorrow”; Yukari may "
+"prove the route never belonged to today."
+
+#. careerOpenings.0.0.boundary
+#: src/data/careers.js:60
+msgctxt "text:careerOpenings.0.0.boundary"
+msgid "Do not widen a rift to create work."
+msgstr "Do not widen a rift to create work."
+
+#. careerOpenings.0.0.interview
+#: src/data/careers.js:61
+msgctxt "text:careerOpenings.0.0.interview"
+msgid "If the donation box and boundary vanish together, which do you log first?"
+msgstr "If the donation box and boundary vanish together, which do you log first?"
+
+#. careerOpenings.1.0.institution
+#: src/data/careers.js:67
+msgctxt "text:careerOpenings.1.0.institution"
+msgid "Scarlet Devil Mansion Zero-Minute Night Archive"
+msgstr "Scarlet Devil Mansion Zero-Minute Night Archive"
+
+#. careerOpenings.1.0.title
+#: src/data/careers.js:68
+msgctxt "text:careerOpenings.1.0.title"
+msgid "Night archivist & stopped-time observer"
+msgstr "Night archivist & stopped-time observer"
+
+#. careerOpenings.1.0.host
+#: src/data/careers.js:69
+msgctxt "text:careerOpenings.1.0.host"
+msgid "Sakuya Izayoi / Patchouli Knowledge"
+msgstr "Sakuya Izayoi / Patchouli Knowledge"
+
+#. careerOpenings.1.0.region
+#: src/data/careers.js:70
+msgctxt "text:careerOpenings.1.0.region"
+msgid "Scarlet Devil Mansion"
+msgstr "Scarlet Devil Mansion"
+
+#. careerOpenings.1.0.premise
+#: src/data/careers.js:77
+msgctxt "text:careerOpenings.1.0.premise"
+msgid "Arrange duty logs with perfect order and zero elapsed time; tea may outlast the shift."
+msgstr "Arrange duty logs with perfect order and zero elapsed time; tea may outlast the shift."
+
+#. careerOpenings.1.0.duties.0
+#: src/data/careers.js:79
+msgctxt "text:careerOpenings.1.0.duties.0"
+msgid "Retain timestamps before and after a stop"
+msgstr "Retain timestamps before and after a stop"
+
+#. careerOpenings.1.0.duties.1
+#: src/data/careers.js:80
+msgctxt "text:careerOpenings.1.0.duties.1"
+msgid "Log the path of shelving grimoires"
+msgstr "Log the path of shelving grimoires"
+
+#. careerOpenings.1.0.duties.2
+#: src/data/careers.js:81
+msgctxt "text:careerOpenings.1.0.duties.2"
+msgid "Do not convert a vampire's “later” into human minutes"
+msgstr "Do not convert a vampire's “later” into human minutes"
+
+#. careerOpenings.1.0.friction
+#: src/data/careers.js:83
+msgctxt "text:careerOpenings.1.0.friction"
+msgid ""
+"Sakuya's record is punctual even when time is not; Patchouli rejects “the "
+"book walked” as complete provenance."
+msgstr ""
+"Sakuya's record is punctual even when time is not; Patchouli rejects “the "
+"book walked” as complete provenance."
+
+#. careerOpenings.1.0.boundary
+#: src/data/careers.js:84
+msgctxt "text:careerOpenings.1.0.boundary"
+msgid "Never backfill consent during stopped time."
+msgstr "Never backfill consent during stopped time."
+
+#. careerOpenings.1.0.interview
+#: src/data/careers.js:85
+msgctxt "text:careerOpenings.1.0.interview"
+msgid "Eight hours of work finish in zero minutes. What do you record?"
+msgstr "Eight hours of work finish in zero minutes. What do you record?"
+
+#. careerOpenings.2.0.institution
+#: src/data/careers.js:91
+msgctxt "text:careerOpenings.2.0.institution"
+msgid "Eientei Cross-Species Night Clinic"
+msgstr "Eientei Cross-Species Night Clinic"
+
+#. careerOpenings.2.0.title
+#: src/data/careers.js:92
+msgctxt "text:careerOpenings.2.0.title"
+msgid "Lunar handover & bamboo emergency coordinator"
+msgstr "Lunar handover & bamboo emergency coordinator"
+
+#. careerOpenings.2.0.host
+#: src/data/careers.js:93
+msgctxt "text:careerOpenings.2.0.host"
+msgid "Eirin Yagokoro / Reisen"
+msgstr "Eirin Yagokoro / Reisen"
+
+#. careerOpenings.2.0.region
+#: src/data/careers.js:94
+msgctxt "text:careerOpenings.2.0.region"
+msgid "Eientei & Bamboo Forest"
+msgstr "Eientei & Bamboo Forest"
+
+#. careerOpenings.2.0.premise
+#: src/data/careers.js:101
+msgctxt "text:careerOpenings.2.0.premise"
+msgid "Keep different pulses, wings, life states, and lunar responses distinct on one handover."
+msgstr "Keep different pulses, wings, life states, and lunar responses distinct on one handover."
+
+#. careerOpenings.2.0.duties.0
+#: src/data/careers.js:103
+msgctxt "text:careerOpenings.2.0.duties.0"
+msgid "Complete handover under full and non-full moons"
+msgstr "Complete handover under full and non-full moons"
+
+#. careerOpenings.2.0.duties.1
+#: src/data/careers.js:104
+msgctxt "text:careerOpenings.2.0.duties.1"
+msgid "Retain a lost patient's original direction statement"
+msgstr "Retain a lost patient's original direction statement"
+
+#. careerOpenings.2.0.duties.2
+#: src/data/careers.js:105
+msgctxt "text:careerOpenings.2.0.duties.2"
+msgid "Rewrite permanent efficacy as stoppable observation"
+msgstr "Rewrite permanent efficacy as stoppable observation"
+
+#. careerOpenings.2.0.friction
+#: src/data/careers.js:107
+msgctxt "text:careerOpenings.2.0.friction"
+msgid "Eirin asks whom “permanent” applies to; rabbit transit may depart before the form signs."
+msgstr "Eirin asks whom “permanent” applies to; rabbit transit may depart before the form signs."
+
+#. careerOpenings.2.0.boundary
+#: src/data/careers.js:108
+msgctxt "text:careerOpenings.2.0.boundary"
+msgid "Hourai components are not employee benefits."
+msgstr "Hourai components are not employee benefits."
+
+#. careerOpenings.2.0.interview
+#: src/data/careers.js:109
+msgctxt "text:careerOpenings.2.0.interview"
+msgid "A patient says they became immortal yesterday. Ask date or dose first?"
+msgstr "A patient says they became immortal yesterday. Ask date or dose first?"
+
+#. careerOpenings.3.0.institution
+#: src/data/careers.js:115
+msgctxt "text:careerOpenings.3.0.institution"
+msgid "Kappa Workshop Village Public Trial Desk"
+msgstr "Kappa Workshop Village Public Trial Desk"
+
+#. careerOpenings.3.0.title
+#: src/data/careers.js:116
+msgctxt "text:careerOpenings.3.0.title"
+msgid "Tape-batch & user-button engineer"
+msgstr "Tape-batch & user-button engineer"
+
+#. careerOpenings.3.0.host
+#: src/data/careers.js:117
+msgctxt "text:careerOpenings.3.0.host"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. careerOpenings.3.0.region
+#: src/data/careers.js:118
+msgctxt "text:careerOpenings.3.0.region"
+msgid "Youkai Mountain Ravine / Human Village"
+msgstr "Youkai Mountain Ravine / Human Village"
+
+#. careerOpenings.3.0.premise
+#: src/data/careers.js:125
+msgctxt "text:careerOpenings.3.0.premise"
+msgid ""
+"Turn smoking prototypes into public equipment villagers can open, repair, "
+"and press themselves."
+msgstr ""
+"Turn smoking prototypes into public equipment villagers can open, repair, "
+"and press themselves."
+
+#. careerOpenings.3.0.duties.0
+#: src/data/careers.js:127
+msgctxt "text:careerOpenings.3.0.duties.0"
+msgid "Attach units, time, and tape batch to every number"
+msgstr "Attach units, time, and tape batch to every number"
+
+#. careerOpenings.3.0.duties.1
+#: src/data/careers.js:128
+msgctxt "text:careerOpenings.3.0.duties.1"
+msgid "Run one trial with an actual user"
+msgstr "Run one trial with an actual user"
+
+#. careerOpenings.3.0.duties.2
+#: src/data/careers.js:129
+msgctxt "text:careerOpenings.3.0.duties.2"
+msgid "Retain the failure day caused by a reversed part"
+msgstr "Retain the failure day caused by a reversed part"
+
+#. careerOpenings.3.0.friction
+#: src/data/careers.js:131
+msgctxt "text:careerOpenings.3.0.friction"
+msgid ""
+"Nitori calls temporary patches Production v2; if the machine repairs another "
+"machine, rewrite the brief."
+msgstr ""
+"Nitori calls temporary patches Production v2; if the machine repairs another "
+"machine, rewrite the brief."
+
+#. careerOpenings.3.0.boundary
+#: src/data/careers.js:132
+msgctxt "text:careerOpenings.3.0.boundary"
+msgid "A kappa demo cannot replace village user testing."
+msgstr "A kappa demo cannot replace village user testing."
+
+#. careerOpenings.3.0.interview
+#: src/data/careers.js:133
+msgctxt "text:careerOpenings.3.0.interview"
+msgid "A box smokes normally but will not open. Is it repairable?"
+msgstr "A box smokes normally but will not open. Is it repairable?"
+
+#. careerOpenings.4.0.institution
+#: src/data/careers.js:139
+msgctxt "text:careerOpenings.4.0.institution"
+msgid "Bunbunmaru Public Corrections Desk"
+msgstr "Bunbunmaru Public Corrections Desk"
+
+#. careerOpenings.4.0.title
+#: src/data/careers.js:140
+msgctxt "text:careerOpenings.4.0.title"
+msgid "Extra-edition version & right-of-reply editor"
+msgstr "Extra-edition version & right-of-reply editor"
+
+#. careerOpenings.4.0.host
+#: src/data/careers.js:141
+msgctxt "text:careerOpenings.4.0.host"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. careerOpenings.4.0.region
+#: src/data/careers.js:142
+msgctxt "text:careerOpenings.4.0.region"
+msgid "Youkai Mountain / Airspace"
+msgstr "Youkai Mountain / Airspace"
+
+#. careerOpenings.4.0.premise
+#: src/data/careers.js:149
+msgctxt "text:careerOpenings.4.0.premise"
+msgid "When news precedes events, retain source, original headline, correction, and reply."
+msgstr "When news precedes events, retain source, original headline, correction, and reply."
+
+#. careerOpenings.4.0.duties.0
+#: src/data/careers.js:151
+msgctxt "text:careerOpenings.4.0.duties.0"
+msgid "Publish one self-caused correction daily"
+msgstr "Publish one self-caused correction daily"
+
+#. careerOpenings.4.0.duties.1
+#: src/data/careers.js:152
+msgctxt "text:careerOpenings.4.0.duties.1"
+msgid "Record anonymity separately from speed"
+msgstr "Record anonymity separately from speed"
+
+#. careerOpenings.4.0.duties.2
+#: src/data/careers.js:153
+msgctxt "text:careerOpenings.4.0.duties.2"
+msgid "Retain unused but verifiable headlines"
+msgstr "Retain unused but verifiable headlines"
+
+#. careerOpenings.4.0.friction
+#: src/data/careers.js:155
+msgctxt "text:careerOpenings.4.0.friction"
+msgid "Aya may profile the hire before interview and turn your correction into a faster extra."
+msgstr "Aya may profile the hire before interview and turn your correction into a faster extra."
+
+#. careerOpenings.4.0.boundary
+#: src/data/careers.js:156
+msgctxt "text:careerOpenings.4.0.boundary"
+msgid "Photographable does not mean publishable."
+msgstr "Photographable does not mean publishable."
+
+#. careerOpenings.4.0.interview
+#: src/data/careers.js:157
+msgctxt "text:careerOpenings.4.0.interview"
+msgid "Your false hiring story earned the interview. Correct it first?"
+msgstr "Your false hiring story earned the interview. Correct it first?"
+
+#. careerOpenings.5.0.institution
+#: src/data/careers.js:163
+msgctxt "text:careerOpenings.5.0.institution"
+msgid "Human Village Terakoya Missing-Year Textbook Room"
+msgstr "Human Village Terakoya Missing-Year Textbook Room"
+
+#. careerOpenings.5.0.title
+#: src/data/careers.js:164
+msgctxt "text:careerOpenings.5.0.title"
+msgid "Oral-history teacher & deleted-Wednesday tutor"
+msgstr "Oral-history teacher & deleted-Wednesday tutor"
+
+#. careerOpenings.5.0.host
+#: src/data/careers.js:165
+msgctxt "text:careerOpenings.5.0.host"
+msgid "Keine Kamishirasawa / Hieda no Akyuu"
+msgstr "Keine Kamishirasawa / Hieda no Akyuu"
+
+#. careerOpenings.5.0.region
+#: src/data/careers.js:166
+msgctxt "text:careerOpenings.5.0.region"
+msgid "Human Village"
+msgstr "Human Village"
+
+#. careerOpenings.5.0.premise
+#: src/data/careers.js:173
+msgctxt "text:careerOpenings.5.0.premise"
+msgid "Teach three versions of one event and retain proof when Wednesday is deleted."
+msgstr "Teach three versions of one event and retain proof when Wednesday is deleted."
+
+#. careerOpenings.5.0.duties.0
+#: src/data/careers.js:175
+msgctxt "text:careerOpenings.5.0.duties.0"
+msgid "Preserve one version you distrust"
+msgstr "Preserve one version you distrust"
+
+#. careerOpenings.5.0.duties.1
+#: src/data/careers.js:176
+msgctxt "text:careerOpenings.5.0.duties.1"
+msgid "Add a date range to a long-lived speaker's childhood"
+msgstr "Add a date range to a long-lived speaker's childhood"
+
+#. careerOpenings.5.0.duties.2
+#: src/data/careers.js:177
+msgctxt "text:careerOpenings.5.0.duties.2"
+msgid "Catalogue people who left no writing"
+msgstr "Catalogue people who left no writing"
+
+#. careerOpenings.5.0.friction
+#: src/data/careers.js:179
+msgctxt "text:careerOpenings.5.0.friction"
+msgid ""
+"Keine can erase history; Akyuu wants the deletion receipt. Neither treats "
+"blank as never happened."
+msgstr ""
+"Keine can erase history; Akyuu wants the deletion receipt. Neither treats "
+"blank as never happened."
+
+#. careerOpenings.5.0.boundary
+#: src/data/careers.js:180
+msgctxt "text:careerOpenings.5.0.boundary"
+msgid "Withdrawn passages belong only in the closed catalogue."
+msgstr "Withdrawn passages belong only in the closed catalogue."
+
+#. careerOpenings.5.0.interview
+#: src/data/careers.js:181
+msgctxt "text:careerOpenings.5.0.interview"
+msgid "A student graduates before admission. Which page do you fix first?"
+msgstr "A student graduates before admission. Which page do you fix first?"
+
+#. careerOpenings.6.0.institution
+#: src/data/careers.js:187
+msgctxt "text:careerOpenings.6.0.institution"
+msgid "Myouren Temple Shared Table"
+msgstr "Myouren Temple Shared Table"
+
+#. careerOpenings.6.0.title
+#: src/data/careers.js:188
+msgctxt "text:careerOpenings.6.0.title"
+msgid "Adjournment, meals & de-escalation coordinator"
+msgstr "Adjournment, meals & de-escalation coordinator"
+
+#. careerOpenings.6.0.host
+#: src/data/careers.js:189
+msgctxt "text:careerOpenings.6.0.host"
+msgid "Byakuren Hijiri"
+msgstr "Byakuren Hijiri"
+
+#. careerOpenings.6.0.region
+#: src/data/careers.js:190
+msgctxt "text:careerOpenings.6.0.region"
+msgid "Myouren Temple"
+msgstr "Myouren Temple"
+
+#. careerOpenings.6.0.premise
+#: src/data/careers.js:197
+msgctxt "text:careerOpenings.6.0.premise"
+msgid "Seat humans, youkai, and faiths together—and give the argument a real closing time."
+msgstr "Seat humans, youkai, and faiths together—and give the argument a real closing time."
+
+#. careerOpenings.6.0.duties.0
+#: src/data/careers.js:199
+msgctxt "text:careerOpenings.6.0.duties.0"
+msgid "Append dissent at the same font size"
+msgstr "Append dissent at the same font size"
+
+#. careerOpenings.6.0.duties.1
+#: src/data/careers.js:200
+msgctxt "text:careerOpenings.6.0.duties.1"
+msgid "Treat adjournment as facilitation work"
+msgstr "Treat adjournment as facilitation work"
+
+#. careerOpenings.6.0.duties.2
+#: src/data/careers.js:201
+msgctxt "text:careerOpenings.6.0.duties.2"
+msgid "Stop the meeting continuing down residence halls"
+msgstr "Stop the meeting continuing down residence halls"
+
+#. careerOpenings.6.0.friction
+#: src/data/careers.js:203
+msgctxt "text:careerOpenings.6.0.friction"
+msgid ""
+"Three faiths may all interpret goodwill as endorsement; the night-sparrow "
+"stall hears the closing bell as another order."
+msgstr ""
+"Three faiths may all interpret goodwill as endorsement; the night-sparrow "
+"stall hears the closing bell as another order."
+
+#. careerOpenings.6.0.boundary
+#: src/data/careers.js:204
+msgctxt "text:careerOpenings.6.0.boundary"
+msgid "Joining dinner is not consent to recruitment."
+msgstr "Joining dinner is not consent to recruitment."
+
+#. careerOpenings.6.0.interview
+#: src/data/careers.js:205
+msgctxt "text:careerOpenings.6.0.interview"
+msgid "Three parties each demand the only gate. How do you begin adjournment?"
+msgstr "Three parties each demand the only gate. How do you begin adjournment?"
+
+#. careerOpenings.7.0.institution
+#: src/data/careers.js:211
+msgctxt "text:careerOpenings.7.0.institution"
+msgid "Moriya Wind & Festival Infrastructure Office"
+msgstr "Moriya Wind & Festival Infrastructure Office"
+
+#. careerOpenings.7.0.title
+#: src/data/careers.js:212
+msgctxt "text:careerOpenings.7.0.title"
+msgid "Wind, faith attribution & backup engineer"
+msgstr "Wind, faith attribution & backup engineer"
+
+#. careerOpenings.7.0.host
+#: src/data/careers.js:213
+msgctxt "text:careerOpenings.7.0.host"
+msgid "Kanako Yasaka / Sanae Kochiya"
+msgstr "Kanako Yasaka / Sanae Kochiya"
+
+#. careerOpenings.7.0.region
+#: src/data/careers.js:214
+msgctxt "text:careerOpenings.7.0.region"
+msgid "Youkai Mountain / Moriya Shrine"
+msgstr "Youkai Mountain / Moriya Shrine"
+
+#. careerOpenings.7.0.premise
+#: src/data/careers.js:221
+msgctxt "text:careerOpenings.7.0.premise"
+msgid "Trace festival power, wind routes, and backup while naming who claims each miracle."
+msgstr "Trace festival power, wind routes, and backup while naming who claims each miracle."
+
+#. careerOpenings.7.0.duties.0
+#: src/data/careers.js:223
+msgctxt "text:careerOpenings.7.0.duties.0"
+msgid "Record divine merit separately from kilowatts"
+msgstr "Record divine merit separately from kilowatts"
+
+#. careerOpenings.7.0.duties.1
+#: src/data/careers.js:224
+msgctxt "text:careerOpenings.7.0.duties.1"
+msgid "Test one faith-independent backup"
+msgstr "Test one faith-independent backup"
+
+#. careerOpenings.7.0.duties.2
+#: src/data/careers.js:225
+msgctxt "text:careerOpenings.7.0.duties.2"
+msgid "Publish three accounts of festival ownership"
+msgstr "Publish three accounts of festival ownership"
+
+#. careerOpenings.7.0.friction
+#: src/data/careers.js:227
+msgctxt "text:careerOpenings.7.0.friction"
+msgid ""
+"Kanako may treat stable power as a mandate; Sanae's Outside device may have "
+"a plug that rejects Gensokyo."
+msgstr ""
+"Kanako may treat stable power as a mandate; Sanae's Outside device may have "
+"a plug that rejects Gensokyo."
+
+#. careerOpenings.7.0.boundary
+#: src/data/careers.js:228
+msgctxt "text:careerOpenings.7.0.boundary"
+msgid "Backup cannot be another god's verbal promise."
+msgstr "Backup cannot be another god's verbal promise."
+
+#. careerOpenings.7.0.interview
+#: src/data/careers.js:229
+msgctxt "text:careerOpenings.7.0.interview"
+msgid "Wind power fails at a festival; the wind god says wind is normal. Which meter?"
+msgstr "Wind power fails at a festival; the wind god says wind is normal. Which meter?"
+
+#. careerOpenings.8.0.institution
+#: src/data/careers.js:235
+msgctxt "text:careerOpenings.8.0.institution"
+msgid "Hakugyokurou Half-Phantom Roll & Feast Logistics"
+msgstr "Hakugyokurou Half-Phantom Roll & Feast Logistics"
+
+#. careerOpenings.8.0.title
+#: src/data/careers.js:236
+msgctxt "text:careerOpenings.8.0.title"
+msgid "Phantom roll-call & pre-consumption inventory clerk"
+msgstr "Phantom roll-call & pre-consumption inventory clerk"
+
+#. careerOpenings.8.0.host
+#: src/data/careers.js:237
+msgctxt "text:careerOpenings.8.0.host"
+msgid "Youmu Konpaku / Yuyuko Saigyouji"
+msgstr "Youmu Konpaku / Yuyuko Saigyouji"
+
+#. careerOpenings.8.0.region
+#: src/data/careers.js:238
+msgctxt "text:careerOpenings.8.0.region"
+msgid "Hakugyokurou"
+msgstr "Hakugyokurou"
+
+#. careerOpenings.8.0.premise
+#: src/data/careers.js:245
+msgctxt "text:careerOpenings.8.0.premise"
+msgid "Separate phantoms present, passing, being eaten, and insisting they are petals."
+msgstr "Separate phantoms present, passing, being eaten, and insisting they are petals."
+
+#. careerOpenings.8.0.duties.0
+#: src/data/careers.js:247
+msgctxt "text:careerOpenings.8.0.duties.0"
+msgid "Decide whether a half-phantom gets one or half a badge"
+msgstr "Decide whether a half-phantom gets one or half a badge"
+
+#. careerOpenings.8.0.duties.1
+#: src/data/careers.js:248
+msgctxt "text:careerOpenings.8.0.duties.1"
+msgid "Call the same roll before and after dinner"
+msgstr "Call the same roll before and after dinner"
+
+#. careerOpenings.8.0.duties.2
+#: src/data/careers.js:249
+msgctxt "text:careerOpenings.8.0.duties.2"
+msgid "Retain Yuyuko's self-made fifth column"
+msgstr "Retain Yuyuko's self-made fifth column"
+
+#. careerOpenings.8.0.friction
+#: src/data/careers.js:251
+msgctxt "text:careerOpenings.8.0.friction"
+msgid "Youmu counts seriously; Yuyuko seriously asks whether she is guest, host, or menu."
+msgstr "Youmu counts seriously; Yuyuko seriously asks whether she is guest, host, or menu."
+
+#. careerOpenings.8.0.boundary
+#: src/data/careers.js:252
+msgctxt "text:careerOpenings.8.0.boundary"
+msgid "Do not infer the roll total from plates left after dinner."
+msgstr "Do not infer the roll total from plates left after dinner."
+
+#. careerOpenings.8.0.interview
+#: src/data/careers.js:253
+msgctxt "text:careerOpenings.8.0.interview"
+msgid "Does one half-phantom need one diploma or two?"
+msgstr "Does one half-phantom need one diploma or two?"
+
+#. careerOpenings.9.0.institution
+#: src/data/careers.js:259
+msgctxt "text:careerOpenings.9.0.institution"
+msgid "Chireiden Unspoken-Evidence Room"
+msgstr "Chireiden Unspoken-Evidence Room"
+
+#. careerOpenings.9.0.title
+#: src/data/careers.js:260
+msgctxt "text:careerOpenings.9.0.title"
+msgid "Mental-privacy & fire-energy incident recorder"
+msgstr "Mental-privacy & fire-energy incident recorder"
+
+#. careerOpenings.9.0.host
+#: src/data/careers.js:261
+msgctxt "text:careerOpenings.9.0.host"
+msgid "Satori Komeiji"
+msgstr "Satori Komeiji"
+
+#. careerOpenings.9.0.region
+#: src/data/careers.js:262
+msgctxt "text:careerOpenings.9.0.region"
+msgid "Chireiden / Blazing Hell Ruins"
+msgstr "Chireiden / Blazing Hell Ruins"
+
+#. careerOpenings.9.0.premise
+#: src/data/careers.js:269
+msgctxt "text:careerOpenings.9.0.premise"
+msgid "Record equipment, flame, and spoken testimony; read thoughts keep separate permissions."
+msgstr "Record equipment, flame, and spoken testimony; read thoughts keep separate permissions."
+
+#. careerOpenings.9.0.duties.0
+#: src/data/careers.js:271
+msgctxt "text:careerOpenings.9.0.duties.0"
+msgid "Separate reading, recording, and use"
+msgstr "Separate reading, recording, and use"
+
+#. careerOpenings.9.0.duties.1
+#: src/data/careers.js:272
+msgctxt "text:careerOpenings.9.0.duties.1"
+msgid "Leave a content-free receipt for unwritten material"
+msgstr "Leave a content-free receipt for unwritten material"
+
+#. careerOpenings.9.0.duties.2
+#: src/data/careers.js:273
+msgctxt "text:careerOpenings.9.0.duties.2"
+msgid "Trigger stopping rules before energy drift expands"
+msgstr "Trigger stopping rules before energy drift expands"
+
+#. careerOpenings.9.0.friction
+#: src/data/careers.js:275
+msgctxt "text:careerOpenings.9.0.friction"
+msgid "Satori knows what you plan to hide but still waits for an explicit record choice."
+msgstr "Satori knows what you plan to hide but still waits for an explicit record choice."
+
+#. careerOpenings.9.0.boundary
+#: src/data/careers.js:276
+msgctxt "text:careerOpenings.9.0.boundary"
+msgid "Knowing is not research permission."
+msgstr "Knowing is not research permission."
+
+#. careerOpenings.9.0.interview
+#: src/data/careers.js:277
+msgctxt "text:careerOpenings.9.0.interview"
+msgid "Your unspoken answer was correct. Does it count?"
+msgstr "Your unspoken answer was correct. Does it count?"
+
+#. careerOpenings.10.0.institution
+#: src/data/careers.js:283
+msgctxt "text:careerOpenings.10.0.institution"
+msgid "Kourindou Outside-Object Use & Price Dispute Desk"
+msgstr "Kourindou Outside-Object Use & Price Dispute Desk"
+
+#. careerOpenings.10.0.title
+#: src/data/careers.js:284
+msgctxt "text:careerOpenings.10.0.title"
+msgid "Object-name, use & anachronistic pricing clerk"
+msgstr "Object-name, use & anachronistic pricing clerk"
+
+#. careerOpenings.10.0.host
+#: src/data/careers.js:285
+msgctxt "text:careerOpenings.10.0.host"
+msgid "Rinnosuke Morichika"
+msgstr "Rinnosuke Morichika"
+
+#. careerOpenings.10.0.region
+#: src/data/careers.js:286
+msgctxt "text:careerOpenings.10.0.region"
+msgid "Forest of Magic / Kourindou"
+msgstr "Forest of Magic / Kourindou"
+
+#. careerOpenings.10.0.premise
+#: src/data/careers.js:293
+msgctxt "text:careerOpenings.10.0.premise"
+msgid "After naming, let wear, manuals, object testimony, and price tags dispute use."
+msgstr "After naming, let wear, manuals, object testimony, and price tags dispute use."
+
+#. careerOpenings.10.0.duties.0
+#: src/data/careers.js:295
+msgctxt "text:careerOpenings.10.0.duties.0"
+msgid "Retain two use hypotheses per object"
+msgstr "Retain two use hypotheses per object"
+
+#. careerOpenings.10.0.duties.1
+#: src/data/careers.js:296
+msgctxt "text:careerOpenings.10.0.duties.1"
+msgid "Use non-destructive tests only"
+msgstr "Use non-destructive tests only"
+
+#. careerOpenings.10.0.duties.2
+#: src/data/careers.js:297
+msgctxt "text:careerOpenings.10.0.duties.2"
+msgid "Record an object's refusal to be dismantled"
+msgstr "Record an object's refusal to be dismantled"
+
+#. careerOpenings.10.0.friction
+#: src/data/careers.js:299
+msgctxt "text:careerOpenings.10.0.friction"
+msgid ""
+"Rinnosuke may name it correctly and date its price entirely wrong; Marisa "
+"writes “borrowed” outside provenance."
+msgstr ""
+"Rinnosuke may name it correctly and date its price entirely wrong; Marisa "
+"writes “borrowed” outside provenance."
+
+#. careerOpenings.10.0.boundary
+#: src/data/careers.js:300
+msgctxt "text:careerOpenings.10.0.boundary"
+msgid "Appraisal does not create ownership."
+msgstr "Appraisal does not create ownership."
+
+#. careerOpenings.10.0.interview
+#: src/data/careers.js:301
+msgctxt "text:careerOpenings.10.0.interview"
+msgid "You know the name; the object denies it. Whose version titles the file?"
+msgstr "You know the name; the object denies it. Whose version titles the file?"
+
+#. careerOpenings.11.0.institution
+#: src/data/careers.js:307
+msgctxt "text:careerOpenings.11.0.institution"
+msgid "Sanzu Delayed Arrival & Property Appeal Ferry"
+msgstr "Sanzu Delayed Arrival & Property Appeal Ferry"
+
+#. careerOpenings.11.0.title
+#: src/data/careers.js:308
+msgctxt "text:careerOpenings.11.0.title"
+msgid "Queue, fare & late-deceased appeal clerk"
+msgstr "Queue, fare & late-deceased appeal clerk"
+
+#. careerOpenings.11.0.host
+#: src/data/careers.js:309
+msgctxt "text:careerOpenings.11.0.host"
+msgid "Komachi Onozuka / Eiki Shiki"
+msgstr "Komachi Onozuka / Eiki Shiki"
+
+#. careerOpenings.11.0.region
+#: src/data/careers.js:310
+msgctxt "text:careerOpenings.11.0.region"
+msgid "Sanzu River / Higan"
+msgstr "Sanzu River / Higan"
+
+#. careerOpenings.11.0.premise
+#: src/data/careers.js:317
+msgctxt "text:careerOpenings.11.0.premise"
+msgid "Handle ferry papers arriving after death, before judgment, or claiming auditor status."
+msgstr "Handle ferry papers arriving after death, before judgment, or claiming auditor status."
+
+#. careerOpenings.11.0.duties.0
+#: src/data/careers.js:319
+msgctxt "text:careerOpenings.11.0.duties.0"
+msgid "Separate queue time from slacking time"
+msgstr "Separate queue time from slacking time"
+
+#. careerOpenings.11.0.duties.1
+#: src/data/careers.js:320
+msgctxt "text:careerOpenings.11.0.duties.1"
+msgid "Retain the prior ruling for every property appeal"
+msgstr "Retain the prior ruling for every property appeal"
+
+#. careerOpenings.11.0.duties.2
+#: src/data/careers.js:321
+msgctxt "text:careerOpenings.11.0.duties.2"
+msgid "Find the same boat before Higan week ends"
+msgstr "Find the same boat before Higan week ends"
+
+#. careerOpenings.11.0.friction
+#: src/data/careers.js:323
+msgctxt "text:careerOpenings.11.0.friction"
+msgid ""
+"Komachi offers persuasive delay reasons; Eiki notes a valid reason does not "
+"erase responsibility."
+msgstr ""
+"Komachi offers persuasive delay reasons; Eiki notes a valid reason does not "
+"erase responsibility."
+
+#. careerOpenings.11.0.boundary
+#: src/data/careers.js:324
+msgctxt "text:careerOpenings.11.0.boundary"
+msgid "Do not average a queue into one punctual arrival."
+msgstr "Do not average a queue into one punctual arrival."
+
+#. careerOpenings.11.0.interview
+#: src/data/careers.js:325
+msgctxt "text:careerOpenings.11.0.interview"
+msgid "An appeal arrives before its ruling. Is it cause or attachment?"
+msgstr "An appeal arrives before its ruling. Is it cause or attachment?"
+
+#. careerDomainOptions.0.1
+#: src/data/careers.js:330
+msgctxt "text:careerDomainOptions.0.1"
+msgid "Field & routes"
+msgstr "Field & routes"
+
+#. careerDomainOptions.1.1
+#: src/data/careers.js:331
+msgctxt "text:careerDomainOptions.1.1"
+msgid "Archives & memory"
+msgstr "Archives & memory"
+
+#. careerDomainOptions.2.1
+#: src/data/careers.js:332
+msgctxt "text:careerDomainOptions.2.1"
+msgid "Research & methods"
+msgstr "Research & methods"
+
+#. careerDomainOptions.3.1
+#: src/data/careers.js:333
+msgctxt "text:careerDomainOptions.3.1"
+msgid "Care & handover"
+msgstr "Care & handover"
+
+#. careerDomainOptions.4.1
+#: src/data/careers.js:334
+msgctxt "text:careerDomainOptions.4.1"
+msgid "Workshop & repair"
+msgstr "Workshop & repair"
+
+#. careerDomainOptions.5.1
+#: src/data/careers.js:335
+msgctxt "text:careerDomainOptions.5.1"
+msgid "News & corrections"
+msgstr "News & corrections"
+
+#. careerDomainOptions.6.1
+#: src/data/careers.js:336
+msgctxt "text:careerDomainOptions.6.1"
+msgid "Governance & mediation"
+msgstr "Governance & mediation"
+
+#. careerDomainOptions.7.1
+#: src/data/careers.js:337
+msgctxt "text:careerDomainOptions.7.1"
+msgid "Teaching & shared life"
+msgstr "Teaching & shared life"
+
+#. careerScheduleOptions.0.1
+#: src/data/careers.js:341
+msgctxt "text:careerScheduleOptions.0.1"
+msgid "Day bells"
+msgstr "Day bells"
+
+#. careerScheduleOptions.1.1
+#: src/data/careers.js:342
+msgctxt "text:careerScheduleOptions.1.1"
+msgid "Dawn & mist"
+msgstr "Dawn & mist"
+
+#. careerScheduleOptions.2.1
+#: src/data/careers.js:343
+msgctxt "text:careerScheduleOptions.2.1"
+msgid "Dusk & before feasts"
+msgstr "Dusk & before feasts"
+
+#. careerScheduleOptions.3.1
+#: src/data/careers.js:344
+msgctxt "text:careerScheduleOptions.3.1"
+msgid "Night & underground"
+msgstr "Night & underground"
+
+#. careerScheduleOptions.4.1
+#: src/data/careers.js:345
+msgctxt "text:careerScheduleOptions.4.1"
+msgid "Lunar duty"
+msgstr "Lunar duty"
+
+#. careerScheduleOptions.5.1
+#: src/data/careers.js:346
+msgctxt "text:careerScheduleOptions.5.1"
+msgid "Non-linear time accepted"
+msgstr "Non-linear time accepted"
+
+#. alumniChapters.village-twilight.title
+#: src/data/careers.js:353
+msgctxt "text:alumniChapters.village-twilight.title"
+msgid "Village Twilight Chronicle Circle"
+msgstr "Village Twilight Chronicle Circle"
+
+#. alumniChapters.village-twilight.meeting
+#: src/data/careers.js:354
+msgctxt "text:alumniChapters.village-twilight.meeting"
+msgid "The last Wednesday that still exists each month"
+msgstr "The last Wednesday that still exists each month"
+
+#. alumniChapters.village-twilight.steward
+#: src/data/careers.js:355
+msgctxt "text:alumniChapters.village-twilight.steward"
+msgid "Keine keeps absences; Akyuu keeps corrections to them."
+msgstr "Keine keeps absences; Akyuu keeps corrections to them."
+
+#. alumniChapters.village-twilight.unresolved
+#: src/data/careers.js:356
+msgctxt "text:alumniChapters.village-twilight.unresolved"
+msgid "Whether an erased cohort can receive a make-up graduation."
+msgstr "Whether an erased cohort can receive a make-up graduation."
+
+#. alumniChapters.misty-lake-night-readers.title
+#: src/data/careers.js:362
+msgctxt "text:alumniChapters.misty-lake-night-readers.title"
+msgid "Misty Lake Night Readers Chapter"
+msgstr "Misty Lake Night Readers Chapter"
+
+#. alumniChapters.misty-lake-night-readers.meeting
+#: src/data/careers.js:363
+msgctxt "text:alumniChapters.misty-lake-night-readers.meeting"
+msgid "After closing, if the books remain awake"
+msgstr "After closing, if the books remain awake"
+
+#. alumniChapters.misty-lake-night-readers.steward
+#: src/data/careers.js:364
+msgctxt "text:alumniChapters.misty-lake-night-readers.steward"
+msgid "Koakuma punches cards; fairies count holes as attendance."
+msgstr "Koakuma punches cards; fairies count holes as attendance."
+
+#. alumniChapters.misty-lake-night-readers.unresolved
+#: src/data/careers.js:365
+msgctxt "text:alumniChapters.misty-lake-night-readers.unresolved"
+msgid "Whether a book refusing return may join as an alum."
+msgstr "Whether a book refusing return may join as an alum."
+
+#. alumniChapters.mountain-windworks.title
+#: src/data/careers.js:371
+msgctxt "text:alumniChapters.mountain-windworks.title"
+msgid "Youkai Mountain Windworks Guild"
+msgstr "Youkai Mountain Windworks Guild"
+
+#. alumniChapters.mountain-windworks.meeting
+#: src/data/careers.js:372
+msgctxt "text:alumniChapters.mountain-windworks.meeting"
+msgid "When wind can carry away the wrong blueprint"
+msgstr "When wind can carry away the wrong blueprint"
+
+#. alumniChapters.mountain-windworks.steward
+#: src/data/careers.js:373
+msgctxt "text:alumniChapters.mountain-windworks.steward"
+msgid "Nitori brings tape; Aya brings an extra it has not fixed."
+msgstr "Nitori brings tape; Aya brings an extra it has not fixed."
+
+#. alumniChapters.mountain-windworks.unresolved
+#: src/data/careers.js:374
+msgctxt "text:alumniChapters.mountain-windworks.unresolved"
+msgid "Whether successful infrastructure creates festival ownership."
+msgstr "Whether successful infrastructure creates festival ownership."
+
+#. alumniChapters.eientei-moon-shift.title
+#: src/data/careers.js:380
+msgctxt "text:alumniChapters.eientei-moon-shift.title"
+msgid "Eientei Moonshift Chapter"
+msgstr "Eientei Moonshift Chapter"
+
+#. alumniChapters.eientei-moon-shift.meeting
+#: src/data/careers.js:381
+msgctxt "text:alumniChapters.eientei-moon-shift.meeting"
+msgid "Once full and once non-full; the comfortable one alone does not count"
+msgstr "Once full and once non-full; the comfortable one alone does not count"
+
+#. alumniChapters.eientei-moon-shift.steward
+#: src/data/careers.js:382
+msgctxt "text:alumniChapters.eientei-moon-shift.steward"
+msgid "Reisen calls roll; Tewi draws lots for absentees."
+msgstr "Reisen calls roll; Tewi draws lots for absentees."
+
+#. alumniChapters.eientei-moon-shift.unresolved
+#: src/data/careers.js:383
+msgctxt "text:alumniChapters.eientei-moon-shift.unresolved"
+msgid "How long an immortal's fifth graduation anniversary takes."
+msgstr "How long an immortal's fifth graduation anniversary takes."
+
+#. alumniChapters.underground-no-sun.title
+#: src/data/careers.js:389
+msgctxt "text:alumniChapters.underground-no-sun.title"
+msgid "Underground No-Sun Liaison"
+msgstr "Underground No-Sun Liaison"
+
+#. alumniChapters.underground-no-sun.meeting
+#: src/data/careers.js:390
+msgctxt "text:alumniChapters.underground-no-sun.meeting"
+msgid "When the surface says morning and underground has a table"
+msgstr "When the surface says morning and underground has a table"
+
+#. alumniChapters.underground-no-sun.steward
+#: src/data/careers.js:391
+msgctxt "text:alumniChapters.underground-no-sun.steward"
+msgid "Satori knows who will attend and still waits for their reply."
+msgstr "Satori knows who will attend and still waits for their reply."
+
+#. alumniChapters.underground-no-sun.unresolved
+#: src/data/careers.js:392
+msgctxt "text:alumniChapters.underground-no-sun.unresolved"
+msgid "Whether an unspoken alumni pledge belongs in the budget."
+msgstr "Whether an unspoken alumni pledge belongs in the budget."
+
+#. alumniChapters.higan-late-arrivals.title
+#: src/data/careers.js:398
+msgctxt "text:alumniChapters.higan-late-arrivals.title"
+msgid "Higan Late-Arrival Society"
+msgstr "Higan Late-Arrival Society"
+
+#. alumniChapters.higan-late-arrivals.meeting
+#: src/data/careers.js:399
+msgctxt "text:alumniChapters.higan-late-arrivals.meeting"
+msgid "Starts punctually after Higan week ends"
+msgstr "Starts punctually after Higan week ends"
+
+#. alumniChapters.higan-late-arrivals.steward
+#: src/data/careers.js:400
+msgctxt "text:alumniChapters.higan-late-arrivals.steward"
+msgid "Komachi handles time; Eiki notes that she does not."
+msgstr "Komachi handles time; Eiki notes that she does not."
+
+#. alumniChapters.higan-late-arrivals.unresolved
+#: src/data/careers.js:401
+msgctxt "text:alumniChapters.higan-late-arrivals.unresolved"
+msgid "Whether the deceased-but-not-yet-enrolled may be back-entered as alumni."
+msgstr "Whether the deceased-but-not-yet-enrolled may be back-entered as alumni."
+
+#. alumniChapters.hakugyokurou-half-spirit.title
+#: src/data/careers.js:407
+msgctxt "text:alumniChapters.hakugyokurou-half-spirit.title"
+msgid "Hakugyokurou Half-Phantom Cohort"
+msgstr "Hakugyokurou Half-Phantom Cohort"
+
+#. alumniChapters.hakugyokurou-half-spirit.meeting
+#: src/data/careers.js:408
+msgctxt "text:alumniChapters.hakugyokurou-half-spirit.meeting"
+msgid "Simultaneously before and after hanami"
+msgstr "Simultaneously before and after hanami"
+
+#. alumniChapters.hakugyokurou-half-spirit.steward
+#: src/data/careers.js:409
+msgctxt "text:alumniChapters.hakugyokurou-half-spirit.steward"
+msgid "Youmu brings two rolls; Yuyuko brings a fifth column."
+msgstr "Youmu brings two rolls; Yuyuko brings a fifth column."
+
+#. alumniChapters.hakugyokurou-half-spirit.unresolved
+#: src/data/careers.js:410
+msgctxt "text:alumniChapters.hakugyokurou-half-spirit.unresolved"
+msgid "Whether a half-phantom owes one, half, or two dues."
+msgstr "Whether a half-phantom owes one, half, or two dues."
+
+#. alumniChapters.outside-drift-cohort.title
+#: src/data/careers.js:416
+msgctxt "text:alumniChapters.outside-drift-cohort.title"
+msgid "Outside-Drift Alumni Cohort"
+msgstr "Outside-Drift Alumni Cohort"
+
+#. alumniChapters.outside-drift-cohort.meeting
+#: src/data/careers.js:417
+msgctxt "text:alumniChapters.outside-drift-cohort.meeting"
+msgid "When Kourindou reprices an object before determining use"
+msgstr "When Kourindou reprices an object before determining use"
+
+#. alumniChapters.outside-drift-cohort.steward
+#: src/data/careers.js:418
+msgctxt "text:alumniChapters.outside-drift-cohort.steward"
+msgid "Rinnosuke names; the object keeps refusal rights."
+msgstr "Rinnosuke names; the object keeps refusal rights."
+
+#. alumniChapters.outside-drift-cohort.unresolved
+#: src/data/careers.js:419
+msgctxt "text:alumniChapters.outside-drift-cohort.unresolved"
+msgid "Whether a diploma drifting Outside still recognises its holder."
+msgstr "Whether a diploma drifting Outside still recognises its holder."
+
+#. alumniStories.three-times-fairy.name
+#: src/data/careers.js:428
+msgctxt "text:alumniStories.three-times-fairy.name"
+msgid "Dew Number Three"
+msgstr "Dew Number Three"
+
+#. alumniStories.three-times-fairy.line
+#: src/data/careers.js:429
+msgctxt "text:alumniStories.three-times-fairy.line"
+msgid "Forgot graduating three times; on the fourth return, hosted orientation."
+msgstr "Forgot graduating three times; on the fourth return, hosted orientation."
+
+#. alumniStories.future-admit.name
+#: src/data/careers.js:434
+msgctxt "text:alumniStories.future-admit.name"
+msgid "Class 141 alum, not yet admitted"
+msgstr "Class 141 alum, not yet admitted"
+
+#. alumniStories.future-admit.line
+#: src/data/careers.js:435
+msgctxt "text:alumniStories.future-admit.line"
+msgid "The alumni invitation arrived one night before Aya's already-early offer."
+msgstr "The alumni invitation arrived one night before Aya's already-early offer."
+
+#. alumniStories.book-alumnus.name
+#: src/data/careers.js:440
+msgctxt "text:alumniStories.book-alumnus.name"
+msgid "Misty Lake Closed Stack ML-R-009"
+msgstr "Misty Lake Closed Stack ML-R-009"
+
+#. alumniStories.book-alumnus.line
+#: src/data/careers.js:441
+msgctxt "text:alumniStories.book-alumnus.line"
+msgid "Audited two courses after refusing return; claims its borrower owes it a book."
+msgstr "Audited two courses after refusing return; claims its borrower owes it a book."
+
+#. alumniStories.half-diploma.name
+#: src/data/careers.js:446
+msgctxt "text:alumniStories.half-diploma.name"
+msgid "Half-phantom with the right half of a diploma"
+msgstr "Half-phantom with the right half of a diploma"
+
+#. alumniStories.half-diploma.line
+#: src/data/careers.js:447
+msgctxt "text:alumniStories.half-diploma.line"
+msgid "The left half remains at feast roll-call; each half joined a different chapter."
+msgstr "The left half remains at feast roll-call; each half joined a different chapter."

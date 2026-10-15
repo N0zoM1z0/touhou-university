@@ -1,3 +1,4 @@
+import { trees as catalogTrees } from "../generated/i18n/ui/eientei-map.js";
 import { getLocale } from "./i18n.js";
 import { closeDeepLink, registerDeepLink } from "./deep-links.js";
 
@@ -17,116 +18,13 @@ const nodes = {
   storehouse: { x: 782, y: 163, glyph: "蔵" },
 };
 
-const names = {
-  "zh-Hant": {
-    eastGate: "竹林東口", rabbitStop: "兔車候車棚", lanternFork: "三盞燈岔路", falseClearing: "昨日的空地",
-    eienteiGate: "永遠亭表門", mainHall: "永遠亭本館", pharmacy: "月藥調劑室", clinic: "跨種族診療所",
-    courtyard: "望月中庭", storehouse: "月塵冷藏庫",
-  },
-  ja: {
-    eastGate: "竹林東口", rabbitStop: "兎車待合所", lanternFork: "三灯分岐", falseClearing: "昨日の空地",
-    eienteiGate: "永遠亭表門", mainHall: "永遠亭本館", pharmacy: "月薬調剤室", clinic: "種族横断診療所",
-    courtyard: "望月中庭", storehouse: "月塵冷蔵庫",
-  },
-  en: {
-    eastGate: "East Bamboo Gate", rabbitStop: "Rabbit Shuttle Shelter", lanternFork: "Three-Lantern Fork",
-    falseClearing: "Yesterday's Clearing", eienteiGate: "Eientei Front Gate", mainHall: "Eientei Main House",
-    pharmacy: "Lunar Pharmacy", clinic: "Cross-Species Clinic", courtyard: "Moon-Viewing Court",
-    storehouse: "Lunar-Dust Cold Store",
-  },
-};
+const names = catalogTrees["names"];
 
-const moonNames = {
-  "zh-Hant": ["朔月", "眉月", "上弦月", "盈凸月", "滿月", "虧凸月", "下弦月", "殘月"],
-  ja: ["新月", "三日月", "上弦", "十三夜", "満月", "寝待月", "下弦", "有明月"],
-  en: ["New Moon", "Waxing Crescent", "First Quarter", "Waxing Gibbous", "Full Moon", "Waning Gibbous", "Last Quarter", "Waning Crescent"],
-};
+const moonNames = catalogTrees["moonNames"];
 
 const moonGlyphs = ["●", "◔", "◑", "◕", "○", "◕", "◐", "◔"];
 
-const copy = {
-  "zh-Hant": {
-    kicker: "EIENTEI FOCUS MAP / 永遠亭・迷途竹林",
-    title: "路每天都在，位置不一定。",
-    lead: "聚焦圖使用這台裝置的日期、時間與月相。竹林岔路會按日輪替；入夜點亮兔燈，滿月時診療動線改由調劑室分流。",
-    back: "返回主校區",
-    hospital: "前往校醫院分診台",
-    now: "本機時間",
-    phase: "月相",
-    dayShift: "今日竹向",
-    auto: "跟隨今日月相",
-    preview: "月相預覽",
-    from: "從哪裡出發",
-    to: "要去哪裡",
-    route: "計算竹林路線",
-    minutes: "分鐘",
-    steps: "段路",
-    status: "今晚的路況",
-    day: "日間：紙牌路標可讀，昨日的空地不保證存在。",
-    dusk: "黃昏：兔燈正在點亮，東口候車時間增加一分鐘。",
-    night: "夜間：跟三盞燈走，不要跟第四盞燈走。",
-    full: "滿月管制：本館至診療所直廊封閉，先經調劑室。",
-    new: "朔月捷徑：三盞燈岔路至調劑室的藥香小徑開放。",
-    shift: ["竹葉向東，北側舊路縮短。", "竹葉向南，昨日的空地向西移一格。", "竹葉向西，兔車道較乾燥。"],
-    start: "起點",
-    arrive: "抵達",
-    noRoute: "這個時刻沒有可靠路線。請回東口等一輛寫著今日日期的兔車。",
-  },
-  ja: {
-    kicker: "EIENTEI FOCUS MAP / 永遠亭・迷いの竹林",
-    title: "道は毎日ある。位置は毎日同じとは限らない。",
-    lead: "端末の日付・時刻・月相で変化する詳細図。竹林分岐は日替わり、夜は兎灯、満月は調剤室経由の診療動線になります。",
-    back: "メインキャンパスへ",
-    hospital: "校医院トリアージへ",
-    now: "端末時刻",
-    phase: "月相",
-    dayShift: "本日の竹向き",
-    auto: "今日の月相に従う",
-    preview: "月相プレビュー",
-    from: "出発地",
-    to: "目的地",
-    route: "竹林経路を計算",
-    minutes: "分",
-    steps: "区間",
-    status: "今夜の経路状況",
-    day: "昼：紙の道標は読めます。昨日の空地は存在を保証しません。",
-    dusk: "夕刻：兎灯を点灯中。東口の待ち時間が1分増えます。",
-    night: "夜：三つの灯を追い、四つ目は追わないでください。",
-    full: "満月規制：本館―診療所直廊を閉鎖し、調剤室を経由。",
-    new: "新月近道：三灯分岐―調剤室の薬香小径が開きます。",
-    shift: ["竹葉は東向き。北側旧道が短縮。", "竹葉は南向き。昨日の空地が西へ一目移動。", "竹葉は西向き。兎車道は比較的乾燥。"],
-    start: "出発",
-    arrive: "到着",
-    noRoute: "信頼できる経路がありません。東口で今日の日付を掲げた兎車を待ってください。",
-  },
-  en: {
-    kicker: "EIENTEI FOCUS MAP / EIENTEI & BAMBOO FOREST",
-    title: "The road exists every day. Its location may not.",
-    lead: "This detail map follows your device date, time, and lunar phase. Bamboo forks rotate daily; rabbit lamps appear at night; full-moon clinic traffic diverts through the pharmacy.",
-    back: "Back to main campus",
-    hospital: "Open hospital triage",
-    now: "Device time",
-    phase: "Lunar phase",
-    dayShift: "Today's bamboo",
-    auto: "Follow today's moon",
-    preview: "Moon preview",
-    from: "Starting point",
-    to: "Destination",
-    route: "Calculate bamboo route",
-    minutes: "min",
-    steps: "segments",
-    status: "Tonight's route status",
-    day: "Day: paper signs are legible. Yesterday's Clearing is not guaranteed to exist.",
-    dusk: "Dusk: rabbit lamps are being lit; add one minute at the east gate.",
-    night: "Night: follow three lanterns. Do not follow a fourth.",
-    full: "Full-moon control: the main-house clinic corridor is closed; divert through Pharmacy.",
-    new: "New-moon shortcut: the scented path from Three-Lantern Fork to Pharmacy is open.",
-    shift: ["Leaves point east; the old north path is shorter.", "Leaves point south; Yesterday's Clearing shifts one square west.", "Leaves point west; the rabbit road is drier."],
-    start: "Start",
-    arrive: "Arrive",
-    noRoute: "No reliable route at this hour. Return east and wait for a rabbit shuttle displaying today's date.",
-  },
-};
+const copy = catalogTrees["copy"];
 
 let phaseOverride = "auto";
 let currentRoute = null;

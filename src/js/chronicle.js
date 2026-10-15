@@ -1,3 +1,4 @@
+import { trees as catalogTrees } from "../generated/i18n/ui/chronicle.js";
 import { campusHistory, campusHistoryCategories } from "../data/campus-history.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { getLocale } from "./i18n.js";
@@ -8,74 +9,7 @@ const app = dialog?.querySelector("[data-chronicle-app]");
 let selectedId = campusHistory.at(-1)?.id || "";
 let activeCategory = "all";
 
-const copy = {
-  "zh-Hant": {
-    kicker: "HIEDA ARCHIVES / LIVING CHRONICLE",
-    title: "幻想鄉校史",
-    lead: "每一筆主分支修訂都留下兩份記錄：版本庫保存實際改了什麼，校史簿保存這件事如何改變校園，以及誰當場表示反對。",
-    entries: "頁校史",
-    all: "全部",
-    latest: "最新收錄",
-    volume: "館藏編號",
-    recorded: "入藏日期",
-    source: "版本底本",
-    sourceLead: "主分支版本與功能改動是兩個可重合、但不可混用的來源。一般或 squash commit 只有一筆；機械 merge commit 另列第二親本的改動主旨。",
-    mainSource: "主分支提交",
-    changeSource: "實際改動提交",
-    mergeNote: "此頁由 GitHub merge commit 進入主分支；下列第二親本保存人類可讀的功能主旨。",
-    marginalia: "頁邊補記",
-    main: "MAIN / 最新主分支",
-    openSource: "查看真實版本",
-    openChange: "查看實際改動",
-    previous: "前一頁",
-    next: "後一頁",
-    openRecord: "開啟校史",
-  },
-  ja: {
-    kicker: "HIEDA ARCHIVES / LIVING CHRONICLE",
-    title: "幻想郷大学史",
-    lead: "主分岐の各改訂には二つの記録が残る。版管理庫は実際の変更を、大学史簿はキャンパスへの影響とその場で異議を唱えた者を保存する。",
-    entries: "頁",
-    all: "すべて",
-    latest: "最新収録",
-    volume: "収蔵番号",
-    recorded: "収蔵日",
-    source: "版底本",
-    sourceLead: "主分岐版と機能変更は重なる場合があっても混同しない。通常・squash commit は一件、機械的 merge commit は第二親の変更主題を別記する。",
-    mainSource: "主分岐コミット",
-    changeSource: "実変更コミット",
-    mergeNote: "この頁は GitHub merge commit で主分岐へ入ったため、第二親に人間可読の変更主題を保存する。",
-    marginalia: "欄外追記",
-    main: "MAIN / 最新主分岐",
-    openSource: "実際の版を見る",
-    openChange: "実変更を見る",
-    previous: "前頁",
-    next: "次頁",
-    openRecord: "大学史を開く",
-  },
-  en: {
-    kicker: "HIEDA ARCHIVES / LIVING CHRONICLE",
-    title: "Gensokyo University Chronicle",
-    lead: "Every main-branch revision leaves two records: the repository preserves what changed; the chronicle preserves what it did to campus and who objected at the time.",
-    entries: "records",
-    all: "All",
-    latest: "Latest record",
-    volume: "Archive reference",
-    recorded: "Accession date",
-    source: "Version source",
-    sourceLead: "The main-branch revision and the functional change may coincide, but must not be confused. Ordinary and squash commits need one record; a mechanical merge also lists its second-parent change.",
-    mainSource: "Main-branch commit",
-    changeSource: "Change commit",
-    mergeNote: "This record entered main through a GitHub merge commit; its second parent preserves the human-readable change subject.",
-    marginalia: "Marginal note",
-    main: "MAIN / latest revision",
-    openSource: "View real revision",
-    openChange: "View actual change",
-    previous: "Previous",
-    next: "Next",
-    openRecord: "Open chronicle",
-  },
-};
+const copy = catalogTrees["copy"];
 
 function escapeHtml(value) {
   return String(value ?? "")

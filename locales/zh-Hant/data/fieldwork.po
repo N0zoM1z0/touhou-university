@@ -1,0 +1,3206 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. fieldworkRegions.village
+#: src/data/fieldwork.js:60
+msgctxt "text:fieldworkRegions.village"
+msgid "Village & Hakurei boundary"
+msgstr "人里與博麗界線"
+
+#. fieldworkRegions.lake
+#: src/data/fieldwork.js:61
+msgctxt "text:fieldworkRegions.lake"
+msgid "Misty Lake & Scarlet grounds"
+msgstr "霧湖與紅魔領"
+
+#. fieldworkRegions.forest
+#: src/data/fieldwork.js:62
+msgctxt "text:fieldworkRegions.forest"
+msgid "Forest of Magic & flowerlands"
+msgstr "魔法森林與花野"
+
+#. fieldworkRegions.mountain
+#: src/data/fieldwork.js:63
+msgctxt "text:fieldworkRegions.mountain"
+msgid "Youkai Mountain waters & airspace"
+msgstr "妖怪山水域與空域"
+
+#. fieldworkRegions.faith
+#: src/data/fieldwork.js:64
+msgctxt "text:fieldworkRegions.faith"
+msgid "Temple, shrine & Senkai commons"
+msgstr "寺社與仙界公共領域"
+
+#. fieldworkRegions.lunar
+#: src/data/fieldwork.js:65
+msgctxt "text:fieldworkRegions.lunar"
+msgid "Eientei & Bamboo Forest"
+msgstr "永遠亭與迷途竹林"
+
+#. fieldworkRegions.afterlife
+#: src/data/fieldwork.js:66
+msgctxt "text:fieldworkRegions.afterlife"
+msgid "Netherworld & Higan transit"
+msgstr "冥界與彼岸交通"
+
+#. fieldworkRegions.underground
+#: src/data/fieldwork.js:67
+msgctxt "text:fieldworkRegions.underground"
+msgid "Former Hell energy & shared life"
+msgstr "舊地獄能源與共同生活"
+
+#. fieldworkDisciplines.boundary
+#: src/data/fieldwork.js:71
+msgctxt "text:fieldworkDisciplines.boundary"
+msgid "Boundary & routing"
+msgstr "結界與路線"
+
+#. fieldworkDisciplines.history
+#: src/data/fieldwork.js:72
+msgctxt "text:fieldworkDisciplines.history"
+msgid "History & public records"
+msgstr "歷史與公共記錄"
+
+#. fieldworkDisciplines.material
+#: src/data/fieldwork.js:73
+msgctxt "text:fieldworkDisciplines.material"
+msgid "Magic & material culture"
+msgstr "魔法與物質文化"
+
+#. fieldworkDisciplines.medicine
+#: src/data/fieldwork.js:74
+msgctxt "text:fieldworkDisciplines.medicine"
+msgid "Clinical care"
+msgstr "臨床與照護"
+
+#. fieldworkDisciplines.engineering
+#: src/data/fieldwork.js:75
+msgctxt "text:fieldworkDisciplines.engineering"
+msgid "Engineering & energy"
+msgstr "工程與能源"
+
+#. fieldworkDisciplines.ecology
+#: src/data/fieldwork.js:76
+msgctxt "text:fieldworkDisciplines.ecology"
+msgid "Ecology & seasons"
+msgstr "生態與季節"
+
+#. fieldworkDisciplines.governance
+#: src/data/fieldwork.js:77
+msgctxt "text:fieldworkDisciplines.governance"
+msgid "Faith & public governance"
+msgstr "信仰與公共治理"
+
+#. fieldworkDisciplines.journalism
+#: src/data/fieldwork.js:78
+msgctxt "text:fieldworkDisciplines.journalism"
+msgid "Journalism & field records"
+msgstr "新聞與現場記錄"
+
+#. fieldworkDisciplines.afterlife
+#: src/data/fieldwork.js:79
+msgctxt "text:fieldworkDisciplines.afterlife"
+msgid "Life/death boundary & transit"
+msgstr "生死邊界與交通"
+
+#. fieldworkDisciplines.underground
+#: src/data/fieldwork.js:80
+msgctxt "text:fieldworkDisciplines.underground"
+msgid "Underground society & mental privacy"
+msgstr "地下社會與精神隱私"
+
+#. fieldworkTravelModes.foot.name
+#: src/data/fieldwork.js:86
+msgctxt "text:fieldworkTravelModes.foot.name"
+msgid "Foot / non-flier link"
+msgstr "步行／不會飛者聯絡道"
+
+#. fieldworkTravelModes.foot.note
+#: src/data/fieldwork.js:88
+msgctxt "text:fieldworkTravelModes.foot.note"
+msgid "Slowest, but best for noticing when signs begin to lie."
+msgstr "最慢，但最容易看見路標何時開始說謊。"
+
+#. fieldworkTravelModes.broom.name
+#: src/data/fieldwork.js:92
+msgctxt "text:fieldworkTravelModes.broom.name"
+msgid "Registered broom airway"
+msgstr "登記掃帚空路"
+
+#. fieldworkTravelModes.broom.note
+#: src/data/fieldwork.js:94
+msgctxt "text:fieldworkTravelModes.broom.note"
+msgid "Subject to airspace and spell notices; Marisa's shortcut is not a notice."
+msgstr "需服從空域與符卡公告；魔理沙畫的近路不算公告。"
+
+#. fieldworkTravelModes.tengu.name
+#: src/data/fieldwork.js:98
+msgctxt "text:fieldworkTravelModes.tengu.name"
+msgid "Tengu document-courier seat"
+msgstr "天狗文書便搭乘位"
+
+#. fieldworkTravelModes.tengu.note
+#: src/data/fieldwork.js:100
+msgctxt "text:fieldworkTravelModes.tengu.note"
+msgid "Fast; your placement may be in print before you arrive."
+msgstr "很快；抵達前可能先看見自己的實習新聞。"
+
+#. fieldworkTravelModes.rabbit.name
+#: src/data/fieldwork.js:104
+msgctxt "text:fieldworkTravelModes.rabbit.name"
+msgid "Moon-rabbit shuttle & bamboo guide"
+msgstr "月兔接駁與竹林引導"
+
+#. fieldworkTravelModes.rabbit.note
+#: src/data/fieldwork.js:106
+msgctxt "text:fieldworkTravelModes.rabbit.note"
+msgid "Most stable in bamboo; Tewi may swap the stop names."
+msgstr "竹林最穩定；車站名稱可能被帝臨時交換。"
+
+#. fieldworkTravelModes.gap.name
+#: src/data/fieldwork.js:110
+msgctxt "text:fieldworkTravelModes.gap.name"
+msgid "Supervised boundary passage"
+msgstr "境界監督員陪同通行"
+
+#. fieldworkTravelModes.gap.note
+#: src/data/fieldwork.js:112
+msgctxt "text:fieldworkTravelModes.gap.note"
+msgid "Short journey, long annex; declare which side of the destination first."
+msgstr "時間短，行政附件長；目的地的哪一側必須先寫清楚。"
+
+#. fieldworkComplications.permit-moved.title
+#: src/data/fieldwork.js:119
+msgctxt "text:fieldworkComplications.permit-moved.title"
+msgid "Permit desk moves outside its permitted area"
+msgstr "許可桌移到許可範圍外"
+
+#. fieldworkComplications.permit-moved.detail
+#: src/data/fieldwork.js:120
+msgctxt "text:fieldworkComplications.permit-moved.detail"
+msgid "The gate accepts your paper, but its verification desk is now across the boundary."
+msgstr "入口仍承認你的公文，但公文指定的核驗桌已在境界另一側。"
+
+#. fieldworkComplications.permit-moved.responses.0.1
+#: src/data/fieldwork.js:122
+msgctxt "text:fieldworkComplications.permit-moved.responses.0.1"
+msgid "Walk the boundary to the desk without changing the paper"
+msgstr "沿邊界步測到桌前，不改文件"
+
+#. fieldworkComplications.permit-moved.responses.1.1
+#: src/data/fieldwork.js:123
+msgctxt "text:fieldworkComplications.permit-moved.responses.1.1"
+msgid "Annotate which side held the desk at verification"
+msgstr "在公文頁邊標明核驗時所在側"
+
+#. fieldworkComplications.permit-moved.responses.2.1
+#: src/data/fieldwork.js:124
+msgctxt "text:fieldworkComplications.permit-moved.responses.2.1"
+msgid "Ask Ran to verify and keep Yukari from signing the answer"
+msgstr "請藍核對，讓紫不要替答案簽名"
+
+#. fieldworkComplications.frozen-register.title
+#: src/data/fieldwork.js:129
+msgctxt "text:fieldworkComplications.frozen-register.title"
+msgid "Three hours of work carry the same minute"
+msgstr "三小時工作全部蓋著同一分鐘"
+
+#. fieldworkComplications.frozen-register.detail
+#: src/data/fieldwork.js:130
+msgctxt "text:fieldworkComplications.frozen-register.detail"
+msgid ""
+"Sakuya says the schedule is exact; your provenance chain says every "
+"observation happened at once."
+msgstr "咲夜說行程準時；你的來源鏈則認為所有觀察同時發生。"
+
+#. fieldworkComplications.frozen-register.responses.0.1
+#: src/data/fieldwork.js:132
+msgctxt "text:fieldworkComplications.frozen-register.responses.0.1"
+msgid "Reconstruct sequence from tea temperature and changed cutlery"
+msgstr "用茶杯溫度與餐具更換重建先後"
+
+#. fieldworkComplications.frozen-register.responses.1.1
+#: src/data/fieldwork.js:133
+msgctxt "text:fieldworkComplications.frozen-register.responses.1.1"
+msgid "Keep the timestamp and record relative order separately"
+msgstr "保留同一時間戳，另列相對順序"
+
+#. fieldworkComplications.frozen-register.responses.2.1
+#: src/data/fieldwork.js:134
+msgctxt "text:fieldworkComplications.frozen-register.responses.2.1"
+msgid "Ask Sakuya to return three minutes; specify which three"
+msgstr "請咲夜歸還三分鐘；她要求說明是哪三分鐘"
+
+#. fieldworkComplications.source-writes-back.title
+#: src/data/fieldwork.js:139
+msgctxt "text:fieldworkComplications.source-writes-back.title"
+msgid "The observed book completes your observation field"
+msgstr "被觀察的書替你補完了觀察欄"
+
+#. fieldworkComplications.source-writes-back.detail
+#: src/data/fieldwork.js:140
+msgctxt "text:fieldworkComplications.source-writes-back.detail"
+msgid "The handwriting is not yours, but it is more precise and requests co-authorship order."
+msgstr "字跡不是你的，但內容比你的草稿精確，並要求共同作者順位。"
+
+#. fieldworkComplications.source-writes-back.responses.0.1
+#: src/data/fieldwork.js:142
+msgctxt "text:fieldworkComplications.source-writes-back.responses.0.1"
+msgid "Keep both hands and identify each observer"
+msgstr "保留兩種字跡，分開標示觀察者"
+
+#. fieldworkComplications.source-writes-back.responses.1.1
+#: src/data/fieldwork.js:143
+msgctxt "text:fieldworkComplications.source-writes-back.responses.1.1"
+msgid "Register the book as source and participant, not equipment"
+msgstr "把書登記為來源與參與者，不登記為器材"
+
+#. fieldworkComplications.source-writes-back.responses.2.1
+#: src/data/fieldwork.js:144
+msgctxt "text:fieldworkComplications.source-writes-back.responses.2.1"
+msgid "Convene an authorship meeting; Koakuma has nine chairs ready"
+msgstr "召開作者順位會議；小惡魔已準備九張椅子"
+
+#. fieldworkComplications.headline-before-arrival.title
+#: src/data/fieldwork.js:149
+msgctxt "text:fieldworkComplications.headline-before-arrival.title"
+msgid "An extra reports completion before your placement begins"
+msgstr "號外已報導你完成尚未開始的實習"
+
+#. fieldworkComplications.headline-before-arrival.detail
+#: src/data/fieldwork.js:150
+msgctxt "text:fieldworkComplications.headline-before-arrival.detail"
+msgid "Its field photo shows you reading this very extra."
+msgstr "文章有一張現場照；照片裡的你正在閱讀這張號外。"
+
+#. fieldworkComplications.headline-before-arrival.responses.0.1
+#: src/data/fieldwork.js:152
+msgctxt "text:fieldworkComplications.headline-before-arrival.responses.0.1"
+msgid "Archive it as a forecast, not field evidence"
+msgstr "將報導封存為預測，不當成現場證據"
+
+#. fieldworkComplications.headline-before-arrival.responses.1.1
+#: src/data/fieldwork.js:153
+msgctxt "text:fieldworkComplications.headline-before-arrival.responses.1.1"
+msgid "Compare forecast and actual log line by line after return"
+msgstr "返校後逐句比對預報與實際日誌"
+
+#. fieldworkComplications.headline-before-arrival.responses.2.1
+#: src/data/fieldwork.js:154
+msgctxt "text:fieldworkComplications.headline-before-arrival.responses.2.1"
+msgid "Ask Aya to open Corrections first; she asks you to supply an error"
+msgstr "請文先開訂正欄；她先要求你提供錯誤"
+
+#. fieldworkComplications.yesterday-marker.title
+#: src/data/fieldwork.js:159
+msgctxt "text:fieldworkComplications.yesterday-marker.title"
+msgid "The fourth marker points to yesterday's meeting point"
+msgstr "第四個路標指向昨天的集合點"
+
+#. fieldworkComplications.yesterday-marker.detail
+#: src/data/fieldwork.js:160
+msgctxt "text:fieldworkComplications.yesterday-marker.detail"
+msgid "Roll is being taken there; you are listed, one day early."
+msgstr "集合點有人點名，名冊上也有你，只是日期少了一日。"
+
+#. fieldworkComplications.yesterday-marker.responses.0.1
+#: src/data/fieldwork.js:162
+msgctxt "text:fieldworkComplications.yesterday-marker.responses.0.1"
+msgid "Skip marker four under today's moon and log its position"
+msgstr "依今日月相跳過第四標，只記錄它的位置"
+
+#. fieldworkComplications.yesterday-marker.responses.1.1
+#: src/data/fieldwork.js:163
+msgctxt "text:fieldworkComplications.yesterday-marker.responses.1.1"
+msgid "Leave different-coloured arrival slips in yesterday and today"
+msgstr "在昨日與今日各留一張不同顏色的到達票"
+
+#. fieldworkComplications.yesterday-marker.responses.2.1
+#: src/data/fieldwork.js:164
+msgctxt "text:fieldworkComplications.yesterday-marker.responses.2.1"
+msgid "Follow once while Mokou holds the return end"
+msgstr "跟隨一次，但請妹紅握住回程端"
+
+#. fieldworkComplications.fairy-coauthor.title
+#: src/data/fieldwork.js:169
+msgctxt "text:fieldworkComplications.fairy-coauthor.title"
+msgid "Three fairies declare themselves co-investigators"
+msgstr "三名妖精宣布自己是共同研究者"
+
+#. fieldworkComplications.fairy-coauthor.detail
+#: src/data/fieldwork.js:170
+msgctxt "text:fieldworkComplications.fairy-coauthor.detail"
+msgid "They moved the plot, renamed the wind, and noticed you omitted fun."
+msgstr "她們移動了樣區、重命名風向，並指出你忘記記錄『好玩程度』。"
+
+#. fieldworkComplications.fairy-coauthor.responses.0.1
+#: src/data/fieldwork.js:172
+msgctxt "text:fieldworkComplications.fairy-coauthor.responses.0.1"
+msgid "Keep pre/post plots and name who moved them"
+msgstr "保留移動前後兩個樣區並標示誰移動"
+
+#. fieldworkComplications.fairy-coauthor.responses.1.1
+#: src/data/fieldwork.js:173
+msgctxt "text:fieldworkComplications.fairy-coauthor.responses.1.1"
+msgid "Attach a fairy-method page without merging scales"
+msgstr "另附妖精方法頁，不併入原量尺"
+
+#. fieldworkComplications.fairy-coauthor.responses.2.1
+#: src/data/fieldwork.js:174
+msgctxt "text:fieldworkComplications.fairy-coauthor.responses.2.1"
+msgid "Accept co-authorship and let them order surnames once"
+msgstr "接受共同作者；讓她們決定姓氏排列一次"
+
+#. fieldworkComplications.three-seals.title
+#: src/data/fieldwork.js:179
+msgctxt "text:fieldworkComplications.three-seals.title"
+msgid "One dispatch order gains three uniquely valid seals"
+msgstr "同一張派遣令多出三枚唯一有效印"
+
+#. fieldworkComplications.three-seals.detail
+#: src/data/fieldwork.js:180
+msgctxt "text:fieldworkComplications.three-seals.detail"
+msgid "Moriya, Myouren, and Senkai each accept the other two only as historical sources."
+msgstr "守矢、命蓮寺與仙界都說另外兩枚可作史料但不能作入口。"
+
+#. fieldworkComplications.three-seals.responses.0.1
+#: src/data/fieldwork.js:182
+msgctxt "text:fieldworkComplications.three-seals.responses.0.1"
+msgid "Keep all three and record each authority's scope"
+msgstr "三枚並列，逐段記錄各自授權範圍"
+
+#. fieldworkComplications.three-seals.responses.1.1
+#: src/data/fieldwork.js:183
+msgctxt "text:fieldworkComplications.three-seals.responses.1.1"
+msgid "Travel under the host seal and retain two annexes"
+msgstr "以實際場地主印通行，另兩枚作附件"
+
+#. fieldworkComplications.three-seals.responses.2.1
+#: src/data/fieldwork.js:184
+msgctxt "text:fieldworkComplications.three-seals.responses.2.1"
+msgid "Rotate the valid seal every twenty minutes, retaining one overlap minute"
+msgstr "每二十分鐘更換有效印，保留重疊的一分鐘"
+
+#. fieldworkComplications.thought-before-consent.title
+#: src/data/fieldwork.js:189
+msgctxt "text:fieldworkComplications.thought-before-consent.title"
+msgid "Satori hears an observation before you decide to submit it"
+msgstr "覺已聽見你尚未決定是否提交的觀察"
+
+#. fieldworkComplications.thought-before-consent.detail
+#: src/data/fieldwork.js:190
+msgctxt "text:fieldworkComplications.thought-before-consent.detail"
+msgid "She wrote nothing down, but precisely identifies the missing source."
+msgstr "她沒有寫下來，但準確指出你的來源欄少了誰。"
+
+#. fieldworkComplications.thought-before-consent.responses.0.1
+#: src/data/fieldwork.js:192
+msgctxt "text:fieldworkComplications.thought-before-consent.responses.0.1"
+msgid "Ask her not to repeat it and recheck the source yourself"
+msgstr "請她不要複述；自己重新核對來源"
+
+#. fieldworkComplications.thought-before-consent.responses.1.1
+#: src/data/fieldwork.js:193
+msgctxt "text:fieldworkComplications.thought-before-consent.responses.1.1"
+msgid "Open a new page at consent and do not backfill"
+msgstr "從同意時刻起另開新頁，不回填先前內容"
+
+#. fieldworkComplications.thought-before-consent.responses.2.1
+#: src/data/fieldwork.js:194
+msgctxt "text:fieldworkComplications.thought-before-consent.responses.2.1"
+msgid "Record the objection that hearing is not collection and retain it for ethics"
+msgstr "記錄『聽見不是採集』的異議，交倫理席保留"
+
+#. fieldworkComplications.ghost-headcount.title
+#: src/data/fieldwork.js:199
+msgctxt "text:fieldworkComplications.ghost-headcount.title"
+msgid "Half-phantom, ghost, and shadow disagree on sample size"
+msgstr "半靈、幽靈與影子對樣本數各有意見"
+
+#. fieldworkComplications.ghost-headcount.detail
+#: src/data/fieldwork.js:200
+msgctxt "text:fieldworkComplications.ghost-headcount.detail"
+msgid "Youmu writes 2, Yuyuko says count lunches, and your form accepts integers only."
+msgstr "妖夢填 2，幽幽子填『看午餐份數』，你的表格只允許整數。"
+
+#. fieldworkComplications.ghost-headcount.responses.0.1
+#: src/data/fieldwork.js:202
+msgctxt "text:fieldworkComplications.ghost-headcount.responses.0.1"
+msgid "Define person, spirit, and observation units, then use three rows"
+msgstr "先定義人、靈與觀察單位，再填三列"
+
+#. fieldworkComplications.ghost-headcount.responses.1.1
+#: src/data/fieldwork.js:203
+msgctxt "text:fieldworkComplications.ghost-headcount.responses.1.1"
+msgid "Record one paired existence without claiming separability"
+msgstr "以一對存在記錄，不宣稱可拆分"
+
+#. fieldworkComplications.ghost-headcount.responses.2.1
+#: src/data/fieldwork.js:204
+msgctxt "text:fieldworkComplications.ghost-headcount.responses.2.1"
+msgid "Count lunches and note Yuyuko ate the calibrator"
+msgstr "照午餐份數計；附件註明幽幽子吃掉了校準物"
+
+#. fieldworkComplications.evidence-follows.title
+#: src/data/fieldwork.js:209
+msgctxt "text:fieldworkComplications.evidence-follows.title"
+msgid "Bagged evidence refuses to remain bagged"
+msgstr "封袋證物拒絕留在封袋裡"
+
+#. fieldworkComplications.evidence-follows.detail
+#: src/data/fieldwork.js:210
+msgctxt "text:fieldworkComplications.evidence-follows.detail"
+msgid "It returns to its owner each time, making custody look like repeated loans."
+msgstr "它每次回到原主人旁邊，來源鏈因此看似反覆借出。"
+
+#. fieldworkComplications.evidence-follows.responses.0.1
+#: src/data/fieldwork.js:212
+msgctxt "text:fieldworkComplications.evidence-follows.responses.0.1"
+msgid "Seal the empty bag and every departure time without forcing the object"
+msgstr "封存空袋與每次離袋時間，不強迫物件"
+
+#. fieldworkComplications.evidence-follows.responses.1.1
+#: src/data/fieldwork.js:213
+msgctxt "text:fieldworkComplications.evidence-follows.responses.1.1"
+msgid "Let its chosen owner hold custody while the student only observes"
+msgstr "由物件選擇的主人保管，學生只觀察"
+
+#. fieldworkComplications.evidence-follows.responses.2.1
+#: src/data/fieldwork.js:214
+msgctxt "text:fieldworkComplications.evidence-follows.responses.2.1"
+msgid "Ask the object to stamp custody; the mark moves to the reverse"
+msgstr "請物件在來源鏈上蓋自己的印；印跑到背面"
+
+#. fieldworkComplications.shortened-river.title
+#: src/data/fieldwork.js:219
+msgctxt "text:fieldworkComplications.shortened-river.title"
+msgid "The Sanzu shortens; the interview does not"
+msgstr "三途川變短，但訪談內容沒有"
+
+#. fieldworkComplications.shortened-river.detail
+#: src/data/fieldwork.js:220
+msgctxt "text:fieldworkComplications.shortened-river.detail"
+msgid "The landing bell rings during question three; Komachi says distance is not a deadline."
+msgstr "抵岸鐘已響，你仍在問題第三段；小町說距離不是時限。"
+
+#. fieldworkComplications.shortened-river.responses.0.1
+#: src/data/fieldwork.js:222
+msgctxt "text:fieldworkComplications.shortened-river.responses.0.1"
+msgid "Stop collection at landing and mark the rest incomplete"
+msgstr "抵岸停止採集，將未問部分列為未完成"
+
+#. fieldworkComplications.shortened-river.responses.1.1
+#: src/data/fieldwork.js:223
+msgctxt "text:fieldworkComplications.shortened-river.responses.1.1"
+msgid "Pay for another crossing and do not call it the same trip"
+msgstr "另付一次船資續訪，不假裝同一航次"
+
+#. fieldworkComplications.shortened-river.responses.2.1
+#: src/data/fieldwork.js:224
+msgctxt "text:fieldworkComplications.shortened-river.responses.2.1"
+msgid "Ask Komachi to lengthen only question three"
+msgstr "請小町只延長第三個問題的距離"
+
+#. fieldworkComplications.power-has-owner.title
+#: src/data/fieldwork.js:229
+msgctxt "text:fieldworkComplications.power-has-owner.title"
+msgid "Two institutions claim one meter reading"
+msgstr "儀表讀值被兩個單位同時列為自己的成果"
+
+#. fieldworkComplications.power-has-owner.detail
+#: src/data/fieldwork.js:230
+msgctxt "text:fieldworkComplications.power-has-owner.detail"
+msgid "Kappa supply power, gods explain why it matters, and the reading picks neither."
+msgstr "河童送電，神明說明它為何值得送；讀值本身拒絕選邊。"
+
+#. fieldworkComplications.power-has-owner.responses.0.1
+#: src/data/fieldwork.js:232
+msgctxt "text:fieldworkComplications.power-has-owner.responses.0.1"
+msgid "List equipment, energy, and interpretive authority together"
+msgstr "來源鏈同列設備、能源與解釋權"
+
+#. fieldworkComplications.power-has-owner.responses.1.1
+#: src/data/fieldwork.js:233
+msgctxt "text:fieldworkComplications.power-has-owner.responses.1.1"
+msgid "Report value and version without judging ownership"
+msgstr "只報讀值與版本，不裁決所有權"
+
+#. fieldworkComplications.power-has-owner.responses.2.1
+#: src/data/fieldwork.js:234
+msgctxt "text:fieldworkComplications.power-has-owner.responses.2.1"
+msgid "Split the meter; Nitori wants the voided warranty signed first"
+msgstr "把儀表分成兩半；荷取要求保固失效先簽名"
+
+#. fieldworkStations.0.0.name
+#: src/data/fieldwork.js:242
+msgctxt "text:fieldworkStations.0.0.name"
+msgid "Hakurei Shrine · Great Barrier Survey"
+msgstr "博麗神社・大結界步測站"
+
+#. fieldworkStations.0.0.host
+#: src/data/fieldwork.js:243
+msgctxt "text:fieldworkStations.0.0.host"
+msgid "Hakurei Shrine"
+msgstr "博麗神社"
+
+#. fieldworkStations.0.0.supervisor
+#: src/data/fieldwork.js:244
+msgctxt "text:fieldworkStations.0.0.supervisor"
+msgid "Reimu Hakurei"
+msgstr "博麗靈夢"
+
+#. fieldworkStations.0.0.companion
+#: src/data/fieldwork.js:245
+msgctxt "text:fieldworkStations.0.0.companion"
+msgid "Ran Yakumo (calculates, does not apologise for boundaries)"
+msgstr "八雲藍（只核算，不替境界道歉）"
+
+#. fieldworkStations.0.0.placement
+#: src/data/fieldwork.js:247
+msgctxt "text:fieldworkStations.0.0.placement"
+msgid ""
+"Inspect barrier seams, the donation box perimeter, and markers that were "
+"here a moment ago."
+msgstr "巡查結界縫、賽錢箱周邊與『剛才還在』的界標。"
+
+#. fieldworkStations.0.0.premise
+#: src/data/fieldwork.js:248
+msgctxt "text:fieldworkStations.0.0.premise"
+msgid "Record how the boundary is used instead of calling every movement a failure."
+msgstr "記錄界線如何被使用，而不是把每次移動都叫作失效。"
+
+#. fieldworkStations.0.0.access
+#: src/data/fieldwork.js:249
+msgctxt "text:fieldworkStations.0.0.access"
+msgid "Enter right of the hall after sunrise; after a feast, count bottles before markers."
+msgstr "日出後由本殿右側進；宴會後先數酒瓶，再數界標。"
+
+#. fieldworkStations.0.0.shift
+#: src/data/fieldwork.js:250
+msgctxt "text:fieldworkStations.0.0.shift"
+msgid "Morning bell to the second 'just now'"
+msgstr "晨鐘至午前第二次『剛才』"
+
+#. fieldworkStations.0.0.ethics
+#: src/data/fieldwork.js:252
+msgctxt "text:fieldworkStations.0.0.ethics"
+msgid "Donation shortage is not permission to open a boundary."
+msgstr "不得以賽錢不足作為未經許可開境的理由。"
+
+#. fieldworkStations.0.0.equipment.0
+#: src/data/fieldwork.js:253
+msgctxt "text:fieldworkStations.0.0.equipment.0"
+msgid "Twelve red-white boundary stakes"
+msgstr "紅白界樁十二枚"
+
+#. fieldworkStations.0.0.equipment.1
+#: src/data/fieldwork.js:253
+msgctxt "text:fieldworkStations.0.0.equipment.1"
+msgid "Pencil that does not self-correct"
+msgstr "不會自動修訂的鉛筆"
+
+#. fieldworkStations.0.0.equipment.2
+#: src/data/fieldwork.js:253
+msgctxt "text:fieldworkStations.0.0.equipment.2"
+msgid "Rain clip for donation-box work"
+msgstr "賽錢箱旁用防雨夾"
+
+#. fieldworkStations.0.0.tasks.0
+#: src/data/fieldwork.js:254
+msgctxt "text:fieldworkStations.0.0.tasks.0"
+msgid "Pace the eastern seam"
+msgstr "步測東側縫"
+
+#. fieldworkStations.0.0.tasks.1
+#: src/data/fieldwork.js:254
+msgctxt "text:fieldworkStations.0.0.tasks.1"
+msgid "Compare Ran's two map versions"
+msgstr "比對藍的兩版圖"
+
+#. fieldworkStations.0.0.tasks.2
+#: src/data/fieldwork.js:254
+msgctxt "text:fieldworkStations.0.0.tasks.2"
+msgid "Log Reimu's temporary rule"
+msgstr "記錄靈夢臨時規則"
+
+#. fieldworkStations.0.0.wrinkle
+#: src/data/fieldwork.js:256
+msgctxt "text:fieldworkStations.0.0.wrinkle"
+msgid "Reimu writes on the reverse: 'An empty box is not a request for a new boundary.'"
+msgstr "靈夢在申請書背面寫：『不要因為表格有空格就去填一條新境界。』"
+
+#. fieldworkStations.0.0.seal
+#: src/data/fieldwork.js:257
+msgctxt "text:fieldworkStations.0.0.seal"
+msgid "Hakurei Seam Seal"
+msgstr "博麗界縫印"
+
+#. fieldworkStations.1.0.name
+#: src/data/fieldwork.js:261
+msgctxt "text:fieldworkStations.1.0.name"
+msgid "Human Village · Terakoya Public History"
+msgstr "人間之里・寺子屋公共史站"
+
+#. fieldworkStations.1.0.host
+#: src/data/fieldwork.js:262
+msgctxt "text:fieldworkStations.1.0.host"
+msgid "Terakoya & Village Council Desk"
+msgstr "寺子屋與里議事桌"
+
+#. fieldworkStations.1.0.supervisor
+#: src/data/fieldwork.js:263
+msgctxt "text:fieldworkStations.1.0.supervisor"
+msgid "Keine Kamishirasawa"
+msgstr "上白澤慧音"
+
+#. fieldworkStations.1.0.companion
+#: src/data/fieldwork.js:264
+msgctxt "text:fieldworkStations.1.0.companion"
+msgid "Kosuzu Motoori (brings one book not on the list)"
+msgstr "本居小鈴（帶來一本不在清單上的書）"
+
+#. fieldworkStations.1.0.placement
+#: src/data/fieldwork.js:266
+msgctxt "text:fieldworkStations.1.0.placement"
+msgid ""
+"Curate oral history, class rolls, and notice corrections without citing "
+"'everyone knows'."
+msgstr "整理口述史、寺子屋點名與公告訂正，不把『大家都知道』當來源。"
+
+#. fieldworkStations.1.0.premise
+#: src/data/fieldwork.js:267
+msgctxt "text:fieldworkStations.1.0.premise"
+msgid "One event may have village, teacher, youkai, and later-chronicle versions."
+msgstr "同一件事可有村民、教師、妖怪與後世編年的不同版本。"
+
+#. fieldworkStations.1.0.access
+#: src/data/fieldwork.js:268
+msgctxt "text:fieldworkStations.1.0.access"
+msgid "Interview after the market bell; a lunch queue is not automatically a focus group."
+msgstr "市場鐘後可訪談；不得在午飯隊伍裡把排隊當焦點小組。"
+
+#. fieldworkStations.1.0.shift
+#: src/data/fieldwork.js:269
+msgctxt "text:fieldworkStations.1.0.shift"
+msgid "Market opening to terakoya dismissal"
+msgstr "市場開門至寺子屋放課"
+
+#. fieldworkStations.1.0.ethics
+#: src/data/fieldwork.js:271
+msgctxt "text:fieldworkStations.1.0.ethics"
+msgid ""
+"Consent children, long-lived residents, and anonymous youkai separately; "
+"silence is not public record."
+msgstr "兒童、長命者與匿名妖怪分別取得同意；沉默不等於公共史料。"
+
+#. fieldworkStations.1.0.equipment.0
+#: src/data/fieldwork.js:272
+msgctxt "text:fieldworkStations.1.0.equipment.0"
+msgid "Three-colour source cards"
+msgstr "三色來源卡"
+
+#. fieldworkStations.1.0.equipment.1
+#: src/data/fieldwork.js:272
+msgctxt "text:fieldworkStations.1.0.equipment.1"
+msgid "Peel-away anonymous badges"
+msgstr "可撕匿名名牌"
+
+#. fieldworkStations.1.0.equipment.2
+#: src/data/fieldwork.js:272
+msgctxt "text:fieldworkStations.1.0.equipment.2"
+msgid "Keine correction slips"
+msgstr "慧音訂正紙"
+
+#. fieldworkStations.1.0.tasks.0
+#: src/data/fieldwork.js:273
+msgctxt "text:fieldworkStations.1.0.tasks.0"
+msgid "Interview one minor incident"
+msgstr "訪談一件小異變"
+
+#. fieldworkStations.1.0.tasks.1
+#: src/data/fieldwork.js:273
+msgctxt "text:fieldworkStations.1.0.tasks.1"
+msgid "Compare roll versions"
+msgstr "比對點名版本"
+
+#. fieldworkStations.1.0.tasks.2
+#: src/data/fieldwork.js:273
+msgctxt "text:fieldworkStations.1.0.tasks.2"
+msgid "Publish one correction"
+msgstr "公開一則訂正"
+
+#. fieldworkStations.1.0.wrinkle
+#: src/data/fieldwork.js:275
+msgctxt "text:fieldworkStations.1.0.wrinkle"
+msgid "Keine corrects the error; Akyuu preserves how you erred. Submit both."
+msgstr "慧音會改正錯誤；阿求會保留你原本如何錯。兩份都要交。"
+
+#. fieldworkStations.1.0.seal
+#: src/data/fieldwork.js:276
+msgctxt "text:fieldworkStations.1.0.seal"
+msgid "Terakoya Three-Yesterdays Seal"
+msgstr "寺子屋三昨日印"
+
+#. fieldworkStations.2.0.name
+#: src/data/fieldwork.js:280
+msgctxt "text:fieldworkStations.2.0.name"
+msgid "Hieda Residence · Versions & Missing Leaves"
+msgstr "稗田邸・版本與缺頁整理站"
+
+#. fieldworkStations.2.0.host
+#: src/data/fieldwork.js:281
+msgctxt "text:fieldworkStations.2.0.host"
+msgid "Hieda Archive Room"
+msgstr "稗田史料室"
+
+#. fieldworkStations.2.0.supervisor
+#: src/data/fieldwork.js:282
+msgctxt "text:fieldworkStations.2.0.supervisor"
+msgid "Hieda no Akyuu"
+msgstr "稗田阿求"
+
+#. fieldworkStations.2.0.companion
+#: src/data/fieldwork.js:283
+msgctxt "text:fieldworkStations.2.0.companion"
+msgid "Keine Kamishirasawa (holds another version of why the leaf is missing)"
+msgstr "上白澤慧音（對缺頁原因持另一版）"
+
+#. fieldworkStations.2.0.placement
+#: src/data/fieldwork.js:285
+msgctxt "text:fieldworkStations.2.0.placement"
+msgid ""
+"Build version chains, missing-leaf notes, and an index of contradictions "
+"that must not be merged."
+msgstr "為同一事件建立版本鏈、缺頁說明與不可合併的矛盾索引。"
+
+#. fieldworkStations.2.0.premise
+#: src/data/fieldwork.js:286
+msgctxt "text:fieldworkStations.2.0.premise"
+msgid "Preserving what each version says matters more than choosing a convenient yesterday."
+msgstr "保留哪一版說了什麼，比替幻想鄉選一個方便的昨天更重要。"
+
+#. fieldworkStations.2.0.access
+#: src/data/fieldwork.js:287
+msgctxt "text:fieldworkStations.2.0.access"
+msgid "Wash hands, remove dew, and do not take red thread home as a bookmark."
+msgstr "洗手、除露、不可把紅線當書籤帶走。"
+
+#. fieldworkStations.2.0.shift
+#: src/data/fieldwork.js:288
+msgctxt "text:fieldworkStations.2.0.shift"
+msgid "Four watches after morning dehumidifying"
+msgstr "晨間除濕後四個時辰"
+
+#. fieldworkStations.2.0.ethics
+#: src/data/fieldwork.js:290
+msgctxt "text:fieldworkStations.2.0.ethics"
+msgid ""
+"Separate living marginalia from posthumous assessments; clear memory still "
+"needs a source."
+msgstr "活人邊注與死後評語分櫃；不因記得很清楚而免除來源。"
+
+#. fieldworkStations.2.0.equipment.0
+#: src/data/fieldwork.js:291
+msgctxt "text:fieldworkStations.2.0.equipment.0"
+msgid "Non-adhesive red thread"
+msgstr "不黏頁紅線"
+
+#. fieldworkStations.2.0.equipment.1
+#: src/data/fieldwork.js:291
+msgctxt "text:fieldworkStations.2.0.equipment.1"
+msgid "Version-time ruler"
+msgstr "版本時間尺"
+
+#. fieldworkStations.2.0.equipment.2
+#: src/data/fieldwork.js:291
+msgctxt "text:fieldworkStations.2.0.equipment.2"
+msgid "Missing-leaf shadow paper"
+msgstr "缺頁陰影紙"
+
+#. fieldworkStations.2.0.tasks.0
+#: src/data/fieldwork.js:292
+msgctxt "text:fieldworkStations.2.0.tasks.0"
+msgid "Bind one version chain"
+msgstr "綁一條版本鏈"
+
+#. fieldworkStations.2.0.tasks.1
+#: src/data/fieldwork.js:292
+msgctxt "text:fieldworkStations.2.0.tasks.1"
+msgid "Describe a missing leaf without filling it"
+msgstr "描述一個缺頁而不補寫"
+
+#. fieldworkStations.2.0.tasks.2
+#: src/data/fieldwork.js:292
+msgctxt "text:fieldworkStations.2.0.tasks.2"
+msgid "Leave your own correction"
+msgstr "留下自己的更正"
+
+#. fieldworkStations.2.0.wrinkle
+#: src/data/fieldwork.js:294
+msgctxt "text:fieldworkStations.2.0.wrinkle"
+msgid ""
+"If an archive cites your unfinished log, record the citation before "
+"finishing it to justify the loop."
+msgstr "若一本史料引用你尚未完成的日誌，先記錄引用，不要趕著完成它來證明循環合理。"
+
+#. fieldworkStations.2.0.seal
+#: src/data/fieldwork.js:295
+msgctxt "text:fieldworkStations.2.0.seal"
+msgid "Hieda Missing-Leaf Seal"
+msgstr "稗田缺頁騎縫印"
+
+#. fieldworkStations.3.0.name
+#: src/data/fieldwork.js:299
+msgctxt "text:fieldworkStations.3.0.name"
+msgid "Kourindou · Drift-object Provenance"
+msgstr "香霖堂・漂流物來源鏈站"
+
+#. fieldworkStations.3.0.host
+#: src/data/fieldwork.js:300
+msgctxt "text:fieldworkStations.3.0.host"
+msgid "Kourindou × Misty Lake Appraisal Office"
+msgstr "香霖堂 × 霧湖圖書館鑑定所"
+
+#. fieldworkStations.3.0.supervisor
+#: src/data/fieldwork.js:301
+msgctxt "text:fieldworkStations.3.0.supervisor"
+msgid "Rinnosuke Morichika"
+msgstr "森近霖之助"
+
+#. fieldworkStations.3.0.companion
+#: src/data/fieldwork.js:302
+msgctxt "text:fieldworkStations.3.0.companion"
+msgid "Kogasa Tatara (files objections for objects)"
+msgstr "多多良小傘（代表物件提出反對）"
+
+#. fieldworkStations.3.0.placement
+#: src/data/fieldwork.js:304
+msgctxt "text:fieldworkStations.3.0.placement"
+msgid "Identify name and purpose, test actual operation, and retain discrepancies."
+msgstr "辨認名稱與用途、測試實際操作，並保留兩者不一致的地方。"
+
+#. fieldworkStations.3.0.premise
+#: src/data/fieldwork.js:305
+msgctxt "text:fieldworkStations.3.0.premise"
+msgid "Knowing purpose does not reveal operation—or willingness."
+msgstr "知道一件物品做什麼，不代表知道它如何做、願不願意做。"
+
+#. fieldworkStations.3.0.access
+#: src/data/fieldwork.js:306
+msgctxt "text:fieldworkStations.3.0.access"
+msgid ""
+"Use whichever door remains visible; if stock blocks it, catalogue the door's "
+"custody first."
+msgstr "從仍可看見的門進；若門被庫存遮住，先登記門的保管狀態。"
+
+#. fieldworkStations.3.0.shift
+#: src/data/fieldwork.js:307
+msgctxt "text:fieldworkStations.3.0.shift"
+msgid "From Rinnosuke's 'open' to Marisa's 'only borrowing'"
+msgstr "霖之助說『正在營業』至魔理沙說『只是借用』"
+
+#. fieldworkStations.3.0.ethics
+#: src/data/fieldwork.js:309
+msgctxt "text:fieldworkStations.3.0.ethics"
+msgid "Tsukumogami, holder, and finder cannot sign for one another."
+msgstr "付喪神、物件持有人與發現者的同意不可互相代簽。"
+
+#. fieldworkStations.3.0.equipment.0
+#: src/data/fieldwork.js:310
+msgctxt "text:fieldworkStations.3.0.equipment.0"
+msgid "Three empty evidence bags"
+msgstr "空封袋三只"
+
+#. fieldworkStations.3.0.equipment.1
+#: src/data/fieldwork.js:310
+msgctxt "text:fieldworkStations.3.0.equipment.1"
+msgid "Non-invasive test case"
+msgstr "非侵入測試匣"
+
+#. fieldworkStations.3.0.equipment.2
+#: src/data/fieldwork.js:310
+msgctxt "text:fieldworkStations.3.0.equipment.2"
+msgid "Name ≠ operation labels"
+msgstr "名稱不等於操作貼紙"
+
+#. fieldworkStations.3.0.tasks.0
+#: src/data/fieldwork.js:311
+msgctxt "text:fieldworkStations.3.0.tasks.0"
+msgid "Reconstruct one provenance chain"
+msgstr "重建一條來源鏈"
+
+#. fieldworkStations.3.0.tasks.1
+#: src/data/fieldwork.js:311
+msgctxt "text:fieldworkStations.3.0.tasks.1"
+msgid "Run two non-invasive tests"
+msgstr "執行兩項非侵入測試"
+
+#. fieldworkStations.3.0.tasks.2
+#: src/data/fieldwork.js:311
+msgctxt "text:fieldworkStations.3.0.tasks.2"
+msgid "Ask the object where it goes"
+msgstr "詢問物件去處"
+
+#. fieldworkStations.3.0.wrinkle
+#: src/data/fieldwork.js:313
+msgctxt "text:fieldworkStations.3.0.wrinkle"
+msgid "If Marisa calls evidence borrowed, ask whether the prior holder uses the same verb."
+msgstr "魔理沙若把證物稱為借來的，必須另外詢問原持有人是否也使用同一動詞。"
+
+#. fieldworkStations.3.0.seal
+#: src/data/fieldwork.js:314
+msgctxt "text:fieldworkStations.3.0.seal"
+msgid "Kourindou Not-Sold Seal"
+msgstr "香霖堂未售出印"
+
+#. fieldworkStations.4.0.name
+#: src/data/fieldwork.js:318
+msgctxt "text:fieldworkStations.4.0.name"
+msgid "Misty Lake · Fairy Weather Plots"
+msgstr "霧之湖・妖精氣象樣區"
+
+#. fieldworkStations.4.0.host
+#: src/data/fieldwork.js:319
+msgctxt "text:fieldworkStations.4.0.host"
+msgid "Misty Lake Ecology Joint Desk"
+msgstr "霧湖生態協作桌"
+
+#. fieldworkStations.4.0.supervisor
+#: src/data/fieldwork.js:320
+msgctxt "text:fieldworkStations.4.0.supervisor"
+msgid "Daiyousei (rota rewritten weekly)"
+msgstr "大妖精（輪值名單每週重寫）"
+
+#. fieldworkStations.4.0.companion
+#: src/data/fieldwork.js:321
+msgctxt "text:fieldworkStations.4.0.companion"
+msgid "Cirno (makes controls stop controlling)"
+msgstr "琪露諾（負責讓控制組不再控制）"
+
+#. fieldworkStations.4.0.placement
+#: src/data/fieldwork.js:323
+msgctxt "text:fieldworkStations.4.0.placement"
+msgid "Measure fog, ice, lanterns, and fairy activity, including plot renamings."
+msgstr "測量霧、冰面、湖燈與妖精活動，另記錄樣區被重新命名的次數。"
+
+#. fieldworkStations.4.0.premise
+#: src/data/fieldwork.js:324
+msgctxt "text:fieldworkStations.4.0.premise"
+msgid "Fairies are not background noise; they often co-author the conditions."
+msgstr "妖精不是背景噪音；她們往往就是實驗條件的共同作者。"
+
+#. fieldworkStations.4.0.access
+#: src/data/fieldwork.js:325
+msgctxt "text:fieldworkStations.4.0.access"
+msgid "Use the east-shore rope; recheck ice, as 'it was thick just now' is invalid."
+msgstr "沿湖東岸繩行；冰面需重新確認，不接受『剛才很厚』。"
+
+#. fieldworkStations.4.0.shift
+#: src/data/fieldwork.js:326
+msgctxt "text:fieldworkStations.4.0.shift"
+msgid "First fog layer to the third plot relocation"
+msgstr "第一層霧至第三次樣區搬家"
+
+#. fieldworkStations.4.0.ethics
+#: src/data/fieldwork.js:328
+msgctxt "text:fieldworkStations.4.0.ethics"
+msgid ""
+"Joining, leaving, and breaking the scale are participation; do not log only "
+"compliant fairies."
+msgstr "妖精加入、離開與破壞量尺都算參與；不得只記錄聽話者。"
+
+#. fieldworkStations.4.0.equipment.0
+#: src/data/fieldwork.js:329
+msgctxt "text:fieldworkStations.4.0.equipment.0"
+msgid "Floating plot frame"
+msgstr "浮水樣區框"
+
+#. fieldworkStations.4.0.equipment.1
+#: src/data/fieldwork.js:329
+msgctxt "text:fieldworkStations.4.0.equipment.1"
+msgid "Freeze-proof ink"
+msgstr "防凍墨水"
+
+#. fieldworkStations.4.0.equipment.2
+#: src/data/fieldwork.js:329
+msgctxt "text:fieldworkStations.4.0.equipment.2"
+msgid "Wind flag fairies may rename"
+msgstr "可被妖精改名的風旗"
+
+#. fieldworkStations.4.0.tasks.0
+#: src/data/fieldwork.js:330
+msgctxt "text:fieldworkStations.4.0.tasks.0"
+msgid "Measure three fog layers"
+msgstr "測三層霧"
+
+#. fieldworkStations.4.0.tasks.1
+#: src/data/fieldwork.js:330
+msgctxt "text:fieldworkStations.4.0.tasks.1"
+msgid "Track one moving ice sheet"
+msgstr "追蹤一塊移動冰面"
+
+#. fieldworkStations.4.0.tasks.2
+#: src/data/fieldwork.js:330
+msgctxt "text:fieldworkStations.4.0.tasks.2"
+msgid "Co-define fun"
+msgstr "共同定義好玩程度"
+
+#. fieldworkStations.4.0.wrinkle
+#: src/data/fieldwork.js:332
+msgctxt "text:fieldworkStations.4.0.wrinkle"
+msgid "If Cirno records the highest temperature, check the scale before changing her rank."
+msgstr "若琪露諾得到最高溫讀值，先檢查溫標，不要改她的名次。"
+
+#. fieldworkStations.4.0.seal
+#: src/data/fieldwork.js:333
+msgctxt "text:fieldworkStations.4.0.seal"
+msgid "Misty Lake Moving-Plot Seal"
+msgstr "霧湖移動樣區印"
+
+#. fieldworkStations.5.0.name
+#: src/data/fieldwork.js:337
+msgctxt "text:fieldworkStations.5.0.name"
+msgid "Scarlet Devil Mansion · Night Archives & Time Logistics"
+msgstr "紅魔館・夜間檔案與時間物流站"
+
+#. fieldworkStations.5.0.host
+#: src/data/fieldwork.js:338
+msgctxt "text:fieldworkStations.5.0.host"
+msgid "Scarlet Library & Household Duty Desk"
+msgstr "紅魔館圖書館與內務值班桌"
+
+#. fieldworkStations.5.0.supervisor
+#: src/data/fieldwork.js:339
+msgctxt "text:fieldworkStations.5.0.supervisor"
+msgid "Sakuya Izayoi"
+msgstr "十六夜咲夜"
+
+#. fieldworkStations.5.0.companion
+#: src/data/fieldwork.js:340
+msgctxt "text:fieldworkStations.5.0.companion"
+msgid "Patchouli Knowledge (objects to calling books cargo)"
+msgstr "帕秋莉・諾蕾姬（不同意把書稱為貨物）"
+
+#. fieldworkStations.5.0.placement
+#: src/data/fieldwork.js:342
+msgctxt "text:fieldworkStations.5.0.placement"
+msgid ""
+"Reconstruct stopped-time logistics, collection movement, and night service "
+"without treating efficiency as natural law."
+msgstr "重建停止時間中的搬運順序、館藏流向與夜班服務，不把效率當作自然原因。"
+
+#. fieldworkStations.5.0.premise
+#: src/data/fieldwork.js:343
+msgctxt "text:fieldworkStations.5.0.premise"
+msgid "Everything is punctual; therefore timestamps alone may not prove sequence."
+msgstr "館內一切準時，正因如此，時間戳不一定足以證明先後。"
+
+#. fieldworkStations.5.0.access
+#: src/data/fieldwork.js:344
+msgctxt "text:fieldworkStations.5.0.access"
+msgid ""
+"Only Sakuya's current badge counts; fate's invitation does not replace gate "
+"registration."
+msgstr "只承認咲夜本次發出的訪客牌；命運安排的邀請不代替門衛登記。"
+
+#. fieldworkStations.5.0.shift
+#: src/data/fieldwork.js:345
+msgctxt "text:fieldworkStations.5.0.shift"
+msgid "Sunset tea until Remilia decides the evening is interesting"
+msgstr "日落茶至蕾米莉亞決定今晚已經有趣"
+
+#. fieldworkStations.5.0.ethics
+#: src/data/fieldwork.js:347
+msgctxt "text:fieldworkStations.5.0.ethics"
+msgid ""
+"Stopped time does not stop withdrawal; moved persons may refuse becoming "
+"logistics data afterward."
+msgstr "停止時間不停止撤回權；被搬運者醒來後仍可拒絕成為物流資料。"
+
+#. fieldworkStations.5.0.equipment.0
+#: src/data/fieldwork.js:348
+msgctxt "text:fieldworkStations.5.0.equipment.0"
+msgid "Relative-order tea tags"
+msgstr "相對順序茶籤"
+
+#. fieldworkStations.5.0.equipment.1
+#: src/data/fieldwork.js:348
+msgctxt "text:fieldworkStations.5.0.equipment.1"
+msgid "Cutlery-position rubbings"
+msgstr "銀器位置拓片"
+
+#. fieldworkStations.5.0.equipment.2
+#: src/data/fieldwork.js:348
+msgctxt "text:fieldworkStations.5.0.equipment.2"
+msgid "Seven-day book-cart chock"
+msgstr "七曜書車輪鎖"
+
+#. fieldworkStations.5.0.tasks.0
+#: src/data/fieldwork.js:349
+msgctxt "text:fieldworkStations.5.0.tasks.0"
+msgid "Reconstruct one night-tea delivery"
+msgstr "重建一次夜茶物流"
+
+#. fieldworkStations.5.0.tasks.1
+#: src/data/fieldwork.js:349
+msgctxt "text:fieldworkStations.5.0.tasks.1"
+msgid "Track one shelf-departing book"
+msgstr "追蹤一冊離架書"
+
+#. fieldworkStations.5.0.tasks.2
+#: src/data/fieldwork.js:349
+msgctxt "text:fieldworkStations.5.0.tasks.2"
+msgid "Submit a relative timeline"
+msgstr "提交相對時間表"
+
+#. fieldworkStations.5.0.wrinkle
+#: src/data/fieldwork.js:351
+msgctxt "text:fieldworkStations.5.0.wrinkle"
+msgid ""
+"If Remilia calls the result fate, record it as the mansion's interpretation, "
+"not a measurement method."
+msgstr "蕾米莉亞若說結果是命運，將它登記為館方解釋，不登記為測量方法。"
+
+#. fieldworkStations.5.0.seal
+#: src/data/fieldwork.js:352
+msgctxt "text:fieldworkStations.5.0.seal"
+msgid "Scarlet Same-Minute Night Seal"
+msgstr "紅魔館同分鐘夜班印"
+
+#. fieldworkStations.6.0.name
+#: src/data/fieldwork.js:356
+msgctxt "text:fieldworkStations.6.0.name"
+msgid "Forest of Magic · Wild Material Provenance"
+msgstr "魔法森林・野生素材來源站"
+
+#. fieldworkStations.6.0.host
+#: src/data/fieldwork.js:357
+msgctxt "text:fieldworkStations.6.0.host"
+msgid "Forest of Magic Temporary Collecting Desk"
+msgstr "魔法森林臨時採集桌"
+
+#. fieldworkStations.6.0.supervisor
+#: src/data/fieldwork.js:358
+msgctxt "text:fieldworkStations.6.0.supervisor"
+msgid "Marisa Kirisame"
+msgstr "霧雨魔理沙"
+
+#. fieldworkStations.6.0.companion
+#: src/data/fieldwork.js:359
+msgctxt "text:fieldworkStations.6.0.companion"
+msgid "Alice Margatroid (asks where materials actually came from)"
+msgstr "愛麗絲・瑪格特羅伊德（負責問材料到底從哪來）"
+
+#. fieldworkStations.6.0.placement
+#: src/data/fieldwork.js:361
+msgctxt "text:fieldworkStations.6.0.placement"
+msgid ""
+"Log mushrooms, magical deposits, and failed collection with provenance "
+"beyond 'found nearby'."
+msgstr "記錄魔菇、魔力沉積與採集失敗，建立材料真正來源而非『附近撿到』。"
+
+#. fieldworkStations.6.0.premise
+#: src/data/fieldwork.js:362
+msgctxt "text:fieldworkStations.6.0.premise"
+msgid "Reproducible magic starts with provenance; Marisa's definition requires an annex."
+msgstr "可重現的魔法從材料來源開始；魔理沙對『來源』的定義需另附註。"
+
+#. fieldworkStations.6.0.access
+#: src/data/fieldwork.js:363
+msgctxt "text:fieldworkStations.6.0.access"
+msgid ""
+"Pairs only, with three distinct return marks; identical mushrooms do not "
+"prove identical places."
+msgstr "兩人一組，回程留三枚不同記號；相同蘑菇不保證是同一處。"
+
+#. fieldworkStations.6.0.shift
+#: src/data/fieldwork.js:364
+msgctxt "text:fieldworkStations.6.0.shift"
+msgid "Spore settling to the first 'borrowed' material"
+msgstr "孢子落定至第一件『借來的』材料出現"
+
+#. fieldworkStations.6.0.ethics
+#: src/data/fieldwork.js:366
+msgctxt "text:fieldworkStations.6.0.ethics"
+msgid ""
+"Separate living specimens, colonies, and owned material; collectability is "
+"not portability."
+msgstr "活體、魔菇群落與有主材料分列；採到不等於可帶走。"
+
+#. fieldworkStations.6.0.equipment.0
+#: src/data/fieldwork.js:367
+msgctxt "text:fieldworkStations.6.0.equipment.0"
+msgid "Spore wind paper"
+msgstr "孢子向風紙"
+
+#. fieldworkStations.6.0.equipment.1
+#: src/data/fieldwork.js:367
+msgctxt "text:fieldworkStations.6.0.equipment.1"
+msgid "Material-provenance twine"
+msgstr "材料來源麻繩"
+
+#. fieldworkStations.6.0.equipment.2
+#: src/data/fieldwork.js:367
+msgctxt "text:fieldworkStations.6.0.equipment.2"
+msgid "Refuses collection tags"
+msgstr "拒絕被採集標"
+
+#. fieldworkStations.6.0.tasks.0
+#: src/data/fieldwork.js:368
+msgctxt "text:fieldworkStations.6.0.tasks.0"
+msgid "Trace one material home"
+msgstr "追一件材料到原地"
+
+#. fieldworkStations.6.0.tasks.1
+#: src/data/fieldwork.js:368
+msgctxt "text:fieldworkStations.6.0.tasks.1"
+msgid "Record one failed recipe"
+msgstr "記錄一次失敗配方"
+
+#. fieldworkStations.6.0.tasks.2
+#: src/data/fieldwork.js:368
+msgctxt "text:fieldworkStations.6.0.tasks.2"
+msgid "Audit Marisa's borrowing verb"
+msgstr "與魔理沙核對借用動詞"
+
+#. fieldworkStations.6.0.wrinkle
+#: src/data/fieldwork.js:370
+msgctxt "text:fieldworkStations.6.0.wrinkle"
+msgid ""
+"If material is already in Marisa's pocket, provenance may start there but "
+"cannot end there."
+msgstr "若材料在你抵達前已放進魔理沙口袋，來源鏈從口袋開始，但不能在口袋結束。"
+
+#. fieldworkStations.6.0.seal
+#: src/data/fieldwork.js:371
+msgctxt "text:fieldworkStations.6.0.seal"
+msgid "Forest Material-Returns Seal"
+msgstr "魔法森林材料回頭印"
+
+#. fieldworkStations.7.0.name
+#: src/data/fieldwork.js:375
+msgctxt "text:fieldworkStations.7.0.name"
+msgid "Alice's Workshop · Doll Collaboration"
+msgstr "愛麗絲工房・人偶協作實習站"
+
+#. fieldworkStations.7.0.host
+#: src/data/fieldwork.js:376
+msgctxt "text:fieldworkStations.7.0.host"
+msgid "Margatroid Workshop"
+msgstr "瑪格特羅伊德工房"
+
+#. fieldworkStations.7.0.supervisor
+#: src/data/fieldwork.js:377
+msgctxt "text:fieldworkStations.7.0.supervisor"
+msgid "Alice Margatroid"
+msgstr "愛麗絲・瑪格特羅伊德"
+
+#. fieldworkStations.7.0.companion
+#: src/data/fieldwork.js:378
+msgctxt "text:fieldworkStations.7.0.companion"
+msgid "Shanghai / Hourai dolls (rota refuses master/servant field)"
+msgstr "上海人偶／蓬萊人偶（輪值表拒絕標主從）"
+
+#. fieldworkStations.7.0.placement
+#: src/data/fieldwork.js:380
+msgctxt "text:fieldworkStations.7.0.placement"
+msgid ""
+"Observe puppetry, semi-autonomous collaboration, and repairs while "
+"separating orders, habits, and initiative."
+msgstr "觀察操線、半自主協作與修補工序，區分指令、習慣與主動回應。"
+
+#. fieldworkStations.7.0.premise
+#: src/data/fieldwork.js:381
+msgctxt "text:fieldworkStations.7.0.premise"
+msgid "A completed job does not prove who performed each step."
+msgstr "工作完成不代表能從結果推回誰做了哪一步。"
+
+#. fieldworkStations.7.0.access
+#: src/data/fieldwork.js:382
+msgctxt "text:fieldworkStations.7.0.access"
+msgid "After knocking, wait for a doll; opening it yourself changes the autonomy record."
+msgstr "敲門後等人偶開門；學生自行推門會改變當日自主性記錄。"
+
+#. fieldworkStations.7.0.shift
+#: src/data/fieldwork.js:383
+msgctxt "text:fieldworkStations.7.0.shift"
+msgid "First taut thread to the last stitch finishing itself"
+msgstr "第一根絲張緊至最後一針自行收尾"
+
+#. fieldworkStations.7.0.ethics
+#: src/data/fieldwork.js:385
+msgctxt "text:fieldworkStations.7.0.ethics"
+msgid "Do not pre-classify dolls as equipment or participants; record who can refuse each task."
+msgstr "不預設人偶是器材或參與者；每項活動先記錄誰能拒絕。"
+
+#. fieldworkStations.7.0.equipment.0
+#: src/data/fieldwork.js:386
+msgctxt "text:fieldworkStations.7.0.equipment.0"
+msgid "Low-tension thread gauge"
+msgstr "低張力操線尺"
+
+#. fieldworkStations.7.0.equipment.1
+#: src/data/fieldwork.js:386
+msgctxt "text:fieldworkStations.7.0.equipment.1"
+msgid "Doll consent flags"
+msgstr "人偶同意小旗"
+
+#. fieldworkStations.7.0.equipment.2
+#: src/data/fieldwork.js:386
+msgctxt "text:fieldworkStations.7.0.equipment.2"
+msgid "Needle-and-thread provenance tray"
+msgstr "針線來源盤"
+
+#. fieldworkStations.7.0.tasks.0
+#: src/data/fieldwork.js:387
+msgctxt "text:fieldworkStations.7.0.tasks.0"
+msgid "Mark one command chain"
+msgstr "標一段指令鏈"
+
+#. fieldworkStations.7.0.tasks.1
+#: src/data/fieldwork.js:387
+msgctxt "text:fieldworkStations.7.0.tasks.1"
+msgid "Log one initiated repair"
+msgstr "記錄一項主動修補"
+
+#. fieldworkStations.7.0.tasks.2
+#: src/data/fieldwork.js:387
+msgctxt "text:fieldworkStations.7.0.tasks.2"
+msgid "Co-sign with a doll"
+msgstr "與人偶共同簽名"
+
+#. fieldworkStations.7.0.wrinkle
+#: src/data/fieldwork.js:389
+msgctxt "text:fieldworkStations.7.0.wrinkle"
+msgid "If a doll finishes the log first, do not erase authorship with the word 'assisted'."
+msgstr "若人偶比你先寫完日誌，不得用『協助』一詞抹掉作者。"
+
+#. fieldworkStations.7.0.seal
+#: src/data/fieldwork.js:390
+msgctxt "text:fieldworkStations.7.0.seal"
+msgid "Doll-Finished-Stitch Seal"
+msgstr "人偶自行收針印"
+
+#. fieldworkStations.8.0.name
+#: src/data/fieldwork.js:394
+msgctxt "text:fieldworkStations.8.0.name"
+msgid "Garden of the Sun · Seasons & Disturbance"
+msgstr "太陽花田・季節與擾動站"
+
+#. fieldworkStations.8.0.host
+#: src/data/fieldwork.js:395
+msgctxt "text:fieldworkStations.8.0.host"
+msgid "Garden Transect Desk"
+msgstr "太陽花田樣線管理桌"
+
+#. fieldworkStations.8.0.supervisor
+#: src/data/fieldwork.js:396
+msgctxt "text:fieldworkStations.8.0.supervisor"
+msgid "Yuuka Kazami"
+msgstr "風見幽香"
+
+#. fieldworkStations.8.0.companion
+#: src/data/fieldwork.js:397
+msgctxt "text:fieldworkStations.8.0.companion"
+msgid "Medicine Melancholy (reminds that toxicity is not temperament)"
+msgstr "梅蒂欣・梅蘭可莉（負責提醒毒性不是性格）"
+
+#. fieldworkStations.8.0.placement
+#: src/data/fieldwork.js:399
+msgctxt "text:fieldworkStations.8.0.placement"
+msgid "Measure bloom, trampling, pollen, and observer disturbance beyond merely not touching."
+msgstr "測量花期、踩踏、花粉與觀看者造成的擾動，學會把『沒碰』以外的影響寫下。"
+
+#. fieldworkStations.8.0.premise
+#: src/data/fieldwork.js:400
+msgctxt "text:fieldworkStations.8.0.premise"
+msgid "Silence is not non-disturbance; shadows, scent, and frightened walking remain."
+msgstr "停止說話不等於沒有干擾；影子、氣味與害怕的走法都會留下。"
+
+#. fieldworkStations.8.0.access
+#: src/data/fieldwork.js:401
+msgctxt "text:fieldworkStations.8.0.access"
+msgid "Use yesterday's line; if flowers cover it, first acknowledge that the flowers won."
+msgstr "只走昨日標出的線；若花覆蓋線，先承認花贏了。"
+
+#. fieldworkStations.8.0.shift
+#: src/data/fieldwork.js:402
+msgctxt "text:fieldworkStations.8.0.shift"
+msgid "Dewfall retreat until Yuuka asks what you still disturb"
+msgstr "露水退去至幽香問你還在擾動什麼"
+
+#. fieldworkStations.8.0.ethics
+#: src/data/fieldwork.js:404
+msgctxt "text:fieldworkStations.8.0.ethics"
+msgid ""
+"Separate toxicity, danger, and hostility; do not file Medicine's speech as "
+"specimen notes."
+msgstr "毒性、危險與敵意分開記錄；不得為了安全方便把梅蒂欣的發言歸入樣品註記。"
+
+#. fieldworkStations.8.0.equipment.0
+#: src/data/fieldwork.js:405
+msgctxt "text:fieldworkStations.8.0.equipment.0"
+msgid "Shadow-width ruler"
+msgstr "影子寬度尺"
+
+#. fieldworkStations.8.0.equipment.1
+#: src/data/fieldwork.js:405
+msgctxt "text:fieldworkStations.8.0.equipment.1"
+msgid "Pollen seal paper"
+msgstr "花粉封紙"
+
+#. fieldworkStations.8.0.equipment.2
+#: src/data/fieldwork.js:405
+msgctxt "text:fieldworkStations.8.0.equipment.2"
+msgid "No-picking transect flags"
+msgstr "不採摘樣線旗"
+
+#. fieldworkStations.8.0.tasks.0
+#: src/data/fieldwork.js:406
+msgctxt "text:fieldworkStations.8.0.tasks.0"
+msgid "Measure observer effect"
+msgstr "量觀察者影響"
+
+#. fieldworkStations.8.0.tasks.1
+#: src/data/fieldwork.js:406
+msgctxt "text:fieldworkStations.8.0.tasks.1"
+msgid "Compare two bloom phases"
+msgstr "比對兩段花期"
+
+#. fieldworkStations.8.0.tasks.2
+#: src/data/fieldwork.js:406
+msgctxt "text:fieldworkStations.8.0.tasks.2"
+msgid "Submit a no-collection record"
+msgstr "提交未採集證明"
+
+#. fieldworkStations.8.0.wrinkle
+#: src/data/fieldwork.js:408
+msgctxt "text:fieldworkStations.8.0.wrinkle"
+msgid "If a flower refuses a number, leave the gap; do not promote the next flower."
+msgstr "若一朵花拒絕被編號，保留空號；不要把下一朵花往前移。"
+
+#. fieldworkStations.8.0.seal
+#: src/data/fieldwork.js:409
+msgctxt "text:fieldworkStations.8.0.seal"
+msgid "Garden Missing-Number Seal"
+msgstr "太陽花田空號印"
+
+#. fieldworkStations.9.0.name
+#: src/data/fieldwork.js:413
+msgctxt "text:fieldworkStations.9.0.name"
+msgid "Nameless Hill · Lily Toxicology & Care"
+msgstr "無名之丘・鈴蘭毒理與照護站"
+
+#. fieldworkStations.9.0.host
+#: src/data/fieldwork.js:414
+msgctxt "text:fieldworkStations.9.0.host"
+msgid "Eientei Mobile Pharmacology Desk"
+msgstr "永遠亭外勤藥理桌"
+
+#. fieldworkStations.9.0.supervisor
+#: src/data/fieldwork.js:415
+msgctxt "text:fieldworkStations.9.0.supervisor"
+msgid "Medicine Melancholy / Eirin remote review"
+msgstr "梅蒂欣・梅蘭可莉／八意永琳遠端覆核"
+
+#. fieldworkStations.9.0.companion
+#: src/data/fieldwork.js:416
+msgctxt "text:fieldworkStations.9.0.companion"
+msgid "Lily colony (rejects singular address)"
+msgstr "鈴蘭群落（不接受以單數稱呼）"
+
+#. fieldworkStations.9.0.placement
+#: src/data/fieldwork.js:418
+msgctxt "text:fieldworkStations.9.0.placement"
+msgid "Record exposure, symptoms, and conditions while separating presence, dose, and harm."
+msgstr "建立暴露、症狀與環境條件紀錄，區分毒的存在、劑量與是否造成傷害。"
+
+#. fieldworkStations.9.0.premise
+#: src/data/fieldwork.js:419
+msgctxt "text:fieldworkStations.9.0.premise"
+msgid "Plants are not medicine bottles, and Medicine is not their instruction leaflet."
+msgstr "植物不是藥瓶，梅蒂欣也不是植物附屬說明書。"
+
+#. fieldworkStations.9.0.access
+#: src/data/fieldwork.js:420
+msgctxt "text:fieldworkStations.9.0.access"
+msgid "Meet upwind and buddy-check; dizziness means exit before discussing courage."
+msgstr "上風處集合，兩人互檢；任何頭暈先離場再討論勇氣。"
+
+#. fieldworkStations.9.0.shift
+#: src/data/fieldwork.js:421
+msgctxt "text:fieldworkStations.9.0.shift"
+msgid "One stable twenty-minute wind"
+msgstr "風向穩定二十分鐘內"
+
+#. fieldworkStations.9.0.ethics
+#: src/data/fieldwork.js:423
+msgctxt "text:fieldworkStations.9.0.ethics"
+msgid "Do not derive ordinary safe doses from immortals or toxin-resistant participants."
+msgstr "不得用不死或抗毒者替一般學生建立安全劑量。"
+
+#. fieldworkStations.9.0.equipment.0
+#: src/data/fieldwork.js:424
+msgctxt "text:fieldworkStations.9.0.equipment.0"
+msgid "Wind bells"
+msgstr "風向鈴"
+
+#. fieldworkStations.9.0.equipment.1
+#: src/data/fieldwork.js:424
+msgctxt "text:fieldworkStations.9.0.equipment.1"
+msgid "Exposure slips"
+msgstr "暴露回條"
+
+#. fieldworkStations.9.0.equipment.2
+#: src/data/fieldwork.js:424
+msgctxt "text:fieldworkStations.9.0.equipment.2"
+msgid "Eientei exit rope"
+msgstr "永遠亭退場繩"
+
+#. fieldworkStations.9.0.tasks.0
+#: src/data/fieldwork.js:425
+msgctxt "text:fieldworkStations.9.0.tasks.0"
+msgid "Mark one exposure gradient"
+msgstr "標一條暴露梯度"
+
+#. fieldworkStations.9.0.tasks.1
+#: src/data/fieldwork.js:425
+msgctxt "text:fieldworkStations.9.0.tasks.1"
+msgid "Rehearse the stop rule"
+msgstr "演練停止規則"
+
+#. fieldworkStations.9.0.tasks.2
+#: src/data/fieldwork.js:425
+msgctxt "text:fieldworkStations.9.0.tasks.2"
+msgid "Log the colony's statement"
+msgstr "記錄群落發言"
+
+#. fieldworkStations.9.0.wrinkle
+#: src/data/fieldwork.js:427
+msgctxt "text:fieldworkStations.9.0.wrinkle"
+msgid "If Medicine says 'we are fine,' ask who 'we' includes and for how long."
+msgstr "梅蒂欣若說『我們沒事』，先問『我們』包括誰，再問沒事持續多久。"
+
+#. fieldworkStations.9.0.seal
+#: src/data/fieldwork.js:428
+msgctxt "text:fieldworkStations.9.0.seal"
+msgid "Nameless Hill Upwind Seal"
+msgstr "無名丘上風印"
+
+#. fieldworkStations.10.0.name
+#: src/data/fieldwork.js:432
+msgctxt "text:fieldworkStations.10.0.name"
+msgid "Youkai Trail · Night Sparrow Foodways"
+msgstr "妖怪獸道・夜雀食堂田野站"
+
+#. fieldworkStations.10.0.host
+#: src/data/fieldwork.js:433
+msgctxt "text:fieldworkStations.10.0.host"
+msgid "Night Sparrow Stall & Night-route Desk"
+msgstr "夜雀燒鳥攤與夜行路桌"
+
+#. fieldworkStations.10.0.supervisor
+#: src/data/fieldwork.js:434
+msgctxt "text:fieldworkStations.10.0.supervisor"
+msgid "Mystia Lorelei"
+msgstr "米斯蒂婭・蘿蕾拉"
+
+#. fieldworkStations.10.0.companion
+#: src/data/fieldwork.js:435
+msgctxt "text:fieldworkStations.10.0.companion"
+msgid "Passing customers (roster settles after the song)"
+msgstr "路過客人（名單在唱完後才確定）"
+
+#. fieldworkStations.10.0.placement
+#: src/data/fieldwork.js:437
+msgctxt "text:fieldworkStations.10.0.placement"
+msgid ""
+"Log nocturnal soundscapes, food provenance, and route aid while separating "
+"lost, lingering, and song-diverted travel."
+msgstr "記錄夜間聲景、食物來源與路線互助，區分迷路、停留與被歌聲改道。"
+
+#. fieldworkStations.10.0.premise
+#: src/data/fieldwork.js:438
+msgctxt "text:fieldworkStations.10.0.premise"
+msgid ""
+"Kitchen, performance, and road share one stall lamp and cannot be treated as "
+"independent."
+msgstr "食堂、表演與道路在同一攤燈下運作，不能假裝彼此沒有影響。"
+
+#. fieldworkStations.10.0.access
+#: src/data/fieldwork.js:439
+msgctxt "text:fieldworkStations.10.0.access"
+msgid "Bring a direction bell; grilled food smell does not prove arrival."
+msgstr "帶自己的方向鈴；聞到烤物不代表已抵達指定樣點。"
+
+#. fieldworkStations.10.0.shift
+#: src/data/fieldwork.js:440
+msgctxt "text:fieldworkStations.10.0.shift"
+msgid "First twilight song to the last unidentified guest bowl"
+msgstr "黃昏第一曲至最後一碗不明來客湯"
+
+#. fieldworkStations.10.0.ethics
+#: src/data/fieldwork.js:442
+msgctxt "text:fieldworkStations.10.0.ethics"
+msgid "Do not infer original intent from routes chosen after song exposure."
+msgstr "不可用歌聲影響後的路線選擇反推訪客原本意圖。"
+
+#. fieldworkStations.10.0.equipment.0
+#: src/data/fieldwork.js:443
+msgctxt "text:fieldworkStations.10.0.equipment.0"
+msgid "Binaural soundscape paper"
+msgstr "雙耳聲景紙"
+
+#. fieldworkStations.10.0.equipment.1
+#: src/data/fieldwork.js:443
+msgctxt "text:fieldworkStations.10.0.equipment.1"
+msgid "Ingredient provenance skewers"
+msgstr "食材來源籤"
+
+#. fieldworkStations.10.0.equipment.2
+#: src/data/fieldwork.js:443
+msgctxt "text:fieldworkStations.10.0.equipment.2"
+msgid "Pre-song route cards"
+msgstr "未唱前路線卡"
+
+#. fieldworkStations.10.0.tasks.0
+#: src/data/fieldwork.js:444
+msgctxt "text:fieldworkStations.10.0.tasks.0"
+msgid "Map one soundscape"
+msgstr "畫一段聲景"
+
+#. fieldworkStations.10.0.tasks.1
+#: src/data/fieldwork.js:444
+msgctxt "text:fieldworkStations.10.0.tasks.1"
+msgid "Trace one ingredient skewer"
+msgstr "追一串食材來源"
+
+#. fieldworkStations.10.0.tasks.2
+#: src/data/fieldwork.js:444
+msgctxt "text:fieldworkStations.10.0.tasks.2"
+msgid "Log one mutual wayfinding act"
+msgstr "記錄一次互助引路"
+
+#. fieldworkStations.10.0.wrinkle
+#: src/data/fieldwork.js:446
+msgctxt "text:fieldworkStations.10.0.wrinkle"
+msgid ""
+"If a guest says the song drew them in, record that separately from what they "
+"ordered next."
+msgstr "若訪客說是被歌聲吸引，必須分開記錄他說了什麼與最後多點了什麼。"
+
+#. fieldworkStations.10.0.seal
+#: src/data/fieldwork.js:447
+msgctxt "text:fieldworkStations.10.0.seal"
+msgid "Night Sparrow Pre-song Route Seal"
+msgstr "夜雀未唱前路線印"
+
+#. fieldworkStations.11.0.name
+#: src/data/fieldwork.js:451
+msgctxt "text:fieldworkStations.11.0.name"
+msgid "Youkai Mountain · Tengu News & Airspace"
+msgstr "妖怪山・天狗新聞與空域站"
+
+#. fieldworkStations.11.0.host
+#: src/data/fieldwork.js:452
+msgctxt "text:fieldworkStations.11.0.host"
+msgid "Bunbunmaru Field Desk"
+msgstr "文文。新聞外勤桌"
+
+#. fieldworkStations.11.0.supervisor
+#: src/data/fieldwork.js:453
+msgctxt "text:fieldworkStations.11.0.supervisor"
+msgid "Aya Shameimaru"
+msgstr "射命丸文"
+
+#. fieldworkStations.11.0.companion
+#: src/data/fieldwork.js:454
+msgctxt "text:fieldworkStations.11.0.companion"
+msgid "Momiji Inubashiri (her duty log usually trails the headline)"
+msgstr "犬走椛（她的值班簿通常比標題晚）"
+
+#. fieldworkStations.11.0.placement
+#: src/data/fieldwork.js:456
+msgctxt "text:fieldworkStations.11.0.placement"
+msgid ""
+"Track extras, patrols, and airspace notices, marking when forecast, "
+"observation, rumour, and correction exchange places."
+msgstr "跟隨速報、巡邏與空域公告，標記預測、觀察、傳聞與訂正何時互換位置。"
+
+#. fieldworkStations.11.0.premise
+#: src/data/fieldwork.js:457
+msgctxt "text:fieldworkStations.11.0.premise"
+msgid "Speed is a research subject, not an exemption from verification."
+msgstr "速度是研究對象，不是免除核驗的理由。"
+
+#. fieldworkStations.11.0.access
+#: src/data/fieldwork.js:458
+msgctxt "text:fieldworkStations.11.0.access"
+msgid "Carry a temporary feather pass; keeping up with Aya is not clearance."
+msgstr "持天狗臨時羽牌；不接受自行跟上文作為通行資格。"
+
+#. fieldworkStations.11.0.shift
+#: src/data/fieldwork.js:459
+msgctxt "text:fieldworkStations.11.0.shift"
+msgid "First advance extra to first advance correction"
+msgstr "第一份預備號外至第一份預備訂正"
+
+#. fieldworkStations.11.0.ethics
+#: src/data/fieldwork.js:461
+msgctxt "text:fieldworkStations.11.0.ethics"
+msgid ""
+"Roof angle, wing shape, and flight path may identify anonymous sources; "
+"review before publication."
+msgstr "屋頂角度、翼形與飛行路徑可能識別匿名來源；刊出前另檢。"
+
+#. fieldworkStations.11.0.equipment.0
+#: src/data/fieldwork.js:462
+msgctxt "text:fieldworkStations.11.0.equipment.0"
+msgid "Forecast/occurred split sheets"
+msgstr "預測／發生雙欄紙"
+
+#. fieldworkStations.11.0.equipment.1
+#: src/data/fieldwork.js:462
+msgctxt "text:fieldworkStations.11.0.equipment.1"
+msgid "Feather-pass wind clip"
+msgstr "羽牌防風夾"
+
+#. fieldworkStations.11.0.equipment.2
+#: src/data/fieldwork.js:462
+msgctxt "text:fieldworkStations.11.0.equipment.2"
+msgid "Clock nine minutes late"
+msgstr "晚九分鐘時鐘"
+
+#. fieldworkStations.11.0.tasks.0
+#: src/data/fieldwork.js:463
+msgctxt "text:fieldworkStations.11.0.tasks.0"
+msgid "Compare one extra to one duty log"
+msgstr "比對一則速報與值班簿"
+
+#. fieldworkStations.11.0.tasks.1
+#: src/data/fieldwork.js:463
+msgctxt "text:fieldworkStations.11.0.tasks.1"
+msgid "Flag one anonymity leak"
+msgstr "標記匿名洩漏風險"
+
+#. fieldworkStations.11.0.tasks.2
+#: src/data/fieldwork.js:463
+msgctxt "text:fieldworkStations.11.0.tasks.2"
+msgid "Write a correctable headline"
+msgstr "寫一則可訂正標題"
+
+#. fieldworkStations.11.0.wrinkle
+#: src/data/fieldwork.js:465
+msgctxt "text:fieldworkStations.11.0.wrinkle"
+msgid "Aya praises the fastest log; Momiji asks whether its event had happened yet."
+msgstr "文會稱讚最快完成的日誌；椛會問你完成時是否已經發生。"
+
+#. fieldworkStations.11.0.seal
+#: src/data/fieldwork.js:466
+msgctxt "text:fieldworkStations.11.0.seal"
+msgid "Tengu Nine-Minute Extra Seal"
+msgstr "天狗九分鐘號外印"
+
+#. fieldworkStations.12.0.name
+#: src/data/fieldwork.js:470
+msgctxt "text:fieldworkStations.12.0.name"
+msgid "Genbu Ravine · Kappa Waterworks"
+msgstr "玄武澗・河童水工維修站"
+
+#. fieldworkStations.12.0.host
+#: src/data/fieldwork.js:471
+msgctxt "text:fieldworkStations.12.0.host"
+msgid "Kappa Engineering Joint Maintenance"
+msgstr "河童工程共同維修桌"
+
+#. fieldworkStations.12.0.supervisor
+#: src/data/fieldwork.js:472
+msgctxt "text:fieldworkStations.12.0.supervisor"
+msgid "Nitori Kawashiro"
+msgstr "河城荷取"
+
+#. fieldworkStations.12.0.companion
+#: src/data/fieldwork.js:473
+msgctxt "text:fieldworkStations.12.0.companion"
+msgid "Hina Kagiyama (misfortune flow is not ordinary drainage)"
+msgstr "鍵山雛（厄流不列入普通排水）"
+
+#. fieldworkStations.12.0.placement
+#: src/data/fieldwork.js:475
+msgctxt "text:fieldworkStations.12.0.placement"
+msgid ""
+"Measure low-head turbines, tape repairs, and misfortune bypasses with "
+"before/after versions."
+msgstr "測量低落差水輪、臨時膠帶補丁與厄流旁路，保存維修前後版本。"
+
+#. fieldworkStations.12.0.premise
+#: src/data/fieldwork.js:476
+msgctxt "text:fieldworkStations.12.0.premise"
+msgid ""
+"Running does not mean diagram-compliant, and a correct diagram may not be "
+"the one the machine reads today."
+msgstr "能運轉不等於符合圖紙；圖紙正確也不代表設備今天讀它。"
+
+#. fieldworkStations.12.0.access
+#: src/data/fieldwork.js:477
+msgctxt "text:fieldworkStations.12.0.access"
+msgid "Wear a borrowed kappa helmet; warranty label out, tape repairs upstream."
+msgstr "戴河童借用安全帽；保固貼紙朝外，膠帶補丁朝上游。"
+
+#. fieldworkStations.12.0.shift
+#: src/data/fieldwork.js:478
+msgctxt "text:fieldworkStations.12.0.shift"
+msgid "Upstream opening to the third 'temporary' repair"
+msgstr "上游開閘至第三次『臨時』維修"
+
+#. fieldworkStations.12.0.ethics
+#: src/data/fieldwork.js:480
+msgctxt "text:fieldworkStations.12.0.ethics"
+msgid ""
+"Separate downstream residents, machinery, and misfortune; mean flow must not "
+"erase local backwash."
+msgstr "下游居民、河童設備與厄流的影響分列；平均流量不可洗掉局部倒灌。"
+
+#. fieldworkStations.12.0.equipment.0
+#: src/data/fieldwork.js:481
+msgctxt "text:fieldworkStations.12.0.equipment.0"
+msgid "Waterproof version tags"
+msgstr "防水版本牌"
+
+#. fieldworkStations.12.0.equipment.1
+#: src/data/fieldwork.js:481
+msgctxt "text:fieldworkStations.12.0.equipment.1"
+msgid "Low-head current cups"
+msgstr "低落差流速杯"
+
+#. fieldworkStations.12.0.equipment.2
+#: src/data/fieldwork.js:481
+msgctxt "text:fieldworkStations.12.0.equipment.2"
+msgid "Kappa-tape batch cards"
+msgstr "河童膠帶批號卡"
+
+#. fieldworkStations.12.0.tasks.0
+#: src/data/fieldwork.js:482
+msgctxt "text:fieldworkStations.12.0.tasks.0"
+msgid "Draw one patch diagram"
+msgstr "拍一份補丁圖"
+
+#. fieldworkStations.12.0.tasks.1
+#: src/data/fieldwork.js:482
+msgctxt "text:fieldworkStations.12.0.tasks.1"
+msgid "Measure three downstream points"
+msgstr "測三個下游點"
+
+#. fieldworkStations.12.0.tasks.2
+#: src/data/fieldwork.js:482
+msgctxt "text:fieldworkStations.12.0.tasks.2"
+msgid "Find the warranty/reality gap"
+msgstr "找出保固與現況差"
+
+#. fieldworkStations.12.0.wrinkle
+#: src/data/fieldwork.js:484
+msgctxt "text:fieldworkStations.12.0.wrinkle"
+msgid "When Nitori says removable, ask how many wrenches and minutes."
+msgstr "荷取說『可拆式』時，先問需要幾把扳手與幾分鐘。"
+
+#. fieldworkStations.12.0.seal
+#: src/data/fieldwork.js:485
+msgctxt "text:fieldworkStations.12.0.seal"
+msgid "Genbu Temporary Version Three Seal"
+msgstr "玄武澗臨時第三版印"
+
+#. fieldworkStations.13.0.name
+#: src/data/fieldwork.js:489
+msgctxt "text:fieldworkStations.13.0.name"
+msgid "Moriya Shrine · Faith Infrastructure"
+msgstr "守矢神社・信仰基礎設施站"
+
+#. fieldworkStations.13.0.host
+#: src/data/fieldwork.js:490
+msgctxt "text:fieldworkStations.13.0.host"
+msgid "Moriya Technology & Faith Desk"
+msgstr "守矢技術與信仰桌"
+
+#. fieldworkStations.13.0.supervisor
+#: src/data/fieldwork.js:491
+msgctxt "text:fieldworkStations.13.0.supervisor"
+msgid "Sanae Kochiya / Kanako Yasaka"
+msgstr "東風谷早苗／八坂神奈子"
+
+#. fieldworkStations.13.0.companion
+#: src/data/fieldwork.js:492
+msgctxt "text:fieldworkStations.13.0.companion"
+msgid "Suwako Moriya (asks whose land lies under the pipe)"
+msgstr "洩矢諏訪子（會問管線下面原本是誰的地）"
+
+#. fieldworkStations.13.0.placement
+#: src/data/fieldwork.js:494
+msgctxt "text:fieldworkStations.13.0.placement"
+msgid ""
+"Trace wind, water, power, and faith into public infrastructure while "
+"separating ownership from effect."
+msgstr "追蹤風、水、電與信仰如何一起進入公共設施，保留所有權與服務效果的差別。"
+
+#. fieldworkStations.13.0.premise
+#: src/data/fieldwork.js:495
+msgctxt "text:fieldworkStations.13.0.premise"
+msgid "Numbers are not faith; they are Kanako's annex for noticing neglect."
+msgstr "數字不是信仰；它們是神奈子發現信仰被忽略時會拿出的附件。"
+
+#. fieldworkStations.13.0.access
+#: src/data/fieldwork.js:496
+msgctxt "text:fieldworkStations.13.0.access"
+msgid "Collect three seals below; the summit recognises one. Keep the other two."
+msgstr "山腳領三枚印，山頂只承認其中一枚；保留另外兩枚。"
+
+#. fieldworkStations.13.0.shift
+#: src/data/fieldwork.js:497
+msgctxt "text:fieldworkStations.13.0.shift"
+msgid "After morning rite to first infrastructure negotiation"
+msgstr "晨祭後至第一場基礎設施協商"
+
+#. fieldworkStations.13.0.ethics
+#: src/data/fieldwork.js:499
+msgctxt "text:fieldworkStations.13.0.ethics"
+msgid "Service use is not automatic religious consent; separate offering from fee."
+msgstr "使用服務不得自動視為信仰同意；奉納與費用分開記錄。"
+
+#. fieldworkStations.13.0.equipment.0
+#: src/data/fieldwork.js:500
+msgctxt "text:fieldworkStations.13.0.equipment.0"
+msgid "Three-faith parallel seal sheet"
+msgstr "三信仰並列印頁"
+
+#. fieldworkStations.13.0.equipment.1
+#: src/data/fieldwork.js:500
+msgctxt "text:fieldworkStations.13.0.equipment.1"
+msgid "Wind-water-power shared meter"
+msgstr "風水電共同儀表"
+
+#. fieldworkStations.13.0.equipment.2
+#: src/data/fieldwork.js:500
+msgctxt "text:fieldworkStations.13.0.equipment.2"
+msgid "Old land-under-pipe map"
+msgstr "管線舊地圖"
+
+#. fieldworkStations.13.0.tasks.0
+#: src/data/fieldwork.js:501
+msgctxt "text:fieldworkStations.13.0.tasks.0"
+msgid "Trace one public line"
+msgstr "追一條公共管線"
+
+#. fieldworkStations.13.0.tasks.1
+#: src/data/fieldwork.js:501
+msgctxt "text:fieldworkStations.13.0.tasks.1"
+msgid "Separate offering and charge"
+msgstr "分開奉納與收費"
+
+#. fieldworkStations.13.0.tasks.2
+#: src/data/fieldwork.js:501
+msgctxt "text:fieldworkStations.13.0.tasks.2"
+msgid "Record three-way objections"
+msgstr "記錄三方異議"
+
+#. fieldworkStations.13.0.wrinkle
+#: src/data/fieldwork.js:503
+msgctxt "text:fieldworkStations.13.0.wrinkle"
+msgid "Stable operation does not prove agreement over ownership."
+msgstr "設備若穩定運轉，不能因此推論大家同意由誰擁有它。"
+
+#. fieldworkStations.13.0.seal
+#: src/data/fieldwork.js:504
+msgctxt "text:fieldworkStations.13.0.seal"
+msgid "Moriya Three-Seals One-Pipe Seal"
+msgstr "守矢三印一管線印"
+
+#. fieldworkStations.14.0.name
+#: src/data/fieldwork.js:508
+msgctxt "text:fieldworkStations.14.0.name"
+msgid "Giant Toad Pond · Mountain Hydrology & Respect"
+msgstr "大蛤蟆之池・山地水文敬意站"
+
+#. fieldworkStations.14.0.host
+#: src/data/fieldwork.js:509
+msgctxt "text:fieldworkStations.14.0.host"
+msgid "Moriya Waters Observation Desk"
+msgstr "洩矢水域觀察桌"
+
+#. fieldworkStations.14.0.supervisor
+#: src/data/fieldwork.js:510
+msgctxt "text:fieldworkStations.14.0.supervisor"
+msgid "Suwako Moriya"
+msgstr "洩矢諏訪子"
+
+#. fieldworkStations.14.0.companion
+#: src/data/fieldwork.js:511
+msgctxt "text:fieldworkStations.14.0.companion"
+msgid "Giant Toad (rejects being called station equipment)"
+msgstr "大蛤蟆（不接受被稱作測站設備）"
+
+#. fieldworkStations.14.0.placement
+#: src/data/fieldwork.js:513
+msgctxt "text:fieldworkStations.14.0.placement"
+msgid ""
+"Observe pond, rain, and worship routes while separating sacredness, danger, "
+"and convenience."
+msgstr "觀測池水、降雨與參拜動線，區分神聖性、危險與觀察便利。"
+
+#. fieldworkStations.14.0.premise
+#: src/data/fieldwork.js:514
+msgctxt "text:fieldworkStations.14.0.premise"
+msgid "Measurement does not cancel respect, and respect does not replace a water reading."
+msgstr "測量不取消敬意；敬意也不能替代水位讀值。"
+
+#. fieldworkStations.14.0.access
+#: src/data/fieldwork.js:515
+msgctxt "text:fieldworkStations.14.0.access"
+msgid "Set three steps from shore; if the toad moves, follow waterline, not the toad."
+msgstr "池邊三步外設點；若蛤蟆移動，樣點跟隨水線而不是跟隨牠。"
+
+#. fieldworkStations.14.0.shift
+#: src/data/fieldwork.js:516
+msgctxt "text:fieldworkStations.14.0.shift"
+msgid "Mountain fog clearing to first unforecast rain"
+msgstr "山霧散開至第一滴未預報雨"
+
+#. fieldworkStations.14.0.ethics
+#: src/data/fieldwork.js:518
+msgctxt "text:fieldworkStations.14.0.ethics"
+msgid "Ritual does not waive disturbance records; science does not waive sacred boundaries."
+msgstr "不以祭祀名義免除生態擾動記錄；不以科學名義跨越祭祀界線。"
+
+#. fieldworkStations.14.0.equipment.0
+#: src/data/fieldwork.js:519
+msgctxt "text:fieldworkStations.14.0.equipment.0"
+msgid "Three-step waterline rope"
+msgstr "三步水位繩"
+
+#. fieldworkStations.14.0.equipment.1
+#: src/data/fieldwork.js:519
+msgctxt "text:fieldworkStations.14.0.equipment.1"
+msgid "Unforecast-rain paper"
+msgstr "未預報雨紙"
+
+#. fieldworkStations.14.0.equipment.2
+#: src/data/fieldwork.js:519
+msgctxt "text:fieldworkStations.14.0.equipment.2"
+msgid "Not-equipment badge"
+msgstr "非設備名牌"
+
+#. fieldworkStations.14.0.tasks.0
+#: src/data/fieldwork.js:520
+msgctxt "text:fieldworkStations.14.0.tasks.0"
+msgid "Take three water readings"
+msgstr "讀三次水位"
+
+#. fieldworkStations.14.0.tasks.1
+#: src/data/fieldwork.js:520
+msgctxt "text:fieldworkStations.14.0.tasks.1"
+msgid "Log one worship detour"
+msgstr "記錄一次參拜繞行"
+
+#. fieldworkStations.14.0.tasks.2
+#: src/data/fieldwork.js:520
+msgctxt "text:fieldworkStations.14.0.tasks.2"
+msgid "Explain purpose to the toad"
+msgstr "向蛤蟆說明用途"
+
+#. fieldworkStations.14.0.wrinkle
+#: src/data/fieldwork.js:522
+msgctxt "text:fieldworkStations.14.0.wrinkle"
+msgid "If Suwako says the pond predates the university, its first gauge record need not."
+msgstr "諏訪子若說池比學校老，不代表最早一筆水位也比學校老。"
+
+#. fieldworkStations.14.0.seal
+#: src/data/fieldwork.js:523
+msgctxt "text:fieldworkStations.14.0.seal"
+msgid "Giant Toad Not-Equipment Seal"
+msgstr "大蛤蟆非設備印"
+
+#. fieldworkStations.15.0.name
+#: src/data/fieldwork.js:527
+msgctxt "text:fieldworkStations.15.0.name"
+msgid "Myouren Temple · Shared-life Mediation"
+msgstr "命蓮寺・共同生活調解站"
+
+#. fieldworkStations.15.0.host
+#: src/data/fieldwork.js:528
+msgctxt "text:fieldworkStations.15.0.host"
+msgid "Myouren Shared-life Desk"
+msgstr "命蓮寺公共生活桌"
+
+#. fieldworkStations.15.0.supervisor
+#: src/data/fieldwork.js:529
+msgctxt "text:fieldworkStations.15.0.supervisor"
+msgid "Byakuren Hijiri"
+msgstr "聖白蓮"
+
+#. fieldworkStations.15.0.companion
+#: src/data/fieldwork.js:530
+msgctxt "text:fieldworkStations.15.0.companion"
+msgid "Ichirin Kumoi / Unzan (speaker count must be decided first)"
+msgstr "雲居一輪／雲山（發言欄需先決定算幾人）"
+
+#. fieldworkStations.15.0.placement
+#: src/data/fieldwork.js:532
+msgctxt "text:fieldworkStations.15.0.placement"
+msgid ""
+"Mediate shared space, service, and refusal among humans, youkai, and temple, "
+"recording both agreement and non-agreement."
+msgstr "協助人類、妖怪與寺方處理共享空間、服務與拒絕，記錄和解也記錄沒和解。"
+
+#. fieldworkStations.15.0.premise
+#: src/data/fieldwork.js:533
+msgctxt "text:fieldworkStations.15.0.premise"
+msgid ""
+"Welcome does not surrender a temple to convenience; compassion must still "
+"identify responsibility."
+msgstr "歡迎不是把寺院交給訪客方便；慈悲也需要能指出責任。"
+
+#. fieldworkStations.15.0.access
+#: src/data/fieldwork.js:534
+msgctxt "text:fieldworkStations.15.0.access"
+msgid "Enter after morning practice; public events and internal practice use separate lines."
+msgstr "晨課後入場；公開活動與內部修行分線，不跟著最熱鬧的一隊。"
+
+#. fieldworkStations.15.0.shift
+#: src/data/fieldwork.js:535
+msgctxt "text:fieldworkStations.15.0.shift"
+msgid "After morning practice to the first still-disagreed conclusion"
+msgstr "晨課後至第一宗仍不同意的結論"
+
+#. fieldworkStations.15.0.ethics
+#: src/data/fieldwork.js:537
+msgctxt "text:fieldworkStations.15.0.ethics"
+msgid "Service is not consent to religious study; refusal must not affect meals or shelter."
+msgstr "參與服務不等於同意宗教研究；拒絕不得影響食堂與避雨使用。"
+
+#. fieldworkStations.15.0.equipment.0
+#: src/data/fieldwork.js:538
+msgctxt "text:fieldworkStations.15.0.equipment.0"
+msgid "Separate-side version sheets"
+msgstr "雙方各自版本紙"
+
+#. fieldworkStations.15.0.equipment.1
+#: src/data/fieldwork.js:538
+msgctxt "text:fieldworkStations.15.0.equipment.1"
+msgid "Unresolved-agreement clip"
+msgstr "不和解保留夾"
+
+#. fieldworkStations.15.0.equipment.2
+#: src/data/fieldwork.js:538
+msgctxt "text:fieldworkStations.15.0.equipment.2"
+msgid "Unzan oversize margin"
+msgstr "雲山尺寸外欄"
+
+#. fieldworkStations.15.0.tasks.0
+#: src/data/fieldwork.js:539
+msgctxt "text:fieldworkStations.15.0.tasks.0"
+msgid "Observe one mediation"
+msgstr "旁聽一宗調解"
+
+#. fieldworkStations.15.0.tasks.1
+#: src/data/fieldwork.js:539
+msgctxt "text:fieldworkStations.15.0.tasks.1"
+msgid "Write both disagreements"
+msgstr "寫雙方不同意處"
+
+#. fieldworkStations.15.0.tasks.2
+#: src/data/fieldwork.js:539
+msgctxt "text:fieldworkStations.15.0.tasks.2"
+msgid "Verify service access remains"
+msgstr "檢查服務不受影響"
+
+#. fieldworkStations.15.0.wrinkle
+#: src/data/fieldwork.js:541
+msgctxt "text:fieldworkStations.15.0.wrinkle"
+msgid "If Byakuren yields, do not rewrite the record as though the request never existed."
+msgstr "白蓮若讓一步，不能在日誌裡把它改寫成對方從來沒有要求過。"
+
+#. fieldworkStations.15.0.seal
+#: src/data/fieldwork.js:542
+msgctxt "text:fieldworkStations.15.0.seal"
+msgid "Myouren Still-Disagreed Seal"
+msgstr "命蓮寺仍不同意印"
+
+#. fieldworkStations.16.0.name
+#: src/data/fieldwork.js:546
+msgctxt "text:fieldworkStations.16.0.name"
+msgid "Hall of Dreams' Great Mausoleum · Ten-desire Listening"
+msgstr "夢殿大祀廟・十人願望聽取站"
+
+#. fieldworkStations.16.0.host
+#: src/data/fieldwork.js:547
+msgctxt "text:fieldworkStations.16.0.host"
+msgid "Senkai Public Address Desk"
+msgstr "仙界公共發言桌"
+
+#. fieldworkStations.16.0.supervisor
+#: src/data/fieldwork.js:548
+msgctxt "text:fieldworkStations.16.0.supervisor"
+msgid "Toyosatomimi no Miko"
+msgstr "豐聰耳神子"
+
+#. fieldworkStations.16.0.companion
+#: src/data/fieldwork.js:549
+msgctxt "text:fieldworkStations.16.0.companion"
+msgid "Mononobe no Futo (the form may be tested by fire once)"
+msgstr "物部布都（表格可能先被試著燒一次）"
+
+#. fieldworkStations.16.0.placement
+#: src/data/fieldwork.js:551
+msgctxt "text:fieldworkStations.16.0.placement"
+msgid ""
+"Observe simultaneous listening, desire classification, and public speech, "
+"checking desire against interpretation."
+msgstr "觀察同時聽取、願望分類與公共演說，核對聽見的願望和對人的解釋。"
+
+#. fieldworkStations.16.0.premise
+#: src/data/fieldwork.js:552
+msgctxt "text:fieldworkStations.16.0.premise"
+msgid "Hearing a desire accurately does not guarantee understanding its holder."
+msgstr "準確聽見願望，不保證準確理解擁有願望的人。"
+
+#. fieldworkStations.16.0.access
+#: src/data/fieldwork.js:553
+msgctxt "text:fieldworkStations.16.0.access"
+msgid "Use today's Senkai line; yesterday's entrance is a source, not a route."
+msgstr "沿當日開啟的仙界線進；昨天入口可作史料，不作路線。"
+
+#. fieldworkStations.16.0.shift
+#: src/data/fieldwork.js:554
+msgctxt "text:fieldworkStations.16.0.shift"
+msgid "First ten-person hearing until Futo finds a brazier"
+msgstr "第一場十人同時聽取至布都找到火盆"
+
+#. fieldworkStations.16.0.ethics
+#: src/data/fieldwork.js:556
+msgctxt "text:fieldworkStations.16.0.ethics"
+msgid "Store desire separately from identity; being heard is not consent to publication."
+msgstr "欲望內容與身份分開保存；被聽見不等於同意被公開。"
+
+#. fieldworkStations.16.0.equipment.0
+#: src/data/fieldwork.js:557
+msgctxt "text:fieldworkStations.16.0.equipment.0"
+msgid "Ten-column synchronous sheet"
+msgstr "十欄同步紙"
+
+#. fieldworkStations.16.0.equipment.1
+#: src/data/fieldwork.js:557
+msgctxt "text:fieldworkStations.16.0.equipment.1"
+msgid "Fireproof annex pouch"
+msgstr "防火附件袋"
+
+#. fieldworkStations.16.0.equipment.2
+#: src/data/fieldwork.js:557
+msgctxt "text:fieldworkStations.16.0.equipment.2"
+msgid "Understanding/hearing divider"
+msgstr "理解／聽見分隔尺"
+
+#. fieldworkStations.16.0.tasks.0
+#: src/data/fieldwork.js:558
+msgctxt "text:fieldworkStations.16.0.tasks.0"
+msgid "Log ten desires without identities"
+msgstr "記十個願望不連身份"
+
+#. fieldworkStations.16.0.tasks.1
+#: src/data/fieldwork.js:558
+msgctxt "text:fieldworkStations.16.0.tasks.1"
+msgid "Compare one interpretation gap"
+msgstr "比對一次解釋偏差"
+
+#. fieldworkStations.16.0.tasks.2
+#: src/data/fieldwork.js:558
+msgctxt "text:fieldworkStations.16.0.tasks.2"
+msgid "Preserve an unburned annex"
+msgstr "保存未燒附件"
+
+#. fieldworkStations.16.0.wrinkle
+#: src/data/fieldwork.js:560
+msgctxt "text:fieldworkStations.16.0.wrinkle"
+msgid "Even if Miko has heard your motive, passport entry waits for your choice."
+msgstr "神子若已聽完你的申請動機，仍必須等你選擇是否把它寫進護照。"
+
+#. fieldworkStations.16.0.seal
+#: src/data/fieldwork.js:561
+msgctxt "text:fieldworkStations.16.0.seal"
+msgid "Mausoleum Heard-Is-Not-Published Seal"
+msgstr "大祀廟聽見不等於公開印"
+
+#. fieldworkStations.17.0.name
+#: src/data/fieldwork.js:565
+msgctxt "text:fieldworkStations.17.0.name"
+msgid "Eientei · Cross-species Clinical Placement"
+msgstr "永遠亭・跨種族臨床見習站"
+
+#. fieldworkStations.17.0.host
+#: src/data/fieldwork.js:566
+msgctxt "text:fieldworkStations.17.0.host"
+msgid "Eientei University Hospital"
+msgstr "永遠亭附屬校醫院"
+
+#. fieldworkStations.17.0.supervisor
+#: src/data/fieldwork.js:567
+msgctxt "text:fieldworkStations.17.0.supervisor"
+msgid "Eirin Yagokoro"
+msgstr "八意永琳"
+
+#. fieldworkStations.17.0.companion
+#: src/data/fieldwork.js:568
+msgctxt "text:fieldworkStations.17.0.companion"
+msgid "Reisen Udongein Inaba (wavelength use requires separate consent)"
+msgstr "鈴仙・優曇華院・稻葉（波長使用另簽）"
+
+#. fieldworkStations.17.0.placement
+#: src/data/fieldwork.js:570
+msgctxt "text:fieldworkStations.17.0.placement"
+msgid ""
+"Rotate through clinic, pharmacy, and recovery while separating species, "
+"dose, stop rules, and actual patients."
+msgstr "隨診、藥局與康復輪值，區分族群、劑量、停止規則與真的病人。"
+
+#. fieldworkStations.17.0.premise
+#: src/data/fieldwork.js:571
+msgctxt "text:fieldworkStations.17.0.premise"
+msgid "Treatability is not research permission, and sample size does not repair a wrong dose."
+msgstr "能治療不等於可研究；大樣本也不能讓錯的劑量變成對。"
+
+#. fieldworkStations.17.0.access
+#: src/data/fieldwork.js:572
+msgctxt "text:fieldworkStations.17.0.access"
+msgid "Enter by the east guide stake; Tewi's shortcut applies only with her and may still fail."
+msgstr "由竹林東引導樁入；帝提供的捷徑只在她同路時有效，且仍可能不有效。"
+
+#. fieldworkStations.17.0.shift
+#: src/data/fieldwork.js:573
+msgctxt "text:fieldworkStations.17.0.shift"
+msgid "Morning handover to the rabbits' second renumbering"
+msgstr "晨診交班至月兔第二次改叫號"
+
+#. fieldworkStations.17.0.ethics
+#: src/data/fieldwork.js:575
+msgctxt "text:fieldworkStations.17.0.ethics"
+msgid ""
+"Treatment, teaching observation, research data, and wavelength intervention "
+"use four separate forms."
+msgstr "醫療同意、教學觀察、研究資料與波長干預四張紙分開。"
+
+#. fieldworkStations.17.0.equipment.0
+#: src/data/fieldwork.js:576
+msgctxt "text:fieldworkStations.17.0.equipment.0"
+msgid "Four-layer consent clip"
+msgstr "四層同意夾"
+
+#. fieldworkStations.17.0.equipment.1
+#: src/data/fieldwork.js:576
+msgctxt "text:fieldworkStations.17.0.equipment.1"
+msgid "Cross-species dose ruler"
+msgstr "跨種族劑量尺"
+
+#. fieldworkStations.17.0.equipment.2
+#: src/data/fieldwork.js:576
+msgctxt "text:fieldworkStations.17.0.equipment.2"
+msgid "Bamboo exit lamp"
+msgstr "竹林退場燈"
+
+#. fieldworkStations.17.0.tasks.0
+#: src/data/fieldwork.js:577
+msgctxt "text:fieldworkStations.17.0.tasks.0"
+msgid "Observe one triage"
+msgstr "旁聽一次分診"
+
+#. fieldworkStations.17.0.tasks.1
+#: src/data/fieldwork.js:577
+msgctxt "text:fieldworkStations.17.0.tasks.1"
+msgid "Audit one prescription"
+msgstr "核對一張處方"
+
+#. fieldworkStations.17.0.tasks.2
+#: src/data/fieldwork.js:577
+msgctxt "text:fieldworkStations.17.0.tasks.2"
+msgid "Rehearse stop and exit"
+msgstr "演練停止與退場"
+
+#. fieldworkStations.17.0.wrinkle
+#: src/data/fieldwork.js:579
+msgctxt "text:fieldworkStations.17.0.wrinkle"
+msgid ""
+"When Eirin says permanent, she asks permanent for whom and observed how "
+"long. Your log must too."
+msgstr "永琳說『永久』時會先問對誰永久、觀察多久；你的日誌也必須回答。"
+
+#. fieldworkStations.17.0.seal
+#: src/data/fieldwork.js:580
+msgctxt "text:fieldworkStations.17.0.seal"
+msgid "Eientei Four-Consent Seal"
+msgstr "永遠亭四層同意印"
+
+#. fieldworkStations.18.0.name
+#: src/data/fieldwork.js:584
+msgctxt "text:fieldworkStations.18.0.name"
+msgid "Bamboo Forest · Lunar Orientation"
+msgstr "迷途竹林・月相定向站"
+
+#. fieldworkStations.18.0.host
+#: src/data/fieldwork.js:585
+msgctxt "text:fieldworkStations.18.0.host"
+msgid "Bamboo Route & Cognition Joint Station"
+msgstr "竹林路線與認知共同站"
+
+#. fieldworkStations.18.0.supervisor
+#: src/data/fieldwork.js:586
+msgctxt "text:fieldworkStations.18.0.supervisor"
+msgid "Fujiwara no Mokou"
+msgstr "藤原妹紅"
+
+#. fieldworkStations.18.0.companion
+#: src/data/fieldwork.js:587
+msgctxt "text:fieldworkStations.18.0.companion"
+msgid "Tewi Inaba (does not guarantee signs belong to today)"
+msgstr "因幡帝（不保證路牌屬於今天）"
+
+#. fieldworkStations.18.0.placement
+#: src/data/fieldwork.js:589
+msgctxt "text:fieldworkStations.18.0.placement"
+msgid ""
+"Compare lunar phase, signs, footsteps, and panic, retaining lost routes "
+"rather than only arrivals."
+msgstr "比較月相、路標、腳步與驚慌造成的方向差，保留走失而非只保留抵達。"
+
+#. fieldworkStations.18.0.premise
+#: src/data/fieldwork.js:590
+msgctxt "text:fieldworkStations.18.0.premise"
+msgid "An immortal's return does not prove route safety, and lantern four may not be fourth."
+msgstr "永生者能走回來不代表路線安全；第四盞燈也不保證是第四盞。"
+
+#. fieldworkStations.18.0.access
+#: src/data/fieldwork.js:591
+msgctxt "text:fieldworkStations.18.0.access"
+msgid "Two per rope, three return signals; on seeing the meeting point twice, verify date."
+msgstr "兩人一繩、三種返回訊號；看到相同集合點第二次先核對日期。"
+
+#. fieldworkStations.18.0.shift
+#: src/data/fieldwork.js:592
+msgctxt "text:fieldworkStations.18.0.shift"
+msgid "Forty minutes before moonrise until return to today"
+msgstr "月出前四十分鐘至回到今日"
+
+#. fieldworkStations.18.0.ethics
+#: src/data/fieldwork.js:594
+msgctxt "text:fieldworkStations.18.0.ethics"
+msgid ""
+"Separate panic, disorientation, and wavelength exposure; never deliberately "
+"lose an unconsenting control."
+msgstr "恐慌、迷路與波長刺激分開記錄；不得故意讓未同意者迷路作對照。"
+
+#. fieldworkStations.18.0.equipment.0
+#: src/data/fieldwork.js:595
+msgctxt "text:fieldworkStations.18.0.equipment.0"
+msgid "Buddy return rope"
+msgstr "雙人回程繩"
+
+#. fieldworkStations.18.0.equipment.1
+#: src/data/fieldwork.js:595
+msgctxt "text:fieldworkStations.18.0.equipment.1"
+msgid "Three-tone direction bell"
+msgstr "三聲方向鈴"
+
+#. fieldworkStations.18.0.equipment.2
+#: src/data/fieldwork.js:595
+msgctxt "text:fieldworkStations.18.0.equipment.2"
+msgid "Today's date board"
+msgstr "今日日期木牌"
+
+#. fieldworkStations.18.0.tasks.0
+#: src/data/fieldwork.js:596
+msgctxt "text:fieldworkStations.18.0.tasks.0"
+msgid "Walk one lunar route"
+msgstr "走一條月相路線"
+
+#. fieldworkStations.18.0.tasks.1
+#: src/data/fieldwork.js:596
+msgctxt "text:fieldworkStations.18.0.tasks.1"
+msgid "Log one false marker"
+msgstr "記錄一次錯誤路標"
+
+#. fieldworkStations.18.0.tasks.2
+#: src/data/fieldwork.js:596
+msgctxt "text:fieldworkStations.18.0.tasks.2"
+msgid "Guide one person back to today"
+msgstr "帶一人回到今日"
+
+#. fieldworkStations.18.0.wrinkle
+#: src/data/fieldwork.js:598
+msgctxt "text:fieldworkStations.18.0.wrinkle"
+msgid ""
+"Mokou rescues you not because the sample is special, but because you stand "
+"in the wrong forest. Write that."
+msgstr "妹紅救你不是因為樣本特殊；是因為你站在錯的森林位置。報告要照寫。"
+
+#. fieldworkStations.18.0.seal
+#: src/data/fieldwork.js:599
+msgctxt "text:fieldworkStations.18.0.seal"
+msgid "Bamboo Returned-to-Today Seal"
+msgstr "竹林回到今日印"
+
+#. fieldworkStations.19.0.name
+#: src/data/fieldwork.js:603
+msgctxt "text:fieldworkStations.19.0.name"
+msgid "Hakugyokurou · Netherworld Phenology & Half-phantom Records"
+msgstr "白玉樓・冥界物候與半靈記錄站"
+
+#. fieldworkStations.19.0.host
+#: src/data/fieldwork.js:604
+msgctxt "text:fieldworkStations.19.0.host"
+msgid "Hakugyokurou Garden & Netherworld Records Desk"
+msgstr "白玉樓庭園與冥界檔案桌"
+
+#. fieldworkStations.19.0.supervisor
+#: src/data/fieldwork.js:605
+msgctxt "text:fieldworkStations.19.0.supervisor"
+msgid "Youmu Konpaku"
+msgstr "魂魄妖夢"
+
+#. fieldworkStations.19.0.companion
+#: src/data/fieldwork.js:606
+msgctxt "text:fieldworkStations.19.0.companion"
+msgid "Yuyuko Saigyouji (may eat the sample-count sweets)"
+msgstr "西行寺幽幽子（可能吃掉用來校準份數的點心）"
+
+#. fieldworkStations.19.0.placement
+#: src/data/fieldwork.js:608
+msgctxt "text:fieldworkStations.19.0.placement"
+msgid ""
+"Log blossoms, ghost passage, garden work, and half-phantom observation units "
+"without treating life/death as scenery."
+msgstr "記錄櫻花、幽靈通行、庭園維護與半靈觀察單位，不把生死界線當背景。"
+
+#. fieldworkStations.19.0.premise
+#: src/data/fieldwork.js:609
+msgctxt "text:fieldworkStations.19.0.premise"
+msgid "Person, half-human, half-phantom, and lunch serving are not naturally equal units."
+msgstr "一人、半人、半靈與一份午餐不是天然相同的統計單位。"
+
+#. fieldworkStations.19.0.access
+#: src/data/fieldwork.js:610
+msgctxt "text:fieldworkStations.19.0.access"
+msgid ""
+"Use Netherworld stairs and Youmu's check; do not shortcut by cutting "
+"misunderstandings—she is unsure too."
+msgstr "經冥界階梯與妖夢核驗；不得用斬開誤會作捷徑，因她也沒有把握。"
+
+#. fieldworkStations.19.0.shift
+#: src/data/fieldwork.js:611
+msgctxt "text:fieldworkStations.19.0.shift"
+msgid "Morning sweeping until Yuyuko asks for the last sweet"
+msgstr "晨間掃庭至幽幽子問最後點心在哪"
+
+#. fieldworkStations.19.0.ethics
+#: src/data/fieldwork.js:613
+msgctxt "text:fieldworkStations.19.0.ethics"
+msgid ""
+"Explain data destinations separately to dead, half-phantom, and living; "
+"posthumous remarks cannot replace living consent."
+msgstr "亡者、半靈與生者分別說明資料去向；死後評語不能替代生前同意。"
+
+#. fieldworkStations.19.0.equipment.0
+#: src/data/fieldwork.js:614
+msgctxt "text:fieldworkStations.19.0.equipment.0"
+msgid "Person/spirit twin ledger"
+msgstr "人／靈雙欄冊"
+
+#. fieldworkStations.19.0.equipment.1
+#: src/data/fieldwork.js:614
+msgctxt "text:fieldworkStations.19.0.equipment.1"
+msgid "Falling-petal time net"
+msgstr "落花時間網"
+
+#. fieldworkStations.19.0.equipment.2
+#: src/data/fieldwork.js:614
+msgctxt "text:fieldworkStations.19.0.equipment.2"
+msgid "Inedible calibration sweets"
+msgstr "不可食用校準點心"
+
+#. fieldworkStations.19.0.tasks.0
+#: src/data/fieldwork.js:615
+msgctxt "text:fieldworkStations.19.0.tasks.0"
+msgid "Define one observation unit"
+msgstr "定義一個觀察單位"
+
+#. fieldworkStations.19.0.tasks.1
+#: src/data/fieldwork.js:615
+msgctxt "text:fieldworkStations.19.0.tasks.1"
+msgid "Trace one ghost passage"
+msgstr "追一段幽靈通行"
+
+#. fieldworkStations.19.0.tasks.2
+#: src/data/fieldwork.js:615
+msgctxt "text:fieldworkStations.19.0.tasks.2"
+msgid "Compare two bloom versions"
+msgstr "比對櫻期兩版"
+
+#. fieldworkStations.19.0.wrinkle
+#: src/data/fieldwork.js:617
+msgctxt "text:fieldworkStations.19.0.wrinkle"
+msgid "If Yuyuko answers life/death lightly, still log when Youmu stops being light about it."
+msgstr "幽幽子若輕鬆回答生死問題，日誌仍需記錄妖夢何時開始不輕鬆。"
+
+#. fieldworkStations.19.0.seal
+#: src/data/fieldwork.js:618
+msgctxt "text:fieldworkStations.19.0.seal"
+msgid "Hakugyokurou Half-phantom Twin Seal"
+msgstr "白玉樓半靈雙欄印"
+
+#. fieldworkStations.20.0.name
+#: src/data/fieldwork.js:622
+msgctxt "text:fieldworkStations.20.0.name"
+msgid "Sanzu River · Distance & Ferry Administration"
+msgstr "三途川・距離與渡船行政站"
+
+#. fieldworkStations.20.0.host
+#: src/data/fieldwork.js:623
+msgctxt "text:fieldworkStations.20.0.host"
+msgid "Sanzu Ferry & Higan Paper Desk"
+msgstr "三途渡船與彼岸文書桌"
+
+#. fieldworkStations.20.0.supervisor
+#: src/data/fieldwork.js:624
+msgctxt "text:fieldworkStations.20.0.supervisor"
+msgid "Komachi Onozuka"
+msgstr "小野塚小町"
+
+#. fieldworkStations.20.0.companion
+#: src/data/fieldwork.js:625
+msgctxt "text:fieldworkStations.20.0.companion"
+msgid "Eiki Shiki, Yamaxanadu (checks when you began calling it a delay)"
+msgstr "四季映姬・亞瑪薩那度（偶爾檢查你何時開始叫它延誤）"
+
+#. fieldworkStations.20.0.placement
+#: src/data/fieldwork.js:627
+msgctxt "text:fieldworkStations.20.0.placement"
+msgid ""
+"Log shifting distance, fare, queues, and unfinished interviews while "
+"separating arrival from completion."
+msgstr "記錄距離變化、船資、排隊與未完成訪談，區分抵岸與完成。"
+
+#. fieldworkStations.20.0.premise
+#: src/data/fieldwork.js:628
+msgctxt "text:fieldworkStations.20.0.premise"
+msgid "A shorter river does not automatically shorten responsibility or unfinished words."
+msgstr "河可以變短，責任與尚未說完的話不會因此自動變短。"
+
+#. fieldworkStations.20.0.access
+#: src/data/fieldwork.js:629
+msgctxt "text:fieldworkStations.20.0.access"
+msgid "Use the university placement boat; Komachi's 'soon' is an estimate, not a timestamp."
+msgstr "只搭校務實習船；小町說的『馬上』記作估計，不記作時刻。"
+
+#. fieldworkStations.20.0.shift
+#: src/data/fieldwork.js:630
+msgctxt "text:fieldworkStations.20.0.shift"
+msgid "Ferryman arrival until explanation of why it is not late"
+msgstr "船夫到場至船夫解釋為何不算遲到"
+
+#. fieldworkStations.20.0.ethics
+#: src/data/fieldwork.js:632
+msgctxt "text:fieldworkStations.20.0.ethics"
+msgid "Waiting for a ferry is not interview consent; Higan destinations are sensitive."
+msgstr "不得把待渡者的停留視為願意接受訪談；彼岸目的地屬敏感資料。"
+
+#. fieldworkStations.20.0.equipment.0
+#: src/data/fieldwork.js:633
+msgctxt "text:fieldworkStations.20.0.equipment.0"
+msgid "Elastic distance rope"
+msgstr "伸縮距離繩"
+
+#. fieldworkStations.20.0.equipment.1
+#: src/data/fieldwork.js:633
+msgctxt "text:fieldworkStations.20.0.equipment.1"
+msgid "Arrival/completion twin slips"
+msgstr "抵岸／完成雙票"
+
+#. fieldworkStations.20.0.equipment.2
+#: src/data/fieldwork.js:633
+msgctxt "text:fieldworkStations.20.0.equipment.2"
+msgid "Fare provenance pouch"
+msgstr "船資來源袋"
+
+#. fieldworkStations.20.0.tasks.0
+#: src/data/fieldwork.js:634
+msgctxt "text:fieldworkStations.20.0.tasks.0"
+msgid "Measure one distance shift"
+msgstr "量一次距離變化"
+
+#. fieldworkStations.20.0.tasks.1
+#: src/data/fieldwork.js:634
+msgctxt "text:fieldworkStations.20.0.tasks.1"
+msgid "Record one unfinished interview"
+msgstr "記一宗未完成訪談"
+
+#. fieldworkStations.20.0.tasks.2
+#: src/data/fieldwork.js:634
+msgctxt "text:fieldworkStations.20.0.tasks.2"
+msgid "Audit fare against route"
+msgstr "核對船資與路程"
+
+#. fieldworkStations.20.0.wrinkle
+#: src/data/fieldwork.js:636
+msgctxt "text:fieldworkStations.20.0.wrinkle"
+msgid "If Komachi shortens the trip, record who benefited before how much work she saved."
+msgstr "小町若縮短路程，先記錄誰因此受益，再記錄她省下多少工作。"
+
+#. fieldworkStations.20.0.seal
+#: src/data/fieldwork.js:637
+msgctxt "text:fieldworkStations.20.0.seal"
+msgid "Sanzu Arrived-Not-Finished Seal"
+msgstr "三途抵岸未完成印"
+
+#. fieldworkStations.21.0.name
+#: src/data/fieldwork.js:641
+msgctxt "text:fieldworkStations.21.0.name"
+msgid "Old Capital · Underground Shared-life & Repair"
+msgstr "舊都・地下共同生活與修復站"
+
+#. fieldworkStations.21.0.host
+#: src/data/fieldwork.js:642
+msgctxt "text:fieldworkStations.21.0.host"
+msgid "Old Capital Streets & Post-feast Repair Desk"
+msgstr "舊都街路與宴後修復桌"
+
+#. fieldworkStations.21.0.supervisor
+#: src/data/fieldwork.js:643
+msgctxt "text:fieldworkStations.21.0.supervisor"
+msgid "Yuugi Hoshiguma"
+msgstr "星熊勇儀"
+
+#. fieldworkStations.21.0.companion
+#: src/data/fieldwork.js:644
+msgctxt "text:fieldworkStations.21.0.companion"
+msgid "Rin Kaenbyou (has another evidence route in mind)"
+msgstr "火焰貓燐（證物運送路線另有主意）"
+
+#. fieldworkStations.21.0.placement
+#: src/data/fieldwork.js:646
+msgctxt "text:fieldworkStations.21.0.placement"
+msgid ""
+"Log feasts, contests, street damage, and collective repair, separating "
+"winner, responsibility, and repairer."
+msgstr "記錄宴會、競技、街路損壞與共同修復，區分誰贏、誰負責與誰真的修。"
+
+#. fieldworkStations.21.0.premise
+#: src/data/fieldwork.js:647
+msgctxt "text:fieldworkStations.21.0.premise"
+msgid "Losing honestly does not waive repair, and strength cannot consent for others."
+msgstr "誠實地輸不免除修理；有力量也不代表能替別人答應。"
+
+#. fieldworkStations.21.0.access
+#: src/data/fieldwork.js:648
+msgctxt "text:fieldworkStations.21.0.access"
+msgid ""
+"Register at Old Hell gate; bring a companion who can say no clearly, not a "
+"form that only nods."
+msgstr "由舊地獄街口登記；帶能明確說不的同伴，不帶只會點頭的表格。"
+
+#. fieldworkStations.21.0.shift
+#: src/data/fieldwork.js:649
+msgctxt "text:fieldworkStations.21.0.shift"
+msgid "Before first bowl to last paving stone restored"
+msgstr "第一碗前至最後一塊破石板回位"
+
+#. fieldworkStations.21.0.ethics
+#: src/data/fieldwork.js:651
+msgctxt "text:fieldworkStations.21.0.ethics"
+msgid "Separate post-drink, contest, and research consent; watching is not competing."
+msgstr "酒後同意、競技同意與研究同意分開；圍觀不等於參賽。"
+
+#. fieldworkStations.21.0.equipment.0
+#: src/data/fieldwork.js:652
+msgctxt "text:fieldworkStations.21.0.equipment.0"
+msgid "Pre-feast consent boards"
+msgstr "宴前同意牌"
+
+#. fieldworkStations.21.0.equipment.1
+#: src/data/fieldwork.js:652
+msgctxt "text:fieldworkStations.21.0.equipment.1"
+msgid "Damage/repair twin chalk"
+msgstr "損壞／修復雙色粉"
+
+#. fieldworkStations.21.0.equipment.2
+#: src/data/fieldwork.js:652
+msgctxt "text:fieldworkStations.21.0.equipment.2"
+msgid "Clear-refusal bell"
+msgstr "明確拒絕鈴"
+
+#. fieldworkStations.21.0.tasks.0
+#: src/data/fieldwork.js:653
+msgctxt "text:fieldworkStations.21.0.tasks.0"
+msgid "Log one contest rule"
+msgstr "記錄一場規則"
+
+#. fieldworkStations.21.0.tasks.1
+#: src/data/fieldwork.js:653
+msgctxt "text:fieldworkStations.21.0.tasks.1"
+msgid "Track one damage site"
+msgstr "追蹤一處損壞"
+
+#. fieldworkStations.21.0.tasks.2
+#: src/data/fieldwork.js:653
+msgctxt "text:fieldworkStations.21.0.tasks.2"
+msgid "Join post-feast repair"
+msgstr "參與宴後修復"
+
+#. fieldworkStations.21.0.wrinkle
+#: src/data/fieldwork.js:655
+msgctxt "text:fieldworkStations.21.0.wrinkle"
+msgid "Yuugi praising an honest loss is not failure; she next watches what you repair."
+msgstr "勇儀稱讚你輸得誠實時，不代表評量失敗；她接下來會看你修了什麼。"
+
+#. fieldworkStations.21.0.seal
+#: src/data/fieldwork.js:656
+msgctxt "text:fieldworkStations.21.0.seal"
+msgid "Old Capital Post-feast Repair Seal"
+msgstr "舊都宴後修復印"
+
+#. fieldworkStations.22.0.name
+#: src/data/fieldwork.js:660
+msgctxt "text:fieldworkStations.22.0.name"
+msgid "Palace of the Earth Spirits · Mental Privacy & Care"
+msgstr "地靈殿・精神隱私與照護站"
+
+#. fieldworkStations.22.0.host
+#: src/data/fieldwork.js:661
+msgctxt "text:fieldworkStations.22.0.host"
+msgid "Chireiden Interview & Animal-care Desk"
+msgstr "地靈殿訪談與動物照護桌"
+
+#. fieldworkStations.22.0.supervisor
+#: src/data/fieldwork.js:662
+msgctxt "text:fieldworkStations.22.0.supervisor"
+msgid "Satori Komeiji"
+msgstr "古明地覺"
+
+#. fieldworkStations.22.0.companion
+#: src/data/fieldwork.js:663
+msgctxt "text:fieldworkStations.22.0.companion"
+msgid "Koishi Komeiji (attendance may escape both herself and the roll)"
+msgstr "古明地戀（出席不一定被自己或點名簿注意）"
+
+#. fieldworkStations.22.0.placement
+#: src/data/fieldwork.js:665
+msgctxt "text:fieldworkStations.22.0.placement"
+msgid ""
+"Practice interviewing, mind-reading boundaries, animal care, and unrecorded "
+"information, separating thought, choice, and submission."
+msgstr "練習訪談、讀心邊界、動物照護與未記錄資訊，區分想到、選擇與提交。"
+
+#. fieldworkStations.22.0.premise
+#: src/data/fieldwork.js:666
+msgctxt "text:fieldworkStations.22.0.premise"
+msgid "Privacy is not pretending thoughts do not exist; it is deciding what they become."
+msgstr "隱私不是假裝沒有思想；是決定思想出現後能變成什麼。"
+
+#. fieldworkStations.22.0.access
+#: src/data/fieldwork.js:667
+msgctxt "text:fieldworkStations.22.0.access"
+msgid ""
+"Choose mental-access scope before entry; trying not to think is louder, but "
+"non-recording remains an option."
+msgstr "入門前選擇讀心範圍；努力不要想會讓聲音更大，但仍可選擇不記錄。"
+
+#. fieldworkStations.22.0.shift
+#: src/data/fieldwork.js:668
+msgctxt "text:fieldworkStations.22.0.shift"
+msgid "First already-known question to last unsubmitted thought"
+msgstr "第一個已知問題至最後一個未提交思想"
+
+#. fieldworkStations.22.0.ethics
+#: src/data/fieldwork.js:670
+msgctxt "text:fieldworkStations.22.0.ethics"
+msgid ""
+"Consent separately to access, repeat, record, analyse, and publish; 'not "
+"written' does not mean unprocessed."
+msgstr "讀取、複述、記錄、分析與公開分別同意；『我沒寫』不代表未處理資訊。"
+
+#. fieldworkStations.22.0.equipment.0
+#: src/data/fieldwork.js:671
+msgctxt "text:fieldworkStations.22.0.equipment.0"
+msgid "Five-layer mental-access cards"
+msgstr "五層精神存取卡"
+
+#. fieldworkStations.22.0.equipment.1
+#: src/data/fieldwork.js:671
+msgctxt "text:fieldworkStations.22.0.equipment.1"
+msgid "Do-not-repeat bell"
+msgstr "不複述鈴"
+
+#. fieldworkStations.22.0.equipment.2
+#: src/data/fieldwork.js:671
+msgctxt "text:fieldworkStations.22.0.equipment.2"
+msgid "Animal-care rota"
+msgstr "寵物照護輪值冊"
+
+#. fieldworkStations.22.0.tasks.0
+#: src/data/fieldwork.js:672
+msgctxt "text:fieldworkStations.22.0.tasks.0"
+msgid "Complete one layered consent"
+msgstr "完成一次分層同意"
+
+#. fieldworkStations.22.0.tasks.1
+#: src/data/fieldwork.js:672
+msgctxt "text:fieldworkStations.22.0.tasks.1"
+msgid "Care for one animal resident"
+msgstr "照護一名動物住民"
+
+#. fieldworkStations.22.0.tasks.2
+#: src/data/fieldwork.js:672
+msgctxt "text:fieldworkStations.22.0.tasks.2"
+msgid "Retain one unsubmitted item"
+msgstr "保留一項未提交資訊"
+
+#. fieldworkStations.22.0.wrinkle
+#: src/data/fieldwork.js:674
+msgctxt "text:fieldworkStations.22.0.wrinkle"
+msgid ""
+"If Satori identifies a missing source, do not rewrite her accuracy as your "
+"prior knowledge."
+msgstr "覺若指出你少填一個來源，不得把她的準確當成你原本已經知道。"
+
+#. fieldworkStations.22.0.seal
+#: src/data/fieldwork.js:675
+msgctxt "text:fieldworkStations.22.0.seal"
+msgid "Chireiden Unsubmitted-Thought Seal"
+msgstr "地靈殿未提交思想印"
+
+#. fieldworkStations.23.0.name
+#: src/data/fieldwork.js:679
+msgctxt "text:fieldworkStations.23.0.name"
+msgid "Hell of Blazing Fires · Nuclear Heat & Duty"
+msgstr "灼熱地獄遺址・核熱與輪值站"
+
+#. fieldworkStations.23.0.host
+#: src/data/fieldwork.js:680
+msgctxt "text:fieldworkStations.23.0.host"
+msgid "Blazing Hell Energy Control Desk"
+msgstr "灼熱地獄能源控制桌"
+
+#. fieldworkStations.23.0.supervisor
+#: src/data/fieldwork.js:681
+msgctxt "text:fieldworkStations.23.0.supervisor"
+msgid "Utsuho Reiuji"
+msgstr "靈烏路空"
+
+#. fieldworkStations.23.0.companion
+#: src/data/fieldwork.js:682
+msgctxt "text:fieldworkStations.23.0.companion"
+msgid "Rin Kaenbyou / Nitori remote engineering line"
+msgstr "火焰貓燐／河城荷取遠端工程線"
+
+#. fieldworkStations.23.0.placement
+#: src/data/fieldwork.js:684
+msgctxt "text:fieldworkStations.23.0.placement"
+msgid ""
+"Read nuclear heat, cooling, duty, and evacuation data, separating output, "
+"stability, and readiness."
+msgstr "讀取核熱、冷卻、輪值與疏散資料，區分高輸出、穩定與大家是否準備好。"
+
+#. fieldworkStations.23.0.premise
+#: src/data/fieldwork.js:685
+msgctxt "text:fieldworkStations.23.0.premise"
+msgid "Brightness is not calibration, and stable running is not agreement over interpretation."
+msgstr "很亮不是校準；穩定運轉也不等於所有人同意由誰解釋它。"
+
+#. fieldworkStations.23.0.access
+#: src/data/fieldwork.js:686
+msgctxt "text:fieldworkStations.23.0.access"
+msgid ""
+"Complete Eientei exposure and Nitori equipment briefings; neither replaces "
+"Utsuho's field command."
+msgstr "先通過永遠亭暴露簡報與荷取設備簡報；兩份都不能替代空的現場口令。"
+
+#. fieldworkStations.23.0.shift
+#: src/data/fieldwork.js:687
+msgctxt "text:fieldworkStations.23.0.shift"
+msgid "Cooling handover until Utsuho says brighter is still stable"
+msgstr "冷卻交班至空說『再亮一點也很穩』"
+
+#. fieldworkStations.23.0.ethics
+#: src/data/fieldwork.js:689
+msgctxt "text:fieldworkStations.23.0.ethics"
+msgid ""
+"Separate personal dose, machine reading, and group evacuation; immortals are "
+"not exposure calibrators."
+msgstr "個人劑量、設備讀值與群體疏散分開；不以不死者當暴露校準。"
+
+#. fieldworkStations.23.0.equipment.0
+#: src/data/fieldwork.js:690
+msgctxt "text:fieldworkStations.23.0.equipment.0"
+msgid "Personal exposure moon badge"
+msgstr "個人暴露月牌"
+
+#. fieldworkStations.23.0.equipment.1
+#: src/data/fieldwork.js:690
+msgctxt "text:fieldworkStations.23.0.equipment.1"
+msgid "Cooling-version lock"
+msgstr "冷卻版本鎖"
+
+#. fieldworkStations.23.0.equipment.2
+#: src/data/fieldwork.js:690
+msgctxt "text:fieldworkStations.23.0.equipment.2"
+msgid "Two-route exit lamp"
+msgstr "雙路退場燈"
+
+#. fieldworkStations.23.0.tasks.0
+#: src/data/fieldwork.js:691
+msgctxt "text:fieldworkStations.23.0.tasks.0"
+msgid "Audit one cooling handover"
+msgstr "核對一次冷卻交班"
+
+#. fieldworkStations.23.0.tasks.1
+#: src/data/fieldwork.js:691
+msgctxt "text:fieldworkStations.23.0.tasks.1"
+msgid "Read three different instruments"
+msgstr "讀三種不同儀表"
+
+#. fieldworkStations.23.0.tasks.2
+#: src/data/fieldwork.js:691
+msgctxt "text:fieldworkStations.23.0.tasks.2"
+msgid "Walk one evacuation line"
+msgstr "走完一條疏散線"
+
+#. fieldworkStations.23.0.wrinkle
+#: src/data/fieldwork.js:693
+msgctxt "text:fieldworkStations.23.0.wrinkle"
+msgid "Even if Utsuho recites the entire procedure, verify which version she uses today."
+msgstr "空若能背出整套反應流程，仍要確認她今天使用的是哪一版。"
+
+#. fieldworkStations.23.0.seal
+#: src/data/fieldwork.js:694
+msgctxt "text:fieldworkStations.23.0.seal"
+msgid "Blazing Hell Three-Meter Seal"
+msgstr "灼熱地獄三儀表印"
+
+#. fieldworkRiskLabels.low
+#: src/data/fieldwork.js:699
+msgctxt "text:fieldworkRiskLabels.low"
+msgid "Low risk / sources still required"
+msgstr "低風險／仍需來源"
+
+#. fieldworkRiskLabels.moderate
+#: src/data/fieldwork.js:700
+msgctxt "text:fieldworkRiskLabels.moderate"
+msgid "Moderate / buddy duty"
+msgstr "中風險／雙人值勤"
+
+#. fieldworkRiskLabels.high
+#: src/data/fieldwork.js:701
+msgctxt "text:fieldworkRiskLabels.high"
+msgid "High / stop and exit first"
+msgstr "高風險／停止與退場先行"
+
+#. fieldworkRiskLabels.variable
+#: src/data/fieldwork.js:702
+msgctxt "text:fieldworkRiskLabels.variable"
+msgid "Conditional risk / depends on today's world"
+msgstr "條件性風險／看今日世界"
+
+#. fieldworkSourceKinds.observation
+#: src/data/fieldwork.js:706
+msgctxt "text:fieldworkSourceKinds.observation"
+msgid "Direct observation"
+msgstr "親眼觀察"
+
+#. fieldworkSourceKinds.testimony
+#: src/data/fieldwork.js:707
+msgctxt "text:fieldworkSourceKinds.testimony"
+msgid "Participant / witness account"
+msgstr "當事者／目擊者陳述"
+
+#. fieldworkSourceKinds.instrument
+#: src/data/fieldwork.js:708
+msgctxt "text:fieldworkSourceKinds.instrument"
+msgid "Instrument reading & version"
+msgstr "儀器讀值與版本"
+
+#. fieldworkSourceKinds.archive
+#: src/data/fieldwork.js:709
+msgctxt "text:fieldworkSourceKinds.archive"
+msgid "Archive, notice, or duty log"
+msgstr "史料、公告或值班簿"
+
+#. fieldworkSourceKinds.object
+#: src/data/fieldwork.js:710
+msgctxt "text:fieldworkSourceKinds.object"
+msgid "Object, specimen, or autonomous evidence"
+msgstr "物件、標本或自主證物"
+
+#. fieldworkSourceKinds.mixed
+#: src/data/fieldwork.js:711
+msgctxt "text:fieldworkSourceKinds.mixed"
+msgid "Two or more non-mergeable sources"
+msgstr "兩種以上不可合併來源"
+
+#. fieldworkIncidentKinds.none
+#: src/data/fieldwork.js:715
+msgctxt "text:fieldworkIncidentKinds.none"
+msgid "No incident; deviation retained"
+msgstr "無事故；仍記錄偏差"
+
+#. fieldworkIncidentKinds.route
+#: src/data/fieldwork.js:716
+msgctxt "text:fieldworkIncidentKinds.route"
+msgid "Route / boundary deviation"
+msgstr "路線／境界偏差"
+
+#. fieldworkIncidentKinds.medical
+#: src/data/fieldwork.js:717
+msgctxt "text:fieldworkIncidentKinds.medical"
+msgid "Medical / exposure report"
+msgstr "醫療／暴露回報"
+
+#. fieldworkIncidentKinds.ability
+#: src/data/fieldwork.js:718
+msgctxt "text:fieldworkIncidentKinds.ability"
+msgid "Ability-use / consent dispute"
+msgstr "能力使用或同意爭議"
+
+#. fieldworkIncidentKinds.custody
+#: src/data/fieldwork.js:719
+msgctxt "text:fieldworkIncidentKinds.custody"
+msgid "Evidence custody break"
+msgstr "證物來源鏈中斷"
+
+#. fieldworkIncidentKinds.publication
+#: src/data/fieldwork.js:720
+msgctxt "text:fieldworkIncidentKinds.publication"
+msgid "Publication / timing dispute"
+msgstr "新聞／公開時序爭議"
+
+#. fieldworkResearchChoices.teaching
+#: src/data/fieldwork.js:724
+msgctxt "text:fieldworkResearchChoices.teaching"
+msgid "Teaching reflection only; not formal research"
+msgstr "只作教學反思，不進正式研究"
+
+#. fieldworkResearchChoices.pending
+#: src/data/fieldwork.js:725
+msgctxt "text:fieldworkResearchChoices.pending"
+msgid "Await renewed participant / object consent"
+msgstr "等待當事者／物件再次同意"
+
+#. fieldworkResearchChoices.allowed
+#: src/data/fieldwork.js:726
+msgctxt "text:fieldworkResearchChoices.allowed"
+msgid "Complete provenance and consent; research use may be requested"
+msgstr "來源鏈與同意完整，可申請研究使用"
+
+#. fieldworkResearchChoices.refused
+#: src/data/fieldwork.js:727
+msgctxt "text:fieldworkResearchChoices.refused"
+msgid "Research use refused; placement learning record retained"
+msgstr "明確拒絕研究使用，但保留實習學習紀錄"

@@ -1,0 +1,570 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/eyebrow"
+msgid "FIRST BELL / NEW STUDENT ARRIVAL WEEK"
+msgstr "FIRST BELL / NEW STUDENT ARRIVAL WEEK"
+
+#. copy/title
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/title"
+msgid "First, arrive. ‘Ordinary student’ is not a field on this form."
+msgstr "First, arrive. ‘Ordinary student’ is not a field on this form."
+
+#. copy/lead
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/lead"
+msgid ""
+"Bring the admission review, confirm which gate you can use and which stop "
+"signal you can recognise, then choose one real first destination. The "
+"university keeps your choice—and every condition that did not disappear."
+msgstr ""
+"Bring the admission review, confirm which gate you can use and which stop "
+"signal you can recognise, then choose one real first destination. The "
+"university keeps your choice—and every condition that did not disappear."
+
+#. copy/office
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/office"
+msgid "NEW STUDENT ARRIVAL OFFICE"
+msgstr "NEW STUDENT ARRIVAL OFFICE"
+
+#. copy/officeTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/officeTitle"
+msgid "New Student Arrival Office"
+msgstr "New Student Arrival Office"
+
+#. copy/window
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/window"
+msgid "Filing window"
+msgstr "Filing window"
+
+#. copy/issued
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/issued"
+msgid "Opened"
+msgstr "Opened"
+
+#. copy/completed
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/completed"
+msgid "First Bell rung"
+msgstr "First Bell rung"
+
+#. copy/publicFile
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/publicFile"
+msgid "Public blank file"
+msgstr "Public blank file"
+
+#. copy/publicLead
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/publicLead"
+msgid ""
+"Anyone may read the arrival rules. Only a person with a formal admission "
+"review on this device can place a file in the campus record."
+msgstr ""
+"Anyone may read the arrival rules. Only a person with a formal admission "
+"review on this device can place a file in the campus record."
+
+#. copy/status
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/status"
+msgid "Current file status"
+msgstr "Current file status"
+
+#. copy/identityMissing
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/identityMissing"
+msgid ""
+"No My TU identity exists yet. Creating one will not alter earlier "
+"applications or examination records."
+msgstr ""
+"No My TU identity exists yet. Creating one will not alter earlier "
+"applications or examination records."
+
+#. copy/applicationMissing
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/applicationMissing"
+msgid ""
+"An on-device identity exists, but no application has been submitted. The "
+"Arrival Office will not treat a blank form as an admission letter."
+msgstr ""
+"An on-device identity exists, but no application has been submitted. The "
+"Arrival Office will not treat a blank form as an admission letter."
+
+#. copy/reviewMissing
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/reviewMissing"
+msgid ""
+"The application arrived, but the joint faculty review has not issued a "
+"result. Aya has a headline ready; this time she must wait."
+msgstr ""
+"The application arrived, but the joint faculty review has not issued a "
+"result. Aya has a headline ready; this time she must wait."
+
+#. copy/conditional
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/conditional"
+msgid ""
+"This is a conditional admission. You may read the rules, but First Bell "
+"waits for the formally admitted edition. The conditions remain visible."
+msgstr ""
+"This is a conditional admission. You may read the rules, but First Bell "
+"waits for the formally admitted edition. The conditions remain visible."
+
+#. copy/notAdmitted
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/notAdmitted"
+msgid ""
+"The current review still requires a supplement or interview. The office "
+"keeps a blank file; it will not rewrite an applicant as a newcomer in "
+"advance."
+msgstr ""
+"The current review still requires a supplement or interview. The office "
+"keeps a blank file; it will not rewrite an applicant as a newcomer in "
+"advance."
+
+#. copy/admitted
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/admitted"
+msgid "The formal admission edition is verified. Your on-device arrival file may now be opened."
+msgstr "The formal admission edition is verified. Your on-device arrival file may now be opened."
+
+#. copy/goMyTu
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/goMyTu"
+msgid "Open My TU"
+msgstr "Open My TU"
+
+#. copy/goApplication
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/goApplication"
+msgid "Start an application"
+msgstr "Start an application"
+
+#. copy/goAdmissions
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/goAdmissions"
+msgid "Admissions & examinations"
+msgstr "Admissions & examinations"
+
+#. copy/openDossier
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/openDossier"
+msgid "Open my arrival file"
+msgstr "Open my arrival file"
+
+#. copy/privacy
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/privacy"
+msgid ""
+"Names, application content, and needs remain in this browser. The BBS "
+"receives only a nameless institutional projection."
+msgstr ""
+"Names, application content, and needs remain in this browser. The BBS "
+"receives only a nameless institutional projection."
+
+#. copy/threeThings
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/threeThings"
+msgid "Three things the office will not waive"
+msgstr "Three things the office will not waive"
+
+#. copy/threeLead
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/threeLead"
+msgid "This is not a stamp hunt. Every field must still help when a route actually changes."
+msgstr "This is not a stamp hunt. Every field must still help when a route actually changes."
+
+#. copy/ruleOne
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleOne"
+msgid "Carry the right edition"
+msgstr "Carry the right edition"
+
+#. copy/ruleOneBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleOneBody"
+msgid ""
+"Admission, conditions, and minority opinions remain separate. A welcome "
+"stamp cannot cover them."
+msgstr ""
+"Admission, conditions, and minority opinions remain separate. A welcome "
+"stamp cannot cover them."
+
+#. copy/ruleTwo
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleTwo"
+msgid "Recognise a way back"
+msgstr "Recognise a way back"
+
+#. copy/ruleTwoBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleTwoBody"
+msgid "Routes may change. Your stop signal must be one you can personally recognise."
+msgstr "Routes may change. Your stop signal must be one you can personally recognise."
+
+#. copy/ruleThree
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleThree"
+msgid "Choose a first destination"
+msgstr "Choose a first destination"
+
+#. copy/ruleThreeBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ruleThreeBody"
+msgid "Completion awards no generic badge; it opens a real route that continues into campus."
+msgstr "Completion awards no generic badge; it opens a real route that continues into campus."
+
+#. copy/dossier
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/dossier"
+msgid "ARRIVAL FILE / THIS DEVICE"
+msgstr "ARRIVAL FILE / THIS DEVICE"
+
+#. copy/dossierTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/dossierTitle"
+msgid "This file preserves your choices; it does not rewrite any office into agreement."
+msgstr "This file preserves your choices; it does not rewrite any office into agreement."
+
+#. copy/student
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/student"
+msgid "Arriving student"
+msgstr "Arriving student"
+
+#. copy/school
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/school"
+msgid "Admitting school"
+msgstr "Admitting school"
+
+#. copy/application
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/application"
+msgid "Application file"
+msgstr "Application file"
+
+#. copy/review
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/review"
+msgid "Review file"
+msgstr "Review file"
+
+#. copy/decision
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/decision"
+msgid "Decision"
+msgstr "Decision"
+
+#. copy/question
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/question"
+msgid "The question you bring through the gate"
+msgstr "The question you bring through the gate"
+
+#. copy/noQuestion
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/noQuestion"
+msgid "No question text is available here; the source application remains intact."
+msgstr "No question text is available here; the source application remains intact."
+
+#. copy/admittedLabel
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/admittedLabel"
+msgid "Admitted"
+msgstr "Admitted"
+
+#. copy/stepOne
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepOne"
+msgid "01 / ADMISSION EDITION"
+msgstr "01 / ADMISSION EDITION"
+
+#. copy/stepOneTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepOneTitle"
+msgid "First confirm which edition of you the university admitted."
+msgstr "First confirm which edition of you the university admitted."
+
+#. copy/stepOneBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepOneBody"
+msgid ""
+"Akyuu cites the source application and review. She does not copy them into a "
+"more obedient second record."
+msgstr ""
+"Akyuu cites the source application and review. She does not copy them into a "
+"more obedient second record."
+
+#. copy/stepTwo
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepTwo"
+msgid "02 / ARRIVAL ROUTE"
+msgstr "02 / ARRIVAL ROUTE"
+
+#. copy/stepTwoTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepTwoTitle"
+msgid "Travel from Hakurei Gate to your school."
+msgstr "Travel from Hakurei Gate to your school."
+
+#. copy/stepTwoBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepTwoBody"
+msgid ""
+"Choose a mode. Duty incidents, the academic calendar, and a live festival "
+"may make the usual shortest route unavailable today."
+msgstr ""
+"Choose a mode. Duty incidents, the academic calendar, and a live festival "
+"may make the usual shortest route unavailable today."
+
+#. copy/chooseMode
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/chooseMode"
+msgid "Arrival mode"
+msgstr "Arrival mode"
+
+#. copy/confirmArrival
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/confirmArrival"
+msgid "File this route"
+msgstr "File this route"
+
+#. copy/routeFiled
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/routeFiled"
+msgid "Arrival route confirmed"
+msgstr "Arrival route confirmed"
+
+#. copy/minutes
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/minutes"
+msgid "Estimated minutes"
+msgstr "Estimated minutes"
+
+#. copy/walking
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/walking"
+msgid "Walking"
+msgstr "Walking"
+
+#. copy/distance
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/distance"
+msgid "Approx. distance"
+msgstr "Approx. distance"
+
+#. copy/routeClosed
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/routeClosed"
+msgid ""
+"This mode cannot form a complete route today. Choose another or inspect "
+"closures on the live map."
+msgstr ""
+"This mode cannot form a complete route today. Choose another or inspect "
+"closures on the live map."
+
+#. copy/openMap
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/openMap"
+msgid "Open the live campus map"
+msgstr "Open the live campus map"
+
+#. copy/stepThree
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepThree"
+msgid "03 / STOP & NOTICE"
+msgstr "03 / STOP & NOTICE"
+
+#. copy/stepThreeTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepThreeTitle"
+msgid "Choose a stop signal you can recognise yourself."
+msgstr "Choose a stop signal you can recognise yourself."
+
+#. copy/stepThreeBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepThreeBody"
+msgid ""
+"The faster a notice travels, the more easily the wrong edition arrives. Stop "
+"signal and detour notice are confirmed separately."
+msgstr ""
+"The faster a notice travels, the more easily the wrong edition arrives. Stop "
+"signal and detour notice are confirmed separately."
+
+#. copy/signal
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/signal"
+msgid "Recognisable stop / exit signal"
+msgstr "Recognisable stop / exit signal"
+
+#. copy/notice
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/notice"
+msgid "Detour notice I will verify"
+msgstr "Detour notice I will verify"
+
+#. copy/confirmBoundary
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/confirmBoundary"
+msgid "Confirm exit and notice"
+msgstr "Confirm exit and notice"
+
+#. copy/boundaryFiled
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/boundaryFiled"
+msgid "Exit field personally confirmed"
+msgstr "Exit field personally confirmed"
+
+#. copy/stepFour
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepFour"
+msgid "04 / FIRST DESTINATION"
+msgstr "04 / FIRST DESTINATION"
+
+#. copy/stepFourTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepFourTitle"
+msgid "Where will you go after First Bell?"
+msgstr "Where will you go after First Bell?"
+
+#. copy/stepFourBody
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stepFourBody"
+msgid ""
+"This is not a personality test. It only chooses which real door the arrival "
+"file opens next."
+msgstr ""
+"This is not a personality test. It only chooses which real door the arrival "
+"file opens next."
+
+#. copy/firstStop
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/firstStop"
+msgid "Choose a first destination"
+msgstr "Choose a first destination"
+
+#. copy/ringBell
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/ringBell"
+msgid "Ring First Bell and file arrival"
+msgstr "Ring First Bell and file arrival"
+
+#. copy/required
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/required"
+msgid "Complete this field first."
+msgstr "Complete this field first."
+
+#. copy/arrivalSaved
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/arrivalSaved"
+msgid "The arrival route is now in the file."
+msgstr "The arrival route is now in the file."
+
+#. copy/boundarySaved
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/boundarySaved"
+msgid "Stop signal and detour notice were filed separately."
+msgstr "Stop signal and detour notice were filed separately."
+
+#. copy/completedToast
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/completedToast"
+msgid "First Bell rang. Your first destination is open."
+msgstr "First Bell rang. Your first destination is open."
+
+#. copy/completeEyebrow
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/completeEyebrow"
+msgid "MATRICULATION FILED / ARRIVAL RECORDED"
+msgstr "MATRICULATION FILED / ARRIVAL RECORDED"
+
+#. copy/completeTitle
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/completeTitle"
+msgid "The gates are no more singular. You know which one to use."
+msgstr "The gates are no more singular. You know which one to use."
+
+#. copy/completeLead
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/completeLead"
+msgid ""
+"The arrival file entered the My TU campus ledger. Your name did not go to "
+"the BBS, and welcome copy did not dilute the admission conditions."
+msgstr ""
+"The arrival file entered the My TU campus ledger. Your name did not go to "
+"the BBS, and welcome copy did not dilute the admission conditions."
+
+#. copy/firstDestination
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/firstDestination"
+msgid "First destination"
+msgstr "First destination"
+
+#. copy/stopSignal
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/stopSignal"
+msgid "Stop signal"
+msgstr "Stop signal"
+
+#. copy/noticePlan
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/noticePlan"
+msgid "Detour notice"
+msgstr "Detour notice"
+
+#. copy/filedAt
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/filedAt"
+msgid "First Bell time"
+msgstr "First Bell time"
+
+#. copy/print
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/print"
+msgid "Print / save formal arrival slip"
+msgstr "Print / save formal arrival slip"
+
+#. copy/depart
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/depart"
+msgid "Go to first destination"
+msgstr "Go to first destination"
+
+#. copy/openBbs
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/openBbs"
+msgid "See what the BBS says"
+msgstr "See what the BBS says"
+
+#. copy/openAnother
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/openAnother"
+msgid "Return to arrival file"
+msgstr "Return to arrival file"
+
+#. copy/records
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/records"
+msgid "arrival files"
+msgstr "arrival files"
+
+#. copy/openFiles
+#: src/js/orientation.js:35
+msgctxt "tree:copy#/openFiles"
+msgid "awaiting First Bell"
+msgstr "awaiting First Bell"

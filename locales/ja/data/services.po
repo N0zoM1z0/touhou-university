@@ -1,0 +1,544 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. mapPlaces.gate.imageAlt
+#: src/data/services.js:7
+msgctxt "text:mapPlaces.gate.imageAlt"
+msgid "Touhou University main campus and Hakurei Gate in the morning mist"
+msgstr "朝霧に包まれた幻想郷立東方大学の本校舎と博麗門"
+
+#. mapPlaces.gate.type
+#: src/data/services.js:8
+msgctxt "text:mapPlaces.gate.type"
+msgid "Arrival & Services"
+msgstr "来訪・学務"
+
+#. mapPlaces.gate.name
+#: src/data/services.js:9
+msgctxt "text:mapPlaces.gate.name"
+msgid "Hakurei Gate"
+msgstr "博麗門"
+
+#. mapPlaces.gate.description
+#: src/data/services.js:10
+msgctxt "text:mapPlaces.gate.description"
+msgid ""
+"The main gate just inside the Great Barrier. Outside World student check-in, "
+"visitor verification, and lost-property returns are handled here."
+msgstr "大結界内側の正門。外界生の到着、来訪者確認、遺失物の返還を扱う。"
+
+#. mapPlaces.gate.walk
+#: src/data/services.js:12
+msgctxt "text:mapPlaces.gate.walk"
+msgid "Origin"
+msgstr "起点"
+
+#. mapPlaces.gate.air
+#: src/data/services.js:13
+msgctxt "text:mapPlaces.gate.air"
+msgid "Low flight prohibited"
+msgstr "低空飛行禁止"
+
+#. mapPlaces.library.imageAlt
+#: src/data/services.js:19
+msgctxt "text:mapPlaces.library.imageAlt"
+msgid "Misty Lake Library reading hall at dusk"
+msgstr "夕暮れの霧の湖図書館閲覧ホール"
+
+#. mapPlaces.library.type
+#: src/data/services.js:20
+msgctxt "text:mapPlaces.library.type"
+msgid "Teaching & Collections"
+msgstr "教育・収蔵"
+
+#. mapPlaces.library.name
+#: src/data/services.js:21
+msgctxt "text:mapPlaces.library.name"
+msgid "Misty Lake Library"
+msgstr "霧の湖図書館"
+
+#. mapPlaces.library.description
+#: src/data/services.js:22
+msgctxt "text:mapPlaces.library.description"
+msgid ""
+"Interlibrary loans, grimoire special collections, and night reading. "
+"Self-moving volumes are housed in the north wing."
+msgstr "相互貸借、魔導書特蔵、夜間閲覧の中心。自走する本は北翼に収蔵される。"
+
+#. mapPlaces.library.walk
+#: src/data/services.js:24
+msgctxt "text:mapPlaces.library.walk"
+msgid "8 min from gate"
+msgstr "正門から8分"
+
+#. mapPlaces.library.air
+#: src/data/services.js:25
+msgctxt "text:mapPlaces.library.air"
+msgid "One-way above lake"
+msgstr "湖上は一方通行"
+
+#. mapPlaces.boundary.imageAlt
+#: src/data/services.js:31
+msgctxt "text:mapPlaces.boundary.imageAlt"
+msgid "Boundary Hall beneath the luminous Great Barrier"
+msgstr "大結界の光幕に面した境界講堂"
+
+#. mapPlaces.boundary.type
+#: src/data/services.js:32
+msgctxt "text:mapPlaces.boundary.type"
+msgid "Common Lecture Hall"
+msgstr "共通講堂"
+
+#. mapPlaces.boundary.name
+#: src/data/services.js:33
+msgctxt "text:mapPlaces.boundary.name"
+msgid "Boundary Hall"
+msgstr "境界講堂"
+
+#. mapPlaces.boundary.description
+#: src/data/services.js:34
+msgctxt "text:mapPlaces.boundary.description"
+msgid ""
+"Home to common courses, public defences, and spell-card interviews. Seat "
+"count adjusts slightly to attendee boundaries."
+msgstr "全学必修、公開討論、スペルカード式面接の会場。座席数は出席者の境界に合わせて微調整される。"
+
+#. mapPlaces.boundary.walk
+#: src/data/services.js:36
+msgctxt "text:mapPlaces.boundary.walk"
+msgid "12 min from gate"
+msgstr "正門から12分"
+
+#. mapPlaces.boundary.air
+#: src/data/services.js:37
+msgctxt "text:mapPlaces.boundary.air"
+msgid "16 roof berths"
+msgstr "屋上停泊16枠"
+
+#. mapPlaces.history.imageAlt
+#: src/data/services.js:43
+msgctxt "text:mapPlaces.history.imageAlt"
+msgid "Hieda History Hall preserving chronicles beside the Human Village"
+msgstr "人里のそばで古文書と年代記を守る稗田史学館"
+
+#. mapPlaces.history.type
+#: src/data/services.js:44
+msgctxt "text:mapPlaces.history.type"
+msgid "History & Archives"
+msgstr "史料・公文書"
+
+#. mapPlaces.history.name
+#: src/data/services.js:45
+msgctxt "text:mapPlaces.history.name"
+msgid "Hieda History Hall"
+msgstr "稗田史学館"
+
+#. mapPlaces.history.description
+#: src/data/services.js:46
+msgctxt "text:mapPlaces.history.description"
+msgid ""
+"Centre for source criticism, village studies, and oral history. Some "
+"second-floor records close around the full moon."
+msgstr "史料校勘、人里研究、口述史の中心。満月前後は二階資料の一部を閲覧停止とする。"
+
+#. mapPlaces.history.walk
+#: src/data/services.js:48
+msgctxt "text:mapPlaces.history.walk"
+msgid "15 min from gate"
+msgstr "正門から15分"
+
+#. mapPlaces.history.air
+#: src/data/services.js:49
+msgctxt "text:mapPlaces.history.air"
+msgid "Faculty only"
+msgstr "教職員のみ"
+
+#. mapPlaces.magic.imageAlt
+#: src/data/services.js:55
+msgctxt "text:mapPlaces.magic.imageAlt"
+msgid "Glowing magic laboratories inside Seven-Day Laboratory at twilight"
+msgstr "黄昏の七曜実験塔に灯る魔法研究室"
+
+#. mapPlaces.magic.type
+#: src/data/services.js:56
+msgctxt "text:mapPlaces.magic.type"
+msgid "Magic Laboratories"
+msgstr "魔法実験施設"
+
+#. mapPlaces.magic.name
+#: src/data/services.js:57
+msgctxt "text:mapPlaces.magic.name"
+msgid "Seven-Day Laboratory"
+msgstr "七曜実験塔"
+
+#. mapPlaces.magic.description
+#: src/data/services.js:58
+msgctxt "text:mapPlaces.magic.description"
+msgid ""
+"Elemental theory and high-output magic facility. When the red lamp lights, "
+"leave counter-clockwise."
+msgstr "元素理論と高出力魔法の実験施設。赤灯点灯時は反時計回りに退避すること。"
+
+#. mapPlaces.magic.walk
+#: src/data/services.js:60
+msgctxt "text:mapPlaces.magic.walk"
+msgid "18 min from gate"
+msgstr "正門から18分"
+
+#. mapPlaces.magic.air
+#: src/data/services.js:61
+msgctxt "text:mapPlaces.magic.air"
+msgid "Closed during trials"
+msgstr "実験中閉鎖"
+
+#. mapPlaces.clinic.imageAlt
+#: src/data/services.js:67
+msgctxt "text:mapPlaces.clinic.imageAlt"
+msgid "Eientei Clinic glowing deep within the Bamboo Forest"
+msgstr "迷いの竹林の奥で灯りをともす永遠亭診療所"
+
+#. mapPlaces.clinic.type
+#: src/data/services.js:68
+msgctxt "text:mapPlaces.clinic.type"
+msgid "Medicine & Pharmacy"
+msgstr "医療・薬学"
+
+#. mapPlaces.clinic.name
+#: src/data/services.js:69
+msgctxt "text:mapPlaces.clinic.name"
+msgid "Eientei Clinic"
+msgstr "永遠亭診療所"
+
+#. mapPlaces.clinic.description
+#: src/data/services.js:70
+msgctxt "text:mapPlaces.clinic.description"
+msgid ""
+"Cross-species outpatient care, pharmacy, and lunar sensory station. "
+"Emergency rabbit carts enter from the east bamboo gate."
+msgstr "種族横断外来、薬局、月相感覚研究所。救急兎車は竹林東口から入る。"
+
+#. mapPlaces.clinic.walk
+#: src/data/services.js:72
+msgctxt "text:mapPlaces.clinic.walk"
+msgid "24 min from gate"
+msgstr "正門から24分"
+
+#. mapPlaces.clinic.air
+#: src/data/services.js:73
+msgctxt "text:mapPlaces.clinic.air"
+msgid "Medical priority"
+msgstr "医療優先"
+
+#. mapPlaces.kappa.imageAlt
+#: src/data/services.js:79
+msgctxt "text:mapPlaces.kappa.imageAlt"
+msgid "Kappa Joint Workshop operating hydropower equipment beside a mountain waterfall"
+msgstr "妖怪の山の滝で水力設備を動かす河童共同工房"
+
+#. mapPlaces.kappa.type
+#: src/data/services.js:80
+msgctxt "text:mapPlaces.kappa.type"
+msgid "Mountain Field Station"
+msgstr "山地実習所"
+
+#. mapPlaces.kappa.name
+#: src/data/services.js:81
+msgctxt "text:mapPlaces.kappa.name"
+msgid "Kappa Joint Workshop"
+msgstr "河童共同工房"
+
+#. mapPlaces.kappa.description
+#: src/data/services.js:82
+msgctxt "text:mapPlaces.kappa.description"
+msgid ""
+"Mountain field station for waterpower, weather, and instruments. Rain gear "
+"may be borrowed; prototypes may not."
+msgstr "水力、気象、観測機器の山地実習所。雨具は貸出可、試作機は貸出不可。"
+
+#. mapPlaces.kappa.walk
+#: src/data/services.js:84
+msgctxt "text:mapPlaces.kappa.walk"
+msgid "31 min from gate"
+msgstr "正門から31分"
+
+#. mapPlaces.kappa.air
+#: src/data/services.js:85
+msgctxt "text:mapPlaces.kappa.air"
+msgid "Land waterfall-side"
+msgstr "滝側へ着陸"
+
+#. diningMenus/0/0
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/0/0"
+msgid "Hakurei Set"
+msgstr "博麗定食"
+
+#. diningMenus/0/1
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/0/1"
+msgid "Mountain rice, grilled tofu, miso soup, pickled radish"
+msgstr "山菜ご飯、焼き豆腐、味噌汁、たくあん"
+
+#. diningMenus/0/2
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/0/2"
+msgid "¥540"
+msgstr "540円"
+
+#. diningMenus/0/3
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/0/3"
+msgid "Popular"
+msgstr "人気"
+
+#. diningMenus/1/0
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/1/0"
+msgid "Bamboo Moon Soba"
+msgstr "竹林月見そば"
+
+#. diningMenus/1/1
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/1/1"
+msgid "Soba, soft-boiled egg, bamboo shoots, and shiso"
+msgstr "蕎麦、温泉卵、筍、大葉"
+
+#. diningMenus/1/2
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/1/2"
+msgid "¥480"
+msgstr "480円"
+
+#. diningMenus/1/3
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/1/3"
+msgid "Veg option"
+msgstr "菜食可"
+
+#. diningMenus/2/0
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/2/0"
+msgid "Kappa Workshop Curry"
+msgstr "河童工房カレー"
+
+#. diningMenus/2/1
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/2/1"
+msgid "Green vegetable curry, gear-cut lotus, rice"
+msgstr "深緑野菜カレー、歯車れんこん、ご飯"
+
+#. diningMenus/2/2
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/2/2"
+msgid "¥620"
+msgstr "620円"
+
+#. diningMenus/2/3
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/2/3"
+msgid "Medium"
+msgstr "中辛"
+
+#. diningMenus/3/0
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/3/0"
+msgid "Night-Sparrow Supper"
+msgstr "夜雀夜食"
+
+#. diningMenus/3/1
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/3/1"
+msgid "Grilled lamprey, plum rice ball, night tea"
+msgstr "焼き八目鰻、梅おにぎり、夜茶"
+
+#. diningMenus/3/2
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/3/2"
+msgid "¥700"
+msgstr "700円"
+
+#. diningMenus/3/3
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/3/3"
+msgid "After 17:30"
+msgstr "17:30以降"
+
+#. diningMenus/4/0
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/4/0"
+msgid "Fairy Fruit Bowl"
+msgstr "妖精サイズ果物鉢"
+
+#. diningMenus/4/1
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/4/1"
+msgid "Seasonal berries, mint, honey dew"
+msgstr "季節のベリー、ミント、蜂蜜露"
+
+#. diningMenus/4/2
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/4/2"
+msgid "¥260"
+msgstr "260円"
+
+#. diningMenus/4/3
+#: src/data/services.js:98
+msgctxt "tree:diningMenus#/4/3"
+msgid "Small"
+msgstr "小"
+
+#. timetable.0.1
+#: src/data/services.js:102
+msgctxt "text:timetable.0.1"
+msgid "History of Gensokyo"
+msgstr "幻想郷通史"
+
+#. timetable.0.3
+#: src/data/services.js:102
+msgctxt "text:timetable.0.3"
+msgid "Keine Kamishirasawa"
+msgstr "上白沢慧音"
+
+#. timetable.1.1
+#: src/data/services.js:103
+msgctxt "text:timetable.1.1"
+msgid "Seven-Day Elemental Theory II"
+msgstr "七曜元素論 II"
+
+#. timetable.1.3
+#: src/data/services.js:103
+msgctxt "text:timetable.1.3"
+msgid "Patchouli Knowledge"
+msgstr "パチュリー・ノーレッジ"
+
+#. timetable.2.1
+#: src/data/services.js:104
+msgctxt "text:timetable.2.1"
+msgid "Low-Head Turbines"
+msgstr "低落差水車"
+
+#. timetable.2.3
+#: src/data/services.js:104
+msgctxt "text:timetable.2.3"
+msgid "Nitori Kawashiro"
+msgstr "河城にとり"
+
+#. timetable.3.1
+#: src/data/services.js:105
+msgctxt "text:timetable.3.1"
+msgid "Source Ethics"
+msgstr "情報源倫理"
+
+#. timetable.3.3
+#: src/data/services.js:105
+msgctxt "text:timetable.3.3"
+msgid "Aya Shameimaru"
+msgstr "射命丸文"
+
+#. timetable.4.1
+#: src/data/services.js:106
+msgctxt "text:timetable.4.1"
+msgid "Spell-card Debate"
+msgstr "スペルカード式討論"
+
+#. timetable.4.3
+#: src/data/services.js:106
+msgctxt "text:timetable.4.3"
+msgid "Reimu Hakurei"
+msgstr "博麗霊夢"
+
+#. exams.0.1
+#: src/data/services.js:110
+msgctxt "text:exams.0.1"
+msgid "Spell-card Interview"
+msgstr "スペルカード式面接"
+
+#. exams.0.2
+#: src/data/services.js:110
+msgctxt "text:exams.0.2"
+msgid "Boundary Hall"
+msgstr "境界講堂"
+
+#. exams.0.3
+#: src/data/services.js:110
+msgctxt "text:exams.0.3"
+msgid "All applicants"
+msgstr "全志願者"
+
+#. exams.1.1
+#: src/data/services.js:111
+msgctxt "text:exams.1.1"
+msgid "Seven-Day Elemental Theory II"
+msgstr "七曜元素論 II"
+
+#. exams.1.2
+#: src/data/services.js:111
+msgctxt "text:exams.1.2"
+msgid "Seven-Day Laboratory"
+msgstr "七曜実験塔"
+
+#. exams.1.3
+#: src/data/services.js:111
+msgctxt "text:exams.1.3"
+msgid "Written + safety practicum"
+msgstr "筆記＋安全実習"
+
+#. exams.2.1
+#: src/data/services.js:112
+msgctxt "text:exams.2.1"
+msgid "History of Gensokyo"
+msgstr "幻想郷通史"
+
+#. exams.2.2
+#: src/data/services.js:112
+msgctxt "text:exams.2.2"
+msgid "Hieda History Hall"
+msgstr "稗田史学館"
+
+#. exams.2.3
+#: src/data/services.js:112
+msgctxt "text:exams.2.3"
+msgid "Open-book source criticism"
+msgstr "資料持込・史料批判"
+
+#. exams.3.1
+#: src/data/services.js:113
+msgctxt "text:exams.3.1"
+msgid "Low-Head Turbines"
+msgstr "低落差水車"
+
+#. exams.3.2
+#: src/data/services.js:113
+msgctxt "text:exams.3.2"
+msgid "Kappa Joint Workshop"
+msgstr "河童共同工房"
+
+#. exams.3.3
+#: src/data/services.js:113
+msgctxt "text:exams.3.3"
+msgid "Field disassembly"
+msgstr "現地分解組立"
+
+#. exams.4.1
+#: src/data/services.js:114
+msgctxt "text:exams.4.1"
+msgid "Source Ethics"
+msgstr "情報源倫理"
+
+#. exams.4.2
+#: src/data/services.js:114
+msgctxt "text:exams.4.2"
+msgid "Tengu News Hall"
+msgstr "天狗新聞館"
+
+#. exams.4.3
+#: src/data/services.js:114
+msgctxt "text:exams.4.3"
+msgid "Correction submission"
+msgstr "訂正版提出"

@@ -1,0 +1,230 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/eyebrow"
+msgid "LIVE CAMPUS / OPERATIONS BOARD"
+msgstr "LIVE CAMPUS / OPERATIONS BOARD"
+
+#. copy/title
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/title"
+msgid "Today’s campus does not inherit yesterday’s assumptions."
+msgstr "Today’s campus does not inherit yesterday’s assumptions."
+
+#. copy/lead
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/lead"
+msgid ""
+"Time, moon phase, and duty incidents jointly change menus, classes, free "
+"rooms, flight restrictions, and routes. Conditions rotate every three hours; "
+"votes stay on this device and enter the My TU ledger."
+msgstr ""
+"Time, moon phase, and duty incidents jointly change menus, classes, free "
+"rooms, flight restrictions, and routes. Conditions rotate every three hours; "
+"votes stay on this device and enter the My TU ledger."
+
+#. copy/deviceTime
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/deviceTime"
+msgid "Device time"
+msgstr "Device time"
+
+#. copy/academicDay
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/academicDay"
+msgid "Rotating teaching day"
+msgstr "Rotating teaching day"
+
+#. copy/phase
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/phase"
+msgid "Lunar segment"
+msgstr "Lunar segment"
+
+#. copy/weather
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/weather"
+msgid "Field weather"
+msgstr "Field weather"
+
+#. copy/notices
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/notices"
+msgid "Duty notices"
+msgstr "Duty notices"
+
+#. copy/rules
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/rules"
+msgid "Rules in force"
+msgstr "Rules in force"
+
+#. copy/services
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/services"
+msgid "Services right now"
+msgstr "Services right now"
+
+#. copy/dining
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/dining"
+msgid "Today’s dining"
+msgstr "Today’s dining"
+
+#. copy/timetable
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/timetable"
+msgid "Today’s classes"
+msgstr "Today’s classes"
+
+#. copy/rooms
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/rooms"
+msgid "Find a free room"
+msgstr "Find a free room"
+
+#. copy/map
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/map"
+msgid "Route with restrictions"
+msgstr "Route with restrictions"
+
+#. copy/clinic
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/clinic"
+msgid "Hospital queue"
+msgstr "Hospital queue"
+
+#. copy/senate
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/senate"
+msgid "CAMPUS SENATE / GOVERNANCE BELL"
+msgstr "CAMPUS SENATE / GOVERNANCE BELL"
+
+#. copy/governanceTitle
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/governanceTitle"
+msgid "Rules can operate while characters still object."
+msgstr "Rules can operate while characters still object."
+
+#. copy/governanceLead
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/governanceLead"
+msgid ""
+"Baseline votes come from schools, facilities, clubs, and airborne "
+"stakeholders. Cast or change one on this device; the count does not pretend "
+"the campus suddenly agrees."
+msgstr ""
+"Baseline votes come from schools, facilities, clubs, and airborne "
+"stakeholders. Cast or change one on this device; the count does not pretend "
+"the campus suddenly agrees."
+
+#. copy/sponsor
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/sponsor"
+msgid "Sponsor"
+msgstr "Sponsor"
+
+#. copy/total
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/total"
+msgid "Public count"
+msgstr "Public count"
+
+#. copy/votes
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/votes"
+msgid "votes"
+msgstr "votes"
+
+#. copy/leading
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/leading"
+msgid "Currently leading"
+msgstr "Currently leading"
+
+#. copy/yourVote
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/yourVote"
+msgid "Your on-device vote"
+msgstr "Your on-device vote"
+
+#. copy/vote
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/vote"
+msgid "Vote for this"
+msgstr "Vote for this"
+
+#. copy/voted
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/voted"
+msgid "Vote recorded. The BBS has already removed context."
+msgstr "Vote recorded. The BBS has already removed context."
+
+#. copy/consequence
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/consequence"
+msgid "If adopted"
+msgstr "If adopted"
+
+#. copy/updated
+#: src/js/live-campus.js:13
+msgctxt "tree:copy#/updated"
+msgid "Updates every minute; restrictions rotate on the three-hour bell."
+msgstr "Updates every minute; restrictions rotate on the three-hour bell."
+
+#. phaseName/0
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/0"
+msgid "New"
+msgstr "New"
+
+#. phaseName/1
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/1"
+msgid "Waxing crescent"
+msgstr "Waxing crescent"
+
+#. phaseName/2
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/2"
+msgid "First quarter"
+msgstr "First quarter"
+
+#. phaseName/3
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/3"
+msgid "Waxing gibbous"
+msgstr "Waxing gibbous"
+
+#. phaseName/4
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/4"
+msgid "Full"
+msgstr "Full"
+
+#. phaseName/5
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/5"
+msgid "Waning gibbous"
+msgstr "Waning gibbous"
+
+#. phaseName/6
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/6"
+msgid "Last quarter"
+msgstr "Last quarter"
+
+#. phaseName/7
+#: src/js/live-campus.js:24
+msgctxt "tree:phaseName#/7"
+msgid "Waning crescent"
+msgstr "Waning crescent"

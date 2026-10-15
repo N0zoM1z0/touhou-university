@@ -1,0 +1,424 @@
+.stats-heading p {
+  max-width: 240px;
+  margin: 15px 0 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 11px;
+}
+
+.au-badge {
+  display: inline-flex;
+  width: fit-content;
+  padding: 5px 9px;
+  color: var(--red-dark);
+  background: #ecd7ba;
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.17em;
+}
+
+.about-stats dl {
+  display: grid;
+  margin: 0;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.about-stats dl > div {
+  padding: 6px 25px;
+  border-left: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.about-stats dt {
+  font-family: var(--serif);
+  font-size: 47px;
+  line-height: 1.1;
+}
+
+.about-stats dd {
+  margin: 10px 0 0;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 9px;
+  letter-spacing: 0.11em;
+}
+
+.academics {
+  color: var(--paper-light);
+  background: var(--ink);
+}
+
+.section-header {
+  display: grid;
+  margin-bottom: 66px;
+  grid-template-columns: 1.45fr 0.7fr;
+  gap: 100px;
+  align-items: end;
+}
+
+.section-header h2 {
+  margin-bottom: 0;
+}
+
+.section-header > p,
+.section-header > div:last-child > p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 2;
+}
+
+.academics .section-header > p {
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.academics .eyebrow {
+  color: #d69b7c;
+}
+
+.school-list {
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.school-row {
+  --row-accent: #d04a4a;
+  position: relative;
+  display: grid;
+  min-height: 108px;
+  padding: 20px 15px;
+  grid-template-columns: 62px minmax(260px, 1.25fr) 1fr 40px;
+  align-items: center;
+  width: 100%;
+  color: var(--white);
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  overflow: hidden;
+  text-align: left;
+}
+
+.school-row::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  transform: translateX(-101%);
+  background: var(--row-accent);
+  transition: transform 0.45s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.school-row > * {
+  position: relative;
+  z-index: 1;
+}
+
+.school-row:hover::before {
+  transform: translateX(0);
+}
+
+.school-index {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.school-row-name {
+  display: block;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(20px, 2vw, 28px);
+  font-weight: 600;
+}
+
+.school-row-en {
+  display: block;
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.school-row:hover .school-row-en {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.school-tags {
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.school-row:hover .school-tags,
+.school-row:hover .school-index {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.school-arrow {
+  font-size: 21px;
+  text-align: right;
+  transition: transform 0.25s;
+}
+
+.school-row:hover .school-arrow {
+  transform: translate(4px, -4px);
+}
+
+.faculty {
+  background: var(--paper);
+}
+
+.faculty-header {
+  margin-bottom: 38px;
+}
+
+.faculty-controls {
+  display: flex;
+  margin-bottom: 34px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filter-button {
+  padding: 9px 14px;
+  border: 1px solid var(--line);
+  background: transparent;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+}
+
+.filter-button:hover,
+.filter-button.active {
+  color: var(--white);
+  background: var(--red);
+  border-color: var(--red);
+}
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.faculty-card {
+  position: relative;
+  min-width: 0;
+  background: var(--paper-light);
+  border: 1px solid rgba(23, 32, 44, 0.12);
+  box-shadow: 0 10px 32px rgba(35, 29, 22, 0.05);
+  transition:
+    opacity 0.3s,
+    transform 0.3s;
+}
+
+.faculty-card.is-hidden {
+  display: none;
+}
+
+.faculty-card:hover {
+  z-index: 2;
+  transform: translateY(-8px);
+  box-shadow: var(--shadow);
+}
+
+.faculty-portrait {
+  position: relative;
+  display: grid;
+  aspect-ratio: 4 / 3;
+  place-items: center;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.85);
+  isolation: isolate;
+}
+
+.faculty-portrait::before,
+.faculty-portrait::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+
+.faculty-portrait::before {
+  width: 155px;
+  height: 155px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow:
+    0 0 0 18px rgba(255, 255, 255, 0.05),
+    0 0 0 38px rgba(255, 255, 255, 0.04);
+}
+
+.faculty-portrait::after {
+  width: 260px;
+  height: 260px;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  animation: slowSpin 35s linear infinite;
+}
+
+@keyframes slowSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.portrait-kanji {
+  z-index: 1;
+  font-family: var(--serif);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0 4px 25px rgba(0, 0, 0, 0.22);
+}
+
+.portrait-mark {
+  position: absolute;
+  right: 13px;
+  bottom: 8px;
+  z-index: 1;
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.portrait-reimu { background: linear-gradient(135deg, #9e2e35, #e1a59b); }
+.portrait-yukari { background: linear-gradient(135deg, #4f335d, #b493b7); }
+.portrait-keine { background: linear-gradient(135deg, #376072, #9ec8c5); }
+.portrait-patchouli { background: linear-gradient(135deg, #503d70, #aa8eb9); }
+.portrait-marisa { background: linear-gradient(135deg, #252b34, #8e7756); }
+.portrait-eirin { background: linear-gradient(135deg, #263e68, #94a8cc); }
+.portrait-nitori { background: linear-gradient(135deg, #286974, #7eb7ad); }
+.portrait-aya { background: linear-gradient(135deg, #733b31, #c68b6b); }
+
+.faculty-info {
+  min-height: 150px;
+  padding: 23px 22px;
+}
+
+.faculty-info > p {
+  margin-bottom: 8px;
+  color: var(--red);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+
+.faculty-info h3 {
+  margin-bottom: 10px;
+  font-family: var(--serif);
+  font-size: 18px;
+}
+
+.faculty-info h3 small {
+  display: block;
+  margin-top: 4px;
+  color: #7a7269;
+  font-family: var(--sans);
+  font-size: 8px;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+}
+
+.faculty-info > span {
+  color: #6e6c69;
+  font-size: 11px;
+}
+
+.faculty-more {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 0;
+  color: var(--white);
+  background: var(--ink);
+  cursor: pointer;
+  font-size: 19px;
+  transition:
+    background 0.2s,
+    transform 0.2s;
+}
+
+.faculty-more:hover {
+  background: var(--red);
+  transform: rotate(90deg);
+}
+
+.admissions {
+  position: relative;
+  padding-top: 100px;
+  color: var(--white);
+  background: var(--red-dark);
+  overflow: hidden;
+}
+
+.admissions::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.13;
+  background-image:
+    repeating-radial-gradient(circle at 80% 30%, transparent 0 22px, rgba(255, 255, 255, 0.24) 23px 24px, transparent 25px 46px),
+    linear-gradient(90deg, transparent 49.8%, rgba(255, 255, 255, 0.2) 50%, transparent 50.2%);
+}
+
+.admissions-band {
+  position: absolute;
+  top: 50px;
+  left: -6%;
+  display: flex;
+  width: 112%;
+  transform: rotate(-2.5deg);
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  color: rgba(255, 255, 255, 0.12);
+  font-size: clamp(28px, 5vw, 70px);
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.admissions-band i {
+  color: rgba(244, 216, 182, 0.14);
+  font-family: var(--serif);
+  font-style: normal;
+}
+
+.admissions-layout {
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 110px;
+  align-items: center;
+}
+
+.eyebrow-light {
+  color: #f2bf9a;
+}
+
+.admissions-copy h2 {
+  margin-bottom: 27px;
+  font-family: var(--serif);
+  font-size: clamp(38px, 4.3vw, 61px);
+  line-height: 1.3;
+}
+
+.admissions-copy > p {
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.74);
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 2;
+}
+
+.route-pills {
+  display: flex;
+  margin-bottom: 32px;
+  gap: 7px;
+  flex-wrap: wrap;
+}

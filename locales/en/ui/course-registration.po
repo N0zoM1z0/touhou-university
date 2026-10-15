@@ -1,0 +1,538 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/eyebrow"
+msgid "MY TU / COURSE REGISTRATION"
+msgstr "MY TU / COURSE REGISTRATION"
+
+#. copy/title
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/title"
+msgid "Put classes into your life—then check the rooms stayed put."
+msgstr "Put classes into your life—then check the rooms stayed put."
+
+#. copy/lead
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/lead"
+msgid ""
+"Search 35 courses across seven schools. Add/drop, waitlists, prerequisites, "
+"and unusual collisions are resolved on this device. Eighteen credits is "
+"advice, not a barrier."
+msgstr ""
+"Search 35 courses across seven schools. Add/drop, waitlists, prerequisites, "
+"and unusual collisions are resolved on this device. Eighteen credits is "
+"advice, not a barrier."
+
+#. copy/records
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/records"
+msgid "Student record"
+msgstr "Student record"
+
+#. copy/registration
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/registration"
+msgid "Courses & grades"
+msgstr "Courses & grades"
+
+#. copy/workbench
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/workbench"
+msgid "Work, exams & defences"
+msgstr "Work, exams & defences"
+
+#. copy/term
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/term"
+msgid "Open term"
+msgstr "Open term"
+
+#. copy/credits
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/credits"
+msgid "Selected credits"
+msgstr "Selected credits"
+
+#. copy/enrolled
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/enrolled"
+msgid "Enrolled"
+msgstr "Enrolled"
+
+#. copy/waitlisted
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/waitlisted"
+msgid "Waitlisted"
+msgstr "Waitlisted"
+
+#. copy/local
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/local"
+msgid "On-device registrar file"
+msgstr "On-device registrar file"
+
+#. copy/privacy
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/privacy"
+msgid "Course and grade records stay in this browser."
+msgstr "Course and grade records stay in this browser."
+
+#. copy/catalogue
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/catalogue"
+msgid "Course catalogue"
+msgstr "Course catalogue"
+
+#. copy/schedule
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/schedule"
+msgid "My timetable"
+msgstr "My timetable"
+
+#. copy/academicRecord
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/academicRecord"
+msgid "Grades & documents"
+msgstr "Grades & documents"
+
+#. copy/search
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/search"
+msgid "Search code, title, instructor, or odd warning"
+msgstr "Search code, title, instructor, or odd warning"
+
+#. copy/allSchools
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/allSchools"
+msgid "All schools"
+msgstr "All schools"
+
+#. copy/allStates
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/allStates"
+msgid "All states"
+msgstr "All states"
+
+#. copy/eligibleOnly
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/eligibleOnly"
+msgid "Eligible now (live prerequisites & collisions)"
+msgstr "Eligible now (live prerequisites & collisions)"
+
+#. copy/openOnly
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/openOnly"
+msgid "Seats available"
+msgstr "Seats available"
+
+#. copy/waitlistOnly
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/waitlistOnly"
+msgid "Full / waitlist"
+msgstr "Full / waitlist"
+
+#. copy/applyFilters
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/applyFilters"
+msgid "Search"
+msgstr "Search"
+
+#. copy/resultCount
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/resultCount"
+msgid "matching courses"
+msgstr "matching courses"
+
+#. copy/seats
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/seats"
+msgid "Capacity"
+msgstr "Capacity"
+
+#. copy/seatsOpen
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/seatsOpen"
+msgid "open"
+msgstr "open"
+
+#. copy/full
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/full"
+msgid "Full"
+msgstr "Full"
+
+#. copy/noWaitlist
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/noWaitlist"
+msgid "No waitlist"
+msgstr "No waitlist"
+
+#. copy/prerequisite
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/prerequisite"
+msgid "Prerequisite"
+msgstr "Prerequisite"
+
+#. copy/noPrerequisite
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/noPrerequisite"
+msgid "None"
+msgstr "None"
+
+#. copy/meeting
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/meeting"
+msgid "Meets"
+msgstr "Meets"
+
+#. copy/instructor
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/instructor"
+msgid "Instructor"
+msgstr "Instructor"
+
+#. copy/creditsLabel
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/creditsLabel"
+msgid "Credits"
+msgstr "Credits"
+
+#. copy/selectCourse
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/selectCourse"
+msgid "View course"
+msgstr "View course"
+
+#. copy/add
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/add"
+msgid "Add to timetable"
+msgstr "Add to timetable"
+
+#. copy/joinWaitlist
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/joinWaitlist"
+msgid "Join waitlist"
+msgstr "Join waitlist"
+
+#. copy/drop
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/drop"
+msgid "Drop course"
+msgstr "Drop course"
+
+#. copy/cancelWaitlist
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/cancelWaitlist"
+msgid "Leave waitlist"
+msgstr "Leave waitlist"
+
+#. copy/selected
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/selected"
+msgid "Enrolled"
+msgstr "Enrolled"
+
+#. copy/onWaitlist
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/onWaitlist"
+msgid "Waitlist"
+msgstr "Waitlist"
+
+#. copy/waitlistPosition
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/waitlistPosition"
+msgid "Local waitlist position"
+msgstr "Local waitlist position"
+
+#. copy/missingIdentity
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/missingIdentity"
+msgid "Create a My TU identity to register. The catalogue remains open to browse."
+msgstr "Create a My TU identity to register. The catalogue remains open to browse."
+
+#. copy/createIdentity
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/createIdentity"
+msgid "Create My TU identity"
+msgstr "Create My TU identity"
+
+#. copy/missingPrerequisite
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/missingPrerequisite"
+msgid "Missing prerequisite"
+msgstr "Missing prerequisite"
+
+#. copy/conflict
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/conflict"
+msgid "Collision"
+msgstr "Collision"
+
+#. copy/creditLimit
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/creditLimit"
+msgid "Above the suggested 18-credit load"
+msgstr "Above the suggested 18-credit load"
+
+#. copy/overloadWarning
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/overloadWarning"
+msgid ""
+"Your timetable has entered danmaku density. The registrar recommends sleep "
+"but will not block registration."
+msgstr ""
+"Your timetable has entered danmaku density. The registrar recommends sleep "
+"but will not block registration."
+
+#. copy/overloadToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/overloadToast"
+msgid ""
+"Added. Your load is above the suggestion; registration succeeded, sleep is "
+"not guaranteed."
+msgstr ""
+"Added. Your load is above the suggestion; registration succeeded, sleep is "
+"not guaranteed."
+
+#. copy/registeredToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/registeredToast"
+msgid "Added to your timetable. The room remains at its registered location for now."
+msgstr "Added to your timetable. The room remains at its registered location for now."
+
+#. copy/waitlistedToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/waitlistedToast"
+msgid "The class is full; you joined the on-device waitlist."
+msgstr "The class is full; you joined the on-device waitlist."
+
+#. copy/droppedToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/droppedToast"
+msgid "Course dropped. The event remains on record but leaves your timetable."
+msgstr "Course dropped. The event remains on record but leaves your timetable."
+
+#. copy/cancelledToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/cancelledToast"
+msgid "Waitlist place cancelled."
+msgstr "Waitlist place cancelled."
+
+#. copy/unavailableToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/unavailableToast"
+msgid "This full course does not accept a waitlist."
+msgstr "This full course does not accept a waitlist."
+
+#. copy/identityToast
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/identityToast"
+msgid "Create a My TU identity first."
+msgstr "Create a My TU identity first."
+
+#. copy/boundaryWarning
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/boundaryWarning"
+msgid "Boundary-adjacent: the registrar cannot promise this course touches no other class."
+msgstr "Boundary-adjacent: the registrar cannot promise this course touches no other class."
+
+#. copy/emptyCatalogue
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/emptyCatalogue"
+msgid "No courses match. Try fewer words or loosen a filter."
+msgstr "No courses match. Try fewer words or loosen a filter."
+
+#. copy/emptySchedule
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/emptySchedule"
+msgid "Your timetable is empty. This feels free on day one and usually alarming on day two."
+msgstr "Your timetable is empty. This feels free on day one and usually alarming on day two."
+
+#. copy/enrolledCourses
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/enrolledCourses"
+msgid "Official timetable"
+msgstr "Official timetable"
+
+#. copy/waitlistCourses
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/waitlistCourses"
+msgid "Waitlist observation desk"
+msgstr "Waitlist observation desk"
+
+#. copy/weeklyGrid
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/weeklyGrid"
+msgid "Weekly timetable"
+msgstr "Weekly timetable"
+
+#. copy/lunarFootnote
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/lunarFootnote"
+msgid ""
+"Lunar courses meet on monthly notice dates. Instructors and rooms jointly "
+"interpret boundary-adjacent times."
+msgstr ""
+"Lunar courses meet on monthly notice dates. Instructors and rooms jointly "
+"interpret boundary-adjacent times."
+
+#. copy/completed
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/completed"
+msgid "Completed courses"
+msgstr "Completed courses"
+
+#. copy/inProgress
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/inProgress"
+msgid "In progress"
+msgstr "In progress"
+
+#. copy/noCompleted
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/noCompleted"
+msgid ""
+"No completed courses yet. Current classes appear as IP (in progress) on the "
+"academic record."
+msgstr ""
+"No completed courses yet. Current classes appear as IP (in progress) on the "
+"academic record."
+
+#. copy/assessments
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/assessments"
+msgid "Non-credit assessments"
+msgstr "Non-credit assessments"
+
+#. copy/noAssessments
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/noAssessments"
+msgid "No entrance or unified examination results are available to include."
+msgstr "No entrance or unified examination results are available to include."
+
+#. copy/standing
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/standing"
+msgid "Academic standing"
+msgstr "Academic standing"
+
+#. copy/firstRegistration
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/firstRegistration"
+msgid "First registration / grades pending"
+msgstr "First registration / grades pending"
+
+#. copy/earnedCredits
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/earnedCredits"
+msgid "Earned credits"
+msgstr "Earned credits"
+
+#. copy/gpa
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/gpa"
+msgid "Grade average"
+msgstr "Grade average"
+
+#. copy/confirmation
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/confirmation"
+msgid "Registration confirmation"
+msgstr "Registration confirmation"
+
+#. copy/transcript
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/transcript"
+msgid "Academic record"
+msgstr "Academic record"
+
+#. copy/openConfirmation
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/openConfirmation"
+msgid "Open registration confirmation"
+msgstr "Open registration confirmation"
+
+#. copy/openTranscript
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/openTranscript"
+msgid "Open academic record"
+msgstr "Open academic record"
+
+#. copy/documentBack
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/documentBack"
+msgid "Back to registration"
+msgstr "Back to registration"
+
+#. copy/print
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/print"
+msgid "Print / save PDF"
+msgstr "Print / save PDF"
+
+#. copy/documentUniversity
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/documentUniversity"
+msgid "Gensokyo Municipal Touhou University"
+msgstr "Gensokyo Municipal Touhou University"
+
+#. copy/registrar
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/registrar"
+msgid "Registrar · On-device record cabinet"
+msgstr "Registrar · On-device record cabinet"
+
+#. copy/student
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/student"
+msgid "Student"
+msgstr "Student"
+
+#. copy/studentId
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/studentId"
+msgid "Student ID"
+msgstr "Student ID"
+
+#. copy/issued
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/issued"
+msgid "Generated"
+msgstr "Generated"
+
+#. copy/status
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/status"
+msgid "Status"
+msgstr "Status"
+
+#. copy/grade
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/grade"
+msgid "Grade"
+msgstr "Grade"
+
+#. copy/codeCourse
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/codeCourse"
+msgid "Code / course"
+msgstr "Code / course"
+
+#. copy/documentNote
+#: src/js/course-registration.js:22
+msgctxt "tree:copy#/documentNote"
+msgid ""
+"Generated from the identity, registration, and assessment records on this "
+"device. If a room moves after printing, follow the room's latest notice."
+msgstr ""
+"Generated from the identity, registration, and assessment records on this "
+"device. If a room moves after printing, follow the room's latest notice."

@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/fieldwork-model.js";
 import { campusDayKey, campusLunarPhase, campusTimeBand } from "../data/campus-time.js";
 import {
   fieldworkComplication,
@@ -16,7 +17,6 @@ const PLACEMENT_KEY = "tu:fieldwork:placements";
 const PASSPORT_KEY = "tu:fieldwork:passport";
 const MAX_PLACEMENTS = 80;
 
-const l = (zhHant, ja, en) => ({ "zh-Hant": zhHant, ja, en });
 
 export const fieldworkStorageKeys = Object.freeze({
   draft: DRAFT_KEY,
@@ -147,7 +147,7 @@ function normalizeReview(value) {
     standing: ["clear", "conditional", "contested"].includes(value.standing) ? value.standing : "conditional",
     strengths: stringArray(value.strengths),
     cautions: stringArray(value.cautions),
-    note: value.note && typeof value.note === "object" ? value.note : l("", "", ""),
+    note: value.note && typeof value.note === "object" ? value.note : { "zh-Hant": "", ja: "", en: "" },
     research: ["teaching", "pending", "allowed", "refused"].includes(value.research) ? value.research : "teaching",
   };
 }
@@ -249,17 +249,17 @@ export function fieldworkPassportSummary() {
 }
 
 const abilityLabels = {
-  none: l("本次不使用能力", "今回は能力を使用しない", "No ability use"),
-  declared: l("事前聲明用途與停止口令", "用途・停止号令を事前申告", "Purpose and stop command declared"),
-  supervised: l("只在指導者在場時使用", "指導者同席時のみ使用", "Use only with supervisor present"),
-  sealed: l("出發前封印；返校後共同解封", "出発前封印・帰校後共同解除", "Sealed before departure; jointly released after return"),
+  none: catalogText("abilityLabels.none"),
+  declared: catalogText("abilityLabels.declared"),
+  supervised: catalogText("abilityLabels.supervised"),
+  sealed: catalogText("abilityLabels.sealed"),
 };
 
 const emergencyLabels = {
-  "return-bell": l("三聲返校鈴", "三音帰校鈴", "Three-tone return bell"),
-  "buddy-rope": l("雙人回程繩", "二人帰還縄", "Buddy return rope"),
-  "host-escort": l("場地主持陪同撤離", "現地主催者同行退出", "Host-escorted exit"),
-  "clinic-route": l("永遠亭／校醫務室預先路線", "永遠亭・校医務室事前経路", "Pre-filed Eientei / infirmary route"),
+  "return-bell": catalogText("emergencyLabels.return-bell"),
+  "buddy-rope": catalogText("emergencyLabels.buddy-rope"),
+  "host-escort": catalogText("emergencyLabels.host-escort"),
+  "clinic-route": catalogText("emergencyLabels.clinic-route"),
 };
 
 export function assessFieldworkDraft(value, locale = "zh-Hant") {
@@ -267,25 +267,13 @@ export function assessFieldworkDraft(value, locale = "zh-Hant") {
   const station = fieldworkStation(draft.stationId);
   const conditions = [];
   if (draft.equipment.length < 3) {
-    conditions.push(fieldworkLocalized(l(
-      `三件指定裝備只登記了 ${draft.equipment.length} 件；其餘由場地主持覆核。`,
-      `指定装備三件中${draft.equipment.length}件のみ。残りは現地主催者が照合。`,
-      `${draft.equipment.length} of three listed items selected; the host must verify the rest.`,
-    ), locale));
+    conditions.push(fieldworkLocalized(catalogText("assessFieldworkDraft.0.0", { "zh-Hant": {value0: draft.equipment.length}, "ja": {value0: draft.equipment.length}, "en": {value0: draft.equipment.length} }), locale));
   }
   if (["high", "variable"].includes(station.risk) && !["buddy-rope", "clinic-route"].includes(draft.emergencyPlan)) {
-    conditions.push(fieldworkLocalized(l(
-      "高／變動風險站須在出發桌另畫雙人或醫療退場線。",
-      "高・変動リスク所は出発机で二人または医療退出線を追記。",
-      "High/variable-risk stations require a buddy or medical exit line at dispatch.",
-    ), locale));
+    conditions.push(fieldworkLocalized(catalogText("assessFieldworkDraft.0.0.2"), locale));
   }
   if (draft.abilityPlan === "declared" && ["medicine", "underground"].some((id) => station.discipline.includes(id))) {
-    conditions.push(fieldworkLocalized(l(
-      "涉及臨床或精神資訊時，能力聲明仍需在現場逐次取得同意。",
-      "臨床・精神情報では能力申告後も現場で逐次同意が必要。",
-      "Clinical or mental-information work still needs encounter-by-encounter consent after declaration.",
-    ), locale));
+    conditions.push(fieldworkLocalized(catalogText("assessFieldworkDraft.0.0.3"), locale));
   }
   const errors = [];
   if (draft.purpose.trim().length < 12) errors.push("purpose");
@@ -397,22 +385,10 @@ function supervisorReview(placement, log) {
     ? "pending"
     : log.researchChoice;
   const note = standing === "clear"
-    ? l(
-      `${fieldworkLocalized(station.supervisor)}：能分清看見的、聽來的與仍未解決的；准予蓋章。`,
-      `${fieldworkLocalized(station.supervisor, "ja")}：見たこと、聞いたこと、未解決を区別できた。押印。`,
-      `${fieldworkLocalized(station.supervisor, "en")}: Observation, report, and unresolved matters remain distinct. Seal granted.`,
-    )
+    ? catalogText("note", { "zh-Hant": {value0: fieldworkLocalized(station.supervisor)}, "ja": {value0: fieldworkLocalized(station.supervisor, "ja")}, "en": {value0: fieldworkLocalized(station.supervisor, "en")} })
     : standing === "conditional"
-      ? l(
-        `${fieldworkLocalized(station.supervisor)}：護照可以蓋，附件不可丟；下次先把來源寫在結論前。`,
-        `${fieldworkLocalized(station.supervisor, "ja")}：旅券へ押印可、附件は保持。次は結論より先に資料源を。`,
-        `${fieldworkLocalized(station.supervisor, "en")}: Passport may be stamped; keep the annex. Next time, place sources before the conclusion.`,
-      )
-      : l(
-        `${fieldworkLocalized(station.supervisor)}：准予返校，但爭議不准變成漂亮的成功故事；紅線隨章同行。`,
-        `${fieldworkLocalized(station.supervisor, "ja")}：帰校可。ただし争議を美しい成功談にしない。赤糸は印と共に残す。`,
-        `${fieldworkLocalized(station.supervisor, "en")}: Return certified, but the dispute must not become a tidy success story. Red thread travels with the seal.`,
-      );
+      ? catalogText("note.2", { "zh-Hant": {value0: fieldworkLocalized(station.supervisor)}, "ja": {value0: fieldworkLocalized(station.supervisor, "ja")}, "en": {value0: fieldworkLocalized(station.supervisor, "en")} })
+      : catalogText("note.3", { "zh-Hant": {value0: fieldworkLocalized(station.supervisor)}, "ja": {value0: fieldworkLocalized(station.supervisor, "ja")}, "en": {value0: fieldworkLocalized(station.supervisor, "en")} });
   return { standing, strengths, cautions, note, research };
 }
 
@@ -460,22 +436,22 @@ export function completeFieldworkReturn(placementId, value, now = new Date()) {
 }
 
 const lunarLabels = [
-  l("朔月", "新月", "new moon"),
-  l("眉月", "三日月", "waxing crescent"),
-  l("上弦前", "上弦前", "pre-first-quarter"),
-  l("盈凸月", "満ちる凸月", "waxing gibbous"),
-  l("滿月", "満月", "full moon"),
-  l("虧凸月", "欠ける凸月", "waning gibbous"),
-  l("下弦後", "下弦後", "post-last-quarter"),
-  l("殘月", "有明月", "waning crescent"),
+  catalogText("lunarLabels.0"),
+  catalogText("lunarLabels.1"),
+  catalogText("lunarLabels.2"),
+  catalogText("lunarLabels.3"),
+  catalogText("lunarLabels.4"),
+  catalogText("lunarLabels.5"),
+  catalogText("lunarLabels.6"),
+  catalogText("lunarLabels.7"),
 ];
 
 const timeLabels = {
-  morning: l("晨間值勤", "朝当番", "morning duty"),
-  midday: l("日中值勤", "日中当番", "midday duty"),
-  afternoon: l("午後值勤", "午後当番", "afternoon duty"),
-  evening: l("暮色值勤", "夕刻当番", "evening duty"),
-  night: l("夜間值勤", "夜間当番", "night duty"),
+  morning: catalogText("timeLabels.morning"),
+  midday: catalogText("timeLabels.midday"),
+  afternoon: catalogText("timeLabels.afternoon"),
+  evening: catalogText("timeLabels.evening"),
+  night: catalogText("timeLabels.night"),
 };
 
 export function fieldworkTravelEstimate(stationId, modeId = "foot", date = new Date()) {
@@ -490,30 +466,30 @@ export function fieldworkTravelEstimate(stationId, modeId = "foot", date = new D
     if (modeId === "rabbit") modifier -= 14;
     else if ([0, 4].includes(phase)) {
       modifier += 21;
-      notes.push(l("朔／滿月的第四路標不計入可靠路標。", "新月・満月の第四標識は信頼標識に数えない。", "At new/full moon, marker four does not count as reliable."));
+      notes.push(catalogText("fieldworkTravelEstimate.0"));
     }
   }
   if (station.travel.terrain === "mountain") {
     if (modeId === "tengu") modifier -= 12;
     if (band === "night" && modeId === "broom") {
       modifier += 18;
-      notes.push(l("夜間山區掃帚改走巡邏外緣。", "夜間山域の箒は巡回外縁へ迂回。", "Night brooms detour around the patrol edge."));
+      notes.push(catalogText("fieldworkTravelEstimate.0.2"));
     }
   }
   if (station.travel.terrain === "afterlife" && modeId === "foot") {
     modifier += 24;
-    notes.push(l("步行時間不含階梯對『向上』的不同意見。", "徒歩時間は階段の「上」への異議を含まない。", "Walking time excludes the stairs' disagreement over 'up'."));
+    notes.push(catalogText("fieldworkTravelEstimate.0.3"));
   }
   if (station.travel.terrain === "underground" && modeId === "broom") {
     modifier += 16;
-    notes.push(l("地下掃帚空路只在有空的地方算空路。", "地下箒空路は空間がある所だけ空路。", "Underground broom airway is airborne only where there is airspace."));
+    notes.push(catalogText("fieldworkTravelEstimate.0.4"));
   }
   if (station.travel.terrain === "boundary" && modeId === "gap") {
     modifier -= 8;
-    notes.push(l("境界通行很短；核對附件仍按普通時間。", "境界通行は短いが、附件照合は通常時間。", "Boundary passage is short; annex review uses ordinary time."));
+    notes.push(catalogText("fieldworkTravelEstimate.0.5"));
   }
   if (modeId === "tengu") {
-    notes.push(l("預計新聞早於抵達九分鐘。", "記事は到着九分前を予定。", "Expected publication is nine minutes before arrival."));
+    notes.push(catalogText("fieldworkTravelEstimate.0.6"));
   }
   const minutes = Math.max(7, Math.round(station.travel.base * mode.factor + modifier));
   return {
@@ -537,11 +513,7 @@ export function fieldworkMapNotice(locale = "zh-Hant") {
   const active = activeFieldworkPlacement();
   if (!active) return null;
   const station = fieldworkStation(active.stationId);
-  return fieldworkLocalized(l(
-    `田野護照正在 ${fieldworkLocalized(station.name)} 值勤；返校線保留至蓋章。`,
-    `フィールド旅券は${fieldworkLocalized(station.name, "ja")}で当番中。帰校線は押印まで保持。`,
-    `Fieldwork passport is on duty at ${fieldworkLocalized(station.name, "en")}; return line remains until stamping.`,
-  ), locale);
+  return fieldworkLocalized(catalogText("fieldworkMapNotice.0", { "zh-Hant": {value0: fieldworkLocalized(station.name)}, "ja": {value0: fieldworkLocalized(station.name, "ja")}, "en": {value0: fieldworkLocalized(station.name, "en")} }), locale);
 }
 
 export function fieldworkCommunityPosts(locale = "zh-Hant") {
@@ -552,23 +524,11 @@ export function fieldworkCommunityPosts(locale = "zh-Hant") {
     const base = [{
       id: `fieldwork-dispatch-${placement.id}`,
       category: "course",
-      author: locale === "ja" ? "境内実習派遣机" : locale === "en" ? "Domestic Placement Dispatch Desk" : "境內實習派遣桌",
-      title: locale === "ja"
-        ? `${station.code}・${fieldworkLocalized(station.name, locale)}派遣票`
-        : locale === "en"
-          ? `${station.code} · ${fieldworkLocalized(station.name, locale)} dispatch`
-          : `${station.code}・${fieldworkLocalized(station.name, locale)}派遣票`,
+      author: catalogText("base.0.author")[locale],
+      title: catalogText("base.0.title", { [locale]: locale === "ja" ? {value0: station.code, value1: fieldworkLocalized(station.name, locale)} : locale === "en" ? {value0: station.code, value1: fieldworkLocalized(station.name, locale)} : {value0: station.code, value1: fieldworkLocalized(station.name, locale)} })[locale],
       body: placement.status === "completed"
-        ? fieldworkLocalized(l(
-          `已返校蓋章；${fieldworkLocalized(placement.review.note)}。`,
-          `帰校押印済み。${fieldworkLocalized(placement.review.note, "ja")}。`,
-          `Return stamped. ${fieldworkLocalized(placement.review.note, "en")}`,
-        ), locale)
-        : fieldworkLocalized(l(
-          `派遣令已存檔；條件 ${placement.permit.conditions.length} 項。出發前請確認場地今天仍在同一側。`,
-          `派遣令保存済み。条件${placement.permit.conditions.length}件。出発前に現地が今日も同じ側か確認。`,
-          `Dispatch filed with ${placement.permit.conditions.length} condition(s). Before leaving, verify the site is still on the same side today.`,
-        ), locale),
+        ? fieldworkLocalized(catalogText("base.0.body.0", { "zh-Hant": {value0: fieldworkLocalized(placement.review.note)}, "ja": {value0: fieldworkLocalized(placement.review.note, "ja")}, "en": {value0: fieldworkLocalized(placement.review.note, "en")} }), locale)
+        : fieldworkLocalized(catalogText("base.0.body.0.2", { "zh-Hant": {value0: placement.permit.conditions.length}, "ja": {value0: placement.permit.conditions.length}, "en": {value0: placement.permit.conditions.length} }), locale),
       replies: placement.status === "completed" ? 4 : 1,
       generated: true,
       fieldwork: true,
@@ -580,11 +540,7 @@ export function fieldworkCommunityPosts(locale = "zh-Hant") {
         id: `fieldwork-return-${placement.id}`,
         category: "notice",
         author: fieldworkLocalized(station.supervisor, locale),
-        title: fieldworkLocalized(l(
-          `${station.code} 回報附件沒有被漂亮地刪掉`,
-          `${station.code} 帰還附件はきれいに削除されなかった`,
-          `${station.code} return annex was not tidily deleted`,
-        ), locale),
+        title: fieldworkLocalized(catalogText("fieldworkCommunityPosts.0.0.title.0", { "zh-Hant": {value0: station.code}, "ja": {value0: station.code}, "en": {value0: station.code} }), locale),
         body: `${fieldworkLocalized(fieldworkIncidentKinds[placement.log.incidentKind], locale)} · ${placement.log.incidentNote || fieldworkLocalized(station.wrinkle, locale)}`,
         replies: placement.review?.standing === "contested" ? 9 : 3,
         generated: true,

@@ -1,0 +1,508 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/eyebrow"
+msgid "ACADEMIC WORKBENCH / WORK & DEFENCE"
+msgstr "ACADEMIC WORKBENCH / WORK & DEFENCE"
+
+#. copy/title
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/title"
+msgid "Answers do not disappear behind Submit."
+msgstr "Answers do not disappear behind Submit."
+
+#. copy/lead
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/lead"
+msgid ""
+"Assignment drafts, exam answers, per-question scoring, explanations, "
+"transcripts, and thesis/spell-card defences stay on this device. Retakes "
+"never erase earlier slips."
+msgstr ""
+"Assignment drafts, exam answers, per-question scoring, explanations, "
+"transcripts, and thesis/spell-card defences stay on this device. Retakes "
+"never erase earlier slips."
+
+#. copy/mytu
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/mytu"
+msgid "Back to student record"
+msgstr "Back to student record"
+
+#. copy/assignments
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/assignments"
+msgid "Course assignments"
+msgstr "Course assignments"
+
+#. copy/exam
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/exam"
+msgid "Course exam"
+msgstr "Course exam"
+
+#. copy/grades
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/grades"
+msgid "Transcript"
+msgstr "Transcript"
+
+#. copy/defence
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/defence"
+msgid "Thesis / spell-card defence"
+msgstr "Thesis / spell-card defence"
+
+#. copy/due
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/due"
+msgid "Due"
+msgstr "Due"
+
+#. copy/teacher
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/teacher"
+msgid "Teacher"
+msgstr "Teacher"
+
+#. copy/points
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/points"
+msgid "points"
+msgstr "points"
+
+#. copy/attempts
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/attempts"
+msgid "submissions"
+msgstr "submissions"
+
+#. copy/draftSaved
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/draftSaved"
+msgid "Assignment draft saved on this device."
+msgstr "Assignment draft saved on this device."
+
+#. copy/saveDraft
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/saveDraft"
+msgid "Save draft"
+msgstr "Save draft"
+
+#. copy/submit
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/submit"
+msgid "Submit and grade now"
+msgstr "Submit and grade now"
+
+#. copy/incomplete
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/incomplete"
+msgid "Answer every question. Blank space cannot gain marks by imagination."
+msgstr "Answer every question. Blank space cannot gain marks by imagination."
+
+#. copy/submitted
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/submitted"
+msgid "Assignment graded and added to the transcript."
+msgstr "Assignment graded and added to the transcript."
+
+#. copy/latest
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/latest"
+msgid "Latest grading slip"
+msgstr "Latest grading slip"
+
+#. copy/correct
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/correct"
+msgid "Earned"
+msgstr "Earned"
+
+#. copy/wrong
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/wrong"
+msgid "No mark"
+msgstr "No mark"
+
+#. copy/yourAnswer
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/yourAnswer"
+msgid "Your answer"
+msgstr "Your answer"
+
+#. copy/explanation
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/explanation"
+msgid "Scoring explanation"
+msgstr "Scoring explanation"
+
+#. copy/noSubmission
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/noSubmission"
+msgid "Not submitted. The draft remains."
+msgstr "Not submitted. The draft remains."
+
+#. copy/examEyebrow
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/examEyebrow"
+msgid "TIMED COURSE EXAM"
+msgstr "TIMED COURSE EXAM"
+
+#. copy/startExam
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/startExam"
+msgid "Start 18-minute exam"
+msgstr "Start 18-minute exam"
+
+#. copy/resumeExam
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/resumeExam"
+msgid "Resume unfinished exam"
+msgstr "Resume unfinished exam"
+
+#. copy/examLead
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/examLead"
+msgid "Device time runs after starting; leaving does not pause it. Answers autosave."
+msgstr "Device time runs after starting; leaving does not pause it. Answers autosave."
+
+#. copy/remaining
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/remaining"
+msgid "Time remaining"
+msgstr "Time remaining"
+
+#. copy/finishExam
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/finishExam"
+msgid "Submit and grade"
+msgstr "Submit and grade"
+
+#. copy/examSaved
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/examSaved"
+msgid "Exam answers autosaved."
+msgstr "Exam answers autosaved."
+
+#. copy/examFinished
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/examFinished"
+msgid "Exam submitted; answers and explanations entered the on-device transcript."
+msgstr "Exam submitted; answers and explanations entered the on-device transcript."
+
+#. copy/timedOut
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/timedOut"
+msgid "Time expired. Current answers were submitted."
+msgstr "Time expired. Current answers were submitted."
+
+#. copy/retake
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/retake"
+msgid "Retake; keep prior result"
+msgstr "Retake; keep prior result"
+
+#. copy/score
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/score"
+msgid "Score"
+msgstr "Score"
+
+#. copy/grade
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/grade"
+msgid "Grade"
+msgstr "Grade"
+
+#. copy/status
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/status"
+msgid "Status"
+msgstr "Status"
+
+#. copy/notGraded
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/notGraded"
+msgid "Not graded"
+msgstr "Not graded"
+
+#. copy/gradeLead
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/gradeLead"
+msgid ""
+"Assignments, course exams, and defences use percentages. The overall mark "
+"averages each item’s best result without deleting lower attempts."
+msgstr ""
+"Assignments, course exams, and defences use percentages. The overall mark "
+"averages each item’s best result without deleting lower attempts."
+
+#. copy/overall
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/overall"
+msgid "Current overall"
+msgstr "Current overall"
+
+#. copy/print
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/print"
+msgid "Print / Save transcript"
+msgstr "Print / Save transcript"
+
+#. copy/kind
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/kind"
+msgid "Kind"
+msgstr "Kind"
+
+#. copy/item
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/item"
+msgid "Assessment"
+msgstr "Assessment"
+
+#. copy/record
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/record"
+msgid "Slip"
+msgstr "Slip"
+
+#. copy/assignment
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/assignment"
+msgid "Assignment"
+msgstr "Assignment"
+
+#. copy/courseExam
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/courseExam"
+msgid "Exam"
+msgstr "Exam"
+
+#. copy/defenceKind
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/defenceKind"
+msgid "Defence"
+msgstr "Defence"
+
+#. copy/proposalEyebrow
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/proposalEyebrow"
+msgid "PROJECT DOSSIER"
+msgstr "PROJECT DOSSIER"
+
+#. copy/proposalTitle
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/proposalTitle"
+msgid "First, make the claim capable of failing."
+msgstr "First, make the claim capable of failing."
+
+#. copy/proposalLead
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/proposalLead"
+msgid ""
+"A simulation defence opens after submission. The committee asks about scope, "
+"reproduction, and stopping."
+msgstr ""
+"A simulation defence opens after submission. The committee asks about scope, "
+"reproduction, and stopping."
+
+#. copy/projectType
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/projectType"
+msgid "Defence type"
+msgstr "Defence type"
+
+#. copy/thesis
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/thesis"
+msgid "Thesis defence"
+msgstr "Thesis defence"
+
+#. copy/spellcard
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/spellcard"
+msgid "Spell-card defence"
+msgstr "Spell-card defence"
+
+#. copy/projectTitle
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/projectTitle"
+msgid "Title"
+msgstr "Title"
+
+#. copy/abstract
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/abstract"
+msgid "Abstract (at least 40 characters)"
+msgstr "Abstract (at least 40 characters)"
+
+#. copy/claim
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/claim"
+msgid "Falsifiable central claim"
+msgstr "Falsifiable central claim"
+
+#. copy/method
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/method"
+msgid "Method, versions, and material provenance"
+msgstr "Method, versions, and material provenance"
+
+#. copy/stopRule
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/stopRule"
+msgid "Stop / withdrawal rule"
+msgstr "Stop / withdrawal rule"
+
+#. copy/unusedRoute
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/unusedRoute"
+msgid "Route deliberately not taken (optional; 18+ characters)"
+msgstr "Route deliberately not taken (optional; 18+ characters)"
+
+#. copy/unusedRouteHint
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/unusedRouteHint"
+msgid ""
+"Name one route seriously considered but ultimately unused, and why. The "
+"committee keeps it in the defence margin."
+msgstr ""
+"Name one route seriously considered but ultimately unused, and why. The "
+"committee keeps it in the defence margin."
+
+#. copy/submitProject
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/submitProject"
+msgid "Submit project and form committee"
+msgstr "Submit project and form committee"
+
+#. copy/projectSaved
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/projectSaved"
+msgid "Project saved. The committee has begun interrupting itself."
+msgstr "Project saved. The committee has begun interrupting itself."
+
+#. copy/committee
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/committee"
+msgid "Defence committee"
+msgstr "Defence committee"
+
+#. copy/beginDefence
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/beginDefence"
+msgid "Three-question public defence"
+msgstr "Three-question public defence"
+
+#. copy/answerAll
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/answerAll"
+msgid "Every examiner needs one answer."
+msgstr "Every examiner needs one answer."
+
+#. copy/completeDefence
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/completeDefence"
+msgid "Submit defence for ruling"
+msgstr "Submit defence for ruling"
+
+#. copy/defenceSaved
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/defenceSaved"
+msgid "Defence ruling entered the transcript."
+msgstr "Defence ruling entered the transcript."
+
+#. copy/outcomes/passed
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomes/passed"
+msgid "Passed"
+msgstr "Passed"
+
+#. copy/outcomes/conditional
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomes/conditional"
+msgid "Conditional pass"
+msgstr "Conditional pass"
+
+#. copy/outcomes/revise
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomes/revise"
+msgid "Revise and return"
+msgstr "Revise and return"
+
+#. copy/outcomeBodies/passed
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomeBodies/passed"
+msgid ""
+"Scope, reproduction record, and stop condition may be published. Examiners "
+"retain the right to complain on BBS."
+msgstr ""
+"Scope, reproduction record, and stop condition may be published. Examiners "
+"retain the right to complain on BBS."
+
+#. copy/outcomeBodies/conditional
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomeBodies/conditional"
+msgid "Keep the topic, but attach one method or stop-rule correction before archiving."
+msgstr "Keep the topic, but attach one method or stop-rule correction before archiving."
+
+#. copy/outcomeBodies/revise
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/outcomeBodies/revise"
+msgid "The project remains. Revise from the question slips and apply for another defence."
+msgstr "The project remains. Revise from the question slips and apply for another defence."
+
+#. copy/noProject
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/noProject"
+msgid "No project exists yet."
+msgstr "No project exists yet."
+
+#. copy/identityNeeded
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/identityNeeded"
+msgid ""
+"Create a My TU identity before formally submitting work, exams, or a "
+"defence. Browsing remains open."
+msgstr ""
+"Create a My TU identity before formally submitting work, exams, or a "
+"defence. Browsing remains open."
+
+#. copy/createIdentity
+#: src/js/academic-work.js:36
+msgctxt "tree:copy#/createIdentity"
+msgid "Create My TU identity"
+msgstr "Create My TU identity"
+
+#. examinerNames.reimu
+#: src/js/academic-work.js:39
+msgctxt "text:examinerNames.reimu"
+msgid "Reimu Hakurei"
+msgstr "Reimu Hakurei"
+
+#. examinerNames.marisa
+#: src/js/academic-work.js:40
+msgctxt "text:examinerNames.marisa"
+msgid "Marisa Kirisame"
+msgstr "Marisa Kirisame"
+
+#. examinerNames.yukari
+#: src/js/academic-work.js:41
+msgctxt "text:examinerNames.yukari"
+msgid "Yukari Yakumo"
+msgstr "Yukari Yakumo"
+
+#. examinerNames.keine
+#: src/js/academic-work.js:42
+msgctxt "text:examinerNames.keine"
+msgid "Keine Kamishirasawa"
+msgstr "Keine Kamishirasawa"

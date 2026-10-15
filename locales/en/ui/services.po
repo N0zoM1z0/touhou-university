@@ -1,0 +1,648 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/application/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/application/0"
+msgid "ONLINE APPLICATION / 2026"
+msgstr "ONLINE APPLICATION / 2026"
+
+#. copy/application/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/application/1"
+msgid "Online Application"
+msgstr "Online Application"
+
+#. copy/application/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/application/2"
+msgid "Save in stages. Submission creates an internal application reference."
+msgstr "Save in stages. Submission creates an internal application reference."
+
+#. copy/availability/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/availability/0"
+msgid "ROOM FINDER / LIVE"
+msgstr "ROOM FINDER / LIVE"
+
+#. copy/availability/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/availability/1"
+msgid "Room Availability"
+msgstr "Room Availability"
+
+#. copy/availability/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/availability/2"
+msgid "Find classrooms, seminar rooms, and workshops currently available by building."
+msgstr "Find classrooms, seminar rooms, and workshops currently available by building."
+
+#. copy/visit/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/visit/0"
+msgid "CAMPUS VISIT / RESERVATION"
+msgstr "CAMPUS VISIT / RESERVATION"
+
+#. copy/visit/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/visit/1"
+msgid "Campus Visit Reservation"
+msgstr "Campus Visit Reservation"
+
+#. copy/visit/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/visit/2"
+msgid "Choose your arrival route and date. Outside World visitors are checked at Hakurei Gate."
+msgstr "Choose your arrival route and date. Outside World visitors are checked at Hakurei Gate."
+
+#. copy/dining/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/dining/0"
+msgid "DINING / TODAY"
+msgstr "DINING / TODAY"
+
+#. copy/dining/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/dining/1"
+msgid "Today's Dining Menu"
+msgstr "Today's Dining Menu"
+
+#. copy/dining/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/dining/2"
+msgid "Offerings may shift with foraging, lunar phase, and night-sparrow performance times."
+msgstr "Offerings may shift with foraging, lunar phase, and night-sparrow performance times."
+
+#. copy/timetable/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/timetable/0"
+msgid "ACADEMIC AFFAIRS / CLASSES"
+msgstr "ACADEMIC AFFAIRS / CLASSES"
+
+#. copy/timetable/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/timetable/1"
+msgid "Today's Class Schedule"
+msgstr "Today's Class Schedule"
+
+#. copy/timetable/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/timetable/2"
+msgid "Shared-campus timetable. Room changes are posted fifteen minutes before class."
+msgstr "Shared-campus timetable. Room changes are posted fifteen minutes before class."
+
+#. copy/exams/0
+#: src/js/services.js:17
+msgctxt "tree:copy#/exams/0"
+msgid "ACADEMIC AFFAIRS / EXAMS"
+msgstr "ACADEMIC AFFAIRS / EXAMS"
+
+#. copy/exams/1
+#: src/js/services.js:17
+msgctxt "tree:copy#/exams/1"
+msgid "Examination Schedule"
+msgstr "Examination Schedule"
+
+#. copy/exams/2
+#: src/js/services.js:17
+msgctxt "tree:copy#/exams/2"
+msgid "Check venue rules and permitted materials; flying candidates should allow berthing time."
+msgstr "Check venue rules and permitted materials; flying candidates should allow berthing time."
+
+#. copy/name
+#: src/js/services.js:17
+msgctxt "tree:copy#/name"
+msgid "Name or known name"
+msgstr "Name or known name"
+
+#. copy/origin
+#: src/js/services.js:17
+msgctxt "tree:copy#/origin"
+msgid "Current residence"
+msgstr "Current residence"
+
+#. copy/identity
+#: src/js/services.js:17
+msgctxt "tree:copy#/identity"
+msgid "Species / identity"
+msgstr "Species / identity"
+
+#. copy/school
+#: src/js/services.js:17
+msgctxt "tree:copy#/school"
+msgid "Preferred school"
+msgstr "Preferred school"
+
+#. copy/contact
+#: src/js/services.js:17
+msgctxt "tree:copy#/contact"
+msgid "Contact"
+msgstr "Contact"
+
+#. copy/question
+#: src/js/services.js:17
+msgctxt "tree:copy#/question"
+msgid "The question you want to bring"
+msgstr "The question you want to bring"
+
+#. copy/method
+#: src/js/services.js:17
+msgctxt "tree:copy#/method"
+msgid "How you plan to observe it"
+msgstr "How you plan to observe it"
+
+#. copy/needs
+#: src/js/services.js:17
+msgctxt "tree:copy#/needs"
+msgid "Housing, food, lunar, or safety needs"
+msgstr "Housing, food, lunar, or safety needs"
+
+#. copy/save
+#: src/js/services.js:17
+msgctxt "tree:copy#/save"
+msgid "Save draft"
+msgstr "Save draft"
+
+#. copy/submit
+#: src/js/services.js:17
+msgctxt "tree:copy#/submit"
+msgid "Submit application"
+msgstr "Submit application"
+
+#. copy/saved
+#: src/js/services.js:17
+msgctxt "tree:copy#/saved"
+msgid "Draft saved on this device."
+msgstr "Draft saved on this device."
+
+#. copy/accepted
+#: src/js/services.js:17
+msgctxt "tree:copy#/accepted"
+msgid "Application received"
+msgstr "Application received"
+
+#. copy/acceptedBody
+#: src/js/services.js:17
+msgctxt "tree:copy#/acceptedBody"
+msgid "Keep this reference; the Admissions Office will use it for the next stage."
+msgstr "Keep this reference; the Admissions Office will use it for the next stage."
+
+#. copy/newApplication
+#: src/js/services.js:17
+msgctxt "tree:copy#/newApplication"
+msgid "Start another application"
+msgstr "Start another application"
+
+#. copy/myApplications
+#: src/js/services.js:17
+msgctxt "tree:copy#/myApplications"
+msgid "My Applications"
+msgstr "My Applications"
+
+#. copy/localRecords
+#: src/js/services.js:17
+msgctxt "tree:copy#/localRecords"
+msgid "Applications on this device"
+msgstr "Applications on this device"
+
+#. copy/localRecordsLead
+#: src/js/services.js:17
+msgctxt "tree:copy#/localRecordsLead"
+msgid "Applications and drafts stay in this browser and do not sync to other devices."
+msgstr "Applications and drafts stay in this browser and do not sync to other devices."
+
+#. copy/noApplications
+#: src/js/services.js:17
+msgctxt "tree:copy#/noApplications"
+msgid "No applications have been submitted from this device yet."
+msgstr "No applications have been submitted from this device yet."
+
+#. copy/backToForm
+#: src/js/services.js:17
+msgctxt "tree:copy#/backToForm"
+msgid "Back to application"
+msgstr "Back to application"
+
+#. copy/submitted
+#: src/js/services.js:17
+msgctxt "tree:copy#/submitted"
+msgid "Submitted"
+msgstr "Submitted"
+
+#. copy/submittedOn
+#: src/js/services.js:17
+msgctxt "tree:copy#/submittedOn"
+msgid "Submitted"
+msgstr "Submitted"
+
+#. copy/applicationDetail
+#: src/js/services.js:17
+msgctxt "tree:copy#/applicationDetail"
+msgid "View application details"
+msgstr "View application details"
+
+#. copy/deleteRecord
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteRecord"
+msgid "Delete local record"
+msgstr "Delete local record"
+
+#. copy/deleteConfirm
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteConfirm"
+msgid "Delete this application record from this device?"
+msgstr "Delete this application record from this device?"
+
+#. copy/recordDeleted
+#: src/js/services.js:17
+msgctxt "tree:copy#/recordDeleted"
+msgid "Application record deleted from this device."
+msgstr "Application record deleted from this device."
+
+#. copy/draftPresent
+#: src/js/services.js:17
+msgctxt "tree:copy#/draftPresent"
+msgid "An autosaved draft is available"
+msgstr "An autosaved draft is available"
+
+#. copy/formAutoSave
+#: src/js/services.js:17
+msgctxt "tree:copy#/formAutoSave"
+msgid "Your entries are autosaved on this device."
+msgstr "Your entries are autosaved on this device."
+
+#. copy/selectedSchool
+#: src/js/services.js:17
+msgctxt "tree:copy#/selectedSchool"
+msgid "Your choice from the school catalogue is preselected; you may still change it."
+msgstr "Your choice from the school catalogue is preselected; you may still change it."
+
+#. copy/recordsUnit
+#: src/js/services.js:17
+msgctxt "tree:copy#/recordsUnit"
+msgid "submitted"
+msgstr "submitted"
+
+#. copy/selectSchool
+#: src/js/services.js:17
+msgctxt "tree:copy#/selectSchool"
+msgid "Select one"
+msgstr "Select one"
+
+#. copy/consent
+#: src/js/services.js:17
+msgctxt "tree:copy#/consent"
+msgid "I confirm the Admissions Office may use this information for selection."
+msgstr "I confirm the Admissions Office may use this information for selection."
+
+#. copy/allBuildings
+#: src/js/services.js:17
+msgctxt "tree:copy#/allBuildings"
+msgid "All buildings"
+msgstr "All buildings"
+
+#. copy/building
+#: src/js/services.js:17
+msgctxt "tree:copy#/building"
+msgid "Building"
+msgstr "Building"
+
+#. copy/room
+#: src/js/services.js:17
+msgctxt "tree:copy#/room"
+msgid "Room"
+msgstr "Room"
+
+#. copy/type
+#: src/js/services.js:17
+msgctxt "tree:copy#/type"
+msgid "Type"
+msgstr "Type"
+
+#. copy/seats
+#: src/js/services.js:17
+msgctxt "tree:copy#/seats"
+msgid "Seats"
+msgstr "Seats"
+
+#. copy/freeUntil
+#: src/js/services.js:17
+msgctxt "tree:copy#/freeUntil"
+msgid "Free until"
+msgstr "Free until"
+
+#. copy/availableNow
+#: src/js/services.js:17
+msgctxt "tree:copy#/availableNow"
+msgid "Available now"
+msgstr "Available now"
+
+#. copy/liveFacilities
+#: src/js/services.js:17
+msgctxt "tree:copy#/liveFacilities"
+msgid "Live facility board"
+msgstr "Live facility board"
+
+#. copy/hoursLabel
+#: src/js/services.js:17
+msgctxt "tree:copy#/hoursLabel"
+msgid "Opening hours"
+msgstr "Opening hours"
+
+#. copy/openNow
+#: src/js/services.js:17
+msgctxt "tree:copy#/openNow"
+msgid "Open now"
+msgstr "Open now"
+
+#. copy/closedNow
+#: src/js/services.js:17
+msgctxt "tree:copy#/closedNow"
+msgid "Currently closed"
+msgstr "Currently closed"
+
+#. copy/seatsFree
+#: src/js/services.js:17
+msgctxt "tree:copy#/seatsFree"
+msgid "places free"
+msgstr "places free"
+
+#. copy/noRooms
+#: src/js/services.js:17
+msgctxt "tree:copy#/noRooms"
+msgid ""
+"No room is directly available in this period. Check the closure and load "
+"notices above, or wait for the next bell."
+msgstr ""
+"No room is directly available in this period. Check the closure and load "
+"notices above, or wait for the next bell."
+
+#. copy/reading
+#: src/js/services.js:17
+msgctxt "tree:copy#/reading"
+msgid "Reading room"
+msgstr "Reading room"
+
+#. copy/classroom
+#: src/js/services.js:17
+msgctxt "tree:copy#/classroom"
+msgid "Classroom"
+msgstr "Classroom"
+
+#. copy/seminar
+#: src/js/services.js:17
+msgctxt "tree:copy#/seminar"
+msgid "Seminar room"
+msgstr "Seminar room"
+
+#. copy/lab
+#: src/js/services.js:17
+msgctxt "tree:copy#/lab"
+msgid "Laboratory"
+msgstr "Laboratory"
+
+#. copy/workshop
+#: src/js/services.js:17
+msgctxt "tree:copy#/workshop"
+msgid "Workshop"
+msgstr "Workshop"
+
+#. copy/visitor
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitor"
+msgid "Visitor name"
+msgstr "Visitor name"
+
+#. copy/party
+#: src/js/services.js:17
+msgctxt "tree:copy#/party"
+msgid "Party size"
+msgstr "Party size"
+
+#. copy/date
+#: src/js/services.js:17
+msgctxt "tree:copy#/date"
+msgid "Visit date"
+msgstr "Visit date"
+
+#. copy/route
+#: src/js/services.js:17
+msgctxt "tree:copy#/route"
+msgid "Arrival gate"
+msgstr "Arrival gate"
+
+#. copy/visitNeeds
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitNeeds"
+msgid "Access and assistance needs"
+msgstr "Access and assistance needs"
+
+#. copy/reserve
+#: src/js/services.js:17
+msgctxt "tree:copy#/reserve"
+msgid "Reserve visit"
+msgstr "Reserve visit"
+
+#. copy/reserved
+#: src/js/services.js:17
+msgctxt "tree:copy#/reserved"
+msgid "Campus visit registered"
+msgstr "Campus visit registered"
+
+#. copy/reservedBody
+#: src/js/services.js:17
+msgctxt "tree:copy#/reservedBody"
+msgid "Arrive fifteen minutes early and present the following passage reference."
+msgstr "Arrive fifteen minutes early and present the following passage reference."
+
+#. copy/saveVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/saveVisit"
+msgid "Save visit draft"
+msgstr "Save visit draft"
+
+#. copy/visitSaved
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitSaved"
+msgid "Visit draft saved on this device."
+msgstr "Visit draft saved on this device."
+
+#. copy/myVisits
+#: src/js/services.js:17
+msgctxt "tree:copy#/myVisits"
+msgid "My Campus Visits"
+msgstr "My Campus Visits"
+
+#. copy/visitRecords
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitRecords"
+msgid "Campus visits on this device"
+msgstr "Campus visits on this device"
+
+#. copy/visitRecordsLead
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitRecordsLead"
+msgid "Reservations and drafts stay in this browser and do not sync to other devices."
+msgstr "Reservations and drafts stay in this browser and do not sync to other devices."
+
+#. copy/noVisits
+#: src/js/services.js:17
+msgctxt "tree:copy#/noVisits"
+msgid "No campus visit has been submitted from this device."
+msgstr "No campus visit has been submitted from this device."
+
+#. copy/backToVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/backToVisit"
+msgid "Back to visit form"
+msgstr "Back to visit form"
+
+#. copy/newVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/newVisit"
+msgid "Reserve another visit"
+msgstr "Reserve another visit"
+
+#. copy/visitDetail
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitDetail"
+msgid "View access needs"
+msgstr "View access needs"
+
+#. copy/deleteVisit
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteVisit"
+msgid "Delete local reservation"
+msgstr "Delete local reservation"
+
+#. copy/deleteVisitConfirm
+#: src/js/services.js:17
+msgctxt "tree:copy#/deleteVisitConfirm"
+msgid "Delete this campus-visit reservation from this device?"
+msgstr "Delete this campus-visit reservation from this device?"
+
+#. copy/visitDeleted
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitDeleted"
+msgid "Campus-visit reservation deleted from this device."
+msgstr "Campus-visit reservation deleted from this device."
+
+#. copy/visitDraftPresent
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitDraftPresent"
+msgid "An autosaved visit draft is available"
+msgstr "An autosaved visit draft is available"
+
+#. copy/visitAutoSave
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitAutoSave"
+msgid "Your entries are autosaved on this device."
+msgstr "Your entries are autosaved on this device."
+
+#. copy/visitRecordsUnit
+#: src/js/services.js:17
+msgctxt "tree:copy#/visitRecordsUnit"
+msgid "reserved"
+msgstr "reserved"
+
+#. copy/menu
+#: src/js/services.js:17
+msgctxt "tree:copy#/menu"
+msgid "Item"
+msgstr "Item"
+
+#. copy/contents
+#: src/js/services.js:17
+msgctxt "tree:copy#/contents"
+msgid "Contents"
+msgstr "Contents"
+
+#. copy/price
+#: src/js/services.js:17
+msgctxt "tree:copy#/price"
+msgid "Price"
+msgstr "Price"
+
+#. copy/note
+#: src/js/services.js:17
+msgctxt "tree:copy#/note"
+msgid "Note"
+msgstr "Note"
+
+#. copy/time
+#: src/js/services.js:17
+msgctxt "tree:copy#/time"
+msgid "Time"
+msgstr "Time"
+
+#. copy/course
+#: src/js/services.js:17
+msgctxt "tree:copy#/course"
+msgid "Course"
+msgstr "Course"
+
+#. copy/instructor
+#: src/js/services.js:17
+msgctxt "tree:copy#/instructor"
+msgid "Instructor"
+msgstr "Instructor"
+
+#. copy/change
+#: src/js/services.js:17
+msgctxt "tree:copy#/change"
+msgid "Live change"
+msgstr "Live change"
+
+#. copy/examination
+#: src/js/services.js:17
+msgctxt "tree:copy#/examination"
+msgid "Examination"
+msgstr "Examination"
+
+#. copy/venue
+#: src/js/services.js:17
+msgctxt "tree:copy#/venue"
+msgid "Venue"
+msgstr "Venue"
+
+#. copy/format
+#: src/js/services.js:17
+msgctxt "tree:copy#/format"
+msgid "Format"
+msgstr "Format"
+
+#. copy/required
+#: src/js/services.js:17
+msgctxt "tree:copy#/required"
+msgid "Please complete all required fields."
+msgstr "Please complete all required fields."
+
+#. copy/hakureiGate
+#: src/js/services.js:17
+msgctxt "tree:copy#/hakureiGate"
+msgid "Hakurei Gate (walk)"
+msgstr "Hakurei Gate (walk)"
+
+#. copy/mountainGate
+#: src/js/services.js:17
+msgctxt "tree:copy#/mountainGate"
+msgid "Youkai Mountain Gate (mountain)"
+msgstr "Youkai Mountain Gate (mountain)"
+
+#. copy/mistyPier
+#: src/js/services.js:17
+msgctxt "tree:copy#/mistyPier"
+msgid "Misty Lake Pier (water)"
+msgstr "Misty Lake Pier (water)"
+
+#. copy/skyBerth
+#: src/js/services.js:17
+msgctxt "tree:copy#/skyBerth"
+msgid "Boundary Hall Roof (air)"
+msgstr "Boundary Hall Roof (air)"

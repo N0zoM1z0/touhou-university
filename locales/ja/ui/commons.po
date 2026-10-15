@@ -1,0 +1,559 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/commons.js:50
+msgctxt "tree:copy#/eyebrow"
+msgid "CAMPUS COMMONS / TSUKUMOGAMI TITLE × TENGU POST"
+msgstr "CAMPUS COMMONS / 付喪神物権 × 鴉天狗郵便"
+
+#. copy/title
+#: src/js/commons.js:50
+msgctxt "tree:copy#/title"
+msgid ""
+"A thing may have an opinion after being lost; a notice may be another "
+"version after delivery."
+msgstr "物が失われた後には意見があり、通知が届いた後には別の版かもしれない。"
+
+#. copy/lead
+#: src/js/commons.js:50
+msgctxt "tree:copy#/lead"
+msgid ""
+"At Property, receipts, wear, provenance, and the object testify separately. "
+"At Post, every letter retains source, trust, version, order, and correction. "
+"The two offices mail one another."
+msgstr "物権所では領収書・摩耗・来歴・物件本人が別席で陳述。郵便では資料源、信頼度、版、配達順、訂正を保存し、両方の記録が互いに手紙を送ります。"
+
+#. copy/propertyTab
+#: src/js/commons.js:50
+msgctxt "tree:copy#/propertyTab"
+msgid "Lost property & title"
+msgstr "遺失物・物権"
+
+#. copy/postTab
+#: src/js/commons.js:50
+msgctxt "tree:copy#/postTab"
+msgid "Post & notices"
+msgstr "郵便・通知"
+
+#. copy/propertyDesk
+#: src/js/commons.js:50
+msgctxt "tree:copy#/propertyDesk"
+msgid "Tsukumogami Lost Property & Title Tribunal"
+msgstr "付喪神遺失物取扱・物権仲裁所"
+
+#. copy/propertyLead
+#: src/js/commons.js:50
+msgctxt "tree:copy#/propertyLead"
+msgid ""
+"Lost things may deny being lost and former holders may appeal; nobody may "
+"reduce an object's testimony to “a bit old”."
+msgstr "遺失物は紛失を否認でき、旧持主も不服申立できます。ただし物件の陳述を「少し古い」に縮められません。"
+
+#. copy/items
+#: src/js/commons.js:50
+msgctxt "tree:copy#/items"
+msgid "Objects awaiting review"
+msgstr "審理待ち物件"
+
+#. copy/hearings
+#: src/js/commons.js:50
+msgctxt "tree:copy#/hearings"
+msgid "My hearings"
+msgstr "自分の聴聞"
+
+#. copy/resolved
+#: src/js/commons.js:50
+msgctxt "tree:copy#/resolved"
+msgid "Rulings"
+msgstr "裁定済み"
+
+#. copy/searchProperty
+#: src/js/commons.js:50
+msgctxt "tree:copy#/searchProperty"
+msgid "Search object, place, statement, or code"
+msgstr "物件・場所・陳述・番号を検索"
+
+#. copy/openFile
+#: src/js/commons.js:50
+msgctxt "tree:copy#/openFile"
+msgid "Open object file"
+msgstr "物件記録を開く"
+
+#. copy/foundAt
+#: src/js/commons.js:50
+msgctxt "tree:copy#/foundAt"
+msgid "Found at"
+msgstr "拾得場所"
+
+#. copy/foundBy
+#: src/js/commons.js:50
+msgctxt "tree:copy#/foundBy"
+msgid "Finding record"
+msgstr "拾得記録"
+
+#. copy/condition
+#: src/js/commons.js:50
+msgctxt "tree:copy#/condition"
+msgid "Condition"
+msgstr "現況"
+
+#. copy/dispute
+#: src/js/commons.js:50
+msgctxt "tree:copy#/dispute"
+msgid "Dispute"
+msgstr "争点"
+
+#. copy/statement
+#: src/js/commons.js:50
+msgctxt "tree:copy#/statement"
+msgid "Object's own statement"
+msgstr "物件本人の陳述"
+
+#. copy/evidence
+#: src/js/commons.js:50
+msgctxt "tree:copy#/evidence"
+msgid "Evidence on file"
+msgstr "現有証物"
+
+#. copy/jurisdiction
+#: src/js/commons.js:50
+msgctxt "tree:copy#/jurisdiction"
+msgid "Overlapping jurisdiction"
+msgstr "重複管轄"
+
+#. copy/claim
+#: src/js/commons.js:50
+msgctxt "tree:copy#/claim"
+msgid "File a return / destination claim"
+msgstr "受取／行先申請"
+
+#. copy/claimant
+#: src/js/commons.js:50
+msgctxt "tree:copy#/claimant"
+msgid "Claimant or object name"
+msgstr "申請人または物件名"
+
+#. copy/relationship
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationship"
+msgid "Relationship to the object"
+msgstr "物件との関係"
+
+#. copy/relationHolder
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationHolder"
+msgid "Former / current holder"
+msgstr "前／現持主"
+
+#. copy/relationFinder
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationFinder"
+msgid "Finder"
+msgstr "拾得人"
+
+#. copy/relationCustodian
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationCustodian"
+msgid "Custodial office"
+msgstr "保管部署"
+
+#. copy/relationObject
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationObject"
+msgid "I am this object"
+msgstr "私がこの物件です"
+
+#. copy/relationWitness
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationWitness"
+msgid "Witness"
+msgstr "目撃者"
+
+#. copy/relationOther
+#: src/js/commons.js:50
+msgctxt "tree:copy#/relationOther"
+msgid "Other"
+msgstr "その他"
+
+#. copy/claimEvidence
+#: src/js/commons.js:50
+msgctxt "tree:copy#/claimEvidence"
+msgid "Describe wear, time, witness, care, or provenance; “mine” is insufficient"
+msgstr "使用痕、時刻、目撃、手入れ、来歴を記述。「自分の物」だけでは不足"
+
+#. copy/requested
+#: src/js/commons.js:50
+msgctxt "tree:copy#/requested"
+msgid "Requested destination"
+msgstr "希望する行先"
+
+#. copy/hearVoice
+#: src/js/commons.js:50
+msgctxt "tree:copy#/hearVoice"
+msgid "I read the object's statement and will not treat it as an opinionless accessory"
+msgstr "物件の陳述を読み、意見のない附属物として扱いません"
+
+#. copy/acceptConditions
+#: src/js/commons.js:50
+msgctxt "tree:copy#/acceptConditions"
+msgid "I accept that return, custody, or autonomy may carry care and appeal conditions"
+msgstr "返還・保管・自主行先に手入れと不服申立条件が付く場合があります"
+
+#. copy/submitClaim
+#: src/js/commons.js:50
+msgctxt "tree:copy#/submitClaim"
+msgid "Send to four-seat hearing"
+msgstr "四席聴聞へ送る"
+
+#. copy/claimantError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/claimantError"
+msgid "The claimant name needs at least two characters."
+msgstr "申請人名は二文字以上必要です。"
+
+#. copy/evidenceError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/evidenceError"
+msgid "Leave at least 18 characters of traceable reasoning."
+msgstr "追跡可能な理由を18文字以上残してください。"
+
+#. copy/voiceError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/voiceError"
+msgid "First recognise that the object has a chair in this case."
+msgstr "まず物件本人の席を認めてください。"
+
+#. copy/hearingTitle
+#: src/js/commons.js:50
+msgctxt "tree:copy#/hearingTitle"
+msgid "Four seats leave separate opinions"
+msgstr "四席が別々に意見を残す"
+
+#. copy/hearingLead
+#: src/js/commons.js:50
+msgctxt "tree:copy#/hearingLead"
+msgid "There is no average score. Every question and objection enters the ruling."
+msgstr "平均点はありません。四席の問いと異議がそのまま裁定へ入ります。"
+
+#. copy/chooseRuling
+#: src/js/commons.js:50
+msgctxt "tree:copy#/chooseRuling"
+msgid "Choose an interim ruling"
+msgstr "暫定裁定を選択"
+
+#. copy/issueRuling
+#: src/js/commons.js:50
+msgctxt "tree:copy#/issueRuling"
+msgid "Stamp the ruling"
+msgstr "裁定の赤印を押す"
+
+#. copy/conditionsError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/conditionsError"
+msgid ""
+"That destination requires follow-up conditions; otherwise choose further "
+"hearing or protective hold."
+msgstr "この行先には条件受諾が必要です。拒否する場合は追加聴聞か留置のみ。"
+
+#. copy/ruling
+#: src/js/commons.js:50
+msgctxt "tree:copy#/ruling"
+msgid "Property ruling"
+msgstr "物権裁定書"
+
+#. copy/printRuling
+#: src/js/commons.js:50
+msgctxt "tree:copy#/printRuling"
+msgid "Print / save ruling"
+msgstr "裁定書を印刷／PDF 保存"
+
+#. copy/noClaims
+#: src/js/commons.js:50
+msgctxt "tree:copy#/noClaims"
+msgid "No property claim has been filed on this device."
+msgstr "この端末からの物権申請はありません。"
+
+#. copy/submitted
+#: src/js/commons.js:50
+msgctxt "tree:copy#/submitted"
+msgid "The claim entered four-seat hearing; its tengu notice has also arrived."
+msgstr "申請は四席聴聞へ入り、鴉天狗通知も到着しました。"
+
+#. copy/ruled
+#: src/js/commons.js:50
+msgctxt "tree:copy#/ruled"
+msgid "The ruling is filed; the object retains its right of appeal."
+msgstr "裁定を封印保存。物件の不服申立権は残ります。"
+
+#. copy/postDesk
+#: src/js/commons.js:50
+msgctxt "tree:copy#/postDesk"
+msgid "Crow-Tengu Campus Post & Notification Centre"
+msgstr "鴉天狗学内郵便・通知センター"
+
+#. copy/postLead
+#: src/js/commons.js:50
+msgctxt "tree:copy#/postLead"
+msgid ""
+"An offer may precede an application and cancellation may follow the make-up. "
+"At least keep source, version, and correction from vanishing together."
+msgstr "合格通知は願書より早く、取消状は追試より遅く届くことがあります。資料源・版・訂正まで失わないでください。"
+
+#. copy/inbox
+#: src/js/commons.js:50
+msgctxt "tree:copy#/inbox"
+msgid "Inbox"
+msgstr "受信箱"
+
+#. copy/compose
+#: src/js/commons.js:50
+msgctxt "tree:copy#/compose"
+msgid "Send a notice"
+msgstr "通知を送る"
+
+#. copy/sent
+#: src/js/commons.js:50
+msgctxt "tree:copy#/sent"
+msgid "Dispatch files"
+msgstr "送信記録"
+
+#. copy/searchPost
+#: src/js/commons.js:50
+msgctxt "tree:copy#/searchPost"
+msgid "Search subject, source, or body"
+msgstr "件名・資料源・本文を検索"
+
+#. copy/unread
+#: src/js/commons.js:50
+msgctxt "tree:copy#/unread"
+msgid "Unread"
+msgstr "未読"
+
+#. copy/pinned
+#: src/js/commons.js:50
+msgctxt "tree:copy#/pinned"
+msgid "Pinned to board"
+msgstr "木札へ固定"
+
+#. copy/source
+#: src/js/commons.js:50
+msgctxt "tree:copy#/source"
+msgid "Source"
+msgstr "資料源"
+
+#. copy/trust
+#: src/js/commons.js:50
+msgctxt "tree:copy#/trust"
+msgid "Trust"
+msgstr "信頼度"
+
+#. copy/version
+#: src/js/commons.js:50
+msgctxt "tree:copy#/version"
+msgid "Version"
+msgstr "版"
+
+#. copy/delivery
+#: src/js/commons.js:50
+msgctxt "tree:copy#/delivery"
+msgid "Delivery order"
+msgstr "配達順"
+
+#. copy/correction
+#: src/js/commons.js:50
+msgctxt "tree:copy#/correction"
+msgid "Correction / version note"
+msgstr "訂正・版説明"
+
+#. copy/noCorrection
+#: src/js/commons.js:50
+msgctxt "tree:copy#/noCorrection"
+msgid "No correction accompanies this version; the headline may still be wrong."
+msgstr "この版に訂正はありません。見出しが正しいとは限りません。"
+
+#. copy/openLetter
+#: src/js/commons.js:50
+msgctxt "tree:copy#/openLetter"
+msgid "Open letter"
+msgstr "開封"
+
+#. copy/markRead
+#: src/js/commons.js:50
+msgctxt "tree:copy#/markRead"
+msgid "Toggle read"
+msgstr "既読切替"
+
+#. copy/pin
+#: src/js/commons.js:50
+msgctxt "tree:copy#/pin"
+msgid "Pin / unpin"
+msgstr "固定／解除"
+
+#. copy/acknowledge
+#: src/js/commons.js:50
+msgctxt "tree:copy#/acknowledge"
+msgid "Acknowledge this version"
+msgstr "この版を受領"
+
+#. copy/correctionRequest
+#: src/js/commons.js:50
+msgctxt "tree:copy#/correctionRequest"
+msgid "Request corrected copy"
+msgstr "訂正版を要求"
+
+#. copy/readAloud
+#: src/js/commons.js:50
+msgctxt "tree:copy#/readAloud"
+msgid "Let a fairy read it aloud"
+msgstr "妖精に全文朗読させる"
+
+#. copy/readAloudWarning
+#: src/js/commons.js:50
+msgctxt "tree:copy#/readAloudWarning"
+msgid "Read aloud: this private letter is now a rather public performance."
+msgstr "朗読済み。私信がかなり公開の演奏になりました。"
+
+#. copy/correctionRequested
+#: src/js/commons.js:50
+msgctxt "tree:copy#/correctionRequested"
+msgid "Correction requested; Aya says this proves the original headline worked."
+msgstr "訂正要求を送信。文は元見出しが成功した証拠だと主張。"
+
+#. copy/acknowledged
+#: src/js/commons.js:50
+msgctxt "tree:copy#/acknowledged"
+msgid "Current version acknowledged; contents not necessarily accepted."
+msgstr "現版を受領。内容への同意ではありません。"
+
+#. copy/recipient
+#: src/js/commons.js:50
+msgctxt "tree:copy#/recipient"
+msgid "Recipient / office"
+msgstr "宛先／部署"
+
+#. copy/subject
+#: src/js/commons.js:50
+msgctxt "tree:copy#/subject"
+msgid "Subject"
+msgstr "件名"
+
+#. copy/body
+#: src/js/commons.js:50
+msgctxt "tree:copy#/body"
+msgid "Body"
+msgstr "本文"
+
+#. copy/channel
+#: src/js/commons.js:50
+msgctxt "tree:copy#/channel"
+msgid "Delivery channel"
+msgstr "配達方法"
+
+#. copy/visibility
+#: src/js/commons.js:50
+msgctxt "tree:copy#/visibility"
+msgid "Visibility"
+msgstr "公開範囲"
+
+#. copy/private
+#: src/js/commons.js:50
+msgctxt "tree:copy#/private"
+msgid "Private letter"
+msgstr "私信"
+
+#. copy/campus
+#: src/js/commons.js:50
+msgctxt "tree:copy#/campus"
+msgid "Campus-visible"
+msgstr "学内公開"
+
+#. copy/public
+#: src/js/commons.js:50
+msgctxt "tree:copy#/public"
+msgid "Publish to campus BBS"
+msgstr "学内 BBS へ公開"
+
+#. copy/send
+#: src/js/commons.js:50
+msgctxt "tree:copy#/send"
+msgid "Seal and hand to a crow tengu"
+msgstr "封をして鴉天狗へ"
+
+#. copy/recipientError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/recipientError"
+msgid "Name a recipient."
+msgstr "宛先を記入してください。"
+
+#. copy/subjectError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/subjectError"
+msgid "The subject needs at least three characters."
+msgstr "件名は三文字以上必要です。"
+
+#. copy/bodyError
+#: src/js/commons.js:50
+msgctxt "tree:copy#/bodyError"
+msgid "The body needs at least twelve characters."
+msgstr "本文は十二文字以上必要です。"
+
+#. copy/dispatched
+#: src/js/commons.js:50
+msgctxt "tree:copy#/dispatched"
+msgid "Dispatched; arrival order remains negotiable."
+msgstr "投函しました。順番どおり届くかは別問題です。"
+
+#. copy/noSent
+#: src/js/commons.js:50
+msgctxt "tree:copy#/noSent"
+msgid "No notice has been sent from this device."
+msgstr "この端末から送った通知はありません。"
+
+#. copy/minutesAgo
+#: src/js/commons.js:50
+msgctxt "tree:copy#/minutesAgo"
+msgid "minutes ago"
+msgstr "分前"
+
+#. copy/hoursAgo
+#: src/js/commons.js:50
+msgctxt "tree:copy#/hoursAgo"
+msgid "hours ago"
+msgstr "時間前"
+
+#. copy/daysAgo
+#: src/js/commons.js:50
+msgctxt "tree:copy#/daysAgo"
+msgid "days ago"
+msgstr "日前"
+
+#. copy/justNow
+#: src/js/commons.js:50
+msgctxt "tree:copy#/justNow"
+msgid "just now"
+msgstr "たった今"
+
+#. copy/share
+#: src/js/commons.js:50
+msgctxt "tree:copy#/share"
+msgid "Copy this file URL"
+msgstr "記録 URL をコピー"
+
+#. copy/copied
+#: src/js/commons.js:50
+msgctxt "tree:copy#/copied"
+msgid "URL copied."
+msgstr "URL をコピーしました。"
+
+#. copy/back
+#: src/js/commons.js:50
+msgctxt "tree:copy#/back"
+msgid "Back to file rack"
+msgstr "記録棚へ戻る"

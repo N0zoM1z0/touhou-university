@@ -1,0 +1,256 @@
+# Touhou University — ja
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/eyebrow"
+msgid "HIEDA INDEX / FIVE RECORDS OF ONE THING"
+msgstr "HIEDA INDEX / 同じ出来事の五つの記録"
+
+#. copy/title
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/title"
+msgid ""
+"Every event happens\nat least five times."
+msgstr ""
+"出来事は、\n最低でも五回起こる。"
+
+#. copy/lead
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/lead"
+msgid ""
+"Once on site, once in rules, once in news, once in student talk—and once "
+"more in the margin Akyuu refuses to erase."
+msgstr "現場で一度、規程で一度、新聞で一度、学生の口で一度。そして最後に、阿求が消さない欄外で起こる。"
+
+#. copy/notice
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/notice"
+msgid ""
+"This machine does not choose one campus truth. It lays mutually "
+"contradictory, mutually citing, mutually evasive records on one desk."
+msgstr "唯一の真実を選ぶ機械ではありません。矛盾し、引用し合い、互いを知らないふりをする記録を同じ机へ広げます。"
+
+#. copy/events
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/events"
+msgid "Read by event"
+msgstr "事案から読む"
+
+#. copy/characters
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/characters"
+msgid "Read by character"
+msgstr "人物から読む"
+
+#. copy/versions
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/versions"
+msgid "Read by version / time"
+msgstr "版／時間から読む"
+
+#. copy/eventHint
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/eventHint"
+msgid "Follow one nuisance through seven offices"
+msgstr "一つの厄介事を七つの窓口まで追う"
+
+#. copy/characterHint
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/characterHint"
+msgid "See one person's fingerprints across different files"
+msgstr "同じ人物が別の記録へ残す手印を見る"
+
+#. copy/versionHint
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/versionHint"
+msgid "Trace change along the first-parent chronicle"
+msgstr "first-parent 大学史で変化の時をたどる"
+
+#. copy/dossiers
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/dossiers"
+msgid "cross-files"
+msgstr "交差案件"
+
+#. copy/hands
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/hands"
+msgid "fingerprints"
+msgstr "手印"
+
+#. copy/versionsCount
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/versionsCount"
+msgid "chronicle versions"
+msgstr "大学史版"
+
+#. copy/records
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/records"
+msgid "linked leaves"
+msgstr "枚の関連紙"
+
+#. copy/indexSearch
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/indexSearch"
+msgid "Filter this column"
+msgstr "この欄を絞り込む"
+
+#. copy/searchPlaceholder
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/searchPlaceholder"
+msgid "bell, Aya, object 77…"
+msgstr "鐘、文、七十七号…"
+
+#. copy/source
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/source"
+msgid "Return to source"
+msgstr "原簿へ戻る"
+
+#. copy/thread
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/thread"
+msgid "Why this red thread is here"
+msgstr "この赤糸の結び方"
+
+#. copy/contradiction
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/contradiction"
+msgid "Contradiction retained by Akyuu"
+msgstr "阿求が残した矛盾"
+
+#. copy/people
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/people"
+msgid "Fingerprints on this leaf"
+msgstr "この頁の手印"
+
+#. copy/versionSources
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/versionSources"
+msgid "Chronicle versions this event passed through"
+msgstr "この出来事を通った大学史版"
+
+#. copy/localTitle
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/localTitle"
+msgid "Records you left in the margin"
+msgstr "あなたが欄外へ残した記録"
+
+#. copy/localLead
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/localLead"
+msgid ""
+"Reads only the official campus ledger on this device. Nothing uploads, and "
+"nothing you did not do gets invented."
+msgstr "この端末の正式キャンパス ledger だけを読みます。送信も、未実施の出来事の追記もしません。"
+
+#. copy/localEmpty
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/localEmpty"
+msgid ""
+"This leaf does not know your handwriting yet. Borrow, vote, close a case, "
+"enrol, or defend work in a source file."
+msgstr "この頁はまだあなたの筆跡を知りません。原簿で借用、投票、終結、履修、答弁を行えば見分けます。"
+
+#. copy/localOpen
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/localOpen"
+msgid "See the full record in My TU"
+msgstr "My TU ですべてを見る"
+
+#. copy/subject
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/subject"
+msgid "Record subject"
+msgstr "記録主体"
+
+#. copy/caused
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/caused"
+msgid "Direct cause"
+msgstr "直接前因"
+
+#. copy/openDossier
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/openDossier"
+msgid "Open this event"
+msgstr "この出来事を開く"
+
+#. copy/relatedDossiers
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/relatedDossiers"
+msgid "Files involving this character"
+msgstr "この人物が関わる案件"
+
+#. copy/versionDossiers
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/versionDossiers"
+msgid "Files moved by this version"
+msgstr "この版が動かした案件"
+
+#. copy/characterNote
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/characterNote"
+msgid ""
+"Characters are not flattened into consistent positions. One name can be "
+"teacher, witness, maintainer, and cause of trouble."
+msgstr "人物を一貫した立場には整理しません。同じ名が教員、証人、保守担当、厄介事の原因を兼ねます。"
+
+#. copy/versionNote
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/versionNote"
+msgid ""
+"The first-parent commit is the chronicle source. A feature subject and "
+"campus consequence may meet, but may not impersonate each other."
+msgstr "主分岐 commit が大学史正本です。機能主旨と校内の結果は出会えても、互いを名乗れません。"
+
+#. copy/gitSource
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/gitSource"
+msgid "Open Git source"
+msgstr "Git 正本を見る"
+
+#. copy/archiveSource
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/archiveSource"
+msgid "Open chronicle leaf"
+msgstr "大学史頁を開く"
+
+#. copy/copied
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/copied"
+msgid "This leaf's red-thread address is copied."
+msgstr "この頁の赤糸住所を写しました。"
+
+#. copy/share
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/share"
+msgid "Copy this leaf's address"
+msgstr "この頁の住所を写す"
+
+#. copy/noMatch
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/noMatch"
+msgid "That phrase is absent from every visible index slip."
+msgstr "この語は可視索引札に見つかりません。"
+
+#. copy/allRecords
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/allRecords"
+msgid "All linked leaves"
+msgstr "全関連紙"
+
+#. copy/direct
+#: src/js/hieda-index.js:24
+msgctxt "tree:copy#/direct"
+msgid "Directly involved"
+msgstr "直接関係"

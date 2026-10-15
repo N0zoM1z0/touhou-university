@@ -1,0 +1,1552 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. examBanks.readiness.title
+#: src/data/exam.js:9
+msgctxt "text:examBanks.readiness.title"
+msgid "Gensokyo Common Readiness"
+msgstr "Gensokyo Common Readiness"
+
+#. examBanks.readiness.subtitle
+#: src/data/exam.js:10
+msgctxt "text:examBanks.readiness.subtitle"
+msgid ""
+"Campus judgment for every applicant: method, courtesy, and keeping a clear "
+"head when things get strange."
+msgstr ""
+"Campus judgment for every applicant: method, courtesy, and keeping a clear "
+"head when things get strange."
+
+#. examBanks.readiness.questions.0.category
+#: src/data/exam.js:13
+msgctxt "text:examBanks.readiness.questions.0.category"
+msgid "Motto"
+msgstr "Motto"
+
+#. examBanks.readiness.questions.0.prompt
+#: src/data/exam.js:14
+msgctxt "text:examBanks.readiness.questions.0.prompt"
+msgid "Which action best follows “Cross borders for truth; contest ideas with respect”?"
+msgstr "Which action best follows “Cross borders for truth; contest ideas with respect”?"
+
+#. examBanks.readiness.questions.0.explanation
+#: src/data/exam.js:22
+msgctxt "text:examBanks.readiness.questions.0.explanation"
+msgid ""
+"Truth-seeking crosses existing viewpoints; respectful contest requires "
+"traceable rules, consent, and stopping conditions."
+msgstr ""
+"Truth-seeking crosses existing viewpoints; respectful contest requires "
+"traceable rules, consent, and stopping conditions."
+
+#. examBanks.readiness.questions.1.category
+#: src/data/exam.js:25
+msgctxt "text:examBanks.readiness.questions.1.category"
+msgid "Safety"
+msgstr "Safety"
+
+#. examBanks.readiness.questions.1.prompt
+#: src/data/exam.js:26
+msgctxt "text:examBanks.readiness.questions.1.prompt"
+msgid "The red lamp suddenly lights in Seven-Day Laboratory. What should you do first?"
+msgstr "The red lamp suddenly lights in Seven-Day Laboratory. What should you do first?"
+
+#. examBanks.readiness.questions.1.explanation
+#: src/data/exam.js:34
+msgctxt "text:examBanks.readiness.questions.1.explanation"
+msgid "Red-lamp evacuation is counter-clockwise; the duty practitioner identifies the element."
+msgstr "Red-lamp evacuation is counter-clockwise; the duty practitioner identifies the element."
+
+#. examBanks.readiness.questions.2.category
+#: src/data/exam.js:37
+msgctxt "text:examBanks.readiness.questions.2.category"
+msgid "Source Judgment"
+msgstr "Source Judgment"
+
+#. examBanks.readiness.questions.2.prompt
+#: src/data/exam.js:38
+msgctxt "text:examBanks.readiness.questions.2.prompt"
+msgid ""
+"You hear that every campus gate will lead to the Lunar Capital tomorrow. "
+"What is the best first step?"
+msgstr ""
+"You hear that every campus gate will lead to the Lunar Capital tomorrow. "
+"What is the best first step?"
+
+#. examBanks.readiness.questions.2.explanation
+#: src/data/exam.js:46
+msgctxt "text:examBanks.readiness.questions.2.explanation"
+msgid ""
+"Separate witness, hearsay, and inference, then consult traceable sources. "
+"Strangeness proves neither truth nor falsehood."
+msgstr ""
+"Separate witness, hearsay, and inference, then consult traceable sources. "
+"Strangeness proves neither truth nor falsehood."
+
+#. examBanks.readiness.questions.3.category
+#: src/data/exam.js:49
+msgctxt "text:examBanks.readiness.questions.3.category"
+msgid "Shared Life"
+msgstr "Shared Life"
+
+#. examBanks.readiness.questions.3.prompt
+#: src/data/exam.js:50
+msgctxt "text:examBanks.readiness.questions.3.prompt"
+msgid ""
+"A fairy roommate hides your alarm clock in a flowerpot as “spatial "
+"beautification.” What is the best response?"
+msgstr ""
+"A fairy roommate hides your alarm clock in a flowerpot as “spatial "
+"beautification.” What is the best response?"
+
+#. examBanks.readiness.questions.3.explanation
+#: src/data/exam.js:58
+msgctxt "text:examBanks.readiness.questions.3.explanation"
+msgid "Shared life needs repeatable boundaries, not retaliation or blanket prohibition."
+msgstr "Shared life needs repeatable boundaries, not retaliation or blanket prohibition."
+
+#. examBanks.readiness.questions.4.category
+#: src/data/exam.js:61
+msgctxt "text:examBanks.readiness.questions.4.category"
+msgid "Research Ethics"
+msgstr "Research Ethics"
+
+#. examBanks.readiness.questions.4.prompt
+#: src/data/exam.js:62
+msgctxt "text:examBanks.readiness.questions.4.prompt"
+msgid ""
+"A mind reader wants to use hallway thoughts as class samples. What is the "
+"minimum requirement?"
+msgstr ""
+"A mind reader wants to use hallway thoughts as class samples. What is the "
+"minimum requirement?"
+
+#. examBanks.readiness.questions.4.explanation
+#: src/data/exam.js:70
+msgctxt "text:examBanks.readiness.questions.4.explanation"
+msgid ""
+"Public space does not waive inner privacy, and de-identification cannot "
+"replace prior consent and withdrawal."
+msgstr ""
+"Public space does not waive inner privacy, and de-identification cannot "
+"replace prior consent and withdrawal."
+
+#. examBanks.readiness.questions.5.category
+#: src/data/exam.js:73
+msgctxt "text:examBanks.readiness.questions.5.category"
+msgid "Transit"
+msgstr "Transit"
+
+#. examBanks.readiness.questions.5.prompt
+#: src/data/exam.js:74
+msgctxt "text:examBanks.readiness.questions.5.prompt"
+msgid "After receiving a Hakurei Gate arrival time, what should an Outside World student do?"
+msgstr "After receiving a Hakurei Gate arrival time, what should an Outside World student do?"
+
+#. examBanks.readiness.questions.5.explanation
+#: src/data/exam.js:82
+msgctxt "text:examBanks.readiness.questions.5.explanation"
+msgid ""
+"Barrier passage follows the notice; unknown gaps, umbrellas, and butterflies "
+"are not admissions desks."
+msgstr ""
+"Barrier passage follows the notice; unknown gaps, umbrellas, and butterflies "
+"are not admissions desks."
+
+#. examBanks.readiness.questions.6.category
+#: src/data/exam.js:85
+msgctxt "text:examBanks.readiness.questions.6.category"
+msgid "Spell-card Rules"
+msgstr "Spell-card Rules"
+
+#. examBanks.readiness.questions.6.prompt
+#: src/data/exam.js:86
+msgctxt "text:examBanks.readiness.questions.6.prompt"
+msgid "What does not determine admission in an academic spell-card interview?"
+msgstr "What does not determine admission in an academic spell-card interview?"
+
+#. examBanks.readiness.questions.6.explanation
+#: src/data/exam.js:94
+msgctxt "text:examBanks.readiness.questions.6.explanation"
+msgid ""
+"The interview assesses questions, methods, limits, and judgment; firepower "
+"is not an academic argument."
+msgstr ""
+"The interview assesses questions, methods, limits, and judgment; firepower "
+"is not an academic argument."
+
+#. examBanks.readiness.questions.7.category
+#: src/data/exam.js:97
+msgctxt "text:examBanks.readiness.questions.7.category"
+msgid "Library"
+msgstr "Library"
+
+#. examBanks.readiness.questions.7.prompt
+#: src/data/exam.js:98
+msgctxt "text:examBanks.readiness.questions.7.prompt"
+msgid ""
+"A book flies away from its shelf in Misty Lake Library. What is the most "
+"reasonable response?"
+msgstr ""
+"A book flies away from its shelf in Misty Lake Library. What is the most "
+"reasonable response?"
+
+#. examBanks.readiness.questions.7.explanation
+#: src/data/exam.js:106
+msgctxt "text:examBanks.readiness.questions.7.explanation"
+msgid ""
+"The collection may fly, but call numbers do not; traceable records beat "
+"chasing or damaging it."
+msgstr ""
+"The collection may fly, but call numbers do not; traceable records beat "
+"chasing or damaging it."
+
+#. examBanks.boundary.title
+#: src/data/exam.js:115
+msgctxt "text:examBanks.boundary.title"
+msgid "Boundaries & Incident Judgment"
+msgstr "Boundaries & Incident Judgment"
+
+#. examBanks.boundary.subtitle
+#: src/data/exam.js:116
+msgctxt "text:examBanks.boundary.subtitle"
+msgid "For applicants who want to turn “not again” into a testable question."
+msgstr "For applicants who want to turn “not again” into a testable question."
+
+#. examBanks.boundary.questions.0.category
+#: src/data/exam.js:119
+msgctxt "text:examBanks.boundary.questions.0.category"
+msgid "Incident Triage"
+msgstr "Incident Triage"
+
+#. examBanks.boundary.questions.0.prompt
+#: src/data/exam.js:120
+msgctxt "text:examBanks.boundary.questions.0.prompt"
+msgid ""
+"Every shadow begins moving three seconds late, with no injuries. What "
+"matters most in the first record?"
+msgstr ""
+"Every shadow begins moving three seconds late, with no injuries. What "
+"matters most in the first record?"
+
+#. examBanks.boundary.questions.0.explanation
+#: src/data/exam.js:128
+msgctxt "text:examBanks.boundary.questions.0.explanation"
+msgid ""
+"Initial records fix observable conditions before names or guesses are "
+"mistaken for mechanisms."
+msgstr ""
+"Initial records fix observable conditions before names or guesses are "
+"mistaken for mechanisms."
+
+#. examBanks.boundary.questions.1.category
+#: src/data/exam.js:131
+msgctxt "text:examBanks.boundary.questions.1.category"
+msgid "Boundary Survey"
+msgstr "Boundary Survey"
+
+#. examBanks.boundary.questions.1.prompt
+#: src/data/exam.js:132
+msgctxt "text:examBanks.boundary.questions.1.prompt"
+msgid "A signpost points differently on the second passage. Which comparison is most useful?"
+msgstr "A signpost points differently on the second passage. Which comparison is most useful?"
+
+#. examBanks.boundary.questions.1.explanation
+#: src/data/exam.js:140
+msgctxt "text:examBanks.boundary.questions.1.explanation"
+msgid ""
+"Boundary effects often depend on sequence and viewpoint; paired records "
+"distinguish a changed sign from a changed route."
+msgstr ""
+"Boundary effects often depend on sequence and viewpoint; paired records "
+"distinguish a changed sign from a changed route."
+
+#. examBanks.boundary.questions.2.category
+#: src/data/exam.js:143
+msgctxt "text:examBanks.boundary.questions.2.category"
+msgid "Stopping Rules"
+msgstr "Stopping Rules"
+
+#. examBanks.boundary.questions.2.prompt
+#: src/data/exam.js:144
+msgctxt "text:examBanks.boundary.questions.2.prompt"
+msgid "Which stopping condition is most operational during incident tracking?"
+msgstr "Which stopping condition is most operational during incident tracking?"
+
+#. examBanks.boundary.questions.2.explanation
+#: src/data/exam.js:152
+msgctxt "text:examBanks.boundary.questions.2.explanation"
+msgid ""
+"Good stopping rules are pre-agreed, observable on site, and triggerable by "
+"affected participants."
+msgstr ""
+"Good stopping rules are pre-agreed, observable on site, and triggerable by "
+"affected participants."
+
+#. examBanks.boundary.questions.3.category
+#: src/data/exam.js:155
+msgctxt "text:examBanks.boundary.questions.3.category"
+msgid "Drift Objects"
+msgstr "Drift Objects"
+
+#. examBanks.boundary.questions.3.prompt
+#: src/data/exam.js:156
+msgctxt "text:examBanks.boundary.questions.3.prompt"
+msgid ""
+"An Outside World object changes use after crossing the barrier. What should "
+"researchers most avoid?"
+msgstr ""
+"An Outside World object changes use after crossing the barrier. What should "
+"researchers most avoid?"
+
+#. examBanks.boundary.questions.3.explanation
+#: src/data/exam.js:164
+msgctxt "text:examBanks.boundary.questions.3.explanation"
+msgid ""
+"Sample size does not outrank barrier safety; the registry is non-invasive "
+"and never widens gaps."
+msgstr ""
+"Sample size does not outrank barrier safety; the registry is non-invasive "
+"and never widens gaps."
+
+#. examBanks.boundary.questions.4.category
+#: src/data/exam.js:167
+msgctxt "text:examBanks.boundary.questions.4.category"
+msgid "Oral Defence"
+msgstr "Oral Defence"
+
+#. examBanks.boundary.questions.4.prompt
+#: src/data/exam.js:168
+msgctxt "text:examBanks.boundary.questions.4.prompt"
+msgid "What does a “way out” mainly mean in a spell-card defence?"
+msgstr "What does a “way out” mainly mean in a spell-card defence?"
+
+#. examBanks.boundary.questions.4.explanation
+#: src/data/exam.js:176
+msgctxt "text:examBanks.boundary.questions.4.explanation"
+msgid ""
+"A way out is part of the rules, preventing pride or firepower from "
+"escalating the contest indefinitely."
+msgstr ""
+"A way out is part of the rules, preventing pride or firepower from "
+"escalating the contest indefinitely."
+
+#. examBanks.boundary.questions.5.category
+#: src/data/exam.js:179
+msgctxt "text:examBanks.boundary.questions.5.category"
+msgid "Causality"
+msgstr "Causality"
+
+#. examBanks.boundary.questions.5.prompt
+#: src/data/exam.js:180
+msgctxt "text:examBanks.boundary.questions.5.prompt"
+msgid ""
+"Books in the library's north wing move more often at every full moon. What "
+"does this directly establish?"
+msgstr ""
+"Books in the library's north wing move more often at every full moon. What "
+"does this directly establish?"
+
+#. examBanks.boundary.questions.5.explanation
+#: src/data/exam.js:188
+msgctxt "text:examBanks.boundary.questions.5.explanation"
+msgid ""
+"Repeated association merits study, but lunar phase is not yet a cause "
+"without controls and mechanism evidence."
+msgstr ""
+"Repeated association merits study, but lunar phase is not yet a cause "
+"without controls and mechanism evidence."
+
+#. examBanks.boundary.questions.6.category
+#: src/data/exam.js:191
+msgctxt "text:examBanks.boundary.questions.6.category"
+msgid "Witness Records"
+msgstr "Witness Records"
+
+#. examBanks.boundary.questions.6.prompt
+#: src/data/exam.js:192
+msgctxt "text:examBanks.boundary.questions.6.prompt"
+msgid "Three witnesses disagree about a danmaku's color. What is the best treatment?"
+msgstr "Three witnesses disagree about a danmaku's color. What is the best treatment?"
+
+#. examBanks.boundary.questions.6.explanation
+#: src/data/exam.js:200
+msgctxt "text:examBanks.boundary.questions.6.explanation"
+msgid ""
+"Disagreement may be error or reveal viewpoint and sensory differences; "
+"preserve context before judging."
+msgstr ""
+"Disagreement may be error or reveal viewpoint and sensory differences; "
+"preserve context before judging."
+
+#. examBanks.boundary.questions.7.category
+#: src/data/exam.js:203
+msgctxt "text:examBanks.boundary.questions.7.category"
+msgid "Risk Communication"
+msgstr "Risk Communication"
+
+#. examBanks.boundary.questions.7.prompt
+#: src/data/exam.js:204
+msgctxt "text:examBanks.boundary.questions.7.prompt"
+msgid ""
+"A temporary low-risk inversion zone appears in a known area. What should the "
+"notice include?"
+msgstr ""
+"A temporary low-risk inversion zone appears in a known area. What should the "
+"notice include?"
+
+#. examBanks.boundary.questions.7.explanation
+#: src/data/exam.js:212
+msgctxt "text:examBanks.boundary.questions.7.explanation"
+msgid "Risk notices must support action and make uncertainty and the next update explicit."
+msgstr "Risk notices must support action and make uncertainty and the next update explicit."
+
+#. examBanks.methods.title
+#: src/data/exam.js:221
+msgctxt "text:examBanks.methods.title"
+msgid "Research Methods & Field Records"
+msgstr "Research Methods & Field Records"
+
+#. examBanks.methods.subtitle
+#: src/data/exam.js:222
+msgctxt "text:examBanks.methods.subtitle"
+msgid ""
+"Strange answers are welcome; missing methods, runaway samples, and invisible "
+"corrections are not."
+msgstr ""
+"Strange answers are welcome; missing methods, runaway samples, and invisible "
+"corrections are not."
+
+#. examBanks.methods.questions.0.category
+#: src/data/exam.js:225
+msgctxt "text:examBanks.methods.questions.0.category"
+msgid "Operational Definition"
+msgstr "Operational Definition"
+
+#. examBanks.methods.questions.0.prompt
+#: src/data/exam.js:226
+msgctxt "text:examBanks.methods.questions.0.prompt"
+msgid "When studying “thick mist,” which definition is most comparable?"
+msgstr "When studying “thick mist,” which definition is most comparable?"
+
+#. examBanks.methods.questions.0.explanation
+#: src/data/exam.js:234
+msgctxt "text:examBanks.methods.questions.0.explanation"
+msgid "An operational definition converts a feeling into repeatable measurement conditions."
+msgstr "An operational definition converts a feeling into repeatable measurement conditions."
+
+#. examBanks.methods.questions.1.category
+#: src/data/exam.js:237
+msgctxt "text:examBanks.methods.questions.1.category"
+msgid "Controls"
+msgstr "Controls"
+
+#. examBanks.methods.questions.1.prompt
+#: src/data/exam.js:238
+msgctxt "text:examBanks.methods.questions.1.prompt"
+msgid "When testing whether a kappa turbine needs no magic, what is the most important control?"
+msgstr "When testing whether a kappa turbine needs no magic, what is the most important control?"
+
+#. examBanks.methods.questions.1.explanation
+#: src/data/exam.js:246
+msgctxt "text:examBanks.methods.questions.1.explanation"
+msgid ""
+"Testing magic independence requires matched water and load plus real "
+"isolation of magical input."
+msgstr ""
+"Testing magic independence requires matched water and load plus real "
+"isolation of magical input."
+
+#. examBanks.methods.questions.2.category
+#: src/data/exam.js:249
+msgctxt "text:examBanks.methods.questions.2.category"
+msgid "Sampling"
+msgstr "Sampling"
+
+#. examBanks.methods.questions.2.prompt
+#: src/data/exam.js:250
+msgctxt "text:examBanks.methods.questions.2.prompt"
+msgid ""
+"If you interview only people who escaped the Bamboo Forest, what are you "
+"most likely to miss?"
+msgstr ""
+"If you interview only people who escaped the Bamboo Forest, what are you "
+"most likely to miss?"
+
+#. examBanks.methods.questions.2.explanation
+#: src/data/exam.js:258
+msgctxt "text:examBanks.methods.questions.2.explanation"
+msgid ""
+"This is survivorship bias: successful exits overstate working methods and "
+"hide failure paths."
+msgstr ""
+"This is survivorship bias: successful exits overstate working methods and "
+"hide failure paths."
+
+#. examBanks.methods.questions.3.category
+#: src/data/exam.js:261
+msgctxt "text:examBanks.methods.questions.3.category"
+msgid "Reproducibility"
+msgstr "Reproducibility"
+
+#. examBanks.methods.questions.3.prompt
+#: src/data/exam.js:262
+msgctxt "text:examBanks.methods.questions.3.prompt"
+msgid "Which magic experiment record is easiest to reproduce?"
+msgstr "Which magic experiment record is easiest to reproduce?"
+
+#. examBanks.methods.questions.3.explanation
+#: src/data/exam.js:270
+msgctxt "text:examBanks.methods.questions.3.explanation"
+msgid ""
+"Reproducible records include success, failure, sequence, and environment "
+"instead of relying on tacit memory."
+msgstr ""
+"Reproducible records include success, failure, sequence, and environment "
+"instead of relying on tacit memory."
+
+#. examBanks.methods.questions.4.category
+#: src/data/exam.js:273
+msgctxt "text:examBanks.methods.questions.4.category"
+msgid "Corrections"
+msgstr "Corrections"
+
+#. examBanks.methods.questions.4.prompt
+#: src/data/exam.js:274
+msgctxt "text:examBanks.methods.questions.4.prompt"
+msgid ""
+"After publication, 12 dates are found to be transcribed incorrectly. What is "
+"the best response?"
+msgstr ""
+"After publication, 12 dates are found to be transcribed incorrectly. What is "
+"the best response?"
+
+#. examBanks.methods.questions.4.explanation
+#: src/data/exam.js:282
+msgctxt "text:examBanks.methods.questions.4.explanation"
+msgid ""
+"A correction is itself a research record: what changed, why, and which "
+"conclusions are affected."
+msgstr ""
+"A correction is itself a research record: what changed, why, and which "
+"conclusions are affected."
+
+#. examBanks.methods.questions.5.category
+#: src/data/exam.js:285
+msgctxt "text:examBanks.methods.questions.5.category"
+msgid "Image Ethics"
+msgstr "Image Ethics"
+
+#. examBanks.methods.questions.5.prompt
+#: src/data/exam.js:286
+msgctxt "text:examBanks.methods.questions.5.prompt"
+msgid "An interviewee later withdraws consent to publish a photograph. What should the team do?"
+msgstr "An interviewee later withdraws consent to publish a photograph. What should the team do?"
+
+#. examBanks.methods.questions.5.explanation
+#: src/data/exam.js:294
+msgctxt "text:examBanks.methods.questions.5.explanation"
+msgid ""
+"Withdrawal must be actionable and limits on recall explained; one-time "
+"consent is not permanent."
+msgstr ""
+"Withdrawal must be actionable and limits on recall explained; one-time "
+"consent is not permanent."
+
+#. examBanks.methods.questions.6.category
+#: src/data/exam.js:297
+msgctxt "text:examBanks.methods.questions.6.category"
+msgid "Inference"
+msgstr "Inference"
+
+#. examBanks.methods.questions.6.prompt
+#: src/data/exam.js:298
+msgctxt "text:examBanks.methods.questions.6.prompt"
+msgid ""
+"Electrical leakage appeared during rain in all three observations. What is a "
+"reasonable next step?"
+msgstr ""
+"Electrical leakage appeared during rain in all three observations. What is a "
+"reasonable next step?"
+
+#. examBanks.methods.questions.6.explanation
+#: src/data/exam.js:306
+msgctxt "text:examBanks.methods.questions.6.explanation"
+msgid ""
+"The pattern suggests a hypothesis; next isolate related factors and add "
+"controls that distinguish mechanisms."
+msgstr ""
+"The pattern suggests a hypothesis; next isolate related factors and add "
+"controls that distinguish mechanisms."
+
+#. examBanks.methods.questions.7.category
+#: src/data/exam.js:309
+msgctxt "text:examBanks.methods.questions.7.category"
+msgid "Field Notes"
+msgstr "Field Notes"
+
+#. examBanks.methods.questions.7.prompt
+#: src/data/exam.js:310
+msgctxt "text:examBanks.methods.questions.7.prompt"
+msgid "Which line most resembles a sound field note?"
+msgstr "Which line most resembles a sound field note?"
+
+#. examBanks.methods.questions.7.explanation
+#: src/data/exam.js:318
+msgctxt "text:examBanks.methods.questions.7.explanation"
+msgid ""
+"Time, place, sensory source, counter-observation, and environment are "
+"separated so the observation can be reconstructed."
+msgstr ""
+"Time, place, sensory source, counter-observation, and environment are "
+"separated so the observation can be reconstructed."
+
+#. examBanks.campus.title
+#: src/data/exam.js:327
+msgctxt "text:examBanks.campus.title"
+msgid "Campus Life Practicum"
+msgstr "Campus Life Practicum"
+
+#. examBanks.campus.subtitle
+#: src/data/exam.js:328
+msgctxt "text:examBanks.campus.subtitle"
+msgid "From flight levels to dining queues: making it through a term is a method too."
+msgstr "From flight levels to dining queues: making it through a term is a method too."
+
+#. examBanks.campus.questions.0.category
+#: src/data/exam.js:331
+msgctxt "text:examBanks.campus.questions.0.category"
+msgid "Map"
+msgstr "Map"
+
+#. examBanks.campus.questions.0.prompt
+#: src/data/exam.js:332
+msgctxt "text:examBanks.campus.questions.0.prompt"
+msgid "Which campus place takes the longest walk from Hakurei Gate?"
+msgstr "Which campus place takes the longest walk from Hakurei Gate?"
+
+#. examBanks.campus.questions.0.explanation
+#: src/data/exam.js:340
+msgctxt "text:examBanks.campus.questions.0.explanation"
+msgid "Kappa Joint Workshop is in the mountain field zone, about 31 minutes from the gate."
+msgstr "Kappa Joint Workshop is in the mountain field zone, about 31 minutes from the gate."
+
+#. examBanks.campus.questions.1.category
+#: src/data/exam.js:343
+msgctxt "text:examBanks.campus.questions.1.category"
+msgid "Air Route"
+msgstr "Air Route"
+
+#. examBanks.campus.questions.1.prompt
+#: src/data/exam.js:344
+msgctxt "text:examBanks.campus.questions.1.prompt"
+msgid "What is the air-route rule above Eientei Clinic?"
+msgstr "What is the air-route rule above Eientei Clinic?"
+
+#. examBanks.campus.questions.1.explanation
+#: src/data/exam.js:352
+msgctxt "text:examBanks.campus.questions.1.explanation"
+msgid "Emergency rabbit carts and medical transport have priority; sightseeing traffic yields."
+msgstr "Emergency rabbit carts and medical transport have priority; sightseeing traffic yields."
+
+#. examBanks.campus.questions.2.category
+#: src/data/exam.js:355
+msgctxt "text:examBanks.campus.questions.2.category"
+msgid "Clubs"
+msgstr "Clubs"
+
+#. examBanks.campus.questions.2.prompt
+#: src/data/exam.js:356
+msgctxt "text:examBanks.campus.questions.2.prompt"
+msgid "Which club best suits practicing navigation when the return route may change?"
+msgstr "Which club best suits practicing navigation when the return route may change?"
+
+#. examBanks.campus.questions.2.explanation
+#: src/data/exam.js:364
+msgctxt "text:examBanks.campus.questions.2.explanation"
+msgid ""
+"Bamboo Navigation documents unstable routes, return markers, and companion "
+"rules for getting lost."
+msgstr ""
+"Bamboo Navigation documents unstable routes, return markers, and companion "
+"rules for getting lost."
+
+#. examBanks.campus.questions.3.category
+#: src/data/exam.js:367
+msgctxt "text:examBanks.campus.questions.3.category"
+msgid "Dining"
+msgstr "Dining"
+
+#. examBanks.campus.questions.3.prompt
+#: src/data/exam.js:368
+msgctxt "text:examBanks.campus.questions.3.prompt"
+msgid "When is Night-Sparrow Supper normally available?"
+msgstr "When is Night-Sparrow Supper normally available?"
+
+#. examBanks.campus.questions.3.explanation
+#: src/data/exam.js:376
+msgctxt "text:examBanks.campus.questions.3.explanation"
+msgid "Night-Sparrow Supper follows evening performances and is served after 17:30."
+msgstr "Night-Sparrow Supper follows evening performances and is served after 17:30."
+
+#. examBanks.campus.questions.4.category
+#: src/data/exam.js:379
+msgctxt "text:examBanks.campus.questions.4.category"
+msgid "Festival"
+msgstr "Festival"
+
+#. examBanks.campus.questions.4.prompt
+#: src/data/exam.js:380
+msgctxt "text:examBanks.campus.questions.4.prompt"
+msgid "What is the basic venue rule for the Spring Spell-card Lantern Festival?"
+msgstr "What is the basic venue rule for the Spring Spell-card Lantern Festival?"
+
+#. examBanks.campus.questions.4.explanation
+#: src/data/exam.js:388
+msgctxt "text:examBanks.campus.questions.4.explanation"
+msgid ""
+"Separating sky and ground preserves safe distance for viewing, dining, and "
+"spell-card displays."
+msgstr ""
+"Separating sky and ground preserves safe distance for viewing, dining, and "
+"spell-card displays."
+
+#. examBanks.campus.questions.5.category
+#: src/data/exam.js:391
+msgctxt "text:examBanks.campus.questions.5.category"
+msgid "Borrowing"
+msgstr "Borrowing"
+
+#. examBanks.campus.questions.5.prompt
+#: src/data/exam.js:392
+msgctxt "text:examBanks.campus.questions.5.prompt"
+msgid "What may and may not be borrowed from Kappa Joint Workshop?"
+msgstr "What may and may not be borrowed from Kappa Joint Workshop?"
+
+#. examBanks.campus.questions.5.explanation
+#: src/data/exam.js:400
+msgctxt "text:examBanks.campus.questions.5.explanation"
+msgid ""
+"Mountain rain gear may be borrowed; unfinished prototypes remain in the "
+"workshop for records and testing."
+msgstr ""
+"Mountain rain gear may be borrowed; unfinished prototypes remain in the "
+"workshop for records and testing."
+
+#. examBanks.campus.questions.6.category
+#: src/data/exam.js:403
+msgctxt "text:examBanks.campus.questions.6.category"
+msgid "BBS"
+msgstr "BBS"
+
+#. examBanks.campus.questions.6.prompt
+#: src/data/exam.js:404
+msgctxt "text:examBanks.campus.questions.6.prompt"
+msgid "You have unverified breaking news. What best follows Campus BBS rules?"
+msgstr "You have unverified breaking news. What best follows Campus BBS rules?"
+
+#. examBanks.campus.questions.6.explanation
+#: src/data/exam.js:412
+msgctxt "text:examBanks.campus.questions.6.explanation"
+msgid ""
+"The BBS is for deliberation; Journalism verifies breaking news, while posts "
+"distinguish witness, hearsay, and inference."
+msgstr ""
+"The BBS is for deliberation; Journalism verifies breaking news, while posts "
+"distinguish witness, hearsay, and inference."
+
+#. examBanks.campus.questions.7.category
+#: src/data/exam.js:415
+msgctxt "text:examBanks.campus.questions.7.category"
+msgid "Exams"
+msgstr "Exams"
+
+#. examBanks.campus.questions.7.prompt
+#: src/data/exam.js:416
+msgctxt "text:examBanks.campus.questions.7.prompt"
+msgid "Besides examination time, what should a flying candidate allow for at Boundary Hall?"
+msgstr "Besides examination time, what should a flying candidate allow for at Boundary Hall?"
+
+#. examBanks.campus.questions.7.explanation
+#: src/data/exam.js:424
+msgctxt "text:examBanks.campus.questions.7.explanation"
+msgid ""
+"Boundary Hall roof berths are limited, so landing and registration time "
+"belong in the plan."
+msgstr ""
+"Boundary Hall roof berths are limited, so landing and registration time "
+"belong in the plan."
+
+#. examBanks.readiness.questions.0.options.0
+#: src/data/exam.js:16
+msgctxt "text:examBanks.readiness.questions.0.options.0"
+msgid "Duel first; the winner defines the facts"
+msgstr "Duel first; the winner defines the facts"
+
+#. examBanks.readiness.questions.0.options.1
+#: src/data/exam.js:17
+msgctxt "text:examBanks.readiness.questions.0.options.1"
+msgid "Cross to gather evidence while preserving consent, rules, and a way out"
+msgstr "Cross to gather evidence while preserving consent, rules, and a way out"
+
+#. examBanks.readiness.questions.0.options.2
+#: src/data/exam.js:18
+msgctxt "text:examBanks.readiness.questions.0.options.2"
+msgid "Avoid conflict by studying only what you already believe"
+msgstr "Avoid conflict by studying only what you already believe"
+
+#. examBanks.readiness.questions.0.options.3
+#: src/data/exam.js:19
+msgctxt "text:examBanks.readiness.questions.0.options.3"
+msgid "Leave every conclusion to the oldest person"
+msgstr "Leave every conclusion to the oldest person"
+
+#. examBanks.readiness.questions.1.options.0
+#: src/data/exam.js:28
+msgctxt "text:examBanks.readiness.questions.1.options.0"
+msgid "Evacuate counter-clockwise along the marked route"
+msgstr "Evacuate counter-clockwise along the marked route"
+
+#. examBanks.readiness.questions.1.options.1
+#: src/data/exam.js:29
+msgctxt "text:examBanks.readiness.questions.1.options.1"
+msgid "Move closer to identify the element"
+msgstr "Move closer to identify the element"
+
+#. examBanks.readiness.questions.1.options.2
+#: src/data/exam.js:30
+msgctxt "text:examBanks.readiness.questions.1.options.2"
+msgid "Open a window to vent the magic"
+msgstr "Open a window to vent the magic"
+
+#. examBanks.readiness.questions.1.options.3
+#: src/data/exam.js:31
+msgctxt "text:examBanks.readiness.questions.1.options.3"
+msgid "Photograph it for the BBS first"
+msgstr "Photograph it for the BBS first"
+
+#. examBanks.readiness.questions.2.options.0
+#: src/data/exam.js:40
+msgctxt "text:examBanks.readiness.questions.2.options.0"
+msgid "Forward it immediately with three exclamation marks"
+msgstr "Forward it immediately with three exclamation marks"
+
+#. examBanks.readiness.questions.2.options.1
+#: src/data/exam.js:41
+msgctxt "text:examBanks.readiness.questions.2.options.1"
+msgid "Ask whether it was witnessed, then check campus and barrier notices"
+msgstr "Ask whether it was witnessed, then check campus and barrier notices"
+
+#. examBanks.readiness.questions.2.options.2
+#: src/data/exam.js:42
+msgctxt "text:examBanks.readiness.questions.2.options.2"
+msgid "Ignore it because it sounds impossible"
+msgstr "Ignore it because it sounds impossible"
+
+#. examBanks.readiness.questions.2.options.3
+#: src/data/exam.js:43
+msgctxt "text:examBanks.readiness.questions.2.options.3"
+msgid "Walk through every gate once"
+msgstr "Walk through every gate once"
+
+#. examBanks.readiness.questions.3.options.0
+#: src/data/exam.js:52
+msgctxt "text:examBanks.readiness.questions.3.options.0"
+msgid "Hide the fairy in a flowerpot"
+msgstr "Hide the fairy in a flowerpot"
+
+#. examBanks.readiness.questions.3.options.1
+#: src/data/exam.js:53
+msgctxt "text:examBanks.readiness.questions.3.options.1"
+msgid "Quietly buy ten louder alarms"
+msgstr "Quietly buy ten louder alarms"
+
+#. examBanks.readiness.questions.3.options.2
+#: src/data/exam.js:54
+msgctxt "text:examBanks.readiness.questions.3.options.2"
+msgid "Explain property boundaries and agree on play areas and return times"
+msgstr "Explain property boundaries and agree on play areas and return times"
+
+#. examBanks.readiness.questions.3.options.3
+#: src/data/exam.js:55
+msgctxt "text:examBanks.readiness.questions.3.options.3"
+msgid "Declare the whole residence flower-free"
+msgstr "Declare the whole residence flower-free"
+
+#. examBanks.readiness.questions.4.options.0
+#: src/data/exam.js:64
+msgctxt "text:examBanks.readiness.questions.4.options.0"
+msgid "No consent is needed in a public corridor"
+msgstr "No consent is needed in a public corridor"
+
+#. examBanks.readiness.questions.4.options.1
+#: src/data/exam.js:65
+msgctxt "text:examBanks.readiness.questions.4.options.1"
+msgid "Removing names is enough"
+msgstr "Removing names is enough"
+
+#. examBanks.readiness.questions.4.options.2
+#: src/data/exam.js:66
+msgctxt "text:examBanks.readiness.questions.4.options.2"
+msgid "Explicit consent, a withdrawal path, and a stated use under course rules"
+msgstr "Explicit consent, a withdrawal path, and a stated use under course rules"
+
+#. examBanks.readiness.questions.4.options.3
+#: src/data/exam.js:67
+msgctxt "text:examBanks.readiness.questions.4.options.3"
+msgid "A verbal nod from the instructor"
+msgstr "A verbal nod from the instructor"
+
+#. examBanks.readiness.questions.5.options.0
+#: src/data/exam.js:76
+msgctxt "text:examBanks.readiness.questions.5.options.0"
+msgid "Find a gap and enter three days early"
+msgstr "Find a gap and enter three days early"
+
+#. examBanks.readiness.questions.5.options.1
+#: src/data/exam.js:77
+msgctxt "text:examBanks.readiness.questions.5.options.1"
+msgid "Wait at the specified entrance and time, registering Outside World electronics"
+msgstr "Wait at the specified entrance and time, registering Outside World electronics"
+
+#. examBanks.readiness.questions.5.options.2
+#: src/data/exam.js:78
+msgctxt "text:examBanks.readiness.questions.5.options.2"
+msgid "Follow the first butterfly that looks confident"
+msgstr "Follow the first butterfly that looks confident"
+
+#. examBanks.readiness.questions.5.options.3
+#: src/data/exam.js:79
+msgctxt "text:examBanks.readiness.questions.5.options.3"
+msgid "Swim into campus through Misty Lake"
+msgstr "Swim into campus through Misty Lake"
+
+#. examBanks.readiness.questions.6.options.0
+#: src/data/exam.js:88
+msgctxt "text:examBanks.readiness.questions.6.options.0"
+msgid "Clarity of rules"
+msgstr "Clarity of rules"
+
+#. examBanks.readiness.questions.6.options.1
+#: src/data/exam.js:89
+msgctxt "text:examBanks.readiness.questions.6.options.1"
+msgid "Ability to explain one's method"
+msgstr "Ability to explain one's method"
+
+#. examBanks.readiness.questions.6.options.2
+#: src/data/exam.js:90
+msgctxt "text:examBanks.readiness.questions.6.options.2"
+msgid "Raw firepower"
+msgstr "Raw firepower"
+
+#. examBanks.readiness.questions.6.options.3
+#: src/data/exam.js:91
+msgctxt "text:examBanks.readiness.questions.6.options.3"
+msgid "Knowing when to stop"
+msgstr "Knowing when to stop"
+
+#. examBanks.readiness.questions.7.options.0
+#: src/data/exam.js:100
+msgctxt "text:examBanks.readiness.questions.7.options.0"
+msgid "Chase it while shouting the entire text"
+msgstr "Chase it while shouting the entire text"
+
+#. examBanks.readiness.questions.7.options.1
+#: src/data/exam.js:101
+msgctxt "text:examBanks.readiness.questions.7.options.1"
+msgid "Note the call number and direction, then alert the north-wing librarian"
+msgstr "Note the call number and direction, then alert the north-wing librarian"
+
+#. examBanks.readiness.questions.7.options.2
+#: src/data/exam.js:102
+msgctxt "text:examBanks.readiness.questions.7.options.2"
+msgid "Mark it automatically returned"
+msgstr "Mark it automatically returned"
+
+#. examBanks.readiness.questions.7.options.3
+#: src/data/exam.js:103
+msgctxt "text:examBanks.readiness.questions.7.options.3"
+msgid "Shoot it down with a fireball"
+msgstr "Shoot it down with a fireball"
+
+#. examBanks.boundary.questions.0.options.0
+#: src/data/exam.js:122
+msgctxt "text:examBanks.boundary.questions.0.options.0"
+msgid "Give the incident the scariest possible name"
+msgstr "Give the incident the scariest possible name"
+
+#. examBanks.boundary.questions.0.options.1
+#: src/data/exam.js:123
+msgctxt "text:examBanks.boundary.questions.0.options.1"
+msgid "Time, range, exceptions, light source, and reproducibility"
+msgstr "Time, range, exceptions, light source, and reproducibility"
+
+#. examBanks.boundary.questions.0.options.2
+#: src/data/exam.js:124
+msgctxt "text:examBanks.boundary.questions.0.options.2"
+msgid "The presumed culprit's clothing color"
+msgstr "The presumed culprit's clothing color"
+
+#. examBanks.boundary.questions.0.options.3
+#: src/data/exam.js:125
+msgctxt "text:examBanks.boundary.questions.0.options.3"
+msgid "Declare the shadows sentient"
+msgstr "Declare the shadows sentient"
+
+#. examBanks.boundary.questions.1.options.0
+#: src/data/exam.js:134
+msgctxt "text:examBanks.boundary.questions.1.options.0"
+msgid "Compare only which photo looks better"
+msgstr "Compare only which photo looks better"
+
+#. examBanks.boundary.questions.1.options.1
+#: src/data/exam.js:135
+msgctxt "text:examBanks.boundary.questions.1.options.1"
+msgid "Record crossing order, lunar phase, companions, and observation position"
+msgstr "Record crossing order, lunar phase, companions, and observation position"
+
+#. examBanks.boundary.questions.1.options.2
+#: src/data/exam.js:136
+msgctxt "text:examBanks.boundary.questions.1.options.2"
+msgid "Remove the signpost so the problem disappears"
+msgstr "Remove the signpost so the problem disappears"
+
+#. examBanks.boundary.questions.1.options.3
+#: src/data/exam.js:137
+msgctxt "text:examBanks.boundary.questions.1.options.3"
+msgid "Ask the signpost which direction it prefers"
+msgstr "Ask the signpost which direction it prefers"
+
+#. examBanks.boundary.questions.2.options.0
+#: src/data/exam.js:146
+msgctxt "text:examBanks.boundary.questions.2.options.0"
+msgid "When the researcher gets a bad feeling"
+msgstr "When the researcher gets a bad feeling"
+
+#. examBanks.boundary.questions.2.options.1
+#: src/data/exam.js:147
+msgctxt "text:examBanks.boundary.questions.2.options.1"
+msgid "Three consecutive safety-limit readings or any companion withdrawing consent"
+msgstr "Three consecutive safety-limit readings or any companion withdrawing consent"
+
+#. examBanks.boundary.questions.2.options.2
+#: src/data/exam.js:148
+msgctxt "text:examBanks.boundary.questions.2.options.2"
+msgid "When everyone gets tired"
+msgstr "When everyone gets tired"
+
+#. examBanks.boundary.questions.2.options.3
+#: src/data/exam.js:149
+msgctxt "text:examBanks.boundary.questions.2.options.3"
+msgid "When the incident says you may stop"
+msgstr "When the incident says you may stop"
+
+#. examBanks.boundary.questions.3.options.0
+#: src/data/exam.js:158
+msgctxt "text:examBanks.boundary.questions.3.options.0"
+msgid "Record original use, present use, and the owner's account"
+msgstr "Record original use, present use, and the owner's account"
+
+#. examBanks.boundary.questions.3.options.1
+#: src/data/exam.js:159
+msgctxt "text:examBanks.boundary.questions.3.options.1"
+msgid "Widen an unknown gap to obtain more samples"
+msgstr "Widen an unknown gap to obtain more samples"
+
+#. examBanks.boundary.questions.3.options.2
+#: src/data/exam.js:160
+msgctxt "text:examBanks.boundary.questions.3.options.2"
+msgid "Use non-invasive registration"
+msgstr "Use non-invasive registration"
+
+#. examBanks.boundary.questions.3.options.3
+#: src/data/exam.js:161
+msgctxt "text:examBanks.boundary.questions.3.options.3"
+msgid "Record observation separately from interpretation"
+msgstr "Record observation separately from interpretation"
+
+#. examBanks.boundary.questions.4.options.0
+#: src/data/exam.js:170
+msgctxt "text:examBanks.boundary.questions.4.options.0"
+msgid "The loser may pretend not to have attended"
+msgstr "The loser may pretend not to have attended"
+
+#. examBanks.boundary.questions.4.options.1
+#: src/data/exam.js:171
+msgctxt "text:examBanks.boundary.questions.4.options.1"
+msgid "Published stopping conditions and a safe exit procedure"
+msgstr "Published stopping conditions and a safe exit procedure"
+
+#. examBanks.boundary.questions.4.options.2
+#: src/data/exam.js:172
+msgctxt "text:examBanks.boundary.questions.4.options.2"
+msgid "The lecture hall's back door is unlocked"
+msgstr "The lecture hall's back door is unlocked"
+
+#. examBanks.boundary.questions.4.options.3
+#: src/data/exam.js:173
+msgctxt "text:examBanks.boundary.questions.4.options.3"
+msgid "Changing the question when stuck"
+msgstr "Changing the question when stuck"
+
+#. examBanks.boundary.questions.5.options.0
+#: src/data/exam.js:182
+msgctxt "text:examBanks.boundary.questions.5.options.0"
+msgid "The moon commands the books to move"
+msgstr "The moon commands the books to move"
+
+#. examBanks.boundary.questions.5.options.1
+#: src/data/exam.js:183
+msgctxt "text:examBanks.boundary.questions.5.options.1"
+msgid "An observed association; the mechanism still needs controls"
+msgstr "An observed association; the mechanism still needs controls"
+
+#. examBanks.boundary.questions.5.options.2
+#: src/data/exam.js:184
+msgctxt "text:examBanks.boundary.questions.5.options.2"
+msgid "Every book is a moon rabbit"
+msgstr "Every book is a moon rabbit"
+
+#. examBanks.boundary.questions.5.options.3
+#: src/data/exam.js:185
+msgctxt "text:examBanks.boundary.questions.5.options.3"
+msgid "The north wing should close forever"
+msgstr "The north wing should close forever"
+
+#. examBanks.boundary.questions.6.options.0
+#: src/data/exam.js:194
+msgctxt "text:examBanks.boundary.questions.6.options.0"
+msgid "Use the loudest witness"
+msgstr "Use the loudest witness"
+
+#. examBanks.boundary.questions.6.options.1
+#: src/data/exam.js:195
+msgctxt "text:examBanks.boundary.questions.6.options.1"
+msgid "Preserve the differences with position, species vision, and lighting conditions"
+msgstr "Preserve the differences with position, species vision, and lighting conditions"
+
+#. examBanks.boundary.questions.6.options.2
+#: src/data/exam.js:196
+msgctxt "text:examBanks.boundary.questions.6.options.2"
+msgid "Average the three colors"
+msgstr "Average the three colors"
+
+#. examBanks.boundary.questions.6.options.3
+#: src/data/exam.js:197
+msgctxt "text:examBanks.boundary.questions.6.options.3"
+msgid "Discard all witness data"
+msgstr "Discard all witness data"
+
+#. examBanks.boundary.questions.7.options.0
+#: src/data/exam.js:206
+msgctxt "text:examBanks.boundary.questions.7.options.0"
+msgid "Only “do not ask”"
+msgstr "Only “do not ask”"
+
+#. examBanks.boundary.questions.7.options.1
+#: src/data/exam.js:207
+msgctxt "text:examBanks.boundary.questions.7.options.1"
+msgid "Area, time, visible effects, detour, and next update"
+msgstr "Area, time, visible effects, detour, and next update"
+
+#. examBanks.boundary.questions.7.options.2
+#: src/data/exam.js:208
+msgctxt "text:examBanks.boundary.questions.7.options.2"
+msgid "A suspected culprit's name"
+msgstr "A suspected culprit's name"
+
+#. examBanks.boundary.questions.7.options.3
+#: src/data/exam.js:209
+msgctxt "text:examBanks.boundary.questions.7.options.3"
+msgid "The full text of every past incident"
+msgstr "The full text of every past incident"
+
+#. examBanks.methods.questions.0.options.0
+#: src/data/exam.js:228
+msgctxt "text:examBanks.methods.questions.0.options.0"
+msgid "It looks atmospheric"
+msgstr "It looks atmospheric"
+
+#. examBanks.methods.questions.0.options.1
+#: src/data/exam.js:229
+msgctxt "text:examBanks.methods.questions.0.options.1"
+msgid "Minutes a 20-metre marker is obscured under fixed lighting"
+msgstr "Minutes a 20-metre marker is obscured under fixed lighting"
+
+#. examBanks.methods.questions.0.options.2
+#: src/data/exam.js:230
+msgctxt "text:examBanks.methods.questions.0.options.2"
+msgid "Cirno says it is thick"
+msgstr "Cirno says it is thick"
+
+#. examBanks.methods.questions.0.options.3
+#: src/data/exam.js:231
+msgctxt "text:examBanks.methods.questions.0.options.3"
+msgid "The photo looks blue"
+msgstr "The photo looks blue"
+
+#. examBanks.methods.questions.1.options.0
+#: src/data/exam.js:240
+msgctxt "text:examBanks.methods.questions.1.options.0"
+msgid "Put the strongest magician beside it"
+msgstr "Put the strongest magician beside it"
+
+#. examBanks.methods.questions.1.options.1
+#: src/data/exam.js:241
+msgctxt "text:examBanks.methods.questions.1.options.1"
+msgid "At equal water level and load, isolate magical input and record output"
+msgstr "At equal water level and load, isolate magical input and record output"
+
+#. examBanks.methods.questions.1.options.2
+#: src/data/exam.js:242
+msgctxt "text:examBanks.methods.questions.1.options.2"
+msgid "Paint the turbine a different color"
+msgstr "Paint the turbine a different color"
+
+#. examBanks.methods.questions.1.options.3
+#: src/data/exam.js:243
+msgctxt "text:examBanks.methods.questions.1.options.3"
+msgid "Run it once on a sunny day"
+msgstr "Run it once on a sunny day"
+
+#. examBanks.methods.questions.2.options.0
+#: src/data/exam.js:252
+msgctxt "text:examBanks.methods.questions.2.options.0"
+msgid "The successful travellers' shoe brands"
+msgstr "The successful travellers' shoe brands"
+
+#. examBanks.methods.questions.2.options.1
+#: src/data/exam.js:253
+msgctxt "text:examBanks.methods.questions.2.options.1"
+msgid "Experiences of those still lost or rescued midway"
+msgstr "Experiences of those still lost or rescued midway"
+
+#. examBanks.methods.questions.2.options.2
+#: src/data/exam.js:254
+msgctxt "text:examBanks.methods.questions.2.options.2"
+msgid "Average bamboo height"
+msgstr "Average bamboo height"
+
+#. examBanks.methods.questions.2.options.3
+#: src/data/exam.js:255
+msgctxt "text:examBanks.methods.questions.2.options.3"
+msgid "Moon rabbits' lunch time"
+msgstr "Moon rabbits' lunch time"
+
+#. examBanks.methods.questions.3.options.0
+#: src/data/exam.js:264
+msgctxt "text:examBanks.methods.questions.3.options.0"
+msgid "“Did the usual thing and it glowed”"
+msgstr "“Did the usual thing and it glowed”"
+
+#. examBanks.methods.questions.3.options.1
+#: src/data/exam.js:265
+msgctxt "text:examBanks.methods.questions.3.options.1"
+msgid "Records batches, formula, order, environment, failures, and safety limits"
+msgstr "Records batches, formula, order, environment, failures, and safety limits"
+
+#. examBanks.methods.questions.3.options.2
+#: src/data/exam.js:266
+msgctxt "text:examBanks.methods.questions.3.options.2"
+msgid "A photo of the successful moment"
+msgstr "A photo of the successful moment"
+
+#. examBanks.methods.questions.3.options.3
+#: src/data/exam.js:267
+msgctxt "text:examBanks.methods.questions.3.options.3"
+msgid "The researcher promises to remember"
+msgstr "The researcher promises to remember"
+
+#. examBanks.methods.questions.4.options.0
+#: src/data/exam.js:276
+msgctxt "text:examBanks.methods.questions.4.options.0"
+msgid "Silently replace the file"
+msgstr "Silently replace the file"
+
+#. examBanks.methods.questions.4.options.1
+#: src/data/exam.js:277
+msgctxt "text:examBanks.methods.questions.4.options.1"
+msgid "Publish a correction, identify affected conclusions, and preserve version history"
+msgstr "Publish a correction, identify affected conclusions, and preserve version history"
+
+#. examBanks.methods.questions.4.options.2
+#: src/data/exam.js:278
+msgctxt "text:examBanks.methods.questions.4.options.2"
+msgid "Delete all data"
+msgstr "Delete all data"
+
+#. examBanks.methods.questions.4.options.3
+#: src/data/exam.js:279
+msgctxt "text:examBanks.methods.questions.4.options.3"
+msgid "Say dates are merely a human obsession"
+msgstr "Say dates are merely a human obsession"
+
+#. examBanks.methods.questions.5.options.0
+#: src/data/exam.js:288
+msgctxt "text:examBanks.methods.questions.5.options.0"
+msgid "It was already taken, so consent is permanent"
+msgstr "It was already taken, so consent is permanent"
+
+#. examBanks.methods.questions.5.options.1
+#: src/data/exam.js:289
+msgctxt "text:examBanks.methods.questions.5.options.1"
+msgid "Remove controlled copies, record withdrawal, and notify publishing partners"
+msgstr "Remove controlled copies, record withdrawal, and notify publishing partners"
+
+#. examBanks.methods.questions.5.options.2
+#: src/data/exam.js:290
+msgctxt "text:examBanks.methods.questions.5.options.2"
+msgid "Draw a tanuki face over it"
+msgstr "Draw a tanuki face over it"
+
+#. examBanks.methods.questions.5.options.3
+#: src/data/exam.js:291
+msgctxt "text:examBanks.methods.questions.5.options.3"
+msgid "Let the tengu newspaper decide"
+msgstr "Let the tengu newspaper decide"
+
+#. examBanks.methods.questions.6.options.0
+#: src/data/exam.js:300
+msgctxt "text:examBanks.methods.questions.6.options.0"
+msgid "Declare rain the sole cause"
+msgstr "Declare rain the sole cause"
+
+#. examBanks.methods.questions.6.options.1
+#: src/data/exam.js:301
+msgctxt "text:examBanks.methods.questions.6.options.1"
+msgid "Check humidity, grounding, materials, dry controls, and more rainfall levels"
+msgstr "Check humidity, grounding, materials, dry controls, and more rainfall levels"
+
+#. examBanks.methods.questions.6.options.2
+#: src/data/exam.js:302
+msgctxt "text:examBanks.methods.questions.6.options.2"
+msgid "Stop recording weather"
+msgstr "Stop recording weather"
+
+#. examBanks.methods.questions.6.options.3
+#: src/data/exam.js:303
+msgctxt "text:examBanks.methods.questions.6.options.3"
+msgid "Place a weather maiden beside it"
+msgstr "Place a weather maiden beside it"
+
+#. examBanks.methods.questions.7.options.0
+#: src/data/exam.js:312
+msgctxt "text:examBanks.methods.questions.7.options.0"
+msgid "“That youkai is suspicious, as expected.”"
+msgstr "“That youkai is suspicious, as expected.”"
+
+#. examBanks.methods.questions.7.options.1
+#: src/data/exam.js:313
+msgctxt "text:examBanks.methods.questions.7.options.1"
+msgid "“14:32, third east torii; sweet odor. Two companions did not detect it. Wind southwest.”"
+msgstr "“14:32, third east torii; sweet odor. Two companions did not detect it. Wind southwest.”"
+
+#. examBanks.methods.questions.7.options.2
+#: src/data/exam.js:314
+msgctxt "text:examBanks.methods.questions.7.options.2"
+msgid "“Everyone knows what happened.”"
+msgstr "“Everyone knows what happened.”"
+
+#. examBanks.methods.questions.7.options.3
+#: src/data/exam.js:315
+msgctxt "text:examBanks.methods.questions.7.options.3"
+msgid "“Will reconstruct from memory later.”"
+msgstr "“Will reconstruct from memory later.”"
+
+#. examBanks.campus.questions.0.options.0
+#: src/data/exam.js:334
+msgctxt "text:examBanks.campus.questions.0.options.0"
+msgid "Boundary Hall"
+msgstr "Boundary Hall"
+
+#. examBanks.campus.questions.0.options.1
+#: src/data/exam.js:335
+msgctxt "text:examBanks.campus.questions.0.options.1"
+msgid "Misty Lake Library"
+msgstr "Misty Lake Library"
+
+#. examBanks.campus.questions.0.options.2
+#: src/data/exam.js:336
+msgctxt "text:examBanks.campus.questions.0.options.2"
+msgid "Kappa Joint Workshop"
+msgstr "Kappa Joint Workshop"
+
+#. examBanks.campus.questions.0.options.3
+#: src/data/exam.js:337
+msgctxt "text:examBanks.campus.questions.0.options.3"
+msgid "Hieda History Hall"
+msgstr "Hieda History Hall"
+
+#. examBanks.campus.questions.1.options.0
+#: src/data/exam.js:346
+msgctxt "text:examBanks.campus.questions.1.options.0"
+msgid "Racing priority"
+msgstr "Racing priority"
+
+#. examBanks.campus.questions.1.options.1
+#: src/data/exam.js:347
+msgctxt "text:examBanks.campus.questions.1.options.1"
+msgid "Medical priority"
+msgstr "Medical priority"
+
+#. examBanks.campus.questions.1.options.2
+#: src/data/exam.js:348
+msgctxt "text:examBanks.campus.questions.1.options.2"
+msgid "Fully open at the full moon"
+msgstr "Fully open at the full moon"
+
+#. examBanks.campus.questions.1.options.3
+#: src/data/exam.js:349
+msgctxt "text:examBanks.campus.questions.1.options.3"
+msgid "Brooms only"
+msgstr "Brooms only"
+
+#. examBanks.campus.questions.2.options.0
+#: src/data/exam.js:358
+msgctxt "text:examBanks.campus.questions.2.options.0"
+msgid "Bamboo Navigation Club"
+msgstr "Bamboo Navigation Club"
+
+#. examBanks.campus.questions.2.options.1
+#: src/data/exam.js:359
+msgctxt "text:examBanks.campus.questions.2.options.1"
+msgid "Grimoire Restoration Society"
+msgstr "Grimoire Restoration Society"
+
+#. examBanks.campus.questions.2.options.2
+#: src/data/exam.js:360
+msgctxt "text:examBanks.campus.questions.2.options.2"
+msgid "Fairy Choir"
+msgstr "Fairy Choir"
+
+#. examBanks.campus.questions.2.options.3
+#: src/data/exam.js:361
+msgctxt "text:examBanks.campus.questions.2.options.3"
+msgid "Tea & News Ethics Society"
+msgstr "Tea & News Ethics Society"
+
+#. examBanks.campus.questions.3.options.0
+#: src/data/exam.js:370
+msgctxt "text:examBanks.campus.questions.3.options.0"
+msgid "06:00"
+msgstr "06:00"
+
+#. examBanks.campus.questions.3.options.1
+#: src/data/exam.js:371
+msgctxt "text:examBanks.campus.questions.3.options.1"
+msgid "12:00"
+msgstr "12:00"
+
+#. examBanks.campus.questions.3.options.2
+#: src/data/exam.js:372
+msgctxt "text:examBanks.campus.questions.3.options.2"
+msgid "After 17:30"
+msgstr "After 17:30"
+
+#. examBanks.campus.questions.3.options.3
+#: src/data/exam.js:373
+msgctxt "text:examBanks.campus.questions.3.options.3"
+msgid "Only at full moon"
+msgstr "Only at full moon"
+
+#. examBanks.campus.questions.4.options.0
+#: src/data/exam.js:382
+msgctxt "text:examBanks.campus.questions.4.options.0"
+msgid "Danmaku and stalls both stay in the sky"
+msgstr "Danmaku and stalls both stay in the sky"
+
+#. examBanks.campus.questions.4.options.1
+#: src/data/exam.js:383
+msgctxt "text:examBanks.campus.questions.4.options.1"
+msgid "Danmaku stays in the sky; stalls stay on the ground"
+msgstr "Danmaku stays in the sky; stalls stay on the ground"
+
+#. examBanks.campus.questions.4.options.2
+#: src/data/exam.js:384
+msgctxt "text:examBanks.campus.questions.4.options.2"
+msgid "Everything happens in the library north wing"
+msgstr "Everything happens in the library north wing"
+
+#. examBanks.campus.questions.4.options.3
+#: src/data/exam.js:385
+msgctxt "text:examBanks.campus.questions.4.options.3"
+msgid "All glowing objects are prohibited"
+msgstr "All glowing objects are prohibited"
+
+#. examBanks.campus.questions.5.options.0
+#: src/data/exam.js:394
+msgctxt "text:examBanks.campus.questions.5.options.0"
+msgid "Prototypes yes, rain gear no"
+msgstr "Prototypes yes, rain gear no"
+
+#. examBanks.campus.questions.5.options.1
+#: src/data/exam.js:395
+msgctxt "text:examBanks.campus.questions.5.options.1"
+msgid "Rain gear yes, prototypes no"
+msgstr "Rain gear yes, prototypes no"
+
+#. examBanks.campus.questions.5.options.2
+#: src/data/exam.js:396
+msgctxt "text:examBanks.campus.questions.5.options.2"
+msgid "Both may go back to the residence"
+msgstr "Both may go back to the residence"
+
+#. examBanks.campus.questions.5.options.3
+#: src/data/exam.js:397
+msgctxt "text:examBanks.campus.questions.5.options.3"
+msgid "Both require winning a spell-card duel"
+msgstr "Both require winning a spell-card duel"
+
+#. examBanks.campus.questions.6.options.0
+#: src/data/exam.js:406
+msgctxt "text:examBanks.campus.questions.6.options.0"
+msgid "Post and pin it on every board"
+msgstr "Post and pin it on every board"
+
+#. examBanks.campus.questions.6.options.1
+#: src/data/exam.js:407
+msgctxt "text:examBanks.campus.questions.6.options.1"
+msgid "Send it to Journalism for verification and label source status on the BBS"
+msgstr "Send it to Journalism for verification and label source status on the BBS"
+
+#. examBanks.campus.questions.6.options.2
+#: src/data/exam.js:408
+msgctxt "text:examBanks.campus.questions.6.options.2"
+msgid "Anonymity removes the need to verify"
+msgstr "Anonymity removes the need to verify"
+
+#. examBanks.campus.questions.6.options.3
+#: src/data/exam.js:409
+msgctxt "text:examBanks.campus.questions.6.options.3"
+msgid "More replies make it truer"
+msgstr "More replies make it truer"
+
+#. examBanks.campus.questions.7.options.0
+#: src/data/exam.js:418
+msgctxt "text:examBanks.campus.questions.7.options.0"
+msgid "Roof-berthing time"
+msgstr "Roof-berthing time"
+
+#. examBanks.campus.questions.7.options.1
+#: src/data/exam.js:419
+msgctxt "text:examBanks.campus.questions.7.options.1"
+msgid "Changing names twice"
+msgstr "Changing names twice"
+
+#. examBanks.campus.questions.7.options.2
+#: src/data/exam.js:420
+msgctxt "text:examBanks.campus.questions.7.options.2"
+msgid "Library closing time"
+msgstr "Library closing time"
+
+#. examBanks.campus.questions.7.options.3
+#: src/data/exam.js:421
+msgctxt "text:examBanks.campus.questions.7.options.3"
+msgid "The dining dessert queue"
+msgstr "The dining dessert queue"

@@ -1,3 +1,4 @@
+import { text as catalogText } from "../generated/i18n/ui/academic-calendar-model.js";
 import {
   academicCalendarEvent,
   academicCalendarEvents,
@@ -90,7 +91,7 @@ export function academicCalendarIcs(locale = "zh-Hant", year = new Date().getFul
     "VERSION:2.0",
     "PRODID:-//Touhou University//Gensokyo Academic Calendar//EN",
     "CALSCALE:GREGORIAN",
-    `X-WR-CALNAME:${escapeIcs(locale === "ja" ? "幻想郷学年暦" : locale === "en" ? "Gensokyo Academic Calendar" : "幻想鄉學年曆")}`,
+    `X-WR-CALNAME:${escapeIcs(catalogText("lines.4.0")[locale])}`,
   ];
   academicCalendarEvents.forEach((entry) => {
     const start = eventDate(entry, year);
@@ -120,13 +121,9 @@ export function academicCalendarCommunityPosts(locale = "zh-Hant") {
       return {
         id: `calendar-${bookmark.eventId}`,
         category: "campus",
-        author: locale === "ja" ? "学年暦掛・赤い栞" : locale === "en" ? "Academic Calendar Desk · red bookmark" : "學年曆掛・紅書籤",
+        author: catalogText("academicCalendarCommunityPosts.0.author")[locale],
         title: academicCalendarLocalized(entry.title, locale),
-        body: locale === "ja"
-          ? `${academicCalendarLocalized(entry.window, locale)}。栞を挟んでも、月相・異変・祭典による変更は止まりません。`
-          : locale === "en"
-            ? `${academicCalendarLocalized(entry.window, locale)}. Saving the leaf does not stop changes caused by moon, incident, or festival.`
-            : `${academicCalendarLocalized(entry.window, locale)}。夾入曆葉不會阻止月相、異變或祭典改動它。`,
+        body: catalogText("academicCalendarCommunityPosts.0.body", { [locale]: locale === "ja" ? {value0: academicCalendarLocalized(entry.window, locale)} : locale === "en" ? {value0: academicCalendarLocalized(entry.window, locale)} : {value0: academicCalendarLocalized(entry.window, locale)} })[locale],
         createdAt: bookmark.savedAt,
         seedOrder: index,
       };

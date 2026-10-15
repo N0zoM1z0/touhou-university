@@ -1,0 +1,423 @@
+.appraisal-stage {
+  min-width: 0;
+  margin: 0;
+  padding: 34px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.appraisal-stage legend {
+  display: grid;
+  grid-template-columns: auto 0.72fr 1.28fr;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.appraisal-stage legend > span {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--red);
+  border-radius: 50%;
+  color: var(--red);
+  place-items: center;
+  font-size: 10px;
+}
+
+.appraisal-stage legend strong {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.appraisal-stage legend small {
+  color: var(--ink-soft);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.appraisal-evidence-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.appraisal-evidence-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 13px;
+  min-height: 154px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  text-align: left;
+  background: #fbf8f1;
+}
+
+.appraisal-evidence-card:hover,
+.appraisal-evidence-card[aria-pressed="true"] {
+  border-color: var(--jade);
+  box-shadow: inset 0 -4px var(--jade);
+  background: #e9f0e9;
+}
+
+.appraisal-evidence-card > span {
+  color: var(--red);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.appraisal-evidence-card strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: var(--serif);
+  font-size: 15px;
+}
+
+.appraisal-evidence-card p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.appraisal-evidence-card > b {
+  align-self: start;
+  color: var(--jade);
+  font-size: 10px;
+}
+
+.appraisal-hypotheses {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.appraisal-hypotheses button {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(220px, 0.55fr) 1.45fr auto;
+  gap: 22px;
+  align-items: center;
+  min-height: 94px;
+  padding: 18px 22px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  text-align: left;
+  background: #fbf8f1;
+}
+
+.appraisal-hypotheses button:hover,
+.appraisal-hypotheses button[aria-pressed="true"] {
+  border-color: var(--red);
+  background: #f8e9e5;
+}
+
+.appraisal-hypotheses button strong {
+  font-family: var(--serif);
+  font-size: 16px;
+}
+
+.appraisal-hypotheses button span {
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.appraisal-hypotheses button i {
+  color: var(--red);
+  font-size: 18px;
+  font-style: normal;
+}
+
+.appraisal-tests {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.appraisal-test-card {
+  border: 1px solid var(--line);
+  background: #fbf8f1;
+}
+
+.appraisal-test-card.is-run {
+  border-color: var(--blue);
+  background: #edf1f4;
+}
+
+.appraisal-test-card > button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 11px;
+  align-items: center;
+  width: 100%;
+  min-height: 68px;
+  padding: 15px 17px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+  text-align: left;
+  background: transparent;
+}
+
+.appraisal-test-card > button span {
+  color: var(--red);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.appraisal-test-card > button strong {
+  font-family: var(--serif);
+  font-size: 14px;
+}
+
+.appraisal-test-card > div {
+  padding: 15px 17px 18px;
+}
+
+.appraisal-test-card p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.appraisal-test-card p + p {
+  margin-top: 13px;
+  padding-top: 13px;
+  border-top: 1px dotted var(--line);
+}
+
+.appraisal-test-card p b {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--ink);
+  font-size: 9px;
+  letter-spacing: 0.09em;
+}
+
+.appraisal-test-card .appraisal-test-result {
+  color: var(--blue);
+  font-weight: 650;
+}
+
+.appraisal-use-fields {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.appraisal-use-fields label,
+.appraisal-note,
+.appraisal-retention-dialog label {
+  display: grid;
+  gap: 7px;
+  color: var(--ink-soft);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.appraisal-use-fields select,
+.appraisal-note textarea,
+.appraisal-retention-dialog select,
+.appraisal-retention-dialog textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: 11px 13px;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  color: var(--ink);
+  font: 14px/1.6 var(--sans);
+  background: var(--white);
+}
+
+.appraisal-use-note {
+  margin: 8px 0 0;
+  color: var(--jade);
+  font-size: 12px;
+}
+
+.appraisal-disposition > h4 {
+  margin: 28px 0 10px;
+  font-family: var(--serif);
+  font-size: 16px;
+}
+
+.appraisal-destinations {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.appraisal-destinations button {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  min-height: 125px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  text-align: left;
+  background: #fbf8f1;
+}
+
+.appraisal-destinations button:hover,
+.appraisal-destinations button[aria-pressed="true"] {
+  border-color: var(--gold);
+  box-shadow: inset 0 -4px var(--gold);
+  background: #f2ead3;
+}
+
+.appraisal-destinations button i {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  place-items: center;
+  font-family: var(--serif);
+  font-style: normal;
+}
+
+.appraisal-destinations button strong,
+.appraisal-destinations button small {
+  display: block;
+}
+
+.appraisal-destinations button strong {
+  margin-bottom: 7px;
+  font-family: var(--serif);
+  font-size: 13px;
+}
+
+.appraisal-destinations button small {
+  color: var(--ink-soft);
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.appraisal-note {
+  margin-top: 22px;
+}
+
+.appraisal-note textarea {
+  min-height: 112px;
+  resize: vertical;
+}
+
+.appraisal-submit {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 24px 34px;
+  background: #e7dfd1;
+}
+
+.appraisal-submit > span {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-right: auto;
+  color: var(--ink-soft);
+  font-size: 11px;
+}
+
+.appraisal-submit > span i {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: var(--white);
+  background: var(--jade);
+  place-items: center;
+  font-style: normal;
+}
+
+.appraisal-submit > span b {
+  color: var(--red);
+}
+
+.appraisal-record {
+  position: relative;
+  margin: 34px;
+  border: 1px solid var(--line);
+  box-shadow: 8px 12px 0 rgba(92, 70, 45, 0.07);
+  background:
+    repeating-linear-gradient(rgba(93, 72, 49, 0.035) 0 1px, transparent 1px 28px),
+    #fbf7ed;
+}
+
+.appraisal-record.is-contested {
+  border: 2px solid var(--red);
+}
+
+.appraisal-record.is-contested::after {
+  position: absolute;
+  top: 24px;
+  right: 26%;
+  padding: 6px 14px;
+  border: 2px solid rgba(155, 48, 57, 0.68);
+  color: rgba(155, 48, 57, 0.75);
+  content: "CONTESTED / O-77";
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+  transform: rotate(-7deg);
+}
+
+.appraisal-record > header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 32px;
+  border-bottom: 1px solid var(--line);
+}
+
+.appraisal-record > header h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.appraisal-record > header > span {
+  max-width: 280px;
+  padding: 9px 13px;
+  border: 1px solid currentColor;
+  color: var(--jade);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-align: center;
+}
+
+.appraisal-record > header > span[data-verdict="contested"],
+.appraisal-record > header > span[data-verdict="unsupported"] {
+  color: var(--red);
+}
+
+.appraisal-contested-warning {
+  margin: 22px 32px 0;
+  padding: 15px 18px;
+  border-left: 5px solid var(--red);
+  background: #f3d9d5;
+}
+
+.appraisal-contested-warning strong,
+.appraisal-contested-warning p {
+  display: block;
+  margin: 0;
+}
+
+.appraisal-contested-warning p {
+  margin-top: 4px;
+  font-size: 12px;
+}

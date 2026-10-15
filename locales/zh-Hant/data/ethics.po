@@ -1,0 +1,796 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. ethicsOutcomeLabels.0.approved
+#: src/data/ethics.js:4
+msgctxt "text:ethicsOutcomeLabels.0.approved"
+msgid "Approved"
+msgstr "通過"
+
+#. ethicsOutcomeLabels.0.conditional
+#: src/data/ethics.js:5
+msgctxt "text:ethicsOutcomeLabels.0.conditional"
+msgid "Approved with conditions"
+msgstr "附條件通過"
+
+#. ethicsOutcomeLabels.0.revise
+#: src/data/ethics.js:6
+msgctxt "text:ethicsOutcomeLabels.0.revise"
+msgid "Revise and resubmit"
+msgstr "退回修改"
+
+#. ethicsOutcomeLabels.0.contested
+#: src/data/ethics.js:7
+msgctxt "text:ethicsOutcomeLabels.0.contested"
+msgid "Retained as contested"
+msgstr "爭議性保留"
+
+#. ethicsOutcomeLabels.0.withdrawn
+#: src/data/ethics.js:8
+msgctxt "text:ethicsOutcomeLabels.0.withdrawn"
+msgid "Withdrawn by applicant"
+msgstr "申請人撤回"
+
+#. ethicsStanceLabels.0.approve
+#: src/data/ethics.js:12
+msgctxt "text:ethicsStanceLabels.0.approve"
+msgid "Approve"
+msgstr "同意"
+
+#. ethicsStanceLabels.0.conditional
+#: src/data/ethics.js:13
+msgctxt "text:ethicsStanceLabels.0.conditional"
+msgid "Conditional"
+msgstr "附條件"
+
+#. ethicsStanceLabels.0.revise
+#: src/data/ethics.js:14
+msgctxt "text:ethicsStanceLabels.0.revise"
+msgid "Block and revise"
+msgstr "阻擋並退修"
+
+#. ethicsStanceLabels.0.contested
+#: src/data/ethics.js:15
+msgctxt "text:ethicsStanceLabels.0.contested"
+msgid "Record dissent"
+msgstr "保留異議"
+
+#. ethicsReviewers.0.eirin.name
+#: src/data/ethics.js:22
+msgctxt "text:ethicsReviewers.0.eirin.name"
+msgid "Eirin Yagokoro"
+msgstr "八意永琳"
+
+#. ethicsReviewers.0.eirin.seat
+#: src/data/ethics.js:23
+msgctxt "text:ethicsReviewers.0.eirin.seat"
+msgid "Risk, dose & stopping seat"
+msgstr "風險、劑量與停止席"
+
+#. ethicsReviewers.0.eirin.question
+#: src/data/ethics.js:24
+msgctxt "text:ethicsReviewers.0.eirin.question"
+msgid "If a participant notices harm before the researcher, who may stop the study?"
+msgstr "受試者若比研究者更早發現副作用，誰有權讓實驗停下？"
+
+#. ethicsReviewers.0.satori.name
+#: src/data/ethics.js:29
+msgctxt "text:ethicsReviewers.0.satori.name"
+msgid "Satori Komeiji"
+msgstr "古明地覺"
+
+#. ethicsReviewers.0.satori.seat
+#: src/data/ethics.js:30
+msgctxt "text:ethicsReviewers.0.satori.seat"
+msgid "Mental privacy & mind-reading consent seat"
+msgstr "精神隱私與讀心同意席"
+
+#. ethicsReviewers.0.satori.question
+#: src/data/ethics.js:31
+msgctxt "text:ethicsReviewers.0.satori.question"
+msgid "Not writing something down does not mean it was not read, judged, or acted upon."
+msgstr "沒有寫下來，不等於沒有讀取、判斷或讓另一個人因此改變行為。"
+
+#. ethicsReviewers.0.keine.name
+#: src/data/ethics.js:36
+msgctxt "text:ethicsReviewers.0.keine.name"
+msgid "Keine Kamishirasawa"
+msgstr "上白澤慧音"
+
+#. ethicsReviewers.0.keine.seat
+#: src/data/ethics.js:37
+msgctxt "text:ethicsReviewers.0.keine.seat"
+msgid "Records, correction & erasure seat"
+msgstr "史料保存、訂正與被遺忘權席"
+
+#. ethicsReviewers.0.keine.question
+#: src/data/ethics.js:38
+msgctxt "text:ethicsReviewers.0.keine.question"
+msgid ""
+"Deleting content, deleting proof that it existed, and correcting it are "
+"three different acts."
+msgstr "刪除內容、刪除發生過這件事的證明，以及訂正內容，是三種不同動作。"
+
+#. ethicsReviewers.0.eiki.name
+#: src/data/ethics.js:43
+msgctxt "text:ethicsReviewers.0.eiki.name"
+msgid "Eiki Shiki, Yamaxanadu"
+msgstr "四季映姬・夜摩仙那度"
+
+#. ethicsReviewers.0.eiki.seat
+#: src/data/ethics.js:44
+msgctxt "text:ethicsReviewers.0.eiki.seat"
+msgid "Rights, responsibility & appeal seat"
+msgstr "權利、責任與申訴席"
+
+#. ethicsReviewers.0.eiki.question
+#: src/data/ethics.js:45
+msgctxt "text:ethicsReviewers.0.eiki.question"
+msgid "Someone able to sign for another may not waive that other's right to withdraw."
+msgstr "有能力代替別人簽名的人，未必有權替別人放棄撤回。"
+
+#. ethicsReviewers.0.reimu.name
+#: src/data/ethics.js:50
+msgctxt "text:ethicsReviewers.0.reimu.name"
+msgid "Reimu Hakurei"
+msgstr "博麗靈夢"
+
+#. ethicsReviewers.0.reimu.seat
+#: src/data/ethics.js:51
+msgctxt "text:ethicsReviewers.0.reimu.seat"
+msgid "Enforceable rules & exits seat"
+msgstr "規則可執行性與退路席"
+
+#. ethicsReviewers.0.reimu.question
+#: src/data/ethics.js:52
+msgctxt "text:ethicsReviewers.0.reimu.question"
+msgid "If a stop rule needs three appendices before use, it does not exist when trouble starts."
+msgstr "如果停止規則要讀完三頁附錄才能使用，它在出事時就是不存在。"
+
+#. ethicsTargets.0.person.label
+#: src/data/ethics.js:57
+msgctxt "text:ethicsTargets.0.person.label"
+msgid "Human / youkai individual"
+msgstr "人類／妖怪個人"
+
+#. ethicsTargets.0.group.label
+#: src/data/ethics.js:58
+msgctxt "text:ethicsTargets.0.group.label"
+msgid "Group & public space"
+msgstr "群體與公共空間"
+
+#. ethicsTargets.0.animal.label
+#: src/data/ethics.js:59
+msgctxt "text:ethicsTargets.0.animal.label"
+msgid "Animal & familiar"
+msgstr "動物與使魔"
+
+#. ethicsTargets.0.deity.label
+#: src/data/ethics.js:60
+msgctxt "text:ethicsTargets.0.deity.label"
+msgid "Deity, spirit & faith community"
+msgstr "神明、靈與信仰共同體"
+
+#. ethicsTargets.0.object.label
+#: src/data/ethics.js:61
+msgctxt "text:ethicsTargets.0.object.label"
+msgid "Object / tsukumogami"
+msgstr "物品／付喪神"
+
+#. ethicsTargets.0.history.label
+#: src/data/ethics.js:62
+msgctxt "text:ethicsTargets.0.history.label"
+msgid "Record, memory, or history itself"
+msgstr "史料、記憶或歷史本身"
+
+#. ethicsMethods.0.observation.label
+#: src/data/ethics.js:66
+msgctxt "text:ethicsMethods.0.observation.label"
+msgid "Non-interventional observation"
+msgstr "非介入觀察"
+
+#. ethicsMethods.0.wave.label
+#: src/data/ethics.js:67
+msgctxt "text:ethicsMethods.0.wave.label"
+msgid "Wavelength / perception intervention"
+msgstr "波長／感覺干預"
+
+#. ethicsMethods.0.mind-read.label
+#: src/data/ethics.js:68
+msgctxt "text:ethicsMethods.0.mind-read.label"
+msgid "Mind-reading / mental access"
+msgstr "讀心或精神讀取"
+
+#. ethicsMethods.0.time-stop.label
+#: src/data/ethics.js:69
+msgctxt "text:ethicsMethods.0.time-stop.label"
+msgid "Time-stop / temporal control"
+msgstr "時間停止／時間差對照"
+
+#. ethicsMethods.0.history-edit.label
+#: src/data/ethics.js:70
+msgctxt "text:ethicsMethods.0.history-edit.label"
+msgid "Historical deletion, alteration, or concealment"
+msgstr "歷史刪除、改寫或遮蔽"
+
+#. ethicsMethods.0.dream.label
+#: src/data/ethics.js:71
+msgctxt "text:ethicsMethods.0.dream.label"
+msgid "Dream induction"
+msgstr "夢境誘導"
+
+#. ethicsMethods.0.disassembly.label
+#: src/data/ethics.js:72
+msgctxt "text:ethicsMethods.0.disassembly.label"
+msgid "Disassembly, sampling, or irreversible inspection"
+msgstr "拆機、採樣或不可逆檢查"
+
+#. ethicsDisclosureRules.0.prior.label
+#: src/data/ethics.js:76
+msgctxt "text:ethicsDisclosureRules.0.prior.label"
+msgid "Full prior disclosure"
+msgstr "事前完整告知"
+
+#. ethicsDisclosureRules.0.staged.label
+#: src/data/ethics.js:77
+msgctxt "text:ethicsDisclosureRules.0.staged.label"
+msgid "Core risks before; details debriefed after"
+msgstr "事前告知核心風險，事後補充細節"
+
+#. ethicsDisclosureRules.0.after.label
+#: src/data/ethics.js:78
+msgctxt "text:ethicsDisclosureRules.0.after.label"
+msgid "Disclosure only after completion"
+msgstr "完成後才告知"
+
+#. ethicsDisclosureRules.0.none.label
+#: src/data/ethics.js:79
+msgctxt "text:ethicsDisclosureRules.0.none.label"
+msgid "No disclosure"
+msgstr "不告知"
+
+#. ethicsConsentPaths.0.subject.label
+#: src/data/ethics.js:83
+msgctxt "text:ethicsConsentPaths.0.subject.label"
+msgid "Consent from the subject / object itself"
+msgstr "由研究對象本人／本物同意"
+
+#. ethicsConsentPaths.0.holder.label
+#: src/data/ethics.js:84
+msgctxt "text:ethicsConsentPaths.0.holder.label"
+msgid "Consent from holder or custodian"
+msgstr "由持有人或管理者同意"
+
+#. ethicsConsentPaths.0.both.label
+#: src/data/ethics.js:85
+msgctxt "text:ethicsConsentPaths.0.both.label"
+msgid "Consent from both subject/object and holder"
+msgstr "本人／本物與持有人共同同意"
+
+#. ethicsConsentPaths.0.community.label
+#: src/data/ethics.js:86
+msgctxt "text:ethicsConsentPaths.0.community.label"
+msgid "Community consent with individual opt-out"
+msgstr "由受影響共同體同意並保留個人退出"
+
+#. ethicsConsentPaths.0.proxy.label
+#: src/data/ethics.js:87
+msgctxt "text:ethicsConsentPaths.0.proxy.label"
+msgid "Proxy consent with an independent advocate"
+msgstr "代理同意，並設獨立申訴人"
+
+#. ethicsConsentPaths.0.none.label
+#: src/data/ethics.js:88
+msgctxt "text:ethicsConsentPaths.0.none.label"
+msgid "No consent obtained"
+msgstr "未取得同意"
+
+#. ethicsRiskBands.0.low.label
+#: src/data/ethics.js:92
+msgctxt "text:ethicsRiskBands.0.low.label"
+msgid "Low: immediately reversible, no ability intervention"
+msgstr "低：可立即撤回，無能力介入"
+
+#. ethicsRiskBands.0.moderate.label
+#: src/data/ethics.js:93
+msgctxt "text:ethicsRiskBands.0.moderate.label"
+msgid "Moderate: temporary disorientation, fatigue, or privacy exposure"
+msgstr "中：可能造成短暫迷失、疲勞或隱私暴露"
+
+#. ethicsRiskBands.0.high.label
+#: src/data/ethics.js:94
+msgctxt "text:ethicsRiskBands.0.high.label"
+msgid "High: ability intervention, irreversible work, or time/history alteration"
+msgstr "高：能力干預、不可逆操作或時間／歷史改動"
+
+#. ethicsDataKinds.0.route.label
+#: src/data/ethics.js:98
+msgctxt "text:ethicsDataKinds.0.route.label"
+msgid "Route and direction judgments"
+msgstr "路線與方向判斷"
+
+#. ethicsDataKinds.0.thought.label
+#: src/data/ethics.js:99
+msgctxt "text:ethicsDataKinds.0.thought.label"
+msgid "Thoughts, dreams, or unspoken content"
+msgstr "思想、夢境或未說出口的內容"
+
+#. ethicsDataKinds.0.body.label
+#: src/data/ethics.js:100
+msgctxt "text:ethicsDataKinds.0.body.label"
+msgid "Body, fatigue, and sensory response"
+msgstr "身體、疲勞與感覺反應"
+
+#. ethicsDataKinds.0.timeline.label
+#: src/data/ethics.js:101
+msgctxt "text:ethicsDataKinds.0.timeline.label"
+msgid "Personal timeline and control order"
+msgstr "個體時間線與對照順序"
+
+#. ethicsDataKinds.0.history.label
+#: src/data/ethics.js:102
+msgctxt "text:ethicsDataKinds.0.history.label"
+msgid "Record content, versions, and correction traces"
+msgstr "史料內容、版本與訂正痕跡"
+
+#. ethicsDataKinds.0.components.label
+#: src/data/ethics.js:103
+msgctxt "text:ethicsDataKinds.0.components.label"
+msgid "Object structure, components, and self-expression"
+msgstr "物品構造、部件與自我表述"
+
+#. ethicsCases.0.reisen-undisclosed-wave.title
+#: src/data/ethics.js:111
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.title"
+msgid "Reisen's wavelength and direction: voluntary without disclosure?"
+msgstr "鈴仙波長與方向感：不告知，還算志願參與嗎？"
+
+#. ethicsCases.0.reisen-undisclosed-wave.shortTitle
+#: src/data/ethics.js:112
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.shortTitle"
+msgid "Undisclosed wavelength trial"
+msgstr "未告知的波長試驗"
+
+#. ethicsCases.0.reisen-undisclosed-wave.lede
+#: src/data/ethics.js:113
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.lede"
+msgid ""
+"A researcher wants to alter wavelength unnoticed at the Bamboo Forest exit "
+"and compare wrong turns, arguing that disclosure would make participants "
+"deliberately navigate."
+msgstr "研究者想在迷途竹林出口悄悄改變波長，再比較行人選錯路的比例；若先告知，研究者認為參與者就會『故意認路』。"
+
+#. ethicsCases.0.reisen-undisclosed-wave.conflict
+#: src/data/ethics.js:114
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.conflict"
+msgid ""
+"Blinding may reduce expectation effects; it does not create a right to use "
+"someone else's orientation without consent."
+msgstr "盲測能減少期待效應，卻不能自動取得把別人的方向感拿來做盲測的權利。"
+
+#. ethicsCases.0.reisen-undisclosed-wave.voices.0.speaker
+#: src/data/ethics.js:120
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.voices.0.speaker"
+msgid "Reisen"
+msgstr "鈴仙"
+
+#. ethicsCases.0.reisen-undisclosed-wave.voices.0.statement
+#: src/data/ethics.js:121
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.voices.0.statement"
+msgid "I can control the wavelength; I cannot promise nobody exposed will be frightened."
+msgstr "我可以控制波長，但不能替每個被照到的人保證他們不會害怕。"
+
+#. ethicsCases.0.reisen-undisclosed-wave.voices.1.speaker
+#: src/data/ethics.js:124
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.voices.1.speaker"
+msgid "Tewi"
+msgstr "帝"
+
+#. ethicsCases.0.reisen-undisclosed-wave.voices.1.statement
+#: src/data/ethics.js:125
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.voices.1.statement"
+msgid ""
+"If someone takes a wrong turn and still exits, is that success, failure, or "
+"the forest rejecting the question?"
+msgstr "若有人走錯後仍找到出口，究竟算成功、失敗，還是竹林不同意題目？"
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.stopRule
+#: src/data/ethics.js:140
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.stopRule"
+msgid "Stop if the exit disappears entirely."
+msgstr "若出口完全消失就停止。"
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.controlPlan
+#: src/data/ethics.js:141
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.controlPlan"
+msgid "Compare with an ordinary night when the wavelength is not activated."
+msgstr "與未啟動波長的普通夜晚比較。"
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.withdrawalPlan
+#: src/data/ethics.js:142
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.withdrawalPlan"
+msgid "Post a notice that the study existed afterward."
+msgstr "完成後公告研究存在。"
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.deletionPlan
+#: src/data/ethics.js:143
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.deletionPlan"
+msgid "Keep only anonymous turn counts."
+msgstr "只保留匿名轉向次數。"
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.appealPlan
+#: src/data/ethics.js:144
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.appealPlan"
+msgid "Report concerns to the Eientei desk."
+msgstr "向永遠亭窗口反映。"
+
+#. ethicsCases.0.reisen-undisclosed-wave.prefill.rationale
+#: src/data/ethics.js:145
+msgctxt "text:ethicsCases.0.reisen-undisclosed-wave.prefill.rationale"
+msgid "Prior disclosure would alter navigation decisions."
+msgstr "事前告知會改變方向判斷。"
+
+#. ethicsCases.0.satori-no-notes.title
+#: src/data/ethics.js:152
+msgctxt "text:ethicsCases.0.satori-no-notes.title"
+msgid "Satori's “I wrote nothing down”: is a read mind data?"
+msgstr "覺的「沒有寫下來」：讀過的心算不算資料？"
+
+#. ethicsCases.0.satori-no-notes.shortTitle
+#: src/data/ethics.js:153
+msgctxt "text:ethicsCases.0.satori-no-notes.shortTitle"
+msgid "Mind-reading without notes"
+msgstr "沒有落筆的讀心"
+
+#. ethicsCases.0.satori-no-notes.lede
+#: src/data/ethics.js:154
+msgctxt "text:ethicsCases.0.satori-no-notes.lede"
+msgid ""
+"Satori proposes reading unspoken interview answers while recording only "
+"whether tone was consistent, arguing that no raw thoughts are collected "
+"because none are retained."
+msgstr "覺提出在訪談中讀取未說出口的回答，只把『語氣是否一致』寫進表格；她主張沒有保存原念，因此沒有收集原始資料。"
+
+#. ethicsCases.0.satori-no-notes.conflict
+#: src/data/ethics.js:155
+msgctxt "text:ethicsCases.0.satori-no-notes.conflict"
+msgid ""
+"Information held for only a moment can still change questions, judgments, "
+"and later actions."
+msgstr "資訊即使只在審查者心中停留一瞬，也可能改變追問、評價與後續處置。"
+
+#. ethicsCases.0.satori-no-notes.voices.0.speaker
+#: src/data/ethics.js:161
+msgctxt "text:ethicsCases.0.satori-no-notes.voices.0.speaker"
+msgid "Satori"
+msgstr "覺"
+
+#. ethicsCases.0.satori-no-notes.voices.0.statement
+#: src/data/ethics.js:162
+msgctxt "text:ethicsCases.0.satori-no-notes.voices.0.statement"
+msgid "If proving I forgot requires reading my mind, submit another protocol."
+msgstr "如果你們要求我證明自己沒記住，就得先讀我的心。請另外送一份申請。"
+
+#. ethicsCases.0.satori-no-notes.voices.1.speaker
+#: src/data/ethics.js:165
+msgctxt "text:ethicsCases.0.satori-no-notes.voices.1.speaker"
+msgid "Akyuu"
+msgstr "阿求"
+
+#. ethicsCases.0.satori-no-notes.voices.1.statement
+#: src/data/ethics.js:166
+msgctxt "text:ethicsCases.0.satori-no-notes.voices.1.statement"
+msgid "Not writing reduces leakage; it does not erase the access from the event index."
+msgstr "不落筆能減少外洩，不能讓讀取從事件索引裡消失。"
+
+#. ethicsCases.0.satori-no-notes.prefill.stopRule
+#: src/data/ethics.js:181
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.stopRule"
+msgid "Stop when Satori believes she has read something she should not."
+msgstr "覺認為讀到了不應該讀的內容時停止。"
+
+#. ethicsCases.0.satori-no-notes.prefill.controlPlan
+#: src/data/ethics.js:182
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.controlPlan"
+msgid "Compare spoken answers with the consistency field."
+msgstr "只比較說出口的回答與一致性欄。"
+
+#. ethicsCases.0.satori-no-notes.prefill.withdrawalPlan
+#: src/data/ethics.js:183
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.withdrawalPlan"
+msgid "Participants may refuse analysis of the table after interview."
+msgstr "參與者可在訪談後拒絕表格列入分析。"
+
+#. ethicsCases.0.satori-no-notes.prefill.deletionPlan
+#: src/data/ethics.js:184
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.deletionPlan"
+msgid "Delete the consistency field; read content is never written."
+msgstr "刪除一致性欄；讀過的內容不落筆。"
+
+#. ethicsCases.0.satori-no-notes.prefill.appealPlan
+#: src/data/ethics.js:185
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.appealPlan"
+msgid "Appeal to the Palace of the Earth Spirits research desk."
+msgstr "向地靈殿研究窗口提出。"
+
+#. ethicsCases.0.satori-no-notes.prefill.rationale
+#: src/data/ethics.js:186
+msgctxt "text:ethicsCases.0.satori-no-notes.prefill.rationale"
+msgid "Because raw thoughts are not retained, risk should match an ordinary interview."
+msgstr "不保存原念，因此風險應與普通訪談相同。"
+
+#. ethicsCases.0.sakuya-frozen-control.title
+#: src/data/ethics.js:193
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.title"
+msgid "Sakuya's frozen-time control: studied without time passing?"
+msgstr "咲夜的停止時間對照組：沒經過時間，算經過研究嗎？"
+
+#. ethicsCases.0.sakuya-frozen-control.shortTitle
+#: src/data/ethics.js:194
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.shortTitle"
+msgid "Frozen-time control group"
+msgstr "停止時間的對照組"
+
+#. ethicsCases.0.sakuya-frozen-control.lede
+#: src/data/ethics.js:195
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.lede"
+msgid ""
+"One batch of tea is moved and measured during stopped time while external "
+"clocks do not advance; the researcher calls it a zero-minute exposure "
+"control."
+msgstr "同一批茶在停止時間內完成搬運與測量，外部鐘面沒有前進；研究者想把這一批列為『零分鐘暴露』對照。"
+
+#. ethicsCases.0.sakuya-frozen-control.conflict
+#: src/data/ethics.js:196
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.conflict"
+msgid ""
+"No external minutes passing does not mean the sample, operator, and knives "
+"experienced no sequence of operations."
+msgstr "外部沒有經過分鐘，不代表樣本、操作者與刀具沒有經歷操作順序。"
+
+#. ethicsCases.0.sakuya-frozen-control.voices.0.speaker
+#: src/data/ethics.js:202
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.voices.0.speaker"
+msgid "Sakuya"
+msgstr "咲夜"
+
+#. ethicsCases.0.sakuya-frozen-control.voices.0.statement
+#: src/data/ethics.js:203
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.voices.0.statement"
+msgid "My clock is not broken. You merely insist that only a moving clock may testify."
+msgstr "我的鐘沒有壞。你們只是堅持只有會走的鐘才能作證。"
+
+#. ethicsCases.0.sakuya-frozen-control.voices.1.speaker
+#: src/data/ethics.js:206
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.voices.1.speaker"
+msgid "Patchouli"
+msgstr "帕秋莉"
+
+#. ethicsCases.0.sakuya-frozen-control.voices.1.statement
+#: src/data/ethics.js:207
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.voices.1.statement"
+msgid "A control only Sakuya can operate is also the “operator equals Sakuya” group."
+msgstr "若對照組只有咲夜能操作，它同時也是『操作者為咲夜』組。"
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.stopRule
+#: src/data/ethics.js:222
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.stopRule"
+msgid "Stop when the external clock advances one minute."
+msgstr "外部鐘走滿一分鐘即停止。"
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.controlPlan
+#: src/data/ethics.js:223
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.controlPlan"
+msgid "Compare the stopped-time group with an ordinary ten-minute group."
+msgstr "停止時間組與普通十分鐘組比較。"
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.withdrawalPlan
+#: src/data/ethics.js:224
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.withdrawalPlan"
+msgid "Participants may leave before the study starts."
+msgstr "參與者可在開始前退出。"
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.deletionPlan
+#: src/data/ethics.js:225
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.deletionPlan"
+msgid "Delete names while retaining batch order."
+msgstr "刪除姓名，保留批次順序。"
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.appealPlan
+#: src/data/ethics.js:226
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.appealPlan"
+msgid "Appeals are received by the Scarlet Devil Mansion head maid."
+msgstr "由紅魔館女僕長接收。"
+
+#. ethicsCases.0.sakuya-frozen-control.prefill.rationale
+#: src/data/ethics.js:227
+msgctxt "text:ethicsCases.0.sakuya-frozen-control.prefill.rationale"
+msgid "Exposure is zero minutes because outside time does not pass."
+msgstr "外部時間未流逝，因此暴露分鐘為零。"
+
+#. ethicsCases.0.keine-history-deletion.title
+#: src/data/ethics.js:234
+msgctxt "text:ethicsCases.0.keine-history-deletion.title"
+msgid "Keine erases a piece of history: is that data deletion?"
+msgstr "慧音刪除一段歷史：這就是資料刪除嗎？"
+
+#. ethicsCases.0.keine-history-deletion.shortTitle
+#: src/data/ethics.js:235
+msgctxt "text:ethicsCases.0.keine-history-deletion.shortTitle"
+msgid "Using history as a delete key"
+msgstr "把歷史當作刪除鍵"
+
+#. ethicsCases.0.keine-history-deletion.lede
+#: src/data/ethics.js:236
+msgctxt "text:ethicsCases.0.keine-history-deletion.lede"
+msgid ""
+"A participant requests interview deletion. The plan asks Keine to remove the "
+"interview's existence from history while retaining anonymous statistics in "
+"the report."
+msgstr "研究對象要求刪除訪談；計畫擬由慧音讓『這場訪談曾發生』從歷史中消失，同時保留研究報告裡的匿名統計。"
+
+#. ethicsCases.0.keine-history-deletion.conflict
+#: src/data/ethics.js:237
+msgctxt "text:ethicsCases.0.keine-history-deletion.conflict"
+msgid ""
+"Erasure, correction, destruction, and making participation impossible to "
+"prove do not necessarily serve the same good."
+msgstr "被遺忘權、訂正、銷毀原文與讓他人無法證明自己受過研究，不一定指向同一個善。"
+
+#. ethicsCases.0.keine-history-deletion.voices.0.speaker
+#: src/data/ethics.js:243
+msgctxt "text:ethicsCases.0.keine-history-deletion.voices.0.speaker"
+msgid "Keine"
+msgstr "慧音"
+
+#. ethicsCases.0.keine-history-deletion.voices.0.statement
+#: src/data/ethics.js:244
+msgctxt "text:ethicsCases.0.keine-history-deletion.voices.0.statement"
+msgid "I can remove it from history. First decide what proves it existed if someone appeals."
+msgstr "我可以讓它不在歷史裡；你們得先說清楚申訴時要拿什麼證明它曾在。"
+
+#. ethicsCases.0.keine-history-deletion.voices.1.speaker
+#: src/data/ethics.js:247
+msgctxt "text:ethicsCases.0.keine-history-deletion.voices.1.speaker"
+msgid "Eiki"
+msgstr "映姬"
+
+#. ethicsCases.0.keine-history-deletion.voices.1.statement
+#: src/data/ethics.js:248
+msgctxt "text:ethicsCases.0.keine-history-deletion.voices.1.statement"
+msgid "Destroying evidence of harm does not make the harm unhappen."
+msgstr "銷毀傷害的證據，不會倒推成傷害沒有發生。"
+
+#. ethicsCases.0.keine-history-deletion.prefill.stopRule
+#: src/data/ethics.js:263
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.stopRule"
+msgid "Stop once Keine completes the deletion; retain no intermediate version."
+msgstr "慧音完成刪除後立即停止，不保留中間版本。"
+
+#. ethicsCases.0.keine-history-deletion.prefill.controlPlan
+#: src/data/ethics.js:264
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.controlPlan"
+msgid "Akyuu checks anonymisation before deletion."
+msgstr "刪除前由阿求核對統計是否已匿名。"
+
+#. ethicsCases.0.keine-history-deletion.prefill.withdrawalPlan
+#: src/data/ethics.js:265
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.withdrawalPlan"
+msgid "The deletion cannot be reversed once complete."
+msgstr "刪除完成後不可撤回。"
+
+#. ethicsCases.0.keine-history-deletion.prefill.deletionPlan
+#: src/data/ethics.js:266
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.deletionPlan"
+msgid "Delete the interview and every index proving it existed; keep anonymous statistics."
+msgstr "刪除訪談與它曾存在的全部索引，匿名統計保留。"
+
+#. ethicsCases.0.keine-history-deletion.prefill.appealPlan
+#: src/data/ethics.js:267
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.appealPlan"
+msgid "Anyone who still remembers may appeal orally to Keine."
+msgstr "若仍記得，可向慧音口頭申訴。"
+
+#. ethicsCases.0.keine-history-deletion.prefill.rationale
+#: src/data/ethics.js:268
+msgctxt "text:ethicsCases.0.keine-history-deletion.prefill.rationale"
+msgid "Complete deletion should leave no record of deletion itself."
+msgstr "最完整的刪除就是連刪除動作也不留下。"
+
+#. ethicsCases.0.drift-object-refusal.title
+#: src/data/ethics.js:275
+msgctxt "text:ethicsCases.0.drift-object-refusal.title"
+msgid "A drift object refuses disassembly: can Kourindou consent for it?"
+msgstr "漂流物拒絕拆機：香霖堂的所有權能替它同意嗎？"
+
+#. ethicsCases.0.drift-object-refusal.shortTitle
+#: src/data/ethics.js:276
+msgctxt "text:ethicsCases.0.drift-object-refusal.shortTitle"
+msgid "Two consents: holder and object"
+msgstr "持有人與物品的兩份同意"
+
+#. ethicsCases.0.drift-object-refusal.lede
+#: src/data/ethics.js:277
+msgctxt "text:ethicsCases.0.drift-object-refusal.lede"
+msgid ""
+"Drift Reader 77 displays “do not open the back panel.” Kourindou holds the "
+"salvage slip and says disassembly is required to establish use."
+msgstr "第七十七號閱讀器在畫面上寫出『不要打開背板』；香霖堂持有拾得票，並認為拆機是確認用途所必需。"
+
+#. ethicsCases.0.drift-object-refusal.conflict
+#: src/data/ethics.js:278
+msgctxt "text:ethicsCases.0.drift-object-refusal.conflict"
+msgid ""
+"Lawful possession decides custody; it may not decide who may irreversibly "
+"mark a possibly willing object."
+msgstr "合法持有回答的是誰能保管；它不一定回答誰能在另一個可能具有意志的存在上留下不可逆刮痕。"
+
+#. ethicsCases.0.drift-object-refusal.voices.0.speaker
+#: src/data/ethics.js:284
+msgctxt "text:ethicsCases.0.drift-object-refusal.voices.0.speaker"
+msgid "Rinnosuke"
+msgstr "霖之助"
+
+#. ethicsCases.0.drift-object-refusal.voices.0.statement
+#: src/data/ethics.js:285
+msgctxt "text:ethicsCases.0.drift-object-refusal.voices.0.statement"
+msgid ""
+"Knowing a name is not knowing safe operation; never operating it may leave "
+"us calling it the wrong name forever."
+msgstr "知道名字不等於知道安全操作；但完全不操作，也可能永遠把它叫錯名字。"
+
+#. ethicsCases.0.drift-object-refusal.voices.1.speaker
+#: src/data/ethics.js:288
+msgctxt "text:ethicsCases.0.drift-object-refusal.voices.1.speaker"
+msgid "Kogasa"
+msgstr "小傘"
+
+#. ethicsCases.0.drift-object-refusal.voices.1.statement
+#: src/data/ethics.js:289
+msgctxt "text:ethicsCases.0.drift-object-refusal.voices.1.statement"
+msgid ""
+"After the object says no, you are still debating whether it can speak. "
+"Record that part exactly."
+msgstr "你們聽見物品說『不要』後，還在討論它會不會說話。這段應該原樣記錄。"
+
+#. ethicsCases.0.drift-object-refusal.prefill.stopRule
+#: src/data/ethics.js:304
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.stopRule"
+msgid "Stop if the panel cracks or the display goes dark."
+msgstr "若背板裂開或畫面熄滅就停止。"
+
+#. ethicsCases.0.drift-object-refusal.prefill.controlPlan
+#: src/data/ethics.js:305
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.controlPlan"
+msgid "Run a non-invasive kappa scan first, then compare with disassembly images."
+msgstr "先用不拆機的河童掃描，再與拆機照片比較。"
+
+#. ethicsCases.0.drift-object-refusal.prefill.withdrawalPlan
+#: src/data/ethics.js:306
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.withdrawalPlan"
+msgid "The holder may withdraw before screws are removed."
+msgstr "持有人可在螺絲卸下前撤回。"
+
+#. ethicsCases.0.drift-object-refusal.prefill.deletionPlan
+#: src/data/ethics.js:307
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.deletionPlan"
+msgid "Delete photographs while retaining the parts list."
+msgstr "刪除照片但保留零件清單。"
+
+#. ethicsCases.0.drift-object-refusal.prefill.appealPlan
+#: src/data/ethics.js:308
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.appealPlan"
+msgid "Kourindou and the appraisal office decide jointly."
+msgstr "由香霖堂與鑑定所共同判定。"
+
+#. ethicsCases.0.drift-object-refusal.prefill.rationale
+#: src/data/ethics.js:309
+msgctxt "text:ethicsCases.0.drift-object-refusal.prefill.rationale"
+msgid "The salvage slip authorises Kourindou to consent to necessary inspection."
+msgstr "拾得票證明香霖堂有權同意必要檢查。"

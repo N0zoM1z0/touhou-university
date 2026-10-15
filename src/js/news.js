@@ -1,3 +1,4 @@
+import { text as catalogText, trees as catalogTrees } from "../generated/i18n/ui/news.js";
 import { newsItems } from "../data/community.js";
 import { closeDeepLink, navigateToDeepLink, registerDeepLink } from "./deep-links.js";
 import { getLocale } from "./i18n.js";
@@ -29,11 +30,7 @@ function showNews(id) {
   const item = [...incidentCommunityNews(), ...newsItems].find((news) => news.id === id);
   if (!item) return;
   const locale = getLocale();
-  const labels = {
-    "zh-Hant": ["發布", "分類"],
-    ja: ["公開日", "分類"],
-    en: ["Published", "Category"],
-  }[locale];
+  const labels = catalogTrees["labels"][locale];
   openInfoDialog({
     kicker: "TU NEWS · CAMPUS WIRE",
     title: item.title[locale],
@@ -41,11 +38,7 @@ function showNews(id) {
     meta: [labels[0], item.date, labels[1], item.category[locale]],
     action: item.incidentId
       ? {
-          label: {
-            "zh-Hant": "查看結案案卷",
-            ja: "終結記録を見る",
-            en: "Open closure record",
-          }[locale],
+          label: catalogText("showNews.0.action.label")[locale],
           handler: () => window.location.assign(siteHref(`incident-case-${item.incidentId}`)),
         }
       : undefined,

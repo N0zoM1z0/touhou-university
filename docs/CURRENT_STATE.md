@@ -1,8 +1,9 @@
 # Touhou University current state
 
-Last audited: 2026-08-26
-Release: `0.30.0`
-Branch/deployment: `main` → GitHub Pages
+Last audited: 2026-10-15
+Release: `0.31.0`
+Branch/deployment: `main` → GitHub Pages; this architecture publishes `dist/` via Actions.
+Pages Source is GitHub Actions; the branch root contains authoring source only.
 Live site: <https://n0zom1z0.github.io/touhou-university/>
 Repository: <https://github.com/N0zoM1z0/touhou-university>
 
@@ -76,7 +77,10 @@ Run `npm run docs:status` for the same values directly from source.
 - Public sections: `src/sections/`
 - Stable trilingual content: `src/data/`
 - Local models, interactions and cross-domain projections: `src/js/`
-- Global static copy keys: `src/data/i18n.js`
+- Three-language editorial source: `locales/{zh-Hant,ja,en}/` PO catalogs
+- Compiled copy facade: `src/data/i18n.js` and ignored `src/generated/i18n/`
+- UI initialization declarations: `src/js/feature-registry.js`
+- Authored static assets: `public/`
 - Route ownership and overlay behaviour: `src/js/site-router.js` and
   `src/js/deep-links.js`
 - Official lifecycle vocabulary: `src/data/event-contracts.js`
@@ -86,12 +90,14 @@ Run `npm run docs:status` for the same values directly from source.
 - Deterministic operational world state: `src/data/live-campus.js`
 - First-parent living history: `src/data/campus-history.js`
 - Editorial/source/provenance notes: `docs/research/`
-- Generated release artifacts: root HTML, `assets/css/` bundles and `downloads/gaokao/`
+- Generated release artifact: ignored `dist/` (HTML, assets, runtime modules and offline papers)
 
 ## Important boundaries
 
-- Generated artifacts are committed because GitHub Pages serves the repository
-  root, but `src/` remains the editable source.
+- Source and publication are separate. `npm run build` creates `dist/`; Pages
+  publishes its contents as the web root, preserving all public paths.
+- PO catalogs own wording; domain modules still own IDs, rules and relationships.
+  Read [ARCHITECTURE.md](ARCHITECTURE.md) for the build and registration boundaries.
 - Hieda, Search, BBS, My TU summaries and Tengu Post messages are projections.
   They must point back to owning records rather than becoming duplicate truth.
 - Official campus events are versioned causal facts. Visitor-authored BBS

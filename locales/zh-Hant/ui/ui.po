@@ -1,0 +1,20 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy.yes
+#: src/js/ui.js:51
+msgctxt "text:copy.yes"
+msgid "Close menu"
+msgstr "關閉選單"
+
+#. copy.no
+#: src/js/ui.js:51
+msgctxt "text:copy.no"
+msgid "Open menu"
+msgstr "開啟選單"

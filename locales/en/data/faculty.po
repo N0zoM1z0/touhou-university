@@ -1,0 +1,380 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. facultyProfiles.reimu.field
+#: src/data/faculty.js:4
+msgctxt "text:facultyProfiles.reimu.field"
+msgid "INCIDENT STUDIES"
+msgstr "INCIDENT STUDIES"
+
+#. facultyProfiles.reimu.name
+#: src/data/faculty.js:5
+msgctxt "text:facultyProfiles.reimu.name"
+msgid "Reimu Hakurei"
+msgstr "Reimu Hakurei"
+
+#. facultyProfiles.reimu.role
+#: src/data/faculty.js:6
+msgctxt "text:facultyProfiles.reimu.role"
+msgid "Professor of Incident Response · Hakurei Shrine Maiden"
+msgstr "Professor of Incident Response · Hakurei Shrine Maiden"
+
+#. facultyProfiles.reimu.expertise
+#: src/data/faculty.js:7
+msgctxt "text:facultyProfiles.reimu.expertise"
+msgid ""
+"Barrier arts, purification, incident intuition, and spell-card rules. She "
+"often finds the culprit before the incident report is complete, then "
+"remembers that her students still need notes on the method."
+msgstr ""
+"Barrier arts, purification, incident intuition, and spell-card rules. She "
+"often finds the culprit before the incident report is complete, then "
+"remembers that her students still need notes on the method."
+
+#. facultyProfiles.reimu.courses
+#: src/data/faculty.js:8
+msgctxt "text:facultyProfiles.reimu.courses"
+msgid "Incident De-escalation · Hakurei Barrier Practicum · Spell-card Debate"
+msgstr "Incident De-escalation · Hakurei Barrier Practicum · Spell-card Debate"
+
+#. facultyProfiles.reimu.incident
+#: src/data/faculty.js:9
+msgctxt "text:facultyProfiles.reimu.incident"
+msgid ""
+"She moved the Hakurei Gate repair box back to the shrine for the third time "
+"this month. Administration abandoned chains and painted a return-to-campus "
+"arrow underneath."
+msgstr ""
+"She moved the Hakurei Gate repair box back to the shrine for the third time "
+"this month. Administration abandoned chains and painted a return-to-campus "
+"arrow underneath."
+
+#. facultyProfiles.yukari.field
+#: src/data/faculty.js:12
+msgctxt "text:facultyProfiles.yukari.field"
+msgid "BOUNDARY GOVERNANCE"
+msgstr "BOUNDARY GOVERNANCE"
+
+#. facultyProfiles.yukari.name
+#: src/data/faculty.js:13
+msgctxt "text:facultyProfiles.yukari.name"
+msgid "Yukari Yakumo"
+msgstr "Yukari Yakumo"
+
+#. facultyProfiles.yukari.role
+#: src/data/faculty.js:14
+msgctxt "text:facultyProfiles.yukari.role"
+msgid "Founding Professor of Boundary Studies · Sage of Gensokyo"
+msgstr "Founding Professor of Boundary Studies · Sage of Gensokyo"
+
+#. facultyProfiles.yukari.expertise
+#: src/data/faculty.js:15
+msgctxt "text:facultyProfiles.yukari.expertise"
+msgid ""
+"Boundary topology, institutional risk, Outside World drift, and long-horizon "
+"governance. Her examinations often begin by redrawing the question’s "
+"boundary."
+msgstr ""
+"Boundary topology, institutional risk, Outside World drift, and long-horizon "
+"governance. Her examinations often begin by redrawing the question’s "
+"boundary."
+
+#. facultyProfiles.yukari.courses
+#: src/data/faculty.js:16
+msgctxt "text:facultyProfiles.yukari.courses"
+msgid "Boundary Topology · Gensokyo Governance · Absence and Existence"
+msgstr "Boundary Topology · Gensokyo Governance · Absence and Existence"
+
+#. facultyProfiles.yukari.incident
+#: src/data/faculty.js:17
+msgctxt "text:facultyProfiles.yukari.incident"
+msgid ""
+"She moved a classroom between presence and absence to prove policy never "
+"says a room must be on campus. The make-up notice remains inside."
+msgstr ""
+"She moved a classroom between presence and absence to prove policy never "
+"says a room must be on campus. The make-up notice remains inside."
+
+#. facultyProfiles.keine.field
+#: src/data/faculty.js:20
+msgctxt "text:facultyProfiles.keine.field"
+msgid "HISTORY & MEMORY"
+msgstr "HISTORY & MEMORY"
+
+#. facultyProfiles.keine.name
+#: src/data/faculty.js:21
+msgctxt "text:facultyProfiles.keine.name"
+msgid "Keine Kamishirasawa"
+msgstr "Keine Kamishirasawa"
+
+#. facultyProfiles.keine.role
+#: src/data/faculty.js:22
+msgctxt "text:facultyProfiles.keine.role"
+msgid "Dean of History and Records · Terakoya Teacher"
+msgstr "Dean of History and Records · Terakoya Teacher"
+
+#. facultyProfiles.keine.expertise
+#: src/data/faculty.js:23
+msgctxt "text:facultyProfiles.keine.expertise"
+msgid ""
+"Gensokyo history, public memory, village safety, and archival ethics. She "
+"distinguishes what happened, what was recorded, and what people were "
+"permitted to remember."
+msgstr ""
+"Gensokyo history, public memory, village safety, and archival ethics. She "
+"distinguishes what happened, what was recorded, and what people were "
+"permitted to remember."
+
+#. facultyProfiles.keine.courses
+#: src/data/faculty.js:24
+msgctxt "text:facultyProfiles.keine.courses"
+msgid "History of Gensokyo · Source Criticism · Full-Moon Field Notes"
+msgstr "History of Gensokyo · Source Criticism · Full-Moon Field Notes"
+
+#. facultyProfiles.keine.incident
+#: src/data/faculty.js:25
+msgctxt "text:facultyProfiles.keine.incident"
+msgid ""
+"After students claimed history ate their late record, she added an "
+"unannounced roll call. That roll call later vanished from two archives."
+msgstr ""
+"After students claimed history ate their late record, she added an "
+"unannounced roll call. That roll call later vanished from two archives."
+
+#. facultyProfiles.patchouli.field
+#: src/data/faculty.js:28
+msgctxt "text:facultyProfiles.patchouli.field"
+msgid "ELEMENTAL MAGIC"
+msgstr "ELEMENTAL MAGIC"
+
+#. facultyProfiles.patchouli.name
+#: src/data/faculty.js:29
+msgctxt "text:facultyProfiles.patchouli.name"
+msgid "Patchouli Knowledge"
+msgstr "Patchouli Knowledge"
+
+#. facultyProfiles.patchouli.role
+#: src/data/faculty.js:30
+msgctxt "text:facultyProfiles.patchouli.role"
+msgid "Professor of Elemental Theory · Scarlet Library Scholar"
+msgstr "Professor of Elemental Theory · Scarlet Library Scholar"
+
+#. facultyProfiles.patchouli.expertise
+#: src/data/faculty.js:31
+msgctxt "text:facultyProfiles.patchouli.expertise"
+msgid ""
+"Seven-day elements, critical editions, closed-environment magic, and "
+"low-interference observation. Even the borrowing terms are part of the "
+"lesson."
+msgstr ""
+"Seven-day elements, critical editions, closed-environment magic, and "
+"low-interference observation. Even the borrowing terms are part of the "
+"lesson."
+
+#. facultyProfiles.patchouli.courses
+#: src/data/faculty.js:32
+msgctxt "text:facultyProfiles.patchouli.courses"
+msgid "Seven-Day Elemental Theory II · Grimoire Collation · Closed Magic Systems"
+msgstr "Seven-Day Elemental Theory II · Grimoire Collation · Closed Magic Systems"
+
+#. facultyProfiles.patchouli.incident
+#: src/data/faculty.js:33
+msgctxt "text:facultyProfiles.patchouli.incident"
+msgid ""
+"She rejects the overdue finding because “120 years is insufficient to "
+"establish permanence.” Interlibrary Loans now lists the sentence as a "
+"high-risk precedent."
+msgstr ""
+"She rejects the overdue finding because “120 years is insufficient to "
+"establish permanence.” Interlibrary Loans now lists the sentence as a "
+"high-risk precedent."
+
+#. facultyProfiles.marisa.field
+#: src/data/faculty.js:36
+msgctxt "text:facultyProfiles.marisa.field"
+msgid "APPLIED MAGIC"
+msgstr "APPLIED MAGIC"
+
+#. facultyProfiles.marisa.name
+#: src/data/faculty.js:37
+msgctxt "text:facultyProfiles.marisa.name"
+msgid "Marisa Kirisame"
+msgstr "Marisa Kirisame"
+
+#. facultyProfiles.marisa.role
+#: src/data/faculty.js:38
+msgctxt "text:facultyProfiles.marisa.role"
+msgid "Professor of Applied Magic · Ordinary Magician"
+msgstr "Professor of Applied Magic · Ordinary Magician"
+
+#. facultyProfiles.marisa.expertise
+#: src/data/faculty.js:39
+msgctxt "text:facultyProfiles.marisa.expertise"
+msgid ""
+"High-output light magic, material gathering, prototyping, and reproducible "
+"failure. She reproduces explosions precisely; the materials field often says "
+"only “found it in the forest.”"
+msgstr ""
+"High-output light magic, material gathering, prototyping, and reproducible "
+"failure. She reproduces explosions precisely; the materials field often says "
+"only “found it in the forest.”"
+
+#. facultyProfiles.marisa.courses
+#: src/data/faculty.js:40
+msgctxt "text:facultyProfiles.marisa.courses"
+msgid "High-Output Safety · Reproducible Failure · Starlight Workshop"
+msgstr "High-Output Safety · Reproducible Failure · Starlight Workshop"
+
+#. facultyProfiles.marisa.incident
+#: src/data/faculty.js:41
+msgctxt "text:facultyProfiles.marisa.incident"
+msgid ""
+"Revision seven still omits two grimoires. She argues they were not borrowed; "
+"the books followed her."
+msgstr ""
+"Revision seven still omits two grimoires. She argues they were not borrowed; "
+"the books followed her."
+
+#. facultyProfiles.eirin.field
+#: src/data/faculty.js:44
+msgctxt "text:facultyProfiles.eirin.field"
+msgid "LUNAR MEDICINE"
+msgstr "LUNAR MEDICINE"
+
+#. facultyProfiles.eirin.name
+#: src/data/faculty.js:45
+msgctxt "text:facultyProfiles.eirin.name"
+msgid "Eirin Yagokoro"
+msgstr "Eirin Yagokoro"
+
+#. facultyProfiles.eirin.role
+#: src/data/faculty.js:46
+msgctxt "text:facultyProfiles.eirin.role"
+msgid "Dean of Lunar Medicine · Pharmacist of Eientei"
+msgstr "Dean of Lunar Medicine · Pharmacist of Eientei"
+
+#. facultyProfiles.eirin.expertise
+#: src/data/faculty.js:47
+msgctxt "text:facultyProfiles.eirin.expertise"
+msgid ""
+"Cross-species pharmacology, lunar physiology, difficult cases, and village "
+"health. She often knows the answer before the patient finishes, yet declines "
+"to explain seventeen intermediate lunar calculations."
+msgstr ""
+"Cross-species pharmacology, lunar physiology, difficult cases, and village "
+"health. She often knows the answer before the patient finishes, yet declines "
+"to explain seventeen intermediate lunar calculations."
+
+#. facultyProfiles.eirin.courses
+#: src/data/faculty.js:48
+msgctxt "text:facultyProfiles.eirin.courses"
+msgid "Lunar Pharmacology · Lost-Sense Clinic · Hourai Ethics Seminar"
+msgstr "Lunar Pharmacology · Lost-Sense Clinic · Hourai Ethics Seminar"
+
+#. facultyProfiles.eirin.incident
+#: src/data/faculty.js:49
+msgctxt "text:facultyProfiles.eirin.incident"
+msgid ""
+"Eientei filed a prescription precise to six lunar-dust decimals; its "
+"rationale reads “already conservative for earthlings.” Reviewers requested a "
+"comprehensible version."
+msgstr ""
+"Eientei filed a prescription precise to six lunar-dust decimals; its "
+"rationale reads “already conservative for earthlings.” Reviewers requested a "
+"comprehensible version."
+
+#. facultyProfiles.nitori.field
+#: src/data/faculty.js:52
+msgctxt "text:facultyProfiles.nitori.field"
+msgid "KAPPA ENGINEERING"
+msgstr "KAPPA ENGINEERING"
+
+#. facultyProfiles.nitori.name
+#: src/data/faculty.js:53
+msgctxt "text:facultyProfiles.nitori.name"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. facultyProfiles.nitori.role
+#: src/data/faculty.js:54
+msgctxt "text:facultyProfiles.nitori.role"
+msgid "Dean of Kappa Engineering · Hydraulic Engineer"
+msgstr "Dean of Kappa Engineering · Hydraulic Engineer"
+
+#. facultyProfiles.nitori.expertise
+#: src/data/faculty.js:55
+msgctxt "text:facultyProfiles.nitori.expertise"
+msgid ""
+"Micro-hydropower, instruments, prototyping, and mountain maintenance. Her "
+"machines usually work; the manuals finally catch up after the second leak."
+msgstr ""
+"Micro-hydropower, instruments, prototyping, and mountain maintenance. Her "
+"machines usually work; the manuals finally catch up after the second leak."
+
+#. facultyProfiles.nitori.courses
+#: src/data/faculty.js:56
+msgctxt "text:facultyProfiles.nitori.courses"
+msgid "Low-Head Turbines · Waterproof Prototyping · Non-Magic User Testing"
+msgstr "Low-Head Turbines · Waterproof Prototyping · Non-Magic User Testing"
+
+#. facultyProfiles.nitori.incident
+#: src/data/faculty.js:57
+msgctxt "text:facultyProfiles.nitori.incident"
+msgid ""
+"The north pipe's “seven-day temporary repair” is on day 129. Its leak powers "
+"a corridor turbine, so Engineering refuses to call it a fault."
+msgstr ""
+"The north pipe's “seven-day temporary repair” is on day 129. Its leak powers "
+"a corridor turbine, so Engineering refuses to call it a fault."
+
+#. facultyProfiles.aya.field
+#: src/data/faculty.js:60
+msgctxt "text:facultyProfiles.aya.field"
+msgid "JOURNALISM"
+msgstr "JOURNALISM"
+
+#. facultyProfiles.aya.name
+#: src/data/faculty.js:61
+msgctxt "text:facultyProfiles.aya.name"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. facultyProfiles.aya.role
+#: src/data/faculty.js:62
+msgctxt "text:facultyProfiles.aya.role"
+msgid "Dean of Tengu Journalism · Bunbunmaru Reporter"
+msgstr "Dean of Tengu Journalism · Bunbunmaru Reporter"
+
+#. facultyProfiles.aya.expertise
+#: src/data/faculty.js:63
+msgctxt "text:facultyProfiles.aya.expertise"
+msgid ""
+"Photography, interviews, sourcing, headlines, and public corrections. She "
+"teaches students to withdraw harmful headlines, then drafts three faster, "
+"louder versions before class ends."
+msgstr ""
+"Photography, interviews, sourcing, headlines, and public corrections. She "
+"teaches students to withdraw harmful headlines, then drafts three faster, "
+"louder versions before class ends."
+
+#. facultyProfiles.aya.courses
+#: src/data/faculty.js:64
+msgctxt "text:facultyProfiles.aya.courses"
+msgid "Field Photography · Source Ethics · Headline or Harm"
+msgstr "Field Photography · Source Ethics · Headline or Harm"
+
+#. facultyProfiles.aya.incident
+#: src/data/faculty.js:65
+msgctxt "text:facultyProfiles.aya.incident"
+msgid ""
+"This week's corrections class uses the dean's own newly misleading headline. "
+"She calls it advanced integration of teaching and practice."
+msgstr ""
+"This week's corrections class uses the dean's own newly misleading headline. "
+"She calls it advanced integration of teaching and practice."

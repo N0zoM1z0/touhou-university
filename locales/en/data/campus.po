@@ -1,0 +1,422 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. campusFeatures.library.title
+#: src/data/campus.js:6
+msgctxt "text:campusFeatures.library.title"
+msgid "Misty Lake Library · Night Reading"
+msgstr "Misty Lake Library · Night Reading"
+
+#. campusFeatures.library.summary
+#: src/data/campus.js:7
+msgctxt "text:campusFeatures.library.summary"
+msgid ""
+"The north-wing reading room stays open until the second quarter of the Ox "
+"hour. Leave a bookmark where you last saw any self-moving volume."
+msgstr ""
+"The north-wing reading room stays open until the second quarter of the Ox "
+"hour. Leave a bookmark where you last saw any self-moving volume."
+
+#. campusFeatures.library.details.0
+#: src/data/campus.js:9
+msgctxt "text:campusFeatures.library.details.0"
+msgid "Seats tonight"
+msgstr "Seats tonight"
+
+#. campusFeatures.library.details.2
+#: src/data/campus.js:11
+msgctxt "text:campusFeatures.library.details.2"
+msgid "Special service"
+msgstr "Special service"
+
+#. campusFeatures.library.details.3
+#: src/data/campus.js:12
+msgctxt "text:campusFeatures.library.details.3"
+msgid "Grimoire interlibrary loans"
+msgstr "Grimoire interlibrary loans"
+
+#. campusFeatures.library.action
+#: src/data/campus.js:14
+msgctxt "text:campusFeatures.library.action"
+msgid "Find a reading room"
+msgstr "Find a reading room"
+
+#. campusFeatures.workshop.title
+#: src/data/campus.js:19
+msgctxt "text:campusFeatures.workshop.title"
+msgid "Youkai Mountain · Kappa Joint Workshop"
+msgstr "Youkai Mountain · Kappa Joint Workshop"
+
+#. campusFeatures.workshop.summary
+#: src/data/campus.js:20
+msgctxt "text:campusFeatures.workshop.summary"
+msgid ""
+"The turbine channel, wind tower, and waterproof prototype rooms are open to "
+"students. Every moving part must be stoppable by hand before launch."
+msgstr ""
+"The turbine channel, wind tower, and waterproof prototype rooms are open to "
+"students. Every moving part must be stoppable by hand before launch."
+
+#. campusFeatures.workshop.details.0
+#: src/data/campus.js:22
+msgctxt "text:campusFeatures.workshop.details.0"
+msgid "Wind today"
+msgstr "Wind today"
+
+#. campusFeatures.workshop.details.1
+#: src/data/campus.js:23
+msgctxt "text:campusFeatures.workshop.details.1"
+msgid "Valley wind, force 3"
+msgstr "Valley wind, force 3"
+
+#. campusFeatures.workshop.details.2
+#: src/data/campus.js:24
+msgctxt "text:campusFeatures.workshop.details.2"
+msgid "Loan equipment"
+msgstr "Loan equipment"
+
+#. campusFeatures.workshop.details.3
+#: src/data/campus.js:25
+msgctxt "text:campusFeatures.workshop.details.3"
+msgid "Rain gear · goggles"
+msgstr "Rain gear · goggles"
+
+#. campusFeatures.workshop.action
+#: src/data/campus.js:27
+msgctxt "text:campusFeatures.workshop.action"
+msgid "View workshop rooms"
+msgstr "View workshop rooms"
+
+#. campusFeatures.festival.title
+#: src/data/campus.js:32
+msgctxt "text:campusFeatures.festival.title"
+msgid "Spring Spell-card Lantern Festival"
+msgstr "Spring Spell-card Lantern Festival"
+
+#. campusFeatures.festival.summary
+#: src/data/campus.js:33
+msgctxt "text:campusFeatures.festival.summary"
+msgid ""
+"Student groups design the night sky with non-aggressive light danmaku. Every "
+"entry declares its stop condition, audience distance, and debris recovery "
+"plan."
+msgstr ""
+"Student groups design the night sky with non-aggressive light danmaku. Every "
+"entry declares its stop condition, audience distance, and debris recovery "
+"plan."
+
+#. campusFeatures.festival.details.0
+#: src/data/campus.js:35
+msgctxt "text:campusFeatures.festival.details.0"
+msgid "Next event"
+msgstr "Next event"
+
+#. campusFeatures.festival.details.1
+#: src/data/campus.js:36
+msgctxt "text:campusFeatures.festival.details.1"
+msgid "First full moon of April"
+msgstr "First full moon of April"
+
+#. campusFeatures.festival.details.2
+#: src/data/campus.js:37
+msgctxt "text:campusFeatures.festival.details.2"
+msgid "Exhibition places"
+msgstr "Exhibition places"
+
+#. campusFeatures.festival.details.3
+#: src/data/campus.js:38
+msgctxt "text:campusFeatures.festival.details.3"
+msgid "24 teams"
+msgstr "24 teams"
+
+#. campusFeatures.festival.action
+#: src/data/campus.js:40
+msgctxt "text:campusFeatures.festival.action"
+msgid "Enter festival operations"
+msgstr "Enter festival operations"
+
+#. clubs.grimoire.name
+#: src/data/campus.js:48
+msgctxt "text:clubs.grimoire.name"
+msgid "Grimoire Restoration Society"
+msgstr "Grimoire Restoration Society"
+
+#. clubs.grimoire.focus
+#: src/data/campus.js:49
+msgctxt "text:clubs.grimoire.focus"
+msgid "Paper, binding, and books that bite"
+msgstr "Paper, binding, and books that bite"
+
+#. clubs.grimoire.description
+#: src/data/campus.js:50
+msgctxt "text:clubs.grimoire.description"
+msgid ""
+"Repairs grimoires damaged by damp, burns, and self-rewriting page numbers. A "
+"new member's first lesson is not magic, but knowing when to close the book."
+msgstr ""
+"Repairs grimoires damaged by damp, burns, and self-rewriting page numbers. A "
+"new member's first lesson is not magic, but knowing when to close the book."
+
+#. clubs.grimoire.meeting
+#: src/data/campus.js:51
+msgctxt "text:clubs.grimoire.meeting"
+msgid "Tuesdays · Misty Lake Library north wing"
+msgstr "Tuesdays · Misty Lake Library north wing"
+
+#. clubs.grimoire.project
+#: src/data/campus.js:53
+msgctxt "text:clubs.grimoire.project"
+msgid "Century-old catalogue-card de-charming"
+msgstr "Century-old catalogue-card de-charming"
+
+#. clubs.hisoutensoku.name
+#: src/data/campus.js:57
+msgctxt "text:clubs.hisoutensoku.name"
+msgid "Hisoutensoku Research Society"
+msgstr "Hisoutensoku Research Society"
+
+#. clubs.hisoutensoku.focus
+#: src/data/campus.js:58
+msgctxt "text:clubs.hisoutensoku.focus"
+msgid "Giant mechanisms, sightings, and size disputes"
+msgstr "Giant mechanisms, sightings, and size disputes"
+
+#. clubs.hisoutensoku.description
+#: src/data/campus.js:59
+msgctxt "text:clubs.hisoutensoku.description"
+msgid ""
+"Engineering and history students compare giant-machine records with "
+"extremely enthusiastic witnesses. Rule one: a photo without scale is "
+"atmospheric evidence only."
+msgstr ""
+"Engineering and history students compare giant-machine records with "
+"extremely enthusiastic witnesses. Rule one: a photo without scale is "
+"atmospheric evidence only."
+
+#. clubs.hisoutensoku.meeting
+#: src/data/campus.js:60
+msgctxt "text:clubs.hisoutensoku.meeting"
+msgid "Alternate Thursdays · Boundary Hall 108"
+msgstr "Alternate Thursdays · Boundary Hall 108"
+
+#. clubs.hisoutensoku.project
+#: src/data/campus.js:62
+msgctxt "text:clubs.hisoutensoku.project"
+msgid "Campus clocktower height comparison"
+msgstr "Campus clocktower height comparison"
+
+#. clubs.bamboo.name
+#: src/data/campus.js:66
+msgctxt "text:clubs.bamboo.name"
+msgid "Bamboo Navigation Club"
+msgstr "Bamboo Navigation Club"
+
+#. clubs.bamboo.focus
+#: src/data/campus.js:67
+msgctxt "text:clubs.bamboo.focus"
+msgid "Direction without relying on straight lines"
+msgstr "Direction without relying on straight lines"
+
+#. clubs.bamboo.description
+#: src/data/campus.js:68
+msgctxt "text:clubs.bamboo.description"
+msgid ""
+"Practises safe return when roads, memory, and moonlight are unreliable. It "
+"is not a race; the route is complete only when the whole team returns."
+msgstr ""
+"Practises safe return when roads, memory, and moonlight are unreliable. It "
+"is not a race; the route is complete only when the whole team returns."
+
+#. clubs.bamboo.meeting
+#: src/data/campus.js:69
+msgctxt "text:clubs.bamboo.meeting"
+msgid "Saturday dawn · east bamboo gate"
+msgstr "Saturday dawn · east bamboo gate"
+
+#. clubs.bamboo.project
+#: src/data/campus.js:71
+msgctxt "text:clubs.bamboo.project"
+msgid "Eighteen non-text guide-post trial"
+msgstr "Eighteen non-text guide-post trial"
+
+#. clubs.fairyChoir.name
+#: src/data/campus.js:75
+msgctxt "text:clubs.fairyChoir.name"
+msgid "Fairy Choir"
+msgstr "Fairy Choir"
+
+#. clubs.fairyChoir.focus
+#: src/data/campus.js:76
+msgctxt "text:clubs.fairyChoir.focus"
+msgid "Short memory, polyphony, and starting again"
+msgstr "Short memory, polyphony, and starting again"
+
+#. clubs.fairyChoir.description
+#: src/data/campus.js:77
+msgctxt "text:clubs.fairyChoir.description"
+msgid ""
+"Music is designed so anyone who forgets the last phrase can re-enter from "
+"the wind or a neighbour. Most rehearsals produce three different endings."
+msgstr ""
+"Music is designed so anyone who forgets the last phrase can re-enter from "
+"the wind or a neighbour. Most rehearsals produce three different endings."
+
+#. clubs.fairyChoir.meeting
+#: src/data/campus.js:78
+msgctxt "text:clubs.fairyChoir.meeting"
+msgid "Wednesday dusk · Misty Lake floating stage"
+msgstr "Wednesday dusk · Misty Lake floating stage"
+
+#. clubs.fairyChoir.project
+#: src/data/campus.js:80
+msgctxt "text:clubs.fairyChoir.project"
+msgid "Four Seasons at Once welcome concert"
+msgstr "Four Seasons at Once welcome concert"
+
+#. clubs.teaNews.name
+#: src/data/campus.js:84
+msgctxt "text:clubs.teaNews.name"
+msgid "Tea & News Ethics Society"
+msgstr "Tea & News Ethics Society"
+
+#. clubs.teaNews.focus
+#: src/data/campus.js:85
+msgctxt "text:clubs.teaNews.focus"
+msgid "Slow breaking news, headlines, and corrections"
+msgstr "Slow breaking news, headlines, and corrections"
+
+#. clubs.teaNews.description
+#: src/data/campus.js:86
+msgctxt "text:clubs.teaNews.description"
+msgid ""
+"Each week the society picks one story that seems impossible to delay, then "
+"chooses the headline after a second pot of tea. Typos and bad judgment "
+"receive separate corrections."
+msgstr ""
+"Each week the society picks one story that seems impossible to delay, then "
+"chooses the headline after a second pot of tea. Typos and bad judgment "
+"receive separate corrections."
+
+#. clubs.teaNews.meeting
+#: src/data/campus.js:87
+msgctxt "text:clubs.teaNews.meeting"
+msgid "Fridays · Tengu News Hall terrace"
+msgstr "Fridays · Tengu News Hall terrace"
+
+#. clubs.teaNews.project
+#: src/data/campus.js:89
+msgctxt "text:clubs.teaNews.project"
+msgid "Ten-minute anniversary-news delay trial"
+msgstr "Ten-minute anniversary-news delay trial"
+
+#. clubs.nightSparrow.name
+#: src/data/campus.js:93
+msgctxt "text:clubs.nightSparrow.name"
+msgid "Night-Sparrow Music Dining Hall"
+msgstr "Night-Sparrow Music Dining Hall"
+
+#. clubs.nightSparrow.focus
+#: src/data/campus.js:94
+msgctxt "text:clubs.nightSparrow.focus"
+msgid "Supper, sound fields, and ordering without sight"
+msgstr "Supper, sound fields, and ordering without sight"
+
+#. clubs.nightSparrow.description
+#: src/data/campus.js:95
+msgctxt "text:clubs.nightSparrow.description"
+msgid ""
+"Music practice and late-night meals share one timetable. Soup noodles pause "
+"when the set gets too loud; lamprey always has a backup."
+msgstr ""
+"Music practice and late-night meals share one timetable. Soup noodles pause "
+"when the set gets too loud; lamprey always has a backup."
+
+#. clubs.nightSparrow.meeting
+#: src/data/campus.js:96
+msgctxt "text:clubs.nightSparrow.meeting"
+msgid "Daily after 17:30 · South Dining Hall"
+msgstr "Daily after 17:30 · South Dining Hall"
+
+#. clubs.nightSparrow.project
+#: src/data/campus.js:98
+msgctxt "text:clubs.nightSparrow.project"
+msgid "Low-stimulus full-moon supper"
+msgstr "Low-stimulus full-moon supper"
+
+#. clubs.ufo.name
+#: src/data/campus.js:102
+msgctxt "text:clubs.ufo.name"
+msgid "Unidentified Flying Object Society"
+msgstr "Unidentified Flying Object Society"
+
+#. clubs.ufo.focus
+#: src/data/campus.js:103
+msgctxt "text:clubs.ufo.focus"
+msgid "Observe first, decide whether it is a plate later"
+msgstr "Observe first, decide whether it is a plate later"
+
+#. clubs.ufo.description
+#: src/data/campus.js:104
+msgctxt "text:clubs.ufo.description"
+msgid ""
+"Shares telescopes, sketchbooks, and a very strict unknown field. Any "
+"conclusion must first rule out tengu, umbrellas, clouds, and actual flying "
+"saucers."
+msgstr ""
+"Shares telescopes, sketchbooks, and a very strict unknown field. Any "
+"conclusion must first rule out tengu, umbrellas, clouds, and actual flying "
+"saucers."
+
+#. clubs.ufo.meeting
+#: src/data/campus.js:105
+msgctxt "text:clubs.ufo.meeting"
+msgid "Clear nights · Seven-Day Laboratory roof"
+msgstr "Clear nights · Seven-Day Laboratory roof"
+
+#. clubs.ufo.project
+#: src/data/campus.js:107
+msgctxt "text:clubs.ufo.project"
+msgid "Summer unclaimed-light chronology"
+msgstr "Summer unclaimed-light chronology"
+
+#. clubs.ordinaryMagic.name
+#: src/data/campus.js:111
+msgctxt "text:clubs.ordinaryMagic.name"
+msgid "Ordinary Magic Laboratory Society"
+msgstr "Ordinary Magic Laboratory Society"
+
+#. clubs.ordinaryMagic.focus
+#: src/data/campus.js:112
+msgctxt "text:clubs.ordinaryMagic.focus"
+msgid "Reproducible failure and starlight sparks"
+msgstr "Reproducible failure and starlight sparks"
+
+#. clubs.ordinaryMagic.description
+#: src/data/campus.js:113
+msgctxt "text:clubs.ordinaryMagic.description"
+msgid ""
+"Ranks no one by firepower; an experiment succeeds when someone else can "
+"reproduce it from the notes. Borrowed materials must appear in the source "
+"field."
+msgstr ""
+"Ranks no one by firepower; an experiment succeeds when someone else can "
+"reproduce it from the notes. Borrowed materials must appear in the source "
+"field."
+
+#. clubs.ordinaryMagic.meeting
+#: src/data/campus.js:114
+msgctxt "text:clubs.ordinaryMagic.meeting"
+msgid "Mondays · Seven-Day Laboratory annex"
+msgstr "Mondays · Seven-Day Laboratory annex"
+
+#. clubs.ordinaryMagic.project
+#: src/data/campus.js:116
+msgctxt "text:clubs.ordinaryMagic.project"
+msgid "One Hundred Ways to Extinguish public show"
+msgstr "One Hundred Ways to Extinguish public show"

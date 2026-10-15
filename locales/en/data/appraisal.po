@@ -1,0 +1,2172 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. appraisalDestinations.library.name
+#: src/data/appraisal.js:22
+msgctxt "text:appraisalDestinations.library.name"
+msgid "Misty Lake Outside-Object Cabinet"
+msgstr "Misty Lake Outside-Object Cabinet"
+
+#. appraisalDestinations.library.note
+#: src/data/appraisal.js:23
+msgctxt "text:appraisalDestinations.library.note"
+msgid "Retain provenance, dissent, and operating limits for reference access."
+msgstr "Retain provenance, dissent, and operating limits for reference access."
+
+#. appraisalDestinations.kourindou.name
+#: src/data/appraisal.js:27
+msgctxt "text:appraisalDestinations.kourindou.name"
+msgid "Kourindou Consignment Shelf"
+msgstr "Kourindou Consignment Shelf"
+
+#. appraisalDestinations.kourindou.note
+#: src/data/appraisal.js:28
+msgctxt "text:appraisalDestinations.kourindou.note"
+msgid "It may receive a price, though Rinnosuke may still mark it “not for sale yet.”"
+msgstr "It may receive a price, though Rinnosuke may still mark it “not for sale yet.”"
+
+#. appraisalDestinations.kappa.name
+#: src/data/appraisal.js:32
+msgctxt "text:appraisalDestinations.kappa.name"
+msgid "Kappa Reversible Retrofit Bench"
+msgstr "Kappa Reversible Retrofit Bench"
+
+#. appraisalDestinations.kappa.note
+#: src/data/appraisal.js:33
+msgctxt "text:appraisalDestinations.kappa.note"
+msgid "Only removable adapters are approved; tape is not automatically reversible."
+msgstr "Only removable adapters are approved; tape is not automatically reversible."
+
+#. appraisalDestinations.museum.name
+#: src/data/appraisal.js:37
+msgctxt "text:appraisalDestinations.museum.name"
+msgid "Hieda Everyday-History Cabinet"
+msgstr "Hieda Everyday-History Cabinet"
+
+#. appraisalDestinations.museum.note
+#: src/data/appraisal.js:38
+msgctxt "text:appraisalDestinations.museum.note"
+msgid "An Outside life may be preserved without restoring operation."
+msgstr "An Outside life may be preserved without restoring operation."
+
+#. appraisalDestinations.sealed.name
+#: src/data/appraisal.js:42
+msgctxt "text:appraisalDestinations.sealed.name"
+msgid "Deferred-Operation Seal Bag"
+msgstr "Deferred-Operation Seal Bag"
+
+#. appraisalDestinations.sealed.note
+#: src/data/appraisal.js:43
+msgctxt "text:appraisalDestinations.sealed.note"
+msgid "Used for private contents, unknown power, or an object beginning to refuse."
+msgstr "Used for private contents, unknown power, or an object beginning to refuse."
+
+#. appraisalAgencyLevels.none
+#: src/data/appraisal.js:48
+msgctxt "text:appraisalAgencyLevels.none"
+msgid "No autonomous response observed"
+msgstr "No autonomous response observed"
+
+#. appraisalAgencyLevels.watch
+#: src/data/appraisal.js:49
+msgctxt "text:appraisalAgencyLevels.watch"
+msgid "Continued observation required"
+msgstr "Continued observation required"
+
+#. appraisalAgencyLevels.stirring
+#: src/data/appraisal.js:50
+msgctxt "text:appraisalAgencyLevels.stirring"
+msgid "Possible will formation"
+msgstr "Possible will formation"
+
+#. appraisalAgencyLevels.objected
+#: src/data/appraisal.js:51
+msgctxt "text:appraisalAgencyLevels.objected"
+msgid "Explicitly objected to disposition"
+msgstr "Explicitly objected to disposition"
+
+#. appraisalReviewers.rinnosuke.name
+#: src/data/appraisal.js:56
+msgctxt "text:appraisalReviewers.rinnosuke.name"
+msgid "Rinnosuke Morichika"
+msgstr "Rinnosuke Morichika"
+
+#. appraisalReviewers.rinnosuke.role
+#: src/data/appraisal.js:57
+msgctxt "text:appraisalReviewers.rinnosuke.role"
+msgid "Name and purpose examiner"
+msgstr "Name and purpose examiner"
+
+#. appraisalReviewers.ran.name
+#: src/data/appraisal.js:60
+msgctxt "text:appraisalReviewers.ran.name"
+msgid "Ran Yakumo"
+msgstr "Ran Yakumo"
+
+#. appraisalReviewers.ran.role
+#: src/data/appraisal.js:61
+msgctxt "text:appraisalReviewers.ran.role"
+msgid "Boundary provenance and version cataloguing"
+msgstr "Boundary provenance and version cataloguing"
+
+#. appraisalReviewers.nitori.name
+#: src/data/appraisal.js:64
+msgctxt "text:appraisalReviewers.nitori.name"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. appraisalReviewers.nitori.role
+#: src/data/appraisal.js:65
+msgctxt "text:appraisalReviewers.nitori.role"
+msgid "Mechanism and reversible retrofit"
+msgstr "Mechanism and reversible retrofit"
+
+#. appraisalReviewers.kogasa.name
+#: src/data/appraisal.js:68
+msgctxt "text:appraisalReviewers.kogasa.name"
+msgid "Kogasa Tatara"
+msgstr "Kogasa Tatara"
+
+#. appraisalReviewers.kogasa.role
+#: src/data/appraisal.js:69
+msgctxt "text:appraisalReviewers.kogasa.role"
+msgid "Forgotten-tool lived-experience adviser"
+msgstr "Forgotten-tool lived-experience adviser"
+
+#. appraisalObjects.thermal-printer.name
+#: src/data/appraisal.js:78
+msgctxt "text:appraisalObjects.thermal-printer.name"
+msgid "Small printer with no ink"
+msgstr "Small printer with no ink"
+
+#. appraisalObjects.thermal-printer.workingTitle
+#: src/data/appraisal.js:79
+msgctxt "text:appraisalObjects.thermal-printer.workingTitle"
+msgid "Box that issues blank fortune slips"
+msgstr "Box that issues blank fortune slips"
+
+#. appraisalObjects.thermal-printer.arrival
+#: src/data/appraisal.js:80
+msgctxt "text:appraisalObjects.thermal-printer.arrival"
+msgid "Recovered beside the Beast Path with a faded adhesive-paper roll"
+msgstr "Recovered beside the Beast Path with a faded adhesive-paper roll"
+
+#. appraisalObjects.thermal-printer.condition
+#: src/data/appraisal.js:81
+msgctxt "text:appraisalObjects.thermal-printer.condition"
+msgid "Power supply missing; cutter dulled; half an Outside shipping label remains"
+msgstr "Power supply missing; cutter dulled; half an Outside shipping label remains"
+
+#. appraisalObjects.thermal-printer.truth.intended
+#: src/data/appraisal.js:103
+msgctxt "text:appraisalObjects.thermal-printer.truth.intended"
+msgid "Outside logistics and retail thermal label printer"
+msgstr "Outside logistics and retail thermal label printer"
+
+#. appraisalObjects.thermal-printer.truth.operation
+#: src/data/appraisal.js:104
+msgctxt "text:appraisalObjects.thermal-printer.truth.operation"
+msgid "An external device sends text; a linear thermal head darkens heat-sensitive stock."
+msgstr "An external device sends text; a linear thermal head darkens heat-sensitive stock."
+
+#. appraisalObjects.thermal-printer.truth.caution
+#: src/data/appraisal.js:105
+msgctxt "text:appraisalObjects.thermal-printer.truth.caution"
+msgid "Power requirements are unknown; do not connect directly to a kappa generator."
+msgstr "Power requirements are unknown; do not connect directly to a kappa generator."
+
+#. appraisalObjects.thermal-printer.panel.rinnosuke
+#: src/data/appraisal.js:108
+msgctxt "text:appraisalObjects.thermal-printer.panel.rinnosuke"
+msgid ""
+"The name and purpose are clear. What is unclear is why Outsiders invented "
+"labels, then mass-produced goods that lose them."
+msgstr ""
+"The name and purpose are clear. What is unclear is why Outsiders invented "
+"labels, then mass-produced goods that lose them."
+
+#. appraisalObjects.thermal-printer.panel.ran
+#: src/data/appraisal.js:109
+msgctxt "text:appraisalObjects.thermal-printer.panel.ran"
+msgid ""
+"Object 18 shares a serial with item 12 in the fifth catalogue. Keep both "
+"provenances; do not repair the Outside World’s contradiction."
+msgstr ""
+"Object 18 shares a serial with item 12 in the fifth catalogue. Keep both "
+"provenances; do not repair the Outside World’s contradiction."
+
+#. appraisalObjects.thermal-printer.panel.nitori
+#: src/data/appraisal.js:110
+msgctxt "text:appraisalObjects.thermal-printer.panel.nitori"
+msgid ""
+"I can make a removable power box. “Removable” means three minutes with a "
+"wrench, not the library’s bare-hand standard."
+msgstr ""
+"I can make a removable power box. “Removable” means three minutes with a "
+"wrench, not the library’s bare-hand standard."
+
+#. appraisalObjects.thermal-printer.panel.kogasa
+#: src/data/appraisal.js:111
+msgctxt "text:appraisalObjects.thermal-printer.panel.kogasa"
+msgid ""
+"It was not forgotten for lacking ink. Nobody remembers what paper it needs. "
+"That is a quieter, deeper kind of forgetting."
+msgstr ""
+"It was not forgotten for lacking ink. Nobody remembers what paper it needs. "
+"That is a quieter, deeper kind of forgetting."
+
+#. appraisalObjects.single-earbud.name
+#: src/data/appraisal.js:119
+msgctxt "text:appraisalObjects.single-earbud.name"
+msgid "White earpiece, right side only"
+msgstr "White earpiece, right side only"
+
+#. appraisalObjects.single-earbud.workingTitle
+#: src/data/appraisal.js:120
+msgctxt "text:appraisalObjects.single-earbud.workingTitle"
+msgid "Bean that hides half a sentence in the ear"
+msgstr "Bean that hides half a sentence in the ear"
+
+#. appraisalObjects.single-earbud.arrival
+#: src/data/appraisal.js:121
+msgctxt "text:appraisalObjects.single-earbud.arrival"
+msgid "Found beneath the Hakurei donation box with three Outside coins"
+msgstr "Found beneath the Hakurei donation box with three Outside coins"
+
+#. appraisalObjects.single-earbud.condition
+#: src/data/appraisal.js:122
+msgctxt "text:appraisalObjects.single-earbud.condition"
+msgid "Partner and charging case missing; mesh dusty; emits an occasional brief tone"
+msgstr "Partner and charging case missing; mesh dusty; emits an occasional brief tone"
+
+#. appraisalObjects.single-earbud.truth.intended
+#: src/data/appraisal.js:144
+msgctxt "text:appraisalObjects.single-earbud.truth.intended"
+msgid "Right unit from a paired set of wireless earbuds"
+msgstr "Right unit from a paired set of wireless earbuds"
+
+#. appraisalObjects.single-earbud.truth.operation
+#: src/data/appraisal.js:145
+msgctxt "text:appraisalObjects.single-earbud.truth.operation"
+msgid ""
+"Pairs with a playback device and dedicated charging case; the single unit "
+"may retain a small charge."
+msgstr ""
+"Pairs with a playback device and dedicated charging case; the single unit "
+"may retain a small charge."
+
+#. appraisalObjects.single-earbud.truth.caution
+#: src/data/appraisal.js:146
+msgctxt "text:appraisalObjects.single-earbud.truth.caution"
+msgid "Pairing data and volume are unknown; do not test in an ear."
+msgstr "Pairing data and volume are unknown; do not test in an ear."
+
+#. appraisalObjects.single-earbud.panel.rinnosuke
+#: src/data/appraisal.js:149
+msgctxt "text:appraisalObjects.single-earbud.panel.rinnosuke"
+msgid ""
+"I know it is a wireless earbud and that it is for listening. My ability does "
+"not include the location of its other half."
+msgstr ""
+"I know it is a wireless earbud and that it is for listening. My ability does "
+"not include the location of its other half."
+
+#. appraisalObjects.single-earbud.panel.ran
+#: src/data/appraisal.js:150
+msgctxt "text:appraisalObjects.single-earbud.panel.ran"
+msgid ""
+"R has three readings: right, model mark, or owner initial. The catalogue "
+"should retain all three, not choose the most dramatic."
+msgstr ""
+"R has three readings: right, model mark, or owner initial. The catalogue "
+"should retain all three, not choose the most dramatic."
+
+#. appraisalObjects.single-earbud.panel.nitori
+#: src/data/appraisal.js:151
+msgctxt "text:appraisalObjects.single-earbud.panel.nitori"
+msgid ""
+"In theory I can make a charger. In practice I need the voltage first. Print "
+"that sentence larger than “in theory.”"
+msgstr ""
+"In theory I can make a charger. In practice I need the voltage first. Print "
+"that sentence larger than “in theory.”"
+
+#. appraisalObjects.single-earbud.panel.kogasa
+#: src/data/appraisal.js:152
+msgctxt "text:appraisalObjects.single-earbud.panel.kogasa"
+msgid "Paired tools hate being treated as half-broken. It may simply be waiting, not broken."
+msgstr "Paired tools hate being treated as half-broken. It may simply be waiting, not broken."
+
+#. appraisalObjects.transit-card.name
+#: src/data/appraisal.js:160
+msgctxt "text:appraisalObjects.transit-card.name"
+msgid "Deactivated Outside transit card"
+msgstr "Deactivated Outside transit card"
+
+#. appraisalObjects.transit-card.workingTitle
+#: src/data/appraisal.js:161
+msgctxt "text:appraisalObjects.transit-card.workingTitle"
+msgid "Thin plate that once made gates open"
+msgstr "Thin plate that once made gates open"
+
+#. appraisalObjects.transit-card.arrival
+#: src/data/appraisal.js:162
+msgctxt "text:appraisalObjects.transit-card.arrival"
+msgid "Recovered at Muenzuka between a torn pass case and a dry maple leaf"
+msgstr "Recovered at Muenzuka between a torn pass case and a dry maple leaf"
+
+#. appraisalObjects.transit-card.condition
+#: src/data/appraisal.js:163
+msgctxt "text:appraisalObjects.transit-card.condition"
+msgid "Surface worn; fragmentary route map printed; internal coil intact but service retired"
+msgstr "Surface worn; fragmentary route map printed; internal coil intact but service retired"
+
+#. appraisalObjects.transit-card.truth.intended
+#: src/data/appraisal.js:185
+msgctxt "text:appraisalObjects.transit-card.truth.intended"
+msgid "Outside public-transport contactless fare and access card"
+msgstr "Outside public-transport contactless fare and access card"
+
+#. appraisalObjects.transit-card.truth.operation
+#: src/data/appraisal.js:186
+msgctxt "text:appraisalObjects.transit-card.truth.operation"
+msgid ""
+"A gate powers it by near field, reads identity and service data, then "
+"updates fare state."
+msgstr ""
+"A gate powers it by near field, reads identity and service data, then "
+"updates fare state."
+
+#. appraisalObjects.transit-card.truth.caution
+#: src/data/appraisal.js:187
+msgctxt "text:appraisalObjects.transit-card.truth.caution"
+msgid ""
+"The service is retired and may contain former-holder data; isolated minimum "
+"reading only."
+msgstr ""
+"The service is retired and may contain former-holder data; isolated minimum "
+"reading only."
+
+#. appraisalObjects.transit-card.panel.rinnosuke
+#: src/data/appraisal.js:190
+msgctxt "text:appraisalObjects.transit-card.panel.rinnosuke"
+msgid ""
+"Its purpose is passage. My ability is not responsible for Outside companies "
+"going out of service."
+msgstr ""
+"Its purpose is passage. My ability is not responsible for Outside companies "
+"going out of service."
+
+#. appraisalObjects.transit-card.panel.ran
+#: src/data/appraisal.js:191
+msgctxt "text:appraisalObjects.transit-card.panel.ran"
+msgid ""
+"A readable serial is not permission to read all of it. Catalogue the service "
+"class and expiry; leave the former holder inside the seal."
+msgstr ""
+"A readable serial is not permission to read all of it. Catalogue the service "
+"class and expiry; leave the former holder inside the seal."
+
+#. appraisalObjects.transit-card.panel.nitori
+#: src/data/appraisal.js:192
+msgctxt "text:appraisalObjects.transit-card.panel.nitori"
+msgid ""
+"The coil could sense water level—yes, I heard “reversible.” I will use a "
+"clamp, not solder."
+msgstr ""
+"The coil could sense water level—yes, I heard “reversible.” I will use a "
+"clamp, not solder."
+
+#. appraisalObjects.transit-card.panel.kogasa
+#: src/data/appraisal.js:193
+msgctxt "text:appraisalObjects.transit-card.panel.kogasa"
+msgid ""
+"Expired cards are strange. They remember where they went every day, while "
+"the gate pretends not to know them."
+msgstr ""
+"Expired cards are strange. They remember where they went every day, while "
+"the gate pretends not to know them."
+
+#. appraisalObjects.unreadable-disc.name
+#: src/data/appraisal.js:201
+msgctxt "text:appraisalObjects.unreadable-disc.name"
+msgid "Unreadable rainbow disc"
+msgstr "Unreadable rainbow disc"
+
+#. appraisalObjects.unreadable-disc.workingTitle
+#: src/data/appraisal.js:202
+msgctxt "text:appraisalObjects.unreadable-disc.workingTitle"
+msgid "Thin moon with a summer sealed in its surface"
+msgstr "Thin moon with a summer sealed in its surface"
+
+#. appraisalObjects.unreadable-disc.arrival
+#: src/data/appraisal.js:203
+msgctxt "text:appraisalObjects.unreadable-disc.arrival"
+msgid "Bottom of a Kourindou crate; sleeve says “SUMMER 2009 FINAL FINAL2”"
+msgstr "Bottom of a Kourindou crate; sleeve says “SUMMER 2009 FINAL FINAL2”"
+
+#. appraisalObjects.unreadable-disc.condition
+#: src/data/appraisal.js:204
+msgctxt "text:appraisalObjects.unreadable-disc.condition"
+msgid "Outer ring scratched; fingerprints on record face; contents unknown and reader missing"
+msgstr "Outer ring scratched; fingerprints on record face; contents unknown and reader missing"
+
+#. appraisalObjects.unreadable-disc.truth.intended
+#: src/data/appraisal.js:226
+msgctxt "text:appraisalObjects.unreadable-disc.truth.intended"
+msgid "Outside recordable optical data disc"
+msgstr "Outside recordable optical data disc"
+
+#. appraisalObjects.unreadable-disc.truth.operation
+#: src/data/appraisal.js:227
+msgctxt "text:appraisalObjects.unreadable-disc.truth.operation"
+msgid ""
+"A laser reads and writes digital data along a spiral track; format and "
+"permission are unknown."
+msgstr ""
+"A laser reads and writes digital data along a spiral track; format and "
+"permission are unknown."
+
+#. appraisalObjects.unreadable-disc.truth.caution
+#: src/data/appraisal.js:228
+msgctxt "text:appraisalObjects.unreadable-disc.truth.caution"
+msgid ""
+"Unknown private content is not automatically decoded merely because recovery "
+"may be possible."
+msgstr ""
+"Unknown private content is not automatically decoded merely because recovery "
+"may be possible."
+
+#. appraisalObjects.unreadable-disc.panel.rinnosuke
+#: src/data/appraisal.js:231
+msgctxt "text:appraisalObjects.unreadable-disc.panel.rinnosuke"
+msgid ""
+"Its name is recordable optical disc and its purpose is data storage. "
+"“FINAL2” lies outside my ability, and perhaps outside Outsiders’ "
+"explanations."
+msgstr ""
+"Its name is recordable optical disc and its purpose is data storage. "
+"“FINAL2” lies outside my ability, and perhaps outside Outsiders’ "
+"explanations."
+
+#. appraisalObjects.unreadable-disc.panel.ran
+#: src/data/appraisal.js:232
+msgctxt "text:appraisalObjects.unreadable-disc.panel.ran"
+msgid ""
+"Recoverable does not mean readable. Record the permission gap before the "
+"data gap; do not reverse them."
+msgstr ""
+"Recoverable does not mean readable. Record the permission gap before the "
+"data gap; do not reverse them."
+
+#. appraisalObjects.unreadable-disc.panel.nitori
+#: src/data/appraisal.js:233
+msgctxt "text:appraisalObjects.unreadable-disc.panel.nitori"
+msgid ""
+"I have a reader—no, I did not say connect it now. I only want “equipment "
+"available” entered in the minutes."
+msgstr ""
+"I have a reader—no, I did not say connect it now. I only want “equipment "
+"available” entered in the minutes."
+
+#. appraisalObjects.unreadable-disc.panel.kogasa
+#: src/data/appraisal.js:234
+msgctxt "text:appraisalObjects.unreadable-disc.panel.kogasa"
+msgid ""
+"Everyone wants to know what is inside. Nobody asks whether it means to keep "
+"the final ring unread."
+msgstr ""
+"Everyone wants to know what is inside. Nobody asks whether it means to keep "
+"the final ring unread."
+
+#. appraisalObjects.disposable-camera.name
+#: src/data/appraisal.js:242
+msgctxt "text:appraisalObjects.disposable-camera.name"
+msgid "Single-use camera with three frames remaining"
+msgstr "Single-use camera with three frames remaining"
+
+#. appraisalObjects.disposable-camera.workingTitle
+#: src/data/appraisal.js:243
+msgctxt "text:appraisalObjects.disposable-camera.workingTitle"
+msgid "Cardboard eye that may remember strangers"
+msgstr "Cardboard eye that may remember strangers"
+
+#. appraisalObjects.disposable-camera.arrival
+#: src/data/appraisal.js:244
+msgctxt "text:appraisalObjects.disposable-camera.arrival"
+msgid "Recovered above a Bamboo Forest drain, wrapped in dry cloth by rabbits"
+msgstr "Recovered above a Bamboo Forest drain, wrapped in dry cloth by rabbits"
+
+#. appraisalObjects.disposable-camera.condition
+#: src/data/appraisal.js:245
+msgctxt "text:appraisalObjects.disposable-camera.condition"
+msgid "Case damp but intact; counter shows 3; flash capacitor condition unknown"
+msgstr "Case damp but intact; counter shows 3; flash capacitor condition unknown"
+
+#. appraisalObjects.disposable-camera.truth.intended
+#: src/data/appraisal.js:267
+msgctxt "text:appraisalObjects.disposable-camera.truth.intended"
+msgid "Preloaded single-use camera returned whole for film processing"
+msgstr "Preloaded single-use camera returned whole for film processing"
+
+#. appraisalObjects.disposable-camera.truth.operation
+#: src/data/appraisal.js:268
+msgctxt "text:appraisalObjects.disposable-camera.truth.operation"
+msgid "A fixed lens exposes film; simple mechanisms control winding, shutter, and flash."
+msgstr "A fixed lens exposes film; simple mechanisms control winding, shutter, and flash."
+
+#. appraisalObjects.disposable-camera.truth.caution
+#: src/data/appraisal.js:269
+msgctxt "text:appraisalObjects.disposable-camera.truth.caution"
+msgid ""
+"Unknown images raise privacy, unused frames require consent, and the flash "
+"capacitor raises safety concerns."
+msgstr ""
+"Unknown images raise privacy, unused frames require consent, and the flash "
+"capacitor raises safety concerns."
+
+#. appraisalObjects.disposable-camera.panel.rinnosuke
+#: src/data/appraisal.js:272
+msgctxt "text:appraisalObjects.disposable-camera.panel.rinnosuke"
+msgid ""
+"I can state its name and purpose. Exposed contents are not “purpose.” Do not "
+"turn my ability into a darkroom for peeking."
+msgstr ""
+"I can state its name and purpose. Exposed contents are not “purpose.” Do not "
+"turn my ability into a darkroom for peeking."
+
+#. appraisalObjects.disposable-camera.panel.ran
+#: src/data/appraisal.js:273
+msgctxt "text:appraisalObjects.disposable-camera.panel.ran"
+msgid ""
+"The provenance chain stops at the rabbit’s dry cloth. A gap is not blanket "
+"permission; it is an unknown to preserve."
+msgstr ""
+"The provenance chain stops at the rabbit’s dry cloth. A gap is not blanket "
+"permission; it is an unknown to preserve."
+
+#. appraisalObjects.disposable-camera.panel.nitori
+#: src/data/appraisal.js:274
+msgctxt "text:appraisalObjects.disposable-camera.panel.nitori"
+msgid ""
+"We can tell the mechanism is not entirely dead without opening it. I support "
+"sealing this one: “can move” is not “should move now.”"
+msgstr ""
+"We can tell the mechanism is not entirely dead without opening it. I support "
+"sealing this one: “can move” is not “should move now.”"
+
+#. appraisalObjects.disposable-camera.panel.kogasa
+#: src/data/appraisal.js:275
+msgctxt "text:appraisalObjects.disposable-camera.panel.kogasa"
+msgid ""
+"A camera’s best surprise is suddenly meeting your former self. "
+"Unfortunately, nobody agreed to that surprise this time."
+msgstr ""
+"A camera’s best surprise is suddenly meeting your former self. "
+"Unfortunately, nobody agreed to that surprise this time."
+
+#. appraisalObjects.orphan-controller.name
+#: src/data/appraisal.js:283
+msgctxt "text:appraisalObjects.orphan-controller.name"
+msgid "Game controller without its console"
+msgstr "Game controller without its console"
+
+#. appraisalObjects.orphan-controller.workingTitle
+#: src/data/appraisal.js:284
+msgctxt "text:appraisalObjects.orphan-controller.workingTitle"
+msgid "Twin-handled device that refuses to admit input"
+msgstr "Twin-handled device that refuses to admit input"
+
+#. appraisalObjects.orphan-controller.arrival
+#: src/data/appraisal.js:285
+msgctxt "text:appraisalObjects.orphan-controller.arrival"
+msgid "Kappa swap-meet return basket with note: “not waterproof, poor rating”"
+msgstr "Kappa swap-meet return basket with note: “not waterproof, poor rating”"
+
+#. appraisalObjects.orphan-controller.condition
+#: src/data/appraisal.js:286
+msgctxt "text:appraisalObjects.orphan-controller.condition"
+msgid "Buttons intact; cable end unfamiliar; moving mass inside grips"
+msgstr "Buttons intact; cable end unfamiliar; moving mass inside grips"
+
+#. appraisalObjects.orphan-controller.truth.intended
+#: src/data/appraisal.js:308
+msgctxt "text:appraisalObjects.orphan-controller.truth.intended"
+msgid "Wired controller for a particular electronic game console"
+msgstr "Wired controller for a particular electronic game console"
+
+#. appraisalObjects.orphan-controller.truth.operation
+#: src/data/appraisal.js:309
+msgctxt "text:appraisalObjects.orphan-controller.truth.operation"
+msgid "Sends button and stick state to a console and receives commands for vibration motors."
+msgstr "Sends button and stick state to a console and receives commands for vibration motors."
+
+#. appraisalObjects.orphan-controller.truth.caution
+#: src/data/appraisal.js:310
+msgctxt "text:appraisalObjects.orphan-controller.truth.caution"
+msgid "Port voltage is unknown; any adapter must be isolated and removable."
+msgstr "Port voltage is unknown; any adapter must be isolated and removable."
+
+#. appraisalObjects.orphan-controller.panel.rinnosuke
+#: src/data/appraisal.js:313
+msgctxt "text:appraisalObjects.orphan-controller.panel.rinnosuke"
+msgid ""
+"It is a game controller, for controlling a game. That does not locate the "
+"game, just as naming a key does not provide a house."
+msgstr ""
+"It is a game controller, for controlling a game. That does not locate the "
+"game, just as naming a key does not provide a house."
+
+#. appraisalObjects.orphan-controller.panel.ran
+#: src/data/appraisal.js:314
+msgctxt "text:appraisalObjects.orphan-controller.panel.ran"
+msgid ""
+"Controller, console, software, and version are four separate gaps. “Console "
+"missing” falsely implies the other three remain."
+msgstr ""
+"Controller, console, software, and version are four separate gaps. “Console "
+"missing” falsely implies the other three remain."
+
+#. appraisalObjects.orphan-controller.panel.nitori
+#: src/data/appraisal.js:315
+msgctxt "text:appraisalObjects.orphan-controller.panel.nitori"
+msgid ""
+"This matrix is elegant. I am building an external adapter, not "
+"“incidentally” cutting the original cable. Move the cutters."
+msgstr ""
+"This matrix is elegant. I am building an external adapter, not "
+"“incidentally” cutting the original cable. Move the cutters."
+
+#. appraisalObjects.orphan-controller.panel.kogasa
+#: src/data/appraisal.js:316
+msgctxt "text:appraisalObjects.orphan-controller.panel.kogasa"
+msgid ""
+"Every button expects to cause something, yet now nothing happens. That can "
+"anger a tool more than being broken."
+msgstr ""
+"Every button expects to cause something, yet now nothing happens. That can "
+"anger a tool more than being broken."
+
+#. appraisalObjects.orphan-cable.name
+#: src/data/appraisal.js:324
+msgctxt "text:appraisalObjects.orphan-cable.name"
+msgid "White charging cable with no matching socket"
+msgstr "White charging cable with no matching socket"
+
+#. appraisalObjects.orphan-cable.workingTitle
+#: src/data/appraisal.js:325
+msgctxt "text:appraisalObjects.orphan-cable.workingTitle"
+msgid "Both ends know where to go; the desk has neither destination"
+msgstr "Both ends know where to go; the desk has neither destination"
+
+#. appraisalObjects.orphan-cable.arrival
+#: src/data/appraisal.js:326
+msgctxt "text:appraisalObjects.orphan-cable.arrival"
+msgid "Inside a drift bottle on the Misty Lake shore with a faded shopping list"
+msgstr "Inside a drift bottle on the Misty Lake shore with a faded shopping list"
+
+#. appraisalObjects.orphan-cable.condition
+#: src/data/appraisal.js:327
+msgctxt "text:appraisalObjects.orphan-cable.condition"
+msgid "Jacket yellowed but intact; one end broadly standard, the other discontinued"
+msgstr "Jacket yellowed but intact; one end broadly standard, the other discontinued"
+
+#. appraisalObjects.orphan-cable.truth.intended
+#: src/data/appraisal.js:349
+msgctxt "text:appraisalObjects.orphan-cable.truth.intended"
+msgid "Charging and data cable for an older mobile electronic device"
+msgstr "Charging and data cable for an older mobile electronic device"
+
+#. appraisalObjects.orphan-cable.truth.operation
+#: src/data/appraisal.js:350
+msgctxt "text:appraisalObjects.orphan-cable.truth.operation"
+msgid "Carries power and serial data between a host or supply and a particular obsolete device."
+msgstr "Carries power and serial data between a host or supply and a particular obsolete device."
+
+#. appraisalObjects.orphan-cable.truth.caution
+#: src/data/appraisal.js:351
+msgctxt "text:appraisalObjects.orphan-cable.truth.caution"
+msgid "Similar-looking connectors may differ in voltage and wiring; no trial insertion."
+msgstr "Similar-looking connectors may differ in voltage and wiring; no trial insertion."
+
+#. appraisalObjects.orphan-cable.panel.rinnosuke
+#: src/data/appraisal.js:354
+msgctxt "text:appraisalObjects.orphan-cable.panel.rinnosuke"
+msgid ""
+"It is a charging data cable. Its purpose requires both ends, so with one end "
+"lost my answer becomes half a sentence."
+msgstr ""
+"It is a charging data cable. Its purpose requires both ends, so with one end "
+"lost my answer becomes half a sentence."
+
+#. appraisalObjects.orphan-cable.panel.ran
+#: src/data/appraisal.js:355
+msgctxt "text:appraisalObjects.orphan-cable.panel.ran"
+msgid ""
+"The “universal end” merely survived longer; the other end is not wrong. Do "
+"not let the winning standard rewrite the losing one’s history."
+msgstr ""
+"The “universal end” merely survived longer; the other end is not wrong. Do "
+"not let the winning standard rewrite the losing one’s history."
+
+#. appraisalObjects.orphan-cable.panel.nitori
+#: src/data/appraisal.js:356
+msgctxt "text:appraisalObjects.orphan-cable.panel.nitori"
+msgid ""
+"I can make an adapter. That proves we can connect, not that we should power "
+"an unknown device."
+msgstr ""
+"I can make an adapter. That proves we can connect, not that we should power "
+"an unknown device."
+
+#. appraisalObjects.orphan-cable.panel.kogasa
+#: src/data/appraisal.js:357
+msgctxt "text:appraisalObjects.orphan-cable.panel.kogasa"
+msgid ""
+"The worst thing for a cable is not breaking. It is keeping both ends while "
+"nothing needs either."
+msgstr ""
+"The worst thing for a cable is not breaking. It is keeping both ends while "
+"nothing needs either."
+
+#. appraisalObjects.frozen-reader.name
+#: src/data/appraisal.js:365
+msgctxt "text:appraisalObjects.frozen-reader.name"
+msgid "Electronic reader frozen on one page"
+msgstr "Electronic reader frozen on one page"
+
+#. appraisalObjects.frozen-reader.workingTitle
+#: src/data/appraisal.js:366
+msgctxt "text:appraisalObjects.frozen-reader.workingTitle"
+msgid "Book that refuses to close after losing power"
+msgstr "Book that refuses to close after losing power"
+
+#. appraisalObjects.frozen-reader.arrival
+#: src/data/appraisal.js:367
+msgctxt "text:appraisalObjects.frozen-reader.arrival"
+msgid "Kourindou windowsill; reportedly unchanged on the same page for seven years"
+msgstr "Kourindou windowsill; reportedly unchanged on the same page for seven years"
+
+#. appraisalObjects.frozen-reader.condition
+#: src/data/appraisal.js:368
+msgctxt "text:appraisalObjects.frozen-reader.condition"
+msgid "Will not start; half a page remains visible; charging port and battery condition unknown"
+msgstr "Will not start; half a page remains visible; charging port and battery condition unknown"
+
+#. appraisalObjects.frozen-reader.truth.intended
+#: src/data/appraisal.js:390
+msgctxt "text:appraisalObjects.frozen-reader.truth.intended"
+msgid "Electronic reader using bistable electronic paper for multiple digital texts"
+msgstr "Electronic reader using bistable electronic paper for multiple digital texts"
+
+#. appraisalObjects.frozen-reader.truth.operation
+#: src/data/appraisal.js:391
+msgctxt "text:appraisalObjects.frozen-reader.truth.operation"
+msgid ""
+"Stores digital documents and rearranges charged pigment particles on page "
+"turns; a static page needs almost no power."
+msgstr ""
+"Stores digital documents and rearranges charged pigment particles on page "
+"turns; a static page needs almost no power."
+
+#. appraisalObjects.frozen-reader.truth.caution
+#: src/data/appraisal.js:392
+msgctxt "text:appraisalObjects.frozen-reader.truth.caution"
+msgid ""
+"The unknown battery may swell, and content provenance is unclear; isolate "
+"and inspect before waking."
+msgstr ""
+"The unknown battery may swell, and content provenance is unclear; isolate "
+"and inspect before waking."
+
+#. appraisalObjects.frozen-reader.panel.rinnosuke
+#: src/data/appraisal.js:395
+msgctxt "text:appraisalObjects.frozen-reader.panel.rinnosuke"
+msgid ""
+"It is an electronic book reader, used for reading. Paper pages need no power "
+"to exist either; persisting after power loss is no more mysterious than an "
+"ordinary book."
+msgstr ""
+"It is an electronic book reader, used for reading. Paper pages need no power "
+"to exist either; persisting after power loss is no more mysterious than an "
+"ordinary book."
+
+#. appraisalObjects.frozen-reader.panel.ran
+#: src/data/appraisal.js:396
+msgctxt "text:appraisalObjects.frozen-reader.panel.ran"
+msgid ""
+"The display is one page of one version, not the whole holding. Catalogue "
+"device, document, edition, and visible page separately."
+msgstr ""
+"The display is one page of one version, not the whole holding. Catalogue "
+"device, document, edition, and visible page separately."
+
+#. appraisalObjects.frozen-reader.panel.nitori
+#: src/data/appraisal.js:397
+msgctxt "text:appraisalObjects.frozen-reader.panel.nitori"
+msgid ""
+"I want to turn one page, and I want to know why I want that. This usually "
+"means building a battery model instead of gambling with a handy supply."
+msgstr ""
+"I want to turn one page, and I want to know why I want that. This usually "
+"means building a battery model instead of gambling with a handy supply."
+
+#. appraisalObjects.frozen-reader.panel.kogasa
+#: src/data/appraisal.js:398
+msgctxt "text:appraisalObjects.frozen-reader.panel.kogasa"
+msgid ""
+"It has spent seven years inside one sentence. Perhaps it cannot turn—or "
+"perhaps someone finally agreed to wait until it finishes being on this page."
+msgstr ""
+"It has spent seven years inside one sentence. Perhaps it cannot turn—or "
+"perhaps someone finally agreed to wait until it finishes being on this page."
+
+#. appraisalObjects.thermal-printer.evidence.0.slot.1
+#: src/data/appraisal.js:83
+msgctxt "text:appraisalObjects.thermal-printer.evidence.0.slot.1"
+msgid "Rubber roller and fine toothed cutter behind a narrow slot"
+msgstr "Rubber roller and fine toothed cutter behind a narrow slot"
+
+#. appraisalObjects.thermal-printer.evidence.0.slot.2
+#: src/data/appraisal.js:83
+msgctxt "text:appraisalObjects.thermal-printer.evidence.0.slot.2"
+msgid "The path suits continuous paper rather than liquid ink."
+msgstr "The path suits continuous paper rather than liquid ink."
+
+#. appraisalObjects.thermal-printer.evidence.1.residue.1
+#: src/data/appraisal.js:84
+msgctxt "text:appraisalObjects.thermal-printer.evidence.1.residue.1"
+msgid "No ink residue; heat-darkened paper fibres cling to the roller"
+msgstr "No ink residue; heat-darkened paper fibres cling to the roller"
+
+#. appraisalObjects.thermal-printer.evidence.1.residue.2
+#: src/data/appraisal.js:84
+msgctxt "text:appraisalObjects.thermal-printer.evidence.1.residue.2"
+msgid "Blank output may indicate the wrong paper rather than missing ink."
+msgstr "Blank output may indicate the wrong paper rather than missing ink."
+
+#. appraisalObjects.thermal-printer.evidence.2.marks.1
+#: src/data/appraisal.js:85
+msgctxt "text:appraisalObjects.thermal-printer.evidence.2.marks.1"
+msgid "Underside marks show DC, USB, and a crossed-out bin"
+msgstr "Underside marks show DC, USB, and a crossed-out bin"
+
+#. appraisalObjects.thermal-printer.evidence.2.marks.2
+#: src/data/appraisal.js:85
+msgctxt "text:appraisalObjects.thermal-printer.evidence.2.marks.2"
+msgid "It expects external power and content from another device."
+msgstr "It expects external power and content from another device."
+
+#. appraisalObjects.thermal-printer.hypotheses.0.fortune.1
+#: src/data/appraisal.js:88
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.0.fortune.1"
+msgid "Shrine tube that selects and cuts fortunes"
+msgstr "Shrine tube that selects and cuts fortunes"
+
+#. appraisalObjects.thermal-printer.hypotheses.0.fortune.2
+#: src/data/appraisal.js:88
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.0.fortune.2"
+msgid "Adhesive paper prevents fortunes blowing away; the gods supply the writing."
+msgstr "Adhesive paper prevents fortunes blowing away; the gods supply the writing."
+
+#. appraisalObjects.thermal-printer.hypotheses.1.label-printer.1
+#: src/data/appraisal.js:89
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.1.label-printer.1"
+msgid "Thermal label printer"
+msgstr "Thermal label printer"
+
+#. appraisalObjects.thermal-printer.hypotheses.1.label-printer.2
+#: src/data/appraisal.js:89
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.1.label-printer.2"
+msgid "It prints by heating special stock, then cuts the continuous strip."
+msgstr "It prints by heating special stock, then cuts the continuous strip."
+
+#. appraisalObjects.thermal-printer.hypotheses.2.name-stamper.1
+#: src/data/appraisal.js:90
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.2.name-stamper.1"
+msgid "Name-sealer for objects that have lost their names"
+msgstr "Name-sealer for objects that have lost their names"
+
+#. appraisalObjects.thermal-printer.hypotheses.2.name-stamper.2
+#: src/data/appraisal.js:90
+msgctxt "text:appraisalObjects.thermal-printer.hypotheses.2.name-stamper.2"
+msgid "USB may be an Outside abbreviation for transmitting true names."
+msgstr "USB may be an Outside abbreviation for transmitting true names."
+
+#. appraisalObjects.thermal-printer.tests.0.raking-light.1
+#: src/data/appraisal.js:93
+msgctxt "text:appraisalObjects.thermal-printer.tests.0.raking-light.1"
+msgid "Raking-light paper-path inspection"
+msgstr "Raking-light paper-path inspection"
+
+#. appraisalObjects.thermal-printer.tests.0.raking-light.2
+#: src/data/appraisal.js:93
+msgctxt "text:appraisalObjects.thermal-printer.tests.0.raking-light.2"
+msgid "Trace roller, sensor, and cutter under angled light without opening the shell."
+msgstr "Trace roller, sensor, and cutter under angled light without opening the shell."
+
+#. appraisalObjects.thermal-printer.tests.0.raking-light.3
+#: src/data/appraisal.js:93
+msgctxt "text:appraisalObjects.thermal-printer.tests.0.raking-light.3"
+msgid "The roll path reaches a linear ceramic element; there is no ink chamber."
+msgstr "The roll path reaches a linear ceramic element; there is no ink chamber."
+
+#. appraisalObjects.thermal-printer.tests.1.paper-scrap.1
+#: src/data/appraisal.js:94
+msgctxt "text:appraisalObjects.thermal-printer.tests.1.paper-scrap.1"
+msgid "Catalogue paper-scrap comparison"
+msgstr "Catalogue paper-scrap comparison"
+
+#. appraisalObjects.thermal-printer.tests.1.paper-scrap.2
+#: src/data/appraisal.js:94
+msgctxt "text:appraisalObjects.thermal-printer.tests.1.paper-scrap.2"
+msgid "Warm only a detached fibre sample; do not power the object."
+msgstr "Warm only a detached fibre sample; do not power the object."
+
+#. appraisalObjects.thermal-printer.tests.1.paper-scrap.3
+#: src/data/appraisal.js:94
+msgctxt "text:appraisalObjects.thermal-printer.tests.1.paper-scrap.3"
+msgid "The scrap blackens evenly. Reimu withdraws the budget request for divine handwriting."
+msgstr "The scrap blackens evenly. Reimu withdraws the budget request for divine handwriting."
+
+#. appraisalObjects.thermal-printer.tests.2.passive-port.1
+#: src/data/appraisal.js:95
+msgctxt "text:appraisalObjects.thermal-printer.tests.2.passive-port.1"
+msgid "Passive port-shape comparison"
+msgstr "Passive port-shape comparison"
+
+#. appraisalObjects.thermal-printer.tests.2.passive-port.2
+#: src/data/appraisal.js:95
+msgctxt "text:appraisalObjects.thermal-printer.tests.2.passive-port.2"
+msgid "Measure with a wooden gauge; insert no kappa adapter."
+msgstr "Measure with a wooden gauge; insert no kappa adapter."
+
+#. appraisalObjects.thermal-printer.tests.2.passive-port.3
+#: src/data/appraisal.js:95
+msgctxt "text:appraisalObjects.thermal-printer.tests.2.passive-port.3"
+msgid ""
+"The port matches an older data connector. Nitori says her hydraulic plug was "
+"“nearly right.”"
+msgstr ""
+"The port matches an older data connector. Nitori says her hydraulic plug was "
+"“nearly right.”"
+
+#. appraisalObjects.thermal-printer.uses.0.shelf-labels.1
+#: src/data/appraisal.js:98
+msgctxt "text:appraisalObjects.thermal-printer.uses.0.shelf-labels.1"
+msgid "Temporary call labels for moving shelves"
+msgstr "Temporary call labels for moving shelves"
+
+#. appraisalObjects.thermal-printer.uses.0.shelf-labels.2
+#: src/data/appraisal.js:98
+msgctxt "text:appraisalObjects.thermal-printer.uses.0.shelf-labels.2"
+msgid "Until the label peels off, staff know where the shelf was yesterday."
+msgstr "Until the label peels off, staff know where the shelf was yesterday."
+
+#. appraisalObjects.thermal-printer.uses.1.fortune-corrections.1
+#: src/data/appraisal.js:99
+msgctxt "text:appraisalObjects.thermal-printer.uses.1.fortune-corrections.1"
+msgid "Fortune-slip corrections only"
+msgstr "Fortune-slip corrections only"
+
+#. appraisalObjects.thermal-printer.uses.1.fortune-corrections.2
+#: src/data/appraisal.js:99
+msgctxt "text:appraisalObjects.thermal-printer.uses.1.fortune-corrections.2"
+msgid "Reimu agrees if corrections do not cost more than the fortune itself."
+msgstr "Reimu agrees if corrections do not cost more than the fortune itself."
+
+#. appraisalObjects.thermal-printer.uses.2.valve-tags.1
+#: src/data/appraisal.js:100
+msgctxt "text:appraisalObjects.thermal-printer.uses.2.valve-tags.1"
+msgid "Kappa valve warning labels"
+msgstr "Kappa valve warning labels"
+
+#. appraisalObjects.thermal-printer.uses.2.valve-tags.2
+#: src/data/appraisal.js:100
+msgctxt "text:appraisalObjects.thermal-printer.uses.2.valve-tags.2"
+msgid "Nitori promises labels before leakage, without saying how long before."
+msgstr "Nitori promises labels before leakage, without saying how long before."
+
+#. appraisalObjects.single-earbud.evidence.0.mesh.1
+#: src/data/appraisal.js:124
+msgctxt "text:appraisalObjects.single-earbud.evidence.0.mesh.1"
+msgid "One face has an acoustic port and debris mesh"
+msgstr "One face has an acoustic port and debris mesh"
+
+#. appraisalObjects.single-earbud.evidence.0.mesh.2
+#: src/data/appraisal.js:124
+msgctxt "text:appraisalObjects.single-earbud.evidence.0.mesh.2"
+msgid "Its geometry fits an ear, not a seed or charm."
+msgstr "Its geometry fits an ear, not a seed or charm."
+
+#. appraisalObjects.single-earbud.evidence.1.contacts.1
+#: src/data/appraisal.js:125
+msgctxt "text:appraisalObjects.single-earbud.evidence.1.contacts.1"
+msgid "Two underside contacts show even wear"
+msgstr "Two underside contacts show even wear"
+
+#. appraisalObjects.single-earbud.evidence.1.contacts.2
+#: src/data/appraisal.js:125
+msgctxt "text:appraisalObjects.single-earbud.evidence.1.contacts.2"
+msgid "It was repeatedly seated in a missing container."
+msgstr "It was repeatedly seated in a missing container."
+
+#. appraisalObjects.single-earbud.evidence.2.letter.1
+#: src/data/appraisal.js:126
+msgctxt "text:appraisalObjects.single-earbud.evidence.2.letter.1"
+msgid "A tiny R and serial appear inside"
+msgstr "A tiny R and serial appear inside"
+
+#. appraisalObjects.single-earbud.evidence.2.letter.2
+#: src/data/appraisal.js:126
+msgctxt "text:appraisalObjects.single-earbud.evidence.2.letter.2"
+msgid "R may mean right; do not immediately assign ownership to Reimu."
+msgstr "R may mean right; do not immediately assign ownership to Reimu."
+
+#. appraisalObjects.single-earbud.hypotheses.0.whisper-charm.1
+#: src/data/appraisal.js:129
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.0.whisper-charm.1"
+msgid "Communication charm that places distant whispers in the ear"
+msgstr "Communication charm that places distant whispers in the ear"
+
+#. appraisalObjects.single-earbud.hypotheses.0.whisper-charm.2
+#: src/data/appraisal.js:129
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.0.whisper-charm.2"
+msgid "The tone is a knock from elsewhere; the pairing rite is lost."
+msgstr "The tone is a knock from elsewhere; the pairing rite is lost."
+
+#. appraisalObjects.single-earbud.hypotheses.1.wireless-earbud.1
+#: src/data/appraisal.js:130
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.1.wireless-earbud.1"
+msgid "Right half of a paired wireless earbud"
+msgstr "Right half of a paired wireless earbud"
+
+#. appraisalObjects.single-earbud.hypotheses.1.wireless-earbud.2
+#: src/data/appraisal.js:130
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.1.wireless-earbud.2"
+msgid "It receives sound from another device and recharges in the missing case."
+msgstr "It receives sound from another device and recharges in the missing case."
+
+#. appraisalObjects.single-earbud.hypotheses.2.dream-seed.1
+#: src/data/appraisal.js:131
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.2.dream-seed.1"
+msgid "Sleep seed that plays only the first half of a dream"
+msgstr "Sleep seed that plays only the first half of a dream"
+
+#. appraisalObjects.single-earbud.hypotheses.2.dream-seed.2
+#: src/data/appraisal.js:131
+msgctxt "text:appraisalObjects.single-earbud.hypotheses.2.dream-seed.2"
+msgid "Only the right remains, so the sleeper never hears the left-hand ending."
+msgstr "Only the right remains, so the sleeper never hears the left-hand ending."
+
+#. appraisalObjects.single-earbud.tests.0.acoustic.1
+#: src/data/appraisal.js:134
+msgctxt "text:appraisalObjects.single-earbud.tests.0.acoustic.1"
+msgid "Contactless acoustic recording"
+msgstr "Contactless acoustic recording"
+
+#. appraisalObjects.single-earbud.tests.0.acoustic.2
+#: src/data/appraisal.js:134
+msgctxt "text:appraisalObjects.single-earbud.tests.0.acoustic.2"
+msgid "Place it in a padded sound box; put it in nobody’s ear."
+msgstr "Place it in a padded sound box; put it in nobody’s ear."
+
+#. appraisalObjects.single-earbud.tests.0.acoustic.3
+#: src/data/appraisal.js:134
+msgctxt "text:appraisalObjects.single-earbud.tests.0.acoustic.3"
+msgid ""
+"A tiny diaphragm makes the tone. It is unlike an insect, though Wriggle "
+"files a minority opinion."
+msgstr ""
+"A tiny diaphragm makes the tone. It is unlike an insect, though Wriggle "
+"files a minority opinion."
+
+#. appraisalObjects.single-earbud.tests.1.magnetic-map.1
+#: src/data/appraisal.js:135
+msgctxt "text:appraisalObjects.single-earbud.tests.1.magnetic-map.1"
+msgid "Weak-field magnetic mapping"
+msgstr "Weak-field magnetic mapping"
+
+#. appraisalObjects.single-earbud.tests.1.magnetic-map.2
+#: src/data/appraisal.js:135
+msgctxt "text:appraisalObjects.single-earbud.tests.1.magnetic-map.2"
+msgid "Read static magnetism only; transmit no pairing signal."
+msgstr "Read static magnetism only; transmit no pairing signal."
+
+#. appraisalObjects.single-earbud.tests.1.magnetic-map.3
+#: src/data/appraisal.js:135
+msgctxt "text:appraisalObjects.single-earbud.tests.1.magnetic-map.3"
+msgid "A small cell sits by the contacts; internal magnets assist seating."
+msgstr "A small cell sits by the contacts; internal magnets assist seating."
+
+#. appraisalObjects.single-earbud.tests.2.case-impression.1
+#: src/data/appraisal.js:136
+msgctxt "text:appraisalObjects.single-earbud.tests.2.case-impression.1"
+msgid "Case-impression wear comparison"
+msgstr "Case-impression wear comparison"
+
+#. appraisalObjects.single-earbud.tests.2.case-impression.2
+#: src/data/appraisal.js:136
+msgctxt "text:appraisalObjects.single-earbud.tests.2.case-impression.2"
+msgid "Take an external clay negative without touching the mesh."
+msgstr "Take an external clay negative without touching the mesh."
+
+#. appraisalObjects.single-earbud.tests.2.case-impression.3
+#: src/data/appraisal.js:136
+msgctxt "text:appraisalObjects.single-earbud.tests.2.case-impression.3"
+msgid "Wear shows angled seating in a dedicated case, not burial in soil."
+msgstr "Wear shows angled seating in a dedicated case, not burial in soil."
+
+#. appraisalObjects.single-earbud.uses.0.lost-pair-beacon.1
+#: src/data/appraisal.js:139
+msgctxt "text:appraisalObjects.single-earbud.uses.0.lost-pair-beacon.1"
+msgid "Lost-and-found partner beacon"
+msgstr "Lost-and-found partner beacon"
+
+#. appraisalObjects.single-earbud.uses.0.lost-pair-beacon.2
+#: src/data/appraisal.js:139
+msgctxt "text:appraisalObjects.single-earbud.uses.0.lost-pair-beacon.2"
+msgid "Make no connection; display shape and serial while awaiting its counterpart."
+msgstr "Make no connection; display shape and serial while awaiting its counterpart."
+
+#. appraisalObjects.single-earbud.uses.1.quiet-exhibit.1
+#: src/data/appraisal.js:140
+msgctxt "text:appraisalObjects.single-earbud.uses.1.quiet-exhibit.1"
+msgid "“Half an object can still be catalogued” exhibit"
+msgstr "“Half an object can still be catalogued” exhibit"
+
+#. appraisalObjects.single-earbud.uses.1.quiet-exhibit.2
+#: src/data/appraisal.js:140
+msgctxt "text:appraisalObjects.single-earbud.uses.1.quiet-exhibit.2"
+msgid "The library refuses to catalogue the missing half as “presumed flown.”"
+msgstr "The library refuses to catalogue the missing half as “presumed flown.”"
+
+#. appraisalObjects.single-earbud.uses.2.fairy-metronome.1
+#: src/data/appraisal.js:141
+msgctxt "text:appraisalObjects.single-earbud.uses.2.fairy-metronome.1"
+msgid "One-ear fairy-choir metronome"
+msgstr "One-ear fairy-choir metronome"
+
+#. appraisalObjects.single-earbud.uses.2.fairy-metronome.2
+#: src/data/appraisal.js:141
+msgctxt "text:appraisalObjects.single-earbud.uses.2.fairy-metronome.2"
+msgid "Safe volume and an actual charging method come first."
+msgstr "Safe volume and an actual charging method come first."
+
+#. appraisalObjects.transit-card.evidence.0.route.1
+#: src/data/appraisal.js:165
+msgctxt "text:appraisalObjects.transit-card.evidence.0.route.1"
+msgid "Station names, line colours, and remnants of an expiry date"
+msgstr "Station names, line colours, and remnants of an expiry date"
+
+#. appraisalObjects.transit-card.evidence.0.route.2
+#: src/data/appraisal.js:165
+msgctxt "text:appraisalObjects.transit-card.evidence.0.route.2"
+msgid "It belonged to a large public passage system."
+msgstr "It belonged to a large public passage system."
+
+#. appraisalObjects.transit-card.evidence.1.coil.1
+#: src/data/appraisal.js:166
+msgctxt "text:appraisalObjects.transit-card.evidence.1.coil.1"
+msgid "Transmitted light reveals a rectangular coil and no replaceable battery"
+msgstr "Transmitted light reveals a rectangular coil and no replaceable battery"
+
+#. appraisalObjects.transit-card.evidence.1.coil.2
+#: src/data/appraisal.js:166
+msgctxt "text:appraisalObjects.transit-card.evidence.1.coil.2"
+msgid "A reader likely powered it through a near field."
+msgstr "A reader likely powered it through a near field."
+
+#. appraisalObjects.transit-card.evidence.2.wear.1
+#: src/data/appraisal.js:167
+msgctxt "text:appraisalObjects.transit-card.evidence.2.wear.1"
+msgid "One corner is polished; edges show repeated removal"
+msgstr "One corner is polished; edges show repeated removal"
+
+#. appraisalObjects.transit-card.evidence.2.wear.2
+#: src/data/appraisal.js:167
+msgctxt "text:appraisalObjects.transit-card.evidence.2.wear.2"
+msgid "It was often drawn quickly, though not necessarily inserted."
+msgstr "It was often drawn quickly, though not necessarily inserted."
+
+#. appraisalObjects.transit-card.hypotheses.0.fare-card.1
+#: src/data/appraisal.js:170
+msgctxt "text:appraisalObjects.transit-card.hypotheses.0.fare-card.1"
+msgid "Contactless transit fare and access card"
+msgstr "Contactless transit fare and access card"
+
+#. appraisalObjects.transit-card.hypotheses.0.fare-card.2
+#: src/data/appraisal.js:170
+msgctxt "text:appraisalObjects.transit-card.hypotheses.0.fare-card.2"
+msgid "Presented near a gate, it verifies access and deducts stored value."
+msgstr "Presented near a gate, it verifies access and deducts stored value."
+
+#. appraisalObjects.transit-card.hypotheses.1.boundary-pass.1
+#: src/data/appraisal.js:171
+msgctxt "text:appraisalObjects.transit-card.hypotheses.1.boundary-pass.1"
+msgid "Outside charm for one boundary crossing"
+msgstr "Outside charm for one boundary crossing"
+
+#. appraisalObjects.transit-card.hypotheses.1.boundary-pass.2
+#: src/data/appraisal.js:171
+msgctxt "text:appraisalObjects.transit-card.hypotheses.1.boundary-pass.2"
+msgid "It reached Gensokyo after expiry; perhaps its one passage was merely delayed."
+msgstr "It reached Gensokyo after expiry; perhaps its one passage was merely delayed."
+
+#. appraisalObjects.transit-card.hypotheses.2.luck-card.1
+#: src/data/appraisal.js:172
+msgctxt "text:appraisalObjects.transit-card.hypotheses.2.luck-card.1"
+msgid "Lottery card that stores daily luck in its coil"
+msgstr "Lottery card that stores daily luck in its coil"
+
+#. appraisalObjects.transit-card.hypotheses.2.luck-card.2
+#: src/data/appraisal.js:172
+msgctxt "text:appraisalObjects.transit-card.hypotheses.2.luck-card.2"
+msgid "The polished corner records years of rubbing for luck."
+msgstr "The polished corner records years of rubbing for luck."
+
+#. appraisalObjects.transit-card.tests.0.field-response.1
+#: src/data/appraisal.js:175
+msgctxt "text:appraisalObjects.transit-card.tests.0.field-response.1"
+msgid "Low-energy near-field response"
+msgstr "Low-energy near-field response"
+
+#. appraisalObjects.transit-card.tests.0.field-response.2
+#: src/data/appraisal.js:175
+msgctxt "text:appraisalObjects.transit-card.tests.0.field-response.2"
+msgid "Ask only whether the card exists using an isolated reader; do not read personal fields."
+msgstr "Ask only whether the card exists using an isolated reader; do not read personal fields."
+
+#. appraisalObjects.transit-card.tests.0.field-response.3
+#: src/data/appraisal.js:175
+msgctxt "text:appraisalObjects.transit-card.tests.0.field-response.3"
+msgid "The coil answers with an identifier frame, but service keys have expired."
+msgstr "The coil answers with an identifier frame, but service keys have expired."
+
+#. appraisalObjects.transit-card.tests.1.route-archive.1
+#: src/data/appraisal.js:176
+msgctxt "text:appraisalObjects.transit-card.tests.1.route-archive.1"
+msgid "Outside route-map layout comparison"
+msgstr "Outside route-map layout comparison"
+
+#. appraisalObjects.transit-card.tests.1.route-archive.2
+#: src/data/appraisal.js:176
+msgctxt "text:appraisalObjects.transit-card.tests.1.route-archive.2"
+msgid "Compare with the fifth catalogue plates without polishing the surface."
+msgstr "Compare with the fifth catalogue plates without polishing the surface."
+
+#. appraisalObjects.transit-card.tests.1.route-archive.3
+#: src/data/appraisal.js:176
+msgctxt "text:appraisalObjects.transit-card.tests.1.route-archive.3"
+msgid ""
+"The colours match commuter rail legends. Ran notes this proves provenance, "
+"not remaining balance."
+msgstr ""
+"The colours match commuter rail legends. Ran notes this proves provenance, "
+"not remaining balance."
+
+#. appraisalObjects.transit-card.tests.2.boundary-reflection.1
+#: src/data/appraisal.js:177
+msgctxt "text:appraisalObjects.transit-card.tests.2.boundary-reflection.1"
+msgid "Boundary-reflection observation"
+msgstr "Boundary-reflection observation"
+
+#. appraisalObjects.transit-card.tests.2.boundary-reflection.2
+#: src/data/appraisal.js:177
+msgctxt "text:appraisalObjects.transit-card.tests.2.boundary-reflection.2"
+msgid "Approach the campus boundary through a seal bag; do not tap through."
+msgstr "Approach the campus boundary through a seal bag; do not tap through."
+
+#. appraisalObjects.transit-card.tests.2.boundary-reflection.3
+#: src/data/appraisal.js:177
+msgctxt "text:appraisalObjects.transit-card.tests.2.boundary-reflection.3"
+msgid ""
+"The boundary classifies it as “expired but confident” and keeps the gate "
+"shut. Yukari declines to define the field."
+msgstr ""
+"The boundary classifies it as “expired but confident” and keeps the gate "
+"shut. Yukari declines to define the field."
+
+#. appraisalObjects.transit-card.uses.0.route-history.1
+#: src/data/appraisal.js:180
+msgctxt "text:appraisalObjects.transit-card.uses.0.route-history.1"
+msgid "Outside commuting-history specimen"
+msgstr "Outside commuting-history specimen"
+
+#. appraisalObjects.transit-card.uses.0.route-history.2
+#: src/data/appraisal.js:180
+msgctxt "text:appraisalObjects.transit-card.uses.0.route-history.2"
+msgid "Preserve wear and expiry; restore no balance."
+msgstr "Preserve wear and expiry; restore no balance."
+
+#. appraisalObjects.transit-card.uses.1.shuttle-token.1
+#: src/data/appraisal.js:181
+msgctxt "text:appraisalObjects.transit-card.uses.1.shuttle-token.1"
+msgid "Rabbit-shuttle queue token"
+msgstr "Rabbit-shuttle queue token"
+
+#. appraisalObjects.transit-card.uses.1.shuttle-token.2
+#: src/data/appraisal.js:181
+msgctxt "text:appraisalObjects.transit-card.uses.1.shuttle-token.2"
+msgid "Reuse the form without claiming the original service remains active."
+msgstr "Reuse the form without claiming the original service remains active."
+
+#. appraisalObjects.transit-card.uses.2.gate-teaching.1
+#: src/data/appraisal.js:182
+msgctxt "text:appraisalObjects.transit-card.uses.2.gate-teaching.1"
+msgid "Boundary-access teaching counterexample"
+msgstr "Boundary-access teaching counterexample"
+
+#. appraisalObjects.transit-card.uses.2.gate-teaching.2
+#: src/data/appraisal.js:182
+msgctxt "text:appraisalObjects.transit-card.uses.2.gate-teaching.2"
+msgid "Demonstrate that readable and authorized are not the same condition."
+msgstr "Demonstrate that readable and authorized are not the same condition."
+
+#. appraisalObjects.unreadable-disc.evidence.0.rings.1
+#: src/data/appraisal.js:206
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.0.rings.1"
+msgid "Fine continuous rings run from centre outward"
+msgstr "Fine continuous rings run from centre outward"
+
+#. appraisalObjects.unreadable-disc.evidence.0.rings.2
+#: src/data/appraisal.js:206
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.0.rings.2"
+msgid "Information may follow one path rather than a magic circle."
+msgstr "Information may follow one path rather than a magic circle."
+
+#. appraisalObjects.unreadable-disc.evidence.1.sleeve.1
+#: src/data/appraisal.js:207
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.1.sleeve.1"
+msgid "Handwritten title is corrected twice and predates the crossing"
+msgstr "Handwritten title is corrected twice and predates the crossing"
+
+#. appraisalObjects.unreadable-disc.evidence.1.sleeve.2
+#: src/data/appraisal.js:207
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.1.sleeve.2"
+msgid "“Final” is a version claim, not proof that the contents were finished."
+msgstr "“Final” is a version claim, not proof that the contents were finished."
+
+#. appraisalObjects.unreadable-disc.evidence.2.fingerprints.1
+#: src/data/appraisal.js:208
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.2.fingerprints.1"
+msgid "Three differently oriented prints cross the reading face"
+msgstr "Three differently oriented prints cross the reading face"
+
+#. appraisalObjects.unreadable-disc.evidence.2.fingerprints.2
+#: src/data/appraisal.js:208
+msgctxt "text:appraisalObjects.unreadable-disc.evidence.2.fingerprints.2"
+msgid "Several people handled it; the sleeve writer need not be the content author."
+msgstr "Several people handled it; the sleeve writer need not be the content author."
+
+#. appraisalObjects.unreadable-disc.hypotheses.0.music-disc.1
+#: src/data/appraisal.js:211
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.0.music-disc.1"
+msgid "Optical disc containing Outside music"
+msgstr "Optical disc containing Outside music"
+
+#. appraisalObjects.unreadable-disc.hypotheses.0.music-disc.2
+#: src/data/appraisal.js:211
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.0.music-disc.2"
+msgid "Light reads the rings; “summer” may name a performance or festival."
+msgstr "Light reads the rings; “summer” may name a performance or festival."
+
+#. appraisalObjects.unreadable-disc.hypotheses.1.data-disc.1
+#: src/data/appraisal.js:212
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.1.data-disc.1"
+msgid "Recordable optical data disc"
+msgstr "Recordable optical data disc"
+
+#. appraisalObjects.unreadable-disc.hypotheses.1.data-disc.2
+#: src/data/appraisal.js:212
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.1.data-disc.2"
+msgid "The handwritten version label and prints resemble a private data backup."
+msgstr "The handwritten version label and prints resemble a private data backup."
+
+#. appraisalObjects.unreadable-disc.hypotheses.2.moon-fragment.1
+#: src/data/appraisal.js:213
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.2.moon-fragment.1"
+msgid "Moon fragment pressed thin and made to remember summer"
+msgstr "Moon fragment pressed thin and made to remember summer"
+
+#. appraisalObjects.unreadable-disc.hypotheses.2.moon-fragment.2
+#: src/data/appraisal.js:213
+msgctxt "text:appraisalObjects.unreadable-disc.hypotheses.2.moon-fragment.2"
+msgid "The rainbow is moonlight trapped in Outside resin."
+msgstr "The rainbow is moonlight trapped in Outside resin."
+
+#. appraisalObjects.unreadable-disc.tests.0.spectral.1
+#: src/data/appraisal.js:216
+msgctxt "text:appraisalObjects.unreadable-disc.tests.0.spectral.1"
+msgid "Low-light reflection spectrum"
+msgstr "Low-light reflection spectrum"
+
+#. appraisalObjects.unreadable-disc.tests.0.spectral.2
+#: src/data/appraisal.js:216
+msgctxt "text:appraisalObjects.unreadable-disc.tests.0.spectral.2"
+msgid "Use diffuse cold light to avoid heating or optical writing."
+msgstr "Use diffuse cold light to avoid heating or optical writing."
+
+#. appraisalObjects.unreadable-disc.tests.0.spectral.3
+#: src/data/appraisal.js:216
+msgctxt "text:appraisalObjects.unreadable-disc.tests.0.spectral.3"
+msgid ""
+"The rainbow is structural diffraction; no lunar material is found. Eirin "
+"notes this does not exclude Lunar resin."
+msgstr ""
+"The rainbow is structural diffraction; no lunar material is found. Eirin "
+"notes this does not exclude Lunar resin."
+
+#. appraisalObjects.unreadable-disc.tests.1.track-map.1
+#: src/data/appraisal.js:217
+msgctxt "text:appraisalObjects.unreadable-disc.tests.1.track-map.1"
+msgid "Track-boundary map without content reading"
+msgstr "Track-boundary map without content reading"
+
+#. appraisalObjects.unreadable-disc.tests.1.track-map.2
+#: src/data/appraisal.js:217
+msgctxt "text:appraisalObjects.unreadable-disc.tests.1.track-map.2"
+msgid "Measure reflectance differences between written and blank regions; decode nothing."
+msgstr "Measure reflectance differences between written and blank regions; decode nothing."
+
+#. appraisalObjects.unreadable-disc.tests.1.track-map.3
+#: src/data/appraisal.js:217
+msgctxt "text:appraisalObjects.unreadable-disc.tests.1.track-map.3"
+msgid "Roughly seventy percent was written; outer damage crosses the final region."
+msgstr "Roughly seventy percent was written; outer damage crosses the final region."
+
+#. appraisalObjects.unreadable-disc.tests.2.sleeve-history.1
+#: src/data/appraisal.js:218
+msgctxt "text:appraisalObjects.unreadable-disc.tests.2.sleeve-history.1"
+msgid "Sleeve handwriting and version comparison"
+msgstr "Sleeve handwriting and version comparison"
+
+#. appraisalObjects.unreadable-disc.tests.2.sleeve-history.2
+#: src/data/appraisal.js:218
+msgctxt "text:appraisalObjects.unreadable-disc.tests.2.sleeve-history.2"
+msgid "Compare only with Outside formatting samples; identify no writer."
+msgstr "Compare only with Outside formatting samples; identify no writer."
+
+#. appraisalObjects.unreadable-disc.tests.2.sleeve-history.3
+#: src/data/appraisal.js:218
+msgctxt "text:appraisalObjects.unreadable-disc.tests.2.sleeve-history.3"
+msgid "“FINAL2” commonly marks repeatedly revised private files, not a second ending."
+msgstr "“FINAL2” commonly marks repeatedly revised private files, not a second ending."
+
+#. appraisalObjects.unreadable-disc.uses.0.sealed-archive.1
+#: src/data/appraisal.js:221
+msgctxt "text:appraisalObjects.unreadable-disc.uses.0.sealed-archive.1"
+msgid "Sealed private-data specimen without decoding"
+msgstr "Sealed private-data specimen without decoding"
+
+#. appraisalObjects.unreadable-disc.uses.0.sealed-archive.2
+#: src/data/appraisal.js:221
+msgctxt "text:appraisalObjects.unreadable-disc.uses.0.sealed-archive.2"
+msgid "Preserve media history without turning unknown contents into a public holding."
+msgstr "Preserve media history without turning unknown contents into a public holding."
+
+#. appraisalObjects.unreadable-disc.uses.1.version-teaching.1
+#: src/data/appraisal.js:222
+msgctxt "text:appraisalObjects.unreadable-disc.uses.1.version-teaching.1"
+msgid "Version-naming failure teaching aid"
+msgstr "Version-naming failure teaching aid"
+
+#. appraisalObjects.unreadable-disc.uses.1.version-teaching.2
+#: src/data/appraisal.js:222
+msgctxt "text:appraisalObjects.unreadable-disc.uses.1.version-teaching.2"
+msgid "Display the sleeve; reading the contents is unnecessary."
+msgstr "Display the sleeve; reading the contents is unnecessary."
+
+#. appraisalObjects.unreadable-disc.uses.2.light-mobile.1
+#: src/data/appraisal.js:223
+msgctxt "text:appraisalObjects.unreadable-disc.uses.2.light-mobile.1"
+msgid "Fairy cold-light mobile"
+msgstr "Fairy cold-light mobile"
+
+#. appraisalObjects.unreadable-disc.uses.2.light-mobile.2
+#: src/data/appraisal.js:223
+msgctxt "text:appraisalObjects.unreadable-disc.uses.2.light-mobile.2"
+msgid "Use a replica only; do not pierce the original."
+msgstr "Use a replica only; do not pierce the original."
+
+#. appraisalObjects.disposable-camera.evidence.0.lens.1
+#: src/data/appraisal.js:247
+msgctxt "text:appraisalObjects.disposable-camera.evidence.0.lens.1"
+msgid "Fixed-focus plastic lens and simple viewfinder"
+msgstr "Fixed-focus plastic lens and simple viewfinder"
+
+#. appraisalObjects.disposable-camera.evidence.0.lens.2
+#: src/data/appraisal.js:247
+msgctxt "text:appraisalObjects.disposable-camera.evidence.0.lens.2"
+msgid "Designed to record images rather than view distant scenes."
+msgstr "Designed to record images rather than view distant scenes."
+
+#. appraisalObjects.disposable-camera.evidence.1.counter.1
+#: src/data/appraisal.js:248
+msgctxt "text:appraisalObjects.disposable-camera.evidence.1.counter.1"
+msgid "Counter wear traces movement from 4 to 3"
+msgstr "Counter wear traces movement from 4 to 3"
+
+#. appraisalObjects.disposable-camera.evidence.1.counter.2
+#: src/data/appraisal.js:248
+msgctxt "text:appraisalObjects.disposable-camera.evidence.1.counter.2"
+msgid "Unexposed film may remain inside."
+msgstr "Unexposed film may remain inside."
+
+#. appraisalObjects.disposable-camera.evidence.2.warning.1
+#: src/data/appraisal.js:249
+msgctxt "text:appraisalObjects.disposable-camera.evidence.2.warning.1"
+msgid "Rear diagrams require dark opening and warn of high voltage"
+msgstr "Rear diagrams require dark opening and warn of high voltage"
+
+#. appraisalObjects.disposable-camera.evidence.2.warning.2
+#: src/data/appraisal.js:249
+msgctxt "text:appraisalObjects.disposable-camera.evidence.2.warning.2"
+msgid "Opening may ruin remaining images and expose stored energy."
+msgstr "Opening may ruin remaining images and expose stored energy."
+
+#. appraisalObjects.disposable-camera.hypotheses.0.spirit-box.1
+#: src/data/appraisal.js:252
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.0.spirit-box.1"
+msgid "Device that seals part of a subject’s soul in cardboard"
+msgstr "Device that seals part of a subject’s soul in cardboard"
+
+#. appraisalObjects.disposable-camera.hypotheses.0.spirit-box.2
+#: src/data/appraisal.js:252
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.0.spirit-box.2"
+msgid "Three remaining frames mean room for three more shadows."
+msgstr "Three remaining frames mean room for three more shadows."
+
+#. appraisalObjects.disposable-camera.hypotheses.1.single-use-camera.1
+#: src/data/appraisal.js:253
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.1.single-use-camera.1"
+msgid "Preloaded single-use film camera"
+msgstr "Preloaded single-use film camera"
+
+#. appraisalObjects.disposable-camera.hypotheses.1.single-use-camera.2
+#: src/data/appraisal.js:253
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.1.single-use-camera.2"
+msgid "After the counter reaches zero, a darkroom removes and develops the film."
+msgstr "After the counter reaches zero, a darkroom removes and develops the film."
+
+#. appraisalObjects.disposable-camera.hypotheses.2.memory-counter.1
+#: src/data/appraisal.js:254
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.2.memory-counter.1"
+msgid "Outside eye that stores a fixed number of memories"
+msgstr "Outside eye that stores a fixed number of memories"
+
+#. appraisalObjects.disposable-camera.hypotheses.2.memory-counter.2
+#: src/data/appraisal.js:254
+msgctxt "text:appraisalObjects.disposable-camera.hypotheses.2.memory-counter.2"
+msgid "The counter is not remaining photos, but how many more times it agrees to remember."
+msgstr "The counter is not remaining photos, but how many more times it agrees to remember."
+
+#. appraisalObjects.disposable-camera.tests.0.dark-bag.1
+#: src/data/appraisal.js:257
+msgctxt "text:appraisalObjects.disposable-camera.tests.0.dark-bag.1"
+msgid "External mechanism check inside a dark bag"
+msgstr "External mechanism check inside a dark bag"
+
+#. appraisalObjects.disposable-camera.tests.0.dark-bag.2
+#: src/data/appraisal.js:257
+msgctxt "text:appraisalObjects.disposable-camera.tests.0.dark-bag.2"
+msgid "Do not open; check only whether wind wheel and shutter are seized."
+msgstr "Do not open; check only whether wind wheel and shutter are seized."
+
+#. appraisalObjects.disposable-camera.tests.0.dark-bag.3
+#: src/data/appraisal.js:257
+msgctxt "text:appraisalObjects.disposable-camera.tests.0.dark-bag.3"
+msgid "The film is wound and shutter mobile; librarians prohibit pressing it."
+msgstr "The film is wound and shutter mobile; librarians prohibit pressing it."
+
+#. appraisalObjects.disposable-camera.tests.1.capacitor-field.1
+#: src/data/appraisal.js:258
+msgctxt "text:appraisalObjects.disposable-camera.tests.1.capacitor-field.1"
+msgid "Passive flash-capacitor field check"
+msgstr "Passive flash-capacitor field check"
+
+#. appraisalObjects.disposable-camera.tests.1.capacitor-field.2
+#: src/data/appraisal.js:258
+msgctxt "text:appraisalObjects.disposable-camera.tests.1.capacitor-field.2"
+msgid "Do not trigger flash; measure residual field near the case."
+msgstr "Do not trigger flash; measure residual field near the case."
+
+#. appraisalObjects.disposable-camera.tests.1.capacitor-field.3
+#: src/data/appraisal.js:258
+msgctxt "text:appraisalObjects.disposable-camera.tests.1.capacitor-field.3"
+msgid ""
+"No measurable residual charge; that does not make bare-hand opening safe. "
+"Eirin writes this twice."
+msgstr ""
+"No measurable residual charge; that does not make bare-hand opening safe. "
+"Eirin writes this twice."
+
+#. appraisalObjects.disposable-camera.tests.2.privacy-provenance.1
+#: src/data/appraisal.js:259
+msgctxt "text:appraisalObjects.disposable-camera.tests.2.privacy-provenance.1"
+msgid "Provenance and image-permission inventory"
+msgstr "Provenance and image-permission inventory"
+
+#. appraisalObjects.disposable-camera.tests.2.privacy-provenance.2
+#: src/data/appraisal.js:259
+msgctxt "text:appraisalObjects.disposable-camera.tests.2.privacy-provenance.2"
+msgid "Record location, wrapping, and unknown photographer; develop nothing."
+msgstr "Record location, wrapping, and unknown photographer; develop nothing."
+
+#. appraisalObjects.disposable-camera.tests.2.privacy-provenance.3
+#: src/data/appraisal.js:259
+msgctxt "text:appraisalObjects.disposable-camera.tests.2.privacy-provenance.3"
+msgid ""
+"No consent chain can be established for photographer or subjects. Three "
+"unused frames are not permission to use them."
+msgstr ""
+"No consent chain can be established for photographer or subjects. Three "
+"unused frames are not permission to use them."
+
+#. appraisalObjects.disposable-camera.uses.0.sealed-history.1
+#: src/data/appraisal.js:262
+msgctxt "text:appraisalObjects.disposable-camera.uses.0.sealed-history.1"
+msgid "Seal as an Outside everyday-photography specimen"
+msgstr "Seal as an Outside everyday-photography specimen"
+
+#. appraisalObjects.disposable-camera.uses.0.sealed-history.2
+#: src/data/appraisal.js:262
+msgctxt "text:appraisalObjects.disposable-camera.uses.0.sealed-history.2"
+msgid "Develop nothing, take nothing, preserve the unknown."
+msgstr "Develop nothing, take nothing, preserve the unknown."
+
+#. appraisalObjects.disposable-camera.uses.1.camera-teaching.1
+#: src/data/appraisal.js:263
+msgctxt "text:appraisalObjects.disposable-camera.uses.1.camera-teaching.1"
+msgid "Combined image-ethics and mechanism teaching aid"
+msgstr "Combined image-ethics and mechanism teaching aid"
+
+#. appraisalObjects.disposable-camera.uses.1.camera-teaching.2
+#: src/data/appraisal.js:263
+msgctxt "text:appraisalObjects.disposable-camera.uses.1.camera-teaching.2"
+msgid "Teach from diagrams and replicas; keep the original in a dark bag."
+msgstr "Teach from diagrams and replicas; keep the original in a dark bag."
+
+#. appraisalObjects.disposable-camera.uses.2.three-consented-frames.1
+#: src/data/appraisal.js:264
+msgctxt "text:appraisalObjects.disposable-camera.uses.2.three-consented-frames.1"
+msgid "Three explicitly consented festival photographs"
+msgstr "Three explicitly consented festival photographs"
+
+#. appraisalObjects.disposable-camera.uses.2.three-consented-frames.2
+#: src/data/appraisal.js:264
+msgctxt "text:appraisalObjects.disposable-camera.uses.2.three-consented-frames.2"
+msgid "First establish mechanism safety; every subject may decline development."
+msgstr "First establish mechanism safety; every subject may decline development."
+
+#. appraisalObjects.orphan-controller.evidence.0.layout.1
+#: src/data/appraisal.js:288
+msgctxt "text:appraisalObjects.orphan-controller.evidence.0.layout.1"
+msgid "More than ten buttons surround two self-centring sticks"
+msgstr "More than ten buttons surround two self-centring sticks"
+
+#. appraisalObjects.orphan-controller.evidence.0.layout.2
+#: src/data/appraisal.js:288
+msgctxt "text:appraisalObjects.orphan-controller.evidence.0.layout.2"
+msgid "Designed for continuous two-handed input, not a single switch."
+msgstr "Designed for continuous two-handed input, not a single switch."
+
+#. appraisalObjects.orphan-controller.evidence.1.cable.1
+#: src/data/appraisal.js:289
+msgctxt "text:appraisalObjects.orphan-controller.evidence.1.cable.1"
+msgid "Cable end has directional contacts and a keyed notch"
+msgstr "Cable end has directional contacts and a keyed notch"
+
+#. appraisalObjects.orphan-controller.evidence.1.cable.2
+#: src/data/appraisal.js:289
+msgctxt "text:appraisalObjects.orphan-controller.evidence.1.cable.2"
+msgid "It depends on a missing matching device."
+msgstr "It depends on a missing matching device."
+
+#. appraisalObjects.orphan-controller.evidence.2.mass.1
+#: src/data/appraisal.js:290
+msgctxt "text:appraisalObjects.orphan-controller.evidence.2.mass.1"
+msgid "Each grip contains an eccentric rotor"
+msgstr "Each grip contains an eccentric rotor"
+
+#. appraisalObjects.orphan-controller.evidence.2.mass.2
+#: src/data/appraisal.js:290
+msgctxt "text:appraisalObjects.orphan-controller.evidence.2.mass.2"
+msgid "It may answer the user rather than merely receive presses."
+msgstr "It may answer the user rather than merely receive presses."
+
+#. appraisalObjects.orphan-controller.hypotheses.0.danmaku-trainer.1
+#: src/data/appraisal.js:293
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.0.danmaku-trainer.1"
+msgid "Outside trainer for two-handed danmaku illusions"
+msgstr "Outside trainer for two-handed danmaku illusions"
+
+#. appraisalObjects.orphan-controller.hypotheses.0.danmaku-trainer.2
+#: src/data/appraisal.js:293
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.0.danmaku-trainer.2"
+msgid "Buttons map to shooting, evasion, and pause; vibration signals a hit."
+msgstr "Buttons map to shooting, evasion, and pause; vibration signals a hit."
+
+#. appraisalObjects.orphan-controller.hypotheses.1.game-controller.1
+#: src/data/appraisal.js:294
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.1.game-controller.1"
+msgid "Input controller for an electronic game console"
+msgstr "Input controller for an electronic game console"
+
+#. appraisalObjects.orphan-controller.hypotheses.1.game-controller.2
+#: src/data/appraisal.js:294
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.1.game-controller.2"
+msgid "Buttons and sticks send input; internal motors provide tactile feedback."
+msgstr "Buttons and sticks send input; internal motors provide tactile feedback."
+
+#. appraisalObjects.orphan-controller.hypotheses.2.remote-shikigami.1
+#: src/data/appraisal.js:295
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.2.remote-shikigami.1"
+msgid "Remote shikigami command device whose familiar is missing"
+msgstr "Remote shikigami command device whose familiar is missing"
+
+#. appraisalObjects.orphan-controller.hypotheses.2.remote-shikigami.2
+#: src/data/appraisal.js:295
+msgctxt "text:appraisalObjects.orphan-controller.hypotheses.2.remote-shikigami.2"
+msgid "It keeps waiting for an unresponsive host, like a shikigami whose link was severed."
+msgstr "It keeps waiting for an unresponsive host, like a shikigami whose link was severed."
+
+#. appraisalObjects.orphan-controller.tests.0.continuity.1
+#: src/data/appraisal.js:298
+msgctxt "text:appraisalObjects.orphan-controller.tests.0.continuity.1"
+msgid "Unpowered button-matrix mapping"
+msgstr "Unpowered button-matrix mapping"
+
+#. appraisalObjects.orphan-controller.tests.0.continuity.2
+#: src/data/appraisal.js:298
+msgctxt "text:appraisalObjects.orphan-controller.tests.0.continuity.2"
+msgid "Read switch continuity with a high-impedance tool; supply no port power."
+msgstr "Read switch continuity with a high-impedance tool; supply no port power."
+
+#. appraisalObjects.orphan-controller.tests.0.continuity.3
+#: src/data/appraisal.js:298
+msgctxt "text:appraisalObjects.orphan-controller.tests.0.continuity.3"
+msgid "Buttons form a scanned matrix; the two sticks output continuous position."
+msgstr "Buttons form a scanned matrix; the two sticks output continuous position."
+
+#. appraisalObjects.orphan-controller.tests.1.mass-map.1
+#: src/data/appraisal.js:299
+msgctxt "text:appraisalObjects.orphan-controller.tests.1.mass-map.1"
+msgid "Grip mass imaging"
+msgstr "Grip mass imaging"
+
+#. appraisalObjects.orphan-controller.tests.1.mass-map.2
+#: src/data/appraisal.js:299
+msgctxt "text:appraisalObjects.orphan-controller.tests.1.mass-map.2"
+msgid "Use low-strength youkai imaging without driving the rotors."
+msgstr "Use low-strength youkai imaging without driving the rotors."
+
+#. appraisalObjects.orphan-controller.tests.1.mass-map.3
+#: src/data/appraisal.js:299
+msgctxt "text:appraisalObjects.orphan-controller.tests.1.mass-map.3"
+msgid "Two eccentric motors can create graded vibration; they are not loose screws."
+msgstr "Two eccentric motors can create graded vibration; they are not loose screws."
+
+#. appraisalObjects.orphan-controller.tests.2.adapter-fit.1
+#: src/data/appraisal.js:300
+msgctxt "text:appraisalObjects.orphan-controller.tests.2.adapter-fit.1"
+msgid "Reversible wooden port fitting"
+msgstr "Reversible wooden port fitting"
+
+#. appraisalObjects.orphan-controller.tests.2.adapter-fit.2
+#: src/data/appraisal.js:300
+msgctxt "text:appraisalObjects.orphan-controller.tests.2.adapter-fit.2"
+msgid "Make a wooden negative only; connect no wires."
+msgstr "Make a wooden negative only; connect no wires."
+
+#. appraisalObjects.orphan-controller.tests.2.adapter-fit.3
+#: src/data/appraisal.js:300
+msgctxt "text:appraisalObjects.orphan-controller.tests.2.adapter-fit.3"
+msgid ""
+"The plug belongs to a specific console generation. Nitori’s universal "
+"adapter has two surplus water holes."
+msgstr ""
+"The plug belongs to a specific console generation. Nitori’s universal "
+"adapter has two surplus water holes."
+
+#. appraisalObjects.orphan-controller.uses.0.input-teaching.1
+#: src/data/appraisal.js:303
+msgctxt "text:appraisalObjects.orphan-controller.uses.0.input-teaching.1"
+msgid "Human-machine input and feedback teaching aid"
+msgstr "Human-machine input and feedback teaching aid"
+
+#. appraisalObjects.orphan-controller.uses.0.input-teaching.2
+#: src/data/appraisal.js:303
+msgctxt "text:appraisalObjects.orphan-controller.uses.0.input-teaching.2"
+msgid "Buttons, position, and vibration can be studied without restoring a whole game."
+msgstr "Buttons, position, and vibration can be studied without restoring a whole game."
+
+#. appraisalObjects.orphan-controller.uses.1.danmaku-access.1
+#: src/data/appraisal.js:304
+msgctxt "text:appraisalObjects.orphan-controller.uses.1.danmaku-access.1"
+msgid "Low-motion danmaku training input"
+msgstr "Low-motion danmaku training input"
+
+#. appraisalObjects.orphan-controller.uses.1.danmaku-access.2
+#: src/data/appraisal.js:304
+msgctxt "text:appraisalObjects.orphan-controller.uses.1.danmaku-access.2"
+msgid "Requires an isolated adapter; vibration must not be treated as injury."
+msgstr "Requires an isolated adapter; vibration must not be treated as injury."
+
+#. appraisalObjects.orphan-controller.uses.2.kappa-prototype.1
+#: src/data/appraisal.js:305
+msgctxt "text:appraisalObjects.orphan-controller.uses.2.kappa-prototype.1"
+msgid "Kappa multi-valve remote prototype"
+msgstr "Kappa multi-valve remote prototype"
+
+#. appraisalObjects.orphan-controller.uses.2.kappa-prototype.2
+#: src/data/appraisal.js:305
+msgctxt "text:appraisalObjects.orphan-controller.uses.2.kappa-prototype.2"
+msgid "All modification stays in an external box; cut no original wire."
+msgstr "All modification stays in an external box; cut no original wire."
+
+#. appraisalObjects.orphan-cable.evidence.0.ends.1
+#: src/data/appraisal.js:329
+msgctxt "text:appraisalObjects.orphan-cable.evidence.0.ends.1"
+msgid "The ends differ in size and contact count"
+msgstr "The ends differ in size and contact count"
+
+#. appraisalObjects.orphan-cable.evidence.0.ends.2
+#: src/data/appraisal.js:329
+msgctxt "text:appraisalObjects.orphan-cable.evidence.0.ends.2"
+msgid "It carried power or data between two device types."
+msgstr "It carried power or data between two device types."
+
+#. appraisalObjects.orphan-cable.evidence.1.strain.1
+#: src/data/appraisal.js:330
+msgctxt "text:appraisalObjects.orphan-cable.evidence.1.strain.1"
+msgid "Repeated bending has whitened the small-end strain relief"
+msgstr "Repeated bending has whitened the small-end strain relief"
+
+#. appraisalObjects.orphan-cable.evidence.1.strain.2
+#: src/data/appraisal.js:330
+msgctxt "text:appraisalObjects.orphan-cable.evidence.1.strain.2"
+msgid "The small end often attached to something lifted and moved."
+msgstr "The small end often attached to something lifted and moved."
+
+#. appraisalObjects.orphan-cable.evidence.2.shield.1
+#: src/data/appraisal.js:331
+msgctxt "text:appraisalObjects.orphan-cable.evidence.2.shield.1"
+msgid "Weak-field inspection shows multiple conductors and shielding"
+msgstr "Weak-field inspection shows multiple conductors and shielding"
+
+#. appraisalObjects.orphan-cable.evidence.2.shield.2
+#: src/data/appraisal.js:331
+msgctxt "text:appraisalObjects.orphan-cable.evidence.2.shield.2"
+msgid "It is more than a cord or single-wire power lead."
+msgstr "It is more than a cord or single-wire power lead."
+
+#. appraisalObjects.orphan-cable.hypotheses.0.charging-data.1
+#: src/data/appraisal.js:334
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.0.charging-data.1"
+msgid "Charging and data cable for an older mobile device"
+msgstr "Charging and data cable for an older mobile device"
+
+#. appraisalObjects.orphan-cable.hypotheses.0.charging-data.2
+#: src/data/appraisal.js:334
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.0.charging-data.2"
+msgid "The large end met power or computer; the small end met the missing device."
+msgstr "The large end met power or computer; the small end met the missing device."
+
+#. appraisalObjects.orphan-cable.hypotheses.1.boundary-thread.1
+#: src/data/appraisal.js:335
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.1.boundary-thread.1"
+msgid "Wired boundary tying two endpoints together"
+msgstr "Wired boundary tying two endpoints together"
+
+#. appraisalObjects.orphan-cable.hypotheses.1.boundary-thread.2
+#: src/data/appraisal.js:335
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.1.boundary-thread.2"
+msgid "Shielding prevents intervening worlds from leaking into the data."
+msgstr "Shielding prevents intervening worlds from leaking into the data."
+
+#. appraisalObjects.orphan-cable.hypotheses.2.familiar-leash.1
+#: src/data/appraisal.js:336
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.2.familiar-leash.1"
+msgid "Data leash preventing a small familiar from wandering"
+msgstr "Data leash preventing a small familiar from wandering"
+
+#. appraisalObjects.orphan-cable.hypotheses.2.familiar-leash.2
+#: src/data/appraisal.js:336
+msgctxt "text:appraisalObjects.orphan-cable.hypotheses.2.familiar-leash.2"
+msgid "Wear at the small end shows the familiar often tried to escape."
+msgstr "Wear at the small end shows the familiar often tried to escape."
+
+#. appraisalObjects.orphan-cable.tests.0.conductor-map.1
+#: src/data/appraisal.js:339
+msgctxt "text:appraisalObjects.orphan-cable.tests.0.conductor-map.1"
+msgid "Unpowered conductor map"
+msgstr "Unpowered conductor map"
+
+#. appraisalObjects.orphan-cable.tests.0.conductor-map.2
+#: src/data/appraisal.js:339
+msgctxt "text:appraisalObjects.orphan-cable.tests.0.conductor-map.2"
+msgid "Map end-to-end continuity with a tiny test signal, not operating voltage."
+msgstr "Map end-to-end continuity with a tiny test signal, not operating voltage."
+
+#. appraisalObjects.orphan-cable.tests.0.conductor-map.3
+#: src/data/appraisal.js:339
+msgctxt "text:appraisalObjects.orphan-cable.tests.0.conductor-map.3"
+msgid "Power and several data conductors are present, with no open circuit."
+msgstr "Power and several data conductors are present, with no open circuit."
+
+#. appraisalObjects.orphan-cable.tests.1.connector-catalogue.1
+#: src/data/appraisal.js:340
+msgctxt "text:appraisalObjects.orphan-cable.tests.1.connector-catalogue.1"
+msgid "Discontinued connector catalogue comparison"
+msgstr "Discontinued connector catalogue comparison"
+
+#. appraisalObjects.orphan-cable.tests.1.connector-catalogue.2
+#: src/data/appraisal.js:340
+msgctxt "text:appraisalObjects.orphan-cable.tests.1.connector-catalogue.2"
+msgid "Compare against catalogue rubbings; force it into nothing."
+msgstr "Compare against catalogue rubbings; force it into nothing."
+
+#. appraisalObjects.orphan-cable.tests.1.connector-catalogue.3
+#: src/data/appraisal.js:340
+msgctxt "text:appraisalObjects.orphan-cable.tests.1.connector-catalogue.3"
+msgid ""
+"The small end matches a discontinued mobile family; three look-alike "
+"versions remain possible."
+msgstr ""
+"The small end matches a discontinued mobile family; three look-alike "
+"versions remain possible."
+
+#. appraisalObjects.orphan-cable.tests.2.shield-test.1
+#: src/data/appraisal.js:341
+msgctxt "text:appraisalObjects.orphan-cable.tests.2.shield-test.1"
+msgid "Passive shielding check"
+msgstr "Passive shielding check"
+
+#. appraisalObjects.orphan-cable.tests.2.shield-test.2
+#: src/data/appraisal.js:341
+msgctxt "text:appraisalObjects.orphan-cable.tests.2.shield-test.2"
+msgid "Transmit no content; compare only external noise penetration."
+msgstr "Transmit no content; compare only external noise penetration."
+
+#. appraisalObjects.orphan-cable.tests.2.shield-test.3
+#: src/data/appraisal.js:341
+msgctxt "text:appraisalObjects.orphan-cable.tests.2.shield-test.3"
+msgid "The shield blocks electromagnetic noise, not a gap opened by Yukari."
+msgstr "The shield blocks electromagnetic noise, not a gap opened by Yukari."
+
+#. appraisalObjects.orphan-cable.uses.0.connector-history.1
+#: src/data/appraisal.js:344
+msgctxt "text:appraisalObjects.orphan-cable.uses.0.connector-history.1"
+msgid "Discontinued-port and repair-chain teaching aid"
+msgstr "Discontinued-port and repair-chain teaching aid"
+
+#. appraisalObjects.orphan-cable.uses.0.connector-history.2
+#: src/data/appraisal.js:344
+msgctxt "text:appraisalObjects.orphan-cable.uses.0.connector-history.2"
+msgid "A sound cable loses purpose when its matching device disappears."
+msgstr "A sound cable loses purpose when its matching device disappears."
+
+#. appraisalObjects.orphan-cable.uses.1.reversible-adapter.1
+#: src/data/appraisal.js:345
+msgctxt "text:appraisalObjects.orphan-cable.uses.1.reversible-adapter.1"
+msgid "Kappa reversible-adapter study sample"
+msgstr "Kappa reversible-adapter study sample"
+
+#. appraisalObjects.orphan-cable.uses.1.reversible-adapter.2
+#: src/data/appraisal.js:345
+msgctxt "text:appraisalObjects.orphan-cable.uses.1.reversible-adapter.2"
+msgid "Clamp onto an external replica; do not cut the obsolete end."
+msgstr "Clamp onto an external replica; do not cut the obsolete end."
+
+#. appraisalObjects.orphan-cable.uses.2.catalogue-tether.1
+#: src/data/appraisal.js:346
+msgctxt "text:appraisalObjects.orphan-cable.uses.2.catalogue-tether.1"
+msgid "Unpowered bookmark tether for flying holdings"
+msgstr "Unpowered bookmark tether for flying holdings"
+
+#. appraisalObjects.orphan-cable.uses.2.catalogue-tether.2
+#: src/data/appraisal.js:346
+msgctxt "text:appraisalObjects.orphan-cable.uses.2.catalogue-tether.2"
+msgid "Connect it to no device, lest the shelves learn data transfer."
+msgstr "Connect it to no device, lest the shelves learn data transfer."
+
+#. appraisalObjects.frozen-reader.evidence.0.persistent-page.1
+#: src/data/appraisal.js:370
+msgctxt "text:appraisalObjects.frozen-reader.evidence.0.persistent-page.1"
+msgid "Greyscale page persists after years without power"
+msgstr "Greyscale page persists after years without power"
+
+#. appraisalObjects.frozen-reader.evidence.0.persistent-page.2
+#: src/data/appraisal.js:370
+msgctxt "text:appraisalObjects.frozen-reader.evidence.0.persistent-page.2"
+msgid "The display may consume power only when changing; persistence is not operation."
+msgstr "The display may consume power only when changing; persistence is not operation."
+
+#. appraisalObjects.frozen-reader.evidence.1.bezel.1
+#: src/data/appraisal.js:371
+msgctxt "text:appraisalObjects.frozen-reader.evidence.1.bezel.1"
+msgid "Bezel carries page-turn keys and a recessed port"
+msgstr "Bezel carries page-turn keys and a recessed port"
+
+#. appraisalObjects.frozen-reader.evidence.1.bezel.2
+#: src/data/appraisal.js:371
+msgctxt "text:appraisalObjects.frozen-reader.evidence.1.bezel.2"
+msgid "It is an updateable reading device, not a printed sheet."
+msgstr "It is an updateable reading device, not a printed sheet."
+
+#. appraisalObjects.frozen-reader.evidence.2.page.1
+#: src/data/appraisal.js:372
+msgctxt "text:appraisalObjects.frozen-reader.evidence.2.page.1"
+msgid "Text stops mid-sentence at page 214 of 389"
+msgstr "Text stops mid-sentence at page 214 of 389"
+
+#. appraisalObjects.frozen-reader.evidence.2.page.2
+#: src/data/appraisal.js:372
+msgctxt "text:appraisalObjects.frozen-reader.evidence.2.page.2"
+msgid "Visible content is not the whole work, nor proof that a reader reached it."
+msgstr "Visible content is not the whole work, nor proof that a reader reached it."
+
+#. appraisalObjects.frozen-reader.hypotheses.0.e-reader.1
+#: src/data/appraisal.js:375
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.0.e-reader.1"
+msgid "Device for reading many books on a low-power paper-like screen"
+msgstr "Device for reading many books on a low-power paper-like screen"
+
+#. appraisalObjects.frozen-reader.hypotheses.0.e-reader.2
+#: src/data/appraisal.js:375
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.0.e-reader.2"
+msgid "Power is used chiefly when changing pages and managing a collection."
+msgstr "Power is used chiefly when changing pages and managing a collection."
+
+#. appraisalObjects.frozen-reader.hypotheses.1.book-prison.1
+#: src/data/appraisal.js:376
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.1.book-prison.1"
+msgid "Book-prison compressing 389 pages into one slab"
+msgstr "Book-prison compressing 389 pages into one slab"
+
+#. appraisalObjects.frozen-reader.hypotheses.1.book-prison.2
+#: src/data/appraisal.js:376
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.1.book-prison.2"
+msgid "Buttons decide which page may rise to the surface."
+msgstr "Buttons decide which page may rise to the surface."
+
+#. appraisalObjects.frozen-reader.hypotheses.2.sentence-talisman.1
+#: src/data/appraisal.js:377
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.2.sentence-talisman.1"
+msgid "Outside talisman suspending an unfinished sentence forever"
+msgstr "Outside talisman suspending an unfinished sentence forever"
+
+#. appraisalObjects.frozen-reader.hypotheses.2.sentence-talisman.2
+#: src/data/appraisal.js:377
+msgctxt "text:appraisalObjects.frozen-reader.hypotheses.2.sentence-talisman.2"
+msgid "As long as the sentence never ends, the reader cannot truly leave the book."
+msgstr "As long as the sentence never ends, the reader cannot truly leave the book."
+
+#. appraisalObjects.frozen-reader.tests.0.polarization.1
+#: src/data/appraisal.js:380
+msgctxt "text:appraisalObjects.frozen-reader.tests.0.polarization.1"
+msgid "Low-light polarization observation"
+msgstr "Low-light polarization observation"
+
+#. appraisalObjects.frozen-reader.tests.0.polarization.2
+#: src/data/appraisal.js:380
+msgctxt "text:appraisalObjects.frozen-reader.tests.0.polarization.2"
+msgid "Compare display-particle orientation without refreshing the page."
+msgstr "Compare display-particle orientation without refreshing the page."
+
+#. appraisalObjects.frozen-reader.tests.0.polarization.3
+#: src/data/appraisal.js:380
+msgctxt "text:appraisalObjects.frozen-reader.tests.0.polarization.3"
+msgid ""
+"Black and white particles remain in distinct positions, consistent with "
+"bistable electronic paper."
+msgstr ""
+"Black and white particles remain in distinct positions, consistent with "
+"bistable electronic paper."
+
+#. appraisalObjects.frozen-reader.tests.1.port-rubbing.1
+#: src/data/appraisal.js:381
+msgctxt "text:appraisalObjects.frozen-reader.tests.1.port-rubbing.1"
+msgid "Port rubbing and dust stratigraphy"
+msgstr "Port rubbing and dust stratigraphy"
+
+#. appraisalObjects.frozen-reader.tests.1.port-rubbing.2
+#: src/data/appraisal.js:381
+msgctxt "text:appraisalObjects.frozen-reader.tests.1.port-rubbing.2"
+msgid "Take a soft-paper rubbing; insert no cable; note disturbed dust."
+msgstr "Take a soft-paper rubbing; insert no cable; note disturbed dust."
+
+#. appraisalObjects.frozen-reader.tests.1.port-rubbing.3
+#: src/data/appraisal.js:381
+msgctxt "text:appraisalObjects.frozen-reader.tests.1.port-rubbing.3"
+msgid "The port has been unused for years and matches an older Outside reader family."
+msgstr "The port has been unused for years and matches an older Outside reader family."
+
+#. appraisalObjects.frozen-reader.tests.2.page-catalogue.1
+#: src/data/appraisal.js:382
+msgctxt "text:appraisalObjects.frozen-reader.tests.2.page-catalogue.1"
+msgid "Visible-page bibliographic comparison"
+msgstr "Visible-page bibliographic comparison"
+
+#. appraisalObjects.frozen-reader.tests.2.page-catalogue.2
+#: src/data/appraisal.js:382
+msgctxt "text:appraisalObjects.frozen-reader.tests.2.page-catalogue.2"
+msgid "Record only a short fragment and pagination traits; attempt no full recovery."
+msgstr "Record only a short fragment and pagination traits; attempt no full recovery."
+
+#. appraisalObjects.frozen-reader.tests.2.page-catalogue.3
+#: src/data/appraisal.js:382
+msgctxt "text:appraisalObjects.frozen-reader.tests.2.page-catalogue.3"
+msgid ""
+"The fragment matches no complete holding exactly; it may be another edition "
+"or private document."
+msgstr ""
+"The fragment matches no complete holding exactly; it may be another edition "
+"or private document."
+
+#. appraisalObjects.frozen-reader.uses.0.media-history.1
+#: src/data/appraisal.js:385
+msgctxt "text:appraisalObjects.frozen-reader.uses.0.media-history.1"
+msgid "Unawakened electronic-paper media specimen"
+msgstr "Unawakened electronic-paper media specimen"
+
+#. appraisalObjects.frozen-reader.uses.0.media-history.2
+#: src/data/appraisal.js:385
+msgctxt "text:appraisalObjects.frozen-reader.uses.0.media-history.2"
+msgid "Keep the frozen page in its arrival state."
+msgstr "Keep the frozen page in its arrival state."
+
+#. appraisalObjects.frozen-reader.uses.1.recovery-project.1
+#: src/data/appraisal.js:386
+msgctxt "text:appraisalObjects.frozen-reader.uses.1.recovery-project.1"
+msgid "Reversible power-recovery study"
+msgstr "Reversible power-recovery study"
+
+#. appraisalObjects.frozen-reader.uses.1.recovery-project.2
+#: src/data/appraisal.js:386
+msgctxt "text:appraisalObjects.frozen-reader.uses.1.recovery-project.2"
+msgid ""
+"Begin with an isolated battery model; a successful page turn is not "
+"permission to expose contents."
+msgstr ""
+"Begin with an isolated battery model; a successful page turn is not "
+"permission to expose contents."
+
+#. appraisalObjects.frozen-reader.uses.2.unfinished-sentence.1
+#: src/data/appraisal.js:387
+msgctxt "text:appraisalObjects.frozen-reader.uses.2.unfinished-sentence.1"
+msgid "Last sentence before library closing exhibit"
+msgstr "Last sentence before library closing exhibit"
+
+#. appraisalObjects.frozen-reader.uses.2.unfinished-sentence.2
+#: src/data/appraisal.js:387
+msgctxt "text:appraisalObjects.frozen-reader.uses.2.unfinished-sentence.2"
+msgid "Show only the existing half-sentence; write no ending for its author."
+msgstr "Show only the existing half-sentence; write no ending for its author."

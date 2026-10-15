@@ -1,0 +1,1476 @@
+# Touhou University — zh-Hant
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. examBanks.readiness.title
+#: src/data/exam.js:9
+msgctxt "text:examBanks.readiness.title"
+msgid "Gensokyo Common Readiness"
+msgstr "幻想鄉共同基礎"
+
+#. examBanks.readiness.subtitle
+#: src/data/exam.js:10
+msgctxt "text:examBanks.readiness.subtitle"
+msgid ""
+"Campus judgment for every applicant: method, courtesy, and keeping a clear "
+"head when things get strange."
+msgstr "給所有申請生的校園判斷題：方法、禮節與在奇怪狀況下保持清醒。"
+
+#. examBanks.readiness.questions.0.category
+#: src/data/exam.js:13
+msgctxt "text:examBanks.readiness.questions.0.category"
+msgid "Motto"
+msgstr "校訓"
+
+#. examBanks.readiness.questions.0.prompt
+#: src/data/exam.js:14
+msgctxt "text:examBanks.readiness.questions.0.prompt"
+msgid "Which action best follows “Cross borders for truth; contest ideas with respect”?"
+msgstr "「越境求真，以禮交鋒」最接近下列哪種做法？"
+
+#. examBanks.readiness.questions.0.explanation
+#: src/data/exam.js:22
+msgctxt "text:examBanks.readiness.questions.0.explanation"
+msgid ""
+"Truth-seeking crosses existing viewpoints; respectful contest requires "
+"traceable rules, consent, and stopping conditions."
+msgstr "求真需要跨越既有視角；「以禮交鋒」則要求可追溯的規則、同意與停止條件。"
+
+#. examBanks.readiness.questions.1.category
+#: src/data/exam.js:25
+msgctxt "text:examBanks.readiness.questions.1.category"
+msgid "Safety"
+msgstr "校園安全"
+
+#. examBanks.readiness.questions.1.prompt
+#: src/data/exam.js:26
+msgctxt "text:examBanks.readiness.questions.1.prompt"
+msgid "The red lamp suddenly lights in Seven-Day Laboratory. What should you do first?"
+msgstr "七曜實驗塔的紅燈突然亮起，你首先應該？"
+
+#. examBanks.readiness.questions.1.explanation
+#: src/data/exam.js:34
+msgctxt "text:examBanks.readiness.questions.1.explanation"
+msgid "Red-lamp evacuation is counter-clockwise; the duty practitioner identifies the element."
+msgstr "實驗塔的紅燈撤離路線固定為逆時針；元素鑑定由值班術者處理。"
+
+#. examBanks.readiness.questions.2.category
+#: src/data/exam.js:37
+msgctxt "text:examBanks.readiness.questions.2.category"
+msgid "Source Judgment"
+msgstr "消息判讀"
+
+#. examBanks.readiness.questions.2.prompt
+#: src/data/exam.js:38
+msgctxt "text:examBanks.readiness.questions.2.prompt"
+msgid ""
+"You hear that every campus gate will lead to the Lunar Capital tomorrow. "
+"What is the best first step?"
+msgstr "你聽說「明天所有校門都會通往月都」。最適合的第一步是？"
+
+#. examBanks.readiness.questions.2.explanation
+#: src/data/exam.js:46
+msgctxt "text:examBanks.readiness.questions.2.explanation"
+msgid ""
+"Separate witness, hearsay, and inference, then consult traceable sources. "
+"Strangeness proves neither truth nor falsehood."
+msgstr "先區分目擊、轉述與推測，再查可追溯來源；奇怪不代表為真，也不代表可直接忽略。"
+
+#. examBanks.readiness.questions.3.category
+#: src/data/exam.js:49
+msgctxt "text:examBanks.readiness.questions.3.category"
+msgid "Shared Life"
+msgstr "共同生活"
+
+#. examBanks.readiness.questions.3.prompt
+#: src/data/exam.js:50
+msgctxt "text:examBanks.readiness.questions.3.prompt"
+msgid ""
+"A fairy roommate hides your alarm clock in a flowerpot as “spatial "
+"beautification.” What is the best response?"
+msgstr "妖精室友把你的鬧鐘藏進花盆，並說那是「空間美化」。最好的處理是？"
+
+#. examBanks.readiness.questions.3.explanation
+#: src/data/exam.js:58
+msgctxt "text:examBanks.readiness.questions.3.explanation"
+msgid "Shared life needs repeatable boundaries, not retaliation or blanket prohibition."
+msgstr "共同生活處理的是可重複遵守的界線，不是一次性的報復或全面禁止。"
+
+#. examBanks.readiness.questions.4.category
+#: src/data/exam.js:61
+msgctxt "text:examBanks.readiness.questions.4.category"
+msgid "Research Ethics"
+msgstr "研究倫理"
+
+#. examBanks.readiness.questions.4.prompt
+#: src/data/exam.js:62
+msgctxt "text:examBanks.readiness.questions.4.prompt"
+msgid ""
+"A mind reader wants to use hallway thoughts as class samples. What is the "
+"minimum requirement?"
+msgstr "讀心能力者想把走廊同學的想法當作課堂樣本，最低限度需要什麼？"
+
+#. examBanks.readiness.questions.4.explanation
+#: src/data/exam.js:70
+msgctxt "text:examBanks.readiness.questions.4.explanation"
+msgid ""
+"Public space does not waive inner privacy, and de-identification cannot "
+"replace prior consent and withdrawal."
+msgstr "公共區域不等於放棄內在隱私；去識別化也不能取代事前同意與退出機制。"
+
+#. examBanks.readiness.questions.5.category
+#: src/data/exam.js:73
+msgctxt "text:examBanks.readiness.questions.5.category"
+msgid "Transit"
+msgstr "交通"
+
+#. examBanks.readiness.questions.5.prompt
+#: src/data/exam.js:74
+msgctxt "text:examBanks.readiness.questions.5.prompt"
+msgid "After receiving a Hakurei Gate arrival time, what should an Outside World student do?"
+msgstr "外界新生收到博麗門報到時刻後，應該怎麼做？"
+
+#. examBanks.readiness.questions.5.explanation
+#: src/data/exam.js:82
+msgctxt "text:examBanks.readiness.questions.5.explanation"
+msgid ""
+"Barrier passage follows the notice; unknown gaps, umbrellas, and butterflies "
+"are not admissions desks."
+msgstr "結界通行按通知安排；未知裂隙、傘與蝴蝶都不是受理窗口。"
+
+#. examBanks.readiness.questions.6.category
+#: src/data/exam.js:85
+msgctxt "text:examBanks.readiness.questions.6.category"
+msgid "Spell-card Rules"
+msgstr "符卡規則"
+
+#. examBanks.readiness.questions.6.prompt
+#: src/data/exam.js:86
+msgctxt "text:examBanks.readiness.questions.6.prompt"
+msgid "What does not determine admission in an academic spell-card interview?"
+msgstr "學術符卡式口試不以什麼決定錄取？"
+
+#. examBanks.readiness.questions.6.explanation
+#: src/data/exam.js:94
+msgctxt "text:examBanks.readiness.questions.6.explanation"
+msgid ""
+"The interview assesses questions, methods, limits, and judgment; firepower "
+"is not an academic argument."
+msgstr "口試評估問題、方法、限制與判斷；火力大小不是學術論證。"
+
+#. examBanks.readiness.questions.7.category
+#: src/data/exam.js:97
+msgctxt "text:examBanks.readiness.questions.7.category"
+msgid "Library"
+msgstr "圖書館"
+
+#. examBanks.readiness.questions.7.prompt
+#: src/data/exam.js:98
+msgctxt "text:examBanks.readiness.questions.7.prompt"
+msgid ""
+"A book flies away from its shelf in Misty Lake Library. What is the most "
+"reasonable response?"
+msgstr "霧湖圖書館裡一本書自行飛離書架。最合理的做法是？"
+
+#. examBanks.readiness.questions.7.explanation
+#: src/data/exam.js:106
+msgctxt "text:examBanks.readiness.questions.7.explanation"
+msgid ""
+"The collection may fly, but call numbers do not; traceable records beat "
+"chasing or damaging it."
+msgstr "館藏會飛，但索書號不會；可追蹤的記錄比追逐或破壞更有用。"
+
+#. examBanks.boundary.title
+#: src/data/exam.js:115
+msgctxt "text:examBanks.boundary.title"
+msgid "Boundaries & Incident Judgment"
+msgstr "結界與異變判讀"
+
+#. examBanks.boundary.subtitle
+#: src/data/exam.js:116
+msgctxt "text:examBanks.boundary.subtitle"
+msgid "For applicants who want to turn “not again” into a testable question."
+msgstr "給想把「怎麼又發生了」變成可檢驗問題的人。"
+
+#. examBanks.boundary.questions.0.category
+#: src/data/exam.js:119
+msgctxt "text:examBanks.boundary.questions.0.category"
+msgid "Incident Triage"
+msgstr "事件分級"
+
+#. examBanks.boundary.questions.0.prompt
+#: src/data/exam.js:120
+msgctxt "text:examBanks.boundary.questions.0.prompt"
+msgid ""
+"Every shadow begins moving three seconds late, with no injuries. What "
+"matters most in the first record?"
+msgstr "清晨起，所有影子都晚本人三秒移動，但尚無人受傷。第一份紀錄最重要的是？"
+
+#. examBanks.boundary.questions.0.explanation
+#: src/data/exam.js:128
+msgctxt "text:examBanks.boundary.questions.0.explanation"
+msgid ""
+"Initial records fix observable conditions before names or guesses are "
+"mistaken for mechanisms."
+msgstr "初期紀錄要先固定可觀察條件，避免把命名或推測誤當機制。"
+
+#. examBanks.boundary.questions.1.category
+#: src/data/exam.js:131
+msgctxt "text:examBanks.boundary.questions.1.category"
+msgid "Boundary Survey"
+msgstr "結界測量"
+
+#. examBanks.boundary.questions.1.prompt
+#: src/data/exam.js:132
+msgctxt "text:examBanks.boundary.questions.1.prompt"
+msgid "A signpost points differently on the second passage. Which comparison is most useful?"
+msgstr "同一路標在兩次通過後指向不同方向，哪一種對照最有價值？"
+
+#. examBanks.boundary.questions.1.explanation
+#: src/data/exam.js:140
+msgctxt "text:examBanks.boundary.questions.1.explanation"
+msgid ""
+"Boundary effects often depend on sequence and viewpoint; paired records "
+"distinguish a changed sign from a changed route."
+msgstr "邊界現象常依賴順序與觀察位置；成對紀錄能區分路標改變和路徑改變。"
+
+#. examBanks.boundary.questions.2.category
+#: src/data/exam.js:143
+msgctxt "text:examBanks.boundary.questions.2.category"
+msgid "Stopping Rules"
+msgstr "停止條件"
+
+#. examBanks.boundary.questions.2.prompt
+#: src/data/exam.js:144
+msgctxt "text:examBanks.boundary.questions.2.prompt"
+msgid "Which stopping condition is most operational during incident tracking?"
+msgstr "追蹤異變時，哪個停止條件最可操作？"
+
+#. examBanks.boundary.questions.2.explanation
+#: src/data/exam.js:152
+msgctxt "text:examBanks.boundary.questions.2.explanation"
+msgid ""
+"Good stopping rules are pre-agreed, observable on site, and triggerable by "
+"affected participants."
+msgstr "好的停止條件可以事先約定、現場判斷並由任何受影響者啟動。"
+
+#. examBanks.boundary.questions.3.category
+#: src/data/exam.js:155
+msgctxt "text:examBanks.boundary.questions.3.category"
+msgid "Drift Objects"
+msgstr "漂移物"
+
+#. examBanks.boundary.questions.3.prompt
+#: src/data/exam.js:156
+msgctxt "text:examBanks.boundary.questions.3.prompt"
+msgid ""
+"An Outside World object changes use after crossing the barrier. What should "
+"researchers most avoid?"
+msgstr "外界物品穿過結界後用途改變，研究者最不應做什麼？"
+
+#. examBanks.boundary.questions.3.explanation
+#: src/data/exam.js:164
+msgctxt "text:examBanks.boundary.questions.3.explanation"
+msgid ""
+"Sample size does not outrank barrier safety; the registry is non-invasive "
+"and never widens gaps."
+msgstr "增加樣本不能凌駕結界安全；本校索引以不擴大裂隙的非侵入式登錄為原則。"
+
+#. examBanks.boundary.questions.4.category
+#: src/data/exam.js:167
+msgctxt "text:examBanks.boundary.questions.4.category"
+msgid "Oral Defence"
+msgstr "口試"
+
+#. examBanks.boundary.questions.4.prompt
+#: src/data/exam.js:168
+msgctxt "text:examBanks.boundary.questions.4.prompt"
+msgid "What does a “way out” mainly mean in a spell-card defence?"
+msgstr "符卡式答辯中的「退路」主要是什麼？"
+
+#. examBanks.boundary.questions.4.explanation
+#: src/data/exam.js:176
+msgctxt "text:examBanks.boundary.questions.4.explanation"
+msgid ""
+"A way out is part of the rules, preventing pride or firepower from "
+"escalating the contest indefinitely."
+msgstr "退路是規則的一部分，確保交鋒不因面子或火力而無限升級。"
+
+#. examBanks.boundary.questions.5.category
+#: src/data/exam.js:179
+msgctxt "text:examBanks.boundary.questions.5.category"
+msgid "Causality"
+msgstr "因果"
+
+#. examBanks.boundary.questions.5.prompt
+#: src/data/exam.js:180
+msgctxt "text:examBanks.boundary.questions.5.prompt"
+msgid ""
+"Books in the library's north wing move more often at every full moon. What "
+"does this directly establish?"
+msgstr "每逢滿月，圖書館北翼的書更常移動。這能直接證明什麼？"
+
+#. examBanks.boundary.questions.5.explanation
+#: src/data/exam.js:188
+msgctxt "text:examBanks.boundary.questions.5.explanation"
+msgid ""
+"Repeated association merits study, but lunar phase is not yet a cause "
+"without controls and mechanism evidence."
+msgstr "重複相關值得研究，但沒有對照與機制證據時，不能把月相直接寫成原因。"
+
+#. examBanks.boundary.questions.6.category
+#: src/data/exam.js:191
+msgctxt "text:examBanks.boundary.questions.6.category"
+msgid "Witness Records"
+msgstr "目擊紀錄"
+
+#. examBanks.boundary.questions.6.prompt
+#: src/data/exam.js:192
+msgctxt "text:examBanks.boundary.questions.6.prompt"
+msgid "Three witnesses disagree about a danmaku's color. What is the best treatment?"
+msgstr "三名目擊者對彈幕顏色說法不同，最佳處理是？"
+
+#. examBanks.boundary.questions.6.explanation
+#: src/data/exam.js:200
+msgctxt "text:examBanks.boundary.questions.6.explanation"
+msgid ""
+"Disagreement may be error or reveal viewpoint and sensory differences; "
+"preserve context before judging."
+msgstr "不一致可能是誤差，也可能揭示觀察位置或感覺差異；先保存脈絡再判斷。"
+
+#. examBanks.boundary.questions.7.category
+#: src/data/exam.js:203
+msgctxt "text:examBanks.boundary.questions.7.category"
+msgid "Risk Communication"
+msgstr "風險溝通"
+
+#. examBanks.boundary.questions.7.prompt
+#: src/data/exam.js:204
+msgctxt "text:examBanks.boundary.questions.7.prompt"
+msgid ""
+"A temporary low-risk inversion zone appears in a known area. What should the "
+"notice include?"
+msgstr "校園出現低風險、範圍已知的短暫倒置區，公告應該包含？"
+
+#. examBanks.boundary.questions.7.explanation
+#: src/data/exam.js:212
+msgctxt "text:examBanks.boundary.questions.7.explanation"
+msgid "Risk notices must support action and make uncertainty and the next update explicit."
+msgstr "風險公告要讓人能行動，也要明示不確定性與下一次更新。"
+
+#. examBanks.methods.title
+#: src/data/exam.js:221
+msgctxt "text:examBanks.methods.title"
+msgid "Research Methods & Field Records"
+msgstr "研究方法與現場紀錄"
+
+#. examBanks.methods.subtitle
+#: src/data/exam.js:222
+msgctxt "text:examBanks.methods.subtitle"
+msgid ""
+"Strange answers are welcome; missing methods, runaway samples, and invisible "
+"corrections are not."
+msgstr "不怕答案奇怪，只怕方法沒寫、樣本會跑、訂正找不到。"
+
+#. examBanks.methods.questions.0.category
+#: src/data/exam.js:225
+msgctxt "text:examBanks.methods.questions.0.category"
+msgid "Operational Definition"
+msgstr "操作定義"
+
+#. examBanks.methods.questions.0.prompt
+#: src/data/exam.js:226
+msgctxt "text:examBanks.methods.questions.0.prompt"
+msgid "When studying “thick mist,” which definition is most comparable?"
+msgstr "研究「霧很濃」時，哪個定義最適合比較？"
+
+#. examBanks.methods.questions.0.explanation
+#: src/data/exam.js:234
+msgctxt "text:examBanks.methods.questions.0.explanation"
+msgid "An operational definition converts a feeling into repeatable measurement conditions."
+msgstr "操作定義把感受轉成可重複測量的條件，讓不同觀察者能比較。"
+
+#. examBanks.methods.questions.1.category
+#: src/data/exam.js:237
+msgctxt "text:examBanks.methods.questions.1.category"
+msgid "Controls"
+msgstr "對照"
+
+#. examBanks.methods.questions.1.prompt
+#: src/data/exam.js:238
+msgctxt "text:examBanks.methods.questions.1.prompt"
+msgid "When testing whether a kappa turbine needs no magic, what is the most important control?"
+msgstr "測試河童水輪是否不需妖力時，最重要的對照是？"
+
+#. examBanks.methods.questions.1.explanation
+#: src/data/exam.js:246
+msgctxt "text:examBanks.methods.questions.1.explanation"
+msgid ""
+"Testing magic independence requires matched water and load plus real "
+"isolation of magical input."
+msgstr "要檢驗妖力需求，需控制水位與負載，並真正隔離可能的妖力輸入。"
+
+#. examBanks.methods.questions.2.category
+#: src/data/exam.js:249
+msgctxt "text:examBanks.methods.questions.2.category"
+msgid "Sampling"
+msgstr "樣本"
+
+#. examBanks.methods.questions.2.prompt
+#: src/data/exam.js:250
+msgctxt "text:examBanks.methods.questions.2.prompt"
+msgid ""
+"If you interview only people who escaped the Bamboo Forest, what are you "
+"most likely to miss?"
+msgstr "只訪問成功走出竹林的人，最可能漏掉什麼？"
+
+#. examBanks.methods.questions.2.explanation
+#: src/data/exam.js:258
+msgctxt "text:examBanks.methods.questions.2.explanation"
+msgid ""
+"This is survivorship bias: successful exits overstate working methods and "
+"hide failure paths."
+msgstr "這是典型的存活者偏差：只看成功離開者會高估有效方法並忽略失敗路徑。"
+
+#. examBanks.methods.questions.3.category
+#: src/data/exam.js:261
+msgctxt "text:examBanks.methods.questions.3.category"
+msgid "Reproducibility"
+msgstr "可重現性"
+
+#. examBanks.methods.questions.3.prompt
+#: src/data/exam.js:262
+msgctxt "text:examBanks.methods.questions.3.prompt"
+msgid "Which magic experiment record is easiest to reproduce?"
+msgstr "哪一份魔法實驗紀錄最容易重現？"
+
+#. examBanks.methods.questions.3.explanation
+#: src/data/exam.js:270
+msgctxt "text:examBanks.methods.questions.3.explanation"
+msgid ""
+"Reproducible records include success, failure, sequence, and environment "
+"instead of relying on tacit memory."
+msgstr "可重現紀錄包括成功與失敗、操作順序及環境條件，不依賴個人默會記憶。"
+
+#. examBanks.methods.questions.4.category
+#: src/data/exam.js:273
+msgctxt "text:examBanks.methods.questions.4.category"
+msgid "Corrections"
+msgstr "資料更正"
+
+#. examBanks.methods.questions.4.prompt
+#: src/data/exam.js:274
+msgctxt "text:examBanks.methods.questions.4.prompt"
+msgid ""
+"After publication, 12 dates are found to be transcribed incorrectly. What is "
+"the best response?"
+msgstr "研究發布後發現 12 筆日期抄錯，最好的處理是？"
+
+#. examBanks.methods.questions.4.explanation
+#: src/data/exam.js:282
+msgctxt "text:examBanks.methods.questions.4.explanation"
+msgid ""
+"A correction is itself a research record: what changed, why, and which "
+"conclusions are affected."
+msgstr "訂正本身也是研究紀錄；讀者需要知道改了什麼、為何改、哪些結論受影響。"
+
+#. examBanks.methods.questions.5.category
+#: src/data/exam.js:285
+msgctxt "text:examBanks.methods.questions.5.category"
+msgid "Image Ethics"
+msgstr "影像倫理"
+
+#. examBanks.methods.questions.5.prompt
+#: src/data/exam.js:286
+msgctxt "text:examBanks.methods.questions.5.prompt"
+msgid "An interviewee later withdraws consent to publish a photograph. What should the team do?"
+msgstr "受訪者事後撤回照片公開同意，研究團隊應？"
+
+#. examBanks.methods.questions.5.explanation
+#: src/data/exam.js:294
+msgctxt "text:examBanks.methods.questions.5.explanation"
+msgid ""
+"Withdrawal must be actionable and limits on recall explained; one-time "
+"consent is not permanent."
+msgstr "撤回流程必須可實際執行，也要清楚說明無法回收的範圍；不能假設一次同意永遠有效。"
+
+#. examBanks.methods.questions.6.category
+#: src/data/exam.js:297
+msgctxt "text:examBanks.methods.questions.6.category"
+msgid "Inference"
+msgstr "推論"
+
+#. examBanks.methods.questions.6.prompt
+#: src/data/exam.js:298
+msgctxt "text:examBanks.methods.questions.6.prompt"
+msgid ""
+"Electrical leakage appeared during rain in all three observations. What is a "
+"reasonable next step?"
+msgstr "三次觀測都在下雨時出現漏電，合理的下一步是？"
+
+#. examBanks.methods.questions.6.explanation
+#: src/data/exam.js:306
+msgctxt "text:examBanks.methods.questions.6.explanation"
+msgid ""
+"The pattern suggests a hypothesis; next isolate related factors and add "
+"controls that distinguish mechanisms."
+msgstr "初步模式提供假說；下一步是分離相關因素並增加能區分機制的對照。"
+
+#. examBanks.methods.questions.7.category
+#: src/data/exam.js:309
+msgctxt "text:examBanks.methods.questions.7.category"
+msgid "Field Notes"
+msgstr "現場筆記"
+
+#. examBanks.methods.questions.7.prompt
+#: src/data/exam.js:310
+msgctxt "text:examBanks.methods.questions.7.prompt"
+msgid "Which line most resembles a sound field note?"
+msgstr "下列哪一行最像合格的現場筆記？"
+
+#. examBanks.methods.questions.7.explanation
+#: src/data/exam.js:318
+msgctxt "text:examBanks.methods.questions.7.explanation"
+msgid ""
+"Time, place, sensory source, counter-observation, and environment are "
+"separated so the observation can be reconstructed."
+msgstr "時間、位置、感覺來源、反例與環境條件都被分開記下，讀者能重建觀察。"
+
+#. examBanks.campus.title
+#: src/data/exam.js:327
+msgctxt "text:examBanks.campus.title"
+msgid "Campus Life Practicum"
+msgstr "校園生活實務"
+
+#. examBanks.campus.subtitle
+#: src/data/exam.js:328
+msgctxt "text:examBanks.campus.subtitle"
+msgid "From flight levels to dining queues: making it through a term is a method too."
+msgstr "從飛行分層到食堂排隊：平安度過一學期也算一門方法。"
+
+#. examBanks.campus.questions.0.category
+#: src/data/exam.js:331
+msgctxt "text:examBanks.campus.questions.0.category"
+msgid "Map"
+msgstr "地圖"
+
+#. examBanks.campus.questions.0.prompt
+#: src/data/exam.js:332
+msgctxt "text:examBanks.campus.questions.0.prompt"
+msgid "Which campus place takes the longest walk from Hakurei Gate?"
+msgstr "從博麗門步行前往哪個校區地點耗時最長？"
+
+#. examBanks.campus.questions.0.explanation
+#: src/data/exam.js:340
+msgctxt "text:examBanks.campus.questions.0.explanation"
+msgid "Kappa Joint Workshop is in the mountain field zone, about 31 minutes from the gate."
+msgstr "河童聯合工房位於妖怪山地實作區，自正門步行約 31 分鐘。"
+
+#. examBanks.campus.questions.1.category
+#: src/data/exam.js:343
+msgctxt "text:examBanks.campus.questions.1.category"
+msgid "Air Route"
+msgstr "空路"
+
+#. examBanks.campus.questions.1.prompt
+#: src/data/exam.js:344
+msgctxt "text:examBanks.campus.questions.1.prompt"
+msgid "What is the air-route rule above Eientei Clinic?"
+msgstr "永遠亭診療所上方的空路原則是？"
+
+#. examBanks.campus.questions.1.explanation
+#: src/data/exam.js:352
+msgctxt "text:examBanks.campus.questions.1.explanation"
+msgid "Emergency rabbit carts and medical transport have priority; sightseeing traffic yields."
+msgstr "急診兔車與醫療運送優先；觀光飛行應主動避讓。"
+
+#. examBanks.campus.questions.2.category
+#: src/data/exam.js:355
+msgctxt "text:examBanks.campus.questions.2.category"
+msgid "Clubs"
+msgstr "社團"
+
+#. examBanks.campus.questions.2.prompt
+#: src/data/exam.js:356
+msgctxt "text:examBanks.campus.questions.2.prompt"
+msgid "Which club best suits practicing navigation when the return route may change?"
+msgstr "想練習在回程可能改變的路上導航，最合適加入？"
+
+#. examBanks.campus.questions.2.explanation
+#: src/data/exam.js:364
+msgctxt "text:examBanks.campus.questions.2.explanation"
+msgid ""
+"Bamboo Navigation documents unstable routes, return markers, and companion "
+"rules for getting lost."
+msgstr "竹林定向部專門記錄不穩定路徑、返回標記與迷途時的同行規則。"
+
+#. examBanks.campus.questions.3.category
+#: src/data/exam.js:367
+msgctxt "text:examBanks.campus.questions.3.category"
+msgid "Dining"
+msgstr "食堂"
+
+#. examBanks.campus.questions.3.prompt
+#: src/data/exam.js:368
+msgctxt "text:examBanks.campus.questions.3.prompt"
+msgid "When is Night-Sparrow Supper normally available?"
+msgstr "夜雀晚食通常從何時開始供應？"
+
+#. examBanks.campus.questions.3.explanation
+#: src/data/exam.js:376
+msgctxt "text:examBanks.campus.questions.3.explanation"
+msgid "Night-Sparrow Supper follows evening performances and is served after 17:30."
+msgstr "夜雀晚食配合夜間演出，自 17:30 後供應。"
+
+#. examBanks.campus.questions.4.category
+#: src/data/exam.js:379
+msgctxt "text:examBanks.campus.questions.4.category"
+msgid "Festival"
+msgstr "校慶"
+
+#. examBanks.campus.questions.4.prompt
+#: src/data/exam.js:380
+msgctxt "text:examBanks.campus.questions.4.prompt"
+msgid "What is the basic venue rule for the Spring Spell-card Lantern Festival?"
+msgstr "春季符卡燈會的基本場地規則是？"
+
+#. examBanks.campus.questions.4.explanation
+#: src/data/exam.js:388
+msgctxt "text:examBanks.campus.questions.4.explanation"
+msgid ""
+"Separating sky and ground preserves safe distance for viewing, dining, and "
+"spell-card displays."
+msgstr "空地分流讓觀賞、飲食與符卡展示保持各自安全距離。"
+
+#. examBanks.campus.questions.5.category
+#: src/data/exam.js:391
+msgctxt "text:examBanks.campus.questions.5.category"
+msgid "Borrowing"
+msgstr "借閱"
+
+#. examBanks.campus.questions.5.prompt
+#: src/data/exam.js:392
+msgctxt "text:examBanks.campus.questions.5.prompt"
+msgid "What may and may not be borrowed from Kappa Joint Workshop?"
+msgstr "河童聯合工房可借什麼、不可借什麼？"
+
+#. examBanks.campus.questions.5.explanation
+#: src/data/exam.js:400
+msgctxt "text:examBanks.campus.questions.5.explanation"
+msgid ""
+"Mountain rain gear may be borrowed; unfinished prototypes remain in the "
+"workshop for records and testing."
+msgstr "山地雨具提供借用；未完成的原型機需留在工房記錄與測試。"
+
+#. examBanks.campus.questions.6.category
+#: src/data/exam.js:403
+msgctxt "text:examBanks.campus.questions.6.category"
+msgid "BBS"
+msgstr "BBS"
+
+#. examBanks.campus.questions.6.prompt
+#: src/data/exam.js:404
+msgctxt "text:examBanks.campus.questions.6.prompt"
+msgid "You have unverified breaking news. What best follows Campus BBS rules?"
+msgstr "你有未證實的突發消息，最符合校園 BBS 規則的做法是？"
+
+#. examBanks.campus.questions.6.explanation
+#: src/data/exam.js:412
+msgctxt "text:examBanks.campus.questions.6.explanation"
+msgid ""
+"The BBS is for deliberation; Journalism verifies breaking news, while posts "
+"distinguish witness, hearsay, and inference."
+msgstr "BBS 適合慢慢討論；速報交由新聞學院核實，帖文仍需區分所見、所聞與推測。"
+
+#. examBanks.campus.questions.7.category
+#: src/data/exam.js:415
+msgctxt "text:examBanks.campus.questions.7.category"
+msgid "Exams"
+msgstr "考試"
+
+#. examBanks.campus.questions.7.prompt
+#: src/data/exam.js:416
+msgctxt "text:examBanks.campus.questions.7.prompt"
+msgid "Besides examination time, what should a flying candidate allow for at Boundary Hall?"
+msgstr "飛行考生前往境界講堂考試，除了考試時間還要預留什麼？"
+
+#. examBanks.campus.questions.7.explanation
+#: src/data/exam.js:424
+msgctxt "text:examBanks.campus.questions.7.explanation"
+msgid ""
+"Boundary Hall roof berths are limited, so landing and registration time "
+"belong in the plan."
+msgstr "境界講堂屋頂停泊位有限；飛行者需把降落與登記時間算進行程。"
+
+#. examBanks.readiness.questions.0.options.0
+#: src/data/exam.js:16
+msgctxt "text:examBanks.readiness.questions.0.options.0"
+msgid "Duel first; the winner defines the facts"
+msgstr "先決鬥，贏的人負責定義事實"
+
+#. examBanks.readiness.questions.0.options.1
+#: src/data/exam.js:17
+msgctxt "text:examBanks.readiness.questions.0.options.1"
+msgid "Cross to gather evidence while preserving consent, rules, and a way out"
+msgstr "跨過界線採集證據，也留下同意、規則與退路"
+
+#. examBanks.readiness.questions.0.options.2
+#: src/data/exam.js:18
+msgctxt "text:examBanks.readiness.questions.0.options.2"
+msgid "Avoid conflict by studying only what you already believe"
+msgstr "為避免衝突，只研究自己已相信的事"
+
+#. examBanks.readiness.questions.0.options.3
+#: src/data/exam.js:19
+msgctxt "text:examBanks.readiness.questions.0.options.3"
+msgid "Leave every conclusion to the oldest person"
+msgstr "把所有結論交給最年長者"
+
+#. examBanks.readiness.questions.1.options.0
+#: src/data/exam.js:28
+msgctxt "text:examBanks.readiness.questions.1.options.0"
+msgid "Evacuate counter-clockwise along the marked route"
+msgstr "逆時針沿標線撤離"
+
+#. examBanks.readiness.questions.1.options.1
+#: src/data/exam.js:29
+msgctxt "text:examBanks.readiness.questions.1.options.1"
+msgid "Move closer to identify the element"
+msgstr "靠近確認是哪一種元素"
+
+#. examBanks.readiness.questions.1.options.2
+#: src/data/exam.js:30
+msgctxt "text:examBanks.readiness.questions.1.options.2"
+msgid "Open a window to vent the magic"
+msgstr "打開窗戶讓魔力散掉"
+
+#. examBanks.readiness.questions.1.options.3
+#: src/data/exam.js:31
+msgctxt "text:examBanks.readiness.questions.1.options.3"
+msgid "Photograph it for the BBS first"
+msgstr "先拍照發到 BBS"
+
+#. examBanks.readiness.questions.2.options.0
+#: src/data/exam.js:40
+msgctxt "text:examBanks.readiness.questions.2.options.0"
+msgid "Forward it immediately with three exclamation marks"
+msgstr "立刻轉發，並加上三個驚嘆號"
+
+#. examBanks.readiness.questions.2.options.1
+#: src/data/exam.js:41
+msgctxt "text:examBanks.readiness.questions.2.options.1"
+msgid "Ask whether it was witnessed, then check campus and barrier notices"
+msgstr "詢問傳話者是否親眼看見，並查校務與結界觀測公告"
+
+#. examBanks.readiness.questions.2.options.2
+#: src/data/exam.js:42
+msgctxt "text:examBanks.readiness.questions.2.options.2"
+msgid "Ignore it because it sounds impossible"
+msgstr "因為不可能，所以完全忽略"
+
+#. examBanks.readiness.questions.2.options.3
+#: src/data/exam.js:43
+msgctxt "text:examBanks.readiness.questions.2.options.3"
+msgid "Walk through every gate once"
+msgstr "先到每一扇門各走一次"
+
+#. examBanks.readiness.questions.3.options.0
+#: src/data/exam.js:52
+msgctxt "text:examBanks.readiness.questions.3.options.0"
+msgid "Hide the fairy in a flowerpot"
+msgstr "把對方也藏進花盆"
+
+#. examBanks.readiness.questions.3.options.1
+#: src/data/exam.js:53
+msgctxt "text:examBanks.readiness.questions.3.options.1"
+msgid "Quietly buy ten louder alarms"
+msgstr "默默買十個更響的鬧鐘"
+
+#. examBanks.readiness.questions.3.options.2
+#: src/data/exam.js:54
+msgctxt "text:examBanks.readiness.questions.3.options.2"
+msgid "Explain property boundaries and agree on play areas and return times"
+msgstr "說明物品界線，共同約定可玩笑的區域與歸還時間"
+
+#. examBanks.readiness.questions.3.options.3
+#: src/data/exam.js:55
+msgctxt "text:examBanks.readiness.questions.3.options.3"
+msgid "Declare the whole residence flower-free"
+msgstr "申請把整間宿舍劃為禁花區"
+
+#. examBanks.readiness.questions.4.options.0
+#: src/data/exam.js:64
+msgctxt "text:examBanks.readiness.questions.4.options.0"
+msgid "No consent is needed in a public corridor"
+msgstr "公共走廊不需要任何同意"
+
+#. examBanks.readiness.questions.4.options.1
+#: src/data/exam.js:65
+msgctxt "text:examBanks.readiness.questions.4.options.1"
+msgid "Removing names is enough"
+msgstr "只要不寫名字即可"
+
+#. examBanks.readiness.questions.4.options.2
+#: src/data/exam.js:66
+msgctxt "text:examBanks.readiness.questions.4.options.2"
+msgid "Explicit consent, a withdrawal path, and a stated use under course rules"
+msgstr "課程規範下的明確同意、退出方式與資料用途說明"
+
+#. examBanks.readiness.questions.4.options.3
+#: src/data/exam.js:67
+msgctxt "text:examBanks.readiness.questions.4.options.3"
+msgid "A verbal nod from the instructor"
+msgstr "得到任課老師口頭點頭"
+
+#. examBanks.readiness.questions.5.options.0
+#: src/data/exam.js:76
+msgctxt "text:examBanks.readiness.questions.5.options.0"
+msgid "Find a gap and enter three days early"
+msgstr "自行找裂隙，提早三天進入"
+
+#. examBanks.readiness.questions.5.options.1
+#: src/data/exam.js:77
+msgctxt "text:examBanks.readiness.questions.5.options.1"
+msgid "Wait at the specified entrance and time, registering Outside World electronics"
+msgstr "按指定入口與時間等候引導，先登記外界電器"
+
+#. examBanks.readiness.questions.5.options.2
+#: src/data/exam.js:78
+msgctxt "text:examBanks.readiness.questions.5.options.2"
+msgid "Follow the first butterfly that looks confident"
+msgstr "跟隨第一隻看起來熟路的蝴蝶"
+
+#. examBanks.readiness.questions.5.options.3
+#: src/data/exam.js:79
+msgctxt "text:examBanks.readiness.questions.5.options.3"
+msgid "Swim into campus through Misty Lake"
+msgstr "從霧湖游進校區"
+
+#. examBanks.readiness.questions.6.options.0
+#: src/data/exam.js:88
+msgctxt "text:examBanks.readiness.questions.6.options.0"
+msgid "Clarity of rules"
+msgstr "規則是否清楚"
+
+#. examBanks.readiness.questions.6.options.1
+#: src/data/exam.js:89
+msgctxt "text:examBanks.readiness.questions.6.options.1"
+msgid "Ability to explain one's method"
+msgstr "能否解釋自己的方法"
+
+#. examBanks.readiness.questions.6.options.2
+#: src/data/exam.js:90
+msgctxt "text:examBanks.readiness.questions.6.options.2"
+msgid "Raw firepower"
+msgstr "純粹火力"
+
+#. examBanks.readiness.questions.6.options.3
+#: src/data/exam.js:91
+msgctxt "text:examBanks.readiness.questions.6.options.3"
+msgid "Knowing when to stop"
+msgstr "是否知道何時停止"
+
+#. examBanks.readiness.questions.7.options.0
+#: src/data/exam.js:100
+msgctxt "text:examBanks.readiness.questions.7.options.0"
+msgid "Chase it while shouting the entire text"
+msgstr "追著它跑並大聲喊出全文"
+
+#. examBanks.readiness.questions.7.options.1
+#: src/data/exam.js:101
+msgctxt "text:examBanks.readiness.questions.7.options.1"
+msgid "Note the call number and direction, then alert the north-wing librarian"
+msgstr "記下索書號與方向，通知北翼館員"
+
+#. examBanks.readiness.questions.7.options.2
+#: src/data/exam.js:102
+msgctxt "text:examBanks.readiness.questions.7.options.2"
+msgid "Mark it automatically returned"
+msgstr "當作已自動歸還"
+
+#. examBanks.readiness.questions.7.options.3
+#: src/data/exam.js:103
+msgctxt "text:examBanks.readiness.questions.7.options.3"
+msgid "Shoot it down with a fireball"
+msgstr "用火球把它打下來"
+
+#. examBanks.boundary.questions.0.options.0
+#: src/data/exam.js:122
+msgctxt "text:examBanks.boundary.questions.0.options.0"
+msgid "Give the incident the scariest possible name"
+msgstr "替異變取一個最嚇人的名字"
+
+#. examBanks.boundary.questions.0.options.1
+#: src/data/exam.js:123
+msgctxt "text:examBanks.boundary.questions.0.options.1"
+msgid "Time, range, exceptions, light source, and reproducibility"
+msgstr "時間、範圍、例外、光源與可重現條件"
+
+#. examBanks.boundary.questions.0.options.2
+#: src/data/exam.js:124
+msgctxt "text:examBanks.boundary.questions.0.options.2"
+msgid "The presumed culprit's clothing color"
+msgstr "推定犯人的服裝顏色"
+
+#. examBanks.boundary.questions.0.options.3
+#: src/data/exam.js:125
+msgctxt "text:examBanks.boundary.questions.0.options.3"
+msgid "Declare the shadows sentient"
+msgstr "立刻宣布影子具有自主意識"
+
+#. examBanks.boundary.questions.1.options.0
+#: src/data/exam.js:134
+msgctxt "text:examBanks.boundary.questions.1.options.0"
+msgid "Compare only which photo looks better"
+msgstr "只比較兩張照片是否好看"
+
+#. examBanks.boundary.questions.1.options.1
+#: src/data/exam.js:135
+msgctxt "text:examBanks.boundary.questions.1.options.1"
+msgid "Record crossing order, lunar phase, companions, and observation position"
+msgstr "記錄通過順序、月相、同行者與觀測位置"
+
+#. examBanks.boundary.questions.1.options.2
+#: src/data/exam.js:136
+msgctxt "text:examBanks.boundary.questions.1.options.2"
+msgid "Remove the signpost so the problem disappears"
+msgstr "把路標拔走，問題自然消失"
+
+#. examBanks.boundary.questions.1.options.3
+#: src/data/exam.js:137
+msgctxt "text:examBanks.boundary.questions.1.options.3"
+msgid "Ask the signpost which direction it prefers"
+msgstr "詢問路標偏好哪個方向"
+
+#. examBanks.boundary.questions.2.options.0
+#: src/data/exam.js:146
+msgctxt "text:examBanks.boundary.questions.2.options.0"
+msgid "When the researcher gets a bad feeling"
+msgstr "研究員覺得氣氛不對"
+
+#. examBanks.boundary.questions.2.options.1
+#: src/data/exam.js:147
+msgctxt "text:examBanks.boundary.questions.2.options.1"
+msgid "Three consecutive safety-limit readings or any companion withdrawing consent"
+msgstr "觀測值連續三次超過安全線，或任一同行者撤回同意"
+
+#. examBanks.boundary.questions.2.options.2
+#: src/data/exam.js:148
+msgctxt "text:examBanks.boundary.questions.2.options.2"
+msgid "When everyone gets tired"
+msgstr "直到所有人都累了"
+
+#. examBanks.boundary.questions.2.options.3
+#: src/data/exam.js:149
+msgctxt "text:examBanks.boundary.questions.2.options.3"
+msgid "When the incident says you may stop"
+msgstr "異變自己說可以停"
+
+#. examBanks.boundary.questions.3.options.0
+#: src/data/exam.js:158
+msgctxt "text:examBanks.boundary.questions.3.options.0"
+msgid "Record original use, present use, and the owner's account"
+msgstr "記錄原用途、現用途與持有人說法"
+
+#. examBanks.boundary.questions.3.options.1
+#: src/data/exam.js:159
+msgctxt "text:examBanks.boundary.questions.3.options.1"
+msgid "Widen an unknown gap to obtain more samples"
+msgstr "為增加樣本，主動擴大未知裂隙"
+
+#. examBanks.boundary.questions.3.options.2
+#: src/data/exam.js:160
+msgctxt "text:examBanks.boundary.questions.3.options.2"
+msgid "Use non-invasive registration"
+msgstr "使用非侵入式登錄"
+
+#. examBanks.boundary.questions.3.options.3
+#: src/data/exam.js:161
+msgctxt "text:examBanks.boundary.questions.3.options.3"
+msgid "Record observation separately from interpretation"
+msgstr "分開記錄觀察與解釋"
+
+#. examBanks.boundary.questions.4.options.0
+#: src/data/exam.js:170
+msgctxt "text:examBanks.boundary.questions.4.options.0"
+msgid "The loser may pretend not to have attended"
+msgstr "輸的人可以假裝沒參加"
+
+#. examBanks.boundary.questions.4.options.1
+#: src/data/exam.js:171
+msgctxt "text:examBanks.boundary.questions.4.options.1"
+msgid "Published stopping conditions and a safe exit procedure"
+msgstr "預先公開的終止條件與安全退出方式"
+
+#. examBanks.boundary.questions.4.options.2
+#: src/data/exam.js:172
+msgctxt "text:examBanks.boundary.questions.4.options.2"
+msgid "The lecture hall's back door is unlocked"
+msgstr "講堂後門沒有上鎖"
+
+#. examBanks.boundary.questions.4.options.3
+#: src/data/exam.js:173
+msgctxt "text:examBanks.boundary.questions.4.options.3"
+msgid "Changing the question when stuck"
+msgstr "答不出來就換題"
+
+#. examBanks.boundary.questions.5.options.0
+#: src/data/exam.js:182
+msgctxt "text:examBanks.boundary.questions.5.options.0"
+msgid "The moon commands the books to move"
+msgstr "月亮命令書本移動"
+
+#. examBanks.boundary.questions.5.options.1
+#: src/data/exam.js:183
+msgctxt "text:examBanks.boundary.questions.5.options.1"
+msgid "An observed association; the mechanism still needs controls"
+msgstr "滿月與移動頻率在觀察中相關，機制仍需對照"
+
+#. examBanks.boundary.questions.5.options.2
+#: src/data/exam.js:184
+msgctxt "text:examBanks.boundary.questions.5.options.2"
+msgid "Every book is a moon rabbit"
+msgstr "所有書都是月兔"
+
+#. examBanks.boundary.questions.5.options.3
+#: src/data/exam.js:185
+msgctxt "text:examBanks.boundary.questions.5.options.3"
+msgid "The north wing should close forever"
+msgstr "北翼應永久關閉"
+
+#. examBanks.boundary.questions.6.options.0
+#: src/data/exam.js:194
+msgctxt "text:examBanks.boundary.questions.6.options.0"
+msgid "Use the loudest witness"
+msgstr "採用聲音最大者"
+
+#. examBanks.boundary.questions.6.options.1
+#: src/data/exam.js:195
+msgctxt "text:examBanks.boundary.questions.6.options.1"
+msgid "Preserve the differences with position, species vision, and lighting conditions"
+msgstr "把差異保留，連同位置、種族視覺與光線條件記錄"
+
+#. examBanks.boundary.questions.6.options.2
+#: src/data/exam.js:196
+msgctxt "text:examBanks.boundary.questions.6.options.2"
+msgid "Average the three colors"
+msgstr "三種顏色取平均"
+
+#. examBanks.boundary.questions.6.options.3
+#: src/data/exam.js:197
+msgctxt "text:examBanks.boundary.questions.6.options.3"
+msgid "Discard all witness data"
+msgstr "刪除全部目擊資料"
+
+#. examBanks.boundary.questions.7.options.0
+#: src/data/exam.js:206
+msgctxt "text:examBanks.boundary.questions.7.options.0"
+msgid "Only “do not ask”"
+msgstr "只寫「不要問」"
+
+#. examBanks.boundary.questions.7.options.1
+#: src/data/exam.js:207
+msgctxt "text:examBanks.boundary.questions.7.options.1"
+msgid "Area, time, visible effects, detour, and next update"
+msgstr "範圍、時間、可見現象、繞行路線與更新時刻"
+
+#. examBanks.boundary.questions.7.options.2
+#: src/data/exam.js:208
+msgctxt "text:examBanks.boundary.questions.7.options.2"
+msgid "A suspected culprit's name"
+msgstr "犯人的推測姓名"
+
+#. examBanks.boundary.questions.7.options.3
+#: src/data/exam.js:209
+msgctxt "text:examBanks.boundary.questions.7.options.3"
+msgid "The full text of every past incident"
+msgstr "所有歷年異變全文"
+
+#. examBanks.methods.questions.0.options.0
+#: src/data/exam.js:228
+msgctxt "text:examBanks.methods.questions.0.options.0"
+msgid "It looks atmospheric"
+msgstr "看起來很有氣氛"
+
+#. examBanks.methods.questions.0.options.1
+#: src/data/exam.js:229
+msgctxt "text:examBanks.methods.questions.0.options.1"
+msgid "Minutes a 20-metre marker is obscured under fixed lighting"
+msgstr "在固定燈光下，看不清 20 公尺標記的分鐘數"
+
+#. examBanks.methods.questions.0.options.2
+#: src/data/exam.js:230
+msgctxt "text:examBanks.methods.questions.0.options.2"
+msgid "Cirno says it is thick"
+msgstr "琪露諾說很濃"
+
+#. examBanks.methods.questions.0.options.3
+#: src/data/exam.js:231
+msgctxt "text:examBanks.methods.questions.0.options.3"
+msgid "The photo looks blue"
+msgstr "照片顏色偏藍"
+
+#. examBanks.methods.questions.1.options.0
+#: src/data/exam.js:240
+msgctxt "text:examBanks.methods.questions.1.options.0"
+msgid "Put the strongest magician beside it"
+msgstr "由魔力最強者站在旁邊"
+
+#. examBanks.methods.questions.1.options.1
+#: src/data/exam.js:241
+msgctxt "text:examBanks.methods.questions.1.options.1"
+msgid "At equal water level and load, isolate magical input and record output"
+msgstr "相同水位與負載下，隔離妖力供給並記錄輸出"
+
+#. examBanks.methods.questions.1.options.2
+#: src/data/exam.js:242
+msgctxt "text:examBanks.methods.questions.1.options.2"
+msgid "Paint the turbine a different color"
+msgstr "把水輪塗成不同顏色"
+
+#. examBanks.methods.questions.1.options.3
+#: src/data/exam.js:243
+msgctxt "text:examBanks.methods.questions.1.options.3"
+msgid "Run it once on a sunny day"
+msgstr "只在晴天運轉一次"
+
+#. examBanks.methods.questions.2.options.0
+#: src/data/exam.js:252
+msgctxt "text:examBanks.methods.questions.2.options.0"
+msgid "The successful travellers' shoe brands"
+msgstr "成功者使用的鞋子品牌"
+
+#. examBanks.methods.questions.2.options.1
+#: src/data/exam.js:253
+msgctxt "text:examBanks.methods.questions.2.options.1"
+msgid "Experiences of those still lost or rescued midway"
+msgstr "仍迷路者與中途接受救援者的經驗"
+
+#. examBanks.methods.questions.2.options.2
+#: src/data/exam.js:254
+msgctxt "text:examBanks.methods.questions.2.options.2"
+msgid "Average bamboo height"
+msgstr "竹子的平均高度"
+
+#. examBanks.methods.questions.2.options.3
+#: src/data/exam.js:255
+msgctxt "text:examBanks.methods.questions.2.options.3"
+msgid "Moon rabbits' lunch time"
+msgstr "月兔的午餐時間"
+
+#. examBanks.methods.questions.3.options.0
+#: src/data/exam.js:264
+msgctxt "text:examBanks.methods.questions.3.options.0"
+msgid "“Did the usual thing and it glowed”"
+msgstr "「像平常一樣做，然後就亮了」"
+
+#. examBanks.methods.questions.3.options.1
+#: src/data/exam.js:265
+msgctxt "text:examBanks.methods.questions.3.options.1"
+msgid "Records batches, formula, order, environment, failures, and safety limits"
+msgstr "記錄材料批次、咒式、施術順序、環境、失敗與安全線"
+
+#. examBanks.methods.questions.3.options.2
+#: src/data/exam.js:266
+msgctxt "text:examBanks.methods.questions.3.options.2"
+msgid "A photo of the successful moment"
+msgstr "只有成功瞬間的照片"
+
+#. examBanks.methods.questions.3.options.3
+#: src/data/exam.js:267
+msgctxt "text:examBanks.methods.questions.3.options.3"
+msgid "The researcher promises to remember"
+msgstr "由實驗者保證自己記得"
+
+#. examBanks.methods.questions.4.options.0
+#: src/data/exam.js:276
+msgctxt "text:examBanks.methods.questions.4.options.0"
+msgid "Silently replace the file"
+msgstr "悄悄替換檔案，不留下紀錄"
+
+#. examBanks.methods.questions.4.options.1
+#: src/data/exam.js:277
+msgctxt "text:examBanks.methods.questions.4.options.1"
+msgid "Publish a correction, identify affected conclusions, and preserve version history"
+msgstr "公開訂正、標示受影響結論並保留版本紀錄"
+
+#. examBanks.methods.questions.4.options.2
+#: src/data/exam.js:278
+msgctxt "text:examBanks.methods.questions.4.options.2"
+msgid "Delete all data"
+msgstr "刪除所有資料"
+
+#. examBanks.methods.questions.4.options.3
+#: src/data/exam.js:279
+msgctxt "text:examBanks.methods.questions.4.options.3"
+msgid "Say dates are merely a human obsession"
+msgstr "說日期只是人類的執著"
+
+#. examBanks.methods.questions.5.options.0
+#: src/data/exam.js:288
+msgctxt "text:examBanks.methods.questions.5.options.0"
+msgid "It was already taken, so consent is permanent"
+msgstr "已經拍了，所以永久有效"
+
+#. examBanks.methods.questions.5.options.1
+#: src/data/exam.js:289
+msgctxt "text:examBanks.methods.questions.5.options.1"
+msgid "Remove controlled copies, record withdrawal, and notify publishing partners"
+msgstr "依約定撤下可控制副本，記錄撤回並通知合作發布者"
+
+#. examBanks.methods.questions.5.options.2
+#: src/data/exam.js:290
+msgctxt "text:examBanks.methods.questions.5.options.2"
+msgid "Draw a tanuki face over it"
+msgstr "把臉畫成狸貓就算解決"
+
+#. examBanks.methods.questions.5.options.3
+#: src/data/exam.js:291
+msgctxt "text:examBanks.methods.questions.5.options.3"
+msgid "Let the tengu newspaper decide"
+msgstr "請天狗報紙決定"
+
+#. examBanks.methods.questions.6.options.0
+#: src/data/exam.js:300
+msgctxt "text:examBanks.methods.questions.6.options.0"
+msgid "Declare rain the sole cause"
+msgstr "宣布雨是唯一原因"
+
+#. examBanks.methods.questions.6.options.1
+#: src/data/exam.js:301
+msgctxt "text:examBanks.methods.questions.6.options.1"
+msgid "Check humidity, grounding, materials, dry controls, and more rainfall levels"
+msgstr "檢查濕度、接地、材料與無雨對照，擴充不同強度降雨樣本"
+
+#. examBanks.methods.questions.6.options.2
+#: src/data/exam.js:302
+msgctxt "text:examBanks.methods.questions.6.options.2"
+msgid "Stop recording weather"
+msgstr "以後不記錄天氣"
+
+#. examBanks.methods.questions.6.options.3
+#: src/data/exam.js:303
+msgctxt "text:examBanks.methods.questions.6.options.3"
+msgid "Place a weather maiden beside it"
+msgstr "請一名晴女站在設備旁"
+
+#. examBanks.methods.questions.7.options.0
+#: src/data/exam.js:312
+msgctxt "text:examBanks.methods.questions.7.options.0"
+msgid "“That youkai is suspicious, as expected.”"
+msgstr "「那個妖怪果然很可疑。」"
+
+#. examBanks.methods.questions.7.options.1
+#: src/data/exam.js:313
+msgctxt "text:examBanks.methods.questions.7.options.1"
+msgid "“14:32, third east torii; sweet odor. Two companions did not detect it. Wind southwest.”"
+msgstr "「14:32，東側第三鳥居；聞到甜味。兩名同行者未聞到。風向西南。」"
+
+#. examBanks.methods.questions.7.options.2
+#: src/data/exam.js:314
+msgctxt "text:examBanks.methods.questions.7.options.2"
+msgid "“Everyone knows what happened.”"
+msgstr "「大家都知道發生了什麼。」"
+
+#. examBanks.methods.questions.7.options.3
+#: src/data/exam.js:315
+msgctxt "text:examBanks.methods.questions.7.options.3"
+msgid "“Will reconstruct from memory later.”"
+msgstr "「之後再憑記憶補齊。」"
+
+#. examBanks.campus.questions.0.options.0
+#: src/data/exam.js:334
+msgctxt "text:examBanks.campus.questions.0.options.0"
+msgid "Boundary Hall"
+msgstr "境界講堂"
+
+#. examBanks.campus.questions.0.options.1
+#: src/data/exam.js:335
+msgctxt "text:examBanks.campus.questions.0.options.1"
+msgid "Misty Lake Library"
+msgstr "霧湖圖書館"
+
+#. examBanks.campus.questions.0.options.2
+#: src/data/exam.js:336
+msgctxt "text:examBanks.campus.questions.0.options.2"
+msgid "Kappa Joint Workshop"
+msgstr "河童聯合工房"
+
+#. examBanks.campus.questions.0.options.3
+#: src/data/exam.js:337
+msgctxt "text:examBanks.campus.questions.0.options.3"
+msgid "Hieda History Hall"
+msgstr "稗田史學館"
+
+#. examBanks.campus.questions.1.options.0
+#: src/data/exam.js:346
+msgctxt "text:examBanks.campus.questions.1.options.0"
+msgid "Racing priority"
+msgstr "競速優先"
+
+#. examBanks.campus.questions.1.options.1
+#: src/data/exam.js:347
+msgctxt "text:examBanks.campus.questions.1.options.1"
+msgid "Medical priority"
+msgstr "醫療優先"
+
+#. examBanks.campus.questions.1.options.2
+#: src/data/exam.js:348
+msgctxt "text:examBanks.campus.questions.1.options.2"
+msgid "Fully open at the full moon"
+msgstr "滿月全面開放"
+
+#. examBanks.campus.questions.1.options.3
+#: src/data/exam.js:349
+msgctxt "text:examBanks.campus.questions.1.options.3"
+msgid "Brooms only"
+msgstr "只有掃帚可用"
+
+#. examBanks.campus.questions.2.options.0
+#: src/data/exam.js:358
+msgctxt "text:examBanks.campus.questions.2.options.0"
+msgid "Bamboo Navigation Club"
+msgstr "竹林定向部"
+
+#. examBanks.campus.questions.2.options.1
+#: src/data/exam.js:359
+msgctxt "text:examBanks.campus.questions.2.options.1"
+msgid "Grimoire Restoration Society"
+msgstr "魔導書修復會"
+
+#. examBanks.campus.questions.2.options.2
+#: src/data/exam.js:360
+msgctxt "text:examBanks.campus.questions.2.options.2"
+msgid "Fairy Choir"
+msgstr "妖精合唱團"
+
+#. examBanks.campus.questions.2.options.3
+#: src/data/exam.js:361
+msgctxt "text:examBanks.campus.questions.2.options.3"
+msgid "Tea & News Ethics Society"
+msgstr "茶與新聞倫理社"
+
+#. examBanks.campus.questions.3.options.0
+#: src/data/exam.js:370
+msgctxt "text:examBanks.campus.questions.3.options.0"
+msgid "06:00"
+msgstr "06:00"
+
+#. examBanks.campus.questions.3.options.1
+#: src/data/exam.js:371
+msgctxt "text:examBanks.campus.questions.3.options.1"
+msgid "12:00"
+msgstr "12:00"
+
+#. examBanks.campus.questions.3.options.2
+#: src/data/exam.js:372
+msgctxt "text:examBanks.campus.questions.3.options.2"
+msgid "After 17:30"
+msgstr "17:30 後"
+
+#. examBanks.campus.questions.3.options.3
+#: src/data/exam.js:373
+msgctxt "text:examBanks.campus.questions.3.options.3"
+msgid "Only at full moon"
+msgstr "只在滿月"
+
+#. examBanks.campus.questions.4.options.0
+#: src/data/exam.js:382
+msgctxt "text:examBanks.campus.questions.4.options.0"
+msgid "Danmaku and stalls both stay in the sky"
+msgstr "彈幕和攤販都在天空"
+
+#. examBanks.campus.questions.4.options.1
+#: src/data/exam.js:383
+msgctxt "text:examBanks.campus.questions.4.options.1"
+msgid "Danmaku stays in the sky; stalls stay on the ground"
+msgstr "彈幕只在天空，攤販留在地上"
+
+#. examBanks.campus.questions.4.options.2
+#: src/data/exam.js:384
+msgctxt "text:examBanks.campus.questions.4.options.2"
+msgid "Everything happens in the library north wing"
+msgstr "所有活動都在圖書館北翼"
+
+#. examBanks.campus.questions.4.options.3
+#: src/data/exam.js:385
+msgctxt "text:examBanks.campus.questions.4.options.3"
+msgid "All glowing objects are prohibited"
+msgstr "禁止任何發光物"
+
+#. examBanks.campus.questions.5.options.0
+#: src/data/exam.js:394
+msgctxt "text:examBanks.campus.questions.5.options.0"
+msgid "Prototypes yes, rain gear no"
+msgstr "可借原型機，不可借雨具"
+
+#. examBanks.campus.questions.5.options.1
+#: src/data/exam.js:395
+msgctxt "text:examBanks.campus.questions.5.options.1"
+msgid "Rain gear yes, prototypes no"
+msgstr "可借雨具，不可借原型機"
+
+#. examBanks.campus.questions.5.options.2
+#: src/data/exam.js:396
+msgctxt "text:examBanks.campus.questions.5.options.2"
+msgid "Both may go back to the residence"
+msgstr "兩者都可帶回宿舍"
+
+#. examBanks.campus.questions.5.options.3
+#: src/data/exam.js:397
+msgctxt "text:examBanks.campus.questions.5.options.3"
+msgid "Both require winning a spell-card duel"
+msgstr "兩者都需符卡決鬥取得"
+
+#. examBanks.campus.questions.6.options.0
+#: src/data/exam.js:406
+msgctxt "text:examBanks.campus.questions.6.options.0"
+msgid "Post and pin it on every board"
+msgstr "貼在所有板面並置頂"
+
+#. examBanks.campus.questions.6.options.1
+#: src/data/exam.js:407
+msgctxt "text:examBanks.campus.questions.6.options.1"
+msgid "Send it to Journalism for verification and label source status on the BBS"
+msgstr "先交新聞學院查證；BBS 帖明示來源狀態"
+
+#. examBanks.campus.questions.6.options.2
+#: src/data/exam.js:408
+msgctxt "text:examBanks.campus.questions.6.options.2"
+msgid "Anonymity removes the need to verify"
+msgstr "用匿名即可免除查證"
+
+#. examBanks.campus.questions.6.options.3
+#: src/data/exam.js:409
+msgctxt "text:examBanks.campus.questions.6.options.3"
+msgid "More replies make it truer"
+msgstr "回覆數越高就越真"
+
+#. examBanks.campus.questions.7.options.0
+#: src/data/exam.js:418
+msgctxt "text:examBanks.campus.questions.7.options.0"
+msgid "Roof-berthing time"
+msgstr "屋頂停泊時間"
+
+#. examBanks.campus.questions.7.options.1
+#: src/data/exam.js:419
+msgctxt "text:examBanks.campus.questions.7.options.1"
+msgid "Changing names twice"
+msgstr "更換兩次名字"
+
+#. examBanks.campus.questions.7.options.2
+#: src/data/exam.js:420
+msgctxt "text:examBanks.campus.questions.7.options.2"
+msgid "Library closing time"
+msgstr "圖書館閉館時間"
+
+#. examBanks.campus.questions.7.options.3
+#: src/data/exam.js:421
+msgctxt "text:examBanks.campus.questions.7.options.3"
+msgid "The dining dessert queue"
+msgstr "食堂甜點排隊"

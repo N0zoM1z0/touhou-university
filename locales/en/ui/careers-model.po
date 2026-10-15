@@ -1,0 +1,110 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. careersCommunityPosts.0.author
+#: src/js/careers-model.js:724
+msgctxt "text:careersCommunityPosts.0.author"
+msgid "Graduation Board Minutes Desk"
+msgstr "Graduation Board Minutes Desk"
+
+#. careersCommunityPosts.0.author
+#: src/js/careers-model.js:739
+msgctxt "text:careersCommunityPosts.0.author.2"
+msgid "Careers Office · Tengu Dispatch"
+msgstr "Careers Office · Tengu Dispatch"
+
+#. careersCommunityPosts.0.author
+#: src/js/careers-model.js:753
+msgctxt "text:careersCommunityPosts.0.author.3"
+msgid "Hyakki Yagyo Alumni Lantern Desk"
+msgstr "Hyakki Yagyo Alumni Lantern Desk"
+
+#. careersCommunityPosts.0.author
+#: src/js/careers-model.js:766
+msgctxt "text:careersCommunityPosts.0.author.4"
+msgid "Hyakki Yagyo Alumni Provisional Roll"
+msgstr "Hyakki Yagyo Alumni Provisional Roll"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:481
+msgctxt "text:careerMatches.0.0"
+msgid "School methods align directly"
+msgstr "School methods align directly"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:485
+msgctxt "text:careerMatches.0.0.2"
+msgid "Preferred domains overlap"
+msgstr "Preferred domains overlap"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:488
+msgctxt "text:careerMatches.0.0.3"
+msgid "Duty bell is acceptable"
+msgstr "Duty bell is acceptable"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:490
+msgctxt "text:careerMatches.0.0.4"
+msgid "Duty bell needs negotiation"
+msgstr "Duty bell needs negotiation"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:494
+msgctxt "text:careerMatches.0.0.5"
+msgid "Primary commute is familiar"
+msgstr "Primary commute is familiar"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:498
+msgctxt "text:careerMatches.0.0.6"
+msgid "Compensation form aligns"
+msgstr "Compensation form aligns"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:500
+msgctxt "text:careerMatches.0.0.7"
+msgid "Compensation may not appear as yen"
+msgstr "Compensation may not appear as yen"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:503
+msgctxt "text:careerMatches.0.0.8"
+msgid "Trouble exceeds stated tolerance"
+msgstr "Trouble exceeds stated tolerance"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:507
+msgctxt "text:careerMatches.0.0.9"
+msgid "Field passport supplies evidence"
+msgstr "Field passport supplies evidence"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:508
+msgctxt "text:careerMatches.0.0.10"
+msgid "Ethics file supplies evidence"
+msgstr "Ethics file supplies evidence"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:510
+msgctxt "text:careerMatches.0.0.11"
+msgid "Methods work and exams supply evidence"
+msgstr "Methods work and exams supply evidence"
+
+#. careerMatches.0.0
+#: src/js/careers-model.js:512
+msgctxt "text:careerMatches.0.0.12"
+msgid "Consultation is open; alumni referral waits for a degree"
+msgstr "Consultation is open; alumni referral waits for a degree"
+
+#. careersCommunityPosts.0.title
+#: src/js/careers-model.js:725
+msgctxt "text:careersCommunityPosts.0.title"
+msgid "Degree {value0} retains an unresolved question"
+msgstr "Degree {value0} retains an unresolved question"

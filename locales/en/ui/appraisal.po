@@ -1,0 +1,566 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. copy/eyebrow
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/eyebrow"
+msgid "KOURINDOU × MISTY LAKE LIBRARY"
+msgstr "KOURINDOU × MISTY LAKE LIBRARY"
+
+#. copy/title
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/title"
+msgid "Outside World Drift-Object Appraisal Office"
+msgstr "Outside World Drift-Object Appraisal Office"
+
+#. copy/lead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/lead"
+msgid ""
+"A name, an original purpose, and a useful life in Gensokyo are three "
+"different questions. Kourindou sees names, the library keeps evidence, and "
+"the kappa stare at ports. If the object objects, that enters the file too."
+msgstr ""
+"A name, an original purpose, and a useful life in Gensokyo are three "
+"different questions. Kourindou sees names, the library keeps evidence, and "
+"the kappa stare at ports. If the object objects, that enters the file too."
+
+#. copy/open
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/open"
+msgid "Appraisal desk accepting cases"
+msgstr "Appraisal desk accepting cases"
+
+#. copy/closed
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/closed"
+msgid "Appraisal desk closed for today"
+msgstr "Appraisal desk closed for today"
+
+#. copy/libraryHours
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/libraryHours"
+msgid "Library"
+msgstr "Library"
+
+#. copy/queue
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/queue"
+msgid "Awaiting appraisal"
+msgstr "Awaiting appraisal"
+
+#. copy/queueUnit
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/queueUnit"
+msgid "objects"
+msgstr "objects"
+
+#. copy/weekly
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/weekly"
+msgid "Drift object of the week"
+msgstr "Drift object of the week"
+
+#. copy/liveNotice
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/liveNotice"
+msgid "Duty notice on the wooden board"
+msgstr "Duty notice on the wooden board"
+
+#. copy/desk
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/desk"
+msgid "Appraisal bench"
+msgstr "Appraisal bench"
+
+#. copy/archive
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/archive"
+msgid "My case files"
+msgstr "My case files"
+
+#. copy/draftCount
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/draftCount"
+msgid "drafts"
+msgstr "drafts"
+
+#. copy/recordCount
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/recordCount"
+msgid "files"
+msgstr "files"
+
+#. copy/selectObject
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/selectObject"
+msgid "Drift-object intake shelf"
+msgstr "Drift-object intake shelf"
+
+#. copy/scrollObjects
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/scrollObjects"
+msgid "Slide the shelf left or right · 8 files"
+msgstr "Slide the shelf left or right · 8 files"
+
+#. copy/selected
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/selected"
+msgid "Currently on the bench"
+msgstr "Currently on the bench"
+
+#. copy/arrival
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/arrival"
+msgid "Recovery and transfer"
+msgstr "Recovery and transfer"
+
+#. copy/condition
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/condition"
+msgid "Intake condition"
+msgstr "Intake condition"
+
+#. copy/lastRecord
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/lastRecord"
+msgid "Latest file"
+msgstr "Latest file"
+
+#. copy/noRecord
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/noRecord"
+msgid "Not yet closed"
+msgstr "Not yet closed"
+
+#. copy/stepEvidence
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/stepEvidence"
+msgid "One — Look at the object before the answer"
+msgstr "One — Look at the object before the answer"
+
+#. copy/evidenceLead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/evidenceLead"
+msgid ""
+"Select observations you actually use. At least two; markings and wear "
+"usually speak more reliably than intuition."
+msgstr ""
+"Select observations you actually use. At least two; markings and wear "
+"usually speak more reliably than intuition."
+
+#. copy/reviewed
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/reviewed"
+msgid "Used"
+msgstr "Used"
+
+#. copy/stepHypothesis
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/stepHypothesis"
+msgid "Two — Propose the original purpose"
+msgstr "Two — Propose the original purpose"
+
+#. copy/hypothesisLead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/hypothesisLead"
+msgid ""
+"Rinnosuke may see name and purpose without receiving an operating manual. "
+"Your evidence still has to connect."
+msgstr ""
+"Rinnosuke may see name and purpose without receiving an operating manual. "
+"Your evidence still has to connect."
+
+#. copy/stepTests
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/stepTests"
+msgid "Three — Choose non-invasive tests"
+msgstr "Three — Choose non-invasive tests"
+
+#. copy/testsLead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/testsLead"
+msgid ""
+"At least one and at most three. A kappa bringing a screwdriver does not make "
+"disassembly necessary."
+msgstr ""
+"At least one and at most three. A kappa bringing a screwdriver does not make "
+"disassembly necessary."
+
+#. copy/method
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/method"
+msgid "Method"
+msgstr "Method"
+
+#. copy/observation
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/observation"
+msgid "Observation"
+msgstr "Observation"
+
+#. copy/stepUse
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/stepUse"
+msgid "Four — Give it a next life in Gensokyo"
+msgstr "Four — Give it a next life in Gensokyo"
+
+#. copy/currentUse
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/currentUse"
+msgid "New use"
+msgstr "New use"
+
+#. copy/chooseUse
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/chooseUse"
+msgid "Choose a present use you can explain"
+msgstr "Choose a present use you can explain"
+
+#. copy/destination
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/destination"
+msgid "Destination"
+msgstr "Destination"
+
+#. copy/agency
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/agency"
+msgid "Object-agency observation"
+msgstr "Object-agency observation"
+
+#. copy/fieldNote
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/fieldNote"
+msgid "Field note"
+msgstr "Field note"
+
+#. copy/fieldPlaceholder
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/fieldPlaceholder"
+msgid ""
+"Record one remaining uncertainty, version gap, or the object’s reaction to "
+"its proposed treatment…"
+msgstr ""
+"Record one remaining uncertainty, version gap, or the object’s reaction to "
+"its proposed treatment…"
+
+#. copy/autosaved
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/autosaved"
+msgid "Draft saved on this device"
+msgstr "Draft saved on this device"
+
+#. copy/clear
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/clear"
+msgid "Clear this draft"
+msgstr "Clear this draft"
+
+#. copy/submit
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/submit"
+msgid "Send to the four-party appraisal meeting"
+msgstr "Send to the four-party appraisal meeting"
+
+#. copy/incomplete
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/incomplete"
+msgid ""
+"The file cannot close: use at least two evidence items and one test, then "
+"complete original use, new use, destination, and agency observation."
+msgstr ""
+"The file cannot close: use at least two evidence items and one test, then "
+"complete original use, new use, destination, and agency observation."
+
+#. copy/saved
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/saved"
+msgid "The appraisal file is bound; My TU and the campus event ledger received copies."
+msgstr "The appraisal file is bound; My TU and the campus event ledger received copies."
+
+#. copy/cleared
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/cleared"
+msgid "The bench is clear. Previous case files were not discarded."
+msgstr "The bench is clear. Previous case files were not discarded."
+
+#. copy/supported
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/supported"
+msgid "Purpose well supported"
+msgstr "Purpose well supported"
+
+#. copy/provisional
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/provisional"
+msgid "Provisional purpose pending more port or version evidence"
+msgstr "Provisional purpose pending more port or version evidence"
+
+#. copy/unsupported
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/unsupported"
+msgid "Original-purpose claim unsupported"
+msgstr "Original-purpose claim unsupported"
+
+#. copy/contested
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/contested"
+msgid "Red-pencil contested preservation"
+msgstr "Red-pencil contested preservation"
+
+#. copy/score
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/score"
+msgid "Appraisal completeness"
+msgstr "Appraisal completeness"
+
+#. copy/evidence
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/evidence"
+msgid "Evidence used"
+msgstr "Evidence used"
+
+#. copy/tests
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/tests"
+msgid "Tests completed"
+msgstr "Tests completed"
+
+#. copy/proposed
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/proposed"
+msgid "Your proposed original purpose"
+msgstr "Your proposed original purpose"
+
+#. copy/identified
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/identified"
+msgid "Original purpose reconstructed by the office"
+msgstr "Original purpose reconstructed by the office"
+
+#. copy/operation
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/operation"
+msgid "Likely operation"
+msgstr "Likely operation"
+
+#. copy/caution
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/caution"
+msgid "Limit the conclusion must not erase"
+msgstr "Limit the conclusion must not erase"
+
+#. copy/nextUse
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/nextUse"
+msgid "New Gensokyo use"
+msgstr "New Gensokyo use"
+
+#. copy/assigned
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/assigned"
+msgid "Destination"
+msgstr "Destination"
+
+#. copy/agencyResult
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/agencyResult"
+msgid "Agency reading"
+msgstr "Agency reading"
+
+#. copy/panel
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/panel"
+msgid "Four-party marginal opinions"
+msgstr "Four-party marginal opinions"
+
+#. copy/correction
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/correction"
+msgid "This file also corrects an earlier contested appraisal"
+msgstr "This file also corrects an earlier contested appraisal"
+
+#. copy/retainedBy
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retainedBy"
+msgid "Retention signatory"
+msgstr "Retention signatory"
+
+#. copy/retentionReason
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retentionReason"
+msgid "Reason retained"
+msgstr "Reason retained"
+
+#. copy/share
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/share"
+msgid "Copy file link"
+msgstr "Copy file link"
+
+#. copy/shared
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/shared"
+msgid "Case-file link copied."
+msgstr "Case-file link copied."
+
+#. copy/openBbs
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/openBbs"
+msgid "See what the BBS did with it"
+msgstr "See what the BBS did with it"
+
+#. copy/startAnother
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/startAnother"
+msgid "Appraise this object again"
+msgstr "Appraise this object again"
+
+#. copy/archiveTitle
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/archiveTitle"
+msgid "Appraisal files retained on this device"
+msgstr "Appraisal files retained on this device"
+
+#. copy/archiveLead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/archiveLead"
+msgid ""
+"Errors, provisional readings, and corrections remain where they occurred. "
+"Reappraisal creates a new file rather than pretending an older purpose never "
+"existed."
+msgstr ""
+"Errors, provisional readings, and corrections remain where they occurred. "
+"Reappraisal creates a new file rather than pretending an older purpose never "
+"existed."
+
+#. copy/noArchive
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/noArchive"
+msgid "No files yet. Kourindou says this means everything remains not for sale for now."
+msgstr "No files yet. Kourindou says this means everything remains not for sale for now."
+
+#. copy/openRecord
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/openRecord"
+msgid "Open file"
+msgstr "Open file"
+
+#. copy/status
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/status"
+msgid "Finding"
+msgstr "Finding"
+
+#. copy/date
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/date"
+msgid "Bound"
+msgstr "Bound"
+
+#. copy/drafts
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/drafts"
+msgid "Unfinished drafts"
+msgstr "Unfinished drafts"
+
+#. copy/continueDraft
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/continueDraft"
+msgid "Continue appraisal"
+msgstr "Continue appraisal"
+
+#. copy/retentionTitle
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retentionTitle"
+msgid "This use did not hold. Keep it anyway?"
+msgstr "This use did not hold. Keep it anyway?"
+
+#. copy/retentionLead
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retentionLead"
+msgid ""
+"The evidence did not support the selected original purpose. An error can "
+"still preserve how Gensokyo understood an Outside object. If retained, it "
+"stays visibly contested and generates BBS reactions."
+msgstr ""
+"The evidence did not support the selected original purpose. An error can "
+"still preserve how Gensokyo understood an Outside object. If retained, it "
+"stays visibly contested and generates BBS reactions."
+
+#. copy/retentionWarning
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retentionWarning"
+msgid ""
+"Retention does not make it correct. Later files, My TU, and BBS will all "
+"keep the UNSUPPORTED mark."
+msgstr ""
+"Retention does not make it correct. Later files, My TU, and BBS will all "
+"keep the UNSUPPORTED mark."
+
+#. copy/reviewer
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/reviewer"
+msgid "Reviewer willing to sign retention"
+msgstr "Reviewer willing to sign retention"
+
+#. copy/reason
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/reason"
+msgid "Why it deserves a record"
+msgstr "Why it deserves a record"
+
+#. copy/reasonPlaceholder
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/reasonPlaceholder"
+msgid ""
+"For example: a representative misreading, a useful new test question, or the "
+"object itself insists on this use…"
+msgstr ""
+"For example: a representative misreading, a useful new test question, or the "
+"object itself insists on this use…"
+
+#. copy/confirm
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/confirm"
+msgid ""
+"I understand that evidence did not support this proposed original purpose "
+"and still request a contested record."
+msgstr ""
+"I understand that evidence did not support this proposed original purpose "
+"and still request a contested record."
+
+#. copy/cancel
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/cancel"
+msgid "Return it to the bench"
+msgstr "Return it to the bench"
+
+#. copy/bind
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/bind"
+msgid "Bind in red pencil and let the BBS answer for itself"
+msgstr "Bind in red pencil and let the BBS answer for itself"
+
+#. copy/retentionIncomplete
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/retentionIncomplete"
+msgid "Choose a signatory, state a reason, and confirm the warning."
+msgstr "Choose a signatory, state a reason, and confirm the warning."
+
+#. copy/outsiderDesk
+#: src/js/appraisal.js:30
+msgctxt "tree:copy#/outsiderDesk"
+msgid ""
+"Outside objects are not riddle props. They were used, superseded, made "
+"unrepairable—and only then arrived here."
+msgstr ""
+"Outside objects are not riddle props. They were used, superseded, made "
+"unrepairable—and only then arrived here."

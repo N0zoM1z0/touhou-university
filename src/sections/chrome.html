@@ -59,8 +59,8 @@
           <span aria-hidden="true">⌕</span><b>SEARCH</b><kbd>⌘K</kbd>
         </button>
         <div class="language-switcher" role="group" aria-label="Language">
-          <button class="language-button active" type="button" data-lang="zh-Hant">中</button>
-          <button class="language-button" type="button" data-lang="ja">日</button>
+          <button class="language-button active" type="button" data-lang="zh-Hant" data-i18n="languageZhShort">中</button>
+          <button class="language-button" type="button" data-lang="ja" data-i18n="languageJaShort">日</button>
           <button class="language-button" type="button" data-lang="en">EN</button>
         </div>
         <a class="header-cta" href="admissions.html#admissions">
@@ -72,7 +72,7 @@
       <button
         class="menu-toggle"
         type="button"
-        aria-label="開啟選單"
+        aria-label="開啟選單" data-i18n-aria-label="attribute.openMenu"
         aria-expanded="false"
         data-menu-toggle
       >
@@ -82,7 +82,7 @@
 
 <div class="mobile-menu" data-mobile-menu hidden>
       <button class="mobile-search" type="button" data-search-open>
-        <span aria-hidden="true">⌕</span> SEARCH / 全站搜尋
+        <span aria-hidden="true">⌕</span><!-- i18n:siteSearchMobile --> SEARCH / 全站搜尋
       </button>
       <nav aria-label="行動版導覽" data-i18n-aria-label="ariaMobileNavigation">
         <section>
@@ -118,8 +118,8 @@
         </section>
       </nav>
       <div class="mobile-languages" role="group" aria-label="Language">
-        <button class="language-button active" type="button" data-lang="zh-Hant">中文</button>
-        <button class="language-button" type="button" data-lang="ja">日本語</button>
+        <button class="language-button active" type="button" data-lang="zh-Hant" data-i18n="languageZh">中文</button>
+        <button class="language-button" type="button" data-lang="ja" data-i18n="languageJa">日本語</button>
         <button class="language-button" type="button" data-lang="en">English</button>
       </div>
     </div>

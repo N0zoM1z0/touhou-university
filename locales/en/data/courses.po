@@ -1,0 +1,390 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. courseTerm.label
+#: src/data/courses.js:18
+msgctxt "text:courseTerm.label"
+msgid "Gensokyo 142 · Autumn"
+msgstr "Gensokyo 142 · Autumn"
+
+#. courseTerm.addDeadline
+#: src/data/courses.js:19
+msgctxt "text:courseTerm.addDeadline"
+msgid "Add through 14 September"
+msgstr "Add through 14 September"
+
+#. courseTerm.dropDeadline
+#: src/data/courses.js:20
+msgctxt "text:courseTerm.dropDeadline"
+msgid "Drop through 5 October"
+msgstr "Drop through 5 October"
+
+#. courseDays.mon
+#: src/data/courses.js:25
+msgctxt "text:courseDays.mon"
+msgid "Monday"
+msgstr "Monday"
+
+#. courseDays.tue
+#: src/data/courses.js:26
+msgctxt "text:courseDays.tue"
+msgid "Tuesday"
+msgstr "Tuesday"
+
+#. courseDays.wed
+#: src/data/courses.js:27
+msgctxt "text:courseDays.wed"
+msgid "Wednesday"
+msgstr "Wednesday"
+
+#. courseDays.thu
+#: src/data/courses.js:28
+msgctxt "text:courseDays.thu"
+msgid "Thursday"
+msgstr "Thursday"
+
+#. courseDays.fri
+#: src/data/courses.js:29
+msgctxt "text:courseDays.fri"
+msgid "Friday"
+msgstr "Friday"
+
+#. courseDays.sat
+#: src/data/courses.js:30
+msgctxt "text:courseDays.sat"
+msgid "Saturday"
+msgstr "Saturday"
+
+#. courseDays.lunar
+#: src/data/courses.js:31
+msgctxt "text:courseDays.lunar"
+msgid "Lunar session"
+msgstr "Lunar session"
+
+#. courseDays.boundary
+#: src/data/courses.js:32
+msgctxt "text:courseDays.boundary"
+msgid "Boundary-adjacent day"
+msgstr "Boundary-adjacent day"
+
+#. teachers.reimu
+#: src/data/courses.js:45
+msgctxt "text:teachers.reimu"
+msgid "Reimu Hakurei"
+msgstr "Reimu Hakurei"
+
+#. teachers.yukari
+#: src/data/courses.js:46
+msgctxt "text:teachers.yukari"
+msgid "Yukari Yakumo"
+msgstr "Yukari Yakumo"
+
+#. teachers.keine
+#: src/data/courses.js:47
+msgctxt "text:teachers.keine"
+msgid "Keine Kamishirasawa"
+msgstr "Keine Kamishirasawa"
+
+#. teachers.akyuu
+#: src/data/courses.js:48
+msgctxt "text:teachers.akyuu"
+msgid "Hieda no Akyuu"
+msgstr "Hieda no Akyuu"
+
+#. teachers.patchouli
+#: src/data/courses.js:49
+msgctxt "text:teachers.patchouli"
+msgid "Patchouli Knowledge"
+msgstr "Patchouli Knowledge"
+
+#. teachers.marisa
+#: src/data/courses.js:50
+msgctxt "text:teachers.marisa"
+msgid "Marisa Kirisame"
+msgstr "Marisa Kirisame"
+
+#. teachers.alice
+#: src/data/courses.js:51
+msgctxt "text:teachers.alice"
+msgid "Alice Margatroid"
+msgstr "Alice Margatroid"
+
+#. teachers.eirin
+#: src/data/courses.js:52
+msgctxt "text:teachers.eirin"
+msgid "Eirin Yagokoro"
+msgstr "Eirin Yagokoro"
+
+#. teachers.reisen
+#: src/data/courses.js:53
+msgctxt "text:teachers.reisen"
+msgid "Reisen Udongein Inaba"
+msgstr "Reisen Udongein Inaba"
+
+#. teachers.nitori
+#: src/data/courses.js:54
+msgctxt "text:teachers.nitori"
+msgid "Nitori Kawashiro"
+msgstr "Nitori Kawashiro"
+
+#. teachers.aya
+#: src/data/courses.js:55
+msgctxt "text:teachers.aya"
+msgid "Aya Shameimaru"
+msgstr "Aya Shameimaru"
+
+#. teachers.hatate
+#: src/data/courses.js:56
+msgctxt "text:teachers.hatate"
+msgid "Hatate Himekaidou"
+msgstr "Hatate Himekaidou"
+
+#. teachers.sanae
+#: src/data/courses.js:57
+msgctxt "text:teachers.sanae"
+msgid "Sanae Kochiya"
+msgstr "Sanae Kochiya"
+
+#. teachers.byakuren
+#: src/data/courses.js:58
+msgctxt "text:teachers.byakuren"
+msgid "Byakuren Hijiri"
+msgstr "Byakuren Hijiri"
+
+#. teachers.miko
+#: src/data/courses.js:59
+msgctxt "text:teachers.miko"
+msgid "Toyosatomimi no Miko"
+msgstr "Toyosatomimi no Miko"
+
+#. meta.BIS-101.mon.7
+#: src/data/courses.js:63
+msgctxt "text:meta.BIS-101.mon.7"
+msgid "In the first class, students draw exit routes. Donation-box shapes earn no bonus."
+msgstr "In the first class, students draw exit routes. Donation-box shapes earn no bonus."
+
+#. meta.BIS-132.tue.7
+#: src/data/courses.js:64
+msgctxt "text:meta.BIS-132.tue.7"
+msgid "Keep the first field note even when the second is less embarrassing."
+msgstr "Keep the first field note even when the second is less embarrassing."
+
+#. meta.BIS-204.thu.7
+#: src/data/courses.js:65
+msgctxt "text:meta.BIS-204.thu.7"
+msgid "Exit design is 40%; a beautiful spell that cannot stop fails."
+msgstr "Exit design is 40%; a beautiful spell that cannot stop fails."
+
+#. meta.BIS-271.boundary.7
+#: src/data/courses.js:66
+msgctxt "text:meta.BIS-271.boundary.7"
+msgid "The room borders every room. The system warns but declines to decide."
+msgstr "The room borders every room. The system warns but declines to decide."
+
+#. meta.BIS-401.fri.7
+#: src/data/courses.js:67
+msgctxt "text:meta.BIS-401.fri.7"
+msgid "Once full, overrides require the incident's own signature."
+msgstr "Once full, overrides require the incident's own signature."
+
+#. meta.HRS-100.mon.7
+#: src/data/courses.js:69
+msgctxt "text:meta.HRS-100.mon.7"
+msgid "Three versions of one event are welcome; do not call all three final truth."
+msgstr "Three versions of one event are welcome; do not call all three final truth."
+
+#. meta.HRS-126.tue.7
+#: src/data/courses.js:70
+msgctxt "text:meta.HRS-126.tue.7"
+msgid "The room sits inside the source volume and unusually conflicts with Grimoire Reading."
+msgstr "The room sits inside the source volume and unusually conflicts with Grimoire Reading."
+
+#. meta.HRS-208.wed.7
+#: src/data/courses.js:71
+msgctxt "text:meta.HRS-208.wed.7"
+msgid "For narrators over 300, “when I was young” needs a date range."
+msgstr "For narrators over 300, “when I was young” needs a date range."
+
+#. meta.HRS-250.wed.7
+#: src/data/courses.js:72
+msgctxt "text:meta.HRS-250.wed.7"
+msgid "If a Wednesday is erased, the make-up occurs in one of two valid calendars."
+msgstr "If a Wednesday is erased, the make-up occurs in one of two valid calendars."
+
+#. meta.HRS-410.fri.7
+#: src/data/courses.js:73
+msgctxt "text:meta.HRS-410.fri.7"
+msgid "The capstone must preserve one version you distrust but cannot delete."
+msgstr "The capstone must preserve one version you distrust but cannot delete."
+
+#. meta.MTP-111.mon.7
+#: src/data/courses.js:75
+msgctxt "text:meta.MTP-111.mon.7"
+msgid "A wrong element order is not penalized until the desk grows scissors."
+msgstr "A wrong element order is not penalized until the desk grows scissors."
+
+#. meta.MTP-143.thu.7
+#: src/data/courses.js:76
+msgctxt "text:meta.MTP-143.thu.7"
+msgid ""
+"The classroom is a book that reshelves itself; this course cannot be taken "
+"alongside HRS-126."
+msgstr ""
+"The classroom is a book that reshelves itself; this course cannot be taken "
+"alongside HRS-126."
+
+#. meta.MTP-220.tue.7
+#: src/data/courses.js:77
+msgctxt "text:meta.MTP-220.tue.7"
+msgid "A doll cannot answer roll call unless it can also answer the follow-up."
+msgstr "A doll cannot answer roll call unless it can also answer the follow-up."
+
+#. meta.MTP-308.fri.7
+#: src/data/courses.js:78
+msgctxt "text:meta.MTP-308.fri.7"
+msgid "“Found in the forest” may occupy at most half the provenance field."
+msgstr "“Found in the forest” may occupy at most half the provenance field."
+
+#. meta.MTP-430.sat.7
+#: src/data/courses.js:79
+msgctxt "text:meta.MTP-430.sat.7"
+msgid "An uninformed peer reproduces the final; blast direction counts as a result."
+msgstr "An uninformed peer reproduces the final; blast direction counts as a result."
+
+#. meta.LML-102.mon.7
+#: src/data/courses.js:81
+msgctxt "text:meta.LML-102.mon.7"
+msgid "Week one forbids assuming identical pulses, wings, or life states."
+msgstr "Week one forbids assuming identical pulses, wings, or life states."
+
+#. meta.LML-166.lunar.7
+#: src/data/courses.js:82
+msgctxt "text:meta.LML-166.lunar.7"
+msgid "Meet once under full and non-full moons; attending only the easier one is not a control."
+msgstr "Meet once under full and non-full moons; attending only the easier one is not a control."
+
+#. meta.LML-240.tue.7
+#: src/data/courses.js:83
+msgctxt "text:meta.LML-240.tue.7"
+msgid "Every claim of permanence must say for whom and for how long."
+msgstr "Every claim of permanence must say for whom and for how long."
+
+#. meta.LML-351.thu.7
+#: src/data/courses.js:84
+msgctxt "text:meta.LML-351.thu.7"
+msgid "Four lanterns appear in the navigation trial; the fourth is not bonus credit."
+msgstr "Four lanterns appear in the navigation trial; the fourth is not bonus credit."
+
+#. meta.LML-602.sat.7
+#: src/data/courses.js:85
+msgctxt "text:meta.LML-602.sat.7"
+msgid "The night clinic has no waitlist; patients do not queue by registrar order."
+msgstr "The night clinic has no waitlist; patients do not queue by registrar order."
+
+#. meta.KPE-110.mon.7
+#: src/data/courses.js:87
+msgctxt "text:meta.KPE-110.mon.7"
+msgid "A leaking turbine is not always failure; if it powers another, revise the objective."
+msgstr "A leaking turbine is not always failure; if it powers another, revise the objective."
+
+#. meta.KPE-148.tue.7
+#: src/data/courses.js:88
+msgctxt "text:meta.KPE-148.tue.7"
+msgid "Every number needs units, timestamp, and the instrument's tape batch."
+msgstr "Every number needs units, timestamp, and the instrument's tape batch."
+
+#. meta.KPE-215.wed.7
+#: src/data/courses.js:89
+msgctxt "text:meta.KPE-215.wed.7"
+msgid "A box that cannot open is not repairable even when smoking normally."
+msgstr "A box that cannot open is not repairable even when smoking normally."
+
+#. meta.KPE-322.thu.7
+#: src/data/courses.js:90
+msgctxt "text:meta.KPE-322.thu.7"
+msgid "Village users must touch the controls; a kappa demo is not user testing."
+msgstr "Village users must touch the controls; a kappa demo is not user testing."
+
+#. meta.KPE-440.sat.7
+#: src/data/courses.js:91
+msgctxt "text:meta.KPE-440.sat.7"
+msgid ""
+"The build must run 30 days; tearing failures from the calendar does not "
+"restore continuity."
+msgstr ""
+"The build must run 30 days; tearing failures from the calendar does not "
+"restore continuity."
+
+#. meta.TJM-105.mon.7
+#: src/data/courses.js:93
+msgctxt "text:meta.TJM-105.mon.7"
+msgid "A source may fly into frame and still request anonymity; speed is not consent."
+msgstr "A source may fly into frame and still request anonymity; speed is not consent."
+
+#. meta.TJM-144.tue.7
+#: src/data/courses.js:94
+msgctxt "text:meta.TJM-144.tue.7"
+msgid ""
+"Whether you can photograph it and whether you should publish it are graded "
+"separately; the dean often objects."
+msgstr ""
+"Whether you can photograph it and whether you should publish it are graded "
+"separately; the dean often objects."
+
+#. meta.TJM-212.boundary.7
+#: src/data/courses.js:95
+msgctxt "text:meta.TJM-212.boundary.7"
+msgid ""
+"During an incident, class time moves toward it; waitlisted students provide "
+"pursuit transport."
+msgstr ""
+"During an incident, class time moves toward it; waitlisted students provide "
+"pursuit transport."
+
+#. meta.TJM-301.fri.7
+#: src/data/courses.js:96
+msgctxt "text:meta.TJM-301.fri.7"
+msgid "This week's case may be the teacher's morning headline; correction is rarely faster."
+msgstr "This week's case may be the teacher's morning headline; correction is rarely faster."
+
+#. meta.TJM-420.sat.7
+#: src/data/courses.js:97
+msgctxt "text:meta.TJM-420.sat.7"
+msgid "Three reports need evidenced disagreement, not merely three headlines."
+msgstr "Three reports need evidenced disagreement, not merely three headlines."
+
+#. meta.FCP-104.tue.7
+#: src/data/courses.js:99
+msgctxt "text:meta.FCP-104.tue.7"
+msgid "Map shrines and temples—and people who want recruitment from neither."
+msgstr "Map shrines and temples—and people who want recruitment from neither."
+
+#. meta.FCP-160.wed.7
+#: src/data/courses.js:100
+msgctxt "text:meta.FCP-160.wed.7"
+msgid "Ending the meeting is facilitation; carrying it to the dorm does not extend class."
+msgstr "Ending the meeting is facilitation; carrying it to the dorm does not extend class."
+
+#. meta.FCP-233.thu.7
+#: src/data/courses.js:101
+msgctxt "text:meta.FCP-233.thu.7"
+msgid "After hearing eleven wishes, disclose which will not be met."
+msgstr "After hearing eleven wishes, disclose which will not be met."
+
+#. meta.FCP-310.fri.7
+#: src/data/courses.js:102
+msgctxt "text:meta.FCP-310.fri.7"
+msgid "Three traditions may book one stage; “build another” is not a complete answer."
+msgstr "Three traditions may book one stage; “build another” is not a complete answer."
+
+#. meta.FCP-402.sat.7
+#: src/data/courses.js:103
+msgctxt "text:meta.FCP-402.sat.7"
+msgid "The agreement needs three signatures; dissent follows in equal-sized type."
+msgstr "The agreement needs three signatures; dissent follows in equal-sized type."

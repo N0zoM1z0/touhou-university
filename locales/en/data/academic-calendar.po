@@ -1,0 +1,842 @@
+# Touhou University — en
+msgid ""
+msgstr ""
+"Project-Id-Version: Touhou University\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. academicSeasons.spring.name
+#: src/data/academic-calendar.js:9
+msgctxt "text:academicSeasons.spring.name"
+msgid "Blossom & Unmelted Snow"
+msgstr "Blossom & Unmelted Snow"
+
+#. academicSeasons.spring.note
+#: src/data/academic-calendar.js:11
+msgctxt "text:academicSeasons.spring.note"
+msgid "Spring has arrived; Hakugyokurou has not signed for it."
+msgstr "Spring has arrived; Hakugyokurou has not signed for it."
+
+#. academicSeasons.rain.name
+#: src/data/academic-calendar.js:15
+msgctxt "text:academicSeasons.rain.name"
+msgid "Rain & Paperweight Season"
+msgstr "Rain & Paperweight Season"
+
+#. academicSeasons.rain.note
+#: src/data/academic-calendar.js:17
+msgctxt "text:academicSeasons.rain.note"
+msgid "Notices remain valid; the date in the lower-right may have run off."
+msgstr "Notices remain valid; the date in the lower-right may have run off."
+
+#. academicSeasons.summer.name
+#: src/data/academic-calendar.js:21
+msgctxt "text:academicSeasons.summer.name"
+msgid "Night-Sparrow Supper & Summer Field Season"
+msgstr "Night-Sparrow Supper & Summer Field Season"
+
+#. academicSeasons.summer.note
+#: src/data/academic-calendar.js:23
+msgctxt "text:academicSeasons.summer.note"
+msgid "Fewer daylight classes, more nocturnal complications."
+msgstr "Fewer daylight classes, more nocturnal complications."
+
+#. academicSeasons.autumn.name
+#: src/data/academic-calendar.js:27
+msgctxt "text:academicSeasons.autumn.name"
+msgid "Maple, Harvest & Shrine Festival Season"
+msgstr "Maple, Harvest & Shrine Festival Season"
+
+#. academicSeasons.autumn.note
+#: src/data/academic-calendar.js:29
+msgctxt "text:academicSeasons.autumn.note"
+msgid "Three festivals share a calendar, not a main gate."
+msgstr "Three festivals share a calendar, not a main gate."
+
+#. academicSeasons.winter.name
+#: src/data/academic-calendar.js:33
+msgctxt "text:academicSeasons.winter.name"
+msgid "Hibernation & Winter Placement Season"
+msgstr "Hibernation & Winter Placement Season"
+
+#. academicSeasons.winter.note
+#: src/data/academic-calendar.js:35
+msgctxt "text:academicSeasons.winter.note"
+msgid "Hibernation is not absence if the form was filed before sleep."
+msgstr "Hibernation is not absence if the form was filed before sleep."
+
+#. academicCalendarEvents.0.0.title
+#: src/data/academic-calendar.js:78
+msgctxt "text:academicCalendarEvents.0.0.title"
+msgid "Winter placement return & snow-boot provenance"
+msgstr "Winter placement return & snow-boot provenance"
+
+#. academicCalendarEvents.0.0.window
+#: src/data/academic-calendar.js:79
+msgctxt "text:academicCalendarEvents.0.0.window"
+msgid "6–18 January"
+msgstr "6–18 January"
+
+#. academicCalendarEvents.0.0.premise
+#: src/data/academic-calendar.js:80
+msgctxt "text:academicCalendarEvents.0.0.premise"
+msgid ""
+"Returning snow, phantoms, and tools may not all be denied on one ‘nothing "
+"imported’ form."
+msgstr ""
+"Returning snow, phantoms, and tools may not all be denied on one ‘nothing "
+"imported’ form."
+
+#. academicCalendarEvents.0.0.details
+#: src/data/academic-calendar.js:81
+msgctxt "text:academicCalendarEvents.0.0.details"
+msgid ""
+"Hieda extends passport inspection; the clinic opens a frozen-magic warming "
+"desk; Kappa Workshop accepts only equipment still moving after drying."
+msgstr ""
+"Hieda extends passport inspection; the clinic opens a frozen-magic warming "
+"desk; Kappa Workshop accepts only equipment still moving after drying."
+
+#. academicCalendarEvents.0.0.impacts.course
+#: src/data/academic-calendar.js:83
+msgctxt "text:academicCalendarEvents.0.0.impacts.course"
+msgid "Morning classes shift one bell; field reports replace first period"
+msgstr "Morning classes shift one bell; field reports replace first period"
+
+#. academicCalendarEvents.0.0.impacts.transport
+#: src/data/academic-calendar.js:84
+msgctxt "text:academicCalendarEvents.0.0.impacts.transport"
+msgid "Add 3 minutes between Hakurei Gate and Hieda Hall"
+msgstr "Add 3 minutes between Hakurei Gate and Hieda Hall"
+
+#. academicCalendarEvents.0.0.impacts.library
+#: src/data/academic-calendar.js:85
+msgctxt "text:academicCalendarEvents.0.0.impacts.library"
+msgid "Field archive stays open until 22:30"
+msgstr "Field archive stays open until 22:30"
+
+#. academicCalendarEvents.0.0.impacts.medicine
+#: src/data/academic-calendar.js:86
+msgctxt "text:academicCalendarEvents.0.0.impacts.medicine"
+msgid "Frozen-magic warming desk opens"
+msgstr "Frozen-magic warming desk opens"
+
+#. academicCalendarEvents.1.0.title
+#: src/data/academic-calendar.js:97
+msgctxt "text:academicCalendarEvents.1.0.title"
+msgid "Hibernation filing & absent registration"
+msgstr "Hibernation filing & absent registration"
+
+#. academicCalendarEvents.1.0.window
+#: src/data/academic-calendar.js:98
+msgctxt "text:academicCalendarEvents.1.0.window"
+msgid "1–12 February"
+msgstr "1–12 February"
+
+#. academicCalendarEvents.1.0.premise
+#: src/data/academic-calendar.js:99
+msgctxt "text:academicCalendarEvents.1.0.premise"
+msgid ""
+"Hibernators may add and drop by sleep-talking; if the dream enrols in eight "
+"courses, waking responsibility remains theirs."
+msgstr ""
+"Hibernators may add and drop by sleep-talking; if the dream enrols in eight "
+"courses, waking responsibility remains theirs."
+
+#. academicCalendarEvents.1.0.details
+#: src/data/academic-calendar.js:100
+msgctxt "text:academicCalendarEvents.1.0.details"
+msgid ""
+"Residence desks accept bedside forms; My TU marks ‘student may not know’; "
+"instructors may not use pot-banging as formal awakening."
+msgstr ""
+"Residence desks accept bedside forms; My TU marks ‘student may not know’; "
+"instructors may not use pot-banging as formal awakening."
+
+#. academicCalendarEvents.1.0.impacts.course
+#: src/data/academic-calendar.js:102
+msgctxt "text:academicCalendarEvents.1.0.impacts.course"
+msgid "Waitlists recalculate each dusk"
+msgstr "Waitlists recalculate each dusk"
+
+#. academicCalendarEvents.1.0.impacts.transport
+#: src/data/academic-calendar.js:103
+msgctxt "text:academicCalendarEvents.1.0.impacts.transport"
+msgid "Quiet footways apply around hibernation wings"
+msgstr "Quiet footways apply around hibernation wings"
+
+#. academicCalendarEvents.1.0.impacts.library
+#: src/data/academic-calendar.js:104
+msgctxt "text:academicCalendarEvents.1.0.impacts.library"
+msgid "Bedside loans receive one renewal"
+msgstr "Bedside loans receive one renewal"
+
+#. academicCalendarEvents.1.0.impacts.medicine
+#: src/data/academic-calendar.js:105
+msgctxt "text:academicCalendarEvents.1.0.impacts.medicine"
+msgid "Sleepwalking cases move to residence rounds"
+msgstr "Sleepwalking cases move to residence rounds"
+
+#. academicCalendarEvents.2.0.title
+#: src/data/academic-calendar.js:116
+msgctxt "text:academicCalendarEvents.2.0.title"
+msgid "Spring term opening & Hakugyokurou unmelted-snow objection"
+msgstr "Spring term opening & Hakugyokurou unmelted-snow objection"
+
+#. academicCalendarEvents.2.0.window
+#: src/data/academic-calendar.js:117
+msgctxt "text:academicCalendarEvents.2.0.window"
+msgid "18 March–7 April"
+msgstr "18 March–7 April"
+
+#. academicCalendarEvents.2.0.premise
+#: src/data/academic-calendar.js:118
+msgctxt "text:academicCalendarEvents.2.0.premise"
+msgid ""
+"The university declares spring term; Hakugyokurou petitions delay for snow "
+"while Yuyuko holds hanami first."
+msgstr ""
+"The university declares spring term; Hakugyokurou petitions delay for snow "
+"while Yuyuko holds hanami first."
+
+#. academicCalendarEvents.2.0.details
+#: src/data/academic-calendar.js:119
+msgctxt "text:academicCalendarEvents.2.0.details"
+msgid ""
+"Week one has spring and winter timetables; Youmu patrols between them; "
+"Yukari declines to say which is earlier."
+msgstr ""
+"Week one has spring and winter timetables; Youmu patrols between them; "
+"Yukari declines to say which is earlier."
+
+#. academicCalendarEvents.2.0.impacts.course
+#: src/data/academic-calendar.js:121
+msgctxt "text:academicCalendarEvents.2.0.impacts.course"
+msgid "Hakugyokurou remote classes keep winter time"
+msgstr "Hakugyokurou remote classes keep winter time"
+
+#. academicCalendarEvents.2.0.impacts.transport
+#: src/data/academic-calendar.js:122
+msgctxt "text:academicCalendarEvents.2.0.impacts.transport"
+msgid "Add 8 minutes to Higan/Hakugyokurou routes"
+msgstr "Add 8 minutes to Higan/Hakugyokurou routes"
+
+#. academicCalendarEvents.2.0.impacts.library
+#: src/data/academic-calendar.js:123
+msgctxt "text:academicCalendarEvents.2.0.impacts.library"
+msgid "Spring reserves and winter renewals overlap"
+msgstr "Spring reserves and winter renewals overlap"
+
+#. academicCalendarEvents.2.0.impacts.medicine
+#: src/data/academic-calendar.js:124
+msgctxt "text:academicCalendarEvents.2.0.impacts.medicine"
+msgid "Pollen and frostbite triage stay separate"
+msgstr "Pollen and frostbite triage stay separate"
+
+#. academicCalendarEvents.3.0.title
+#: src/data/academic-calendar.js:135
+msgctxt "text:academicCalendarEvents.3.0.title"
+msgid "Boundary matriculation & three sole main gates"
+msgstr "Boundary matriculation & three sole main gates"
+
+#. academicCalendarEvents.3.0.window
+#: src/data/academic-calendar.js:136
+msgctxt "text:academicCalendarEvents.3.0.window"
+msgid "Second week of April"
+msgstr "Second week of April"
+
+#. academicCalendarEvents.3.0.premise
+#: src/data/academic-calendar.js:137
+msgctxt "text:academicCalendarEvents.3.0.premise"
+msgid ""
+"New students split among three ‘sole’ gates by flight, faith route, and "
+"boundary visibility."
+msgstr ""
+"New students split among three ‘sole’ gates by flight, faith route, and "
+"boundary visibility."
+
+#. academicCalendarEvents.3.0.details
+#: src/data/academic-calendar.js:138
+msgctxt "text:academicCalendarEvents.3.0.details"
+msgid ""
+"Reimu unveils the nameboard; Aya publishes attendance nine minutes early; "
+"Kogasa startles those who missed the gates."
+msgstr ""
+"Reimu unveils the nameboard; Aya publishes attendance nine minutes early; "
+"Kogasa startles those who missed the gates."
+
+#. academicCalendarEvents.3.0.impacts.course
+#: src/data/academic-calendar.js:140
+msgctxt "text:academicCalendarEvents.3.0.impacts.course"
+msgid "Orientation replaces morning classes"
+msgstr "Orientation replaces morning classes"
+
+#. academicCalendarEvents.3.0.impacts.transport
+#: src/data/academic-calendar.js:141
+msgctxt "text:academicCalendarEvents.3.0.impacts.transport"
+msgid "Hakurei Gate–Boundary Hall becomes one-way"
+msgstr "Hakurei Gate–Boundary Hall becomes one-way"
+
+#. academicCalendarEvents.3.0.impacts.library
+#: src/data/academic-calendar.js:142
+msgctxt "text:academicCalendarEvents.3.0.impacts.library"
+msgid "New library cards issued on site"
+msgstr "New library cards issued on site"
+
+#. academicCalendarEvents.3.0.impacts.medicine
+#: src/data/academic-calendar.js:143
+msgctxt "text:academicCalendarEvents.3.0.impacts.medicine"
+msgid "Extra triage for lostness, flight sickness, and surprise"
+msgstr "Extra triage for lostness, flight sickness, and surprise"
+
+#. academicCalendarEvents.4.0.title
+#: src/data/academic-calendar.js:154
+msgctxt "text:academicCalendarEvents.4.0.title"
+msgid "Spring Spell-card Lantern Festival"
+msgstr "Spring Spell-card Lantern Festival"
+
+#. academicCalendarEvents.4.0.window
+#: src/data/academic-calendar.js:155
+msgctxt "text:academicCalendarEvents.4.0.window"
+msgid "Around May’s first full moon"
+msgstr "Around May’s first full moon"
+
+#. academicCalendarEvents.4.0.premise
+#: src/data/academic-calendar.js:156
+msgctxt "text:academicCalendarEvents.4.0.premise"
+msgid ""
+"Lanterns need wind, spell cards need airspace, and kappa power boxes need "
+"nobody touching the red tape."
+msgstr ""
+"Lanterns need wind, spell cards need airspace, and kappa power boxes need "
+"nobody touching the red tape."
+
+#. academicCalendarEvents.4.0.details
+#: src/data/academic-calendar.js:157
+msgctxt "text:academicCalendarEvents.4.0.details"
+msgid ""
+"Six permits remain independent; one return stops opening; night food, aid, "
+"and returning book flocks operate together."
+msgstr ""
+"Six permits remain independent; one return stops opening; night food, aid, "
+"and returning book flocks operate together."
+
+#. academicCalendarEvents.4.0.impacts.course
+#: src/data/academic-calendar.js:159
+msgctxt "text:academicCalendarEvents.4.0.impacts.course"
+msgid "Spell-card practicals become public demonstrations"
+msgstr "Spell-card practicals become public demonstrations"
+
+#. academicCalendarEvents.4.0.impacts.transport
+#: src/data/academic-calendar.js:160
+msgctxt "text:academicCalendarEvents.4.0.impacts.transport"
+msgid "Timed closures above the hall and along the lake"
+msgstr "Timed closures above the hall and along the lake"
+
+#. academicCalendarEvents.4.0.impacts.library
+#: src/data/academic-calendar.js:161
+msgctxt "text:academicCalendarEvents.4.0.impacts.library"
+msgid "North Wing extends; returning zone loses 18 seats"
+msgstr "North Wing extends; returning zone loses 18 seats"
+
+#. academicCalendarEvents.4.0.impacts.medicine
+#: src/data/academic-calendar.js:162
+msgctxt "text:academicCalendarEvents.4.0.impacts.medicine"
+msgid "First-aid post and Eientei transfer line activate"
+msgstr "First-aid post and Eientei transfer line activate"
+
+#. academicCalendarEvents.5.0.title
+#: src/data/academic-calendar.js:174
+msgctxt "text:academicCalendarEvents.5.0.title"
+msgid "Rainy-season campus-paper corrections"
+msgstr "Rainy-season campus-paper corrections"
+
+#. academicCalendarEvents.5.0.window
+#: src/data/academic-calendar.js:175
+msgctxt "text:academicCalendarEvents.5.0.window"
+msgid "All June"
+msgstr "All June"
+
+#. academicCalendarEvents.5.0.premise
+#: src/data/academic-calendar.js:176
+msgctxt "text:academicCalendarEvents.5.0.premise"
+msgid ""
+"Rain washes headlines into body copy and pushes dates to tomorrow; Aya calls "
+"it improved layout mobility."
+msgstr ""
+"Rain washes headlines into body copy and pushes dates to tomorrow; Aya calls "
+"it improved layout mobility."
+
+#. academicCalendarEvents.5.0.details
+#: src/data/academic-calendar.js:177
+msgctxt "text:academicCalendarEvents.5.0.details"
+msgid ""
+"Paper notices carry version and dryness; board credibility is counted in "
+"nails; the library lends paperweight stones."
+msgstr ""
+"Paper notices carry version and dryness; board credibility is counted in "
+"nails; the library lends paperweight stones."
+
+#. academicCalendarEvents.5.0.impacts.course
+#: src/data/academic-calendar.js:179
+msgctxt "text:academicCalendarEvents.5.0.impacts.course"
+msgid "Journalism submits one legible correction daily"
+msgstr "Journalism submits one legible correction daily"
+
+#. academicCalendarEvents.5.0.impacts.transport
+#: src/data/academic-calendar.js:180
+msgctxt "text:academicCalendarEvents.5.0.impacts.transport"
+msgid "Mountain kite post closes; tengu oral delivery expands"
+msgstr "Mountain kite post closes; tengu oral delivery expands"
+
+#. academicCalendarEvents.5.0.impacts.library
+#: src/data/academic-calendar.js:181
+msgctxt "text:academicCalendarEvents.5.0.impacts.library"
+msgid "Paperweight loans and wet-book quarantine open"
+msgstr "Paperweight loans and wet-book quarantine open"
+
+#. academicCalendarEvents.5.0.impacts.medicine
+#: src/data/academic-calendar.js:182
+msgctxt "text:academicCalendarEvents.5.0.impacts.medicine"
+msgid "Extra wet-wing and ink-allergy clinic"
+msgstr "Extra wet-wing and ink-allergy clinic"
+
+#. academicCalendarEvents.6.0.title
+#: src/data/academic-calendar.js:193
+msgctxt "text:academicCalendarEvents.6.0.title"
+msgid "Summer night classes & night-sparrow supper term"
+msgstr "Summer night classes & night-sparrow supper term"
+
+#. academicCalendarEvents.6.0.window
+#: src/data/academic-calendar.js:194
+msgctxt "text:academicCalendarEvents.6.0.window"
+msgid "10 July–31 August"
+msgstr "10 July–31 August"
+
+#. academicCalendarEvents.6.0.premise
+#: src/data/academic-calendar.js:195
+msgctxt "text:academicCalendarEvents.6.0.premise"
+msgid "Classes begin after dusk; Mystia insists her singing is a bell, not noise."
+msgstr "Classes begin after dusk; Mystia insists her singing is a bell, not noise."
+
+#. academicCalendarEvents.6.0.details
+#: src/data/academic-calendar.js:196
+msgctxt "text:academicCalendarEvents.6.0.details"
+msgid ""
+"Night classes take lantern attendance; dining serves lamprey; housing "
+"records performance and complaints separately."
+msgstr ""
+"Night classes take lantern attendance; dining serves lamprey; housing "
+"records performance and complaints separately."
+
+#. academicCalendarEvents.6.0.impacts.course
+#: src/data/academic-calendar.js:198
+msgctxt "text:academicCalendarEvents.6.0.impacts.course"
+msgid "Afternoon classes shift two bells; night fieldwork expands"
+msgstr "Afternoon classes shift two bells; night fieldwork expands"
+
+#. academicCalendarEvents.6.0.impacts.transport
+#: src/data/academic-calendar.js:199
+msgctxt "text:academicCalendarEvents.6.0.impacts.transport"
+msgid "Night-sparrow lantern path opens; brooms fly low and slow"
+msgstr "Night-sparrow lantern path opens; brooms fly low and slow"
+
+#. academicCalendarEvents.6.0.impacts.library
+#: src/data/academic-calendar.js:200
+msgctxt "text:academicCalendarEvents.6.0.impacts.library"
+msgid "Night reading room stays open until 02:00"
+msgstr "Night reading room stays open until 02:00"
+
+#. academicCalendarEvents.6.0.impacts.medicine
+#: src/data/academic-calendar.js:201
+msgctxt "text:academicCalendarEvents.6.0.impacts.medicine"
+msgid "Night-blindness and song-residue clinic extends"
+msgstr "Night-blindness and song-residue clinic extends"
+
+#. academicCalendarEvents.7.0.title
+#: src/data/academic-calendar.js:213
+msgctxt "text:academicCalendarEvents.7.0.title"
+msgid "Seasonal-energy anomaly observation week"
+msgstr "Seasonal-energy anomaly observation week"
+
+#. academicCalendarEvents.7.0.window
+#: src/data/academic-calendar.js:214
+msgctxt "text:academicCalendarEvents.7.0.window"
+msgid "Third week of August"
+msgstr "Third week of August"
+
+#. academicCalendarEvents.7.0.premise
+#: src/data/academic-calendar.js:215
+msgctxt "text:academicCalendarEvents.7.0.premise"
+msgid ""
+"Four seasonal energies appear together; the seasonal-anomaly course demands "
+"records before culprit guesses."
+msgstr ""
+"Four seasonal energies appear together; the seasonal-anomaly course demands "
+"records before culprit guesses."
+
+#. academicCalendarEvents.7.0.details
+#: src/data/academic-calendar.js:216
+msgctxt "text:academicCalendarEvents.7.0.details"
+msgid ""
+"One classroom corner blooms, another frosts; kappa meters treat maple leaves "
+"as firmware; the clinic separates heat, cold, and elation."
+msgstr ""
+"One classroom corner blooms, another frosts; kappa meters treat maple leaves "
+"as firmware; the clinic separates heat, cold, and elation."
+
+#. academicCalendarEvents.7.0.impacts.course
+#: src/data/academic-calendar.js:218
+msgctxt "text:academicCalendarEvents.7.0.impacts.course"
+msgid "Cross-school observation replaces two ordinary periods"
+msgstr "Cross-school observation replaces two ordinary periods"
+
+#. academicCalendarEvents.7.0.impacts.transport
+#: src/data/academic-calendar.js:219
+msgctxt "text:academicCalendarEvents.7.0.impacts.transport"
+msgid "Affected routes change their traversable season every three hours"
+msgstr "Affected routes change their traversable season every three hours"
+
+#. academicCalendarEvents.7.0.impacts.library
+#: src/data/academic-calendar.js:220
+msgctxt "text:academicCalendarEvents.7.0.impacts.library"
+msgid "All four seasons enter course reserves"
+msgstr "All four seasons enter course reserves"
+
+#. academicCalendarEvents.7.0.impacts.medicine
+#: src/data/academic-calendar.js:221
+msgctxt "text:academicCalendarEvents.7.0.impacts.medicine"
+msgid "Clinic load rises; do not close cases by average temperature"
+msgstr "Clinic load rises; do not close cases by average temperature"
+
+#. academicCalendarEvents.8.0.title
+#: src/data/academic-calendar.js:232
+msgctxt "text:academicCalendarEvents.8.0.title"
+msgid "Autumn Higan life-death transit field week"
+msgstr "Autumn Higan life-death transit field week"
+
+#. academicCalendarEvents.8.0.window
+#: src/data/academic-calendar.js:233
+msgctxt "text:academicCalendarEvents.8.0.window"
+msgid "20–26 September"
+msgstr "20–26 September"
+
+#. academicCalendarEvents.8.0.premise
+#: src/data/academic-calendar.js:234
+msgctxt "text:academicCalendarEvents.8.0.premise"
+msgid "Higan queues sort not by life or death but return seals; Komachi has no official view."
+msgstr "Higan queues sort not by life or death but return seals; Komachi has no official view."
+
+#. academicCalendarEvents.8.0.details
+#: src/data/academic-calendar.js:235
+msgctxt "text:academicCalendarEvents.8.0.details"
+msgid ""
+"Eiki teaches property and causal responsibility; Youmu counts phantom "
+"halves; field students prove intent to return before sunset."
+msgstr ""
+"Eiki teaches property and causal responsibility; Youmu counts phantom "
+"halves; field students prove intent to return before sunset."
+
+#. academicCalendarEvents.8.0.impacts.course
+#: src/data/academic-calendar.js:237
+msgctxt "text:academicCalendarEvents.8.0.impacts.course"
+msgid "Law, history, and fieldwork combine"
+msgstr "Law, history, and fieldwork combine"
+
+#. academicCalendarEvents.8.0.impacts.transport
+#: src/data/academic-calendar.js:238
+msgctxt "text:academicCalendarEvents.8.0.impacts.transport"
+msgid "Add 12 minutes to Higan ferry waits"
+msgstr "Add 12 minutes to Higan ferry waits"
+
+#. academicCalendarEvents.8.0.impacts.library
+#: src/data/academic-calendar.js:239
+msgctxt "text:academicCalendarEvents.8.0.impacts.library"
+msgid "Deceased rolls become reading-room only"
+msgstr "Deceased rolls become reading-room only"
+
+#. academicCalendarEvents.8.0.impacts.medicine
+#: src/data/academic-calendar.js:240
+msgctxt "text:academicCalendarEvents.8.0.impacts.medicine"
+msgid "Uncertain-existence cases receive triage before mortality fields"
+msgstr "Uncertain-existence cases receive triage before mortality fields"
+
+#. academicCalendarEvents.9.0.title
+#: src/data/academic-calendar.js:251
+msgctxt "text:academicCalendarEvents.9.0.title"
+msgid "Harvest, shrine festival & three-faith stall bidding"
+msgstr "Harvest, shrine festival & three-faith stall bidding"
+
+#. academicCalendarEvents.9.0.window
+#: src/data/academic-calendar.js:252
+msgctxt "text:academicCalendarEvents.9.0.window"
+msgid "7–20 October"
+msgstr "7–20 October"
+
+#. academicCalendarEvents.9.0.premise
+#: src/data/academic-calendar.js:253
+msgctxt "text:academicCalendarEvents.9.0.premise"
+msgid ""
+"Moriya wants power, Myouren wants public passage, Hakurei wants offerings; "
+"Miko hears all three deny competing."
+msgstr ""
+"Moriya wants power, Myouren wants public passage, Hakurei wants offerings; "
+"Miko hears all three deny competing."
+
+#. academicCalendarEvents.9.0.details
+#: src/data/academic-calendar.js:254
+msgctxt "text:academicCalendarEvents.9.0.details"
+msgid ""
+"Faith & Coexistence hosts public hearings; miracles, merit, and “free "
+"samples” do not bypass fees."
+msgstr ""
+"Faith & Coexistence hosts public hearings; miracles, merit, and “free "
+"samples” do not bypass fees."
+
+#. academicCalendarEvents.9.0.impacts.course
+#: src/data/academic-calendar.js:256
+msgctxt "text:academicCalendarEvents.9.0.impacts.course"
+msgid "Public-governance class rotates through three grounds"
+msgstr "Public-governance class rotates through three grounds"
+
+#. academicCalendarEvents.9.0.impacts.transport
+#: src/data/academic-calendar.js:257
+msgctxt "text:academicCalendarEvents.9.0.impacts.transport"
+msgid "One-way gates; extra mountain tengu service"
+msgstr "One-way gates; extra mountain tengu service"
+
+#. academicCalendarEvents.9.0.impacts.library
+#: src/data/academic-calendar.js:258
+msgctxt "text:academicCalendarEvents.9.0.impacts.library"
+msgid "Festival rules and cookbooks see heavy loans"
+msgstr "Festival rules and cookbooks see heavy loans"
+
+#. academicCalendarEvents.9.0.impacts.medicine
+#: src/data/academic-calendar.js:259
+msgctxt "text:academicCalendarEvents.9.0.impacts.medicine"
+msgid "Separate queues for overeating, miracle vertigo, and faith disputes"
+msgstr "Separate queues for overeating, miracle vertigo, and faith disputes"
+
+#. academicCalendarEvents.10.0.title
+#: src/data/academic-calendar.js:270
+msgctxt "text:academicCalendarEvents.10.0.title"
+msgid "Maple chronicle correction & fallen-leaf versions"
+msgstr "Maple chronicle correction & fallen-leaf versions"
+
+#. academicCalendarEvents.10.0.window
+#: src/data/academic-calendar.js:271
+msgctxt "text:academicCalendarEvents.10.0.window"
+msgid "All November"
+msgstr "All November"
+
+#. academicCalendarEvents.10.0.premise
+#: src/data/academic-calendar.js:272
+msgctxt "text:academicCalendarEvents.10.0.premise"
+msgid ""
+"Every leaf resembles a version; Keine asks whether it is an addition, "
+"deletion, or the tree’s own merge."
+msgstr ""
+"Every leaf resembles a version; Keine asks whether it is an addition, "
+"deletion, or the tree’s own merge."
+
+#. academicCalendarEvents.10.0.details
+#: src/data/academic-calendar.js:273
+msgctxt "text:academicCalendarEvents.10.0.details"
+msgid ""
+"Hieda opens the red-thread desk; real commits remain distinct from merges; "
+"Aya may report a merge but not call it the day’s only commit."
+msgstr ""
+"Hieda opens the red-thread desk; real commits remain distinct from merges; "
+"Aya may report a merge but not call it the day’s only commit."
+
+#. academicCalendarEvents.10.0.impacts.course
+#: src/data/academic-calendar.js:275
+msgctxt "text:academicCalendarEvents.10.0.impacts.course"
+msgid "Chronicle classes replace midterm summaries with version tracing"
+msgstr "Chronicle classes replace midterm summaries with version tracing"
+
+#. academicCalendarEvents.10.0.impacts.transport
+#: src/data/academic-calendar.js:276
+msgctxt "text:academicCalendarEvents.10.0.impacts.transport"
+msgid "Maple-covered mountain paths add 4 minutes"
+msgstr "Maple-covered mountain paths add 4 minutes"
+
+#. academicCalendarEvents.10.0.impacts.library
+#: src/data/academic-calendar.js:277
+msgctxt "text:academicCalendarEvents.10.0.impacts.library"
+msgid "Version-comparison desks open; six general seats close"
+msgstr "Version-comparison desks open; six general seats close"
+
+#. academicCalendarEvents.10.0.impacts.medicine
+#: src/data/academic-calendar.js:278
+msgctxt "text:academicCalendarEvents.10.0.impacts.medicine"
+msgid "Leaf-allergy and chronicle-anxiety clinic"
+msgstr "Leaf-allergy and chronicle-anxiety clinic"
+
+#. academicCalendarEvents.11.0.title
+#: src/data/academic-calendar.js:289
+msgctxt "text:academicCalendarEvents.11.0.title"
+msgid "Winter seals, book hibernation & year-end closure"
+msgstr "Winter seals, book hibernation & year-end closure"
+
+#. academicCalendarEvents.11.0.window
+#: src/data/academic-calendar.js:290
+msgctxt "text:academicCalendarEvents.11.0.window"
+msgid "18–31 December"
+msgstr "18–31 December"
+
+#. academicCalendarEvents.11.0.premise
+#: src/data/academic-calendar.js:291
+msgctxt "text:academicCalendarEvents.11.0.premise"
+msgid ""
+"Hibernating books sign attendance first; waking seals sign out first; "
+"year-end files recognise only the first timeline."
+msgstr ""
+"Hibernating books sign attendance first; waking seals sign out first; "
+"year-end files recognise only the first timeline."
+
+#. academicCalendarEvents.11.0.details
+#: src/data/academic-calendar.js:292
+msgctxt "text:academicCalendarEvents.11.0.details"
+msgid ""
+"The library calls shelves; the magic tower reduces load; the clinic issues "
+"hibernation guidance; housing accepts notes read next spring."
+msgstr ""
+"The library calls shelves; the magic tower reduces load; the clinic issues "
+"hibernation guidance; housing accepts notes read next spring."
+
+#. academicCalendarEvents.11.0.impacts.course
+#: src/data/academic-calendar.js:294
+msgctxt "text:academicCalendarEvents.11.0.impacts.course"
+msgid "Courses close; unfinished work may enter hibernation status"
+msgstr "Courses close; unfinished work may enter hibernation status"
+
+#. academicCalendarEvents.11.0.impacts.transport
+#: src/data/academic-calendar.js:295
+msgctxt "text:academicCalendarEvents.11.0.impacts.transport"
+msgid "Night broom routes contract; quiet ground routes open"
+msgstr "Night broom routes contract; quiet ground routes open"
+
+#. academicCalendarEvents.11.0.impacts.library
+#: src/data/academic-calendar.js:296
+msgctxt "text:academicCalendarEvents.11.0.impacts.library"
+msgid "Some holdings hibernate; holds defer until thaw"
+msgstr "Some holdings hibernate; holds defer until thaw"
+
+#. academicCalendarEvents.11.0.impacts.medicine
+#: src/data/academic-calendar.js:297
+msgctxt "text:academicCalendarEvents.11.0.impacts.medicine"
+msgid "Hibernation assessment and cold pharmacy extend"
+msgstr "Hibernation assessment and cold pharmacy extend"
+
+#. academicCalendarEvents.12.0.title
+#: src/data/academic-calendar.js:308
+msgctxt "text:academicCalendarEvents.12.0.title"
+msgid "Full-moon special: lunar phase, pharmacology & identity variance"
+msgstr "Full-moon special: lunar phase, pharmacology & identity variance"
+
+#. academicCalendarEvents.12.0.window
+#: src/data/academic-calendar.js:309
+msgctxt "text:academicCalendarEvents.12.0.window"
+msgid "Every full moon, dusk and night"
+msgstr "Every full moon, dusk and night"
+
+#. academicCalendarEvents.12.0.premise
+#: src/data/academic-calendar.js:310
+msgctxt "text:academicCalendarEvents.12.0.premise"
+msgid ""
+"Full moons alter medicine, routes, beast traits, and attendance; averages "
+"may not wash differences away."
+msgstr ""
+"Full moons alter medicine, routes, beast traits, and attendance; averages "
+"may not wash differences away."
+
+#. academicCalendarEvents.12.0.details
+#: src/data/academic-calendar.js:311
+msgctxt "text:academicCalendarEvents.12.0.details"
+msgid ""
+"Eirin and Keine co-teach but sign separately; Reisen demonstrates "
+"wavelengths; Tewi sells “moon-proof” charms whose receipts guarantee "
+"nothing."
+msgstr ""
+"Eirin and Keine co-teach but sign separately; Reisen demonstrates "
+"wavelengths; Tewi sells “moon-proof” charms whose receipts guarantee "
+"nothing."
+
+#. academicCalendarEvents.12.0.impacts.course
+#: src/data/academic-calendar.js:313
+msgctxt "text:academicCalendarEvents.12.0.impacts.course"
+msgid "Special night class replaces ordinary study"
+msgstr "Special night class replaces ordinary study"
+
+#. academicCalendarEvents.12.0.impacts.transport
+#: src/data/academic-calendar.js:314
+msgctxt "text:academicCalendarEvents.12.0.impacts.transport"
+msgid "Ground routes through Eientei add 7 minutes"
+msgstr "Ground routes through Eientei add 7 minutes"
+
+#. academicCalendarEvents.12.0.impacts.library
+#: src/data/academic-calendar.js:315
+msgctxt "text:academicCalendarEvents.12.0.impacts.library"
+msgid "Full-moon holdings open; ten ordinary seats close"
+msgstr "Full-moon holdings open; ten ordinary seats close"
+
+#. academicCalendarEvents.12.0.impacts.medicine
+#: src/data/academic-calendar.js:316
+msgctxt "text:academicCalendarEvents.12.0.impacts.medicine"
+msgid "Lunar-sensitive triage load rises"
+msgstr "Lunar-sensitive triage load rises"
+
+#. academicCalendarEvents.13.0.title
+#: src/data/academic-calendar.js:327
+msgctxt "text:academicCalendarEvents.13.0.title"
+msgid "New-moon invisible-boundary inventory"
+msgstr "New-moon invisible-boundary inventory"
+
+#. academicCalendarEvents.13.0.window
+#: src/data/academic-calendar.js:328
+msgctxt "text:academicCalendarEvents.13.0.window"
+msgid "Every new-moon night"
+msgstr "Every new-moon night"
+
+#. academicCalendarEvents.13.0.premise
+#: src/data/academic-calendar.js:329
+msgctxt "text:academicCalendarEvents.13.0.premise"
+msgid "An unseen boundary is not absent; seeing Yukari nearby does not complete inventory."
+msgstr "An unseen boundary is not absent; seeing Yukari nearby does not complete inventory."
+
+#. academicCalendarEvents.13.0.details
+#: src/data/academic-calendar.js:330
+msgctxt "text:academicCalendarEvents.13.0.details"
+msgid ""
+"Boundary Studies walks every entrance; non-flier links remain; every "
+"shortcut needs signatures at both ends."
+msgstr ""
+"Boundary Studies walks every entrance; non-flier links remain; every "
+"shortcut needs signatures at both ends."
+
+#. academicCalendarEvents.13.0.impacts.course
+#: src/data/academic-calendar.js:332
+msgctxt "text:academicCalendarEvents.13.0.impacts.course"
+msgid "Boundary practical moves to night"
+msgstr "Boundary practical moves to night"
+
+#. academicCalendarEvents.13.0.impacts.transport
+#: src/data/academic-calendar.js:333
+msgctxt "text:academicCalendarEvents.13.0.impacts.transport"
+msgid "Broom airways close; walking adds 2 minutes"
+msgstr "Broom airways close; walking adds 2 minutes"
+
+#. academicCalendarEvents.13.0.impacts.library
+#: src/data/academic-calendar.js:334
+msgctxt "text:academicCalendarEvents.13.0.impacts.library"
+msgid "Boundary maps unfold only at reading desks"
+msgstr "Boundary maps unfold only at reading desks"
+
+#. academicCalendarEvents.13.0.impacts.medicine
+#: src/data/academic-calendar.js:335
+msgctxt "text:academicCalendarEvents.13.0.impacts.medicine"
+msgid "Extra disorientation and boundary-vertigo rounds"
+msgstr "Extra disorientation and boundary-vertigo rounds"
