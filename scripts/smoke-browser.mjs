@@ -772,11 +772,14 @@ try {
       courseCode, status: 'enrolled', createdAt: new Date().toISOString()
     }));
     localStorage.setItem('tu:courses:registration', JSON.stringify({ schema: 1, term: '2026-autumn', entries }));
+    window.__tuOverloadReloadPending = true;
     location.reload();
     return true;
   })()`);
   check(overload, "Could not seed the soft-credit-limit test.");
-  await eventually(() => cdp.evaluate("Boolean(document.querySelector('[data-course-filter-form]'))"));
+  // The old document still contains this form until navigation commits. Its
+  // marker must disappear before controls can prove the replacement is ready.
+  await eventually(() => cdp.evaluate("!window.__tuOverloadReloadPending && document.readyState === 'complete' && document.documentElement.dataset.tuReady === 'true' && Boolean(document.querySelector('[data-course-filter-form]'))"));
   const overloadAllowed = await cdp.evaluate(`(async () => {
     document.querySelector('[data-course-select="FCP-104"]').click();
     await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));

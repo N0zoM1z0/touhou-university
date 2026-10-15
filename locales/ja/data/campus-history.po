@@ -1870,19 +1870,19 @@ msgstr ""
 "を求めた。紫は発行箱を元の二十の門へ接続し、各門へ「箱内」と書き足すことを拒否した。"
 
 #. text:campusHistory.press-window-needs-its-own-lens.era
-#: src/data/campus-history.js:536
+#: src/data/campus-history.js:535
 msgctxt "text:campusHistory.press-window-needs-its-own-lens.era"
 msgid "Publication lens calibration"
 msgstr "刊行検査窓の調整期"
 
 #. text:campusHistory.press-window-needs-its-own-lens.title
-#: src/data/campus-history.js:537
+#: src/data/campus-history.js:536
 msgctxt "text:campusHistory.press-window-needs-its-own-lens.title"
 msgid "The inspection window receives a numbered lens"
 msgstr "検査窓に番号付きのレンズが渡る"
 
 #. text:campusHistory.press-window-needs-its-own-lens.summary
-#: src/data/campus-history.js:538
+#: src/data/campus-history.js:537
 msgctxt "text:campusHistory.press-window-needs-its-own-lens.summary"
 msgid ""
 "The kappa publication press finishes its paper checks, but the inspection "
@@ -1895,10 +1895,46 @@ msgstr ""
 "は、窓自身の苦情も検収票に残さなければならない。黙ったままの窓を、検査済みとは数えられない。"
 
 #. text:campusHistory.press-window-needs-its-own-lens.marginalia
-#: src/data/campus-history.js:539
+#: src/data/campus-history.js:538
 msgctxt "text:campusHistory.press-window-needs-its-own-lens.marginalia"
 msgid ""
 "Aya has already written “all windows open.” Akyuu withholds the dispatch "
 "seal. Marisa suggests looking through the wall; Nitori asks whether the wall "
 "will provide an inspection report."
 msgstr "文はもう「全窓開放」と書いていた。阿求は発送印を預かったまま。魔理沙が壁越しに見ればよいと言うと、にとりは「その壁は検収報告を出すのかい」と聞いた。"
+
+#. text:campusHistory.inspector-waits-for-the-new-sheet.era
+#: src/data/campus-history.js:548
+msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.era"
+msgid "Replacement-sheet inspection"
+msgstr "差し替え用紙の検収期"
+
+#. text:campusHistory.inspector-waits-for-the-new-sheet.title
+#: src/data/campus-history.js:549
+msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.title"
+msgid "The inspector must wait for the old sheet to leave"
+msgstr "検査係は古い紙が退くまで待つ"
+
+#. text:campusHistory.inspector-waits-for-the-new-sheet.summary
+#: src/data/campus-history.js:550
+msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.summary"
+msgid ""
+"The dispatch window opens, but the inspector reaches for a course control on "
+"the sheet being replaced. The old sheet still carries the eligible-only "
+"list; its familiar heading does not mean the new register has arrived. Keine "
+"marks the departing sheet, and the inspection resumes only after that mark "
+"has gone and the new desk is ready. The registrar keeps the same records; "
+"the inspection finally waits its turn."
+msgstr ""
+"発送所の窓は開いたが、検査係は差し替え途中の履修表を操作しようとした。古い紙には「履修可能な科目のみ」の絞り込みが残っている。見慣れた見出しがあっても、"
+"新しい学籍簿が届いた証拠にはならない。慧音は退ける紙に印を付け、その印が消えて新しい窓口の準備が整ってから検収を再開した。教務の記録はそのまま、検査係が"
+"ようやく自分の順番を待つことになった。"
+
+#. text:campusHistory.inspector-waits-for-the-new-sheet.marginalia
+#: src/data/campus-history.js:551
+msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.marginalia"
+msgid ""
+"Aya calls it a disappearing course. Keine points to the departing sheet. "
+"Marisa offers to hold both editions in place; Akyuu asks which one the "
+"inspector intends to certify."
+msgstr "文は「科目が消失」と書いた。慧音は退けられる古い紙を指さす。魔理沙は両方を留めておこうと言い、阿求はどちらの版に検収印を押すつもりなのかと尋ねた。"

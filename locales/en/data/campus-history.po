@@ -2250,19 +2250,19 @@ msgstr ""
 "to add “inside the box” to their addresses."
 
 #. text:campusHistory.press-window-needs-its-own-lens.era
-#: src/data/campus-history.js:536
+#: src/data/campus-history.js:535
 msgctxt "text:campusHistory.press-window-needs-its-own-lens.era"
 msgid "Publication lens calibration"
 msgstr "Publication lens calibration"
 
 #. text:campusHistory.press-window-needs-its-own-lens.title
-#: src/data/campus-history.js:537
+#: src/data/campus-history.js:536
 msgctxt "text:campusHistory.press-window-needs-its-own-lens.title"
 msgid "The inspection window receives a numbered lens"
 msgstr "The inspection window receives a numbered lens"
 
 #. text:campusHistory.press-window-needs-its-own-lens.summary
-#: src/data/campus-history.js:538
+#: src/data/campus-history.js:537
 msgctxt "text:campusHistory.press-window-needs-its-own-lens.summary"
 msgid ""
 "The kappa publication press finishes its paper checks, but the inspection "
@@ -2278,7 +2278,7 @@ msgstr ""
 "inspection slip; a silent window cannot be counted as a passed inspection."
 
 #. text:campusHistory.press-window-needs-its-own-lens.marginalia
-#: src/data/campus-history.js:539
+#: src/data/campus-history.js:538
 msgctxt "text:campusHistory.press-window-needs-its-own-lens.marginalia"
 msgid ""
 "Aya has already written “all windows open.” Akyuu withholds the dispatch "
@@ -2288,3 +2288,45 @@ msgstr ""
 "Aya has already written “all windows open.” Akyuu withholds the dispatch "
 "seal. Marisa suggests looking through the wall; Nitori asks whether the wall "
 "will provide an inspection report."
+
+#. text:campusHistory.inspector-waits-for-the-new-sheet.era
+#: src/data/campus-history.js:548
+msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.era"
+msgid "Replacement-sheet inspection"
+msgstr "Replacement-sheet inspection"
+
+#. text:campusHistory.inspector-waits-for-the-new-sheet.title
+#: src/data/campus-history.js:549
+msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.title"
+msgid "The inspector must wait for the old sheet to leave"
+msgstr "The inspector must wait for the old sheet to leave"
+
+#. text:campusHistory.inspector-waits-for-the-new-sheet.summary
+#: src/data/campus-history.js:550
+msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.summary"
+msgid ""
+"The dispatch window opens, but the inspector reaches for a course control on "
+"the sheet being replaced. The old sheet still carries the eligible-only "
+"list; its familiar heading does not mean the new register has arrived. Keine "
+"marks the departing sheet, and the inspection resumes only after that mark "
+"has gone and the new desk is ready. The registrar keeps the same records; "
+"the inspection finally waits its turn."
+msgstr ""
+"The dispatch window opens, but the inspector reaches for a course control on "
+"the sheet being replaced. The old sheet still carries the eligible-only "
+"list; its familiar heading does not mean the new register has arrived. Keine "
+"marks the departing sheet, and the inspection resumes only after that mark "
+"has gone and the new desk is ready. The registrar keeps the same records; "
+"the inspection finally waits its turn."
+
+#. text:campusHistory.inspector-waits-for-the-new-sheet.marginalia
+#: src/data/campus-history.js:551
+msgctxt "text:campusHistory.inspector-waits-for-the-new-sheet.marginalia"
+msgid ""
+"Aya calls it a disappearing course. Keine points to the departing sheet. "
+"Marisa offers to hold both editions in place; Akyuu asks which one the "
+"inspector intends to certify."
+msgstr ""
+"Aya calls it a disappearing course. Keine points to the departing sheet. "
+"Marisa offers to hold both editions in place; Akyuu asks which one the "
+"inspector intends to certify."

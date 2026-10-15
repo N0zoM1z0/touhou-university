@@ -69,6 +69,10 @@ All notable changes to the Touhou University project are recorded here.
   locally, installed its Linux dependencies and retained startup diagnostics
   after the runner's preinstalled browser failed to expose its debugging port.
   Backfilled TU-H-042 and added the trilingual TU-H-043 inspection-window entry.
+- Made the browser's reloaded-registration check wait for the replacement
+  document and completed UI initialization, preventing an old filtered course
+  list from satisfying readiness before navigation commits. Backfilled TU-H-043
+  and recorded the correction in trilingual TU-H-044.
 - Added PO parser/compiler/merge, translator-metadata, interpolation, compiled
   defaults, stylesheet includes and DOM-event/storage distinction regressions.
   Publication validation checks local assets/imports and excludes authoring data.
