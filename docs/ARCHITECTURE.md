@@ -139,6 +139,9 @@ Git subjects remain in source code. The checker explicitly reads first-parent
 The workflow in `.github/workflows/pages.yml` validates source and browser flows,
 uploads **only `dist/`**, and deploys only `main`. Checkout fetches full history.
 The publication directory becomes the Pages root, preserving public URLs.
+Browser acceptance installs the explicitly pinned Chrome for Testing build and
+its Linux dependencies; update the pin together with a successful local browser
+run. Failed browser runs preserve startup output and process status in CI logs.
 
 Repository Settings → Pages → Source uses **GitHub Actions**, migrated from
 **Deploy from a branch** for release 0.31.0. A new deployment must retain that

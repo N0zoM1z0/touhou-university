@@ -35,7 +35,12 @@ const browser = spawn(chrome, [
   `--user-data-dir=${profile}`,
   "--window-size=1440,1000",
   siteUrl,
-], { stdio: "ignore" });
+], { stdio: ["ignore", "ignore", "pipe"] });
+let browserDiagnostics = "";
+browser.stderr.on("data", (chunk) => {
+  browserDiagnostics = (browserDiagnostics + chunk).slice(-8192);
+});
+browser.on("error", (error) => { browserDiagnostics += `\n${error.message}`; });
 
 const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 
@@ -3258,6 +3263,9 @@ try {
   } else {
     console.log("Browser smoke test passed: subpage buttons, persistent admissions, First Bell route/boundary/arrival/print/BBS flow, sealed on-device export/validated import/deletion/visibility, Hieda event/character/version knowledge projections, eight-desk graduation/degree, twelve-path careers/referral, twenty-one-job employment market/denominator hearing/odd-résumé replies, Hyakki Yagyo alumni/mentorship, six-desk festival permits/live routes/clinic load/field closure, 24-station fieldwork dispatch/complication/return/passport/BBS linkage, coursework/exams/defence/transcript, spell-card design/flight/public defence, five-seat research ethics/versioned rulings, rotating lunar PHANTASM entrances/dream branding/transcript isolation, courses, library/appraisal, clinic care/prescriptions/recovery, housing, incident/BBS linkage, deep links, and responsive width.");
   }
+} catch (error) {
+  console.error(`Chrome ${chrome} (exit ${browser.exitCode}, signal ${browser.signalCode}):\n${browserDiagnostics || "No browser diagnostics received."}`);
+  throw error;
 } finally {
   cdp?.close();
   browser.kill("SIGTERM");

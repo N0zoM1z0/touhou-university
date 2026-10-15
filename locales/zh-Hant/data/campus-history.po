@@ -1784,19 +1784,19 @@ msgstr ""
 "繩：路線可以改，停止信號不行。魔理沙選了第一門課，順手把鐘槌借去做共振實驗；報到室在她的卷尾補了一欄——本人已到，鐘槌待歸。"
 
 #. text:campusHistory.three-desks-get-separate-type-cases.era
-#: src/data/campus-history.js:524
+#: src/data/campus-history.js:523
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.era"
 msgid "Gensokyo 142 · Tenth Moon · Three-language typesetting day"
 msgstr "幻想曆一四二年・神無月・三語排字日"
 
 #. text:campusHistory.three-desks-get-separate-type-cases.title
-#: src/data/campus-history.js:525
+#: src/data/campus-history.js:524
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.title"
 msgid "Three review desks receive type cases; issued copies leave the entrance"
 msgstr "三座校閱桌各有字盤，校門前不再堆放發行本"
 
 #. text:campusHistory.three-desks-get-separate-type-cases.summary
-#: src/data/campus-history.js:526
+#: src/data/campus-history.js:525
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.summary"
 msgid ""
 "The Hieda archive separates three-language notices from admissions, course, "
@@ -1814,7 +1814,7 @@ msgstr ""
 "校閱員則終於能先找到該改的那一行。"
 
 #. text:campusHistory.three-desks-get-separate-type-cases.marginalia
-#: src/data/campus-history.js:527
+#: src/data/campus-history.js:526
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.marginalia"
 msgid ""
 "Aya announces three times as many notices; Akyuu notes that only the type "
@@ -1825,3 +1825,37 @@ msgid ""
 msgstr ""
 "文宣布本校新增三倍告示，阿求註明只是分開字盤。魔理沙換走英文桌的一枚活字；排字機因欄位不齊拒絕開印，帕秋莉請她先把那個大括號還回來。紫把發行匣接回原來的"
 "二十扇門，並拒絕替每扇門加上「匣內」二字。"
+
+#. text:campusHistory.press-window-needs-its-own-lens.era
+#: src/data/campus-history.js:536
+msgctxt "text:campusHistory.press-window-needs-its-own-lens.era"
+msgid "Publication lens calibration"
+msgstr "刊印鏡片校驗期"
+
+#. text:campusHistory.press-window-needs-its-own-lens.title
+#: src/data/campus-history.js:537
+msgctxt "text:campusHistory.press-window-needs-its-own-lens.title"
+msgid "The inspection window receives a numbered lens"
+msgstr "驗看窗領到一枚有編號的鏡片"
+
+#. text:campusHistory.press-window-needs-its-own-lens.summary
+#: src/data/campus-history.js:538
+msgctxt "text:campusHistory.press-window-needs-its-own-lens.summary"
+msgid ""
+"The kappa publication press finishes its paper checks, but the inspection "
+"window at the dispatch office will not open. Nitori puts the same numbered "
+"lens used at the workshop into the dispatch case and packs its fittings "
+"alongside it. The next trial must leave the window’s own complaint on the "
+"inspection slip; a silent window cannot be counted as a passed inspection."
+msgstr ""
+"河童刊印機通過紙面校驗，發送所的驗看窗卻遲遲不開。荷取把工房試用的同號鏡片裝進發送箱，連配件一同封裝；下次試印，窗戶自己的抱怨也必須留在驗收單上。沒有出"
+"聲的窗，不能算作已經驗過。"
+
+#. text:campusHistory.press-window-needs-its-own-lens.marginalia
+#: src/data/campus-history.js:539
+msgctxt "text:campusHistory.press-window-needs-its-own-lens.marginalia"
+msgid ""
+"Aya has already written “all windows open.” Akyuu withholds the dispatch "
+"seal. Marisa suggests looking through the wall; Nitori asks whether the wall "
+"will provide an inspection report."
+msgstr "文已經寫好「各窗全面開放」。阿求扣住發送章。魔理沙提議直接看穿牆壁；荷取問牆壁會不會交驗收報告。"

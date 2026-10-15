@@ -2198,19 +2198,19 @@ msgstr ""
 "striker outstanding."
 
 #. text:campusHistory.three-desks-get-separate-type-cases.era
-#: src/data/campus-history.js:524
+#: src/data/campus-history.js:523
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.era"
 msgid "Gensokyo 142 · Tenth Moon · Three-language typesetting day"
 msgstr "Gensokyo 142 · Tenth Moon · Three-language typesetting day"
 
 #. text:campusHistory.three-desks-get-separate-type-cases.title
-#: src/data/campus-history.js:525
+#: src/data/campus-history.js:524
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.title"
 msgid "Three review desks receive type cases; issued copies leave the entrance"
 msgstr "Three review desks receive type cases; issued copies leave the entrance"
 
 #. text:campusHistory.three-desks-get-separate-type-cases.summary
-#: src/data/campus-history.js:526
+#: src/data/campus-history.js:525
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.summary"
 msgid ""
 "The Hieda archive separates three-language notices from admissions, course, "
@@ -2234,7 +2234,7 @@ msgstr ""
 "the line that needs attention."
 
 #. text:campusHistory.three-desks-get-separate-type-cases.marginalia
-#: src/data/campus-history.js:527
+#: src/data/campus-history.js:526
 msgctxt "text:campusHistory.three-desks-get-separate-type-cases.marginalia"
 msgid ""
 "Aya announces three times as many notices; Akyuu notes that only the type "
@@ -2248,3 +2248,43 @@ msgstr ""
 "press over a mismatched field. Patchouli asks her to return the brace. "
 "Yukari reconnects the publication box to the same twenty gates and refuses "
 "to add “inside the box” to their addresses."
+
+#. text:campusHistory.press-window-needs-its-own-lens.era
+#: src/data/campus-history.js:536
+msgctxt "text:campusHistory.press-window-needs-its-own-lens.era"
+msgid "Publication lens calibration"
+msgstr "Publication lens calibration"
+
+#. text:campusHistory.press-window-needs-its-own-lens.title
+#: src/data/campus-history.js:537
+msgctxt "text:campusHistory.press-window-needs-its-own-lens.title"
+msgid "The inspection window receives a numbered lens"
+msgstr "The inspection window receives a numbered lens"
+
+#. text:campusHistory.press-window-needs-its-own-lens.summary
+#: src/data/campus-history.js:538
+msgctxt "text:campusHistory.press-window-needs-its-own-lens.summary"
+msgid ""
+"The kappa publication press finishes its paper checks, but the inspection "
+"window at the dispatch office will not open. Nitori puts the same numbered "
+"lens used at the workshop into the dispatch case and packs its fittings "
+"alongside it. The next trial must leave the window’s own complaint on the "
+"inspection slip; a silent window cannot be counted as a passed inspection."
+msgstr ""
+"The kappa publication press finishes its paper checks, but the inspection "
+"window at the dispatch office will not open. Nitori puts the same numbered "
+"lens used at the workshop into the dispatch case and packs its fittings "
+"alongside it. The next trial must leave the window’s own complaint on the "
+"inspection slip; a silent window cannot be counted as a passed inspection."
+
+#. text:campusHistory.press-window-needs-its-own-lens.marginalia
+#: src/data/campus-history.js:539
+msgctxt "text:campusHistory.press-window-needs-its-own-lens.marginalia"
+msgid ""
+"Aya has already written “all windows open.” Akyuu withholds the dispatch "
+"seal. Marisa suggests looking through the wall; Nitori asks whether the wall "
+"will provide an inspection report."
+msgstr ""
+"Aya has already written “all windows open.” Akyuu withholds the dispatch "
+"seal. Marisa suggests looking through the wall; Nitori asks whether the wall "
+"will provide an inspection report."

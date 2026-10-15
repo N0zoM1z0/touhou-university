@@ -26,7 +26,15 @@ jobs:
         with:
           node-version: 24
       - run: npm run check
+      - uses: browser-actions/setup-chrome@v2
+        id: chrome
+        with:
+          # Match the Chrome for Testing build used for local acceptance.
+          chrome-version: 156.0.8078.4
+          install-dependencies: true
       - run: npm run test:browser
+        env:
+          CHROME_BIN: ${{ steps.chrome.outputs.chrome-path }}
       - uses: actions/upload-pages-artifact@v4
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         with:
